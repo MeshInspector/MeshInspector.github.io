@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"namespaceMR_1_1PointsLoad.html#acaeabf1d4cced15a0961b626a6e9b868":[6,0,1,0,1,35,4],
+"namespaceMR_1_1PointsSave.html":[6,0,0,20,4],
+"namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab":[6,0,1,0,1,36,3],
+"namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba":[6,0,1,0,1,36,2],
 "namespaceMR_1_1PolylineComponents.html":[6,0,0,20,17],
 "namespaceMR_1_1ProgressBar.html":[6,0,0,20,24],
 "namespaceMR_1_1QualityControl.html":[6,0,1,0,1,39],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "namespacemembers_type_g.html":[6,0,1,1,3,6],
 "namespacemembers_type_h.html":[6,0,1,1,3,7],
 "namespacemembers_type_i.html":[6,0,1,1,3,8],
-"namespacemembers_type_l.html":[6,0,1,1,3,9],
-"namespacemembers_type_m.html":[6,0,1,1,3,10],
-"namespacemembers_type_n.html":[6,0,1,1,3,11],
-"namespacemembers_type_o.html":[6,0,1,1,3,12],
-"namespacemembers_type_p.html":[6,0,1,1,3,13]
+"namespacemembers_type_l.html":[6,0,1,1,3,9]
 };

@@ -29,6 +29,7 @@ var hierarchy =
     [ "mrmeshpy.AlignType", "classmrmeshpy_1_1AlignType.html", null ],
     [ "mrmeshpy.AllLocalTriangulations", "classmrmeshpy_1_1AllLocalTriangulations.html", null ],
     [ "mrmeshpy.AlphaShapeData", "classmrmeshpy_1_1AlphaShapeData.html", null ],
+    [ "mrmeshpy.AlphaShapeStats", "classmrmeshpy_1_1AlphaShapeStats.html", null ],
     [ "mrmeshpy.ObjectVoxels.VolumeRenderingParams.AlphaType", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html", null ],
     [ "mrmeshpy.AngleUnit", "classmrmeshpy_1_1AngleUnit.html", null ],
     [ "mrmeshpy.AnyVisualizeMaskEnum", "classmrmeshpy_1_1AnyVisualizeMaskEnum.html", null ],

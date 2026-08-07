@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20035" bodyend="20038"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20101" bodyend="20104"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1aa84bb3923200632e6ca349ae2199f216" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FunctionVolume" kindref="compound">FunctionVolume</ref></type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20040" bodyend="20045"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20106" bodyend="20111"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1ab8c62cc9f253a203be2c6c5c1dbeed3e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20047" bodyend="20052"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20113" bodyend="20118"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a748625f767842a7fb6c07be3701c1d8b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20054" bodyend="20059"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20120" bodyend="20125"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a7a7defd2eaf0e405c7f77b086dcdc95e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20061" bodyend="20064"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20127" bodyend="20130"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a70ebc4b63b3936f9ce0b050838d2d274" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -164,35 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20066" bodyend="20069"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a4c8e9ed7afde0f568db6de2d11037a3a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition> int mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</definition>
-        <argsstring>(Mesh mesh, float frequency, float resolution)</argsstring>
-        <name>getNumberOfVoxels</name>
-        <qualifiedname>mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>frequency</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>resolution</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>Returns number of voxels that would be used to perform \\ref fillWithTPMS
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20072" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20072" bodyend="20075"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20132" bodyend="20135"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a03314f098307e99632c8162681ff74ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -220,7 +192,35 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20078" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20078" bodyend="20081"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20138" bodyend="20141"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a4c8e9ed7afde0f568db6de2d11037a3a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</definition>
+        <argsstring>(Mesh mesh, float frequency, float resolution)</argsstring>
+        <name>getNumberOfVoxels</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>frequency</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns number of voxels that would be used to perform \\ref fillWithTPMS
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20144" bodyend="20147"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1afa0eb274c9b05234005a0e2048da5138" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20083" bodyend="20086"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20149" bodyend="20152"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a776838a221f3ae9ec41151f4357805e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
@@ -252,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20088" bodyend="20091"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20154" bodyend="20157"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a585e3517a1172fc0cfc4e64b65fef18f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -272,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20093" bodyend="20097"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20159" bodyend="20163"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -281,7 +281,7 @@
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19900" bodyend="20096"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19966" bodyend="20162"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a840fc824cb91f70598c369f2255c0df1" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>build</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1aa84bb3923200632e6ca349ae2199f216" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>buildVolume</name></member>
@@ -289,8 +289,8 @@
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a748625f767842a7fb6c07be3701c1d8b" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>estimateIso</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a7a7defd2eaf0e405c7f77b086dcdc95e" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>fill</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a70ebc4b63b3936f9ce0b050838d2d274" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getMinimalResolution</name></member>
-      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a4c8e9ed7afde0f568db6de2d11037a3a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a03314f098307e99632c8162681ff74ec" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a4c8e9ed7afde0f568db6de2d11037a3a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1afa0eb274c9b05234005a0e2048da5138" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getTypeNames</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a776838a221f3ae9ec41151f4357805e0" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getTypeTooltips</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a585e3517a1172fc0cfc4e64b65fef18f" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>isThick</name></member>

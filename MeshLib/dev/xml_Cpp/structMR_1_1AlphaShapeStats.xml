@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1AlphaShapeStats" kind="struct" language="C++" prot="public">
+    <compoundname>MR::AlphaShapeStats</compoundname>
+    <includes refid="MRAlphaShape_8h" local="no">MRMesh/MRAlphaShape.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kind="variable"><name>consideredTris</name></member>
+      <member refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kind="variable"><name>touchableTris</name></member>
+      <member refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" kind="variable"><name>inBallTests</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" kind="function"><name>operator+=</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>the amount of work done during the search of alpha-shape triangles; every function below only increases the counters, never resets them, so the statistics of several calls can be accumulated in one object </para>
+    </detaileddescription>
+    <location file="MRMesh/MRAlphaShape.h" line="52" column="1" bodyfile="MRMesh/MRAlphaShape.h" bodystart="53" bodyend="74"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>consideredTris</name></member>
+      <member refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>inBallTests</name></member>
+      <member refid="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>touchableTris</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

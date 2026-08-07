@@ -34,6 +34,7 @@ var annotated_dup =
       [ "AlignType", "classmrmeshpy_1_1AlignType.html", "classmrmeshpy_1_1AlignType" ],
       [ "AllLocalTriangulations", "classmrmeshpy_1_1AllLocalTriangulations.html", "classmrmeshpy_1_1AllLocalTriangulations" ],
       [ "AlphaShapeData", "classmrmeshpy_1_1AlphaShapeData.html", "classmrmeshpy_1_1AlphaShapeData" ],
+      [ "AlphaShapeStats", "classmrmeshpy_1_1AlphaShapeStats.html", "classmrmeshpy_1_1AlphaShapeStats" ],
       [ "AngleMeasurementObject", "classmrmeshpy_1_1AngleMeasurementObject.html", "classmrmeshpy_1_1AngleMeasurementObject" ],
       [ "AngleUnit", "classmrmeshpy_1_1AngleUnit.html", "classmrmeshpy_1_1AngleUnit" ],
       [ "AnyVisualizeMaskEnum", "classmrmeshpy_1_1AnyVisualizeMaskEnum.html", "classmrmeshpy_1_1AnyVisualizeMaskEnum" ],

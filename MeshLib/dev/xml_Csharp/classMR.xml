@@ -27,6 +27,7 @@
     <innerclass refid="structMR_1_1AffineXf3f" prot="public">MR::AffineXf3f</innerclass>
     <innerclass refid="classMR_1_1AllLocalTriangulations" prot="public">MR::AllLocalTriangulations</innerclass>
     <innerclass refid="classMR_1_1AlphaShapeData" prot="public">MR::AlphaShapeData</innerclass>
+    <innerclass refid="classMR_1_1AlphaShapeStats" prot="public">MR::AlphaShapeStats</innerclass>
     <innerclass refid="classMR_1_1AngleMeasurementObject" prot="public">MR::AngleMeasurementObject</innerclass>
     <innerclass refid="classMR_1_1AnyVisualizeMaskEnum" prot="public">MR::AnyVisualizeMaskEnum</innerclass>
     <innerclass refid="classMR_1_1ArcInterpolationParams" prot="public">MR::ArcInterpolationParams</innerclass>
@@ -241,6 +242,7 @@
     <innerclass refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1" prot="public">MR::Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength</innerclass>
     <innerclass refid="classMR_1_1Const__AllLocalTriangulations" prot="public">MR::Const_AllLocalTriangulations</innerclass>
     <innerclass refid="classMR_1_1Const__AlphaShapeData" prot="public">MR::Const_AlphaShapeData</innerclass>
+    <innerclass refid="classMR_1_1Const__AlphaShapeStats" prot="public">MR::Const_AlphaShapeStats</innerclass>
     <innerclass refid="classMR_1_1Const__AngleMeasurementObject" prot="public">MR::Const_AngleMeasurementObject</innerclass>
     <innerclass refid="classMR_1_1Const__AnyVisualizeMaskEnum" prot="public">MR::Const_AnyVisualizeMaskEnum</innerclass>
     <innerclass refid="classMR_1_1Const__ArcInterpolationParams" prot="public">MR::Const_ArcInterpolationParams</innerclass>
@@ -5904,12 +5906,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="340" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="340" bodyend="345"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="597" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="597" bodyend="602"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a93a5536e895533557e0fa415920257ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a573530507674036fa520e7daa472201c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.findAlphaShapeNeiTriangles</definition>
-        <argsstring>(MR.Const_PointCloud cloud, MR.VertId v, MR.Const_AlphaShapeData data, MR.Triangulation appendTris, MR.Std.Vector_MRPreciseVertCoords neis, bool onlyLargerVids)</argsstring>
+        <argsstring>(MR.Const_PointCloud cloud, MR.VertId v, MR.Const_AlphaShapeData data, MR.Triangulation appendTris, MR.Std.Vector_MRPreciseVertCoords neis, bool onlyLargerVids, MR.AlphaShapeStats? stats=null)</argsstring>
         <name>findAlphaShapeNeiTriangles</name>
         <qualifiedname>MR.findAlphaShapeNeiTriangles</qualifiedname>
         <param>
@@ -5936,19 +5938,24 @@
           <type>bool</type>
           <declname>onlyLargerVids</declname>
         </param>
+        <param>
+          <type><ref refid="classMR_1_1AlphaShapeStats" kindref="compound">MR.AlphaShapeStats</ref>?</type>
+          <declname>stats</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points Generated from function <computeroutput><ref refid="classMR_1a93a5536e895533557e0fa415920257ec" kindref="member">MR.findAlphaShapeNeiTriangles</ref></computeroutput>. </para>
+<para>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points Generated from function <computeroutput><ref refid="classMR_1a573530507674036fa520e7daa472201c" kindref="member">MR.findAlphaShapeNeiTriangles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="352" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="352" bodyend="357"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="609" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="609" bodyend="614"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a52c80af817985580714e6e29e03121f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a32936c120c57269735769d1282afc224" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRTriangulation</type>
         <definition>static unsafe MR.Std.Optional_MRTriangulation MR.findAlphaShapeAllTriangles</definition>
-        <argsstring>(MR.Const_PointCloud cloud, float radius, MR.Std.Const_Function_Bool_From_Float cb)</argsstring>
+        <argsstring>(MR.Const_PointCloud cloud, float radius, MR.Std.Const_Function_Bool_From_Float cb, MR.AlphaShapeStats? stats=null)</argsstring>
         <name>findAlphaShapeAllTriangles</name>
         <qualifiedname>MR.findAlphaShapeAllTriangles</qualifiedname>
         <param>
@@ -5963,19 +5970,24 @@
           <type>MR.Std.Const_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
+        <param>
+          <type><ref refid="classMR_1_1AlphaShapeStats" kindref="compound">MR.AlphaShapeStats</ref>?</type>
+          <declname>stats</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function <computeroutput><ref refid="classMR_1a52c80af817985580714e6e29e03121f1" kindref="member">MR.findAlphaShapeAllTriangles</ref></computeroutput>. </para>
+<para>finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function <computeroutput><ref refid="classMR_1a32936c120c57269735769d1282afc224" kindref="member">MR.findAlphaShapeAllTriangles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="363" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="363" bodyend="368"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="620" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="620" bodyend="625"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1acc4025edc1a7cf2f81f23f5ccb0833fa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1ad70e15784ace180a11f2439a7055346a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Triangulation" kindref="compound">MR.Triangulation</ref></type>
         <definition>static unsafe MR.Triangulation MR.findAlphaShapeAllTriangles</definition>
-        <argsstring>(MR.Const_PointCloud cloud, float radius)</argsstring>
+        <argsstring>(MR.Const_PointCloud cloud, float radius, MR.AlphaShapeStats? stats=null)</argsstring>
         <name>findAlphaShapeAllTriangles</name>
         <qualifiedname>MR.findAlphaShapeAllTriangles</qualifiedname>
         <param>
@@ -5986,19 +5998,24 @@
           <type>float</type>
           <declname>radius</declname>
         </param>
+        <param>
+          <type><ref refid="classMR_1_1AlphaShapeStats" kindref="compound">MR.AlphaShapeStats</ref>?</type>
+          <declname>stats</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a52c80af817985580714e6e29e03121f1" kindref="member">MR.findAlphaShapeAllTriangles</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a32936c120c57269735769d1282afc224" kindref="member">MR.findAlphaShapeAllTriangles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="373" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="373" bodyend="378"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="630" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="630" bodyend="635"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a615e49742fdc3b6ff593028f236f1e8a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1afc73e5f710830fb055cb539763583ae3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRTriangulation</type>
         <definition>static unsafe MR.Std.Optional_MRTriangulation MR.findAlphaShapeAllTriangles</definition>
-        <argsstring>(MR.Const_PointCloud cloud, MR.Const_AlphaShapeData data, MR.Std.Const_Function_Bool_From_Float cb)</argsstring>
+        <argsstring>(MR.Const_PointCloud cloud, MR.Const_AlphaShapeData data, MR.Std.Const_Function_Bool_From_Float cb, MR.AlphaShapeStats? stats=null)</argsstring>
         <name>findAlphaShapeAllTriangles</name>
         <qualifiedname>MR.findAlphaShapeAllTriangles</qualifiedname>
         <param>
@@ -6013,19 +6030,24 @@
           <type>MR.Std.Const_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
+        <param>
+          <type><ref refid="classMR_1_1AlphaShapeStats" kindref="compound">MR.AlphaShapeStats</ref>?</type>
+          <declname>stats</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>finds all triangles of alpha-shape given the data prepared by getAlphaShapeData for the same cloud (preferably with allPoints=true, since the triangles around all points will be searched) Generated from function <computeroutput><ref refid="classMR_1a52c80af817985580714e6e29e03121f1" kindref="member">MR.findAlphaShapeAllTriangles</ref></computeroutput>. </para>
+<para>finds all triangles of alpha-shape given the data prepared by getAlphaShapeData for the same cloud (preferably with allPoints=true, since the triangles around all points will be searched) Generated from function <computeroutput><ref refid="classMR_1a32936c120c57269735769d1282afc224" kindref="member">MR.findAlphaShapeAllTriangles</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="385" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="385" bodyend="390"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="642" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="642" bodyend="647"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a2fd99ce0188466901ae101355fae3278" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1ac872ba33b23fc035b9f94c92ab774f8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRMesh</type>
         <definition>static unsafe MR.Std.Optional_MRMesh MR.findAlphaShape</definition>
-        <argsstring>(MR.Const_PointCloud cloud, float radius, MR.Std.Const_Function_Bool_From_Float cb)</argsstring>
+        <argsstring>(MR.Const_PointCloud cloud, float radius, MR.Std.Const_Function_Bool_From_Float cb, MR.AlphaShapeStats? stats=null)</argsstring>
         <name>findAlphaShape</name>
         <qualifiedname>MR.findAlphaShape</qualifiedname>
         <param>
@@ -6040,19 +6062,24 @@
           <type>MR.Std.Const_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
+        <param>
+          <type><ref refid="classMR_1_1AlphaShapeStats" kindref="compound">MR.AlphaShapeStats</ref>?</type>
+          <declname>stats</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>builds alpha-shape mesh with negative alpha = -1/radius Generated from function <computeroutput><ref refid="classMR_1a2fd99ce0188466901ae101355fae3278" kindref="member">MR.findAlphaShape</ref></computeroutput>. </para>
+<para>builds alpha-shape mesh with negative alpha = -1/radius Generated from function <computeroutput><ref refid="classMR_1ac872ba33b23fc035b9f94c92ab774f8f" kindref="member">MR.findAlphaShape</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="396" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="396" bodyend="401"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="653" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="653" bodyend="658"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a8bdfda7bb402da3aa216bfc0c83b64b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1abbae438a8d41297c7aaacd34e5c67111" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.findAlphaShape</definition>
-        <argsstring>(MR.Const_PointCloud cloud, float radius)</argsstring>
+        <argsstring>(MR.Const_PointCloud cloud, float radius, MR.AlphaShapeStats? stats=null)</argsstring>
         <name>findAlphaShape</name>
         <qualifiedname>MR.findAlphaShape</qualifiedname>
         <param>
@@ -6063,14 +6090,19 @@
           <type>float</type>
           <declname>radius</declname>
         </param>
+        <param>
+          <type><ref refid="classMR_1_1AlphaShapeStats" kindref="compound">MR.AlphaShapeStats</ref>?</type>
+          <declname>stats</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a2fd99ce0188466901ae101355fae3278" kindref="member">MR.findAlphaShape</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1ac872ba33b23fc035b9f94c92ab774f8f" kindref="member">MR.findAlphaShape</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="406" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="406" bodyend="411"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="663" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="663" bodyend="668"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4b787558bf096cc4d2fa775326d22b1f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -54381,12 +54413,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ac7bb07e14717aed649af2fdab4d00f9d" prot="public" virt="non-virtual"><scope>MR</scope><name>FilterType</name></member>
       <member refid="classMR_1a4662a70031ee297dd59ca2248614265f" prot="public" virt="non-virtual"><scope>MR</scope><name>findActiveBounds</name></member>
       <member refid="classMR_1ad56fdd3f5cef465728cf70ad07362093" prot="public" virt="non-virtual"><scope>MR</scope><name>findAllLeftBdEdges</name></member>
-      <member refid="classMR_1a2fd99ce0188466901ae101355fae3278" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShape</name></member>
-      <member refid="classMR_1a8bdfda7bb402da3aa216bfc0c83b64b7" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShape</name></member>
-      <member refid="classMR_1a52c80af817985580714e6e29e03121f1" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeAllTriangles</name></member>
-      <member refid="classMR_1acc4025edc1a7cf2f81f23f5ccb0833fa" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeAllTriangles</name></member>
-      <member refid="classMR_1a615e49742fdc3b6ff593028f236f1e8a" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeAllTriangles</name></member>
-      <member refid="classMR_1a93a5536e895533557e0fa415920257ec" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeNeiTriangles</name></member>
+      <member refid="classMR_1ac872ba33b23fc035b9f94c92ab774f8f" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShape</name></member>
+      <member refid="classMR_1abbae438a8d41297c7aaacd34e5c67111" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShape</name></member>
+      <member refid="classMR_1a32936c120c57269735769d1282afc224" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeAllTriangles</name></member>
+      <member refid="classMR_1ad70e15784ace180a11f2439a7055346a" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeAllTriangles</name></member>
+      <member refid="classMR_1afc73e5f710830fb055cb539763583ae3" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeAllTriangles</name></member>
+      <member refid="classMR_1a573530507674036fa520e7daa472201c" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeNeiTriangles</name></member>
       <member refid="classMR_1ae402988c27d3af9498e31849b6648507" prot="public" virt="non-virtual"><scope>MR</scope><name>findAvgPointsRadius</name></member>
       <member refid="classMR_1a349c695b6ff571802027d1671ce96c54" prot="public" virt="non-virtual"><scope>MR</scope><name>findBestFreeformDeformation</name></member>
       <member refid="classMR_1a97ba4a74376f7e8669693498455379c5" prot="public" virt="non-virtual"><scope>MR</scope><name>findBoxedTrisInBall</name></member>

@@ -73,6 +73,7 @@
     <innerclass refid="structMR_1_1ContoursMeshAlignParams" prot="public">MR::ContoursMeshAlignParams</innerclass>
     <innerclass refid="structMR_1_1BendContoursAlongCurveParams" prot="public">MR::BendContoursAlongCurveParams</innerclass>
     <innerclass refid="structMR_1_1AlphaShapeData" prot="public">MR::AlphaShapeData</innerclass>
+    <innerclass refid="structMR_1_1AlphaShapeStats" prot="public">MR::AlphaShapeStats</innerclass>
     <innerclass refid="classMR_1_1AngleMeasurementObject" prot="public">MR::AngleMeasurementObject</innerclass>
     <innerclass refid="structMR_1_1Ball" prot="public">MR::Ball</innerclass>
     <innerclass refid="classMR_1_1BasinVolumeCalculator" prot="public">MR::BasinVolumeCalculator</innerclass>
@@ -23576,7 +23577,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="23" column="24" bodyfile="MRMesh/MRAlphaShape.h" bodystart="23" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="24" column="24" bodyfile="MRMesh/MRAlphaShape.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga83480f95b9e1d4f1069a44ea03726ea8" prot="public" static="no" mutable="no">
         <type>Vector&lt; Vector3i, VertId &gt;</type>
@@ -23591,7 +23592,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="27" column="12" bodyfile="MRMesh/MRAlphaShape.h" bodystart="27" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="28" column="12" bodyfile="MRMesh/MRAlphaShape.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9f56dd5709fb6f4de21f77cae0674f72" prot="public" static="no" mutable="no">
         <type>std::int64_t</type>
@@ -23607,7 +23608,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="32" column="18" bodyfile="MRMesh/MRAlphaShape.h" bodystart="32" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="33" column="18" bodyfile="MRMesh/MRAlphaShape.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gadbecaa4f00f06aa00986ff64e0c42b23" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -23623,7 +23624,55 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="36" column="11" bodyfile="MRMesh/MRAlphaShape.h" bodystart="36" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="37" column="11" bodyfile="MRMesh/MRAlphaShape.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::AlphaShapeStats::consideredTris</definition>
+        <argsstring></argsstring>
+        <name>consideredTris</name>
+        <qualifiedname>MR::AlphaShapeStats::consideredTris</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of triangles considered: the triples of close enough points that were checked for the existence of a ball of the given radius passing via all three of them </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="56" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::AlphaShapeStats::touchableTris</definition>
+        <argsstring></argsstring>
+        <name>touchableTris</name>
+        <qualifiedname>MR::AlphaShapeStats::touchableTris</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of considered triangles touchable by the ball of the given radius, for each of which two balls (one from each side of the triangle) were tested for emptiness </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="60" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::AlphaShapeStats::inBallTests</definition>
+        <argsstring></argsstring>
+        <name>inBallTests</name>
+        <qualifiedname>MR::AlphaShapeStats::inBallTests</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of point-in-ball tests performed for the balls of touchable triangles; less than 2 * touchableTris * (points in the neighbourhood) because a ball is not tested further as soon as the first point inside it is found </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="65" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacfc8f690c3bf3935fb4e3bc132ebd84b" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -79899,7 +79948,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="40" column="25"/>
+        <location file="MRMesh/MRAlphaShape.h" line="41" column="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>AlphaShapeData</type>
@@ -79935,12 +79984,30 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="46" column="18" declfile="MRMesh/MRAlphaShape.h" declline="46" declcolumn="18"/>
+        <location file="MRMesh/MRAlphaShape.h" line="47" column="18" declfile="MRMesh/MRAlphaShape.h" declline="47" declcolumn="18"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga811b5b15c3ec97be1a1794513768c3b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AlphaShapeStats &amp;</type>
+        <definition>AlphaShapeStats &amp; MR::AlphaShapeStats::operator+=</definition>
+        <argsstring>(const AlphaShapeStats &amp;r)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>MR::AlphaShapeStats::operator+=</qualifiedname>
+        <param>
+          <type>const AlphaShapeStats &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="67" column="22" bodyfile="MRMesh/MRAlphaShape.h" bodystart="67" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gafe3aef255d8d86d7db3a5f7cd4635746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::findAlphaShapeNeiTriangles</definition>
-        <argsstring>(const PointCloud &amp;cloud, VertId v, const AlphaShapeData &amp;data, Triangulation &amp;appendTris, std::vector&lt; PreciseVertCoords &gt; &amp;neis, bool onlyLargerVids)</argsstring>
+        <argsstring>(const PointCloud &amp;cloud, VertId v, const AlphaShapeData &amp;data, Triangulation &amp;appendTris, std::vector&lt; PreciseVertCoords &gt; &amp;neis, bool onlyLargerVids, AlphaShapeStats *stats=nullptr)</argsstring>
         <name>findAlphaShapeNeiTriangles</name>
         <qualifiedname>MR::findAlphaShapeNeiTriangles</qualifiedname>
         <param>
@@ -79972,21 +80039,28 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <param>
           <type>bool</type>
           <declname>onlyLargerVids</declname>
+          <briefdescription><para>if true then two other points must have larger ids (to avoid finding same triangles several times) </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>AlphaShapeStats *</type>
+          <declname>stats</declname>
+          <defval>nullptr</defval>
         </param>
         <briefdescription>
-<para>if true then two other points must have larger ids (to avoid finding same triangles several times) </para>
+<para>optional statistics of the work done, which is increased here </para>
         </briefdescription>
         <detaileddescription>
 <para>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="50" column="7" declfile="MRMesh/MRAlphaShape.h" declline="50" declcolumn="7"/>
+        <location file="MRMesh/MRAlphaShape.h" line="78" column="7" declfile="MRMesh/MRAlphaShape.h" declline="78" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaf7c32c029ad9b558de64c3db50cc72e3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Triangulation &gt;</type>
         <definition>std::optional&lt; Triangulation &gt; MR::findAlphaShapeAllTriangles</definition>
-        <argsstring>(const PointCloud &amp;cloud, float radius, const ProgressCallback &amp;cb)</argsstring>
+        <argsstring>(const PointCloud &amp;cloud, float radius, const ProgressCallback &amp;cb, AlphaShapeStats *stats=nullptr)</argsstring>
         <name>findAlphaShapeAllTriangles</name>
         <qualifiedname>MR::findAlphaShapeAllTriangles</qualifiedname>
         <param>
@@ -80001,6 +80075,11 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
           <type>const ProgressCallback &amp;</type>
           <declname>cb</declname>
         </param>
+        <param>
+          <type>AlphaShapeStats *</type>
+          <declname>stats</declname>
+          <defval>nullptr</defval>
+        </param>
         <briefdescription>
 <para>finds all triangles of alpha-shape with negative alpha = -1/radius </para>
         </briefdescription>
@@ -80008,12 +80087,12 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="57" column="17" declfile="MRMesh/MRAlphaShape.h" declline="57" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="86" column="17" declfile="MRMesh/MRAlphaShape.h" declline="86" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga6f98bef2f91f4f33850f113b960fef36" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga44dece01c32cea22aac7aab8915caa2b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Triangulation</type>
         <definition>Triangulation MR::findAlphaShapeAllTriangles</definition>
-        <argsstring>(const PointCloud &amp;cloud, float radius)</argsstring>
+        <argsstring>(const PointCloud &amp;cloud, float radius, AlphaShapeStats *stats=nullptr)</argsstring>
         <name>findAlphaShapeAllTriangles</name>
         <qualifiedname>MR::findAlphaShapeAllTriangles</qualifiedname>
         <param>
@@ -80024,18 +80103,23 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
           <type>float</type>
           <declname>radius</declname>
         </param>
+        <param>
+          <type>AlphaShapeStats *</type>
+          <declname>stats</declname>
+          <defval>nullptr</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="58" column="17" declfile="MRMesh/MRAlphaShape.h" declline="58" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="88" column="17" declfile="MRMesh/MRAlphaShape.h" declline="88" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga7f61594506fe3c894bf59e720971f769" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga9f304608f78c5e19b2d5c560900e5bfb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Triangulation &gt;</type>
         <definition>std::optional&lt; Triangulation &gt; MR::findAlphaShapeAllTriangles</definition>
-        <argsstring>(const PointCloud &amp;cloud, const AlphaShapeData &amp;data, const ProgressCallback &amp;cb)</argsstring>
+        <argsstring>(const PointCloud &amp;cloud, const AlphaShapeData &amp;data, const ProgressCallback &amp;cb, AlphaShapeStats *stats=nullptr)</argsstring>
         <name>findAlphaShapeAllTriangles</name>
         <qualifiedname>MR::findAlphaShapeAllTriangles</qualifiedname>
         <param>
@@ -80050,6 +80134,11 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
           <type>const ProgressCallback &amp;</type>
           <declname>cb</declname>
         </param>
+        <param>
+          <type>AlphaShapeStats *</type>
+          <declname>stats</declname>
+          <defval>nullptr</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -80057,12 +80146,12 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="62" column="17" declfile="MRMesh/MRAlphaShape.h" declline="62" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="93" column="17" declfile="MRMesh/MRAlphaShape.h" declline="93" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga65689ee1c2014d6a66f589c4e3933f3d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga206e1ff370f4c549a290390c0e540d89" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Mesh &gt;</type>
         <definition>std::optional&lt; Mesh &gt; MR::findAlphaShape</definition>
-        <argsstring>(const PointCloud &amp;cloud, float radius, const ProgressCallback &amp;cb)</argsstring>
+        <argsstring>(const PointCloud &amp;cloud, float radius, const ProgressCallback &amp;cb, AlphaShapeStats *stats=nullptr)</argsstring>
         <name>findAlphaShape</name>
         <qualifiedname>MR::findAlphaShape</qualifiedname>
         <param>
@@ -80077,6 +80166,11 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
           <type>const ProgressCallback &amp;</type>
           <declname>cb</declname>
         </param>
+        <param>
+          <type>AlphaShapeStats *</type>
+          <declname>stats</declname>
+          <defval>nullptr</defval>
+        </param>
         <briefdescription>
 <para>builds alpha-shape mesh with negative alpha = -1/radius </para>
         </briefdescription>
@@ -80084,12 +80178,12 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="66" column="17" declfile="MRMesh/MRAlphaShape.h" declline="66" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="97" column="17" declfile="MRMesh/MRAlphaShape.h" declline="97" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab69eb1f8138c577449dbc5a580e9cca6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gab742b798176547393043027206aa42c9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
         <definition>Mesh MR::findAlphaShape</definition>
-        <argsstring>(const PointCloud &amp;cloud, float radius)</argsstring>
+        <argsstring>(const PointCloud &amp;cloud, float radius, AlphaShapeStats *stats=nullptr)</argsstring>
         <name>findAlphaShape</name>
         <qualifiedname>MR::findAlphaShape</qualifiedname>
         <param>
@@ -80100,13 +80194,18 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
           <type>float</type>
           <declname>radius</declname>
         </param>
+        <param>
+          <type>AlphaShapeStats *</type>
+          <declname>stats</declname>
+          <defval>nullptr</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="67" column="8" declfile="MRMesh/MRAlphaShape.h" declline="67" declcolumn="8"/>
+        <location file="MRMesh/MRAlphaShape.h" line="99" column="8" declfile="MRMesh/MRAlphaShape.h" declline="99" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa12ae3069114c41ef8ed6616672c5d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>

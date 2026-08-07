@@ -592,6 +592,18 @@
     <member refid="classMR_1_1AlphaShapeData_1a6b6f7eeafd85954b567d4c09a901ffc0" kind="function"><name>AlphaShapeData</name></member>
     <member refid="classMR_1_1AlphaShapeData_1a10e53cdc2347ad636353b22527487270" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1AlphaShapeStats" kind="class"><name>MR::AlphaShapeStats</name>
+    <member refid="classMR_1_1AlphaShapeStats_1a9aece57414b372aa5701d34cde6e9a9a" kind="property"><name>consideredTris</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1a9667aad98fce01d6b3b1bc995e406d15" kind="property"><name>touchableTris</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1a3c0a90bd1a2b07a521480e913fad9c5d" kind="property"><name>inBallTests</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1a3f5d76ab69322d50b90e1e32af9206ff" kind="function"><name>AlphaShapeStats</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1a80801eeda80823899c1e9f97e6676dbf" kind="function"><name>AlphaShapeStats</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1abd7ba72d217adecfeadcc3e41d83e0c2" kind="function"><name>AlphaShapeStats</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1acb761441539b1aa136ff140f22c8f9e2" kind="function"><name>AlphaShapeStats</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1aaea12804d2f6a80eb3764e3715260624" kind="function"><name>AlphaShapeStats</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1af02689bb42f87cd40607c2348d0f0103" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1aa466e4745cb38bc2c46f45c55872d2ee" kind="function"><name>addAssign</name></member>
+  </compound>
   <compound refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Angle" kind="class"><name>MR::Features::Const_MeasureResult::Angle</name>
     <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Angle_1ad2a21b8cf123d659ef084f3525fc6812" kind="property"><name>pointA</name></member>
     <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Angle_1adb7d545b6ddd76eeb9dec1d439849e52" kind="property"><name>pointB</name></member>
@@ -4497,6 +4509,22 @@
     <member refid="classMR_1_1Const__AlphaShapeData_1a609791188abbaa58462e8ffbd2408b93" kind="function"><name>coords</name></member>
     <member refid="classMR_1_1Const__AlphaShapeData_1ab6cabe9bcf61ebd4bf53d9dd1f2543e9" kind="function"><name>~Const_AlphaShapeData</name></member>
     <member refid="classMR_1_1Const__AlphaShapeData_1a8328e339db73dcf1c8634077a244f036" kind="function"><name>Const_AlphaShapeData</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__AlphaShapeStats" kind="class"><name>MR::Const_AlphaShapeStats</name>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1ac18708517f8c45b999b2da156e8bf528" kind="property"><name>consideredTris</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1aed900d8379ef422fdead72471533903f" kind="property"><name>touchableTris</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1ae4413e531dd86581916ad2994b4e9385" kind="property"><name>inBallTests</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a0ba2865ae372d07184613b2cba03ca91" kind="variable"><name>__ref_storage_consideredTris</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1afa3a554d3d916e85c0a576f212ef55ae" kind="variable"><name>__ref_storage_touchableTris</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a9e02b435a39b9b55134fa84354083a64" kind="variable"><name>__ref_storage_inBallTests</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a493042c705f5ce8bc17eb2fccf79ccf0" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a31036aab0ae7d594e3842ac273c8f8b7" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a892de79d29bae069076bcd07157f7490" kind="function"><name>Const_AlphaShapeStats</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a2c1a39aee51fe028109fa5c38366f8a9" kind="function"><name>Const_AlphaShapeStats</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1ab545a464d2a9b35e0b8819f1678be5d1" kind="function"><name>Const_AlphaShapeStats</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1ac4c7a6e293463cebcf3a84c65e35c2eb" kind="function"><name>Const_AlphaShapeStats</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1ac9d206adf0e0c5e518e1572ff285d545" kind="function"><name>~Const_AlphaShapeStats</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a979adb1815dccfd177da7b9f8ea45cf4" kind="function"><name>Const_AlphaShapeStats</name></member>
   </compound>
   <compound refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle" kind="class"><name>MR::Features::Const_MeasureResult::Const_Angle</name>
     <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1aee57de65892572ddb39d6116c794b3c6" kind="property"><name>pointA</name></member>
@@ -32246,12 +32274,12 @@
     <member refid="classMR_1a3be76cfbfc9b9d79395c268568c458e2" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="classMR_1a859d57307d0a091d15939f83fb773396" kind="function"><name>addBaseToPlanarMesh</name></member>
     <member refid="classMR_1afd241d5826434c0a3fe63e10bf50586f" kind="function"><name>getAlphaShapeData</name></member>
-    <member refid="classMR_1a93a5536e895533557e0fa415920257ec" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
-    <member refid="classMR_1a52c80af817985580714e6e29e03121f1" kind="function"><name>findAlphaShapeAllTriangles</name></member>
-    <member refid="classMR_1acc4025edc1a7cf2f81f23f5ccb0833fa" kind="function"><name>findAlphaShapeAllTriangles</name></member>
-    <member refid="classMR_1a615e49742fdc3b6ff593028f236f1e8a" kind="function"><name>findAlphaShapeAllTriangles</name></member>
-    <member refid="classMR_1a2fd99ce0188466901ae101355fae3278" kind="function"><name>findAlphaShape</name></member>
-    <member refid="classMR_1a8bdfda7bb402da3aa216bfc0c83b64b7" kind="function"><name>findAlphaShape</name></member>
+    <member refid="classMR_1a573530507674036fa520e7daa472201c" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+    <member refid="classMR_1a32936c120c57269735769d1282afc224" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+    <member refid="classMR_1ad70e15784ace180a11f2439a7055346a" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+    <member refid="classMR_1afc73e5f710830fb055cb539763583ae3" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+    <member refid="classMR_1ac872ba33b23fc035b9f94c92ab774f8f" kind="function"><name>findAlphaShape</name></member>
+    <member refid="classMR_1abbae438a8d41297c7aaacd34e5c67111" kind="function"><name>findAlphaShape</name></member>
     <member refid="classMR_1a4b787558bf096cc4d2fa775326d22b1f" kind="function"><name>makeArrow</name></member>
     <member refid="classMR_1a8805e38cb5bbbf4834a5fa13919d84e8" kind="function"><name>makeBasisAxes</name></member>
     <member refid="classMR_1acdf53934f4f0878c4c6500737af25aae" kind="function"><name>encode64</name></member>

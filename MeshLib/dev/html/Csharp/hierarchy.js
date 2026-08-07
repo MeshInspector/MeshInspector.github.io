@@ -282,6 +282,9 @@ var hierarchy =
       [ "MR.Const_AlphaShapeData", "classMR_1_1Const__AlphaShapeData.html", [
         [ "MR.AlphaShapeData", "classMR_1_1AlphaShapeData.html", null ]
       ] ],
+      [ "MR.Const_AlphaShapeStats", "classMR_1_1Const__AlphaShapeStats.html", [
+        [ "MR.AlphaShapeStats", "classMR_1_1AlphaShapeStats.html", null ]
+      ] ],
       [ "MR.Const_AngleMeasurementObject", "classMR_1_1Const__AngleMeasurementObject.html", [
         [ "MR.AngleMeasurementObject", "classMR_1_1AngleMeasurementObject.html", null ]
       ] ],
@@ -3597,6 +3600,7 @@ var hierarchy =
       [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html", null ],
       [ "MR.Const_AllLocalTriangulations", "classMR_1_1Const__AllLocalTriangulations.html", null ],
       [ "MR.Const_AlphaShapeData", "classMR_1_1Const__AlphaShapeData.html", null ],
+      [ "MR.Const_AlphaShapeStats", "classMR_1_1Const__AlphaShapeStats.html", null ],
       [ "MR.Const_AngleMeasurementObject", "classMR_1_1Const__AngleMeasurementObject.html", null ],
       [ "MR.Const_AnyVisualizeMaskEnum", "classMR_1_1Const__AnyVisualizeMaskEnum.html", null ],
       [ "MR.Const_ArcInterpolationParams", "classMR_1_1Const__ArcInterpolationParams.html", null ],

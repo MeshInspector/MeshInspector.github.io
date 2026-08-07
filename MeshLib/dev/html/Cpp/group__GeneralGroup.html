@@ -297,6 +297,7 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ABendContoursAlongCurveParams" id="r_MR_3A_3ABendContoursAlongCurveParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for aligning 2d contours along given curve.  <a href="structMR_1_1BendContoursAlongCurveParams.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AAlphaShapeData" id="r_MR_3A_3AAlphaShapeData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AlphaShapeData.html">MR::AlphaShapeData</a></td></tr>
+<tr class="memitem:MR_3A_3AAlphaShapeStats" id="r_MR_3A_3AAlphaShapeStats"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AlphaShapeStats.html">MR::AlphaShapeStats</a></td></tr>
 <tr class="memitem:MR_3A_3AAngleMeasurementObject" id="r_MR_3A_3AAngleMeasurementObject"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AngleMeasurementObject.html">MR::AngleMeasurementObject</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents an angle measurement.  <a href="classMR_1_1AngleMeasurementObject.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ABall_3C_20V_20_3E" id="r_MR_3A_3ABall_3C_20V_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Ball.html">MR::Ball&lt; V &gt;</a></td></tr>
@@ -3510,15 +3511,16 @@ Functions</h2></td></tr>
 <tr class="memitem:gac55797411aface5733212df942d0a0af" id="r_gac55797411aface5733212df942d0a0af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac55797411aface5733212df942d0a0af">MR::addBaseToPlanarMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float zOffset)</td></tr>
 <tr class="memitem:gab027a43036b782d7ea846bda9372d022" id="r_gab027a43036b782d7ea846bda9372d022"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab027a43036b782d7ea846bda9372d022">MR::AlphaShapeData::coords</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, VertId v) const</td></tr>
 <tr class="memitem:ga2a6c5709a87e0a120f5a524c0afdcc1f" id="r_ga2a6c5709a87e0a120f5a524c0afdcc1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1AlphaShapeData.html">AlphaShapeData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2a6c5709a87e0a120f5a524c0afdcc1f">MR::getAlphaShapeData</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float radius, bool allPoints)</td></tr>
-<tr class="memitem:ga811b5b15c3ec97be1a1794513768c3b1" id="r_ga811b5b15c3ec97be1a1794513768c3b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga811b5b15c3ec97be1a1794513768c3b1">MR::findAlphaShapeNeiTriangles</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, VertId v, const <a class="el" href="structMR_1_1AlphaShapeData.html">AlphaShapeData</a> &amp;data, Triangulation &amp;appendTris, std::vector&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &gt; &amp;neis, bool onlyLargerVids)</td></tr>
-<tr class="memdesc:ga811b5b15c3ec97be1a1794513768c3b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then two other points must have larger ids (to avoid finding same triangles several times)  <br /></td></tr>
-<tr class="memitem:gaf7c32c029ad9b558de64c3db50cc72e3" id="r_gaf7c32c029ad9b558de64c3db50cc72e3"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Triangulation &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf7c32c029ad9b558de64c3db50cc72e3">MR::findAlphaShapeAllTriangles</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float radius, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
-<tr class="memdesc:gaf7c32c029ad9b558de64c3db50cc72e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all triangles of alpha-shape with negative alpha = -1/radius  <br /></td></tr>
-<tr class="memitem:ga6f98bef2f91f4f33850f113b960fef36" id="r_ga6f98bef2f91f4f33850f113b960fef36"><td class="memItemLeft" align="right" valign="top">Triangulation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6f98bef2f91f4f33850f113b960fef36">MR::findAlphaShapeAllTriangles</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float radius)</td></tr>
-<tr class="memitem:ga7f61594506fe3c894bf59e720971f769" id="r_ga7f61594506fe3c894bf59e720971f769"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Triangulation &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7f61594506fe3c894bf59e720971f769">MR::findAlphaShapeAllTriangles</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1AlphaShapeData.html">AlphaShapeData</a> &amp;data, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
-<tr class="memitem:ga65689ee1c2014d6a66f589c4e3933f3d" id="r_ga65689ee1c2014d6a66f589c4e3933f3d"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga65689ee1c2014d6a66f589c4e3933f3d">MR::findAlphaShape</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float radius, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
-<tr class="memdesc:ga65689ee1c2014d6a66f589c4e3933f3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds alpha-shape mesh with negative alpha = -1/radius  <br /></td></tr>
-<tr class="memitem:gab69eb1f8138c577449dbc5a580e9cca6" id="r_gab69eb1f8138c577449dbc5a580e9cca6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab69eb1f8138c577449dbc5a580e9cca6">MR::findAlphaShape</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float radius)</td></tr>
+<tr class="memitem:ga878fb317a1812fcecb1a38141767edce" id="r_ga878fb317a1812fcecb1a38141767edce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga878fb317a1812fcecb1a38141767edce">MR::AlphaShapeStats::operator+=</a> (const <a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> &amp;r)</td></tr>
+<tr class="memitem:gafe3aef255d8d86d7db3a5f7cd4635746" id="r_gafe3aef255d8d86d7db3a5f7cd4635746"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafe3aef255d8d86d7db3a5f7cd4635746">MR::findAlphaShapeNeiTriangles</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, VertId v, const <a class="el" href="structMR_1_1AlphaShapeData.html">AlphaShapeData</a> &amp;data, Triangulation &amp;appendTris, std::vector&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &gt; &amp;neis, bool onlyLargerVids, <a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> *stats=nullptr)</td></tr>
+<tr class="memdesc:gafe3aef255d8d86d7db3a5f7cd4635746"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional statistics of the work done, which is increased here  <br /></td></tr>
+<tr class="memitem:gaff0816219564d53d0fc5c5594f96eb62" id="r_gaff0816219564d53d0fc5c5594f96eb62"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Triangulation &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaff0816219564d53d0fc5c5594f96eb62">MR::findAlphaShapeAllTriangles</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float radius, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb, <a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> *stats=nullptr)</td></tr>
+<tr class="memdesc:gaff0816219564d53d0fc5c5594f96eb62"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all triangles of alpha-shape with negative alpha = -1/radius  <br /></td></tr>
+<tr class="memitem:ga44dece01c32cea22aac7aab8915caa2b" id="r_ga44dece01c32cea22aac7aab8915caa2b"><td class="memItemLeft" align="right" valign="top">Triangulation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga44dece01c32cea22aac7aab8915caa2b">MR::findAlphaShapeAllTriangles</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float radius, <a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> *stats=nullptr)</td></tr>
+<tr class="memitem:ga9f304608f78c5e19b2d5c560900e5bfb" id="r_ga9f304608f78c5e19b2d5c560900e5bfb"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Triangulation &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9f304608f78c5e19b2d5c560900e5bfb">MR::findAlphaShapeAllTriangles</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1AlphaShapeData.html">AlphaShapeData</a> &amp;data, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb, <a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> *stats=nullptr)</td></tr>
+<tr class="memitem:ga206e1ff370f4c549a290390c0e540d89" id="r_ga206e1ff370f4c549a290390c0e540d89"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga206e1ff370f4c549a290390c0e540d89">MR::findAlphaShape</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float radius, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb, <a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> *stats=nullptr)</td></tr>
+<tr class="memdesc:ga206e1ff370f4c549a290390c0e540d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds alpha-shape mesh with negative alpha = -1/radius  <br /></td></tr>
+<tr class="memitem:gab742b798176547393043027206aa42c9" id="r_gab742b798176547393043027206aa42c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab742b798176547393043027206aa42c9">MR::findAlphaShape</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float radius, <a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> *stats=nullptr)</td></tr>
 <tr class="memitem:gaa12ae3069114c41ef8ed6616672c5d29" id="r_gaa12ae3069114c41ef8ed6616672c5d29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa12ae3069114c41ef8ed6616672c5d29">MR::AngleMeasurementObject::AngleMeasurementObject</a> ()</td></tr>
 <tr class="memdesc:gaa12ae3069114c41ef8ed6616672c5d29"><td class="mdescLeft">&#160;</td><td class="mdescRight">The xf encodes the two rays: the origin is the angle point, (1,0,0) is the first ray, (0,1,0) is the second ray.  <br /></td></tr>
 <tr class="memitem:ga8e474716d30d1e4bd36dc2c74ae744d0" id="r_ga8e474716d30d1e4bd36dc2c74ae744d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8e474716d30d1e4bd36dc2c74ae744d0">MR::AngleMeasurementObject::AngleMeasurementObject</a> (<a class="el" href="classMR_1_1AngleMeasurementObject.html">AngleMeasurementObject</a> &amp;&amp;) noexcept=default</td></tr>
@@ -11768,6 +11770,9 @@ Variables</h2></td></tr>
 <tr class="memitem:ga83480f95b9e1d4f1069a44ea03726ea8" id="r_ga83480f95b9e1d4f1069a44ea03726ea8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83480f95b9e1d4f1069a44ea03726ea8">MR::AlphaShapeData::intPoints</a></td></tr>
 <tr class="memitem:ga9f56dd5709fb6f4de21f77cae0674f72" id="r_ga9f56dd5709fb6f4de21f77cae0674f72"><td class="memItemLeft" align="right" valign="top">std::int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9f56dd5709fb6f4de21f77cae0674f72">MR::AlphaShapeData::intRadiusSq</a> = 0</td></tr>
 <tr class="memitem:gadbecaa4f00f06aa00986ff64e0c42b23" id="r_gadbecaa4f00f06aa00986ff64e0c42b23"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadbecaa4f00f06aa00986ff64e0c42b23">MR::AlphaShapeData::searchRadius</a> = 0</td></tr>
+<tr class="memitem:ga3a826e6a1c6f828fe6990bb8d670e5fc" id="r_ga3a826e6a1c6f828fe6990bb8d670e5fc"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3a826e6a1c6f828fe6990bb8d670e5fc">MR::AlphaShapeStats::consideredTris</a> = 0</td></tr>
+<tr class="memitem:ga8407afefcf2ab3fe8507b03cd00f7cec" id="r_ga8407afefcf2ab3fe8507b03cd00f7cec"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8407afefcf2ab3fe8507b03cd00f7cec">MR::AlphaShapeStats::touchableTris</a> = 0</td></tr>
+<tr class="memitem:ga660fa549b3463c89aaa1c7ebe4c007bf" id="r_ga660fa549b3463c89aaa1c7ebe4c007bf"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga660fa549b3463c89aaa1c7ebe4c007bf">MR::AlphaShapeStats::inBallTests</a> = 0</td></tr>
 <tr class="memitem:ga12631fc540b821bfa957ea4f9f2e57e8" id="r_ga12631fc540b821bfa957ea4f9f2e57e8"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga12631fc540b821bfa957ea4f9f2e57e8">MR::Ball&lt; V &gt;::elements</a> = <a class="el" href="#ga63f31635f31a229471ff3cc2990d95ea">VTraits::size</a></td></tr>
 <tr class="memitem:gac2c803f24782033284e75272d9eab0dd" id="r_gac2c803f24782033284e75272d9eab0dd"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac2c803f24782033284e75272d9eab0dd">MR::Ball&lt; V &gt;::center</a></td></tr>
 <tr class="memdesc:gac2c803f24782033284e75272d9eab0dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">ball's center  <br /></td></tr>
@@ -68527,8 +68532,8 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
-<a id="gab69eb1f8138c577449dbc5a580e9cca6" name="gab69eb1f8138c577449dbc5a580e9cca6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab69eb1f8138c577449dbc5a580e9cca6">&#9670;&#160;</a></span>findAlphaShape() <span class="overload">[1/2]</span></h2>
+<a id="gab742b798176547393043027206aa42c9" name="gab742b798176547393043027206aa42c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab742b798176547393043027206aa42c9">&#9670;&#160;</a></span>findAlphaShape() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68544,7 +68549,12 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> *</td>          <td class="paramname"><span class="paramname"><em>stats</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -68558,8 +68568,8 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
-<a id="ga65689ee1c2014d6a66f589c4e3933f3d" name="ga65689ee1c2014d6a66f589c4e3933f3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga65689ee1c2014d6a66f589c4e3933f3d">&#9670;&#160;</a></span>findAlphaShape() <span class="overload">[2/2]</span></h2>
+<a id="ga206e1ff370f4c549a290390c0e540d89" name="ga206e1ff370f4c549a290390c0e540d89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga206e1ff370f4c549a290390c0e540d89">&#9670;&#160;</a></span>findAlphaShape() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68580,7 +68590,12 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> *</td>          <td class="paramname"><span class="paramname"><em>stats</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -68596,8 +68611,8 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
-<a id="ga7f61594506fe3c894bf59e720971f769" name="ga7f61594506fe3c894bf59e720971f769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7f61594506fe3c894bf59e720971f769">&#9670;&#160;</a></span>findAlphaShapeAllTriangles() <span class="overload">[1/3]</span></h2>
+<a id="ga9f304608f78c5e19b2d5c560900e5bfb" name="ga9f304608f78c5e19b2d5c560900e5bfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9f304608f78c5e19b2d5c560900e5bfb">&#9670;&#160;</a></span>findAlphaShapeAllTriangles() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68618,7 +68633,12 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> *</td>          <td class="paramname"><span class="paramname"><em>stats</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -68633,8 +68653,8 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
-<a id="ga6f98bef2f91f4f33850f113b960fef36" name="ga6f98bef2f91f4f33850f113b960fef36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6f98bef2f91f4f33850f113b960fef36">&#9670;&#160;</a></span>findAlphaShapeAllTriangles() <span class="overload">[2/3]</span></h2>
+<a id="ga44dece01c32cea22aac7aab8915caa2b" name="ga44dece01c32cea22aac7aab8915caa2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga44dece01c32cea22aac7aab8915caa2b">&#9670;&#160;</a></span>findAlphaShapeAllTriangles() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68650,7 +68670,12 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> *</td>          <td class="paramname"><span class="paramname"><em>stats</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -68664,8 +68689,8 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
-<a id="gaf7c32c029ad9b558de64c3db50cc72e3" name="gaf7c32c029ad9b558de64c3db50cc72e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf7c32c029ad9b558de64c3db50cc72e3">&#9670;&#160;</a></span>findAlphaShapeAllTriangles() <span class="overload">[3/3]</span></h2>
+<a id="gaff0816219564d53d0fc5c5594f96eb62" name="gaff0816219564d53d0fc5c5594f96eb62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff0816219564d53d0fc5c5594f96eb62">&#9670;&#160;</a></span>findAlphaShapeAllTriangles() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68686,7 +68711,12 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> *</td>          <td class="paramname"><span class="paramname"><em>stats</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -68702,8 +68732,8 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
-<a id="ga811b5b15c3ec97be1a1794513768c3b1" name="ga811b5b15c3ec97be1a1794513768c3b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga811b5b15c3ec97be1a1794513768c3b1">&#9670;&#160;</a></span>findAlphaShapeNeiTriangles()</h2>
+<a id="gafe3aef255d8d86d7db3a5f7cd4635746" name="gafe3aef255d8d86d7db3a5f7cd4635746"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafe3aef255d8d86d7db3a5f7cd4635746">&#9670;&#160;</a></span>findAlphaShapeNeiTriangles()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68736,20 +68766,26 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>onlyLargerVids</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>onlyLargerVids</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> *</td>          <td class="paramname"><span class="paramname"><em>stats</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRAlphaShape_8h.html">MRMesh/MRAlphaShape.h</a>&gt;</code></p>
 
-<p>if true then two other points must have larger ids (to avoid finding same triangles several times) </p>
+<p>optional statistics of the work done, which is increased here </p>
 <p>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">data</td><td>prepared by getAlphaShapeData for the same cloud and the same radius  </td></tr>
     <tr><td class="paramname">appendTris</td><td>found triangles will be appended here  </td></tr>
-    <tr><td class="paramname">neis</td><td>temporary storage to avoid memory allocations, it will be filled with all neighbours of point #v within data.searchRadius </td></tr>
+    <tr><td class="paramname">neis</td><td>temporary storage to avoid memory allocations, it will be filled with all neighbours of point #v within data.searchRadius  </td></tr>
+    <tr><td class="paramname">onlyLargerVids</td><td>if true then two other points must have larger ids (to avoid finding same triangles several times) </td></tr>
   </table>
   </dd>
 </dl>
@@ -134877,8 +134913,35 @@ template&lt;typename N&gt; </div>
 
 </div>
 </div>
+<a id="ga878fb317a1812fcecb1a38141767edce" name="ga878fb317a1812fcecb1a38141767edce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga878fb317a1812fcecb1a38141767edce">&#9670;&#160;</a></span>operator+=() <span class="overload">[1/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> &amp; MR::AlphaShapeStats::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>r</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRAlphaShape_8h.html">MRMesh/MRAlphaShape.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga91d690a2375168d047a346239b7c38b7" name="ga91d690a2375168d047a346239b7c38b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga91d690a2375168d047a346239b7c38b7">&#9670;&#160;</a></span>operator+=() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91d690a2375168d047a346239b7c38b7">&#9670;&#160;</a></span>operator+=() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -134905,7 +134968,7 @@ template&lt;typename N&gt; </div>
 </div>
 </div>
 <a id="ga45a07dcbe1b8b9ac4949d19e26fecc99" name="ga45a07dcbe1b8b9ac4949d19e26fecc99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga45a07dcbe1b8b9ac4949d19e26fecc99">&#9670;&#160;</a></span>operator+=() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga45a07dcbe1b8b9ac4949d19e26fecc99">&#9670;&#160;</a></span>operator+=() <span class="overload">[3/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -134934,7 +134997,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga337b0c21aac551ab640f040502beb1e2" name="ga337b0c21aac551ab640f040502beb1e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga337b0c21aac551ab640f040502beb1e2">&#9670;&#160;</a></span>operator+=() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga337b0c21aac551ab640f040502beb1e2">&#9670;&#160;</a></span>operator+=() <span class="overload">[4/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -134961,7 +135024,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gadb51a18dba8809f1bec78ac608393a68" name="gadb51a18dba8809f1bec78ac608393a68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadb51a18dba8809f1bec78ac608393a68">&#9670;&#160;</a></span>operator+=() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadb51a18dba8809f1bec78ac608393a68">&#9670;&#160;</a></span>operator+=() <span class="overload">[5/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -134988,7 +135051,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaf8035c21c5cd5903e8910e4bf376f47b" name="gaf8035c21c5cd5903e8910e4bf376f47b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf8035c21c5cd5903e8910e4bf376f47b">&#9670;&#160;</a></span>operator+=() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf8035c21c5cd5903e8910e4bf376f47b">&#9670;&#160;</a></span>operator+=() <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135013,7 +135076,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7db8147e43ed44e6850f4f813a585247" name="ga7db8147e43ed44e6850f4f813a585247"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7db8147e43ed44e6850f4f813a585247">&#9670;&#160;</a></span>operator+=() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7db8147e43ed44e6850f4f813a585247">&#9670;&#160;</a></span>operator+=() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135034,7 +135097,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="gaadb5fa684446a94e5c5b1148543e7761" name="gaadb5fa684446a94e5c5b1148543e7761"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaadb5fa684446a94e5c5b1148543e7761">&#9670;&#160;</a></span>operator+=() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaadb5fa684446a94e5c5b1148543e7761">&#9670;&#160;</a></span>operator+=() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135063,7 +135126,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7ea2ac738a97ccd6c1480da40d655c52" name="ga7ea2ac738a97ccd6c1480da40d655c52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7ea2ac738a97ccd6c1480da40d655c52">&#9670;&#160;</a></span>operator+=() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7ea2ac738a97ccd6c1480da40d655c52">&#9670;&#160;</a></span>operator+=() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135092,7 +135155,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2d631de1df967d6ddca570a6e16d4938" name="ga2d631de1df967d6ddca570a6e16d4938"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2d631de1df967d6ddca570a6e16d4938">&#9670;&#160;</a></span>operator+=() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2d631de1df967d6ddca570a6e16d4938">&#9670;&#160;</a></span>operator+=() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205403,6 +205466,21 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="ga3a826e6a1c6f828fe6990bb8d670e5fc" name="ga3a826e6a1c6f828fe6990bb8d670e5fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3a826e6a1c6f828fe6990bb8d670e5fc">&#9670;&#160;</a></span>consideredTris</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::AlphaShapeStats::consideredTris = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the number of triangles considered: the triples of close enough points that were checked for the existence of a ball of the given radius passing via all three of them </p>
+
+</div>
+</div>
 <a id="ga07a77d9bc69574a2a471911d79f7ee7f" name="ga07a77d9bc69574a2a471911d79f7ee7f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga07a77d9bc69574a2a471911d79f7ee7f">&#9670;&#160;</a></span>console</h2>
 
@@ -212880,6 +212958,21 @@ template&lt;&gt; </div>
 </div><div class="memdoc">
 
 <p>if inactiveVoxelColor is set to some color then it will be blended with inactive voxel's color </p>
+
+</div>
+</div>
+<a id="ga660fa549b3463c89aaa1c7ebe4c007bf" name="ga660fa549b3463c89aaa1c7ebe4c007bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga660fa549b3463c89aaa1c7ebe4c007bf">&#9670;&#160;</a></span>inBallTests</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::AlphaShapeStats::inBallTests = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the number of point-in-ball tests performed for the balls of touchable triangles; less than 2 * touchableTris * (points in the neighbourhood) because a ball is not tested further as soon as the first point inside it is found </p>
 
 </div>
 </div>
@@ -232163,6 +232256,21 @@ template&lt;typename T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8407afefcf2ab3fe8507b03cd00f7cec" name="ga8407afefcf2ab3fe8507b03cd00f7cec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8407afefcf2ab3fe8507b03cd00f7cec">&#9670;&#160;</a></span>touchableTris</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::AlphaShapeStats::touchableTris = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the number of considered triangles touchable by the ball of the given radius, for each of which two balls (one from each side of the triangle) were tested for emptiness </p>
 
 </div>
 </div>

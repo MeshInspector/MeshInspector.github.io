@@ -2187,6 +2187,7 @@
     <member refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kind="typedef"><name>MR_std_optional_MR_Triangulation</name></member>
     <member refid="MRAlphaShape_8h_1afcb1c8379dd9b968a401291e716c84c9" kind="typedef"><name>MR_std_vector_MR_PreciseVertCoords</name></member>
     <member refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kind="typedef"><name>MR_AlphaShapeData</name></member>
+    <member refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kind="typedef"><name>MR_AlphaShapeStats</name></member>
     <member refid="MRAlphaShape_8h_1a8eb3890f88877f4410f9294363178320" kind="function"><name>MR_AlphaShapeData_Get_toInt</name></member>
     <member refid="MRAlphaShape_8h_1a893ee2be3d1de6639d47c492dc71bb5e" kind="function"><name>MR_AlphaShapeData_Set_toInt</name></member>
     <member refid="MRAlphaShape_8h_1aa703a555354873b65fd613824719234a" kind="function"><name>MR_AlphaShapeData_GetMutable_toInt</name></member>
@@ -2210,12 +2211,31 @@
     <member refid="MRAlphaShape_8h_1af8b30e27420e129fa56ac9cb756a9c5b" kind="function"><name>MR_AlphaShapeData_AssignFromAnother</name></member>
     <member refid="MRAlphaShape_8h_1a7f9ec282c8ac74ad921864945d1496df" kind="function"><name>MR_AlphaShapeData_coords</name></member>
     <member refid="MRAlphaShape_8h_1a9e3adca78952f03c8cdc024219d13615" kind="function"><name>MR_getAlphaShapeData</name></member>
-    <member refid="MRAlphaShape_8h_1a6518dde73d4481a099a4f49404e9c0dd" kind="function"><name>MR_findAlphaShapeNeiTriangles</name></member>
-    <member refid="MRAlphaShape_8h_1af4ddddd0e28a551e4100d29624d97445" kind="function"><name>MR_findAlphaShapeAllTriangles_3_float</name></member>
-    <member refid="MRAlphaShape_8h_1a57103e8a30abb8b45dfc730b0c026896" kind="function"><name>MR_findAlphaShapeAllTriangles_2</name></member>
-    <member refid="MRAlphaShape_8h_1a582ac4e8c57decc4f19defbfd6b8a2c9" kind="function"><name>MR_findAlphaShapeAllTriangles_3_MR_AlphaShapeData</name></member>
-    <member refid="MRAlphaShape_8h_1a5c4ca3ea408d64dde372a487e7f44903" kind="function"><name>MR_findAlphaShape_3</name></member>
-    <member refid="MRAlphaShape_8h_1a198ee99ccc6a49b031476ccbd494d922" kind="function"><name>MR_findAlphaShape_2</name></member>
+    <member refid="MRAlphaShape_8h_1a2edc2568cb57b04a9ca10c70ab7b391b" kind="function"><name>MR_AlphaShapeStats_Get_consideredTris</name></member>
+    <member refid="MRAlphaShape_8h_1a41f06ede053d55a34b50968f3e7abf7b" kind="function"><name>MR_AlphaShapeStats_Set_consideredTris</name></member>
+    <member refid="MRAlphaShape_8h_1a615ad2503fadfbd6473f7ba2eb8adee7" kind="function"><name>MR_AlphaShapeStats_GetMutable_consideredTris</name></member>
+    <member refid="MRAlphaShape_8h_1ae0e5bb4c1c8e4b5b68b4ee716a583f90" kind="function"><name>MR_AlphaShapeStats_Get_touchableTris</name></member>
+    <member refid="MRAlphaShape_8h_1acc94651f6d4520b23e3b27dc7ecb561c" kind="function"><name>MR_AlphaShapeStats_Set_touchableTris</name></member>
+    <member refid="MRAlphaShape_8h_1a332a4e4b0ee039015d3d99a4ff086dbb" kind="function"><name>MR_AlphaShapeStats_GetMutable_touchableTris</name></member>
+    <member refid="MRAlphaShape_8h_1a53bc9c35337ad4be9ffdb25e010c97b2" kind="function"><name>MR_AlphaShapeStats_Get_inBallTests</name></member>
+    <member refid="MRAlphaShape_8h_1a6176630d12a04b6418e266b088e2d431" kind="function"><name>MR_AlphaShapeStats_Set_inBallTests</name></member>
+    <member refid="MRAlphaShape_8h_1a1d0af96636ef074108229fa3a93225f6" kind="function"><name>MR_AlphaShapeStats_GetMutable_inBallTests</name></member>
+    <member refid="MRAlphaShape_8h_1af3fe82406fb0356f3859711839808f0c" kind="function"><name>MR_AlphaShapeStats_DefaultConstruct</name></member>
+    <member refid="MRAlphaShape_8h_1a6edc4904e5a2ccffc3408b1669ad5eba" kind="function"><name>MR_AlphaShapeStats_DefaultConstructArray</name></member>
+    <member refid="MRAlphaShape_8h_1ac2862c7886665bafa5e1cf51ddab64be" kind="function"><name>MR_AlphaShapeStats_ConstructFrom</name></member>
+    <member refid="MRAlphaShape_8h_1adfcc2705e329d0011da7a1b7cae1dfe3" kind="function"><name>MR_AlphaShapeStats_OffsetPtr</name></member>
+    <member refid="MRAlphaShape_8h_1a2367415dd31cd48ca5ca40f47234d13f" kind="function"><name>MR_AlphaShapeStats_OffsetMutablePtr</name></member>
+    <member refid="MRAlphaShape_8h_1a39d3bb5d40562b65456fa9655e6cb311" kind="function"><name>MR_AlphaShapeStats_ConstructFromAnother</name></member>
+    <member refid="MRAlphaShape_8h_1a978c7f7aa4af1d41d78365fcc2e39665" kind="function"><name>MR_AlphaShapeStats_Destroy</name></member>
+    <member refid="MRAlphaShape_8h_1aff7c09812cdb0ba334335aea90b69eb4" kind="function"><name>MR_AlphaShapeStats_DestroyArray</name></member>
+    <member refid="MRAlphaShape_8h_1ade5490837418ad304949a2cae004de7e" kind="function"><name>MR_AlphaShapeStats_AssignFromAnother</name></member>
+    <member refid="MRAlphaShape_8h_1a5127ff7603e7abda4d2e55ca17486892" kind="function"><name>MR_AlphaShapeStats_add_assign</name></member>
+    <member refid="MRAlphaShape_8h_1a0d1542bf4dbf2712e143d86680798709" kind="function"><name>MR_findAlphaShapeNeiTriangles</name></member>
+    <member refid="MRAlphaShape_8h_1aefb3e97b179663552e72f00bef7de602" kind="function"><name>MR_findAlphaShapeAllTriangles_4_float</name></member>
+    <member refid="MRAlphaShape_8h_1a79f90f391ba2699bad0ff0db041f052f" kind="function"><name>MR_findAlphaShapeAllTriangles_3</name></member>
+    <member refid="MRAlphaShape_8h_1a034232909cab53923a0d093358f0bdfc" kind="function"><name>MR_findAlphaShapeAllTriangles_4_MR_AlphaShapeData</name></member>
+    <member refid="MRAlphaShape_8h_1a212b808b4acc55574c39af3ddca42f38" kind="function"><name>MR_findAlphaShape_4</name></member>
+    <member refid="MRAlphaShape_8h_1a22b77f0db28f32a1c25b98842671b9d9" kind="function"><name>MR_findAlphaShape_3</name></member>
   </compound>
   <compound refid="MRAngleMeasurementObject_8h" kind="file"><name>MRAngleMeasurementObject.h</name>
     <member refid="MRAngleMeasurementObject_8h_1af3835b44b6f41035bcc3f994b4711cc1" kind="typedef"><name>MR_MeasurementObject</name></member>

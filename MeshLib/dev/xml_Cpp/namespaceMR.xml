@@ -13,6 +13,7 @@
     <innerclass refid="classMR_1_1AddVisualProperties" prot="public">MR::AddVisualProperties</innerclass>
     <innerclass refid="structMR_1_1AllLocalTriangulations" prot="public">MR::AllLocalTriangulations</innerclass>
     <innerclass refid="structMR_1_1AlphaShapeData" prot="public">MR::AlphaShapeData</innerclass>
+    <innerclass refid="structMR_1_1AlphaShapeStats" prot="public">MR::AlphaShapeStats</innerclass>
     <innerclass refid="classMR_1_1AlphaSortGL" prot="public">MR::AlphaSortGL</innerclass>
     <innerclass refid="classMR_1_1AncillaryImGuiLabel" prot="public">MR::AncillaryImGuiLabel</innerclass>
     <innerclass refid="structMR_1_1AncillaryLabel" prot="public">MR::AncillaryLabel</innerclass>
@@ -2110,12 +2111,12 @@
       <member refid="group__GeneralGroup_1gab0d30a64fff13912b6a95a78291ba1ea" kind="function"><name>meshPathCurvePoints</name></member>
       <member refid="group__GeneralGroup_1gac55797411aface5733212df942d0a0af" kind="function"><name>addBaseToPlanarMesh</name></member>
       <member refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" kind="function"><name>getAlphaShapeData</name></member>
-      <member refid="group__GeneralGroup_1ga811b5b15c3ec97be1a1794513768c3b1" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
-      <member refid="group__GeneralGroup_1gaf7c32c029ad9b558de64c3db50cc72e3" kind="function"><name>findAlphaShapeAllTriangles</name></member>
-      <member refid="group__GeneralGroup_1ga6f98bef2f91f4f33850f113b960fef36" kind="function"><name>findAlphaShapeAllTriangles</name></member>
-      <member refid="group__GeneralGroup_1ga7f61594506fe3c894bf59e720971f769" kind="function"><name>findAlphaShapeAllTriangles</name></member>
-      <member refid="group__GeneralGroup_1ga65689ee1c2014d6a66f589c4e3933f3d" kind="function"><name>findAlphaShape</name></member>
-      <member refid="group__GeneralGroup_1gab69eb1f8138c577449dbc5a580e9cca6" kind="function"><name>findAlphaShape</name></member>
+      <member refid="group__GeneralGroup_1gafe3aef255d8d86d7db3a5f7cd4635746" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+      <member refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+      <member refid="group__GeneralGroup_1ga44dece01c32cea22aac7aab8915caa2b" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+      <member refid="group__GeneralGroup_1ga9f304608f78c5e19b2d5c560900e5bfb" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+      <member refid="group__GeneralGroup_1ga206e1ff370f4c549a290390c0e540d89" kind="function"><name>findAlphaShape</name></member>
+      <member refid="group__GeneralGroup_1gab742b798176547393043027206aa42c9" kind="function"><name>findAlphaShape</name></member>
       <member refid="group__GeneralGroup_1gac2b90dbcd947fc75b0ac691f7eef6ee7" kind="function"><name>makeArrow</name></member>
       <member refid="group__GeneralGroup_1ga7c5d54297609feabd75b33452067748a" kind="function"><name>makeBasisAxes</name></member>
       <member refid="group__Base64Group_1ga1c8b05a93792e0147c7b9a738af958be" kind="function"><name>encode64</name></member>
