@@ -472,7 +472,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::GraphVertId
-Aliases:  Vector_GraphVertId_GraphVertId.reference, Vector_GraphVertId_GraphVertId.value_type, Graph.VertId, TypedBitSet_GraphVertId_IndexType, Vector_GraphVertId_GraphVertId.const_reference
+Aliases:  Graph.VertId, TypedBitSet_GraphVertId_IndexType, Vector_GraphVertId_GraphVertId.const_reference, Vector_GraphVertId_GraphVertId.reference, Vector_GraphVertId_GraphVertId.value_type
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>

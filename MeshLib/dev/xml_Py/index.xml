@@ -329,10 +329,10 @@
     <member refid="classmrmeshpy_1_1AffineXf3d_1acba6ed602b6f8e3cd605f33461f35623" kind="function"><name>xfAround</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3d_1a13234664efed98b790077d9bdc2614c9" kind="function"><name>__call__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3d_1ae42b81b3e1968262e8d8d1202c39873b" kind="function"><name>__eq__</name></member>
-    <member refid="classmrmeshpy_1_1AffineXf3d_1a2eeb5e4d06ce3b39ace67521a833af50" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3d_1a6a9d4f92e1e340a3c3f9573c88e5ee18" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3d_1a5f358e5a465f67952810e5bb80a57bdb" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3d_1afe61bc9fbce982c31d1b643581647c8b" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1AffineXf3d_1a2eeb5e4d06ce3b39ace67521a833af50" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3d_1a2bbe5943006ac51a74a803edd4c001a0" kind="function"><name>__mul__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3d_1ae3dec4598d5738fb4581804f98afeb82" kind="function"><name>__ne__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3d_1a82acc70268928017914c197a685923f2" kind="function"><name>__repr__</name></member>
@@ -356,10 +356,10 @@
     <member refid="classmrmeshpy_1_1AffineXf3f_1a0efb26c0dd25906e9f684454dd754cee" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1a6f0d881d560ded18c49e81bd249f08d9" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1a585f0e7ad5d9ebd3d5f05720771f9265" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1AffineXf3f_1af92acb6a5ccdb3da3dc5587b590c86d8" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1AffineXf3f_1aae8e2b2931f32ea71508eb317cfc472f" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1ad3dcae92c23f98a11d43b22318d6a910" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1a04bcc691845a748a224a5c728c6af8e6" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1AffineXf3f_1af92acb6a5ccdb3da3dc5587b590c86d8" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1AffineXf3f_1aae8e2b2931f32ea71508eb317cfc472f" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1a42a0e2f2cba755672b8f0272bfeb156a" kind="function"><name>__mul__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1a4d28122a78c72fececc0ff32abf955c6" kind="function"><name>__ne__</name></member>
     <member refid="classmrmeshpy_1_1AffineXf3f_1a38a01c9b0f33eef350f93a1abbf9e22a" kind="function"><name>__repr__</name></member>
@@ -26887,10 +26887,10 @@
     <member refid="classmrmeshpy_1_1Vector4i_1abcecb961d8d46d99eae1c6edf42f073b" kind="function"><name>__getitem__</name></member>
     <member refid="classmrmeshpy_1_1Vector4i_1a80f652d7383ccad5375cc4d196b4c91e" kind="function"><name>__iadd__</name></member>
     <member refid="classmrmeshpy_1_1Vector4i_1a73568ee53c7ac41b6c41edba488e3ada" kind="function"><name>__imatmul__</name></member>
+    <member refid="classmrmeshpy_1_1Vector4i_1aac6c1843614259c05796338717e53e39" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1Vector4i_1a621979069a3f4294e648ed80a1de0807" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1Vector4i_1afc75d4b026fa64af3f9765657498fe6c" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1Vector4i_1afb281bc5b5232f31bd004ec9d22f8a00" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1Vector4i_1aac6c1843614259c05796338717e53e39" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1Vector4i_1a2f89b9a5b302be8fbec381272948656b" kind="function"><name>__isub__</name></member>
     <member refid="classmrmeshpy_1_1Vector4i_1adefa696667e0994ccb909cec9c7167f9" kind="function"><name>__iter__</name></member>
     <member refid="classmrmeshpy_1_1Vector4i_1a95cb349c7e3194277d60bb4c014594ac" kind="function"><name>__itruediv__</name></member>
