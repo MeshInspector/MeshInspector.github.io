@@ -111,7 +111,7 @@ var MRMeshFwd_8h =
     [ "MR::CubicBezierCurve< Vector2< double > >", "group__GeneralGroup.html#gafa079a571a649e1c0bdcf99ebb68b35c", null ],
     [ "MR::Cylinder3< float >", "group__GeneralGroup.html#ga40746a06c74f917e196ce5d5e8f4e133", null ],
     [ "MR::distance", "group__GeneralGroup.html#ga8bbe103235cb82270d98d373ac2da406", null ],
-    [ "MR::distanceSq", "group__GeneralGroup.html#ga6378c438e076ed530da1f0c964249855", null ],
+    [ "MR::distanceSq", "group__GeneralGroup.html#gafe7f9b1ee8498444247bc2793cbe7f8c", null ],
     [ "MR::Id", "group__GeneralGroup.html#gac57068a3fb551792494c65dbbfc9880f", null ],
     [ "MR::Id< NodeTag >", "group__GeneralGroup.html#gafaa25ffe427b444642a7b944662c8338", null ],
     [ "MR::Id< TextureTag >", "group__GeneralGroup.html#gab3ed94128b30d87f17add04c065fe846", null ],

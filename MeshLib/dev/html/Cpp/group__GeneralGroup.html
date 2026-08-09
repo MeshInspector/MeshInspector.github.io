@@ -5559,9 +5559,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga8bbe103235cb82270d98d373ac2da406" id="r_ga8bbe103235cb82270d98d373ac2da406"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga8bbe103235cb82270d98d373ac2da406 template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8bbe103235cb82270d98d373ac2da406">MR::distance</a> (T x, T y) noexcept</td></tr>
 <tr class="memdesc:ga8bbe103235cb82270d98d373ac2da406"><td class="mdescLeft">&#160;</td><td class="mdescRight">absolute difference between two value  <br /></td></tr>
-<tr class="memitem:ga6378c438e076ed530da1f0c964249855" id="r_ga6378c438e076ed530da1f0c964249855"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ga6378c438e076ed530da1f0c964249855 template"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6378c438e076ed530da1f0c964249855">MR::distanceSq</a> (T x, T y) noexcept</td></tr>
-<tr class="memdesc:ga6378c438e076ed530da1f0c964249855"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared difference between two value  <br /></td></tr>
+<tr class="memitem:gafe7f9b1ee8498444247bc2793cbe7f8c" id="r_gafe7f9b1ee8498444247bc2793cbe7f8c"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:gafe7f9b1ee8498444247bc2793cbe7f8c template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafe7f9b1ee8498444247bc2793cbe7f8c">MR::distanceSq</a> (T x, T y) noexcept -&gt; decltype((x - y) *(x - y))</td></tr>
 <tr class="memitem:gabedf6d080f6840c8f336d5bce0c9f87a" id="r_gabedf6d080f6840c8f336d5bce0c9f87a"><td class="memTemplParams" colspan="2">template&lt;typename V, typename T&gt; </td></tr>
 <tr class="memitem:gabedf6d080f6840c8f336d5bce0c9f87a template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabedf6d080f6840c8f336d5bce0c9f87a">MR::lerp</a> (V v0, V v1, T t) noexcept</td></tr>
 <tr class="memdesc:gabedf6d080f6840c8f336d5bce0c9f87a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linear interpolation: returns v0 when t==0 and v1 when t==1.  <br /></td></tr>
@@ -57964,8 +57963,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga6378c438e076ed530da1f0c964249855" name="ga6378c438e076ed530da1f0c964249855"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6378c438e076ed530da1f0c964249855">&#9670;&#160;</a></span>distanceSq() <span class="overload">[1/5]</span></h2>
+<a id="gafe7f9b1ee8498444247bc2793cbe7f8c" name="gafe7f9b1ee8498444247bc2793cbe7f8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafe7f9b1ee8498444247bc2793cbe7f8c">&#9670;&#160;</a></span>distanceSq() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -57976,14 +57975,14 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T MR::distanceSq </td>
+          <td class="memname">auto MR::distanceSq </td>
           <td>(</td>
           <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;) -&gt; decltype( ( x - y ) * ( x - y ) ) </td>
         </tr>
       </table>
   </td>
@@ -57994,8 +57993,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</code></p>
-
-<p>squared difference between two value </p>
+<p>squared difference between two value; the result type is the type of the product (spelled via * and not via sqr, so that vector types with their own distanceSq do not match here) </p>
 
 </div>
 </div>

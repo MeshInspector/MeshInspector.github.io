@@ -2127,7 +2127,7 @@ var namespaceMR =
     [ "distanceMapTo2DIsoPolyline", "group__DistanceMapGroup.html#ga40f0ce955b843b2257a05a5ee11d7e93", null ],
     [ "distanceMapToMesh", "group__DistanceMapGroup.html#ga43601df100c62be8e9a82c549448bebd", null ],
     [ "distanceSq", "group__IntersectionGroup.html#ga8fe41c203bb90cc8a7dc06426f6682f4", null ],
-    [ "distanceSq", "group__GeneralGroup.html#ga6378c438e076ed530da1f0c964249855", null ],
+    [ "distanceSq", "group__GeneralGroup.html#gafe7f9b1ee8498444247bc2793cbe7f8c", null ],
     [ "distanceSq", "structMR_1_1Vector2.html#a7be48c5d4180d89d8038acede661911e", null ],
     [ "distanceSq", "group__GeneralGroup.html#ga1b7a343939b1a92e61700fb5bd609b56", null ],
     [ "distanceSq", "group__GeneralGroup.html#ga664e7947c3eb5d229c9ceb1c728a6f9b", null ],

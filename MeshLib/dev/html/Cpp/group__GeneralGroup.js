@@ -11528,7 +11528,7 @@ var group__GeneralGroup =
     [ "MR::DistanceMeasurementObject::DistanceMeasurementObject", "group__GeneralGroup.html#ga37ea36bb34908aae4365b021d51ec48e", null ],
     [ "MR::DistanceMeasurementObject::DistanceMeasurementObject", "group__GeneralGroup.html#ga90bd3418e0c8c76fbbe3aa70314be2a8", null ],
     [ "MR::DistanceMeasurementObject::DistanceMeasurementObject", "group__GeneralGroup.html#ga9a8a81a10d8c7ed1ebe420b47124abc6", null ],
-    [ "MR::distanceSq", "group__GeneralGroup.html#ga6378c438e076ed530da1f0c964249855", null ],
+    [ "MR::distanceSq", "group__GeneralGroup.html#gafe7f9b1ee8498444247bc2793cbe7f8c", null ],
     [ "MR::Line::distanceSq", "group__GeneralGroup.html#ga33b2b7a0c2b8520be3e29171461a15d4", null ],
     [ "MR::Sphere::distanceSq", "group__GeneralGroup.html#gac6fe7dcb9fbe192141cde72e7f9a3551", null ],
     [ "MR::Vector3::distanceSq", "group__GeneralGroup.html#ga1b7a343939b1a92e61700fb5bd609b56", null ],
