@@ -15696,7 +15696,7 @@ var group__GeneralGroup =
     [ "MR::MeshTopology::splitFace", "group__GeneralGroup.html#ga7acd4a20781ea9221efe49b4a24ca803", null ],
     [ "MR::splitOnSimpleLoops", "group__SurfacePathGroup.html#ga49b1ba597792f69ce9ff43247589abdc", null ],
     [ "MR::splitProgress", "group__GeneralGroup.html#ga8692e04aee98b255e6f4a5d46a1d27e4", null ],
-    [ "MR::sqr", "group__GeneralGroup.html#ga1bdf9f3c718616502649bc34a80ac976", null ],
+    [ "MR::sqr", "group__GeneralGroup.html#ga2a8e1fa5c677ea23d7801ead67934dd7", null ],
     [ "MR::Vector3::sqr", "group__GeneralGroup.html#gac519c0badafc5dd614c0c6f8b8b28994", null ],
     [ "MR::Vector4::sqr", "group__GeneralGroup.html#ga2925cc04ba84c72a45503f35a61c90e5", null ],
     [ "MR::Src2TgtMaps::Src2TgtMaps", "group__GeneralGroup.html#ga429862adaf111d249967728943bbca95", null ],

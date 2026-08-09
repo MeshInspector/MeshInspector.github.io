@@ -110713,14 +110713,14 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRMeshFwd.h" line="730" column="32" declfile="MRMesh/MRMeshFwd.h" declline="730" declcolumn="32"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga1bdf9f3c718616502649bc34a80ac976" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga2a8e1fa5c677ea23d7801ead67934dd7" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type>T</type>
-        <definition>T MR::sqr</definition>
+        <type>decltype(x *x)</type>
+        <definition>decltype(x *x) MR::sqr</definition>
         <argsstring>(T x) noexcept</argsstring>
         <name>sqr</name>
         <qualifiedname>MR::sqr</qualifiedname>
@@ -110729,13 +110729,13 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
           <declname>x</declname>
         </param>
         <briefdescription>
-<para>squared value </para>
+<para>squared value; the result type is the type of x*x, which is int for small integer types (char, short) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="761" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="761" bodyend="761"/>
+        <location file="MRMesh/MRMeshFwd.h" line="761" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="761" bodyend="761"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga86bf24d57f63afab9354505400a0e82c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>

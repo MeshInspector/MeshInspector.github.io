@@ -147,7 +147,7 @@ var MRMeshFwd_8h =
     [ "MR::sgn", "group__GeneralGroup.html#ga86bf24d57f63afab9354505400a0e82c", null ],
     [ "MR::Sphere< Vector2< float > >", "group__GeneralGroup.html#ga32746cbd659cfbd46863d87914aee102", null ],
     [ "MR::Sphere< Vector3< float > >", "group__GeneralGroup.html#gadd75f9d441ee1aa1ab8b8fa299fdfcb8", null ],
-    [ "MR::sqr", "group__GeneralGroup.html#ga1bdf9f3c718616502649bc34a80ac976", null ],
+    [ "MR::sqr", "group__GeneralGroup.html#ga2a8e1fa5c677ea23d7801ead67934dd7", null ],
     [ "MR::SymMatrix2< bool >", "group__GeneralGroup.html#ga2002aff3e0709a31279d398e15bc989a", null ],
     [ "MR::SymMatrix3< bool >", "group__GeneralGroup.html#gafd53c47bf4878f3b802e0fe545e4ca90", null ],
     [ "MR::SymMatrix4< bool >", "group__GeneralGroup.html#ga56d3bdeba5c4fb5bc0d9db6b8d370920", null ],

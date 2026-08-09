@@ -3404,7 +3404,7 @@ var namespaceMR =
     [ "splitOnSimpleLoops", "group__SurfacePathGroup.html#ga49b1ba597792f69ce9ff43247589abdc", null ],
     [ "splitProgress", "group__GeneralGroup.html#ga8692e04aee98b255e6f4a5d46a1d27e4", null ],
     [ "splitQuad", "group__FillHoleGroup.html#ga71fca5b809e46f918e1bc23c90c3201e", null ],
-    [ "sqr", "group__GeneralGroup.html#ga1bdf9f3c718616502649bc34a80ac976", null ],
+    [ "sqr", "group__GeneralGroup.html#ga2a8e1fa5c677ea23d7801ead67934dd7", null ],
     [ "sqr", "structMR_1_1Vector2.html#a9d7aee9b382101cb77cc426a34791517", null ],
     [ "sqr", "group__GeneralGroup.html#gac519c0badafc5dd614c0c6f8b8b28994", null ],
     [ "sqr", "group__GeneralGroup.html#ga2925cc04ba84c72a45503f35a61c90e5", null ],
