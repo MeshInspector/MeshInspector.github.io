@@ -34760,7 +34760,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="781" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="781" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="780" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="780" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga49a42dcc4e94c7c1824987b168d150b9" prot="public" static="no" mutable="no">
         <type>std::optional&lt; <ref refid="group__GeneralGroup_1ga29d14b75d26970bc256e90bf11c3f0e5" kindref="member">Edges</ref> &gt; *</type>
@@ -110713,14 +110713,14 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRMeshFwd.h" line="730" column="32" declfile="MRMesh/MRMeshFwd.h" declline="730" declcolumn="32"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2a8e1fa5c677ea23d7801ead67934dd7" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga1bdf9f3c718616502649bc34a80ac976" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type>decltype(x *x)</type>
-        <definition>decltype(x *x) MR::sqr</definition>
+        <type>T</type>
+        <definition>T MR::sqr</definition>
         <argsstring>(T x) noexcept</argsstring>
         <name>sqr</name>
         <qualifiedname>MR::sqr</qualifiedname>
@@ -110729,13 +110729,13 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
           <declname>x</declname>
         </param>
         <briefdescription>
-<para>squared value; the result type is the type of x*x, which is int for small integer types (char, short) </para>
+<para>squared value </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="761" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="761" bodyend="761"/>
+        <location file="MRMesh/MRMeshFwd.h" line="761" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="761" bodyend="761"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga86bf24d57f63afab9354505400a0e82c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -110789,14 +110789,14 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRMeshFwd.h" line="769" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="769" bodyend="769"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gafe7f9b1ee8498444247bc2793cbe7f8c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga6378c438e076ed530da1f0c964249855" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type>decltype((x - y) *(x - y))</type>
-        <definition>decltype((x - y) *(x - y)) MR::distanceSq</definition>
+        <type>T</type>
+        <definition>T MR::distanceSq</definition>
         <argsstring>(T x, T y) noexcept</argsstring>
         <name>distanceSq</name>
         <qualifiedname>MR::distanceSq</qualifiedname>
@@ -110809,13 +110809,13 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
           <declname>y</declname>
         </param>
         <briefdescription>
+<para>squared difference between two value </para>
         </briefdescription>
         <detaileddescription>
-<para>squared difference between two value; the result type is the type of the product (spelled via * and not via sqr, so that vector types with their own distanceSq do not match here) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="774" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="774" bodyend="774"/>
+        <location file="MRMesh/MRMeshFwd.h" line="773" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="773" bodyend="773"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabedf6d080f6840c8f336d5bce0c9f87a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -110850,7 +110850,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="778" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="778" bodyend="778"/>
+        <location file="MRMesh/MRMeshFwd.h" line="777" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="777" bodyend="777"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga80e6b953fc44378e5898ba71b21f216a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -110875,7 +110875,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="788" column="1" declfile="MRMesh/MRMeshFwd.h" declline="788" declcolumn="1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="787" column="1" declfile="MRMesh/MRMeshFwd.h" declline="787" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -110894,7 +110894,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="807" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="807" bodyend="807"/>
+        <location file="MRMesh/MRMeshFwd.h" line="806" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="806" bodyend="806"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -110916,7 +110916,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="808" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="808" bodyend="808"/>
+        <location file="MRMesh/MRMeshFwd.h" line="807" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="807" bodyend="807"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa7aee4117439f47322227fe3a7c202c0" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -110942,7 +110942,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="809" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="809" bodyend="809"/>
+        <location file="MRMesh/MRMeshFwd.h" line="808" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="808" bodyend="808"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf79f1e699d7f8cf7f45d6fd8208503d4" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -110972,7 +110972,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="810" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="810" bodyend="810"/>
+        <location file="MRMesh/MRMeshFwd.h" line="809" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="809" bodyend="809"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa2a7fba3a600699de880615c69671718" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
