@@ -5834,14 +5834,14 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRVector3.h" line="175" column="10" bodyfile="MRMesh/MRVector3.h" bodystart="175" bodyend="178"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaf9065ae414e0307701366e479519540d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gae41face18b9dc2041d79eb7613426525" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type>Vector3&lt; T &gt;</type>
-        <definition>Vector3&lt; T &gt; cross</definition>
+        <type>Vector3&lt; decltype(a.x *b.x)&gt;</type>
+        <definition>Vector3&lt; decltype(a.x *b.x)&gt; cross</definition>
         <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
         <name>cross</name>
         <qualifiedname>MR::Vector3::cross</qualifiedname>
@@ -5860,7 +5860,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector3.h" line="182" column="16" bodyfile="MRMesh/MRVector3.h" bodystart="182" bodyend="189"/>
+        <location file="MRMesh/MRVector3.h" line="182" column="13" bodyfile="MRMesh/MRVector3.h" bodystart="182" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga12ace0a073b6d056e20f50fabe0b9940" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
