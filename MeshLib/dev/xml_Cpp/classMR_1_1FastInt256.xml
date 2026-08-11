@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FastInt256" kind="class" language="C++" prot="public">
+    <compoundname>MR::FastInt256</compoundname>
+    <includes refid="MRFastInt256_8h" local="no">MRMesh/MRFastInt256.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kind="variable"><name>w</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kind="function"><name>FastInt256</name></member>
+      <member refid="group__GeneralGroup_1ga8939d64c71ed34e36ed0e17180420f7b" kind="function"><name>FastInt256</name></member>
+      <member refid="group__GeneralGroup_1ga94ae46428d73117823d1a116f25559ae" kind="function"><name>sign</name></member>
+      <member refid="group__GeneralGroup_1ga42e23b757ec321ed05363f94d4ba3289" kind="function"><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1gab60f5bac010cebacc930a3bd4581f6c9" kind="function"><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1gafbc1effbac2c5c48f9bf9e630499273f" kind="function"><name>operator-</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1gad6aa26c7510331c22e965adf8b40ba09" kind="friend"><name>operator+</name></member>
+      <member refid="group__GeneralGroup_1ga219735516a4ffae301e534fee33cfb36" kind="friend"><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1ga1e333e1a3dfeb1453903181624dd733b" kind="friend"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga9ccbcefe927147b4744dd4fc7c039ff2" kind="friend"><name>operator&lt;=&gt;</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>signed 256-bit integer with the operations necessary for exact geometric predicates: the exact product of two <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> (see mulExact below), addition, subtraction and comparison; as <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> it lacks conversion in double, sqrt-function and stream input/output; there is no operator * on purpose: a product of two 256-bit values rarely fits in 256 bits </para>
+    </detaileddescription>
+    <location file="MRMesh/MRFastInt256.h" line="43" column="1" bodyfile="MRMesh/MRFastInt256.h" bodystart="44" bodyend="107"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" prot="public" virt="non-virtual"><scope>MR::FastInt256</scope><name>FastInt256</name></member>
+      <member refid="group__GeneralGroup_1ga8939d64c71ed34e36ed0e17180420f7b" prot="public" virt="non-virtual"><scope>MR::FastInt256</scope><name>FastInt256</name></member>
+      <member refid="group__GeneralGroup_1gad6aa26c7510331c22e965adf8b40ba09" prot="public" virt="non-virtual"><scope>MR::FastInt256</scope><name>operator+</name></member>
+      <member refid="group__GeneralGroup_1ga42e23b757ec321ed05363f94d4ba3289" prot="public" virt="non-virtual"><scope>MR::FastInt256</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1gafbc1effbac2c5c48f9bf9e630499273f" prot="public" virt="non-virtual"><scope>MR::FastInt256</scope><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1ga219735516a4ffae301e534fee33cfb36" prot="public" virt="non-virtual"><scope>MR::FastInt256</scope><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1gab60f5bac010cebacc930a3bd4581f6c9" prot="public" virt="non-virtual"><scope>MR::FastInt256</scope><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1ga9ccbcefe927147b4744dd4fc7c039ff2" prot="public" virt="non-virtual"><scope>MR::FastInt256</scope><name>operator&lt;=&gt;</name></member>
+      <member refid="group__GeneralGroup_1ga1e333e1a3dfeb1453903181624dd733b" prot="public" virt="non-virtual"><scope>MR::FastInt256</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga94ae46428d73117823d1a116f25559ae" prot="public" virt="non-virtual"><scope>MR::FastInt256</scope><name>sign</name></member>
+      <member refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" prot="public" virt="non-virtual"><scope>MR::FastInt256</scope><name>w</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

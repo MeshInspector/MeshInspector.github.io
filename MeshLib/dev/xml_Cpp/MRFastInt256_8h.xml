@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRFastInt256_8h" kind="file" language="C++">
+    <compoundname>MRFastInt256.h</compoundname>
+    <includes refid="MRFastInt128_8h" local="yes">MRFastInt128.h</includes>
+    <includes local="no">MRPch/MRBindingMacros.h</includes>
+    <includes local="no">array</includes>
+    <includes local="no">compare</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="no">type_traits</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRFastInt128.h</label>
+        <link refid="MRFastInt128_8h"/>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRFastInt256.h</label>
+        <link refid="MRFastInt256_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="4">
+        <label>array</label>
+      </node>
+      <node id="5">
+        <label>compare</label>
+      </node>
+      <node id="6">
+        <label>cstdint</label>
+      </node>
+      <node id="7">
+        <label>type_traits</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classMR_1_1FastInt256" prot="public">MR::FastInt256</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1detail">MR::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFastInt128_8h" kindref="compound">MRFastInt128.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRPch/MRBindingMacros.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;compare&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;type_traits&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="namespaceMR_1_1detail" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1detail" kindref="compound">detail</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga5594848257c568b851f69e038d664c51" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="group__GeneralGroup_1ga5594848257c568b851f69e038d664c51" kindref="member">addCarry64</ref>(<sp/>uint64_t<sp/>a,<sp/>uint64_t<sp/>b,<sp/>uint64_t<sp/>&amp;<sp/>carry<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/>s<sp/>=<sp/>a<sp/>+<sp/>b;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/>r<sp/>=<sp/>s<sp/>+<sp/>carry;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>carry<sp/>=<sp/>uint64_t(<sp/>s<sp/>&lt;<sp/>a<sp/>)<sp/>+<sp/>uint64_t(<sp/>r<sp/>&lt;<sp/>s<sp/>);<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1gadb35ada3bd7625e707607b41a5ad3201" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="group__GeneralGroup_1gadb35ada3bd7625e707607b41a5ad3201" kindref="member">subBorrow64</ref>(<sp/>uint64_t<sp/>a,<sp/>uint64_t<sp/>b,<sp/>uint64_t<sp/>&amp;<sp/>borrow<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/>d<sp/>=<sp/>a<sp/>-<sp/>b;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/>r<sp/>=<sp/>d<sp/>-<sp/>borrow;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>borrow<sp/>=<sp/>uint64_t(<sp/>d<sp/>&gt;<sp/>a<sp/>)<sp/>+<sp/>uint64_t(<sp/>r<sp/>&gt;<sp/>d<sp/>);<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classMR_1_1FastInt256" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;uint64_t,<sp/>4&gt;<sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref>()<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>template<sp/>&lt;typename<sp/>T&gt;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>requires<sp/>(<sp/>std::is_integral_v&lt;T&gt;<sp/>||<sp/>std::is_same_v&lt;T,<sp/><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref>&gt;<sp/>)</highlight></codeline>
+<codeline lineno="54" refid="group__GeneralGroup_1ga8939d64c71ed34e36ed0e17180420f7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref>(<sp/>T<sp/>v<sp/>)<sp/>noexcept</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref><sp/>x<sp/>=<sp/><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref>(<sp/>v<sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[0]<sp/>=<sp/>uint64_t(<sp/>x<sp/>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[1]<sp/>=<sp/>uint64_t(<sp/>x<sp/>&gt;&gt;<sp/>64<sp/>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[2]<sp/>=<sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[3]<sp/>=<sp/>int64_t(<sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[1]<sp/>)<sp/>&lt;<sp/>0<sp/>?<sp/>~uint64_t(<sp/>0<sp/>)<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="group__GeneralGroup_1ga94ae46428d73117823d1a116f25559ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga94ae46428d73117823d1a116f25559ae" kindref="member">sign</ref>()<sp/>const<sp/>noexcept</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>int64_t(<sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[3]<sp/>)<sp/>&lt;<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[0]<sp/>|<sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[1]<sp/>|<sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[2]<sp/>|<sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[3]<sp/>)<sp/>!=<sp/>0<sp/>?<sp/>1<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="group__GeneralGroup_1ga42e23b757ec321ed05363f94d4ba3289" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gaf8035c21c5cd5903e8910e4bf376f47b" kindref="member">operator +=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>carry<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>4;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[i]<sp/>=<sp/><ref refid="group__GeneralGroup_1ga5594848257c568b851f69e038d664c51" kindref="member">detail::addCarry64</ref>(<sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[i],<sp/>b.w[i],<sp/>carry<sp/>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="group__GeneralGroup_1gab60f5bac010cebacc930a3bd4581f6c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga392990ba042835928d28ef75fa89d892" kindref="member">operator -=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>borrow<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>4;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[i]<sp/>=<sp/><ref refid="group__GeneralGroup_1gadb35ada3bd7625e707607b41a5ad3201" kindref="member">detail::subBorrow64</ref>(<sp/><ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[i],<sp/>b.w[i],<sp/>borrow<sp/>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="group__GeneralGroup_1gafbc1effbac2c5c48f9bf9e630499273f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/><ref refid="group__BasicGroup_1ga042aeb0c2011b3bc175a13e96a447a5f" kindref="member">operator -</ref>()<sp/>const<sp/>noexcept</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>res;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>res<sp/>-=<sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="group__GeneralGroup_1gad6aa26c7510331c22e965adf8b40ba09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/><ref refid="group__GeneralGroup_1gaf9a5c1118c2c4b0cda030dff8d11ce03" kindref="member">operator +</ref>(<sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/>a<sp/>+=<sp/>b;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a;<sp/>}</highlight></codeline>
+<codeline lineno="94" refid="group__GeneralGroup_1ga219735516a4ffae301e534fee33cfb36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/><ref refid="group__BasicGroup_1ga042aeb0c2011b3bc175a13e96a447a5f" kindref="member">operator -</ref>(<sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/>a<sp/>-=<sp/>b;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a;<sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="group__GeneralGroup_1ga1e333e1a3dfeb1453903181624dd733b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga477d12e4df21747098c68393607fe634" kindref="member">operator ==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a.w<sp/>==<sp/>b.w;<sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="group__GeneralGroup_1ga9ccbcefe927147b4744dd4fc7c039ff2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::strong_ordering<sp/>operator<sp/>&lt;=&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kindref="member">FastInt256</ref><sp/>&amp;<sp/>b<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>c<sp/>=<sp/>int64_t(<sp/>a.w[3]<sp/>)<sp/>&lt;=&gt;<sp/>int64_t(<sp/>b.w[3]<sp/>);<sp/>c<sp/>!=<sp/>std::strong_ordering::equal<sp/>)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>c;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>2;<sp/>i<sp/>&gt;=<sp/>0;<sp/>--i<sp/>)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>c<sp/>=<sp/>a.w[i]<sp/>&lt;=&gt;<sp/>b.w[i];<sp/>c<sp/>!=<sp/>std::strong_ordering::equal<sp/>)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>c;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::strong_ordering::equal;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="group__GeneralGroup_1ga720036c56f62997953c9a28dda60b2e3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FastInt256" kindref="compound">FastInt256</ref><sp/><ref refid="group__GeneralGroup_1ga720036c56f62997953c9a28dda60b2e3" kindref="member">mulExact</ref>(<sp/><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref><sp/>a,<sp/><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref><sp/>b<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kindref="member">FastUInt128</ref><sp/>ua(<sp/>a<sp/>),<sp/>ub(<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/>x[2]<sp/>=<sp/>{<sp/>uint64_t(<sp/>ua<sp/>),<sp/>uint64_t(<sp/>ua<sp/>&gt;&gt;<sp/>64<sp/>)<sp/>};</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/>y[2]<sp/>=<sp/>{<sp/>uint64_t(<sp/>ub<sp/>),<sp/>uint64_t(<sp/>ub<sp/>&gt;&gt;<sp/>64<sp/>)<sp/>};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1FastInt256" kindref="compound">FastInt256</ref><sp/>res;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>2;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>carry<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>2;<sp/>++j<sp/>)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kindref="member">FastUInt128</ref><sp/>t<sp/>=<sp/><ref refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kindref="member">FastUInt128</ref>(<sp/>x[i]<sp/>)<sp/>*<sp/><ref refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kindref="member">FastUInt128</ref>(<sp/>y[j]<sp/>)<sp/>+<sp/><ref refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kindref="member">FastUInt128</ref>(<sp/>res.<ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[i<sp/>+<sp/>j]<sp/>)<sp/>+<sp/><ref refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kindref="member">FastUInt128</ref>(<sp/>carry<sp/>);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[i<sp/>+<sp/>j]<sp/>=<sp/>uint64_t(<sp/>t<sp/>);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>carry<sp/>=<sp/>uint64_t(<sp/>t<sp/>&gt;&gt;<sp/>64<sp/>);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[i<sp/>+<sp/>2]<sp/>=<sp/>carry;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kindref="member">FastUInt128</ref><sp/>high<sp/>=<sp/>(<sp/><ref refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kindref="member">FastUInt128</ref>(<sp/>res.<ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[3]<sp/>)<sp/>&lt;&lt;<sp/>64<sp/>)<sp/>|<sp/><ref refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kindref="member">FastUInt128</ref>(<sp/>res.<ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[2]<sp/>);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>a<sp/>&lt;<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>high<sp/>-=<sp/>ub;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>b<sp/>&lt;<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>high<sp/>-=<sp/>ua;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[2]<sp/>=<sp/>uint64_t(<sp/>high<sp/>);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>res.<ref refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kindref="member">w</ref>[3]<sp/>=<sp/>uint64_t(<sp/>high<sp/>&gt;&gt;<sp/>64<sp/>);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MRMesh/MRFastInt256.h"/>
+  </compounddef>
+</doxygen>

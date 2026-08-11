@@ -171,6 +171,7 @@
     <innerclass refid="classMR_1_1EnumNeihbourVertices" prot="public">MR::EnumNeihbourVertices</innerclass>
     <innerclass refid="classMR_1_1EnumNeihbourFaces" prot="public">MR::EnumNeihbourFaces</innerclass>
     <innerclass refid="structMR_1_1FaceDistancesSettings" prot="public">MR::FaceDistancesSettings</innerclass>
+    <innerclass refid="classMR_1_1FastInt256" prot="public">MR::FastInt256</innerclass>
     <innerclass refid="classMR_1_1IFastWindingNumber" prot="public">MR::IFastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1FastWindingNumber" prot="public">MR::FastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1IFastWindingNumberByParts" prot="public">MR::IFastWindingNumberByParts</innerclass>
@@ -909,10 +910,6 @@
     <innernamespace refid="namespaceMR_1_1Nesting">MR::Nesting</innernamespace>
     <innernamespace refid="namespaceMR_1_1DistanceMapSave">MR::DistanceMapSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1PlanarTriangulation">MR::PlanarTriangulation</innernamespace>
-    <innernamespace refid="namespaceMR_1_1Features_1_1Primitives">MR::Features::Primitives</innernamespace>
-    <innernamespace refid="namespaceMR_1_1Features_1_1Traits">MR::Features::Traits</innernamespace>
-    <innernamespace refid="namespaceMR_1_1SelfIntersections">MR::SelfIntersections</innernamespace>
-    <innernamespace refid="namespaceMR_1_1MeshBuilder">MR::MeshBuilder</innernamespace>
     <innernamespace refid="namespaceMR_1_1detail">MR::detail</innernamespace>
     <innernamespace refid="namespaceMR_1_1detail_1_1AffineXf3f">MR::detail::AffineXf3f</innernamespace>
     <innernamespace refid="namespaceMR_1_1detail_1_1Units">MR::detail::Units</innernamespace>
@@ -921,6 +918,10 @@
     <innernamespace refid="namespaceMR_1_1Locale">MR::Locale</innernamespace>
     <innernamespace refid="namespaceMR_1_1ObjectSave">MR::ObjectSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1SceneSave">MR::SceneSave</innernamespace>
+    <innernamespace refid="namespaceMR_1_1Features_1_1Primitives">MR::Features::Primitives</innernamespace>
+    <innernamespace refid="namespaceMR_1_1SelfIntersections">MR::SelfIntersections</innernamespace>
+    <innernamespace refid="namespaceMR_1_1MeshBuilder">MR::MeshBuilder</innernamespace>
+    <innernamespace refid="namespaceMR_1_1Features_1_1Traits">MR::Features::Traits</innernamespace>
     <innernamespace refid="namespaceMR_1_1FileDialog">MR::FileDialog</innernamespace>
     <innernamespace refid="namespaceMR_1_1Mcp">MR::Mcp</innernamespace>
     <innernamespace refid="namespaceMR_1_1ProgressBar">MR::ProgressBar</innernamespace>
@@ -15066,7 +15067,21 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt128.h" line="20" column="3" bodyfile="MRMesh/MRFastInt128.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRFastInt128.h" line="21" column="3" bodyfile="MRMesh/MRFastInt128.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" prot="public" static="no">
+        <type>__uint128_t</type>
+        <definition>using MR::FastUInt128 =  __uint128_t</definition>
+        <argsstring></argsstring>
+        <name>FastUInt128</name>
+        <qualifiedname>MR::FastUInt128</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt128.h" line="22" column="3" bodyfile="MRMesh/MRFastInt128.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga54e74708f7b97596d00a59029266cc0f" prot="public" static="no">
         <type>std::function&lt; Expected&lt; void &gt;(std::vector&lt; float &gt; &amp;&amp;data, const Vector3i &amp;dims, int zOffset)&gt;</type>
@@ -27792,6 +27807,22 @@ it provides additional info from other mesh used in boolean operation, useful to
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRFaceDistance.h" line="25" column="22" bodyfile="MRMesh/MRFaceDistance.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" prot="public" static="no" mutable="no">
+        <type>std::array&lt; uint64_t, 4 &gt;</type>
+        <definition>std::array&lt;uint64_t, 4&gt; MR::FastInt256::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>MR::FastInt256::w</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>two&apos;s complement representation: w[0] + 2^64 * w[1] + 2^128 * w[2] + 2^192 * int64_t( w[3] ) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="47" column="16" bodyfile="MRMesh/MRFastInt256.h" bodystart="47" bodyend="47"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf77abe1fbfbd40c8bd6dcaf35db1aa14" prot="private" static="no" mutable="no">
         <type>const Mesh &amp;</type>
@@ -71595,6 +71626,94 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRMesh/MREdgePathsBuilder.h" line="113" column="16" bodyfile="MRMesh/MREdgePathsBuilder.h" bodystart="113" bodyend="116"/>
       </memberdef>
+      <memberdef kind="friend" id="group__GeneralGroup_1gad6aa26c7510331c22e965adf8b40ba09" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>FastInt256</type>
+        <definition>FastInt256 operator+</definition>
+        <argsstring>(FastInt256 a, const FastInt256 &amp;b) noexcept</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR::FastInt256::operator+</qualifiedname>
+        <param>
+          <type>FastInt256</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const FastInt256 &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="93" column="34" bodyfile="MRMesh/MRFastInt256.h" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="friend" id="group__GeneralGroup_1ga219735516a4ffae301e534fee33cfb36" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>FastInt256</type>
+        <definition>FastInt256 operator-</definition>
+        <argsstring>(FastInt256 a, const FastInt256 &amp;b) noexcept</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::FastInt256::operator-</qualifiedname>
+        <param>
+          <type>FastInt256</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const FastInt256 &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="94" column="34" bodyfile="MRMesh/MRFastInt256.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="friend" id="group__GeneralGroup_1ga1e333e1a3dfeb1453903181624dd733b" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const FastInt256 &amp;a, const FastInt256 &amp;b) noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::FastInt256::operator==</qualifiedname>
+        <param>
+          <type>const FastInt256 &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const FastInt256 &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="96" column="28" bodyfile="MRMesh/MRFastInt256.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="friend" id="group__GeneralGroup_1ga9ccbcefe927147b4744dd4fc7c039ff2" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::strong_ordering</type>
+        <definition>std::strong_ordering operator&lt;=&gt;</definition>
+        <argsstring>(const FastInt256 &amp;a, const FastInt256 &amp;b) noexcept</argsstring>
+        <name>operator&lt;=&gt;</name>
+        <qualifiedname>MR::FastInt256::operator&lt;=&gt;</qualifiedname>
+        <param>
+          <type>const FastInt256 &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const FastInt256 &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="98" column="23" bodyfile="MRMesh/MRFastInt256.h" bodystart="98" bodyend="106"/>
+      </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1ga8ad7586da649f116dbeefd965f5ff897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool operator==</definition>
@@ -93710,6 +93829,191 @@ this function must be faster than extractXYPlaneSections function when connectin
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRFaceDistance.h" line="32" column="17" declfile="MRMesh/MRFaceDistance.h" declline="32" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga5594848257c568b851f69e038d664c51" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t MR::detail::addCarry64</definition>
+        <argsstring>(uint64_t a, uint64_t b, uint64_t &amp;carry) noexcept</argsstring>
+        <name>addCarry64</name>
+        <qualifiedname>MR::detail::addCarry64</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>carry</declname>
+        </param>
+        <briefdescription>
+<para>returns a + b + carry modulo 2^64, and replaces carry with the carry-out (0 or 1) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>at most one of the two additions can wrap</para>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="20" column="28" bodyfile="MRMesh/MRFastInt256.h" bodystart="20" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gadb35ada3bd7625e707607b41a5ad3201" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t MR::detail::subBorrow64</definition>
+        <argsstring>(uint64_t a, uint64_t b, uint64_t &amp;borrow) noexcept</argsstring>
+        <name>subBorrow64</name>
+        <qualifiedname>MR::detail::subBorrow64</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>borrow</declname>
+        </param>
+        <briefdescription>
+<para>returns a - b - borrow modulo 2^64, and replaces borrow with the borrow-out (0 or 1) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>at most one of the two subtractions can wrap</para>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="29" column="28" bodyfile="MRMesh/MRFastInt256.h" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::FastInt256::FastInt256</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>FastInt256</name>
+        <qualifiedname>MR::FastInt256::FastInt256</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="49" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga8939d64c71ed34e36ed0e17180420f7b" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr</type>
+        <definition>MR::FastInt256::FastInt256</definition>
+        <argsstring>(T v) noexcept</argsstring>
+        <name>FastInt256</name>
+        <qualifiedname>MR::FastInt256::FastInt256</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>v</declname>
+        </param>
+    <requiresclause>( std::is_integral_v&lt;T&gt; || std::is_same_v&lt;T, FastInt128&gt; )    </requiresclause>
+        <briefdescription>
+<para>sign-extends the given value, which must fit in 128 bits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="54" column="15" bodyfile="MRMesh/MRFastInt256.h" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga94ae46428d73117823d1a116f25559ae" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::FastInt256::sign</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>sign</name>
+        <qualifiedname>MR::FastInt256::sign</qualifiedname>
+        <briefdescription>
+<para>-1, 0 or 1 if the value is negative, zero or positive respectively </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="63" column="20" bodyfile="MRMesh/MRFastInt256.h" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga42e23b757ec321ed05363f94d4ba3289" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>FastInt256 &amp;</type>
+        <definition>FastInt256 &amp; MR::FastInt256::operator+=</definition>
+        <argsstring>(const FastInt256 &amp;b) noexcept</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>MR::FastInt256::operator+=</qualifiedname>
+        <param>
+          <type>const FastInt256 &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="70" column="27" bodyfile="MRMesh/MRFastInt256.h" bodystart="70" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gab60f5bac010cebacc930a3bd4581f6c9" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>FastInt256 &amp;</type>
+        <definition>FastInt256 &amp; MR::FastInt256::operator-=</definition>
+        <argsstring>(const FastInt256 &amp;b) noexcept</argsstring>
+        <name>operator-=</name>
+        <qualifiedname>MR::FastInt256::operator-=</qualifiedname>
+        <param>
+          <type>const FastInt256 &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="78" column="27" bodyfile="MRMesh/MRFastInt256.h" bodystart="78" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gafbc1effbac2c5c48f9bf9e630499273f" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>FastInt256</type>
+        <definition>FastInt256 MR::FastInt256::operator-</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::FastInt256::operator-</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="86" column="27" bodyfile="MRMesh/MRFastInt256.h" bodystart="86" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga720036c56f62997953c9a28dda60b2e3" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE constexpr FastInt256</type>
+        <definition>MR_BIND_IGNORE constexpr FastInt256 MR::mulExact</definition>
+        <argsstring>(FastInt128 a, FastInt128 b) noexcept</argsstring>
+        <name>mulExact</name>
+        <qualifiedname>MR::mulExact</qualifiedname>
+        <param>
+          <type>FastInt128</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>FastInt128</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the exact product of two 128-bit integers, which in general does not fit in 128 bits; operator * of <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> keeps the lowest 128 bits of the product only </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>at most ( 2^64 - 1 )^2 + 2 * ( 2^64 - 1 ) &lt; 2^128 here</para>
+<para>the loop above has multiplied the arguments as if they were unsigned</para>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt256.h" line="111" column="45" bodyfile="MRMesh/MRFastInt256.h" bodystart="111" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9bdb8344f54dfef30896226afa7e5197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

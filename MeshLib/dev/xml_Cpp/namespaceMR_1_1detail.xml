@@ -8,6 +8,8 @@
     <innernamespace refid="namespaceMR_1_1detail_1_1AffineXf3f">MR::detail::AffineXf3f</innernamespace>
     <innernamespace refid="namespaceMR_1_1detail_1_1Units">MR::detail::Units</innernamespace>
     <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1ga5594848257c568b851f69e038d664c51" kind="function"><name>addCarry64</name></member>
+      <member refid="group__GeneralGroup_1gadb35ada3bd7625e707607b41a5ad3201" kind="function"><name>subBorrow64</name></member>
       <memberdef kind="function" id="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::filesystem::path &gt;</type>
         <definition>std::vector&lt; std::filesystem::path &gt; MR::detail::runCocoaFileDialog</definition>
@@ -66,6 +68,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRFinally.h" line="33" column="1"/>
+    <location file="MRMesh/MRFastInt256.h" line="16" column="1"/>
   </compounddef>
 </doxygen>
