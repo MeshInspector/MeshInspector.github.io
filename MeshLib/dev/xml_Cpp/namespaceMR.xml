@@ -1477,14 +1477,14 @@
         </inbodydescription>
         <location file="MRMesh/MRVector2.h" line="167" column="13" bodyfile="MRMesh/MRVector2.h" bodystart="167" bodyend="170"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Vector2_1a9d7aee9b382101cb77cc426a34791517" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structMR_1_1Vector2_1a032f22a51118a92560ace51190d8eb0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type>T</type>
-        <definition>T sqr</definition>
+        <type>decltype(a.lengthSq())</type>
+        <definition>decltype(a.lengthSq()) sqr</definition>
         <argsstring>(const Vector2&lt; T &gt; &amp;a)</argsstring>
         <name>sqr</name>
         <qualifiedname>MR::Vector2::sqr</qualifiedname>
@@ -1499,7 +1499,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector2.h" line="174" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="174" bodyend="177"/>
+        <location file="MRMesh/MRVector2.h" line="174" column="13" bodyfile="MRMesh/MRVector2.h" bodystart="174" bodyend="177"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Vector2_1aaf1c84a8ba1493b479c774db9477d5e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1592,8 +1592,8 @@
       <member refid="group__GeneralGroup_1gaa62b4ce06d0439125af427faabb987b1" kind="function"><name>distance</name></member>
       <member refid="group__GeneralGroup_1gae41face18b9dc2041d79eb7613426525" kind="function"><name>cross</name></member>
       <member refid="group__GeneralGroup_1ga12ace0a073b6d056e20f50fabe0b9940" kind="function"><name>dot</name></member>
-      <member refid="group__GeneralGroup_1gac519c0badafc5dd614c0c6f8b8b28994" kind="function"><name>sqr</name></member>
-      <member refid="group__GeneralGroup_1gaa80c4d71ef5b56a6aaa251f91e636873" kind="function"><name>mixed</name></member>
+      <member refid="group__GeneralGroup_1ga54dc2aba870f99fd60fbe3ce03fc7c7f" kind="function"><name>sqr</name></member>
+      <member refid="group__GeneralGroup_1ga4853bb586796b5d140948d0ab51c0bd0" kind="function"><name>mixed</name></member>
       <member refid="group__GeneralGroup_1gae2acb767e75d8fddbe60a26218e7635a" kind="function"><name>mult</name></member>
       <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
       <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
@@ -1603,7 +1603,7 @@
       <member refid="group__GeneralGroup_1ga664e7947c3eb5d229c9ceb1c728a6f9b" kind="function"><name>distanceSq</name></member>
       <member refid="group__GeneralGroup_1gafa16e6f10fb59a666d01d58bb1737e85" kind="function"><name>distance</name></member>
       <member refid="group__GeneralGroup_1ga6b70b6953f8b9ea980c0d5afcdf3b335" kind="function"><name>dot</name></member>
-      <member refid="group__GeneralGroup_1ga2925cc04ba84c72a45503f35a61c90e5" kind="function"><name>sqr</name></member>
+      <member refid="group__GeneralGroup_1ga33b3fc58679756e00cf9e473c4053f15" kind="function"><name>sqr</name></member>
       <member refid="group__GeneralGroup_1ga792b605255e8f3f5d4fc544964d5bfed" kind="function"><name>mult</name></member>
       <member refid="group__GeneralGroup_1ga5bb00471e4228b49442d8c7e717e31e7" kind="function"><name>div</name></member>
     </sectiondef>

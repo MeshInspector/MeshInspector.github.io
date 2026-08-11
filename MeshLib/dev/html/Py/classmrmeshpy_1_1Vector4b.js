@@ -24,5 +24,5 @@ var classmrmeshpy_1_1Vector4b =
     [ "__sub__", "classmrmeshpy_1_1Vector4b.html#a3da78a658bf097c14e721efd6c2cd77b", null ],
     [ "__truediv__", "classmrmeshpy_1_1Vector4b.html#a1473e887d31ef68e8472acd163fd44fb", null ],
     [ "length", "classmrmeshpy_1_1Vector4b.html#aa4dd5396ddb53376b56c39b0d00f320a", null ],
-    [ "lengthSq", "classmrmeshpy_1_1Vector4b.html#a3582d58a1769e59c711475c314416558", null ]
+    [ "lengthSq", "classmrmeshpy_1_1Vector4b.html#a1b0fbc5b557320b1a09999d182fdcc0b", null ]
 ];

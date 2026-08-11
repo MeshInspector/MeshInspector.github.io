@@ -13,8 +13,8 @@
       <member refid="group__GeneralGroup_1gaa62b4ce06d0439125af427faabb987b1" kind="function"><name>distance</name></member>
       <member refid="group__GeneralGroup_1gae41face18b9dc2041d79eb7613426525" kind="function"><name>cross</name></member>
       <member refid="group__GeneralGroup_1ga12ace0a073b6d056e20f50fabe0b9940" kind="function"><name>dot</name></member>
-      <member refid="group__GeneralGroup_1gac519c0badafc5dd614c0c6f8b8b28994" kind="function"><name>sqr</name></member>
-      <member refid="group__GeneralGroup_1gaa80c4d71ef5b56a6aaa251f91e636873" kind="function"><name>mixed</name></member>
+      <member refid="group__GeneralGroup_1ga54dc2aba870f99fd60fbe3ce03fc7c7f" kind="function"><name>sqr</name></member>
+      <member refid="group__GeneralGroup_1ga4853bb586796b5d140948d0ab51c0bd0" kind="function"><name>mixed</name></member>
       <member refid="group__GeneralGroup_1gae2acb767e75d8fddbe60a26218e7635a" kind="function"><name>mult</name></member>
       <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
       <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
@@ -41,7 +41,7 @@
       <member refid="group__GeneralGroup_1ga8b863a75d888921eb316d0faf64e45b7" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
       <member refid="group__GeneralGroup_1ga91b0398c10d527ac2433b92451a3dfb8" kind="function"><name>operator[]</name></member>
       <member refid="group__GeneralGroup_1gafd88975c7b25f8752c951f16a74ac7f5" kind="function"><name>operator[]</name></member>
-      <member refid="group__GeneralGroup_1gaedb5f8de6324a8ee5e71243c4b67104c" kind="function"><name>lengthSq</name></member>
+      <member refid="group__GeneralGroup_1ga443f05907a7c319e5e081fa7dd0b9019" kind="function"><name>lengthSq</name></member>
       <member refid="group__GeneralGroup_1ga9b44af3c8a7c918cf88dac1811950e66" kind="function"><name>length</name></member>
       <member refid="group__GeneralGroup_1gabcd3a5ac10c0bd8323d2f67d4d63c474" kind="function"><name>normalized</name></member>
       <member refid="group__GeneralGroup_1gad58865da02e91d912a9eee9a9cc26881" kind="function"><name>transformed</name></member>
@@ -99,12 +99,12 @@
       <member refid="group__GeneralGroup_1ga6b9ccf24b760d9f47f17c7e5f184e826" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>end</name></member>
       <member refid="group__GeneralGroup_1gaf10fc7b8e96744a5bf22924d7bb263ad" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>isFinite</name></member>
       <member refid="group__GeneralGroup_1ga9b44af3c8a7c918cf88dac1811950e66" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>length</name></member>
-      <member refid="group__GeneralGroup_1gaedb5f8de6324a8ee5e71243c4b67104c" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>lengthSq</name></member>
+      <member refid="group__GeneralGroup_1ga443f05907a7c319e5e081fa7dd0b9019" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>lengthSq</name></member>
       <member refid="group__GeneralGroup_1ga7c629d81f031f089ef5fb3ea45689ea5" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>MatrixType</name></member>
       <member refid="group__GeneralGroup_1ga117652ff51572cee9976692e6c8a73ac" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>minusX</name></member>
       <member refid="group__GeneralGroup_1ga22c8d018c591515e61ae946b1cef1ee8" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>minusY</name></member>
       <member refid="group__GeneralGroup_1ga291eb0254deb6bfb0f17700a8dc48b41" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>minusZ</name></member>
-      <member refid="group__GeneralGroup_1gaa80c4d71ef5b56a6aaa251f91e636873" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>mixed</name></member>
+      <member refid="group__GeneralGroup_1ga4853bb586796b5d140948d0ab51c0bd0" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>mixed</name></member>
       <member refid="group__GeneralGroup_1ga9bfdd0e5562d8003259366aedc1074a5" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
       <member refid="group__GeneralGroup_1ga8b863a75d888921eb316d0faf64e45b7" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
       <member refid="group__GeneralGroup_1gae2acb767e75d8fddbe60a26218e7635a" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>mult</name></member>
@@ -129,7 +129,7 @@
       <member refid="group__GeneralGroup_1ga048dcca2da540bf2d429cbca37e41092" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>plusX</name></member>
       <member refid="group__GeneralGroup_1gaedf66abcd7c315536ba2e512839885d0" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>plusY</name></member>
       <member refid="group__GeneralGroup_1gaba68004d56f0100e523093390f939910" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>plusZ</name></member>
-      <member refid="group__GeneralGroup_1gac519c0badafc5dd614c0c6f8b8b28994" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>sqr</name></member>
+      <member refid="group__GeneralGroup_1ga54dc2aba870f99fd60fbe3ce03fc7c7f" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>sqr</name></member>
       <member refid="group__GeneralGroup_1ga1be16f68d003d1fe45b63bd915d50bff" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>SymMatrixType</name></member>
       <member refid="group__GeneralGroup_1gad58865da02e91d912a9eee9a9cc26881" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>transformed</name></member>
       <member refid="group__GeneralGroup_1ga14f7f0adb55e73e84d46a542b9b91186" prot="public" virt="non-virtual"><scope>MR::Vector3</scope><name>unitVector3</name></member>

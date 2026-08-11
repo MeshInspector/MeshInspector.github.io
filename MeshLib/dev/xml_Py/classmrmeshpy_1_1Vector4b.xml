@@ -714,9 +714,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64737" bodyend="64738"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector4b_1a3582d58a1769e59c711475c314416558" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition> bool mrmeshpy.Vector4b.lengthSq</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4b_1a1b0fbc5b557320b1a09999d182fdcc0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector4b.lengthSq</definition>
         <argsstring>(self)</argsstring>
         <name>lengthSq</name>
         <qualifiedname>mrmeshpy.Vector4b.lengthSq</qualifiedname>
@@ -776,7 +776,7 @@ four-dimensional vector
       <member refid="classmrmeshpy_1_1Vector4b_1a5942f27334bd69d40c0f33d5c5d28ea3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4b</scope><name>diagonal</name></member>
       <member refid="classmrmeshpy_1_1Vector4b_1a0014cdf38e55d9b7c2b0890953c78610" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4b</scope><name>elements</name></member>
       <member refid="classmrmeshpy_1_1Vector4b_1aa4dd5396ddb53376b56c39b0d00f320a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4b</scope><name>length</name></member>
-      <member refid="classmrmeshpy_1_1Vector4b_1a3582d58a1769e59c711475c314416558" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4b</scope><name>lengthSq</name></member>
+      <member refid="classmrmeshpy_1_1Vector4b_1a1b0fbc5b557320b1a09999d182fdcc0b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4b</scope><name>lengthSq</name></member>
       <member refid="classmrmeshpy_1_1Vector4b_1a8614bfa4a8f8d5a8bbd9af6e9fe33ea3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4b</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Vector4b_1a8614bfa4a8f8d5a8bbd9af6e9fe33ea3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4b</scope><name>operator</name></member>
     </listofallmembers>

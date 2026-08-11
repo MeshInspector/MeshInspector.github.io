@@ -234,7 +234,7 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1UndirectedEdgeMap.html#ae37e73257f4424b6c915d46405dd61ed",
 "classmrmeshpy_1_1UniteManyMeshesParams.html#ae5c55ef79564ef80bdff99439b841e94",
 "classmrmeshpy_1_1Vector2f.html",
-"classmrmeshpy_1_1Vector3b.html#a62d445fe11d893765dcb330a8058083c",
+"classmrmeshpy_1_1Vector3b.html#a701d426223913d99abf7173cbee400db",
 "classmrmeshpy_1_1Vector3i64.html#a9824429051ee011ea91dc773d2160ee6",
 "classmrmeshpy_1_1Vector4i.html#a0fa64fbe9f843abb76024e8098b0180b",
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#aef8014c8dcbfa4dc240bcc85b8aecee8",

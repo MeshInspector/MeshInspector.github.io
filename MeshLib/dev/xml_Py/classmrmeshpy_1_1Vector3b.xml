@@ -737,9 +737,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64045" bodyend="64046"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector3b_1a4457cbcc58e441886649b5c7e94d1dfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition> bool mrmeshpy.Vector3b.lengthSq</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector3b_1a95796ddff3a15e5ed08dd34ab36a212b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector3b.lengthSq</definition>
         <argsstring>(self)</argsstring>
         <name>lengthSq</name>
         <qualifiedname>mrmeshpy.Vector3b.lengthSq</qualifiedname>
@@ -798,7 +798,7 @@ three-dimensional vector
       <member refid="classmrmeshpy_1_1Vector3b_1a7c5e24020713ef6c94f049a72a52becf" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3b</scope><name>diagonal</name></member>
       <member refid="classmrmeshpy_1_1Vector3b_1ade6b85d6d82c69f0339a09543e37330f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3b</scope><name>elements</name></member>
       <member refid="classmrmeshpy_1_1Vector3b_1a25398a3854eecf71f5982566e7b9d0b8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3b</scope><name>length</name></member>
-      <member refid="classmrmeshpy_1_1Vector3b_1a4457cbcc58e441886649b5c7e94d1dfa" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3b</scope><name>lengthSq</name></member>
+      <member refid="classmrmeshpy_1_1Vector3b_1a95796ddff3a15e5ed08dd34ab36a212b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3b</scope><name>lengthSq</name></member>
       <member refid="classmrmeshpy_1_1Vector3b_1a8567bb31990b1c5dc4a5295811179b33" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3b</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Vector3b_1a8567bb31990b1c5dc4a5295811179b33" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3b</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Vector3b_1ab87bce50685f229a6a96cb37bae8c430" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector3b</scope><name>plusX</name></member>

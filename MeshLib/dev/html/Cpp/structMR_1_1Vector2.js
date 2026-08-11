@@ -8,7 +8,7 @@ var structMR_1_1Vector2 =
     [ "Vector2", "structMR_1_1Vector2.html#a9c5f2b992789dba5c6d4e8e80ed28fa0", null ],
     [ "isFinite", "structMR_1_1Vector2.html#afc633e58b9b5cc5e5b4153442fa9bfd3", null ],
     [ "length", "structMR_1_1Vector2.html#aa17da7f932edf77c0804eef8416b44bb", null ],
-    [ "lengthSq", "structMR_1_1Vector2.html#ad798818540cd3ad9d2c98a4f978f8e5c", null ],
+    [ "lengthSq", "structMR_1_1Vector2.html#a65dcc8114a942bdb79fa724e727211e0", null ],
     [ "MR_REQUIRES_IF_SUPPORTED", "structMR_1_1Vector2.html#a8fc9699488aa3c7c5bde2d2b046e9f0c", null ],
     [ "MR_REQUIRES_IF_SUPPORTED", "structMR_1_1Vector2.html#aa88507c09ad0236f834d9ffb29ef6de6", null ],
     [ "normalized", "structMR_1_1Vector2.html#a6bf0beb2bf7fd40b84edbd2256ada3da", null ],
@@ -41,7 +41,7 @@ var structMR_1_1Vector2 =
     [ "operator<<", "structMR_1_1Vector2.html#af814c81714572ce6bb89483f32d274f1", null ],
     [ "operator==", "structMR_1_1Vector2.html#a6deeb9fc80b0d29ccbfa306b2aa4a33b", null ],
     [ "operator>>", "structMR_1_1Vector2.html#a5dfc5e9acce45ac36a78ba8a1115af3a", null ],
-    [ "sqr", "structMR_1_1Vector2.html#a9d7aee9b382101cb77cc426a34791517", null ],
+    [ "sqr", "structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d", null ],
     [ "x", "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c", null ],
     [ "y", "structMR_1_1Vector2.html#a5186451c51a4f421a0b810a3f836fae8", null ]
 ];
