@@ -333,6 +333,7 @@ var hierarchy =
     [ "mrmeshpy.FeatureVisualizePropertyType", "classmrmeshpy_1_1FeatureVisualizePropertyType.html", null ],
     [ "mrmeshpy.FewSmallest_PointsProjectionResult", "classmrmeshpy_1_1FewSmallest__PointsProjectionResult.html", null ],
     [ "mrmeshpy.FillHoleItem", "classmrmeshpy_1_1FillHoleItem.html", null ],
+    [ "mrmeshpy.FillHoleItemEdge", "classmrmeshpy_1_1FillHoleItemEdge.html", null ],
     [ "mrmeshpy.FillHoleMetric", "classmrmeshpy_1_1FillHoleMetric.html", null ],
     [ "mrmeshpy.FillHoleNicelySettings", "classmrmeshpy_1_1FillHoleNicelySettings.html", null ],
     [ "mrmeshpy.FillHoleParams", "classmrmeshpy_1_1FillHoleParams.html", null ],

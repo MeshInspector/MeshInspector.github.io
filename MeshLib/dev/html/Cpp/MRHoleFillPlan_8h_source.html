@@ -141,35 +141,66 @@ $(function(){initNavTree('MRHoleFillPlan_8h_source.html','',''); });
 </div><!--header-->
 <div class="contents">
 <a href="MRHoleFillPlan_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;cassert&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="structMR_1_1FillHoleItem.html">   10</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1FillHoleItem.html">FillHoleItem</a></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga93e897d7d608458643fa5ba8a08d2ea2">   14</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="group__GeneralGroup.html#ga93e897d7d608458643fa5ba8a08d2ea2">edgeCode1</a>, <a class="code hl_variable" href="group__GeneralGroup.html#ga56124e5a79e5cbe2b1b617d2e142aaa1">edgeCode2</a>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>};</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span></div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structMR_1_1FillHoleItem.html">   14</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1FillHoleItem.html">FillHoleItem</a></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga93e897d7d608458643fa5ba8a08d2ea2">   16</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="group__GeneralGroup.html#ga93e897d7d608458643fa5ba8a08d2ea2">edgeCode1</a>, <a class="code hl_variable" href="group__GeneralGroup.html#ga56124e5a79e5cbe2b1b617d2e142aaa1">edgeCode2</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>};</div>
 </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span></div>
-<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structMR_1_1HoleFillPlan.html">   18</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga7c843d95baaaeb4979c70aecb08e6370">   20</a></span>    std::vector&lt;FillHoleItem&gt; <a class="code hl_variable" href="group__GeneralGroup.html#ga7c843d95baaaeb4979c70aecb08e6370">items</a>;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga2817520d11bf0f37cbab7e6ef56b38b9">   21</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="group__GeneralGroup.html#ga2817520d11bf0f37cbab7e6ef56b38b9">numTris</a> = 0; </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structMR_1_1FillHoleItemEdge.html">   21</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1FillHoleItemEdge.html">FillHoleItemEdge</a></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gab8047292c0a65d060fdae0ea066e2888">   24</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="group__GeneralGroup.html#gab8047292c0a65d060fdae0ea066e2888">item</a> = 0;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga59f85d6c7ed89fb09b60e7489ebf540b">   26</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="group__GeneralGroup.html#ga59f85d6c7ed89fb09b60e7489ebf540b">sym</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
+<div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga07a54d9fc1277411a84629ef8af1718e">   29</a></span>    [[nodiscard]] <span class="keywordtype">int</span> <a class="code hl_function" href="group__GeneralGroup.html#ga07a54d9fc1277411a84629ef8af1718e">encode</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        assert( <a class="code hl_variable" href="group__GeneralGroup.html#gab8047292c0a65d060fdae0ea066e2888">item</a> &gt;= 0 );</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="keywordflow">return</span> -( 2 * <a class="code hl_variable" href="group__GeneralGroup.html#gab8047292c0a65d060fdae0ea066e2888">item</a> + int( <a class="code hl_variable" href="group__GeneralGroup.html#ga59f85d6c7ed89fb09b60e7489ebf540b">sym</a> ) + 1 );</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    }</div>
 </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>}</div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga2817520d11bf0f37cbab7e6ef56b38b9"><div class="ttname"><a href="group__GeneralGroup.html#ga2817520d11bf0f37cbab7e6ef56b38b9">MR::HoleFillPlan::numTris</a></div><div class="ttdeci">int numTris</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:21</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga56124e5a79e5cbe2b1b617d2e142aaa1"><div class="ttname"><a href="group__GeneralGroup.html#ga56124e5a79e5cbe2b1b617d2e142aaa1">MR::FillHoleItem::edgeCode2</a></div><div class="ttdeci">int edgeCode2</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:14</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga7c843d95baaaeb4979c70aecb08e6370"><div class="ttname"><a href="group__GeneralGroup.html#ga7c843d95baaaeb4979c70aecb08e6370">MR::HoleFillPlan::items</a></div><div class="ttdeci">std::vector&lt; FillHoleItem &gt; items</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:20</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga93e897d7d608458643fa5ba8a08d2ea2"><div class="ttname"><a href="group__GeneralGroup.html#ga93e897d7d608458643fa5ba8a08d2ea2">MR::FillHoleItem::edgeCode1</a></div><div class="ttdeci">int edgeCode1</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:14</div></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
+<div class="foldopen" id="foldopen00036" data-start="{" data-end="}">
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaca7e1cf40d26625e3f68714cb7cd4150">   36</a></span>    [[nodiscard]] <span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1FillHoleItemEdge.html">FillHoleItemEdge</a> <a class="code hl_function" href="group__GeneralGroup.html#gaca7e1cf40d26625e3f68714cb7cd4150">decode</a>( <span class="keywordtype">int</span> code )</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        assert( code &lt; 0 );</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keyword">const</span> <span class="keywordtype">int</span> c = -( code + 1 );</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">return</span> { .item = c &gt;&gt; 1, .sym = ( c &amp; 1 ) != 0 };</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    }</div>
+</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>};</div>
+</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
+<div class="foldopen" id="foldopen00045" data-start="{" data-end="};">
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="structMR_1_1HoleFillPlan.html">   45</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>{</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga7c843d95baaaeb4979c70aecb08e6370">   47</a></span>    std::vector&lt;FillHoleItem&gt; <a class="code hl_variable" href="group__GeneralGroup.html#ga7c843d95baaaeb4979c70aecb08e6370">items</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga2817520d11bf0f37cbab7e6ef56b38b9">   51</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="group__GeneralGroup.html#ga2817520d11bf0f37cbab7e6ef56b38b9">numTris</a> = 0;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>};</div>
+</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga07a54d9fc1277411a84629ef8af1718e"><div class="ttname"><a href="group__GeneralGroup.html#ga07a54d9fc1277411a84629ef8af1718e">MR::FillHoleItemEdge::encode</a></div><div class="ttdeci">int encode() const</div><div class="ttdoc">encodes this edge in a negative code</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:29</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga2817520d11bf0f37cbab7e6ef56b38b9"><div class="ttname"><a href="group__GeneralGroup.html#ga2817520d11bf0f37cbab7e6ef56b38b9">MR::HoleFillPlan::numTris</a></div><div class="ttdeci">int numTris</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:51</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga56124e5a79e5cbe2b1b617d2e142aaa1"><div class="ttname"><a href="group__GeneralGroup.html#ga56124e5a79e5cbe2b1b617d2e142aaa1">MR::FillHoleItem::edgeCode2</a></div><div class="ttdeci">int edgeCode2</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:16</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga59f85d6c7ed89fb09b60e7489ebf540b"><div class="ttname"><a href="group__GeneralGroup.html#ga59f85d6c7ed89fb09b60e7489ebf540b">MR::FillHoleItemEdge::sym</a></div><div class="ttdeci">bool sym</div><div class="ttdoc">take that edge in the opposite direction, so with the other origin</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:26</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga7c843d95baaaeb4979c70aecb08e6370"><div class="ttname"><a href="group__GeneralGroup.html#ga7c843d95baaaeb4979c70aecb08e6370">MR::HoleFillPlan::items</a></div><div class="ttdeci">std::vector&lt; FillHoleItem &gt; items</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:47</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga93e897d7d608458643fa5ba8a08d2ea2"><div class="ttname"><a href="group__GeneralGroup.html#ga93e897d7d608458643fa5ba8a08d2ea2">MR::FillHoleItem::edgeCode1</a></div><div class="ttdeci">int edgeCode1</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:16</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gab8047292c0a65d060fdae0ea066e2888"><div class="ttname"><a href="group__GeneralGroup.html#gab8047292c0a65d060fdae0ea066e2888">MR::FillHoleItemEdge::item</a></div><div class="ttdeci">int item</div><div class="ttdoc">index of the item creating the edge</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:24</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaca7e1cf40d26625e3f68714cb7cd4150"><div class="ttname"><a href="group__GeneralGroup.html#gaca7e1cf40d26625e3f68714cb7cd4150">MR::FillHoleItemEdge::decode</a></div><div class="ttdeci">static FillHoleItemEdge decode(int code)</div><div class="ttdoc">decodes a negative code back in the edge it denotes</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:36</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="astructMR_1_1FillHoleItem_html"><div class="ttname"><a href="structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:11</div></div>
-<div class="ttc" id="astructMR_1_1HoleFillPlan_html"><div class="ttname"><a href="structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></div><div class="ttdoc">concise representation of proposed hole triangulation</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:19</div></div>
+<div class="ttc" id="astructMR_1_1FillHoleItemEdge_html"><div class="ttname"><a href="structMR_1_1FillHoleItemEdge.html">MR::FillHoleItemEdge</a></div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:22</div></div>
+<div class="ttc" id="astructMR_1_1FillHoleItem_html"><div class="ttname"><a href="structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:15</div></div>
+<div class="ttc" id="astructMR_1_1HoleFillPlan_html"><div class="ttname"><a href="structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></div><div class="ttdoc">concise representation of proposed hole triangulation</div><div class="ttdef"><b>Definition</b> MRHoleFillPlan.h:46</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

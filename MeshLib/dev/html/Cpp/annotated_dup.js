@@ -539,6 +539,7 @@ var annotated_dup =
       [ "FileLoadOptions", "structMR_1_1FileLoadOptions.html", "structMR_1_1FileLoadOptions" ],
       [ "FileParameters", "structMR_1_1FileParameters.html", "structMR_1_1FileParameters" ],
       [ "FillHoleItem", "structMR_1_1FillHoleItem.html", "structMR_1_1FillHoleItem" ],
+      [ "FillHoleItemEdge", "structMR_1_1FillHoleItemEdge.html", "structMR_1_1FillHoleItemEdge" ],
       [ "FillHoleMetric", "structMR_1_1FillHoleMetric.html", "structMR_1_1FillHoleMetric" ],
       [ "FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", "structMR_1_1FillHoleNicelySettings" ],
       [ "FillHoleParams", "structMR_1_1FillHoleParams.html", "structMR_1_1FillHoleParams" ],

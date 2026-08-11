@@ -912,6 +912,9 @@ var hierarchy =
       [ "MR.Const_FillHoleItem", "classMR_1_1Const__FillHoleItem.html", [
         [ "MR.FillHoleItem", "classMR_1_1FillHoleItem.html", null ]
       ] ],
+      [ "MR.Const_FillHoleItemEdge", "classMR_1_1Const__FillHoleItemEdge.html", [
+        [ "MR.FillHoleItemEdge", "classMR_1_1FillHoleItemEdge.html", null ]
+      ] ],
       [ "MR.Const_FillHoleMetric", "classMR_1_1Const__FillHoleMetric.html", [
         [ "MR.FillHoleMetric", "classMR_1_1FillHoleMetric.html", null ]
       ] ],
@@ -3813,6 +3816,7 @@ var hierarchy =
       [ "MR.Const_FeatureObjectSharedProperty", "classMR_1_1Const__FeatureObjectSharedProperty.html", null ],
       [ "MR.Const_FewSmallest_MRPointsProjectionResult", "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html", null ],
       [ "MR.Const_FillHoleItem", "classMR_1_1Const__FillHoleItem.html", null ],
+      [ "MR.Const_FillHoleItemEdge", "classMR_1_1Const__FillHoleItemEdge.html", null ],
       [ "MR.Const_FillHoleMetric", "classMR_1_1Const__FillHoleMetric.html", null ],
       [ "MR.Const_FillHoleNicelySettings", "classMR_1_1Const__FillHoleNicelySettings.html", null ],
       [ "MR.Const_FillHoleParams", "classMR_1_1Const__FillHoleParams.html", null ],

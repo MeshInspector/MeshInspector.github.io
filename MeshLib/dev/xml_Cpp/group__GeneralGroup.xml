@@ -229,6 +229,7 @@
     <innerclass refid="classMR_1_1Histogram" prot="public">MR::Histogram</innerclass>
     <innerclass refid="classMR_1_1HistoryAction" prot="public">MR::HistoryAction</innerclass>
     <innerclass refid="structMR_1_1FillHoleItem" prot="public">MR::FillHoleItem</innerclass>
+    <innerclass refid="structMR_1_1FillHoleItemEdge" prot="public">MR::FillHoleItemEdge</innerclass>
     <innerclass refid="structMR_1_1HoleFillPlan" prot="public">MR::HoleFillPlan</innerclass>
     <innerclass refid="structMR_1_1ICPPairData" prot="public">MR::ICPPairData</innerclass>
     <innerclass refid="structMR_1_1PointPair" prot="public">MR::PointPair</innerclass>
@@ -5890,14 +5891,14 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRVector3.h" line="193" column="13" bodyfile="MRMesh/MRVector3.h" bodystart="193" bodyend="196"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga54dc2aba870f99fd60fbe3ce03fc7c7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gac519c0badafc5dd614c0c6f8b8b28994" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type>decltype(a.lengthSq())</type>
-        <definition>decltype(a.lengthSq()) sqr</definition>
+        <type>T</type>
+        <definition>T sqr</definition>
         <argsstring>(const Vector3&lt; T &gt; &amp;a)</argsstring>
         <name>sqr</name>
         <qualifiedname>MR::Vector3::sqr</qualifiedname>
@@ -5912,16 +5913,16 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector3.h" line="200" column="13" bodyfile="MRMesh/MRVector3.h" bodystart="200" bodyend="203"/>
+        <location file="MRMesh/MRVector3.h" line="200" column="10" bodyfile="MRMesh/MRVector3.h" bodystart="200" bodyend="203"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga4853bb586796b5d140948d0ab51c0bd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaa80c4d71ef5b56a6aaa251f91e636873" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type>decltype(dot(a, cross(b, c)))</type>
-        <definition>decltype(dot(a, cross(b, c))) mixed</definition>
+        <type>T</type>
+        <definition>T mixed</definition>
         <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
         <name>mixed</name>
         <qualifiedname>MR::Vector3::mixed</qualifiedname>
@@ -5944,7 +5945,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector3.h" line="207" column="13" bodyfile="MRMesh/MRVector3.h" bodystart="207" bodyend="210"/>
+        <location file="MRMesh/MRVector3.h" line="207" column="10" bodyfile="MRMesh/MRVector3.h" bodystart="207" bodyend="210"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae2acb767e75d8fddbe60a26218e7635a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6145,14 +6146,14 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRVector4.h" line="157" column="13" bodyfile="MRMesh/MRVector4.h" bodystart="157" bodyend="160"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga33b3fc58679756e00cf9e473c4053f15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga2925cc04ba84c72a45503f35a61c90e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type>decltype(a.lengthSq())</type>
-        <definition>decltype(a.lengthSq()) sqr</definition>
+        <type>T</type>
+        <definition>T sqr</definition>
         <argsstring>(const Vector4&lt; T &gt; &amp;a)</argsstring>
         <name>sqr</name>
         <qualifiedname>MR::Vector4::sqr</qualifiedname>
@@ -6167,7 +6168,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector4.h" line="164" column="13" bodyfile="MRMesh/MRVector4.h" bodystart="164" bodyend="167"/>
+        <location file="MRMesh/MRVector4.h" line="164" column="10" bodyfile="MRMesh/MRVector4.h" bodystart="164" bodyend="167"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga792b605255e8f3f5d4fc544964d5bfed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -30361,11 +30362,10 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if not-negative number then it is edgeid; otherwise it refers to the edge created recently </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHoleFillPlan.h" line="14" column="9" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="14" bodyend="-1"/>
+        <location file="MRMesh/MRHoleFillPlan.h" line="16" column="9" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga56124e5a79e5cbe2b1b617d2e142aaa1" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -30379,7 +30379,39 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHoleFillPlan.h" line="14" column="19" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="14" bodyend="-1"/>
+        <location file="MRMesh/MRHoleFillPlan.h" line="16" column="19" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gab8047292c0a65d060fdae0ea066e2888" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::FillHoleItemEdge::item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <qualifiedname>MR::FillHoleItemEdge::item</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>index of the item creating the edge </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRHoleFillPlan.h" line="24" column="9" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga59f85d6c7ed89fb09b60e7489ebf540b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::FillHoleItemEdge::sym</definition>
+        <argsstring></argsstring>
+        <name>sym</name>
+        <qualifiedname>MR::FillHoleItemEdge::sym</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>take that edge in the opposite direction, so with the other origin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRHoleFillPlan.h" line="26" column="10" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7c843d95baaaeb4979c70aecb08e6370" prot="public" static="no" mutable="no">
         <type>std::vector&lt; FillHoleItem &gt;</type>
@@ -30393,7 +30425,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHoleFillPlan.h" line="20" column="17" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRHoleFillPlan.h" line="47" column="17" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2817520d11bf0f37cbab7e6ef56b38b9" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -30405,10 +30437,11 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>the number of triangles in the filling; zero means that the plan only adds the edges of items and creates no faces, e.g. it splits a hole in several holes </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHoleFillPlan.h" line="21" column="9" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="21" bodyend="-1"/>
+        <location file="MRMesh/MRHoleFillPlan.h" line="51" column="9" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf30195d74b2a6994fdfadd8768407c38" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -99547,6 +99580,40 @@ this function must be faster than extractXYPlaneSections function when connectin
         </inbodydescription>
         <location file="MRMesh/MRHistoryAction.h" line="47" column="12" declfile="MRMesh/MRHistoryAction.h" declline="47" declcolumn="12"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga07a54d9fc1277411a84629ef8af1718e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::FillHoleItemEdge::encode</definition>
+        <argsstring>() const</argsstring>
+        <name>encode</name>
+        <qualifiedname>MR::FillHoleItemEdge::encode</qualifiedname>
+        <briefdescription>
+<para>encodes this edge in a negative code </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRHoleFillPlan.h" line="29" column="10" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaca7e1cf40d26625e3f68714cb7cd4150" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FillHoleItemEdge</type>
+        <definition>static FillHoleItemEdge MR::FillHoleItemEdge::decode</definition>
+        <argsstring>(int code)</argsstring>
+        <name>decode</name>
+        <qualifiedname>MR::FillHoleItemEdge::decode</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+<para>decodes a negative code back in the edge it denotes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRHoleFillPlan.h" line="36" column="30" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="36" bodyend="41"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>MR::IPointPairs::IPointPairs</definition>
@@ -105564,9 +105631,9 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRLineSegm.h" line="24" column="8" bodyfile="MRMesh/MRLineSegm.h" bodystart="24" bodyend="24"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga08590d32c2ac15f8c7fa66991eebc5e1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>decltype(std::declval&lt; V &gt;().lengthSq())</type>
-        <definition>decltype(std::declval&lt; V &gt;().lengthSq()) MR::LineSegm&lt; V &gt;::lengthSq</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1gaa0c1c59c920a38b8c03970caf1da046a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::LineSegm&lt; V &gt;::lengthSq</definition>
         <argsstring>() const</argsstring>
         <name>lengthSq</name>
         <qualifiedname>MR::LineSegm::lengthSq</qualifiedname>
@@ -105577,7 +105644,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRLineSegm.h" line="26" column="11" bodyfile="MRMesh/MRLineSegm.h" bodystart="26" bodyend="26"/>
+        <location file="MRMesh/MRLineSegm.h" line="26" column="8" bodyfile="MRMesh/MRLineSegm.h" bodystart="26" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga086b850940021667f55efa192653d966" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>T</type>
@@ -147573,9 +147640,9 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRVector3.h" line="66" column="24" bodyfile="MRMesh/MRVector3.h" bodystart="66" bodyend="66"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga443f05907a7c319e5e081fa7dd0b9019" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())</type>
-        <definition>decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;()) MR::Vector3&lt; T &gt;::lengthSq</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1gaedb5f8de6324a8ee5e71243c4b67104c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Vector3&lt; T &gt;::lengthSq</definition>
         <argsstring>() const</argsstring>
         <name>lengthSq</name>
         <qualifiedname>MR::Vector3::lengthSq</qualifiedname>
@@ -147585,7 +147652,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector3.h" line="68" column="10" bodyfile="MRMesh/MRVector3.h" bodystart="68" bodyend="68"/>
+        <location file="MRMesh/MRVector3.h" line="68" column="7" bodyfile="MRMesh/MRVector3.h" bodystart="68" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9b44af3c8a7c918cf88dac1811950e66" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>auto</type>
@@ -147803,9 +147870,9 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRVector4.h" line="54" column="24" bodyfile="MRMesh/MRVector4.h" bodystart="54" bodyend="54"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga569e6612540d74cb89cc24227f7d3f4e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())</type>
-        <definition>decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;()) MR::Vector4&lt; T &gt;::lengthSq</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1ga2dd22ed3ae33f32c5110d16e149d10c1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MR::Vector4&lt; T &gt;::lengthSq</definition>
         <argsstring>() const</argsstring>
         <name>lengthSq</name>
         <qualifiedname>MR::Vector4::lengthSq</qualifiedname>
@@ -147815,7 +147882,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector4.h" line="56" column="10" bodyfile="MRMesh/MRVector4.h" bodystart="56" bodyend="59"/>
+        <location file="MRMesh/MRVector4.h" line="56" column="7" bodyfile="MRMesh/MRVector4.h" bodystart="56" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa635f4c17f51f760f9c4f9d0e5c56aae" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>auto</type>

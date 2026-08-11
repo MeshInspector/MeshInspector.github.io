@@ -312,6 +312,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.FeaturesObjectKind", "classmrmeshpy_1_1FeaturesObjectKind.html", "classmrmeshpy_1_1FeaturesObjectKind" ],
     [ "mrmeshpy.FewSmallest_PointsProjectionResult", "classmrmeshpy_1_1FewSmallest__PointsProjectionResult.html", "classmrmeshpy_1_1FewSmallest__PointsProjectionResult" ],
     [ "mrmeshpy.FillHoleItem", "classmrmeshpy_1_1FillHoleItem.html", "classmrmeshpy_1_1FillHoleItem" ],
+    [ "mrmeshpy.FillHoleItemEdge", "classmrmeshpy_1_1FillHoleItemEdge.html", "classmrmeshpy_1_1FillHoleItemEdge" ],
     [ "mrmeshpy.FillHoleMetric", "classmrmeshpy_1_1FillHoleMetric.html", "classmrmeshpy_1_1FillHoleMetric" ],
     [ "mrmeshpy.FillHoleNicelySettings", "classmrmeshpy_1_1FillHoleNicelySettings.html", "classmrmeshpy_1_1FillHoleNicelySettings" ],
     [ "mrmeshpy.FillHoleParams", "classmrmeshpy_1_1FillHoleParams.html", "classmrmeshpy_1_1FillHoleParams" ],

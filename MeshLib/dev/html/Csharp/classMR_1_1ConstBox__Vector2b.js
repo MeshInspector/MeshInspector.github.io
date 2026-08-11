@@ -11,7 +11,7 @@ var classMR_1_1ConstBox__Vector2b =
     [ "Equals", "classMR_1_1ConstBox__Vector2b.html#abd6374bd320d86daaee752b0b459c7f2", null ],
     [ "Equals", "classMR_1_1ConstBox__Vector2b.html#a20987f445fc349eb6140b80691ba4454", null ],
     [ "length", "classMR_1_1ConstBox__Vector2b.html#a6e0bf979e0d865c12cc4bdac270788a1", null ],
-    [ "lengthSq", "classMR_1_1ConstBox__Vector2b.html#a34eb6d8a458270e6937352eb7104ea66", null ],
+    [ "lengthSq", "classMR_1_1ConstBox__Vector2b.html#a3ae71343afc84d39cba785395d5f641a", null ],
     [ "operator ConstBox_Vector2b", "classMR_1_1ConstBox__Vector2b.html#a21ce1dcaf280212a9d0f00cfe525a3f1", null ],
     [ "operator!=", "classMR_1_1ConstBox__Vector2b.html#a8bed6460fd6ed0d6853a1517531d51f8", null ],
     [ "operator*", "classMR_1_1ConstBox__Vector2b.html#ab8ad7b8b8bd3c8770480721ac306949b", null ],

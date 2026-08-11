@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRHoleFillPlan_8h" kind="file" language="C++">
     <compoundname>MRHoleFillPlan.h</compoundname>
+    <includes local="no">cassert</includes>
     <includes local="no">vector</includes>
     <includedby refid="MRFillContours2D_8h" local="yes">MRMesh/MRFillContours2D.h</includedby>
     <includedby refid="MRMeshFillHole_8h" local="yes">MRMesh/MRMeshFillHole.h</includedby>
@@ -11,8 +12,13 @@
         <link refid="MRHoleFillPlan_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
       <node id="2">
+        <label>cassert</label>
+      </node>
+      <node id="3">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -47,6 +53,7 @@
       </node>
     </invincdepgraph>
     <innerclass refid="structMR_1_1FillHoleItem" prot="public">MR::FillHoleItem</innerclass>
+    <innerclass refid="structMR_1_1FillHoleItemEdge" prot="public">MR::FillHoleItemEdge</innerclass>
     <innerclass refid="structMR_1_1HoleFillPlan" prot="public">MR::HoleFillPlan</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
@@ -55,24 +62,44 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
-<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cassert&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="structMR_1_1FillHoleItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHoleItem" kindref="compound">FillHoleItem</ref></highlight></codeline>
-<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14" refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" kindref="member">edgeCode1</ref>,<sp/><ref refid="group__GeneralGroup_1ga56124e5a79e5cbe2b1b617d2e142aaa1" kindref="member">edgeCode2</ref>;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="structMR_1_1HoleFillPlan" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></highlight></codeline>
-<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga7c843d95baaaeb4979c70aecb08e6370" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;FillHoleItem&gt;<sp/><ref refid="group__GeneralGroup_1ga7c843d95baaaeb4979c70aecb08e6370" kindref="member">items</ref>;</highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ga2817520d11bf0f37cbab7e6ef56b38b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2817520d11bf0f37cbab7e6ef56b38b9" kindref="member">numTris</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
-<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1FillHoleItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHoleItem" kindref="compound">FillHoleItem</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" kindref="member">edgeCode1</ref>,<sp/><ref refid="group__GeneralGroup_1ga56124e5a79e5cbe2b1b617d2e142aaa1" kindref="member">edgeCode2</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1FillHoleItemEdge" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHoleItemEdge" kindref="compound">FillHoleItemEdge</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gab8047292c0a65d060fdae0ea066e2888" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab8047292c0a65d060fdae0ea066e2888" kindref="member">item</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga59f85d6c7ed89fb09b60e7489ebf540b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga59f85d6c7ed89fb09b60e7489ebf540b" kindref="member">sym</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ga07a54d9fc1277411a84629ef8af1718e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga07a54d9fc1277411a84629ef8af1718e" kindref="member">encode</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="30"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/><ref refid="group__GeneralGroup_1gab8047292c0a65d060fdae0ea066e2888" kindref="member">item</ref><sp/>&gt;=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-(<sp/>2<sp/>*<sp/><ref refid="group__GeneralGroup_1gab8047292c0a65d060fdae0ea066e2888" kindref="member">item</ref><sp/>+<sp/>int(<sp/><ref refid="group__GeneralGroup_1ga59f85d6c7ed89fb09b60e7489ebf540b" kindref="member">sym</ref><sp/>)<sp/>+<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gaca7e1cf40d26625e3f68714cb7cd4150" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleItemEdge" kindref="compound">FillHoleItemEdge</ref><sp/><ref refid="group__GeneralGroup_1gaca7e1cf40d26625e3f68714cb7cd4150" kindref="member">decode</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>code<sp/>)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>code<sp/>&lt;<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c<sp/>=<sp/>-(<sp/>code<sp/>+<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>.item<sp/>=<sp/>c<sp/>&gt;&gt;<sp/>1,<sp/>.sym<sp/>=<sp/>(<sp/>c<sp/>&amp;<sp/>1<sp/>)<sp/>!=<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="structMR_1_1HoleFillPlan" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1ga7c843d95baaaeb4979c70aecb08e6370" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;FillHoleItem&gt;<sp/><ref refid="group__GeneralGroup_1ga7c843d95baaaeb4979c70aecb08e6370" kindref="member">items</ref>;</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga2817520d11bf0f37cbab7e6ef56b38b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2817520d11bf0f37cbab7e6ef56b38b9" kindref="member">numTris</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRHoleFillPlan.h"/>
   </compounddef>

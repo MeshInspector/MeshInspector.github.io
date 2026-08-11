@@ -449,6 +449,7 @@
     <innerclass refid="classMR_1_1Const__FeatureObjectSharedProperty" prot="public">MR::Const_FeatureObjectSharedProperty</innerclass>
     <innerclass refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult" prot="public">MR::Const_FewSmallest_MRPointsProjectionResult</innerclass>
     <innerclass refid="classMR_1_1Const__FillHoleItem" prot="public">MR::Const_FillHoleItem</innerclass>
+    <innerclass refid="classMR_1_1Const__FillHoleItemEdge" prot="public">MR::Const_FillHoleItemEdge</innerclass>
     <innerclass refid="classMR_1_1Const__FillHoleMetric" prot="public">MR::Const_FillHoleMetric</innerclass>
     <innerclass refid="classMR_1_1Const__FillHoleNicelySettings" prot="public">MR::Const_FillHoleNicelySettings</innerclass>
     <innerclass refid="classMR_1_1Const__FillHoleParams" prot="public">MR::Const_FillHoleParams</innerclass>
@@ -1182,6 +1183,7 @@
     <innerclass refid="classMR_1_1Features" prot="public">MR::Features</innerclass>
     <innerclass refid="classMR_1_1FewSmallest__MRPointsProjectionResult" prot="public">MR::FewSmallest_MRPointsProjectionResult</innerclass>
     <innerclass refid="classMR_1_1FillHoleItem" prot="public">MR::FillHoleItem</innerclass>
+    <innerclass refid="classMR_1_1FillHoleItemEdge" prot="public">MR::FillHoleItemEdge</innerclass>
     <innerclass refid="classMR_1_1FillHoleMetric" prot="public">MR::FillHoleMetric</innerclass>
     <innerclass refid="classMR_1_1FillHoleParams" prot="public">MR::FillHoleParams</innerclass>
     <innerclass refid="classMR_1_1FillingSurface" prot="public">MR::FillingSurface</innerclass>

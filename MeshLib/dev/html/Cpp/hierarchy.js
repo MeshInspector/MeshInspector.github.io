@@ -425,6 +425,7 @@ var hierarchy =
       [ "MR::FileDialog::Parameters", "structMR_1_1FileDialog_1_1Parameters.html", null ]
     ] ],
     [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", null ],
+    [ "MR::FillHoleItemEdge", "structMR_1_1FillHoleItemEdge.html", null ],
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
     [ "MR::FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", null ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],

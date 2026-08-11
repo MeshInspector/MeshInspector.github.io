@@ -505,6 +505,7 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AHistogram" id="r_MR_3A_3AHistogram"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Histogram.html">MR::Histogram</a></td></tr>
 <tr class="memitem:MR_3A_3AHistoryAction" id="r_MR_3A_3AHistoryAction"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></td></tr>
 <tr class="memitem:MR_3A_3AFillHoleItem" id="r_MR_3A_3AFillHoleItem"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></td></tr>
+<tr class="memitem:MR_3A_3AFillHoleItemEdge" id="r_MR_3A_3AFillHoleItemEdge"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleItemEdge.html">MR::FillHoleItemEdge</a></td></tr>
 <tr class="memitem:MR_3A_3AHoleFillPlan" id="r_MR_3A_3AHoleFillPlan"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">concise representation of proposed hole triangulation  <a href="structMR_1_1HoleFillPlan.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AICPPairData" id="r_MR_3A_3AICPPairData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPPairData.html">MR::ICPPairData</a></td></tr>
@@ -4817,6 +4818,10 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:gad6df54da6a63ed83f15053507e8569de"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:gad816d7f5445309140db275f8f14c8ba1" id="r_gad816d7f5445309140db275f8f14c8ba1"><td class="memItemLeft" align="right" valign="top">std::pair&lt; bool, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad816d7f5445309140db275f8f14c8ba1">MR::filterHistoryActionsVector</a> (<a class="el" href="#ga951264a40637210aff82d6b0e375446f">HistoryActionsVector</a> &amp;historyVector, <a class="el" href="#ga85276508657eac277a84365d3e41c118">HistoryStackFilter</a> filteringCondition, size_t firstRedoIndex=0, bool deepFiltering=true)</td></tr>
 <tr class="memdesc:gad816d7f5445309140db275f8f14c8ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove actions from history actions vector that match the condition.  <br /></td></tr>
+<tr class="memitem:ga07a54d9fc1277411a84629ef8af1718e" id="r_ga07a54d9fc1277411a84629ef8af1718e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga07a54d9fc1277411a84629ef8af1718e">MR::FillHoleItemEdge::encode</a> () const</td></tr>
+<tr class="memdesc:ga07a54d9fc1277411a84629ef8af1718e"><td class="mdescLeft">&#160;</td><td class="mdescRight">encodes this edge in a negative code  <br /></td></tr>
+<tr class="memitem:gaca7e1cf40d26625e3f68714cb7cd4150" id="r_gaca7e1cf40d26625e3f68714cb7cd4150"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1FillHoleItemEdge.html">FillHoleItemEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaca7e1cf40d26625e3f68714cb7cd4150">MR::FillHoleItemEdge::decode</a> (int code)</td></tr>
+<tr class="memdesc:gaca7e1cf40d26625e3f68714cb7cd4150"><td class="mdescLeft">&#160;</td><td class="mdescRight">decodes a negative code back in the edge it denotes  <br /></td></tr>
 <tr class="memitem:gadbe70eca8faa13ce9fa22e4f15cb2d5a" id="r_gadbe70eca8faa13ce9fa22e4f15cb2d5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadbe70eca8faa13ce9fa22e4f15cb2d5a">MR::IPointPairs::IPointPairs</a> ()=default</td></tr>
 <tr class="memdesc:gadbe70eca8faa13ce9fa22e4f15cb2d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">required to declare explicitly to avoid warnings  <br /></td></tr>
 <tr class="memitem:ga3fcd8de5d97b49b84e9c984b494f10dc" id="r_ga3fcd8de5d97b49b84e9c984b494f10dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3fcd8de5d97b49b84e9c984b494f10dc">MR::IPointPairs::IPointPairs</a> (const <a class="el" href="structMR_1_1IPointPairs.html">IPointPairs</a> &amp;)=default</td></tr>
@@ -5220,8 +5225,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga5fe5f232802842f5c2716a95abb8c28b template"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5fe5f232802842f5c2716a95abb8c28b">MR::LineSegm&lt; V &gt;::LineSegm</a> (const <a class="el" href="structMR_1_1LineSegm.html">LineSegm</a>&lt; U &gt; &amp;p) noexcept</td></tr>
 <tr class="memitem:gac7639a48742e5c77367777128549d36e" id="r_gac7639a48742e5c77367777128549d36e"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac7639a48742e5c77367777128549d36e">MR::LineSegm&lt; V &gt;::dir</a> () const</td></tr>
 <tr class="memdesc:gac7639a48742e5c77367777128549d36e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns directional vector of the line  <br /></td></tr>
-<tr class="memitem:ga08590d32c2ac15f8c7fa66991eebc5e1" id="r_ga08590d32c2ac15f8c7fa66991eebc5e1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga08590d32c2ac15f8c7fa66991eebc5e1">MR::LineSegm&lt; V &gt;::lengthSq</a> () const -&gt; decltype(std::declval&lt; V &gt;().lengthSq())</td></tr>
-<tr class="memdesc:ga08590d32c2ac15f8c7fa66991eebc5e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns squared length of this line segment  <br /></td></tr>
+<tr class="memitem:gaa0c1c59c920a38b8c03970caf1da046a" id="r_gaa0c1c59c920a38b8c03970caf1da046a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga3257b02c520c257af06a8750951851e6">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa0c1c59c920a38b8c03970caf1da046a">MR::LineSegm&lt; V &gt;::lengthSq</a> () const</td></tr>
+<tr class="memdesc:gaa0c1c59c920a38b8c03970caf1da046a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns squared length of this line segment  <br /></td></tr>
 <tr class="memitem:ga086b850940021667f55efa192653d966" id="r_ga086b850940021667f55efa192653d966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga3257b02c520c257af06a8750951851e6">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga086b850940021667f55efa192653d966">MR::LineSegm&lt; V &gt;::length</a> () const</td></tr>
 <tr class="memdesc:ga086b850940021667f55efa192653d966"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the length of this line segment  <br /></td></tr>
 <tr class="memitem:gaadd80884a169b1942afb5da781c1a137" id="r_gaadd80884a169b1942afb5da781c1a137"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaadd80884a169b1942afb5da781c1a137">MR::LineSegm&lt; V &gt;::operator()</a> (<a class="el" href="#ga3257b02c520c257af06a8750951851e6">T</a> param) const</td></tr>
@@ -8027,7 +8032,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga8b863a75d888921eb316d0faf64e45b7 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b863a75d888921eb316d0faf64e45b7">MR::Vector3&lt; T &gt;::MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; T, U &gt;) const expr explicit <a class="el" href="structMR_1_1Vector3.html">Vector3</a>(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; U &gt; &amp;v) noexcept</td></tr>
 <tr class="memitem:ga91b0398c10d527ac2433b92451a3dfb8" id="r_ga91b0398c10d527ac2433b92451a3dfb8"><td class="memItemLeft" align="right" valign="top">constexpr const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga91b0398c10d527ac2433b92451a3dfb8">MR::Vector3&lt; T &gt;::operator[]</a> (int e) const noexcept</td></tr>
 <tr class="memitem:gafd88975c7b25f8752c951f16a74ac7f5" id="r_gafd88975c7b25f8752c951f16a74ac7f5"><td class="memItemLeft" align="right" valign="top">constexpr T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafd88975c7b25f8752c951f16a74ac7f5">MR::Vector3&lt; T &gt;::operator[]</a> (int e) noexcept</td></tr>
-<tr class="memitem:ga443f05907a7c319e5e081fa7dd0b9019" id="r_ga443f05907a7c319e5e081fa7dd0b9019"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga443f05907a7c319e5e081fa7dd0b9019">MR::Vector3&lt; T &gt;::lengthSq</a> () const -&gt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())</td></tr>
+<tr class="memitem:gaedb5f8de6324a8ee5e71243c4b67104c" id="r_gaedb5f8de6324a8ee5e71243c4b67104c"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaedb5f8de6324a8ee5e71243c4b67104c">MR::Vector3&lt; T &gt;::lengthSq</a> () const</td></tr>
 <tr class="memitem:ga9b44af3c8a7c918cf88dac1811950e66" id="r_ga9b44af3c8a7c918cf88dac1811950e66"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9b44af3c8a7c918cf88dac1811950e66">MR::Vector3&lt; T &gt;::length</a> () const</td></tr>
 <tr class="memitem:gabcd3a5ac10c0bd8323d2f67d4d63c474" id="r_gabcd3a5ac10c0bd8323d2f67d4d63c474"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabcd3a5ac10c0bd8323d2f67d4d63c474">MR::Vector3&lt; T &gt;::normalized</a> () const <a class="el" href="#ga9bfdd0e5562d8003259366aedc1074a5">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
 <tr class="memitem:gad58865da02e91d912a9eee9a9cc26881" id="r_gad58865da02e91d912a9eee9a9cc26881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a> furthestBasisVector() const <a class="el" href="#ga9bfdd0e5562d8003259366aedc1074a5">MR_REQUIRES_IF_SUPPORTED</a>(!std std::pair&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>, <a class="el" href="structMR_1_1Vector3.html">Vector3</a> &gt; perpendicular() const <a class="el" href="#ga9bfdd0e5562d8003259366aedc1074a5">MR_REQUIRES_IF_SUPPORTED</a>(std <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad58865da02e91d912a9eee9a9cc26881">MR::Vector3&lt; T &gt;::transformed</a> (const <a class="el" href="#gae2856f9003f11adc4d85d9befcb2f442">AffineXf3OrPlaceholder</a>&lt; T &gt; *xf) const <a class="el" href="#ga9bfdd0e5562d8003259366aedc1074a5">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
@@ -8043,7 +8048,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga5f960e7bc138e3478db0bab2c88846a7 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f960e7bc138e3478db0bab2c88846a7">MR::Vector4&lt; T &gt;::MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; T, U &gt;) const expr explicit <a class="el" href="structMR_1_1Vector4.html">Vector4</a>(const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; U &gt; &amp;v) noexcept</td></tr>
 <tr class="memitem:gaad7806510075ef51fd4cb0c1cee64742" id="r_gaad7806510075ef51fd4cb0c1cee64742"><td class="memItemLeft" align="right" valign="top">constexpr const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaad7806510075ef51fd4cb0c1cee64742">MR::Vector4&lt; T &gt;::operator[]</a> (int e) const noexcept</td></tr>
 <tr class="memitem:ga26c8c6c0e41d80c33f348e16acb5ea40" id="r_ga26c8c6c0e41d80c33f348e16acb5ea40"><td class="memItemLeft" align="right" valign="top">constexpr T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga26c8c6c0e41d80c33f348e16acb5ea40">MR::Vector4&lt; T &gt;::operator[]</a> (int e) noexcept</td></tr>
-<tr class="memitem:ga569e6612540d74cb89cc24227f7d3f4e" id="r_ga569e6612540d74cb89cc24227f7d3f4e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga569e6612540d74cb89cc24227f7d3f4e">MR::Vector4&lt; T &gt;::lengthSq</a> () const -&gt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())</td></tr>
+<tr class="memitem:ga2dd22ed3ae33f32c5110d16e149d10c1" id="r_ga2dd22ed3ae33f32c5110d16e149d10c1"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2dd22ed3ae33f32c5110d16e149d10c1">MR::Vector4&lt; T &gt;::lengthSq</a> () const</td></tr>
 <tr class="memitem:gaa635f4c17f51f760f9c4f9d0e5c56aae" id="r_gaa635f4c17f51f760f9c4f9d0e5c56aae"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa635f4c17f51f760f9c4f9d0e5c56aae">MR::Vector4&lt; T &gt;::length</a> () const</td></tr>
 <tr class="memitem:gadc44955f85b32da55a4f43ea11cd257f" id="r_gadc44955f85b32da55a4f43ea11cd257f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadc44955f85b32da55a4f43ea11cd257f">MR::Vector4&lt; T &gt;::normalized</a> () const <a class="el" href="#ga5f960e7bc138e3478db0bab2c88846a7">MR_REQUIRES_IF_SUPPORTED</a>(!std</td></tr>
 <tr class="memitem:ga2078626fc09d25075fcc070bcf03b2dd" id="r_ga2078626fc09d25075fcc070bcf03b2dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2078626fc09d25075fcc070bcf03b2dd">MR::Vector4&lt; T &gt;::proj3d</a> () const <a class="el" href="#ga5f960e7bc138e3478db0bab2c88846a7">MR_REQUIRES_IF_SUPPORTED</a>(!std</td></tr>
@@ -10340,7 +10345,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memdesc:ga44c1ea072b256b7ae6f25f34ea02bd36"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <span class="tt">valueOverride</span> is specified, then the checkbox is disabled and that value is displayed instead of <span class="tt">value</span>.  <br /></td></tr>
 <tr class="memitem:gade42daff92fe99bd56d3811c1f03d37f" id="r_gade42daff92fe99bd56d3811c1f03d37f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gade42daff92fe99bd56d3811c1f03d37f">MR::UI::checkboxValid</a> (const char *label, bool *value, bool valid)</td></tr>
 <tr class="memdesc:gade42daff92fe99bd56d3811c1f03d37f"><td class="mdescLeft">&#160;</td><td class="mdescRight">If valid is false checkbox is disabled. Same as <span class="tt">checkboxOrFixedValue( ..., valid ? nullopt : false )</span>.  <br /></td></tr>
-<tr class="memitem:gaf9fe1762f9d482bc97ef29f32c482d32" id="r_gaf9fe1762f9d482bc97ef29f32c482d32"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf9fe1762f9d482bc97ef29f32c482d32">MR::UI::checkboxMixed</a> (const char *label, bool *value, bool <a class="el" href="#ga4853bb586796b5d140948d0ab51c0bd0">mixed</a>)</td></tr>
+<tr class="memitem:gaf9fe1762f9d482bc97ef29f32c482d32" id="r_gaf9fe1762f9d482bc97ef29f32c482d32"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf9fe1762f9d482bc97ef29f32c482d32">MR::UI::checkboxMixed</a> (const char *label, bool *value, bool <a class="el" href="#gaa80c4d71ef5b56a6aaa251f91e636873">mixed</a>)</td></tr>
 <tr class="memdesc:gaf9fe1762f9d482bc97ef29f32c482d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient checkbox with mixed state  <br /></td></tr>
 <tr class="memitem:ga9542cf007c0f98d41fea874268894222" id="r_ga9542cf007c0f98d41fea874268894222"><td class="memTemplParams" colspan="2">template&lt;typename Getter, typename Setter&gt; </td></tr>
 <tr class="memitem:ga9542cf007c0f98d41fea874268894222 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9542cf007c0f98d41fea874268894222">MR::UI::checkbox</a> (const char *label, Getter <a class="el" href="group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e">get</a>, Setter set)</td></tr>
@@ -12178,6 +12183,10 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga08fac8e279e73c50537d0d70a063b5e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the palette colors, populated at compile time  <br /></td></tr>
 <tr class="memitem:ga93e897d7d608458643fa5ba8a08d2ea2" id="r_ga93e897d7d608458643fa5ba8a08d2ea2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga93e897d7d608458643fa5ba8a08d2ea2">MR::FillHoleItem::edgeCode1</a></td></tr>
 <tr class="memitem:ga56124e5a79e5cbe2b1b617d2e142aaa1" id="r_ga56124e5a79e5cbe2b1b617d2e142aaa1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga56124e5a79e5cbe2b1b617d2e142aaa1">MR::FillHoleItem::edgeCode2</a></td></tr>
+<tr class="memitem:gab8047292c0a65d060fdae0ea066e2888" id="r_gab8047292c0a65d060fdae0ea066e2888"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab8047292c0a65d060fdae0ea066e2888">MR::FillHoleItemEdge::item</a> = 0</td></tr>
+<tr class="memdesc:gab8047292c0a65d060fdae0ea066e2888"><td class="mdescLeft">&#160;</td><td class="mdescRight">index of the item creating the edge  <br /></td></tr>
+<tr class="memitem:ga59f85d6c7ed89fb09b60e7489ebf540b" id="r_ga59f85d6c7ed89fb09b60e7489ebf540b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga59f85d6c7ed89fb09b60e7489ebf540b">MR::FillHoleItemEdge::sym</a> = false</td></tr>
+<tr class="memdesc:ga59f85d6c7ed89fb09b60e7489ebf540b"><td class="mdescLeft">&#160;</td><td class="mdescRight">take that edge in the opposite direction, so with the other origin  <br /></td></tr>
 <tr class="memitem:ga7c843d95baaaeb4979c70aecb08e6370" id="r_ga7c843d95baaaeb4979c70aecb08e6370"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1FillHoleItem.html">FillHoleItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7c843d95baaaeb4979c70aecb08e6370">MR::HoleFillPlan::items</a></td></tr>
 <tr class="memitem:ga2817520d11bf0f37cbab7e6ef56b38b9" id="r_ga2817520d11bf0f37cbab7e6ef56b38b9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2817520d11bf0f37cbab7e6ef56b38b9">MR::HoleFillPlan::numTris</a> = 0</td></tr>
 <tr class="memitem:gaf30195d74b2a6994fdfadd8768407c38" id="r_gaf30195d74b2a6994fdfadd8768407c38"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf30195d74b2a6994fdfadd8768407c38">MR::ICPPairData::srcPoint</a></td></tr>
@@ -15383,12 +15392,12 @@ Friends</h2></td></tr>
 <tr class="memitem:ga12ace0a073b6d056e20f50fabe0b9940" id="r_ga12ace0a073b6d056e20f50fabe0b9940"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga12ace0a073b6d056e20f50fabe0b9940 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga12ace0a073b6d056e20f50fabe0b9940">dot</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b) -&gt; decltype(a.x *b.x)</td></tr>
 <tr class="memdesc:ga12ace0a073b6d056e20f50fabe0b9940"><td class="mdescLeft">&#160;</td><td class="mdescRight">dot product  <br /></td></tr>
-<tr class="memitem:ga54dc2aba870f99fd60fbe3ce03fc7c7f" id="r_ga54dc2aba870f99fd60fbe3ce03fc7c7f"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ga54dc2aba870f99fd60fbe3ce03fc7c7f template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga54dc2aba870f99fd60fbe3ce03fc7c7f">sqr</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a) -&gt; decltype(a.lengthSq())</td></tr>
-<tr class="memdesc:ga54dc2aba870f99fd60fbe3ce03fc7c7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared length  <br /></td></tr>
-<tr class="memitem:ga4853bb586796b5d140948d0ab51c0bd0" id="r_ga4853bb586796b5d140948d0ab51c0bd0"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ga4853bb586796b5d140948d0ab51c0bd0 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4853bb586796b5d140948d0ab51c0bd0">mixed</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c) -&gt; decltype(<a class="el" href="#ga12ace0a073b6d056e20f50fabe0b9940">dot</a>(a, <a class="el" href="#gae41face18b9dc2041d79eb7613426525">cross</a>(b, c)))</td></tr>
-<tr class="memdesc:ga4853bb586796b5d140948d0ab51c0bd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">mixed product  <br /></td></tr>
+<tr class="memitem:gac519c0badafc5dd614c0c6f8b8b28994" id="r_gac519c0badafc5dd614c0c6f8b8b28994"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:gac519c0badafc5dd614c0c6f8b8b28994 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac519c0badafc5dd614c0c6f8b8b28994">sqr</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a)</td></tr>
+<tr class="memdesc:gac519c0badafc5dd614c0c6f8b8b28994"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared length  <br /></td></tr>
+<tr class="memitem:gaa80c4d71ef5b56a6aaa251f91e636873" id="r_gaa80c4d71ef5b56a6aaa251f91e636873"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:gaa80c4d71ef5b56a6aaa251f91e636873 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa80c4d71ef5b56a6aaa251f91e636873">mixed</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
+<tr class="memdesc:gaa80c4d71ef5b56a6aaa251f91e636873"><td class="mdescLeft">&#160;</td><td class="mdescRight">mixed product  <br /></td></tr>
 <tr class="memitem:gae2acb767e75d8fddbe60a26218e7635a" id="r_gae2acb767e75d8fddbe60a26218e7635a"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gae2acb767e75d8fddbe60a26218e7635a template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2acb767e75d8fddbe60a26218e7635a">mult</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="memdesc:gae2acb767e75d8fddbe60a26218e7635a"><td class="mdescLeft">&#160;</td><td class="mdescRight">per component multiplication  <br /></td></tr>
@@ -15409,9 +15418,9 @@ Friends</h2></td></tr>
 <tr class="memitem:ga6b70b6953f8b9ea980c0d5afcdf3b335" id="r_ga6b70b6953f8b9ea980c0d5afcdf3b335"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga6b70b6953f8b9ea980c0d5afcdf3b335 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6b70b6953f8b9ea980c0d5afcdf3b335">dot</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b) -&gt; decltype(a.x *b.x)</td></tr>
 <tr class="memdesc:ga6b70b6953f8b9ea980c0d5afcdf3b335"><td class="mdescLeft">&#160;</td><td class="mdescRight">dot product  <br /></td></tr>
-<tr class="memitem:ga33b3fc58679756e00cf9e473c4053f15" id="r_ga33b3fc58679756e00cf9e473c4053f15"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ga33b3fc58679756e00cf9e473c4053f15 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga33b3fc58679756e00cf9e473c4053f15">sqr</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a) -&gt; decltype(a.lengthSq())</td></tr>
-<tr class="memdesc:ga33b3fc58679756e00cf9e473c4053f15"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared length  <br /></td></tr>
+<tr class="memitem:ga2925cc04ba84c72a45503f35a61c90e5" id="r_ga2925cc04ba84c72a45503f35a61c90e5"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga2925cc04ba84c72a45503f35a61c90e5 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2925cc04ba84c72a45503f35a61c90e5">sqr</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a)</td></tr>
+<tr class="memdesc:ga2925cc04ba84c72a45503f35a61c90e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared length  <br /></td></tr>
 <tr class="memitem:ga792b605255e8f3f5d4fc544964d5bfed" id="r_ga792b605255e8f3f5d4fc544964d5bfed"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga792b605255e8f3f5d4fc544964d5bfed template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga792b605255e8f3f5d4fc544964d5bfed">mult</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="memdesc:ga792b605255e8f3f5d4fc544964d5bfed"><td class="mdescLeft">&#160;</td><td class="mdescRight">per component multiplication  <br /></td></tr>
@@ -53543,6 +53552,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gaca7e1cf40d26625e3f68714cb7cd4150" name="gaca7e1cf40d26625e3f68714cb7cd4150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaca7e1cf40d26625e3f68714cb7cd4150">&#9670;&#160;</a></span>decode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1FillHoleItemEdge.html">FillHoleItemEdge</a> MR::FillHoleItemEdge::decode </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>code</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRHoleFillPlan_8h.html">MRMesh/MRHoleFillPlan.h</a>&gt;</code></p>
+
+<p>decodes a negative code back in the edge it denotes </p>
+
+</div>
+</div>
 <a id="ga227c386f62eafef4624dfa5aad12289a" name="ga227c386f62eafef4624dfa5aad12289a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga227c386f62eafef4624dfa5aad12289a">&#9670;&#160;</a></span>decomposeMatrix3()</h2>
 
@@ -65482,6 +65520,35 @@ template&lt;typename ... Connectables&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRObjectVoxels_8h.html">MRVoxels/MRObjectVoxels.h</a>&gt;</code></p>
 <p>this function should only be called from GUI thread because it changes rendering object, it can take some time to prepare data, so you can prepare data with progress callback by calling <span class="tt">prepareDataForVolumeRendering(cb)</span> function before calling this one </p>
+
+</div>
+</div>
+<a id="ga07a54d9fc1277411a84629ef8af1718e" name="ga07a54d9fc1277411a84629ef8af1718e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga07a54d9fc1277411a84629ef8af1718e">&#9670;&#160;</a></span>encode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::FillHoleItemEdge::encode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRHoleFillPlan_8h.html">MRMesh/MRHoleFillPlan.h</a>&gt;</code></p>
+
+<p>encodes this edge in a negative code </p>
 
 </div>
 </div>
@@ -112242,8 +112309,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga08590d32c2ac15f8c7fa66991eebc5e1" name="ga08590d32c2ac15f8c7fa66991eebc5e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga08590d32c2ac15f8c7fa66991eebc5e1">&#9670;&#160;</a></span>lengthSq() <span class="overload">[1/3]</span></h2>
+<a id="gaa0c1c59c920a38b8c03970caf1da046a" name="gaa0c1c59c920a38b8c03970caf1da046a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa0c1c59c920a38b8c03970caf1da046a">&#9670;&#160;</a></span>lengthSq() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -112254,10 +112321,10 @@ template&lt;typename V&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="structMR_1_1LineSegm.html">MR::LineSegm</a>&lt; V &gt;::lengthSq </td>
+          <td class="memname"><a class="el" href="#ga3257b02c520c257af06a8750951851e6">T</a> <a class="el" href="structMR_1_1LineSegm.html">MR::LineSegm</a>&lt; V &gt;::lengthSq </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const -&gt; decltype( std::declval&lt;V&gt;().lengthSq() ) </td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -112273,8 +112340,8 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
-<a id="ga443f05907a7c319e5e081fa7dd0b9019" name="ga443f05907a7c319e5e081fa7dd0b9019"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga443f05907a7c319e5e081fa7dd0b9019">&#9670;&#160;</a></span>lengthSq() <span class="overload">[2/3]</span></h2>
+<a id="gaedb5f8de6324a8ee5e71243c4b67104c" name="gaedb5f8de6324a8ee5e71243c4b67104c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaedb5f8de6324a8ee5e71243c4b67104c">&#9670;&#160;</a></span>lengthSq() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -112285,10 +112352,10 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt;::lengthSq </td>
+          <td class="memname">T <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt;::lengthSq </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const -&gt; decltype( std::declval&lt;T&gt;() * std::declval&lt;T&gt;() ) </td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -112302,8 +112369,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga569e6612540d74cb89cc24227f7d3f4e" name="ga569e6612540d74cb89cc24227f7d3f4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga569e6612540d74cb89cc24227f7d3f4e">&#9670;&#160;</a></span>lengthSq() <span class="overload">[3/3]</span></h2>
+<a id="ga2dd22ed3ae33f32c5110d16e149d10c1" name="ga2dd22ed3ae33f32c5110d16e149d10c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2dd22ed3ae33f32c5110d16e149d10c1">&#9670;&#160;</a></span>lengthSq() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -112314,11 +112381,10 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="structMR_1_1Vector4.html">MR::Vector4</a>&lt; T &gt;::lengthSq </td>
+          <td class="memname">T <a class="el" href="structMR_1_1Vector4.html">MR::Vector4</a>&lt; T &gt;::lengthSq </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const -&gt; decltype( std::declval&lt;T&gt;() * std::declval&lt;T&gt;() )
-    </td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -120730,8 +120796,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga4853bb586796b5d140948d0ab51c0bd0" name="ga4853bb586796b5d140948d0ab51c0bd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4853bb586796b5d140948d0ab51c0bd0">&#9670;&#160;</a></span>mixed()</h2>
+<a id="gaa80c4d71ef5b56a6aaa251f91e636873" name="gaa80c4d71ef5b56a6aaa251f91e636873"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa80c4d71ef5b56a6aaa251f91e636873">&#9670;&#160;</a></span>mixed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120742,7 +120808,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto mixed </td>
+          <td class="memname">T mixed </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -120754,8 +120820,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;) -&gt; decltype( <a class="el" href="#ga12ace0a073b6d056e20f50fabe0b9940">dot</a>( a, <a class="el" href="#gae41face18b9dc2041d79eb7613426525">cross</a>( b, c ) ) )
-</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -176878,8 +176943,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga54dc2aba870f99fd60fbe3ce03fc7c7f" name="ga54dc2aba870f99fd60fbe3ce03fc7c7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga54dc2aba870f99fd60fbe3ce03fc7c7f">&#9670;&#160;</a></span>sqr() <span class="overload">[2/3]</span></h2>
+<a id="gac519c0badafc5dd614c0c6f8b8b28994" name="gac519c0badafc5dd614c0c6f8b8b28994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac519c0badafc5dd614c0c6f8b8b28994">&#9670;&#160;</a></span>sqr() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176890,11 +176955,10 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto sqr </td>
+          <td class="memname">T sqr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
-          <td> -&gt; decltype( a.lengthSq() )
-</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -176908,8 +176972,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga33b3fc58679756e00cf9e473c4053f15" name="ga33b3fc58679756e00cf9e473c4053f15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga33b3fc58679756e00cf9e473c4053f15">&#9670;&#160;</a></span>sqr() <span class="overload">[3/3]</span></h2>
+<a id="ga2925cc04ba84c72a45503f35a61c90e5" name="ga2925cc04ba84c72a45503f35a61c90e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2925cc04ba84c72a45503f35a61c90e5">&#9670;&#160;</a></span>sqr() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176920,11 +176984,10 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto sqr </td>
+          <td class="memname">T sqr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
-          <td> -&gt; decltype( a.lengthSq() )
-</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -209039,7 +209102,6 @@ template&lt;typename L&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if not-negative number then it is edgeid; otherwise it refers to the edge created recently </p>
 
 </div>
 </div>
@@ -213800,8 +213862,24 @@ template&lt;typename Accessor&gt; </div>
 
 </div>
 </div>
+<a id="gab8047292c0a65d060fdae0ea066e2888" name="gab8047292c0a65d060fdae0ea066e2888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab8047292c0a65d060fdae0ea066e2888">&#9670;&#160;</a></span>item <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::FillHoleItemEdge::item = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>index of the item creating the edge </p>
+
+</div>
+</div>
 <a id="ga926a6449190c31f77c5b88b8c236958e" name="ga926a6449190c31f77c5b88b8c236958e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga926a6449190c31f77c5b88b8c236958e">&#9670;&#160;</a></span>item <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga926a6449190c31f77c5b88b8c236958e">&#9670;&#160;</a></span>item <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213815,7 +213893,7 @@ template&lt;typename Accessor&gt; </div>
 </div>
 </div>
 <a id="gaeb25a7d0ddadeeeda6f7ca36d711642b" name="gaeb25a7d0ddadeeeda6f7ca36d711642b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeb25a7d0ddadeeeda6f7ca36d711642b">&#9670;&#160;</a></span>item <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb25a7d0ddadeeeda6f7ca36d711642b">&#9670;&#160;</a></span>item <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213829,7 +213907,7 @@ template&lt;typename Accessor&gt; </div>
 </div>
 </div>
 <a id="ga7ca888bade52243be40b9bc8ea954035" name="ga7ca888bade52243be40b9bc8ea954035"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7ca888bade52243be40b9bc8ea954035">&#9670;&#160;</a></span>item <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7ca888bade52243be40b9bc8ea954035">&#9670;&#160;</a></span>item <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219930,6 +220008,7 @@ template&lt;typename T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>the number of triangles in the filling; zero means that the plan only adds the edges of items and creates no faces, e.g. it splits a hole in several holes </p>
 
 </div>
 </div>
@@ -230486,6 +230565,22 @@ template&lt;typename T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga59f85d6c7ed89fb09b60e7489ebf540b" name="ga59f85d6c7ed89fb09b60e7489ebf540b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga59f85d6c7ed89fb09b60e7489ebf540b">&#9670;&#160;</a></span>sym</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::FillHoleItemEdge::sym = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>take that edge in the opposite direction, so with the other origin </p>
 
 </div>
 </div>

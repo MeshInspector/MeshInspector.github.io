@@ -3335,6 +3335,12 @@
     <member refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" kind="variable"><name>edgeCode1</name></member>
     <member refid="group__GeneralGroup_1ga56124e5a79e5cbe2b1b617d2e142aaa1" kind="variable"><name>edgeCode2</name></member>
   </compound>
+  <compound refid="structMR_1_1FillHoleItemEdge" kind="struct"><name>MR::FillHoleItemEdge</name>
+    <member refid="group__GeneralGroup_1gab8047292c0a65d060fdae0ea066e2888" kind="variable"><name>item</name></member>
+    <member refid="group__GeneralGroup_1ga59f85d6c7ed89fb09b60e7489ebf540b" kind="variable"><name>sym</name></member>
+    <member refid="group__GeneralGroup_1ga07a54d9fc1277411a84629ef8af1718e" kind="function"><name>encode</name></member>
+    <member refid="group__GeneralGroup_1gaca7e1cf40d26625e3f68714cb7cd4150" kind="function"><name>decode</name></member>
+  </compound>
   <compound refid="structMR_1_1FillHoleMetric" kind="struct"><name>MR::FillHoleMetric</name>
     <member refid="structMR_1_1FillHoleMetric_1acc8ef5c37515d91d9c3cb3fbcaa1fd22" kind="variable"><name>triangleMetric</name></member>
     <member refid="structMR_1_1FillHoleMetric_1a3048bcf785194be02ce20b5d6e6bfd61" kind="variable"><name>edgeMetric</name></member>
@@ -4998,7 +5004,7 @@
     <member refid="group__GeneralGroup_1gaf25a41f042c3bade3e1bd129c6c69702" kind="function"><name>LineSegm</name></member>
     <member refid="group__GeneralGroup_1ga5fe5f232802842f5c2716a95abb8c28b" kind="function"><name>LineSegm</name></member>
     <member refid="group__GeneralGroup_1gac7639a48742e5c77367777128549d36e" kind="function"><name>dir</name></member>
-    <member refid="group__GeneralGroup_1ga08590d32c2ac15f8c7fa66991eebc5e1" kind="function"><name>lengthSq</name></member>
+    <member refid="group__GeneralGroup_1gaa0c1c59c920a38b8c03970caf1da046a" kind="function"><name>lengthSq</name></member>
     <member refid="group__GeneralGroup_1ga086b850940021667f55efa192653d966" kind="function"><name>length</name></member>
     <member refid="group__GeneralGroup_1gaadd80884a169b1942afb5da781c1a137" kind="function"><name>operator()</name></member>
   </compound>
@@ -12209,7 +12215,7 @@
     <member refid="structMR_1_1Vector2_1a847fe803c44c19055d0a15eca838df52" kind="function"><name>distance</name></member>
     <member refid="structMR_1_1Vector2_1a3e532c0fca60fc9935f8394188cc2f28" kind="function"><name>cross</name></member>
     <member refid="structMR_1_1Vector2_1aa7e0a1754fac4de39eb88fc3f1e2db46" kind="function"><name>dot</name></member>
-    <member refid="structMR_1_1Vector2_1a032f22a51118a92560ace51190d8eb0d" kind="function"><name>sqr</name></member>
+    <member refid="structMR_1_1Vector2_1a9d7aee9b382101cb77cc426a34791517" kind="function"><name>sqr</name></member>
     <member refid="structMR_1_1Vector2_1aaf1c84a8ba1493b479c774db9477d5e6" kind="function"><name>mult</name></member>
     <member refid="structMR_1_1Vector2_1a0704f4e80fa32a97a3c269ddbf09728d" kind="function"><name>div</name></member>
     <member refid="structMR_1_1Vector2_1af97f888d41c35987fa2e24cfdf696621" kind="function"><name>angle</name></member>
@@ -12226,7 +12232,7 @@
     <member refid="structMR_1_1Vector2_1a8fc9699488aa3c7c5bde2d2b046e9f0c" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="structMR_1_1Vector2_1a689355b8d3f06c842bf414b949c7510e" kind="function"><name>operator[]</name></member>
     <member refid="structMR_1_1Vector2_1ac44db7ddb1694b996824036c9f755b9e" kind="function"><name>operator[]</name></member>
-    <member refid="structMR_1_1Vector2_1a65dcc8114a942bdb79fa724e727211e0" kind="function"><name>lengthSq</name></member>
+    <member refid="structMR_1_1Vector2_1ad798818540cd3ad9d2c98a4f978f8e5c" kind="function"><name>lengthSq</name></member>
     <member refid="structMR_1_1Vector2_1aa17da7f932edf77c0804eef8416b44bb" kind="function"><name>length</name></member>
     <member refid="structMR_1_1Vector2_1a6bf0beb2bf7fd40b84edbd2256ada3da" kind="function"><name>normalized</name></member>
     <member refid="structMR_1_1Vector2_1a7482d5a8c34fc5f6af7a5036b9d43c1c" kind="function"><name>perpendicular</name></member>
@@ -12261,8 +12267,8 @@
     <member refid="group__GeneralGroup_1gaa62b4ce06d0439125af427faabb987b1" kind="function"><name>distance</name></member>
     <member refid="group__GeneralGroup_1gae41face18b9dc2041d79eb7613426525" kind="function"><name>cross</name></member>
     <member refid="group__GeneralGroup_1ga12ace0a073b6d056e20f50fabe0b9940" kind="function"><name>dot</name></member>
-    <member refid="group__GeneralGroup_1ga54dc2aba870f99fd60fbe3ce03fc7c7f" kind="function"><name>sqr</name></member>
-    <member refid="group__GeneralGroup_1ga4853bb586796b5d140948d0ab51c0bd0" kind="function"><name>mixed</name></member>
+    <member refid="group__GeneralGroup_1gac519c0badafc5dd614c0c6f8b8b28994" kind="function"><name>sqr</name></member>
+    <member refid="group__GeneralGroup_1gaa80c4d71ef5b56a6aaa251f91e636873" kind="function"><name>mixed</name></member>
     <member refid="group__GeneralGroup_1gae2acb767e75d8fddbe60a26218e7635a" kind="function"><name>mult</name></member>
     <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
     <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
@@ -12281,7 +12287,7 @@
     <member refid="group__GeneralGroup_1ga8b863a75d888921eb316d0faf64e45b7" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__GeneralGroup_1ga91b0398c10d527ac2433b92451a3dfb8" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1gafd88975c7b25f8752c951f16a74ac7f5" kind="function"><name>operator[]</name></member>
-    <member refid="group__GeneralGroup_1ga443f05907a7c319e5e081fa7dd0b9019" kind="function"><name>lengthSq</name></member>
+    <member refid="group__GeneralGroup_1gaedb5f8de6324a8ee5e71243c4b67104c" kind="function"><name>lengthSq</name></member>
     <member refid="group__GeneralGroup_1ga9b44af3c8a7c918cf88dac1811950e66" kind="function"><name>length</name></member>
     <member refid="group__GeneralGroup_1gabcd3a5ac10c0bd8323d2f67d4d63c474" kind="function"><name>normalized</name></member>
     <member refid="group__GeneralGroup_1gad58865da02e91d912a9eee9a9cc26881" kind="function"><name>transformed</name></member>
@@ -12318,7 +12324,7 @@
     <member refid="group__GeneralGroup_1ga664e7947c3eb5d229c9ceb1c728a6f9b" kind="function"><name>distanceSq</name></member>
     <member refid="group__GeneralGroup_1gafa16e6f10fb59a666d01d58bb1737e85" kind="function"><name>distance</name></member>
     <member refid="group__GeneralGroup_1ga6b70b6953f8b9ea980c0d5afcdf3b335" kind="function"><name>dot</name></member>
-    <member refid="group__GeneralGroup_1ga33b3fc58679756e00cf9e473c4053f15" kind="function"><name>sqr</name></member>
+    <member refid="group__GeneralGroup_1ga2925cc04ba84c72a45503f35a61c90e5" kind="function"><name>sqr</name></member>
     <member refid="group__GeneralGroup_1ga792b605255e8f3f5d4fc544964d5bfed" kind="function"><name>mult</name></member>
     <member refid="group__GeneralGroup_1ga5bb00471e4228b49442d8c7e717e31e7" kind="function"><name>div</name></member>
     <member refid="group__GeneralGroup_1ga458502d7f4776a6bddef3495ad567541" kind="typedef"><name>ValueType</name></member>
@@ -12335,7 +12341,7 @@
     <member refid="group__GeneralGroup_1ga5f960e7bc138e3478db0bab2c88846a7" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__GeneralGroup_1gaad7806510075ef51fd4cb0c1cee64742" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1ga26c8c6c0e41d80c33f348e16acb5ea40" kind="function"><name>operator[]</name></member>
-    <member refid="group__GeneralGroup_1ga569e6612540d74cb89cc24227f7d3f4e" kind="function"><name>lengthSq</name></member>
+    <member refid="group__GeneralGroup_1ga2dd22ed3ae33f32c5110d16e149d10c1" kind="function"><name>lengthSq</name></member>
     <member refid="group__GeneralGroup_1gaa635f4c17f51f760f9c4f9d0e5c56aae" kind="function"><name>length</name></member>
     <member refid="group__GeneralGroup_1gadc44955f85b32da55a4f43ea11cd257f" kind="function"><name>normalized</name></member>
     <member refid="group__GeneralGroup_1ga2078626fc09d25075fcc070bcf03b2dd" kind="function"><name>proj3d</name></member>
@@ -14000,7 +14006,7 @@
     <member refid="structMR_1_1Vector2_1a847fe803c44c19055d0a15eca838df52" kind="function"><name>distance</name></member>
     <member refid="structMR_1_1Vector2_1a3e532c0fca60fc9935f8394188cc2f28" kind="function"><name>cross</name></member>
     <member refid="structMR_1_1Vector2_1aa7e0a1754fac4de39eb88fc3f1e2db46" kind="function"><name>dot</name></member>
-    <member refid="structMR_1_1Vector2_1a032f22a51118a92560ace51190d8eb0d" kind="function"><name>sqr</name></member>
+    <member refid="structMR_1_1Vector2_1a9d7aee9b382101cb77cc426a34791517" kind="function"><name>sqr</name></member>
     <member refid="structMR_1_1Vector2_1aaf1c84a8ba1493b479c774db9477d5e6" kind="function"><name>mult</name></member>
     <member refid="structMR_1_1Vector2_1a0704f4e80fa32a97a3c269ddbf09728d" kind="function"><name>div</name></member>
     <member refid="structMR_1_1Vector2_1af97f888d41c35987fa2e24cfdf696621" kind="function"><name>angle</name></member>
@@ -14008,8 +14014,8 @@
     <member refid="group__GeneralGroup_1gaa62b4ce06d0439125af427faabb987b1" kind="function"><name>distance</name></member>
     <member refid="group__GeneralGroup_1gae41face18b9dc2041d79eb7613426525" kind="function"><name>cross</name></member>
     <member refid="group__GeneralGroup_1ga12ace0a073b6d056e20f50fabe0b9940" kind="function"><name>dot</name></member>
-    <member refid="group__GeneralGroup_1ga54dc2aba870f99fd60fbe3ce03fc7c7f" kind="function"><name>sqr</name></member>
-    <member refid="group__GeneralGroup_1ga4853bb586796b5d140948d0ab51c0bd0" kind="function"><name>mixed</name></member>
+    <member refid="group__GeneralGroup_1gac519c0badafc5dd614c0c6f8b8b28994" kind="function"><name>sqr</name></member>
+    <member refid="group__GeneralGroup_1gaa80c4d71ef5b56a6aaa251f91e636873" kind="function"><name>mixed</name></member>
     <member refid="group__GeneralGroup_1gae2acb767e75d8fddbe60a26218e7635a" kind="function"><name>mult</name></member>
     <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
     <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
@@ -14017,7 +14023,7 @@
     <member refid="group__GeneralGroup_1ga664e7947c3eb5d229c9ceb1c728a6f9b" kind="function"><name>distanceSq</name></member>
     <member refid="group__GeneralGroup_1gafa16e6f10fb59a666d01d58bb1737e85" kind="function"><name>distance</name></member>
     <member refid="group__GeneralGroup_1ga6b70b6953f8b9ea980c0d5afcdf3b335" kind="function"><name>dot</name></member>
-    <member refid="group__GeneralGroup_1ga33b3fc58679756e00cf9e473c4053f15" kind="function"><name>sqr</name></member>
+    <member refid="group__GeneralGroup_1ga2925cc04ba84c72a45503f35a61c90e5" kind="function"><name>sqr</name></member>
     <member refid="group__GeneralGroup_1ga792b605255e8f3f5d4fc544964d5bfed" kind="function"><name>mult</name></member>
     <member refid="group__GeneralGroup_1ga5bb00471e4228b49442d8c7e717e31e7" kind="function"><name>div</name></member>
     <member refid="group__GeneralGroup_1ga23e900d0cb79ee7e0562507ab9e9f562" kind="enum"><name>PdfBuildinFont</name></member>
@@ -20160,8 +20166,8 @@
     <member refid="group__GeneralGroup_1gaa62b4ce06d0439125af427faabb987b1" kind="function"><name>distance</name></member>
     <member refid="group__GeneralGroup_1gae41face18b9dc2041d79eb7613426525" kind="function"><name>cross</name></member>
     <member refid="group__GeneralGroup_1ga12ace0a073b6d056e20f50fabe0b9940" kind="function"><name>dot</name></member>
-    <member refid="group__GeneralGroup_1ga54dc2aba870f99fd60fbe3ce03fc7c7f" kind="function"><name>sqr</name></member>
-    <member refid="group__GeneralGroup_1ga4853bb586796b5d140948d0ab51c0bd0" kind="function"><name>mixed</name></member>
+    <member refid="group__GeneralGroup_1gac519c0badafc5dd614c0c6f8b8b28994" kind="function"><name>sqr</name></member>
+    <member refid="group__GeneralGroup_1gaa80c4d71ef5b56a6aaa251f91e636873" kind="function"><name>mixed</name></member>
     <member refid="group__GeneralGroup_1gae2acb767e75d8fddbe60a26218e7635a" kind="function"><name>mult</name></member>
     <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
     <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
@@ -20169,7 +20175,7 @@
     <member refid="group__GeneralGroup_1ga664e7947c3eb5d229c9ceb1c728a6f9b" kind="function"><name>distanceSq</name></member>
     <member refid="group__GeneralGroup_1gafa16e6f10fb59a666d01d58bb1737e85" kind="function"><name>distance</name></member>
     <member refid="group__GeneralGroup_1ga6b70b6953f8b9ea980c0d5afcdf3b335" kind="function"><name>dot</name></member>
-    <member refid="group__GeneralGroup_1ga33b3fc58679756e00cf9e473c4053f15" kind="function"><name>sqr</name></member>
+    <member refid="group__GeneralGroup_1ga2925cc04ba84c72a45503f35a61c90e5" kind="function"><name>sqr</name></member>
     <member refid="group__GeneralGroup_1ga792b605255e8f3f5d4fc544964d5bfed" kind="function"><name>mult</name></member>
     <member refid="group__GeneralGroup_1ga5bb00471e4228b49442d8c7e717e31e7" kind="function"><name>div</name></member>
     <member refid="group__GeneralGroup_1ga6aacb9f665076ffd42d5baa6e69c24fb" kind="enum"><name>XfMode</name></member>
@@ -22208,6 +22214,8 @@
     <member refid="group__GeneralGroup_1ga97c4c672a329bfd1d51743c738ecbabd" kind="variable"><name>binSize_</name></member>
     <member refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" kind="variable"><name>edgeCode1</name></member>
     <member refid="group__GeneralGroup_1ga56124e5a79e5cbe2b1b617d2e142aaa1" kind="variable"><name>edgeCode2</name></member>
+    <member refid="group__GeneralGroup_1gab8047292c0a65d060fdae0ea066e2888" kind="variable"><name>item</name></member>
+    <member refid="group__GeneralGroup_1ga59f85d6c7ed89fb09b60e7489ebf540b" kind="variable"><name>sym</name></member>
     <member refid="group__GeneralGroup_1ga7c843d95baaaeb4979c70aecb08e6370" kind="variable"><name>items</name></member>
     <member refid="group__GeneralGroup_1ga2817520d11bf0f37cbab7e6ef56b38b9" kind="variable"><name>numTris</name></member>
     <member refid="group__GeneralGroup_1gaf30195d74b2a6994fdfadd8768407c38" kind="variable"><name>srcPoint</name></member>
@@ -26291,6 +26299,8 @@
     <member refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb" kind="function"><name>action</name></member>
     <member refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de" kind="function"><name>heapBytes</name></member>
     <member refid="group__GeneralGroup_1gad816d7f5445309140db275f8f14c8ba1" kind="function"><name>filterHistoryActionsVector</name></member>
+    <member refid="group__GeneralGroup_1ga07a54d9fc1277411a84629ef8af1718e" kind="function"><name>encode</name></member>
+    <member refid="group__GeneralGroup_1gaca7e1cf40d26625e3f68714cb7cd4150" kind="function"><name>decode</name></member>
     <member refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" kind="function"><name>IPointPairs</name></member>
     <member refid="group__GeneralGroup_1ga3fcd8de5d97b49b84e9c984b494f10dc" kind="function"><name>IPointPairs</name></member>
     <member refid="group__GeneralGroup_1gabb689ad7795aaeb7236800bec89a0cab" kind="function"><name>operator=</name></member>
@@ -26590,7 +26600,7 @@
     <member refid="group__GeneralGroup_1gaf25a41f042c3bade3e1bd129c6c69702" kind="function"><name>LineSegm</name></member>
     <member refid="group__GeneralGroup_1ga5fe5f232802842f5c2716a95abb8c28b" kind="function"><name>LineSegm</name></member>
     <member refid="group__GeneralGroup_1gac7639a48742e5c77367777128549d36e" kind="function"><name>dir</name></member>
-    <member refid="group__GeneralGroup_1ga08590d32c2ac15f8c7fa66991eebc5e1" kind="function"><name>lengthSq</name></member>
+    <member refid="group__GeneralGroup_1gaa0c1c59c920a38b8c03970caf1da046a" kind="function"><name>lengthSq</name></member>
     <member refid="group__GeneralGroup_1ga086b850940021667f55efa192653d966" kind="function"><name>length</name></member>
     <member refid="group__GeneralGroup_1gaadd80884a169b1942afb5da781c1a137" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1gabc57b066e60b9354fd351e2018fe5b7e" kind="function"><name>operator==</name></member>
@@ -28544,7 +28554,7 @@
     <member refid="group__GeneralGroup_1ga8b863a75d888921eb316d0faf64e45b7" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__GeneralGroup_1ga91b0398c10d527ac2433b92451a3dfb8" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1gafd88975c7b25f8752c951f16a74ac7f5" kind="function"><name>operator[]</name></member>
-    <member refid="group__GeneralGroup_1ga443f05907a7c319e5e081fa7dd0b9019" kind="function"><name>lengthSq</name></member>
+    <member refid="group__GeneralGroup_1gaedb5f8de6324a8ee5e71243c4b67104c" kind="function"><name>lengthSq</name></member>
     <member refid="group__GeneralGroup_1ga9b44af3c8a7c918cf88dac1811950e66" kind="function"><name>length</name></member>
     <member refid="group__GeneralGroup_1gabcd3a5ac10c0bd8323d2f67d4d63c474" kind="function"><name>normalized</name></member>
     <member refid="group__GeneralGroup_1gad58865da02e91d912a9eee9a9cc26881" kind="function"><name>transformed</name></member>
@@ -28557,7 +28567,7 @@
     <member refid="group__GeneralGroup_1ga5f960e7bc138e3478db0bab2c88846a7" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__GeneralGroup_1gaad7806510075ef51fd4cb0c1cee64742" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1ga26c8c6c0e41d80c33f348e16acb5ea40" kind="function"><name>operator[]</name></member>
-    <member refid="group__GeneralGroup_1ga569e6612540d74cb89cc24227f7d3f4e" kind="function"><name>lengthSq</name></member>
+    <member refid="group__GeneralGroup_1ga2dd22ed3ae33f32c5110d16e149d10c1" kind="function"><name>lengthSq</name></member>
     <member refid="group__GeneralGroup_1gaa635f4c17f51f760f9c4f9d0e5c56aae" kind="function"><name>length</name></member>
     <member refid="group__GeneralGroup_1gadc44955f85b32da55a4f43ea11cd257f" kind="function"><name>normalized</name></member>
     <member refid="group__GeneralGroup_1ga2078626fc09d25075fcc070bcf03b2dd" kind="function"><name>proj3d</name></member>

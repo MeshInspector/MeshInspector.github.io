@@ -277,6 +277,7 @@ var namespacemrmeshpy =
     [ "FeatureVisualizePropertyType", "classmrmeshpy_1_1FeatureVisualizePropertyType.html", "classmrmeshpy_1_1FeatureVisualizePropertyType" ],
     [ "FewSmallest_PointsProjectionResult", "classmrmeshpy_1_1FewSmallest__PointsProjectionResult.html", "classmrmeshpy_1_1FewSmallest__PointsProjectionResult" ],
     [ "FillHoleItem", "classmrmeshpy_1_1FillHoleItem.html", "classmrmeshpy_1_1FillHoleItem" ],
+    [ "FillHoleItemEdge", "classmrmeshpy_1_1FillHoleItemEdge.html", "classmrmeshpy_1_1FillHoleItemEdge" ],
     [ "FillHoleMetric", "classmrmeshpy_1_1FillHoleMetric.html", "classmrmeshpy_1_1FillHoleMetric" ],
     [ "FillHoleNicelySettings", "classmrmeshpy_1_1FillHoleNicelySettings.html", "classmrmeshpy_1_1FillHoleNicelySettings" ],
     [ "FillHoleParams", "classmrmeshpy_1_1FillHoleParams.html", "classmrmeshpy_1_1FillHoleParams" ],

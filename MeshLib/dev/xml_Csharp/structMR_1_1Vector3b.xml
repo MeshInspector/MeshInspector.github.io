@@ -489,20 +489,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="537" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="537" bodyend="545"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Vector3b_1ac5610b750a74e0256b4ae5827ba9fce2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>readonly unsafe int</type>
-        <definition>readonly unsafe int MR.Vector3b.lengthSq</definition>
+      <memberdef kind="function" id="structMR_1_1Vector3b_1abd9d6b46f3d8d36b7eeb8044a7e6285f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.Vector3b.lengthSq</definition>
         <argsstring>()</argsstring>
         <name>lengthSq</name>
         <qualifiedname>MR.Vector3b.lengthSq</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector3b_1ac5610b750a74e0256b4ae5827ba9fce2" kindref="member">MR.Vector3b.lengthSq</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector3b_1abd9d6b46f3d8d36b7eeb8044a7e6285f" kindref="member">MR.Vector3b.lengthSq</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="550" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="550" bodyend="558"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="550" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="550" bodyend="558"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Vector3b_1a2fd48b7dccb844e4ecc1012be55faf33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>readonly unsafe double</type>
@@ -671,7 +671,7 @@
       <member refid="structMR_1_1Vector3b_1a63ee33ca237eafbc5beb2dcf3f880720" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>Equals</name></member>
       <member refid="structMR_1_1Vector3b_1a9373111c5738ca5a9a5a067d92a02563" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>index</name></member>
       <member refid="structMR_1_1Vector3b_1a2fd48b7dccb844e4ecc1012be55faf33" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>length</name></member>
-      <member refid="structMR_1_1Vector3b_1ac5610b750a74e0256b4ae5827ba9fce2" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>lengthSq</name></member>
+      <member refid="structMR_1_1Vector3b_1abd9d6b46f3d8d36b7eeb8044a7e6285f" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>lengthSq</name></member>
       <member refid="structMR_1_1Vector3b_1a6dc189733604c9e08b2dd4cb4b478511" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>mulAssign</name></member>
       <member refid="structMR_1_1Vector3b_1a5371dea21ae48ffb3977eebc0a15afc7" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>operator Vector3b</name></member>
       <member refid="structMR_1_1Vector3b_1adee1dc27f528511f195252b943e4e53b" prot="public" virt="non-virtual"><scope>MR::Vector3b</scope><name>operator!=</name></member>

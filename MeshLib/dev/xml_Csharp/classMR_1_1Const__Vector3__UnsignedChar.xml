@@ -274,20 +274,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="1830" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="1830" bodyend="1836"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector3__UnsignedChar_1ad6f785a5e7d8580c5d2d2968ba220208" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe int</type>
-        <definition>unsafe int MR.Const_Vector3_UnsignedChar.lengthSq</definition>
+      <memberdef kind="function" id="classMR_1_1Const__Vector3__UnsignedChar_1af2d7f58cdf218ede5868c99a16fff300" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_Vector3_UnsignedChar.lengthSq</definition>
         <argsstring>()</argsstring>
         <name>lengthSq</name>
         <qualifiedname>MR.Const_Vector3_UnsignedChar.lengthSq</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Vector3__UnsignedChar_1ad6f785a5e7d8580c5d2d2968ba220208" kindref="member">lengthSq</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Vector3__UnsignedChar_1af2d7f58cdf218ede5868c99a16fff300" kindref="member">lengthSq</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="1894" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="1894" bodyend="1899"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="1894" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="1894" bodyend="1899"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Vector3__UnsignedChar_1ab5769e4fca6ee2a3df13cf1e49434a71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe double</type>
@@ -750,7 +750,7 @@
       <member refid="classMR_1_1Const__Vector3__UnsignedChar_1aad8e2cb2f3b6fcaf017fc4721197464f" prot="public" virt="non-virtual"><scope>MR::Const_Vector3_UnsignedChar</scope><name>Equals</name></member>
       <member refid="classMR_1_1Const__Vector3__UnsignedChar_1ab010d5c17ef859d75a2a9e2a257e8ac1" prot="public" virt="non-virtual"><scope>MR::Const_Vector3_UnsignedChar</scope><name>furthestBasisVector</name></member>
       <member refid="classMR_1_1Const__Vector3__UnsignedChar_1ab5769e4fca6ee2a3df13cf1e49434a71" prot="public" virt="non-virtual"><scope>MR::Const_Vector3_UnsignedChar</scope><name>length</name></member>
-      <member refid="classMR_1_1Const__Vector3__UnsignedChar_1ad6f785a5e7d8580c5d2d2968ba220208" prot="public" virt="non-virtual"><scope>MR::Const_Vector3_UnsignedChar</scope><name>lengthSq</name></member>
+      <member refid="classMR_1_1Const__Vector3__UnsignedChar_1af2d7f58cdf218ede5868c99a16fff300" prot="public" virt="non-virtual"><scope>MR::Const_Vector3_UnsignedChar</scope><name>lengthSq</name></member>
       <member refid="classMR_1_1Const__Vector3__UnsignedChar_1ab0e63662dcfaf7176ac28a5c022d27eb" prot="public" virt="non-virtual"><scope>MR::Const_Vector3_UnsignedChar</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__Vector3__UnsignedChar_1aade35d22bda7baebc873883bca99403a" prot="public" virt="non-virtual"><scope>MR::Const_Vector3_UnsignedChar</scope><name>operator*</name></member>
       <member refid="classMR_1_1Const__Vector3__UnsignedChar_1a2a8d0ea80b960aa88d39c1c2fde04538" prot="public" virt="non-virtual"><scope>MR::Const_Vector3_UnsignedChar</scope><name>operator*</name></member>

@@ -11,7 +11,7 @@ var structMR_1_1Vector2b =
     [ "Equals", "structMR_1_1Vector2b.html#a065f036ebbc1d1838c4695293997a7fc", null ],
     [ "index", "structMR_1_1Vector2b.html#ad43819d9d8aa9d76a41a20e2c83bc931", null ],
     [ "length", "structMR_1_1Vector2b.html#ac044c170ceb8635e96c30aacdc56f27c", null ],
-    [ "lengthSq", "structMR_1_1Vector2b.html#ae803ab1cb75218033f28a080d2065c24", null ],
+    [ "lengthSq", "structMR_1_1Vector2b.html#a13c6bd3752199b519dd7bb41547c2c89", null ],
     [ "mulAssign", "structMR_1_1Vector2b.html#ac1960cf3b6f151ee889dca44ccef48a7", null ],
     [ "operator Vector2b", "structMR_1_1Vector2b.html#a78b41c510b222d0e6cd0af52a4c34736", null ],
     [ "operator!=", "structMR_1_1Vector2b.html#af80b74f16784a054a7ffa0bbc88dee47", null ],

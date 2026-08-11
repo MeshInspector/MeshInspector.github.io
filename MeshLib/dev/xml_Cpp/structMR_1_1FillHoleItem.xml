@@ -10,8 +10,9 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>one edge to add, connecting the origins of the two edges given by the codes; a not-negative code is an EdgeId, a negative one denotes an edge that an earlier item of the same plan creates - see <ref refid="structMR_1_1FillHoleItemEdge" kindref="compound">FillHoleItemEdge</ref> </para>
     </detaileddescription>
-    <location file="MRMesh/MRHoleFillPlan.h" line="10" column="1" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="11" bodyend="15"/>
+    <location file="MRMesh/MRHoleFillPlan.h" line="14" column="1" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="15" bodyend="17"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>edgeCode1</name></member>
       <member refid="group__GeneralGroup_1ga56124e5a79e5cbe2b1b617d2e142aaa1" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>edgeCode2</name></member>
