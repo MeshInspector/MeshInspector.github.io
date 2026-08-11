@@ -704,9 +704,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63352" bodyend="63353"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector2b_1ae05bea32f4b2ab17ae3fb4b5fbeaef9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition> bool mrmeshpy.Vector2b.lengthSq</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector2b_1a82a25e42089ec827598bbeeb8b73ad32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector2b.lengthSq</definition>
         <argsstring>(self)</argsstring>
         <name>lengthSq</name>
         <qualifiedname>mrmeshpy.Vector2b.lengthSq</qualifiedname>
@@ -764,7 +764,7 @@ two-dimensional vector
       <member refid="classmrmeshpy_1_1Vector2b_1a48ffe9a56b320a41cfbdd50695bf84c8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector2b</scope><name>diagonal</name></member>
       <member refid="classmrmeshpy_1_1Vector2b_1a35dc6aef8f41b314c2126cd1462f44eb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector2b</scope><name>elements</name></member>
       <member refid="classmrmeshpy_1_1Vector2b_1aafee85e2b0b92f2d9b4418a651f56f9c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector2b</scope><name>length</name></member>
-      <member refid="classmrmeshpy_1_1Vector2b_1ae05bea32f4b2ab17ae3fb4b5fbeaef9a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector2b</scope><name>lengthSq</name></member>
+      <member refid="classmrmeshpy_1_1Vector2b_1a82a25e42089ec827598bbeeb8b73ad32" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector2b</scope><name>lengthSq</name></member>
       <member refid="classmrmeshpy_1_1Vector2b_1af10fe23ce38d7598319ded23a74a7042" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector2b</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Vector2b_1af10fe23ce38d7598319ded23a74a7042" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector2b</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Vector2b_1a28671b1f168aaf44217bc6d54c8c47ca" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector2b</scope><name>plusX</name></member>

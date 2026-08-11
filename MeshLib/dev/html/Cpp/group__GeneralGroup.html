@@ -5220,8 +5220,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga5fe5f232802842f5c2716a95abb8c28b template"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5fe5f232802842f5c2716a95abb8c28b">MR::LineSegm&lt; V &gt;::LineSegm</a> (const <a class="el" href="structMR_1_1LineSegm.html">LineSegm</a>&lt; U &gt; &amp;p) noexcept</td></tr>
 <tr class="memitem:gac7639a48742e5c77367777128549d36e" id="r_gac7639a48742e5c77367777128549d36e"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac7639a48742e5c77367777128549d36e">MR::LineSegm&lt; V &gt;::dir</a> () const</td></tr>
 <tr class="memdesc:gac7639a48742e5c77367777128549d36e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns directional vector of the line  <br /></td></tr>
-<tr class="memitem:gaa0c1c59c920a38b8c03970caf1da046a" id="r_gaa0c1c59c920a38b8c03970caf1da046a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga3257b02c520c257af06a8750951851e6">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa0c1c59c920a38b8c03970caf1da046a">MR::LineSegm&lt; V &gt;::lengthSq</a> () const</td></tr>
-<tr class="memdesc:gaa0c1c59c920a38b8c03970caf1da046a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns squared length of this line segment  <br /></td></tr>
+<tr class="memitem:ga08590d32c2ac15f8c7fa66991eebc5e1" id="r_ga08590d32c2ac15f8c7fa66991eebc5e1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga08590d32c2ac15f8c7fa66991eebc5e1">MR::LineSegm&lt; V &gt;::lengthSq</a> () const -&gt; decltype(std::declval&lt; V &gt;().lengthSq())</td></tr>
+<tr class="memdesc:ga08590d32c2ac15f8c7fa66991eebc5e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns squared length of this line segment  <br /></td></tr>
 <tr class="memitem:ga086b850940021667f55efa192653d966" id="r_ga086b850940021667f55efa192653d966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga3257b02c520c257af06a8750951851e6">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga086b850940021667f55efa192653d966">MR::LineSegm&lt; V &gt;::length</a> () const</td></tr>
 <tr class="memdesc:ga086b850940021667f55efa192653d966"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the length of this line segment  <br /></td></tr>
 <tr class="memitem:gaadd80884a169b1942afb5da781c1a137" id="r_gaadd80884a169b1942afb5da781c1a137"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaadd80884a169b1942afb5da781c1a137">MR::LineSegm&lt; V &gt;::operator()</a> (<a class="el" href="#ga3257b02c520c257af06a8750951851e6">T</a> param) const</td></tr>
@@ -8027,7 +8027,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga8b863a75d888921eb316d0faf64e45b7 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b863a75d888921eb316d0faf64e45b7">MR::Vector3&lt; T &gt;::MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; T, U &gt;) const expr explicit <a class="el" href="structMR_1_1Vector3.html">Vector3</a>(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; U &gt; &amp;v) noexcept</td></tr>
 <tr class="memitem:ga91b0398c10d527ac2433b92451a3dfb8" id="r_ga91b0398c10d527ac2433b92451a3dfb8"><td class="memItemLeft" align="right" valign="top">constexpr const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga91b0398c10d527ac2433b92451a3dfb8">MR::Vector3&lt; T &gt;::operator[]</a> (int e) const noexcept</td></tr>
 <tr class="memitem:gafd88975c7b25f8752c951f16a74ac7f5" id="r_gafd88975c7b25f8752c951f16a74ac7f5"><td class="memItemLeft" align="right" valign="top">constexpr T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafd88975c7b25f8752c951f16a74ac7f5">MR::Vector3&lt; T &gt;::operator[]</a> (int e) noexcept</td></tr>
-<tr class="memitem:gaedb5f8de6324a8ee5e71243c4b67104c" id="r_gaedb5f8de6324a8ee5e71243c4b67104c"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaedb5f8de6324a8ee5e71243c4b67104c">MR::Vector3&lt; T &gt;::lengthSq</a> () const</td></tr>
+<tr class="memitem:ga443f05907a7c319e5e081fa7dd0b9019" id="r_ga443f05907a7c319e5e081fa7dd0b9019"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga443f05907a7c319e5e081fa7dd0b9019">MR::Vector3&lt; T &gt;::lengthSq</a> () const -&gt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())</td></tr>
 <tr class="memitem:ga9b44af3c8a7c918cf88dac1811950e66" id="r_ga9b44af3c8a7c918cf88dac1811950e66"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9b44af3c8a7c918cf88dac1811950e66">MR::Vector3&lt; T &gt;::length</a> () const</td></tr>
 <tr class="memitem:gabcd3a5ac10c0bd8323d2f67d4d63c474" id="r_gabcd3a5ac10c0bd8323d2f67d4d63c474"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabcd3a5ac10c0bd8323d2f67d4d63c474">MR::Vector3&lt; T &gt;::normalized</a> () const <a class="el" href="#ga9bfdd0e5562d8003259366aedc1074a5">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
 <tr class="memitem:gad58865da02e91d912a9eee9a9cc26881" id="r_gad58865da02e91d912a9eee9a9cc26881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a> furthestBasisVector() const <a class="el" href="#ga9bfdd0e5562d8003259366aedc1074a5">MR_REQUIRES_IF_SUPPORTED</a>(!std std::pair&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>, <a class="el" href="structMR_1_1Vector3.html">Vector3</a> &gt; perpendicular() const <a class="el" href="#ga9bfdd0e5562d8003259366aedc1074a5">MR_REQUIRES_IF_SUPPORTED</a>(std <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad58865da02e91d912a9eee9a9cc26881">MR::Vector3&lt; T &gt;::transformed</a> (const <a class="el" href="#gae2856f9003f11adc4d85d9befcb2f442">AffineXf3OrPlaceholder</a>&lt; T &gt; *xf) const <a class="el" href="#ga9bfdd0e5562d8003259366aedc1074a5">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
@@ -8043,7 +8043,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga5f960e7bc138e3478db0bab2c88846a7 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f960e7bc138e3478db0bab2c88846a7">MR::Vector4&lt; T &gt;::MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; T, U &gt;) const expr explicit <a class="el" href="structMR_1_1Vector4.html">Vector4</a>(const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; U &gt; &amp;v) noexcept</td></tr>
 <tr class="memitem:gaad7806510075ef51fd4cb0c1cee64742" id="r_gaad7806510075ef51fd4cb0c1cee64742"><td class="memItemLeft" align="right" valign="top">constexpr const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaad7806510075ef51fd4cb0c1cee64742">MR::Vector4&lt; T &gt;::operator[]</a> (int e) const noexcept</td></tr>
 <tr class="memitem:ga26c8c6c0e41d80c33f348e16acb5ea40" id="r_ga26c8c6c0e41d80c33f348e16acb5ea40"><td class="memItemLeft" align="right" valign="top">constexpr T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga26c8c6c0e41d80c33f348e16acb5ea40">MR::Vector4&lt; T &gt;::operator[]</a> (int e) noexcept</td></tr>
-<tr class="memitem:ga2dd22ed3ae33f32c5110d16e149d10c1" id="r_ga2dd22ed3ae33f32c5110d16e149d10c1"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2dd22ed3ae33f32c5110d16e149d10c1">MR::Vector4&lt; T &gt;::lengthSq</a> () const</td></tr>
+<tr class="memitem:ga569e6612540d74cb89cc24227f7d3f4e" id="r_ga569e6612540d74cb89cc24227f7d3f4e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga569e6612540d74cb89cc24227f7d3f4e">MR::Vector4&lt; T &gt;::lengthSq</a> () const -&gt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())</td></tr>
 <tr class="memitem:gaa635f4c17f51f760f9c4f9d0e5c56aae" id="r_gaa635f4c17f51f760f9c4f9d0e5c56aae"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa635f4c17f51f760f9c4f9d0e5c56aae">MR::Vector4&lt; T &gt;::length</a> () const</td></tr>
 <tr class="memitem:gadc44955f85b32da55a4f43ea11cd257f" id="r_gadc44955f85b32da55a4f43ea11cd257f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadc44955f85b32da55a4f43ea11cd257f">MR::Vector4&lt; T &gt;::normalized</a> () const <a class="el" href="#ga5f960e7bc138e3478db0bab2c88846a7">MR_REQUIRES_IF_SUPPORTED</a>(!std</td></tr>
 <tr class="memitem:ga2078626fc09d25075fcc070bcf03b2dd" id="r_ga2078626fc09d25075fcc070bcf03b2dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2078626fc09d25075fcc070bcf03b2dd">MR::Vector4&lt; T &gt;::proj3d</a> () const <a class="el" href="#ga5f960e7bc138e3478db0bab2c88846a7">MR_REQUIRES_IF_SUPPORTED</a>(!std</td></tr>
@@ -15383,9 +15383,9 @@ Friends</h2></td></tr>
 <tr class="memitem:ga12ace0a073b6d056e20f50fabe0b9940" id="r_ga12ace0a073b6d056e20f50fabe0b9940"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga12ace0a073b6d056e20f50fabe0b9940 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga12ace0a073b6d056e20f50fabe0b9940">dot</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b) -&gt; decltype(a.x *b.x)</td></tr>
 <tr class="memdesc:ga12ace0a073b6d056e20f50fabe0b9940"><td class="mdescLeft">&#160;</td><td class="mdescRight">dot product  <br /></td></tr>
-<tr class="memitem:gac519c0badafc5dd614c0c6f8b8b28994" id="r_gac519c0badafc5dd614c0c6f8b8b28994"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:gac519c0badafc5dd614c0c6f8b8b28994 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac519c0badafc5dd614c0c6f8b8b28994">sqr</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a)</td></tr>
-<tr class="memdesc:gac519c0badafc5dd614c0c6f8b8b28994"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared length  <br /></td></tr>
+<tr class="memitem:ga54dc2aba870f99fd60fbe3ce03fc7c7f" id="r_ga54dc2aba870f99fd60fbe3ce03fc7c7f"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga54dc2aba870f99fd60fbe3ce03fc7c7f template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga54dc2aba870f99fd60fbe3ce03fc7c7f">sqr</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a) -&gt; decltype(a.lengthSq())</td></tr>
+<tr class="memdesc:ga54dc2aba870f99fd60fbe3ce03fc7c7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared length  <br /></td></tr>
 <tr class="memitem:gaa80c4d71ef5b56a6aaa251f91e636873" id="r_gaa80c4d71ef5b56a6aaa251f91e636873"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gaa80c4d71ef5b56a6aaa251f91e636873 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa80c4d71ef5b56a6aaa251f91e636873">mixed</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
 <tr class="memdesc:gaa80c4d71ef5b56a6aaa251f91e636873"><td class="mdescLeft">&#160;</td><td class="mdescRight">mixed product  <br /></td></tr>
@@ -15409,9 +15409,9 @@ Friends</h2></td></tr>
 <tr class="memitem:ga6b70b6953f8b9ea980c0d5afcdf3b335" id="r_ga6b70b6953f8b9ea980c0d5afcdf3b335"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga6b70b6953f8b9ea980c0d5afcdf3b335 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6b70b6953f8b9ea980c0d5afcdf3b335">dot</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b) -&gt; decltype(a.x *b.x)</td></tr>
 <tr class="memdesc:ga6b70b6953f8b9ea980c0d5afcdf3b335"><td class="mdescLeft">&#160;</td><td class="mdescRight">dot product  <br /></td></tr>
-<tr class="memitem:ga2925cc04ba84c72a45503f35a61c90e5" id="r_ga2925cc04ba84c72a45503f35a61c90e5"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ga2925cc04ba84c72a45503f35a61c90e5 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2925cc04ba84c72a45503f35a61c90e5">sqr</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a)</td></tr>
-<tr class="memdesc:ga2925cc04ba84c72a45503f35a61c90e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared length  <br /></td></tr>
+<tr class="memitem:ga33b3fc58679756e00cf9e473c4053f15" id="r_ga33b3fc58679756e00cf9e473c4053f15"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga33b3fc58679756e00cf9e473c4053f15 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga33b3fc58679756e00cf9e473c4053f15">sqr</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a) -&gt; decltype(a.lengthSq())</td></tr>
+<tr class="memdesc:ga33b3fc58679756e00cf9e473c4053f15"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared length  <br /></td></tr>
 <tr class="memitem:ga792b605255e8f3f5d4fc544964d5bfed" id="r_ga792b605255e8f3f5d4fc544964d5bfed"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga792b605255e8f3f5d4fc544964d5bfed template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga792b605255e8f3f5d4fc544964d5bfed">mult</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="memdesc:ga792b605255e8f3f5d4fc544964d5bfed"><td class="mdescLeft">&#160;</td><td class="mdescRight">per component multiplication  <br /></td></tr>
@@ -112242,8 +112242,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gaa0c1c59c920a38b8c03970caf1da046a" name="gaa0c1c59c920a38b8c03970caf1da046a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa0c1c59c920a38b8c03970caf1da046a">&#9670;&#160;</a></span>lengthSq() <span class="overload">[1/3]</span></h2>
+<a id="ga08590d32c2ac15f8c7fa66991eebc5e1" name="ga08590d32c2ac15f8c7fa66991eebc5e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga08590d32c2ac15f8c7fa66991eebc5e1">&#9670;&#160;</a></span>lengthSq() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -112254,10 +112254,10 @@ template&lt;typename V&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ga3257b02c520c257af06a8750951851e6">T</a> <a class="el" href="structMR_1_1LineSegm.html">MR::LineSegm</a>&lt; V &gt;::lengthSq </td>
+          <td class="memname">auto <a class="el" href="structMR_1_1LineSegm.html">MR::LineSegm</a>&lt; V &gt;::lengthSq </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
+          <td> const -&gt; decltype( std::declval&lt;V&gt;().lengthSq() ) </td>
         </tr>
       </table>
   </td>
@@ -112273,8 +112273,8 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
-<a id="gaedb5f8de6324a8ee5e71243c4b67104c" name="gaedb5f8de6324a8ee5e71243c4b67104c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaedb5f8de6324a8ee5e71243c4b67104c">&#9670;&#160;</a></span>lengthSq() <span class="overload">[2/3]</span></h2>
+<a id="ga443f05907a7c319e5e081fa7dd0b9019" name="ga443f05907a7c319e5e081fa7dd0b9019"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga443f05907a7c319e5e081fa7dd0b9019">&#9670;&#160;</a></span>lengthSq() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -112285,10 +112285,10 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt;::lengthSq </td>
+          <td class="memname">auto <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt;::lengthSq </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
+          <td> const -&gt; decltype( std::declval&lt;T&gt;() * std::declval&lt;T&gt;() ) </td>
         </tr>
       </table>
   </td>
@@ -112302,8 +112302,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga2dd22ed3ae33f32c5110d16e149d10c1" name="ga2dd22ed3ae33f32c5110d16e149d10c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2dd22ed3ae33f32c5110d16e149d10c1">&#9670;&#160;</a></span>lengthSq() <span class="overload">[3/3]</span></h2>
+<a id="ga569e6612540d74cb89cc24227f7d3f4e" name="ga569e6612540d74cb89cc24227f7d3f4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga569e6612540d74cb89cc24227f7d3f4e">&#9670;&#160;</a></span>lengthSq() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -112314,10 +112314,11 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="structMR_1_1Vector4.html">MR::Vector4</a>&lt; T &gt;::lengthSq </td>
+          <td class="memname">auto <a class="el" href="structMR_1_1Vector4.html">MR::Vector4</a>&lt; T &gt;::lengthSq </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
+          <td> const -&gt; decltype( std::declval&lt;T&gt;() * std::declval&lt;T&gt;() )
+    </td>
         </tr>
       </table>
   </td>
@@ -176876,8 +176877,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gac519c0badafc5dd614c0c6f8b8b28994" name="gac519c0badafc5dd614c0c6f8b8b28994"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac519c0badafc5dd614c0c6f8b8b28994">&#9670;&#160;</a></span>sqr() <span class="overload">[2/3]</span></h2>
+<a id="ga54dc2aba870f99fd60fbe3ce03fc7c7f" name="ga54dc2aba870f99fd60fbe3ce03fc7c7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga54dc2aba870f99fd60fbe3ce03fc7c7f">&#9670;&#160;</a></span>sqr() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176888,10 +176889,11 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T sqr </td>
+          <td class="memname">auto sqr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
-          <td></td>
+          <td> -&gt; decltype( a.lengthSq() )
+</td>
         </tr>
       </table>
   </td>
@@ -176905,8 +176907,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga2925cc04ba84c72a45503f35a61c90e5" name="ga2925cc04ba84c72a45503f35a61c90e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2925cc04ba84c72a45503f35a61c90e5">&#9670;&#160;</a></span>sqr() <span class="overload">[3/3]</span></h2>
+<a id="ga33b3fc58679756e00cf9e473c4053f15" name="ga33b3fc58679756e00cf9e473c4053f15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga33b3fc58679756e00cf9e473c4053f15">&#9670;&#160;</a></span>sqr() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176917,10 +176919,11 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T sqr </td>
+          <td class="memname">auto sqr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
-          <td></td>
+          <td> -&gt; decltype( a.lengthSq() )
+</td>
         </tr>
       </table>
   </td>
