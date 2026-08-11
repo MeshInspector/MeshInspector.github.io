@@ -171,7 +171,7 @@
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;R&gt;</ref><sp/>p1{<sp/>contour[i<sp/>-<sp/>1]<sp/>};</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;R&gt;</ref><sp/>p2{<sp/>contour[i]<sp/>};</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga19abe27ef41cab9ed70e6a0b5d60026e" kindref="member">area</ref><sp/>+=<sp/><ref refid="structMR_1_1Vector2_1a3e532c0fca60fc9935f8394188cc2f28" kindref="member">cross</ref>(<sp/>p2<sp/>-<sp/>p0,<sp/>p1<sp/>-<sp/>p0<sp/>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga19abe27ef41cab9ed70e6a0b5d60026e" kindref="member">area</ref><sp/>+=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>p2<sp/>-<sp/>p0,<sp/>p1<sp/>-<sp/>p0<sp/>);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>R(0.5)<sp/>*<sp/><ref refid="group__GeneralGroup_1ga19abe27ef41cab9ed70e6a0b5d60026e" kindref="member">area</ref>;</highlight></codeline>
@@ -190,7 +190,7 @@
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;R&gt;</ref><sp/>p1{<sp/>contour[i<sp/>-<sp/>1]<sp/>};</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;R&gt;</ref><sp/>p2{<sp/>contour[i]<sp/>};</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga19abe27ef41cab9ed70e6a0b5d60026e" kindref="member">area</ref><sp/>+=<sp/><ref refid="structMR_1_1Vector2_1a3e532c0fca60fc9935f8394188cc2f28" kindref="member">cross</ref>(<sp/>p1<sp/>-<sp/>p0,<sp/>p2<sp/>-<sp/>p0<sp/>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga19abe27ef41cab9ed70e6a0b5d60026e" kindref="member">area</ref><sp/>+=<sp/><ref refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" kindref="member">cross</ref>(<sp/>p1<sp/>-<sp/>p0,<sp/>p2<sp/>-<sp/>p0<sp/>);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>R(0.5)<sp/>*<sp/><ref refid="group__GeneralGroup_1ga19abe27ef41cab9ed70e6a0b5d60026e" kindref="member">area</ref>;</highlight></codeline>

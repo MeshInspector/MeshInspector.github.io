@@ -19,7 +19,7 @@ var structMR_1_1Vector3 =
     [ "angle", "group__GeneralGroup.html#gac91a0462b62bab22f973bb517dc805ca", null ],
     [ "begin", "group__GeneralGroup.html#ga2a0868d8f2ba2eb64ff5ac8e05e76782", null ],
     [ "begin", "group__GeneralGroup.html#gac86b550c05ce4cf51bf3850ba0a000e7", null ],
-    [ "cross", "group__GeneralGroup.html#gae41face18b9dc2041d79eb7613426525", null ],
+    [ "cross", "group__GeneralGroup.html#gaf9065ae414e0307701366e479519540d", null ],
     [ "distance", "group__GeneralGroup.html#gaa62b4ce06d0439125af427faabb987b1", null ],
     [ "distanceSq", "group__GeneralGroup.html#ga1b7a343939b1a92e61700fb5bd609b56", null ],
     [ "div", "group__GeneralGroup.html#ga3032e40b08150686195023c67dd9b749", null ],

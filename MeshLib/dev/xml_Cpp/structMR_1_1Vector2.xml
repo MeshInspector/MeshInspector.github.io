@@ -65,14 +65,14 @@
         </inbodydescription>
         <location file="MRMesh/MRVector2.h" line="153" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="153" bodyend="156"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Vector2_1a3e532c0fca60fc9935f8394188cc2f28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
           </param>
         </templateparamlist>
-        <type>decltype(a.x *b.x)</type>
-        <definition>decltype(a.x *b.x) cross</definition>
+        <type>T</type>
+        <definition>T cross</definition>
         <argsstring>(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</argsstring>
         <name>cross</name>
         <qualifiedname>MR::Vector2::cross</qualifiedname>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector2.h" line="160" column="13" bodyfile="MRMesh/MRVector2.h" bodystart="160" bodyend="163"/>
+        <location file="MRMesh/MRVector2.h" line="160" column="10" bodyfile="MRMesh/MRVector2.h" bodystart="160" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Vector2_1aa7e0a1754fac4de39eb88fc3f1e2db46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1015,7 +1015,7 @@
       <member refid="structMR_1_1Vector2_1af97f888d41c35987fa2e24cfdf696621" prot="public" virt="non-virtual"><scope>MR::Vector2</scope><name>angle</name></member>
       <member refid="structMR_1_1Vector2_1a6ff45773ec0657ef8d168ab6b82400d2" prot="public" virt="non-virtual"><scope>MR::Vector2</scope><name>begin</name></member>
       <member refid="structMR_1_1Vector2_1a1d6b8b54858c91277b9c4999e6350855" prot="public" virt="non-virtual"><scope>MR::Vector2</scope><name>begin</name></member>
-      <member refid="structMR_1_1Vector2_1a3e532c0fca60fc9935f8394188cc2f28" prot="public" virt="non-virtual"><scope>MR::Vector2</scope><name>cross</name></member>
+      <member refid="structMR_1_1Vector2_1a07bafe90fc0230d0cef79991e7858dff" prot="public" virt="non-virtual"><scope>MR::Vector2</scope><name>cross</name></member>
       <member refid="structMR_1_1Vector2_1a7728a269ca682095e8e0f7d667bb727a" prot="public" virt="non-virtual"><scope>MR::Vector2</scope><name>diagonal</name></member>
       <member refid="structMR_1_1Vector2_1a847fe803c44c19055d0a15eca838df52" prot="public" virt="non-virtual"><scope>MR::Vector2</scope><name>distance</name></member>
       <member refid="structMR_1_1Vector2_1a7be48c5d4180d89d8038acede661911e" prot="public" virt="non-virtual"><scope>MR::Vector2</scope><name>distanceSq</name></member>
