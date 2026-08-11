@@ -1369,7 +1369,7 @@ var searchData=
   ['minusz_169',['minusZ',['../group__GeneralGroup.html#ga291eb0254deb6bfb0f17700a8dc48b41',1,'MR::Vector3']]],
   ['mirror_170',['mirror',['../structMR_1_1Mesh.html#a6cd3981840651ddac27d427a965ce818',1,'MR::Mesh::mirror()'],['../structMR_1_1PointCloud.html#ab5cc9f05068553ba1033167bb6189fcf',1,'MR::PointCloud::mirror()'],['../structMR_1_1Polyline.html#aeaa90b34cd74ab76a35694d438baaf65',1,'MR::Polyline::mirror()']]],
   ['mix_171',['mix',['../namespaceMR_1_1ImGuiMath.html#a1b10073d5f904b51b53263f742597596',1,'MR::ImGuiMath']]],
-  ['mixed_172',['mixed',['../group__GeneralGroup.html#gaa80c4d71ef5b56a6aaa251f91e636873',1,'MR::Vector3::mixed()'],['../group__GeneralGroup.html#gaa80c4d71ef5b56a6aaa251f91e636873',1,'MR::mixed(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)']]],
+  ['mixed_172',['mixed',['../group__GeneralGroup.html#ga4853bb586796b5d140948d0ab51c0bd0',1,'MR::Vector3::mixed()'],['../group__GeneralGroup.html#ga4853bb586796b5d140948d0ab51c0bd0',1,'MR::mixed(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c) -&gt; decltype(dot(a, cross(b, c)))']]],
   ['mixmetrics_173',['mixMetrics',['../group__FillHoleGroup.html#gabd1aad2d1ac85e32159ea366bf234d78',1,'MR']]],
   ['mlclienttransport_174',['MLClientTransport',['../classMR_1_1McpGateway_1_1MLClientTransport.html#a49af46d65dd036a33496818f57e0eb79',1,'MR::McpGateway::MLClientTransport']]],
   ['modalbigtitle_175',['ModalBigTitle',['../namespaceImGui.html#a7554b2c9b03f4d4b518f68e284509187',1,'ImGui']]],

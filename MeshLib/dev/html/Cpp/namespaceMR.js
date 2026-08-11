@@ -2936,7 +2936,7 @@ var namespaceMR =
     [ "mincircleDiameterSq", "group__MathGroup.html#ga4d722517a95582901be4599a6042e273", null ],
     [ "minTriangleAngle", "group__GeneralGroup.html#gac317aae7fbe013869599d57c76389e8b", null ],
     [ "minTriangleAngleSin", "group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826", null ],
-    [ "mixed", "group__GeneralGroup.html#gaa80c4d71ef5b56a6aaa251f91e636873", null ],
+    [ "mixed", "group__GeneralGroup.html#ga4853bb586796b5d140948d0ab51c0bd0", null ],
     [ "mixMetrics", "group__FillHoleGroup.html#gabd1aad2d1ac85e32159ea366bf234d78", null ],
     [ "moveAllChildrenWithUndo", "group__GeneralGroup.html#gac64956e4423c9c29e04958457a69bc3f", null ],
     [ "moveMeshToVoxelMaxDeriv", "group__SubvoxelMeshCorrection.html#ga1e8644361ce63a01cc5bf2f55019c438", null ],

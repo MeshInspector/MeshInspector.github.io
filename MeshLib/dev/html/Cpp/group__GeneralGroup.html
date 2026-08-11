@@ -10340,7 +10340,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memdesc:ga44c1ea072b256b7ae6f25f34ea02bd36"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <span class="tt">valueOverride</span> is specified, then the checkbox is disabled and that value is displayed instead of <span class="tt">value</span>.  <br /></td></tr>
 <tr class="memitem:gade42daff92fe99bd56d3811c1f03d37f" id="r_gade42daff92fe99bd56d3811c1f03d37f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gade42daff92fe99bd56d3811c1f03d37f">MR::UI::checkboxValid</a> (const char *label, bool *value, bool valid)</td></tr>
 <tr class="memdesc:gade42daff92fe99bd56d3811c1f03d37f"><td class="mdescLeft">&#160;</td><td class="mdescRight">If valid is false checkbox is disabled. Same as <span class="tt">checkboxOrFixedValue( ..., valid ? nullopt : false )</span>.  <br /></td></tr>
-<tr class="memitem:gaf9fe1762f9d482bc97ef29f32c482d32" id="r_gaf9fe1762f9d482bc97ef29f32c482d32"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf9fe1762f9d482bc97ef29f32c482d32">MR::UI::checkboxMixed</a> (const char *label, bool *value, bool <a class="el" href="#gaa80c4d71ef5b56a6aaa251f91e636873">mixed</a>)</td></tr>
+<tr class="memitem:gaf9fe1762f9d482bc97ef29f32c482d32" id="r_gaf9fe1762f9d482bc97ef29f32c482d32"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf9fe1762f9d482bc97ef29f32c482d32">MR::UI::checkboxMixed</a> (const char *label, bool *value, bool <a class="el" href="#ga4853bb586796b5d140948d0ab51c0bd0">mixed</a>)</td></tr>
 <tr class="memdesc:gaf9fe1762f9d482bc97ef29f32c482d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient checkbox with mixed state  <br /></td></tr>
 <tr class="memitem:ga9542cf007c0f98d41fea874268894222" id="r_ga9542cf007c0f98d41fea874268894222"><td class="memTemplParams" colspan="2">template&lt;typename Getter, typename Setter&gt; </td></tr>
 <tr class="memitem:ga9542cf007c0f98d41fea874268894222 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9542cf007c0f98d41fea874268894222">MR::UI::checkbox</a> (const char *label, Getter <a class="el" href="group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e">get</a>, Setter set)</td></tr>
@@ -15386,9 +15386,9 @@ Friends</h2></td></tr>
 <tr class="memitem:ga54dc2aba870f99fd60fbe3ce03fc7c7f" id="r_ga54dc2aba870f99fd60fbe3ce03fc7c7f"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga54dc2aba870f99fd60fbe3ce03fc7c7f template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga54dc2aba870f99fd60fbe3ce03fc7c7f">sqr</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a) -&gt; decltype(a.lengthSq())</td></tr>
 <tr class="memdesc:ga54dc2aba870f99fd60fbe3ce03fc7c7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared length  <br /></td></tr>
-<tr class="memitem:gaa80c4d71ef5b56a6aaa251f91e636873" id="r_gaa80c4d71ef5b56a6aaa251f91e636873"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:gaa80c4d71ef5b56a6aaa251f91e636873 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa80c4d71ef5b56a6aaa251f91e636873">mixed</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
-<tr class="memdesc:gaa80c4d71ef5b56a6aaa251f91e636873"><td class="mdescLeft">&#160;</td><td class="mdescRight">mixed product  <br /></td></tr>
+<tr class="memitem:ga4853bb586796b5d140948d0ab51c0bd0" id="r_ga4853bb586796b5d140948d0ab51c0bd0"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga4853bb586796b5d140948d0ab51c0bd0 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4853bb586796b5d140948d0ab51c0bd0">mixed</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c) -&gt; decltype(<a class="el" href="#ga12ace0a073b6d056e20f50fabe0b9940">dot</a>(a, <a class="el" href="#gae41face18b9dc2041d79eb7613426525">cross</a>(b, c)))</td></tr>
+<tr class="memdesc:ga4853bb586796b5d140948d0ab51c0bd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">mixed product  <br /></td></tr>
 <tr class="memitem:gae2acb767e75d8fddbe60a26218e7635a" id="r_gae2acb767e75d8fddbe60a26218e7635a"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gae2acb767e75d8fddbe60a26218e7635a template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2acb767e75d8fddbe60a26218e7635a">mult</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="memdesc:gae2acb767e75d8fddbe60a26218e7635a"><td class="mdescLeft">&#160;</td><td class="mdescRight">per component multiplication  <br /></td></tr>
@@ -120730,8 +120730,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gaa80c4d71ef5b56a6aaa251f91e636873" name="gaa80c4d71ef5b56a6aaa251f91e636873"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa80c4d71ef5b56a6aaa251f91e636873">&#9670;&#160;</a></span>mixed()</h2>
+<a id="ga4853bb586796b5d140948d0ab51c0bd0" name="ga4853bb586796b5d140948d0ab51c0bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4853bb586796b5d140948d0ab51c0bd0">&#9670;&#160;</a></span>mixed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120742,7 +120742,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T mixed </td>
+          <td class="memname">auto mixed </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -120754,7 +120754,8 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;) -&gt; decltype( <a class="el" href="#ga12ace0a073b6d056e20f50fabe0b9940">dot</a>( a, <a class="el" href="#gae41face18b9dc2041d79eb7613426525">cross</a>( b, c ) ) )
+</td>
         </tr>
       </table>
   </td>
