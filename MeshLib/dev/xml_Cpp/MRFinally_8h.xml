@@ -224,7 +224,7 @@
 <codeline lineno="30" refid="MRFinally_8h_1ac22b729a28295f5adeb690ef54729b1c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_FINALLY(<sp/>type_<sp/>)<sp/>\</highlight></codeline>
 <codeline lineno="31"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>auto<sp/>MR_CONCAT(<sp/>_mrScopeGuard,<sp/>__COUNTER__<sp/>)<sp/>=<sp/>::MR::detail::MakeScopeGuard&lt;::MR::detail::type_&gt;{}<sp/>-&gt;*<sp/>[&amp;]()<sp/>-&gt;<sp/>void</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1detail" kindref="compound">MR::detail</ref></highlight></codeline>
+<codeline lineno="33" refid="namespaceMR_1_1detail" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1detail" kindref="compound">MR::detail</ref></highlight></codeline>
 <codeline lineno="34"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>

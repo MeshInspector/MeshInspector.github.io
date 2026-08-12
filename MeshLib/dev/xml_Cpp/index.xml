@@ -3184,19 +3184,6 @@
     <member refid="group__GeneralGroup_1ga010e9445541af4e90e90d34acc98220e" kind="function"><name>FanRecordWithCenter</name></member>
     <member refid="group__GeneralGroup_1gac112017931324f9b12a9af38f28671e2" kind="function"><name>FanRecordWithCenter</name></member>
   </compound>
-  <compound refid="classMR_1_1FastInt256" kind="class"><name>MR::FastInt256</name>
-    <member refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kind="variable"><name>w</name></member>
-    <member refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kind="function"><name>FastInt256</name></member>
-    <member refid="group__GeneralGroup_1ga8939d64c71ed34e36ed0e17180420f7b" kind="function"><name>FastInt256</name></member>
-    <member refid="group__GeneralGroup_1ga94ae46428d73117823d1a116f25559ae" kind="function"><name>sign</name></member>
-    <member refid="group__GeneralGroup_1ga42e23b757ec321ed05363f94d4ba3289" kind="function"><name>operator+=</name></member>
-    <member refid="group__GeneralGroup_1gab60f5bac010cebacc930a3bd4581f6c9" kind="function"><name>operator-=</name></member>
-    <member refid="group__GeneralGroup_1gafbc1effbac2c5c48f9bf9e630499273f" kind="function"><name>operator-</name></member>
-    <member refid="group__GeneralGroup_1gad6aa26c7510331c22e965adf8b40ba09" kind="friend"><name>operator+</name></member>
-    <member refid="group__GeneralGroup_1ga219735516a4ffae301e534fee33cfb36" kind="friend"><name>operator-</name></member>
-    <member refid="group__GeneralGroup_1ga1e333e1a3dfeb1453903181624dd733b" kind="friend"><name>operator==</name></member>
-    <member refid="group__GeneralGroup_1ga9ccbcefe927147b4744dd4fc7c039ff2" kind="friend"><name>operator&lt;=&gt;</name></member>
-  </compound>
   <compound refid="classMR_1_1Cuda_1_1FastWindingNumber" kind="class"><name>MR::Cuda::FastWindingNumber</name>
     <member refid="group__GeneralGroup_1gae9c59203fe5d3b3629001f240f8d0624" kind="variable"><name>mesh_</name></member>
     <member refid="group__GeneralGroup_1gaeb29c6d6d2743de9afc86aa23d1373de" kind="variable"><name>data_</name></member>
@@ -14135,7 +14122,6 @@
     <member refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kind="typedef"><name>Expected</name></member>
     <member refid="group__GeneralGroup_1ga7c86003c754649f6ef52d71fcfb9d382" kind="typedef"><name>Unexpected</name></member>
     <member refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kind="typedef"><name>FastInt128</name></member>
-    <member refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kind="typedef"><name>FastUInt128</name></member>
     <member refid="group__GeneralGroup_1ga45cb1332fad43a5a921294d643411ba0" kind="typedef"><name>FeaturesPropertyTypesVariant</name></member>
     <member refid="group__GeneralGroup_1gaad6ac9cd0268793575ae31767169ad0e" kind="typedef"><name>MultiObjsSamples</name></member>
     <member refid="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" kind="typedef"><name>Int128</name></member>
@@ -14735,7 +14721,6 @@
     <member refid="group__GeneralGroup_1ga75b8750abcb07d97d5bd326ad962f27a" kind="function"><name>planeSectionToContour2f</name></member>
     <member refid="group__GeneralGroup_1ga9d313852215c7bc19114963b168f3435" kind="function"><name>planeSectionsToContours2f</name></member>
     <member refid="group__GeneralGroup_1gab85f14264d6c9fb3a304c49fe4722ccf" kind="function"><name>calcFaceDistances</name></member>
-    <member refid="group__GeneralGroup_1ga720036c56f62997953c9a28dda60b2e3" kind="function"><name>mulExact</name></member>
     <member refid="group__GeneralGroup_1ga5c9fd829c3ac9510359b4250c4afa70b" kind="function"><name>forEachObjectKind</name></member>
     <member refid="group__GeneralGroup_1gaa21f89f30d57138088912b6cf0d2215e" kind="function"><name>makeObjectFromEnum</name></member>
     <member refid="group__GeneralGroup_1gae69d6d886eeae936d8c70e983d245cd5" kind="function"><name>makeObjectFromClassName</name></member>
@@ -16136,8 +16121,6 @@
     <member refid="group__GeneralGroup_1ga5caa3c21e1c35ac6d6dd2eb125484783" kind="function"><name>loadMRCudaDll</name></member>
   </compound>
   <compound refid="namespaceMR_1_1detail" kind="namespace"><name>MR::detail</name>
-    <member refid="group__GeneralGroup_1ga5594848257c568b851f69e038d664c51" kind="function"><name>addCarry64</name></member>
-    <member refid="group__GeneralGroup_1gadb35ada3bd7625e707607b41a5ad3201" kind="function"><name>subBorrow64</name></member>
     <member refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" kind="function"><name>runCocoaFileDialog</name></member>
     <member refid="namespaceMR_1_1detail_1a4b40e1222b8df2660b25e4942deb39fb" kind="function"><name>isPortalFileDialogSupported</name></member>
     <member refid="namespaceMR_1_1detail_1a1a02e764be7c54f9177025ee42b915d0" kind="function"><name>runPortalFileDialog</name></member>
@@ -17143,6 +17126,16 @@
   </compound>
   <compound refid="MRMCPGatewayUtf8_8h" kind="file"><name>MRMCPGatewayUtf8.h</name>
   </compound>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
+  </compound>
   <compound refid="MR2DContoursTriangulation_8h" kind="file"><name>MR2DContoursTriangulation.h</name>
   </compound>
   <compound refid="MR2to3_8h" kind="file"><name>MR2to3.h</name>
@@ -17368,8 +17361,6 @@
   <compound refid="MRFaceFace_8h" kind="file"><name>MRFaceFace.h</name>
   </compound>
   <compound refid="MRFastInt128_8h" kind="file"><name>MRFastInt128.h</name>
-  </compound>
-  <compound refid="MRFastInt256_8h" kind="file"><name>MRFastInt256.h</name>
   </compound>
   <compound refid="MRFastWindingNumber_8h" kind="file"><name>MRFastWindingNumber.h</name>
   </compound>
@@ -18111,6 +18102,10 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -18186,16 +18181,6 @@
   <compound refid="MRSymbolMeshFwd_8h" kind="file"><name>MRSymbolMeshFwd.h</name>
     <member refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kind="define"><name>MRSYMBOLMESH_API</name></member>
     <member refid="MRSymbolMeshFwd_8h_1acd35d2ca8d20c30530e2d38a9295f009" kind="define"><name>MRSYMBOLMESH_CLASS</name></member>
-  </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
   </compound>
   <compound refid="ImGuiHelpers_8h" kind="file"><name>ImGuiHelpers.h</name>
   </compound>
@@ -18536,10 +18521,6 @@
     <member refid="group__GeneralGroup_1gacbc30821abce7e21196166b4dc00e283" kind="define"><name>MR_X</name></member>
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
-  </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
   </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
@@ -21204,7 +21185,6 @@
     <member refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kind="typedef"><name>Expected</name></member>
     <member refid="group__GeneralGroup_1ga7c86003c754649f6ef52d71fcfb9d382" kind="typedef"><name>Unexpected</name></member>
     <member refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kind="typedef"><name>FastInt128</name></member>
-    <member refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kind="typedef"><name>FastUInt128</name></member>
     <member refid="group__GeneralGroup_1ga54e74708f7b97596d00a59029266cc0f" kind="typedef"><name>GridByPartsFunc</name></member>
     <member refid="group__GeneralGroup_1ga7c6810eee2e81dd56d902c959a18d117" kind="typedef"><name>type</name></member>
     <member refid="group__GeneralGroup_1gae118fa6ed40ec5fb3e1ce843d0591f6b" kind="typedef"><name>type</name></member>
@@ -22062,7 +22042,6 @@
     <member refid="group__GeneralGroup_1ga712f07635ebe5270dd2a58473ca7a7cb" kind="variable"><name>out</name></member>
     <member refid="group__GeneralGroup_1ga2ea8f49066513ec8895aadabd2bc8bd6" kind="variable"><name>maxDist</name></member>
     <member refid="group__GeneralGroup_1ga9c26116bdf2f4041ab93071989875a92" kind="variable"><name>progress</name></member>
-    <member refid="group__GeneralGroup_1ga717a5c89ae89116997e43017be48cd64" kind="variable"><name>w</name></member>
     <member refid="group__GeneralGroup_1gaf77abe1fbfbd40c8bd6dcaf35db1aa14" kind="variable"><name>mesh_</name></member>
     <member refid="group__GeneralGroup_1gaa47491aa7ed9a5fdef4a5324c9979280" kind="variable"><name>tree_</name></member>
     <member refid="group__GeneralGroup_1ga7be8f8dc0a1453e22e0da8a063c5662d" kind="variable"><name>dipoles_</name></member>
@@ -24992,10 +24971,6 @@
     <member refid="group__GeneralGroup_1ga3208da396eae7727ebb85c7b57831d90" kind="friend"><name>begin</name></member>
     <member refid="group__GeneralGroup_1ga4b35e430ce2cbb2036d07755da2d4e7d" kind="friend"><name>end</name></member>
     <member refid="group__GeneralGroup_1ga2479fd18962eebc79164a5a5485a0c31" kind="friend"><name>operator&lt;</name></member>
-    <member refid="group__GeneralGroup_1gad6aa26c7510331c22e965adf8b40ba09" kind="friend"><name>operator+</name></member>
-    <member refid="group__GeneralGroup_1ga219735516a4ffae301e534fee33cfb36" kind="friend"><name>operator-</name></member>
-    <member refid="group__GeneralGroup_1ga1e333e1a3dfeb1453903181624dd733b" kind="friend"><name>operator==</name></member>
-    <member refid="group__GeneralGroup_1ga9ccbcefe927147b4744dd4fc7c039ff2" kind="friend"><name>operator&lt;=&gt;</name></member>
     <member refid="group__GeneralGroup_1ga8ad7586da649f116dbeefd965f5ff897" kind="friend"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1ga0a599e730d0a62e6972fecbb9a4e13b1" kind="friend"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1gadfb5d0c55b1f0308b2b0c4fbac1a6d6b" kind="friend"><name>operator==</name></member>
@@ -26063,15 +26038,6 @@
     <member refid="group__GeneralGroup_1ga75b8750abcb07d97d5bd326ad962f27a" kind="function"><name>planeSectionToContour2f</name></member>
     <member refid="group__GeneralGroup_1ga9d313852215c7bc19114963b168f3435" kind="function"><name>planeSectionsToContours2f</name></member>
     <member refid="group__GeneralGroup_1gab85f14264d6c9fb3a304c49fe4722ccf" kind="function"><name>calcFaceDistances</name></member>
-    <member refid="group__GeneralGroup_1ga5594848257c568b851f69e038d664c51" kind="function"><name>addCarry64</name></member>
-    <member refid="group__GeneralGroup_1gadb35ada3bd7625e707607b41a5ad3201" kind="function"><name>subBorrow64</name></member>
-    <member refid="group__GeneralGroup_1ga2b33b34c2bc41f3256db6918b71f09f2" kind="function"><name>FastInt256</name></member>
-    <member refid="group__GeneralGroup_1ga8939d64c71ed34e36ed0e17180420f7b" kind="function"><name>FastInt256</name></member>
-    <member refid="group__GeneralGroup_1ga94ae46428d73117823d1a116f25559ae" kind="function"><name>sign</name></member>
-    <member refid="group__GeneralGroup_1ga42e23b757ec321ed05363f94d4ba3289" kind="function"><name>operator+=</name></member>
-    <member refid="group__GeneralGroup_1gab60f5bac010cebacc930a3bd4581f6c9" kind="function"><name>operator-=</name></member>
-    <member refid="group__GeneralGroup_1gafbc1effbac2c5c48f9bf9e630499273f" kind="function"><name>operator-</name></member>
-    <member refid="group__GeneralGroup_1ga720036c56f62997953c9a28dda60b2e3" kind="function"><name>mulExact</name></member>
     <member refid="group__GeneralGroup_1ga9bdb8344f54dfef30896226afa7e5197" kind="function"><name>IFastWindingNumber</name></member>
     <member refid="group__GeneralGroup_1ga393c1ce3ad60f264b8fd1d881a3ac853" kind="function"><name>IFastWindingNumber</name></member>
     <member refid="group__GeneralGroup_1ga38c8410763dc01127a1828ed95d91e29" kind="function"><name>IFastWindingNumber</name></member>

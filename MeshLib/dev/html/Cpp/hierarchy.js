@@ -415,7 +415,6 @@ var hierarchy =
     [ "MR::FanRecord", "structMR_1_1FanRecord.html", [
       [ "MR::FanRecordWithCenter", "structMR_1_1FanRecordWithCenter.html", null ]
     ] ],
-    [ "MR::FastInt256", "classMR_1_1FastInt256.html", null ],
     [ "MR::FeatureObjectProjectPointResult", "structMR_1_1FeatureObjectProjectPointResult.html", null ],
     [ "MR::FeatureObjectSharedProperty", "structMR_1_1FeatureObjectSharedProperty.html", null ],
     [ "MR::FewSmallest< T >", "classMR_1_1FewSmallest.html", null ],
