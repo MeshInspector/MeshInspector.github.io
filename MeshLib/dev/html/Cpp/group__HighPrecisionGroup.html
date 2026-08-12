@@ -140,7 +140,8 @@ $(function(){initNavTree('group__HighPrecisionGroup.html','',''); });
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">High Precision <div class="ingroups"><a class="el" href="group__MathGroup.html">Math group</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -178,6 +179,19 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga069a4cfb1c909d7c7e32d575dac759cf" id="r_ga069a4cfb1c909d7c7e32d575dac759cf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga069a4cfb1c909d7c7e32d575dac759cf">MR::Vector2i64mul</a> = <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt;<a class="el" href="classMR_1_1Int64Mul128.html">Int64Mul128</a>&gt;</td></tr>
 <tr class="memdesc:ga069a4cfb1c909d7c7e32d575dac759cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">no bindings for the same reason as for <a class="el" href="#gae17811dbb1f4d3ba17f955bab2dab90d">Vector3i128fast</a>  <br /></td></tr>
 <tr class="memitem:ga2290828b1eb673ce78c350b8c3b2b6cb" id="r_ga2290828b1eb673ce78c350b8c3b2b6cb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2290828b1eb673ce78c350b8c3b2b6cb">MR::Vector3i64mul</a> = <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt;<a class="el" href="classMR_1_1Int64Mul128.html">Int64Mul128</a>&gt;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gacf1747776a123f6afdf52b1c766d5a15" id="r_gacf1747776a123f6afdf52b1c766d5a15"><td class="memTemplParams" colspan="2">template&lt;int nBits, int mBits&gt; </td></tr>
+<tr class="memitem:gacf1747776a123f6afdf52b1c766d5a15 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> constexpr <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits+mBits &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacf1747776a123f6afdf52b1c766d5a15">MR::operator*</a> (const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits &gt; &amp;a, const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; mBits &gt; &amp;b) noexcept</td></tr>
+<tr class="memitem:ga15464bb6e2f869d91cb4a1583d4af1d4" id="r_ga15464bb6e2f869d91cb4a1583d4af1d4"><td class="memTemplParams" colspan="2">template&lt;int nBits, typename T&gt; <br />
+requires <a class="el" href="namespaceMR_1_1detail.html#af6206848d5379160c8a8684d2c76593f">detail::cFitsFastInt128</a>&lt;T&gt;</td></tr>
+<tr class="memitem:ga15464bb6e2f869d91cb4a1583d4af1d4 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> constexpr <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits+<a class="el" href="namespaceMR_1_1detail.html#a7fc2a0ff5839e59c72d8681e50b67fdc">detail::cMulBits</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga15464bb6e2f869d91cb4a1583d4af1d4">MR::operator*</a> (const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits &gt; &amp;a, T b) noexcept</td></tr>
+<tr class="memitem:ga8f43e802126c20691185376048e2fe69" id="r_ga8f43e802126c20691185376048e2fe69"><td class="memTemplParams" colspan="2">template&lt;int nBits, typename T&gt; <br />
+requires <a class="el" href="namespaceMR_1_1detail.html#af6206848d5379160c8a8684d2c76593f">detail::cFitsFastInt128</a>&lt;T&gt;</td></tr>
+<tr class="memitem:ga8f43e802126c20691185376048e2fe69 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> constexpr <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits+<a class="el" href="namespaceMR_1_1detail.html#a7fc2a0ff5839e59c72d8681e50b67fdc">detail::cMulBits</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f43e802126c20691185376048e2fe69">MR::operator*</a> (T a, const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits &gt; &amp;b) noexcept</td></tr>
+<tr class="memitem:gae9201ba08bf2e2dabdfdf95e94b777ee" id="r_gae9201ba08bf2e2dabdfdf95e94b777ee"><td class="memTemplParams" colspan="2">template&lt;typename B, int nBits&gt; </td></tr>
+<tr class="memitem:gae9201ba08bf2e2dabdfdf95e94b777ee template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> B&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae9201ba08bf2e2dabdfdf95e94b777ee">MR::toBoostInt</a> (const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits &gt; &amp;v)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
@@ -472,6 +486,140 @@ Typedefs</h2></td></tr>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRInt64Mul128_8h.html">MRMesh/MRInt64Mul128.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="gacf1747776a123f6afdf52b1c766d5a15" name="gacf1747776a123f6afdf52b1c766d5a15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacf1747776a123f6afdf52b1c766d5a15">&#9670;&#160;</a></span>operator*() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int nBits, int mBits&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> constexpr <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits+mBits &gt; MR::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; mBits &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel constexpr">constexpr</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFastInt_8h.html">MRMesh/MRFastInt.h</a>&gt;</code></p>
+<p>every product below is exact, because the type of a product is as wide as the sum of the widths of its arguments; a value with a proven bound is brought back to a narrow type by the explicit narrowing constructor above </p>
+
+</div>
+</div>
+<a id="ga15464bb6e2f869d91cb4a1583d4af1d4" name="ga15464bb6e2f869d91cb4a1583d4af1d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga15464bb6e2f869d91cb4a1583d4af1d4">&#9670;&#160;</a></span>operator*() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int nBits, typename T&gt; <br />
+requires <a class="el" href="namespaceMR_1_1detail.html#af6206848d5379160c8a8684d2c76593f">detail::cFitsFastInt128</a>&lt;T&gt;</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> constexpr <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits+<a class="el" href="namespaceMR_1_1detail.html#a7fc2a0ff5839e59c72d8681e50b67fdc">detail::cMulBits</a>&lt; T &gt; &gt; MR::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel constexpr">constexpr</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFastInt_8h.html">MRMesh/MRFastInt.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga8f43e802126c20691185376048e2fe69" name="ga8f43e802126c20691185376048e2fe69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8f43e802126c20691185376048e2fe69">&#9670;&#160;</a></span>operator*() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int nBits, typename T&gt; <br />
+requires <a class="el" href="namespaceMR_1_1detail.html#af6206848d5379160c8a8684d2c76593f">detail::cFitsFastInt128</a>&lt;T&gt;</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> constexpr <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits+<a class="el" href="namespaceMR_1_1detail.html#a7fc2a0ff5839e59c72d8681e50b67fdc">detail::cMulBits</a>&lt; T &gt; &gt; MR::operator* </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel constexpr">constexpr</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFastInt_8h.html">MRMesh/MRFastInt.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gae9201ba08bf2e2dabdfdf95e94b777ee" name="gae9201ba08bf2e2dabdfdf95e94b777ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae9201ba08bf2e2dabdfdf95e94b777ee">&#9670;&#160;</a></span>toBoostInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename B, int nBits&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> B MR::toBoostInt </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; nBits &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRHighPrecision_8h.html">MRMesh/MRHighPrecision.h</a>&gt;</code></p>
+<p>the same value as a boost integer of the type B, which unlike <a class="el" href="classMR_1_1FastInt.html">FastInt</a> supports division, square root and stream output; B must be able to represent the value, and cpp_int always can </p>
+<p>the magnitude, so that 2^nBits is never needed in B</p>
 
 </div>
 </div>

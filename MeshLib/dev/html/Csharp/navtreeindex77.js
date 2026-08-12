@@ -1,9 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"classMR_1_1Const__SharpOffsetParameters.html#ad289bf2e198c931fa276e99b745bb53a":[6,3,0,0,0,811,15],
-"classMR_1_1Const__SharpOffsetParameters.html#ae5f5ff43ac585498fec82be765ebbe2c":[6,3,0,0,0,811,11],
-"classMR_1_1Const__SharpOffsetParameters.html#ae603c18cd70a6a444a27442b4e1132a8":[6,3,0,0,0,811,4],
-"classMR_1_1Const__SharpOffsetParameters.html#ae73773eba0858253e6c0c1de7d3e76f2":[6,3,0,0,0,811,31],
 "classMR_1_1Const__SharpOffsetParameters.html#af33b8c0e68cc91e8a9566e100b1c90bb":[6,3,0,0,0,811,8],
 "classMR_1_1Const__SharpOffsetParameters.html#af7c541f4e85663a93f21227f42025816":[6,3,0,0,0,811,20],
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html":[6,3,0,0,0,810],
@@ -249,5 +245,9 @@ var NAVTREEINDEX77 =
 "classMR_1_1Const__SmoothFillingSettings.html#a900fb26838e3aa00c6e67ae90bc2f5a9":[6,3,0,0,0,823,2],
 "classMR_1_1Const__SmoothFillingSettings.html#a9119bbfdc26c8b2b9e022cb79cf24598":[6,3,0,0,0,823,8],
 "classMR_1_1Const__SmoothFillingSettings.html#a96e8af00a3f63ec5a23538b5294c27c0":[6,3,0,0,0,823,5],
-"classMR_1_1Const__SmoothFillingSettings.html#aa485beb97a64e8672a7d7ed377b412b3":[6,3,0,0,0,823,4]
+"classMR_1_1Const__SmoothFillingSettings.html#aa485beb97a64e8672a7d7ed377b412b3":[6,3,0,0,0,823,4],
+"classMR_1_1Const__SmoothFillingSettings.html#af57d37057f8af0e454fd81ef0d85093b":[6,3,0,0,0,823,10],
+"classMR_1_1Const__SomeLocalTriangulations.html":[6,3,0,0,0,824],
+"classMR_1_1Const__SomeLocalTriangulations.html#a2706cf7dbc157f5ed345cae58c3eeea9":[6,3,0,0,0,824,7],
+"classMR_1_1Const__SomeLocalTriangulations.html#a30f241d4c70e85cde7e033be916b3062":[6,3,0,0,0,824,2]
 };

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="226" column="16" bodyfile="MRMesh/MRFastInt.h" bodystart="226" bodyend="-1"/>
+        <location file="MRMesh/MRFastInt.h" line="280" column="16" bodyfile="MRMesh/MRFastInt.h" bodystart="280" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="198" column="5"/>
+        <location file="MRMesh/MRFastInt.h" line="252" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Int128Mul256_1ac43ba35eb9ffbba47a39087d02b7c136" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="202" column="15" bodyfile="MRMesh/MRFastInt.h" bodystart="202" bodyend="202"/>
+        <location file="MRMesh/MRFastInt.h" line="256" column="15" bodyfile="MRMesh/MRFastInt.h" bodystart="256" bodyend="256"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Int128Mul256_1a423073ceba9a95d483b0bbe0e0f42452" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
         <type>constexpr</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="204" column="25" bodyfile="MRMesh/MRFastInt.h" bodystart="204" bodyend="204"/>
+        <location file="MRMesh/MRFastInt.h" line="258" column="25" bodyfile="MRMesh/MRFastInt.h" bodystart="258" bodyend="258"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="206" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="206" bodyend="206"/>
+        <location file="MRMesh/MRFastInt.h" line="260" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="260" bodyend="260"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1Int128Mul256_1aa81031f5c7dd5c67ca4ad5a7baa8b3b8" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="207" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="207" bodyend="207"/>
+        <location file="MRMesh/MRFastInt.h" line="261" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="261" bodyend="261"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1Int128Mul256_1a0aa6e9f447b85a8689807b678c0b67cf" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="209" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="209" bodyend="209"/>
+        <location file="MRMesh/MRFastInt.h" line="263" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="263" bodyend="263"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1Int128Mul256_1a6438ea2348a87032e1918db47c34c001" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="210" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="210" bodyend="210"/>
+        <location file="MRMesh/MRFastInt.h" line="264" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="264" bodyend="264"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1Int128Mul256_1a923f64126d015759c4620e2327c45273" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
@@ -174,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="211" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="211" bodyend="211"/>
+        <location file="MRMesh/MRFastInt.h" line="265" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="265" bodyend="265"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1Int128Mul256_1a12cd0bbe00ae882dbe51dab33c6b83d7" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="group__HighPrecisionGroup_1ga03afccb56b1bcb89b74a55f6cac19618" kindref="member">FastInt256</ref></type>
@@ -196,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="213" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="213" bodyend="220"/>
+        <location file="MRMesh/MRFastInt.h" line="267" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="267" bodyend="274"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1Int128Mul256_1ac368a5ce09f9ee1e63b956d64a1c3bad" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>bool</type>
@@ -218,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="222" column="28" bodyfile="MRMesh/MRFastInt.h" bodystart="222" bodyend="222"/>
+        <location file="MRMesh/MRFastInt.h" line="276" column="28" bodyfile="MRMesh/MRFastInt.h" bodystart="276" bodyend="276"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1Int128Mul256_1aad4220f5012de2d221e1eb87d28632e3" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -240,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="223" column="23" bodyfile="MRMesh/MRFastInt.h" bodystart="223" bodyend="223"/>
+        <location file="MRMesh/MRFastInt.h" line="277" column="23" bodyfile="MRMesh/MRFastInt.h" bodystart="277" bodyend="277"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -248,7 +248,7 @@
     <detaileddescription>
 <para>a 128-bit integer, which product with another one is an exact 256-bit integer; addition, subtraction and division stay 128-bit and can overflow just like <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> </para>
     </detaileddescription>
-    <location file="MRMesh/MRFastInt.h" line="195" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="196" bodyend="227"/>
+    <location file="MRMesh/MRFastInt.h" line="249" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="250" bodyend="281"/>
     <listofallmembers>
       <member refid="classMR_1_1Int128Mul256_1aeff744e79c3bdea03fe227bb440ff459" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>Int128Mul256</name></member>
       <member refid="classMR_1_1Int128Mul256_1ac43ba35eb9ffbba47a39087d02b7c136" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>Int128Mul256</name></member>

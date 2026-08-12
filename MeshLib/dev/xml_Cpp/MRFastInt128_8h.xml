@@ -2,17 +2,22 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFastInt128_8h" kind="file" language="C++">
     <compoundname>MRFastInt128.h</compoundname>
+    <includedby refid="MRAlphaShape_8h" local="yes">MRMesh/MRAlphaShape.h</includedby>
     <includedby refid="MRFastInt_8h" local="yes">MRMesh/MRFastInt.h</includedby>
     <includedby refid="MRHighPrecision_8h" local="yes">MRMesh/MRHighPrecision.h</includedby>
     <includedby refid="MRInt64Mul128_8h" local="yes">MRMesh/MRInt64Mul128.h</includedby>
     <invincdepgraph>
-      <node id="4">
+      <node id="2">
         <label>MRMesh/MRAlphaShape.h</label>
         <link refid="MRAlphaShape_8h"/>
       </node>
-      <node id="2">
+      <node id="3">
         <label>MRMesh/MRFastInt.h</label>
         <link refid="MRFastInt_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRMesh/MRFastInt128.h</label>
@@ -21,15 +26,15 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="4">
         <label>MRMesh/MRHighPrecision.h</label>
         <link refid="MRHighPrecision_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="5">

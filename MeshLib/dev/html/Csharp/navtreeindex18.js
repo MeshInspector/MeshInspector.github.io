@@ -1,6 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"classMR_1_1Buffer__MRVoxelId__MRVoxelId.html#ad023acee2fa3308faa0b9af3873268b4":[6,3,0,0,0,158,0],
 "classMR_1_1Buffer__MRVoxelId__MRVoxelId.html#aef45bb23dfb54e3114cf5cd58b85f783":[6,3,0,0,0,158,2],
 "classMR_1_1Buffer__MRVoxelId__MRVoxelId.html#afab2f0710461e331876d613a2992737f":[6,3,0,0,0,158,6],
 "classMR_1_1Buffer__UnsignedChar.html":[6,3,0,0,0,159],
@@ -249,5 +248,6 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangeOnePointInPolylineAction.html#a5be505a4256e3d3d31985508f47ecb42":[6,3,0,0,0,184,0],
 "classMR_1_1ChangeOnePointInPolylineAction.html#a7e7d50273a578d1f83a526d402eb2e94":[6,3,0,0,0,184,3],
 "classMR_1_1ChangeOnePointInPolylineAction.html#a9b786df6f5ac21a2407421070a809902":[6,3,0,0,0,184,7],
-"classMR_1_1ChangeOnePointInPolylineAction.html#aa353c19c15b340eb6aebef735279fd60":[6,3,0,0,0,184,6]
+"classMR_1_1ChangeOnePointInPolylineAction.html#aa353c19c15b340eb6aebef735279fd60":[6,3,0,0,0,184,6],
+"classMR_1_1ChangeOnePointInPolylineAction.html#aa38f9be9a4e2ad4a867fabd68216e132":[6,3,0,0,0,184,4]
 };

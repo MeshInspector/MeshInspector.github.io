@@ -1,11 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"classMR_1_1TriCornerUVCoords.html#a3a7235ae3497f146b4faebe4fb2eec9b":[6,3,0,0,0,1664,7],
-"classMR_1_1TriCornerUVCoords.html#a48aa5db52075294539414c963e2544e7":[6,3,0,0,0,1664,15],
-"classMR_1_1TriCornerUVCoords.html#a4ae3bb0175f1482a50049508bfb719f9":[6,3,0,0,0,1664,8],
-"classMR_1_1TriCornerUVCoords.html#a62f228ead5f164e80a2c3b9a863cf05f":[6,3,0,0,0,1664,4],
-"classMR_1_1TriCornerUVCoords.html#a883b011819ef9f800c573c68e6be5368":[6,3,0,0,0,1664,10],
-"classMR_1_1TriCornerUVCoords.html#a8d56ec5a98b571b50191090d0df56d5d":[6,3,0,0,0,1664,13],
 "classMR_1_1TriCornerUVCoords.html#a9279ee03d6ccd8f781b249291750a1a0":[6,3,0,0,0,1664,19],
 "classMR_1_1TriCornerUVCoords.html#a9442177a350258d8117611e634f3ace4":[6,3,0,0,0,1664,12],
 "classMR_1_1TriCornerUVCoords.html#a975082f9f5ddae52095b53405eb73f27":[6,3,0,0,0,1664,2],
@@ -249,5 +243,11 @@ var NAVTREEINDEX132 =
 "classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a0e27e047c18ba46627311a09c5d183c7":[6,3,0,0,0,1662,5,0],
 "classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a113f814c1af5754d6a308964d54b2dc8":[6,3,0,0,0,1662,5,1],
 "classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a4f80eff245ab3f22226296012f2a83c1":[6,3,0,0,0,1662,5,3],
-"classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a68e81ce6baf35ada71a5d069b4fb964a":[6,3,0,0,0,1662,5,6]
+"classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a68e81ce6baf35ada71a5d069b4fb964a":[6,3,0,0,0,1662,5,6],
+"classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a7193966f50a2444576822cc1e2bbb57f":[6,3,0,0,0,1662,5,2],
+"classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ade0f1881fcd4c1bc6a863d8315be7605":[6,3,0,0,0,1662,5,5],
+"classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#af5a2a2d498aa2cfabb2d4503c741d2af":[6,3,0,0,0,1662,5,7],
+"classMR_1_1TriangulationParameters.html":[6,3,0,0,0,1663],
+"classMR_1_1TriangulationParameters.html#a070f3cf1633e3f00920a74ea54fbcfda":[6,3,0,0,0,1663,5],
+"classMR_1_1TriangulationParameters.html#a0b0f989f82ed227a926f1c687c11b0cb":[6,3,0,0,0,1663,2]
 };

@@ -27,7 +27,28 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="22" column="16" bodyfile="MRMesh/MRFastInt.h" bodystart="22" bodyend="-1"/>
+        <location file="MRMesh/MRFastInt.h" line="23" column="16" bodyfile="MRMesh/MRFastInt.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1detail_1a7fc2a0ff5839e59c72d8681e50b67fdc" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int MR::detail::cMulBits</definition>
+        <argsstring></argsstring>
+        <name>cMulBits</name>
+        <qualifiedname>MR::detail::cMulBits</qualifiedname>
+        <initializer>= std::is_same_v&lt;T, <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref>&gt; || ( std::is_unsigned_v&lt;T&gt; &amp;&amp; sizeof( T ) &gt;= 8 ) ? 128 : 64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of bits a multiplier of <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> occupies: 128 for <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> and for an unsigned 64-bit integer, both of which need two words, and 64 for anything signed or narrower </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="90" column="15" bodyfile="MRMesh/MRFastInt.h" bodystart="90" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -57,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="28" column="33" bodyfile="MRMesh/MRFastInt.h" bodystart="28" bodyend="33"/>
+        <location file="MRMesh/MRFastInt.h" line="29" column="33" bodyfile="MRMesh/MRFastInt.h" bodystart="29" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1detail_1a7fc59c8caf263e5cec996db9f596920d" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>std::uint64_t</type>
@@ -84,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="36" column="33" bodyfile="MRMesh/MRFastInt.h" bodystart="36" bodyend="41"/>
+        <location file="MRMesh/MRFastInt.h" line="37" column="33" bodyfile="MRMesh/MRFastInt.h" bodystart="37" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1detail_1a198d8073571caaae263de501236e6052" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>std::uint64_t</type>
@@ -103,19 +124,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="44" column="33" bodyfile="MRMesh/MRFastInt.h" bodystart="44" bodyend="47"/>
+        <location file="MRMesh/MRFastInt.h" line="45" column="33" bodyfile="MRMesh/MRFastInt.h" bodystart="45" bodyend="48"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1detail_1ab90df1884fe2e42b76e810f24153b89a" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1detail_1adef9954c65821ab458734f64ae86e011" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>std::size_t</type>
             <declname>n</declname>
             <defname>n</defname>
           </param>
+          <param>
+            <type>std::size_t</type>
+            <declname>m</declname>
+            <defname>m</defname>
+          </param>
         </templateparamlist>
-        <type>std::array&lt; std::uint64_t, 2 *n &gt;</type>
-        <definition>std::array&lt; std::uint64_t, 2 *n &gt; MR::detail::mulWords</definition>
-        <argsstring>(const std::array&lt; std::uint64_t, n &gt; &amp;a, const std::array&lt; std::uint64_t, n &gt; &amp;b) noexcept</argsstring>
+        <type>std::array&lt; std::uint64_t, n+m &gt;</type>
+        <definition>std::array&lt; std::uint64_t, n+m &gt; MR::detail::mulWords</definition>
+        <argsstring>(const std::array&lt; std::uint64_t, n &gt; &amp;a, const std::array&lt; std::uint64_t, m &gt; &amp;b) noexcept</argsstring>
         <name>mulWords</name>
         <qualifiedname>MR::detail::mulWords</qualifiedname>
         <param>
@@ -123,22 +149,46 @@
           <declname>a</declname>
         </param>
         <param>
-          <type>const std::array&lt; std::uint64_t, n &gt; &amp;</type>
+          <type>const std::array&lt; std::uint64_t, m &gt; &amp;</type>
           <declname>b</declname>
         </param>
         <briefdescription>
 <para>std::size_t and not int, to be deducible from std::array </para>
         </briefdescription>
         <detaileddescription>
-<para>the exact product of two two&apos;s-complement values given by their 64-bit words, which always fits in twice as many words; the only multiplication of this file </para>
+<para>the exact product of two two&apos;s-complement values given by their 64-bit words, which always fits in the sum of their word counts; the only multiplication of this file </para>
         </detaileddescription>
         <inbodydescription>
 <para>schoolbook multiplication of unsigned values</para>
 <para>at most ( 2^64 - 1 )^2 + 2 * ( 2^64 - 1 ) &lt; 2^128 here</para>
-<para>never written before, since the loop above stops at i + n - 1</para>
-<para>a negative argument was taken 2^(64*n) times larger than it is</para>
+<para>never written before, since the loop above stops at i + m - 1</para>
+<para>a negative argument was taken 2^(64*words) times larger than it is; both subtractions below end exactly at the end of res, so the borrow never leaves it</para>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="52" column="23" bodyfile="MRMesh/MRFastInt.h" bodystart="52" bodyend="83"/>
+        <location file="MRMesh/MRFastInt.h" line="53" column="23" bodyfile="MRMesh/MRFastInt.h" bodystart="53" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1detail_1a0c3c7fc10991c0eb99094bb42d438de2" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::detail::mulWordsOf</definition>
+        <argsstring>(T v) noexcept</argsstring>
+        <name>mulWordsOf</name>
+        <qualifiedname>MR::detail::mulWordsOf</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>the words of a multiplier of <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref>, sign-extended if it is signed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="94" column="17" bodyfile="MRMesh/MRFastInt.h" bodystart="94" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::filesystem::path &gt;</type>
@@ -198,6 +248,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRFastInt.h" line="17" column="1"/>
+    <location file="MRMesh/MRFastInt.h" line="18" column="1"/>
   </compounddef>
 </doxygen>

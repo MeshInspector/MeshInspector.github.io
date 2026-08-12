@@ -2346,6 +2346,9 @@
       <member refid="group__GeneralGroup_1ga75b8750abcb07d97d5bd326ad962f27a" kind="function"><name>planeSectionToContour2f</name></member>
       <member refid="group__GeneralGroup_1ga9d313852215c7bc19114963b168f3435" kind="function"><name>planeSectionsToContours2f</name></member>
       <member refid="group__GeneralGroup_1gab85f14264d6c9fb3a304c49fe4722ccf" kind="function"><name>calcFaceDistances</name></member>
+      <member refid="group__HighPrecisionGroup_1gacf1747776a123f6afdf52b1c766d5a15" kind="function"><name>operator*</name></member>
+      <member refid="group__HighPrecisionGroup_1ga15464bb6e2f869d91cb4a1583d4af1d4" kind="function"><name>operator*</name></member>
+      <member refid="group__HighPrecisionGroup_1ga8f43e802126c20691185376048e2fe69" kind="function"><name>operator*</name></member>
       <member refid="group__GeneralGroup_1ga5c9fd829c3ac9510359b4250c4afa70b" kind="function"><name>forEachObjectKind</name></member>
       <member refid="group__GeneralGroup_1gaa21f89f30d57138088912b6cf0d2215e" kind="function"><name>makeObjectFromEnum</name></member>
       <member refid="group__GeneralGroup_1gae69d6d886eeae936d8c70e983d245cd5" kind="function"><name>makeObjectFromClassName</name></member>
@@ -2381,6 +2384,7 @@
       <member refid="group__BasicGroup_1gac4cf85680ec3620cb08726ea6668e99a" kind="function"><name>heapBytes</name></member>
       <member refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
       <member refid="group__BasicGroup_1ga95720533ccaf5f5aa42fbabee1ce7067" kind="function"><name>heapBytes</name></member>
+      <member refid="group__HighPrecisionGroup_1gae9201ba08bf2e2dabdfdf95e94b777ee" kind="function"><name>toBoostInt</name></member>
       <member refid="group__GeneralGroup_1gad816d7f5445309140db275f8f14c8ba1" kind="function"><name>filterHistoryActionsVector</name></member>
       <member refid="group__GeneralGroup_1ga6bc994c1ebf7a119332f7d7a212cdd5e" kind="function"><name>getNumSamples</name></member>
       <member refid="group__GeneralGroup_1ga2a5d3a2f7c92a6b8c0c35cd269530356" kind="function"><name>getNumActivePairs</name></member>

@@ -72,14 +72,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="645" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="645" bodyend="651"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeNei_1ac6155eb09ec016f73d83cf886f133a49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeNei_1aa961b2a96fb34038680f60e571efc5eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_AlphaShapeNei.Const_AlphaShapeNei</definition>
-        <argsstring>(MR._ByValue_AlphaShapeNei _other)</argsstring>
+        <argsstring>(MR.Const_AlphaShapeNei _other)</argsstring>
         <name>Const_AlphaShapeNei</name>
         <qualifiedname>MR.Const_AlphaShapeNei.Const_AlphaShapeNei</qualifiedname>
         <param>
-          <type>MR._ByValue_AlphaShapeNei</type>
+          <type><ref refid="classMR_1_1Const__AlphaShapeNei" kindref="compound">MR.Const_AlphaShapeNei</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -90,25 +90,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="656" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="656" bodyend="663"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AlphaShapeNei_1a66996793bf6c295e723fe59a5af754d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Const_AlphaShapeNei.Const_AlphaShapeNei</definition>
-        <argsstring>(Const_AlphaShapeNei _other)</argsstring>
-        <name>Const_AlphaShapeNei</name>
-        <qualifiedname>MR.Const_AlphaShapeNei.Const_AlphaShapeNei</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__AlphaShapeNei" kindref="compound">Const_AlphaShapeNei</ref></type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AlphaShapeNei_1ac4a5398f11424c1fd67630c1d15ca25f" kindref="member">MR.AlphaShapeNei.AlphaShapeNei</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="668" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="668" bodyend="668"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__AlphaShapeNei_1a9beabbae07d2da5078571b5ca1dabeae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -127,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="673" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="673" bodyend="673"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="668" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="668" bodyend="668"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -213,12 +194,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="596" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="597" bodyend="674"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="596" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="597" bodyend="669"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__AlphaShapeNei_1a0570960c60109371cf92690b2bbfb3a1" prot="package" virt="non-virtual"><scope>MR::Const_AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
       <member refid="classMR_1_1Const__AlphaShapeNei_1abb00fd7ab073d610f6312f89cc465407" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
-      <member refid="classMR_1_1Const__AlphaShapeNei_1ac6155eb09ec016f73d83cf886f133a49" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
-      <member refid="classMR_1_1Const__AlphaShapeNei_1a66996793bf6c295e723fe59a5af754d4" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeNei_1aa961b2a96fb34038680f60e571efc5eb" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
       <member refid="classMR_1_1Const__AlphaShapeNei_1a9beabbae07d2da5078571b5ca1dabeae" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
       <member refid="classMR_1_1Const__AlphaShapeNei_1ad6c9a278fda4740df591048a85c86d0c" prot="public" virt="non-virtual"><scope>MR::Const_AlphaShapeNei</scope><name>coords</name></member>
       <member refid="classMR_1_1Const__AlphaShapeNei_1a638ae626af85cf3d15221be769706dad" prot="protected" virt="virtual"><scope>MR::Const_AlphaShapeNei</scope><name>Dispose</name></member>

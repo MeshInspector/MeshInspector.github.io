@@ -5,11 +5,11 @@ var group__HighPrecisionGroup =
       [ "FastInt", "classMR_1_1FastInt.html#adc826ada3574b780f6bd6bf4739bb725", null ],
       [ "FastInt", "classMR_1_1FastInt.html#a9c22199fe268525f17daf7a5b916cb28", null ],
       [ "FastInt", "classMR_1_1FastInt.html#ac022c43c1eb2e45d45dce83e51e00282", null ],
+      [ "FastInt", "classMR_1_1FastInt.html#a1885977a173c78b340ddfd7f2564aa8f", null ],
       [ "operator+=", "classMR_1_1FastInt.html#a5e086aa7ac4fa48de5b2b3b3dd922e17", null ],
       [ "operator-", "classMR_1_1FastInt.html#a30d3846c023a0e31c29f90e0284487a0", null ],
       [ "operator-=", "classMR_1_1FastInt.html#aed6bcb954638768286a8966116339f08", null ],
       [ "sign", "classMR_1_1FastInt.html#aa060083b3726161e19a5b74fb86c0308", null ],
-      [ "operator*", "classMR_1_1FastInt.html#a4ec94ee8f61f382a1c83bf19c6d155bb", null ],
       [ "operator+", "classMR_1_1FastInt.html#a51730f5fbbb7fdd879123cb526b31fe6", null ],
       [ "operator-", "classMR_1_1FastInt.html#a8103f525de84a57f65124a8ed3a2bfa4", null ],
       [ "operator<=>", "classMR_1_1FastInt.html#a7a964d03ea02e3d65cfe851a6623cf1a", null ],
@@ -58,5 +58,9 @@ var group__HighPrecisionGroup =
     [ "MR::Vector3i128mul", "group__HighPrecisionGroup.html#ga8065860768f5dfd050e97b1b53d20b23", null ],
     [ "MR::Vector3i256", "group__HighPrecisionGroup.html#ga6290db8f78d4998addb556921ff349ef", null ],
     [ "MR::Vector3i512", "group__HighPrecisionGroup.html#ga35d4969873ad6731b1e6f279e73ef21f", null ],
-    [ "MR::Vector3i64mul", "group__HighPrecisionGroup.html#ga2290828b1eb673ce78c350b8c3b2b6cb", null ]
+    [ "MR::Vector3i64mul", "group__HighPrecisionGroup.html#ga2290828b1eb673ce78c350b8c3b2b6cb", null ],
+    [ "MR::operator*", "group__HighPrecisionGroup.html#gacf1747776a123f6afdf52b1c766d5a15", null ],
+    [ "MR::operator*", "group__HighPrecisionGroup.html#ga15464bb6e2f869d91cb4a1583d4af1d4", null ],
+    [ "MR::operator*", "group__HighPrecisionGroup.html#ga8f43e802126c20691185376048e2fe69", null ],
+    [ "MR::toBoostInt", "group__HighPrecisionGroup.html#gae9201ba08bf2e2dabdfdf95e94b777ee", null ]
 ];

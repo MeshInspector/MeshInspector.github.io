@@ -1,9 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a9fb502ece1e5720f23fb2cc659865b55":[6,3,0,0,0,669,4],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#adb43066437ef3fb9de903960db39ae0e":[6,3,0,0,0,669,0],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#aeb8473839d2b3e5862ee9692955cbb7d":[6,3,0,0,0,669,5],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#af95c798aa0d700c13401447a8a95f493":[6,3,0,0,0,669,2],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone.html":[6,3,0,0,0,670],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone.html#a5fb30146191e375777dd3e7462fe5522":[6,3,0,0,0,670,1],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone.html#a81ffa6e0e5036a203e151cf1066eceff":[6,3,0,0,0,670,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX61 =
 "classMR_1_1Const__ObjectDistanceMap.html#a5c59780f80dd63918d57a7f1c694b4d0":[6,3,0,0,0,655,3],
 "classMR_1_1Const__ObjectDistanceMap.html#a5ce82048e8e1cf0360958609a2ad2678":[6,3,0,0,0,655,29],
 "classMR_1_1Const__ObjectDistanceMap.html#a5e3d28235230d1b3d350d7302a72bf03":[6,3,0,0,0,655,6],
-"classMR_1_1Const__ObjectDistanceMap.html#a5f9dc8cd95f85c1ce50fc5c0c8ad7d13":[6,3,0,0,0,655,80]
+"classMR_1_1Const__ObjectDistanceMap.html#a5f9dc8cd95f85c1ce50fc5c0c8ad7d13":[6,3,0,0,0,655,80],
+"classMR_1_1Const__ObjectDistanceMap.html#a5fde3d27c02f5bb7212a4f8fb91df48a":[6,3,0,0,0,655,107],
+"classMR_1_1Const__ObjectDistanceMap.html#a6048623b28f969ff0300a852cf9431bf":[6,3,0,0,0,655,45],
+"classMR_1_1Const__ObjectDistanceMap.html#a60c57ab0c620f804dc064e795cc6d2fe":[6,3,0,0,0,655,14],
+"classMR_1_1Const__ObjectDistanceMap.html#a626fab883c405643fa07c1bf6e192686":[6,3,0,0,0,655,39]
 };

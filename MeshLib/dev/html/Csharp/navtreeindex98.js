@@ -1,9 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"classMR_1_1DistanceMapLoadSettings.html#acc3fa000e7cfd08ee22dee4337ffa449":[6,3,0,0,0,1126,7],
-"classMR_1_1DistanceMapLoadSettings.html#afb85e50d2e5a9883a7fb31329397dd27":[6,3,0,0,0,1126,5],
-"classMR_1_1DistanceMapSave.html":[6,3,0,0,0,1127],
-"classMR_1_1DistanceMapSave.html#a6287d978737eddc435dc514259ab1ab0":[6,3,0,0,0,1127,3],
 "classMR_1_1DistanceMapSave.html#a8d5a6944088df3384d615a495c64b210":[6,3,0,0,0,1127,1],
 "classMR_1_1DistanceMapSave.html#ad2c46a3796f8ae801f2fdc9d7fbf41b3":[6,3,0,0,0,1127,0],
 "classMR_1_1DistanceMapSave.html#af5f73d2b7ddf420b84901ac67016729f":[6,3,0,0,0,1127,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX98 =
 "classMR_1_1EdgeLengthMesh.html#aafde74c38cb9a4983d423f9a8957663c":[6,3,0,0,0,1141,3],
 "classMR_1_1EdgeLengthMesh.html#ab55e99ba8a41f51b42eae0df368f7dc3":[6,3,0,0,0,1141,0],
 "classMR_1_1EdgeLengthMesh.html#add454eb6806e41aed595b8efa5588839":[6,3,0,0,0,1141,5],
-"classMR_1_1EdgeMap.html":[6,3,0,0,0,1142]
+"classMR_1_1EdgeMap.html":[6,3,0,0,0,1142],
+"classMR_1_1EdgeMap.html#a2196fd9587fb1013ec0e429aa2d660b8":[6,3,0,0,0,1142,15],
+"classMR_1_1EdgeMap.html#a317d971f85610c821fc7153cdfb8d1ec":[6,3,0,0,0,1142,13],
+"classMR_1_1EdgeMap.html#a366247dab605e34db290492d4ee46f59":[6,3,0,0,0,1142,27],
+"classMR_1_1EdgeMap.html#a64c29ab61ecde86d6f3d066650d68a38":[6,3,0,0,0,1142,12]
 };

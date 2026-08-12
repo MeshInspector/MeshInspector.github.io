@@ -1,9 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"classMR_1_1Const__TriTriDistanceParams__Float.html#ac128c304b0ae76869bee2f9a05e9ac2b":[6,3,0,0,0,884,2],
-"classMR_1_1Const__TriTriDistanceParams__Float.html#ac9f38200034dcfecd5ef735f76e2b110":[6,3,0,0,0,884,9],
-"classMR_1_1Const__TriTriDistanceParams__Float.html#af040241d2b256dae407045434a1603ae":[6,3,0,0,0,884,1],
-"classMR_1_1Const__TriTriDistanceResult__Double.html":[6,3,0,0,0,885],
 "classMR_1_1Const__TriTriDistanceResult__Double.html#a2a1a7b07f5dd879bd19b426c03031a46":[6,3,0,0,0,885,6],
 "classMR_1_1Const__TriTriDistanceResult__Double.html#a367309598da4e8da455f4d40e792f94f":[6,3,0,0,0,885,9],
 "classMR_1_1Const__TriTriDistanceResult__Double.html#a3ed4637ede0c62f4533be367270b395e":[6,3,0,0,0,885,8],
@@ -249,5 +245,9 @@ var NAVTREEINDEX83 =
 "classMR_1_1Const__UndirEdgeColorMapAggregator.html#ac00fa555d80f01b7588e8c8cad7f2a48":[6,3,0,0,0,902,4],
 "classMR_1_1Const__UndirEdgeColorMapAggregator.html#ae952bc235b2757860fb85f871b70fbd9":[6,3,0,0,0,902,2],
 "classMR_1_1Const__UndirectedEdge2RegionMap.html":[6,3,0,0,0,893],
-"classMR_1_1Const__UndirectedEdge2RegionMap.html#a19cdc5c84068206acc9e1bc5a4e4b920":[6,3,0,0,0,893,17]
+"classMR_1_1Const__UndirectedEdge2RegionMap.html#a19cdc5c84068206acc9e1bc5a4e4b920":[6,3,0,0,0,893,17],
+"classMR_1_1Const__UndirectedEdge2RegionMap.html#a1c4d101323f95384cd0883f3ec560182":[6,3,0,0,0,893,10],
+"classMR_1_1Const__UndirectedEdge2RegionMap.html#a1d186c3b51b395dfc1b8e94df8b326c0":[6,3,0,0,0,893,25],
+"classMR_1_1Const__UndirectedEdge2RegionMap.html#a1fc7e0a9656c8889b27efe10fedd4ec0":[6,3,0,0,0,893,21],
+"classMR_1_1Const__UndirectedEdge2RegionMap.html#a20583bfebad8fe64a7e450164bf1ce86":[6,3,0,0,0,893,11]
 };

@@ -143,7 +143,7 @@
   </compound>
   <compound refid="structMR_1_1AlphaShapeNei" kind="struct"><name>MR::AlphaShapeNei</name>
     <member refid="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" kind="variable"><name>coords</name></member>
-    <member refid="group__GeneralGroup_1ga81880d541c5e0b2b86c25dda0106abad" kind="variable"><name>distSq</name></member>
+    <member refid="group__GeneralGroup_1ga946329fc95f92804b085844fdbc8e091" kind="variable"><name>distSq</name></member>
   </compound>
   <compound refid="structMR_1_1AlphaShapeStats" kind="struct"><name>MR::AlphaShapeStats</name>
     <member refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kind="variable"><name>consideredTris</name></member>
@@ -3190,13 +3190,13 @@
     <member refid="classMR_1_1FastInt_1adc826ada3574b780f6bd6bf4739bb725" kind="function"><name>FastInt</name></member>
     <member refid="classMR_1_1FastInt_1a9c22199fe268525f17daf7a5b916cb28" kind="function"><name>FastInt</name></member>
     <member refid="classMR_1_1FastInt_1ac022c43c1eb2e45d45dce83e51e00282" kind="function"><name>FastInt</name></member>
+    <member refid="classMR_1_1FastInt_1a1885977a173c78b340ddfd7f2564aa8f" kind="function"><name>FastInt</name></member>
     <member refid="classMR_1_1FastInt_1aa060083b3726161e19a5b74fb86c0308" kind="function"><name>sign</name></member>
     <member refid="classMR_1_1FastInt_1a5e086aa7ac4fa48de5b2b3b3dd922e17" kind="function"><name>operator+=</name></member>
     <member refid="classMR_1_1FastInt_1aed6bcb954638768286a8966116339f08" kind="function"><name>operator-=</name></member>
     <member refid="classMR_1_1FastInt_1a30d3846c023a0e31c29f90e0284487a0" kind="function"><name>operator-</name></member>
     <member refid="classMR_1_1FastInt_1a51730f5fbbb7fdd879123cb526b31fe6" kind="friend"><name>operator+</name></member>
     <member refid="classMR_1_1FastInt_1a8103f525de84a57f65124a8ed3a2bfa4" kind="friend"><name>operator-</name></member>
-    <member refid="classMR_1_1FastInt_1a4ec94ee8f61f382a1c83bf19c6d155bb" kind="friend"><name>operator*</name></member>
     <member refid="classMR_1_1FastInt_1a2960f833ad8f3f5da49ea5f677f20dd7" kind="friend"><name>operator==</name></member>
     <member refid="classMR_1_1FastInt_1a7a964d03ea02e3d65cfe851a6623cf1a" kind="friend"><name>operator&lt;=&gt;</name></member>
   </compound>
@@ -14772,6 +14772,9 @@
     <member refid="group__GeneralGroup_1ga75b8750abcb07d97d5bd326ad962f27a" kind="function"><name>planeSectionToContour2f</name></member>
     <member refid="group__GeneralGroup_1ga9d313852215c7bc19114963b168f3435" kind="function"><name>planeSectionsToContours2f</name></member>
     <member refid="group__GeneralGroup_1gab85f14264d6c9fb3a304c49fe4722ccf" kind="function"><name>calcFaceDistances</name></member>
+    <member refid="group__HighPrecisionGroup_1gacf1747776a123f6afdf52b1c766d5a15" kind="function"><name>operator*</name></member>
+    <member refid="group__HighPrecisionGroup_1ga15464bb6e2f869d91cb4a1583d4af1d4" kind="function"><name>operator*</name></member>
+    <member refid="group__HighPrecisionGroup_1ga8f43e802126c20691185376048e2fe69" kind="function"><name>operator*</name></member>
     <member refid="group__GeneralGroup_1ga5c9fd829c3ac9510359b4250c4afa70b" kind="function"><name>forEachObjectKind</name></member>
     <member refid="group__GeneralGroup_1gaa21f89f30d57138088912b6cf0d2215e" kind="function"><name>makeObjectFromEnum</name></member>
     <member refid="group__GeneralGroup_1gae69d6d886eeae936d8c70e983d245cd5" kind="function"><name>makeObjectFromClassName</name></member>
@@ -14807,6 +14810,7 @@
     <member refid="group__BasicGroup_1gac4cf85680ec3620cb08726ea6668e99a" kind="function"><name>heapBytes</name></member>
     <member refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__BasicGroup_1ga95720533ccaf5f5aa42fbabee1ce7067" kind="function"><name>heapBytes</name></member>
+    <member refid="group__HighPrecisionGroup_1gae9201ba08bf2e2dabdfdf95e94b777ee" kind="function"><name>toBoostInt</name></member>
     <member refid="group__GeneralGroup_1gad816d7f5445309140db275f8f14c8ba1" kind="function"><name>filterHistoryActionsVector</name></member>
     <member refid="group__GeneralGroup_1ga6bc994c1ebf7a119332f7d7a212cdd5e" kind="function"><name>getNumSamples</name></member>
     <member refid="group__GeneralGroup_1ga2a5d3a2f7c92a6b8c0c35cd269530356" kind="function"><name>getNumActivePairs</name></member>
@@ -16173,10 +16177,12 @@
   </compound>
   <compound refid="namespaceMR_1_1detail" kind="namespace"><name>MR::detail</name>
     <member refid="namespaceMR_1_1detail_1af6206848d5379160c8a8684d2c76593f" kind="variable"><name>cFitsFastInt128</name></member>
+    <member refid="namespaceMR_1_1detail_1a7fc2a0ff5839e59c72d8681e50b67fdc" kind="variable"><name>cMulBits</name></member>
     <member refid="namespaceMR_1_1detail_1a1c3d4f65be2335aa2156f777bfe33154" kind="function"><name>addCarry64</name></member>
     <member refid="namespaceMR_1_1detail_1a7fc59c8caf263e5cec996db9f596920d" kind="function"><name>subBorrow64</name></member>
     <member refid="namespaceMR_1_1detail_1a198d8073571caaae263de501236e6052" kind="function"><name>signWord</name></member>
-    <member refid="namespaceMR_1_1detail_1ab90df1884fe2e42b76e810f24153b89a" kind="function"><name>mulWords</name></member>
+    <member refid="namespaceMR_1_1detail_1adef9954c65821ab458734f64ae86e011" kind="function"><name>mulWords</name></member>
+    <member refid="namespaceMR_1_1detail_1a0c3c7fc10991c0eb99094bb42d438de2" kind="function"><name>mulWordsOf</name></member>
     <member refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" kind="function"><name>runCocoaFileDialog</name></member>
     <member refid="namespaceMR_1_1detail_1a4b40e1222b8df2660b25e4942deb39fb" kind="function"><name>isPortalFileDialogSupported</name></member>
     <member refid="namespaceMR_1_1detail_1a1a02e764be7c54f9177025ee42b915d0" kind="function"><name>runPortalFileDialog</name></member>
@@ -19201,6 +19207,10 @@
     <member refid="group__HighPrecisionGroup_1ga35d4969873ad6731b1e6f279e73ef21f" kind="typedef"><name>Vector3i512</name></member>
     <member refid="group__HighPrecisionGroup_1ga069a4cfb1c909d7c7e32d575dac759cf" kind="typedef"><name>Vector2i64mul</name></member>
     <member refid="group__HighPrecisionGroup_1ga2290828b1eb673ce78c350b8c3b2b6cb" kind="typedef"><name>Vector3i64mul</name></member>
+    <member refid="group__HighPrecisionGroup_1gacf1747776a123f6afdf52b1c766d5a15" kind="function"><name>operator*</name></member>
+    <member refid="group__HighPrecisionGroup_1ga15464bb6e2f869d91cb4a1583d4af1d4" kind="function"><name>operator*</name></member>
+    <member refid="group__HighPrecisionGroup_1ga8f43e802126c20691185376048e2fe69" kind="function"><name>operator*</name></member>
+    <member refid="group__HighPrecisionGroup_1gae9201ba08bf2e2dabdfdf95e94b777ee" kind="function"><name>toBoostInt</name></member>
   </compound>
   <compound refid="group__ImageLoadGroup" kind="group"><name>ImageLoadGroup</name>
     <member refid="group__ImageLoadGroup_1ga2e9338f4df7d8c383cae3bab2971a671" kind="function"><name>fromAnySupportedFormat</name></member>
@@ -21833,7 +21843,7 @@
     <member refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kind="variable"><name>touchableTris</name></member>
     <member refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" kind="variable"><name>inBallTests</name></member>
     <member refid="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" kind="variable"><name>coords</name></member>
-    <member refid="group__GeneralGroup_1ga81880d541c5e0b2b86c25dda0106abad" kind="variable"><name>distSq</name></member>
+    <member refid="group__GeneralGroup_1ga946329fc95f92804b085844fdbc8e091" kind="variable"><name>distSq</name></member>
     <member refid="group__GeneralGroup_1gacfc8f690c3bf3935fb4e3bc132ebd84b" kind="variable"><name>isConical_</name></member>
     <member refid="group__GeneralGroup_1ga5773b93639b8824c0c0ac660ec402ed5" kind="variable"><name>shouldVisualizeRay_</name></member>
     <member refid="group__GeneralGroup_1ga4ba4cfccedd218a885f21a78974a9208" kind="variable"><name>cachedValue_</name></member>
@@ -22359,9 +22369,9 @@
     <member refid="group__GeneralGroup_1ga54433607bc2a930660001dc2fb3c936a" kind="variable"><name>u</name></member>
     <member refid="group__GeneralGroup_1ga23654a208ab18af428c462fc06501932" kind="variable"><name>v</name></member>
     <member refid="group__GeneralGroup_1ga2f9e8634a42274ff26bd5a8f8bf2458e" kind="variable"><name>w</name></member>
-    <member refid="group__GeneralGroup_1ga3fee9e0c31d87c8681de95eb65feaeba" kind="variable"><name>W</name></member>
-    <member refid="group__GeneralGroup_1gad9c49623a65480261904d480bdfe22a6" kind="variable"><name>M</name></member>
-    <member refid="group__GeneralGroup_1gad760c1b5bb13696190f916148fb1ba24" kind="variable"><name>E</name></member>
+    <member refid="group__GeneralGroup_1ga6feac16558429e55d26b916c4a48d7af" kind="variable"><name>W</name></member>
+    <member refid="group__GeneralGroup_1gaeed64c48247b98061aa890d76acf83c4" kind="variable"><name>M</name></member>
+    <member refid="group__GeneralGroup_1gaf4211bf2a5c2e08bb696d2813d96b69f" kind="variable"><name>E</name></member>
     <member refid="group__GeneralGroup_1ga4a956b983e2fcc54d20300675688632f" kind="variable"><name>rSq</name></member>
     <member refid="group__GeneralGroup_1gacf6bc51e20756e358846e3a1e06435d4" kind="variable"><name>va_</name></member>
     <member refid="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" kind="variable"><name>vb_</name></member>

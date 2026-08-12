@@ -505,7 +505,7 @@ var group__GeneralGroup =
     ] ],
     [ "MR::AlphaShapeNei", "structMR_1_1AlphaShapeNei.html", [
       [ "coords", "group__GeneralGroup.html#ga9672fd16b4268feb06f1760b83b3261e", null ],
-      [ "distSq", "group__GeneralGroup.html#ga81880d541c5e0b2b86c25dda0106abad", null ]
+      [ "distSq", "group__GeneralGroup.html#ga946329fc95f92804b085844fdbc8e091", null ]
     ] ],
     [ "MR::AngleMeasurementObject", "classMR_1_1AngleMeasurementObject.html", [
       [ "AngleMeasurementObject", "group__GeneralGroup.html#gaa12ae3069114c41ef8ed6616672c5d29", null ],
@@ -17014,7 +17014,7 @@ var group__GeneralGroup =
     [ "MR::UniformSamplingSettings::distance", "group__GeneralGroup.html#ga010165bed75fd690071dbe15b50f8c58", null ],
     [ "MR::RefineParameters::distanceLimit", "group__GeneralGroup.html#ga486a6518c80e8dcbf53b70b8870eaa6f", null ],
     [ "MR::FixUndercuts::DistMapImproveDirectionParameters::distanceMapResolution", "group__GeneralGroup.html#ga865b6dc16827bcf5024f2e675a74e8e0", null ],
-    [ "MR::AlphaShapeNei::distSq", "group__GeneralGroup.html#ga81880d541c5e0b2b86c25dda0106abad", null ],
+    [ "MR::AlphaShapeNei::distSq", "group__GeneralGroup.html#ga946329fc95f92804b085844fdbc8e091", null ],
     [ "MR::ICPPairData::distSq", "group__GeneralGroup.html#gafe05b997a712f074a3053f11dab0a7eb", null ],
     [ "MR::MeshOrPoints::ProjectionResult::distSq", "group__GeneralGroup.html#gab04e26fe4503fb08898aaeccad548f71", null ],
     [ "MR::TriTriDistanceResult::distSq", "group__GeneralGroup.html#ga254fa3cf488a854853a6b959c1abb8e4", null ],
@@ -17048,7 +17048,7 @@ var group__GeneralGroup =
     [ "MR::MeshBuilder::UniteCloseParams::duplicateNonManifold", "group__GeneralGroup.html#ga6e04cfb485e0a54e7aaf0c75c8ad0eec", null ],
     [ "MR::MeshBuilder::VertDuplication::dupVert", "group__GeneralGroup.html#ga304fd55bb8ea2a456b8fdf00cce9e14c", null ],
     [ "MR::Viewport::Parameters::Dynamic", "group__GeneralGroup.html#gab86532888b668d97ffd4c158c84ad63d", null ],
-    [ "MR::InSphereTester< int >::E", "group__GeneralGroup.html#gad760c1b5bb13696190f916148fb1ba24", null ],
+    [ "MR::InSphereTester< int >::E", "group__GeneralGroup.html#gaf4211bf2a5c2e08bb696d2813d96b69f", null ],
     [ "MR::EdgePoint::e", "group__GeneralGroup.html#gaa0fb43077718779351b94f5a803498a6", null ],
     [ "MR::EdgeSegment::e", "group__GeneralGroup.html#gac984995bf16ae26205209c4da35c2f63", null ],
     [ "MR::MeshTriPoint::e", "group__GeneralGroup.html#gafb2e8376855431a09626f25ffe6039bc", null ],
@@ -17442,7 +17442,7 @@ var group__GeneralGroup =
     [ "MR::WatershedGraph::BdInfo::lowestVert", "group__GeneralGroup.html#ga1cef595f818149e8ab3c459988194aac", null ],
     [ "MR::OffsetContoursOrigins::lRatio", "group__GeneralGroup.html#ga1633716ab89e852055090daa8b6eb2ab", null ],
     [ "MR::PlanarTriangulation::IntersectionInfo::lRatio", "group__GeneralGroup.html#ga71da63d690481e338c26321212fbdb4b", null ],
-    [ "MR::InSphereTester< int >::M", "group__GeneralGroup.html#gad9c49623a65480261904d480bdfe22a6", null ],
+    [ "MR::InSphereTester< int >::M", "group__GeneralGroup.html#gaeed64c48247b98061aa890d76acf83c4", null ],
     [ "MR::MutexOwner::m", "group__GeneralGroup.html#ga14db8ca7d0c17638612e3c103c8418a9", null ],
     [ "MR::Cylinder3::mainAxis", "group__GeneralGroup.html#ga65afcbe0b70345dae107e699760f116d", null ],
     [ "MR::FeatureObject::mainFeatureAlpha_", "group__GeneralGroup.html#ga51043725ded5e5baa3695f7a0b95f4ff", null ],
@@ -18656,7 +18656,7 @@ var group__GeneralGroup =
     [ "MR::VoxelsVolumeMinMax", "group__GeneralGroup.html#gaca33768811fc85299e23b757851572b6", null ],
     [ "MR::VoxelTag", "group__GeneralGroup.html#ga643d3f06a57ec77e78fffeee6a27fc3d", null ],
     [ "MR::Cylinder3Approximation::BestHemisphereStoredData::W", "group__GeneralGroup.html#ga98201fd01ab50cfce70b9e8940f49e16", null ],
-    [ "MR::InSphereTester< int >::W", "group__GeneralGroup.html#ga3fee9e0c31d87c8681de95eb65feaeba", null ],
+    [ "MR::InSphereTester< int >::W", "group__GeneralGroup.html#ga6feac16558429e55d26b916c4a48d7af", null ],
     [ "MR::InSphereTester< int >::w", "group__GeneralGroup.html#ga2f9e8634a42274ff26bd5a8f8bf2458e", null ],
     [ "MR::Matrix4::w", "group__GeneralGroup.html#ga9e0640aaf9b368a204fd42127c9e93e3", null ],
     [ "MR::MeshPointAndDistance::w", "group__GeneralGroup.html#ga5063b9b09f75ea011d86233ae29a6ed7", null ],

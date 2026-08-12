@@ -1598,6 +1598,10 @@
       <node id="393">
         <label>MRMesh/MRFastInt.h</label>
         <link refid="MRFastInt_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
       </node>
       <node id="339">
         <label>MRMesh/MRFastWindingNumber.h</label>
@@ -1649,17 +1653,17 @@
         <childnode refid="203" relation="include">
         </childnode>
       </node>
-      <node id="394">
+      <node id="396">
         <label>MRMesh/MRFewSmallest.h</label>
         <link refid="MRFewSmallest_8h"/>
         <childnode refid="364" relation="include">
         </childnode>
       </node>
-      <node id="395">
+      <node id="397">
         <label>MRMesh/MRFile.h</label>
         <link refid="MRFile_8h"/>
       </node>
-      <node id="396">
+      <node id="398">
         <label>MRMesh/MRFillContour.h</label>
         <link refid="MRFillContour_8h"/>
       </node>
@@ -1677,7 +1681,7 @@
         <childnode refid="315" relation="include">
         </childnode>
       </node>
-      <node id="397">
+      <node id="399">
         <label>MRMesh/MRFilterCreaseEdges.h</label>
         <link refid="MRFilterCreaseEdges_8h"/>
       </node>
@@ -1685,7 +1689,7 @@
         <label>MRMesh/MRFixSelfIntersections.h</label>
         <link refid="MRFixSelfIntersections_8h"/>
       </node>
-      <node id="398">
+      <node id="400">
         <label>MRMesh/MRFormat.h</label>
         <link refid="MRFormat_8h"/>
       </node>
@@ -1709,7 +1713,7 @@
         <childnode refid="230" relation="include">
         </childnode>
       </node>
-      <node id="399">
+      <node id="401">
         <label>MRMesh/MRGridSampling.h</label>
         <link refid="MRGridSampling_8h"/>
         <childnode refid="180" relation="include">
@@ -1725,7 +1729,7 @@
         <childnode refid="442" relation="include">
         </childnode>
       </node>
-      <node id="400">
+      <node id="402">
         <label>MRMesh/MRHeapBytes.h</label>
         <link refid="MRHeapBytes_8h"/>
         <childnode refid="98" relation="include">
@@ -1744,7 +1748,7 @@
         </childnode>
         <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="401" relation="include">
+        <childnode refid="403" relation="include">
         </childnode>
         <childnode refid="280" relation="include">
         </childnode>
@@ -1761,15 +1765,13 @@
         <label>MRMesh/MRHexPalette.h</label>
         <link refid="MRHexPalette_8h"/>
       </node>
-      <node id="402">
+      <node id="394">
         <label>MRMesh/MRHighPrecision.h</label>
         <link refid="MRHighPrecision_8h"/>
         <childnode refid="214" relation="include">
         </childnode>
-        <childnode refid="403" relation="include">
-        </childnode>
       </node>
-      <node id="401">
+      <node id="403">
         <label>MRMesh/MRHistogram.h</label>
         <link refid="MRHistogram_8h"/>
         <childnode refid="104" relation="include">
@@ -1954,7 +1956,7 @@
         </childnode>
         <childnode refid="229" relation="include">
         </childnode>
-        <childnode refid="399" relation="include">
+        <childnode refid="401" relation="include">
         </childnode>
         <childnode refid="179" relation="include">
         </childnode>
@@ -2071,7 +2073,7 @@
         <label>MRMesh/MRImproveSampling.h</label>
         <link refid="MRImproveSampling_8h"/>
       </node>
-      <node id="403">
+      <node id="395">
         <label>MRMesh/MRInSphere.h</label>
         <link refid="MRInSphere_8h"/>
       </node>
@@ -2634,19 +2636,19 @@
         </childnode>
         <childnode refid="77" relation="include">
         </childnode>
-        <childnode refid="394" relation="include">
-        </childnode>
-        <childnode refid="395" relation="include">
-        </childnode>
         <childnode refid="396" relation="include">
-        </childnode>
-        <childnode refid="314" relation="include">
         </childnode>
         <childnode refid="397" relation="include">
         </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
         <childnode refid="341" relation="include">
         </childnode>
-        <childnode refid="398" relation="include">
+        <childnode refid="400" relation="include">
         </childnode>
         <childnode refid="44" relation="include">
         </childnode>
@@ -2654,13 +2656,13 @@
         </childnode>
         <childnode refid="270" relation="include">
         </childnode>
-        <childnode refid="399" relation="include">
+        <childnode refid="401" relation="include">
         </childnode>
-        <childnode refid="400" relation="include">
+        <childnode refid="402" relation="include">
         </childnode>
         <childnode refid="279" relation="include">
         </childnode>
-        <childnode refid="402" relation="include">
+        <childnode refid="394" relation="include">
         </childnode>
         <childnode refid="404" relation="include">
         </childnode>
@@ -3642,7 +3644,7 @@
         <link refid="MRPointCloudPart_8h"/>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="399" relation="include">
+        <childnode refid="401" relation="include">
         </childnode>
         <childnode refid="178" relation="include">
         </childnode>
@@ -3860,7 +3862,7 @@
         <link refid="MRPrecisePredicates3_8h"/>
         <childnode refid="214" relation="include">
         </childnode>
-        <childnode refid="403" relation="include">
+        <childnode refid="395" relation="include">
         </childnode>
         <childnode refid="433" relation="include">
         </childnode>
@@ -3898,7 +3900,7 @@
         </childnode>
         <childnode refid="342" relation="include">
         </childnode>
-        <childnode refid="399" relation="include">
+        <childnode refid="401" relation="include">
         </childnode>
         <childnode refid="460" relation="include">
         </childnode>
@@ -4486,7 +4488,7 @@
         </childnode>
         <childnode refid="229" relation="include">
         </childnode>
-        <childnode refid="399" relation="include">
+        <childnode refid="401" relation="include">
         </childnode>
         <childnode refid="531" relation="include">
         </childnode>

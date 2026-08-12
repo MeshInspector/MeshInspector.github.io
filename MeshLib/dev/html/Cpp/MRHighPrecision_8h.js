@@ -10,5 +10,6 @@ var MRHighPrecision_8h =
     [ "MR::Vector3i128", "group__HighPrecisionGroup.html#ga63880082d353e6f29c0da82c436c2f17", null ],
     [ "MR::Vector3i128fast", "group__HighPrecisionGroup.html#gae17811dbb1f4d3ba17f955bab2dab90d", null ],
     [ "MR::Vector3i256", "group__HighPrecisionGroup.html#ga6290db8f78d4998addb556921ff349ef", null ],
-    [ "MR::Vector3i512", "group__HighPrecisionGroup.html#ga35d4969873ad6731b1e6f279e73ef21f", null ]
+    [ "MR::Vector3i512", "group__HighPrecisionGroup.html#ga35d4969873ad6731b1e6f279e73ef21f", null ],
+    [ "MR::toBoostInt", "group__HighPrecisionGroup.html#gae9201ba08bf2e2dabdfdf95e94b777ee", null ]
 ];

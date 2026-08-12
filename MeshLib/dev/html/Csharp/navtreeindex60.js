@@ -1,9 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"classMR_1_1Const__NoDefInit__MRRegionId.html#ad143996b0f68bdf814940a73038b079a":[6,3,0,0,0,640,0],
-"classMR_1_1Const__NoDefInit__MRRegionId.html#ad1a720b864137a100aedfa19ed692d9b":[6,3,0,0,0,640,2],
-"classMR_1_1Const__NoDefInit__MRRegionId.html#ad78ce20f70856ef83c0cd9119c2dc395":[6,3,0,0,0,640,8],
-"classMR_1_1Const__NoDefInit__MRRegionId.html#ae2bf60c8e32a6faf63f083e24939d869":[6,3,0,0,0,640,3],
 "classMR_1_1Const__NoDefInit__MRRegionId.html#af3497f15314ba57e1b190ed7a0aea7a1":[6,3,0,0,0,640,15],
 "classMR_1_1Const__NoDefInit__MRRegionId.html#afb2bd0a7e1c9e6ac5c49195fe35d6ce4":[6,3,0,0,0,640,10],
 "classMR_1_1Const__NoDefInit__MRTextureId.html":[6,3,0,0,0,641],
@@ -249,5 +245,9 @@ var NAVTREEINDEX60 =
 "classMR_1_1Const__ObjBitSet.html#af8fef86d4c90c89a3958f01894cfd6a9":[6,3,0,0,0,651,27],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html":[6,3,0,0,0,669],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a2accab617efa2cbfcf2d204468501798":[6,3,0,0,0,669,3],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a4efdc11faee6fb6dc97f7124ab564809":[6,3,0,0,0,669,1]
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a4efdc11faee6fb6dc97f7124ab564809":[6,3,0,0,0,669,1],
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a9fb502ece1e5720f23fb2cc659865b55":[6,3,0,0,0,669,4],
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#adb43066437ef3fb9de903960db39ae0e":[6,3,0,0,0,669,0],
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#aeb8473839d2b3e5862ee9692955cbb7d":[6,3,0,0,0,669,5],
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#af95c798aa0d700c13401447a8a95f493":[6,3,0,0,0,669,2]
 };

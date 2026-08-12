@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="677" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="677" bodyend="685"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="645" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="645" bodyend="653"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="686" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="686" bodyend="686"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="654" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="654" bodyend="654"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__InSphereTesterSoS_1ab7a86102abd9d802e19dc26c53e86fa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -53,16 +53,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="704" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="704" bodyend="709"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="672" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="672" bodyend="677"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__InSphereTesterSoS_1a53985a10ed5e1f79f8d0ff5df3e88fdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__InSphereTesterSoS_1a982c55b0a50761e6433cd215ff653951" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_InSphereTesterSoS.Const_InSphereTesterSoS</definition>
-        <argsstring>(MR._ByValue_InSphereTesterSoS _other)</argsstring>
+        <argsstring>(MR.Const_InSphereTesterSoS _other)</argsstring>
         <name>Const_InSphereTesterSoS</name>
         <qualifiedname>MR.Const_InSphereTesterSoS.Const_InSphereTesterSoS</qualifiedname>
         <param>
-          <type>MR._ByValue_InSphereTesterSoS</type>
+          <type><ref refid="classMR_1_1Const__InSphereTesterSoS" kindref="compound">MR.Const_InSphereTesterSoS</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -72,26 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="714" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="714" bodyend="720"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__InSphereTesterSoS_1add40f1fee246244b8c584fe5ed35c630" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.Const_InSphereTesterSoS.Const_InSphereTesterSoS</definition>
-        <argsstring>(Const_InSphereTesterSoS _other)</argsstring>
-        <name>Const_InSphereTesterSoS</name>
-        <qualifiedname>MR.Const_InSphereTesterSoS.Const_InSphereTesterSoS</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__InSphereTesterSoS" kindref="compound">Const_InSphereTesterSoS</ref></type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1InSphereTesterSoS_1a6092a9a1d5ba5c00f843ac6d9dceeb4a" kindref="member">MR.InSphereTesterSoS.InSphereTesterSoS</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="725" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="725" bodyend="725"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="682" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="682" bodyend="688"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__InSphereTesterSoS_1ad17599226939e90e79d8db3b9bee6744" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -110,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="730" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="730" bodyend="730"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="693" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="693" bodyend="693"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__InSphereTesterSoS_1aac0bdfbcddcd27899a880c0bfe71ee4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
@@ -129,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="740" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="740" bodyend="745"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="703" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="703" bodyend="708"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -145,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="687" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="687" bodyend="687"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="655" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="655" bodyend="655"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -165,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="690" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="690" bodyend="697"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="658" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="658" bodyend="665"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -189,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="699" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="699" bodyend="699"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="667" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="667" bodyend="667"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -235,13 +216,12 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="671" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="672" bodyend="746"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="639" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="640" bodyend="709"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1aac0bdfbcddcd27899a880c0bfe71ee4c" prot="public" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>call</name></member>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1aaf193689d944b805fc4b5259db5c1355" prot="package" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Const_InSphereTesterSoS</name></member>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1ab7a86102abd9d802e19dc26c53e86fa4" prot="public" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Const_InSphereTesterSoS</name></member>
-      <member refid="classMR_1_1Const__InSphereTesterSoS_1a53985a10ed5e1f79f8d0ff5df3e88fdb" prot="public" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Const_InSphereTesterSoS</name></member>
-      <member refid="classMR_1_1Const__InSphereTesterSoS_1add40f1fee246244b8c584fe5ed35c630" prot="public" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Const_InSphereTesterSoS</name></member>
+      <member refid="classMR_1_1Const__InSphereTesterSoS_1a982c55b0a50761e6433cd215ff653951" prot="public" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Const_InSphereTesterSoS</name></member>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1ad17599226939e90e79d8db3b9bee6744" prot="public" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Const_InSphereTesterSoS</name></member>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1a38332bb15f9d09c5441cfaa17fb5dd3f" prot="protected" virt="virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1ac67b2d9e487230387a44522d9b40704d" prot="public" virt="virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Dispose</name></member>

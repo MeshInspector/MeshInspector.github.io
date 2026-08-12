@@ -165,9 +165,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:a7fc59c8caf263e5cec996db9f596920d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a - b - borrow modulo 2^64, and replaces borrow with the borrow-out (0 or 1)  <br /></td></tr>
 <tr class="memitem:a198d8073571caaae263de501236e6052" id="r_a198d8073571caaae263de501236e6052"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a198d8073571caaae263de501236e6052">signWord</a> (std::uint64_t hi) noexcept</td></tr>
 <tr class="memdesc:a198d8073571caaae263de501236e6052"><td class="mdescLeft">&#160;</td><td class="mdescRight">all ones if the highest bit of the given word is set, and zeros otherwise  <br /></td></tr>
-<tr class="memitem:ab90df1884fe2e42b76e810f24153b89a" id="r_ab90df1884fe2e42b76e810f24153b89a"><td class="memTemplParams" colspan="2">template&lt;std::size_t n&gt; </td></tr>
-<tr class="memitem:ab90df1884fe2e42b76e810f24153b89a template"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; std::uint64_t, 2 *n &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab90df1884fe2e42b76e810f24153b89a">mulWords</a> (const std::array&lt; std::uint64_t, n &gt; &amp;a, const std::array&lt; std::uint64_t, n &gt; &amp;b) noexcept</td></tr>
-<tr class="memdesc:ab90df1884fe2e42b76e810f24153b89a"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::size_t and not int, to be deducible from std::array  <br /></td></tr>
+<tr class="memitem:adef9954c65821ab458734f64ae86e011" id="r_adef9954c65821ab458734f64ae86e011"><td class="memTemplParams" colspan="2">template&lt;std::size_t n, std::size_t m&gt; </td></tr>
+<tr class="memitem:adef9954c65821ab458734f64ae86e011 template"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; std::uint64_t, n+m &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adef9954c65821ab458734f64ae86e011">mulWords</a> (const std::array&lt; std::uint64_t, n &gt; &amp;a, const std::array&lt; std::uint64_t, m &gt; &amp;b) noexcept</td></tr>
+<tr class="memdesc:adef9954c65821ab458734f64ae86e011"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::size_t and not int, to be deducible from std::array  <br /></td></tr>
+<tr class="memitem:a0c3c7fc10991c0eb99094bb42d438de2" id="r_a0c3c7fc10991c0eb99094bb42d438de2"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a0c3c7fc10991c0eb99094bb42d438de2 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c3c7fc10991c0eb99094bb42d438de2">mulWordsOf</a> (T v) noexcept</td></tr>
+<tr class="memdesc:a0c3c7fc10991c0eb99094bb42d438de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the words of a multiplier of <a class="el" href="classMR_1_1FastInt.html">FastInt</a>, sign-extended if it is signed  <br /></td></tr>
 <tr class="memitem:a5594c749385503cd1087702f28de4651" id="r_a5594c749385503cd1087702f28de4651"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5594c749385503cd1087702f28de4651">runCocoaFileDialog</a> (const <a class="el" href="structMR_1_1FileDialog_1_1Parameters.html">MR::FileDialog::Parameters</a> &amp;params)</td></tr>
 <tr class="memdesc:a5594c749385503cd1087702f28de4651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open Cocoa file dialog.  <br /></td></tr>
 <tr class="memitem:a4b40e1222b8df2660b25e4942deb39fb" id="r_a4b40e1222b8df2660b25e4942deb39fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b40e1222b8df2660b25e4942deb39fb">isPortalFileDialogSupported</a> ()</td></tr>
@@ -180,6 +183,8 @@ Variables</h2></td></tr>
 <tr class="memitem:af6206848d5379160c8a8684d2c76593f" id="r_af6206848d5379160c8a8684d2c76593f"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:af6206848d5379160c8a8684d2c76593f template"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6206848d5379160c8a8684d2c76593f">cFitsFastInt128</a> = std::is_integral_v&lt;T&gt; || std::is_same_v&lt;T, <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt;</td></tr>
 <tr class="memdesc:af6206848d5379160c8a8684d2c76593f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the integer types that <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> represents exactly, and which the classes below accept  <br /></td></tr>
+<tr class="memitem:a7fc2a0ff5839e59c72d8681e50b67fdc" id="r_a7fc2a0ff5839e59c72d8681e50b67fdc"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a7fc2a0ff5839e59c72d8681e50b67fdc template"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fc2a0ff5839e59c72d8681e50b67fdc">cMulBits</a> = std::is_same_v&lt;T, <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt; || ( std::is_unsigned_v&lt;T&gt; &amp;&amp; sizeof( T ) &gt;= 8 ) ? 128 : 64</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a1c3d4f65be2335aa2156f777bfe33154" name="a1c3d4f65be2335aa2156f777bfe33154"></a>
@@ -238,26 +243,26 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab90df1884fe2e42b76e810f24153b89a" name="ab90df1884fe2e42b76e810f24153b89a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab90df1884fe2e42b76e810f24153b89a">&#9670;&#160;</a></span>mulWords()</h2>
+<a id="adef9954c65821ab458734f64ae86e011" name="adef9954c65821ab458734f64ae86e011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adef9954c65821ab458734f64ae86e011">&#9670;&#160;</a></span>mulWords()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t n&gt; </div>
+template&lt;std::size_t n, std::size_t m&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt; std::uint64_t, 2 *n &gt; MR::detail::mulWords </td>
+          <td class="memname">std::array&lt; std::uint64_t, n+m &gt; MR::detail::mulWords </td>
           <td>(</td>
           <td class="paramtype">const std::array&lt; std::uint64_t, n &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::array&lt; std::uint64_t, n &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">const std::array&lt; std::uint64_t, m &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -268,11 +273,40 @@ template&lt;std::size_t n&gt; </div>
 </div><div class="memdoc">
 
 <p>std::size_t and not int, to be deducible from std::array </p>
-<p>the exact product of two two's-complement values given by their 64-bit words, which always fits in twice as many words; the only multiplication of this file </p>
+<p>the exact product of two two's-complement values given by their 64-bit words, which always fits in the sum of their word counts; the only multiplication of this file </p>
 <p>schoolbook multiplication of unsigned values</p>
 <p>at most ( 2^64 - 1 )^2 + 2 * ( 2^64 - 1 ) &lt; 2^128 here</p>
-<p>never written before, since the loop above stops at i + n - 1</p>
-<p>a negative argument was taken 2^(64*n) times larger than it is</p>
+<p>never written before, since the loop above stops at i + m - 1</p>
+<p>a negative argument was taken 2^(64*words) times larger than it is; both subtractions below end exactly at the end of res, so the borrow never leaves it</p>
+
+</div>
+</div>
+<a id="a0c3c7fc10991c0eb99094bb42d438de2" name="a0c3c7fc10991c0eb99094bb42d438de2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c3c7fc10991c0eb99094bb42d438de2">&#9670;&#160;</a></span>mulWordsOf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto MR::detail::mulWordsOf </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel constexpr">constexpr</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the words of a multiplier of <a class="el" href="classMR_1_1FastInt.html">FastInt</a>, sign-extended if it is signed </p>
 
 </div>
 </div>
@@ -401,6 +435,31 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>the integer types that <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> represents exactly, and which the classes below accept </p>
+
+</div>
+</div>
+<a id="a7fc2a0ff5839e59c72d8681e50b67fdc" name="a7fc2a0ff5839e59c72d8681e50b67fdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fc2a0ff5839e59c72d8681e50b67fdc">&#9670;&#160;</a></span>cMulBits</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::detail::cMulBits = std::is_same_v&lt;T, <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt; || ( std::is_unsigned_v&lt;T&gt; &amp;&amp; sizeof( T ) &gt;= 8 ) ? 128 : 64</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>the number of bits a multiplier of <a class="el" href="classMR_1_1FastInt.html">FastInt</a> occupies: 128 for <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> and for an unsigned 64-bit integer, both of which need two words, and 64 for anything signed or narrower </p>
 
 </div>
 </div>

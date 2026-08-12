@@ -1,9 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"classMR_1_1Const__SegmPointf.html#a6889f6044654fdde8a3d1592b1808c78":[6,3,0,0,0,797,3],
-"classMR_1_1Const__SegmPointf.html#a7dff73d4fdfba73931d5a82d4e228d55":[6,3,0,0,0,797,6],
-"classMR_1_1Const__SegmPointf.html#a85d3e2bc35de7b68b4638d5cf095aee2":[6,3,0,0,0,797,18],
-"classMR_1_1Const__SegmPointf.html#a922e43bcedee0a01d37765a8e8f01742":[6,3,0,0,0,797,0],
 "classMR_1_1Const__SegmPointf.html#aac3c3ae6ea7643f28d8b8ff942469aca":[6,3,0,0,0,797,20],
 "classMR_1_1Const__SegmPointf.html#aad898023683bea2e01bdd6dc2c6520d2":[6,3,0,0,0,797,17],
 "classMR_1_1Const__SegmPointf.html#ab44283c404aeda8270c0b0c921d1ea32":[6,3,0,0,0,797,19],
@@ -249,5 +245,9 @@ var NAVTREEINDEX76 =
 "classMR_1_1Const__SharpOffsetParameters.html#ac2eb8ed65277714ebf0c05b6486533ce":[6,3,0,0,0,811,28],
 "classMR_1_1Const__SharpOffsetParameters.html#ac301de344dd22949dcf693b6dec1f673":[6,3,0,0,0,811,7],
 "classMR_1_1Const__SharpOffsetParameters.html#ac6cc45f160dbcbe2361f085aac76102c":[6,3,0,0,0,811,16],
-"classMR_1_1Const__SharpOffsetParameters.html#acf2520115043cd525b2ceb4c1447d598":[6,3,0,0,0,811,13]
+"classMR_1_1Const__SharpOffsetParameters.html#acf2520115043cd525b2ceb4c1447d598":[6,3,0,0,0,811,13],
+"classMR_1_1Const__SharpOffsetParameters.html#ad289bf2e198c931fa276e99b745bb53a":[6,3,0,0,0,811,15],
+"classMR_1_1Const__SharpOffsetParameters.html#ae5f5ff43ac585498fec82be765ebbe2c":[6,3,0,0,0,811,11],
+"classMR_1_1Const__SharpOffsetParameters.html#ae603c18cd70a6a444a27442b4e1132a8":[6,3,0,0,0,811,4],
+"classMR_1_1Const__SharpOffsetParameters.html#ae73773eba0858253e6c0c1de7d3e76f2":[6,3,0,0,0,811,31]
 };

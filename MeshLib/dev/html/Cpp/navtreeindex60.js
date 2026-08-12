@@ -1,5 +1,11 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1detail_1_1AffineXf3f.html":[6,0,0,20,15],
+"namespaceMR_1_1detail_1_1Units.html":[6,0,0,20,16],
+"namespaceWasm.html":[6,0,1,0,3],
+"namespaceWasm.html#a36950f79f9abe0a2bc245e925d5797ab":[6,0,1,0,3,11],
+"namespaceWasm.html#a36f8f8b55be7990fef04d7603b11cba0":[6,0,1,0,3,8],
+"namespaceWasm.html#a44512ca9f7d57381b2a99216ca21d356":[6,0,1,0,3,13],
 "namespaceWasm.html#a6d333399973ee8089ff5eb4c186904ef":[6,0,1,0,3,12],
 "namespaceWasm.html#a8fcf46baef17e780656f368b02733012":[6,0,1,0,3,9],
 "namespaceWasm.html#aacfb315c0db2d2b7e53cdc1d52ecfd03":[6,0,1,0,3,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1BooleanResultPoints.html":[6,0,1,0,1,102],
 "structMR_1_1BooleanResultPoints.html":[6,0,2,0,2,84],
 "structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,1,0,1,102,2],
-"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,2,0,2,84,2],
-"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,1,0,1,102,1],
-"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,2,0,2,84,1],
-"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,1,0,1,102,0],
-"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,2,0,2,84,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[6,0,0,20,601],
-"structMR_1_1Box.html":[6,0,0,0,2,0]
+"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,2,0,2,84,2]
 };

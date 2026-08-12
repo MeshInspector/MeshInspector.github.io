@@ -1,7 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"classMR_1_1Const__DistanceMeasurementObject.html#a1a09e723e831cb2be184fd7d30dfd9df":[6,3,0,0,0,399,41],
-"classMR_1_1Const__DistanceMeasurementObject.html#a1de5630959b77443d2789b9de838e96a":[6,3,0,0,0,399,6],
 "classMR_1_1Const__DistanceMeasurementObject.html#a229edac7a239bcc91a1ccf019c410665":[6,3,0,0,0,399,15],
 "classMR_1_1Const__DistanceMeasurementObject.html#a242e26bb5513ae2a4c348e3a6c740121":[6,3,0,0,0,399,69],
 "classMR_1_1Const__DistanceMeasurementObject.html#a26559254f864b89411f1b46f24259742":[6,3,0,0,0,399,52],
@@ -249,5 +247,7 @@ var NAVTREEINDEX42 =
 "classMR_1_1Const__EdgeBitSet.html#aea2899d883357a4008647be3b5530121":[6,3,0,0,0,406,8],
 "classMR_1_1Const__EdgeBitSet.html#af33dc835cc031d70e404b951b1311764":[6,3,0,0,0,406,48],
 "classMR_1_1Const__EdgeBitSet_1_1__Enumerator.html":[6,3,0,0,0,406,0],
-"classMR_1_1Const__EdgeBitSet_1_1__Enumerator.html#a3c89c1e393f41d91823f9658f9f40e35":[6,3,0,0,0,406,0,2]
+"classMR_1_1Const__EdgeBitSet_1_1__Enumerator.html#a3c89c1e393f41d91823f9658f9f40e35":[6,3,0,0,0,406,0,2],
+"classMR_1_1Const__EdgeBitSet_1_1__Enumerator.html#ae8e094f2f302d700a5c72c6781e03c85":[6,3,0,0,0,406,0,0],
+"classMR_1_1Const__EdgeBitSet_1_1__Enumerator.html#aef2805705e069ef70f503e0332ff1946":[6,3,0,0,0,406,0,1]
 };

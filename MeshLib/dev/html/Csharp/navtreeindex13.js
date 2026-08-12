@@ -1,6 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"classMR_1_1BaseShellParameters.html#a716f85afb02684c3708c7ff5924fbac7":[6,3,0,0,0,37,6],
 "classMR_1_1BaseShellParameters.html#a8fa47c1084037d2a12e260b647d70408":[6,3,0,0,0,37,3],
 "classMR_1_1BaseShellParameters.html#a9b1b0517c195047c0ebdb8eee7b87553":[6,3,0,0,0,37,2],
 "classMR_1_1BaseShellParameters.html#ac584187fdf8b38b5b3b562c87dda82ed":[6,3,0,0,0,37,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "classMR_1_1Box__Box1f.html#ace95620b3974ca372a63584e99acc40d":[6,3,0,0,0,83,3],
 "classMR_1_1Box__Box1f.html#acf8e291d9ee7febae7ba891e09cd8d8f":[6,3,0,0,0,83,10],
 "classMR_1_1Box__Box1f.html#ad3a5181e98a7f567bf9af8df4ed002d1":[6,3,0,0,0,83,7],
-"classMR_1_1Box__Box1f.html#ae03dd83fb5c4f95b91e306ce42944a7f":[6,3,0,0,0,83,8]
+"classMR_1_1Box__Box1f.html#ae03dd83fb5c4f95b91e306ce42944a7f":[6,3,0,0,0,83,8],
+"classMR_1_1Box__Box1i.html":[6,3,0,0,0,84]
 };

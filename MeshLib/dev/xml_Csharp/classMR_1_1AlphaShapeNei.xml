@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="686" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="686" bodyend="686"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="681" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="681" bodyend="681"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="705" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="705" bodyend="709"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="700" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="700" bodyend="704"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -58,16 +58,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="715" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="715" bodyend="721"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="710" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="710" bodyend="716"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1AlphaShapeNei_1a30fdf713fe53c4f8495660cda7419dc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1AlphaShapeNei_1a27817fc8bdeee7172ba7bb7855601aab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.AlphaShapeNei.AlphaShapeNei</definition>
-        <argsstring>(MR._ByValue_AlphaShapeNei _other)</argsstring>
+        <argsstring>(MR.Const_AlphaShapeNei _other)</argsstring>
         <name>AlphaShapeNei</name>
         <qualifiedname>MR.AlphaShapeNei.AlphaShapeNei</qualifiedname>
         <param>
-          <type>MR._ByValue_AlphaShapeNei</type>
+          <type><ref refid="classMR_1_1Const__AlphaShapeNei" kindref="compound">MR.Const_AlphaShapeNei</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -77,26 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="726" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="726" bodyend="733"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AlphaShapeNei_1a46a1e485a6476df6c9c6c3b7d1f93f71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.AlphaShapeNei.AlphaShapeNei</definition>
-        <argsstring>(Const_AlphaShapeNei _other)</argsstring>
-        <name>AlphaShapeNei</name>
-        <qualifiedname>MR.AlphaShapeNei.AlphaShapeNei</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__AlphaShapeNei" kindref="compound">Const_AlphaShapeNei</ref></type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AlphaShapeNei_1ac4a5398f11424c1fd67630c1d15ca25f" kindref="member">MR.AlphaShapeNei.AlphaShapeNei</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="738" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="738" bodyend="738"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="721" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="721" bodyend="728"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AlphaShapeNei_1a9923d592f8e29de131ec6d1dbe743043" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -115,16 +96,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="743" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="743" bodyend="743"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="733" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="733" bodyend="733"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1AlphaShapeNei_1a0313d0c18f7b122285be1c4500f5e096" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1AlphaShapeNei_1a4a5da4cb50d8f61ed4ea427b0de6a85f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1AlphaShapeNei" kindref="compound">MR.AlphaShapeNei</ref></type>
         <definition>unsafe MR.AlphaShapeNei MR.AlphaShapeNei.assign</definition>
-        <argsstring>(MR._ByValue_AlphaShapeNei _other)</argsstring>
+        <argsstring>(MR.Const_AlphaShapeNei _other)</argsstring>
         <name>assign</name>
         <qualifiedname>MR.AlphaShapeNei.assign</qualifiedname>
         <param>
-          <type>MR._ByValue_AlphaShapeNei</type>
+          <type><ref refid="classMR_1_1Const__AlphaShapeNei" kindref="compound">MR.Const_AlphaShapeNei</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -134,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="748" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="748" bodyend="755"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="738" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="738" bodyend="745"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -186,18 +167,16 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="681" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="682" bodyend="756"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="676" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="677" bodyend="746"/>
     <listofallmembers>
       <member refid="classMR_1_1AlphaShapeNei_1a82ce3301f70dead845828b9e4f25f55b" prot="package" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>AlphaShapeNei</name></member>
       <member refid="classMR_1_1AlphaShapeNei_1ac4a5398f11424c1fd67630c1d15ca25f" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>AlphaShapeNei</name></member>
-      <member refid="classMR_1_1AlphaShapeNei_1a30fdf713fe53c4f8495660cda7419dc0" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>AlphaShapeNei</name></member>
-      <member refid="classMR_1_1AlphaShapeNei_1a46a1e485a6476df6c9c6c3b7d1f93f71" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>AlphaShapeNei</name></member>
+      <member refid="classMR_1_1AlphaShapeNei_1a27817fc8bdeee7172ba7bb7855601aab" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>AlphaShapeNei</name></member>
       <member refid="classMR_1_1AlphaShapeNei_1a9923d592f8e29de131ec6d1dbe743043" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>AlphaShapeNei</name></member>
-      <member refid="classMR_1_1AlphaShapeNei_1a0313d0c18f7b122285be1c4500f5e096" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>assign</name></member>
+      <member refid="classMR_1_1AlphaShapeNei_1a4a5da4cb50d8f61ed4ea427b0de6a85f" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__AlphaShapeNei_1a0570960c60109371cf92690b2bbfb3a1" prot="package" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
       <member refid="classMR_1_1Const__AlphaShapeNei_1abb00fd7ab073d610f6312f89cc465407" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
-      <member refid="classMR_1_1Const__AlphaShapeNei_1ac6155eb09ec016f73d83cf886f133a49" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
-      <member refid="classMR_1_1Const__AlphaShapeNei_1a66996793bf6c295e723fe59a5af754d4" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeNei_1aa961b2a96fb34038680f60e571efc5eb" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
       <member refid="classMR_1_1Const__AlphaShapeNei_1a9beabbae07d2da5078571b5ca1dabeae" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>Const_AlphaShapeNei</name></member>
       <member refid="classMR_1_1AlphaShapeNei_1ab61e9bb41aaadf6bb4ed360cc1ee87c0" prot="public" virt="non-virtual"><scope>MR::AlphaShapeNei</scope><name>coords</name></member>
       <member refid="classMR_1_1Const__AlphaShapeNei_1a638ae626af85cf3d15221be769706dad" prot="protected" virt="virtual"><scope>MR::AlphaShapeNei</scope><name>Dispose</name></member>

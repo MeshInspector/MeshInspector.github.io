@@ -1,11 +1,5 @@
 var NAVTREEINDEX111 =
 {
-"classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a13085273d6c57f66778dc1b12f2410f6":[6,3,0,0,0,1332,3,1],
-"classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a25866ad5817466ed0f4c9cad95a6229f":[6,3,0,0,0,1332,3,2],
-"classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a5d5ffd21255be7d0fd74ff21738511ce":[6,3,0,0,0,1332,3,3],
-"classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a66018ce08815ede109bc17985add9d40":[6,3,0,0,0,1332,3,6],
-"classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a8cd7fe048a18f6070712ef94e9c9eda8":[6,3,0,0,0,1332,3,8],
-"classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#accc663d072f32a9f5925cf2864ce927f":[6,3,0,0,0,1332,3,0],
 "classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#ade9f91e401677079178b8a9fed41c988":[6,3,0,0,0,1332,3,4],
 "classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#af03f604d99af5522a7dfda41cf4c7585":[6,3,0,0,0,1332,3,5],
 "classMR_1_1MeshDiff.html":[6,3,0,0,0,1333],
@@ -249,5 +243,11 @@ var NAVTREEINDEX111 =
 "classMR_1_1MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a0cc16eaaa3151e9ded0d315206aea45f":[6,3,0,0,0,1348,1],
 "classMR_1_1MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a1c473baccd29924105014d12baccdab8":[6,3,0,0,0,1348,3],
 "classMR_1_1MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a55fa9add423cc0fbbb41d6586bfc4efa":[6,3,0,0,0,1348,0],
-"classMR_1_1MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a7dfdb509ed2ef9aff1f33e9a18e7186c":[6,3,0,0,0,1348,2]
+"classMR_1_1MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a7dfdb509ed2ef9aff1f33e9a18e7186c":[6,3,0,0,0,1348,2],
+"classMR_1_1MeshOrPoints.html":[6,3,0,0,0,1349],
+"classMR_1_1MeshOrPoints.html#a02ce3752d2f32c41d5bfcc0dab8f595e":[6,3,0,0,0,1349,4],
+"classMR_1_1MeshOrPoints.html#a1c9371bec1a8549059ff0210a697f586":[6,3,0,0,0,1349,6],
+"classMR_1_1MeshOrPoints.html#a33c5d1f9795f6e2e3e479cad09d47293":[6,3,0,0,0,1349,8],
+"classMR_1_1MeshOrPoints.html#a352f78743cc8e249e9cfc94433068078":[6,3,0,0,0,1349,7],
+"classMR_1_1MeshOrPoints.html#a3acfd2feb6d0f1e210649f7ce32b29b1":[6,3,0,0,0,1349,1]
 };
