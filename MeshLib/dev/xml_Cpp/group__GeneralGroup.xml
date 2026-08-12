@@ -5915,15 +5915,18 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRVector3.h" line="200" column="13" bodyfile="MRMesh/MRVector3.h" bodystart="200" bodyend="203"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga4853bb586796b5d140948d0ab51c0bd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga02f24aba9c31b2fea8d989d2053ca0af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
           </param>
+          <param>
+            <type>typename U</type>
+          </param>
         </templateparamlist>
         <type>decltype(dot(a, cross(b, c)))</type>
         <definition>decltype(dot(a, cross(b, c))) mixed</definition>
-        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; U &gt; &amp;b, const Vector3&lt; U &gt; &amp;c)</argsstring>
         <name>mixed</name>
         <qualifiedname>MR::Vector3::mixed</qualifiedname>
         <param>
@@ -5931,11 +5934,11 @@ if given transformation is not rigid, then it is a good idea to normalize return
           <declname>a</declname>
         </param>
         <param>
-          <type>const Vector3&lt; T &gt; &amp;</type>
+          <type>const Vector3&lt; U &gt; &amp;</type>
           <declname>b</declname>
         </param>
         <param>
-          <type>const Vector3&lt; T &gt; &amp;</type>
+          <type>const Vector3&lt; U &gt; &amp;</type>
           <declname>c</declname>
         </param>
         <briefdescription>

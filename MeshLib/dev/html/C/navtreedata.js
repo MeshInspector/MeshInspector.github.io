@@ -246,7 +246,7 @@ var NAVTREEINDEX =
 "MRUnionFind_8h.html",
 "MRUniteManyMeshes_8h.html#a0617a974f50a8dc4b23565863e781a2c",
 "MRVector2_8h.html#a0a20ae5d64f81289a6e11af13a66ef8a",
-"MRVector3_8h.html#a5746be2b30c57726d60f2c733ebf363c",
+"MRVector3_8h.html#a574302150eb57606524437d8cde440aa",
 "MRVector4_8h.html#a6932908c16692dddee457226aadeea25",
 "MRVector_8h.html#a09a0e6de5d6a64ff8e45646946d6ead5",
 "MRVector_8h.html#a1b06f85b1b9127c782055dbb81e8fe3c",

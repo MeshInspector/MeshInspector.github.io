@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1BitSet.html#ad69bc8b59b2c20463e977f3cdf4552f5":[6,0,0,3,3,51],
+"classMR_1_1BitSet.html#add7456b9f19f1c5722b428a88eb87241":[6,0,0,3,3,30],
 "classMR_1_1BitSet.html#ae109ea3b45a9d42a26687dadfc85f936":[6,0,0,3,3,11],
 "classMR_1_1BitSet.html#ae5007749dadb7430dc9dedb73114f9a6":[6,0,0,3,3,26],
 "classMR_1_1BitSet.html#ae93bbbefc2bee256a329ec3ac480f963":[6,0,0,3,3,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#a3d1d6250e0a612ff2a778c0b7b00dead":[6,0,1,0,1,2,0,2],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#a3d1d6250e0a612ff2a778c0b7b00dead":[6,0,2,0,2,0,0,2],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#af0cb2449c5ed63b9ae8c4eb2d605647d":[6,0,1,0,1,2,0,1],
-"classMR_1_1Cuda_1_1ComputeToolDistance.html#af0cb2449c5ed63b9ae8c4eb2d605647d":[6,0,2,0,2,0,0,1],
-"classMR_1_1Cuda_1_1ComputeToolDistance.html#af6ff220d789ac2f9c41960ab99a6517f":[6,0,1,0,1,2,0,0],
-"classMR_1_1Cuda_1_1ComputeToolDistance.html#af6ff220d789ac2f9c41960ab99a6517f":[6,0,2,0,2,0,0,0]
+"classMR_1_1Cuda_1_1ComputeToolDistance.html#af0cb2449c5ed63b9ae8c4eb2d605647d":[6,0,2,0,2,0,0,1]
 };

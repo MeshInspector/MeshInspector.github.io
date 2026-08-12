@@ -650,6 +650,7 @@ var hierarchy =
     [ "MR::InSphereTester< T >", "classMR_1_1InSphereTester.html", [
       [ "MR::InSphereTesterSoS", "classMR_1_1InSphereTesterSoS.html", null ]
     ] ],
+    [ "MR::Int64Mul128", "classMR_1_1Int64Mul128.html", null ],
     [ "std::integral_constant", null, [
       [ "MR::ImGuiMath::detail::CommonVecSize< T, P... >", "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html", null ],
       [ "MR::ImGuiMath::detail::VecSize< ImVec2 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html", null ],

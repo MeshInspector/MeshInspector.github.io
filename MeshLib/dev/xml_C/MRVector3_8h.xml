@@ -3871,11 +3871,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector3.h" line="657" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector3.h" declline="657" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector3_8h_1add535e26b7428c2fdba50a94c1bd6be0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVector3_8h_1acba9985bc7fc25646a0d9fad1aa270ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
-        <definition>MRC_API float MR_mixed_float</definition>
+        <definition>MRC_API float MR_mixed_float_float</definition>
         <argsstring>(const MR_Vector3f *a, const MR_Vector3f *b, const MR_Vector3f *c)</argsstring>
-        <name>MR_mixed_float</name>
+        <name>MR_mixed_float_float</name>
         <param>
           <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
           <declname>a</declname>
@@ -3891,17 +3891,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>mixed product Generated from function <computeroutput>MR::mixed&lt;float&gt;</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. </para>
+<para>mixed product Generated from function <computeroutput>MR::mixed&lt;float, float&gt;</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector3.h" line="664" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector3.h" declline="664" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector3_8h_1a23e0389b730fe13f76135502860eb976" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVector3_8h_1a206aa8b514dbaf8ba0899a7db43d7b9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
-        <definition>MRC_API double MR_mixed_double</definition>
+        <definition>MRC_API double MR_mixed_double_double</definition>
         <argsstring>(const MR_Vector3d *a, const MR_Vector3d *b, const MR_Vector3d *c)</argsstring>
-        <name>MR_mixed_double</name>
+        <name>MR_mixed_double_double</name>
         <param>
           <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
           <declname>a</declname>
@@ -3917,17 +3917,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>mixed product Generated from function <computeroutput>MR::mixed&lt;double&gt;</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. </para>
+<para>mixed product Generated from function <computeroutput>MR::mixed&lt;double, double&gt;</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector3.h" line="671" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector3.h" declline="671" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector3_8h_1a6d7d779247c6ac9dfc5a8dffe24303a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVector3_8h_1a445688e9846bf2905d1e89341acc2582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
-        <definition>MRC_API int MR_mixed_int</definition>
+        <definition>MRC_API int MR_mixed_int_int</definition>
         <argsstring>(const MR_Vector3i *a, const MR_Vector3i *b, const MR_Vector3i *c)</argsstring>
-        <name>MR_mixed_int</name>
+        <name>MR_mixed_int_int</name>
         <param>
           <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
           <declname>a</declname>
@@ -3943,7 +3943,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>mixed product Generated from function <computeroutput>MR::mixed&lt;int&gt;</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. </para>
+<para>mixed product Generated from function <computeroutput>MR::mixed&lt;int, int&gt;</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6686,11 +6686,11 @@
 <codeline lineno="653"><highlight class="normal"></highlight></codeline>
 <codeline lineno="657" refid="MRVector3_8h_1a969503a9f3bc49aad297ea0b8198591d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a969503a9f3bc49aad297ea0b8198591d" kindref="member">MR_sqr_int_MR_Vector3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*a);</highlight></codeline>
 <codeline lineno="658"><highlight class="normal"></highlight></codeline>
-<codeline lineno="664" refid="MRVector3_8h_1add535e26b7428c2fdba50a94c1bd6be0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1add535e26b7428c2fdba50a94c1bd6be0" kindref="member">MR_mixed_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="664" refid="MRVector3_8h_1acba9985bc7fc25646a0d9fad1aa270ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1acba9985bc7fc25646a0d9fad1aa270ea" kindref="member">MR_mixed_float_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*c);</highlight></codeline>
 <codeline lineno="665"><highlight class="normal"></highlight></codeline>
-<codeline lineno="671" refid="MRVector3_8h_1a23e0389b730fe13f76135502860eb976" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a23e0389b730fe13f76135502860eb976" kindref="member">MR_mixed_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="671" refid="MRVector3_8h_1a206aa8b514dbaf8ba0899a7db43d7b9f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a206aa8b514dbaf8ba0899a7db43d7b9f" kindref="member">MR_mixed_double_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*c);</highlight></codeline>
 <codeline lineno="672"><highlight class="normal"></highlight></codeline>
-<codeline lineno="678" refid="MRVector3_8h_1a6d7d779247c6ac9dfc5a8dffe24303a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a6d7d779247c6ac9dfc5a8dffe24303a2" kindref="member">MR_mixed_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="678" refid="MRVector3_8h_1a445688e9846bf2905d1e89341acc2582" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a445688e9846bf2905d1e89341acc2582" kindref="member">MR_mixed_int_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*c);</highlight></codeline>
 <codeline lineno="679"><highlight class="normal"></highlight></codeline>
 <codeline lineno="684" refid="MRVector3_8h_1abbc260f57ae82c43ac35e248eba6674e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRVector3_8h_1abbc260f57ae82c43ac35e248eba6674e" kindref="member">MR_mult_float_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="685"><highlight class="normal"></highlight></codeline>

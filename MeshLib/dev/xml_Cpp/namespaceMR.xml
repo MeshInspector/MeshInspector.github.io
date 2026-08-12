@@ -296,6 +296,7 @@
     <innerclass refid="classMR_1_1InSphereTester" prot="public">MR::InSphereTester</innerclass>
     <innerclass refid="classMR_1_1InSphereTester_3_01int_01_4" prot="public">MR::InSphereTester&lt; int &gt;</innerclass>
     <innerclass refid="classMR_1_1InSphereTesterSoS" prot="public">MR::InSphereTesterSoS</innerclass>
+    <innerclass refid="classMR_1_1Int64Mul128" prot="public">MR::Int64Mul128</innerclass>
     <innerclass refid="structMR_1_1InterruptCloseListener" prot="public">MR::InterruptCloseListener</innerclass>
     <innerclass refid="structMR_1_1IntersectionPrecomputes" prot="public">MR::IntersectionPrecomputes</innerclass>
     <innerclass refid="structMR_1_1IntersectionPrecomputes2" prot="public">MR::IntersectionPrecomputes2</innerclass>
@@ -1593,7 +1594,7 @@
       <member refid="group__GeneralGroup_1gae41face18b9dc2041d79eb7613426525" kind="function"><name>cross</name></member>
       <member refid="group__GeneralGroup_1ga12ace0a073b6d056e20f50fabe0b9940" kind="function"><name>dot</name></member>
       <member refid="group__GeneralGroup_1ga54dc2aba870f99fd60fbe3ce03fc7c7f" kind="function"><name>sqr</name></member>
-      <member refid="group__GeneralGroup_1ga4853bb586796b5d140948d0ab51c0bd0" kind="function"><name>mixed</name></member>
+      <member refid="group__GeneralGroup_1ga02f24aba9c31b2fea8d989d2053ca0af" kind="function"><name>mixed</name></member>
       <member refid="group__GeneralGroup_1gae2acb767e75d8fddbe60a26218e7635a" kind="function"><name>mult</name></member>
       <member refid="group__GeneralGroup_1ga3032e40b08150686195023c67dd9b749" kind="function"><name>div</name></member>
       <member refid="group__GeneralGroup_1gac91a0462b62bab22f973bb517dc805ca" kind="function"><name>angle</name></member>
@@ -1721,6 +1722,8 @@
       <member refid="group__HighPrecisionGroup_1ga35d4969873ad6731b1e6f279e73ef21f" kind="typedef"><name>Vector3i512</name></member>
       <member refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kind="typedef"><name>HistoryStackFilter</name></member>
       <member refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kind="typedef"><name>HistoryActionsVector</name></member>
+      <member refid="group__HighPrecisionGroup_1ga069a4cfb1c909d7c7e32d575dac759cf" kind="typedef"><name>Vector2i64mul</name></member>
+      <member refid="group__HighPrecisionGroup_1ga2290828b1eb673ce78c350b8c3b2b6cb" kind="typedef"><name>Vector3i64mul</name></member>
       <member refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kind="typedef"><name>OneMeshContours</name></member>
       <member refid="group__GeneralGroup_1ga6a1dec59ef3e77a796356f23810d97be" kind="typedef"><name>ContinuousContour</name></member>
       <member refid="group__GeneralGroup_1ga9f26ad2470dbd62255be7fc1cab2b503" kind="typedef"><name>ContinuousContours</name></member>

@@ -73,7 +73,7 @@ var group__VectorGroup =
       [ "dot", "group__GeneralGroup.html#ga12ace0a073b6d056e20f50fabe0b9940", null ],
       [ "end", "group__GeneralGroup.html#ga219a1a3ddaae6f7467c7b62278b0a2df", null ],
       [ "end", "group__GeneralGroup.html#ga6b9ccf24b760d9f47f17c7e5f184e826", null ],
-      [ "mixed", "group__GeneralGroup.html#ga4853bb586796b5d140948d0ab51c0bd0", null ],
+      [ "mixed", "group__GeneralGroup.html#ga02f24aba9c31b2fea8d989d2053ca0af", null ],
       [ "mult", "group__GeneralGroup.html#gae2acb767e75d8fddbe60a26218e7635a", null ],
       [ "operator!=", "group__GeneralGroup.html#ga21621332debf444906aee7baa46ec9bd", null ],
       [ "operator*", "group__GeneralGroup.html#gaaec8d078a94beb3ffac951b9ffd0b6cb", null ],

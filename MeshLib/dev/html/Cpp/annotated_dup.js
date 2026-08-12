@@ -616,6 +616,7 @@ var annotated_dup =
       [ "InSphereSearchSettings", "structMR_1_1InSphereSearchSettings.html", "structMR_1_1InSphereSearchSettings" ],
       [ "InSphereTester", "classMR_1_1InSphereTester.html", "classMR_1_1InSphereTester" ],
       [ "InSphereTesterSoS", "classMR_1_1InSphereTesterSoS.html", "classMR_1_1InSphereTesterSoS" ],
+      [ "Int64Mul128", "classMR_1_1Int64Mul128.html", "classMR_1_1Int64Mul128" ],
       [ "InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", "structMR_1_1InterruptCloseListener" ],
       [ "IntersectionPrecomputes", "structMR_1_1IntersectionPrecomputes.html", "structMR_1_1IntersectionPrecomputes" ],
       [ "IntersectionPrecomputes2", "structMR_1_1IntersectionPrecomputes2.html", "structMR_1_1IntersectionPrecomputes2" ],

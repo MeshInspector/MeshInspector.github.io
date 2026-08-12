@@ -3,6 +3,7 @@
   <compounddef id="group__HighPrecisionGroup" kind="group">
     <compoundname>HighPrecisionGroup</compoundname>
     <title>High Precision</title>
+    <innerclass refid="classMR_1_1Int64Mul128" prot="public">MR::Int64Mul128</innerclass>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" prot="public" static="no">
         <type>boost::multiprecision::int128_t</type>
@@ -158,6 +159,35 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRHighPrecision.h" line="43" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga069a4cfb1c909d7c7e32d575dac759cf" prot="public" static="no">
+        <type>Vector2&lt; Int64Mul128 &gt;</type>
+        <definition>using MR::Vector2i64mul =  Vector2&lt;Int64Mul128&gt;</definition>
+        <argsstring></argsstring>
+        <name>Vector2i64mul</name>
+        <qualifiedname>MR::Vector2i64mul</qualifiedname>
+        <briefdescription>
+<para>no bindings for the same reason as for <ref refid="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" kindref="member">Vector3i128fast</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="59" column="1" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga2290828b1eb673ce78c350b8c3b2b6cb" prot="public" static="no">
+        <type>Vector3&lt; Int64Mul128 &gt;</type>
+        <definition>using MR::Vector3i64mul =  Vector3&lt;Int64Mul128&gt;</definition>
+        <argsstring></argsstring>
+        <name>Vector3i64mul</name>
+        <qualifiedname>MR::Vector3i64mul</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="60" column="1" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="60" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
