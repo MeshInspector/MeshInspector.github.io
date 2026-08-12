@@ -16,7 +16,7 @@
     <detaileddescription>
 <para>the amount of work done during the search of alpha-shape triangles; every function below only increases the counters, never resets them, so the statistics of several calls can be accumulated in one object </para>
     </detaileddescription>
-    <location file="MRMesh/MRAlphaShape.h" line="55" column="1" bodyfile="MRMesh/MRAlphaShape.h" bodystart="56" bodyend="77"/>
+    <location file="MRMesh/MRAlphaShape.h" line="54" column="1" bodyfile="MRMesh/MRAlphaShape.h" bodystart="55" bodyend="76"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>consideredTris</name></member>
       <member refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>inBallTests</name></member>

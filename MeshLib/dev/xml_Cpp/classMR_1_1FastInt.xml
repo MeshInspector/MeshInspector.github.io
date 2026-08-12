@@ -300,7 +300,7 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>signed integer of nBits bits, which must be a multiple of 64 and at least 256 (below that use <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> and <ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref>); the product of two of them is exact, because it is twice as wide as the arguments; as <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> it lacks conversion in double, sqrt-function and stream input/output </para>
+<para>signed integer of nBits bits, which must be a multiple of 64 and at least 192 (below that use <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> with <ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref> and <ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref>); the product of two of them is exact, because it is twice as wide as the arguments; as <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> it lacks conversion in double, sqrt-function and stream input/output </para>
     </detaileddescription>
     <location file="MRMesh/MRFastInt.h" line="112" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="113" bodyend="213"/>
     <listofallmembers>

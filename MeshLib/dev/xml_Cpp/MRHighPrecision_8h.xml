@@ -7,7 +7,6 @@
     <includes refid="MRFastInt128_8h" local="yes">MRFastInt128.h</includes>
     <includes local="no">MRPch/MRBindingMacros.h</includes>
     <includes local="no">boost/multiprecision/cpp_int.hpp</includes>
-    <includedby refid="MRAlphaShape_8h" local="yes">MRMesh/MRAlphaShape.h</includedby>
     <incdepgraph>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -121,18 +120,6 @@
         <label>vector</label>
       </node>
     </incdepgraph>
-    <invincdepgraph>
-      <node id="2">
-        <label>MRMesh/MRAlphaShape.h</label>
-        <link refid="MRAlphaShape_8h"/>
-      </node>
-      <node id="1">
-        <label>MRMesh/MRHighPrecision.h</label>
-        <link refid="MRHighPrecision_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-    </invincdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>

@@ -31667,9 +31667,9 @@
     <member refid="namespacemrmeshpy_1af6b55378183e86a03913a0ff901317c7" kind="function"><name>buildShortestPathAStar</name></member>
     <member refid="namespacemrmeshpy_1a0a8466eecbe3d1a009e7b24623b653cd" kind="function"><name>buildShortestPathBiDir</name></member>
     <member refid="namespacemrmeshpy_1addd36a9ea659f36ef09b10cfdbca2ae7" kind="function"><name>buildShortestPathBiDir</name></member>
-    <member refid="namespacemrmeshpy_1a9ca059a5ccacac5f2e98630c5ce2dad3" kind="function"><name>buildSmallestMetricPath</name></member>
     <member refid="namespacemrmeshpy_1a9ee9db1c708deb83523a679ec304db17" kind="function"><name>buildSmallestMetricPath</name></member>
     <member refid="namespacemrmeshpy_1a0daa7e0ef8a1a78afa948faa72100ef1" kind="function"><name>buildSmallestMetricPath</name></member>
+    <member refid="namespacemrmeshpy_1a9ca059a5ccacac5f2e98630c5ce2dad3" kind="function"><name>buildSmallestMetricPath</name></member>
     <member refid="namespacemrmeshpy_1a06416bc7ad5ae99046f8bf33f88e69fa" kind="function"><name>buildSmallestMetricPathBiDir</name></member>
     <member refid="namespacemrmeshpy_1a14465417165a3e5868ec95545980e8e0" kind="function"><name>buildSmallestMetricPathBiDir</name></member>
     <member refid="namespacemrmeshpy_1ad449af086db2440b7df406c3ed883e01" kind="function"><name>buildUnitedLocalTriangulations</name></member>
@@ -31720,9 +31720,9 @@
     <member refid="namespacemrmeshpy_1a68fd52f36a6e4b39f91ced2d835ee65d" kind="function"><name>circumcircleDiameterSq</name></member>
     <member refid="namespacemrmeshpy_1a6a4d9d2a16cc5ba8975bf2e585d6bd81" kind="function"><name>circumcircleDiameterSq</name></member>
     <member refid="namespacemrmeshpy_1ae3846483ccbe2c893768066ca9149f30" kind="function"><name>classifyShellVert</name></member>
-    <member refid="namespacemrmeshpy_1a29619f933fc4b061e384717e30ca64b9" kind="function"><name>cloneRegion</name></member>
     <member refid="namespacemrmeshpy_1a27922d0e318bff356c04f28ebf635e8b" kind="function"><name>cloneRegion</name></member>
     <member refid="namespacemrmeshpy_1a07a27e02cbb10c2b0dd83ea1ec5f12ce" kind="function"><name>cloneRegion</name></member>
+    <member refid="namespacemrmeshpy_1a29619f933fc4b061e384717e30ca64b9" kind="function"><name>cloneRegion</name></member>
     <member refid="namespacemrmeshpy_1afcc7699d0a18740e05e2044504d3c768" kind="function"><name>closestPointInTriangle</name></member>
     <member refid="namespacemrmeshpy_1a72d318c37a5467deba66d23cad43c50f" kind="function"><name>closestPointInTriangle</name></member>
     <member refid="namespacemrmeshpy_1a52ac8fa7ccde5d18a88961797b770764" kind="function"><name>combineXYderivativeMaps</name></member>
@@ -31783,10 +31783,10 @@
     <member refid="namespacemrmeshpy_1af6167826874d5f6365f3f89048d3ff01" kind="function"><name>convertContourTo2f</name></member>
     <member refid="namespacemrmeshpy_1a8efda26e9a5df3d1f917864e231db03f" kind="function"><name>convertContourTo2f</name></member>
     <member refid="namespacemrmeshpy_1ab0e41559563244cf755f17513ef74a98" kind="function"><name>convertContourTo2f</name></member>
-    <member refid="namespacemrmeshpy_1ad03c4fa12d708f1160e6730ecdd34923" kind="function"><name>convertContourTo3d</name></member>
     <member refid="namespacemrmeshpy_1a7c3f5c862f41fc425d2675b89445d8f1" kind="function"><name>convertContourTo3d</name></member>
     <member refid="namespacemrmeshpy_1a277b908bbb4fdb269cd47d3f6204237c" kind="function"><name>convertContourTo3d</name></member>
     <member refid="namespacemrmeshpy_1a40d0f328c3a6e51780ab7ebc1e9b2db6" kind="function"><name>convertContourTo3d</name></member>
+    <member refid="namespacemrmeshpy_1ad03c4fa12d708f1160e6730ecdd34923" kind="function"><name>convertContourTo3d</name></member>
     <member refid="namespacemrmeshpy_1ae9fb5f335a381104ecfb7a1ae14e949c" kind="function"><name>convertContourTo3f</name></member>
     <member refid="namespacemrmeshpy_1a4e1ee31908a01e5831d63d1328c881a8" kind="function"><name>convertContourTo3f</name></member>
     <member refid="namespacemrmeshpy_1a2d2cc109be378c2e8f1cff122040ddac" kind="function"><name>convertContourTo3f</name></member>
@@ -31838,8 +31838,8 @@
     <member refid="namespacemrmeshpy_1a80492f5f456a264b7f65c90bbc7801fa" kind="function"><name>cross</name></member>
     <member refid="namespacemrmeshpy_1a69054ab96bf735830c828070a9cacb6f" kind="function"><name>cross</name></member>
     <member refid="namespacemrmeshpy_1abf00a5b77a5445fdd947b2f903c0c268" kind="function"><name>curveFromPoints</name></member>
-    <member refid="namespacemrmeshpy_1aed4aab72a9334f3c2ba907e96df0410f" kind="function"><name>cutAlongEdgeLoop</name></member>
     <member refid="namespacemrmeshpy_1a335d39bee58418fcd2782a4055ee58ff" kind="function"><name>cutAlongEdgeLoop</name></member>
+    <member refid="namespacemrmeshpy_1aed4aab72a9334f3c2ba907e96df0410f" kind="function"><name>cutAlongEdgeLoop</name></member>
     <member refid="namespacemrmeshpy_1abd4b2e2ada547d45571535ba36bf7a14" kind="function"><name>cutMesh</name></member>
     <member refid="namespacemrmeshpy_1a8f7ab47fecdc5ad5e62c68b1c91df704" kind="function"><name>cutMeshByContour</name></member>
     <member refid="namespacemrmeshpy_1afadd34410a6933bfcd0de3fa08c2ebd1" kind="function"><name>cutMeshByContours</name></member>
@@ -31889,10 +31889,10 @@
     <member refid="namespacemrmeshpy_1a8ea3e706c198fa3d26ebeba2e8b1cc99" kind="function"><name>dihedralAngleSin</name></member>
     <member refid="namespacemrmeshpy_1a2b5bbd28ae39c76af62e9c854595a0c3" kind="function"><name>dihedralAngleSin</name></member>
     <member refid="namespacemrmeshpy_1ad6261902986f448dbdf4652f59bbc381" kind="function"><name>dihedralAngleSin</name></member>
-    <member refid="namespacemrmeshpy_1ac53ca849269a14fb1b01b9b2f1e02b93" kind="function"><name>dilateRegion</name></member>
     <member refid="namespacemrmeshpy_1ac95d5b9ba912c35c26248e376e10acf7" kind="function"><name>dilateRegion</name></member>
     <member refid="namespacemrmeshpy_1aec84b14c991ef2ca0713e6130666f1c7" kind="function"><name>dilateRegion</name></member>
     <member refid="namespacemrmeshpy_1a520c27a1a275294107e4a7a1228473e5" kind="function"><name>dilateRegion</name></member>
+    <member refid="namespacemrmeshpy_1ac53ca849269a14fb1b01b9b2f1e02b93" kind="function"><name>dilateRegion</name></member>
     <member refid="namespacemrmeshpy_1a96fac637576ac9fd9490037af09489d6" kind="function"><name>dilateRegion</name></member>
     <member refid="namespacemrmeshpy_1a834f7db2354694663894cc7ad3ad44e2" kind="function"><name>dilateRegion</name></member>
     <member refid="namespacemrmeshpy_1a0cd374d795bbd92f7e9e4893ade6d4a5" kind="function"><name>dilateRegion</name></member>
@@ -31922,10 +31922,10 @@
     <member refid="namespacemrmeshpy_1a223f8bf40ff6af0f9b49a6eaff4a7ab6" kind="function"><name>distance</name></member>
     <member refid="namespacemrmeshpy_1a3cc2cd60d7a751ff1c4955fd0b04c97d" kind="function"><name>distanceMapFromContours</name></member>
     <member refid="namespacemrmeshpy_1ab18a600b53928ef7a59e416cceaf717d" kind="function"><name>distanceMapFromContours</name></member>
-    <member refid="namespacemrmeshpy_1a37b7fc6a8c13f92298e09b9d6e64eb33" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
     <member refid="namespacemrmeshpy_1a4e02a0ece27ba40eac264055e01352fa" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
     <member refid="namespacemrmeshpy_1a6e44c0827b2f93fde7f5cc7774d700da" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
     <member refid="namespacemrmeshpy_1a713c1621a8213e99338aa7bbbd3a4cc6" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
+    <member refid="namespacemrmeshpy_1a37b7fc6a8c13f92298e09b9d6e64eb33" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
     <member refid="namespacemrmeshpy_1a37055ec0d87fb4f735616bf142b696ac" kind="function"><name>distanceMapToMesh</name></member>
     <member refid="namespacemrmeshpy_1af9fbaf6fd7efbcf3fdcd618d971ba4d5" kind="function"><name>distanceSq</name></member>
     <member refid="namespacemrmeshpy_1a9db768fb0e6c4d485050e99cdda53703" kind="function"><name>distanceSq</name></member>
@@ -32034,9 +32034,9 @@
     <member refid="namespacemrmeshpy_1ae31f305e878f7b0f3b8ee264e80a9c61" kind="function"><name>erodeRegion</name></member>
     <member refid="namespacemrmeshpy_1a34f738bcb81b360c95f3e2045f27fcf5" kind="function"><name>erodeRegion</name></member>
     <member refid="namespacemrmeshpy_1a6419b16d3a42ea51fe2123b713d9c50e" kind="function"><name>erodeRegion</name></member>
+    <member refid="namespacemrmeshpy_1af4483659cf3f5a0d4da50d3c9db52118" kind="function"><name>erodeRegionByMetric</name></member>
     <member refid="namespacemrmeshpy_1aa81692ef34f41ffdad4088fd8a4ecf56" kind="function"><name>erodeRegionByMetric</name></member>
     <member refid="namespacemrmeshpy_1afdea300bcd5ef5dc1019be2d73b6a047" kind="function"><name>erodeRegionByMetric</name></member>
-    <member refid="namespacemrmeshpy_1af4483659cf3f5a0d4da50d3c9db52118" kind="function"><name>erodeRegionByMetric</name></member>
     <member refid="namespacemrmeshpy_1a9f9749222252fe0f56410f8ce8f377e8" kind="function"><name>evalGridMinMax</name></member>
     <member refid="namespacemrmeshpy_1afe19a0c5eca5861a824a6e957c60dc40" kind="function"><name>executeHoleFillPlan</name></member>
     <member refid="namespacemrmeshpy_1a6aa4b609ffc96d278f1b391a79868828" kind="function"><name>expand</name></member>
@@ -32118,13 +32118,13 @@
     <member refid="namespacemrmeshpy_1a7ae1d3f16988eb1d461495f08c73f46d" kind="function"><name>findDirMax</name></member>
     <member refid="namespacemrmeshpy_1aba65519e37c380e4344ef604923f9986" kind="function"><name>findDirMax</name></member>
     <member refid="namespacemrmeshpy_1a6484ee19e047a62fee7ada319e351fe6" kind="function"><name>findDirMax</name></member>
-    <member refid="namespacemrmeshpy_1a64981acaac19ba7cde668144652e3728" kind="function"><name>findDirMaxBruteForce</name></member>
-    <member refid="namespacemrmeshpy_1a556b377adeae2f8c680ccb5785b110bc" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a83f42502effaac62e54ddc7843e504bc" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1ae8af86a21782e99ab3faea8fa3e4a003" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a7606b6f6dc82a063d3215d57dda37d38" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a2a4e19512f4d758b4b03e24486adf98a" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1aa2ddc0e0840efa6e084a67bd694e2652" kind="function"><name>findDirMaxBruteForce</name></member>
+    <member refid="namespacemrmeshpy_1a64981acaac19ba7cde668144652e3728" kind="function"><name>findDirMaxBruteForce</name></member>
+    <member refid="namespacemrmeshpy_1a556b377adeae2f8c680ccb5785b110bc" kind="function"><name>findDirMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a7b58d49a1b49cf78c1244ce395584715" kind="function"><name>findDirMinMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a17c0329ddae69a7341e50e82cba0aefe" kind="function"><name>findDirMinMaxBruteForce</name></member>
     <member refid="namespacemrmeshpy_1a957a650ecedfcae0a0dc651dc92d322e" kind="function"><name>findDirMinMaxBruteForce</name></member>
@@ -32206,9 +32206,9 @@
     <member refid="namespacemrmeshpy_1aff36f4153a4616c5be4e14134048517d" kind="function"><name>findSignedDistances</name></member>
     <member refid="namespacemrmeshpy_1af5e45fccb653c60e0e8cfc86385074f3" kind="function"><name>findSignedDistances</name></member>
     <member refid="namespacemrmeshpy_1a9e193dbaa30f2905bf720de0511d891d" kind="function"><name>findSkyRays</name></member>
-    <member refid="namespacemrmeshpy_1ae9dd43b10d6766303f375c96e082af78" kind="function"><name>findSmallestCloseVertices</name></member>
     <member refid="namespacemrmeshpy_1ac6ab89b83c98595ead68b2be64b68eb2" kind="function"><name>findSmallestCloseVertices</name></member>
     <member refid="namespacemrmeshpy_1a943ec00e47a0a9d8083e220b37a42e0e" kind="function"><name>findSmallestCloseVertices</name></member>
+    <member refid="namespacemrmeshpy_1ae9dd43b10d6766303f375c96e082af78" kind="function"><name>findSmallestCloseVertices</name></member>
     <member refid="namespacemrmeshpy_1a5ff3cb5c61a7636fdaa2df7d1b2e73cc" kind="function"><name>findSmallestCloseVerticesUsingTree</name></member>
     <member refid="namespacemrmeshpy_1a1f5388550f80146ecd385e0e67151a14" kind="function"><name>findSmallestMetricCoLoop</name></member>
     <member refid="namespacemrmeshpy_1a7e5aa5159f94198a2ffe00a8250089fa" kind="function"><name>findSmallestMetricEquivalentLoops</name></member>
@@ -32447,8 +32447,8 @@
     <member refid="namespacemrmeshpy_1ae1031a3594a208de8eeb82e7295b8638" kind="function"><name>interpolateArcs</name></member>
     <member refid="namespacemrmeshpy_1a68e31268226515ddddf724fc783171a8" kind="function"><name>interpolateLines</name></member>
     <member refid="namespacemrmeshpy_1ab795144bcd22c107fefe69589b5171e4" kind="function"><name>intersection</name></member>
-    <member refid="namespacemrmeshpy_1ae9b20cc6e530a281d066021fc457aaaf" kind="function"><name>isClosed</name></member>
     <member refid="namespacemrmeshpy_1aaa9a012e616c0f5d9934f66499627dc9" kind="function"><name>isClosed</name></member>
+    <member refid="namespacemrmeshpy_1ae9b20cc6e530a281d066021fc457aaaf" kind="function"><name>isClosed</name></member>
     <member refid="namespacemrmeshpy_1a690ec66cd92c4e19d59e2d04c9394988" kind="function"><name>isConsistentlyOriented</name></member>
     <member refid="namespacemrmeshpy_1ae3ff440abd39eb7515fa5c803dd3b487" kind="function"><name>isDegree3Dest</name></member>
     <member refid="namespacemrmeshpy_1aab0260a8d9a199fc6d4d0082917d943d" kind="function"><name>isEdgeBetweenDoubleTris</name></member>
@@ -32621,9 +32621,9 @@
     <member refid="namespacemrmeshpy_1aee563bb37bb50a9fa54e538d08bd72cf" kind="function"><name>markedFirstLast</name></member>
     <member refid="namespacemrmeshpy_1a71be57f65414c9255f53edd12d174de0" kind="function"><name>mcOffsetMesh</name></member>
     <member refid="namespacemrmeshpy_1a9bd66b63d50d850e0f8cbdc783eb2901" kind="function"><name>mcShellMeshRegion</name></member>
-    <member refid="namespacemrmeshpy_1a8283800b9c29c2bfd3a74466eeb19830" kind="function"><name>merge</name></member>
     <member refid="namespacemrmeshpy_1a81404dab575dbd0a2ad5223c6048366c" kind="function"><name>merge</name></member>
     <member refid="namespacemrmeshpy_1a476b7125d2b4f021c97c000ef788fb92" kind="function"><name>merge</name></member>
+    <member refid="namespacemrmeshpy_1a8283800b9c29c2bfd3a74466eeb19830" kind="function"><name>merge</name></member>
     <member refid="namespacemrmeshpy_1acf5bf06b616108f9412b76131dc4b0ea" kind="function"><name>mergeMeshes</name></member>
     <member refid="namespacemrmeshpy_1aac7ea7fafbc906f05d8331798acbbbf4" kind="function"><name>meshDenoiseViaNormals</name></member>
     <member refid="namespacemrmeshpy_1ab8736ad0c8e20f97c307b613907ce567" kind="function"><name>meshFromVoxelsMask</name></member>

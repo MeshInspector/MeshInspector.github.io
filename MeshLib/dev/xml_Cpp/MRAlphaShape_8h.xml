@@ -5,7 +5,6 @@
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includes refid="MRPrecisePredicates3_8h" local="yes">MRPrecisePredicates3.h</includes>
     <includes refid="MRFastInt128_8h" local="yes">MRFastInt128.h</includes>
-    <includes refid="MRHighPrecision_8h" local="yes">MRHighPrecision.h</includes>
     <includes refid="MRVector_8h" local="yes">MRVector.h</includes>
     <includes local="yes">MRPch/MRBindingMacros.h</includes>
     <includes local="no">cstddef</includes>
@@ -21,8 +20,6 @@
         <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -41,43 +38,9 @@
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="29">
-        <label>MRFastInt.h</label>
-        <link refid="MRFastInt_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
       <node id="27">
         <label>MRFastInt128.h</label>
         <link refid="MRFastInt128_8h"/>
-      </node>
-      <node id="28">
-        <label>MRHighPrecision.h</label>
-        <link refid="MRHighPrecision_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
       </node>
       <node id="25">
         <label>MRId.h</label>
@@ -139,14 +102,14 @@
         <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="33">
+      <node id="29">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
       <node id="16">
@@ -157,14 +120,14 @@
         <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="28">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -208,9 +171,6 @@
       <node id="7">
         <label>array</label>
       </node>
-      <node id="31">
-        <label>boost/multiprecision/cpp_int.hpp</label>
-      </node>
       <node id="13">
         <label>cassert</label>
       </node>
@@ -218,9 +178,6 @@
         <label>cmath</label>
       </node>
       <node id="30">
-        <label>compare</label>
-      </node>
-      <node id="34">
         <label>concepts</label>
       </node>
       <node id="17">
@@ -271,76 +228,75 @@
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMeshFwd_8h" kindref="compound">MRMeshFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPrecisePredicates3_8h" kindref="compound">MRPrecisePredicates3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFastInt128_8h" kindref="compound">MRFastInt128.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRHighPrecision_8h" kindref="compound">MRHighPrecision.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector_8h" kindref="compound">MRVector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRBindingMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstddef&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
-<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector_8h" kindref="compound">MRVector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRBindingMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstddef&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="structMR_1_1AlphaShapeData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1AlphaShapeData" kindref="compound">AlphaShapeData</ref></highlight></codeline>
-<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1ga7644918118a8c385b1e65af953cbb4f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ConvertToIntVector" kindref="compound">ConvertToIntVector</ref><sp/><ref refid="group__GeneralGroup_1ga7644918118a8c385b1e65af953cbb4f7" kindref="member">toInt</ref>;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1ga83480f95b9e1d4f1069a44ea03726ea8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;Vector3i, VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga83480f95b9e1d4f1069a44ea03726ea8" kindref="member">intPoints</ref>;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="group__GeneralGroup_1ga9f56dd5709fb6f4de21f77cae0674f72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::int64_t<sp/><ref refid="group__GeneralGroup_1ga9f56dd5709fb6f4de21f77cae0674f72" kindref="member">intRadiusSq</ref><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="group__GeneralGroup_1gadbecaa4f00f06aa00986ff64e0c42b23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadbecaa4f00f06aa00986ff64e0c42b23" kindref="member">searchRadius</ref><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="group__GeneralGroup_1gab027a43036b782d7ea846bda9372d022" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref><sp/><ref refid="group__GeneralGroup_1gab027a43036b782d7ea846bda9372d022" kindref="member">coords</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/>VertId<sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1AlphaShapeData" kindref="compound">AlphaShapeData</ref><sp/><ref refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" kindref="member">getAlphaShapeData</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allPoints<sp/>);</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="structMR_1_1AlphaShapeStats" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref></highlight></codeline>
-<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="59" refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/><ref refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kindref="member">consideredTris</ref><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/><ref refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kindref="member">touchableTris</ref><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/><ref refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" kindref="member">inBallTests</ref><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" kindref="member">operator +=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>&amp;<sp/>r<sp/>)</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kindref="member">consideredTris</ref><sp/>+=<sp/>r.<ref refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kindref="member">consideredTris</ref>;</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kindref="member">touchableTris</ref><sp/>+=<sp/>r.<ref refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kindref="member">touchableTris</ref>;</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" kindref="member">inBallTests</ref><sp/>+=<sp/>r.<ref refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" kindref="member">inBallTests</ref>;</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="77"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="structMR_1_1AlphaShapeNei" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1AlphaShapeNei" kindref="compound">AlphaShapeNei</ref></highlight></codeline>
-<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="83" refid="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref><sp/><ref refid="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" kindref="member">coords</ref>;</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="group__GeneralGroup_1ga946329fc95f92804b085844fdbc8e091" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref><sp/><ref refid="group__GeneralGroup_1ga946329fc95f92804b085844fdbc8e091" kindref="member">distSq</ref>;</highlight></codeline>
-<codeline lineno="87"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="group__GeneralGroup_1ga6518dbc6c7ff8ff9c2d5eee997acd766" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6518dbc6c7ff8ff9c2d5eee997acd766" kindref="member">findAlphaShapeNeiTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/>VertId<sp/>v,</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AlphaShapeData" kindref="compound">AlphaShapeData</ref><sp/>&amp;<sp/>data,<sp/></highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>Triangulation<sp/>&amp;<sp/>appendTris,<sp/><sp/></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;AlphaShapeNei&gt;<sp/>&amp;<sp/>neis,<sp/></highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>onlyLargerVids,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>*<sp/>stats<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);<sp/></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Triangulation&gt;<sp/><ref refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" kindref="member">findAlphaShapeAllTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb,<sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>*<sp/>stats<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="101" refid="group__GeneralGroup_1ga44dece01c32cea22aac7aab8915caa2b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Triangulation<sp/><ref refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" kindref="member">findAlphaShapeAllTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>*<sp/>stats<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="group__GeneralGroup_1ga9f304608f78c5e19b2d5c560900e5bfb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Triangulation&gt;<sp/><ref refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" kindref="member">findAlphaShapeAllTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AlphaShapeData" kindref="compound">AlphaShapeData</ref><sp/>&amp;<sp/>data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb,<sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>*<sp/>stats<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="group__GeneralGroup_1ga206e1ff370f4c549a290390c0e540d89" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Mesh&gt;<sp/><ref refid="group__GeneralGroup_1ga206e1ff370f4c549a290390c0e540d89" kindref="member">findAlphaShape</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb,<sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>*<sp/>stats<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="112" refid="group__GeneralGroup_1gab742b798176547393043027206aa42c9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga206e1ff370f4c549a290390c0e540d89" kindref="member">findAlphaShape</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>*<sp/>stats<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="structMR_1_1AlphaShapeData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1AlphaShapeData" kindref="compound">AlphaShapeData</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga7644918118a8c385b1e65af953cbb4f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ConvertToIntVector" kindref="compound">ConvertToIntVector</ref><sp/><ref refid="group__GeneralGroup_1ga7644918118a8c385b1e65af953cbb4f7" kindref="member">toInt</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ga83480f95b9e1d4f1069a44ea03726ea8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;Vector3i, VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga83480f95b9e1d4f1069a44ea03726ea8" kindref="member">intPoints</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga9f56dd5709fb6f4de21f77cae0674f72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::int64_t<sp/><ref refid="group__GeneralGroup_1ga9f56dd5709fb6f4de21f77cae0674f72" kindref="member">intRadiusSq</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1gadbecaa4f00f06aa00986ff64e0c42b23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadbecaa4f00f06aa00986ff64e0c42b23" kindref="member">searchRadius</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1gab027a43036b782d7ea846bda9372d022" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref><sp/><ref refid="group__GeneralGroup_1gab027a43036b782d7ea846bda9372d022" kindref="member">coords</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/>VertId<sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1AlphaShapeData" kindref="compound">AlphaShapeData</ref><sp/><ref refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" kindref="member">getAlphaShapeData</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allPoints<sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="structMR_1_1AlphaShapeStats" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58" refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/><ref refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kindref="member">consideredTris</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/><ref refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kindref="member">touchableTris</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/><ref refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" kindref="member">inBallTests</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" kindref="member">operator +=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>&amp;<sp/>r<sp/>)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kindref="member">consideredTris</ref><sp/>+=<sp/>r.<ref refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kindref="member">consideredTris</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kindref="member">touchableTris</ref><sp/>+=<sp/>r.<ref refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kindref="member">touchableTris</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" kindref="member">inBallTests</ref><sp/>+=<sp/>r.<ref refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" kindref="member">inBallTests</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="structMR_1_1AlphaShapeNei" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1AlphaShapeNei" kindref="compound">AlphaShapeNei</ref></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82" refid="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref><sp/><ref refid="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" kindref="member">coords</ref>;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="group__GeneralGroup_1ga946329fc95f92804b085844fdbc8e091" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref><sp/><ref refid="group__GeneralGroup_1ga946329fc95f92804b085844fdbc8e091" kindref="member">distSq</ref>;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="group__GeneralGroup_1ga6518dbc6c7ff8ff9c2d5eee997acd766" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6518dbc6c7ff8ff9c2d5eee997acd766" kindref="member">findAlphaShapeNeiTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/>VertId<sp/>v,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AlphaShapeData" kindref="compound">AlphaShapeData</ref><sp/>&amp;<sp/>data,<sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>Triangulation<sp/>&amp;<sp/>appendTris,<sp/><sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;AlphaShapeNei&gt;<sp/>&amp;<sp/>neis,<sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>onlyLargerVids,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>*<sp/>stats<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);<sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Triangulation&gt;<sp/><ref refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" kindref="member">findAlphaShapeAllTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb,<sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>*<sp/>stats<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="100" refid="group__GeneralGroup_1ga44dece01c32cea22aac7aab8915caa2b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Triangulation<sp/><ref refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" kindref="member">findAlphaShapeAllTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>*<sp/>stats<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="group__GeneralGroup_1ga9f304608f78c5e19b2d5c560900e5bfb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Triangulation&gt;<sp/><ref refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" kindref="member">findAlphaShapeAllTriangles</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AlphaShapeData" kindref="compound">AlphaShapeData</ref><sp/>&amp;<sp/>data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb,<sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>*<sp/>stats<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="group__GeneralGroup_1ga206e1ff370f4c549a290390c0e540d89" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>std::optional&lt;Mesh&gt;<sp/><ref refid="group__GeneralGroup_1ga206e1ff370f4c549a290390c0e540d89" kindref="member">findAlphaShape</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>&amp;<sp/>cb,<sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>*<sp/>stats<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="111" refid="group__GeneralGroup_1gab742b798176547393043027206aa42c9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga206e1ff370f4c549a290390c0e540d89" kindref="member">findAlphaShape</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/><ref refid="structMR_1_1AlphaShapeStats" kindref="compound">AlphaShapeStats</ref><sp/>*<sp/>stats<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRAlphaShape.h"/>
   </compounddef>

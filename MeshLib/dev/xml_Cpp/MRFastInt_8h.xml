@@ -109,25 +109,19 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3">
-        <label>MRMesh/MRAlphaShape.h</label>
-        <link refid="MRAlphaShape_8h"/>
-      </node>
       <node id="1">
         <label>MRMesh/MRFastInt.h</label>
         <link refid="MRFastInt_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>MRMesh/MRHighPrecision.h</label>
         <link refid="MRHighPrecision_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
       </node>
-      <node id="4">
+      <node id="3">
         <label>MRMesh/MRInSphere.h</label>
         <link refid="MRInSphere_8h"/>
       </node>
@@ -235,7 +229,7 @@
 <codeline lineno="112" refid="classMR_1_1FastInt" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="classMR_1_1FastInt_1adc826ada3574b780f6bd6bf4739bb725" kindref="member">FastInt</ref></highlight></codeline>
 <codeline lineno="113"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/>nBits<sp/>&gt;=<sp/>256<sp/>&amp;&amp;<sp/>nBits<sp/>%<sp/>64<sp/>==<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/>nBits<sp/>&gt;=<sp/>192<sp/>&amp;&amp;<sp/>nBits<sp/>%<sp/>64<sp/>==<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
 <codeline lineno="118" refid="classMR_1_1FastInt_1afcd10d8886953c1764137528d675b0ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FastInt_1afcd10d8886953c1764137528d675b0ae" kindref="member">numWords</ref><sp/>=<sp/>nBits<sp/>/<sp/>64;</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
