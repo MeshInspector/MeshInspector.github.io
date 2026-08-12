@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FastInt" kind="class" language="C++" prot="public">
+    <compoundname>MR::FastInt</compoundname>
+    <includes refid="MRFastInt_8h" local="no">MRMesh/MRFastInt.h</includes>
+    <templateparamlist>
+      <param>
+        <type>int</type>
+        <declname>nBits</declname>
+        <defname>nBits</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1FastInt_1afcd10d8886953c1764137528d675b0ae" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::FastInt&lt; nBits &gt;::numWords</definition>
+        <argsstring></argsstring>
+        <name>numWords</name>
+        <qualifiedname>MR::FastInt::numWords</qualifiedname>
+        <initializer>= nBits / 64</initializer>
+        <briefdescription>
+<para>the number of words in the representation below </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="98" column="26" bodyfile="MRMesh/MRFastInt.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1FastInt_1aef342f52d379f8b2ac6e7eac40b17e31" prot="public" static="no" mutable="no">
+        <type>std::array&lt; std::uint64_t, <ref refid="classMR_1_1FastInt_1afcd10d8886953c1764137528d675b0ae" kindref="member">numWords</ref> &gt;</type>
+        <definition>std::array&lt;std::uint64_t, numWords&gt; MR::FastInt&lt; nBits &gt;::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>MR::FastInt::w</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>two&apos;s complement representation: w[0] + 2^64 * w[1] + ... + 2^(nBits-64) * std::int64_t( w[numWords-1] ) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="101" column="16" bodyfile="MRMesh/MRFastInt.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FastInt_1adc826ada3574b780f6bd6bf4739bb725" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::FastInt&lt; nBits &gt;::FastInt</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>FastInt</name>
+        <qualifiedname>MR::FastInt::FastInt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="103" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FastInt_1a9c22199fe268525f17daf7a5b916cb28" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr</type>
+        <definition>MR::FastInt&lt; nBits &gt;::FastInt</definition>
+        <argsstring>(T v) noexcept</argsstring>
+        <name>FastInt</name>
+        <qualifiedname>MR::FastInt::FastInt</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>v</declname>
+        </param>
+    <requiresclause>detail::cFitsFastInt128&lt;T&gt;    </requiresclause>
+        <briefdescription>
+<para>sign-extends the given value, which must fit in 128 bits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="108" column="15" bodyfile="MRMesh/MRFastInt.h" bodystart="108" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FastInt_1ac022c43c1eb2e45d45dce83e51e00282" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>mBits</declname>
+            <defname>mBits</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr</type>
+        <definition>MR::FastInt&lt; nBits &gt;::FastInt</definition>
+        <argsstring>(const FastInt&lt; mBits &gt; &amp;v) noexcept</argsstring>
+        <name>FastInt</name>
+        <qualifiedname>MR::FastInt::FastInt</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref>&lt; mBits &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+    <requiresclause>( mBits &lt; nBits )    </requiresclause>
+        <briefdescription>
+<para>sign-extends a narrower value of this family </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="121" column="15" bodyfile="MRMesh/MRFastInt.h" bodystart="121" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FastInt_1aa060083b3726161e19a5b74fb86c0308" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::FastInt&lt; nBits &gt;::sign</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>sign</name>
+        <qualifiedname>MR::FastInt::sign</qualifiedname>
+        <briefdescription>
+<para>-1, 0 or 1 if the value is negative, zero or positive respectively </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="132" column="20" bodyfile="MRMesh/MRFastInt.h" bodystart="132" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FastInt_1a5e086aa7ac4fa48de5b2b3b3dd922e17" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
+        <definition>FastInt &amp; MR::FastInt&lt; nBits &gt;::operator+=</definition>
+        <argsstring>(const FastInt &amp;b) noexcept</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>MR::FastInt::operator+=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="142" column="24" bodyfile="MRMesh/MRFastInt.h" bodystart="142" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FastInt_1aed6bcb954638768286a8966116339f08" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
+        <definition>FastInt &amp; MR::FastInt&lt; nBits &gt;::operator-=</definition>
+        <argsstring>(const FastInt &amp;b) noexcept</argsstring>
+        <name>operator-=</name>
+        <qualifiedname>MR::FastInt::operator-=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="150" column="24" bodyfile="MRMesh/MRFastInt.h" bodystart="150" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FastInt_1a30d3846c023a0e31c29f90e0284487a0" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref></type>
+        <definition>FastInt MR::FastInt&lt; nBits &gt;::operator-</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::FastInt::operator-</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="158" column="24" bodyfile="MRMesh/MRFastInt.h" bodystart="158" bodyend="163"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classMR_1_1FastInt_1a51730f5fbbb7fdd879123cb526b31fe6" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref></type>
+        <definition>FastInt operator+</definition>
+        <argsstring>(FastInt a, const FastInt &amp;b) noexcept</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR::FastInt::operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="165" column="31" bodyfile="MRMesh/MRFastInt.h" bodystart="165" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1FastInt_1a8103f525de84a57f65124a8ed3a2bfa4" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref></type>
+        <definition>FastInt operator-</definition>
+        <argsstring>(FastInt a, const FastInt &amp;b) noexcept</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::FastInt::operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="166" column="31" bodyfile="MRMesh/MRFastInt.h" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1FastInt_1a4ec94ee8f61f382a1c83bf19c6d155bb" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref>&lt; 2 *nBits &gt;</type>
+        <definition>FastInt&lt; 2 *nBits &gt; operator*</definition>
+        <argsstring>(const FastInt &amp;a, const FastInt &amp;b) noexcept</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::FastInt::operator*</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>the exact product, which in general needs twice as many bits as the arguments </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="169" column="31" bodyfile="MRMesh/MRFastInt.h" bodystart="169" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1FastInt_1a2960f833ad8f3f5da49ea5f677f20dd7" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const FastInt &amp;a, const FastInt &amp;b) noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::FastInt::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="176" column="28" bodyfile="MRMesh/MRFastInt.h" bodystart="176" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1FastInt_1a7a964d03ea02e3d65cfe851a6623cf1a" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::strong_ordering</type>
+        <definition>std::strong_ordering operator&lt;=&gt;</definition>
+        <argsstring>(const FastInt &amp;a, const FastInt &amp;b) noexcept</argsstring>
+        <name>operator&lt;=&gt;</name>
+        <qualifiedname>MR::FastInt::operator&lt;=&gt;</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="178" column="23" bodyfile="MRMesh/MRFastInt.h" bodystart="178" bodyend="186"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>signed integer of nBits bits, which must be a multiple of 64 and at least 256 (below that use <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> and <ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref>); the product of two of them is exact, because it is twice as wide as the arguments; as <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> it lacks conversion in double, sqrt-function and stream input/output </para>
+    </detaileddescription>
+    <location file="MRMesh/MRFastInt.h" line="92" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="93" bodyend="187"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FastInt_1adc826ada3574b780f6bd6bf4739bb725" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>FastInt</name></member>
+      <member refid="classMR_1_1FastInt_1a9c22199fe268525f17daf7a5b916cb28" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>FastInt</name></member>
+      <member refid="classMR_1_1FastInt_1ac022c43c1eb2e45d45dce83e51e00282" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>FastInt</name></member>
+      <member refid="classMR_1_1FastInt_1afcd10d8886953c1764137528d675b0ae" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>numWords</name></member>
+      <member refid="classMR_1_1FastInt_1a4ec94ee8f61f382a1c83bf19c6d155bb" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>operator*</name></member>
+      <member refid="classMR_1_1FastInt_1a51730f5fbbb7fdd879123cb526b31fe6" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>operator+</name></member>
+      <member refid="classMR_1_1FastInt_1a5e086aa7ac4fa48de5b2b3b3dd922e17" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>operator+=</name></member>
+      <member refid="classMR_1_1FastInt_1a30d3846c023a0e31c29f90e0284487a0" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>operator-</name></member>
+      <member refid="classMR_1_1FastInt_1a8103f525de84a57f65124a8ed3a2bfa4" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>operator-</name></member>
+      <member refid="classMR_1_1FastInt_1aed6bcb954638768286a8966116339f08" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>operator-=</name></member>
+      <member refid="classMR_1_1FastInt_1a7a964d03ea02e3d65cfe851a6623cf1a" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>operator&lt;=&gt;</name></member>
+      <member refid="classMR_1_1FastInt_1a2960f833ad8f3f5da49ea5f677f20dd7" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>operator==</name></member>
+      <member refid="classMR_1_1FastInt_1aa060083b3726161e19a5b74fb86c0308" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>sign</name></member>
+      <member refid="classMR_1_1FastInt_1aef342f52d379f8b2ac6e7eac40b17e31" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>w</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

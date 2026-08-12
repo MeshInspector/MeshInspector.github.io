@@ -208,6 +208,7 @@
     <innerclass refid="structMR_1_1FaceFaceFace" prot="public">MR::FaceFaceFace</innerclass>
     <innerclass refid="structMR_1_1FanRecord" prot="public">MR::FanRecord</innerclass>
     <innerclass refid="structMR_1_1FanRecordWithCenter" prot="public">MR::FanRecordWithCenter</innerclass>
+    <innerclass refid="classMR_1_1FastInt" prot="public">MR::FastInt</innerclass>
     <innerclass refid="classMR_1_1FastWindingNumber" prot="public">MR::FastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1FeatureObject" prot="public">MR::FeatureObject</innerclass>
     <innerclass refid="structMR_1_1FeatureObjectProjectPointResult" prot="public">MR::FeatureObjectProjectPointResult</innerclass>
@@ -296,6 +297,7 @@
     <innerclass refid="classMR_1_1InSphereTester" prot="public">MR::InSphereTester</innerclass>
     <innerclass refid="classMR_1_1InSphereTester_3_01int_01_4" prot="public">MR::InSphereTester&lt; int &gt;</innerclass>
     <innerclass refid="classMR_1_1InSphereTesterSoS" prot="public">MR::InSphereTesterSoS</innerclass>
+    <innerclass refid="classMR_1_1Int128Mul256" prot="public">MR::Int128Mul256</innerclass>
     <innerclass refid="classMR_1_1Int64Mul128" prot="public">MR::Int64Mul128</innerclass>
     <innerclass refid="structMR_1_1InterruptCloseListener" prot="public">MR::InterruptCloseListener</innerclass>
     <innerclass refid="structMR_1_1IntersectionPrecomputes" prot="public">MR::IntersectionPrecomputes</innerclass>
@@ -1706,7 +1708,13 @@
       <member refid="group__GeneralGroup_1ga9373564bf8d768311a39df2f41d3d8e4" kind="typedef"><name>CurvePoints</name></member>
       <member refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kind="typedef"><name>Expected</name></member>
       <member refid="group__GeneralGroup_1ga7c86003c754649f6ef52d71fcfb9d382" kind="typedef"><name>Unexpected</name></member>
+      <member refid="group__HighPrecisionGroup_1ga03afccb56b1bcb89b74a55f6cac19618" kind="typedef"><name>FastInt256</name></member>
+      <member refid="group__HighPrecisionGroup_1gacb9f098f353285741a7bd17c3805c304" kind="typedef"><name>FastInt512</name></member>
+      <member refid="group__HighPrecisionGroup_1gae7ef2941b906c6b8fdf3ff7564a4b2d5" kind="typedef"><name>FastInt1024</name></member>
+      <member refid="group__HighPrecisionGroup_1ga970217958e55bf462e02d07c04ad41ee" kind="typedef"><name>Vector2i128mul</name></member>
+      <member refid="group__HighPrecisionGroup_1ga8065860768f5dfd050e97b1b53d20b23" kind="typedef"><name>Vector3i128mul</name></member>
       <member refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kind="typedef"><name>FastInt128</name></member>
+      <member refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kind="typedef"><name>FastUInt128</name></member>
       <member refid="group__GeneralGroup_1ga45cb1332fad43a5a921294d643411ba0" kind="typedef"><name>FeaturesPropertyTypesVariant</name></member>
       <member refid="group__GeneralGroup_1gaad6ac9cd0268793575ae31767169ad0e" kind="typedef"><name>MultiObjsSamples</name></member>
       <member refid="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" kind="typedef"><name>Int128</name></member>

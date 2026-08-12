@@ -415,6 +415,7 @@ var hierarchy =
     [ "MR::FanRecord", "structMR_1_1FanRecord.html", [
       [ "MR::FanRecordWithCenter", "structMR_1_1FanRecordWithCenter.html", null ]
     ] ],
+    [ "MR::FastInt< nBits >", "classMR_1_1FastInt.html", null ],
     [ "MR::FeatureObjectProjectPointResult", "structMR_1_1FeatureObjectProjectPointResult.html", null ],
     [ "MR::FeatureObjectSharedProperty", "structMR_1_1FeatureObjectSharedProperty.html", null ],
     [ "MR::FewSmallest< T >", "classMR_1_1FewSmallest.html", null ],
@@ -650,6 +651,7 @@ var hierarchy =
     [ "MR::InSphereTester< T >", "classMR_1_1InSphereTester.html", [
       [ "MR::InSphereTesterSoS", "classMR_1_1InSphereTesterSoS.html", null ]
     ] ],
+    [ "MR::Int128Mul256", "classMR_1_1Int128Mul256.html", null ],
     [ "MR::Int64Mul128", "classMR_1_1Int64Mul128.html", null ],
     [ "std::integral_constant", null, [
       [ "MR::ImGuiMath::detail::CommonVecSize< T, P... >", "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html", null ],

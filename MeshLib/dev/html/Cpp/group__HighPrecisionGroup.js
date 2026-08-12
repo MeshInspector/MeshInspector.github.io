@@ -1,5 +1,34 @@
 var group__HighPrecisionGroup =
 [
+    [ "MR::detail", "namespaceMR_1_1detail.html", null ],
+    [ "MR::FastInt< nBits >", "classMR_1_1FastInt.html", [
+      [ "FastInt", "classMR_1_1FastInt.html#adc826ada3574b780f6bd6bf4739bb725", null ],
+      [ "FastInt", "classMR_1_1FastInt.html#a9c22199fe268525f17daf7a5b916cb28", null ],
+      [ "FastInt", "classMR_1_1FastInt.html#ac022c43c1eb2e45d45dce83e51e00282", null ],
+      [ "operator+=", "classMR_1_1FastInt.html#a5e086aa7ac4fa48de5b2b3b3dd922e17", null ],
+      [ "operator-", "classMR_1_1FastInt.html#a30d3846c023a0e31c29f90e0284487a0", null ],
+      [ "operator-=", "classMR_1_1FastInt.html#aed6bcb954638768286a8966116339f08", null ],
+      [ "sign", "classMR_1_1FastInt.html#aa060083b3726161e19a5b74fb86c0308", null ],
+      [ "operator*", "classMR_1_1FastInt.html#a4ec94ee8f61f382a1c83bf19c6d155bb", null ],
+      [ "operator+", "classMR_1_1FastInt.html#a51730f5fbbb7fdd879123cb526b31fe6", null ],
+      [ "operator-", "classMR_1_1FastInt.html#a8103f525de84a57f65124a8ed3a2bfa4", null ],
+      [ "operator<=>", "classMR_1_1FastInt.html#a7a964d03ea02e3d65cfe851a6623cf1a", null ],
+      [ "operator==", "classMR_1_1FastInt.html#a2960f833ad8f3f5da49ea5f677f20dd7", null ],
+      [ "w", "classMR_1_1FastInt.html#aef342f52d379f8b2ac6e7eac40b17e31", null ]
+    ] ],
+    [ "MR::Int128Mul256", "classMR_1_1Int128Mul256.html", [
+      [ "Int128Mul256", "classMR_1_1Int128Mul256.html#aeff744e79c3bdea03fe227bb440ff459", null ],
+      [ "Int128Mul256", "classMR_1_1Int128Mul256.html#ac43ba35eb9ffbba47a39087d02b7c136", null ],
+      [ "operator FastInt128", "classMR_1_1Int128Mul256.html#a423073ceba9a95d483b0bbe0e0f42452", null ],
+      [ "operator*", "classMR_1_1Int128Mul256.html#a12cd0bbe00ae882dbe51dab33c6b83d7", null ],
+      [ "operator+", "classMR_1_1Int128Mul256.html#a986ec03f4ee971dc15f9abace387e52a", null ],
+      [ "operator+", "classMR_1_1Int128Mul256.html#a0aa6e9f447b85a8689807b678c0b67cf", null ],
+      [ "operator-", "classMR_1_1Int128Mul256.html#aa81031f5c7dd5c67ca4ad5a7baa8b3b8", null ],
+      [ "operator-", "classMR_1_1Int128Mul256.html#a6438ea2348a87032e1918db47c34c001", null ],
+      [ "operator/", "classMR_1_1Int128Mul256.html#a923f64126d015759c4620e2327c45273", null ],
+      [ "operator<=>", "classMR_1_1Int128Mul256.html#aad4220f5012de2d221e1eb87d28632e3", null ],
+      [ "operator==", "classMR_1_1Int128Mul256.html#ac368a5ce09f9ee1e63b956d64a1c3bad", null ]
+    ] ],
     [ "MR::Int64Mul128", "classMR_1_1Int64Mul128.html", [
       [ "Int64Mul128", "classMR_1_1Int64Mul128.html#a0b5862a6f014b0f104f9dbe1fe9928e8", null ],
       [ "Int64Mul128", "classMR_1_1Int64Mul128.html#a848062455a350eeb9c9260eb2b001590", null ],
@@ -12,16 +41,21 @@ var group__HighPrecisionGroup =
       [ "operator<=>", "classMR_1_1Int64Mul128.html#a8e0754eb76c2f6c5325072d2e7d64ee4", null ],
       [ "operator==", "classMR_1_1Int64Mul128.html#a379e5c3cea14cadec2f68cc1cb10da2a", null ]
     ] ],
+    [ "MR::FastInt1024", "group__HighPrecisionGroup.html#gae7ef2941b906c6b8fdf3ff7564a4b2d5", null ],
+    [ "MR::FastInt256", "group__HighPrecisionGroup.html#ga03afccb56b1bcb89b74a55f6cac19618", null ],
+    [ "MR::FastInt512", "group__HighPrecisionGroup.html#gacb9f098f353285741a7bd17c3805c304", null ],
     [ "MR::Int1024", "group__HighPrecisionGroup.html#ga842d51b6f68ca651644e386f3a677f87", null ],
     [ "MR::Int128", "group__HighPrecisionGroup.html#gaeb20f5b66b3c7532bcdb24bd415bd130", null ],
     [ "MR::Int256", "group__HighPrecisionGroup.html#ga62843f076a5d1ed019b89472396d5b37", null ],
     [ "MR::Int512", "group__HighPrecisionGroup.html#ga5976703eb9bbacde180901857b838ed4", null ],
     [ "MR::Vector2i128", "group__HighPrecisionGroup.html#ga564f83b9c74fcac72243ca5b5ca0b366", null ],
     [ "MR::Vector2i128fast", "group__HighPrecisionGroup.html#ga6cc6a39f0d719c385249f1a861f2f603", null ],
+    [ "MR::Vector2i128mul", "group__HighPrecisionGroup.html#ga970217958e55bf462e02d07c04ad41ee", null ],
     [ "MR::Vector2i256", "group__HighPrecisionGroup.html#ga2a65da15f1a8f436a40ccf209c54ac3d", null ],
     [ "MR::Vector2i64mul", "group__HighPrecisionGroup.html#ga069a4cfb1c909d7c7e32d575dac759cf", null ],
     [ "MR::Vector3i128", "group__HighPrecisionGroup.html#ga63880082d353e6f29c0da82c436c2f17", null ],
     [ "MR::Vector3i128fast", "group__HighPrecisionGroup.html#gae17811dbb1f4d3ba17f955bab2dab90d", null ],
+    [ "MR::Vector3i128mul", "group__HighPrecisionGroup.html#ga8065860768f5dfd050e97b1b53d20b23", null ],
     [ "MR::Vector3i256", "group__HighPrecisionGroup.html#ga6290db8f78d4998addb556921ff349ef", null ],
     [ "MR::Vector3i512", "group__HighPrecisionGroup.html#ga35d4969873ad6731b1e6f279e73ef21f", null ],
     [ "MR::Vector3i64mul", "group__HighPrecisionGroup.html#ga2290828b1eb673ce78c350b8c3b2b6cb", null ]

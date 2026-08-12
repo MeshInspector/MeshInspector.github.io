@@ -3,8 +3,82 @@
   <compounddef id="group__HighPrecisionGroup" kind="group">
     <compoundname>HighPrecisionGroup</compoundname>
     <title>High Precision</title>
+    <innerclass refid="classMR_1_1FastInt" prot="public">MR::FastInt</innerclass>
+    <innerclass refid="classMR_1_1Int128Mul256" prot="public">MR::Int128Mul256</innerclass>
     <innerclass refid="classMR_1_1Int64Mul128" prot="public">MR::Int64Mul128</innerclass>
+    <innernamespace refid="namespaceMR_1_1detail">MR::detail</innernamespace>
     <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga03afccb56b1bcb89b74a55f6cac19618" prot="public" static="no">
+        <type>FastInt&lt; 256 &gt;</type>
+        <definition>using MR::FastInt256 =  FastInt&lt;256&gt;</definition>
+        <argsstring></argsstring>
+        <name>FastInt256</name>
+        <qualifiedname>MR::FastInt256</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="189" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__HighPrecisionGroup_1gacb9f098f353285741a7bd17c3805c304" prot="public" static="no">
+        <type>FastInt&lt; 512 &gt;</type>
+        <definition>using MR::FastInt512 =  FastInt&lt;512&gt;</definition>
+        <argsstring></argsstring>
+        <name>FastInt512</name>
+        <qualifiedname>MR::FastInt512</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="190" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__HighPrecisionGroup_1gae7ef2941b906c6b8fdf3ff7564a4b2d5" prot="public" static="no">
+        <type>FastInt&lt; 1024 &gt;</type>
+        <definition>using MR::FastInt1024 =  FastInt&lt;1024&gt;</definition>
+        <argsstring></argsstring>
+        <name>FastInt1024</name>
+        <qualifiedname>MR::FastInt1024</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="191" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga970217958e55bf462e02d07c04ad41ee" prot="public" static="no">
+        <type>Vector2&lt; Int128Mul256 &gt;</type>
+        <definition>using MR::Vector2i128mul =  Vector2&lt;Int128Mul256&gt;</definition>
+        <argsstring></argsstring>
+        <name>Vector2i128mul</name>
+        <qualifiedname>MR::Vector2i128mul</qualifiedname>
+        <briefdescription>
+<para>no bindings for the same reason as for <ref refid="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" kindref="member">Vector3i128fast</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="231" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga8065860768f5dfd050e97b1b53d20b23" prot="public" static="no">
+        <type>Vector3&lt; Int128Mul256 &gt;</type>
+        <definition>using MR::Vector3i128mul =  Vector3&lt;Int128Mul256&gt;</definition>
+        <argsstring></argsstring>
+        <name>Vector3i128mul</name>
+        <qualifiedname>MR::Vector3i128mul</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="232" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" prot="public" static="no">
         <type>boost::multiprecision::int128_t</type>
         <definition>using MR::Int128 =  boost::multiprecision::int128_t</definition>

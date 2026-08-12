@@ -15069,7 +15069,21 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt128.h" line="20" column="3" bodyfile="MRMesh/MRFastInt128.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRFastInt128.h" line="21" column="3" bodyfile="MRMesh/MRFastInt128.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" prot="public" static="no">
+        <type>__uint128_t</type>
+        <definition>using MR::FastUInt128 =  __uint128_t</definition>
+        <argsstring></argsstring>
+        <name>FastUInt128</name>
+        <qualifiedname>MR::FastUInt128</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt128.h" line="22" column="3" bodyfile="MRMesh/MRFastInt128.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga54e74708f7b97596d00a59029266cc0f" prot="public" static="no">
         <type>std::function&lt; Expected&lt; void &gt;(std::vector&lt; float &gt; &amp;&amp;data, const Vector3i &amp;dims, int zOffset)&gt;</type>

@@ -7,7 +7,139 @@
     <innerclass refid="classMR_1_1detail_1_1ScopeGuard" prot="public">MR::detail::ScopeGuard</innerclass>
     <innernamespace refid="namespaceMR_1_1detail_1_1AffineXf3f">MR::detail::AffineXf3f</innernamespace>
     <innernamespace refid="namespaceMR_1_1detail_1_1Units">MR::detail::Units</innernamespace>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceMR_1_1detail_1af6206848d5379160c8a8684d2c76593f" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::detail::cFitsFastInt128</definition>
+        <argsstring></argsstring>
+        <name>cFitsFastInt128</name>
+        <qualifiedname>MR::detail::cFitsFastInt128</qualifiedname>
+        <initializer>= std::is_integral_v&lt;T&gt; || std::is_same_v&lt;T, <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref>&gt;</initializer>
+        <briefdescription>
+<para>the integer types that <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> represents exactly, and which the classes below accept </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="22" column="16" bodyfile="MRMesh/MRFastInt.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1detail_1a1c3d4f65be2335aa2156f777bfe33154" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::uint64_t</type>
+        <definition>std::uint64_t MR::detail::addCarry64</definition>
+        <argsstring>(std::uint64_t a, std::uint64_t b, std::uint64_t &amp;carry) noexcept</argsstring>
+        <name>addCarry64</name>
+        <qualifiedname>MR::detail::addCarry64</qualifiedname>
+        <param>
+          <type>std::uint64_t</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>std::uint64_t</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>std::uint64_t &amp;</type>
+          <declname>carry</declname>
+        </param>
+        <briefdescription>
+<para>returns a + b + carry modulo 2^64, and replaces carry with the carry-out (0 or 1) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>the two functions below are spelled via <ref refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kindref="member">FastUInt128</ref>, where the carry-out is simply the higher word, as in mulWords below </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="28" column="33" bodyfile="MRMesh/MRFastInt.h" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1detail_1a7fc59c8caf263e5cec996db9f596920d" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::uint64_t</type>
+        <definition>std::uint64_t MR::detail::subBorrow64</definition>
+        <argsstring>(std::uint64_t a, std::uint64_t b, std::uint64_t &amp;borrow) noexcept</argsstring>
+        <name>subBorrow64</name>
+        <qualifiedname>MR::detail::subBorrow64</qualifiedname>
+        <param>
+          <type>std::uint64_t</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>std::uint64_t</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>std::uint64_t &amp;</type>
+          <declname>borrow</declname>
+        </param>
+        <briefdescription>
+<para>returns a - b - borrow modulo 2^64, and replaces borrow with the borrow-out (0 or 1) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="36" column="33" bodyfile="MRMesh/MRFastInt.h" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1detail_1a198d8073571caaae263de501236e6052" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::uint64_t</type>
+        <definition>std::uint64_t MR::detail::signWord</definition>
+        <argsstring>(std::uint64_t hi) noexcept</argsstring>
+        <name>signWord</name>
+        <qualifiedname>MR::detail::signWord</qualifiedname>
+        <param>
+          <type>std::uint64_t</type>
+          <declname>hi</declname>
+        </param>
+        <briefdescription>
+<para>all ones if the highest bit of the given word is set, and zeros otherwise </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="44" column="33" bodyfile="MRMesh/MRFastInt.h" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1detail_1ab90df1884fe2e42b76e810f24153b89a" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>std::size_t</type>
+            <declname>n</declname>
+            <defname>n</defname>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; std::uint64_t, 2 *n &gt;</type>
+        <definition>std::array&lt; std::uint64_t, 2 *n &gt; MR::detail::mulWords</definition>
+        <argsstring>(const std::array&lt; std::uint64_t, n &gt; &amp;a, const std::array&lt; std::uint64_t, n &gt; &amp;b) noexcept</argsstring>
+        <name>mulWords</name>
+        <qualifiedname>MR::detail::mulWords</qualifiedname>
+        <param>
+          <type>const std::array&lt; std::uint64_t, n &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const std::array&lt; std::uint64_t, n &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>std::size_t and not int, to be deducible from std::array </para>
+        </briefdescription>
+        <detaileddescription>
+<para>the exact product of two two&apos;s-complement values given by their 64-bit words, which always fits in twice as many words; the only multiplication of this file </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>schoolbook multiplication of unsigned values</para>
+<para>at most ( 2^64 - 1 )^2 + 2 * ( 2^64 - 1 ) &lt; 2^128 here</para>
+<para>never written before, since the loop above stops at i + n - 1</para>
+<para>a negative argument was taken 2^(64*n) times larger than it is</para>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="52" column="23" bodyfile="MRMesh/MRFastInt.h" bodystart="52" bodyend="83"/>
+      </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::filesystem::path &gt;</type>
         <definition>std::vector&lt; std::filesystem::path &gt; MR::detail::runCocoaFileDialog</definition>
@@ -66,6 +198,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRFinally.h" line="33" column="1"/>
+    <location file="MRMesh/MRFastInt.h" line="17" column="1"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Int128Mul256" kind="class" language="C++" prot="public">
+    <compoundname>MR::Int128Mul256</compoundname>
+    <includes refid="MRFastInt_8h" local="no">MRMesh/MRFastInt.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Int128Mul256_1a18b892749ae2c24ad278f5499c3e14e5" prot="private" static="no" mutable="no">
+        <type><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
+        <definition>FastInt128 MR::Int128Mul256::v_</definition>
+        <argsstring></argsstring>
+        <name>v_</name>
+        <qualifiedname>MR::Int128Mul256::v_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="226" column="16" bodyfile="MRMesh/MRFastInt.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Int128Mul256_1aeff744e79c3bdea03fe227bb440ff459" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Int128Mul256::Int128Mul256</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>Int128Mul256</name>
+        <qualifiedname>MR::Int128Mul256::Int128Mul256</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="198" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Int128Mul256_1ac43ba35eb9ffbba47a39087d02b7c136" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr</type>
+        <definition>MR::Int128Mul256::Int128Mul256</definition>
+        <argsstring>(T v) noexcept</argsstring>
+        <name>Int128Mul256</name>
+        <qualifiedname>MR::Int128Mul256::Int128Mul256</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>v</declname>
+        </param>
+    <requiresclause>detail::cFitsFastInt128&lt;T&gt;    </requiresclause>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="202" column="15" bodyfile="MRMesh/MRFastInt.h" bodystart="202" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Int128Mul256_1a423073ceba9a95d483b0bbe0e0f42452" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Int128Mul256::operator FastInt128</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>operator FastInt128</name>
+        <qualifiedname>MR::Int128Mul256::operator FastInt128</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="204" column="25" bodyfile="MRMesh/MRFastInt.h" bodystart="204" bodyend="204"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classMR_1_1Int128Mul256_1a986ec03f4ee971dc15f9abace387e52a" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
+        <definition>FastInt128 operator+</definition>
+        <argsstring>(Int128Mul256 a) noexcept</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR::Int128Mul256::operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="206" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="206" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int128Mul256_1aa81031f5c7dd5c67ca4ad5a7baa8b3b8" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
+        <definition>FastInt128 operator-</definition>
+        <argsstring>(Int128Mul256 a) noexcept</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::Int128Mul256::operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="207" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="207" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int128Mul256_1a0aa6e9f447b85a8689807b678c0b67cf" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
+        <definition>FastInt128 operator+</definition>
+        <argsstring>(Int128Mul256 a, Int128Mul256 b) noexcept</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR::Int128Mul256::operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="209" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="209" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int128Mul256_1a6438ea2348a87032e1918db47c34c001" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
+        <definition>FastInt128 operator-</definition>
+        <argsstring>(Int128Mul256 a, Int128Mul256 b) noexcept</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::Int128Mul256::operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="210" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="210" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int128Mul256_1a923f64126d015759c4620e2327c45273" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
+        <definition>FastInt128 operator/</definition>
+        <argsstring>(Int128Mul256 a, Int128Mul256 b) noexcept</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR::Int128Mul256::operator/</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="211" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="211" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int128Mul256_1a12cd0bbe00ae882dbe51dab33c6b83d7" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="group__HighPrecisionGroup_1ga03afccb56b1bcb89b74a55f6cac19618" kindref="member">FastInt256</ref></type>
+        <definition>FastInt256 operator*</definition>
+        <argsstring>(Int128Mul256 a, Int128Mul256 b) noexcept</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::Int128Mul256::operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="213" column="34" bodyfile="MRMesh/MRFastInt.h" bodystart="213" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int128Mul256_1ac368a5ce09f9ee1e63b956d64a1c3bad" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(Int128Mul256 a, Int128Mul256 b) noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::Int128Mul256::operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="222" column="28" bodyfile="MRMesh/MRFastInt.h" bodystart="222" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int128Mul256_1aad4220f5012de2d221e1eb87d28632e3" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto operator&lt;=&gt;</definition>
+        <argsstring>(Int128Mul256 a, Int128Mul256 b) noexcept</argsstring>
+        <name>operator&lt;=&gt;</name>
+        <qualifiedname>MR::Int128Mul256::operator&lt;=&gt;</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="223" column="23" bodyfile="MRMesh/MRFastInt.h" bodystart="223" bodyend="223"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>a 128-bit integer, which product with another one is an exact 256-bit integer; addition, subtraction and division stay 128-bit and can overflow just like <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> </para>
+    </detaileddescription>
+    <location file="MRMesh/MRFastInt.h" line="195" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="196" bodyend="227"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Int128Mul256_1aeff744e79c3bdea03fe227bb440ff459" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>Int128Mul256</name></member>
+      <member refid="classMR_1_1Int128Mul256_1ac43ba35eb9ffbba47a39087d02b7c136" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>Int128Mul256</name></member>
+      <member refid="classMR_1_1Int128Mul256_1a423073ceba9a95d483b0bbe0e0f42452" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>operator FastInt128</name></member>
+      <member refid="classMR_1_1Int128Mul256_1a12cd0bbe00ae882dbe51dab33c6b83d7" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Int128Mul256_1a986ec03f4ee971dc15f9abace387e52a" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Int128Mul256_1a0aa6e9f447b85a8689807b678c0b67cf" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Int128Mul256_1aa81031f5c7dd5c67ca4ad5a7baa8b3b8" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Int128Mul256_1a6438ea2348a87032e1918db47c34c001" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Int128Mul256_1a923f64126d015759c4620e2327c45273" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>operator/</name></member>
+      <member refid="classMR_1_1Int128Mul256_1aad4220f5012de2d221e1eb87d28632e3" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>operator&lt;=&gt;</name></member>
+      <member refid="classMR_1_1Int128Mul256_1ac368a5ce09f9ee1e63b956d64a1c3bad" prot="public" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Int128Mul256_1a18b892749ae2c24ad278f5499c3e14e5" prot="private" virt="non-virtual"><scope>MR::Int128Mul256</scope><name>v_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

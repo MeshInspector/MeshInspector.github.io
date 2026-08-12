@@ -9091,6 +9091,7 @@ var group__GeneralGroup =
     [ "MR::FacePair", "group__GeneralGroup.html#gaaa1b9cb8e04334b38aa70434301df035", null ],
     [ "MR::FacePredicate", "group__GeneralGroup.html#ga2b15c0d875f91b8c0da03e651251832b", null ],
     [ "MR::FastInt128", "group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f", null ],
+    [ "MR::FastUInt128", "group__GeneralGroup.html#ga906daf2182f2898fb3e5ad598d8960ae", null ],
     [ "MR::FeaturesPropertyTypesVariant", "group__GeneralGroup.html#ga45cb1332fad43a5a921294d643411ba0", null ],
     [ "MR::FileNamesStack", "group__GeneralGroup.html#gabf9e7451b5087b4485b6207161438dc3", null ],
     [ "MR::FilesLoadedCallback", "group__GeneralGroup.html#ga23cad89260f563924fc2715e193959c5", null ],

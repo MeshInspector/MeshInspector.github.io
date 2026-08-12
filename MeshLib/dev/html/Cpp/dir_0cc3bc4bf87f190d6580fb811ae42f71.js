@@ -109,6 +109,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRExtractIsolines.h", "MRExtractIsolines_8h.html", "MRExtractIsolines_8h" ],
     [ "MRFaceDistance.h", "MRFaceDistance_8h.html", "MRFaceDistance_8h" ],
     [ "MRFaceFace.h", "MRFaceFace_8h.html", null ],
+    [ "MRFastInt.h", "MRFastInt_8h.html", "MRFastInt_8h" ],
     [ "MRFastInt128.h", "MRFastInt128_8h.html", "MRFastInt128_8h" ],
     [ "MRFastWindingNumber.h", "MRFastWindingNumber_8h.html", null ],
     [ "MRFeatureHelpers.h", "MRFeatureHelpers_8h.html", "MRFeatureHelpers_8h" ],

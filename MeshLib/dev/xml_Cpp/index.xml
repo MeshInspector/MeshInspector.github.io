@@ -3184,6 +3184,22 @@
     <member refid="group__GeneralGroup_1ga010e9445541af4e90e90d34acc98220e" kind="function"><name>FanRecordWithCenter</name></member>
     <member refid="group__GeneralGroup_1gac112017931324f9b12a9af38f28671e2" kind="function"><name>FanRecordWithCenter</name></member>
   </compound>
+  <compound refid="classMR_1_1FastInt" kind="class"><name>MR::FastInt</name>
+    <member refid="classMR_1_1FastInt_1afcd10d8886953c1764137528d675b0ae" kind="variable"><name>numWords</name></member>
+    <member refid="classMR_1_1FastInt_1aef342f52d379f8b2ac6e7eac40b17e31" kind="variable"><name>w</name></member>
+    <member refid="classMR_1_1FastInt_1adc826ada3574b780f6bd6bf4739bb725" kind="function"><name>FastInt</name></member>
+    <member refid="classMR_1_1FastInt_1a9c22199fe268525f17daf7a5b916cb28" kind="function"><name>FastInt</name></member>
+    <member refid="classMR_1_1FastInt_1ac022c43c1eb2e45d45dce83e51e00282" kind="function"><name>FastInt</name></member>
+    <member refid="classMR_1_1FastInt_1aa060083b3726161e19a5b74fb86c0308" kind="function"><name>sign</name></member>
+    <member refid="classMR_1_1FastInt_1a5e086aa7ac4fa48de5b2b3b3dd922e17" kind="function"><name>operator+=</name></member>
+    <member refid="classMR_1_1FastInt_1aed6bcb954638768286a8966116339f08" kind="function"><name>operator-=</name></member>
+    <member refid="classMR_1_1FastInt_1a30d3846c023a0e31c29f90e0284487a0" kind="function"><name>operator-</name></member>
+    <member refid="classMR_1_1FastInt_1a51730f5fbbb7fdd879123cb526b31fe6" kind="friend"><name>operator+</name></member>
+    <member refid="classMR_1_1FastInt_1a8103f525de84a57f65124a8ed3a2bfa4" kind="friend"><name>operator-</name></member>
+    <member refid="classMR_1_1FastInt_1a4ec94ee8f61f382a1c83bf19c6d155bb" kind="friend"><name>operator*</name></member>
+    <member refid="classMR_1_1FastInt_1a2960f833ad8f3f5da49ea5f677f20dd7" kind="friend"><name>operator==</name></member>
+    <member refid="classMR_1_1FastInt_1a7a964d03ea02e3d65cfe851a6623cf1a" kind="friend"><name>operator&lt;=&gt;</name></member>
+  </compound>
   <compound refid="classMR_1_1Cuda_1_1FastWindingNumber" kind="class"><name>MR::Cuda::FastWindingNumber</name>
     <member refid="group__GeneralGroup_1gae9c59203fe5d3b3629001f240f8d0624" kind="variable"><name>mesh_</name></member>
     <member refid="group__GeneralGroup_1gaeb29c6d6d2743de9afc86aa23d1373de" kind="variable"><name>data_</name></member>
@@ -4568,6 +4584,20 @@
     <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="classMR_1_1Int128Mul256" kind="class"><name>MR::Int128Mul256</name>
+    <member refid="classMR_1_1Int128Mul256_1a18b892749ae2c24ad278f5499c3e14e5" kind="variable"><name>v_</name></member>
+    <member refid="classMR_1_1Int128Mul256_1aeff744e79c3bdea03fe227bb440ff459" kind="function"><name>Int128Mul256</name></member>
+    <member refid="classMR_1_1Int128Mul256_1ac43ba35eb9ffbba47a39087d02b7c136" kind="function"><name>Int128Mul256</name></member>
+    <member refid="classMR_1_1Int128Mul256_1a423073ceba9a95d483b0bbe0e0f42452" kind="function"><name>operator FastInt128</name></member>
+    <member refid="classMR_1_1Int128Mul256_1a986ec03f4ee971dc15f9abace387e52a" kind="friend"><name>operator+</name></member>
+    <member refid="classMR_1_1Int128Mul256_1aa81031f5c7dd5c67ca4ad5a7baa8b3b8" kind="friend"><name>operator-</name></member>
+    <member refid="classMR_1_1Int128Mul256_1a0aa6e9f447b85a8689807b678c0b67cf" kind="friend"><name>operator+</name></member>
+    <member refid="classMR_1_1Int128Mul256_1a6438ea2348a87032e1918db47c34c001" kind="friend"><name>operator-</name></member>
+    <member refid="classMR_1_1Int128Mul256_1a923f64126d015759c4620e2327c45273" kind="friend"><name>operator/</name></member>
+    <member refid="classMR_1_1Int128Mul256_1a12cd0bbe00ae882dbe51dab33c6b83d7" kind="friend"><name>operator*</name></member>
+    <member refid="classMR_1_1Int128Mul256_1ac368a5ce09f9ee1e63b956d64a1c3bad" kind="friend"><name>operator==</name></member>
+    <member refid="classMR_1_1Int128Mul256_1aad4220f5012de2d221e1eb87d28632e3" kind="friend"><name>operator&lt;=&gt;</name></member>
   </compound>
   <compound refid="classMR_1_1Int64Mul128" kind="class"><name>MR::Int64Mul128</name>
     <member refid="classMR_1_1Int64Mul128_1a81d393446fdaec82214fbe9b391bfa67" kind="variable"><name>v_</name></member>
@@ -14134,7 +14164,13 @@
     <member refid="group__GeneralGroup_1ga9373564bf8d768311a39df2f41d3d8e4" kind="typedef"><name>CurvePoints</name></member>
     <member refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kind="typedef"><name>Expected</name></member>
     <member refid="group__GeneralGroup_1ga7c86003c754649f6ef52d71fcfb9d382" kind="typedef"><name>Unexpected</name></member>
+    <member refid="group__HighPrecisionGroup_1ga03afccb56b1bcb89b74a55f6cac19618" kind="typedef"><name>FastInt256</name></member>
+    <member refid="group__HighPrecisionGroup_1gacb9f098f353285741a7bd17c3805c304" kind="typedef"><name>FastInt512</name></member>
+    <member refid="group__HighPrecisionGroup_1gae7ef2941b906c6b8fdf3ff7564a4b2d5" kind="typedef"><name>FastInt1024</name></member>
+    <member refid="group__HighPrecisionGroup_1ga970217958e55bf462e02d07c04ad41ee" kind="typedef"><name>Vector2i128mul</name></member>
+    <member refid="group__HighPrecisionGroup_1ga8065860768f5dfd050e97b1b53d20b23" kind="typedef"><name>Vector3i128mul</name></member>
     <member refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kind="typedef"><name>FastInt128</name></member>
+    <member refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kind="typedef"><name>FastUInt128</name></member>
     <member refid="group__GeneralGroup_1ga45cb1332fad43a5a921294d643411ba0" kind="typedef"><name>FeaturesPropertyTypesVariant</name></member>
     <member refid="group__GeneralGroup_1gaad6ac9cd0268793575ae31767169ad0e" kind="typedef"><name>MultiObjsSamples</name></member>
     <member refid="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" kind="typedef"><name>Int128</name></member>
@@ -16136,6 +16172,11 @@
     <member refid="group__GeneralGroup_1ga5caa3c21e1c35ac6d6dd2eb125484783" kind="function"><name>loadMRCudaDll</name></member>
   </compound>
   <compound refid="namespaceMR_1_1detail" kind="namespace"><name>MR::detail</name>
+    <member refid="namespaceMR_1_1detail_1af6206848d5379160c8a8684d2c76593f" kind="variable"><name>cFitsFastInt128</name></member>
+    <member refid="namespaceMR_1_1detail_1a1c3d4f65be2335aa2156f777bfe33154" kind="function"><name>addCarry64</name></member>
+    <member refid="namespaceMR_1_1detail_1a7fc59c8caf263e5cec996db9f596920d" kind="function"><name>subBorrow64</name></member>
+    <member refid="namespaceMR_1_1detail_1a198d8073571caaae263de501236e6052" kind="function"><name>signWord</name></member>
+    <member refid="namespaceMR_1_1detail_1ab90df1884fe2e42b76e810f24153b89a" kind="function"><name>mulWords</name></member>
     <member refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" kind="function"><name>runCocoaFileDialog</name></member>
     <member refid="namespaceMR_1_1detail_1a4b40e1222b8df2660b25e4942deb39fb" kind="function"><name>isPortalFileDialogSupported</name></member>
     <member refid="namespaceMR_1_1detail_1a1a02e764be7c54f9177025ee42b915d0" kind="function"><name>runPortalFileDialog</name></member>
@@ -17141,16 +17182,6 @@
   </compound>
   <compound refid="MRMCPGatewayUtf8_8h" kind="file"><name>MRMCPGatewayUtf8.h</name>
   </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
-  </compound>
   <compound refid="MR2DContoursTriangulation_8h" kind="file"><name>MR2DContoursTriangulation.h</name>
   </compound>
   <compound refid="MR2to3_8h" kind="file"><name>MR2to3.h</name>
@@ -17374,6 +17405,8 @@
   <compound refid="MRFaceDistance_8h" kind="file"><name>MRFaceDistance.h</name>
   </compound>
   <compound refid="MRFaceFace_8h" kind="file"><name>MRFaceFace.h</name>
+  </compound>
+  <compound refid="MRFastInt_8h" kind="file"><name>MRFastInt.h</name>
   </compound>
   <compound refid="MRFastInt128_8h" kind="file"><name>MRFastInt128.h</name>
   </compound>
@@ -18119,10 +18152,6 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -18198,6 +18227,16 @@
   <compound refid="MRSymbolMeshFwd_8h" kind="file"><name>MRSymbolMeshFwd.h</name>
     <member refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kind="define"><name>MRSYMBOLMESH_API</name></member>
     <member refid="MRSymbolMeshFwd_8h_1acd35d2ca8d20c30530e2d38a9295f009" kind="define"><name>MRSYMBOLMESH_CLASS</name></member>
+  </compound>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
   </compound>
   <compound refid="ImGuiHelpers_8h" kind="file"><name>ImGuiHelpers.h</name>
   </compound>
@@ -18538,6 +18577,10 @@
     <member refid="group__GeneralGroup_1gacbc30821abce7e21196166b4dc00e283" kind="define"><name>MR_X</name></member>
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
   </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
@@ -19140,6 +19183,11 @@
     <member refid="group__GcodeLoadGroup_1ga47150c131e109dbf32854c7178a81219" kind="function"><name>fromAnySupportedFormat</name></member>
   </compound>
   <compound refid="group__HighPrecisionGroup" kind="group"><name>HighPrecisionGroup</name>
+    <member refid="group__HighPrecisionGroup_1ga03afccb56b1bcb89b74a55f6cac19618" kind="typedef"><name>FastInt256</name></member>
+    <member refid="group__HighPrecisionGroup_1gacb9f098f353285741a7bd17c3805c304" kind="typedef"><name>FastInt512</name></member>
+    <member refid="group__HighPrecisionGroup_1gae7ef2941b906c6b8fdf3ff7564a4b2d5" kind="typedef"><name>FastInt1024</name></member>
+    <member refid="group__HighPrecisionGroup_1ga970217958e55bf462e02d07c04ad41ee" kind="typedef"><name>Vector2i128mul</name></member>
+    <member refid="group__HighPrecisionGroup_1ga8065860768f5dfd050e97b1b53d20b23" kind="typedef"><name>Vector3i128mul</name></member>
     <member refid="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" kind="typedef"><name>Int128</name></member>
     <member refid="group__HighPrecisionGroup_1ga62843f076a5d1ed019b89472396d5b37" kind="typedef"><name>Int256</name></member>
     <member refid="group__HighPrecisionGroup_1ga5976703eb9bbacde180901857b838ed4" kind="typedef"><name>Int512</name></member>
@@ -21204,6 +21252,7 @@
     <member refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kind="typedef"><name>Expected</name></member>
     <member refid="group__GeneralGroup_1ga7c86003c754649f6ef52d71fcfb9d382" kind="typedef"><name>Unexpected</name></member>
     <member refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kind="typedef"><name>FastInt128</name></member>
+    <member refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kind="typedef"><name>FastUInt128</name></member>
     <member refid="group__GeneralGroup_1ga54e74708f7b97596d00a59029266cc0f" kind="typedef"><name>GridByPartsFunc</name></member>
     <member refid="group__GeneralGroup_1ga7c6810eee2e81dd56d902c959a18d117" kind="typedef"><name>type</name></member>
     <member refid="group__GeneralGroup_1gae118fa6ed40ec5fb3e1ce843d0591f6b" kind="typedef"><name>type</name></member>

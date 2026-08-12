@@ -140,8 +140,9 @@ $(function(){initNavTree('namespaceMR_1_1detail.html','',''); });
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">MR::detail Namespace Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">MR::detail Namespace Reference<div class="ingroups"><a class="el" href="group__MathGroup.html">Math group</a> &raquo; <a class="el" href="group__HighPrecisionGroup.html">High Precision</a> &#124; <a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
@@ -158,14 +159,66 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a1c3d4f65be2335aa2156f777bfe33154" id="r_a1c3d4f65be2335aa2156f777bfe33154"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c3d4f65be2335aa2156f777bfe33154">addCarry64</a> (std::uint64_t a, std::uint64_t b, std::uint64_t &amp;carry) noexcept</td></tr>
+<tr class="memdesc:a1c3d4f65be2335aa2156f777bfe33154"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a + b + carry modulo 2^64, and replaces carry with the carry-out (0 or 1)  <br /></td></tr>
+<tr class="memitem:a7fc59c8caf263e5cec996db9f596920d" id="r_a7fc59c8caf263e5cec996db9f596920d"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fc59c8caf263e5cec996db9f596920d">subBorrow64</a> (std::uint64_t a, std::uint64_t b, std::uint64_t &amp;borrow) noexcept</td></tr>
+<tr class="memdesc:a7fc59c8caf263e5cec996db9f596920d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a - b - borrow modulo 2^64, and replaces borrow with the borrow-out (0 or 1)  <br /></td></tr>
+<tr class="memitem:a198d8073571caaae263de501236e6052" id="r_a198d8073571caaae263de501236e6052"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a198d8073571caaae263de501236e6052">signWord</a> (std::uint64_t hi) noexcept</td></tr>
+<tr class="memdesc:a198d8073571caaae263de501236e6052"><td class="mdescLeft">&#160;</td><td class="mdescRight">all ones if the highest bit of the given word is set, and zeros otherwise  <br /></td></tr>
+<tr class="memitem:ab90df1884fe2e42b76e810f24153b89a" id="r_ab90df1884fe2e42b76e810f24153b89a"><td class="memTemplParams" colspan="2">template&lt;std::size_t n&gt; </td></tr>
+<tr class="memitem:ab90df1884fe2e42b76e810f24153b89a template"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; std::uint64_t, 2 *n &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab90df1884fe2e42b76e810f24153b89a">mulWords</a> (const std::array&lt; std::uint64_t, n &gt; &amp;a, const std::array&lt; std::uint64_t, n &gt; &amp;b) noexcept</td></tr>
+<tr class="memdesc:ab90df1884fe2e42b76e810f24153b89a"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::size_t and not int, to be deducible from std::array  <br /></td></tr>
 <tr class="memitem:a5594c749385503cd1087702f28de4651" id="r_a5594c749385503cd1087702f28de4651"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5594c749385503cd1087702f28de4651">runCocoaFileDialog</a> (const <a class="el" href="structMR_1_1FileDialog_1_1Parameters.html">MR::FileDialog::Parameters</a> &amp;params)</td></tr>
 <tr class="memdesc:a5594c749385503cd1087702f28de4651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open Cocoa file dialog.  <br /></td></tr>
 <tr class="memitem:a4b40e1222b8df2660b25e4942deb39fb" id="r_a4b40e1222b8df2660b25e4942deb39fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b40e1222b8df2660b25e4942deb39fb">isPortalFileDialogSupported</a> ()</td></tr>
 <tr class="memdesc:a4b40e1222b8df2660b25e4942deb39fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if XDG Desktop Portal file dialogs are supported.  <br /></td></tr>
 <tr class="memitem:a1a02e764be7c54f9177025ee42b915d0" id="r_a1a02e764be7c54f9177025ee42b915d0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a02e764be7c54f9177025ee42b915d0">runPortalFileDialog</a> (const <a class="el" href="structMR_1_1FileDialog_1_1Parameters.html">MR::FileDialog::Parameters</a> &amp;params)</td></tr>
 <tr class="memdesc:a1a02e764be7c54f9177025ee42b915d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open XDG Desktop Portal file dialog.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af6206848d5379160c8a8684d2c76593f" id="r_af6206848d5379160c8a8684d2c76593f"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:af6206848d5379160c8a8684d2c76593f template"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6206848d5379160c8a8684d2c76593f">cFitsFastInt128</a> = std::is_integral_v&lt;T&gt; || std::is_same_v&lt;T, <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt;</td></tr>
+<tr class="memdesc:af6206848d5379160c8a8684d2c76593f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the integer types that <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> represents exactly, and which the classes below accept  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a1c3d4f65be2335aa2156f777bfe33154" name="a1c3d4f65be2335aa2156f777bfe33154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c3d4f65be2335aa2156f777bfe33154">&#9670;&#160;</a></span>addCarry64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint64_t MR::detail::addCarry64 </td>
+          <td>(</td>
+          <td class="paramtype">std::uint64_t</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint64_t</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint64_t &amp;</td>          <td class="paramname"><span class="paramname"><em>carry</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span><span class="mlabel constexpr">constexpr</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns a + b + carry modulo 2^64, and replaces carry with the carry-out (0 or 1) </p>
+<p>the two functions below are spelled via <a class="el" href="group__GeneralGroup.html#ga906daf2182f2898fb3e5ad598d8960ae">FastUInt128</a>, where the carry-out is simply the higher word, as in mulWords below </p>
+
+</div>
+</div>
 <a id="a4b40e1222b8df2660b25e4942deb39fb" name="a4b40e1222b8df2660b25e4942deb39fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b40e1222b8df2660b25e4942deb39fb">&#9670;&#160;</a></span>isPortalFileDialogSupported()</h2>
 
@@ -182,6 +235,44 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Checks if XDG Desktop Portal file dialogs are supported. </p>
+
+</div>
+</div>
+<a id="ab90df1884fe2e42b76e810f24153b89a" name="ab90df1884fe2e42b76e810f24153b89a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab90df1884fe2e42b76e810f24153b89a">&#9670;&#160;</a></span>mulWords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t n&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; std::uint64_t, 2 *n &gt; MR::detail::mulWords </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; std::uint64_t, n &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::array&lt; std::uint64_t, n &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel constexpr">constexpr</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>std::size_t and not int, to be deducible from std::array </p>
+<p>the exact product of two two's-complement values given by their 64-bit words, which always fits in twice as many words; the only multiplication of this file </p>
+<p>schoolbook multiplication of unsigned values</p>
+<p>at most ( 2^64 - 1 )^2 + 2 * ( 2^64 - 1 ) &lt; 2^128 here</p>
+<p>never written before, since the loop above stops at i + n - 1</p>
+<p>a negative argument was taken 2^(64*n) times larger than it is</p>
 
 </div>
 </div>
@@ -220,6 +311,96 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Open XDG Desktop Portal file dialog. </p>
+
+</div>
+</div>
+<a id="a198d8073571caaae263de501236e6052" name="a198d8073571caaae263de501236e6052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a198d8073571caaae263de501236e6052">&#9670;&#160;</a></span>signWord()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint64_t MR::detail::signWord </td>
+          <td>(</td>
+          <td class="paramtype">std::uint64_t</td>          <td class="paramname"><span class="paramname"><em>hi</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span><span class="mlabel constexpr">constexpr</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>all ones if the highest bit of the given word is set, and zeros otherwise </p>
+
+</div>
+</div>
+<a id="a7fc59c8caf263e5cec996db9f596920d" name="a7fc59c8caf263e5cec996db9f596920d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fc59c8caf263e5cec996db9f596920d">&#9670;&#160;</a></span>subBorrow64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint64_t MR::detail::subBorrow64 </td>
+          <td>(</td>
+          <td class="paramtype">std::uint64_t</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint64_t</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint64_t &amp;</td>          <td class="paramname"><span class="paramname"><em>borrow</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span><span class="mlabel constexpr">constexpr</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns a - b - borrow modulo 2^64, and replaces borrow with the borrow-out (0 or 1) </p>
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="af6206848d5379160c8a8684d2c76593f" name="af6206848d5379160c8a8684d2c76593f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6206848d5379160c8a8684d2c76593f">&#9670;&#160;</a></span>cFitsFastInt128</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::detail::cFitsFastInt128 = std::is_integral_v&lt;T&gt; || std::is_same_v&lt;T, <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the integer types that <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> represents exactly, and which the classes below accept </p>
 
 </div>
 </div>
