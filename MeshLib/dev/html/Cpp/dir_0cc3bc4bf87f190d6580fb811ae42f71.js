@@ -426,6 +426,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRUnorientedTriangle.h", "MRUnorientedTriangle_8h.html", null ],
     [ "MRUnsigned.h", "MRUnsigned_8h.html", "MRUnsigned_8h" ],
     [ "MRUVSphere.h", "MRUVSphere_8h.html", null ],
+    [ "MRVarBigInt.h", "MRVarBigInt_8h.html", null ],
     [ "MRVector.h", "MRVector_8h.html", "MRVector_8h" ],
     [ "MRVector2.h", "MRVector2_8h.html", null ],
     [ "MRVector3.h", "MRVector3_8h.html", null ],

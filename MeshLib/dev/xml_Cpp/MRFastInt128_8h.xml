@@ -6,6 +6,7 @@
     <includedby refid="MRFastInt_8h" local="yes">MRMesh/MRFastInt.h</includedby>
     <includedby refid="MRHighPrecision_8h" local="yes">MRMesh/MRHighPrecision.h</includedby>
     <includedby refid="MRInt64Mul128_8h" local="yes">MRMesh/MRInt64Mul128.h</includedby>
+    <includedby refid="MRVarBigInt_8h" local="yes">MRMesh/MRVarBigInt.h</includedby>
     <invincdepgraph>
       <node id="2">
         <label>MRMesh/MRAlphaShape.h</label>
@@ -18,6 +19,8 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRMesh/MRFastInt128.h</label>
@@ -27,6 +30,8 @@
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -39,9 +44,13 @@
         <label>MRMesh/MRInSphere.h</label>
         <link refid="MRInSphere_8h"/>
       </node>
-      <node id="6">
+      <node id="7">
         <label>MRMesh/MRInt64Mul128.h</label>
         <link refid="MRInt64Mul128_8h"/>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRVarBigInt.h</label>
+        <link refid="MRVarBigInt_8h"/>
       </node>
     </invincdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>

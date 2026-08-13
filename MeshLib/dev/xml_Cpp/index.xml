@@ -12176,6 +12176,36 @@
     <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1ac3a856a28b4b83522209d068fc7dcf6e" kind="variable"><name>disabledReason</name></member>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1ae5bd95dc0fb048677f9f0316deb3ff6b" kind="variable"><name>kindName</name></member>
   </compound>
+  <compound refid="classMR_1_1VarBigInt" kind="class"><name>MR::VarBigInt</name>
+    <member refid="classMR_1_1VarBigInt_1adfc6646359195c3fca23c94135a63bc3" kind="variable"><name>sign_</name></member>
+    <member refid="classMR_1_1VarBigInt_1a4af66f316db8fdbf499459773851ef66" kind="variable"><name>len_</name></member>
+    <member refid="classMR_1_1VarBigInt_1ada27e712816a59114226943dcf50ded8" kind="variable"><name>mag_</name></member>
+    <member refid="classMR_1_1VarBigInt_1a6daa558b3b85bf5c900b98188df94d7a" kind="function"><name>VarBigInt</name></member>
+    <member refid="classMR_1_1VarBigInt_1ab75ac807114214cf70e4766d353fd1b3" kind="function"><name>VarBigInt</name></member>
+    <member refid="classMR_1_1VarBigInt_1ad462c9e6e50985bbda0b4c4be217be43" kind="function"><name>VarBigInt</name></member>
+    <member refid="classMR_1_1VarBigInt_1abfc2d0c56498c6d85f3877dc1334c1db" kind="function"><name>operator=</name></member>
+    <member refid="classMR_1_1VarBigInt_1a2b20afec11d7cd2ae383f4e3a7c3ff3b" kind="function"><name>operator=</name></member>
+    <member refid="classMR_1_1VarBigInt_1a13fb159abae086548a2e93918124bc3c" kind="function"><name>VarBigInt</name></member>
+    <member refid="classMR_1_1VarBigInt_1ab7b9f4291c1de63001796f9dbf0acbc9" kind="function"><name>VarBigInt</name></member>
+    <member refid="classMR_1_1VarBigInt_1a42ba0a145b53afb6f0f8086553bb1ba8" kind="function"><name>VarBigInt</name></member>
+    <member refid="classMR_1_1VarBigInt_1a6d8d4b0cdb865c1a3a377a7f564933bb" kind="function"><name>sign</name></member>
+    <member refid="classMR_1_1VarBigInt_1a876aa3428a58eefbbc59d4bd7b219bff" kind="function"><name>operator-</name></member>
+    <member refid="classMR_1_1VarBigInt_1ac4d08b145590570a9a82286378a9bf64" kind="function"><name>operator+=</name></member>
+    <member refid="classMR_1_1VarBigInt_1a512a8f1b7af491fbd2d5d29786c9b7ce" kind="function"><name>operator-=</name></member>
+    <member refid="classMR_1_1VarBigInt_1a49f73d098f97f93dc16e076e922cd287" kind="friend"><name>operator+</name></member>
+    <member refid="classMR_1_1VarBigInt_1ae794f635c0ea4c5bbe9c804488cc85a4" kind="friend"><name>operator-</name></member>
+    <member refid="classMR_1_1VarBigInt_1a9928ab8806d0fc8257f49534b1270d4f" kind="friend"><name>operator*</name></member>
+    <member refid="classMR_1_1VarBigInt_1a84a58a5c56947b9350e02fa81669a3b6" kind="friend"><name>operator==</name></member>
+    <member refid="classMR_1_1VarBigInt_1ab029a72d5a9f6ccfb3964cd80ad164b0" kind="friend"><name>operator&lt;=&gt;</name></member>
+    <member refid="classMR_1_1VarBigInt_1a1780cc4827a94c7c1e0b3858676c9cb5" kind="function"><name>limbs</name></member>
+    <member refid="classMR_1_1VarBigInt_1aa2445d4d5551b8d2b56902420c57ca60" kind="function"><name>assignLimbs</name></member>
+    <member refid="classMR_1_1VarBigInt_1aabeedc78c897b4dab560cc339e87f0e0" kind="function"><name>make</name></member>
+    <member refid="classMR_1_1VarBigInt_1a6ed01a9c044892b9ddb559fb3b8ed456" kind="function"><name>magNorm</name></member>
+    <member refid="classMR_1_1VarBigInt_1aa877451e74ad6a5be860d254517a4420" kind="function"><name>magCmp</name></member>
+    <member refid="classMR_1_1VarBigInt_1a1cb944d9d41936b4b892471b0dd8c350" kind="function"><name>magAdd</name></member>
+    <member refid="classMR_1_1VarBigInt_1a505035d6095443890cdd8ee251c1054d" kind="function"><name>magSub</name></member>
+    <member refid="classMR_1_1VarBigInt_1aeb0230909ee6cbd17fcca97d13156567" kind="function"><name>magMul</name></member>
+  </compound>
   <compound refid="structMR_1_1VarEdgeTri" kind="struct"><name>MR::VarEdgeTri</name>
     <member refid="structMR_1_1VarEdgeTri_1a40285e5911c3efc0fdba9474bce8129a" kind="variable"><name>edge</name></member>
     <member refid="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" kind="variable"><name>flaggedTri</name></member>
@@ -14173,17 +14203,8 @@
     <member refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kind="typedef"><name>FastUInt128</name></member>
     <member refid="group__GeneralGroup_1ga45cb1332fad43a5a921294d643411ba0" kind="typedef"><name>FeaturesPropertyTypesVariant</name></member>
     <member refid="group__GeneralGroup_1gaad6ac9cd0268793575ae31767169ad0e" kind="typedef"><name>MultiObjsSamples</name></member>
-    <member refid="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" kind="typedef"><name>Int128</name></member>
-    <member refid="group__HighPrecisionGroup_1ga62843f076a5d1ed019b89472396d5b37" kind="typedef"><name>Int256</name></member>
-    <member refid="group__HighPrecisionGroup_1ga5976703eb9bbacde180901857b838ed4" kind="typedef"><name>Int512</name></member>
-    <member refid="group__HighPrecisionGroup_1ga842d51b6f68ca651644e386f3a677f87" kind="typedef"><name>Int1024</name></member>
-    <member refid="group__HighPrecisionGroup_1ga564f83b9c74fcac72243ca5b5ca0b366" kind="typedef"><name>Vector2i128</name></member>
-    <member refid="group__HighPrecisionGroup_1ga63880082d353e6f29c0da82c436c2f17" kind="typedef"><name>Vector3i128</name></member>
     <member refid="group__HighPrecisionGroup_1ga6cc6a39f0d719c385249f1a861f2f603" kind="typedef"><name>Vector2i128fast</name></member>
     <member refid="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" kind="typedef"><name>Vector3i128fast</name></member>
-    <member refid="group__HighPrecisionGroup_1ga2a65da15f1a8f436a40ccf209c54ac3d" kind="typedef"><name>Vector2i256</name></member>
-    <member refid="group__HighPrecisionGroup_1ga6290db8f78d4998addb556921ff349ef" kind="typedef"><name>Vector3i256</name></member>
-    <member refid="group__HighPrecisionGroup_1ga35d4969873ad6731b1e6f279e73ef21f" kind="typedef"><name>Vector3i512</name></member>
     <member refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kind="typedef"><name>HistoryStackFilter</name></member>
     <member refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kind="typedef"><name>HistoryActionsVector</name></member>
     <member refid="group__HighPrecisionGroup_1ga069a4cfb1c909d7c7e32d575dac759cf" kind="typedef"><name>Vector2i64mul</name></member>
@@ -14810,7 +14831,6 @@
     <member refid="group__BasicGroup_1gac4cf85680ec3620cb08726ea6668e99a" kind="function"><name>heapBytes</name></member>
     <member refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__BasicGroup_1ga95720533ccaf5f5aa42fbabee1ce7067" kind="function"><name>heapBytes</name></member>
-    <member refid="group__HighPrecisionGroup_1gae9201ba08bf2e2dabdfdf95e94b777ee" kind="function"><name>toBoostInt</name></member>
     <member refid="group__GeneralGroup_1gad816d7f5445309140db275f8f14c8ba1" kind="function"><name>filterHistoryActionsVector</name></member>
     <member refid="group__GeneralGroup_1ga6bc994c1ebf7a119332f7d7a212cdd5e" kind="function"><name>getNumSamples</name></member>
     <member refid="group__GeneralGroup_1ga2a5d3a2f7c92a6b8c0c35cd269530356" kind="function"><name>getNumActivePairs</name></member>
@@ -18160,6 +18180,8 @@
   </compound>
   <compound refid="MRUVSphere_8h" kind="file"><name>MRUVSphere.h</name>
   </compound>
+  <compound refid="MRVarBigInt_8h" kind="file"><name>MRVarBigInt.h</name>
+  </compound>
   <compound refid="MRVector_8h" kind="file"><name>MRVector.h</name>
   </compound>
   <compound refid="MRVector2_8h" kind="file"><name>MRVector2.h</name>
@@ -19194,23 +19216,13 @@
     <member refid="group__HighPrecisionGroup_1gae7ef2941b906c6b8fdf3ff7564a4b2d5" kind="typedef"><name>FastInt1024</name></member>
     <member refid="group__HighPrecisionGroup_1ga970217958e55bf462e02d07c04ad41ee" kind="typedef"><name>Vector2i128mul</name></member>
     <member refid="group__HighPrecisionGroup_1ga8065860768f5dfd050e97b1b53d20b23" kind="typedef"><name>Vector3i128mul</name></member>
-    <member refid="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" kind="typedef"><name>Int128</name></member>
-    <member refid="group__HighPrecisionGroup_1ga62843f076a5d1ed019b89472396d5b37" kind="typedef"><name>Int256</name></member>
-    <member refid="group__HighPrecisionGroup_1ga5976703eb9bbacde180901857b838ed4" kind="typedef"><name>Int512</name></member>
-    <member refid="group__HighPrecisionGroup_1ga842d51b6f68ca651644e386f3a677f87" kind="typedef"><name>Int1024</name></member>
-    <member refid="group__HighPrecisionGroup_1ga564f83b9c74fcac72243ca5b5ca0b366" kind="typedef"><name>Vector2i128</name></member>
-    <member refid="group__HighPrecisionGroup_1ga63880082d353e6f29c0da82c436c2f17" kind="typedef"><name>Vector3i128</name></member>
     <member refid="group__HighPrecisionGroup_1ga6cc6a39f0d719c385249f1a861f2f603" kind="typedef"><name>Vector2i128fast</name></member>
     <member refid="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" kind="typedef"><name>Vector3i128fast</name></member>
-    <member refid="group__HighPrecisionGroup_1ga2a65da15f1a8f436a40ccf209c54ac3d" kind="typedef"><name>Vector2i256</name></member>
-    <member refid="group__HighPrecisionGroup_1ga6290db8f78d4998addb556921ff349ef" kind="typedef"><name>Vector3i256</name></member>
-    <member refid="group__HighPrecisionGroup_1ga35d4969873ad6731b1e6f279e73ef21f" kind="typedef"><name>Vector3i512</name></member>
     <member refid="group__HighPrecisionGroup_1ga069a4cfb1c909d7c7e32d575dac759cf" kind="typedef"><name>Vector2i64mul</name></member>
     <member refid="group__HighPrecisionGroup_1ga2290828b1eb673ce78c350b8c3b2b6cb" kind="typedef"><name>Vector3i64mul</name></member>
     <member refid="group__HighPrecisionGroup_1gacf1747776a123f6afdf52b1c766d5a15" kind="function"><name>operator*</name></member>
     <member refid="group__HighPrecisionGroup_1ga15464bb6e2f869d91cb4a1583d4af1d4" kind="function"><name>operator*</name></member>
     <member refid="group__HighPrecisionGroup_1ga8f43e802126c20691185376048e2fe69" kind="function"><name>operator*</name></member>
-    <member refid="group__HighPrecisionGroup_1gae9201ba08bf2e2dabdfdf95e94b777ee" kind="function"><name>toBoostInt</name></member>
   </compound>
   <compound refid="group__ImageLoadGroup" kind="group"><name>ImageLoadGroup</name>
     <member refid="group__ImageLoadGroup_1ga2e9338f4df7d8c383cae3bab2971a671" kind="function"><name>fromAnySupportedFormat</name></member>

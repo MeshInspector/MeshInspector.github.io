@@ -4971,6 +4971,7 @@
     <member refid="MRBuffer_8h_1a65578cccc12601546b8fe146df1ae039" kind="typedef"><name>MR_Buffer_MR_UndirectedEdgeId</name></member>
     <member refid="MRBuffer_8h_1adbc86b6b49b764ec55230fd896870553" kind="typedef"><name>MR_Buffer_MR_FaceId</name></member>
     <member refid="MRBuffer_8h_1ae59984a854d371b2c7cc8dd07657d65e" kind="typedef"><name>MR_Buffer_char</name></member>
+    <member refid="MRBuffer_8h_1aa4df0b4a20bd80c767402e331af0a80f" kind="typedef"><name>MR_Buffer_uint64_t</name></member>
     <member refid="MRBuffer_8h_1a550e58c065e57e782377429b013a4a29" kind="typedef"><name>MR_Buffer_unsigned_char</name></member>
     <member refid="MRBuffer_8h_1a688bf12270075ec1756174e79fbebec1" kind="typedef"><name>MR_Buffer_MR_EdgeId_MR_EdgeId</name></member>
     <member refid="MRBuffer_8h_1a7db12eef618c5e62913d9aeeff0a31df" kind="typedef"><name>MR_Buffer_MR_EdgeId_MR_UndirectedEdgeId</name></member>
@@ -4991,6 +4992,7 @@
     <member refid="MRBuffer_8h_1a63f76b0f0138cc49104747ea862cfd35" kind="typedef"><name>MR_NoCtor_MR_UndirectedEdgeId</name></member>
     <member refid="MRBuffer_8h_1ac83cc62c49eb258359785855545a6a43" kind="typedef"><name>MR_NoCtor_MR_FaceId</name></member>
     <member refid="MRBuffer_8h_1a673fe253eca6ec7afe8f6a2bb44eca4f" kind="typedef"><name>MR_NoCtor_MR_VertId</name></member>
+    <member refid="MRBuffer_8h_1a6d2c3ba87b5cbf3367c3cd695c42f181" kind="typedef"><name>MR_NoCtor_uint64_t</name></member>
     <member refid="MRBuffer_8h_1a65aeadfa7403acec3d68ffa65802c816" kind="typedef"><name>MR_NoCtor_unsigned_char</name></member>
     <member refid="MRBuffer_8h_1abde96022140d7df9200836b495ab09ba" kind="typedef"><name>MR_NoCtor_char</name></member>
     <member refid="MRBuffer_8h_1a29c65f54ff07c79ed937906a9c39ec3f" kind="typedef"><name>MR_NoCtor_MR_EdgeId</name></member>
@@ -5186,6 +5188,32 @@
     <member refid="MRBuffer_8h_1a21b77721b5e4855fc0198e77ec05dfa8" kind="function"><name>MR_begin_MR_Buffer_char_ref</name></member>
     <member refid="MRBuffer_8h_1a6be3fb87f87b95d5ca06a7d62877a708" kind="function"><name>MR_end_const_MR_Buffer_char_ref</name></member>
     <member refid="MRBuffer_8h_1a104e11f720fc00ac9d3cdc2df24f9f9b" kind="function"><name>MR_end_MR_Buffer_char_ref</name></member>
+    <member refid="MRBuffer_8h_1aef158e2f685ee982add9c9452cc961e5" kind="function"><name>MR_Buffer_uint64_t_DefaultConstruct</name></member>
+    <member refid="MRBuffer_8h_1af3e02a52de34be6ac240a66088783b37" kind="function"><name>MR_Buffer_uint64_t_DefaultConstructArray</name></member>
+    <member refid="MRBuffer_8h_1a60374efaa3b6a53cc2586c69399be6c9" kind="function"><name>MR_Buffer_uint64_t_OffsetPtr</name></member>
+    <member refid="MRBuffer_8h_1a4b3666121d7425d4177602acd72dc288" kind="function"><name>MR_Buffer_uint64_t_OffsetMutablePtr</name></member>
+    <member refid="MRBuffer_8h_1a6f41495e9b144cbe1f53bc233fdd49d1" kind="function"><name>MR_Buffer_uint64_t_ConstructFromAnother</name></member>
+    <member refid="MRBuffer_8h_1abff46846429284cef9d16828cbd401c1" kind="function"><name>MR_Buffer_uint64_t_Construct</name></member>
+    <member refid="MRBuffer_8h_1a4a990d596d77f33ebecb7a0cd624cde9" kind="function"><name>MR_Buffer_uint64_t_Destroy</name></member>
+    <member refid="MRBuffer_8h_1a7fa7d909cbf76c762842ab3db9311b73" kind="function"><name>MR_Buffer_uint64_t_DestroyArray</name></member>
+    <member refid="MRBuffer_8h_1a94bf84278ca3ce24e08599bd95087e84" kind="function"><name>MR_Buffer_uint64_t_AssignFromAnother</name></member>
+    <member refid="MRBuffer_8h_1a6b9a91571ba143bdec4ee32253fd5c27" kind="function"><name>MR_Buffer_uint64_t_capacity</name></member>
+    <member refid="MRBuffer_8h_1add17157cd767c4d4f39d84288c148407" kind="function"><name>MR_Buffer_uint64_t_size</name></member>
+    <member refid="MRBuffer_8h_1afe1b24d53781ff23bd3b17b8b4b018ea" kind="function"><name>MR_Buffer_uint64_t_empty</name></member>
+    <member refid="MRBuffer_8h_1ab7c1adac3aa1dbca1463fa98ddf02c5b" kind="function"><name>MR_Buffer_uint64_t_clear</name></member>
+    <member refid="MRBuffer_8h_1ade6bb8ec8d6b673adf9cac55de74df26" kind="function"><name>MR_Buffer_uint64_t_resize</name></member>
+    <member refid="MRBuffer_8h_1a2f0cf673f231a5067640a207be574d0d" kind="function"><name>MR_Buffer_uint64_t_index</name></member>
+    <member refid="MRBuffer_8h_1adc98ae9e20c175e068ade27937b01bcd" kind="function"><name>MR_Buffer_uint64_t_index_mut</name></member>
+    <member refid="MRBuffer_8h_1a6f8291938b8fb711ab69b30a834853dd" kind="function"><name>MR_Buffer_uint64_t_data_mut</name></member>
+    <member refid="MRBuffer_8h_1aa62cc5f499232cd32f3783caf9fd93c9" kind="function"><name>MR_Buffer_uint64_t_data</name></member>
+    <member refid="MRBuffer_8h_1af5a2dfa594c662dcda364e1b369daf08" kind="function"><name>MR_Buffer_uint64_t_beginId</name></member>
+    <member refid="MRBuffer_8h_1a5ce5c2c86ba7aba60fbfc3cdcd07fa07" kind="function"><name>MR_Buffer_uint64_t_backId</name></member>
+    <member refid="MRBuffer_8h_1a6fb2761f6c1d762f0b82bb7052a495c3" kind="function"><name>MR_Buffer_uint64_t_endId</name></member>
+    <member refid="MRBuffer_8h_1a4e01bd8b03b54f2818fc5d07570c9d53" kind="function"><name>MR_Buffer_uint64_t_heapBytes</name></member>
+    <member refid="MRBuffer_8h_1aba4f7b244ec933abb7225caada491109" kind="function"><name>MR_begin_const_MR_Buffer_uint64_t_ref</name></member>
+    <member refid="MRBuffer_8h_1a110a3dadafe76c62a6c2a60f4ecd5f64" kind="function"><name>MR_begin_MR_Buffer_uint64_t_ref</name></member>
+    <member refid="MRBuffer_8h_1aab204621fbf25bcb848668195b44524f" kind="function"><name>MR_end_const_MR_Buffer_uint64_t_ref</name></member>
+    <member refid="MRBuffer_8h_1a1bcb33202a1efafd1f63ae9a8101b1be" kind="function"><name>MR_end_MR_Buffer_uint64_t_ref</name></member>
     <member refid="MRBuffer_8h_1ae878fe6fad0b12e2095ad2e1b75e2447" kind="function"><name>MR_Buffer_unsigned_char_DefaultConstruct</name></member>
     <member refid="MRBuffer_8h_1a95502cac777b4002bb2e908386897c4d" kind="function"><name>MR_Buffer_unsigned_char_DefaultConstructArray</name></member>
     <member refid="MRBuffer_8h_1a6e163dc66a7328fd847f41ee1cf7d80a" kind="function"><name>MR_Buffer_unsigned_char_OffsetPtr</name></member>
@@ -5788,6 +5816,14 @@
     <member refid="MRBuffer_8h_1a2c7141c1cb551a4c916e344df054ae3b" kind="function"><name>MR_NoCtor_MR_VertId_Destroy</name></member>
     <member refid="MRBuffer_8h_1af73424aa8145ee4a47304e412d7bb3d4" kind="function"><name>MR_NoCtor_MR_VertId_DestroyArray</name></member>
     <member refid="MRBuffer_8h_1a870030753d97ccc313635742d183956e" kind="function"><name>MR_NoCtor_MR_VertId_AssignFromAnother</name></member>
+    <member refid="MRBuffer_8h_1ab4eac84fc29108c2b25026ffee0f8252" kind="function"><name>MR_NoCtor_uint64_t_DefaultConstruct</name></member>
+    <member refid="MRBuffer_8h_1ad31a2f78e157a12daa5eaf037a807786" kind="function"><name>MR_NoCtor_uint64_t_DefaultConstructArray</name></member>
+    <member refid="MRBuffer_8h_1a98bdd9627ea2c971469b3d6f4cacfb30" kind="function"><name>MR_NoCtor_uint64_t_OffsetPtr</name></member>
+    <member refid="MRBuffer_8h_1a080d34610997ea7629dfaa3e7db131ff" kind="function"><name>MR_NoCtor_uint64_t_OffsetMutablePtr</name></member>
+    <member refid="MRBuffer_8h_1aeb3720c21b195ddda47ff091c23c2825" kind="function"><name>MR_NoCtor_uint64_t_ConstructFromAnother</name></member>
+    <member refid="MRBuffer_8h_1a02a0accaebe9bd1a8322bfa17fc0f028" kind="function"><name>MR_NoCtor_uint64_t_Destroy</name></member>
+    <member refid="MRBuffer_8h_1aa9b7a92d78e1d3a53740a03f4178e47c" kind="function"><name>MR_NoCtor_uint64_t_DestroyArray</name></member>
+    <member refid="MRBuffer_8h_1a41ed55dc1528bf6b938366cd6052ecab" kind="function"><name>MR_NoCtor_uint64_t_AssignFromAnother</name></member>
     <member refid="MRBuffer_8h_1ab9d97786f2ec7334f0e7e03b3571360a" kind="function"><name>MR_NoCtor_unsigned_char_DefaultConstruct</name></member>
     <member refid="MRBuffer_8h_1a13d0c35cfcf2d9f993e144a4d26ef752" kind="function"><name>MR_NoCtor_unsigned_char_DefaultConstructArray</name></member>
     <member refid="MRBuffer_8h_1a8d77838a4a96e6c134d3f63d4c4a97b7" kind="function"><name>MR_NoCtor_unsigned_char_OffsetPtr</name></member>

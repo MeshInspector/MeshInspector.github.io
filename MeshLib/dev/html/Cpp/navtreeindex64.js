@@ -1,5 +1,15 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1IntersectionPrecomputes.html":[6,0,0,1,15],
+"structMR_1_1IntersectionPrecomputes.html":[6,0,0,20,343],
+"structMR_1_1IntersectionPrecomputes2.html":[6,0,0,1,16],
+"structMR_1_1IntersectionPrecomputes2.html":[6,0,0,20,349],
+"structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8":[6,0,0,1,16,2],
+"structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8":[6,0,0,20,349,2],
+"structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de":[6,0,0,1,16,7],
+"structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de":[6,0,0,20,349,7],
+"structMR_1_1IntersectionPrecomputes2.html#a5f4ae33fcf963d2ccab283fcadff212b":[6,0,0,1,16,1],
+"structMR_1_1IntersectionPrecomputes2.html#a5f4ae33fcf963d2ccab283fcadff212b":[6,0,0,20,349,1],
 "structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f":[6,0,0,1,16,6],
 "structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f":[6,0,0,20,349,6],
 "structMR_1_1IntersectionPrecomputes2.html#a802abc712cfba3867b04a4f8a9ba4f60":[6,0,0,1,16,5],
@@ -239,15 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1Mesh.html#a6e9aa843e541b5b9b371902f0e14810a":[6,0,0,7,1,85],
 "structMR_1_1Mesh.html#a7173fafd19150c40259003561a02162a":[6,0,0,7,1,59],
 "structMR_1_1Mesh.html#a72472fa8eac4aba3ae82bb68995534c7":[6,0,0,7,1,109],
-"structMR_1_1Mesh.html#a74fb2ffa3d099943f8def4c3be88c2d3":[6,0,0,7,1,100],
-"structMR_1_1Mesh.html#a757524ab0b73b9ef9256daca95b55540":[6,0,0,7,1,107],
-"structMR_1_1Mesh.html#a76cd30890d96aba180bc7680067a1227":[6,0,0,7,1,73],
-"structMR_1_1Mesh.html#a794228b9596c5ff43f76dc8654d1545f":[6,0,0,7,1,63],
-"structMR_1_1Mesh.html#a797623a41864029eb93103c262fa70d4":[6,0,0,7,1,75],
-"structMR_1_1Mesh.html#a8121a87b4511118c273836888eb18ab8":[6,0,0,7,1,71],
-"structMR_1_1Mesh.html#a840bac6e56b6be19515df2d1a3cf69fd":[6,0,0,7,1,39],
-"structMR_1_1Mesh.html#a8413d6a67149defd54376ec0b8d8ff05":[6,0,0,7,1,76],
-"structMR_1_1Mesh.html#a88f3660852b3da7957b674e29f125150":[6,0,0,7,1,51],
-"structMR_1_1Mesh.html#a8c0879122a6abf7e015c89fdbd7dd584":[6,0,0,7,1,104],
-"structMR_1_1Mesh.html#a8ee4d943cee3647d877e189fb6b375d9":[6,0,0,7,1,7]
+"structMR_1_1Mesh.html#a74fb2ffa3d099943f8def4c3be88c2d3":[6,0,0,7,1,100]
 };

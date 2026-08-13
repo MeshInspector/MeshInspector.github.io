@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Buffer__Uint64T" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Buffer_Uint64T</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Buffer__Uint64T" prot="public" virt="non-virtual">MR.Buffer_Uint64T</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__Buffer__Uint64T_1_1__Underlying" prot="package">MR::Const_Buffer_Uint64T::_Underlying</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Buffer__Uint64T_1af83b9195ce6ee8e3084dfee58d5c1332" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Buffer_Uint64T.this[nuint i]</definition>
+        <argsstring></argsstring>
+        <name>this[nuint i]</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.this[nuint i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;uint64_t&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3319" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3320" bodyend="3327"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1a1911f9c4a1ba6739203b035cc2c27bae" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Buffer_Uint64T.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3177" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3177" bodyend="3185"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1a6e7180afca2c4266a5a9bea12a0fb477" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Buffer_Uint64T.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3186" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3186" bodyend="3186"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1ad31eab38a08dde57d57ac18659fb409b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; MR.Misc.Ref&lt; ulong &gt; &gt;</type>
+        <definition>IEnumerator&lt; MR.Misc.Ref&lt; ulong &gt; &gt; MR.Const_Buffer_Uint64T.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3243" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3243" bodyend="3246"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1afecd9378edbf00790dd54536a9a0cb97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Buffer_Uint64T.Const_Buffer_Uint64T</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Buffer_Uint64T</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.Const_Buffer_Uint64T</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3258" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3258" bodyend="3263"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1ae9daa7b9261526875a3cb4a1faa13101" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Buffer_Uint64T.Const_Buffer_Uint64T</definition>
+        <argsstring>(MR._ByValue_Buffer_Uint64T _other)</argsstring>
+        <name>Const_Buffer_Uint64T</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.Const_Buffer_Uint64T</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_Uint64T</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;uint64_t&amp;gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3268" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3268" bodyend="3274"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1a43c5027efd891642e3e5de8fb33365ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Buffer_Uint64T.Const_Buffer_Uint64T</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>Const_Buffer_Uint64T</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.Const_Buffer_Uint64T</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;uint64_t&amp;gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3279" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3279" bodyend="3284"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1a79c5d4e062022c5ccdc63019d7e7498e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_Uint64T.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;uint64_t&amp;gt;<ref refid="classMR_1_1Const__Buffer__Uint64T_1a79c5d4e062022c5ccdc63019d7e7498e" kindref="member">capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3289" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3289" bodyend="3294"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1a2bea5301c6ae0ebf031040449d0e3964" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_Uint64T.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;uint64_t&amp;gt;<ref refid="classMR_1_1Const__Buffer__Uint64T_1a2bea5301c6ae0ebf031040449d0e3964" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3299" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3299" bodyend="3304"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1a9e6b8c7e9a19da4e768298a4c0f005bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Buffer_Uint64T.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;uint64_t&amp;gt;<ref refid="classMR_1_1Const__Buffer__Uint64T_1a9e6b8c7e9a19da4e768298a4c0f005bf" kindref="member">empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3309" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3309" bodyend="3314"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1a0f286a344bf9c5270098bcdd607a4c0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Misc.? Ref&lt; ulong &gt;</type>
+        <definition>unsafe MR.Misc.? Ref&lt; ulong &gt; MR.Const_Buffer_Uint64T.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;uint64_t&amp;gt;<ref refid="classMR_1_1Const__Buffer__Uint64T_1a0f286a344bf9c5270098bcdd607a4c0a" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3332" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3332" bodyend="3338"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1adc95b2179cd91ff2b06b4d3ffdb8ce24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_Uint64T.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Buffer&amp;lt;uint64_t&amp;gt;<ref refid="classMR_1_1Const__Buffer__Uint64T_1adc95b2179cd91ff2b06b4d3ffdb8ce24" kindref="member">beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3344" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3344" bodyend="3349"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1a1bf2036b32dd02da1e4a99d6d456117a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_Uint64T.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the back() element Generated from method <computeroutput>MR::Buffer&amp;lt;uint64_t&amp;gt;<ref refid="classMR_1_1Const__Buffer__Uint64T_1a1bf2036b32dd02da1e4a99d6d456117a" kindref="member">backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3355" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3355" bodyend="3360"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1a32b55be7a67df229e5b414e172f25792" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_Uint64T.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Buffer__Uint64T_1a1bf2036b32dd02da1e4a99d6d456117a" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Buffer&amp;lt;uint64_t&amp;gt;<ref refid="classMR_1_1Const__Buffer__Uint64T_1a32b55be7a67df229e5b414e172f25792" kindref="member">endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3366" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3366" bodyend="3371"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1aaaa4fedc39629dc2b2c92fafc574e46c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_Buffer_Uint64T.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Buffer&amp;lt;uint64_t&amp;gt;<ref refid="classMR_1_1Const__Buffer__Uint64T_1aaaa4fedc39629dc2b2c92fafc574e46c" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3377" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3377" bodyend="3382"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1a790c87ec829d0320521675b5130a0be3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Buffer_Uint64T.~Const_Buffer_Uint64T</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Buffer_Uint64T</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.~Const_Buffer_Uint64T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3187" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3187" bodyend="3187"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1a2c6f9b39ac0d4168843622bbcce7277e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Buffer_Uint64T.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3248" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3248" bodyend="3251"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__Uint64T_1a5a944954e64d761cb4f47130581c795e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Buffer_Uint64T.Const_Buffer_Uint64T</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Buffer_Uint64T</name>
+        <qualifiedname>MR.Const_Buffer_Uint64T.Const_Buffer_Uint64T</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3253" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3253" bodyend="3253"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>V</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;lt;uint64_t&amp;gt;</computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Buffer_Uint64T</label>
+        <link refid="classMR_1_1Const__Buffer__Uint64T"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.Buffer_Uint64T</label>
+        <link refid="classMR_1_1Buffer__Uint64T"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Buffer_Uint64T</label>
+        <link refid="classMR_1_1Const__Buffer__Uint64T"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="3171" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="3172" bodyend="3383"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1a1bf2036b32dd02da1e4a99d6d456117a" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1adc95b2179cd91ff2b06b4d3ffdb8ce24" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1a79c5d4e062022c5ccdc63019d7e7498e" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1a5a944954e64d761cb4f47130581c795e" prot="package" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>Const_Buffer_Uint64T</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1afecd9378edbf00790dd54536a9a0cb97" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>Const_Buffer_Uint64T</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1ae9daa7b9261526875a3cb4a1faa13101" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>Const_Buffer_Uint64T</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1a43c5027efd891642e3e5de8fb33365ba" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>Const_Buffer_Uint64T</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1a0f286a344bf9c5270098bcdd607a4c0a" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1a1911f9c4a1ba6739203b035cc2c27bae" prot="protected" virt="virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1a6e7180afca2c4266a5a9bea12a0fb477" prot="public" virt="virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1a9e6b8c7e9a19da4e768298a4c0f005bf" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1a32b55be7a67df229e5b414e172f25792" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1ad31eab38a08dde57d57ac18659fb409b" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1a2c6f9b39ac0d4168843622bbcce7277e" prot="private" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1aaaa4fedc39629dc2b2c92fafc574e46c" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1a2bea5301c6ae0ebf031040449d0e3964" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1af83b9195ce6ee8e3084dfee58d5c1332" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>this[nuint i]</name></member>
+      <member refid="classMR_1_1Const__Buffer__Uint64T_1a790c87ec829d0320521675b5130a0be3" prot="private" virt="non-virtual"><scope>MR::Const_Buffer_Uint64T</scope><name>~Const_Buffer_Uint64T</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

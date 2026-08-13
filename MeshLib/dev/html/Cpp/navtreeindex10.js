@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"classMR_1_1ObjectLines.html":[6,0,0,20,392],
+"classMR_1_1ObjectLinesHolder.html":[6,0,0,11,8],
 "classMR_1_1ObjectLinesHolder.html":[6,0,0,20,394],
 "classMR_1_1ObjectMesh.html":[6,0,0,11,9],
 "classMR_1_1ObjectMesh.html":[6,0,0,20,395],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4.html#adc75741d30361c85719c78c121fc0e1e":[6,0,2,0,2,26,14,1],
 "classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4.html#afde87d2a004196721e50b8504656988d":[6,0,1,0,1,41,14,3],
 "classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4.html#afde87d2a004196721e50b8504656988d":[6,0,2,0,2,26,14,3],
-"classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html":[6,0,1,0,1,41,0,0],
-"classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html":[6,0,2,0,2,26,0,0],
-"classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html#a149210ca6db44ac261556f0531230df6":[6,0,1,0,1,41,0,0,1]
+"classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html":[6,0,1,0,1,41,0,0]
 };

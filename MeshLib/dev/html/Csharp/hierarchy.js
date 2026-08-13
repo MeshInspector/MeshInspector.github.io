@@ -468,6 +468,9 @@ var hierarchy =
       [ "MR.Const_Buffer_MRVoxelId_MRVoxelId", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html", [
         [ "MR.Buffer_MRVoxelId_MRVoxelId", "classMR_1_1Buffer__MRVoxelId__MRVoxelId.html", null ]
       ] ],
+      [ "MR.Const_Buffer_Uint64T", "classMR_1_1Const__Buffer__Uint64T.html", [
+        [ "MR.Buffer_Uint64T", "classMR_1_1Buffer__Uint64T.html", null ]
+      ] ],
       [ "MR.Const_Buffer_UnsignedChar", "classMR_1_1Const__Buffer__UnsignedChar.html", [
         [ "MR.Buffer_UnsignedChar", "classMR_1_1Buffer__UnsignedChar.html", null ]
       ] ],
@@ -1491,6 +1494,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_NoCtor_MRVoxelId", "classMR_1_1Const__NoCtor__MRVoxelId.html", [
         [ "MR.NoCtor_MRVoxelId", "classMR_1_1NoCtor__MRVoxelId.html", null ]
+      ] ],
+      [ "MR.Const_NoCtor_Uint64T", "classMR_1_1Const__NoCtor__Uint64T.html", [
+        [ "MR.NoCtor_Uint64T", "classMR_1_1NoCtor__Uint64T.html", null ]
       ] ],
       [ "MR.Const_NoCtor_UnsignedChar", "classMR_1_1Const__NoCtor__UnsignedChar.html", [
         [ "MR.NoCtor_UnsignedChar", "classMR_1_1NoCtor__UnsignedChar.html", null ]
@@ -3028,6 +3034,7 @@ var hierarchy =
       [ "MR.Buffer_MRVertId", "classMR_1_1Buffer__MRVertId.html", null ],
       [ "MR.Buffer_MRVertId_MRVertId", "classMR_1_1Buffer__MRVertId__MRVertId.html", null ],
       [ "MR.Buffer_MRVoxelId_MRVoxelId", "classMR_1_1Buffer__MRVoxelId__MRVoxelId.html", null ],
+      [ "MR.Buffer_Uint64T", "classMR_1_1Buffer__Uint64T.html", null ],
       [ "MR.Buffer_UnsignedChar", "classMR_1_1Buffer__UnsignedChar.html", null ],
       [ "MR.Const_BitSet", "classMR_1_1Const__BitSet.html", null ],
       [ "MR.Const_Buffer_Char", "classMR_1_1Const__Buffer__Char.html", null ],
@@ -3048,6 +3055,7 @@ var hierarchy =
       [ "MR.Const_Buffer_MRVertId", "classMR_1_1Const__Buffer__MRVertId.html", null ],
       [ "MR.Const_Buffer_MRVertId_MRVertId", "classMR_1_1Const__Buffer__MRVertId__MRVertId.html", null ],
       [ "MR.Const_Buffer_MRVoxelId_MRVoxelId", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html", null ],
+      [ "MR.Const_Buffer_Uint64T", "classMR_1_1Const__Buffer__Uint64T.html", null ],
       [ "MR.Const_Buffer_UnsignedChar", "classMR_1_1Const__Buffer__UnsignedChar.html", null ],
       [ "MR.Const_Dipoles", "classMR_1_1Const__Dipoles.html", null ],
       [ "MR.Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html", null ],
@@ -3668,6 +3676,7 @@ var hierarchy =
       [ "MR.Const_Buffer_MRVertId", "classMR_1_1Const__Buffer__MRVertId.html", null ],
       [ "MR.Const_Buffer_MRVertId_MRVertId", "classMR_1_1Const__Buffer__MRVertId__MRVertId.html", null ],
       [ "MR.Const_Buffer_MRVoxelId_MRVoxelId", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html", null ],
+      [ "MR.Const_Buffer_Uint64T", "classMR_1_1Const__Buffer__Uint64T.html", null ],
       [ "MR.Const_Buffer_UnsignedChar", "classMR_1_1Const__Buffer__UnsignedChar.html", null ],
       [ "MR.Const_CNCMachineSettings", "classMR_1_1Const__CNCMachineSettings.html", null ],
       [ "MR.Const_ChangVoxelSelectionAction", "classMR_1_1Const__ChangVoxelSelectionAction.html", null ],
@@ -4010,6 +4019,7 @@ var hierarchy =
       [ "MR.Const_NoCtor_MRUndirectedEdgeId", "classMR_1_1Const__NoCtor__MRUndirectedEdgeId.html", null ],
       [ "MR.Const_NoCtor_MRVertId", "classMR_1_1Const__NoCtor__MRVertId.html", null ],
       [ "MR.Const_NoCtor_MRVoxelId", "classMR_1_1Const__NoCtor__MRVoxelId.html", null ],
+      [ "MR.Const_NoCtor_Uint64T", "classMR_1_1Const__NoCtor__Uint64T.html", null ],
       [ "MR.Const_NoCtor_UnsignedChar", "classMR_1_1Const__NoCtor__UnsignedChar.html", null ],
       [ "MR.Const_NoDefInit_MREdgeId", "classMR_1_1Const__NoDefInit__MREdgeId.html", null ],
       [ "MR.Const_NoDefInit_MRFaceId", "classMR_1_1Const__NoDefInit__MRFaceId.html", null ],

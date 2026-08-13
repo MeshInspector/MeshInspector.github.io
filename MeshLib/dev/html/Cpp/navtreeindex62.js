@@ -1,5 +1,15 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1EdgeTri.html":[6,0,0,1,17],
+"structMR_1_1EdgeTri.html#a45de5d714a586bda433f476169bb81ef":[6,0,0,1,17,1],
+"structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e":[6,0,0,1,17,2],
+"structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739":[6,0,0,1,17,0],
+"structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318":[6,0,0,1,17,3],
+"structMR_1_1EmbeddedPython_1_1Config.html":[6,0,0,20,85],
+"structMR_1_1EmbeddedStructureParameters.html":[6,0,0,20,205],
+"structMR_1_1EndMillCutter.html":[6,0,0,20,206],
+"structMR_1_1EndMillTool.html":[6,0,0,20,207],
+"structMR_1_1FaceDistancesSettings.html":[6,0,0,20,210],
 "structMR_1_1FaceFace.html":[6,0,0,1,12],
 "structMR_1_1FaceFace.html#a8c0ae6c21ae275e2d6d66235d4aa4a3f":[6,0,0,1,12,2],
 "structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[6,0,0,1,12,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,1,0,1,16,1,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,2,0,2,7,1,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[6,0,1,0,1,16,1,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[6,0,2,0,2,7,1,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,1,0,1,16,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,2,0,2,7,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1c78e55a9990e6cbd07c33abe73a74ea":[6,0,1,0,1,16,2,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1c78e55a9990e6cbd07c33abe73a74ea":[6,0,2,0,2,7,2,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1e95c8b54a2ebd5b21a285d50c85255c":[6,0,1,0,1,16,2,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1e95c8b54a2ebd5b21a285d50c85255c":[6,0,2,0,2,7,2,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html":[6,0,1,0,1,16,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html":[6,0,2,0,2,7,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a4c52dc063bae4dcacd4b598c59cc3be2":[6,0,1,0,1,16,3,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a4c52dc063bae4dcacd4b598c59cc3be2":[6,0,2,0,2,7,3,2]
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[6,0,2,0,2,7,1,1]
 };

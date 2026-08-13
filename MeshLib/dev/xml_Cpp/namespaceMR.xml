@@ -785,6 +785,7 @@
     <innerclass refid="structMR_1_1UnitToStringParams" prot="public">MR::UnitToStringParams</innerclass>
     <innerclass refid="structMR_1_1UnorientedTriangle" prot="public">MR::UnorientedTriangle</innerclass>
     <innerclass refid="structMR_1_1VacantElements" prot="public">MR::VacantElements</innerclass>
+    <innerclass refid="classMR_1_1VarBigInt" prot="public">MR::VarBigInt</innerclass>
     <innerclass refid="structMR_1_1VarEdgeTri" prot="public">MR::VarEdgeTri</innerclass>
     <innerclass refid="classMR_1_1Vector" prot="public">MR::Vector</innerclass>
     <innerclass refid="structMR_1_1Vector2" prot="public">MR::Vector2</innerclass>
@@ -1717,17 +1718,8 @@
       <member refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kind="typedef"><name>FastUInt128</name></member>
       <member refid="group__GeneralGroup_1ga45cb1332fad43a5a921294d643411ba0" kind="typedef"><name>FeaturesPropertyTypesVariant</name></member>
       <member refid="group__GeneralGroup_1gaad6ac9cd0268793575ae31767169ad0e" kind="typedef"><name>MultiObjsSamples</name></member>
-      <member refid="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" kind="typedef"><name>Int128</name></member>
-      <member refid="group__HighPrecisionGroup_1ga62843f076a5d1ed019b89472396d5b37" kind="typedef"><name>Int256</name></member>
-      <member refid="group__HighPrecisionGroup_1ga5976703eb9bbacde180901857b838ed4" kind="typedef"><name>Int512</name></member>
-      <member refid="group__HighPrecisionGroup_1ga842d51b6f68ca651644e386f3a677f87" kind="typedef"><name>Int1024</name></member>
-      <member refid="group__HighPrecisionGroup_1ga564f83b9c74fcac72243ca5b5ca0b366" kind="typedef"><name>Vector2i128</name></member>
-      <member refid="group__HighPrecisionGroup_1ga63880082d353e6f29c0da82c436c2f17" kind="typedef"><name>Vector3i128</name></member>
       <member refid="group__HighPrecisionGroup_1ga6cc6a39f0d719c385249f1a861f2f603" kind="typedef"><name>Vector2i128fast</name></member>
       <member refid="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" kind="typedef"><name>Vector3i128fast</name></member>
-      <member refid="group__HighPrecisionGroup_1ga2a65da15f1a8f436a40ccf209c54ac3d" kind="typedef"><name>Vector2i256</name></member>
-      <member refid="group__HighPrecisionGroup_1ga6290db8f78d4998addb556921ff349ef" kind="typedef"><name>Vector3i256</name></member>
-      <member refid="group__HighPrecisionGroup_1ga35d4969873ad6731b1e6f279e73ef21f" kind="typedef"><name>Vector3i512</name></member>
       <member refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kind="typedef"><name>HistoryStackFilter</name></member>
       <member refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kind="typedef"><name>HistoryActionsVector</name></member>
       <member refid="group__HighPrecisionGroup_1ga069a4cfb1c909d7c7e32d575dac759cf" kind="typedef"><name>Vector2i64mul</name></member>
@@ -2384,7 +2376,6 @@
       <member refid="group__BasicGroup_1gac4cf85680ec3620cb08726ea6668e99a" kind="function"><name>heapBytes</name></member>
       <member refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
       <member refid="group__BasicGroup_1ga95720533ccaf5f5aa42fbabee1ce7067" kind="function"><name>heapBytes</name></member>
-      <member refid="group__HighPrecisionGroup_1gae9201ba08bf2e2dabdfdf95e94b777ee" kind="function"><name>toBoostInt</name></member>
       <member refid="group__GeneralGroup_1gad816d7f5445309140db275f8f14c8ba1" kind="function"><name>filterHistoryActionsVector</name></member>
       <member refid="group__GeneralGroup_1ga6bc994c1ebf7a119332f7d7a212cdd5e" kind="function"><name>getNumSamples</name></member>
       <member refid="group__GeneralGroup_1ga2a5d3a2f7c92a6b8c0c35cd269530356" kind="function"><name>getNumActivePairs</name></member>

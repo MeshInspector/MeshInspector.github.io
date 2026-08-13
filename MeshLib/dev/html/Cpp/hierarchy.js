@@ -1389,6 +1389,7 @@ var hierarchy =
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html", null ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html", null ],
     [ "MR::UI::TestEngine::ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", null ],
+    [ "MR::VarBigInt", "classMR_1_1VarBigInt.html", null ],
     [ "MR::VarEdgeTri", "structMR_1_1VarEdgeTri.html", null ],
     [ "MR::ImGuiMath::detail::VecFromSize< N >", "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize.html", null ],
     [ "MR::ImGuiMath::detail::VecFromSize< 2 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html", null ],

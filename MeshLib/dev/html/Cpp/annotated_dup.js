@@ -1105,6 +1105,7 @@ var annotated_dup =
       [ "UnitToStringParams", "structMR_1_1UnitToStringParams.html", "structMR_1_1UnitToStringParams" ],
       [ "UnorientedTriangle", "structMR_1_1UnorientedTriangle.html", "structMR_1_1UnorientedTriangle" ],
       [ "VacantElements", "structMR_1_1VacantElements.html", "structMR_1_1VacantElements" ],
+      [ "VarBigInt", "classMR_1_1VarBigInt.html", "classMR_1_1VarBigInt" ],
       [ "VarEdgeTri", "structMR_1_1VarEdgeTri.html", "structMR_1_1VarEdgeTri" ],
       [ "Vector", "classMR_1_1Vector.html", "classMR_1_1Vector" ],
       [ "Vector2", "structMR_1_1Vector2.html", "structMR_1_1Vector2" ],

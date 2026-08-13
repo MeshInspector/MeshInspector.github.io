@@ -1,5 +1,15 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1BooleanResultMapper.html#af6e316b7b21f94033491018406e4e3a6":[6,0,0,8,0,7],
+"structMR_1_1BooleanResultMapper_1_1Maps.html":[6,0,0,8,0,0],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a70a6c9015f66d50b0889a5cfbdc6b9a9":[6,0,0,8,0,0,2],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c":[6,0,0,8,0,0,0],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9":[6,0,0,8,0,0,1],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973":[6,0,0,8,0,0,3],
+"structMR_1_1BooleanResultPoints.html":[6,0,1,0,1,102],
+"structMR_1_1BooleanResultPoints.html":[6,0,2,0,2,84],
+"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,1,0,1,102,2],
+"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[6,0,2,0,2,84,2],
 "structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,1,0,1,102,1],
 "structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[6,0,2,0,2,84,1],
 "structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[6,0,1,0,1,102,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[6,0,0,20,198],
 "structMR_1_1EdgePoint.html":[6,0,0,20,202],
 "structMR_1_1EdgePointPair.html":[6,0,0,20,203],
-"structMR_1_1EdgeSegment.html":[6,0,0,20,204],
-"structMR_1_1EdgeTri.html":[6,0,0,1,17],
-"structMR_1_1EdgeTri.html#a45de5d714a586bda433f476169bb81ef":[6,0,0,1,17,1],
-"structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e":[6,0,0,1,17,2],
-"structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739":[6,0,0,1,17,0],
-"structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318":[6,0,0,1,17,3],
-"structMR_1_1EmbeddedPython_1_1Config.html":[6,0,0,20,85],
-"structMR_1_1EmbeddedStructureParameters.html":[6,0,0,20,205],
-"structMR_1_1EndMillCutter.html":[6,0,0,20,206],
-"structMR_1_1EndMillTool.html":[6,0,0,20,207],
-"structMR_1_1FaceDistancesSettings.html":[6,0,0,20,210]
+"structMR_1_1EdgeSegment.html":[6,0,0,20,204]
 };

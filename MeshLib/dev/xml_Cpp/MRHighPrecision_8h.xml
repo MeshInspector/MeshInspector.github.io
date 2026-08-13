@@ -6,7 +6,6 @@
     <includes refid="MRFastInt_8h" local="yes">MRFastInt.h</includes>
     <includes refid="MRFastInt128_8h" local="yes">MRFastInt128.h</includes>
     <includes local="no">MRPch/MRBindingMacros.h</includes>
-    <includes local="no">boost/multiprecision/cpp_int.hpp</includes>
     <incdepgraph>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -49,8 +48,6 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
       </node>
       <node id="4">
         <label>MRMesh/MRMacros.h</label>
@@ -92,9 +89,6 @@
       <node id="7">
         <label>array</label>
       </node>
-      <node id="18">
-        <label>boost/multiprecision/cpp_int.hpp</label>
-      </node>
       <node id="13">
         <label>cassert</label>
       </node>
@@ -133,63 +127,17 @@
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFastInt128_8h" kindref="compound">MRFastInt128.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRPch/MRBindingMacros.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__APPLE__)<sp/>&amp;&amp;<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>push</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wdeprecated-declarations&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wdeprecated&quot;<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/multiprecision/cpp_int.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__APPLE__)<sp/>&amp;&amp;<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>clang<sp/>diagnostic<sp/>pop</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
-<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined<sp/>MR_PARSING_FOR_ANY_BINDINGS<sp/>&amp;&amp;<sp/>!defined<sp/>MR_COMPILING_ANY_BINDINGS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="group__HighPrecisionGroup_1ga6cc6a39f0d719c385249f1a861f2f603" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1ga6cc6a39f0d719c385249f1a861f2f603" kindref="member">Vector2i128fast</ref><sp/>=<sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;FastInt128&gt;</ref>;</highlight></codeline>
+<codeline lineno="18" refid="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" kindref="member">Vector3i128fast</ref><sp/>=<sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;FastInt128&gt;</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" kindref="member">Int128</ref><sp/>=<sp/>boost::multiprecision::int128_t;</highlight></codeline>
-<codeline lineno="28" refid="group__HighPrecisionGroup_1ga62843f076a5d1ed019b89472396d5b37" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1ga62843f076a5d1ed019b89472396d5b37" kindref="member">Int256</ref><sp/>=<sp/>boost::multiprecision::int256_t;</highlight></codeline>
-<codeline lineno="29" refid="group__HighPrecisionGroup_1ga5976703eb9bbacde180901857b838ed4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1ga5976703eb9bbacde180901857b838ed4" kindref="member">Int512</ref><sp/>=<sp/>boost::multiprecision::int512_t;</highlight></codeline>
-<codeline lineno="30" refid="group__HighPrecisionGroup_1ga842d51b6f68ca651644e386f3a677f87" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1ga842d51b6f68ca651644e386f3a677f87" kindref="member">Int1024</ref><sp/>=<sp/>boost::multiprecision::int1024_t;</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="group__HighPrecisionGroup_1ga564f83b9c74fcac72243ca5b5ca0b366" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1ga564f83b9c74fcac72243ca5b5ca0b366" kindref="member">Vector2i128</ref><sp/>=<sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;Int128&gt;</ref>;</highlight></codeline>
-<codeline lineno="33" refid="group__HighPrecisionGroup_1ga63880082d353e6f29c0da82c436c2f17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1ga63880082d353e6f29c0da82c436c2f17" kindref="member">Vector3i128</ref><sp/>=<sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;Int128&gt;</ref>;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined<sp/>MR_PARSING_FOR_ANY_BINDINGS<sp/>&amp;&amp;<sp/>!defined<sp/>MR_COMPILING_ANY_BINDINGS</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="group__HighPrecisionGroup_1ga6cc6a39f0d719c385249f1a861f2f603" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1ga6cc6a39f0d719c385249f1a861f2f603" kindref="member">Vector2i128fast</ref><sp/>=<sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;FastInt128&gt;</ref>;</highlight></codeline>
-<codeline lineno="38" refid="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" kindref="member">Vector3i128fast</ref><sp/>=<sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;FastInt128&gt;</ref>;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="group__HighPrecisionGroup_1ga2a65da15f1a8f436a40ccf209c54ac3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1ga2a65da15f1a8f436a40ccf209c54ac3d" kindref="member">Vector2i256</ref><sp/>=<sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;Int256&gt;</ref>;</highlight></codeline>
-<codeline lineno="42" refid="group__HighPrecisionGroup_1ga6290db8f78d4998addb556921ff349ef" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1ga6290db8f78d4998addb556921ff349ef" kindref="member">Vector3i256</ref><sp/>=<sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;Int256&gt;</ref>;</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="group__HighPrecisionGroup_1ga35d4969873ad6731b1e6f279e73ef21f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__HighPrecisionGroup_1ga35d4969873ad6731b1e6f279e73ef21f" kindref="member">Vector3i512</ref><sp/>=<sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;Int512&gt;</ref>;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>B,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nBits&gt;</highlight></codeline>
-<codeline lineno="49" refid="group__HighPrecisionGroup_1gae9201ba08bf2e2dabdfdf95e94b777ee" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/>B<sp/><ref refid="group__HighPrecisionGroup_1gae9201ba08bf2e2dabdfdf95e94b777ee" kindref="member">toBoostInt</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FastInt" kindref="compound">FastInt&lt;nBits&gt;</ref><sp/>&amp;<sp/>v<sp/>)</highlight></codeline>
-<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>neg<sp/>=<sp/>v.<ref refid="classMR_1_1FastInt_1aa060083b3726161e19a5b74fb86c0308" kindref="member">sign</ref>()<sp/>&lt;<sp/>0;</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>w<sp/>=<sp/>v.<ref refid="classMR_1_1FastInt_1aef342f52d379f8b2ac6e7eac40b17e31" kindref="member">w</ref>;</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>neg<sp/>)<sp/></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::uint64_t<sp/>borrow<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;<sp/>x<sp/>:<sp/>w<sp/>)</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/><ref refid="namespaceMR_1_1detail_1a7fc59c8caf263e5cec996db9f596920d" kindref="member">detail::subBorrow64</ref>(<sp/>0,<sp/>x,<sp/>borrow<sp/>);</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>B<sp/>res<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/><ref refid="classMR_1_1FastInt_1afcd10d8886953c1764137528d675b0ae" kindref="member">FastInt&lt;nBits&gt;::numWords</ref><sp/>-<sp/>1;<sp/>i<sp/>&gt;=<sp/>0;<sp/>--i<sp/>)</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>res<sp/>&lt;&lt;=<sp/>64;</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>res<sp/>|=<sp/>B(<sp/>w[i]<sp/>);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>neg<sp/>?<sp/>-res<sp/>:<sp/>res;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRHighPrecision.h"/>
   </compounddef>

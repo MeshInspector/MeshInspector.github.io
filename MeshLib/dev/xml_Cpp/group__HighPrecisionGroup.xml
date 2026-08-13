@@ -6,6 +6,7 @@
     <innerclass refid="classMR_1_1FastInt" prot="public">MR::FastInt</innerclass>
     <innerclass refid="classMR_1_1Int128Mul256" prot="public">MR::Int128Mul256</innerclass>
     <innerclass refid="classMR_1_1Int64Mul128" prot="public">MR::Int64Mul128</innerclass>
+    <innerclass refid="classMR_1_1VarBigInt" prot="public">MR::VarBigInt</innerclass>
     <innernamespace refid="namespaceMR_1_1detail">MR::detail</innernamespace>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga03afccb56b1bcb89b74a55f6cac19618" prot="public" static="no">
@@ -79,90 +80,6 @@
         </inbodydescription>
         <location file="MRMesh/MRFastInt.h" line="292" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="292" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" prot="public" static="no">
-        <type>boost::multiprecision::int128_t</type>
-        <definition>using MR::Int128 =  boost::multiprecision::int128_t</definition>
-        <argsstring></argsstring>
-        <name>Int128</name>
-        <qualifiedname>MR::Int128</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRHighPrecision.h" line="27" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="27" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga62843f076a5d1ed019b89472396d5b37" prot="public" static="no">
-        <type>boost::multiprecision::int256_t</type>
-        <definition>using MR::Int256 =  boost::multiprecision::int256_t</definition>
-        <argsstring></argsstring>
-        <name>Int256</name>
-        <qualifiedname>MR::Int256</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRHighPrecision.h" line="28" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga5976703eb9bbacde180901857b838ed4" prot="public" static="no">
-        <type>boost::multiprecision::int512_t</type>
-        <definition>using MR::Int512 =  boost::multiprecision::int512_t</definition>
-        <argsstring></argsstring>
-        <name>Int512</name>
-        <qualifiedname>MR::Int512</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRHighPrecision.h" line="29" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga842d51b6f68ca651644e386f3a677f87" prot="public" static="no">
-        <type>boost::multiprecision::int1024_t</type>
-        <definition>using MR::Int1024 =  boost::multiprecision::int1024_t</definition>
-        <argsstring></argsstring>
-        <name>Int1024</name>
-        <qualifiedname>MR::Int1024</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRHighPrecision.h" line="30" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga564f83b9c74fcac72243ca5b5ca0b366" prot="public" static="no">
-        <type>Vector2&lt; Int128 &gt;</type>
-        <definition>using MR::Vector2i128 =  Vector2&lt;Int128&gt;</definition>
-        <argsstring></argsstring>
-        <name>Vector2i128</name>
-        <qualifiedname>MR::Vector2i128</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRHighPrecision.h" line="32" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga63880082d353e6f29c0da82c436c2f17" prot="public" static="no">
-        <type>Vector3&lt; Int128 &gt;</type>
-        <definition>using MR::Vector3i128 =  Vector3&lt;Int128&gt;</definition>
-        <argsstring></argsstring>
-        <name>Vector3i128</name>
-        <qualifiedname>MR::Vector3i128</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRHighPrecision.h" line="33" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga6cc6a39f0d719c385249f1a861f2f603" prot="public" static="no">
         <type>Vector2&lt; FastInt128 &gt;</type>
         <definition>using MR::Vector2i128fast =  Vector2&lt;FastInt128&gt;</definition>
@@ -176,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHighPrecision.h" line="37" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="37" bodyend="-1"/>
+        <location file="MRMesh/MRHighPrecision.h" line="17" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" prot="public" static="no">
         <type>Vector3&lt; FastInt128 &gt;</type>
@@ -190,49 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHighPrecision.h" line="38" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga2a65da15f1a8f436a40ccf209c54ac3d" prot="public" static="no">
-        <type>Vector2&lt; Int256 &gt;</type>
-        <definition>using MR::Vector2i256 =  Vector2&lt;Int256&gt;</definition>
-        <argsstring></argsstring>
-        <name>Vector2i256</name>
-        <qualifiedname>MR::Vector2i256</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRHighPrecision.h" line="41" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="41" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga6290db8f78d4998addb556921ff349ef" prot="public" static="no">
-        <type>Vector3&lt; Int256 &gt;</type>
-        <definition>using MR::Vector3i256 =  Vector3&lt;Int256&gt;</definition>
-        <argsstring></argsstring>
-        <name>Vector3i256</name>
-        <qualifiedname>MR::Vector3i256</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRHighPrecision.h" line="42" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga35d4969873ad6731b1e6f279e73ef21f" prot="public" static="no">
-        <type>Vector3&lt; Int512 &gt;</type>
-        <definition>using MR::Vector3i512 =  Vector3&lt;Int512&gt;</definition>
-        <argsstring></argsstring>
-        <name>Vector3i512</name>
-        <qualifiedname>MR::Vector3i512</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRHighPrecision.h" line="44" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="44" bodyend="-1"/>
+        <location file="MRMesh/MRHighPrecision.h" line="18" column="1" bodyfile="MRMesh/MRHighPrecision.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga069a4cfb1c909d7c7e32d575dac759cf" prot="public" static="no">
         <type>Vector2&lt; Int64Mul128 &gt;</type>
@@ -365,36 +240,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRFastInt.h" line="248" column="35" bodyfile="MRMesh/MRFastInt.h" bodystart="248" bodyend="251"/>
-      </memberdef>
-      <memberdef kind="function" id="group__HighPrecisionGroup_1gae9201ba08bf2e2dabdfdf95e94b777ee" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename B</type>
-          </param>
-          <param>
-            <type>int</type>
-            <declname>nBits</declname>
-            <defname>nBits</defname>
-          </param>
-        </templateparamlist>
-        <type>MR_BIND_IGNORE B</type>
-        <definition>MR_BIND_IGNORE B MR::toBoostInt</definition>
-        <argsstring>(const FastInt&lt; nBits &gt; &amp;v)</argsstring>
-        <name>toBoostInt</name>
-        <qualifiedname>MR::toBoostInt</qualifiedname>
-        <param>
-          <type>const FastInt&lt; nBits &gt; &amp;</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>the same value as a boost integer of the type B, which unlike <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> supports division, square root and stream output; B must be able to represent the value, and cpp_int always can </para>
-        </detaileddescription>
-        <inbodydescription>
-<para>the magnitude, so that 2^nBits is never needed in B</para>
-        </inbodydescription>
-        <location file="MRMesh/MRHighPrecision.h" line="49" column="19" bodyfile="MRMesh/MRHighPrecision.h" bodystart="49" bodyend="66"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

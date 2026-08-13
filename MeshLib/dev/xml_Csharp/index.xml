@@ -73,6 +73,8 @@
   </compound>
   <compound refid="structMR_1_1Const__Box__UnsignedShort_1_1__Underlying" kind="struct"><name>MR::Const_Box_UnsignedShort::_Underlying</name>
   </compound>
+  <compound refid="structMR_1_1Const__Buffer__Uint64T_1_1__Underlying" kind="struct"><name>MR::Const_Buffer_Uint64T::_Underlying</name>
+  </compound>
   <compound refid="structMR_1_1Const__Buffer__UnsignedChar_1_1__Underlying" kind="struct"><name>MR::Const_Buffer_UnsignedChar::_Underlying</name>
   </compound>
   <compound refid="structMR_1_1Const__Matrix3__UnsignedChar_1_1__Underlying" kind="struct"><name>MR::Const_Matrix3_UnsignedChar::_Underlying</name>
@@ -80,6 +82,8 @@
   <compound refid="structMR_1_1Const__Matrix3__UnsignedChar_1_1Const__QR_1_1__Underlying" kind="struct"><name>MR::Const_Matrix3_UnsignedChar::Const_QR::_Underlying</name>
   </compound>
   <compound refid="structMR_1_1Const__Matrix4__UnsignedChar_1_1__Underlying" kind="struct"><name>MR::Const_Matrix4_UnsignedChar::_Underlying</name>
+  </compound>
+  <compound refid="structMR_1_1Const__NoCtor__Uint64T_1_1__Underlying" kind="struct"><name>MR::Const_NoCtor_Uint64T::_Underlying</name>
   </compound>
   <compound refid="structMR_1_1Const__NoCtor__UnsignedChar_1_1__Underlying" kind="struct"><name>MR::Const_NoCtor_UnsignedChar::_Underlying</name>
   </compound>
@@ -2989,6 +2993,19 @@
     <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1aa782e69a185eeb8d34e0a08128c987e3" kind="function"><name>data</name></member>
     <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1a5129583d39669a087032b2b6de4a3f02" kind="function"><name>GetEnumerator</name></member>
     <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1ae0c2811762c22a60a49b7ddff9f94608" kind="function"><name>Buffer_MRVoxelId_MRVoxelId</name></member>
+  </compound>
+  <compound refid="classMR_1_1Buffer__Uint64T" kind="class"><name>MR::Buffer_Uint64T</name>
+    <member refid="classMR_1_1Buffer__Uint64T_1a68510966f8199cc3c4f23b74ea705484" kind="property"><name>this[nuint i]</name></member>
+    <member refid="classMR_1_1Buffer__Uint64T_1a936106ca3c0c219d3764ed3a3aa212ab" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Buffer__Uint64T_1a90c7f9cd9474cd818e45f8e3b930bdde" kind="function"><name>Buffer_Uint64T</name></member>
+    <member refid="classMR_1_1Buffer__Uint64T_1a59c0c9da48fb934558bfb32ffe811dbe" kind="function"><name>Buffer_Uint64T</name></member>
+    <member refid="classMR_1_1Buffer__Uint64T_1ac1d9257554d407e534d9527ac584ab32" kind="function"><name>Buffer_Uint64T</name></member>
+    <member refid="classMR_1_1Buffer__Uint64T_1a9d7567df4472655f5b80cf7023af95d1" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Buffer__Uint64T_1ac216582ac12bc3be5e9b2691729d6bfc" kind="function"><name>clear</name></member>
+    <member refid="classMR_1_1Buffer__Uint64T_1a9be76a91c07edcab76fe0eb5ee9aac61" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Buffer__Uint64T_1ace9ab9e416d0ce33ec45b759ba9ef916" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Buffer__Uint64T_1a3339d18d7ea7c670586bc95c03fc5999" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Buffer__Uint64T_1a0735861a49a7c051d68cfdcf817db3f7" kind="function"><name>Buffer_Uint64T</name></member>
   </compound>
   <compound refid="classMR_1_1Buffer__UnsignedChar" kind="class"><name>MR::Buffer_UnsignedChar</name>
     <member refid="classMR_1_1Buffer__UnsignedChar_1a9d6a9f438f37d9cf591a200a604977d6" kind="property"><name>this[nuint i]</name></member>
@@ -5935,6 +5952,26 @@
     <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a566d3d524837db5a959a8195cdb7a00f" kind="function"><name>~Const_Buffer_MRVoxelId_MRVoxelId</name></member>
     <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a38b15131db60a1e7ba223b34434b1f71" kind="function"><name>GetEnumerator</name></member>
     <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1aa2bb97648d944fb2d9004c3b3c80f65b" kind="function"><name>Const_Buffer_MRVoxelId_MRVoxelId</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__Buffer__Uint64T" kind="class"><name>MR::Const_Buffer_Uint64T</name>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1af83b9195ce6ee8e3084dfee58d5c1332" kind="property"><name>this[nuint i]</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1a1911f9c4a1ba6739203b035cc2c27bae" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1a6e7180afca2c4266a5a9bea12a0fb477" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1ad31eab38a08dde57d57ac18659fb409b" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1afecd9378edbf00790dd54536a9a0cb97" kind="function"><name>Const_Buffer_Uint64T</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1ae9daa7b9261526875a3cb4a1faa13101" kind="function"><name>Const_Buffer_Uint64T</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1a43c5027efd891642e3e5de8fb33365ba" kind="function"><name>Const_Buffer_Uint64T</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1a79c5d4e062022c5ccdc63019d7e7498e" kind="function"><name>capacity</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1a2bea5301c6ae0ebf031040449d0e3964" kind="function"><name>size</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1a9e6b8c7e9a19da4e768298a4c0f005bf" kind="function"><name>empty</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1a0f286a344bf9c5270098bcdd607a4c0a" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1adc95b2179cd91ff2b06b4d3ffdb8ce24" kind="function"><name>beginId</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1a1bf2036b32dd02da1e4a99d6d456117a" kind="function"><name>backId</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1a32b55be7a67df229e5b414e172f25792" kind="function"><name>endId</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1aaaa4fedc39629dc2b2c92fafc574e46c" kind="function"><name>heapBytes</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1a790c87ec829d0320521675b5130a0be3" kind="function"><name>~Const_Buffer_Uint64T</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1a2c6f9b39ac0d4168843622bbcce7277e" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Const__Buffer__Uint64T_1a5a944954e64d761cb4f47130581c795e" kind="function"><name>Const_Buffer_Uint64T</name></member>
   </compound>
   <compound refid="classMR_1_1Const__Buffer__UnsignedChar" kind="class"><name>MR::Const_Buffer_UnsignedChar</name>
     <member refid="classMR_1_1Const__Buffer__UnsignedChar_1a218d2f414c54a05523bf1f4bcc663989" kind="property"><name>this[nuint i]</name></member>
@@ -13703,6 +13740,15 @@
     <member refid="classMR_1_1Const__NoCtor__MRVoxelId_1a84e6112c9d48927973ced225f61aae68" kind="function"><name>Const_NoCtor_MRVoxelId</name></member>
     <member refid="classMR_1_1Const__NoCtor__MRVoxelId_1ab191b1b0f2f567fe89bd9e266882f248" kind="function"><name>~Const_NoCtor_MRVoxelId</name></member>
     <member refid="classMR_1_1Const__NoCtor__MRVoxelId_1a832d87a2f86cf12d1e79f4f3a2185822" kind="function"><name>Const_NoCtor_MRVoxelId</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__NoCtor__Uint64T" kind="class"><name>MR::Const_NoCtor_Uint64T</name>
+    <member refid="classMR_1_1Const__NoCtor__Uint64T_1a3a20fc593476785239443ccff1666f83" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__NoCtor__Uint64T_1a4da98508497951d3a98adddaacd87fa5" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__NoCtor__Uint64T_1a4691013928a9adcec322b8d54d1d3985" kind="function"><name>Const_NoCtor_Uint64T</name></member>
+    <member refid="classMR_1_1Const__NoCtor__Uint64T_1a18feb8fd76209ccbe33e76d72b54545d" kind="function"><name>Const_NoCtor_Uint64T</name></member>
+    <member refid="classMR_1_1Const__NoCtor__Uint64T_1ac8a145624f09f1498a30c60341697270" kind="function"><name>Const_NoCtor_Uint64T</name></member>
+    <member refid="classMR_1_1Const__NoCtor__Uint64T_1a046696aa95813fda3a95f1c8801b89b4" kind="function"><name>~Const_NoCtor_Uint64T</name></member>
+    <member refid="classMR_1_1Const__NoCtor__Uint64T_1acb93664fbfaccf8843e36e68264e679c" kind="function"><name>Const_NoCtor_Uint64T</name></member>
   </compound>
   <compound refid="classMR_1_1Const__NoCtor__UnsignedChar" kind="class"><name>MR::Const_NoCtor_UnsignedChar</name>
     <member refid="classMR_1_1Const__NoCtor__UnsignedChar_1afb97a6f09d33b370f564540d8d7a6da9" kind="function"><name>Dispose</name></member>
@@ -32392,6 +32438,10 @@
     <member refid="classMR_1abad74ba549f1cc69ec9059055f0f46a6" kind="function"><name>begin</name></member>
     <member refid="classMR_1a0a872d98d30b57036c3a618084d6b457" kind="function"><name>end</name></member>
     <member refid="classMR_1ac45509e79c1aa7812b9647e267352538" kind="function"><name>end</name></member>
+    <member refid="classMR_1ae4a8cdab620a1f3b46eabae65fab95c7" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a681f2604f92728c0b309107aa02ea1b1" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a2498d1c5ffe254a25cf75accb42ddc8d" kind="function"><name>end</name></member>
+    <member refid="classMR_1ac8713a1511a275c83fd4c5d8ba5d9152" kind="function"><name>end</name></member>
     <member refid="classMR_1a0aeb86333b558e4faf6420e8e9c4793c" kind="function"><name>begin</name></member>
     <member refid="classMR_1a027ff0ebdd7c5df365d7a9bf96fbcf6f" kind="function"><name>begin</name></member>
     <member refid="classMR_1a03f80ccb09f617a292bd55c7299aa1e6" kind="function"><name>end</name></member>
@@ -34376,6 +34426,13 @@
     <member refid="classMR_1_1NoCtor__MRVoxelId_1af64cec6e25ff8cccf78b3b4feb5cbea5" kind="function"><name>NoCtor_MRVoxelId</name></member>
     <member refid="classMR_1_1NoCtor__MRVoxelId_1ab3694a4f7b6066db856b52ad9f667c29" kind="function"><name>NoCtor_MRVoxelId</name></member>
     <member refid="classMR_1_1NoCtor__MRVoxelId_1af1d65ceff7aa1175e306afcfd2b2c13a" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1NoCtor__Uint64T" kind="class"><name>MR::NoCtor_Uint64T</name>
+    <member refid="classMR_1_1NoCtor__Uint64T_1a5654ffd63eed1e8fa45bb6061c6b8bb5" kind="function"><name>NoCtor_Uint64T</name></member>
+    <member refid="classMR_1_1NoCtor__Uint64T_1a789e2bf50e7ac4a0c3ed12f088f98434" kind="function"><name>NoCtor_Uint64T</name></member>
+    <member refid="classMR_1_1NoCtor__Uint64T_1a0fc5058123991747c77db8eb8102f598" kind="function"><name>NoCtor_Uint64T</name></member>
+    <member refid="classMR_1_1NoCtor__Uint64T_1a4eb73bb5fb5f49df91dd824c7eb21b5d" kind="function"><name>NoCtor_Uint64T</name></member>
+    <member refid="classMR_1_1NoCtor__Uint64T_1a9079cc7fa7a1f2a7df4f1f338f521a0d" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1NoCtor__UnsignedChar" kind="class"><name>MR::NoCtor_UnsignedChar</name>
     <member refid="classMR_1_1NoCtor__UnsignedChar_1adca759904952746c91f3ac0c3744084d" kind="function"><name>NoCtor_UnsignedChar</name></member>
