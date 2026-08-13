@@ -275,6 +275,7 @@ template&lt;std::size_t n, std::size_t m&gt; </div>
 <p>std::size_t and not int, to be deducible from std::array </p>
 <p>the exact product of two two's-complement values given by their 64-bit words, which always fits in the sum of their word counts; the only multiplication of this file </p>
 <p>schoolbook multiplication of unsigned values</p>
+<p>this row adds nothing: 0 * b[j] leaves every res[i + j] unchanged, and res[i + m] is still 0 (never written before this row), so the skipped res[i + m] = carry (carry stays 0 here) would be a no-op. Small-magnitude values keep their high words at 0, so this is the common fast path; negative operands are sign-extended to all-ones top words and are not skipped.</p>
 <p>at most ( 2^64 - 1 )^2 + 2 * ( 2^64 - 1 ) &lt; 2^128 here</p>
 <p>never written before, since the loop above stops at i + m - 1</p>
 <p>a negative argument was taken 2^(64*words) times larger than it is; both subtractions below end exactly at the end of res, so the borrow never leaves it</p>

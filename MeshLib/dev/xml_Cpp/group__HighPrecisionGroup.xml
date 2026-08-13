@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="215" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="215" bodyend="-1"/>
+        <location file="MRMesh/MRFastInt.h" line="221" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="221" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1gacb9f098f353285741a7bd17c3805c304" prot="public" static="no">
         <type>FastInt&lt; 512 &gt;</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="216" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="216" bodyend="-1"/>
+        <location file="MRMesh/MRFastInt.h" line="222" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="222" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1gae7ef2941b906c6b8fdf3ff7564a4b2d5" prot="public" static="no">
         <type>FastInt&lt; 1024 &gt;</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="217" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="217" bodyend="-1"/>
+        <location file="MRMesh/MRFastInt.h" line="223" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="223" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga970217958e55bf462e02d07c04ad41ee" prot="public" static="no">
         <type>Vector2&lt; Int128Mul256 &gt;</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="285" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="285" bodyend="-1"/>
+        <location file="MRMesh/MRFastInt.h" line="291" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="291" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1ga8065860768f5dfd050e97b1b53d20b23" prot="public" static="no">
         <type>Vector3&lt; Int128Mul256 &gt;</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="286" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="286" bodyend="-1"/>
+        <location file="MRMesh/MRFastInt.h" line="292" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="292" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__HighPrecisionGroup_1gaeb20f5b66b3c7532bcdb24bd415bd130" prot="public" static="no">
         <type>boost::multiprecision::int128_t</type>
@@ -298,7 +298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="224" column="35" bodyfile="MRMesh/MRFastInt.h" bodystart="224" bodyend="229"/>
+        <location file="MRMesh/MRFastInt.h" line="230" column="35" bodyfile="MRMesh/MRFastInt.h" bodystart="230" bodyend="235"/>
       </memberdef>
       <memberdef kind="function" id="group__HighPrecisionGroup_1ga15464bb6e2f869d91cb4a1583d4af1d4" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -331,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="233" column="35" bodyfile="MRMesh/MRFastInt.h" bodystart="233" bodyend="238"/>
+        <location file="MRMesh/MRFastInt.h" line="239" column="35" bodyfile="MRMesh/MRFastInt.h" bodystart="239" bodyend="244"/>
       </memberdef>
       <memberdef kind="function" id="group__HighPrecisionGroup_1ga8f43e802126c20691185376048e2fe69" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -364,7 +364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="242" column="35" bodyfile="MRMesh/MRFastInt.h" bodystart="242" bodyend="245"/>
+        <location file="MRMesh/MRFastInt.h" line="248" column="35" bodyfile="MRMesh/MRFastInt.h" bodystart="248" bodyend="251"/>
       </memberdef>
       <memberdef kind="function" id="group__HighPrecisionGroup_1gae9201ba08bf2e2dabdfdf95e94b777ee" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
