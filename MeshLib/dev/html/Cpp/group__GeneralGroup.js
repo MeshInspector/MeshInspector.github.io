@@ -11975,6 +11975,7 @@ var group__GeneralGroup =
     [ "MR::BaseUnionFind::findRootNoUpdate_", "group__GeneralGroup.html#gae7217cd7f9e0df336b8f10c31933963b", null ],
     [ "MR::findRootsBitSet", "group__GeneralGroup.html#ga169f8f74d2daf1470ceec5e08a3545ca", null ],
     [ "MR::findSegmentBoundaries", "group__GeneralGroup.html#gaeebd4bef93283f73be72ea619fe1eca3", null ],
+    [ "MR::findSegmentSegmentIntersectionPrecise", "group__GeneralGroup.html#ga3e2091f496f4b822c308240ef55105ac", null ],
     [ "MR::findSegmentSegmentIntersectionPrecise", "group__GeneralGroup.html#ga217c93ac0b5b2271f3387a858b87d734", null ],
     [ "MR::findSegmentSegmentIntersectionPrecise", "group__GeneralGroup.html#ga77c53fa57be3188038506af24b3f752a", null ],
     [ "MR::SeparationPointStorage::findSeparationPointSet", "group__GeneralGroup.html#ga4f797a53cf1d4fedcf01fbd51dcf3e04", null ],

@@ -10744,6 +10744,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:af0364b794d86be0aa6b00bff95f7e1cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">given line segment s=01 and two other segments sa=23, sb=45 known to intersect it, finds the order of intersection using precise predicates: true: s[0], s ^ sa, s ^ sb, s[1] false: s[0], s ^ sb, s ^ sa, s[1] segments sa and sb can have at most one shared point, all other points must be unique Generated from function <span class="tt"><a class="el" href="#af0364b794d86be0aa6b00bff95f7e1cd" title="given line segment s=01 and two other segments sa=23, sb=45 known to intersect it,...">MR.segmentIntersectionOrder</a></span>.  <br /></td></tr>
 <tr class="memitem:a1aa54c9fce82fbdccc295172f24d78e9" id="r_a1aa54c9fce82fbdccc295172f24d78e9"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector2i.html">MR.Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1aa54c9fce82fbdccc295172f24d78e9">findSegmentSegmentIntersectionPrecise</a> (in <a class="el" href="structMR_1_1Vector2i.html">MR.Vector2i</a> a, in <a class="el" href="structMR_1_1Vector2i.html">MR.Vector2i</a> b, in <a class="el" href="structMR_1_1Vector2i.html">MR.Vector2i</a> c, in <a class="el" href="structMR_1_1Vector2i.html">MR.Vector2i</a> d)</td></tr>
 <tr class="memdesc:a1aa54c9fce82fbdccc295172f24d78e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds intersection precise, using high precision int inside this function input should have intersection Generated from function <span class="tt"><a class="el" href="#a1aa54c9fce82fbdccc295172f24d78e9" title="finds intersection precise, using high precision int inside this function input should have intersect...">MR.findSegmentSegmentIntersectionPrecise</a></span>.  <br /></td></tr>
+<tr class="memitem:a1fc314b04572367b761d5c125e477132" id="r_a1fc314b04572367b761d5c125e477132"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector2i.html">MR.Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fc314b04572367b761d5c125e477132">findSegmentSegmentIntersectionPrecise</a> (MR.Std.Const_Array_MRPreciseVertCoords2_4 vs)</td></tr>
+<tr class="memdesc:a1fc314b04572367b761d5c125e477132"><td class="mdescLeft">&#160;</td><td class="mdescRight">same for segments AB (indices 01) and CD (indices 23); when all four points lie on one line, uses vertex ids to select the intersection position consistent with the simulation-of-simplicity answers of ccw about every other vertex Generated from function <span class="tt"><a class="el" href="#a1aa54c9fce82fbdccc295172f24d78e9" title="finds intersection precise, using high precision int inside this function input should have intersect...">MR.findSegmentSegmentIntersectionPrecise</a></span>.  <br /></td></tr>
 <tr class="memitem:a0c2ba32fe262070485fc5cd5aacc5cbe" id="r_a0c2ba32fe262070485fc5cd5aacc5cbe"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c2ba32fe262070485fc5cd5aacc5cbe">findSegmentSegmentIntersectionPrecise</a> (in <a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a> a, in <a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a> b, in <a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a> c, in <a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a> d, MR._ByValue_CoordinateConverters2 converters)</td></tr>
 <tr class="memdesc:a0c2ba32fe262070485fc5cd5aacc5cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds intersection precise, using high precision int inside this function input should have intersection Generated from function <span class="tt"><a class="el" href="#a1aa54c9fce82fbdccc295172f24d78e9" title="finds intersection precise, using high precision int inside this function input should have intersect...">MR.findSegmentSegmentIntersectionPrecise</a></span>.  <br /></td></tr>
 <tr class="memitem:a9af2a4b70b1e1089e60917d7b8139f2a" id="r_a9af2a4b70b1e1089e60917d7b8139f2a"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9af2a4b70b1e1089e60917d7b8139f2a">orient3d</a> (in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> a, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> b, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> c)</td></tr>
@@ -47357,7 +47359,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div>
 </div>
 <a id="a0c2ba32fe262070485fc5cd5aacc5cbe" name="a0c2ba32fe262070485fc5cd5aacc5cbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c2ba32fe262070485fc5cd5aacc5cbe">&#9670;&#160;</a></span>findSegmentSegmentIntersectionPrecise() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c2ba32fe262070485fc5cd5aacc5cbe">&#9670;&#160;</a></span>findSegmentSegmentIntersectionPrecise() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -47403,7 +47405,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div>
 </div>
 <a id="a1aa54c9fce82fbdccc295172f24d78e9" name="a1aa54c9fce82fbdccc295172f24d78e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1aa54c9fce82fbdccc295172f24d78e9">&#9670;&#160;</a></span>findSegmentSegmentIntersectionPrecise() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aa54c9fce82fbdccc295172f24d78e9">&#9670;&#160;</a></span>findSegmentSegmentIntersectionPrecise() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -47440,6 +47442,33 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div><div class="memdoc">
 
 <p>finds intersection precise, using high precision int inside this function input should have intersection Generated from function <span class="tt"><a class="el" href="#a1aa54c9fce82fbdccc295172f24d78e9" title="finds intersection precise, using high precision int inside this function input should have intersect...">MR.findSegmentSegmentIntersectionPrecise</a></span>. </p>
+
+</div>
+</div>
+<a id="a1fc314b04572367b761d5c125e477132" name="a1fc314b04572367b761d5c125e477132"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fc314b04572367b761d5c125e477132">&#9670;&#160;</a></span>findSegmentSegmentIntersectionPrecise() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="structMR_1_1Vector2i.html">MR.Vector2i</a> MR.findSegmentSegmentIntersectionPrecise </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Const_Array_MRPreciseVertCoords2_4</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>same for segments AB (indices 01) and CD (indices 23); when all four points lie on one line, uses vertex ids to select the intersection position consistent with the simulation-of-simplicity answers of ccw about every other vertex Generated from function <span class="tt"><a class="el" href="#a1aa54c9fce82fbdccc295172f24d78e9" title="finds intersection precise, using high precision int inside this function input should have intersect...">MR.findSegmentSegmentIntersectionPrecise</a></span>. </p>
 
 </div>
 </div>

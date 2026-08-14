@@ -3318,6 +3318,7 @@ var classMR =
     [ "findSegmentBoundaries", "classMR.html#a650432941efed7583f03292e595e1040", null ],
     [ "findSegmentSegmentIntersectionPrecise", "classMR.html#a0c2ba32fe262070485fc5cd5aacc5cbe", null ],
     [ "findSegmentSegmentIntersectionPrecise", "classMR.html#a1aa54c9fce82fbdccc295172f24d78e9", null ],
+    [ "findSegmentSegmentIntersectionPrecise", "classMR.html#a1fc314b04572367b761d5c125e477132", null ],
     [ "findSelfCollidingEdgePairs", "classMR.html#ac6d5bb1b5d876ebfeeee9b3158321c7c", null ],
     [ "findSelfCollidingEdges", "classMR.html#a28cc63ec86a2cdf8b2b668e8d442acba", null ],
     [ "findSelfCollidingEdgesBS", "classMR.html#a4493996fa02a18f9a3db6e4475db77b9", null ],

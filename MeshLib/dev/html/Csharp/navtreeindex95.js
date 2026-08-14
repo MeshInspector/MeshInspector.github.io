@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#aa9aaa5a487dae1752eed152450846125":[6,3,0,0,0,1017,5,0],
 "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#aadc8c1ac22f047195d442bcbeb83b462":[6,3,0,0,0,1017,5,5],
 "classMR_1_1Const__WeightedVertex.html":[6,3,0,0,0,1018],
 "classMR_1_1Const__WeightedVertex.html#a1665ba4a968594c97a255017e9757c28":[6,3,0,0,0,1018,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "classMR_1_1Cuda.html#a28af47bcf240e73dba6089da5350cef0":[6,3,0,0,0,1102,18],
 "classMR_1_1Cuda.html#a2ee724ac36d26a6c83bdcd469a4b1a22":[6,3,0,0,0,1102,25],
 "classMR_1_1Cuda.html#a32b0e5b580026a8ccb88f5e1860b7740":[6,3,0,0,0,1102,20],
-"classMR_1_1Cuda.html#a4f9a9652de05efaa486dd7ccd6bcf858":[6,3,0,0,0,1102,14],
-"classMR_1_1Cuda.html#a55def268c9241c47c216170ba0752b6d":[6,3,0,0,0,1102,11]
+"classMR_1_1Cuda.html#a4f9a9652de05efaa486dd7ccd6bcf858":[6,3,0,0,0,1102,14]
 };

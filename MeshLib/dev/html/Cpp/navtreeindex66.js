@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1NodeNode.html":[6,0,0,1,5],
 "structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18":[6,0,0,1,5,1],
 "structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2":[6,0,0,1,5,0],
 "structMR_1_1NoiseSettings.html":[6,0,0,20,106],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1Quaternion.html":[6,0,0,0,20],
 "structMR_1_1Quaternion.html":[6,0,0,20,468],
 "structMR_1_1RangeSize.html":[6,0,0,20,861],
-"structMR_1_1RawTiffOutput.html":[6,0,0,20,504],
-"structMR_1_1RayOrigin.html":[6,0,0,0,9,0]
+"structMR_1_1RawTiffOutput.html":[6,0,0,20,504]
 };

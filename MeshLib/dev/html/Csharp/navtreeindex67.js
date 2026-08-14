@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"classMR_1_1Const__OutliersDetector.html#ae2d163a81980dc941e344103549e4ae7":[6,3,0,0,0,692,6],
 "classMR_1_1Const__OutputFlows.html":[6,3,0,0,0,693],
 "classMR_1_1Const__OutputFlows.html#a0f1695230a2d72e320583fad173671e5":[6,3,0,0,0,693,11],
 "classMR_1_1Const__OutputFlows.html#a6079388b8876697df6e03ee32af69cd9":[6,3,0,0,0,693,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#a6221eed1ebd6178861d31f85439d3540":[6,3,0,0,0,702,6,1],
 "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#a6638107aadb5a36f1a5922c498d57bb6":[6,3,0,0,0,702,6,6],
 "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#a96f5a5c86b0bd89f03338db0ec110e2c":[6,3,0,0,0,702,6,10],
-"classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#aa5ca043094866d7f5188f6da3a979c1a":[6,3,0,0,0,702,6,4],
-"classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#aa8e3c859ed5b8c212b07e19e9621fb7f":[6,3,0,0,0,702,6,13]
+"classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#aa5ca043094866d7f5188f6da3a979c1a":[6,3,0,0,0,702,6,4]
 };

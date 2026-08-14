@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1Const__CompressZipSettings.html#a7b7eed30a9084acae21ac1f5d40278f6":[6,3,0,0,0,353,1],
 "classMR_1_1Const__CompressZipSettings.html#aa7430c5f77e90ea55f2ceea18a2383cb":[6,3,0,0,0,353,6],
 "classMR_1_1Const__CompressZipSettings.html#aab65932d766236cd2457249c05268684":[6,3,0,0,0,353,5],
 "classMR_1_1Const__CompressZipSettings.html#ad1a9004b0dcfe529bcede2f20fd714ef":[6,3,0,0,0,353,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1Const__ContourToDistanceMapParams.html#adb5e5e2ab35208428e92fc8cc06c596a":[6,3,0,0,0,364,8],
 "classMR_1_1Const__ContourToDistanceMapParams.html#af42872f83e2f1246644985d112445bbf":[6,3,0,0,0,364,11],
 "classMR_1_1Const__ContourToDistanceMapParams.html#afdb0b6f48f8bddab87fdb95cbc23f8e2":[6,3,0,0,0,364,1],
-"classMR_1_1Const__ContoursDistanceMapOffset.html":[6,3,0,0,0,361],
-"classMR_1_1Const__ContoursDistanceMapOffset.html#a195cfe4dec3bceb88aaf25e9d97d7742":[6,3,0,0,0,361,6]
+"classMR_1_1Const__ContoursDistanceMapOffset.html":[6,3,0,0,0,361]
 };

@@ -319,8 +319,8 @@ var NAVTREEINDEX =
 "namespacemrmeshpy.html#a6e6e42eeb63486b207a6ad3f9b1d080d",
 "namespacemrmeshpy.html#a8f5a9330ed9001c6eab111bd17e28642",
 "namespacemrmeshpy.html#aaf9016ea7401e747f652f8ea0e2e95b0",
-"namespacemrmeshpy.html#acca9b2647a3408077241bcc84f4c7e0d",
-"namespacemrmeshpy.html#aec84b14c991ef2ca0713e6130666f1c7"
+"namespacemrmeshpy.html#acca4f78857537375a6f0629d46a74269",
+"namespacemrmeshpy.html#aec7a25917f94a12d9c21d6e4439e7dfb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

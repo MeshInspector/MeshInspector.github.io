@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"namespaceMR_1_1Locale_1_1detail.html":[6,0,1,0,1,20,0],
 "namespaceMR_1_1Locale_1_1detail.html#affe80668a699064bb90515126c515b53":[6,0,1,0,1,20,0,0],
 "namespaceMR_1_1Mcp.html":[6,0,0,20,23],
 "namespaceMR_1_1Mcp.html#a255c34dcc4e67f496bea3c6daef7bdba":[6,0,1,0,1,21,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1WeightedShell.html#aa73cc71df322e6863d94e7f237875475":[6,0,1,0,1,54,9],
 "namespaceMR_1_1WeightedShell.html#ad1ffa222355f35085c885b87e8d27df8":[6,0,1,0,1,54,13],
 "namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984":[6,0,1,0,1,54,4],
-"namespaceMR_1_1detail.html":[6,0,0,0,5,0],
-"namespaceMR_1_1detail.html":[6,0,0,20,14]
+"namespaceMR_1_1detail.html":[6,0,0,0,5,0]
 };

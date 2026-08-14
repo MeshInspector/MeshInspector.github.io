@@ -2384,6 +2384,7 @@ var namespaceMR =
     [ "findRightBoundary", "group__GeneralGroup.html#ga6affc4bcec8b8d37897deadf9bbd70bf", null ],
     [ "findRootsBitSet", "group__GeneralGroup.html#ga169f8f74d2daf1470ceec5e08a3545ca", null ],
     [ "findSegmentBoundaries", "group__GeneralGroup.html#gaeebd4bef93283f73be72ea619fe1eca3", null ],
+    [ "findSegmentSegmentIntersectionPrecise", "group__GeneralGroup.html#ga3e2091f496f4b822c308240ef55105ac", null ],
     [ "findSegmentSegmentIntersectionPrecise", "group__GeneralGroup.html#ga217c93ac0b5b2271f3387a858b87d734", null ],
     [ "findSegmentSegmentIntersectionPrecise", "group__GeneralGroup.html#ga77c53fa57be3188038506af24b3f752a", null ],
     [ "findSelfCollidingEdgePairs", "group__AABBTreeGroup.html#ga3ffb21230e0818e71cb8d4f2cebce0e5", null ],

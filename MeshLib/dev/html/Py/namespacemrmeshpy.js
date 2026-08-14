@@ -1919,6 +1919,7 @@ var namespacemrmeshpy =
     [ "findRepeatedVertsOnHoleBd", "namespacemrmeshpy.html#a7482d186c3fb84d395018ca3a94033f9", null ],
     [ "findRightBoundary", "namespacemrmeshpy.html#a1d7e42d6c10b30374645cb16adbdc3e4", null ],
     [ "findSegmentBoundaries", "namespacemrmeshpy.html#a6bfa1debf7b293b26dc3847f8549a17f", null ],
+    [ "findSegmentSegmentIntersectionPrecise", "namespacemrmeshpy.html#ab90519d31049e6ae95e5d4fca6160db9", null ],
     [ "findSegmentSegmentIntersectionPrecise", "namespacemrmeshpy.html#aaa354acee25fe1947c98070ee4546790", null ],
     [ "findSegmentSegmentIntersectionPrecise", "namespacemrmeshpy.html#a96cb060db82d30211bd054ea230d1210", null ],
     [ "findSelfCollidingEdgePairs", "namespacemrmeshpy.html#a3ef4ea91638d461d59f38620982006d9", null ],

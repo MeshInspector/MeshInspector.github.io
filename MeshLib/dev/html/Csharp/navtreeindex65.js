@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"classMR_1_1Const__ObjectPoints.html#a9d29ec73e1bd6e084059f0893e315b6b":[6,3,0,0,0,668,50],
 "classMR_1_1Const__ObjectPoints.html#aa2668c0c2ca62a4bca4d6086092fb0a0":[6,3,0,0,0,668,43],
 "classMR_1_1Const__ObjectPoints.html#aa3c5fe7d50226349189cd7a93bf58f6f":[6,3,0,0,0,668,39],
 "classMR_1_1Const__ObjectPoints.html#aa4a91a4ff5bcc4fea2a2b76d059a28b4":[6,3,0,0,0,668,63],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "classMR_1_1Const__ObjectVoxels.html#ab8fe2caca84476c54ea656b578ceda6e":[6,3,0,0,0,671,87],
 "classMR_1_1Const__ObjectVoxels.html#aba14c0839027f136dfbec77aa688d5d6":[6,3,0,0,0,671,23],
 "classMR_1_1Const__ObjectVoxels.html#abed5439817944dd8c342f5bfc4b2c03c":[6,3,0,0,0,671,16],
-"classMR_1_1Const__ObjectVoxels.html#ac3573a330d9f26d8091f09e474b3471b":[6,3,0,0,0,671,15],
-"classMR_1_1Const__ObjectVoxels.html#ac74e82809a284e20141c711b3e733a55":[6,3,0,0,0,671,61]
+"classMR_1_1Const__ObjectVoxels.html#ac3573a330d9f26d8091f09e474b3471b":[6,3,0,0,0,671,15]
 };

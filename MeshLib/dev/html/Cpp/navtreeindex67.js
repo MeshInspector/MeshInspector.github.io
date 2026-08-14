@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1RayOrigin.html":[6,0,0,0,9,0],
 "structMR_1_1RayOrigin.html#a8502e2d024f3f9f3b84ad9f25f659eb7":[6,0,0,0,9,0,0],
 "structMR_1_1RayOrigin.html#ac04a9fc6f4e6573fb74ba782ee0db113":[6,0,0,0,9,0,1],
 "structMR_1_1RebuildMeshSettings.html":[6,0,0,20,867],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[6,0,1,0,1,48,0,4],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[6,0,2,0,2,32,0,4],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18":[6,0,1,0,1,48,0,3],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18":[6,0,2,0,2,32,0,3],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436":[6,0,1,0,1,48,0,1]
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18":[6,0,2,0,2,32,0,3]
 };

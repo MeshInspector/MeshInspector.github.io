@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1EdgeColors.html#a37bc80844820ad0a58e1ff65a7fc99ef":[6,3,0,0,0,1142,9],
 "classMR_1_1EdgeColors.html#a3c4043d26e8af27f8f17ff83e213e785":[6,3,0,0,0,1142,11],
 "classMR_1_1EdgeColors.html#a481dcc844767d83f7568703c69db84cc":[6,3,0,0,0,1142,10],
 "classMR_1_1EdgeColors.html#a5c1ad0686b164a1be7f202977ecbcf2b":[6,3,0,0,0,1142,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1EnumNeihbourVertices.html#ae9fd6f9c55a9d2d39849f90725db924b":[6,3,0,0,0,1160,6],
 "classMR_1_1Expected__MRCudaDeviceInfo__StdString.html":[6,3,0,0,0,1161],
 "classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a32efd0b562c5b7b238eb95c7bdb9ff64":[6,3,0,0,0,1161,2],
-"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a411a174fe93fcc9ee3441f7fa66d1ddd":[6,3,0,0,0,1161,3],
-"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a4d05e5a746cdbb79d4b571b37715575e":[6,3,0,0,0,1161,4]
+"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a411a174fe93fcc9ee3441f7fa66d1ddd":[6,3,0,0,0,1161,3]
 };

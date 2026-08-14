@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"classMR_1_1Const__ObjectVoxels.html#ac74e82809a284e20141c711b3e733a55":[6,3,0,0,0,671,61],
 "classMR_1_1Const__ObjectVoxels.html#acaa82bce2185323c17791d86006f84bc":[6,3,0,0,0,671,126],
 "classMR_1_1Const__ObjectVoxels.html#acd60b267b7c633c5a2afa29beca7896f":[6,3,0,0,0,671,27],
 "classMR_1_1Const__ObjectVoxels.html#ace7d4e64962f6b9c5b222ec3a827aa0a":[6,3,0,0,0,671,56],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "classMR_1_1Const__OutliersDetector.html#a72ffcf4d42c6c9b1376ae9d467ed30ef":[6,3,0,0,0,692,4],
 "classMR_1_1Const__OutliersDetector.html#a769a9fc2408d0f4b849b3f40e2f1927a":[6,3,0,0,0,692,2],
 "classMR_1_1Const__OutliersDetector.html#a88a673ba7cecec37f7b98bd6ccf50447":[6,3,0,0,0,692,5],
-"classMR_1_1Const__OutliersDetector.html#a9fb20c63310ad6da9073d2de1c57bfa1":[6,3,0,0,0,692,3],
-"classMR_1_1Const__OutliersDetector.html#ae2d163a81980dc941e344103549e4ae7":[6,3,0,0,0,692,6]
+"classMR_1_1Const__OutliersDetector.html#a9fb20c63310ad6da9073d2de1c57bfa1":[6,3,0,0,0,692,3]
 };

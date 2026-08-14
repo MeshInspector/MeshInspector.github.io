@@ -1737,6 +1737,25 @@
         </inbodydescription>
         <location file="MRMesh/MRPrecisePredicates2.h" line="97" column="12" declfile="MRMesh/MRPrecisePredicates2.h" declline="97" declcolumn="12"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga3e2091f496f4b822c308240ef55105ac" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::findSegmentSegmentIntersectionPrecise</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords2, 4 &gt; &amp;vs)</argsstring>
+        <name>findSegmentSegmentIntersectionPrecise</name>
+        <qualifiedname>MR::findSegmentSegmentIntersectionPrecise</qualifiedname>
+        <param>
+          <type>const std::array&lt; PreciseVertCoords2, 4 &gt; &amp;</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>same for segments AB (indices 01) and CD (indices 23); when all four points lie on one line, uses vertex ids to select the intersection position consistent with the simulation-of-simplicity answers of ccw about every other vertex </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates2.h" line="103" column="12" declfile="MRMesh/MRPrecisePredicates2.h" declline="103" declcolumn="12"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga217c93ac0b5b2271f3387a858b87d734" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector2f</type>
         <definition>Vector2f MR::findSegmentSegmentIntersectionPrecise</definition>
@@ -1770,7 +1789,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates2.h" line="102" column="12" declfile="MRMesh/MRPrecisePredicates2.h" declline="102" declcolumn="12"/>
+        <location file="MRMesh/MRPrecisePredicates2.h" line="108" column="12" declfile="MRMesh/MRPrecisePredicates2.h" declline="108" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">

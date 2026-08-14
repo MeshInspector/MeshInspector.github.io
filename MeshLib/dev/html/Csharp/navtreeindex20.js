@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1ColorMapAggregator__MRFaceTag.html#a5f28a10271c18cd57e4720bb688e1392a6b551379c3c0b59326abdaf3b4395bd3":[6,3,0,0,0,209,2,0],
 "classMR_1_1ColorMapAggregator__MRFaceTag.html#a5f28a10271c18cd57e4720bb688e1392a84e358c0cfad27b29c41c888167828f3":[6,3,0,0,0,209,2,1],
 "classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap.html":[6,3,0,0,0,209,0],
 "classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap.html#a2a4b1724a968a89f15b7485b61b9658e":[6,3,0,0,0,209,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ConstBox__AffineXf2d.html#aecccd12093a23c12eb4dbed8c06ed61d":[6,3,0,0,0,1028,9],
 "classMR_1_1ConstBox__AffineXf2d.html#aee776a2dfe864f8974f41c53158e17f7":[6,3,0,0,0,1028,17],
 "classMR_1_1ConstBox__AffineXf2d.html#aff8c89df2e11b53ff074c69d6dc6d776":[6,3,0,0,0,1028,4],
-"classMR_1_1ConstBox__AffineXf2f.html":[6,3,0,0,0,1029],
-"classMR_1_1ConstBox__AffineXf2f.html#a051b7793ecfbbeecaa93d3d3439b6d77":[6,3,0,0,0,1029,0]
+"classMR_1_1ConstBox__AffineXf2f.html":[6,3,0,0,0,1029]
 };

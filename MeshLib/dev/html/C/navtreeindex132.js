@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"expected__MR__Image__std__string_8h.html#ace221b379abae58afbfc85fce27ba05b":[6,2,2,0,0,0,0,2,10,1],
 "expected__MR__Image__std__string_8h.html#ad079cb5fc3f2a20aa9ffb461a068a326":[6,2,2,0,0,0,0,2,10,7],
 "expected__MR__Image__std__string_8h.html#adaf10bd0ed55ee6bbbfc9ff42c8962c9":[6,2,2,0,0,0,0,2,10,9],
 "expected__MR__Image__std__string_8h.html#ae2bbe025c232004616fe91163df09254":[6,2,2,0,0,0,0,2,10,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "expected__MR__SimpleVolumeMinMax__std__string_8h.html#aa92b66a9548e8504eac52319ee60536a":[6,2,2,0,0,0,0,2,26,0],
 "expected__MR__SimpleVolumeMinMax__std__string_8h.html#abd069f67237b22e4c50eb893ecfbdb58":[6,2,2,0,0,0,0,2,26,5],
 "expected__MR__SimpleVolumeMinMax__std__string_8h.html#acdb7af8a10415b30467bd757c913ab05":[6,2,2,0,0,0,0,2,26,3],
-"expected__MR__SimpleVolumeMinMax__std__string_8h.html#ae481c3d753d31f723a54c0f95bb28f0c":[6,2,2,0,0,0,0,2,26,11],
-"expected__MR__SimpleVolumeMinMax__std__string_8h.html#aed32b4b4779f6d2e187f5273b07949d2":[6,2,2,0,0,0,0,2,26,6]
+"expected__MR__SimpleVolumeMinMax__std__string_8h.html#ae481c3d753d31f723a54c0f95bb28f0c":[6,2,2,0,0,0,0,2,26,11]
 };

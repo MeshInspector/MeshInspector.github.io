@@ -1,5 +1,6 @@
 var NAVTREEINDEX133 =
 {
+"expected__MR__SimpleVolumeMinMax__std__string_8h.html#aed32b4b4779f6d2e187f5273b07949d2":[6,2,2,0,0,0,0,2,26,6],
 "expected__MR__SimpleVolumeMinMax__std__string_8h.html#af277fc59a342613ef6203634ad723f56":[6,2,2,0,0,0,0,2,26,4],
 "expected__MR__SimpleVolumeMinMax__std__string_8h_source.html":[6,2,2,0,0,0,0,2,26],
 "expected__MR__SimpleVolume__std__string_8h.html":[6,2,2,0,0,0,0,2,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX133 =
 "expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a7ad37091b7ad4c2f60498b3ca4eefd2e":[6,2,2,0,0,0,0,2,43,2],
 "expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a7e81be00e03b3243b0f90ffa60c70dbc":[6,2,2,0,0,0,0,2,43,13],
 "expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a80db8a1eb7f7ba43e3f217fd159d036e":[6,2,2,0,0,0,0,2,43,8],
-"expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a":[6,2,2,0,0,0,0,2,43,0],
-"expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9d393acc53f121bcf783d272d17c5c24":[6,2,2,0,0,0,0,2,43,1]
+"expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a":[6,2,2,0,0,0,0,2,43,0]
 };

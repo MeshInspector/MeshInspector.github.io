@@ -1,5 +1,6 @@
 var NAVTREEINDEX100 =
 {
+"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a4d05e5a746cdbb79d4b571b37715575e":[6,3,0,0,0,1161,4],
 "classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a55e26218fc9212e89f3428d85f34d9f1":[6,3,0,0,0,1161,0],
 "classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a7b5ac970f42b23a464a30d76ae9001ff":[6,3,0,0,0,1161,5],
 "classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a9bafa10c981549baadde43b4d408e9df":[6,3,0,0,0,1161,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX100 =
 "classMR_1_1FaceSetBitIterator.html#a79cded9a146482a3456f9a91be564df0":[6,3,0,0,0,1174,5],
 "classMR_1_1FaceSetBitIterator.html#a9774b4e76265fd909a79c8e4cb1dec73":[6,3,0,0,0,1174,1],
 "classMR_1_1FaceSetBitIterator.html#ae4da90c5d90adb6d3f2539b31f202423":[6,3,0,0,0,1174,0],
-"classMR_1_1FaceSetBitIterator.html#afc91e923aa86ad5e646b0bf17fba453f":[6,3,0,0,0,1174,4],
-"classMR_1_1FanRecord.html":[6,3,0,0,0,1175]
+"classMR_1_1FaceSetBitIterator.html#afc91e923aa86ad5e646b0bf17fba453f":[6,3,0,0,0,1174,4]
 };

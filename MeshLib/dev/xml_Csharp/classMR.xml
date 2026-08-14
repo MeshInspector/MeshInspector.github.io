@@ -34048,6 +34048,25 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="1096" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="1096" bodyend="1113"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a1fc314b04572367b761d5c125e477132" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+        <definition>static unsafe MR.Vector2i MR.findSegmentSegmentIntersectionPrecise</definition>
+        <argsstring>(MR.Std.Const_Array_MRPreciseVertCoords2_4 vs)</argsstring>
+        <name>findSegmentSegmentIntersectionPrecise</name>
+        <qualifiedname>MR.findSegmentSegmentIntersectionPrecise</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Array_MRPreciseVertCoords2_4</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+<para>same for segments AB (indices 01) and CD (indices 23); when all four points lie on one line, uses vertex ids to select the intersection position consistent with the simulation-of-simplicity answers of ccw about every other vertex Generated from function <computeroutput><ref refid="classMR_1a1aa54c9fce82fbdccc295172f24d78e9" kindref="member">MR.findSegmentSegmentIntersectionPrecise</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="1121" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="1121" bodyend="1126"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a0c2ba32fe262070485fc5cd5aacc5cbe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
         <definition>static unsafe MR.Vector2f MR.findSegmentSegmentIntersectionPrecise</definition>
@@ -34081,7 +34100,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="1120" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="1120" bodyend="1137"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="1133" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="1133" bodyend="1150"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9af2a4b70b1e1089e60917d7b8139f2a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -54610,6 +54629,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a826dbfac119851fb6577c238c61da01d" prot="public" virt="non-virtual"><scope>MR</scope><name>findRightBoundary</name></member>
       <member refid="classMR_1a650432941efed7583f03292e595e1040" prot="public" virt="non-virtual"><scope>MR</scope><name>findSegmentBoundaries</name></member>
       <member refid="classMR_1a1aa54c9fce82fbdccc295172f24d78e9" prot="public" virt="non-virtual"><scope>MR</scope><name>findSegmentSegmentIntersectionPrecise</name></member>
+      <member refid="classMR_1a1fc314b04572367b761d5c125e477132" prot="public" virt="non-virtual"><scope>MR</scope><name>findSegmentSegmentIntersectionPrecise</name></member>
       <member refid="classMR_1a0c2ba32fe262070485fc5cd5aacc5cbe" prot="public" virt="non-virtual"><scope>MR</scope><name>findSegmentSegmentIntersectionPrecise</name></member>
       <member refid="classMR_1ac6d5bb1b5d876ebfeeee9b3158321c7c" prot="public" virt="non-virtual"><scope>MR</scope><name>findSelfCollidingEdgePairs</name></member>
       <member refid="classMR_1a28cc63ec86a2cdf8b2b668e8d442acba" prot="public" virt="non-virtual"><scope>MR</scope><name>findSelfCollidingEdges</name></member>

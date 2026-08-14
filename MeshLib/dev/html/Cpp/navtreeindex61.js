@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,0,8,0,1,2],
 "structMR_1_1BooleanResultMapper.html#af6e316b7b21f94033491018406e4e3a6":[6,0,0,8,0,7],
 "structMR_1_1BooleanResultMapper_1_1Maps.html":[6,0,0,8,0,0],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#a70a6c9015f66d50b0889a5cfbdc6b9a9":[6,0,0,8,0,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1EdgeLengthMesh.html":[6,0,0,20,193],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[6,0,0,20,198],
 "structMR_1_1EdgePoint.html":[6,0,0,20,202],
-"structMR_1_1EdgePointPair.html":[6,0,0,20,203],
-"structMR_1_1EdgeSegment.html":[6,0,0,20,204]
+"structMR_1_1EdgePointPair.html":[6,0,0,20,203]
 };

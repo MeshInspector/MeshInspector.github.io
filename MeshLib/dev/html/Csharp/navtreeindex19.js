@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1ChangeOnePointInCloudAction.html":[6,3,0,0,0,184],
 "classMR_1_1ChangeOnePointInCloudAction.html#a09d8e29c1f4711755fd945fa71024099":[6,3,0,0,0,184,6],
 "classMR_1_1ChangeOnePointInCloudAction.html#a72b1b0d831e856016cbe15a9efbcc735":[6,3,0,0,0,184,2],
 "classMR_1_1ChangeOnePointInCloudAction.html#a8a2af425c11ff082f53b1ff514dedf7e":[6,3,0,0,0,184,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1CmpOld.html#a73142ce0b18c4dc2aaa63eb9006e2a03":[6,3,0,0,0,206,3],
 "classMR_1_1CmpOld.html#acb98186615c48bbc26db5634e720f5a7":[6,3,0,0,0,206,2],
 "classMR_1_1ColorMapAggregator__MRFaceTag.html":[6,3,0,0,0,209],
-"classMR_1_1ColorMapAggregator__MRFaceTag.html#a5f28a10271c18cd57e4720bb688e1392":[6,3,0,0,0,209,2],
-"classMR_1_1ColorMapAggregator__MRFaceTag.html#a5f28a10271c18cd57e4720bb688e1392a6b551379c3c0b59326abdaf3b4395bd3":[6,3,0,0,0,209,2,0]
+"classMR_1_1ColorMapAggregator__MRFaceTag.html#a5f28a10271c18cd57e4720bb688e1392":[6,3,0,0,0,209,2]
 };

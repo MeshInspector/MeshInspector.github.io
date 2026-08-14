@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436":[6,0,1,0,1,48,0,1],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436":[6,0,2,0,2,32,0,1],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af10835a24d386208aebf0562ee285ddd":[6,0,1,0,1,48,0,0],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af10835a24d386208aebf0562ee285ddd":[6,0,2,0,2,32,0,0],
@@ -195,7 +196,7 @@ var NAVTREEINDEX68 =
 "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#aa5ab2cbeb1b2f73ba9d3a268be384ace":[6,0,0,1,18,0,1],
 "structMR_1_1Vector2.html":[6,0,0,0,12,0],
 "structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[6,0,0,0,12,0,41],
-"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[6,0,1,0,1,2855],
+"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[6,0,1,0,1,2856],
 "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[6,0,0,0,12,0,42],
 "structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b":[6,0,0,0,12,0,4],
 "structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[6,0,0,0,12,0,21],
@@ -235,7 +236,7 @@ var NAVTREEINDEX68 =
 "structMR_1_1Vector2.html#aa88507c09ad0236f834d9ffb29ef6de6":[6,0,0,0,12,0,10],
 "structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c":[6,0,0,0,12,0,1],
 "structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[6,0,0,0,12,0,25],
-"structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[6,0,1,0,1,2434],
+"structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[6,0,1,0,1,2435],
 "structMR_1_1Vector2.html#aaf2a2fdd2ea258a5a0ce7d885042aa6a":[6,0,0,0,12,0,29],
 "structMR_1_1Vector2.html#ac44db7ddb1694b996824036c9f755b9e":[6,0,0,0,12,0,13],
 "structMR_1_1Vector2.html#aceec41028f524dcaea01f9d08b42f5c7":[6,0,0,0,12,0,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Vector2.html#afc633e58b9b5cc5e5b4153442fa9bfd3":[6,0,0,0,12,0,6],
 "structMR_1_1Vector3.html":[6,0,0,0,12,1],
 "structMR_1_1Vector3.html":[6,0,0,20,522],
-"structMR_1_1Vector4.html":[6,0,0,0,12,2],
-"structMR_1_1Vector4.html":[6,0,0,20,523]
+"structMR_1_1Vector4.html":[6,0,0,0,12,2]
 };

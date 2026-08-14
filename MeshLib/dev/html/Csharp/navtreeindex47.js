@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1Const__FindOverhangsSettings.html#aac6a6e1e366902e463c9a42baecca142":[6,3,0,0,0,456,11],
 "classMR_1_1Const__FindOverhangsSettings.html#ada4f9e39d0781d182222c2690e136f02":[6,3,0,0,0,456,10],
 "classMR_1_1Const__FindOverhangsSettings.html#ae39fa9bea22e8985bcb30ede30be1cdf":[6,3,0,0,0,456,15],
 "classMR_1_1Const__FindOverhangsSettings.html#aeecf5c03048e5e602869468701690185":[6,3,0,0,0,456,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1Const__GcodeProcessor_1_1Command.html#ae9b41889fd47d98c5ad7c9cea2a052a3":[6,3,0,0,0,468,2,5],
 "classMR_1_1Const__GcodeProcessor_1_1Command.html#aeb24462ad50abe0edaadd6958ae71550":[6,3,0,0,0,468,2,2],
 "classMR_1_1Const__GcodeProcessor_1_1Command.html#af8907fc179c78b7fa2098a2207280ff2":[6,3,0,0,0,468,2,0],
-"classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector2f.html":[6,3,0,0,0,468,3],
-"classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector2f.html#a0b2bd1c004f4b8d9c5d56a91e3c2a0e2":[6,3,0,0,0,468,3,1]
+"classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector2f.html":[6,3,0,0,0,468,3]
 };

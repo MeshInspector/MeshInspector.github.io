@@ -13882,6 +13882,7 @@
     <member refid="group__GeneralGroup_1ga602409f55231f953fa2202ec4e12d91b" kind="function"><name>doSegmentSegmentIntersect</name></member>
     <member refid="group__GeneralGroup_1gacbfda6745992ad158fa79952f3f9ba55" kind="function"><name>segmentIntersectionOrder</name></member>
     <member refid="group__GeneralGroup_1ga77c53fa57be3188038506af24b3f752a" kind="function"><name>findSegmentSegmentIntersectionPrecise</name></member>
+    <member refid="group__GeneralGroup_1ga3e2091f496f4b822c308240ef55105ac" kind="function"><name>findSegmentSegmentIntersectionPrecise</name></member>
     <member refid="group__GeneralGroup_1ga217c93ac0b5b2271f3387a858b87d734" kind="function"><name>findSegmentSegmentIntersectionPrecise</name></member>
     <member refid="namespaceMR_1a9381161a7388eeabb33982f4df1cf1c3" kind="typedef"><name>MeshOnVoxelsVdb</name></member>
     <member refid="namespaceMR_1a94d7093d57cb27ac9abdfb241ddb6bc0" kind="typedef"><name>MeshOnVoxelsVdbC</name></member>
@@ -17208,16 +17209,6 @@
   </compound>
   <compound refid="MRMCPGatewayUtf8_8h" kind="file"><name>MRMCPGatewayUtf8.h</name>
   </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
-  </compound>
   <compound refid="MR2DContoursTriangulation_8h" kind="file"><name>MR2DContoursTriangulation.h</name>
   </compound>
   <compound refid="MR2to3_8h" kind="file"><name>MR2to3.h</name>
@@ -18190,10 +18181,6 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -18269,6 +18256,16 @@
   <compound refid="MRSymbolMeshFwd_8h" kind="file"><name>MRSymbolMeshFwd.h</name>
     <member refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kind="define"><name>MRSYMBOLMESH_API</name></member>
     <member refid="MRSymbolMeshFwd_8h_1acd35d2ca8d20c30530e2d38a9295f009" kind="define"><name>MRSYMBOLMESH_CLASS</name></member>
+  </compound>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
   </compound>
   <compound refid="ImGuiHelpers_8h" kind="file"><name>ImGuiHelpers.h</name>
   </compound>
@@ -18609,6 +18606,10 @@
     <member refid="group__GeneralGroup_1gacbc30821abce7e21196166b4dc00e283" kind="define"><name>MR_X</name></member>
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
   </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
@@ -20107,6 +20108,7 @@
     <member refid="group__GeneralGroup_1ga602409f55231f953fa2202ec4e12d91b" kind="function"><name>doSegmentSegmentIntersect</name></member>
     <member refid="group__GeneralGroup_1gacbfda6745992ad158fa79952f3f9ba55" kind="function"><name>segmentIntersectionOrder</name></member>
     <member refid="group__GeneralGroup_1ga77c53fa57be3188038506af24b3f752a" kind="function"><name>findSegmentSegmentIntersectionPrecise</name></member>
+    <member refid="group__GeneralGroup_1ga3e2091f496f4b822c308240ef55105ac" kind="function"><name>findSegmentSegmentIntersectionPrecise</name></member>
     <member refid="group__GeneralGroup_1ga217c93ac0b5b2271f3387a858b87d734" kind="function"><name>findSegmentSegmentIntersectionPrecise</name></member>
     <member refid="group__SurfacePathGroup_1gaf83c9126c3fe5eb80121ed4fb5bbdcbf" kind="function"><name>edgeLengthMetric</name></member>
     <member refid="group__SurfacePathGroup_1ga1359bd15f1fd1d1702be9174dbd1f91e" kind="function"><name>edgeLengthMetric</name></member>
