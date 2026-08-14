@@ -79028,10 +79028,10 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRMesh/MR2DContoursTriangulation.h" line="117" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="117" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga5dcd301c1e4d3273f4da96ffd2b5656d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga887c0dfeca07a1585372ecaf334bd806" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Mesh &gt;</type>
         <definition>std::optional&lt; Mesh &gt; MR::PlanarTriangulation::triangulateDisjointContours</definition>
-        <argsstring>(const Mesh &amp;mesh, const EdgeLoops &amp;loops, const Vector3f &amp;normal, std::vector&lt; EdgePath &gt; *outBoundaries=nullptr)</argsstring>
+        <argsstring>(const Mesh &amp;mesh, const EdgeLoops &amp;loops, const Vector3f &amp;normal, std::vector&lt; EdgePath &gt; *outBoundaries=nullptr, WholeEdgeMap *outPatchMap=nullptr)</argsstring>
         <name>triangulateDisjointContours</name>
         <qualifiedname>MR::PlanarTriangulation::triangulateDisjointContours</qualifiedname>
         <param>
@@ -79051,6 +79051,11 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
           <declname>outBoundaries</declname>
           <defval>nullptr</defval>
         </param>
+        <param>
+          <type>WholeEdgeMap *</type>
+          <declname>outPatchMap</declname>
+          <defval>nullptr</defval>
+        </param>
         <briefdescription>
 <para>triangulate hole boundary loops of <computeroutput>mesh</computeroutput> in the mesh&apos;s own 3d space, orienting faces around <computeroutput>normal</computeroutput> combinatorics run on the dominant-axis projection of <computeroutput>normal</computeroutput>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity. </para>
         </briefdescription>
@@ -79063,6 +79068,14 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
 <para>one closed <ref refid="group__GeneralGroup_1ga099da1b4cb4b8348ee3fed0588b01aa3" kindref="member">EdgeLoop</ref> per contour (as produced by trackRightBoundaryLoop on each hole edge) </para>
 </parameterdescription>
 </parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outPatchMap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional output: for each patch boundary edge (by undirected id) the mesh edge it copies, directed along it; edges past its size are the triangulation&apos;s own. Not produced with <computeroutput>outBoundaries</computeroutput> </para>
+</parameterdescription>
+</parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>std::nullopt if the loops self-intersect, otherwise the patch mesh </para>
 </simplesect>
@@ -79070,7 +79083,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="126" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="126" declcolumn="16"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="128" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="128" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga58f8dd538965bde14c46c2ed60aac1f9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const NodeVec &amp;</type>

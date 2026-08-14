@@ -2038,7 +2038,7 @@ var searchData=
   ['mr_5fweightedshell_5fparametersregions_5fregion_2035',['MR_WeightedShell_ParametersRegions_Region',['../std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a0c8fa266835b87106cadd3fa5cede1b1',1,'std_vector_MR_WeightedShell_ParametersRegions_Region.h']]],
   ['mr_5fweightedvertex_2036',['MR_WeightedVertex',['../MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1',1,'MRMeshTriPoint.h']]],
   ['mr_5fwholeedgebmap_2037',['MR_WholeEdgeBMap',['../MRBuffer_8h.html#ad1ad750b438e104c98e72feaa49b57ac',1,'MRBuffer.h']]],
-  ['mr_5fwholeedgemap_2038',['MR_WholeEdgeMap',['../MRBooleanOperation_8h.html#a50066b58d97b0be73d826cfdcc9eb188',1,'MRBooleanOperation.h']]],
+  ['mr_5fwholeedgemap_2038',['MR_WholeEdgeMap',['../MR2DContoursTriangulation_8h.html#a50066b58d97b0be73d826cfdcc9eb188',1,'MR2DContoursTriangulation.h']]],
   ['mr_5fwraptype_2039',['MR_WrapType',['../MREnums_8h.html#a00a6c4c76bf7fcbc91c8b9e401c8fa01',1,'MREnums.h']]],
   ['mr_5fxfbasedcache_5fmr_5fbox3f_2040',['MR_XfBasedCache_MR_Box3f',['../MRViewportProperty_8h.html#afd809241b98e686da37ea296a946c1ee',1,'MRViewportProperty.h']]],
   ['mr_5fzcompensateparams_2041',['MR_ZCompensateParams',['../MROffsetVerts_8h.html#aba5e4bdfdaae2b4eb0af6f4aec7f933a',1,'MROffsetVerts.h']]],

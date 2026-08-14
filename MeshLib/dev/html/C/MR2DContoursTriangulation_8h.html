@@ -158,6 +158,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a6bf133eda1ec95be202b77c33412bc8e" id="r_a6bf133eda1ec95be202b77c33412bc8e"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf133eda1ec95be202b77c33412bc8e">MR_Vector3f</a></td></tr>
 <tr class="memitem:a4cecbe6d6abe0a304f00ea1990538db2" id="r_a4cecbe6d6abe0a304f00ea1990538db2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4cecbe6d6abe0a304f00ea1990538db2">MR_Vector_int_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cecbe6d6abe0a304f00ea1990538db2">MR_Vector_int_MR_FaceId</a></td></tr>
 <tr class="memdesc:a4cecbe6d6abe0a304f00ea1990538db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
+<tr class="memitem:a50066b58d97b0be73d826cfdcc9eb188" id="r_a50066b58d97b0be73d826cfdcc9eb188"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a></td></tr>
+<tr class="memdesc:a50066b58d97b0be73d826cfdcc9eb188"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a3bbe7529fd9a3b454d1fe7040289bf3c" id="r_a3bbe7529fd9a3b454d1fe7040289bf3c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a></td></tr>
 <tr class="memitem:af3d746e536136af3a4a530351f5d15e8" id="r_af3d746e536136af3a4a530351f5d15e8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a></td></tr>
 <tr class="memitem:ab5de264b6065dbf84f6b3fa0f6530592" id="r_ab5de264b6065dbf84f6b3fa0f6530592"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a></td></tr>
@@ -295,8 +297,8 @@ Functions</h2></td></tr>
 <tr class="memitem:abd7baa84c10074b7e3a8f9814a121fd6" id="r_abd7baa84c10074b7e3a8f9814a121fd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd7baa84c10074b7e3a8f9814a121fd6">MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *contours, const <a class="el" href="#abdbe8ace605f6572986fd0d93bdced2a">MR_std_vector_std_vector_MR_VertId</a> *holeVertsIds, <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *outBoundaries)</td></tr>
 <tr class="memdesc:abd7baa84c10074b7e3a8f9814a121fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
 <tr class="memitem:a1164161e75e19d0a3dd855e970d7a766" id="r_a1164161e75e19d0a3dd855e970d7a766"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1164161e75e19d0a3dd855e970d7a766">MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, const <a class="el" href="#abdbe8ace605f6572986fd0d93bdced2a">MR_std_vector_std_vector_MR_VertId</a> *holeVertsIds, <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *outBoundaries)</td></tr>
-<tr class="memitem:a72c3d206a7e251bc605f19004b1218dd" id="r_a72c3d206a7e251bc605f19004b1218dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72c3d206a7e251bc605f19004b1218dd">MR_PlanarTriangulation_triangulateDisjointContours_4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *loops, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *normal, <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *outBoundaries)</td></tr>
-<tr class="memdesc:a72c3d206a7e251bc605f19004b1218dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
+<tr class="memitem:aaf6308619697d6b2c21b219bb2a39e1c" id="r_aaf6308619697d6b2c21b219bb2a39e1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf6308619697d6b2c21b219bb2a39e1c">MR_PlanarTriangulation_triangulateDisjointContours_5</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *loops, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *normal, <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *outBoundaries, <a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *outPatchMap)</td></tr>
+<tr class="memdesc:aaf6308619697d6b2c21b219bb2a39e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="ad396cf7d4433c5ba7924776f5b379c9b" name="ad396cf7d4433c5ba7924776f5b379c9b"></a>
@@ -541,6 +543,29 @@ Functions</h2></td></tr>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
     <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;int, MR::FaceId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a50066b58d97b0be73d826cfdcc9eb188" name="a50066b58d97b0be73d826cfdcc9eb188"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50066b58d97b0be73d826cfdcc9eb188">&#9670;&#160;</a></span>MR_WholeEdgeMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> <a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
+    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::WholeEdgeMap</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
   </table>
   </dd>
 </dl>
@@ -2270,14 +2295,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a72c3d206a7e251bc605f19004b1218dd" name="a72c3d206a7e251bc605f19004b1218dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72c3d206a7e251bc605f19004b1218dd">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_4()</h2>
+<a id="aaf6308619697d6b2c21b219bb2a39e1c" name="aaf6308619697d6b2c21b219bb2a39e1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf6308619697d6b2c21b219bb2a39e1c">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_5()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_4 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_5 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -2294,7 +2319,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>outBoundaries</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>outBoundaries</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *</td>          <td class="paramname"><span class="paramname"><em>outPatchMap</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2303,10 +2333,11 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">loops</td><td>one closed EdgeLoop per contour (as produced by trackRightBoundaryLoop on each hole edge) </td></tr>
+    <tr><td class="paramname">outPatchMap</td><td>optional output: for each patch boundary edge (by undirected id) the mesh edge it copies, directed along it; edges past its size are the triangulation's own. Not produced with <code class="param">outBoundaries</code> </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>std::nullopt if the loops self-intersect, otherwise the patch mesh Generated from function <span class="tt">MR::PlanarTriangulation::triangulateDisjointContours</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">loops</span> can not be null. It is a single object. Parameter <span class="tt">normal</span> can not be null. It is a single object. Parameter <span class="tt">outBoundaries</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__Mesh_8h.html#a543c0258d04b6eb7e1cc8ac22d34c3d4" title="Destroys a heap-allocated instance of MR_std_optional_MR_Mesh. Does nothing if the pointer is null.">MR_std_optional_MR_Mesh_Destroy()</a></span> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>std::nullopt if the loops self-intersect, otherwise the patch mesh Generated from function <span class="tt">MR::PlanarTriangulation::triangulateDisjointContours</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">loops</span> can not be null. It is a single object. Parameter <span class="tt">normal</span> can not be null. It is a single object. Parameter <span class="tt">outBoundaries</span> defaults to a null pointer in C++. Parameter <span class="tt">outPatchMap</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__Mesh_8h.html#a543c0258d04b6eb7e1cc8ac22d34c3d4" title="Destroys a heap-allocated instance of MR_std_optional_MR_Mesh. Does nothing if the pointer is null.">MR_std_optional_MR_Mesh_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>

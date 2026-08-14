@@ -11834,7 +11834,7 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_Get_vec_</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -11852,7 +11852,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, MR_PassBy value_pass_by, MR_std_vector_MR_EdgeId *value)</argsstring>
         <name>MR_WholeEdgeMap_Set_vec_</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -11878,7 +11878,7 @@
         <argsstring>(MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_GetMutable_vec_</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -11891,7 +11891,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="3344" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="3344" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a9095ee0b730cba9d4fc1ec62f690b0cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
         <definition>MRC_API MR_WholeEdgeMap * MR_WholeEdgeMap_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_WholeEdgeMap_DefaultConstruct</name>
@@ -11908,7 +11908,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="3348" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="3348" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a7e1d17eb642b83a177bf917491cbbf8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
         <definition>MRC_API MR_WholeEdgeMap * MR_WholeEdgeMap_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_WholeEdgeMap_DefaultConstructArray</name>
@@ -11926,12 +11926,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="3353" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="3353" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a2fdafc64dd299cc65152d86e09eee8d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
         <definition>MRC_API const MR_WholeEdgeMap * MR_WholeEdgeMap_OffsetPtr</definition>
         <argsstring>(const MR_WholeEdgeMap *ptr, ptrdiff_t i)</argsstring>
         <name>MR_WholeEdgeMap_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -11948,12 +11948,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="3357" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="3357" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a7acdcaf74fba90e24b7e5e71713728a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
         <definition>MRC_API MR_WholeEdgeMap * MR_WholeEdgeMap_OffsetMutablePtr</definition>
         <argsstring>(MR_WholeEdgeMap *ptr, ptrdiff_t i)</argsstring>
         <name>MR_WholeEdgeMap_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -11970,7 +11970,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="3361" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="3361" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a04e9594a92bc1e05ad39c3c2f9e67fe1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
         <definition>MRC_API MR_WholeEdgeMap * MR_WholeEdgeMap_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_WholeEdgeMap *_other)</argsstring>
         <name>MR_WholeEdgeMap_ConstructFromAnother</name>
@@ -11979,7 +11979,7 @@
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -11992,7 +11992,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="3366" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="3366" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a74a6b8671fba636105c3494b7d37cd31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
         <definition>MRC_API MR_WholeEdgeMap * MR_WholeEdgeMap_Construct_1_size_t</definition>
         <argsstring>(size_t size)</argsstring>
         <name>MR_WholeEdgeMap_Construct_1_size_t</name>
@@ -12010,7 +12010,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="3372" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="3372" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a5fc54b0067464e221c86996717b5852c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
         <definition>MRC_API MR_WholeEdgeMap * MR_WholeEdgeMap_Construct_2</definition>
         <argsstring>(size_t size, const MR_EdgeId *val)</argsstring>
         <name>MR_WholeEdgeMap_Construct_2</name>
@@ -12032,7 +12032,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="3380" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="3380" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a02d8b598bd7e242f55c4dd35e32d5585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
         <definition>MRC_API MR_WholeEdgeMap * MR_WholeEdgeMap_Construct_1_std_vector_MR_EdgeId</definition>
         <argsstring>(MR_std_vector_MR_EdgeId *vec)</argsstring>
         <name>MR_WholeEdgeMap_Construct_1_std_vector_MR_EdgeId</name>
@@ -12055,11 +12055,11 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_Destroy</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -12073,11 +12073,11 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -12086,12 +12086,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="3395" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="3395" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1aedac16717b900abdc7d62244b904852d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
         <definition>MRC_API MR_WholeEdgeMap * MR_WholeEdgeMap_AssignFromAnother</definition>
         <argsstring>(MR_WholeEdgeMap *_this, MR_PassBy _other_pass_by, MR_WholeEdgeMap *_other)</argsstring>
         <name>MR_WholeEdgeMap_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12099,7 +12099,7 @@
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -12117,11 +12117,11 @@
         <argsstring>(const MR_WholeEdgeMap *_this, const MR_WholeEdgeMap *b)</argsstring>
         <name>MR_equal_MR_WholeEdgeMap</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -12139,11 +12139,11 @@
         <argsstring>(const MR_WholeEdgeMap *_this, const MR_WholeEdgeMap *b)</argsstring>
         <name>MR_not_equal_MR_WholeEdgeMap</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -12161,7 +12161,7 @@
         <argsstring>(MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_clear</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12179,7 +12179,7 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_empty</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12197,7 +12197,7 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_size</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12215,7 +12215,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, size_t newSize)</argsstring>
         <name>MR_WholeEdgeMap_resize_1</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12237,7 +12237,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, size_t newSize, const MR_EdgeId *t)</argsstring>
         <name>MR_WholeEdgeMap_resize_2</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12263,7 +12263,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, size_t targetSize)</argsstring>
         <name>MR_WholeEdgeMap_resizeNoInit</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12285,7 +12285,7 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_capacity</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12303,7 +12303,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, size_t capacity)</argsstring>
         <name>MR_WholeEdgeMap_reserve</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12325,7 +12325,7 @@
         <argsstring>(const MR_WholeEdgeMap *_this, MR_UndirectedEdgeId i)</argsstring>
         <name>MR_WholeEdgeMap_index</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12347,7 +12347,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, MR_UndirectedEdgeId i)</argsstring>
         <name>MR_WholeEdgeMap_index_mut</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12369,7 +12369,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, size_t newSize)</argsstring>
         <name>MR_WholeEdgeMap_resizeWithReserve_1</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12391,7 +12391,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, size_t newSize, const MR_EdgeId *value)</argsstring>
         <name>MR_WholeEdgeMap_resizeWithReserve_2</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12417,7 +12417,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, MR_UndirectedEdgeId pos, size_t len, MR_EdgeId val)</argsstring>
         <name>MR_WholeEdgeMap_autoResizeSet_3</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12447,7 +12447,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, MR_UndirectedEdgeId i, MR_EdgeId val)</argsstring>
         <name>MR_WholeEdgeMap_autoResizeSet_2</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12473,7 +12473,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, MR_UndirectedEdgeId i)</argsstring>
         <name>MR_WholeEdgeMap_autoResizeAt</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12495,7 +12495,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, const MR_EdgeId *t)</argsstring>
         <name>MR_WholeEdgeMap_push_back_const_MR_EdgeId_ref</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12517,7 +12517,7 @@
         <argsstring>(MR_WholeEdgeMap *_this, MR_EdgeId *t)</argsstring>
         <name>MR_WholeEdgeMap_push_back_MR_EdgeId_rvalue_ref</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -12539,7 +12539,7 @@
         <argsstring>(MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_pop_back</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12557,7 +12557,7 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_front</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12575,7 +12575,7 @@
         <argsstring>(MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_front_mut</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12593,7 +12593,7 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_back</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12611,7 +12611,7 @@
         <argsstring>(MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_back_mut</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12629,7 +12629,7 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_beginId</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12647,7 +12647,7 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_backId</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12665,7 +12665,7 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_endId</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12683,7 +12683,7 @@
         <argsstring>(MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_data_mut</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12701,7 +12701,7 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_data</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12719,11 +12719,11 @@
         <argsstring>(MR_WholeEdgeMap *_this, MR_WholeEdgeMap *b)</argsstring>
         <name>MR_WholeEdgeMap_swap</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -12741,7 +12741,7 @@
         <argsstring>(const MR_WholeEdgeMap *_this)</argsstring>
         <name>MR_WholeEdgeMap_heapBytes</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -12759,7 +12759,7 @@
         <argsstring>(const MR_WholeEdgeMap *a)</argsstring>
         <name>MR_begin_const_MR_WholeEdgeMap_ref</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -12777,7 +12777,7 @@
         <argsstring>(MR_WholeEdgeMap *a)</argsstring>
         <name>MR_begin_MR_WholeEdgeMap_ref</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -12795,7 +12795,7 @@
         <argsstring>(const MR_WholeEdgeMap *a)</argsstring>
         <name>MR_end_const_MR_WholeEdgeMap_ref</name>
         <param>
-          <type>const <ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -12813,7 +12813,7 @@
         <argsstring>(MR_WholeEdgeMap *a)</argsstring>
         <name>MR_end_MR_WholeEdgeMap_ref</name>
         <param>
-          <type><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
+          <type><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref> *</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -77321,7 +77321,7 @@
 <codeline lineno="296"><highlight class="normal"></highlight></codeline>
 <codeline lineno="305"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a7196dee7acb1c489cfe2b9746631dc5c" kindref="member">MR_ObjMap</ref><sp/><ref refid="MRBitSet_8h_1a7196dee7acb1c489cfe2b9746631dc5c" kindref="member">MR_ObjMap</ref>;</highlight></codeline>
 <codeline lineno="306"><highlight class="normal"></highlight></codeline>
-<codeline lineno="315"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref>;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref>;</highlight></codeline>
 <codeline lineno="316"><highlight class="normal"></highlight></codeline>
 <codeline lineno="325" refid="MRVector_8h_1a5a000dd596f02bf88ef55b5d071d244c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a5a000dd596f02bf88ef55b5d071d244c" kindref="member">MR_UndirectedEdge2RegionMap</ref><sp/><ref refid="MRVector_8h_1a5a000dd596f02bf88ef55b5d071d244c" kindref="member">MR_UndirectedEdge2RegionMap</ref>;</highlight></codeline>
 <codeline lineno="326"><highlight class="normal"></highlight></codeline>
@@ -78330,104 +78330,104 @@
 <codeline lineno="3318"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3323" refid="MRVector_8h_1ac151460d1674d6c614fced85c6c2b6ad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a34387f339fc8de966582288419a799f0" kindref="member">MR_std_vector_MR_ObjId_iterator</ref><sp/>*<ref refid="MRVector_8h_1ac151460d1674d6c614fced85c6c2b6ad" kindref="member">MR_end_MR_ObjMap_ref</ref>(<ref refid="MRBitSet_8h_1a7196dee7acb1c489cfe2b9746631dc5c" kindref="member">MR_ObjMap</ref><sp/>*a);</highlight></codeline>
 <codeline lineno="3324"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3330" refid="MRVector_8h_1acb7df5917f67bb7a1eec91bcc84e0d78" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1acb7df5917f67bb7a1eec91bcc84e0d78" kindref="member">MR_WholeEdgeMap_Get_vec_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3330" refid="MRVector_8h_1acb7df5917f67bb7a1eec91bcc84e0d78" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1acb7df5917f67bb7a1eec91bcc84e0d78" kindref="member">MR_WholeEdgeMap_Get_vec_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3331"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3337" refid="MRVector_8h_1ab7b17721704d92d3362eea9635a715c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab7b17721704d92d3362eea9635a715c7" kindref="member">MR_WholeEdgeMap_Set_vec_</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="3337" refid="MRVector_8h_1ab7b17721704d92d3362eea9635a715c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab7b17721704d92d3362eea9635a715c7" kindref="member">MR_WholeEdgeMap_Set_vec_</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="3338"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3344" refid="MRVector_8h_1a9f4caec75a83b0363c46f0d4c7413476" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1a9f4caec75a83b0363c46f0d4c7413476" kindref="member">MR_WholeEdgeMap_GetMutable_vec_</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3344" refid="MRVector_8h_1a9f4caec75a83b0363c46f0d4c7413476" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1a9f4caec75a83b0363c46f0d4c7413476" kindref="member">MR_WholeEdgeMap_GetMutable_vec_</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3345"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3348" refid="MRVector_8h_1a9095ee0b730cba9d4fc1ec62f690b0cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a9095ee0b730cba9d4fc1ec62f690b0cc" kindref="member">MR_WholeEdgeMap_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="3348" refid="MRVector_8h_1a9095ee0b730cba9d4fc1ec62f690b0cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a9095ee0b730cba9d4fc1ec62f690b0cc" kindref="member">MR_WholeEdgeMap_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="3349"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3353" refid="MRVector_8h_1a7e1d17eb642b83a177bf917491cbbf8d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a7e1d17eb642b83a177bf917491cbbf8d" kindref="member">MR_WholeEdgeMap_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="3353" refid="MRVector_8h_1a7e1d17eb642b83a177bf917491cbbf8d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a7e1d17eb642b83a177bf917491cbbf8d" kindref="member">MR_WholeEdgeMap_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="3354"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3357" refid="MRVector_8h_1a2fdafc64dd299cc65152d86e09eee8d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a2fdafc64dd299cc65152d86e09eee8d8" kindref="member">MR_WholeEdgeMap_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="3357" refid="MRVector_8h_1a2fdafc64dd299cc65152d86e09eee8d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a2fdafc64dd299cc65152d86e09eee8d8" kindref="member">MR_WholeEdgeMap_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="3358"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3361" refid="MRVector_8h_1a7acdcaf74fba90e24b7e5e71713728a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a7acdcaf74fba90e24b7e5e71713728a3" kindref="member">MR_WholeEdgeMap_OffsetMutablePtr</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="3361" refid="MRVector_8h_1a7acdcaf74fba90e24b7e5e71713728a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a7acdcaf74fba90e24b7e5e71713728a3" kindref="member">MR_WholeEdgeMap_OffsetMutablePtr</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="3362"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3366" refid="MRVector_8h_1a04e9594a92bc1e05ad39c3c2f9e67fe1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a04e9594a92bc1e05ad39c3c2f9e67fe1" kindref="member">MR_WholeEdgeMap_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="3366" refid="MRVector_8h_1a04e9594a92bc1e05ad39c3c2f9e67fe1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a04e9594a92bc1e05ad39c3c2f9e67fe1" kindref="member">MR_WholeEdgeMap_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="3367"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3372" refid="MRVector_8h_1a74a6b8671fba636105c3494b7d37cd31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a74a6b8671fba636105c3494b7d37cd31" kindref="member">MR_WholeEdgeMap_Construct_1_size_t</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="3372" refid="MRVector_8h_1a74a6b8671fba636105c3494b7d37cd31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a74a6b8671fba636105c3494b7d37cd31" kindref="member">MR_WholeEdgeMap_Construct_1_size_t</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
 <codeline lineno="3373"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3380" refid="MRVector_8h_1a5fc54b0067464e221c86996717b5852c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a5fc54b0067464e221c86996717b5852c" kindref="member">MR_WholeEdgeMap_Construct_2</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*val);</highlight></codeline>
+<codeline lineno="3380" refid="MRVector_8h_1a5fc54b0067464e221c86996717b5852c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a5fc54b0067464e221c86996717b5852c" kindref="member">MR_WholeEdgeMap_Construct_2</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*val);</highlight></codeline>
 <codeline lineno="3381"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3389" refid="MRVector_8h_1a02d8b598bd7e242f55c4dd35e32d5585" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a02d8b598bd7e242f55c4dd35e32d5585" kindref="member">MR_WholeEdgeMap_Construct_1_std_vector_MR_EdgeId</ref>(<ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*vec);</highlight></codeline>
+<codeline lineno="3389" refid="MRVector_8h_1a02d8b598bd7e242f55c4dd35e32d5585" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1a02d8b598bd7e242f55c4dd35e32d5585" kindref="member">MR_WholeEdgeMap_Construct_1_std_vector_MR_EdgeId</ref>(<ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*vec);</highlight></codeline>
 <codeline lineno="3390"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3392" refid="MRVector_8h_1a76d8922bb46691d85f968f735088887c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a76d8922bb46691d85f968f735088887c" kindref="member">MR_WholeEdgeMap_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3392" refid="MRVector_8h_1a76d8922bb46691d85f968f735088887c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a76d8922bb46691d85f968f735088887c" kindref="member">MR_WholeEdgeMap_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3393"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3395" refid="MRVector_8h_1af243782c35a3abff0a1d6993ad246c56" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af243782c35a3abff0a1d6993ad246c56" kindref="member">MR_WholeEdgeMap_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3395" refid="MRVector_8h_1af243782c35a3abff0a1d6993ad246c56" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af243782c35a3abff0a1d6993ad246c56" kindref="member">MR_WholeEdgeMap_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3396"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3402" refid="MRVector_8h_1aedac16717b900abdc7d62244b904852d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1aedac16717b900abdc7d62244b904852d" kindref="member">MR_WholeEdgeMap_AssignFromAnother</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="3402" refid="MRVector_8h_1aedac16717b900abdc7d62244b904852d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*<ref refid="MRVector_8h_1aedac16717b900abdc7d62244b904852d" kindref="member">MR_WholeEdgeMap_AssignFromAnother</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="3403"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3407" refid="MRVector_8h_1a492ac2d65756510eda328f4aaaa566fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a492ac2d65756510eda328f4aaaa566fd" kindref="member">MR_equal_MR_WholeEdgeMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="3407" refid="MRVector_8h_1a492ac2d65756510eda328f4aaaa566fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a492ac2d65756510eda328f4aaaa566fd" kindref="member">MR_equal_MR_WholeEdgeMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="3408"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3412" refid="MRVector_8h_1ae68137e2c3ff58eb972634c52ffc489a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae68137e2c3ff58eb972634c52ffc489a" kindref="member">MR_not_equal_MR_WholeEdgeMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="3412" refid="MRVector_8h_1ae68137e2c3ff58eb972634c52ffc489a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae68137e2c3ff58eb972634c52ffc489a" kindref="member">MR_not_equal_MR_WholeEdgeMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="3413"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3416" refid="MRVector_8h_1ad24dce77beaf524e8549453fd6ab21ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad24dce77beaf524e8549453fd6ab21ec" kindref="member">MR_WholeEdgeMap_clear</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3416" refid="MRVector_8h_1ad24dce77beaf524e8549453fd6ab21ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad24dce77beaf524e8549453fd6ab21ec" kindref="member">MR_WholeEdgeMap_clear</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3417"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3420" refid="MRVector_8h_1ac602353deddd653ef1fd0f98173fd30a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ac602353deddd653ef1fd0f98173fd30a" kindref="member">MR_WholeEdgeMap_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3420" refid="MRVector_8h_1ac602353deddd653ef1fd0f98173fd30a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ac602353deddd653ef1fd0f98173fd30a" kindref="member">MR_WholeEdgeMap_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3421"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3424" refid="MRVector_8h_1a01767b9a3344194f1199a7c47aedf7f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a01767b9a3344194f1199a7c47aedf7f8" kindref="member">MR_WholeEdgeMap_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3424" refid="MRVector_8h_1a01767b9a3344194f1199a7c47aedf7f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a01767b9a3344194f1199a7c47aedf7f8" kindref="member">MR_WholeEdgeMap_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3425"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3428" refid="MRVector_8h_1a6a17b407f7bc8c884e911315df444201" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6a17b407f7bc8c884e911315df444201" kindref="member">MR_WholeEdgeMap_resize_1</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize);</highlight></codeline>
+<codeline lineno="3428" refid="MRVector_8h_1a6a17b407f7bc8c884e911315df444201" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6a17b407f7bc8c884e911315df444201" kindref="member">MR_WholeEdgeMap_resize_1</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize);</highlight></codeline>
 <codeline lineno="3429"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3433" refid="MRVector_8h_1afd1c2fe3e0aa9cfb4f5537fb748b6b13" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1afd1c2fe3e0aa9cfb4f5537fb748b6b13" kindref="member">MR_WholeEdgeMap_resize_2</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="3433" refid="MRVector_8h_1afd1c2fe3e0aa9cfb4f5537fb748b6b13" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1afd1c2fe3e0aa9cfb4f5537fb748b6b13" kindref="member">MR_WholeEdgeMap_resize_2</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*t);</highlight></codeline>
 <codeline lineno="3434"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3435"><highlight class="normal"></highlight><highlight class="comment">//<sp/>resizes<sp/>the<sp/>vector<sp/>skipping<sp/>initialization<sp/>of<sp/>its<sp/>elements<sp/>(more<sp/>precisely<sp/>initializing<sp/>them<sp/>using<sp/>(<sp/>noInit<sp/>)<sp/>constructor<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3438" refid="MRVector_8h_1acfa959945df44ebd5f02c196182a94dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1acfa959945df44ebd5f02c196182a94dd" kindref="member">MR_WholeEdgeMap_resizeNoInit</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>targetSize);</highlight></codeline>
+<codeline lineno="3438" refid="MRVector_8h_1acfa959945df44ebd5f02c196182a94dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1acfa959945df44ebd5f02c196182a94dd" kindref="member">MR_WholeEdgeMap_resizeNoInit</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>targetSize);</highlight></codeline>
 <codeline lineno="3439"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3442" refid="MRVector_8h_1a5b257588449e869025ab965eb0fb86d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5b257588449e869025ab965eb0fb86d0" kindref="member">MR_WholeEdgeMap_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3442" refid="MRVector_8h_1a5b257588449e869025ab965eb0fb86d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5b257588449e869025ab965eb0fb86d0" kindref="member">MR_WholeEdgeMap_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3443"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3446" refid="MRVector_8h_1a90a365043e2448a1a50d445532adbf0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a90a365043e2448a1a50d445532adbf0b" kindref="member">MR_WholeEdgeMap_reserve</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>capacity);</highlight></codeline>
+<codeline lineno="3446" refid="MRVector_8h_1a90a365043e2448a1a50d445532adbf0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a90a365043e2448a1a50d445532adbf0b" kindref="member">MR_WholeEdgeMap_reserve</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>capacity);</highlight></codeline>
 <codeline lineno="3447"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3452" refid="MRVector_8h_1a6028720d0d75a8addf87083788bd6a71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1a6028720d0d75a8addf87083788bd6a71" kindref="member">MR_WholeEdgeMap_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>i);</highlight></codeline>
+<codeline lineno="3452" refid="MRVector_8h_1a6028720d0d75a8addf87083788bd6a71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1a6028720d0d75a8addf87083788bd6a71" kindref="member">MR_WholeEdgeMap_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>i);</highlight></codeline>
 <codeline lineno="3453"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3458" refid="MRVector_8h_1ab7702c18aed8de9ed265030c74f49c15" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1ab7702c18aed8de9ed265030c74f49c15" kindref="member">MR_WholeEdgeMap_index_mut</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>i);</highlight></codeline>
+<codeline lineno="3458" refid="MRVector_8h_1ab7702c18aed8de9ed265030c74f49c15" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1ab7702c18aed8de9ed265030c74f49c15" kindref="member">MR_WholeEdgeMap_index_mut</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>i);</highlight></codeline>
 <codeline lineno="3459"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3463" refid="MRVector_8h_1a8b1bee727e883aede24dc83a0e2dcb87" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a8b1bee727e883aede24dc83a0e2dcb87" kindref="member">MR_WholeEdgeMap_resizeWithReserve_1</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize);</highlight></codeline>
+<codeline lineno="3463" refid="MRVector_8h_1a8b1bee727e883aede24dc83a0e2dcb87" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a8b1bee727e883aede24dc83a0e2dcb87" kindref="member">MR_WholeEdgeMap_resizeWithReserve_1</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize);</highlight></codeline>
 <codeline lineno="3464"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3469" refid="MRVector_8h_1a8273525b67b1df4fa3884383390c2c40" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a8273525b67b1df4fa3884383390c2c40" kindref="member">MR_WholeEdgeMap_resizeWithReserve_2</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="3469" refid="MRVector_8h_1a8273525b67b1df4fa3884383390c2c40" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a8273525b67b1df4fa3884383390c2c40" kindref="member">MR_WholeEdgeMap_resizeWithReserve_2</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="3470"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3475" refid="MRVector_8h_1af14dc593aee9b132ea0e4d03ca6947d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af14dc593aee9b132ea0e4d03ca6947d3" kindref="member">MR_WholeEdgeMap_autoResizeSet_3</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>pos,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>val);</highlight></codeline>
+<codeline lineno="3475" refid="MRVector_8h_1af14dc593aee9b132ea0e4d03ca6947d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af14dc593aee9b132ea0e4d03ca6947d3" kindref="member">MR_WholeEdgeMap_autoResizeSet_3</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>pos,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>val);</highlight></codeline>
 <codeline lineno="3476"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3480" refid="MRVector_8h_1a09b9721beb9b4397640062a5c6038e10" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a09b9721beb9b4397640062a5c6038e10" kindref="member">MR_WholeEdgeMap_autoResizeSet_2</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>i,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>val);</highlight></codeline>
+<codeline lineno="3480" refid="MRVector_8h_1a09b9721beb9b4397640062a5c6038e10" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a09b9721beb9b4397640062a5c6038e10" kindref="member">MR_WholeEdgeMap_autoResizeSet_2</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>i,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>val);</highlight></codeline>
 <codeline lineno="3481"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3486" refid="MRVector_8h_1a61ba4e4290e7113b96ed0439b945e536" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1a61ba4e4290e7113b96ed0439b945e536" kindref="member">MR_WholeEdgeMap_autoResizeAt</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>i);</highlight></codeline>
+<codeline lineno="3486" refid="MRVector_8h_1a61ba4e4290e7113b96ed0439b945e536" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1a61ba4e4290e7113b96ed0439b945e536" kindref="member">MR_WholeEdgeMap_autoResizeAt</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>i);</highlight></codeline>
 <codeline lineno="3487"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3492" refid="MRVector_8h_1a5f231e685549e376d5c69c36f746d775" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5f231e685549e376d5c69c36f746d775" kindref="member">MR_WholeEdgeMap_push_back_const_MR_EdgeId_ref</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="3492" refid="MRVector_8h_1a5f231e685549e376d5c69c36f746d775" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5f231e685549e376d5c69c36f746d775" kindref="member">MR_WholeEdgeMap_push_back_const_MR_EdgeId_ref</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*t);</highlight></codeline>
 <codeline lineno="3493"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3500" refid="MRVector_8h_1a1cec9564fccb31f92e55b9500db0be38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1cec9564fccb31f92e55b9500db0be38" kindref="member">MR_WholeEdgeMap_push_back_MR_EdgeId_rvalue_ref</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="3500" refid="MRVector_8h_1a1cec9564fccb31f92e55b9500db0be38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1cec9564fccb31f92e55b9500db0be38" kindref="member">MR_WholeEdgeMap_push_back_MR_EdgeId_rvalue_ref</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*t);</highlight></codeline>
 <codeline lineno="3501"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3504" refid="MRVector_8h_1a6137677b1b8dd159e63cd4a7df1f042f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6137677b1b8dd159e63cd4a7df1f042f" kindref="member">MR_WholeEdgeMap_pop_back</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3504" refid="MRVector_8h_1a6137677b1b8dd159e63cd4a7df1f042f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a6137677b1b8dd159e63cd4a7df1f042f" kindref="member">MR_WholeEdgeMap_pop_back</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3505"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3510" refid="MRVector_8h_1a47fe01b8b032f42fdc8cfb22c0db9ecb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1a47fe01b8b032f42fdc8cfb22c0db9ecb" kindref="member">MR_WholeEdgeMap_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3510" refid="MRVector_8h_1a47fe01b8b032f42fdc8cfb22c0db9ecb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1a47fe01b8b032f42fdc8cfb22c0db9ecb" kindref="member">MR_WholeEdgeMap_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3511"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3516" refid="MRVector_8h_1a2f73014f66bae4dd9ecc9a7579f4992f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1a2f73014f66bae4dd9ecc9a7579f4992f" kindref="member">MR_WholeEdgeMap_front_mut</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3516" refid="MRVector_8h_1a2f73014f66bae4dd9ecc9a7579f4992f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1a2f73014f66bae4dd9ecc9a7579f4992f" kindref="member">MR_WholeEdgeMap_front_mut</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3517"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3522" refid="MRVector_8h_1adf3048a2942cb5b12ad61f37a04a42a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1adf3048a2942cb5b12ad61f37a04a42a5" kindref="member">MR_WholeEdgeMap_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3522" refid="MRVector_8h_1adf3048a2942cb5b12ad61f37a04a42a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1adf3048a2942cb5b12ad61f37a04a42a5" kindref="member">MR_WholeEdgeMap_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3523"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3528" refid="MRVector_8h_1a4df7ca592b717c41520c9b05a2b983b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1a4df7ca592b717c41520c9b05a2b983b7" kindref="member">MR_WholeEdgeMap_back_mut</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3528" refid="MRVector_8h_1a4df7ca592b717c41520c9b05a2b983b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1a4df7ca592b717c41520c9b05a2b983b7" kindref="member">MR_WholeEdgeMap_back_mut</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3529"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3533" refid="MRVector_8h_1ac9f3031c19c6b97b61cf1cc9e33a4d50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRVector_8h_1ac9f3031c19c6b97b61cf1cc9e33a4d50" kindref="member">MR_WholeEdgeMap_beginId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3533" refid="MRVector_8h_1ac9f3031c19c6b97b61cf1cc9e33a4d50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRVector_8h_1ac9f3031c19c6b97b61cf1cc9e33a4d50" kindref="member">MR_WholeEdgeMap_beginId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3534"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3538" refid="MRVector_8h_1af1558b3d91da04c64f1004bbfde0033f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRVector_8h_1af1558b3d91da04c64f1004bbfde0033f" kindref="member">MR_WholeEdgeMap_backId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3538" refid="MRVector_8h_1af1558b3d91da04c64f1004bbfde0033f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRVector_8h_1af1558b3d91da04c64f1004bbfde0033f" kindref="member">MR_WholeEdgeMap_backId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3539"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3543" refid="MRVector_8h_1a85ef20e294f5dc4b0e6561b47c6f35b4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRVector_8h_1a85ef20e294f5dc4b0e6561b47c6f35b4" kindref="member">MR_WholeEdgeMap_endId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3543" refid="MRVector_8h_1a85ef20e294f5dc4b0e6561b47c6f35b4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRVector_8h_1a85ef20e294f5dc4b0e6561b47c6f35b4" kindref="member">MR_WholeEdgeMap_endId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3544"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3548" refid="MRVector_8h_1af5fe828fa121ffc38998274419fcd6b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1af5fe828fa121ffc38998274419fcd6b3" kindref="member">MR_WholeEdgeMap_data_mut</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3548" refid="MRVector_8h_1af5fe828fa121ffc38998274419fcd6b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1af5fe828fa121ffc38998274419fcd6b3" kindref="member">MR_WholeEdgeMap_data_mut</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3549"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3553" refid="MRVector_8h_1adea759a240ddc194e642ef5d2163afbf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1adea759a240ddc194e642ef5d2163afbf" kindref="member">MR_WholeEdgeMap_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3553" refid="MRVector_8h_1adea759a240ddc194e642ef5d2163afbf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRVector_8h_1adea759a240ddc194e642ef5d2163afbf" kindref="member">MR_WholeEdgeMap_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3554"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3558" refid="MRVector_8h_1a7935867cf52b0f4fd83f5549e2c95368" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a7935867cf52b0f4fd83f5549e2c95368" kindref="member">MR_WholeEdgeMap_swap</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="3558" refid="MRVector_8h_1a7935867cf52b0f4fd83f5549e2c95368" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a7935867cf52b0f4fd83f5549e2c95368" kindref="member">MR_WholeEdgeMap_swap</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this,<sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="3559"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3563" refid="MRVector_8h_1ad7e9da9d36bb997884c4ccf9de822264" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad7e9da9d36bb997884c4ccf9de822264" kindref="member">MR_WholeEdgeMap_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="3563" refid="MRVector_8h_1ad7e9da9d36bb997884c4ccf9de822264" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad7e9da9d36bb997884c4ccf9de822264" kindref="member">MR_WholeEdgeMap_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3564"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3569" refid="MRVector_8h_1a857803f7f83c7c3b748187ecad7f3fcb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a24ea19bfe24907a711a614ca329b05f5" kindref="member">MR_std_vector_MR_EdgeId_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1a857803f7f83c7c3b748187ecad7f3fcb" kindref="member">MR_begin_const_MR_WholeEdgeMap_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*a);</highlight></codeline>
+<codeline lineno="3569" refid="MRVector_8h_1a857803f7f83c7c3b748187ecad7f3fcb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a24ea19bfe24907a711a614ca329b05f5" kindref="member">MR_std_vector_MR_EdgeId_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1a857803f7f83c7c3b748187ecad7f3fcb" kindref="member">MR_begin_const_MR_WholeEdgeMap_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*a);</highlight></codeline>
 <codeline lineno="3570"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3575" refid="MRVector_8h_1a39fe680484f9809b64600263f9598040" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a384723ce8cea636ac4bf3318c06f34bd" kindref="member">MR_std_vector_MR_EdgeId_iterator</ref><sp/>*<ref refid="MRVector_8h_1a39fe680484f9809b64600263f9598040" kindref="member">MR_begin_MR_WholeEdgeMap_ref</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*a);</highlight></codeline>
+<codeline lineno="3575" refid="MRVector_8h_1a39fe680484f9809b64600263f9598040" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a384723ce8cea636ac4bf3318c06f34bd" kindref="member">MR_std_vector_MR_EdgeId_iterator</ref><sp/>*<ref refid="MRVector_8h_1a39fe680484f9809b64600263f9598040" kindref="member">MR_begin_MR_WholeEdgeMap_ref</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*a);</highlight></codeline>
 <codeline lineno="3576"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3581" refid="MRVector_8h_1a220cdc314205cf50677dad8e59777a9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a24ea19bfe24907a711a614ca329b05f5" kindref="member">MR_std_vector_MR_EdgeId_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1a220cdc314205cf50677dad8e59777a9b" kindref="member">MR_end_const_MR_WholeEdgeMap_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*a);</highlight></codeline>
+<codeline lineno="3581" refid="MRVector_8h_1a220cdc314205cf50677dad8e59777a9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a24ea19bfe24907a711a614ca329b05f5" kindref="member">MR_std_vector_MR_EdgeId_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1a220cdc314205cf50677dad8e59777a9b" kindref="member">MR_end_const_MR_WholeEdgeMap_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*a);</highlight></codeline>
 <codeline lineno="3582"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3587" refid="MRVector_8h_1a212c81fa8c8fccd9403b10893f1b108d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a384723ce8cea636ac4bf3318c06f34bd" kindref="member">MR_std_vector_MR_EdgeId_iterator</ref><sp/>*<ref refid="MRVector_8h_1a212c81fa8c8fccd9403b10893f1b108d" kindref="member">MR_end_MR_WholeEdgeMap_ref</ref>(<ref refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*a);</highlight></codeline>
+<codeline lineno="3587" refid="MRVector_8h_1a212c81fa8c8fccd9403b10893f1b108d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a384723ce8cea636ac4bf3318c06f34bd" kindref="member">MR_std_vector_MR_EdgeId_iterator</ref><sp/>*<ref refid="MRVector_8h_1a212c81fa8c8fccd9403b10893f1b108d" kindref="member">MR_end_MR_WholeEdgeMap_ref</ref>(<ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*a);</highlight></codeline>
 <codeline lineno="3588"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3594" refid="MRVector_8h_1a01c07a025c5ce319bff80736fe11af8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab9a76dbcd803232d731764640e0c7897" kindref="member">MR_std_vector_MR_RegionId</ref><sp/>*<ref refid="MRVector_8h_1a01c07a025c5ce319bff80736fe11af8f" kindref="member">MR_UndirectedEdge2RegionMap_Get_vec_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5a000dd596f02bf88ef55b5d071d244c" kindref="member">MR_UndirectedEdge2RegionMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="3595"><highlight class="normal"></highlight></codeline>

@@ -3444,8 +3444,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga17f7cb83e4239ac01ef1569adbbaab75" id="r_ga17f7cb83e4239ac01ef1569adbbaab75"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga17f7cb83e4239ac01ef1569adbbaab75">MR::PlanarTriangulation::triangulateDisjointContours</a> (const <a class="el" href="#ga4bcf38e9e8de19979ccfe5e3eab1967b">Contours2d</a> &amp;contours, const <a class="el" href="#ga0515df1bf2b2920651b9617e6b1493f9">HolesVertIds</a> *holeVertsIds=nullptr, std::vector&lt; <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; *outBoundaries=nullptr)</td></tr>
 <tr class="memdesc:ga17f7cb83e4239ac01ef1569adbbaab75"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
 <tr class="memitem:ga74f8e57086cff7d504ab8c4f345cca3a" id="r_ga74f8e57086cff7d504ab8c4f345cca3a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga74f8e57086cff7d504ab8c4f345cca3a">MR::PlanarTriangulation::triangulateDisjointContours</a> (const <a class="el" href="#ga8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, const <a class="el" href="#ga0515df1bf2b2920651b9617e6b1493f9">HolesVertIds</a> *holeVertsIds=nullptr, std::vector&lt; <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; *outBoundaries=nullptr)</td></tr>
-<tr class="memitem:ga5dcd301c1e4d3273f4da96ffd2b5656d" id="r_ga5dcd301c1e4d3273f4da96ffd2b5656d"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5dcd301c1e4d3273f4da96ffd2b5656d">MR::PlanarTriangulation::triangulateDisjointContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, std::vector&lt; <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; *outBoundaries=nullptr)</td></tr>
-<tr class="memdesc:ga5dcd301c1e4d3273f4da96ffd2b5656d"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
+<tr class="memitem:ga887c0dfeca07a1585372ecaf334bd806" id="r_ga887c0dfeca07a1585372ecaf334bd806"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga887c0dfeca07a1585372ecaf334bd806">MR::PlanarTriangulation::triangulateDisjointContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, std::vector&lt; <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; *outBoundaries=nullptr, WholeEdgeMap *outPatchMap=nullptr)</td></tr>
+<tr class="memdesc:ga887c0dfeca07a1585372ecaf334bd806"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
 <tr class="memitem:ga58f8dd538965bde14c46c2ed60aac1f9" id="r_ga58f8dd538965bde14c46c2ed60aac1f9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga7a0335fa16114969e7f5e031192bf45b">NodeVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga58f8dd538965bde14c46c2ed60aac1f9">MR::AABBTreeBase&lt; T &gt;::nodes</a> () const</td></tr>
 <tr class="memdesc:ga58f8dd538965bde14c46c2ed60aac1f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to all nodes  <br /></td></tr>
 <tr class="memitem:gac94f623e90a49fd07aeb61722ab8e7f1" id="r_gac94f623e90a49fd07aeb61722ab8e7f1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga4a87e995071aa1a99752d3f3f32a72b3">Node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac94f623e90a49fd07aeb61722ab8e7f1">MR::AABBTreeBase&lt; T &gt;::operator[]</a> (NodeId nid) const</td></tr>
@@ -186087,8 +186087,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga5dcd301c1e4d3273f4da96ffd2b5656d" name="ga5dcd301c1e4d3273f4da96ffd2b5656d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5dcd301c1e4d3273f4da96ffd2b5656d">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[3/3]</span></h2>
+<a id="ga887c0dfeca07a1585372ecaf334bd806" name="ga887c0dfeca07a1585372ecaf334bd806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga887c0dfeca07a1585372ecaf334bd806">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186111,7 +186111,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; *</td>          <td class="paramname"><span class="paramname"><em>outBoundaries</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; *</td>          <td class="paramname"><span class="paramname"><em>outBoundaries</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">WholeEdgeMap *</td>          <td class="paramname"><span class="paramname"><em>outPatchMap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -186122,6 +186127,7 @@ template&lt;typename T&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">loops</td><td>one closed <a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> per contour (as produced by trackRightBoundaryLoop on each hole edge) </td></tr>
+    <tr><td class="paramname">outPatchMap</td><td>optional output: for each patch boundary edge (by undirected id) the mesh edge it copies, directed along it; edges past its size are the triangulation's own. Not produced with <code class="param">outBoundaries</code> </td></tr>
   </table>
   </dd>
 </dl>

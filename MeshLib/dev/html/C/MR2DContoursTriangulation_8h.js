@@ -16,6 +16,7 @@ var MR2DContoursTriangulation_8h =
     [ "MR_std_vector_std_vector_MR_VertId", "MR2DContoursTriangulation_8h.html#abdbe8ace605f6572986fd0d93bdced2a", null ],
     [ "MR_Vector3f", "MR2DContoursTriangulation_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_Vector_int_MR_FaceId", "MR2DContoursTriangulation_8h.html#a4cecbe6d6abe0a304f00ea1990538db2", null ],
+    [ "MR_WholeEdgeMap", "MR2DContoursTriangulation_8h.html#a50066b58d97b0be73d826cfdcc9eb188", null ],
     [ "MR_PlanarTriangulation_WindingMode", "MR2DContoursTriangulation_8h.html#a4804b01a720e7d9caac26d9ba0ddd66e", [
       [ "MR_PlanarTriangulation_WindingMode_NonZero", "MR2DContoursTriangulation_8h.html#a4804b01a720e7d9caac26d9ba0ddd66ea6295a3a744ce1b064617ed194dedee3b", null ],
       [ "MR_PlanarTriangulation_WindingMode_Positive", "MR2DContoursTriangulation_8h.html#a4804b01a720e7d9caac26d9ba0ddd66ea62cae5941c67cf355977ebe02be3534c", null ],
@@ -103,7 +104,7 @@ var MR2DContoursTriangulation_8h =
     [ "MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2f", "MR2DContoursTriangulation_8h.html#ae50a0bbb7b2b7be040819f554cf7d2a8", null ],
     [ "MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2d", "MR2DContoursTriangulation_8h.html#abd7baa84c10074b7e3a8f9814a121fd6", null ],
     [ "MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2f", "MR2DContoursTriangulation_8h.html#a1164161e75e19d0a3dd855e970d7a766", null ],
-    [ "MR_PlanarTriangulation_triangulateDisjointContours_4", "MR2DContoursTriangulation_8h.html#a72c3d206a7e251bc605f19004b1218dd", null ],
+    [ "MR_PlanarTriangulation_triangulateDisjointContours_5", "MR2DContoursTriangulation_8h.html#aaf6308619697d6b2c21b219bb2a39e1c", null ],
     [ "MR_PlanarTriangulation_TriangulationParameters_AssignFromAnother", "MR2DContoursTriangulation_8h.html#a9f1120303e2af6fe71c8d518ba0580db", null ],
     [ "MR_PlanarTriangulation_TriangulationParameters_ConstructFrom", "MR2DContoursTriangulation_8h.html#ae5dd40b9b5c561e50a853b5bcd9e0413", null ],
     [ "MR_PlanarTriangulation_TriangulationParameters_ConstructFromAnother", "MR2DContoursTriangulation_8h.html#a18149f30de8b45cc48c018c8acac2c07", null ],

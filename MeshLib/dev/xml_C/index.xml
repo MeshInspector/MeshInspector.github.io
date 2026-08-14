@@ -879,6 +879,7 @@
     <member refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kind="typedef"><name>MR_MeshTopology</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a6bf133eda1ec95be202b77c33412bc8e" kind="typedef"><name>MR_Vector3f</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a4cecbe6d6abe0a304f00ea1990538db2" kind="typedef"><name>MR_Vector_int_MR_FaceId</name></member>
+    <member refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kind="typedef"><name>MR_WholeEdgeMap</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kind="typedef"><name>MR_std_optional_MR_Mesh</name></member>
     <member refid="MR2DContoursTriangulation_8h_1af3d746e536136af3a4a530351f5d15e8" kind="typedef"><name>MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</name></member>
     <member refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kind="typedef"><name>MR_std_vector_std_vector_MR_EdgeId</name></member>
@@ -992,7 +993,7 @@
     <member refid="MR2DContoursTriangulation_8h_1ae50a0bbb7b2b7be040819f554cf7d2a8" kind="function"><name>MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2f</name></member>
     <member refid="MR2DContoursTriangulation_8h_1abd7baa84c10074b7e3a8f9814a121fd6" kind="function"><name>MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2d</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a1164161e75e19d0a3dd855e970d7a766" kind="function"><name>MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2f</name></member>
-    <member refid="MR2DContoursTriangulation_8h_1a72c3d206a7e251bc605f19004b1218dd" kind="function"><name>MR_PlanarTriangulation_triangulateDisjointContours_4</name></member>
+    <member refid="MR2DContoursTriangulation_8h_1aaf6308619697d6b2c21b219bb2a39e1c" kind="function"><name>MR_PlanarTriangulation_triangulateDisjointContours_5</name></member>
   </compound>
   <compound refid="MRAABBTree_8h" kind="file"><name>MRAABBTree.h</name>
     <member refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kind="typedef"><name>MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</name></member>
@@ -4333,7 +4334,6 @@
     <member refid="MRBooleanOperation_8h_1a1f20dc964754f84d715a70753e959c1da2ee0200e40e0b6be72c92a20c6783505" kind="enumvalue"><name>MR_BooleanResultMapper_MapObject_A</name></member>
     <member refid="MRBooleanOperation_8h_1a1f20dc964754f84d715a70753e959c1dad33190689e4f625a2d8d0ec1ba80f6be" kind="enumvalue"><name>MR_BooleanResultMapper_MapObject_B</name></member>
     <member refid="MRBooleanOperation_8h_1a1f20dc964754f84d715a70753e959c1da4c6f3be4cabf966396dcdde7fcbbb73b" kind="enumvalue"><name>MR_BooleanResultMapper_MapObject_Count</name></member>
-    <member refid="MRBooleanOperation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kind="typedef"><name>MR_WholeEdgeMap</name></member>
     <member refid="MRBooleanOperation_8h_1a5adf2c3b0beed4fb6b836f265c2be7be" kind="typedef"><name>MR_std_array_MR_BooleanResultMapper_Maps_2</name></member>
     <member refid="MRBooleanOperation_8h_1a8a246f470737b3738795958e5807f66c" kind="typedef"><name>MR_BooleanOperation</name></member>
     <member refid="MRBooleanOperation_8h_1a759a9c7800e3bc0fca2e9d8daaa18f89" kind="typedef"><name>MR_BooleanResultMapper_MapObject</name></member>
