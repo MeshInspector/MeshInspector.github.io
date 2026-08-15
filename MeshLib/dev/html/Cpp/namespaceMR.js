@@ -3463,6 +3463,8 @@ var namespaceMR =
     [ "to3dim", "group__ConversionBetween2and3dimGroup.html#gad5a04e5b51ad4523afb6a14b3d8dd250", null ],
     [ "to3dim", "group__ConversionBetween2and3dimGroup.html#gaec12159443820ad007ef070ec329a5bd", null ],
     [ "to3dim", "group__ConversionBetween2and3dimGroup.html#ga47acaecbfd1288841aacaed1dc8aaebe", null ],
+    [ "toDouble", "group__HighPrecisionGroup.html#ga7494b779fa44082a4d511ef3c77597e6", null ],
+    [ "toDouble", "group__HighPrecisionGroup.html#ga096c2c7825f1a47993ae9d976bacd68d", null ],
     [ "toEdgePoint", "group__GeneralGroup.html#gabe638e99ebfb3b54030f011f87f115f1", null ],
     [ "toEigen", "group__MathGroup.html#ga8888d3eb79b0414fbc4855426d85cf9c", null ],
     [ "toEigen", "group__MathGroup.html#gabd50a577d1934b0c0a0aca008de7d541", null ],

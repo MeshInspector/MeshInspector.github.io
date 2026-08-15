@@ -71,5 +71,7 @@ var group__HighPrecisionGroup =
     [ "MR::Vector3i64mul", "group__HighPrecisionGroup.html#ga2290828b1eb673ce78c350b8c3b2b6cb", null ],
     [ "MR::operator*", "group__HighPrecisionGroup.html#gacf1747776a123f6afdf52b1c766d5a15", null ],
     [ "MR::operator*", "group__HighPrecisionGroup.html#ga15464bb6e2f869d91cb4a1583d4af1d4", null ],
-    [ "MR::operator*", "group__HighPrecisionGroup.html#ga8f43e802126c20691185376048e2fe69", null ]
+    [ "MR::operator*", "group__HighPrecisionGroup.html#ga8f43e802126c20691185376048e2fe69", null ],
+    [ "MR::toDouble", "group__HighPrecisionGroup.html#ga7494b779fa44082a4d511ef3c77597e6", null ],
+    [ "MR::toDouble", "group__HighPrecisionGroup.html#ga096c2c7825f1a47993ae9d976bacd68d", null ]
 ];

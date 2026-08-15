@@ -171,6 +171,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a0c3c7fc10991c0eb99094bb42d438de2" id="r_a0c3c7fc10991c0eb99094bb42d438de2"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a0c3c7fc10991c0eb99094bb42d438de2 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c3c7fc10991c0eb99094bb42d438de2">mulWordsOf</a> (T v) noexcept</td></tr>
 <tr class="memdesc:a0c3c7fc10991c0eb99094bb42d438de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the words of a multiplier of <a class="el" href="classMR_1_1FastInt.html">FastInt</a>, sign-extended if it is signed  <br /></td></tr>
+<tr class="memitem:a642d79bba1a218c9810ee5a91c1362b9" id="r_a642d79bba1a218c9810ee5a91c1362b9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642d79bba1a218c9810ee5a91c1362b9">doubleFromWords</a> (const std::uint64_t *w, int n) noexcept</td></tr>
 <tr class="memitem:a5594c749385503cd1087702f28de4651" id="r_a5594c749385503cd1087702f28de4651"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5594c749385503cd1087702f28de4651">runCocoaFileDialog</a> (const <a class="el" href="structMR_1_1FileDialog_1_1Parameters.html">MR::FileDialog::Parameters</a> &amp;params)</td></tr>
 <tr class="memdesc:a5594c749385503cd1087702f28de4651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open Cocoa file dialog.  <br /></td></tr>
 <tr class="memitem:a4b40e1222b8df2660b25e4942deb39fb" id="r_a4b40e1222b8df2660b25e4942deb39fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b40e1222b8df2660b25e4942deb39fb">isPortalFileDialogSupported</a> ()</td></tr>
@@ -221,6 +222,36 @@ Variables</h2></td></tr>
 
 <p>returns a + b + carry modulo 2^64, and replaces carry with the carry-out (0 or 1) </p>
 <p>the two functions below are spelled via <a class="el" href="group__GeneralGroup.html#ga906daf2182f2898fb3e5ad598d8960ae">FastUInt128</a>, where the carry-out is simply the higher word, as in mulWords below </p>
+
+</div>
+</div>
+<a id="a642d79bba1a218c9810ee5a91c1362b9" name="a642d79bba1a218c9810ee5a91c1362b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a642d79bba1a218c9810ee5a91c1362b9">&#9670;&#160;</a></span>doubleFromWords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::detail::doubleFromWords </td>
+          <td>(</td>
+          <td class="paramtype">const std::uint64_t *</td>          <td class="paramname"><span class="paramname"><em>w</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>the nearest double to the two's-complement value in the n words at w, least significant first; see toDouble below for the guarantees, which this function alone provides for the whole family </p>
 
 </div>
 </div>

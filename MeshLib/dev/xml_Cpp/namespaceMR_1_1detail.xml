@@ -191,6 +191,29 @@
         </inbodydescription>
         <location file="MRMesh/MRFastInt.h" line="100" column="17" bodyfile="MRMesh/MRFastInt.h" bodystart="100" bodyend="109"/>
       </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1detail_1a642d79bba1a218c9810ee5a91c1362b9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double MR::detail::doubleFromWords</definition>
+        <argsstring>(const std::uint64_t *w, int n) noexcept</argsstring>
+        <name>doubleFromWords</name>
+        <qualifiedname>MR::detail::doubleFromWords</qualifiedname>
+        <param>
+          <type>const std::uint64_t *</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the nearest double to the two&apos;s-complement value in the n words at w, least significant first; see toDouble below for the guarantees, which this function alone provides for the whole family </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt.h" line="113" column="10" declfile="MRMesh/MRFastInt.h" declline="113" declcolumn="10"/>
+      </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::filesystem::path &gt;</type>
         <definition>std::vector&lt; std::filesystem::path &gt; MR::detail::runCocoaFileDialog</definition>

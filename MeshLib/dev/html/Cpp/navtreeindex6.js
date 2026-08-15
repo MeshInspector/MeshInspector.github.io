@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRUniquePtr_8h.html":[6,0,3,0,7,418],
 "MRUniquePtr_8h_source.html":[6,0,3,0,7,418],
 "MRUniqueTemporaryFolder_8h.html":[6,0,3,0,7,419],
 "MRUniqueTemporaryFolder_8h_source.html":[6,0,3,0,7,419],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "classMR_1_1BitSet.html#abc2f39f61e481d944fd1fe7966932025":[6,0,0,3,3,31],
 "classMR_1_1BitSet.html#abc51849e29c44edfdbf413c84b74f4c6":[6,0,0,3,3,47],
 "classMR_1_1BitSet.html#abd624eb57fa1932e782bf7eb418f7d1d":[6,0,0,3,3,10],
-"classMR_1_1BitSet.html#ac7929d81a23ad4ff51c472f0d1c992d5":[6,0,0,3,3,43],
-"classMR_1_1BitSet.html#ac8e1e2ea2d5a77114c44b2d32f3e9e8b":[6,0,0,3,3,17]
+"classMR_1_1BitSet.html#ac7929d81a23ad4ff51c472f0d1c992d5":[6,0,0,3,3,43]
 };

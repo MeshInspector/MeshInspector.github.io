@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"MRRibbonSceneButtons_8h.html":[6,0,3,0,1,2,2],
 "MRRibbonSceneButtons_8h_source.html":[6,0,3,0,1,2,2],
 "MRRibbonSceneObjectsListDrawer_8h.html":[6,0,3,0,11,105],
 "MRRibbonSceneObjectsListDrawer_8h_source.html":[6,0,3,0,11,105],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "MRUnionFindParallel_8h.html":[6,0,3,0,7,417],
 "MRUnionFindParallel_8h_source.html":[6,0,3,0,7,417],
 "MRUnionFind_8h.html":[6,0,3,0,7,416],
-"MRUnionFind_8h_source.html":[6,0,3,0,7,416],
-"MRUniquePtr_8h.html":[6,0,3,0,7,418]
+"MRUnionFind_8h_source.html":[6,0,3,0,7,416]
 };

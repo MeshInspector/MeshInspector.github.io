@@ -14794,6 +14794,8 @@
     <member refid="group__GeneralGroup_1ga75b8750abcb07d97d5bd326ad962f27a" kind="function"><name>planeSectionToContour2f</name></member>
     <member refid="group__GeneralGroup_1ga9d313852215c7bc19114963b168f3435" kind="function"><name>planeSectionsToContours2f</name></member>
     <member refid="group__GeneralGroup_1gab85f14264d6c9fb3a304c49fe4722ccf" kind="function"><name>calcFaceDistances</name></member>
+    <member refid="group__HighPrecisionGroup_1ga096c2c7825f1a47993ae9d976bacd68d" kind="function"><name>toDouble</name></member>
+    <member refid="group__HighPrecisionGroup_1ga7494b779fa44082a4d511ef3c77597e6" kind="function"><name>toDouble</name></member>
     <member refid="group__HighPrecisionGroup_1gacf1747776a123f6afdf52b1c766d5a15" kind="function"><name>operator*</name></member>
     <member refid="group__HighPrecisionGroup_1ga15464bb6e2f869d91cb4a1583d4af1d4" kind="function"><name>operator*</name></member>
     <member refid="group__HighPrecisionGroup_1ga8f43e802126c20691185376048e2fe69" kind="function"><name>operator*</name></member>
@@ -16204,6 +16206,7 @@
     <member refid="namespaceMR_1_1detail_1a198d8073571caaae263de501236e6052" kind="function"><name>signWord</name></member>
     <member refid="namespaceMR_1_1detail_1adef9954c65821ab458734f64ae86e011" kind="function"><name>mulWords</name></member>
     <member refid="namespaceMR_1_1detail_1a0c3c7fc10991c0eb99094bb42d438de2" kind="function"><name>mulWordsOf</name></member>
+    <member refid="namespaceMR_1_1detail_1a642d79bba1a218c9810ee5a91c1362b9" kind="function"><name>doubleFromWords</name></member>
     <member refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" kind="function"><name>runCocoaFileDialog</name></member>
     <member refid="namespaceMR_1_1detail_1a4b40e1222b8df2660b25e4942deb39fb" kind="function"><name>isPortalFileDialogSupported</name></member>
     <member refid="namespaceMR_1_1detail_1a1a02e764be7c54f9177025ee42b915d0" kind="function"><name>runPortalFileDialog</name></member>
@@ -17436,6 +17439,7 @@
   <compound refid="MRFastInt_8h" kind="file"><name>MRFastInt.h</name>
   </compound>
   <compound refid="MRFastInt128_8h" kind="file"><name>MRFastInt128.h</name>
+    <member refid="MRFastInt128_8h_1aea8871559c4f6326492db20c974ef881" kind="define"><name>MR_HAS_BUILTIN_INT128</name></member>
   </compound>
   <compound refid="MRFastWindingNumber_8h" kind="file"><name>MRFastWindingNumber.h</name>
   </compound>
@@ -19221,6 +19225,8 @@
     <member refid="group__HighPrecisionGroup_1gae17811dbb1f4d3ba17f955bab2dab90d" kind="typedef"><name>Vector3i128fast</name></member>
     <member refid="group__HighPrecisionGroup_1ga069a4cfb1c909d7c7e32d575dac759cf" kind="typedef"><name>Vector2i64mul</name></member>
     <member refid="group__HighPrecisionGroup_1ga2290828b1eb673ce78c350b8c3b2b6cb" kind="typedef"><name>Vector3i64mul</name></member>
+    <member refid="group__HighPrecisionGroup_1ga096c2c7825f1a47993ae9d976bacd68d" kind="function"><name>toDouble</name></member>
+    <member refid="group__HighPrecisionGroup_1ga7494b779fa44082a4d511ef3c77597e6" kind="function"><name>toDouble</name></member>
     <member refid="group__HighPrecisionGroup_1gacf1747776a123f6afdf52b1c766d5a15" kind="function"><name>operator*</name></member>
     <member refid="group__HighPrecisionGroup_1ga15464bb6e2f869d91cb4a1583d4af1d4" kind="function"><name>operator*</name></member>
     <member refid="group__HighPrecisionGroup_1ga8f43e802126c20691185376048e2fe69" kind="function"><name>operator*</name></member>

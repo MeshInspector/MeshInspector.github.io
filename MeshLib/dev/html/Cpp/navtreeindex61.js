@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1BooleanResultMapper.html#aaf90aec00a5988f4230c6f10a48a275f":[6,0,0,8,0,3],
+"structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587":[6,0,0,8,0,1],
+"structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29":[6,0,0,8,0,1,0],
+"structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571":[6,0,0,8,0,1,1],
 "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,0,8,0,1,2],
 "structMR_1_1BooleanResultMapper.html#af6e316b7b21f94033491018406e4e3a6":[6,0,0,8,0,7],
 "structMR_1_1BooleanResultMapper_1_1Maps.html":[6,0,0,8,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1DrawButtonParams.html":[6,0,0,20,662],
 "structMR_1_1DrawListener.html":[6,0,0,20,785],
 "structMR_1_1DrawSceneUiListener.html":[6,0,0,20,593],
-"structMR_1_1EdgeLengthMesh.html":[6,0,0,7,0],
-"structMR_1_1EdgeLengthMesh.html":[6,0,0,20,193],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[6,0,0,20,198],
-"structMR_1_1EdgePoint.html":[6,0,0,20,202],
-"structMR_1_1EdgePointPair.html":[6,0,0,20,203]
+"structMR_1_1EdgeLengthMesh.html":[6,0,0,7,0]
 };

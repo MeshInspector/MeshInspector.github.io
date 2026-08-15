@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1VisualObject.html#a59c2d4684d78ce2b766917491d4423c6":[6,0,0,11,2,5,40],
 "classMR_1_1VisualObject.html#a60eba5ae5638c7f26c6fb7995b234222":[6,0,0,11,2,5,33],
 "classMR_1_1VisualObject.html#a611894e7f98e2633137d75833e361781":[6,0,0,11,2,5,85],
 "classMR_1_1VisualObject.html#a63e449ef55a202b2a236381ea648c197":[6,0,0,11,2,5,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "functions_x.html":[6,0,2,3,0,24],
 "functions_y.html":[6,0,2,3,0,25],
 "functions_z.html":[6,0,2,3,0,26],
-"functions_~.html":[6,0,2,3,0,27],
-"globals.html":[6,0,3,1,0]
+"functions_~.html":[6,0,2,3,0,27]
 };

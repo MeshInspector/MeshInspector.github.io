@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html":[6,0,1,0,1,41,0,0],
 "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html":[6,0,2,0,2,26,0,0],
 "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html#a149210ca6db44ac261556f0531230df6":[6,0,1,0,1,41,0,0,1],
 "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html#a149210ca6db44ac261556f0531230df6":[6,0,2,0,2,26,0,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1TypedBitSet.html":[6,0,0,3,4],
 "classMR_1_1TypedBitSet.html#a00ffea5dfa37bddf5433b25ff8620931":[6,0,0,3,4,10],
 "classMR_1_1TypedBitSet.html#a0355d383fd5f5e1ce7d769ea4a29a1a0":[6,0,0,3,4,32],
-"classMR_1_1TypedBitSet.html#a05915b74cec96003f0e381fe2472ac6b":[6,0,0,3,4,26],
-"classMR_1_1TypedBitSet.html#a0aa7b935d8b7848c1ac69d22eb1d799e":[6,0,0,3,4,42]
+"classMR_1_1TypedBitSet.html#a05915b74cec96003f0e381fe2472ac6b":[6,0,0,3,4,26]
 };

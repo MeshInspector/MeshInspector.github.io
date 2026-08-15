@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"MRPartMappingAdapters_8h_source.html":[6,0,3,0,7,291],
 "MRPartMapping_8h.html":[6,0,3,0,7,290],
 "MRPartMapping_8h_source.html":[6,0,3,0,7,290],
 "MRPartialChangeMeshAction_8h.html":[6,0,3,0,7,289],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRRibbonNotification_8h.html":[6,0,3,0,11,103],
 "MRRibbonNotification_8h_source.html":[6,0,3,0,11,103],
 "MRRibbonRegisterItem_8h.html":[6,0,3,0,11,104],
-"MRRibbonRegisterItem_8h_source.html":[6,0,3,0,11,104],
-"MRRibbonSceneButtons_8h.html":[6,0,3,0,1,2,2]
+"MRRibbonRegisterItem_8h_source.html":[6,0,3,0,11,104]
 };

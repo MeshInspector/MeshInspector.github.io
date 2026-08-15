@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="124" column="26" bodyfile="MRMesh/MRFastInt.h" bodystart="124" bodyend="-1"/>
+        <location file="MRMesh/MRFastInt.h" line="146" column="26" bodyfile="MRMesh/MRFastInt.h" bodystart="146" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="127" column="16" bodyfile="MRMesh/MRFastInt.h" bodystart="127" bodyend="127"/>
+        <location file="MRMesh/MRFastInt.h" line="149" column="16" bodyfile="MRMesh/MRFastInt.h" bodystart="149" bodyend="149"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="129" column="5"/>
+        <location file="MRMesh/MRFastInt.h" line="151" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FastInt_1a9c22199fe268525f17daf7a5b916cb28" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="134" column="15" bodyfile="MRMesh/MRFastInt.h" bodystart="134" bodyend="142"/>
+        <location file="MRMesh/MRFastInt.h" line="156" column="15" bodyfile="MRMesh/MRFastInt.h" bodystart="156" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FastInt_1ac022c43c1eb2e45d45dce83e51e00282" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="147" column="15" bodyfile="MRMesh/MRFastInt.h" bodystart="147" bodyend="155"/>
+        <location file="MRMesh/MRFastInt.h" line="169" column="15" bodyfile="MRMesh/MRFastInt.h" bodystart="169" bodyend="177"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FastInt_1a1885977a173c78b340ddfd7f2564aa8f" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -139,7 +139,7 @@
         <inbodydescription>
 <para>the value does not fit in nBits bits</para>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="162" column="24" bodyfile="MRMesh/MRFastInt.h" bodystart="162" bodyend="169"/>
+        <location file="MRMesh/MRFastInt.h" line="184" column="24" bodyfile="MRMesh/MRFastInt.h" bodystart="184" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FastInt_1aa060083b3726161e19a5b74fb86c0308" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>int</type>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="172" column="20" bodyfile="MRMesh/MRFastInt.h" bodystart="172" bodyend="180"/>
+        <location file="MRMesh/MRFastInt.h" line="194" column="20" bodyfile="MRMesh/MRFastInt.h" bodystart="194" bodyend="202"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FastInt_1a5e086aa7ac4fa48de5b2b3b3dd922e17" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="182" column="24" bodyfile="MRMesh/MRFastInt.h" bodystart="182" bodyend="188"/>
+        <location file="MRMesh/MRFastInt.h" line="204" column="24" bodyfile="MRMesh/MRFastInt.h" bodystart="204" bodyend="210"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FastInt_1aed6bcb954638768286a8966116339f08" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> &amp;</type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="190" column="24" bodyfile="MRMesh/MRFastInt.h" bodystart="190" bodyend="196"/>
+        <location file="MRMesh/MRFastInt.h" line="212" column="24" bodyfile="MRMesh/MRFastInt.h" bodystart="212" bodyend="218"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FastInt_1a30d3846c023a0e31c29f90e0284487a0" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref></type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="198" column="24" bodyfile="MRMesh/MRFastInt.h" bodystart="198" bodyend="203"/>
+        <location file="MRMesh/MRFastInt.h" line="220" column="24" bodyfile="MRMesh/MRFastInt.h" bodystart="220" bodyend="225"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="205" column="31" bodyfile="MRMesh/MRFastInt.h" bodystart="205" bodyend="205"/>
+        <location file="MRMesh/MRFastInt.h" line="227" column="31" bodyfile="MRMesh/MRFastInt.h" bodystart="227" bodyend="227"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1FastInt_1a8103f525de84a57f65124a8ed3a2bfa4" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref></type>
@@ -250,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="206" column="31" bodyfile="MRMesh/MRFastInt.h" bodystart="206" bodyend="206"/>
+        <location file="MRMesh/MRFastInt.h" line="228" column="31" bodyfile="MRMesh/MRFastInt.h" bodystart="228" bodyend="228"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1FastInt_1a2960f833ad8f3f5da49ea5f677f20dd7" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>bool</type>
@@ -272,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="208" column="28" bodyfile="MRMesh/MRFastInt.h" bodystart="208" bodyend="208"/>
+        <location file="MRMesh/MRFastInt.h" line="230" column="28" bodyfile="MRMesh/MRFastInt.h" bodystart="230" bodyend="230"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1FastInt_1a7a964d03ea02e3d65cfe851a6623cf1a" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>std::strong_ordering</type>
@@ -294,15 +294,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRFastInt.h" line="210" column="23" bodyfile="MRMesh/MRFastInt.h" bodystart="210" bodyend="218"/>
+        <location file="MRMesh/MRFastInt.h" line="232" column="23" bodyfile="MRMesh/MRFastInt.h" bodystart="232" bodyend="240"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>signed integer of nBits bits, which must be a multiple of 64 and at least 192 (below that use <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> with <ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref> and <ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref>); the product of two of them is exact, because it is twice as wide as the arguments; as <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> it lacks conversion in double, sqrt-function and stream input/output </para>
+<para>signed integer of nBits bits, which must be a multiple of 64 and at least 192 (below that use <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> with <ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref> and <ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref>); the product of two of them is exact, because it is twice as wide as the arguments; as <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> it lacks a sqrt-function and stream input/output </para>
     </detaileddescription>
-    <location file="MRMesh/MRFastInt.h" line="118" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="119" bodyend="219"/>
+    <location file="MRMesh/MRFastInt.h" line="140" column="1" bodyfile="MRMesh/MRFastInt.h" bodystart="141" bodyend="241"/>
     <listofallmembers>
       <member refid="classMR_1_1FastInt_1adc826ada3574b780f6bd6bf4739bb725" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>FastInt</name></member>
       <member refid="classMR_1_1FastInt_1a9c22199fe268525f17daf7a5b916cb28" prot="public" virt="non-virtual"><scope>MR::FastInt</scope><name>FastInt</name></member>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"MRMeshAttributesToUpdate_8h.html":[6,0,3,0,7,196],
 "MRMeshAttributesToUpdate_8h_source.html":[6,0,3,0,7,196],
 "MRMeshBooleanFacade_8h.html":[6,0,3,0,7,198],
 "MRMeshBooleanFacade_8h_source.html":[6,0,3,0,7,198],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "MRParallelProgressReporter_8h_source.html":[6,0,3,0,7,288],
 "MRParallel_8h.html":[6,0,3,0,7,285],
 "MRParallel_8h_source.html":[6,0,3,0,7,285],
-"MRPartMappingAdapters_8h.html":[6,0,3,0,7,291],
-"MRPartMappingAdapters_8h_source.html":[6,0,3,0,7,291]
+"MRPartMappingAdapters_8h.html":[6,0,3,0,7,291]
 };
