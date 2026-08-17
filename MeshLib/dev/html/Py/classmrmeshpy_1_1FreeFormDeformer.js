@@ -10,7 +10,7 @@ var classmrmeshpy_1_1FreeFormDeformer =
     [ "getIndex", "classmrmeshpy_1_1FreeFormDeformer.html#acb20dd00aca79f5799142d0cd7f786ad", null ],
     [ "getRefGridPointPosition", "classmrmeshpy_1_1FreeFormDeformer.html#a477f5a81a52f43818d38528017fee548", null ],
     [ "getResolution", "classmrmeshpy_1_1FreeFormDeformer.html#a37a4ea9d4ce199528ebe1acaa189c3d5", null ],
-    [ "init", "classmrmeshpy_1_1FreeFormDeformer.html#a8fadf4efb7cd6cd6876dfaa4e25b6076", null ],
+    [ "init", "classmrmeshpy_1_1FreeFormDeformer.html#a978da9e8e62c7df1ae7245f5bcea7c99", null ],
     [ "setAllRefGridPositions", "classmrmeshpy_1_1FreeFormDeformer.html#ac9501e4ad43da3edf8c091431bc1cb67", null ],
     [ "setRefGridPointPosition", "classmrmeshpy_1_1FreeFormDeformer.html#af33a12dede8ac15e4c1fc3edfc658b56", null ]
 ];

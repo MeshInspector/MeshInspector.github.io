@@ -438,9 +438,9 @@ an object that stores a points
       <member refid="classmrmeshpy_1_1ObjectPointsHolder_1adfd38edd1f55d3830f74e675f1b2ab54" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a6f5db0cc43a881ac52561a4645bf4067" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>getWorldBox</name></member>
       <member refid="classmrmeshpy_1_1Object_1a000669ce3765e97358761b420a4b3283" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>getWorldTreeBox</name></member>
-      <member refid="classmrmeshpy_1_1VisualObject_1a7423a165764f0bf97fbbfcb6ef6913e2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>globalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a8ab6afcbd16f9abf56f55f679c80460f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>globalClippedByPlane</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1ade27c4b572461dfa2f68ed3b8ecafb70" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>globalClippedByPlaneMask</name></member>
-      <member refid="classmrmeshpy_1_1Object_1a78a7d136a58b2e69851ac59192bcd5b5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>globalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ac7b6c94738fee4042bea1b8dbd30ce88" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>globalVisibility</name></member>
       <member refid="classmrmeshpy_1_1Object_1a4b1a4fd5f92fc87757bc139ce2e770be" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>globalVisibilityMask</name></member>
       <member refid="classmrmeshpy_1_1ObjectPointsHolder_1ada36629a3b4cb47e010f60bc26cb7cc9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>hasModel</name></member>
       <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a773dabbf8f4a11cbf42418ca126c9068" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>hasVisualRepresentation</name></member>
@@ -450,9 +450,9 @@ an object that stores a points
       <member refid="classmrmeshpy_1_1Object_1afcc5164e9ca381ad398640ab2729fa59" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>isGlobalAncillary</name></member>
       <member refid="classmrmeshpy_1_1Object_1adb58092748e5b61228ff7ed23b9c0d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>isLocked</name></member>
       <member refid="classmrmeshpy_1_1Object_1aad4248d019ab25e15e9f40f726c1f3d3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>isParentLocked</name></member>
-      <member refid="classmrmeshpy_1_1VisualObject_1a90715c5c04e6a8c2a5d0998877fec7d7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>isPickable</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a6b0ad0aeac71a68ad9c8f707e0bab185" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>isPickable</name></member>
       <member refid="classmrmeshpy_1_1Object_1add3395c8e6e84a9d82d622557fb6939f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>isSelected</name></member>
-      <member refid="classmrmeshpy_1_1Object_1ad160388c69186e8a83fde5e8eb02535e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>isVisible</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a796925d8eb6a02da895396a7c7529aeb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>isVisible</name></member>
       <member refid="classmrmeshpy_1_1ObjectPointsHolder_1ac61ff8ef60a712e675a3c8ab17f17dd2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>MaxRenderingPointsDefault</name></member>
       <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a1cc6af34b05243eef28caaa3a4e01c9e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>MaxRenderingPointsUnlimited</name></member>
       <member refid="classmrmeshpy_1_1Object_1a1df02ba03a7110bf58c7f740696f4c35" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>name</name></member>
@@ -493,13 +493,13 @@ an object that stores a points
       <member refid="classmrmeshpy_1_1VisualObject_1acdbcc2226221f32f64842601d9e1e4a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setFrontColorsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a5323ee4dc727ada25adb2c462a136568" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setGlobalAlpha</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1afa64178b2ff0ec0f3160412286a20124" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setGlobalAlphaForAllViewports</name></member>
-      <member refid="classmrmeshpy_1_1VisualObject_1acf83e4c9435a077550174b95dbba85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setGlobalClippedByPlane</name></member>
-      <member refid="classmrmeshpy_1_1Object_1a1f260bf94c3aaca96c76a3b2df7e4123" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setGlobalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a794f2ba21440384fe132aabe14b578ba" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a721bdb23c6fdb6cd8a04aa0b7531c247" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setGlobalVisibility</name></member>
       <member refid="classmrmeshpy_1_1Object_1aff9e7cf21687080d8eb1322b76772577" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setLocked</name></member>
       <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a90991b5f70dc84629aa60065d995ef8d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setMaxRenderingPoints</name></member>
       <member refid="classmrmeshpy_1_1Object_1a9c9747a45a791c65be899d3376c0b6ef" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setName</name></member>
       <member refid="classmrmeshpy_1_1Object_1aae28ca7af2e7903818a96c60d5959e07" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setParentLocked</name></member>
-      <member refid="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setPickable</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a69128c5df21faac74cf246e1815efb18" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setPickable</name></member>
       <member refid="classmrmeshpy_1_1ObjectPoints_1ab9a9accd26baec9f1879494e6db5cb07" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setPointCloud</name></member>
       <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a0dd39bef620c75bfad120a451f63908d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setPointSize</name></member>
       <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a1285d38c6bee972fef6fdefa96768716" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setSelectedVerticesColor</name></member>
@@ -510,7 +510,7 @@ an object that stores a points
       <member refid="classmrmeshpy_1_1VisualObject_1a835cb96e26e7068936c68aba9046257e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a18a142d167668a329da85d0af6debdf8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setVertsColorMap</name></member>
       <member refid="classmrmeshpy_1_1Object_1a2a093177bee96f9715ec03afc69262aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setVisibilityMask</name></member>
-      <member refid="classmrmeshpy_1_1Object_1a8b7a91d7379e983adad42fd434e04381" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setVisible</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a05796e15ae29d5b6fbf763d2a7918745" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setVisible</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a714cc9052b7153f7263836546050015f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setVisualizeProperty</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a48dca93e69125ceede505cae9f2e4629" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setVisualizePropertyMask</name></member>
       <member refid="classmrmeshpy_1_1Object_1a77d09c218526c06a68035b076296bcda" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPoints</scope><name>setWorldXf</name></member>

@@ -2687,10 +2687,10 @@ and it has a boundary edge (isBdEdge(e,region) == true)
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36522" bodyend="36525"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a21e2ccd18759ac864ec2a8bf9a260752" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a22d728dec234534eaa1d25e260efa9ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
         <definition> EdgeId mrmeshpy.MeshTopology.nextLeftBd</definition>
-        <argsstring>(self, EdgeId e, FaceBitSet region=None, Turn turn=&apos;Turn::Rightmost&apos;)</argsstring>
+        <argsstring>(self, EdgeId e, FaceBitSet region=None, Turn turn=&apos;MR::Turn::Rightmost&apos;)</argsstring>
         <name>nextLeftBd</name>
         <qualifiedname>mrmeshpy.MeshTopology.nextLeftBd</qualifiedname>
         <param>
@@ -2709,7 +2709,7 @@ and it has a boundary edge (isBdEdge(e,region) == true)
         <param>
           <type><ref refid="classmrmeshpy_1_1Turn" kindref="compound">Turn</ref></type>
           <declname>turn</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1Turn_1a644cda02ddf55b27f002aef4dc97d9ca" kindref="member">Turn::Rightmost</ref>&apos;</defval>
+          <defval>&apos;MR::Turn::Rightmost&apos;</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -2929,10 +2929,10 @@ this is important in parallel algorithms where other edges may change but stable
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36568" bodyend="36571"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a6d4c45ec0268c83619ff985a578e0721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a605744acf8723a466f715d45043976e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
         <definition> EdgeId mrmeshpy.MeshTopology.prevLeftBd</definition>
-        <argsstring>(self, EdgeId e, FaceBitSet region=None, Turn turn=&apos;Turn::Rightmost&apos;)</argsstring>
+        <argsstring>(self, EdgeId e, FaceBitSet region=None, Turn turn=&apos;MR::Turn::Rightmost&apos;)</argsstring>
         <name>prevLeftBd</name>
         <qualifiedname>mrmeshpy.MeshTopology.prevLeftBd</qualifiedname>
         <param>
@@ -2951,7 +2951,7 @@ this is important in parallel algorithms where other edges may change but stable
         <param>
           <type><ref refid="classmrmeshpy_1_1Turn" kindref="compound">Turn</ref></type>
           <declname>turn</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1Turn_1a644cda02ddf55b27f002aef4dc97d9ca" kindref="member">Turn::Rightmost</ref>&apos;</defval>
+          <defval>&apos;MR::Turn::Rightmost&apos;</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -3698,7 +3698,7 @@ Mesh Topology
       <member refid="classmrmeshpy_1_1MeshTopology_1a8b29d459d63ce64924badfa606cd4124" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>left</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a9039791096460a4b675d546babb43ca3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>makeEdge</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a98eb89836d208ce3be602a5d2e977c89" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>next</name></member>
-      <member refid="classmrmeshpy_1_1MeshTopology_1a21e2ccd18759ac864ec2a8bf9a260752" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>nextLeftBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1a22d728dec234534eaa1d25e260efa9ef" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>nextLeftBd</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1aca415b63c94b12a896998103c7457742" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>numValidFaces</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1af1e34b3dbb4fc614d622bfc0a44e5a4b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>numValidVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a61773debbb0a433596f4bdcc27b134f3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>operator</name></member>
@@ -3709,7 +3709,7 @@ Mesh Topology
       <member refid="classmrmeshpy_1_1MeshTopology_1adac4e0565f1fd1250ab264a89e2eb198" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>packMinMem</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a2747a7f418266ba5418b71484fc8bfdf" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>preferEdges</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1af72874fa818f8250e3c57f21d2af6ce8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>prev</name></member>
-      <member refid="classmrmeshpy_1_1MeshTopology_1a6d4c45ec0268c83619ff985a578e0721" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>prevLeftBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1a605744acf8723a466f715d45043976e8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>prevLeftBd</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a2ac87fecfd6dd0d0fc18808b7628e200" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>read</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1ae43b443bf38f622ce1f1184e795f1de2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>resizeBeforeParallelAdd</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a2866e29e4e578ada19f07e74541a3096" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>right</name></member>

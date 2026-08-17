@@ -168,7 +168,7 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1FillHoleItemEdge.html#a99e944cc305d04162cdfa29e54d82faf",
 "classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html#a7197046985085ea7e4af681137726a78",
 "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a647122eed90fc2317a989d13e54e2579",
-"classmrmeshpy_1_1FreeFormBestFit.html#ab87f326cd1a976f95696f85920ec6f24",
+"classmrmeshpy_1_1FreeFormBestFit.html#a839a6a6dc20a98a638944a3a74ce0465",
 "classmrmeshpy_1_1GraphEdgeBitSet.html#a0249c1331438b69bc0f2ad753333e904",
 "classmrmeshpy_1_1GraphVertId.html#adb1fbc8d900eb1256a7ceaf4c8cd62f9",
 "classmrmeshpy_1_1ICP.html#a3012e91ef09c7d311868b8085f54f02a",
@@ -257,7 +257,7 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1VertCoords.html#a073c17c29a8a5abd2befb2facf093e72",
 "classmrmeshpy_1_1VertMap.html#a3da976ac3460c8c40c0ada8896173a51",
 "classmrmeshpy_1_1ViewportMask.html#a448fcbab9b0c28607225cc521776892f",
-"classmrmeshpy_1_1VisualObject.html#a8ac83a9fca121b3f5e6716ed1222a5f8",
+"classmrmeshpy_1_1VisualObject.html#a883cdf9eb84b10488087440af6534a26",
 "classmrmeshpy_1_1VoxelBitSet.html#a370bc6709e2cc5935968c01c0c074cec",
 "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum.html#a41aa56b49dfc5172c3df3d93585e701f",
 "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a12330ad639d0dcefa5c9562d9184d558",
@@ -313,14 +313,14 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1std__vector__unsigned__char.html#aa0a95fadee796b6954f72b613b850c9a",
 "classmrviewerpy_1_1UiEntryType.html#a9f36873aa8490f02183e92cf7fc3860c",
 "functions_vars_u.html",
-"namespacemrmeshpy.html#a10952d73247e3fd36b44db42fa409de5",
-"namespacemrmeshpy.html#a31052b424faa855f5e27ea78ba9b06bd",
-"namespacemrmeshpy.html#a4ecd2a55097eb79dd7cade993c569635",
-"namespacemrmeshpy.html#a6e6e42eeb63486b207a6ad3f9b1d080d",
-"namespacemrmeshpy.html#a8f5a9330ed9001c6eab111bd17e28642",
+"namespacemrmeshpy.html#a105a82855c7d089692e39e81f5ca9570",
+"namespacemrmeshpy.html#a3192f974a7837968c8eda03d8e6e5941",
+"namespacemrmeshpy.html#a4f656e0c51fd6bb71213d4bae217d450",
+"namespacemrmeshpy.html#a6ee8925e74a759c5f14c64453cf2203f",
+"namespacemrmeshpy.html#a8ede3e2443c93ad62e73d967d25a384a",
 "namespacemrmeshpy.html#aaf9016ea7401e747f652f8ea0e2e95b0",
-"namespacemrmeshpy.html#acca4f78857537375a6f0629d46a74269",
-"namespacemrmeshpy.html#aec7a25917f94a12d9c21d6e4439e7dfb"
+"namespacemrmeshpy.html#acda774a9491a8478b607a87f2bf9b7af",
+"namespacemrmeshpy.html#aecb3301b6530a3728506b075e12e6aa2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

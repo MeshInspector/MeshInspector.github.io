@@ -166,12 +166,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13589" bodyend="13590"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Dirty_1a8e325a7b06c87d57cc6d12ce46405a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Dirty_1ac6ca76c72da0dc1f941c0ab20e913d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
-        <definition> int mrmeshpy.Dirty.convert_to_uint32_t</definition>
+        <definition> int mrmeshpy.Dirty.convert_to_unsigned_int</definition>
         <argsstring>(self)</argsstring>
-        <name>convert_to_uint32_t</name>
-        <qualifiedname>mrmeshpy.Dirty.convert_to_uint32_t</qualifiedname>
+        <name>convert_to_unsigned_int</name>
+        <qualifiedname>mrmeshpy.Dirty.convert_to_unsigned_int</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -225,7 +225,7 @@ but not copied since renderObj_ is not copied as well
       <member refid="classmrmeshpy_1_1Dirty_1a006a5e8319a3fd6921cebee60f2a38e5" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>__int__</name></member>
       <member refid="classmrmeshpy_1_1Dirty_1a2e2ccad623a0b15c14d29e18efbb9bc8" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>__repr__</name></member>
       <member refid="classmrmeshpy_1_1Dirty_1af576d59e2ad57d233e8eff473e297d56" prot="protected" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>_offsetof_f</name></member>
-      <member refid="classmrmeshpy_1_1Dirty_1a8e325a7b06c87d57cc6d12ce46405a2f" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>convert_to_uint32_t</name></member>
+      <member refid="classmrmeshpy_1_1Dirty_1ac6ca76c72da0dc1f941c0ab20e913d13" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>convert_to_unsigned_int</name></member>
       <member refid="classmrmeshpy_1_1Dirty_1a68420e953874454cf69a06ed9dd048b3" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Dirty_1a68420e953874454cf69a06ed9dd048b3" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Dirty_1afa6d831ef1f29e1106b974215391cd91" prot="public" virt="non-virtual"><scope>mrmeshpy::Dirty</scope><name>operator</name></member>

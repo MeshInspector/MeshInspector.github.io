@@ -231,12 +231,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63171" bodyend="63172"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1a3b20826cc2cacdc5ea4de35a03303d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1a76fba548e2c1005c59045915e7da0f07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
-        <definition> std_array_Id_VertTag_3 mrmeshpy.UnorientedTriangle.convert_to_ThreeVertIds</definition>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.UnorientedTriangle.convert_to_const_std_array_VertId_3</definition>
         <argsstring>(self)</argsstring>
-        <name>convert_to_ThreeVertIds</name>
-        <qualifiedname>mrmeshpy.UnorientedTriangle.convert_to_ThreeVertIds</qualifiedname>
+        <name>convert_to_const_std_array_VertId_3</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.convert_to_const_std_array_VertId_3</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -249,12 +249,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63173" bodyend="63174"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1abb7b1cbae95f49f946f9290d7033646f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1acfb4f820935ec282d1b662c9d320b5bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
-        <definition> std_array_Id_VertTag_3 mrmeshpy.UnorientedTriangle.convert_to_const_ThreeVertIds</definition>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.UnorientedTriangle.convert_to_std_array_VertId_3</definition>
         <argsstring>(self)</argsstring>
-        <name>convert_to_const_ThreeVertIds</name>
-        <qualifiedname>mrmeshpy.UnorientedTriangle.convert_to_const_ThreeVertIds</qualifiedname>
+        <name>convert_to_std_array_VertId_3</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.convert_to_std_array_VertId_3</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -307,8 +307,8 @@ irrespective of vertex order (clockwise or counterclockwise)
       <member refid="classmrmeshpy_1_1UnorientedTriangle_1a456b7aa6ca2a994433c3914793c85abe" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UnorientedTriangle_1a94c246b77750990cb56b8f1495945e07" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>__setitem__</name></member>
       <member refid="classmrmeshpy_1_1UnorientedTriangle_1a9a6648436b57ea020946d23d4dd9efd6" prot="protected" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>_offsetof_verts</name></member>
-      <member refid="classmrmeshpy_1_1UnorientedTriangle_1abb7b1cbae95f49f946f9290d7033646f" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>convert_to_const_ThreeVertIds</name></member>
-      <member refid="classmrmeshpy_1_1UnorientedTriangle_1a3b20826cc2cacdc5ea4de35a03303d5b" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>convert_to_ThreeVertIds</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1a76fba548e2c1005c59045915e7da0f07" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>convert_to_const_std_array_VertId_3</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1acfb4f820935ec282d1b662c9d320b5bc" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>convert_to_std_array_VertId_3</name></member>
       <member refid="classmrmeshpy_1_1UnorientedTriangle_1aa551dd2855223c3d438b9bb547c8337e" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>getFlipped</name></member>
       <member refid="classmrmeshpy_1_1UnorientedTriangle_1ab999fb5f5565ca396250e4d09bdc4f28" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1UnorientedTriangle_1ab999fb5f5565ca396250e4d09bdc4f28" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>operator</name></member>

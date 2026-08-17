@@ -318,7 +318,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>extracts all plane sections of given mesh Generated from function <span class="tt">MR::extractPlaneSections</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">plane</span> can not be null. It is a single object. Parameter <span class="tt">u</span> has a default argument: <span class="tt">UseAABBTree::Yes</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__vector__MR__EdgePoint_8h.html#abf1bd0dc298f0befe0c41071883be551" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgePoint. Does nothing if the poin...">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</a></span> to free it when you're done using it. </p>
+<p>extracts all plane sections of given mesh Generated from function <span class="tt">MR::extractPlaneSections</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">plane</span> can not be null. It is a single object. Parameter <span class="tt">u</span> has a default argument: <span class="tt">MR::UseAABBTree::Yes</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__vector__MR__EdgePoint_8h.html#abf1bd0dc298f0befe0c41071883be551" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgePoint. Does nothing if the poin...">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -345,7 +345,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>extracts all sections of given mesh with the plane z=zLevel Generated from function <span class="tt">MR::extractXYPlaneSections</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">u</span> has a default argument: <span class="tt">UseAABBTree::Yes</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__vector__MR__EdgePoint_8h.html#abf1bd0dc298f0befe0c41071883be551" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgePoint. Does nothing if the poin...">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</a></span> to free it when you're done using it. </p>
+<p>extracts all sections of given mesh with the plane z=zLevel Generated from function <span class="tt">MR::extractXYPlaneSections</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">u</span> has a default argument: <span class="tt">MR::UseAABBTree::Yes</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__vector__MR__EdgePoint_8h.html#abf1bd0dc298f0befe0c41071883be551" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgePoint. Does nothing if the poin...">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -384,7 +384,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>this function must be faster than extractXYPlaneSections function when connecting continuous contours take most of the time Generated from function <span class="tt">MR::findTriangleSectionsByXYPlane</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">faces</span> defaults to a null pointer in C++. Parameter <span class="tt">u</span> has a default argument: <span class="tt">UseAABBTree::Yes</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__MR__LineSegm3f_8h.html#a3eda08640d7804599f35772e67f3c091" title="Destroys a heap-allocated instance of MR_std_vector_MR_LineSegm3f. Does nothing if the pointer is nul...">MR_std_vector_MR_LineSegm3f_Destroy()</a></span> to free it when you're done using it. </p>
+<p>this function must be faster than extractXYPlaneSections function when connecting continuous contours take most of the time Generated from function <span class="tt">MR::findTriangleSectionsByXYPlane</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">faces</span> defaults to a null pointer in C++. Parameter <span class="tt">u</span> has a default argument: <span class="tt">MR::UseAABBTree::Yes</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__MR__LineSegm3f_8h.html#a3eda08640d7804599f35772e67f3c091" title="Destroys a heap-allocated instance of MR_std_vector_MR_LineSegm3f. Does nothing if the pointer is nul...">MR_std_vector_MR_LineSegm3f_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -492,7 +492,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>quickly returns true if extractPlaneSections produce not-empty set for the same arguments Generated from function <span class="tt">MR::hasAnyPlaneSection</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">plane</span> can not be null. It is a single object. Parameter <span class="tt">u</span> has a default argument: <span class="tt">UseAABBTree::Yes</span>, pass a null pointer to use it. </p>
+<p>quickly returns true if extractPlaneSections produce not-empty set for the same arguments Generated from function <span class="tt">MR::hasAnyPlaneSection</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">plane</span> can not be null. It is a single object. Parameter <span class="tt">u</span> has a default argument: <span class="tt">MR::UseAABBTree::Yes</span>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -519,7 +519,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>quickly returns true if extractXYPlaneSections produce not-empty set for the same arguments Generated from function <span class="tt">MR::hasAnyXYPlaneSection</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">u</span> has a default argument: <span class="tt">UseAABBTree::Yes</span>, pass a null pointer to use it. </p>
+<p>quickly returns true if extractXYPlaneSections produce not-empty set for the same arguments Generated from function <span class="tt">MR::hasAnyXYPlaneSection</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">u</span> has a default argument: <span class="tt">MR::UseAABBTree::Yes</span>, pass a null pointer to use it. </p>
 
 </div>
 </div>

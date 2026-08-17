@@ -300,7 +300,7 @@
 <parametername>usePoints</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is not nullptr, then these points will be used instead of passed to a constructor for weights computation and shape memory Generated from method <computeroutput>MR::Laplacian::init</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>freeVerts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>vmass</computeroutput> has a default argument: <computeroutput>VertexMass::Unit</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>rem</computeroutput> has a default argument: <computeroutput>RememberShape::Yes</computeroutput>, pass a null pointer to use it. </para>
+<para>is not nullptr, then these points will be used instead of passed to a constructor for weights computation and shape memory Generated from method <computeroutput>MR::Laplacian::init</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>freeVerts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>vmass</computeroutput> has a default argument: <computeroutput>MR::VertexMass::Unit</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>rem</computeroutput> has a default argument: <computeroutput>MR::RememberShape::Yes</computeroutput>, pass a null pointer to use it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -342,7 +342,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>same as init() but uses the given points instead of ones passed to a constructor for weights computation and shape memory Generated from method <computeroutput>MR::Laplacian::initFromPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>freeVerts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>vmass</computeroutput> has a default argument: <computeroutput>VertexMass::Unit</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>rem</computeroutput> has a default argument: <computeroutput>RememberShape::Yes</computeroutput>, pass a null pointer to use it. </para>
+<para>same as init() but uses the given points instead of ones passed to a constructor for weights computation and shape memory Generated from method <computeroutput>MR::Laplacian::initFromPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>freeVerts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>vmass</computeroutput> has a default argument: <computeroutput>MR::VertexMass::Unit</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>rem</computeroutput> has a default argument: <computeroutput>MR::RememberShape::Yes</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -927,7 +927,7 @@ Functions</h2></td></tr>
 <p>(re)initialize Laplacian for the region being deformed, here region properties are remembered and precomputed; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">freeVerts</td><td>must not include all vertices of a mesh connected component; </td></tr>
-    <tr><td class="paramname">usePoints</td><td>is not nullptr, then these points will be used instead of passed to a constructor for weights computation and shape memory Generated from method <span class="tt">MR::Laplacian::init</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">freeVerts</span> can not be null. It is a single object. Parameter <span class="tt">vmass</span> has a default argument: <span class="tt">VertexMass::Unit</span>, pass a null pointer to use it. Parameter <span class="tt">rem</span> has a default argument: <span class="tt">RememberShape::Yes</span>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">usePoints</td><td>is not nullptr, then these points will be used instead of passed to a constructor for weights computation and shape memory Generated from method <span class="tt">MR::Laplacian::init</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">freeVerts</span> can not be null. It is a single object. Parameter <span class="tt">vmass</span> has a default argument: <span class="tt">MR::VertexMass::Unit</span>, pass a null pointer to use it. Parameter <span class="tt">rem</span> has a default argument: <span class="tt">MR::RememberShape::Yes</span>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -972,7 +972,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>same as init() but uses the given points instead of ones passed to a constructor for weights computation and shape memory Generated from method <span class="tt">MR::Laplacian::initFromPoints</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Parameter <span class="tt">freeVerts</span> can not be null. It is a single object. Parameter <span class="tt">vmass</span> has a default argument: <span class="tt">VertexMass::Unit</span>, pass a null pointer to use it. Parameter <span class="tt">rem</span> has a default argument: <span class="tt">RememberShape::Yes</span>, pass a null pointer to use it. </p>
+<p>same as init() but uses the given points instead of ones passed to a constructor for weights computation and shape memory Generated from method <span class="tt">MR::Laplacian::initFromPoints</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Parameter <span class="tt">freeVerts</span> can not be null. It is a single object. Parameter <span class="tt">vmass</span> has a default argument: <span class="tt">MR::VertexMass::Unit</span>, pass a null pointer to use it. Parameter <span class="tt">rem</span> has a default argument: <span class="tt">MR::RememberShape::Yes</span>, pass a null pointer to use it. </p>
 
 </div>
 </div>

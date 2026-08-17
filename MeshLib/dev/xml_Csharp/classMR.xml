@@ -10642,7 +10642,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>creates box mesh with given min-corner (base) and given size in every dimension; with default parameters, creates unit cube mesh with the centroid in (0,0,0) Generated from function <computeroutput><ref refid="classMR_1a8fe1281a3c71e131dc209e3c1ef35677" kindref="member">MR.makeCube</ref></computeroutput>. Parameter <computeroutput>size</computeroutput> defaults to <computeroutput><ref refid="structMR_1_1Vector3f_1a2fdceeff57d05e3bfae1b9c00a08144e" kindref="member">Vector3f.diagonal</ref>(1.0f)</computeroutput>. Parameter <computeroutput>base_</computeroutput> defaults to <computeroutput><ref refid="structMR_1_1Vector3f_1a2fdceeff57d05e3bfae1b9c00a08144e" kindref="member">Vector3f.diagonal</ref>(-0.5f)</computeroutput>. </para>
+<para>creates box mesh with given min-corner (base) and given size in every dimension; with default parameters, creates unit cube mesh with the centroid in (0,0,0) Generated from function <computeroutput><ref refid="classMR_1a8fe1281a3c71e131dc209e3c1ef35677" kindref="member">MR.makeCube</ref></computeroutput>. Parameter <computeroutput>size</computeroutput> defaults to <computeroutput>MR::Vector3&amp;lt;float&amp;gt;::diagonal(1.0f)</computeroutput>. Parameter <computeroutput>base_</computeroutput> defaults to <computeroutput>MR::Vector3&amp;lt;float&amp;gt;::diagonal(-0.5f)</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -10829,7 +10829,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a40615f7945e27eae8640975e947c7703" kindref="member">MR.makeCylinderAdvanced</ref></computeroutput>. Parameter <computeroutput>radius0</computeroutput> defaults to <computeroutput>0.100000001f</computeroutput>. Parameter <computeroutput>radius1</computeroutput> defaults to <computeroutput>0.100000001f</computeroutput>. Parameter <computeroutput>start_angle</computeroutput> defaults to <computeroutput>0.0f</computeroutput>. Parameter <computeroutput>arc_size</computeroutput> defaults to <computeroutput>2.0f*PI_F</computeroutput>. Parameter <computeroutput>length</computeroutput> defaults to <computeroutput>1.0f</computeroutput>. Parameter <computeroutput>resolution</computeroutput> defaults to <computeroutput>16</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a40615f7945e27eae8640975e947c7703" kindref="member">MR.makeCylinderAdvanced</ref></computeroutput>. Parameter <computeroutput>radius0</computeroutput> defaults to <computeroutput>0.100000001f</computeroutput>. Parameter <computeroutput>radius1</computeroutput> defaults to <computeroutput>0.100000001f</computeroutput>. Parameter <computeroutput>start_angle</computeroutput> defaults to <computeroutput>0.0f</computeroutput>. Parameter <computeroutput>arc_size</computeroutput> defaults to <computeroutput>2.0f*MR::PI_F</computeroutput>. Parameter <computeroutput>length</computeroutput> defaults to <computeroutput>1.0f</computeroutput>. Parameter <computeroutput>resolution</computeroutput> defaults to <computeroutput>16</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -11010,7 +11010,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>finds the vertex in the mesh part having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput><ref refid="classMR_1a925381337a069babcb040de100be0ed1" kindref="member">MR.findDirMax</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree.Yes</ref></computeroutput>. </para>
+<para>finds the vertex in the mesh part having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput><ref refid="classMR_1a925381337a069babcb040de100be0ed1" kindref="member">MR.findDirMax</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.UseAABBTree.Yes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -11038,7 +11038,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>finds the vertex in the mesh part having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput><ref refid="classMR_1a925381337a069babcb040de100be0ed1" kindref="member">MR.findDirMax</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree.Yes</ref></computeroutput>. </para>
+<para>finds the vertex in the mesh part having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput><ref refid="classMR_1a925381337a069babcb040de100be0ed1" kindref="member">MR.findDirMax</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.UseAABBTree.Yes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -11066,7 +11066,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>finds the vertex in the mesh part having the largest projection on given direction, optionally uses aabb-points-tree inside for faster computation Generated from function <computeroutput><ref refid="classMR_1a925381337a069babcb040de100be0ed1" kindref="member">MR.findDirMax</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree.Yes</ref></computeroutput>. </para>
+<para>finds the vertex in the mesh part having the largest projection on given direction, optionally uses aabb-points-tree inside for faster computation Generated from function <computeroutput><ref refid="classMR_1a925381337a069babcb040de100be0ed1" kindref="member">MR.findDirMax</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.UseAABBTree.Yes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -11094,7 +11094,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>finds the vertex in the polyline having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput><ref refid="classMR_1a925381337a069babcb040de100be0ed1" kindref="member">MR.findDirMax</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree.Yes</ref></computeroutput>. </para>
+<para>finds the vertex in the polyline having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput><ref refid="classMR_1a925381337a069babcb040de100be0ed1" kindref="member">MR.findDirMax</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.UseAABBTree.Yes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -11122,7 +11122,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>finds the vertex in the polyline having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput><ref refid="classMR_1a925381337a069babcb040de100be0ed1" kindref="member">MR.findDirMax</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree.Yes</ref></computeroutput>. </para>
+<para>finds the vertex in the polyline having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput><ref refid="classMR_1a925381337a069babcb040de100be0ed1" kindref="member">MR.findDirMax</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.UseAABBTree.Yes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -11155,7 +11155,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>finds the point in the cloud having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput><ref refid="classMR_1a925381337a069babcb040de100be0ed1" kindref="member">MR.findDirMax</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree.Yes</ref></computeroutput>. </para>
+<para>finds the point in the cloud having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput><ref refid="classMR_1a925381337a069babcb040de100be0ed1" kindref="member">MR.findDirMax</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.UseAABBTree.Yes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14554,7 +14554,7 @@ input contours must be closed within the area of distance map and be consistentl
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>extracts all plane sections of given mesh Generated from function <computeroutput><ref refid="classMR_1ab0efd041327bc7e9c98bc4db1910e6a6" kindref="member">MR.extractPlaneSections</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree.Yes</ref></computeroutput>. </para>
+<para>extracts all plane sections of given mesh Generated from function <computeroutput><ref refid="classMR_1ab0efd041327bc7e9c98bc4db1910e6a6" kindref="member">MR.extractPlaneSections</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.UseAABBTree.Yes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14582,7 +14582,7 @@ input contours must be closed within the area of distance map and be consistentl
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>quickly returns true if extractPlaneSections produce not-empty set for the same arguments Generated from function <computeroutput><ref refid="classMR_1a69329947bbaba290d2b9d250d9eff8ec" kindref="member">MR.hasAnyPlaneSection</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree.Yes</ref></computeroutput>. </para>
+<para>quickly returns true if extractPlaneSections produce not-empty set for the same arguments Generated from function <computeroutput><ref refid="classMR_1a69329947bbaba290d2b9d250d9eff8ec" kindref="member">MR.hasAnyPlaneSection</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.UseAABBTree.Yes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14610,7 +14610,7 @@ input contours must be closed within the area of distance map and be consistentl
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>extracts all sections of given mesh with the plane z=zLevel Generated from function <computeroutput><ref refid="classMR_1a45cc0c61d332d7bc1f1f303b42aa57c0" kindref="member">MR.extractXYPlaneSections</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree.Yes</ref></computeroutput>. </para>
+<para>extracts all sections of given mesh with the plane z=zLevel Generated from function <computeroutput><ref refid="classMR_1a45cc0c61d332d7bc1f1f303b42aa57c0" kindref="member">MR.extractXYPlaneSections</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.UseAABBTree.Yes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14638,7 +14638,7 @@ input contours must be closed within the area of distance map and be consistentl
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>quickly returns true if extractXYPlaneSections produce not-empty set for the same arguments Generated from function <computeroutput><ref refid="classMR_1a63aeac32114868c7c9eefa0886a7538f" kindref="member">MR.hasAnyXYPlaneSection</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree.Yes</ref></computeroutput>. </para>
+<para>quickly returns true if extractXYPlaneSections produce not-empty set for the same arguments Generated from function <computeroutput><ref refid="classMR_1a63aeac32114868c7c9eefa0886a7538f" kindref="member">MR.hasAnyXYPlaneSection</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.UseAABBTree.Yes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -14685,7 +14685,7 @@ input contours must be closed within the area of distance map and be consistentl
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-this function must be faster than extractXYPlaneSections function when connecting continuous contours take most of the time Generated from function <computeroutput><ref refid="classMR_1a579c511bc2373a0f450d09e4a00fa5dd" kindref="member">MR.findTriangleSectionsByXYPlane</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">UseAABBTree.Yes</ref></computeroutput>. </para>
+this function must be faster than extractXYPlaneSections function when connecting continuous contours take most of the time Generated from function <computeroutput><ref refid="classMR_1a579c511bc2373a0f450d09e4a00fa5dd" kindref="member">MR.findTriangleSectionsByXYPlane</ref></computeroutput>. Parameter <computeroutput>u</computeroutput> defaults to <computeroutput><ref refid="classMR_1adc3b249d0ba364990f1bc96d27fa7d88a93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.UseAABBTree.Yes</ref></computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -15529,7 +15529,7 @@ this function must be faster than extractXYPlaneSections function when connectin
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a349c695b6ff571802027d1671ce96c54" kindref="member">MR.findBestFreeformDeformation</ref></computeroutput>. Parameter <computeroutput>resolution</computeroutput> defaults to <computeroutput>Vector3i::diagonal(2)</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a349c695b6ff571802027d1671ce96c54" kindref="member">MR.findBestFreeformDeformation</ref></computeroutput>. Parameter <computeroutput>resolution</computeroutput> defaults to <computeroutput>MR::Vector3&amp;lt;int&amp;gt;::diagonal(2)</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28101,7 +28101,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28125,7 +28125,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28149,7 +28149,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28173,7 +28173,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28197,7 +28197,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28221,7 +28221,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28245,7 +28245,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28269,7 +28269,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28293,7 +28293,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28317,7 +28317,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput>MR::getAllObjectsInTree&amp;lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28341,7 +28341,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28365,7 +28365,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28389,7 +28389,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28413,7 +28413,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28437,7 +28437,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28461,7 +28461,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28485,7 +28485,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28509,7 +28509,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28533,7 +28533,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28557,7 +28557,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
+<para>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostVisibleObjects&amp;lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28586,7 +28586,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28615,7 +28615,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28644,7 +28644,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28673,7 +28673,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28702,7 +28702,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28731,7 +28731,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28760,7 +28760,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28789,7 +28789,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28818,7 +28818,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -28847,7 +28847,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <computeroutput>MR::getTopmostObjects&amp;lt;<ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref>&amp;gt;</computeroutput>. Parameter <computeroutput>type</computeroutput> defaults to <computeroutput><ref refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ada8318ce1c96df6ce21eb2ed428c6d0f85" kindref="member">MR.ObjectSelectivityType.Selectable</ref></computeroutput>. Parameter <computeroutput>visibilityCheck</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -30591,7 +30591,7 @@ do not really keeps volume but tries hard </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>nullopt if progress returned false Generated from function <computeroutput><ref refid="classMR_1a9908eb5b4eb89b642d01b772e648d8a2" kindref="member">MR.makeUnorientedNormals</ref></computeroutput>. Parameter <computeroutput>progress</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>orient</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad0f6ea3aa4937d3c311b441344576dabaacd381e68b92357896c0856efebb3666" kindref="member">OrientNormals.Smart</ref></computeroutput>. </para>
+<simplesect kind="return"><para>nullopt if progress returned false Generated from function <computeroutput><ref refid="classMR_1a9908eb5b4eb89b642d01b772e648d8a2" kindref="member">MR.makeUnorientedNormals</ref></computeroutput>. Parameter <computeroutput>progress</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>orient</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad0f6ea3aa4937d3c311b441344576dabaacd381e68b92357896c0856efebb3666" kindref="member">MR.OrientNormals.Smart</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -30636,7 +30636,7 @@ do not really keeps volume but tries hard </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>nullopt if progress returned false Generated from function <computeroutput><ref refid="classMR_1a9908eb5b4eb89b642d01b772e648d8a2" kindref="member">MR.makeUnorientedNormals</ref></computeroutput>. Parameter <computeroutput>progress</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>orient</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad0f6ea3aa4937d3c311b441344576dabaacd381e68b92357896c0856efebb3666" kindref="member">OrientNormals.Smart</ref></computeroutput>. </para>
+<simplesect kind="return"><para>nullopt if progress returned false Generated from function <computeroutput><ref refid="classMR_1a9908eb5b4eb89b642d01b772e648d8a2" kindref="member">MR.makeUnorientedNormals</ref></computeroutput>. Parameter <computeroutput>progress</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>orient</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad0f6ea3aa4937d3c311b441344576dabaacd381e68b92357896c0856efebb3666" kindref="member">MR.OrientNormals.Smart</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -30693,7 +30693,7 @@ do not really keeps volume but tries hard </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>nullopt if progress returned false Generated from function <computeroutput><ref refid="classMR_1a9908eb5b4eb89b642d01b772e648d8a2" kindref="member">MR.makeUnorientedNormals</ref></computeroutput>. Parameter <computeroutput>progress</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>orient</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad0f6ea3aa4937d3c311b441344576dabaacd381e68b92357896c0856efebb3666" kindref="member">OrientNormals.Smart</ref></computeroutput>. </para>
+<simplesect kind="return"><para>nullopt if progress returned false Generated from function <computeroutput><ref refid="classMR_1a9908eb5b4eb89b642d01b772e648d8a2" kindref="member">MR.makeUnorientedNormals</ref></computeroutput>. Parameter <computeroutput>progress</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>orient</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad0f6ea3aa4937d3c311b441344576dabaacd381e68b92357896c0856efebb3666" kindref="member">MR.OrientNormals.Smart</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -33479,7 +33479,7 @@ do not really keeps volume but tries hard </para>
 <parametername>fixedSharpVertices</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>in these vertices the surface can be not-smooth Generated from function <computeroutput><ref refid="classMR_1a7f0dd18f5fee9e1e312a21bd143fd9a4" kindref="member">MR.positionVertsSmoothly</ref></computeroutput>. Parameter <computeroutput>edgeWeights</computeroutput> defaults to <computeroutput><ref refid="classMR_1a886c75fb9652aa7838a87d63c33a5f9eaf2ccdc14df1f860d7b09661c47cc15c9" kindref="member">EdgeWeights.Cotan</ref></computeroutput>. Parameter <computeroutput>vmass</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass.Unit</ref></computeroutput>. </para>
+<para>in these vertices the surface can be not-smooth Generated from function <computeroutput><ref refid="classMR_1a7f0dd18f5fee9e1e312a21bd143fd9a4" kindref="member">MR.positionVertsSmoothly</ref></computeroutput>. Parameter <computeroutput>edgeWeights</computeroutput> defaults to <computeroutput><ref refid="classMR_1a886c75fb9652aa7838a87d63c33a5f9eaf2ccdc14df1f860d7b09661c47cc15c9" kindref="member">MR.EdgeWeights.Cotan</ref></computeroutput>. Parameter <computeroutput>vmass</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" kindref="member">MR.VertexMass.Unit</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -33523,7 +33523,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a7f0dd18f5fee9e1e312a21bd143fd9a4" kindref="member">MR.positionVertsSmoothly</ref></computeroutput>. Parameter <computeroutput>edgeWeights</computeroutput> defaults to <computeroutput><ref refid="classMR_1a886c75fb9652aa7838a87d63c33a5f9eaf2ccdc14df1f860d7b09661c47cc15c9" kindref="member">EdgeWeights.Cotan</ref></computeroutput>. Parameter <computeroutput>vmass</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass.Unit</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a7f0dd18f5fee9e1e312a21bd143fd9a4" kindref="member">MR.positionVertsSmoothly</ref></computeroutput>. Parameter <computeroutput>edgeWeights</computeroutput> defaults to <computeroutput><ref refid="classMR_1a886c75fb9652aa7838a87d63c33a5f9eaf2ccdc14df1f860d7b09661c47cc15c9" kindref="member">MR.EdgeWeights.Cotan</ref></computeroutput>. Parameter <computeroutput>vmass</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" kindref="member">MR.VertexMass.Unit</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -35207,7 +35207,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns closed loop of region boundary starting from given region boundary edge (region faces on the left, and not-region faces or holes on the right); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to right Generated from function <computeroutput><ref refid="classMR_1adecb0361a4f6a67b8cdeb6cfc2e85cab" kindref="member">MR.trackLeftBoundaryLoop</ref></computeroutput>. Parameter <computeroutput>turn</computeroutput> defaults to <computeroutput><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">Turn.Rightmost</ref></computeroutput>. </para>
+<para>returns closed loop of region boundary starting from given region boundary edge (region faces on the left, and not-region faces or holes on the right); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to right Generated from function <computeroutput><ref refid="classMR_1adecb0361a4f6a67b8cdeb6cfc2e85cab" kindref="member">MR.trackLeftBoundaryLoop</ref></computeroutput>. Parameter <computeroutput>turn</computeroutput> defaults to <computeroutput><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">MR.Turn.Rightmost</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -35240,7 +35240,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns closed loop of region boundary starting from given region boundary edge (region faces on the right, and not-region faces or holes on the left); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to left Generated from function <computeroutput><ref refid="classMR_1a53a4085de1d48f766a62509fd60b28e6" kindref="member">MR.trackRightBoundaryLoop</ref></computeroutput>. Parameter <computeroutput>turn</computeroutput> defaults to <computeroutput><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">Turn.Rightmost</ref></computeroutput>. </para>
+<para>returns closed loop of region boundary starting from given region boundary edge (region faces on the right, and not-region faces or holes on the left); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to left Generated from function <computeroutput><ref refid="classMR_1a53a4085de1d48f766a62509fd60b28e6" kindref="member">MR.trackRightBoundaryLoop</ref></computeroutput>. Parameter <computeroutput>turn</computeroutput> defaults to <computeroutput><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">MR.Turn.Rightmost</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -35437,7 +35437,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns all region boundary loops; every loop has region faces on the left, and not-region faces or holes on the right Generated from function <computeroutput><ref refid="classMR_1a52f299aae0b2eb2301fbdd434fe335d5" kindref="member">MR.findLeftBoundary</ref></computeroutput>. Parameter <computeroutput>turn</computeroutput> defaults to <computeroutput><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">Turn.Rightmost</ref></computeroutput>. </para>
+<para>returns all region boundary loops; every loop has region faces on the left, and not-region faces or holes on the right Generated from function <computeroutput><ref refid="classMR_1a52f299aae0b2eb2301fbdd434fe335d5" kindref="member">MR.findLeftBoundary</ref></computeroutput>. Parameter <computeroutput>turn</computeroutput> defaults to <computeroutput><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">MR.Turn.Rightmost</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -35466,7 +35466,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns all region boundary loops; every loop has region faces on the right, and not-region faces or holes on the left Generated from function <computeroutput><ref refid="classMR_1a826dbfac119851fb6577c238c61da01d" kindref="member">MR.findRightBoundary</ref></computeroutput>. Parameter <computeroutput>turn</computeroutput> defaults to <computeroutput><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">Turn.Rightmost</ref></computeroutput>. </para>
+<para>returns all region boundary loops; every loop has region faces on the right, and not-region faces or holes on the left Generated from function <computeroutput><ref refid="classMR_1a826dbfac119851fb6577c238c61da01d" kindref="member">MR.findRightBoundary</ref></computeroutput>. Parameter <computeroutput>turn</computeroutput> defaults to <computeroutput><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">MR.Turn.Rightmost</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -38050,7 +38050,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns intermediate points of the geodesic path from start to end, where it crosses mesh edges; It is the same as calling <ref refid="classMR_1a9c9f9dbac85b22b7e64ee78a83838e9d" kindref="member">computeGeodesicPathApprox()</ref> then <ref refid="classMR_1adeae5acc35a0d8dafb0b07fa1e0d9daa" kindref="member">reducePath()</ref> Generated from function <computeroutput><ref refid="classMR_1a27d9a189a61a4f008a10861ec891f8f2" kindref="member">MR.computeGeodesicPath</ref></computeroutput>. Parameter <computeroutput>atype</computeroutput> defaults to <computeroutput><ref refid="classMR_1aeefd25abc54607bc39e87bf80e80bf04aa379190d516779f65bad72b240e81435" kindref="member">GeodesicPathApprox.FastMarching</ref></computeroutput>. Parameter <computeroutput>maxGeodesicIters</computeroutput> defaults to <computeroutput>100</computeroutput>. </para>
+<para>returns intermediate points of the geodesic path from start to end, where it crosses mesh edges; It is the same as calling <ref refid="classMR_1a9c9f9dbac85b22b7e64ee78a83838e9d" kindref="member">computeGeodesicPathApprox()</ref> then <ref refid="classMR_1adeae5acc35a0d8dafb0b07fa1e0d9daa" kindref="member">reducePath()</ref> Generated from function <computeroutput><ref refid="classMR_1a27d9a189a61a4f008a10861ec891f8f2" kindref="member">MR.computeGeodesicPath</ref></computeroutput>. Parameter <computeroutput>atype</computeroutput> defaults to <computeroutput><ref refid="classMR_1aeefd25abc54607bc39e87bf80e80bf04aa379190d516779f65bad72b240e81435" kindref="member">MR.GeodesicPathApprox.FastMarching</ref></computeroutput>. Parameter <computeroutput>maxGeodesicIters</computeroutput> defaults to <computeroutput>100</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

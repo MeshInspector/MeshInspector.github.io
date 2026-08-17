@@ -504,9 +504,9 @@ Object to show sphere feature, position and radius are controlled by xf
       <member refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter_1a047131f4d6f07708ce219ace69abc136" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a675713afd7ce3e2b8196c36c74f4477e" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>getWorldBox</name></member>
       <member refid="classmrmeshpy_1_1Object_1a000669ce3765e97358761b420a4b3283" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>getWorldTreeBox</name></member>
-      <member refid="classmrmeshpy_1_1VisualObject_1a7423a165764f0bf97fbbfcb6ef6913e2" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a8ab6afcbd16f9abf56f55f679c80460f" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>globalClippedByPlane</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1ade27c4b572461dfa2f68ed3b8ecafb70" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>globalClippedByPlaneMask</name></member>
-      <member refid="classmrmeshpy_1_1Object_1a78a7d136a58b2e69851ac59192bcd5b5" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>globalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ac7b6c94738fee4042bea1b8dbd30ce88" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>globalVisibility</name></member>
       <member refid="classmrmeshpy_1_1Object_1a4b1a4fd5f92fc87757bc139ce2e770be" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>globalVisibilityMask</name></member>
       <member refid="classmrmeshpy_1_1Object_1a3270abd9924fa3f784d3105824979f0b" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>hasModel</name></member>
       <member refid="classmrmeshpy_1_1Object_1a21510ca05f3888f5db9ff0aae662c9d1" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>hasVisualRepresentation</name></member>
@@ -516,9 +516,9 @@ Object to show sphere feature, position and radius are controlled by xf
       <member refid="classmrmeshpy_1_1Object_1afcc5164e9ca381ad398640ab2729fa59" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>isGlobalAncillary</name></member>
       <member refid="classmrmeshpy_1_1Object_1adb58092748e5b61228ff7ed23b9c0d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>isLocked</name></member>
       <member refid="classmrmeshpy_1_1Object_1aad4248d019ab25e15e9f40f726c1f3d3" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>isParentLocked</name></member>
-      <member refid="classmrmeshpy_1_1VisualObject_1a90715c5c04e6a8c2a5d0998877fec7d7" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>isPickable</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a6b0ad0aeac71a68ad9c8f707e0bab185" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>isPickable</name></member>
       <member refid="classmrmeshpy_1_1Object_1add3395c8e6e84a9d82d622557fb6939f" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>isSelected</name></member>
-      <member refid="classmrmeshpy_1_1Object_1ad160388c69186e8a83fde5e8eb02535e" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>isVisible</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a796925d8eb6a02da895396a7c7529aeb" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>isVisible</name></member>
       <member refid="classmrmeshpy_1_1Object_1a1df02ba03a7110bf58c7f740696f4c35" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>name</name></member>
       <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1ObjectChildrenHolder_1a9841054fc788030ad0fb8289bcf3398e" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>operator</name></member>
@@ -554,14 +554,14 @@ Object to show sphere feature, position and radius are controlled by xf
       <member refid="classmrmeshpy_1_1VisualObject_1acdbcc2226221f32f64842601d9e1e4a3" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setFrontColorsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a5323ee4dc727ada25adb2c462a136568" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setGlobalAlpha</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1afa64178b2ff0ec0f3160412286a20124" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setGlobalAlphaForAllViewports</name></member>
-      <member refid="classmrmeshpy_1_1VisualObject_1acf83e4c9435a077550174b95dbba85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setGlobalClippedByPlane</name></member>
-      <member refid="classmrmeshpy_1_1Object_1a1f260bf94c3aaca96c76a3b2df7e4123" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setGlobalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a794f2ba21440384fe132aabe14b578ba" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a721bdb23c6fdb6cd8a04aa0b7531c247" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setGlobalVisibility</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1a2790c6551ffa765a85c99292e11c3560" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setLineWidth</name></member>
       <member refid="classmrmeshpy_1_1Object_1aff9e7cf21687080d8eb1322b76772577" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setLocked</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1aa7412a85414788847a881e0c18c59878" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setMainFeatureAlpha</name></member>
       <member refid="classmrmeshpy_1_1Object_1a9c9747a45a791c65be899d3376c0b6ef" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setName</name></member>
       <member refid="classmrmeshpy_1_1Object_1aae28ca7af2e7903818a96c60d5959e07" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setParentLocked</name></member>
-      <member refid="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setPickable</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a69128c5df21faac74cf246e1815efb18" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setPickable</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1ac56f7310a58bc5eaa32a7e739685f2b5" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setPointSize</name></member>
       <member refid="classmrmeshpy_1_1SphereObject_1a06c40f0a1fe3697ffdb39aa62348582c" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setRadius</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a03bf218ed762761b72a397cf74ac6b25" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setShininess</name></member>
@@ -573,7 +573,7 @@ Object to show sphere feature, position and radius are controlled by xf
       <member refid="classmrmeshpy_1_1FeatureObject_1a537928713294647267cf4d68345087b4" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setSubfeaturePointSize</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a835cb96e26e7068936c68aba9046257e" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classmrmeshpy_1_1Object_1a2a093177bee96f9715ec03afc69262aa" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setVisibilityMask</name></member>
-      <member refid="classmrmeshpy_1_1Object_1a8b7a91d7379e983adad42fd434e04381" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setVisible</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a05796e15ae29d5b6fbf763d2a7918745" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setVisible</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a714cc9052b7153f7263836546050015f" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setVisualizeProperty</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a48dca93e69125ceede505cae9f2e4629" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setVisualizePropertyMask</name></member>
       <member refid="classmrmeshpy_1_1Object_1a77d09c218526c06a68035b076296bcda" prot="public" virt="non-virtual"><scope>mrmeshpy::SphereObject</scope><name>setWorldXf</name></member>

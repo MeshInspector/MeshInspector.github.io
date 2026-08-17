@@ -259,10 +259,10 @@ ensure updating render object after using it
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21661" bodyend="21662"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1a8fadf4efb7cd6cd6876dfaa4e25b6076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1a978da9e8e62c7df1ae7245f5bcea7c99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.FreeFormDeformer.init</definition>
-        <argsstring>(self, Vector3i resolution=&apos;Vector3i::diagonal(2)&apos;, Box3f initialBox=&apos;MR::Box3f()&apos;)</argsstring>
+        <argsstring>(self, Vector3i resolution=&apos;MR::Vector3&lt; int &gt;::diagonal(2)&apos;, Box3f initialBox=&apos;MR::Box3f()&apos;)</argsstring>
         <name>init</name>
         <qualifiedname>mrmeshpy.FreeFormDeformer.init</qualifiedname>
         <param>
@@ -272,7 +272,7 @@ ensure updating render object after using it
         <param>
           <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
           <declname>resolution</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1Vector3i_1ab5ded95d8ce306e564eb4008c5df8021" kindref="member">Vector3i::diagonal</ref>(2)&apos;</defval>
+          <defval>&apos;MR::Vector3&lt; int &gt;::diagonal(2)&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
@@ -363,7 +363,7 @@ sets ref grid by initialBox, if initialBox is invalid uses mesh bounding box ins
       <member refid="classmrmeshpy_1_1FreeFormDeformer_1acb20dd00aca79f5799142d0cd7f786ad" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>getIndex</name></member>
       <member refid="classmrmeshpy_1_1FreeFormDeformer_1a477f5a81a52f43818d38528017fee548" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>getRefGridPointPosition</name></member>
       <member refid="classmrmeshpy_1_1FreeFormDeformer_1a37a4ea9d4ce199528ebe1acaa189c3d5" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>getResolution</name></member>
-      <member refid="classmrmeshpy_1_1FreeFormDeformer_1a8fadf4efb7cd6cd6876dfaa4e25b6076" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>init</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1a978da9e8e62c7df1ae7245f5bcea7c99" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>init</name></member>
       <member refid="classmrmeshpy_1_1FreeFormDeformer_1ac9501e4ad43da3edf8c091431bc1cb67" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>setAllRefGridPositions</name></member>
       <member refid="classmrmeshpy_1_1FreeFormDeformer_1af33a12dede8ac15e4c1fc3edfc658b56" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>setRefGridPointPosition</name></member>
     </listofallmembers>

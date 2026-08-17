@@ -71,10 +71,10 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormBestFit_1ae1e450673ee994549cf85d4f90fdb2bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormBestFit_1a732f9108657fb491361c86aaa8aaad50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.FreeFormBestFit.__init__</definition>
-        <argsstring>(self, Box3d box, Vector3i resolution=&apos;Vector3i::diagonal(2)&apos;)</argsstring>
+        <argsstring>(self, Box3d box, Vector3i resolution=&apos;MR::Vector3&lt; int &gt;::diagonal(2)&apos;)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FreeFormBestFit.__init__</qualifiedname>
         <param>
@@ -88,7 +88,7 @@
         <param>
           <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
           <declname>resolution</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1Vector3i_1ab5ded95d8ce306e564eb4008c5df8021" kindref="member">Vector3i::diagonal</ref>(2)&apos;</defval>
+          <defval>&apos;MR::Vector3&lt; int &gt;::diagonal(2)&apos;</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -289,7 +289,7 @@ origin ref grid as box corners ( resolution parameter specifies how to divide bo
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21561" bodyend="21613"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FreeFormBestFit_1a18fe92aecb3d174ca172a6fecbbc43f6" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormBestFit</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1FreeFormBestFit_1ae1e450673ee994549cf85d4f90fdb2bf" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormBestFit</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormBestFit_1a732f9108657fb491361c86aaa8aaad50" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormBestFit</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FreeFormBestFit_1a62703f169f6d046ffcb0251df2a0ba2b" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormBestFit</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FreeFormBestFit_1a3c8e2ddc8430ab8fafacd693d232cec7" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormBestFit</scope><name>addOther</name></member>
       <member refid="classmrmeshpy_1_1FreeFormBestFit_1a66891ecb6c0c9cf0fd5c99ebe9ec0cb3" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormBestFit</scope><name>addPair</name></member>

@@ -2955,7 +2955,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>given a (region) boundary edge with no right face in given region, returns next boundary edge for the same region: dest(e)==org(res); </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">turn</td><td>determines the selection of next boundary edge in case of several alternatives Generated from method <span class="tt">MR::MeshTopology::nextLeftBd</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. Parameter <span class="tt">turn</span> has a default argument: <span class="tt">Turn::Rightmost</span>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">turn</td><td>determines the selection of next boundary edge in case of several alternatives Generated from method <span class="tt">MR::MeshTopology::nextLeftBd</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. Parameter <span class="tt">turn</span> has a default argument: <span class="tt">MR::Turn::Rightmost</span>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3225,7 +3225,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>given a (region) boundary edge with no right face in given region, returns previous boundary edge for the same region; dest(res)==org(e); </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">turn</td><td>determines the selection of previous boundary edge in case of several alternatives, note the turn is from previous (returned) edge to the current edge Generated from method <span class="tt">MR::MeshTopology::prevLeftBd</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. Parameter <span class="tt">turn</span> has a default argument: <span class="tt">Turn::Rightmost</span>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">turn</td><td>determines the selection of previous boundary edge in case of several alternatives, note the turn is from previous (returned) edge to the current edge Generated from method <span class="tt">MR::MeshTopology::prevLeftBd</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. Parameter <span class="tt">turn</span> has a default argument: <span class="tt">MR::Turn::Rightmost</span>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>

@@ -223,7 +223,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>extracts all plane sections of given mesh Generated from function <computeroutput>MR::extractPlaneSections</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__EdgePoint_8h_1abf1bd0dc298f0befe0c41071883be551" kindref="member">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>extracts all plane sections of given mesh Generated from function <computeroutput>MR::extractPlaneSections</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>MR::UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__EdgePoint_8h_1abf1bd0dc298f0befe0c41071883be551" kindref="member">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -249,7 +249,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>quickly returns true if extractPlaneSections produce not-empty set for the same arguments Generated from function <computeroutput>MR::hasAnyPlaneSection</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
+<para>quickly returns true if extractPlaneSections produce not-empty set for the same arguments Generated from function <computeroutput>MR::hasAnyPlaneSection</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>MR::UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -275,7 +275,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>extracts all sections of given mesh with the plane z=zLevel Generated from function <computeroutput>MR::extractXYPlaneSections</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__EdgePoint_8h_1abf1bd0dc298f0befe0c41071883be551" kindref="member">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>extracts all sections of given mesh with the plane z=zLevel Generated from function <computeroutput>MR::extractXYPlaneSections</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>MR::UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__EdgePoint_8h_1abf1bd0dc298f0befe0c41071883be551" kindref="member">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -301,7 +301,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>quickly returns true if extractXYPlaneSections produce not-empty set for the same arguments Generated from function <computeroutput>MR::hasAnyXYPlaneSection</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
+<para>quickly returns true if extractXYPlaneSections produce not-empty set for the same arguments Generated from function <computeroutput>MR::hasAnyXYPlaneSection</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>MR::UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -342,7 +342,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-this function must be faster than extractXYPlaneSections function when connecting continuous contours take most of the time Generated from function <computeroutput>MR::findTriangleSectionsByXYPlane</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>faces</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__LineSegm3f_8h_1a3eda08640d7804599f35772e67f3c091" kindref="member">MR_std_vector_MR_LineSegm3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+this function must be faster than extractXYPlaneSections function when connecting continuous contours take most of the time Generated from function <computeroutput>MR::findTriangleSectionsByXYPlane</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>faces</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>MR::UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__LineSegm3f_8h_1a3eda08640d7804599f35772e67f3c091" kindref="member">MR_std_vector_MR_LineSegm3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

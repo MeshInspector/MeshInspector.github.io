@@ -149,7 +149,7 @@
 <parametername>fixedSharpVertices</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>in these vertices the surface can be not-smooth Generated from function <computeroutput>MR::positionVertsSmoothly</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>verts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>edgeWeights</computeroutput> has a default argument: <computeroutput>EdgeWeights::Cotan</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>vmass</computeroutput> has a default argument: <computeroutput>VertexMass::Unit</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>fixedSharpVertices</computeroutput> defaults to a null pointer in C++. </para>
+<para>in these vertices the surface can be not-smooth Generated from function <computeroutput>MR::positionVertsSmoothly</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>verts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>edgeWeights</computeroutput> has a default argument: <computeroutput>MR::EdgeWeights::Cotan</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>vmass</computeroutput> has a default argument: <computeroutput>MR::VertexMass::Unit</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>fixedSharpVertices</computeroutput> defaults to a null pointer in C++. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -191,7 +191,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::positionVertsSmoothly</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>verts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>edgeWeights</computeroutput> has a default argument: <computeroutput>EdgeWeights::Cotan</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>vmass</computeroutput> has a default argument: <computeroutput>VertexMass::Unit</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>fixedSharpVertices</computeroutput> defaults to a null pointer in C++. </para>
+<para>Generated from function <computeroutput>MR::positionVertsSmoothly</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>verts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>edgeWeights</computeroutput> has a default argument: <computeroutput>MR::EdgeWeights::Cotan</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>vmass</computeroutput> has a default argument: <computeroutput>MR::VertexMass::Unit</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>fixedSharpVertices</computeroutput> defaults to a null pointer in C++. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

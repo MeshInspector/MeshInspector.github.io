@@ -2962,7 +2962,7 @@
 <parametername>turn</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>determines the selection of next boundary edge in case of several alternatives Generated from method <computeroutput>MR::MeshTopology::nextLeftBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>turn</computeroutput> has a default argument: <computeroutput>Turn::Rightmost</computeroutput>, pass a null pointer to use it. </para>
+<para>determines the selection of next boundary edge in case of several alternatives Generated from method <computeroutput>MR::MeshTopology::nextLeftBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>turn</computeroutput> has a default argument: <computeroutput>MR::Turn::Rightmost</computeroutput>, pass a null pointer to use it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -3001,7 +3001,7 @@
 <parametername>turn</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>determines the selection of previous boundary edge in case of several alternatives, note the turn is from previous (returned) edge to the current edge Generated from method <computeroutput>MR::MeshTopology::prevLeftBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>turn</computeroutput> has a default argument: <computeroutput>Turn::Rightmost</computeroutput>, pass a null pointer to use it. </para>
+<para>determines the selection of previous boundary edge in case of several alternatives, note the turn is from previous (returned) edge to the current edge Generated from method <computeroutput>MR::MeshTopology::prevLeftBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>turn</computeroutput> has a default argument: <computeroutput>MR::Turn::Rightmost</computeroutput>, pass a null pointer to use it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

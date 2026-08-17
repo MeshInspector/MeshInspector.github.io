@@ -1741,7 +1741,7 @@
 <parametername>turn</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>determines the selection of next boundary edge in case of several alternatives Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshTopology_1a5133e74fc8095994ce9bdd17c3a79bbd" kindref="member">MR.MeshTopology.nextLeftBd</ref></computeroutput>. Parameter <computeroutput>turn</computeroutput> defaults to <computeroutput><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">Turn.Rightmost</ref></computeroutput>. </para>
+<para>determines the selection of next boundary edge in case of several alternatives Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshTopology_1a5133e74fc8095994ce9bdd17c3a79bbd" kindref="member">MR.MeshTopology.nextLeftBd</ref></computeroutput>. Parameter <computeroutput>turn</computeroutput> defaults to <computeroutput><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">MR.Turn.Rightmost</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1780,7 +1780,7 @@
 <parametername>turn</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>determines the selection of previous boundary edge in case of several alternatives, note the turn is from previous (returned) edge to the current edge Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshTopology_1a644f6cc252453967628919bee799a04a" kindref="member">MR.MeshTopology.prevLeftBd</ref></computeroutput>. Parameter <computeroutput>turn</computeroutput> defaults to <computeroutput><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">Turn.Rightmost</ref></computeroutput>. </para>
+<para>determines the selection of previous boundary edge in case of several alternatives, note the turn is from previous (returned) edge to the current edge Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshTopology_1a644f6cc252453967628919bee799a04a" kindref="member">MR.MeshTopology.prevLeftBd</ref></computeroutput>. Parameter <computeroutput>turn</computeroutput> defaults to <computeroutput><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13eada554bebc8ec7b98eec47779dd22ed72d9" kindref="member">MR.Turn.Rightmost</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

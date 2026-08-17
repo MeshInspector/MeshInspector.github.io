@@ -251,10 +251,10 @@ computes and writes free vertex positions in the given points vector as well
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25983" bodyend="25986"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1ab25bca66c5156873056d36f9aeb28b18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1afd2dcc2371805915752e4d3122f459c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Laplacian.init</definition>
-        <argsstring>(self, VertBitSet freeVerts, EdgeWeights weights, VertexMass vmass=&apos;VertexMass::Unit&apos;, RememberShape rem=&apos;RememberShape::Yes&apos;)</argsstring>
+        <argsstring>(self, VertBitSet freeVerts, EdgeWeights weights, VertexMass vmass=&apos;MR::VertexMass::Unit&apos;, RememberShape rem=&apos;MR::RememberShape::Yes&apos;)</argsstring>
         <name>init</name>
         <qualifiedname>mrmeshpy.Laplacian.init</qualifiedname>
         <param>
@@ -272,12 +272,12 @@ computes and writes free vertex positions in the given points vector as well
         <param>
           <type><ref refid="classmrmeshpy_1_1VertexMass" kindref="compound">VertexMass</ref></type>
           <declname>vmass</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1VertexMass_1adbc5fb8f5b08837bd2e7640876531753" kindref="member">VertexMass::Unit</ref>&apos;</defval>
+          <defval>&apos;MR::VertexMass::Unit&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1RememberShape" kindref="compound">RememberShape</ref></type>
           <declname>rem</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1RememberShape_1ab424adad106e29292331caebfbc45e91" kindref="member">RememberShape::Yes</ref>&apos;</defval>
+          <defval>&apos;MR::RememberShape::Yes&apos;</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -291,10 +291,10 @@ computes and writes free vertex positions in the given points vector as well
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25987" bodyend="25992"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a02a0041d9ada1a0e0d6d35b9cb6377db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Laplacian_1a1f5544862adcf69a8d4b4c8eb235f93b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Laplacian.initFromPoints</definition>
-        <argsstring>(self, VertCoords points, VertBitSet freeVerts, EdgeWeights weights, VertexMass vmass=&apos;VertexMass::Unit&apos;, RememberShape rem=&apos;RememberShape::Yes&apos;)</argsstring>
+        <argsstring>(self, VertCoords points, VertBitSet freeVerts, EdgeWeights weights, VertexMass vmass=&apos;MR::VertexMass::Unit&apos;, RememberShape rem=&apos;MR::RememberShape::Yes&apos;)</argsstring>
         <name>initFromPoints</name>
         <qualifiedname>mrmeshpy.Laplacian.initFromPoints</qualifiedname>
         <param>
@@ -316,12 +316,12 @@ computes and writes free vertex positions in the given points vector as well
         <param>
           <type><ref refid="classmrmeshpy_1_1VertexMass" kindref="compound">VertexMass</ref></type>
           <declname>vmass</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1VertexMass_1adbc5fb8f5b08837bd2e7640876531753" kindref="member">VertexMass::Unit</ref>&apos;</defval>
+          <defval>&apos;MR::VertexMass::Unit&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1RememberShape" kindref="compound">RememberShape</ref></type>
           <declname>rem</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1RememberShape_1ab424adad106e29292331caebfbc45e91" kindref="member">RememberShape::Yes</ref>&apos;</defval>
+          <defval>&apos;MR::RememberShape::Yes&apos;</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -489,8 +489,8 @@ Then steps 1-4 or 2-4 can be repeated.
       <member refid="classmrmeshpy_1_1Laplacian_1a4f8471107ab24c092d9f4433137a7123" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>fixVertex</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a6d27c2a94043d2a8efae6288902a9e5d" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>fixVertex</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a3679c8f277694985b452a72ea9a5cd3f" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>freeVerts</name></member>
-      <member refid="classmrmeshpy_1_1Laplacian_1ab25bca66c5156873056d36f9aeb28b18" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>init</name></member>
-      <member refid="classmrmeshpy_1_1Laplacian_1a02a0041d9ada1a0e0d6d35b9cb6377db" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>initFromPoints</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1afd2dcc2371805915752e4d3122f459c5" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>init</name></member>
+      <member refid="classmrmeshpy_1_1Laplacian_1a1f5544862adcf69a8d4b4c8eb235f93b" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>initFromPoints</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a19194855335e38994790a25008570eaf" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>multVertexWeight</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a473d35ed5b906e7e9fafc06fff258143" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>points</name></member>
       <member refid="classmrmeshpy_1_1Laplacian_1a397e9c7782643cb024e4dc759bae415a" prot="public" virt="non-virtual"><scope>mrmeshpy::Laplacian</scope><name>region</name></member>

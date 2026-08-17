@@ -65,7 +65,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns one connected component containing given face, not effective to call more than once, if several components are needed use getAllComponents Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a79b1217081d0495f8acdfe0ed5eef1d3" kindref="member">MR.MeshComponents.getComponent</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+<para>returns one connected component containing given face, not effective to call more than once, if several components are needed use getAllComponents Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a79b1217081d0495f8acdfe0ed5eef1d3" kindref="member">MR.MeshComponents.getComponent</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">MR.MeshComponents.PerEdge</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -202,7 +202,7 @@
 <parametername>minArea</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1ad296f69ab97903119a0505f29f6b1dde" kindref="member">MR.MeshComponents.getLargestComponent</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. Parameter <computeroutput>minArea</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1ad296f69ab97903119a0505f29f6b1dde" kindref="member">MR.MeshComponents.getLargestComponent</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">MR.MeshComponents.PerEdge</ref></computeroutput>. Parameter <computeroutput>minArea</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -237,7 +237,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns union of connected components, each of which contains at least one seed face Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a59fb06268f41733c378e3997eeaa372e" kindref="member">MR.MeshComponents.getComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+<para>returns union of connected components, each of which contains at least one seed face Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a59fb06268f41733c378e3997eeaa372e" kindref="member">MR.MeshComponents.getComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">MR.MeshComponents.PerEdge</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -275,7 +275,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a59fb06268f41733c378e3997eeaa372e" kindref="member">MR.MeshComponents.getComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a59fb06268f41733c378e3997eeaa372e" kindref="member">MR.MeshComponents.getComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">MR.MeshComponents.PerEdge</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -497,7 +497,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns the number of connected components in mesh part Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1ac7639c0d0326e4586ea6b0f21c829850" kindref="member">MR.MeshComponents.getNumComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+<para>returns the number of connected components in mesh part Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1ac7639c0d0326e4586ea6b0f21c829850" kindref="member">MR.MeshComponents.getNumComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">MR.MeshComponents.PerEdge</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -529,7 +529,7 @@
 <para>gets all connected components of mesh part </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="note"><para>be careful, if mesh is large enough and has many components, the memory overflow will occur Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a2aedd07b0f22689c2852e0aa5837ee1d" kindref="member">MR.MeshComponents.getAllComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+<para><simplesect kind="note"><para>be careful, if mesh is large enough and has many components, the memory overflow will occur Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a2aedd07b0f22689c2852e0aa5837ee1d" kindref="member">MR.MeshComponents.getAllComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">MR.MeshComponents.PerEdge</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -574,7 +574,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>pair components bitsets vector and number components in one group if components number more than maxComponentCount Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a2aedd07b0f22689c2852e0aa5837ee1d" kindref="member">MR.MeshComponents.getAllComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+<simplesect kind="return"><para>pair components bitsets vector and number components in one group if components number more than maxComponentCount Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a2aedd07b0f22689c2852e0aa5837ee1d" kindref="member">MR.MeshComponents.getAllComponents</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">MR.MeshComponents.PerEdge</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -651,7 +651,7 @@
         <detaileddescription>
 <para><orderedlist>
 <listitem><para>the mapping: <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> -&gt; Component ID in [0, 1, 2, ...)</para>
-</listitem><listitem><para>the total number of components Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1aa2bb6b3b50188dbce4a6b21881cd4a05" kindref="member">MR.MeshComponents.getAllComponentsMap</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+</listitem><listitem><para>the total number of components Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1aa2bb6b3b50188dbce4a6b21881cd4a05" kindref="member">MR.MeshComponents.getAllComponentsMap</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">MR.MeshComponents.PerEdge</ref></computeroutput>. </para>
 </listitem></orderedlist>
 </para>
         </detaileddescription>
@@ -684,7 +684,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>given some face pairs, collects them in regions, where for each face in a region its pair face and its incident faces from other pairs are also attributed to that region; returns 1. the mapping: <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> -&gt; <ref refid="structMR_1_1RegionId" kindref="compound">RegionId</ref>, 2. the total number of regions Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1aafdabcaa815838f1e6dff9fa434dfda6" kindref="member">MR.MeshComponents.getFacePairRegionMap</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+<para>given some face pairs, collects them in regions, where for each face in a region its pair face and its incident faces from other pairs are also attributed to that region; returns 1. the mapping: <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> -&gt; <ref refid="structMR_1_1RegionId" kindref="compound">RegionId</ref>, 2. the total number of regions Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1aafdabcaa815838f1e6dff9fa434dfda6" kindref="member">MR.MeshComponents.getFacePairRegionMap</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">MR.MeshComponents.PerEdge</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -961,7 +961,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>gets union-find structure for faces with different options of face-connectivity Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1ab7073441e81a98e8b72e6dd1e4c98f6e" kindref="member">MR.MeshComponents.getUnionFindStructureFaces</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+<para>gets union-find structure for faces with different options of face-connectivity Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1ab7073441e81a98e8b72e6dd1e4c98f6e" kindref="member">MR.MeshComponents.getUnionFindStructureFaces</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">MR.MeshComponents.PerEdge</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -995,7 +995,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1ab7073441e81a98e8b72e6dd1e4c98f6e" kindref="member">MR.MeshComponents.getUnionFindStructureFaces</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1ab7073441e81a98e8b72e6dd1e4c98f6e" kindref="member">MR.MeshComponents.getUnionFindStructureFaces</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">MR.MeshComponents.PerEdge</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

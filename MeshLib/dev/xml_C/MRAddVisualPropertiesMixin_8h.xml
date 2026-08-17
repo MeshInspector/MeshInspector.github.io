@@ -1468,7 +1468,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::globalClippedByPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::globalClippedByPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1494,7 +1494,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::setGlobalClippedByPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::setGlobalClippedByPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1971,7 +1971,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::isPickable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::isPickable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1997,7 +1997,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::setPickable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::setPickable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2621,7 +2621,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::globalVisibility</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::globalVisibility</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2647,7 +2647,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::setGlobalVisibility</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::setGlobalVisibility</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2996,7 +2996,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::setVisible</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::setVisible</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3018,7 +3018,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::isVisible</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;::isVisible</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4883,7 +4883,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::globalClippedByPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::globalClippedByPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4909,7 +4909,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::setGlobalClippedByPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::setGlobalClippedByPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5386,7 +5386,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::isPickable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::isPickable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5412,7 +5412,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::setPickable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::setPickable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6036,7 +6036,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::globalVisibility</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::globalVisibility</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6062,7 +6062,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::setGlobalVisibility</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::setGlobalVisibility</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6411,7 +6411,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::setVisible</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::setVisible</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6433,7 +6433,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::isVisible</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&gt;::isVisible</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -8298,7 +8298,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::globalClippedByPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::globalClippedByPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -8324,7 +8324,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::setGlobalClippedByPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::setGlobalClippedByPlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -8801,7 +8801,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::isPickable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::isPickable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -8827,7 +8827,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::setPickable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::setPickable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -9451,7 +9451,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::globalVisibility</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::globalVisibility</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -9477,7 +9477,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::setGlobalVisibility</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::setGlobalVisibility</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -9826,7 +9826,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::setVisible</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::setVisible</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::all()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -9848,7 +9848,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::isVisible</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;::isVisible</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>viewportMask</computeroutput> is a single object. Parameter <computeroutput>viewportMask</computeroutput> has a default argument: <computeroutput>MR::ViewportMask::any()</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -59,10 +59,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32947" bodyend="32950"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1acdb988174e0a4609b9234aa1ee66da4f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a00c3b04b638d3c83a0601668a1247e1f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
         <definition> std_vector_TypedBitSet_Id_FaceTag mrmeshpy.MeshComponents.getAllComponents</definition>
-        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;FaceIncidence::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
+        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
         <name>getAllComponents</name>
         <qualifiedname>mrmeshpy.MeshComponents.getAllComponents</qualifiedname>
         <param>
@@ -72,7 +72,7 @@
         <param>
           <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
           <declname>incidence</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence_1a658e1aa8fe340b6afcc3bf1b646b95b1" kindref="member">FaceIncidence::PerEdge</ref>&apos;</defval>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -90,10 +90,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32953" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32953" bodyend="32957"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a0c7afbc9177d5c425706b5d38da0e306" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a82b49b3a65fca69c50a0d92cdc3bc14d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>tuple[<ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref>, int]</type>
         <definition> tuple[std_vector_TypedBitSet_Id_FaceTag, int] mrmeshpy.MeshComponents.getAllComponents</definition>
-        <argsstring>(MeshPart meshPart, int maxComponentCount, MeshComponents.FaceIncidence incidence=&apos;FaceIncidence::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
+        <argsstring>(MeshPart meshPart, int maxComponentCount, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
         <name>getAllComponents</name>
         <qualifiedname>mrmeshpy.MeshComponents.getAllComponents</qualifiedname>
         <param>
@@ -107,7 +107,7 @@
         <param>
           <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
           <declname>incidence</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence_1a658e1aa8fe340b6afcc3bf1b646b95b1" kindref="member">FaceIncidence::PerEdge</ref>&apos;</defval>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -186,10 +186,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32977" bodyend="32980"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ac7d7078947350e3a1a402b868da21d32" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a2fefa3287af9ba22e88d92c400897f9e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>tuple[<ref refid="classmrmeshpy_1_1Face2RegionMap" kindref="compound">Face2RegionMap</ref>, int]</type>
         <definition> tuple[Face2RegionMap, int] mrmeshpy.MeshComponents.getAllComponentsMap</definition>
-        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;FaceIncidence::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
+        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
         <name>getAllComponentsMap</name>
         <qualifiedname>mrmeshpy.MeshComponents.getAllComponentsMap</qualifiedname>
         <param>
@@ -199,7 +199,7 @@
         <param>
           <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
           <declname>incidence</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence_1a658e1aa8fe340b6afcc3bf1b646b95b1" kindref="member">FaceIncidence::PerEdge</ref>&apos;</defval>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -315,10 +315,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33004" bodyend="33007"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1afcb9ae1ee4586d783091529337a6cf80" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a07a32a897c522986c4fed761bd098a03" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
         <definition> FaceBitSet mrmeshpy.MeshComponents.getComponent</definition>
-        <argsstring>(MeshPart meshPart, FaceId id, MeshComponents.FaceIncidence incidence=&apos;FaceIncidence::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
+        <argsstring>(MeshPart meshPart, FaceId id, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
         <name>getComponent</name>
         <qualifiedname>mrmeshpy.MeshComponents.getComponent</qualifiedname>
         <param>
@@ -332,7 +332,7 @@
         <param>
           <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
           <declname>incidence</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence_1a658e1aa8fe340b6afcc3bf1b646b95b1" kindref="member">FaceIncidence::PerEdge</ref>&apos;</defval>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -380,10 +380,10 @@ not effective to call more than once, if several components are needed use getAl
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33015" bodyend="33019"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a6b57231b9adb281222ded614ab789327" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a1bf9dac785bd3f2c7d2053118fed2caa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
         <definition> FaceBitSet mrmeshpy.MeshComponents.getComponents</definition>
-        <argsstring>(MeshPart meshPart, FaceBitSet seeds, MeshComponents.FaceIncidence incidence=&apos;FaceIncidence::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
+        <argsstring>(MeshPart meshPart, FaceBitSet seeds, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
         <name>getComponents</name>
         <qualifiedname>mrmeshpy.MeshComponents.getComponents</qualifiedname>
         <param>
@@ -397,7 +397,7 @@ not effective to call more than once, if several components are needed use getAl
         <param>
           <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
           <declname>incidence</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence_1a658e1aa8fe340b6afcc3bf1b646b95b1" kindref="member">FaceIncidence::PerEdge</ref>&apos;</defval>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -414,10 +414,10 @@ not effective to call more than once, if several components are needed use getAl
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33022" bodyend="33025"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a020e386cbd199e965b2df6662e75d4bb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1aeb586167b3bbc5534aa7f1318ea10866" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
         <definition> FaceBitSet mrmeshpy.MeshComponents.getComponents</definition>
-        <argsstring>(MeshTopology topology, FaceBitSet seeds, FaceBitSet region=None, MeshComponents.FaceIncidence incidence=&apos;FaceIncidence::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
+        <argsstring>(MeshTopology topology, FaceBitSet seeds, FaceBitSet region=None, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
         <name>getComponents</name>
         <qualifiedname>mrmeshpy.MeshComponents.getComponents</qualifiedname>
         <param>
@@ -436,7 +436,7 @@ not effective to call more than once, if several components are needed use getAl
         <param>
           <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
           <declname>incidence</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence_1a658e1aa8fe340b6afcc3bf1b646b95b1" kindref="member">FaceIncidence::PerEdge</ref>&apos;</defval>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -504,10 +504,10 @@ not effective to call more than once, if several components are needed use getAl
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33036" bodyend="33039"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ae7d72f85be5be5c03fec99fe43dcb435" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ae51692959b5cd4df6497127636d34942" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>tuple[<ref refid="classmrmeshpy_1_1Face2RegionMap" kindref="compound">Face2RegionMap</ref>, int]</type>
         <definition> tuple[Face2RegionMap, int] mrmeshpy.MeshComponents.getFacePairRegionMap</definition>
-        <argsstring>(Mesh mesh, std_vector_FaceFace facePairs, MeshComponents.FaceIncidence incidence=&apos;FaceIncidence::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
+        <argsstring>(Mesh mesh, std_vector_FaceFace facePairs, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
         <name>getFacePairRegionMap</name>
         <qualifiedname>mrmeshpy.MeshComponents.getFacePairRegionMap</qualifiedname>
         <param>
@@ -521,7 +521,7 @@ not effective to call more than once, if several components are needed use getAl
         <param>
           <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
           <declname>incidence</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence_1a658e1aa8fe340b6afcc3bf1b646b95b1" kindref="member">FaceIncidence::PerEdge</ref>&apos;</defval>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -723,10 +723,10 @@ note that function require closed mesh part
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33079" bodyend="33082"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a768df1fd17b1b54265071aac04393379" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a312252413bdf92ea7b1d6b0f6fb104c0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
         <definition> FaceBitSet mrmeshpy.MeshComponents.getLargestComponent</definition>
-        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;FaceIncidence::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;, float minArea=0, int_output numSmallerComponents=None)</argsstring>
+        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;, float minArea=0, int_output numSmallerComponents=None)</argsstring>
         <name>getLargestComponent</name>
         <qualifiedname>mrmeshpy.MeshComponents.getLargestComponent</qualifiedname>
         <param>
@@ -736,7 +736,7 @@ note that function require closed mesh part
         <param>
           <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
           <declname>incidence</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence_1a658e1aa8fe340b6afcc3bf1b646b95b1" kindref="member">FaceIncidence::PerEdge</ref>&apos;</defval>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -812,10 +812,10 @@ note that function require closed mesh part
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33094" bodyend="33097"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a62522f7ad2bdf5686e2b200f6dd40833" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1af5c85c21788f441f1927f2239fe71523" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition> int mrmeshpy.MeshComponents.getNumComponents</definition>
-        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;FaceIncidence::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
+        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
         <name>getNumComponents</name>
         <qualifiedname>mrmeshpy.MeshComponents.getNumComponents</qualifiedname>
         <param>
@@ -825,7 +825,7 @@ note that function require closed mesh part
         <param>
           <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
           <declname>incidence</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence_1a658e1aa8fe340b6afcc3bf1b646b95b1" kindref="member">FaceIncidence::PerEdge</ref>&apos;</defval>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -870,10 +870,10 @@ note that function require closed mesh part
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33104" bodyend="33107"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a8cb9dc1033da0db0cef7c00f3f265bfa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ac3b93ce6cd1cef8c3f3f2d0bdf2724d7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BaseUnionFind__FaceId" kindref="compound">BaseUnionFind_FaceId</ref></type>
         <definition> BaseUnionFind_FaceId mrmeshpy.MeshComponents.getUnionFindStructureFaces</definition>
-        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;FaceIncidence::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
+        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
         <name>getUnionFindStructureFaces</name>
         <qualifiedname>mrmeshpy.MeshComponents.getUnionFindStructureFaces</qualifiedname>
         <param>
@@ -883,7 +883,7 @@ note that function require closed mesh part
         <param>
           <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
           <declname>incidence</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence_1a658e1aa8fe340b6afcc3bf1b646b95b1" kindref="member">FaceIncidence::PerEdge</ref>&apos;</defval>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -900,10 +900,10 @@ note that function require closed mesh part
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33110" bodyend="33113"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a9bb36df99103b34fec0c5192beb20590" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1aff444f027b5c0152015851155c456b89" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BaseUnionFind__FaceId" kindref="compound">BaseUnionFind_FaceId</ref></type>
         <definition> BaseUnionFind_FaceId mrmeshpy.MeshComponents.getUnionFindStructureFaces</definition>
-        <argsstring>(MeshTopology topology, FaceBitSet region=None, MeshComponents.FaceIncidence incidence=&apos;FaceIncidence::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
+        <argsstring>(MeshTopology topology, FaceBitSet region=None, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
         <name>getUnionFindStructureFaces</name>
         <qualifiedname>mrmeshpy.MeshComponents.getUnionFindStructureFaces</qualifiedname>
         <param>
@@ -918,7 +918,7 @@ note that function require closed mesh part
         <param>
           <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
           <declname>incidence</declname>
-          <defval>&apos;<ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence_1a658e1aa8fe340b6afcc3bf1b646b95b1" kindref="member">FaceIncidence::PerEdge</ref>&apos;</defval>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -1247,35 +1247,35 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshComponents_1a6495beaaac4f66402d568d63a55a8834" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>excludeFullySelectedComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1af592f7c3a03d69604d3a8135c9b0a29c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>expandToComponents</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1acdb988174e0a4609b9234aa1ee66da4f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a0c7afbc9177d5c425706b5d38da0e306" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1a00c3b04b638d3c83a0601668a1247e1f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1a82b49b3a65fca69c50a0d92cdc3bc14d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1afd1ecfdf218c60f79a0c96d9b096c41b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a1bb822da4a63e20538486113a5a4f557" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsEdges</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1ac7d7078947350e3a1a402b868da21d32" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsMap</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1a2fefa3287af9ba22e88d92c400897f9e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsMap</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ae55975d6d99d183f77ae1db5eeadba7c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsUndirectedEdges</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1abf2def00e15a00d09e4c19035c625994" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1aeb81e1bb8df77560eb30669095b33920" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsVertsSeparatedByPath</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a7f766f18a502294c426cd024cf4d8874" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsVertsSeparatedByPaths</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1afcb9ae1ee4586d783091529337a6cf80" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getComponent</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a6b57231b9adb281222ded614ab789327" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getComponents</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a020e386cbd199e965b2df6662e75d4bb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1a07a32a897c522986c4fed761bd098a03" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getComponent</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1a1bf9dac785bd3f2c7d2053118fed2caa" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1aeb586167b3bbc5534aa7f1318ea10866" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a331867d13d2d09920b5192f85936c858" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getComponentsUndirectedEdges</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a8b6c4eab50f1f89227235185b535b3f8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getComponentsVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a9f92c8d2803c16a2234299ac17b5d0d2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getComponentVerts</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1ae7d72f85be5be5c03fec99fe43dcb435" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getFacePairRegionMap</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1ae51692959b5cd4df6497127636d34942" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getFacePairRegionMap</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ad56b2b44b706fa8571f67eb6b2f197be" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargeByAreaComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1aa8bd6712fdf9d89243853784766e27a7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargeByAreaComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a6fc3501fdc6452d843a77eebe0d8974b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargeByAreaRegions</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ab6a30e4ae8b5c6d077937b9ec37c1a77" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargeByAreaSmoothComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a5977b30ddbec75882881bd8937ff12b6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargeByVolumeComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ac7ffd662f7eb22891f6f339f803f252f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargeComponentVerts</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a768df1fd17b1b54265071aac04393379" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargestComponent</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1a312252413bdf92ea7b1d6b0f6fb104c0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargestComponent</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ae99515c16a921b43d356fde6b522cc9f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargestComponentVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ae75b75d30fb7da3bee120b416ea16c52" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getNLargeByAreaComponents</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a62522f7ad2bdf5686e2b200f6dd40833" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getNumComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1af5c85c21788f441f1927f2239fe71523" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getNumComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a1dd8f28350adc3aea6e522c56080bda2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getRegionAreas</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a8cb9dc1033da0db0cef7c00f3f265bfa" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureFaces</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a9bb36df99103b34fec0c5192beb20590" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureFaces</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1ac3b93ce6cd1cef8c3f3f2d0bdf2724d7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureFaces</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1aff444f027b5c0152015851155c456b89" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureFaces</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ac7438ab6ac2e26b3611ce17bd609ec8c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureFacesPerEdge</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ab68e82b3eba94bc7a6e7ef764345e215" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureFacesPerEdge</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a50f7037c672042546d6d0d81fbff8b75" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureUndirectedEdges</name></member>
