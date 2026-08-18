@@ -4,6 +4,51 @@
     <compoundname>MR::AlphaShapeStats</compoundname>
     <basecompoundref refid="classMR_1_1Const__AlphaShapeStats" prot="public" virt="non-virtual">MR.Const_AlphaShapeStats</basecompoundref>
     <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1AlphaShapeStats_1ae51ccfa67748cc742dfedfaccbef0945" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.AlphaShapeStats.collectedNeis</definition>
+        <argsstring></argsstring>
+        <name>collectedNeis</name>
+        <qualifiedname>MR.AlphaShapeStats.collectedNeis</qualifiedname>
+        <briefdescription>
+<para>the number of neighbours found within the search radius, before any of the filters below; the searches around all the points are quadratic in this, so it explains most of the difference in the time spent per point between one cloud and another </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="545" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="545" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1AlphaShapeStats_1a3b36e2f5ff58d8bd63d766a58e9609ee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.AlphaShapeStats.redundancyTests</definition>
+        <argsstring></argsstring>
+        <name>redundancyTests</name>
+        <qualifiedname>MR.AlphaShapeStats.redundancyTests</qualifiedname>
+        <briefdescription>
+<para>the number of pairs of neighbours checked for one of them making the other redundant, which is quadratic in the neighbours of a point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="551" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="551" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1AlphaShapeStats_1ad9a38c23181a0cb0ce571b309aead96b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.AlphaShapeStats.redundantNeis</definition>
+        <argsstring></argsstring>
+        <name>redundantNeis</name>
+        <qualifiedname>MR.AlphaShapeStats.redundantNeis</qualifiedname>
+        <briefdescription>
+<para>the number of neighbours found redundant by those checks and excluded from the search </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="556" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="556" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="property" id="classMR_1_1AlphaShapeStats_1a9aece57414b372aa5701d34cde6e9a9a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref nuint</type>
         <definition>new unsafe ref nuint MR.AlphaShapeStats.consideredTris</definition>
@@ -17,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="468" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="468" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="562" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="562" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1AlphaShapeStats_1a9667aad98fce01d6b3b1bc995e406d15" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref nuint</type>
@@ -32,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="474" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="474" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="568" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="568" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1AlphaShapeStats_1a3c0a90bd1a2b07a521480e913fad9c5d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref nuint</type>
@@ -47,7 +92,52 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="481" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="481" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="575" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="575" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1AlphaShapeStats_1a31bf62dfd17e5c7e5c5fefdb342f96e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.AlphaShapeStats.shadowTests</definition>
+        <argsstring></argsstring>
+        <name>shadowTests</name>
+        <qualifiedname>MR.AlphaShapeStats.shadowTests</qualifiedname>
+        <briefdescription>
+<para>the number of neighbours tested for being shadowed by the balls of a touchable triangle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="580" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="580" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1AlphaShapeStats_1aa5fdeceb86fbe6a52fe2feaf068db361" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.AlphaShapeStats.exactShadowTests</definition>
+        <argsstring></argsstring>
+        <name>exactShadowTests</name>
+        <qualifiedname>MR.AlphaShapeStats.exactShadowTests</qualifiedname>
+        <briefdescription>
+<para>the number of shadow tests not decided by the floating-point rejection, which had to evaluate the exact predicates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="586" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="586" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1AlphaShapeStats_1aa6afef857b7b39121fa2f9cc72ad6e89" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref nuint</type>
+        <definition>new unsafe ref nuint MR.AlphaShapeStats.shadowedNeis</definition>
+        <argsstring></argsstring>
+        <name>shadowedNeis</name>
+        <qualifiedname>MR.AlphaShapeStats.shadowedNeis</qualifiedname>
+        <briefdescription>
+<para>the number of neighbours found shadowed, which are excluded from the search </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="591" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="591" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="485" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="485" bodyend="489"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="595" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="595" bodyend="599"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,14 +178,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="495" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="495" bodyend="501"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="605" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="605" bodyend="611"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1AlphaShapeStats_1abd7ba72d217adecfeadcc3e41d83e0c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1AlphaShapeStats_1a61c56652235b9be6baa89483861532c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.AlphaShapeStats.AlphaShapeStats</definition>
-        <argsstring>(nuint consideredTris, nuint touchableTris, nuint inBallTests)</argsstring>
+        <argsstring>(nuint collectedNeis, nuint redundancyTests, nuint redundantNeis, nuint consideredTris, nuint touchableTris, nuint inBallTests, nuint shadowTests, nuint exactShadowTests, nuint shadowedNeis)</argsstring>
         <name>AlphaShapeStats</name>
         <qualifiedname>MR.AlphaShapeStats.AlphaShapeStats</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>collectedNeis</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>redundancyTests</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>redundantNeis</declname>
+        </param>
         <param>
           <type>nuint</type>
           <declname>consideredTris</declname>
@@ -108,6 +210,18 @@
           <type>nuint</type>
           <declname>inBallTests</declname>
         </param>
+        <param>
+          <type>nuint</type>
+          <declname>shadowTests</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>exactShadowTests</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>shadowedNeis</declname>
+        </param>
         <briefdescription>
 <para>Constructs <computeroutput><ref refid="classMR_1_1AlphaShapeStats" kindref="compound">MR.AlphaShapeStats</ref></computeroutput> elementwise. </para>
         </briefdescription>
@@ -115,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="506" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="506" bodyend="512"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="616" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="616" bodyend="622"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AlphaShapeStats_1acb761441539b1aa136ff140f22c8f9e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -134,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="517" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="517" bodyend="524"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="627" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="627" bodyend="634"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AlphaShapeStats_1aaea12804d2f6a80eb3764e3715260624" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -153,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="529" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="529" bodyend="529"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="639" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="639" bodyend="639"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AlphaShapeStats_1af02689bb42f87cd40607c2348d0f0103" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1AlphaShapeStats" kindref="compound">MR.AlphaShapeStats</ref></type>
@@ -172,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="534" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="534" bodyend="541"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="644" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="644" bodyend="651"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AlphaShapeStats_1aa466e4745cb38bc2c46f45c55872d2ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1AlphaShapeStats" kindref="compound">MR.AlphaShapeStats</ref></type>
@@ -191,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="546" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="546" bodyend="554"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="656" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="656" bodyend="664"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -243,27 +357,39 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="462" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="463" bodyend="555"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="538" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="539" bodyend="665"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__AlphaShapeStats_1a48bf80bbbb74115e1910142de952e20f" prot="protected" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>__ref_storage_collectedNeis</name></member>
       <member refid="classMR_1_1Const__AlphaShapeStats_1a0ba2865ae372d07184613b2cba03ca91" prot="protected" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>__ref_storage_consideredTris</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeStats_1a77e9a0451a0a35639a10c2e5559d721c" prot="protected" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>__ref_storage_exactShadowTests</name></member>
       <member refid="classMR_1_1Const__AlphaShapeStats_1a9e02b435a39b9b55134fa84354083a64" prot="protected" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>__ref_storage_inBallTests</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeStats_1aff8e2ec8b898791eaab06dda7251a592" prot="protected" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>__ref_storage_redundancyTests</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeStats_1a0fc394785ee6da183672a5ab913d3753" prot="protected" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>__ref_storage_redundantNeis</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeStats_1a5a4ee703510d6fc9c587ca4beec50f0c" prot="protected" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>__ref_storage_shadowedNeis</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeStats_1a2f12cb58842ae16d779f270eb268d7c5" prot="protected" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>__ref_storage_shadowTests</name></member>
       <member refid="classMR_1_1Const__AlphaShapeStats_1afa3a554d3d916e85c0a576f212ef55ae" prot="protected" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>__ref_storage_touchableTris</name></member>
       <member refid="classMR_1_1AlphaShapeStats_1aa466e4745cb38bc2c46f45c55872d2ee" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>addAssign</name></member>
       <member refid="classMR_1_1AlphaShapeStats_1a3f5d76ab69322d50b90e1e32af9206ff" prot="package" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>AlphaShapeStats</name></member>
       <member refid="classMR_1_1AlphaShapeStats_1a80801eeda80823899c1e9f97e6676dbf" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>AlphaShapeStats</name></member>
-      <member refid="classMR_1_1AlphaShapeStats_1abd7ba72d217adecfeadcc3e41d83e0c2" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>AlphaShapeStats</name></member>
+      <member refid="classMR_1_1AlphaShapeStats_1a61c56652235b9be6baa89483861532c7" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>AlphaShapeStats</name></member>
       <member refid="classMR_1_1AlphaShapeStats_1acb761441539b1aa136ff140f22c8f9e2" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>AlphaShapeStats</name></member>
       <member refid="classMR_1_1AlphaShapeStats_1aaea12804d2f6a80eb3764e3715260624" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>AlphaShapeStats</name></member>
       <member refid="classMR_1_1AlphaShapeStats_1af02689bb42f87cd40607c2348d0f0103" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>assign</name></member>
+      <member refid="classMR_1_1AlphaShapeStats_1ae51ccfa67748cc742dfedfaccbef0945" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>collectedNeis</name></member>
       <member refid="classMR_1_1AlphaShapeStats_1a9aece57414b372aa5701d34cde6e9a9a" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>consideredTris</name></member>
       <member refid="classMR_1_1Const__AlphaShapeStats_1a979adb1815dccfd177da7b9f8ea45cf4" prot="package" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>Const_AlphaShapeStats</name></member>
       <member refid="classMR_1_1Const__AlphaShapeStats_1a892de79d29bae069076bcd07157f7490" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>Const_AlphaShapeStats</name></member>
-      <member refid="classMR_1_1Const__AlphaShapeStats_1a2c1a39aee51fe028109fa5c38366f8a9" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>Const_AlphaShapeStats</name></member>
+      <member refid="classMR_1_1Const__AlphaShapeStats_1a96a049448245e71d4327025e1dad5ec1" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>Const_AlphaShapeStats</name></member>
       <member refid="classMR_1_1Const__AlphaShapeStats_1ab545a464d2a9b35e0b8819f1678be5d1" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>Const_AlphaShapeStats</name></member>
       <member refid="classMR_1_1Const__AlphaShapeStats_1ac4c7a6e293463cebcf3a84c65e35c2eb" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>Const_AlphaShapeStats</name></member>
       <member refid="classMR_1_1Const__AlphaShapeStats_1a493042c705f5ce8bc17eb2fccf79ccf0" prot="protected" virt="virtual"><scope>MR::AlphaShapeStats</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__AlphaShapeStats_1a31036aab0ae7d594e3842ac273c8f8b7" prot="public" virt="virtual"><scope>MR::AlphaShapeStats</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1AlphaShapeStats_1aa5fdeceb86fbe6a52fe2feaf068db361" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>exactShadowTests</name></member>
       <member refid="classMR_1_1AlphaShapeStats_1a3c0a90bd1a2b07a521480e913fad9c5d" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>inBallTests</name></member>
+      <member refid="classMR_1_1AlphaShapeStats_1a3b36e2f5ff58d8bd63d766a58e9609ee" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>redundancyTests</name></member>
+      <member refid="classMR_1_1AlphaShapeStats_1ad9a38c23181a0cb0ce571b309aead96b" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>redundantNeis</name></member>
+      <member refid="classMR_1_1AlphaShapeStats_1aa6afef857b7b39121fa2f9cc72ad6e89" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>shadowedNeis</name></member>
+      <member refid="classMR_1_1AlphaShapeStats_1a31bf62dfd17e5c7e5c5fefdb342f96e6" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>shadowTests</name></member>
       <member refid="classMR_1_1AlphaShapeStats_1a9667aad98fce01d6b3b1bc995e406d15" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>touchableTris</name></member>
     </listofallmembers>
   </compounddef>

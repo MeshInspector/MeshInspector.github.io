@@ -537,6 +537,7 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AInSphereTester_3C_20T_20_3E" id="r_MR_3A_3AInSphereTester_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1InSphereTester.html">MR::InSphereTester&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AInSphereTester_3C_20int_20_3E" id="r_MR_3A_3AInSphereTester_3C_20int_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>MR::InSphereTester&lt; int &gt;</b></td></tr>
 <tr class="memitem:MR_3A_3AInSphereTesterSoS" id="r_MR_3A_3AInSphereTesterSoS"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1InSphereTesterSoS.html">MR::InSphereTesterSoS</a></td></tr>
+<tr class="memitem:MR_3A_3AFastInSphereTesterSoS" id="r_MR_3A_3AFastInSphereTesterSoS"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FastInSphereTesterSoS.html">MR::FastInSphereTesterSoS</a></td></tr>
 <tr class="memitem:MR_3A_3AInTreePathBuilder" id="r_MR_3A_3AInTreePathBuilder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1InTreePathBuilder.html">MR::InTreePathBuilder</a></td></tr>
 <tr class="memitem:MR_3A_3ABaseRenderParams" id="r_MR_3A_3ABaseRenderParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseRenderParams.html">MR::BaseRenderParams</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common rendering parameters for meshes and <a class="el" href="namespaceMR_1_1UI.html">UI</a>.  <a href="structMR_1_1BaseRenderParams.html#details">More...</a><br /></td></tr>
@@ -5040,6 +5041,15 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga83272fcfe28d46d0c521b5f7c5af73f4" id="r_ga83272fcfe28d46d0c521b5f7c5af73f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83272fcfe28d46d0c521b5f7c5af73f4">MR::InSphereTesterSoS::reset</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;a, const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;b, const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;c, std::int64_t rSq)</td></tr>
 <tr class="memitem:gae6f76431e076f7da4c8d01feef6b5c94" id="r_gae6f76431e076f7da4c8d01feef6b5c94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae6f76431e076f7da4c8d01feef6b5c94">MR::InSphereTesterSoS::flip</a> ()</td></tr>
 <tr class="memitem:ga33f40392cf9decb4150d17e595c0d0b6" id="r_ga33f40392cf9decb4150d17e595c0d0b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__MathGroup.html#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga33f40392cf9decb4150d17e595c0d0b6">MR::InSphereTesterSoS::operator()</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;d) const</td></tr>
+<tr class="memitem:gaf0f5aef64719c5e7f73ab828608a7cba" id="r_gaf0f5aef64719c5e7f73ab828608a7cba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const Vector3i64 &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0f5aef64719c5e7f73ab828608a7cba">MR::InSphereTesterSoS::normal</a> () const</td></tr>
+<tr class="memdesc:gaf0f5aef64719c5e7f73ab828608a7cba"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubled normal cross( b - a, c - a ) of the triangle, directed at the sphere's center  <br /></td></tr>
+<tr class="memitem:gad85860a83d6bb58ac43b0888d25ffdab" id="r_gad85860a83d6bb58ac43b0888d25ffdab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; 192 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad85860a83d6bb58ac43b0888d25ffdab">MR::InSphereTesterSoS::normalSq</a> () const</td></tr>
+<tr class="memdesc:gad85860a83d6bb58ac43b0888d25ffdab"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared length of <a class="el" href="#gga09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555">normal()</a>  <br /></td></tr>
+<tr class="memitem:ga9a73bfe7ade34306db56f903f8934b1e" id="r_ga9a73bfe7ade34306db56f903f8934b1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; 384 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9a73bfe7ade34306db56f903f8934b1e">MR::InSphereTesterSoS::heightSq</a> () const</td></tr>
+<tr class="memitem:ga1855670ce694c01ac7166e9562dc5ffb" id="r_ga1855670ce694c01ac7166e9562dc5ffb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1855670ce694c01ac7166e9562dc5ffb">MR::FastInSphereTesterSoS::reset</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;a, const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;b, const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;c, std::int64_t rSq)</td></tr>
+<tr class="memitem:ga18cb5be5241f31a6b905ea00c4c17209" id="r_ga18cb5be5241f31a6b905ea00c4c17209"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga18cb5be5241f31a6b905ea00c4c17209">MR::FastInSphereTesterSoS::flip</a> ()</td></tr>
+<tr class="memitem:ga2bae945de5039006890125cb915a9b12" id="r_ga2bae945de5039006890125cb915a9b12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__MathGroup.html#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2bae945de5039006890125cb915a9b12">MR::FastInSphereTesterSoS::operator()</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;d) const</td></tr>
+<tr class="memitem:ga49ccdd0542a5957599fe860a3a4d8495" id="r_ga49ccdd0542a5957599fe860a3a4d8495"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga49ccdd0542a5957599fe860a3a4d8495">MR::FastInSphereTesterSoS::outsideBothSpheres</a> (const Vector3i &amp;d) const</td></tr>
 <tr class="memitem:gacebe5d7b834dddf60d4e4a8aed01b3df" id="r_gacebe5d7b834dddf60d4e4a8aed01b3df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacebe5d7b834dddf60d4e4a8aed01b3df">MR::orderIntersectionContours</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topologyA, const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topologyB, const <a class="el" href="group__AABBTreeGroup.html#ga457b7bb3a129cf50a82586b670a93148">PreciseCollisionResult</a> &amp;intersections)</td></tr>
 <tr class="memitem:gace5eda8f2fc429433e617ded105880b4" id="r_gace5eda8f2fc429433e617ded105880b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gace5eda8f2fc429433e617ded105880b4">MR::orderSelfIntersectionContours</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const std::vector&lt; <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &gt; &amp;intersections)</td></tr>
 <tr class="memitem:gac15e5ed23d864e6b90d96baf62fec297" id="r_gac15e5ed23d864e6b90d96baf62fec297"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac15e5ed23d864e6b90d96baf62fec297">MR::extractIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, const <a class="el" href="#ga9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a> &amp;orientedContours, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const AffineXf3f *rigidB2A=nullptr)</td></tr>
@@ -11780,9 +11790,18 @@ Variables</h2></td></tr>
 <tr class="memitem:ga83480f95b9e1d4f1069a44ea03726ea8" id="r_ga83480f95b9e1d4f1069a44ea03726ea8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83480f95b9e1d4f1069a44ea03726ea8">MR::AlphaShapeData::intPoints</a></td></tr>
 <tr class="memitem:ga9f56dd5709fb6f4de21f77cae0674f72" id="r_ga9f56dd5709fb6f4de21f77cae0674f72"><td class="memItemLeft" align="right" valign="top">std::int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9f56dd5709fb6f4de21f77cae0674f72">MR::AlphaShapeData::intRadiusSq</a> = 0</td></tr>
 <tr class="memitem:gadbecaa4f00f06aa00986ff64e0c42b23" id="r_gadbecaa4f00f06aa00986ff64e0c42b23"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadbecaa4f00f06aa00986ff64e0c42b23">MR::AlphaShapeData::searchRadius</a> = 0</td></tr>
+<tr class="memitem:ga134feca163a44ef1902ad2ef0dc12a20" id="r_ga134feca163a44ef1902ad2ef0dc12a20"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga134feca163a44ef1902ad2ef0dc12a20">MR::AlphaShapeStats::collectedNeis</a> = 0</td></tr>
+<tr class="memitem:ga1360522b84fc5eb6014477ac88cce1a9" id="r_ga1360522b84fc5eb6014477ac88cce1a9"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1360522b84fc5eb6014477ac88cce1a9">MR::AlphaShapeStats::redundancyTests</a> = 0</td></tr>
+<tr class="memitem:ga21f729088d454023479edec03b6a468b" id="r_ga21f729088d454023479edec03b6a468b"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga21f729088d454023479edec03b6a468b">MR::AlphaShapeStats::redundantNeis</a> = 0</td></tr>
+<tr class="memdesc:ga21f729088d454023479edec03b6a468b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of neighbours found redundant by those checks and excluded from the search  <br /></td></tr>
 <tr class="memitem:ga3a826e6a1c6f828fe6990bb8d670e5fc" id="r_ga3a826e6a1c6f828fe6990bb8d670e5fc"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3a826e6a1c6f828fe6990bb8d670e5fc">MR::AlphaShapeStats::consideredTris</a> = 0</td></tr>
 <tr class="memitem:ga8407afefcf2ab3fe8507b03cd00f7cec" id="r_ga8407afefcf2ab3fe8507b03cd00f7cec"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8407afefcf2ab3fe8507b03cd00f7cec">MR::AlphaShapeStats::touchableTris</a> = 0</td></tr>
 <tr class="memitem:ga660fa549b3463c89aaa1c7ebe4c007bf" id="r_ga660fa549b3463c89aaa1c7ebe4c007bf"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga660fa549b3463c89aaa1c7ebe4c007bf">MR::AlphaShapeStats::inBallTests</a> = 0</td></tr>
+<tr class="memitem:gaab997008dde5f70fe286479b19e55652" id="r_gaab997008dde5f70fe286479b19e55652"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab997008dde5f70fe286479b19e55652">MR::AlphaShapeStats::shadowTests</a> = 0</td></tr>
+<tr class="memdesc:gaab997008dde5f70fe286479b19e55652"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of neighbours tested for being shadowed by the balls of a touchable triangle  <br /></td></tr>
+<tr class="memitem:gaf7c3951e4621995b94f9b9312232a674" id="r_gaf7c3951e4621995b94f9b9312232a674"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf7c3951e4621995b94f9b9312232a674">MR::AlphaShapeStats::exactShadowTests</a> = 0</td></tr>
+<tr class="memitem:gabd973436e0df6a665b2eba12d3589efb" id="r_gabd973436e0df6a665b2eba12d3589efb"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabd973436e0df6a665b2eba12d3589efb">MR::AlphaShapeStats::shadowedNeis</a> = 0</td></tr>
+<tr class="memdesc:gabd973436e0df6a665b2eba12d3589efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of neighbours found shadowed, which are excluded from the search  <br /></td></tr>
 <tr class="memitem:ga9672fd16b4268feb06f1760b83b3261e" id="r_ga9672fd16b4268feb06f1760b83b3261e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9672fd16b4268feb06f1760b83b3261e">MR::AlphaShapeNei::coords</a></td></tr>
 <tr class="memdesc:ga9672fd16b4268feb06f1760b83b3261e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the neighbour's id together with its integer coordinates  <br /></td></tr>
 <tr class="memitem:ga946329fc95f92804b085844fdbc8e091" id="r_ga946329fc95f92804b085844fdbc8e091"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga946329fc95f92804b085844fdbc8e091">MR::AlphaShapeNei::distSq</a></td></tr>
@@ -74178,8 +74197,36 @@ template&lt;typename N&gt; </div>
 
 </div>
 </div>
+<a id="ga18cb5be5241f31a6b905ea00c4c17209" name="ga18cb5be5241f31a6b905ea00c4c17209"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga18cb5be5241f31a6b905ea00c4c17209">&#9670;&#160;</a></span>flip() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::FastInSphereTesterSoS::flip </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+<p>selects the mirror sphere as the base class does, moving the floating-point center as well; this hides the flip of the base class, which would leave the center on the wrong side </p>
+
+</div>
+</div>
 <a id="gabaa5af204a49c226014fb4cdc02af92e" name="gabaa5af204a49c226014fb4cdc02af92e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabaa5af204a49c226014fb4cdc02af92e">&#9670;&#160;</a></span>flip() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabaa5af204a49c226014fb4cdc02af92e">&#9670;&#160;</a></span>flip() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -74210,7 +74257,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga85e79ee85dc2a94aa2f2ed8f86a5d0fa" name="ga85e79ee85dc2a94aa2f2ed8f86a5d0fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga85e79ee85dc2a94aa2f2ed8f86a5d0fa">&#9670;&#160;</a></span>flip() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga85e79ee85dc2a94aa2f2ed8f86a5d0fa">&#9670;&#160;</a></span>flip() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -74239,7 +74286,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gae6f76431e076f7da4c8d01feef6b5c94" name="gae6f76431e076f7da4c8d01feef6b5c94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae6f76431e076f7da4c8d01feef6b5c94">&#9670;&#160;</a></span>flip() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae6f76431e076f7da4c8d01feef6b5c94">&#9670;&#160;</a></span>flip() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -74267,7 +74314,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gae796d1297cfc530ad544c5ced51b82fd" name="gae796d1297cfc530ad544c5ced51b82fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae796d1297cfc530ad544c5ced51b82fd">&#9670;&#160;</a></span>flip() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae796d1297cfc530ad544c5ced51b82fd">&#9670;&#160;</a></span>flip() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -74296,7 +74343,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gacb037b0d20b8897728886d4405e62252" name="gacb037b0d20b8897728886d4405e62252"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacb037b0d20b8897728886d4405e62252">&#9670;&#160;</a></span>flip() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacb037b0d20b8897728886d4405e62252">&#9670;&#160;</a></span>flip() <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -74325,7 +74372,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga676c9fb8dddc398dd7ee8544e124930a" name="ga676c9fb8dddc398dd7ee8544e124930a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga676c9fb8dddc398dd7ee8544e124930a">&#9670;&#160;</a></span>flip() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga676c9fb8dddc398dd7ee8544e124930a">&#9670;&#160;</a></span>flip() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -102306,6 +102353,34 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga9a73bfe7ade34306db56f903f8934b1e" name="ga9a73bfe7ade34306db56f903f8934b1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9a73bfe7ade34306db56f903f8934b1e">&#9670;&#160;</a></span>heightSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; 384 &gt; &amp; MR::InSphereTesterSoS::heightSq </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+<p>sqr( 2 * h * normalSq() ), h being the distance from the plane of the triangle to the sphere's center - not h^2 itself, the scaling by the doubled normal keeps the value integer; zero exactly when the circumradius equals the radius, so the center lies in the plane </p>
+
+</div>
+</div>
 <a id="gadc85b8e524e5fb7628fbb7cf5e7c372d" name="gadc85b8e524e5fb7628fbb7cf5e7c372d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gadc85b8e524e5fb7628fbb7cf5e7c372d">&#9670;&#160;</a></span>hidpi_scaling()</h2>
 
@@ -125469,8 +125544,38 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gaf0f5aef64719c5e7f73ab828608a7cba" name="gaf0f5aef64719c5e7f73ab828608a7cba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf0f5aef64719c5e7f73ab828608a7cba">&#9670;&#160;</a></span>normal() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const Vector3i64 &amp; MR::InSphereTesterSoS::normal </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+<p>doubled normal cross( b - a, c - a ) of the triangle, directed at the sphere's center </p>
+<p>the three accessors below describe the prepared sphere itself, for a caller that needs its own exact predicate about it rather than the position of a point. With S = sqrt( <a class="el" href="#ga9a73bfe7ade34306db56f903f8934b1e">heightSq()</a> * <a class="el" href="#gad85860a83d6bb58ac43b0888d25ffdab" title="squared length of normal()">normalSq()</a> ) and M = 2 * <a class="el" href="#gad85860a83d6bb58ac43b0888d25ffdab" title="squared length of normal()">normalSq()</a> * ( circumcenter - a ), which is recomputable from the three points, the center satisfies 2 * sqr( normalSq() ) * ( center - a ) = <a class="el" href="#gad85860a83d6bb58ac43b0888d25ffdab" title="squared length of normal()">normalSq()</a> * M + S * <a class="el" href="#gga09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555">normal()</a> exactly; findAlphaShapeNeiTriangles builds its wedge predicates on that identity. All three are valid only after <a class="el" href="#ga83272fcfe28d46d0c521b5f7c5af73f4">reset()</a> returned true. </p>
+
+</div>
+</div>
 <a id="ga4eeaaea51db3554932b5daf92209a962" name="ga4eeaaea51db3554932b5daf92209a962"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4eeaaea51db3554932b5daf92209a962">&#9670;&#160;</a></span>normal() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4eeaaea51db3554932b5daf92209a962">&#9670;&#160;</a></span>normal() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125507,7 +125612,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaeaaa231de17fd92490d5ffbdac7d7c16" name="gaeaaa231de17fd92490d5ffbdac7d7c16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeaaa231de17fd92490d5ffbdac7d7c16">&#9670;&#160;</a></span>normal() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeaaa231de17fd92490d5ffbdac7d7c16">&#9670;&#160;</a></span>normal() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125545,7 +125650,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga3fb32b3b62d46ab4122204d35787fa88" name="ga3fb32b3b62d46ab4122204d35787fa88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3fb32b3b62d46ab4122204d35787fa88">&#9670;&#160;</a></span>normal() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3fb32b3b62d46ab4122204d35787fa88">&#9670;&#160;</a></span>normal() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125583,7 +125688,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab8a336bd7f4d118f0875b242298c3f68" name="gab8a336bd7f4d118f0875b242298c3f68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab8a336bd7f4d118f0875b242298c3f68">&#9670;&#160;</a></span>normal() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab8a336bd7f4d118f0875b242298c3f68">&#9670;&#160;</a></span>normal() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125614,7 +125719,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga668bccb3edee9cdfebdbdc80a502dde5" name="ga668bccb3edee9cdfebdbdc80a502dde5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga668bccb3edee9cdfebdbdc80a502dde5">&#9670;&#160;</a></span>normal() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga668bccb3edee9cdfebdbdc80a502dde5">&#9670;&#160;</a></span>normal() <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125654,7 +125759,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaca6757bf3fe6058264ac14a06fbb616e" name="gaca6757bf3fe6058264ac14a06fbb616e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaca6757bf3fe6058264ac14a06fbb616e">&#9670;&#160;</a></span>normal() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaca6757bf3fe6058264ac14a06fbb616e">&#9670;&#160;</a></span>normal() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125894,6 +125999,35 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRMeshOrPoints_8h.html">MRMesh/MRMeshOrPoints.h</a>&gt;</code></p>
 
 <p>returns normals generating function: VertId-&gt;normal (or empty for point cloud without normals) </p>
+
+</div>
+</div>
+<a id="gad85860a83d6bb58ac43b0888d25ffdab" name="gad85860a83d6bb58ac43b0888d25ffdab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad85860a83d6bb58ac43b0888d25ffdab">&#9670;&#160;</a></span>normalSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; 192 &gt; &amp; MR::InSphereTesterSoS::normalSq </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+
+<p>squared length of <a class="el" href="#gga09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555">normal()</a> </p>
 
 </div>
 </div>
@@ -132854,7 +132988,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="ga75f4a1b12abfd495f279861dbfe344c6" name="ga75f4a1b12abfd495f279861dbfe344c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga75f4a1b12abfd495f279861dbfe344c6">&#9670;&#160;</a></span>operator()() <span class="overload">[1/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga75f4a1b12abfd495f279861dbfe344c6">&#9670;&#160;</a></span>operator()() <span class="overload">[1/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132888,7 +133022,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga4074d1c2d41a6af5c70554031b4004ef" name="ga4074d1c2d41a6af5c70554031b4004ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4074d1c2d41a6af5c70554031b4004ef">&#9670;&#160;</a></span>operator()() <span class="overload">[2/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4074d1c2d41a6af5c70554031b4004ef">&#9670;&#160;</a></span>operator()() <span class="overload">[2/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132917,7 +133051,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2c10c3fc1469788e98b54388e8878b5d" name="ga2c10c3fc1469788e98b54388e8878b5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2c10c3fc1469788e98b54388e8878b5d">&#9670;&#160;</a></span>operator()() <span class="overload">[3/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2c10c3fc1469788e98b54388e8878b5d">&#9670;&#160;</a></span>operator()() <span class="overload">[3/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132946,7 +133080,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga4bb2c416dbff9ff531043386ef9d7c64" name="ga4bb2c416dbff9ff531043386ef9d7c64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4bb2c416dbff9ff531043386ef9d7c64">&#9670;&#160;</a></span>operator()() <span class="overload">[4/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4bb2c416dbff9ff531043386ef9d7c64">&#9670;&#160;</a></span>operator()() <span class="overload">[4/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132974,8 +133108,36 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga2bae945de5039006890125cb915a9b12" name="ga2bae945de5039006890125cb915a9b12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2bae945de5039006890125cb915a9b12">&#9670;&#160;</a></span>operator()() <span class="overload">[5/40]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__MathGroup.html#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a> MR::FastInSphereTesterSoS::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>d</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+<p>returns the position of the point d.pt relative to the sphere, with the ties resolved by simulation-of-simplicity exactly as <a class="el" href="classMR_1_1InSphereTesterSoS.html">InSphereTesterSoS</a> does (never OnSphere or NoSphere); shall be called only after <a class="el" href="#ga1855670ce694c01ac7166e9562dc5ffb">reset()</a> returned true, and all four ids must be distinct </p>
+
+</div>
+</div>
 <a id="ga9b0b284d121ed0238aac867a29ac105d" name="ga9b0b284d121ed0238aac867a29ac105d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9b0b284d121ed0238aac867a29ac105d">&#9670;&#160;</a></span>operator()() <span class="overload">[5/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b0b284d121ed0238aac867a29ac105d">&#9670;&#160;</a></span>operator()() <span class="overload">[6/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133004,7 +133166,7 @@ template&lt;typename R, typename... Args&gt; </div>
 </div>
 </div>
 <a id="gaa7cc70a6eb2d36eae3ad67efba5575f9" name="gaa7cc70a6eb2d36eae3ad67efba5575f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa7cc70a6eb2d36eae3ad67efba5575f9">&#9670;&#160;</a></span>operator()() <span class="overload">[6/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7cc70a6eb2d36eae3ad67efba5575f9">&#9670;&#160;</a></span>operator()() <span class="overload">[7/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133039,7 +133201,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga74d0b604aae9ae085777a52321e5467a" name="ga74d0b604aae9ae085777a52321e5467a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga74d0b604aae9ae085777a52321e5467a">&#9670;&#160;</a></span>operator()() <span class="overload">[7/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga74d0b604aae9ae085777a52321e5467a">&#9670;&#160;</a></span>operator()() <span class="overload">[8/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133067,7 +133229,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga33f40392cf9decb4150d17e595c0d0b6" name="ga33f40392cf9decb4150d17e595c0d0b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga33f40392cf9decb4150d17e595c0d0b6">&#9670;&#160;</a></span>operator()() <span class="overload">[8/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga33f40392cf9decb4150d17e595c0d0b6">&#9670;&#160;</a></span>operator()() <span class="overload">[9/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133096,7 +133258,7 @@ sphere" ties into Inside or Outside by simulation-of-simplicity as described at 
 </div>
 </div>
 <a id="ga5ef14139402c930f2404b09edf71284a" name="ga5ef14139402c930f2404b09edf71284a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5ef14139402c930f2404b09edf71284a">&#9670;&#160;</a></span>operator()() <span class="overload">[9/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ef14139402c930f2404b09edf71284a">&#9670;&#160;</a></span>operator()() <span class="overload">[10/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133127,7 +133289,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaadd80884a169b1942afb5da781c1a137" name="gaadd80884a169b1942afb5da781c1a137"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaadd80884a169b1942afb5da781c1a137">&#9670;&#160;</a></span>operator()() <span class="overload">[10/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaadd80884a169b1942afb5da781c1a137">&#9670;&#160;</a></span>operator()() <span class="overload">[11/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133158,7 +133320,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga6c21d25d2c8666791acd9807e6625422" name="ga6c21d25d2c8666791acd9807e6625422"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6c21d25d2c8666791acd9807e6625422">&#9670;&#160;</a></span>operator()() <span class="overload">[11/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6c21d25d2c8666791acd9807e6625422">&#9670;&#160;</a></span>operator()() <span class="overload">[12/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133193,7 +133355,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga02514ec882b0d3be5745825463ffff40" name="ga02514ec882b0d3be5745825463ffff40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga02514ec882b0d3be5745825463ffff40">&#9670;&#160;</a></span>operator()() <span class="overload">[12/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga02514ec882b0d3be5745825463ffff40">&#9670;&#160;</a></span>operator()() <span class="overload">[13/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133226,7 +133388,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga8fdebf815e795678656400f4e3a957f2" name="ga8fdebf815e795678656400f4e3a957f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8fdebf815e795678656400f4e3a957f2">&#9670;&#160;</a></span>operator()() <span class="overload">[13/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8fdebf815e795678656400f4e3a957f2">&#9670;&#160;</a></span>operator()() <span class="overload">[14/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133257,7 +133419,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga74a243478f2e75f7806d1c8a5cea592b" name="ga74a243478f2e75f7806d1c8a5cea592b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga74a243478f2e75f7806d1c8a5cea592b">&#9670;&#160;</a></span>operator()() <span class="overload">[14/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga74a243478f2e75f7806d1c8a5cea592b">&#9670;&#160;</a></span>operator()() <span class="overload">[15/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133276,7 +133438,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gae0b30e21de516b46a8786250e234e4bd" name="gae0b30e21de516b46a8786250e234e4bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae0b30e21de516b46a8786250e234e4bd">&#9670;&#160;</a></span>operator()() <span class="overload">[15/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae0b30e21de516b46a8786250e234e4bd">&#9670;&#160;</a></span>operator()() <span class="overload">[16/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133303,7 +133465,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga9bd956d7adf45e7f09fe6105d37a84cb" name="ga9bd956d7adf45e7f09fe6105d37a84cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9bd956d7adf45e7f09fe6105d37a84cb">&#9670;&#160;</a></span>operator()() <span class="overload">[16/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9bd956d7adf45e7f09fe6105d37a84cb">&#9670;&#160;</a></span>operator()() <span class="overload">[17/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133334,7 +133496,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga799a0b7401b397fa7e07c3a6c8f565a1" name="ga799a0b7401b397fa7e07c3a6c8f565a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga799a0b7401b397fa7e07c3a6c8f565a1">&#9670;&#160;</a></span>operator()() <span class="overload">[17/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga799a0b7401b397fa7e07c3a6c8f565a1">&#9670;&#160;</a></span>operator()() <span class="overload">[18/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133361,7 +133523,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga1fec7954ca12a18f84497f9f0553585d" name="ga1fec7954ca12a18f84497f9f0553585d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1fec7954ca12a18f84497f9f0553585d">&#9670;&#160;</a></span>operator()() <span class="overload">[18/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1fec7954ca12a18f84497f9f0553585d">&#9670;&#160;</a></span>operator()() <span class="overload">[19/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133382,7 +133544,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab180b7c950637b7ef71f6a4d2dd078d1" name="gab180b7c950637b7ef71f6a4d2dd078d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab180b7c950637b7ef71f6a4d2dd078d1">&#9670;&#160;</a></span>operator()() <span class="overload">[19/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab180b7c950637b7ef71f6a4d2dd078d1">&#9670;&#160;</a></span>operator()() <span class="overload">[20/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133413,7 +133575,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga8cdbb299f455b9d61db9dd2742781758" name="ga8cdbb299f455b9d61db9dd2742781758"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8cdbb299f455b9d61db9dd2742781758">&#9670;&#160;</a></span>operator()() <span class="overload">[20/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8cdbb299f455b9d61db9dd2742781758">&#9670;&#160;</a></span>operator()() <span class="overload">[21/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133432,7 +133594,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gadcfa3f6e76c7ebd915a9859d2105ab57" name="gadcfa3f6e76c7ebd915a9859d2105ab57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadcfa3f6e76c7ebd915a9859d2105ab57">&#9670;&#160;</a></span>operator()() <span class="overload">[21/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadcfa3f6e76c7ebd915a9859d2105ab57">&#9670;&#160;</a></span>operator()() <span class="overload">[22/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133463,7 +133625,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga45bf9f53f24483c850f914def539451e" name="ga45bf9f53f24483c850f914def539451e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga45bf9f53f24483c850f914def539451e">&#9670;&#160;</a></span>operator()() <span class="overload">[22/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga45bf9f53f24483c850f914def539451e">&#9670;&#160;</a></span>operator()() <span class="overload">[23/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133494,7 +133656,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga468346fde82355b348c6dab673e56dc8" name="ga468346fde82355b348c6dab673e56dc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga468346fde82355b348c6dab673e56dc8">&#9670;&#160;</a></span>operator()() <span class="overload">[23/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga468346fde82355b348c6dab673e56dc8">&#9670;&#160;</a></span>operator()() <span class="overload">[24/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133525,7 +133687,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga977120d7564720a22808ebdbad48799d" name="ga977120d7564720a22808ebdbad48799d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga977120d7564720a22808ebdbad48799d">&#9670;&#160;</a></span>operator()() <span class="overload">[24/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga977120d7564720a22808ebdbad48799d">&#9670;&#160;</a></span>operator()() <span class="overload">[25/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133561,7 +133723,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga52b3271f5af4251f286977712cfaa24b" name="ga52b3271f5af4251f286977712cfaa24b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga52b3271f5af4251f286977712cfaa24b">&#9670;&#160;</a></span>operator()() <span class="overload">[25/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga52b3271f5af4251f286977712cfaa24b">&#9670;&#160;</a></span>operator()() <span class="overload">[26/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133588,7 +133750,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad5299ab010ebcba9b1e37ad61cb59b25" name="gad5299ab010ebcba9b1e37ad61cb59b25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad5299ab010ebcba9b1e37ad61cb59b25">&#9670;&#160;</a></span>operator()() <span class="overload">[26/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5299ab010ebcba9b1e37ad61cb59b25">&#9670;&#160;</a></span>operator()() <span class="overload">[27/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133621,7 +133783,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gabc22f0ca644c177ec27809d7804e79fc" name="gabc22f0ca644c177ec27809d7804e79fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabc22f0ca644c177ec27809d7804e79fc">&#9670;&#160;</a></span>operator()() <span class="overload">[27/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc22f0ca644c177ec27809d7804e79fc">&#9670;&#160;</a></span>operator()() <span class="overload">[28/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133659,7 +133821,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga50441918634a0e7c8376e3c370c3604f" name="ga50441918634a0e7c8376e3c370c3604f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga50441918634a0e7c8376e3c370c3604f">&#9670;&#160;</a></span>operator()() <span class="overload">[28/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga50441918634a0e7c8376e3c370c3604f">&#9670;&#160;</a></span>operator()() <span class="overload">[29/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133688,7 +133850,7 @@ template&lt;typename L&gt; </div>
 </div>
 </div>
 <a id="gab12804eaa7827c0475e3cac1250a662c" name="gab12804eaa7827c0475e3cac1250a662c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab12804eaa7827c0475e3cac1250a662c">&#9670;&#160;</a></span>operator()() <span class="overload">[29/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab12804eaa7827c0475e3cac1250a662c">&#9670;&#160;</a></span>operator()() <span class="overload">[30/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133708,7 +133870,7 @@ template&lt;typename L&gt; </div>
 </div>
 </div>
 <a id="ga86ddf92193dd592a4f6b78b9df17f094" name="ga86ddf92193dd592a4f6b78b9df17f094"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga86ddf92193dd592a4f6b78b9df17f094">&#9670;&#160;</a></span>operator()() <span class="overload">[30/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga86ddf92193dd592a4f6b78b9df17f094">&#9670;&#160;</a></span>operator()() <span class="overload">[31/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133727,7 +133889,7 @@ template&lt;typename L&gt; </div>
 </div>
 </div>
 <a id="gad3ff4de6029266a085fe353fe76aabf8" name="gad3ff4de6029266a085fe353fe76aabf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad3ff4de6029266a085fe353fe76aabf8">&#9670;&#160;</a></span>operator()() <span class="overload">[31/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad3ff4de6029266a085fe353fe76aabf8">&#9670;&#160;</a></span>operator()() <span class="overload">[32/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133748,7 +133910,7 @@ template&lt;typename T, size_t degree&gt; </div>
 </div>
 </div>
 <a id="ga4cb62dbdfc11a2824f776fd24372b6e0" name="ga4cb62dbdfc11a2824f776fd24372b6e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4cb62dbdfc11a2824f776fd24372b6e0">&#9670;&#160;</a></span>operator()() <span class="overload">[32/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4cb62dbdfc11a2824f776fd24372b6e0">&#9670;&#160;</a></span>operator()() <span class="overload">[33/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133769,7 +133931,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafde85af8bb0b46b18e7c0b7f9ab0a2be" name="gafde85af8bb0b46b18e7c0b7f9ab0a2be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafde85af8bb0b46b18e7c0b7f9ab0a2be">&#9670;&#160;</a></span>operator()() <span class="overload">[33/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafde85af8bb0b46b18e7c0b7f9ab0a2be">&#9670;&#160;</a></span>operator()() <span class="overload">[34/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133799,7 +133961,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gae9524032175e7503af1f3c23a7d5b962" name="gae9524032175e7503af1f3c23a7d5b962"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae9524032175e7503af1f3c23a7d5b962">&#9670;&#160;</a></span>operator()() <span class="overload">[34/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae9524032175e7503af1f3c23a7d5b962">&#9670;&#160;</a></span>operator()() <span class="overload">[35/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133830,7 +133992,7 @@ template&lt;class TreeT, typename Transformer&gt; </div>
 </div>
 </div>
 <a id="ga2a51228138a8994ccaa8fab17ec60f75" name="ga2a51228138a8994ccaa8fab17ec60f75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2a51228138a8994ccaa8fab17ec60f75">&#9670;&#160;</a></span>operator()() <span class="overload">[35/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2a51228138a8994ccaa8fab17ec60f75">&#9670;&#160;</a></span>operator()() <span class="overload">[36/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133861,7 +134023,7 @@ template&lt;typename TreeT, typename Proc&gt; </div>
 </div>
 </div>
 <a id="ga1884898b6086a4da8a93f20af5c6519e" name="ga1884898b6086a4da8a93f20af5c6519e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1884898b6086a4da8a93f20af5c6519e">&#9670;&#160;</a></span>operator()() <span class="overload">[36/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1884898b6086a4da8a93f20af5c6519e">&#9670;&#160;</a></span>operator()() <span class="overload">[37/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133899,7 +134061,7 @@ template&lt;typename TreeT&gt; </div>
 </div>
 </div>
 <a id="gac4c7b58291a1f9e59adb38ee87fca271" name="gac4c7b58291a1f9e59adb38ee87fca271"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac4c7b58291a1f9e59adb38ee87fca271">&#9670;&#160;</a></span>operator()() <span class="overload">[37/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac4c7b58291a1f9e59adb38ee87fca271">&#9670;&#160;</a></span>operator()() <span class="overload">[38/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133933,7 +134095,7 @@ template&lt;typename Iter&gt; </div>
 </div>
 </div>
 <a id="gac520c15e54c74fc25c2c0d3a0bdd18a6" name="gac520c15e54c74fc25c2c0d3a0bdd18a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac520c15e54c74fc25c2c0d3a0bdd18a6">&#9670;&#160;</a></span>operator()() <span class="overload">[38/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac520c15e54c74fc25c2c0d3a0bdd18a6">&#9670;&#160;</a></span>operator()() <span class="overload">[39/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133964,7 +134126,7 @@ template&lt;typename Iter&gt; </div>
 </div>
 </div>
 <a id="ga4180132d13f552ef422f73a2ad0c6bdc" name="ga4180132d13f552ef422f73a2ad0c6bdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4180132d13f552ef422f73a2ad0c6bdc">&#9670;&#160;</a></span>operator()() <span class="overload">[39/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4180132d13f552ef422f73a2ad0c6bdc">&#9670;&#160;</a></span>operator()() <span class="overload">[40/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -141397,6 +141559,34 @@ template&lt;typename V&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRBall_8h.html">MRMesh/MRBall.h</a>&gt;</code></p>
 
 <p>returns true if given point is strictly outside the ball (not on its spherical surface) </p>
+
+</div>
+</div>
+<a id="ga49ccdd0542a5957599fe860a3a4d8495" name="ga49ccdd0542a5957599fe860a3a4d8495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga49ccdd0542a5957599fe860a3a4d8495">&#9670;&#160;</a></span>outsideBothSpheres()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::FastInSphereTesterSoS::outsideBothSpheres </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>d</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+<p>whether d is strictly outside both spheres of the given radius passing via the three points of <a class="el" href="#ga1855670ce694c01ac7166e9562dc5ffb">reset()</a>: the selected one and its mirror in the plane of the triangle; the answer is exact, and a point lying on either of them is not strictly outside, so no tie arises and no simulation-of-simplicity is involved; filtered in floating point as the query above, and equally exact </p>
 
 </div>
 </div>
@@ -153729,7 +153919,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="ga445c3b0c4fa983e99bc09eec8b063b34" name="ga445c3b0c4fa983e99bc09eec8b063b34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga445c3b0c4fa983e99bc09eec8b063b34">&#9670;&#160;</a></span>reset() <span class="overload">[1/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga445c3b0c4fa983e99bc09eec8b063b34">&#9670;&#160;</a></span>reset() <span class="overload">[1/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153750,7 +153940,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gadc804e05290d593cba2bee002c0b1226" name="gadc804e05290d593cba2bee002c0b1226"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadc804e05290d593cba2bee002c0b1226">&#9670;&#160;</a></span>reset() <span class="overload">[2/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadc804e05290d593cba2bee002c0b1226">&#9670;&#160;</a></span>reset() <span class="overload">[2/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153771,7 +153961,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gaf214cbf713cffeca3d05767eb0478076" name="gaf214cbf713cffeca3d05767eb0478076"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf214cbf713cffeca3d05767eb0478076">&#9670;&#160;</a></span>reset() <span class="overload">[3/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf214cbf713cffeca3d05767eb0478076">&#9670;&#160;</a></span>reset() <span class="overload">[3/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153792,7 +153982,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="ga97224204d9a8fb7c998f7899e16e5af4" name="ga97224204d9a8fb7c998f7899e16e5af4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga97224204d9a8fb7c998f7899e16e5af4">&#9670;&#160;</a></span>reset() <span class="overload">[4/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga97224204d9a8fb7c998f7899e16e5af4">&#9670;&#160;</a></span>reset() <span class="overload">[4/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153813,7 +154003,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="ga350ebc799fad87e3f4fdbac53c4c1f56" name="ga350ebc799fad87e3f4fdbac53c4c1f56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga350ebc799fad87e3f4fdbac53c4c1f56">&#9670;&#160;</a></span>reset() <span class="overload">[5/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga350ebc799fad87e3f4fdbac53c4c1f56">&#9670;&#160;</a></span>reset() <span class="overload">[5/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153832,7 +154022,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gaa09cebafb0e39827a67f62a269c7c551" name="gaa09cebafb0e39827a67f62a269c7c551"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa09cebafb0e39827a67f62a269c7c551">&#9670;&#160;</a></span>reset() <span class="overload">[6/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa09cebafb0e39827a67f62a269c7c551">&#9670;&#160;</a></span>reset() <span class="overload">[6/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153853,7 +154043,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gaa46954e1ccf8e1c7d6699e34aceb182a" name="gaa46954e1ccf8e1c7d6699e34aceb182a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa46954e1ccf8e1c7d6699e34aceb182a">&#9670;&#160;</a></span>reset() <span class="overload">[7/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa46954e1ccf8e1c7d6699e34aceb182a">&#9670;&#160;</a></span>reset() <span class="overload">[7/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153874,7 +154064,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gaff331c694c13233b9e7f9240c528d789" name="gaff331c694c13233b9e7f9240c528d789"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaff331c694c13233b9e7f9240c528d789">&#9670;&#160;</a></span>reset() <span class="overload">[8/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff331c694c13233b9e7f9240c528d789">&#9670;&#160;</a></span>reset() <span class="overload">[8/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153905,7 +154095,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gafc243a4d7a4db10effb980ef1d5ea53f" name="gafc243a4d7a4db10effb980ef1d5ea53f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafc243a4d7a4db10effb980ef1d5ea53f">&#9670;&#160;</a></span>reset() <span class="overload">[9/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafc243a4d7a4db10effb980ef1d5ea53f">&#9670;&#160;</a></span>reset() <span class="overload">[9/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153926,7 +154116,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga1032e35fb6655c21714f2b61b829255b" name="ga1032e35fb6655c21714f2b61b829255b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1032e35fb6655c21714f2b61b829255b">&#9670;&#160;</a></span>reset() <span class="overload">[10/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1032e35fb6655c21714f2b61b829255b">&#9670;&#160;</a></span>reset() <span class="overload">[10/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153949,7 +154139,7 @@ template&lt;typename Tag&gt; </div>
 </div>
 </div>
 <a id="gad657373f26b8e6cf769236dbc021d204" name="gad657373f26b8e6cf769236dbc021d204"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad657373f26b8e6cf769236dbc021d204">&#9670;&#160;</a></span>reset() <span class="overload">[11/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad657373f26b8e6cf769236dbc021d204">&#9670;&#160;</a></span>reset() <span class="overload">[11/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153969,7 +154159,7 @@ template&lt;typename Tag&gt; </div>
 </div>
 </div>
 <a id="ga2630eea62fad502665d655fe9fb9a36c" name="ga2630eea62fad502665d655fe9fb9a36c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2630eea62fad502665d655fe9fb9a36c">&#9670;&#160;</a></span>reset() <span class="overload">[12/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2630eea62fad502665d655fe9fb9a36c">&#9670;&#160;</a></span>reset() <span class="overload">[12/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153990,7 +154180,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab4550839dc9988e12df6606b43a80c09" name="gab4550839dc9988e12df6606b43a80c09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab4550839dc9988e12df6606b43a80c09">&#9670;&#160;</a></span>reset() <span class="overload">[13/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab4550839dc9988e12df6606b43a80c09">&#9670;&#160;</a></span>reset() <span class="overload">[13/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154010,7 +154200,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7d9c7eab674b64dddd6446ef4bbca1ee" name="ga7d9c7eab674b64dddd6446ef4bbca1ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7d9c7eab674b64dddd6446ef4bbca1ee">&#9670;&#160;</a></span>reset() <span class="overload">[14/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7d9c7eab674b64dddd6446ef4bbca1ee">&#9670;&#160;</a></span>reset() <span class="overload">[14/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154030,7 +154220,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga8b233d3b70904335296fbd82fcbc693f" name="ga8b233d3b70904335296fbd82fcbc693f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8b233d3b70904335296fbd82fcbc693f">&#9670;&#160;</a></span>reset() <span class="overload">[15/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8b233d3b70904335296fbd82fcbc693f">&#9670;&#160;</a></span>reset() <span class="overload">[15/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154052,8 +154242,42 @@ template&lt;class MetricToPenalty&gt; </div>
 
 </div>
 </div>
+<a id="ga1855670ce694c01ac7166e9562dc5ffb" name="ga1855670ce694c01ac7166e9562dc5ffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1855670ce694c01ac7166e9562dc5ffb">&#9670;&#160;</a></span>reset() <span class="overload">[16/35]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::FastInSphereTesterSoS::reset </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::int64_t</td>          <td class="paramname"><span class="paramname"><em>rSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+<p>prepares the tester as <a class="el" href="#ga83272fcfe28d46d0c521b5f7c5af73f4">InSphereTesterSoS::reset</a> does, and additionally computes the floating-point center of the sphere and the tolerance of the tests below; this hides the reset of the base class, which would leave the center stale </p>
+
+</div>
+</div>
 <a id="ga137b1fa934a6f5746491768b2b3aab36" name="ga137b1fa934a6f5746491768b2b3aab36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga137b1fa934a6f5746491768b2b3aab36">&#9670;&#160;</a></span>reset() <span class="overload">[16/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga137b1fa934a6f5746491768b2b3aab36">&#9670;&#160;</a></span>reset() <span class="overload">[17/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154076,7 +154300,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7327ef9217c0d637a3fe427f72676165" name="ga7327ef9217c0d637a3fe427f72676165"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7327ef9217c0d637a3fe427f72676165">&#9670;&#160;</a></span>reset() <span class="overload">[17/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7327ef9217c0d637a3fe427f72676165">&#9670;&#160;</a></span>reset() <span class="overload">[18/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154095,7 +154319,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6250977a401d570cacd7052be7bad666" name="ga6250977a401d570cacd7052be7bad666"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6250977a401d570cacd7052be7bad666">&#9670;&#160;</a></span>reset() <span class="overload">[18/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6250977a401d570cacd7052be7bad666">&#9670;&#160;</a></span>reset() <span class="overload">[19/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154114,7 +154338,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaac3c3659ce152745f2daae131d72fa66" name="gaac3c3659ce152745f2daae131d72fa66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaac3c3659ce152745f2daae131d72fa66">&#9670;&#160;</a></span>reset() <span class="overload">[19/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac3c3659ce152745f2daae131d72fa66">&#9670;&#160;</a></span>reset() <span class="overload">[20/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154135,7 +154359,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga88fe2ec458dc79515a087d948cd80237" name="ga88fe2ec458dc79515a087d948cd80237"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga88fe2ec458dc79515a087d948cd80237">&#9670;&#160;</a></span>reset() <span class="overload">[20/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga88fe2ec458dc79515a087d948cd80237">&#9670;&#160;</a></span>reset() <span class="overload">[21/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154183,7 +154407,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga123618fe6a86bf933ee6c55b8dc3d08a" name="ga123618fe6a86bf933ee6c55b8dc3d08a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga123618fe6a86bf933ee6c55b8dc3d08a">&#9670;&#160;</a></span>reset() <span class="overload">[21/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga123618fe6a86bf933ee6c55b8dc3d08a">&#9670;&#160;</a></span>reset() <span class="overload">[22/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154217,7 +154441,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga83272fcfe28d46d0c521b5f7c5af73f4" name="ga83272fcfe28d46d0c521b5f7c5af73f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga83272fcfe28d46d0c521b5f7c5af73f4">&#9670;&#160;</a></span>reset() <span class="overload">[22/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga83272fcfe28d46d0c521b5f7c5af73f4">&#9670;&#160;</a></span>reset() <span class="overload">[23/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154251,7 +154475,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gabcbc6506c74c783ee36216d1ce536bed" name="gabcbc6506c74c783ee36216d1ce536bed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabcbc6506c74c783ee36216d1ce536bed">&#9670;&#160;</a></span>reset() <span class="overload">[23/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabcbc6506c74c783ee36216d1ce536bed">&#9670;&#160;</a></span>reset() <span class="overload">[24/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154278,7 +154502,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gacb35ab4e3708eff1a51c3c97f4bed0d4" name="gacb35ab4e3708eff1a51c3c97f4bed0d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacb35ab4e3708eff1a51c3c97f4bed0d4">&#9670;&#160;</a></span>reset() <span class="overload">[24/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacb35ab4e3708eff1a51c3c97f4bed0d4">&#9670;&#160;</a></span>reset() <span class="overload">[25/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154298,7 +154522,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga894fcc815298b0aebea325e64d09c495" name="ga894fcc815298b0aebea325e64d09c495"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga894fcc815298b0aebea325e64d09c495">&#9670;&#160;</a></span>reset() <span class="overload">[25/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga894fcc815298b0aebea325e64d09c495">&#9670;&#160;</a></span>reset() <span class="overload">[26/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154327,7 +154551,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7c04619df20d551fd4e79257bcf83a31" name="ga7c04619df20d551fd4e79257bcf83a31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7c04619df20d551fd4e79257bcf83a31">&#9670;&#160;</a></span>reset() <span class="overload">[26/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7c04619df20d551fd4e79257bcf83a31">&#9670;&#160;</a></span>reset() <span class="overload">[27/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154356,7 +154580,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga67a4ba46cf14092e8bf56898b7ade0fc" name="ga67a4ba46cf14092e8bf56898b7ade0fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga67a4ba46cf14092e8bf56898b7ade0fc">&#9670;&#160;</a></span>reset() <span class="overload">[27/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga67a4ba46cf14092e8bf56898b7ade0fc">&#9670;&#160;</a></span>reset() <span class="overload">[28/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154377,7 +154601,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga03b99f9869a71fb7d4f478bede15845d" name="ga03b99f9869a71fb7d4f478bede15845d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga03b99f9869a71fb7d4f478bede15845d">&#9670;&#160;</a></span>reset() <span class="overload">[28/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga03b99f9869a71fb7d4f478bede15845d">&#9670;&#160;</a></span>reset() <span class="overload">[29/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154398,7 +154622,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga18d55ba22afde13793929c7ce4511358" name="ga18d55ba22afde13793929c7ce4511358"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga18d55ba22afde13793929c7ce4511358">&#9670;&#160;</a></span>reset() <span class="overload">[29/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga18d55ba22afde13793929c7ce4511358">&#9670;&#160;</a></span>reset() <span class="overload">[30/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154419,7 +154643,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6a74089f75f3b88edf1a6fb0beba1e13" name="ga6a74089f75f3b88edf1a6fb0beba1e13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6a74089f75f3b88edf1a6fb0beba1e13">&#9670;&#160;</a></span>reset() <span class="overload">[30/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6a74089f75f3b88edf1a6fb0beba1e13">&#9670;&#160;</a></span>reset() <span class="overload">[31/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154450,7 +154674,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga9cbbe6698b91f4932fc8498ac345c362" name="ga9cbbe6698b91f4932fc8498ac345c362"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9cbbe6698b91f4932fc8498ac345c362">&#9670;&#160;</a></span>reset() <span class="overload">[31/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9cbbe6698b91f4932fc8498ac345c362">&#9670;&#160;</a></span>reset() <span class="overload">[32/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154469,7 +154693,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga4dd7ea4b014eafdbbb1c753fb97eb3ab" name="ga4dd7ea4b014eafdbbb1c753fb97eb3ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4dd7ea4b014eafdbbb1c753fb97eb3ab">&#9670;&#160;</a></span>reset() <span class="overload">[32/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4dd7ea4b014eafdbbb1c753fb97eb3ab">&#9670;&#160;</a></span>reset() <span class="overload">[33/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154488,7 +154712,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga5daa51d87dc540fd02b52303e05cbe20" name="ga5daa51d87dc540fd02b52303e05cbe20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5daa51d87dc540fd02b52303e05cbe20">&#9670;&#160;</a></span>reset() <span class="overload">[33/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5daa51d87dc540fd02b52303e05cbe20">&#9670;&#160;</a></span>reset() <span class="overload">[34/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154517,7 +154741,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga6341f3c9b4f6ccb5bcf18cc28ccf5efc" name="ga6341f3c9b4f6ccb5bcf18cc28ccf5efc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6341f3c9b4f6ccb5bcf18cc28ccf5efc">&#9670;&#160;</a></span>reset() <span class="overload">[34/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6341f3c9b4f6ccb5bcf18cc28ccf5efc">&#9670;&#160;</a></span>reset() <span class="overload">[35/35]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204839,6 +205063,21 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga134feca163a44ef1902ad2ef0dc12a20" name="ga134feca163a44ef1902ad2ef0dc12a20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga134feca163a44ef1902ad2ef0dc12a20">&#9670;&#160;</a></span>collectedNeis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::AlphaShapeStats::collectedNeis = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the number of neighbours found within the search radius, before any of the filters below; the searches around all the points are quadratic in this, so it explains most of the difference in the time spent per point between one cloud and another </p>
+
+</div>
+</div>
 <a id="gaa5bbaf41ee00c68fce4b46c405457cda" name="gaa5bbaf41ee00c68fce4b46c405457cda"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaa5bbaf41ee00c68fce4b46c405457cda">&#9670;&#160;</a></span>color <span class="overload">[1/3]</span></h2>
 
@@ -210211,6 +210450,21 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Usually, from several objects that fall into the peak, the closest one along the ray is selected. However, if exactPickFirst = true, then the object in which the pick exactly fell (for example, a point in point cloud) will be returned as the result, even if there are others within the radius, including closer objects. </p>
+
+</div>
+</div>
+<a id="gaf7c3951e4621995b94f9b9312232a674" name="gaf7c3951e4621995b94f9b9312232a674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf7c3951e4621995b94f9b9312232a674">&#9670;&#160;</a></span>exactShadowTests</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::AlphaShapeStats::exactShadowTests = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the number of shadow tests not decided by the floating-point rejection, which had to evaluate the exact predicates </p>
 
 </div>
 </div>
@@ -225899,6 +226153,37 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga1360522b84fc5eb6014477ac88cce1a9" name="ga1360522b84fc5eb6014477ac88cce1a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1360522b84fc5eb6014477ac88cce1a9">&#9670;&#160;</a></span>redundancyTests</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::AlphaShapeStats::redundancyTests = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the number of pairs of neighbours checked for one of them making the other redundant, which is quadratic in the neighbours of a point </p>
+
+</div>
+</div>
+<a id="ga21f729088d454023479edec03b6a468b" name="ga21f729088d454023479edec03b6a468b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga21f729088d454023479edec03b6a468b">&#9670;&#160;</a></span>redundantNeis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::AlphaShapeStats::redundantNeis = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the number of neighbours found redundant by those checks and excluded from the search </p>
+
+</div>
+</div>
 <a id="gaba30935609c38d5f95567ac57c0c404f" name="gaba30935609c38d5f95567ac57c0c404f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaba30935609c38d5f95567ac57c0c404f">&#9670;&#160;</a></span>referenceNormal</h2>
 
@@ -228057,6 +228342,38 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 <p>really it shoud be one enum Shading {None, Flat, Smooth, Crease} but for back capability it is easier to add global flag </p>
+
+</div>
+</div>
+<a id="gabd973436e0df6a665b2eba12d3589efb" name="gabd973436e0df6a665b2eba12d3589efb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd973436e0df6a665b2eba12d3589efb">&#9670;&#160;</a></span>shadowedNeis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::AlphaShapeStats::shadowedNeis = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the number of neighbours found shadowed, which are excluded from the search </p>
+
+</div>
+</div>
+<a id="gaab997008dde5f70fe286479b19e55652" name="gaab997008dde5f70fe286479b19e55652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaab997008dde5f70fe286479b19e55652">&#9670;&#160;</a></span>shadowTests</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::AlphaShapeStats::shadowTests = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the number of neighbours tested for being shadowed by the balls of a touchable triangle </p>
 
 </div>
 </div>

@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FastInSphereTesterSoS" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FastInSphereTesterSoS</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FastInSphereTesterSoS" prot="public" virt="non-virtual">MR.FastInSphereTesterSoS</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FastInSphereTesterSoS_1aafedd9cdd20b8dd2ebfe9c76a51f76d5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FastInSphereTesterSoS.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FastInSphereTesterSoS.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="864" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="864" bodyend="872"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FastInSphereTesterSoS_1a2b4b15d12a2cc6e549c457a0b754745e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FastInSphereTesterSoS.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FastInSphereTesterSoS.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="873" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="873" bodyend="873"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FastInSphereTesterSoS_1aec07c28642ca5a26417487056812eeaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FastInSphereTesterSoS.Const_FastInSphereTesterSoS</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FastInSphereTesterSoS</name>
+        <qualifiedname>MR.Const_FastInSphereTesterSoS.Const_FastInSphereTesterSoS</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="899" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="899" bodyend="904"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FastInSphereTesterSoS_1ab05a8a65af675668d860d7e7bbf41f3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FastInSphereTesterSoS.Const_FastInSphereTesterSoS</definition>
+        <argsstring>(MR.Const_FastInSphereTesterSoS _other)</argsstring>
+        <name>Const_FastInSphereTesterSoS</name>
+        <qualifiedname>MR.Const_FastInSphereTesterSoS.Const_FastInSphereTesterSoS</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FastInSphereTesterSoS" kindref="compound">MR.Const_FastInSphereTesterSoS</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FastInSphereTesterSoS_1aef7a73351747c7528f0b7455e7153d6a" kindref="member">MR.FastInSphereTesterSoS.FastInSphereTesterSoS</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="909" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="909" bodyend="915"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FastInSphereTesterSoS_1af86400239044179b9b5997be1f839835" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FastInSphereTesterSoS.Const_FastInSphereTesterSoS</definition>
+        <argsstring>(FastInSphereTesterSoS _other)</argsstring>
+        <name>Const_FastInSphereTesterSoS</name>
+        <qualifiedname>MR.Const_FastInSphereTesterSoS.Const_FastInSphereTesterSoS</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FastInSphereTesterSoS" kindref="compound">FastInSphereTesterSoS</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FastInSphereTesterSoS_1aef7a73351747c7528f0b7455e7153d6a" kindref="member">MR.FastInSphereTesterSoS.FastInSphereTesterSoS</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="920" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="920" bodyend="920"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FastInSphereTesterSoS_1af9235801e7a810e3d62a3213a1404c30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
+        <definition>unsafe MR.InSphereResult MR.Const_FastInSphereTesterSoS.call</definition>
+        <argsstring>(MR.Const_PreciseVertCoords d)</argsstring>
+        <name>call</name>
+        <qualifiedname>MR.Const_FastInSphereTesterSoS.call</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PreciseVertCoords" kindref="compound">MR.Const_PreciseVertCoords</ref></type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>returns the position of the point d.pt relative to the sphere, with the ties resolved by simulation-of-simplicity exactly as <ref refid="classMR_1_1InSphereTesterSoS" kindref="compound">InSphereTesterSoS</ref> does (never OnSphere or NoSphere); shall be called only after reset() returned true, and all four ids must be distinct Generated from method <computeroutput>MR::FastInSphereTesterSoS::operator()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="928" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="928" bodyend="933"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FastInSphereTesterSoS_1adfa929c13ca8c18b94a4c747602c2aa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_FastInSphereTesterSoS.outsideBothSpheres</definition>
+        <argsstring>(in MR.Vector3i d)</argsstring>
+        <name>outsideBothSpheres</name>
+        <qualifiedname>MR.Const_FastInSphereTesterSoS.outsideBothSpheres</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>whether d is strictly outside both spheres of the given radius passing via the three points of reset(): the selected one and its mirror in the plane of the triangle; the answer is exact, and a point lying on either of them is not strictly outside, so no tie arises and no simulation-of-simplicity is involved; filtered in floating point as the query above, and equally exact Generated from method <computeroutput><ref refid="classMR_1_1Const__FastInSphereTesterSoS_1adfa929c13ca8c18b94a4c747602c2aa0" kindref="member">MR.FastInSphereTesterSoS.outsideBothSpheres</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="943" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="943" bodyend="951"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FastInSphereTesterSoS_1ab01f7512712e39fefb6cf795db216e44" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FastInSphereTesterSoS.~Const_FastInSphereTesterSoS</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FastInSphereTesterSoS</name>
+        <qualifiedname>MR.Const_FastInSphereTesterSoS.~Const_FastInSphereTesterSoS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="874" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="874" bodyend="874"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__FastInSphereTesterSoS_1a7e18d8375d8edae533496269033ba784" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_FastInSphereTesterSoS.operator MR.Const_InSphereTester_Int</definition>
+        <argsstring>(Const_FastInSphereTesterSoS self)</argsstring>
+        <name>operator MR.Const_InSphereTester_Int</name>
+        <qualifiedname>MR.Const_FastInSphereTesterSoS.operator MR.Const_InSphereTester_Int</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FastInSphereTesterSoS" kindref="compound">Const_FastInSphereTesterSoS</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="877" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="877" bodyend="884"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FastInSphereTesterSoS_1af59c1d4948d02ac6968de6e27c084cbd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_FastInSphereTesterSoS.operator MR.Const_InSphereTesterSoS</definition>
+        <argsstring>(Const_FastInSphereTesterSoS self)</argsstring>
+        <name>operator MR.Const_InSphereTesterSoS</name>
+        <qualifiedname>MR.Const_FastInSphereTesterSoS.operator MR.Const_InSphereTesterSoS</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FastInSphereTesterSoS" kindref="compound">Const_FastInSphereTesterSoS</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="885" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="885" bodyend="892"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FastInSphereTesterSoS_1a8c3df17828465a6fba7a7f6f222e056a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FastInSphereTesterSoS.Const_FastInSphereTesterSoS</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FastInSphereTesterSoS</name>
+        <qualifiedname>MR.Const_FastInSphereTesterSoS.Const_FastInSphereTesterSoS</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="894" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="894" bodyend="894"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>gives exactly the same answers as <ref refid="classMR_1_1InSphereTesterSoS" kindref="compound">InSphereTesterSoS</ref>, only faster: the sphere's center is also computed in floating point during reset(), and every query point far enough from the sphere's surface is answered by it alone, leaving the exact predicates for the points close to it Generated from class <computeroutput><ref refid="classMR_1_1FastInSphereTesterSoS" kindref="compound">MR.FastInSphereTesterSoS</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1InSphereTesterSoS" kindref="compound">MR.InSphereTesterSoS</ref></computeroutput> Indirect: (non-virtual) <computeroutput>MR::InSphereTester&amp;lt;int&amp;gt;</computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_FastInSphereTesterSoS</label>
+        <link refid="classMR_1_1Const__FastInSphereTesterSoS"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.FastInSphereTesterSoS</label>
+        <link refid="classMR_1_1FastInSphereTesterSoS"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_FastInSphereTesterSoS</label>
+        <link refid="classMR_1_1Const__FastInSphereTesterSoS"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="858" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="859" bodyend="952"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FastInSphereTesterSoS_1af9235801e7a810e3d62a3213a1404c30" prot="public" virt="non-virtual"><scope>MR::Const_FastInSphereTesterSoS</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__FastInSphereTesterSoS_1a8c3df17828465a6fba7a7f6f222e056a" prot="package" virt="non-virtual"><scope>MR::Const_FastInSphereTesterSoS</scope><name>Const_FastInSphereTesterSoS</name></member>
+      <member refid="classMR_1_1Const__FastInSphereTesterSoS_1aec07c28642ca5a26417487056812eeaf" prot="public" virt="non-virtual"><scope>MR::Const_FastInSphereTesterSoS</scope><name>Const_FastInSphereTesterSoS</name></member>
+      <member refid="classMR_1_1Const__FastInSphereTesterSoS_1ab05a8a65af675668d860d7e7bbf41f3e" prot="public" virt="non-virtual"><scope>MR::Const_FastInSphereTesterSoS</scope><name>Const_FastInSphereTesterSoS</name></member>
+      <member refid="classMR_1_1Const__FastInSphereTesterSoS_1af86400239044179b9b5997be1f839835" prot="public" virt="non-virtual"><scope>MR::Const_FastInSphereTesterSoS</scope><name>Const_FastInSphereTesterSoS</name></member>
+      <member refid="classMR_1_1Const__FastInSphereTesterSoS_1aafedd9cdd20b8dd2ebfe9c76a51f76d5" prot="protected" virt="virtual"><scope>MR::Const_FastInSphereTesterSoS</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FastInSphereTesterSoS_1a2b4b15d12a2cc6e549c457a0b754745e" prot="public" virt="virtual"><scope>MR::Const_FastInSphereTesterSoS</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FastInSphereTesterSoS_1a7e18d8375d8edae533496269033ba784" prot="public" virt="non-virtual"><scope>MR::Const_FastInSphereTesterSoS</scope><name>operator MR.Const_InSphereTester_Int</name></member>
+      <member refid="classMR_1_1Const__FastInSphereTesterSoS_1af59c1d4948d02ac6968de6e27c084cbd" prot="public" virt="non-virtual"><scope>MR::Const_FastInSphereTesterSoS</scope><name>operator MR.Const_InSphereTesterSoS</name></member>
+      <member refid="classMR_1_1Const__FastInSphereTesterSoS_1adfa929c13ca8c18b94a4c747602c2aa0" prot="public" virt="non-virtual"><scope>MR::Const_FastInSphereTesterSoS</scope><name>outsideBothSpheres</name></member>
+      <member refid="classMR_1_1Const__FastInSphereTesterSoS_1ab01f7512712e39fefb6cf795db216e44" prot="private" virt="non-virtual"><scope>MR::Const_FastInSphereTesterSoS</scope><name>~Const_FastInSphereTesterSoS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

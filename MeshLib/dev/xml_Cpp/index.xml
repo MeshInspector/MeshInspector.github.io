@@ -146,9 +146,15 @@
     <member refid="group__GeneralGroup_1ga946329fc95f92804b085844fdbc8e091" kind="variable"><name>distSq</name></member>
   </compound>
   <compound refid="structMR_1_1AlphaShapeStats" kind="struct"><name>MR::AlphaShapeStats</name>
+    <member refid="group__GeneralGroup_1ga134feca163a44ef1902ad2ef0dc12a20" kind="variable"><name>collectedNeis</name></member>
+    <member refid="group__GeneralGroup_1ga1360522b84fc5eb6014477ac88cce1a9" kind="variable"><name>redundancyTests</name></member>
+    <member refid="group__GeneralGroup_1ga21f729088d454023479edec03b6a468b" kind="variable"><name>redundantNeis</name></member>
     <member refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kind="variable"><name>consideredTris</name></member>
     <member refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kind="variable"><name>touchableTris</name></member>
     <member refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" kind="variable"><name>inBallTests</name></member>
+    <member refid="group__GeneralGroup_1gaab997008dde5f70fe286479b19e55652" kind="variable"><name>shadowTests</name></member>
+    <member refid="group__GeneralGroup_1gaf7c3951e4621995b94f9b9312232a674" kind="variable"><name>exactShadowTests</name></member>
+    <member refid="group__GeneralGroup_1gabd973436e0df6a665b2eba12d3589efb" kind="variable"><name>shadowedNeis</name></member>
     <member refid="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" kind="function"><name>operator+=</name></member>
   </compound>
   <compound refid="classMR_1_1AlphaSortGL" kind="class"><name>MR::AlphaSortGL</name>
@@ -3184,6 +3190,15 @@
     <member refid="group__GeneralGroup_1ga010e9445541af4e90e90d34acc98220e" kind="function"><name>FanRecordWithCenter</name></member>
     <member refid="group__GeneralGroup_1gac112017931324f9b12a9af38f28671e2" kind="function"><name>FanRecordWithCenter</name></member>
   </compound>
+  <compound refid="classMR_1_1FastInSphereTesterSoS" kind="class"><name>MR::FastInSphereTesterSoS</name>
+    <member refid="group__GeneralGroup_1ga7247c1db3ad0f38aa3829018e5858880" kind="variable"><name>cc_</name></member>
+    <member refid="group__GeneralGroup_1ga8179026f2e4edd02060cae38cb719f1e" kind="variable"><name>hn_</name></member>
+    <member refid="group__GeneralGroup_1gac6a38bd4e2641259ee1d8eae1a79f8f8" kind="variable"><name>tol_</name></member>
+    <member refid="group__GeneralGroup_1ga1855670ce694c01ac7166e9562dc5ffb" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1ga18cb5be5241f31a6b905ea00c4c17209" kind="function"><name>flip</name></member>
+    <member refid="group__GeneralGroup_1ga2bae945de5039006890125cb915a9b12" kind="function"><name>operator()</name></member>
+    <member refid="group__GeneralGroup_1ga49ccdd0542a5957599fe860a3a4d8495" kind="function"><name>outsideBothSpheres</name></member>
+  </compound>
   <compound refid="classMR_1_1FastInt" kind="class"><name>MR::FastInt</name>
     <member refid="classMR_1_1FastInt_1afcd10d8886953c1764137528d675b0ae" kind="variable"><name>numWords</name></member>
     <member refid="classMR_1_1FastInt_1aef342f52d379f8b2ac6e7eac40b17e31" kind="variable"><name>w</name></member>
@@ -4584,6 +4599,9 @@
     <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
+    <member refid="group__GeneralGroup_1gaf0f5aef64719c5e7f73ab828608a7cba" kind="function"><name>normal</name></member>
+    <member refid="group__GeneralGroup_1gad85860a83d6bb58ac43b0888d25ffdab" kind="function"><name>normalSq</name></member>
+    <member refid="group__GeneralGroup_1ga9a73bfe7ade34306db56f903f8934b1e" kind="function"><name>heightSq</name></member>
   </compound>
   <compound refid="classMR_1_1Int128Mul256" kind="class"><name>MR::Int128Mul256</name>
     <member refid="classMR_1_1Int128Mul256_1a18b892749ae2c24ad278f5499c3e14e5" kind="variable"><name>v_</name></member>
@@ -21863,9 +21881,15 @@
     <member refid="group__GeneralGroup_1ga83480f95b9e1d4f1069a44ea03726ea8" kind="variable"><name>intPoints</name></member>
     <member refid="group__GeneralGroup_1ga9f56dd5709fb6f4de21f77cae0674f72" kind="variable"><name>intRadiusSq</name></member>
     <member refid="group__GeneralGroup_1gadbecaa4f00f06aa00986ff64e0c42b23" kind="variable"><name>searchRadius</name></member>
+    <member refid="group__GeneralGroup_1ga134feca163a44ef1902ad2ef0dc12a20" kind="variable"><name>collectedNeis</name></member>
+    <member refid="group__GeneralGroup_1ga1360522b84fc5eb6014477ac88cce1a9" kind="variable"><name>redundancyTests</name></member>
+    <member refid="group__GeneralGroup_1ga21f729088d454023479edec03b6a468b" kind="variable"><name>redundantNeis</name></member>
     <member refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kind="variable"><name>consideredTris</name></member>
     <member refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kind="variable"><name>touchableTris</name></member>
     <member refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" kind="variable"><name>inBallTests</name></member>
+    <member refid="group__GeneralGroup_1gaab997008dde5f70fe286479b19e55652" kind="variable"><name>shadowTests</name></member>
+    <member refid="group__GeneralGroup_1gaf7c3951e4621995b94f9b9312232a674" kind="variable"><name>exactShadowTests</name></member>
+    <member refid="group__GeneralGroup_1gabd973436e0df6a665b2eba12d3589efb" kind="variable"><name>shadowedNeis</name></member>
     <member refid="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" kind="variable"><name>coords</name></member>
     <member refid="group__GeneralGroup_1ga946329fc95f92804b085844fdbc8e091" kind="variable"><name>distSq</name></member>
     <member refid="group__GeneralGroup_1gacfc8f690c3bf3935fb4e3bc132ebd84b" kind="variable"><name>isConical_</name></member>
@@ -22400,6 +22424,9 @@
     <member refid="group__GeneralGroup_1gacf6bc51e20756e358846e3a1e06435d4" kind="variable"><name>va_</name></member>
     <member refid="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" kind="variable"><name>vb_</name></member>
     <member refid="group__GeneralGroup_1gacab5c4bb57db9e7c39168b0a7c80f78a" kind="variable"><name>vc_</name></member>
+    <member refid="group__GeneralGroup_1ga7247c1db3ad0f38aa3829018e5858880" kind="variable"><name>cc_</name></member>
+    <member refid="group__GeneralGroup_1ga8179026f2e4edd02060cae38cb719f1e" kind="variable"><name>hn_</name></member>
+    <member refid="group__GeneralGroup_1gac6a38bd4e2641259ee1d8eae1a79f8f8" kind="variable"><name>tol_</name></member>
     <member refid="group__GeneralGroup_1gaf0d8c93adfdca3a7b53b48884d7a6f3e" kind="variable"><name>topology_</name></member>
     <member refid="group__GeneralGroup_1gacd9355de874443aa0132991638f1fe2e" kind="variable"><name>treeEdges_</name></member>
     <member refid="group__GeneralGroup_1gab373c2a1918e12da1f93770318f254c7" kind="variable"><name>vertDistance_</name></member>
@@ -26574,6 +26601,13 @@
     <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
+    <member refid="group__GeneralGroup_1gaf0f5aef64719c5e7f73ab828608a7cba" kind="function"><name>normal</name></member>
+    <member refid="group__GeneralGroup_1gad85860a83d6bb58ac43b0888d25ffdab" kind="function"><name>normalSq</name></member>
+    <member refid="group__GeneralGroup_1ga9a73bfe7ade34306db56f903f8934b1e" kind="function"><name>heightSq</name></member>
+    <member refid="group__GeneralGroup_1ga1855670ce694c01ac7166e9562dc5ffb" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1ga18cb5be5241f31a6b905ea00c4c17209" kind="function"><name>flip</name></member>
+    <member refid="group__GeneralGroup_1ga2bae945de5039006890125cb915a9b12" kind="function"><name>operator()</name></member>
+    <member refid="group__GeneralGroup_1ga49ccdd0542a5957599fe860a3a4d8495" kind="function"><name>outsideBothSpheres</name></member>
     <member refid="group__GeneralGroup_1gacebe5d7b834dddf60d4e4a8aed01b3df" kind="function"><name>orderIntersectionContours</name></member>
     <member refid="group__GeneralGroup_1gace5eda8f2fc429433e617ded105880b4" kind="function"><name>orderSelfIntersectionContours</name></member>
     <member refid="group__GeneralGroup_1gac15e5ed23d864e6b90d96baf62fec297" kind="function"><name>extractIntersectionContours</name></member>

@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FastInSphereTesterSoS" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FastInSphereTesterSoS</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1InSphereTesterSoS" prot="public" virt="non-virtual">mrmeshpy.InSphereTesterSoS</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FastInSphereTesterSoS_1adad5fd84cca102fe84d9caaeff7f77ad" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FastInSphereTesterSoS.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FastInSphereTesterSoS.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18240" bodyend="18241"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastInSphereTesterSoS_1ac64cd24b4786143648b3ebf78255a45b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FastInSphereTesterSoS" kindref="compound">FastInSphereTesterSoS</ref></type>
+        <definition> FastInSphereTesterSoS mrmeshpy.FastInSphereTesterSoS.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FastInSphereTesterSoS.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1InSphereTesterSoS_1af9c60fd3af78f8228de2cd91e723700f">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18244" bodyend="18245"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastInSphereTesterSoS_1ac64cd24b4786143648b3ebf78255a45b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FastInSphereTesterSoS" kindref="compound">FastInSphereTesterSoS</ref></type>
+        <definition> FastInSphereTesterSoS mrmeshpy.FastInSphereTesterSoS.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FastInSphereTesterSoS.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1InSphereTesterSoS_1af9c60fd3af78f8228de2cd91e723700f">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18248" bodyend="18249"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FastInSphereTesterSoS_1ac32dfce419333553d3267416de47ec59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1InSphereResult" kindref="compound">InSphereResult</ref></type>
+        <definition> InSphereResult mrmeshpy.FastInSphereTesterSoS.__call__</definition>
+        <argsstring>(self, PreciseVertCoords d)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.FastInSphereTesterSoS.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the position of the point d.pt relative to the sphere, with the ties resolved by
+simulation-of-simplicity exactly as InSphereTesterSoS does (never OnSphere or NoSphere);
+shall be called only after reset() returned true, and all four ids must be distinct
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18250" bodyend="18255"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastInSphereTesterSoS_1a74ce14681bfe72ccabf366e064d11d19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FastInSphereTesterSoS.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FastInSphereTesterSoS.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18257" bodyend="18258"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastInSphereTesterSoS_1a812aeb0f9bf12523f22a839fb2d47d2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FastInSphereTesterSoS.__init__</definition>
+        <argsstring>(self, FastInSphereTesterSoS arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FastInSphereTesterSoS.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FastInSphereTesterSoS" kindref="compound">FastInSphereTesterSoS</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18260" bodyend="18263"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastInSphereTesterSoS_1acac1037d03018d6f7f414355547c1383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FastInSphereTesterSoS.flip</definition>
+        <argsstring>(self)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.FastInSphereTesterSoS.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1InSphereTesterSoS_1a5e86da1cc67217194db46bfb5dc8dcd8">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>selects the mirror sphere as the base class does, moving the floating-point center as well;
+this hides the flip of the base class, which would leave the center on the wrong side
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18264" bodyend="18268"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastInSphereTesterSoS_1aeb5f9f407f20853d13f94e61b136a4de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FastInSphereTesterSoS.outsideBothSpheres</definition>
+        <argsstring>(self, Vector3i d)</argsstring>
+        <name>outsideBothSpheres</name>
+        <qualifiedname>mrmeshpy.FastInSphereTesterSoS.outsideBothSpheres</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether d is strictly outside both spheres of the given radius passing via the three points
+of reset(): the selected one and its mirror in the plane of the triangle;
+the answer is exact, and a point lying on either of them is not strictly outside, so no tie
+arises and no simulation-of-simplicity is involved;
+filtered in floating point as the query above, and equally exact
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18269" bodyend="18276"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastInSphereTesterSoS_1a428c3a779d8ddc7ed69170ad4b769f0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FastInSphereTesterSoS.reset</definition>
+        <argsstring>(self, PreciseVertCoords a, PreciseVertCoords b, PreciseVertCoords c, int rSq)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.FastInSphereTesterSoS.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1InSphereTesterSoS_1af53fe719631f6b20e64b6b80bd68b661">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rSq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>prepares the tester as InSphereTesterSoS::reset does, and additionally computes the
+floating-point center of the sphere and the tolerance of the tests below;
+this hides the reset of the base class, which would leave the center stale
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18277" bodyend="18282"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FastInSphereTesterSoS
+
+gives exactly the same answers as InSphereTesterSoS, only faster: the sphere&apos;s center is also
+computed in floating point during reset(), and every query point far enough from the sphere&apos;s
+surface is answered by it alone, leaving the exact predicates for the points close to it
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.FastInSphereTesterSoS</label>
+        <link refid="classmrmeshpy_1_1FastInSphereTesterSoS"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.InSphereTesterSoS</label>
+        <link refid="classmrmeshpy_1_1InSphereTesterSoS"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.InSphereTester_int</label>
+        <link refid="classmrmeshpy_1_1InSphereTester__int"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FastInSphereTesterSoS</label>
+        <link refid="classmrmeshpy_1_1FastInSphereTesterSoS"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.InSphereTesterSoS</label>
+        <link refid="classmrmeshpy_1_1InSphereTesterSoS"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.InSphereTester_int</label>
+        <link refid="classmrmeshpy_1_1InSphereTester__int"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18230" bodyend="18282"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1ac32dfce419333553d3267416de47ec59" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1adad5fd84cca102fe84d9caaeff7f77ad" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1a74ce14681bfe72ccabf366e064d11d19" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1a812aeb0f9bf12523f22a839fb2d47d2f" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1acac1037d03018d6f7f414355547c1383" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1ac64cd24b4786143648b3ebf78255a45b" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1ac64cd24b4786143648b3ebf78255a45b" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1aeb5f9f407f20853d13f94e61b136a4de" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>outsideBothSpheres</name></member>
+      <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1a428c3a779d8ddc7ed69170ad4b769f0f" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

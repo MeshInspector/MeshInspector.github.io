@@ -3,6 +3,7 @@
   <compounddef id="classMR_1_1InSphereTesterSoS" kind="class" language="C++" prot="public">
     <compoundname>MR::InSphereTesterSoS</compoundname>
     <basecompoundref refid="classMR_1_1InSphereTester" prot="public" virt="non-virtual">MR::InSphereTester&lt; int &gt;</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FastInSphereTesterSoS" prot="public" virt="non-virtual">MR::FastInSphereTesterSoS</derivedcompoundref>
     <includes refid="MRInSphere_8h" local="no">MRMesh/MRInSphere.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gacf6bc51e20756e358846e3a1e06435d4" kind="variable"><name>va_</name></member>
@@ -13,6 +14,9 @@
       <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
       <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" kind="function"><name>flip</name></member>
       <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gaf0f5aef64719c5e7f73ab828608a7cba" kind="function"><name>normal</name></member>
+      <member refid="group__GeneralGroup_1gad85860a83d6bb58ac43b0888d25ffdab" kind="function"><name>normalSq</name></member>
+      <member refid="group__GeneralGroup_1ga9a73bfe7ade34306db56f903f8934b1e" kind="function"><name>heightSq</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -20,6 +24,12 @@
 <para>the precise tester with simulation-of-simplicity resolution of &quot;exactly on the sphere&quot; ties, which reuses all the geometric machinery of <ref refid="classMR_1_1InSphereTester" kindref="compound">InSphereTester&lt;int&gt;</ref> and adds only the vertex ids </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="3">
+        <label>MR::FastInSphereTesterSoS</label>
+        <link refid="classMR_1_1FastInSphereTesterSoS"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
         <label>MR::InSphereTester&lt; T &gt;</label>
         <link refid="classMR_1_1InSphereTester"/>
@@ -43,9 +53,12 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRInSphere.h" line="207" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="208" bodyend="236"/>
+    <location file="MRMesh/MRInSphere.h" line="207" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="208" bodyend="254"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>flip</name></member>
+      <member refid="group__GeneralGroup_1ga9a73bfe7ade34306db56f903f8934b1e" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>heightSq</name></member>
+      <member refid="group__GeneralGroup_1gaf0f5aef64719c5e7f73ab828608a7cba" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>normal</name></member>
+      <member refid="group__GeneralGroup_1gad85860a83d6bb58ac43b0888d25ffdab" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>normalSq</name></member>
       <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>operator()</name></member>
       <member refid="group__GeneralGroup_1gaa7cc70a6eb2d36eae3ad67efba5575f9" prot="public" virt="non-virtual" ambiguityscope="MR::InSphereTester::"><scope>MR::InSphereTesterSoS</scope><name>operator()</name></member>
       <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>reset</name></member>

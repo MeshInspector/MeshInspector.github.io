@@ -1,15 +1,27 @@
 var classMR_1_1Const__AlphaShapeStats =
 [
     [ "Const_AlphaShapeStats", "classMR_1_1Const__AlphaShapeStats.html#a892de79d29bae069076bcd07157f7490", null ],
-    [ "Const_AlphaShapeStats", "classMR_1_1Const__AlphaShapeStats.html#a2c1a39aee51fe028109fa5c38366f8a9", null ],
+    [ "Const_AlphaShapeStats", "classMR_1_1Const__AlphaShapeStats.html#a96a049448245e71d4327025e1dad5ec1", null ],
     [ "Const_AlphaShapeStats", "classMR_1_1Const__AlphaShapeStats.html#ab545a464d2a9b35e0b8819f1678be5d1", null ],
     [ "Const_AlphaShapeStats", "classMR_1_1Const__AlphaShapeStats.html#ac4c7a6e293463cebcf3a84c65e35c2eb", null ],
     [ "Dispose", "classMR_1_1Const__AlphaShapeStats.html#a31036aab0ae7d594e3842ac273c8f8b7", null ],
     [ "Dispose", "classMR_1_1Const__AlphaShapeStats.html#a493042c705f5ce8bc17eb2fccf79ccf0", null ],
+    [ "__ref_storage_collectedNeis", "classMR_1_1Const__AlphaShapeStats.html#a48bf80bbbb74115e1910142de952e20f", null ],
     [ "__ref_storage_consideredTris", "classMR_1_1Const__AlphaShapeStats.html#a0ba2865ae372d07184613b2cba03ca91", null ],
+    [ "__ref_storage_exactShadowTests", "classMR_1_1Const__AlphaShapeStats.html#a77e9a0451a0a35639a10c2e5559d721c", null ],
     [ "__ref_storage_inBallTests", "classMR_1_1Const__AlphaShapeStats.html#a9e02b435a39b9b55134fa84354083a64", null ],
+    [ "__ref_storage_redundancyTests", "classMR_1_1Const__AlphaShapeStats.html#aff8e2ec8b898791eaab06dda7251a592", null ],
+    [ "__ref_storage_redundantNeis", "classMR_1_1Const__AlphaShapeStats.html#a0fc394785ee6da183672a5ab913d3753", null ],
+    [ "__ref_storage_shadowedNeis", "classMR_1_1Const__AlphaShapeStats.html#a5a4ee703510d6fc9c587ca4beec50f0c", null ],
+    [ "__ref_storage_shadowTests", "classMR_1_1Const__AlphaShapeStats.html#a2f12cb58842ae16d779f270eb268d7c5", null ],
     [ "__ref_storage_touchableTris", "classMR_1_1Const__AlphaShapeStats.html#afa3a554d3d916e85c0a576f212ef55ae", null ],
+    [ "collectedNeis", "classMR_1_1Const__AlphaShapeStats.html#aa680f7f96d6708414c41b35a54647e6b", null ],
     [ "consideredTris", "classMR_1_1Const__AlphaShapeStats.html#ac18708517f8c45b999b2da156e8bf528", null ],
+    [ "exactShadowTests", "classMR_1_1Const__AlphaShapeStats.html#a5e916ba65e6bc885a91caaa47b0c13ee", null ],
     [ "inBallTests", "classMR_1_1Const__AlphaShapeStats.html#ae4413e531dd86581916ad2994b4e9385", null ],
+    [ "redundancyTests", "classMR_1_1Const__AlphaShapeStats.html#a210477b9fbfc12fa35e6abf94dbde1d3", null ],
+    [ "redundantNeis", "classMR_1_1Const__AlphaShapeStats.html#aacbb0996bbb893bcccb620b5ea335e19", null ],
+    [ "shadowedNeis", "classMR_1_1Const__AlphaShapeStats.html#a6a3f424f8192591789c3c95aeca8bc46", null ],
+    [ "shadowTests", "classMR_1_1Const__AlphaShapeStats.html#acd24daeba0d4029ab83102b8d8f22572", null ],
     [ "touchableTris", "classMR_1_1Const__AlphaShapeStats.html#aed900d8379ef422fdead72471533903f", null ]
 ];

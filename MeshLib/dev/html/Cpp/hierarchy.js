@@ -649,7 +649,9 @@ var hierarchy =
     [ "MR::InSphere", "structMR_1_1InSphere.html", null ],
     [ "MR::InSphereSearchSettings", "structMR_1_1InSphereSearchSettings.html", null ],
     [ "MR::InSphereTester< T >", "classMR_1_1InSphereTester.html", [
-      [ "MR::InSphereTesterSoS", "classMR_1_1InSphereTesterSoS.html", null ]
+      [ "MR::InSphereTesterSoS", "classMR_1_1InSphereTesterSoS.html", [
+        [ "MR::FastInSphereTesterSoS", "classMR_1_1FastInSphereTesterSoS.html", null ]
+      ] ]
     ] ],
     [ "MR::Int128Mul256", "classMR_1_1Int128Mul256.html", null ],
     [ "MR::Int64Mul128", "classMR_1_1Int64Mul128.html", null ],

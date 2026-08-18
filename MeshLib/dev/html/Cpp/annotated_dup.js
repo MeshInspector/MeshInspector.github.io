@@ -529,6 +529,7 @@ var annotated_dup =
       [ "FaceFaceFace", "structMR_1_1FaceFaceFace.html", "structMR_1_1FaceFaceFace" ],
       [ "FanRecord", "structMR_1_1FanRecord.html", "structMR_1_1FanRecord" ],
       [ "FanRecordWithCenter", "structMR_1_1FanRecordWithCenter.html", "structMR_1_1FanRecordWithCenter" ],
+      [ "FastInSphereTesterSoS", "classMR_1_1FastInSphereTesterSoS.html", "classMR_1_1FastInSphereTesterSoS" ],
       [ "FastInt", "classMR_1_1FastInt.html", "classMR_1_1FastInt" ],
       [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html", "classMR_1_1FastWindingNumber" ],
       [ "FeatureObject", "classMR_1_1FeatureObject.html", "classMR_1_1FeatureObject" ],

@@ -445,6 +445,7 @@
     <innerclass refid="classMR_1_1Const__FaceSetBitIterator" prot="public">MR::Const_FaceSetBitIterator</innerclass>
     <innerclass refid="classMR_1_1Const__FanRecord" prot="public">MR::Const_FanRecord</innerclass>
     <innerclass refid="classMR_1_1Const__FanRecordWithCenter" prot="public">MR::Const_FanRecordWithCenter</innerclass>
+    <innerclass refid="classMR_1_1Const__FastInSphereTesterSoS" prot="public">MR::Const_FastInSphereTesterSoS</innerclass>
     <innerclass refid="classMR_1_1Const__FastWindingNumber" prot="public">MR::Const_FastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1Const__FeatureObject" prot="public">MR::Const_FeatureObject</innerclass>
     <innerclass refid="classMR_1_1Const__FeatureObjectProjectPointResult" prot="public">MR::Const_FeatureObjectProjectPointResult</innerclass>
@@ -1179,6 +1180,7 @@
     <innerclass refid="classMR_1_1FaceSetBitIterator" prot="public">MR::FaceSetBitIterator</innerclass>
     <innerclass refid="classMR_1_1FanRecord" prot="public">MR::FanRecord</innerclass>
     <innerclass refid="classMR_1_1FanRecordWithCenter" prot="public">MR::FanRecordWithCenter</innerclass>
+    <innerclass refid="classMR_1_1FastInSphereTesterSoS" prot="public">MR::FastInSphereTesterSoS</innerclass>
     <innerclass refid="classMR_1_1FastWindingNumber" prot="public">MR::FastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1FeatureObject" prot="public">MR::FeatureObject</innerclass>
     <innerclass refid="classMR_1_1FeatureObjectProjectPointResult" prot="public">MR::FeatureObjectProjectPointResult</innerclass>
@@ -5914,7 +5916,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="788" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="788" bodyend="793"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="898" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="898" bodyend="903"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a180e11b6bfda7c4367bac59eda6ee832" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -5958,7 +5960,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="800" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="800" bodyend="805"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="910" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="910" bodyend="915"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a32936c120c57269735769d1282afc224" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRTriangulation</type>
@@ -5990,7 +5992,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="811" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="811" bodyend="816"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="921" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="921" bodyend="926"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad70e15784ace180a11f2439a7055346a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Triangulation" kindref="compound">MR.Triangulation</ref></type>
@@ -6018,7 +6020,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="821" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="821" bodyend="826"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="931" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="931" bodyend="936"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1afc73e5f710830fb055cb539763583ae3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRTriangulation</type>
@@ -6050,7 +6052,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="833" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="833" bodyend="838"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="943" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="943" bodyend="948"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac872ba33b23fc035b9f94c92ab774f8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRMesh</type>
@@ -6082,7 +6084,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="844" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="844" bodyend="849"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="954" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="954" bodyend="959"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abbae438a8d41297c7aaacd34e5c67111" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -6110,7 +6112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="854" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="854" bodyend="859"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="964" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="964" bodyend="969"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4b787558bf096cc4d2fa775326d22b1f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -16332,7 +16334,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="845" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="845" bodyend="862"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="1095" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="1095" bodyend="1112"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a62166d7af3268e1fb6ed4a2fe6dff277" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
@@ -16361,7 +16363,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="886" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="886" bodyend="891"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="1136" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="1136" bodyend="1141"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a99bc6f70cec6a39f9deb24ad8e96d098" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
@@ -16396,7 +16398,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="899" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="899" bodyend="916"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="1149" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="1149" bodyend="1166"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7b9fd5040673024050cc3399f239d4f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" kindref="member">MR.InSphereResult</ref></type>
@@ -16431,7 +16433,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="924" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="924" bodyend="941"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="1174" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="1174" bodyend="1191"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a15226665c3c4f5712216c9efbbd54c53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRVector2f</type>

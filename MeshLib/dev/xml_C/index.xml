@@ -2213,6 +2213,15 @@
     <member refid="MRAlphaShape_8h_1af8b30e27420e129fa56ac9cb756a9c5b" kind="function"><name>MR_AlphaShapeData_AssignFromAnother</name></member>
     <member refid="MRAlphaShape_8h_1a7f9ec282c8ac74ad921864945d1496df" kind="function"><name>MR_AlphaShapeData_coords</name></member>
     <member refid="MRAlphaShape_8h_1a9e3adca78952f03c8cdc024219d13615" kind="function"><name>MR_getAlphaShapeData</name></member>
+    <member refid="MRAlphaShape_8h_1abc35847857d99af36b23e01fad823745" kind="function"><name>MR_AlphaShapeStats_Get_collectedNeis</name></member>
+    <member refid="MRAlphaShape_8h_1a9354871c27fa4bbd4413d7aa025cbff0" kind="function"><name>MR_AlphaShapeStats_Set_collectedNeis</name></member>
+    <member refid="MRAlphaShape_8h_1af218e63a31f61d24b48706dc37c408b2" kind="function"><name>MR_AlphaShapeStats_GetMutable_collectedNeis</name></member>
+    <member refid="MRAlphaShape_8h_1a26653390f9a900dfa4264d0a8143a4ca" kind="function"><name>MR_AlphaShapeStats_Get_redundancyTests</name></member>
+    <member refid="MRAlphaShape_8h_1aedac4d80244f80b548f875aa06cea092" kind="function"><name>MR_AlphaShapeStats_Set_redundancyTests</name></member>
+    <member refid="MRAlphaShape_8h_1a39476779df8b4e9b7a5d5b4326abd35c" kind="function"><name>MR_AlphaShapeStats_GetMutable_redundancyTests</name></member>
+    <member refid="MRAlphaShape_8h_1a7b3773f330dd52b8f163e8510588b9d4" kind="function"><name>MR_AlphaShapeStats_Get_redundantNeis</name></member>
+    <member refid="MRAlphaShape_8h_1a2bab0c251d86eeab4479825c6344a8d9" kind="function"><name>MR_AlphaShapeStats_Set_redundantNeis</name></member>
+    <member refid="MRAlphaShape_8h_1a2bb3eeeb6381c2616e2810c909dfd7fe" kind="function"><name>MR_AlphaShapeStats_GetMutable_redundantNeis</name></member>
     <member refid="MRAlphaShape_8h_1a2edc2568cb57b04a9ca10c70ab7b391b" kind="function"><name>MR_AlphaShapeStats_Get_consideredTris</name></member>
     <member refid="MRAlphaShape_8h_1a41f06ede053d55a34b50968f3e7abf7b" kind="function"><name>MR_AlphaShapeStats_Set_consideredTris</name></member>
     <member refid="MRAlphaShape_8h_1a615ad2503fadfbd6473f7ba2eb8adee7" kind="function"><name>MR_AlphaShapeStats_GetMutable_consideredTris</name></member>
@@ -2222,9 +2231,18 @@
     <member refid="MRAlphaShape_8h_1a53bc9c35337ad4be9ffdb25e010c97b2" kind="function"><name>MR_AlphaShapeStats_Get_inBallTests</name></member>
     <member refid="MRAlphaShape_8h_1a6176630d12a04b6418e266b088e2d431" kind="function"><name>MR_AlphaShapeStats_Set_inBallTests</name></member>
     <member refid="MRAlphaShape_8h_1a1d0af96636ef074108229fa3a93225f6" kind="function"><name>MR_AlphaShapeStats_GetMutable_inBallTests</name></member>
+    <member refid="MRAlphaShape_8h_1a8abcc443f010cc88a1916a0bdab99e98" kind="function"><name>MR_AlphaShapeStats_Get_shadowTests</name></member>
+    <member refid="MRAlphaShape_8h_1ad725fd3038ebe2046cf5f65dfe193d3d" kind="function"><name>MR_AlphaShapeStats_Set_shadowTests</name></member>
+    <member refid="MRAlphaShape_8h_1a575b29b927930f61c1069dafcf108565" kind="function"><name>MR_AlphaShapeStats_GetMutable_shadowTests</name></member>
+    <member refid="MRAlphaShape_8h_1ace791d094be2c3a3b83007e31309ce72" kind="function"><name>MR_AlphaShapeStats_Get_exactShadowTests</name></member>
+    <member refid="MRAlphaShape_8h_1ac56f72903ab6eff50592a9da7f353c24" kind="function"><name>MR_AlphaShapeStats_Set_exactShadowTests</name></member>
+    <member refid="MRAlphaShape_8h_1a301425256fad3a4bcc0f756e07319e38" kind="function"><name>MR_AlphaShapeStats_GetMutable_exactShadowTests</name></member>
+    <member refid="MRAlphaShape_8h_1ac36db00aa8870129ea9c5bc7f5643ecb" kind="function"><name>MR_AlphaShapeStats_Get_shadowedNeis</name></member>
+    <member refid="MRAlphaShape_8h_1adccb96161a8ab7ca7b13a64ef729b0f9" kind="function"><name>MR_AlphaShapeStats_Set_shadowedNeis</name></member>
+    <member refid="MRAlphaShape_8h_1ad688b5fce5a14a173cf0a40902697d6d" kind="function"><name>MR_AlphaShapeStats_GetMutable_shadowedNeis</name></member>
     <member refid="MRAlphaShape_8h_1af3fe82406fb0356f3859711839808f0c" kind="function"><name>MR_AlphaShapeStats_DefaultConstruct</name></member>
     <member refid="MRAlphaShape_8h_1a6edc4904e5a2ccffc3408b1669ad5eba" kind="function"><name>MR_AlphaShapeStats_DefaultConstructArray</name></member>
-    <member refid="MRAlphaShape_8h_1ac2862c7886665bafa5e1cf51ddab64be" kind="function"><name>MR_AlphaShapeStats_ConstructFrom</name></member>
+    <member refid="MRAlphaShape_8h_1ae5bf15ea57bccc54199dbdbcbccdbf72" kind="function"><name>MR_AlphaShapeStats_ConstructFrom</name></member>
     <member refid="MRAlphaShape_8h_1adfcc2705e329d0011da7a1b7cae1dfe3" kind="function"><name>MR_AlphaShapeStats_OffsetPtr</name></member>
     <member refid="MRAlphaShape_8h_1a2367415dd31cd48ca5ca40f47234d13f" kind="function"><name>MR_AlphaShapeStats_OffsetMutablePtr</name></member>
     <member refid="MRAlphaShape_8h_1a39d3bb5d40562b65456fa9655e6cb311" kind="function"><name>MR_AlphaShapeStats_ConstructFromAnother</name></member>
@@ -11203,6 +11221,7 @@
     <member refid="MRInSphere_8h_1add373f5e3ff82bffa72645c9fee2183a" kind="typedef"><name>MR_InSphereTester_double</name></member>
     <member refid="MRInSphere_8h_1a4277e344d01e83e0170e444d25a8de93" kind="typedef"><name>MR_InSphereTester_int</name></member>
     <member refid="MRInSphere_8h_1ab2fa38a15a0681eb7684d74c95ecd904" kind="typedef"><name>MR_InSphereTesterSoS</name></member>
+    <member refid="MRInSphere_8h_1ab0650a2eca49cf6a3e2a780b3261d47f" kind="typedef"><name>MR_FastInSphereTesterSoS</name></member>
     <member refid="MRInSphere_8h_1a703dcf682f83b80e0d2b44586db157e7" kind="function"><name>MR_inSphere_5</name></member>
     <member refid="MRInSphere_8h_1a9cdaff044a51f97336e374b17656b9c5" kind="function"><name>MR_inSphere_2</name></member>
     <member refid="MRInSphere_8h_1a46e0670a0d69ad066a7360dc37080cd2" kind="function"><name>MR_InSphereTester_float_DefaultConstruct</name></member>
@@ -11253,6 +11272,26 @@
     <member refid="MRInSphere_8h_1acd1d1eeea642508b5915965926d1e05f" kind="function"><name>MR_InSphereTesterSoS_reset</name></member>
     <member refid="MRInSphere_8h_1a1e5b70d23b706d91d1ba38e44c02dc58" kind="function"><name>MR_InSphereTesterSoS_flip</name></member>
     <member refid="MRInSphere_8h_1ac2fabf75843ac7accf0c3ae58c50363b" kind="function"><name>MR_InSphereTesterSoS_call</name></member>
+    <member refid="MRInSphere_8h_1a8b1294a7cd5f53bfdb68e937c16338f9" kind="function"><name>MR_FastInSphereTesterSoS_DefaultConstruct</name></member>
+    <member refid="MRInSphere_8h_1afe1e40c0d9edf2a36fcb59467fcdeb0b" kind="function"><name>MR_FastInSphereTesterSoS_DefaultConstructArray</name></member>
+    <member refid="MRInSphere_8h_1a302986bd55d761c432777072965aa98c" kind="function"><name>MR_FastInSphereTesterSoS_OffsetPtr</name></member>
+    <member refid="MRInSphere_8h_1a901db3e03ac407e844b6f51ccca83f7c" kind="function"><name>MR_FastInSphereTesterSoS_OffsetMutablePtr</name></member>
+    <member refid="MRInSphere_8h_1abe9e12072151d43e44f5b3b9518c0ba8" kind="function"><name>MR_FastInSphereTesterSoS_UpcastTo_MR_InSphereTester_int</name></member>
+    <member refid="MRInSphere_8h_1a476e96b92bb0c0ef958f872a2403537f" kind="function"><name>MR_FastInSphereTesterSoS_MutableUpcastTo_MR_InSphereTester_int</name></member>
+    <member refid="MRInSphere_8h_1a89c6c5ea396e9b3f60925f7a3e102796" kind="function"><name>MR_FastInSphereTesterSoS_StaticDowncastFrom_MR_InSphereTester_int</name></member>
+    <member refid="MRInSphere_8h_1a108ec98fc0c7493c5dca0811eefd10d4" kind="function"><name>MR_FastInSphereTesterSoS_MutableStaticDowncastFrom_MR_InSphereTester_int</name></member>
+    <member refid="MRInSphere_8h_1aed35be1b40ecf97f9b8be2f24b581f7b" kind="function"><name>MR_FastInSphereTesterSoS_UpcastTo_MR_InSphereTesterSoS</name></member>
+    <member refid="MRInSphere_8h_1a6b1b0d2681a2581a56274e13fcc1d4c3" kind="function"><name>MR_FastInSphereTesterSoS_MutableUpcastTo_MR_InSphereTesterSoS</name></member>
+    <member refid="MRInSphere_8h_1a1e7800f2ee57d59eb3371baa2eeff3d8" kind="function"><name>MR_FastInSphereTesterSoS_StaticDowncastFrom_MR_InSphereTesterSoS</name></member>
+    <member refid="MRInSphere_8h_1a90666f75574817af4f34ecd2fc1cfd4b" kind="function"><name>MR_FastInSphereTesterSoS_MutableStaticDowncastFrom_MR_InSphereTesterSoS</name></member>
+    <member refid="MRInSphere_8h_1aa3d031679253613f3807aa3e9e7f779c" kind="function"><name>MR_FastInSphereTesterSoS_ConstructFromAnother</name></member>
+    <member refid="MRInSphere_8h_1a6b970f67fd88cefb4a66bd1dce0642f5" kind="function"><name>MR_FastInSphereTesterSoS_Destroy</name></member>
+    <member refid="MRInSphere_8h_1af1997d71c31bd31219582be90bfbf1b6" kind="function"><name>MR_FastInSphereTesterSoS_DestroyArray</name></member>
+    <member refid="MRInSphere_8h_1a283878bf24b4c7f92bcc2db6b8c177e2" kind="function"><name>MR_FastInSphereTesterSoS_AssignFromAnother</name></member>
+    <member refid="MRInSphere_8h_1a4aa069379d4bd4cadd5a0318369655c6" kind="function"><name>MR_FastInSphereTesterSoS_reset</name></member>
+    <member refid="MRInSphere_8h_1a42916708ea6795acf8e1f9e1b1096348" kind="function"><name>MR_FastInSphereTesterSoS_flip</name></member>
+    <member refid="MRInSphere_8h_1a0740b6430f86b7e1e5979bf313d54568" kind="function"><name>MR_FastInSphereTesterSoS_call</name></member>
+    <member refid="MRInSphere_8h_1a42d47e72d6cbaa4e106880b229ccb5fc" kind="function"><name>MR_FastInSphereTesterSoS_outsideBothSpheres</name></member>
     <member refid="MRInSphere_8h_1a971d9ef39a334a084e0937ebe6ac8647" kind="function"><name>MR_inSphere_float</name></member>
     <member refid="MRInSphere_8h_1a09b4879bcf4160ebd5772a50b00f3496" kind="function"><name>MR_inSphere_double</name></member>
   </compound>

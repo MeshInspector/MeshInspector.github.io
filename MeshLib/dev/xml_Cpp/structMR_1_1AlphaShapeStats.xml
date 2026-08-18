@@ -4,9 +4,15 @@
     <compoundname>MR::AlphaShapeStats</compoundname>
     <includes refid="MRAlphaShape_8h" local="no">MRMesh/MRAlphaShape.h</includes>
     <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga134feca163a44ef1902ad2ef0dc12a20" kind="variable"><name>collectedNeis</name></member>
+      <member refid="group__GeneralGroup_1ga1360522b84fc5eb6014477ac88cce1a9" kind="variable"><name>redundancyTests</name></member>
+      <member refid="group__GeneralGroup_1ga21f729088d454023479edec03b6a468b" kind="variable"><name>redundantNeis</name></member>
       <member refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" kind="variable"><name>consideredTris</name></member>
       <member refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" kind="variable"><name>touchableTris</name></member>
       <member refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" kind="variable"><name>inBallTests</name></member>
+      <member refid="group__GeneralGroup_1gaab997008dde5f70fe286479b19e55652" kind="variable"><name>shadowTests</name></member>
+      <member refid="group__GeneralGroup_1gaf7c3951e4621995b94f9b9312232a674" kind="variable"><name>exactShadowTests</name></member>
+      <member refid="group__GeneralGroup_1gabd973436e0df6a665b2eba12d3589efb" kind="variable"><name>shadowedNeis</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" kind="function"><name>operator+=</name></member>
@@ -16,11 +22,17 @@
     <detaileddescription>
 <para>the amount of work done during the search of alpha-shape triangles; every function below only increases the counters, never resets them, so the statistics of several calls can be accumulated in one object </para>
     </detaileddescription>
-    <location file="MRMesh/MRAlphaShape.h" line="54" column="1" bodyfile="MRMesh/MRAlphaShape.h" bodystart="55" bodyend="76"/>
+    <location file="MRMesh/MRAlphaShape.h" line="54" column="1" bodyfile="MRMesh/MRAlphaShape.h" bodystart="55" bodyend="104"/>
     <listofallmembers>
+      <member refid="group__GeneralGroup_1ga134feca163a44ef1902ad2ef0dc12a20" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>collectedNeis</name></member>
       <member refid="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>consideredTris</name></member>
+      <member refid="group__GeneralGroup_1gaf7c3951e4621995b94f9b9312232a674" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>exactShadowTests</name></member>
       <member refid="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>inBallTests</name></member>
       <member refid="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga1360522b84fc5eb6014477ac88cce1a9" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>redundancyTests</name></member>
+      <member refid="group__GeneralGroup_1ga21f729088d454023479edec03b6a468b" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>redundantNeis</name></member>
+      <member refid="group__GeneralGroup_1gabd973436e0df6a665b2eba12d3589efb" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>shadowedNeis</name></member>
+      <member refid="group__GeneralGroup_1gaab997008dde5f70fe286479b19e55652" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>shadowTests</name></member>
       <member refid="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" prot="public" virt="non-virtual"><scope>MR::AlphaShapeStats</scope><name>touchableTris</name></member>
     </listofallmembers>
   </compounddef>

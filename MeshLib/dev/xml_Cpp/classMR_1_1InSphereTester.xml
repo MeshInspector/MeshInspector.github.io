@@ -30,6 +30,12 @@
 <para>accelerates testing of many query points against one sphere given by the same three points and radius, pre-computing all the point-independent quantities once; the primary template works for floating-point T with the same case analysis as the precise specialization for int below, so the answers for the query points near the sphere&apos;s surface are subject to rounding errors, and OnSphere is returned only on the exact equality in the comparisons; the products inside have degree 16 in coordinates, so to avoid overflows any difference of two given points&apos; coordinates as well as sqrt(rSq) must be below ~100 for T=float and ~1e18 for T=double; the one-call inSphere functions are implemented via this class </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="3">
+        <label>MR::FastInSphereTesterSoS</label>
+        <link refid="classMR_1_1FastInSphereTesterSoS"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="1">
         <label>MR::InSphereTester&lt; T &gt;</label>
         <link refid="classMR_1_1InSphereTester"/>

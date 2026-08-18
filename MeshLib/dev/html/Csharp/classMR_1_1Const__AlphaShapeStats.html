@@ -170,8 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a31036aab0ae7d594e3842ac273c8f8b7" id="r_a31036aab0ae7d594e3842ac273c8f8b7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31036aab0ae7d594e3842ac273c8f8b7">Dispose</a> ()</td></tr>
 <tr class="memitem:a892de79d29bae069076bcd07157f7490" id="r_a892de79d29bae069076bcd07157f7490"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a892de79d29bae069076bcd07157f7490">Const_AlphaShapeStats</a> ()</td></tr>
 <tr class="memdesc:a892de79d29bae069076bcd07157f7490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
-<tr class="memitem:a2c1a39aee51fe028109fa5c38366f8a9" id="r_a2c1a39aee51fe028109fa5c38366f8a9"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c1a39aee51fe028109fa5c38366f8a9">Const_AlphaShapeStats</a> (nuint <a class="el" href="#ac18708517f8c45b999b2da156e8bf528">consideredTris</a>, nuint <a class="el" href="#aed900d8379ef422fdead72471533903f">touchableTris</a>, nuint <a class="el" href="#ae4413e531dd86581916ad2994b4e9385">inBallTests</a>)</td></tr>
-<tr class="memdesc:a2c1a39aee51fe028109fa5c38366f8a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1AlphaShapeStats.html" title="the amount of work done during the search of alpha-shape triangles; every function below only increas...">MR.AlphaShapeStats</a></span> elementwise.  <br /></td></tr>
+<tr class="memitem:a96a049448245e71d4327025e1dad5ec1" id="r_a96a049448245e71d4327025e1dad5ec1"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96a049448245e71d4327025e1dad5ec1">Const_AlphaShapeStats</a> (nuint <a class="el" href="#aa680f7f96d6708414c41b35a54647e6b">collectedNeis</a>, nuint <a class="el" href="#a210477b9fbfc12fa35e6abf94dbde1d3">redundancyTests</a>, nuint <a class="el" href="#aacbb0996bbb893bcccb620b5ea335e19">redundantNeis</a>, nuint <a class="el" href="#ac18708517f8c45b999b2da156e8bf528">consideredTris</a>, nuint <a class="el" href="#aed900d8379ef422fdead72471533903f">touchableTris</a>, nuint <a class="el" href="#ae4413e531dd86581916ad2994b4e9385">inBallTests</a>, nuint <a class="el" href="#acd24daeba0d4029ab83102b8d8f22572">shadowTests</a>, nuint <a class="el" href="#a5e916ba65e6bc885a91caaa47b0c13ee">exactShadowTests</a>, nuint <a class="el" href="#a6a3f424f8192591789c3c95aeca8bc46">shadowedNeis</a>)</td></tr>
+<tr class="memdesc:a96a049448245e71d4327025e1dad5ec1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1AlphaShapeStats.html" title="the amount of work done during the search of alpha-shape triangles; every function below only increas...">MR.AlphaShapeStats</a></span> elementwise.  <br /></td></tr>
 <tr class="memitem:ab545a464d2a9b35e0b8819f1678be5d1" id="r_ab545a464d2a9b35e0b8819f1678be5d1"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab545a464d2a9b35e0b8819f1678be5d1">Const_AlphaShapeStats</a> (<a class="el" href="classMR_1_1Const__AlphaShapeStats.html">MR.Const_AlphaShapeStats</a> _other)</td></tr>
 <tr class="memdesc:ab545a464d2a9b35e0b8819f1678be5d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1AlphaShapeStats.html#a80801eeda80823899c1e9f97e6676dbf" title="Constructs an empty (default-constructed) instance.">MR.AlphaShapeStats.AlphaShapeStats</a></span>.  <br /></td></tr>
 <tr class="memitem:ac4c7a6e293463cebcf3a84c65e35c2eb" id="r_ac4c7a6e293463cebcf3a84c65e35c2eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4c7a6e293463cebcf3a84c65e35c2eb">Const_AlphaShapeStats</a> (<a class="el" href="classMR_1_1AlphaShapeStats.html">AlphaShapeStats</a> _other)</td></tr>
@@ -183,18 +183,36 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a48bf80bbbb74115e1910142de952e20f" id="r_a48bf80bbbb74115e1910142de952e20f"><td class="memItemLeft" align="right" valign="top">unsafe nuint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48bf80bbbb74115e1910142de952e20f">__ref_storage_collectedNeis</a></td></tr>
+<tr class="memitem:aff8e2ec8b898791eaab06dda7251a592" id="r_aff8e2ec8b898791eaab06dda7251a592"><td class="memItemLeft" align="right" valign="top">unsafe nuint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff8e2ec8b898791eaab06dda7251a592">__ref_storage_redundancyTests</a></td></tr>
+<tr class="memitem:a0fc394785ee6da183672a5ab913d3753" id="r_a0fc394785ee6da183672a5ab913d3753"><td class="memItemLeft" align="right" valign="top">unsafe nuint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fc394785ee6da183672a5ab913d3753">__ref_storage_redundantNeis</a></td></tr>
 <tr class="memitem:a0ba2865ae372d07184613b2cba03ca91" id="r_a0ba2865ae372d07184613b2cba03ca91"><td class="memItemLeft" align="right" valign="top">unsafe nuint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ba2865ae372d07184613b2cba03ca91">__ref_storage_consideredTris</a></td></tr>
 <tr class="memitem:afa3a554d3d916e85c0a576f212ef55ae" id="r_afa3a554d3d916e85c0a576f212ef55ae"><td class="memItemLeft" align="right" valign="top">unsafe nuint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa3a554d3d916e85c0a576f212ef55ae">__ref_storage_touchableTris</a></td></tr>
 <tr class="memitem:a9e02b435a39b9b55134fa84354083a64" id="r_a9e02b435a39b9b55134fa84354083a64"><td class="memItemLeft" align="right" valign="top">unsafe nuint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e02b435a39b9b55134fa84354083a64">__ref_storage_inBallTests</a></td></tr>
+<tr class="memitem:a2f12cb58842ae16d779f270eb268d7c5" id="r_a2f12cb58842ae16d779f270eb268d7c5"><td class="memItemLeft" align="right" valign="top">unsafe nuint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f12cb58842ae16d779f270eb268d7c5">__ref_storage_shadowTests</a></td></tr>
+<tr class="memitem:a77e9a0451a0a35639a10c2e5559d721c" id="r_a77e9a0451a0a35639a10c2e5559d721c"><td class="memItemLeft" align="right" valign="top">unsafe nuint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77e9a0451a0a35639a10c2e5559d721c">__ref_storage_exactShadowTests</a></td></tr>
+<tr class="memitem:a5a4ee703510d6fc9c587ca4beec50f0c" id="r_a5a4ee703510d6fc9c587ca4beec50f0c"><td class="memItemLeft" align="right" valign="top">unsafe nuint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a4ee703510d6fc9c587ca4beec50f0c">__ref_storage_shadowedNeis</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:aa680f7f96d6708414c41b35a54647e6b" id="r_aa680f7f96d6708414c41b35a54647e6b"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa680f7f96d6708414c41b35a54647e6b">collectedNeis</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa680f7f96d6708414c41b35a54647e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of neighbours found within the search radius, before any of the filters below; the searches around all the points are quadratic in this, so it explains most of the difference in the time spent per point between one cloud and another  <br /></td></tr>
+<tr class="memitem:a210477b9fbfc12fa35e6abf94dbde1d3" id="r_a210477b9fbfc12fa35e6abf94dbde1d3"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a210477b9fbfc12fa35e6abf94dbde1d3">redundancyTests</a><code> [get]</code></td></tr>
+<tr class="memdesc:a210477b9fbfc12fa35e6abf94dbde1d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of pairs of neighbours checked for one of them making the other redundant, which is quadratic in the neighbours of a point  <br /></td></tr>
+<tr class="memitem:aacbb0996bbb893bcccb620b5ea335e19" id="r_aacbb0996bbb893bcccb620b5ea335e19"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacbb0996bbb893bcccb620b5ea335e19">redundantNeis</a><code> [get]</code></td></tr>
+<tr class="memdesc:aacbb0996bbb893bcccb620b5ea335e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of neighbours found redundant by those checks and excluded from the search  <br /></td></tr>
 <tr class="memitem:ac18708517f8c45b999b2da156e8bf528" id="r_ac18708517f8c45b999b2da156e8bf528"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac18708517f8c45b999b2da156e8bf528">consideredTris</a><code> [get]</code></td></tr>
 <tr class="memdesc:ac18708517f8c45b999b2da156e8bf528"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of triangles considered: the triples of close enough points that were checked for the existence of a ball of the given radius passing via all three of them  <br /></td></tr>
 <tr class="memitem:aed900d8379ef422fdead72471533903f" id="r_aed900d8379ef422fdead72471533903f"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed900d8379ef422fdead72471533903f">touchableTris</a><code> [get]</code></td></tr>
 <tr class="memdesc:aed900d8379ef422fdead72471533903f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of considered triangles touchable by the ball of the given radius, for each of which two balls (one from each side of the triangle) were tested for emptiness  <br /></td></tr>
 <tr class="memitem:ae4413e531dd86581916ad2994b4e9385" id="r_ae4413e531dd86581916ad2994b4e9385"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4413e531dd86581916ad2994b4e9385">inBallTests</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae4413e531dd86581916ad2994b4e9385"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of point-in-ball tests performed for the balls of touchable triangles; less than 2 * touchableTris * (points in the neighbourhood) because a ball is not tested further as soon as the first point inside it is found  <br /></td></tr>
+<tr class="memitem:acd24daeba0d4029ab83102b8d8f22572" id="r_acd24daeba0d4029ab83102b8d8f22572"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd24daeba0d4029ab83102b8d8f22572">shadowTests</a><code> [get]</code></td></tr>
+<tr class="memdesc:acd24daeba0d4029ab83102b8d8f22572"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of neighbours tested for being shadowed by the balls of a touchable triangle  <br /></td></tr>
+<tr class="memitem:a5e916ba65e6bc885a91caaa47b0c13ee" id="r_a5e916ba65e6bc885a91caaa47b0c13ee"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e916ba65e6bc885a91caaa47b0c13ee">exactShadowTests</a><code> [get]</code></td></tr>
+<tr class="memdesc:a5e916ba65e6bc885a91caaa47b0c13ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of shadow tests not decided by the floating-point rejection, which had to evaluate the exact predicates  <br /></td></tr>
+<tr class="memitem:a6a3f424f8192591789c3c95aeca8bc46" id="r_a6a3f424f8192591789c3c95aeca8bc46"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a3f424f8192591789c3c95aeca8bc46">shadowedNeis</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6a3f424f8192591789c3c95aeca8bc46"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of neighbours found shadowed, which are excluded from the search  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>the amount of work done during the search of alpha-shape triangles; every function below only increases the counters, never resets them, so the statistics of several calls can be accumulated in one object Generated from class <span class="tt"><a class="el" href="classMR_1_1AlphaShapeStats.html" title="the amount of work done during the search of alpha-shape triangles; every function below only increas...">MR.AlphaShapeStats</a></span>. This is the const half of the class. </p>
@@ -226,8 +244,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a2c1a39aee51fe028109fa5c38366f8a9" name="a2c1a39aee51fe028109fa5c38366f8a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c1a39aee51fe028109fa5c38366f8a9">&#9670;&#160;</a></span>Const_AlphaShapeStats() <span class="overload">[2/4]</span></h2>
+<a id="a96a049448245e71d4327025e1dad5ec1" name="a96a049448245e71d4327025e1dad5ec1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a049448245e71d4327025e1dad5ec1">&#9670;&#160;</a></span>Const_AlphaShapeStats() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,6 +256,21 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">unsafe MR.Const_AlphaShapeStats.Const_AlphaShapeStats </td>
           <td>(</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>collectedNeis</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>redundancyTests</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>redundantNeis</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>consideredTris</em></span>, </td>
         </tr>
         <tr>
@@ -248,7 +281,22 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>inBallTests</em></span>&#160;)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>inBallTests</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>shadowTests</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>exactShadowTests</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>shadowedNeis</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -368,6 +416,28 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a48bf80bbbb74115e1910142de952e20f" name="a48bf80bbbb74115e1910142de952e20f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48bf80bbbb74115e1910142de952e20f">&#9670;&#160;</a></span>__ref_storage_collectedNeis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe nuint* MR.Const_AlphaShapeStats.__ref_storage_collectedNeis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0ba2865ae372d07184613b2cba03ca91" name="a0ba2865ae372d07184613b2cba03ca91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ba2865ae372d07184613b2cba03ca91">&#9670;&#160;</a></span>__ref_storage_consideredTris</h2>
 
@@ -390,6 +460,28 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a77e9a0451a0a35639a10c2e5559d721c" name="a77e9a0451a0a35639a10c2e5559d721c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77e9a0451a0a35639a10c2e5559d721c">&#9670;&#160;</a></span>__ref_storage_exactShadowTests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe nuint* MR.Const_AlphaShapeStats.__ref_storage_exactShadowTests</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9e02b435a39b9b55134fa84354083a64" name="a9e02b435a39b9b55134fa84354083a64"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e02b435a39b9b55134fa84354083a64">&#9670;&#160;</a></span>__ref_storage_inBallTests</h2>
 
@@ -401,6 +493,94 @@ Properties</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">unsafe nuint* MR.Const_AlphaShapeStats.__ref_storage_inBallTests</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff8e2ec8b898791eaab06dda7251a592" name="aff8e2ec8b898791eaab06dda7251a592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff8e2ec8b898791eaab06dda7251a592">&#9670;&#160;</a></span>__ref_storage_redundancyTests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe nuint* MR.Const_AlphaShapeStats.__ref_storage_redundancyTests</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0fc394785ee6da183672a5ab913d3753" name="a0fc394785ee6da183672a5ab913d3753"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fc394785ee6da183672a5ab913d3753">&#9670;&#160;</a></span>__ref_storage_redundantNeis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe nuint* MR.Const_AlphaShapeStats.__ref_storage_redundantNeis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a4ee703510d6fc9c587ca4beec50f0c" name="a5a4ee703510d6fc9c587ca4beec50f0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a4ee703510d6fc9c587ca4beec50f0c">&#9670;&#160;</a></span>__ref_storage_shadowedNeis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe nuint* MR.Const_AlphaShapeStats.__ref_storage_shadowedNeis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f12cb58842ae16d779f270eb268d7c5" name="a2f12cb58842ae16d779f270eb268d7c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f12cb58842ae16d779f270eb268d7c5">&#9670;&#160;</a></span>__ref_storage_shadowTests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe nuint* MR.Const_AlphaShapeStats.__ref_storage_shadowTests</td>
         </tr>
       </table>
   </td>
@@ -435,6 +615,30 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
+<a id="aa680f7f96d6708414c41b35a54647e6b" name="aa680f7f96d6708414c41b35a54647e6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa680f7f96d6708414c41b35a54647e6b">&#9670;&#160;</a></span>collectedNeis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe nuint MR.Const_AlphaShapeStats.collectedNeis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the number of neighbours found within the search radius, before any of the filters below; the searches around all the points are quadratic in this, so it explains most of the difference in the time spent per point between one cloud and another </p>
+
+</div>
+</div>
 <a id="ac18708517f8c45b999b2da156e8bf528" name="ac18708517f8c45b999b2da156e8bf528"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac18708517f8c45b999b2da156e8bf528">&#9670;&#160;</a></span>consideredTris</h2>
 
@@ -459,6 +663,30 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a5e916ba65e6bc885a91caaa47b0c13ee" name="a5e916ba65e6bc885a91caaa47b0c13ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e916ba65e6bc885a91caaa47b0c13ee">&#9670;&#160;</a></span>exactShadowTests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe nuint MR.Const_AlphaShapeStats.exactShadowTests</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the number of shadow tests not decided by the floating-point rejection, which had to evaluate the exact predicates </p>
+
+</div>
+</div>
 <a id="ae4413e531dd86581916ad2994b4e9385" name="ae4413e531dd86581916ad2994b4e9385"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4413e531dd86581916ad2994b4e9385">&#9670;&#160;</a></span>inBallTests</h2>
 
@@ -480,6 +708,102 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the number of point-in-ball tests performed for the balls of touchable triangles; less than 2 * touchableTris * (points in the neighbourhood) because a ball is not tested further as soon as the first point inside it is found </p>
+
+</div>
+</div>
+<a id="a210477b9fbfc12fa35e6abf94dbde1d3" name="a210477b9fbfc12fa35e6abf94dbde1d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a210477b9fbfc12fa35e6abf94dbde1d3">&#9670;&#160;</a></span>redundancyTests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe nuint MR.Const_AlphaShapeStats.redundancyTests</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the number of pairs of neighbours checked for one of them making the other redundant, which is quadratic in the neighbours of a point </p>
+
+</div>
+</div>
+<a id="aacbb0996bbb893bcccb620b5ea335e19" name="aacbb0996bbb893bcccb620b5ea335e19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacbb0996bbb893bcccb620b5ea335e19">&#9670;&#160;</a></span>redundantNeis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe nuint MR.Const_AlphaShapeStats.redundantNeis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the number of neighbours found redundant by those checks and excluded from the search </p>
+
+</div>
+</div>
+<a id="a6a3f424f8192591789c3c95aeca8bc46" name="a6a3f424f8192591789c3c95aeca8bc46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a3f424f8192591789c3c95aeca8bc46">&#9670;&#160;</a></span>shadowedNeis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe nuint MR.Const_AlphaShapeStats.shadowedNeis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the number of neighbours found shadowed, which are excluded from the search </p>
+
+</div>
+</div>
+<a id="acd24daeba0d4029ab83102b8d8f22572" name="acd24daeba0d4029ab83102b8d8f22572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd24daeba0d4029ab83102b8d8f22572">&#9670;&#160;</a></span>shadowTests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe nuint MR.Const_AlphaShapeStats.shadowTests</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the number of neighbours tested for being shadowed by the balls of a touchable triangle </p>
 
 </div>
 </div>

@@ -563,7 +563,9 @@ var hierarchy =
     [ "mrmeshpy.InSphereTester_double", "classmrmeshpy_1_1InSphereTester__double.html", null ],
     [ "mrmeshpy.InSphereTester_float", "classmrmeshpy_1_1InSphereTester__float.html", null ],
     [ "mrmeshpy.InSphereTester_int", "classmrmeshpy_1_1InSphereTester__int.html", [
-      [ "mrmeshpy.InSphereTesterSoS", "classmrmeshpy_1_1InSphereTesterSoS.html", null ]
+      [ "mrmeshpy.InSphereTesterSoS", "classmrmeshpy_1_1InSphereTesterSoS.html", [
+        [ "mrmeshpy.FastInSphereTesterSoS", "classmrmeshpy_1_1FastInSphereTesterSoS.html", null ]
+      ] ]
     ] ],
     [ "mrmeshpy.int_output", "classmrmeshpy_1_1int__output.html", null ],
     [ "mrmeshpy.BasicUiRenderTask.InteractionMask", "classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask.html", null ],

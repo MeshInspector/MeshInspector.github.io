@@ -897,6 +897,9 @@ var hierarchy =
       [ "MR.Const_FanRecordWithCenter", "classMR_1_1Const__FanRecordWithCenter.html", [
         [ "MR.FanRecordWithCenter", "classMR_1_1FanRecordWithCenter.html", null ]
       ] ],
+      [ "MR.Const_FastInSphereTesterSoS", "classMR_1_1Const__FastInSphereTesterSoS.html", [
+        [ "MR.FastInSphereTesterSoS", "classMR_1_1FastInSphereTesterSoS.html", null ]
+      ] ],
       [ "MR.Const_FastWindingNumber", "classMR_1_1Const__FastWindingNumber.html", [
         [ "MR.FastWindingNumber", "classMR_1_1FastWindingNumber.html", null ]
       ] ],
@@ -3819,6 +3822,7 @@ var hierarchy =
       [ "MR.Const_FaceSetBitIterator", "classMR_1_1Const__FaceSetBitIterator.html", null ],
       [ "MR.Const_FanRecord", "classMR_1_1Const__FanRecord.html", null ],
       [ "MR.Const_FanRecordWithCenter", "classMR_1_1Const__FanRecordWithCenter.html", null ],
+      [ "MR.Const_FastInSphereTesterSoS", "classMR_1_1Const__FastInSphereTesterSoS.html", null ],
       [ "MR.Const_FastWindingNumber", "classMR_1_1Const__FastWindingNumber.html", null ],
       [ "MR.Const_FeatureObject", "classMR_1_1Const__FeatureObject.html", null ],
       [ "MR.Const_FeatureObjectProjectPointResult", "classMR_1_1Const__FeatureObjectProjectPointResult.html", null ],

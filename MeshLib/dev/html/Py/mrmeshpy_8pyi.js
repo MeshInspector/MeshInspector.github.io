@@ -284,6 +284,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.FaceScalars", "classmrmeshpy_1_1FaceScalars.html", "classmrmeshpy_1_1FaceScalars" ],
     [ "mrmeshpy.FanRecord", "classmrmeshpy_1_1FanRecord.html", "classmrmeshpy_1_1FanRecord" ],
     [ "mrmeshpy.FanRecordWithCenter", "classmrmeshpy_1_1FanRecordWithCenter.html", "classmrmeshpy_1_1FanRecordWithCenter" ],
+    [ "mrmeshpy.FastInSphereTesterSoS", "classmrmeshpy_1_1FastInSphereTesterSoS.html", "classmrmeshpy_1_1FastInSphereTesterSoS" ],
     [ "mrmeshpy.FastWindingNumber", "classmrmeshpy_1_1FastWindingNumber.html", "classmrmeshpy_1_1FastWindingNumber" ],
     [ "mrmeshpy.FeatureObject", "classmrmeshpy_1_1FeatureObject.html", "classmrmeshpy_1_1FeatureObject" ],
     [ "mrmeshpy.FeatureObjectProjectPointResult", "classmrmeshpy_1_1FeatureObjectProjectPointResult.html", "classmrmeshpy_1_1FeatureObjectProjectPointResult" ],

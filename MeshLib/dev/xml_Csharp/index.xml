@@ -605,12 +605,18 @@
     <member refid="classMR_1_1AlphaShapeNei_1a4a5da4cb50d8f61ed4ea427b0de6a85f" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1AlphaShapeStats" kind="class"><name>MR::AlphaShapeStats</name>
+    <member refid="classMR_1_1AlphaShapeStats_1ae51ccfa67748cc742dfedfaccbef0945" kind="property"><name>collectedNeis</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1a3b36e2f5ff58d8bd63d766a58e9609ee" kind="property"><name>redundancyTests</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1ad9a38c23181a0cb0ce571b309aead96b" kind="property"><name>redundantNeis</name></member>
     <member refid="classMR_1_1AlphaShapeStats_1a9aece57414b372aa5701d34cde6e9a9a" kind="property"><name>consideredTris</name></member>
     <member refid="classMR_1_1AlphaShapeStats_1a9667aad98fce01d6b3b1bc995e406d15" kind="property"><name>touchableTris</name></member>
     <member refid="classMR_1_1AlphaShapeStats_1a3c0a90bd1a2b07a521480e913fad9c5d" kind="property"><name>inBallTests</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1a31bf62dfd17e5c7e5c5fefdb342f96e6" kind="property"><name>shadowTests</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1aa5fdeceb86fbe6a52fe2feaf068db361" kind="property"><name>exactShadowTests</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1aa6afef857b7b39121fa2f9cc72ad6e89" kind="property"><name>shadowedNeis</name></member>
     <member refid="classMR_1_1AlphaShapeStats_1a3f5d76ab69322d50b90e1e32af9206ff" kind="function"><name>AlphaShapeStats</name></member>
     <member refid="classMR_1_1AlphaShapeStats_1a80801eeda80823899c1e9f97e6676dbf" kind="function"><name>AlphaShapeStats</name></member>
-    <member refid="classMR_1_1AlphaShapeStats_1abd7ba72d217adecfeadcc3e41d83e0c2" kind="function"><name>AlphaShapeStats</name></member>
+    <member refid="classMR_1_1AlphaShapeStats_1a61c56652235b9be6baa89483861532c7" kind="function"><name>AlphaShapeStats</name></member>
     <member refid="classMR_1_1AlphaShapeStats_1acb761441539b1aa136ff140f22c8f9e2" kind="function"><name>AlphaShapeStats</name></member>
     <member refid="classMR_1_1AlphaShapeStats_1aaea12804d2f6a80eb3764e3715260624" kind="function"><name>AlphaShapeStats</name></member>
     <member refid="classMR_1_1AlphaShapeStats_1af02689bb42f87cd40607c2348d0f0103" kind="function"><name>assign</name></member>
@@ -4546,16 +4552,28 @@
     <member refid="classMR_1_1Const__AlphaShapeNei_1a0570960c60109371cf92690b2bbfb3a1" kind="function"><name>Const_AlphaShapeNei</name></member>
   </compound>
   <compound refid="classMR_1_1Const__AlphaShapeStats" kind="class"><name>MR::Const_AlphaShapeStats</name>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1aa680f7f96d6708414c41b35a54647e6b" kind="property"><name>collectedNeis</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a210477b9fbfc12fa35e6abf94dbde1d3" kind="property"><name>redundancyTests</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1aacbb0996bbb893bcccb620b5ea335e19" kind="property"><name>redundantNeis</name></member>
     <member refid="classMR_1_1Const__AlphaShapeStats_1ac18708517f8c45b999b2da156e8bf528" kind="property"><name>consideredTris</name></member>
     <member refid="classMR_1_1Const__AlphaShapeStats_1aed900d8379ef422fdead72471533903f" kind="property"><name>touchableTris</name></member>
     <member refid="classMR_1_1Const__AlphaShapeStats_1ae4413e531dd86581916ad2994b4e9385" kind="property"><name>inBallTests</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1acd24daeba0d4029ab83102b8d8f22572" kind="property"><name>shadowTests</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a5e916ba65e6bc885a91caaa47b0c13ee" kind="property"><name>exactShadowTests</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a6a3f424f8192591789c3c95aeca8bc46" kind="property"><name>shadowedNeis</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a48bf80bbbb74115e1910142de952e20f" kind="variable"><name>__ref_storage_collectedNeis</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1aff8e2ec8b898791eaab06dda7251a592" kind="variable"><name>__ref_storage_redundancyTests</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a0fc394785ee6da183672a5ab913d3753" kind="variable"><name>__ref_storage_redundantNeis</name></member>
     <member refid="classMR_1_1Const__AlphaShapeStats_1a0ba2865ae372d07184613b2cba03ca91" kind="variable"><name>__ref_storage_consideredTris</name></member>
     <member refid="classMR_1_1Const__AlphaShapeStats_1afa3a554d3d916e85c0a576f212ef55ae" kind="variable"><name>__ref_storage_touchableTris</name></member>
     <member refid="classMR_1_1Const__AlphaShapeStats_1a9e02b435a39b9b55134fa84354083a64" kind="variable"><name>__ref_storage_inBallTests</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a2f12cb58842ae16d779f270eb268d7c5" kind="variable"><name>__ref_storage_shadowTests</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a77e9a0451a0a35639a10c2e5559d721c" kind="variable"><name>__ref_storage_exactShadowTests</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a5a4ee703510d6fc9c587ca4beec50f0c" kind="variable"><name>__ref_storage_shadowedNeis</name></member>
     <member refid="classMR_1_1Const__AlphaShapeStats_1a493042c705f5ce8bc17eb2fccf79ccf0" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__AlphaShapeStats_1a31036aab0ae7d594e3842ac273c8f8b7" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__AlphaShapeStats_1a892de79d29bae069076bcd07157f7490" kind="function"><name>Const_AlphaShapeStats</name></member>
-    <member refid="classMR_1_1Const__AlphaShapeStats_1a2c1a39aee51fe028109fa5c38366f8a9" kind="function"><name>Const_AlphaShapeStats</name></member>
+    <member refid="classMR_1_1Const__AlphaShapeStats_1a96a049448245e71d4327025e1dad5ec1" kind="function"><name>Const_AlphaShapeStats</name></member>
     <member refid="classMR_1_1Const__AlphaShapeStats_1ab545a464d2a9b35e0b8819f1678be5d1" kind="function"><name>Const_AlphaShapeStats</name></member>
     <member refid="classMR_1_1Const__AlphaShapeStats_1ac4c7a6e293463cebcf3a84c65e35c2eb" kind="function"><name>Const_AlphaShapeStats</name></member>
     <member refid="classMR_1_1Const__AlphaShapeStats_1ac9d206adf0e0c5e518e1572ff285d545" kind="function"><name>~Const_AlphaShapeStats</name></member>
@@ -9554,6 +9572,19 @@
     <member refid="classMR_1_1Const__FanRecordWithCenter_1aecc70f5c08eb6e7af468ed05cd05e68c" kind="function"><name>operator Const_FanRecordWithCenter</name></member>
     <member refid="classMR_1_1Const__FanRecordWithCenter_1af96ab45475146397b747c4c2a6c95be0" kind="function"><name>operator Const_FanRecordWithCenter</name></member>
     <member refid="classMR_1_1Const__FanRecordWithCenter_1a11ac6a6fe08fcceeda22d5b73f3cffbf" kind="function"><name>Const_FanRecordWithCenter</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__FastInSphereTesterSoS" kind="class"><name>MR::Const_FastInSphereTesterSoS</name>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1aafedd9cdd20b8dd2ebfe9c76a51f76d5" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1a2b4b15d12a2cc6e549c457a0b754745e" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1aec07c28642ca5a26417487056812eeaf" kind="function"><name>Const_FastInSphereTesterSoS</name></member>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1ab05a8a65af675668d860d7e7bbf41f3e" kind="function"><name>Const_FastInSphereTesterSoS</name></member>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1af86400239044179b9b5997be1f839835" kind="function"><name>Const_FastInSphereTesterSoS</name></member>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1af9235801e7a810e3d62a3213a1404c30" kind="function"><name>call</name></member>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1adfa929c13ca8c18b94a4c747602c2aa0" kind="function"><name>outsideBothSpheres</name></member>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1ab01f7512712e39fefb6cf795db216e44" kind="function"><name>~Const_FastInSphereTesterSoS</name></member>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1a7e18d8375d8edae533496269033ba784" kind="function"><name>operator MR.Const_InSphereTester_Int</name></member>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1af59c1d4948d02ac6968de6e27c084cbd" kind="function"><name>operator MR.Const_InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1a8c3df17828465a6fba7a7f6f222e056a" kind="function"><name>Const_FastInSphereTesterSoS</name></member>
   </compound>
   <compound refid="classMR_1_1Const__FastWindingNumber" kind="class"><name>MR::Const_FastWindingNumber</name>
     <member refid="classMR_1_1Const__FastWindingNumber_1a24bee8c8e3d72752fd52caf6f02b21ea" kind="function"><name>Dispose</name></member>
@@ -28537,6 +28568,17 @@
     <member refid="classMR_1_1FanRecordWithCenter_1a9846c1314f834239fb4809b887eb2aa6" kind="function"><name>FanRecordWithCenter</name></member>
     <member refid="classMR_1_1FanRecordWithCenter_1ad0c2c59c3ee4fa1d01cae8186067a731" kind="function"><name>FanRecordWithCenter</name></member>
     <member refid="classMR_1_1FanRecordWithCenter_1a53f8b8c1443af834d6c4a81de38d600e" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1FastInSphereTesterSoS" kind="class"><name>MR::FastInSphereTesterSoS</name>
+    <member refid="classMR_1_1FastInSphereTesterSoS_1a01fe96f8df8e548496bad860d4c6c87e" kind="function"><name>operator MR.InSphereTester_Int</name></member>
+    <member refid="classMR_1_1FastInSphereTesterSoS_1aab38706dafdc4af3afffd805ac5dffda" kind="function"><name>operator MR.InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1FastInSphereTesterSoS_1a4f390c518e2bb1d06ec0d39c3241f3fb" kind="function"><name>FastInSphereTesterSoS</name></member>
+    <member refid="classMR_1_1FastInSphereTesterSoS_1aef7a73351747c7528f0b7455e7153d6a" kind="function"><name>FastInSphereTesterSoS</name></member>
+    <member refid="classMR_1_1FastInSphereTesterSoS_1adb798f9ce171972d35b88665c32ded3d" kind="function"><name>FastInSphereTesterSoS</name></member>
+    <member refid="classMR_1_1FastInSphereTesterSoS_1a5fd5c367dda8121b994c9a610fefbea5" kind="function"><name>FastInSphereTesterSoS</name></member>
+    <member refid="classMR_1_1FastInSphereTesterSoS_1ac73d86d8f7542a4aa459251d24e999c9" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1FastInSphereTesterSoS_1a3b271637168b0fd95d33f926af752b29" kind="function"><name>reset</name></member>
+    <member refid="classMR_1_1FastInSphereTesterSoS_1a5096ca8895ca2922b1e20cd74b2eb597" kind="function"><name>flip</name></member>
   </compound>
   <compound refid="classMR_1_1Cuda_1_1FastWindingNumber" kind="class"><name>MR::Cuda::FastWindingNumber</name>
     <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a8a7f51b986a9698cfe296e4534e04488" kind="function"><name>operator MR.IFastWindingNumber</name></member>

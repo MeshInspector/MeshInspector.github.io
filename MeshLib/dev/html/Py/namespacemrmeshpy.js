@@ -268,6 +268,7 @@ var namespacemrmeshpy =
     [ "FaceScalars", "classmrmeshpy_1_1FaceScalars.html", "classmrmeshpy_1_1FaceScalars" ],
     [ "FanRecord", "classmrmeshpy_1_1FanRecord.html", "classmrmeshpy_1_1FanRecord" ],
     [ "FanRecordWithCenter", "classmrmeshpy_1_1FanRecordWithCenter.html", "classmrmeshpy_1_1FanRecordWithCenter" ],
+    [ "FastInSphereTesterSoS", "classmrmeshpy_1_1FastInSphereTesterSoS.html", "classmrmeshpy_1_1FastInSphereTesterSoS" ],
     [ "FastWindingNumber", "classmrmeshpy_1_1FastWindingNumber.html", "classmrmeshpy_1_1FastWindingNumber" ],
     [ "FeatureObject", "classmrmeshpy_1_1FeatureObject.html", "classmrmeshpy_1_1FeatureObject" ],
     [ "FeatureObjectProjectPointResult", "classmrmeshpy_1_1FeatureObjectProjectPointResult.html", "classmrmeshpy_1_1FeatureObjectProjectPointResult" ],

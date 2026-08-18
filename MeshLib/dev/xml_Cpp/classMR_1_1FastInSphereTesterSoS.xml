@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FastInSphereTesterSoS" kind="class" language="C++" prot="public">
+    <compoundname>MR::FastInSphereTesterSoS</compoundname>
+    <basecompoundref refid="classMR_1_1InSphereTesterSoS" prot="public" virt="non-virtual">MR::InSphereTesterSoS</basecompoundref>
+    <includes refid="MRInSphere_8h" local="no">MRMesh/MRInSphere.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga7247c1db3ad0f38aa3829018e5858880" kind="variable"><name>cc_</name></member>
+      <member refid="group__GeneralGroup_1ga8179026f2e4edd02060cae38cb719f1e" kind="variable"><name>hn_</name></member>
+      <member refid="group__GeneralGroup_1gac6a38bd4e2641259ee1d8eae1a79f8f8" kind="variable"><name>tol_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga1855670ce694c01ac7166e9562dc5ffb" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga18cb5be5241f31a6b905ea00c4c17209" kind="function"><name>flip</name></member>
+      <member refid="group__GeneralGroup_1ga2bae945de5039006890125cb915a9b12" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga49ccdd0542a5957599fe860a3a4d8495" kind="function"><name>outsideBothSpheres</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>gives exactly the same answers as <ref refid="classMR_1_1InSphereTesterSoS" kindref="compound">InSphereTesterSoS</ref>, only faster: the sphere&apos;s center is also computed in floating point during <ref refid="group__GeneralGroup_1ga1855670ce694c01ac7166e9562dc5ffb" kindref="member">reset()</ref>, and every query point far enough from the sphere&apos;s surface is answered by it alone, leaving the exact predicates for the points close to it </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::FastInSphereTesterSoS</label>
+        <link refid="classMR_1_1FastInSphereTesterSoS"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::InSphereTester&lt; T &gt;</label>
+        <link refid="classMR_1_1InSphereTester"/>
+      </node>
+      <node id="2">
+        <label>MR::InSphereTesterSoS</label>
+        <link refid="classMR_1_1InSphereTesterSoS"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::FastInSphereTesterSoS</label>
+        <link refid="classMR_1_1FastInSphereTesterSoS"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::InSphereTester&lt; T &gt;</label>
+        <link refid="classMR_1_1InSphereTester"/>
+      </node>
+      <node id="2">
+        <label>MR::InSphereTesterSoS</label>
+        <link refid="classMR_1_1InSphereTesterSoS"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRInSphere.h" line="259" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="260" bodyend="296"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga7247c1db3ad0f38aa3829018e5858880" prot="private" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>cc_</name></member>
+      <member refid="group__GeneralGroup_1ga18cb5be5241f31a6b905ea00c4c17209" prot="public" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>flip</name></member>
+      <member refid="group__GeneralGroup_1ga9a73bfe7ade34306db56f903f8934b1e" prot="public" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>heightSq</name></member>
+      <member refid="group__GeneralGroup_1ga8179026f2e4edd02060cae38cb719f1e" prot="private" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>hn_</name></member>
+      <member refid="group__GeneralGroup_1gaf0f5aef64719c5e7f73ab828608a7cba" prot="public" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>normal</name></member>
+      <member refid="group__GeneralGroup_1gad85860a83d6bb58ac43b0888d25ffdab" prot="public" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>normalSq</name></member>
+      <member refid="group__GeneralGroup_1ga2bae945de5039006890125cb915a9b12" prot="public" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gaa7cc70a6eb2d36eae3ad67efba5575f9" prot="public" virt="non-virtual" ambiguityscope="MR::InSphereTester::"><scope>MR::FastInSphereTesterSoS</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga49ccdd0542a5957599fe860a3a4d8495" prot="public" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>outsideBothSpheres</name></member>
+      <member refid="group__GeneralGroup_1ga1855670ce694c01ac7166e9562dc5ffb" prot="public" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga88fe2ec458dc79515a087d948cd80237" prot="public" virt="non-virtual" ambiguityscope="MR::InSphereTester::"><scope>MR::FastInSphereTesterSoS</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gac6a38bd4e2641259ee1d8eae1a79f8f8" prot="private" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>tol_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

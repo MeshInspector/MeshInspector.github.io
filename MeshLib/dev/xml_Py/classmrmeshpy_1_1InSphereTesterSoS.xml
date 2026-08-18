@@ -3,6 +3,7 @@
   <compounddef id="classmrmeshpy_1_1InSphereTesterSoS" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::InSphereTesterSoS</compoundname>
     <basecompoundref refid="classmrmeshpy_1_1InSphereTester__int" prot="public" virt="non-virtual">mrmeshpy.InSphereTester_int</basecompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1FastInSphereTesterSoS" prot="public" virt="non-virtual">mrmeshpy.FastInSphereTesterSoS</derivedcompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTesterSoS_1a11dee354b3a8117f53adeab1864398f1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -24,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24685" bodyend="24686"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24796" bodyend="24797"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTesterSoS_1af9c60fd3af78f8228de2cd91e723700f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1InSphereTesterSoS" kindref="compound">InSphereTesterSoS</ref></type>
@@ -33,6 +34,8 @@
         <name>operator</name>
         <qualifiedname>mrmeshpy.InSphereTesterSoS.operator</qualifiedname>
         <reimplements refid="classmrmeshpy_1_1InSphereTester__int_1aa85f2723d2010b56d66362995f94faac">operator</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1FastInSphereTesterSoS_1ac64cd24b4786143648b3ebf78255a45b">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FastInSphereTesterSoS_1ac64cd24b4786143648b3ebf78255a45b">operator</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -47,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24689" bodyend="24690"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24800" bodyend="24801"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTesterSoS_1af9c60fd3af78f8228de2cd91e723700f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1InSphereTesterSoS" kindref="compound">InSphereTesterSoS</ref></type>
@@ -56,6 +59,8 @@
         <name>operator</name>
         <qualifiedname>mrmeshpy.InSphereTesterSoS.operator</qualifiedname>
         <reimplements refid="classmrmeshpy_1_1InSphereTester__int_1aa85f2723d2010b56d66362995f94faac">operator</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1FastInSphereTesterSoS_1ac64cd24b4786143648b3ebf78255a45b">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FastInSphereTesterSoS_1ac64cd24b4786143648b3ebf78255a45b">operator</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -70,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24693" bodyend="24694"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24804" bodyend="24805"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -100,7 +105,7 @@ shall be called only after reset() returned true, and all four ids must be disti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24695" bodyend="24702"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24806" bodyend="24813"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTesterSoS_1a051589ac4598e2e4c10d99e6383536c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -118,7 +123,7 @@ shall be called only after reset() returned true, and all four ids must be disti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24704" bodyend="24705"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24815" bodyend="24816"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTesterSoS_1ad450b3c4163fa2b3908a63eda688ece9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -142,7 +147,7 @@ shall be called only after reset() returned true, and all four ids must be disti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24707" bodyend="24710"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24818" bodyend="24821"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTesterSoS_1a5e86da1cc67217194db46bfb5dc8dcd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -151,6 +156,7 @@ shall be called only after reset() returned true, and all four ids must be disti
         <name>flip</name>
         <qualifiedname>mrmeshpy.InSphereTesterSoS.flip</qualifiedname>
         <reimplements refid="classmrmeshpy_1_1InSphereTester__int_1a4009372c78e0c0a2f12326a7fd04a1af">flip</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1FastInSphereTesterSoS_1acac1037d03018d6f7f414355547c1383">flip</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -165,7 +171,7 @@ this hides the id-less flip of the base class, which would leave stale ids
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24711" bodyend="24716"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24822" bodyend="24827"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1InSphereTesterSoS_1af53fe719631f6b20e64b6b80bd68b661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -174,6 +180,7 @@ this hides the id-less flip of the base class, which would leave stale ids
         <name>reset</name>
         <qualifiedname>mrmeshpy.InSphereTesterSoS.reset</qualifiedname>
         <reimplements refid="classmrmeshpy_1_1InSphereTester__int_1a7a357715850841b696a919571dfc51ff">reset</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1FastInSphereTesterSoS_1a428c3a779d8ddc7ed69170ad4b769f0f">reset</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -207,7 +214,7 @@ this hides the id-less reset of the base class, which would leave stale ids
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24717" bodyend="24725"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24828" bodyend="24836"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -224,6 +231,12 @@ which reuses all the geometric machinery of InSphereTester&lt;int&gt; and adds o
         <label>mrmeshpy.InSphereTesterSoS</label>
         <link refid="classmrmeshpy_1_1InSphereTesterSoS"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.FastInSphereTesterSoS</label>
+        <link refid="classmrmeshpy_1_1FastInSphereTesterSoS"/>
+        <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
       <node id="2">
@@ -243,7 +256,7 @@ which reuses all the geometric machinery of InSphereTester&lt;int&gt; and adds o
         <link refid="classmrmeshpy_1_1InSphereTester__int"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24676" bodyend="24725"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24787" bodyend="24836"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1InSphereTesterSoS_1ab6253cce0b78919f9dc5028dfcf49fdb" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTesterSoS</scope><name>__call__</name></member>
       <member refid="classmrmeshpy_1_1InSphereTesterSoS_1a11dee354b3a8117f53adeab1864398f1" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereTesterSoS</scope><name>__init__</name></member>

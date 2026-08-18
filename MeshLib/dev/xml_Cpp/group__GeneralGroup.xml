@@ -252,6 +252,7 @@
     <innerclass refid="classMR_1_1InSphereTester" prot="public">MR::InSphereTester</innerclass>
     <innerclass refid="classMR_1_1InSphereTester_3_01int_01_4" prot="public">MR::InSphereTester&lt; int &gt;</innerclass>
     <innerclass refid="classMR_1_1InSphereTesterSoS" prot="public">MR::InSphereTesterSoS</innerclass>
+    <innerclass refid="classMR_1_1FastInSphereTesterSoS" prot="public">MR::FastInSphereTesterSoS</innerclass>
     <innerclass refid="classMR_1_1InTreePathBuilder" prot="public">MR::InTreePathBuilder</innerclass>
     <innerclass refid="structMR_1_1BaseRenderParams" prot="public">MR::BaseRenderParams</innerclass>
     <innerclass refid="structMR_1_1ModelBaseRenderParams" prot="public">MR::ModelBaseRenderParams</innerclass>
@@ -1325,7 +1326,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="242" column="19" bodyfile="MRMesh/MRInSphere.h" bodystart="242" bodyend="249"/>
+        <location file="MRMesh/MRInSphere.h" line="302" column="19" bodyfile="MRMesh/MRInSphere.h" bodystart="302" bodyend="309"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gafb9f0540202d96451dee9753314e960e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -1344,7 +1345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="251" column="1" declfile="MRMesh/MRInSphere.h" declline="251" declcolumn="1"/>
+        <location file="MRMesh/MRInSphere.h" line="311" column="1" declfile="MRMesh/MRInSphere.h" declline="311" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaa349ba2abb9defee59c1e5bfab20df3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -1363,7 +1364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="252" column="1" declfile="MRMesh/MRInSphere.h" declline="252" declcolumn="1"/>
+        <location file="MRMesh/MRInSphere.h" line="312" column="1" declfile="MRMesh/MRInSphere.h" declline="312" declcolumn="1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
@@ -23664,6 +23665,54 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRAlphaShape.h" line="39" column="11" bodyfile="MRMesh/MRAlphaShape.h" bodystart="39" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga134feca163a44ef1902ad2ef0dc12a20" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::AlphaShapeStats::collectedNeis</definition>
+        <argsstring></argsstring>
+        <name>collectedNeis</name>
+        <qualifiedname>MR::AlphaShapeStats::collectedNeis</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of neighbours found within the search radius, before any of the filters below; the searches around all the points are quadratic in this, so it explains most of the difference in the time spent per point between one cloud and another </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="59" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga1360522b84fc5eb6014477ac88cce1a9" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::AlphaShapeStats::redundancyTests</definition>
+        <argsstring></argsstring>
+        <name>redundancyTests</name>
+        <qualifiedname>MR::AlphaShapeStats::redundancyTests</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of pairs of neighbours checked for one of them making the other redundant, which is quadratic in the neighbours of a point </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="63" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga21f729088d454023479edec03b6a468b" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::AlphaShapeStats::redundantNeis</definition>
+        <argsstring></argsstring>
+        <name>redundantNeis</name>
+        <qualifiedname>MR::AlphaShapeStats::redundantNeis</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the number of neighbours found redundant by those checks and excluded from the search </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="66" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3a826e6a1c6f828fe6990bb8d670e5fc" prot="public" static="no" mutable="no">
         <type>std::size_t</type>
         <definition>std::size_t MR::AlphaShapeStats::consideredTris</definition>
@@ -23678,7 +23727,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="58" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="58" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="70" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8407afefcf2ab3fe8507b03cd00f7cec" prot="public" static="no" mutable="no">
         <type>std::size_t</type>
@@ -23694,7 +23743,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="62" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="62" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="74" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga660fa549b3463c89aaa1c7ebe4c007bf" prot="public" static="no" mutable="no">
         <type>std::size_t</type>
@@ -23710,7 +23759,55 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="67" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="67" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="79" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaab997008dde5f70fe286479b19e55652" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::AlphaShapeStats::shadowTests</definition>
+        <argsstring></argsstring>
+        <name>shadowTests</name>
+        <qualifiedname>MR::AlphaShapeStats::shadowTests</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the number of neighbours tested for being shadowed by the balls of a touchable triangle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="82" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaf7c3951e4621995b94f9b9312232a674" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::AlphaShapeStats::exactShadowTests</definition>
+        <argsstring></argsstring>
+        <name>exactShadowTests</name>
+        <qualifiedname>MR::AlphaShapeStats::exactShadowTests</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of shadow tests not decided by the floating-point rejection, which had to evaluate the exact predicates </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="86" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gabd973436e0df6a665b2eba12d3589efb" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::AlphaShapeStats::shadowedNeis</definition>
+        <argsstring></argsstring>
+        <name>shadowedNeis</name>
+        <qualifiedname>MR::AlphaShapeStats::shadowedNeis</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the number of neighbours found shadowed, which are excluded from the search </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAlphaShape.h" line="89" column="17" bodyfile="MRMesh/MRAlphaShape.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" prot="public" static="no" mutable="no">
         <type>PreciseVertCoords</type>
@@ -23725,7 +23822,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="82" column="23" bodyfile="MRMesh/MRAlphaShape.h" bodystart="82" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="110" column="23" bodyfile="MRMesh/MRAlphaShape.h" bodystart="110" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga946329fc95f92804b085844fdbc8e091" prot="public" static="no" mutable="no">
         <type>MR_BIND_IGNORE FastInt128</type>
@@ -23740,7 +23837,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="85" column="31" bodyfile="MRMesh/MRAlphaShape.h" bodystart="85" bodyend="-1"/>
+        <location file="MRMesh/MRAlphaShape.h" line="113" column="31" bodyfile="MRMesh/MRAlphaShape.h" bodystart="113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacfc8f690c3bf3935fb4e3bc132ebd84b" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -31673,7 +31770,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="235" column="12" bodyfile="MRMesh/MRInSphere.h" bodystart="235" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="253" column="12" bodyfile="MRMesh/MRInSphere.h" bodystart="253" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" prot="private" static="no" mutable="no">
         <type>VertId</type>
@@ -31687,7 +31784,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="235" column="16" bodyfile="MRMesh/MRInSphere.h" bodystart="235" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="253" column="16" bodyfile="MRMesh/MRInSphere.h" bodystart="253" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacab5c4bb57db9e7c39168b0a7c80f78a" prot="private" static="no" mutable="no">
         <type>VertId</type>
@@ -31702,7 +31799,52 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="235" column="20" bodyfile="MRMesh/MRInSphere.h" bodystart="235" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="253" column="20" bodyfile="MRMesh/MRInSphere.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga7247c1db3ad0f38aa3829018e5858880" prot="private" static="no" mutable="no">
+        <type>Vector3d</type>
+        <definition>Vector3d MR::FastInSphereTesterSoS::cc_</definition>
+        <argsstring></argsstring>
+        <name>cc_</name>
+        <qualifiedname>MR::FastInSphereTesterSoS::cc_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the sphere&apos;s center relative to the first point, split in the part within the plane of the triangle and the height orthogonal to it, so that <ref refid="group__GeneralGroup_1ga18cb5be5241f31a6b905ea00c4c17209" kindref="member">flip()</ref> only negates the latter; the two are orthogonal, so neither of them can cancel the other in the sum </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="291" column="14" bodyfile="MRMesh/MRInSphere.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga8179026f2e4edd02060cae38cb719f1e" prot="private" static="no" mutable="no">
+        <type>Vector3d</type>
+        <definition>Vector3d MR::FastInSphereTesterSoS::hn_</definition>
+        <argsstring></argsstring>
+        <name>hn_</name>
+        <qualifiedname>MR::FastInSphereTesterSoS::hn_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="291" column="18" bodyfile="MRMesh/MRInSphere.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gac6a38bd4e2641259ee1d8eae1a79f8f8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR::FastInSphereTesterSoS::tol_</definition>
+        <argsstring></argsstring>
+        <name>tol_</name>
+        <qualifiedname>MR::FastInSphereTesterSoS::tol_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the queries with the squared distance to the center farther than this from rSq are decided in floating point; proportional to rSq, since so is the error of that distance </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="295" column="12" bodyfile="MRMesh/MRInSphere.h" bodystart="295" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf0d8c93adfdca3a7b53b48884d7a6f3e" prot="private" static="no" mutable="no">
         <type>const MeshTopology &amp;</type>
@@ -80130,7 +80272,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="69" column="22" bodyfile="MRMesh/MRAlphaShape.h" bodystart="69" bodyend="75"/>
+        <location file="MRMesh/MRAlphaShape.h" line="91" column="22" bodyfile="MRMesh/MRAlphaShape.h" bodystart="91" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6518dbc6c7ff8ff9c2d5eee997acd766" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -80183,7 +80325,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="90" column="7" declfile="MRMesh/MRAlphaShape.h" declline="90" declcolumn="7"/>
+        <location file="MRMesh/MRAlphaShape.h" line="118" column="7" declfile="MRMesh/MRAlphaShape.h" declline="118" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Triangulation &gt;</type>
@@ -80215,7 +80357,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="98" column="17" declfile="MRMesh/MRAlphaShape.h" declline="98" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="126" column="17" declfile="MRMesh/MRAlphaShape.h" declline="126" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga44dece01c32cea22aac7aab8915caa2b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Triangulation</type>
@@ -80242,7 +80384,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="100" column="17" declfile="MRMesh/MRAlphaShape.h" declline="100" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="128" column="17" declfile="MRMesh/MRAlphaShape.h" declline="128" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9f304608f78c5e19b2d5c560900e5bfb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Triangulation &gt;</type>
@@ -80274,7 +80416,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="105" column="17" declfile="MRMesh/MRAlphaShape.h" declline="105" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="133" column="17" declfile="MRMesh/MRAlphaShape.h" declline="133" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga206e1ff370f4c549a290390c0e540d89" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Mesh &gt;</type>
@@ -80306,7 +80448,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="109" column="17" declfile="MRMesh/MRAlphaShape.h" declline="109" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="137" column="17" declfile="MRMesh/MRAlphaShape.h" declline="137" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab742b798176547393043027206aa42c9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
@@ -80333,7 +80475,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="111" column="8" declfile="MRMesh/MRAlphaShape.h" declline="111" declcolumn="8"/>
+        <location file="MRMesh/MRAlphaShape.h" line="139" column="8" declfile="MRMesh/MRAlphaShape.h" declline="139" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa12ae3069114c41ef8ed6616672c5d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -103014,6 +103156,136 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRInSphere.h" line="232" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaf0f5aef64719c5e7f73ab828608a7cba" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE const Vector3i64 &amp;</type>
+        <definition>MR_BIND_IGNORE const Vector3i64 &amp; MR::InSphereTesterSoS::normal</definition>
+        <argsstring>() const</argsstring>
+        <name>normal</name>
+        <qualifiedname>MR::InSphereTesterSoS::normal</qualifiedname>
+        <briefdescription>
+<para>doubled normal cross( b - a, c - a ) of the triangle, directed at the sphere&apos;s center </para>
+        </briefdescription>
+        <detaileddescription>
+<para>the three accessors below describe the prepared sphere itself, for a caller that needs its own exact predicate about it rather than the position of a point. With S = sqrt( <ref refid="group__GeneralGroup_1ga9a73bfe7ade34306db56f903f8934b1e" kindref="member">heightSq()</ref> * <ref refid="group__GeneralGroup_1gad85860a83d6bb58ac43b0888d25ffdab" kindref="member">normalSq()</ref> ) and M = 2 * <ref refid="group__GeneralGroup_1gad85860a83d6bb58ac43b0888d25ffdab" kindref="member">normalSq()</ref> * ( circumcenter - a ), which is recomputable from the three points, the center satisfies 2 * sqr( normalSq() ) * ( center - a ) = <ref refid="group__GeneralGroup_1gad85860a83d6bb58ac43b0888d25ffdab" kindref="member">normalSq()</ref> * M + S * <ref refid="group__GeneralGroup_1gga09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555" kindref="member">normal()</ref> exactly; findAlphaShapeNeiTriangles builds its wedge predicates on that identity. All three are valid only after <ref refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kindref="member">reset()</ref> returned true. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="242" column="39" bodyfile="MRMesh/MRInSphere.h" bodystart="242" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gad85860a83d6bb58ac43b0888d25ffdab" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE const FastInt&lt; 192 &gt; &amp;</type>
+        <definition>MR_BIND_IGNORE const FastInt&lt; 192 &gt; &amp; MR::InSphereTesterSoS::normalSq</definition>
+        <argsstring>() const</argsstring>
+        <name>normalSq</name>
+        <qualifiedname>MR::InSphereTesterSoS::normalSq</qualifiedname>
+        <briefdescription>
+<para>squared length of <ref refid="group__GeneralGroup_1gga09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555" kindref="member">normal()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="245" column="36" bodyfile="MRMesh/MRInSphere.h" bodystart="245" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga9a73bfe7ade34306db56f903f8934b1e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE const FastInt&lt; 384 &gt; &amp;</type>
+        <definition>MR_BIND_IGNORE const FastInt&lt; 384 &gt; &amp; MR::InSphereTesterSoS::heightSq</definition>
+        <argsstring>() const</argsstring>
+        <name>heightSq</name>
+        <qualifiedname>MR::InSphereTesterSoS::heightSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sqr( 2 * h * normalSq() ), h being the distance from the plane of the triangle to the sphere&apos;s center - not h^2 itself, the scaling by the doubled normal keeps the value integer; zero exactly when the circumradius equals the radius, so the center lies in the plane </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="250" column="36" bodyfile="MRMesh/MRInSphere.h" bodystart="250" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga1855670ce694c01ac7166e9562dc5ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::FastInSphereTesterSoS::reset</definition>
+        <argsstring>(const PreciseVertCoords &amp;a, const PreciseVertCoords &amp;b, const PreciseVertCoords &amp;c, std::int64_t rSq)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::FastInSphereTesterSoS::reset</qualifiedname>
+        <param>
+          <type>const PreciseVertCoords &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const PreciseVertCoords &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const PreciseVertCoords &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>rSq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prepares the tester as <ref refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kindref="member">InSphereTesterSoS::reset</ref> does, and additionally computes the floating-point center of the sphere and the tolerance of the tests below; this hides the reset of the base class, which would leave the center stale </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="265" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga18cb5be5241f31a6b905ea00c4c17209" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::FastInSphereTesterSoS::flip</definition>
+        <argsstring>()</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR::FastInSphereTesterSoS::flip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>selects the mirror sphere as the base class does, moving the floating-point center as well; this hides the flip of the base class, which would leave the center on the wrong side </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="269" column="10" bodyfile="MRMesh/MRInSphere.h" bodystart="269" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga2bae945de5039006890125cb915a9b12" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>InSphereResult</type>
+        <definition>InSphereResult MR::FastInSphereTesterSoS::operator()</definition>
+        <argsstring>(const PreciseVertCoords &amp;d) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::FastInSphereTesterSoS::operator()</qualifiedname>
+        <param>
+          <type>const PreciseVertCoords &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the position of the point d.pt relative to the sphere, with the ties resolved by simulation-of-simplicity exactly as <ref refid="classMR_1_1InSphereTesterSoS" kindref="compound">InSphereTesterSoS</ref> does (never OnSphere or NoSphere); shall be called only after <ref refid="group__GeneralGroup_1ga1855670ce694c01ac7166e9562dc5ffb" kindref="member">reset()</ref> returned true, and all four ids must be distinct </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="278" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga49ccdd0542a5957599fe860a3a4d8495" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::FastInSphereTesterSoS::outsideBothSpheres</definition>
+        <argsstring>(const Vector3i &amp;d) const</argsstring>
+        <name>outsideBothSpheres</name>
+        <qualifiedname>MR::FastInSphereTesterSoS::outsideBothSpheres</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>whether d is strictly outside both spheres of the given radius passing via the three points of <ref refid="group__GeneralGroup_1ga1855670ce694c01ac7166e9562dc5ffb" kindref="member">reset()</ref>: the selected one and its mirror in the plane of the triangle; the answer is exact, and a point lying on either of them is not strictly outside, so no tie arises and no simulation-of-simplicity is involved; filtered in floating point as the query above, and equally exact </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInSphere.h" line="285" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacebe5d7b834dddf60d4e4a8aed01b3df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ContinuousContours</type>
