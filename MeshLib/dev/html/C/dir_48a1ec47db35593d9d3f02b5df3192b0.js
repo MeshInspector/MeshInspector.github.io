@@ -25,6 +25,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRBestFitPolynomial.h", "MRBestFitPolynomial_8h.html", "MRBestFitPolynomial_8h" ],
     [ "MRBestFitQuadric.h", "MRBestFitQuadric_8h.html", "MRBestFitQuadric_8h" ],
     [ "MRBezier.h", "MRBezier_8h.html", "MRBezier_8h" ],
+    [ "MRBitCast.h", "MRBitCast_8h.html", "MRBitCast_8h" ],
     [ "MRBitSet.h", "MRBitSet_8h.html", "MRBitSet_8h" ],
     [ "MRBooleanOperation.h", "MRBooleanOperation_8h.html", "MRBooleanOperation_8h" ],
     [ "MRBox.h", "MRBox_8h.html", "MRBox_8h" ],

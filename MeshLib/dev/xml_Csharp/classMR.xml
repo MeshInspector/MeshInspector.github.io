@@ -6456,6 +6456,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="2954" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="2954" bodyend="2959"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a6651aa3b71f22253d032af5e28defd36" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>static unsafe int MR.bitCast</definition>
+        <argsstring>(float from)</argsstring>
+        <name>bitCast</name>
+        <qualifiedname>MR.bitCast</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+<para>std::bit_cast wrapper with the compiler's intrinsic fallback Generated from function <computeroutput>MR::bit_cast&amp;lt;int, float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="7" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" bodystart="7" bodyend="12"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1ae1bdf887987f0a6402a400ace765e33e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceSetBitIterator" kindref="compound">MR.FaceSetBitIterator</ref></type>
         <definition>static unsafe MR.FaceSetBitIterator MR.begin</definition>
@@ -53875,6 +53894,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ad0fb76ee5d4eb634b24339ac4594cfe9" prot="public" virt="non-virtual"><scope>MR</scope><name>bitandAssign</name></member>
       <member refid="classMR_1aa49fe09a6d8cab73d683baf8858370eb" prot="public" virt="non-virtual"><scope>MR</scope><name>bitandAssign</name></member>
       <member refid="classMR_1a816e416d8a36a19bec4b748d63e391fa" prot="public" virt="non-virtual"><scope>MR</scope><name>bitandAssign</name></member>
+      <member refid="classMR_1a6651aa3b71f22253d032af5e28defd36" prot="public" virt="non-virtual"><scope>MR</scope><name>bitCast</name></member>
       <member refid="classMR_1a0a786082a07a7c33b2dc65303a420598" prot="public" virt="non-virtual"><scope>MR</scope><name>bitor</name></member>
       <member refid="classMR_1ab0ba37851aa97ea8141462fc31eef901" prot="public" virt="non-virtual"><scope>MR</scope><name>bitor</name></member>
       <member refid="classMR_1accc8bdba5ff809f008ae09dd00706d8d" prot="public" virt="non-virtual"><scope>MR</scope><name>bitor</name></member>

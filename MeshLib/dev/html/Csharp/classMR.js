@@ -2577,6 +2577,7 @@ var classMR =
     [ "bitandAssign", "classMR.html#ad0fb76ee5d4eb634b24339ac4594cfe9", null ],
     [ "bitandAssign", "classMR.html#a816e416d8a36a19bec4b748d63e391fa", null ],
     [ "bitandAssign", "classMR.html#aa49fe09a6d8cab73d683baf8858370eb", null ],
+    [ "bitCast", "classMR.html#a6651aa3b71f22253d032af5e28defd36", null ],
     [ "bitor", "classMR.html#ab0ba37851aa97ea8141462fc31eef901", null ],
     [ "bitor", "classMR.html#a0a786082a07a7c33b2dc65303a420598", null ],
     [ "bitor", "classMR.html#accc8bdba5ff809f008ae09dd00706d8d", null ],

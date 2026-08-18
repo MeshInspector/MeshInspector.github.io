@@ -30,6 +30,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRBestFitPolynomial.h", "MRBestFitPolynomial_8h.html", "MRBestFitPolynomial_8h" ],
     [ "MRBestFitQuadric.h", "MRBestFitQuadric_8h.html", null ],
     [ "MRBezier.h", "MRBezier_8h.html", null ],
+    [ "MRBitCast.h", "MRBitCast_8h.html", "MRBitCast_8h" ],
     [ "MRBitSet.h", "MRBitSet_8h.html", "MRBitSet_8h" ],
     [ "MRBitSetParallelFor.h", "MRBitSetParallelFor_8h.html", "MRBitSetParallelFor_8h" ],
     [ "MRBooleanOperation.h", "MRBooleanOperation_8h.html", "MRBooleanOperation_8h" ],

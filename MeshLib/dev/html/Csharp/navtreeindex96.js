@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"classMR_1_1Cuda.html#a32b0e5b580026a8ccb88f5e1860b7740":[6,3,0,0,0,1102,20],
+"classMR_1_1Cuda.html#a4f9a9652de05efaa486dd7ccd6bcf858":[6,3,0,0,0,1102,14],
 "classMR_1_1Cuda.html#a55def268c9241c47c216170ba0752b6d":[6,3,0,0,0,1102,11],
 "classMR_1_1Cuda.html#a672eb663ba302d642c6f967c77a11bdc":[6,3,0,0,0,1102,10],
 "classMR_1_1Cuda.html#a6b9a166743006785b5243fc8f07427ac":[6,3,0,0,0,1102,24],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "classMR_1_1CylinderObject.html#aadf15dff6acbea601b07d35fcc892f24":[6,3,0,0,0,1110,57],
 "classMR_1_1CylinderObject.html#aafe4f5862914d81b1ab8e8a2cb88a1d3":[6,3,0,0,0,1110,61],
 "classMR_1_1CylinderObject.html#ab4a69f98f410ea535aeb46d127271f5b":[6,3,0,0,0,1110,38],
-"classMR_1_1CylinderObject.html#ab6de2dba51cedff59eb6065ebbaa22ee":[6,3,0,0,0,1110,16],
-"classMR_1_1CylinderObject.html#abdfef4d8549f60e0481c7a3c1b48830d":[6,3,0,0,0,1110,19],
-"classMR_1_1CylinderObject.html#ac793ff4ac6ca84c4db4323d1e1b8fe9d":[6,3,0,0,0,1110,48]
+"classMR_1_1CylinderObject.html#ab6de2dba51cedff59eb6065ebbaa22ee":[6,3,0,0,0,1110,16]
 };

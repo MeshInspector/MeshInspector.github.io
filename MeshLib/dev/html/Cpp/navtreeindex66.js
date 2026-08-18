@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1NewEdgesMap.html":[6,0,0,8,2],
+"structMR_1_1NewEdgesMap.html":[6,0,0,20,174],
+"structMR_1_1NoCtor.html":[6,0,0,20,131],
+"structMR_1_1NoCtor_3_01T_01_4.html":[6,0,0,20,132],
 "structMR_1_1NoDefInit.html":[6,0,0,20,379],
 "structMR_1_1NoInit.html":[6,0,0,20,335],
 "structMR_1_1NoModelCheck.html":[6,0,0,20,708],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1PreciseVertCoords2.html":[6,0,0,20,457],
 "structMR_1_1ProgressInterrupter.html":[6,0,0,20,889],
 "structMR_1_1ProjectAttributeParams.html":[6,0,0,20,466],
-"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[6,0,0,20,50],
-"structMR_1_1PythonExport_1_1ModuleData.html":[6,0,0,20,543],
-"structMR_1_1PythonFunctionAdder.html":[6,0,0,20,544],
-"structMR_1_1QuadraticForm.html":[6,0,0,0,19],
-"structMR_1_1QuadraticForm.html":[6,0,0,20,467]
+"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[6,0,0,20,50]
 };

@@ -31984,7 +31984,22 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRIsNaN.h" line="17" column="17" bodyfile="MRMesh/MRIsNaN.h" bodystart="17" bodyend="-1"/>
+        <location file="MRMesh/MRIsNaN.h" line="12" column="17" bodyfile="MRMesh/MRIsNaN.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga8f3c9f088f6a284e579d9042826fccd6" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::cQuietNanBits</definition>
+        <argsstring></argsstring>
+        <name>cQuietNanBits</name>
+        <qualifiedname>MR::cQuietNanBits</qualifiedname>
+        <initializer>= bit_cast&lt;int&gt;( cQuietNan )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRIsNaN.h" line="13" column="15" bodyfile="MRMesh/MRIsNaN.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga568001a06cd6d0a77fc7e87e9cebdc9a" prot="public" static="no" mutable="no">
         <type>MeshTriPoint</type>
@@ -81518,6 +81533,33 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRMesh/MRBezier.h" line="28" column="23" bodyfile="MRMesh/MRBezier.h" bodystart="47" bodyend="58"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaba5467b93d277b487924275e34615eb3" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename To</type>
+          </param>
+          <param>
+            <type>typename From</type>
+          </param>
+        </templateparamlist>
+        <type>To</type>
+        <definition>To MR::bit_cast</definition>
+        <argsstring>(const From &amp;from) noexcept</argsstring>
+        <name>bit_cast</name>
+        <qualifiedname>MR::bit_cast</qualifiedname>
+        <param>
+          <type>const From &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+<para>std::bit_cast wrapper with the compiler&apos;s intrinsic fallback </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRBitCast.h" line="17" column="15" bodyfile="MRMesh/MRBitCast.h" bodystart="17" bodyend="24"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa8ec2c72b6d4a3d088cc140e2771dbe1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
         <definition>virtual MR::Nesting::IBoxNestingPriority::~IBoxNestingPriority</definition>
@@ -104308,7 +104350,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRIsNaN.h" line="23" column="13" bodyfile="MRMesh/MRIsNaN.h" bodystart="23" bodyend="30"/>
+        <location file="MRMesh/MRIsNaN.h" line="16" column="13" bodyfile="MRMesh/MRIsNaN.h" bodystart="16" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab1ebfd99de734fb5a427394dcc38d2d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; VertBitSet &gt;</type>

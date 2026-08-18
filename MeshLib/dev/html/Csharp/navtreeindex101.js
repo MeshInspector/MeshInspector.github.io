@@ -1,5 +1,7 @@
 var NAVTREEINDEX101 =
 {
+"classMR_1_1FaceSetBitIterator.html#ae4da90c5d90adb6d3f2539b31f202423":[6,3,0,0,0,1174,0],
+"classMR_1_1FaceSetBitIterator.html#afc91e923aa86ad5e646b0bf17fba453f":[6,3,0,0,0,1174,4],
 "classMR_1_1FanRecord.html":[6,3,0,0,0,1175],
 "classMR_1_1FanRecord.html#a10122431e5574f278681c61c74b5bd90":[6,3,0,0,0,1175,5],
 "classMR_1_1FanRecord.html#a10945435859db0b2f5c48c63adce8900":[6,3,0,0,0,1175,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX101 =
 "classMR_1_1Features_1_1Const__SubfeatureInfo.html#add940f6bfea82c93a79b8db2a4dcf2b8":[6,3,0,0,0,1181,1,10],
 "classMR_1_1Features_1_1Const__SubfeatureInfo.html#aec8e433211f40a8f13d0921ea42e60b0":[6,3,0,0,0,1181,1,3],
 "classMR_1_1Features_1_1MeasureResult.html":[6,3,0,0,0,1181,2],
-"classMR_1_1Features_1_1MeasureResult.html#a0e32e221f8df0f3546b2a8f9adba40ec":[6,3,0,0,0,1181,2,1],
-"classMR_1_1Features_1_1MeasureResult.html#a14fbca9407cfdecdaf63b12985bd09d3":[6,3,0,0,0,1181,2,2],
-"classMR_1_1Features_1_1MeasureResult.html#a37ab5aa5eacb6c1ec09e06f24d18df66":[6,3,0,0,0,1181,2,4]
+"classMR_1_1Features_1_1MeasureResult.html#a0e32e221f8df0f3546b2a8f9adba40ec":[6,3,0,0,0,1181,2,1]
 };

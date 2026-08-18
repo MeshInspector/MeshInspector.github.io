@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#a944a43bc90ed7a3ca8c404ca44739c6a":[6,3,0,0,0,1017,5,4],
+"classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#a9bd5391a77ea298ec766f7cdd6a35996":[6,3,0,0,0,1017,5,6],
 "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#aa9aaa5a487dae1752eed152450846125":[6,3,0,0,0,1017,5,0],
 "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#aadc8c1ac22f047195d442bcbeb83b462":[6,3,0,0,0,1017,5,5],
 "classMR_1_1Const__WeightedVertex.html":[6,3,0,0,0,1018],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "classMR_1_1Cuda.html#a07a7240cdbac3fd2437a2d72b15e4020":[6,3,0,0,0,1102,16],
 "classMR_1_1Cuda.html#a0ea88f5709a51086f7724af94d64e56c":[6,3,0,0,0,1102,12],
 "classMR_1_1Cuda.html#a28af47bcf240e73dba6089da5350cef0":[6,3,0,0,0,1102,18],
-"classMR_1_1Cuda.html#a2ee724ac36d26a6c83bdcd469a4b1a22":[6,3,0,0,0,1102,25],
-"classMR_1_1Cuda.html#a32b0e5b580026a8ccb88f5e1860b7740":[6,3,0,0,0,1102,20],
-"classMR_1_1Cuda.html#a4f9a9652de05efaa486dd7ccd6bcf858":[6,3,0,0,0,1102,14]
+"classMR_1_1Cuda.html#a2ee724ac36d26a6c83bdcd469a4b1a22":[6,3,0,0,0,1102,25]
 };

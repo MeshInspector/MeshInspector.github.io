@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1Const__DistanceMapToWorld.html#a47e5fb998661c15dd540fa9197589e6e":[6,3,0,0,0,400,4],
+"classMR_1_1Const__DistanceMapToWorld.html#a5bc216e801a93b02781f870eb965a4dd":[6,3,0,0,0,400,9],
 "classMR_1_1Const__DistanceMapToWorld.html#a6047ab7720ccd9ddf71a1e35588c6511":[6,3,0,0,0,400,1],
 "classMR_1_1Const__DistanceMapToWorld.html#a62b2bef46c3fc9a466bad392b0451f97":[6,3,0,0,0,400,8],
 "classMR_1_1Const__DistanceMapToWorld.html#a6cccfacd5632543d66e9ab77777855c0":[6,3,0,0,0,400,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1Const__EdgeBitSet.html#a3a1afbf366be763e118c65a83b460a85":[6,3,0,0,0,408,15],
 "classMR_1_1Const__EdgeBitSet.html#a3ba9629639d181ff82e64c6570dbda92":[6,3,0,0,0,408,23],
 "classMR_1_1Const__EdgeBitSet.html#a401e2a3eca770322698bcc8dea1f7f35":[6,3,0,0,0,408,38],
-"classMR_1_1Const__EdgeBitSet.html#a4111016874fc3f86f6ec66044068b306":[6,3,0,0,0,408,7],
-"classMR_1_1Const__EdgeBitSet.html#a438024af598fe6924316013fbbddcad9":[6,3,0,0,0,408,9],
-"classMR_1_1Const__EdgeBitSet.html#a4f8f29d3d26cfa2ec3b1ee5e14dad518":[6,3,0,0,0,408,40]
+"classMR_1_1Const__EdgeBitSet.html#a4111016874fc3f86f6ec66044068b306":[6,3,0,0,0,408,7]
 };

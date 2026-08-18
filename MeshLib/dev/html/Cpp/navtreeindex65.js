@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1Mesh.html#a6791802a774a6e582072850647d3aa4a":[6,0,0,7,1,72],
+"structMR_1_1Mesh.html#a6b2c210b6e877bde4c37fab15c077a91":[6,0,0,7,1,25],
+"structMR_1_1Mesh.html#a6b35787713d43cba7a9e486296170bd1":[6,0,0,7,1,45],
+"structMR_1_1Mesh.html#a6cd3981840651ddac27d427a965ce818":[6,0,0,7,1,77],
 "structMR_1_1Mesh.html#a6d5ecc32f9f154e338bcda8777c77259":[6,0,0,7,1,98],
 "structMR_1_1Mesh.html#a6e9aa843e541b5b9b371902f0e14810a":[6,0,0,7,1,85],
 "structMR_1_1Mesh.html#a7173fafd19150c40259003561a02162a":[6,0,0,7,1,59],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1Nesting_1_1NestingBaseParams.html":[6,0,0,20,378],
 "structMR_1_1Nesting_1_1NestingResult.html":[6,0,0,20,376],
 "structMR_1_1Nesting_1_1TetrisDensifyOptions.html":[6,0,0,20,877],
-"structMR_1_1Nesting_1_1TetrisDensifyParams.html":[6,0,0,20,878],
-"structMR_1_1NewEdgesMap.html":[6,0,0,8,2],
-"structMR_1_1NewEdgesMap.html":[6,0,0,20,174],
-"structMR_1_1NoCtor.html":[6,0,0,20,131],
-"structMR_1_1NoCtor_3_01T_01_4.html":[6,0,0,20,132]
+"structMR_1_1Nesting_1_1TetrisDensifyParams.html":[6,0,0,20,878]
 };

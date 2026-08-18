@@ -25,6 +25,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRBestFitPolynomial.cs", "MRBestFitPolynomial_8cs.html", "MRBestFitPolynomial_8cs" ],
     [ "MRBestFitQuadric.cs", "MRBestFitQuadric_8cs.html", "MRBestFitQuadric_8cs" ],
     [ "MRBezier.cs", "MRBezier_8cs.html", "MRBezier_8cs" ],
+    [ "MRBitCast.cs", "MRBitCast_8cs.html", "MRBitCast_8cs" ],
     [ "MRBitSet.cs", "MRBitSet_8cs.html", "MRBitSet_8cs" ],
     [ "MRBooleanOperation.cs", "MRBooleanOperation_8cs.html", "MRBooleanOperation_8cs" ],
     [ "MRBox.cs", "MRBox_8cs.html", "MRBox_8cs" ],

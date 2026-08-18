@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1Const__CompressZipSettings.html#a59b19e957ea5c6ae26bfa939a5e5188a":[6,3,0,0,0,353,8],
+"classMR_1_1Const__CompressZipSettings.html#a7a3585de05e24b20ed6c33cd3af3e699":[6,3,0,0,0,353,4],
 "classMR_1_1Const__CompressZipSettings.html#a7b7eed30a9084acae21ac1f5d40278f6":[6,3,0,0,0,353,1],
 "classMR_1_1Const__CompressZipSettings.html#aa7430c5f77e90ea55f2ceea18a2383cb":[6,3,0,0,0,353,6],
 "classMR_1_1Const__CompressZipSettings.html#aab65932d766236cd2457249c05268684":[6,3,0,0,0,353,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1Const__ContourToDistanceMapParams.html#acd44a6f41ccdb138f532bb771ee4c712":[6,3,0,0,0,364,12],
 "classMR_1_1Const__ContourToDistanceMapParams.html#ad6cb3f4b60997048d83411bcd7fa1bf2":[6,3,0,0,0,364,7],
 "classMR_1_1Const__ContourToDistanceMapParams.html#adb5e5e2ab35208428e92fc8cc06c596a":[6,3,0,0,0,364,8],
-"classMR_1_1Const__ContourToDistanceMapParams.html#af42872f83e2f1246644985d112445bbf":[6,3,0,0,0,364,11],
-"classMR_1_1Const__ContourToDistanceMapParams.html#afdb0b6f48f8bddab87fdb95cbc23f8e2":[6,3,0,0,0,364,1],
-"classMR_1_1Const__ContoursDistanceMapOffset.html":[6,3,0,0,0,361]
+"classMR_1_1Const__ContourToDistanceMapParams.html#af42872f83e2f1246644985d112445bbf":[6,3,0,0,0,364,11]
 };

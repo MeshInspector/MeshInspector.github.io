@@ -14390,6 +14390,7 @@
     <member refid="group__ConstantsGroup_1gacad362d32c6fa4936e463a6c211583ac" kind="variable"><name>PI2_F</name></member>
     <member refid="namespaceMR_1aca010840c751d4c7b1a30bcd55fe5cdd" kind="variable"><name>AllFilter</name></member>
     <member refid="group__GeneralGroup_1gac50b2a332a59b46a9f98d7dc951dd010" kind="variable"><name>cQuietNan</name></member>
+    <member refid="group__GeneralGroup_1ga8f3c9f088f6a284e579d9042826fccd6" kind="variable"><name>cQuietNanBits</name></member>
     <member refid="group__GeneralGroup_1gaaa8f63a4fb4dcabf0f8f1dc79cdeee90" kind="variable"><name>noInit</name></member>
     <member refid="group__GeneralGroup_1gae14e1033b3de0c30a6bb404e940dc424" kind="variable"><name>NoDefInit</name></member>
     <member refid="group__GeneralGroup_1gac8c2508941fcd4ad714cdf50c45aa41c" kind="variable"><name>EdgeTag</name></member>
@@ -14590,6 +14591,7 @@
     <member refid="group__BestFitGroup_1ga38c918865ff22c325ba1364003248481" kind="function"><name>accumulatePoints</name></member>
     <member refid="group__GeneralGroup_1ga28db3c5e8ff0f5fe41f51c8376480d75" kind="function"><name>canSolvePolynomial</name></member>
     <member refid="group__GeneralGroup_1ga074ffc418d95b187b57843611aef56d6" kind="function"><name>canMinimizePolynomial</name></member>
+    <member refid="group__GeneralGroup_1gaba5467b93d277b487924275e34615eb3" kind="function"><name>bit_cast</name></member>
     <member refid="group__BasicGroup_1gacfd51356fbcb71948b1ef3f058ac75c7" kind="function"><name>heapBytes</name></member>
     <member refid="group__BasicGroup_1ga477d12e4df21747098c68393607fe634" kind="function"><name>operator==</name></member>
     <member refid="group__BasicGroup_1ga6eb99174c3e76c7cef9281244bb0352b" kind="function"><name>operator==</name></member>
@@ -17269,6 +17271,8 @@
   <compound refid="MRBestFitQuadric_8h" kind="file"><name>MRBestFitQuadric.h</name>
   </compound>
   <compound refid="MRBezier_8h" kind="file"><name>MRBezier.h</name>
+  </compound>
+  <compound refid="MRBitCast_8h" kind="file"><name>MRBitCast.h</name>
   </compound>
   <compound refid="MRBitSet_8h" kind="file"><name>MRBitSet.h</name>
   </compound>
@@ -22415,6 +22419,7 @@
     <member refid="group__GeneralGroup_1ga5f69c0eb3c0590c0bd49dbcdddbc0eca" kind="variable"><name>tasks</name></member>
     <member refid="group__GeneralGroup_1gaae6b3a6e5308d9b86786cc6f73d8a0ed" kind="variable"><name>type_</name></member>
     <member refid="group__GeneralGroup_1gac50b2a332a59b46a9f98d7dc951dd010" kind="variable"><name>cQuietNan</name></member>
+    <member refid="group__GeneralGroup_1ga8f3c9f088f6a284e579d9042826fccd6" kind="variable"><name>cQuietNanBits</name></member>
     <member refid="group__GeneralGroup_1ga568001a06cd6d0a77fc7e87e9cebdc9a" kind="variable"><name>p</name></member>
     <member refid="group__GeneralGroup_1ga9e19c8e2f07fda8228b4b66df9b6832b" kind="variable"><name>target</name></member>
     <member refid="group__GeneralGroup_1ga38939421f38fc6c59008300357e654f4" kind="variable"><name>weight</name></member>
@@ -25549,6 +25554,7 @@
     <member refid="group__GeneralGroup_1ga03fe60ea7e0abbe26829708ba3bc971c" kind="function"><name>findZeroProjection</name></member>
     <member refid="group__GeneralGroup_1ga808273a91fc951f1b82faa9424e6451e" kind="function"><name>getPoint</name></member>
     <member refid="group__GeneralGroup_1ga56b8e90a46bbc02fd586b6fc293831a6" kind="function"><name>getWeights</name></member>
+    <member refid="group__GeneralGroup_1gaba5467b93d277b487924275e34615eb3" kind="function"><name>bit_cast</name></member>
     <member refid="group__GeneralGroup_1gaa8ec2c72b6d4a3d088cc140e2771dbe1" kind="function"><name>~IBoxNestingPriority</name></member>
     <member refid="group__GeneralGroup_1ga8850f5538a39af635ba8bcae3a4cae75" kind="function"><name>init</name></member>
     <member refid="group__GeneralGroup_1gade02b304d212d0b796e804a9ebe361c7" kind="function"><name>addNested</name></member>

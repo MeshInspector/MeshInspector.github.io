@@ -1558,6 +1558,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.bendTextAlongSurfacePath", "namespacemrmeshpy.html#a61c623203c5a8695bb19658ef1133450", null ],
     [ "mrmeshpy.bendTextAlongSurfacePath", "namespacemrmeshpy.html#ac832c2bad16ef2a17a163c2afbef85ed", null ],
     [ "mrmeshpy.bestQuadrangleDiagonal", "namespacemrmeshpy.html#a782eed22c267c3ee40ecc5302f835431", null ],
+    [ "mrmeshpy.bit_cast", "namespacemrmeshpy.html#a966496640114f1fc72fc03565b856715", null ],
     [ "mrmeshpy.blend", "namespacemrmeshpy.html#a8727e878a89927df7086690df1cd07f9", null ],
     [ "mrmeshpy.boolean", "namespacemrmeshpy.html#a03f959339ff777818c786e7b356f268f", null ],
     [ "mrmeshpy.boolean", "namespacemrmeshpy.html#a376c6df6d887343f32a51600cb8ef337", null ],

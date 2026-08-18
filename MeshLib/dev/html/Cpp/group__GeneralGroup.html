@@ -3611,6 +3611,9 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga808273a91fc951f1b82faa9424e6451e"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes point on the curve from parameter value  <br /></td></tr>
 <tr class="memitem:ga56b8e90a46bbc02fd586b6fc293831a6" id="r_ga56b8e90a46bbc02fd586b6fc293831a6"><td class="memItemLeft" align="right" valign="top">static std::array&lt; <a class="el" href="#ga6b83dc1d69f50bd387ec3bf5392c92c2">T</a>, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga56b8e90a46bbc02fd586b6fc293831a6">MR::CubicBezierCurve&lt; V &gt;::getWeights</a> (<a class="el" href="#ga6b83dc1d69f50bd387ec3bf5392c92c2">T</a> t)</td></tr>
 <tr class="memdesc:ga56b8e90a46bbc02fd586b6fc293831a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes weights of every control point for given parameter value, the sum of all weights is equal to 1  <br /></td></tr>
+<tr class="memitem:gaba5467b93d277b487924275e34615eb3" id="r_gaba5467b93d277b487924275e34615eb3"><td class="memTemplParams" colspan="2">template&lt;typename To, typename From&gt; </td></tr>
+<tr class="memitem:gaba5467b93d277b487924275e34615eb3 template"><td class="memItemLeft" align="right" valign="top">constexpr To&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba5467b93d277b487924275e34615eb3">MR::bit_cast</a> (const From &amp;from) noexcept</td></tr>
+<tr class="memdesc:gaba5467b93d277b487924275e34615eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::bit_cast wrapper with the compiler's intrinsic fallback  <br /></td></tr>
 <tr class="memitem:gaa8ec2c72b6d4a3d088cc140e2771dbe1" id="r_gaa8ec2c72b6d4a3d088cc140e2771dbe1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8ec2c72b6d4a3d088cc140e2771dbe1">MR::Nesting::IBoxNestingPriority::~IBoxNestingPriority</a> ()=default</td></tr>
 <tr class="memitem:ga8850f5538a39af635ba8bcae3a4cae75" id="r_ga8850f5538a39af635ba8bcae3a4cae75"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8850f5538a39af635ba8bcae3a4cae75">MR::Nesting::IBoxNestingPriority::init</a> (const Box3f &amp;thisBox)=0</td></tr>
 <tr class="memdesc:ga8850f5538a39af635ba8bcae3a4cae75"><td class="mdescLeft">&#160;</td><td class="mdescRight">init priority calculation with box of placed object  <br /></td></tr>
@@ -12304,6 +12307,7 @@ Variables</h2></td></tr>
 <tr class="memitem:ga5f69c0eb3c0590c0bd49dbcdddbc0eca" id="r_ga5f69c0eb3c0590c0bd49dbcdddbc0eca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga7db0595bba979c4028be5875ef3e067d">UiTaskList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f69c0eb3c0590c0bd49dbcdddbc0eca">MR::UiRenderParams::tasks</a> = nullptr</td></tr>
 <tr class="memdesc:ga5f69c0eb3c0590c0bd49dbcdddbc0eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Those are Z-sorted and then executed.  <br /></td></tr>
 <tr class="memitem:gac50b2a332a59b46a9f98d7dc951dd010" id="r_gac50b2a332a59b46a9f98d7dc951dd010"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac50b2a332a59b46a9f98d7dc951dd010">MR::cQuietNan</a> = std::numeric_limits&lt;float&gt;::quiet_NaN()</td></tr>
+<tr class="memitem:ga8f3c9f088f6a284e579d9042826fccd6" id="r_ga8f3c9f088f6a284e579d9042826fccd6"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f3c9f088f6a284e579d9042826fccd6">MR::cQuietNanBits</a> = <a class="el" href="#gaba5467b93d277b487924275e34615eb3">bit_cast</a>&lt;int&gt;( <a class="el" href="#gac50b2a332a59b46a9f98d7dc951dd010">cQuietNan</a> )</td></tr>
 <tr class="memitem:ga568001a06cd6d0a77fc7e87e9cebdc9a" id="r_ga568001a06cd6d0a77fc7e87e9cebdc9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga568001a06cd6d0a77fc7e87e9cebdc9a">MR::Laplacian::Attractor::p</a></td></tr>
 <tr class="memitem:ga9e19c8e2f07fda8228b4b66df9b6832b" id="r_ga9e19c8e2f07fda8228b4b66df9b6832b"><td class="memItemLeft" align="right" valign="top">Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9e19c8e2f07fda8228b4b66df9b6832b">MR::Laplacian::Attractor::target</a></td></tr>
 <tr class="memitem:ga38939421f38fc6c59008300357e654f4" id="r_ga38939421f38fc6c59008300357e654f4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga38939421f38fc6c59008300357e654f4">MR::Laplacian::Attractor::weight</a> = 1</td></tr>
@@ -37225,6 +37229,37 @@ template&lt;typename T, std::size_t N&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRRenderGLHelpers_8h.html">MRViewer/MRRenderGLHelpers.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gaba5467b93d277b487924275e34615eb3" name="gaba5467b93d277b487924275e34615eb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba5467b93d277b487924275e34615eb3">&#9670;&#160;</a></span>bit_cast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename To, typename From&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">To MR::bit_cast </td>
+          <td>(</td>
+          <td class="paramtype">const From &amp;</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel constexpr">constexpr</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBitCast_8h.html">MRMesh/MRBitCast.h</a>&gt;</code></p>
+
+<p>std::bit_cast wrapper with the compiler's intrinsic fallback </p>
 
 </div>
 </div>
@@ -206111,6 +206146,30 @@ template&lt;typename Tag&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">float MR::cQuietNan = std::numeric_limits&lt;float&gt;::quiet_NaN()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRIsNaN_8h.html">MRMesh/MRIsNaN.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga8f3c9f088f6a284e579d9042826fccd6" name="ga8f3c9f088f6a284e579d9042826fccd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8f3c9f088f6a284e579d9042826fccd6">&#9670;&#160;</a></span>cQuietNanBits</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::cQuietNanBits = <a class="el" href="#gaba5467b93d277b487924275e34615eb3">bit_cast</a>&lt;int&gt;( <a class="el" href="#gac50b2a332a59b46a9f98d7dc951dd010">cQuietNan</a> )</td>
         </tr>
       </table>
   </td>

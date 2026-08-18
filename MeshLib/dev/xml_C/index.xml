@@ -2929,6 +2929,9 @@
     <member refid="MRBezier_8h_1a6c2dc690fe6685f1db073d4fad75f671" kind="function"><name>MR_CubicBezierCurve3d_getPoint</name></member>
     <member refid="MRBezier_8h_1a4a460a8638ceb9b89676938b771b69c5" kind="function"><name>MR_CubicBezierCurve3d_getWeights</name></member>
   </compound>
+  <compound refid="MRBitCast_8h" kind="file"><name>MRBitCast.h</name>
+    <member refid="MRBitCast_8h_1ad88e9d13853588315481a4cc235db014" kind="function"><name>MR_bit_cast</name></member>
+  </compound>
   <compound refid="MRBitSet_8h" kind="file"><name>MRBitSet.h</name>
     <member refid="MRBitSet_8h_1af034b4103e85b60d533cd9bcaf4b9b00" kind="typedef"><name>MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</name></member>
     <member refid="MRBitSet_8h_1a7f6aa85480f5ea36533be6f6b557bc1f" kind="typedef"><name>MR_BMap_MR_GraphVertId_MR_GraphVertId</name></member>

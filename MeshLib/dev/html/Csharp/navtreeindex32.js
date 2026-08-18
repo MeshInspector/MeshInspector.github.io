@@ -1,5 +1,7 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__BMap__MRVertId__SizeT.html#abb611c6ce90399f56b2082ae6758f4d5":[6,3,0,0,0,275,3],
+"classMR_1_1Const__BMap__MRVertId__SizeT.html#ad12e68ae5b89b02d93dac15b315b4ef1":[6,3,0,0,0,275,5],
 "classMR_1_1Const__BMap__MRVertId__SizeT.html#ad64714574358ff244c985a60d73a73e4":[6,3,0,0,0,275,2],
 "classMR_1_1Const__BMap__MRVertId__SizeT.html#add6dfb29725aa5ef5eb0ae3b0e5e487a":[6,3,0,0,0,275,1],
 "classMR_1_1Const__BMap__MRVoxelId__MRVoxelId.html":[6,3,0,0,0,276],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__BestFitParabolaf.html#af6c50acc74d17e571325fbbf07c676c0":[6,3,0,0,0,263,0],
 "classMR_1_1Const__BitSet.html":[6,3,0,0,0,264],
 "classMR_1_1Const__BitSet.html#a10c8ec5e26cbbb518219944118f4a3a7":[6,3,0,0,0,264,35],
-"classMR_1_1Const__BitSet.html#a186f0f3cb1c52907bac51c9f0ed76abd":[6,3,0,0,0,264,22],
-"classMR_1_1Const__BitSet.html#a21bb3da5a779d50604750dc8401cd343":[6,3,0,0,0,264,9],
-"classMR_1_1Const__BitSet.html#a2a8fc01373ceff0849f2f0aee7ee3fc5":[6,3,0,0,0,264,21]
+"classMR_1_1Const__BitSet.html#a186f0f3cb1c52907bac51c9f0ed76abd":[6,3,0,0,0,264,22]
 };
