@@ -407,6 +407,8 @@ Installing the local build</h4>
  Run <span class="tt">scripts/clone_submodules_linux.sh</span> to clone submodules. It has the same effect as <span class="tt">git submodules update --recursive --init</span>, except that it skips submodules that are not needed on Linux.</li>
 <li><b>Install/Build <a class="el" href="ThirdParty.html">Dependencies</a> and Compile</b>: <div class="fragment"><div class="line">./scripts/build_thirdparty.sh  # Do not select emscripten in the corresponding question</div>
 <div class="line">./scripts/build_source.sh      # Do not select emscripten in the corresponding question</div>
+</div><!-- fragment --> You may also run the scripts in the non-interactive mode (see <a class="el" href="#CppSetupWASM">Building WebAssembly with MeshLib Using Emscripten</a> for more info): <div class="fragment"><div class="line">MR_EMSCRIPTEN=OFF ./scripts/build_thirdparty.sh</div>
+<div class="line">MR_EMSCRIPTEN=OFF ./scripts/build_source.sh</div>
 </div><!-- fragment --></li>
 <li><b>Create and Install Package</b>: <br  />
  This step will create distribution package and install it to the system <br  />
@@ -495,9 +497,9 @@ Install Emscripten</h3>
 <li>Update the SDK (Optional) <br  />
  This step ensures you have the latest updates: <div class="fragment"><div class="line">git pull origin</div>
 </div><!-- fragment --></li>
-<li>Install a Specific Version of Emscripten <div class="fragment"><div class="line">./emsdk install 4.0.19</div>
+<li>Install a Specific Version of Emscripten <div class="fragment"><div class="line">./emsdk install 4.0.10</div>
 </div><!-- fragment --></li>
-<li>Activate the Installed Version <div class="fragment"><div class="line">./emsdk activate 4.0.19</div>
+<li>Activate the Installed Version <div class="fragment"><div class="line">./emsdk activate 4.0.10</div>
 </div><!-- fragment --></li>
 <li>Set Up Environment Variables<ul>
 <li><b>macOS and Linux</b>: <div class="fragment"><div class="line">source ./emsdk_env.sh</div>
@@ -526,15 +528,24 @@ Compile locally</h3>
 <li>Navigate to the MeshLib directory: <div class="fragment"><div class="line">cd ~/MeshLib</div>
 </div><!-- fragment --></li>
 <li>Run the script to build <a class="el" href="ThirdParty.html">Third-Party Dependencies</a>. When prompted, select <b>Emscripten</b> as the build target:<ul>
-<li>Choose <span class="tt">y</span> for multithreaded, <span class="tt">s</span> for single-threaded, or <span class="tt">n</span> for a standard Linux build. <div class="fragment"><div class="line">./scripts/build_thirdparty.sh</div>
+<li><span class="tt">y</span> - Emscripten, multi-threaded</li>
+<li><span class="tt">s</span> - Emscripten, single-threaded</li>
+<li><span class="tt">l</span> - Emscripten, multi-threaded 64-bit (wasm64) Pressing any other key or not pressing any key for 5 seconds will start a native, non-Emscripten build. <div class="fragment"><div class="line">./scripts/build_thirdparty.sh</div>
 </div><!-- fragment --></li>
 </ul>
 </li>
 <li>Build the MeshLib source code. Make sure to select the same Emscripten option you used in the <span class="tt">build_thirdparty.sh</span> script: <div class="fragment"><div class="line">./scripts/build_source.sh</div>
-</div><!-- fragment --></li>
-</ul>
-<dl class="section note"><dt>Note</dt><dd><b>For Windows Users:</b> <br  />
+</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd><b>Non-interactive builds.</b> You may pre-set the environment variables to skip the prompt: <div class="fragment"><div class="line">export MR_EMSCRIPTEN=ON               # same as &#39;y&#39;: multi-threaded</div>
+<div class="line">#export MR_EMSCRIPTEN_SINGLETHREAD=1  # ...plus this for &#39;s&#39;: single-threaded</div>
+<div class="line">#export MR_EMSCRIPTEN_WASM64=1        # ...plus this for &#39;l&#39;: multi-threaded 64-bit</div>
+<div class="line">./scripts/build_thirdparty.sh</div>
+<div class="line">./scripts/build_source.sh</div>
+</div><!-- fragment --></dd>
+<dd>
+<b>For Windows Users:</b> <br  />
  You may encounter compatibility issues if building directly on Windows. Consider using WSL (Windows Subsystem for Linux) to follow Linux-like instructions.</dd></dl>
+</li>
+</ul>
 <h4 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
 Running the WebAssembly Build</h4>
 <p>After building MeshLib for WebAssembly, follow these steps to run it:</p><ul>
