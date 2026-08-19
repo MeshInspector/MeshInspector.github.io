@@ -16,28 +16,36 @@
         <defname>M</defname>
       </param>
     </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga3e8cbde7010be3da4e90ed99e6f2c853" kind="typedef"><name>Term</name></member>
+    </sectiondef>
     <sectiondef kind="private-attrib">
-      <member refid="group__GeneralGroup_1ga5df7803a8194c8081b10f59f08827541" kind="variable"><name>map_</name></member>
+      <member refid="group__GeneralGroup_1ga3cdcb59017dfbb100b74e6fc17192d26" kind="variable"><name>terms_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga3dc64df27400abce4c5aa702e5829ac3" kind="function"><name>SparsePolynomial</name></member>
-      <member refid="group__GeneralGroup_1ga5ade5e79589d06b2bbdcb738b0e667fb" kind="function"><name>SparsePolynomial</name></member>
+      <member refid="group__GeneralGroup_1ga8b1ef47ca46e4387543f27df6e3b3bf7" kind="function"><name>SparsePolynomial</name></member>
       <member refid="group__GeneralGroup_1gaf742f5b139ea26142c4b53b07b105655" kind="function"><name>SparsePolynomial</name></member>
       <member refid="group__GeneralGroup_1gadb8ff3c08eca24b211a02e31060ec736" kind="function"><name>SparsePolynomial</name></member>
       <member refid="group__GeneralGroup_1ga687ad0841acd4ba8dd03d5915fdaecf3" kind="function"><name>setZeroCoeff</name></member>
       <member refid="group__GeneralGroup_1ga3121c41d3714630889e95595c2ed63ba" kind="function"><name>empty</name></member>
       <member refid="group__GeneralGroup_1ga555f6678115944f56cb6b347fcbc297a" kind="function"><name>isPositive</name></member>
-      <member refid="group__GeneralGroup_1ga9cd30857ce58fb5b8e689aa4a56a9a4d" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga4594d4e61f1e8cb98cdf84f86dcdc9bd" kind="function"><name>get</name></member>
       <member refid="group__GeneralGroup_1ga7db8147e43ed44e6850f4f813a585247" kind="function"><name>operator+=</name></member>
       <member refid="group__GeneralGroup_1ga33daec7c11a36c33eb5530ffa262a597" kind="function"><name>operator-=</name></member>
     </sectiondef>
     <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1ga844f65b0aad10ae232ab11237a790ae1" kind="friend"><name>operator+</name></member>
+      <member refid="group__GeneralGroup_1ga869660408870e65bd32d5ea6df41edce" kind="friend"><name>operator-</name></member>
       <member refid="group__GeneralGroup_1gae7d77a6dff850c8e2a355bbebaf3e011" kind="friend"><name>operator*</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga46819ce49c562cce3bc42d2c067fb64e" kind="function"><name>mergeTerms_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>The class to store a polynomial with a large number of zero coefficient (only non-zeros are stored in std::map) <parameterlist kind="templateparam"><parameteritem>
+<para>The class to store a polynomial with a large number of zero coefficients (only non-zeros are stored in a vector of terms sorted by ascending degree) <parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>C</parametername>
 </parameternamelist>
@@ -64,20 +72,24 @@
 </parameterlist>
 </para>
     </detaileddescription>
-    <location file="MRMesh/MRSparsePolynomial.h" line="21" column="1" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="22" bodyend="55"/>
+    <location file="MRMesh/MRSparsePolynomial.h" line="25" column="1" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="26" bodyend="74"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3121c41d3714630889e95595c2ed63ba" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>empty</name></member>
-      <member refid="group__GeneralGroup_1ga9cd30857ce58fb5b8e689aa4a56a9a4d" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga4594d4e61f1e8cb98cdf84f86dcdc9bd" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>get</name></member>
       <member refid="group__GeneralGroup_1ga555f6678115944f56cb6b347fcbc297a" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>isPositive</name></member>
-      <member refid="group__GeneralGroup_1ga5df7803a8194c8081b10f59f08827541" prot="private" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>map_</name></member>
+      <member refid="group__GeneralGroup_1ga46819ce49c562cce3bc42d2c067fb64e" prot="private" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>mergeTerms_</name></member>
       <member refid="group__GeneralGroup_1gae7d77a6dff850c8e2a355bbebaf3e011" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga844f65b0aad10ae232ab11237a790ae1" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>operator+</name></member>
       <member refid="group__GeneralGroup_1ga7db8147e43ed44e6850f4f813a585247" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga869660408870e65bd32d5ea6df41edce" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>operator-</name></member>
       <member refid="group__GeneralGroup_1ga33daec7c11a36c33eb5530ffa262a597" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>operator-=</name></member>
       <member refid="group__GeneralGroup_1ga687ad0841acd4ba8dd03d5915fdaecf3" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>setZeroCoeff</name></member>
       <member refid="group__GeneralGroup_1ga3dc64df27400abce4c5aa702e5829ac3" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
-      <member refid="group__GeneralGroup_1ga5ade5e79589d06b2bbdcb738b0e667fb" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
+      <member refid="group__GeneralGroup_1ga8b1ef47ca46e4387543f27df6e3b3bf7" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
       <member refid="group__GeneralGroup_1gaf742f5b139ea26142c4b53b07b105655" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
       <member refid="group__GeneralGroup_1gadb8ff3c08eca24b211a02e31060ec736" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>SparsePolynomial</name></member>
+      <member refid="group__GeneralGroup_1ga3e8cbde7010be3da4e90ed99e6f2c853" prot="public" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>Term</name></member>
+      <member refid="group__GeneralGroup_1ga3cdcb59017dfbb100b74e6fc17192d26" prot="private" virt="non-virtual"><scope>MR::SparsePolynomial</scope><name>terms_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

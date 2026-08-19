@@ -1,5 +1,8 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1PolynomialWrapper.html":[6,0,0,20,122],
+"structMR_1_1PositionVertsSmoothlyParams.html":[6,0,0,20,452],
+"structMR_1_1PositionedText.html":[6,0,0,20,451],
 "structMR_1_1PostDrawListener.html":[6,0,0,20,787],
 "structMR_1_1PostFocusListener.html":[6,0,0,20,809],
 "structMR_1_1PostRescaleListener.html":[6,0,0,20,793],
@@ -246,8 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1TransformedMesh.html":[6,0,0,20,326],
 "structMR_1_1TransparencyMode.html":[6,0,0,20,474],
 "structMR_1_1TriIntersectResult.html":[6,0,0,0,10,0],
-"structMR_1_1TriIntersectResult.html#a48df7c0ab186bb4fc08a19d5729ecf0d":[6,0,0,0,10,0,0],
-"structMR_1_1TriIntersectResult.html#afcfc8df6cc0634cb7eee48bd5186099f":[6,0,0,0,10,0,2],
-"structMR_1_1TriIntersectResult.html#afddaa2d62c7a7fcf3af2785e8551c268":[6,0,0,0,10,0,1],
-"structMR_1_1TriMesh.html":[6,0,0,20,509]
+"structMR_1_1TriIntersectResult.html#a48df7c0ab186bb4fc08a19d5729ecf0d":[6,0,0,0,10,0,0]
 };

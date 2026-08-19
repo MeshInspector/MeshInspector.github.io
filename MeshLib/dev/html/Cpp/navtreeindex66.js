@@ -1,5 +1,8 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1MultiRayMeshIntersectResult.html#ab49b37818f779af102184978ebe758fc":[6,0,0,1,20,2],
+"structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15":[6,0,0,1,20,1],
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html":[6,0,0,0,8,0,0],
 "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b":[6,0,0,0,8,0,0,1],
 "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136":[6,0,0,0,8,0,0,0],
 "structMR_1_1MultiwayICPSamplingParameters.html":[6,0,0,20,374],
@@ -246,8 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[6,0,0,1,9,0],
 "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[6,0,0,1,10],
 "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[6,0,0,1,10,0],
-"structMR_1_1Polynomial.html":[6,0,0,20,121],
-"structMR_1_1PolynomialWrapper.html":[6,0,0,20,122],
-"structMR_1_1PositionVertsSmoothlyParams.html":[6,0,0,20,452],
-"structMR_1_1PositionedText.html":[6,0,0,20,451]
+"structMR_1_1Polynomial.html":[6,0,0,20,121]
 };

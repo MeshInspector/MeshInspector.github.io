@@ -1,5 +1,8 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1BooleanPreCutResult.html#afaca754878c1a03d1db3e1b2e6933dfc":[6,0,2,0,2,81,0],
+"structMR_1_1BooleanResult.html":[6,0,0,8,5],
+"structMR_1_1BooleanResult.html#a2d3a10c35e289abf78a95bd3005b9486":[6,0,0,8,5,7],
 "structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289":[6,0,0,8,5,5],
 "structMR_1_1BooleanResult.html#a5158c930dad94ff45198508c2b01788a":[6,0,0,8,5,9],
 "structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df":[6,0,0,8,5,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591":[6,0,0,5,5,0],
 "structMR_1_1DistanceMapToWorld.html#a32e6a45804b42ebcebd70500b984bc2a":[6,0,0,5,5,8],
 "structMR_1_1DistanceMapToWorld.html#a58ecb87a75e584402ddd3420513d89df":[6,0,0,5,5,3],
-"structMR_1_1DistanceMapToWorld.html#a5ff6040f3379ccf4fa8afcb7d12a0d5c":[6,0,0,5,5,9],
-"structMR_1_1DistanceMapToWorld.html#a74d96fa90a47e012874bf6708e586545":[6,0,0,5,5,4],
-"structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74":[6,0,0,5,5,7],
-"structMR_1_1DistanceMapToWorld.html#a92e916455b2d6b276605af3bca683742":[6,0,0,5,5,5]
+"structMR_1_1DistanceMapToWorld.html#a5ff6040f3379ccf4fa8afcb7d12a0d5c":[6,0,0,5,5,9]
 };

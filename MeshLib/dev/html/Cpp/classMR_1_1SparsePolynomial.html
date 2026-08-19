@@ -138,6 +138,7 @@ $(function(){initNavTree('classMR_1_1SparsePolynomial.html','','classMR_1_1Spars
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classMR_1_1SparsePolynomial-members.html">List of all members</a>  </div>
@@ -147,12 +148,16 @@ $(function(){initNavTree('classMR_1_1SparsePolynomial.html','','classMR_1_1Spars
 
 <p><code>#include &lt;<a class="el" href="MRSparsePolynomial_8h_source.html">MRMesh/MRSparsePolynomial.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ga3e8cbde7010be3da4e90ed99e6f2c853" id="r_ga3e8cbde7010be3da4e90ed99e6f2c853"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3e8cbde7010be3da4e90ed99e6f2c853">Term</a> = std::pair&lt;D, C&gt;</td></tr>
+<tr class="memdesc:ga3e8cbde7010be3da4e90ed99e6f2c853"><td class="mdescLeft">&#160;</td><td class="mdescRight">a not-zero coefficient with its degree  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ga3dc64df27400abce4c5aa702e5829ac3" id="r_ga3dc64df27400abce4c5aa702e5829ac3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3dc64df27400abce4c5aa702e5829ac3">SparsePolynomial</a> ()=default</td></tr>
 <tr class="memdesc:ga3dc64df27400abce4c5aa702e5829ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs zero polynomial  <br /></td></tr>
-<tr class="memitem:ga5ade5e79589d06b2bbdcb738b0e667fb" id="r_ga5ade5e79589d06b2bbdcb738b0e667fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5ade5e79589d06b2bbdcb738b0e667fb">SparsePolynomial</a> (std::map&lt; D, C &gt; &amp;&amp;)</td></tr>
-<tr class="memdesc:ga5ade5e79589d06b2bbdcb738b0e667fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">takes existing coefficients in ownership  <br /></td></tr>
+<tr class="memitem:ga8b1ef47ca46e4387543f27df6e3b3bf7" id="r_ga8b1ef47ca46e4387543f27df6e3b3bf7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8b1ef47ca46e4387543f27df6e3b3bf7">SparsePolynomial</a> (std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga3e8cbde7010be3da4e90ed99e6f2c853">Term</a> &gt; &amp;&amp;)</td></tr>
 <tr class="memitem:gaf742f5b139ea26142c4b53b07b105655" id="r_gaf742f5b139ea26142c4b53b07b105655"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf742f5b139ea26142c4b53b07b105655">SparsePolynomial</a> (C c0, D d1, C c1)</td></tr>
 <tr class="memdesc:gaf742f5b139ea26142c4b53b07b105655"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs polynomial c0 + c1*x^d1  <br /></td></tr>
 <tr class="memitem:gadb8ff3c08eca24b211a02e31060ec736" id="r_gadb8ff3c08eca24b211a02e31060ec736"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadb8ff3c08eca24b211a02e31060ec736">SparsePolynomial</a> (C c0, D d1, C c1, D d2, C c2)</td></tr>
@@ -163,18 +168,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ga3121c41d3714630889e95595c2ed63ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if no single polynomial coefficient is defined  <br /></td></tr>
 <tr class="memitem:ga555f6678115944f56cb6b347fcbc297a" id="r_ga555f6678115944f56cb6b347fcbc297a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga555f6678115944f56cb6b347fcbc297a">isPositive</a> () const</td></tr>
 <tr class="memdesc:ga555f6678115944f56cb6b347fcbc297a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the coefficient for the smallest not-zero degress is positive  <br /></td></tr>
-<tr class="memitem:ga9cd30857ce58fb5b8e689aa4a56a9a4d" id="r_ga9cd30857ce58fb5b8e689aa4a56a9a4d"><td class="memItemLeft" align="right" valign="top">const std::map&lt; D, C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9cd30857ce58fb5b8e689aa4a56a9a4d">get</a> () const</td></tr>
-<tr class="memdesc:ga9cd30857ce58fb5b8e689aa4a56a9a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets read-only access to all not-zero coefficients  <br /></td></tr>
+<tr class="memitem:ga4594d4e61f1e8cb98cdf84f86dcdc9bd" id="r_ga4594d4e61f1e8cb98cdf84f86dcdc9bd"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga3e8cbde7010be3da4e90ed99e6f2c853">Term</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4594d4e61f1e8cb98cdf84f86dcdc9bd">get</a> () const</td></tr>
+<tr class="memdesc:ga4594d4e61f1e8cb98cdf84f86dcdc9bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets read-only access to all not-zero coefficients  <br /></td></tr>
 <tr class="memitem:ga7db8147e43ed44e6850f4f813a585247" id="r_ga7db8147e43ed44e6850f4f813a585247"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7db8147e43ed44e6850f4f813a585247">operator+=</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;b)</td></tr>
 <tr class="memitem:ga33daec7c11a36c33eb5530ffa262a597" id="r_ga33daec7c11a36c33eb5530ffa262a597"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga33daec7c11a36c33eb5530ffa262a597">operator-=</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;b)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
+<tr class="memitem:ga844f65b0aad10ae232ab11237a790ae1" id="r_ga844f65b0aad10ae232ab11237a790ae1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga844f65b0aad10ae232ab11237a790ae1">operator+</a> (<a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> a, const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;b)</td></tr>
+<tr class="memitem:ga869660408870e65bd32d5ea6df41edce" id="r_ga869660408870e65bd32d5ea6df41edce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga869660408870e65bd32d5ea6df41edce">operator-</a> (<a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> a, const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;b)</td></tr>
 <tr class="memitem:gae7d77a6dff850c8e2a355bbebaf3e011" id="r_gae7d77a6dff850c8e2a355bbebaf3e011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae7d77a6dff850c8e2a355bbebaf3e011">operator*</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;a, const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;b)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename C, typename D, D M&gt;<br />
-class MR::SparsePolynomial&lt; C, D, M &gt;</div><p>The class to store a polynomial with a large number of zero coefficient (only non-zeros are stored in std::map) </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+class MR::SparsePolynomial&lt; C, D, M &gt;</div><p>The class to store a polynomial with a large number of zero coefficients (only non-zeros are stored in a vector of terms sorted by ascending degree) </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">C</td><td>- type of coefficients </td></tr>
     <tr><td class="paramname">D</td><td>- type of degrees </td></tr>
