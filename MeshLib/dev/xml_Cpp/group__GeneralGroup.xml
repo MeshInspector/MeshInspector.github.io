@@ -80362,7 +80362,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <param>
           <type>std::vector&lt; AlphaShapeNei &gt; &amp;</type>
           <declname>neis</declname>
-          <briefdescription><para>temporary storage to avoid memory allocations, it will be filled with the neighbours of point #v within data.searchRadius sorted by distance, except the ones redundant for the search </para>
+          <briefdescription><para>temporary storage to avoid memory allocations, it will be filled with the neighbours of point #v within data.searchRadius sorted by distance, except the duplicates and the ones redundant for the search; cleared if #v duplicates a point with a smaller id </para>
 </briefdescription>
         </param>
         <param>
@@ -80380,11 +80380,11 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
 <para>optional statistics of the work done, which is increased here </para>
         </briefdescription>
         <detaileddescription>
-<para>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points </para>
+<para>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points; the valid points sharing one position in the integer grid are merged: only the point with the smallest id among them appears in the triangles (in particular, #v itself gets no triangles if it has such a twin), so the triangles found around all the points agree </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="118" column="7" declfile="MRMesh/MRAlphaShape.h" declline="118" declcolumn="7"/>
+        <location file="MRMesh/MRAlphaShape.h" line="121" column="7" declfile="MRMesh/MRAlphaShape.h" declline="121" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Triangulation &gt;</type>
@@ -80416,7 +80416,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="126" column="17" declfile="MRMesh/MRAlphaShape.h" declline="126" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="129" column="17" declfile="MRMesh/MRAlphaShape.h" declline="129" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga44dece01c32cea22aac7aab8915caa2b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Triangulation</type>
@@ -80443,7 +80443,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="128" column="17" declfile="MRMesh/MRAlphaShape.h" declline="128" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="131" column="17" declfile="MRMesh/MRAlphaShape.h" declline="131" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9f304608f78c5e19b2d5c560900e5bfb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Triangulation &gt;</type>
@@ -80475,7 +80475,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="133" column="17" declfile="MRMesh/MRAlphaShape.h" declline="133" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="136" column="17" declfile="MRMesh/MRAlphaShape.h" declline="136" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga206e1ff370f4c549a290390c0e540d89" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Mesh &gt;</type>
@@ -80507,7 +80507,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="137" column="17" declfile="MRMesh/MRAlphaShape.h" declline="137" declcolumn="17"/>
+        <location file="MRMesh/MRAlphaShape.h" line="140" column="17" declfile="MRMesh/MRAlphaShape.h" declline="140" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab742b798176547393043027206aa42c9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
@@ -80534,7 +80534,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAlphaShape.h" line="139" column="8" declfile="MRMesh/MRAlphaShape.h" declline="139" declcolumn="8"/>
+        <location file="MRMesh/MRAlphaShape.h" line="142" column="8" declfile="MRMesh/MRAlphaShape.h" declline="142" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa12ae3069114c41ef8ed6616672c5d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>

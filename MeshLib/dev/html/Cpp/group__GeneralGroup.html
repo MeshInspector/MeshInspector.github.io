@@ -68944,12 +68944,12 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 <p><code>#include &lt;<a class="el" href="MRAlphaShape_8h.html">MRMesh/MRAlphaShape.h</a>&gt;</code></p>
 
 <p>optional statistics of the work done, which is increased here </p>
-<p>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points </p>
+<p>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points; the valid points sharing one position in the integer grid are merged: only the point with the smallest id among them appears in the triangles (in particular, #v itself gets no triangles if it has such a twin), so the triangles found around all the points agree </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">data</td><td>prepared by getAlphaShapeData for the same cloud and the same radius  </td></tr>
     <tr><td class="paramname">appendTris</td><td>found triangles will be appended here  </td></tr>
-    <tr><td class="paramname">neis</td><td>temporary storage to avoid memory allocations, it will be filled with the neighbours of point #v within data.searchRadius sorted by distance, except the ones redundant for the search  </td></tr>
+    <tr><td class="paramname">neis</td><td>temporary storage to avoid memory allocations, it will be filled with the neighbours of point #v within data.searchRadius sorted by distance, except the duplicates and the ones redundant for the search; cleared if #v duplicates a point with a smaller id  </td></tr>
     <tr><td class="paramname">onlyLargerVids</td><td>if true then two other points must have larger ids (to avoid finding same triangles several times) </td></tr>
   </table>
   </dd>

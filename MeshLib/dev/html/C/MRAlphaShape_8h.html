@@ -2041,7 +2041,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points Generated from function <span class="tt">MR::findAlphaShapeNeiTriangles</span>. Parameter <span class="tt">cloud</span> can not be null. It is a single object. Parameter <span class="tt">data</span> can not be null. It is a single object. Parameter <span class="tt">appendTris</span> can not be null. It is a single object. Parameter <span class="tt">neis</span> can not be null. It is a single object. Parameter <span class="tt">stats</span> defaults to a null pointer in C++. </p>
+<p>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points; the valid points sharing one position in the integer grid are merged: only the point with the smallest id among them appears in the triangles (in particular, #v itself gets no triangles if it has such a twin), so the triangles found around all the points agree Generated from function <span class="tt">MR::findAlphaShapeNeiTriangles</span>. Parameter <span class="tt">cloud</span> can not be null. It is a single object. Parameter <span class="tt">data</span> can not be null. It is a single object. Parameter <span class="tt">appendTris</span> can not be null. It is a single object. Parameter <span class="tt">neis</span> can not be null. It is a single object. Parameter <span class="tt">stats</span> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
