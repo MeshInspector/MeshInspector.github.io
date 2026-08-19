@@ -158,7 +158,7 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
                 <a href="#autotoc_md26">Prerequisites </a>
               </li>
               <li class="level4">
-                <a href="#CppSetupWindowsLocalBuild">Installing the local build </a>
+                <a href="#autotoc_md27">Installing the local build </a>
               </li>
             </ul>
           </li>
@@ -168,16 +168,16 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
         <a href="#CppSetupLinux">Linux (Ubuntu/Fedora) </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md27">Installing the release build </a>
+            <a href="#autotoc_md28">Installing the release build </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md28">Compile Locally </a>
+            <a href="#autotoc_md29">Compile Locally </a>
             <ul>
               <li class="level4">
-                <a href="#autotoc_md29">Prerequisites </a>
+                <a href="#autotoc_md30">Prerequisites </a>
               </li>
               <li class="level4">
-                <a href="#autotoc_md30">Installing the local build </a>
+                <a href="#autotoc_md31">Installing the local build </a>
               </li>
             </ul>
           </li>
@@ -187,16 +187,16 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
         <a href="#CppSetupMacOS">macOS </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md31">Installing the release build </a>
+            <a href="#autotoc_md32">Installing the release build </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md32">Compile Locally </a>
+            <a href="#autotoc_md33">Compile Locally </a>
             <ul>
               <li class="level4">
-                <a href="#autotoc_md33">Prerequisites </a>
+                <a href="#autotoc_md34">Prerequisites </a>
               </li>
               <li class="level4">
-                <a href="#autotoc_md34">Installing the local build </a>
+                <a href="#autotoc_md35">Installing the local build </a>
               </li>
             </ul>
           </li>
@@ -206,26 +206,18 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
         <a href="#CppSetupWASM">Building WebAssembly with MeshLib Using Emscripten </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md35">Install Emscripten </a>
+            <a href="#autotoc_md36">Install Emscripten </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md36">Installing the release build </a>
+            <a href="#autotoc_md37">Installing the release build </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md37">Compile locally </a>
+            <a href="#autotoc_md38">Compile locally </a>
             <ul>
               <li class="level4">
-                <a href="#CppSetupWASMRun">Running the WebAssembly Build </a>
+                <a href="#autotoc_md39">Running the WebAssembly Build </a>
               </li>
             </ul>
-          </li>
-        </ul>
-      </li>
-      <li class="level2">
-        <a href="#CppSetupTroubleshooting">Troubleshooting </a>
-        <ul>
-          <li class="level3">
-            <a href="#autotoc_md38">Where the logs are </a>
           </li>
         </ul>
       </li>
@@ -235,7 +227,7 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
 </div>
 <div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
 Setting Up MeshLib for C++ Development</h1>
-<p>This guide explains how to set up MeshLib for C++ development on <a class="el" href="#CppSetupWindows">Windows</a>, <a class="el" href="#CppSetupLinux">Linux</a>, and <a class="el" href="#CppSetupMacOS">macOS</a>, and also shows how to <a class="el" href="#CppSetupWASM">build WebAssembly</a> modules using MeshLib with Emscripten. It covers all the prerequisites and setup steps for each platform, making it easy to get started. If a step fails, see <a class="el" href="#CppSetupTroubleshooting">Troubleshooting</a> at the end of this page.</p>
+<p>This guide explains how to set up MeshLib for C++ development on <a class="el" href="#CppSetupWindows">Windows</a>, <a class="el" href="#CppSetupLinux">Linux</a>, and <a class="el" href="#CppSetupMacOS">macOS</a>, and also shows how to <a class="el" href="#CppSetupWASM">build WebAssembly</a> modules using MeshLib with Emscripten. It covers all the prerequisites and setup steps for each platform, making it easy to get started.</p>
 <h2 class="doxsection"><a class="anchor" id="CppSetupWindows"></a>
 Windows</h2>
 <dl class="section note"><dt>Note</dt><dd>MeshLib for Windows is distributed for <b>x64</b> only: set the platform of your project to <span class="tt">x64</span>. A 32-bit (<span class="tt">Win32</span>) build is not supported and fails while compiling <span class="tt">MRMesh/MRId.h</span> with <span class="tt">C2535: member function already defined or declared</span> and <span class="tt">C2995: function template has already been defined</span> (on 32-bit MSVC <span class="tt">size_t</span> and <span class="tt">unsigned int</span> are the same type, so two <span class="tt">MR::Id</span> constructors collapse into one). Visual Studio 2019 still defaults new C++ console projects to <span class="tt">Win32</span>. On Windows on Arm, use the x64 toolchain: no native Arm64 Windows build is published.</dd></dl>
@@ -329,7 +321,7 @@ Prerequisites</h4>
 </li>
 </ol>
 <p><a href="https://github.com/Microsoft/vcpkg">Learn more about</a> <span class="tt">vcpkg</span></p>
-<h4 class="doxsection"><a class="anchor" id="CppSetupWindowsLocalBuild"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
 Installing the local build</h4>
 <dl class="section note"><dt>Note</dt><dd>The following steps will require approximately 40 GB of disk space.</dd></dl>
 <ol type="1">
@@ -364,7 +356,7 @@ Installing the local build</h4>
 </ol>
 <h2 class="doxsection"><a class="anchor" id="CppSetupLinux"></a>
 Linux (Ubuntu/Fedora)</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
 Installing the release build</h3>
 <ol type="1">
 <li><b>Download and Extract the Built Version</b><ul>
@@ -384,9 +376,9 @@ Installing the release build</h3>
 </div><!-- fragment --></li>
 <li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a></li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
 Compile Locally</h3>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
 Prerequisites</h4>
 <ol type="1">
 <li><b>Git</b><ul>
@@ -405,7 +397,7 @@ Prerequisites</h4>
 </ul>
 </li>
 </ol>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
 Installing the local build</h4>
 <ol type="1">
 <li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone https://github.com/MeshInspector/MeshLib.git</div>
@@ -436,7 +428,7 @@ Installing the local build</h4>
 </ol>
 <h2 class="doxsection"><a class="anchor" id="CppSetupMacOS"></a>
 macOS</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md32"></a>
 Installing the release build</h3>
 <ol type="1">
 <li><b>Download the Built Version</b> <br  />
@@ -451,9 +443,9 @@ Installing the release build</h3>
 <li><b>Integrate Using CMake</b> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md32"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
 Compile Locally</h3>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
 Prerequisites</h4>
 <ol type="1">
 <li><b>Install Homebrew</b><ul>
@@ -474,7 +466,7 @@ Prerequisites</h4>
 </ul>
 </li>
 </ol>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
 Installing the local build</h4>
 <ol type="1">
 <li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone https://github.com/MeshInspector/MeshLib.git</div>
@@ -492,7 +484,7 @@ Installing the local build</h4>
 Building WebAssembly with MeshLib Using Emscripten</h2>
 <p>This guide will help you build WebAssembly (WASM) using MeshLib and Emscripten. Please follow the instructions step by step.</p>
 <dl class="section note"><dt>Note</dt><dd>Only web and worker environments (i.e. web browsers) are officially supported.</dd></dl>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
 Install Emscripten</h3>
 <p>Emscripten is required to compile C++ code into WebAssembly. You can install Emscripten by following the steps below. For more details, refer to the <a href="https://emscripten.org/docs/getting_started/downloads.html">Emscripten official page</a>.</p><ul>
 <li>Clone the Emscripten SDK Repository <br  />
@@ -503,9 +495,9 @@ Install Emscripten</h3>
 <li>Update the SDK (Optional) <br  />
  This step ensures you have the latest updates: <div class="fragment"><div class="line">git pull origin</div>
 </div><!-- fragment --></li>
-<li>Install a Specific Version of Emscripten <div class="fragment"><div class="line">./emsdk install 4.0.10</div>
+<li>Install a Specific Version of Emscripten <div class="fragment"><div class="line">./emsdk install 4.0.19</div>
 </div><!-- fragment --></li>
-<li>Activate the Installed Version <div class="fragment"><div class="line">./emsdk activate 4.0.10</div>
+<li>Activate the Installed Version <div class="fragment"><div class="line">./emsdk activate 4.0.19</div>
 </div><!-- fragment --></li>
 <li>Set Up Environment Variables<ul>
 <li><b>macOS and Linux</b>: <div class="fragment"><div class="line">source ./emsdk_env.sh</div>
@@ -515,7 +507,7 @@ Install Emscripten</h3>
 </ul>
 <dl class="section note"><dt>Note</dt><dd><b>For Windows Users:</b> <br  />
  Make sure you are using Git Bash, WSL, or another Unix-like environment if you want to follow the exact same steps as on Linux/macOS.</dd></dl>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md37"></a>
 Installing the release build</h3>
 <ol type="1">
 <li><b>Download the Built Version</b> <br  />
@@ -528,7 +520,7 @@ Installing the release build</h3>
 </div><!-- fragment --> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md37"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
 Compile locally</h3>
 <ul>
 <li>Navigate to the MeshLib directory: <div class="fragment"><div class="line">cd ~/MeshLib</div>
@@ -543,7 +535,7 @@ Compile locally</h3>
 </ul>
 <dl class="section note"><dt>Note</dt><dd><b>For Windows Users:</b> <br  />
  You may encounter compatibility issues if building directly on Windows. Consider using WSL (Windows Subsystem for Linux) to follow Linux-like instructions.</dd></dl>
-<h4 class="doxsection"><a class="anchor" id="CppSetupWASMRun"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
 Running the WebAssembly Build</h4>
 <p>After building MeshLib for WebAssembly, follow these steps to run it:</p><ul>
 <li>Setting Up a Local HTTP Server</li>
@@ -581,38 +573,10 @@ Running the WebAssembly Build</h4>
 </div><!-- fragment --></li>
 <li>Access and Test<ul>
 <li>Open your browser and go to: <span class="tt"><a href="http://127.0.0.1:8000">http://127.0.0.1:8000</a></span></li>
-<li>Ensure headers are set correctly for multithreading. Check the browser console for errors if needed.</li>
+<li>Ensure headers are set correctly for multithreading. Check the browser console for errors if needed. </li>
 </ul>
 </li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="CppSetupTroubleshooting"></a>
-Troubleshooting</h2>
-<p>Failures most often hit while following the steps above, with the message each one actually produces.</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Path  </th><th class="markdownTableHeadNone">Symptom  </th><th class="markdownTableHeadNone">Cause  </th><th class="markdownTableHeadNone">Fix  </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Windows, prebuilt  </td><td class="markdownTableBodyNone">Compilation of any file including MeshLib stops with <span class="tt">#error _ITERATOR_DEBUG_LEVEL is inconsistent with MeshLib</span>. This is a <b>compile</b> error raised by MeshLib itself, not a linker error.  </td><td class="markdownTableBodyNone">The archive was built for a different iterator-debug setting than your project uses. MeshLib defaults both <span class="tt">_ITERATOR_DEBUG_LEVEL</span> and <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> to <span class="tt">0</span> and refuses to compile when they disagree.  </td><td class="markdownTableBodyNone">For Release, take <span class="tt">MeshLibDistVS19_&lt;version&gt;.zip</span> / <span class="tt">MeshLibDistVS22_&lt;version&gt;.zip</span> / <span class="tt">MeshLibDistVS26_&lt;version&gt;.zip</span> matching your toolset. For a Debug build with iterator debugging on, take <span class="tt">MeshLibDist_&lt;version&gt;-IteratorDebug.zip</span> and define <b>both</b> <span class="tt">_ITERATOR_DEBUG_LEVEL</span> and <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> to <span class="tt">2</span> — defining only the first one is what triggers the error.  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Windows, from source  </td><td class="markdownTableBodyNone"><span class="tt">thirdparty\install.bat</span> finishes, but the Visual Studio solution cannot find the third-party headers and libraries.  </td><td class="markdownTableBodyNone"><span class="tt">VCPKG_DEFAULT_TRIPLET</span> was not set, so vcpkg installed the plain <span class="tt">x64-windows</span> triplet instead of MeshLib's triplet with its port overlays.  </td><td class="markdownTableBodyNone">Set <span class="tt">VCPKG_DEFAULT_TRIPLET=x64-windows-vs2019-meshlib</span> (VS 2019) or <span class="tt">x64-windows-vs2022-meshlib</span> (VS 2022) in the environment and rerun the script — see step 4 of <a class="el" href="#CppSetupWindowsLocalBuild">Installing the local build</a>.  </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Linux, macOS, WASM (consuming an installed MeshLib)  </td><td class="markdownTableBodyNone"><span class="tt">MRMeshFwd.h:70:10: fatal error: parallel_hashmap/phmap_fwd_decl.h: No such file or directory</span>  </td><td class="markdownTableBodyNone">MeshLib's public headers include third-party headers, and <span class="tt">${MESHLIB_THIRDPARTY_INCLUDE_DIR}</span> is missing from your target's include directories.  </td><td class="markdownTableBodyNone">Add it next to <span class="tt">${MESHLIB_INCLUDE_DIR}</span>: <span class="tt">target_include_directories(${TARGET} PUBLIC ${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</span>. See <a class="el" href="MeshLibCmakeSetupGuide.html">MeshLib CMake Setup Guide</a> and <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples/cpp-examples/CMakeLists.txt</a>.  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">macOS  </td><td class="markdownTableBodyNone">CMake configuration fails inside <span class="tt">MRMeshConfig.cmake</span> with <span class="tt">find_dependency</span>: <span class="tt">Could NOT find Boost (missing: Boost_INCLUDE_DIR)</span> (Boost is just the first of several such dependencies).  </td><td class="markdownTableBodyNone">The Homebrew requirements were never installed — the <span class="tt">.pkg</span> installer does not pull them in.  </td><td class="markdownTableBodyNone"><span class="tt">xargs brew install &lt; /opt/meshlib/requirements/macos.txt</span>  </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">WASM  </td><td class="markdownTableBodyNone"><span class="tt">build_thirdparty.sh</span> or <span class="tt">build_source.sh</span> silently produces a native build although Emscripten was selected.  </td><td class="markdownTableBodyNone">The prompt is a <span class="tt">read -t 5</span>: with no keypress within five seconds it falls back to <span class="tt">OFF</span>. Each script asks separately, so the two can disagree.  </td><td class="markdownTableBodyNone">Skip the prompt entirely — <span class="tt">export MR_EMSCRIPTEN=ON</span> once, before running <b>both</b> scripts. Each script prints its resolved mode (<span class="tt">Emscripten ON …</span>); check that line before waiting on a long build.  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">WASM, runtime  </td><td class="markdownTableBodyNone"><span class="tt">SharedArrayBuffer is not defined</span> in the browser console.  </td><td class="markdownTableBodyNone">The page is served without the cross-origin isolation headers that the multithreaded build needs for shared memory.  </td><td class="markdownTableBodyNone">Serve with <span class="tt">Cross-Origin-Embedder-Policy: require-corp</span> and <span class="tt">Cross-Origin-Opener-Policy: same-origin</span> — see <a class="el" href="#CppSetupWASMRun">Running the WebAssembly Build</a>.  </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Any, runtime  </td><td class="markdownTableBodyNone"><span class="tt">glfw_error_callback: X11: The DISPLAY environment variable is missing</span>, then <span class="tt">glfwInit failed</span>.  </td><td class="markdownTableBodyNone"><span class="tt">MeshViewer</span> was started without a graphical session. Expected over plain SSH or on a headless server — not a broken installation.  </td><td class="markdownTableBodyNone">Open a desktop session, or run under a virtual display the way MeshLib CI does: <span class="tt">xvfb-run -a MeshViewer -hidden -noEventLoop -unloadPluginsAtEnd</span>  </td></tr>
-</table>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
-Where the logs are</h3>
-<ul>
-<li><b>Runtime.</b> <span class="tt">MeshViewer</span> writes a log per run to <span class="tt">&lt;system temp&gt;/MeshLib/Logs/MRLog_&lt;YYYY-MM-DD_HH-MM-SS&gt;_&lt;pid&gt;.txt</span> — <span class="tt">/tmp/MeshLib/Logs/</span> on Linux, <span class="tt">TEMP%\MeshLib\Logs\</span> on Windows, <span class="tt">$TMPDIR/MeshLib/Logs/</span> on macOS. The exact path is printed on startup as a <span class="tt">Log file: …</span> line, which is the reliable way to find it. Logs older than 24 hours are deleted at startup, so collect the file before the next run.</li>
-<li><b>Third-party build.</b> <span class="tt">scripts/build_thirdparty.sh</span> writes <span class="tt">install_thirdparty_&lt;dd-mm-YYYY_HH:MM:SS&gt;.log</span> in the current directory and announces it on its second line of output (<span class="tt">You could find output in …</span>). The console shows only a fraction of the output; the failing compiler invocation is in that file.</li>
-</ul>
-<p>Anything not listed here: please open an issue at <a href="https://github.com/MeshInspector/MeshLib/issues">MeshLib Issues</a>, attaching the relevant log above. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
