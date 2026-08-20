@@ -171,22 +171,22 @@ $(function(){initNavTree('MeshLibJsSetupGuide.html','',''); });
         </ul>
       </li>
       <li class="level2">
-        <a href="#JsMtCrossOriginIsolation">Cross-Origin Isolation for the Multi-Threaded Build in the Browser </a>
+        <a href="#autotoc_md141">Cross-Origin Isolation for the Multi-Threaded Build </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md141">Getting Started: Your First Example </a>
+        <a href="#autotoc_md142">Getting Started: Your First Example </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md142">TypeScript </a>
+        <a href="#autotoc_md143">TypeScript </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md143">Memory Management </a>
+        <a href="#autotoc_md144">Memory Management </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md144">Try Interactive MeshLib Examples </a>
+        <a href="#autotoc_md145">Try Interactive MeshLib Examples </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md145">Try MeshLib with JavaScript Examples </a>
+        <a href="#autotoc_md146">Try MeshLib with JavaScript Examples </a>
       </li>
     </ul>
   </li>
@@ -216,7 +216,7 @@ Choosing a Package: Single-Threaded or Multi-Threaded</h2>
 <li><span class="tt">@meshinspector/meshlib</span>: the single-threaded build. The simplest choice, and the right one for most applications.</li>
 <li><span class="tt">@meshinspector/meshlib-mt</span>: the multi-threaded build. It uses worker threads to parallelize geometry operations for higher throughput, and requires Node.js 21 or newer.</li>
 </ul>
-<p>The examples below use <span class="tt">@meshinspector/meshlib</span>. To use the multi-threaded build instead, install <span class="tt">@meshinspector/meshlib-mt</span> and change the import specifier; in Node.js nothing else changes. In the browser the page must additionally be <a class="el" href="#JsMtCrossOriginIsolation">cross-origin isolated</a>.</p>
+<p>The examples below use <span class="tt">@meshinspector/meshlib</span>. To use the multi-threaded build instead, install <span class="tt">@meshinspector/meshlib-mt</span> and change the import specifier; nothing else changes.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md138"></a>
 Installation</h2>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md139"></a>
@@ -229,24 +229,12 @@ Use from CDN</h3>
 <div class="line"> </div>
 <div class="line">// or pin a specific version</div>
 <div class="line">import createMeshLib from &#39;https://js.meshlib.io/meshlib@1.2.3/meshlib.mjs&#39;;</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="JsMtCrossOriginIsolation"></a>
-Cross-Origin Isolation for the Multi-Threaded Build in the Browser</h2>
-<p>This section applies to browsers only. In Node.js the multi-threaded build needs no headers, flags, or extra configuration.</p>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md141"></a>
+Cross-Origin Isolation for the Multi-Threaded Build</h2>
 <p>The multi-threaded package <span class="tt">@meshinspector/meshlib-mt</span> relies on <span class="tt">SharedArrayBuffer</span>, which browsers only enable on <b>cross-origin isolated</b> pages. The server that serves the page loading the module must send these headers: </p><div class="fragment"><div class="line">Cross-Origin-Opener-Policy: same-origin</div>
 <div class="line">Cross-Origin-Embedder-Policy: require-corp</div>
-</div><!-- fragment --><p>Without them <span class="tt">crossOriginIsolated</span> is <span class="tt">false</span>, <span class="tt">SharedArrayBuffer</span> is unavailable, and the module fails to initialize.</p>
-<p>For a Vite dev server, set the headers in <span class="tt">vite.config.js</span> (whatever hosts the production build must send them too; <span class="tt">vite-plugin-cross-origin-isolation</span> can stamp them for <span class="tt">vite preview</span>): </p><div class="fragment"><div class="line">// vite.config.js</div>
-<div class="line">export default {</div>
-<div class="line">  server: {</div>
-<div class="line">    headers: {</div>
-<div class="line">      &#39;Cross-Origin-Opener-Policy&#39;: &#39;same-origin&#39;,</div>
-<div class="line">      &#39;Cross-Origin-Embedder-Policy&#39;: &#39;require-corp&#39;,</div>
-<div class="line">    },</div>
-<div class="line">  },</div>
-<div class="line">};</div>
-</div><!-- fragment --><p>Where you cannot set response headers at all — GitHub Pages and similar static hosting — the usual workaround is a <span class="tt">coi-serviceworker</span>-style shim: a service worker that re-serves the page with the two headers and reloads it once. MeshLib's own <a href="https://demo.meshlib.io/">interactive demo</a> is hosted exactly this way.</p>
-<p>So on a page that is not cross-origin isolated you have three options: send the headers, install the service-worker shim, or use the single-threaded <span class="tt">@meshinspector/meshlib</span> package, which has no such requirement.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md141"></a>
+</div><!-- fragment --><p>Without them <span class="tt">SharedArrayBuffer</span> is unavailable and the module fails to initialize; use the single-threaded <span class="tt">@meshinspector/meshlib</span> package in that case.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md142"></a>
 Getting Started: Your First Example</h2>
 <p>The default export is an async factory. Await it once to get the module instance, then call MeshLib functions on it: </p><div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
@@ -268,14 +256,14 @@ Getting Started: Your First Example</h2>
 <div class="line"> </div>
 <div class="line">console.log(&#39;volume =&#39;, mesh.volume()); // ~8</div>
 </div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a current browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see the <b>Memory Management</b> section below).</dd></dl>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md142"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md143"></a>
 TypeScript</h2>
 <p>The package ships type definitions, so <span class="tt">createMeshLib</span> and the whole module API are typed with no extra setup: </p><div class="fragment"><div class="line">import createMeshLib, { type Mesh } from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
 <div class="line">const ml = await createMeshLib();</div>
 <div class="line">using mesh: Mesh = ml.Mesh.fromTriangles(coords, tris);</div>
 <div class="line">const { valid, distSq } = ml.findProjection(point, mesh);</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md143"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md144"></a>
 Memory Management</h2>
 <p>Values returned from the API (meshes, bit sets, settings, result objects, and so on) hold WebAssembly memory that the JavaScript garbage collector does not reclaim, so each one must be freed explicitly.</p>
 <p>The preferred way is JavaScript's explicit resource management: declare a handle with <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/using"><span class="tt">using</span></a> and it is freed automatically when its scope ends, even if an exception is thrown. </p><div class="fragment"><div class="line">using mesh = ml.Mesh.fromTriangles(coords, tris);</div>
@@ -289,10 +277,10 @@ Memory Management</h2>
 </div><!-- fragment --><p><span class="tt">using</span> and <span class="tt">DisposableStack</span> are part of JavaScript's Explicit Resource Management, available in Node.js 24+ and current browsers. On older runtimes and browsers, call <span class="tt">.delete()</span> on each object when you are done instead: </p><div class="fragment"><div class="line">const mesh = ml.Mesh.fromTriangles(coords, tris);</div>
 <div class="line">// ... use mesh</div>
 <div class="line">mesh.delete();</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md144"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md145"></a>
 Try Interactive MeshLib Examples</h2>
 <p>You can check how MeshLib works in a browser environment with live interactive examples: <a href="https://demo.meshlib.io/">https://demo.meshlib.io/</a></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md145"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md146"></a>
 Try MeshLib with JavaScript Examples</h2>
 <p>After installing MeshLib, a great way to start exploring its capabilities is through the code samples. Each of the following example pages includes a JavaScript tab:</p>
 <ul>
