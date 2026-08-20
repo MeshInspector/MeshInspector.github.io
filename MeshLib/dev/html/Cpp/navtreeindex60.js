@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1VoxelsSave.html#a46dba753c5d67dafa8e2ea47c0078657":[6,0,1,0,1,53,13],
+"namespaceMR_1_1VoxelsSave.html#a4761dc821789e8835fef765b78772f70":[6,0,1,0,1,53,6],
+"namespaceMR_1_1VoxelsSave.html#a506f7db9c23f93fe5586a3494d704abe":[6,0,1,0,1,53,23],
 "namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176":[6,0,1,0,1,53,1],
 "namespaceMR_1_1VoxelsSave.html#a56ebe06547e21b86384b5c3a557b9aa2":[6,0,1,0,1,53,7],
 "namespaceMR_1_1VoxelsSave.html#a718554fb1f1670650b40d39ce9a22541":[6,0,1,0,1,53,15],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7":[6,0,1,0,1,98,5],
 "structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7":[6,0,2,0,2,80,5],
 "structMR_1_1BooleanPreCutResult.html":[6,0,1,0,1,99],
-"structMR_1_1BooleanPreCutResult.html":[6,0,2,0,2,81],
-"structMR_1_1BooleanPreCutResult.html#ac3043629b51e619f82eddefaa9e678fb":[6,0,1,0,1,99,1],
-"structMR_1_1BooleanPreCutResult.html#ac3043629b51e619f82eddefaa9e678fb":[6,0,2,0,2,81,1],
-"structMR_1_1BooleanPreCutResult.html#afaca754878c1a03d1db3e1b2e6933dfc":[6,0,1,0,1,99,0]
+"structMR_1_1BooleanPreCutResult.html":[6,0,2,0,2,81]
 };

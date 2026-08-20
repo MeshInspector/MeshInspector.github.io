@@ -1,5 +1,8 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1TransparencyMode.html":[6,0,0,20,474],
+"structMR_1_1TriIntersectResult.html":[6,0,0,0,10,0],
+"structMR_1_1TriIntersectResult.html#a48df7c0ab186bb4fc08a19d5729ecf0d":[6,0,0,0,10,0,0],
 "structMR_1_1TriIntersectResult.html#afcfc8df6cc0634cb7eee48bd5186099f":[6,0,0,0,10,0,2],
 "structMR_1_1TriIntersectResult.html#afddaa2d62c7a7fcf3af2785e8551c268":[6,0,0,0,10,0,1],
 "structMR_1_1TriMesh.html":[6,0,0,20,509],
@@ -221,7 +224,7 @@ var NAVTREEINDEX68 =
 "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#aa5ab2cbeb1b2f73ba9d3a268be384ace":[6,0,0,1,18,0,1],
 "structMR_1_1Vector2.html":[6,0,0,0,12,0],
 "structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[6,0,0,0,12,0,41],
-"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[6,0,1,0,1,2858],
+"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[6,0,1,0,1,2859],
 "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[6,0,0,0,12,0,42],
 "structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b":[6,0,0,0,12,0,4],
 "structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[6,0,0,0,12,0,21],
@@ -246,8 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Vector2.html#a6deeb9fc80b0d29ccbfa306b2aa4a33b":[6,0,0,0,12,0,39],
 "structMR_1_1Vector2.html#a6f79f1540d91026fb17aebbcf6e6d9dc":[6,0,0,0,12,0,3],
 "structMR_1_1Vector2.html#a6ff45773ec0657ef8d168ab6b82400d2":[6,0,0,0,12,0,16],
-"structMR_1_1Vector2.html#a74579bfbb9d532d53c66684a02dc8cb5":[6,0,0,0,12,0,0],
-"structMR_1_1Vector2.html#a7482d5a8c34fc5f6af7a5036b9d43c1c":[6,0,0,0,12,0,14],
-"structMR_1_1Vector2.html#a7538b7a66163ad22feec74b78c40f5b5":[6,0,0,0,12,0,36],
-"structMR_1_1Vector2.html#a7be48c5d4180d89d8038acede661911e":[6,0,0,0,12,0,20]
+"structMR_1_1Vector2.html#a74579bfbb9d532d53c66684a02dc8cb5":[6,0,0,0,12,0,0]
 };

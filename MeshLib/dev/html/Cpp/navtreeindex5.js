@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"MRRibbonNotification_8h.html":[6,0,3,0,11,103],
+"MRRibbonNotification_8h_source.html":[6,0,3,0,11,103],
 "MRRibbonRegisterItem_8h.html":[6,0,3,0,11,104],
 "MRRibbonRegisterItem_8h_source.html":[6,0,3,0,11,104],
 "MRRibbonSceneButtons_8h.html":[6,0,3,0,1,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "MRUnifiedPythonStream_8h.html":[6,0,3,0,9,2],
 "MRUnifiedPythonStream_8h_source.html":[6,0,3,0,9,2],
 "MRUniformSampling_8h.html":[6,0,3,0,7,416],
-"MRUniformSampling_8h_source.html":[6,0,3,0,7,416],
-"MRUnionFindParallel_8h.html":[6,0,3,0,7,418],
-"MRUnionFindParallel_8h_source.html":[6,0,3,0,7,418]
+"MRUniformSampling_8h_source.html":[6,0,3,0,7,416]
 };

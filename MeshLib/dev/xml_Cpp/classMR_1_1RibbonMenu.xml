@@ -75,6 +75,7 @@
       <member refid="group__GeneralGroup_1ga42ad9dbceb71795dfcc7faec3a4fada5" kind="function"><name>hasActiveBlockingItem</name></member>
       <member refid="group__GeneralGroup_1ga031930c9c0f444b92a9252828cfa3ef4" kind="function"><name>hasAnyActiveItem</name></member>
       <member refid="group__GeneralGroup_1gaaec9315cca701ab9b19f7b0a91be57cc" kind="function"><name>updateItemStatus</name></member>
+      <member refid="group__GeneralGroup_1ga679202a040b1efeffe5b16e981750521" kind="function"><name>addRibbonItemShortcut</name></member>
       <member refid="group__GeneralGroup_1gaf87aa13ddadb0bc96103d7ce892a88b9" kind="function"><name>getActiveTabIndex</name></member>
       <member refid="group__GeneralGroup_1gaafbb9fbb81efc86a0331f89e181268cb" kind="function"><name>getFontManager</name></member>
       <member refid="group__GeneralGroup_1gae0840c947fea974de909fbaee8e7829e" kind="function"><name>getRibbonButtonDrawer</name></member>
@@ -119,7 +120,6 @@
       <member refid="group__GeneralGroup_1ga6f64b502d9c3db06776ce08541d30171" kind="function"><name>drawRibbonSceneInformation_</name></member>
       <member refid="group__GeneralGroup_1gaf44199b5b50359aea5672a4fe6fc15b6" kind="function"><name>drawCollapsingHeaderTransform_</name></member>
       <member refid="group__GeneralGroup_1gaa2726e1e9c7a515f4e7d7bb6ab68a8bd" kind="function"><name>drawTransformContextMenu_</name></member>
-      <member refid="group__GeneralGroup_1ga79d934454b70a10bf9d496eac45c9444" kind="function"><name>addRibbonItemShortcut_</name></member>
       <member refid="group__GeneralGroup_1gaeb41176e7a133b557b1a998b93368f61" kind="function"><name>setupShortcuts_</name></member>
       <member refid="group__GeneralGroup_1gada14d714cf73f7b3a65778f2f5a991e0" kind="function"><name>drawShortcutsWindow_</name></member>
       <member refid="group__GeneralGroup_1gad39ad3ddc0ea7d5a0753e66b37c8a6e7" kind="function"><name>readMenuItemsStructure_</name></member>
@@ -274,7 +274,7 @@
         <label>boost::signals2::signal&lt; void(std::shared_ptr&lt; MR::RibbonMenuItem &gt;) &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRRibbonMenu.h" line="26" column="1" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="27" bodyend="318"/>
+    <location file="MRViewer/MRRibbonMenu.h" line="26" column="1" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="27" bodyend="320"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2f639a83635dfb22ba89545a6dc9d85e" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeBlockingItem_</name></member>
       <member refid="group__GeneralGroup_1ga9de4fc9facc10e4a60cdd6140d8128b6" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeListPos_</name></member>
@@ -282,7 +282,7 @@
       <member refid="group__GeneralGroup_1gacf628a7bb9081d2c4b3d3405e96e85b4" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeNonBlockingItems_</name></member>
       <member refid="group__GeneralGroup_1gade2a48eec1124ec87a78f013122f2ba1" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeTabIndex_</name></member>
       <member refid="group__GeneralGroup_1ga2839644d95083c59b3090076cb25f5b9" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>add_modifier</name></member>
-      <member refid="group__GeneralGroup_1ga79d934454b70a10bf9d496eac45c9444" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>addRibbonItemShortcut_</name></member>
+      <member refid="group__GeneralGroup_1ga679202a040b1efeffe5b16e981750521" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>addRibbonItemShortcut</name></member>
       <member refid="group__GeneralGroup_1ga611b911703b3f2680587e49eae9cdafc" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>allowObjectsRemoval</name></member>
       <member refid="group__GeneralGroup_1gacdcda8b2bba5f78579846e3596ab3c42" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>allowRemoval_</name></member>
       <member refid="group__GeneralGroup_1gacda74258f75623378ed69b6cf60a5711" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>allowSceneReorder</name></member>

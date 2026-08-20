@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"MRParallelProgressReporter_8h_source.html":[6,0,3,0,7,289],
+"MRParallel_8h.html":[6,0,3,0,7,286],
 "MRParallel_8h_source.html":[6,0,3,0,7,286],
 "MRPartMappingAdapters_8h.html":[6,0,3,0,7,292],
 "MRPartMappingAdapters_8h_source.html":[6,0,3,0,7,292],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "MRRibbonMenuUIConfig_8h.html":[6,0,3,0,11,102],
 "MRRibbonMenuUIConfig_8h_source.html":[6,0,3,0,11,102],
 "MRRibbonMenu_8h.html":[6,0,3,0,11,99],
-"MRRibbonMenu_8h_source.html":[6,0,3,0,11,99],
-"MRRibbonNotification_8h.html":[6,0,3,0,11,103],
-"MRRibbonNotification_8h_source.html":[6,0,3,0,11,103]
+"MRRibbonMenu_8h_source.html":[6,0,3,0,11,99]
 };

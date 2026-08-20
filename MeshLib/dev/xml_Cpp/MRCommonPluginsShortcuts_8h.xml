@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRCommonPluginsShortcuts_8h" kind="file" language="C++">
+    <compoundname>MRCommonPluginsShortcuts.h</compoundname>
+    <includes local="yes">MRCommonPlugins/exports.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRCommonPlugins/MRCommonPluginsShortcuts.h</label>
+        <link refid="MRCommonPluginsShortcuts_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCommonPlugins/exports.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRCommonPlugins/exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="group__GeneralGroup_1gaaf1b942a3a38255874216b2086b3dc3e" refkind="member"><highlight class="normal">MRCOMMONPLUGINS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaf1b942a3a38255874216b2086b3dc3e" kindref="member">setupCommonPluginsShortcuts</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MRCommonPlugins/MRCommonPluginsShortcuts.h"/>
+  </compounddef>
+</doxygen>

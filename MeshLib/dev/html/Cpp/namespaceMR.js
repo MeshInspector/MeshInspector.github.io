@@ -3375,6 +3375,7 @@ var namespaceMR =
     [ "setNewHandlerIfNeeded", "group__GeneralGroup.html#gacf82628c1b0f5d65b9b4e3f0f5bc93df", null ],
     [ "setTextureFilterType", "group__GeneralGroup.html#ga8dcd56fe27c91c37ab9c4426ba6e8bf9", null ],
     [ "setTextureWrapType", "group__GeneralGroup.html#gaed8079191a6bbed1f89a66fb15944c37", null ],
+    [ "setupCommonPluginsShortcuts", "group__GeneralGroup.html#gaaf1b942a3a38255874216b2086b3dc3e", null ],
     [ "setupLoggerByDefault", "group__GeneralGroup.html#ga4dd8859ebc257098d203f7a962a131bd", null ],
     [ "setValue", "group__BasicStructuresGroup.html#ga24e9cfbbad1dbef4e985c5351f7863fe", null ],
     [ "setValue", "group__BasicStructuresGroup.html#ga4b8a485f1c34582e929fb3123f84de8d", null ],

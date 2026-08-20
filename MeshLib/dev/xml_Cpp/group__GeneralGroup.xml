@@ -12112,7 +12112,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="297" column="5" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="298" bodyend="302"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="299" column="5" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="300" bodyend="304"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga1478e43a90bad95d9ef709807606688a" prot="public" static="no" strong="yes">
         <type></type>
@@ -19207,7 +19207,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="130" column="5" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="130" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="134" column="5" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gad0d582e1904c2ad88eee5f4bfe814f83" prot="protected" static="no">
         <type>std::vector&lt; DrawGroupConfig &gt;</type>
@@ -19221,7 +19221,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="164" column="5" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="164" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="168" column="5" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga8201e149aed09ff61bb82c538012fbd1" prot="public" static="no">
         <type>std::vector&lt; std::string &gt;</type>
@@ -57183,7 +57183,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="132" column="22" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="132" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="136" column="22" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="136" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacb4f5276bb05eca21c715df15a42b6e5" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -57198,7 +57198,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="160" column="13" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="160" bodyend="160"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="164" column="13" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="164" bodyend="164"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2c5115679d5b077be3479e377e7951b1" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -57213,7 +57213,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="161" column="13" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="161" bodyend="161"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="165" column="13" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="165" bodyend="165"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0b1bb44ee2f0cfdbab7b516b3ce2a6f8" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -57228,7 +57228,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="162" column="13" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="162" bodyend="162"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="166" column="13" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="166" bodyend="166"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaeb25a7d0ddadeeeda6f7ca36d711642b" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; RibbonMenuItem &gt;</type>
@@ -57242,7 +57242,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="186" column="25" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="186" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="190" column="25" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="190" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga81cacb5c7aa2d35d0b873c9a48145777" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -57258,7 +57258,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="188" column="14" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="188" bodyend="188"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="192" column="14" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="192" bodyend="192"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2f639a83635dfb22ba89545a6dc9d85e" prot="protected" static="no" mutable="no">
         <type>DialogItemPtr</type>
@@ -57272,7 +57272,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="190" column="19" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="190" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="194" column="19" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="194" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacf628a7bb9081d2c4b3d3405e96e85b4" prot="protected" static="no" mutable="no">
         <type>std::vector&lt; DialogItemPtr &gt;</type>
@@ -57286,7 +57286,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="191" column="17" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="191" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="195" column="17" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="195" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8d13b702d7c6dad7794328080b6562e0" prot="protected" static="no" mutable="no">
         <type>std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt;</type>
@@ -57300,7 +57300,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="217" column="17" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="217" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="219" column="17" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="219" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac86c4630adf085f601be813f0d81b827" prot="protected" static="no" mutable="no">
         <type>RibbonMenuSearch</type>
@@ -57314,7 +57314,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="260" column="22" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="260" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="262" column="22" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="262" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9de4fc9facc10e4a60cdd6140d8128b6" prot="private" static="no" mutable="no">
         <type>ImVec2</type>
@@ -57329,7 +57329,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="270" column="12" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="270" bodyend="270"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="272" column="12" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="272" bodyend="272"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga76f7a59ee445cafaae44e63de4b482d0" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -57344,7 +57344,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="271" column="10" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="271" bodyend="271"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="273" column="10" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="273" bodyend="273"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga230fe187c275ff7b61d5ca8f40d2088e" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -57358,7 +57358,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="277" column="17" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="277" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="279" column="17" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="279" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga45da65c950e713ce5c2d7a16d9460091" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -57373,7 +57373,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="279" column="9" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="279" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="281" column="9" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="281" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga529d097846dbeb6b6c920552ed4fdcc8" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -57388,7 +57388,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="280" column="9" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="280" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="282" column="9" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="282" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab36bd1545f96a4f5df1289ab88be741f" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -57403,7 +57403,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="281" column="9" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="281" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="283" column="9" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="283" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae386af7889ce33a8c3d0ceb71e1ca81c" prot="private" static="no" mutable="no">
         <type>ImVec2</type>
@@ -57418,7 +57418,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="283" column="12" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="283" bodyend="283"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="285" column="12" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="285" bodyend="285"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab3558b78d7b0ae1292fb5aee66287285" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -57433,7 +57433,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="284" column="11" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="284" bodyend="284"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="286" column="11" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="286" bodyend="286"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gadd021abfb6808482ea3aa86a8db32522" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -57448,7 +57448,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="285" column="11" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="285" bodyend="285"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="287" column="11" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="287" bodyend="287"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga031dbe6db3d3a3fb49fae05710bc724a" prot="private" static="no" mutable="no">
         <type>RibbonMenuUIConfig</type>
@@ -57462,7 +57462,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="287" column="24" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="287" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="289" column="24" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="289" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga429be394132a4217f60fe095ef658829" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -57478,7 +57478,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="290" column="11" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="290" bodyend="290"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="292" column="11" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="292" bodyend="292"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8bb8f40cba94a969573fe41fd42cc1cb" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -57494,7 +57494,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="293" column="11" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="293" bodyend="293"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="295" column="11" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="295" bodyend="295"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad2a4931d55215f901548e8c7a7fabf48" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -57509,7 +57509,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="295" column="10" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="295" bodyend="295"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="297" column="10" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="297" bodyend="297"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7490e418a373fbd6573c352908bfdad1" prot="private" static="no" mutable="no">
         <type>enum MR::RibbonMenu::CollapseState</type>
@@ -57523,7 +57523,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="302" column="41"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="304" column="41"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1b9011fe50941846005d4ee62a1b7e1e" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -57539,7 +57539,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="304" column="11" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="304" bodyend="304"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="306" column="11" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="306" bodyend="306"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0a63cb85d39c61c8d5ea0111658976ff" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -57554,7 +57554,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="305" column="11" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="305" bodyend="305"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="307" column="11" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="307" bodyend="307"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gade2a48eec1124ec87a78f013122f2ba1" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -57569,7 +57569,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="307" column="9" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="307" bodyend="307"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="309" column="9" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="309" bodyend="309"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf5677bcbb4776e2670fad996581794b9" prot="private" static="no" mutable="no">
         <type>RibbonFontManager</type>
@@ -57583,7 +57583,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="308" column="23" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="308" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="310" column="23" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="310" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaeda8867e04b01d5338a6eda930065060" prot="private" static="no" mutable="no">
         <type>RibbonButtonDrawer</type>
@@ -57597,7 +57597,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="309" column="24" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="309" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="311" column="24" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="311" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaef895921e09dfff59ed30263ab3353f0" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; std::string, CustomContextMenuCheckbox &gt;</type>
@@ -57611,7 +57611,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="311" column="24" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="311" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="313" column="24" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="313" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga943f8a972e6fd6e1c85ceed8a570dd03" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; Toolbar &gt;</type>
@@ -57625,7 +57625,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="313" column="21" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="313" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="315" column="21" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="315" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae3cde2b3ee8000617184405042f8407f" prot="private" static="no" mutable="no">
         <type>RibbonNotifier</type>
@@ -57639,7 +57639,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="314" column="20" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="314" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="316" column="20" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="316" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga094dbe3390138c463d3267a16e4c4486" prot="private" static="no" mutable="no">
         <type>AsyncRequest</type>
@@ -57653,7 +57653,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="316" column="18" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="316" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="318" column="18" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="318" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" static="no" mutable="no">
         <type>RibbonItemType</type>
@@ -74750,6 +74750,21 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <inbodydescription>
         </inbodydescription>
         <location file="MRCommonPlugins/Basic/MRMoveObjectByMouse.h" line="48" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaaf1b942a3a38255874216b2086b3dc3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCOMMONPLUGINS_API void</type>
+        <definition>MRCOMMONPLUGINS_API void MR::setupCommonPluginsShortcuts</definition>
+        <argsstring>()</argsstring>
+        <name>setupCommonPluginsShortcuts</name>
+        <qualifiedname>MR::setupCommonPluginsShortcuts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>binds default keyboard shortcuts to the ribbon items registered by this library; shall be called by an application after the menu initialization, since MRViewer knows nothing about these items </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/MRCommonPluginsShortcuts.h" line="13" column="26" declfile="MRCommonPlugins/MRCommonPluginsShortcuts.h" declline="13" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf233d2ee48f41e6835cdf6896f6c9676" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -171272,6 +171287,33 @@ returns true if load was succeed </para>
         </inbodydescription>
         <location file="MRViewer/MRRibbonMenu.h" line="98" column="11"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga679202a040b1efeffe5b16e981750521" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::RibbonMenu::addRibbonItemShortcut</definition>
+        <argsstring>(const std::string &amp;itemName, const ShortcutKey &amp;key, ShortcutCategory category)</argsstring>
+        <name>addRibbonItemShortcut</name>
+        <qualifiedname>MR::RibbonMenu::addRibbonItemShortcut</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>itemName</declname>
+        </param>
+        <param>
+          <type>const ShortcutKey &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>ShortcutCategory</type>
+          <declname>category</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>binds given key to the ribbon item with given name; the items of other libraries shall be bound by them, e.g. see <ref refid="MRCommonPluginsShortcuts_8h" kindref="compound">MRCommonPlugins/MRCommonPluginsShortcuts.h</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRRibbonMenu.h" line="102" column="19"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf87aa13ddadb0bc96103d7ce892a88b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
         <definition>int MR::RibbonMenu::getActiveTabIndex</definition>
@@ -171285,7 +171327,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="101" column="9" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="101" bodyend="101"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="105" column="9" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="105" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaafbb9fbb81efc86a0331f89e181268cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>RibbonFontManager &amp;</type>
@@ -171300,7 +171342,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="105" column="23" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="105" bodyend="105"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="109" column="23" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="109" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae0840c947fea974de909fbaee8e7829e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>RibbonButtonDrawer &amp;</type>
@@ -171315,7 +171357,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="108" column="24" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="108" bodyend="108"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="112" column="24" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="112" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaccfa4d95ab6fdfea5313e29cf32417bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Toolbar &amp;</type>
@@ -171330,7 +171372,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="111" column="13" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="111" bodyend="111"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="115" column="13" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="115" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab0cfd87f2c0b8073dbdd093be4e7eb2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>RibbonNotifier &amp;</type>
@@ -171345,7 +171387,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="114" column="20" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="114" bodyend="114"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="118" column="20" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="118" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga175b4ff452a54f2c42cf45767732d435" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -171363,7 +171405,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="116" column="10" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="116" bodyend="116"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="120" column="10" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="120" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0fb26215796f94ee53da988ac6bf07e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -171378,7 +171420,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="119" column="10" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="119" bodyend="119"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="123" column="10" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="123" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga03a66144cc6fd6086f2415c0771f77c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171397,7 +171439,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="123" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="127" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7cd1fc5dfd754ee177038764c561b4e7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -171416,7 +171458,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="126" column="18"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="130" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab5b052ec6789461c1a663d980e713dc5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -171435,7 +171477,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="128" column="18"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="132" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4cce1421ecc6e05c9d0f5dc3d5a8c74f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -171450,7 +171492,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="135" column="10" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="135" bodyend="135"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="139" column="10" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="139" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa5c9439e803a30622f7ecfeee5e7091d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -171469,7 +171511,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="137" column="10" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="137" bodyend="137"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="141" column="10" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="141" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae8f7513715e9612b9c4a4e5b9005382c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const RibbonMenuUIConfig &amp;</type>
@@ -171484,7 +171526,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="140" column="30" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="140" bodyend="140"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="144" column="30" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="144" bodyend="144"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2e0e64ae88df532b929240d2dc96dae7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171502,7 +171544,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="141" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="145" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1cf2af4dc1d82b20087764071b206770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -171521,7 +171563,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="144" column="10"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="148" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabfc163ec42e5bf049a816c152460856e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -171539,7 +171581,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="145" column="10"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="149" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac152da8bac9875d752a7d081e66ebc44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -171557,7 +171599,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="146" column="10"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="150" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaca1d176aa04db7ea2b5d342cb0b102ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -171579,7 +171621,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="147" column="10"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="151" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga18077dcd5d907b01b628b87a176caf7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -171597,7 +171639,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="148" column="10"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="152" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad91246c3334e9c7beaf92098272f9e4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -171615,7 +171657,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="149" column="10"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="153" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8847593f96b03320cb7aa6238bd80840" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171634,7 +171676,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="152" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="156" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadfe6488e12a17503ecb61646d6d1ffee" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171665,7 +171707,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="154" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="158" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa89b235a0b6311d96878aa3c0e382685" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>DrawTabConfig</type>
@@ -171692,7 +171734,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="166" column="28"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="170" column="28"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad7d9295ca17fa6b2ad70f38e446f1a39" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171718,7 +171760,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="167" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="171" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3950b826a8f691b3eff7774404b542fe" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171744,7 +171786,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="168" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="172" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8aae0d64e5c1c2cbcc6a5872cb4ef398" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -171768,7 +171810,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="173" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="177" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9c9003c68902c2041671b10f2edd1124" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::string</type>
@@ -171787,7 +171829,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="176" column="26"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="180" column="26"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga246ecca4869dd49f888d3e5e89cf45dc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171801,7 +171843,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="178" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="182" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga618b5720b99617d0c2b16bc74af52f59" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171815,7 +171857,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="179" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="183" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0ac16257723f6889891f4d49cf141448" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171839,7 +171881,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="181" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="185" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac8a9daaf37740b27fbad5e4210fbe8f2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171862,7 +171904,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="182" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="186" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga119617e36f901716754f5ab0ed69d477" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171880,7 +171922,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="192" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="196" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac7a1a5baa47db0d568892e7b60194373" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171905,7 +171947,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="195" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="199" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7da76234bed7d0e9a87eface7f4f362b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171920,7 +171962,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="197" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="201" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafc2a7ab075bc3d1cd346a1bb665dcaaf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>Vector2f</type>
@@ -171935,7 +171977,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="200" column="23"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="204" column="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacb89c437b79fea69c14fef598c252f1e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171950,7 +171992,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="202" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="206" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6f64b502d9c3db06776ce08541d30171" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -171968,7 +172010,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="204" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="208" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf44199b5b50359aea5672a4fe6fc15b6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -171984,7 +172026,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="206" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="210" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa2726e1e9c7a515f4e7d7bb6ab68a8bd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -172003,33 +172045,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="207" column="19"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga79d934454b70a10bf9d496eac45c9444" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::RibbonMenu::addRibbonItemShortcut_</definition>
-        <argsstring>(const std::string &amp;itemName, const ShortcutKey &amp;key, ShortcutCategory category)</argsstring>
-        <name>addRibbonItemShortcut_</name>
-        <qualifiedname>MR::RibbonMenu::addRibbonItemShortcut_</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>itemName</declname>
-        </param>
-        <param>
-          <type>const ShortcutKey &amp;</type>
-          <declname>key</declname>
-        </param>
-        <param>
-          <type>ShortcutCategory</type>
-          <declname>category</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="209" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="211" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaeb41176e7a133b557b1a998b93368f61" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172044,7 +172060,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="211" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="213" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gada14d714cf73f7b3a65778f2f5a991e0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172060,7 +172076,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="213" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="215" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad39ad3ddc0ea7d5a0753e66b37c8a6e7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172075,7 +172091,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="215" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="217" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga815502fe0b821688422b2343ac3d5d44" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -172101,7 +172117,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="219" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="221" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadc2e6d783287314d50bb22f9faf7ef19" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172115,7 +172131,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="221" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="223" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa19ff3fee339322b45c1835f27d32cc6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172130,7 +172146,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="224" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="226" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae9a5dc4a0c9205ada1c5d61dc3da470a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172153,7 +172169,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="227" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="229" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaaddcc865ad29d261b66c0e67f27afa8b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -172168,7 +172184,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="230" column="11"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="232" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7f1b5f4fa4b7b3a7fd3b7db9d719c06e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172183,7 +172199,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="233" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="235" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga11d89540be0b93979eb3a149d3b93561" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172202,7 +172218,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="236" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="238" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadcb687fa96fb30685d93179d665c5871" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172217,7 +172233,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="239" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="241" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf10f4427510ce144c81e27dd01baa682" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>float</type>
@@ -172242,7 +172258,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="247" column="20"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="249" column="20"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3e72e870d1d2b7b308bcc94655f1c4b1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172261,7 +172277,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="250" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="252" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7c4b296fb57d379496cd27b1601fb170" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172276,7 +172292,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="252" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="254" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf04c88a23791c49ad47705242104035f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172291,7 +172307,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="254" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="256" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf68270516c99906cb35ed45c977fd2cd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172310,7 +172326,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="256" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="258" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1e16f5cce1dd7483c7ad9a0dc0b1bf5a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -172325,7 +172341,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="258" column="19"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="260" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae0bfe34e5c35fc0de2da68e440ccc904" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -172343,7 +172359,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="263" column="10"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="265" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5ccd24b000bbc0b039ffa0d64d0d58e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -172361,7 +172377,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="265" column="10"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="267" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac2b0a4ece891ff060bed7ecf57645b01" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -172376,7 +172392,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="268" column="10"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="270" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga507633033ab9a43b99eadcd8df8aac7e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -172390,7 +172406,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="273" column="10"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="275" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab1c3276976baf58b98027bcd729eb536" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -172404,7 +172420,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="274" column="10"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="276" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga74de55fb9baffb8d206a32782cf194b2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -172426,7 +172442,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="275" column="10"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="277" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadcdc732c133f1263ac39e56256972ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -172445,7 +172461,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonMenu.h" line="321" column="7" declfile="MRViewer/MRRibbonMenu.h" declline="321" declcolumn="7"/>
+        <location file="MRViewer/MRRibbonMenu.h" line="323" column="7" declfile="MRViewer/MRRibbonMenu.h" declline="323" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

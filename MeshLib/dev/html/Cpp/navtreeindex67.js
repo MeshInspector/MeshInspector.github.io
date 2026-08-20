@@ -1,5 +1,8 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[6,0,0,1,10],
+"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[6,0,0,1,10,0],
+"structMR_1_1Polynomial.html":[6,0,0,20,121],
 "structMR_1_1PolynomialWrapper.html":[6,0,0,20,122],
 "structMR_1_1PositionVertsSmoothlyParams.html":[6,0,0,20,452],
 "structMR_1_1PositionedText.html":[6,0,0,20,451],
@@ -246,8 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1TouchpadZoomGestureUpdateListener.html":[6,0,0,20,807],
 "structMR_1_1TransformControls_1_1VisualParams.html":[6,0,0,20,615],
 "structMR_1_1TransformVdbVolumeResult.html":[6,0,0,20,892],
-"structMR_1_1TransformedMesh.html":[6,0,0,20,326],
-"structMR_1_1TransparencyMode.html":[6,0,0,20,474],
-"structMR_1_1TriIntersectResult.html":[6,0,0,0,10,0],
-"structMR_1_1TriIntersectResult.html#a48df7c0ab186bb4fc08a19d5729ecf0d":[6,0,0,0,10,0,0]
+"structMR_1_1TransformedMesh.html":[6,0,0,20,326]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"MRUnionFindParallel_8h.html":[6,0,3,0,7,418],
+"MRUnionFindParallel_8h_source.html":[6,0,3,0,7,418],
 "MRUnionFind_8h.html":[6,0,3,0,7,417],
 "MRUnionFind_8h_source.html":[6,0,3,0,7,417],
 "MRUniquePtr_8h.html":[6,0,3,0,7,419],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "classMR_1_1BitSet.html#aadab48850b173a8c3542b620d35b4960":[6,0,0,3,3,59],
 "classMR_1_1BitSet.html#ab21cd56d68b78fe434b450e0edbc8a52":[6,0,0,3,3,44],
 "classMR_1_1BitSet.html#ab3c6d3157f3b02affcf7def04eb60c31":[6,0,0,3,3,21],
-"classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24":[6,0,0,3,3,8],
-"classMR_1_1BitSet.html#abc2f39f61e481d944fd1fe7966932025":[6,0,0,3,3,31],
-"classMR_1_1BitSet.html#abc51849e29c44edfdbf413c84b74f4c6":[6,0,0,3,3,47]
+"classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24":[6,0,0,3,3,8]
 };
