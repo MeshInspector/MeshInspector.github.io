@@ -168,6 +168,9 @@ $(function(){initNavTree('MeshLibJsSetupGuide.html','',''); });
           <li class="level3">
             <a href="#autotoc_md140">Use from CDN </a>
           </li>
+          <li class="level3">
+            <a href="#MeshLibJsPayloadSize">Payload Size </a>
+          </li>
         </ul>
       </li>
       <li class="level2">
@@ -229,6 +232,17 @@ Use from CDN</h3>
 <div class="line"> </div>
 <div class="line">// or pin a specific version</div>
 <div class="line">import createMeshLib from &#39;https://js.meshlib.io/meshlib@1.2.3/meshlib.mjs&#39;;</div>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="MeshLibJsPayloadSize"></a>
+Payload Size</h3>
+<p>MeshLib is a WebAssembly build of the full geometry library, so a browser downloads roughly <b>11 MB of wasm, about 3 MB gzipped over the wire</b>, before the first geometry call. <span class="tt">@meshinspector/meshlib-mt</span> is the same order of magnitude.</p>
+<p>Two consequences for a browser application:</p>
+<ul>
+<li>The <span class="tt">.wasm</span> is a sidecar file fetched as a <b>second request</b>, separate from the <span class="tt">.mjs</span> module. Serve it as <span class="tt">application/wasm</span> with compression enabled, or the download is several times larger than it needs to be.</li>
+<li><span class="tt">npm install</span> unpacks about 21 MB, because the browser and the Node.js wasm ship side by side in one package. Only one of them ever reaches the browser; the rest is bundler input, not payload.</li>
+</ul>
+<p>If the geometry is not needed on first paint, load the module lazily instead of at the top level, so the wasm download does not block startup: </p><div class="fragment"><div class="line">// load MeshLib only when the user actually needs geometry</div>
+<div class="line">const { default: createMeshLib } = await import(&#39;@meshinspector/meshlib&#39;);</div>
+<div class="line">const ml = await createMeshLib();</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="JsMtCrossOriginIsolation"></a>
 Cross-Origin Isolation for the Multi-Threaded Build in the Browser</h2>
 <p>This section applies to browsers only. In Node.js the multi-threaded build needs no headers, flags, or extra configuration.</p>
@@ -267,7 +281,9 @@ Getting Started: Your First Example</h2>
 <div class="line">using mesh = ml.Mesh.fromTriangles(coords, tris);</div>
 <div class="line"> </div>
 <div class="line">console.log(&#39;volume =&#39;, mesh.volume()); // ~8</div>
-</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a current browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see the <b>Memory Management</b> section below).</dd></dl>
+</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>This example loads the module at the top level, which downloads the wasm on startup. In the browser, consider the lazy alternative in <a class="el" href="#MeshLibJsPayloadSize">Payload Size</a>.</dd>
+<dd>
+The <span class="tt">using</span> declaration requires Node.js 24+ or a current browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see the <b>Memory Management</b> section below).</dd></dl>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md142"></a>
 TypeScript</h2>
 <p>The package ships type definitions, so <span class="tt">createMeshLib</span> and the whole module API are typed with no extra setup: </p><div class="fragment"><div class="line">import createMeshLib, { type Mesh } from &#39;@meshinspector/meshlib&#39;;</div>
