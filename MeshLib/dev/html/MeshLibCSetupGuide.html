@@ -234,10 +234,15 @@ Linux (Ubuntu/Fedora)</h3>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
 macOS</h3>
 <ol type="1">
-<li><b>Download the Built Version</b> <br  />
- Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> and download the latest macOS built version.</li>
-<li><b>Install Using macOS Installer</b><ul>
-<li>Double-click the <span class="tt">.pkg</span> file included in the downloaded package, and follow the instructions to complete the installation.</li>
+<li><b>Download the Installer</b> <br  />
+ Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page and download the <span class="tt">.pkg</span> for your CPU (run <span class="tt">uname -m</span> if you are unsure):<ul>
+<li>Apple silicon (M-series, <span class="tt">arm64</span>): <span class="tt">meshlib_&lt;version&gt;_arm64.pkg</span></li>
+<li>Intel (<span class="tt">x86_64</span>): <span class="tt">meshlib_&lt;version&gt;_x64.pkg</span></li>
+</ul>
+</li>
+<li><b>Install</b><ul>
+<li>Double-click the downloaded <span class="tt">.pkg</span> and follow the installer. The release asset is the installer itself, so there is nothing to unpack first.</li>
+<li>The framework is installed into <span class="tt">/Library/Frameworks/MeshLib.framework</span>, or into <span class="tt">~/Library/Frameworks/MeshLib.framework</span> if you choose to install for the current user only.</li>
 <li><b>Install Dependencies via Homebrew</b> <br  />
  Open Terminal and run the following command: <div class="fragment"><div class="line">xargs brew install &lt; /opt/meshlib/requirements/macos.txt</div>
 </div><!-- fragment --></li>
