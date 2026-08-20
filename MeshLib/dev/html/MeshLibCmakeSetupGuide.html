@@ -164,10 +164,7 @@ $(function(){initNavTree('MeshLibCmakeSetupGuide.html','',''); });
             <a href="#autotoc_md21">Link the MeshLib Libraries </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md22">A Complete Minimal Example </a>
-          </li>
-          <li class="level3">
-            <a href="#autotoc_md23">Linking Additional Third-Party Libraries </a>
+            <a href="#autotoc_md22">Find Third-Party Dependencies </a>
           </li>
         </ul>
       </li>
@@ -193,11 +190,10 @@ Find MeshLib CMake Configuration Files</h3>
 <p>For a start, find the MeshLib package: </p><div class="fragment"><div class="line">find_package(MeshLib CONFIG REQUIRED)</div>
 </div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
 Include the MeshLib Headers</h3>
-<p>Add <b>both</b> include directories from the installed MeshLib package to your project. In your CMake configuration (<span class="tt">CMakeLists.txt</span>): </p><div class="fragment"><div class="line">include_directories(${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
+<p>Ensure that the <span class="tt">include</span> directory from the installed MeshLib package is added to your project's include directories. In your CMake configuration (<span class="tt">CMakeLists.txt</span>), add: </p><div class="fragment"><div class="line">include_directories(${MESHLIB_INCLUDE_DIR})</div>
 <div class="line"># or</div>
-<div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
-</div><!-- fragment --><p><span class="tt">MESHLIB_THIRDPARTY_INCLUDE_DIR</span> is required, not optional: MeshLib's public headers include third-party headers directly — <span class="tt">MRMesh/MRMeshFwd.h</span>, pulled in by essentially every MeshLib header, includes <span class="tt">&lt;parallel_hashmap/phmap_fwd_decl.h&gt;</span>. Without it even a hello-world fails to compile.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
+<div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_INCLUDE_DIR})</div>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
 Link the MeshLib Libraries</h3>
 <p>Specify which MeshLib libraries to link with your project: </p><div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MRMesh)</div>
 <div class="line"># if you want to use viewer libraries</div>
@@ -205,24 +201,11 @@ Link the MeshLib Libraries</h3>
 </div><!-- fragment --><p>Or if you use the C API, instead link <span class="tt">MeshLib::MeshLibC2</span>:</p>
 <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
 </div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
-A Complete Minimal Example</h3>
-<p>Putting the steps above together, this is a complete <span class="tt">CMakeLists.txt</span> that compiles, links and runs a program including <span class="tt">&lt;MRMesh/MRMesh.h&gt;</span>. Nothing from the sections below is needed:</p>
-<div class="fragment"><div class="line">cmake_minimum_required(VERSION 3.18)</div>
-<div class="line">set(CMAKE_CXX_STANDARD 20)</div>
-<div class="line">set(CMAKE_CXX_STANDARD_REQUIRED ON)</div>
-<div class="line">project(hello CXX)</div>
-<div class="line"> </div>
-<div class="line">find_package(MeshLib CONFIG REQUIRED)</div>
-<div class="line"> </div>
-<div class="line">add_executable(hello main.cpp)</div>
-<div class="line">target_include_directories(hello PUBLIC ${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
-<div class="line">target_link_libraries(hello PUBLIC MeshLib::MRMesh)</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
-Linking Additional Third-Party Libraries</h3>
-<p>Only if <b>your</b> <b>own</b> code links a third-party library bundled with MeshLib (rather than just using MeshLib's API), add the directory those libraries live in:</p>
-<div class="fragment"><div class="line">target_link_directories(your_project_name PUBLIC ${MESHLIB_THIRDPARTY_LIB_DIR})</div>
-</div><!-- fragment --><p>The <span class="tt">MeshLib::*</span> imported targets already carry the paths of the third-party libraries <b>they</b> need, so this line is not required by the example above. See the <span class="tt">CMakeLists.txt</span> in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> for a working configuration. </p>
-</div></div><!-- contents -->
+Find Third-Party Dependencies</h3>
+<p>MeshLib have extended functionality that may have additional dependencies that need to be linked. Check the example <span class="tt">CMakeLists.txt</span> provided in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> to see how to add required dependencies:</p>
+<div class="fragment"><div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
+<div class="line">target_link_directories(your_project_name PUBLIC ${MESHLIB_THIRDPARTY_LIB_DIR})</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->
