@@ -206,6 +206,10 @@
         <label>MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</label>
         <link refid="MRIOFilesMenuItems_8h"/>
       </node>
+      <node id="103">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
       <node id="65">
         <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
@@ -969,13 +973,13 @@
         </childnode>
         <childnode refid="102" relation="include">
         </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
         <childnode refid="65" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="74" relation="include">
-        </childnode>
-        <childnode refid="103" relation="include">
         </childnode>
       </node>
       <node id="119">
@@ -991,10 +995,6 @@
       <node id="122">
         <label>MRViewer/MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
-      </node>
-      <node id="103">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
       <node id="121">
         <label>MRViewer/MRViewport.h</label>

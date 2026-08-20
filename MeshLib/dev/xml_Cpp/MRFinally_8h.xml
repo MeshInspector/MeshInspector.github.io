@@ -29,6 +29,10 @@
         <label>MRCommonPlugins/Basic/MRMoveObjectByMouse.h</label>
         <link refid="MRMoveObjectByMouse_8h"/>
       </node>
+      <node id="16">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
       <node id="1">
         <label>MRMesh/MRFinally.h</label>
         <link refid="MRFinally_8h"/>
@@ -130,10 +134,6 @@
         <link refid="MRUIStyle_8h"/>
         <childnode refid="18" relation="include">
         </childnode>
-      </node>
-      <node id="16">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classMR_1_1detail_1_1ScopeGuard" prot="public">MR::detail::ScopeGuard</innerclass>

@@ -1,7 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"MRGridSampling_8h_source.html":[6,0,3,0,7,134],
-"MRGridSettings_8h.html":[6,0,3,0,7,135],
 "MRGridSettings_8h_source.html":[6,0,3,0,7,135],
 "MRHeapBytes_8h.html":[6,0,3,0,7,137],
 "MRHeapBytes_8h_source.html":[6,0,3,0,7,137],
@@ -15,6 +13,8 @@ var NAVTREEINDEX2 =
 "MRHistogram_8h_source.html":[6,0,3,0,7,140],
 "MRHistoryAction_8h.html":[6,0,3,0,7,141],
 "MRHistoryAction_8h_source.html":[6,0,3,0,7,141],
+"MRHistoryMenuItems_8h.html":[6,0,3,0,1,2,1],
+"MRHistoryMenuItems_8h_source.html":[6,0,3,0,1,2,1],
 "MRHistoryStore_8h.html":[6,0,3,0,11,34],
 "MRHistoryStore_8h_source.html":[6,0,3,0,11,34],
 "MRHoleFillPlan_8h.html":[6,0,3,0,7,142],
@@ -34,8 +34,8 @@ var NAVTREEINDEX2 =
 "MRIOExtras_2config_8h_source.html":[6,0,3,0,4,0],
 "MRIOExtras_8h.html":[6,0,3,0,4,5],
 "MRIOExtras_8h_source.html":[6,0,3,0,4,5],
-"MRIOFilesMenuItems_8h.html":[6,0,3,0,1,2,1],
-"MRIOFilesMenuItems_8h_source.html":[6,0,3,0,1,2,1],
+"MRIOFilesMenuItems_8h.html":[6,0,3,0,1,2,2],
+"MRIOFilesMenuItems_8h_source.html":[6,0,3,0,1,2,2],
 "MRIOFilters_8h.html":[6,0,3,0,7,161],
 "MRIOFilters_8h_source.html":[6,0,3,0,7,161],
 "MRIOFormatsRegistry_8h.html":[6,0,3,0,7,162],

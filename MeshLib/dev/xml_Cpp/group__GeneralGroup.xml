@@ -11,6 +11,8 @@
     <innerclass refid="classMR_1_1MoveObjectByMouse_1_1MoveObjectByMouseWithSelected" prot="private">MR::MoveObjectByMouse::MoveObjectByMouseWithSelected</innerclass>
     <innerclass refid="classMR_1_1SelectObjectByClick" prot="public">MR::SelectObjectByClick</innerclass>
     <innerclass refid="classMR_1_1AddCustomThemePlugin" prot="public">MR::AddCustomThemePlugin</innerclass>
+    <innerclass refid="classMR_1_1UndoMenuItem" prot="public">MR::UndoMenuItem</innerclass>
+    <innerclass refid="classMR_1_1RedoMenuItem" prot="public">MR::RedoMenuItem</innerclass>
     <innerclass refid="classMR_1_1OpenDirectoryMenuItem" prot="public">MR::OpenDirectoryMenuItem</innerclass>
     <innerclass refid="classMR_1_1OpenFilesMenuItem" prot="public">MR::OpenFilesMenuItem</innerclass>
     <innerclass refid="classMR_1_1OpenDICOMsMenuItem" prot="public">MR::OpenDICOMsMenuItem</innerclass>
@@ -36,6 +38,8 @@
     <innerclass refid="classMR_1_1FitSelectedPrimitivesMenuItem" prot="public">MR::FitSelectedPrimitivesMenuItem</innerclass>
     <innerclass refid="classMR_1_1SetViewPresetMenuItem" prot="public">MR::SetViewPresetMenuItem</innerclass>
     <innerclass refid="classMR_1_1SetViewportConfigPresetMenuItem" prot="public">MR::SetViewportConfigPresetMenuItem</innerclass>
+    <innerclass refid="classMR_1_1ViewerSettingsPlugin" prot="public">MR::ViewerSettingsPlugin</innerclass>
+    <innerclass refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings" prot="public">MR::ViewerSettingsPlugin::ExternalSettings</innerclass>
     <innerclass refid="classMR_1_1BinaryOperations" prot="public">MR::BinaryOperations</innerclass>
     <innerclass refid="classMR_1_1OpenRawVoxelsPlugin" prot="public">MR::OpenRawVoxelsPlugin</innerclass>
     <innerclass refid="structMR_1_1Cuda_1_1DeviceInfo" prot="public">MR::Cuda::DeviceInfo</innerclass>
@@ -678,8 +682,6 @@
     <innerclass refid="structMR_1_1SceneCache_1_1BasicVectorHolder" prot="private">MR::SceneCache::BasicVectorHolder</innerclass>
     <innerclass refid="structMR_1_1SceneCache_1_1VectorHolder" prot="private">MR::SceneCache::VectorHolder</innerclass>
     <innerclass refid="structMR_1_1SceneCache_1_1TopmostVectorHolder" prot="private">MR::SceneCache::TopmostVectorHolder</innerclass>
-    <innerclass refid="classMR_1_1UndoMenuItem" prot="public">MR::UndoMenuItem</innerclass>
-    <innerclass refid="classMR_1_1RedoMenuItem" prot="public">MR::RedoMenuItem</innerclass>
     <innerclass refid="classMR_1_1SceneObjectsListDrawer" prot="public">MR::SceneObjectsListDrawer</innerclass>
     <innerclass refid="structMR_1_1SceneObjectsListDrawer_1_1MoveAndScrollData" prot="private">MR::SceneObjectsListDrawer::MoveAndScrollData</innerclass>
     <innerclass refid="structMR_1_1SceneObjectsListDrawer_1_1ScrollPositionPreservation" prot="private">MR::SceneObjectsListDrawer::ScrollPositionPreservation</innerclass>
@@ -801,8 +803,6 @@
     <innerclass refid="classMR_1_1ViewerPlugin" prot="public">MR::ViewerPlugin</innerclass>
     <innerclass refid="classMR_1_1IViewerSettingsManager" prot="public">MR::IViewerSettingsManager</innerclass>
     <innerclass refid="classMR_1_1ViewerSettingsManager" prot="public">MR::ViewerSettingsManager</innerclass>
-    <innerclass refid="classMR_1_1ViewerSettingsPlugin" prot="public">MR::ViewerSettingsPlugin</innerclass>
-    <innerclass refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings" prot="public">MR::ViewerSettingsPlugin::ExternalSettings</innerclass>
     <innerclass refid="structMR_1_1ViewerSignals" prot="public">MR::ViewerSignals</innerclass>
     <innerclass refid="classMR_1_1ViewerTitle" prot="public">MR::ViewerTitle</innerclass>
     <innerclass refid="classMR_1_1Viewport" prot="public">MR::Viewport</innerclass>
@@ -6435,6 +6435,75 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <inbodydescription>
         </inbodydescription>
         <location file="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="74" column="5" bodyfile="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="75" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TabType</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::TabType</qualifiedname>
+        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7" prot="public">
+          <name>Quick</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988" prot="public">
+          <name>Application</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1" prot="public">
+          <name>Control</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2" prot="public">
+          <name>Viewport</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba87d240c3f234e32f9143dd0446de66d8" prot="public">
+          <name>MeasurementUnits</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba636c59d7bf7741f3a0773c7a8104b245" prot="public">
+          <name>Mcp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805" prot="public">
+          <name>Features</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+<para>When adding/reordering/renaming constants here, don&apos;t forget to add the name in <computeroutput>MRViewerSettingsPlugin.cpp</computeroutput> -&gt; <computeroutput>getViewerSettingTabName()</computeroutput>. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="22" column="5" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="23" bodyend="34"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga96ac8ef99c2fe0087044f6e56cc06570" prot="private" static="no" strong="yes">
         <type>int</type>
@@ -13257,75 +13326,6 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <inbodydescription>
         </inbodydescription>
         <location file="MRViewer/MRViewerSettingsManager.h" line="50" column="5" bodyfile="MRViewer/MRViewerSettingsManager.h" bodystart="51" bodyend="58"/>
-      </memberdef>
-      <memberdef kind="enum" id="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>TabType</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::TabType</qualifiedname>
-        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7" prot="public">
-          <name>Quick</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988" prot="public">
-          <name>Application</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1" prot="public">
-          <name>Control</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2" prot="public">
-          <name>Viewport</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba87d240c3f234e32f9143dd0446de66d8" prot="public">
-          <name>MeasurementUnits</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba636c59d7bf7741f3a0773c7a8104b245" prot="public">
-          <name>Mcp</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805" prot="public">
-          <name>Features</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
-          <name>Count</name>
-          <briefdescription>
-<para>When adding/reordering/renaming constants here, don&apos;t forget to add the name in <computeroutput>MRViewerSettingsPlugin.cpp</computeroutput> -&gt; <computeroutput>getViewerSettingTabName()</computeroutput>. </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="21" column="5" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="22" bodyend="33"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1gab498d9b4852811b8095a89935081126f" prot="public" static="no" strong="yes">
         <type></type>
@@ -21329,6 +21329,34 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="42" column="17" bodyfile="MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" bodystart="42" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaa7398f0bbd20f0632bffb15fdd7b9697" prot="private" static="no" mutable="no">
+        <type>boost::signals2::scoped_connection</type>
+        <definition>boost::signals2::scoped_connection MR::UndoMenuItem::historyStoreConnection_</definition>
+        <argsstring></argsstring>
+        <name>historyStoreConnection_</name>
+        <qualifiedname>MR::UndoMenuItem::historyStoreConnection_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="22" column="40" bodyfile="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga8c653d61ba6079f4d97d9299f3a8cbe8" prot="private" static="no" mutable="no">
+        <type>boost::signals2::scoped_connection</type>
+        <definition>boost::signals2::scoped_connection MR::RedoMenuItem::historyStoreConnection_</definition>
+        <argsstring></argsstring>
+        <name>historyStoreConnection_</name>
+        <qualifiedname>MR::RedoMenuItem::historyStoreConnection_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="36" column="40" bodyfile="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf821b1fe157f80dabaf66a23133f2f78" prot="private" static="no" mutable="no">
         <type>bool</type>
         <definition>bool MR::OpenFilesMenuItem::dragging_</definition>
@@ -21529,6 +21557,225 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <inbodydescription>
         </inbodydescription>
         <location file="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="88" column="19" bodyfile="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga047afd56c4798c48f7121ad62c733259" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::ViewerSettingsPlugin::storedSamples_</definition>
+        <argsstring></argsstring>
+        <name>storedSamples_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::storedSamples_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="110" column="9" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaa024a5be3baa23b2286b5098bdda431e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::ViewerSettingsPlugin::maxSamples_</definition>
+        <argsstring></argsstring>
+        <name>maxSamples_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::maxSamples_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="111" column="9" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga8b0d0e857bc86e82e9aafaa8c2fb3a9b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ViewerSettingsPlugin::gpuOverridesMSAA_</definition>
+        <argsstring></argsstring>
+        <name>gpuOverridesMSAA_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::gpuOverridesMSAA_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="112" column="10" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga7804450cb17708be19bec3d0981128cd" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ViewerSettingsPlugin::tempUserScaling_</definition>
+        <argsstring></argsstring>
+        <name>tempUserScaling_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::tempUserScaling_</qualifiedname>
+        <initializer>{ 1.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="113" column="11" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gad8e0bf4467ab87e19a5146de2385bebf" prot="private" static="no" mutable="no">
+        <type>Vector4f</type>
+        <definition>Vector4f MR::ViewerSettingsPlugin::backgroundColor_</definition>
+        <argsstring></argsstring>
+        <name>backgroundColor_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::backgroundColor_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="115" column="14" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gad0e0d1cc8fce8e794694d3f6d877d794" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::ViewerSettingsPlugin::selectedLanguage_</definition>
+        <argsstring></argsstring>
+        <name>selectedLanguage_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::selectedLanguage_</qualifiedname>
+        <initializer>{ -1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="117" column="9" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::ViewerSettingsPlugin::selectedUserPreset_</definition>
+        <argsstring></argsstring>
+        <name>selectedUserPreset_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::selectedUserPreset_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="119" column="9" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gad4388798318e29736315d5a9cb21ebb0" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; MR::ViewerSettingsPlugin::userThemesPresets_</definition>
+        <argsstring></argsstring>
+        <name>userThemesPresets_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::userThemesPresets_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="120" column="17" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga0f3ad2977cefa7607eb755063d711774" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; ShadowsGL &gt;</type>
+        <definition>std::unique_ptr&lt;ShadowsGL&gt; MR::ViewerSettingsPlugin::shadowGl_</definition>
+        <argsstring></argsstring>
+        <name>shadowGl_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::shadowGl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="122" column="21" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaa0a0d9dbeaa39b7725d50966e9652537" prot="private" static="no" mutable="no">
+        <type>SpaceMouse::Parameters</type>
+        <definition>SpaceMouse::Parameters MR::ViewerSettingsPlugin::spaceMouseParams_</definition>
+        <argsstring></argsstring>
+        <name>spaceMouseParams_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::spaceMouseParams_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="124" column="28" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga0d02884daef68b9090f2fc24899467bd" prot="private" static="no" mutable="no">
+        <type>TouchpadParameters</type>
+        <definition>TouchpadParameters MR::ViewerSettingsPlugin::touchpadParameters_</definition>
+        <argsstring></argsstring>
+        <name>touchpadParameters_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::touchpadParameters_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="126" column="24" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaca69b2de3f466e977b398c0155b02cca" prot="private" static="no" mutable="no">
+        <type>TabType</type>
+        <definition>TabType MR::ViewerSettingsPlugin::activeTab_</definition>
+        <argsstring></argsstring>
+        <name>activeTab_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::activeTab_</qualifiedname>
+        <initializer>= TabType::Quick</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="128" column="13" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga9b2fe6e3312bc4374c221800fe40b4c5" prot="private" static="no" mutable="no">
+        <type>TabType</type>
+        <definition>TabType MR::ViewerSettingsPlugin::orderedTab_</definition>
+        <argsstring></argsstring>
+        <name>orderedTab_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::orderedTab_</qualifiedname>
+        <initializer>= TabType::Count</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="129" column="13" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga70f10bd29105edf9ee71c6dd68ef5c9b" prot="private" static="no" mutable="no">
+        <type>std::array&lt; std::vector&lt; std::shared_ptr&lt; ExternalSettings &gt; &gt;, size_t(TabType::Count)&gt;</type>
+        <definition>std::array&lt;std::vector&lt;std::shared_ptr&lt;ExternalSettings&gt; &gt;, size_t(TabType::Count)&gt; MR::ViewerSettingsPlugin::comboSettings_</definition>
+        <argsstring></argsstring>
+        <name>comboSettings_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::comboSettings_</qualifiedname>
+        <briefdescription>
+<para>invalid </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="131" column="16" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gadcbd14e9b8681ce364c9edc3a665e582" prot="private" static="no" mutable="no">
+        <type>MruFormatParameters</type>
+        <definition>MruFormatParameters MR::ViewerSettingsPlugin::mruFormatParameters_</definition>
+        <argsstring></argsstring>
+        <name>mruFormatParameters_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::mruFormatParameters_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="133" column="25" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga19598aba58399ca4a10dcb1b6ad866c5" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; ObjectVoxels &gt;</type>
@@ -59233,34 +59480,6 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRViewer/MRSceneCache.h" line="57" column="24" bodyfile="MRViewer/MRSceneCache.h" bodystart="57" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaa7398f0bbd20f0632bffb15fdd7b9697" prot="private" static="no" mutable="no">
-        <type>boost::signals2::scoped_connection</type>
-        <definition>boost::signals2::scoped_connection MR::UndoMenuItem::historyStoreConnection_</definition>
-        <argsstring></argsstring>
-        <name>historyStoreConnection_</name>
-        <qualifiedname>MR::UndoMenuItem::historyStoreConnection_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSceneControlMenuItems.h" line="22" column="40" bodyfile="MRViewer/MRSceneControlMenuItems.h" bodystart="22" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga8c653d61ba6079f4d97d9299f3a8cbe8" prot="private" static="no" mutable="no">
-        <type>boost::signals2::scoped_connection</type>
-        <definition>boost::signals2::scoped_connection MR::RedoMenuItem::historyStoreConnection_</definition>
-        <argsstring></argsstring>
-        <name>historyStoreConnection_</name>
-        <qualifiedname>MR::RedoMenuItem::historyStoreConnection_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSceneControlMenuItems.h" line="36" column="40" bodyfile="MRViewer/MRSceneControlMenuItems.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacead207f8ba93a8da9b77fd9d23770fc" prot="protected" static="no" mutable="no">
         <type>bool</type>
         <definition>bool MR::SceneObjectsListDrawer::showNewSelectedObjects_</definition>
@@ -59792,7 +60011,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="45" column="14" bodyfile="MRViewer/MRShadowsGL.h" bodystart="45" bodyend="-1"/>
+        <location file="MRViewer/MRShadowsGL.h" line="48" column="14" bodyfile="MRViewer/MRShadowsGL.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga039201a9c846ae2add0583c7e32f5c4b" prot="private" static="no" mutable="no">
         <type>Vector4f</type>
@@ -59807,7 +60026,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="46" column="14" bodyfile="MRViewer/MRShadowsGL.h" bodystart="46" bodyend="-1"/>
+        <location file="MRViewer/MRShadowsGL.h" line="49" column="14" bodyfile="MRViewer/MRShadowsGL.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2d537aa3b471f8a601a2eceac4b2cb72" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -59822,7 +60041,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="47" column="11" bodyfile="MRViewer/MRShadowsGL.h" bodystart="47" bodyend="47"/>
+        <location file="MRViewer/MRShadowsGL.h" line="50" column="11" bodyfile="MRViewer/MRShadowsGL.h" bodystart="50" bodyend="50"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga28feee6b43b58046c1ed775c8328cddc" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -59837,7 +60056,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="49" column="11" bodyfile="MRViewer/MRShadowsGL.h" bodystart="49" bodyend="49"/>
+        <location file="MRViewer/MRShadowsGL.h" line="52" column="11" bodyfile="MRViewer/MRShadowsGL.h" bodystart="52" bodyend="52"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9d2259da4db9c6e82f47711f9d991ae5" prot="private" static="no" mutable="no">
         <type>boost::signals2::connection</type>
@@ -59851,7 +60070,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="60" column="33" bodyfile="MRViewer/MRShadowsGL.h" bodystart="60" bodyend="-1"/>
+        <location file="MRViewer/MRShadowsGL.h" line="63" column="33" bodyfile="MRViewer/MRShadowsGL.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga19d0519418eb5906b09f3fdefbcdb6fe" prot="private" static="no" mutable="no">
         <type>boost::signals2::connection</type>
@@ -59865,7 +60084,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="61" column="33" bodyfile="MRViewer/MRShadowsGL.h" bodystart="61" bodyend="-1"/>
+        <location file="MRViewer/MRShadowsGL.h" line="64" column="33" bodyfile="MRViewer/MRShadowsGL.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga90e5033a6bcc4494adbd7421a55ed7e0" prot="private" static="no" mutable="no">
         <type>boost::signals2::connection</type>
@@ -59879,7 +60098,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="62" column="33" bodyfile="MRViewer/MRShadowsGL.h" bodystart="62" bodyend="-1"/>
+        <location file="MRViewer/MRShadowsGL.h" line="65" column="33" bodyfile="MRViewer/MRShadowsGL.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5357282c769752c656bd12228da222ca" prot="private" static="no" mutable="no">
         <type>Vector2i</type>
@@ -59893,7 +60112,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="64" column="14" bodyfile="MRViewer/MRShadowsGL.h" bodystart="64" bodyend="-1"/>
+        <location file="MRViewer/MRShadowsGL.h" line="67" column="14" bodyfile="MRViewer/MRShadowsGL.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae93de5cb698e8ee6f0e13b2831bb5120" prot="private" static="no" mutable="no">
         <type>Vector2i</type>
@@ -59907,7 +60126,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="65" column="14" bodyfile="MRViewer/MRShadowsGL.h" bodystart="65" bodyend="-1"/>
+        <location file="MRViewer/MRShadowsGL.h" line="68" column="14" bodyfile="MRViewer/MRShadowsGL.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga05d183a9c55ce05998e6b82a207e28d4" prot="private" static="no" mutable="no">
         <type>QuadTextureVertexObject</type>
@@ -59921,7 +60140,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="67" column="29" bodyfile="MRViewer/MRShadowsGL.h" bodystart="67" bodyend="-1"/>
+        <location file="MRViewer/MRShadowsGL.h" line="70" column="29" bodyfile="MRViewer/MRShadowsGL.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacd2e34d99fa9c15561564a2ed9a1abec" prot="private" static="no" mutable="no">
         <type>FramebufferData</type>
@@ -59935,7 +60154,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="69" column="21" bodyfile="MRViewer/MRShadowsGL.h" bodystart="69" bodyend="-1"/>
+        <location file="MRViewer/MRShadowsGL.h" line="72" column="21" bodyfile="MRViewer/MRShadowsGL.h" bodystart="72" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8a630feed4b5e16e5388d3dff5f6e515" prot="private" static="no" mutable="no">
         <type>FramebufferData</type>
@@ -59949,7 +60168,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="70" column="21" bodyfile="MRViewer/MRShadowsGL.h" bodystart="70" bodyend="-1"/>
+        <location file="MRViewer/MRShadowsGL.h" line="73" column="21" bodyfile="MRViewer/MRShadowsGL.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac683fcfed794f34445c1eb39ae01b771" prot="private" static="no" mutable="no">
         <type>FramebufferData</type>
@@ -59963,7 +60182,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="71" column="21" bodyfile="MRViewer/MRShadowsGL.h" bodystart="71" bodyend="-1"/>
+        <location file="MRViewer/MRShadowsGL.h" line="74" column="21" bodyfile="MRViewer/MRShadowsGL.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga69f27dbbbbff85cba2122d43489d3621" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -59978,7 +60197,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="73" column="10" bodyfile="MRViewer/MRShadowsGL.h" bodystart="73" bodyend="73"/>
+        <location file="MRViewer/MRShadowsGL.h" line="76" column="10" bodyfile="MRViewer/MRShadowsGL.h" bodystart="76" bodyend="76"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3a4d01661553cca5e961b0ee03e3985f" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -64557,225 +64776,6 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <inbodydescription>
         </inbodydescription>
         <location file="MRViewer/MRViewerSettingsManager.h" line="62" column="17" bodyfile="MRViewer/MRViewerSettingsManager.h" bodystart="62" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga047afd56c4798c48f7121ad62c733259" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::ViewerSettingsPlugin::storedSamples_</definition>
-        <argsstring></argsstring>
-        <name>storedSamples_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::storedSamples_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="109" column="9" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="109" bodyend="109"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaa024a5be3baa23b2286b5098bdda431e" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::ViewerSettingsPlugin::maxSamples_</definition>
-        <argsstring></argsstring>
-        <name>maxSamples_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::maxSamples_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="110" column="9" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="110" bodyend="110"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga8b0d0e857bc86e82e9aafaa8c2fb3a9b" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::ViewerSettingsPlugin::gpuOverridesMSAA_</definition>
-        <argsstring></argsstring>
-        <name>gpuOverridesMSAA_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::gpuOverridesMSAA_</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="111" column="10" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="111" bodyend="111"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga7804450cb17708be19bec3d0981128cd" prot="private" static="no" mutable="no">
-        <type>float</type>
-        <definition>float MR::ViewerSettingsPlugin::tempUserScaling_</definition>
-        <argsstring></argsstring>
-        <name>tempUserScaling_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::tempUserScaling_</qualifiedname>
-        <initializer>{ 1.0f }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="112" column="11" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="112" bodyend="112"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gad8e0bf4467ab87e19a5146de2385bebf" prot="private" static="no" mutable="no">
-        <type>Vector4f</type>
-        <definition>Vector4f MR::ViewerSettingsPlugin::backgroundColor_</definition>
-        <argsstring></argsstring>
-        <name>backgroundColor_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::backgroundColor_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="114" column="14" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="114" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gad0e0d1cc8fce8e794694d3f6d877d794" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::ViewerSettingsPlugin::selectedLanguage_</definition>
-        <argsstring></argsstring>
-        <name>selectedLanguage_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::selectedLanguage_</qualifiedname>
-        <initializer>{ -1 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="116" column="9" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="116" bodyend="116"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" prot="private" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::ViewerSettingsPlugin::selectedUserPreset_</definition>
-        <argsstring></argsstring>
-        <name>selectedUserPreset_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::selectedUserPreset_</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="118" column="9" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="118" bodyend="118"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gad4388798318e29736315d5a9cb21ebb0" prot="private" static="no" mutable="no">
-        <type>std::vector&lt; std::string &gt;</type>
-        <definition>std::vector&lt;std::string&gt; MR::ViewerSettingsPlugin::userThemesPresets_</definition>
-        <argsstring></argsstring>
-        <name>userThemesPresets_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::userThemesPresets_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="119" column="17" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="119" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga0f3ad2977cefa7607eb755063d711774" prot="private" static="no" mutable="no">
-        <type>std::unique_ptr&lt; ShadowsGL &gt;</type>
-        <definition>std::unique_ptr&lt;ShadowsGL&gt; MR::ViewerSettingsPlugin::shadowGl_</definition>
-        <argsstring></argsstring>
-        <name>shadowGl_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::shadowGl_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="121" column="21" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="121" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaa0a0d9dbeaa39b7725d50966e9652537" prot="private" static="no" mutable="no">
-        <type>SpaceMouse::Parameters</type>
-        <definition>SpaceMouse::Parameters MR::ViewerSettingsPlugin::spaceMouseParams_</definition>
-        <argsstring></argsstring>
-        <name>spaceMouseParams_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::spaceMouseParams_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="123" column="28" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="123" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga0d02884daef68b9090f2fc24899467bd" prot="private" static="no" mutable="no">
-        <type>TouchpadParameters</type>
-        <definition>TouchpadParameters MR::ViewerSettingsPlugin::touchpadParameters_</definition>
-        <argsstring></argsstring>
-        <name>touchpadParameters_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::touchpadParameters_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="125" column="24" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="125" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaca69b2de3f466e977b398c0155b02cca" prot="private" static="no" mutable="no">
-        <type>TabType</type>
-        <definition>TabType MR::ViewerSettingsPlugin::activeTab_</definition>
-        <argsstring></argsstring>
-        <name>activeTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::activeTab_</qualifiedname>
-        <initializer>= TabType::Quick</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="127" column="13" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="127" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga9b2fe6e3312bc4374c221800fe40b4c5" prot="private" static="no" mutable="no">
-        <type>TabType</type>
-        <definition>TabType MR::ViewerSettingsPlugin::orderedTab_</definition>
-        <argsstring></argsstring>
-        <name>orderedTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::orderedTab_</qualifiedname>
-        <initializer>= TabType::Count</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="128" column="13" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="128" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga70f10bd29105edf9ee71c6dd68ef5c9b" prot="private" static="no" mutable="no">
-        <type>std::array&lt; std::vector&lt; std::shared_ptr&lt; ExternalSettings &gt; &gt;, size_t(TabType::Count)&gt;</type>
-        <definition>std::array&lt;std::vector&lt;std::shared_ptr&lt;ExternalSettings&gt; &gt;, size_t(TabType::Count)&gt; MR::ViewerSettingsPlugin::comboSettings_</definition>
-        <argsstring></argsstring>
-        <name>comboSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::comboSettings_</qualifiedname>
-        <briefdescription>
-<para>invalid </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="130" column="16" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="130" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gadcbd14e9b8681ce364c9edc3a665e582" prot="private" static="no" mutable="no">
-        <type>MruFormatParameters</type>
-        <definition>MruFormatParameters MR::ViewerSettingsPlugin::mruFormatParameters_</definition>
-        <argsstring></argsstring>
-        <name>mruFormatParameters_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::mruFormatParameters_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="132" column="25" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga42da6839fe10c9bf9756229bdfed4a9e" prot="public" static="no" mutable="no">
         <type>MouseUpDownSignal</type>
@@ -75035,6 +75035,184 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="31" column="17"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga1cf602734a01790f8fd41ea6d726768e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::UndoMenuItem::UndoMenuItem</definition>
+        <argsstring>()</argsstring>
+        <name>UndoMenuItem</name>
+        <qualifiedname>MR::UndoMenuItem::UndoMenuItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="14" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga7192ae4eb328a96185a7f6b1bc4da2c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::UndoMenuItem::action</definition>
+        <argsstring>() override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::UndoMenuItem::action</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga4af847e120965263839d2628cf7dd979">action</reimplements>
+        <briefdescription>
+<para>returns true if state of item changed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="15" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga9d342a9cc6146313f3141b5732e43f94" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::UndoMenuItem::isAvailable</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;) const override</argsstring>
+        <name>isAvailable</name>
+        <qualifiedname>MR::UndoMenuItem::isAvailable</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;</type>
+        </param>
+        <briefdescription>
+<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="16" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga9524c582abeb9ae1041550d7adeb56eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::UndoMenuItem::getDynamicTooltip</definition>
+        <argsstring>() const override</argsstring>
+        <name>getDynamicTooltip</name>
+        <qualifiedname>MR::UndoMenuItem::getDynamicTooltip</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a">getDynamicTooltip</reimplements>
+        <briefdescription>
+<para>return not-empty string with tooltip that shall replace the static tooltip from json </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="17" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga49a0f8dc7d823aae0fcee04ad96d5bc2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::UndoMenuItem::updateUndoListCache_</definition>
+        <argsstring>(const HistoryStore &amp;store, HistoryStore::ChangeType, std::shared_ptr&lt; HistoryAction &gt;)</argsstring>
+        <name>updateUndoListCache_</name>
+        <qualifiedname>MR::UndoMenuItem::updateUndoListCache_</qualifiedname>
+        <param>
+          <type>const HistoryStore &amp;</type>
+          <declname>store</declname>
+        </param>
+        <param>
+          <type>HistoryStore::ChangeType</type>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; HistoryAction &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="20" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga4899cc7ca225d5bc473aedd72f99b18b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::RedoMenuItem::RedoMenuItem</definition>
+        <argsstring>()</argsstring>
+        <name>RedoMenuItem</name>
+        <qualifiedname>MR::RedoMenuItem::RedoMenuItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="28" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga36ed5986c45fa790cafed4df8b0d3536" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::RedoMenuItem::action</definition>
+        <argsstring>() override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::RedoMenuItem::action</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga4af847e120965263839d2628cf7dd979">action</reimplements>
+        <briefdescription>
+<para>returns true if state of item changed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="29" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga7f4b5aa48593d39bfb57474d6fcc2ad5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::RedoMenuItem::isAvailable</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;) const override</argsstring>
+        <name>isAvailable</name>
+        <qualifiedname>MR::RedoMenuItem::isAvailable</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;</type>
+        </param>
+        <briefdescription>
+<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="30" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga8de54e498c94d2adea1613dd73e9a818" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::RedoMenuItem::getDynamicTooltip</definition>
+        <argsstring>() const override</argsstring>
+        <name>getDynamicTooltip</name>
+        <qualifiedname>MR::RedoMenuItem::getDynamicTooltip</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a">getDynamicTooltip</reimplements>
+        <briefdescription>
+<para>return not-empty string with tooltip that shall replace the static tooltip from json </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="31" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga5d748b82ae5325e076cc5dab6e2c2f56" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RedoMenuItem::updateRedoListCache_</definition>
+        <argsstring>(const HistoryStore &amp;store, HistoryStore::ChangeType, std::shared_ptr&lt; HistoryAction &gt;)</argsstring>
+        <name>updateRedoListCache_</name>
+        <qualifiedname>MR::RedoMenuItem::updateRedoListCache_</qualifiedname>
+        <param>
+          <type>const HistoryStore &amp;</type>
+          <declname>store</declname>
+        </param>
+        <param>
+          <type>HistoryStore::ChangeType</type>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; HistoryAction &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="34" column="10"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9b247e419f48e278a2836eb114d8d0bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>MR::OpenDirectoryMenuItem::OpenDirectoryMenuItem</definition>
@@ -76342,6 +76520,704 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <inbodydescription>
         </inbodydescription>
         <location file="MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="85" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ViewerSettingsPlugin::ViewerSettingsPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>ViewerSettingsPlugin</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::ViewerSettingsPlugin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="36" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga119e03f41d8f3bdf0c9ee522b8ad623b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ViewerSettingsPlugin::drawDialog</definition>
+        <argsstring>(ImGuiContext *ctx) override</argsstring>
+        <name>drawDialog</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawDialog</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga40046aff5a01f978c06cb78392a7921d">drawDialog</reimplements>
+        <param>
+          <type>ImGuiContext *</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="38" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gac31f0ed7c0847408208b9cd59d7a9c40" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::ViewerSettingsPlugin::blocking</definition>
+        <argsstring>() const override</argsstring>
+        <name>blocking</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::blocking</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1gae7a96edadae63c78192e0f1f6b1f9db9">blocking</reimplements>
+        <briefdescription>
+<para>true if this item is blocking (only one blocking item can be active at once) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="40" column="18" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga2bd394f0e78044d2a22dbea3c993e04c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCOMMONPLUGINS_API void</type>
+        <definition>MRCOMMONPLUGINS_API void MR::ViewerSettingsPlugin::updateThemes</definition>
+        <argsstring>()</argsstring>
+        <name>updateThemes</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::updateThemes</qualifiedname>
+        <briefdescription>
+<para>call this function if you save/delete color theme, or change current theme outside of this plugin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="43" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gab3fe6a46824654fabde6d6f501eb8141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual MR::ViewerSettingsPlugin::ExternalSettings::~ExternalSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~ExternalSettings</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::~ExternalSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="49" column="17" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga2b40b2d1d9febe79a58c0f64f8aaf704" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const std::string &amp;</type>
+        <definition>virtual const std::string &amp; MR::ViewerSettingsPlugin::ExternalSettings::getName</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getName</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::getName</qualifiedname>
+        <briefdescription>
+<para>returns the name of the setting, which is a unique value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="51" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gab5824d8d06eee687e2f907f59db61f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MR::ViewerSettingsPlugin::ExternalSettings::draw</definition>
+        <argsstring>()=0</argsstring>
+        <name>draw</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::draw</qualifiedname>
+        <briefdescription>
+<para>the function of drawing the configuration <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="53" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga5daa51d87dc540fd02b52303e05cbe20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::ViewerSettingsPlugin::ExternalSettings::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::reset</qualifiedname>
+        <briefdescription>
+<para>restore the settings to their default values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="55" column="22" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaefce61dfeb872bbe04d722fc13f1a0ac" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char * MR::ViewerSettingsPlugin::ExternalSettings::separatorName</definition>
+        <argsstring>() const</argsstring>
+        <name>separatorName</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::separatorName</qualifiedname>
+        <briefdescription>
+<para>if not overriden this setting will be drawn in tools block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="57" column="28" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga7c752a952b08baa8a106a3df277698df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCOMMONPLUGINS_API void</type>
+        <definition>MRCOMMONPLUGINS_API void MR::ViewerSettingsPlugin::addComboSettings</definition>
+        <argsstring>(const TabType tab, std::shared_ptr&lt; ExternalSettings &gt; settings)</argsstring>
+        <name>addComboSettings</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::addComboSettings</qualifiedname>
+        <param>
+          <type>const TabType</type>
+          <declname>tab</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; ExternalSettings &gt;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>add external settings with <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> combo box </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="61" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga4861cc201749e069416f4f233de758cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCOMMONPLUGINS_API void</type>
+        <definition>MRCOMMONPLUGINS_API void MR::ViewerSettingsPlugin::delComboSettings</definition>
+        <argsstring>(const TabType tab, const ExternalSettings *settings)</argsstring>
+        <name>delComboSettings</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::delComboSettings</qualifiedname>
+        <param>
+          <type>const TabType</type>
+          <declname>tab</declname>
+        </param>
+        <param>
+          <type>const ExternalSettings *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>delete external settings with <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> combo box </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="64" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gad9bb1178cd07c90a5a7cedf2236259c4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCOMMONPLUGINS_API ViewerSettingsPlugin *</type>
+        <definition>static MRCOMMONPLUGINS_API ViewerSettingsPlugin * MR::ViewerSettingsPlugin::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns instance of this plugin if it is registered nullptr otherwise </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="68" column="53"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga87d0a86ee8efb653beafdd42d3e969fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCOMMONPLUGINS_API void</type>
+        <definition>MRCOMMONPLUGINS_API void MR::ViewerSettingsPlugin::setActiveTab</definition>
+        <argsstring>(TabType tab)</argsstring>
+        <name>setActiveTab</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::setActiveTab</qualifiedname>
+        <param>
+          <type>TabType</type>
+          <declname>tab</declname>
+        </param>
+        <briefdescription>
+<para>changes active tab </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="71" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gad68314882fab9a5eb41c7e70678268cd" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::ViewerSettingsPlugin::onEnable_</definition>
+        <argsstring>() override</argsstring>
+        <name>onEnable_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::onEnable_</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga9bd3dfb3cd43363f48a6b377b6eb33c9">onEnable_</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="73" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga8a96ddb6300fd5de84ba523be91b69dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::ViewerSettingsPlugin::onDisable_</definition>
+        <argsstring>() override</argsstring>
+        <name>onDisable_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::onDisable_</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga98563ce099c1b026abb38869a32f443f">onDisable_</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="74" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gad0d7089f5aed92e160f44e7a9ce9202b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawTab_</definition>
+        <argsstring>(float menuWidth)</argsstring>
+        <name>drawTab_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawTab_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>menuWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="76" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gab3385c270312c2f8341855336aeec56a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawQuickTab_</definition>
+        <argsstring>(float menuWidth)</argsstring>
+        <name>drawQuickTab_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawQuickTab_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>menuWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="78" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaad5ed50d043abbea26da2853f14bfda1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawApplicationTab_</definition>
+        <argsstring>(float menuWidth)</argsstring>
+        <name>drawApplicationTab_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawApplicationTab_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>menuWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="79" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga10ae128bccb0b8e1b585c02fc6f9d85b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawControlTab_</definition>
+        <argsstring>(float menuWidth)</argsstring>
+        <name>drawControlTab_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawControlTab_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>menuWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="80" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawViewportTab_</definition>
+        <argsstring>(float menuWidth)</argsstring>
+        <name>drawViewportTab_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawViewportTab_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>menuWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="81" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawMeasurementUnitsTab_</definition>
+        <argsstring>()</argsstring>
+        <name>drawMeasurementUnitsTab_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawMeasurementUnitsTab_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="82" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawFeaturesTab_</definition>
+        <argsstring>()</argsstring>
+        <name>drawFeaturesTab_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawFeaturesTab_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="83" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga4a4a6cdd7bb35a234274fe59ecc9c0ee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawMcpTab_</definition>
+        <argsstring>()</argsstring>
+        <name>drawMcpTab_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawMcpTab_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="84" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaecf9bc528b5c54d5f96e86ef1528228d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawLanguageSelector_</definition>
+        <argsstring>()</argsstring>
+        <name>drawLanguageSelector_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawLanguageSelector_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="86" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawThemeSelector_</definition>
+        <argsstring>()</argsstring>
+        <name>drawThemeSelector_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawThemeSelector_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="87" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawResetDialog_</definition>
+        <argsstring>(bool activated)</argsstring>
+        <name>drawResetDialog_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawResetDialog_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>activated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="88" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga80dda1a25e5eddabe65d33ba1bed73b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawShadingModeCombo_</definition>
+        <argsstring>(bool inGroup, float toolWidth)</argsstring>
+        <name>drawShadingModeCombo_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawShadingModeCombo_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>inGroup</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>toolWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="89" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gacd285192fd635b1db7826fa81a3a0838" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawProjectionModeSelector_</definition>
+        <argsstring>(float toolWidth)</argsstring>
+        <name>drawProjectionModeSelector_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawProjectionModeSelector_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>toolWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="90" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gae12ce4a6d6a8278cbe7275f3b1a8309d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawUpDirectionSelector_</definition>
+        <argsstring>()</argsstring>
+        <name>drawUpDirectionSelector_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawUpDirectionSelector_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="91" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga772fb6f5b307f57aa572bc60c7c03a16" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawBackgroundButton_</definition>
+        <argsstring>(bool allViewports)</argsstring>
+        <name>drawBackgroundButton_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawBackgroundButton_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>allViewports</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="92" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gac41934b462a7ecf5a513279f7ad3c577" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawRenderOptions_</definition>
+        <argsstring>()</argsstring>
+        <name>drawRenderOptions_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawRenderOptions_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="93" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaf4cbb91c1e84bebd995c89284084c03d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawShadowsOptions_</definition>
+        <argsstring>(float menuWidth)</argsstring>
+        <name>drawShadowsOptions_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawShadowsOptions_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>menuWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="94" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawMouseSceneControlsSettings_</definition>
+        <argsstring>(float menuWidth)</argsstring>
+        <name>drawMouseSceneControlsSettings_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawMouseSceneControlsSettings_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>menuWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="95" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga9076c9b9fe889480701ac78798e5d8df" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawSpaceMouseSettings_</definition>
+        <argsstring>(float menuWidth)</argsstring>
+        <name>drawSpaceMouseSettings_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawSpaceMouseSettings_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>menuWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="96" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawTouchpadSettings_</definition>
+        <argsstring>()</argsstring>
+        <name>drawTouchpadSettings_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawTouchpadSettings_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="97" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga83fb555192dd8d4e2a4b1207c41ba6af" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawMcpSettings_</definition>
+        <argsstring>()</argsstring>
+        <name>drawMcpSettings_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawMcpSettings_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="98" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawMruInnerFormats_</definition>
+        <argsstring>(float menuWidth)</argsstring>
+        <name>drawMruInnerFormats_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawMruInnerFormats_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>menuWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="100" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawGlobalSettings_</definition>
+        <argsstring>(float buttonWidth)</argsstring>
+        <name>drawGlobalSettings_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawGlobalSettings_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>buttonWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="102" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gac234fd8124156d65a822970b7bae04e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawCustomSettings_</definition>
+        <argsstring>(const std::string &amp;separatorName, bool needSeparator)</argsstring>
+        <name>drawCustomSettings_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawCustomSettings_</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>separatorName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>needSeparator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="103" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga44560a17a160565e9cf3acfe603f0dc4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::drawSeparator_</definition>
+        <argsstring>(const std::string &amp;separatorName)</argsstring>
+        <name>drawSeparator_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::drawSeparator_</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>separatorName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="104" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gad21a2705e7ef20d2834f543c459d1df2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::updateDialog_</definition>
+        <argsstring>()</argsstring>
+        <name>updateDialog_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::updateDialog_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="107" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gab62082b112c1ef416c167b16137cc397" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewerSettingsPlugin::resetSettings_</definition>
+        <argsstring>()</argsstring>
+        <name>resetSettings_</name>
+        <qualifiedname>MR::ViewerSettingsPlugin::resetSettings_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="108" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga24b375764095f9afbc2c745c8242f877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -174272,184 +175148,6 @@ returns true if load was succeed </para>
         </inbodydescription>
         <location file="MRViewer/MRSceneCache.h" line="44" column="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga1cf602734a01790f8fd41ea6d726768e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::UndoMenuItem::UndoMenuItem</definition>
-        <argsstring>()</argsstring>
-        <name>UndoMenuItem</name>
-        <qualifiedname>MR::UndoMenuItem::UndoMenuItem</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSceneControlMenuItems.h" line="14" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga7192ae4eb328a96185a7f6b1bc4da2c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::UndoMenuItem::action</definition>
-        <argsstring>() override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::UndoMenuItem::action</qualifiedname>
-        <reimplements refid="group__GeneralGroup_1ga4af847e120965263839d2628cf7dd979">action</reimplements>
-        <briefdescription>
-<para>returns true if state of item changed </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSceneControlMenuItems.h" line="15" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga9d342a9cc6146313f3141b5732e43f94" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::UndoMenuItem::isAvailable</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;) const override</argsstring>
-        <name>isAvailable</name>
-        <qualifiedname>MR::UndoMenuItem::isAvailable</qualifiedname>
-        <reimplements refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;</type>
-        </param>
-        <briefdescription>
-<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSceneControlMenuItems.h" line="16" column="25"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga9524c582abeb9ae1041550d7adeb56eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::UndoMenuItem::getDynamicTooltip</definition>
-        <argsstring>() const override</argsstring>
-        <name>getDynamicTooltip</name>
-        <qualifiedname>MR::UndoMenuItem::getDynamicTooltip</qualifiedname>
-        <reimplements refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a">getDynamicTooltip</reimplements>
-        <briefdescription>
-<para>return not-empty string with tooltip that shall replace the static tooltip from json </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSceneControlMenuItems.h" line="17" column="25"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga49a0f8dc7d823aae0fcee04ad96d5bc2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::UndoMenuItem::updateUndoListCache_</definition>
-        <argsstring>(const HistoryStore &amp;store, HistoryStore::ChangeType, std::shared_ptr&lt; HistoryAction &gt;)</argsstring>
-        <name>updateUndoListCache_</name>
-        <qualifiedname>MR::UndoMenuItem::updateUndoListCache_</qualifiedname>
-        <param>
-          <type>const HistoryStore &amp;</type>
-          <declname>store</declname>
-        </param>
-        <param>
-          <type>HistoryStore::ChangeType</type>
-        </param>
-        <param>
-          <type>std::shared_ptr&lt; HistoryAction &gt;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSceneControlMenuItems.h" line="20" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga4899cc7ca225d5bc473aedd72f99b18b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::RedoMenuItem::RedoMenuItem</definition>
-        <argsstring>()</argsstring>
-        <name>RedoMenuItem</name>
-        <qualifiedname>MR::RedoMenuItem::RedoMenuItem</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSceneControlMenuItems.h" line="28" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga36ed5986c45fa790cafed4df8b0d3536" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::RedoMenuItem::action</definition>
-        <argsstring>() override</argsstring>
-        <name>action</name>
-        <qualifiedname>MR::RedoMenuItem::action</qualifiedname>
-        <reimplements refid="group__GeneralGroup_1ga4af847e120965263839d2628cf7dd979">action</reimplements>
-        <briefdescription>
-<para>returns true if state of item changed </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSceneControlMenuItems.h" line="29" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga7f4b5aa48593d39bfb57474d6fcc2ad5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::RedoMenuItem::isAvailable</definition>
-        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;) const override</argsstring>
-        <name>isAvailable</name>
-        <qualifiedname>MR::RedoMenuItem::isAvailable</qualifiedname>
-        <reimplements refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
-        <param>
-          <type>const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;</type>
-        </param>
-        <briefdescription>
-<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSceneControlMenuItems.h" line="30" column="25"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga8de54e498c94d2adea1613dd73e9a818" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
-        <type>std::string</type>
-        <definition>virtual std::string MR::RedoMenuItem::getDynamicTooltip</definition>
-        <argsstring>() const override</argsstring>
-        <name>getDynamicTooltip</name>
-        <qualifiedname>MR::RedoMenuItem::getDynamicTooltip</qualifiedname>
-        <reimplements refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a">getDynamicTooltip</reimplements>
-        <briefdescription>
-<para>return not-empty string with tooltip that shall replace the static tooltip from json </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSceneControlMenuItems.h" line="31" column="25"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga5d748b82ae5325e076cc5dab6e2c2f56" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::RedoMenuItem::updateRedoListCache_</definition>
-        <argsstring>(const HistoryStore &amp;store, HistoryStore::ChangeType, std::shared_ptr&lt; HistoryAction &gt;)</argsstring>
-        <name>updateRedoListCache_</name>
-        <qualifiedname>MR::RedoMenuItem::updateRedoListCache_</qualifiedname>
-        <param>
-          <type>const HistoryStore &amp;</type>
-          <declname>store</declname>
-        </param>
-        <param>
-          <type>HistoryStore::ChangeType</type>
-        </param>
-        <param>
-          <type>std::shared_ptr&lt; HistoryAction &gt;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSceneControlMenuItems.h" line="34" column="10"/>
-      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaffefc47d2b779b451bc3f420ddfdbdf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
         <definition>virtual MR::SceneObjectsListDrawer::~SceneObjectsListDrawer</definition>
@@ -176697,14 +177395,29 @@ returns true if load was succeed </para>
         </inbodydescription>
         <location file="MRViewer/MRShaderBlocks.h" line="30" column="14" declfile="MRViewer/MRShaderBlocks.h" declline="30" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga41c74b52ccad8c211d2b8e3dc639e4aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga7e6bcf6e69dbb71096b7a3168949ac56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
-        <definition>MR::ShadowsGL::MR_ADD_CTOR_DELETE_MOVE</definition>
-        <argsstring>(ShadowsGL)</argsstring>
-        <name>MR_ADD_CTOR_DELETE_MOVE</name>
-        <qualifiedname>MR::ShadowsGL::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
+        <definition>MR::ShadowsGL::ShadowsGL</definition>
+        <argsstring>()</argsstring>
+        <name>ShadowsGL</name>
+        <qualifiedname>MR::ShadowsGL::ShadowsGL</qualifiedname>
+        <briefdescription>
+<para>out-of-line to keep the GL members of this class out of the modules using it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRShadowsGL.h" line="22" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga25146e777f581d9d82c1e4f22d3165c9" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ShadowsGL::ShadowsGL</definition>
+        <argsstring>(ShadowsGL &amp;&amp;) noexcept=delete</argsstring>
+        <name>ShadowsGL</name>
+        <qualifiedname>MR::ShadowsGL::ShadowsGL</qualifiedname>
         <param>
-          <type>ShadowsGL</type>
+          <type>ShadowsGL &amp;&amp;</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -176712,7 +177425,24 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="21" column="5"/>
+        <location file="MRViewer/MRShadowsGL.h" line="23" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga3e74b18bef132d73cfbd57d646961b95" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>ShadowsGL &amp;</type>
+        <definition>ShadowsGL &amp; MR::ShadowsGL::operator=</definition>
+        <argsstring>(ShadowsGL &amp;&amp;) noexcept=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::ShadowsGL::operator=</qualifiedname>
+        <param>
+          <type>ShadowsGL &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRShadowsGL.h" line="24" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga392c155eda51521790918b36d34f7ca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -176726,7 +177456,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="22" column="6"/>
+        <location file="MRViewer/MRShadowsGL.h" line="25" column="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga876b1cadd41eef4dda31a23ad2ef09be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176745,7 +177475,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="25" column="11"/>
+        <location file="MRViewer/MRShadowsGL.h" line="28" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafbfb18c734f6d41741dcdd84a9031e95" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -176759,7 +177489,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="26" column="10" bodyfile="MRViewer/MRShadowsGL.h" bodystart="26" bodyend="26"/>
+        <location file="MRViewer/MRShadowsGL.h" line="29" column="10" bodyfile="MRViewer/MRShadowsGL.h" bodystart="29" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga37112847b6740a4ff382b4ea87a89fa9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Vector2f &amp;</type>
@@ -176774,7 +177504,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="29" column="20" bodyfile="MRViewer/MRShadowsGL.h" bodystart="29" bodyend="29"/>
+        <location file="MRViewer/MRShadowsGL.h" line="32" column="20" bodyfile="MRViewer/MRShadowsGL.h" bodystart="32" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaaedc6c302db8d61a0f156336ff02572b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176792,7 +177522,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="30" column="11"/>
+        <location file="MRViewer/MRShadowsGL.h" line="33" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga04bd8703025b9a6312dff0a43be1c871" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Vector4f &amp;</type>
@@ -176806,7 +177536,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="32" column="20" bodyfile="MRViewer/MRShadowsGL.h" bodystart="32" bodyend="32"/>
+        <location file="MRViewer/MRShadowsGL.h" line="35" column="20" bodyfile="MRViewer/MRShadowsGL.h" bodystart="35" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5fc18723f52a72d76d43b900b6a72d4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176824,7 +177554,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="33" column="11"/>
+        <location file="MRViewer/MRShadowsGL.h" line="36" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaab09524b5ecb1b890bfb298e7ce253ab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -176838,7 +177568,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="35" column="11" bodyfile="MRViewer/MRShadowsGL.h" bodystart="35" bodyend="35"/>
+        <location file="MRViewer/MRShadowsGL.h" line="38" column="11" bodyfile="MRViewer/MRShadowsGL.h" bodystart="38" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf671aa2b7eb9ffab2cc84a1d9735cca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176856,7 +177586,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="36" column="11"/>
+        <location file="MRViewer/MRShadowsGL.h" line="39" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0f442b02859f8ff90f016b8bb644095a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -176871,7 +177601,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="41" column="11" bodyfile="MRViewer/MRShadowsGL.h" bodystart="41" bodyend="41"/>
+        <location file="MRViewer/MRShadowsGL.h" line="44" column="11" bodyfile="MRViewer/MRShadowsGL.h" bodystart="44" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1de833d1cc616ec5fafcfd2c26ba0d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176889,7 +177619,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="42" column="11"/>
+        <location file="MRViewer/MRShadowsGL.h" line="45" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7a9865affab7f33bb5fdcd6147bc2432" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176903,7 +177633,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="50" column="10"/>
+        <location file="MRViewer/MRShadowsGL.h" line="53" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga450bc9a7825ef4cbd4ad5be29ac2ae43" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176917,7 +177647,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="51" column="10"/>
+        <location file="MRViewer/MRShadowsGL.h" line="54" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga816e9c2e952853be715efb4d64137812" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176939,7 +177669,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="52" column="10"/>
+        <location file="MRViewer/MRShadowsGL.h" line="55" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7180a41bfe4290617bcd9719714b67a4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176953,7 +177683,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="54" column="10"/>
+        <location file="MRViewer/MRShadowsGL.h" line="57" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacbacb42835940ad7d977bfdb296757c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176967,7 +177697,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="55" column="10"/>
+        <location file="MRViewer/MRShadowsGL.h" line="58" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga11c673624ff01dac150fbf8f19b9f22e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176981,7 +177711,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="56" column="10"/>
+        <location file="MRViewer/MRShadowsGL.h" line="59" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf19d7d45c062332fae1db2eea0abe889" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176999,7 +177729,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="57" column="10"/>
+        <location file="MRViewer/MRShadowsGL.h" line="60" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4819d4cc62a7f6b5512217ecc0364419" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177021,7 +177751,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShadowsGL.h" line="58" column="10"/>
+        <location file="MRViewer/MRShadowsGL.h" line="61" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabf821c4d4f21815cbd391fa9ae9c6750" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -191297,704 +192027,6 @@ returns true if load was succeed </para>
         <inbodydescription>
         </inbodydescription>
         <location file="MRViewer/MRViewerSettingsManager.h" line="60" column="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::ViewerSettingsPlugin::ViewerSettingsPlugin</definition>
-        <argsstring>()</argsstring>
-        <name>ViewerSettingsPlugin</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::ViewerSettingsPlugin</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="35" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga119e03f41d8f3bdf0c9ee522b8ad623b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ViewerSettingsPlugin::drawDialog</definition>
-        <argsstring>(ImGuiContext *ctx) override</argsstring>
-        <name>drawDialog</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawDialog</qualifiedname>
-        <reimplements refid="group__GeneralGroup_1ga40046aff5a01f978c06cb78392a7921d">drawDialog</reimplements>
-        <param>
-          <type>ImGuiContext *</type>
-          <declname>ctx</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="37" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gac31f0ed7c0847408208b9cd59d7a9c40" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::ViewerSettingsPlugin::blocking</definition>
-        <argsstring>() const override</argsstring>
-        <name>blocking</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::blocking</qualifiedname>
-        <reimplements refid="group__GeneralGroup_1gae7a96edadae63c78192e0f1f6b1f9db9">blocking</reimplements>
-        <briefdescription>
-<para>true if this item is blocking (only one blocking item can be active at once) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="39" column="18" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="39" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gabb15c0c1b70bb9ff91021e28f50a7b15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::updateThemes</definition>
-        <argsstring>()</argsstring>
-        <name>updateThemes</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::updateThemes</qualifiedname>
-        <briefdescription>
-<para>call this function if you save/delete color theme, or change current theme outside of this plugin </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="42" column="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab3fe6a46824654fabde6d6f501eb8141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type></type>
-        <definition>virtual MR::ViewerSettingsPlugin::ExternalSettings::~ExternalSettings</definition>
-        <argsstring>()</argsstring>
-        <name>~ExternalSettings</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::~ExternalSettings</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="48" column="17" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="48" bodyend="48"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2b40b2d1d9febe79a58c0f64f8aaf704" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
-        <type>const std::string &amp;</type>
-        <definition>virtual const std::string &amp; MR::ViewerSettingsPlugin::ExternalSettings::getName</definition>
-        <argsstring>() const =0</argsstring>
-        <name>getName</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::getName</qualifiedname>
-        <briefdescription>
-<para>returns the name of the setting, which is a unique value </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="50" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab5824d8d06eee687e2f907f59db61f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>void</type>
-        <definition>virtual void MR::ViewerSettingsPlugin::ExternalSettings::draw</definition>
-        <argsstring>()=0</argsstring>
-        <name>draw</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::draw</qualifiedname>
-        <briefdescription>
-<para>the function of drawing the configuration <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="52" column="22"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga5daa51d87dc540fd02b52303e05cbe20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MR::ViewerSettingsPlugin::ExternalSettings::reset</definition>
-        <argsstring>()</argsstring>
-        <name>reset</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::reset</qualifiedname>
-        <briefdescription>
-<para>restore the settings to their default values </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="54" column="22" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="54" bodyend="54"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaefce61dfeb872bbe04d722fc13f1a0ac" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type>const char *</type>
-        <definition>virtual const char * MR::ViewerSettingsPlugin::ExternalSettings::separatorName</definition>
-        <argsstring>() const</argsstring>
-        <name>separatorName</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::ExternalSettings::separatorName</qualifiedname>
-        <briefdescription>
-<para>if not overriden this setting will be drawn in tools block </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="56" column="28" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="56" bodyend="56"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga26c3643fb290f5451aba04478ef7d6cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::addComboSettings</definition>
-        <argsstring>(const TabType tab, std::shared_ptr&lt; ExternalSettings &gt; settings)</argsstring>
-        <name>addComboSettings</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::addComboSettings</qualifiedname>
-        <param>
-          <type>const TabType</type>
-          <declname>tab</declname>
-        </param>
-        <param>
-          <type>std::shared_ptr&lt; ExternalSettings &gt;</type>
-          <declname>settings</declname>
-        </param>
-        <briefdescription>
-<para>add external settings with <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> combo box </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="60" column="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga825a622fcfe43eae88b6c32e132c0ba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::delComboSettings</definition>
-        <argsstring>(const TabType tab, const ExternalSettings *settings)</argsstring>
-        <name>delComboSettings</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::delComboSettings</qualifiedname>
-        <param>
-          <type>const TabType</type>
-          <declname>tab</declname>
-        </param>
-        <param>
-          <type>const ExternalSettings *</type>
-          <declname>settings</declname>
-        </param>
-        <briefdescription>
-<para>delete external settings with <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> combo box </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="63" column="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaf31247144d4b7dbe6ce93572ca7047cc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ViewerSettingsPlugin *</type>
-        <definition>static ViewerSettingsPlugin * MR::ViewerSettingsPlugin::instance</definition>
-        <argsstring>()</argsstring>
-        <name>instance</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::instance</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns instance of this plugin if it is registered nullptr otherwise </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="67" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gacc58c168370abe4d53898a41e80cfc51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::setActiveTab</definition>
-        <argsstring>(TabType tab)</argsstring>
-        <name>setActiveTab</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::setActiveTab</qualifiedname>
-        <param>
-          <type>TabType</type>
-          <declname>tab</declname>
-        </param>
-        <briefdescription>
-<para>changes active tab </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="70" column="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gad68314882fab9a5eb41c7e70678268cd" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::ViewerSettingsPlugin::onEnable_</definition>
-        <argsstring>() override</argsstring>
-        <name>onEnable_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::onEnable_</qualifiedname>
-        <reimplements refid="group__GeneralGroup_1ga9bd3dfb3cd43363f48a6b377b6eb33c9">onEnable_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="72" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga8a96ddb6300fd5de84ba523be91b69dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>bool</type>
-        <definition>virtual bool MR::ViewerSettingsPlugin::onDisable_</definition>
-        <argsstring>() override</argsstring>
-        <name>onDisable_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::onDisable_</qualifiedname>
-        <reimplements refid="group__GeneralGroup_1ga98563ce099c1b026abb38869a32f443f">onDisable_</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="73" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gad0d7089f5aed92e160f44e7a9ce9202b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawTab_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawTab_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="75" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab3385c270312c2f8341855336aeec56a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawQuickTab_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawQuickTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawQuickTab_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="77" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaad5ed50d043abbea26da2853f14bfda1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawApplicationTab_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawApplicationTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawApplicationTab_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="78" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga10ae128bccb0b8e1b585c02fc6f9d85b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawControlTab_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawControlTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawControlTab_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="79" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawViewportTab_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawViewportTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawViewportTab_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="80" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawMeasurementUnitsTab_</definition>
-        <argsstring>()</argsstring>
-        <name>drawMeasurementUnitsTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawMeasurementUnitsTab_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="81" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawFeaturesTab_</definition>
-        <argsstring>()</argsstring>
-        <name>drawFeaturesTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawFeaturesTab_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="82" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga4a4a6cdd7bb35a234274fe59ecc9c0ee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawMcpTab_</definition>
-        <argsstring>()</argsstring>
-        <name>drawMcpTab_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawMcpTab_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="83" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaecf9bc528b5c54d5f96e86ef1528228d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawLanguageSelector_</definition>
-        <argsstring>()</argsstring>
-        <name>drawLanguageSelector_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawLanguageSelector_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="85" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawThemeSelector_</definition>
-        <argsstring>()</argsstring>
-        <name>drawThemeSelector_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawThemeSelector_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="86" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawResetDialog_</definition>
-        <argsstring>(bool activated)</argsstring>
-        <name>drawResetDialog_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawResetDialog_</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>activated</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="87" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga80dda1a25e5eddabe65d33ba1bed73b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawShadingModeCombo_</definition>
-        <argsstring>(bool inGroup, float toolWidth)</argsstring>
-        <name>drawShadingModeCombo_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawShadingModeCombo_</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>inGroup</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>toolWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="88" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gacd285192fd635b1db7826fa81a3a0838" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawProjectionModeSelector_</definition>
-        <argsstring>(float toolWidth)</argsstring>
-        <name>drawProjectionModeSelector_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawProjectionModeSelector_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>toolWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="89" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae12ce4a6d6a8278cbe7275f3b1a8309d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawUpDirectionSelector_</definition>
-        <argsstring>()</argsstring>
-        <name>drawUpDirectionSelector_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawUpDirectionSelector_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="90" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga772fb6f5b307f57aa572bc60c7c03a16" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawBackgroundButton_</definition>
-        <argsstring>(bool allViewports)</argsstring>
-        <name>drawBackgroundButton_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawBackgroundButton_</qualifiedname>
-        <param>
-          <type>bool</type>
-          <declname>allViewports</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="91" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gac41934b462a7ecf5a513279f7ad3c577" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawRenderOptions_</definition>
-        <argsstring>()</argsstring>
-        <name>drawRenderOptions_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawRenderOptions_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="92" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaf4cbb91c1e84bebd995c89284084c03d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawShadowsOptions_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawShadowsOptions_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawShadowsOptions_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="93" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawMouseSceneControlsSettings_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawMouseSceneControlsSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawMouseSceneControlsSettings_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="94" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga9076c9b9fe889480701ac78798e5d8df" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawSpaceMouseSettings_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawSpaceMouseSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawSpaceMouseSettings_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="95" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawTouchpadSettings_</definition>
-        <argsstring>()</argsstring>
-        <name>drawTouchpadSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawTouchpadSettings_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="96" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga83fb555192dd8d4e2a4b1207c41ba6af" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawMcpSettings_</definition>
-        <argsstring>()</argsstring>
-        <name>drawMcpSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawMcpSettings_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="97" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawMruInnerFormats_</definition>
-        <argsstring>(float menuWidth)</argsstring>
-        <name>drawMruInnerFormats_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawMruInnerFormats_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>menuWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="99" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawGlobalSettings_</definition>
-        <argsstring>(float buttonWidth)</argsstring>
-        <name>drawGlobalSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawGlobalSettings_</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>buttonWidth</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="101" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gac234fd8124156d65a822970b7bae04e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawCustomSettings_</definition>
-        <argsstring>(const std::string &amp;separatorName, bool needSeparator)</argsstring>
-        <name>drawCustomSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawCustomSettings_</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>separatorName</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>needSeparator</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="102" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga44560a17a160565e9cf3acfe603f0dc4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::drawSeparator_</definition>
-        <argsstring>(const std::string &amp;separatorName)</argsstring>
-        <name>drawSeparator_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::drawSeparator_</qualifiedname>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>separatorName</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="103" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gad21a2705e7ef20d2834f543c459d1df2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::updateDialog_</definition>
-        <argsstring>()</argsstring>
-        <name>updateDialog_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::updateDialog_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="106" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab62082b112c1ef416c167b16137cc397" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ViewerSettingsPlugin::resetSettings_</definition>
-        <argsstring>()</argsstring>
-        <name>resetSettings_</name>
-        <qualifiedname>MR::ViewerSettingsPlugin::resetSettings_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRViewerSettingsPlugin.h" line="107" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae201ece8e089fb91a710af404169e25a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

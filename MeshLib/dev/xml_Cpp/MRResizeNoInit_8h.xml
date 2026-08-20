@@ -110,6 +110,10 @@
         <label>MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</label>
         <link refid="MRRibbonSceneButtons_8h"/>
       </node>
+      <node id="138">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
       <node id="119">
         <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
@@ -1341,13 +1345,13 @@
         </childnode>
         <childnode refid="137" relation="include">
         </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
         <childnode refid="119" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="127" relation="include">
-        </childnode>
-        <childnode refid="138" relation="include">
         </childnode>
       </node>
       <node id="162">
@@ -1357,10 +1361,6 @@
       <node id="82">
         <label>MRViewer/MRSwapRootAction.h</label>
         <link refid="MRSwapRootAction_8h"/>
-      </node>
-      <node id="138">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
       <node id="112">
         <label>MRViewer/MRViewportGlobalBasis.h</label>

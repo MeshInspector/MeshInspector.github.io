@@ -10655,7 +10655,9 @@
     <member refid="group__GeneralGroup_1ga8a630feed4b5e16e5388d3dff5f6e515" kind="variable"><name>lowSizeFramebuffer_</name></member>
     <member refid="group__GeneralGroup_1gac683fcfed794f34445c1eb39ae01b771" kind="variable"><name>convolutionXFramebuffer_</name></member>
     <member refid="group__GeneralGroup_1ga69f27dbbbbff85cba2122d43489d3621" kind="variable"><name>enabled_</name></member>
-    <member refid="group__GeneralGroup_1ga41c74b52ccad8c211d2b8e3dc639e4aa" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+    <member refid="group__GeneralGroup_1ga7e6bcf6e69dbb71096b7a3168949ac56" kind="function"><name>ShadowsGL</name></member>
+    <member refid="group__GeneralGroup_1ga25146e777f581d9d82c1e4f22d3165c9" kind="function"><name>ShadowsGL</name></member>
+    <member refid="group__GeneralGroup_1ga3e74b18bef132d73cfbd57d646961b95" kind="function"><name>operator=</name></member>
     <member refid="group__GeneralGroup_1ga392c155eda51521790918b36d34f7ca1" kind="function"><name>~ShadowsGL</name></member>
     <member refid="group__GeneralGroup_1ga876b1cadd41eef4dda31a23ad2ef09be" kind="function"><name>enable</name></member>
     <member refid="group__GeneralGroup_1gafbfb18c734f6d41741dcdd84a9031e95" kind="function"><name>isEnabled</name></member>
@@ -12883,11 +12885,11 @@
     <member refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" kind="function"><name>ViewerSettingsPlugin</name></member>
     <member refid="group__GeneralGroup_1ga119e03f41d8f3bdf0c9ee522b8ad623b" kind="function"><name>drawDialog</name></member>
     <member refid="group__GeneralGroup_1gac31f0ed7c0847408208b9cd59d7a9c40" kind="function"><name>blocking</name></member>
-    <member refid="group__GeneralGroup_1gabb15c0c1b70bb9ff91021e28f50a7b15" kind="function"><name>updateThemes</name></member>
-    <member refid="group__GeneralGroup_1ga26c3643fb290f5451aba04478ef7d6cd" kind="function"><name>addComboSettings</name></member>
-    <member refid="group__GeneralGroup_1ga825a622fcfe43eae88b6c32e132c0ba3" kind="function"><name>delComboSettings</name></member>
-    <member refid="group__GeneralGroup_1gacc58c168370abe4d53898a41e80cfc51" kind="function"><name>setActiveTab</name></member>
-    <member refid="group__GeneralGroup_1gaf31247144d4b7dbe6ce93572ca7047cc" kind="function"><name>instance</name></member>
+    <member refid="group__GeneralGroup_1ga2bd394f0e78044d2a22dbea3c993e04c" kind="function"><name>updateThemes</name></member>
+    <member refid="group__GeneralGroup_1ga7c752a952b08baa8a106a3df277698df" kind="function"><name>addComboSettings</name></member>
+    <member refid="group__GeneralGroup_1ga4861cc201749e069416f4f233de758cd" kind="function"><name>delComboSettings</name></member>
+    <member refid="group__GeneralGroup_1ga87d0a86ee8efb653beafdd42d3e969fc" kind="function"><name>setActiveTab</name></member>
+    <member refid="group__GeneralGroup_1gad9bb1178cd07c90a5a7cedf2236259c4" kind="function"><name>instance</name></member>
     <member refid="group__GeneralGroup_1gad68314882fab9a5eb41c7e70678268cd" kind="function"><name>onEnable_</name></member>
     <member refid="group__GeneralGroup_1ga8a96ddb6300fd5de84ba523be91b69dc" kind="function"><name>onDisable_</name></member>
     <member refid="group__GeneralGroup_1gad0d7089f5aed92e160f44e7a9ce9202b" kind="function"><name>drawTab_</name></member>
@@ -17159,9 +17161,15 @@
   </compound>
   <compound refid="MRAddCustomTheme_8h" kind="file"><name>MRAddCustomTheme.h</name>
   </compound>
+  <compound refid="MRHistoryMenuItems_8h" kind="file"><name>MRHistoryMenuItems.h</name>
+  </compound>
   <compound refid="MRIOFilesMenuItems_8h" kind="file"><name>MRIOFilesMenuItems.h</name>
   </compound>
   <compound refid="MRRibbonSceneButtons_8h" kind="file"><name>MRRibbonSceneButtons.h</name>
+  </compound>
+  <compound refid="MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
+  </compound>
+  <compound refid="MRViewerSettingsPlugin_8h" kind="file"><name>MRViewerSettingsPlugin.h</name>
   </compound>
   <compound refid="MRBinaryOperationsPlugin_8h" kind="file"><name>MRBinaryOperationsPlugin.h</name>
   </compound>
@@ -18539,10 +18547,6 @@
   </compound>
   <compound refid="MRSceneCache_8h" kind="file"><name>MRSceneCache.h</name>
   </compound>
-  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
-  </compound>
   <compound refid="MRSceneObjectsListDrawer_8h" kind="file"><name>MRSceneObjectsListDrawer.h</name>
   </compound>
   <compound refid="MRSceneOperations_8h" kind="file"><name>MRSceneOperations.h</name>
@@ -18664,8 +18668,6 @@
   <compound refid="MRViewerPlugin_8h" kind="file"><name>MRViewerPlugin.h</name>
   </compound>
   <compound refid="MRViewerSettingsManager_8h" kind="file"><name>MRViewerSettingsManager.h</name>
-  </compound>
-  <compound refid="MRViewerSettingsPlugin_8h" kind="file"><name>MRViewerSettingsPlugin.h</name>
   </compound>
   <compound refid="MRViewerSignals_8h" kind="file"><name>MRViewerSignals.h</name>
   </compound>
@@ -20327,6 +20329,15 @@
     <member refid="group__GeneralGroup_1gga3d2a81d9958b76933c36a468144ccc9dae9017664588010860a92ceb5f8fcb824" kind="enumvalue"><name>Quad</name></member>
     <member refid="group__GeneralGroup_1gga3d2a81d9958b76933c36a468144ccc9da92640bd72988395b326c888614f8937a" kind="enumvalue"><name>Hex</name></member>
     <member refid="group__GeneralGroup_1gga3d2a81d9958b76933c36a468144ccc9dae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
+    <member refid="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" kind="enum"><name>TabType</name></member>
+    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7" kind="enumvalue"><name>Quick</name></member>
+    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988" kind="enumvalue"><name>Application</name></member>
+    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1" kind="enumvalue"><name>Control</name></member>
+    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2" kind="enumvalue"><name>Viewport</name></member>
+    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba87d240c3f234e32f9143dd0446de66d8" kind="enumvalue"><name>MeasurementUnits</name></member>
+    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba636c59d7bf7741f3a0773c7a8104b245" kind="enumvalue"><name>Mcp</name></member>
+    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805" kind="enumvalue"><name>Features</name></member>
+    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
     <member refid="group__GeneralGroup_1ga96ac8ef99c2fe0087044f6e56cc06570" kind="enum"><name>Operation</name></member>
     <member refid="group__GeneralGroup_1gga96ac8ef99c2fe0087044f6e56cc06570aaef12e903e606a4895a16b393bfdec8c" kind="enumvalue"><name>Union</name></member>
     <member refid="group__GeneralGroup_1gga96ac8ef99c2fe0087044f6e56cc06570aa06d31c2ee920b4d53e8c9c06d90ba24" kind="enumvalue"><name>Intersection</name></member>
@@ -21151,15 +21162,6 @@
     <member refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0" kind="enumvalue"><name>Voxels</name></member>
     <member refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77" kind="enumvalue"><name>DistanceMap</name></member>
     <member refid="group__GeneralGroup_1gga0467e77cf6f92e5f94c8d1d75eef8a76ae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
-    <member refid="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" kind="enum"><name>TabType</name></member>
-    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7" kind="enumvalue"><name>Quick</name></member>
-    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988" kind="enumvalue"><name>Application</name></member>
-    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1" kind="enumvalue"><name>Control</name></member>
-    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2" kind="enumvalue"><name>Viewport</name></member>
-    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba87d240c3f234e32f9143dd0446de66d8" kind="enumvalue"><name>MeasurementUnits</name></member>
-    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba636c59d7bf7741f3a0773c7a8104b245" kind="enumvalue"><name>Mcp</name></member>
-    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805" kind="enumvalue"><name>Features</name></member>
-    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
     <member refid="group__GeneralGroup_1gab498d9b4852811b8095a89935081126f" kind="enum"><name>GlobalBasisScaleMode</name></member>
     <member refid="group__GeneralGroup_1ggab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb" kind="enumvalue"><name>Auto</name></member>
     <member refid="group__GeneralGroup_1ggab498d9b4852811b8095a89935081126fa4457d440870ad6d42bab9082d9bf9b61" kind="enumvalue"><name>Fixed</name></member>
@@ -21732,6 +21734,8 @@
     <member refid="group__GeneralGroup_1ga8408ba2e1ffac3d02fb824e56d622d14" kind="variable"><name>userThemesPresets_</name></member>
     <member refid="group__GeneralGroup_1gaed47acc6c0aee189cc61e91d6cf051d0" kind="variable"><name>preset_</name></member>
     <member refid="group__GeneralGroup_1ga985b2d7480ed09728b906abc9f7aa1e2" kind="variable"><name>themeName_</name></member>
+    <member refid="group__GeneralGroup_1gaa7398f0bbd20f0632bffb15fdd7b9697" kind="variable"><name>historyStoreConnection_</name></member>
+    <member refid="group__GeneralGroup_1ga8c653d61ba6079f4d97d9299f3a8cbe8" kind="variable"><name>historyStoreConnection_</name></member>
     <member refid="group__GeneralGroup_1gaf821b1fe157f80dabaf66a23133f2f78" kind="variable"><name>dragging_</name></member>
     <member refid="group__GeneralGroup_1gab855a6330dd6acc52da926d44ff7fd76" kind="variable"><name>dragPos_</name></member>
     <member refid="group__GeneralGroup_1ga6f744df1a8933de02b25d92a4551d4d2" kind="variable"><name>recentStoreConnection_</name></member>
@@ -21746,6 +21750,21 @@
     <member refid="group__GeneralGroup_1ga164a0f287e6087bc196e1de79c8f2529" kind="variable"><name>type_</name></member>
     <member refid="group__GeneralGroup_1gae8ac23a9f4c37d4123681c75e9227665" kind="variable"><name>type_</name></member>
     <member refid="group__GeneralGroup_1ga601a4ffb01fc7ba75260df1e707a1fac" kind="variable"><name>updateViewports_</name></member>
+    <member refid="group__GeneralGroup_1ga047afd56c4798c48f7121ad62c733259" kind="variable"><name>storedSamples_</name></member>
+    <member refid="group__GeneralGroup_1gaa024a5be3baa23b2286b5098bdda431e" kind="variable"><name>maxSamples_</name></member>
+    <member refid="group__GeneralGroup_1ga8b0d0e857bc86e82e9aafaa8c2fb3a9b" kind="variable"><name>gpuOverridesMSAA_</name></member>
+    <member refid="group__GeneralGroup_1ga7804450cb17708be19bec3d0981128cd" kind="variable"><name>tempUserScaling_</name></member>
+    <member refid="group__GeneralGroup_1gad8e0bf4467ab87e19a5146de2385bebf" kind="variable"><name>backgroundColor_</name></member>
+    <member refid="group__GeneralGroup_1gad0e0d1cc8fce8e794694d3f6d877d794" kind="variable"><name>selectedLanguage_</name></member>
+    <member refid="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" kind="variable"><name>selectedUserPreset_</name></member>
+    <member refid="group__GeneralGroup_1gad4388798318e29736315d5a9cb21ebb0" kind="variable"><name>userThemesPresets_</name></member>
+    <member refid="group__GeneralGroup_1ga0f3ad2977cefa7607eb755063d711774" kind="variable"><name>shadowGl_</name></member>
+    <member refid="group__GeneralGroup_1gaa0a0d9dbeaa39b7725d50966e9652537" kind="variable"><name>spaceMouseParams_</name></member>
+    <member refid="group__GeneralGroup_1ga0d02884daef68b9090f2fc24899467bd" kind="variable"><name>touchpadParameters_</name></member>
+    <member refid="group__GeneralGroup_1gaca69b2de3f466e977b398c0155b02cca" kind="variable"><name>activeTab_</name></member>
+    <member refid="group__GeneralGroup_1ga9b2fe6e3312bc4374c221800fe40b4c5" kind="variable"><name>orderedTab_</name></member>
+    <member refid="group__GeneralGroup_1ga70f10bd29105edf9ee71c6dd68ef5c9b" kind="variable"><name>comboSettings_</name></member>
+    <member refid="group__GeneralGroup_1gadcbd14e9b8681ce364c9edc3a665e582" kind="variable"><name>mruFormatParameters_</name></member>
     <member refid="group__GeneralGroup_1ga19598aba58399ca4a10dcb1b6ad866c5" kind="variable"><name>obj1_</name></member>
     <member refid="group__GeneralGroup_1ga231244084d8780912abe37387a0d00d8" kind="variable"><name>obj2_</name></member>
     <member refid="group__GeneralGroup_1ga81c2291cce9aae1284a419d58a435045" kind="variable"><name>conn1_</name></member>
@@ -24273,8 +24292,6 @@
     <member refid="group__GeneralGroup_1ga298b1987dbe5d8d598ab8a165c6c6e61" kind="variable"><name>value</name></member>
     <member refid="group__GeneralGroup_1ga59a56a9cd42bd996e0743126cfba1b33" kind="variable"><name>value</name></member>
     <member refid="group__GeneralGroup_1ga8dc1a7e0d229b3e79f0bced413a9b2eb" kind="variable"><name>cachedData_</name></member>
-    <member refid="group__GeneralGroup_1gaa7398f0bbd20f0632bffb15fdd7b9697" kind="variable"><name>historyStoreConnection_</name></member>
-    <member refid="group__GeneralGroup_1ga8c653d61ba6079f4d97d9299f3a8cbe8" kind="variable"><name>historyStoreConnection_</name></member>
     <member refid="group__GeneralGroup_1gacead207f8ba93a8da9b77fd9d23770fc" kind="variable"><name>showNewSelectedObjects_</name></member>
     <member refid="group__GeneralGroup_1gaf4b84e5c4ee9c3f4eca9a8e0c73dde3d" kind="variable"><name>deselectNewHiddenObjects_</name></member>
     <member refid="group__GeneralGroup_1ga8a60d352593fe44cc3cfcd83f0490498" kind="variable"><name>clickTrigger_</name></member>
@@ -24628,21 +24645,6 @@
     <member refid="group__GeneralGroup_1gad94e4d4dcae262fbf618c54cbdbdf4aa" kind="variable"><name>WebRequest</name></member>
     <member refid="group__GeneralGroup_1gad12538d77ebcf356c03469cbce40abae" kind="variable"><name>viewer</name></member>
     <member refid="group__GeneralGroup_1ga90a7d78d290a3fb47d55b7241f88e075" kind="variable"><name>lastExtentions_</name></member>
-    <member refid="group__GeneralGroup_1ga047afd56c4798c48f7121ad62c733259" kind="variable"><name>storedSamples_</name></member>
-    <member refid="group__GeneralGroup_1gaa024a5be3baa23b2286b5098bdda431e" kind="variable"><name>maxSamples_</name></member>
-    <member refid="group__GeneralGroup_1ga8b0d0e857bc86e82e9aafaa8c2fb3a9b" kind="variable"><name>gpuOverridesMSAA_</name></member>
-    <member refid="group__GeneralGroup_1ga7804450cb17708be19bec3d0981128cd" kind="variable"><name>tempUserScaling_</name></member>
-    <member refid="group__GeneralGroup_1gad8e0bf4467ab87e19a5146de2385bebf" kind="variable"><name>backgroundColor_</name></member>
-    <member refid="group__GeneralGroup_1gad0e0d1cc8fce8e794694d3f6d877d794" kind="variable"><name>selectedLanguage_</name></member>
-    <member refid="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" kind="variable"><name>selectedUserPreset_</name></member>
-    <member refid="group__GeneralGroup_1gad4388798318e29736315d5a9cb21ebb0" kind="variable"><name>userThemesPresets_</name></member>
-    <member refid="group__GeneralGroup_1ga0f3ad2977cefa7607eb755063d711774" kind="variable"><name>shadowGl_</name></member>
-    <member refid="group__GeneralGroup_1gaa0a0d9dbeaa39b7725d50966e9652537" kind="variable"><name>spaceMouseParams_</name></member>
-    <member refid="group__GeneralGroup_1ga0d02884daef68b9090f2fc24899467bd" kind="variable"><name>touchpadParameters_</name></member>
-    <member refid="group__GeneralGroup_1gaca69b2de3f466e977b398c0155b02cca" kind="variable"><name>activeTab_</name></member>
-    <member refid="group__GeneralGroup_1ga9b2fe6e3312bc4374c221800fe40b4c5" kind="variable"><name>orderedTab_</name></member>
-    <member refid="group__GeneralGroup_1ga70f10bd29105edf9ee71c6dd68ef5c9b" kind="variable"><name>comboSettings_</name></member>
-    <member refid="group__GeneralGroup_1gadcbd14e9b8681ce364c9edc3a665e582" kind="variable"><name>mruFormatParameters_</name></member>
     <member refid="group__GeneralGroup_1ga42da6839fe10c9bf9756229bdfed4a9e" kind="variable"><name>mouseDownSignal</name></member>
     <member refid="group__GeneralGroup_1ga28dad40dee518e3fb6708f95a966bdc3" kind="variable"><name>mouseUpSignal</name></member>
     <member refid="group__GeneralGroup_1ga2458dcd3567d5b4979e0746ad10a4cdd" kind="variable"><name>mouseMoveSignal</name></member>
@@ -25270,6 +25272,16 @@
     <member refid="group__GeneralGroup_1gacfdf72a662b49433d2258aee029db306" kind="function"><name>makeJson_</name></member>
     <member refid="group__GeneralGroup_1gaa9132eb0f31602f0b98ace2823cfd491" kind="function"><name>update_</name></member>
     <member refid="group__GeneralGroup_1ga6812187d616e6ad308698b5817f83006" kind="function"><name>save_</name></member>
+    <member refid="group__GeneralGroup_1ga1cf602734a01790f8fd41ea6d726768e" kind="function"><name>UndoMenuItem</name></member>
+    <member refid="group__GeneralGroup_1ga7192ae4eb328a96185a7f6b1bc4da2c6" kind="function"><name>action</name></member>
+    <member refid="group__GeneralGroup_1ga9d342a9cc6146313f3141b5732e43f94" kind="function"><name>isAvailable</name></member>
+    <member refid="group__GeneralGroup_1ga9524c582abeb9ae1041550d7adeb56eb" kind="function"><name>getDynamicTooltip</name></member>
+    <member refid="group__GeneralGroup_1ga49a0f8dc7d823aae0fcee04ad96d5bc2" kind="function"><name>updateUndoListCache_</name></member>
+    <member refid="group__GeneralGroup_1ga4899cc7ca225d5bc473aedd72f99b18b" kind="function"><name>RedoMenuItem</name></member>
+    <member refid="group__GeneralGroup_1ga36ed5986c45fa790cafed4df8b0d3536" kind="function"><name>action</name></member>
+    <member refid="group__GeneralGroup_1ga7f4b5aa48593d39bfb57474d6fcc2ad5" kind="function"><name>isAvailable</name></member>
+    <member refid="group__GeneralGroup_1ga8de54e498c94d2adea1613dd73e9a818" kind="function"><name>getDynamicTooltip</name></member>
+    <member refid="group__GeneralGroup_1ga5d748b82ae5325e076cc5dab6e2c2f56" kind="function"><name>updateRedoListCache_</name></member>
     <member refid="group__GeneralGroup_1ga9b247e419f48e278a2836eb114d8d0bd" kind="function"><name>OpenDirectoryMenuItem</name></member>
     <member refid="group__GeneralGroup_1ga4823452a80e9a83ccd30f93c77a7e233" kind="function"><name>isAvailable</name></member>
     <member refid="group__GeneralGroup_1ga99e13adad0201cd173dae6af6ad6138c" kind="function"><name>action</name></member>
@@ -25351,6 +25363,48 @@
     <member refid="group__GeneralGroup_1gaa5f3104ebb87b4497658882eaf9511cc" kind="function"><name>SetViewportConfigPresetMenuItem</name></member>
     <member refid="group__GeneralGroup_1gaf38a4828a4d0a03c1ff96f685d5bc06f" kind="function"><name>setCustomUpdateViewports</name></member>
     <member refid="group__GeneralGroup_1gaab1e4ca9d8717e7092bf07b4ff40434a" kind="function"><name>action</name></member>
+    <member refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" kind="function"><name>ViewerSettingsPlugin</name></member>
+    <member refid="group__GeneralGroup_1ga119e03f41d8f3bdf0c9ee522b8ad623b" kind="function"><name>drawDialog</name></member>
+    <member refid="group__GeneralGroup_1gac31f0ed7c0847408208b9cd59d7a9c40" kind="function"><name>blocking</name></member>
+    <member refid="group__GeneralGroup_1ga2bd394f0e78044d2a22dbea3c993e04c" kind="function"><name>updateThemes</name></member>
+    <member refid="group__GeneralGroup_1gab3fe6a46824654fabde6d6f501eb8141" kind="function"><name>~ExternalSettings</name></member>
+    <member refid="group__GeneralGroup_1ga2b40b2d1d9febe79a58c0f64f8aaf704" kind="function"><name>getName</name></member>
+    <member refid="group__GeneralGroup_1gab5824d8d06eee687e2f907f59db61f96" kind="function"><name>draw</name></member>
+    <member refid="group__GeneralGroup_1ga5daa51d87dc540fd02b52303e05cbe20" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1gaefce61dfeb872bbe04d722fc13f1a0ac" kind="function"><name>separatorName</name></member>
+    <member refid="group__GeneralGroup_1ga7c752a952b08baa8a106a3df277698df" kind="function"><name>addComboSettings</name></member>
+    <member refid="group__GeneralGroup_1ga4861cc201749e069416f4f233de758cd" kind="function"><name>delComboSettings</name></member>
+    <member refid="group__GeneralGroup_1gad9bb1178cd07c90a5a7cedf2236259c4" kind="function"><name>instance</name></member>
+    <member refid="group__GeneralGroup_1ga87d0a86ee8efb653beafdd42d3e969fc" kind="function"><name>setActiveTab</name></member>
+    <member refid="group__GeneralGroup_1gad68314882fab9a5eb41c7e70678268cd" kind="function"><name>onEnable_</name></member>
+    <member refid="group__GeneralGroup_1ga8a96ddb6300fd5de84ba523be91b69dc" kind="function"><name>onDisable_</name></member>
+    <member refid="group__GeneralGroup_1gad0d7089f5aed92e160f44e7a9ce9202b" kind="function"><name>drawTab_</name></member>
+    <member refid="group__GeneralGroup_1gab3385c270312c2f8341855336aeec56a" kind="function"><name>drawQuickTab_</name></member>
+    <member refid="group__GeneralGroup_1gaad5ed50d043abbea26da2853f14bfda1" kind="function"><name>drawApplicationTab_</name></member>
+    <member refid="group__GeneralGroup_1ga10ae128bccb0b8e1b585c02fc6f9d85b" kind="function"><name>drawControlTab_</name></member>
+    <member refid="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" kind="function"><name>drawViewportTab_</name></member>
+    <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" kind="function"><name>drawMeasurementUnitsTab_</name></member>
+    <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" kind="function"><name>drawFeaturesTab_</name></member>
+    <member refid="group__GeneralGroup_1ga4a4a6cdd7bb35a234274fe59ecc9c0ee" kind="function"><name>drawMcpTab_</name></member>
+    <member refid="group__GeneralGroup_1gaecf9bc528b5c54d5f96e86ef1528228d" kind="function"><name>drawLanguageSelector_</name></member>
+    <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" kind="function"><name>drawThemeSelector_</name></member>
+    <member refid="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" kind="function"><name>drawResetDialog_</name></member>
+    <member refid="group__GeneralGroup_1ga80dda1a25e5eddabe65d33ba1bed73b6" kind="function"><name>drawShadingModeCombo_</name></member>
+    <member refid="group__GeneralGroup_1gacd285192fd635b1db7826fa81a3a0838" kind="function"><name>drawProjectionModeSelector_</name></member>
+    <member refid="group__GeneralGroup_1gae12ce4a6d6a8278cbe7275f3b1a8309d" kind="function"><name>drawUpDirectionSelector_</name></member>
+    <member refid="group__GeneralGroup_1ga772fb6f5b307f57aa572bc60c7c03a16" kind="function"><name>drawBackgroundButton_</name></member>
+    <member refid="group__GeneralGroup_1gac41934b462a7ecf5a513279f7ad3c577" kind="function"><name>drawRenderOptions_</name></member>
+    <member refid="group__GeneralGroup_1gaf4cbb91c1e84bebd995c89284084c03d" kind="function"><name>drawShadowsOptions_</name></member>
+    <member refid="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" kind="function"><name>drawMouseSceneControlsSettings_</name></member>
+    <member refid="group__GeneralGroup_1ga9076c9b9fe889480701ac78798e5d8df" kind="function"><name>drawSpaceMouseSettings_</name></member>
+    <member refid="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" kind="function"><name>drawTouchpadSettings_</name></member>
+    <member refid="group__GeneralGroup_1ga83fb555192dd8d4e2a4b1207c41ba6af" kind="function"><name>drawMcpSettings_</name></member>
+    <member refid="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" kind="function"><name>drawMruInnerFormats_</name></member>
+    <member refid="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" kind="function"><name>drawGlobalSettings_</name></member>
+    <member refid="group__GeneralGroup_1gac234fd8124156d65a822970b7bae04e4" kind="function"><name>drawCustomSettings_</name></member>
+    <member refid="group__GeneralGroup_1ga44560a17a160565e9cf3acfe603f0dc4" kind="function"><name>drawSeparator_</name></member>
+    <member refid="group__GeneralGroup_1gad21a2705e7ef20d2834f543c459d1df2" kind="function"><name>updateDialog_</name></member>
+    <member refid="group__GeneralGroup_1gab62082b112c1ef416c167b16137cc397" kind="function"><name>resetSettings_</name></member>
     <member refid="group__GeneralGroup_1ga24b375764095f9afbc2c745c8242f877" kind="function"><name>BinaryOperations</name></member>
     <member refid="group__GeneralGroup_1ga4f95cb89a4264a9f31a3acf0fe27003f" kind="function"><name>drawDialog</name></member>
     <member refid="group__GeneralGroup_1ga1bbd341fda7ffa2756396b7558bd9a5a" kind="function"><name>onEnable_</name></member>
@@ -30080,16 +30134,6 @@
     <member refid="group__GeneralGroup_1gaf4d86ad80c963f4417cfbc39e70101be" kind="function"><name>BasicVectorHolder</name></member>
     <member refid="group__GeneralGroup_1gabc41b1d52dc166a328a71e832dfc8bc4" kind="function"><name>BasicVectorHolder</name></member>
     <member refid="group__GeneralGroup_1ga078475b1e162429a1e0c92ffe8c7cdc1" kind="function"><name>~BasicVectorHolder</name></member>
-    <member refid="group__GeneralGroup_1ga1cf602734a01790f8fd41ea6d726768e" kind="function"><name>UndoMenuItem</name></member>
-    <member refid="group__GeneralGroup_1ga7192ae4eb328a96185a7f6b1bc4da2c6" kind="function"><name>action</name></member>
-    <member refid="group__GeneralGroup_1ga9d342a9cc6146313f3141b5732e43f94" kind="function"><name>isAvailable</name></member>
-    <member refid="group__GeneralGroup_1ga9524c582abeb9ae1041550d7adeb56eb" kind="function"><name>getDynamicTooltip</name></member>
-    <member refid="group__GeneralGroup_1ga49a0f8dc7d823aae0fcee04ad96d5bc2" kind="function"><name>updateUndoListCache_</name></member>
-    <member refid="group__GeneralGroup_1ga4899cc7ca225d5bc473aedd72f99b18b" kind="function"><name>RedoMenuItem</name></member>
-    <member refid="group__GeneralGroup_1ga36ed5986c45fa790cafed4df8b0d3536" kind="function"><name>action</name></member>
-    <member refid="group__GeneralGroup_1ga7f4b5aa48593d39bfb57474d6fcc2ad5" kind="function"><name>isAvailable</name></member>
-    <member refid="group__GeneralGroup_1ga8de54e498c94d2adea1613dd73e9a818" kind="function"><name>getDynamicTooltip</name></member>
-    <member refid="group__GeneralGroup_1ga5d748b82ae5325e076cc5dab6e2c2f56" kind="function"><name>updateRedoListCache_</name></member>
     <member refid="group__GeneralGroup_1gaffefc47d2b779b451bc3f420ddfdbdf8" kind="function"><name>~SceneObjectsListDrawer</name></member>
     <member refid="group__GeneralGroup_1ga3d227339c7308cbe6b17b82bede4dc9d" kind="function"><name>draw</name></member>
     <member refid="group__GeneralGroup_1ga87100a0f8079f7712cae2c150a6a9ed9" kind="function"><name>setShowNewSelectedObjects</name></member>
@@ -30198,7 +30242,9 @@
     <member refid="group__GeneralGroup_1ga7fea6f4fe3c17764eacef8a0324e144f" kind="function"><name>getFragmentShaderHeaderBlock</name></member>
     <member refid="group__GeneralGroup_1ga81ff3b05848c2519852aab6b24b830e4" kind="function"><name>getFragmentShaderEndBlock</name></member>
     <member refid="group__GeneralGroup_1gaf55badec247a8ed83ca57e51e74e36c0" kind="function"><name>getShaderMainBeginBlock</name></member>
-    <member refid="group__GeneralGroup_1ga41c74b52ccad8c211d2b8e3dc639e4aa" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+    <member refid="group__GeneralGroup_1ga7e6bcf6e69dbb71096b7a3168949ac56" kind="function"><name>ShadowsGL</name></member>
+    <member refid="group__GeneralGroup_1ga25146e777f581d9d82c1e4f22d3165c9" kind="function"><name>ShadowsGL</name></member>
+    <member refid="group__GeneralGroup_1ga3e74b18bef132d73cfbd57d646961b95" kind="function"><name>operator=</name></member>
     <member refid="group__GeneralGroup_1ga392c155eda51521790918b36d34f7ca1" kind="function"><name>~ShadowsGL</name></member>
     <member refid="group__GeneralGroup_1ga876b1cadd41eef4dda31a23ad2ef09be" kind="function"><name>enable</name></member>
     <member refid="group__GeneralGroup_1gafbfb18c734f6d41741dcdd84a9031e95" kind="function"><name>isEnabled</name></member>
@@ -30927,48 +30973,6 @@
     <member refid="group__GeneralGroup_1gab1829bbed7fabbfad745ec9ed088349a" kind="function"><name>saveSettings</name></member>
     <member refid="group__GeneralGroup_1ga0f8fa1a40f357a19b3c9b3ddaeb151e1" kind="function"><name>getLastExtention</name></member>
     <member refid="group__GeneralGroup_1gaf07ee03c5a1cde31ba1630a663fe83f6" kind="function"><name>setLastExtention</name></member>
-    <member refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" kind="function"><name>ViewerSettingsPlugin</name></member>
-    <member refid="group__GeneralGroup_1ga119e03f41d8f3bdf0c9ee522b8ad623b" kind="function"><name>drawDialog</name></member>
-    <member refid="group__GeneralGroup_1gac31f0ed7c0847408208b9cd59d7a9c40" kind="function"><name>blocking</name></member>
-    <member refid="group__GeneralGroup_1gabb15c0c1b70bb9ff91021e28f50a7b15" kind="function"><name>updateThemes</name></member>
-    <member refid="group__GeneralGroup_1gab3fe6a46824654fabde6d6f501eb8141" kind="function"><name>~ExternalSettings</name></member>
-    <member refid="group__GeneralGroup_1ga2b40b2d1d9febe79a58c0f64f8aaf704" kind="function"><name>getName</name></member>
-    <member refid="group__GeneralGroup_1gab5824d8d06eee687e2f907f59db61f96" kind="function"><name>draw</name></member>
-    <member refid="group__GeneralGroup_1ga5daa51d87dc540fd02b52303e05cbe20" kind="function"><name>reset</name></member>
-    <member refid="group__GeneralGroup_1gaefce61dfeb872bbe04d722fc13f1a0ac" kind="function"><name>separatorName</name></member>
-    <member refid="group__GeneralGroup_1ga26c3643fb290f5451aba04478ef7d6cd" kind="function"><name>addComboSettings</name></member>
-    <member refid="group__GeneralGroup_1ga825a622fcfe43eae88b6c32e132c0ba3" kind="function"><name>delComboSettings</name></member>
-    <member refid="group__GeneralGroup_1gaf31247144d4b7dbe6ce93572ca7047cc" kind="function"><name>instance</name></member>
-    <member refid="group__GeneralGroup_1gacc58c168370abe4d53898a41e80cfc51" kind="function"><name>setActiveTab</name></member>
-    <member refid="group__GeneralGroup_1gad68314882fab9a5eb41c7e70678268cd" kind="function"><name>onEnable_</name></member>
-    <member refid="group__GeneralGroup_1ga8a96ddb6300fd5de84ba523be91b69dc" kind="function"><name>onDisable_</name></member>
-    <member refid="group__GeneralGroup_1gad0d7089f5aed92e160f44e7a9ce9202b" kind="function"><name>drawTab_</name></member>
-    <member refid="group__GeneralGroup_1gab3385c270312c2f8341855336aeec56a" kind="function"><name>drawQuickTab_</name></member>
-    <member refid="group__GeneralGroup_1gaad5ed50d043abbea26da2853f14bfda1" kind="function"><name>drawApplicationTab_</name></member>
-    <member refid="group__GeneralGroup_1ga10ae128bccb0b8e1b585c02fc6f9d85b" kind="function"><name>drawControlTab_</name></member>
-    <member refid="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" kind="function"><name>drawViewportTab_</name></member>
-    <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" kind="function"><name>drawMeasurementUnitsTab_</name></member>
-    <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" kind="function"><name>drawFeaturesTab_</name></member>
-    <member refid="group__GeneralGroup_1ga4a4a6cdd7bb35a234274fe59ecc9c0ee" kind="function"><name>drawMcpTab_</name></member>
-    <member refid="group__GeneralGroup_1gaecf9bc528b5c54d5f96e86ef1528228d" kind="function"><name>drawLanguageSelector_</name></member>
-    <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" kind="function"><name>drawThemeSelector_</name></member>
-    <member refid="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" kind="function"><name>drawResetDialog_</name></member>
-    <member refid="group__GeneralGroup_1ga80dda1a25e5eddabe65d33ba1bed73b6" kind="function"><name>drawShadingModeCombo_</name></member>
-    <member refid="group__GeneralGroup_1gacd285192fd635b1db7826fa81a3a0838" kind="function"><name>drawProjectionModeSelector_</name></member>
-    <member refid="group__GeneralGroup_1gae12ce4a6d6a8278cbe7275f3b1a8309d" kind="function"><name>drawUpDirectionSelector_</name></member>
-    <member refid="group__GeneralGroup_1ga772fb6f5b307f57aa572bc60c7c03a16" kind="function"><name>drawBackgroundButton_</name></member>
-    <member refid="group__GeneralGroup_1gac41934b462a7ecf5a513279f7ad3c577" kind="function"><name>drawRenderOptions_</name></member>
-    <member refid="group__GeneralGroup_1gaf4cbb91c1e84bebd995c89284084c03d" kind="function"><name>drawShadowsOptions_</name></member>
-    <member refid="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" kind="function"><name>drawMouseSceneControlsSettings_</name></member>
-    <member refid="group__GeneralGroup_1ga9076c9b9fe889480701ac78798e5d8df" kind="function"><name>drawSpaceMouseSettings_</name></member>
-    <member refid="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" kind="function"><name>drawTouchpadSettings_</name></member>
-    <member refid="group__GeneralGroup_1ga83fb555192dd8d4e2a4b1207c41ba6af" kind="function"><name>drawMcpSettings_</name></member>
-    <member refid="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" kind="function"><name>drawMruInnerFormats_</name></member>
-    <member refid="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" kind="function"><name>drawGlobalSettings_</name></member>
-    <member refid="group__GeneralGroup_1gac234fd8124156d65a822970b7bae04e4" kind="function"><name>drawCustomSettings_</name></member>
-    <member refid="group__GeneralGroup_1ga44560a17a160565e9cf3acfe603f0dc4" kind="function"><name>drawSeparator_</name></member>
-    <member refid="group__GeneralGroup_1gad21a2705e7ef20d2834f543c459d1df2" kind="function"><name>updateDialog_</name></member>
-    <member refid="group__GeneralGroup_1gab62082b112c1ef416c167b16137cc397" kind="function"><name>resetSettings_</name></member>
     <member refid="group__GeneralGroup_1gae201ece8e089fb91a710af404169e25a" kind="function"><name>ViewerTitle</name></member>
     <member refid="group__GeneralGroup_1gaa29c479d99220e31a1986d436f249327" kind="function"><name>~ViewerTitle</name></member>
     <member refid="group__GeneralGroup_1ga3451797d8330b1a0499b86f396ee8b01" kind="function"><name>setAppName</name></member>

@@ -7,7 +7,7 @@
     <includes refid="MRSignal_8h" local="yes">MRMesh/MRSignal.h</includes>
     <includes local="no">filesystem</includes>
     <includes local="no">vector</includes>
-    <includedby refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includedby>
+    <includedby refid="MRSceneControlMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includedby>
     <includedby refid="ImGuiMenu_8h" local="yes">MRViewer/ImGuiMenu.h</includedby>
     <includedby refid="MRAncillaryLabels_8h" local="yes">MRViewer/MRAncillaryLabels.h</includedby>
     <includedby refid="MRDemoPlugin_8h" local="yes">MRViewer/MRDemoPlugin.h</includedby>
@@ -217,13 +217,17 @@
       </node>
       <node id="2">
         <label>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</label>
-        <link refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h"/>
+        <link refid="MRSceneControlMenuItems_8h"/>
       </node>
       <node id="23">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
+      <node id="24">
         <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
-      <node id="24">
+      <node id="25">
         <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
@@ -257,7 +261,7 @@
         <label>MRViewer/MRMeshBoundarySelectionWidget.h</label>
         <link refid="MRMeshBoundarySelectionWidget_8h"/>
       </node>
-      <node id="25">
+      <node id="26">
         <label>MRViewer/MRMeshModifier.h</label>
         <link refid="MRMeshModifier_8h"/>
       </node>
@@ -374,10 +378,6 @@
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
-      </node>
-      <node id="26">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structMR_1_1IConnectable" prot="public">MR::IConnectable</innerclass>

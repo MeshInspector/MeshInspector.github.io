@@ -129,10 +129,14 @@
         <link refid="MRIOFilesMenuItems_8h"/>
       </node>
       <node id="18">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
+      <node id="19">
         <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
-      <node id="19">
+      <node id="20">
         <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
@@ -154,7 +158,7 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="21">
         <label>MRViewer/MRMeshModifier.h</label>
         <link refid="MRMeshModifier_8h"/>
       </node>
@@ -225,10 +229,6 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-      </node>
-      <node id="21">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
       <node id="5">
         <label>MRViewer/MRViewportParametersAction.h</label>

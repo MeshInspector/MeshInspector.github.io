@@ -96,6 +96,10 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="129">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
       <node id="66">
         <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
@@ -937,10 +941,6 @@
       <node id="130">
         <label>MRViewer/MRSurfaceManipulationWidget.h</label>
         <link refid="MRSurfaceManipulationWidget_8h"/>
-      </node>
-      <node id="129">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
       <node id="54">
         <label>MRViewer/MRViewportGlobalBasis.h</label>

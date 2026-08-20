@@ -340,6 +340,10 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="13">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
       <node id="2">
         <label>MRViewer/MRDepthPeelingGL.h</label>
         <link refid="MRDepthPeelingGL_8h"/>
@@ -415,10 +419,6 @@
         <link refid="MRShadowsGL_8h"/>
         <childnode refid="13" relation="include">
         </childnode>
-      </node>
-      <node id="13">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classMR_1_1GlBuffer" prot="public">MR::GlBuffer</innerclass>

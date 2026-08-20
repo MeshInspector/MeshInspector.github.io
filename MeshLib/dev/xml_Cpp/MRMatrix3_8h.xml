@@ -177,6 +177,10 @@
         <label>MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</label>
         <link refid="MRRibbonSceneButtons_8h"/>
       </node>
+      <node id="113">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
       <node id="94">
         <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
@@ -1362,13 +1366,13 @@
         </childnode>
         <childnode refid="112" relation="include">
         </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
         <childnode refid="94" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
         <childnode refid="103" relation="include">
-        </childnode>
-        <childnode refid="113" relation="include">
         </childnode>
       </node>
       <node id="54">
@@ -1392,10 +1396,6 @@
       <node id="129">
         <label>MRViewer/MRUIRectAllocator.h</label>
         <link refid="MRUIRectAllocator_8h"/>
-      </node>
-      <node id="113">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
       <node id="122">
         <label>MRViewer/MRViewport.h</label>

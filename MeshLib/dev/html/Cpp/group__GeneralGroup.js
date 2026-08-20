@@ -86,6 +86,18 @@ var group__GeneralGroup =
       [ "drawDialog", "group__GeneralGroup.html#ga7b6dc8e71e87ec8ef33f6747eeb60b72", null ],
       [ "isAvailable", "group__GeneralGroup.html#gaecd13931098f53d9079f2db0d9375677", null ]
     ] ],
+    [ "MR::UndoMenuItem", "classMR_1_1UndoMenuItem.html", [
+      [ "UndoMenuItem", "group__GeneralGroup.html#ga1cf602734a01790f8fd41ea6d726768e", null ],
+      [ "action", "group__GeneralGroup.html#ga7192ae4eb328a96185a7f6b1bc4da2c6", null ],
+      [ "getDynamicTooltip", "group__GeneralGroup.html#ga9524c582abeb9ae1041550d7adeb56eb", null ],
+      [ "isAvailable", "group__GeneralGroup.html#ga9d342a9cc6146313f3141b5732e43f94", null ]
+    ] ],
+    [ "MR::RedoMenuItem", "classMR_1_1RedoMenuItem.html", [
+      [ "RedoMenuItem", "group__GeneralGroup.html#ga4899cc7ca225d5bc473aedd72f99b18b", null ],
+      [ "action", "group__GeneralGroup.html#ga36ed5986c45fa790cafed4df8b0d3536", null ],
+      [ "getDynamicTooltip", "group__GeneralGroup.html#ga8de54e498c94d2adea1613dd73e9a818", null ],
+      [ "isAvailable", "group__GeneralGroup.html#ga7f4b5aa48593d39bfb57474d6fcc2ad5", null ]
+    ] ],
     [ "MR::OpenDirectoryMenuItem", "classMR_1_1OpenDirectoryMenuItem.html", [
       [ "OpenDirectoryMenuItem", "group__GeneralGroup.html#ga9b247e419f48e278a2836eb114d8d0bd", null ],
       [ "action", "group__GeneralGroup.html#ga99e13adad0201cd173dae6af6ad6138c", null ],
@@ -225,6 +237,32 @@ var group__GeneralGroup =
       [ "SetViewportConfigPresetMenuItem", "group__GeneralGroup.html#gaa5f3104ebb87b4497658882eaf9511cc", null ],
       [ "action", "group__GeneralGroup.html#gaab1e4ca9d8717e7092bf07b4ff40434a", null ],
       [ "setCustomUpdateViewports", "group__GeneralGroup.html#gaf38a4828a4d0a03c1ff96f685d5bc06f", null ]
+    ] ],
+    [ "MR::ViewerSettingsPlugin", "classMR_1_1ViewerSettingsPlugin.html", [
+      [ "TabType", "group__GeneralGroup.html#gafeeff27006fc4c615527cbd2c08c552b", [
+        [ "Quick", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7", null ],
+        [ "Application", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988", null ],
+        [ "Control", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1", null ],
+        [ "Viewport", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2", null ],
+        [ "MeasurementUnits", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552ba87d240c3f234e32f9143dd0446de66d8", null ],
+        [ "Mcp", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552ba636c59d7bf7741f3a0773c7a8104b245", null ],
+        [ "Features", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805", null ],
+        [ "Count", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+      ] ],
+      [ "ViewerSettingsPlugin", "group__GeneralGroup.html#ga4fda238acd33621d265e12dff2282e03", null ],
+      [ "addComboSettings", "group__GeneralGroup.html#ga7c752a952b08baa8a106a3df277698df", null ],
+      [ "blocking", "group__GeneralGroup.html#gac31f0ed7c0847408208b9cd59d7a9c40", null ],
+      [ "delComboSettings", "group__GeneralGroup.html#ga4861cc201749e069416f4f233de758cd", null ],
+      [ "drawDialog", "group__GeneralGroup.html#ga119e03f41d8f3bdf0c9ee522b8ad623b", null ],
+      [ "setActiveTab", "group__GeneralGroup.html#ga87d0a86ee8efb653beafdd42d3e969fc", null ],
+      [ "updateThemes", "group__GeneralGroup.html#ga2bd394f0e78044d2a22dbea3c993e04c", null ]
+    ] ],
+    [ "MR::ViewerSettingsPlugin::ExternalSettings", "classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html", [
+      [ "~ExternalSettings", "group__GeneralGroup.html#gab3fe6a46824654fabde6d6f501eb8141", null ],
+      [ "draw", "group__GeneralGroup.html#gab5824d8d06eee687e2f907f59db61f96", null ],
+      [ "getName", "group__GeneralGroup.html#ga2b40b2d1d9febe79a58c0f64f8aaf704", null ],
+      [ "reset", "group__GeneralGroup.html#ga5daa51d87dc540fd02b52303e05cbe20", null ],
+      [ "separatorName", "group__GeneralGroup.html#gaefce61dfeb872bbe04d722fc13f1a0ac", null ]
     ] ],
     [ "MR::BinaryOperations", "classMR_1_1BinaryOperations.html", [
       [ "BinaryOperations", "group__GeneralGroup.html#ga24b375764095f9afbc2c745c8242f877", null ],
@@ -6861,18 +6899,6 @@ var group__GeneralGroup =
     [ "MR::SceneCache", "classMR_1_1SceneCache.html", [
       [ "ObjectList", "group__GeneralGroup.html#ga9d132145ed6e28c339f8a129698217d6", null ]
     ] ],
-    [ "MR::UndoMenuItem", "classMR_1_1UndoMenuItem.html", [
-      [ "UndoMenuItem", "group__GeneralGroup.html#ga1cf602734a01790f8fd41ea6d726768e", null ],
-      [ "action", "group__GeneralGroup.html#ga7192ae4eb328a96185a7f6b1bc4da2c6", null ],
-      [ "getDynamicTooltip", "group__GeneralGroup.html#ga9524c582abeb9ae1041550d7adeb56eb", null ],
-      [ "isAvailable", "group__GeneralGroup.html#ga9d342a9cc6146313f3141b5732e43f94", null ]
-    ] ],
-    [ "MR::RedoMenuItem", "classMR_1_1RedoMenuItem.html", [
-      [ "RedoMenuItem", "group__GeneralGroup.html#ga4899cc7ca225d5bc473aedd72f99b18b", null ],
-      [ "action", "group__GeneralGroup.html#ga36ed5986c45fa790cafed4df8b0d3536", null ],
-      [ "getDynamicTooltip", "group__GeneralGroup.html#ga8de54e498c94d2adea1613dd73e9a818", null ],
-      [ "isAvailable", "group__GeneralGroup.html#ga7f4b5aa48593d39bfb57474d6fcc2ad5", null ]
-    ] ],
     [ "MR::SceneObjectsListDrawer", "classMR_1_1SceneObjectsListDrawer.html", [
       [ "ImGuiTreeNodeFlags", "group__GeneralGroup.html#gadef3ad4d7054ccf6e99aba195fc29cf8", null ],
       [ "~SceneObjectsListDrawer", "group__GeneralGroup.html#gaffefc47d2b779b451bc3f420ddfdbdf8", null ],
@@ -7005,6 +7031,8 @@ var group__GeneralGroup =
       [ "shutdownCustomLogSink", "group__GeneralGroup.html#ga7895602798d8ec93e4374882cc9c89c4", null ]
     ] ],
     [ "MR::ShadowsGL", "classMR_1_1ShadowsGL.html", [
+      [ "ShadowsGL", "group__GeneralGroup.html#ga7e6bcf6e69dbb71096b7a3168949ac56", null ],
+      [ "ShadowsGL", "group__GeneralGroup.html#ga25146e777f581d9d82c1e4f22d3165c9", null ],
       [ "~ShadowsGL", "group__GeneralGroup.html#ga392c155eda51521790918b36d34f7ca1", null ],
       [ "enable", "group__GeneralGroup.html#ga876b1cadd41eef4dda31a23ad2ef09be", null ],
       [ "getBlurRadius", "group__GeneralGroup.html#gaab09524b5ecb1b890bfb298e7ce253ab", null ],
@@ -7012,7 +7040,7 @@ var group__GeneralGroup =
       [ "getShadowColor", "group__GeneralGroup.html#ga04bd8703025b9a6312dff0a43be1c871", null ],
       [ "getShadowShift", "group__GeneralGroup.html#ga37112847b6740a4ff382b4ea87a89fa9", null ],
       [ "isEnabled", "group__GeneralGroup.html#gafbfb18c734f6d41741dcdd84a9031e95", null ],
-      [ "MR_ADD_CTOR_DELETE_MOVE", "group__GeneralGroup.html#ga41c74b52ccad8c211d2b8e3dc639e4aa", null ],
+      [ "operator=", "group__GeneralGroup.html#ga3e74b18bef132d73cfbd57d646961b95", null ],
       [ "setBlurRadius", "group__GeneralGroup.html#gaf671aa2b7eb9ffab2cc84a1d9735cca9", null ],
       [ "setQuality", "group__GeneralGroup.html#ga1de833d1cc616ec5fafcfd2c26ba0d13", null ],
       [ "setShadowColor", "group__GeneralGroup.html#ga5fc18723f52a72d76d43b900b6a72d4e", null ],
@@ -8005,32 +8033,6 @@ var group__GeneralGroup =
       [ "saveSettings", "group__GeneralGroup.html#gab1829bbed7fabbfad745ec9ed088349a", null ],
       [ "saveString", "group__GeneralGroup.html#ga40a110314a2a71d4691ccb7c5d12b71b", null ],
       [ "setLastExtention", "group__GeneralGroup.html#gaf07ee03c5a1cde31ba1630a663fe83f6", null ]
-    ] ],
-    [ "MR::ViewerSettingsPlugin", "classMR_1_1ViewerSettingsPlugin.html", [
-      [ "TabType", "group__GeneralGroup.html#gafeeff27006fc4c615527cbd2c08c552b", [
-        [ "Quick", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7", null ],
-        [ "Application", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988", null ],
-        [ "Control", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1", null ],
-        [ "Viewport", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2", null ],
-        [ "MeasurementUnits", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552ba87d240c3f234e32f9143dd0446de66d8", null ],
-        [ "Mcp", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552ba636c59d7bf7741f3a0773c7a8104b245", null ],
-        [ "Features", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805", null ],
-        [ "Count", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9", null ]
-      ] ],
-      [ "ViewerSettingsPlugin", "group__GeneralGroup.html#ga4fda238acd33621d265e12dff2282e03", null ],
-      [ "addComboSettings", "group__GeneralGroup.html#ga26c3643fb290f5451aba04478ef7d6cd", null ],
-      [ "blocking", "group__GeneralGroup.html#gac31f0ed7c0847408208b9cd59d7a9c40", null ],
-      [ "delComboSettings", "group__GeneralGroup.html#ga825a622fcfe43eae88b6c32e132c0ba3", null ],
-      [ "drawDialog", "group__GeneralGroup.html#ga119e03f41d8f3bdf0c9ee522b8ad623b", null ],
-      [ "setActiveTab", "group__GeneralGroup.html#gacc58c168370abe4d53898a41e80cfc51", null ],
-      [ "updateThemes", "group__GeneralGroup.html#gabb15c0c1b70bb9ff91021e28f50a7b15", null ]
-    ] ],
-    [ "MR::ViewerSettingsPlugin::ExternalSettings", "classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html", [
-      [ "~ExternalSettings", "group__GeneralGroup.html#gab3fe6a46824654fabde6d6f501eb8141", null ],
-      [ "draw", "group__GeneralGroup.html#gab5824d8d06eee687e2f907f59db61f96", null ],
-      [ "getName", "group__GeneralGroup.html#ga2b40b2d1d9febe79a58c0f64f8aaf704", null ],
-      [ "reset", "group__GeneralGroup.html#ga5daa51d87dc540fd02b52303e05cbe20", null ],
-      [ "separatorName", "group__GeneralGroup.html#gaefce61dfeb872bbe04d722fc13f1a0ac", null ]
     ] ],
     [ "MR::ViewerSignals", "structMR_1_1ViewerSignals.html", [
       [ "CharPressedSignal", "group__GeneralGroup.html#gaa74e56ac086d42bf0be931fc3dfb3800", null ],
@@ -10659,7 +10661,7 @@ var group__GeneralGroup =
     [ "MR::Laplacian::addAttractor", "group__GeneralGroup.html#ga0568cc66101d05347d62733b8e9e6e1a", null ],
     [ "MR::addBaseToPlanarMesh", "group__GeneralGroup.html#gac55797411aface5733212df942d0a0af", null ],
     [ "MR::ProvidesViewportWidget::ViewportWidgetInterface::addButton", "group__GeneralGroup.html#gab677748a84ab64369812ae2caebcf4e6", null ],
-    [ "MR::ViewerSettingsPlugin::addComboSettings", "group__GeneralGroup.html#ga26c3643fb290f5451aba04478ef7d6cd", null ],
+    [ "MR::ViewerSettingsPlugin::addComboSettings", "group__GeneralGroup.html#ga7c752a952b08baa8a106a3df277698df", null ],
     [ "MR::AddCustomThemePlugin::AddCustomThemePlugin", "group__GeneralGroup.html#ga2b80328f1f0ec1ad7ccce34cf2b541d8", null ],
     [ "MR::QuadraticForm::addDistToLine", "group__GeneralGroup.html#gaa22182ab842edbfd36369edae2063b3c", null ],
     [ "MR::QuadraticForm::addDistToLine", "group__GeneralGroup.html#ga6aa8242b430ea2a8b0c65ac776f01e69", null ],
@@ -11424,7 +11426,7 @@ var group__GeneralGroup =
     [ "MR::GlTexture::del", "group__GeneralGroup.html#gae18f7ab8405f1a72d24b278cbf722894", null ],
     [ "MR::QuadTextureVertexObject::del", "group__GeneralGroup.html#ga18859b513a9de77213a374a2093e054b", null ],
     [ "MR::ViewportGL::PickTextureFrameBuffer::del", "group__GeneralGroup.html#ga1d8e6d876b679746abc52c5c5354613a", null ],
-    [ "MR::ViewerSettingsPlugin::delComboSettings", "group__GeneralGroup.html#ga825a622fcfe43eae88b6c32e132c0ba3", null ],
+    [ "MR::ViewerSettingsPlugin::delComboSettings", "group__GeneralGroup.html#ga4861cc201749e069416f4f233de758cd", null ],
     [ "MR::PolylineTopology::deleteEdge", "group__GeneralGroup.html#gaec04d4bb4ea6ed357f7675c276743da0", null ],
     [ "MR::PolylineTopology::deleteEdges", "group__GeneralGroup.html#ga0776a64738fee7a5546be7c982006fcd", null ],
     [ "MR::MeshTopology::deleteFace", "group__GeneralGroup.html#ga9cec8fcb3700270debd8b9cdc9fa6cf7", null ],
@@ -13194,7 +13196,7 @@ var group__GeneralGroup =
     [ "MR::PythonExport::instance", "group__GeneralGroup.html#gabfb182152c405649c53c0c632868b0c2", null ],
     [ "MR::RibbonMenu::instance", "group__GeneralGroup.html#ga91704ee598c12651ff29aa0e8cc32348", null ],
     [ "MR::Viewer::instance", "group__GeneralGroup.html#ga827107af544bf966370dc8de607ed59c", null ],
-    [ "MR::ViewerSettingsPlugin::instance", "group__GeneralGroup.html#gaf31247144d4b7dbe6ce93572ca7047cc", null ],
+    [ "MR::ViewerSettingsPlugin::instance", "group__GeneralGroup.html#gad9bb1178cd07c90a5a7cedf2236259c4", null ],
     [ "MR::VisualObjectTagManager::instance", "group__GeneralGroup.html#ga31e359f6dbfe9dd5ece0cc5536815de7", null ],
     [ "MR::Viewer::instanceRef", "group__GeneralGroup.html#gaab103f5088bda1288b59fb83c0635ef5", null ],
     [ "MR::MeshTriPoint::interpolate", "group__GeneralGroup.html#gaf695d55f0be2fdaa47a3d6e5d7bf97d5", null ],
@@ -13745,7 +13747,6 @@ var group__GeneralGroup =
     [ "MR::PostResizeListener::MR_ADD_CTOR_DELETE_MOVE", "group__GeneralGroup.html#ga45e82319810a797b3b8b082236849a32", null ],
     [ "MR::PreDrawListener::MR_ADD_CTOR_DELETE_MOVE", "group__GeneralGroup.html#gaaaad0be432409ee6a00436099613fe77", null ],
     [ "MR::PreSetupViewListener::MR_ADD_CTOR_DELETE_MOVE", "group__GeneralGroup.html#ga0ab1caf014d2c4bd9b8f43a6354d2d41", null ],
-    [ "MR::ShadowsGL::MR_ADD_CTOR_DELETE_MOVE", "group__GeneralGroup.html#ga41c74b52ccad8c211d2b8e3dc639e4aa", null ],
     [ "MR::SpaceMouseDownListener::MR_ADD_CTOR_DELETE_MOVE", "group__GeneralGroup.html#ga62ddb5d37af81e7ed90affcdddcbe0e8", null ],
     [ "MR::SpaceMouseMoveListener::MR_ADD_CTOR_DELETE_MOVE", "group__GeneralGroup.html#ga2cfdabbd1ab58db19f09528e678f3729", null ],
     [ "MR::SpaceMouseUpListener::MR_ADD_CTOR_DELETE_MOVE", "group__GeneralGroup.html#gaeb1221c28639fac7d66504b83874d0bc", null ],
@@ -14331,6 +14332,7 @@ var group__GeneralGroup =
     [ "MR::ProvidesViewportWidget::operator=", "group__GeneralGroup.html#ga7f6c27b4d8d26bfca58a49fc3a614732", null ],
     [ "MR::RadiusMeasurementObject::operator=", "group__GeneralGroup.html#ga881370b0a38e287dc6a8ef290f2747e6", null ],
     [ "MR::SceneRootObject::operator=", "group__GeneralGroup.html#gaf5adb3060c521b2e091eff673e8780ce", null ],
+    [ "MR::ShadowsGL::operator=", "group__GeneralGroup.html#ga3e74b18bef132d73cfbd57d646961b95", null ],
     [ "MR::Signal::operator=", "group__GeneralGroup.html#gaea174e0acc86ab90ebe3d0b222305838", null ],
     [ "MR::Signal::operator=", "group__GeneralGroup.html#gad2ac352405fa0b18359e9604a84d95eb", null ],
     [ "MR::Signal::operator=", "group__GeneralGroup.html#ga69ea1c4cfb77f79ea8c163ceb39ef970", null ],
@@ -15149,7 +15151,7 @@ var group__GeneralGroup =
     [ "MR::MarkedVoxelSlice::setActiveBox", "group__GeneralGroup.html#gad26146bfaaea86c6642ac101c7f5bbfc", null ],
     [ "MR::RibbonMenu::setActiveListPos", "group__GeneralGroup.html#ga175b4ff452a54f2c42cf45767732d435", null ],
     [ "MR::MarkedVoxelSlice::setActivePlane", "group__GeneralGroup.html#ga05fc56e95ac8301cb2924ddec31eb109", null ],
-    [ "MR::ViewerSettingsPlugin::setActiveTab", "group__GeneralGroup.html#gacc58c168370abe4d53898a41e80cfc51", null ],
+    [ "MR::ViewerSettingsPlugin::setActiveTab", "group__GeneralGroup.html#ga87d0a86ee8efb653beafdd42d3e969fc", null ],
     [ "MR::MarkedVoxelSlice::setActiveVoxel", "group__GeneralGroup.html#ga6c9a848bfdf1495e5b72648aee211a87", null ],
     [ "MR::ObjectTransformWidget::setAddXfCallback", "group__GeneralGroup.html#ga3134eccba5998667c2b96764ceb6d88f", null ],
     [ "MR::FreeFormDeformer::setAllRefGridPositions", "group__GeneralGroup.html#ga96d7fcfdaa595467e823335bfaae4d2f", null ],
@@ -15594,6 +15596,8 @@ var group__GeneralGroup =
     [ "MR::ICP::setXfs", "group__GeneralGroup.html#gac6e52fe345c88a831ba23619cd352e47", null ],
     [ "MR::SparsePolynomial::setZeroCoeff", "group__GeneralGroup.html#ga687ad0841acd4ba8dd03d5915fdaecf3", null ],
     [ "MR::sgn", "group__GeneralGroup.html#ga86bf24d57f63afab9354505400a0e82c", null ],
+    [ "MR::ShadowsGL::ShadowsGL", "group__GeneralGroup.html#ga7e6bcf6e69dbb71096b7a3168949ac56", null ],
+    [ "MR::ShadowsGL::ShadowsGL", "group__GeneralGroup.html#ga25146e777f581d9d82c1e4f22d3165c9", null ],
     [ "MR::AngleMeasurementObject::shallowClone", "group__GeneralGroup.html#gac38c725897e38520a4fac097353e05d0", null ],
     [ "MR::ConeObject::shallowClone", "group__GeneralGroup.html#ga728295fd966fa4437f227a9278aa545c", null ],
     [ "MR::CylinderObject::shallowClone", "group__GeneralGroup.html#ga959bcc67b17d44360f46dae22eb4319e", null ],
@@ -16211,7 +16215,7 @@ var group__GeneralGroup =
     [ "MR::SurfaceManipulationWidget::updateTexture", "group__GeneralGroup.html#ga6c46de82558f8d178be7daf5e0448a73", null ],
     [ "MR::ObjectMeshHolder::updateTexturePerFace", "group__GeneralGroup.html#ga01587efe8374921bfb24c7f40d3e48ea", null ],
     [ "MR::ObjectMeshHolder::updateTextures", "group__GeneralGroup.html#ga0834f40134c75b693c4475dc2ccbd4a0", null ],
-    [ "MR::ViewerSettingsPlugin::updateThemes", "group__GeneralGroup.html#gabb15c0c1b70bb9ff91021e28f50a7b15", null ],
+    [ "MR::ViewerSettingsPlugin::updateThemes", "group__GeneralGroup.html#ga2bd394f0e78044d2a22dbea3c993e04c", null ],
     [ "MR::RibbonMenu::updateTopPanelSize_", "group__GeneralGroup.html#ga11d89540be0b93979eb3a149d3b93561", null ],
     [ "MR::ITransformControls::updateTranslation", "group__GeneralGroup.html#ga26636938df550b48cbff6e634f95ba4e", null ],
     [ "MR::TransformControls::updateTranslation", "group__GeneralGroup.html#ga653a8318e61a32bd43194d37bc22087d", null ],

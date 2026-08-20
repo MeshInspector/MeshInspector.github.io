@@ -11,10 +11,10 @@ var classMR_1_1ViewerSettingsPlugin =
       [ "Count", "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "ViewerSettingsPlugin", "group__GeneralGroup.html#ga4fda238acd33621d265e12dff2282e03", null ],
-    [ "addComboSettings", "group__GeneralGroup.html#ga26c3643fb290f5451aba04478ef7d6cd", null ],
+    [ "addComboSettings", "group__GeneralGroup.html#ga7c752a952b08baa8a106a3df277698df", null ],
     [ "blocking", "group__GeneralGroup.html#gac31f0ed7c0847408208b9cd59d7a9c40", null ],
-    [ "delComboSettings", "group__GeneralGroup.html#ga825a622fcfe43eae88b6c32e132c0ba3", null ],
+    [ "delComboSettings", "group__GeneralGroup.html#ga4861cc201749e069416f4f233de758cd", null ],
     [ "drawDialog", "group__GeneralGroup.html#ga119e03f41d8f3bdf0c9ee522b8ad623b", null ],
-    [ "setActiveTab", "group__GeneralGroup.html#gacc58c168370abe4d53898a41e80cfc51", null ],
-    [ "updateThemes", "group__GeneralGroup.html#gabb15c0c1b70bb9ff91021e28f50a7b15", null ]
+    [ "setActiveTab", "group__GeneralGroup.html#ga87d0a86ee8efb653beafdd42d3e969fc", null ],
+    [ "updateThemes", "group__GeneralGroup.html#ga2bd394f0e78044d2a22dbea3c993e04c", null ]
 ];

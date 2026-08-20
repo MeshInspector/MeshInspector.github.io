@@ -23,6 +23,10 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="78">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
       <node id="46">
         <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
@@ -588,10 +592,6 @@
         </childnode>
         <childnode refid="82" relation="include">
         </childnode>
-      </node>
-      <node id="78">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
       <node id="80">
         <label>MRViewer/MRViewport.h</label>

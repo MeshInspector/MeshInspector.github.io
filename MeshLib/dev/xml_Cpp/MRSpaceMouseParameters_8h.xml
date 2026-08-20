@@ -4,8 +4,8 @@
     <compoundname>MRSpaceMouseParameters.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes refid="MRVector3_8h" local="no">MRMesh/MRVector3.h</includes>
+    <includedby refid="MRViewerSettingsPlugin_8h" local="yes">MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</includedby>
     <includedby refid="MRSpaceMouseController_8h" local="yes">MRViewer/MRSpaceMouseController.h</includedby>
-    <includedby refid="MRViewerSettingsPlugin_8h" local="yes">MRViewer/MRViewerSettingsPlugin.h</includedby>
     <incdepgraph>
       <node id="8">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -158,6 +158,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
+      <node id="3">
         <label>MRViewer/MRSpaceMouseController.h</label>
         <link refid="MRSpaceMouseController_8h"/>
       </node>
@@ -168,10 +172,6 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-      </node>
-      <node id="3">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structMR_1_1SpaceMouse_1_1Parameters" prot="public">MR::SpaceMouse::Parameters</innerclass>

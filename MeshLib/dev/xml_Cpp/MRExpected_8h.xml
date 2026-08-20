@@ -226,6 +226,10 @@
         <label>MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</label>
         <link refid="MRRibbonSceneButtons_8h"/>
       </node>
+      <node id="158">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
       <node id="139">
         <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
@@ -1513,13 +1517,13 @@
         </childnode>
         <childnode refid="157" relation="include">
         </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
         <childnode refid="139" relation="include">
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
         <childnode refid="147" relation="include">
-        </childnode>
-        <childnode refid="158" relation="include">
         </childnode>
       </node>
       <node id="101">
@@ -1533,10 +1537,6 @@
       <node id="201">
         <label>MRViewer/MRUITestEngineControl.h</label>
         <link refid="MRUITestEngineControl_8h"/>
-      </node>
-      <node id="158">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
       <node id="131">
         <label>MRViewer/MRViewportGlobalBasis.h</label>

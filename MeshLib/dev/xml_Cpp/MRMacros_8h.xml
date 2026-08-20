@@ -47,6 +47,10 @@
         <label>MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h</label>
         <link refid="MRAddCustomTheme_8h"/>
       </node>
+      <node id="419">
+        <label>MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h</label>
+        <link refid="MRHistoryMenuItems_8h"/>
+      </node>
       <node id="114">
         <label>MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</label>
         <link refid="MRIOFilesMenuItems_8h"/>
@@ -55,9 +59,13 @@
         <label>MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</label>
         <link refid="MRRibbonSceneButtons_8h"/>
       </node>
-      <node id="419">
+      <node id="420">
         <label>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</label>
-        <link refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h"/>
+        <link refid="MRSceneControlMenuItems_8h"/>
+      </node>
+      <node id="115">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
       <node id="96">
         <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
@@ -4564,6 +4572,8 @@
         <link refid="MRVector4_8h"/>
         <childnode refid="113" relation="include">
         </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
         <childnode refid="289" relation="include">
         </childnode>
         <childnode refid="153" relation="include">
@@ -4583,8 +4593,6 @@
         <childnode refid="128" relation="include">
         </childnode>
         <childnode refid="167" relation="include">
-        </childnode>
-        <childnode refid="115" relation="include">
         </childnode>
         <childnode refid="132" relation="include">
         </childnode>
@@ -4908,13 +4916,13 @@
         <link refid="MRHistoryStore_8h"/>
         <childnode refid="419" relation="include">
         </childnode>
+        <childnode refid="420" relation="include">
+        </childnode>
         <childnode refid="417" relation="include">
         </childnode>
         <childnode refid="93" relation="include">
         </childnode>
         <childnode refid="94" relation="include">
-        </childnode>
-        <childnode refid="420" relation="include">
         </childnode>
       </node>
       <node id="458">
@@ -5216,11 +5224,13 @@
         <link refid="MRRibbonMenuItem_8h"/>
         <childnode refid="599" relation="include">
         </childnode>
+        <childnode refid="419" relation="include">
+        </childnode>
         <childnode refid="114" relation="include">
         </childnode>
         <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="419" relation="include">
+        <childnode refid="420" relation="include">
         </childnode>
         <childnode refid="610" relation="include">
         </childnode>
@@ -5229,8 +5239,6 @@
         <childnode refid="122" relation="include">
         </childnode>
         <childnode refid="557" relation="include">
-        </childnode>
-        <childnode refid="420" relation="include">
         </childnode>
         <childnode refid="110" relation="include">
         </childnode>
@@ -5276,10 +5284,6 @@
       <node id="52">
         <label>MRViewer/MRSceneCache.h</label>
         <link refid="MRSceneCache_8h"/>
-      </node>
-      <node id="420">
-        <label>MRViewer/MRSceneControlMenuItems.h</label>
-        <link refid="MRViewer_2MRSceneControlMenuItems_8h"/>
       </node>
       <node id="636">
         <label>MRViewer/MRSceneObjectsListDrawer.h</label>
@@ -5364,9 +5368,9 @@
       <node id="586">
         <label>MRViewer/MRSpaceMouseParameters.h</label>
         <link refid="MRSpaceMouseParameters_8h"/>
-        <childnode refid="587" relation="include">
-        </childnode>
         <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="587" relation="include">
         </childnode>
       </node>
       <node id="639">
@@ -5386,13 +5390,13 @@
         </childnode>
         <childnode refid="114" relation="include">
         </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
         <childnode refid="96" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
         <childnode refid="105" relation="include">
-        </childnode>
-        <childnode refid="115" relation="include">
         </childnode>
       </node>
       <node id="640">
@@ -5436,9 +5440,9 @@
       <node id="641">
         <label>MRViewer/MRTouchpadParameters.h</label>
         <link refid="MRTouchpadParameters_8h"/>
-        <childnode refid="125" relation="include">
-        </childnode>
         <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="125" relation="include">
         </childnode>
       </node>
       <node id="168">
@@ -5510,7 +5514,7 @@
       <node id="588">
         <label>MRViewer/MRViewerEventsListener.h</label>
         <link refid="MRViewerEventsListener_8h"/>
-        <childnode refid="419" relation="include">
+        <childnode refid="420" relation="include">
         </childnode>
         <childnode refid="119" relation="include">
         </childnode>
@@ -5552,6 +5556,8 @@
       <node id="622">
         <label>MRViewer/MRViewerFwd.h</label>
         <link refid="MRViewerFwd_8h"/>
+        <childnode refid="115" relation="include">
+        </childnode>
         <childnode refid="302" relation="include">
         </childnode>
         <childnode refid="277" relation="include">
@@ -5638,8 +5644,6 @@
         </childnode>
         <childnode refid="642" relation="include">
         </childnode>
-        <childnode refid="115" relation="include">
-        </childnode>
         <childnode refid="643" relation="include">
         </childnode>
         <childnode refid="462" relation="include">
@@ -5674,10 +5678,6 @@
       <node id="642">
         <label>MRViewer/MRViewerSettingsManager.h</label>
         <link refid="MRViewerSettingsManager_8h"/>
-      </node>
-      <node id="115">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
       <node id="643">
         <label>MRViewer/MRViewerTitle.h</label>

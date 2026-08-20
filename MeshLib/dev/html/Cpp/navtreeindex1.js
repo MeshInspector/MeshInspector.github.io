@@ -6,8 +6,6 @@ var NAVTREEINDEX1 =
 "MRCommandLoop_8h_source.html":[6,0,3,0,11,13],
 "MRCommonPluginsShortcuts_8h.html":[6,0,3,0,1,4],
 "MRCommonPluginsShortcuts_8h_source.html":[6,0,3,0,1,4],
-"MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h.html":[6,0,3,0,1,2,3],
-"MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h_source.html":[6,0,3,0,1,2,3],
 "MRComputeBoundingBox_8h.html":[6,0,3,0,7,66],
 "MRComputeBoundingBox_8h_source.html":[6,0,3,0,7,66],
 "MRComputeVolume_8h.html":[6,0,3,0,12,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX1 =
 "MRGltf_8h_source.html":[6,0,3,0,4,4],
 "MRGraph_8h.html":[6,0,3,0,7,133],
 "MRGraph_8h_source.html":[6,0,3,0,7,133],
-"MRGridSampling_8h.html":[6,0,3,0,7,134]
+"MRGridSampling_8h.html":[6,0,3,0,7,134],
+"MRGridSampling_8h_source.html":[6,0,3,0,7,134],
+"MRGridSettings_8h.html":[6,0,3,0,7,135]
 };
