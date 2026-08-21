@@ -225,7 +225,8 @@ Visual Studio Project File</h3>
 <p><span class="tt">example_plugin.vcxproj</span> - This file is configured so project can work with MeshLib distribuiton  </p><ul>
 <li>Debug only:<ul>
 <li><b>Debug Configuration: C/C++ → Preprocessor → Preprocessor Definitions</b>: <br  />
- Add: <span class="tt">_ITERATOR_DEBUG_LEVEL=0</span></li>
+ Add: <span class="tt">_ITERATOR_DEBUG_LEVEL=0;MR_ITERATOR_DEBUG_LEVEL=0</span> — for the per-Visual-Studio archives (<span class="tt">MeshLibDistVS19</span>, <span class="tt">MeshLibDistVS22</span>, <span class="tt">MeshLibDistVS26</span>). <br  />
+ For the <span class="tt">MeshLibDist-IteratorDebug</span> archive add <span class="tt">_ITERATOR_DEBUG_LEVEL=2;MR_ITERATOR_DEBUG_LEVEL=2</span> instead. Both defines must carry the same value: MeshLib stops compilation with <span class="tt">#error _ITERATOR_DEBUG_LEVEL is inconsistent with MeshLib</span> when they disagree.</li>
 </ul>
 </li>
 <li>For all configurations:<ul>
