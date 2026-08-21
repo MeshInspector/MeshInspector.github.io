@@ -256,7 +256,7 @@ Installing the release build</h3>
 </div><!-- fragment --></li>
 </ul>
 </li>
-<li><b>Configure and integrate with Visual Studio</b>  <ul>
+<li><p class="startli"><b>Configure and integrate with Visual Studio</b>  </p><ul>
 <li>Debug only:<ul>
 <li><b>Debug Configuration: C/C++ → Preprocessor → Preprocessor Definitions</b>: <br  />
  Add: <span class="tt">_ITERATOR_DEBUG_LEVEL=0</span></li>
@@ -272,16 +272,18 @@ Installing the release build</h3>
 <li><b>C/C++ → All Options → Additional Options</b>: <br  />
  Add: <span class="tt">/bigobj /utf-8</span></li>
 <li><b>Linker → Input → Additional Dependencies</b>: <br  />
- Add: <span class="tt">C:\meshlib-built\install\lib\$(Configuration)\*.lib</span>   <br  />
-</li>
+ Add: <span class="tt">C:\meshlib-built\install\lib\$(Configuration)\*.lib</span>  </li>
 </ul>
 </li>
+</ul>
+<ul>
+<li><b>Copy DLLs</b>: <br  />
+ Copy all <span class="tt">.dll</span> files from: <span class="tt">C:\meshlib-built\install\app\$(Configuration)</span> to your project’s output directory: <span class="tt">$(TargetDir)</span> <div class="fragment"><div class="line">xcopy C:\meshlib-built\install\app\$(Configuration)\*.dll $(TargetDir)</div>
+</div><!-- fragment --></li>
 </ul>
 </li>
 </ol>
-<p><b>Copy DLLs</b>: <br  />
- Copy all <span class="tt">.dll</span> files from: <span class="tt">C:\meshlib-built\install\app\$(Configuration)</span> to your project’s output directory: <span class="tt">$(TargetDir)</span> </p><div class="fragment"><div class="line">xcopy C:\meshlib-built\install\app\$(Configuration)\*.dll $(TargetDir)</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
 Compile Locally</h3>
 <h4 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
 Prerequisites</h4>
