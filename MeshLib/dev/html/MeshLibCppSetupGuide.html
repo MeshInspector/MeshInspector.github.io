@@ -414,14 +414,13 @@ Installing the local build</h4>
 <div class="line">./scripts/build_source.sh      # Do not select emscripten in the corresponding question</div>
 </div><!-- fragment --> You may also run the scripts in the non-interactive mode (see <a class="el" href="#CppSetupWASM">Building WebAssembly with MeshLib Using Emscripten</a> for more info): <div class="fragment"><div class="line">MR_EMSCRIPTEN=OFF ./scripts/build_thirdparty.sh</div>
 <div class="line">MR_EMSCRIPTEN=OFF ./scripts/build_source.sh</div>
-</div><!-- fragment --></li>
+</div><!-- fragment --> <br  />
+ Dependencies are installed automatically on Ubuntu only. Elsewhere <span class="tt">build_thirdparty.sh</span> prints <em>"Unsupported system. Installing dependencies is your responsibility."</em>, so install the equivalents of <a href="https://github.com/MeshInspector/MeshLib/blob/master/requirements/ubuntu.txt"><span class="tt">requirements/ubuntu.txt</span></a> yourself first.</li>
 <li><b>Create and Install Package</b>: <br  />
- This step will create distribution package and install it to the system <br  />
- <b>For Ubuntu</b>: <div class="fragment"><div class="line">./scripts/distribution.sh</div>
+ This step will create distribution package and install it to the system <div class="fragment"><div class="line">./scripts/distribution.sh</div>
 <div class="line">sudo apt install ./distr/meshlib-dev.deb</div>
-</div><!-- fragment --> For Fedora**: <div class="fragment"><div class="line">./scripts/distribution_rpm.sh</div>
-<div class="line">sudo rpm -i ./distr/meshlib-dev.rpm</div>
-</div><!-- fragment --></li>
+</div><!-- fragment --> <br  />
+ <span class="tt">distribution.sh</span> builds a <span class="tt">.deb</span>, so this step is Ubuntu/Debian-only. On other distributions skip it and use the locally built binaries directly, as in the next step.</li>
 <li><b>Open MeshViewer</b> <br  />
  To verify that everything is fine you can run MeshViewer application:<ul>
 <li>if you previously have installed <span class="tt">meshlib</span> to your system: <div class="fragment"><div class="line">MeshViewer</div>
