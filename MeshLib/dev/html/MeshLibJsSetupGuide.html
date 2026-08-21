@@ -143,30 +143,30 @@ $(function(){initNavTree('MeshLibJsSetupGuide.html','',''); });
 <div class="toc"><h3>Table of Contents</h3>
 <ul>
   <li class="level1">
-    <a href="#autotoc_md133">Installing MeshLib SDK for JavaScript </a>
+    <a href="#autotoc_md132">Installing MeshLib SDK for JavaScript </a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md134">Prerequisites </a>
+        <a href="#autotoc_md133">Prerequisites </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md135">Runtime </a>
+            <a href="#autotoc_md134">Runtime </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md136">Code Editor </a>
+            <a href="#autotoc_md135">Code Editor </a>
           </li>
         </ul>
       </li>
       <li class="level2">
-        <a href="#autotoc_md137">Choosing a Package: Single-Threaded or Multi-Threaded </a>
+        <a href="#autotoc_md136">Choosing a Package: Single-Threaded or Multi-Threaded </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md138">Installation </a>
+        <a href="#autotoc_md137">Installation </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md139">Installation via npm </a>
+            <a href="#autotoc_md138">Installation via npm </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md140">Use from CDN </a>
+            <a href="#autotoc_md139">Use from CDN </a>
           </li>
           <li class="level3">
             <a href="#MeshLibJsPayloadSize">Payload Size </a>
@@ -177,42 +177,42 @@ $(function(){initNavTree('MeshLibJsSetupGuide.html','',''); });
         <a href="#JsMtCrossOriginIsolation">Cross-Origin Isolation for the Multi-Threaded Build in the Browser </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md141">Getting Started: Your First Example </a>
+        <a href="#autotoc_md140">Getting Started: Your First Example </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md142">TypeScript </a>
+        <a href="#autotoc_md141">TypeScript </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md143">Memory Management </a>
+        <a href="#autotoc_md142">Memory Management </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md144">Try Interactive MeshLib Examples </a>
+        <a href="#autotoc_md143">Try Interactive MeshLib Examples </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md145">Try MeshLib with JavaScript Examples </a>
+        <a href="#autotoc_md144">Try MeshLib with JavaScript Examples </a>
       </li>
     </ul>
   </li>
 </ul>
 </div>
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md133"></a>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md132"></a>
 Installing MeshLib SDK for JavaScript</h1>
 <p><a href="https://meshlib.io/">MeshLib</a> is available for JavaScript as the geometry library compiled to WebAssembly. It runs both in Node.js and in the browser, and is published to npm as two packages that share an identical API: <span class="tt">@meshinspector/meshlib</span> (single-threaded) and <span class="tt">@meshinspector/meshlib-mt</span> (multi-threaded).</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md134"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md133"></a>
 Prerequisites</h2>
 <p>Before installing MeshLib SDK for JavaScript, ensure you have the following:</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md135"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md134"></a>
 Runtime</h3>
 <p>MeshLib runs in Node.js or in a modern browser.</p><ul>
 <li><span class="tt">@meshinspector/meshlib</span> (single-threaded) requires <b>Node.js 18 or newer</b>.</li>
 <li><span class="tt">@meshinspector/meshlib-mt</span> (multi-threaded) requires <b>Node.js 21 or newer</b>.</li>
 </ul>
 <p><a href="https://nodejs.org/en/download">Download Node.js</a>.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md136"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md135"></a>
 Code Editor</h3>
 <p>You can use any JavaScript- or TypeScript-compatible editor, such as Visual Studio Code, WebStorm, or any IDE you prefer.</p>
 <p><a href="https://code.visualstudio.com/download">Download Visual Studio Code</a></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md137"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md136"></a>
 Choosing a Package: Single-Threaded or Multi-Threaded</h2>
 <p>MeshLib ships in two flavors with an identical API:</p>
 <ul>
@@ -220,12 +220,12 @@ Choosing a Package: Single-Threaded or Multi-Threaded</h2>
 <li><span class="tt">@meshinspector/meshlib-mt</span>: the multi-threaded build. It uses worker threads to parallelize geometry operations for higher throughput, and requires Node.js 21 or newer.</li>
 </ul>
 <p>The examples below use <span class="tt">@meshinspector/meshlib</span>. To use the multi-threaded build instead, install <span class="tt">@meshinspector/meshlib-mt</span> and change the import specifier; in Node.js nothing else changes. In the browser the page must additionally be <a class="el" href="#JsMtCrossOriginIsolation">cross-origin isolated</a>.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md138"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md137"></a>
 Installation</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md139"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md138"></a>
 Installation via npm</h3>
 <p>Install the package from npm: </p><div class="fragment"><div class="line">npm install @meshinspector/meshlib</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md140"></a>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md139"></a>
 Use from CDN</h3>
 <p>In the browser you can skip npm entirely and import the module directly: </p><div class="fragment"><div class="line">// latest version</div>
 <div class="line">import createMeshLib from &#39;https://js.meshlib.io/meshlib/meshlib.mjs&#39;;</div>
@@ -260,7 +260,7 @@ Cross-Origin Isolation for the Multi-Threaded Build in the Browser</h2>
 <div class="line">};</div>
 </div><!-- fragment --><p>Where you cannot set response headers at all — GitHub Pages and similar static hosting — the usual workaround is a <span class="tt">coi-serviceworker</span>-style shim: a service worker that re-serves the page with the two headers and reloads it once. MeshLib's own <a href="https://demo.meshlib.io/">interactive demo</a> is hosted exactly this way.</p>
 <p>So on a page that is not cross-origin isolated you have three options: send the headers, install the service-worker shim, or use the single-threaded <span class="tt">@meshinspector/meshlib</span> package, which has no such requirement.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md141"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md140"></a>
 Getting Started: Your First Example</h2>
 <p>The default export is an async factory. Await it once to get the module instance, then call MeshLib functions on it: </p><div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
@@ -284,14 +284,14 @@ Getting Started: Your First Example</h2>
 </div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>This example loads the module at the top level, which downloads the wasm on startup. In the browser, consider the lazy alternative in <a class="el" href="#MeshLibJsPayloadSize">Payload Size</a>.</dd>
 <dd>
 The <span class="tt">using</span> declaration requires Node.js 24+ or a current browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see the <b>Memory Management</b> section below).</dd></dl>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md142"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md141"></a>
 TypeScript</h2>
 <p>The package ships type definitions, so <span class="tt">createMeshLib</span> and the whole module API are typed with no extra setup: </p><div class="fragment"><div class="line">import createMeshLib, { type Mesh } from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
 <div class="line">const ml = await createMeshLib();</div>
 <div class="line">using mesh: Mesh = ml.Mesh.fromTriangles(coords, tris);</div>
 <div class="line">const { valid, distSq } = ml.findProjection(point, mesh);</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md143"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md142"></a>
 Memory Management</h2>
 <p>Values returned from the API (meshes, bit sets, settings, result objects, and so on) hold WebAssembly memory that the JavaScript garbage collector does not reclaim, so each one must be freed explicitly.</p>
 <p>The preferred way is JavaScript's explicit resource management: declare a handle with <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/using"><span class="tt">using</span></a> and it is freed automatically when its scope ends, even if an exception is thrown. </p><div class="fragment"><div class="line">using mesh = ml.Mesh.fromTriangles(coords, tris);</div>
@@ -305,10 +305,10 @@ Memory Management</h2>
 </div><!-- fragment --><p><span class="tt">using</span> and <span class="tt">DisposableStack</span> are part of JavaScript's Explicit Resource Management, available in Node.js 24+ and current browsers. On older runtimes and browsers, call <span class="tt">.delete()</span> on each object when you are done instead: </p><div class="fragment"><div class="line">const mesh = ml.Mesh.fromTriangles(coords, tris);</div>
 <div class="line">// ... use mesh</div>
 <div class="line">mesh.delete();</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md144"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md143"></a>
 Try Interactive MeshLib Examples</h2>
 <p>You can check how MeshLib works in a browser environment with live interactive examples: <a href="https://demo.meshlib.io/">https://demo.meshlib.io/</a></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md145"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md144"></a>
 Try MeshLib with JavaScript Examples</h2>
 <p>After installing MeshLib, a great way to start exploring its capabilities is through the code samples. Each of the following example pages includes a JavaScript tab:</p>
 <ul>
