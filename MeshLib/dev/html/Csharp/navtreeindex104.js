@@ -1,5 +1,7 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1FixMeshDegeneraciesParams.html#af56263c3a1a1183678e4e39be3507721":[6,3,0,0,0,1197,10],
+"classMR_1_1FixMeshDegeneraciesParams.html#afd7292ca48775e0ab94233157bde5f54":[6,3,0,0,0,1197,5],
 "classMR_1_1FixUndercuts.html":[6,3,0,0,0,1198],
 "classMR_1_1FixUndercuts.html#a03f89284419536e97869d997556244d8":[6,3,0,0,0,1198,15],
 "classMR_1_1FixUndercuts.html#a064b1c66fe7a9ba5301fff8f4c03827f":[6,3,0,0,0,1198,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1GeodesicPath.html#ac174e2aee8c5fbe146290d7b8222793c":[6,3,0,0,0,1211,3],
 "classMR_1_1GeodesicPath.html#acdac904ecb17710f716d4b2e6086c9bb":[6,3,0,0,0,1211,2],
 "classMR_1_1GeodesicPath.html#af400498025204fdb1e2c0093e498c86d":[6,3,0,0,0,1211,8],
-"classMR_1_1Graph.html":[6,3,0,0,0,1212],
-"classMR_1_1Graph.html#a0c4502a8250c814fe00a4a4767d8b2a5":[6,3,0,0,0,1212,0],
-"classMR_1_1Graph.html#a2d8a6bfa2beb3fac553dd930eb973e9c":[6,3,0,0,0,1212,1]
+"classMR_1_1Graph.html":[6,3,0,0,0,1212]
 };

@@ -238,12 +238,12 @@ Visual Studio Project File</h3>
 <li><b>C/C++ → All Options → Additional Options</b>: <br  />
  Add: <span class="tt">/bigobj /utf-8</span></li>
 <li><b>Linker → Input → Additional Dependencies</b>: <br  />
- Add: <span class="tt">C:\meshlib-built\install\lib\$(Configuration)\*.lib</span>   <br  />
-</li>
+ Add: <span class="tt">C:\meshlib-built\install\lib\$(Configuration)\*.lib</span>  </li>
 </ul>
 </li>
 </ul>
-<p>Define <span class="tt">IMGUI_DISABLE_OBSOLETE_FUNCTIONS</span></p><ul>
+<ul>
+<li>Define <span class="tt">IMGUI_DISABLE_OBSOLETE_FUNCTIONS</span></li>
 <li>Copy other files to target directory: <div class="fragment"><div class="line"> &lt;<span class="keywordtype">ItemGroup</span>&gt;</div>
 <div class="line">  &lt;<span class="keywordtype">CopyFileToFolders</span> <span class="keyword">Include</span>=<span class="stringliteral">&quot;MyPlugin.items.json&quot;</span>&gt;</div>
 <div class="line">    &lt;<span class="keywordtype">FileType</span>&gt;<span class="keyword">Document</span>&lt;/<span class="keywordtype">FileType</span>&gt;</div>

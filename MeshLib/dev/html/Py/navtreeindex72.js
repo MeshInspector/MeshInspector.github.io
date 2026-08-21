@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"classmrmeshpy_1_1PixelBitSet.html#a0bc623b11caef7f964bee3676e239fa3":[6,1,1,0,1,710,32],
+"classmrmeshpy_1_1PixelBitSet.html#a0f82c93f911a0cc323b95430fe13eb15":[6,1,0,0,2,710,4],
 "classmrmeshpy_1_1PixelBitSet.html#a0f82c93f911a0cc323b95430fe13eb15":[6,1,1,0,1,710,4],
 "classmrmeshpy_1_1PixelBitSet.html#a1274b92a5e1aaf94f5badc815ce0a9e3":[6,1,0,0,2,710,30],
 "classmrmeshpy_1_1PixelBitSet.html#a1274b92a5e1aaf94f5badc815ce0a9e3":[6,1,1,0,1,710,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ad56f9cb385153f896c4a4a33c975514b":[6,1,1,0,1,713,4,7],
 "classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ad91644363e7763101e0a57a6428b5028":[6,1,0,0,2,713,4,0],
 "classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ad91644363e7763101e0a57a6428b5028":[6,1,1,0,1,713,4,0],
-"classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ae55303aae2d653fa8b110167ab6bf89a":[6,1,0,0,2,713,4,5],
-"classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ae55303aae2d653fa8b110167ab6bf89a":[6,1,1,0,1,713,4,5],
-"classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html":[6,1,0,0,2,713,5]
+"classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ae55303aae2d653fa8b110167ab6bf89a":[6,1,0,0,2,713,4,5]
 };

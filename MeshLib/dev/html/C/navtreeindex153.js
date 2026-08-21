@@ -1,5 +1,7 @@
 var NAVTREEINDEX153 =
 {
+"std__shared__ptr__MR__AngleMeasurementObject_8h.html#a264377bed8521bcfe1f8c392b84dcab5":[6,2,2,0,0,0,0,2,298,4],
+"std__shared__ptr__MR__AngleMeasurementObject_8h.html#a3d2849a8c5cc72b2340afd3d4407c371":[6,2,2,0,0,0,0,2,298,19],
 "std__shared__ptr__MR__AngleMeasurementObject_8h.html#a457934663643589ae052337d783f5dea":[6,2,2,0,0,0,0,2,298,18],
 "std__shared__ptr__MR__AngleMeasurementObject_8h.html#a549e3da490c8b7f4d1c195f77c21cfe2":[6,2,2,0,0,0,0,2,298,1],
 "std__shared__ptr__MR__AngleMeasurementObject_8h.html#a68b8744dce585299edba479645c66b78":[6,2,2,0,0,0,0,2,298,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX153 =
 "std__shared__ptr__MR__ChangeLinesColorMapAction_8h.html#a6750ffcd1641276c84dc071144c4af41":[6,2,2,0,0,0,0,2,307,10],
 "std__shared__ptr__MR__ChangeLinesColorMapAction_8h.html#a6e0599c1934bbe9f2e9ccf57c5d7a81f":[6,2,2,0,0,0,0,2,307,7],
 "std__shared__ptr__MR__ChangeLinesColorMapAction_8h.html#a6fb912842682c1abfde95c4d666a42e5":[6,2,2,0,0,0,0,2,307,3],
-"std__shared__ptr__MR__ChangeLinesColorMapAction_8h.html#a84c7947643d8b87afaffaf58ef3bd04f":[6,2,2,0,0,0,0,2,307,5],
-"std__shared__ptr__MR__ChangeLinesColorMapAction_8h.html#a87d56c25032c91ac59ae22ba2429a314":[6,2,2,0,0,0,0,2,307,17],
-"std__shared__ptr__MR__ChangeLinesColorMapAction_8h.html#a9008bb3d2930fd8e07b2cc7c3d5a1ce5":[6,2,2,0,0,0,0,2,307,8]
+"std__shared__ptr__MR__ChangeLinesColorMapAction_8h.html#a84c7947643d8b87afaffaf58ef3bd04f":[6,2,2,0,0,0,0,2,307,5]
 };

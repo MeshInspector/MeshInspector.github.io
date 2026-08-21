@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"classmrmeshpy_1_1TriPointd.html#a4f171c58c842f212938cacb4fab6e78c":[6,1,1,0,1,1126,1],
+"classmrmeshpy_1_1TriPointd.html#a52d3737b7cf4a8295032f653c0e1871b":[6,1,0,0,2,1126,10],
 "classmrmeshpy_1_1TriPointd.html#a52d3737b7cf4a8295032f653c0e1871b":[6,1,1,0,1,1126,10],
 "classmrmeshpy_1_1TriPointd.html#a7e441bac7965d69bd9ef85ffc393b041":[6,1,0,0,2,1126,12],
 "classmrmeshpy_1_1TriPointd.html#a7e441bac7965d69bd9ef85ffc393b041":[6,1,1,0,1,1126,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "classmrmeshpy_1_1Triangulation.html#afd6bf4a8f2c4593cee59d3d6adf50b72":[6,1,1,0,1,1118,21],
 "classmrmeshpy_1_1TriangulationHelpers.html":[6,1,0,0,2,1119],
 "classmrmeshpy_1_1TriangulationHelpers.html":[6,1,1,0,1,1119],
-"classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[6,1,0,0,2,1119,0],
-"classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[6,1,1,0,1,1119,0],
-"classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a15c00c4eea2e7a2ece4cfa17f94a9b3f":[6,1,0,0,2,1119,0,5]
+"classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[6,1,0,0,2,1119,0]
 };

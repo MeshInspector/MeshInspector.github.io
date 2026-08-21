@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"classmrmeshpy_1_1MultiwayICP.html#aafc70be60848f05430e81b92be04f47a":[6,1,1,0,1,580,9],
+"classmrmeshpy_1_1MultiwayICP.html#ac5cdb3ff62ae142e6bfc4387e2362db0":[6,1,0,0,2,580,2],
 "classmrmeshpy_1_1MultiwayICP.html#ac5cdb3ff62ae142e6bfc4387e2362db0":[6,1,1,0,1,580,2],
 "classmrmeshpy_1_1MultiwayICP.html#ae8bf1c85a0fe0a2997fba1c977252cd8":[6,1,0,0,2,580,3],
 "classmrmeshpy_1_1MultiwayICP.html#ae8bf1c85a0fe0a2997fba1c977252cd8":[6,1,1,0,1,580,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#a52dbf37ba5636151d4757ebcfb1ab1fe":[6,1,1,0,1,585,6,4],
 "classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#a90660f35f315ec2e4262293cf53aa165":[6,1,0,0,2,585,6,1],
 "classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#a90660f35f315ec2e4262293cf53aa165":[6,1,1,0,1,585,6,1],
-"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#ab77ec6986c5f762993fb765ba8d5992f":[6,1,0,0,2,585,6,2],
-"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#ab77ec6986c5f762993fb765ba8d5992f":[6,1,1,0,1,585,6,2],
-"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#abd69e21ea4b799a70761bb3f3014b382":[6,1,0,0,2,585,6,5]
+"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#ab77ec6986c5f762993fb765ba8d5992f":[6,1,0,0,2,585,6,2]
 };

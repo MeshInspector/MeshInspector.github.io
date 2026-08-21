@@ -1,5 +1,7 @@
 var NAVTREEINDEX103 =
 {
+"classMR_1_1FewSmallest__MRPointsProjectionResult.html#a75db4670ad6baf9f2f68a0c55cb697a2":[6,3,0,0,0,1184,8],
+"classMR_1_1FewSmallest__MRPointsProjectionResult.html#a833d3856af94cb66dfd101b6f6c30a66":[6,3,0,0,0,1184,0],
 "classMR_1_1FewSmallest__MRPointsProjectionResult.html#a95e0e62ce78763b764c06117e0f9e802":[6,3,0,0,0,1184,5],
 "classMR_1_1FewSmallest__MRPointsProjectionResult.html#abb8a5b7b216680dd1041777c54718b70":[6,3,0,0,0,1184,7],
 "classMR_1_1FillHoleItem.html":[6,3,0,0,0,1185],
@@ -247,7 +249,5 @@ var NAVTREEINDEX103 =
 "classMR_1_1FixMeshDegeneraciesParams.html#a9b4f190d07dd759f7eaa047c7520aad5":[6,3,0,0,0,1197,6],
 "classMR_1_1FixMeshDegeneraciesParams.html#aa23e1ba06c41baafef0c214a06ca2adc":[6,3,0,0,0,1197,13],
 "classMR_1_1FixMeshDegeneraciesParams.html#ae34824faf9d7160cc8698775f5060672":[6,3,0,0,0,1197,7],
-"classMR_1_1FixMeshDegeneraciesParams.html#aed491e9ef17151bea847c24357ad295b":[6,3,0,0,0,1197,3],
-"classMR_1_1FixMeshDegeneraciesParams.html#af56263c3a1a1183678e4e39be3507721":[6,3,0,0,0,1197,10],
-"classMR_1_1FixMeshDegeneraciesParams.html#afd7292ca48775e0ab94233157bde5f54":[6,3,0,0,0,1197,5]
+"classMR_1_1FixMeshDegeneraciesParams.html#aed491e9ef17151bea847c24357ad295b":[6,3,0,0,0,1197,3]
 };

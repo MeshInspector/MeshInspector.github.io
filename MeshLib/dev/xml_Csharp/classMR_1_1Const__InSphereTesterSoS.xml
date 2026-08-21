@@ -112,6 +112,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="710" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="710" bodyend="715"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__InSphereTesterSoS_1a417dd123365793675701268eb44c0e89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_InSphereTesterSoS.degenerateTriangle</definition>
+        <argsstring>()</argsstring>
+        <name>degenerateTriangle</name>
+        <qualifiedname>MR.Const_InSphereTesterSoS.degenerateTriangle</qualifiedname>
+        <briefdescription>
+<para>whether the last successful reset() got a degenerate triangle (two coincident points), where only the symbolically perturbed sphere exists; the exact sphere quantities of the base class are not valid then Generated from method <computeroutput><ref refid="classMR_1_1Const__InSphereTesterSoS_1a417dd123365793675701268eb44c0e89" kindref="member">MR.InSphereTesterSoS.degenerateTriangle</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="723" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="723" bodyend="728"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
       <memberdef kind="function" id="classMR_1_1Const__InSphereTesterSoS_1a7bd13c6cfd3ff37f10d10f0eedba7af0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -216,13 +231,14 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="646" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="647" bodyend="716"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="646" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="647" bodyend="729"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1aac0bdfbcddcd27899a880c0bfe71ee4c" prot="public" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>call</name></member>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1aaf193689d944b805fc4b5259db5c1355" prot="package" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Const_InSphereTesterSoS</name></member>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1ab7a86102abd9d802e19dc26c53e86fa4" prot="public" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Const_InSphereTesterSoS</name></member>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1a982c55b0a50761e6433cd215ff653951" prot="public" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Const_InSphereTesterSoS</name></member>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1ad17599226939e90e79d8db3b9bee6744" prot="public" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Const_InSphereTesterSoS</name></member>
+      <member refid="classMR_1_1Const__InSphereTesterSoS_1a417dd123365793675701268eb44c0e89" prot="public" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>degenerateTriangle</name></member>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1a38332bb15f9d09c5441cfaa17fb5dd3f" prot="protected" virt="virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1ac67b2d9e487230387a44522d9b40704d" prot="public" virt="virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__InSphereTesterSoS_1ae8dc505e02f7a2b3d36bf551d616af3a" prot="public" virt="non-virtual"><scope>MR::Const_InSphereTesterSoS</scope><name>operator MR.Const_InSphereTester_Int</name></member>

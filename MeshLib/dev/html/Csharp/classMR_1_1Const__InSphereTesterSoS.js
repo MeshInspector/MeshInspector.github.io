@@ -4,6 +4,7 @@ var classMR_1_1Const__InSphereTesterSoS =
     [ "Const_InSphereTesterSoS", "classMR_1_1Const__InSphereTesterSoS.html#a982c55b0a50761e6433cd215ff653951", null ],
     [ "Const_InSphereTesterSoS", "classMR_1_1Const__InSphereTesterSoS.html#ad17599226939e90e79d8db3b9bee6744", null ],
     [ "call", "classMR_1_1Const__InSphereTesterSoS.html#aac0bdfbcddcd27899a880c0bfe71ee4c", null ],
+    [ "degenerateTriangle", "classMR_1_1Const__InSphereTesterSoS.html#a417dd123365793675701268eb44c0e89", null ],
     [ "Dispose", "classMR_1_1Const__InSphereTesterSoS.html#ac67b2d9e487230387a44522d9b40704d", null ],
     [ "Dispose", "classMR_1_1Const__InSphereTesterSoS.html#a38332bb15f9d09c5441cfaa17fb5dd3f", null ],
     [ "operator MR.Const_InSphereTester_Int", "classMR_1_1Const__InSphereTesterSoS.html#ae8dc505e02f7a2b3d36bf551d616af3a", null ]

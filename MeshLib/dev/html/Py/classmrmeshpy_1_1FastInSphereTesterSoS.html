@@ -168,6 +168,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab6253cce0b78919f9dc5028dfcf49fdb inherit pub_methods_classmrmeshpy_1_1InSphereTesterSoS" id="r_ab6253cce0b78919f9dc5028dfcf49fdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1InSphereResult.html">InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1InSphereTesterSoS.html#ab6253cce0b78919f9dc5028dfcf49fdb">__call__</a> (self, <a class="el" href="classmrmeshpy_1_1PreciseVertCoords.html">PreciseVertCoords</a> d)</td></tr>
 <tr class="memitem:a051589ac4598e2e4c10d99e6383536c7 inherit pub_methods_classmrmeshpy_1_1InSphereTesterSoS" id="r_a051589ac4598e2e4c10d99e6383536c7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1InSphereTesterSoS.html#a051589ac4598e2e4c10d99e6383536c7">__init__</a> (self)</td></tr>
 <tr class="memitem:ad450b3c4163fa2b3908a63eda688ece9 inherit pub_methods_classmrmeshpy_1_1InSphereTesterSoS" id="r_ad450b3c4163fa2b3908a63eda688ece9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1InSphereTesterSoS.html#ad450b3c4163fa2b3908a63eda688ece9">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1InSphereTesterSoS.html">InSphereTesterSoS</a> arg0)</td></tr>
+<tr class="memitem:a3de4968996d19357d1abf9a7b87d5b1d inherit pub_methods_classmrmeshpy_1_1InSphereTesterSoS" id="r_a3de4968996d19357d1abf9a7b87d5b1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1InSphereTesterSoS.html#a3de4968996d19357d1abf9a7b87d5b1d">degenerateTriangle</a> (self)</td></tr>
 <tr class="inherit_header pub_methods_classmrmeshpy_1_1InSphereTester__int"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1InSphereTester__int')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1InSphereTester__int.html">mrmeshpy.InSphereTester_int</a></td></tr>
 <tr class="memitem:ad24224a97c8834504a6c6a182d964ea2 inherit pub_methods_classmrmeshpy_1_1InSphereTester__int" id="r_ad24224a97c8834504a6c6a182d964ea2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1InSphereResult.html">InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1InSphereTester__int.html#ad24224a97c8834504a6c6a182d964ea2">__call__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> d)</td></tr>
 <tr class="memitem:aa3b88db3e5d2060e7de732f15b4c5c7c inherit pub_methods_classmrmeshpy_1_1InSphereTester__int" id="r_aa3b88db3e5d2060e7de732f15b4c5c7c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1InSphereTester__int.html#aa3b88db3e5d2060e7de732f15b4c5c7c">__init__</a> (self)</td></tr>
@@ -388,7 +389,9 @@ this hides the flip of the base class, which would leave the center on the wrong
 of reset(): the selected one and its mirror in the plane of the triangle;
 the answer is exact, and a point lying on either of them is not strictly outside, so no tie
 arises and no simulation-of-simplicity is involved;
-filtered in floating point as the query above, and equally exact
+filtered in floating point as the query above, and equally exact;
+for a degenerate triangle, where only the perturbed spheres exist and the answer would need
+the id of d, returns false conservatively (never prunes)
 </pre> 
 </div>
 </div>

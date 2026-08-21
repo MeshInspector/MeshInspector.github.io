@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1Dirty.html#a41ac3d51fbb699d0751b0f3f22f7bea7":[6,3,0,0,0,1125,4],
+"classMR_1_1Dirty.html#a4e5f58d3f1b239214834e61590ef2e23":[6,3,0,0,0,1125,2],
 "classMR_1_1Dirty.html#a638c9a0eb804875fbb233118a9861750":[6,3,0,0,0,1125,1],
 "classMR_1_1Dirty.html#aadc5f0701f10a701f5e9d10d352333b0":[6,3,0,0,0,1125,5],
 "classMR_1_1DistanceFromWeightedPointsComputeParams.html":[6,3,0,0,0,1126],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1EdgeBitSet.html#a3c6bd0fbcb105c4fc04d016e03742423":[6,3,0,0,0,1141,13],
 "classMR_1_1EdgeBitSet.html#a3e82ef6df2177144ca42331092432b42":[6,3,0,0,0,1141,22],
 "classMR_1_1EdgeBitSet.html#a46597769acc0925107607c8160c31676":[6,3,0,0,0,1141,11],
-"classMR_1_1EdgeBitSet.html#a46947cb77995098926ef7977cb7d5820":[6,3,0,0,0,1141,18],
-"classMR_1_1EdgeBitSet.html#a4b6427f8d905a473fef3decd9ad86dc4":[6,3,0,0,0,1141,5],
-"classMR_1_1EdgeBitSet.html#a4cb8b738d228c8431da140e78b766103":[6,3,0,0,0,1141,17]
+"classMR_1_1EdgeBitSet.html#a46947cb77995098926ef7977cb7d5820":[6,3,0,0,0,1141,18]
 };

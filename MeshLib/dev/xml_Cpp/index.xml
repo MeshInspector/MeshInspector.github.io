@@ -4593,12 +4593,17 @@
     <member refid="group__GeneralGroup_1gaa7cc70a6eb2d36eae3ad67efba5575f9" kind="function"><name>operator()</name></member>
   </compound>
   <compound refid="classMR_1_1InSphereTesterSoS" kind="class"><name>MR::InSphereTesterSoS</name>
+    <member refid="group__GeneralGroup_1ga2243fa1320914c1bbf37aaabbedaef4a" kind="variable"><name>pairV_</name></member>
+    <member refid="group__GeneralGroup_1gab8037b809c2ba6e3383d11852bb8e499" kind="variable"><name>pairPt_</name></member>
     <member refid="group__GeneralGroup_1gacf6bc51e20756e358846e3a1e06435d4" kind="variable"><name>va_</name></member>
     <member refid="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" kind="variable"><name>vb_</name></member>
     <member refid="group__GeneralGroup_1gacab5c4bb57db9e7c39168b0a7c80f78a" kind="variable"><name>vc_</name></member>
+    <member refid="group__GeneralGroup_1gaf170d1c4080593bfcee7567dc197f5ef" kind="variable"><name>pairSigma_</name></member>
+    <member refid="group__GeneralGroup_1ga0504cb318e00a1d607960cd1ef070888" kind="variable"><name>degenerateTriangle_</name></member>
     <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
+    <member refid="group__GeneralGroup_1gae5d8d9b9fe2dd4d41af7fad0d93fdff0" kind="function"><name>degenerateTriangle</name></member>
     <member refid="group__GeneralGroup_1gaf0f5aef64719c5e7f73ab828608a7cba" kind="function"><name>normal</name></member>
     <member refid="group__GeneralGroup_1gad85860a83d6bb58ac43b0888d25ffdab" kind="function"><name>normalSq</name></member>
     <member refid="group__GeneralGroup_1ga9a73bfe7ade34306db56f903f8934b1e" kind="function"><name>heightSq</name></member>
@@ -22450,9 +22455,13 @@
     <member refid="group__GeneralGroup_1ga99ed2ca40a4b406e441d515466ed744a" kind="variable"><name>M</name></member>
     <member refid="group__GeneralGroup_1gaf4211bf2a5c2e08bb696d2813d96b69f" kind="variable"><name>E</name></member>
     <member refid="group__GeneralGroup_1ga4a956b983e2fcc54d20300675688632f" kind="variable"><name>rSq</name></member>
+    <member refid="group__GeneralGroup_1ga2243fa1320914c1bbf37aaabbedaef4a" kind="variable"><name>pairV_</name></member>
+    <member refid="group__GeneralGroup_1gab8037b809c2ba6e3383d11852bb8e499" kind="variable"><name>pairPt_</name></member>
     <member refid="group__GeneralGroup_1gacf6bc51e20756e358846e3a1e06435d4" kind="variable"><name>va_</name></member>
     <member refid="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" kind="variable"><name>vb_</name></member>
     <member refid="group__GeneralGroup_1gacab5c4bb57db9e7c39168b0a7c80f78a" kind="variable"><name>vc_</name></member>
+    <member refid="group__GeneralGroup_1gaf170d1c4080593bfcee7567dc197f5ef" kind="variable"><name>pairSigma_</name></member>
+    <member refid="group__GeneralGroup_1ga0504cb318e00a1d607960cd1ef070888" kind="variable"><name>degenerateTriangle_</name></member>
     <member refid="group__GeneralGroup_1ga7247c1db3ad0f38aa3829018e5858880" kind="variable"><name>cc_</name></member>
     <member refid="group__GeneralGroup_1ga8179026f2e4edd02060cae38cb719f1e" kind="variable"><name>hn_</name></member>
     <member refid="group__GeneralGroup_1gac6a38bd4e2641259ee1d8eae1a79f8f8" kind="variable"><name>tol_</name></member>
@@ -26668,6 +26677,7 @@
     <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
+    <member refid="group__GeneralGroup_1gae5d8d9b9fe2dd4d41af7fad0d93fdff0" kind="function"><name>degenerateTriangle</name></member>
     <member refid="group__GeneralGroup_1gaf0f5aef64719c5e7f73ab828608a7cba" kind="function"><name>normal</name></member>
     <member refid="group__GeneralGroup_1gad85860a83d6bb58ac43b0888d25ffdab" kind="function"><name>normalSq</name></member>
     <member refid="group__GeneralGroup_1ga9a73bfe7ade34306db56f903f8934b1e" kind="function"><name>heightSq</name></member>

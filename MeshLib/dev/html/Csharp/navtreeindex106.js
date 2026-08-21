@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1IPointsProjector.html":[6,3,0,0,0,1254],
+"classMR_1_1IPointsProjector.html#ab4cea324b92dc9e302d471437c3630f6":[6,3,0,0,0,1254,0],
 "classMR_1_1IPointsToMeshProjector.html":[6,3,0,0,0,1255],
 "classMR_1_1IPointsToMeshProjector.html#a082e1c63993f0db3e6f7b0545b3b386e":[6,3,0,0,0,1255,0],
 "classMR_1_1IPointsToMeshProjector.html#ab7fcb6b2a80777e1adbdcde0cd71cf93":[6,3,0,0,0,1255,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator.html#a67db39d4bac0b8c1d6692d592c1ec5d3":[6,3,0,0,0,1267,0],
 "classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator.html#a8f2ba152b00ab3d93e37519197e939fe":[6,3,0,0,0,1267,2],
 "classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator.html#ab4cc57953aa3d752c1cfa993811f0ec1":[6,3,0,0,0,1267,4],
-"classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator.html#aeae809b5efb2e22401247eba621553e4":[6,3,0,0,0,1267,5],
-"classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html":[6,3,0,0,0,1268],
-"classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html#a19d47354113d52fdf37a757f713e80ef":[6,3,0,0,0,1268,2]
+"classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator.html#aeae809b5efb2e22401247eba621553e4":[6,3,0,0,0,1267,5]
 };

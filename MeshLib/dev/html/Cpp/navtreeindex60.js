@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1UnitSettings.html#afe6f0698124e6aaa4213c97e053c0696":[6,0,1,0,1,50,14],
+"namespaceMR_1_1Unsigned.html":[6,0,1,0,1,51],
+"namespaceMR_1_1Unsigned.html#a297e05c1691001d7ce0261fa2e9c3dc4":[6,0,1,0,1,51,0],
+"namespaceMR_1_1VoxelsLoad.html":[6,0,0,20,34],
+"namespaceMR_1_1VoxelsSave.html":[6,0,0,2,17,0],
+"namespaceMR_1_1VoxelsSave.html":[6,0,0,20,35],
+"namespaceMR_1_1VoxelsSave.html#a0f33f9e03ac1292f300799e260c153be":[6,0,1,0,1,53,4],
+"namespaceMR_1_1VoxelsSave.html#a25d9cd02652bc821741b80b0ddf5469e":[6,0,1,0,1,53,21],
 "namespaceMR_1_1VoxelsSave.html#a2df418f8471fab1ef437524c6b07333a":[6,0,1,0,1,53,14],
 "namespaceMR_1_1VoxelsSave.html#a2e179fbde55c39476bb8befcc2377073":[6,0,1,0,1,53,20],
 "namespaceMR_1_1VoxelsSave.html#a31dd497fcf4de34a42a8d0a512e300e8":[6,0,1,0,1,53,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[6,0,2,0,2,80,0],
 "structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[6,0,1,0,1,98,1],
 "structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[6,0,2,0,2,80,1],
-"structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[6,0,1,0,1,98,3],
-"structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[6,0,2,0,2,80,3],
-"structMR_1_1BooleanParameters.html#a4e9fd686cd57658f583e243451c94393":[6,0,1,0,1,98,4],
-"structMR_1_1BooleanParameters.html#a4e9fd686cd57658f583e243451c94393":[6,0,2,0,2,80,4],
-"structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92":[6,0,1,0,1,98,7],
-"structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92":[6,0,2,0,2,80,7],
-"structMR_1_1BooleanParameters.html#af122b254d2e75cc6cb395664d901d802":[6,0,1,0,1,98,2],
-"structMR_1_1BooleanParameters.html#af122b254d2e75cc6cb395664d901d802":[6,0,2,0,2,80,2],
-"structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7":[6,0,1,0,1,98,5]
+"structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[6,0,1,0,1,98,3]
 };

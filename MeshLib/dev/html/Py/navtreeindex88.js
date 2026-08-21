@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"classmrmeshpy_1_1Src2TgtMaps.html#a98ec8c210e6ba3fac9c907068bcfaaee":[6,1,1,0,1,860,1],
+"classmrmeshpy_1_1StitchHolesNicelySettings.html":[6,1,0,0,2,1076],
 "classmrmeshpy_1_1StitchHolesNicelySettings.html":[6,1,1,0,1,1076],
 "classmrmeshpy_1_1StitchHolesNicelySettings.html#a01f2db9fcad748bd5bd5f8b8bf6e3d11":[6,1,0,0,2,1076,3],
 "classmrmeshpy_1_1StitchHolesNicelySettings.html#a01f2db9fcad748bd5bd5f8b8bf6e3d11":[6,1,1,0,1,1076,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "classmrmeshpy_1_1SymMatrix2d.html#a8bfd35e84774cbcbe210caad012e7dd8":[6,1,1,0,1,1083,12],
 "classmrmeshpy_1_1SymMatrix2d.html#a8c29b9f3f8d546ac24c29a38cc79a077":[6,1,0,0,2,1083,20],
 "classmrmeshpy_1_1SymMatrix2d.html#a8c29b9f3f8d546ac24c29a38cc79a077":[6,1,1,0,1,1083,20],
-"classmrmeshpy_1_1SymMatrix2d.html#a8d904eae017b3b3faf30a170d80bead6":[6,1,0,0,2,1083,1],
-"classmrmeshpy_1_1SymMatrix2d.html#a8d904eae017b3b3faf30a170d80bead6":[6,1,1,0,1,1083,1],
-"classmrmeshpy_1_1SymMatrix2d.html#a970a9006fd95cacf7ea4bf6ced41b83e":[6,1,0,0,2,1083,5]
+"classmrmeshpy_1_1SymMatrix2d.html#a8d904eae017b3b3faf30a170d80bead6":[6,1,0,0,2,1083,1]
 };

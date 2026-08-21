@@ -125,16 +125,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>checks whether the point vs[3] is strictly inside the sphere of radius sqrt(rSq) passing via points vs[0], vs[1], vs[2], with the center located on the positive side of plane vs[0]vs[1]vs[2] (same convention as in the overload above); resolves &quot;vs[3] is exactly on the sphere&quot; ties into Inside or Outside using simulation-of-simplicity: the points are symbolically perturbed (larger perturbations of points with smaller ids; per point the z-coordinate gets larger perturbation than y than x), and the first point whose perturbation moves vs[3] off the sphere decides the answer; known deviations from full simulation-of-simplicity semantics, all answered deterministically for now (covered by sosInSphereDeviations test, to be resolved by ids in the following PRs):<itemizedlist>
-<listitem><para>all three points of the triangle coincide: NoSphere now, while the perturbed triangle is not degenerate and its sphere exists;</para>
-</listitem><listitem><para>two points of the triangle coincide and the third one is closer than the sphere&apos;s diameter: NoSphere now, while the perturbed sphere may exist depending on the perturbation directions;</para>
-</listitem><listitem><para>rSq is exactly equal to the squared circumradius of a not-degenerate triangle: perturbations change the sphere&apos;s existence, affecting both &quot;vs[3] strictly inside&quot; (Inside now) and &quot;vs[3] exactly on the sphere&quot; (Outside now); the remaining degenerate NoSphere answers are exact under full simulation-of-simplicity, because no small perturbation can create the sphere: distinct collinear triangle points, two coincident triangle points with the third one at or beyond the sphere&apos;s diameter, rSq below the squared circumradius </para>
+<para>checks whether the point vs[3] is strictly inside the sphere of radius sqrt(rSq) passing via points vs[0], vs[1], vs[2], with the center located on the positive side of plane vs[0]vs[1]vs[2] (same convention as in the overload above); full simulation-of-simplicity semantics: the answer equals the answer of the plain predicate on the symbolically perturbed points, where the point with rank r among the four (by ascending ids) receives +eps^(9*L^r) to x, +eps^(3*L^r) to y, +eps^(L^r) to z with L = 128, eps -&gt; +0 (z gets the largest perturbation as in getPointDegrees, but the ladder between the ranks is 128: it exceeds the maximal degree-weight of one point in the predicate polynomials, which makes the resolution independent of whether the ranks are computed among 3 or among all 4 points); consequently:<itemizedlist>
+<listitem><para>&quot;vs[3] exactly on the sphere&quot; resolves into Inside or Outside by the ids;</para>
+</listitem><listitem><para>rSq exactly equal to the squared circumradius: the perturbation decides the sphere&apos;s existence, so the answer can be NoSphere even for vs[3] strictly inside;</para>
+</listitem><listitem><para>three coincident or distinct collinear triangle points always give NoSphere: the perturbed triangle is needle-like (the perturbation magnitudes differ vastly) and its circumradius diverges as eps -&gt; +0;</para>
+</listitem><listitem><para>two coincident triangle points: the sphere exists iff 4*rSq*(Vx^2+Vy^2) &gt; |V|^4 at the leading order (the pair separates along z), V = the third point minus the pair </para>
 </listitem></itemizedlist>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="64" column="18" declfile="MRMesh/MRInSphere.h" declline="64" declcolumn="18"/>
+        <location file="MRMesh/MRInSphere.h" line="63" column="18" declfile="MRMesh/MRInSphere.h" declline="63" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga0eb39a15fe5bf2158dde853e2ab1f4b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -174,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="302" column="19" bodyfile="MRMesh/MRInSphere.h" bodystart="302" bodyend="309"/>
+        <location file="MRMesh/MRInSphere.h" line="321" column="19" bodyfile="MRMesh/MRInSphere.h" bodystart="321" bodyend="328"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gafb9f0540202d96451dee9753314e960e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -193,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="311" column="1" declfile="MRMesh/MRInSphere.h" declline="311" declcolumn="1"/>
+        <location file="MRMesh/MRInSphere.h" line="330" column="1" declfile="MRMesh/MRInSphere.h" declline="330" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaa349ba2abb9defee59c1e5bfab20df3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -212,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="312" column="1" declfile="MRMesh/MRInSphere.h" declline="312" declcolumn="1"/>
+        <location file="MRMesh/MRInSphere.h" line="331" column="1" declfile="MRMesh/MRInSphere.h" declline="331" declcolumn="1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__MathGroup_1ga7123f0710e7bad44c561d1684dde6b36" prot="public" static="no">
         <type>InSphereTester&lt; float &gt;</type>
@@ -226,7 +227,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="201" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="201" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="200" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="200" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__MathGroup_1ga2d24c71a0a5b44f05d4d524f6de713e7" prot="public" static="no">
         <type>InSphereTester&lt; double &gt;</type>
@@ -240,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="202" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="202" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="201" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="201" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__MathGroup_1ga173d9ec0d23c16054839a3fd1c50334f" prot="public" static="no">
         <type>InSphereTester&lt; int &gt;</type>
@@ -254,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="203" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="203" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="202" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="202" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">

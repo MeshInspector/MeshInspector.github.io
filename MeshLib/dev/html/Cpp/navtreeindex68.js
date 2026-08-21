@@ -1,5 +1,13 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1TouchpadRotateGestureEndListener.html":[6,0,0,20,804],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html":[6,0,0,20,803],
+"structMR_1_1TouchpadSwipeGestureBeginListener.html":[6,0,0,20,805],
+"structMR_1_1TouchpadSwipeGestureEndListener.html":[6,0,0,20,807],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html":[6,0,0,20,806],
+"structMR_1_1TouchpadZoomGestureBeginListener.html":[6,0,0,20,808],
+"structMR_1_1TouchpadZoomGestureEndListener.html":[6,0,0,20,810],
+"structMR_1_1TouchpadZoomGestureUpdateListener.html":[6,0,0,20,809],
 "structMR_1_1TransformControls_1_1VisualParams.html":[6,0,0,20,619],
 "structMR_1_1TransformVdbVolumeResult.html":[6,0,0,20,892],
 "structMR_1_1TransformedMesh.html":[6,0,0,20,330],
@@ -241,13 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Vector2.html#a355c1691ed2db85225bea3e3db37a904":[6,0,0,0,12,0,28],
 "structMR_1_1Vector2.html#a3e532c0fca60fc9935f8394188cc2f28":[6,0,0,0,12,0,18],
 "structMR_1_1Vector2.html#a3e532c0fca60fc9935f8394188cc2f28":[6,0,1,0,1,1450],
-"structMR_1_1Vector2.html#a419f18cb7af20ab8455495874cefbd9d":[6,0,0,0,12,0,2],
-"structMR_1_1Vector2.html#a4f4e721384be597d0f5a0ff303e07c48":[6,0,0,0,12,0,37],
-"structMR_1_1Vector2.html#a5186451c51a4f421a0b810a3f836fae8":[6,0,0,0,12,0,43],
-"structMR_1_1Vector2.html#a534888485fa5d824508faf3d113658ad":[6,0,0,0,12,0,31],
-"structMR_1_1Vector2.html#a5dfc5e9acce45ac36a78ba8a1115af3a":[6,0,0,0,12,0,40],
-"structMR_1_1Vector2.html#a65dcc8114a942bdb79fa724e727211e0":[6,0,0,0,12,0,8],
-"structMR_1_1Vector2.html#a689355b8d3f06c842bf414b949c7510e":[6,0,0,0,12,0,12],
-"structMR_1_1Vector2.html#a6bf0beb2bf7fd40b84edbd2256ada3da":[6,0,0,0,12,0,11],
-"structMR_1_1Vector2.html#a6deeb9fc80b0d29ccbfa306b2aa4a33b":[6,0,0,0,12,0,39]
+"structMR_1_1Vector2.html#a419f18cb7af20ab8455495874cefbd9d":[6,0,0,0,12,0,2]
 };

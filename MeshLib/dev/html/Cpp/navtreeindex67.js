@@ -1,5 +1,13 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1PolylineSubdivideSettings.html#a6fb7e5a3cc422db6b191956e2e931bff":[6,0,0,15,0,3],
+"structMR_1_1PolylineSubdivideSettings.html#a90d24e3763062fee365e69daf9f74b23":[6,0,0,15,0,6],
+"structMR_1_1PolylineSubdivideSettings.html#a99ce30c33108d826ab31a84dcfb796e9":[6,0,0,15,0,4],
+"structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3":[6,0,0,15,0,7],
+"structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2":[6,0,0,15,0,5],
+"structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[6,0,0,15,0,1],
+"structMR_1_1PolylineToDistanceVolumeParams.html":[6,0,0,20,866],
+"structMR_1_1PolylineToVolumeParams.html":[6,0,0,20,867],
 "structMR_1_1PolylineTraits.html":[6,0,0,1,8],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[6,0,0,1,9],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[6,0,0,1,9,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1TouchMoveListener.html":[6,0,0,20,797],
 "structMR_1_1TouchStartListener.html":[6,0,0,20,796],
 "structMR_1_1TouchpadParameters.html":[6,0,0,20,752],
-"structMR_1_1TouchpadRotateGestureBeginListener.html":[6,0,0,20,802],
-"structMR_1_1TouchpadRotateGestureEndListener.html":[6,0,0,20,804],
-"structMR_1_1TouchpadRotateGestureUpdateListener.html":[6,0,0,20,803],
-"structMR_1_1TouchpadSwipeGestureBeginListener.html":[6,0,0,20,805],
-"structMR_1_1TouchpadSwipeGestureEndListener.html":[6,0,0,20,807],
-"structMR_1_1TouchpadSwipeGestureUpdateListener.html":[6,0,0,20,806],
-"structMR_1_1TouchpadZoomGestureBeginListener.html":[6,0,0,20,808],
-"structMR_1_1TouchpadZoomGestureEndListener.html":[6,0,0,20,810],
-"structMR_1_1TouchpadZoomGestureUpdateListener.html":[6,0,0,20,809]
+"structMR_1_1TouchpadRotateGestureBeginListener.html":[6,0,0,20,802]
 };

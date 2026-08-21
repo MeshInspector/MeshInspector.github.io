@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1Const__FindInnerShellSettings.html#ab68c19d968c77a98abd790b604d4b3ca":[6,3,0,0,0,455,2],
 "classMR_1_1Const__FindInnerShellSettings.html#af86cea8cc626d299769203dd0dc7533b":[6,3,0,0,0,455,15],
 "classMR_1_1Const__FindInnerShellSettings.html#affc2cb68c9ae49a087a858733ee6424d":[6,3,0,0,0,455,0],
 "classMR_1_1Const__FindOutliersParams.html":[6,3,0,0,0,456],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1Const__GCommand.html#af1b98c1ae8bcb3db128475c758a781c8":[6,3,0,0,0,470,3],
 "classMR_1_1Const__GCommand.html#af67032513e97cf37a70f0d89446d7048":[6,3,0,0,0,470,17],
 "classMR_1_1Const__GcodeProcessor.html":[6,3,0,0,0,469],
-"classMR_1_1Const__GcodeProcessor.html#a385404d24f588179be4a33a7dbf7a988":[6,3,0,0,0,469,13],
-"classMR_1_1Const__GcodeProcessor.html#a38afb264de9d2e74b1090db6b29cc2a2":[6,3,0,0,0,469,11]
+"classMR_1_1Const__GcodeProcessor.html#a385404d24f588179be4a33a7dbf7a988":[6,3,0,0,0,469,13]
 };

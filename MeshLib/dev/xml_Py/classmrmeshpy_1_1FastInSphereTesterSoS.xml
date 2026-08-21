@@ -185,12 +185,14 @@ this hides the flip of the base class, which would leave the center on the wrong
 of reset(): the selected one and its mirror in the plane of the triangle;
 the answer is exact, and a point lying on either of them is not strictly outside, so no tie
 arises and no simulation-of-simplicity is involved;
-filtered in floating point as the query above, and equally exact
+filtered in floating point as the query above, and equally exact;
+for a degenerate triangle, where only the perturbed spheres exist and the answer would need
+the id of d, returns false conservatively (never prunes)
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18269" bodyend="18276"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18269" bodyend="18278"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FastInSphereTesterSoS_1a428c3a779d8ddc7ed69170ad4b769f0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -229,7 +231,7 @@ this hides the reset of the base class, which would leave the center stale
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18277" bodyend="18282"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18279" bodyend="18284"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -278,12 +280,13 @@ surface is answered by it alone, leaving the exact predicates for the points clo
         <link refid="classmrmeshpy_1_1InSphereTester__int"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18230" bodyend="18282"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18230" bodyend="18284"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1ac32dfce419333553d3267416de47ec59" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>__call__</name></member>
       <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1adad5fd84cca102fe84d9caaeff7f77ad" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1a74ce14681bfe72ccabf366e064d11d19" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1a812aeb0f9bf12523f22a839fb2d47d2f" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereTesterSoS_1a3de4968996d19357d1abf9a7b87d5b1d" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>degenerateTriangle</name></member>
       <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1acac1037d03018d6f7f414355547c1383" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1ac64cd24b4786143648b3ebf78255a45b" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1FastInSphereTesterSoS_1ac64cd24b4786143648b3ebf78255a45b" prot="public" virt="non-virtual"><scope>mrmeshpy::FastInSphereTesterSoS</scope><name>operator</name></member>

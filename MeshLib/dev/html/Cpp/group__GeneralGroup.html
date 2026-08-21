@@ -5080,6 +5080,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga83272fcfe28d46d0c521b5f7c5af73f4" id="r_ga83272fcfe28d46d0c521b5f7c5af73f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83272fcfe28d46d0c521b5f7c5af73f4">MR::InSphereTesterSoS::reset</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;a, const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;b, const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;c, std::int64_t rSq)</td></tr>
 <tr class="memitem:gae6f76431e076f7da4c8d01feef6b5c94" id="r_gae6f76431e076f7da4c8d01feef6b5c94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae6f76431e076f7da4c8d01feef6b5c94">MR::InSphereTesterSoS::flip</a> ()</td></tr>
 <tr class="memitem:ga33f40392cf9decb4150d17e595c0d0b6" id="r_ga33f40392cf9decb4150d17e595c0d0b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__MathGroup.html#ga924383ee24cd4b41824111cdf4cd50b2">InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga33f40392cf9decb4150d17e595c0d0b6">MR::InSphereTesterSoS::operator()</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> &amp;d) const</td></tr>
+<tr class="memitem:gae5d8d9b9fe2dd4d41af7fad0d93fdff0" id="r_gae5d8d9b9fe2dd4d41af7fad0d93fdff0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae5d8d9b9fe2dd4d41af7fad0d93fdff0">MR::InSphereTesterSoS::degenerateTriangle</a> () const</td></tr>
 <tr class="memitem:gaf0f5aef64719c5e7f73ab828608a7cba" id="r_gaf0f5aef64719c5e7f73ab828608a7cba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const Vector3i64 &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0f5aef64719c5e7f73ab828608a7cba">MR::InSphereTesterSoS::normal</a> () const</td></tr>
 <tr class="memdesc:gaf0f5aef64719c5e7f73ab828608a7cba"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubled normal cross( b - a, c - a ) of the triangle, directed at the sphere's center  <br /></td></tr>
 <tr class="memitem:gad85860a83d6bb58ac43b0888d25ffdab" id="r_gad85860a83d6bb58ac43b0888d25ffdab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const <a class="el" href="classMR_1_1FastInt.html">FastInt</a>&lt; 192 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad85860a83d6bb58ac43b0888d25ffdab">MR::InSphereTesterSoS::normalSq</a> () const</td></tr>
@@ -12309,6 +12310,18 @@ Variables</h2></td></tr>
 <tr class="memdesc:gaf4211bf2a5c2e08bb696d2813d96b69f"><td class="mdescLeft">&#160;</td><td class="mdescRight">sqr( 2 * h * |w|^2 ), h = distance from plane abc to the sphere's center, &lt;= 2^322  <br /></td></tr>
 <tr class="memitem:ga4a956b983e2fcc54d20300675688632f" id="r_ga4a956b983e2fcc54d20300675688632f"><td class="memItemLeft" align="right" valign="top">std::int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4a956b983e2fcc54d20300675688632f">MR::InSphereTester&lt; int &gt;::rSq</a> = 0</td></tr>
 <tr class="memdesc:ga4a956b983e2fcc54d20300675688632f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the squared radius of the sphere  <br /></td></tr>
+<tr class="memitem:ga2243fa1320914c1bbf37aaabbedaef4a" id="r_ga2243fa1320914c1bbf37aaabbedaef4a"><td class="memItemLeft" align="right" valign="top">Vector3i64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2243fa1320914c1bbf37aaabbedaef4a">MR::InSphereTesterSoS::pairV_</a></td></tr>
+<tr class="memdesc:ga2243fa1320914c1bbf37aaabbedaef4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">the fields are ordered by descending alignment to minimize the padding  <br /></td></tr>
+<tr class="memitem:gab8037b809c2ba6e3383d11852bb8e499" id="r_gab8037b809c2ba6e3383d11852bb8e499"><td class="memItemLeft" align="right" valign="top">Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab8037b809c2ba6e3383d11852bb8e499">MR::InSphereTesterSoS::pairPt_</a></td></tr>
+<tr class="memdesc:gab8037b809c2ba6e3383d11852bb8e499"><td class="mdescLeft">&#160;</td><td class="mdescRight">the position of the coincident pair  <br /></td></tr>
+<tr class="memitem:gacf6bc51e20756e358846e3a1e06435d4" id="r_gacf6bc51e20756e358846e3a1e06435d4"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacf6bc51e20756e358846e3a1e06435d4">MR::InSphereTesterSoS::va_</a></td></tr>
+<tr class="memitem:ga444c2f2ff20b38dc0100b98f265623a3" id="r_ga444c2f2ff20b38dc0100b98f265623a3"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga444c2f2ff20b38dc0100b98f265623a3">MR::InSphereTesterSoS::vb_</a></td></tr>
+<tr class="memitem:gacab5c4bb57db9e7c39168b0a7c80f78a" id="r_gacab5c4bb57db9e7c39168b0a7c80f78a"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacab5c4bb57db9e7c39168b0a7c80f78a">MR::InSphereTesterSoS::vc_</a></td></tr>
+<tr class="memdesc:gacab5c4bb57db9e7c39168b0a7c80f78a"><td class="mdescLeft">&#160;</td><td class="mdescRight">the ids of the sphere points given in <a class="el" href="#ga83272fcfe28d46d0c521b5f7c5af73f4">reset()</a>  <br /></td></tr>
+<tr class="memitem:gaf170d1c4080593bfcee7567dc197f5ef" id="r_gaf170d1c4080593bfcee7567dc197f5ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf170d1c4080593bfcee7567dc197f5ef">MR::InSphereTesterSoS::pairSigma_</a> = 0</td></tr>
+<tr class="memdesc:gaf170d1c4080593bfcee7567dc197f5ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">the side of the limit sphere's center: +1 along ( -Vy, Vx, 0 ), -1 the opposite  <br /></td></tr>
+<tr class="memitem:ga0504cb318e00a1d607960cd1ef070888" id="r_ga0504cb318e00a1d607960cd1ef070888"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0504cb318e00a1d607960cd1ef070888">MR::InSphereTesterSoS::degenerateTriangle_</a> = false</td></tr>
+<tr class="memdesc:ga0504cb318e00a1d607960cd1ef070888"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#ga83272fcfe28d46d0c521b5f7c5af73f4">reset()</a> got W == 0 with two coincident points and an existing perturbed sphere  <br /></td></tr>
 <tr class="memitem:ga564bcf6e1925912d15fa1cb20a3b0a3c" id="r_ga564bcf6e1925912d15fa1cb20a3b0a3c"><td class="memItemLeft" align="right" valign="top">const Matrix4f &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga564bcf6e1925912d15fa1cb20a3b0a3c">MR::BaseRenderParams::viewMatrix</a></td></tr>
 <tr class="memitem:gab108063540156c1b73540c07c48e6d01" id="r_gab108063540156c1b73540c07c48e6d01"><td class="memItemLeft" align="right" valign="top">const Matrix4f &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab108063540156c1b73540c07c48e6d01">MR::BaseRenderParams::projMatrix</a></td></tr>
 <tr class="memitem:gadf952473500110be7f693c5d725f6fde" id="r_gadf952473500110be7f693c5d725f6fde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadf952473500110be7f693c5d725f6fde">MR::BaseRenderParams::viewportId</a></td></tr>
@@ -53927,6 +53940,34 @@ template&lt;typename R, typename E, typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="gae5d8d9b9fe2dd4d41af7fad0d93fdff0" name="gae5d8d9b9fe2dd4d41af7fad0d93fdff0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae5d8d9b9fe2dd4d41af7fad0d93fdff0">&#9670;&#160;</a></span>degenerateTriangle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::InSphereTesterSoS::degenerateTriangle </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
+<p>whether the last successful <a class="el" href="#ga83272fcfe28d46d0c521b5f7c5af73f4">reset()</a> got a degenerate triangle (two coincident points), where only the symbolically perturbed sphere exists; the exact sphere quantities of the base class are not valid then </p>
+
+</div>
+</div>
 <a id="ga9160efb048d0053d324f4bdfb63ebd5d" name="ga9160efb048d0053d324f4bdfb63ebd5d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9160efb048d0053d324f4bdfb63ebd5d">&#9670;&#160;</a></span>del() <span class="overload">[1/5]</span></h2>
 
@@ -74336,6 +74377,8 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
 <p>swaps the points b and c together with their ids, which selects the mirror sphere as in the base class, and gives exactly the state of reset( a, c, b, rSq ); this hides the id-less flip of the base class, which would leave stale ids </p>
+<p>w stays exactly zero for a degenerate triangle</p>
+<p>the mirror of the limit sphere</p>
 
 </div>
 </div>
@@ -105991,10 +106034,11 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
-<p>checks whether the point vs[3] is strictly inside the sphere of radius sqrt(rSq) passing via points vs[0], vs[1], vs[2], with the center located on the positive side of plane vs[0]vs[1]vs[2] (same convention as in the overload above); resolves "vs[3] is exactly on the sphere" ties into Inside or Outside using simulation-of-simplicity: the points are symbolically perturbed (larger perturbations of points with smaller ids; per point the z-coordinate gets larger perturbation than y than x), and the first point whose perturbation moves vs[3] off the sphere decides the answer; known deviations from full simulation-of-simplicity semantics, all answered deterministically for now (covered by sosInSphereDeviations test, to be resolved by ids in the following PRs):</p><ul>
-<li>all three points of the triangle coincide: NoSphere now, while the perturbed triangle is not degenerate and its sphere exists;</li>
-<li>two points of the triangle coincide and the third one is closer than the sphere's diameter: NoSphere now, while the perturbed sphere may exist depending on the perturbation directions;</li>
-<li>rSq is exactly equal to the squared circumradius of a not-degenerate triangle: perturbations change the sphere's existence, affecting both "vs[3] strictly inside" (Inside now) and "vs[3] exactly on the sphere" (Outside now); the remaining degenerate NoSphere answers are exact under full simulation-of-simplicity, because no small perturbation can create the sphere: distinct collinear triangle points, two coincident triangle points with the third one at or beyond the sphere's diameter, rSq below the squared circumradius </li>
+<p>checks whether the point vs[3] is strictly inside the sphere of radius sqrt(rSq) passing via points vs[0], vs[1], vs[2], with the center located on the positive side of plane vs[0]vs[1]vs[2] (same convention as in the overload above); full simulation-of-simplicity semantics: the answer equals the answer of the plain predicate on the symbolically perturbed points, where the point with rank r among the four (by ascending ids) receives +eps^(9*L^r) to x, +eps^(3*L^r) to y, +eps^(L^r) to z with L = 128, eps -&gt; +0 (z gets the largest perturbation as in getPointDegrees, but the ladder between the ranks is 128: it exceeds the maximal degree-weight of one point in the predicate polynomials, which makes the resolution independent of whether the ranks are computed among 3 or among all 4 points); consequently:</p><ul>
+<li>"vs[3] exactly on the sphere" resolves into Inside or Outside by the ids;</li>
+<li>rSq exactly equal to the squared circumradius: the perturbation decides the sphere's existence, so the answer can be NoSphere even for vs[3] strictly inside;</li>
+<li>three coincident or distinct collinear triangle points always give NoSphere: the perturbed triangle is needle-like (the perturbation magnitudes differ vastly) and its circumradius diverges as eps -&gt; +0;</li>
+<li>two coincident triangle points: the sphere exists iff 4*rSq*(Vx^2+Vy^2) &gt; |V|^4 at the leading order (the pair separates along z), V = the third point minus the pair </li>
 </ul>
 
 </div>
@@ -141620,7 +141664,7 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
-<p>whether d is strictly outside both spheres of the given radius passing via the three points of <a class="el" href="#ga1855670ce694c01ac7166e9562dc5ffb">reset()</a>: the selected one and its mirror in the plane of the triangle; the answer is exact, and a point lying on either of them is not strictly outside, so no tie arises and no simulation-of-simplicity is involved; filtered in floating point as the query above, and equally exact </p>
+<p>whether d is strictly outside both spheres of the given radius passing via the three points of <a class="el" href="#ga1855670ce694c01ac7166e9562dc5ffb">reset()</a>: the selected one and its mirror in the plane of the triangle; the answer is exact, and a point lying on either of them is not strictly outside, so no tie arises and no simulation-of-simplicity is involved; filtered in floating point as the query above, and equally exact; for a degenerate triangle, where only the perturbed spheres exist and the answer would need the id of d, returns false conservatively (never prunes) </p>
 
 </div>
 </div>
@@ -154504,7 +154548,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRInSphere_8h.html">MRMesh/MRInSphere.h</a>&gt;</code></p>
-<p>prepares the tester for the sphere of radius sqrt(rSq) passing via points a.pt, b.pt, c.pt, with the center located on the positive side of their plane (in the half-space pointed at by cross( b.pt - a.pt, c.pt - a.pt ) from the plane), remembering the ids for the queries; returns false if no such sphere exists: the points are collinear or coincident, or rSq is less than the squared circumradius of the triangle; this hides the id-less reset of the base class, which would leave stale ids </p>
+<p>prepares the tester for the sphere of radius sqrt(rSq) passing via points a.pt, b.pt, c.pt, with the center located on the positive side of their plane (in the half-space pointed at by cross( b.pt - a.pt, c.pt - a.pt ) from the plane), remembering the ids for the queries; returns false if no such sphere exists for the symbolically perturbed points (see the simulation-of-simplicity inSphere above): in particular, coincident and collinear triangle points are resolved by the perturbation here, and rSq exactly equal to the squared circumradius gives false whenever the perturbation of these ids breaks the existence; this hides the id-less reset of the base class, which would leave stale ids </p>
 
 </div>
 </div>
@@ -207864,6 +207908,30 @@ template&lt;UnitEnum E&gt; </div>
 
 </div>
 </div>
+<a id="ga0504cb318e00a1d607960cd1ef070888" name="ga0504cb318e00a1d607960cd1ef070888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0504cb318e00a1d607960cd1ef070888">&#9670;&#160;</a></span>degenerateTriangle_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::InSphereTesterSoS::degenerateTriangle_ = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="#ga83272fcfe28d46d0c521b5f7c5af73f4">reset()</a> got W == 0 with two coincident points and an existing perturbed sphere </p>
+
+</div>
+</div>
 <a id="ga2d95d4ba6210441527d210b9e677228f" name="ga2d95d4ba6210441527d210b9e677228f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2d95d4ba6210441527d210b9e677228f">&#9670;&#160;</a></span>degreesMode</h2>
 
@@ -222659,6 +222727,79 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="gab8037b809c2ba6e3383d11852bb8e499" name="gab8037b809c2ba6e3383d11852bb8e499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab8037b809c2ba6e3383d11852bb8e499">&#9670;&#160;</a></span>pairPt_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3i MR::InSphereTesterSoS::pairPt_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the position of the coincident pair </p>
+
+</div>
+</div>
+<a id="gaf170d1c4080593bfcee7567dc197f5ef" name="gaf170d1c4080593bfcee7567dc197f5ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf170d1c4080593bfcee7567dc197f5ef">&#9670;&#160;</a></span>pairSigma_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::InSphereTesterSoS::pairSigma_ = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the side of the limit sphere's center: +1 along ( -Vy, Vx, 0 ), -1 the opposite </p>
+
+</div>
+</div>
+<a id="ga2243fa1320914c1bbf37aaabbedaef4a" name="ga2243fa1320914c1bbf37aaabbedaef4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2243fa1320914c1bbf37aaabbedaef4a">&#9670;&#160;</a></span>pairV_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3i64 MR::InSphereTesterSoS::pairV_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the fields are ordered by descending alignment to minimize the padding </p>
+<p>the third point minus the pair </p>
+
+</div>
+</div>
 <a id="ga3853225f96fef25c2dbce20227c54c7d" name="ga3853225f96fef25c2dbce20227c54c7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3853225f96fef25c2dbce20227c54c7d">&#9670;&#160;</a></span>palette_</h2>
 
@@ -234500,6 +234641,28 @@ template&lt;class MetricToPenalty&gt; </div>
 
 </div>
 </div>
+<a id="gacf6bc51e20756e358846e3a1e06435d4" name="gacf6bc51e20756e358846e3a1e06435d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacf6bc51e20756e358846e3a1e06435d4">&#9670;&#160;</a></span>va_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertId MR::InSphereTesterSoS::va_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gad539b3994d5669f58854f0a4cebe4616" name="gad539b3994d5669f58854f0a4cebe4616"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad539b3994d5669f58854f0a4cebe4616">&#9670;&#160;</a></span>val <span class="overload">[1/3]</span></h2>
 
@@ -234723,6 +234886,52 @@ template&lt;typename K, typename V&gt; </div>
 </div><div class="memdoc">
 
 <p>If <span class="tt">isSet == false</span>, this will hold zeroes, or some other default values. </p>
+
+</div>
+</div>
+<a id="ga444c2f2ff20b38dc0100b98f265623a3" name="ga444c2f2ff20b38dc0100b98f265623a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga444c2f2ff20b38dc0100b98f265623a3">&#9670;&#160;</a></span>vb_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertId MR::InSphereTesterSoS::vb_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gacab5c4bb57db9e7c39168b0a7c80f78a" name="gacab5c4bb57db9e7c39168b0a7c80f78a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacab5c4bb57db9e7c39168b0a7c80f78a">&#9670;&#160;</a></span>vc_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertId MR::InSphereTesterSoS::vc_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the ids of the sphere points given in <a class="el" href="#ga83272fcfe28d46d0c521b5f7c5af73f4">reset()</a> </p>
 
 </div>
 </div>
