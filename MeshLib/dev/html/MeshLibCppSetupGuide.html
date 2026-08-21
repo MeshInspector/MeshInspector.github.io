@@ -245,13 +245,8 @@ Installing the release build</h3>
 <ol type="1">
 <li><b>Download and Extract the Built Version</b><ul>
 <li>Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a>.</li>
-<li>Download the <b>Windows built version archive</b> matching your Visual Studio toolset:<ul>
-<li>Visual Studio 2019: <span class="tt">MeshLibDistVS19_&lt;version&gt;.zip</span></li>
-<li>Visual Studio 2022: <span class="tt">MeshLibDistVS22_&lt;version&gt;.zip</span></li>
-<li>Visual Studio 2026: <span class="tt">MeshLibDistVS26_&lt;version&gt;.zip</span></li>
-<li>Debug build with iterator debugging on: <span class="tt">MeshLibDist_&lt;version&gt;-IteratorDebug.zip</span> (see <a class="el" href="#CppSetupTroubleshooting">Troubleshooting</a>)</li>
-</ul>
-</li>
+<li>Download the <b>Windows built version archive</b> for your Visual Studio toolset: the release description links one archive per supported toolset (2019, 2022, 2026).</li>
+<li>For a Debug build with iterator debugging on, take the <span class="tt">IteratorDebug</span> archive instead. It is in the release's asset list but not in that table of links — see <a class="el" href="#CppSetupTroubleshooting">Troubleshooting</a>.</li>
 <li>Extract it to a directory, e.g., <span class="tt">C:\meshlib-built\</span>. <br  />
  <b>Directory Structure After Extraction</b> <div class="fragment"><div class="line">install/</div>
 <div class="line">  ├── include/       # Header files</div>
@@ -375,17 +370,11 @@ Linux</h2>
 Installing the release build</h3>
 <ol type="1">
 <li><b>Download the Package for Your Distribution and CPU</b> <br  />
- Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page and download the <span class="tt">.deb</span> matching your Ubuntu release (<span class="tt">lsb_release -rs</span>) and architecture (<span class="tt">uname -m</span>):<ul>
-<li>Ubuntu 22.04, <span class="tt">x86_64</span>: <span class="tt">meshlib_&lt;version&gt;_ubuntu22-dev.deb</span></li>
-<li>Ubuntu 22.04, <span class="tt">aarch64</span>: <span class="tt">meshlib_&lt;version&gt;_ubuntu22-arm64-dev.deb</span></li>
-<li>Ubuntu 24.04, <span class="tt">x86_64</span>: <span class="tt">meshlib_&lt;version&gt;_ubuntu24-dev.deb</span></li>
-<li>Ubuntu 24.04, <span class="tt">aarch64</span>: <span class="tt">meshlib_&lt;version&gt;_ubuntu24-arm64-dev.deb</span> <br  />
- On any other distribution use the portable vcpkg build instead, <span class="tt">meshlib_&lt;version&gt;_linux-vcpkg-x64.tar.xz</span> or <span class="tt">meshlib_&lt;version&gt;_linux-vcpkg-arm64.tar.xz</span>. It bundles its own dependencies and is not installed system-wide: unpack it and use the resulting directory as the MeshLib installation prefix, then skip to step 4. <div class="fragment"><div class="line">mkdir path_to_install &amp;&amp; tar -xf meshlib_&lt;version&gt;_linux-vcpkg-x64.tar.xz -C path_to_install</div>
+ Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page: the release description links a <span class="tt">.deb</span> for every supported Ubuntu release and architecture. Take the one matching <span class="tt">lsb_release -rs</span> and <span class="tt">uname -m</span>. <br  />
+ On any other distribution use the portable <b>Linux vcpkg</b> build instead. It bundles its own dependencies and is not installed system-wide: unpack it and use the resulting directory as the MeshLib installation prefix, then skip to step 4. <div class="fragment"><div class="line">mkdir path_to_install &amp;&amp; tar -xf &lt;downloaded&gt;.tar.xz -C path_to_install</div>
 </div><!-- fragment --></li>
-</ul>
-</li>
 <li><b>Install the Package</b> <br  />
- <span class="tt">apt</span> pulls in the remaining system dependencies itself. The leading <span class="tt">./</span> is required: without it <span class="tt">apt</span> looks for a repository package by that name. <div class="fragment"><div class="line">sudo apt install ./meshlib_&lt;version&gt;_ubuntu24-dev.deb</div>
+ <span class="tt">apt</span> pulls in the remaining system dependencies itself. The leading <span class="tt">./</span> is required: without it <span class="tt">apt</span> looks for a repository package by that name. <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
 </div><!-- fragment --></li>
 <li><b>Open MeshViewer</b> <br  />
  To verify that everything is fine you can run MeshViewer application: <div class="fragment"><div class="line">MeshViewer</div>
@@ -534,15 +523,10 @@ Install Emscripten</h3>
 Installing the release build</h3>
 <ol type="1">
 <li><b>Download the Built Version</b> <br  />
- Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page and download the Emscripten archive whose threading mode and pointer width match the build that will consume MeshLib:<ul>
-<li>multi-threaded, wasm32: <span class="tt">meshlib_&lt;version&gt;_emscripten-multithreaded.zip</span></li>
-<li>single-threaded: <span class="tt">meshlib_&lt;version&gt;_emscripten-singlethreaded.zip</span></li>
-<li>multi-threaded, wasm64: <span class="tt">meshlib_&lt;version&gt;_emscripten-multithreaded-64bit.zip</span> <br  />
+ Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page and download the Emscripten archive whose threading mode and pointer width match the build that will consume MeshLib: the release description links a multi-thread, a single-thread and a multi-thread Wasm64 variant. <br  />
  These are the same three modes that <a class="el" href="#CppSetupWASMLocalBuild">Compile locally</a> selects with <span class="tt">MR_EMSCRIPTEN</span> / <span class="tt">MR_EMSCRIPTEN_SINGLETHREAD</span> / <span class="tt">MR_EMSCRIPTEN_WASM64</span>. The archive has to match your own build: an Emscripten target links only against libraries built with the same <span class="tt">-pthread</span> and <span class="tt">MEMORY64</span> settings.</li>
-</ul>
-</li>
 <li><b>Extract the Package</b> <br  />
- Extract the package using an archiving tool or with the unzip command: <div class="fragment"><div class="line">unzip -d path_to_install meshlib_&lt;version&gt;_emscripten-multithreaded.zip</div>
+ Extract the package using an archiving tool or with the unzip command: <div class="fragment"><div class="line">unzip -d path_to_install &lt;downloaded&gt;.zip</div>
 </div><!-- fragment --></li>
 <li><b>Integrate Using CMake</b> <br  />
  Specify the path to the extracted files with the <span class="tt">CMAKE_FIND_ROOT_PATH</span> option: <div class="fragment"><div class="line">emcmake cmake -S . -B build -DCMAKE_FIND_ROOT_PATH=path_to_install</div>
