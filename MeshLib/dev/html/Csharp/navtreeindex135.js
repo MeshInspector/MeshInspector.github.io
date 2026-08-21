@@ -1,5 +1,6 @@
 var NAVTREEINDEX135 =
 {
+"classMR_1_1UniteMeshNormalizationParams.html#afe10f794aef104a41e99c469b8d1197e":[6,3,0,0,0,1705,4],
 "classMR_1_1UnorientedTriangle.html":[6,3,0,0,0,1707],
 "classMR_1_1UnorientedTriangle.html#a14b2b2728a4ae7574f0ae205adffd5cd":[6,3,0,0,0,1707,4],
 "classMR_1_1UnorientedTriangle.html#a176fa8ba1591d178ae6b5ab3c495cd31":[6,3,0,0,0,1707,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX135 =
 "classMR_1_1Vector__Int__MRVertId.html#ad807e51ed8dbc5614be769dadc6f9209":[6,3,0,0,0,1733,23],
 "classMR_1_1Vector__Int__MRVertId.html#af98fd2164a966eab8bd2a237debc7f8a":[6,3,0,0,0,1733,18],
 "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html":[6,3,0,0,0,1734],
-"classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#a1269d80b2ab53d7f53c095b5b2c5ba08":[6,3,0,0,0,1734,28],
-"classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#a161820f34aac49dc02f14bc02b246a5d":[6,3,0,0,0,1734,10]
+"classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#a1269d80b2ab53d7f53c095b5b2c5ba08":[6,3,0,0,0,1734,28]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1Dirty.html#a638c9a0eb804875fbb233118a9861750":[6,3,0,0,0,1125,1],
 "classMR_1_1Dirty.html#aadc5f0701f10a701f5e9d10d352333b0":[6,3,0,0,0,1125,5],
 "classMR_1_1DistanceFromWeightedPointsComputeParams.html":[6,3,0,0,0,1126],
 "classMR_1_1DistanceFromWeightedPointsComputeParams.html#a17c3a42c75d5dc1a9837a57de738c197":[6,3,0,0,0,1126,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1EdgeBitSet.html#a46597769acc0925107607c8160c31676":[6,3,0,0,0,1141,11],
 "classMR_1_1EdgeBitSet.html#a46947cb77995098926ef7977cb7d5820":[6,3,0,0,0,1141,18],
 "classMR_1_1EdgeBitSet.html#a4b6427f8d905a473fef3decd9ad86dc4":[6,3,0,0,0,1141,5],
-"classMR_1_1EdgeBitSet.html#a4cb8b738d228c8431da140e78b766103":[6,3,0,0,0,1141,17],
-"classMR_1_1EdgeBitSet.html#a5e3b72e5e02e63893a13116a43e44223":[6,3,0,0,0,1141,25]
+"classMR_1_1EdgeBitSet.html#a4cb8b738d228c8431da140e78b766103":[6,3,0,0,0,1141,17]
 };

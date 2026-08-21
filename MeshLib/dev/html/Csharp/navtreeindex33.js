@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1Const__BendTextAlongCurveParams.html#ad0079987a425fbb7b54ef098d9961144":[6,3,0,0,0,261,12],
 "classMR_1_1Const__BendTextAlongCurveParams.html#af4befa471b3ef1cc10fc4cd30ebd68ef":[6,3,0,0,0,261,3],
 "classMR_1_1Const__BestFitParabolad.html":[6,3,0,0,0,262],
 "classMR_1_1Const__BestFitParabolad.html#a24a19095c7f882444864320324507c5e":[6,3,0,0,0,262,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html#ad0918144a439ab38f99b4a4c7da581fc":[6,3,0,0,0,285,4],
 "classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html#adc785d1c073391d82dd2e76fc5e1e3b5":[6,3,0,0,0,285,11],
 "classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html#ae6915897075e1c69d8b3fd10539362d8":[6,3,0,0,0,285,10],
-"classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html#aef26640574ea2808d76671000eb524e6":[6,3,0,0,0,285,8],
-"classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html#af5d4a4f1dee05e1e7fcaaefd233a5628":[6,3,0,0,0,285,7]
+"classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html#aef26640574ea2808d76671000eb524e6":[6,3,0,0,0,285,8]
 };

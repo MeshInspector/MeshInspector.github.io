@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1TransformControls_1_1VisualParams.html":[6,0,0,20,619],
 "structMR_1_1TransformVdbVolumeResult.html":[6,0,0,20,892],
 "structMR_1_1TransformedMesh.html":[6,0,0,20,330],
 "structMR_1_1TransparencyMode.html":[6,0,0,20,478],
@@ -226,7 +227,7 @@ var NAVTREEINDEX68 =
 "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#aa5ab2cbeb1b2f73ba9d3a268be384ace":[6,0,0,1,18,0,1],
 "structMR_1_1Vector2.html":[6,0,0,0,12,0],
 "structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[6,0,0,0,12,0,41],
-"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[6,0,1,0,1,2859],
+"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[6,0,1,0,1,2860],
 "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[6,0,0,0,12,0,42],
 "structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b":[6,0,0,0,12,0,4],
 "structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[6,0,0,0,12,0,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Vector2.html#a65dcc8114a942bdb79fa724e727211e0":[6,0,0,0,12,0,8],
 "structMR_1_1Vector2.html#a689355b8d3f06c842bf414b949c7510e":[6,0,0,0,12,0,12],
 "structMR_1_1Vector2.html#a6bf0beb2bf7fd40b84edbd2256ada3da":[6,0,0,0,12,0,11],
-"structMR_1_1Vector2.html#a6deeb9fc80b0d29ccbfa306b2aa4a33b":[6,0,0,0,12,0,39],
-"structMR_1_1Vector2.html#a6f79f1540d91026fb17aebbcf6e6d9dc":[6,0,0,0,12,0,3]
+"structMR_1_1Vector2.html#a6deeb9fc80b0d29ccbfa306b2aa4a33b":[6,0,0,0,12,0,39]
 };

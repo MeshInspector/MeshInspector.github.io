@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1SegmPointf.html#a68caf76bfd137a66ab103adad4867336":[6,3,0,0,0,1588,2],
 "classMR_1_1SegmPointf.html#a6de84c5cde260a14e743e152a1a5d565":[6,3,0,0,0,1588,5],
 "classMR_1_1SegmPointf.html#a79626bfaba80b32c76e0d3b24bd2ebba":[6,3,0,0,0,1588,0],
 "classMR_1_1SegmPointf.html#a915c2f3f92f96e2cd214ac9aa6e597b8":[6,3,0,0,0,1588,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1SimpleVolumeMinMax.html#a57b9395845a5c83fe7c50fe54cf89a72":[6,3,0,0,0,1609,4],
 "classMR_1_1SimpleVolumeMinMax.html#a7257fe2dd5b4f34afbaa0a757957f604":[6,3,0,0,0,1609,12],
 "classMR_1_1SimpleVolumeMinMax.html#a7d23100be34e54522523bb6f38fa5507":[6,3,0,0,0,1609,7],
-"classMR_1_1SimpleVolumeMinMax.html#a80511b3be1bfb2705c43727c32ea296f":[6,3,0,0,0,1609,6],
-"classMR_1_1SimpleVolumeMinMax.html#ab1d2c24213584ca0b2ea6545309ea911":[6,3,0,0,0,1609,1]
+"classMR_1_1SimpleVolumeMinMax.html#a80511b3be1bfb2705c43727c32ea296f":[6,3,0,0,0,1609,6]
 };

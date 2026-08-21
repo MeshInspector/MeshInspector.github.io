@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"classMR_1_1ObjectSave_1_1Settings.html#abe27a917bbed37b1d441e6b0880eb061":[6,3,0,0,0,1445,1,3],
 "classMR_1_1ObjectTagEventDispatcher.html":[6,3,0,0,0,1446],
 "classMR_1_1ObjectTagEventDispatcher.html#a5ef24b53a636ca4e4fce471ad55b0a89":[6,3,0,0,0,1446,1],
 "classMR_1_1ObjectTagEventDispatcher.html#a938b939a277c3ce06ed1537f664b5b11":[6,3,0,0,0,1446,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "classMR_1_1PackMapping.html#abcbdf83caeeb6011184eedd58046dc74":[6,3,0,0,0,1472,6],
 "classMR_1_1PackMapping.html#ae0be90fc6e8e7acc2f8c0be5c4ab0cf2":[6,3,0,0,0,1472,3],
 "classMR_1_1Parabolad.html":[6,3,0,0,0,1473],
-"classMR_1_1Parabolad.html#a01ec0837978bc8dafe55a72c3b5c4ee8":[6,3,0,0,0,1473,3],
-"classMR_1_1Parabolad.html#a203edc3413c474cf55074d4172b8c37f":[6,3,0,0,0,1473,4]
+"classMR_1_1Parabolad.html#a01ec0837978bc8dafe55a72c3b5c4ee8":[6,3,0,0,0,1473,3]
 };

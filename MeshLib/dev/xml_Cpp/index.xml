@@ -15049,6 +15049,7 @@
     <member refid="group__FillHoleGroup_1gaa7b4656b5eb409139fbb67985106e06b" kind="function"><name>makeInterHoleBridgeEdges</name></member>
     <member refid="group__FillHoleGroup_1ga71fca5b809e46f918e1bc23c90c3201e" kind="function"><name>splitQuad</name></member>
     <member refid="group__MeshFixerGroup_1ga9f1f866643e15bf1b9d9131f2d6dad0e" kind="function"><name>duplicateMultiHoleVertices</name></member>
+    <member refid="group__MeshFixerGroup_1ga41fe97594ff1579f8e60f2f25944eccb" kind="function"><name>duplicateMultiHoleVertices</name></member>
     <member refid="group__MeshFixerGroup_1ga81e1fcab0f64d4bdb4ccf19d7e67bae1" kind="function"><name>findMultipleEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga1aa9c53dc2ae474fe6c0c6d90d347f3e" kind="function"><name>hasMultipleEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga4b6baaa619201e7e4c135ec4200d38ce" kind="function"><name>fixMultipleEdges</name></member>
@@ -19499,6 +19500,7 @@
   <compound refid="group__MeshFixerGroup" kind="group"><name>MeshFixerGroup</name>
     <member refid="group__MeshFixerGroup_1gac8fc9cf58c37989c9d8ff982e8e378dc" kind="typedef"><name>MultipleEdge</name></member>
     <member refid="group__MeshFixerGroup_1ga9f1f866643e15bf1b9d9131f2d6dad0e" kind="function"><name>duplicateMultiHoleVertices</name></member>
+    <member refid="group__MeshFixerGroup_1ga41fe97594ff1579f8e60f2f25944eccb" kind="function"><name>duplicateMultiHoleVertices</name></member>
     <member refid="group__MeshFixerGroup_1ga81e1fcab0f64d4bdb4ccf19d7e67bae1" kind="function"><name>findMultipleEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga1aa9c53dc2ae474fe6c0c6d90d347f3e" kind="function"><name>hasMultipleEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga4b6baaa619201e7e4c135ec4200d38ce" kind="function"><name>fixMultipleEdges</name></member>

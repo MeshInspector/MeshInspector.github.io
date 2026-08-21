@@ -256,7 +256,7 @@ Installing the release build</h3>
 </div><!-- fragment --></li>
 </ul>
 </li>
-<li><p class="startli"><b>Configure and integrate with Visual Studio</b>  </p><ul>
+<li><b>Configure and integrate with Visual Studio</b>  <ul>
 <li>Debug only:<ul>
 <li><b>Debug Configuration: C/C++ → Preprocessor → Preprocessor Definitions</b>: <br  />
  Add: <span class="tt">_ITERATOR_DEBUG_LEVEL=0</span></li>
@@ -272,18 +272,16 @@ Installing the release build</h3>
 <li><b>C/C++ → All Options → Additional Options</b>: <br  />
  Add: <span class="tt">/bigobj /utf-8</span></li>
 <li><b>Linker → Input → Additional Dependencies</b>: <br  />
- Add: <span class="tt">C:\meshlib-built\install\lib\$(Configuration)\*.lib</span>  </li>
-</ul>
+ Add: <span class="tt">C:\meshlib-built\install\lib\$(Configuration)\*.lib</span>   <br  />
 </li>
 </ul>
-<ul>
-<li><b>Copy DLLs</b>: <br  />
- Copy all <span class="tt">.dll</span> files from: <span class="tt">C:\meshlib-built\install\app\$(Configuration)</span> to your project’s output directory: <span class="tt">$(TargetDir)</span> <div class="fragment"><div class="line">xcopy C:\meshlib-built\install\app\$(Configuration)\*.dll $(TargetDir)</div>
-</div><!-- fragment --></li>
+</li>
 </ul>
 </li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
+<p><b>Copy DLLs</b>: <br  />
+ Copy all <span class="tt">.dll</span> files from: <span class="tt">C:\meshlib-built\install\app\$(Configuration)</span> to your project’s output directory: <span class="tt">$(TargetDir)</span> </p><div class="fragment"><div class="line">xcopy C:\meshlib-built\install\app\$(Configuration)\*.dll $(TargetDir)</div>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
 Compile Locally</h3>
 <h4 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
 Prerequisites</h4>
@@ -416,13 +414,14 @@ Installing the local build</h4>
 <div class="line">./scripts/build_source.sh      # Do not select emscripten in the corresponding question</div>
 </div><!-- fragment --> You may also run the scripts in the non-interactive mode (see <a class="el" href="#CppSetupWASM">Building WebAssembly with MeshLib Using Emscripten</a> for more info): <div class="fragment"><div class="line">MR_EMSCRIPTEN=OFF ./scripts/build_thirdparty.sh</div>
 <div class="line">MR_EMSCRIPTEN=OFF ./scripts/build_source.sh</div>
-</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>Dependencies are installed automatically on Ubuntu only. Elsewhere <span class="tt">build_thirdparty.sh</span> prints <em>"Unsupported system. Installing dependencies is your responsibility."</em>, so install the equivalents of <a href="https://github.com/MeshInspector/MeshLib/blob/master/requirements/ubuntu.txt"><span class="tt">requirements/ubuntu.txt</span></a> yourself first.</dd></dl>
-</li>
+</div><!-- fragment --></li>
 <li><b>Create and Install Package</b>: <br  />
- This step will create distribution package and install it to the system <div class="fragment"><div class="line">./scripts/distribution.sh</div>
+ This step will create distribution package and install it to the system <br  />
+ <b>For Ubuntu</b>: <div class="fragment"><div class="line">./scripts/distribution.sh</div>
 <div class="line">sudo apt install ./distr/meshlib-dev.deb</div>
-</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd><span class="tt">distribution.sh</span> builds a <span class="tt">.deb</span>, so this step is Ubuntu/Debian-only. On other distributions skip it and use the locally built binaries directly, as in the next step.</dd></dl>
-</li>
+</div><!-- fragment --> For Fedora**: <div class="fragment"><div class="line">./scripts/distribution_rpm.sh</div>
+<div class="line">sudo rpm -i ./distr/meshlib-dev.rpm</div>
+</div><!-- fragment --></li>
 <li><b>Open MeshViewer</b> <br  />
  To verify that everything is fine you can run MeshViewer application:<ul>
 <li>if you previously have installed <span class="tt">meshlib</span> to your system: <div class="fragment"><div class="line">MeshViewer</div>
@@ -440,7 +439,11 @@ macOS</h2>
 Installing the release build</h3>
 <ol type="1">
 <li><b>Download the Installer</b> <br  />
- Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page: the release description links one <span class="tt">.pkg</span> installer for macOS Arm (Apple silicon) and one for macOS x64 (Intel). Take the one matching <span class="tt">uname -m</span> (<span class="tt">arm64</span> or <span class="tt">x86_64</span>).</li>
+ Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page and download the <span class="tt">.pkg</span> for your CPU (run <span class="tt">uname -m</span> if you are unsure):<ul>
+<li>Apple silicon (M-series, <span class="tt">arm64</span>): <span class="tt">meshlib_&lt;version&gt;_arm64.pkg</span></li>
+<li>Intel (<span class="tt">x86_64</span>): <span class="tt">meshlib_&lt;version&gt;_x64.pkg</span></li>
+</ul>
+</li>
 <li><b>Install</b><ul>
 <li>Double-click the downloaded <span class="tt">.pkg</span> and follow the installer. The release asset is the installer itself, so there is nothing to unpack first.</li>
 <li>The framework is installed into <span class="tt">/Library/Frameworks/MeshLib.framework</span>, or into <span class="tt">~/Library/Frameworks/MeshLib.framework</span> if you choose to install for the current user only.</li>
@@ -605,7 +608,7 @@ Troubleshooting</h2>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Path  </th><th class="markdownTableHeadNone">Symptom  </th><th class="markdownTableHeadNone">Cause  </th><th class="markdownTableHeadNone">Fix  </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Windows, prebuilt  </td><td class="markdownTableBodyNone">Compilation of any file including MeshLib stops with <span class="tt">#error _ITERATOR_DEBUG_LEVEL is inconsistent with MeshLib</span>. This is a <b>compile</b> error raised by MeshLib itself, not a linker error.  </td><td class="markdownTableBodyNone">The archive was built for a different iterator-debug setting than your project uses. MeshLib defaults both <span class="tt">_ITERATOR_DEBUG_LEVEL</span> and <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> to <span class="tt">0</span> and refuses to compile when they disagree.  </td><td class="markdownTableBodyNone">For Release, take the archive matching your toolset from the release description's links, as in step 1 of <a class="el" href="#CppSetupWindows">Windows</a>. For a Debug build with iterator debugging on, take the <span class="tt">IteratorDebug</span> archive from the release's asset list and define <b>both</b> <span class="tt">_ITERATOR_DEBUG_LEVEL</span> and <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> to <span class="tt">2</span> — defining only the first one is what triggers the error.  </td></tr>
+<td class="markdownTableBodyNone">Windows, prebuilt  </td><td class="markdownTableBodyNone">Compilation of any file including MeshLib stops with <span class="tt">#error _ITERATOR_DEBUG_LEVEL is inconsistent with MeshLib</span>. This is a <b>compile</b> error raised by MeshLib itself, not a linker error.  </td><td class="markdownTableBodyNone">The archive was built for a different iterator-debug setting than your project uses. MeshLib defaults both <span class="tt">_ITERATOR_DEBUG_LEVEL</span> and <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> to <span class="tt">0</span> and refuses to compile when they disagree.  </td><td class="markdownTableBodyNone">For Release, take <span class="tt">MeshLibDistVS19_&lt;version&gt;.zip</span> / <span class="tt">MeshLibDistVS22_&lt;version&gt;.zip</span> / <span class="tt">MeshLibDistVS26_&lt;version&gt;.zip</span> matching your toolset. For a Debug build with iterator debugging on, take <span class="tt">MeshLibDist_&lt;version&gt;-IteratorDebug.zip</span> and define <b>both</b> <span class="tt">_ITERATOR_DEBUG_LEVEL</span> and <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> to <span class="tt">2</span> — defining only the first one is what triggers the error.  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Windows, from source  </td><td class="markdownTableBodyNone"><span class="tt">thirdparty\install.bat</span> finishes, but the Visual Studio solution cannot find the third-party headers and libraries.  </td><td class="markdownTableBodyNone"><span class="tt">VCPKG_DEFAULT_TRIPLET</span> was not set, so vcpkg installed the plain <span class="tt">x64-windows</span> triplet instead of MeshLib's triplet with its port overlays.  </td><td class="markdownTableBodyNone">Set <span class="tt">VCPKG_DEFAULT_TRIPLET=x64-windows-vs2019-meshlib</span> (VS 2019) or <span class="tt">x64-windows-vs2022-meshlib</span> (VS 2022) in the environment and rerun the script. With VS 2026 leave it unset — <span class="tt">install.bat</span> then uses <span class="tt">x64-windows-meshlib</span>, which is correct; there is no <span class="tt">x64-windows-vs2026-meshlib</span>. See step 4 of <a class="el" href="#CppSetupWindowsLocalBuild">Installing the local build</a>.  </td></tr>
 <tr class="markdownTableRowOdd">

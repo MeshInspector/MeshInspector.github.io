@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"MRPolyline_8h.html#a508b310b2c1b134da914324d1bcc1bef":[6,2,2,0,0,0,0,1,276,66],
 "MRPolyline_8h.html#a55006993e95ac843431b423ac6dbcc44":[6,2,2,0,0,0,0,1,276,60],
 "MRPolyline_8h.html#a55849434115bba511e5112cf44b35a1f":[6,2,2,0,0,0,0,1,276,19],
 "MRPolyline_8h.html#a56c956da591c641d897c5fda7e714515":[6,2,2,0,0,0,0,1,276,54],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "MRPrecisePredicates2_8h.html#a68c7a7426f35371def9887b78a5fc177":[6,2,2,0,0,0,0,1,289,10],
 "MRPrecisePredicates2_8h.html#a6abea27c9b8fa4e876e9fae7fdb31e07":[6,2,2,0,0,0,0,1,289,67],
 "MRPrecisePredicates2_8h.html#a72244459e0f08e7009f78d833e1ca6ea":[6,2,2,0,0,0,0,1,289,61],
-"MRPrecisePredicates2_8h.html#a74abcd1e419580ad960e9f702cdb4864":[6,2,2,0,0,0,0,1,289,72],
-"MRPrecisePredicates2_8h.html#a789f6aee89fb59dbf146a61e53fec11a":[6,2,2,0,0,0,0,1,289,35]
+"MRPrecisePredicates2_8h.html#a74abcd1e419580ad960e9f702cdb4864":[6,2,2,0,0,0,0,1,289,72]
 };

@@ -205,20 +205,20 @@ var NAVTREEINDEX =
 "group__GeneralGroup.html#gga467cb9c5acd294f0d22ad2b2388f4ccbad2203cb1237cb6460cbad94564e39345",
 "group__GeneralGroup.html#ggad14d75ef685e439c80487ba1d4c41ecaa7a1920d61156abc05a60135aefe8bc67",
 "group__IOGroup.html#ga756bfbe6cede3121408e2ef95f428411",
-"group__MeshLoadGroup.html#ga5887b7ca337e8f580c09f27e0f02be06",
+"group__MeshLoadGroup.html#ga45676946fa326619771af2a6a6ca06ea",
 "group__SurfacePathGroup.html#ga2f7c1aea16986258c61ae83c1541d3f6",
-"group__VoxelPathGroup.html",
-"namespaceMR_1_1LinesLoad.html#a8ba03f82b986b90262ac83290496a441",
-"namespaceMR_1_1VoxelsSave.html#a2e179fbde55c39476bb8befcc2377073",
-"structMR_1_1BooleanPreCutResult.html",
-"structMR_1_1DistanceMapToWorld.html#a0c1936ef3e3658b717e91379b4f57651",
+"group__VoxelGroup.html#gafe8987c6754acf0b39a5d12c2a7d0da9",
+"namespaceMR_1_1LinesLoad.html#a7dcf879b73b8a97e9f65c04228e953e6",
+"namespaceMR_1_1VoxelsSave.html#a2df418f8471fab1ef437524c6b07333a",
+"structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7",
+"structMR_1_1DistanceMapToWorld.html#a0360bc9aa1c6d3b0fbb427a31737d45e",
 "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html",
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a2a5ed27f2a108a9b941bb2672a552ec6",
-"structMR_1_1Mesh.html#a2ad2ec1a3eff2b13c34415c807db69ad",
-"structMR_1_1MultiMeshIntersectionResult.html#af09308818e602f745c2bfb1144b73980",
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html",
-"structMR_1_1TransformVdbVolumeResult.html",
-"structMR_1_1Vector2.html#a6ff45773ec0657ef8d168ab6b82400d2"
+"structMR_1_1Mesh.html#a27a660c62e95948d2e77cd4e2681c0f4",
+"structMR_1_1MultiMeshIntersectionResult.html",
+"structMR_1_1PolylineTraits.html",
+"structMR_1_1TransformControls_1_1VisualParams.html",
+"structMR_1_1Vector2.html#a6f79f1540d91026fb17aebbcf6e6d9dc"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

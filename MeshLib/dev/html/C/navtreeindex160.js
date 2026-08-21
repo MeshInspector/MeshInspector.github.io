@@ -1,5 +1,6 @@
 var NAVTREEINDEX160 =
 {
+"std__shared__ptr__MR__Object_8h.html#acafa05761bda309caf58d8772a1d96cd":[6,2,2,0,0,0,0,2,357,18],
 "std__shared__ptr__MR__Object_8h.html#ae3303fdf03b3cb38bbca4ad42d422a99":[6,2,2,0,0,0,0,2,357,7],
 "std__shared__ptr__MR__Object_8h.html#ae64aadbf7820285132e2d21d86e9b0ac":[6,2,2,0,0,0,0,2,357,14],
 "std__shared__ptr__MR__Object_8h.html#aed0865a6f343465c1837911d65c845cc":[6,2,2,0,0,0,0,2,357,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX160 =
 "std__shared__ptr__MR__PointsToMeshProjector_8h_source.html":[6,2,2,0,0,0,0,2,379],
 "std__shared__ptr__MR__Polyline3_8h.html":[6,2,2,0,0,0,0,2,380],
 "std__shared__ptr__MR__Polyline3_8h.html#a0082bea648153d8f48ac40a2e78b28c2":[6,2,2,0,0,0,0,2,380,14],
-"std__shared__ptr__MR__Polyline3_8h.html#a0b9249dfb7a0ad2e22d713c87c7c872a":[6,2,2,0,0,0,0,2,380,0],
-"std__shared__ptr__MR__Polyline3_8h.html#a1028a052bfd9c15eec9da360b195dba5":[6,2,2,0,0,0,0,2,380,15]
+"std__shared__ptr__MR__Polyline3_8h.html#a0b9249dfb7a0ad2e22d713c87c7c872a":[6,2,2,0,0,0,0,2,380,0]
 };

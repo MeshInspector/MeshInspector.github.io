@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1EdgeBitSet.html#a5e3b72e5e02e63893a13116a43e44223":[6,3,0,0,0,1141,25],
 "classMR_1_1EdgeBitSet.html#a60f1e965bb54c3dbeee21ea077881b34":[6,3,0,0,0,1141,29],
 "classMR_1_1EdgeBitSet.html#a645aaf02fa35ad2fb9383f1db25b0c75":[6,3,0,0,0,1141,26],
 "classMR_1_1EdgeBitSet.html#a67f9f6f0db76c32276a5b13588af1552":[6,3,0,0,0,1141,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1EndMillCutter.html#a2ae7df5f8c116d7d27c6be74d2fc8ee7":[6,3,0,0,0,1158,3],
 "classMR_1_1EndMillCutter.html#a38930705af7bd082649093fcbb879993":[6,3,0,0,0,1158,5],
 "classMR_1_1EndMillCutter.html#a6206e156a5ae23e146a92dd7dab405d8":[6,3,0,0,0,1158,1],
-"classMR_1_1EndMillCutter.html#ad250715df37020cc93635a37eb8ce8c9":[6,3,0,0,0,1158,4],
-"classMR_1_1EndMillCutter.html#ae8bed9c7b17f6dd36739f6e26c497003":[6,3,0,0,0,1158,6]
+"classMR_1_1EndMillCutter.html#ad250715df37020cc93635a37eb8ce8c9":[6,3,0,0,0,1158,4]
 };

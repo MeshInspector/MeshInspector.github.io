@@ -1,5 +1,6 @@
 var NAVTREEINDEX123 =
 {
+"classMR_1_1PointMeasurementObject.html#a5b4de52ce7b1fa584924631fb59c9b8f":[6,3,0,0,0,1498,34],
 "classMR_1_1PointMeasurementObject.html#a5b81747ced731cafff4037eccb48e3c5":[6,3,0,0,0,1498,45],
 "classMR_1_1PointMeasurementObject.html#a627fd5db7b6f239d29c16fe7b1f01718":[6,3,0,0,0,1498,36],
 "classMR_1_1PointMeasurementObject.html#a6d02c48584132c74fd2d1513155cd42c":[6,3,0,0,0,1498,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX123 =
 "classMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#a85d067a17942985e46a6f5e2dc15486f":[6,3,0,0,0,1504,4,7],
 "classMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#a8873af129e104e167ce894159cf2b6b7":[6,3,0,0,0,1504,4,1],
 "classMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#a9855cb3f5bd84f31975baef4d74f8401":[6,3,0,0,0,1504,4,3],
-"classMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#aadde6b9e009df5f183cf56dae23aa58a":[6,3,0,0,0,1504,4,5],
-"classMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#abf933534acd140cda5edc679a407da2c":[6,3,0,0,0,1504,4,8]
+"classMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#aadde6b9e009df5f183cf56dae23aa58a":[6,3,0,0,0,1504,4,5]
 };

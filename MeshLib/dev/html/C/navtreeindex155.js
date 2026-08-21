@@ -1,5 +1,6 @@
 var NAVTREEINDEX155 =
 {
+"std__shared__ptr__MR__ChangeNameAction_8h_source.html":[6,2,2,0,0,0,0,2,317],
 "std__shared__ptr__MR__ChangeObjectAction_8h.html":[6,2,2,0,0,0,0,2,318],
 "std__shared__ptr__MR__ChangeObjectAction_8h.html#a304e9ef9de693582ad7a5915c04738de":[6,2,2,0,0,0,0,2,318,9],
 "std__shared__ptr__MR__ChangeObjectAction_8h.html#a4149008a45b83638f92ed6f11dce9d24":[6,2,2,0,0,0,0,2,318,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX155 =
 "std__shared__ptr__MR__ChangePointPointSelectionAction_8h.html#a43037b8ff5686b543b3ed825f79ab035":[6,2,2,0,0,0,0,2,328,0],
 "std__shared__ptr__MR__ChangePointPointSelectionAction_8h.html#a58d81878ee7a56549b92c07510c16e60":[6,2,2,0,0,0,0,2,328,3],
 "std__shared__ptr__MR__ChangePointPointSelectionAction_8h.html#a59568e3ec0c9f9b5682b9002015fb18d":[6,2,2,0,0,0,0,2,328,2],
-"std__shared__ptr__MR__ChangePointPointSelectionAction_8h.html#a5c1bded22999b3010bae49327077e870":[6,2,2,0,0,0,0,2,328,20],
-"std__shared__ptr__MR__ChangePointPointSelectionAction_8h.html#a73106820d97859de519575a684b866d6":[6,2,2,0,0,0,0,2,328,7]
+"std__shared__ptr__MR__ChangePointPointSelectionAction_8h.html#a5c1bded22999b3010bae49327077e870":[6,2,2,0,0,0,0,2,328,20]
 };

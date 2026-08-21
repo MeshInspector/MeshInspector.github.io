@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1Const__FaceBitSet.html#a1d9a4748668c6ae1cab816781a82f12f":[6,3,0,0,0,430,21],
 "classMR_1_1Const__FaceBitSet.html#a1f60a55267a3ea429f204cbebbc35768":[6,3,0,0,0,430,8],
 "classMR_1_1Const__FaceBitSet.html#a2209107a4c6d70c398d2732ddfa51ae0":[6,3,0,0,0,430,26],
 "classMR_1_1Const__FaceBitSet.html#a238402903a9d2decd86d5501ddae057c":[6,3,0,0,0,430,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1Const__FanRecordWithCenter.html#ae0e84866785146f1dfab38328276f2b7":[6,3,0,0,0,442,3],
 "classMR_1_1Const__FanRecordWithCenter.html#ae5b65c5d40d5f8e8d80f0bc7b545297c":[6,3,0,0,0,442,4],
 "classMR_1_1Const__FanRecordWithCenter.html#aecc70f5c08eb6e7af468ed05cd05e68c":[6,3,0,0,0,442,6],
-"classMR_1_1Const__FanRecordWithCenter.html#af96ab45475146397b747c4c2a6c95be0":[6,3,0,0,0,442,7],
-"classMR_1_1Const__FastInSphereTesterSoS.html":[6,3,0,0,0,443]
+"classMR_1_1Const__FanRecordWithCenter.html#af96ab45475146397b747c4c2a6c95be0":[6,3,0,0,0,442,7]
 };

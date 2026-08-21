@@ -9904,7 +9904,9 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <tr class="memitem:afef1775501a1c1df473f6c95cb59c4ea" id="r_afef1775501a1c1df473f6c95cb59c4ea"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afef1775501a1c1df473f6c95cb59c4ea">splitQuad</a> (<a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a> topology, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> a, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? outNewFaces=null)</td></tr>
 <tr class="memdesc:afef1775501a1c1df473f6c95cb59c4ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">given quadrangle face to the left of a, splits it in two triangles with new diagonal edge via dest(a) Generated from function <span class="tt"><a class="el" href="#afef1775501a1c1df473f6c95cb59c4ea" title="given quadrangle face to the left of a, splits it in two triangles with new diagonal edge via dest(a)...">MR.splitQuad</a></span>.  <br /></td></tr>
 <tr class="memitem:ac637663a362a0e3540940f2072a28ed4" id="r_ac637663a362a0e3540940f2072a28ed4"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac637663a362a0e3540940f2072a28ed4">duplicateMultiHoleVertices</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh)</td></tr>
-<tr class="memdesc:ac637663a362a0e3540940f2072a28ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicates all vertices having more than two boundary edges (and returns the number of duplications); Generated from function <span class="tt"><a class="el" href="#ac637663a362a0e3540940f2072a28ed4" title="Duplicates all vertices having more than two boundary edges (and returns the number of duplications);...">MR.duplicateMultiHoleVertices</a></span>.  <br /></td></tr>
+<tr class="memdesc:ac637663a362a0e3540940f2072a28ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicates all vertices having more than two boundary edges (and returns the number of duplications); this is equivalent to duplicateMultiHoleVertices( mesh, 1 ) Generated from function <span class="tt"><a class="el" href="#ac637663a362a0e3540940f2072a28ed4" title="Duplicates all vertices having more than two boundary edges (and returns the number of duplications);...">MR.duplicateMultiHoleVertices</a></span>.  <br /></td></tr>
+<tr class="memitem:a9b44e6afa9304d89cd828512be3762d2" id="r_a9b44e6afa9304d89cd828512be3762d2"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b44e6afa9304d89cd828512be3762d2">duplicateMultiHoleVertices</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, int maxHoles)</td></tr>
+<tr class="memdesc:a9b44e6afa9304d89cd828512be3762d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicates each vertex having more than <code class="param">maxHoles</code> edges without left face in its edge ring until at most <code class="param">maxHoles</code> such edges remain everywhere, and returns the number of duplications; after calling it with maxHoles = 2, <a class="el" href="classMR_1_1MeshBuilder.html#a3ec6b97dff43c9678dbbc4e82897fdf9" title="construct mesh topology from a set of triangles with given ids; if skippedTris is given then it recei...">MeshBuilder.fromTriangles</a> can reconstruct this mesh from its triangulation without dropping any face, and the vertices with just two triangle fans are not duplicated unnecessarily Generated from function <span class="tt"><a class="el" href="#ac637663a362a0e3540940f2072a28ed4" title="Duplicates all vertices having more than two boundary edges (and returns the number of duplications);...">MR.duplicateMultiHoleVertices</a></span>.  <br /></td></tr>
 <tr class="memitem:a7f83ae4dbc26149e95490ea2cf809ea5" id="r_a7f83ae4dbc26149e95490ea2cf809ea5"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_StdPairMRVertIdMRVertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f83ae4dbc26149e95490ea2cf809ea5">findMultipleEdges</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
 <tr class="memdesc:a7f83ae4dbc26149e95490ea2cf809ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a7f83ae4dbc26149e95490ea2cf809ea5" title="Generated from function MR.findMultipleEdges. Parameter cb defaults to {}.">MR.findMultipleEdges</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a178a0c03c297caa9a508e9d47f24a0fb" id="r_a178a0c03c297caa9a508e9d47f24a0fb"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a178a0c03c297caa9a508e9d47f24a0fb">hasMultipleEdges</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology)</td></tr>
@@ -33807,7 +33809,7 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 </div>
 </div>
 <a id="ac637663a362a0e3540940f2072a28ed4" name="ac637663a362a0e3540940f2072a28ed4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac637663a362a0e3540940f2072a28ed4">&#9670;&#160;</a></span>duplicateMultiHoleVertices()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac637663a362a0e3540940f2072a28ed4">&#9670;&#160;</a></span>duplicateMultiHoleVertices() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -33829,7 +33831,38 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 </table>
 </div><div class="memdoc">
 
-<p>Duplicates all vertices having more than two boundary edges (and returns the number of duplications); Generated from function <span class="tt"><a class="el" href="#ac637663a362a0e3540940f2072a28ed4" title="Duplicates all vertices having more than two boundary edges (and returns the number of duplications);...">MR.duplicateMultiHoleVertices</a></span>. </p>
+<p>Duplicates all vertices having more than two boundary edges (and returns the number of duplications); this is equivalent to duplicateMultiHoleVertices( mesh, 1 ) Generated from function <span class="tt"><a class="el" href="#ac637663a362a0e3540940f2072a28ed4" title="Duplicates all vertices having more than two boundary edges (and returns the number of duplications);...">MR.duplicateMultiHoleVertices</a></span>. </p>
+
+</div>
+</div>
+<a id="a9b44e6afa9304d89cd828512be3762d2" name="a9b44e6afa9304d89cd828512be3762d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b44e6afa9304d89cd828512be3762d2">&#9670;&#160;</a></span>duplicateMultiHoleVertices() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe int MR.duplicateMultiHoleVertices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxHoles</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Duplicates each vertex having more than <code class="param">maxHoles</code> edges without left face in its edge ring until at most <code class="param">maxHoles</code> such edges remain everywhere, and returns the number of duplications; after calling it with maxHoles = 2, <a class="el" href="classMR_1_1MeshBuilder.html#a3ec6b97dff43c9678dbbc4e82897fdf9" title="construct mesh topology from a set of triangles with given ids; if skippedTris is given then it recei...">MeshBuilder.fromTriangles</a> can reconstruct this mesh from its triangulation without dropping any face, and the vertices with just two triangle fans are not duplicated unnecessarily Generated from function <span class="tt"><a class="el" href="#ac637663a362a0e3540940f2072a28ed4" title="Duplicates all vertices having more than two boundary edges (and returns the number of duplications);...">MR.duplicateMultiHoleVertices</a></span>. </p>
 
 </div>
 </div>

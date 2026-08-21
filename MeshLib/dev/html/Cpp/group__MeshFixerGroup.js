@@ -33,6 +33,7 @@ var group__MeshFixerGroup =
     ] ],
     [ "MR::MultipleEdge", "group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc", null ],
     [ "MR::duplicateMultiHoleVertices", "group__MeshFixerGroup.html#ga9f1f866643e15bf1b9d9131f2d6dad0e", null ],
+    [ "MR::duplicateMultiHoleVertices", "group__MeshFixerGroup.html#ga41fe97594ff1579f8e60f2f25944eccb", null ],
     [ "MR::eliminateDegree3Dest", "group__MeshFixerGroup.html#ga1a6d31909cb9b003dd59942b58bcdfae", null ],
     [ "MR::eliminateDegree3Vertices", "group__MeshFixerGroup.html#ga0092e601fb2bbe0c8035549ad3395862", null ],
     [ "MR::eliminateDoubleTris", "group__MeshFixerGroup.html#ga3c868d7f7706bea58f102f3218ffc524", null ],

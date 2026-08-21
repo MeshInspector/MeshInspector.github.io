@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1ToolPathParams.html":[6,3,0,0,0,1660],
 "classMR_1_1ToolPathParams.html#a0e51c97b4114992ebac39cc646b3f924":[6,3,0,0,0,1660,21],
 "classMR_1_1ToolPathParams.html#a431f76cb999c251164a712802aa04b88":[6,3,0,0,0,1660,17],
 "classMR_1_1ToolPathParams.html#a52895b7bcf2496f6f864eb70ed364035":[6,3,0,0,0,1660,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#acebaf5cb8751687cb563ab817e766aad":[6,3,0,0,0,1668,0,16],
 "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#adb3c55408ac285696d61ac45d7cc46c0":[6,3,0,0,0,1668,0,14],
 "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#ae2910eddbc509ee79767136bd4649020":[6,3,0,0,0,1668,0,21],
-"classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#aec42f2feaec07856a8657fac277b24d5":[6,3,0,0,0,1668,0,22],
-"classMR_1_1TriangulationHelpers_1_1Const__Settings.html":[6,3,0,0,0,1668,1]
+"classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#aec42f2feaec07856a8657fac277b24d5":[6,3,0,0,0,1668,0,22]
 };
