@@ -165,7 +165,7 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
         </ul>
       </li>
       <li class="level2">
-        <a href="#CppSetupLinux">Linux (Ubuntu/Fedora) </a>
+        <a href="#CppSetupLinux">Linux </a>
         <ul>
           <li class="level3">
             <a href="#autotoc_md28">Installing the release build </a>
@@ -193,10 +193,10 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
             <a href="#autotoc_md33">Compile Locally </a>
             <ul>
               <li class="level4">
-                <a href="#CppSetupMacOSPrereq">Prerequisites </a>
+                <a href="#autotoc_md34">Prerequisites </a>
               </li>
               <li class="level4">
-                <a href="#autotoc_md34">Installing the local build </a>
+                <a href="#autotoc_md35">Installing the local build </a>
               </li>
             </ul>
           </li>
@@ -206,13 +206,13 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
         <a href="#CppSetupWASM">Building WebAssembly with MeshLib Using Emscripten </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md35">Install Emscripten </a>
+            <a href="#autotoc_md36">Install Emscripten </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md36">Installing the release build </a>
+            <a href="#autotoc_md37">Installing the release build </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md37">Compile locally </a>
+            <a href="#CppSetupWASMLocalBuild">Compile locally </a>
             <ul>
               <li class="level4">
                 <a href="#CppSetupWASMRun">Running the WebAssembly Build </a>
@@ -245,7 +245,13 @@ Installing the release build</h3>
 <ol type="1">
 <li><b>Download and Extract the Built Version</b><ul>
 <li>Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a>.</li>
-<li>Download the latest <b>Windows built version archive</b> (E.g. MeshLibDist_v3.0.0.40.zip).</li>
+<li>Download the <b>Windows built version archive</b> matching your Visual Studio toolset:<ul>
+<li>Visual Studio 2019: <span class="tt">MeshLibDistVS19_&lt;version&gt;.zip</span></li>
+<li>Visual Studio 2022: <span class="tt">MeshLibDistVS22_&lt;version&gt;.zip</span></li>
+<li>Visual Studio 2026: <span class="tt">MeshLibDistVS26_&lt;version&gt;.zip</span></li>
+<li>Debug build with iterator debugging on: <span class="tt">MeshLibDist_&lt;version&gt;-IteratorDebug.zip</span> (see <a class="el" href="#CppSetupTroubleshooting">Troubleshooting</a>)</li>
+</ul>
+</li>
 <li>Extract it to a directory, e.g., <span class="tt">C:\meshlib-built\</span>. <br  />
  <b>Directory Structure After Extraction</b> <div class="fragment"><div class="line">install/</div>
 <div class="line">  ├── include/       # Header files</div>
@@ -364,22 +370,23 @@ Installing the local build</h4>
 </li>
 </ol>
 <h2 class="doxsection"><a class="anchor" id="CppSetupLinux"></a>
-Linux (Ubuntu/Fedora)</h2>
+Linux</h2>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
 Installing the release build</h3>
 <ol type="1">
-<li><b>Download and Extract the Built Version</b><ul>
-<li>Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a>.</li>
-<li>Download the latest Linux built version</li>
-</ul>
-</li>
-<li>Install Linux Build<ul>
-<li><b>For Ubuntu</b>: <div class="fragment"><div class="line">sudo apt install ./meshlib-build-version-example.deb</div>
-</div><!-- fragment --></li>
-<li><b>For Fedora</b>: <div class="fragment"><div class="line">sudo rpm -i ./meshlib-build-version-example.rpm</div>
+<li><b>Download the Package for Your Distribution and CPU</b> <br  />
+ Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page and download the <span class="tt">.deb</span> matching your Ubuntu release (<span class="tt">lsb_release -rs</span>) and architecture (<span class="tt">uname -m</span>):<ul>
+<li>Ubuntu 22.04, <span class="tt">x86_64</span>: <span class="tt">meshlib_&lt;version&gt;_ubuntu22-dev.deb</span></li>
+<li>Ubuntu 22.04, <span class="tt">aarch64</span>: <span class="tt">meshlib_&lt;version&gt;_ubuntu22-arm64-dev.deb</span></li>
+<li>Ubuntu 24.04, <span class="tt">x86_64</span>: <span class="tt">meshlib_&lt;version&gt;_ubuntu24-dev.deb</span></li>
+<li>Ubuntu 24.04, <span class="tt">aarch64</span>: <span class="tt">meshlib_&lt;version&gt;_ubuntu24-arm64-dev.deb</span> <br  />
+ On any other distribution use the portable vcpkg build instead, <span class="tt">meshlib_&lt;version&gt;_linux-vcpkg-x64.tar.xz</span> or <span class="tt">meshlib_&lt;version&gt;_linux-vcpkg-arm64.tar.xz</span>. It bundles its own dependencies and is not installed system-wide: unpack it and use the resulting directory as the MeshLib installation prefix, then skip to step 4. <div class="fragment"><div class="line">mkdir path_to_install &amp;&amp; tar -xf meshlib_&lt;version&gt;_linux-vcpkg-x64.tar.xz -C path_to_install</div>
 </div><!-- fragment --></li>
 </ul>
 </li>
+<li><b>Install the Package</b> <br  />
+ <span class="tt">apt</span> pulls in the remaining system dependencies itself. The leading <span class="tt">./</span> is required: without it <span class="tt">apt</span> looks for a repository package by that name. <div class="fragment"><div class="line">sudo apt install ./meshlib_&lt;version&gt;_ubuntu24-dev.deb</div>
+</div><!-- fragment --></li>
 <li><b>Open MeshViewer</b> <br  />
  To verify that everything is fine you can run MeshViewer application: <div class="fragment"><div class="line">MeshViewer</div>
 </div><!-- fragment --></li>
@@ -452,9 +459,8 @@ Installing the release build</h3>
 <li>Double-click the downloaded <span class="tt">.pkg</span> and follow the installer. The release asset is the installer itself, so there is nothing to unpack first.</li>
 <li>The framework is installed into <span class="tt">/Library/Frameworks/MeshLib.framework</span>, or into <span class="tt">~/Library/Frameworks/MeshLib.framework</span> if you choose to install for the current user only.</li>
 <li><b>Install Dependencies via Homebrew</b> <br  />
- The <span class="tt">.pkg</span> does not pull in the Homebrew formulae MeshLib links against, so install them yourself. This needs Homebrew — if you do not have it, install it first as described under <a class="el" href="#CppSetupMacOSPrereq">Prerequisites</a>. Open Terminal and run the following command: <div class="fragment"><div class="line">xargs brew install &lt; /Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</div>
+ Open Terminal and run the following command: <div class="fragment"><div class="line">xargs brew install &lt; /opt/meshlib/requirements/macos.txt</div>
 </div><!-- fragment --></li>
-<li>If you installed for the current user only, prefix the path with <span class="tt">~</span>: <span class="tt">~/Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</span>.</li>
 </ul>
 </li>
 <li><b>Integrate Using CMake</b> <br  />
@@ -462,7 +468,7 @@ Installing the release build</h3>
 </ol>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
 Compile Locally</h3>
-<h4 class="doxsection"><a class="anchor" id="CppSetupMacOSPrereq"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
 Prerequisites</h4>
 <ol type="1">
 <li><b>Install Homebrew</b><ul>
@@ -483,7 +489,7 @@ Prerequisites</h4>
 </ul>
 </li>
 </ol>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
 Installing the local build</h4>
 <ol type="1">
 <li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone https://github.com/MeshInspector/MeshLib.git</div>
@@ -501,7 +507,7 @@ Installing the local build</h4>
 Building WebAssembly with MeshLib Using Emscripten</h2>
 <p>This guide will help you build WebAssembly (WASM) using MeshLib and Emscripten. Please follow the instructions step by step.</p>
 <dl class="section note"><dt>Note</dt><dd>Only web and worker environments (i.e. web browsers) are officially supported.</dd></dl>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
 Install Emscripten</h3>
 <p>Emscripten is required to compile C++ code into WebAssembly. You can install Emscripten by following the steps below. For more details, refer to the <a href="https://emscripten.org/docs/getting_started/downloads.html">Emscripten official page</a>.</p><ul>
 <li>Clone the Emscripten SDK Repository <br  />
@@ -524,20 +530,26 @@ Install Emscripten</h3>
 </ul>
 <dl class="section note"><dt>Note</dt><dd><b>For Windows Users:</b> <br  />
  Make sure you are using Git Bash, WSL, or another Unix-like environment if you want to follow the exact same steps as on Linux/macOS.</dd></dl>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md37"></a>
 Installing the release build</h3>
 <ol type="1">
 <li><b>Download the Built Version</b> <br  />
- Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> and download the latest Emscripten built version.</li>
+ Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page and download the Emscripten archive whose threading mode and pointer width match the build that will consume MeshLib:<ul>
+<li>multi-threaded, wasm32: <span class="tt">meshlib_&lt;version&gt;_emscripten-multithreaded.zip</span></li>
+<li>single-threaded: <span class="tt">meshlib_&lt;version&gt;_emscripten-singlethreaded.zip</span></li>
+<li>multi-threaded, wasm64: <span class="tt">meshlib_&lt;version&gt;_emscripten-multithreaded-64bit.zip</span> <br  />
+ These are the same three modes that <a class="el" href="#CppSetupWASMLocalBuild">Compile locally</a> selects with <span class="tt">MR_EMSCRIPTEN</span> / <span class="tt">MR_EMSCRIPTEN_SINGLETHREAD</span> / <span class="tt">MR_EMSCRIPTEN_WASM64</span>. The archive has to match your own build: an Emscripten target links only against libraries built with the same <span class="tt">-pthread</span> and <span class="tt">MEMORY64</span> settings.</li>
+</ul>
+</li>
 <li><b>Extract the Package</b> <br  />
- Extract the package using an archiving tool or with the unzip command: <div class="fragment"><div class="line">unzip -d path_to_install meshlib_package.zip</div>
+ Extract the package using an archiving tool or with the unzip command: <div class="fragment"><div class="line">unzip -d path_to_install meshlib_&lt;version&gt;_emscripten-multithreaded.zip</div>
 </div><!-- fragment --></li>
 <li><b>Integrate Using CMake</b> <br  />
- Specify the path to the extracted files with the <span class="tt">CMAKE_FIND_ROOT_PATH</span> option: <div class="fragment"><div class="line">emcmake cmake -S . -B build -DCMAKE_FIND_ROOT_PATH=path_to_meshlib_installation</div>
+ Specify the path to the extracted files with the <span class="tt">CMAKE_FIND_ROOT_PATH</span> option: <div class="fragment"><div class="line">emcmake cmake -S . -B build -DCMAKE_FIND_ROOT_PATH=path_to_install</div>
 </div><!-- fragment --> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md37"></a>
+<h3 class="doxsection"><a class="anchor" id="CppSetupWASMLocalBuild"></a>
 Compile locally</h3>
 <ul>
 <li>Navigate to the MeshLib directory: <div class="fragment"><div class="line">cd ~/MeshLib</div>
@@ -617,7 +629,7 @@ Troubleshooting</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Linux, macOS, WASM (consuming an installed MeshLib)  </td><td class="markdownTableBodyNone"><span class="tt">MRMeshFwd.h:70:10: fatal error: parallel_hashmap/phmap_fwd_decl.h: No such file or directory</span>  </td><td class="markdownTableBodyNone">MeshLib's public headers include third-party headers, and <span class="tt">${MESHLIB_THIRDPARTY_INCLUDE_DIR}</span> is missing from your target's include directories.  </td><td class="markdownTableBodyNone">Add it next to <span class="tt">${MESHLIB_INCLUDE_DIR}</span>: <span class="tt">target_include_directories(${TARGET} PUBLIC ${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</span>. See <a class="el" href="MeshLibCmakeSetupGuide.html">MeshLib CMake Setup Guide</a> and <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples/cpp-examples/CMakeLists.txt</a>.  </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">macOS  </td><td class="markdownTableBodyNone">CMake configuration fails inside <span class="tt">MRMeshConfig.cmake</span> with <span class="tt">find_dependency</span>: <span class="tt">Could NOT find Boost (missing: Boost_INCLUDE_DIR)</span> (Boost is just the first of several such dependencies).  </td><td class="markdownTableBodyNone">The Homebrew requirements were never installed — the <span class="tt">.pkg</span> installer does not pull them in.  </td><td class="markdownTableBodyNone"><span class="tt">xargs brew install &lt; /Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</span> (for a current-user-only install, prefix the path with <span class="tt">~</span>).  </td></tr>
+<td class="markdownTableBodyNone">macOS  </td><td class="markdownTableBodyNone">CMake configuration fails inside <span class="tt">MRMeshConfig.cmake</span> with <span class="tt">find_dependency</span>: <span class="tt">Could NOT find Boost (missing: Boost_INCLUDE_DIR)</span> (Boost is just the first of several such dependencies).  </td><td class="markdownTableBodyNone">The Homebrew requirements were never installed — the <span class="tt">.pkg</span> installer does not pull them in.  </td><td class="markdownTableBodyNone"><span class="tt">xargs brew install &lt; /opt/meshlib/requirements/macos.txt</span>  </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">WASM  </td><td class="markdownTableBodyNone"><span class="tt">build_thirdparty.sh</span> or <span class="tt">build_source.sh</span> silently produces a native build although Emscripten was selected.  </td><td class="markdownTableBodyNone">The prompt is a <span class="tt">read -t 5</span>: with no keypress within five seconds it falls back to <span class="tt">OFF</span>. Each script asks separately, so the two can disagree.  </td><td class="markdownTableBodyNone">Skip the prompt entirely — <span class="tt">export MR_EMSCRIPTEN=ON</span> once, before running <b>both</b> scripts. Each script prints its resolved mode (<span class="tt">Emscripten ON …</span>); check that line before waiting on a long build.  </td></tr>
 <tr class="markdownTableRowEven">
