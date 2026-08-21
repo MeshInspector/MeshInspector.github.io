@@ -1859,7 +1859,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a7ed7b51800939e663ecd3731112be359" id="r_a7ed7b51800939e663ecd3731112be359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ed7b51800939e663ecd3731112be359">doubleOffsetMesh</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> mp, float offsetA, float offsetB, <a class="el" href="classmrmeshpy_1_1OffsetParameters.html">OffsetParameters</a> params=...)</td></tr>
 <tr class="memitem:a68088f2c20bed0acc64b70443d0c84a7" id="r_a68088f2c20bed0acc64b70443d0c84a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68088f2c20bed0acc64b70443d0c84a7">doubleOffsetVdb</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> mp, <a class="el" href="classmrmeshpy_1_1DoubleOffsetSettings.html">DoubleOffsetSettings</a> settings)</td></tr>
 <tr class="memitem:a29d860e030bcb88c49723b059809c397" id="r_a29d860e030bcb88c49723b059809c397"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29d860e030bcb88c49723b059809c397">duplicateMultiHoleVertices</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh)</td></tr>
-<tr class="memitem:a7f76311c76eb24fdae0c1f2bb6afcd24" id="r_a7f76311c76eb24fdae0c1f2bb6afcd24"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f76311c76eb24fdae0c1f2bb6afcd24">duplicateMultiHoleVertices</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, int maxHoles)</td></tr>
+<tr class="memitem:a2efe0edbf5085982886d7605f71e9ca8" id="r_a2efe0edbf5085982886d7605f71e9ca8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2efe0edbf5085982886d7605f71e9ca8">duplicateMultiHoleVertices</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, int maxHoles, <a class="el" href="classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html">std_vector_MeshBuilder_VertDuplication</a> dups=None)</td></tr>
 <tr class="memitem:a4af72f5b670df357eb00e9990fc92be0" id="r_a4af72f5b670df357eb00e9990fc92be0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__float__from__Id__EdgeTag.html">func_float_from_Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4af72f5b670df357eb00e9990fc92be0">edgeAbsCurvMetric</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, float angleSinFactor=2, float angleSinForBoundary=0)</td></tr>
 <tr class="memitem:a9bfaafc54f17b8a57a52fe474f0b4436" id="r_a9bfaafc54f17b8a57a52fe474f0b4436"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__float__from__Id__EdgeTag.html">func_float_from_Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bfaafc54f17b8a57a52fe474f0b4436">edgeAbsCurvMetric</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> points, float angleSinFactor=2, float angleSinForBoundary=0)</td></tr>
 <tr class="memitem:ae8d0573f1691558f21b4a62255d26d5f" id="r_ae8d0573f1691558f21b4a62255d26d5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8d0573f1691558f21b4a62255d26d5f">edgeCenter</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> points, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> e)</td></tr>
@@ -13805,8 +13805,8 @@ this is equivalent to duplicateMultiHoleVertices( mesh, 1 )
 </pre> 
 </div>
 </div>
-<a id="a7f76311c76eb24fdae0c1f2bb6afcd24" name="a7f76311c76eb24fdae0c1f2bb6afcd24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f76311c76eb24fdae0c1f2bb6afcd24">&#9670;&#160;</a></span>duplicateMultiHoleVertices() <span class="overload">[2/2]</span></h2>
+<a id="a2efe0edbf5085982886d7605f71e9ca8" name="a2efe0edbf5085982886d7605f71e9ca8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2efe0edbf5085982886d7605f71e9ca8">&#9670;&#160;</a></span>duplicateMultiHoleVertices() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13819,12 +13819,18 @@ this is equivalent to duplicateMultiHoleVertices( mesh, 1 )
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxHoles</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxHoles</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html">std_vector_MeshBuilder_VertDuplication</a> </td>          <td class="paramname"><span class="paramname"><em>dups</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Duplicates each vertex having more than \\p maxHoles edges without left face in its edge ring
 until at most \\p maxHoles such edges remain everywhere, and returns the number of duplications;
+(optional) \\p dups receives the pair (source vertex, duplicate vertex) of every duplication made;
 after calling it with maxHoles = 2, MeshBuilder::fromTriangles can reconstruct this mesh from its triangulation
 without dropping any face, and the vertices with just two triangle fans are not duplicated unnecessarily
 </pre> 

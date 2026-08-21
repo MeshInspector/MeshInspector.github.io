@@ -2168,7 +2168,7 @@ var namespaceMR =
     [ "doubleOffsetMesh", "group__GeneralGroup.html#ga6acf9887747227cdd2fed4f4c202638f", null ],
     [ "doubleOffsetVdb", "group__GeneralGroup.html#gada6e456e0254afe0a4e3b27340ea954e", null ],
     [ "duplicateMultiHoleVertices", "group__MeshFixerGroup.html#ga9f1f866643e15bf1b9d9131f2d6dad0e", null ],
-    [ "duplicateMultiHoleVertices", "group__MeshFixerGroup.html#ga41fe97594ff1579f8e60f2f25944eccb", null ],
+    [ "duplicateMultiHoleVertices", "group__MeshFixerGroup.html#ga900c1c80bfa1ca726e5afe5ccab5b31d", null ],
     [ "edgeAbsCurvMetric", "group__SurfacePathGroup.html#ga713795832c35e26e930a0e509d3e3439", null ],
     [ "edgeAbsCurvMetric", "group__SurfacePathGroup.html#ga83d18b35a657e690d099626020c05e78", null ],
     [ "edgeCenter", "group__GeneralGroup.html#gab2b62bcd240ef5b1885ecfec97054a9c", null ],

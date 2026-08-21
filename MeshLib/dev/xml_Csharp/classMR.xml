@@ -21081,10 +21081,10 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="943" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="943" bodyend="948"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a9b44e6afa9304d89cd828512be3762d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a503efa9aa79bf428672ef2fb0c72f21c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
         <definition>static unsafe int MR.duplicateMultiHoleVertices</definition>
-        <argsstring>(MR.Mesh mesh, int maxHoles)</argsstring>
+        <argsstring>(MR.Mesh mesh, int maxHoles, MR.Std.Vector_MRMeshBuilderVertDuplication? dups=null)</argsstring>
         <name>duplicateMultiHoleVertices</name>
         <qualifiedname>MR.duplicateMultiHoleVertices</qualifiedname>
         <param>
@@ -21095,14 +21095,19 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
           <type>int</type>
           <declname>maxHoles</declname>
         </param>
+        <param>
+          <type>MR.Std.Vector_MRMeshBuilderVertDuplication?</type>
+          <declname>dups</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>Duplicates each vertex having more than <computeroutput>maxHoles</computeroutput> edges without left face in its edge ring until at most <computeroutput>maxHoles</computeroutput> such edges remain everywhere, and returns the number of duplications; after calling it with maxHoles = 2, <ref refid="classMR_1_1MeshBuilder_1a3ec6b97dff43c9678dbbc4e82897fdf9" kindref="member">MeshBuilder.fromTriangles</ref> can reconstruct this mesh from its triangulation without dropping any face, and the vertices with just two triangle fans are not duplicated unnecessarily Generated from function <computeroutput><ref refid="classMR_1ac637663a362a0e3540940f2072a28ed4" kindref="member">MR.duplicateMultiHoleVertices</ref></computeroutput>. </para>
+<para>Duplicates each vertex having more than <computeroutput>maxHoles</computeroutput> edges without left face in its edge ring until at most <computeroutput>maxHoles</computeroutput> such edges remain everywhere, and returns the number of duplications; (optional) <computeroutput>dups</computeroutput> receives the pair (source vertex, duplicate vertex) of every duplication made; after calling it with maxHoles = 2, <ref refid="classMR_1_1MeshBuilder_1a3ec6b97dff43c9678dbbc4e82897fdf9" kindref="member">MeshBuilder.fromTriangles</ref> can reconstruct this mesh from its triangulation without dropping any face, and the vertices with just two triangle fans are not duplicated unnecessarily Generated from function <computeroutput><ref refid="classMR_1ac637663a362a0e3540940f2072a28ed4" kindref="member">MR.duplicateMultiHoleVertices</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="957" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="957" bodyend="962"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="958" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="958" bodyend="963"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7f83ae4dbc26149e95490ea2cf809ea5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdPairMRVertIdMRVertId</type>
@@ -21126,7 +21131,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="968" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="968" bodyend="976"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="969" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="969" bodyend="977"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a178a0c03c297caa9a508e9d47f24a0fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -21145,7 +21150,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="981" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="981" bodyend="986"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="982" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="982" bodyend="987"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1b9a76c089e00152cd6c8718b5098cd8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -21168,7 +21173,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="992" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="992" bodyend="997"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="993" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="993" bodyend="998"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a64dee20b9b67716171533280263e3a3b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -21187,7 +21192,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1003" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1003" bodyend="1008"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1004" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1004" bodyend="1009"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4dff76f4b1533772fb89ca30405240ad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -21216,7 +21221,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1016" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1016" bodyend="1025"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1017" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1017" bodyend="1026"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1adcfd10de832d104a9cc341f39addfc9d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -21255,7 +21260,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1034" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1034" bodyend="1043"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1035" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1035" bodyend="1044"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a18d296c841db9ca6d6984fbd0b4672c4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
@@ -21283,7 +21288,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1050" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1050" bodyend="1058"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1051" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1051" bodyend="1059"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aedd1f11cf956f37d4ffb49f6d5f590c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -21306,7 +21311,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1064" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1064" bodyend="1071"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1065" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1065" bodyend="1072"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a60605fefa0bd7baed1a7039973ed4488" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -21334,7 +21339,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1077" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1077" bodyend="1082"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1078" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1078" bodyend="1083"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a2aad8cde3ad7daeae5ea6ed7e582e657" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -21357,7 +21362,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1088" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1088" bodyend="1093"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1089" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1089" bodyend="1094"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1d76581e3b2dff62e442c8bb46802970" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -21385,7 +21390,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1102" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1102" bodyend="1107"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1103" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1103" bodyend="1108"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a5f820df3bca9d4ae70609c8287619f6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -21413,7 +21418,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1114" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1114" bodyend="1119"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1115" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1115" bodyend="1120"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7a088a3f6722e92c81727faf3ce59e67" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -21436,7 +21441,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1125" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1125" bodyend="1130"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1126" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1126" bodyend="1131"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad9987f138db6444c564d29257bfa37d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -21464,7 +21469,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1139" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1139" bodyend="1144"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1140" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1140" bodyend="1145"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a59d2d98530c1b350e77c28f462f50e9d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
@@ -21504,7 +21509,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1152" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1152" bodyend="1157"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1153" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1153" bodyend="1158"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a192b7b02ccdd2771528e5d27270e57c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -21527,7 +21532,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1164" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1164" bodyend="1169"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1165" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1165" bodyend="1170"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1adfd960cc1ba0feee6837db6affd1d596" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -21546,7 +21551,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1175" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1175" bodyend="1180"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1176" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1176" bodyend="1181"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1affd314e05844616b16c9fcca2dd95f65" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -21565,7 +21570,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1188" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1188" bodyend="1193"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1189" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1189" bodyend="1194"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a46aedb759b67c9c7168ef85bd78d15b8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -21589,7 +21594,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1200" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1200" bodyend="1205"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1201" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1201" bodyend="1206"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ace76c86892a7862fccf42a625152f57f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -21613,7 +21618,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1212" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1212" bodyend="1220"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1213" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1213" bodyend="1221"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae6ca9e2df203172e726e347559d748a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshIntersectionResult" kindref="compound">MR.MeshIntersectionResult</ref></type>
@@ -54260,7 +54265,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a64b49580ddad63043b74bf4bf4efe29f" prot="public" virt="non-virtual"><scope>MR</scope><name>doubleOffsetMesh</name></member>
       <member refid="classMR_1af35b31f2daa88520a99fc84091ffcd57" prot="public" virt="non-virtual"><scope>MR</scope><name>doubleOffsetVdb</name></member>
       <member refid="classMR_1ac637663a362a0e3540940f2072a28ed4" prot="public" virt="non-virtual"><scope>MR</scope><name>duplicateMultiHoleVertices</name></member>
-      <member refid="classMR_1a9b44e6afa9304d89cd828512be3762d2" prot="public" virt="non-virtual"><scope>MR</scope><name>duplicateMultiHoleVertices</name></member>
+      <member refid="classMR_1a503efa9aa79bf428672ef2fb0c72f21c" prot="public" virt="non-virtual"><scope>MR</scope><name>duplicateMultiHoleVertices</name></member>
       <member refid="classMR_1a3cb11f8b08ececa5e937ee79db54d689" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeAbsCurvMetric</name></member>
       <member refid="classMR_1a2f6b8af066c66ee5b1ccacb88b1bcee7" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeAbsCurvMetric</name></member>
       <member refid="classMR_1ad1e68b9ff1948a814bf42cda0bd42606" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeCenter</name></member>

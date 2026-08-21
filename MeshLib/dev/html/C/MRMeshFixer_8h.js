@@ -19,7 +19,7 @@ var MRMeshFixer_8h =
       [ "MR_FixMeshDegeneraciesParams_Mode_RemeshPatch", "MRMeshFixer_8h.html#abaac765394edece086502a2d9836aceaa428a146780cba869a937b8ec517aac7b", null ]
     ] ],
     [ "MR_duplicateMultiHoleVertices_1", "MRMeshFixer_8h.html#abad3b7373b700e676d41bb51c5984b39", null ],
-    [ "MR_duplicateMultiHoleVertices_2", "MRMeshFixer_8h.html#a590c726c999e30ccda1dad45e1199b33", null ],
+    [ "MR_duplicateMultiHoleVertices_3", "MRMeshFixer_8h.html#a6ad5098848f9bcff3c44191d058b1927", null ],
     [ "MR_eliminateDegree3Dest", "MRMeshFixer_8h.html#a6a3e61e9da3e07637fb3d3b218e71b90", null ],
     [ "MR_eliminateDegree3Vertices", "MRMeshFixer_8h.html#a5ff648f56c020daa5ecff292f0e9b285", null ],
     [ "MR_eliminateDoubleTris", "MRMeshFixer_8h.html#a64ebdebfed9ac51cb5f089a461b71faf", null ],

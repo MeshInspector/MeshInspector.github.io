@@ -6597,7 +6597,7 @@ var searchData=
   ['mr_5fdoubleoffsetsettings_5fset_5fwindingnumberthreshold_6591',['MR_DoubleOffsetSettings_Set_windingNumberThreshold',['../MRVDBConversions_8h.html#abb15814d6221f514750e48cec2805fd4',1,'MRVDBConversions.h']]],
   ['mr_5fdoubleoffsetvdb_6592',['MR_doubleOffsetVdb',['../MRVDBConversions_8h.html#a4106821a875f63beca2bfadcd4b195b8',1,'MRVDBConversions.h']]],
   ['mr_5fduplicatemultiholevertices_5f1_6593',['MR_duplicateMultiHoleVertices_1',['../MRMeshFixer_8h.html#abad3b7373b700e676d41bb51c5984b39',1,'MRMeshFixer.h']]],
-  ['mr_5fduplicatemultiholevertices_5f2_6594',['MR_duplicateMultiHoleVertices_2',['../MRMeshFixer_8h.html#a590c726c999e30ccda1dad45e1199b33',1,'MRMeshFixer.h']]],
+  ['mr_5fduplicatemultiholevertices_5f3_6594',['MR_duplicateMultiHoleVertices_3',['../MRMeshFixer_8h.html#a6ad5098848f9bcff3c44191d058b1927',1,'MRMeshFixer.h']]],
   ['mr_5fedgeabscurvmetric_5f3_6595',['MR_edgeAbsCurvMetric_3',['../MREdgeMetric_8h.html#aa4b47a7fa8abdeb7e881ee21548d17f3',1,'MREdgeMetric.h']]],
   ['mr_5fedgeabscurvmetric_5f4_6596',['MR_edgeAbsCurvMetric_4',['../MREdgeMetric_8h.html#a567337961e7274de6d273f739f2b341d',1,'MREdgeMetric.h']]],
   ['mr_5fedgebitset_5fall_6597',['MR_EdgeBitSet_all',['../MRBitSet_8h.html#a9b6a7c5f7b0914a625effbe9af30d4b5',1,'MRBitSet.h']]],

@@ -161,7 +161,7 @@ Typedefs</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga9f1f866643e15bf1b9d9131f2d6dad0e" id="r_ga9f1f866643e15bf1b9d9131f2d6dad0e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9f1f866643e15bf1b9d9131f2d6dad0e">MR::duplicateMultiHoleVertices</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
-<tr class="memitem:ga41fe97594ff1579f8e60f2f25944eccb" id="r_ga41fe97594ff1579f8e60f2f25944eccb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga41fe97594ff1579f8e60f2f25944eccb">MR::duplicateMultiHoleVertices</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, int maxHoles)</td></tr>
+<tr class="memitem:ga900c1c80bfa1ca726e5afe5ccab5b31d" id="r_ga900c1c80bfa1ca726e5afe5ccab5b31d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga900c1c80bfa1ca726e5afe5ccab5b31d">MR::duplicateMultiHoleVertices</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, int maxHoles, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">MeshBuilder::VertDuplication</a> &gt; *dups=nullptr)</td></tr>
 <tr class="memitem:ga81e1fcab0f64d4bdb4ccf19d7e67bae1" id="r_ga81e1fcab0f64d4bdb4ccf19d7e67bae1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="#gac8fc9cf58c37989c9d8ff982e8e378dc">MultipleEdge</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga81e1fcab0f64d4bdb4ccf19d7e67bae1">MR::findMultipleEdges</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memitem:ga1aa9c53dc2ae474fe6c0c6d90d347f3e" id="r_ga1aa9c53dc2ae474fe6c0c6d90d347f3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1aa9c53dc2ae474fe6c0c6d90d347f3e">MR::hasMultipleEdges</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
 <tr class="memitem:ga4b6baaa619201e7e4c135ec4200d38ce" id="r_ga4b6baaa619201e7e4c135ec4200d38ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b6baaa619201e7e4c135ec4200d38ce">MR::fixMultipleEdges</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#gac8fc9cf58c37989c9d8ff982e8e378dc">MultipleEdge</a> &gt; &amp;multipleEdges)</td></tr>
@@ -235,8 +235,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga41fe97594ff1579f8e60f2f25944eccb" name="ga41fe97594ff1579f8e60f2f25944eccb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga41fe97594ff1579f8e60f2f25944eccb">&#9670;&#160;</a></span>duplicateMultiHoleVertices() <span class="overload">[2/2]</span></h2>
+<a id="ga900c1c80bfa1ca726e5afe5ccab5b31d" name="ga900c1c80bfa1ca726e5afe5ccab5b31d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga900c1c80bfa1ca726e5afe5ccab5b31d">&#9670;&#160;</a></span>duplicateMultiHoleVertices() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,13 +249,18 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxHoles</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxHoles</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">MeshBuilder::VertDuplication</a> &gt; *</td>          <td class="paramname"><span class="paramname"><em>dups</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFixer_8h.html">MRMesh/MRMeshFixer.h</a>&gt;</code></p>
-<p>Duplicates each vertex having more than <code class="param">maxHoles</code> edges without left face in its edge ring until at most <code class="param">maxHoles</code> such edges remain everywhere, and returns the number of duplications; after calling it with maxHoles = 2, <a class="el" href="group__GeneralGroup.html#ga3851088244e23053e194bb0bcd9e5700">MeshBuilder::fromTriangles</a> can reconstruct this mesh from its triangulation without dropping any face, and the vertices with just two triangle fans are not duplicated unnecessarily </p>
+<p>Duplicates each vertex having more than <code class="param">maxHoles</code> edges without left face in its edge ring until at most <code class="param">maxHoles</code> such edges remain everywhere, and returns the number of duplications; (optional) <code class="param">dups</code> receives the pair (source vertex, duplicate vertex) of every duplication made; after calling it with maxHoles = 2, <a class="el" href="group__GeneralGroup.html#ga3851088244e23053e194bb0bcd9e5700">MeshBuilder::fromTriangles</a> can reconstruct this mesh from its triangulation without dropping any face, and the vertices with just two triangle fans are not duplicated unnecessarily </p>
 
 </div>
 </div>

@@ -179,7 +179,7 @@ Enumerations</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:abad3b7373b700e676d41bb51c5984b39" id="r_abad3b7373b700e676d41bb51c5984b39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abad3b7373b700e676d41bb51c5984b39">MR_duplicateMultiHoleVertices_1</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
-<tr class="memitem:a590c726c999e30ccda1dad45e1199b33" id="r_a590c726c999e30ccda1dad45e1199b33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a590c726c999e30ccda1dad45e1199b33">MR_duplicateMultiHoleVertices_2</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, int maxHoles)</td></tr>
+<tr class="memitem:a6ad5098848f9bcff3c44191d058b1927" id="r_a6ad5098848f9bcff3c44191d058b1927"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ad5098848f9bcff3c44191d058b1927">MR_duplicateMultiHoleVertices_3</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, int maxHoles, <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *dups)</td></tr>
 <tr class="memitem:ac1421977898b81d1d178a2a49c0c9790" id="r_ac1421977898b81d1d178a2a49c0c9790"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a285e97d219529a43a8a99858b9f3a6f0">MR_expected_std_vector_std_pair_MR_VertId_MR_VertId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1421977898b81d1d178a2a49c0c9790">MR_findMultipleEdges</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="memitem:a1262ede14e9757ec445423512010bfbf" id="r_a1262ede14e9757ec445423512010bfbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1262ede14e9757ec445423512010bfbf">MR_hasMultipleEdges</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology)</td></tr>
 <tr class="memitem:aee094d2f80146619c7a592a97f0bc71c" id="r_aee094d2f80146619c7a592a97f0bc71c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee094d2f80146619c7a592a97f0bc71c">MR_fixMultipleEdges_2</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a1682e01fece3508ee71854ce279dac6c">MR_std_vector_std_pair_MR_VertId_MR_VertId</a> *multipleEdges)</td></tr>
@@ -466,25 +466,30 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a590c726c999e30ccda1dad45e1199b33" name="a590c726c999e30ccda1dad45e1199b33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a590c726c999e30ccda1dad45e1199b33">&#9670;&#160;</a></span>MR_duplicateMultiHoleVertices_2()</h2>
+<a id="a6ad5098848f9bcff3c44191d058b1927" name="a6ad5098848f9bcff3c44191d058b1927"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ad5098848f9bcff3c44191d058b1927">&#9670;&#160;</a></span>MR_duplicateMultiHoleVertices_3()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int MR_duplicateMultiHoleVertices_2 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int MR_duplicateMultiHoleVertices_3 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxHoles</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxHoles</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>dups</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Duplicates each vertex having more than <code class="param">maxHoles</code> edges without left face in its edge ring until at most <code class="param">maxHoles</code> such edges remain everywhere, and returns the number of duplications; after calling it with maxHoles = 2, MeshBuilder::fromTriangles can reconstruct this mesh from its triangulation without dropping any face, and the vertices with just two triangle fans are not duplicated unnecessarily Generated from function <span class="tt">MR::duplicateMultiHoleVertices</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. </p>
+<p>Duplicates each vertex having more than <code class="param">maxHoles</code> edges without left face in its edge ring until at most <code class="param">maxHoles</code> such edges remain everywhere, and returns the number of duplications; (optional) <code class="param">dups</code> receives the pair (source vertex, duplicate vertex) of every duplication made; after calling it with maxHoles = 2, MeshBuilder::fromTriangles can reconstruct this mesh from its triangulation without dropping any face, and the vertices with just two triangle fans are not duplicated unnecessarily Generated from function <span class="tt">MR::duplicateMultiHoleVertices</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">dups</span> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
