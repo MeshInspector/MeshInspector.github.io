@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1TouchpadParameters.html":[6,0,0,20,752],
+"structMR_1_1TouchpadRotateGestureBeginListener.html":[6,0,0,20,802],
 "structMR_1_1TouchpadRotateGestureEndListener.html":[6,0,0,20,804],
 "structMR_1_1TouchpadRotateGestureUpdateListener.html":[6,0,0,20,803],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html":[6,0,0,20,805],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Vector2.html#a2e63fb0714c8171732a8fa4493e0c5e1":[6,0,0,0,12,0,35],
 "structMR_1_1Vector2.html#a344bd19e0a6d0ddfd67e5739333a38cd":[6,0,0,0,12,0,32],
 "structMR_1_1Vector2.html#a355c1691ed2db85225bea3e3db37a904":[6,0,0,0,12,0,28],
-"structMR_1_1Vector2.html#a3e532c0fca60fc9935f8394188cc2f28":[6,0,0,0,12,0,18],
-"structMR_1_1Vector2.html#a3e532c0fca60fc9935f8394188cc2f28":[6,0,1,0,1,1450],
-"structMR_1_1Vector2.html#a419f18cb7af20ab8455495874cefbd9d":[6,0,0,0,12,0,2]
+"structMR_1_1Vector2.html#a3e532c0fca60fc9935f8394188cc2f28":[6,0,0,0,12,0,18]
 };

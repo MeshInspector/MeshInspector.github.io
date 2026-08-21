@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html":[6,0,0,17,1,0],
+"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a13090f3a2bfe03345bd7100d2c634d7f":[6,0,0,17,1,0,1],
 "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a33ab7a3bb2d0ed46b1856e4ba276357c":[6,0,0,17,1,0,4],
 "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a8e7aa7e5a8d5ad0d936565bfac19539e":[6,0,0,17,1,0,3],
 "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a9b0d4d2ec2b2868f18da16624979032f":[6,0,0,17,1,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1PolylineProjectionWithOffsetResult.html#a11d0a9e4090b200e7152c1d2000db9c3":[6,0,0,1,35,1],
 "structMR_1_1PolylineProjectionWithOffsetResult.html#ac03c6975d60108034bbd6964a751d08d":[6,0,0,1,35,2],
 "structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d":[6,0,0,1,35,0],
-"structMR_1_1PolylineSubdivideSettings.html":[6,0,0,15,0],
-"structMR_1_1PolylineSubdivideSettings.html#a41c3020ba21d66919d363b5e261b2666":[6,0,0,15,0,2],
-"structMR_1_1PolylineSubdivideSettings.html#a508f0caa9ead99ba37cd6a62babca39f":[6,0,0,15,0,0]
+"structMR_1_1PolylineSubdivideSettings.html":[6,0,0,15,0]
 };
