@@ -92,7 +92,6 @@ var searchData=
   ['laplaciandeformation_2edox_2ecpp_1',['LaplacianDeformation.dox.cpp',['../LaplacianDeformation_8dox_8cpp.html',1,'']]],
   ['laplacianexample_2edox_2',['LaplacianExample.dox',['../LaplacianExample_8dox.html',1,'']]],
   ['license_2edox_3',['License.dox',['../License_8dox.html',1,'']]],
-  ['verifysetup_2edox_2ecpp_0',['VerifySetup.dox.cpp',['../VerifySetup_8dox_8cpp.html',1,'']]],
-  ['viewerexample_2edox_1',['ViewerExample.dox',['../ViewerExample_8dox.html',1,'']]],
-  ['viewerexamplevolumerender_2edox_2',['ViewerExampleVolumeRender.dox',['../ViewerExampleVolumeRender_8dox.html',1,'']]],
+  ['viewerexample_2edox_0',['ViewerExample.dox',['../ViewerExample_8dox.html',1,'']]],
+  ['viewerexamplevolumerender_2edox_1',['ViewerExampleVolumeRender.dox',['../ViewerExampleVolumeRender_8dox.html',1,'']]],
 ];
