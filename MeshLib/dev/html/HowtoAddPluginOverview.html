@@ -143,16 +143,16 @@ $(function(){initNavTree('HowtoAddPluginOverview.html','',''); });
 <div class="toc"><h3>Table of Contents</h3>
 <ul>
   <li class="level1">
-    <a href="#autotoc_md95">Add Your Own Plugin to MeshInspector / MeshLib </a>
+    <a href="#autotoc_md96">Add Your Own Plugin to MeshInspector / MeshLib </a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md96">What is a plugin? </a>
+        <a href="#autotoc_md97">What is a plugin? </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md97">Why one might need a plugin </a>
+            <a href="#autotoc_md98">Why one might need a plugin </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md98">Prerequisites and pointers </a>
+            <a href="#autotoc_md99">Prerequisites and pointers </a>
           </li>
         </ul>
       </li>
@@ -162,25 +162,25 @@ $(function(){initNavTree('HowtoAddPluginOverview.html','',''); });
     <a href="#HowtoAddPluginOverview_TrustModel">Trust &amp; safety </a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md99">What a plugin distribution looks like </a>
+        <a href="#autotoc_md100">What a plugin distribution looks like </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md100">How to install the plugin </a>
+        <a href="#autotoc_md101">How to install the plugin </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md101">Windows </a>
+            <a href="#autotoc_md102">Windows </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md102">Linux </a>
+            <a href="#autotoc_md103">Linux </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md103">macOS (arm64 / Intel) </a>
+            <a href="#autotoc_md104">macOS (arm64 / Intel) </a>
             <ul>
               <li class="level4">
-                <a href="#autotoc_md104">macOS — option A: install into a user-owned clone (recommended) </a>
+                <a href="#autotoc_md105">macOS — option A: install into a user-owned clone (recommended) </a>
               </li>
               <li class="level4">
-                <a href="#autotoc_md105">macOS — option B: install into the system MeshInspector.app (advanced) </a>
+                <a href="#autotoc_md106">macOS — option B: install into the system MeshInspector.app (advanced) </a>
               </li>
             </ul>
           </li>
@@ -196,7 +196,7 @@ $(function(){initNavTree('HowtoAddPluginOverview.html','',''); });
           <li class="level3 empty">
             <ul>
               <li class="level4">
-                <a href="#autotoc_md106">Common failure modes </a>
+                <a href="#autotoc_md107">Common failure modes </a>
               </li>
             </ul>
           </li>
@@ -212,18 +212,18 @@ $(function(){initNavTree('HowtoAddPluginOverview.html','',''); });
   </li>
 </ul>
 </div>
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md95"></a>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md96"></a>
 Add Your Own Plugin to MeshInspector / MeshLib</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md96"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md97"></a>
 What is a plugin?</h2>
 <p>A plugin is a separately compiled module that extends the functionality of MeshLib (as a library) or MeshInspector (as a standalone app) <b>without modifying the core</b>. Each plugin is one shared library plus a couple of small JSON files that describe its ribbon items and where they appear in the UI.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md97"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md98"></a>
 Why one might need a plugin</h3>
 <ul>
 <li>Integration with existing MeshLib-based projects: add custom 3D processing features to specialized workflows.</li>
 <li>Extending MeshInspector: introduce additional inspection or repair tools that complement the built-in toolset.</li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md98"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md99"></a>
 Prerequisites and pointers</h3>
 <p>Before deploying anything, make sure your build matches the host you are deploying to — see <a class="el" href="#HowtoAddPluginOverview_VersionCompatibility">Version compatibility</a> at the end of this page.</p>
 <p>To actually build a plugin, see:</p><ul>
@@ -241,7 +241,7 @@ Trust &amp; safety</h1>
 </ul>
 </dd></dl>
 <p>When in doubt, install into a user-writable copy of the host (the cloned-folder approach described in the macOS section) rather than into the system-managed install. That way no audit trail or signature on the original install is touched.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md99"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md100"></a>
 What a plugin distribution looks like</h2>
 <p>Whether you built the plugin yourself or received it as an archive, it must contain three things:</p>
 <ol type="1">
@@ -250,11 +250,11 @@ What a plugin distribution looks like</h2>
 <li><em>Optionally</em> a <span class="tt">resource/icons/{X0_5,X0_75,X1,X3}/</span> folder with PNG icons in four sizes. If absent, the host falls back to the FontAwesome glyph specified in <span class="tt">items.json</span>.</li>
 </ol>
 <p>If a colleague handed you a zip, expect that exact layout. If you compiled it yourself, see <a class="el" href="ExamplePluginOverview.html">C++ Example Plugin Overview</a> for what the build output should look like and how to wire <span class="tt">*.items.json</span> / <span class="tt">*.ui.json</span> to the source.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md100"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md101"></a>
 How to install the plugin</h2>
 <dl class="section warning"><dt>Warning</dt><dd>Quit the host application before copying. Running processes hold the dylibs open; the copy will fail or — worse — appear to succeed but be silently ignored until next restart anyway.</dd></dl>
 <p>The exact target locations differ per platform.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md101"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md102"></a>
 Windows</h3>
 <dl class="section note"><dt>Note</dt><dd>On Windows, dropping files into <span class="tt">C:\Program Files\</span> requires Administrator. Open <span class="tt">cmd.exe</span> or PowerShell with <b>Run as administrator</b> (right-click the icon → "Run as administrator"), then run <span class="tt">copy</span> from there. Alternatively, use Explorer — it will pop a UAC prompt for the same purpose.</dd></dl>
 <p>For an installed MeshInspector: </p><div class="fragment"><div class="line">copy MyPlugin.dll          &quot;C:\Program Files\MeshInspector\MeshInspector\&quot;</div>
@@ -264,17 +264,17 @@ Windows</h3>
 </div><!-- fragment --><p>For the MeshLib SDK archive, copy the same files into <span class="tt">install\app\Release</span> (or <span class="tt">install\app\Debug</span>).</p>
 <dl class="section warning"><dt>Warning</dt><dd>On Windows, mismatching CRT (Debug-built plugin against Release-installed app, or vice versa) crashes on load. Build with the same configuration as the host you target. If the host is the official MeshInspector installer, that is <b>Release</b>.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd><b>Antivirus / SmartScreen</b>: a freshly written <span class="tt">.dll</span> in <span class="tt">C:\Program Files\</span> may be flagged or quarantined. If your plugin disappears immediately after copying, check the Windows Security → Protection History and add an exception, or sign the dylib with a developer certificate.</dd></dl>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md102"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md103"></a>
 Linux</h3>
 <p>For the official <span class="tt">.deb</span> of MeshInspector, plugin libraries live next to the other shared libraries and JSON descriptors next to other resources:</p>
 <div class="fragment"><div class="line">sudo cp libMyPlugin.so                     /usr/lib/MeshInspector/</div>
 <div class="line">sudo cp MyPlugin.items.json MyPlugin.ui.json /usr/share/MeshInspector/</div>
 <div class="line">sudo cp -R resource                        /usr/share/MeshInspector/</div>
 </div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>If you installed MeshInspector via a different channel (tarball, AppImage, source build), the directory layout differs. For an SDK archive build, copy into <span class="tt">install/app/Release/</span> — same layout as Windows.</dd></dl>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md103"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md104"></a>
 macOS (arm64 / Intel)</h3>
 <p>There are two paths on macOS. The <b>first one is safer</b>: it does not modify the official <span class="tt">MeshInspector.app</span> bundle on your system, so the installed app remains intact and updates continue to work normally. Pick the second one only if you knowingly want a system-wide install.</p>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md104"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md105"></a>
 macOS — option A: install into a user-owned clone (recommended)</h4>
 <p>Copy the host application to a writable folder, deploy the plugin there, and launch from the clone:</p>
 <div class="fragment"><div class="line">mkdir -p ~/Apps</div>
@@ -290,7 +290,7 @@ macOS — option A: install into a user-owned clone (recommended)</h4>
 <dd>
 <b>Gatekeeper warning on first launch.</b> macOS may attach <span class="tt">com.apple.quarantine</span> to files copied via <span class="tt">cp -R</span>. Launching the binary from the clone may show a "developer cannot be verified" prompt the first time, which goes away after you accept it. To suppress in advance: <div class="fragment"><div class="line">xattr -dr com.apple.quarantine ~/Apps/MI-MyPlugin</div>
 </div><!-- fragment --></dd></dl>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md105"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md106"></a>
 macOS — option B: install into the system MeshInspector.app (advanced)</h4>
 <p>This writes directly into the notarized app bundle. <b>It is system-wide and breaks the bundle's code signature</b> — Gatekeeper may block subsequent launches or warn that the app is "damaged", and the auto-updater (Sparkle) may overwrite your plugin on the next MeshInspector update. Use this only if you understand the trade-off.</p>
 <div class="fragment"><div class="line">sudo cp libMyPlugin.dylib                    /Applications/MeshInspector.app/Contents/libs/</div>
@@ -312,7 +312,7 @@ Verifying the install</h1>
 <p>| macOS | <span class="tt">$TMPDIR/MeshInspector/Logs/MRLog_*.txt</span> (resolves under <span class="tt">/var/folders/.../</span>; <span class="tt">ls -t $TMPDIR/MeshInspector/Logs/MRLog_*.txt | head -1</span> shows the latest) |</p>
 <p>A successful install shows two lines per plugin: </p><div class="fragment"><div class="line">[info] Loading library MyPlugin with priority 999</div>
 <div class="line">[info] Load library MyPlugin was successful</div>
-</div><!-- fragment --><h4 class="doxsection"><a class="anchor" id="autotoc_md106"></a>
+</div><!-- fragment --><h4 class="doxsection"><a class="anchor" id="autotoc_md107"></a>
 Common failure modes</h4>
 <p>"Ribbon item \"My Tool\" is not registered"** — the <span class="tt">Name</span> field in <span class="tt">*.items.json</span> does not match the string passed to <span class="tt">RibbonMenuItem("...")</span> (or <span class="tt">StatePlugin("...")</span>) in the source. Names are byte-identical strings; "My Tool" and "MyTool" are different. Fix the JSON or the source so they match exactly.</p>
 <p>Plugin loads but ribbon button does not appear** — <span class="tt">*.ui.json</span> references a tab or group that does not exist, or the <span class="tt">Order</span> value collides with another plugin. Check that <span class="tt">Tabs[].Name</span> matches an existing tab (e.g. <span class="tt">Home</span>, <span class="tt">Mesh Edit</span>) and that <span class="tt">Groups[].Name</span> matches a group inside that tab.</p>
