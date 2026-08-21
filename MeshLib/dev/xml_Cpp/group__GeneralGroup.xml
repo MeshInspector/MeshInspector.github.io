@@ -48324,38 +48324,6 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRViewer/MRCommandLoop.h" line="69" column="25" bodyfile="MRViewer/MRCommandLoop.h" bodystart="69" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gae3bbfe155bd86cd1b3df9cf6cec694db" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::CommandLoop::Command::started</definition>
-        <argsstring></argsstring>
-        <name>started</name>
-        <qualifiedname>MR::CommandLoop::Command::started</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>set under CommandLoop::mutex_ just before <ref refid="group__GeneralGroup_1ga495828361402419df380d32dc7480fed" kindref="member">func()</ref> is invoked; tells a blocked caller that the main thread is executing its command rather than not having reached it yet </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="72" column="14" bodyfile="MRViewer/MRCommandLoop.h" bodystart="72" bodyend="72"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga01da5c9c2826edd83e70f122a5e8ce03" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::CommandLoop::Command::done</definition>
-        <argsstring></argsstring>
-        <name>done</name>
-        <qualifiedname>MR::CommandLoop::Command::done</qualifiedname>
-        <initializer>{ false }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>set under CommandLoop::mutex_ once the command was executed or dropped; the predicate a blocked caller waits on, see addCommand_ </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="75" column="14" bodyfile="MRViewer/MRCommandLoop.h" bodystart="75" bodyend="75"/>
-      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaae9d2900dc96e5066d7e3cd8c11db7ec" prot="private" static="no" mutable="no">
         <type>StartPosition</type>
         <definition>StartPosition MR::CommandLoop::state_</definition>
@@ -48369,7 +48337,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="78" column="19" bodyfile="MRViewer/MRCommandLoop.h" bodystart="78" bodyend="78"/>
+        <location file="MRViewer/MRCommandLoop.h" line="72" column="19" bodyfile="MRViewer/MRCommandLoop.h" bodystart="72" bodyend="72"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa3467ab398f96c65ed9621abdb8e5438" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -48385,7 +48353,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="81" column="10" bodyfile="MRViewer/MRCommandLoop.h" bodystart="81" bodyend="81"/>
+        <location file="MRViewer/MRCommandLoop.h" line="75" column="10" bodyfile="MRViewer/MRCommandLoop.h" bodystart="75" bodyend="75"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga49f8164b9d23200b50227b620344917c" prot="private" static="no" mutable="no">
         <type>std::thread::id</type>
@@ -48400,7 +48368,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="82" column="21" bodyfile="MRViewer/MRCommandLoop.h" bodystart="82" bodyend="-1"/>
+        <location file="MRViewer/MRCommandLoop.h" line="76" column="21" bodyfile="MRViewer/MRCommandLoop.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacfda35989377d6cd24d55b26e21500db" prot="private" static="no" mutable="no">
         <type>std::queue&lt; std::shared_ptr&lt; Command &gt; &gt;</type>
@@ -48414,7 +48382,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="83" column="16" bodyfile="MRViewer/MRCommandLoop.h" bodystart="83" bodyend="-1"/>
+        <location file="MRViewer/MRCommandLoop.h" line="77" column="16" bodyfile="MRViewer/MRCommandLoop.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa75ce33740e9bd281f5633e11c989129" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -48428,7 +48396,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="84" column="16" bodyfile="MRViewer/MRCommandLoop.h" bodystart="84" bodyend="-1"/>
+        <location file="MRViewer/MRCommandLoop.h" line="78" column="16" bodyfile="MRViewer/MRCommandLoop.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabb95321aeb350840573cff7f04e36f33" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -156959,7 +156927,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="90" column="7" declfile="MRViewer/MRCommandLoop.h" declline="90" declcolumn="7"/>
+        <location file="MRViewer/MRCommandLoop.h" line="84" column="7" declfile="MRViewer/MRCommandLoop.h" declline="84" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga64cf6b9277515ab399a88caf26a922bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

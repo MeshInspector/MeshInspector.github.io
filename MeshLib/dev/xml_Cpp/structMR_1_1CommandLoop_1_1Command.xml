@@ -7,19 +7,15 @@
       <member refid="group__GeneralGroup_1ga739535ad2c8198dd5cdc5b804b4d20c2" kind="variable"><name>state</name></member>
       <member refid="group__GeneralGroup_1ga96d0ef6ef458d983f1ba035f68ebf6d1" kind="variable"><name>callerThreadCV</name></member>
       <member refid="group__GeneralGroup_1ga47ada2edb409f0b00f3de9839c8cade1" kind="variable"><name>threadId</name></member>
-      <member refid="group__GeneralGroup_1gae3bbfe155bd86cd1b3df9cf6cec694db" kind="variable"><name>started</name></member>
-      <member refid="group__GeneralGroup_1ga01da5c9c2826edd83e70f122a5e8ce03" kind="variable"><name>done</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRViewer/MRCommandLoop.h" line="64" column="5" bodyfile="MRViewer/MRCommandLoop.h" bodystart="65" bodyend="76"/>
+    <location file="MRViewer/MRCommandLoop.h" line="64" column="5" bodyfile="MRViewer/MRCommandLoop.h" bodystart="65" bodyend="70"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga96d0ef6ef458d983f1ba035f68ebf6d1" prot="public" virt="non-virtual"><scope>MR::CommandLoop::Command</scope><name>callerThreadCV</name></member>
-      <member refid="group__GeneralGroup_1ga01da5c9c2826edd83e70f122a5e8ce03" prot="public" virt="non-virtual"><scope>MR::CommandLoop::Command</scope><name>done</name></member>
       <member refid="group__GeneralGroup_1ga495828361402419df380d32dc7480fed" prot="public" virt="non-virtual"><scope>MR::CommandLoop::Command</scope><name>func</name></member>
-      <member refid="group__GeneralGroup_1gae3bbfe155bd86cd1b3df9cf6cec694db" prot="public" virt="non-virtual"><scope>MR::CommandLoop::Command</scope><name>started</name></member>
       <member refid="group__GeneralGroup_1ga739535ad2c8198dd5cdc5b804b4d20c2" prot="public" virt="non-virtual"><scope>MR::CommandLoop::Command</scope><name>state</name></member>
       <member refid="group__GeneralGroup_1ga47ada2edb409f0b00f3de9839c8cade1" prot="public" virt="non-virtual"><scope>MR::CommandLoop::Command</scope><name>threadId</name></member>
     </listofallmembers>

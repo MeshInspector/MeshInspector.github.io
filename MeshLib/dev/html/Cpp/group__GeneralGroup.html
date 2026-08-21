@@ -13571,8 +13571,6 @@ Variables</h2></td></tr>
 <tr class="memitem:ga739535ad2c8198dd5cdc5b804b4d20c2" id="r_ga739535ad2c8198dd5cdc5b804b4d20c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga2e4318196fd48b27b617c07eb35bbe39">StartPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga739535ad2c8198dd5cdc5b804b4d20c2">MR::CommandLoop::Command::state</a> { <a class="el" href="#gga2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba">StartPosition::BeforeWindowAppear</a> }</td></tr>
 <tr class="memitem:ga96d0ef6ef458d983f1ba035f68ebf6d1" id="r_ga96d0ef6ef458d983f1ba035f68ebf6d1"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga96d0ef6ef458d983f1ba035f68ebf6d1">MR::CommandLoop::Command::callerThreadCV</a></td></tr>
 <tr class="memitem:ga47ada2edb409f0b00f3de9839c8cade1" id="r_ga47ada2edb409f0b00f3de9839c8cade1"><td class="memItemLeft" align="right" valign="top">std::thread::id&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga47ada2edb409f0b00f3de9839c8cade1">MR::CommandLoop::Command::threadId</a></td></tr>
-<tr class="memitem:gae3bbfe155bd86cd1b3df9cf6cec694db" id="r_gae3bbfe155bd86cd1b3df9cf6cec694db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3bbfe155bd86cd1b3df9cf6cec694db">MR::CommandLoop::Command::started</a> { false }</td></tr>
-<tr class="memitem:ga01da5c9c2826edd83e70f122a5e8ce03" id="r_ga01da5c9c2826edd83e70f122a5e8ce03"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga01da5c9c2826edd83e70f122a5e8ce03">MR::CommandLoop::Command::done</a> { false }</td></tr>
 <tr class="memitem:gabb95321aeb350840573cff7f04e36f33" id="r_gabb95321aeb350840573cff7f04e36f33"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb95321aeb350840573cff7f04e36f33">MR::ShaderWarning::number</a> {0}</td></tr>
 <tr class="memdesc:gabb95321aeb350840573cff7f04e36f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">number is presented in some of gpu shader compilations output  <br /></td></tr>
 <tr class="memitem:ga930eaa6dc15670480191448c07138e81" id="r_ga930eaa6dc15670480191448c07138e81"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga930eaa6dc15670480191448c07138e81">MR::ShaderWarning::line</a></td></tr>
@@ -208996,21 +208994,6 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
-<a id="ga01da5c9c2826edd83e70f122a5e8ce03" name="ga01da5c9c2826edd83e70f122a5e8ce03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga01da5c9c2826edd83e70f122a5e8ce03">&#9670;&#160;</a></span>done</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::CommandLoop::Command::done { false }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>set under CommandLoop::mutex_ once the command was executed or dropped; the predicate a blocked caller waits on, see addCommand_ </p>
-
-</div>
-</div>
 <a id="ga1ddd1fee272b8d5ab0de85e419cc5c9c" name="ga1ddd1fee272b8d5ab0de85e419cc5c9c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga1ddd1fee272b8d5ab0de85e419cc5c9c">&#9670;&#160;</a></span>dontSaveText</h2>
 
@@ -230386,21 +230369,6 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p>Whether to activate dragging new point immediately after its creation on mouse down. </p>
-
-</div>
-</div>
-<a id="gae3bbfe155bd86cd1b3df9cf6cec694db" name="gae3bbfe155bd86cd1b3df9cf6cec694db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae3bbfe155bd86cd1b3df9cf6cec694db">&#9670;&#160;</a></span>started</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::CommandLoop::Command::started { false }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>set under CommandLoop::mutex_ just before <a class="el" href="#ga495828361402419df380d32dc7480fed">func()</a> is invoked; tells a blocked caller that the main thread is executing its command rather than not having reached it yet </p>
 
 </div>
 </div>
