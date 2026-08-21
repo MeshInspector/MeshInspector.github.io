@@ -186,7 +186,7 @@ Windows</h3>
 <ol type="1">
 <li><b>Download and Extract the Built Version</b><ul>
 <li>Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a>.</li>
-<li>Download the latest <b>Windows built version archive</b> (E.g. MeshLibDist_v3.0.0.40.zip).</li>
+<li>Download the <b>Windows built version archive</b> for your Visual Studio toolset: the release description links one archive per supported toolset (2019, 2022, 2026).</li>
 <li>Extract it to a directory, e.g., <span class="tt">C:\meshlib-built\</span>. <br  />
  <b>Directory Structure After Extraction</b> <div class="fragment"><div class="line">install/</div>
 <div class="line">  ├── include/       # Header files</div>
@@ -220,18 +220,13 @@ Linux (Ubuntu)</h3>
 </div><!-- fragment --></li>
 <li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a> <br  />
  Add the following to your <span class="tt">CMakeLists.txt</span>: <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
-<div class="line">`</div>
 </div><!-- fragment --></li>
 </ol>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md42"></a>
 macOS</h3>
 <ol type="1">
 <li><b>Download the Installer</b> <br  />
- Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page and download the <span class="tt">.pkg</span> for your CPU (run <span class="tt">uname -m</span> if you are unsure):<ul>
-<li>Apple silicon (M-series, <span class="tt">arm64</span>): <span class="tt">meshlib_&lt;version&gt;_arm64.pkg</span></li>
-<li>Intel (<span class="tt">x86_64</span>): <span class="tt">meshlib_&lt;version&gt;_x64.pkg</span></li>
-</ul>
-</li>
+ Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page: the release description links one <span class="tt">.pkg</span> installer for macOS Arm (Apple silicon) and one for macOS x64 (Intel). Take the one matching <span class="tt">uname -m</span> (<span class="tt">arm64</span> or <span class="tt">x86_64</span>).</li>
 <li><b>Install</b><ul>
 <li>Double-click the downloaded <span class="tt">.pkg</span> and follow the installer. The release asset is the installer itself, so there is nothing to unpack first.</li>
 <li>The framework is installed into <span class="tt">/Library/Frameworks/MeshLib.framework</span>, or into <span class="tt">~/Library/Frameworks/MeshLib.framework</span> if you choose to install for the current user only.</li>
@@ -243,7 +238,6 @@ macOS</h3>
 </li>
 <li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a> <br  />
  Add the following to your <span class="tt">CMakeLists.txt</span>: <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
-<div class="line">`</div>
 </div><!-- fragment --></li>
 </ol>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
