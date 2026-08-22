@@ -119,19 +119,21 @@
 <codeline lineno="67" refid="group__GeneralGroup_1ga739535ad2c8198dd5cdc5b804b4d20c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref><sp/><ref refid="group__GeneralGroup_1ga739535ad2c8198dd5cdc5b804b4d20c2" kindref="member">state</ref>{<sp/><ref refid="group__GeneralGroup_1gga2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba" kindref="member">StartPosition::BeforeWindowAppear</ref><sp/>};</highlight></codeline>
 <codeline lineno="68" refid="group__GeneralGroup_1ga96d0ef6ef458d983f1ba035f68ebf6d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::condition_variable<sp/><ref refid="group__GeneralGroup_1ga96d0ef6ef458d983f1ba035f68ebf6d1" kindref="member">callerThreadCV</ref>;</highlight></codeline>
 <codeline lineno="69" refid="group__GeneralGroup_1ga47ada2edb409f0b00f3de9839c8cade1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::thread::id<sp/><ref refid="group__GeneralGroup_1ga47ada2edb409f0b00f3de9839c8cade1" kindref="member">threadId</ref>;</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref><sp/>state_{<sp/><ref refid="group__GeneralGroup_1gga2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c" kindref="member">StartPosition::AfterWindowInit</ref><sp/>};</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>queueClosed_{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>std::thread::id<sp/>mainThreadId_;</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>std::queue&lt;std::shared_ptr&lt;Command&gt;&gt;<sp/>commands_;</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>std::mutex<sp/>mutex_;</highlight></codeline>
-<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="group__GeneralGroup_1ga62fb75743666477382adbc8efccf76b9" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62fb75743666477382adbc8efccf76b9" kindref="member">skipFramesAfterInput</ref>();</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72" refid="group__GeneralGroup_1gae3bbfe155bd86cd1b3df9cf6cec694db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae3bbfe155bd86cd1b3df9cf6cec694db" kindref="member">started</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="75" refid="group__GeneralGroup_1ga01da5c9c2826edd83e70f122a5e8ce03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga01da5c9c2826edd83e70f122a5e8ce03" kindref="member">done</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref><sp/>state_{<sp/><ref refid="group__GeneralGroup_1gga2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c" kindref="member">StartPosition::AfterWindowInit</ref><sp/>};</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>queueClosed_{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>std::thread::id<sp/>mainThreadId_;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>std::queue&lt;std::shared_ptr&lt;Command&gt;&gt;<sp/>commands_;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>std::mutex<sp/>mutex_;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="group__GeneralGroup_1ga62fb75743666477382adbc8efccf76b9" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga62fb75743666477382adbc8efccf76b9" kindref="member">skipFramesAfterInput</ref>();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRViewer/MRCommandLoop.h"/>
   </compounddef>
