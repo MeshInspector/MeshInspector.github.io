@@ -149,9 +149,6 @@ $(function(){initNavTree('MeshLibCSharpSetupGuide.html','',''); });
         <a href="#autotoc_md43">Prerequisites </a>
         <ul>
           <li class="level3">
-            <a href="#MeshLibCSharpPlatforms">Supported platforms </a>
-          </li>
-          <li class="level3">
             <a href="#autotoc_md44">.NET SDK </a>
           </li>
           <li class="level3">
@@ -202,29 +199,10 @@ Using MeshLib with C#</h1>
 <p>This instruction will guide you through integrating MeshLib into your C# project using NuGet or the .NET Command-Line Interface.</p>
 <dl class="section note"><dt>Note</dt><dd>MeshLib C# bindings are fully generated from the C++ codebase and expose the complete public API, with the exception of the <span class="tt">MR.Viewer</span> module. The C# API is fully compatible with Unity — see <a class="el" href="#MeshLibCSharpUnity">Using MeshLib with Unity</a>.</dd>
 <dd>
-As of January 2026, the C# bindings are production-ready. The full, stable C# API reference and comprehensive code samples are available and maintained. C# support is provided consistently across all <a class="el" href="#MeshLibCSharpPlatforms">supported platforms</a>, ensuring feature parity with the native C++ API.</dd></dl>
+As of January 2026, the C# bindings are production-ready. The full, stable C# API reference and comprehensive code samples are available and maintained. C# support is provided consistently across all supported platforms (Windows x64, Linux x64/Arm, MacOS x64/Arm), ensuring feature parity with the native C++ API.</dd></dl>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
 Prerequisites</h2>
 <p>Before installing MeshLib, ensure you have the following tools installed:</p>
-<h3 class="doxsection"><a class="anchor" id="MeshLibCSharpPlatforms"></a>
-Supported platforms</h3>
-<p>The NuGet package ships prebuilt native libraries, so your OS and CPU architecture must be one it covers:</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">OS  </th><th class="markdownTableHeadNone">Architectures  </th><th class="markdownTableHeadNone">Minimum version  </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Windows  </td><td class="markdownTableBodyNone">x64  </td><td class="markdownTableBodyNone">Windows 10  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Linux  </td><td class="markdownTableBodyNone">x64, Arm64  </td><td class="markdownTableBodyNone">glibc 2.27+ — e.g. Ubuntu 18.04+, Debian 10+, RHEL/Rocky/AlmaLinux 8+  </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">macOS  </td><td class="markdownTableBodyNone">Arm64 (Apple silicon)  </td><td class="markdownTableBodyNone">macOS 14  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">macOS  </td><td class="markdownTableBodyNone">x64 (Intel)  </td><td class="markdownTableBodyNone">macOS 15  </td></tr>
-</table>
-<dl class="section note"><dt>Note</dt><dd>Windows on Arm is not supported: the package ships no <span class="tt">win-arm64</span> native runtime. Installing it there succeeds, so the failure only surfaces on the first call into MeshLib. Building the project for <span class="tt">win-x64</span> instead runs it under the system's x64 emulation.</dd></dl>
-<p>On <b>Linux</b> no extra system packages are required: beyond the C and C++ runtimes the libraries need only <span class="tt">libexpat1</span> and <span class="tt">zlib1g</span>, which a standard desktop or server install already provides. Every other dependency is bundled in the package.</p>
-<p>On <b>macOS</b> the floor differs by architecture: part of the file-format libraries in the x64 runtime are built against a newer SDK, so on an Intel Mac running macOS 14 the core API loads but the extra formats (E57, LAZ, CTM) fail.</p>
-<p>On <b>Windows</b> the natives use the Universal CRT, a component of Windows 10 and newer; earlier Windows versions are not supported.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
 .NET SDK</h3>
 <ul>
@@ -334,7 +312,7 @@ DllNotFoundException</h3>
 <div class="fragment"><div class="line">System.DllNotFoundException: Unable to load DLL <span class="stringliteral">&#39;MeshLibC2&#39;</span> or one of its dependencies: The specified module could not be found.</div>
 </div><!-- fragment --><p> (on Linux and macOS: &lsquo;Unable to load shared library 'MeshLibC2&rsquo; or one of its dependencies`)</p>
 <p>The native libraries were not found at run time:</p><ul>
-<li>Check that your platform is <a class="el" href="#MeshLibCSharpPlatforms">supported</a> — in particular, the package contains no native libraries for Windows on Arm.</li>
+<li>Check that your platform is supported: Windows x64, Linux x64/Arm64, macOS x64/Arm64. In particular, the package contains no native libraries for Windows on Arm — installing it there succeeds, but every call into MeshLib fails.</li>
 <li>Check that the native libraries reached your build output: on .NET they are placed under <span class="tt">runtimes/&lt;rid&gt;/native/</span> in the output directory, on .NET Framework next to the executable (<span class="tt">MeshLibC2.dll</span> and its dependencies on Windows).</li>
 </ul>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md51"></a>
