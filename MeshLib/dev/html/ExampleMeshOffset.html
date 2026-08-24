@@ -205,7 +205,7 @@ $(function(){initNavTree('ExampleMeshOffset.html','',''); });
 <div class="line">offset = mesh.computeBoundingBox().diagonal() * 0.05</div>
 <div class="line"><span class="keywordflow">try</span>:</div>
 <div class="line">    result_mesh = mrmeshpy.offsetMesh(mesh, offset, params)</div>
-<div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
+<div class="line"><span class="keywordflow">except</span> RuntimeError <span class="keyword">as</span> e:</div>
 <div class="line">    print(e)</div>
 <div class="line">    sys.exit(1)</div>
 <div class="line"> </div>
