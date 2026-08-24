@@ -434,17 +434,17 @@ Functions</h2></td></tr>
 <div class="line">    <span class="keyword">using </span>expectedType = Expected&lt;type,errorType&gt;;\</div>
 <div class="line">    MR_PYTHON_CUSTOM_CLASS( name ).\</div>
 <div class="line">        def( <span class="stringliteral">&quot;has_value&quot;</span>, []() \</div>
-<div class="line">        { PyErr_WarnEx(PyExc_DeprecationWarning, <span class="stringliteral">&quot;.has_value is deprecated. Please use &#39;try - except ValueError&#39;&quot;</span>, 1); \</div>
+<div class="line">        { PyErr_WarnEx(PyExc_DeprecationWarning, <span class="stringliteral">&quot;.has_value is deprecated. Please use &#39;try - except RuntimeError&#39;&quot;</span>, 1); \</div>
 <div class="line">            <span class="keywordflow">return</span> &amp;expectedType::has_value; \</div>
 <div class="line">        }).\</div>
 <div class="line">        def( <span class="stringliteral">&quot;value&quot;</span>, []() \</div>
 <div class="line">        { \</div>
-<div class="line">            PyErr_WarnEx(PyExc_DeprecationWarning, <span class="stringliteral">&quot;.value is deprecated. Please use &#39;try - except ValueError&#39;&quot;</span>, 1); \</div>
+<div class="line">            PyErr_WarnEx(PyExc_DeprecationWarning, <span class="stringliteral">&quot;.value is deprecated. Please use &#39;try - except RuntimeError&#39;&quot;</span>, 1); \</div>
 <div class="line">            return ( type&amp; ( expectedType::* )( )&amp; )&amp; expectedType::value; \</div>
 <div class="line">        }, pybind11::return_value_policy::reference_internal ).\</div>
 <div class="line">        def( <span class="stringliteral">&quot;error&quot;</span>, []() \</div>
 <div class="line">        { \</div>
-<div class="line">            PyErr_WarnEx(PyExc_DeprecationWarning, <span class="stringliteral">&quot;.error is deprecated. Please use &#39;try - except ValueError&#39;&quot;</span>, 1); \</div>
+<div class="line">            PyErr_WarnEx(PyExc_DeprecationWarning, <span class="stringliteral">&quot;.error is deprecated. Please use &#39;try - except RuntimeError&#39;&quot;</span>, 1); \</div>
 <div class="line">            return ( <span class="keyword">const</span> errorType&amp; ( expectedType::* )( )<span class="keyword">const</span>&amp; )&amp; expectedType::error; \</div>
 <div class="line">        } );\</div>
 <div class="line">} )</div>

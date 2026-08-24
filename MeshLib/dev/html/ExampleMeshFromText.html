@@ -200,7 +200,7 @@ $(function(){initNavTree('ExampleMeshFromText.html','',''); });
 <div class="line">params.pathToFontFile = font_path</div>
 <div class="line"><span class="keywordflow">try</span>:</div>
 <div class="line">    conv_res = mrmeshpy.createSymbolsMesh(params)</div>
-<div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
+<div class="line"><span class="keywordflow">except</span> RuntimeError <span class="keyword">as</span> e:</div>
 <div class="line">    print(f<span class="stringliteral">&quot;Failed to convert text to mesh: {e}&quot;</span>, file=sys.stderr)</div>
 <div class="line">    sys.exit(1)</div>
 <div class="line"> </div>
