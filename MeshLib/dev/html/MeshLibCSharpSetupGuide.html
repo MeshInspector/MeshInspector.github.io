@@ -152,7 +152,7 @@ $(function(){initNavTree('MeshLibCSharpSetupGuide.html','',''); });
             <a href="#autotoc_md44">.NET SDK </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md45">Visual Studio </a>
+            <a href="#autotoc_md45">IDE (optional) </a>
           </li>
         </ul>
       </li>
@@ -206,13 +206,32 @@ Prerequisites</h2>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
 .NET SDK</h3>
 <ul>
-<li>Install the latest version of the <a href="https://dotnet.microsoft.com/download">.NET SDK</a> from the .NET website. MeshLib is compatible with .NET Framework 4.7 and higher, as well as .NET 5.0, 6.0, 7.0, 8.0, and additional versions outlined below.</li>
+<li>Install the latest version of the <a href="https://dotnet.microsoft.com/download">.NET SDK</a> from the .NET website. MeshLib targets <span class="tt">netstandard2.0</span>, so it sets no upper bound on your .NET version: it is compatible with .NET Framework 4.7 and higher, and with .NET 5.0 and every later version.</li>
 <li>Verify your installation by running: <div class="fragment"><div class="line">dotnet --version</div>
 </div><!-- fragment --></li>
 </ul>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md45"></a>
-Visual Studio</h3>
-<p>For a more integrated development experience, you can use Visual Studio 2019 or later. Make sure to install the <b>.NET desktop development</b> workload.</p>
+IDE (optional)</h3>
+<p>MeshLib needs no IDE: the .NET CLI path below is sufficient, and works the same way on Windows, macOS and Linux. For a more integrated development experience:</p><ul>
+<li><b>Windows</b>: Visual Studio, with the <b>.NET desktop development</b> workload. Which version you need is decided by <em>your project's</em> target framework, not by MeshLib — see the table below.</li>
+<li><b>Windows, macOS and Linux</b>: <a href="https://www.jetbrains.com/rider/">JetBrains Rider</a>, or <a href="https://code.visualstudio.com/download">Visual Studio Code</a> with the <a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit">C# Dev Kit</a> extension. Visual Studio itself is Windows-only — Visual Studio for Mac was retired in August 2024.</li>
+</ul>
+<p>Minimum Visual Studio version per target framework:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Your project's <span class="tt">&lt;TargetFramework&gt;</span>  </th><th class="markdownTableHeadNone">Minimum Visual Studio  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">.NET Framework 4.7+, <span class="tt">net5.0</span>, <span class="tt">net6.0</span>  </td><td class="markdownTableBodyNone">Visual Studio 2019  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">net7.0</span>  </td><td class="markdownTableBodyNone">Visual Studio 2022 17.2+  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">net8.0</span>  </td><td class="markdownTableBodyNone">Visual Studio 2022 17.8+  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">net9.0</span>  </td><td class="markdownTableBodyNone">Visual Studio 2022 17.14+  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">net10.0</span>  </td><td class="markdownTableBodyNone">Visual Studio 2026  </td></tr>
+</table>
+<dl class="section note"><dt>Note</dt><dd>Following the step above and installing the <em>latest</em> SDK means <span class="tt">dotnet new console</span> creates a <span class="tt">net10.0</span> project, which needs <b>Visual Studio 2026</b>. Older versions fail with errors that never mention Visual Studio: 2022 reports <span class="tt">error NETSDK1045: The current .NET SDK does not support targeting .NET 10.0</span>, and 2019 fails even earlier with &lsquo;error MSB4236: The SDK 'Microsoft.NET.Sdk&rsquo; specified could not be found<span class="tt">, because the SDK resolver rejects MSBuild 16 before the target framework is read. To keep an older Visual Studio, set </span>&lt;TargetFramework&gt;<span class="tt"> in your </span>.csproj` to a version its row covers.</dd></dl>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md46"></a>
 Installation via NuGet</h2>
 <p>Depending on your development environment and workflow preferences, you can choose from the following installation methods</p>
@@ -278,6 +297,7 @@ Installation via .NET Command-Line Interface</h2>
 <p>To install MeshLib via the .NET CLI, follow these steps:</p><ol type="1">
 <li><b>Open a Terminal or Command Prompt</b>:<ul>
 <li><b>On Windows</b>, use Command Prompt, PowerShell, or the Windows Terminal.</li>
+<li><b>On macOS</b>, use Terminal or iTerm2. <b>On Linux</b>, use your distribution's terminal emulator.</li>
 </ul>
 </li>
 <li><b>Create a New Project Directory</b>: <br  />
