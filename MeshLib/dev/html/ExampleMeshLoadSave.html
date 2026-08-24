@@ -186,31 +186,22 @@ $(function(){initNavTree('ExampleMeshLoadSave.html','',''); });
 MR::MeshSave</dd></dl>
 </li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
-<div class="line"><span class="keyword">import</span> os</div>
 <div class="line"><span class="keyword">import</span> sys</div>
-<div class="line"> </div>
-<div class="line"><span class="comment"># This example needs an input mesh; create one if you do not have it already</span></div>
-<div class="line"><span class="keywordflow">if</span> <span class="keywordflow">not</span> os.path.exists(<span class="stringliteral">&quot;mesh.stl&quot;</span>):</div>
-<div class="line">    mrmeshpy.saveMesh(mrmeshpy.makeCube(), <span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load mesh</span></div>
 <div class="line"><span class="keywordflow">try</span>:</div>
 <div class="line">    mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
-<div class="line"><span class="keywordflow">except</span> RuntimeError <span class="keyword">as</span> e:</div>
-<div class="line">    print(f<span class="stringliteral">&quot;Failed to load mesh: {e}&quot;</span>)</div>
+<div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
+<div class="line">    print(e)</div>
 <div class="line">    sys.exit(1)</div>
-<div class="line"> </div>
-<div class="line">print(f<span class="stringliteral">&quot;Loaded {mesh.topology.numValidVerts()} vertices, &quot;</span></div>
-<div class="line">      f<span class="stringliteral">&quot;{mesh.topology.numValidFaces()} faces&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save mesh</span></div>
 <div class="line"><span class="keywordflow">try</span>:</div>
 <div class="line">    mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
-<div class="line"><span class="keywordflow">except</span> RuntimeError <span class="keyword">as</span> e:</div>
-<div class="line">    print(f<span class="stringliteral">&quot;Failed to save mesh: {e}&quot;</span>)</div>
+<div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
+<div class="line">    print(e)</div>
 <div class="line">    sys.exit(1)</div>
 <div class="line"> </div>
-<div class="line">print(<span class="stringliteral">&quot;Saved mesh.ply&quot;</span>)</div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshLoad.h&gt;</span></div>
