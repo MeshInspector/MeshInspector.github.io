@@ -253,26 +253,45 @@ Installation from a Downloaded NuGet Package</h2>
 </ul>
 </li>
 <li><b>Create a Local Directory for NuGet Packages</b>:<ul>
-<li>Choose or create a directory on your system where you will store the <span class="tt">.nupkg</span> file. For example: <div class="fragment"><div class="line">mkdir ~/LocalNuGetPackages</div>
+<li>Choose or create a directory on your system where you will store the <span class="tt">.nupkg</span> file. For example: <div class="fragment"><div class="line">:: Windows (Command Prompt)</div>
+<div class="line">mkdir %USERPROFILE%\LocalNuGetPackages</div>
+</div><!-- fragment --> <div class="fragment"><div class="line"># Linux / macOS</div>
+<div class="line">mkdir ~/LocalNuGetPackages</div>
 </div><!-- fragment --></li>
-<li>Move the downloaded <span class="tt">MeshLib.nupkg</span> file to this directory.</li>
+<li>Move the downloaded package to that directory <b>keeping its original <span class="tt">meshlib.&lt;version&gt;.nupkg</span> file name</b>: a folder feed resolves packages by the <span class="tt">&lt;id&gt;.&lt;version&gt;.nupkg</span> naming convention, so renaming it to <span class="tt">MeshLib.nupkg</span> makes the next step fail with &lsquo;error: There are no versions available for the package 'MeshLib&rsquo;<span class="tt">. If your file is
+    named </span>MeshLib_&lt;version&gt;.nupkg<span class="tt"> (the GitHub release artifact), rename it to </span>MeshLib.&lt;version&gt;.nupkg<span class="tt">.</span></li>
 </ul>
 </li>
-<li><b>Install the MeshLib Package Locally</b>:<ul>
-<li>Use the command below to install the package: <div class="fragment"><div class="line">dotnet add package MeshLib --source /path/to/LocalNuGetPackages</div>
-</div><!-- fragment --></li>
+<li><span class="tt">**Install the MeshLib Package Locally**:<ul>
+<li>Use the command below to install the package:
+\code{.cmd}
+:: Windows (Command Prompt)
+dotnet add package MeshLib --source USERPROFILE%\LocalNuGetPackages
+\endcode
+\code{.sh}
+# Linux / macOS
+dotnet add package MeshLib --source ~/LocalNuGetPackages
+\endcode</li>
 </ul>
-</li>
-<li><b>Alternative: Configure Local Source Globally</b>:<ul>
-<li>Add the local directory as a source using: <div class="fragment"><div class="line">dotnet nuget add source \path\to\LocalNuGetPackages --name LocalPackages</div>
-</div><!-- fragment --></li>
-<li>After this, you can install the package normally without specifying <span class="tt">-source</span>.</li>
+</span></li>
+<li><span class="tt">**Alternative: Configure Local Source Globally**:<ul>
+<li>Add the local directory as a source using:
+\code{.cmd}
+:: Windows (Command Prompt)
+dotnet nuget add source USERPROFILE%\LocalNuGetPackages --name LocalPackages
+\endcode
+\code{.sh}
+# Linux / macOS
+dotnet nuget add source ~/LocalNuGetPackages --name LocalPackages
+\endcode</li>
+<li>After this, you can install the package normally without specifying </li>
 </ul>
-</li>
+</span>&ndash;source`.</li>
 <li><b>Build and Run Your Project</b>: <div class="fragment"><div class="line">dotnet build</div>
 <div class="line">dotnet run</div>
 </div><!-- fragment --></li>
 </ol>
+<dl class="section note"><dt>Note</dt><dd><span class="tt">dotnet nuget push &lt;package&gt; --source &lt;feed-directory&gt;</span> copies a package into a folder feed under the correct <span class="tt">&lt;id&gt;.&lt;version&gt;.nupkg</span> name for you, so it sidesteps the renaming above — see <a href="https://github.com/MeshInspector/MeshLib/blob/master/docs/testing_local_nuget_packages.md">Testing local NuGet packages</a>.</dd></dl>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md49"></a>
 Installation via .NET Command-Line Interface</h2>
 <p>To install MeshLib via the .NET CLI, follow these steps:</p><ol type="1">
