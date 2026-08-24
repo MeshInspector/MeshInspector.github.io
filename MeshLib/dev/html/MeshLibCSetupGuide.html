@@ -183,24 +183,11 @@ Installing binary releases of MeshLib</h2>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
 Windows</h3>
 <dl class="section note"><dt>Note</dt><dd>MeshLib for Windows is distributed for <b>x64</b> only: set the platform of your project to <span class="tt">x64</span>. A 32-bit (<span class="tt">Win32</span>) build of C code compiles, but fails at link with <span class="tt">LNK2019: unresolved external symbol __imp__MR_...</span> for every MeshLib function. That means the platform is wrong, not that a library is missing: 32-bit name decoration (<span class="tt">__imp__NAME</span> instead of <span class="tt">__imp_NAME</span>) matches nothing in the x64 import libraries. Visual Studio 2019 still defaults new C++ console projects to <span class="tt">Win32</span>. On Windows on Arm, use the x64 toolchain: no native Arm64 Windows build is published.</dd></dl>
-<p>Every release publishes one Windows distributive per Visual Studio toolset, plus one for Debug builds that keep MSVC's iterator debugging on.</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Built with  </th><th class="markdownTableHeadNone">Archive  </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">2019  </td><td class="markdownTableBodyNone"><span class="tt">MeshLibDistVS19_&lt;version&gt;.zip</span>  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2022  </td><td class="markdownTableBodyNone"><span class="tt">MeshLibDistVS22_&lt;version&gt;.zip</span>  </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">2026  </td><td class="markdownTableBodyNone"><span class="tt">MeshLibDistVS26_&lt;version&gt;.zip</span>  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">2019 (toolset <span class="tt">v142</span>), <b>Debug configuration only</b>  </td><td class="markdownTableBodyNone"><span class="tt">MeshLibDist_&lt;version&gt;-IteratorDebug.zip</span>  </td></tr>
-</table>
-<p>The release description links the three per-Visual-Studio archives; <span class="tt">IteratorDebug</span> appears in the asset list only. Take the row matching the toolset your own project is built with, or an older one <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindows">under the binary-compatibility rule</a> explained in the C++ guide. A pure-C consumer needs no <span class="tt">_ITERATOR_DEBUG_LEVEL</span> define, whichever row it picks: C code passes no standard containers across the DLL boundary, so the mismatch that define guards against cannot arise. A project that also compiles C++ translation units against MeshLib's C++ headers does need it, and follows <a class="el" href="MeshLibCppSetupGuide.html">the C++ guide</a>'s table instead.</p>
+<p>Every release publishes one Windows distributive per Visual Studio toolset, plus one for Debug builds that keep MSVC's iterator debugging on. The <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindows">C++ guide's archive table</a> names all four and says which one to take, including the binary-compatibility rule that lets an older toolset's archive serve a newer Visual Studio. It applies to C unchanged, except for its <span class="tt">_ITERATOR_DEBUG_LEVEL</span> column: a pure-C consumer needs no <span class="tt">_ITERATOR_DEBUG_LEVEL</span> define, whichever archive it picks, because C code passes no standard containers across the DLL boundary, so the mismatch that define guards against cannot arise. A project that also compiles C++ translation units against MeshLib's C++ headers does need it, at the value in that column.</p>
 <ol type="1">
 <li><b>Download and Extract the Built Version</b><ul>
 <li>Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a>.</li>
-<li>Download the archive for your Visual Studio toolset from the table above.</li>
+<li>Download the archive for your Visual Studio toolset from <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindows">the C++ guide's table</a>.</li>
 <li>Extract it to a directory, e.g., <span class="tt">C:\meshlib-built\</span>. <br  />
  <b>Directory Structure After Extraction</b> <div class="fragment"><div class="line">install/</div>
 <div class="line">  ├── include/       # Header files</div>

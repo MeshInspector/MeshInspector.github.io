@@ -227,12 +227,17 @@ Installation via npm</h3>
 <p>Install the package from npm: </p><div class="fragment"><div class="line">npm install @meshinspector/meshlib</div>
 </div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md137"></a>
 Use from CDN</h3>
-<p>In the browser you can skip npm entirely and import the module directly: </p><div class="fragment"><div class="line">// latest version</div>
+<p>In the browser you can skip npm entirely and import the module directly: </p><div class="fragment"><div class="line">// latest release</div>
 <div class="line">import createMeshLib from &#39;https://js.meshlib.io/meshlib/meshlib.mjs&#39;;</div>
 <div class="line"> </div>
-<div class="line">// or pin a specific version</div>
-<div class="line">import createMeshLib from &#39;https://js.meshlib.io/meshlib@1.2.3/meshlib.mjs&#39;;</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="MeshLibJsPayloadSize"></a>
+<div class="line">// multi-threaded build, latest release</div>
+<div class="line">import createMeshLib from &#39;https://js.meshlib.io/meshlib-mt/meshlib-mt.mjs&#39;;</div>
+<div class="line"> </div>
+<div class="line">// or pin a release — v1.2.3.456 is an example tag, not a real one</div>
+<div class="line">import createMeshLib from &#39;https://js.meshlib.io/meshlib@v1.2.3.456/meshlib.mjs&#39;;</div>
+</div><!-- fragment --><p>To pin, take a real tag from the <a href="https://github.com/MeshInspector/MeshLib/releases">releases page</a>: it has a leading <span class="tt">v</span> and four components, and is <b>not</b> the npm version — the tag <span class="tt">v1.2.3.456</span> would be npm <span class="tt">1.2.3-456</span>. Pinned URLs are immutable, so a pin never changes under you; the unpinned paths above always serve the latest release.</p>
+<p>In the browser the multi-threaded build additionally requires the page to be <a class="el" href="#JsMtCrossOriginIsolation">cross-origin isolated</a>.</p>
+<h3 class="doxsection"><a class="anchor" id="MeshLibJsPayloadSize"></a>
 Payload Size</h3>
 <p>MeshLib is a WebAssembly build of the full geometry library, so a browser downloads roughly <b>11 MB of wasm, about 3 MB gzipped over the wire</b>, before the first geometry call. <span class="tt">@meshinspector/meshlib-mt</span> is the same order of magnitude.</p>
 <p>Two consequences for a browser application:</p>
