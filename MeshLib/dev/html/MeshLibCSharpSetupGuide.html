@@ -206,13 +206,13 @@ Prerequisites</h2>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
 .NET SDK</h3>
 <ul>
-<li>Install the latest version of the <a href="https://dotnet.microsoft.com/download">.NET SDK</a> from the .NET website. MeshLib is compatible with .NET Framework 4.7 and higher, as well as .NET 5.0, 6.0, 7.0, 8.0, and additional versions outlined below.</li>
+<li>Install the latest version of the <a href="https://dotnet.microsoft.com/download">.NET SDK</a> from the .NET website. MeshLib targets <span class="tt">netstandard2.0</span>, so it sets no upper bound on your .NET version: it is compatible with .NET Framework 4.7 and higher, and with .NET 5.0 and every later version.</li>
 <li>Verify your installation by running: <div class="fragment"><div class="line">dotnet --version</div>
 </div><!-- fragment --></li>
 </ul>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md45"></a>
 Visual Studio</h3>
-<p>For a more integrated development experience, you can use Visual Studio 2019 or later. Make sure to install the <b>.NET desktop development</b> workload.</p>
+<p>If you're using Visual Studio, make sure to install the <b>.NET desktop development</b> workload.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md46"></a>
 Installation via NuGet</h2>
 <p>Depending on your development environment and workflow preferences, you can choose from the following installation methods</p>
@@ -276,10 +276,6 @@ Installation from a Downloaded NuGet Package</h2>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md49"></a>
 Installation via .NET Command-Line Interface</h2>
 <p>To install MeshLib via the .NET CLI, follow these steps:</p><ol type="1">
-<li><b>Open a Terminal or Command Prompt</b>:<ul>
-<li><b>On Windows</b>, use Command Prompt, PowerShell, or the Windows Terminal.</li>
-</ul>
-</li>
 <li><b>Create a New Project Directory</b>: <br  />
  Run the following commands to create a new directory for your project and navigate into it: <div class="fragment"><div class="line">mkdir TestProject</div>
 <div class="line">cd TestProject</div>
