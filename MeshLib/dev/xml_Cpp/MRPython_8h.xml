@@ -401,17 +401,17 @@ _Pragma(&quot;warning(pop)&quot;)</initializer>
     using expectedType = Expected&lt;type,errorType&gt;;\
     <ref refid="MRPython_8h_1ae6956a35fce75d18a07941e975ae07cc" kindref="member">MR_PYTHON_CUSTOM_CLASS</ref>( name ).\
         def( &quot;has_value&quot;, []() \
-        { PyErr_WarnEx(PyExc_DeprecationWarning, &quot;.has_value is deprecated. Please use &apos;try - except RuntimeError&apos;&quot;, 1); \
+        { PyErr_WarnEx(PyExc_DeprecationWarning, &quot;.has_value is deprecated. Please use &apos;try - except ValueError&apos;&quot;, 1); \
             return &amp;expectedType::has_value; \
         }).\
         def( &quot;value&quot;, []() \
         { \
-            PyErr_WarnEx(PyExc_DeprecationWarning, &quot;.value is deprecated. Please use &apos;try - except RuntimeError&apos;&quot;, 1); \
+            PyErr_WarnEx(PyExc_DeprecationWarning, &quot;.value is deprecated. Please use &apos;try - except ValueError&apos;&quot;, 1); \
             return ( type&amp; ( expectedType::* )( )&amp; )&amp; expectedType::value; \
         }, pybind11::return_value_policy::reference_internal ).\
         def( &quot;error&quot;, []() \
         { \
-            PyErr_WarnEx(PyExc_DeprecationWarning, &quot;.error is deprecated. Please use &apos;try - except RuntimeError&apos;&quot;, 1); \
+            PyErr_WarnEx(PyExc_DeprecationWarning, &quot;.error is deprecated. Please use &apos;try - except ValueError&apos;&quot;, 1); \
             return ( const errorType&amp; ( expectedType::* )( )const&amp; )&amp; expectedType::error; \
         } );\
 } )</initializer>
@@ -576,17 +576,17 @@ _Pragma(&quot;warning(pop)&quot;)</initializer>
 <codeline lineno="129"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>using<sp/>expectedType<sp/>=<sp/>Expected&lt;type,errorType&gt;;\</highlight></codeline>
 <codeline lineno="130"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>MR_PYTHON_CUSTOM_CLASS(<sp/>name<sp/>).\</highlight></codeline>
 <codeline lineno="131"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>&quot;has_value&quot;,<sp/>[]()<sp/>\</highlight></codeline>
-<codeline lineno="132"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>PyErr_WarnEx(PyExc_DeprecationWarning,<sp/>&quot;.has_value<sp/>is<sp/>deprecated.<sp/>Please<sp/>use<sp/>&apos;try<sp/>-<sp/>except<sp/>RuntimeError&apos;&quot;,<sp/>1);<sp/>\</highlight></codeline>
+<codeline lineno="132"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>PyErr_WarnEx(PyExc_DeprecationWarning,<sp/>&quot;.has_value<sp/>is<sp/>deprecated.<sp/>Please<sp/>use<sp/>&apos;try<sp/>-<sp/>except<sp/>ValueError&apos;&quot;,<sp/>1);<sp/>\</highlight></codeline>
 <codeline lineno="133"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>&amp;expectedType::has_value;<sp/>\</highlight></codeline>
 <codeline lineno="134"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}).\</highlight></codeline>
 <codeline lineno="135"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>&quot;value&quot;,<sp/>[]()<sp/>\</highlight></codeline>
 <codeline lineno="136"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>\</highlight></codeline>
-<codeline lineno="137"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyErr_WarnEx(PyExc_DeprecationWarning,<sp/>&quot;.value<sp/>is<sp/>deprecated.<sp/>Please<sp/>use<sp/>&apos;try<sp/>-<sp/>except<sp/>RuntimeError&apos;&quot;,<sp/>1);<sp/>\</highlight></codeline>
+<codeline lineno="137"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyErr_WarnEx(PyExc_DeprecationWarning,<sp/>&quot;.value<sp/>is<sp/>deprecated.<sp/>Please<sp/>use<sp/>&apos;try<sp/>-<sp/>except<sp/>ValueError&apos;&quot;,<sp/>1);<sp/>\</highlight></codeline>
 <codeline lineno="138"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>(<sp/>type&amp;<sp/>(<sp/>expectedType::*<sp/>)(<sp/>)&amp;<sp/>)&amp;<sp/>expectedType::value;<sp/>\</highlight></codeline>
 <codeline lineno="139"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>},<sp/>pybind11::return_value_policy::reference_internal<sp/>).\</highlight></codeline>
 <codeline lineno="140"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>def(<sp/>&quot;error&quot;,<sp/>[]()<sp/>\</highlight></codeline>
 <codeline lineno="141"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>\</highlight></codeline>
-<codeline lineno="142"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyErr_WarnEx(PyExc_DeprecationWarning,<sp/>&quot;.error<sp/>is<sp/>deprecated.<sp/>Please<sp/>use<sp/>&apos;try<sp/>-<sp/>except<sp/>RuntimeError&apos;&quot;,<sp/>1);<sp/>\</highlight></codeline>
+<codeline lineno="142"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyErr_WarnEx(PyExc_DeprecationWarning,<sp/>&quot;.error<sp/>is<sp/>deprecated.<sp/>Please<sp/>use<sp/>&apos;try<sp/>-<sp/>except<sp/>ValueError&apos;&quot;,<sp/>1);<sp/>\</highlight></codeline>
 <codeline lineno="143"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>(<sp/>const<sp/>errorType&amp;<sp/>(<sp/>expectedType::*<sp/>)(<sp/>)const&amp;<sp/>)&amp;<sp/>expectedType::error;<sp/>\</highlight></codeline>
 <codeline lineno="144"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>);\</highlight></codeline>
 <codeline lineno="145"><highlight class="preprocessor">}<sp/>)</highlight><highlight class="normal"></highlight></codeline>
