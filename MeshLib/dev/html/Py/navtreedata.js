@@ -85,6 +85,7 @@ var NAVTREE =
         [ "Open Dicom Files", "../ExampleDicomFiles.html", null ]
       ] ]
     ] ],
+    [ "Switching from Other Libraries", "../SwitchingFromOtherLibraries.html", null ],
     [ "Package Overview", "../PackageOverview.html", [
       [ "File Format Support", "../FileFormatSupport.html", null ],
       [ "Mesh Structure", "../MeshStructureOverview.html", null ],
@@ -312,15 +313,15 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1std__vector__std__vector__Vector2__float.html#a71157e6021ab3685680b00fd5b05299a",
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#ad02664989bcbce6911a23c571e65eab9",
 "classmrviewerpy_1_1MouseButton.html#a581099cb087a341271271a7d45da906a",
-"functions_func_v.html",
-"namespacemrmeshpy.html#a0ad6ddef4d9fe762f76791d51b6e969b",
-"namespacemrmeshpy.html#a2bc6411df12d9964671adee7e7a992a5",
-"namespacemrmeshpy.html#a4af72f5b670df357eb00e9990fc92be0",
-"namespacemrmeshpy.html#a6a4d9d2a16cc5ba8975bf2e585d6bd81",
-"namespacemrmeshpy.html#a892aaf0062339cb1af8af3c8d8362876",
-"namespacemrmeshpy.html#aaa9a012e616c0f5d9934f66499627dc9",
-"namespacemrmeshpy.html#ac84ebd456dece6375c89f19446489724",
-"namespacemrmeshpy.html#ae8e3100bbc564f475c7a689a74b71f38"
+"functions_func_u.html",
+"namespacemrmeshpy.html#a0aaea46b67c00371fa90f277d093ca1c",
+"namespacemrmeshpy.html#a2bb86f0e54c9e71f633f28978c7c3581",
+"namespacemrmeshpy.html#a4a9cf7263914c4e976add9073c18d185",
+"namespacemrmeshpy.html#a69cd3e26bbc68b94abea52b2ec2878aa",
+"namespacemrmeshpy.html#a88f2638b593bebe06994c09e3b517379",
+"namespacemrmeshpy.html#aaa86aee95cad1358da4e5e58c5f5ec4e",
+"namespacemrmeshpy.html#ac832c2bad16ef2a17a163c2afbef85ed",
+"namespacemrmeshpy.html#ae8d0573f1691558f21b4a62255d26d5f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

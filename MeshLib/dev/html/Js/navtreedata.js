@@ -85,6 +85,7 @@ var NAVTREE =
         [ "Open Dicom Files", "../ExampleDicomFiles.html", null ]
       ] ]
     ] ],
+    [ "Switching from Other Libraries", "../SwitchingFromOtherLibraries.html", null ],
     [ "Package Overview", "../PackageOverview.html", [
       [ "File Format Support", "../FileFormatSupport.html", null ],
       [ "Mesh Structure", "../MeshStructureOverview.html", null ],
@@ -131,9 +132,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../APIPage.html",
-"bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85",
-"classMeshBuilder.html",
-"functions_vars.html"
+"bindings_8d_8mts.html#af8c8a3557b68661eb16c357817cd311f",
+"classMesh.html#afef6c0fdd9be27f56df5e640b0757991",
+"functions_v.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

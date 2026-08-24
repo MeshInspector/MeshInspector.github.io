@@ -85,6 +85,7 @@ var NAVTREE =
         [ "Open Dicom Files", "ExampleDicomFiles.html", null ]
       ] ]
     ] ],
+    [ "Switching from Other Libraries", "SwitchingFromOtherLibraries.html", null ],
     [ "Package Overview", "PackageOverview.html", [
       [ "File Format Support", "FileFormatSupport.html", null ],
       [ "Mesh Structure", "MeshStructureOverview.html", null ],

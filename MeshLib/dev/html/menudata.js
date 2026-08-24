@@ -76,6 +76,7 @@ var menudata={children:[
 {text:"Numpy Triangulation",url:"ExampleNumpyTriangulation.html"},
 {text:"Offset with Cuda",url:"ExampleCudaOffset.html"},
 {text:"Open Dicom Files",url:"ExampleDicomFiles.html"}]}]},
+{text:"Switching from Other Libraries",url:"SwitchingFromOtherLibraries.html"},
 {text:"Package Overview",url:"PackageOverview.html",children:[
 {text:"File Format Support",url:"FileFormatSupport.html"},
 {text:"Mesh Structure",url:"MeshStructureOverview.html"},
