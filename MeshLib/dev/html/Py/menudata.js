@@ -33,6 +33,7 @@ var menudata={children:[
 {text:"JavaScript",url:"../MeshLibJsSetupGuide.html"},
 {text:"CMake",url:"../MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"../License.html"},
+{text:"How to cite",url:"../Citation.html"},
 {text:"Tutorials",url:"../Tutorials.html",children:[
 {text:"Create First Plugin using C++",url:"../FirstPluginTutorial.html"},
 {text:"Support Generator Tool using C++",url:"../SupportGeneratorTutorial.html"}]},

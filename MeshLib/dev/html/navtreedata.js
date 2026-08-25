@@ -35,6 +35,7 @@ var NAVTREE =
       [ "CMake", "MeshLibCmakeSetupGuide.html", null ]
     ] ],
     [ "License", "License.html", null ],
+    [ "How to cite", "Citation.html", null ],
     [ "Tutorials", "Tutorials.html", [
       [ "Create First Plugin using C++", "FirstPluginTutorial.html", null ],
       [ "Support Generator Tool using C++", "SupportGeneratorTutorial.html", null ]

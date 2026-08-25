@@ -35,6 +35,7 @@ var NAVTREE =
       [ "CMake", "../MeshLibCmakeSetupGuide.html", null ]
     ] ],
     [ "License", "../License.html", null ],
+    [ "How to cite", "../Citation.html", null ],
     [ "Tutorials", "../Tutorials.html", [
       [ "Create First Plugin using C++", "../FirstPluginTutorial.html", null ],
       [ "Support Generator Tool using C++", "../SupportGeneratorTutorial.html", null ]
@@ -132,9 +133,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../APIPage.html",
-"bindings_8d_8mts.html#af8c8a3557b68661eb16c357817cd311f",
-"classMesh.html#afef6c0fdd9be27f56df5e640b0757991",
-"functions_v.html"
+"bindings_8d_8mts.html#aec2a1b3c16c6e6c409cb8571c9ca4b13",
+"classMesh.html#aed586a2285b09d1dfed0e38590449e7c",
+"functions_u.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

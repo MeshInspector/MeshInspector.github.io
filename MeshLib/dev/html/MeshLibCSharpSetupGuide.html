@@ -171,9 +171,6 @@ $(function(){initNavTree('MeshLibCSharpSetupGuide.html','',''); });
         <a href="#autotoc_md49">Installation via .NET Command-Line Interface </a>
       </li>
       <li class="level2">
-        <a href="#MeshLibCSharpPackageSize">Package Size and Native Runtimes </a>
-      </li>
-      <li class="level2">
         <a href="#MeshLibCSharpUnity">Using MeshLib with Unity </a>
       </li>
       <li class="level2">
@@ -309,32 +306,6 @@ Installation via .NET Command-Line Interface</h2>
 </div><!-- fragment --></li>
 </ol>
 <p>By following these steps, you can integrate MeshLib into your project, giving you more control over the setup process.</p>
-<h2 class="doxsection"><a class="anchor" id="MeshLibCSharpPackageSize"></a>
-Package Size and Native Runtimes</h2>
-<p>The NuGet package carries prebuilt native libraries for <b>all five</b> supported platforms, so it is large. Measured on version <span class="tt">3.1.3.429</span>:</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Stage  </th><th class="markdownTableHeadNone">Size  </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">.nupkg</span> download  </td><td class="markdownTableBodyNone"><b>213 MB</b>  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Extracted into the NuGet global cache (<span class="tt">~/.nuget/packages/meshlib/&lt;version&gt;</span>)  </td><td class="markdownTableBodyNone"><b>about 930 MB</b>  </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Default build output (<span class="tt">bin/&lt;config&gt;/&lt;tfm&gt;</span>) of a hello-world project  </td><td class="markdownTableBodyNone"><b>about 710 MB</b>  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><span class="tt">dotnet publish -r &lt;rid&gt; --self-contained false</span>  </td><td class="markdownTableBodyNone"><b>about 180 MB</b>  </td></tr>
-</table>
-<p>A build without a runtime identifier copies <span class="tt">runtimes/{win-x64,linux-x64,linux-arm64,osx-x64,osx-arm64}</span> wholesale into the output, so roughly <b>640 MB of those 710 MB are natives the machine can never load</b>. The size is platform-independent: Windows x64, Linux x64 and macOS Arm64 land within 1 MB of each other.</p>
-<p>Two consequences:</p><ul>
-<li>The first <span class="tt">dotnet add package MeshLib</span> downloads 213 MB and can look like it hung. It has not; let it finish.</li>
-<li>CI caches and Docker layers grow to match, since they hold both the extracted package and the build output.</li>
-</ul>
-<p>For deployment, publish for a single runtime identifier; the natives are then flattened for that one platform: </p><div class="fragment"><div class="line">:: default build - all five runtimes end up in the output, ~710 MB</div>
-<div class="line">dotnet build</div>
-<div class="line"> </div>
-<div class="line">:: publish for one platform - natives for that RID only, ~180 MB</div>
-<div class="line">dotnet publish -r linux-x64 --self-contained false</div>
-</div><!-- fragment --><p>Supported RIDs: <span class="tt">win-x64</span>, <span class="tt">linux-x64</span>, <span class="tt">linux-arm64</span>, <span class="tt">osx-x64</span>, <span class="tt">osx-arm64</span>.</p>
 <h2 class="doxsection"><a class="anchor" id="MeshLibCSharpUnity"></a>
 Using MeshLib with Unity</h2>
 <p>Unity projects consume the same NuGet package via <a href="https://github.com/GlitchEnzo/NuGetForUnity">NuGetForUnity</a>; this setup is continuously tested with Unity 6 on Windows, Linux, and macOS. To install MeshLib into a Unity project:</p><ol type="1">
@@ -357,7 +328,7 @@ DllNotFoundException</h3>
 </div><!-- fragment --><p> (on Linux and macOS: &lsquo;Unable to load shared library 'MeshLibC2&rsquo; or one of its dependencies`)</p>
 <p>The native libraries were not found at run time:</p><ul>
 <li>Check that your platform is supported: Windows x64, Linux x64/Arm64, macOS x64/Arm64. In particular, the package contains no native libraries for Windows on Arm — installing it there succeeds, but every call into MeshLib fails.</li>
-<li>Check that the native libraries reached your build output: on .NET they are placed under <span class="tt">runtimes/&lt;rid&gt;/native/</span> in the output directory (see <a class="el" href="#MeshLibCSharpPackageSize">Package Size and Native Runtimes</a>), on .NET Framework next to the executable (<span class="tt">MeshLibC2.dll</span> and its dependencies on Windows).</li>
+<li>Check that the native libraries reached your build output: on .NET they are placed under <span class="tt">runtimes/&lt;rid&gt;/native/</span> in the output directory, on .NET Framework next to the executable (<span class="tt">MeshLibC2.dll</span> and its dependencies on Windows).</li>
 </ul>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md51"></a>
 BadImageFormatException</h3>
