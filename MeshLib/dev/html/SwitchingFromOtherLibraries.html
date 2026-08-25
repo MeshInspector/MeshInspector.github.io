@@ -143,77 +143,77 @@ $(function(){initNavTree('SwitchingFromOtherLibraries.html','',''); });
 <div class="toc"><h3>Table of Contents</h3>
 <ul>
   <li class="level1">
-    <a href="#autotoc_md167">CGAL </a>
+    <a href="#autotoc_md168">CGAL </a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md168">Boolean union of two triangle meshes </a>
+        <a href="#autotoc_md169">Boolean union of two triangle meshes </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md169">Connected components of a mesh </a>
+        <a href="#autotoc_md170">Connected components of a mesh </a>
       </li>
     </ul>
   </li>
   <li class="level1">
-    <a href="#autotoc_md170">libigl </a>
+    <a href="#autotoc_md171">libigl </a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md171">Decimate a mesh to half its faces </a>
+        <a href="#autotoc_md172">Decimate a mesh to half its faces </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md172">Signed distance from a point to a mesh </a>
+        <a href="#autotoc_md173">Signed distance from a point to a mesh </a>
       </li>
     </ul>
   </li>
   <li class="level1">
-    <a href="#autotoc_md173">Open3D </a>
+    <a href="#autotoc_md174">Open3D </a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md174">Point-to-point ICP registration </a>
+        <a href="#autotoc_md175">Point-to-point ICP registration </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md175">Point cloud to mesh (surface reconstruction) </a>
+        <a href="#autotoc_md176">Point cloud to mesh (surface reconstruction) </a>
       </li>
     </ul>
   </li>
   <li class="level1">
-    <a href="#autotoc_md176">PCL </a>
+    <a href="#autotoc_md177">PCL </a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md177">Voxel-grid downsampling of a point cloud </a>
+        <a href="#autotoc_md178">Voxel-grid downsampling of a point cloud </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md178">Estimate point-cloud normals </a>
+        <a href="#autotoc_md179">Estimate point-cloud normals </a>
       </li>
     </ul>
   </li>
   <li class="level1">
-    <a href="#autotoc_md179">VTK </a>
+    <a href="#autotoc_md180">VTK </a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md180">Decimate a mesh </a>
+        <a href="#autotoc_md181">Decimate a mesh </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md181">Boolean union of two meshes </a>
+        <a href="#autotoc_md182">Boolean union of two meshes </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md182">Read and write mesh files </a>
+        <a href="#autotoc_md183">Read and write mesh files </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md183">Moving data in memory (Python) </a>
+        <a href="#autotoc_md184">Moving data in memory (Python) </a>
       </li>
     </ul>
   </li>
   <li class="level1">
-    <a href="#autotoc_md184">Missing your case? </a>
+    <a href="#autotoc_md185">Missing your case? </a>
   </li>
 </ul>
 </div>
 <div class="textblock"><p>MeshLib is a C++/Python geometry library focused on robust boolean operations, offsets, voxel-based reconstruction, decimation and remeshing. If you already work with CGAL, libigl, Open3D, PCL or VTK, the pairs below show the equivalent MeshLib code for the operations users most often port over. Each snippet is minimal and self-contained — copy, adapt, compile.</p>
 <p>We do not benchmark on this page. For measured MeshLib vs VTK comparisons (decimation, boolean, subdivision), see <a href="https://meshlib.io/blog/vtk-alternative-comparison/">the benchmark article</a>.</p>
 <p>Every C++ snippet has a one-to-one equivalent in our Python bindings.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md167"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md168"></a>
 CGAL</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md168"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md169"></a>
 Boolean union of two triangle meshes</h2>
 <p>CGAL: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;CGAL/Exact_predicates_inexact_constructions_kernel.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;CGAL/Surface_mesh.h&gt;</span></div>
@@ -235,7 +235,7 @@ Boolean union of two triangle meshes</h2>
 <div class="line"><span class="keyword">auto</span> b = MR::MeshLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;b.off&quot;</span>).value();</div>
 <div class="line"><span class="keyword">auto</span> res = MR::boolean(a, b, MR::BooleanOperation::Union);</div>
 <div class="line">MR::MeshSave::toAnySupportedFormat(res.mesh, <span class="stringliteral">&quot;out.off&quot;</span>);</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md169"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md170"></a>
 Connected components of a mesh</h2>
 <p>CGAL: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;CGAL/Polygon_mesh_processing/connected_components.h&gt;</span></div>
 <div class="line"><span class="keyword">namespace </span>PMP = CGAL::Polygon_mesh_processing;</div>
@@ -248,9 +248,9 @@ Connected components of a mesh</h2>
 <div class="line"> </div>
 <div class="line"><span class="keyword">auto</span> [labels, n] = MR::MeshComponents::getAllComponentsMap(mesh);</div>
 <div class="line"><span class="comment">// labels[face] = component id</span></div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md170"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md171"></a>
 libigl</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md171"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md172"></a>
 Decimate a mesh to half its faces</h2>
 <p>libigl: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;igl/read_triangle_mesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;igl/decimate.h&gt;</span></div>
@@ -268,7 +268,7 @@ Decimate a mesh to half its faces</h2>
 <div class="line">MR::DecimateSettings s;</div>
 <div class="line">s.maxDeletedFaces = int(mesh.topology.numValidFaces() / 2);</div>
 <div class="line">MR::decimateMesh(mesh, s);</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md172"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md173"></a>
 Signed distance from a point to a mesh</h2>
 <p>libigl: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;igl/signed_distance.h&gt;</span></div>
 <div class="line"> </div>
@@ -281,9 +281,9 @@ Signed distance from a point to a mesh</h2>
 <div class="line"> </div>
 <div class="line"><span class="keyword">auto</span> sd = MR::findSignedDistance(point, mesh);</div>
 <div class="line"><span class="keywordtype">float</span> dist = sd-&gt;dist;</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md173"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md174"></a>
 Open3D</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md174"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md175"></a>
 Point-to-point ICP registration</h2>
 <p>Open3D: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;open3d/Open3D.h&gt;</span></div>
 <div class="line"><span class="keyword">using namespace </span>open3d;</div>
@@ -303,7 +303,7 @@ Point-to-point ICP registration</h2>
 <div class="line"><span class="keyword">auto</span> tgt = MR::PointsLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;tgt.ply&quot;</span>).value();</div>
 <div class="line">MR::ICP icp( {src}, {tgt}, MR::AffineXf3f{}, MR::AffineXf3f{}, <span class="comment">/*samplingVoxel=*/</span>0.05f );</div>
 <div class="line"><span class="keyword">auto</span> xf = icp.calculateTransformation();</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md175"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md176"></a>
 Point cloud to mesh (surface reconstruction)</h2>
 <p>Open3D (Ball Pivoting): </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;open3d/Open3D.h&gt;</span></div>
 <div class="line"><span class="keyword">using namespace </span>open3d;</div>
@@ -321,9 +321,9 @@ Point cloud to mesh (surface reconstruction)</h2>
 <div class="line">MR::PointsToMeshParameters p;</div>
 <div class="line">p.voxelSize = cloud.computeBoundingBox().diagonal() * 1e-2f;</div>
 <div class="line">MR::Mesh mesh = MR::pointsToMeshFusion(cloud, p).value();</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md176"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md177"></a>
 PCL</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md177"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md178"></a>
 Voxel-grid downsampling of a point cloud</h2>
 <p>PCL: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;pcl/io/pcd_io.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;pcl/filters/voxel_grid.h&gt;</span></div>
@@ -344,7 +344,7 @@ Voxel-grid downsampling of a point cloud</h2>
 <div class="line">MR::UniformSamplingSettings s;</div>
 <div class="line">s.distance = 0.05f;</div>
 <div class="line">MR::PointCloud out = MR::makeUniformSampledCloud(cloud, s).value();</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md178"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md179"></a>
 Estimate point-cloud normals</h2>
 <p>PCL: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;pcl/features/normal_3d.h&gt;</span></div>
 <div class="line"> </div>
@@ -359,10 +359,10 @@ Estimate point-cloud normals</h2>
 <div class="line"> </div>
 <div class="line"><span class="keyword">auto</span> normals = MR::makeNormals(cloud, <span class="comment">/*avgNeighborhoodSize=*/</span>20);</div>
 <div class="line">cloud.normals = normals;</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md179"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md180"></a>
 VTK</h1>
 <p>MeshLib and VTK exchange data through standard mesh formats: write STL / PLY / OBJ from your VTK pipeline and load it in MeshLib — and the same way back. In Python the bridge is even shorter: vtkPolyData arrays go straight into MeshLib via numpy, no files at all (last example below).</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md180"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md181"></a>
 Decimate a mesh</h2>
 <p>VTK: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;vtkPolyData.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;vtkPolyDataReader.h&gt;</span></div>
@@ -387,7 +387,7 @@ Decimate a mesh</h2>
 <div class="line">MR::DecimateSettings s;</div>
 <div class="line">s.maxDeletedFaces = int(mesh.topology.numValidFaces() / 2);</div>
 <div class="line">MR::decimateMesh(mesh, s);</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md181"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md182"></a>
 Boolean union of two meshes</h2>
 <p>VTK: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;vtkBooleanOperationPolyDataFilter.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;vtkPolyDataReader.h&gt;</span></div>
@@ -410,7 +410,7 @@ Boolean union of two meshes</h2>
 <div class="line"><span class="keyword">auto</span> b = MR::MeshLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;b.stl&quot;</span>).value();</div>
 <div class="line"><span class="keyword">auto</span> res = MR::boolean(a, b, MR::BooleanOperation::Union);</div>
 <div class="line">MR::Mesh out = res.mesh;</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md182"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md183"></a>
 Read and write mesh files</h2>
 <p>VTK: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;vtkSTLReader.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;vtkOBJWriter.h&gt;</span></div>
@@ -429,7 +429,7 @@ Read and write mesh files</h2>
 <div class="line"> </div>
 <div class="line"><span class="keyword">auto</span> mesh = MR::MeshLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;in.stl&quot;</span>).value();</div>
 <div class="line">MR::MeshSave::toAnySupportedFormat(mesh, <span class="stringliteral">&quot;out.obj&quot;</span>);</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md183"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md184"></a>
 Moving data in memory (Python)</h2>
 <p>In Python no files are needed: vtkPolyData arrays go straight into MeshLib via numpy and back. </p><div class="fragment"><div class="line"><span class="keyword">from</span> vtk.util.numpy_support <span class="keyword">import</span> vtk_to_numpy</div>
 <div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy, mrmeshnumpy</div>
@@ -444,7 +444,7 @@ Moving data in memory (Python)</h2>
 <div class="line"><span class="comment"># MeshLib -&gt; numpy (rebuild vtkPolyData with numpy_to_vtk)</span></div>
 <div class="line">out_verts = mrmeshnumpy.getNumpyVerts(mesh)</div>
 <div class="line">out_faces = mrmeshnumpy.getNumpyFaces(mesh.topology)</div>
-</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md184"></a>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md185"></a>
 Missing your case?</h1>
 <p>Don't see your library or your operation? <a href="https://github.com/MeshInspector/MeshLib/issues">Open an issue</a> or <a href="https://github.com/MeshInspector/MeshLib/discussions">start a GitHub Discussion</a> — we'll add the snippet. </p>
 </div></div><!-- contents -->
