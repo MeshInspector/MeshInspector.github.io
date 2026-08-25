@@ -6358,8 +6358,8 @@
         </briefdescription>
         <detaileddescription>
 <para>Not-zero _ITERATOR_DEBUG_LEVEL in Microsoft STL greatly reduces the performance of STL containers.</para>
-<para>Pre-build binaries from MeshLib distribution are prepared with _ITERATOR_DEBUG_LEVEL=0, and if you build MeshLib by yourself then _ITERATOR_DEBUG_LEVEL=0 is also selected see 1) vcpkg/triplets/x64-windows-meshlib.cmake and 2) MeshLib/source/common.props Please note that all other modules (.exe, .dll, .lib) with MS STL calls in your application also need to define exactly the same value of _ITERATOR_DEBUG_LEVEL to be operational after linking.</para>
-<para>If you deliberately would like to work with not zero _ITERATOR_DEBUG_LEVEL, then please define additionally MR_ITERATOR_DEBUG_LEVEL with the same value to indicate that it is done intentionally (and you are ok with up to 100x slowdown). </para>
+<para>Most MeshLib binaries are prepared with _ITERATOR_DEBUG_LEVEL=0, see 1) vcpkg/triplets/x64-windows-meshlib.cmake and 2) MeshLib/source/common.props The exception is the MeshLibDist-IteratorDebug distribution, which is built with 2. Please note that all other modules (.exe, .dll, .lib) with MS STL calls in your application also need to define exactly the same value of _ITERATOR_DEBUG_LEVEL to be operational after linking.</para>
+<para>MR_ITERATOR_DEBUG_LEVEL is the level MeshLib itself was built with: a distribution package states it in MRMesh/config_dist.h, otherwise it defaults to zero as all our triplets select. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -6437,12 +6437,12 @@
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRCanonicalTypedefs_8h" kindref="compound">MRMesh/MRCanonicalTypedefs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRPch/MRBindingMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>_MSC_VER</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>!defined<sp/>_ITERATOR_DEBUG_LEVEL</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>_ITERATOR_DEBUG_LEVEL<sp/>0</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>!defined<sp/>MR_ITERATOR_DEBUG_LEVEL</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>MR_ITERATOR_DEBUG_LEVEL<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>_MSC_VER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>!defined<sp/>MR_ITERATOR_DEBUG_LEVEL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>MR_ITERATOR_DEBUG_LEVEL<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>!defined<sp/>_ITERATOR_DEBUG_LEVEL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>_ITERATOR_DEBUG_LEVEL<sp/>MR_ITERATOR_DEBUG_LEVEL</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>_ITERATOR_DEBUG_LEVEL<sp/>!=<sp/>MR_ITERATOR_DEBUG_LEVEL</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#error<sp/>_ITERATOR_DEBUG_LEVEL<sp/>is<sp/>inconsistent<sp/>with<sp/>MeshLib</highlight><highlight class="normal"></highlight></codeline>

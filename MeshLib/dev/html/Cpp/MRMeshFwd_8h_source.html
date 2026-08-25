@@ -148,12 +148,12 @@ $(function(){initNavTree('MRMeshFwd_8h_source.html','',''); });
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRCanonicalTypedefs_8h.html">MRMesh/MRCanonicalTypedefs.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;MRPch/MRBindingMacros.h&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#if defined _MSC_VER</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">    #if !defined _ITERATOR_DEBUG_LEVEL</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">        #define _ITERATOR_DEBUG_LEVEL 0</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">    #endif</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">    #if !defined MR_ITERATOR_DEBUG_LEVEL</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">        #define MR_ITERATOR_DEBUG_LEVEL 0</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#if defined _MSC_VER</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">    #if !defined MR_ITERATOR_DEBUG_LEVEL</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">        #define MR_ITERATOR_DEBUG_LEVEL 0</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">    #endif</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">    #if !defined _ITERATOR_DEBUG_LEVEL</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">        #define _ITERATOR_DEBUG_LEVEL MR_ITERATOR_DEBUG_LEVEL</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">    #endif</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">    #if _ITERATOR_DEBUG_LEVEL != MR_ITERATOR_DEBUG_LEVEL</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">        #error _ITERATOR_DEBUG_LEVEL is inconsistent with MeshLib</span></div>
