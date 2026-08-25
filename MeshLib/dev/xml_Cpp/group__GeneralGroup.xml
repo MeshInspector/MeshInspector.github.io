@@ -10905,7 +10905,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="22" column="5" bodyfile="MRViewer/MRCommandLoop.h" bodystart="23" bodyend="29"/>
+        <location file="MRViewer/MRCommandLoop.h" line="23" column="5" bodyfile="MRViewer/MRCommandLoop.h" bodystart="24" bodyend="30"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga4febf8fb2b21426b895c77148a5ed6f4" prot="public" static="no" strong="yes">
         <type></type>
@@ -18568,7 +18568,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="19" column="5" bodyfile="MRViewer/MRCommandLoop.h" bodystart="19" bodyend="-1"/>
+        <location file="MRViewer/MRCommandLoop.h" line="20" column="5" bodyfile="MRViewer/MRCommandLoop.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gaf32258fa43e72bfbd6c42df4283b25db" prot="public" static="no">
         <type>std::vector&lt; ShaderWarning &gt;</type>
@@ -48279,7 +48279,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="66" column="21" bodyfile="MRViewer/MRCommandLoop.h" bodystart="66" bodyend="-1"/>
+        <location file="MRViewer/MRCommandLoop.h" line="74" column="21" bodyfile="MRViewer/MRCommandLoop.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga739535ad2c8198dd5cdc5b804b4d20c2" prot="public" static="no" mutable="no">
         <type>StartPosition</type>
@@ -48294,7 +48294,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="67" column="23" bodyfile="MRViewer/MRCommandLoop.h" bodystart="67" bodyend="67"/>
+        <location file="MRViewer/MRCommandLoop.h" line="75" column="23" bodyfile="MRViewer/MRCommandLoop.h" bodystart="75" bodyend="75"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga96d0ef6ef458d983f1ba035f68ebf6d1" prot="public" static="no" mutable="no">
         <type>std::condition_variable</type>
@@ -48308,7 +48308,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="68" column="33" bodyfile="MRViewer/MRCommandLoop.h" bodystart="68" bodyend="-1"/>
+        <location file="MRViewer/MRCommandLoop.h" line="76" column="33" bodyfile="MRViewer/MRCommandLoop.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga47ada2edb409f0b00f3de9839c8cade1" prot="public" static="no" mutable="no">
         <type>std::thread::id</type>
@@ -48322,7 +48322,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="69" column="25" bodyfile="MRViewer/MRCommandLoop.h" bodystart="69" bodyend="-1"/>
+        <location file="MRViewer/MRCommandLoop.h" line="77" column="25" bodyfile="MRViewer/MRCommandLoop.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae3bbfe155bd86cd1b3df9cf6cec694db" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -48338,7 +48338,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="72" column="14" bodyfile="MRViewer/MRCommandLoop.h" bodystart="72" bodyend="72"/>
+        <location file="MRViewer/MRCommandLoop.h" line="80" column="14" bodyfile="MRViewer/MRCommandLoop.h" bodystart="80" bodyend="80"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga01da5c9c2826edd83e70f122a5e8ce03" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -48354,7 +48354,23 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="75" column="14" bodyfile="MRViewer/MRCommandLoop.h" bodystart="75" bodyend="75"/>
+        <location file="MRViewer/MRCommandLoop.h" line="83" column="14" bodyfile="MRViewer/MRCommandLoop.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga9d557c2c46c0a99010142a4b2d255892" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::CommandLoop::Command::dropped</definition>
+        <argsstring></argsstring>
+        <name>dropped</name>
+        <qualifiedname>MR::CommandLoop::Command::dropped</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>set under CommandLoop::mutex_ in <computeroutput>removeCommands</computeroutput>: <computeroutput>done</computeroutput>, but never executed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRCommandLoop.h" line="85" column="14" bodyfile="MRViewer/MRCommandLoop.h" bodystart="85" bodyend="85"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaae9d2900dc96e5066d7e3cd8c11db7ec" prot="private" static="no" mutable="no">
         <type>StartPosition</type>
@@ -48369,7 +48385,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="78" column="19" bodyfile="MRViewer/MRCommandLoop.h" bodystart="78" bodyend="78"/>
+        <location file="MRViewer/MRCommandLoop.h" line="88" column="19" bodyfile="MRViewer/MRCommandLoop.h" bodystart="88" bodyend="88"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa3467ab398f96c65ed9621abdb8e5438" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -48385,7 +48401,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="81" column="10" bodyfile="MRViewer/MRCommandLoop.h" bodystart="81" bodyend="81"/>
+        <location file="MRViewer/MRCommandLoop.h" line="91" column="10" bodyfile="MRViewer/MRCommandLoop.h" bodystart="91" bodyend="91"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga49f8164b9d23200b50227b620344917c" prot="private" static="no" mutable="no">
         <type>std::thread::id</type>
@@ -48400,7 +48416,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="82" column="21" bodyfile="MRViewer/MRCommandLoop.h" bodystart="82" bodyend="-1"/>
+        <location file="MRViewer/MRCommandLoop.h" line="92" column="21" bodyfile="MRViewer/MRCommandLoop.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacfda35989377d6cd24d55b26e21500db" prot="private" static="no" mutable="no">
         <type>std::queue&lt; std::shared_ptr&lt; Command &gt; &gt;</type>
@@ -48414,7 +48430,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="83" column="16" bodyfile="MRViewer/MRCommandLoop.h" bodystart="83" bodyend="-1"/>
+        <location file="MRViewer/MRCommandLoop.h" line="93" column="16" bodyfile="MRViewer/MRCommandLoop.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa75ce33740e9bd281f5633e11c989129" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -48428,7 +48444,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="84" column="16" bodyfile="MRViewer/MRCommandLoop.h" bodystart="84" bodyend="-1"/>
+        <location file="MRViewer/MRCommandLoop.h" line="94" column="16" bodyfile="MRViewer/MRCommandLoop.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabb95321aeb350840573cff7f04e36f33" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -156751,7 +156767,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="32" column="18"/>
+        <location file="MRViewer/MRCommandLoop.h" line="33" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga838c1c9734a5dcffc951811fbf442a3b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::thread::id</type>
@@ -156765,7 +156781,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="33" column="29"/>
+        <location file="MRViewer/MRCommandLoop.h" line="34" column="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad8d97732825e4cad90081d68d7923d8d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156784,7 +156800,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="35" column="18"/>
+        <location file="MRViewer/MRCommandLoop.h" line="36" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadceb2e7dc3e951be7d6c80eb72cb226c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156808,7 +156824,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="40" column="18"/>
+        <location file="MRViewer/MRCommandLoop.h" line="41" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa7b94269107f75e82b8f719b5981465d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156823,11 +156839,11 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If caller thread is main - instantly run command, otherwise add command to the end of loop with <ref refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref> state = StartPosition::AfterSplash and blocks caller thread until command is done </para>
+<para>If caller thread is main - instantly run command, otherwise add command to the end of loop with <ref refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref> state = StartPosition::AfterSplash and blocks caller thread until command is done throws std::runtime_error if no loop can ever run the command: the queue is closed, it was never started, or removeCommands dropped the command while the caller was waiting; an exception thrown by func itself propagates to the caller as well; call it only where an exception is already the error channel - python bindings and MCP tools - and not from other C++ code, which must be exception-free: use appendCommand there </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="44" column="18"/>
+        <location file="MRViewer/MRCommandLoop.h" line="50" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga608f3b3e1415777cf598629aa0b73681" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156842,7 +156858,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="47" column="18"/>
+        <location file="MRViewer/MRCommandLoop.h" line="53" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga42865b58d6d71d73a87b0633e0b623f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -156857,7 +156873,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="50" column="18"/>
+        <location file="MRViewer/MRCommandLoop.h" line="56" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf136777f46bf36d97d449cd471709f41" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156876,7 +156892,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="54" column="18"/>
+        <location file="MRViewer/MRCommandLoop.h" line="60" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga288afe8a082b19308c5d65f932d437bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -156890,7 +156906,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="57" column="5"/>
+        <location file="MRViewer/MRCommandLoop.h" line="63" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0dfec26150ccd6fa2c5b9fbad975b21f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -156904,7 +156920,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="58" column="5"/>
+        <location file="MRViewer/MRCommandLoop.h" line="64" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga934555dfbff1cadb9be70f8b7ae87f34" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>CommandLoop &amp;</type>
@@ -156918,11 +156934,11 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="60" column="24"/>
+        <location file="MRViewer/MRCommandLoop.h" line="66" column="24"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga06e8d4a28f020068f5b0520acfada256" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>static void MR::CommandLoop::addCommand_</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1gaa3aa14389c76e7fbc53ccc68795a6347" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>static Expected&lt; void &gt; MR::CommandLoop::addCommand_</definition>
         <argsstring>(CommandFunc func, bool blockThread, StartPosition state)</argsstring>
         <name>addCommand_</name>
         <qualifiedname>MR::CommandLoop::addCommand_</qualifiedname>
@@ -156941,10 +156957,11 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>returns an error, rather than throwing or blocking forever, if no loop can ever run a blocking command: the queue is closed, it was never started, or removeCommands dropped the command </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="62" column="17"/>
+        <location file="MRViewer/MRCommandLoop.h" line="70" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga62fb75743666477382adbc8efccf76b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156955,11 +156972,11 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Push a handful of empty commands onto the main thread so the <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> advances a few frames, ensuring any <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> state touched by a recent input (click, write, transform) is reflected before the caller&apos;s next observation. </para>
+<para>Push a handful of empty commands onto the main thread so the <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref> advances a few frames, ensuring any <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> state touched by a recent input (click, write, transform) is reflected before the caller&apos;s next observation. throws like runCommandFromGUIThread, so it has the same callers-only-from-python-and-MCP restriction </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCommandLoop.h" line="90" column="7" declfile="MRViewer/MRCommandLoop.h" declline="90" declcolumn="7"/>
+        <location file="MRViewer/MRCommandLoop.h" line="101" column="7" declfile="MRViewer/MRCommandLoop.h" declline="101" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga64cf6b9277515ab399a88caf26a922bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

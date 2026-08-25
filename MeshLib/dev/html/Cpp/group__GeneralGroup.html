@@ -13573,6 +13573,8 @@ Variables</h2></td></tr>
 <tr class="memitem:ga47ada2edb409f0b00f3de9839c8cade1" id="r_ga47ada2edb409f0b00f3de9839c8cade1"><td class="memItemLeft" align="right" valign="top">std::thread::id&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga47ada2edb409f0b00f3de9839c8cade1">MR::CommandLoop::Command::threadId</a></td></tr>
 <tr class="memitem:gae3bbfe155bd86cd1b3df9cf6cec694db" id="r_gae3bbfe155bd86cd1b3df9cf6cec694db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3bbfe155bd86cd1b3df9cf6cec694db">MR::CommandLoop::Command::started</a> { false }</td></tr>
 <tr class="memitem:ga01da5c9c2826edd83e70f122a5e8ce03" id="r_ga01da5c9c2826edd83e70f122a5e8ce03"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga01da5c9c2826edd83e70f122a5e8ce03">MR::CommandLoop::Command::done</a> { false }</td></tr>
+<tr class="memitem:ga9d557c2c46c0a99010142a4b2d255892" id="r_ga9d557c2c46c0a99010142a4b2d255892"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9d557c2c46c0a99010142a4b2d255892">MR::CommandLoop::Command::dropped</a> { false }</td></tr>
+<tr class="memdesc:ga9d557c2c46c0a99010142a4b2d255892"><td class="mdescLeft">&#160;</td><td class="mdescRight">set under CommandLoop::mutex_ in <span class="tt">removeCommands</span>: <span class="tt">done</span>, but never executed  <br /></td></tr>
 <tr class="memitem:gabb95321aeb350840573cff7f04e36f33" id="r_gabb95321aeb350840573cff7f04e36f33"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb95321aeb350840573cff7f04e36f33">MR::ShaderWarning::number</a> {0}</td></tr>
 <tr class="memdesc:gabb95321aeb350840573cff7f04e36f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">number is presented in some of gpu shader compilations output  <br /></td></tr>
 <tr class="memitem:ga930eaa6dc15670480191448c07138e81" id="r_ga930eaa6dc15670480191448c07138e81"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga930eaa6dc15670480191448c07138e81">MR::ShaderWarning::line</a></td></tr>
@@ -157220,7 +157222,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRCommandLoop_8h.html">MRViewer/MRCommandLoop.h</a>&gt;</code></p>
-<p>If caller thread is main - instantly run command, otherwise add command to the end of loop with <a class="el" href="#ga2e4318196fd48b27b617c07eb35bbe39" title="Specify execution in specific time of application start.">StartPosition</a> state = StartPosition::AfterSplash and blocks caller thread until command is done </p>
+<p>If caller thread is main - instantly run command, otherwise add command to the end of loop with <a class="el" href="#ga2e4318196fd48b27b617c07eb35bbe39" title="Specify execution in specific time of application start.">StartPosition</a> state = StartPosition::AfterSplash and blocks caller thread until command is done throws std::runtime_error if no loop can ever run the command: the queue is closed, it was never started, or removeCommands dropped the command while the caller was waiting; an exception thrown by func itself propagates to the caller as well; call it only where an exception is already the error channel - python bindings and MCP tools - and not from other C++ code, which must be exception-free: use appendCommand there </p>
 
 </div>
 </div>
@@ -175756,7 +175758,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRCommandLoop_8h.html">MRViewer/MRCommandLoop.h</a>&gt;</code></p>
-<p>Push a handful of empty commands onto the main thread so the <a class="el" href="classMR_1_1Viewer.html" title="GLFW-based mesh viewer.">Viewer</a> advances a few frames, ensuring any <a class="el" href="namespaceMR_1_1UI.html">UI</a> state touched by a recent input (click, write, transform) is reflected before the caller's next observation. </p>
+<p>Push a handful of empty commands onto the main thread so the <a class="el" href="classMR_1_1Viewer.html" title="GLFW-based mesh viewer.">Viewer</a> advances a few frames, ensuring any <a class="el" href="namespaceMR_1_1UI.html">UI</a> state touched by a recent input (click, write, transform) is reflected before the caller's next observation. throws like runCommandFromGUIThread, so it has the same callers-only-from-python-and-MCP restriction </p>
 
 </div>
 </div>
@@ -209397,6 +209399,22 @@ template&lt;class T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga9d557c2c46c0a99010142a4b2d255892" name="ga9d557c2c46c0a99010142a4b2d255892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9d557c2c46c0a99010142a4b2d255892">&#9670;&#160;</a></span>dropped</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::CommandLoop::Command::dropped { false }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>set under CommandLoop::mutex_ in <span class="tt">removeCommands</span>: <span class="tt">done</span>, but never executed </p>
 
 </div>
 </div>

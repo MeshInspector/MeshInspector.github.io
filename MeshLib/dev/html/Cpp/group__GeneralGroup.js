@@ -17089,6 +17089,7 @@ var group__GeneralGroup =
     [ "MR::RibbonMenuUIConfig::drawViewportTags", "group__GeneralGroup.html#gad25116ab1883c906d084fc3b87abde3a", null ],
     [ "MR::Cuda::DeviceInfo::driverVersion", "group__GeneralGroup.html#ga4ef6286e641f9aa2862522e9783b1759", null ],
     [ "MR::RibbonMenuItem::dropList_", "group__GeneralGroup.html#ga2f25401d4b94a752bd63b79152673ab5", null ],
+    [ "MR::CommandLoop::Command::dropped", "group__GeneralGroup.html#ga9d557c2c46c0a99010142a4b2d255892", null ],
     [ "MR::LoadedMeshData::duplicatedVertexCount", "group__GeneralGroup.html#gac62307437d592311d84a2d4689889d6e", null ],
     [ "MR::MeshLoadSettings::duplicatedVertexCount", "group__GeneralGroup.html#ga1fdd9db8e441e5ff1bcee3e9d4b664a7", null ],
     [ "MR::MeshBuilder::UniteCloseParams::duplicateNonManifold", "group__GeneralGroup.html#ga6e04cfb485e0a54e7aaf0c75c8ad0eec", null ],

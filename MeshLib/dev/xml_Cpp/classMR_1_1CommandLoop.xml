@@ -31,16 +31,16 @@
     </sectiondef>
     <sectiondef kind="private-static-func">
       <member refid="group__GeneralGroup_1ga934555dfbff1cadb9be70f8b7ae87f34" kind="function"><name>instance_</name></member>
-      <member refid="group__GeneralGroup_1ga06e8d4a28f020068f5b0520acfada256" kind="function"><name>addCommand_</name></member>
+      <member refid="group__GeneralGroup_1gaa3aa14389c76e7fbc53ccc68795a6347" kind="function"><name>addCommand_</name></member>
     </sectiondef>
     <briefdescription>
 <para>Additional command loop for external app control. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRViewer/MRCommandLoop.h" line="16" column="1" bodyfile="MRViewer/MRCommandLoop.h" bodystart="17" bodyend="85"/>
+    <location file="MRViewer/MRCommandLoop.h" line="17" column="1" bodyfile="MRViewer/MRCommandLoop.h" bodystart="18" bodyend="95"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga06e8d4a28f020068f5b0520acfada256" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>addCommand_</name></member>
+      <member refid="group__GeneralGroup_1gaa3aa14389c76e7fbc53ccc68795a6347" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>addCommand_</name></member>
       <member refid="group__GeneralGroup_1gadceb2e7dc3e951be7d6c80eb72cb226c" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>appendCommand</name></member>
       <member refid="group__GeneralGroup_1ga517bdd4c876165f0896a0780d5fea918" prot="public" virt="non-virtual"><scope>MR::CommandLoop</scope><name>CommandFunc</name></member>
       <member refid="group__GeneralGroup_1ga288afe8a082b19308c5d65f932d437bf" prot="private" virt="non-virtual"><scope>MR::CommandLoop</scope><name>CommandLoop</name></member>

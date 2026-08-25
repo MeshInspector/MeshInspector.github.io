@@ -1802,6 +1802,7 @@
     <member refid="group__GeneralGroup_1ga47ada2edb409f0b00f3de9839c8cade1" kind="variable"><name>threadId</name></member>
     <member refid="group__GeneralGroup_1gae3bbfe155bd86cd1b3df9cf6cec694db" kind="variable"><name>started</name></member>
     <member refid="group__GeneralGroup_1ga01da5c9c2826edd83e70f122a5e8ce03" kind="variable"><name>done</name></member>
+    <member refid="group__GeneralGroup_1ga9d557c2c46c0a99010142a4b2d255892" kind="variable"><name>dropped</name></member>
   </compound>
   <compound refid="structMR_1_1GcodeProcessor_1_1Command" kind="struct"><name>MR::GcodeProcessor::Command</name>
     <member refid="group__GeneralGroup_1gae3896dcb88dae275220940ab26d6d42f" kind="variable"><name>key</name></member>
@@ -1826,7 +1827,7 @@
     <member refid="group__GeneralGroup_1ga288afe8a082b19308c5d65f932d437bf" kind="function"><name>CommandLoop</name></member>
     <member refid="group__GeneralGroup_1ga0dfec26150ccd6fa2c5b9fbad975b21f" kind="function"><name>~CommandLoop</name></member>
     <member refid="group__GeneralGroup_1ga934555dfbff1cadb9be70f8b7ae87f34" kind="function"><name>instance_</name></member>
-    <member refid="group__GeneralGroup_1ga06e8d4a28f020068f5b0520acfada256" kind="function"><name>addCommand_</name></member>
+    <member refid="group__GeneralGroup_1gaa3aa14389c76e7fbc53ccc68795a6347" kind="function"><name>addCommand_</name></member>
   </compound>
   <compound refid="structMR_1_1RenderDimensions_1_1CommonParams" kind="struct"><name>MR::RenderDimensions::CommonParams</name>
     <member refid="group__GeneralGroup_1ga24e53f6e56b159ccb14495ab5e06145f" kind="variable"><name>objectToSelect</name></member>
@@ -23552,6 +23553,7 @@
     <member refid="group__GeneralGroup_1ga47ada2edb409f0b00f3de9839c8cade1" kind="variable"><name>threadId</name></member>
     <member refid="group__GeneralGroup_1gae3bbfe155bd86cd1b3df9cf6cec694db" kind="variable"><name>started</name></member>
     <member refid="group__GeneralGroup_1ga01da5c9c2826edd83e70f122a5e8ce03" kind="variable"><name>done</name></member>
+    <member refid="group__GeneralGroup_1ga9d557c2c46c0a99010142a4b2d255892" kind="variable"><name>dropped</name></member>
     <member refid="group__GeneralGroup_1gaae9d2900dc96e5066d7e3cd8c11db7ec" kind="variable"><name>state_</name></member>
     <member refid="group__GeneralGroup_1gaa3467ab398f96c65ed9621abdb8e5438" kind="variable"><name>queueClosed_</name></member>
     <member refid="group__GeneralGroup_1ga49f8164b9d23200b50227b620344917c" kind="variable"><name>mainThreadId_</name></member>
@@ -29189,7 +29191,7 @@
     <member refid="group__GeneralGroup_1ga288afe8a082b19308c5d65f932d437bf" kind="function"><name>CommandLoop</name></member>
     <member refid="group__GeneralGroup_1ga0dfec26150ccd6fa2c5b9fbad975b21f" kind="function"><name>~CommandLoop</name></member>
     <member refid="group__GeneralGroup_1ga934555dfbff1cadb9be70f8b7ae87f34" kind="function"><name>instance_</name></member>
-    <member refid="group__GeneralGroup_1ga06e8d4a28f020068f5b0520acfada256" kind="function"><name>addCommand_</name></member>
+    <member refid="group__GeneralGroup_1gaa3aa14389c76e7fbc53ccc68795a6347" kind="function"><name>addCommand_</name></member>
     <member refid="group__GeneralGroup_1ga62fb75743666477382adbc8efccf76b9" kind="function"><name>skipFramesAfterInput</name></member>
     <member refid="group__GeneralGroup_1ga64cf6b9277515ab399a88caf26a922bd" kind="function"><name>createShader</name></member>
     <member refid="group__GeneralGroup_1ga8b096e49296af19ff8c88104eedeb8d1" kind="function"><name>destroyShader</name></member>

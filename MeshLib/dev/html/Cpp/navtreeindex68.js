@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1TouchEndListener.html":[8,0,0,20,798],
 "structMR_1_1TouchMoveListener.html":[8,0,0,20,797],
 "structMR_1_1TouchStartListener.html":[8,0,0,20,796],
 "structMR_1_1TouchpadParameters.html":[8,0,0,20,752],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Vector2.html#a0e1305674b24cfc7ac3054b3e9561b44":[8,0,0,0,12,0,24],
 "structMR_1_1Vector2.html#a1d6b8b54858c91277b9c4999e6350855":[8,0,0,0,12,0,17],
 "structMR_1_1Vector2.html#a2c381e860fef7677ad4076ca39c57ad8":[8,0,0,0,12,0,23],
-"structMR_1_1Vector2.html#a2e63fb0714c8171732a8fa4493e0c5e1":[8,0,0,0,12,0,35],
-"structMR_1_1Vector2.html#a344bd19e0a6d0ddfd67e5739333a38cd":[8,0,0,0,12,0,32]
+"structMR_1_1Vector2.html#a2e63fb0714c8171732a8fa4493e0c5e1":[8,0,0,0,12,0,35]
 };
