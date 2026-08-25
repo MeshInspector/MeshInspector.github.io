@@ -146,29 +146,29 @@ $(function(){initNavTree('MeshLibCSharpSetupGuide.html','',''); });
     <a href="#UsingMeshLibwithCSharp">Using MeshLib with C# </a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md44">Prerequisites </a>
+        <a href="#autotoc_md43">Prerequisites </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md45">.NET SDK </a>
+            <a href="#autotoc_md44">.NET SDK </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md46">Visual Studio </a>
+            <a href="#autotoc_md45">Visual Studio </a>
           </li>
         </ul>
       </li>
       <li class="level2">
-        <a href="#autotoc_md47">Installation via NuGet </a>
+        <a href="#autotoc_md46">Installation via NuGet </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md48">Using Visual Studio on Windows </a>
+            <a href="#autotoc_md47">Using Visual Studio on Windows </a>
           </li>
         </ul>
       </li>
       <li class="level2">
-        <a href="#autotoc_md49">Installation from a Downloaded NuGet Package </a>
+        <a href="#autotoc_md48">Installation from a Downloaded NuGet Package </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md50">Installation via .NET Command-Line Interface </a>
+        <a href="#autotoc_md49">Installation via .NET Command-Line Interface </a>
       </li>
       <li class="level2">
         <a href="#MeshLibCSharpUnity">Using MeshLib with Unity </a>
@@ -177,18 +177,18 @@ $(function(){initNavTree('MeshLibCSharpSetupGuide.html','',''); });
         <a href="#MeshLibCSharpTroubleshooting">Troubleshooting </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md51">DllNotFoundException </a>
+            <a href="#autotoc_md50">DllNotFoundException </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md52">BadImageFormatException </a>
+            <a href="#autotoc_md51">BadImageFormatException </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md53">A rebuilt local package is ignored </a>
+            <a href="#autotoc_md52">A rebuilt local package is ignored </a>
           </li>
         </ul>
       </li>
       <li class="level2">
-        <a href="#autotoc_md54">Try MeshLib with C# Examples </a>
+        <a href="#autotoc_md53">Try MeshLib with C# Examples </a>
       </li>
     </ul>
   </li>
@@ -200,23 +200,23 @@ Using MeshLib with C#</h1>
 <dl class="section note"><dt>Note</dt><dd>MeshLib C# bindings are fully generated from the C++ codebase and expose the complete public API, with the exception of the <span class="tt">MR.Viewer</span> module. The C# API is fully compatible with Unity — see <a class="el" href="#MeshLibCSharpUnity">Using MeshLib with Unity</a>.</dd>
 <dd>
 As of January 2026, the C# bindings are production-ready. The full, stable C# API reference and comprehensive code samples are available and maintained. C# support is provided consistently across all supported platforms (Windows x64, Linux x64/Arm, MacOS x64/Arm), ensuring feature parity with the native C++ API.</dd></dl>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
 Prerequisites</h2>
 <p>Before installing MeshLib, ensure you have the following tools installed:</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md45"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
 .NET SDK</h3>
 <ul>
 <li>Install the latest version of the <a href="https://dotnet.microsoft.com/download">.NET SDK</a> from the .NET website. MeshLib targets <span class="tt">netstandard2.0</span>, so it sets no upper bound on your .NET version: it is compatible with .NET Framework 4.7 and higher, and with .NET 5.0 and every later version.</li>
 <li>Verify your installation by running: <div class="fragment"><div class="line">dotnet --version</div>
 </div><!-- fragment --></li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md46"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md45"></a>
 Visual Studio</h3>
 <p>If you're using Visual Studio, make sure to install the <b>.NET desktop development</b> workload.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md47"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md46"></a>
 Installation via NuGet</h2>
 <p>Depending on your development environment and workflow preferences, you can choose from the following installation methods</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md48"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md47"></a>
 Using Visual Studio on Windows</h3>
 <p>To install MeshLib via Visual Studio, follow these steps:</p><ol type="1">
 <li><b>Open Your Project in Visual Studio</b>:<ul>
@@ -243,7 +243,7 @@ Using Visual Studio on Windows</h3>
 </ul>
 </li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md49"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md48"></a>
 Installation from a Downloaded NuGet Package</h2>
 <p>If you prefer to download the MeshLib package directly from the NuGet website, follow these steps:</p>
 <ol type="1">
@@ -253,27 +253,42 @@ Installation from a Downloaded NuGet Package</h2>
 </ul>
 </li>
 <li><b>Create a Local Directory for NuGet Packages</b>:<ul>
-<li>Choose or create a directory on your system where you will store the <span class="tt">.nupkg</span> file. For example: <div class="fragment"><div class="line">mkdir ~/LocalNuGetPackages</div>
+<li>Choose or create a directory on your system where you will store the <span class="tt">.nupkg</span> file. For example:<ul>
+<li><b>Windows (Command Prompt)</b>: <div class="fragment"><div class="line">mkdir %USERPROFILE%\LocalNuGetPackages</div>
 </div><!-- fragment --></li>
-<li>Move the downloaded <span class="tt">MeshLib.nupkg</span> file to this directory.</li>
+<li><b>Linux / macOS</b>: <div class="fragment"><div class="line">mkdir ~/LocalNuGetPackages</div>
+</div><!-- fragment --></li>
+</ul>
+</li>
+<li>Move the downloaded package to that directory <b>keeping its <span class="tt">meshlib.&lt;version&gt;.nupkg</span> file name</b>.</li>
 </ul>
 </li>
 <li><b>Install the MeshLib Package Locally</b>:<ul>
-<li>Use the command below to install the package: <div class="fragment"><div class="line">dotnet add package MeshLib --source /path/to/LocalNuGetPackages</div>
+<li>Use the command below to install the package:<ul>
+<li><b>Windows (Command Prompt)</b>: <div class="fragment"><div class="line">dotnet add package MeshLib --source %USERPROFILE%\LocalNuGetPackages</div>
+</div><!-- fragment --></li>
+<li><b>Linux / macOS</b>: <div class="fragment"><div class="line">dotnet add package MeshLib --source ~/LocalNuGetPackages</div>
 </div><!-- fragment --></li>
 </ul>
 </li>
+</ul>
+</li>
 <li><b>Alternative: Configure Local Source Globally</b>:<ul>
-<li>Add the local directory as a source using: <div class="fragment"><div class="line">dotnet nuget add source \path\to\LocalNuGetPackages --name LocalPackages</div>
+<li>Add the local directory as a source using:<ul>
+<li><b>Windows (Command Prompt)</b>: <div class="fragment"><div class="line">dotnet nuget add source %USERPROFILE%\LocalNuGetPackages --name LocalPackages</div>
 </div><!-- fragment --></li>
-<li>After this, you can install the package normally without specifying <span class="tt">-source</span>.</li>
+<li><b>Linux / macOS</b>: <div class="fragment"><div class="line">dotnet nuget add source ~/LocalNuGetPackages --name LocalPackages</div>
+</div><!-- fragment --></li>
+</ul>
+</li>
+<li>After this, you can install the package normally without specifying <span class="tt">--source</span>.</li>
 </ul>
 </li>
 <li><b>Build and Run Your Project</b>: <div class="fragment"><div class="line">dotnet build</div>
 <div class="line">dotnet run</div>
 </div><!-- fragment --></li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md50"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md49"></a>
 Installation via .NET Command-Line Interface</h2>
 <p>To install MeshLib via the .NET CLI, follow these steps:</p><ol type="1">
 <li><b>Create a New Project Directory</b>: <br  />
@@ -307,7 +322,7 @@ Using MeshLib with Unity</h2>
 <h2 class="doxsection"><a class="anchor" id="MeshLibCSharpTroubleshooting"></a>
 Troubleshooting</h2>
 <p>The C# assembly is a thin managed wrapper over MeshLib's native libraries, so setup problems typically surface not when the package is installed or the project is built, but as one of the following exceptions on the first call into MeshLib.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md51"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md50"></a>
 DllNotFoundException</h3>
 <div class="fragment"><div class="line">System.DllNotFoundException: Unable to load DLL <span class="stringliteral">&#39;MeshLibC2&#39;</span> or one of its dependencies: The specified module could not be found.</div>
 </div><!-- fragment --><p> (on Linux and macOS: &lsquo;Unable to load shared library 'MeshLibC2&rsquo; or one of its dependencies`)</p>
@@ -315,16 +330,16 @@ DllNotFoundException</h3>
 <li>Check that your platform is supported: Windows x64, Linux x64/Arm64, macOS x64/Arm64. In particular, the package contains no native libraries for Windows on Arm — installing it there succeeds, but every call into MeshLib fails.</li>
 <li>Check that the native libraries reached your build output: on .NET they are placed under <span class="tt">runtimes/&lt;rid&gt;/native/</span> in the output directory, on .NET Framework next to the executable (<span class="tt">MeshLibC2.dll</span> and its dependencies on Windows).</li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md52"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md51"></a>
 BadImageFormatException</h3>
 <div class="fragment"><div class="line">System.BadImageFormatException: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)</div>
 </div><!-- fragment --><p>MeshLib's native libraries are 64-bit only, and this exception means your application runs as a 32-bit process. .NET Framework projects are prone to this: with the default <span class="tt">AnyCPU</span> platform and <b>Prefer 32-bit</b> checked, the application runs 32-bit even on 64-bit Windows. In the project properties (<b>Build</b> tab) set <b>Platform target</b> to <span class="tt">x64</span> or uncheck <b>Prefer 32-bit</b> — in the <span class="tt">.csproj</span> terms: </p><div class="fragment"><div class="line">&lt;<span class="keywordtype">PlatformTarget</span>&gt;<span class="keyword">x64</span>&lt;/<span class="keywordtype">PlatformTarget</span>&gt;</div>
 <div class="line">&lt;<span class="keywordtype">Prefer32Bit</span>&gt;<span class="keyword">false</span>&lt;/<span class="keywordtype">Prefer32Bit</span>&gt;</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md53"></a>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md52"></a>
 A rebuilt local package is ignored</h3>
 <p>When installing from a local directory, NuGet extracts the package into its global cache and keeps serving the cached copy for the same version number, ignoring a rebuilt <span class="tt">.nupkg</span>. Delete the cached copy and restore again: </p><div class="fragment"><div class="line">rm -rf ~/.nuget/packages/meshlib</div>
 </div><!-- fragment --><p> On Windows, delete <span class="tt">USERPROFILE%\.nuget\packages\meshlib</span>.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md54"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md53"></a>
 Try MeshLib with C# Examples</h2>
 <p>MeshLib provides a collection of C# code samples to help you get started quickly with common mesh processing tasks. These are concise, self-contained examples — perfect for exploring how to use MeshLib’s API in your own projects:</p>
 <ul>
