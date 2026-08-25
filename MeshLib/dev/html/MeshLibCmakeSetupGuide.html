@@ -146,36 +146,28 @@ $(function(){initNavTree('MeshLibCmakeSetupGuide.html','',''); });
     <a href="#autotoc_md15">How to Use MeshLib with CMake </a>
     <ul>
       <li class="level2">
+        <a href="#autotoc_md16">CMake Integration Support </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md17">Windows Integration Guide </a>
+      </li>
+      <li class="level2">
         <a href="#CmakeQuickIntegration">Quick Integration Guide </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md16">Find MeshLib CMake Configuration Files </a>
+            <a href="#autotoc_md18">Find MeshLib CMake Configuration Files </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md17">Include the MeshLib Headers </a>
+            <a href="#autotoc_md19">Include the MeshLib Headers </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md18">Link the MeshLib Libraries </a>
+            <a href="#autotoc_md20">Link the MeshLib Libraries </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md19">A Complete Minimal Example </a>
+            <a href="#autotoc_md21">A Complete Minimal Example </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md20">Linking Additional Third-Party Libraries </a>
-          </li>
-        </ul>
-      </li>
-      <li class="level2">
-        <a href="#CmakeWindowsIntegration">Windows Integration Guide </a>
-        <ul>
-          <li class="level3">
-            <a href="#autotoc_md21">Prebuilt archive from GitHub Releases </a>
-          </li>
-          <li class="level3">
-            <a href="#autotoc_md22">Iterator debug level </a>
-          </li>
-          <li class="level3">
-            <a href="#autotoc_md23">Building MeshLib from source with vcpkg </a>
+            <a href="#autotoc_md22">Linking Additional Third-Party Libraries </a>
           </li>
         </ul>
       </li>
@@ -185,26 +177,39 @@ $(function(){initNavTree('MeshLibCmakeSetupGuide.html','',''); });
 </div>
 <div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md15"></a>
 How to Use MeshLib with CMake</h1>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
+CMake Integration Support</h2>
+<p>MeshLib provides CMake integration support for <b>Windows</b>, <b>Linux</b> and <b>macOS</b>. Example CMake configuration files are available to demonstrate how to link against the pre-built libraries. You can find these examples in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a>.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
+Windows Integration Guide</h2>
+<p>MeshLib supports <b>Windows</b> via CMake, including integration with <b>Visual Studio</b>.</p>
+<p>To enable support in Visual Studio, ensure the <b>CMake component</b> is installed in your Visual Studio setup. Once installed, standard CMake configuration should work seamlessly.</p>
+<p>To build MeshLib <b>itself</b> from source, install its dependencies with <b>vcpkg</b> as described in <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindowsLocalBuild">Installing the local build</a> in the C++ Setup Guide, then configure from the repository root:</p>
+<div class="fragment"><div class="line">cmake -S . -B build ^</div>
+<div class="line">  -DCMAKE_TOOLCHAIN_FILE=C:\path\to\vcpkg\scripts\buildsystems\vcpkg.cmake ^</div>
+<div class="line">  -DVCPKG_TARGET_TRIPLET=x64-windows-meshlib</div>
+</div><!-- fragment --><p>The triplet must be the one the dependencies were actually installed with. <span class="tt">x64-windows-meshlib</span> is <span class="tt">install.bat</span>'s default, so it is the right value for <b>Visual Studio 2026</b>; on <b>Visual Studio 2019 or 2022</b>, step 4 of <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindowsLocalBuild">Installing the local build</a> has you set <span class="tt">VCPKG_DEFAULT_TRIPLET</span> to <span class="tt">x64-windows-vs2019-meshlib</span> or <span class="tt">x64-windows-vs2022-meshlib</span>, so pass that same value here.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Do not fall back to <span class="tt">x64-windows-meshlib</span> on an older toolset because it pins no <span class="tt">VCPKG_PLATFORM_TOOLSET</span> — that only governs what vcpkg builds itself. With the AWS CLI installed (step 3 of the same list), <span class="tt">install.bat</span> instead restores prebuilt packages from our public S3 cache at <span class="tt">s3://vcpkg-export/&lt;vcpkg-tag&gt;/&lt;triplet&gt;/</span>, keyed on the triplet <b>name</b>, not on your compiler. CI fills the <span class="tt">x64-windows-meshlib</span> folder from <span class="tt">msvc-2026</span> builds only, and the triplets set <span class="tt">VCPKG_DISABLE_COMPILER_TRACKING</span>, so vcpkg accepts those Visual Studio 2026 binaries on v142/v143 instead of rebuilding, and the link fails.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This builds MeshLib from source (~40 GB). To consume a <b>pre-built</b> MeshLib in your own project, skip to the <a class="el" href="#CmakeQuickIntegration">Quick Integration Guide</a> below.</dd></dl>
 <h2 class="doxsection"><a class="anchor" id="CmakeQuickIntegration"></a>
 Quick Integration Guide</h2>
-<p>MeshLib provides native CMake integration support for <b>Linux</b> and <b>macOS</b>; for <b>Windows</b> see the <a class="el" href="#CmakeWindowsIntegration">Windows Integration Guide</a> below. Example CMake configuration files are available to demonstrate how to link against the pre-built libraries. You can find these examples in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a>.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
 Find MeshLib CMake Configuration Files</h3>
 <p>For a start, find the MeshLib package: </p><div class="fragment"><div class="line">find_package(MeshLib CONFIG REQUIRED)</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
 Include the MeshLib Headers</h3>
 <p>Add <b>both</b> include directories from the installed MeshLib package to your project. In your CMake configuration (<span class="tt">CMakeLists.txt</span>): </p><div class="fragment"><div class="line">include_directories(${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
 <div class="line"># or</div>
 <div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
 </div><!-- fragment --><p><span class="tt">MESHLIB_THIRDPARTY_INCLUDE_DIR</span> is required, not optional: MeshLib's public headers include third-party headers directly — <span class="tt">MRMesh/MRMeshFwd.h</span>, pulled in by essentially every MeshLib header, includes <span class="tt">&lt;parallel_hashmap/phmap_fwd_decl.h&gt;</span>. Without it even a hello-world fails to compile.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
 Link the MeshLib Libraries</h3>
 <p>Specify which MeshLib libraries to link with your project: </p><div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MRMesh)</div>
 <div class="line"># if you want to use viewer libraries</div>
 <div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MRMesh MeshLib::MRViewer)</div>
 </div><!-- fragment --><p>Or if you use the C API, instead link <span class="tt">MeshLib::MeshLibC2</span>:</p>
 <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
 A Complete Minimal Example</h3>
 <p>Putting the steps above together, this is a complete <span class="tt">CMakeLists.txt</span> that compiles, links and runs a program including <span class="tt">&lt;MRMesh/MRMesh.h&gt;</span>. The <b>Linking Additional Third-Party Libraries</b> section below is not needed for it:</p>
 <div class="fragment"><div class="line">cmake_minimum_required(VERSION 3.18)</div>
@@ -218,55 +223,11 @@ A Complete Minimal Example</h3>
 <div class="line">target_include_directories(hello PUBLIC ${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
 <div class="line">target_link_libraries(hello PUBLIC MeshLib::MRMesh)</div>
 </div><!-- fragment --><p>For the <span class="tt">main.cpp</span> this expects, see <a class="el" href="MeshLibCppSetupGuide.html#CppSetupVerify">Verify your setup</a> in the C++ Setup Guide: a self-contained program that builds a mesh, checks it, saves it and returns non-zero on failure.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
 Linking Additional Third-Party Libraries</h3>
 <p>Only if <b>your</b> <b>own</b> code links a third-party library bundled with MeshLib (rather than just using MeshLib's API), add the directory those libraries live in:</p>
 <div class="fragment"><div class="line">target_link_directories(your_project_name PUBLIC ${MESHLIB_THIRDPARTY_LIB_DIR})</div>
-</div><!-- fragment --><p>The <span class="tt">MeshLib::*</span> imported targets already carry the paths of the third-party libraries <b>they</b> need, so this line is not required by the example above. See the <span class="tt">CMakeLists.txt</span> in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> for a working configuration.</p>
-<h2 class="doxsection"><a class="anchor" id="CmakeWindowsIntegration"></a>
-Windows Integration Guide</h2>
-<p>MeshLib supports <b>Windows</b> via CMake, including integration with <b>Visual Studio</b>: ensure the <b>CMake component</b> is installed in your Visual Studio setup.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
-Prebuilt archive from GitHub Releases</h3>
-<p>The <span class="tt">MeshLibDistVS*.zip</span> archives contain no CMake config files, so <span class="tt">find_package(MeshLib CONFIG REQUIRED)</span> fails at <b>configure</b> time. Point CMake at the extracted tree instead — assuming the archive was extracted to <span class="tt">C:/meshlib-built</span> as described in the <a class="el" href="MeshLibCppSetupGuide.html">C++ Setup Guide</a>:</p>
-<div class="fragment"><div class="line">cmake -S . -B build -A x64 ^</div>
-<div class="line">  -D MESHLIB_INCLUDE_DIRS=C:/meshlib-built/install/include ^</div>
-<div class="line">  -D MESHLIB_LIB_DIRS=C:/meshlib-built/install/lib/Release</div>
-</div><!-- fragment --><div class="fragment"><div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_INCLUDE_DIRS})</div>
-<div class="line">target_link_directories(your_project_name PUBLIC ${MESHLIB_LIB_DIRS})</div>
-<div class="line">target_link_libraries(your_project_name PRIVATE MRMesh)</div>
-<div class="line"># if you want to use viewer libraries</div>
-<div class="line">target_link_libraries(your_project_name PRIVATE MRViewer)</div>
-<div class="line"># or, if you use the C API</div>
-<div class="line">target_link_libraries(your_project_name PRIVATE MeshLibC2)</div>
-</div><!-- fragment --><p>Finally, copy the runtime libraries next to your executable, as described in the <a class="el" href="MeshLibCppSetupGuide.html">C++ Setup Guide</a>.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
-Iterator debug level</h3>
-<p>Building your project with a non-zero iterator debug level needs <b>both</b> a different archive (<span class="tt">MeshLibDist_*-IteratorDebug.zip</span>) and extra compiler definitions. <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> is MeshLib's own acknowledgement flag: a non-zero iterator debug level can cost up to 100x in speed, so it has to be opted into explicitly rather than inherited from the build configuration.</p>
-<p>With MSVC, MeshLib checks that your <span class="tt">_ITERATOR_DEBUG_LEVEL</span> matches the one its binaries were built with and stops the build on a mismatch:</p>
-<div class="fragment"><div class="line">fatal error C1189: #error:  _ITERATOR_DEBUG_LEVEL is inconsistent with MeshLib</div>
-</div><!-- fragment --><p>This is a <b>compile</b> error, not a link error. Define <b>both</b> macros to the value matching your archive:</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">archive  </th><th class="markdownTableHeadNone">configuration  </th><th class="markdownTableHeadNone">defines  </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">MeshLibDistVS19/22/26_*.zip</span>  </td><td class="markdownTableBodyNone"><span class="tt">Release</span>  </td><td class="markdownTableBodyNone"><span class="tt">_ITERATOR_DEBUG_LEVEL=0</span> and <span class="tt">MR_ITERATOR_DEBUG_LEVEL=0</span> (the default, nothing to do)  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><span class="tt">MeshLibDist_*-IteratorDebug.zip</span>  </td><td class="markdownTableBodyNone"><span class="tt">Debug</span>  </td><td class="markdownTableBodyNone"><span class="tt">_ITERATOR_DEBUG_LEVEL=2</span> and <span class="tt">MR_ITERATOR_DEBUG_LEVEL=2</span>  </td></tr>
-</table>
-<div class="fragment"><div class="line">cmake -S . -B build -A x64 ^</div>
-<div class="line">  -D MESHLIB_INCLUDE_DIRS=C:/meshlib-built/install/include ^</div>
-<div class="line">  -D MESHLIB_LIB_DIRS=C:/meshlib-built/install/lib/Debug ^</div>
-<div class="line">  -D CMAKE_CXX_FLAGS=&quot;/D_ITERATOR_DEBUG_LEVEL=2 /DMR_ITERATOR_DEBUG_LEVEL=2&quot;</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
-Building MeshLib from source with vcpkg</h3>
-<p>To build MeshLib <b>itself</b> from source, install its dependencies with <b>vcpkg</b> as described in <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindowsLocalBuild">Installing the local build</a> in the C++ Setup Guide, then configure from the repository root:</p>
-<div class="fragment"><div class="line">cmake -S . -B build ^</div>
-<div class="line">  -DCMAKE_TOOLCHAIN_FILE=C:\path\to\vcpkg\scripts\buildsystems\vcpkg.cmake ^</div>
-<div class="line">  -DVCPKG_TARGET_TRIPLET=x64-windows-meshlib</div>
-</div><!-- fragment --><p>The triplet must be the one the dependencies were actually installed with. <span class="tt">x64-windows-meshlib</span> is <span class="tt">install.bat</span>'s default, so it is the right value for <b>Visual Studio 2026</b>; on <b>Visual Studio 2019 or 2022</b>, step 4 of <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindowsLocalBuild">Installing the local build</a> has you set <span class="tt">VCPKG_DEFAULT_TRIPLET</span> to <span class="tt">x64-windows-vs2019-meshlib</span> or <span class="tt">x64-windows-vs2022-meshlib</span>, so pass that same value here.</p>
-<dl class="section warning"><dt>Warning</dt><dd>Do not fall back to <span class="tt">x64-windows-meshlib</span> on an older toolset because it pins no <span class="tt">VCPKG_PLATFORM_TOOLSET</span> — that only governs what vcpkg builds itself. With the AWS CLI installed (step 3 of the same list), <span class="tt">install.bat</span> instead restores prebuilt packages from our public S3 cache at <span class="tt">s3://vcpkg-export/&lt;vcpkg-tag&gt;/&lt;triplet&gt;/</span>, keyed on the triplet <b>name</b>, not on your compiler. CI fills the <span class="tt">x64-windows-meshlib</span> folder from <span class="tt">msvc-2026</span> builds only, and the triplets set <span class="tt">VCPKG_DISABLE_COMPILER_TRACKING</span>, so vcpkg accepts those Visual Studio 2026 binaries on v142/v143 instead of rebuilding, and the link fails.</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This builds MeshLib from source (~40 GB) and does install the CMake config files, so the <a class="el" href="#CmakeQuickIntegration">Quick Integration Guide</a> above applies to the result. To consume a <b>pre-built</b> MeshLib in your own project instead, use <em>Prebuilt archive from GitHub Releases</em> above. </dd></dl>
+</div><!-- fragment --><p>The <span class="tt">MeshLib::*</span> imported targets already carry the paths of the third-party libraries <b>they</b> need, so this line is not required by the example above. See the <span class="tt">CMakeLists.txt</span> in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> for a working configuration. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
