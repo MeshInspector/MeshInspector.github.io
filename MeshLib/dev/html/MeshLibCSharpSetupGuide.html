@@ -171,6 +171,9 @@ $(function(){initNavTree('MeshLibCSharpSetupGuide.html','',''); });
         <a href="#autotoc_md49">Installation via .NET Command-Line Interface </a>
       </li>
       <li class="level2">
+        <a href="#MeshLibCSharpPackageSize">Package Size and Native Runtimes </a>
+      </li>
+      <li class="level2">
         <a href="#MeshLibCSharpUnity">Using MeshLib with Unity </a>
       </li>
       <li class="level2">
@@ -306,6 +309,12 @@ Installation via .NET Command-Line Interface</h2>
 </div><!-- fragment --></li>
 </ol>
 <p>By following these steps, you can integrate MeshLib into your project, giving you more control over the setup process.</p>
+<h2 class="doxsection"><a class="anchor" id="MeshLibCSharpPackageSize"></a>
+Package Size and Native Runtimes</h2>
+<p>The NuGet package carries prebuilt native libraries for <b>all five</b> supported platforms, so it is large: 200+ MB Nuget download, 700+ MB copied to the build directory by default.</p>
+<p>For deployment, you might wish to publish for a single RID (single platform), which omits the unnecessary libraries for other platforms, e.g.: </p><div class="fragment"><div class="line">dotnet publish -r linux-x64 --self-contained false</div>
+</div><!-- fragment --><p>This copies only about 180 MB of libraries to the output directory, as opposed to 700+ MB.</p>
+<p>Supported platform IDs are: <span class="tt">win-x64</span>, <span class="tt">linux-x64</span>, <span class="tt">linux-arm64</span>, <span class="tt">osx-x64</span>, <span class="tt">osx-arm64</span>.</p>
 <h2 class="doxsection"><a class="anchor" id="MeshLibCSharpUnity"></a>
 Using MeshLib with Unity</h2>
 <p>Unity projects consume the same NuGet package via <a href="https://github.com/GlitchEnzo/NuGetForUnity">NuGetForUnity</a>; this setup is continuously tested with Unity 6 on Windows, Linux, and macOS. To install MeshLib into a Unity project:</p><ol type="1">
@@ -328,7 +337,7 @@ DllNotFoundException</h3>
 </div><!-- fragment --><p> (on Linux and macOS: &lsquo;Unable to load shared library 'MeshLibC2&rsquo; or one of its dependencies`)</p>
 <p>The native libraries were not found at run time:</p><ul>
 <li>Check that your platform is supported: Windows x64, Linux x64/Arm64, macOS x64/Arm64. In particular, the package contains no native libraries for Windows on Arm — installing it there succeeds, but every call into MeshLib fails.</li>
-<li>Check that the native libraries reached your build output: on .NET they are placed under <span class="tt">runtimes/&lt;rid&gt;/native/</span> in the output directory, on .NET Framework next to the executable (<span class="tt">MeshLibC2.dll</span> and its dependencies on Windows).</li>
+<li>Check that the native libraries reached your build output: on .NET they are placed under <span class="tt">runtimes/&lt;rid&gt;/native/</span> in the output directory (see <a class="el" href="#MeshLibCSharpPackageSize">Package Size and Native Runtimes</a>), on .NET Framework next to the executable (<span class="tt">MeshLibC2.dll</span> and its dependencies on Windows).</li>
 </ul>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md51"></a>
 BadImageFormatException</h3>
