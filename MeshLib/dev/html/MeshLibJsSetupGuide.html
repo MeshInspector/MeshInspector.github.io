@@ -291,12 +291,14 @@ Getting Started: Your First Example</h2>
 The <span class="tt">using</span> declaration requires Node.js 24+ or a current browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see the <b>Memory Management</b> section below).</dd></dl>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md140"></a>
 TypeScript</h2>
-<p>The package ships type definitions, so <span class="tt">createMeshLib</span> and the whole module API are typed with no extra setup: </p><div class="fragment"><div class="line">import createMeshLib, { type Mesh } from &#39;@meshinspector/meshlib&#39;;</div>
+<p>The package ships type definitions, so <span class="tt">createMeshLib</span> and the whole module API are typed with minimal setup: </p><div class="fragment"><div class="line">import createMeshLib, { type Mesh } from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
 <div class="line">const ml = await createMeshLib();</div>
-<div class="line">using mesh: Mesh = ml.Mesh.fromTriangles(coords, tris);</div>
+<div class="line">const mesh: Mesh = ml.Mesh.fromTriangles(coords, tris)!;</div>
 <div class="line">const { valid, distSq } = ml.findProjection(point, mesh);</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md141"></a>
+<div class="line">mesh.delete();</div>
+</div><!-- fragment --><p>Also make sure to add <span class="tt">"type": "module"</span> to your package.json.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md141"></a>
 Memory Management</h2>
 <p>Values returned from the API (meshes, bit sets, settings, result objects, and so on) hold WebAssembly memory that the JavaScript garbage collector does not reclaim, so each one must be freed explicitly.</p>
 <p>The preferred way is JavaScript's explicit resource management: declare a handle with <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/using"><span class="tt">using</span></a> and it is freed automatically when its scope ends, even if an exception is thrown. </p><div class="fragment"><div class="line">using mesh = ml.Mesh.fromTriangles(coords, tris);</div>
