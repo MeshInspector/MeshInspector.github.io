@@ -29,6 +29,11 @@ var group__MeshAlgorithmGroup =
       [ "applyAndSwap", "group__GeneralGroup.html#ga2938cffd19b314aeae8e39ef7dc4df2e", null ],
       [ "heapBytes", "group__GeneralGroup.html#gaa4a8e6c2de54156f11ab33a657c3c2d9", null ]
     ] ],
+    [ "MR::ShrinkwrapParameters", "structMR_1_1ShrinkwrapParameters.html", [
+      [ "offset", "structMR_1_1ShrinkwrapParameters.html#a183a87107e261430e1f648901026b0eb", null ],
+      [ "projector", "structMR_1_1ShrinkwrapParameters.html#a7e99b9b0dac6abe3e30c3f2f95b2c5d4", null ],
+      [ "region", "structMR_1_1ShrinkwrapParameters.html#a6494558a624f34d76f7b2c33730173b6", null ]
+    ] ],
     [ "MR::VertCoordsDiff", "classMR_1_1VertCoordsDiff.html", [
       [ "VertCoordsDiff", "group__GeneralGroup.html#gafa80c539d783f275a194ae8f5202647e", null ],
       [ "VertCoordsDiff", "group__GeneralGroup.html#gae932dd6d8571c6f2208ddc93c251652b", null ],
@@ -36,6 +41,8 @@ var group__MeshAlgorithmGroup =
       [ "applyAndSwap", "group__GeneralGroup.html#ga4ef52c5b00b37c7cedb2fb8a6f31fc4b", null ],
       [ "heapBytes", "group__GeneralGroup.html#gac535b1f7665cf87c787eea93553218a9", null ]
     ] ],
+    [ "MR::findShrinkwrapPositions", "group__MeshAlgorithmGroup.html#ga27ff4ac0c2344695698b194570ece13c", null ],
     [ "MR::meshToPointCloud", "group__MeshAlgorithmGroup.html#gaff12e899a2fa7790b09853a93701515f", null ],
+    [ "MR::shrinkwrap", "group__MeshAlgorithmGroup.html#gab7d2c48bfaa0dc31cdbf3e73901a79b4", null ],
     [ "MR::straightenBoundary", "group__MeshAlgorithmGroup.html#ga85f120484f51a420267e45c05af90e90", null ]
 ];

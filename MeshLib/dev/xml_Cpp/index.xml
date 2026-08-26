@@ -10780,6 +10780,11 @@
     <member refid="group__GeneralGroup_1ga8ec5f01d49170ca3c2273904385eb8a3" kind="function"><name>mapKeyFromKeyAndMod</name></member>
     <member refid="group__GeneralGroup_1ga0b68904b55fdbcdc64a244f69e50b481" kind="function"><name>kayAndModFromMapKey</name></member>
   </compound>
+  <compound refid="structMR_1_1ShrinkwrapParameters" kind="struct"><name>MR::ShrinkwrapParameters</name>
+    <member refid="structMR_1_1ShrinkwrapParameters_1a183a87107e261430e1f648901026b0eb" kind="variable"><name>offset</name></member>
+    <member refid="structMR_1_1ShrinkwrapParameters_1a6494558a624f34d76f7b2c33730173b6" kind="variable"><name>region</name></member>
+    <member refid="structMR_1_1ShrinkwrapParameters_1a7e99b9b0dac6abe3e30c3f2f95b2c5d4" kind="variable"><name>projector</name></member>
+  </compound>
   <compound refid="structMR_1_1Signal" kind="struct"><name>MR::Signal</name>
     <member refid="group__GeneralGroup_1ga488990e85880132e9fbf56b93e3deb55" kind="function"><name>Signal</name></member>
     <member refid="group__GeneralGroup_1ga186f243369f993f6c645e1ac87ce80c4" kind="function"><name>Signal</name></member>
@@ -15646,6 +15651,8 @@
     <member refid="group__SerializerGroup_1ga6e48c72925ab23bc42bff1d4bc389bf5" kind="function"><name>deserializeFromJson</name></member>
     <member refid="group__SerializerGroup_1ga2d2bfffd8ea520a7eb58c0c7132868a5" kind="function"><name>deserializeFromJson</name></member>
     <member refid="group__GeneralGroup_1gaaeaa41bced595d7f7740a0be5c63f1ad" kind="function"><name>sharpenMarchingCubesMesh</name></member>
+    <member refid="group__MeshAlgorithmGroup_1gab7d2c48bfaa0dc31cdbf3e73901a79b4" kind="function"><name>shrinkwrap</name></member>
+    <member refid="group__MeshAlgorithmGroup_1ga27ff4ac0c2344695698b194570ece13c" kind="function"><name>findShrinkwrapPositions</name></member>
     <member refid="group__GeneralGroup_1ga0180e90770c3a2421736b681e940f924" kind="function"><name>asString</name></member>
     <member refid="group__GeneralGroup_1ga387e788e5a4960ee13fb9d57cefc5c3d" kind="function"><name>sampleHalfSphere</name></member>
     <member refid="group__GeneralGroup_1gad46cffad677b26b136b9c6fefc6049d8" kind="function"><name>computeSkyViewFactor</name></member>
@@ -18109,6 +18116,8 @@
   </compound>
   <compound refid="MRSharpenMarchingCubesMesh_8h" kind="file"><name>MRSharpenMarchingCubesMesh.h</name>
   </compound>
+  <compound refid="MRShrinkwrap_8h" kind="file"><name>MRShrinkwrap.h</name>
+  </compound>
   <compound refid="MRSignal_8h" kind="file"><name>MRSignal.h</name>
   </compound>
   <compound refid="MRSignDetectionMode_8h" kind="file"><name>MRSignDetectionMode.h</name>
@@ -19364,6 +19373,8 @@
   <compound refid="group__MeshAlgorithmGroup" kind="group"><name>MeshAlgorithmGroup</name>
     <member refid="group__MeshAlgorithmGroup_1ga85f120484f51a420267e45c05af90e90" kind="function"><name>straightenBoundary</name></member>
     <member refid="group__MeshAlgorithmGroup_1gaff12e899a2fa7790b09853a93701515f" kind="function"><name>meshToPointCloud</name></member>
+    <member refid="group__MeshAlgorithmGroup_1gab7d2c48bfaa0dc31cdbf3e73901a79b4" kind="function"><name>shrinkwrap</name></member>
+    <member refid="group__MeshAlgorithmGroup_1ga27ff4ac0c2344695698b194570ece13c" kind="function"><name>findShrinkwrapPositions</name></member>
   </compound>
   <compound refid="group__MeshComponentsGroup" kind="group"><name>MeshComponentsGroup</name>
     <member refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" kind="enum"><name>FaceIncidence</name></member>

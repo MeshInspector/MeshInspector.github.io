@@ -1004,6 +1004,7 @@ var annotated_dup =
       [ "ShiftTransformer", "classMR_1_1ShiftTransformer.html", "classMR_1_1ShiftTransformer" ],
       [ "ShortcutKey", "structMR_1_1ShortcutKey.html", "structMR_1_1ShortcutKey" ],
       [ "ShortcutManager", "classMR_1_1ShortcutManager.html", "classMR_1_1ShortcutManager" ],
+      [ "ShrinkwrapParameters", "structMR_1_1ShrinkwrapParameters.html", "structMR_1_1ShrinkwrapParameters" ],
       [ "Signal", "structMR_1_1Signal.html", "structMR_1_1Signal" ],
       [ "SignedDistanceToMeshOptions", "structMR_1_1SignedDistanceToMeshOptions.html", "structMR_1_1SignedDistanceToMeshOptions" ],
       [ "SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", "structMR_1_1SignedDistanceToMeshResult" ],

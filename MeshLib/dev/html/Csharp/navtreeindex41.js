@@ -1,5 +1,8 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1Const__DecimateSettings.html#ad2aa5e7e744414e2a04018642dc536db":[8,3,0,0,0,385,53],
+"classMR_1_1Const__DecimateSettings.html#ad2b6ffaf9b5c1a301901d699c1cf6f1d":[8,3,0,0,0,385,44],
+"classMR_1_1Const__DecimateSettings.html#ad4e4fad4a276646ec24438bcb8411e51":[8,3,0,0,0,385,63],
 "classMR_1_1Const__DecimateSettings.html#ae15d8a986c59c51af33874572ac8d3db":[8,3,0,0,0,385,38],
 "classMR_1_1Const__DecimateSettings.html#ae88ab22926a8eae285fc9dfa73791b0b":[8,3,0,0,0,385,17],
 "classMR_1_1Const__DecimateSettings.html#aed5f611167dc3065bea632c41eb1e2d8":[8,3,0,0,0,385,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1Const__DistanceMap.html#afb5b6ad856d1e984ddfe5c2da2664c39":[8,3,0,0,0,397,19],
 "classMR_1_1Const__DistanceMapLoadSettings.html":[8,3,0,0,0,398],
 "classMR_1_1Const__DistanceMapLoadSettings.html#a0697d9567a65322d5de43fa7e4fab4ce":[8,3,0,0,0,398,8],
-"classMR_1_1Const__DistanceMapLoadSettings.html#a11a76084655116d0e2053f51104da10d":[8,3,0,0,0,398,1],
-"classMR_1_1Const__DistanceMapLoadSettings.html#a3ffd62bb97a19a82621554b1adb210d4":[8,3,0,0,0,398,6],
-"classMR_1_1Const__DistanceMapLoadSettings.html#a52b200d7834e18797b526ea899083197":[8,3,0,0,0,398,0],
-"classMR_1_1Const__DistanceMapLoadSettings.html#a69e4e856a2ba0bbb7e5f5446020fe0e5":[8,3,0,0,0,398,5]
+"classMR_1_1Const__DistanceMapLoadSettings.html#a11a76084655116d0e2053f51104da10d":[8,3,0,0,0,398,1]
 };

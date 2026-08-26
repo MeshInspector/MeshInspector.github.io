@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ShrinkwrapParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ShrinkwrapParameters</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1MeshProjectionParameters" prot="public" virt="non-virtual">mrmeshpy.MeshProjectionParameters</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ShrinkwrapParameters_1a8ce99eeedbb70f45362b97e095fae57c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ShrinkwrapParameters::_offsetof_offset</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_offset</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters._offsetof_offset</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54548" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ShrinkwrapParameters_1a9afa79fe03e140695432f5e062c1a45b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ShrinkwrapParameters::_offsetof_projector</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_projector</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters._offsetof_projector</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54549" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ShrinkwrapParameters_1a3f0f2f081535c5a2d8f7b4a75917822e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ShrinkwrapParameters::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters._offsetof_region</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54550" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ShrinkwrapParameters_1a0f60280fbaa0718113770848a06c82cb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShrinkwrapParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54553" bodyend="54554"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShrinkwrapParameters_1ac2f84bfd3decbba9ac9ad9d9cb13e21e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ShrinkwrapParameters" kindref="compound">ShrinkwrapParameters</ref></type>
+        <definition> ShrinkwrapParameters mrmeshpy.ShrinkwrapParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1MeshProjectionParameters_1abcb818b8c0135dc419ad1c420c6ba0c7">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54557" bodyend="54558"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShrinkwrapParameters_1ac2f84bfd3decbba9ac9ad9d9cb13e21e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ShrinkwrapParameters" kindref="compound">ShrinkwrapParameters</ref></type>
+        <definition> ShrinkwrapParameters mrmeshpy.ShrinkwrapParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1MeshProjectionParameters_1abcb818b8c0135dc419ad1c420c6ba0c7">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54561" bodyend="54562"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ShrinkwrapParameters_1ab23aef36fe273ab5bbb75772b13636a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShrinkwrapParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54564" bodyend="54565"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShrinkwrapParameters_1add7e04b069d492c5452878b3535b9400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShrinkwrapParameters.__init__</definition>
+        <argsstring>(self, ShrinkwrapParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ShrinkwrapParameters" kindref="compound">ShrinkwrapParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54567" bodyend="54570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShrinkwrapParameters_1a09eadbd4eaed1cb38d716ba27f910c2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ShrinkwrapParameters.offset</definition>
+        <argsstring>(self)</argsstring>
+        <name>offset</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters.offset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>each vertex is displaced by this distance from the closest point found, along the pseudonormal
+of refMesh there: positive - outside refMesh, negative - inside; measured in refMesh coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54572" bodyend="54576"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShrinkwrapParameters_1afb93bfcdda4e8afbc832fcd48b864a5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShrinkwrapParameters.offset</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>offset</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters.offset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54578" bodyend="54579"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShrinkwrapParameters_1a8ec0e19bb5841d5d8ad5cee20d710d4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IPointsToMeshProjector" kindref="compound">IPointsToMeshProjector</ref></type>
+        <definition> IPointsToMeshProjector mrmeshpy.ShrinkwrapParameters.projector</definition>
+        <argsstring>(self)</argsstring>
+        <name>projector</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters.projector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if provided then the projections are computed by it, otherwise CPU&apos;s computations are used
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54581" bodyend="54584"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShrinkwrapParameters_1ad8b0f5968e7b5b53237bf16fb7f8d19e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShrinkwrapParameters.projector</definition>
+        <argsstring>(self, IPointsToMeshProjector arg1)</argsstring>
+        <name>projector</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters.projector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IPointsToMeshProjector" kindref="compound">IPointsToMeshProjector</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54586" bodyend="54587"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShrinkwrapParameters_1aafbbaef272b046d49d8d66967c2bdcbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.ShrinkwrapParameters.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if provided then only the vertices from this region are moved, and the others remain in place
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54589" bodyend="54592"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ShrinkwrapParameters_1abff83b8fa3c9333324c61e1538885b19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ShrinkwrapParameters.region</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.ShrinkwrapParameters.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54594" bodyend="54595"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ShrinkwrapParameters
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ShrinkwrapParameters</label>
+        <link refid="classmrmeshpy_1_1ShrinkwrapParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.MeshProjectionParameters</label>
+        <link refid="classmrmeshpy_1_1MeshProjectionParameters"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ShrinkwrapParameters</label>
+        <link refid="classmrmeshpy_1_1ShrinkwrapParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.MeshProjectionParameters</label>
+        <link refid="classmrmeshpy_1_1MeshProjectionParameters"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="54544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="54544" bodyend="54595"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1a0f60280fbaa0718113770848a06c82cb" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1ab23aef36fe273ab5bbb75772b13636a2" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1add7e04b069d492c5452878b3535b9400" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a5ad9831065ad029119aca9815b89b90e" prot="protected" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>_offsetof_loDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1a8ce99eeedbb70f45362b97e095fae57c" prot="protected" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>_offsetof_offset</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1a9afa79fe03e140695432f5e062c1a45b" prot="protected" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>_offsetof_projector</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a5fef8af31b5237801d82a1cff8bed21e" prot="protected" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>_offsetof_refXf</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1a3f0f2f081535c5a2d8f7b4a75917822e" prot="protected" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1aba5e31aa861f692659d084cac833ec28" prot="protected" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>_offsetof_upDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a1b53c6445ae081269ba2b784b430a106" prot="protected" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1afbf6cf1408c58b02fa4ae62fcf692a45" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>loDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a1526a2d788daa1701273e22407498555" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>loDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1a09eadbd4eaed1cb38d716ba27f910c2d" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>offset</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1afb93bfcdda4e8afbc832fcd48b864a5d" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>offset</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1ac2f84bfd3decbba9ac9ad9d9cb13e21e" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1ac2f84bfd3decbba9ac9ad9d9cb13e21e" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1a8ec0e19bb5841d5d8ad5cee20d710d4b" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>projector</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1ad8b0f5968e7b5b53237bf16fb7f8d19e" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>projector</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a74f2f495a12b8cf44e166190d187db9b" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>refXf</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a0be29b7e2ef2478af9fa73ce1cc0dfe0" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>refXf</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1aafbbaef272b046d49d8d66967c2bdcbc" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1ShrinkwrapParameters_1abff83b8fa3c9333324c61e1538885b19" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a017dbe99230c468f07f327980de2efcc" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>upDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a20069d28a6e51e1b0e5191ee1a0bfb29" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>upDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a05cee59412c896f7b16bb6735dcdbe07" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a573509a03e0cdb1c1d19164f260d9ce7" prot="public" virt="non-virtual"><scope>mrmeshpy::ShrinkwrapParameters</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

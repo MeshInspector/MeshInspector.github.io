@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1MeshProjectionParameters" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::MeshProjectionParameters</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1ShrinkwrapParameters" prot="public" virt="non-virtual">mrmeshpy.ShrinkwrapParameters</derivedcompoundref>
     <sectiondef kind="protected-static-attrib">
       <memberdef kind="variable" id="classmrmeshpy_1_1MeshProjectionParameters_1a5ad9831065ad029119aca9815b89b90e" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -93,6 +94,8 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>operator</name>
         <qualifiedname>mrmeshpy.MeshProjectionParameters.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ShrinkwrapParameters_1ac2f84bfd3decbba9ac9ad9d9cb13e21e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ShrinkwrapParameters_1ac2f84bfd3decbba9ac9ad9d9cb13e21e">operator</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -115,6 +118,8 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>operator</name>
         <qualifiedname>mrmeshpy.MeshProjectionParameters.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ShrinkwrapParameters_1ac2f84bfd3decbba9ac9ad9d9cb13e21e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ShrinkwrapParameters_1ac2f84bfd3decbba9ac9ad9d9cb13e21e">operator</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -388,6 +393,18 @@ if actual distance is larger than upDistLimit will be returned with not-trusted 
 <para><verbatim>Generated from:  MR::MeshProjectionParameters
 </verbatim> </para>
     </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.MeshProjectionParameters</label>
+        <link refid="classmrmeshpy_1_1MeshProjectionParameters"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ShrinkwrapParameters</label>
+        <link refid="classmrmeshpy_1_1ShrinkwrapParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35306" bodyend="35372"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshProjectionParameters_1af3f3e1a595947028ef9db285a58c5b4c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>__init__</name></member>

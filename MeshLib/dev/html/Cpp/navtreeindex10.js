@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"classMR_1_1ObjectDistanceMap.html":[8,0,0,11,5],
+"classMR_1_1ObjectDistanceMap.html":[8,0,0,20,393],
 "classMR_1_1ObjectFactory.html":[8,0,0,20,395],
 "classMR_1_1ObjectFactoryBase.html":[8,0,0,20,394],
 "classMR_1_1ObjectGcode.html":[8,0,0,11,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html#a4f7e8040992675f602ced6970bfd58f9":[8,0,2,0,2,26,14,2],
 "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html#a9e508cc1c0b80f9d9127cedc7a67ddb5":[8,0,1,0,1,41,13,0],
 "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html#a9e508cc1c0b80f9d9127cedc7a67ddb5":[8,0,1,0,1,41,14,0],
-"classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html#a9e508cc1c0b80f9d9127cedc7a67ddb5":[8,0,2,0,2,26,13,0],
-"classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html#a9e508cc1c0b80f9d9127cedc7a67ddb5":[8,0,2,0,2,26,14,0],
-"classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html#acd15ed44fd7280f12b948e5818ca1cd6":[8,0,1,0,1,41,13,1]
+"classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html#a9e508cc1c0b80f9d9127cedc7a67ddb5":[8,0,2,0,2,26,13,0]
 };

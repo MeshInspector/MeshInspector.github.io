@@ -843,6 +843,7 @@ var annotated_dup =
       [ "SharpenMarchingCubesMeshSettings", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings" ],
       [ "SharpOffsetParameters", "classmrmeshpy_1_1SharpOffsetParameters.html", "classmrmeshpy_1_1SharpOffsetParameters" ],
       [ "ShellVertexInfo", "classmrmeshpy_1_1ShellVertexInfo.html", "classmrmeshpy_1_1ShellVertexInfo" ],
+      [ "ShrinkwrapParameters", "classmrmeshpy_1_1ShrinkwrapParameters.html", "classmrmeshpy_1_1ShrinkwrapParameters" ],
       [ "Side", "classmrmeshpy_1_1Side.html", "classmrmeshpy_1_1Side" ],
       [ "SignDetectionMode", "classmrmeshpy_1_1SignDetectionMode.html", "classmrmeshpy_1_1SignDetectionMode" ],
       [ "SignDetectionModeShort", "classmrmeshpy_1_1SignDetectionModeShort.html", "classmrmeshpy_1_1SignDetectionModeShort" ],

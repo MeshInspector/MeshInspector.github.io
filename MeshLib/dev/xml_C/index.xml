@@ -22643,6 +22643,44 @@
     <member refid="MRSharpenMarchingCubesMesh_8h_1a19285a27a0f78b0f88d4c93af4f2f491" kind="function"><name>MR_SharpenMarchingCubesMeshSettings_AssignFromAnother</name></member>
     <member refid="MRSharpenMarchingCubesMesh_8h_1a0d59244b3ffae9c30b528e16e48dfbe4" kind="function"><name>MR_sharpenMarchingCubesMesh</name></member>
   </compound>
+  <compound refid="MRShrinkwrap_8h" kind="file"><name>MRShrinkwrap.h</name>
+    <member refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kind="typedef"><name>MR_ShrinkwrapParameters</name></member>
+    <member refid="MRShrinkwrap_8h_1a77f7174c5822f15f2fd93d0d9fe0a649" kind="function"><name>MR_ShrinkwrapParameters_Get_offset</name></member>
+    <member refid="MRShrinkwrap_8h_1ade3b5e577ce1eb640b01dacf3881fbb5" kind="function"><name>MR_ShrinkwrapParameters_Set_offset</name></member>
+    <member refid="MRShrinkwrap_8h_1a089bfda742c2c7d9936b777aa62f9d7c" kind="function"><name>MR_ShrinkwrapParameters_GetMutable_offset</name></member>
+    <member refid="MRShrinkwrap_8h_1ae584df926b33b2b7ffe25fba536286dd" kind="function"><name>MR_ShrinkwrapParameters_Get_region</name></member>
+    <member refid="MRShrinkwrap_8h_1a1ea595c74317999b3e2ef95b3fb18864" kind="function"><name>MR_ShrinkwrapParameters_Set_region</name></member>
+    <member refid="MRShrinkwrap_8h_1a530d055a1b0a3ed644abba9d28166bc7" kind="function"><name>MR_ShrinkwrapParameters_GetMutable_region</name></member>
+    <member refid="MRShrinkwrap_8h_1af07819302ebd7b81ffd4e78b6be1bbcc" kind="function"><name>MR_ShrinkwrapParameters_Get_projector</name></member>
+    <member refid="MRShrinkwrap_8h_1a30f2cd8768b9f2b0b5bf6926be6d0606" kind="function"><name>MR_ShrinkwrapParameters_Set_projector</name></member>
+    <member refid="MRShrinkwrap_8h_1af48b4484af6a5341896b25d783159e02" kind="function"><name>MR_ShrinkwrapParameters_GetMutable_projector</name></member>
+    <member refid="MRShrinkwrap_8h_1ab776411891d6679f3fc021fff7970b7d" kind="function"><name>MR_ShrinkwrapParameters_Get_loDistLimitSq</name></member>
+    <member refid="MRShrinkwrap_8h_1a9584e30fd049aefce3140dbd399604ac" kind="function"><name>MR_ShrinkwrapParameters_Set_loDistLimitSq</name></member>
+    <member refid="MRShrinkwrap_8h_1a8e79265df255583fefdb72d7e52c444b" kind="function"><name>MR_ShrinkwrapParameters_GetMutable_loDistLimitSq</name></member>
+    <member refid="MRShrinkwrap_8h_1ab636e0f6fe253df9cbbb951d6a8f0994" kind="function"><name>MR_ShrinkwrapParameters_Get_upDistLimitSq</name></member>
+    <member refid="MRShrinkwrap_8h_1abcf909c32ecbb022d2fffd472872b68a" kind="function"><name>MR_ShrinkwrapParameters_Set_upDistLimitSq</name></member>
+    <member refid="MRShrinkwrap_8h_1a1548855b7e5f8624e89c7bbc1a582b60" kind="function"><name>MR_ShrinkwrapParameters_GetMutable_upDistLimitSq</name></member>
+    <member refid="MRShrinkwrap_8h_1a867c366d4e21d0d89e7a7d57ab23459e" kind="function"><name>MR_ShrinkwrapParameters_Get_refXf</name></member>
+    <member refid="MRShrinkwrap_8h_1aac8fb8ca3be9366fd725b12dfb77a96a" kind="function"><name>MR_ShrinkwrapParameters_Set_refXf</name></member>
+    <member refid="MRShrinkwrap_8h_1a40d29209beea1951d224870ac8a06e09" kind="function"><name>MR_ShrinkwrapParameters_GetMutable_refXf</name></member>
+    <member refid="MRShrinkwrap_8h_1a195b6d236c08b76e4a786149c6bf483f" kind="function"><name>MR_ShrinkwrapParameters_Get_xf</name></member>
+    <member refid="MRShrinkwrap_8h_1ac10939159fd76ea0e7209942a6d9e3f5" kind="function"><name>MR_ShrinkwrapParameters_Set_xf</name></member>
+    <member refid="MRShrinkwrap_8h_1abc53b91ff315de5216930986a41d5e49" kind="function"><name>MR_ShrinkwrapParameters_GetMutable_xf</name></member>
+    <member refid="MRShrinkwrap_8h_1a7515cdbb3c6eab144c8e2be182e73a4f" kind="function"><name>MR_ShrinkwrapParameters_DefaultConstruct</name></member>
+    <member refid="MRShrinkwrap_8h_1a5981f888920d9acfc8b5c3411097a599" kind="function"><name>MR_ShrinkwrapParameters_DefaultConstructArray</name></member>
+    <member refid="MRShrinkwrap_8h_1a923245376a7f78163541a6cc460b66da" kind="function"><name>MR_ShrinkwrapParameters_OffsetPtr</name></member>
+    <member refid="MRShrinkwrap_8h_1a49a2df873e20243e8311409af750beba" kind="function"><name>MR_ShrinkwrapParameters_OffsetMutablePtr</name></member>
+    <member refid="MRShrinkwrap_8h_1ac34f6a1d1ae5b17484e7e3f72f83c7a5" kind="function"><name>MR_ShrinkwrapParameters_UpcastTo_MR_MeshProjectionParameters</name></member>
+    <member refid="MRShrinkwrap_8h_1a86f0d63c7b5fbb21723c671b14d97a25" kind="function"><name>MR_ShrinkwrapParameters_MutableUpcastTo_MR_MeshProjectionParameters</name></member>
+    <member refid="MRShrinkwrap_8h_1a9ab1299924adac174235123b303be286" kind="function"><name>MR_ShrinkwrapParameters_StaticDowncastFrom_MR_MeshProjectionParameters</name></member>
+    <member refid="MRShrinkwrap_8h_1a3f0b8b596e2a8c78c8b09d3a9f92360a" kind="function"><name>MR_ShrinkwrapParameters_MutableStaticDowncastFrom_MR_MeshProjectionParameters</name></member>
+    <member refid="MRShrinkwrap_8h_1ac93929a877623148a882d0c9e99cb528" kind="function"><name>MR_ShrinkwrapParameters_ConstructFromAnother</name></member>
+    <member refid="MRShrinkwrap_8h_1a933a8257b86df9a4b36758770b43dcfa" kind="function"><name>MR_ShrinkwrapParameters_Destroy</name></member>
+    <member refid="MRShrinkwrap_8h_1a010b07cc5296df9aedadf77cc833c0a2" kind="function"><name>MR_ShrinkwrapParameters_DestroyArray</name></member>
+    <member refid="MRShrinkwrap_8h_1a6074f3f270d43822968b06118e05d80b" kind="function"><name>MR_ShrinkwrapParameters_AssignFromAnother</name></member>
+    <member refid="MRShrinkwrap_8h_1a37a6978bf62a85616cb288a26c532e68" kind="function"><name>MR_shrinkwrap</name></member>
+    <member refid="MRShrinkwrap_8h_1abd74af7578e4af5dd02bbaf1cc305bff" kind="function"><name>MR_findShrinkwrapPositions</name></member>
+  </compound>
   <compound refid="MRSignDetectionMode_8h" kind="file"><name>MRSignDetectionMode.h</name>
     <member refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kind="enum"><name>MR_SignDetectionMode</name></member>
     <member refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571abf87fdf5ca035202bb103aca9393b8d1" kind="enumvalue"><name>MR_SignDetectionMode_Unsigned</name></member>

@@ -374,6 +374,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRSerializer.h", "MRSerializer_8h.html", "MRSerializer_8h" ],
     [ "MRSharedThreadSafeOwner.h", "MRSharedThreadSafeOwner_8h.html", null ],
     [ "MRSharpenMarchingCubesMesh.h", "MRSharpenMarchingCubesMesh_8h.html", "MRSharpenMarchingCubesMesh_8h" ],
+    [ "MRShrinkwrap.h", "MRShrinkwrap_8h.html", "MRShrinkwrap_8h" ],
     [ "MRSignal.h", "MRSignal_8h.html", null ],
     [ "MRSignDetectionMode.h", "MRSignDetectionMode_8h.html", "MRSignDetectionMode_8h" ],
     [ "MRSolarRadiation.h", "MRSolarRadiation_8h.html", "MRSolarRadiation_8h" ],

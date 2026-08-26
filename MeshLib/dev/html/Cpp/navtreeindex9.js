@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1InplaceStack.html":[8,0,0,20,292],
+"classMR_1_1Int128Mul256.html":[8,0,0,0,5,2],
 "classMR_1_1Int128Mul256.html#a0aa6e9f447b85a8689807b678c0b67cf":[8,0,0,0,5,2,5],
 "classMR_1_1Int128Mul256.html#a12cd0bbe00ae882dbe51dab33c6b83d7":[8,0,0,0,5,2,3],
 "classMR_1_1Int128Mul256.html#a423073ceba9a95d483b0bbe0e0f42452":[8,0,0,0,5,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "classMR_1_1ObjectChildrenHolder.html#acad4a073a2e703743e01e2e5cce9e285":[8,0,0,11,3,0],
 "classMR_1_1ObjectChildrenHolder.html#af9423022c44615eb44c4c83247239a89":[8,0,0,11,3,7],
 "classMR_1_1ObjectChildrenHolder.html#afc70bfdd1da7c7b37030df9392d86ab5":[8,0,0,11,3,3],
-"classMR_1_1ObjectComparableWithReference.html":[8,0,0,20,388],
-"classMR_1_1ObjectDistanceMap.html":[8,0,0,11,5],
-"classMR_1_1ObjectDistanceMap.html":[8,0,0,20,393]
+"classMR_1_1ObjectComparableWithReference.html":[8,0,0,20,388]
 };

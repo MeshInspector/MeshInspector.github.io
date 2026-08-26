@@ -1,5 +1,8 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1Const__EdgePoint.html#ae1e2c85350e128c8e34dff4c1f28db4a":[8,3,0,0,0,416,8],
+"classMR_1_1Const__EdgePoint.html#af495331488c1a8345a2bf789dd5e788c":[8,3,0,0,0,416,0],
+"classMR_1_1Const__EdgePoint.html#af831aece7589101cf6ecf63c0eb348d0":[8,3,0,0,0,416,3],
 "classMR_1_1Const__EdgePoint.html#aff94ef6b354e565e0aab8832de7fb32c":[8,3,0,0,0,416,5],
 "classMR_1_1Const__EdgePointPair.html":[8,3,0,0,0,417],
 "classMR_1_1Const__EdgePointPair.html#a06bf42908ee78744590f35868cb4a161":[8,3,0,0,0,417,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1Const__FaceBMap.html#aaa64573cd2d1b5732470395c14530ece":[8,3,0,0,0,431,5],
 "classMR_1_1Const__FaceBMap.html#acd93f230935ab8d9906c07e5286afee3":[8,3,0,0,0,431,7],
 "classMR_1_1Const__FaceBitSet.html":[8,3,0,0,0,430],
-"classMR_1_1Const__FaceBitSet.html#a009e332bc6b8d31314021d3375703d87":[8,3,0,0,0,430,28],
-"classMR_1_1Const__FaceBitSet.html#a043f396590120a21255ca930c282ffd8":[8,3,0,0,0,430,12],
-"classMR_1_1Const__FaceBitSet.html#a0eb53f91f2af85d4731008a845347842":[8,3,0,0,0,430,31],
-"classMR_1_1Const__FaceBitSet.html#a11164bc36d5980c5215064fabd15dab1":[8,3,0,0,0,430,1]
+"classMR_1_1Const__FaceBitSet.html#a009e332bc6b8d31314021d3375703d87":[8,3,0,0,0,430,28]
 };

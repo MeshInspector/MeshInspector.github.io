@@ -2086,6 +2086,9 @@ var hierarchy =
       [ "MR.Const_ShellVertexInfo", "classMR_1_1Const__ShellVertexInfo.html", [
         [ "MR.ShellVertexInfo", "classMR_1_1ShellVertexInfo.html", null ]
       ] ],
+      [ "MR.Const_ShrinkwrapParameters", "classMR_1_1Const__ShrinkwrapParameters.html", [
+        [ "MR.ShrinkwrapParameters", "classMR_1_1ShrinkwrapParameters.html", null ]
+      ] ],
       [ "MR.Const_SignedDistanceToMeshOptions", "classMR_1_1Const__SignedDistanceToMeshOptions.html", [
         [ "MR.SignedDistanceToMeshOptions", "classMR_1_1SignedDistanceToMeshOptions.html", null ]
       ] ],
@@ -4225,6 +4228,7 @@ var hierarchy =
       [ "MR.Const_SharpOffsetParameters", "classMR_1_1Const__SharpOffsetParameters.html", null ],
       [ "MR.Const_SharpenMarchingCubesMeshSettings", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html", null ],
       [ "MR.Const_ShellVertexInfo", "classMR_1_1Const__ShellVertexInfo.html", null ],
+      [ "MR.Const_ShrinkwrapParameters", "classMR_1_1Const__ShrinkwrapParameters.html", null ],
       [ "MR.Const_SignedDistanceToMeshOptions", "classMR_1_1Const__SignedDistanceToMeshOptions.html", null ],
       [ "MR.Const_SignedDistanceToMeshResult", "classMR_1_1Const__SignedDistanceToMeshResult.html", null ],
       [ "MR.Const_SimpleBinaryVolume", "classMR_1_1Const__SimpleBinaryVolume.html", null ],

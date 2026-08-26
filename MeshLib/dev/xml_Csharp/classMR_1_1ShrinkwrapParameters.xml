@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ShrinkwrapParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::ShrinkwrapParameters</compoundname>
+    <basecompoundref refid="classMR_1_1Const__ShrinkwrapParameters" prot="public" virt="non-virtual">MR.Const_ShrinkwrapParameters</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ShrinkwrapParameters_1a787a135528bdefd5a8bea9e71402a370" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ShrinkwrapParameters.offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <qualifiedname>MR.ShrinkwrapParameters.offset</qualifiedname>
+        <briefdescription>
+<para>each vertex is displaced by this distance from the closest point found, along the pseudonormal of refMesh there: positive - outside refMesh, negative - inside; measured in refMesh coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="241" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ShrinkwrapParameters_1a9552a51f165527133135aabde225f7e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
+        <definition>new unsafe MR.? Const_VertBitSet MR.ShrinkwrapParameters.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.ShrinkwrapParameters.region</qualifiedname>
+        <briefdescription>
+<para>if provided then only the vertices from this region are moved, and the others remain in place </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="246" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="247" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ShrinkwrapParameters_1a4ff425124448f323e81a24b83abe4574" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1IPointsToMeshProjector" kindref="compound">IPointsToMeshProjector</ref></type>
+        <definition>new unsafe MR.? IPointsToMeshProjector MR.ShrinkwrapParameters.projector</definition>
+        <argsstring></argsstring>
+        <name>projector</name>
+        <qualifiedname>MR.ShrinkwrapParameters.projector</qualifiedname>
+        <briefdescription>
+<para>if provided then the projections are computed by it, otherwise CPU's computations are used </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="261" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="262" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ShrinkwrapParameters_1a532e6e81cea04a8440c1080278efd6d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ShrinkwrapParameters.loDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>loDistLimitSq</name>
+        <qualifiedname>MR.ShrinkwrapParameters.loDistLimitSq</qualifiedname>
+        <briefdescription>
+<para>minimum squared distance from a test point to mesh to be computed precisely, if a mesh point is found within this distance then it is immediately returned without searching for a closer one </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="277" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ShrinkwrapParameters_1af4bb81f3e292e5c3d179ddf55426c5c5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ShrinkwrapParameters.upDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>upDistLimitSq</name>
+        <qualifiedname>MR.ShrinkwrapParameters.upDistLimitSq</qualifiedname>
+        <briefdescription>
+<para>maximum squared distance from a test point to mesh to be computed precisely, if actual distance is larger than upDistLimit will be returned with not-trusted sign </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="283" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ShrinkwrapParameters_1af8fdc81c86b7f067895f67e022b1db8a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>new unsafe MR.? ConstBox_AffineXf3f MR.ShrinkwrapParameters.refXf</definition>
+        <argsstring></argsstring>
+        <name>refXf</name>
+        <qualifiedname>MR.ShrinkwrapParameters.refXf</qualifiedname>
+        <briefdescription>
+<para>optional reference mesh to world transformation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="288" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="289" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ShrinkwrapParameters_1a81047151fa54414c3d6e7c55371b888c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>new unsafe MR.? ConstBox_AffineXf3f MR.ShrinkwrapParameters.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.ShrinkwrapParameters.xf</qualifiedname>
+        <briefdescription>
+<para>optional test points to world transformation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="303" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="304" bodyend="313"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ShrinkwrapParameters_1a27270182f29153a0e5fae1edf6604572" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ShrinkwrapParameters.operator MR.MeshProjectionParameters</definition>
+        <argsstring>(ShrinkwrapParameters self)</argsstring>
+        <name>operator MR.MeshProjectionParameters</name>
+        <qualifiedname>MR.ShrinkwrapParameters.operator MR.MeshProjectionParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ShrinkwrapParameters" kindref="compound">ShrinkwrapParameters</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="228" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="228" bodyend="235"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ShrinkwrapParameters_1a64ebdd930b32cf9f7524d6ed53ffe5d1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ShrinkwrapParameters.ShrinkwrapParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ShrinkwrapParameters</name>
+        <qualifiedname>MR.ShrinkwrapParameters.ShrinkwrapParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="317" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="317" bodyend="321"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ShrinkwrapParameters_1a89e53bc4896b3acf00c10a229be655ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ShrinkwrapParameters.ShrinkwrapParameters</definition>
+        <argsstring>()</argsstring>
+        <name>ShrinkwrapParameters</name>
+        <qualifiedname>MR.ShrinkwrapParameters.ShrinkwrapParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="327" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="327" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShrinkwrapParameters_1a319c2ecb8e1d7e22958b2e16d2421282" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ShrinkwrapParameters.ShrinkwrapParameters</definition>
+        <argsstring>(MR.Const_ShrinkwrapParameters _other)</argsstring>
+        <name>ShrinkwrapParameters</name>
+        <qualifiedname>MR.ShrinkwrapParameters.ShrinkwrapParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ShrinkwrapParameters" kindref="compound">MR.Const_ShrinkwrapParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ShrinkwrapParameters_1a89e53bc4896b3acf00c10a229be655ac" kindref="member">MR.ShrinkwrapParameters.ShrinkwrapParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="338" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="338" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShrinkwrapParameters_1a2eca59240d13dd5f4b6734a579e982a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ShrinkwrapParameters.ShrinkwrapParameters</definition>
+        <argsstring>(ShrinkwrapParameters _other)</argsstring>
+        <name>ShrinkwrapParameters</name>
+        <qualifiedname>MR.ShrinkwrapParameters.ShrinkwrapParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ShrinkwrapParameters" kindref="compound">ShrinkwrapParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ShrinkwrapParameters_1a89e53bc4896b3acf00c10a229be655ac" kindref="member">MR.ShrinkwrapParameters.ShrinkwrapParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="350" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="350" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ShrinkwrapParameters_1aee59c75008cca287f2e2b584b7a87d65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ShrinkwrapParameters" kindref="compound">MR.ShrinkwrapParameters</ref></type>
+        <definition>unsafe MR.ShrinkwrapParameters MR.ShrinkwrapParameters.assign</definition>
+        <argsstring>(MR.Const_ShrinkwrapParameters _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ShrinkwrapParameters.assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ShrinkwrapParameters" kindref="compound">MR.Const_ShrinkwrapParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ShrinkwrapParameters::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="355" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="355" bodyend="362"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1ShrinkwrapParameters" kindref="compound">MR.ShrinkwrapParameters</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1MeshProjectionParameters" kindref="compound">MR.MeshProjectionParameters</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.ShrinkwrapParameters</label>
+        <link refid="classMR_1_1ShrinkwrapParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_ShrinkwrapParameters</label>
+        <link refid="classMR_1_1Const__ShrinkwrapParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.ShrinkwrapParameters</label>
+        <link refid="classMR_1_1ShrinkwrapParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_ShrinkwrapParameters</label>
+        <link refid="classMR_1_1Const__ShrinkwrapParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_projector</edgelabel>
+          <edgelabel>__ptr_storage_refXf</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="225" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="226" bodyend="363"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1a57fface6ec1a70817fb98431e5f93b56" prot="protected" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>__ptr_storage_projector</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1a9dfb110c43fbbcaf8eb421febb9cd10c" prot="protected" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>__ptr_storage_refXf</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1a5c48d3331c0b783cfe0c96865f13d7be" prot="protected" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1a812bd2cb49c73e4a472a75b455f569d1" prot="protected" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1a3c073e74cd10f82175c399769f0c90f1" prot="protected" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>__ref_storage_loDistLimitSq</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1a5b5b98882c571af24210d8ce2991a871" prot="protected" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>__ref_storage_offset</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1aa52ae7dedb146e8adc743f1148ffb260" prot="protected" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>__ref_storage_upDistLimitSq</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1aee59c75008cca287f2e2b584b7a87d65" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1af6a49a7d9107dcf5aa3008924920d8b6" prot="package" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>Const_ShrinkwrapParameters</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1aaafca933af4c96adb3f6d76ba49d37c4" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>Const_ShrinkwrapParameters</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1af0325bf993b9b775add6c1b8dae590de" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>Const_ShrinkwrapParameters</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1aee70880e1e0f4457db57d942587d19ae" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>Const_ShrinkwrapParameters</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1ad1368e16d8023c79c156ac692b7baa9b" prot="protected" virt="virtual"><scope>MR::ShrinkwrapParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1acb02e7ebe2032b7ba32a371957b51c8f" prot="public" virt="virtual"><scope>MR::ShrinkwrapParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1a532e6e81cea04a8440c1080278efd6d8" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>loDistLimitSq</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1a787a135528bdefd5a8bea9e71402a370" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>offset</name></member>
+      <member refid="classMR_1_1Const__ShrinkwrapParameters_1a4b8c1845740339b046bae1d0177640ef" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>operator MR.Const_MeshProjectionParameters</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1a27270182f29153a0e5fae1edf6604572" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>operator MR.MeshProjectionParameters</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1a4ff425124448f323e81a24b83abe4574" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>projector</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1af8fdc81c86b7f067895f67e022b1db8a" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>refXf</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1a9552a51f165527133135aabde225f7e5" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>region</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1a64ebdd930b32cf9f7524d6ed53ffe5d1" prot="package" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>ShrinkwrapParameters</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1a89e53bc4896b3acf00c10a229be655ac" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>ShrinkwrapParameters</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1a319c2ecb8e1d7e22958b2e16d2421282" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>ShrinkwrapParameters</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1a2eca59240d13dd5f4b6734a579e982a6" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>ShrinkwrapParameters</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1af4bb81f3e292e5c3d179ddf55426c5c5" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>upDistLimitSq</name></member>
+      <member refid="classMR_1_1ShrinkwrapParameters_1a81047151fa54414c3d6e7c55371b888c" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

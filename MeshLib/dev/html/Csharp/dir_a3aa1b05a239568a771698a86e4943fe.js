@@ -321,6 +321,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRSeparationPoint.cs", "MRSeparationPoint_8cs.html", "MRSeparationPoint_8cs" ],
     [ "MRSerializer.cs", "MRSerializer_8cs.html", "MRSerializer_8cs" ],
     [ "MRSharpenMarchingCubesMesh.cs", "MRSharpenMarchingCubesMesh_8cs.html", "MRSharpenMarchingCubesMesh_8cs" ],
+    [ "MRShrinkwrap.cs", "MRShrinkwrap_8cs.html", "MRShrinkwrap_8cs" ],
     [ "MRSignDetectionMode.cs", "MRSignDetectionMode_8cs.html", "MRSignDetectionMode_8cs" ],
     [ "MRSolarRadiation.cs", "MRSolarRadiation_8cs.html", "MRSolarRadiation_8cs" ],
     [ "MRSolidOfRevolution.cs", "MRSolidOfRevolution_8cs.html", "MRSolidOfRevolution_8cs" ],

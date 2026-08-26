@@ -1,0 +1,848 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRShrinkwrap_8h" kind="file" language="C++">
+    <compoundname>MRShrinkwrap.h</compoundname>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRShrinkwrap.h</label>
+        <link refid="MRShrinkwrap_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" prot="public" static="no">
+        <type>struct <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref></type>
+        <definition>typedef struct MR_ShrinkwrapParameters MR_ShrinkwrapParameters</definition>
+        <argsstring></argsstring>
+        <name>MR_ShrinkwrapParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::ShrinkwrapParameters</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::MeshProjectionParameters</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="26" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a77f7174c5822f15f2fd93d0d9fe0a649" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_ShrinkwrapParameters_Get_offset</definition>
+        <argsstring>(const MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_Get_offset</name>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>each vertex is displaced by this distance from the closest point found, along the pseudonormal of refMesh there: positive - outside refMesh, negative - inside; measured in refMesh coordinates Returns a pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="34" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="34" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1ade3b5e577ce1eb640b01dacf3881fbb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ShrinkwrapParameters_Set_offset</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this, float value)</argsstring>
+        <name>MR_ShrinkwrapParameters_Set_offset</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>each vertex is displaced by this distance from the closest point found, along the pseudonormal of refMesh there: positive - outside refMesh, negative - inside; measured in refMesh coordinates Modifies a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>offset</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a089bfda742c2c7d9936b777aa62f9d7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_ShrinkwrapParameters_GetMutable_offset</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_GetMutable_offset</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>each vertex is displaced by this distance from the closest point found, along the pseudonormal of refMesh there: positive - outside refMesh, negative - inside; measured in refMesh coordinates Returns a mutable pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>offset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="49" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="49" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1ae584df926b33b2b7ffe25fba536286dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
+        <definition>MRC_API const MR_VertBitSet *const  * MR_ShrinkwrapParameters_Get_region</definition>
+        <argsstring>(const MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_Get_region</name>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if provided then only the vertices from this region are moved, and the others remain in place Returns a pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="56" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="56" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a1ea595c74317999b3e2ef95b3fb18864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ShrinkwrapParameters_Set_region</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this, const MR_VertBitSet *value)</argsstring>
+        <name>MR_ShrinkwrapParameters_Set_region</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if provided then only the vertices from this region are moved, and the others remain in place Modifies a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="63" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a530d055a1b0a3ed644abba9d28166bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
+        <definition>MRC_API const MR_VertBitSet ** MR_ShrinkwrapParameters_GetMutable_region</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_GetMutable_region</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if provided then only the vertices from this region are moved, and the others remain in place Returns a mutable pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="70" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="70" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1af07819302ebd7b81ffd4e78b6be1bbcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *const *</type>
+        <definition>MRC_API MR_IPointsToMeshProjector *const  * MR_ShrinkwrapParameters_Get_projector</definition>
+        <argsstring>(const MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_Get_projector</name>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if provided then the projections are computed by it, otherwise CPU&apos;s computations are used Returns a pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>projector</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="77" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="77" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a30f2cd8768b9f2b0b5bf6926be6d0606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ShrinkwrapParameters_Set_projector</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this, MR_IPointsToMeshProjector *value)</argsstring>
+        <name>MR_ShrinkwrapParameters_Set_projector</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if provided then the projections are computed by it, otherwise CPU&apos;s computations are used Modifies a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>projector</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>projector</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>projector</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="84" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1af48b4484af6a5341896b25d783159e02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> **</type>
+        <definition>MRC_API MR_IPointsToMeshProjector ** MR_ShrinkwrapParameters_GetMutable_projector</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_GetMutable_projector</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if provided then the projections are computed by it, otherwise CPU&apos;s computations are used Returns a mutable pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>projector</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="91" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="91" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1ab776411891d6679f3fc021fff7970b7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_ShrinkwrapParameters_Get_loDistLimitSq</definition>
+        <argsstring>(const MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_Get_loDistLimitSq</name>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a test point to mesh to be computed precisely, if a mesh point is found within this distance then it is immediately returned without searching for a closer one Returns a pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>loDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="99" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="99" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a9584e30fd049aefce3140dbd399604ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ShrinkwrapParameters_Set_loDistLimitSq</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this, float value)</argsstring>
+        <name>MR_ShrinkwrapParameters_Set_loDistLimitSq</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a test point to mesh to be computed precisely, if a mesh point is found within this distance then it is immediately returned without searching for a closer one Modifies a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>loDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>loDistLimitSq</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="106" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="106" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a8e79265df255583fefdb72d7e52c444b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_ShrinkwrapParameters_GetMutable_loDistLimitSq</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_GetMutable_loDistLimitSq</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a test point to mesh to be computed precisely, if a mesh point is found within this distance then it is immediately returned without searching for a closer one Returns a mutable pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>loDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="114" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="114" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1ab636e0f6fe253df9cbbb951d6a8f0994" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_ShrinkwrapParameters_Get_upDistLimitSq</definition>
+        <argsstring>(const MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_Get_upDistLimitSq</name>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a test point to mesh to be computed precisely, if actual distance is larger than upDistLimit will be returned with not-trusted sign Returns a pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="122" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="122" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1abcf909c32ecbb022d2fffd472872b68a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ShrinkwrapParameters_Set_upDistLimitSq</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this, float value)</argsstring>
+        <name>MR_ShrinkwrapParameters_Set_upDistLimitSq</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a test point to mesh to be computed precisely, if actual distance is larger than upDistLimit will be returned with not-trusted sign Modifies a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>upDistLimitSq</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="129" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a1548855b7e5f8624e89c7bbc1a582b60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_ShrinkwrapParameters_GetMutable_upDistLimitSq</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_GetMutable_upDistLimitSq</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a test point to mesh to be computed precisely, if actual distance is larger than upDistLimit will be returned with not-trusted sign Returns a mutable pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="137" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="137" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a867c366d4e21d0d89e7a7d57ab23459e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *const *</type>
+        <definition>MRC_API const MR_AffineXf3f *const  * MR_ShrinkwrapParameters_Get_refXf</definition>
+        <argsstring>(const MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_Get_refXf</name>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional reference mesh to world transformation Returns a pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>refXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="144" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="144" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1aac8fb8ca3be9366fd725b12dfb77a96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ShrinkwrapParameters_Set_refXf</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this, const MR_AffineXf3f *value)</argsstring>
+        <name>MR_ShrinkwrapParameters_Set_refXf</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional reference mesh to world transformation Modifies a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>refXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>refXf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>refXf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="151" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="151" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a40d29209beea1951d224870ac8a06e09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
+        <definition>MRC_API const MR_AffineXf3f ** MR_ShrinkwrapParameters_GetMutable_refXf</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_GetMutable_refXf</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional reference mesh to world transformation Returns a mutable pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>refXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="158" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="158" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a195b6d236c08b76e4a786149c6bf483f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *const *</type>
+        <definition>MRC_API const MR_AffineXf3f *const  * MR_ShrinkwrapParameters_Get_xf</definition>
+        <argsstring>(const MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_Get_xf</name>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional test points to world transformation Returns a pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="165" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="165" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1ac10939159fd76ea0e7209942a6d9e3f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ShrinkwrapParameters_Set_xf</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this, const MR_AffineXf3f *value)</argsstring>
+        <name>MR_ShrinkwrapParameters_Set_xf</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional test points to world transformation Modifies a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="172" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1abc53b91ff315de5216930986a41d5e49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
+        <definition>MRC_API const MR_AffineXf3f ** MR_ShrinkwrapParameters_GetMutable_xf</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_GetMutable_xf</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional test points to world transformation Returns a mutable pointer to a member variable of class <computeroutput>MR::ShrinkwrapParameters</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="179" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="179" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a7515cdbb3c6eab144c8e2be182e73a4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+        <definition>MRC_API MR_ShrinkwrapParameters * MR_ShrinkwrapParameters_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_ShrinkwrapParameters_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRShrinkwrap_8h_1a933a8257b86df9a4b36758770b43dcfa" kindref="member">MR_ShrinkwrapParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="183" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="183" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a5981f888920d9acfc8b5c3411097a599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+        <definition>MRC_API MR_ShrinkwrapParameters * MR_ShrinkwrapParameters_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_ShrinkwrapParameters_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRShrinkwrap_8h_1a010b07cc5296df9aedadf77cc833c0a2" kindref="member">MR_ShrinkwrapParameters_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRShrinkwrap_8h_1a49a2df873e20243e8311409af750beba" kindref="member">MR_ShrinkwrapParameters_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRShrinkwrap_8h_1a923245376a7f78163541a6cc460b66da" kindref="member">MR_ShrinkwrapParameters_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="188" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="188" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a923245376a7f78163541a6cc460b66da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+        <definition>MRC_API const MR_ShrinkwrapParameters * MR_ShrinkwrapParameters_OffsetPtr</definition>
+        <argsstring>(const MR_ShrinkwrapParameters *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ShrinkwrapParameters_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="192" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="192" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a49a2df873e20243e8311409af750beba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+        <definition>MRC_API MR_ShrinkwrapParameters * MR_ShrinkwrapParameters_OffsetMutablePtr</definition>
+        <argsstring>(MR_ShrinkwrapParameters *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ShrinkwrapParameters_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="196" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="196" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1ac34f6a1d1ae5b17484e7e3f72f83c7a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+        <definition>MRC_API const MR_MeshProjectionParameters * MR_ShrinkwrapParameters_UpcastTo_MR_MeshProjectionParameters</definition>
+        <argsstring>(const MR_ShrinkwrapParameters *object)</argsstring>
+        <name>MR_ShrinkwrapParameters_UpcastTo_MR_MeshProjectionParameters</name>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ShrinkwrapParameters</computeroutput> to its base class <computeroutput>MR::MeshProjectionParameters</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="201" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="201" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a86f0d63c7b5fbb21723c671b14d97a25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+        <definition>MRC_API MR_MeshProjectionParameters * MR_ShrinkwrapParameters_MutableUpcastTo_MR_MeshProjectionParameters</definition>
+        <argsstring>(MR_ShrinkwrapParameters *object)</argsstring>
+        <name>MR_ShrinkwrapParameters_MutableUpcastTo_MR_MeshProjectionParameters</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ShrinkwrapParameters</computeroutput> to its base class <computeroutput>MR::MeshProjectionParameters</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="205" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="205" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a9ab1299924adac174235123b303be286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+        <definition>MRC_API const MR_ShrinkwrapParameters * MR_ShrinkwrapParameters_StaticDowncastFrom_MR_MeshProjectionParameters</definition>
+        <argsstring>(const MR_MeshProjectionParameters *object)</argsstring>
+        <name>MR_ShrinkwrapParameters_StaticDowncastFrom_MR_MeshProjectionParameters</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::MeshProjectionParameters</computeroutput> to a derived class <computeroutput>MR::ShrinkwrapParameters</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="211" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="211" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a3f0b8b596e2a8c78c8b09d3a9f92360a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+        <definition>MRC_API MR_ShrinkwrapParameters * MR_ShrinkwrapParameters_MutableStaticDowncastFrom_MR_MeshProjectionParameters</definition>
+        <argsstring>(MR_MeshProjectionParameters *object)</argsstring>
+        <name>MR_ShrinkwrapParameters_MutableStaticDowncastFrom_MR_MeshProjectionParameters</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::MeshProjectionParameters</computeroutput> to a derived class <computeroutput>MR::ShrinkwrapParameters</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="216" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="216" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1ac93929a877623148a882d0c9e99cb528" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+        <definition>MRC_API MR_ShrinkwrapParameters * MR_ShrinkwrapParameters_ConstructFromAnother</definition>
+        <argsstring>(const MR_ShrinkwrapParameters *_other)</argsstring>
+        <name>MR_ShrinkwrapParameters_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ShrinkwrapParameters::ShrinkwrapParameters</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRShrinkwrap_8h_1a933a8257b86df9a4b36758770b43dcfa" kindref="member">MR_ShrinkwrapParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="222" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="222" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a933a8257b86df9a4b36758770b43dcfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ShrinkwrapParameters_Destroy</definition>
+        <argsstring>(const MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_Destroy</name>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="225" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a010b07cc5296df9aedadf77cc833c0a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ShrinkwrapParameters_DestroyArray</definition>
+        <argsstring>(const MR_ShrinkwrapParameters *_this)</argsstring>
+        <name>MR_ShrinkwrapParameters_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="228" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a6074f3f270d43822968b06118e05d80b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+        <definition>MRC_API MR_ShrinkwrapParameters * MR_ShrinkwrapParameters_AssignFromAnother</definition>
+        <argsstring>(MR_ShrinkwrapParameters *_this, const MR_ShrinkwrapParameters *_other)</argsstring>
+        <name>MR_ShrinkwrapParameters_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ShrinkwrapParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="236" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="236" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1a37a6978bf62a85616cb288a26c532e68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_shrinkwrap</definition>
+        <argsstring>(MR_Mesh *mesh, const MR_Mesh *refMesh, const MR_ShrinkwrapParameters *params, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_shrinkwrap</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>refMesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>moves every vertex of the mesh in the closest point on the reference mesh; the vertices having no projection within MeshProjectionParameters::upDistLimitSq remain in place; this function changes vertex coordinates only, keeping mesh topology intact, so the result can self-intersect where refMesh is concave, and a non-zero offset makes it much more likely; consider offsetMesh(...) if a self-intersection free result is required <simplesect kind="return"><para>false if the operation was canceled by the progress callback Generated from function <computeroutput>MR::shrinkwrap</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>refMesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRShrinkwrap_8h_1abd74af7578e4af5dd02bbaf1cc305bff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertCoords * MR_findShrinkwrapPositions</definition>
+        <argsstring>(const MR_Mesh *mesh, const MR_Mesh *refMesh, const MR_ShrinkwrapParameters *params, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_findShrinkwrapPositions</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>refMesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes for every vertex of the mesh its closest point on the reference mesh, leaving the vertices having no projection within MeshProjectionParameters::upDistLimitSq in place; the result is expressed in the coordinates of the mesh being projected <simplesect kind="return"><para>no value if the operation was canceled by the progress callback Generated from function <computeroutput>MR::findShrinkwrapPositions</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>refMesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__VertCoords_8h_1a88c7d4b5c4f41fcd1868caf761fb06a6" kindref="member">MR_std_optional_MR_VertCoords_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" line="265" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h" declline="265" declcolumn="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointsToMeshProjector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointsToMeshProjector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_VertCoords.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRShrinkwrap_8h_1a77f7174c5822f15f2fd93d0d9fe0a649" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRShrinkwrap_8h_1a77f7174c5822f15f2fd93d0d9fe0a649" kindref="member">MR_ShrinkwrapParameters_Get_offset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRShrinkwrap_8h_1ade3b5e577ce1eb640b01dacf3881fbb5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1ade3b5e577ce1eb640b01dacf3881fbb5" kindref="member">MR_ShrinkwrapParameters_Set_offset</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="MRShrinkwrap_8h_1a089bfda742c2c7d9936b777aa62f9d7c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRShrinkwrap_8h_1a089bfda742c2c7d9936b777aa62f9d7c" kindref="member">MR_ShrinkwrapParameters_GetMutable_offset</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRShrinkwrap_8h_1ae584df926b33b2b7ffe25fba536286dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRShrinkwrap_8h_1ae584df926b33b2b7ffe25fba536286dd" kindref="member">MR_ShrinkwrapParameters_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRShrinkwrap_8h_1a1ea595c74317999b3e2ef95b3fb18864" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1a1ea595c74317999b3e2ef95b3fb18864" kindref="member">MR_ShrinkwrapParameters_Set_region</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRShrinkwrap_8h_1a530d055a1b0a3ed644abba9d28166bc7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRShrinkwrap_8h_1a530d055a1b0a3ed644abba9d28166bc7" kindref="member">MR_ShrinkwrapParameters_GetMutable_region</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRShrinkwrap_8h_1af07819302ebd7b81ffd4e78b6be1bbcc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRShrinkwrap_8h_1af07819302ebd7b81ffd4e78b6be1bbcc" kindref="member">MR_ShrinkwrapParameters_Get_projector</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRShrinkwrap_8h_1a30f2cd8768b9f2b0b5bf6926be6d0606" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1a30f2cd8768b9f2b0b5bf6926be6d0606" kindref="member">MR_ShrinkwrapParameters_Set_projector</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this,<sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRShrinkwrap_8h_1af48b4484af6a5341896b25d783159e02" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>**<ref refid="MRShrinkwrap_8h_1af48b4484af6a5341896b25d783159e02" kindref="member">MR_ShrinkwrapParameters_GetMutable_projector</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="MRShrinkwrap_8h_1ab776411891d6679f3fc021fff7970b7d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRShrinkwrap_8h_1ab776411891d6679f3fc021fff7970b7d" kindref="member">MR_ShrinkwrapParameters_Get_loDistLimitSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRShrinkwrap_8h_1a9584e30fd049aefce3140dbd399604ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1a9584e30fd049aefce3140dbd399604ac" kindref="member">MR_ShrinkwrapParameters_Set_loDistLimitSq</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRShrinkwrap_8h_1a8e79265df255583fefdb72d7e52c444b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRShrinkwrap_8h_1a8e79265df255583fefdb72d7e52c444b" kindref="member">MR_ShrinkwrapParameters_GetMutable_loDistLimitSq</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRShrinkwrap_8h_1ab636e0f6fe253df9cbbb951d6a8f0994" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRShrinkwrap_8h_1ab636e0f6fe253df9cbbb951d6a8f0994" kindref="member">MR_ShrinkwrapParameters_Get_upDistLimitSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRShrinkwrap_8h_1abcf909c32ecbb022d2fffd472872b68a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1abcf909c32ecbb022d2fffd472872b68a" kindref="member">MR_ShrinkwrapParameters_Set_upDistLimitSq</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRShrinkwrap_8h_1a1548855b7e5f8624e89c7bbc1a582b60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRShrinkwrap_8h_1a1548855b7e5f8624e89c7bbc1a582b60" kindref="member">MR_ShrinkwrapParameters_GetMutable_upDistLimitSq</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="MRShrinkwrap_8h_1a867c366d4e21d0d89e7a7d57ab23459e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRShrinkwrap_8h_1a867c366d4e21d0d89e7a7d57ab23459e" kindref="member">MR_ShrinkwrapParameters_Get_refXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="MRShrinkwrap_8h_1aac8fb8ca3be9366fd725b12dfb77a96a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aac8fb8ca3be9366fd725b12dfb77a96a" kindref="member">MR_ShrinkwrapParameters_Set_refXf</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRShrinkwrap_8h_1a40d29209beea1951d224870ac8a06e09" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRShrinkwrap_8h_1a40d29209beea1951d224870ac8a06e09" kindref="member">MR_ShrinkwrapParameters_GetMutable_refXf</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRShrinkwrap_8h_1a195b6d236c08b76e4a786149c6bf483f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRShrinkwrap_8h_1a195b6d236c08b76e4a786149c6bf483f" kindref="member">MR_ShrinkwrapParameters_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="MRShrinkwrap_8h_1ac10939159fd76ea0e7209942a6d9e3f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1ac10939159fd76ea0e7209942a6d9e3f5" kindref="member">MR_ShrinkwrapParameters_Set_xf</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="MRShrinkwrap_8h_1abc53b91ff315de5216930986a41d5e49" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRShrinkwrap_8h_1abc53b91ff315de5216930986a41d5e49" kindref="member">MR_ShrinkwrapParameters_GetMutable_xf</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRShrinkwrap_8h_1a7515cdbb3c6eab144c8e2be182e73a4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*<ref refid="MRShrinkwrap_8h_1a7515cdbb3c6eab144c8e2be182e73a4f" kindref="member">MR_ShrinkwrapParameters_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRShrinkwrap_8h_1a5981f888920d9acfc8b5c3411097a599" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*<ref refid="MRShrinkwrap_8h_1a5981f888920d9acfc8b5c3411097a599" kindref="member">MR_ShrinkwrapParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="MRShrinkwrap_8h_1a923245376a7f78163541a6cc460b66da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*<ref refid="MRShrinkwrap_8h_1a923245376a7f78163541a6cc460b66da" kindref="member">MR_ShrinkwrapParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="MRShrinkwrap_8h_1a49a2df873e20243e8311409af750beba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*<ref refid="MRShrinkwrap_8h_1a49a2df873e20243e8311409af750beba" kindref="member">MR_ShrinkwrapParameters_OffsetMutablePtr</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="MRShrinkwrap_8h_1ac34f6a1d1ae5b17484e7e3f72f83c7a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*<ref refid="MRShrinkwrap_8h_1ac34f6a1d1ae5b17484e7e3f72f83c7a5" kindref="member">MR_ShrinkwrapParameters_UpcastTo_MR_MeshProjectionParameters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRShrinkwrap_8h_1a86f0d63c7b5fbb21723c671b14d97a25" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*<ref refid="MRShrinkwrap_8h_1a86f0d63c7b5fbb21723c671b14d97a25" kindref="member">MR_ShrinkwrapParameters_MutableUpcastTo_MR_MeshProjectionParameters</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="MRShrinkwrap_8h_1a9ab1299924adac174235123b303be286" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*<ref refid="MRShrinkwrap_8h_1a9ab1299924adac174235123b303be286" kindref="member">MR_ShrinkwrapParameters_StaticDowncastFrom_MR_MeshProjectionParameters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="MRShrinkwrap_8h_1a3f0b8b596e2a8c78c8b09d3a9f92360a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*<ref refid="MRShrinkwrap_8h_1a3f0b8b596e2a8c78c8b09d3a9f92360a" kindref="member">MR_ShrinkwrapParameters_MutableStaticDowncastFrom_MR_MeshProjectionParameters</ref>(<ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="MRShrinkwrap_8h_1ac93929a877623148a882d0c9e99cb528" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*<ref refid="MRShrinkwrap_8h_1ac93929a877623148a882d0c9e99cb528" kindref="member">MR_ShrinkwrapParameters_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRShrinkwrap_8h_1a933a8257b86df9a4b36758770b43dcfa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1a933a8257b86df9a4b36758770b43dcfa" kindref="member">MR_ShrinkwrapParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MRShrinkwrap_8h_1a010b07cc5296df9aedadf77cc833c0a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1a010b07cc5296df9aedadf77cc833c0a2" kindref="member">MR_ShrinkwrapParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MRShrinkwrap_8h_1a6074f3f270d43822968b06118e05d80b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*<ref refid="MRShrinkwrap_8h_1a6074f3f270d43822968b06118e05d80b" kindref="member">MR_ShrinkwrapParameters_AssignFromAnother</ref>(<ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="MRShrinkwrap_8h_1a37a6978bf62a85616cb288a26c532e68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1a37a6978bf62a85616cb288a26c532e68" kindref="member">MR_shrinkwrap</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*refMesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="MRShrinkwrap_8h_1abd74af7578e4af5dd02bbaf1cc305bff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/>*<ref refid="MRShrinkwrap_8h_1abd74af7578e4af5dd02bbaf1cc305bff" kindref="member">MR_findShrinkwrapPositions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*refMesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRShrinkwrap_8h_1aeba5f2548726fddea71b825e13a72fb7" kindref="member">MR_ShrinkwrapParameters</ref><sp/>*params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRShrinkwrap.h"/>
+  </compounddef>
+</doxygen>

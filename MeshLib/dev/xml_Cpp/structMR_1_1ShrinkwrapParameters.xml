@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ShrinkwrapParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ShrinkwrapParameters</compoundname>
+    <basecompoundref refid="structMR_1_1MeshProjectionParameters" prot="public" virt="non-virtual">MR::MeshProjectionParameters</basecompoundref>
+    <includes refid="MRShrinkwrap_8h" local="no">MRMesh/MRShrinkwrap.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ShrinkwrapParameters_1a183a87107e261430e1f648901026b0eb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ShrinkwrapParameters::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <qualifiedname>MR::ShrinkwrapParameters::offset</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>each vertex is displaced by this distance from the closest point found, along the pseudonormal of refMesh there: positive - outside refMesh, negative - inside; measured in refMesh coordinates </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRShrinkwrap.h" line="17" column="11" bodyfile="MRMesh/MRShrinkwrap.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ShrinkwrapParameters_1a6494558a624f34d76f7b2c33730173b6" prot="public" static="no" mutable="no">
+        <type>const VertBitSet *</type>
+        <definition>const VertBitSet* MR::ShrinkwrapParameters::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::ShrinkwrapParameters::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>if provided then only the vertices from this region are moved, and the others remain in place </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRShrinkwrap.h" line="20" column="23" bodyfile="MRMesh/MRShrinkwrap.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ShrinkwrapParameters_1a7e99b9b0dac6abe3e30c3f2f95b2c5d4" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1IPointsToMeshProjector" kindref="compound">IPointsToMeshProjector</ref> *</type>
+        <definition>IPointsToMeshProjector* MR::ShrinkwrapParameters::projector</definition>
+        <argsstring></argsstring>
+        <name>projector</name>
+        <qualifiedname>MR::ShrinkwrapParameters::projector</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>if provided then the projections are computed by it, otherwise CPU&apos;s computations are used </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRShrinkwrap.h" line="23" column="29" bodyfile="MRMesh/MRShrinkwrap.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::MeshProjectionParameters</label>
+        <link refid="structMR_1_1MeshProjectionParameters"/>
+      </node>
+      <node id="1">
+        <label>MR::ShrinkwrapParameters</label>
+        <link refid="structMR_1_1ShrinkwrapParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::IPointsToMeshProjector</label>
+        <link refid="classMR_1_1IPointsToMeshProjector"/>
+      </node>
+      <node id="2">
+        <label>MR::MeshProjectionParameters</label>
+        <link refid="structMR_1_1MeshProjectionParameters"/>
+      </node>
+      <node id="1">
+        <label>MR::ShrinkwrapParameters</label>
+        <link refid="structMR_1_1ShrinkwrapParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>projector</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRShrinkwrap.h" line="13" column="1" bodyfile="MRMesh/MRShrinkwrap.h" bodystart="14" bodyend="24"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga1c122d1dc6393cbf06a33b2b7d33ef8e" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>loDistLimitSq</name></member>
+      <member refid="structMR_1_1ShrinkwrapParameters_1a183a87107e261430e1f648901026b0eb" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>offset</name></member>
+      <member refid="structMR_1_1ShrinkwrapParameters_1a7e99b9b0dac6abe3e30c3f2f95b2c5d4" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>projector</name></member>
+      <member refid="group__GeneralGroup_1ga758389fe44297258e47fdd1ef104916b" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>refXf</name></member>
+      <member refid="structMR_1_1ShrinkwrapParameters_1a6494558a624f34d76f7b2c33730173b6" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga93e080458c496f555a43b92f40f7e547" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>upDistLimitSq</name></member>
+      <member refid="group__GeneralGroup_1ga7ce5f16c30935b50d1c953fc917000dc" prot="public" virt="non-virtual"><scope>MR::ShrinkwrapParameters</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

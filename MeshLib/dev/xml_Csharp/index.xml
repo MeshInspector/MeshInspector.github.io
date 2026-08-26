@@ -19113,6 +19113,30 @@
     <member refid="classMR_1_1Const__ShellVertexInfo_1a2cfe3f9b52516cf7c81040f23751d028" kind="function"><name>~Const_ShellVertexInfo</name></member>
     <member refid="classMR_1_1Const__ShellVertexInfo_1a94fd023f3de47869ffbeeb5d802fb199" kind="function"><name>Const_ShellVertexInfo</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__ShrinkwrapParameters" kind="class"><name>MR::Const_ShrinkwrapParameters</name>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a87fbbb0cb100631f8765e3ca3e458c87" kind="property"><name>offset</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1ac4093a3c4ac1b73c480984e6a668786e" kind="property"><name>region</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a0ea9f00219ed9c41f02baf517bf6f95f" kind="property"><name>projector</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a18b3a9906ca5caec14bc6596c6fa9dfc" kind="property"><name>loDistLimitSq</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a7e1bd336bb36f5eb3f6e0188b77526e6" kind="property"><name>upDistLimitSq</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1ae3b0bfa00578aeaf914981aa57135805" kind="property"><name>refXf</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a5bb8fe138398ba6cb84a02f1eae3915c" kind="property"><name>xf</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a5b5b98882c571af24210d8ce2991a871" kind="variable"><name>__ref_storage_offset</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a5c48d3331c0b783cfe0c96865f13d7be" kind="variable"><name>__ptr_storage_region</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a57fface6ec1a70817fb98431e5f93b56" kind="variable"><name>__ptr_storage_projector</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a3c073e74cd10f82175c399769f0c90f1" kind="variable"><name>__ref_storage_loDistLimitSq</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1aa52ae7dedb146e8adc743f1148ffb260" kind="variable"><name>__ref_storage_upDistLimitSq</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a9dfb110c43fbbcaf8eb421febb9cd10c" kind="variable"><name>__ptr_storage_refXf</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a812bd2cb49c73e4a472a75b455f569d1" kind="variable"><name>__ptr_storage_xf</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1ad1368e16d8023c79c156ac692b7baa9b" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1acb02e7ebe2032b7ba32a371957b51c8f" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1aaafca933af4c96adb3f6d76ba49d37c4" kind="function"><name>Const_ShrinkwrapParameters</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1af0325bf993b9b775add6c1b8dae590de" kind="function"><name>Const_ShrinkwrapParameters</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1aee70880e1e0f4457db57d942587d19ae" kind="function"><name>Const_ShrinkwrapParameters</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a91fcb84199a27a524de20b7dacf37384" kind="function"><name>~Const_ShrinkwrapParameters</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1a4b8c1845740339b046bae1d0177640ef" kind="function"><name>operator MR.Const_MeshProjectionParameters</name></member>
+    <member refid="classMR_1_1Const__ShrinkwrapParameters_1af6a49a7d9107dcf5aa3008924920d8b6" kind="function"><name>Const_ShrinkwrapParameters</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__SignedDistanceToMeshOptions" kind="class"><name>MR::Const_SignedDistanceToMeshOptions</name>
     <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1ac8afb4f34e537eb278eee5693ed30924" kind="property"><name>signMode</name></member>
     <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1a0495c93e005e7045b12fafa93d26ae1a" kind="property"><name>minDistSq</name></member>
@@ -33476,6 +33500,8 @@
     <member refid="classMR_1a650432941efed7583f03292e595e1040" kind="function"><name>findSegmentBoundaries</name></member>
     <member refid="classMR_1ad02456448a04959c5b886d2dae32efad" kind="function"><name>serializeMesh</name></member>
     <member refid="classMR_1ab23f22a433e21b6db77c54416580f6d6" kind="function"><name>sharpenMarchingCubesMesh</name></member>
+    <member refid="classMR_1a604fb81efcc89e5c4825e94756b3960c" kind="function"><name>shrinkwrap</name></member>
+    <member refid="classMR_1aa40a37b910a685d2f6b35c70e4eed793" kind="function"><name>findShrinkwrapPositions</name></member>
     <member refid="classMR_1a802492630bb6f8d449f1b3acf184bbde" kind="function"><name>asString</name></member>
     <member refid="classMR_1a311934c7866322cde555668d43870ae4" kind="function"><name>sampleHalfSphere</name></member>
     <member refid="classMR_1ad00c0daebbe5f1d916e766b62ae76db9" kind="function"><name>computeSkyViewFactor</name></member>
@@ -38300,6 +38326,21 @@
     <member refid="classMR_1_1ShellVertexInfo_1a5bc16f741e350ed1fcb2925ab0d68640" kind="function"><name>ShellVertexInfo</name></member>
     <member refid="classMR_1_1ShellVertexInfo_1a44383a10e7b570c44464be97bcb4dc8e" kind="function"><name>ShellVertexInfo</name></member>
     <member refid="classMR_1_1ShellVertexInfo_1a2d4e6661d744a45562f0e5eef498d734" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1ShrinkwrapParameters" kind="class"><name>MR::ShrinkwrapParameters</name>
+    <member refid="classMR_1_1ShrinkwrapParameters_1a787a135528bdefd5a8bea9e71402a370" kind="property"><name>offset</name></member>
+    <member refid="classMR_1_1ShrinkwrapParameters_1a9552a51f165527133135aabde225f7e5" kind="property"><name>region</name></member>
+    <member refid="classMR_1_1ShrinkwrapParameters_1a4ff425124448f323e81a24b83abe4574" kind="property"><name>projector</name></member>
+    <member refid="classMR_1_1ShrinkwrapParameters_1a532e6e81cea04a8440c1080278efd6d8" kind="property"><name>loDistLimitSq</name></member>
+    <member refid="classMR_1_1ShrinkwrapParameters_1af4bb81f3e292e5c3d179ddf55426c5c5" kind="property"><name>upDistLimitSq</name></member>
+    <member refid="classMR_1_1ShrinkwrapParameters_1af8fdc81c86b7f067895f67e022b1db8a" kind="property"><name>refXf</name></member>
+    <member refid="classMR_1_1ShrinkwrapParameters_1a81047151fa54414c3d6e7c55371b888c" kind="property"><name>xf</name></member>
+    <member refid="classMR_1_1ShrinkwrapParameters_1a27270182f29153a0e5fae1edf6604572" kind="function"><name>operator MR.MeshProjectionParameters</name></member>
+    <member refid="classMR_1_1ShrinkwrapParameters_1a64ebdd930b32cf9f7524d6ed53ffe5d1" kind="function"><name>ShrinkwrapParameters</name></member>
+    <member refid="classMR_1_1ShrinkwrapParameters_1a89e53bc4896b3acf00c10a229be655ac" kind="function"><name>ShrinkwrapParameters</name></member>
+    <member refid="classMR_1_1ShrinkwrapParameters_1a319c2ecb8e1d7e22958b2e16d2421282" kind="function"><name>ShrinkwrapParameters</name></member>
+    <member refid="classMR_1_1ShrinkwrapParameters_1a2eca59240d13dd5f4b6734a579e982a6" kind="function"><name>ShrinkwrapParameters</name></member>
+    <member refid="classMR_1_1ShrinkwrapParameters_1aee59c75008cca287f2e2b584b7a87d65" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1SignedDistanceToMeshOptions" kind="class"><name>MR::SignedDistanceToMeshOptions</name>
     <member refid="classMR_1_1SignedDistanceToMeshOptions_1aec5eafe75e5cdd99c6cdc985243c1410" kind="property"><name>signMode</name></member>
@@ -44129,6 +44170,8 @@
   <compound refid="MRSerializer_8cs" kind="file"><name>MRSerializer.cs</name>
   </compound>
   <compound refid="MRSharpenMarchingCubesMesh_8cs" kind="file"><name>MRSharpenMarchingCubesMesh.cs</name>
+  </compound>
+  <compound refid="MRShrinkwrap_8cs" kind="file"><name>MRShrinkwrap.cs</name>
   </compound>
   <compound refid="MRSignDetectionMode_8cs" kind="file"><name>MRSignDetectionMode.cs</name>
   </compound>

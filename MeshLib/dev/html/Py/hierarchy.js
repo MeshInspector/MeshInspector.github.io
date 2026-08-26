@@ -711,7 +711,9 @@ var hierarchy =
     [ "mrmeshpy.MeshBuilder.MeshPiece", "classmrmeshpy_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "mrmeshpy.MeshPoint", "classmrmeshpy_1_1MeshPoint.html", null ],
     [ "mrmeshpy.MeshPointAndDistance", "classmrmeshpy_1_1MeshPointAndDistance.html", null ],
-    [ "mrmeshpy.MeshProjectionParameters", "classmrmeshpy_1_1MeshProjectionParameters.html", null ],
+    [ "mrmeshpy.MeshProjectionParameters", "classmrmeshpy_1_1MeshProjectionParameters.html", [
+      [ "mrmeshpy.ShrinkwrapParameters", "classmrmeshpy_1_1ShrinkwrapParameters.html", null ]
+    ] ],
     [ "mrmeshpy.MeshProjectionResult", "classmrmeshpy_1_1MeshProjectionResult.html", null ],
     [ "mrmeshpy.MeshProjectionTransforms", "classmrmeshpy_1_1MeshProjectionTransforms.html", null ],
     [ "mrmeshpy.MeshSave", "classmrmeshpy_1_1MeshSave.html", null ],

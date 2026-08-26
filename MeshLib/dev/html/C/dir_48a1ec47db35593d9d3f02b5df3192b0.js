@@ -321,6 +321,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRSeparationPoint.h", "MRSeparationPoint_8h.html", "MRSeparationPoint_8h" ],
     [ "MRSerializer.h", "MRSerializer_8h.html", "MRSerializer_8h" ],
     [ "MRSharpenMarchingCubesMesh.h", "MRSharpenMarchingCubesMesh_8h.html", "MRSharpenMarchingCubesMesh_8h" ],
+    [ "MRShrinkwrap.h", "MRShrinkwrap_8h.html", "MRShrinkwrap_8h" ],
     [ "MRSignDetectionMode.h", "MRSignDetectionMode_8h.html", "MRSignDetectionMode_8h" ],
     [ "MRSolarRadiation.h", "MRSolarRadiation_8h.html", "MRSolarRadiation_8h" ],
     [ "MRSolidOfRevolution.h", "MRSolidOfRevolution_8h.html", "MRSolidOfRevolution_8h" ],

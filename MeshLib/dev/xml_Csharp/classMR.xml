@@ -819,6 +819,7 @@
     <innerclass refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings" prot="public">MR::Const_SharpenMarchingCubesMeshSettings</innerclass>
     <innerclass refid="classMR_1_1Const__SharpOffsetParameters" prot="public">MR::Const_SharpOffsetParameters</innerclass>
     <innerclass refid="classMR_1_1Const__ShellVertexInfo" prot="public">MR::Const_ShellVertexInfo</innerclass>
+    <innerclass refid="classMR_1_1Const__ShrinkwrapParameters" prot="public">MR::Const_ShrinkwrapParameters</innerclass>
     <innerclass refid="classMR_1_1Const__SignedDistanceToMeshOptions" prot="public">MR::Const_SignedDistanceToMeshOptions</innerclass>
     <innerclass refid="classMR_1_1Const__SignedDistanceToMeshResult" prot="public">MR::Const_SignedDistanceToMeshResult</innerclass>
     <innerclass refid="classMR_1_1Const__SimpleBinaryVolume" prot="public">MR::Const_SimpleBinaryVolume</innerclass>
@@ -1607,6 +1608,7 @@
     <innerclass refid="classMR_1_1SharpenMarchingCubesMeshSettings" prot="public">MR::SharpenMarchingCubesMeshSettings</innerclass>
     <innerclass refid="classMR_1_1SharpOffsetParameters" prot="public">MR::SharpOffsetParameters</innerclass>
     <innerclass refid="classMR_1_1ShellVertexInfo" prot="public">MR::ShellVertexInfo</innerclass>
+    <innerclass refid="classMR_1_1ShrinkwrapParameters" prot="public">MR::ShrinkwrapParameters</innerclass>
     <innerclass refid="classMR_1_1SignedDistanceToMeshOptions" prot="public">MR::SignedDistanceToMeshOptions</innerclass>
     <innerclass refid="classMR_1_1SignedDistanceToMeshResult" prot="public">MR::SignedDistanceToMeshResult</innerclass>
     <innerclass refid="classMR_1_1SimpleBinaryVolume" prot="public">MR::SimpleBinaryVolume</innerclass>
@@ -31988,7 +31990,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="671" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="671" bodyend="676"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="677" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="677" bodyend="682"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abd05f9ea2095962bf0ef0e8046474237" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertScalars" kindref="compound">MR.VertScalars</ref></type>
@@ -32021,7 +32023,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="685" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="685" bodyend="690"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="691" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="691" bodyend="696"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a27cff13c71cb8315c0eb2b10228c920e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgePointPair</type>
@@ -36773,6 +36775,78 @@ do not really keeps volume but tries hard </para>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="401" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="401" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a604fb81efcc89e5c4825e94756b3960c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.shrinkwrap</definition>
+        <argsstring>(MR.Mesh mesh, MR.Const_Mesh refMesh, MR.Const_ShrinkwrapParameters? params_=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>shrinkwrap</name>
+        <qualifiedname>MR.shrinkwrap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>refMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ShrinkwrapParameters" kindref="compound">MR.Const_ShrinkwrapParameters</ref>?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>moves every vertex of the mesh in the closest point on the reference mesh; the vertices having no projection within <ref refid="classMR_1_1MeshProjectionParameters_1a5c2f8886f3e6786c409301351bf17593" kindref="member">MeshProjectionParameters.upDistLimitSq</ref> remain in place; this function changes vertex coordinates only, keeping mesh topology intact, so the result can self-intersect where refMesh is concave, and a non-zero offset makes it much more likely; consider offsetMesh(...) if a self-intersection free result is required </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>false if the operation was canceled by the progress callback Generated from function <computeroutput><ref refid="classMR_1a604fb81efcc89e5c4825e94756b3960c" kindref="member">MR.shrinkwrap</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="410" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="410" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1aa40a37b910a685d2f6b35c70e4eed793" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVertCoords</type>
+        <definition>static unsafe MR.Std.Optional_MRVertCoords MR.findShrinkwrapPositions</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_Mesh refMesh, MR.Const_ShrinkwrapParameters? params_=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>findShrinkwrapPositions</name>
+        <qualifiedname>MR.findShrinkwrapPositions</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>refMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ShrinkwrapParameters" kindref="compound">MR.Const_ShrinkwrapParameters</ref>?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes for every vertex of the mesh its closest point on the reference mesh, leaving the vertices having no projection within <ref refid="classMR_1_1MeshProjectionParameters_1a5c2f8886f3e6786c409301351bf17593" kindref="member">MeshProjectionParameters.upDistLimitSq</ref> in place; the result is expressed in the coordinates of the mesh being projected </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>no value if the operation was canceled by the progress callback Generated from function <computeroutput><ref refid="classMR_1aa40a37b910a685d2f6b35c70e4eed793" kindref="member">MR.findShrinkwrapPositions</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" line="426" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRShrinkwrap.cs" bodystart="426" bodyend="431"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a802492630bb6f8d449f1b3acf184bbde" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe? byte</type>
@@ -54693,6 +54767,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a18d296c841db9ca6d6984fbd0b4672c4" prot="public" virt="non-virtual"><scope>MR</scope><name>findShortEdges</name></member>
       <member refid="classMR_1ab18c3d680d5c9c23e988d7dead8b7c8a" prot="public" virt="non-virtual"><scope>MR</scope><name>findShortestCoLoop</name></member>
       <member refid="classMR_1a495179015bfa8aba5ea3d7f98b4df030" prot="public" virt="non-virtual"><scope>MR</scope><name>findShortestEquivalentLoops</name></member>
+      <member refid="classMR_1aa40a37b910a685d2f6b35c70e4eed793" prot="public" virt="non-virtual"><scope>MR</scope><name>findShrinkwrapPositions</name></member>
       <member refid="classMR_1af11021efa4a8fbedde739d07af5b8cc5" prot="public" virt="non-virtual"><scope>MR</scope><name>findSignedDistance</name></member>
       <member refid="classMR_1ace7b326187b842ec5d4ad4520bf9632d" prot="public" virt="non-virtual"><scope>MR</scope><name>findSignedDistance</name></member>
       <member refid="classMR_1a4b729e0f6d24fd64e64e72975e185ade" prot="public" virt="non-virtual"><scope>MR</scope><name>findSignedDistances</name></member>
@@ -55370,6 +55445,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a45e41f67b41a6c8955919b12653a8d37" prot="public" virt="non-virtual"><scope>MR</scope><name>shrinkFaces</name></member>
       <member refid="classMR_1a840f706b183b2902b3a9fa5c2ce5b0d1" prot="public" virt="non-virtual"><scope>MR</scope><name>shrinkPixelMask</name></member>
       <member refid="classMR_1a29865cf1a02db2d808230eb20fbbf00b" prot="public" virt="non-virtual"><scope>MR</scope><name>shrinkVoxelsMask</name></member>
+      <member refid="classMR_1a604fb81efcc89e5c4825e94756b3960c" prot="public" virt="non-virtual"><scope>MR</scope><name>shrinkwrap</name></member>
       <member refid="classMR_1a29dcb3e30c1418225ff5c8f1bdc4193b" prot="public" virt="non-virtual"><scope>MR</scope><name>Side</name></member>
       <member refid="classMR_1a616095899064d3af43a1861f0ae70fed" prot="public" virt="non-virtual"><scope>MR</scope><name>SignDetectionMode</name></member>
       <member refid="classMR_1aacd4e54997154b3fd8baece917df2044" prot="public" virt="non-virtual"><scope>MR</scope><name>SignDetectionModeShort</name></member>
