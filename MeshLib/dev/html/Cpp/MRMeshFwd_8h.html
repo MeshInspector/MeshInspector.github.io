@@ -542,7 +542,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="group__GeneralGroup.html#gac7ce006afd832c88e2d6e538a89162fe">MR::Locale::translate_noop</a>( __VA_ARGS__ )</div>
-<div class="ttc" id="agroup__GeneralGroup_html_gac7ce006afd832c88e2d6e538a89162fe"><div class="ttname"><a href="group__GeneralGroup.html#gac7ce006afd832c88e2d6e538a89162fe">MR::Locale::translate_noop</a></div><div class="ttdeci">constexpr auto translate_noop(const char *str) noexcept</div><div class="ttdoc">special no-op inline functions to mark string literal as translatable</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:807</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gac7ce006afd832c88e2d6e538a89162fe"><div class="ttname"><a href="group__GeneralGroup.html#gac7ce006afd832c88e2d6e538a89162fe">MR::Locale::translate_noop</a></div><div class="ttdeci">constexpr auto translate_noop(const char *str) noexcept</div><div class="ttdoc">special no-op inline functions to mark string literal as translatable</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:810</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -560,8 +560,8 @@ Variables</h2></td></tr>
 
 <p>Check C++ version. </p>
 <p>Not-zero _ITERATOR_DEBUG_LEVEL in Microsoft STL greatly reduces the performance of STL containers.</p>
-<p>Pre-build binaries from MeshLib distribution are prepared with _ITERATOR_DEBUG_LEVEL=0, and if you build MeshLib by yourself then _ITERATOR_DEBUG_LEVEL=0 is also selected see 1) vcpkg/triplets/x64-windows-meshlib.cmake and 2) MeshLib/source/common.props Please note that all other modules (.exe, .dll, .lib) with MS STL calls in your application also need to define exactly the same value of _ITERATOR_DEBUG_LEVEL to be operational after linking.</p>
-<p>If you deliberately would like to work with not zero _ITERATOR_DEBUG_LEVEL, then please define additionally MR_ITERATOR_DEBUG_LEVEL with the same value to indicate that it is done intentionally (and you are ok with up to 100x slowdown). </p>
+<p>Pre-build binaries from MeshLib distribution are prepared with _ITERATOR_DEBUG_LEVEL=0 (except MeshLibDist-IteratorDebug, which uses 2 and states so in MRMesh/config_dist.h), and if you build MeshLib by yourself then _ITERATOR_DEBUG_LEVEL=0 is also selected see 1) vcpkg/triplets/x64-windows-meshlib.cmake and 2) MeshLib/source/common.props Please note that all other modules (.exe, .dll, .lib) with MS STL calls in your application also need to define exactly the same value of _ITERATOR_DEBUG_LEVEL to be operational after linking.</p>
+<p>If you deliberately would like to work with not zero _ITERATOR_DEBUG_LEVEL, then please define additionally MR_ITERATOR_DEBUG_LEVEL with the same value to indicate that it is done intentionally (and you are ok with up to 100x slowdown), the way vcpkg/triplets/x64-windows-meshlib-iterator-debug.cmake does it for our own build. </p>
 
 </div>
 </div>
