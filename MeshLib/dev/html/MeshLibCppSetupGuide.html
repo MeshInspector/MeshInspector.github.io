@@ -480,7 +480,7 @@ Installing the release build</h3>
 <li>Double-click the downloaded <span class="tt">.pkg</span> and follow the installer. The release asset is the installer itself, so there is nothing to unpack first.</li>
 <li>The framework is installed into <span class="tt">/Library/Frameworks/MeshLib.framework</span>, or into <span class="tt">~/Library/Frameworks/MeshLib.framework</span> if you choose to install for the current user only.</li>
 <li><b>Install Dependencies via Homebrew</b> <br  />
- The <span class="tt">.pkg</span> does not install them, and CMake configuration of a C++ consumer fails without them: <span class="tt">MRMeshConfig.cmake</span> resolves Boost, TBB and six more via <span class="tt">find_dependency</span>. This needs Homebrew — if you do not have it, install it first as described under <a class="el" href="#CppSetupMacOSPrereq">Prerequisites</a>. Open Terminal and run the following command: <div class="fragment"><div class="line">xargs brew install &lt; /Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</div>
+ The <span class="tt">.pkg</span> does not pull in the Homebrew formulae MeshLib links against, so install them yourself. This needs Homebrew — if you do not have it, install it first as described under <a class="el" href="#CppSetupMacOSPrereq">Prerequisites</a>. Open Terminal and run the following command: <div class="fragment"><div class="line">xargs brew install &lt; /Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</div>
 </div><!-- fragment --></li>
 <li>If you installed for the current user only, prefix the path with <span class="tt">~</span>: <span class="tt">~/Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</span>.</li>
 </ul>
@@ -488,7 +488,7 @@ Installing the release build</h3>
 <li><b>Verify the installation</b> <br  />
  Run the checks in <a class="el" href="#CppSetupVerify">Verify your setup</a>. <span class="tt">meshconv</span> is not on <span class="tt">PATH</span>; it lives in the framework and needs no graphical session: <div class="fragment"><div class="line">/Library/Frameworks/MeshLib.framework/Versions/Current/bin/meshconv --help</div>
 </div><!-- fragment --> <br  />
- A non-zero exit here points at the install itself — a wrong path, or a <span class="tt">.pkg</span> built for the other architecture. The Homebrew requirements are not involved: the framework carries the Homebrew dylibs its binaries load.</li>
+ A non-zero exit here usually means the Homebrew requirements above are missing.</li>
 <li><b>Integrate Using CMake</b> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
