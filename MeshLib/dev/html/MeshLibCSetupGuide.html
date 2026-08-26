@@ -152,7 +152,7 @@ $(function(){initNavTree('MeshLibCSetupGuide.html','',''); });
             <a href="#autotoc_md40">Windows </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md41">Linux </a>
+            <a href="#autotoc_md41">Linux (Ubuntu) </a>
           </li>
           <li class="level3">
             <a href="#autotoc_md42">macOS </a>
@@ -213,14 +213,11 @@ Windows</h3>
 </li>
 </ol>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md41"></a>
-Linux</h3>
+Linux (Ubuntu)</h3>
 <ol type="1">
-<li><b>Download the Package for Your Distribution and CPU</b> <br  />
- Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page: the release description links a <span class="tt">.deb</span> for every supported Ubuntu release and architecture. Take the one matching <span class="tt">lsb_release -rs</span> and <span class="tt">uname -m</span>. <br  />
- On any other distribution use the portable <b>Linux vcpkg</b> build instead. It bundles its own dependencies and is not installed system-wide: unpack it and use the resulting directory as the MeshLib installation prefix, then skip to step 3. <div class="fragment"><div class="line">mkdir path_to_install &amp;&amp; tar -xf &lt;downloaded&gt;.tar.xz -C path_to_install</div>
-</div><!-- fragment --></li>
-<li><b>Install the Package</b> <br  />
- The <span class="tt">.deb</span> packages all declare <span class="tt">Architecture: all</span> and their <span class="tt">preinst</span> carries no release or CPU check, so <span class="tt">apt</span> cannot refuse a mismatched one: installing the arm64 build on x86-64, or the Ubuntu 22 build on Ubuntu 24, succeeds silently. Check the file name against your system first. <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
+<li><b>Download the Package for Your Ubuntu Release and CPU</b> <br  />
+ Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page: the release description links a <span class="tt">.deb</span> for every supported Ubuntu release and architecture. Take the one matching <span class="tt">lsb_release -rs</span> and <span class="tt">uname -m</span>.</li>
+<li><b>Install the Package</b> <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
 </div><!-- fragment --></li>
 <li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a> <br  />
  Add the following to your <span class="tt">CMakeLists.txt</span>: <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
