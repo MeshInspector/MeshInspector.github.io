@@ -144,23 +144,8 @@ $(function(){initNavTree('ExampleViewer.html','',''); });
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">Python</b> <dl class="section note"><dt>Note</dt><dd>Python API version 3 and later</dd></dl>
 <div class="fragment"><div class="line"><span class="keyword">import</span> os</div>
-<div class="line"><span class="keyword">import</span> sys</div>
-<div class="line"> </div>
 <div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrviewerpy <span class="keyword">as</span> mv</div>
-<div class="line"> </div>
-<div class="line"><span class="comment"># This example needs an input mesh; create one if you do not have it already</span></div>
-<div class="line"><span class="keywordflow">if</span> <span class="keywordflow">not</span> os.path.exists(<span class="stringliteral">&quot;mesh.stl&quot;</span>):</div>
-<div class="line">    mm.saveMesh(mm.makeCube(), <span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
-<div class="line"> </div>
-<div class="line"><span class="comment"># The Viewer needs a graphical session. On a headless Linux machine (container, CI,</span></div>
-<div class="line"><span class="comment"># WSL without an X server, SSH without X forwarding) no window can be opened, and in</span></div>
-<div class="line"><span class="comment"># releases before 3.1.3.566 the failure was silent and the next viewer call hung forever.</span></div>
-<div class="line"><span class="keywordflow">if</span> sys.platform.startswith(<span class="stringliteral">&quot;linux&quot;</span>) <span class="keywordflow">and</span> <span class="keywordflow">not</span> (os.environ.get(<span class="stringliteral">&quot;DISPLAY&quot;</span>) <span class="keywordflow">or</span> os.environ.get(<span class="stringliteral">&quot;WAYLAND_DISPLAY&quot;</span>)):</div>
-<div class="line">    sys.exit(<span class="stringliteral">&quot;MeshLib Viewer requires a graphical session, but no display was found &quot;</span></div>
-<div class="line">             <span class="stringliteral">&quot;(neither DISPLAY nor WAYLAND_DISPLAY is set). &quot;</span></div>
-<div class="line">             <span class="stringliteral">&quot;On a headless machine start with the mesh loading and saving example &quot;</span></div>
-<div class="line">             <span class="stringliteral">&quot;(MeshLoadSave.dox.py) instead.&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load mesh</span></div>
 <div class="line">mesh = mm.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
@@ -176,12 +161,7 @@ $(function(){initNavTree('ExampleViewer.html','',''); });
 <div class="line">result_mesh = mm.offsetMesh(mesh, offset, params)</div>
 <div class="line"> </div>
 <div class="line"> </div>
-<div class="line"><span class="comment"># Open a window; raises where the Viewer is unavailable, e.g. on macOS</span></div>
-<div class="line"><span class="keywordflow">try</span>:</div>
-<div class="line">    mv.launch()</div>
-<div class="line"><span class="keywordflow">except</span> RuntimeError <span class="keyword">as</span> e:</div>
-<div class="line">    sys.exit(f<span class="stringliteral">&quot;Could not start MeshLib Viewer: {e}&quot;</span>)</div>
-<div class="line"> </div>
+<div class="line">mv.launch() <span class="comment"># a window will be opened</span></div>
 <div class="line">mv.addMeshToScene(mesh, <span class="stringliteral">&quot;Mesh 1&quot;</span>) <span class="comment"># show initial mesh</span></div>
 <div class="line">mv.Viewer().preciseFitDataViewport() <span class="comment"># fit viewer to the mesh</span></div>
 <div class="line">mv.selectByName(<span class="stringliteral">&quot;Mesh 1&quot;</span>)</div>
@@ -189,7 +169,7 @@ $(function(){initNavTree('ExampleViewer.html','',''); });
 <div class="line">mv.Viewer().preciseFitDataViewport() <span class="comment"># fit viewer to the mesh</span></div>
 <div class="line">mv.Viewer().showSceneTree(<span class="keyword">True</span>) <span class="comment"># enables Scene Tree in Viewer window</span></div>
 <div class="line"><span class="comment"># user can manipulate with viewer window while this python is on pause</span></div>
-<div class="line">input(<span class="stringliteral">&quot;Press Enter to continue...&quot;</span>)</div>
+<div class="line">os.system(<span class="stringliteral">&quot;pause&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># remove all objects from scene</span></div>
 <div class="line">mv.clearScene()</div>
@@ -199,10 +179,11 @@ $(function(){initNavTree('ExampleViewer.html','',''); });
 <div class="line">mv.selectByName(<span class="stringliteral">&quot;Mesh Offset&quot;</span>)</div>
 <div class="line">mv.Viewer().showSceneTree(<span class="keyword">False</span>) <span class="comment"># disables Scene Tree in Viewer window</span></div>
 <div class="line"><span class="comment"># user can manipulate with viewer window while this python is on pause</span></div>
-<div class="line">input(<span class="stringliteral">&quot;Press Enter to continue...&quot;</span>)</div>
+<div class="line">os.system(<span class="stringliteral">&quot;pause&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># close viewer window nicely</span></div>
 <div class="line">mv.Viewer().shutdown()</div>
+<div class="line">os.system(<span class="stringliteral">&quot;pause&quot;</span>)</div>
 </div><!-- fragment --> Viewer with scene tree <div class="image">
 <img src="Viewer_with_scene_tree.png" alt=""/>
 </div>
