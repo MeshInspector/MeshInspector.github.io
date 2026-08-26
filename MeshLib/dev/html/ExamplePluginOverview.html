@@ -226,7 +226,8 @@ Visual Studio Project File</h3>
 <li>Debug only:<ul>
 <li><b>Debug Configuration: C/C++ → Preprocessor → Preprocessor Definitions</b>: <br  />
  Add: <span class="tt">_ITERATOR_DEBUG_LEVEL=0;MR_ITERATOR_DEBUG_LEVEL=0</span> — for the per-Visual-Studio archives (<span class="tt">MeshLibDistVS19</span>, <span class="tt">MeshLibDistVS22</span>, <span class="tt">MeshLibDistVS26</span>). <br  />
- For the <span class="tt">MeshLibDist-IteratorDebug</span> archive add <span class="tt">_ITERATOR_DEBUG_LEVEL=2;MR_ITERATOR_DEBUG_LEVEL=2</span> instead. Both defines must carry the same value: MeshLib stops compilation with <span class="tt">#error _ITERATOR_DEBUG_LEVEL is inconsistent with MeshLib</span> when they disagree.</li>
+ For the <span class="tt">MeshLibDist-IteratorDebug</span> archive add <span class="tt">_ITERATOR_DEBUG_LEVEL=2;MR_ITERATOR_DEBUG_LEVEL=2</span> instead. Both defines must carry the same value: MeshLib stops compilation with <span class="tt">#error _ITERATOR_DEBUG_LEVEL is inconsistent with MeshLib</span> when they disagree. <br  />
+ Check whether your archive contains <span class="tt">install/include/MRMesh/config_dist.h</span>. If it does, that header already declares <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> for you, so only <span class="tt">_ITERATOR_DEBUG_LEVEL</span> is yours to set — and <span class="tt">IteratorDebug</span> then needs no define at all, MSVC's Debug default already being <span class="tt">2</span>. Setting <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> anyway is harmless as long as it matches the archive; a value that contradicts it is rejected at compile time.</li>
 </ul>
 </li>
 <li>For all configurations:<ul>
