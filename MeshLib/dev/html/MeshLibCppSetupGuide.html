@@ -409,7 +409,8 @@ Installing the release build</h3>
  On any other distribution use the portable <b>Linux vcpkg</b> build instead. It bundles its own dependencies and is not installed system-wide: unpack it and use the resulting directory as the MeshLib installation prefix, then skip to step 4. <div class="fragment"><div class="line">mkdir path_to_install &amp;&amp; tar -xf &lt;downloaded&gt;.tar.xz -C path_to_install</div>
 </div><!-- fragment --></li>
 <li><b>Install the Package</b> <br  />
- <span class="tt">apt</span> pulls in the remaining system dependencies itself. The leading <span class="tt">./</span> is required: without it <span class="tt">apt</span> looks for a repository package by that name. <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
+ <span class="tt">apt</span> pulls in the remaining system dependencies itself. The leading <span class="tt">./</span> is required: without it <span class="tt">apt</span> looks for a repository package by that name. <br  />
+ The <span class="tt">.deb</span> packages all declare <span class="tt">Architecture: all</span> and their <span class="tt">preinst</span> carries no release or CPU check, so <span class="tt">apt</span> cannot refuse a mismatched one: installing the arm64 build on x86-64, or the Ubuntu 22 build on Ubuntu 24, succeeds silently. Check the file name against your system first. <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
 </div><!-- fragment --></li>
 <li><b>Verify the installation</b> <br  />
  Run the checks in <a class="el" href="#CppSetupVerify">Verify your setup</a>. The <span class="tt">meshconv</span> one needs no graphical session and reports failure through its exit status: <div class="fragment"><div class="line">meshconv --help   # headless, non-zero exit if the installation is incomplete</div>
