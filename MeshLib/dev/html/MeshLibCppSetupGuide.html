@@ -409,7 +409,8 @@ Installing the release build</h3>
  On any other distribution use the portable <b>Linux vcpkg</b> build instead. It bundles its own dependencies and is not installed system-wide: unpack it and use the resulting directory as the MeshLib installation prefix, then skip to step 4. <div class="fragment"><div class="line">mkdir path_to_install &amp;&amp; tar -xf &lt;downloaded&gt;.tar.xz -C path_to_install</div>
 </div><!-- fragment --></li>
 <li><b>Install the Package</b> <br  />
- <span class="tt">apt</span> pulls in the remaining system dependencies itself. The leading <span class="tt">./</span> is required: without it <span class="tt">apt</span> looks for a repository package by that name. <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
+ <span class="tt">apt</span> pulls in the remaining system dependencies itself. The leading <span class="tt">./</span> is required: without it <span class="tt">apt</span> looks for a repository package by that name. <br  />
+ The <span class="tt">.deb</span> packages all declare <span class="tt">Architecture: all</span> and their <span class="tt">preinst</span> carries no release or CPU check, so <span class="tt">apt</span> cannot refuse a mismatched one: installing the arm64 build on x86-64, or the Ubuntu 22 build on Ubuntu 24, succeeds silently. Check the file name against your system first. <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
 </div><!-- fragment --></li>
 <li><b>Verify the installation</b> <br  />
  Run the checks in <a class="el" href="#CppSetupVerify">Verify your setup</a>. The <span class="tt">meshconv</span> one needs no graphical session and reports failure through its exit status: <div class="fragment"><div class="line">meshconv --help   # headless, non-zero exit if the installation is incomplete</div>
@@ -480,14 +481,15 @@ Installing the release build</h3>
 <li>Double-click the downloaded <span class="tt">.pkg</span> and follow the installer. The release asset is the installer itself, so there is nothing to unpack first.</li>
 <li>The framework is installed into <span class="tt">/Library/Frameworks/MeshLib.framework</span>, or into <span class="tt">~/Library/Frameworks/MeshLib.framework</span> if you choose to install for the current user only.</li>
 <li><b>Install Dependencies via Homebrew</b> <br  />
- The <span class="tt">.pkg</span> does not pull in the Homebrew formulae MeshLib links against, so install them yourself. Skip this step if your project only uses the C bindings. This needs Homebrew — if you do not have it, install it first as described under <a class="el" href="#CppSetupMacOSPrereq">Prerequisites</a>. Open Terminal and run the following command: <div class="fragment"><div class="line">xargs brew install &lt; /Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</div>
+ The <span class="tt">.pkg</span> does not pull in the Homebrew formulae MeshLib links against, so install them yourself. This needs Homebrew — if you do not have it, install it first as described under <a class="el" href="#CppSetupMacOSPrereq">Prerequisites</a>. Open Terminal and run the following command: <div class="fragment"><div class="line">xargs brew install &lt; /Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</div>
 </div><!-- fragment --></li>
 <li>If you installed for the current user only, prefix the path with <span class="tt">~</span>: <span class="tt">~/Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</span>.</li>
 </ul>
 </li>
 <li><b>Verify the installation</b> <br  />
  Run the checks in <a class="el" href="#CppSetupVerify">Verify your setup</a>. <span class="tt">meshconv</span> is not on <span class="tt">PATH</span>; it lives in the framework and needs no graphical session: <div class="fragment"><div class="line">/Library/Frameworks/MeshLib.framework/Versions/Current/bin/meshconv --help</div>
-</div><!-- fragment --></li>
+</div><!-- fragment --> <br  />
+ A non-zero exit here usually means the Homebrew requirements above are missing.</li>
 <li><b>Integrate Using CMake</b> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
