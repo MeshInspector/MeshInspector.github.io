@@ -254,18 +254,18 @@ $(function(){initNavTree('ExampleMeshFillHole.html','',''); });
 <div class="line"> </div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshFillHoleExample</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <span class="keywordflow">if</span> (args.Length != 2 &amp;&amp; args.Length != 3)</div>
+<div class="line">            <span class="keywordflow">if</span> (args.Length != 1 &amp;&amp; args.Length != 2)</div>
 <div class="line">            {</div>
-<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} MeshFillHoleExample INPUT [OUTPUT]&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
+<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} INPUT [OUTPUT]&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
 <div class="line">                <span class="keywordflow">return</span>;</div>
 <div class="line">            }</div>
 <div class="line"> </div>
-<div class="line">            <span class="keywordtype">string</span> inputFile = args[1];</div>
-<div class="line">            <span class="keywordtype">string</span> outputFile = args.Length == 3 ? args[2] : inputFile;</div>
+<div class="line">            <span class="keywordtype">string</span> inputFile = args[0];</div>
+<div class="line">            <span class="keywordtype">string</span> outputFile = args.Length == 2 ? args[1] : inputFile;</div>
 <div class="line"> </div>
 <div class="line">            var mesh = MR.MeshLoad.fromAnySupportedFormat(inputFile);</div>
 <div class="line"> </div>

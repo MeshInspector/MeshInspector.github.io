@@ -500,22 +500,22 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;RMS point-to-plane distance: {p2plMetric} ± {p2plInaccuracy}&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">if</span> (args.Length &lt; 4)</div>
+<div class="line">        <span class="keywordflow">if</span> (args.Length &lt; 3)</div>
 <div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} GlobalRegistrationExample INPUT1 INPUT2 [INPUTS...] OUTPUT&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} INPUT1 INPUT2 [INPUTS...] OUTPUT&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
 <div class="line">            <span class="keywordflow">return</span>;</div>
 <div class="line">        }</div>
 <div class="line"> </div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <span class="keywordtype">int</span> inputNum = args.Length - 2;</div>
+<div class="line">            <span class="keywordtype">int</span> inputNum = args.Length - 1;</div>
 <div class="line">            MR.Vector_MRMeshOrPointsXf_MRObjId inputs = <span class="keyword">new</span>();</div>
 <div class="line">            MR.Box3f maxBBox = <span class="keyword">new</span>();</div>
 <div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
 <div class="line">            {</div>
-<div class="line">                var pc = MR.PointsLoad.fromAnySupportedFormat(args[i + 1]);</div>
+<div class="line">                var pc = MR.PointsLoad.fromAnySupportedFormat(args[i]);</div>
 <div class="line">                MR.MeshOrPointsXf obj = <span class="keyword">new</span> MR.MeshOrPointsXf(pc, <span class="keyword">new</span> MR.AffineXf3f());</div>
 <div class="line">                inputs.pushBack(obj);</div>
 <div class="line">                maxBBox.include(obj.obj.computeBoundingBox());</div>
