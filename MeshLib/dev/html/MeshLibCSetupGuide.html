@@ -217,9 +217,8 @@ Linux</h3>
 <ol type="1">
 <li><b>Download the Package for Your Distribution and CPU</b> <br  />
  Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page: the release description links a <span class="tt">.deb</span> for every supported Ubuntu release and architecture. Take the one matching <span class="tt">lsb_release -rs</span> and <span class="tt">uname -m</span>. <br  />
- On any other distribution use the portable <b>Linux vcpkg</b> build instead. It bundles its own dependencies and is not installed system-wide: unpack it, then skip to step 3. <div class="fragment"><div class="line">mkdir path_to_install &amp;&amp; tar -xf &lt;downloaded&gt;.tar.xz -C path_to_install</div>
-</div><!-- fragment --> <br  />
- <span class="tt">path_to_install</span> is then the MeshLib installation prefix, and CMake does not search it on its own — see <a class="el" href="MeshLibCmakeSetupGuide.html#CmakeNonSystemPrefix">Point CMake at a Prefix That Is Not Installed System-Wide</a> for the flags it needs.</li>
+ On any other distribution use the portable <b>Linux vcpkg</b> build instead. It bundles its own dependencies and is not installed system-wide: unpack it and use the resulting directory as the MeshLib installation prefix, then skip to step 3. <div class="fragment"><div class="line">mkdir path_to_install &amp;&amp; tar -xf &lt;downloaded&gt;.tar.xz -C path_to_install</div>
+</div><!-- fragment --></li>
 <li><b>Install the Package</b> <br  />
  <span class="tt">apt</span> refuses a package built for another CPU, but nothing tells the Ubuntu releases apart: both declare the same dependencies and the <span class="tt">preinst</span> carries no release check, so installing the Ubuntu 22 build on Ubuntu 24 succeeds silently. Check the release in the file name first. <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
 </div><!-- fragment --></li>

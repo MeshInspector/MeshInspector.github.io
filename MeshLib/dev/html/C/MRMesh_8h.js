@@ -7,7 +7,6 @@ var MRMesh_8h =
     [ "MR_PartMapping", "MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e", null ],
     [ "MR_QuadraticForm3f", "MRMesh_8h.html#a5b120d16168818c8c364c4818a6d2c56", null ],
     [ "MR_std_function_bool_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId_MR_VertId", "MRMesh_8h.html#a520dd9d9f446585bfc23542b2446d1d3", null ],
-    [ "MR_std_vector_MR_MeshBuilder_VertDuplication", "MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73", null ],
     [ "MR_TriMesh", "MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645", null ],
     [ "MR_VacantElements", "MRMesh_8h.html#adff90ec5624b225b247349e8f83ddc15", null ],
     [ "MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId", "MRMesh_8h.html#a492785e8cc43f73ad55471496f397889", null ],

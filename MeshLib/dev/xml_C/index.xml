@@ -2187,6 +2187,7 @@
     <member refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kind="typedef"><name>MR_Vector_MR_Vector3i_MR_VertId</name></member>
     <member refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kind="typedef"><name>MR_std_optional_MR_Triangulation</name></member>
     <member refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kind="typedef"><name>MR_std_vector_MR_AlphaShapeNei</name></member>
+    <member refid="MRAlphaShape_8h_1a5dd2fd820a754655ef67335b8cd94f73" kind="typedef"><name>MR_std_vector_MR_MeshBuilder_VertDuplication</name></member>
     <member refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kind="typedef"><name>MR_AlphaShapeData</name></member>
     <member refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kind="typedef"><name>MR_AlphaShapeStats</name></member>
     <member refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kind="typedef"><name>MR_AlphaShapeNei</name></member>
@@ -2265,8 +2266,8 @@
     <member refid="MRAlphaShape_8h_1aefb3e97b179663552e72f00bef7de602" kind="function"><name>MR_findAlphaShapeAllTriangles_4_float</name></member>
     <member refid="MRAlphaShape_8h_1a79f90f391ba2699bad0ff0db041f052f" kind="function"><name>MR_findAlphaShapeAllTriangles_3</name></member>
     <member refid="MRAlphaShape_8h_1a034232909cab53923a0d093358f0bdfc" kind="function"><name>MR_findAlphaShapeAllTriangles_4_MR_AlphaShapeData</name></member>
-    <member refid="MRAlphaShape_8h_1a212b808b4acc55574c39af3ddca42f38" kind="function"><name>MR_findAlphaShape_4</name></member>
-    <member refid="MRAlphaShape_8h_1a22b77f0db28f32a1c25b98842671b9d9" kind="function"><name>MR_findAlphaShape_3</name></member>
+    <member refid="MRAlphaShape_8h_1a2713ec42ab6e4f85af907666ae54c79e" kind="function"><name>MR_findAlphaShape_5</name></member>
+    <member refid="MRAlphaShape_8h_1a3214829253355f67f76e6ebda544b109" kind="function"><name>MR_findAlphaShape_4</name></member>
   </compound>
   <compound refid="MRAngleMeasurementObject_8h" kind="file"><name>MRAngleMeasurementObject.h</name>
     <member refid="MRAngleMeasurementObject_8h_1af3835b44b6f41035bcc3f994b4711cc1" kind="typedef"><name>MR_MeasurementObject</name></member>
@@ -13621,7 +13622,6 @@
     <member refid="MRMesh_8h_1ad0a34dee22bb71b0ac9a64c386bdec3c" kind="typedef"><name>MR_expected_MR_PackMapping_std_string</name></member>
     <member refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kind="typedef"><name>MR_expected_MR_VertBitSet_std_string</name></member>
     <member refid="MRMesh_8h_1a520dd9d9f446585bfc23542b2446d1d3" kind="typedef"><name>MR_std_function_bool_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId_MR_VertId</name></member>
-    <member refid="MRMesh_8h_1a5dd2fd820a754655ef67335b8cd94f73" kind="typedef"><name>MR_std_vector_MR_MeshBuilder_VertDuplication</name></member>
     <member refid="MRMesh_8h_1a9b14debb3b7b0ebd19d7cbd8ba217aa7" kind="function"><name>MR_Mesh_Get_topology</name></member>
     <member refid="MRMesh_8h_1aa3177ea01cd7ff91dfee2bf3ca0e0802" kind="function"><name>MR_Mesh_Set_topology</name></member>
     <member refid="MRMesh_8h_1a8cc789daec0035c0667fa4580f9ba12a" kind="function"><name>MR_Mesh_GetMutable_topology</name></member>

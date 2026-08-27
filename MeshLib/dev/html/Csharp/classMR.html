@@ -8803,10 +8803,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad70e15784ace180a11f2439a7055346a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a32936c120c57269735769d1282afc224" title="finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function MR....">MR.findAlphaShapeAllTriangles</a></span>.  <br /></td></tr>
 <tr class="memitem:afc73e5f710830fb055cb539763583ae3" id="r_afc73e5f710830fb055cb539763583ae3"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRTriangulation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc73e5f710830fb055cb539763583ae3">findAlphaShapeAllTriangles</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> cloud, <a class="el" href="classMR_1_1Const__AlphaShapeData.html">MR.Const_AlphaShapeData</a> data, MR.Std.Const_Function_Bool_From_Float cb, <a class="el" href="classMR_1_1AlphaShapeStats.html">MR.AlphaShapeStats</a>? stats=null)</td></tr>
 <tr class="memdesc:afc73e5f710830fb055cb539763583ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all triangles of alpha-shape given the data prepared by getAlphaShapeData for the same cloud (preferably with allPoints=true, since the triangles around all points will be searched) Generated from function <span class="tt"><a class="el" href="#a32936c120c57269735769d1282afc224" title="finds all triangles of alpha-shape with negative alpha = -1/radius Generated from function MR....">MR.findAlphaShapeAllTriangles</a></span>.  <br /></td></tr>
-<tr class="memitem:ac872ba33b23fc035b9f94c92ab774f8f" id="r_ac872ba33b23fc035b9f94c92ab774f8f"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac872ba33b23fc035b9f94c92ab774f8f">findAlphaShape</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> cloud, float radius, MR.Std.Const_Function_Bool_From_Float cb, <a class="el" href="classMR_1_1AlphaShapeStats.html">MR.AlphaShapeStats</a>? stats=null)</td></tr>
-<tr class="memdesc:ac872ba33b23fc035b9f94c92ab774f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds alpha-shape mesh with negative alpha = -1/radius Generated from function <span class="tt"><a class="el" href="#ac872ba33b23fc035b9f94c92ab774f8f" title="builds alpha-shape mesh with negative alpha = -1/radius Generated from function MR....">MR.findAlphaShape</a></span>.  <br /></td></tr>
-<tr class="memitem:abbae438a8d41297c7aaacd34e5c67111" id="r_abbae438a8d41297c7aaacd34e5c67111"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbae438a8d41297c7aaacd34e5c67111">findAlphaShape</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> cloud, float radius, <a class="el" href="classMR_1_1AlphaShapeStats.html">MR.AlphaShapeStats</a>? stats=null)</td></tr>
-<tr class="memdesc:abbae438a8d41297c7aaacd34e5c67111"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#ac872ba33b23fc035b9f94c92ab774f8f" title="builds alpha-shape mesh with negative alpha = -1/radius Generated from function MR....">MR.findAlphaShape</a></span>.  <br /></td></tr>
+<tr class="memitem:a01d7c072cf3ba5ce10975533bbae98eb" id="r_a01d7c072cf3ba5ce10975533bbae98eb"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01d7c072cf3ba5ce10975533bbae98eb">findAlphaShape</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> cloud, float radius, MR.Std.Const_Function_Bool_From_Float cb, MR.Std.Vector_MRMeshBuilderVertDuplication? dups=null, <a class="el" href="classMR_1_1AlphaShapeStats.html">MR.AlphaShapeStats</a>? stats=null)</td></tr>
+<tr class="memdesc:a01d7c072cf3ba5ce10975533bbae98eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds alpha-shape mesh with negative alpha = -1/radius; the mesh vertices are the cloud points with the same ids plus the ones appended by the duplication of non-manifold vertices, which  <br /></td></tr>
+<tr class="memitem:a8188f06871f52146938dda2433eca233" id="r_a8188f06871f52146938dda2433eca233"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8188f06871f52146938dda2433eca233">findAlphaShape</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> cloud, float radius, MR.Std.Vector_MRMeshBuilderVertDuplication? dups=null, <a class="el" href="classMR_1_1AlphaShapeStats.html">MR.AlphaShapeStats</a>? stats=null)</td></tr>
+<tr class="memdesc:a8188f06871f52146938dda2433eca233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a01d7c072cf3ba5ce10975533bbae98eb" title="builds alpha-shape mesh with negative alpha = -1/radius; the mesh vertices are the cloud points with ...">MR.findAlphaShape</a></span>.  <br /></td></tr>
 <tr class="memitem:a4b787558bf096cc4d2fa775326d22b1f" id="r_a4b787558bf096cc4d2fa775326d22b1f"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b787558bf096cc4d2fa775326d22b1f">makeArrow</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> base_, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> vert, float? thickness=null, float? coneRadius=null, float? coneSize=null, int? qual=null)</td></tr>
 <tr class="memdesc:a4b787558bf096cc4d2fa775326d22b1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a4b787558bf096cc4d2fa775326d22b1f" title="Generated from function MR.makeArrow. Parameter thickness defaults to 0.0500000007f....">MR.makeArrow</a></span>. Parameter <span class="tt">thickness</span> defaults to <span class="tt">0.0500000007f</span>. Parameter <span class="tt">coneRadius</span> defaults to <span class="tt">0.100000001f</span>. Parameter <span class="tt">coneSize</span> defaults to <span class="tt">0.200000003f</span>. Parameter <span class="tt">qual</span> defaults to <span class="tt">32</span>.  <br /></td></tr>
 <tr class="memitem:a8805e38cb5bbbf4834a5fa13919d84e8" id="r_a8805e38cb5bbbf4834a5fa13919d84e8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8805e38cb5bbbf4834a5fa13919d84e8">makeBasisAxes</a> (float? size=null, float? thickness=null, float? coneRadius=null, float? coneSize=null, int? qual=null)</td></tr>
@@ -43011,44 +43011,8 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 
 </div>
 </div>
-<a id="abbae438a8d41297c7aaacd34e5c67111" name="abbae438a8d41297c7aaacd34e5c67111"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbae438a8d41297c7aaacd34e5c67111">&#9670;&#160;</a></span>findAlphaShape() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> MR.findAlphaShape </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a></td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1AlphaShapeStats.html">MR.AlphaShapeStats</a>?</td>          <td class="paramname"><span class="paramname"><em>stats</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Generated from function <span class="tt"><a class="el" href="#ac872ba33b23fc035b9f94c92ab774f8f" title="builds alpha-shape mesh with negative alpha = -1/radius Generated from function MR....">MR.findAlphaShape</a></span>. </p>
-
-</div>
-</div>
-<a id="ac872ba33b23fc035b9f94c92ab774f8f" name="ac872ba33b23fc035b9f94c92ab774f8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac872ba33b23fc035b9f94c92ab774f8f">&#9670;&#160;</a></span>findAlphaShape() <span class="overload">[2/2]</span></h2>
+<a id="a01d7c072cf3ba5ce10975533bbae98eb" name="a01d7c072cf3ba5ce10975533bbae98eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01d7c072cf3ba5ce10975533bbae98eb">&#9670;&#160;</a></span>findAlphaShape() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -43074,6 +43038,11 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">MR.Std.Vector_MRMeshBuilderVertDuplication?</td>          <td class="paramname"><span class="paramname"><em>dups</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="classMR_1_1AlphaShapeStats.html">MR.AlphaShapeStats</a>?</td>          <td class="paramname"><span class="paramname"><em>stats</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
@@ -43084,7 +43053,54 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </table>
 </div><div class="memdoc">
 
-<p>builds alpha-shape mesh with negative alpha = -1/radius Generated from function <span class="tt"><a class="el" href="#ac872ba33b23fc035b9f94c92ab774f8f" title="builds alpha-shape mesh with negative alpha = -1/radius Generated from function MR....">MR.findAlphaShape</a></span>. </p>
+<p>builds alpha-shape mesh with negative alpha = -1/radius; the mesh vertices are the cloud points with the same ids plus the ones appended by the duplication of non-manifold vertices, which </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dups</td><td>(if given) receives Generated from function <span class="tt"><a class="el" href="#a01d7c072cf3ba5ce10975533bbae98eb" title="builds alpha-shape mesh with negative alpha = -1/radius; the mesh vertices are the cloud points with ...">MR.findAlphaShape</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8188f06871f52146938dda2433eca233" name="a8188f06871f52146938dda2433eca233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8188f06871f52146938dda2433eca233">&#9670;&#160;</a></span>findAlphaShape() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> MR.findAlphaShape </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a></td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Vector_MRMeshBuilderVertDuplication?</td>          <td class="paramname"><span class="paramname"><em>dups</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1AlphaShapeStats.html">MR.AlphaShapeStats</a>?</td>          <td class="paramname"><span class="paramname"><em>stats</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <span class="tt"><a class="el" href="#a01d7c072cf3ba5ce10975533bbae98eb" title="builds alpha-shape mesh with negative alpha = -1/radius; the mesh vertices are the cloud points with ...">MR.findAlphaShape</a></span>. </p>
 
 </div>
 </div>

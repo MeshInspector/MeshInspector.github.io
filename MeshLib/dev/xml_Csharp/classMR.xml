@@ -6056,10 +6056,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="946" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="946" bodyend="951"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ac872ba33b23fc035b9f94c92ab774f8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a01d7c072cf3ba5ce10975533bbae98eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRMesh</type>
         <definition>static unsafe MR.Std.Optional_MRMesh MR.findAlphaShape</definition>
-        <argsstring>(MR.Const_PointCloud cloud, float radius, MR.Std.Const_Function_Bool_From_Float cb, MR.AlphaShapeStats? stats=null)</argsstring>
+        <argsstring>(MR.Const_PointCloud cloud, float radius, MR.Std.Const_Function_Bool_From_Float cb, MR.Std.Vector_MRMeshBuilderVertDuplication? dups=null, MR.AlphaShapeStats? stats=null)</argsstring>
         <name>findAlphaShape</name>
         <qualifiedname>MR.findAlphaShape</qualifiedname>
         <param>
@@ -6075,23 +6075,38 @@
           <declname>cb</declname>
         </param>
         <param>
+          <type>MR.Std.Vector_MRMeshBuilderVertDuplication?</type>
+          <declname>dups</declname>
+          <defval>null</defval>
+        </param>
+        <param>
           <type><ref refid="classMR_1_1AlphaShapeStats" kindref="compound">MR.AlphaShapeStats</ref>?</type>
           <declname>stats</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>builds alpha-shape mesh with negative alpha = -1/radius Generated from function <computeroutput><ref refid="classMR_1ac872ba33b23fc035b9f94c92ab774f8f" kindref="member">MR.findAlphaShape</ref></computeroutput>. </para>
+<para>builds alpha-shape mesh with negative alpha = -1/radius; the mesh vertices are the cloud points with the same ids plus the ones appended by the duplication of non-manifold vertices, which </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dups</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(if given) receives Generated from function <computeroutput><ref refid="classMR_1a01d7c072cf3ba5ce10975533bbae98eb" kindref="member">MR.findAlphaShape</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="957" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="957" bodyend="962"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="959" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="959" bodyend="964"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1abbae438a8d41297c7aaacd34e5c67111" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a8188f06871f52146938dda2433eca233" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.findAlphaShape</definition>
-        <argsstring>(MR.Const_PointCloud cloud, float radius, MR.AlphaShapeStats? stats=null)</argsstring>
+        <argsstring>(MR.Const_PointCloud cloud, float radius, MR.Std.Vector_MRMeshBuilderVertDuplication? dups=null, MR.AlphaShapeStats? stats=null)</argsstring>
         <name>findAlphaShape</name>
         <qualifiedname>MR.findAlphaShape</qualifiedname>
         <param>
@@ -6103,18 +6118,23 @@
           <declname>radius</declname>
         </param>
         <param>
+          <type>MR.Std.Vector_MRMeshBuilderVertDuplication?</type>
+          <declname>dups</declname>
+          <defval>null</defval>
+        </param>
+        <param>
           <type><ref refid="classMR_1_1AlphaShapeStats" kindref="compound">MR.AlphaShapeStats</ref>?</type>
           <declname>stats</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1ac872ba33b23fc035b9f94c92ab774f8f" kindref="member">MR.findAlphaShape</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a01d7c072cf3ba5ce10975533bbae98eb" kindref="member">MR.findAlphaShape</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="967" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="967" bodyend="972"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="969" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="969" bodyend="974"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4b787558bf096cc4d2fa775326d22b1f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -54646,8 +54666,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ac7bb07e14717aed649af2fdab4d00f9d" prot="public" virt="non-virtual"><scope>MR</scope><name>FilterType</name></member>
       <member refid="classMR_1a4662a70031ee297dd59ca2248614265f" prot="public" virt="non-virtual"><scope>MR</scope><name>findActiveBounds</name></member>
       <member refid="classMR_1ad56fdd3f5cef465728cf70ad07362093" prot="public" virt="non-virtual"><scope>MR</scope><name>findAllLeftBdEdges</name></member>
-      <member refid="classMR_1ac872ba33b23fc035b9f94c92ab774f8f" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShape</name></member>
-      <member refid="classMR_1abbae438a8d41297c7aaacd34e5c67111" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShape</name></member>
+      <member refid="classMR_1a01d7c072cf3ba5ce10975533bbae98eb" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShape</name></member>
+      <member refid="classMR_1a8188f06871f52146938dda2433eca233" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShape</name></member>
       <member refid="classMR_1a32936c120c57269735769d1282afc224" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeAllTriangles</name></member>
       <member refid="classMR_1ad70e15784ace180a11f2439a7055346a" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeAllTriangles</name></member>
       <member refid="classMR_1afc73e5f710830fb055cb539763583ae3" prot="public" virt="non-virtual"><scope>MR</scope><name>findAlphaShapeAllTriangles</name></member>

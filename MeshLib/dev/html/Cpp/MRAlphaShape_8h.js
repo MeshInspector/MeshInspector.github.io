@@ -1,7 +1,7 @@
 var MRAlphaShape_8h =
 [
-    [ "MR::findAlphaShape", "group__GeneralGroup.html#gab742b798176547393043027206aa42c9", null ],
-    [ "MR::findAlphaShape", "group__GeneralGroup.html#ga206e1ff370f4c549a290390c0e540d89", null ],
+    [ "MR::findAlphaShape", "group__GeneralGroup.html#gaccef10dcd77bb190e4ba3e2a97300b5a", null ],
+    [ "MR::findAlphaShape", "group__GeneralGroup.html#gaf388b895aa87c6da7c8dbb693bed0c74", null ],
     [ "MR::findAlphaShapeAllTriangles", "group__GeneralGroup.html#ga9f304608f78c5e19b2d5c560900e5bfb", null ],
     [ "MR::findAlphaShapeAllTriangles", "group__GeneralGroup.html#ga44dece01c32cea22aac7aab8915caa2b", null ],
     [ "MR::findAlphaShapeAllTriangles", "group__GeneralGroup.html#gaff0816219564d53d0fc5c5594f96eb62", null ],

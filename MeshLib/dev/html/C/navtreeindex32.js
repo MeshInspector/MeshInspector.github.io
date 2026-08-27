@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"MRDistanceMapParams_8h.html#a3704c5aa59752862b826c23717c49378":[8,2,2,0,0,0,0,1,75,85],
 "MRDistanceMapParams_8h.html#a38cdba595d9763c245ff2b06ec818098":[8,2,2,0,0,0,0,1,75,50],
 "MRDistanceMapParams_8h.html#a3a6911919d5785dd117a556f3e7e0286":[8,2,2,0,0,0,0,1,75,3],
 "MRDistanceMapParams_8h.html#a3ab3ca40eb7fe4d199b62447a4385112":[8,2,2,0,0,0,0,1,75,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "MRDistanceMeasurementObject_8h.html#a06ecf1a2433aa2cd604bbedf228f03a3":[8,2,2,0,0,0,0,1,77,110],
 "MRDistanceMeasurementObject_8h.html#a0aa16fed36090582a324a6b78d71587a":[8,2,2,0,0,0,0,1,77,139],
 "MRDistanceMeasurementObject_8h.html#a0bb416dea9105086fc3cc58a0ce4ff8d":[8,2,2,0,0,0,0,1,77,101],
-"MRDistanceMeasurementObject_8h.html#a0c4bf4da378a7a2b887330a2d61a94fa":[8,2,2,0,0,0,0,1,77,151],
-"MRDistanceMeasurementObject_8h.html#a0efcc73f21b06bb32c82889de3584e5f":[8,2,2,0,0,0,0,1,77,143]
+"MRDistanceMeasurementObject_8h.html#a0c4bf4da378a7a2b887330a2d61a94fa":[8,2,2,0,0,0,0,1,77,151]
 };
