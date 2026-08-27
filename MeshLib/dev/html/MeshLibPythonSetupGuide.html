@@ -143,27 +143,27 @@ $(function(){initNavTree('MeshLibPythonSetupGuide.html','',''); });
 <div class="toc"><h3>Table of Contents</h3>
 <ul>
   <li class="level1">
-    <a href="#autotoc_md154">Installing MeshLib SDK for Python </a>
+    <a href="#autotoc_md156">Installing MeshLib SDK for Python </a>
     <ul>
       <li class="level2">
         <a href="#PythonSetupPrerequisites">Prerequisites </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md155">Python </a>
+            <a href="#autotoc_md157">Python </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md156">Code Editor </a>
+            <a href="#autotoc_md158">Code Editor </a>
           </li>
         </ul>
       </li>
       <li class="level2">
-        <a href="#PythonSetupInstall">Installation Process </a>
+        <a href="#autotoc_md159">Installation Process </a>
         <ul>
           <li class="level3">
             <a href="#PythonSetupVerify">Verify the installation </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md157">Your first script </a>
+            <a href="#autotoc_md160">Your first script </a>
           </li>
           <li class="level3">
             <a href="#PythonSetupTroubleshooting">Troubleshooting </a>
@@ -171,16 +171,16 @@ $(function(){initNavTree('MeshLibPythonSetupGuide.html','',''); });
         </ul>
       </li>
       <li class="level2">
-        <a href="#autotoc_md158">How to use MeshLib Python Modules </a>
+        <a href="#autotoc_md161">How to use MeshLib Python Modules </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md159">Modules </a>
+            <a href="#autotoc_md162">Modules </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md160">Predefined Functions and Example Scripts </a>
+            <a href="#autotoc_md163">Predefined Functions and Example Scripts </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md161">Getting Started: MeshLib Viewer and Mesh I/O Examples </a>
+            <a href="#autotoc_md164">Getting Started: MeshLib Viewer and Mesh I/O Examples </a>
           </li>
         </ul>
       </li>
@@ -188,7 +188,7 @@ $(function(){initNavTree('MeshLibPythonSetupGuide.html','',''); });
   </li>
 </ul>
 </div>
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md154"></a>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md156"></a>
 Installing MeshLib SDK for Python</h1>
 <p> 
 <div class="image">
@@ -200,7 +200,7 @@ Installing MeshLib SDK for Python</h1>
 <h2 class="doxsection"><a class="anchor" id="PythonSetupPrerequisites"></a>
 Prerequisites</h2>
 <p>Before installing MeshLib SDK for Python, ensure you have the following:</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md155"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md157"></a>
 Python</h3>
 <p>MeshLib supports the Python versions listed below. We recommend <b>3.12 or newer</b>: Python 3.8 (end-of-life since October 2024) and 3.9 (end-of-life since October 2025) no longer receive security updates, and remain listed only because the published wheels still install on them.</p>
 <ul>
@@ -211,29 +211,21 @@ Python</h3>
 <p>Please install MeshLib using <span class="tt">pip</span> on these platforms.</p>
 <p><a href="https://www.python.org/downloads/">Download a supported version of Python</a>.</p>
 <p>The <a href="https://pypi.org/project/meshlib/">PyPI page</a> always shows the Python versions supported by the latest release.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md156"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md158"></a>
 Code Editor</h3>
 <p>You can use any Python-compatible editor, such as Visual Studio Code, PyCharm, or any IDE you prefer.</p>
 <p>The wheel ships type stubs (<span class="tt">.pyi</span>) for every module, so editors such as VS Code (Pylance) and PyCharm offer completion and signature help for the MeshLib API with no extra setup.</p>
 <p><a href="https://code.visualstudio.com/download">Download Visual Studio Code</a></p>
-<h2 class="doxsection"><a class="anchor" id="PythonSetupInstall"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md159"></a>
 Installation Process</h2>
-<p>MeshLib is available on <a href="https://pypi.org/project/meshlib/">PyPI</a> for Windows, macOS, and Linux. Install it into a virtual environment.</p>
-<p>On <b>Linux</b> and <b>macOS:</b> </p><div class="fragment"><div class="line">python3 -m venv .venv</div>
-<div class="line">source .venv/bin/activate</div>
-<div class="line">pip install meshlib</div>
-</div><!-- fragment --><p>On <b>Windows:</b> </p><div class="fragment"><div class="line">py -m venv .venv</div>
-<div class="line">.venv\Scripts\activate</div>
-<div class="line">pip install meshlib</div>
-</div><!-- fragment --><p>The virtual environment is what makes that command behave the same on every machine. Installed into the system interpreter instead, <span class="tt">pip install meshlib</span> is refused outright on most Linux distributions and on Homebrew Python (PEP 668, <span class="tt">error: externally-managed-environment</span>), while on Apple's Command Line Tools Python it quietly succeeds into a per-user directory you did not choose. Inside a virtual environment the location is yours, and <span class="tt">deactivate</span> leaves the system Python untouched.</p>
-<p>The command downloads one wheel — 60 MB on Windows, 75-81 MB on Linux and macOS — plus <span class="tt">numpy</span> (&gt;= 1.19), which is MeshLib's only dependency.</p>
-<h3 class="doxsection"><a class="anchor" id="PythonSetupVerify"></a>
+<p>MeshLib is available on <a href="https://pypi.org/project/meshlib/">PyPI</a> for Windows, macOS, and Linux. Install it with: </p><div class="fragment"><div class="line">pip install meshlib</div>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="PythonSetupVerify"></a>
 Verify the installation</h3>
 <p><span class="tt">pip install</span> reporting success is not the same as a working install: the wheel is tens of megabytes of prebuilt native code, and it can install cleanly and still fail to load. This one command covers the whole chain — import the package, load the native module, run a real geometry call: </p><div class="fragment"><div class="line">python -c &quot;from meshlib import mrmeshpy as mm; m = mm.makeCube(); print(mm.__file__); print(m.topology.numValidVerts(), &#39;verts&#39;, m.topology.numValidFaces(), &#39;faces&#39;)&quot;</div>
 </div><!-- fragment --><p>Expected output — the path is yours and ends in <span class="tt">mrmeshpy.pyd</span> on Windows, while the two counts are fixed: </p><div class="fragment"><div class="line">/path/to/.venv/lib/python3.12/site-packages/meshlib/mrmeshpy.so</div>
 <div class="line">8 verts 12 faces</div>
 </div><!-- fragment --><p>If it prints those two lines and exits <span class="tt">0</span>, the installation is working. Anything else — a traceback, a loader error, no output — means it is not: see <a class="el" href="#PythonSetupTroubleshooting">Troubleshooting</a> below. The printed path is worth a glance too, since it names the environment that actually received the package.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md157"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md160"></a>
 Your first script</h3>
 <p>With the install confirmed, the same call is the starting point of a real script — this one also writes the cube to a file: </p><div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"> </div>
@@ -249,16 +241,16 @@ Troubleshooting</h3>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Path  </th><th class="markdownTableHeadNone">Symptom  </th><th class="markdownTableHeadNone">Cause  </th><th class="markdownTableHeadNone">Fix  </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Linux distribution Python, Homebrew Python on macOS  </td><td class="markdownTableBodyNone"><span class="tt">pip install meshlib</span> stops before downloading anything with <span class="tt">error: externally-managed-environment</span>, then <span class="tt">× This environment is externally managed</span>.  </td><td class="markdownTableBodyNone">Not a MeshLib problem: pip 23.0 and newer refuse to install any package into an interpreter the OS package manager owns (PEP 668, marked by a <span class="tt">EXTERNALLY-MANAGED</span> file next to the standard library).  </td><td class="markdownTableBodyNone">Install into a virtual environment, as <a class="el" href="#PythonSetupInstall">Installation Process</a> above shows. <span class="tt">pip install --break-system-packages meshlib</span> also installs, but into the system interpreter — prefer the virtual environment.  </td></tr>
+<td class="markdownTableBodyNone">Linux distribution Python, Homebrew Python on macOS  </td><td class="markdownTableBodyNone"><span class="tt">pip install meshlib</span> stops before downloading anything with <span class="tt">error: externally-managed-environment</span>, then <span class="tt">× This environment is externally managed</span>.  </td><td class="markdownTableBodyNone">Not a MeshLib problem: pip 23.0 and newer refuse to install any package into an interpreter the OS package manager owns (PEP 668, marked by a <span class="tt">EXTERNALLY-MANAGED</span> file next to the standard library).  </td><td class="markdownTableBodyNone">Install into a virtual environment: <span class="tt">python3 -m venv .venv &amp;&amp; . .venv/bin/activate &amp;&amp; pip install meshlib</span> (on Windows, <span class="tt">.venv\Scripts\activate</span>). <span class="tt">pip install --break-system-packages meshlib</span> also installs, but into the system interpreter — prefer the virtual environment.  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Any  </td><td class="markdownTableBodyNone"><span class="tt">ERROR: Could not find a version that satisfies the requirement meshlib (from versions: none)</span>, then <span class="tt">ERROR: No matching distribution found for meshlib</span>.  </td><td class="markdownTableBodyNone">No published wheel matches this interpreter: the Python version is outside the range in <a class="el" href="#PythonSetupPrerequisites">Prerequisites</a> above, the interpreter is 32-bit, or the platform has no wheel at all — there is no <span class="tt">win_arm64</span> wheel, so Windows on Arm needs the x64 build of Python.  </td><td class="markdownTableBodyNone">Check what pip is matching against — <span class="tt">python -c "import sys, sysconfig; print(sys.version, sysconfig.get_platform())"</span> — and install a Python listed in <a class="el" href="#PythonSetupPrerequisites">Prerequisites</a>.  </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Any, most likely macOS with Python 3.8  </td><td class="markdownTableBodyNone">Install and import both succeed, but a documented function is missing — &lsquo;AttributeError: module 'meshlib.mrmeshpy&rsquo; has no attribute ...<span class="tt"> — or </span>pip show meshlib<span class="tt"> prints a version well behind the latest. \ilinebr &lt;/td&gt;    &lt;td class="markdownTableBodyNone"&gt; The package requires Python 3.8 or newer overall, but each release's wheel tags are narrower than that and move forward over time. When no wheel of the newest release matches your interpreter, pip does not fail: it silently installs the newest *older* release that does. On macOS with Python 3.8 that is 3.0.8.247 instead of the current release, because the current macOS wheels are tagged 3.9 and up. \ilinebr &lt;/td&gt;    &lt;td class="markdownTableBodyNone"&gt; </span>pip show meshlib<span class="tt">, and compare with the version on the [PyPI page](<a href="https://pypi.org/project/meshlib/">https://pypi.org/project/meshlib/</a>). If it is behind, move to a Python version listed in \ref PythonSetupPrerequisites "Prerequisites" and reinstall with </span>pip install &ndash;upgrade &ndash;force-reinstall meshlib`.  </td></tr>
 </table>
 <p>Anything not listed here: please open an issue at <a href="https://github.com/MeshInspector/MeshLib/issues">MeshLib Issues</a>, quoting the full <span class="tt">pip</span> output or traceback.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md158"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md161"></a>
 How to use MeshLib Python Modules</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md159"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md162"></a>
 Modules</h3>
 <p>The <span class="tt">meshlib</span> package ships four importable modules:</p>
 <table class="markdownTable">
@@ -275,10 +267,10 @@ Modules</h3>
 </table>
 <p>Import them from the package, for example <span class="tt">from meshlib import mrmeshpy</span>.</p>
 <dl class="section note"><dt>Note</dt><dd><span class="tt">mrcudapy</span> imports on any machine, including one without a GPU, but its routines need an NVIDIA GPU with a working CUDA driver at runtime.</dd></dl>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md160"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md163"></a>
 Predefined Functions and Example Scripts</h3>
 <p>MeshLib provides a set of example scripts that are available <a class="el" href="Examples.html">here</a>. These examples are helpful for both developers and testers. Additionally, the Python library allows you to explore all the available functions in <span class="tt">mrmeshpy</span> using the standard <span class="tt">help(meshlib.mrmeshpy)</span> command.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md161"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md164"></a>
 Getting Started: MeshLib Viewer and Mesh I/O Examples</h3>
 <p>After installing MeshLib, a great way to start exploring its capabilities is through interactive examples.</p>
 <ul>
