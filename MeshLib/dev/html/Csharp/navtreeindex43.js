@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1Const__EdgeBMap.html#a79d6e2ac2607c836a7468587b59695c8":[8,3,0,0,0,409,4],
 "classMR_1_1Const__EdgeBMap.html#a9ae6d2c8ffcde1a8299f43b8ca1a0113":[8,3,0,0,0,409,5],
 "classMR_1_1Const__EdgeBMap.html#ac14e467450864819a2abdadbee8081d4":[8,3,0,0,0,409,2],
 "classMR_1_1Const__EdgeBMap.html#ac30a07f5b4b0ebb2800bca1279193e0d":[8,3,0,0,0,409,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1Const__EdgePoint.html#ac10c1e6d23b91a7d864fab57f32aca89":[8,3,0,0,0,416,18],
 "classMR_1_1Const__EdgePoint.html#ac15283cca41be20ec5492879caea104b":[8,3,0,0,0,416,21],
 "classMR_1_1Const__EdgePoint.html#addcdfde71c8b354d78c3b116a4e439a5":[8,3,0,0,0,416,1],
-"classMR_1_1Const__EdgePoint.html#adeebaa61f15be178b9983963bf6d8384":[8,3,0,0,0,416,6],
-"classMR_1_1Const__EdgePoint.html#ae1cddc19a2b936d8690160b8b2a9feec":[8,3,0,0,0,416,4]
+"classMR_1_1Const__EdgePoint.html#adeebaa61f15be178b9983963bf6d8384":[8,3,0,0,0,416,6]
 };

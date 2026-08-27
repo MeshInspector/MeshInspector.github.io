@@ -21056,6 +21056,33 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1332" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1332" bodyend="1337"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a7205accb301e654a766660dfdc5c4088" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.bridgeFillAllHoles</definition>
+        <argsstring>(MR.Mesh mesh, MR.Const_FillHoleParams? params_=null)</argsstring>
+        <name>bridgeFillAllHoles</name>
+        <qualifiedname>MR.bridgeFillAllHoles</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FillHoleParams" kindref="compound">MR.Const_FillHoleParams</ref>?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>creates bridge edges between all holes of the mesh by calling makeInterHoleBridgeEdges, and fills all remaining holes; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>false if the mesh had no holes and was not changed, true otherwise Generated from function <computeroutput><ref refid="classMR_1a7205accb301e654a766660dfdc5c4088" kindref="member">MR.bridgeFillAllHoles</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1345" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1345" bodyend="1350"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1afef1775501a1c1df473f6c95cb59c4ea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.splitQuad</definition>
@@ -21082,7 +21109,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1343" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1343" bodyend="1348"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1356" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1356" bodyend="1361"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac637663a362a0e3540940f2072a28ed4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
@@ -54035,6 +54062,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1af57997e97fb2201478c93d6b6592b772" prot="public" virt="non-virtual"><scope>MR</scope><name>boolean</name></member>
       <member refid="classMR_1a631bac54cdc6217f4e5aaa1f65a92a52" prot="public" virt="non-virtual"><scope>MR</scope><name>boolean</name></member>
       <member refid="classMR_1ad89c5fb7af9da0df04973fb2cd54e934" prot="public" virt="non-virtual"><scope>MR</scope><name>BooleanOperation</name></member>
+      <member refid="classMR_1a7205accb301e654a766660dfdc5c4088" prot="public" virt="non-virtual"><scope>MR</scope><name>bridgeFillAllHoles</name></member>
       <member refid="classMR_1a573c2c69cb6295abbbede2daadc1acf6" prot="public" virt="non-virtual"><scope>MR</scope><name>buildBottom</name></member>
       <member refid="classMR_1acdb17d4d508531ab0d39dfed3d237b25" prot="public" virt="non-virtual"><scope>MR</scope><name>buildCylinderBetweenTwoHoles</name></member>
       <member refid="classMR_1af542c8d76934e9244529e0805067cc32" prot="public" virt="non-virtual"><scope>MR</scope><name>buildCylinderBetweenTwoHoles</name></member>

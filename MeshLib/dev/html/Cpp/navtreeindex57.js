@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"group__SurfacePathGroup.html#ga114a5d76c6d32bc160b8b37c5ab5c7ae":[8,0,0,16,26],
 "group__SurfacePathGroup.html#ga114a5d76c6d32bc160b8b37c5ab5c7ae":[8,0,0,20,2574],
 "group__SurfacePathGroup.html#ga1359bd15f1fd1d1702be9174dbd1f91e":[8,0,0,16,40],
 "group__SurfacePathGroup.html#ga1359bd15f1fd1d1702be9174dbd1f91e":[8,0,0,20,2806],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "group__VoxelGroup.html#ga381737dfbef1fd95586ae4f44b63b468":[8,0,0,17,23],
 "group__VoxelGroup.html#ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e":[8,0,0,17,28],
 "group__VoxelGroup.html#ga3f90dd1eb37b8e96421048a44936a299":[8,0,0,17,18],
-"group__VoxelGroup.html#ga4640c0c164372ff567a458ce590c241b":[8,0,0,17,32],
-"group__VoxelGroup.html#ga568040796ed83557b8128ba94a11852e":[8,0,0,17,15]
+"group__VoxelGroup.html#ga4640c0c164372ff567a458ce590c241b":[8,0,0,17,32]
 };

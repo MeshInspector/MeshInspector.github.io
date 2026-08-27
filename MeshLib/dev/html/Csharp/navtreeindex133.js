@@ -1,5 +1,6 @@
 var NAVTREEINDEX133 =
 {
+"classMR_1_1Triangulation.html#adbc8a3e665e881c44012bd6fedd994a9":[8,3,0,0,0,1669,12],
 "classMR_1_1Triangulation.html#adefb8a21ca6123e4215c2a9e18e9a61a":[8,3,0,0,0,1669,25],
 "classMR_1_1Triangulation.html#af3773cdc1e54e4e0f8e878c6f0553286":[8,3,0,0,0,1669,7],
 "classMR_1_1Triangulation.html#af6ad4c273d20bdd5e8cbbaa75baccac8":[8,3,0,0,0,1669,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX133 =
 "classMR_1_1UndirEdgeColorMapAggregator.html#aecfad71bce8ab425f97c9b0302234db7":[8,3,0,0,0,1699,12],
 "classMR_1_1UndirEdgeColorMapAggregator.html#aed707045b5a58c9c99c0084a70fa949f":[8,3,0,0,0,1699,1],
 "classMR_1_1UndirEdgeColorMapAggregator.html#af7cf95f2867c4b33520ccef323cf62b2":[8,3,0,0,0,1699,10],
-"classMR_1_1UndirEdgeColorMapAggregator.html#afa19e310517bd3061a14069301c39000":[8,3,0,0,0,1699,11],
-"classMR_1_1UndirectedEdge2RegionMap.html":[8,3,0,0,0,1689]
+"classMR_1_1UndirEdgeColorMapAggregator.html#afa19e310517bd3061a14069301c39000":[8,3,0,0,0,1699,11]
 };

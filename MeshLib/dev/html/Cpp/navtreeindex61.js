@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1BooleanInternalParameters.html#ac286ffae84a7480b081c9bb06413cb79":[8,0,0,8,1,0],
 "structMR_1_1BooleanParameters.html":[8,0,1,0,1,98],
 "structMR_1_1BooleanParameters.html":[8,0,2,0,2,80],
 "structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[8,0,1,0,1,98,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1DirectoryIterator.html":[8,0,0,20,189],
 "structMR_1_1DirectoryRecursive.html":[8,0,0,20,192],
 "structMR_1_1DirectoryRecursiveIterator.html":[8,0,0,20,191],
-"structMR_1_1Dirty.html":[8,0,0,11,2,4],
-"structMR_1_1Dirty.html#a193091023ad909fc52546edecd127232":[8,0,0,11,2,4,0]
+"structMR_1_1Dirty.html":[8,0,0,11,2,4]
 };

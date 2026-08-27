@@ -10,6 +10,7 @@ var MRMeshFillHole_8h =
       [ "MR_FillHoleParams_MultipleEdgesResolveMode_Simple", "MRMeshFillHole_8h.html#ad5ff595b64cd4a8ccfe5988d90b4df81af6d6c71b19a22ab07182be268c3aaf07", null ],
       [ "MR_FillHoleParams_MultipleEdgesResolveMode_Strong", "MRMeshFillHole_8h.html#ad5ff595b64cd4a8ccfe5988d90b4df81acd6ea875a6947158d24fa83001f68c48", null ]
     ] ],
+    [ "MR_bridgeFillAllHoles", "MRMeshFillHole_8h.html#a0568b5e5585904e2e478f58533538592", null ],
     [ "MR_buildBottom", "MRMeshFillHole_8h.html#ab391387fa150a1ab1bfb4e5b4b720bae", null ],
     [ "MR_buildCylinderBetweenTwoHoles_2", "MRMeshFillHole_8h.html#a2d5baa17cf2b7f5cb69237f5e4ae0457", null ],
     [ "MR_buildCylinderBetweenTwoHoles_4", "MRMeshFillHole_8h.html#a7f3e17319c8051786af783b7c341f240", null ],

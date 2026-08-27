@@ -952,6 +952,32 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </inbodydescription>
         <location file="MRMesh/MRMeshFillHole.h" line="270" column="14" declfile="MRMesh/MRMeshFillHole.h" declline="270" declcolumn="14"/>
       </memberdef>
+      <memberdef kind="function" id="group__FillHoleGroup_1gae3f4f1ce30142665d23ff5afabc9faa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::bridgeFillAllHoles</definition>
+        <argsstring>(Mesh &amp;mesh, const FillHoleParams &amp;params={})</argsstring>
+        <name>bridgeFillAllHoles</name>
+        <qualifiedname>MR::bridgeFillAllHoles</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const FillHoleParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates bridge edges between all holes of the mesh by calling makeInterHoleBridgeEdges, and fills all remaining holes; <simplesect kind="return"><para>false if the mesh had no holes and was not changed, true otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFillHole.h" line="274" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="274" declcolumn="7"/>
+      </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga71fca5b809e46f918e1bc23c90c3201e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::splitQuad</definition>
@@ -978,7 +1004,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="273" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="273" declcolumn="7"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="277" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="277" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga633f1395df33828b2f19fc042879aa29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>

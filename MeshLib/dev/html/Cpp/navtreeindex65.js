@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1Mesh.html#a074d71b712f4d3b75e9afe65903cba2f":[8,0,0,7,1,4],
 "structMR_1_1Mesh.html#a07d95933f6235de108fcb86097508b9f":[8,0,0,7,1,6],
 "structMR_1_1Mesh.html#a08b8517dc08f3f1509ff3a0deb390e82":[8,0,0,7,1,32],
 "structMR_1_1Mesh.html#a08c67e01e6197aebd5f2407cc1571c89":[8,0,0,7,1,66],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1MinArg.html":[8,0,0,20,345],
 "structMR_1_1MinMaxArg.html":[8,0,0,20,347],
 "structMR_1_1ModalDialogSettings.html":[8,0,0,20,609],
-"structMR_1_1ModelBaseRenderParams.html":[8,0,0,20,298],
-"structMR_1_1ModelPointsData.html":[8,0,0,20,266]
+"structMR_1_1ModelBaseRenderParams.html":[8,0,0,20,298]
 };

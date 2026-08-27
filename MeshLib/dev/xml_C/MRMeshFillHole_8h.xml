@@ -2354,6 +2354,30 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshFillHole.h" line="770" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshFillHole.h" declline="770" declcolumn="33"/>
       </memberdef>
+      <memberdef kind="function" id="MRMeshFillHole_8h_1a0568b5e5585904e2e478f58533538592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_bridgeFillAllHoles</definition>
+        <argsstring>(MR_Mesh *mesh, const MR_FillHoleParams *params)</argsstring>
+        <name>MR_bridgeFillAllHoles</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates bridge edges between all holes of the mesh by calling makeInterHoleBridgeEdges, and fills all remaining holes; <simplesect kind="return"><para>false if the mesh had no holes and was not changed, true otherwise Generated from function <computeroutput>MR::bridgeFillAllHoles</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshFillHole.h" line="778" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshFillHole.h" declline="778" declcolumn="14"/>
+      </memberdef>
       <memberdef kind="function" id="MRMeshFillHole_8h_1a42ea0a4fee75a0495d5d9ca0ec3e6ae3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_splitQuad</definition>
@@ -2378,7 +2402,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshFillHole.h" line="776" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshFillHole.h" declline="776" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshFillHole.h" line="784" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshFillHole.h" declline="784" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2605,11 +2629,13 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <codeline lineno="764"><highlight class="normal"></highlight></codeline>
 <codeline lineno="770" refid="MRMeshFillHole_8h_1a84917b606413b073ee3b46b56081f027" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRMeshFillHole_8h_1a84917b606413b073ee3b46b56081f027" kindref="member">MR_makeInterHoleBridgeEdges_3</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/>const<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/>const<sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*holeRepresentativeEdges);</highlight></codeline>
 <codeline lineno="771"><highlight class="normal"></highlight></codeline>
-<codeline lineno="776" refid="MRMeshFillHole_8h_1a42ea0a4fee75a0495d5d9ca0ec3e6ae3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a42ea0a4fee75a0495d5d9ca0ec3e6ae3" kindref="member">MR_splitQuad</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>a,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*outNewFaces);</highlight></codeline>
-<codeline lineno="777"><highlight class="normal"></highlight></codeline>
-<codeline lineno="778"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="779"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="780"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="778" refid="MRMeshFillHole_8h_1a0568b5e5585904e2e478f58533538592" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a0568b5e5585904e2e478f58533538592" kindref="member">MR_bridgeFillAllHoles</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/>const<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="779"><highlight class="normal"></highlight></codeline>
+<codeline lineno="784" refid="MRMeshFillHole_8h_1a42ea0a4fee75a0495d5d9ca0ec3e6ae3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshFillHole_8h_1a42ea0a4fee75a0495d5d9ca0ec3e6ae3" kindref="member">MR_splitQuad</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>a,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*outNewFaces);</highlight></codeline>
+<codeline lineno="785"><highlight class="normal"></highlight></codeline>
+<codeline lineno="786"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="787"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="788"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshFillHole.h"/>
   </compounddef>

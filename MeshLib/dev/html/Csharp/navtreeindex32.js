@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__BMap__MRRegionId__MRRegionId.html#af18b5914f644dbf8171500ef209d3bc7":[8,3,0,0,0,272,1],
 "classMR_1_1Const__BMap__MRRegionId__MRRegionId.html#af5edf3e040f4d521bde70be61ded3a8b":[8,3,0,0,0,272,7],
 "classMR_1_1Const__BMap__MRTextureId__MRTextureId.html":[8,3,0,0,0,273],
 "classMR_1_1Const__BMap__MRTextureId__MRTextureId.html#a2f1e520ceb56f9525754f1295370816a":[8,3,0,0,0,273,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__BendTextAlongCurveParams.html#a4d18c5e87e397b1c3858fe06c0805691":[8,3,0,0,0,261,20],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a513e4a8f2a6ff543457181dc613bd30b":[8,3,0,0,0,261,10],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a8061392a1acd5751927363635d66cfda":[8,3,0,0,0,261,19],
-"classMR_1_1Const__BendTextAlongCurveParams.html#a83f38e6d316b03334d21a3f3e1261bed":[8,3,0,0,0,261,8],
-"classMR_1_1Const__BendTextAlongCurveParams.html#a8f02305dfb4ff0685007537f834d5e55":[8,3,0,0,0,261,0]
+"classMR_1_1Const__BendTextAlongCurveParams.html#a83f38e6d316b03334d21a3f3e1261bed":[8,3,0,0,0,261,8]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX143 =
 {
+"classMR_1_1ViewportProperty__UnsignedChar.html#ad3f096e6805450099cf4b10ccd5e6401":[8,3,0,0,0,1805,2],
 "classMR_1_1ViewportProperty__UnsignedChar.html#aefeaab72c839aaaf14d9a073a81c0f76":[8,3,0,0,0,1805,8],
 "classMR_1_1VisualObject.html":[8,3,0,0,0,1806],
 "classMR_1_1VisualObject.html#a0782eb1aa5637aa8046a322e2b378a8b":[8,3,0,0,0,1806,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX143 =
 "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html#af303b4d732aaea25b05e10ae89bdeb32":[8,3,0,0,0,1815,2,7],
 "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html":[8,3,0,0,0,1815,3],
 "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a1464336c087e8640286425f1c4fbbb77":[8,3,0,0,0,1815,3,5],
-"classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a53b0fec3f2eedfc533c9ddcd80db076a":[8,3,0,0,0,1815,3,7],
-"classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a7273eef8dda566a418aa00a2a717b0c5":[8,3,0,0,0,1815,3,2]
+"classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a53b0fec3f2eedfc533c9ddcd80db076a":[8,3,0,0,0,1815,3,7]
 };

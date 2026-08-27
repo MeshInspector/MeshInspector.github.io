@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere.html#add9765f8ca600a3bdbaf9a16a07bda7b":[8,3,0,0,0,1456,2],
 "classMR_1_1ObjMap.html":[8,3,0,0,0,1457],
 "classMR_1_1ObjMap.html#a0080da5fd18d1a59ae48507572da017b":[8,3,0,0,0,1457,4],
 "classMR_1_1ObjMap.html#a0d74cf10ce49f5cb6fcc58bf0d2f712f":[8,3,0,0,0,1457,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "classMR_1_1ObjectLabel.html#a284fd42b29cb88faaa44dc599b3efb7d":[8,3,0,0,0,1437,33],
 "classMR_1_1ObjectLabel.html#a2ba01a5a39ffef853393703ad9f16db1":[8,3,0,0,0,1437,34],
 "classMR_1_1ObjectLabel.html#a2e21093f42ec76c7a88940ce115c8afa":[8,3,0,0,0,1437,22],
-"classMR_1_1ObjectLabel.html#a303bfb725ddf04bfa57be49861ad1f6b":[8,3,0,0,0,1437,60],
-"classMR_1_1ObjectLabel.html#a358cb29f8d2561f64c902674c479d5e5":[8,3,0,0,0,1437,52]
+"classMR_1_1ObjectLabel.html#a303bfb725ddf04bfa57be49861ad1f6b":[8,3,0,0,0,1437,60]
 };

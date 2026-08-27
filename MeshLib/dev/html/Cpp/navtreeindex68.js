@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1TiffParameters.html":[8,0,0,20,508],
 "structMR_1_1TimeRecord.html":[8,0,0,3,13],
 "structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46":[8,0,0,3,13,1],
 "structMR_1_1TimeRecord.html#aa1636ed4f889fa0058dc49ddbf33c8ff":[8,0,0,3,13,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#aa5ab2cbeb1b2f73ba9d3a268be384ace":[8,0,0,1,18,0,1],
 "structMR_1_1Vector2.html":[8,0,0,0,12,0],
 "structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[8,0,0,0,12,0,41],
-"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[8,0,1,0,1,2863],
-"structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[8,0,0,0,12,0,42]
+"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[8,0,1,0,1,2864]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX150 =
 {
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#afdc31f7f68f5f81095aae6e16a8d412c":[8,2,2,0,0,0,0,2,239,2],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h_source.html":[8,2,2,0,0,0,0,2,239],
 "std__pair__MR__DistanceMap__MR__DistanceMap_8h.html":[8,2,2,0,0,0,0,2,266],
 "std__pair__MR__DistanceMap__MR__DistanceMap_8h.html#a0b17883ed511a04978eab46b6f900e30":[8,2,2,0,0,0,0,2,266,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX150 =
 "std__pair__MR__VertId__bool_8h.html#a75c7b51ec732498d1aa93d8ac92b2ef8":[8,2,2,0,0,0,0,2,280,8],
 "std__pair__MR__VertId__bool_8h.html#a85ea11dc7b6d99ea9c57bee7161cd9a7":[8,2,2,0,0,0,0,2,280,0],
 "std__pair__MR__VertId__bool_8h.html#a86c9177a3820690c0aab7648301fe0eb":[8,2,2,0,0,0,0,2,280,1],
-"std__pair__MR__VertId__bool_8h.html#a9bcf89b4e730fd30b0d29f3531317cff":[8,2,2,0,0,0,0,2,280,6],
-"std__pair__MR__VertId__bool_8h.html#ab6176a01e61b7a2221f9990e4d06396b":[8,2,2,0,0,0,0,2,280,3]
+"std__pair__MR__VertId__bool_8h.html#a9bcf89b4e730fd30b0d29f3531317cff":[8,2,2,0,0,0,0,2,280,6]
 };

@@ -1843,6 +1843,7 @@ var namespaceMR =
     [ "Box< Vector2< int > >", "group__GeneralGroup.html#ga92686e2422f993e9a5680c34d51f5522", null ],
     [ "Box< Vector3< float > >", "group__GeneralGroup.html#ga0279bd4769dfdea378c3db6592061fd6", null ],
     [ "Box< Vector3< int > >", "group__GeneralGroup.html#ga7c6a3d99152626729bc9b65caff6df49", null ],
+    [ "bridgeFillAllHoles", "group__FillHoleGroup.html#gae3f4f1ce30142665d23ff5afabc9faa0", null ],
     [ "buildBottom", "group__FillHoleGroup.html#gad9d00d278b9f0d856d31227faa8500d5", null ],
     [ "buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#ga9de831741793790088bcc1af9358c25c", null ],
     [ "buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#ga2f24ede2ab1d007b775443aff87d052a", null ],

@@ -1190,28 +1190,6 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33290" bodyend="33291"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a15200f2e7236a7ee1c27236ee39bc205" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition> bool mrmeshpy.MeshComponents.hasFullySelectedComponent</definition>
-        <argsstring>(MeshTopology topology, VertBitSet selection)</argsstring>
-        <name>hasFullySelectedComponent</name>
-        <qualifiedname>mrmeshpy.MeshComponents.hasFullySelectedComponent</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
-          <declname>selection</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33294" bodyend="33295"/>
-      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ae54a0cf542b013633cb6096bc42ac1dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition> bool mrmeshpy.MeshComponents.hasFullySelectedComponent</definition>
@@ -1234,7 +1212,29 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33298" bodyend="33301"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33294" bodyend="33297"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a15200f2e7236a7ee1c27236ee39bc205" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshComponents.hasFullySelectedComponent</definition>
+        <argsstring>(MeshTopology topology, VertBitSet selection)</argsstring>
+        <name>hasFullySelectedComponent</name>
+        <qualifiedname>mrmeshpy.MeshComponents.hasFullySelectedComponent</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33300" bodyend="33301"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1286,8 +1286,8 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
       <member refid="classmrmeshpy_1_1MeshComponents_1a78f0cb19a56353b7c77d0cf4ba5cd952" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVertsEx</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a160673de7369769db9c212722aa6ed0f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVertsSeparatedByPath</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1aad92358b1133cef73925d1cca000522b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVertsSeparatedByPaths</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a15200f2e7236a7ee1c27236ee39bc205" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>hasFullySelectedComponent</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ae54a0cf542b013633cb6096bc42ac1dc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>hasFullySelectedComponent</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1a15200f2e7236a7ee1c27236ee39bc205" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>hasFullySelectedComponent</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

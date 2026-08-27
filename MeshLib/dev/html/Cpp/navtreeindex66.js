@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1ModelPointsData.html":[8,0,0,20,266],
 "structMR_1_1ModelRenderParams.html":[8,0,0,20,299],
 "structMR_1_1MouseClickListener.html":[8,0,0,20,778],
 "structMR_1_1MouseController_1_1MouseControlKey.html":[8,0,0,20,612],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c":[8,0,0,1,33,3],
 "structMR_1_1PolylineProjectionResult.html#a65b3a379e994fdd5dd100ddb4cb1d02c":[8,0,0,1,33,0],
 "structMR_1_1PolylineProjectionResult.html#a7a353323e51db61fabf08080cbe55598":[8,0,0,1,33,1],
-"structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8":[8,0,0,1,33,2],
-"structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd":[8,0,0,1,33,4]
+"structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8":[8,0,0,1,33,2]
 };

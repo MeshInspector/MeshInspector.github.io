@@ -1390,6 +1390,7 @@ var namespacemrmeshpy =
     [ "blend", "namespacemrmeshpy.html#a8727e878a89927df7086690df1cd07f9", null ],
     [ "boolean", "namespacemrmeshpy.html#a03f959339ff777818c786e7b356f268f", null ],
     [ "boolean", "namespacemrmeshpy.html#a376c6df6d887343f32a51600cb8ef337", null ],
+    [ "bridgeFillAllHoles", "namespacemrmeshpy.html#ab3328501b0e323524187868354bd56d2", null ],
     [ "buildBottom", "namespacemrmeshpy.html#af2ef9b715f183b0fd0edb0d7c1c18422", null ],
     [ "buildCylinderBetweenTwoHoles", "namespacemrmeshpy.html#a3a7c9f0a6189b78ff43b605dd941666d", null ],
     [ "buildCylinderBetweenTwoHoles", "namespacemrmeshpy.html#ace3b20b6f90e7988f702d530180ae5c7", null ],

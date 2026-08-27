@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"classMR_1_1Const__IntersectionPrecomputes__Double.html#a0b47bd4b39fc706a801951d9f003bf52":[8,3,0,0,0,504,13],
 "classMR_1_1Const__IntersectionPrecomputes__Double.html#a2219e7063220613f38fb8a5120693911":[8,3,0,0,0,504,3],
 "classMR_1_1Const__IntersectionPrecomputes__Double.html#a23107a2843d07f6a107f2678e20adada":[8,3,0,0,0,504,7],
 "classMR_1_1Const__IntersectionPrecomputes__Double.html#a39d18a0b2bb66fec135bd5df02ca05d1":[8,3,0,0,0,504,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "classMR_1_1Const__Line3Mesh__Float.html#a8eefb775d1bdc022d10d80e3e853981f":[8,3,0,0,0,533,2],
 "classMR_1_1Const__Line3Mesh__Float.html#aa6b380dbfd991a8d18abbf5c01bfc405":[8,3,0,0,0,533,7],
 "classMR_1_1Const__Line3Mesh__Float.html#aa73b722d7ca5106e5d3b254ac43d5900":[8,3,0,0,0,533,9],
-"classMR_1_1Const__Line3Mesh__Float.html#aa7983e569e55ad303a83e25f9f9c88bd":[8,3,0,0,0,533,1],
-"classMR_1_1Const__Line3Mesh__Float.html#ab5693dd87dd8d88390796499c9cf2350":[8,3,0,0,0,533,5]
+"classMR_1_1Const__Line3Mesh__Float.html#aa7983e569e55ad303a83e25f9f9c88bd":[8,3,0,0,0,533,1]
 };
