@@ -160,6 +160,9 @@ $(function(){initNavTree('MeshLibPythonSetupGuide.html','',''); });
         <a href="#PythonSetupInstall">Installation Process </a>
         <ul>
           <li class="level3">
+            <a href="#PythonSetupHeadless">Headless installation </a>
+          </li>
+          <li class="level3">
             <a href="#PythonSetupVerify">Verify the installation </a>
           </li>
           <li class="level3">
@@ -219,14 +222,18 @@ Code Editor</h3>
 <h2 class="doxsection"><a class="anchor" id="PythonSetupInstall"></a>
 Installation Process</h2>
 <p>MeshLib is available on <a href="https://pypi.org/project/meshlib/">PyPI</a> for Windows, macOS, and Linux: </p><div class="fragment"><div class="line">pip install meshlib</div>
-</div><!-- fragment --><p>It pulls in <span class="tt">numpy</span> (&gt;= 1.19), MeshLib's only dependency.</p>
+</div><!-- fragment --><p>It installs two packages: <span class="tt">meshlib-core</span> — the headless core with <span class="tt">mrmeshpy</span>, <span class="tt">mrmeshnumpy</span> and <span class="tt">mrcudapy</span> — and the <span class="tt">meshlib</span> wheel on top of it, adding the interactive viewer (<span class="tt">mrviewerpy</span>) with its UI resources. <span class="tt">numpy</span> (&gt;= 1.19) is the only external dependency.</p>
 <p>On <b>Windows</b> that command works as written. A virtual environment is still worth using once you have more than one project, so their dependencies cannot collide: </p><div class="fragment"><div class="line">py -m venv .venv</div>
 <div class="line">.venv\Scripts\activate</div>
 <div class="line">pip install meshlib</div>
 </div><!-- fragment --><p>On <b>Linux</b>, and on <b>macOS</b> with Homebrew Python, the plain command is refused before it downloads anything — <span class="tt">error: externally-managed-environment</span> — because pip will not install into an interpreter the system package manager owns (PEP 668); Apple's Command Line Tools Python instead accepts it quietly into a per-user directory you did not choose. There, install into a virtual environment: </p><div class="fragment"><div class="line">python3 -m venv .venv</div>
 <div class="line">source .venv/bin/activate</div>
 <div class="line">pip install meshlib</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="PythonSetupVerify"></a>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="PythonSetupHeadless"></a>
+Headless installation</h3>
+<p>On servers, in docker images, and in CI — anywhere the interactive viewer is never opened — install just the core: </p><div class="fragment"><div class="line">pip install meshlib-core</div>
+</div><!-- fragment --><p> The download is 25–31% smaller and provides everything except <span class="tt">meshlib.mrviewerpy</span>; every other import (<span class="tt">from meshlib import mrmeshpy</span>, <span class="tt">mrmeshnumpy</span>, <span class="tt">mrcudapy</span>) works exactly as with the full package. Installing <span class="tt">meshlib</span> later adds the viewer on top, and <span class="tt">pip uninstall meshlib</span> removes only the viewer part again. Both packages are versioned in lockstep: <span class="tt">meshlib</span> of a given version requires exactly <span class="tt">meshlib-core</span> of the same version.</p>
+<h3 class="doxsection"><a class="anchor" id="PythonSetupVerify"></a>
 Verify the installation</h3>
 <p><span class="tt">pip install</span> reporting success is not the same as a working install: the wheel is tens of megabytes of prebuilt native code, and it can install cleanly and still fail to load. This one command covers the whole chain — import the package, load the native module, run a real geometry call: </p><div class="fragment"><div class="line">python -c &quot;from meshlib import mrmeshpy as mm; m = mm.makeCube(); print(mm.__file__); print(m.topology.numValidVerts(), &#39;verts&#39;, m.topology.numValidFaces(), &#39;faces&#39;)&quot;</div>
 </div><!-- fragment --><p>Expected output — the path is yours and ends in <span class="tt">mrmeshpy.pyd</span> on Windows, while the two counts are fixed: </p><div class="fragment"><div class="line">/path/to/.venv/lib/python3.12/site-packages/meshlib/mrmeshpy.so</div>
