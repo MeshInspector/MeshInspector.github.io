@@ -290,8 +290,9 @@ $(function(){initNavTree('ExampleFreeForm.html','',''); });
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <span class="comment">// Load mesh</span></div>
-<div class="line">            var mesh = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line">            <span class="comment">// Make a mesh to deform</span></div>
+<div class="line">            <span class="comment">// (to deform your own mesh, load it with MR.MeshLoad.fromAnySupportedFormat(&quot;mesh.stl&quot;) instead)</span></div>
+<div class="line">            var mesh = MR.makeUVSphere(1.0f, 32, 32);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Compute mesh bounding box</span></div>
 <div class="line">            MR.Box3f box = mesh.getBoundingBox();</div>

@@ -301,8 +301,10 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <span class="comment">// Load mesh</span></div>
-<div class="line">            var mesh = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line">            <span class="comment">// Load the mesh given on the command line, or make a sphere to decimate if no path is given</span></div>
+<div class="line">            var mesh = args.Length &gt; 0</div>
+<div class="line">                ? MR.MeshLoad.fromAnySupportedFormat(args[0])</div>
+<div class="line">                : MR.makeUVSphere(1.0f, 64, 64);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Repack mesh optimally.</span></div>
 <div class="line">            <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>

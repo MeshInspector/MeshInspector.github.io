@@ -291,26 +291,22 @@ $(function(){initNavTree('ExampleMeshOffset.html','',''); });
 </div>
 </li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>System.Globalization;</div>
-<div class="line"><span class="keyword">using </span>System.Reflection;</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshOffsetExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">if</span> (args.Length != 1)</div>
-<div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} OFFSET_VALUE&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
-<div class="line">            <span class="keywordflow">return</span>;</div>
-<div class="line">        }</div>
-<div class="line"> </div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <span class="keywordtype">float</span> offsetValue = <span class="keywordtype">float</span>.Parse(args[0],</div>
-<div class="line">                      System.Globalization.NumberStyles.AllowDecimalPoint,</div>
-<div class="line">                      CultureInfo.InvariantCulture);</div>
+<div class="line">            <span class="comment">// Load the mesh given as the first argument, or make a sphere to offset if no path is given</span></div>
+<div class="line">            var mesh = args.Length &gt; 0</div>
+<div class="line">                ? MR.MeshLoad.fromAnySupportedFormat(args[0])</div>
+<div class="line">                : MR.makeUVSphere(1.0f, 32, 32);</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Load mesh</span></div>
-<div class="line">            var mesh = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line">            <span class="comment">// Offset value: the second argument if given, otherwise 5% of the bounding box diagonal</span></div>
+<div class="line">            <span class="keywordtype">float</span> offsetValue = args.Length &gt; 1</div>
+<div class="line">                ? <span class="keywordtype">float</span>.Parse(args[1], NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture)</div>
+<div class="line">                : mesh.computeBoundingBox().diagonal() * 0.05f;</div>
 <div class="line"> </div>
 <div class="line">            MR.MeshPart mp = <span class="keyword">new</span>(mesh);</div>
 <div class="line"> </div>

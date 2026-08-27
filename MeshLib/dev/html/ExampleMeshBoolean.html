@@ -267,26 +267,34 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <img src="boolean_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>System.Reflection;</div>
-<div class="line"> </div>
-<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshBooleanExample</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshBooleanExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">if</span> (args.Length != 2)</div>
-<div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} INPUT1 INPUT2&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
-<div class="line">            <span class="keywordflow">return</span>;</div>
-<div class="line">        }</div>
-<div class="line"> </div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <span class="comment">// load mesh</span></div>
-<div class="line">            var mesh_a = MR.MeshLoad.fromAnySupportedFormat(args[0]);</div>
-<div class="line">            var mesh_b = MR.MeshLoad.fromAnySupportedFormat(args[1]);</div>
+<div class="line">            MR.Mesh mesh_a, mesh_b;</div>
+<div class="line">            <span class="keywordflow">if</span> (args.Length &gt;= 2)</div>
+<div class="line">            {</div>
+<div class="line">                <span class="comment">// load the two meshes given on the command line</span></div>
+<div class="line">                mesh_a = MR.MeshLoad.fromAnySupportedFormat(args[0]);</div>
+<div class="line">                mesh_b = MR.MeshLoad.fromAnySupportedFormat(args[1]);</div>
+<div class="line">            }</div>
+<div class="line">            <span class="keywordflow">else</span></div>
+<div class="line">            {</div>
+<div class="line">                <span class="comment">// no input given: make two unit spheres shifted along X, so that they overlap</span></div>
+<div class="line">                mesh_a = MR.makeUVSphere(1.0f, 64, 64);</div>
+<div class="line">                mesh_b = MR.makeUVSphere(1.0f, 64, 64);</div>
+<div class="line">                mesh_b.transform(MR.AffineXf3f.translation(<span class="keyword">new</span> MR.Vector3f(0.7f, 0.0f, 0.0f)));</div>
+<div class="line">            }</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// perform boolean operation</span></div>
 <div class="line">            MR.BooleanResult res = MR.boolean(mesh_a, mesh_b, MR.BooleanOperation.Intersection);</div>
+<div class="line">            <span class="keywordflow">if</span> (!res.valid())</div>
+<div class="line">            {</div>
+<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, res.errorString);</div>
+<div class="line">                <span class="keywordflow">return</span>;</div>
+<div class="line">            }</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// save result to STL file</span></div>
 <div class="line">            MR.MeshSave.toAnySupportedFormat(res.mesh, <span class="stringliteral">&quot;out_boolean.stl&quot;</span>);</div>

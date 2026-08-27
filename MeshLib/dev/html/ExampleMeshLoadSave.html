@@ -261,7 +261,14 @@ MR::MeshSave</dd></dl>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
+<div class="line">            <span class="comment">// This example needs an input mesh; create one if you do not have it already</span></div>
+<div class="line">            <span class="keywordflow">if</span> (!File.Exists(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
+<div class="line">                MR.MeshSave.toAnySupportedFormat(MR.makeCube(), <span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Load mesh</span></div>
 <div class="line">            var mesh = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Save it in another format</span></div>
 <div class="line">            MR.MeshSave.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>

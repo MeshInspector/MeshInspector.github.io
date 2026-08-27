@@ -327,10 +327,15 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <span class="comment">// Load meshes</span></div>
+<div class="line">            <span class="comment">// Make two meshes to align</span></div>
+<div class="line">            <span class="comment">// (to align your own meshes, load them with MR.MeshLoad.fromAnySupportedFormat instead)</span></div>
+<div class="line">            var mesh_floating = MR.makeTorus(2.0f, 1.0f, 32, 32);</div>
+<div class="line">            var mesh_fixed = MR.makeTorus(2.0f, 1.0f, 32, 32);</div>
 <div class="line"> </div>
-<div class="line">            var mesh_floating = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;meshA.stl&quot;</span>);</div>
-<div class="line">            var mesh_fixed = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;meshB.stl&quot;</span>);</div>
+<div class="line">            <span class="comment">// Displace the floating mesh, so ICP has a transformation to recover</span></div>
+<div class="line">            mesh_floating.transform(<span class="keyword">new</span> MR.AffineXf3f(</div>
+<div class="line">                MR.Matrix3f.rotation(<span class="keyword">new</span> MR.Vector3f(1.0f, 0.0f, 0.0f), 0.2f),</div>
+<div class="line">                <span class="keyword">new</span> MR.Vector3f(0.3f, 0.2f, 0.1f)));</div>
 <div class="line"> </div>
 <div class="line">            MR.MeshOrPointsXf mesh_xf_floating = <span class="keyword">new</span>(mesh_floating, <span class="keyword">new</span> MR.AffineXf3f());</div>
 <div class="line">            MR.MeshOrPointsXf mesh_xf_fixed = <span class="keyword">new</span>(mesh_fixed, <span class="keyword">new</span> MR.AffineXf3f());</div>
