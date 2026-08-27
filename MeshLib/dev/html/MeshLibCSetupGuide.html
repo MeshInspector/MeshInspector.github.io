@@ -149,32 +149,18 @@ $(function(){initNavTree('MeshLibCSetupGuide.html','',''); });
         <a href="#autotoc_md39">Installing binary releases of MeshLib </a>
         <ul>
           <li class="level3">
-            <a href="#CSetupGuideWindows">Windows </a>
+            <a href="#autotoc_md40">Windows </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md40">Linux </a>
+            <a href="#autotoc_md41">Linux </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md41">macOS </a>
+            <a href="#autotoc_md42">macOS </a>
           </li>
         </ul>
       </li>
       <li class="level2">
-        <a href="#CSetupVerify">Verify the installation </a>
-        <ul>
-          <li class="level3">
-            <a href="#autotoc_md42">Build and run it on Windows </a>
-          </li>
-          <li class="level3">
-            <a href="#autotoc_md43">Build and run it on Linux and macOS </a>
-          </li>
-          <li class="level3">
-            <a href="#autotoc_md44">Expected output </a>
-          </li>
-        </ul>
-      </li>
-      <li class="level2">
-        <a href="#autotoc_md45">Try MeshLib with C Examples </a>
+        <a href="#autotoc_md43">Try MeshLib with C Examples </a>
       </li>
     </ul>
   </li>
@@ -190,12 +176,11 @@ Setting Up MeshLib for C Development</h1>
 <dl class="section note"><dt>Note</dt><dd>Currently, the only supported way of using the C API is via the binary releases of MeshLib.</dd>
 <dd>
 Starting with the next release, you will be able to compile the C bindings directly from the source code. </dd></dl>
-<p>When the installation is done, confirm the result with <a class="el" href="#CSetupVerify">Verify the installation</a> — a short program, with the output to expect.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
 Installing binary releases of MeshLib</h2>
 <p>The installation process is <a class="el" href="MeshLibCppSetupGuide.html">same as for C++</a>, and is also explained below.</p>
 <p>The release archives include the C headers (in the directory called <span class="tt">MRCMesh</span> and several other <span class="tt">MRC...</span> directories), and a compiled library named <span class="tt">MeshLibC2</span> (<span class="tt">MeshLibC2.dll</span> on Windows, <span class="tt">libMeshLibC2.so</span> on Linux, etc). This library links against our C++ libraries (<span class="tt">MRMesh</span> and others) and provides C wrappers for them.</p>
-<h3 class="doxsection"><a class="anchor" id="CSetupGuideWindows"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md40"></a>
 Windows</h3>
 <dl class="section note"><dt>Note</dt><dd>MeshLib for Windows is distributed for <b>x64</b> only: set the platform of your project to <span class="tt">x64</span>. A 32-bit (<span class="tt">Win32</span>) build of C code compiles, but fails at link with <span class="tt">LNK2019: unresolved external symbol __imp__MR_...</span> for every MeshLib function. That means the platform is wrong, not that a library is missing: 32-bit name decoration (<span class="tt">__imp__NAME</span> instead of <span class="tt">__imp_NAME</span>) matches nothing in the x64 import libraries. Visual Studio 2019 still defaults new C++ console projects to <span class="tt">Win32</span>. On Windows on Arm, use the x64 toolchain: no native Arm64 Windows build is published.</dd></dl>
 <p>Every release publishes one Windows distributive per Visual Studio toolset, plus one for Debug builds that keep MSVC's iterator debugging on. The <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindows">C++ guide's archive table</a> names all four and says which one to take, including the binary-compatibility rule that lets an older toolset's archive serve a newer Visual Studio. It applies to C unchanged, except for its <span class="tt">_ITERATOR_DEBUG_LEVEL</span> column: a pure-C consumer needs no <span class="tt">_ITERATOR_DEBUG_LEVEL</span> define, whichever archive it picks, because C code passes no standard containers across the DLL boundary, so the mismatch that define guards against cannot arise. A project that also compiles C++ translation units against MeshLib's C++ headers does need it, at the value in that column.</p>
@@ -227,7 +212,7 @@ Windows</h3>
 </ul>
 </li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md40"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md41"></a>
 Linux</h3>
 <ol type="1">
 <li><b>Download the Package for Your Distribution and CPU</b> <br  />
@@ -238,11 +223,10 @@ Linux</h3>
  <span class="tt">apt</span> refuses a package built for another CPU, but nothing tells the Ubuntu releases apart: both declare the same dependencies and the <span class="tt">preinst</span> carries no release check, so installing the Ubuntu 22 build on Ubuntu 24 succeeds silently. Check the release in the file name first. <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
 </div><!-- fragment --></li>
 <li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a> <br  />
- Add the following to your <span class="tt">CMakeLists.txt</span>: <div class="fragment"><div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_INCLUDE_DIR})</div>
-<div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
+ Add the following to your <span class="tt">CMakeLists.txt</span>: <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
 </div><!-- fragment --></li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md41"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md42"></a>
 macOS</h3>
 <ol type="1">
 <li><b>Download the Installer</b> <br  />
@@ -257,75 +241,13 @@ macOS</h3>
 </ul>
 </li>
 <li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a> <br  />
- Add the following to your <span class="tt">CMakeLists.txt</span>: <div class="fragment"><div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_INCLUDE_DIR})</div>
-<div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
+ Add the following to your <span class="tt">CMakeLists.txt</span>: <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
 </div><!-- fragment --></li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="CSetupVerify"></a>
-Verify the installation</h2>
-<p>The installer or archive completing is not the same as a working setup: the headers, the import library and the runtime library are three separate things, and any one of them can be wrong while the other two look fine. This program covers the whole chain — compile against the headers, link against <span class="tt">MeshLibC2</span>, load it at startup, run a real geometry call, write a file. It needs no input data.</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRCube.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshTopology.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRVector3.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_void_std_string.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
-<div class="line"> </div>
-<div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
-<div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
-<div class="line">{</div>
-<div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Build a cube in memory: no input file needed.</span></div>
-<div class="line">    <span class="keyword">const</span> MR_Vector3f size = MR_Vector3f_diagonal( 1.f );</div>
-<div class="line">    <span class="keyword">const</span> MR_Vector3f base = MR_Vector3f_diagonal( -0.5f );</div>
-<div class="line">    MR_Mesh* cube = MR_makeCube( &amp;size, &amp;base );</div>
-<div class="line"> </div>
-<div class="line">    <span class="keyword">const</span> MR_MeshTopology* topology = MR_Mesh_Get_topology( cube );</div>
-<div class="line">    printf( <span class="stringliteral">&quot;%d verts, %d faces\n&quot;</span>,</div>
-<div class="line">        MR_MeshTopology_numValidVerts( topology ),</div>
-<div class="line">        MR_MeshTopology_numValidFaces( topology ) );</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Save it, to exercise the file-format code too.</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( cube, <span class="stringliteral">&quot;cube.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    <span class="keyword">const</span> MR_std_string* saveErr = MR_expected_void_std_string_error( saveEx );</div>
-<div class="line">    <span class="keywordflow">if</span> ( saveErr )</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( saveErr ) );</div>
-<div class="line">    <span class="keywordflow">else</span></div>
-<div class="line">        rc = EXIT_SUCCESS;</div>
-<div class="line"> </div>
-<div class="line">    MR_expected_void_std_string_Destroy( saveEx );</div>
-<div class="line">    MR_Mesh_Destroy( cube );</div>
-<div class="line">    <span class="keywordflow">return</span> rc;</div>
-<div class="line">}</div>
-<div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md42"></a>
-Build and run it on Windows</h3>
-<p>Build it as the console project configured in <a class="el" href="#CSetupGuideWindows">Windows</a> above, then run it from the project's output directory.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
-Build and run it on Linux and macOS</h3>
-<p>Save the program as <span class="tt">verify.c</span> next to this <span class="tt">CMakeLists.txt</span>: </p><div class="fragment"><div class="line">cmake_minimum_required(VERSION 3.18)</div>
-<div class="line">project(verify C)</div>
-<div class="line">find_package(MeshLib CONFIG REQUIRED)</div>
-<div class="line">add_executable(verify verify.c)</div>
-<div class="line">target_include_directories(verify PRIVATE ${MESHLIB_INCLUDE_DIR})</div>
-<div class="line">target_link_libraries(verify PRIVATE MeshLib::MeshLibC2)</div>
-</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd><span class="tt">MeshLib::MeshLibC2</span> carries the library but not the header path, so the <span class="tt">target_include_directories</span> line is required — without it the build stops at <span class="tt">fatal error: MRCMesh/MRCube.h: No such file or directory</span>. Pure C needs nothing else; C++ consumers additionally need <span class="tt">${MESHLIB_THIRDPARTY_INCLUDE_DIR}</span>, as in <a class="el" href="MeshLibCmakeSetupGuide.html">Integrate Using CMake</a>. <div class="fragment"><div class="line">cmake -S . -B build &amp;&amp; cmake --build build &amp;&amp; ./build/verify</div>
-</div><!-- fragment --></dd></dl>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
-Expected output</h3>
-<div class="fragment"><div class="line">8 verts, 12 faces</div>
-</div><!-- fragment --><p>Exit code <span class="tt">0</span>, and a 684-byte <span class="tt">cube.stl</span> next to the binary — a cube is 12 triangles, and binary STL is a fixed <span class="tt">84 + 12 * 50</span> bytes, so the size is the same everywhere. If you see that line and that file, the installation is working. Anything else — a compiler error about a missing header, a linker error, a loader error at startup, no output — means it is not.</p>
-<dl class="section note"><dt>Note</dt><dd>On macOS, v3.1.3.429 and earlier fail at launch with <span class="tt">dyld: Library not loaded: @rpath/libMeshLibC2.dylib</span> even though the program compiles and links: the framework's C library was not on the runtime search path. The fix landed after that release, so if you are on it, run the program as </dd>
-<dd>
-<span class="tt">DYLD_LIBRARY_PATH=/Library/Frameworks/MeshLib.framework/Versions/Current/lib ./build/verify</span></dd></dl>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md45"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
 Try MeshLib with C Examples</h2>
 <p>MeshLib provides a <a class="el" href="Examples.html">collection of C code samples</a> to help you get started quickly with common mesh processing tasks.</p>
-<p>Note that most of them read a mesh from the working directory rather than building one — the <a class="el" href="ExampleMeshLoadSave.html">Load and Save Meshes</a> sample, for instance, defaults to a file named <span class="tt">mesh.stl</span> next to the binary, and exits with an error without it. Its C version also takes the input path as an argument, so <span class="tt">./MeshLoadSave path/to/your.stl</span> works on any mesh you already have. Use <a class="el" href="#CSetupVerify">Verify the installation</a> above to check the installation itself. </p>
+<p>We suggest running one of them to confirm that the installation was performed correctly, for example the <a class="el" href="ExampleMeshLoadSave.html">Load and Save Meshes</a> sample. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
