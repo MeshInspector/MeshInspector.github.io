@@ -158,15 +158,23 @@ $(function(){initNavTree('MeshLibPythonSetupGuide.html','',''); });
       </li>
       <li class="level2">
         <a href="#autotoc_md158">Installation Process </a>
-      </li>
-      <li class="level2">
-        <a href="#autotoc_md159">How to use MeshLib Python Modules </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md160">Predefined Functions and Example Scripts </a>
+            <a href="#autotoc_md159">Your first script </a>
+          </li>
+        </ul>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md160">How to use MeshLib Python Modules </a>
+        <ul>
+          <li class="level3">
+            <a href="#autotoc_md161">Modules </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md161">Getting Started: MeshLib Viewer and Mesh I/O Examples </a>
+            <a href="#autotoc_md162">Predefined Functions and Example Scripts </a>
+          </li>
+          <li class="level3">
+            <a href="#autotoc_md163">Getting Started: MeshLib Viewer and Mesh I/O Examples </a>
           </li>
         </ul>
       </li>
@@ -199,16 +207,43 @@ Python</h3>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md157"></a>
 Code Editor</h3>
 <p>You can use any Python-compatible editor, such as Visual Studio Code, PyCharm, or any IDE you prefer.</p>
+<p>The wheel ships type stubs (<span class="tt">.pyi</span>) for every module, so editors such as VS Code (Pylance) and PyCharm offer completion and signature help for the MeshLib API with no extra setup.</p>
 <p><a href="https://code.visualstudio.com/download">Download Visual Studio Code</a></p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md158"></a>
 Installation Process</h2>
 <p>MeshLib is available on <a href="https://pypi.org/project/meshlib/">PyPI</a> for Windows, macOS, and Linux. Install it with: </p><div class="fragment"><div class="line">pip install meshlib</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md159"></a>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md159"></a>
+Your first script</h3>
+<div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
+<div class="line"> </div>
+<div class="line">mesh = mm.makeCube()</div>
+<div class="line">print(mesh.topology.numValidVerts(), <span class="stringliteral">&quot;vertices&quot;</span>, mesh.topology.numValidFaces(), <span class="stringliteral">&quot;faces&quot;</span>)</div>
+<div class="line"> </div>
+<div class="line">mm.saveMesh(mesh, <span class="stringliteral">&quot;cube.stl&quot;</span>)</div>
+</div><!-- fragment --><p>Output: </p><div class="fragment"><div class="line">8 vertices 12 faces</div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md160"></a>
 How to use MeshLib Python Modules</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md160"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md161"></a>
+Modules</h3>
+<p>The <span class="tt">meshlib</span> package ships four importable modules:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Module  </th><th class="markdownTableHeadNone">Purpose  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">mrmeshpy</span>  </td><td class="markdownTableBodyNone">Core geometry: mesh and point-cloud I/O, boolean operations, offsets, decimation, remeshing, measurements  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">mrmeshnumpy</span>  </td><td class="markdownTableBodyNone">Conversion between MeshLib objects and NumPy arrays  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">mrviewerpy</span>  </td><td class="markdownTableBodyNone">The interactive Viewer — open a window and display meshes from Python  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">mrcudapy</span>  </td><td class="markdownTableBodyNone">CUDA-accelerated variants of selected algorithms  </td></tr>
+</table>
+<p>Import them from the package, for example <span class="tt">from meshlib import mrmeshpy</span>.</p>
+<dl class="section note"><dt>Note</dt><dd><span class="tt">mrcudapy</span> imports on any machine, including one without a GPU, but its routines need an NVIDIA GPU with a working CUDA driver at runtime.</dd></dl>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md162"></a>
 Predefined Functions and Example Scripts</h3>
 <p>MeshLib provides a set of example scripts that are available <a class="el" href="Examples.html">here</a>. These examples are helpful for both developers and testers. Additionally, the Python library allows you to explore all the available functions in <span class="tt">mrmeshpy</span> using the standard <span class="tt">help(meshlib.mrmeshpy)</span> command.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md161"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md163"></a>
 Getting Started: MeshLib Viewer and Mesh I/O Examples</h3>
 <p>After installing MeshLib, a great way to start exploring its capabilities is through interactive examples.</p>
 <ul>
