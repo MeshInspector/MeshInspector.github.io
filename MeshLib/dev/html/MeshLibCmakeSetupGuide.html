@@ -152,6 +152,9 @@ $(function(){initNavTree('MeshLibCmakeSetupGuide.html','',''); });
             <a href="#autotoc_md16">Find MeshLib CMake Configuration Files </a>
           </li>
           <li class="level3">
+            <a href="#CmakeNonSystemPrefix">Point CMake at a Prefix That Is Not Installed System-Wide </a>
+          </li>
+          <li class="level3">
             <a href="#autotoc_md17">Include the MeshLib Headers </a>
           </li>
           <li class="level3">
@@ -191,6 +194,14 @@ Quick Integration Guide</h2>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
 Find MeshLib CMake Configuration Files</h3>
 <p>For a start, find the MeshLib package: </p><div class="fragment"><div class="line">find_package(MeshLib CONFIG REQUIRED)</div>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="CmakeNonSystemPrefix"></a>
+Point CMake at a Prefix That Is Not Installed System-Wide</h3>
+<p>The <span class="tt">.deb</span> and <span class="tt">.pkg</span> packages install into system directories, where <span class="tt">find_package</span> finds them unaided. A prefix you unpacked yourself — the portable <b>Linux vcpkg</b> tarball — is not on CMake's search path, and configuring stops with <span class="tt">Could not find a package configuration file provided by "MeshLib"</span>. Name the extraction directory:</p>
+<div class="fragment"><div class="line">cmake -S . -B build -D CMAKE_PREFIX_PATH=path_to_install</div>
+</div><!-- fragment --><p>That is all a build-tree binary needs: CMake gives it an RPATH of <span class="tt">path_to_install/lib/MeshLib</span>, so it runs as is. <span class="tt">cmake --install</span> strips that RPATH, and the installed copy then fails at startup with <span class="tt">error while loading shared libraries: libMeshLibC2.so</span>. Keep the path in the installed binary, or hand it to the loader at run time:</p>
+<div class="fragment"><div class="line">cmake -S . -B build -D CMAKE_PREFIX_PATH=path_to_install -D CMAKE_INSTALL_RPATH=path_to_install/lib/MeshLib</div>
+<div class="line"># or</div>
+<div class="line">export LD_LIBRARY_PATH=path_to_install/lib/MeshLib:$LD_LIBRARY_PATH</div>
 </div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
 Include the MeshLib Headers</h3>
 <p>Add <b>both</b> include directories from the installed MeshLib package to your project. In your CMake configuration (<span class="tt">CMakeLists.txt</span>): </p><div class="fragment"><div class="line">include_directories(${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
