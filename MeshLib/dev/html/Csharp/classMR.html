@@ -10306,6 +10306,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:a159bb274260c010b34aff34f24dc590e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the thickness at each vertex as the diameter of the maximal inscribed sphere Generated from function <span class="tt"><a class="el" href="#a159bb274260c010b34aff34f24dc590e" title="returns the thickness at each vertex as the diameter of the maximal inscribed sphere Generated from f...">MR.computeInSphereThicknessAtVertices</a></span>. Parameter <span class="tt">progress</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a6328cc48bc1be46ed3893c317cdf37eb" id="r_a6328cc48bc1be46ed3893c317cdf37eb"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6328cc48bc1be46ed3893c317cdf37eb">meshToPointCloud</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, bool? saveNormals=null, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? verts=null)</td></tr>
 <tr class="memdesc:a6328cc48bc1be46ed3893c317cdf37eb"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">Mesh</a> to <a class="el" href="classMR_1_1PointCloud.html" title="Generated from class MR.PointCloud. This is the non-const half of the class.">PointCloud</a> Generated from function <span class="tt"><a class="el" href="#a6328cc48bc1be46ed3893c317cdf37eb" title="Mesh to PointCloud Generated from function MR.meshToPointCloud. Parameter saveNormals defaults to tru...">MR.meshToPointCloud</a></span>. Parameter <span class="tt">saveNormals</span> defaults to <span class="tt">true</span>.  <br /></td></tr>
+<tr class="memitem:aa99481de7657067322381c6376cc9df8" id="r_aa99481de7657067322381c6376cc9df8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa99481de7657067322381c6376cc9df8">meshToDensePointCloud</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, float radius, bool? saveNormals=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:aa99481de7657067322381c6376cc9df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball of the radius can pass through the sampled surface without touching at least one point of the cloud, because every point of that surface is within the radius from some point of the cloud. The cloud consists of 1) all vertices of the sampled faces, having the same ids as in the mesh; 2) samples on each edge longer than 2*radius; 3) samples inside each triangle, which cannot be covered by its vertices alone. Please note that the number of samples grows as 1/radius^2.  <br /></td></tr>
 <tr class="memitem:ae4171f5402c2383f24804f51074d6311" id="r_ae4171f5402c2383f24804f51074d6311"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4171f5402c2383f24804f51074d6311">reduceTotalAngle</a> (<a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, int numIters, <a class="el" href="classMR_1_1Const__ReduceTotalAngleParams.html">MR.Const_ReduceTotalAngleParams</a>? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCallback=null)</td></tr>
 <tr class="memdesc:ae4171f5402c2383f24804f51074d6311"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimizes summed deviation of triangle-triangle angles from plane, where each edge is weighted by its length; performs the given number of iterations, during each the edges are flipped; returns the total number of flips done Generated from function <span class="tt"><a class="el" href="#ae4171f5402c2383f24804f51074d6311" title="minimizes summed deviation of triangle-triangle angles from plane, where each edge is weighted by its...">MR.reduceTotalAngle</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCallback</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:abcd3335b980057dbe48e9fa19efcc011" id="r_abcd3335b980057dbe48e9fa19efcc011"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcd3335b980057dbe48e9fa19efcc011">reduceTotalAngleInMesh</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, int numIters, <a class="el" href="classMR_1_1Const__ReduceTotalAngleParams.html">MR.Const_ReduceTotalAngleParams</a>? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCallback=null)</td></tr>
@@ -62132,6 +62134,54 @@ All new faces should be parallel to given direction It is measured in squared le
 </div><div class="memdoc">
 
 <p>returns a volume filled with the values: (unsigned distance to region-part) - (unsigned distance to not-region-part); v &lt; 0: this point is within offset distance to region-part of mesh and it is closer to region-part than to not-region-part Generated from function <span class="tt"><a class="el" href="#a45fe869275cd0aad1052b853ac65ea10" title="returns a volume filled with the values: (unsigned distance to region-part) - (unsigned distance to n...">MR.meshRegionToIndicatorVolume</a></span>. </p>
+
+</div>
+</div>
+<a id="aa99481de7657067322381c6376cc9df8" name="aa99481de7657067322381c6376cc9df8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa99481de7657067322381c6376cc9df8">&#9670;&#160;</a></span>meshToDensePointCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a> MR.meshToDensePointCloud </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball of the radius can pass through the sampled surface without touching at least one point of the cloud, because every point of that surface is within the radius from some point of the cloud. The cloud consists of 1) all vertices of the sampled faces, having the same ids as in the mesh; 2) samples on each edge longer than 2*radius; 3) samples inside each triangle, which cannot be covered by its vertices alone. Please note that the number of samples grows as 1/radius^2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mp</td><td>the mesh or the part of it to be covered; nothing outside the part is sampled </td></tr>
+    <tr><td class="paramname">saveNormals</td><td>if true then the normals of the cloud are set as well: the normals of the mesh vertices, and their interpolation in the samples on the edges and inside the triangles Generated from function <span class="tt"><a class="el" href="#aa99481de7657067322381c6376cc9df8" title="Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball...">MR.meshToDensePointCloud</a></span>. Parameter <span class="tt">saveNormals</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

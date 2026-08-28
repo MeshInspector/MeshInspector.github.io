@@ -42,6 +42,7 @@ var group__MeshAlgorithmGroup =
       [ "heapBytes", "group__GeneralGroup.html#gac535b1f7665cf87c787eea93553218a9", null ]
     ] ],
     [ "MR::findShrinkwrapPositions", "group__MeshAlgorithmGroup.html#ga27ff4ac0c2344695698b194570ece13c", null ],
+    [ "MR::meshToDensePointCloud", "group__MeshAlgorithmGroup.html#ga00db4afad371e3746b5a8a8197e654a3", null ],
     [ "MR::meshToPointCloud", "group__MeshAlgorithmGroup.html#gaff12e899a2fa7790b09853a93701515f", null ],
     [ "MR::shrinkwrap", "group__MeshAlgorithmGroup.html#gab7d2c48bfaa0dc31cdbf3e73901a79b4", null ],
     [ "MR::straightenBoundary", "group__MeshAlgorithmGroup.html#ga85f120484f51a420267e45c05af90e90", null ]

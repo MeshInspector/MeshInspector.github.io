@@ -2935,6 +2935,7 @@ var namespaceMR =
     [ "meshPreCollapseVertAttribute", "group__GeneralGroup.html#ga00f6abdbff2057a8c1d1838e4bf43849", null ],
     [ "MeshRegion", "group__GeneralGroup.html#gac2467062511884bec34fc4442102c639", null ],
     [ "meshRegionToIndicatorVolume", "group__GeneralGroup.html#gaf99b4c073dc700a6e84295c59f0cbdef", null ],
+    [ "meshToDensePointCloud", "group__MeshAlgorithmGroup.html#ga00db4afad371e3746b5a8a8197e654a3", null ],
     [ "meshToDirectionVolume", "group__GeneralGroup.html#ga0752e5390277bae84ef50d8e1f0a5db9", null ],
     [ "meshToDistanceField", "group__GeneralGroup.html#gad6792f245ad7c79f45f2e51da0703d8e", null ],
     [ "meshToDistanceFunctionVolume", "group__GeneralGroup.html#gaf240d29116bdd27249c44e9978b98541", null ],

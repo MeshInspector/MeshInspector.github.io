@@ -3751,6 +3751,7 @@ var classMR =
     [ "meshPathCurvePoints", "classMR.html#a3be76cfbfc9b9d79395c268568c458e2", null ],
     [ "meshPreCollapseVertAttribute", "classMR.html#a50c216fceb589c982d43e7396bea561b", null ],
     [ "meshRegionToIndicatorVolume", "classMR.html#a45fe869275cd0aad1052b853ac65ea10", null ],
+    [ "meshToDensePointCloud", "classMR.html#aa99481de7657067322381c6376cc9df8", null ],
     [ "meshToDirectionVolume", "classMR.html#a643e3be78f578a2f6adacd0d29612444", null ],
     [ "meshToDistanceField", "classMR.html#aef2b3d58f6897afadf360280b4a8597e", null ],
     [ "meshToDistanceFunctionVolume", "classMR.html#a87269e7358207c0c0dd3c0803c8e3cf6", null ],

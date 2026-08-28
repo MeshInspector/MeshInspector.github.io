@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1MenuItemCaptionSize.html":[8,0,0,20,689],
 "structMR_1_1MenuItemInfo.html":[8,0,0,20,690],
 "structMR_1_1MergeVolumePartSettings.html":[8,0,0,17,4],
 "structMR_1_1MergeVolumePartSettings.html":[8,0,0,20,893],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1MeshToDistanceMapParams.html#af2eb0fe8049e968df27f68d2950bff6c":[8,0,0,5,3,5],
 "structMR_1_1MeshToDistanceVolumeParams.html":[8,0,0,20,848],
 "structMR_1_1MeshToVolumeParams.html":[8,0,0,20,886],
-"structMR_1_1MeshTriPoint.html":[8,0,0,7,3],
-"structMR_1_1MeshTriPoint.html":[8,0,0,20,373]
+"structMR_1_1MeshTriPoint.html":[8,0,0,7,3]
 };

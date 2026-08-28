@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1Ball3d.html#ad17360608a3f7019034dc28099deb49c":[8,3,0,0,0,34,0],
 "classMR_1_1Ball3d.html#aed3bf11bc83da1c6b7844c010996a945":[8,3,0,0,0,34,6],
 "classMR_1_1Ball3d.html#afc265bd4b852dfbcbe381424a08a9c3b":[8,3,0,0,0,34,4],
 "classMR_1_1Ball3f.html":[8,3,0,0,0,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1Box__Box1d.html#a5af6a18772ec4cd96e98730ddad625a9":[8,3,0,0,0,82,10],
 "classMR_1_1Box__Box1d.html#a645c4923cfd2832f35b3291717f1ba06":[8,3,0,0,0,82,9],
 "classMR_1_1Box__Box1d.html#a656abf9300c822b069412dd9c4d28c85":[8,3,0,0,0,82,7],
-"classMR_1_1Box__Box1d.html#a6d65c250b56578090a3c7b7adec6d6ce":[8,3,0,0,0,82,5],
-"classMR_1_1Box__Box1d.html#a796f2db29fbefabeefc356230bd362e9":[8,3,0,0,0,82,1]
+"classMR_1_1Box__Box1d.html#a6d65c250b56578090a3c7b7adec6d6ce":[8,3,0,0,0,82,5]
 };

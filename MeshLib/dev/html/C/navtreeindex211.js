@@ -1,5 +1,6 @@
 var NAVTREEINDEX211 =
 {
+"structMR__Vector3d.html":[8,2,1,0,62],
 "structMR__Vector3d.html#a0232b22424ada08d0ac3caa939718a74":[8,2,1,0,62,0],
 "structMR__Vector3d.html#a2220736f65dd3132fe1abd4e7f76e12f":[8,2,1,0,62,2],
 "structMR__Vector3d.html#a767d34de7a5de2d35f620b957cb507ba":[8,2,1,0,62,1],

@@ -2552,6 +2552,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.meshPathCurvePoints", "namespacemrmeshpy.html#ac2f932a7b9bb96da9af475a9586d5cb6", null ],
     [ "mrmeshpy.meshPreCollapseVertAttribute", "namespacemrmeshpy.html#a039556a42cb804cf1b349ae4645fed00", null ],
     [ "mrmeshpy.meshRegionToIndicatorVolume", "namespacemrmeshpy.html#a956851aa90afc670908e3bb87694da4a", null ],
+    [ "mrmeshpy.meshToDensePointCloud", "namespacemrmeshpy.html#a3e578ffafdfb033b32d958615af0aeb9", null ],
     [ "mrmeshpy.meshToDirectionVolume", "namespacemrmeshpy.html#a75e2a8dc73ff6248d877ebd9ac49fdd4", null ],
     [ "mrmeshpy.meshToDistanceField", "namespacemrmeshpy.html#acda774a9491a8478b607a87f2bf9b7af", null ],
     [ "mrmeshpy.meshToDistanceFunctionVolume", "namespacemrmeshpy.html#ad8b652b0335ccd72891d526813661424", null ],

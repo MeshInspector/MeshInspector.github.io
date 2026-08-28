@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1Const__BendTextAlongCurveParams.html#a83f38e6d316b03334d21a3f3e1261bed":[8,3,0,0,0,261,8],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a8f02305dfb4ff0685007537f834d5e55":[8,3,0,0,0,261,0],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a990c52c39d9a07f07b4514c20bc672a0":[8,3,0,0,0,261,6],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a9b3d308d13f81faf17e1f350b173bdf2":[8,3,0,0,0,261,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html#a8279a2dd7e2e989363755f4ef722caef":[8,3,0,0,0,285,6],
 "classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html#a846ba33c46369e6c11215859fb5749fc":[8,3,0,0,0,285,9],
 "classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html#a9bd58bafba56bf6c42856fa479956b0d":[8,3,0,0,0,285,14],
-"classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html#a9c5b040a4ce279b0b1f9be5979a196b2":[8,3,0,0,0,285,12],
-"classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html#aa72c434a63e28ff5259d0faadd58f050":[8,3,0,0,0,285,0]
+"classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html#a9c5b040a4ce279b0b1f9be5979a196b2":[8,3,0,0,0,285,12]
 };

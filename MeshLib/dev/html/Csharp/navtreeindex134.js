@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"classMR_1_1UndirEdgeColorMapAggregator.html#afa19e310517bd3061a14069301c39000":[8,3,0,0,0,1699,11],
 "classMR_1_1UndirectedEdge2RegionMap.html":[8,3,0,0,0,1689],
 "classMR_1_1UndirectedEdge2RegionMap.html#a00f5e0a4f435cdd9e369d846fc5ae758":[8,3,0,0,0,1689,14],
 "classMR_1_1UndirectedEdge2RegionMap.html#a07ede41cf6460396fa3b7ad6e89295d1":[8,3,0,0,0,1689,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "classMR_1_1UniqueThreadSafeOwner__MRAABBTree.html#aa647194492b8c7a80e5be9187651dcfe":[8,3,0,0,0,1704,7],
 "classMR_1_1UniqueThreadSafeOwner__MRAABBTree.html#ac147e2e4c33e2dea0b92c59262c504d9":[8,3,0,0,0,1704,8],
 "classMR_1_1UniqueThreadSafeOwner__MRAABBTree.html#ac28fc7453eff7a4310e992c7186c7891":[8,3,0,0,0,1704,3],
-"classMR_1_1UniqueThreadSafeOwner__MRAABBTree.html#ad730dbec9cdf36a817c9f41a5e3b9ae6":[8,3,0,0,0,1704,1],
-"classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints.html":[8,3,0,0,0,1705]
+"classMR_1_1UniqueThreadSafeOwner__MRAABBTree.html#ad730dbec9cdf36a817c9f41a5e3b9ae6":[8,3,0,0,0,1704,1]
 };

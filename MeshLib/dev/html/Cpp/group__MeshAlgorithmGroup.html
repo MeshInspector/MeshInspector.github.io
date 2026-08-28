@@ -169,6 +169,7 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ga85f120484f51a420267e45c05af90e90" id="r_ga85f120484f51a420267e45c05af90e90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga85f120484f51a420267e45c05af90e90">MR::straightenBoundary</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId bd, float minNeiNormalsDot, float maxTriAspectRatio, FaceBitSet *newFaces=nullptr)</td></tr>
 <tr class="memitem:gaff12e899a2fa7790b09853a93701515f" id="r_gaff12e899a2fa7790b09853a93701515f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaff12e899a2fa7790b09853a93701515f">MR::meshToPointCloud</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, bool saveNormals=true, const VertBitSet *verts=nullptr)</td></tr>
+<tr class="memitem:ga00db4afad371e3746b5a8a8197e654a3" id="r_ga00db4afad371e3746b5a8a8197e654a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga00db4afad371e3746b5a8a8197e654a3">MR::meshToDensePointCloud</a> (const MeshPart &amp;mp, float radius, bool saveNormals=true, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memitem:gab7d2c48bfaa0dc31cdbf3e73901a79b4" id="r_gab7d2c48bfaa0dc31cdbf3e73901a79b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab7d2c48bfaa0dc31cdbf3e73901a79b4">MR::shrinkwrap</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const <a class="el" href="structMR_1_1ShrinkwrapParameters.html">ShrinkwrapParameters</a> &amp;params={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memitem:ga27ff4ac0c2344695698b194570ece13c" id="r_ga27ff4ac0c2344695698b194570ece13c"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertCoords &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga27ff4ac0c2344695698b194570ece13c">MR::findShrinkwrapPositions</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const <a class="el" href="structMR_1_1ShrinkwrapParameters.html">ShrinkwrapParameters</a> &amp;params={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 </table>
@@ -213,6 +214,54 @@ Functions</h2></td></tr>
 
 <p><code>#include &lt;<a class="el" href="MRShrinkwrap_8h.html">MRMesh/MRShrinkwrap.h</a>&gt;</code></p>
 <p>computes for every vertex of the mesh its closest point on the reference mesh, leaving the vertices having no projection within <a class="el" href="group__GeneralGroup.html#ga93e080458c496f555a43b92f40f7e547">MeshProjectionParameters::upDistLimitSq</a> in place; the result is expressed in the coordinates of the mesh being projected </p><dl class="section return"><dt>Returns</dt><dd>no value if the operation was canceled by the progress callback </dd></dl>
+
+</div>
+</div>
+<a id="ga00db4afad371e3746b5a8a8197e654a3" name="ga00db4afad371e3746b5a8a8197e654a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga00db4afad371e3746b5a8a8197e654a3">&#9670;&#160;</a></span>meshToDensePointCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; MR::meshToDensePointCloud </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshToPointCloud_8h.html">MRMesh/MRMeshToPointCloud.h</a>&gt;</code></p>
+<p>Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball of the radius can pass through the sampled surface without touching at least one point of the cloud, because every point of that surface is within the radius from some point of the cloud. The cloud consists of 1) all vertices of the sampled faces, having the same ids as in the mesh; 2) samples on each edge longer than 2*radius; 3) samples inside each triangle, which cannot be covered by its vertices alone. Please note that the number of samples grows as 1/radius^2. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mp</td><td>the mesh or the part of it to be covered; nothing outside the part is sampled </td></tr>
+    <tr><td class="paramname">saveNormals</td><td>if true then the normals of the cloud are set as well: the normals of the mesh vertices, and their interpolation in the samples on the edges and inside the triangles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

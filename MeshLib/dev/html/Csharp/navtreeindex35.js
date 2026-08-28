@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html#a20f92e1931cc85180f6e07e026395aa1":[8,3,0,0,0,301,6],
 "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html#a25183dc44e36972de5550f46688d924a":[8,3,0,0,0,301,7],
 "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html#a45b39eebd868f71f8db3dba2e7e41ec1":[8,3,0,0,0,301,4],
 "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html#a4721cf84bf8806abc621e2d15e42dc87":[8,3,0,0,0,301,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1Const__ChangeMeshPointsAction.html#a0d16291a77a84a862a59fe84016d4b17":[8,3,0,0,0,317,6],
 "classMR_1_1Const__ChangeMeshPointsAction.html#a0d1ace096a55ee107044923afc6b0778":[8,3,0,0,0,317,1],
 "classMR_1_1Const__ChangeMeshPointsAction.html#a1908a05d8947226d7dc814c6143a508a":[8,3,0,0,0,317,13],
-"classMR_1_1Const__ChangeMeshPointsAction.html#a1afcabb05a3eac7288e9f206583aa462":[8,3,0,0,0,317,4],
-"classMR_1_1Const__ChangeMeshPointsAction.html#a2b92bee1dc7b5b0efa45361fd13a70fb":[8,3,0,0,0,317,7]
+"classMR_1_1Const__ChangeMeshPointsAction.html#a1afcabb05a3eac7288e9f206583aa462":[8,3,0,0,0,317,4]
 };

@@ -207,20 +207,20 @@ var NAVTREEINDEX =
 "group__GeneralGroup.html#gga44bd35b44ad13ba0a8968ae8260539cda6f2f0aefb3d22da0f3839453add5f937",
 "group__GeneralGroup.html#ggace9513029904e4f1154117bec80e9e51a2fca5f3c7eaf40f769b717bc3ff48eb5",
 "group__IOGroup.html#ga1c3cebd38d164d456af80671f7250fbf",
-"group__MeshGroup.html",
-"group__SurfacePathGroup.html#ga219897fc7869629ce5165c35fd571aab",
-"group__VoxelGroup.html#gaa969e84361224c40ebdaea70a2942ea6",
-"namespaceMR_1_1ImageLoad.html",
-"namespaceMR_1_1UnitSettings.html#afe6f0698124e6aaa4213c97e053c0696",
+"group__MeshFixerGroup.html#gafd82e42a7f55fb987e177185b62155a8",
+"group__SurfacePathGroup.html#ga1ece8d5a89783d3e595cca38da33738a",
+"group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13",
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378",
+"namespaceMR_1_1UnitSettings.html#af40b003a9c4deee8e921de1a4f03e0b2",
 "structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e",
-"structMR_1_1DistanceFromWeightedPointsParams.html",
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#afea42796d1fcb6ca7fe5c89f11710287",
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html#abef55d08e12e74ed849345c2dc54cf34",
-"structMR_1_1MenuItemInfo.html",
-"structMR_1_1MeshVoxelsConverter.html",
-"structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html",
-"structMR_1_1ThickenParams.html",
-"structMR_1_1VarEdgeTri.html#a9ff04d23bee5568116250292fe986af6"
+"structMR_1_1DistanceFromWeightedPointsComputeParams.html",
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#aec7d8146daad69362b5227401e520802",
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html#a4e2480a0595f86ed76d23eaf54937085",
+"structMR_1_1MenuItemCaptionSize.html",
+"structMR_1_1MeshTriPoint.html",
+"structMR_1_1Polyline.html#af24fd643f0d6cd970d26dccd51949a93",
+"structMR_1_1TextMeshAlignParams.html",
+"structMR_1_1VarEdgeTri.html#a9823b1d64efd1d93070b51f01ffa10c6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -121,7 +121,8 @@ var NAVTREEINDEX64 =
 "MRMeshToDistanceVolume_8h.html#afd1d04e22502252dc3bb88ae17403833":[8,2,2,0,0,0,0,4,12,51],
 "MRMeshToDistanceVolume_8h_source.html":[8,2,2,0,0,0,0,4,12],
 "MRMeshToPointCloud_8h.html":[8,2,2,0,0,0,0,1,205],
-"MRMeshToPointCloud_8h.html#a060fac87ab3afc82366468bd9cd33d72":[8,2,2,0,0,0,0,1,205,0],
+"MRMeshToPointCloud_8h.html#a060fac87ab3afc82366468bd9cd33d72":[8,2,2,0,0,0,0,1,205,1],
+"MRMeshToPointCloud_8h.html#a6b1802a12d293880790681fc5851bf92":[8,2,2,0,0,0,0,1,205,0],
 "MRMeshToPointCloud_8h_source.html":[8,2,2,0,0,0,0,1,205],
 "MRMeshTopologyDiff_8h.html":[8,2,2,0,0,0,0,1,207],
 "MRMeshTopologyDiff_8h.html#a1c141ad2bccf2bf4489a30a2acf6a553":[8,2,2,0,0,0,0,1,207,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "MRMeshTopology_8h.html#ab47f0cb6daec81ea245c2a799cf35f70":[8,2,2,0,0,0,0,1,206,64],
 "MRMeshTopology_8h.html#ab52379715cd437e2fa081c22023bfa9f":[8,2,2,0,0,0,0,1,206,33],
 "MRMeshTopology_8h.html#ab59551672790a49f4de4f02c00efba23":[8,2,2,0,0,0,0,1,206,39],
-"MRMeshTopology_8h.html#ab605754568c9587b1ce6dfe201321f38":[8,2,2,0,0,0,0,1,206,58],
-"MRMeshTopology_8h.html#ab7c43cd48038a9a611f6e85eb5a12a73":[8,2,2,0,0,0,0,1,206,131]
+"MRMeshTopology_8h.html#ab605754568c9587b1ce6dfe201321f38":[8,2,2,0,0,0,0,1,206,58]
 };

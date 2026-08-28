@@ -150,8 +150,47 @@ $(function(){initNavTree('MRMeshToPointCloud_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a060fac87ab3afc82366468bd9cd33d72" id="r_a060fac87ab3afc82366468bd9cd33d72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a060fac87ab3afc82366468bd9cd33d72">MR_meshToPointCloud</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const bool *saveNormals, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts)</td></tr>
+<tr class="memitem:a6b1802a12d293880790681fc5851bf92" id="r_a6b1802a12d293880790681fc5851bf92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b1802a12d293880790681fc5851bf92">MR_meshToDensePointCloud</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, float radius, const bool *saveNormals, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a6b1802a12d293880790681fc5851bf92" name="a6b1802a12d293880790681fc5851bf92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b1802a12d293880790681fc5851bf92">&#9670;&#160;</a></span>MR_meshToDensePointCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a> * MR_meshToDensePointCloud </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball of the radius can pass through the sampled surface without touching at least one point of the cloud, because every point of that surface is within the radius from some point of the cloud. The cloud consists of 1) all vertices of the sampled faces, having the same ids as in the mesh; 2) samples on each edge longer than 2*radius; 3) samples inside each triangle, which cannot be covered by its vertices alone. Please note that the number of samples grows as 1/radius^2. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mp</td><td>the mesh or the part of it to be covered; nothing outside the part is sampled </td></tr>
+    <tr><td class="paramname">saveNormals</td><td>if true then the normals of the cloud are set as well: the normals of the mesh vertices, and their interpolation in the samples on the edges and inside the triangles Generated from function <span class="tt">MR::meshToDensePointCloud</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">saveNormals</span> has a default argument: <span class="tt">true</span>, pass a null pointer to use it. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__PointCloud__std__string_8h.html#a8654ce01cf68830f66fb0f132ea8ca5f" title="Destroys a heap-allocated instance of MR_expected_MR_PointCloud_std_string. Does nothing if the point...">MR_expected_MR_PointCloud_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a060fac87ab3afc82366468bd9cd33d72" name="a060fac87ab3afc82366468bd9cd33d72"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a060fac87ab3afc82366468bd9cd33d72">&#9670;&#160;</a></span>MR_meshToPointCloud()</h2>
 

@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1UnitSettings.html#af40b003a9c4deee8e921de1a4f03e0b2":[8,0,1,0,1,50,17],
 "namespaceMR_1_1UnitSettings.html#afe6f0698124e6aaa4213c97e053c0696":[8,0,1,0,1,50,14],
 "namespaceMR_1_1Unsigned.html":[8,0,1,0,1,51],
 "namespaceMR_1_1Unsigned.html#a297e05c1691001d7ce0261fa2e9c3dc4":[8,0,1,0,1,51,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[8,0,1,0,1,98,0],
 "structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[8,0,2,0,2,80,0],
 "structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[8,0,1,0,1,98,1],
-"structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[8,0,2,0,2,80,1],
-"structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[8,0,1,0,1,98,3]
+"structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[8,0,2,0,2,80,1]
 };

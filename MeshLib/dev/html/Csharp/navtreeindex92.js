@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"classMR_1_1Const__VertBitSet.html#a4dcc0ad3e184a1b338cbc93db25a8e61":[8,3,0,0,0,976,16],
 "classMR_1_1Const__VertBitSet.html#a52228a203118282651dcb4379d838585":[8,3,0,0,0,976,14],
 "classMR_1_1Const__VertBitSet.html#a52f89283d04f555380339d90939dc21c":[8,3,0,0,0,976,12],
 "classMR_1_1Const__VertBitSet.html#a5423c6c7626a2cb246b35ac23274deeb":[8,3,0,0,0,976,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "classMR_1_1Const__VertSetBitIterator.html#aa033e7bae58ac79c8b48900380b7748e":[8,3,0,0,0,988,2],
 "classMR_1_1Const__VertSetBitIterator.html#aa1236bba710a1e7f752fa27aa4d1f0b7":[8,3,0,0,0,988,6],
 "classMR_1_1Const__VertSetBitIterator.html#ab68815ad39a81fb7e50a470a781503f3":[8,3,0,0,0,988,3],
-"classMR_1_1Const__VertSetBitIterator.html#ac43c42820581e9de69cbba6114558fb3":[8,3,0,0,0,988,10],
-"classMR_1_1Const__VertSetBitIterator.html#acbcfb50f0d0e29ebd95e65829822be9b":[8,3,0,0,0,988,0]
+"classMR_1_1Const__VertSetBitIterator.html#ac43c42820581e9de69cbba6114558fb3":[8,3,0,0,0,988,10]
 };

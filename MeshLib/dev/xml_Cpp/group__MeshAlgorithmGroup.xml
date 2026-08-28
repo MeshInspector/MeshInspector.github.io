@@ -81,7 +81,57 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshToPointCloud.h" line="13" column="13" declfile="MRMesh/MRMeshToPointCloud.h" declline="13" declcolumn="13"/>
+        <location file="MRMesh/MRMeshToPointCloud.h" line="15" column="13" declfile="MRMesh/MRMeshToPointCloud.h" declline="15" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshAlgorithmGroup_1ga00db4afad371e3746b5a8a8197e654a3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; PointCloud &gt;</type>
+        <definition>Expected&lt; PointCloud &gt; MR::meshToDensePointCloud</definition>
+        <argsstring>(const MeshPart &amp;mp, float radius, bool saveNormals=true, const ProgressCallback &amp;cb={})</argsstring>
+        <name>meshToDensePointCloud</name>
+        <qualifiedname>MR::meshToDensePointCloud</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveNormals</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball of the radius can pass through the sampled surface without touching at least one point of the cloud, because every point of that surface is within the radius from some point of the cloud. The cloud consists of 1) all vertices of the sampled faces, having the same ids as in the mesh; 2) samples on each edge longer than 2*radius; 3) samples inside each triangle, which cannot be covered by its vertices alone. Please note that the number of samples grows as 1/radius^2. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the mesh or the part of it to be covered; nothing outside the part is sampled </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>saveNormals</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then the normals of the cloud are set as well: the normals of the mesh vertices, and their interpolation in the samples on the edges and inside the triangles </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshToPointCloud.h" line="29" column="12" declfile="MRMesh/MRMeshToPointCloud.h" declline="29" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshAlgorithmGroup_1gab7d2c48bfaa0dc31cdbf3e73901a79b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>

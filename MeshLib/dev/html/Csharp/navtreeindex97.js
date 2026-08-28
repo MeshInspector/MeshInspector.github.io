@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1Cylinder3f.html#a837a362b0b97c61e46ec09b0f79e9ecd":[8,3,0,0,0,1111,5],
 "classMR_1_1Cylinder3f.html#a9f2eb6404d089beb92f8e5b8bd277931":[8,3,0,0,0,1111,8],
 "classMR_1_1Cylinder3f.html#ac7a4bd7eb338bb0f65f1a74d878f4753":[8,3,0,0,0,1111,3],
 "classMR_1_1Cylinder3f.html#aea2e842d7e3adb4321cc29e6762b029f":[8,3,0,0,0,1111,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1Dipoles.html#a11b583021e974bf78abf5c0045954d9f":[8,3,0,0,0,1125,8],
 "classMR_1_1Dipoles.html#a195ce5f79be16492dde15d1b72915132":[8,3,0,0,0,1125,15],
 "classMR_1_1Dipoles.html#a25f0d0302ef69109d18a51228bf46aed":[8,3,0,0,0,1125,4],
-"classMR_1_1Dipoles.html#a2873b63df3961321f8d5aec6eeeda17f":[8,3,0,0,0,1125,2],
-"classMR_1_1Dipoles.html#a2e988800aae0ffaf8b4d1eb5d80d80bc":[8,3,0,0,0,1125,5]
+"classMR_1_1Dipoles.html#a2873b63df3961321f8d5aec6eeeda17f":[8,3,0,0,0,1125,2]
 };

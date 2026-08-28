@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"classMR_1_1RegionBitSet.html#a1d1073d8fa5aa93ede96c57e78077f31":[8,3,0,0,0,1567,34],
 "classMR_1_1RegionBitSet.html#a22824cb6705b3f35b7bb14d2bf8bc8e2":[8,3,0,0,0,1567,19],
 "classMR_1_1RegionBitSet.html#a3d5f76fca965970e9083a63eeabd17c0":[8,3,0,0,0,1567,29],
 "classMR_1_1RegionBitSet.html#a458b3770f672bb6a1e49f6ca1e46bd12":[8,3,0,0,0,1567,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "classMR_1_1SceneSave_1_1Const__Settings.html#a2887ce0f522118892f23a6f2c4344e1d":[8,3,0,0,0,1584,0,0],
 "classMR_1_1SceneSave_1_1Const__Settings.html#a28a5dfa0cf17dee0094d7568b39a5764":[8,3,0,0,0,1584,0,5],
 "classMR_1_1SceneSave_1_1Const__Settings.html#a3b02d7b7f57122b5ce33e5e5ed83379d":[8,3,0,0,0,1584,0,1],
-"classMR_1_1SceneSave_1_1Const__Settings.html#a7a016a8a13f1623281be2ead7176779e":[8,3,0,0,0,1584,0,7],
-"classMR_1_1SceneSave_1_1Const__Settings.html#a8c4bb4753d13d285b179b1b6fb6743ee":[8,3,0,0,0,1584,0,4]
+"classMR_1_1SceneSave_1_1Const__Settings.html#a7a016a8a13f1623281be2ead7176779e":[8,3,0,0,0,1584,0,7]
 };
