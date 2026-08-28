@@ -123,16 +123,16 @@ var group__AABBTreeGroup =
       [ "calcWithDistances", "group__GeneralGroup.html#ga4aa071fd6b623fca1cd12ffefee231a4", null ]
     ] ],
     [ "MR::IntersectionPrecomputes< T >", "structMR_1_1IntersectionPrecomputes.html", [
-      [ "IntersectionPrecomputes", "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92", null ],
-      [ "IntersectionPrecomputes", "group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c", null ],
-      [ "idxX", "group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb", null ],
-      [ "idxY", "group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08", null ],
-      [ "invDir", "group__AABBTreeGroup.html#ga20bce157ca3d8b30509d233be68639ec", null ],
-      [ "maxDimIdxZ", "group__AABBTreeGroup.html#gaffa5bcb7a516c4dda421ace86e2597c2", null ],
-      [ "sign", "group__AABBTreeGroup.html#ga18e2b9f640d3aab9e4db07a72514384b", null ],
-      [ "Sx", "group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c", null ],
-      [ "Sy", "group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b", null ],
-      [ "Sz", "group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a", null ]
+      [ "IntersectionPrecomputes", "structMR_1_1IntersectionPrecomputes.html#a9984ed4cff38cd012243e835f02e0e92", null ],
+      [ "IntersectionPrecomputes", "structMR_1_1IntersectionPrecomputes.html#ac2a5a2178c875139ca3e402c1a46324c", null ],
+      [ "idxX", "structMR_1_1IntersectionPrecomputes.html#a59240ce19dcf5b27221a347b22086fcb", null ],
+      [ "idxY", "structMR_1_1IntersectionPrecomputes.html#a1e89bb11cf7c4693e1c8839963994a08", null ],
+      [ "invDir", "structMR_1_1IntersectionPrecomputes.html#a20bce157ca3d8b30509d233be68639ec", null ],
+      [ "maxDimIdxZ", "structMR_1_1IntersectionPrecomputes.html#affa5bcb7a516c4dda421ace86e2597c2", null ],
+      [ "sign", "structMR_1_1IntersectionPrecomputes.html#a18e2b9f640d3aab9e4db07a72514384b", null ],
+      [ "Sx", "structMR_1_1IntersectionPrecomputes.html#a21465bc7d67177777744f39ac171940c", null ],
+      [ "Sy", "structMR_1_1IntersectionPrecomputes.html#af95502c89221bba3187782d4ed18199b", null ],
+      [ "Sz", "structMR_1_1IntersectionPrecomputes.html#a6159c869b0afc38ccf26091c1681194a", null ]
     ] ],
     [ "MR::IntersectionPrecomputes2< T >", "structMR_1_1IntersectionPrecomputes2.html", [
       [ "IntersectionPrecomputes2", "structMR_1_1IntersectionPrecomputes2.html#a8dc8336a41d3f8aa6342f55f92aaba1b", null ],
@@ -389,8 +389,6 @@ var group__AABBTreeGroup =
     [ "MR::getNumNodesPoints", "group__AABBTreeGroup.html#ga47032a5f420080191bd8d3600c3c24ef", null ],
     [ "MR::getVectorConverters", "group__AABBTreeGroup.html#ga057f5379e01790297fec3ffe2573986e", null ],
     [ "MR::getVectorConverters", "group__AABBTreeGroup.html#ga55c0d6a31ffafbd8b8283f2a5aa70fb2", null ],
-    [ "MR::IntersectionPrecomputes::IntersectionPrecomputes", "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92", null ],
-    [ "MR::IntersectionPrecomputes::IntersectionPrecomputes", "group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c", null ],
     [ "MR::isInside", "group__AABBTreeGroup.html#ga7892dab0d0fdaed07c3c16c0b4ccc6e9", null ],
     [ "MR::isInside", "group__AABBTreeGroup.html#gaf5614c6f47e495a7aa4513078b1b2ecb", null ],
     [ "MR::isNonIntersectingInside", "group__AABBTreeGroup.html#gac22748b9e5c563d95321d66315116084", null ],
@@ -412,13 +410,5 @@ var group__AABBTreeGroup =
     [ "MR::rayPolylineIntersectAll", "group__AABBTreeGroup.html#ga9a7462ec4027240eb0a1161b6f626cb7", null ],
     [ "MR::rayPolylineIntersectAll", "group__AABBTreeGroup.html#ga6334c9f41d88763fea47f1a1af491d7a", null ],
     [ "MR::signedDistanceToMesh", "group__AABBTreeGroup.html#ga50fea0557381236d780b7ea113906a0f", null ],
-    [ "MR::xyPlaneMeshIntersect", "group__AABBTreeGroup.html#gaaca7d2972259949e2583eb7ddb97d335", null ],
-    [ "MR::IntersectionPrecomputes::idxX", "group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb", null ],
-    [ "MR::IntersectionPrecomputes::idxY", "group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08", null ],
-    [ "MR::IntersectionPrecomputes::invDir", "group__AABBTreeGroup.html#ga20bce157ca3d8b30509d233be68639ec", null ],
-    [ "MR::IntersectionPrecomputes::maxDimIdxZ", "group__AABBTreeGroup.html#gaffa5bcb7a516c4dda421ace86e2597c2", null ],
-    [ "MR::IntersectionPrecomputes::sign", "group__AABBTreeGroup.html#ga18e2b9f640d3aab9e4db07a72514384b", null ],
-    [ "MR::IntersectionPrecomputes::Sx", "group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c", null ],
-    [ "MR::IntersectionPrecomputes::Sy", "group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b", null ],
-    [ "MR::IntersectionPrecomputes::Sz", "group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a", null ]
+    [ "MR::xyPlaneMeshIntersect", "group__AABBTreeGroup.html#gaaca7d2972259949e2583eb7ddb97d335", null ]
 ];

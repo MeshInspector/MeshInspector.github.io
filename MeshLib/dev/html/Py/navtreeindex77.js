@@ -1,17 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a1771a483894f00e8d9eb074db9ff374d":[8,1,1,0,1,747,0,7],
-"classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a208ba79491f2a02b81f19265ce5805b1":[8,1,0,0,2,747,0,8],
-"classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a208ba79491f2a02b81f19265ce5805b1":[8,1,1,0,1,747,0,8],
-"classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a303091916c41eebcad2efd1f1b24772f":[8,1,0,0,2,747,0,0],
-"classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a303091916c41eebcad2efd1f1b24772f":[8,1,1,0,1,747,0,0],
-"classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a64243287cda9267f0609cd33caebcc86":[8,1,0,0,2,747,0,3],
-"classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a64243287cda9267f0609cd33caebcc86":[8,1,1,0,1,747,0,3],
-"classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a86a5fdc8f30a71f786ac581cd3622058":[8,1,0,0,2,747,0,6],
-"classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a86a5fdc8f30a71f786ac581cd3622058":[8,1,1,0,1,747,0,6],
-"classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a8aeead23caf2836569cb1ce4c3873398":[8,1,0,0,2,747,0,5],
-"classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a8aeead23caf2836569cb1ce4c3873398":[8,1,1,0,1,747,0,5],
-"classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#ac5d64ccf7938b98c58caae7e105f9f1b":[8,1,0,0,2,747,0,1],
 "classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#ac5d64ccf7938b98c58caae7e105f9f1b":[8,1,1,0,1,747,0,1],
 "classmrmeshpy_1_1PolylineIntersectionResult2.html":[8,1,0,0,2,748],
 "classmrmeshpy_1_1PolylineIntersectionResult2.html":[8,1,1,0,1,748],
@@ -249,5 +237,17 @@ var NAVTREEINDEX77 =
 "classmrmeshpy_1_1PolylineTopology.html#a8760f32f41e73e478af79e3ce23348bc":[8,1,1,0,1,756,42],
 "classmrmeshpy_1_1PolylineTopology.html#a8cb34e3ceee5a50a6c10d171e5ab10ac":[8,1,0,0,2,756,12],
 "classmrmeshpy_1_1PolylineTopology.html#a8cb34e3ceee5a50a6c10d171e5ab10ac":[8,1,1,0,1,756,12],
-"classmrmeshpy_1_1PolylineTopology.html#a9804e11494985a8b83f996e1cefedff9":[8,1,0,0,2,756,5]
+"classmrmeshpy_1_1PolylineTopology.html#a9804e11494985a8b83f996e1cefedff9":[8,1,0,0,2,756,5],
+"classmrmeshpy_1_1PolylineTopology.html#a9804e11494985a8b83f996e1cefedff9":[8,1,1,0,1,756,5],
+"classmrmeshpy_1_1PolylineTopology.html#a9b9e41df2552a3639bcec00ebfdb0439":[8,1,0,0,2,756,53],
+"classmrmeshpy_1_1PolylineTopology.html#a9b9e41df2552a3639bcec00ebfdb0439":[8,1,1,0,1,756,53],
+"classmrmeshpy_1_1PolylineTopology.html#aa0340e9c0fc0241ef57d54bbcb4f2ef7":[8,1,0,0,2,756,25],
+"classmrmeshpy_1_1PolylineTopology.html#aa0340e9c0fc0241ef57d54bbcb4f2ef7":[8,1,1,0,1,756,25],
+"classmrmeshpy_1_1PolylineTopology.html#aa9683e4bc05969f5b2259853858f7462":[8,1,0,0,2,756,22],
+"classmrmeshpy_1_1PolylineTopology.html#aa9683e4bc05969f5b2259853858f7462":[8,1,1,0,1,756,22],
+"classmrmeshpy_1_1PolylineTopology.html#ab1736bccb9edd2045c3d1de8339faafb":[8,1,0,0,2,756,35],
+"classmrmeshpy_1_1PolylineTopology.html#ab1736bccb9edd2045c3d1de8339faafb":[8,1,1,0,1,756,35],
+"classmrmeshpy_1_1PolylineTopology.html#ab7a4df4166dd48edeb1a90d297608acf":[8,1,0,0,2,756,38],
+"classmrmeshpy_1_1PolylineTopology.html#ab7a4df4166dd48edeb1a90d297608acf":[8,1,1,0,1,756,38],
+"classmrmeshpy_1_1PolylineTopology.html#ab7e5e4112b932cbf686e8d87f1cf18e4":[8,1,0,0,2,756,49]
 };

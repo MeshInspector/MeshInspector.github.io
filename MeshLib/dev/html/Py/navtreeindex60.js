@@ -1,17 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"classmrmeshpy_1_1MultiwayICP.html#aae6a2eddfded74a19e3dae8cd997edac":[8,1,1,0,1,580,1],
-"classmrmeshpy_1_1MultiwayICP.html#aafc70be60848f05430e81b92be04f47a":[8,1,0,0,2,580,9],
-"classmrmeshpy_1_1MultiwayICP.html#aafc70be60848f05430e81b92be04f47a":[8,1,1,0,1,580,9],
-"classmrmeshpy_1_1MultiwayICP.html#ac5cdb3ff62ae142e6bfc4387e2362db0":[8,1,0,0,2,580,2],
-"classmrmeshpy_1_1MultiwayICP.html#ac5cdb3ff62ae142e6bfc4387e2362db0":[8,1,1,0,1,580,2],
-"classmrmeshpy_1_1MultiwayICP.html#ae8bf1c85a0fe0a2997fba1c977252cd8":[8,1,0,0,2,580,3],
-"classmrmeshpy_1_1MultiwayICP.html#ae8bf1c85a0fe0a2997fba1c977252cd8":[8,1,1,0,1,580,3],
-"classmrmeshpy_1_1MultiwayICP.html#aee422a21ba55b18860bcb102de2a4719":[8,1,0,0,2,580,5],
-"classmrmeshpy_1_1MultiwayICP.html#aee422a21ba55b18860bcb102de2a4719":[8,1,1,0,1,580,5],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters.html":[8,1,0,0,2,581],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters.html":[8,1,1,0,1,581],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters.html#a2b0b79712254a9d8b4c8e4f0faeff64c":[8,1,0,0,2,581,6],
 "classmrmeshpy_1_1MultiwayICPSamplingParameters.html#a2b0b79712254a9d8b4c8e4f0faeff64c":[8,1,1,0,1,581,6],
 "classmrmeshpy_1_1MultiwayICPSamplingParameters.html#a4ba96ae4ac48a7089262c9cee16b8b86":[8,1,0,0,2,581,2],
 "classmrmeshpy_1_1MultiwayICPSamplingParameters.html#a4ba96ae4ac48a7089262c9cee16b8b86":[8,1,1,0,1,581,2],
@@ -249,5 +237,17 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#a0e6b47d83ae148675939b4125f9b9cb8":[8,1,1,0,1,585,6,0],
 "classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#a52dbf37ba5636151d4757ebcfb1ab1fe":[8,1,0,0,2,585,6,4],
 "classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#a52dbf37ba5636151d4757ebcfb1ab1fe":[8,1,1,0,1,585,6,4],
-"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#a90660f35f315ec2e4262293cf53aa165":[8,1,0,0,2,585,6,1]
+"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#a90660f35f315ec2e4262293cf53aa165":[8,1,0,0,2,585,6,1],
+"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#a90660f35f315ec2e4262293cf53aa165":[8,1,1,0,1,585,6,1],
+"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#ab77ec6986c5f762993fb765ba8d5992f":[8,1,0,0,2,585,6,2],
+"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#ab77ec6986c5f762993fb765ba8d5992f":[8,1,1,0,1,585,6,2],
+"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#abd69e21ea4b799a70761bb3f3014b382":[8,1,0,0,2,585,6,5],
+"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#abd69e21ea4b799a70761bb3f3014b382":[8,1,1,0,1,585,6,5],
+"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#acdb497c837db3c337575cc921936c295":[8,1,0,0,2,585,6,6],
+"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#acdb497c837db3c337575cc921936c295":[8,1,1,0,1,585,6,6],
+"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#aee7d4a7364ca2649aca5c5b2d465f1ac":[8,1,0,0,2,585,6,3],
+"classmrmeshpy_1_1Nesting_1_1NestingBaseParams.html#aee7d4a7364ca2649aca5c5b2d465f1ac":[8,1,1,0,1,585,6,3],
+"classmrmeshpy_1_1Nesting_1_1NestingResult.html":[8,1,0,0,2,585,7],
+"classmrmeshpy_1_1Nesting_1_1NestingResult.html":[8,1,1,0,1,585,7],
+"classmrmeshpy_1_1Nesting_1_1NestingResult.html#a0a507ebdde9b9c5eb286d5a305e030b3":[8,1,0,0,2,585,7,0]
 };

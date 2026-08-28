@@ -1,17 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"classmrmeshpy_1_1ObjectVoxels.html#a714e68deb6ca3231bf4bdeb08258db96":[8,1,1,0,1,646,24],
-"classmrmeshpy_1_1ObjectVoxels.html#a737f8dd2bf46757c574cf276eab2f467":[8,1,0,0,2,646,37],
-"classmrmeshpy_1_1ObjectVoxels.html#a737f8dd2bf46757c574cf276eab2f467":[8,1,1,0,1,646,37],
-"classmrmeshpy_1_1ObjectVoxels.html#a81a7e0cc86cefe516b274f32ecfd6abb":[8,1,0,0,2,646,5],
-"classmrmeshpy_1_1ObjectVoxels.html#a81a7e0cc86cefe516b274f32ecfd6abb":[8,1,1,0,1,646,5],
-"classmrmeshpy_1_1ObjectVoxels.html#a88addf3f7eac5ac0fecfa218fa66c699":[8,1,0,0,2,646,1],
-"classmrmeshpy_1_1ObjectVoxels.html#a88addf3f7eac5ac0fecfa218fa66c699":[8,1,1,0,1,646,1],
-"classmrmeshpy_1_1ObjectVoxels.html#a899ff27173bf3ada1d47460e836273b6":[8,1,0,0,2,646,13],
-"classmrmeshpy_1_1ObjectVoxels.html#a899ff27173bf3ada1d47460e836273b6":[8,1,1,0,1,646,13],
-"classmrmeshpy_1_1ObjectVoxels.html#a8c35478e1a6fe0e2cce6bf6ffd1a7eee":[8,1,0,0,2,646,23],
-"classmrmeshpy_1_1ObjectVoxels.html#a8c35478e1a6fe0e2cce6bf6ffd1a7eee":[8,1,1,0,1,646,23],
-"classmrmeshpy_1_1ObjectVoxels.html#a8e8ef94c4dc4dfb918f87e8c45d88a56":[8,1,0,0,2,646,42],
 "classmrmeshpy_1_1ObjectVoxels.html#a8e8ef94c4dc4dfb918f87e8c45d88a56":[8,1,1,0,1,646,42],
 "classmrmeshpy_1_1ObjectVoxels.html#a9ce26a587627b58473c3596c03b511f6":[8,1,0,0,2,646,55],
 "classmrmeshpy_1_1ObjectVoxels.html#a9ce26a587627b58473c3596c03b511f6":[8,1,1,0,1,646,55],
@@ -249,5 +237,17 @@ var NAVTREEINDEX68 =
 "classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a268453829e6357aa95cbe209206e00b1":[8,1,1,0,1,660,0,8],
 "classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a32311fba1226ad2901366ec7618965a4":[8,1,0,0,2,660,0,5],
 "classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a32311fba1226ad2901366ec7618965a4":[8,1,1,0,1,660,0,5],
-"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a3625a1eed76f4dfe90b25a5bf1bc5ffa":[8,1,0,0,2,660,0,10]
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a3625a1eed76f4dfe90b25a5bf1bc5ffa":[8,1,0,0,2,660,0,10],
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a3625a1eed76f4dfe90b25a5bf1bc5ffa":[8,1,1,0,1,660,0,10],
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a7666ff12e1319a67bd31f1217db40acb":[8,1,0,0,2,660,0,4],
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a7666ff12e1319a67bd31f1217db40acb":[8,1,1,0,1,660,0,4],
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a88d1dfc646b738afaa50f8ecc01caa05":[8,1,0,0,2,660,0,7],
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a88d1dfc646b738afaa50f8ecc01caa05":[8,1,1,0,1,660,0,7],
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#ab164c52e3d9bd2374856d95ebda0b828":[8,1,0,0,2,660,0,3],
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#ab164c52e3d9bd2374856d95ebda0b828":[8,1,1,0,1,660,0,3],
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#ac126adcb30a589d07c6abde289007941":[8,1,0,0,2,660,0,1],
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#ac126adcb30a589d07c6abde289007941":[8,1,1,0,1,660,0,1],
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#aca33ad8d704586bf1f6b5210883076f9":[8,1,0,0,2,660,0,6],
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#aca33ad8d704586bf1f6b5210883076f9":[8,1,1,0,1,660,0,6],
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#acb2302b583f97a1d79e54db870527561":[8,1,0,0,2,660,0,0]
 };

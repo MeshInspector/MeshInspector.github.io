@@ -1,5 +1,15 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html":[8,0,0,20,448],
+"structMR_1_1PolylineIntersectionResult2.html":[8,0,0,1,32],
+"structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[8,0,0,1,32,1],
+"structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[8,0,0,1,32,0],
+"structMR_1_1PolylineMaker.html":[8,0,0,20,453],
+"structMR_1_1PolylineProjectionResult.html":[8,0,0,1,33],
+"structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c":[8,0,0,1,33,3],
+"structMR_1_1PolylineProjectionResult.html#a65b3a379e994fdd5dd100ddb4cb1d02c":[8,0,0,1,33,0],
+"structMR_1_1PolylineProjectionResult.html#a7a353323e51db61fabf08080cbe55598":[8,0,0,1,33,1],
+"structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8":[8,0,0,1,33,2],
 "structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd":[8,0,0,1,33,4],
 "structMR_1_1PolylineProjectionResult3Arg.html":[8,0,0,1,34],
 "structMR_1_1PolylineProjectionResult3Arg.html#a2cf18e52c58f017c162f7f60ad2c514e":[8,0,0,1,34,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1TbbTaskArenaAndGroup.html":[8,0,0,20,504],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[8,0,0,20,877],
 "structMR_1_1TerminalVertex.html":[8,0,0,20,199],
-"structMR_1_1TextMeshAlignParams.html":[8,0,0,20,551],
-"structMR_1_1ThickenParams.html":[8,0,0,20,413],
-"structMR_1_1ThreadRootTimeRecord.html":[8,0,0,3,14],
-"structMR_1_1ThreadRootTimeRecord.html#a3e5ba8456a90bb0fad95117f932b88b7":[8,0,0,3,14,2],
-"structMR_1_1ThreadRootTimeRecord.html#a55f08ba4c3004342030e8bf710484e25":[8,0,0,3,14,0],
-"structMR_1_1ThreadRootTimeRecord.html#a5de581b2d12ca1b28b07d904c6bc000b":[8,0,0,3,14,5],
-"structMR_1_1ThreadRootTimeRecord.html#a8369b56e3b80eadaad7c4d75eae4ea14":[8,0,0,3,14,1],
-"structMR_1_1ThreadRootTimeRecord.html#ab11d7cc5223e4f0ed8b6d247c3eb5f88":[8,0,0,3,14,6],
-"structMR_1_1ThreadRootTimeRecord.html#ae29d85986eb71cbb8e09862f174fee16":[8,0,0,3,14,7],
-"structMR_1_1ThreadRootTimeRecord.html#aeda7fbd28acbffe32fb39f0fd9098965":[8,0,0,3,14,3],
-"structMR_1_1ThreadRootTimeRecord.html#afcc5ed565036ccc1c8fb6062fe2b4405":[8,0,0,3,14,4]
+"structMR_1_1TextMeshAlignParams.html":[8,0,0,20,551]
 };

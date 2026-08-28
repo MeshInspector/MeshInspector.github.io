@@ -1,5 +1,15 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1MeshVoxelsConverter.html":[8,0,0,20,837],
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[8,0,1,0,1,28,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[8,0,2,0,2,17,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[8,0,1,0,1,28,0,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[8,0,2,0,2,17,0,0],
+"structMR_1_1MetricToAStarPenalty.html":[8,0,0,20,204],
+"structMR_1_1MinArg.html":[8,0,0,20,345],
+"structMR_1_1MinMaxArg.html":[8,0,0,20,347],
+"structMR_1_1ModalDialogSettings.html":[8,0,0,20,609],
+"structMR_1_1ModelBaseRenderParams.html":[8,0,0,20,298],
 "structMR_1_1ModelPointsData.html":[8,0,0,20,266],
 "structMR_1_1ModelRenderParams.html":[8,0,0,20,299],
 "structMR_1_1MouseClickListener.html":[8,0,0,20,778],
@@ -239,15 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12":[8,0,0,14,0,20],
 "structMR_1_1Polyline.html#aeaa90b34cd74ab76a35694d438baaf65":[8,0,0,14,0,29],
 "structMR_1_1Polyline.html#aee0339a19861aa52dd86eceea3e805b8":[8,0,0,14,0,32],
-"structMR_1_1Polyline.html#af24fd643f0d6cd970d26dccd51949a93":[8,0,0,14,0,31],
-"structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html":[8,0,0,20,448],
-"structMR_1_1PolylineIntersectionResult2.html":[8,0,0,1,32],
-"structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[8,0,0,1,32,1],
-"structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[8,0,0,1,32,0],
-"structMR_1_1PolylineMaker.html":[8,0,0,20,453],
-"structMR_1_1PolylineProjectionResult.html":[8,0,0,1,33],
-"structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c":[8,0,0,1,33,3],
-"structMR_1_1PolylineProjectionResult.html#a65b3a379e994fdd5dd100ddb4cb1d02c":[8,0,0,1,33,0],
-"structMR_1_1PolylineProjectionResult.html#a7a353323e51db61fabf08080cbe55598":[8,0,0,1,33,1],
-"structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8":[8,0,0,1,33,2]
+"structMR_1_1Polyline.html#af24fd643f0d6cd970d26dccd51949a93":[8,0,0,14,0,31]
 };

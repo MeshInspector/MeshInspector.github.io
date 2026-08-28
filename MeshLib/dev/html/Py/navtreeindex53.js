@@ -1,17 +1,5 @@
 var NAVTREEINDEX53 =
 {
-"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#a2669ebd798e92ee76619b235f653350d":[8,1,1,0,1,527,6,2],
-"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#a67d93960c89688a3ed34c26af61c51da":[8,1,0,0,2,527,6,5],
-"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#a67d93960c89688a3ed34c26af61c51da":[8,1,1,0,1,527,6,5],
-"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#a6aa6b42e4fde0f1bcdcfb9ab111a4f54":[8,1,0,0,2,527,6,1],
-"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#a6aa6b42e4fde0f1bcdcfb9ab111a4f54":[8,1,1,0,1,527,6,1],
-"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#ab4d5ebef118b875ef78b4a8378e105a0":[8,1,0,0,2,527,6,0],
-"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#ab4d5ebef118b875ef78b4a8378e105a0":[8,1,1,0,1,527,6,0],
-"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#abb3bb50ceefc5321c10982edeb7610a9":[8,1,0,0,2,527,6,3],
-"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#abb3bb50ceefc5321c10982edeb7610a9":[8,1,1,0,1,527,6,3],
-"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#ad1114cf1e895cf09783d4f70d5749b8e":[8,1,0,0,2,527,6,6],
-"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#ad1114cf1e895cf09783d4f70d5749b8e":[8,1,1,0,1,527,6,6],
-"classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#ad41b2ce9690ff18551e7ec9ba7a6f15d":[8,1,0,0,2,527,6,4],
 "classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html#ad41b2ce9690ff18551e7ec9ba7a6f15d":[8,1,1,0,1,527,6,4],
 "classmrmeshpy_1_1MeshBuilder_1_1equalVector3f.html":[8,1,0,0,2,527,1],
 "classmrmeshpy_1_1MeshBuilder_1_1equalVector3f.html":[8,1,1,0,1,527,1],
@@ -249,5 +237,17 @@ var NAVTREEINDEX53 =
 "classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#a14829e4b2f59bf7b67cdd78daa9daebb":[8,1,1,0,1,533,1,5],
 "classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#a6d29646f1a73fb2a518cd7751b765384":[8,1,0,0,2,533,1,8],
 "classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#a6d29646f1a73fb2a518cd7751b765384":[8,1,1,0,1,533,1,8],
-"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#a72e05a8aa10f263089e0b656f3ba3252":[8,1,0,0,2,533,1,6]
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#a72e05a8aa10f263089e0b656f3ba3252":[8,1,0,0,2,533,1,6],
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#a72e05a8aa10f263089e0b656f3ba3252":[8,1,1,0,1,533,1,6],
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#a820f3eb40fd5bab377ec9cdc156e0021":[8,1,0,0,2,533,1,10],
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#a820f3eb40fd5bab377ec9cdc156e0021":[8,1,1,0,1,533,1,10],
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#a93cfe99069a0f5cba0a59b5687553691":[8,1,0,0,2,533,1,2],
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#a93cfe99069a0f5cba0a59b5687553691":[8,1,1,0,1,533,1,2],
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#aa116b8560c51548f116c6f9c81c499aa":[8,1,0,0,2,533,1,7],
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#aa116b8560c51548f116c6f9c81c499aa":[8,1,1,0,1,533,1,7],
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#ac2bc3511081c8cfbb2a59fdf50b28a1f":[8,1,0,0,2,533,1,0],
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#ac2bc3511081c8cfbb2a59fdf50b28a1f":[8,1,1,0,1,533,1,0],
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#acacd913e49bfff96c929abe004788d30":[8,1,0,0,2,533,1,9],
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#acacd913e49bfff96c929abe004788d30":[8,1,1,0,1,533,1,9],
+"classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#ad98007c28ef3bcf599ab7a8a480ce45e":[8,1,0,0,2,533,1,4]
 };

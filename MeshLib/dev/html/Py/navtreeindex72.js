@@ -1,17 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"classmrmeshpy_1_1PixelBitSet.html":[8,1,1,0,1,710],
-"classmrmeshpy_1_1PixelBitSet.html#a0bc623b11caef7f964bee3676e239fa3":[8,1,0,0,2,710,32],
-"classmrmeshpy_1_1PixelBitSet.html#a0bc623b11caef7f964bee3676e239fa3":[8,1,1,0,1,710,32],
-"classmrmeshpy_1_1PixelBitSet.html#a0f82c93f911a0cc323b95430fe13eb15":[8,1,0,0,2,710,4],
-"classmrmeshpy_1_1PixelBitSet.html#a0f82c93f911a0cc323b95430fe13eb15":[8,1,1,0,1,710,4],
-"classmrmeshpy_1_1PixelBitSet.html#a1274b92a5e1aaf94f5badc815ce0a9e3":[8,1,0,0,2,710,30],
-"classmrmeshpy_1_1PixelBitSet.html#a1274b92a5e1aaf94f5badc815ce0a9e3":[8,1,1,0,1,710,30],
-"classmrmeshpy_1_1PixelBitSet.html#a13aa5abdaacc1ac185ee0103370a58f4":[8,1,0,0,2,710,12],
-"classmrmeshpy_1_1PixelBitSet.html#a13aa5abdaacc1ac185ee0103370a58f4":[8,1,1,0,1,710,12],
-"classmrmeshpy_1_1PixelBitSet.html#a15cb7493599383990b38804dd11061ed":[8,1,0,0,2,710,21],
-"classmrmeshpy_1_1PixelBitSet.html#a15cb7493599383990b38804dd11061ed":[8,1,1,0,1,710,21],
-"classmrmeshpy_1_1PixelBitSet.html#a17db0e4f534417a245541e4fe11da78a":[8,1,0,0,2,710,27],
 "classmrmeshpy_1_1PixelBitSet.html#a17db0e4f534417a245541e4fe11da78a":[8,1,1,0,1,710,27],
 "classmrmeshpy_1_1PixelBitSet.html#a180d0c36455caebdf8ef53db6000e9cf":[8,1,0,0,2,710,41],
 "classmrmeshpy_1_1PixelBitSet.html#a180d0c36455caebdf8ef53db6000e9cf":[8,1,1,0,1,710,41],
@@ -249,5 +237,17 @@ var NAVTREEINDEX72 =
 "classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#abd4e1a45b9bb9c27a6b9ff23ce2dc225":[8,1,1,0,1,713,4,3],
 "classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ad56f9cb385153f896c4a4a33c975514b":[8,1,0,0,2,713,4,7],
 "classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ad56f9cb385153f896c4a4a33c975514b":[8,1,1,0,1,713,4,7],
-"classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ad91644363e7763101e0a57a6428b5028":[8,1,0,0,2,713,4,0]
+"classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ad91644363e7763101e0a57a6428b5028":[8,1,0,0,2,713,4,0],
+"classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ad91644363e7763101e0a57a6428b5028":[8,1,1,0,1,713,4,0],
+"classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ae55303aae2d653fa8b110167ab6bf89a":[8,1,0,0,2,713,4,5],
+"classmrmeshpy_1_1PlanarTriangulation_1_1TriangulationParameters.html#ae55303aae2d653fa8b110167ab6bf89a":[8,1,1,0,1,713,4,5],
+"classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html":[8,1,0,0,2,713,5],
+"classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html":[8,1,1,0,1,713,5],
+"classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#a019fd4159f72091e6db14c41bdf1c138":[8,1,0,0,2,713,5,0],
+"classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#a019fd4159f72091e6db14c41bdf1c138":[8,1,1,0,1,713,5,0],
+"classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#a099d2c73f24d4857ef30c2472b98aec2":[8,1,0,0,2,713,5,4],
+"classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#a099d2c73f24d4857ef30c2472b98aec2":[8,1,1,0,1,713,5,4],
+"classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#a0ce4d0b0f01bdbaf7a73558e0fc0231a":[8,1,0,0,2,713,5,3],
+"classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#a0ce4d0b0f01bdbaf7a73558e0fc0231a":[8,1,1,0,1,713,5,3],
+"classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#a46a0b7f9fcfaadb245e6c81a42ffdc5f":[8,1,0,0,2,713,5,2]
 };

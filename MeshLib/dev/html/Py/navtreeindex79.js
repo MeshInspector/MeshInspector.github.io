@@ -1,17 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"classmrmeshpy_1_1Polynomial__float__4.html#a30eb6ef31d6786836e10c61089ff23ca":[8,1,1,0,1,772,3],
-"classmrmeshpy_1_1Polynomial__float__4.html#a66028c03b33487f0c84516945ea3dbd2":[8,1,0,0,2,772,4],
-"classmrmeshpy_1_1Polynomial__float__4.html#a66028c03b33487f0c84516945ea3dbd2":[8,1,1,0,1,772,4],
-"classmrmeshpy_1_1Polynomial__float__4.html#a82204a7256a088fac6d4ec85f91a1cb1":[8,1,0,0,2,772,1],
-"classmrmeshpy_1_1Polynomial__float__4.html#a82204a7256a088fac6d4ec85f91a1cb1":[8,1,1,0,1,772,1],
-"classmrmeshpy_1_1Polynomial__float__4.html#aa37fe33a4cd7801602eb6a4bbae18bb5":[8,1,0,0,2,772,0],
-"classmrmeshpy_1_1Polynomial__float__4.html#aa37fe33a4cd7801602eb6a4bbae18bb5":[8,1,1,0,1,772,0],
-"classmrmeshpy_1_1Polynomial__float__4.html#ab8a01a46aadc4b84db2154ec5f01d6fd":[8,1,0,0,2,772,5],
-"classmrmeshpy_1_1Polynomial__float__4.html#ab8a01a46aadc4b84db2154ec5f01d6fd":[8,1,1,0,1,772,5],
-"classmrmeshpy_1_1Polynomial__float__4.html#ad6d33f44827e46e642cb4f719bd6cb55":[8,1,0,0,2,772,2],
-"classmrmeshpy_1_1Polynomial__float__4.html#ad6d33f44827e46e642cb4f719bd6cb55":[8,1,1,0,1,772,2],
-"classmrmeshpy_1_1Polynomial__float__5.html":[8,1,0,0,2,773],
 "classmrmeshpy_1_1Polynomial__float__5.html":[8,1,1,0,1,773],
 "classmrmeshpy_1_1Polynomial__float__5.html#a2a5a6dffa33a2beaf7f0139754684878":[8,1,0,0,2,773,1],
 "classmrmeshpy_1_1Polynomial__float__5.html#a2a5a6dffa33a2beaf7f0139754684878":[8,1,1,0,1,773,1],
@@ -249,5 +237,17 @@ var NAVTREEINDEX79 =
 "classmrmeshpy_1_1QuadraticForm2d.html#ab20cff5e28e49d70e794c42302def265":[8,1,1,0,1,786,4],
 "classmrmeshpy_1_1QuadraticForm2d.html#ae46f577609082cc398f0f80d85e67f31":[8,1,0,0,2,786,5],
 "classmrmeshpy_1_1QuadraticForm2d.html#ae46f577609082cc398f0f80d85e67f31":[8,1,1,0,1,786,5],
-"classmrmeshpy_1_1QuadraticForm2d.html#af2b82aafdf68d1f4a1453ba7119c1852":[8,1,0,0,2,786,7]
+"classmrmeshpy_1_1QuadraticForm2d.html#af2b82aafdf68d1f4a1453ba7119c1852":[8,1,0,0,2,786,7],
+"classmrmeshpy_1_1QuadraticForm2d.html#af2b82aafdf68d1f4a1453ba7119c1852":[8,1,1,0,1,786,7],
+"classmrmeshpy_1_1QuadraticForm2f.html":[8,1,0,0,2,787],
+"classmrmeshpy_1_1QuadraticForm2f.html":[8,1,1,0,1,787],
+"classmrmeshpy_1_1QuadraticForm2f.html#a124d2ec08858d559a887727746e91c41":[8,1,0,0,2,787,4],
+"classmrmeshpy_1_1QuadraticForm2f.html#a124d2ec08858d559a887727746e91c41":[8,1,1,0,1,787,4],
+"classmrmeshpy_1_1QuadraticForm2f.html#a128167516c4563f1d7cefeb0ca7d6232":[8,1,0,0,2,787,0],
+"classmrmeshpy_1_1QuadraticForm2f.html#a128167516c4563f1d7cefeb0ca7d6232":[8,1,1,0,1,787,0],
+"classmrmeshpy_1_1QuadraticForm2f.html#a1472fa45b83783a5a99721ada2301f40":[8,1,0,0,2,787,2],
+"classmrmeshpy_1_1QuadraticForm2f.html#a1472fa45b83783a5a99721ada2301f40":[8,1,1,0,1,787,2],
+"classmrmeshpy_1_1QuadraticForm2f.html#a3a97d017ee55a84dc5bd8a156f09fc61":[8,1,0,0,2,787,5],
+"classmrmeshpy_1_1QuadraticForm2f.html#a3a97d017ee55a84dc5bd8a156f09fc61":[8,1,1,0,1,787,5],
+"classmrmeshpy_1_1QuadraticForm2f.html#a7e39c2697e8d06bd08a4ebdbbbe74dd6":[8,1,0,0,2,787,1]
 };

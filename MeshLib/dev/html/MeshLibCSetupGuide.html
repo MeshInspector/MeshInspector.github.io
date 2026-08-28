@@ -162,17 +162,20 @@ $(function(){initNavTree('MeshLibCSetupGuide.html','',''); });
       <li class="level2">
         <a href="#autotoc_md43">Try MeshLib with C Examples </a>
       </li>
-      <li class="level2">
-        <a href="#CppBuildCBindingsFromSource">Building C API from source </a>
-      </li>
     </ul>
   </li>
 </ul>
 </div>
 <div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
 Setting Up MeshLib for C Development</h1>
-<dl class="section note"><dt>Note</dt><dd>The C API library is called <span class="tt">MeshLibC2</span>, and its headers are in the <span class="tt">MRC*</span> directories (<span class="tt">MRCMesh</span>/etc, as opposed to <span class="tt">MRMesh</span>/etc for C++ API). </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>The recommended way of installing the C API is from the <a href="https://github.com/MeshInspector/MeshLib/releases">binary releases</a> of MeshLib. It's also possible to build <a class="el" href="#CppBuildCBindingsFromSource">from source</a>. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Two versions of the C API currently coexist:</dd>
+<dd>
+- v2 (the recommended default) — the library is called <span class="tt">MeshLibC2</span>, and the headers are in the <span class="tt">MRC*</span> directories.</dd>
+<dd>
+- v1 (deprecated) — the library is called <span class="tt">MRMeshC</span>, and the headers are in the <span class="tt">MRMeshC</span> directory. This version only exposes a small part of MeshLib. The support for v1 will be dropped by the end of 2025. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Currently, the only supported way of using the C API is via the binary releases of MeshLib.</dd>
+<dd>
+Starting with the next release, you will be able to compile the C bindings directly from the source code. </dd></dl>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
 Installing binary releases of MeshLib</h2>
 <p>The installation process is <a class="el" href="MeshLibCppSetupGuide.html">same as for C++</a>, and is also explained below.</p>
@@ -244,16 +247,7 @@ macOS</h3>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
 Try MeshLib with C Examples</h2>
 <p>MeshLib provides a <a class="el" href="Examples.html">collection of C code samples</a> to help you get started quickly with common mesh processing tasks.</p>
-<p>We suggest running one of them to confirm that the installation was performed correctly, for example the <a class="el" href="ExampleMeshLoadSave.html">Load and Save Meshes</a> sample.</p>
-<h2 class="doxsection"><a class="anchor" id="CppBuildCBindingsFromSource"></a>
-Building C API from source</h2>
-<p>As an alternative to the binary distribution, you can build the C API from source, as a part of MeshLib.</p>
-<p>The C API sources are generated for each release, and must be downloaded from the <a href="https://github.com/MeshInspector/MeshLib/releases">GitHub Releases</a> page.</p>
-<p>The source archive is called <span class="tt">meshlib_v1.2.3.4_c-source[-wasm].zip</span>. Use the <span class="tt">-wasm</span> variant if you're building for Wasm; it omits support for some additional IO formats that we don't support in Wasm builds.</p>
-<p>Extract <span class="tt">MeshLibC2/include</span>, <span class="tt">MeshLibC2/src</span> into <span class="tt">source/MeshLibC2</span>.</p>
-<p>Additionally, if you want Cuda support, similarly extract <span class="tt">MeshLibC2Cuda/{include,src}</span> into <span class="tt">source/MeshLibC2Cuda</span>. This is not available on Wasm.</p>
-<p>If you <b>don't</b> want Cuda support, you instead have to copy Cuda stubs from <span class="tt">scripts/mrbind/cuda_placeholder_generated_c/{include,src}</span> to <span class="tt">source/MeshLibC2Cuda</span>. This is the only option on Wasm.</p>
-<p>Lastly, build MeshLib with C API enabled by adding <span class="tt">-DMESHLIB_BUILD_GENERATED_C_BINDINGS=ON</span> to CMake flags. We recommend using CMake for this, but VS project files are also available in <span class="tt">source/MeshLibC2</span> and <span class="tt">source/MeshLibC2Cuda</span>, but they aren't included in the VS solution by default. </p>
+<p>We suggest running one of them to confirm that the installation was performed correctly, for example the <a class="el" href="ExampleMeshLoadSave.html">Load and Save Meshes</a> sample. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

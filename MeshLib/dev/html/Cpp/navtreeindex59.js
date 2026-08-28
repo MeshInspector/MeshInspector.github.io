@@ -1,15 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162da06a224da9e61bee19ec9eef88b95f934":[8,0,1,0,1,16,17,0],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162da5927c315d864270693959758800d99d7":[8,0,1,0,1,16,17,2],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162da5c4562eb35560ecfac0098dbf8cb3a74":[8,0,1,0,1,16,17,1],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898":[8,0,1,0,1,16,15],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898a1a18f19535b3b1edd5de7f535141f476":[8,0,1,0,1,16,15,1],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898af6cb3e816496528d4187db53bc66567f":[8,0,1,0,1,16,15,2],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898afad58de7366495db4650cfefac2fcd61":[8,0,1,0,1,16,15,0],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#ab99fb146ee19534728c21de96d621c49":[8,0,1,0,1,16,24],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4":[8,0,1,0,1,16,18],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378":[8,0,1,0,1,16,18,0],
 "namespaceMR_1_1ImageLoad.html":[8,0,0,20,5],
 "namespaceMR_1_1ImageLoad.html#a13d83aa7ec99dc7a9ae166be69ecac53":[8,0,1,0,1,12,0],
 "namespaceMR_1_1ImageSave.html":[8,0,0,20,6],
@@ -249,5 +239,15 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1UnitSettings.html#a6267dc3ac144ae861e2598c807bd77f1":[8,0,1,0,1,50,6],
 "namespaceMR_1_1UnitSettings.html#a6605d13452e5dc0af2d101284fc415c6":[8,0,1,0,1,50,9],
 "namespaceMR_1_1UnitSettings.html#a706ad2d0dd78e1d4d10e1352ef53f53b":[8,0,1,0,1,50,15],
-"namespaceMR_1_1UnitSettings.html#a877acfc5ce5b7fba63a87fcfdf9e43d1":[8,0,1,0,1,50,12]
+"namespaceMR_1_1UnitSettings.html#a877acfc5ce5b7fba63a87fcfdf9e43d1":[8,0,1,0,1,50,12],
+"namespaceMR_1_1UnitSettings.html#a89d96a5a9615daa8de6e1bbbecda8156":[8,0,1,0,1,50,5],
+"namespaceMR_1_1UnitSettings.html#a9274e5f81702cc490493898076559da2":[8,0,1,0,1,50,13],
+"namespaceMR_1_1UnitSettings.html#a92c469e73280d6f522115571fcf167d7":[8,0,1,0,1,50,3],
+"namespaceMR_1_1UnitSettings.html#a94861183b1976b5e7b549d50ce37805d":[8,0,1,0,1,50,11],
+"namespaceMR_1_1UnitSettings.html#a9660ba5f25b3c345a1d75f38de621842":[8,0,1,0,1,50,10],
+"namespaceMR_1_1UnitSettings.html#ac410a1fcd84e320251f853094123a7c9":[8,0,1,0,1,50,16],
+"namespaceMR_1_1UnitSettings.html#ad0f4b58308b6afde0805f1a15314ec36":[8,0,1,0,1,50,8],
+"namespaceMR_1_1UnitSettings.html#ad5bb619905d31722d3e7f5a91afb1c46":[8,0,1,0,1,50,2],
+"namespaceMR_1_1UnitSettings.html#ae83d1247da6bf1d2bf28212e19246978":[8,0,1,0,1,50,7],
+"namespaceMR_1_1UnitSettings.html#af40b003a9c4deee8e921de1a4f03e0b2":[8,0,1,0,1,50,17]
 };

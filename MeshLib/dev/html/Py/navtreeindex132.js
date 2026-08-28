@@ -1,11 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html":[8,1,1,0,1,312],
-"classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a142c8fdfd7bc8c1ec8f89a60ca798718":[8,1,0,0,2,312,1],
-"classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a142c8fdfd7bc8c1ec8f89a60ca798718":[8,1,1,0,1,312,1],
-"classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a3c89efceaf761b4b323b93e78e7df6c3":[8,1,0,0,2,312,7],
-"classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a3c89efceaf761b4b323b93e78e7df6c3":[8,1,1,0,1,312,7],
-"classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a3f457b3497b02a620eca8e2f3892f884":[8,1,0,0,2,312,4],
 "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a3f457b3497b02a620eca8e2f3892f884":[8,1,1,0,1,312,4],
 "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a53f6998873ae407b4831d363a4b580b1":[8,1,0,0,2,312,3],
 "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a53f6998873ae407b4831d363a4b580b1":[8,1,1,0,1,312,3],
@@ -249,5 +243,11 @@ var NAVTREEINDEX132 =
 "classmrmeshpy_1_1func__float__from__Id__EdgeTag.html#a5fb076a9385b54d69ca7e8c25db23b18":[8,1,1,0,1,326,2],
 "classmrmeshpy_1_1func__float__from__Id__EdgeTag.html#aab4d6a0242529af4f3b4082cc6de9323":[8,1,0,0,2,326,6],
 "classmrmeshpy_1_1func__float__from__Id__EdgeTag.html#aab4d6a0242529af4f3b4082cc6de9323":[8,1,1,0,1,326,6],
-"classmrmeshpy_1_1func__float__from__Id__EdgeTag.html#ad036dfdd8b559621d4fac20a21be0a59":[8,1,0,0,2,326,3]
+"classmrmeshpy_1_1func__float__from__Id__EdgeTag.html#ad036dfdd8b559621d4fac20a21be0a59":[8,1,0,0,2,326,3],
+"classmrmeshpy_1_1func__float__from__Id__EdgeTag.html#ad036dfdd8b559621d4fac20a21be0a59":[8,1,1,0,1,326,3],
+"classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html":[8,1,0,0,2,327],
+"classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html":[8,1,1,0,1,327],
+"classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html#a4f311089ecbf527d8891e7804e15761d":[8,1,0,0,2,327,0],
+"classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html#a4f311089ecbf527d8891e7804e15761d":[8,1,1,0,1,327,0],
+"classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html#a5b78ed6e9982b876df3f8c0cdbd0240e":[8,1,0,0,2,327,6]
 };

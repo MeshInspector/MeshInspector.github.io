@@ -40,14 +40,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>CPU(X86_64) - AMD64 / Intel64 / x86_64 64-bit finds intersection between the Ray and the <ref refid="structMR_1_1Box" kindref="compound">Box</ref>. Precomputed values could be useful for several calls with the same direction, see &quot;An Efficient and Robust Ray-Box Intersection Algorithm&quot; at <ulink url="https:///">https:///</ulink> people.csail.mit.edu/amy/papers/box-jgt.pdf </para>
+<para>CPU(X86_64) - AMD64 / Intel64 / x86_64 64-bit finds intersection between the Ray and the <ref refid="structMR_1_1Box" kindref="compound">Box</ref>. The box must be valid, otherwise the result is undefined. Precomputed values could be useful for several calls with the same direction, see &quot;An Efficient and Robust Ray-Box Intersection Algorithm&quot; at <ulink url="https:///">https:///</ulink> people.csail.mit.edu/amy/papers/box-jgt.pdf </para>
         </detaileddescription>
         <inbodydescription>
 <para>compare and update x-dimension with t0-t1</para>
 <para>compare and update y-dimension with t0-t1</para>
 <para>compare and update z-dimension with t0-t1</para>
         </inbodydescription>
-        <location file="MRMesh/MRRayBoxIntersection.h" line="36" column="6" bodyfile="MRMesh/MRRayBoxIntersection.h" bodystart="36" bodyend="85"/>
+        <location file="MRMesh/MRRayBoxIntersection.h" line="47" column="6" bodyfile="MRMesh/MRRayBoxIntersection.h" bodystart="47" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="group__RayBoxIntersectionGroup_1ga710fb3f98b472e45efdd6c3671f90581" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -78,12 +78,13 @@
           <declname>t1</declname>
         </param>
         <briefdescription>
+<para>finds intersection between the Ray and the <ref refid="structMR_1_1Box" kindref="compound">Box</ref>, which must be valid </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRayBoxIntersection.h" line="88" column="6" bodyfile="MRMesh/MRRayBoxIntersection.h" bodystart="88" bodyend="92"/>
+        <location file="MRMesh/MRRayBoxIntersection.h" line="122" column="6" bodyfile="MRMesh/MRRayBoxIntersection.h" bodystart="122" bodyend="126"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

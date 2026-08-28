@@ -1,5 +1,15 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1MenuItemInfo.html":[8,0,0,20,690],
+"structMR_1_1MergeVolumePartSettings.html":[8,0,0,17,4],
+"structMR_1_1MergeVolumePartSettings.html":[8,0,0,20,893],
+"structMR_1_1Mesh.html":[8,0,0,7,1],
+"structMR_1_1Mesh.html#a017bf9ba11329c4596f14d33cbc8a654":[8,0,0,7,1,92],
+"structMR_1_1Mesh.html#a029d8d453e90f13a14ae22b25a71db47":[8,0,0,7,1,27],
+"structMR_1_1Mesh.html#a0362095ba2aeef52de9f42ffa78756a0":[8,0,0,7,1,95],
+"structMR_1_1Mesh.html#a03632276528ce953490a2111a5280c7c":[8,0,0,7,1,9],
+"structMR_1_1Mesh.html#a0426a1ac11c53b02a2756afa0c205105":[8,0,0,7,1,101],
+"structMR_1_1Mesh.html#a065ab2187cbcc73a21aa4bab438dc7fa":[8,0,0,7,1,87],
 "structMR_1_1Mesh.html#a074d71b712f4d3b75e9afe65903cba2f":[8,0,0,7,1,4],
 "structMR_1_1Mesh.html#a07d95933f6235de108fcb86097508b9f":[8,0,0,7,1,6],
 "structMR_1_1Mesh.html#a08b8517dc08f3f1509ff3a0deb390e82":[8,0,0,7,1,32],
@@ -239,15 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1MeshToDistanceVolumeParams.html":[8,0,0,20,848],
 "structMR_1_1MeshToVolumeParams.html":[8,0,0,20,886],
 "structMR_1_1MeshTriPoint.html":[8,0,0,7,3],
-"structMR_1_1MeshTriPoint.html":[8,0,0,20,373],
-"structMR_1_1MeshVoxelsConverter.html":[8,0,0,20,837],
-"structMR_1_1Meta_1_1SharedPtrTraits.html":[8,0,1,0,1,28,0],
-"structMR_1_1Meta_1_1SharedPtrTraits.html":[8,0,2,0,2,17,0],
-"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[8,0,1,0,1,28,0,0],
-"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[8,0,2,0,2,17,0,0],
-"structMR_1_1MetricToAStarPenalty.html":[8,0,0,20,204],
-"structMR_1_1MinArg.html":[8,0,0,20,345],
-"structMR_1_1MinMaxArg.html":[8,0,0,20,347],
-"structMR_1_1ModalDialogSettings.html":[8,0,0,20,609],
-"structMR_1_1ModelBaseRenderParams.html":[8,0,0,20,298]
+"structMR_1_1MeshTriPoint.html":[8,0,0,20,373]
 };
