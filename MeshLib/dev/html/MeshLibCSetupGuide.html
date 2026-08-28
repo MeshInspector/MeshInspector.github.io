@@ -162,27 +162,24 @@ $(function(){initNavTree('MeshLibCSetupGuide.html','',''); });
       <li class="level2">
         <a href="#autotoc_md43">Try MeshLib with C Examples </a>
       </li>
+      <li class="level2">
+        <a href="#CppBuildCBindingsFromSource">Building C API from source </a>
+      </li>
     </ul>
   </li>
 </ul>
 </div>
 <div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
 Setting Up MeshLib for C Development</h1>
-<dl class="section note"><dt>Note</dt><dd>Two versions of the C API currently coexist:</dd>
-<dd>
-- v2 (the recommended default) — the library is called <span class="tt">MeshLibC2</span>, and the headers are in the <span class="tt">MRC*</span> directories.</dd>
-<dd>
-- v1 (deprecated) — the library is called <span class="tt">MRMeshC</span>, and the headers are in the <span class="tt">MRMeshC</span> directory. This version only exposes a small part of MeshLib. The support for v1 will be dropped by the end of 2025. </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Currently, the only supported way of using the C API is via the binary releases of MeshLib.</dd>
-<dd>
-Starting with the next release, you will be able to compile the C bindings directly from the source code. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The C API library is called <span class="tt">MeshLibC2</span>, and its headers are in the <span class="tt">MRC*</span> directories (<span class="tt">MRCMesh</span>/etc, as opposed to <span class="tt">MRMesh</span>/etc for C++ API). </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The recommended way of installing the C API is from the <a href="https://github.com/MeshInspector/MeshLib/releases">binary releases</a> of MeshLib. It's also possible to build <a class="el" href="#CppBuildCBindingsFromSource">from source</a>. </dd></dl>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
 Installing binary releases of MeshLib</h2>
 <p>The installation process is <a class="el" href="MeshLibCppSetupGuide.html">same as for C++</a>, and is also explained below.</p>
 <p>The release archives include the C headers (in the directory called <span class="tt">MRCMesh</span> and several other <span class="tt">MRC...</span> directories), and a compiled library named <span class="tt">MeshLibC2</span> (<span class="tt">MeshLibC2.dll</span> on Windows, <span class="tt">libMeshLibC2.so</span> on Linux, etc). This library links against our C++ libraries (<span class="tt">MRMesh</span> and others) and provides C wrappers for them.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md40"></a>
 Windows</h3>
-<dl class="section note"><dt>Note</dt><dd>MeshLib for Windows is distributed for <b>x64</b> only: set the platform of your project to <span class="tt">x64</span>. A 32-bit (<span class="tt">Win32</span>) build of C code compiles, but fails at link with <span class="tt">LNK2019: unresolved external symbol __imp__MR_...</span> for every MeshLib function. That means the platform is wrong, not that a library is missing: 32-bit name decoration (<span class="tt">__imp__NAME</span> instead of <span class="tt">__imp_NAME</span>) matches nothing in the x64 import libraries. Visual Studio 2019 still defaults new C++ console projects to <span class="tt">Win32</span>. On Windows on Arm, use the x64 toolchain: no native Arm64 Windows build is published.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>MeshLib for Windows is distributed for x64 only. Make sure you're not targeting x32.</dd></dl>
 <p>Every release publishes one Windows distributive per Visual Studio toolset, plus one for Debug builds that keep MSVC's iterator debugging on. The <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindows">C++ guide's archive table</a> names all four and says which one to take, including the binary-compatibility rule that lets an older toolset's archive serve a newer Visual Studio. It applies to C unchanged, except for its <span class="tt">_ITERATOR_DEBUG_LEVEL</span> column: a pure-C consumer needs no <span class="tt">_ITERATOR_DEBUG_LEVEL</span> define, whichever archive it picks, because C code passes no standard containers across the DLL boundary, so the mismatch that define guards against cannot arise. A project that also compiles C++ translation units against MeshLib's C++ headers does need it, at the value in that column.</p>
 <ol type="1">
 <li><b>Download and Extract the Built Version</b><ul>
@@ -247,7 +244,16 @@ macOS</h3>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
 Try MeshLib with C Examples</h2>
 <p>MeshLib provides a <a class="el" href="Examples.html">collection of C code samples</a> to help you get started quickly with common mesh processing tasks.</p>
-<p>We suggest running one of them to confirm that the installation was performed correctly, for example the <a class="el" href="ExampleMeshLoadSave.html">Load and Save Meshes</a> sample. </p>
+<p>We suggest running one of them to confirm that the installation was performed correctly, for example the <a class="el" href="ExampleMeshLoadSave.html">Load and Save Meshes</a> sample.</p>
+<h2 class="doxsection"><a class="anchor" id="CppBuildCBindingsFromSource"></a>
+Building C API from source</h2>
+<p>As an alternative to the binary distribution, you can build the C API from source, as a part of MeshLib.</p>
+<p>The C API sources are generated for each release, and must be downloaded from the <a href="https://github.com/MeshInspector/MeshLib/releases">GitHub Releases</a> page.</p>
+<p>The source archive is called <span class="tt">meshlib_v1.2.3.4_c-source[-wasm].zip</span>. Use the <span class="tt">-wasm</span> variant if you're building for Wasm; it omits support for some additional IO formats that we don't support in Wasm builds.</p>
+<p>Extract <span class="tt">MeshLibC2/include</span>, <span class="tt">MeshLibC2/src</span> into <span class="tt">source/MeshLibC2</span>.</p>
+<p>Additionally, if you want Cuda support, similarly extract <span class="tt">MeshLibC2Cuda/{include,src}</span> into <span class="tt">source/MeshLibC2Cuda</span>. This is not available on Wasm.</p>
+<p>If you <b>don't</b> want Cuda support, you instead have to copy Cuda stubs from <span class="tt">scripts/mrbind/cuda_placeholder_generated_c/{include,src}</span> to <span class="tt">source/MeshLibC2Cuda</span>. This is the only option on Wasm.</p>
+<p>Lastly, build MeshLib with C API enabled by adding <span class="tt">-DMESHLIB_BUILD_GENERATED_C_BINDINGS=ON</span> to CMake flags. We recommend using CMake for this, but VS project files are also available in <span class="tt">source/MeshLibC2</span> and <span class="tt">source/MeshLibC2Cuda</span>, but they aren't included in the VS solution by default. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
