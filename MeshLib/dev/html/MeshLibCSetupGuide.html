@@ -168,14 +168,12 @@ $(function(){initNavTree('MeshLibCSetupGuide.html','',''); });
 </div>
 <div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
 Setting Up MeshLib for C Development</h1>
-<dl class="section note"><dt>Note</dt><dd>Two versions of the C API currently coexist:</dd>
+<dl class="section note"><dt>Note</dt><dd>The C API library is called <span class="tt">MeshLibC2</span>, and its headers are in the <span class="tt">MRC*</span> directories (<span class="tt">MRCMesh</span>, <span class="tt">MRCMisc</span>, <span class="tt">MRCSymbolMesh</span>, <span class="tt">MRCVoxels</span>, ...).</dd>
 <dd>
-- v2 (the recommended default) — the library is called <span class="tt">MeshLibC2</span>, and the headers are in the <span class="tt">MRC*</span> directories.</dd>
+The older v1 C API (<span class="tt">MRMeshC</span>) has been <b>removed</b>: it is absent from the repository and from the releases. Code still using it has to move to <span class="tt">MeshLibC2</span>. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The C API is distributed in the <a href="https://github.com/MeshInspector/MeshLib/releases">binary releases</a> of MeshLib, which is what this guide covers.</dd>
 <dd>
-- v1 (deprecated) — the library is called <span class="tt">MRMeshC</span>, and the headers are in the <span class="tt">MRMeshC</span> directory. This version only exposes a small part of MeshLib. The support for v1 will be dropped by the end of 2025. </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Currently, the only supported way of using the C API is via the binary releases of MeshLib.</dd>
-<dd>
-Starting with the next release, you will be able to compile the C bindings directly from the source code. </dd></dl>
+Building it from source is possible too, but takes an extra step: the bindings are generated, not written by hand, so generate them first (see <a href="https://github.com/MeshInspector/MeshLib/blob/master/scripts/mrbind/README-generating.md#32-generate-c-bindings">scripts/mrbind/README-generating.md</a>), then configure MeshLib with <span class="tt">-DMESHLIB_BUILD_GENERATED_C_BINDINGS=ON</span> — it is <span class="tt">OFF</span> by default, and with it off no C library is built. </dd></dl>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
 Installing binary releases of MeshLib</h2>
 <p>The installation process is <a class="el" href="MeshLibCppSetupGuide.html">same as for C++</a>, and is also explained below.</p>
