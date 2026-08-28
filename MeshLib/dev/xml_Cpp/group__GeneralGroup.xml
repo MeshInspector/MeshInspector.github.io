@@ -115418,6 +115418,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
           <declname>data</declname>
         </param>
         <briefdescription>
+<para>false positive stringop-overflow from GCC 13 on the push_back below, arm64 only </para>
         </briefdescription>
         <detaileddescription>
 <para>callback that is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone (i.e. in subdivideMesh) and changes moved vertex attribute to correct value. Useful to update vertices based attributes like uv coordinates or verts colormaps </para>
@@ -115425,7 +115426,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         <inbodydescription>
 <para>important to multiply each of ends individually not to lose data for clamped integer values (like colors)</para>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivideCallbacks.h" line="41" column="6" bodyfile="MRMesh/MRMeshSubdivideCallbacks.h" bodystart="41" bodyend="52" declfile="MRMesh/MRMeshSubdivideCallbacks.h" declline="15" declcolumn="6"/>
+        <location file="MRMesh/MRMeshSubdivideCallbacks.h" line="46" column="6" bodyfile="MRMesh/MRMeshSubdivideCallbacks.h" bodystart="46" bodyend="57" declfile="MRMesh/MRMeshSubdivideCallbacks.h" declline="15" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga858bd56c47ccd2af4b01a5bfa189ff64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -115457,7 +115458,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
 <para>getting a right face for an edge that has been split.</para>
 <para>getting a right face for a new edge that was added during splitting.</para>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivideCallbacks.h" line="55" column="6" bodyfile="MRMesh/MRMeshSubdivideCallbacks.h" bodystart="55" bodyend="77" declfile="MRMesh/MRMeshSubdivideCallbacks.h" declline="21" declcolumn="6"/>
+        <location file="MRMesh/MRMeshSubdivideCallbacks.h" line="64" column="6" bodyfile="MRMesh/MRMeshSubdivideCallbacks.h" bodystart="64" bodyend="86" declfile="MRMesh/MRMeshSubdivideCallbacks.h" declline="21" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab430877fb7ef3cfb347a264b5fd553df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>OnEdgeSplit</type>
