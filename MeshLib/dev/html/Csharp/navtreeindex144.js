@@ -1,5 +1,9 @@
 var NAVTREEINDEX144 =
 {
+"classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html#ae7e14823e3767114e8969a57e7ca12da":[8,3,0,0,0,1815,2,0],
+"classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html#af303b4d732aaea25b05e10ae89bdeb32":[8,3,0,0,0,1815,2,7],
+"classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html":[8,3,0,0,0,1815,3],
+"classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a1464336c087e8640286425f1c4fbbb77":[8,3,0,0,0,1815,3,5],
 "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a53b0fec3f2eedfc533c9ddcd80db076a":[8,3,0,0,0,1815,3,7],
 "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a7273eef8dda566a418aa00a2a717b0c5":[8,3,0,0,0,1815,3,2],
 "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a7e64ababdc47b3fc6a2cb22e3ee4f522":[8,3,0,0,0,1815,3,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX144 =
 "classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a22a6153a76b15736169f0fdfeee2b671":[8,3,0,0,0,1832,3,0,6],
 "classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a2721d05bb325cef11ee432b0a6072a56":[8,3,0,0,0,1832,3,0,8],
 "classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a2ed4842b2560f1cdd40aafc915027af2":[8,3,0,0,0,1832,3,0,1],
-"classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a31de3ea2360b02ac50b1b8a05e73fb57":[8,3,0,0,0,1832,3,0,3],
-"classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a3b37fc1f80514af58643a9f3f1387114":[8,3,0,0,0,1832,3,0,4],
-"classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a50ed9666713ee6fa34700f0a46fb10e2":[8,3,0,0,0,1832,3,0,9],
-"classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#ab21d2603f494c7d2f37fefdc7b203e9c":[8,3,0,0,0,1832,3,0,7],
-"classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#acf80df5e4f0d0669583fea185371371a":[8,3,0,0,0,1832,3,0,0]
+"classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a31de3ea2360b02ac50b1b8a05e73fb57":[8,3,0,0,0,1832,3,0,3]
 };

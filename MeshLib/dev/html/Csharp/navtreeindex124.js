@@ -1,5 +1,9 @@
 var NAVTREEINDEX124 =
 {
+"classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html#adb16e4b3d08f5181a0ccf02bb579e8ea":[8,3,0,0,0,1505,1,5],
+"classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html#ae7fda897351dc126b1ef9e646d7d67ac":[8,3,0,0,0,1505,1,3],
+"classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html#ae8e9b9ae95bf180f20d713ed3b593771":[8,3,0,0,0,1505,1,6],
+"classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html#afeda136e1295cb21abf48fc0e6e94b07":[8,3,0,0,0,1505,1,0],
 "classMR_1_1PointsLoad_1_1Const__NamedCloud.html":[8,3,0,0,0,1505,2],
 "classMR_1_1PointsLoad_1_1Const__NamedCloud.html#a273ecf9454b81a493b2179fe623f7898":[8,3,0,0,0,1505,2,2],
 "classMR_1_1PointsLoad_1_1Const__NamedCloud.html#a3d5dab09fca75e586222c8e78fed390b":[8,3,0,0,0,1505,2,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX124 =
 "classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#a19c46f796aea8c9c500a04ef9fbc5bf6":[8,3,0,0,0,1518,0,2],
 "classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#a1f9aad2c02ede77f9b39fc271c69b06b":[8,3,0,0,0,1518,0,3],
 "classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#a2e0fa250da40c3ebb6ad030f2a56c308":[8,3,0,0,0,1518,0,8],
-"classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#a6c7f3f0e9f86c3ae1f579f247956df05":[8,3,0,0,0,1518,0,0],
-"classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#a9ece6db23f3f3699a769836b7fe4d967":[8,3,0,0,0,1518,0,5],
-"classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#aab32a606f3b8196c9de773ba53aa1946":[8,3,0,0,0,1518,0,1],
-"classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#ab39c83fe1559e0dd88f068769dc720b9":[8,3,0,0,0,1518,0,6],
-"classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#ab5cf132dac17def54f8bf7f9d189a314":[8,3,0,0,0,1518,0,10]
+"classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#a6c7f3f0e9f86c3ae1f579f247956df05":[8,3,0,0,0,1518,0,0]
 };

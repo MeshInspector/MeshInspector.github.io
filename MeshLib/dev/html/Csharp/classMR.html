@@ -10307,7 +10307,7 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memitem:a6328cc48bc1be46ed3893c317cdf37eb" id="r_a6328cc48bc1be46ed3893c317cdf37eb"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6328cc48bc1be46ed3893c317cdf37eb">meshToPointCloud</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, bool? saveNormals=null, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? verts=null)</td></tr>
 <tr class="memdesc:a6328cc48bc1be46ed3893c317cdf37eb"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">Mesh</a> to <a class="el" href="classMR_1_1PointCloud.html" title="Generated from class MR.PointCloud. This is the non-const half of the class.">PointCloud</a> Generated from function <span class="tt"><a class="el" href="#a6328cc48bc1be46ed3893c317cdf37eb" title="Mesh to PointCloud Generated from function MR.meshToPointCloud. Parameter saveNormals defaults to tru...">MR.meshToPointCloud</a></span>. Parameter <span class="tt">saveNormals</span> defaults to <span class="tt">true</span>.  <br /></td></tr>
 <tr class="memitem:aa99481de7657067322381c6376cc9df8" id="r_aa99481de7657067322381c6376cc9df8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa99481de7657067322381c6376cc9df8">meshToDensePointCloud</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, float radius, bool? saveNormals=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
-<tr class="memdesc:aa99481de7657067322381c6376cc9df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball of the radius can pass through the sampled surface without touching at least one point of the cloud, because every point of that surface is within the radius from some point of the cloud. The cloud consists of 1) all vertices of the sampled faces, having the same ids as in the mesh; 2) samples on each edge longer than 2*radius; 3) samples inside each triangle, which cannot be covered by its vertices alone. Please note that the number of samples grows as 1/radius^2.  <br /></td></tr>
+<tr class="memdesc:aa99481de7657067322381c6376cc9df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball of the radius can pass through the sampled surface without touching at least one point of the cloud, because every point of that surface is within the radius from some point of the cloud. The cloud consists of 1) all vertices of the sampled faces, having the same ids as in the mesh; 2) samples inside every triangle that its own vertices cannot cover, and on the edges of it. A triangle needs no samples at all, however long its edges are, if every point of it is within the radius from one of its vertices, as in a sliver with the third vertex near the longest edge. Please note that the number of samples grows as 1/radius^2.  <br /></td></tr>
 <tr class="memitem:ae4171f5402c2383f24804f51074d6311" id="r_ae4171f5402c2383f24804f51074d6311"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4171f5402c2383f24804f51074d6311">reduceTotalAngle</a> (<a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, int numIters, <a class="el" href="classMR_1_1Const__ReduceTotalAngleParams.html">MR.Const_ReduceTotalAngleParams</a>? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCallback=null)</td></tr>
 <tr class="memdesc:ae4171f5402c2383f24804f51074d6311"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimizes summed deviation of triangle-triangle angles from plane, where each edge is weighted by its length; performs the given number of iterations, during each the edges are flipped; returns the total number of flips done Generated from function <span class="tt"><a class="el" href="#ae4171f5402c2383f24804f51074d6311" title="minimizes summed deviation of triangle-triangle angles from plane, where each edge is weighted by its...">MR.reduceTotalAngle</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCallback</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:abcd3335b980057dbe48e9fa19efcc011" id="r_abcd3335b980057dbe48e9fa19efcc011"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcd3335b980057dbe48e9fa19efcc011">reduceTotalAngleInMesh</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, int numIters, <a class="el" href="classMR_1_1Const__ReduceTotalAngleParams.html">MR.Const_ReduceTotalAngleParams</a>? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCallback=null)</td></tr>
@@ -11193,6 +11193,14 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:aca8deb6f32e3e4907eca107b240b643a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the squared diameter of the smallest enclosed circle around ABC; For acute triangles it is the same as circumcircle, for obtuse triangles - the circle with the longest triangle's edge as a diameter Generated from function <span class="tt"><a class="el" href="#aca8deb6f32e3e4907eca107b240b643a" title="Computes the squared diameter of the smallest enclosed circle around ABC; For acute triangles it is t...">MR.mincircleDiameterSq</a>&amp;lt;float&amp;gt;</span>.  <br /></td></tr>
 <tr class="memitem:a389a1cc6f097e216f0eb85031a25c7d6" id="r_a389a1cc6f097e216f0eb85031a25c7d6"><td class="memItemLeft" align="right" valign="top">static unsafe double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a389a1cc6f097e216f0eb85031a25c7d6">mincircleDiameterSq</a> (in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> a, in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> b, in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> c)</td></tr>
 <tr class="memdesc:a389a1cc6f097e216f0eb85031a25c7d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the squared diameter of the smallest enclosed circle around ABC; For acute triangles it is the same as circumcircle, for obtuse triangles - the circle with the longest triangle's edge as a diameter Generated from function <span class="tt"><a class="el" href="#aca8deb6f32e3e4907eca107b240b643a" title="Computes the squared diameter of the smallest enclosed circle around ABC; For acute triangles it is t...">MR.mincircleDiameterSq</a>&amp;lt;double&amp;gt;</span>.  <br /></td></tr>
+<tr class="memitem:aa2a2febc08f9661c9e3d9d39ce0f7bef" id="r_aa2a2febc08f9661c9e3d9d39ce0f7bef"><td class="memItemLeft" align="right" valign="top">static unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2a2febc08f9661c9e3d9d39ce0f7bef">edgeCoveringRadiusSq</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> a, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> b, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> c)</td></tr>
+<tr class="memdesc:aa2a2febc08f9661c9e3d9d39ce0f7bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the squared maximal distance from a point of the segment AB to the nearest of the points A, B and C: this is where the balls of that radius around the three points stop covering the segment Generated from function <span class="tt"><a class="el" href="#aa2a2febc08f9661c9e3d9d39ce0f7bef" title="Computes the squared maximal distance from a point of the segment AB to the nearest of the points A,...">MR.edgeCoveringRadiusSq</a>&amp;lt;float&amp;gt;</span>.  <br /></td></tr>
+<tr class="memitem:adb479ab2627218fac5924fa5abc69df9" id="r_adb479ab2627218fac5924fa5abc69df9"><td class="memItemLeft" align="right" valign="top">static unsafe double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb479ab2627218fac5924fa5abc69df9">edgeCoveringRadiusSq</a> (in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> a, in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> b, in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> c)</td></tr>
+<tr class="memdesc:adb479ab2627218fac5924fa5abc69df9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the squared maximal distance from a point of the segment AB to the nearest of the points A, B and C: this is where the balls of that radius around the three points stop covering the segment Generated from function <span class="tt"><a class="el" href="#aa2a2febc08f9661c9e3d9d39ce0f7bef" title="Computes the squared maximal distance from a point of the segment AB to the nearest of the points A,...">MR.edgeCoveringRadiusSq</a>&amp;lt;double&amp;gt;</span>.  <br /></td></tr>
+<tr class="memitem:ac8b5f4a6d4d458de6159700e0d5234fa" id="r_ac8b5f4a6d4d458de6159700e0d5234fa"><td class="memItemLeft" align="right" valign="top">static unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8b5f4a6d4d458de6159700e0d5234fa">coveringRadiusSq</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> a, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> b, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> c)</td></tr>
+<tr class="memdesc:ac8b5f4a6d4d458de6159700e0d5234fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the squared maximal distance from a point of the triangle ABC to the nearest of its vertices, so the balls of that radius around the vertices cover the whole triangle. For non-obtuse triangles it is the squared circumradius, and for obtuse ones it can be much smaller than in the minimal enclosing circle, e.g. when the third vertex is near the longest edge Generated from function <span class="tt"><a class="el" href="#ac8b5f4a6d4d458de6159700e0d5234fa" title="Computes the squared maximal distance from a point of the triangle ABC to the nearest of its vertices...">MR.coveringRadiusSq</a>&amp;lt;float&amp;gt;</span>.  <br /></td></tr>
+<tr class="memitem:a02c94505197eaa9acc31b2ddb9b306d1" id="r_a02c94505197eaa9acc31b2ddb9b306d1"><td class="memItemLeft" align="right" valign="top">static unsafe double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02c94505197eaa9acc31b2ddb9b306d1">coveringRadiusSq</a> (in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> a, in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> b, in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> c)</td></tr>
+<tr class="memdesc:a02c94505197eaa9acc31b2ddb9b306d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the squared maximal distance from a point of the triangle ABC to the nearest of its vertices, so the balls of that radius around the vertices cover the whole triangle. For non-obtuse triangles it is the squared circumradius, and for obtuse ones it can be much smaller than in the minimal enclosing circle, e.g. when the third vertex is near the longest edge Generated from function <span class="tt"><a class="el" href="#ac8b5f4a6d4d458de6159700e0d5234fa" title="Computes the squared maximal distance from a point of the triangle ABC to the nearest of its vertices...">MR.coveringRadiusSq</a>&amp;lt;double&amp;gt;</span>.  <br /></td></tr>
 <tr class="memitem:a44d96060c6c84db0b51686581c89ed37" id="r_a44d96060c6c84db0b51686581c89ed37"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44d96060c6c84db0b51686581c89ed37">circumcircleCenter</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> a, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> b)</td></tr>
 <tr class="memdesc:a44d96060c6c84db0b51686581c89ed37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the center of the the triangle's 0AB circumcircle Generated from function <span class="tt"><a class="el" href="#a44d96060c6c84db0b51686581c89ed37" title="Computes the center of the the triangle&#39;s 0AB circumcircle Generated from function MR....">MR.circumcircleCenter</a>&amp;lt;float&amp;gt;</span>.  <br /></td></tr>
 <tr class="memitem:ab907dc6b71e8f36720b724083df16e6a" id="r_ab907dc6b71e8f36720b724083df16e6a"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab907dc6b71e8f36720b724083df16e6a">circumcircleCenter</a> (in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> a, in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> b)</td></tr>
@@ -28791,6 +28799,78 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 
 </div>
 </div>
+<a id="a02c94505197eaa9acc31b2ddb9b306d1" name="a02c94505197eaa9acc31b2ddb9b306d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02c94505197eaa9acc31b2ddb9b306d1">&#9670;&#160;</a></span>coveringRadiusSq() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe double MR.coveringRadiusSq </td>
+          <td>(</td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a></td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the squared maximal distance from a point of the triangle ABC to the nearest of its vertices, so the balls of that radius around the vertices cover the whole triangle. For non-obtuse triangles it is the squared circumradius, and for obtuse ones it can be much smaller than in the minimal enclosing circle, e.g. when the third vertex is near the longest edge Generated from function <span class="tt"><a class="el" href="#ac8b5f4a6d4d458de6159700e0d5234fa" title="Computes the squared maximal distance from a point of the triangle ABC to the nearest of its vertices...">MR.coveringRadiusSq</a>&amp;lt;double&amp;gt;</span>. </p>
+
+</div>
+</div>
+<a id="ac8b5f4a6d4d458de6159700e0d5234fa" name="ac8b5f4a6d4d458de6159700e0d5234fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8b5f4a6d4d458de6159700e0d5234fa">&#9670;&#160;</a></span>coveringRadiusSq() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe float MR.coveringRadiusSq </td>
+          <td>(</td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the squared maximal distance from a point of the triangle ABC to the nearest of its vertices, so the balls of that radius around the vertices cover the whole triangle. For non-obtuse triangles it is the squared circumradius, and for obtuse ones it can be much smaller than in the minimal enclosing circle, e.g. when the third vertex is near the longest edge Generated from function <span class="tt"><a class="el" href="#ac8b5f4a6d4d458de6159700e0d5234fa" title="Computes the squared maximal distance from a point of the triangle ABC to the nearest of its vertices...">MR.coveringRadiusSq</a>&amp;lt;float&amp;gt;</span>. </p>
+
+</div>
+</div>
 <a id="a72a0922a5959ac984957627496564244" name="a72a0922a5959ac984957627496564244"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72a0922a5959ac984957627496564244">&#9670;&#160;</a></span>createObject()</h2>
 
@@ -34036,6 +34116,78 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 </div><div class="memdoc">
 
 <p>computes the center of given edge Generated from function <span class="tt"><a class="el" href="#ad1e68b9ff1948a814bf42cda0bd42606" title="computes the center of given edge Generated from function MR.edgeCenter.">MR.edgeCenter</a></span>. </p>
+
+</div>
+</div>
+<a id="adb479ab2627218fac5924fa5abc69df9" name="adb479ab2627218fac5924fa5abc69df9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb479ab2627218fac5924fa5abc69df9">&#9670;&#160;</a></span>edgeCoveringRadiusSq() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe double MR.edgeCoveringRadiusSq </td>
+          <td>(</td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a></td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the squared maximal distance from a point of the segment AB to the nearest of the points A, B and C: this is where the balls of that radius around the three points stop covering the segment Generated from function <span class="tt"><a class="el" href="#aa2a2febc08f9661c9e3d9d39ce0f7bef" title="Computes the squared maximal distance from a point of the segment AB to the nearest of the points A,...">MR.edgeCoveringRadiusSq</a>&amp;lt;double&amp;gt;</span>. </p>
+
+</div>
+</div>
+<a id="aa2a2febc08f9661c9e3d9d39ce0f7bef" name="aa2a2febc08f9661c9e3d9d39ce0f7bef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2a2febc08f9661c9e3d9d39ce0f7bef">&#9670;&#160;</a></span>edgeCoveringRadiusSq() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe float MR.edgeCoveringRadiusSq </td>
+          <td>(</td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the squared maximal distance from a point of the segment AB to the nearest of the points A, B and C: this is where the balls of that radius around the three points stop covering the segment Generated from function <span class="tt"><a class="el" href="#aa2a2febc08f9661c9e3d9d39ce0f7bef" title="Computes the squared maximal distance from a point of the segment AB to the nearest of the points A,...">MR.edgeCoveringRadiusSq</a>&amp;lt;float&amp;gt;</span>. </p>
 
 </div>
 </div>
@@ -62174,7 +62326,7 @@ All new faces should be parallel to given direction It is measured in squared le
 </table>
 </div><div class="memdoc">
 
-<p>Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball of the radius can pass through the sampled surface without touching at least one point of the cloud, because every point of that surface is within the radius from some point of the cloud. The cloud consists of 1) all vertices of the sampled faces, having the same ids as in the mesh; 2) samples on each edge longer than 2*radius; 3) samples inside each triangle, which cannot be covered by its vertices alone. Please note that the number of samples grows as 1/radius^2. </p>
+<p>Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball of the radius can pass through the sampled surface without touching at least one point of the cloud, because every point of that surface is within the radius from some point of the cloud. The cloud consists of 1) all vertices of the sampled faces, having the same ids as in the mesh; 2) samples inside every triangle that its own vertices cannot cover, and on the edges of it. A triangle needs no samples at all, however long its edges are, if every point of it is within the radius from one of its vertices, as in a sliver with the third vertex near the longest edge. Please note that the number of samples grows as 1/radius^2. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mp</td><td>the mesh or the part of it to be covered; nothing outside the part is sampled </td></tr>

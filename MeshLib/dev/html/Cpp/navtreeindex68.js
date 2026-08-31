@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[8,0,0,20,877],
+"structMR_1_1TerminalVertex.html":[8,0,0,20,199],
 "structMR_1_1TextMeshAlignParams.html":[8,0,0,20,551],
 "structMR_1_1ThickenParams.html":[8,0,0,20,413],
 "structMR_1_1ThreadRootTimeRecord.html":[8,0,0,3,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d":[8,0,0,1,18,4],
 "structMR_1_1VarEdgeTri.html#a33184180e0f7658211800f7ad3720833":[8,0,0,1,18,5],
 "structMR_1_1VarEdgeTri.html#a40285e5911c3efc0fdba9474bce8129a":[8,0,0,1,18,10],
-"structMR_1_1VarEdgeTri.html#a5f818bf5f96cbe4b5c899d56e9185ce6":[8,0,0,1,18,7],
-"structMR_1_1VarEdgeTri.html#a8e7c3895e3226b4e74de73d21cd4c4ad":[8,0,0,1,18,9],
-"structMR_1_1VarEdgeTri.html#a959f88d5011716b91abacd8e5b6d357c":[8,0,0,1,18,3]
+"structMR_1_1VarEdgeTri.html#a5f818bf5f96cbe4b5c899d56e9185ce6":[8,0,0,1,18,7]
 };

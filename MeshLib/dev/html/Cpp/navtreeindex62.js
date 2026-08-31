@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1Dirty.html#a76c3682b5945100a319d092463d942e5":[8,0,0,11,2,4,6],
+"structMR_1_1Dirty.html#a821f9a5ba85a71d42db99a9fdff0e8b6":[8,0,0,11,2,4,1],
 "structMR_1_1DistanceFromWeightedPointsComputeParams.html":[8,0,0,20,165],
 "structMR_1_1DistanceFromWeightedPointsParams.html":[8,0,0,20,164],
 "structMR_1_1DistanceMapLoadSettings.html":[8,0,0,5,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#aa8ef4870c84aaafe8b7bfa68fcc35c36":[8,0,2,0,2,6,1,8],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#abdaba674868a5f1afc3921361820ff63":[8,0,1,0,1,15,1,0],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#abdaba674868a5f1afc3921361820ff63":[8,0,2,0,2,6,1,0],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#ad90dcc9ff00b5b5d146e090b2052a11a":[8,0,1,0,1,15,1,5],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#ad90dcc9ff00b5b5d146e090b2052a11a":[8,0,2,0,2,6,1,5],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#aec7d8146daad69362b5227401e520802":[8,0,1,0,1,15,1,3]
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#ad90dcc9ff00b5b5d146e090b2052a11a":[8,0,1,0,1,15,1,5]
 };

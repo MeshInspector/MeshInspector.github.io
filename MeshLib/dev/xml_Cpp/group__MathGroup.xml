@@ -1328,6 +1328,78 @@ xf(eye) = 0 </para>
         </inbodydescription>
         <location file="MRMesh/MRTriMath.h" line="57" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="57" bodyend="71"/>
       </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga95bae9bf748cf3afac3e19c5a26d62d4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::edgeCoveringRadiusSq</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <name>edgeCoveringRadiusSq</name>
+        <qualifiedname>MR::edgeCoveringRadiusSq</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the squared maximal distance from a point of the segment AB to the nearest of the points A, B and C: this is where the balls of that radius around the three points stop covering the segment </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>where C projects on the segment, times its length</para>
+<para>squared distance from the point in the given relative position to the nearest of A, B and C</para>
+<para>that distance is maximal where the two nearest of the points are equidistant</para>
+<para>A and B</para>
+<para>A and C</para>
+<para>B and C</para>
+        </inbodydescription>
+        <location file="MRMesh/MRTriMath.h" line="80" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="80" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gaa4b8359664bdd9d1919ba484c24ab7d4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::coveringRadiusSq</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <name>coveringRadiusSq</name>
+        <qualifiedname>MR::coveringRadiusSq</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the squared maximal distance from a point of the triangle ABC to the nearest of its vertices, so the balls of that radius around the vertices cover the whole triangle. For non-obtuse triangles it is the squared circumradius, and for obtuse ones it can be much smaller than in the minimal enclosing circle, e.g. when the third vertex is near the longest edge </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>a non-obtuse triangle contains its circumcenter, which is the farthest point from the vertices; this is circumcircleDiameterSq / 4 written on the lengths already at hand, and none of the guards in it can trigger here: a triangle with a zero side or zero area is obtuse by the test</para>
+<para>otherwise that point is on the boundary, where the two nearest vertices are equidistant, and always on the longest edge: the circumcenter is beyond it, the distance along every bisector grows towards the circumcenter, so each bisector is maximal where it meets that edge</para>
+        </inbodydescription>
+        <location file="MRMesh/MRTriMath.h" line="115" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="115" bodyend="133"/>
+      </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaf5af7058ce54bba6fc77a344d28b9826" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
@@ -1358,7 +1430,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="134" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="134" bodyend="143"/>
+        <location file="MRMesh/MRTriMath.h" line="196" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="196" bodyend="205"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga2fbcc5b76ec7e12da86bc99895ac6fc9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1390,7 +1462,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="160" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="160" bodyend="171"/>
+        <location file="MRMesh/MRTriMath.h" line="222" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="222" bodyend="233"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga92b796fca017138671758654b2838d56" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1422,7 +1494,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="347" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="347" bodyend="351"/>
+        <location file="MRMesh/MRTriMath.h" line="409" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="409" bodyend="413"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaa45975718eae0ae8c5500147ee8c27d1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1450,7 +1522,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="362" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="362" bodyend="365"/>
+        <location file="MRMesh/MRTriMath.h" line="424" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="424" bodyend="427"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga84b1b2dc1c73856fecb9b8617c174b04" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1482,7 +1554,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="377" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="377" bodyend="382"/>
+        <location file="MRMesh/MRTriMath.h" line="439" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="439" bodyend="444"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
