@@ -143,16 +143,16 @@ $(function(){initNavTree('MeshLibPythonSetupGuide.html','',''); });
 <div class="toc"><h3>Table of Contents</h3>
 <ul>
   <li class="level1">
-    <a href="#autotoc_md154">Installing MeshLib SDK for Python </a>
+    <a href="#autotoc_md156">Installing MeshLib SDK for Python </a>
     <ul>
       <li class="level2">
         <a href="#PythonSetupPrerequisites">Prerequisites </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md155">Python </a>
+            <a href="#autotoc_md157">Python </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md156">Code Editor </a>
+            <a href="#autotoc_md158">Code Editor </a>
           </li>
         </ul>
       </li>
@@ -166,7 +166,7 @@ $(function(){initNavTree('MeshLibPythonSetupGuide.html','',''); });
             <a href="#PythonSetupVerify">Verify the installation </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md157">Your first script </a>
+            <a href="#autotoc_md159">Your first script </a>
           </li>
           <li class="level3">
             <a href="#PythonSetupTroubleshooting">Troubleshooting </a>
@@ -174,16 +174,16 @@ $(function(){initNavTree('MeshLibPythonSetupGuide.html','',''); });
         </ul>
       </li>
       <li class="level2">
-        <a href="#autotoc_md158">How to use MeshLib Python Modules </a>
+        <a href="#autotoc_md160">How to use MeshLib Python Modules </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md159">Modules </a>
+            <a href="#autotoc_md161">Modules </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md160">Predefined Functions and Example Scripts </a>
+            <a href="#autotoc_md162">Predefined Functions and Example Scripts </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md161">Getting Started: MeshLib Viewer and Mesh I/O Examples </a>
+            <a href="#autotoc_md163">Getting Started: MeshLib Viewer and Mesh I/O Examples </a>
           </li>
         </ul>
       </li>
@@ -191,7 +191,7 @@ $(function(){initNavTree('MeshLibPythonSetupGuide.html','',''); });
   </li>
 </ul>
 </div>
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md154"></a>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md156"></a>
 Installing MeshLib SDK for Python</h1>
 <p> 
 <div class="image">
@@ -203,7 +203,7 @@ Installing MeshLib SDK for Python</h1>
 <h2 class="doxsection"><a class="anchor" id="PythonSetupPrerequisites"></a>
 Prerequisites</h2>
 <p>Before installing MeshLib SDK for Python, ensure you have the following:</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md155"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md157"></a>
 Python</h3>
 <p>MeshLib supports the Python versions listed below. We recommend <b>3.12 or newer</b>: Python 3.8 (end-of-life since October 2024) and 3.9 (end-of-life since October 2025) no longer receive security updates, and remain listed only because the published wheels still install on them.</p>
 <ul>
@@ -214,7 +214,7 @@ Python</h3>
 <p>Please install MeshLib using <span class="tt">pip</span> on these platforms.</p>
 <p><a href="https://www.python.org/downloads/">Download a supported version of Python</a>.</p>
 <p>The <a href="https://pypi.org/project/meshlib/">PyPI page</a> always shows the Python versions supported by the latest release.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md156"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md158"></a>
 Code Editor</h3>
 <p>You can use any Python-compatible editor, such as Visual Studio Code, PyCharm, or any IDE you prefer.</p>
 <p>The wheel ships type stubs (<span class="tt">.pyi</span>) for every module, so editors such as VS Code (Pylance) and PyCharm offer completion and signature help for the MeshLib API with no extra setup.</p>
@@ -239,7 +239,7 @@ Verify the installation</h3>
 </div><!-- fragment --><p>Expected output — the path is yours and ends in <span class="tt">mrmeshpy.pyd</span> on Windows, while the two counts are fixed: </p><div class="fragment"><div class="line">/path/to/.venv/lib/python3.12/site-packages/meshlib/mrmeshpy.so</div>
 <div class="line">8 verts 12 faces</div>
 </div><!-- fragment --><p>If it prints those two lines and exits <span class="tt">0</span>, the installation is working. Anything else — a traceback, a loader error, no output — means it is not: see <a class="el" href="#PythonSetupTroubleshooting">Troubleshooting</a> below. The printed path is worth a glance too, since it names the environment that actually received the package.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md157"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md159"></a>
 Your first script</h3>
 <p>With the install confirmed, the same call is the starting point of a real script — this one also writes the cube to a file: </p><div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"> </div>
@@ -262,9 +262,9 @@ Troubleshooting</h3>
 <td class="markdownTableBodyNone">Any, most likely macOS with Python 3.8  </td><td class="markdownTableBodyNone">Install and import both succeed, but a documented function is missing — &lsquo;AttributeError: module 'meshlib.mrmeshpy&rsquo; has no attribute ...<span class="tt"> — or </span>pip show meshlib<span class="tt"> prints a version well behind the latest. \ilinebr &lt;/td&gt;    &lt;td class="markdownTableBodyNone"&gt; The package requires Python 3.8 or newer overall, but each release's wheel tags are narrower than that and move forward over time. When no wheel of the newest release matches your interpreter, pip does not fail: it silently installs the newest *older* release that does. On macOS with Python 3.8 that is 3.0.8.247 instead of the current release, because the current macOS wheels are tagged 3.9 and up. \ilinebr &lt;/td&gt;    &lt;td class="markdownTableBodyNone"&gt; </span>pip show meshlib<span class="tt">, and compare with the version on the [PyPI page](<a href="https://pypi.org/project/meshlib/">https://pypi.org/project/meshlib/</a>). If it is behind, move to a Python version listed in \ref PythonSetupPrerequisites "Prerequisites" and reinstall with </span>pip install &ndash;upgrade &ndash;force-reinstall meshlib`.  </td></tr>
 </table>
 <p>Anything not listed here: please open an issue at <a href="https://github.com/MeshInspector/MeshLib/issues">MeshLib Issues</a>, quoting the full <span class="tt">pip</span> output or traceback.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md158"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md160"></a>
 How to use MeshLib Python Modules</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md159"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md161"></a>
 Modules</h3>
 <p>The <span class="tt">meshlib</span> package ships four importable modules:</p>
 <table class="markdownTable">
@@ -281,10 +281,10 @@ Modules</h3>
 </table>
 <p>Import them from the package, for example <span class="tt">from meshlib import mrmeshpy</span>.</p>
 <dl class="section note"><dt>Note</dt><dd><span class="tt">mrcudapy</span> imports on any machine, including one without a GPU, but its routines need an NVIDIA GPU with a working CUDA driver at runtime.</dd></dl>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md160"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md162"></a>
 Predefined Functions and Example Scripts</h3>
 <p>MeshLib provides a set of example scripts that are available <a class="el" href="Examples.html">here</a>. These examples are helpful for both developers and testers. Additionally, the Python library allows you to explore all the available functions in <span class="tt">mrmeshpy</span> using the standard <span class="tt">help(meshlib.mrmeshpy)</span> command.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md161"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md163"></a>
 Getting Started: MeshLib Viewer and Mesh I/O Examples</h3>
 <p>After installing MeshLib, a great way to start exploring its capabilities is through interactive examples.</p>
 <ul>

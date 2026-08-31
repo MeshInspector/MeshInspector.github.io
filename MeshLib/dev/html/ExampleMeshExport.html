@@ -200,7 +200,7 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <div class="line">    <span class="keywordtype">size_t</span> facesNum = MR_Triangulation_size( t );</div>
 <div class="line">    <span class="comment">// faces are stored as vertex id triples...</span></div>
 <div class="line">    printf( <span class="stringliteral">&quot;Face vertex IDs:\n&quot;</span> );</div>
-<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; verticesNum; ++i )</div>
+<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; facesNum; ++i )</div>
 <div class="line">        printf( <span class="stringliteral">&quot;  face %d:  %d, %d, %d\n&quot;</span>, (<span class="keywordtype">int</span>)i, faces[i].elems[0].id_, faces[i].elems[1].id_, faces[i].elems[2].id_ );</div>
 <div class="line">    <span class="comment">// ...and can also be cast to an integer array</span></div>
 <div class="line">    <span class="keywordtype">int</span>* faceData = malloc( <span class="keyword">sizeof</span>( <span class="keywordtype">int</span> ) * 3 * facesNum );</div>
