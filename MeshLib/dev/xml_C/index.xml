@@ -876,7 +876,6 @@
     <member refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66ea6295a3a744ce1b064617ed194dedee3b" kind="enumvalue"><name>MR_PlanarTriangulation_WindingMode_NonZero</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66ea62cae5941c67cf355977ebe02be3534c" kind="enumvalue"><name>MR_PlanarTriangulation_WindingMode_Positive</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a4804b01a720e7d9caac26d9ba0ddd66ea760d85d44259a37968a85a852de948a6" kind="enumvalue"><name>MR_PlanarTriangulation_WindingMode_Negative</name></member>
-    <member refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kind="typedef"><name>MR_MeshTopology</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a6bf133eda1ec95be202b77c33412bc8e" kind="typedef"><name>MR_Vector3f</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a4cecbe6d6abe0a304f00ea1990538db2" kind="typedef"><name>MR_Vector_int_MR_FaceId</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kind="typedef"><name>MR_WholeEdgeMap</name></member>
@@ -886,14 +885,12 @@
     <member refid="MR2DContoursTriangulation_8h_1a5b1e2000b1101d1bc06fd0071c00b929" kind="typedef"><name>MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kind="typedef"><name>MR_std_vector_std_vector_MR_Vector2d</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kind="typedef"><name>MR_std_vector_std_vector_MR_Vector2f</name></member>
-    <member refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kind="typedef"><name>MR_std_vector_std_vector_MR_VertId</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a2322c246c75b00c3a239e335f94ebc2e" kind="typedef"><name>MR_PlanarTriangulation_WindingMode</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a7904b8cd14ce798ae758acaa3e3818e3" kind="typedef"><name>MR_PlanarTriangulation_IntersectionInfo</name></member>
     <member refid="MR2DContoursTriangulation_8h_1ae9baf3ae71c8b6e3897162161cea892f" kind="typedef"><name>MR_PlanarTriangulation_IntersectionsMap</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a7cc04c912771d8ecdeac92a3fd49e1be" kind="typedef"><name>MR_PlanarTriangulation_BaseOutlineParameters</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a28d6175ed8fd5f5c9198db6604483f5a" kind="typedef"><name>MR_PlanarTriangulation_OutlineParameters</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a6f87d845f030de3ef4ba6630e67bae6d" kind="typedef"><name>MR_PlanarTriangulation_TriangulationParameters</name></member>
-    <member refid="MR2DContoursTriangulation_8h_1ad2980863f3bbb86198206ac45f63cb6a" kind="function"><name>MR_PlanarTriangulation_findHoleVertIdsByHoleEdges</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a11af482874d4fc9ef3bb6961962e5a9b" kind="function"><name>MR_PlanarTriangulation_IntersectionInfo_Get_lOrg</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a2a59381e60f7aa88b2531de23e117a33" kind="function"><name>MR_PlanarTriangulation_IntersectionInfo_Set_lOrg</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a33f53e9a6e8629c7e19ffb8814671553" kind="function"><name>MR_PlanarTriangulation_IntersectionInfo_GetMutable_lOrg</name></member>
@@ -971,9 +968,6 @@
     <member refid="MR2DContoursTriangulation_8h_1a804f0ed570ff26b1d7813f6349b0ee7d" kind="function"><name>MR_PlanarTriangulation_OutlineParameters_AssignFromAnother</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a1317491f19df922e623ec9afd887de56" kind="function"><name>MR_PlanarTriangulation_getOutline_std_vector_std_vector_MR_Vector2f</name></member>
     <member refid="MR2DContoursTriangulation_8h_1aaad75a44859701d3fa031cd27801d816" kind="function"><name>MR_PlanarTriangulation_getOutline_std_vector_std_vector_MR_Vector2d</name></member>
-    <member refid="MR2DContoursTriangulation_8h_1a4445bc76d1b2c1fbe127db4ff7ffda42" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_Get_holeVertsIds</name></member>
-    <member refid="MR2DContoursTriangulation_8h_1abbd5e874dd3b16029b6836e601de9316" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_Set_holeVertsIds</name></member>
-    <member refid="MR2DContoursTriangulation_8h_1aa868044c81bb6655ee6a4ea04d93540d" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_GetMutable_holeVertsIds</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a6c874c3204702446d198933f01e310ca" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_Get_outFaceWinding</name></member>
     <member refid="MR2DContoursTriangulation_8h_1ae485823df4b87dad91201d8914699e8a" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_Set_outFaceWinding</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a0abb006de88e4e8d9cfed4d5815d4f92" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_GetMutable_outFaceWinding</name></member>
@@ -982,7 +976,7 @@
     <member refid="MR2DContoursTriangulation_8h_1aef122949fb58d26360524734d64478be" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_GetMutable_outInterMap</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a5c14253cf74e610ff8998ac1f9a3da95" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_DefaultConstruct</name></member>
     <member refid="MR2DContoursTriangulation_8h_1ae57d43c458847d7e8359d0ef36b25328" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_DefaultConstructArray</name></member>
-    <member refid="MR2DContoursTriangulation_8h_1ae5dd40b9b5c561e50a853b5bcd9e0413" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_ConstructFrom</name></member>
+    <member refid="MR2DContoursTriangulation_8h_1aa30ad47ce365ac8a8e18ae1ce43153d5" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_ConstructFrom</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a023adc9d7a900ccc12ebfba04d2583c9" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_OffsetPtr</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a08896d30f5861a201603d1b526cbd284" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_OffsetMutablePtr</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a18149f30de8b45cc48c018c8acac2c07" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_ConstructFromAnother</name></member>
@@ -991,9 +985,9 @@
     <member refid="MR2DContoursTriangulation_8h_1a9f1120303e2af6fe71c8d518ba0580db" kind="function"><name>MR_PlanarTriangulation_TriangulationParameters_AssignFromAnother</name></member>
     <member refid="MR2DContoursTriangulation_8h_1a3a93a72835f2e55ee9b4e7a5f723fc96" kind="function"><name>MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2d</name></member>
     <member refid="MR2DContoursTriangulation_8h_1ae50a0bbb7b2b7be040819f554cf7d2a8" kind="function"><name>MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2f</name></member>
-    <member refid="MR2DContoursTriangulation_8h_1abd7baa84c10074b7e3a8f9814a121fd6" kind="function"><name>MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2d</name></member>
-    <member refid="MR2DContoursTriangulation_8h_1a1164161e75e19d0a3dd855e970d7a766" kind="function"><name>MR_PlanarTriangulation_triangulateDisjointContours_3_std_vector_std_vector_MR_Vector2f</name></member>
-    <member refid="MR2DContoursTriangulation_8h_1aaf6308619697d6b2c21b219bb2a39e1c" kind="function"><name>MR_PlanarTriangulation_triangulateDisjointContours_5</name></member>
+    <member refid="MR2DContoursTriangulation_8h_1ae16ead891c65a3e38f6e407a13210930" kind="function"><name>MR_PlanarTriangulation_triangulateDisjointContours_1_std_vector_std_vector_MR_Vector2d</name></member>
+    <member refid="MR2DContoursTriangulation_8h_1ac412e95881d088ecc7116e3e563a176a" kind="function"><name>MR_PlanarTriangulation_triangulateDisjointContours_1_std_vector_std_vector_MR_Vector2f</name></member>
+    <member refid="MR2DContoursTriangulation_8h_1a77e9803ea01cb9d26bcd752b6e90a4fe" kind="function"><name>MR_PlanarTriangulation_triangulateDisjointContours_4</name></member>
   </compound>
   <compound refid="MRAABBTree_8h" kind="file"><name>MRAABBTree.h</name>
     <member refid="MRAABBTree_8h_1ab121f74c134e0f22cce8049e7dd0bf74" kind="typedef"><name>MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</name></member>
@@ -6057,6 +6051,7 @@
     <member refid="MRChangeColoringType_8h_1ae1d00db1a93e06cddbe329a00bf30be2" kind="function"><name>MR_ChangeColoringType_heapBytes</name></member>
   </compound>
   <compound refid="MRChangeMeshAction_8h" kind="file"><name>MRChangeMeshAction.h</name>
+    <member refid="MRChangeMeshAction_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kind="typedef"><name>MR_MeshTopology</name></member>
     <member refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kind="typedef"><name>MR_TexturePerFace</name></member>
     <member refid="MRChangeMeshAction_8h_1a9b857b6bfc1402811fa58f9b79be0ae1" kind="typedef"><name>MR_Vector_MR_MeshTexture_MR_TextureId</name></member>
     <member refid="MRChangeMeshAction_8h_1a078d52fb855baae04a6dcdd71e46fbed" kind="typedef"><name>MR_std_shared_ptr_MR_Mesh</name></member>
@@ -20598,6 +20593,7 @@
     <member refid="MRPointToPointAligningTransform_8h_1a3f47cbab4972d394e0c5353b61a7dde1" kind="function"><name>MR_PointToPointAligningTransform_findBestTranslation</name></member>
   </compound>
   <compound refid="MRPolyline_8h" kind="file"><name>MRPolyline.h</name>
+    <member refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kind="typedef"><name>MR_std_vector_std_vector_MR_VertId</name></member>
     <member refid="MRPolyline_8h_1a8b14c1b0f2d4154f1db0b161f8435a3d" kind="function"><name>MR_Polyline2_Get_topology</name></member>
     <member refid="MRPolyline_8h_1a9bf7618c99138551f5ccfac9b4091644" kind="function"><name>MR_Polyline2_Set_topology</name></member>
     <member refid="MRPolyline_8h_1ab846abe96d8c544733c766074397157d" kind="function"><name>MR_Polyline2_GetMutable_topology</name></member>

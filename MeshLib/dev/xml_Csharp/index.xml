@@ -20893,16 +20893,14 @@
     <member refid="classMR_1_1Const__TriangulationParameters_1a13e4c9f4c3b076fd2906fdba2f4a0052" kind="function"><name>Const_TriangulationParameters</name></member>
   </compound>
   <compound refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters" kind="class"><name>MR::PlanarTriangulation::Const_TriangulationParameters</name>
-    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ac6efdaa2e32c342baf43eed1ac4d9f12" kind="property"><name>holeVertsIds</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ab18db8c33708b83facac33e28215c1d4" kind="property"><name>outFaceWinding</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a391609675788266ead3bd70695a91853" kind="property"><name>outInterMap</name></member>
-    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a12df045b053c0fd074ced1aedbd50845" kind="variable"><name>__ptr_storage_holeVertsIds</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1afd1e2d64d18177832e9c167cc7b218e7" kind="variable"><name>__ptr_storage_outFaceWinding</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a4cc8034fe1ac9b6ebabcc6f442d9f7d7" kind="variable"><name>__ptr_storage_outInterMap</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1aab99df442bbfa24eac0557f5599d8ccc" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a8e0dab86556e64acae7bf4c84943b158" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ad9f309ab141b9b70d58db561c2a21f47" kind="function"><name>Const_TriangulationParameters</name></member>
-    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ae183367809cef4bd18996394382cea92" kind="function"><name>Const_TriangulationParameters</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ad5974f49076243f83789085572ac2230" kind="function"><name>Const_TriangulationParameters</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ad573b835eea913689be9b667fff0f6d9" kind="function"><name>Const_TriangulationParameters</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a4403371a2ad535408060f4e9e9b572f7" kind="function"><name>Const_TriangulationParameters</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a285e22b299b7c96347203ce5481ba0d7" kind="function"><name>~Const_TriangulationParameters</name></member>
@@ -36349,16 +36347,15 @@
     <member refid="classMR_1_1PlanarTriangulation_1a16757991e9e882dfb0fed5364ee342bfa3d0365a27a39c0af183445fc4d932a8a" kind="enumvalue"><name>NonZero</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1a16757991e9e882dfb0fed5364ee342bfa3289297424e01eda5b788c083bbf3147" kind="enumvalue"><name>Positive</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1a16757991e9e882dfb0fed5364ee342bfaffb9356ff2b7da85c75c92fa7ea03b8b" kind="enumvalue"><name>Negative</name></member>
-    <member refid="classMR_1_1PlanarTriangulation_1aabce6890184b20ef505396e0d9e07014" kind="function"><name>findHoleVertIdsByHoleEdges</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1a34a9cb429fb7084527f2f92fc91cb4fb" kind="function"><name>getOutlineMesh</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1a5deeeab300c5b42ba33450aca60b58f1" kind="function"><name>getOutlineMesh</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1ab54f5e80cd451829b80c779726084587" kind="function"><name>getOutline</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1a284e7bebb8b5ffd5cb288277726bd05d" kind="function"><name>getOutline</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1afa9d6d095b5187fc1d409d63a9565495" kind="function"><name>triangulateContours</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1a716126ac0156f532587b6b72b08b4492" kind="function"><name>triangulateContours</name></member>
-    <member refid="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" kind="function"><name>triangulateDisjointContours</name></member>
-    <member refid="classMR_1_1PlanarTriangulation_1a12b16db47d4de981fcbd2c22d0ca3369" kind="function"><name>triangulateDisjointContours</name></member>
-    <member refid="classMR_1_1PlanarTriangulation_1a74056eda910044273b310c7901e166f5" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1aa43721ee35ac47b736aab3533b4bf7a0" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1a729cf46c3cb7c952ae221c96e50cbaf5" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1a4381f5b19cfa561689e12c3e7f146ce5" kind="function"><name>triangulateDisjointContours</name></member>
   </compound>
   <compound refid="classMR_1_1Features_1_1Primitives_1_1Plane" kind="class"><name>MR::Features::Primitives::Plane</name>
     <member refid="classMR_1_1Features_1_1Primitives_1_1Plane_1ad50b6d44de919d8523077d1603d9dc16" kind="property"><name>center</name></member>
@@ -39504,12 +39501,11 @@
     <member refid="classMR_1_1TriangulationHelpers_1abeb1c0c4cba3fe0b6e853c3f9544ca79" kind="function"><name>findBoundaryPoints</name></member>
   </compound>
   <compound refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters" kind="class"><name>MR::PlanarTriangulation::TriangulationParameters</name>
-    <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1a991828552ea4eb6143b8eb68ed269be4" kind="property"><name>holeVertsIds</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1af86512028237251408e14326f04c2879" kind="property"><name>outFaceWinding</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1abe63df0e542a7ae6b832ecce01b38d10" kind="property"><name>outInterMap</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1a32968b1eec293f4ad105f845c72a44c0" kind="function"><name>TriangulationParameters</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1a181bb0b8c9c60d4612e1b0d6630c9449" kind="function"><name>TriangulationParameters</name></member>
-    <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1a6ce9e7f90d90a3724a7b5ffc49d77633" kind="function"><name>TriangulationParameters</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1a3d6dc45c11da7722ab9b52f030823c8d" kind="function"><name>TriangulationParameters</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1aff7f6b70a5e7d71b9d5813fccebbd29a" kind="function"><name>TriangulationParameters</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1aee07be53793b7c5594d05008d50bee9e" kind="function"><name>TriangulationParameters</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters_1afecc0b9b58c52c068cc43a4a19754853" kind="function"><name>assign</name></member>

@@ -1,11 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"structMR_1_1SymMatrix3.html":[8,0,0,20,500],
-"structMR_1_1SymMatrix4.html":[8,0,0,0,7,6],
-"structMR_1_1SymMatrix4.html":[8,0,0,20,501],
-"structMR_1_1SymbolMeshParams.html":[8,0,0,20,556],
-"structMR_1_1SystemMemory.html":[8,0,0,20,502],
-"structMR_1_1TbbTaskArenaAndGroup.html":[8,0,0,20,504],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[8,0,0,20,877],
 "structMR_1_1TerminalVertex.html":[8,0,0,20,199],
 "structMR_1_1TextMeshAlignParams.html":[8,0,0,20,551],
@@ -249,5 +243,11 @@ var NAVTREEINDEX68 =
 "structMR_1_1UniteManyMeshesParams.html":[8,0,0,20,522],
 "structMR_1_1UniteMeshNormalizationParams.html":[8,0,0,20,523],
 "structMR_1_1UnorientedTriangle.html":[8,0,0,20,525],
-"structMR_1_1VacantElements.html":[8,0,0,20,366]
+"structMR_1_1VacantElements.html":[8,0,0,20,366],
+"structMR_1_1VarEdgeTri.html":[8,0,0,1,18],
+"structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc":[8,0,0,1,18,6],
+"structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d":[8,0,0,1,18,4],
+"structMR_1_1VarEdgeTri.html#a33184180e0f7658211800f7ad3720833":[8,0,0,1,18,5],
+"structMR_1_1VarEdgeTri.html#a40285e5911c3efc0fdba9474bce8129a":[8,0,0,1,18,10],
+"structMR_1_1VarEdgeTri.html#a5f818bf5f96cbe4b5c899d56e9185ce6":[8,0,0,1,18,7]
 };

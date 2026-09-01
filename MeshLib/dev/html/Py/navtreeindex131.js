@@ -1,9 +1,5 @@
 var NAVTREEINDEX131 =
 {
-"classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long.html":[8,1,1,0,1,352],
-"classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long.html#a1052ea8b1102946887f2d997e1a59d21":[8,1,0,0,2,352,0],
-"classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long.html#a1052ea8b1102946887f2d997e1a59d21":[8,1,1,0,1,352,0],
-"classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long.html#a304a8226ce05db32a30efb22c6983405":[8,1,0,0,2,352,5],
 "classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long.html#a304a8226ce05db32a30efb22c6983405":[8,1,1,0,1,352,5],
 "classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long.html#a98fc1d3ba5dbde0fd5ac665575219371":[8,1,0,0,2,352,4],
 "classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long.html#a98fc1d3ba5dbde0fd5ac665575219371":[8,1,1,0,1,352,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX131 =
 "classmrmeshpy_1_1func__bool__from__Id__VertTag.html#ac207da31e5a3e273c802826038f9eba4":[8,1,1,0,1,310,2],
 "classmrmeshpy_1_1func__bool__from__Id__VertTag.html#aca126f0fa27da3ea797ecc27e6381713":[8,1,0,0,2,310,5],
 "classmrmeshpy_1_1func__bool__from__Id__VertTag.html#aca126f0fa27da3ea797ecc27e6381713":[8,1,1,0,1,310,5],
-"classmrmeshpy_1_1func__bool__from__Id__VertTag.html#ad745708270acaff667b6a0ab5a048971":[8,1,0,0,2,310,6]
+"classmrmeshpy_1_1func__bool__from__Id__VertTag.html#ad745708270acaff667b6a0ab5a048971":[8,1,0,0,2,310,6],
+"classmrmeshpy_1_1func__bool__from__Id__VertTag.html#ad745708270acaff667b6a0ab5a048971":[8,1,1,0,1,310,6],
+"classmrmeshpy_1_1func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html":[8,1,0,0,2,311],
+"classmrmeshpy_1_1func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html":[8,1,1,0,1,311],
+"classmrmeshpy_1_1func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html#a5a8cf3d77e76060a4d9eab73488313bf":[8,1,0,0,2,311,3]
 };

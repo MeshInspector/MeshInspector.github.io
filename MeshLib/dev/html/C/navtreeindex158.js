@@ -1,9 +1,5 @@
 var NAVTREEINDEX158 =
 {
-"std__shared__ptr__MR__DistanceMeasurementObject_8h.html#af0bdaaf0b1a358ca2554e3402dfa2ecb":[8,2,2,0,0,0,0,2,345,4],
-"std__shared__ptr__MR__DistanceMeasurementObject_8h_source.html":[8,2,2,0,0,0,0,2,345],
-"std__shared__ptr__MR__FastWindingNumber_8h.html":[8,2,2,0,0,0,0,2,346],
-"std__shared__ptr__MR__FastWindingNumber_8h.html#a06a50af9614213f530b60f46a130132e":[8,2,2,0,0,0,0,2,346,17],
 "std__shared__ptr__MR__FastWindingNumber_8h.html#a19a80d4624edd2a221cd6625275aba06":[8,2,2,0,0,0,0,2,346,21],
 "std__shared__ptr__MR__FastWindingNumber_8h.html#a1afaa8d032d80d3d12fdb9db8bd978ac":[8,2,2,0,0,0,0,2,346,3],
 "std__shared__ptr__MR__FastWindingNumber_8h.html#a2afa7263e1a8acc2c63ad335e32d16ef":[8,2,2,0,0,0,0,2,346,14],
@@ -249,5 +245,9 @@ var NAVTREEINDEX158 =
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a8eb59d9b1409f794008dbe1e1cfa12b4":[8,2,2,0,0,0,0,2,356,5],
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a9d9b4defa342560dde1f07aef4d1669d":[8,2,2,0,0,0,0,2,356,11],
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#aace82d948adbc8087ef2eb397e10c7c6":[8,2,2,0,0,0,0,2,356,14],
-"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ab11216152f924cb1a585d954b6d96873":[8,2,2,0,0,0,0,2,356,18]
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ab11216152f924cb1a585d954b6d96873":[8,2,2,0,0,0,0,2,356,18],
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ab55bf26bda9d1b423277c87b990f8abb":[8,2,2,0,0,0,0,2,356,16],
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#abb450e03a27fc8c8597df74b484e869c":[8,2,2,0,0,0,0,2,356,19],
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ad40b24488a72eb405e4ace3ac885f96e":[8,2,2,0,0,0,0,2,356,6],
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ae07abcb134e36ed7cade9b231f04ecdd":[8,2,2,0,0,0,0,2,356,13]
 };

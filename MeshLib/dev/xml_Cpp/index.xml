@@ -11827,7 +11827,6 @@
     <member refid="structMR_1_1TriangulateHolesParams_1a8817163abe136db373a3bbdefcba5ed0" kind="variable"><name>modifyBdVertices</name></member>
   </compound>
   <compound refid="structMR_1_1PlanarTriangulation_1_1TriangulationParameters" kind="struct"><name>MR::PlanarTriangulation::TriangulationParameters</name>
-    <member refid="group__GeneralGroup_1ga97180796cc1a63cd636f9f2057e816e6" kind="variable"><name>holeVertsIds</name></member>
     <member refid="group__GeneralGroup_1ga88fb9da2e4331eeb528a75fd0e4d78ad" kind="variable"><name>outFaceWinding</name></member>
     <member refid="group__GeneralGroup_1gae9a3578068a8a12a4e3f251b9f2824e3" kind="variable"><name>outInterMap</name></member>
   </compound>
@@ -16707,22 +16706,17 @@
   </compound>
   <compound refid="namespaceMR_1_1PlanarTriangulation" kind="namespace"><name>MR::PlanarTriangulation</name>
     <member refid="group__GeneralGroup_1ga41b088a697624ae295c7b3a7b137bca9" kind="enum"><name>WindingMode</name></member>
-    <member refid="group__GeneralGroup_1ga4ea76a89e8c8fb95eb68d7497122271b" kind="typedef"><name>HoleVertIds</name></member>
-    <member refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kind="typedef"><name>HolesVertIds</name></member>
     <member refid="group__GeneralGroup_1ga15dafb65753964c596e32bd173142aba" kind="typedef"><name>ContourIdMap</name></member>
     <member refid="group__GeneralGroup_1ga2861b59a4ea1236fc77b874053b4245a" kind="typedef"><name>ContoursIdMap</name></member>
-    <member refid="group__GeneralGroup_1gab8aeb3b0d7bff8697dd824538020153b" kind="function"><name>findHoleVertIdsByHoleEdges</name></member>
     <member refid="group__GeneralGroup_1ga5e8af5982b8fe271a4ec768cd30c61f1" kind="function"><name>getOutlineMesh</name></member>
     <member refid="group__GeneralGroup_1ga4fea26f1468d4845a5875d3c87cd890f" kind="function"><name>getOutlineMesh</name></member>
     <member refid="group__GeneralGroup_1ga5dfad7ab63723534d37d1d91f48fa1a5" kind="function"><name>getOutline</name></member>
     <member refid="group__GeneralGroup_1ga4e98690acecec7a927c64053f5b86d80" kind="function"><name>getOutline</name></member>
     <member refid="group__GeneralGroup_1ga161bba00aa938095d492c1a6a2e5ac70" kind="function"><name>triangulateContours</name></member>
     <member refid="group__GeneralGroup_1gaf8916398a1df6d3844748b9d3d06c877" kind="function"><name>triangulateContours</name></member>
-    <member refid="group__GeneralGroup_1ga2d148c25ac4a5af75906bec3fcf42d67" kind="function"><name>triangulateContours</name></member>
-    <member refid="group__GeneralGroup_1ga7cee19b2a22632823b878052f573eabb" kind="function"><name>triangulateContours</name></member>
-    <member refid="group__GeneralGroup_1ga17f7cb83e4239ac01ef1569adbbaab75" kind="function"><name>triangulateDisjointContours</name></member>
-    <member refid="group__GeneralGroup_1ga74f8e57086cff7d504ab8c4f345cca3a" kind="function"><name>triangulateDisjointContours</name></member>
-    <member refid="group__GeneralGroup_1ga887c0dfeca07a1585372ecaf334bd806" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1ga6aae14fbc41cd374145370930cb67b4e" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1gac8b02e76a3739230980adf2a19f9fc63" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1gaa7fbba3ab7f376375bbede5a59a05768" kind="function"><name>triangulateDisjointContours</name></member>
   </compound>
   <compound refid="namespaceMR_1_1PointCloudComponents" kind="namespace"><name>MR::PointCloudComponents</name>
     <member refid="group__PointCloudComponentsGroup_1ga162ae0e5c789b236060b9b335feb625c" kind="function"><name>getLargeComponentsUnion</name></member>
@@ -21273,8 +21267,6 @@
     <member refid="group__GeneralGroup_1ga411faa62b143da1682138c9bd622937b" kind="typedef"><name>PdfGeneralFont</name></member>
     <member refid="group__GeneralGroup_1ga11f4309f8b48462540606b19536b4836" kind="typedef"><name>Value</name></member>
     <member refid="group__GeneralGroup_1ga6e33eadc4d9e3e7f394dae468da894c5" kind="typedef"><name>TableCustomRule</name></member>
-    <member refid="group__GeneralGroup_1ga4ea76a89e8c8fb95eb68d7497122271b" kind="typedef"><name>HoleVertIds</name></member>
-    <member refid="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" kind="typedef"><name>HolesVertIds</name></member>
     <member refid="group__GeneralGroup_1ga15dafb65753964c596e32bd173142aba" kind="typedef"><name>ContourIdMap</name></member>
     <member refid="group__GeneralGroup_1ga2861b59a4ea1236fc77b874053b4245a" kind="typedef"><name>ContoursIdMap</name></member>
     <member refid="group__GeneralGroup_1ga66e27ff8d7cb865904647479f715a7f3" kind="typedef"><name>Traits</name></member>
@@ -21898,7 +21890,6 @@
     <member refid="group__GeneralGroup_1ga96cc494dbae32854400a1fc481ea09b4" kind="variable"><name>innerType</name></member>
     <member refid="group__GeneralGroup_1gad009c4928ad149dd5ce93232c4d495f2" kind="variable"><name>indicesMap</name></member>
     <member refid="group__GeneralGroup_1ga528577df88b99d1a7703da3953605d11" kind="variable"><name>baseParams</name></member>
-    <member refid="group__GeneralGroup_1ga97180796cc1a63cd636f9f2057e816e6" kind="variable"><name>holeVertsIds</name></member>
     <member refid="group__GeneralGroup_1ga88fb9da2e4331eeb528a75fd0e4d78ad" kind="variable"><name>outFaceWinding</name></member>
     <member refid="group__GeneralGroup_1gae9a3578068a8a12a4e3f251b9f2824e3" kind="variable"><name>outInterMap</name></member>
     <member refid="group__GeneralGroup_1ga11f524576ba6c686729f0173615bc190" kind="variable"><name>nodes_</name></member>
@@ -25556,7 +25547,6 @@
     <member refid="group__GeneralGroup_1ga7aa85481e130d6308bc8ddae1581f9c4" kind="function"><name>fromTiff</name></member>
     <member refid="group__GeneralGroup_1ga15e4b1b6ede3c72f01803bf8178f5203" kind="function"><name>toTiff</name></member>
     <member refid="group__GeneralGroup_1gabd82d0afb5ae771e7c73d41a9c8d7a91" kind="function"><name>toTiff</name></member>
-    <member refid="group__GeneralGroup_1gab8aeb3b0d7bff8697dd824538020153b" kind="function"><name>findHoleVertIdsByHoleEdges</name></member>
     <member refid="group__GeneralGroup_1ga3ed890ec3241e636e8fd100f7ed41f04" kind="function"><name>isIntersection</name></member>
     <member refid="group__GeneralGroup_1ga5e8af5982b8fe271a4ec768cd30c61f1" kind="function"><name>getOutlineMesh</name></member>
     <member refid="group__GeneralGroup_1ga4fea26f1468d4845a5875d3c87cd890f" kind="function"><name>getOutlineMesh</name></member>
@@ -25564,11 +25554,9 @@
     <member refid="group__GeneralGroup_1ga4e98690acecec7a927c64053f5b86d80" kind="function"><name>getOutline</name></member>
     <member refid="group__GeneralGroup_1ga161bba00aa938095d492c1a6a2e5ac70" kind="function"><name>triangulateContours</name></member>
     <member refid="group__GeneralGroup_1gaf8916398a1df6d3844748b9d3d06c877" kind="function"><name>triangulateContours</name></member>
-    <member refid="group__GeneralGroup_1ga2d148c25ac4a5af75906bec3fcf42d67" kind="function"><name>triangulateContours</name></member>
-    <member refid="group__GeneralGroup_1ga7cee19b2a22632823b878052f573eabb" kind="function"><name>triangulateContours</name></member>
-    <member refid="group__GeneralGroup_1ga17f7cb83e4239ac01ef1569adbbaab75" kind="function"><name>triangulateDisjointContours</name></member>
-    <member refid="group__GeneralGroup_1ga74f8e57086cff7d504ab8c4f345cca3a" kind="function"><name>triangulateDisjointContours</name></member>
-    <member refid="group__GeneralGroup_1ga887c0dfeca07a1585372ecaf334bd806" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1ga6aae14fbc41cd374145370930cb67b4e" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1gac8b02e76a3739230980adf2a19f9fc63" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1gaa7fbba3ab7f376375bbede5a59a05768" kind="function"><name>triangulateDisjointContours</name></member>
     <member refid="group__GeneralGroup_1ga58f8dd538965bde14c46c2ed60aac1f9" kind="function"><name>nodes</name></member>
     <member refid="group__GeneralGroup_1gac94f623e90a49fd07aeb61722ab8e7f1" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1gab08f029b6e9e13cf15d36bb11eddc952" kind="function"><name>rootNodeId</name></member>

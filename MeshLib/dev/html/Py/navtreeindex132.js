@@ -1,9 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"classmrmeshpy_1_1func__bool__from__Id__VertTag.html#ad745708270acaff667b6a0ab5a048971":[8,1,1,0,1,310,6],
-"classmrmeshpy_1_1func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html":[8,1,0,0,2,311],
-"classmrmeshpy_1_1func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html":[8,1,1,0,1,311],
-"classmrmeshpy_1_1func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html#a5a8cf3d77e76060a4d9eab73488313bf":[8,1,0,0,2,311,3],
 "classmrmeshpy_1_1func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html#a5a8cf3d77e76060a4d9eab73488313bf":[8,1,1,0,1,311,3],
 "classmrmeshpy_1_1func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html#a618f0625bed63b31629f3a3b046bbc76":[8,1,0,0,2,311,2],
 "classmrmeshpy_1_1func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html#a618f0625bed63b31629f3a3b046bbc76":[8,1,1,0,1,311,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX132 =
 "classmrmeshpy_1_1func__double__from__double__double.html#a7e14a6a00ae5a0f35fd0bcff770eb2ad":[8,1,1,0,1,321,6],
 "classmrmeshpy_1_1func__double__from__double__double.html#aabe589ecacf6702aeea1e7ba4a252ecf":[8,1,0,0,2,321,3],
 "classmrmeshpy_1_1func__double__from__double__double.html#aabe589ecacf6702aeea1e7ba4a252ecf":[8,1,1,0,1,321,3],
-"classmrmeshpy_1_1func__double__from__double__double.html#ab0b14e2683666b324ad48be888a55f5b":[8,1,0,0,2,321,7]
+"classmrmeshpy_1_1func__double__from__double__double.html#ab0b14e2683666b324ad48be888a55f5b":[8,1,0,0,2,321,7],
+"classmrmeshpy_1_1func__double__from__double__double.html#ab0b14e2683666b324ad48be888a55f5b":[8,1,1,0,1,321,7],
+"classmrmeshpy_1_1func__double__from__double__double.html#addcf21ef47b96832b56ce9e67ca9668d":[8,1,0,0,2,321,5],
+"classmrmeshpy_1_1func__double__from__double__double.html#addcf21ef47b96832b56ce9e67ca9668d":[8,1,1,0,1,321,5],
+"classmrmeshpy_1_1func__float__from__Id__EdgeTag.html":[8,1,0,0,2,326]
 };

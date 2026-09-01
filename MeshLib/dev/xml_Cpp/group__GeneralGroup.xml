@@ -14080,34 +14080,6 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRIOExtras/MRPdf.h" line="217" column="5" bodyfile="MRIOExtras/MRPdf.h" bodystart="217" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="group__GeneralGroup_1ga4ea76a89e8c8fb95eb68d7497122271b" prot="public" static="no">
-        <type>std::vector&lt; VertId &gt;</type>
-        <definition>using MR::PlanarTriangulation::HoleVertIds =  std::vector&lt;VertId&gt;</definition>
-        <argsstring></argsstring>
-        <name>HoleVertIds</name>
-        <qualifiedname>MR::PlanarTriangulation::HoleVertIds</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="23" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="23" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__GeneralGroup_1ga0515df1bf2b2920651b9617e6b1493f9" prot="public" static="no">
-        <type>std::vector&lt; HoleVertIds &gt;</type>
-        <definition>using MR::PlanarTriangulation::HolesVertIds =  std::vector&lt;HoleVertIds&gt;</definition>
-        <argsstring></argsstring>
-        <name>HolesVertIds</name>
-        <qualifiedname>MR::PlanarTriangulation::HolesVertIds</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="24" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="24" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga15dafb65753964c596e32bd173142aba" prot="public" static="no">
         <type>std::vector&lt; IntersectionInfo &gt;</type>
         <definition>using MR::PlanarTriangulation::ContourIdMap =  std::vector&lt;IntersectionInfo&gt;</definition>
@@ -14120,7 +14092,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="48" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="48" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="42" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga2861b59a4ea1236fc77b874053b4245a" prot="public" static="no">
         <type>std::vector&lt; ContourIdMap &gt;</type>
@@ -14134,7 +14106,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="49" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="49" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="43" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga66e27ff8d7cb865904647479f715a7f3" prot="public" static="no">
         <type>T</type>
@@ -23172,7 +23144,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="34" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="34" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="28" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1ba150196ca38c47b298c26615eab80e" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -23186,7 +23158,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="34" column="17" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="34" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="28" column="17" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8b5c188731f0cecbac0ccc0fd4a6bfb7" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -23201,7 +23173,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="36" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="36" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="30" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga317063d55c098c2ef928c24f84e7d072" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -23215,7 +23187,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="36" column="17" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="36" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="30" column="17" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga71da63d690481e338c26321212fbdb4b" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -23231,7 +23203,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="41" column="11" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="41" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="35" column="11" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga486648a6478caadcce4b7e8b5ccfe262" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -23247,7 +23219,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="44" column="11" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="44" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="38" column="11" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9e57510cc8b745dcfbbf6e04c6fba846" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -23263,7 +23235,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="55" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="55" bodyend="55"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="49" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="49" bodyend="49"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2c09afe7b89e565c7c7549b9cbabf2f0" prot="public" static="no" mutable="no">
         <type>ContourIdMap</type>
@@ -23278,7 +23250,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="57" column="18" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="57" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="51" column="18" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6f9aeb8021200fb928ae34fe6ab4c932" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -23294,7 +23266,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="62" column="10" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="62" bodyend="62"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="56" column="10" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="56" bodyend="56"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga96cc494dbae32854400a1fc481ea09b4" prot="public" static="no" mutable="no">
         <type>WindingMode</type>
@@ -23310,7 +23282,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="63" column="17" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="63" bodyend="63"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="57" column="17" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="57" bodyend="57"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad009c4928ad149dd5ce93232c4d495f2" prot="public" static="no" mutable="no">
         <type>ContoursIdMap *</type>
@@ -23326,7 +23298,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="73" column="19" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="73" bodyend="73"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="67" column="19" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="67" bodyend="67"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga528577df88b99d1a7703da3953605d11" prot="public" static="no" mutable="no">
         <type>BaseOutlineParameters</type>
@@ -23340,23 +23312,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="74" column="27" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="74" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga97180796cc1a63cd636f9f2057e816e6" prot="public" static="no" mutable="no">
-        <type>const HolesVertIds *</type>
-        <definition>const HolesVertIds* MR::PlanarTriangulation::TriangulationParameters::holeVertsIds</definition>
-        <argsstring></argsstring>
-        <name>holeVertsIds</name>
-        <qualifiedname>MR::PlanarTriangulation::TriangulationParameters::holeVertsIds</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>if set merge only points with same vertex id, otherwise merge all points with same coordinates </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="84" column="24" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="84" bodyend="84"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="68" column="27" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga88fb9da2e4331eeb528a75fd0e4d78ad" prot="public" static="no" mutable="no">
         <type>Vector&lt; int, FaceId &gt; *</type>
@@ -23372,7 +23328,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="88" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="88" bodyend="88"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="79" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="79" bodyend="79"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae9a3578068a8a12a4e3f251b9f2824e3" prot="public" static="no" mutable="no">
         <type>IntersectionsMap *</type>
@@ -23388,7 +23344,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="92" column="22" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="92" bodyend="92"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="83" column="22" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="83" bodyend="83"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga11f524576ba6c686729f0173615bc190" prot="protected" static="no" mutable="no">
         <type>NodeVec</type>
@@ -79944,29 +79900,6 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRIOExtras/MRTiff.h" line="39" column="11" declfile="MRIOExtras/MRTiff.h" declline="39" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab8aeb3b0d7bff8697dd824538020153b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>HolesVertIds</type>
-        <definition>HolesVertIds MR::PlanarTriangulation::findHoleVertIdsByHoleEdges</definition>
-        <argsstring>(const MeshTopology &amp;tp, const std::vector&lt; EdgePath &gt; &amp;holePaths)</argsstring>
-        <name>findHoleVertIdsByHoleEdges</name>
-        <qualifiedname>MR::PlanarTriangulation::findHoleVertIdsByHoleEdges</qualifiedname>
-        <param>
-          <type>const MeshTopology &amp;</type>
-          <declname>tp</declname>
-        </param>
-        <param>
-          <type>const std::vector&lt; EdgePath &gt; &amp;</type>
-          <declname>holePaths</declname>
-        </param>
-        <briefdescription>
-<para>return vertices of holes that correspond internal contours representation of <ref refid="namespaceMR_1_1PlanarTriangulation" kindref="compound">PlanarTriangulation</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="27" column="15" declfile="MRMesh/MR2DContoursTriangulation.h" declline="27" declcolumn="15"/>
-      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3ed890ec3241e636e8fd100f7ed41f04" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::PlanarTriangulation::IntersectionInfo::isIntersection</definition>
@@ -79979,7 +79912,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="45" column="10" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="45" bodyend="45"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="39" column="10" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="39" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5e8af5982b8fe271a4ec768cd30c61f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
@@ -80008,7 +79941,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="68" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="68" declcolumn="7"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="62" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="62" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4fea26f1468d4845a5875d3c87cd890f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
@@ -80036,7 +79969,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="69" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="69" declcolumn="7"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="63" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="63" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5dfad7ab63723534d37d1d91f48fa1a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Contours2f</type>
@@ -80060,7 +79993,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="78" column="13" declfile="MRMesh/MR2DContoursTriangulation.h" declline="78" declcolumn="13"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="72" column="13" declfile="MRMesh/MR2DContoursTriangulation.h" declline="72" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4e98690acecec7a927c64053f5b86d80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Contours2f</type>
@@ -80083,7 +80016,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="79" column="13" declfile="MRMesh/MR2DContoursTriangulation.h" declline="79" declcolumn="13"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="73" column="13" declfile="MRMesh/MR2DContoursTriangulation.h" declline="73" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga161bba00aa938095d492c1a6a2e5ac70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
@@ -80110,7 +80043,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="100" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="100" declcolumn="7"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="91" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="91" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf8916398a1df6d3844748b9d3d06c877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
@@ -80133,130 +80066,39 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="101" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="101" declcolumn="7"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="92" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="92" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2d148c25ac4a5af75906bec3fcf42d67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE Mesh</type>
-        <definition>MR_BIND_IGNORE Mesh MR::PlanarTriangulation::triangulateContours</definition>
-        <argsstring>(const Contours2d &amp;contours, const HolesVertIds *holeVertsIds)</argsstring>
-        <name>triangulateContours</name>
-        <qualifiedname>MR::PlanarTriangulation::triangulateContours</qualifiedname>
-        <param>
-          <type>const Contours2d &amp;</type>
-          <declname>contours</declname>
-        </param>
-        <param>
-          <type>const HolesVertIds *</type>
-          <declname>holeVertsIds</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>triangulate 2d contours, C++-only overload for backward compatibility; hidden from generated bindings to keep their triangulateContours signatures unique <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>holeVertsIds</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if set merge only points with same vertex id, otherwise merge all points with same coordinates </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="106" column="22" declfile="MRMesh/MR2DContoursTriangulation.h" declline="106" declcolumn="22"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga7cee19b2a22632823b878052f573eabb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MR_BIND_IGNORE Mesh</type>
-        <definition>MR_BIND_IGNORE Mesh MR::PlanarTriangulation::triangulateContours</definition>
-        <argsstring>(const Contours2f &amp;contours, const HolesVertIds *holeVertsIds)</argsstring>
-        <name>triangulateContours</name>
-        <qualifiedname>MR::PlanarTriangulation::triangulateContours</qualifiedname>
-        <param>
-          <type>const Contours2f &amp;</type>
-          <declname>contours</declname>
-        </param>
-        <param>
-          <type>const HolesVertIds *</type>
-          <declname>holeVertsIds</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="107" column="22" declfile="MRMesh/MR2DContoursTriangulation.h" declline="107" declcolumn="22"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga17f7cb83e4239ac01ef1569adbbaab75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga6aae14fbc41cd374145370930cb67b4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Mesh &gt;</type>
         <definition>std::optional&lt; Mesh &gt; MR::PlanarTriangulation::triangulateDisjointContours</definition>
-        <argsstring>(const Contours2d &amp;contours, const HolesVertIds *holeVertsIds=nullptr, std::vector&lt; EdgePath &gt; *outBoundaries=nullptr)</argsstring>
+        <argsstring>(const Contours2d &amp;contours)</argsstring>
         <name>triangulateDisjointContours</name>
         <qualifiedname>MR::PlanarTriangulation::triangulateDisjointContours</qualifiedname>
         <param>
           <type>const Contours2d &amp;</type>
           <declname>contours</declname>
-        </param>
-        <param>
-          <type>const HolesVertIds *</type>
-          <declname>holeVertsIds</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>std::vector&lt; EdgePath &gt; *</type>
-          <declname>outBoundaries</declname>
-          <defval>nullptr</defval>
         </param>
         <briefdescription>
 <para>triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour) </para>
         </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>holeVertsIds</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if set merge only points with same vertex id, otherwise merge all points with same coordinates </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>outBoundaries</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>optional output EdgePaths that correspond to initial contours </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>std::optional&lt;Mesh&gt; : if some contours intersect return false, otherwise return created mesh </para>
+<para><simplesect kind="return"><para>std::optional&lt;Mesh&gt; : if some contours intersect return false, otherwise return created mesh </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="116" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="116" declcolumn="16"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="99" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="99" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga74f8e57086cff7d504ab8c4f345cca3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gac8b02e76a3739230980adf2a19f9fc63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Mesh &gt;</type>
         <definition>std::optional&lt; Mesh &gt; MR::PlanarTriangulation::triangulateDisjointContours</definition>
-        <argsstring>(const Contours2f &amp;contours, const HolesVertIds *holeVertsIds=nullptr, std::vector&lt; EdgePath &gt; *outBoundaries=nullptr)</argsstring>
+        <argsstring>(const Contours2f &amp;contours)</argsstring>
         <name>triangulateDisjointContours</name>
         <qualifiedname>MR::PlanarTriangulation::triangulateDisjointContours</qualifiedname>
         <param>
           <type>const Contours2f &amp;</type>
           <declname>contours</declname>
-        </param>
-        <param>
-          <type>const HolesVertIds *</type>
-          <declname>holeVertsIds</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>std::vector&lt; EdgePath &gt; *</type>
-          <declname>outBoundaries</declname>
-          <defval>nullptr</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -80264,12 +80106,12 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="117" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="117" declcolumn="16"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="100" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="100" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga887c0dfeca07a1585372ecaf334bd806" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaa7fbba3ab7f376375bbede5a59a05768" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Mesh &gt;</type>
         <definition>std::optional&lt; Mesh &gt; MR::PlanarTriangulation::triangulateDisjointContours</definition>
-        <argsstring>(const Mesh &amp;mesh, const EdgeLoops &amp;loops, const Vector3f &amp;normal, std::vector&lt; EdgePath &gt; *outBoundaries=nullptr, WholeEdgeMap *outPatchMap=nullptr)</argsstring>
+        <argsstring>(const Mesh &amp;mesh, const EdgeLoops &amp;loops, const Vector3f &amp;normal, WholeEdgeMap *outPatchMap=nullptr)</argsstring>
         <name>triangulateDisjointContours</name>
         <qualifiedname>MR::PlanarTriangulation::triangulateDisjointContours</qualifiedname>
         <param>
@@ -80283,11 +80125,6 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <param>
           <type>const Vector3f &amp;</type>
           <declname>normal</declname>
-        </param>
-        <param>
-          <type>std::vector&lt; EdgePath &gt; *</type>
-          <declname>outBoundaries</declname>
-          <defval>nullptr</defval>
         </param>
         <param>
           <type>WholeEdgeMap *</type>
@@ -80311,7 +80148,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
 <parametername>outPatchMap</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>optional output: for each patch boundary edge (by undirected id) the mesh edge it copies, directed along it; edges past its size are the triangulation&apos;s own. Not produced with <computeroutput>outBoundaries</computeroutput> </para>
+<para>optional output: for each patch boundary edge (by undirected id) the mesh edge it copies, directed along it; edges past its size are the triangulation&apos;s own </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -80321,7 +80158,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="128" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="128" declcolumn="16"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="111" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="111" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga58f8dd538965bde14c46c2ed60aac1f9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const NodeVec &amp;</type>

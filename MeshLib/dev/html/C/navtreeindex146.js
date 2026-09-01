@@ -1,9 +1,5 @@
 var NAVTREEINDEX146 =
 {
-"std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#acd49fb7127060523fe59bb77a0b8d016":[8,2,2,0,0,0,0,2,175,9],
-"std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#ae7bc03af04d4c4b328551cdcee857f27":[8,2,2,0,0,0,0,2,175,14],
-"std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#af3895fce6da97d331c3ccb0b93931fbe":[8,2,2,0,0,0,0,2,175,4],
-"std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#af518de33009719e0b0f624983f9e4629":[8,2,2,0,0,0,0,2,175,12],
 "std__function__unsigned__char__from__const__MR__Vector3i__ref_8h_source.html":[8,2,2,0,0,0,0,2,175],
 "std__function__void_8h.html":[8,2,2,0,0,0,0,2,176],
 "std__function__void_8h.html#a18352f6a5afac53cbb4b6f8a3b44b4ab":[8,2,2,0,0,0,0,2,176,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX146 =
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h_source.html":[8,2,2,0,0,0,0,2,195],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html":[8,2,2,0,0,0,0,2,196],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a0bafb8d53992adbafce70fb550ad5c4d":[8,2,2,0,0,0,0,2,196,11],
-"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a0c71a779d7152951bb9d97a934bc74b8":[8,2,2,0,0,0,0,2,196,2]
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a0c71a779d7152951bb9d97a934bc74b8":[8,2,2,0,0,0,0,2,196,2],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a263b12a67b2571a71e6b072993e4a6fe":[8,2,2,0,0,0,0,2,196,9],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a294b93a984b905958dd346a0a2fe8b9d":[8,2,2,0,0,0,0,2,196,14],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a2a2a6ccdf1f2814c6f534afe0ad1e8e9":[8,2,2,0,0,0,0,2,196,10],
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a313ab35b2781c6c3b27b4dea4736b1f0":[8,2,2,0,0,0,0,2,196,5]
 };

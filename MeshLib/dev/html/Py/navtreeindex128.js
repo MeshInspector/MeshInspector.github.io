@@ -1,9 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__SimpleVolumeMinMax.html#af2f8b5e3f7f2d94b714f748c1d6076aa":[8,1,1,0,1,1281,1],
-"classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume.html":[8,1,0,0,2,1282],
-"classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume.html":[8,1,1,0,1,1282],
-"classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume.html#a30eb8c5e4f6d1851878ed2e1b241b4f8":[8,1,0,0,2,1282,2],
 "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume.html#a30eb8c5e4f6d1851878ed2e1b241b4f8":[8,1,1,0,1,1282,2],
 "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume.html#a727d2024da43ca3c49e2d40e22edba82":[8,1,0,0,2,1282,0],
 "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume.html#a727d2024da43ca3c49e2d40e22edba82":[8,1,1,0,1,1282,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX128 =
 "classmrmeshpy_1_1WholeEdgeMap.html#a07c2715da656515adccb3af388ae0b28":[8,1,1,0,1,1293,8],
 "classmrmeshpy_1_1WholeEdgeMap.html#a0cabc2d46577618fe216ad627bab58df":[8,1,0,0,2,1293,24],
 "classmrmeshpy_1_1WholeEdgeMap.html#a0cabc2d46577618fe216ad627bab58df":[8,1,0,0,2,1293,25],
-"classmrmeshpy_1_1WholeEdgeMap.html#a0cabc2d46577618fe216ad627bab58df":[8,1,1,0,1,1293,24]
+"classmrmeshpy_1_1WholeEdgeMap.html#a0cabc2d46577618fe216ad627bab58df":[8,1,1,0,1,1293,24],
+"classmrmeshpy_1_1WholeEdgeMap.html#a0cabc2d46577618fe216ad627bab58df":[8,1,1,0,1,1293,25],
+"classmrmeshpy_1_1WholeEdgeMap.html#a0e3bd4e9fc4f70ccf4e426d362a06acf":[8,1,0,0,2,1293,34],
+"classmrmeshpy_1_1WholeEdgeMap.html#a0e3bd4e9fc4f70ccf4e426d362a06acf":[8,1,1,0,1,1293,34],
+"classmrmeshpy_1_1WholeEdgeMap.html#a129af71f4acdff93934be3e894a65462":[8,1,0,0,2,1293,33]
 };

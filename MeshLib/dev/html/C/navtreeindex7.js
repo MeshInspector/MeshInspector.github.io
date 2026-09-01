@@ -1,11 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"MRBall_8h.html#a11f941f99c3fb5658c3e777a6efab493":[8,2,2,0,0,0,0,1,17,112],
-"MRBall_8h.html#a13246610954f309d0fc07cadc088570c":[8,2,2,0,0,0,0,1,17,56],
-"MRBall_8h.html#a1c8f5ffd5cabeac689d6665bfa499f6e":[8,2,2,0,0,0,0,1,17,9],
-"MRBall_8h.html#a1df5bf367ec7e37e601ecc3856f1cdaa":[8,2,2,0,0,0,0,1,17,37],
-"MRBall_8h.html#a1f36b3cad3be5d24cdb5b2552f6cd6c3":[8,2,2,0,0,0,0,1,17,42],
-"MRBall_8h.html#a22ee74911a1f992bae400852d29e595e":[8,2,2,0,0,0,0,1,17,21],
 "MRBall_8h.html#a27056b0ba6be8f4299538bdbe5809f16":[8,2,2,0,0,0,0,1,17,47],
 "MRBall_8h.html#a29402320b04ac4ed59725cd3eb927fbc":[8,2,2,0,0,0,0,1,17,111],
 "MRBall_8h.html#a2f4cfce4e26be02dc99475ca6aef81f0":[8,2,2,0,0,0,0,1,17,78],
@@ -249,5 +243,11 @@ var NAVTREEINDEX7 =
 "MRBestFitPolynomial_8h.html#a67a2fc19eb169183482d864b75edb0b1":[8,2,2,0,0,0,0,1,22,150],
 "MRBestFitPolynomial_8h.html#a68b06182f66d51b95664151c53de2978":[8,2,2,0,0,0,0,1,22,154],
 "MRBestFitPolynomial_8h.html#a6930c08fb38235d9ddaa92b0b26f8eb0":[8,2,2,0,0,0,0,1,22,11],
-"MRBestFitPolynomial_8h.html#a6980ea6afc4cec7c5cad37a1ad13f92c":[8,2,2,0,0,0,0,1,22,55]
+"MRBestFitPolynomial_8h.html#a6980ea6afc4cec7c5cad37a1ad13f92c":[8,2,2,0,0,0,0,1,22,55],
+"MRBestFitPolynomial_8h.html#a6a60cec0042589b6c8029f172a6c18d7":[8,2,2,0,0,0,0,1,22,96],
+"MRBestFitPolynomial_8h.html#a6bc55a1bfe1dce464eebd2256af81c01":[8,2,2,0,0,0,0,1,22,179],
+"MRBestFitPolynomial_8h.html#a6d3f28cfbadb2bbc9caa13434c8a9e97":[8,2,2,0,0,0,0,1,22,211],
+"MRBestFitPolynomial_8h.html#a6e74912a927cc09feb8f7ee1a6c38c96":[8,2,2,0,0,0,0,1,22,136],
+"MRBestFitPolynomial_8h.html#a6fa91274cf56c28d94ff64fa865596e7":[8,2,2,0,0,0,0,1,22,35],
+"MRBestFitPolynomial_8h.html#a700ffb983c757aa198a33945a145f827":[8,2,2,0,0,0,0,1,22,86]
 };

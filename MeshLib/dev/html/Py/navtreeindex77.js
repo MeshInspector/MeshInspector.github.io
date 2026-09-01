@@ -1,9 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"classmrmeshpy_1_1Polyline3.html#ae49315586307b441a76d407841f0f368":[8,1,1,0,1,746,23],
-"classmrmeshpy_1_1Polyline3.html#afd85273e4e73a3cc25c450bf9c2dae18":[8,1,0,0,2,746,8],
-"classmrmeshpy_1_1Polyline3.html#afd85273e4e73a3cc25c450bf9c2dae18":[8,1,1,0,1,746,8],
-"classmrmeshpy_1_1Polyline3.html#aff279aaef2ede055940f6e67e6dec6d8":[8,1,0,0,2,746,35],
 "classmrmeshpy_1_1Polyline3.html#aff279aaef2ede055940f6e67e6dec6d8":[8,1,1,0,1,746,35],
 "classmrmeshpy_1_1PolylineComponents.html":[8,1,0,0,2,747],
 "classmrmeshpy_1_1PolylineComponents.html":[8,1,1,0,1,747],
@@ -249,5 +245,9 @@ var NAVTREEINDEX77 =
 "classmrmeshpy_1_1PolylineTopology.html#a4d5ebdccfa36ec4c6c1ebe0a2172b2e1":[8,1,1,0,1,756,40],
 "classmrmeshpy_1_1PolylineTopology.html#a51d223e3a1e2029be13b5fa385305c06":[8,1,0,0,2,756,45],
 "classmrmeshpy_1_1PolylineTopology.html#a51d223e3a1e2029be13b5fa385305c06":[8,1,1,0,1,756,45],
-"classmrmeshpy_1_1PolylineTopology.html#a5d0b4d44debf7e5715c0754f9f3fc58e":[8,1,0,0,2,756,19]
+"classmrmeshpy_1_1PolylineTopology.html#a5d0b4d44debf7e5715c0754f9f3fc58e":[8,1,0,0,2,756,19],
+"classmrmeshpy_1_1PolylineTopology.html#a5d0b4d44debf7e5715c0754f9f3fc58e":[8,1,1,0,1,756,19],
+"classmrmeshpy_1_1PolylineTopology.html#a631c7b99fe0b3410342309f5e3e7cb0f":[8,1,0,0,2,756,43],
+"classmrmeshpy_1_1PolylineTopology.html#a631c7b99fe0b3410342309f5e3e7cb0f":[8,1,1,0,1,756,43],
+"classmrmeshpy_1_1PolylineTopology.html#a6a7ebe7bbd28e3c3797fb09820ddd2e5":[8,1,0,0,2,756,16]
 };

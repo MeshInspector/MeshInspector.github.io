@@ -3045,7 +3045,6 @@ var namespacemrmeshpy =
     [ "std_vector_EdgeLoop_ptr", "namespacemrmeshpy.html#aeb2910eef4cd96fae881a7208cc5a3ce", null ],
     [ "std_vector_EdgePair", "namespacemrmeshpy.html#a594b14b7d99f812cb66cd6c18416fdb1", null ],
     [ "std_vector_EdgePath", "namespacemrmeshpy.html#ad1b32bae372d684a340be97443821ca7", null ],
-    [ "std_vector_EdgePath_ptr", "namespacemrmeshpy.html#a77d12efbe60895d4b22ee12b3af05dbf", null ],
     [ "std_vector_FaceBitSet", "namespacemrmeshpy.html#a06340f3e781610de35ee754b3878b8a8", null ],
     [ "std_vector_FaceId", "namespacemrmeshpy.html#aadaf3a3229d611fd839b71400a1928d1", null ],
     [ "std_vector_FanRecord_const_reference", "namespacemrmeshpy.html#a880fc8f4efdd3af065ad9dfcc31e49e3", null ],

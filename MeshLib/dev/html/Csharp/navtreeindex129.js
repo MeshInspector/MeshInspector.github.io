@@ -1,9 +1,5 @@
 var NAVTREEINDEX129 =
 {
-"classMR_1_1ShrinkwrapParameters.html#af4bb81f3e292e5c3d179ddf55426c5c5":[8,3,0,0,0,1606,10],
-"classMR_1_1ShrinkwrapParameters.html#af8fdc81c86b7f067895f67e022b1db8a":[8,3,0,0,0,1606,8],
-"classMR_1_1SignedDistanceToMeshOptions.html":[8,3,0,0,0,1607],
-"classMR_1_1SignedDistanceToMeshOptions.html#a0469a2464b85620a6fc06a4e491e0897":[8,3,0,0,0,1607,2],
 "classMR_1_1SignedDistanceToMeshOptions.html#a0a4e7c5bb6500c615a37415bb59feea7":[8,3,0,0,0,1607,1],
 "classMR_1_1SignedDistanceToMeshOptions.html#a37149ba598cb2327ffcb803d6e56d75d":[8,3,0,0,0,1607,7],
 "classMR_1_1SignedDistanceToMeshOptions.html#a4bbd9ab37f3f1c066a91dec2a53240a8":[8,3,0,0,0,1607,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX129 =
 "classMR_1_1SphereObject.html#aef322125c2c40e8044229046a1cf9401":[8,3,0,0,0,1625,46],
 "classMR_1_1SphereObject.html#af3ec5464c6d8cd549b392476dcdb7156":[8,3,0,0,0,1625,36],
 "classMR_1_1SphereObject.html#af538694e11445e88b401ff899c066ae2":[8,3,0,0,0,1625,52],
-"classMR_1_1SphereParams.html":[8,3,0,0,0,1626]
+"classMR_1_1SphereParams.html":[8,3,0,0,0,1626],
+"classMR_1_1SphereParams.html#a2ca6bbf3a073011a91f4c2d24540469e":[8,3,0,0,0,1626,2],
+"classMR_1_1SphereParams.html#a448e2507fd5f069eecdf425248f6c7d2":[8,3,0,0,0,1626,3],
+"classMR_1_1SphereParams.html#a60d7d64c0b306eb4ec9c4b677810f559":[8,3,0,0,0,1626,4],
+"classMR_1_1SphereParams.html#a8042c6f50892664aa0d6d9c960795538":[8,3,0,0,0,1626,0]
 };

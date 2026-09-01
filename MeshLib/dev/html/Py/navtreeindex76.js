@@ -1,9 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"classmrmeshpy_1_1PointsToMeshParameters.html#a445a7d8a97b552d653c8002ca5313df4":[8,1,1,0,1,739,5],
-"classmrmeshpy_1_1PointsToMeshParameters.html#a519b18c35214589756f21a50559eb21e":[8,1,0,0,2,739,16],
-"classmrmeshpy_1_1PointsToMeshParameters.html#a519b18c35214589756f21a50559eb21e":[8,1,1,0,1,739,16],
-"classmrmeshpy_1_1PointsToMeshParameters.html#a6248b0fa8dc90a8237c27b6d0bed1535":[8,1,0,0,2,739,9],
 "classmrmeshpy_1_1PointsToMeshParameters.html#a6248b0fa8dc90a8237c27b6d0bed1535":[8,1,1,0,1,739,9],
 "classmrmeshpy_1_1PointsToMeshParameters.html#a64be4241fa90a4b92be85e7824f19521":[8,1,0,0,2,739,18],
 "classmrmeshpy_1_1PointsToMeshParameters.html#a64be4241fa90a4b92be85e7824f19521":[8,1,1,0,1,739,18],
@@ -249,5 +245,9 @@ var NAVTREEINDEX76 =
 "classmrmeshpy_1_1Polyline3.html#ad891eb8acd5418ea77b145c95e0a098a":[8,1,1,0,1,746,28],
 "classmrmeshpy_1_1Polyline3.html#add1c82058c2fe69bc74de02cf06e3fda":[8,1,0,0,2,746,24],
 "classmrmeshpy_1_1Polyline3.html#add1c82058c2fe69bc74de02cf06e3fda":[8,1,1,0,1,746,24],
-"classmrmeshpy_1_1Polyline3.html#ae49315586307b441a76d407841f0f368":[8,1,0,0,2,746,23]
+"classmrmeshpy_1_1Polyline3.html#ae49315586307b441a76d407841f0f368":[8,1,0,0,2,746,23],
+"classmrmeshpy_1_1Polyline3.html#ae49315586307b441a76d407841f0f368":[8,1,1,0,1,746,23],
+"classmrmeshpy_1_1Polyline3.html#afd85273e4e73a3cc25c450bf9c2dae18":[8,1,0,0,2,746,8],
+"classmrmeshpy_1_1Polyline3.html#afd85273e4e73a3cc25c450bf9c2dae18":[8,1,1,0,1,746,8],
+"classmrmeshpy_1_1Polyline3.html#aff279aaef2ede055940f6e67e6dec6d8":[8,1,0,0,2,746,35]
 };

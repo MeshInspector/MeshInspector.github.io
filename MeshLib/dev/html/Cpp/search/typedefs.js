@@ -328,8 +328,6 @@ var searchData=
   ['historystackfilter_3',['HistoryStackFilter',['../group__GeneralGroup.html#ga85276508657eac277a84365d3e41c118',1,'MR']]],
   ['historystorechangedsignal_4',['HistoryStoreChangedSignal',['../classMR_1_1HistoryStore.html#a011909b9aa7a4cba9468e81a690b817f',1,'MR::HistoryStore']]],
   ['holesonobject_5',['HolesOnObject',['../group__GeneralGroup.html#ga9e3aafe476e30d362b2b0070a6ce21c6',1,'MR::BoundarySelectionWidget']]],
-  ['holesvertids_6',['HolesVertIds',['../group__GeneralGroup.html#ga0515df1bf2b2920651b9617e6b1493f9',1,'MR::PlanarTriangulation']]],
-  ['holevertids_7',['HoleVertIds',['../group__GeneralGroup.html#ga4ea76a89e8c8fb95eb68d7497122271b',1,'MR::PlanarTriangulation']]],
   ['xfchangedsignal_0',['XfChangedSignal',['../classMR_1_1Object.html#adbe9460ebe355b8838a49e5a8a7d5830',1,'MR::Object']]],
   ['launchparams_0',['LaunchParams',['../group__GeneralGroup.html#ga18c86b40dc97e73d26be6d5f21f65093',1,'MR::Viewer']]],
   ['leafbitset_1',['LeafBitSet',['../group__GeneralGroup.html#gaa68c6e8f36c8a52617b624e91f11568d',1,'MR::AABBTreeBase']]],
