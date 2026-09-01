@@ -14679,7 +14679,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="65" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="65" bodyend="-1"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="77" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga53daa4ab4948e49bce8cf3efb71982cb" prot="public" static="no">
         <type>ObjectPoints</type>
@@ -14693,7 +14693,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="128" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="128" bodyend="-1"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="140" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="140" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gab1318bc8719ca89bb19cd901f204ad49" prot="public" static="no">
         <type>ObjectPoints</type>
@@ -25136,7 +25136,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="54" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="54" bodyend="-1"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="66" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga98c3a77af978a6f75629fd9c90b2936c" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; PointCloud &gt;</type>
@@ -25150,7 +25150,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="55" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="55" bodyend="-1"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="67" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0bb4f083c7d1d612d304252999120b2e" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -25164,7 +25164,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="57" column="17" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="57" bodyend="-1"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="69" column="17" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga153f083c6398f56735363cb6c3b1966e" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; ObjectPoints &gt;</type>
@@ -25178,7 +25178,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="117" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="117" bodyend="-1"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="129" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6aaee628287ae7dcd89d0bffbed4f665" prot="private" static="no" mutable="no">
         <type>VertCoords</type>
@@ -25192,7 +25192,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="118" column="16" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="118" bodyend="-1"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="130" column="16" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga63a7419da84ebbde9ffaf6a0d7dbb43a" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -25206,7 +25206,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="120" column="17" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="120" bodyend="-1"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="132" column="17" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5f403a08a401e2cec7b532ee91cefd95" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; ObjectPoints &gt;</type>
@@ -25220,7 +25220,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="186" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="186" bodyend="-1"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="198" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="198" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa04211bc68aec125d898e8b793689811" prot="private" static="no" mutable="no">
         <type>VertId</type>
@@ -25234,7 +25234,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="187" column="12" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="187" bodyend="-1"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="199" column="12" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="199" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9368243ef608387dc27b733315783f3a" prot="private" static="no" mutable="no">
         <type>Vector3f</type>
@@ -25248,7 +25248,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="188" column="14" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="188" bodyend="-1"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="200" column="14" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="200" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gace62787dd54f2d7fb92b614319239b78" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -25262,7 +25262,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="190" column="17" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="190" bodyend="-1"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="202" column="17" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="202" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga52e7bba19c51e51e03d3183095fdf59d" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; ObjectPoints &gt;</type>
@@ -84147,6 +84147,33 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </inbodydescription>
         <location file="MRMesh/MRChangePointCloudAction.h" line="23" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="23" bodyend="32"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaac9eef254f634608d267561dcaffe898" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ChangePointCloudAction::ChangePointCloudAction</definition>
+        <argsstring>(std::string name, const std::shared_ptr&lt; ObjectPoints &gt; &amp;obj, std::shared_ptr&lt; PointCloud &gt; newPointCloud)</argsstring>
+        <name>ChangePointCloudAction</name>
+        <qualifiedname>MR::ChangePointCloudAction::ChangePointCloudAction</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; ObjectPoints &gt; &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; PointCloud &gt;</type>
+          <declname>newPointCloud</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s point cloud and immediately set new point cloud </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="35" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="35" bodyend="44"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3d96f0fc00a2d6d30b4807712b3793b6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
         <definition>virtual std::string MR::ChangePointCloudAction::name</definition>
@@ -84160,7 +84187,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="34" column="25" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="34" bodyend="34"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="46" column="25" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="46" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga618406d420de41e825205cae3f53c9c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -84180,7 +84207,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="36" column="18" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="36" bodyend="42"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="48" column="18" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="48" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf560354fe849806139d86968d627ad64" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -84198,7 +84225,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="44" column="17" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="44" bodyend="48"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="56" column="17" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="56" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaea2ce2e41b3850a18e72e5766ccb86f5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -84214,7 +84241,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="50" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="50" bodyend="51"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="62" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="62" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7e99acd63b670299af8dc73a771d1ac3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -84237,7 +84264,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="68" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="68" bodyend="77"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="80" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="80" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9e9d9d96a33fdd65bdd65f038977fb3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -84264,7 +84291,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="80" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="80" bodyend="86"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="92" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="92" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab798c8b335a0610698bfa5fdc04b7ac9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -84279,7 +84306,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="88" column="25" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="88" bodyend="91"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="100" column="25" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="100" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad8d1da6c3caadd31cd4053fa2924e372" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -84299,7 +84326,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="93" column="18" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="93" bodyend="103"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="105" column="18" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="105" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga090013e2855ce8b07f9847f7dfd752bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -84317,7 +84344,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="105" column="17" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="105" bodyend="109"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="117" column="17" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="117" bodyend="121"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac066d3dab32b1ce9ab3d604be8a48afb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -84333,7 +84360,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="111" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="111" bodyend="114"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="123" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="123" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2a95838eed1970b6d1b9fe6009128d7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -84360,7 +84387,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="131" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="131" bodyend="142"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="143" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="143" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6dae80316417b70ee98f67ecf0477677" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -84391,7 +84418,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="145" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="145" bodyend="152"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="157" column="5" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="157" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga12d6cf9879dfc2c296fa9440b96442e3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -84406,7 +84433,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="154" column="25" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="154" bodyend="157"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="166" column="25" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="166" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadbe79dc8bbe3a4158e22e912c78dfcd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -84426,7 +84453,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="159" column="18" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="159" bodyend="172"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="171" column="18" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="171" bodyend="184"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6cd319bedaca54eedc938510e9832227" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -84444,7 +84471,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="174" column="17" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="174" bodyend="178"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="186" column="17" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="186" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga90c1e3a545b13734142bde8638b3ee63" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -84460,7 +84487,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePointCloudAction.h" line="180" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="180" bodyend="183"/>
+        <location file="MRMesh/MRChangePointCloudAction.h" line="192" column="21" bodyfile="MRMesh/MRChangePointCloudAction.h" bodystart="192" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa3fc74b29ef4cc3ed08c0e8f0a5f342e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>

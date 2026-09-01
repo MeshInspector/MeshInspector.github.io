@@ -6326,6 +6326,7 @@
   </compound>
   <compound refid="MRChangePointCloudAction_8h" kind="file"><name>MRChangePointCloudAction.h</name>
     <member refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kind="typedef"><name>MR_std_shared_ptr_MR_ObjectPoints</name></member>
+    <member refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kind="typedef"><name>MR_std_shared_ptr_MR_PointCloud</name></member>
     <member refid="MRChangePointCloudAction_8h_1a508d7869c6f665b19d0d28a6f8508680" kind="typedef"><name>MR_ChangePointCloudAction</name></member>
     <member refid="MRChangePointCloudAction_8h_1aae484122f7057358e0ea8cde58912cb6" kind="typedef"><name>MR_ChangePointCloudPointsAction</name></member>
     <member refid="MRChangePointCloudAction_8h_1a1eb83c1313108b7598ca5623f32563c5" kind="typedef"><name>MR_ChangeOnePointInCloudAction</name></member>
@@ -6340,7 +6341,8 @@
     <member refid="MRChangePointCloudAction_8h_1a1bcfa148fa90e8403e33335b2aa1d308" kind="function"><name>MR_ChangePointCloudAction_MutableDynamicDowncastFrom_MR_HistoryAction</name></member>
     <member refid="MRChangePointCloudAction_8h_1ad690c6c09083b41b19fe06bf268c747d" kind="function"><name>MR_ChangePointCloudAction_DynamicDowncastFromOrFail_MR_HistoryAction</name></member>
     <member refid="MRChangePointCloudAction_8h_1adc9870bc057a7b17de637bc967b87b95" kind="function"><name>MR_ChangePointCloudAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</name></member>
-    <member refid="MRChangePointCloudAction_8h_1a6431310a43047ec6d760888cac73df0e" kind="function"><name>MR_ChangePointCloudAction_Construct</name></member>
+    <member refid="MRChangePointCloudAction_8h_1abf919b2eb83acb7b6a8127c113354693" kind="function"><name>MR_ChangePointCloudAction_Construct_2</name></member>
+    <member refid="MRChangePointCloudAction_8h_1a6deb97e1423a1ce24afd86e252c22273" kind="function"><name>MR_ChangePointCloudAction_Construct_3</name></member>
     <member refid="MRChangePointCloudAction_8h_1a1f423d97b230a6a6469cd7080c3f5f60" kind="function"><name>MR_ChangePointCloudAction_Destroy</name></member>
     <member refid="MRChangePointCloudAction_8h_1a37190cb867eeb0ad0390a32260082b31" kind="function"><name>MR_ChangePointCloudAction_DestroyArray</name></member>
     <member refid="MRChangePointCloudAction_8h_1a093aa4c7f4c2540e2f34e7bffa770545" kind="function"><name>MR_ChangePointCloudAction_name</name></member>
@@ -6650,7 +6652,8 @@
     <member refid="MRChangeSelectionAction_8h_1ad441b7312617efb5e5f49cf8ee969c20" kind="function"><name>MR_ChangePointPointSelectionAction_MutableDynamicDowncastFrom_MR_HistoryAction</name></member>
     <member refid="MRChangeSelectionAction_8h_1afcecf99611597cfbc11c656d281fbf5d" kind="function"><name>MR_ChangePointPointSelectionAction_DynamicDowncastFromOrFail_MR_HistoryAction</name></member>
     <member refid="MRChangeSelectionAction_8h_1a17aa9ffce3a1cf7c5e1a4c4fa4a5cc68" kind="function"><name>MR_ChangePointPointSelectionAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</name></member>
-    <member refid="MRChangeSelectionAction_8h_1ac2930f6d7be4403247e28a5df3d8208f" kind="function"><name>MR_ChangePointPointSelectionAction_Construct</name></member>
+    <member refid="MRChangeSelectionAction_8h_1a1984acecfa1dae34a1bcfeddd1cedcde" kind="function"><name>MR_ChangePointPointSelectionAction_Construct_2</name></member>
+    <member refid="MRChangeSelectionAction_8h_1aeae98151eec4795e62b0e6bccca61b90" kind="function"><name>MR_ChangePointPointSelectionAction_Construct_3</name></member>
     <member refid="MRChangeSelectionAction_8h_1ab94712e084ec2342059912c59f0a3d8d" kind="function"><name>MR_ChangePointPointSelectionAction_Destroy</name></member>
     <member refid="MRChangeSelectionAction_8h_1a12832b47e58caa350db83052f00ac8dd" kind="function"><name>MR_ChangePointPointSelectionAction_DestroyArray</name></member>
     <member refid="MRChangeSelectionAction_8h_1a3793fc05ab376b4cf5a18d9e8b247bff" kind="function"><name>MR_ChangePointPointSelectionAction_name</name></member>
@@ -10379,7 +10382,6 @@
     <member refid="MRHeap_8h_1aa95af8097da449ccee44f7a19667e767" kind="function"><name>MR_Heap_float_MR_GraphVertId_std_greater_float_Element_AssignFromAnother</name></member>
   </compound>
   <compound refid="MRHeapBytes_8h" kind="file"><name>MRHeapBytes.h</name>
-    <member refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kind="typedef"><name>MR_std_shared_ptr_MR_PointCloud</name></member>
     <member refid="MRHeapBytes_8h_1a12c0c2665578dd4a12b184b0e9247713" kind="typedef"><name>MR_std_vector_size_t</name></member>
     <member refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kind="typedef"><name>MR_std_vector_std_shared_ptr_MR_Object</name></member>
     <member refid="MRHeapBytes_8h_1a1ff304559a28a745c4978271b9390847" kind="function"><name>MR_heapBytes_MR_Color</name></member>

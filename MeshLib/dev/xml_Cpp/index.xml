@@ -1369,6 +1369,7 @@
     <member refid="group__GeneralGroup_1ga98c3a77af978a6f75629fd9c90b2936c" kind="variable"><name>clonePointCloud_</name></member>
     <member refid="group__GeneralGroup_1ga0bb4f083c7d1d612d304252999120b2e" kind="variable"><name>name_</name></member>
     <member refid="group__GeneralGroup_1ga36b0016bc6e04bb6c94996e9c8adbea2" kind="function"><name>ChangePointCloudAction</name></member>
+    <member refid="group__GeneralGroup_1gaac9eef254f634608d267561dcaffe898" kind="function"><name>ChangePointCloudAction</name></member>
     <member refid="group__GeneralGroup_1ga3d96f0fc00a2d6d30b4807712b3793b6" kind="function"><name>name</name></member>
     <member refid="group__GeneralGroup_1ga618406d420de41e825205cae3f53c9c6" kind="function"><name>action</name></member>
     <member refid="group__GeneralGroup_1gaea2ce2e41b3850a18e72e5766ccb86f5" kind="function"><name>heapBytes</name></member>
@@ -1404,6 +1405,7 @@
     <member refid="classMR_1_1ChangePointPointSelectionAction_1ad27035933be57b73d0fe16d3507d17f5" kind="variable"><name>objPoints_</name></member>
     <member refid="classMR_1_1ChangePointPointSelectionAction_1a7a1ecbc19f30b2ef4fb7dc3c3efdb3d7" kind="variable"><name>selection_</name></member>
     <member refid="classMR_1_1ChangePointPointSelectionAction_1a455a37f2beea261ea75c996d374fc0d9" kind="function"><name>ChangePointPointSelectionAction</name></member>
+    <member refid="classMR_1_1ChangePointPointSelectionAction_1a435399a73689e1363e7232f7feee3666" kind="function"><name>ChangePointPointSelectionAction</name></member>
     <member refid="classMR_1_1ChangePointPointSelectionAction_1a7ebe140792b37c16fdd8f129492ad4c8" kind="function"><name>name</name></member>
     <member refid="classMR_1_1ChangePointPointSelectionAction_1ac11863b18cf6233f258a49395537c69c" kind="function"><name>action</name></member>
     <member refid="classMR_1_1ChangePointPointSelectionAction_1a3d3f98681572b719c29e2acd8ef99619" kind="function"><name>selection</name></member>
@@ -25750,6 +25752,7 @@
     <member refid="group__GeneralGroup_1gae5af96f6bd3dab63787ec81d227abaa2" kind="function"><name>setObjectDirty</name></member>
     <member refid="group__GeneralGroup_1ga037473fbea41f9ad41ed74351f148e01" kind="function"><name>heapBytes</name></member>
     <member refid="group__GeneralGroup_1ga36b0016bc6e04bb6c94996e9c8adbea2" kind="function"><name>ChangePointCloudAction</name></member>
+    <member refid="group__GeneralGroup_1gaac9eef254f634608d267561dcaffe898" kind="function"><name>ChangePointCloudAction</name></member>
     <member refid="group__GeneralGroup_1ga3d96f0fc00a2d6d30b4807712b3793b6" kind="function"><name>name</name></member>
     <member refid="group__GeneralGroup_1ga618406d420de41e825205cae3f53c9c6" kind="function"><name>action</name></member>
     <member refid="group__GeneralGroup_1gaf560354fe849806139d86968d627ad64" kind="function"><name>setObjectDirty</name></member>

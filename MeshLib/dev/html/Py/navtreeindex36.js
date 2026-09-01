@@ -1,5 +1,9 @@
 var NAVTREEINDEX36 =
 {
+"classmrmeshpy_1_1FlowAggregator.html#ab6160992e764056e93ee15bcb5f92b91":[8,1,1,0,1,298,4],
+"classmrmeshpy_1_1FlowAggregator.html#ad4b199014b955fd39b0f10057da2f2e7":[8,1,0,0,2,298,9],
+"classmrmeshpy_1_1FlowAggregator.html#ad4b199014b955fd39b0f10057da2f2e7":[8,1,1,0,1,298,9],
+"classmrmeshpy_1_1FlowAggregator.html#ad6acdfdf82fcaff04e03a0a2e0340899":[8,1,0,0,2,298,8],
 "classmrmeshpy_1_1FlowAggregator.html#ad6acdfdf82fcaff04e03a0a2e0340899":[8,1,1,0,1,298,8],
 "classmrmeshpy_1_1FlowAggregator_1_1Flows.html":[8,1,0,0,2,298,0],
 "classmrmeshpy_1_1FlowAggregator_1_1Flows.html":[8,1,1,0,1,298,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX36 =
 "classmrmeshpy_1_1GeodesicPathApprox.html#a7f15eafb48dd0bc853f0d957761bb672":[8,1,1,0,1,393,0],
 "classmrmeshpy_1_1GeodesicPathApprox.html#a8079f3b26b4883ca0e0440dcc83b34c7":[8,1,0,0,2,393,2],
 "classmrmeshpy_1_1GeodesicPathApprox.html#a8079f3b26b4883ca0e0440dcc83b34c7":[8,1,1,0,1,393,2],
-"classmrmeshpy_1_1GeodesicPathApprox.html#a88c4aa3ab1c949faec916164dfe0ae3e":[8,1,0,0,2,393,6],
-"classmrmeshpy_1_1GeodesicPathApprox.html#a88c4aa3ab1c949faec916164dfe0ae3e":[8,1,1,0,1,393,6],
-"classmrmeshpy_1_1GeodesicPathApprox.html#a901a5844f1e5440c721eb93775155637":[8,1,0,0,2,393,4],
-"classmrmeshpy_1_1GeodesicPathApprox.html#a901a5844f1e5440c721eb93775155637":[8,1,1,0,1,393,4],
-"classmrmeshpy_1_1GeodesicPathApprox.html#ac0c41582e2d37a94046f02bbe2177597":[8,1,0,0,2,393,5]
+"classmrmeshpy_1_1GeodesicPathApprox.html#a88c4aa3ab1c949faec916164dfe0ae3e":[8,1,0,0,2,393,6]
 };

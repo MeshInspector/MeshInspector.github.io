@@ -1,5 +1,7 @@
 var NAVTREEINDEX148 =
 {
+"std__optional__MR__DentalId_8h.html#a89493065b4df62da86b6e3b257ee44f0":[8,2,2,0,0,0,0,2,207,4],
+"std__optional__MR__DentalId_8h.html#ab6f851679734ec8da383d00d028966a6":[8,2,2,0,0,0,0,2,207,7],
 "std__optional__MR__DentalId_8h.html#ad2e6f43d814a2679db17e024383630dd":[8,2,2,0,0,0,0,2,207,2],
 "std__optional__MR__DentalId_8h.html#ad5c5c2c5a22068c84c782abeb6fc0181":[8,2,2,0,0,0,0,2,207,3],
 "std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b":[8,2,2,0,0,0,0,2,207,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX148 =
 "std__optional__MR__TriIntersectResult_8h.html#a0dc2188522c6f621b33a1561ad7820ef":[8,2,2,0,0,0,0,2,225,9],
 "std__optional__MR__TriIntersectResult_8h.html#a1018c9bd747b2debf79af211cc6d990a":[8,2,2,0,0,0,0,2,225,10],
 "std__optional__MR__TriIntersectResult_8h.html#a362417a55fc0c30489df68e8a7d82774":[8,2,2,0,0,0,0,2,225,3],
-"std__optional__MR__TriIntersectResult_8h.html#a3eebdbca3a1c6ba73a551bdada7f4727":[8,2,2,0,0,0,0,2,225,0],
-"std__optional__MR__TriIntersectResult_8h.html#a843c28975bd8b240128e3466724c57b8":[8,2,2,0,0,0,0,2,225,7],
-"std__optional__MR__TriIntersectResult_8h.html#aa4ab5634f364d07522397dd422654028":[8,2,2,0,0,0,0,2,225,2]
+"std__optional__MR__TriIntersectResult_8h.html#a3eebdbca3a1c6ba73a551bdada7f4727":[8,2,2,0,0,0,0,2,225,0]
 };

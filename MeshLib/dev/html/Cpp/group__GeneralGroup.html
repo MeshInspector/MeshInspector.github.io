@@ -3775,6 +3775,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga037473fbea41f9ad41ed74351f148e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:ga36b0016bc6e04bb6c94996e9c8adbea2" id="r_ga36b0016bc6e04bb6c94996e9c8adbea2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga36b0016bc6e04bb6c94996e9c8adbea2">MR::ChangePointCloudAction::ChangePointCloudAction</a> (std::string <a class="el" href="#ga3d96f0fc00a2d6d30b4807712b3793b6">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;obj)</td></tr>
 <tr class="memdesc:ga36b0016bc6e04bb6c94996e9c8adbea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's point cloud before making any changes in it  <br /></td></tr>
+<tr class="memitem:gaac9eef254f634608d267561dcaffe898" id="r_gaac9eef254f634608d267561dcaffe898"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaac9eef254f634608d267561dcaffe898">MR::ChangePointCloudAction::ChangePointCloudAction</a> (std::string <a class="el" href="#ga3d96f0fc00a2d6d30b4807712b3793b6">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;obj, std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; newPointCloud)</td></tr>
+<tr class="memdesc:gaac9eef254f634608d267561dcaffe898"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's point cloud and immediately set new point cloud  <br /></td></tr>
 <tr class="memitem:ga3d96f0fc00a2d6d30b4807712b3793b6" id="r_ga3d96f0fc00a2d6d30b4807712b3793b6"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d96f0fc00a2d6d30b4807712b3793b6">MR::ChangePointCloudAction::name</a> () const override</td></tr>
 <tr class="memitem:ga618406d420de41e825205cae3f53c9c6" id="r_ga618406d420de41e825205cae3f53c9c6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga618406d420de41e825205cae3f53c9c6">MR::ChangePointCloudAction::action</a> (<a class="el" href="#gac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
 <tr class="memdesc:ga618406d420de41e825205cae3f53c9c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called on history action (undo, redo, etc.)  <br /></td></tr>
@@ -42320,7 +42322,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga36b0016bc6e04bb6c94996e9c8adbea2" name="ga36b0016bc6e04bb6c94996e9c8adbea2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga36b0016bc6e04bb6c94996e9c8adbea2">&#9670;&#160;</a></span>ChangePointCloudAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga36b0016bc6e04bb6c94996e9c8adbea2">&#9670;&#160;</a></span>ChangePointCloudAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -42349,6 +42351,44 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRChangePointCloudAction_8h.html">MRMesh/MRChangePointCloudAction.h</a>&gt;</code></p>
 
 <p>use this constructor to remember object's point cloud before making any changes in it </p>
+
+</div>
+</div>
+<a id="gaac9eef254f634608d267561dcaffe898" name="gaac9eef254f634608d267561dcaffe898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac9eef254f634608d267561dcaffe898">&#9670;&#160;</a></span>ChangePointCloudAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangePointCloudAction::ChangePointCloudAction </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>newPointCloud</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRChangePointCloudAction_8h.html">MRMesh/MRChangePointCloudAction.h</a>&gt;</code></p>
+
+<p>use this constructor to remember object's point cloud and immediately set new point cloud </p>
 
 </div>
 </div>

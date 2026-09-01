@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"MRObjectDistanceMap_8h.html#ab6013dd6c8ad86e203425d40dad0f69d":[8,2,2,0,0,0,0,1,224,77],
+"MRObjectDistanceMap_8h.html#ab6bfadedd5426bed307d14ed137a2051":[8,2,2,0,0,0,0,1,224,129],
 "MRObjectDistanceMap_8h.html#ab76672dbe69975c0e69bfe1564d2cd2f":[8,2,2,0,0,0,0,1,224,13],
 "MRObjectDistanceMap_8h.html#ab7788cc5e52fe634dd26c4c3ba1db3b5":[8,2,2,0,0,0,0,1,224,111],
 "MRObjectDistanceMap_8h.html#ab7bc46a91a5c4920291a2c079c8f1948":[8,2,2,0,0,0,0,1,224,160],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "MRObjectLabel_8h.html#a09313105062658740404d82683f50773":[8,2,2,0,0,0,0,3,2,98],
 "MRObjectLabel_8h.html#a09d4138933b951bb3c7d63bd5e3b485d":[8,2,2,0,0,0,0,3,2,97],
 "MRObjectLabel_8h.html#a0a4c211e826df8843271b8ca964650a7":[8,2,2,0,0,0,0,3,2,102],
-"MRObjectLabel_8h.html#a0da22d4d8ce58a2eda8db4ac496f24cd":[8,2,2,0,0,0,0,3,2,128],
-"MRObjectLabel_8h.html#a0e2da6ab4adf894ffbfdfaf692844317":[8,2,2,0,0,0,0,3,2,137],
-"MRObjectLabel_8h.html#a0f6803acfe8184079b830dc15a580959":[8,2,2,0,0,0,0,3,2,101]
+"MRObjectLabel_8h.html#a0da22d4d8ce58a2eda8db4ac496f24cd":[8,2,2,0,0,0,0,3,2,128]
 };

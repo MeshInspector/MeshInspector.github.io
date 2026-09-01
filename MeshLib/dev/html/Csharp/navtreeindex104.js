@@ -1,5 +1,9 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1FindProjectionOnPointsSettings.html":[8,3,0,0,0,1196],
+"classMR_1_1FindProjectionOnPointsSettings.html#a17b406f9dd2aac6ba9f0b7ae38292a82":[8,3,0,0,0,1196,6],
+"classMR_1_1FindProjectionOnPointsSettings.html#a1e180c4868011c58860dd2b901fa3938":[8,3,0,0,0,1196,7],
+"classMR_1_1FindProjectionOnPointsSettings.html#a3b4b688a4c5f65212c06abb32d98df6e":[8,3,0,0,0,1196,8],
 "classMR_1_1FindProjectionOnPointsSettings.html#a53543fd7e5c4199e8a688b1b4f5ac0e3":[8,3,0,0,0,1196,11],
 "classMR_1_1FindProjectionOnPointsSettings.html#a623b816a5bf7bfe5fcbbfb992f0013ac":[8,3,0,0,0,1196,9],
 "classMR_1_1FindProjectionOnPointsSettings.html#a7836daddb0ae8a4e7912b77e26f7afe8":[8,3,0,0,0,1196,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1GcodeProcessor.html#a7cea7464f75a10c5ad7574323d255f27":[8,3,0,0,0,1209,0],
 "classMR_1_1GcodeProcessor.html#a7fb5dbc00deba46a6aa0bb7d7f1660c2":[8,3,0,0,0,1209,8],
 "classMR_1_1GcodeProcessor.html#aa43ad6e1996958dc51c4ac7238801c02":[8,3,0,0,0,1209,2],
-"classMR_1_1GcodeProcessor.html#ab1974efa77013a98d129e57c13b173e7":[8,3,0,0,0,1209,5],
-"classMR_1_1GeneralOffsetParameters.html":[8,3,0,0,0,1211],
-"classMR_1_1GeneralOffsetParameters.html#a0154fdb1b9e7c1acf552bc4a349d57d9":[8,3,0,0,0,1211,11],
-"classMR_1_1GeneralOffsetParameters.html#a074237cdad0689df36a2104165e6e7ef":[8,3,0,0,0,1211,2],
-"classMR_1_1GeneralOffsetParameters.html#a088b4a87c595fdf9cf7ed6867faa33be":[8,3,0,0,0,1211,23]
+"classMR_1_1GcodeProcessor.html#ab1974efa77013a98d129e57c13b173e7":[8,3,0,0,0,1209,5]
 };

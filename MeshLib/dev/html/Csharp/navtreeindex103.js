@@ -1,5 +1,9 @@
 var NAVTREEINDEX103 =
 {
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesConeSegment.html#af4da0d92206cbcd04a00942198910404":[8,3,0,0,0,1184,5,12,4],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html":[8,3,0,0,0,1184,5,13],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#a05fd15cdfb52365995c7e2c126cae81e":[8,3,0,0,0,1184,5,13,0],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#a30110e1ebb65e1950042fa0e7ec5324f":[8,3,0,0,0,1184,5,13,2],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#ab8ee3c653c2171053b4abe8199e87e63":[8,3,0,0,0,1184,5,13,1],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#ae39be43567ac710eb05fdc7049bc6a08":[8,3,0,0,0,1184,5,13,4],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#ae444074c95b25ad1415fe2a9dc06c5ce":[8,3,0,0,0,1184,5,13,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX103 =
 "classMR_1_1FindOverlappingSettings.html#a76c37e6e5b96ffb1d0dabe5ae527e111":[8,3,0,0,0,1195,4],
 "classMR_1_1FindOverlappingSettings.html#a93d814c7bdfe57492d70b69bbd1d8e01":[8,3,0,0,0,1195,8],
 "classMR_1_1FindOverlappingSettings.html#aa45d8b84680522000e4c77532d5efe8f":[8,3,0,0,0,1195,5],
-"classMR_1_1FindOverlappingSettings.html#af2341a3a1fd62d71b5932f6253dfac17":[8,3,0,0,0,1195,0],
-"classMR_1_1FindProjectionOnPointsSettings.html":[8,3,0,0,0,1196],
-"classMR_1_1FindProjectionOnPointsSettings.html#a17b406f9dd2aac6ba9f0b7ae38292a82":[8,3,0,0,0,1196,6],
-"classMR_1_1FindProjectionOnPointsSettings.html#a1e180c4868011c58860dd2b901fa3938":[8,3,0,0,0,1196,7],
-"classMR_1_1FindProjectionOnPointsSettings.html#a3b4b688a4c5f65212c06abb32d98df6e":[8,3,0,0,0,1196,8]
+"classMR_1_1FindOverlappingSettings.html#af2341a3a1fd62d71b5932f6253dfac17":[8,3,0,0,0,1195,0]
 };

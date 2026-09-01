@@ -166,11 +166,12 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangePointCloudPointsAction.html":[8,0,0,4,18],
 "classMR_1_1ChangePointCloudPointsAction.html":[8,0,0,20,150],
 "classMR_1_1ChangePointPointSelectionAction.html":[8,0,0,4,32],
-"classMR_1_1ChangePointPointSelectionAction.html#a3d3f98681572b719c29e2acd8ef99619":[8,0,0,4,32,5],
+"classMR_1_1ChangePointPointSelectionAction.html#a3d3f98681572b719c29e2acd8ef99619":[8,0,0,4,32,6],
+"classMR_1_1ChangePointPointSelectionAction.html#a435399a73689e1363e7232f7feee3666":[8,0,0,4,32,2],
 "classMR_1_1ChangePointPointSelectionAction.html#a455a37f2beea261ea75c996d374fc0d9":[8,0,0,4,32,1],
-"classMR_1_1ChangePointPointSelectionAction.html#a7ebe140792b37c16fdd8f129492ad4c8":[8,0,0,4,32,4],
-"classMR_1_1ChangePointPointSelectionAction.html#ac11863b18cf6233f258a49395537c69c":[8,0,0,4,32,2],
-"classMR_1_1ChangePointPointSelectionAction.html#aced37c6f615d0a18b1743ee3895a5d3b":[8,0,0,4,32,3],
+"classMR_1_1ChangePointPointSelectionAction.html#a7ebe140792b37c16fdd8f129492ad4c8":[8,0,0,4,32,5],
+"classMR_1_1ChangePointPointSelectionAction.html#ac11863b18cf6233f258a49395537c69c":[8,0,0,4,32,3],
+"classMR_1_1ChangePointPointSelectionAction.html#aced37c6f615d0a18b1743ee3895a5d3b":[8,0,0,4,32,4],
 "classMR_1_1ChangePointPointSelectionAction.html#adf6db1de62ed6cf97b83d0a1c00a9999":[8,0,0,4,32,0],
 "classMR_1_1ChangePolylineAction.html":[8,0,0,4,22],
 "classMR_1_1ChangePolylineAction.html#a0e79a47922ed59fc36b1a8e44df24fa4":[8,0,0,4,22,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1CombinedHistoryAction.html":[8,0,0,4,36],
 "classMR_1_1CombinedHistoryAction.html":[8,0,0,20,171],
 "classMR_1_1CommandLoop.html":[8,0,0,20,574],
-"classMR_1_1Cone3.html":[8,0,0,20,172],
-"classMR_1_1Cone3Approximation.html":[8,0,0,20,175]
+"classMR_1_1Cone3.html":[8,0,0,20,172]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1CloseToMeshVolumeParams.html#a78de3cbf24de33591f9569c54f64cf9c":[8,3,0,0,0,204,0],
+"classMR_1_1CloseToMeshVolumeParams.html#ac0628d69be4ff0d1904eae279e3d6118":[8,3,0,0,0,204,3],
 "classMR_1_1CloseToMeshVolumeParams.html#ac103940a737e67bb59eed8c19682cfb2":[8,3,0,0,0,204,1],
 "classMR_1_1CloseToMeshVolumeParams.html#ae2e1cc49ee1b16c4d04bb7ca1003606b":[8,3,0,0,0,204,8],
 "classMR_1_1CloseToMeshVolumeParams.html#ae4998130a4acabe4d52cf374cc0918e2":[8,3,0,0,0,204,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ConeObject.html#af689a9b7ba6b3b3abfe9692cb26d5a82":[8,3,0,0,0,220,2],
 "classMR_1_1ConeObject.html#afb02009e476d132f6805a9c0fcbb9720":[8,3,0,0,0,220,55],
 "classMR_1_1ConeObject.html#afbd922a78f61969011c78eac87c241cd":[8,3,0,0,0,220,10],
-"classMR_1_1ConeObject.html#afe3d3bd47cb931d932a9272b61c6b176":[8,3,0,0,0,220,14],
-"classMR_1_1ConstBox__AffineXf2d.html":[8,3,0,0,0,1030],
-"classMR_1_1ConstBox__AffineXf2d.html#a02bd615b0857ed0554e65674185373ed":[8,3,0,0,0,1030,2]
+"classMR_1_1ConeObject.html#afe3d3bd47cb931d932a9272b61c6b176":[8,3,0,0,0,220,14]
 };

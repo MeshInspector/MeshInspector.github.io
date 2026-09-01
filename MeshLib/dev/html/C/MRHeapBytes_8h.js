@@ -1,6 +1,5 @@
 var MRHeapBytes_8h =
 [
-    [ "MR_std_shared_ptr_MR_PointCloud", "MRHeapBytes_8h.html#af47e1d768546a43d180d3cfe29e3e72e", null ],
     [ "MR_std_vector_size_t", "MRHeapBytes_8h.html#a12c0c2665578dd4a12b184b0e9247713", null ],
     [ "MR_std_vector_std_shared_ptr_MR_Object", "MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf", null ],
     [ "MR_heapBytes_float", "MRHeapBytes_8h.html#af366d379992992056032493a726557f6", null ],

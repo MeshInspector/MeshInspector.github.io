@@ -1507,11 +1507,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="447" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="447" declcolumn="44"/>
       </memberdef>
-      <memberdef kind="function" id="MRChangeSelectionAction_8h_1ac2930f6d7be4403247e28a5df3d8208f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRChangeSelectionAction_8h_1a1984acecfa1dae34a1bcfeddd1cedcde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref> *</type>
-        <definition>MRC_API MR_ChangePointPointSelectionAction * MR_ChangePointPointSelectionAction_Construct</definition>
+        <definition>MRC_API MR_ChangePointPointSelectionAction * MR_ChangePointPointSelectionAction_Construct_2</definition>
         <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectPoints *objPoints)</argsstring>
-        <name>MR_ChangePointPointSelectionAction_Construct</name>
+        <name>MR_ChangePointPointSelectionAction_Construct_2</name>
         <param>
           <type>const char *</type>
           <declname>name</declname>
@@ -1533,6 +1533,36 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="457" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="457" declcolumn="44"/>
       </memberdef>
+      <memberdef kind="function" id="MRChangeSelectionAction_8h_1aeae98151eec4795e62b0e6bccca61b90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref> *</type>
+        <definition>MRC_API MR_ChangePointPointSelectionAction * MR_ChangePointPointSelectionAction_Construct_3</definition>
+        <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectPoints *objPoints, MR_VertBitSet *newSelection)</argsstring>
+        <name>MR_ChangePointPointSelectionAction_Construct_3</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref> *</type>
+          <declname>objPoints</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>newSelection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use this constructor to remember object&apos;s vertex selection and immediately set new selection Generated from constructor <computeroutput>MR::ChangePointPointSelectionAction::ChangePointPointSelectionAction</computeroutput>. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>objPoints</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>objPoints</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>newSelection</computeroutput> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. The reference to the parameter <computeroutput>newSelection</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangeSelectionAction_8h_1ab94712e084ec2342059912c59f0a3d8d" kindref="member">MR_ChangePointPointSelectionAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="471" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="471" declcolumn="44"/>
+      </memberdef>
       <memberdef kind="function" id="MRChangeSelectionAction_8h_1ab94712e084ec2342059912c59f0a3d8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangePointPointSelectionAction_Destroy</definition>
@@ -1549,7 +1579,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="460" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="460" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="474" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="474" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSelectionAction_8h_1a12832b47e58caa350db83052f00ac8dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1567,7 +1597,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="463" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="463" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="477" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="477" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSelectionAction_8h_1a3793fc05ab376b4cf5a18d9e8b247bff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -1585,7 +1615,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="468" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="468" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="482" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="482" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSelectionAction_8h_1a28ed47960c5710d98de4d7250b48bde9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1607,7 +1637,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="472" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="472" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="486" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="486" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSelectionAction_8h_1ac1f87867302591eaa18ae48801fdb233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
@@ -1625,7 +1655,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="477" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="477" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="491" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="491" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSelectionAction_8h_1a675049120bc56956984cbdd40b709caa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1643,7 +1673,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="482" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="482" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="496" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="496" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSelectionAction_8h_1a0262051cd49107a47694767ce5b2c993" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
@@ -1661,7 +1691,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="486" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="486" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" line="500" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h" declline="500" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1840,25 +1870,27 @@
 <codeline lineno="441"><highlight class="normal"></highlight></codeline>
 <codeline lineno="447" refid="MRChangeSelectionAction_8h_1a17aa9ffce3a1cf7c5e1a4c4fa4a5cc68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*<ref refid="MRChangeSelectionAction_8h_1a17aa9ffce3a1cf7c5e1a4c4fa4a5cc68" kindref="member">MR_ChangePointPointSelectionAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="448"><highlight class="normal"></highlight></codeline>
-<codeline lineno="457" refid="MRChangeSelectionAction_8h_1ac2930f6d7be4403247e28a5df3d8208f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*<ref refid="MRChangeSelectionAction_8h_1ac2930f6d7be4403247e28a5df3d8208f" kindref="member">MR_ChangePointPointSelectionAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*objPoints);</highlight></codeline>
+<codeline lineno="457" refid="MRChangeSelectionAction_8h_1a1984acecfa1dae34a1bcfeddd1cedcde" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*<ref refid="MRChangeSelectionAction_8h_1a1984acecfa1dae34a1bcfeddd1cedcde" kindref="member">MR_ChangePointPointSelectionAction_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*objPoints);</highlight></codeline>
 <codeline lineno="458"><highlight class="normal"></highlight></codeline>
-<codeline lineno="460" refid="MRChangeSelectionAction_8h_1ab94712e084ec2342059912c59f0a3d8d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1ab94712e084ec2342059912c59f0a3d8d" kindref="member">MR_ChangePointPointSelectionAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="461"><highlight class="normal"></highlight></codeline>
-<codeline lineno="463" refid="MRChangeSelectionAction_8h_1a12832b47e58caa350db83052f00ac8dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1a12832b47e58caa350db83052f00ac8dd" kindref="member">MR_ChangePointPointSelectionAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="464"><highlight class="normal"></highlight></codeline>
-<codeline lineno="468" refid="MRChangeSelectionAction_8h_1a3793fc05ab376b4cf5a18d9e8b247bff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeSelectionAction_8h_1a3793fc05ab376b4cf5a18d9e8b247bff" kindref="member">MR_ChangePointPointSelectionAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="469"><highlight class="normal"></highlight></codeline>
-<codeline lineno="472" refid="MRChangeSelectionAction_8h_1a28ed47960c5710d98de4d7250b48bde9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1a28ed47960c5710d98de4d7250b48bde9" kindref="member">MR_ChangePointPointSelectionAction_action</ref>(<ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
-<codeline lineno="473"><highlight class="normal"></highlight></codeline>
-<codeline lineno="477" refid="MRChangeSelectionAction_8h_1ac1f87867302591eaa18ae48801fdb233" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRChangeSelectionAction_8h_1ac1f87867302591eaa18ae48801fdb233" kindref="member">MR_ChangePointPointSelectionAction_selection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="471" refid="MRChangeSelectionAction_8h_1aeae98151eec4795e62b0e6bccca61b90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*<ref refid="MRChangeSelectionAction_8h_1aeae98151eec4795e62b0e6bccca61b90" kindref="member">MR_ChangePointPointSelectionAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*objPoints,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*newSelection);</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"></highlight></codeline>
+<codeline lineno="474" refid="MRChangeSelectionAction_8h_1ab94712e084ec2342059912c59f0a3d8d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1ab94712e084ec2342059912c59f0a3d8d" kindref="member">MR_ChangePointPointSelectionAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="475"><highlight class="normal"></highlight></codeline>
+<codeline lineno="477" refid="MRChangeSelectionAction_8h_1a12832b47e58caa350db83052f00ac8dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1a12832b47e58caa350db83052f00ac8dd" kindref="member">MR_ChangePointPointSelectionAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="478"><highlight class="normal"></highlight></codeline>
-<codeline lineno="482" refid="MRChangeSelectionAction_8h_1a675049120bc56956984cbdd40b709caa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1a675049120bc56956984cbdd40b709caa" kindref="member">MR_ChangePointPointSelectionAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="482" refid="MRChangeSelectionAction_8h_1a3793fc05ab376b4cf5a18d9e8b247bff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeSelectionAction_8h_1a3793fc05ab376b4cf5a18d9e8b247bff" kindref="member">MR_ChangePointPointSelectionAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="483"><highlight class="normal"></highlight></codeline>
-<codeline lineno="486" refid="MRChangeSelectionAction_8h_1a0262051cd49107a47694767ce5b2c993" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1a0262051cd49107a47694767ce5b2c993" kindref="member">MR_ChangePointPointSelectionAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="486" refid="MRChangeSelectionAction_8h_1a28ed47960c5710d98de4d7250b48bde9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1a28ed47960c5710d98de4d7250b48bde9" kindref="member">MR_ChangePointPointSelectionAction_action</ref>(<ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
 <codeline lineno="487"><highlight class="normal"></highlight></codeline>
-<codeline lineno="488"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="489"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="490"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="491" refid="MRChangeSelectionAction_8h_1ac1f87867302591eaa18ae48801fdb233" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRChangeSelectionAction_8h_1ac1f87867302591eaa18ae48801fdb233" kindref="member">MR_ChangePointPointSelectionAction_selection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="492"><highlight class="normal"></highlight></codeline>
+<codeline lineno="496" refid="MRChangeSelectionAction_8h_1a675049120bc56956984cbdd40b709caa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1a675049120bc56956984cbdd40b709caa" kindref="member">MR_ChangePointPointSelectionAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"></highlight></codeline>
+<codeline lineno="500" refid="MRChangeSelectionAction_8h_1a0262051cd49107a47694767ce5b2c993" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1a0262051cd49107a47694767ce5b2c993" kindref="member">MR_ChangePointPointSelectionAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSelectionAction_8h_1ac5530a67f251b17b3a35eeca7beb3c1f" kindref="member">MR_ChangePointPointSelectionAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"></highlight></codeline>
+<codeline lineno="502"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="503"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="504"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSelectionAction.h"/>
   </compounddef>

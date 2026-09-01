@@ -1,5 +1,8 @@
 var NAVTREEINDEX25 =
 {
+"MRChunkIterator_8h_source.html":[8,2,2,0,0,0,0,1,46],
+"MRCircleObject_8h.html":[8,2,2,0,0,0,0,1,47],
+"MRCircleObject_8h.html#a00b2d833dee3e34900ffc4108c697ff3":[8,2,2,0,0,0,0,1,47,145],
 "MRCircleObject_8h.html#a0148b430f9a5b9ec472ac09c33d8ecde":[8,2,2,0,0,0,0,1,47,107],
 "MRCircleObject_8h.html#a0199e38108857647893ad98bcd10504d":[8,2,2,0,0,0,0,1,47,21],
 "MRCircleObject_8h.html#a01b01d7369afd08ef5e240e75b813617":[8,2,2,0,0,0,0,1,47,27],
@@ -246,8 +249,5 @@ var NAVTREEINDEX25 =
 "MRClosestWeightedPoint_8h.html#a57ba329467c2a764feeffcbbc0d51869":[8,2,2,0,0,0,0,1,49,69],
 "MRClosestWeightedPoint_8h.html#a5cde1e200c7bd9c564866ca981aae56b":[8,2,2,0,0,0,0,1,49,83],
 "MRClosestWeightedPoint_8h.html#a5d00acb134b6915686e78e2ed2042261":[8,2,2,0,0,0,0,1,49,30],
-"MRClosestWeightedPoint_8h.html#a5ecd981c8d43e4c3bdb213c32446a402":[8,2,2,0,0,0,0,1,49,92],
-"MRClosestWeightedPoint_8h.html#a5f6426928f0b62e42eba027a5a4932c2":[8,2,2,0,0,0,0,1,49,35],
-"MRClosestWeightedPoint_8h.html#a5fd92a88e3cd8b7d8623532519c74d46":[8,2,2,0,0,0,0,1,49,81],
-"MRClosestWeightedPoint_8h.html#a623266e1f2e6853b1e8d5968333aa1cf":[8,2,2,0,0,0,0,1,49,107]
+"MRClosestWeightedPoint_8h.html#a5ecd981c8d43e4c3bdb213c32446a402":[8,2,2,0,0,0,0,1,49,92]
 };

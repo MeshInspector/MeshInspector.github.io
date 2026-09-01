@@ -1,5 +1,7 @@
 var NAVTREEINDEX159 =
 {
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ad40b24488a72eb405e4ace3ac885f96e":[8,2,2,0,0,0,0,2,356,6],
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ae07abcb134e36ed7cade9b231f04ecdd":[8,2,2,0,0,0,0,2,356,13],
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ae33f916a4d1646cdf469cc7abc7fbe26":[8,2,2,0,0,0,0,2,356,3],
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h_source.html":[8,2,2,0,0,0,0,2,356],
 "std__shared__ptr__MR__ObjectChildrenHolder_8h.html":[8,2,2,0,0,0,0,2,358],
@@ -247,7 +249,5 @@ var NAVTREEINDEX159 =
 "std__shared__ptr__MR__ObjectPoints_8h.html#a289b51dcd7f59e9770295b0dd0869dca":[8,2,2,0,0,0,0,2,367,9],
 "std__shared__ptr__MR__ObjectPoints_8h.html#a2bc1ade12484d90a89435bfa4f9ee0cf":[8,2,2,0,0,0,0,2,367,1],
 "std__shared__ptr__MR__ObjectPoints_8h.html#a2da1dc4fd5e391451b583351cb9fc442":[8,2,2,0,0,0,0,2,367,4],
-"std__shared__ptr__MR__ObjectPoints_8h.html#a3b8650b7a9e73022e444c3a82ba7e857":[8,2,2,0,0,0,0,2,367,8],
-"std__shared__ptr__MR__ObjectPoints_8h.html#a570f5e3628e7e709e35a6fe2a1ec646e":[8,2,2,0,0,0,0,2,367,13],
-"std__shared__ptr__MR__ObjectPoints_8h.html#a62e91d895278ad5912f049d207b968d3":[8,2,2,0,0,0,0,2,367,17]
+"std__shared__ptr__MR__ObjectPoints_8h.html#a3b8650b7a9e73022e444c3a82ba7e857":[8,2,2,0,0,0,0,2,367,8]
 };

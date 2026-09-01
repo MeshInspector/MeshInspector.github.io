@@ -40,7 +40,7 @@
     </incdepgraph>
     <sectiondef kind="func">
       <memberdef kind="function" id="std__shared__ptr__MR__PointCloud_8h_1a098082f51f54f2f0724a92df3e7a8db5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_PointCloud * MR_std_shared_ptr_MR_PointCloud_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_DefaultConstruct</name>
@@ -57,7 +57,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" line="24" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" declline="24" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__PointCloud_8h_1afef7cc4aca2784dde328fc65794b5728" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_PointCloud * MR_std_shared_ptr_MR_PointCloud_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_DefaultConstructArray</name>
@@ -75,7 +75,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" line="29" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" declline="29" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__PointCloud_8h_1a07a8a3aea3668a0a620abf2cad6f4f14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_PointCloud * MR_std_shared_ptr_MR_PointCloud_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy other_pass_by, MR_std_shared_ptr_MR_PointCloud *other)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_ConstructFromAnother</name>
@@ -84,7 +84,7 @@
           <declname>other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -102,7 +102,7 @@
         <argsstring>(MR_std_shared_ptr_MR_PointCloud *_this, MR_PassBy other_pass_by, MR_std_shared_ptr_MR_PointCloud *other)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -110,7 +110,7 @@
           <declname>other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -128,11 +128,11 @@
         <argsstring>(const MR_std_shared_ptr_MR_PointCloud *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_Destroy</name>
         <param>
-          <type>const <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -146,11 +146,11 @@
         <argsstring>(const MR_std_shared_ptr_MR_PointCloud *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -159,12 +159,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" declline="47" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__PointCloud_8h_1a634276b01dff98c7b3d26d0f8e29368b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
         <definition>MRC_API const MR_std_shared_ptr_MR_PointCloud * MR_std_shared_ptr_MR_PointCloud_OffsetPtr</definition>
         <argsstring>(const MR_std_shared_ptr_MR_PointCloud *ptr, ptrdiff_t i)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -181,12 +181,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" line="51" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" declline="51" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__PointCloud_8h_1a6f485bee4002ee362ee27d5f11f78266" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_PointCloud * MR_std_shared_ptr_MR_PointCloud_OffsetMutablePtr</definition>
         <argsstring>(MR_std_shared_ptr_MR_PointCloud *ptr, ptrdiff_t i)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -208,7 +208,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_PointCloud *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_get</name>
         <param>
-          <type>const <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -226,7 +226,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_PointCloud *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_has_value</name>
         <param>
-          <type>const <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -244,7 +244,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_PointCloud *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_use_count</name>
         <param>
-          <type>const <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -262,7 +262,7 @@
         <argsstring>(MR_std_shared_ptr_MR_PointCloud *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_reset</name>
         <param>
-          <type><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -275,7 +275,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" declline="74" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__PointCloud_8h_1a14adef3cafa3b744e0ff1ec5c30a9506" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_PointCloud * MR_std_shared_ptr_MR_PointCloud_ConstructFromValue</definition>
         <argsstring>(MR_PassBy value_pass_by, MR_PointCloud *value)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_ConstructFromValue</name>
@@ -297,7 +297,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" line="80" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" declline="80" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__PointCloud_8h_1a2ecc386035687cfd70785514893b9c84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_PointCloud * MR_std_shared_ptr_MR_PointCloud_Construct</definition>
         <argsstring>(MR_PointCloud *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_Construct</name>
@@ -320,7 +320,7 @@
         <argsstring>(MR_std_shared_ptr_MR_PointCloud *_this, MR_PointCloud *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_Assign</name>
         <param>
-          <type><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -337,7 +337,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" declline="92" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__PointCloud_8h_1a0ca9ca4a91d40aaa15806ae20f7ee9e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_PointCloud * MR_std_shared_ptr_MR_PointCloud_ConstructNonOwning</definition>
         <argsstring>(MR_PointCloud *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_ConstructNonOwning</name>
@@ -360,7 +360,7 @@
         <argsstring>(MR_std_shared_ptr_MR_PointCloud *_this, MR_PointCloud *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_AssignNonOwning</name>
         <param>
-          <type><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -377,7 +377,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_PointCloud.h" declline="104" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__shared__ptr__MR__PointCloud_8h_1a0f538dac19f35ae02b3a24e7d387b171" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
         <definition>MRC_API MR_std_shared_ptr_MR_PointCloud * MR_std_shared_ptr_MR_PointCloud_ConstructAliasing</definition>
         <argsstring>(MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_PointCloud *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_ConstructAliasing</name>
@@ -408,7 +408,7 @@
         <argsstring>(MR_std_shared_ptr_MR_PointCloud *_this, MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_PointCloud *ptr)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_AssignAliasing</name>
         <param>
-          <type><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -438,7 +438,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_PointCloud *_this)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_ConvertTo_MR_std_shared_ptr_void</name>
         <param>
-          <type>const <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -456,7 +456,7 @@
         <argsstring>(const MR_std_shared_ptr_MR_PointCloud *_this, MR_std_shared_ptr_void *_target)</argsstring>
         <name>MR_std_shared_ptr_MR_PointCloud_AssignTo_MR_std_shared_ptr_void</name>
         <param>
-          <type>const <ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
+          <type>const <ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -495,49 +495,49 @@
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="std__shared__ptr__MR__PointCloud_8h_1a098082f51f54f2f0724a92df3e7a8db5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a098082f51f54f2f0724a92df3e7a8db5" kindref="member">MR_std_shared_ptr_MR_PointCloud_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24" refid="std__shared__ptr__MR__PointCloud_8h_1a098082f51f54f2f0724a92df3e7a8db5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a098082f51f54f2f0724a92df3e7a8db5" kindref="member">MR_std_shared_ptr_MR_PointCloud_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="std__shared__ptr__MR__PointCloud_8h_1afef7cc4aca2784dde328fc65794b5728" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1afef7cc4aca2784dde328fc65794b5728" kindref="member">MR_std_shared_ptr_MR_PointCloud_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="29" refid="std__shared__ptr__MR__PointCloud_8h_1afef7cc4aca2784dde328fc65794b5728" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1afef7cc4aca2784dde328fc65794b5728" kindref="member">MR_std_shared_ptr_MR_PointCloud_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="std__shared__ptr__MR__PointCloud_8h_1a07a8a3aea3668a0a620abf2cad6f4f14" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a07a8a3aea3668a0a620abf2cad6f4f14" kindref="member">MR_std_shared_ptr_MR_PointCloud_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="35" refid="std__shared__ptr__MR__PointCloud_8h_1a07a8a3aea3668a0a620abf2cad6f4f14" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a07a8a3aea3668a0a620abf2cad6f4f14" kindref="member">MR_std_shared_ptr_MR_PointCloud_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="std__shared__ptr__MR__PointCloud_8h_1a74dbb7fa2b16738b8b18081f5828c0f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a74dbb7fa2b16738b8b18081f5828c0f6" kindref="member">MR_std_shared_ptr_MR_PointCloud_AssignFromAnother</ref>(<ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="41" refid="std__shared__ptr__MR__PointCloud_8h_1a74dbb7fa2b16738b8b18081f5828c0f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a74dbb7fa2b16738b8b18081f5828c0f6" kindref="member">MR_std_shared_ptr_MR_PointCloud_AssignFromAnother</ref>(<ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="std__shared__ptr__MR__PointCloud_8h_1a73eb9ddc8e0bc3537ce6fdf53f6e6a30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a73eb9ddc8e0bc3537ce6fdf53f6e6a30" kindref="member">MR_std_shared_ptr_MR_PointCloud_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44" refid="std__shared__ptr__MR__PointCloud_8h_1a73eb9ddc8e0bc3537ce6fdf53f6e6a30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a73eb9ddc8e0bc3537ce6fdf53f6e6a30" kindref="member">MR_std_shared_ptr_MR_PointCloud_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="std__shared__ptr__MR__PointCloud_8h_1a0f2ad27591587047748703be881b19f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a0f2ad27591587047748703be881b19f0" kindref="member">MR_std_shared_ptr_MR_PointCloud_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47" refid="std__shared__ptr__MR__PointCloud_8h_1a0f2ad27591587047748703be881b19f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a0f2ad27591587047748703be881b19f0" kindref="member">MR_std_shared_ptr_MR_PointCloud_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="std__shared__ptr__MR__PointCloud_8h_1a634276b01dff98c7b3d26d0f8e29368b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a634276b01dff98c7b3d26d0f8e29368b" kindref="member">MR_std_shared_ptr_MR_PointCloud_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="51" refid="std__shared__ptr__MR__PointCloud_8h_1a634276b01dff98c7b3d26d0f8e29368b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a634276b01dff98c7b3d26d0f8e29368b" kindref="member">MR_std_shared_ptr_MR_PointCloud_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="std__shared__ptr__MR__PointCloud_8h_1a6f485bee4002ee362ee27d5f11f78266" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a6f485bee4002ee362ee27d5f11f78266" kindref="member">MR_std_shared_ptr_MR_PointCloud_OffsetMutablePtr</ref>(<ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="55" refid="std__shared__ptr__MR__PointCloud_8h_1a6f485bee4002ee362ee27d5f11f78266" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a6f485bee4002ee362ee27d5f11f78266" kindref="member">MR_std_shared_ptr_MR_PointCloud_OffsetMutablePtr</ref>(<ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="std__shared__ptr__MR__PointCloud_8h_1a1b2cc012ea13bab21913375cd820b287" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a1b2cc012ea13bab21913375cd820b287" kindref="member">MR_std_shared_ptr_MR_PointCloud_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60" refid="std__shared__ptr__MR__PointCloud_8h_1a1b2cc012ea13bab21913375cd820b287" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a1b2cc012ea13bab21913375cd820b287" kindref="member">MR_std_shared_ptr_MR_PointCloud_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="std__shared__ptr__MR__PointCloud_8h_1a9e24d9d39ee77fa61b0e7803e41b67aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a9e24d9d39ee77fa61b0e7803e41b67aa" kindref="member">MR_std_shared_ptr_MR_PointCloud_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64" refid="std__shared__ptr__MR__PointCloud_8h_1a9e24d9d39ee77fa61b0e7803e41b67aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a9e24d9d39ee77fa61b0e7803e41b67aa" kindref="member">MR_std_shared_ptr_MR_PointCloud_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="std__shared__ptr__MR__PointCloud_8h_1af94f3fa01b51ddd981e81ad3667ddb59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1af94f3fa01b51ddd981e81ad3667ddb59" kindref="member">MR_std_shared_ptr_MR_PointCloud_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70" refid="std__shared__ptr__MR__PointCloud_8h_1af94f3fa01b51ddd981e81ad3667ddb59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1af94f3fa01b51ddd981e81ad3667ddb59" kindref="member">MR_std_shared_ptr_MR_PointCloud_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="std__shared__ptr__MR__PointCloud_8h_1a47d4e330b326002b61503bd7c63a4b28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a47d4e330b326002b61503bd7c63a4b28" kindref="member">MR_std_shared_ptr_MR_PointCloud_reset</ref>(<ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74" refid="std__shared__ptr__MR__PointCloud_8h_1a47d4e330b326002b61503bd7c63a4b28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a47d4e330b326002b61503bd7c63a4b28" kindref="member">MR_std_shared_ptr_MR_PointCloud_reset</ref>(<ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="std__shared__ptr__MR__PointCloud_8h_1a14adef3cafa3b744e0ff1ec5c30a9506" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a14adef3cafa3b744e0ff1ec5c30a9506" kindref="member">MR_std_shared_ptr_MR_PointCloud_ConstructFromValue</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="80" refid="std__shared__ptr__MR__PointCloud_8h_1a14adef3cafa3b744e0ff1ec5c30a9506" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a14adef3cafa3b744e0ff1ec5c30a9506" kindref="member">MR_std_shared_ptr_MR_PointCloud_ConstructFromValue</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="std__shared__ptr__MR__PointCloud_8h_1a2ecc386035687cfd70785514893b9c84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a2ecc386035687cfd70785514893b9c84" kindref="member">MR_std_shared_ptr_MR_PointCloud_Construct</ref>(<ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="86" refid="std__shared__ptr__MR__PointCloud_8h_1a2ecc386035687cfd70785514893b9c84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a2ecc386035687cfd70785514893b9c84" kindref="member">MR_std_shared_ptr_MR_PointCloud_Construct</ref>(<ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="std__shared__ptr__MR__PointCloud_8h_1afa95a2dd2e04356a30eafd238004e371" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1afa95a2dd2e04356a30eafd238004e371" kindref="member">MR_std_shared_ptr_MR_PointCloud_Assign</ref>(<ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="92" refid="std__shared__ptr__MR__PointCloud_8h_1afa95a2dd2e04356a30eafd238004e371" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1afa95a2dd2e04356a30eafd238004e371" kindref="member">MR_std_shared_ptr_MR_PointCloud_Assign</ref>(<ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="std__shared__ptr__MR__PointCloud_8h_1a0ca9ca4a91d40aaa15806ae20f7ee9e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a0ca9ca4a91d40aaa15806ae20f7ee9e4" kindref="member">MR_std_shared_ptr_MR_PointCloud_ConstructNonOwning</ref>(<ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="98" refid="std__shared__ptr__MR__PointCloud_8h_1a0ca9ca4a91d40aaa15806ae20f7ee9e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a0ca9ca4a91d40aaa15806ae20f7ee9e4" kindref="member">MR_std_shared_ptr_MR_PointCloud_ConstructNonOwning</ref>(<ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="std__shared__ptr__MR__PointCloud_8h_1ac34684284bc99935c4b60616b89c870c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1ac34684284bc99935c4b60616b89c870c" kindref="member">MR_std_shared_ptr_MR_PointCloud_AssignNonOwning</ref>(<ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="104" refid="std__shared__ptr__MR__PointCloud_8h_1ac34684284bc99935c4b60616b89c870c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1ac34684284bc99935c4b60616b89c870c" kindref="member">MR_std_shared_ptr_MR_PointCloud_AssignNonOwning</ref>(<ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="std__shared__ptr__MR__PointCloud_8h_1a0f538dac19f35ae02b3a24e7d387b171" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a0f538dac19f35ae02b3a24e7d387b171" kindref="member">MR_std_shared_ptr_MR_PointCloud_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="111" refid="std__shared__ptr__MR__PointCloud_8h_1a0f538dac19f35ae02b3a24e7d387b171" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a0f538dac19f35ae02b3a24e7d387b171" kindref="member">MR_std_shared_ptr_MR_PointCloud_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="std__shared__ptr__MR__PointCloud_8h_1a8745d41b9f72ed2dcfb319abd96870ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a8745d41b9f72ed2dcfb319abd96870ab" kindref="member">MR_std_shared_ptr_MR_PointCloud_AssignAliasing</ref>(<ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="118" refid="std__shared__ptr__MR__PointCloud_8h_1a8745d41b9f72ed2dcfb319abd96870ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a8745d41b9f72ed2dcfb319abd96870ab" kindref="member">MR_std_shared_ptr_MR_PointCloud_AssignAliasing</ref>(<ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*ptr);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="std__shared__ptr__MR__PointCloud_8h_1a50bb983b16d12546ac3d0ebc24177f39" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a50bb983b16d12546ac3d0ebc24177f39" kindref="member">MR_std_shared_ptr_MR_PointCloud_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123" refid="std__shared__ptr__MR__PointCloud_8h_1a50bb983b16d12546ac3d0ebc24177f39" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__PointCloud_8h_1a50bb983b16d12546ac3d0ebc24177f39" kindref="member">MR_std_shared_ptr_MR_PointCloud_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="std__shared__ptr__MR__PointCloud_8h_1a53a2a242abebc5eae3843c17896a7928" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a53a2a242abebc5eae3843c17896a7928" kindref="member">MR_std_shared_ptr_MR_PointCloud_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeapBytes_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
+<codeline lineno="128" refid="std__shared__ptr__MR__PointCloud_8h_1a53a2a242abebc5eae3843c17896a7928" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__PointCloud_8h_1a53a2a242abebc5eae3843c17896a7928" kindref="member">MR_std_shared_ptr_MR_PointCloud_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1af47e1d768546a43d180d3cfe29e3e72e" kindref="member">MR_std_shared_ptr_MR_PointCloud</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="131"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

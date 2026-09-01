@@ -1,5 +1,9 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1Dipole.html#ae59d6648178b1e595328451e22a40f01":[8,3,0,0,0,1124,8],
+"classMR_1_1Dipole.html#ae71aa75f960018d48ff55c3df491211c":[8,3,0,0,0,1124,6],
+"classMR_1_1Dipole.html#afaa805650aefcff0c54d890db0967666":[8,3,0,0,0,1124,3],
+"classMR_1_1Dipoles.html":[8,3,0,0,0,1125],
 "classMR_1_1Dipoles.html#a11b583021e974bf78abf5c0045954d9f":[8,3,0,0,0,1125,8],
 "classMR_1_1Dipoles.html#a195ce5f79be16492dde15d1b72915132":[8,3,0,0,0,1125,15],
 "classMR_1_1Dipoles.html#a25f0d0302ef69109d18a51228bf46aed":[8,3,0,0,0,1125,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1DividePolylineParameters.html#ab44b6e201bfdb383a3089f76203686ad":[8,3,0,0,0,1140,0],
 "classMR_1_1DividePolylineParameters.html#ab894f6f58e424ebaa2216b4cf508040a":[8,3,0,0,0,1140,1],
 "classMR_1_1DividePolylineParameters.html#abb29ee9bf97b682a80486a3bdf9333cd":[8,3,0,0,0,1140,10],
-"classMR_1_1DividePolylineParameters.html#af8d6aabd28d4ac72da174657bda5339d":[8,3,0,0,0,1140,11],
-"classMR_1_1DividePolylineParameters.html#afd882db9690be2342a9012610e0c8d66":[8,3,0,0,0,1140,3],
-"classMR_1_1DoubleOffsetSettings.html":[8,3,0,0,0,1141],
-"classMR_1_1DoubleOffsetSettings.html#a14d6af458c9b44f00eb966af1ac36dd6":[8,3,0,0,0,1141,8],
-"classMR_1_1DoubleOffsetSettings.html#a2f6349bb80f304ef41106eb5a80ae0ef":[8,3,0,0,0,1141,13]
+"classMR_1_1DividePolylineParameters.html#af8d6aabd28d4ac72da174657bda5339d":[8,3,0,0,0,1140,11]
 };

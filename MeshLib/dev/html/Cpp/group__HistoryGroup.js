@@ -141,6 +141,7 @@ var group__HistoryGroup =
     [ "MR::ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", [
       [ "Obj", "group__GeneralGroup.html#ga88fbf81698d29dc3b1de82e6258f3e62", null ],
       [ "ChangePointCloudAction", "group__GeneralGroup.html#ga36b0016bc6e04bb6c94996e9c8adbea2", null ],
+      [ "ChangePointCloudAction", "group__GeneralGroup.html#gaac9eef254f634608d267561dcaffe898", null ],
       [ "action", "group__GeneralGroup.html#ga618406d420de41e825205cae3f53c9c6", null ],
       [ "heapBytes", "group__GeneralGroup.html#gaea2ce2e41b3850a18e72e5766ccb86f5", null ],
       [ "name", "group__GeneralGroup.html#ga3d96f0fc00a2d6d30b4807712b3793b6", null ]
@@ -259,6 +260,7 @@ var group__HistoryGroup =
     [ "MR::ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html", [
       [ "Obj", "classMR_1_1ChangePointPointSelectionAction.html#adf6db1de62ed6cf97b83d0a1c00a9999", null ],
       [ "ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html#a455a37f2beea261ea75c996d374fc0d9", null ],
+      [ "ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html#a435399a73689e1363e7232f7feee3666", null ],
       [ "action", "classMR_1_1ChangePointPointSelectionAction.html#ac11863b18cf6233f258a49395537c69c", null ],
       [ "heapBytes", "classMR_1_1ChangePointPointSelectionAction.html#aced37c6f615d0a18b1743ee3895a5d3b", null ],
       [ "name", "classMR_1_1ChangePointPointSelectionAction.html#a7ebe140792b37c16fdd8f129492ad4c8", null ],
