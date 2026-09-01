@@ -14,7 +14,7 @@ var MRMesh_8h =
     [ "MR_Mesh_addMesh_3", "MRMesh_8h.html#a5cc45ab6c663c82b2a55f19d43e5b052", null ],
     [ "MR_Mesh_addMesh_5", "MRMesh_8h.html#af39d3bbf2a2c996161013a6516e5434b", null ],
     [ "MR_Mesh_addMeshPart_3", "MRMesh_8h.html#a327b70a850629fb3615347f3cd81e1a5", null ],
-    [ "MR_Mesh_addMeshPart_6", "MRMesh_8h.html#a60375d4f74daa370cb0c456039ec724e", null ],
+    [ "MR_Mesh_addMeshPart_6", "MRMesh_8h.html#a4b9b5e5d3972f17bd7bdd2edbf0c0d98", null ],
     [ "MR_Mesh_addPoint", "MRMesh_8h.html#aa9a7c2d5e5dd1098514cbd630f0a6e5c", null ],
     [ "MR_Mesh_addSeparateContours", "MRMesh_8h.html#a5ab517372617a2baf4133b9e136aebae", null ],
     [ "MR_Mesh_addSeparateEdgeLoop", "MRMesh_8h.html#a0fd4f93196da3e4dd46387f17845e20a", null ],

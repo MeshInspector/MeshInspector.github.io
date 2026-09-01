@@ -205,7 +205,7 @@ var NAVTREEINDEX =
 "MRMeshOrPoints_8h.html#a569c2786189afb686b100439626a0434",
 "MRMeshRelax_8h.html#a84fccd68865fe15759333e4506d98e78",
 "MRMeshThickness_8h.html#a2ef40b17e95a2cb617b591894f0af865",
-"MRMeshTopology_8h.html#aac55d026c1f8bafcf999f16a59e27c62",
+"MRMeshTopology_8h.html#aab670a3a076d06613a6acbc386a0a7e7",
 "MRMesh_8h.html#a713d61c2f69035596117753c0343e316",
 "MRMoveMeshToVoxelMaxDeriv_8h.html#ac27ce883d0b3dafa39923339afec28d3",
 "MRMultiwayICP_8h.html#ad3d7615be58ba4eacdefd2f2bcfcd54f",

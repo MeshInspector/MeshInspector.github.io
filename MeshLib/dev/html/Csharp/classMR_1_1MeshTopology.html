@@ -217,8 +217,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acb6c4e7d1ae3135db2f29441b418fa07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ad4bde8ebc39bc224e43fe0913982be6d" title="appends mesh topology (from) in addition to the current topology: creates new edges,...">MR.MeshTopology.addPart</a></span>. Parameter <span class="tt">rearrangeTriangles</span> defaults to <span class="tt">false</span>.  <br /></td></tr>
 <tr class="memitem:a0bfe6c8f45ec85166612d6b5687b4c92" id="r_a0bfe6c8f45ec85166612d6b5687b4c92"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bfe6c8f45ec85166612d6b5687b4c92">addPartByMask</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? fromFaces, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
 <tr class="memdesc:a0bfe6c8f45ec85166612d6b5687b4c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends the portion of (from) specified by fromFaces in addition to the current topology: creates new edges, faces, verts; optional  <br /></td></tr>
-<tr class="memitem:a0a3932dfe3258e27b06c97c604b26cc0" id="r_a0a3932dfe3258e27b06c97c604b26cc0"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a3932dfe3258e27b06c97c604b26cc0">addPartByMask</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? fromFaces, bool? <a class="el" href="#aa8f93500c5a7191443286a5d8bddba59">flipOrientation</a>=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
-<tr class="memdesc:a0a3932dfe3258e27b06c97c604b26cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">this version has more parameters  <br /></td></tr>
+<tr class="memitem:a6e30a67087ec37a8224aab2be758645f" id="r_a6e30a67087ec37a8224aab2be758645f"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e30a67087ec37a8224aab2be758645f">addPartByMask</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? fromFaces, bool? <a class="el" href="#aa8f93500c5a7191443286a5d8bddba59">flipOrientation</a>=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
+<tr class="memdesc:a6e30a67087ec37a8224aab2be758645f"><td class="mdescLeft">&#160;</td><td class="mdescRight">this version has more parameters  <br /></td></tr>
 <tr class="memitem:a3003427f4a7585b1541d6859faf20424" id="r_a3003427f4a7585b1541d6859faf20424"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3003427f4a7585b1541d6859faf20424">rotateTriangles</a> ()</td></tr>
 <tr class="memdesc:a3003427f4a7585b1541d6859faf20424"><td class="mdescLeft">&#160;</td><td class="mdescRight">for each triangle selects edgeWithLeft with minimal origin vertex Generated from method <span class="tt"><a class="el" href="#a3003427f4a7585b1541d6859faf20424" title="for each triangle selects edgeWithLeft with minimal origin vertex Generated from method MR....">MR.MeshTopology.rotateTriangles</a></span>.  <br /></td></tr>
 <tr class="memitem:af6fdc6f07c1bde76bfed4031e833fb09" id="r_af6fdc6f07c1bde76bfed4031e833fb09"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09">pack</a> (<a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? outFmap=null, <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? outVmap=null, <a class="el" href="classMR_1_1WholeEdgeMap.html">MR.WholeEdgeMap</a>? outEmap=null, bool? rearrangeTriangles=null)</td></tr>
@@ -726,8 +726,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a0a3932dfe3258e27b06c97c604b26cc0" name="a0a3932dfe3258e27b06c97c604b26cc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a3932dfe3258e27b06c97c604b26cc0">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[1/2]</span></h2>
+<a id="a6e30a67087ec37a8224aab2be758645f" name="a6e30a67087ec37a8224aab2be758645f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e30a67087ec37a8224aab2be758645f">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -736,7 +736,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe void MR.MeshTopology.addPartByMask </td>
+          <td class="memname">unsafe bool MR.MeshTopology.addPartByMask </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
         </tr>
@@ -784,10 +784,11 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">flipOrientation</td><td>if true then every from triangle is inverted before adding </td></tr>
     <tr><td class="paramname">thisContours</td><td>contours on this mesh (no left face) that have to be stitched with </td></tr>
     <tr><td class="paramname">fromContours</td><td>contours on from mesh during addition (no left face if flipOrientation otherwise no right face) optional</td></tr>
-    <tr><td class="paramname">vacant</td><td>can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone Generated from method <span class="tt"><a class="el" href="#a0bfe6c8f45ec85166612d6b5687b4c92" title="appends the portion of (from) specified by fromFaces in addition to the current topology: creates new...">MR.MeshTopology.addPartByMask</a></span>. Parameter <span class="tt">flipOrientation</span> defaults to <span class="tt">false</span>. Parameter <span class="tt">thisContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">fromContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </td></tr>
+    <tr><td class="paramname">vacant</td><td>can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>false if the given contours cannot be stitched (see the conditions on them above), and this topology is left unmodified then (the src2tgt mappings in (map) argument can be partially filled nevertheless) Generated from method <span class="tt"><a class="el" href="#a0bfe6c8f45ec85166612d6b5687b4c92" title="appends the portion of (from) specified by fromFaces in addition to the current topology: creates new...">MR.MeshTopology.addPartByMask</a></span>. Parameter <span class="tt">flipOrientation</span> defaults to <span class="tt">false</span>. Parameter <span class="tt">thisContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">fromContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </dd></dl>
 
 </div>
 </div>

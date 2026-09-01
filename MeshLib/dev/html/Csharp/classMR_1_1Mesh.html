@@ -196,8 +196,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af28122d6c3bcc15f02f009974fe84bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a466f6cad2b51436a361e61648f2fb865" title="appends another mesh as separate connected component(s) to this Generated from method MR....">MR.Mesh.addMesh</a></span>. Parameter <span class="tt">rearrangeTriangles</span> defaults to <span class="tt">false</span>.  <br /></td></tr>
 <tr class="memitem:a1ed5a4757fbcc9ea80e3ed92eff1c33f" id="r_a1ed5a4757fbcc9ea80e3ed92eff1c33f"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ed5a4757fbcc9ea80e3ed92eff1c33f">addMeshPart</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> from, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a> map, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
 <tr class="memdesc:a1ed5a4757fbcc9ea80e3ed92eff1c33f"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends whole or part of another mesh as separate connected component(s) to this optional  <br /></td></tr>
-<tr class="memitem:ac284314390074ac73115177f448a1587" id="r_ac284314390074ac73115177f448a1587"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac284314390074ac73115177f448a1587">addMeshPart</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> from, bool? flipOrientation=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
-<tr class="memdesc:ac284314390074ac73115177f448a1587"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends whole or part of another mesh to this joining added faces with existed ones along given contours  <br /></td></tr>
+<tr class="memitem:a7cc16cd06f46f37d34711f74f5c249f1" id="r_a7cc16cd06f46f37d34711f74f5c249f1"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc16cd06f46f37d34711f74f5c249f1">addMeshPart</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> from, bool? flipOrientation=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
+<tr class="memdesc:a7cc16cd06f46f37d34711f74f5c249f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends whole or part of another mesh to this joining added faces with existed ones along given contours  <br /></td></tr>
 <tr class="memitem:a8ca1dbf25d04ac66213956966250b872" id="r_a8ca1dbf25d04ac66213956966250b872"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ca1dbf25d04ac66213956966250b872">pack</a> (<a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, bool? rearrangeTriangles=null)</td></tr>
 <tr class="memdesc:a8ca1dbf25d04ac66213956966250b872"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid faces, vertices and points Generated from method <span class="tt"><a class="el" href="#a8ca1dbf25d04ac66213956966250b872" title="tightly packs all arrays eliminating lone edges and invalid faces, vertices and points Generated from...">MR.Mesh.pack</a></span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">rearrangeTriangles</span> defaults to <span class="tt">false</span>.  <br /></td></tr>
 <tr class="memitem:a3ca5fa30b57fdada6bfe0aecb9868a7f" id="r_a3ca5fa30b57fdada6bfe0aecb9868a7f"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ca5fa30b57fdada6bfe0aecb9868a7f">pack</a> (<a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? outFmap, <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? outVmap=null, <a class="el" href="classMR_1_1WholeEdgeMap.html">MR.WholeEdgeMap</a>? outEmap=null, bool? rearrangeTriangles=null)</td></tr>
@@ -628,8 +628,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ac284314390074ac73115177f448a1587" name="ac284314390074ac73115177f448a1587"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac284314390074ac73115177f448a1587">&#9670;&#160;</a></span>addMeshPart() <span class="overload">[1/2]</span></h2>
+<a id="a7cc16cd06f46f37d34711f74f5c249f1" name="a7cc16cd06f46f37d34711f74f5c249f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc16cd06f46f37d34711f74f5c249f1">&#9670;&#160;</a></span>addMeshPart() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -638,7 +638,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe void MR.Mesh.addMeshPart </td>
+          <td class="memname">unsafe bool MR.Mesh.addMeshPart </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
         </tr>
@@ -679,10 +679,11 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">flipOrientation</td><td>true means that every (from) triangle is inverted before adding optional</td></tr>
-    <tr><td class="paramname">vacant</td><td>can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone Generated from method <span class="tt"><a class="el" href="#a1ed5a4757fbcc9ea80e3ed92eff1c33f" title="appends whole or part of another mesh as separate connected component(s) to this optional">MR.Mesh.addMeshPart</a></span>. Parameter <span class="tt">flipOrientation</span> defaults to <span class="tt">false</span>. Parameter <span class="tt">thisContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">fromContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </td></tr>
+    <tr><td class="paramname">vacant</td><td>can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>false if the given contours cannot be stitched, and this mesh is left unmodified then (the src2tgt mappings in (map) argument can be partially filled nevertheless) Generated from method <span class="tt"><a class="el" href="#a1ed5a4757fbcc9ea80e3ed92eff1c33f" title="appends whole or part of another mesh as separate connected component(s) to this optional">MR.Mesh.addMeshPart</a></span>. Parameter <span class="tt">flipOrientation</span> defaults to <span class="tt">false</span>. Parameter <span class="tt">thisContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">fromContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </dd></dl>
 
 </div>
 </div>

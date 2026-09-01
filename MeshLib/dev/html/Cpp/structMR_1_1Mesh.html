@@ -301,7 +301,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a49da568d87acf71cf25460da1bd07d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends another mesh as separate connected component(s) to this  <br /></td></tr>
 <tr class="memitem:ac05aec705a09ff41edd35394ade19c16" id="r_ac05aec705a09ff41edd35394ade19c16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac05aec705a09ff41edd35394ade19c16">addMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, FaceMap *outFmap, VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr, bool rearrangeTriangles=false)</td></tr>
 <tr class="memitem:a40a4b434d26da4ffa956ad8cb72093ff" id="r_a40a4b434d26da4ffa956ad8cb72093ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40a4b434d26da4ffa956ad8cb72093ff">addMeshPart</a> (const MeshPart &amp;from, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map, <a class="el" href="structMR_1_1VacantElements.html">VacantElements</a> *vacant={})</td></tr>
-<tr class="memitem:aa5410bc73b84b6db4513263ef8902fa0" id="r_aa5410bc73b84b6db4513263ef8902fa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5410bc73b84b6db4513263ef8902fa0">addMeshPart</a> (const MeshPart &amp;from, bool flipOrientation=false, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;thisContours={}, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;fromContours={}, <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> map={}, <a class="el" href="structMR_1_1VacantElements.html">VacantElements</a> *vacant={})</td></tr>
+<tr class="memitem:a3eb0890a9d7a3fe58757bdd6768610ac" id="r_a3eb0890a9d7a3fe58757bdd6768610ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eb0890a9d7a3fe58757bdd6768610ac">addMeshPart</a> (const MeshPart &amp;from, bool flipOrientation=false, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;thisContours={}, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;fromContours={}, <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> map={}, <a class="el" href="structMR_1_1VacantElements.html">VacantElements</a> *vacant={})</td></tr>
 <tr class="memitem:ac4bbb2d333e304c960c0c097d67a4595" id="r_ac4bbb2d333e304c960c0c097d67a4595"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4bbb2d333e304c960c0c097d67a4595">cloneRegion</a> (const FaceBitSet &amp;region, bool flipOrientation=false, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={}) const</td></tr>
 <tr class="memdesc:ac4bbb2d333e304c960c0c097d67a4595"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates new mesh from given triangles of this mesh  <br /></td></tr>
 <tr class="memitem:a195c509bc89bff7c15ae4f20a0659b36" id="r_a195c509bc89bff7c15ae4f20a0659b36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a195c509bc89bff7c15ae4f20a0659b36">pack</a> (const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={}, bool rearrangeTriangles=false)</td></tr>
@@ -425,14 +425,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa5410bc73b84b6db4513263ef8902fa0" name="aa5410bc73b84b6db4513263ef8902fa0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5410bc73b84b6db4513263ef8902fa0">&#9670;&#160;</a></span>addMeshPart() <span class="overload">[1/2]</span></h2>
+<a id="a3eb0890a9d7a3fe58757bdd6768610ac" name="a3eb0890a9d7a3fe58757bdd6768610ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eb0890a9d7a3fe58757bdd6768610ac">&#9670;&#160;</a></span>addMeshPart() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::Mesh::addMeshPart </td>
+          <td class="memname">bool MR::Mesh::addMeshPart </td>
           <td>(</td>
           <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
         </tr>
@@ -470,6 +470,7 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>false if the given contours cannot be stitched, and this mesh is left unmodified then (the src2tgt mappings in (map) argument can be partially filled nevertheless) </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fromContours</td><td>contours on this mesh that have to be stitched with  </td></tr>
