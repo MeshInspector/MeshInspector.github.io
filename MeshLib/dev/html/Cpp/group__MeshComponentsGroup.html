@@ -156,6 +156,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c">MR::MeshComponents::PerVertex</a>
  }</td></tr>
 <tr class="memdesc:ga7489c91178e90fdd4200bbb0074e025f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Face incidence type.  <a href="#ga7489c91178e90fdd4200bbb0074e025f">More...</a><br /></td></tr>
+<tr class="memitem:gad136d40567d48c0a0e9668c5daf797b9" id="r_gad136d40567d48c0a0e9668c5daf797b9"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad136d40567d48c0a0e9668c5daf797b9">MR::MeshComponents::VolumeSelection</a> { <a class="el" href="#ggad136d40567d48c0a0e9668c5daf797b9a1e34af023adeb7d5f484f8eb4b9826b6">MR::MeshComponents::VolumeSelection::Abs</a>
+, <a class="el" href="#ggad136d40567d48c0a0e9668c5daf797b9a3289297424e01eda5b788c083bbf3147">MR::MeshComponents::VolumeSelection::Positive</a>
+, <a class="el" href="#ggad136d40567d48c0a0e9668c5daf797b9affb9356ff2b7da85c75c92fa7ea03b8b">MR::MeshComponents::VolumeSelection::Negative</a>
+ }</td></tr>
+<tr class="memdesc:gad136d40567d48c0a0e9668c5daf797b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">the rule of selecting one component by its signed volume  <a href="#gad136d40567d48c0a0e9668c5daf797b9">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -169,6 +174,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaec294ffa0563a15d0b25c06c81ee5d51"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the area of the largest by surface area component, and zero if there are no components at all  <br /></td></tr>
 <tr class="memitem:gad1f06f5521d13b8e679953ce57f4e690" id="r_gad1f06f5521d13b8e679953ce57f4e690"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1f06f5521d13b8e679953ce57f4e690">MR::MeshComponents::getLargestComponent</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={}, float minArea=0, int *numSmallerComponents=nullptr)</td></tr>
 <tr class="memdesc:gad1f06f5521d13b8e679953ce57f4e690"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest by surface area component or empty set if its area is smaller than  <br /></td></tr>
+<tr class="memitem:ga15d5de6ff738635f4d805cf6e8581aaa" id="r_ga15d5de6ff738635f4d805cf6e8581aaa"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga15d5de6ff738635f4d805cf6e8581aaa">MR::MeshComponents::getLargestComponentVolume</a> (const MeshPart &amp;meshPart, <a class="el" href="#gad136d40567d48c0a0e9668c5daf797b9">VolumeSelection</a> selection=<a class="el" href="#ggad136d40567d48c0a0e9668c5daf797b9a1e34af023adeb7d5f484f8eb4b9826b6">VolumeSelection::Abs</a>, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={}, FaceBitSet *largestComponent=nullptr, int *numSmallerComponents=nullptr)</td></tr>
+<tr class="memdesc:ga15d5de6ff738635f4d805cf6e8581aaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: the number of components in addition to returned one, so all components if none was selected  <br /></td></tr>
 <tr class="memitem:gaab630260881d2a238df5dfc1d9a31517" id="r_gaab630260881d2a238df5dfc1d9a31517"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab630260881d2a238df5dfc1d9a31517">MR::MeshComponents::getComponents</a> (const MeshPart &amp;meshPart, const FaceBitSet &amp;seeds, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
 <tr class="memdesc:gaab630260881d2a238df5dfc1d9a31517"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns union of connected components, each of which contains at least one seed face  <br /></td></tr>
 <tr class="memitem:ga96e3045fbc7e35b4c183ed1fdb98850b" id="r_ga96e3045fbc7e35b4c183ed1fdb98850b"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga96e3045fbc7e35b4c183ed1fdb98850b">MR::MeshComponents::getComponents</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet &amp;seeds, const FaceBitSet *region=nullptr, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
@@ -251,6 +258,40 @@ Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc" name="gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc"></a>PerEdge&#160;</td><td class="fielddoc"><p>face can have neighbor only via edge </p>
 </td></tr>
 <tr><td class="fieldname"><a id="gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c" name="gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c"></a>PerVertex&#160;</td><td class="fielddoc"><p>face can have neighbor via vertex </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="gad136d40567d48c0a0e9668c5daf797b9" name="gad136d40567d48c0a0e9668c5daf797b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad136d40567d48c0a0e9668c5daf797b9">&#9670;&#160;</a></span>VolumeSelection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#gad136d40567d48c0a0e9668c5daf797b9">MR::MeshComponents::VolumeSelection</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
+
+<p>the rule of selecting one component by its signed volume </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggad136d40567d48c0a0e9668c5daf797b9a1e34af023adeb7d5f484f8eb4b9826b6" name="ggad136d40567d48c0a0e9668c5daf797b9a1e34af023adeb7d5f484f8eb4b9826b6"></a>Abs&#160;</td><td class="fielddoc"><p>the component with the largest absolute volume, whatever its sign is </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggad136d40567d48c0a0e9668c5daf797b9a3289297424e01eda5b788c083bbf3147" name="ggad136d40567d48c0a0e9668c5daf797b9a3289297424e01eda5b788c083bbf3147"></a>Positive&#160;</td><td class="fielddoc"><p>the component with the largest positive volume (its normals look outside) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggad136d40567d48c0a0e9668c5daf797b9affb9356ff2b7da85c75c92fa7ea03b8b" name="ggad136d40567d48c0a0e9668c5daf797b9affb9356ff2b7da85c75c92fa7ea03b8b"></a>Negative&#160;</td><td class="fielddoc"><p>the component with the smallest negative volume (its normals look inside) </p>
 </td></tr>
 </table>
 
@@ -1322,6 +1363,66 @@ Functions</h2></td></tr>
 <p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
 
 <p>returns the largest by number of elements component </p>
+
+</div>
+</div>
+<a id="ga15d5de6ff738635f4d805cf6e8581aaa" name="ga15d5de6ff738635f4d805cf6e8581aaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga15d5de6ff738635f4d805cf6e8581aaa">&#9670;&#160;</a></span>getLargestComponentVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::MeshComponents::getLargestComponentVolume </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#gad136d40567d48c0a0e9668c5daf797b9">VolumeSelection</a></td>          <td class="paramname"><span class="paramname"><em>selection</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#ggad136d40567d48c0a0e9668c5daf797b9a1e34af023adeb7d5f484f8eb4b9826b6">VolumeSelection::Abs</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a></td>          <td class="paramname"><span class="paramname"><em>incidence</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UndirectedEdgeBitSet *</td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>largestComponent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
+
+<p>optional output: the number of components in addition to returned one, so all components if none was selected </p>
+<p>returns the signed volume of the component selected by given rule, and zero if no component satisfies it, which is possible for Positive and Negative rules only, since they never select a component of zero volume; the volume of each component is computed as if it were closed, so the result is correct only for a closed mesh part (or if the area of holes in it is almost zero) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">largestComponent</td><td>optional output with the faces of the selected component </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -1548,6 +1548,7 @@ var hierarchy =
     [ "mrmeshpy.ObjectVoxels.VolumeRenderingParams", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html", null ],
     [ "mrmeshpy.VolumeSegmentationParameters", "classmrmeshpy_1_1VolumeSegmentationParameters.html", null ],
     [ "mrmeshpy.VolumeSegmenter", "classmrmeshpy_1_1VolumeSegmenter.html", null ],
+    [ "mrmeshpy.MeshComponents.VolumeSelection", "classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html", null ],
     [ "mrmeshpy.VolumeToMeshByPartsSettings", "classmrmeshpy_1_1VolumeToMeshByPartsSettings.html", null ],
     [ "mrmeshpy.VolumeUnit", "classmrmeshpy_1_1VolumeUnit.html", null ],
     [ "mrmeshpy.VoxelFilterType", "classmrmeshpy_1_1VoxelFilterType.html", null ],

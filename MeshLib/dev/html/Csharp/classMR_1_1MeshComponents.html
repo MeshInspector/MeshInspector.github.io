@@ -173,6 +173,11 @@ Public Types</h2></td></tr>
 , <a class="el" href="#a4456859c6a96d21172917ef5db336722a47e73954b650524c96a2c612bfda4029">PerVertex</a> = 1
  }</td></tr>
 <tr class="memdesc:a4456859c6a96d21172917ef5db336722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Face incidence type.  <a href="#a4456859c6a96d21172917ef5db336722">More...</a><br /></td></tr>
+<tr class="memitem:aef47553856f09954abb66095bfabdf94" id="r_aef47553856f09954abb66095bfabdf94"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef47553856f09954abb66095bfabdf94">VolumeSelection</a> : int { <a class="el" href="#aef47553856f09954abb66095bfabdf94a1e34af023adeb7d5f484f8eb4b9826b6">Abs</a> = 0
+, <a class="el" href="#aef47553856f09954abb66095bfabdf94a3289297424e01eda5b788c083bbf3147">Positive</a> = 1
+, <a class="el" href="#aef47553856f09954abb66095bfabdf94affb9356ff2b7da85c75c92fa7ea03b8b">Negative</a> = 2
+ }</td></tr>
+<tr class="memdesc:aef47553856f09954abb66095bfabdf94"><td class="mdescLeft">&#160;</td><td class="mdescRight">the rule of selecting one component by its signed volume  <a href="#aef47553856f09954abb66095bfabdf94">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -188,6 +193,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5645da41096dfa536ded490fd932a707"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the area of the largest by surface area component, and zero if there are no components at all Generated from function <span class="tt"><a class="el" href="#a5645da41096dfa536ded490fd932a707" title="returns the area of the largest by surface area component, and zero if there are no components at all...">MR.MeshComponents.getLargestComponentArea</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">MR.MeshComponents.PerEdge</a></span>.  <br /></td></tr>
 <tr class="memitem:ad296f69ab97903119a0505f29f6b1dde" id="r_ad296f69ab97903119a0505f29f6b1dde"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad296f69ab97903119a0505f29f6b1dde">getLargestComponent</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null, float? minArea=null, MR.Misc.InOut&lt; int &gt;? numSmallerComponents=null)</td></tr>
 <tr class="memdesc:ad296f69ab97903119a0505f29f6b1dde"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest by surface area component or empty set if its area is smaller than  <br /></td></tr>
+<tr class="memitem:a5df1158a734464d4f2674f4ae54faee2" id="r_a5df1158a734464d4f2674f4ae54faee2"><td class="memItemLeft" align="right" valign="top">static unsafe double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5df1158a734464d4f2674f4ae54faee2">getLargestComponentVolume</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="#aef47553856f09954abb66095bfabdf94">MR.MeshComponents.VolumeSelection</a>? selection=null, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? largestComponent=null, MR.Misc.InOut&lt; int &gt;? numSmallerComponents=null)</td></tr>
+<tr class="memdesc:a5df1158a734464d4f2674f4ae54faee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the signed volume of the component selected by given rule, and zero if no component satisfies it, which is possible for Positive and Negative rules only, since they never select a component of zero volume; the volume of each component is computed as if it were closed, so the result is correct only for a closed mesh part (or if the area of holes in it is almost zero) Generated from function <span class="tt"><a class="el" href="#a5df1158a734464d4f2674f4ae54faee2" title="returns the signed volume of the component selected by given rule, and zero if no component satisfies...">MR.MeshComponents.getLargestComponentVolume</a></span>. Parameter <span class="tt">selection</span> defaults to <span class="tt"><a class="el" href="#aef47553856f09954abb66095bfabdf94a1e34af023adeb7d5f484f8eb4b9826b6" title="the component with the largest absolute volume, whatever its sign is">MR.MeshComponents.VolumeSelection.Abs</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">MR.MeshComponents.PerEdge</a></span>.  <br /></td></tr>
 <tr class="memitem:a59fb06268f41733c378e3997eeaa372e" id="r_a59fb06268f41733c378e3997eeaa372e"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59fb06268f41733c378e3997eeaa372e">getComponents</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> seeds, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
 <tr class="memdesc:a59fb06268f41733c378e3997eeaa372e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns union of connected components, each of which contains at least one seed face Generated from function <span class="tt"><a class="el" href="#a59fb06268f41733c378e3997eeaa372e" title="returns union of connected components, each of which contains at least one seed face Generated from f...">MR.MeshComponents.getComponents</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">MR.MeshComponents.PerEdge</a></span>.  <br /></td></tr>
 <tr class="memitem:aaf1f2ad3338974c769944918055d4d05" id="r_aaf1f2ad3338974c769944918055d4d05"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf1f2ad3338974c769944918055d4d05">getComponents</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> seeds, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
@@ -283,6 +290,30 @@ Static Public Member Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" name="a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8"></a>PerEdge&#160;</td><td class="fielddoc"><p>face can have neighbor only via edge </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a4456859c6a96d21172917ef5db336722a47e73954b650524c96a2c612bfda4029" name="a4456859c6a96d21172917ef5db336722a47e73954b650524c96a2c612bfda4029"></a>PerVertex&#160;</td><td class="fielddoc"><p>face can have neighbor via vertex </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="aef47553856f09954abb66095bfabdf94" name="aef47553856f09954abb66095bfabdf94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef47553856f09954abb66095bfabdf94">&#9670;&#160;</a></span>VolumeSelection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#aef47553856f09954abb66095bfabdf94">MR.MeshComponents.VolumeSelection</a> : int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the rule of selecting one component by its signed volume </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aef47553856f09954abb66095bfabdf94a1e34af023adeb7d5f484f8eb4b9826b6" name="aef47553856f09954abb66095bfabdf94a1e34af023adeb7d5f484f8eb4b9826b6"></a>Abs&#160;</td><td class="fielddoc"><p>the component with the largest absolute volume, whatever its sign is </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aef47553856f09954abb66095bfabdf94a3289297424e01eda5b788c083bbf3147" name="aef47553856f09954abb66095bfabdf94a3289297424e01eda5b788c083bbf3147"></a>Positive&#160;</td><td class="fielddoc"><p>the component with the largest positive volume (its normals look outside) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aef47553856f09954abb66095bfabdf94affb9356ff2b7da85c75c92fa7ea03b8b" name="aef47553856f09954abb66095bfabdf94affb9356ff2b7da85c75c92fa7ea03b8b"></a>Negative&#160;</td><td class="fielddoc"><p>the component with the smallest negative volume (its normals look inside) </p>
 </td></tr>
 </table>
 
@@ -1318,6 +1349,57 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns the largest by number of elements component Generated from function <span class="tt"><a class="el" href="#a9543db83319e58a395e05677c4ad2d66" title="returns the largest by number of elements component Generated from function MR.MeshComponents....">MR.MeshComponents.getLargestComponentVerts</a></span>. </p>
+
+</div>
+</div>
+<a id="a5df1158a734464d4f2674f4ae54faee2" name="a5df1158a734464d4f2674f4ae54faee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5df1158a734464d4f2674f4ae54faee2">&#9670;&#160;</a></span>getLargestComponentVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe double MR.MeshComponents.getLargestComponentVolume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aef47553856f09954abb66095bfabdf94">MR.MeshComponents.VolumeSelection</a>?</td>          <td class="paramname"><span class="paramname"><em>selection</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>?</td>          <td class="paramname"><span class="paramname"><em>incidence</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>largestComponent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Misc.InOut&lt; int &gt;?</td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the signed volume of the component selected by given rule, and zero if no component satisfies it, which is possible for Positive and Negative rules only, since they never select a component of zero volume; the volume of each component is computed as if it were closed, so the result is correct only for a closed mesh part (or if the area of holes in it is almost zero) Generated from function <span class="tt"><a class="el" href="#a5df1158a734464d4f2674f4ae54faee2" title="returns the signed volume of the component selected by given rule, and zero if no component satisfies...">MR.MeshComponents.getLargestComponentVolume</a></span>. Parameter <span class="tt">selection</span> defaults to <span class="tt"><a class="el" href="#aef47553856f09954abb66095bfabdf94a1e34af023adeb7d5f484f8eb4b9826b6" title="the component with the largest absolute volume, whatever its sign is">MR.MeshComponents.VolumeSelection.Abs</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">MR.MeshComponents.PerEdge</a></span>. </p>
 
 </div>
 </div>

@@ -170,6 +170,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ad4db865f7b80a8d7441c084aaf087d1f" id="r_ad4db865f7b80a8d7441c084aaf087d1f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad4db865f7b80a8d7441c084aaf087d1f">MR_std_vector_MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4db865f7b80a8d7441c084aaf087d1f">MR_std_vector_MR_VertBitSet</a></td></tr>
 <tr class="memitem:ac3f010ac22afaad3c7b42f66688577d2" id="r_ac3f010ac22afaad3c7b42f66688577d2"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3f010ac22afaad3c7b42f66688577d2">MR_MeshComponents_FaceIncidence</a></td></tr>
 <tr class="memdesc:ac3f010ac22afaad3c7b42f66688577d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Face incidence type.  <br /></td></tr>
+<tr class="memitem:ab1723c783e46589dda78a51b35d9d358" id="r_ab1723c783e46589dda78a51b35d9d358"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a22b9dece52150481fdab6be16e073163">MR_MeshComponents_VolumeSelection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1723c783e46589dda78a51b35d9d358">MR_MeshComponents_VolumeSelection</a></td></tr>
+<tr class="memdesc:ab1723c783e46589dda78a51b35d9d358"><td class="mdescLeft">&#160;</td><td class="mdescRight">the rule of selecting one component by its signed volume  <br /></td></tr>
 <tr class="memitem:a56e44aaa8a15f4abcba40e2572542073" id="r_a56e44aaa8a15f4abcba40e2572542073"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a56e44aaa8a15f4abcba40e2572542073">MR_MeshComponents_ExpandToComponentsParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56e44aaa8a15f4abcba40e2572542073">MR_MeshComponents_ExpandToComponentsParams</a></td></tr>
 <tr class="memitem:a0ddbc518ecf93a7a8e6bae6c4ec1094d" id="r_a0ddbc518ecf93a7a8e6bae6c4ec1094d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0ddbc518ecf93a7a8e6bae6c4ec1094d">MR_MeshComponents_LargeByAreaComponentsSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ddbc518ecf93a7a8e6bae6c4ec1094d">MR_MeshComponents_LargeByAreaComponentsSettings</a></td></tr>
 </table><table class="memberdecls">
@@ -179,6 +181,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4a63622d67f557e81df914565244c8f3fb">MR_MeshComponents_FaceIncidence_PerVertex</a> = 1
  }</td></tr>
 <tr class="memdesc:acbfc9209b99265fea7b8e271571e4fe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Face incidence type.  <a href="#acbfc9209b99265fea7b8e271571e4fe4">More...</a><br /></td></tr>
+<tr class="memitem:a22b9dece52150481fdab6be16e073163" id="r_a22b9dece52150481fdab6be16e073163"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22b9dece52150481fdab6be16e073163">MR_MeshComponents_VolumeSelection</a> { <a class="el" href="#a22b9dece52150481fdab6be16e073163ac8e151ec40a4c412c9368e5754212f37">MR_MeshComponents_VolumeSelection_Abs</a> = 0
+, <a class="el" href="#a22b9dece52150481fdab6be16e073163ac21b6f2d8537b9b27cba0bcd981efc4c">MR_MeshComponents_VolumeSelection_Positive</a> = 1
+, <a class="el" href="#a22b9dece52150481fdab6be16e073163a811737918440bcd08659de0cc9375967">MR_MeshComponents_VolumeSelection_Negative</a> = 2
+ }</td></tr>
+<tr class="memdesc:a22b9dece52150481fdab6be16e073163"><td class="mdescLeft">&#160;</td><td class="mdescRight">the rule of selecting one component by its signed volume  <a href="#a22b9dece52150481fdab6be16e073163">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -188,6 +195,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ac22a60664eb284c1d110a3dee23afca8" id="r_ac22a60664eb284c1d110a3dee23afca8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac22a60664eb284c1d110a3dee23afca8">MR_MeshComponents_getLargeComponentVerts</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, int minVerts, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
 <tr class="memitem:a593f26e5b44c458fb760c29168760724" id="r_a593f26e5b44c458fb760c29168760724"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593f26e5b44c458fb760c29168760724">MR_MeshComponents_getLargestComponentArea</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, const <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a> *incidence, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd, <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *largestComponent, int *numSmallerComponents)</td></tr>
 <tr class="memitem:ae68344fd87e5a5d7ac38d3c8750a019f" id="r_ae68344fd87e5a5d7ac38d3c8750a019f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae68344fd87e5a5d7ac38d3c8750a019f">MR_MeshComponents_getLargestComponent</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, const <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a> *incidence, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd, const float *minArea, int *numSmallerComponents)</td></tr>
+<tr class="memitem:ab6ce99614e8d52d2c4bd53ec13469bd2" id="r_ab6ce99614e8d52d2c4bd53ec13469bd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6ce99614e8d52d2c4bd53ec13469bd2">MR_MeshComponents_getLargestComponentVolume</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, const <a class="el" href="#a22b9dece52150481fdab6be16e073163">MR_MeshComponents_VolumeSelection</a> *selection, const <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a> *incidence, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd, <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *largestComponent, int *numSmallerComponents)</td></tr>
 <tr class="memitem:a275e45918d779af194cd7ce990bedca9" id="r_a275e45918d779af194cd7ce990bedca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a275e45918d779af194cd7ce990bedca9">MR_MeshComponents_getComponents_4</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *seeds, const <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a> *incidence, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
 <tr class="memitem:a649c0ada722dd6a667297d9ca8d6191a" id="r_a649c0ada722dd6a667297d9ca8d6191a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a649c0ada722dd6a667297d9ca8d6191a">MR_MeshComponents_getComponents_5</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *seeds, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a> *incidence, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
 <tr class="memitem:af3097b474f0a6b69d5a02051f53314d5" id="r_af3097b474f0a6b69d5a02051f53314d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3097b474f0a6b69d5a02051f53314d5">MR_MeshComponents_getLargeByAreaComponents_3</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, float minArea, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
@@ -343,6 +351,22 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from class <span class="tt">MR::MeshComponents::LargeByAreaComponentsSettings</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ab1723c783e46589dda78a51b35d9d358" name="ab1723c783e46589dda78a51b35d9d358"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1723c783e46589dda78a51b35d9d358">&#9670;&#160;</a></span>MR_MeshComponents_VolumeSelection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#a22b9dece52150481fdab6be16e073163">MR_MeshComponents_VolumeSelection</a> <a class="el" href="#a22b9dece52150481fdab6be16e073163">MR_MeshComponents_VolumeSelection</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the rule of selecting one component by its signed volume </p>
 
 </div>
 </div>
@@ -522,6 +546,30 @@ Functions</h2></td></tr>
 <p>face can have neighbor via vertex </p>
 </td></tr>
 <tr><td class="fieldname"><a id="acbfc9209b99265fea7b8e271571e4fe4a63622d67f557e81df914565244c8f3fb" name="acbfc9209b99265fea7b8e271571e4fe4a63622d67f557e81df914565244c8f3fb"></a>MR_MeshComponents_FaceIncidence_PerVertex&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a22b9dece52150481fdab6be16e073163" name="a22b9dece52150481fdab6be16e073163"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22b9dece52150481fdab6be16e073163">&#9670;&#160;</a></span>MR_MeshComponents_VolumeSelection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a22b9dece52150481fdab6be16e073163">MR_MeshComponents_VolumeSelection</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the rule of selecting one component by its signed volume </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a22b9dece52150481fdab6be16e073163ac8e151ec40a4c412c9368e5754212f37" name="a22b9dece52150481fdab6be16e073163ac8e151ec40a4c412c9368e5754212f37"></a>MR_MeshComponents_VolumeSelection_Abs&#160;</td><td class="fielddoc"><p>the component with the largest absolute volume, whatever its sign is </p>
+<p>the component with the largest positive volume (its normals look outside) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a22b9dece52150481fdab6be16e073163ac21b6f2d8537b9b27cba0bcd981efc4c" name="a22b9dece52150481fdab6be16e073163ac21b6f2d8537b9b27cba0bcd981efc4c"></a>MR_MeshComponents_VolumeSelection_Positive&#160;</td><td class="fielddoc"><p>the component with the smallest negative volume (its normals look inside) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a22b9dece52150481fdab6be16e073163a811737918440bcd08659de0cc9375967" name="a22b9dece52150481fdab6be16e073163a811737918440bcd08659de0cc9375967"></a>MR_MeshComponents_VolumeSelection_Negative&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1816,6 +1864,48 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>returns the largest by number of elements component Generated from function <span class="tt">MR::MeshComponents::getLargestComponentVerts</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab6ce99614e8d52d2c4bd53ec13469bd2" name="ab6ce99614e8d52d2c4bd53ec13469bd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ce99614e8d52d2c4bd53ec13469bd2">&#9670;&#160;</a></span>MR_MeshComponents_getLargestComponentVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double MR_MeshComponents_getLargestComponentVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a22b9dece52150481fdab6be16e073163">MR_MeshComponents_VolumeSelection</a> *</td>          <td class="paramname"><span class="paramname"><em>selection</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a> *</td>          <td class="paramname"><span class="paramname"><em>incidence</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>largestComponent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the signed volume of the component selected by given rule, and zero if no component satisfies it, which is possible for Positive and Negative rules only, since they never select a component of zero volume; the volume of each component is computed as if it were closed, so the result is correct only for a closed mesh part (or if the area of holes in it is almost zero) Generated from function <span class="tt">MR::MeshComponents::getLargestComponentVolume</span>. Parameter <span class="tt">meshPart</span> can not be null. It is a single object. Parameter <span class="tt">selection</span> has a default argument: <span class="tt">MR::MeshComponents::VolumeSelection::Abs</span>, pass a null pointer to use it. Parameter <span class="tt">incidence</span> has a default argument: <span class="tt">MR::MeshComponents::PerEdge</span>, pass a null pointer to use it. Parameter <span class="tt">isCompBd</span> defaults to a null pointer in C++. Parameter <span class="tt">largestComponent</span> defaults to a null pointer in C++. Parameter <span class="tt">numSmallerComponents</span> defaults to a null pointer in C++. </p>
 
 </div>
 </div>

@@ -4,6 +4,11 @@ var MRMeshComponents_8h =
       [ "MR::MeshComponents::PerEdge", "group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc", null ],
       [ "MR::MeshComponents::PerVertex", "group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c", null ]
     ] ],
+    [ "MR::MeshComponents::VolumeSelection", "group__MeshComponentsGroup.html#gad136d40567d48c0a0e9668c5daf797b9", [
+      [ "MR::MeshComponents::VolumeSelection::Abs", "group__MeshComponentsGroup.html#ggad136d40567d48c0a0e9668c5daf797b9a1e34af023adeb7d5f484f8eb4b9826b6", null ],
+      [ "MR::MeshComponents::VolumeSelection::Positive", "group__MeshComponentsGroup.html#ggad136d40567d48c0a0e9668c5daf797b9a3289297424e01eda5b788c083bbf3147", null ],
+      [ "MR::MeshComponents::VolumeSelection::Negative", "group__MeshComponentsGroup.html#ggad136d40567d48c0a0e9668c5daf797b9affb9356ff2b7da85c75c92fa7ea03b8b", null ]
+    ] ],
     [ "MR::MeshComponents::excludeFullySelectedComponents", "group__MeshComponentsGroup.html#gafb34a3c82c94661207c96d0fb0f48a27", null ],
     [ "MR::MeshComponents::expandToComponents", "group__MeshComponentsGroup.html#ga8f7b3aea1e17934f892932ac212a71f2", null ],
     [ "MR::MeshComponents::getAllComponents", "group__MeshComponentsGroup.html#gac9ffcc637ef2fbb6ebbeda874df5abe5", null ],
@@ -31,6 +36,7 @@ var MRMeshComponents_8h =
     [ "MR::MeshComponents::getLargestComponent", "group__MeshComponentsGroup.html#gad1f06f5521d13b8e679953ce57f4e690", null ],
     [ "MR::MeshComponents::getLargestComponentArea", "group__MeshComponentsGroup.html#gaec294ffa0563a15d0b25c06c81ee5d51", null ],
     [ "MR::MeshComponents::getLargestComponentVerts", "group__MeshComponentsGroup.html#ga80cae558467e7bd7f1653b46bb13948f", null ],
+    [ "MR::MeshComponents::getLargestComponentVolume", "group__MeshComponentsGroup.html#ga15d5de6ff738635f4d805cf6e8581aaa", null ],
     [ "MR::MeshComponents::getNLargeByAreaComponents", "group__MeshComponentsGroup.html#ga23b859fdd8b110e1159c392f9f891f77", null ],
     [ "MR::MeshComponents::getNumComponents", "group__MeshComponentsGroup.html#gae974a625c63fc8fe114d87f296074399", null ],
     [ "MR::MeshComponents::getRegionAreas", "group__MeshComponentsGroup.html#gabb9aee33af237e8ace6daa0b6b7ba783", null ],

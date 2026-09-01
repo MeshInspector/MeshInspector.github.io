@@ -519,6 +519,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.MeshComponents.ExpandToComponentsParams", "classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams.html", "classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams" ],
     [ "mrmeshpy.MeshComponents.FaceIncidence", "classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html", "classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" ],
     [ "mrmeshpy.MeshComponents.LargeByAreaComponentsSettings", "classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", "classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings" ],
+    [ "mrmeshpy.MeshComponents.VolumeSelection", "classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html", "classmrmeshpy_1_1MeshComponents_1_1VolumeSelection" ],
     [ "mrmeshpy.MeshDiff", "classmrmeshpy_1_1MeshDiff.html", "classmrmeshpy_1_1MeshDiff" ],
     [ "mrmeshpy.MeshEqualizeTriAreasParams", "classmrmeshpy_1_1MeshEqualizeTriAreasParams.html", "classmrmeshpy_1_1MeshEqualizeTriAreasParams" ],
     [ "mrmeshpy.MeshFromVoxelsPostProcessingParams", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams" ],

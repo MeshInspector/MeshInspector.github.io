@@ -1,5 +1,11 @@
 var NAVTREEINDEX159 =
 {
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ab55bf26bda9d1b423277c87b990f8abb":[8,2,2,0,0,0,0,2,356,16],
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#abb450e03a27fc8c8597df74b484e869c":[8,2,2,0,0,0,0,2,356,19],
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ad40b24488a72eb405e4ace3ac885f96e":[8,2,2,0,0,0,0,2,356,6],
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ae07abcb134e36ed7cade9b231f04ecdd":[8,2,2,0,0,0,0,2,356,13],
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ae33f916a4d1646cdf469cc7abc7fbe26":[8,2,2,0,0,0,0,2,356,3],
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h_source.html":[8,2,2,0,0,0,0,2,356],
 "std__shared__ptr__MR__ObjectChildrenHolder_8h.html":[8,2,2,0,0,0,0,2,358],
 "std__shared__ptr__MR__ObjectChildrenHolder_8h.html#a081f21cee1bac0f5794950e8394594c9":[8,2,2,0,0,0,0,2,358,3],
 "std__shared__ptr__MR__ObjectChildrenHolder_8h.html#a0e6469b591611ef1d202be1f11368196":[8,2,2,0,0,0,0,2,358,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX159 =
 "std__shared__ptr__MR__ObjectPoints_8h.html#a20f66b1c6738fe9dd499059abebb4fc6":[8,2,2,0,0,0,0,2,367,10],
 "std__shared__ptr__MR__ObjectPoints_8h.html#a236840d0ba99014733072f1be4bee6f7":[8,2,2,0,0,0,0,2,367,16],
 "std__shared__ptr__MR__ObjectPoints_8h.html#a289b51dcd7f59e9770295b0dd0869dca":[8,2,2,0,0,0,0,2,367,9],
-"std__shared__ptr__MR__ObjectPoints_8h.html#a2bc1ade12484d90a89435bfa4f9ee0cf":[8,2,2,0,0,0,0,2,367,1],
-"std__shared__ptr__MR__ObjectPoints_8h.html#a2da1dc4fd5e391451b583351cb9fc442":[8,2,2,0,0,0,0,2,367,4],
-"std__shared__ptr__MR__ObjectPoints_8h.html#a3b8650b7a9e73022e444c3a82ba7e857":[8,2,2,0,0,0,0,2,367,8],
-"std__shared__ptr__MR__ObjectPoints_8h.html#a570f5e3628e7e709e35a6fe2a1ec646e":[8,2,2,0,0,0,0,2,367,13],
-"std__shared__ptr__MR__ObjectPoints_8h.html#a62e91d895278ad5912f049d207b968d3":[8,2,2,0,0,0,0,2,367,17],
-"std__shared__ptr__MR__ObjectPoints_8h.html#a687a374c8f8e0cd3c07ff7c8e322dd85":[8,2,2,0,0,0,0,2,367,18],
-"std__shared__ptr__MR__ObjectPoints_8h.html#a7ded9660819f52d9feafeaa9ec33ca4d":[8,2,2,0,0,0,0,2,367,19]
+"std__shared__ptr__MR__ObjectPoints_8h.html#a2bc1ade12484d90a89435bfa4f9ee0cf":[8,2,2,0,0,0,0,2,367,1]
 };

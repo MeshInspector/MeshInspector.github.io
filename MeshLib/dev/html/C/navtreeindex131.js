@@ -1,5 +1,11 @@
 var NAVTREEINDEX131 =
 {
+"MRWeightedPointsShell_8h.html#a87e001746f17663c985c04e2b4d16ce3":[8,2,2,0,0,0,0,4,41,34],
+"MRWeightedPointsShell_8h.html#a8b71a75ae6e77a977b2dd9831b3b3810":[8,2,2,0,0,0,0,4,41,29],
+"MRWeightedPointsShell_8h.html#a8cee5a55c13f131110bfdf4be1ff0dd5":[8,2,2,0,0,0,0,4,41,68],
+"MRWeightedPointsShell_8h.html#a8f659b402e47ecefb533ee63744559cb":[8,2,2,0,0,0,0,4,41,0],
+"MRWeightedPointsShell_8h.html#a90a041f21a568e8e74e40fc053e8d37d":[8,2,2,0,0,0,0,4,41,102],
+"MRWeightedPointsShell_8h.html#a952da6b91f8de5dc53c14a49ab159266":[8,2,2,0,0,0,0,4,41,88],
 "MRWeightedPointsShell_8h.html#a959d737ddcee6ea2e31580fe2bb2165b":[8,2,2,0,0,0,0,4,41,120],
 "MRWeightedPointsShell_8h.html#a96cdc8a338be92e8108ac14de96f8f2b":[8,2,2,0,0,0,0,4,41,13],
 "MRWeightedPointsShell_8h.html#a97de1ec08286dd81bbd180de29f9d3ad":[8,2,2,0,0,0,0,4,41,115],
@@ -243,11 +249,5 @@ var NAVTREEINDEX131 =
 "expected__MR__CurveFunc__std__string_8h.html#a1c8782a60a8bdedcef4ddf95bf72a366":[8,2,2,0,0,0,0,2,4,3],
 "expected__MR__CurveFunc__std__string_8h.html#a20bf424ce5f299b4b9a53a91e22313f8":[8,2,2,0,0,0,0,2,4,1],
 "expected__MR__CurveFunc__std__string_8h.html#a4972f04b0db3a05d9fd7f82cb331f1d5":[8,2,2,0,0,0,0,2,4,6],
-"expected__MR__CurveFunc__std__string_8h.html#a7ac785d13585504a213a4e39c7924617":[8,2,2,0,0,0,0,2,4,8],
-"expected__MR__CurveFunc__std__string_8h.html#a85989ee549c689244ca6b1f23a0326ee":[8,2,2,0,0,0,0,2,4,7],
-"expected__MR__CurveFunc__std__string_8h.html#ab03d29b047520b38c7cf8173a8986b02":[8,2,2,0,0,0,0,2,4,2],
-"expected__MR__CurveFunc__std__string_8h.html#ab773f9940a6e80b902d6d013b7abd2f1":[8,2,2,0,0,0,0,2,4,0],
-"expected__MR__CurveFunc__std__string_8h.html#ab9806e3068615e599d609e3ad63bdfff":[8,2,2,0,0,0,0,2,4,10],
-"expected__MR__CurveFunc__std__string_8h.html#abc2c98c3cd11a14a4a4d1f9c5929dca5":[8,2,2,0,0,0,0,2,4,5],
-"expected__MR__CurveFunc__std__string_8h.html#ac1bacb4b5726707886b497812f35efad":[8,2,2,0,0,0,0,2,4,12]
+"expected__MR__CurveFunc__std__string_8h.html#a7ac785d13585504a213a4e39c7924617":[8,2,2,0,0,0,0,2,4,8]
 };

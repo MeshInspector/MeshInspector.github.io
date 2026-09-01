@@ -31331,12 +31331,17 @@
     <member refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722" kind="enum"><name>FaceIncidence</name></member>
     <member refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kind="enumvalue"><name>PerEdge</name></member>
     <member refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722a47e73954b650524c96a2c612bfda4029" kind="enumvalue"><name>PerVertex</name></member>
+    <member refid="classMR_1_1MeshComponents_1aef47553856f09954abb66095bfabdf94" kind="enum"><name>VolumeSelection</name></member>
+    <member refid="classMR_1_1MeshComponents_1aef47553856f09954abb66095bfabdf94a1e34af023adeb7d5f484f8eb4b9826b6" kind="enumvalue"><name>Abs</name></member>
+    <member refid="classMR_1_1MeshComponents_1aef47553856f09954abb66095bfabdf94a3289297424e01eda5b788c083bbf3147" kind="enumvalue"><name>Positive</name></member>
+    <member refid="classMR_1_1MeshComponents_1aef47553856f09954abb66095bfabdf94affb9356ff2b7da85c75c92fa7ea03b8b" kind="enumvalue"><name>Negative</name></member>
     <member refid="classMR_1_1MeshComponents_1a79b1217081d0495f8acdfe0ed5eef1d3" kind="function"><name>getComponent</name></member>
     <member refid="classMR_1_1MeshComponents_1a7ffcd23e1cfec8742a9c957167fa2309" kind="function"><name>getComponentVerts</name></member>
     <member refid="classMR_1_1MeshComponents_1a9543db83319e58a395e05677c4ad2d66" kind="function"><name>getLargestComponentVerts</name></member>
     <member refid="classMR_1_1MeshComponents_1a763f99071c909da92c284171e2b0e9ee" kind="function"><name>getLargeComponentVerts</name></member>
     <member refid="classMR_1_1MeshComponents_1a5645da41096dfa536ded490fd932a707" kind="function"><name>getLargestComponentArea</name></member>
     <member refid="classMR_1_1MeshComponents_1ad296f69ab97903119a0505f29f6b1dde" kind="function"><name>getLargestComponent</name></member>
+    <member refid="classMR_1_1MeshComponents_1a5df1158a734464d4f2674f4ae54faee2" kind="function"><name>getLargestComponentVolume</name></member>
     <member refid="classMR_1_1MeshComponents_1a59fb06268f41733c378e3997eeaa372e" kind="function"><name>getComponents</name></member>
     <member refid="classMR_1_1MeshComponents_1aaf1f2ad3338974c769944918055d4d05" kind="function"><name>getComponents</name></member>
     <member refid="classMR_1_1MeshComponents_1a2769cc1bbe61c2a15813033e795f068b" kind="function"><name>getLargeByAreaComponents</name></member>

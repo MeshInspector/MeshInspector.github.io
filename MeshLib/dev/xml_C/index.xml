@@ -14122,6 +14122,10 @@
     <member refid="MRMeshComponents_8h_1acbfc9209b99265fea7b8e271571e4fe4" kind="enum"><name>MR_MeshComponents_FaceIncidence</name></member>
     <member refid="MRMeshComponents_8h_1acbfc9209b99265fea7b8e271571e4fe4a7fb52b2b7a0efab39e599e0f5f371623" kind="enumvalue"><name>MR_MeshComponents_FaceIncidence_PerEdge</name></member>
     <member refid="MRMeshComponents_8h_1acbfc9209b99265fea7b8e271571e4fe4a63622d67f557e81df914565244c8f3fb" kind="enumvalue"><name>MR_MeshComponents_FaceIncidence_PerVertex</name></member>
+    <member refid="MRMeshComponents_8h_1a22b9dece52150481fdab6be16e073163" kind="enum"><name>MR_MeshComponents_VolumeSelection</name></member>
+    <member refid="MRMeshComponents_8h_1a22b9dece52150481fdab6be16e073163ac8e151ec40a4c412c9368e5754212f37" kind="enumvalue"><name>MR_MeshComponents_VolumeSelection_Abs</name></member>
+    <member refid="MRMeshComponents_8h_1a22b9dece52150481fdab6be16e073163ac21b6f2d8537b9b27cba0bcd981efc4c" kind="enumvalue"><name>MR_MeshComponents_VolumeSelection_Positive</name></member>
+    <member refid="MRMeshComponents_8h_1a22b9dece52150481fdab6be16e073163a811737918440bcd08659de0cc9375967" kind="enumvalue"><name>MR_MeshComponents_VolumeSelection_Negative</name></member>
     <member refid="MRMeshComponents_8h_1a16dd453a2524e3e655dd85487201c5fc" kind="typedef"><name>MR_BaseUnionFind_MR_FaceId</name></member>
     <member refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kind="typedef"><name>MR_UnionFind_MR_UndirectedEdgeId</name></member>
     <member refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kind="typedef"><name>MR_UnionFind_MR_VertId</name></member>
@@ -14133,6 +14137,7 @@
     <member refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kind="typedef"><name>MR_std_vector_MR_UndirectedEdgeBitSet</name></member>
     <member refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kind="typedef"><name>MR_std_vector_MR_VertBitSet</name></member>
     <member refid="MRMeshComponents_8h_1ac3f010ac22afaad3c7b42f66688577d2" kind="typedef"><name>MR_MeshComponents_FaceIncidence</name></member>
+    <member refid="MRMeshComponents_8h_1ab1723c783e46589dda78a51b35d9d358" kind="typedef"><name>MR_MeshComponents_VolumeSelection</name></member>
     <member refid="MRMeshComponents_8h_1a56e44aaa8a15f4abcba40e2572542073" kind="typedef"><name>MR_MeshComponents_ExpandToComponentsParams</name></member>
     <member refid="MRMeshComponents_8h_1a0ddbc518ecf93a7a8e6bae6c4ec1094d" kind="typedef"><name>MR_MeshComponents_LargeByAreaComponentsSettings</name></member>
     <member refid="MRMeshComponents_8h_1adae251b89eed79124c01d7b8e2fa748b" kind="function"><name>MR_MeshComponents_getComponent</name></member>
@@ -14141,6 +14146,7 @@
     <member refid="MRMeshComponents_8h_1ac22a60664eb284c1d110a3dee23afca8" kind="function"><name>MR_MeshComponents_getLargeComponentVerts</name></member>
     <member refid="MRMeshComponents_8h_1a593f26e5b44c458fb760c29168760724" kind="function"><name>MR_MeshComponents_getLargestComponentArea</name></member>
     <member refid="MRMeshComponents_8h_1ae68344fd87e5a5d7ac38d3c8750a019f" kind="function"><name>MR_MeshComponents_getLargestComponent</name></member>
+    <member refid="MRMeshComponents_8h_1ab6ce99614e8d52d2c4bd53ec13469bd2" kind="function"><name>MR_MeshComponents_getLargestComponentVolume</name></member>
     <member refid="MRMeshComponents_8h_1a275e45918d779af194cd7ce990bedca9" kind="function"><name>MR_MeshComponents_getComponents_4</name></member>
     <member refid="MRMeshComponents_8h_1a649c0ada722dd6a667297d9ca8d6191a" kind="function"><name>MR_MeshComponents_getComponents_5</name></member>
     <member refid="MRMeshComponents_8h_1af3097b474f0a6b69d5a02051f53314d5" kind="function"><name>MR_MeshComponents_getLargeByAreaComponents_3</name></member>

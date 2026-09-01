@@ -4,6 +4,7 @@ var MRMeshComponents_8h =
     [ "MR_MeshComponents_ExpandToComponentsParams", "MRMeshComponents_8h.html#a56e44aaa8a15f4abcba40e2572542073", null ],
     [ "MR_MeshComponents_FaceIncidence", "MRMeshComponents_8h.html#ac3f010ac22afaad3c7b42f66688577d2", null ],
     [ "MR_MeshComponents_LargeByAreaComponentsSettings", "MRMeshComponents_8h.html#a0ddbc518ecf93a7a8e6bae6c4ec1094d", null ],
+    [ "MR_MeshComponents_VolumeSelection", "MRMeshComponents_8h.html#ab1723c783e46589dda78a51b35d9d358", null ],
     [ "MR_std_pair_MR_Face2RegionMap_int", "MRMeshComponents_8h.html#a58650ad196b479b752e724520664c772", null ],
     [ "MR_std_pair_MR_FaceBitSet_int", "MRMeshComponents_8h.html#a6c98ed3d89f5c37c99e7070ffa8acb14", null ],
     [ "MR_std_pair_std_vector_MR_FaceBitSet_int", "MRMeshComponents_8h.html#a8627fb6dcfa429e140269bee7c3de08f", null ],
@@ -16,6 +17,11 @@ var MRMeshComponents_8h =
     [ "MR_MeshComponents_FaceIncidence", "MRMeshComponents_8h.html#acbfc9209b99265fea7b8e271571e4fe4", [
       [ "MR_MeshComponents_FaceIncidence_PerEdge", "MRMeshComponents_8h.html#acbfc9209b99265fea7b8e271571e4fe4a7fb52b2b7a0efab39e599e0f5f371623", null ],
       [ "MR_MeshComponents_FaceIncidence_PerVertex", "MRMeshComponents_8h.html#acbfc9209b99265fea7b8e271571e4fe4a63622d67f557e81df914565244c8f3fb", null ]
+    ] ],
+    [ "MR_MeshComponents_VolumeSelection", "MRMeshComponents_8h.html#a22b9dece52150481fdab6be16e073163", [
+      [ "MR_MeshComponents_VolumeSelection_Abs", "MRMeshComponents_8h.html#a22b9dece52150481fdab6be16e073163ac8e151ec40a4c412c9368e5754212f37", null ],
+      [ "MR_MeshComponents_VolumeSelection_Positive", "MRMeshComponents_8h.html#a22b9dece52150481fdab6be16e073163ac21b6f2d8537b9b27cba0bcd981efc4c", null ],
+      [ "MR_MeshComponents_VolumeSelection_Negative", "MRMeshComponents_8h.html#a22b9dece52150481fdab6be16e073163a811737918440bcd08659de0cc9375967", null ]
     ] ],
     [ "MR_MeshComponents_excludeFullySelectedComponents", "MRMeshComponents_8h.html#a93ce49c879f67e754450b7f231eb1755", null ],
     [ "MR_MeshComponents_expandToComponents", "MRMeshComponents_8h.html#ab8d10081631e2f229762733161cfbf74", null ],
@@ -68,6 +74,7 @@ var MRMeshComponents_8h =
     [ "MR_MeshComponents_getLargestComponent", "MRMeshComponents_8h.html#ae68344fd87e5a5d7ac38d3c8750a019f", null ],
     [ "MR_MeshComponents_getLargestComponentArea", "MRMeshComponents_8h.html#a593f26e5b44c458fb760c29168760724", null ],
     [ "MR_MeshComponents_getLargestComponentVerts", "MRMeshComponents_8h.html#af46c0ca955b4d11ee8a6a06e204877e8", null ],
+    [ "MR_MeshComponents_getLargestComponentVolume", "MRMeshComponents_8h.html#ab6ce99614e8d52d2c4bd53ec13469bd2", null ],
     [ "MR_MeshComponents_getNLargeByAreaComponents", "MRMeshComponents_8h.html#ac128a521fca67c6d51209b8c58266a93", null ],
     [ "MR_MeshComponents_getNumComponents", "MRMeshComponents_8h.html#a4e0462ca83fceca2c7c8099b45477ad6", null ],
     [ "MR_MeshComponents_getRegionAreas", "MRMeshComponents_8h.html#a6cd0ce3a70562710cbde7f1a661aa72a", null ],
