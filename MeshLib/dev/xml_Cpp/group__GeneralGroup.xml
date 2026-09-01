@@ -18484,7 +18484,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="46" column="5" bodyfile="MRViewer/MRAppendHistory.h" bodystart="46" bodyend="-1"/>
+        <location file="MRViewer/MRAppendHistory.h" line="47" column="5" bodyfile="MRViewer/MRAppendHistory.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga200de30e6095463279bfb030e610864b" prot="public" static="no">
         <type>std::chrono::time_point&lt; std::chrono::system_clock &gt;</type>
@@ -47920,7 +47920,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="73" column="21" bodyfile="MRViewer/MRAppendHistory.h" bodystart="73" bodyend="-1"/>
+        <location file="MRViewer/MRAppendHistory.h" line="74" column="21" bodyfile="MRViewer/MRAppendHistory.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0e182e30d9c414668f86227d1a744d74" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; HistoryActionType &gt;</type>
@@ -47934,7 +47934,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="74" column="21" bodyfile="MRViewer/MRAppendHistory.h" bodystart="74" bodyend="-1"/>
+        <location file="MRViewer/MRAppendHistory.h" line="75" column="21" bodyfile="MRViewer/MRAppendHistory.h" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafacec04ff3f5b3cfc1e106c640f5694f" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -47949,7 +47949,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="75" column="10" bodyfile="MRViewer/MRAppendHistory.h" bodystart="75" bodyend="75"/>
+        <location file="MRViewer/MRAppendHistory.h" line="76" column="10" bodyfile="MRViewer/MRAppendHistory.h" bodystart="76" bodyend="76"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga86a6a9b2a3329e71208173ac6d3490c6" prot="private" static="no" mutable="no">
         <type>HistoryStore *</type>
@@ -47964,7 +47964,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="96" column="18" bodyfile="MRViewer/MRAppendHistory.h" bodystart="96" bodyend="96"/>
+        <location file="MRViewer/MRAppendHistory.h" line="97" column="18" bodyfile="MRViewer/MRAppendHistory.h" bodystart="97" bodyend="97"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4dd9ccda3424f0732f1579625df05934" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; CombinedHistoryAction &gt;</type>
@@ -47978,7 +47978,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="97" column="21" bodyfile="MRViewer/MRAppendHistory.h" bodystart="97" bodyend="-1"/>
+        <location file="MRViewer/MRAppendHistory.h" line="98" column="21" bodyfile="MRViewer/MRAppendHistory.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac86d1e049286fe259d31f5a5fa14a4a7" prot="private" static="no" mutable="no">
         <type>HistoryActionsVector *</type>
@@ -47993,7 +47993,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="98" column="26" bodyfile="MRViewer/MRAppendHistory.h" bodystart="98" bodyend="98"/>
+        <location file="MRViewer/MRAppendHistory.h" line="99" column="26" bodyfile="MRViewer/MRAppendHistory.h" bodystart="99" bodyend="99"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad31db35640acad4fb60569545ed7ceea" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -155757,7 +155757,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRViewer/MRAppendHistory.h" line="23" column="6" bodyfile="MRViewer/MRAppendHistory.h" bodystart="23" bodyend="29"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga7869ebc98ea62e7be5a19e2c4322b859" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga7869ebc98ea62e7be5a19e2c4322b859" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename...</type>
@@ -155788,7 +155788,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="49" column="5" bodyfile="MRViewer/MRAppendHistory.h" bodystart="49" bodyend="53"/>
+        <location file="MRViewer/MRAppendHistory.h" line="50" column="6" bodyfile="MRViewer/MRAppendHistory.h" bodystart="50" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7ab42ff05c89ab745c7cc2aec2b023db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -155802,7 +155802,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="55" column="10" bodyfile="MRViewer/MRAppendHistory.h" bodystart="55" bodyend="63"/>
+        <location file="MRViewer/MRAppendHistory.h" line="56" column="10" bodyfile="MRViewer/MRAppendHistory.h" bodystart="56" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8261070af5195a2d3e6505973b99890b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -155816,7 +155816,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="65" column="5" bodyfile="MRViewer/MRAppendHistory.h" bodystart="65" bodyend="71"/>
+        <location file="MRViewer/MRAppendHistory.h" line="66" column="5" bodyfile="MRViewer/MRAppendHistory.h" bodystart="66" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga360161c9e0a5aff8602d7186b0975244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155849,7 +155849,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="80" column="7" declfile="MRViewer/MRAppendHistory.h" declline="80" declcolumn="7"/>
+        <location file="MRViewer/MRAppendHistory.h" line="81" column="7" declfile="MRViewer/MRAppendHistory.h" declline="81" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2a6fc487c3008d4525ecd8adc72466f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -155873,7 +155873,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="87" column="6"/>
+        <location file="MRViewer/MRAppendHistory.h" line="88" column="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacf9224d4ffb8a6220531e93c8c75a59f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -155888,7 +155888,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="90" column="6"/>
+        <location file="MRViewer/MRAppendHistory.h" line="91" column="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab4c17b1dd2ac2de71650b8211d421d1b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::shared_ptr&lt; CombinedHistoryAction &gt; &amp;</type>
@@ -155903,7 +155903,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="93" column="27" bodyfile="MRViewer/MRAppendHistory.h" bodystart="93" bodyend="93"/>
+        <location file="MRViewer/MRAppendHistory.h" line="94" column="27" bodyfile="MRViewer/MRAppendHistory.h" bodystart="94" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab65fb7589180d52bca903fe8f29a342c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -203608,7 +203608,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRAppendHistory.h" line="101" column="9" bodyfile="MRViewer/MRAppendHistory.h" bodystart="101" bodyend="-1"/>
+        <location file="MRViewer/MRAppendHistory.h" line="102" column="9" bodyfile="MRViewer/MRAppendHistory.h" bodystart="102" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__GeneralGroup_1gad1709955819b9d2eb38aa06ebd34272c" prot="public" static="no">
         <name>MR_REGISTER_RIBBON_ITEM</name>
