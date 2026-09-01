@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1DividePolylineParameters.html#abb29ee9bf97b682a80486a3bdf9333cd":[8,3,0,0,0,1140,10],
+"classMR_1_1DividePolylineParameters.html#af8d6aabd28d4ac72da174657bda5339d":[8,3,0,0,0,1140,11],
 "classMR_1_1DividePolylineParameters.html#afd882db9690be2342a9012610e0c8d66":[8,3,0,0,0,1140,3],
 "classMR_1_1DoubleOffsetSettings.html":[8,3,0,0,0,1141],
 "classMR_1_1DoubleOffsetSettings.html#a14d6af458c9b44f00eb966af1ac36dd6":[8,3,0,0,0,1141,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1Edges.html#a2e08c2f3b804e57d1db86f9025be8069":[8,3,0,0,0,1153,26],
 "classMR_1_1Edges.html#a31d4a3817fbb289b1f3c4ee959ace40a":[8,3,0,0,0,1153,21],
 "classMR_1_1Edges.html#a42c02ce3dd4b76b2ed7f635439db4ab8":[8,3,0,0,0,1153,20],
-"classMR_1_1Edges.html#a45e4b4978525f06830af983faa849155":[8,3,0,0,0,1153,25],
-"classMR_1_1Edges.html#a46937abeeba77d73a891e60bc9cc271d":[8,3,0,0,0,1153,24],
-"classMR_1_1Edges.html#a4d8298e70cfb5aa6ea29418e6d4b5b8c":[8,3,0,0,0,1153,16]
+"classMR_1_1Edges.html#a45e4b4978525f06830af983faa849155":[8,3,0,0,0,1153,25]
 };

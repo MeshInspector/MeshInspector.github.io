@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"MRObjectLabel_8h.html#a0da22d4d8ce58a2eda8db4ac496f24cd":[8,2,2,0,0,0,0,3,2,128],
 "MRObjectLabel_8h.html#a0e2da6ab4adf894ffbfdfaf692844317":[8,2,2,0,0,0,0,3,2,137],
 "MRObjectLabel_8h.html#a0f6803acfe8184079b830dc15a580959":[8,2,2,0,0,0,0,3,2,101],
 "MRObjectLabel_8h.html#a18dd3c6ff4a65ed8ba5c7736ad7c8a6b":[8,2,2,0,0,0,0,3,2,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "MRObjectLinesHolder_8h.html#a912df516262961665c8b401f5bc1c25d":[8,2,2,0,0,0,0,1,228,24],
 "MRObjectLinesHolder_8h.html#a9139a784969ad95e436ef8edcf5db152":[8,2,2,0,0,0,0,1,228,134],
 "MRObjectLinesHolder_8h.html#a91d394dc621d8545d04f8552984af58c":[8,2,2,0,0,0,0,1,228,127],
-"MRObjectLinesHolder_8h.html#a98d07c7512fb51306d989ae9b61b4012":[8,2,2,0,0,0,0,1,228,113],
-"MRObjectLinesHolder_8h.html#a9a3d3bf1e1ab54fb436b9f248127e1ec":[8,2,2,0,0,0,0,1,228,99]
+"MRObjectLinesHolder_8h.html#a98d07c7512fb51306d989ae9b61b4012":[8,2,2,0,0,0,0,1,228,113]
 };

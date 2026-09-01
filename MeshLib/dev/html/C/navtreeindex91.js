@@ -1,5 +1,6 @@
 var NAVTREEINDEX91 =
 {
+"MRPrecisePredicates2_8h.html#a44317bed58772bd9a84bd9b55de8c5e9":[8,2,2,0,0,0,0,1,289,21],
 "MRPrecisePredicates2_8h.html#a48af1f7455ba4abb540fe934e5c7b30a":[8,2,2,0,0,0,0,1,289,45],
 "MRPrecisePredicates2_8h.html#a4f46a0f82e95c48750f055da2d9d74d2":[8,2,2,0,0,0,0,1,289,27],
 "MRPrecisePredicates2_8h.html#a4fc32ee3c6dc308f0884a59f87a24014":[8,2,2,0,0,0,0,1,289,46],
@@ -248,6 +249,5 @@ var NAVTREEINDEX91 =
 "MRQuadraticForm_8h.html#a6ac971a371c6b3bf25445ffc21cc305a":[8,2,2,0,0,0,0,1,297,32],
 "MRQuadraticForm_8h.html#a6ba9ba30b79a5442914a51c333a1efcc":[8,2,2,0,0,0,0,1,297,59],
 "MRQuadraticForm_8h.html#a6d2410958b7795db3d6f327879cd6401":[8,2,2,0,0,0,0,1,297,74],
-"MRQuadraticForm_8h.html#a6fe0b975fc209b5e93e2ad81d51f1084":[8,2,2,0,0,0,0,1,297,14],
-"MRQuadraticForm_8h.html#a6ff8b8b413b699cdb48da8ed571583d8":[8,2,2,0,0,0,0,1,297,82]
+"MRQuadraticForm_8h.html#a6fe0b975fc209b5e93e2ad81d51f1084":[8,2,2,0,0,0,0,1,297,14]
 };

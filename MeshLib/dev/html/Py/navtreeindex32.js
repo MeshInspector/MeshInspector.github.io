@@ -1,5 +1,7 @@
 var NAVTREEINDEX32 =
 {
+"classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#abec47ca8c5a89739cdea17058a2792a9":[8,1,1,0,1,274,0,0,12],
+"classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#ad1d5a91a137e8e4b46918df9847381cb":[8,1,0,0,2,274,0,0,3],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#ad1d5a91a137e8e4b46918df9847381cb":[8,1,1,0,1,274,0,0,3],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#ad757abd712d3b60bbadca720e25f2e71":[8,1,0,0,2,274,0,0,2],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#ad757abd712d3b60bbadca720e25f2e71":[8,1,1,0,1,274,0,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Sphere3f.html#a4e640e3552005554b761eb25a0e8147e":[8,1,1,0,1,274,3,8,3],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Sphere3f.html#a54a86efcbca45c86644013abbc350252":[8,1,0,0,2,274,3,8,1],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Sphere3f.html#a54a86efcbca45c86644013abbc350252":[8,1,1,0,1,274,3,8,1],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Sphere3f.html#ad11ebc352f6a9679bf3ea9c9eb460394":[8,1,0,0,2,274,3,8,0],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Sphere3f.html#ad11ebc352f6a9679bf3ea9c9eb460394":[8,1,0,0,2,274,3,8,2],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Sphere3f.html#ad11ebc352f6a9679bf3ea9c9eb460394":[8,1,1,0,1,274,3,8,0]
+"classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Sphere3f.html#ad11ebc352f6a9679bf3ea9c9eb460394":[8,1,0,0,2,274,3,8,0]
 };

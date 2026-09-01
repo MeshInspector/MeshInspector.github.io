@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"classmrmeshpy_1_1ContoursDistanceMapOptions.html#a96ccdd993d1e8daada52a0acd6b54a87":[8,1,1,0,1,177,5],
+"classmrmeshpy_1_1ContoursDistanceMapOptions.html#a96fb5a9412672afa24b2d3e69b5a349f":[8,1,0,0,2,177,10],
 "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a96fb5a9412672afa24b2d3e69b5a349f":[8,1,1,0,1,177,10],
 "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a9fe13c5c248555f5a3ef31bc07102fe6":[8,1,0,0,2,177,6],
 "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a9fe13c5c248555f5a3ef31bc07102fe6":[8,1,1,0,1,177,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html":[8,1,1,0,1,191,1],
 "classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html#a106233b42a79ba31bce158ecf378bba0":[8,1,0,0,2,191,1,7],
 "classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html#a106233b42a79ba31bce158ecf378bba0":[8,1,1,0,1,191,1,7],
-"classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html#a14409be8e90efa3d94498ccaa6e4e79c":[8,1,0,0,2,191,1,11],
-"classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html#a14409be8e90efa3d94498ccaa6e4e79c":[8,1,1,0,1,191,1,11],
-"classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html#a15c00ed348380195abc47e144977ecfc":[8,1,0,0,2,191,1,0]
+"classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html#a14409be8e90efa3d94498ccaa6e4e79c":[8,1,0,0,2,191,1,11]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX123 =
 {
+"classMR_1_1PointCloudPart.html":[8,3,0,0,0,1497],
+"classMR_1_1PointCloudPart.html#a1863e0fbefdc817429523d69c60c14eb":[8,3,0,0,0,1497,5],
 "classMR_1_1PointCloudPart.html#a186cdd09153352462ff1dbc6184c0932":[8,3,0,0,0,1497,0],
 "classMR_1_1PointCloudPart.html#a23c6f150733f604dc938dd7aab4dff42":[8,3,0,0,0,1497,2],
 "classMR_1_1PointCloudPart.html#a3fa746eb12430f18ee5d1938b6b66bdd":[8,3,0,0,0,1497,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html#aaab4b418ac009275f448f6e127eb807b":[8,3,0,0,0,1505,0,11],
 "classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html#ad1497f93e5460bd7f9b0c0b136defa76":[8,3,0,0,0,1505,0,8],
 "classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html#af0cff3210d326e568219ce676001ac5f":[8,3,0,0,0,1505,0,5],
-"classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html#af68c0470f62ac79c0acceef7611a882d":[8,3,0,0,0,1505,0,1],
-"classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html#afe23cd0ecb40d53371176c52b2342d51":[8,3,0,0,0,1505,0,4],
-"classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html":[8,3,0,0,0,1505,1]
+"classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html#af68c0470f62ac79c0acceef7611a882d":[8,3,0,0,0,1505,0,1]
 };

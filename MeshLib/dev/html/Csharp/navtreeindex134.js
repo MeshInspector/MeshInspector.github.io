@@ -1,5 +1,7 @@
 var NAVTREEINDEX134 =
 {
+"classMR_1_1UndirEdgeColorMapAggregator.html#a303510aa3e1d0e9943bcf5b4c436fc69":[8,3,0,0,0,1699,4],
+"classMR_1_1UndirEdgeColorMapAggregator.html#a3f36a0cab31c59c993b5c4a64a9d1637":[8,3,0,0,0,1699,8],
 "classMR_1_1UndirEdgeColorMapAggregator.html#a458e50de3e61676d6ea541dc3abb4ce6":[8,3,0,0,0,1699,13],
 "classMR_1_1UndirEdgeColorMapAggregator.html#a90c3a313a42c39684e68043d2e247d6c":[8,3,0,0,0,1699,5],
 "classMR_1_1UndirEdgeColorMapAggregator.html#a94a0070c9ce688b293ea11c9a18294b0":[8,3,0,0,0,1699,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX134 =
 "classMR_1_1UnionFind__MRVertId.html#af4c8ee3038f1b4d00f11045489064ad5":[8,3,0,0,0,1702,7],
 "classMR_1_1UniqueTemporaryFolder.html":[8,3,0,0,0,1703],
 "classMR_1_1UniqueTemporaryFolder.html#a247d2c0fe2f1c194238ecc6fa34599b2":[8,3,0,0,0,1703,0],
-"classMR_1_1UniqueTemporaryFolder.html#a97ef160de3a43bd4677c0710925d54dc":[8,3,0,0,0,1703,1],
-"classMR_1_1UniqueTemporaryFolder.html#add65510f7815b59eccc5b6debcbaf55f":[8,3,0,0,0,1703,2],
-"classMR_1_1UniqueTemporaryFolder.html#af297fbca988b26f9320d0a2028c44f1f":[8,3,0,0,0,1703,3]
+"classMR_1_1UniqueTemporaryFolder.html#a97ef160de3a43bd4677c0710925d54dc":[8,3,0,0,0,1703,1]
 };

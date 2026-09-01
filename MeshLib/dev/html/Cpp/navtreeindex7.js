@@ -182,10 +182,11 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangePolylineAction.html#aeb94c9f13be0f037086e0296e2beea62":[8,0,0,4,22,0],
 "classMR_1_1ChangePolylinePointsAction.html":[8,0,0,4,23],
 "classMR_1_1ChangePolylinePointsAction.html#a304a69e07ee11c1bf44b60b2c38a8f12":[8,0,0,4,23,0],
-"classMR_1_1ChangePolylinePointsAction.html#a4524618733bcefbd17c242f49c3112e1":[8,0,0,4,23,2],
+"classMR_1_1ChangePolylinePointsAction.html#a4524618733bcefbd17c242f49c3112e1":[8,0,0,4,23,3],
+"classMR_1_1ChangePolylinePointsAction.html#a47e8f25027f128e53d16bbb01972bdf9":[8,0,0,4,23,2],
 "classMR_1_1ChangePolylinePointsAction.html#a506a1c3421dec57c85ee978ba69a0591":[8,0,0,4,23,1],
-"classMR_1_1ChangePolylinePointsAction.html#a63e6b7f8c45895a7781661ac76232a24":[8,0,0,4,23,3],
-"classMR_1_1ChangePolylinePointsAction.html#ae04072e7453616bbbf69ed34589627f2":[8,0,0,4,23,4],
+"classMR_1_1ChangePolylinePointsAction.html#a63e6b7f8c45895a7781661ac76232a24":[8,0,0,4,23,4],
+"classMR_1_1ChangePolylinePointsAction.html#ae04072e7453616bbbf69ed34589627f2":[8,0,0,4,23,5],
 "classMR_1_1ChangePolylineTopologyAction.html":[8,0,0,4,24],
 "classMR_1_1ChangePolylineTopologyAction.html#a02bda3639e986d6a99bd8f2f5cfa05ad":[8,0,0,4,24,2],
 "classMR_1_1ChangePolylineTopologyAction.html#a200b7e85b19209b3dec9b96249b9fbef":[8,0,0,4,24,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1ColorTheme.html":[8,0,0,20,573],
 "classMR_1_1CombinedHistoryAction.html":[8,0,0,4,36],
 "classMR_1_1CombinedHistoryAction.html":[8,0,0,20,171],
-"classMR_1_1CommandLoop.html":[8,0,0,20,574],
-"classMR_1_1Cone3.html":[8,0,0,20,172]
+"classMR_1_1CommandLoop.html":[8,0,0,20,574]
 };

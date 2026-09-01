@@ -1,5 +1,7 @@
 var NAVTREEINDEX174 =
 {
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#ae990fe5eb13922d3eda31afcda604ffc":[8,1,1,0,1,1034,11],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#af6391be4e1318e0e3b533ff3f326ad31":[8,1,0,0,2,1034,6],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#af6391be4e1318e0e3b533ff3f326ad31":[8,1,1,0,1,1034,6],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html":[8,1,0,0,2,1026],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html":[8,1,1,0,1,1026],
@@ -247,7 +249,5 @@ var NAVTREEINDEX174 =
 "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aec04fa11d6f1b3838d9b310e827a4cfd":[8,1,1,0,1,1037,1],
 "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aff3927d0eee6c425a86f788a22f3d8e9":[8,1,0,0,2,1037,17],
 "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aff3927d0eee6c425a86f788a22f3d8e9":[8,1,1,0,1,1037,17],
-"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html":[8,1,0,0,2,1038],
-"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html":[8,1,1,0,1,1038],
-"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html#a00325fc4c43eae3b66dd80b40bf5cf95":[8,1,0,0,2,1038,1]
+"classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html":[8,1,0,0,2,1038]
 };

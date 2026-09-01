@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"classmrmeshpy_1_1Pdf_1_1PaletteRowStats.html#a633d989bb58e176c8d8f4d477162964c":[8,1,1,0,1,686,4,2],
+"classmrmeshpy_1_1Pdf_1_1PaletteRowStats.html#ac8406ce32e7e56ad29bf179534870e01":[8,1,0,0,2,686,4,0],
 "classmrmeshpy_1_1Pdf_1_1PaletteRowStats.html#ac8406ce32e7e56ad29bf179534870e01":[8,1,1,0,1,686,4,0],
 "classmrmeshpy_1_1Pdf_1_1TextCellParams.html":[8,1,0,0,2,686,5],
 "classmrmeshpy_1_1Pdf_1_1TextCellParams.html":[8,1,1,0,1,686,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "classmrmeshpy_1_1PlanarTriangulation_1_1OutlineParameters.html#a45ad8a055cca3195969fd4476dc164ba":[8,1,1,0,1,713,3,0],
 "classmrmeshpy_1_1PlanarTriangulation_1_1OutlineParameters.html#a73134c4da54500eed1b7a06bbe04352f":[8,1,0,0,2,713,3,1],
 "classmrmeshpy_1_1PlanarTriangulation_1_1OutlineParameters.html#a73134c4da54500eed1b7a06bbe04352f":[8,1,1,0,1,713,3,1],
-"classmrmeshpy_1_1PlanarTriangulation_1_1OutlineParameters.html#a9aa4af1ef91244f39b12e7c8f2f807a2":[8,1,0,0,2,713,3,4],
-"classmrmeshpy_1_1PlanarTriangulation_1_1OutlineParameters.html#a9aa4af1ef91244f39b12e7c8f2f807a2":[8,1,1,0,1,713,3,4],
-"classmrmeshpy_1_1PlanarTriangulation_1_1OutlineParameters.html#abe526b75ab447d4ead7ff8adf45184d2":[8,1,0,0,2,713,3,3]
+"classmrmeshpy_1_1PlanarTriangulation_1_1OutlineParameters.html#a9aa4af1ef91244f39b12e7c8f2f807a2":[8,1,0,0,2,713,3,4]
 };

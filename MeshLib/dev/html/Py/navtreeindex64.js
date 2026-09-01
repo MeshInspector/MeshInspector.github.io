@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html":[8,1,1,0,1,653],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a11ff753c64cb35360a415b7b1223d39a":[8,1,0,0,2,653,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a11ff753c64cb35360a415b7b1223d39a":[8,1,1,0,1,653,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[8,1,0,0,2,653,0],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[8,1,0,0,2,653,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1ObjectChildrenHolder.html#aa1020074c1326a825c86467a0580791d":[8,1,1,0,1,629,2],
 "classmrmeshpy_1_1ObjectChildrenHolder.html#ab156f05a236a7ac85bc140f3e80f4298":[8,1,0,0,2,629,3],
 "classmrmeshpy_1_1ObjectChildrenHolder.html#ab156f05a236a7ac85bc140f3e80f4298":[8,1,1,0,1,629,3],
-"classmrmeshpy_1_1ObjectChildrenHolder.html#ac97a060b78892936b6a0c4bd86dae0ca":[8,1,0,0,2,629,1],
-"classmrmeshpy_1_1ObjectChildrenHolder.html#ac97a060b78892936b6a0c4bd86dae0ca":[8,1,1,0,1,629,1],
-"classmrmeshpy_1_1ObjectComparableWithReference.html":[8,1,0,0,2,630]
+"classmrmeshpy_1_1ObjectChildrenHolder.html#ac97a060b78892936b6a0c4bd86dae0ca":[8,1,0,0,2,629,1]
 };

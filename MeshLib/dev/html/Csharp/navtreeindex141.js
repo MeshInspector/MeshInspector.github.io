@@ -1,5 +1,7 @@
 var NAVTREEINDEX141 =
 {
+"classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a94b62649278cbc8bf8c4a4ecd28ea7ac":[8,3,0,0,0,1776,26],
+"classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a9a412eccfd2d2def5e8f00dffed4dcad":[8,3,0,0,0,1776,23],
 "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a9bb836339c8b00206221e2dd9fde2dbe":[8,3,0,0,0,1776,15],
 "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#aa8818cb3c82719f17864ce6939e788c1":[8,3,0,0,0,1776,1],
 "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#ab30a0038956fce27573a75e36060974d":[8,3,0,0,0,1776,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX141 =
 "classMR_1_1VertColors.html#ace2046df0e58da5306127d88b5ff3aa4":[8,3,0,0,0,1786,8],
 "classMR_1_1VertColors.html#ae6b4286e34c17f669778ac11ccee48ee":[8,3,0,0,0,1786,24],
 "classMR_1_1VertColors.html#ae963429afaf0c6f510029d1d71db91ca":[8,3,0,0,0,1786,26],
-"classMR_1_1VertColors.html#aeeb763073cc748252841352587f922ef":[8,3,0,0,0,1786,14],
-"classMR_1_1VertColors.html#af03c356e55aa7a456501ad5ee54854fa":[8,3,0,0,0,1786,18],
-"classMR_1_1VertColors.html#af384437afa67236d37dd1e3c1ab69cd3":[8,3,0,0,0,1786,19]
+"classMR_1_1VertColors.html#aeeb763073cc748252841352587f922ef":[8,3,0,0,0,1786,14]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"classMR_1_1Cone3.html":[8,0,0,20,172],
 "classMR_1_1Cone3Approximation.html":[8,0,0,20,175],
 "classMR_1_1ConeObject.html":[8,0,0,11,0,1],
 "classMR_1_1ConeObject.html":[8,0,0,20,176],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "classMR_1_1ImGuiImage.html":[8,0,0,20,596],
 "classMR_1_1ImGuiMenu.html":[8,0,0,20,557],
 "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html":[8,0,0,20,561],
-"classMR_1_1InSphereTester.html":[8,0,0,20,293],
-"classMR_1_1InSphereTesterSoS.html":[8,0,0,20,294]
+"classMR_1_1InSphereTester.html":[8,0,0,20,293]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX149 =
 {
+"std__optional__MR__TriIntersectResult_8h.html#a3eebdbca3a1c6ba73a551bdada7f4727":[8,2,2,0,0,0,0,2,225,0],
 "std__optional__MR__TriIntersectResult_8h.html#a843c28975bd8b240128e3466724c57b8":[8,2,2,0,0,0,0,2,225,7],
 "std__optional__MR__TriIntersectResult_8h.html#aa4ab5634f364d07522397dd422654028":[8,2,2,0,0,0,0,2,225,2],
 "std__optional__MR__TriIntersectResult_8h.html#ab5add4723abcb45ddf3ba14b17f41d63":[8,2,2,0,0,0,0,2,225,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX149 =
 "std__optional__std__vector__MR__ObjVertId_8h.html#aecfb6a88cf971f5c2106b53182a5ff91":[8,2,2,0,0,0,0,2,238,9],
 "std__optional__std__vector__MR__ObjVertId_8h_source.html":[8,2,2,0,0,0,0,2,238],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html":[8,2,2,0,0,0,0,2,239],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a05cf4c767237f7b60e71aed6076e64ed":[8,2,2,0,0,0,0,2,239,3],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a12fcb330496bd99d10e65f53d31d89e9":[8,2,2,0,0,0,0,2,239,7]
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a05cf4c767237f7b60e71aed6076e64ed":[8,2,2,0,0,0,0,2,239,3]
 };

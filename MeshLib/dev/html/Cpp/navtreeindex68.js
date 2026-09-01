@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1SymbolMeshParams.html":[8,0,0,20,556],
 "structMR_1_1SystemMemory.html":[8,0,0,20,502],
 "structMR_1_1TbbTaskArenaAndGroup.html":[8,0,0,20,504],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[8,0,0,20,877],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1VacantElements.html":[8,0,0,20,366],
 "structMR_1_1VarEdgeTri.html":[8,0,0,1,18],
 "structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc":[8,0,0,1,18,6],
-"structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d":[8,0,0,1,18,4],
-"structMR_1_1VarEdgeTri.html#a33184180e0f7658211800f7ad3720833":[8,0,0,1,18,5]
+"structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d":[8,0,0,1,18,4]
 };

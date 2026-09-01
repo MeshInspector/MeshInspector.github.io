@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classmrmeshpy_1_1FlowAggregator.html#ab021f0edced20e493266e08c11c886e9":[8,1,1,0,1,298,1],
+"classmrmeshpy_1_1FlowAggregator.html#ab6160992e764056e93ee15bcb5f92b91":[8,1,0,0,2,298,4],
 "classmrmeshpy_1_1FlowAggregator.html#ab6160992e764056e93ee15bcb5f92b91":[8,1,1,0,1,298,4],
 "classmrmeshpy_1_1FlowAggregator.html#ad4b199014b955fd39b0f10057da2f2e7":[8,1,0,0,2,298,9],
 "classmrmeshpy_1_1FlowAggregator.html#ad4b199014b955fd39b0f10057da2f2e7":[8,1,1,0,1,298,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classmrmeshpy_1_1GeodesicPathApprox.html#a7ae3d048279bd3ab2550c5df441c00b6":[8,1,1,0,1,393,10],
 "classmrmeshpy_1_1GeodesicPathApprox.html#a7f15eafb48dd0bc853f0d957761bb672":[8,1,0,0,2,393,0],
 "classmrmeshpy_1_1GeodesicPathApprox.html#a7f15eafb48dd0bc853f0d957761bb672":[8,1,1,0,1,393,0],
-"classmrmeshpy_1_1GeodesicPathApprox.html#a8079f3b26b4883ca0e0440dcc83b34c7":[8,1,0,0,2,393,2],
-"classmrmeshpy_1_1GeodesicPathApprox.html#a8079f3b26b4883ca0e0440dcc83b34c7":[8,1,1,0,1,393,2],
-"classmrmeshpy_1_1GeodesicPathApprox.html#a88c4aa3ab1c949faec916164dfe0ae3e":[8,1,0,0,2,393,6]
+"classmrmeshpy_1_1GeodesicPathApprox.html#a8079f3b26b4883ca0e0440dcc83b34c7":[8,1,0,0,2,393,2]
 };
