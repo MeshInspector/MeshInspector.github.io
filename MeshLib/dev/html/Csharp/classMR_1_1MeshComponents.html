@@ -184,6 +184,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9543db83319e58a395e05677c4ad2d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest by number of elements component Generated from function <span class="tt"><a class="el" href="#a9543db83319e58a395e05677c4ad2d66" title="returns the largest by number of elements component Generated from function MR.MeshComponents....">MR.MeshComponents.getLargestComponentVerts</a></span>.  <br /></td></tr>
 <tr class="memitem:a763f99071c909da92c284171e2b0e9ee" id="r_a763f99071c909da92c284171e2b0e9ee"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a763f99071c909da92c284171e2b0e9ee">getLargeComponentVerts</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, int minVerts, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? region=null)</td></tr>
 <tr class="memdesc:a763f99071c909da92c284171e2b0e9ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the union of vertex connected components, each having at least  <br /></td></tr>
+<tr class="memitem:a5645da41096dfa536ded490fd932a707" id="r_a5645da41096dfa536ded490fd932a707"><td class="memItemLeft" align="right" valign="top">static unsafe double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5645da41096dfa536ded490fd932a707">getLargestComponentArea</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? largestComponent=null, MR.Misc.InOut&lt; int &gt;? numSmallerComponents=null)</td></tr>
+<tr class="memdesc:a5645da41096dfa536ded490fd932a707"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the area of the largest by surface area component, and zero if there are no components at all Generated from function <span class="tt"><a class="el" href="#a5645da41096dfa536ded490fd932a707" title="returns the area of the largest by surface area component, and zero if there are no components at all...">MR.MeshComponents.getLargestComponentArea</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">MR.MeshComponents.PerEdge</a></span>.  <br /></td></tr>
 <tr class="memitem:ad296f69ab97903119a0505f29f6b1dde" id="r_ad296f69ab97903119a0505f29f6b1dde"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad296f69ab97903119a0505f29f6b1dde">getLargestComponent</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null, float? minArea=null, MR.Misc.InOut&lt; int &gt;? numSmallerComponents=null)</td></tr>
 <tr class="memdesc:ad296f69ab97903119a0505f29f6b1dde"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest by surface area component or empty set if its area is smaller than  <br /></td></tr>
 <tr class="memitem:a59fb06268f41733c378e3997eeaa372e" id="r_a59fb06268f41733c378e3997eeaa372e"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59fb06268f41733c378e3997eeaa372e">getComponents</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> seeds, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
@@ -1239,6 +1241,52 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a5645da41096dfa536ded490fd932a707" name="a5645da41096dfa536ded490fd932a707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5645da41096dfa536ded490fd932a707">&#9670;&#160;</a></span>getLargestComponentArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe double MR.MeshComponents.getLargestComponentArea </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>?</td>          <td class="paramname"><span class="paramname"><em>incidence</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>largestComponent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Misc.InOut&lt; int &gt;?</td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the area of the largest by surface area component, and zero if there are no components at all Generated from function <span class="tt"><a class="el" href="#a5645da41096dfa536ded490fd932a707" title="returns the area of the largest by surface area component, and zero if there are no components at all...">MR.MeshComponents.getLargestComponentArea</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">MR.MeshComponents.PerEdge</a></span>. </p>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX158 =
 {
+"std__shared__ptr__MR__FastWindingNumber_8h.html#a2afa7263e1a8acc2c63ad335e32d16ef":[8,2,2,0,0,0,0,2,346,14],
 "std__shared__ptr__MR__FastWindingNumber_8h.html#a2e25bf2dfc0ff7d42065eac7374fd0a9":[8,2,2,0,0,0,0,2,346,5],
 "std__shared__ptr__MR__FastWindingNumber_8h.html#a4592cb1591e7aefb3c634eeecfea9036":[8,2,2,0,0,0,0,2,346,6],
 "std__shared__ptr__MR__FastWindingNumber_8h.html#a4ffab3e840539a6ea454fd6c5e91b49d":[8,2,2,0,0,0,0,2,346,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX158 =
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ad40b24488a72eb405e4ace3ac885f96e":[8,2,2,0,0,0,0,2,356,6],
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ae07abcb134e36ed7cade9b231f04ecdd":[8,2,2,0,0,0,0,2,356,13],
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#ae33f916a4d1646cdf469cc7abc7fbe26":[8,2,2,0,0,0,0,2,356,3],
-"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h_source.html":[8,2,2,0,0,0,0,2,356],
-"std__shared__ptr__MR__ObjectChildrenHolder_8h.html":[8,2,2,0,0,0,0,2,358]
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h_source.html":[8,2,2,0,0,0,0,2,356]
 };

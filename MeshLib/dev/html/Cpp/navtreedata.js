@@ -207,20 +207,20 @@ var NAVTREEINDEX =
 "group__GeneralGroup.html#gga44bd35b44ad13ba0a8968ae8260539cda6f2f0aefb3d22da0f3839453add5f937",
 "group__GeneralGroup.html#ggace9513029904e4f1154117bec80e9e51a2fca5f3c7eaf40f769b717bc3ff48eb5",
 "group__IOGroup.html#ga1c3cebd38d164d456af80671f7250fbf",
-"group__MeshFixerGroup.html#gae137c5e3de8e28fc5ff47caee9632c41",
+"group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc",
 "group__SurfacePathGroup.html#ga1792643322d571922601c7286a802f51",
-"group__VoxelGroup.html#ga9278508392604ed5b02779e63a573555",
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#ab99fb146ee19534728c21de96d621c49",
-"namespaceMR_1_1UnitSettings.html#ad5bb619905d31722d3e7f5a91afb1c46",
-"structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1",
-"structMR_1_1Dirty.html#a76c3682b5945100a319d092463d942e5",
+"group__VoxelGroup.html#ga926edbe131f216c52d55d31a98f33aaf",
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898afad58de7366495db4650cfefac2fcd61",
+"namespaceMR_1_1UnitSettings.html#ad0f4b58308b6afde0805f1a15314ec36",
+"structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c",
+"structMR_1_1Dirty.html#a71af917001468a850a824a320316bee5",
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#ad90dcc9ff00b5b5d146e090b2052a11a",
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html",
-"structMR_1_1Mcp_1_1Server_1_1Params.html#aed25300f1cd5c8f887d17e5f49656d51",
-"structMR_1_1MeshToVolumeParams.html",
-"structMR_1_1Polyline.html#aeaa90b34cd74ab76a35694d438baaf65",
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html",
-"structMR_1_1VarEdgeTri.html#a8e7c3895e3226b4e74de73d21cd4c4ad"
+"structMR_1_1Mcp_1_1Server_1_1Params.html#acaf116a4e061c5d70d4b14aa4790a368",
+"structMR_1_1MeshToDistanceVolumeParams.html",
+"structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12",
+"structMR_1_1TbbTaskArenaAndGroup.html",
+"structMR_1_1VarEdgeTri.html#a5f818bf5f96cbe4b5c899d56e9185ce6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

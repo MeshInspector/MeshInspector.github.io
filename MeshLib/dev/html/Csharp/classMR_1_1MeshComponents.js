@@ -33,6 +33,7 @@ var classMR_1_1MeshComponents =
     [ "getLargeByVolumeComponents", "classMR_1_1MeshComponents.html#a6138532c8525daf0960225300b8c4182", null ],
     [ "getLargeComponentVerts", "classMR_1_1MeshComponents.html#a763f99071c909da92c284171e2b0e9ee", null ],
     [ "getLargestComponent", "classMR_1_1MeshComponents.html#ad296f69ab97903119a0505f29f6b1dde", null ],
+    [ "getLargestComponentArea", "classMR_1_1MeshComponents.html#a5645da41096dfa536ded490fd932a707", null ],
     [ "getLargestComponentVerts", "classMR_1_1MeshComponents.html#a9543db83319e58a395e05677c4ad2d66", null ],
     [ "getNLargeByAreaComponents", "classMR_1_1MeshComponents.html#a2e851fcd586d64867abf8a87867cb44e", null ],
     [ "getNumComponents", "classMR_1_1MeshComponents.html#ac7639c0d0326e4586ea6b0f21c829850", null ],

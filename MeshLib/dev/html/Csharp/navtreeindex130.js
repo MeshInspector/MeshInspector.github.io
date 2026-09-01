@@ -1,5 +1,6 @@
 var NAVTREEINDEX130 =
 {
+"classMR_1_1SphereParams.html#aa747c618b6742d28442e778ad3b77fed":[8,3,0,0,0,1626,6],
 "classMR_1_1SphereParams.html#ac5519c5d749e655d17b47d00149d8411":[8,3,0,0,0,1626,5],
 "classMR_1_1SplineSettings.html":[8,3,0,0,0,1627],
 "classMR_1_1SplineSettings.html#a1db69d1c397c5f5d0ea6a9657d00342b":[8,3,0,0,0,1627,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX130 =
 "classMR_1_1SymMatrix3d.html#af44b001949d498ce46fda867f3f0246a":[8,3,0,0,0,1642,1],
 "classMR_1_1SymMatrix3d.html#aff71d1aa9ebd0aec66de0b27232fc6de":[8,3,0,0,0,1642,6],
 "classMR_1_1SymMatrix3f.html":[8,3,0,0,0,1643],
-"classMR_1_1SymMatrix3f.html#a031fea5a09b80da42e7bcb6ddac3ff0b":[8,3,0,0,0,1643,2],
-"classMR_1_1SymMatrix3f.html#a0db37ea6a400205e0ef61ddc25559d9e":[8,3,0,0,0,1643,9]
+"classMR_1_1SymMatrix3f.html#a031fea5a09b80da42e7bcb6ddac3ff0b":[8,3,0,0,0,1643,2]
 };

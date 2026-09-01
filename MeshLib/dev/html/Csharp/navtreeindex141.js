@@ -1,5 +1,6 @@
 var NAVTREEINDEX141 =
 {
+"classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#ad5cf0c5856656cac54117f4eb3272b23":[8,3,0,0,0,1776,3],
 "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#ad61d11cbd9bbc4bafda3461804e8b808":[8,3,0,0,0,1776,5],
 "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#af7b8f6f32c56a9adadf1f90ba9073306":[8,3,0,0,0,1776,27],
 "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html":[8,3,0,0,0,1777],
@@ -248,6 +249,5 @@ var NAVTREEINDEX141 =
 "classMR_1_1VertCoords.html":[8,3,0,0,0,1787],
 "classMR_1_1VertCoords.html#a06fbd4c0fbdac0e8a5ba29fbe3587bca":[8,3,0,0,0,1787,7],
 "classMR_1_1VertCoords.html#a071f4992f0b8f19e38ed4a84eddac978":[8,3,0,0,0,1787,11],
-"classMR_1_1VertCoords.html#a17d2cf5ae63b450645b98d17a8c6f587":[8,3,0,0,0,1787,0],
-"classMR_1_1VertCoords.html#a30f65da31f5a367ee9ee4a96bb51e342":[8,3,0,0,0,1787,19]
+"classMR_1_1VertCoords.html#a17d2cf5ae63b450645b98d17a8c6f587":[8,3,0,0,0,1787,0]
 };

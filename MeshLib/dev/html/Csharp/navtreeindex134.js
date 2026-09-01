@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"classMR_1_1UndirEdgeColorMapAggregator.html#ae230ad841ad3059a170c8fb53c01e910":[8,3,0,0,0,1699,3],
 "classMR_1_1UndirEdgeColorMapAggregator.html#aeb7ad38964f1cb331106c2a0a2087e79":[8,3,0,0,0,1699,7],
 "classMR_1_1UndirEdgeColorMapAggregator.html#aecfad71bce8ab425f97c9b0302234db7":[8,3,0,0,0,1699,12],
 "classMR_1_1UndirEdgeColorMapAggregator.html#aed707045b5a58c9c99c0084a70fa949f":[8,3,0,0,0,1699,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "classMR_1_1UniqueThreadSafeOwner__MRAABBTree.html#a00bbc7849f34d049a715f8507b8153a4":[8,3,0,0,0,1704,2],
 "classMR_1_1UniqueThreadSafeOwner__MRAABBTree.html#a10b5c522aa467cc7a4ded98abd0804bc":[8,3,0,0,0,1704,6],
 "classMR_1_1UniqueThreadSafeOwner__MRAABBTree.html#a2aae0d8011d9dcdef79a6a92ded8b4ff":[8,3,0,0,0,1704,4],
-"classMR_1_1UniqueThreadSafeOwner__MRAABBTree.html#a62c59f217cdc7a5d9bae6c289e7e695c":[8,3,0,0,0,1704,0],
-"classMR_1_1UniqueThreadSafeOwner__MRAABBTree.html#a72593dfc446687194d638191142126c3":[8,3,0,0,0,1704,5]
+"classMR_1_1UniqueThreadSafeOwner__MRAABBTree.html#a62c59f217cdc7a5d9bae6c289e7e695c":[8,3,0,0,0,1704,0]
 };

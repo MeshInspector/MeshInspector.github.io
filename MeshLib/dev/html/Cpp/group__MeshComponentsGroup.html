@@ -165,6 +165,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga80cae558467e7bd7f1653b46bb13948f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest by number of elements component  <br /></td></tr>
 <tr class="memitem:gaf4ae6e26c37957e4d8c21b753af0d451" id="r_gaf4ae6e26c37957e4d8c21b753af0d451"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf4ae6e26c37957e4d8c21b753af0d451">MR::MeshComponents::getLargeComponentVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, int minVerts, const VertBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:gaf4ae6e26c37957e4d8c21b753af0d451"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the union of vertex connected components, each having at least  <br /></td></tr>
+<tr class="memitem:gaec294ffa0563a15d0b25c06c81ee5d51" id="r_gaec294ffa0563a15d0b25c06c81ee5d51"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaec294ffa0563a15d0b25c06c81ee5d51">MR::MeshComponents::getLargestComponentArea</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={}, FaceBitSet *largestComponent=nullptr, int *numSmallerComponents=nullptr)</td></tr>
+<tr class="memdesc:gaec294ffa0563a15d0b25c06c81ee5d51"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the area of the largest by surface area component, and zero if there are no components at all  <br /></td></tr>
 <tr class="memitem:gad1f06f5521d13b8e679953ce57f4e690" id="r_gad1f06f5521d13b8e679953ce57f4e690"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1f06f5521d13b8e679953ce57f4e690">MR::MeshComponents::getLargestComponent</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={}, float minArea=0, int *numSmallerComponents=nullptr)</td></tr>
 <tr class="memdesc:gad1f06f5521d13b8e679953ce57f4e690"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest by surface area component or empty set if its area is smaller than  <br /></td></tr>
 <tr class="memitem:gaab630260881d2a238df5dfc1d9a31517" id="r_gaab630260881d2a238df5dfc1d9a31517"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab630260881d2a238df5dfc1d9a31517">MR::MeshComponents::getComponents</a> (const MeshPart &amp;meshPart, const FaceBitSet &amp;seeds, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
@@ -1229,6 +1231,61 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">minArea</td><td>optional output: the number of components in addition to returned one </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaec294ffa0563a15d0b25c06c81ee5d51" name="gaec294ffa0563a15d0b25c06c81ee5d51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec294ffa0563a15d0b25c06c81ee5d51">&#9670;&#160;</a></span>getLargestComponentArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::MeshComponents::getLargestComponentArea </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a></td>          <td class="paramname"><span class="paramname"><em>incidence</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UndirectedEdgeBitSet *</td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>largestComponent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
+
+<p>returns the area of the largest by surface area component, and zero if there are no components at all </p>
+<p>optional output: the number of components in addition to returned one </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">largestComponent</td><td>optional output with the faces of the largest by area component </td></tr>
   </table>
   </dd>
 </dl>

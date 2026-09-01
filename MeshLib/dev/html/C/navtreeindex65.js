@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"MRMeshTopology_8h.html#ab605754568c9587b1ce6dfe201321f38":[8,2,2,0,0,0,0,1,206,58],
 "MRMeshTopology_8h.html#ab7c43cd48038a9a611f6e85eb5a12a73":[8,2,2,0,0,0,0,1,206,131],
 "MRMeshTopology_8h.html#aba54dff3da0d5cedf580ac5ff9617962":[8,2,2,0,0,0,0,1,206,63],
 "MRMeshTopology_8h.html#abc755f82879a00b316c7c09d39d9e9aa":[8,2,2,0,0,0,0,1,206,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "MRMesh_8h.html#a761c97b0a5355c535d2a0d2284172cf7":[8,2,2,0,0,0,0,1,161,68],
 "MRMesh_8h.html#a77937c2ea990305bd5b8826f67653b0f":[8,2,2,0,0,0,0,1,161,67],
 "MRMesh_8h.html#a78c3b10639b46763146b78ae2ae4329f":[8,2,2,0,0,0,0,1,161,80],
-"MRMesh_8h.html#a79711e8d280452131a1a426bb3337b82":[8,2,2,0,0,0,0,1,161,82],
-"MRMesh_8h.html#a79be9afbfe2e487d71f3c3c316eee6fd":[8,2,2,0,0,0,0,1,161,126]
+"MRMesh_8h.html#a79711e8d280452131a1a426bb3337b82":[8,2,2,0,0,0,0,1,161,82]
 };

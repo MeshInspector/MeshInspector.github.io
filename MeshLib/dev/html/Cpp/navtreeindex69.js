@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1VarEdgeTri.html#a5f818bf5f96cbe4b5c899d56e9185ce6":[8,0,0,1,18,7],
 "structMR_1_1VarEdgeTri.html#a8e7c3895e3226b4e74de73d21cd4c4ad":[8,0,0,1,18,9],
 "structMR_1_1VarEdgeTri.html#a959f88d5011716b91abacd8e5b6d357c":[8,0,0,1,18,3],
 "structMR_1_1VarEdgeTri.html#a9823b1d64efd1d93070b51f01ffa10c6":[8,0,0,1,18,1],

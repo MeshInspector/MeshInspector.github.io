@@ -1,5 +1,6 @@
 var NAVTREEINDEX167 =
 {
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#aef1eb0bc79cf940999bb6b96427a5008":[8,2,2,0,0,0,0,2,421,31],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#af165e7db6f78a21e283799f3b7093ae9":[8,2,2,0,0,0,0,2,421,18],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#af78c89df7621809474eaa03a5dc50692":[8,2,2,0,0,0,0,2,421,45],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#afe6a2bbd0c0c0672bab5eb72d1d2f267":[8,2,2,0,0,0,0,2,421,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX167 =
 "std__vector__MR__EdgeBitSet_8h.html#a59753fcc15ff6d2eedaffd04e5c17bae":[8,2,2,0,0,0,0,2,425,0],
 "std__vector__MR__EdgeBitSet_8h.html#a5e5ccc517a3d48980081cbea3ee03c50":[8,2,2,0,0,0,0,2,425,38],
 "std__vector__MR__EdgeBitSet_8h.html#a5f68ff5321f9b5cd63fc3751311fb2f0":[8,2,2,0,0,0,0,2,425,66],
-"std__vector__MR__EdgeBitSet_8h.html#a606cc6b967c5682e9c85c44536e7f330":[8,2,2,0,0,0,0,2,425,40],
-"std__vector__MR__EdgeBitSet_8h.html#a68b51bdab75b029ea268705f62886898":[8,2,2,0,0,0,0,2,425,24]
+"std__vector__MR__EdgeBitSet_8h.html#a606cc6b967c5682e9c85c44536e7f330":[8,2,2,0,0,0,0,2,425,40]
 };

@@ -31,6 +31,7 @@ var namespaceMR_1_1MeshComponents =
     [ "getLargeByVolumeComponents", "group__MeshComponentsGroup.html#ga6ce22d1ba91640724f2871328726b18a", null ],
     [ "getLargeComponentVerts", "group__MeshComponentsGroup.html#gaf4ae6e26c37957e4d8c21b753af0d451", null ],
     [ "getLargestComponent", "group__MeshComponentsGroup.html#gad1f06f5521d13b8e679953ce57f4e690", null ],
+    [ "getLargestComponentArea", "group__MeshComponentsGroup.html#gaec294ffa0563a15d0b25c06c81ee5d51", null ],
     [ "getLargestComponentVerts", "group__MeshComponentsGroup.html#ga80cae558467e7bd7f1653b46bb13948f", null ],
     [ "getNLargeByAreaComponents", "group__MeshComponentsGroup.html#ga23b859fdd8b110e1159c392f9f891f77", null ],
     [ "getNumComponents", "group__MeshComponentsGroup.html#gae974a625c63fc8fe114d87f296074399", null ],

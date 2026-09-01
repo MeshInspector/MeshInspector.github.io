@@ -763,6 +763,46 @@ note that function require closed mesh part
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33175" bodyend="33178"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1aa8428dac153de9f0794e40dca5dca8aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshComponents.getLargestComponentArea</definition>
+        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;, FaceBitSet largestComponent=None, int_output numSmallerComponents=None)</argsstring>
+        <name>getLargestComponentArea</name>
+        <qualifiedname>mrmeshpy.MeshComponents.getLargestComponentArea</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
+          <declname>incidence</declname>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>isCompBd</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>largestComponent</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1int__output" kindref="compound">int_output</ref></type>
+          <declname>numSmallerComponents</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the area of the largest by surface area component, and zero if there are no components at all
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33180" bodyend="33183"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ae99515c16a921b43d356fde6b522cc9f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
         <definition> VertBitSet mrmeshpy.MeshComponents.getLargestComponentVerts</definition>
@@ -786,7 +826,7 @@ note that function require closed mesh part
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33180" bodyend="33183"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33185" bodyend="33188"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ae75b75d30fb7da3bee120b416ea16c52" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
@@ -810,7 +850,7 @@ note that function require closed mesh part
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33185" bodyend="33188"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33190" bodyend="33193"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1af5c85c21788f441f1927f2239fe71523" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -840,7 +880,7 @@ note that function require closed mesh part
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33190" bodyend="33193"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33195" bodyend="33198"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a1dd8f28350adc3aea6e522c56080bda2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__double__RegionId" kindref="compound">Vector_double_RegionId</ref></type>
@@ -868,7 +908,7 @@ note that function require closed mesh part
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33195" bodyend="33198"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33200" bodyend="33203"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ac3b93ce6cd1cef8c3f3f2d0bdf2724d7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BaseUnionFind__FaceId" kindref="compound">BaseUnionFind_FaceId</ref></type>
@@ -898,7 +938,7 @@ note that function require closed mesh part
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33201" bodyend="33204"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33206" bodyend="33209"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1aff444f027b5c0152015851155c456b89" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BaseUnionFind__FaceId" kindref="compound">BaseUnionFind_FaceId</ref></type>
@@ -931,7 +971,7 @@ note that function require closed mesh part
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33207" bodyend="33208"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33212" bodyend="33213"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ac7438ab6ac2e26b3611ce17bd609ec8c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BaseUnionFind__FaceId" kindref="compound">BaseUnionFind_FaceId</ref></type>
@@ -957,7 +997,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33211" bodyend="33215"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33216" bodyend="33220"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ab68e82b3eba94bc7a6e7ef764345e215" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BaseUnionFind__FaceId" kindref="compound">BaseUnionFind_FaceId</ref></type>
@@ -985,7 +1025,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33218" bodyend="33219"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33223" bodyend="33224"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a50f7037c672042546d6d0d81fbff8b75" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId" kindref="compound">UnionFind_UndirectedEdgeId</ref></type>
@@ -1011,7 +1051,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33221" bodyend="33225"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33226" bodyend="33230"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a2570d9269445d36962e74579a9f05f94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -1036,7 +1076,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33228" bodyend="33231"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33233" bodyend="33236"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ad2458ff366ad73a2a31e2e2372023d41" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -1059,7 +1099,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33234" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33234" bodyend="33235"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33239" bodyend="33240"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1aa6a97d11d80dd53dae9bbc11638b1acd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -1083,7 +1123,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33238" bodyend="33241"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33243" bodyend="33246"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a13c3d0574b8e6fef528700fc169df071" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -1107,7 +1147,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33244" bodyend="33247"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33249" bodyend="33252"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a78f0cb19a56353b7c77d0cf4ba5cd952" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -1131,7 +1171,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33249" bodyend="33252"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33254" bodyend="33257"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a160673de7369769db9c212722aa6ed0f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -1161,7 +1201,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33254" bodyend="33258"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33259" bodyend="33263"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1aad92358b1133cef73925d1cca000522b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -1188,7 +1228,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33260" bodyend="33261"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33265" bodyend="33266"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ae54a0cf542b013633cb6096bc42ac1dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1212,7 +1252,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33264" bodyend="33267"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33269" bodyend="33272"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a15200f2e7236a7ee1c27236ee39bc205" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1234,7 +1274,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33270" bodyend="33271"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33275" bodyend="33276"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1243,7 +1283,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32864" bodyend="33271"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32864" bodyend="33276"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshComponents_1a6495beaaac4f66402d568d63a55a8834" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>excludeFullySelectedComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1af592f7c3a03d69604d3a8135c9b0a29c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>expandToComponents</name></member>
@@ -1270,6 +1310,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
       <member refid="classmrmeshpy_1_1MeshComponents_1a5977b30ddbec75882881bd8937ff12b6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargeByVolumeComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ac7ffd662f7eb22891f6f339f803f252f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargeComponentVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a312252413bdf92ea7b1d6b0f6fb104c0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargestComponent</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1aa8428dac153de9f0794e40dca5dca8aa" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargestComponentArea</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ae99515c16a921b43d356fde6b522cc9f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getLargestComponentVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ae75b75d30fb7da3bee120b416ea16c52" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getNLargeByAreaComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1af5c85c21788f441f1927f2239fe71523" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getNumComponents</name></member>

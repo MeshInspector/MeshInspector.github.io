@@ -178,6 +178,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5977b30ddbec75882881bd8937ff12b6" id="r_a5977b30ddbec75882881bd8937ff12b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5977b30ddbec75882881bd8937ff12b6">getLargeByVolumeComponents</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, float minVolume)</td></tr>
 <tr class="memitem:ac7ffd662f7eb22891f6f339f803f252f" id="r_ac7ffd662f7eb22891f6f339f803f252f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ffd662f7eb22891f6f339f803f252f">getLargeComponentVerts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, int minVerts, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
 <tr class="memitem:a312252413bdf92ea7b1d6b0f6fb104c0" id="r_a312252413bdf92ea7b1d6b0f6fb104c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a312252413bdf92ea7b1d6b0f6fb104c0">getLargestComponent</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}', float minArea=0, <a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> numSmallerComponents=None)</td></tr>
+<tr class="memitem:aa8428dac153de9f0794e40dca5dca8aa" id="r_aa8428dac153de9f0794e40dca5dca8aa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8428dac153de9f0794e40dca5dca8aa">getLargestComponentArea</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}', <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> largestComponent=None, <a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> numSmallerComponents=None)</td></tr>
 <tr class="memitem:ae99515c16a921b43d356fde6b522cc9f" id="r_ae99515c16a921b43d356fde6b522cc9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae99515c16a921b43d356fde6b522cc9f">getLargestComponentVerts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
 <tr class="memitem:ae75b75d30fb7da3bee120b416ea16c52" id="r_ae75b75d30fb7da3bee120b416ea16c52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html">std_vector_TypedBitSet_Id_FaceTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae75b75d30fb7da3bee120b416ea16c52">getNLargeByAreaComponents</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html">MeshComponents.LargeByAreaComponentsSettings</a> settings)</td></tr>
 <tr class="memitem:af5c85c21788f441f1927f2239fe71523" id="r_af5c85c21788f441f1927f2239fe71523"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5c85c21788f441f1927f2239fe71523">getNumComponents</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}')</td></tr>
@@ -1108,6 +1109,51 @@ note that function require closed mesh part
 </table>
 </div><div class="memdoc">
 <pre class="fragment">returns the largest by surface area component or empty set if its area is smaller than \\param minArea
+</pre> 
+</div>
+</div>
+<a id="aa8428dac153de9f0794e40dca5dca8aa" name="aa8428dac153de9f0794e40dca5dca8aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8428dac153de9f0794e40dca5dca8aa">&#9670;&#160;</a></span>getLargestComponentArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.MeshComponents.getLargestComponentArea </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> </td>          <td class="paramname"><span class="paramname"><em>incidence</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::MeshComponents::PerEdge'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>largestComponent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> </td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">returns the area of the largest by surface area component, and zero if there are no components at all
 </pre> 
 </div>
 </div>

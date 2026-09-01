@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"MRWeightedPointsShell_8h.html#a959d737ddcee6ea2e31580fe2bb2165b":[8,2,2,0,0,0,0,4,41,120],
 "MRWeightedPointsShell_8h.html#a96cdc8a338be92e8108ac14de96f8f2b":[8,2,2,0,0,0,0,4,41,13],
 "MRWeightedPointsShell_8h.html#a97de1ec08286dd81bbd180de29f9d3ad":[8,2,2,0,0,0,0,4,41,115],
 "MRWeightedPointsShell_8h.html#a9937d8afa39ed8b92a04e81c012bfe45":[8,2,2,0,0,0,0,4,41,110],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "expected__MR__CurveFunc__std__string_8h.html#ab773f9940a6e80b902d6d013b7abd2f1":[8,2,2,0,0,0,0,2,4,0],
 "expected__MR__CurveFunc__std__string_8h.html#ab9806e3068615e599d609e3ad63bdfff":[8,2,2,0,0,0,0,2,4,10],
 "expected__MR__CurveFunc__std__string_8h.html#abc2c98c3cd11a14a4a4d1f9c5929dca5":[8,2,2,0,0,0,0,2,4,5],
-"expected__MR__CurveFunc__std__string_8h.html#ac1bacb4b5726707886b497812f35efad":[8,2,2,0,0,0,0,2,4,12],
-"expected__MR__CurveFunc__std__string_8h.html#aed0d36c692d134af31807436bc1f4987":[8,2,2,0,0,0,0,2,4,4]
+"expected__MR__CurveFunc__std__string_8h.html#ac1bacb4b5726707886b497812f35efad":[8,2,2,0,0,0,0,2,4,12]
 };
