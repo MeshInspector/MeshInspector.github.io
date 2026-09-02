@@ -217,7 +217,7 @@ Linux</h3>
  On any other distribution use the portable <b>Linux vcpkg</b> build instead. It bundles its own dependencies and is not installed system-wide: unpack it and use the resulting directory as the MeshLib installation prefix, then skip to step 3. <div class="fragment"><div class="line">mkdir path_to_install &amp;&amp; tar -xf &lt;downloaded&gt;.tar.xz -C path_to_install</div>
 </div><!-- fragment --></li>
 <li><b>Install the Package</b> <br  />
- <span class="tt">apt</span> refuses a package built for another CPU, but nothing tells the Ubuntu releases apart: both declare the same dependencies and the <span class="tt">preinst</span> carries no release check, so installing the Ubuntu 22 build on Ubuntu 24 succeeds silently. Check the release in the file name first. <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
+ <span class="tt">apt</span> refuses a package built for another CPU, but nothing tells the Ubuntu releases apart: the builds all declare the same dependencies and the <span class="tt">preinst</span> carries no release check, so installing the Ubuntu 22 build on Ubuntu 24 succeeds silently. Check the release in the file name first. <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
 </div><!-- fragment --></li>
 <li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a> <br  />
  Add the following to your <span class="tt">CMakeLists.txt</span>: <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
