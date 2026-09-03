@@ -1,5 +1,7 @@
 var NAVTREEINDEX131 =
 {
+"MRWeightedPointsShell_8h.html#a605e5d1fce475e08ce64dafb2c079bb1":[8,2,2,0,0,0,0,4,41,27],
+"MRWeightedPointsShell_8h.html#a631323820f20f975dbc670122e84a8ae":[8,2,2,0,0,0,0,4,41,52],
 "MRWeightedPointsShell_8h.html#a636b19ce6e221df4de85352d7d7e3a07":[8,2,2,0,0,0,0,4,41,81],
 "MRWeightedPointsShell_8h.html#a640b180202f62ce03c7592fd220f2587":[8,2,2,0,0,0,0,4,41,49],
 "MRWeightedPointsShell_8h.html#a6852002654e8d59f6448202feacde4a5":[8,2,2,0,0,0,0,4,41,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX131 =
 "expected__MR__BooleanResultPoints__std__string_8h.html#aad55c4756813f695049ba0fac7102eb3":[8,2,2,0,0,0,0,2,3,2],
 "expected__MR__BooleanResultPoints__std__string_8h.html#aaf607d444f5a98d777fa0c353386ecb6":[8,2,2,0,0,0,0,2,3,3],
 "expected__MR__BooleanResultPoints__std__string_8h.html#ab14aa1d269464260dd1fd5056304b343":[8,2,2,0,0,0,0,2,3,5],
-"expected__MR__BooleanResultPoints__std__string_8h.html#ae30e59d47bb00ffec348859652178f97":[8,2,2,0,0,0,0,2,3,12],
-"expected__MR__BooleanResultPoints__std__string_8h.html#afc97db82c652c4e5ddd3765b70215844":[8,2,2,0,0,0,0,2,3,1],
-"expected__MR__BooleanResultPoints__std__string_8h_source.html":[8,2,2,0,0,0,0,2,3]
+"expected__MR__BooleanResultPoints__std__string_8h.html#ae30e59d47bb00ffec348859652178f97":[8,2,2,0,0,0,0,2,3,12]
 };

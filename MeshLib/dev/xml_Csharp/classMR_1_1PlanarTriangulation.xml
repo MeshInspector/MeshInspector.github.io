@@ -302,13 +302,61 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1405" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1405" bodyend="1413"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1aaf3dae5bbd300ace7a08d735961239a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRHoleFillPlan</type>
+        <definition>static unsafe MR.Std.Optional_MRHoleFillPlan MR.PlanarTriangulation.getMonotonePlan</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_StdVectorMREdgeId loops, in MR.Vector3f normal)</argsstring>
+        <name>getMonotonePlan</name>
+        <qualifiedname>MR.PlanarTriangulation.getMonotonePlan</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMREdgeId</type>
+          <declname>loops</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <briefdescription>
+<para>splits the near-planar region bounded by <computeroutput>loops</computeroutput> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>loops</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>one closed EdgeLoop of at least 3 edges per boundary of one region, bounding holes of <computeroutput>mesh</computeroutput> as trackRightBoundaryLoop returns them; which way round a loop runs does not matter </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>normal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the orientation the region is monotone around, see <ref refid="classMR_1_1PlanarTriangulation_1aa43721ee35ac47b736aab3533b4bf7a0" kindref="member">triangulateDisjointContours</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::nullopt if the loops intersect or a chord would land in a face instead of a hole, so that the caller can fall back on filling every loop separately; otherwise a plan with numTris == 0 for <ref refid="classMR_1abfb452e0e82cc49c11c92ec37457abd9" kindref="member">executeHoleFillPlan</ref>, which then only adds edges (empty if already monotone, a no-op). Validate it with isFillingMultipleEdgeFree: a chord may duplicate an off-loop mesh edge Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1aaf3dae5bbd300ace7a08d735961239a5" kindref="member">MR.PlanarTriangulation.getMonotonePlan</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1427" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1427" bodyend="1435"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="4" bodyend="1414"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="4" bodyend="1436"/>
     <listofallmembers>
+      <member refid="classMR_1_1PlanarTriangulation_1aaf3dae5bbd300ace7a08d735961239a5" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>getMonotonePlan</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1ab54f5e80cd451829b80c779726084587" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>getOutline</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1a284e7bebb8b5ffd5cb288277726bd05d" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>getOutline</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1a34a9cb429fb7084527f2f92fc91cb4fb" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>getOutlineMesh</name></member>

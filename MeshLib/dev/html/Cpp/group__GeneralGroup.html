@@ -3481,6 +3481,8 @@ Functions</h2></td></tr>
 <tr class="memitem:gac8b02e76a3739230980adf2a19f9fc63" id="r_gac8b02e76a3739230980adf2a19f9fc63"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac8b02e76a3739230980adf2a19f9fc63">MR::PlanarTriangulation::triangulateDisjointContours</a> (const <a class="el" href="#ga8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours)</td></tr>
 <tr class="memitem:gaa7fbba3ab7f376375bbede5a59a05768" id="r_gaa7fbba3ab7f376375bbede5a59a05768"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa7fbba3ab7f376375bbede5a59a05768">MR::PlanarTriangulation::triangulateDisjointContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, WholeEdgeMap *outPatchMap=nullptr)</td></tr>
 <tr class="memdesc:gaa7fbba3ab7f376375bbede5a59a05768"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
+<tr class="memitem:ga6bf92ff9850bc3bd73ec9926a31dcfed" id="r_ga6bf92ff9850bc3bd73ec9926a31dcfed"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6bf92ff9850bc3bd73ec9926a31dcfed">MR::PlanarTriangulation::getMonotonePlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>)</td></tr>
+<tr class="memdesc:ga6bf92ff9850bc3bd73ec9926a31dcfed"><td class="mdescLeft">&#160;</td><td class="mdescRight">splits the near-planar region bounded by <code class="param">loops</code> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation  <br /></td></tr>
 <tr class="memitem:ga58f8dd538965bde14c46c2ed60aac1f9" id="r_ga58f8dd538965bde14c46c2ed60aac1f9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga7a0335fa16114969e7f5e031192bf45b">NodeVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga58f8dd538965bde14c46c2ed60aac1f9">MR::AABBTreeBase&lt; T &gt;::nodes</a> () const</td></tr>
 <tr class="memdesc:ga58f8dd538965bde14c46c2ed60aac1f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to all nodes  <br /></td></tr>
 <tr class="memitem:gac94f623e90a49fd07aeb61722ab8e7f1" id="r_gac94f623e90a49fd07aeb61722ab8e7f1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga4a87e995071aa1a99752d3f3f32a72b3">Node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac94f623e90a49fd07aeb61722ab8e7f1">MR::AABBTreeBase&lt; T &gt;::operator[]</a> (NodeId nid) const</td></tr>
@@ -89185,6 +89187,44 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRShortcutManager_8h.html">MRViewer/MRShortcutManager.h</a>&gt;</code></p>
 
 <p>make string from strictly one modifier </p>
+
+</div>
+</div>
+<a id="ga6bf92ff9850bc3bd73ec9926a31dcfed" name="ga6bf92ff9850bc3bd73ec9926a31dcfed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6bf92ff9850bc3bd73ec9926a31dcfed">&#9670;&#160;</a></span>getMonotonePlan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt; MR::PlanarTriangulation::getMonotonePlan </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loops</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
+
+<p>splits the near-planar region bounded by <code class="param">loops</code> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">loops</td><td>one closed <a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> of at least 3 edges per boundary of one region, bounding holes of <code class="param">mesh</code> as trackRightBoundaryLoop returns them; which way round a loop runs does not matter </td></tr>
+    <tr><td class="paramname">normal</td><td>the orientation the region is monotone around, see <a class="el" href="#ga6aae14fbc41cd374145370930cb67b4e">triangulateDisjointContours</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::nullopt if the loops intersect or a chord would land in a face instead of a hole, so that the caller can fall back on filling every loop separately; otherwise a plan with numTris == 0 for <a class="el" href="group__FillHoleGroup.html#ga9c0d16866c22ddd9f9a804ceaafa6def">executeHoleFillPlan</a>, which then only adds edges (empty if already monotone, a no-op). Validate it with isFillingMultipleEdgeFree: a chord may duplicate an off-loop mesh edge </dd></dl>
 
 </div>
 </div>

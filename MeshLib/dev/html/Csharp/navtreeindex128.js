@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1SceneRoot.html#a870c404c0ad94e3187cad8f920c51963":[8,3,0,0,0,1584,1],
 "classMR_1_1SceneRoot.html#ab38d00140222cf6a4d49342bf98c6042":[8,3,0,0,0,1584,0],
 "classMR_1_1SceneRootObject.html":[8,3,0,0,0,1585],
 "classMR_1_1SceneRootObject.html#a0c6cc57fc92f20a9b6cfa7cf6b2b9832":[8,3,0,0,0,1585,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1SharpenMarchingCubesMeshSettings.html#a551f2bcb6656e2900447cb2251c531c3":[8,3,0,0,0,1605,1],
 "classMR_1_1SharpenMarchingCubesMeshSettings.html#a57f5187a2721bd12edb3a27d1a1334f0":[8,3,0,0,0,1605,5],
 "classMR_1_1SharpenMarchingCubesMeshSettings.html#a5cde2eb70c713727e438cb1122f2d0af":[8,3,0,0,0,1605,14],
-"classMR_1_1SharpenMarchingCubesMeshSettings.html#a5d77928abed2b4c0ffd870a270f4db87":[8,3,0,0,0,1605,10],
-"classMR_1_1SharpenMarchingCubesMeshSettings.html#a6651aa9240abb2ac3287f60f53800ef7":[8,3,0,0,0,1605,9]
+"classMR_1_1SharpenMarchingCubesMeshSettings.html#a5d77928abed2b4c0ffd870a270f4db87":[8,3,0,0,0,1605,10]
 };

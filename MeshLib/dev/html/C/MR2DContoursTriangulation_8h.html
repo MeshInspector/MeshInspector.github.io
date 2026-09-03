@@ -159,6 +159,7 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:a4cecbe6d6abe0a304f00ea1990538db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a50066b58d97b0be73d826cfdcc9eb188" id="r_a50066b58d97b0be73d826cfdcc9eb188"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a></td></tr>
 <tr class="memdesc:a50066b58d97b0be73d826cfdcc9eb188"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
+<tr class="memitem:ab9ea483d49601b3017056ba3df23921e" id="r_ab9ea483d49601b3017056ba3df23921e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab9ea483d49601b3017056ba3df23921e">MR_std_optional_MR_HoleFillPlan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9ea483d49601b3017056ba3df23921e">MR_std_optional_MR_HoleFillPlan</a></td></tr>
 <tr class="memitem:a3bbe7529fd9a3b454d1fe7040289bf3c" id="r_a3bbe7529fd9a3b454d1fe7040289bf3c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a></td></tr>
 <tr class="memitem:af3d746e536136af3a4a530351f5d15e8" id="r_af3d746e536136af3a4a530351f5d15e8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a></td></tr>
 <tr class="memitem:ab5de264b6065dbf84f6b3fa0f6530592" id="r_ab5de264b6065dbf84f6b3fa0f6530592"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a></td></tr>
@@ -293,6 +294,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ac412e95881d088ecc7116e3e563a176a" id="r_ac412e95881d088ecc7116e3e563a176a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac412e95881d088ecc7116e3e563a176a">MR_PlanarTriangulation_triangulateDisjointContours_1_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours)</td></tr>
 <tr class="memitem:a77e9803ea01cb9d26bcd752b6e90a4fe" id="r_a77e9803ea01cb9d26bcd752b6e90a4fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77e9803ea01cb9d26bcd752b6e90a4fe">MR_PlanarTriangulation_triangulateDisjointContours_4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *loops, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *normal, <a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *outPatchMap)</td></tr>
 <tr class="memdesc:a77e9803ea01cb9d26bcd752b6e90a4fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
+<tr class="memitem:a096c2450a4ec19741e247bb38d87de95" id="r_a096c2450a4ec19741e247bb38d87de95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab9ea483d49601b3017056ba3df23921e">MR_std_optional_MR_HoleFillPlan</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a096c2450a4ec19741e247bb38d87de95">MR_PlanarTriangulation_getMonotonePlan</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *loops, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *normal)</td></tr>
+<tr class="memdesc:a096c2450a4ec19741e247bb38d87de95"><td class="mdescLeft">&#160;</td><td class="mdescRight">splits the near-planar region bounded by <code class="param">loops</code> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a7cc04c912771d8ecdeac92a3fd49e1be" name="a7cc04c912771d8ecdeac92a3fd49e1be"></a>
@@ -383,6 +386,21 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Specify mode of detecting inside and outside parts of triangulation. </p>
+
+</div>
+</div>
+<a id="ab9ea483d49601b3017056ba3df23921e" name="ab9ea483d49601b3017056ba3df23921e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9ea483d49601b3017056ba3df23921e">&#9670;&#160;</a></span>MR_std_optional_MR_HoleFillPlan</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ab9ea483d49601b3017056ba3df23921e">MR_std_optional_MR_HoleFillPlan</a> <a class="el" href="#ab9ea483d49601b3017056ba3df23921e">MR_std_optional_MR_HoleFillPlan</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stores either a single <span class="tt">MR::HoleFillPlan</span> or nothing. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -851,6 +869,42 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>what to mark as inner part Returns a mutable pointer to a member variable of class <span class="tt">MR::PlanarTriangulation::BaseOutlineParameters</span> named <span class="tt">innerType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a096c2450a4ec19741e247bb38d87de95" name="a096c2450a4ec19741e247bb38d87de95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a096c2450a4ec19741e247bb38d87de95">&#9670;&#160;</a></span>MR_PlanarTriangulation_getMonotonePlan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab9ea483d49601b3017056ba3df23921e">MR_std_optional_MR_HoleFillPlan</a> * MR_PlanarTriangulation_getMonotonePlan </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>loops</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>splits the near-planar region bounded by <code class="param">loops</code> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">loops</td><td>one closed EdgeLoop of at least 3 edges per boundary of one region, bounding holes of <code class="param">mesh</code> as trackRightBoundaryLoop returns them; which way round a loop runs does not matter </td></tr>
+    <tr><td class="paramname">normal</td><td>the orientation the region is monotone around, see triangulateDisjointContours </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::nullopt if the loops intersect or a chord would land in a face instead of a hole, so that the caller can fall back on filling every loop separately; otherwise a plan with numTris == 0 for executeHoleFillPlan, which then only adds edges (empty if already monotone, a no-op). Validate it with isFillingMultipleEdgeFree: a chord may duplicate an off-loop mesh edge Generated from function <span class="tt">MR::PlanarTriangulation::getMonotonePlan</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">loops</span> can not be null. It is a single object. Parameter <span class="tt">normal</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__HoleFillPlan_8h.html#a6d0924adf124c1d36ab1cd726086a066" title="Destroys a heap-allocated instance of MR_std_optional_MR_HoleFillPlan. Does nothing if the pointer is...">MR_std_optional_MR_HoleFillPlan_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>

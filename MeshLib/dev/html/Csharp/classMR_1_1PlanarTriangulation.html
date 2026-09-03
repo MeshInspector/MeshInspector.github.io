@@ -219,6 +219,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a729cf46c3cb7c952ae221c96e50cbaf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#aa43721ee35ac47b736aab3533b4bf7a0" title="triangulate 2d contours only closed contours are allowed (first point of each contour should be the s...">MR.PlanarTriangulation.triangulateDisjointContours</a></span>.  <br /></td></tr>
 <tr class="memitem:a4381f5b19cfa561689e12c3e7f146ce5" id="r_a4381f5b19cfa561689e12c3e7f146ce5"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4381f5b19cfa561689e12c3e7f146ce5">triangulateDisjointContours</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_StdVectorMREdgeId loops, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> <a class="el" href="classMR.html#a01e25ff53effd03122fa769db4e2a4b2">normal</a>, <a class="el" href="classMR_1_1WholeEdgeMap.html">MR.WholeEdgeMap</a>? outPatchMap=null)</td></tr>
 <tr class="memdesc:a4381f5b19cfa561689e12c3e7f146ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
+<tr class="memitem:aaf3dae5bbd300ace7a08d735961239a5" id="r_aaf3dae5bbd300ace7a08d735961239a5"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRHoleFillPlan&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf3dae5bbd300ace7a08d735961239a5">getMonotonePlan</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_StdVectorMREdgeId loops, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> <a class="el" href="classMR.html#a01e25ff53effd03122fa769db4e2a4b2">normal</a>)</td></tr>
+<tr class="memdesc:aaf3dae5bbd300ace7a08d735961239a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">splits the near-planar region bounded by <code class="param">loops</code> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation  <br /></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
 <a id="a16757991e9e882dfb0fed5364ee342bf" name="a16757991e9e882dfb0fed5364ee342bf"></a>
@@ -243,6 +245,50 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aaf3dae5bbd300ace7a08d735961239a5" name="aaf3dae5bbd300ace7a08d735961239a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf3dae5bbd300ace7a08d735961239a5">&#9670;&#160;</a></span>getMonotonePlan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Optional_MRHoleFillPlan MR.PlanarTriangulation.getMonotonePlan </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Vector_StdVectorMREdgeId</td>          <td class="paramname"><span class="paramname"><em>loops</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>normal</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>splits the near-planar region bounded by <code class="param">loops</code> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">loops</td><td>one closed EdgeLoop of at least 3 edges per boundary of one region, bounding holes of <code class="param">mesh</code> as trackRightBoundaryLoop returns them; which way round a loop runs does not matter </td></tr>
+    <tr><td class="paramname">normal</td><td>the orientation the region is monotone around, see <a class="el" href="#aa43721ee35ac47b736aab3533b4bf7a0">triangulateDisjointContours</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::nullopt if the loops intersect or a chord would land in a face instead of a hole, so that the caller can fall back on filling every loop separately; otherwise a plan with numTris == 0 for <a class="el" href="classMR.html#abfb452e0e82cc49c11c92ec37457abd9">executeHoleFillPlan</a>, which then only adds edges (empty if already monotone, a no-op). Validate it with isFillingMultipleEdgeFree: a chord may duplicate an off-loop mesh edge Generated from function <span class="tt"><a class="el" href="#aaf3dae5bbd300ace7a08d735961239a5" title="splits the near-planar region bounded by loops in monotone parts, without triangulating them this is ...">MR.PlanarTriangulation.getMonotonePlan</a></span>. </dd></dl>
+
+</div>
+</div>
 <a id="a284e7bebb8b5ffd5cb288277726bd05d" name="a284e7bebb8b5ffd5cb288277726bd05d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a284e7bebb8b5ffd5cb288277726bd05d">&#9670;&#160;</a></span>getOutline() <span class="overload">[1/2]</span></h2>
 

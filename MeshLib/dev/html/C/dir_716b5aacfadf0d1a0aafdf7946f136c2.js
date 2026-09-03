@@ -211,6 +211,7 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "std_optional_MR_DimensionsVisualizePropertyType.h", "std__optional__MR__DimensionsVisualizePropertyType_8h.html", "std__optional__MR__DimensionsVisualizePropertyType_8h" ],
     [ "std_optional_MR_Edges.h", "std__optional__MR__Edges_8h.html", "std__optional__MR__Edges_8h" ],
     [ "std_optional_MR_FaceScalars.h", "std__optional__MR__FaceScalars_8h.html", "std__optional__MR__FaceScalars_8h" ],
+    [ "std_optional_MR_HoleFillPlan.h", "std__optional__MR__HoleFillPlan_8h.html", "std__optional__MR__HoleFillPlan_8h" ],
     [ "std_optional_MR_IOFilter.h", "std__optional__MR__IOFilter_8h.html", "std__optional__MR__IOFilter_8h" ],
     [ "std_optional_MR_LengthUnit.h", "std__optional__MR__LengthUnit_8h.html", "std__optional__MR__LengthUnit_8h" ],
     [ "std_optional_MR_Mesh.h", "std__optional__MR__Mesh_8h.html", "std__optional__MR__Mesh_8h" ],

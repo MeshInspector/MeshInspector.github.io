@@ -12610,6 +12610,7 @@ var group__GeneralGroup =
     [ "MR::Viewport::getModelRenderParamsOrthoFixedPos", "group__GeneralGroup.html#ga614eb5f34d747ddfd754aa6ec488b532", null ],
     [ "MR::TouchesController::getModeMask", "group__GeneralGroup.html#gaefb417e9acab3735ac002007e8954373", null ],
     [ "MR::ShortcutManager::getModifierString", "group__GeneralGroup.html#ga15b57b50512b2769b584863ef3b21cb0", null ],
+    [ "MR::PlanarTriangulation::getMonotonePlan", "group__GeneralGroup.html#ga6bf92ff9850bc3bd73ec9926a31dcfed", null ],
     [ "MR::MouseController::getMouseConflicts", "group__GeneralGroup.html#ga24e57a9dc84d98aa47bb153dce49815c", null ],
     [ "MR::getMouseModeString", "group__GeneralGroup.html#ga338d701994ea7476fe1b7aa25f480a86", null ],
     [ "MR::Viewer::getMousePointInfo", "group__GeneralGroup.html#ga3a12cb3d1ab49b666696979a4fe8b791", null ],

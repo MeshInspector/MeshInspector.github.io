@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1SurfacePointWidget_1_1Parameters.html":[8,0,0,20,746],
 "structMR_1_1SymMatrix2.html":[8,0,0,0,7,4],
 "structMR_1_1SymMatrix2.html":[8,0,0,20,500],
 "structMR_1_1SymMatrix3.html":[8,0,0,0,7,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1UniformSamplingSettings.html":[8,0,0,20,518],
 "structMR_1_1UniquePtr.html":[8,0,0,20,521],
 "structMR_1_1UnitInfo.html":[8,0,0,20,525],
-"structMR_1_1UnitToStringParams.html":[8,0,0,20,766],
-"structMR_1_1UniteManyMeshesParams.html":[8,0,0,20,523]
+"structMR_1_1UnitToStringParams.html":[8,0,0,20,766]
 };

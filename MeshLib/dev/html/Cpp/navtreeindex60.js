@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1UnitSettings.html#a706ad2d0dd78e1d4d10e1352ef53f53b":[8,0,1,0,1,50,15],
 "namespaceMR_1_1UnitSettings.html#a877acfc5ce5b7fba63a87fcfdf9e43d1":[8,0,1,0,1,50,12],
 "namespaceMR_1_1UnitSettings.html#a89d96a5a9615daa8de6e1bbbecda8156":[8,0,1,0,1,50,5],
 "namespaceMR_1_1UnitSettings.html#a9274e5f81702cc490493898076559da2":[8,0,1,0,1,50,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1BendTextAlongCurveParams.html":[8,0,0,20,553],
 "structMR_1_1BindVertexAttribArraySettings.html":[8,0,0,20,651],
 "structMR_1_1BooleanInternalParameters.html":[8,0,0,8,1],
-"structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[8,0,0,8,1,2],
-"structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[8,0,0,8,1,1]
+"structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[8,0,0,8,1,2]
 };

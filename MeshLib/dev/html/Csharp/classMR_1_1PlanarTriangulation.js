@@ -15,6 +15,7 @@ var classMR_1_1PlanarTriangulation =
       [ "Positive", "classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bfa3289297424e01eda5b788c083bbf3147", null ],
       [ "Negative", "classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bfaffb9356ff2b7da85c75c92fa7ea03b8b", null ]
     ] ],
+    [ "getMonotonePlan", "classMR_1_1PlanarTriangulation.html#aaf3dae5bbd300ace7a08d735961239a5", null ],
     [ "getOutline", "classMR_1_1PlanarTriangulation.html#a284e7bebb8b5ffd5cb288277726bd05d", null ],
     [ "getOutline", "classMR_1_1PlanarTriangulation.html#ab54f5e80cd451829b80c779726084587", null ],
     [ "getOutlineMesh", "classMR_1_1PlanarTriangulation.html#a5deeeab300c5b42ba33450aca60b58f1", null ],

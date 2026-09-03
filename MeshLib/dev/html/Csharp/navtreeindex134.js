@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#ad86eafbb4594284da14c8e2e47caee64":[8,3,0,0,0,1688,5],
 "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#ad9b034c26ba6a3ded262e660fc0c313d":[8,3,0,0,0,1688,25],
 "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#ada62cf544e34267749acd38edef1275f":[8,3,0,0,0,1688,3],
 "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#aee2efa293702312e984b586bdefa5973":[8,3,0,0,0,1688,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "classMR_1_1UnionFind__MRUndirectedEdgeId.html#a794be325858fc28467f854f295c7d662":[8,3,0,0,0,1703,10],
 "classMR_1_1UnionFind__MRUndirectedEdgeId.html#a89e3286ec1bff2e65b5c3f0e0cf88fa0":[8,3,0,0,0,1703,0],
 "classMR_1_1UnionFind__MRUndirectedEdgeId.html#a9dfbd46a327ffeb09ef5d3b338ca3088":[8,3,0,0,0,1703,9],
-"classMR_1_1UnionFind__MRUndirectedEdgeId.html#a9e9d10c1cb4bc56bc167fb2f5ebcb44e":[8,3,0,0,0,1703,8],
-"classMR_1_1UnionFind__MRUndirectedEdgeId.html#aac23a201e74dbd68bfd28616745bd622":[8,3,0,0,0,1703,12]
+"classMR_1_1UnionFind__MRUndirectedEdgeId.html#a9e9d10c1cb4bc56bc167fb2f5ebcb44e":[8,3,0,0,0,1703,8]
 };
