@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1InterpolateScalarsParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::InterpolateScalarsParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1InterpolateScalarsParams_1a3c51ff6492459c75c25dc3da679e0253" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InterpolateScalarsParams::_offsetof_edgeWeights</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edgeWeights</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams._offsetof_edgeWeights</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InterpolateScalarsParams_1a030a38ebf7835ccc22f8c3f3ea2f9c31" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InterpolateScalarsParams::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams._offsetof_region</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InterpolateScalarsParams_1a1be916932c5d628d3ed6691f2394c273" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InterpolateScalarsParams::_offsetof_stabilizer</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stabilizer</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams._offsetof_stabilizer</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InterpolateScalarsParams_1a4977e21187c66d23b0439acf372a888f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InterpolateScalarsParams::_offsetof_vertStabilizers</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertStabilizers</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams._offsetof_vertStabilizers</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25119" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1a189f3a5a6da87a119657b636abb4c3be" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InterpolateScalarsParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25122" bodyend="25123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1add802d5a4f28c3087ece734ca38dc2e2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1InterpolateScalarsParams" kindref="compound">InterpolateScalarsParams</ref></type>
+        <definition> InterpolateScalarsParams mrmeshpy.InterpolateScalarsParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25126" bodyend="25127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1add802d5a4f28c3087ece734ca38dc2e2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1InterpolateScalarsParams" kindref="compound">InterpolateScalarsParams</ref></type>
+        <definition> InterpolateScalarsParams mrmeshpy.InterpolateScalarsParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25130" bodyend="25131"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1afb6654c68387c891cc6b8aa2523931ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InterpolateScalarsParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25133" bodyend="25134"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1aed53d84f1c75d11eed2d4768299c4dfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InterpolateScalarsParams.__init__</definition>
+        <argsstring>(self, InterpolateScalarsParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1InterpolateScalarsParams" kindref="compound">InterpolateScalarsParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25136" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25136" bodyend="25139"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1afb2047b753605a6c09f9aa47821facf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InterpolateScalarsParams.__init__</definition>
+        <argsstring>(self, VertBitSet region, float stabilizer, func_float_from_Id_VertTag vertStabilizers, func_float_from_Id_UndirectedEdgeTag edgeWeights)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__VertTag" kindref="compound">func_float_from_Id_VertTag</ref></type>
+          <declname>vertStabilizers</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag" kindref="compound">func_float_from_Id_UndirectedEdgeTag</ref></type>
+          <declname>edgeWeights</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25141" bodyend="25144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1ad19bd92472bc7cfc41d7dadd767aa170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag" kindref="compound">func_float_from_Id_UndirectedEdgeTag</ref></type>
+        <definition> func_float_from_Id_UndirectedEdgeTag mrmeshpy.InterpolateScalarsParams.edgeWeights</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgeWeights</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.edgeWeights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if specified then it is used for edge weights instead of default 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25146" bodyend="25149"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1ad87bcc3b61d3bef7f681925aabc0cb32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InterpolateScalarsParams.edgeWeights</definition>
+        <argsstring>(self, func_float_from_Id_UndirectedEdgeTag arg1)</argsstring>
+        <name>edgeWeights</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.edgeWeights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag" kindref="compound">func_float_from_Id_UndirectedEdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25151" bodyend="25152"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1a3467e491b8a1e38de9a49f9df3e73566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.InterpolateScalarsParams.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>vertices where the field values are computed, nullptr means all vertices;
+it must not include all vertices of a mesh connected component unless stabilizer &gt; 0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25154" bodyend="25158"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1a55d94c86ee36ce62ec5cfd5db4fd3be3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InterpolateScalarsParams.region</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25160" bodyend="25161"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1a722a524069556f04246c56eab5ea2159" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.InterpolateScalarsParams.stabilizer</definition>
+        <argsstring>(self)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the more the value, the bigger attraction of each vertex to its original value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25163" bodyend="25166"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1ab3d4d3219f7c73bdbc8be4f818db72c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InterpolateScalarsParams.stabilizer</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25168" bodyend="25169"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1abe473d6b60cde7751c85efe92af89933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__float__from__Id__VertTag" kindref="compound">func_float_from_Id_VertTag</ref></type>
+        <definition> func_float_from_Id_VertTag mrmeshpy.InterpolateScalarsParams.vertStabilizers</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertStabilizers</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.vertStabilizers</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if specified then it is used instead of \\p stabilizer
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25171" bodyend="25174"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InterpolateScalarsParams_1ac117dadbfcb6293d0e0aa05ed4110cfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InterpolateScalarsParams.vertStabilizers</definition>
+        <argsstring>(self, func_float_from_Id_VertTag arg1)</argsstring>
+        <name>vertStabilizers</name>
+        <qualifiedname>mrmeshpy.InterpolateScalarsParams.vertStabilizers</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__VertTag" kindref="compound">func_float_from_Id_VertTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25176" bodyend="25177"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::InterpolateScalarsParams
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25112" bodyend="25177"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1a189f3a5a6da87a119657b636abb4c3be" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1afb6654c68387c891cc6b8aa2523931ed" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1aed53d84f1c75d11eed2d4768299c4dfb" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1afb2047b753605a6c09f9aa47821facf0" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1a3c51ff6492459c75c25dc3da679e0253" prot="protected" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>_offsetof_edgeWeights</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1a030a38ebf7835ccc22f8c3f3ea2f9c31" prot="protected" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1a1be916932c5d628d3ed6691f2394c273" prot="protected" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>_offsetof_stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1a4977e21187c66d23b0439acf372a888f" prot="protected" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>_offsetof_vertStabilizers</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1ad19bd92472bc7cfc41d7dadd767aa170" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>edgeWeights</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1ad87bcc3b61d3bef7f681925aabc0cb32" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>edgeWeights</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1add802d5a4f28c3087ece734ca38dc2e2" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1add802d5a4f28c3087ece734ca38dc2e2" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1a3467e491b8a1e38de9a49f9df3e73566" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1a55d94c86ee36ce62ec5cfd5db4fd3be3" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1a722a524069556f04246c56eab5ea2159" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1ab3d4d3219f7c73bdbc8be4f818db72c3" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1abe473d6b60cde7751c85efe92af89933" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>vertStabilizers</name></member>
+      <member refid="classmrmeshpy_1_1InterpolateScalarsParams_1ac117dadbfcb6293d0e0aa05ed4110cfc" prot="public" virt="non-virtual"><scope>mrmeshpy::InterpolateScalarsParams</scope><name>vertStabilizers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

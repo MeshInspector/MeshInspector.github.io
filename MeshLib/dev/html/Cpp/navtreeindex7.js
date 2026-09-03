@@ -26,7 +26,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1BitSet.html#afab07406cee38429e04894dd1de6f202":[8,0,0,3,3,4],
 "classMR_1_1BitSet.html#afc187206a3427ae8c94638dd893f922a":[8,0,0,3,3,14],
 "classMR_1_1BitSet.html#afc982ba4c4d3131098dc2fd20f779177":[8,0,0,3,3,34],
-"classMR_1_1BoundarySelectionWidget.html":[8,0,0,20,605],
+"classMR_1_1BoundarySelectionWidget.html":[8,0,0,20,606],
 "classMR_1_1Buffer.html":[8,0,0,3,6],
 "classMR_1_1Buffer.html":[8,0,0,20,137],
 "classMR_1_1CNCMachineSettings.html":[8,0,0,20,167],
@@ -41,7 +41,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[8,0,0,4,47,3],
 "classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[8,0,0,4,47,2],
 "classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[8,0,0,4,47,0],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[8,0,0,20,607],
+"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[8,0,0,20,608],
 "classMR_1_1ChangeColoringType.html":[8,0,0,4,3],
 "classMR_1_1ChangeColoringType.html":[8,0,0,20,143],
 "classMR_1_1ChangeDualMarchingCubesAction.html":[8,0,0,4,46],
@@ -65,7 +65,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e":[8,0,0,4,45,1],
 "classMR_1_1ChangeIsoAction.html#ac42a58b81acf452e6673fc739cdd14d0":[8,0,0,4,45,2],
 "classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018":[8,0,0,4,45,3],
-"classMR_1_1ChangeLabelAction.html":[8,0,0,20,553],
+"classMR_1_1ChangeLabelAction.html":[8,0,0,20,554],
 "classMR_1_1ChangeLinesColorMapAction.html":[8,0,0,4,2],
 "classMR_1_1ChangeLinesColorMapAction.html":[8,0,0,20,142],
 "classMR_1_1ChangeMeshAction.html":[8,0,0,4,4],
@@ -246,8 +246,8 @@ var NAVTREEINDEX7 =
 "classMR_1_1CircleObject.html#af40b5dfb76c6edd2bff5609e1beb14e2":[8,0,0,11,0,0,1],
 "classMR_1_1CircleObject.html#af6a4f0cbede7af795365ea5250edb8c4":[8,0,0,11,0,0,19],
 "classMR_1_1ColorMapAggregator.html":[8,0,0,20,169],
-"classMR_1_1ColorTheme.html":[8,0,0,20,573],
+"classMR_1_1ColorTheme.html":[8,0,0,20,574],
 "classMR_1_1CombinedHistoryAction.html":[8,0,0,4,36],
 "classMR_1_1CombinedHistoryAction.html":[8,0,0,20,171],
-"classMR_1_1CommandLoop.html":[8,0,0,20,574]
+"classMR_1_1CommandLoop.html":[8,0,0,20,575]
 };

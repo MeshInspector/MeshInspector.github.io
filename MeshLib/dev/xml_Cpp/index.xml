@@ -4641,6 +4641,12 @@
     <member refid="classMR_1_1Int64Mul128_1a379e5c3cea14cadec2f68cc1cb10da2a" kind="friend"><name>operator==</name></member>
     <member refid="classMR_1_1Int64Mul128_1a8e0754eb76c2f6c5325072d2e7d64ee4" kind="friend"><name>operator&lt;=&gt;</name></member>
   </compound>
+  <compound refid="structMR_1_1InterpolateScalarsParams" kind="struct"><name>MR::InterpolateScalarsParams</name>
+    <member refid="group__GeneralGroup_1ga17ce8fa9c3da180503cc50cdedfac9ec" kind="variable"><name>region</name></member>
+    <member refid="group__GeneralGroup_1ga98ab155d04ae2cfd71541853f95b9905" kind="variable"><name>stabilizer</name></member>
+    <member refid="group__GeneralGroup_1ga4bdb32dfbab99a544136700fbe9fa29b" kind="variable"><name>vertStabilizers</name></member>
+    <member refid="group__GeneralGroup_1ga0781fd3cc59338f9f5f19b3fb3a34134" kind="variable"><name>edgeWeights</name></member>
+  </compound>
   <compound refid="structMR_1_1InterruptCloseListener" kind="struct"><name>MR::InterruptCloseListener</name>
     <member refid="group__GeneralGroup_1ga9cd1676a4e7cfec815de633788a28894" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
     <member refid="group__GeneralGroup_1ga9b215bb36d1f025f2b907911acc49542" kind="function"><name>~InterruptCloseListener</name></member>
@@ -15505,6 +15511,7 @@
     <member refid="group__GeneralGroup_1ga3dac19de1058f607ecdcf5a193847974" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
     <member refid="group__GeneralGroup_1ga3311d4d92a95f00493ad1ad37902ff17" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
     <member refid="group__GeneralGroup_1ga9a94cc9f980d20a4e19d93b3b199eb84" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
+    <member refid="group__GeneralGroup_1ga4f42a28b9964388bcffead051b48b0b3" kind="function"><name>interpolateScalarsSmoothly</name></member>
     <member refid="group__GeneralGroup_1gadb739a70f56473054c61b01ea775d324" kind="function"><name>positionVertsWithSpacing</name></member>
     <member refid="group__GeneralGroup_1ga2ebbb4933faafb3ef63537dc45fdd789" kind="function"><name>positionVertsWithSpacing</name></member>
     <member refid="group__GeneralGroup_1ga32961e262e92c3438548d8b9a40b5364" kind="function"><name>inflate</name></member>
@@ -23126,6 +23133,10 @@
     <member refid="group__GeneralGroup_1ga5563df5f8c2ef1af7864e5be4bfc7a42" kind="variable"><name>stabilizer</name></member>
     <member refid="group__GeneralGroup_1ga69d2ed7107a7dd975887edd0da2c8847" kind="variable"><name>vertStabilizers</name></member>
     <member refid="group__GeneralGroup_1ga7a683cc3d1052af67b00984f50fa920d" kind="variable"><name>edgeWeights</name></member>
+    <member refid="group__GeneralGroup_1ga17ce8fa9c3da180503cc50cdedfac9ec" kind="variable"><name>region</name></member>
+    <member refid="group__GeneralGroup_1ga98ab155d04ae2cfd71541853f95b9905" kind="variable"><name>stabilizer</name></member>
+    <member refid="group__GeneralGroup_1ga4bdb32dfbab99a544136700fbe9fa29b" kind="variable"><name>vertStabilizers</name></member>
+    <member refid="group__GeneralGroup_1ga0781fd3cc59338f9f5f19b3fb3a34134" kind="variable"><name>edgeWeights</name></member>
     <member refid="group__GeneralGroup_1gac011fc95d61ece99cc3358e1236104d9" kind="variable"><name>region</name></member>
     <member refid="group__GeneralGroup_1ga49adf144c8f1f64aafce1e6927f03dc0" kind="variable"><name>dist</name></member>
     <member refid="group__GeneralGroup_1gad568a8496f9ca1e1732124e9fa159cd5" kind="variable"><name>numIters</name></member>
@@ -28145,6 +28156,7 @@
     <member refid="group__GeneralGroup_1ga3dac19de1058f607ecdcf5a193847974" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
     <member refid="group__GeneralGroup_1ga3311d4d92a95f00493ad1ad37902ff17" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
     <member refid="group__GeneralGroup_1ga9a94cc9f980d20a4e19d93b3b199eb84" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
+    <member refid="group__GeneralGroup_1ga4f42a28b9964388bcffead051b48b0b3" kind="function"><name>interpolateScalarsSmoothly</name></member>
     <member refid="group__GeneralGroup_1gadb739a70f56473054c61b01ea775d324" kind="function"><name>positionVertsWithSpacing</name></member>
     <member refid="group__GeneralGroup_1ga2ebbb4933faafb3ef63537dc45fdd789" kind="function"><name>positionVertsWithSpacing</name></member>
     <member refid="group__GeneralGroup_1ga32961e262e92c3438548d8b9a40b5364" kind="function"><name>inflate</name></member>

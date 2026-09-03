@@ -155,6 +155,7 @@ $(function(){initNavTree('MRPositionVertsSmoothly_8h.html','',''); });
 Typedefs</h2></td></tr>
 <tr class="memitem:acbe1cc8b68372b33dd2718a5a6c5a109" id="r_acbe1cc8b68372b33dd2718a5a6c5a109"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a></td></tr>
 <tr class="memitem:a07b41fec7fc0e4c60db351737899a104" id="r_a07b41fec7fc0e4c60db351737899a104"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a></td></tr>
+<tr class="memitem:a7e0301b84486605ccc4466b768ec40b8" id="r_a7e0301b84486605ccc4466b768ec40b8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a></td></tr>
 <tr class="memitem:a21442c1ce5a378c8d4d3b69760b05d3a" id="r_a21442c1ce5a378c8d4d3b69760b05d3a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a></td></tr>
 <tr class="memitem:abdbf486d01f5292e2bdbc2f3fb70a938" id="r_abdbf486d01f5292e2bdbc2f3fb70a938"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdbf486d01f5292e2bdbc2f3fb70a938">MR_InflateSettings</a></td></tr>
 </table><table class="memberdecls">
@@ -191,6 +192,30 @@ Functions</h2></td></tr>
 <tr class="memitem:abecc467d5183327b99fb181d6a266e00" id="r_abecc467d5183327b99fb181d6a266e00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abecc467d5183327b99fb181d6a266e00">MR_positionVertsSmoothlySharpBd_2_MR_PositionVertsSmoothlyParams</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *params)</td></tr>
 <tr class="memitem:a976b08c78372e27987dfe13d3a2a20fd" id="r_a976b08c78372e27987dfe13d3a2a20fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a976b08c78372e27987dfe13d3a2a20fd">MR_positionVertsSmoothlySharpBd_3</a> (const <a class="el" href="MRChangeMeshAction_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#a07b41fec7fc0e4c60db351737899a104">MR_PositionVertsSmoothlyParams</a> *params)</td></tr>
 <tr class="memitem:add13f88efa95f038b4106254dd27d746" id="r_add13f88efa95f038b4106254dd27d746"><td class="memItemLeft" align="right" valign="top"><a class="el" href="common_8h.html#a6cc2b78a67b0b3773417b073b9b28af7">MRC_DEPRECATED</a> <a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add13f88efa95f038b4106254dd27d746">MR_positionVertsSmoothlySharpBd_2_MR_VertBitSet</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts)</td></tr>
+<tr class="memitem:a94d020e18683c8d9a6ef11cde2527deb" id="r_a94d020e18683c8d9a6ef11cde2527deb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94d020e18683c8d9a6ef11cde2527deb">MR_InterpolateScalarsParams_Get_region</a> (const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this)</td></tr>
+<tr class="memitem:acf6a29fe92a6e025378e84c5ccd5221e" id="r_acf6a29fe92a6e025378e84c5ccd5221e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf6a29fe92a6e025378e84c5ccd5221e">MR_InterpolateScalarsParams_Set_region</a> (<a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
+<tr class="memitem:aa0068204aa8721d8e02191ea1b639c6c" id="r_aa0068204aa8721d8e02191ea1b639c6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0068204aa8721d8e02191ea1b639c6c">MR_InterpolateScalarsParams_GetMutable_region</a> (<a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this)</td></tr>
+<tr class="memitem:a1113b76aa66db8ee05480cff12c270a5" id="r_a1113b76aa66db8ee05480cff12c270a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1113b76aa66db8ee05480cff12c270a5">MR_InterpolateScalarsParams_Get_stabilizer</a> (const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this)</td></tr>
+<tr class="memitem:a8c0d1c3c5ef0e2b9d3b6e4d294389d99" id="r_a8c0d1c3c5ef0e2b9d3b6e4d294389d99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c0d1c3c5ef0e2b9d3b6e4d294389d99">MR_InterpolateScalarsParams_Set_stabilizer</a> (<a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this, float value)</td></tr>
+<tr class="memitem:a94f0a53d6f5671e94749278cb52e6271" id="r_a94f0a53d6f5671e94749278cb52e6271"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94f0a53d6f5671e94749278cb52e6271">MR_InterpolateScalarsParams_GetMutable_stabilizer</a> (<a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this)</td></tr>
+<tr class="memitem:a5e23b159240c26daace6b22cb21aabdf" id="r_a5e23b159240c26daace6b22cb21aabdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e23b159240c26daace6b22cb21aabdf">MR_InterpolateScalarsParams_Get_vertStabilizers</a> (const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this)</td></tr>
+<tr class="memitem:ac705a4b09228f6651db263731a7417e2" id="r_ac705a4b09228f6651db263731a7417e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac705a4b09228f6651db263731a7417e2">MR_InterpolateScalarsParams_Set_vertStabilizers</a> (<a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *value)</td></tr>
+<tr class="memitem:af8aaf200cfde7e9dae0a112f829a936e" id="r_af8aaf200cfde7e9dae0a112f829a936e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8aaf200cfde7e9dae0a112f829a936e">MR_InterpolateScalarsParams_GetMutable_vertStabilizers</a> (<a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this)</td></tr>
+<tr class="memitem:a0756e25710eed24d039308388bb36152" id="r_a0756e25710eed24d039308388bb36152"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0756e25710eed24d039308388bb36152">MR_InterpolateScalarsParams_Get_edgeWeights</a> (const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this)</td></tr>
+<tr class="memitem:a0d5d5f534a892ebd3160308e30174683" id="r_a0d5d5f534a892ebd3160308e30174683"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d5d5f534a892ebd3160308e30174683">MR_InterpolateScalarsParams_Set_edgeWeights</a> (<a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *value)</td></tr>
+<tr class="memitem:a0bab92fc84ff6d3cd3fa0f7d5b286048" id="r_a0bab92fc84ff6d3cd3fa0f7d5b286048"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bab92fc84ff6d3cd3fa0f7d5b286048">MR_InterpolateScalarsParams_GetMutable_edgeWeights</a> (<a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this)</td></tr>
+<tr class="memitem:a028768f9b8a291bb04a559f965711571" id="r_a028768f9b8a291bb04a559f965711571"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a028768f9b8a291bb04a559f965711571">MR_InterpolateScalarsParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:ad9c18540d739783e5f9166e674a135d5" id="r_ad9c18540d739783e5f9166e674a135d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9c18540d739783e5f9166e674a135d5">MR_InterpolateScalarsParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a15f63460dc27dd38ca9bcd94928d84ca" id="r_a15f63460dc27dd38ca9bcd94928d84ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15f63460dc27dd38ca9bcd94928d84ca">MR_InterpolateScalarsParams_ConstructFrom</a> (const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, float stabilizer, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> vertStabilizers_pass_by, <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *vertStabilizers, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> edgeWeights_pass_by, <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *edgeWeights)</td></tr>
+<tr class="memitem:a8b876cac003a958ff5c5f18dd5039400" id="r_a8b876cac003a958ff5c5f18dd5039400"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b876cac003a958ff5c5f18dd5039400">MR_InterpolateScalarsParams_OffsetPtr</a> (const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a915ba8fb3f8d3636ecbbcbb9a9f41b86" id="r_a915ba8fb3f8d3636ecbbcbb9a9f41b86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a915ba8fb3f8d3636ecbbcbb9a9f41b86">MR_InterpolateScalarsParams_OffsetMutablePtr</a> (<a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:af1329b509ac281ef8c59a23a9de88c10" id="r_af1329b509ac281ef8c59a23a9de88c10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1329b509ac281ef8c59a23a9de88c10">MR_InterpolateScalarsParams_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_other)</td></tr>
+<tr class="memitem:a16ce9da49194cca001068e17674fd98e" id="r_a16ce9da49194cca001068e17674fd98e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16ce9da49194cca001068e17674fd98e">MR_InterpolateScalarsParams_Destroy</a> (const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this)</td></tr>
+<tr class="memdesc:a16ce9da49194cca001068e17674fd98e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:afb9bdcaece206c4af8097d86d7206ffb" id="r_afb9bdcaece206c4af8097d86d7206ffb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb9bdcaece206c4af8097d86d7206ffb">MR_InterpolateScalarsParams_DestroyArray</a> (const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this)</td></tr>
+<tr class="memdesc:afb9bdcaece206c4af8097d86d7206ffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a177e32cc763ab4fe973ddbe8f68c0c4f" id="r_a177e32cc763ab4fe973ddbe8f68c0c4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a177e32cc763ab4fe973ddbe8f68c0c4f">MR_InterpolateScalarsParams_AssignFromAnother</a> (<a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *_other)</td></tr>
+<tr class="memitem:abe2edc4a5398bbd2ac0177c1384e981a" id="r_abe2edc4a5398bbd2ac0177c1384e981a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe2edc4a5398bbd2ac0177c1384e981a">MR_interpolateScalarsSmoothly</a> (const <a class="el" href="MRChangeMeshAction_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *params)</td></tr>
 <tr class="memitem:aa4de621a570c2227a7ad8bb6ece5d928" id="r_aa4de621a570c2227a7ad8bb6ece5d928"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4de621a570c2227a7ad8bb6ece5d928">MR_SpacingSettings_Get_region</a> (const <a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
 <tr class="memitem:a63e4a2a661f33618e34bdbdb21dc481b" id="r_a63e4a2a661f33618e34bdbdb21dc481b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63e4a2a661f33618e34bdbdb21dc481b">MR_SpacingSettings_Set_region</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
 <tr class="memitem:a963de22818206b285fb838aecbfe8b7d" id="r_a963de22818206b285fb838aecbfe8b7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963de22818206b285fb838aecbfe8b7d">MR_SpacingSettings_GetMutable_region</a> (<a class="el" href="#a21442c1ce5a378c8d4d3b69760b05d3a">MR_SpacingSettings</a> *_this)</td></tr>
@@ -262,6 +287,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from class <span class="tt">MR::InflateSettings</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a7e0301b84486605ccc4466b768ec40b8" name="a7e0301b84486605ccc4466b768ec40b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e0301b84486605ccc4466b768ec40b8">&#9670;&#160;</a></span>MR_InterpolateScalarsParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <span class="tt">MR::InterpolateScalarsParams</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -826,6 +866,484 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Modifies a member variable of class <span class="tt">MR::InflateSettings</span> named <span class="tt">pressure</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">pressure</span>. </p>
+
+</div>
+</div>
+<a id="a177e32cc763ab4fe973ddbe8f68c0c4f" name="a177e32cc763ab4fe973ddbe8f68c0c4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a177e32cc763ab4fe973ddbe8f68c0c4f">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> * MR_InterpolateScalarsParams_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::InterpolateScalarsParams::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a15f63460dc27dd38ca9bcd94928d84ca" name="a15f63460dc27dd38ca9bcd94928d84ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15f63460dc27dd38ca9bcd94928d84ca">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> * MR_InterpolateScalarsParams_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>stabilizer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>vertStabilizers_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>vertStabilizers</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>edgeWeights_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>edgeWeights</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <span class="tt">MR::InterpolateScalarsParams</span> elementwise. The reference to the parameter <span class="tt">region</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">vertStabilizers</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">edgeWeights</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a16ce9da49194cca001068e17674fd98e" title="Destroys a heap-allocated instance of MR_InterpolateScalarsParams. Does nothing if the pointer is nul...">MR_InterpolateScalarsParams_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="af1329b509ac281ef8c59a23a9de88c10" name="af1329b509ac281ef8c59a23a9de88c10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1329b509ac281ef8c59a23a9de88c10">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> * MR_InterpolateScalarsParams_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::InterpolateScalarsParams::InterpolateScalarsParams</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a16ce9da49194cca001068e17674fd98e" title="Destroys a heap-allocated instance of MR_InterpolateScalarsParams. Does nothing if the pointer is nul...">MR_InterpolateScalarsParams_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a028768f9b8a291bb04a559f965711571" name="a028768f9b8a291bb04a559f965711571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a028768f9b8a291bb04a559f965711571">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> * MR_InterpolateScalarsParams_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a16ce9da49194cca001068e17674fd98e" title="Destroys a heap-allocated instance of MR_InterpolateScalarsParams. Does nothing if the pointer is nul...">MR_InterpolateScalarsParams_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad9c18540d739783e5f9166e674a135d5" name="ad9c18540d739783e5f9166e674a135d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9c18540d739783e5f9166e674a135d5">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> * MR_InterpolateScalarsParams_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#afb9bdcaece206c4af8097d86d7206ffb" title="Destroys a heap-allocated array of MR_InterpolateScalarsParams. Does nothing if the pointer is null.">MR_InterpolateScalarsParams_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#a915ba8fb3f8d3636ecbbcbb9a9f41b86">MR_InterpolateScalarsParams_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a8b876cac003a958ff5c5f18dd5039400">MR_InterpolateScalarsParams_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a16ce9da49194cca001068e17674fd98e" name="a16ce9da49194cca001068e17674fd98e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16ce9da49194cca001068e17674fd98e">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InterpolateScalarsParams_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="afb9bdcaece206c4af8097d86d7206ffb" name="afb9bdcaece206c4af8097d86d7206ffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb9bdcaece206c4af8097d86d7206ffb">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InterpolateScalarsParams_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a0756e25710eed24d039308388bb36152" name="a0756e25710eed24d039308388bb36152"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0756e25710eed24d039308388bb36152">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_Get_edgeWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> * MR_InterpolateScalarsParams_Get_edgeWeights </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if specified then it is used for edge weights instead of default 1 Returns a pointer to a member variable of class <span class="tt">MR::InterpolateScalarsParams</span> named <span class="tt">edgeWeights</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a94d020e18683c8d9a6ef11cde2527deb" name="a94d020e18683c8d9a6ef11cde2527deb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94d020e18683c8d9a6ef11cde2527deb">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_Get_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_InterpolateScalarsParams_Get_region </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>vertices where the field values are computed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 Returns a pointer to a member variable of class <span class="tt">MR::InterpolateScalarsParams</span> named <span class="tt">region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a1113b76aa66db8ee05480cff12c270a5" name="a1113b76aa66db8ee05480cff12c270a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1113b76aa66db8ee05480cff12c270a5">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_Get_stabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_InterpolateScalarsParams_Get_stabilizer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the more the value, the bigger attraction of each vertex to its original value Returns a pointer to a member variable of class <span class="tt">MR::InterpolateScalarsParams</span> named <span class="tt">stabilizer</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a5e23b159240c26daace6b22cb21aabdf" name="a5e23b159240c26daace6b22cb21aabdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e23b159240c26daace6b22cb21aabdf">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_Get_vertStabilizers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> * MR_InterpolateScalarsParams_Get_vertStabilizers </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if specified then it is used instead of <code class="param">stabilizer</code> Returns a pointer to a member variable of class <span class="tt">MR::InterpolateScalarsParams</span> named <span class="tt">vertStabilizers</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a0bab92fc84ff6d3cd3fa0f7d5b286048" name="a0bab92fc84ff6d3cd3fa0f7d5b286048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bab92fc84ff6d3cd3fa0f7d5b286048">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_GetMutable_edgeWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> * MR_InterpolateScalarsParams_GetMutable_edgeWeights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if specified then it is used for edge weights instead of default 1 Returns a mutable pointer to a member variable of class <span class="tt">MR::InterpolateScalarsParams</span> named <span class="tt">edgeWeights</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="aa0068204aa8721d8e02191ea1b639c6c" name="aa0068204aa8721d8e02191ea1b639c6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0068204aa8721d8e02191ea1b639c6c">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_GetMutable_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_InterpolateScalarsParams_GetMutable_region </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>vertices where the field values are computed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 Returns a mutable pointer to a member variable of class <span class="tt">MR::InterpolateScalarsParams</span> named <span class="tt">region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a94f0a53d6f5671e94749278cb52e6271" name="a94f0a53d6f5671e94749278cb52e6271"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94f0a53d6f5671e94749278cb52e6271">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_GetMutable_stabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_InterpolateScalarsParams_GetMutable_stabilizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the more the value, the bigger attraction of each vertex to its original value Returns a mutable pointer to a member variable of class <span class="tt">MR::InterpolateScalarsParams</span> named <span class="tt">stabilizer</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="af8aaf200cfde7e9dae0a112f829a936e" name="af8aaf200cfde7e9dae0a112f829a936e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8aaf200cfde7e9dae0a112f829a936e">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_GetMutable_vertStabilizers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> * MR_InterpolateScalarsParams_GetMutable_vertStabilizers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if specified then it is used instead of <code class="param">stabilizer</code> Returns a mutable pointer to a member variable of class <span class="tt">MR::InterpolateScalarsParams</span> named <span class="tt">vertStabilizers</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a915ba8fb3f8d3636ecbbcbb9a9f41b86" name="a915ba8fb3f8d3636ecbbcbb9a9f41b86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a915ba8fb3f8d3636ecbbcbb9a9f41b86">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> * MR_InterpolateScalarsParams_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a8b876cac003a958ff5c5f18dd5039400" name="a8b876cac003a958ff5c5f18dd5039400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b876cac003a958ff5c5f18dd5039400">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> * MR_InterpolateScalarsParams_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a0d5d5f534a892ebd3160308e30174683" name="a0d5d5f534a892ebd3160308e30174683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d5d5f534a892ebd3160308e30174683">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_Set_edgeWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InterpolateScalarsParams_Set_edgeWeights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#acbe1cc8b68372b33dd2718a5a6c5a109">MR_std_function_float_from_MR_UndirectedEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if specified then it is used for edge weights instead of default 1 Modifies a member variable of class <span class="tt">MR::InterpolateScalarsParams</span> named <span class="tt">edgeWeights</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">edgeWeights</span>. When this function is called, this object will drop object references it held previously in <span class="tt">edgeWeights</span>. </p>
+
+</div>
+</div>
+<a id="acf6a29fe92a6e025378e84c5ccd5221e" name="acf6a29fe92a6e025378e84c5ccd5221e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf6a29fe92a6e025378e84c5ccd5221e">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_Set_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InterpolateScalarsParams_Set_region </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>vertices where the field values are computed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 Modifies a member variable of class <span class="tt">MR::InterpolateScalarsParams</span> named <span class="tt">region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">region</span>. When this function is called, this object will drop object references it held previously in <span class="tt">region</span>. </p>
+
+</div>
+</div>
+<a id="a8c0d1c3c5ef0e2b9d3b6e4d294389d99" name="a8c0d1c3c5ef0e2b9d3b6e4d294389d99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c0d1c3c5ef0e2b9d3b6e4d294389d99">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_Set_stabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InterpolateScalarsParams_Set_stabilizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the more the value, the bigger attraction of each vertex to its original value Modifies a member variable of class <span class="tt">MR::InterpolateScalarsParams</span> named <span class="tt">stabilizer</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">stabilizer</span>. </p>
+
+</div>
+</div>
+<a id="ac705a4b09228f6651db263731a7417e2" name="ac705a4b09228f6651db263731a7417e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac705a4b09228f6651db263731a7417e2">&#9670;&#160;</a></span>MR_InterpolateScalarsParams_Set_vertStabilizers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InterpolateScalarsParams_Set_vertStabilizers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if specified then it is used instead of <code class="param">stabilizer</code> Modifies a member variable of class <span class="tt">MR::InterpolateScalarsParams</span> named <span class="tt">vertStabilizers</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">vertStabilizers</span>. When this function is called, this object will drop object references it held previously in <span class="tt">vertStabilizers</span>. </p>
+
+</div>
+</div>
+<a id="abe2edc4a5398bbd2ac0177c1384e981a" name="abe2edc4a5398bbd2ac0177c1384e981a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe2edc4a5398bbd2ac0177c1384e981a">&#9670;&#160;</a></span>MR_interpolateScalarsSmoothly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_interpolateScalarsSmoothly </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshAction_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7e0301b84486605ccc4466b768ec40b8">MR_InterpolateScalarsParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the values of scalar field in region vertices to make it harmonic there: each value becomes the weighted mean of the values in neighbor vertices, while the values in all other vertices remain fixed; with non-negative edge weights and zero stabilizers, the computed values never leave the range of the fixed values Generated from function <span class="tt">MR::interpolateScalarsSmoothly</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">field</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

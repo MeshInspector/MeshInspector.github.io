@@ -765,6 +765,7 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ADividePolylineParameters" id="r_MR_3A_3ADividePolylineParameters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DividePolylineParameters.html">MR::DividePolylineParameters</a></td></tr>
 <tr class="memitem:MR_3A_3APositionedText" id="r_MR_3A_3APositionedText"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PositionedText.html">MR::PositionedText</a></td></tr>
 <tr class="memitem:MR_3A_3APositionVertsSmoothlyParams" id="r_MR_3A_3APositionVertsSmoothlyParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PositionVertsSmoothlyParams.html">MR::PositionVertsSmoothlyParams</a></td></tr>
+<tr class="memitem:MR_3A_3AInterpolateScalarsParams" id="r_MR_3A_3AInterpolateScalarsParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1InterpolateScalarsParams.html">MR::InterpolateScalarsParams</a></td></tr>
 <tr class="memitem:MR_3A_3ASpacingSettings" id="r_MR_3A_3ASpacingSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></td></tr>
 <tr class="memitem:MR_3A_3AInflateSettings" id="r_MR_3A_3AInflateSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1InflateSettings.html">MR::InflateSettings</a></td></tr>
 <tr class="memitem:MR_3A_3APrecipitationSimulator" id="r_MR_3A_3APrecipitationSimulator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PrecipitationSimulator.html">MR::PrecipitationSimulator</a></td></tr>
@@ -7144,6 +7145,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga3dac19de1058f607ecdcf5a193847974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts given vertices in such positions to make smooth surface inside verts-region, but sharp on its boundary;.  <br /></td></tr>
 <tr class="memitem:ga3311d4d92a95f00493ad1ad37902ff17" id="r_ga3311d4d92a95f00493ad1ad37902ff17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3311d4d92a95f00493ad1ad37902ff17">MR::positionVertsSmoothlySharpBd</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const <a class="el" href="structMR_1_1PositionVertsSmoothlyParams.html">PositionVertsSmoothlyParams</a> &amp;params)</td></tr>
 <tr class="memitem:ga9a94cc9f980d20a4e19d93b3b199eb84" id="r_ga9a94cc9f980d20a4e19d93b3b199eb84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9a94cc9f980d20a4e19d93b3b199eb84">MR::positionVertsSmoothlySharpBd</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;verts)</td></tr>
+<tr class="memitem:ga4f42a28b9964388bcffead051b48b0b3" id="r_ga4f42a28b9964388bcffead051b48b0b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4f42a28b9964388bcffead051b48b0b3">MR::interpolateScalarsSmoothly</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertScalars &amp;field, const <a class="el" href="structMR_1_1InterpolateScalarsParams.html">InterpolateScalarsParams</a> &amp;params)</td></tr>
 <tr class="memitem:gadb739a70f56473054c61b01ea775d324" id="r_gadb739a70f56473054c61b01ea775d324"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb739a70f56473054c61b01ea775d324">MR::positionVertsWithSpacing</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1SpacingSettings.html">SpacingSettings</a> &amp;settings)</td></tr>
 <tr class="memdesc:gadb739a70f56473054c61b01ea775d324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves given vertices to make the distances between them as specified.  <br /></td></tr>
 <tr class="memitem:ga2ebbb4933faafb3ef63537dc45fdd789" id="r_ga2ebbb4933faafb3ef63537dc45fdd789"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2ebbb4933faafb3ef63537dc45fdd789">MR::positionVertsWithSpacing</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const <a class="el" href="structMR_1_1SpacingSettings.html">SpacingSettings</a> &amp;settings)</td></tr>
@@ -13081,6 +13083,13 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga69d2ed7107a7dd975887edd0da2c8847"><td class="mdescLeft">&#160;</td><td class="mdescRight">if specified then it is used instead of <code class="param">stabilizer</code>  <br /></td></tr>
 <tr class="memitem:ga7a683cc3d1052af67b00984f50fa920d" id="r_ga7a683cc3d1052af67b00984f50fa920d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gab7a3fa3c0bf9137f59a3a494350314d1">UndirectedEdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7a683cc3d1052af67b00984f50fa920d">MR::PositionVertsSmoothlyParams::edgeWeights</a></td></tr>
 <tr class="memdesc:ga7a683cc3d1052af67b00984f50fa920d"><td class="mdescLeft">&#160;</td><td class="mdescRight">if specified then it is used for edge weights instead of default 1  <br /></td></tr>
+<tr class="memitem:ga17ce8fa9c3da180503cc50cdedfac9ec" id="r_ga17ce8fa9c3da180503cc50cdedfac9ec"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga17ce8fa9c3da180503cc50cdedfac9ec">MR::InterpolateScalarsParams::region</a> = nullptr</td></tr>
+<tr class="memitem:ga98ab155d04ae2cfd71541853f95b9905" id="r_ga98ab155d04ae2cfd71541853f95b9905"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga98ab155d04ae2cfd71541853f95b9905">MR::InterpolateScalarsParams::stabilizer</a> = 0</td></tr>
+<tr class="memdesc:ga98ab155d04ae2cfd71541853f95b9905"><td class="mdescLeft">&#160;</td><td class="mdescRight">the more the value, the bigger attraction of each vertex to its original value  <br /></td></tr>
+<tr class="memitem:ga4bdb32dfbab99a544136700fbe9fa29b" id="r_ga4bdb32dfbab99a544136700fbe9fa29b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga036c60a88f141a437ffed0bc572fce6d">VertMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4bdb32dfbab99a544136700fbe9fa29b">MR::InterpolateScalarsParams::vertStabilizers</a></td></tr>
+<tr class="memdesc:ga4bdb32dfbab99a544136700fbe9fa29b"><td class="mdescLeft">&#160;</td><td class="mdescRight">if specified then it is used instead of <code class="param">stabilizer</code>  <br /></td></tr>
+<tr class="memitem:ga0781fd3cc59338f9f5f19b3fb3a34134" id="r_ga0781fd3cc59338f9f5f19b3fb3a34134"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gab7a3fa3c0bf9137f59a3a494350314d1">UndirectedEdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0781fd3cc59338f9f5f19b3fb3a34134">MR::InterpolateScalarsParams::edgeWeights</a></td></tr>
+<tr class="memdesc:ga0781fd3cc59338f9f5f19b3fb3a34134"><td class="mdescLeft">&#160;</td><td class="mdescRight">if specified then it is used for edge weights instead of default 1  <br /></td></tr>
 <tr class="memitem:gac011fc95d61ece99cc3358e1236104d9" id="r_gac011fc95d61ece99cc3358e1236104d9"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac011fc95d61ece99cc3358e1236104d9">MR::SpacingSettings::region</a> = nullptr</td></tr>
 <tr class="memdesc:gac011fc95d61ece99cc3358e1236104d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertices to be moved by the algorithm, nullptr means all valid vertices  <br /></td></tr>
 <tr class="memitem:ga49adf144c8f1f64aafce1e6927f03dc0" id="r_ga49adf144c8f1f64aafce1e6927f03dc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gab7a3fa3c0bf9137f59a3a494350314d1">UndirectedEdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga49adf144c8f1f64aafce1e6927f03dc0">MR::SpacingSettings::dist</a></td></tr>
@@ -106651,6 +106660,35 @@ template&lt;typename U&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>error string on failure </dd></dl>
+
+</div>
+</div>
+<a id="ga4f42a28b9964388bcffead051b48b0b3" name="ga4f42a28b9964388bcffead051b48b0b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f42a28b9964388bcffead051b48b0b3">&#9670;&#160;</a></span>interpolateScalarsSmoothly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::interpolateScalarsSmoothly </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1InterpolateScalarsParams.html">InterpolateScalarsParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPositionVertsSmoothly_8h.html">MRMesh/MRPositionVertsSmoothly.h</a>&gt;</code></p>
+<p>Computes the values of scalar field in region vertices to make it harmonic there: each value becomes the weighted mean of the values in neighbor vertices, while the values in all other vertices remain fixed; with non-negative edge weights and zero stabilizers, the computed values never leave the range of the fixed values </p>
 
 </div>
 </div>
@@ -209833,8 +209871,24 @@ template&lt;typename L&gt; </div>
 
 </div>
 </div>
+<a id="ga0781fd3cc59338f9f5f19b3fb3a34134" name="ga0781fd3cc59338f9f5f19b3fb3a34134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0781fd3cc59338f9f5f19b3fb3a34134">&#9670;&#160;</a></span>edgeWeights <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gab7a3fa3c0bf9137f59a3a494350314d1">UndirectedEdgeMetric</a> MR::InterpolateScalarsParams::edgeWeights</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if specified then it is used for edge weights instead of default 1 </p>
+
+</div>
+</div>
 <a id="ga7a683cc3d1052af67b00984f50fa920d" name="ga7a683cc3d1052af67b00984f50fa920d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7a683cc3d1052af67b00984f50fa920d">&#9670;&#160;</a></span>edgeWeights <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7a683cc3d1052af67b00984f50fa920d">&#9670;&#160;</a></span>edgeWeights <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209850,7 +209904,7 @@ template&lt;typename L&gt; </div>
 </div>
 </div>
 <a id="ga34a7a4b9c69f0c826cb30f38a9e10250" name="ga34a7a4b9c69f0c826cb30f38a9e10250"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga34a7a4b9c69f0c826cb30f38a9e10250">&#9670;&#160;</a></span>edgeWeights <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga34a7a4b9c69f0c826cb30f38a9e10250">&#9670;&#160;</a></span>edgeWeights <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209866,7 +209920,7 @@ template&lt;typename L&gt; </div>
 </div>
 </div>
 <a id="ga2bf410c025634089f22b3341825cd20b" name="ga2bf410c025634089f22b3341825cd20b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2bf410c025634089f22b3341825cd20b">&#9670;&#160;</a></span>edgeWeights <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2bf410c025634089f22b3341825cd20b">&#9670;&#160;</a></span>edgeWeights <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226470,7 +226524,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga79fd0b044bab7c845859903f9e5da95b" name="ga79fd0b044bab7c845859903f9e5da95b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga79fd0b044bab7c845859903f9e5da95b">&#9670;&#160;</a></span>region <span class="overload">[1/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga79fd0b044bab7c845859903f9e5da95b">&#9670;&#160;</a></span>region <span class="overload">[1/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226485,7 +226539,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gadce38a07b8b04db0fe998e792e4a6e34" name="gadce38a07b8b04db0fe998e792e4a6e34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadce38a07b8b04db0fe998e792e4a6e34">&#9670;&#160;</a></span>region <span class="overload">[2/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadce38a07b8b04db0fe998e792e4a6e34">&#9670;&#160;</a></span>region <span class="overload">[2/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226502,7 +226556,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaff2c0877c0a9eac16128d033db2d2860" name="gaff2c0877c0a9eac16128d033db2d2860"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaff2c0877c0a9eac16128d033db2d2860">&#9670;&#160;</a></span>region <span class="overload">[3/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff2c0877c0a9eac16128d033db2d2860">&#9670;&#160;</a></span>region <span class="overload">[3/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226517,8 +226571,23 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga17ce8fa9c3da180503cc50cdedfac9ec" name="ga17ce8fa9c3da180503cc50cdedfac9ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga17ce8fa9c3da180503cc50cdedfac9ec">&#9670;&#160;</a></span>region <span class="overload">[4/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertBitSet* MR::InterpolateScalarsParams::region = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>vertices where the field values are computed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 </p>
+
+</div>
+</div>
 <a id="ga1fdb51404a12dafa32d295e97234ce4f" name="ga1fdb51404a12dafa32d295e97234ce4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1fdb51404a12dafa32d295e97234ce4f">&#9670;&#160;</a></span>region <span class="overload">[4/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1fdb51404a12dafa32d295e97234ce4f">&#9670;&#160;</a></span>region <span class="overload">[5/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226534,7 +226603,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga3fe2bba25d7c567c9b75a5a856990f20" name="ga3fe2bba25d7c567c9b75a5a856990f20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3fe2bba25d7c567c9b75a5a856990f20">&#9670;&#160;</a></span>region <span class="overload">[5/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3fe2bba25d7c567c9b75a5a856990f20">&#9670;&#160;</a></span>region <span class="overload">[6/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226550,7 +226619,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga020e8c1bd5c2c3c5186ff4680d8004b0" name="ga020e8c1bd5c2c3c5186ff4680d8004b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga020e8c1bd5c2c3c5186ff4680d8004b0">&#9670;&#160;</a></span>region <span class="overload">[6/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga020e8c1bd5c2c3c5186ff4680d8004b0">&#9670;&#160;</a></span>region <span class="overload">[7/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226566,7 +226635,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gadb49365fb60e376e6302ffa62d2b534a" name="gadb49365fb60e376e6302ffa62d2b534a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadb49365fb60e376e6302ffa62d2b534a">&#9670;&#160;</a></span>region <span class="overload">[7/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadb49365fb60e376e6302ffa62d2b534a">&#9670;&#160;</a></span>region <span class="overload">[8/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226580,7 +226649,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga35aa8fa1280f405afeb9f43189843024" name="ga35aa8fa1280f405afeb9f43189843024"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga35aa8fa1280f405afeb9f43189843024">&#9670;&#160;</a></span>region <span class="overload">[8/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga35aa8fa1280f405afeb9f43189843024">&#9670;&#160;</a></span>region <span class="overload">[9/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226595,7 +226664,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gaa25442f103cd80c149b33bc79eb64b0a" name="gaa25442f103cd80c149b33bc79eb64b0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa25442f103cd80c149b33bc79eb64b0a">&#9670;&#160;</a></span>region <span class="overload">[9/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa25442f103cd80c149b33bc79eb64b0a">&#9670;&#160;</a></span>region <span class="overload">[10/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226611,7 +226680,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gabeb08d7e70411cf9ef2826c0f058b909" name="gabeb08d7e70411cf9ef2826c0f058b909"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabeb08d7e70411cf9ef2826c0f058b909">&#9670;&#160;</a></span>region <span class="overload">[10/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabeb08d7e70411cf9ef2826c0f058b909">&#9670;&#160;</a></span>region <span class="overload">[11/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226627,7 +226696,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gac011fc95d61ece99cc3358e1236104d9" name="gac011fc95d61ece99cc3358e1236104d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac011fc95d61ece99cc3358e1236104d9">&#9670;&#160;</a></span>region <span class="overload">[11/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac011fc95d61ece99cc3358e1236104d9">&#9670;&#160;</a></span>region <span class="overload">[12/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230205,7 +230274,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="ga68c78013b24475c60475093e77bbdeff" name="ga68c78013b24475c60475093e77bbdeff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga68c78013b24475c60475093e77bbdeff">&#9670;&#160;</a></span>stabilizer <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga68c78013b24475c60475093e77bbdeff">&#9670;&#160;</a></span>stabilizer <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230221,8 +230290,24 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga98ab155d04ae2cfd71541853f95b9905" name="ga98ab155d04ae2cfd71541853f95b9905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga98ab155d04ae2cfd71541853f95b9905">&#9670;&#160;</a></span>stabilizer <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::InterpolateScalarsParams::stabilizer = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the more the value, the bigger attraction of each vertex to its original value </p>
+
+</div>
+</div>
 <a id="ga5563df5f8c2ef1af7864e5be4bfc7a42" name="ga5563df5f8c2ef1af7864e5be4bfc7a42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5563df5f8c2ef1af7864e5be4bfc7a42">&#9670;&#160;</a></span>stabilizer <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5563df5f8c2ef1af7864e5be4bfc7a42">&#9670;&#160;</a></span>stabilizer <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230238,7 +230323,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga612a52253b770197ad7b0ddea8224c14" name="ga612a52253b770197ad7b0ddea8224c14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga612a52253b770197ad7b0ddea8224c14">&#9670;&#160;</a></span>stabilizer <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga612a52253b770197ad7b0ddea8224c14">&#9670;&#160;</a></span>stabilizer <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235409,8 +235494,24 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga4bdb32dfbab99a544136700fbe9fa29b" name="ga4bdb32dfbab99a544136700fbe9fa29b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4bdb32dfbab99a544136700fbe9fa29b">&#9670;&#160;</a></span>vertStabilizers <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga036c60a88f141a437ffed0bc572fce6d">VertMetric</a> MR::InterpolateScalarsParams::vertStabilizers</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if specified then it is used instead of <code class="param">stabilizer</code> </p>
+
+</div>
+</div>
 <a id="ga69d2ed7107a7dd975887edd0da2c8847" name="ga69d2ed7107a7dd975887edd0da2c8847"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga69d2ed7107a7dd975887edd0da2c8847">&#9670;&#160;</a></span>vertStabilizers</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga69d2ed7107a7dd975887edd0da2c8847">&#9670;&#160;</a></span>vertStabilizers <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

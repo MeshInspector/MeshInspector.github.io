@@ -21183,6 +21183,7 @@
   <compound refid="MRPositionVertsSmoothly_8h" kind="file"><name>MRPositionVertsSmoothly.h</name>
     <member refid="MRPositionVertsSmoothly_8h_1acbe1cc8b68372b33dd2718a5a6c5a109" kind="typedef"><name>MR_std_function_float_from_MR_UndirectedEdgeId</name></member>
     <member refid="MRPositionVertsSmoothly_8h_1a07b41fec7fc0e4c60db351737899a104" kind="typedef"><name>MR_PositionVertsSmoothlyParams</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a7e0301b84486605ccc4466b768ec40b8" kind="typedef"><name>MR_InterpolateScalarsParams</name></member>
     <member refid="MRPositionVertsSmoothly_8h_1a21442c1ce5a378c8d4d3b69760b05d3a" kind="typedef"><name>MR_SpacingSettings</name></member>
     <member refid="MRPositionVertsSmoothly_8h_1abdbf486d01f5292e2bdbc2f3fb70a938" kind="typedef"><name>MR_InflateSettings</name></member>
     <member refid="MRPositionVertsSmoothly_8h_1ac264fe91d9e7f00e6acc7f2184e0af54" kind="function"><name>MR_positionVertsSmoothly_5</name></member>
@@ -21214,6 +21215,28 @@
     <member refid="MRPositionVertsSmoothly_8h_1abecc467d5183327b99fb181d6a266e00" kind="function"><name>MR_positionVertsSmoothlySharpBd_2_MR_PositionVertsSmoothlyParams</name></member>
     <member refid="MRPositionVertsSmoothly_8h_1a976b08c78372e27987dfe13d3a2a20fd" kind="function"><name>MR_positionVertsSmoothlySharpBd_3</name></member>
     <member refid="MRPositionVertsSmoothly_8h_1add13f88efa95f038b4106254dd27d746" kind="function"><name>MR_positionVertsSmoothlySharpBd_2_MR_VertBitSet</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a94d020e18683c8d9a6ef11cde2527deb" kind="function"><name>MR_InterpolateScalarsParams_Get_region</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1acf6a29fe92a6e025378e84c5ccd5221e" kind="function"><name>MR_InterpolateScalarsParams_Set_region</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1aa0068204aa8721d8e02191ea1b639c6c" kind="function"><name>MR_InterpolateScalarsParams_GetMutable_region</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a1113b76aa66db8ee05480cff12c270a5" kind="function"><name>MR_InterpolateScalarsParams_Get_stabilizer</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a8c0d1c3c5ef0e2b9d3b6e4d294389d99" kind="function"><name>MR_InterpolateScalarsParams_Set_stabilizer</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a94f0a53d6f5671e94749278cb52e6271" kind="function"><name>MR_InterpolateScalarsParams_GetMutable_stabilizer</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a5e23b159240c26daace6b22cb21aabdf" kind="function"><name>MR_InterpolateScalarsParams_Get_vertStabilizers</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1ac705a4b09228f6651db263731a7417e2" kind="function"><name>MR_InterpolateScalarsParams_Set_vertStabilizers</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1af8aaf200cfde7e9dae0a112f829a936e" kind="function"><name>MR_InterpolateScalarsParams_GetMutable_vertStabilizers</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a0756e25710eed24d039308388bb36152" kind="function"><name>MR_InterpolateScalarsParams_Get_edgeWeights</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a0d5d5f534a892ebd3160308e30174683" kind="function"><name>MR_InterpolateScalarsParams_Set_edgeWeights</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a0bab92fc84ff6d3cd3fa0f7d5b286048" kind="function"><name>MR_InterpolateScalarsParams_GetMutable_edgeWeights</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a028768f9b8a291bb04a559f965711571" kind="function"><name>MR_InterpolateScalarsParams_DefaultConstruct</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1ad9c18540d739783e5f9166e674a135d5" kind="function"><name>MR_InterpolateScalarsParams_DefaultConstructArray</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a15f63460dc27dd38ca9bcd94928d84ca" kind="function"><name>MR_InterpolateScalarsParams_ConstructFrom</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a8b876cac003a958ff5c5f18dd5039400" kind="function"><name>MR_InterpolateScalarsParams_OffsetPtr</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a915ba8fb3f8d3636ecbbcbb9a9f41b86" kind="function"><name>MR_InterpolateScalarsParams_OffsetMutablePtr</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1af1329b509ac281ef8c59a23a9de88c10" kind="function"><name>MR_InterpolateScalarsParams_ConstructFromAnother</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a16ce9da49194cca001068e17674fd98e" kind="function"><name>MR_InterpolateScalarsParams_Destroy</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1afb9bdcaece206c4af8097d86d7206ffb" kind="function"><name>MR_InterpolateScalarsParams_DestroyArray</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1a177e32cc763ab4fe973ddbe8f68c0c4f" kind="function"><name>MR_InterpolateScalarsParams_AssignFromAnother</name></member>
+    <member refid="MRPositionVertsSmoothly_8h_1abe2edc4a5398bbd2ac0177c1384e981a" kind="function"><name>MR_interpolateScalarsSmoothly</name></member>
     <member refid="MRPositionVertsSmoothly_8h_1aa4de621a570c2227a7ad8bb6ece5d928" kind="function"><name>MR_SpacingSettings_Get_region</name></member>
     <member refid="MRPositionVertsSmoothly_8h_1a63e4a2a661f33618e34bdbdb21dc481b" kind="function"><name>MR_SpacingSettings_Set_region</name></member>
     <member refid="MRPositionVertsSmoothly_8h_1a963de22818206b285fb838aecbfe8b7d" kind="function"><name>MR_SpacingSettings_GetMutable_region</name></member>

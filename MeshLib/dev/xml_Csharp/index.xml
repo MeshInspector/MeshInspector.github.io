@@ -10912,6 +10912,23 @@
     <member refid="classMR_1_1Const__InSphereTesterSoS_1ae8dc505e02f7a2b3d36bf551d616af3a" kind="function"><name>operator MR.Const_InSphereTester_Int</name></member>
     <member refid="classMR_1_1Const__InSphereTesterSoS_1aaf193689d944b805fc4b5259db5c1355" kind="function"><name>Const_InSphereTesterSoS</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__InterpolateScalarsParams" kind="class"><name>MR::Const_InterpolateScalarsParams</name>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1a4885fcb3862430bc5b38ebc9d7d104e9" kind="property"><name>region</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1a4dc0bef4043167a997fe044f759b177f" kind="property"><name>stabilizer</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1a562c13d4cd241b31db45d060e2350ef4" kind="property"><name>vertStabilizers</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1a184ba4ae38399ed1908eccf2ac40730b" kind="property"><name>edgeWeights</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1a83d0325110c9deb142ee71a164751016" kind="variable"><name>__ptr_storage_region</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1a427580762ca0af17477493a938b5e35d" kind="variable"><name>__ref_storage_stabilizer</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1ae36b6db24b48ee27fd1bb724903751a9" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1a6de29469182ec9783358f41543ebe4e0" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1acc0a5a5a72dae03a16778778b0055305" kind="function"><name>Const_InterpolateScalarsParams</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1ab539541ac8d9056b9c282d587446a428" kind="function"><name>Const_InterpolateScalarsParams</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1a5a9805e1535eaef081a19456513c2c84" kind="function"><name>Const_InterpolateScalarsParams</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1afb6a4b56da4332ce7b046207ee327fd2" kind="function"><name>Const_InterpolateScalarsParams</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1a3a057f5492192ee7de9d14ed6595cb41" kind="function"><name>Const_InterpolateScalarsParams</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1a8f4d3735f55bf4e5ac2b5e49249fdc6f" kind="function"><name>~Const_InterpolateScalarsParams</name></member>
+    <member refid="classMR_1_1Const__InterpolateScalarsParams_1a2b421a6d2dd7e30f6884a5bd5587b495" kind="function"><name>Const_InterpolateScalarsParams</name></member>
+  </compound>
   <compound refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo" kind="class"><name>MR::PlanarTriangulation::Const_IntersectionInfo</name>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1af4c29a123e2ed48743ca145156d6dbbe" kind="property"><name>lOrg</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a348e0202ba7907d4be3bb1d703ef7600" kind="property"><name>lDest</name></member>
@@ -29626,6 +29643,19 @@
     <member refid="classMR_1_1InSphereTesterSoS_1a3fe7f920836c9b97d7b4730ea06fec0f" kind="function"><name>reset</name></member>
     <member refid="classMR_1_1InSphereTesterSoS_1a6aed073cd00a65e5ded402b154d988d8" kind="function"><name>flip</name></member>
   </compound>
+  <compound refid="classMR_1_1InterpolateScalarsParams" kind="class"><name>MR::InterpolateScalarsParams</name>
+    <member refid="classMR_1_1InterpolateScalarsParams_1a4d25be1f0d2657325eae70e8b8db2d4d" kind="property"><name>region</name></member>
+    <member refid="classMR_1_1InterpolateScalarsParams_1addbe3f6034748ffba106fb2054c1c73a" kind="property"><name>stabilizer</name></member>
+    <member refid="classMR_1_1InterpolateScalarsParams_1ae6f064e4ce49313e6941f0f34ecc16fa" kind="property"><name>vertStabilizers</name></member>
+    <member refid="classMR_1_1InterpolateScalarsParams_1a0f4474d532ba4db304165bb99b84f059" kind="property"><name>edgeWeights</name></member>
+    <member refid="classMR_1_1InterpolateScalarsParams_1abd56834eadfaa4ec56f6a7cee497bb96" kind="function"><name>InterpolateScalarsParams</name></member>
+    <member refid="classMR_1_1InterpolateScalarsParams_1a3405e6cdf7c58024ede53a4adef8266d" kind="function"><name>InterpolateScalarsParams</name></member>
+    <member refid="classMR_1_1InterpolateScalarsParams_1a3da02d3228e616c5a0a7fcc441502b8e" kind="function"><name>InterpolateScalarsParams</name></member>
+    <member refid="classMR_1_1InterpolateScalarsParams_1a5b0589908642adb1aeb4c77bbc02a342" kind="function"><name>InterpolateScalarsParams</name></member>
+    <member refid="classMR_1_1InterpolateScalarsParams_1a3e1077b44ab3a0002c23dded398f743c" kind="function"><name>InterpolateScalarsParams</name></member>
+    <member refid="classMR_1_1InterpolateScalarsParams_1a01aa2a5cd8b692ee5f96d029f359ea4a" kind="function"><name>InterpolateScalarsParams</name></member>
+    <member refid="classMR_1_1InterpolateScalarsParams_1aa63726a3fba3ab9490bc83f93168e3c7" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" kind="class"><name>MR::PlanarTriangulation::IntersectionInfo</name>
     <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a38e2ec7f128d75005999ce93796507b1" kind="property"><name>lOrg</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a323edb44c5ce0af8523199cda72aecfb" kind="property"><name>lDest</name></member>
@@ -33399,6 +33429,7 @@
     <member refid="classMR_1adb33db9d579185e060bbfa65980f43b1" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
     <member refid="classMR_1abf696d9cc847e6c5edbf6dbe6c312e17" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
     <member refid="classMR_1a48f226bd68da4f8b448bba2297e47ed9" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
+    <member refid="classMR_1a57335931d34961cb245a81d3b85eebac" kind="function"><name>interpolateScalarsSmoothly</name></member>
     <member refid="classMR_1a33feea88fc81b4c4c4fa00a17b7d1ad8" kind="function"><name>positionVertsWithSpacing</name></member>
     <member refid="classMR_1aa512cd9ddb74ba663f526b55c0089878" kind="function"><name>positionVertsWithSpacing</name></member>
     <member refid="classMR_1a4f7f52dd6bad91d395c1405f8e6593f7" kind="function"><name>inflate</name></member>

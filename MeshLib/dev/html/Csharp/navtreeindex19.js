@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1ChangeObjectSelectedAction.html#adedec9a015ac8a30d6ac7c56877e7fee":[8,3,0,0,0,181,3],
 "classMR_1_1ChangeObjectSelectedAction.html#ae993cdbb5aff0a366310a615cd47fe69":[8,3,0,0,0,181,6],
 "classMR_1_1ChangeObjectSelectedAction.html#aec1c6d3f25a8b166e8992589eac677d2":[8,3,0,0,0,181,0],
 "classMR_1_1ChangeObjectVisibilityAction.html":[8,3,0,0,0,182],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1CircleObject.html#afb739d886db4850e8c0d45ac83418fc6":[8,3,0,0,0,203,68],
 "classMR_1_1CircleObject.html#afc1ce0d660ef9932af88839f8a949b5f":[8,3,0,0,0,203,35],
 "classMR_1_1CircleObject.html#afd71bc2651fb5aea7b617390defbab2e":[8,3,0,0,0,203,55],
-"classMR_1_1CloseToMeshVolumeParams.html":[8,3,0,0,0,204],
-"classMR_1_1CloseToMeshVolumeParams.html#a0a3a5bdb5e58125f1313ef440c506c25":[8,3,0,0,0,204,5]
+"classMR_1_1CloseToMeshVolumeParams.html":[8,3,0,0,0,204]
 };

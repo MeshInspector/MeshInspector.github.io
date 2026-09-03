@@ -504,6 +504,7 @@
     <innerclass refid="classMR_1_1Const__InSphereTester__Float" prot="public">MR::Const_InSphereTester_Float</innerclass>
     <innerclass refid="classMR_1_1Const__InSphereTester__Int" prot="public">MR::Const_InSphereTester_Int</innerclass>
     <innerclass refid="classMR_1_1Const__InSphereTesterSoS" prot="public">MR::Const_InSphereTesterSoS</innerclass>
+    <innerclass refid="classMR_1_1Const__InterpolateScalarsParams" prot="public">MR::Const_InterpolateScalarsParams</innerclass>
     <innerclass refid="classMR_1_1Const__IntersectionPrecomputes2__Double" prot="public">MR::Const_IntersectionPrecomputes2_Double</innerclass>
     <innerclass refid="classMR_1_1Const__IntersectionPrecomputes2__Float" prot="public">MR::Const_IntersectionPrecomputes2_Float</innerclass>
     <innerclass refid="classMR_1_1Const__IntersectionPrecomputes__Double" prot="public">MR::Const_IntersectionPrecomputes_Double</innerclass>
@@ -1249,6 +1250,7 @@
     <innerclass refid="classMR_1_1InSphereTester__Float" prot="public">MR::InSphereTester_Float</innerclass>
     <innerclass refid="classMR_1_1InSphereTester__Int" prot="public">MR::InSphereTester_Int</innerclass>
     <innerclass refid="classMR_1_1InSphereTesterSoS" prot="public">MR::InSphereTesterSoS</innerclass>
+    <innerclass refid="classMR_1_1InterpolateScalarsParams" prot="public">MR::InterpolateScalarsParams</innerclass>
     <innerclass refid="classMR_1_1IntersectionPrecomputes2__Double" prot="public">MR::IntersectionPrecomputes2_Double</innerclass>
     <innerclass refid="classMR_1_1IntersectionPrecomputes2__Float" prot="public">MR::IntersectionPrecomputes2_Float</innerclass>
     <innerclass refid="classMR_1_1IntersectionPrecomputes__Double" prot="public">MR::IntersectionPrecomputes_Double</innerclass>
@@ -33637,7 +33639,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="997" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="997" bodyend="1004"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1328" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1328" bodyend="1335"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a130f95e238ec63d758cd3c2deb094eab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -33679,7 +33681,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1011" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1011" bodyend="1018"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1342" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1342" bodyend="1349"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1adb33db9d579185e060bbfa65980f43b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -33702,7 +33704,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1024" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1024" bodyend="1029"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1355" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1355" bodyend="1360"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abf696d9cc847e6c5edbf6dbe6c312e17" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -33729,7 +33731,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1034" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1034" bodyend="1039"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1365" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1365" bodyend="1370"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a48f226bd68da4f8b448bba2297e47ed9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -33752,7 +33754,34 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1045" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1045" bodyend="1050"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1376" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1376" bodyend="1381"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a57335931d34961cb245a81d3b85eebac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.interpolateScalarsSmoothly</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.VertScalars field, MR.Const_InterpolateScalarsParams params_)</argsstring>
+        <name>interpolateScalarsSmoothly</name>
+        <qualifiedname>MR.interpolateScalarsSmoothly</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertScalars" kindref="compound">MR.VertScalars</ref></type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__InterpolateScalarsParams" kindref="compound">MR.Const_InterpolateScalarsParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Computes the values of scalar field in region vertices to make it harmonic there: each value becomes the weighted mean of the values in neighbor vertices, while the values in all other vertices remain fixed; with non-negative edge weights and zero stabilizers, the computed values never leave the range of the fixed values Generated from function <computeroutput><ref refid="classMR_1a57335931d34961cb245a81d3b85eebac" kindref="member">MR.interpolateScalarsSmoothly</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1389" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1389" bodyend="1394"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a33feea88fc81b4c4c4fa00a17b7d1ad8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -33775,7 +33804,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1056" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1056" bodyend="1061"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1400" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1400" bodyend="1405"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa512cd9ddb74ba663f526b55c0089878" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -33802,7 +33831,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1066" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1066" bodyend="1071"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1410" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1410" bodyend="1415"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4f7f52dd6bad91d395c1405f8e6593f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -33839,7 +33868,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1079" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1079" bodyend="1084"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1423" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1423" bodyend="1428"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af914f7fba145355c053c0905ebb9a98c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -33870,7 +33899,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1089" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1089" bodyend="1094"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1433" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1433" bodyend="1438"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aff80e7b494c3ee46821cacf896416611" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -33901,7 +33930,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1102" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1102" bodyend="1107"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="1446" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="1446" bodyend="1451"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad9cb0feb67ca51f1ad5cd3e6a93efbd5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -55228,6 +55257,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a6744bb80f3f77f5eb58dedbab3680cb0" prot="public" virt="non-virtual"><scope>MR</scope><name>InSphereResult</name></member>
       <member refid="classMR_1a34a6ea2c67931d38bb4b06bd5186954c" prot="public" virt="non-virtual"><scope>MR</scope><name>interpolateArcs</name></member>
       <member refid="classMR_1a9dec6805b39c94e9e51511945b4d2671" prot="public" virt="non-virtual"><scope>MR</scope><name>interpolateLines</name></member>
+      <member refid="classMR_1a57335931d34961cb245a81d3b85eebac" prot="public" virt="non-virtual"><scope>MR</scope><name>interpolateScalarsSmoothly</name></member>
       <member refid="classMR_1a15226665c3c4f5712216c9efbbd54c53" prot="public" virt="non-virtual"><scope>MR</scope><name>intersection</name></member>
       <member refid="classMR_1af56b42ffdbd35c6375425f81128cc625" prot="public" virt="non-virtual"><scope>MR</scope><name>intLog2</name></member>
       <member refid="classMR_1aa6e3da0dca345c474015ada44a130757" prot="public" virt="non-virtual"><scope>MR</scope><name>InvLengthUnit</name></member>

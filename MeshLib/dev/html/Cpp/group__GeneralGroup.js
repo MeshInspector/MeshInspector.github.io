@@ -4026,6 +4026,12 @@ var group__GeneralGroup =
       [ "vertShifts", "group__GeneralGroup.html#ga8e96983524e4526167e2bf795ac13686", null ],
       [ "vertStabilizers", "group__GeneralGroup.html#ga69d2ed7107a7dd975887edd0da2c8847", null ]
     ] ],
+    [ "MR::InterpolateScalarsParams", "structMR_1_1InterpolateScalarsParams.html", [
+      [ "edgeWeights", "group__GeneralGroup.html#ga0781fd3cc59338f9f5f19b3fb3a34134", null ],
+      [ "region", "group__GeneralGroup.html#ga17ce8fa9c3da180503cc50cdedfac9ec", null ],
+      [ "stabilizer", "group__GeneralGroup.html#ga98ab155d04ae2cfd71541853f95b9905", null ],
+      [ "vertStabilizers", "group__GeneralGroup.html#ga4bdb32dfbab99a544136700fbe9fa29b", null ]
+    ] ],
     [ "MR::SpacingSettings", "structMR_1_1SpacingSettings.html", [
       [ "dist", "group__GeneralGroup.html#ga49adf144c8f1f64aafce1e6927f03dc0", null ],
       [ "isInverted", "group__GeneralGroup.html#ga65572ad8925a4fe549d886d23dc4b2e5", null ],
@@ -13211,6 +13217,7 @@ var group__GeneralGroup =
     [ "MR::TriPoint::interpolate", "group__GeneralGroup.html#ga443eb1cdffa8cf6269dce8d4f7712a3b", null ],
     [ "MR::interpolateArcs", "group__GeneralGroup.html#gad92ea78439f58b683c4580b4100a379d", null ],
     [ "MR::interpolateLines", "group__GeneralGroup.html#ga6209e9d14f32919cc6a9a9d7cd2e93ca", null ],
+    [ "MR::interpolateScalarsSmoothly", "group__GeneralGroup.html#ga4f42a28b9964388bcffead051b48b0b3", null ],
     [ "MR::InterruptCloseListener::interruptClose_", "group__GeneralGroup.html#gaf380fa89eb3a2d038f3c24cd2d703ec6", null ],
     [ "MR::Viewer::interruptWindowClose", "group__GeneralGroup.html#ga7e7616d3e7c5c2c4229ab79201de365e", null ],
     [ "MR::Features::Primitives::Plane::intersectWithLine", "group__GeneralGroup.html#ga9943b098a0c2f6210aab93e83517eaa7", null ],
@@ -17117,6 +17124,7 @@ var group__GeneralGroup =
     [ "MR::RenderMeshObject::edgeSize_", "group__GeneralGroup.html#ga888fbd0e8bad27a4ff46ec6c1e1680e5", null ],
     [ "MR::RenderMeshObject::edgesTexture_", "group__GeneralGroup.html#gadec18a7be82779db2756036737e2119e", null ],
     [ "MR::EdgeTag", "group__GeneralGroup.html#gac8c2508941fcd4ad714cdf50c45aa41c", null ],
+    [ "MR::InterpolateScalarsParams::edgeWeights", "group__GeneralGroup.html#ga0781fd3cc59338f9f5f19b3fb3a34134", null ],
     [ "MR::PositionVertsSmoothlyParams::edgeWeights", "group__GeneralGroup.html#ga7a683cc3d1052af67b00984f50fa920d", null ],
     [ "MR::SmoothFillingSettings::edgeWeights", "group__GeneralGroup.html#ga34a7a4b9c69f0c826cb30f38a9e10250", null ],
     [ "MR::SurfaceManipulationWidget::Settings::edgeWeights", "group__GeneralGroup.html#ga2bf410c025634089f22b3341825cd20b", null ],
@@ -18128,6 +18136,7 @@ var group__GeneralGroup =
     [ "MR::CompensateRadiusParams::region", "group__GeneralGroup.html#ga79fd0b044bab7c845859903f9e5da95b", null ],
     [ "MR::DecimatePolylineSettings::region", "group__GeneralGroup.html#gadce38a07b8b04db0fe998e792e4a6e34", null ],
     [ "MR::FixUndercuts::FixParams::region", "group__GeneralGroup.html#gaff2c0877c0a9eac16128d033db2d2860", null ],
+    [ "MR::InterpolateScalarsParams::region", "group__GeneralGroup.html#ga17ce8fa9c3da180503cc50cdedfac9ec", null ],
     [ "MR::MeshBuilder::BuildSettings::region", "group__GeneralGroup.html#ga1fdb51404a12dafa32d295e97234ce4f", null ],
     [ "MR::MeshBuilder::UniteCloseParams::region", "group__GeneralGroup.html#ga3fe2bba25d7c567c9b75a5a856990f20", null ],
     [ "MR::MeshRegion::region", "group__GeneralGroup.html#ga020e8c1bd5c2c3c5186ff4680d8004b0", null ],
@@ -18342,6 +18351,7 @@ var group__GeneralGroup =
     [ "MR::MeshBuilder::VertDuplication::srcVert", "group__GeneralGroup.html#gaf11c3a7954be62b84ca6ea3b824ec5a6", null ],
     [ "MR::PointPair::srcVertId", "group__GeneralGroup.html#ga0be978719b10258123e31ffe3413c532", null ],
     [ "MR::DecimatePolylineSettings::stabilizer", "group__GeneralGroup.html#ga68c78013b24475c60475093e77bbdeff", null ],
+    [ "MR::InterpolateScalarsParams::stabilizer", "group__GeneralGroup.html#ga98ab155d04ae2cfd71541853f95b9905", null ],
     [ "MR::PositionVertsSmoothlyParams::stabilizer", "group__GeneralGroup.html#ga5563df5f8c2ef1af7864e5be4bfc7a42", null ],
     [ "MR::SpacingSettings::stabilizer", "group__GeneralGroup.html#ga612a52253b770197ad7b0ddea8224c14", null ],
     [ "MR::UI::PlotAxis::startAxisPoint", "group__GeneralGroup.html#gabb279d966586784fbc7e5ce1e6cc8fd5", null ],
@@ -18654,6 +18664,7 @@ var group__GeneralGroup =
     [ "MR::ObjectPointsHolder::vertsColorMap_", "group__GeneralGroup.html#ga3bea7e24940446fdc81e38da2f8db14c", null ],
     [ "MR::DecimatePolylineResult::vertsDeleted", "group__GeneralGroup.html#gaf042d52b52cb89cb1dbf4a779d82f3c6", null ],
     [ "MR::PositionVertsSmoothlyParams::vertShifts", "group__GeneralGroup.html#ga8e96983524e4526167e2bf795ac13686", null ],
+    [ "MR::InterpolateScalarsParams::vertStabilizers", "group__GeneralGroup.html#ga4bdb32dfbab99a544136700fbe9fa29b", null ],
     [ "MR::PositionVertsSmoothlyParams::vertStabilizers", "group__GeneralGroup.html#ga69d2ed7107a7dd975887edd0da2c8847", null ],
     [ "MR::VertTag", "group__GeneralGroup.html#gaa92378bf233fad3fbb22ac30f72ea71e", null ],
     [ "MR::RenderMeshObject::vertUVBuffer_", "group__GeneralGroup.html#ga08d8c036ef75bf130d97cbcc7992b943", null ],

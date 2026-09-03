@@ -441,6 +441,7 @@ var annotated_dup =
       [ "InSphereTester_int", "classmrmeshpy_1_1InSphereTester__int.html", "classmrmeshpy_1_1InSphereTester__int" ],
       [ "InSphereTesterSoS", "classmrmeshpy_1_1InSphereTesterSoS.html", "classmrmeshpy_1_1InSphereTesterSoS" ],
       [ "int_output", "classmrmeshpy_1_1int__output.html", "classmrmeshpy_1_1int__output" ],
+      [ "InterpolateScalarsParams", "classmrmeshpy_1_1InterpolateScalarsParams.html", "classmrmeshpy_1_1InterpolateScalarsParams" ],
       [ "IntersectionPrecomputes2_double", "classmrmeshpy_1_1IntersectionPrecomputes2__double.html", "classmrmeshpy_1_1IntersectionPrecomputes2__double" ],
       [ "IntersectionPrecomputes2_float", "classmrmeshpy_1_1IntersectionPrecomputes2__float.html", "classmrmeshpy_1_1IntersectionPrecomputes2__float" ],
       [ "IntersectionPrecomputes_double", "classmrmeshpy_1_1IntersectionPrecomputes__double.html", "classmrmeshpy_1_1IntersectionPrecomputes__double" ],

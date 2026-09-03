@@ -300,6 +300,7 @@
     <innerclass refid="classMR_1_1InSphereTesterSoS" prot="public">MR::InSphereTesterSoS</innerclass>
     <innerclass refid="classMR_1_1Int128Mul256" prot="public">MR::Int128Mul256</innerclass>
     <innerclass refid="classMR_1_1Int64Mul128" prot="public">MR::Int64Mul128</innerclass>
+    <innerclass refid="structMR_1_1InterpolateScalarsParams" prot="public">MR::InterpolateScalarsParams</innerclass>
     <innerclass refid="structMR_1_1InterruptCloseListener" prot="public">MR::InterruptCloseListener</innerclass>
     <innerclass refid="structMR_1_1IntersectionPrecomputes" prot="public">MR::IntersectionPrecomputes</innerclass>
     <innerclass refid="structMR_1_1IntersectionPrecomputes2" prot="public">MR::IntersectionPrecomputes2</innerclass>
@@ -3013,6 +3014,7 @@
       <member refid="group__GeneralGroup_1ga3dac19de1058f607ecdcf5a193847974" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
       <member refid="group__GeneralGroup_1ga3311d4d92a95f00493ad1ad37902ff17" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
       <member refid="group__GeneralGroup_1ga9a94cc9f980d20a4e19d93b3b199eb84" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
+      <member refid="group__GeneralGroup_1ga4f42a28b9964388bcffead051b48b0b3" kind="function"><name>interpolateScalarsSmoothly</name></member>
       <member refid="group__GeneralGroup_1gadb739a70f56473054c61b01ea775d324" kind="function"><name>positionVertsWithSpacing</name></member>
       <member refid="group__GeneralGroup_1ga2ebbb4933faafb3ef63537dc45fdd789" kind="function"><name>positionVertsWithSpacing</name></member>
       <member refid="group__GeneralGroup_1ga32961e262e92c3438548d8b9a40b5364" kind="function"><name>inflate</name></member>

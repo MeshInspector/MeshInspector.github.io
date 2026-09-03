@@ -569,6 +569,7 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.int_output", "classmrmeshpy_1_1int__output.html", null ],
     [ "mrmeshpy.BasicUiRenderTask.InteractionMask", "classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask.html", null ],
+    [ "mrmeshpy.InterpolateScalarsParams", "classmrmeshpy_1_1InterpolateScalarsParams.html", null ],
     [ "mrmeshpy.PlanarTriangulation.IntersectionInfo", "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html", null ],
     [ "mrmeshpy.IntersectionPrecomputes2_double", "classmrmeshpy_1_1IntersectionPrecomputes2__double.html", null ],
     [ "mrmeshpy.IntersectionPrecomputes2_float", "classmrmeshpy_1_1IntersectionPrecomputes2__float.html", null ],

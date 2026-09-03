@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1InterpolateScalarsParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::InterpolateScalarsParams</compoundname>
+    <includes refid="MRPositionVertsSmoothly_8h" local="no">MRMesh/MRPositionVertsSmoothly.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga17ce8fa9c3da180503cc50cdedfac9ec" kind="variable"><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga98ab155d04ae2cfd71541853f95b9905" kind="variable"><name>stabilizer</name></member>
+      <member refid="group__GeneralGroup_1ga4bdb32dfbab99a544136700fbe9fa29b" kind="variable"><name>vertStabilizers</name></member>
+      <member refid="group__GeneralGroup_1ga0781fd3cc59338f9f5f19b3fb3a34134" kind="variable"><name>edgeWeights</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRPositionVertsSmoothly.h" line="46" column="1" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="47" bodyend="60"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0781fd3cc59338f9f5f19b3fb3a34134" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>edgeWeights</name></member>
+      <member refid="group__GeneralGroup_1ga17ce8fa9c3da180503cc50cdedfac9ec" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga98ab155d04ae2cfd71541853f95b9905" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>stabilizer</name></member>
+      <member refid="group__GeneralGroup_1ga4bdb32dfbab99a544136700fbe9fa29b" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>vertStabilizers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

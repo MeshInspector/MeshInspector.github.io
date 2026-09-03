@@ -664,6 +664,7 @@ var hierarchy =
       [ "MR::ImGuiMath::detail::VecSize< ImVec2 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html", null ],
       [ "MR::ImGuiMath::detail::VecSize< ImVec4 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html", null ]
     ] ],
+    [ "MR::InterpolateScalarsParams", "structMR_1_1InterpolateScalarsParams.html", null ],
     [ "MR::PlanarTriangulation::IntersectionInfo", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html", null ],
     [ "MR::IntersectionPrecomputes< T >", "structMR_1_1IntersectionPrecomputes.html", null ],
     [ "MR::IntersectionPrecomputes2< T >", "structMR_1_1IntersectionPrecomputes2.html", null ],

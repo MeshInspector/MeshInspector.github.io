@@ -1111,6 +1111,9 @@ var hierarchy =
       [ "MR.Const_InflateSettings", "classMR_1_1Const__InflateSettings.html", [
         [ "MR.InflateSettings", "classMR_1_1InflateSettings.html", null ]
       ] ],
+      [ "MR.Const_InterpolateScalarsParams", "classMR_1_1Const__InterpolateScalarsParams.html", [
+        [ "MR.InterpolateScalarsParams", "classMR_1_1InterpolateScalarsParams.html", null ]
+      ] ],
       [ "MR.Const_IntersectionPrecomputes2_Double", "classMR_1_1Const__IntersectionPrecomputes2__Double.html", [
         [ "MR.IntersectionPrecomputes2_Double", "classMR_1_1IntersectionPrecomputes2__Double.html", null ]
       ] ],
@@ -3897,6 +3900,7 @@ var hierarchy =
       [ "MR.Const_InSphereTester_Int", "classMR_1_1Const__InSphereTester__Int.html", null ],
       [ "MR.Const_InTreePathBuilder", "classMR_1_1Const__InTreePathBuilder.html", null ],
       [ "MR.Const_InflateSettings", "classMR_1_1Const__InflateSettings.html", null ],
+      [ "MR.Const_InterpolateScalarsParams", "classMR_1_1Const__InterpolateScalarsParams.html", null ],
       [ "MR.Const_IntersectionPrecomputes2_Double", "classMR_1_1Const__IntersectionPrecomputes2__Double.html", null ],
       [ "MR.Const_IntersectionPrecomputes2_Float", "classMR_1_1Const__IntersectionPrecomputes2__Float.html", null ],
       [ "MR.Const_IntersectionPrecomputes_Double", "classMR_1_1Const__IntersectionPrecomputes__Double.html", null ],
