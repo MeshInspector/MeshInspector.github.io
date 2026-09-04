@@ -132983,13 +132983,13 @@ element fields:<linebreak/>
           <declname>pos</declname>
         </param>
         <briefdescription>
-<para>Converts <ref refid="structMR_1_1PointOnObject" kindref="compound">PointOnObject</ref> coordinates depending on the object type to the <ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref> variant. </para>
         </briefdescription>
         <detaileddescription>
+<para>Converts <ref refid="structMR_1_1PointOnObject" kindref="compound">PointOnObject</ref> coordinates depending on the object type to the <ref refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kindref="member">PickedPoint</ref> variant; returns std::monostate if the pick does not address an existing element of the object </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointOnObject.h" line="48" column="14" declfile="MRMesh/MRPointOnObject.h" declline="48" declcolumn="14"/>
+        <location file="MRMesh/MRPointOnObject.h" line="49" column="14" declfile="MRMesh/MRPointOnObject.h" declline="49" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga061be58a0c33284aabdda040949d2da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Vector3f &gt;</type>
@@ -133012,7 +133012,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointOnObject.h" line="52" column="16" declfile="MRMesh/MRPointOnObject.h" declline="52" declcolumn="16"/>
+        <location file="MRMesh/MRPointOnObject.h" line="53" column="16" declfile="MRMesh/MRPointOnObject.h" declline="53" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabbd442442a2de3378064efed4ae28f84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE Vector3f</type>
@@ -133035,7 +133035,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointOnObject.h" line="55" column="27" declfile="MRMesh/MRPointOnObject.h" declline="55" declcolumn="27"/>
+        <location file="MRMesh/MRPointOnObject.h" line="56" column="27" declfile="MRMesh/MRPointOnObject.h" declline="56" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5584930e36d7f68deab6907f5d11e027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE bool</type>
@@ -133058,7 +133058,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointOnObject.h" line="58" column="23" declfile="MRMesh/MRPointOnObject.h" declline="58" declcolumn="23"/>
+        <location file="MRMesh/MRPointOnObject.h" line="59" column="23" declfile="MRMesh/MRPointOnObject.h" declline="59" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga04831f2ccc8463060908522a0b06066c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Vector3f &gt;</type>
@@ -133095,7 +133095,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointOnObject.h" line="63" column="16" declfile="MRMesh/MRPointOnObject.h" declline="63" declcolumn="16"/>
+        <location file="MRMesh/MRPointOnObject.h" line="64" column="16" declfile="MRMesh/MRPointOnObject.h" declline="64" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga760668937924821096ad6a656e997dd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
