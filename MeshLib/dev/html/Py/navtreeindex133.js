@@ -1,5 +1,7 @@
 var NAVTREEINDEX133 =
 {
+"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#a1e08c3a40cb5d6ae306d380dc4575fe5":[8,1,1,0,1,324,1],
+"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#a68d5007461f838fc0a655349239b15fe":[8,1,0,0,2,324,0],
 "classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#a68d5007461f838fc0a655349239b15fe":[8,1,1,0,1,324,0],
 "classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#a7e6cc097acf8847c690f229ec07c0de1":[8,1,0,0,2,324,5],
 "classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#a7e6cc097acf8847c690f229ec07c0de1":[8,1,1,0,1,324,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX133 =
 "classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__47806f088462129904208bbaac60c688.html#afbac7c2e5385e67ca56532b65bdc3e69":[8,1,1,0,1,346,3],
 "classmrmeshpy_1_1func__std__variant__float__Vector3__float__from__FeatureObject__const__ptr__ViewportId.html":[8,1,0,0,2,345],
 "classmrmeshpy_1_1func__std__variant__float__Vector3__float__from__FeatureObject__const__ptr__ViewportId.html":[8,1,1,0,1,345],
-"classmrmeshpy_1_1func__std__variant__float__Vector3__float__from__FeatureObject__const__ptr__ViewportId.html#a247f4fbc6c10cf464a9d86393f7474b5":[8,1,0,0,2,345,2],
-"classmrmeshpy_1_1func__std__variant__float__Vector3__float__from__FeatureObject__const__ptr__ViewportId.html#a247f4fbc6c10cf464a9d86393f7474b5":[8,1,1,0,1,345,2],
-"classmrmeshpy_1_1func__std__variant__float__Vector3__float__from__FeatureObject__const__ptr__ViewportId.html#a38558d3d85a5b7acd0f2e5c81271df3a":[8,1,0,0,2,345,7]
+"classmrmeshpy_1_1func__std__variant__float__Vector3__float__from__FeatureObject__const__ptr__ViewportId.html#a247f4fbc6c10cf464a9d86393f7474b5":[8,1,0,0,2,345,2]
 };

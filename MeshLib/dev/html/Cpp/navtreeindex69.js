@@ -1,5 +1,8 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1UniquePtr.html":[8,0,0,20,521],
+"structMR_1_1UnitInfo.html":[8,0,0,20,525],
+"structMR_1_1UnitToStringParams.html":[8,0,0,20,766],
 "structMR_1_1UniteManyMeshesParams.html":[8,0,0,20,523],
 "structMR_1_1UniteMeshNormalizationParams.html":[8,0,0,20,524],
 "structMR_1_1UnorientedTriangle.html":[8,0,0,20,526],

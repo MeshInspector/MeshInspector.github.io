@@ -496,6 +496,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ae82accaa12c2fb234a7f8642239a6f7b" id="r_ae82accaa12c2fb234a7f8642239a6f7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae82accaa12c2fb234a7f8642239a6f7b">getBoundaryVerts</a> (<a class="el" href="classMeshTopology.html">MeshTopology</a> topology, <a class="el" href="classFaceBitSet.html">FaceBitSet</a> region)</td></tr>
 <tr class="memdesc:ae82accaa12c2fb234a7f8642239a6f7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">composes the set of all boundary vertices for given region (or whole mesh if !region)  <br /></td></tr>
 <tr class="memitem:a43fe41780d340b0dea9727f39804d27a" id="r_a43fe41780d340b0dea9727f39804d27a"><td class="memItemLeft" align="right" valign="top">Uint32Array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43fe41780d340b0dea9727f39804d27a">trackRightBoundaryLoop</a> (<a class="el" href="classMeshTopology.html">MeshTopology</a> topology, number e0)</td></tr>
+<tr class="memdesc:a43fe41780d340b0dea9727f39804d27a"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, but writes the loop in <span class="tt">outLoop</span> (cleared first), so a caller tracking many loops one by one reuses its capacity  <br /></td></tr>
 <tr class="memitem:a289bf2e5c4ae87fcab17199aa9f759e3" id="r_a289bf2e5c4ae87fcab17199aa9f759e3"><td class="memItemLeft" align="right" valign="top">Uint32Array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a289bf2e5c4ae87fcab17199aa9f759e3">findRightBoundary</a> (<a class="el" href="classMeshTopology.html">MeshTopology</a> topology)</td></tr>
 <tr class="memitem:a975864482fee8d32ac918a4d185601c2" id="r_a975864482fee8d32ac918a4d185601c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a975864482fee8d32ac918a4d185601c2">makeTorus</a> ()</td></tr>
 <tr class="memitem:a9fb988c916e7d330cd176f5156045f62" id="r_a9fb988c916e7d330cd176f5156045f62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fb988c916e7d330cd176f5156045f62">makeTorus</a> (number primaryRadius)</td></tr>
@@ -3524,7 +3525,8 @@ fillHoleTrivially</dd>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns closed loop of region boundary starting from given region boundary edge (region faces on the right, and not-region faces or holes on the left); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to left </p>
+
+<p>same as above, but writes the loop in <span class="tt">outLoop</span> (cleared first), so a caller tracking many loops one by one reuses its capacity </p>
 
 </div>
 </div>

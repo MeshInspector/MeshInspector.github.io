@@ -16,6 +16,7 @@ var classmrmeshpy_1_1MeshTopology =
     [ "bdEdgeWithOrigin", "classmrmeshpy_1_1MeshTopology.html#a76cc50754e9da98ae6b1211687b17980", null ],
     [ "buildGridMesh", "classmrmeshpy_1_1MeshTopology.html#aa695985ac7e601f9fdad187f8ffa7e4b", null ],
     [ "checkValidity", "classmrmeshpy_1_1MeshTopology.html#a9066abdd9c68fea9be3e97862d157ea9", null ],
+    [ "clear", "classmrmeshpy_1_1MeshTopology.html#a00f5eff68efeeabd8c22343d7fd2a221", null ],
     [ "collapseEdge", "classmrmeshpy_1_1MeshTopology.html#ac632c10c7bf8fe4a05aa8d4071f09fef", null ],
     [ "computeNotLoneUndirectedEdges", "classmrmeshpy_1_1MeshTopology.html#aef51bd28ac8d510b1615a966ff3e0f10", null ],
     [ "computeValidsFromEdges", "classmrmeshpy_1_1MeshTopology.html#afc16761eb33ec7520c688b1a33cf57d5", null ],

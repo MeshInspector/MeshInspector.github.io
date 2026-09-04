@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#a6a3a4af4bf98ae63f3c041c686f3670e":[8,1,0,0,2,1226,15],
+"classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#a6a3a4af4bf98ae63f3c041c686f3670e":[8,1,1,0,1,1226,14],
 "classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#a6a3a4af4bf98ae63f3c041c686f3670e":[8,1,1,0,1,1226,15],
 "classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#a7b9eb032c9ba8e0186cca3557f51d023":[8,1,0,0,2,1226,5],
 "classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#a7b9eb032c9ba8e0186cca3557f51d023":[8,1,1,0,1,1226,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "classmrmeshpy_1_1VertColorMapAggregator.html":[8,1,1,0,1,1241],
 "classmrmeshpy_1_1VertColorMapAggregator.html#a078a9969cfa93776ef78aa865f186dfe":[8,1,0,0,2,1241,4],
 "classmrmeshpy_1_1VertColorMapAggregator.html#a078a9969cfa93776ef78aa865f186dfe":[8,1,1,0,1,1241,4],
-"classmrmeshpy_1_1VertColorMapAggregator.html#a14c74b4a16e42879bc684d9d5af58f09":[8,1,0,0,2,1241,6],
-"classmrmeshpy_1_1VertColorMapAggregator.html#a14c74b4a16e42879bc684d9d5af58f09":[8,1,1,0,1,1241,6],
-"classmrmeshpy_1_1VertColorMapAggregator.html#a19ca19d90f523fea70a1a203540a6877":[8,1,0,0,2,1241,10]
+"classmrmeshpy_1_1VertColorMapAggregator.html#a14c74b4a16e42879bc684d9d5af58f09":[8,1,0,0,2,1241,6]
 };

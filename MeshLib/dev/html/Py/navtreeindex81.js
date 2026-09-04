@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"classmrmeshpy_1_1Quaternionf.html#ab0c9225f2e3a5f425f4898a3f4ab5c59":[8,1,1,0,1,794,9],
+"classmrmeshpy_1_1Quaternionf.html#aba445483e37ac8babacaf23e1aaec44b":[8,1,0,0,2,794,5],
 "classmrmeshpy_1_1Quaternionf.html#aba445483e37ac8babacaf23e1aaec44b":[8,1,1,0,1,794,5],
 "classmrmeshpy_1_1Quaternionf.html#abd3aa663b7167ad91a233dc2961999e3":[8,1,0,0,2,794,1],
 "classmrmeshpy_1_1Quaternionf.html#abd3aa663b7167ad91a233dc2961999e3":[8,1,1,0,1,794,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1ReduceTotalAngleParams.html#ac3ca65a77d04f9e10833b9cd1f6aaca3":[8,1,1,0,1,801,13],
 "classmrmeshpy_1_1ReduceTotalAngleParams.html#ad87ffb824e0e0858d66eb2baa8e02c10":[8,1,0,0,2,801,9],
 "classmrmeshpy_1_1ReduceTotalAngleParams.html#ad87ffb824e0e0858d66eb2baa8e02c10":[8,1,1,0,1,801,9],
-"classmrmeshpy_1_1ReduceTotalAngleParams.html#adc775e63076fc619972da012418d279d":[8,1,0,0,2,801,14],
-"classmrmeshpy_1_1ReduceTotalAngleParams.html#adc775e63076fc619972da012418d279d":[8,1,1,0,1,801,14],
-"classmrmeshpy_1_1ReduceTotalAngleParams.html#af94bf57d5234a262ba6682f466c1fddf":[8,1,0,0,2,801,11]
+"classmrmeshpy_1_1ReduceTotalAngleParams.html#adc775e63076fc619972da012418d279d":[8,1,0,0,2,801,14]
 };

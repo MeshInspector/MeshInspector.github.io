@@ -3108,9 +3108,9 @@
           <declname>e0</declname>
         </param>
         <briefdescription>
+<para>same as above, but writes the loop in <computeroutput>outLoop</computeroutput> (cleared first), so a caller tracking many loops one by one reuses its capacity </para>
         </briefdescription>
         <detaileddescription>
-<para>returns closed loop of region boundary starting from given region boundary edge (region faces on the right, and not-region faces or holes on the left); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to left </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"classmrmeshpy_1_1SimpleBinaryVolume.html#ac83c8905f73b6731239faddea95bd29e":[8,1,1,0,1,843,2],
+"classmrmeshpy_1_1SimpleVolume.html":[8,1,0,0,2,844],
 "classmrmeshpy_1_1SimpleVolume.html":[8,1,1,0,1,844],
 "classmrmeshpy_1_1SimpleVolume.html#a1f47b445e4ff93ac407ac03ec5ae5aa8":[8,1,0,0,2,844,3],
 "classmrmeshpy_1_1SimpleVolume.html#a1f47b445e4ff93ac407ac03ec5ae5aa8":[8,1,1,0,1,844,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "classmrmeshpy_1_1Sphere3f.html#ad7f11a90785e736e4dbd2bdca033ebc9":[8,1,1,0,1,859,4],
 "classmrmeshpy_1_1SphereObject.html":[8,1,0,0,2,860],
 "classmrmeshpy_1_1SphereObject.html":[8,1,1,0,1,860],
-"classmrmeshpy_1_1SphereObject.html#a015523fdf63712d91b81ea84400d6cc4":[8,1,0,0,2,860,5],
-"classmrmeshpy_1_1SphereObject.html#a015523fdf63712d91b81ea84400d6cc4":[8,1,1,0,1,860,5],
-"classmrmeshpy_1_1SphereObject.html#a06c40f0a1fe3697ffdb39aa62348582c":[8,1,0,0,2,860,10]
+"classmrmeshpy_1_1SphereObject.html#a015523fdf63712d91b81ea84400d6cc4":[8,1,0,0,2,860,5]
 };

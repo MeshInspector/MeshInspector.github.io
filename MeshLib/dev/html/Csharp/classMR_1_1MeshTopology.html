@@ -175,6 +175,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1754b77215434dd1721de1abd60e7ed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of half-edges vector Generated from method <span class="tt"><a class="el" href="#a1754b77215434dd1721de1abd60e7ed3" title="sets the capacity of half-edges vector Generated from method MR.MeshTopology.edgeReserve.">MR.MeshTopology.edgeReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a61c0a1cc8ebd1f01b921acf88eb43df7" id="r_a61c0a1cc8ebd1f01b921acf88eb43df7"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61c0a1cc8ebd1f01b921acf88eb43df7">shrinkToFit</a> ()</td></tr>
 <tr class="memdesc:a61c0a1cc8ebd1f01b921acf88eb43df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">requests the removal of unused capacity Generated from method <span class="tt"><a class="el" href="#a61c0a1cc8ebd1f01b921acf88eb43df7" title="requests the removal of unused capacity Generated from method MR.MeshTopology.shrinkToFit.">MR.MeshTopology.shrinkToFit</a></span>.  <br /></td></tr>
+<tr class="memitem:aa78f8327f4f9f6923be05049270ac1ae" id="r_aa78f8327f4f9f6923be05049270ac1ae"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa78f8327f4f9f6923be05049270ac1ae">clear</a> ()</td></tr>
+<tr class="memdesc:aa78f8327f4f9f6923be05049270ac1ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets to the default-constructed state (including resuming valids updating), keeping the buffers' capacity for reuse Generated from method <span class="tt"><a class="el" href="#aa78f8327f4f9f6923be05049270ac1ae" title="resets to the default-constructed state (including resuming valids updating), keeping the buffers&#39; ca...">MR.MeshTopology.clear</a></span>.  <br /></td></tr>
 <tr class="memitem:a08126f32bb3b4d9f2a75a8f0e142f0c2" id="r_a08126f32bb3b4d9f2a75a8f0e142f0c2"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08126f32bb3b4d9f2a75a8f0e142f0c2">splice</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> a, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> b)</td></tr>
 <tr class="memdesc:a08126f32bb3b4d9f2a75a8f0e142f0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">given two half edges do either of two: 1) if a and b were from distinct rings, puts them in one ring; 2) if a and b were from the same ring, puts them in separate rings; the cut in rings in both cases is made after a and b Generated from method <span class="tt"><a class="el" href="#a08126f32bb3b4d9f2a75a8f0e142f0c2" title="given two half edges do either of two: 1) if a and b were from distinct rings, puts them in one ring;...">MR.MeshTopology.splice</a></span>.  <br /></td></tr>
 <tr class="memitem:a0b5a8aa5f854f307af97aafe7cb3ab69" id="r_a0b5a8aa5f854f307af97aafe7cb3ab69"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b5a8aa5f854f307af97aafe7cb3ab69">collapseEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e, MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId onEdgeDel)</td></tr>
@@ -921,6 +923,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt"><a class="el" href="#afd15a9b543e4fd00dd0b86f60aa9116b" title="Generated from method MR.MeshTopology.buildGridMesh. Parameter cb defaults to {}.">MR.MeshTopology.buildGridMesh</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="aa78f8327f4f9f6923be05049270ac1ae" name="aa78f8327f4f9f6923be05049270ac1ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa78f8327f4f9f6923be05049270ac1ae">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.MeshTopology.clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>resets to the default-constructed state (including resuming valids updating), keeping the buffers' capacity for reuse Generated from method <span class="tt"><a class="el" href="#aa78f8327f4f9f6923be05049270ac1ae" title="resets to the default-constructed state (including resuming valids updating), keeping the buffers&#39; ca...">MR.MeshTopology.clear</a></span>. </p>
 
 </div>
 </div>

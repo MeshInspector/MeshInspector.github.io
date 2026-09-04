@@ -1,5 +1,6 @@
 var NAVTREEINDEX126 =
 {
+"classMR_1_1Polynomial__Float__3.html#a5faa0534866993bbf193739c9eb0ac99":[8,3,0,0,0,1544,3],
 "classMR_1_1Polynomial__Float__3.html#a6e37c618635db26839ff6ecbdfd47252":[8,3,0,0,0,1544,1],
 "classMR_1_1Polynomial__Float__3.html#a7d9bdc969e0f95b983a25e7a18a91320":[8,3,0,0,0,1544,2],
 "classMR_1_1Polynomial__Float__4.html":[8,3,0,0,0,1545],
@@ -248,6 +249,5 @@ var NAVTREEINDEX126 =
 "classMR_1_1RebuildMeshSettings.html#ad203d886815a40175d58c92989a41e3a":[8,3,0,0,0,1565,10],
 "classMR_1_1RebuildMeshSettings.html#af049915213c1aba639b93ce800cd9ff8":[8,3,0,0,0,1565,18],
 "classMR_1_1RebuildMeshSettings.html#af06806f775b8df087dc97f31fb70b636":[8,3,0,0,0,1565,2],
-"classMR_1_1RebuildMeshSettings.html#af0dbcaf69ab86fdf8ff783a07dfd2ed0":[8,3,0,0,0,1565,12],
-"classMR_1_1RebuildMeshSettings.html#af1e76cc18b9192228272bd52eda483e5":[8,3,0,0,0,1565,19]
+"classMR_1_1RebuildMeshSettings.html#af0dbcaf69ab86fdf8ff783a07dfd2ed0":[8,3,0,0,0,1565,12]
 };

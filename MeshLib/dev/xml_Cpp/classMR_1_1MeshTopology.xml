@@ -33,6 +33,7 @@
       <member refid="group__GeneralGroup_1gad9e70ac7c77ef21e21af1c1565ef338b" kind="function"><name>hasEdge</name></member>
       <member refid="group__GeneralGroup_1ga96477aa3c048344d7275870044e47783" kind="function"><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1ga2732905755005f97121eb63d3e337091" kind="function"><name>shrinkToFit</name></member>
+      <member refid="group__GeneralGroup_1ga2cf1d840779aa0c63f819f6e05a26f5b" kind="function"><name>clear</name></member>
       <member refid="group__GeneralGroup_1ga4824014eac0fba7df3e488b510f2f219" kind="function"><name>splice</name></member>
       <member refid="group__GeneralGroup_1ga014b6c9fe6610ee83fcba20798e4a4bd" kind="function"><name>collapseEdge</name></member>
       <member refid="group__GeneralGroup_1ga2dad4d8d3af9888d8bd8303195aad3b9" kind="function"><name>next</name></member>
@@ -177,7 +178,7 @@
     <detaileddescription>
 <para><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> Topology </para>
     </detaileddescription>
-    <location file="MRMesh/MRMeshTopology.h" line="29" column="1" bodyfile="MRMesh/MRMeshTopology.h" bodystart="30" bodyend="624"/>
+    <location file="MRMesh/MRMeshTopology.h" line="29" column="1" bodyfile="MRMesh/MRMeshTopology.h" bodystart="30" bodyend="627"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab2810fe9c6b38f4a0926069ab58120ea" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addFaceId</name></member>
       <member refid="group__GeneralGroup_1ga9240c1848633d691fdbb0e5869910043" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addPackedPart</name></member>
@@ -194,6 +195,7 @@
       <member refid="group__GeneralGroup_1ga3074ca02ebcce08012144224818cf970" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>bdEdgeWithOrigin</name></member>
       <member refid="group__GeneralGroup_1gabc042ad8f2696ac5c81db13024c97742" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>buildGridMesh</name></member>
       <member refid="group__GeneralGroup_1gad79858d7c4554bedc2efe05daec7f1b3" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>checkValidity</name></member>
+      <member refid="group__GeneralGroup_1ga2cf1d840779aa0c63f819f6e05a26f5b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>clear</name></member>
       <member refid="group__GeneralGroup_1ga014b6c9fe6610ee83fcba20798e4a4bd" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>collapseEdge</name></member>
       <member refid="group__GeneralGroup_1ga5fc8c691836a8645942e3336a365c6f5" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeAllFromEdges_</name></member>
       <member refid="group__GeneralGroup_1ga9b0965c616ba1372dc30a0cfc25e2459" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeNotLoneUndirectedEdges</name></member>

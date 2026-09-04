@@ -208,6 +208,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a0844a3be89d5e3b484f4a517cdd402a0" id="r_a0844a3be89d5e3b484f4a517cdd402a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0844a3be89d5e3b484f4a517cdd402a0">MR_MeshTopology_hasEdge</a> (const <a class="el" href="MRChangeMeshAction_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e)</td></tr>
 <tr class="memitem:ad9fed690ddcb185660aed230bab92cbb" id="r_ad9fed690ddcb185660aed230bab92cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9fed690ddcb185660aed230bab92cbb">MR_MeshTopology_heapBytes</a> (const <a class="el" href="MRChangeMeshAction_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this)</td></tr>
 <tr class="memitem:a2445269e146bbf92f436946cbe29d929" id="r_a2445269e146bbf92f436946cbe29d929"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2445269e146bbf92f436946cbe29d929">MR_MeshTopology_shrinkToFit</a> (<a class="el" href="MRChangeMeshAction_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this)</td></tr>
+<tr class="memitem:a148df193e290afce9122aa3389700572" id="r_a148df193e290afce9122aa3389700572"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a148df193e290afce9122aa3389700572">MR_MeshTopology_clear</a> (<a class="el" href="MRChangeMeshAction_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this)</td></tr>
 <tr class="memitem:a9426d1f4b53d642a4e8aaf42a7c51d09" id="r_a9426d1f4b53d642a4e8aaf42a7c51d09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9426d1f4b53d642a4e8aaf42a7c51d09">MR_MeshTopology_splice</a> (<a class="el" href="MRChangeMeshAction_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> b)</td></tr>
 <tr class="memitem:a81a024aa6db87a7f41b346490cbcfd09" id="r_a81a024aa6db87a7f41b346490cbcfd09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81a024aa6db87a7f41b346490cbcfd09">MR_MeshTopology_collapseEdge</a> (<a class="el" href="MRChangeMeshAction_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e, const <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *onEdgeDel)</td></tr>
 <tr class="memitem:aa28d765ad8668711711a3e2be088c35a" id="r_aa28d765ad8668711711a3e2be088c35a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa28d765ad8668711711a3e2be088c35a">MR_MeshTopology_next</a> (const <a class="el" href="MRChangeMeshAction_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> he)</td></tr>
@@ -867,6 +868,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>verifies that all internal data structures are valid; if allVerts=true then checks in addition that all not-lone edges have valid vertices on both ends Generated from method <span class="tt">MR::MeshTopology::checkValidity</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Parameter <span class="tt">allVerts</span> has a default argument: <span class="tt">true</span>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a148df193e290afce9122aa3389700572" name="a148df193e290afce9122aa3389700572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a148df193e290afce9122aa3389700572">&#9670;&#160;</a></span>MR_MeshTopology_clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshTopology_clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshAction_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>resets to the default-constructed state (including resuming valids updating), keeping the buffers' capacity for reuse Generated from method <span class="tt">MR::MeshTopology::clear</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

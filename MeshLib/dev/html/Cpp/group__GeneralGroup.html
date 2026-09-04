@@ -5867,6 +5867,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga96477aa3c048344d7275870044e47783"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:ga2732905755005f97121eb63d3e337091" id="r_ga2732905755005f97121eb63d3e337091"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2732905755005f97121eb63d3e337091">MR::MeshTopology::shrinkToFit</a> ()</td></tr>
 <tr class="memdesc:ga2732905755005f97121eb63d3e337091"><td class="mdescLeft">&#160;</td><td class="mdescRight">requests the removal of unused capacity  <br /></td></tr>
+<tr class="memitem:ga2cf1d840779aa0c63f819f6e05a26f5b" id="r_ga2cf1d840779aa0c63f819f6e05a26f5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2cf1d840779aa0c63f819f6e05a26f5b">MR::MeshTopology::clear</a> ()</td></tr>
+<tr class="memdesc:ga2cf1d840779aa0c63f819f6e05a26f5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets to the default-constructed state (including resuming valids updating), keeping the buffers' capacity for reuse  <br /></td></tr>
 <tr class="memitem:ga4824014eac0fba7df3e488b510f2f219" id="r_ga4824014eac0fba7df3e488b510f2f219"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4824014eac0fba7df3e488b510f2f219">MR::MeshTopology::splice</a> (EdgeId a, EdgeId b)</td></tr>
 <tr class="memitem:ga014b6c9fe6610ee83fcba20798e4a4bd" id="r_ga014b6c9fe6610ee83fcba20798e4a4bd"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga014b6c9fe6610ee83fcba20798e4a4bd">MR::MeshTopology::collapseEdge</a> (EdgeId e, const std::function&lt; void(EdgeId del, EdgeId rem)&gt; &amp;onEdgeDel)</td></tr>
 <tr class="memitem:ga2dad4d8d3af9888d8bd8303195aad3b9" id="r_ga2dad4d8d3af9888d8bd8303195aad3b9"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2dad4d8d3af9888d8bd8303195aad3b9">MR::MeshTopology::next</a> (EdgeId he) const</td></tr>
@@ -7320,9 +7322,13 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gafe0cff75a668facd54a62bf927b0d3a9" id="r_gafe0cff75a668facd54a62bf927b0d3a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafe0cff75a668facd54a62bf927b0d3a9">MR::trackLeftBoundaryLoop</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e0, const FaceBitSet *region=nullptr, <a class="el" href="#ga119ecb93af42f379f5a1462e9f9987ef">Turn</a> turn=<a class="el" href="#gga119ecb93af42f379f5a1462e9f9987efa554bebc8ec7b98eec47779dd22ed72d9">Turn::Rightmost</a>)</td></tr>
 <tr class="memitem:ga0b1aadbcca4f1cead3d021af7e3d33f4" id="r_ga0b1aadbcca4f1cead3d021af7e3d33f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0b1aadbcca4f1cead3d021af7e3d33f4">MR::trackLeftBoundaryLoop</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet &amp;region, EdgeId e0, <a class="el" href="#ga119ecb93af42f379f5a1462e9f9987ef">Turn</a> turn=<a class="el" href="#gga119ecb93af42f379f5a1462e9f9987efa554bebc8ec7b98eec47779dd22ed72d9">Turn::Rightmost</a>)</td></tr>
 <tr class="memdesc:ga0b1aadbcca4f1cead3d021af7e3d33f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is skipped in the bindings to avoid complex function names for the overloads in C.  <br /></td></tr>
+<tr class="memitem:gad5f48a6c995163ccf86e1368e6d3a72e" id="r_gad5f48a6c995163ccf86e1368e6d3a72e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad5f48a6c995163ccf86e1368e6d3a72e">MR::trackLeftBoundaryLoop</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e0, <a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;outLoop, const FaceBitSet *region=nullptr, <a class="el" href="#ga119ecb93af42f379f5a1462e9f9987ef">Turn</a> turn=<a class="el" href="#gga119ecb93af42f379f5a1462e9f9987efa554bebc8ec7b98eec47779dd22ed72d9">Turn::Rightmost</a>)</td></tr>
+<tr class="memdesc:gad5f48a6c995163ccf86e1368e6d3a72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, but writes the loop in <code class="param">outLoop</code> (cleared first), so a caller tracking many loops one by one reuses its capacity  <br /></td></tr>
 <tr class="memitem:ga7e1b0e5fae67b830aef15f52355a6c40" id="r_ga7e1b0e5fae67b830aef15f52355a6c40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7e1b0e5fae67b830aef15f52355a6c40">MR::trackRightBoundaryLoop</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e0, const FaceBitSet *region=nullptr, <a class="el" href="#ga119ecb93af42f379f5a1462e9f9987ef">Turn</a> turn=<a class="el" href="#gga119ecb93af42f379f5a1462e9f9987efa554bebc8ec7b98eec47779dd22ed72d9">Turn::Rightmost</a>)</td></tr>
 <tr class="memitem:ga9875ea52b09e50db9dbb4481677d22f6" id="r_ga9875ea52b09e50db9dbb4481677d22f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9875ea52b09e50db9dbb4481677d22f6">MR::trackRightBoundaryLoop</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet &amp;region, EdgeId e0, <a class="el" href="#ga119ecb93af42f379f5a1462e9f9987ef">Turn</a> turn=<a class="el" href="#gga119ecb93af42f379f5a1462e9f9987efa554bebc8ec7b98eec47779dd22ed72d9">Turn::Rightmost</a>)</td></tr>
 <tr class="memdesc:ga9875ea52b09e50db9dbb4481677d22f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is skipped in the bindings to avoid complex function names for the overloads in C.  <br /></td></tr>
+<tr class="memitem:ga184ea2fa74460ca834372a2cfed0de72" id="r_ga184ea2fa74460ca834372a2cfed0de72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga184ea2fa74460ca834372a2cfed0de72">MR::trackRightBoundaryLoop</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e0, <a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;outLoop, const FaceBitSet *region=nullptr, <a class="el" href="#ga119ecb93af42f379f5a1462e9f9987ef">Turn</a> turn=<a class="el" href="#gga119ecb93af42f379f5a1462e9f9987efa554bebc8ec7b98eec47779dd22ed72d9">Turn::Rightmost</a>)</td></tr>
+<tr class="memdesc:ga184ea2fa74460ca834372a2cfed0de72"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, but writes the loop in <code class="param">outLoop</code> (cleared first), so a caller tracking many loops one by one reuses its capacity  <br /></td></tr>
 <tr class="memitem:gab7a687178b1a5c17baab0681ea164891" id="r_gab7a687178b1a5c17baab0681ea164891"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab7a687178b1a5c17baab0681ea164891">MR::extractPath</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e0, EdgeBitSet &amp;edges, <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> *outPath, <a class="el" href="#ga119ecb93af42f379f5a1462e9f9987ef">Turn</a> turn)</td></tr>
 <tr class="memitem:gaa56b00c588c98e6db3c24cc2ae303cc5" id="r_gaa56b00c588c98e6db3c24cc2ae303cc5"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa56b00c588c98e6db3c24cc2ae303cc5">MR::extractOppositePath</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e0, EdgeBitSet &amp;edges, <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> *outPath, <a class="el" href="#ga119ecb93af42f379f5a1462e9f9987ef">Turn</a> turn)</td></tr>
 <tr class="memitem:ga450d72fb8dad81d37aeffe117b711181" id="r_ga450d72fb8dad81d37aeffe117b711181"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga450d72fb8dad81d37aeffe117b711181">MR::extractAllLoops</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeBitSet &amp;edges, <a class="el" href="#ga119ecb93af42f379f5a1462e9f9987ef">Turn</a> turn)</td></tr>
@@ -44890,7 +44896,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaca0b802e48cd228f6dae674149d771b3" name="gaca0b802e48cd228f6dae674149d771b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaca0b802e48cd228f6dae674149d771b3">&#9670;&#160;</a></span>clear() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaca0b802e48cd228f6dae674149d771b3">&#9670;&#160;</a></span>clear() <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -44911,7 +44917,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2f01b559e5cafefd57bef4c73f59b669" name="ga2f01b559e5cafefd57bef4c73f59b669"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2f01b559e5cafefd57bef4c73f59b669">&#9670;&#160;</a></span>clear() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f01b559e5cafefd57bef4c73f59b669">&#9670;&#160;</a></span>clear() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -44940,7 +44946,7 @@ template&lt;typename V, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gaf536aae957f76a53b47070d11d2a4181" name="gaf536aae957f76a53b47070d11d2a4181"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf536aae957f76a53b47070d11d2a4181">&#9670;&#160;</a></span>clear() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf536aae957f76a53b47070d11d2a4181">&#9670;&#160;</a></span>clear() <span class="overload">[3/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -44971,7 +44977,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab6a52148cc818bc6c42e287a95ef61b8" name="gab6a52148cc818bc6c42e287a95ef61b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab6a52148cc818bc6c42e287a95ef61b8">&#9670;&#160;</a></span>clear() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab6a52148cc818bc6c42e287a95ef61b8">&#9670;&#160;</a></span>clear() <span class="overload">[4/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -44991,8 +44997,29 @@ template&lt;typename K, typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga2cf1d840779aa0c63f819f6e05a26f5b" name="ga2cf1d840779aa0c63f819f6e05a26f5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2cf1d840779aa0c63f819f6e05a26f5b">&#9670;&#160;</a></span>clear() <span class="overload">[5/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MeshTopology::clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
+
+<p>resets to the default-constructed state (including resuming valids updating), keeping the buffers' capacity for reuse </p>
+
+</div>
+</div>
 <a id="ga400bfa8033764f32d164e4a87ecefc41" name="ga400bfa8033764f32d164e4a87ecefc41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga400bfa8033764f32d164e4a87ecefc41">&#9670;&#160;</a></span>clear() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga400bfa8033764f32d164e4a87ecefc41">&#9670;&#160;</a></span>clear() <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -45013,7 +45040,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="ga26ba45d6f8a921a6ce281e87bf57c405" name="ga26ba45d6f8a921a6ce281e87bf57c405"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga26ba45d6f8a921a6ce281e87bf57c405">&#9670;&#160;</a></span>clear() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga26ba45d6f8a921a6ce281e87bf57c405">&#9670;&#160;</a></span>clear() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -45034,7 +45061,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="ga229a8e7249d6d753b590d2c3de6d043e" name="ga229a8e7249d6d753b590d2c3de6d043e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga229a8e7249d6d753b590d2c3de6d043e">&#9670;&#160;</a></span>clear() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga229a8e7249d6d753b590d2c3de6d043e">&#9670;&#160;</a></span>clear() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -45055,7 +45082,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="ga0e593b171d655e35f554674f88083c76" name="ga0e593b171d655e35f554674f88083c76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0e593b171d655e35f554674f88083c76">&#9670;&#160;</a></span>clear() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e593b171d655e35f554674f88083c76">&#9670;&#160;</a></span>clear() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -45084,7 +45111,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gaa4c379f80b6cb834a38f930239028843" name="gaa4c379f80b6cb834a38f930239028843"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa4c379f80b6cb834a38f930239028843">&#9670;&#160;</a></span>clear() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa4c379f80b6cb834a38f930239028843">&#9670;&#160;</a></span>clear() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185155,7 +185182,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga0b1aadbcca4f1cead3d021af7e3d33f4" name="ga0b1aadbcca4f1cead3d021af7e3d33f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0b1aadbcca4f1cead3d021af7e3d33f4">&#9670;&#160;</a></span>trackLeftBoundaryLoop() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0b1aadbcca4f1cead3d021af7e3d33f4">&#9670;&#160;</a></span>trackLeftBoundaryLoop() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185198,7 +185225,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafe0cff75a668facd54a62bf927b0d3a9" name="gafe0cff75a668facd54a62bf927b0d3a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafe0cff75a668facd54a62bf927b0d3a9">&#9670;&#160;</a></span>trackLeftBoundaryLoop() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafe0cff75a668facd54a62bf927b0d3a9">&#9670;&#160;</a></span>trackLeftBoundaryLoop() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185239,6 +185266,46 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gad5f48a6c995163ccf86e1368e6d3a72e" name="gad5f48a6c995163ccf86e1368e6d3a72e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5f48a6c995163ccf86e1368e6d3a72e">&#9670;&#160;</a></span>trackLeftBoundaryLoop() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::trackLeftBoundaryLoop </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outLoop</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga119ecb93af42f379f5a1462e9f9987ef">Turn</a></td>          <td class="paramname"><span class="paramname"><em>turn</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#gga119ecb93af42f379f5a1462e9f9987efa554bebc8ec7b98eec47779dd22ed72d9">Turn::Rightmost</a></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRRegionBoundary_8h.html">MRMesh/MRRegionBoundary.h</a>&gt;</code></p>
+
+<p>same as above, but writes the loop in <code class="param">outLoop</code> (cleared first), so a caller tracking many loops one by one reuses its capacity </p>
+
+</div>
+</div>
 <a id="ga91060ff48000e2ddc2037bedefc72197" name="ga91060ff48000e2ddc2037bedefc72197"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga91060ff48000e2ddc2037bedefc72197">&#9670;&#160;</a></span>trackPathBack()</h2>
 
@@ -185266,7 +185333,7 @@ template&lt;class MetricToPenalty&gt; </div>
 </div>
 </div>
 <a id="ga9875ea52b09e50db9dbb4481677d22f6" name="ga9875ea52b09e50db9dbb4481677d22f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9875ea52b09e50db9dbb4481677d22f6">&#9670;&#160;</a></span>trackRightBoundaryLoop() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9875ea52b09e50db9dbb4481677d22f6">&#9670;&#160;</a></span>trackRightBoundaryLoop() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185309,7 +185376,7 @@ template&lt;class MetricToPenalty&gt; </div>
 </div>
 </div>
 <a id="ga7e1b0e5fae67b830aef15f52355a6c40" name="ga7e1b0e5fae67b830aef15f52355a6c40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7e1b0e5fae67b830aef15f52355a6c40">&#9670;&#160;</a></span>trackRightBoundaryLoop() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7e1b0e5fae67b830aef15f52355a6c40">&#9670;&#160;</a></span>trackRightBoundaryLoop() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185347,6 +185414,46 @@ template&lt;class MetricToPenalty&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRRegionBoundary_8h.html">MRMesh/MRRegionBoundary.h</a>&gt;</code></p>
 <p>returns closed loop of region boundary starting from given region boundary edge (region faces on the right, and not-region faces or holes on the left); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to left </p>
+
+</div>
+</div>
+<a id="ga184ea2fa74460ca834372a2cfed0de72" name="ga184ea2fa74460ca834372a2cfed0de72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga184ea2fa74460ca834372a2cfed0de72">&#9670;&#160;</a></span>trackRightBoundaryLoop() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::trackRightBoundaryLoop </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outLoop</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga119ecb93af42f379f5a1462e9f9987ef">Turn</a></td>          <td class="paramname"><span class="paramname"><em>turn</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#gga119ecb93af42f379f5a1462e9f9987efa554bebc8ec7b98eec47779dd22ed72d9">Turn::Rightmost</a></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRRegionBoundary_8h.html">MRMesh/MRRegionBoundary.h</a>&gt;</code></p>
+
+<p>same as above, but writes the loop in <code class="param">outLoop</code> (cleared first), so a caller tracking many loops one by one reuses its capacity </p>
 
 </div>
 </div>

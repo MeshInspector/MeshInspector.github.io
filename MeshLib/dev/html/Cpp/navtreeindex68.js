@@ -1,5 +1,8 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[8,0,0,9,7,0,7],
+"structMR_1_1SurfaceManipulationWidget_1_1PickedVertData.html":[8,0,0,20,744],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[8,0,0,20,743],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html":[8,0,0,20,746],
 "structMR_1_1SymMatrix2.html":[8,0,0,0,7,4],
 "structMR_1_1SymMatrix2.html":[8,0,0,20,500],
@@ -246,8 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#a86370e0ca44ce18760320f63faac8aa1":[8,0,0,1,13,2],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a":[8,0,0,1,13,3],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0":[8,0,0,1,13,1],
-"structMR_1_1UniformSamplingSettings.html":[8,0,0,20,518],
-"structMR_1_1UniquePtr.html":[8,0,0,20,521],
-"structMR_1_1UnitInfo.html":[8,0,0,20,525],
-"structMR_1_1UnitToStringParams.html":[8,0,0,20,766]
+"structMR_1_1UniformSamplingSettings.html":[8,0,0,20,518]
 };

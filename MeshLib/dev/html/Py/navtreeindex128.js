@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html":[8,1,1,0,1,1280],
+"classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a13f69753102e00f44429853beb7fa98a":[8,1,0,0,2,1280,1],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a13f69753102e00f44429853beb7fa98a":[8,1,1,0,1,1280,1],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a1dd4ffc03879fa4a6b686ed1c9cf9cd2":[8,1,0,0,2,1280,4],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a1dd4ffc03879fa4a6b686ed1c9cf9cd2":[8,1,1,0,1,1280,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region.html#aa67ed78c38cbd3df119a0a8c9313e270":[8,1,1,0,1,1291,3,0,1],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region.html#aaf4a731ff1ce5e37cbe00cea07903318":[8,1,0,0,2,1291,3,0,0],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region.html#aaf4a731ff1ce5e37cbe00cea07903318":[8,1,1,0,1,1291,3,0,0],
-"classmrmeshpy_1_1WeightedVertex.html":[8,1,0,0,2,1292],
-"classmrmeshpy_1_1WeightedVertex.html":[8,1,1,0,1,1292],
-"classmrmeshpy_1_1WeightedVertex.html#a78d7c6a5d4bc95dfe91265a273468e13":[8,1,0,0,2,1292,1]
+"classmrmeshpy_1_1WeightedVertex.html":[8,1,0,0,2,1292]
 };

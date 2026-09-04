@@ -5880,6 +5880,7 @@
     <member refid="group__GeneralGroup_1gad9e70ac7c77ef21e21af1c1565ef338b" kind="function"><name>hasEdge</name></member>
     <member refid="group__GeneralGroup_1ga96477aa3c048344d7275870044e47783" kind="function"><name>heapBytes</name></member>
     <member refid="group__GeneralGroup_1ga2732905755005f97121eb63d3e337091" kind="function"><name>shrinkToFit</name></member>
+    <member refid="group__GeneralGroup_1ga2cf1d840779aa0c63f819f6e05a26f5b" kind="function"><name>clear</name></member>
     <member refid="group__GeneralGroup_1ga4824014eac0fba7df3e488b510f2f219" kind="function"><name>splice</name></member>
     <member refid="group__GeneralGroup_1ga014b6c9fe6610ee83fcba20798e4a4bd" kind="function"><name>collapseEdge</name></member>
     <member refid="group__GeneralGroup_1ga2dad4d8d3af9888d8bd8303195aad3b9" kind="function"><name>next</name></member>
@@ -15555,8 +15556,10 @@
     <member refid="group__PlanarPathGroup_1ga0d2e3afb7eada78ede593a4e0a0d0e81" kind="function"><name>reducePath</name></member>
     <member refid="group__GeneralGroup_1gafe0cff75a668facd54a62bf927b0d3a9" kind="function"><name>trackLeftBoundaryLoop</name></member>
     <member refid="group__GeneralGroup_1ga0b1aadbcca4f1cead3d021af7e3d33f4" kind="function"><name>trackLeftBoundaryLoop</name></member>
+    <member refid="group__GeneralGroup_1gad5f48a6c995163ccf86e1368e6d3a72e" kind="function"><name>trackLeftBoundaryLoop</name></member>
     <member refid="group__GeneralGroup_1ga7e1b0e5fae67b830aef15f52355a6c40" kind="function"><name>trackRightBoundaryLoop</name></member>
     <member refid="group__GeneralGroup_1ga9875ea52b09e50db9dbb4481677d22f6" kind="function"><name>trackRightBoundaryLoop</name></member>
+    <member refid="group__GeneralGroup_1ga184ea2fa74460ca834372a2cfed0de72" kind="function"><name>trackRightBoundaryLoop</name></member>
     <member refid="group__GeneralGroup_1gab7a687178b1a5c17baab0681ea164891" kind="function"><name>extractPath</name></member>
     <member refid="group__GeneralGroup_1gaa56b00c588c98e6db3c24cc2ae303cc5" kind="function"><name>extractOppositePath</name></member>
     <member refid="group__GeneralGroup_1ga450d72fb8dad81d37aeffe117b711181" kind="function"><name>extractAllLoops</name></member>
@@ -27232,6 +27235,7 @@
     <member refid="group__GeneralGroup_1gad9e70ac7c77ef21e21af1c1565ef338b" kind="function"><name>hasEdge</name></member>
     <member refid="group__GeneralGroup_1ga96477aa3c048344d7275870044e47783" kind="function"><name>heapBytes</name></member>
     <member refid="group__GeneralGroup_1ga2732905755005f97121eb63d3e337091" kind="function"><name>shrinkToFit</name></member>
+    <member refid="group__GeneralGroup_1ga2cf1d840779aa0c63f819f6e05a26f5b" kind="function"><name>clear</name></member>
     <member refid="group__GeneralGroup_1ga4824014eac0fba7df3e488b510f2f219" kind="function"><name>splice</name></member>
     <member refid="group__GeneralGroup_1ga014b6c9fe6610ee83fcba20798e4a4bd" kind="function"><name>collapseEdge</name></member>
     <member refid="group__GeneralGroup_1ga2dad4d8d3af9888d8bd8303195aad3b9" kind="function"><name>next</name></member>
@@ -28271,8 +28275,10 @@
     <member refid="group__GeneralGroup_1gadce75421b145a5c2c9748727dc87e954" kind="function"><name>rayBoxIntersect</name></member>
     <member refid="group__GeneralGroup_1gafe0cff75a668facd54a62bf927b0d3a9" kind="function"><name>trackLeftBoundaryLoop</name></member>
     <member refid="group__GeneralGroup_1ga0b1aadbcca4f1cead3d021af7e3d33f4" kind="function"><name>trackLeftBoundaryLoop</name></member>
+    <member refid="group__GeneralGroup_1gad5f48a6c995163ccf86e1368e6d3a72e" kind="function"><name>trackLeftBoundaryLoop</name></member>
     <member refid="group__GeneralGroup_1ga7e1b0e5fae67b830aef15f52355a6c40" kind="function"><name>trackRightBoundaryLoop</name></member>
     <member refid="group__GeneralGroup_1ga9875ea52b09e50db9dbb4481677d22f6" kind="function"><name>trackRightBoundaryLoop</name></member>
+    <member refid="group__GeneralGroup_1ga184ea2fa74460ca834372a2cfed0de72" kind="function"><name>trackRightBoundaryLoop</name></member>
     <member refid="group__GeneralGroup_1gab7a687178b1a5c17baab0681ea164891" kind="function"><name>extractPath</name></member>
     <member refid="group__GeneralGroup_1gaa56b00c588c98e6db3c24cc2ae303cc5" kind="function"><name>extractOppositePath</name></member>
     <member refid="group__GeneralGroup_1ga450d72fb8dad81d37aeffe117b711181" kind="function"><name>extractAllLoops</name></member>

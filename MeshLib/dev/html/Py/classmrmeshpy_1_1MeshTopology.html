@@ -163,6 +163,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a76cc50754e9da98ae6b1211687b17980" id="r_a76cc50754e9da98ae6b1211687b17980"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76cc50754e9da98ae6b1211687b17980">bdEdgeWithOrigin</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None)</td></tr>
 <tr class="memitem:aa695985ac7e601f9fdad187f8ffa7e4b" id="r_aa695985ac7e601f9fdad187f8ffa7e4b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa695985ac7e601f9fdad187f8ffa7e4b">buildGridMesh</a> (self, <a class="el" href="classmrmeshpy_1_1GridSettings.html">GridSettings</a> settings, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:a9066abdd9c68fea9be3e97862d157ea9" id="r_a9066abdd9c68fea9be3e97862d157ea9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9066abdd9c68fea9be3e97862d157ea9">checkValidity</a> (self, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}', bool allVerts=True)</td></tr>
+<tr class="memitem:a00f5eff68efeeabd8c22343d7fd2a221" id="r_a00f5eff68efeeabd8c22343d7fd2a221"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00f5eff68efeeabd8c22343d7fd2a221">clear</a> (self)</td></tr>
 <tr class="memitem:ac632c10c7bf8fe4a05aa8d4071f09fef" id="r_ac632c10c7bf8fe4a05aa8d4071f09fef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac632c10c7bf8fe4a05aa8d4071f09fef">collapseEdge</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> e, <a class="el" href="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag.html">func_void_from_Id_EdgeTag_Id_EdgeTag</a> onEdgeDel)</td></tr>
 <tr class="memitem:aef51bd28ac8d510b1615a966ff3e0f10" id="r_aef51bd28ac8d510b1615a966ff3e0f10"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef51bd28ac8d510b1615a966ff3e0f10">computeNotLoneUndirectedEdges</a> (self)</td></tr>
 <tr class="memitem:afc16761eb33ec7520c688b1a33cf57d5" id="r_afc16761eb33ec7520c688b1a33cf57d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc16761eb33ec7520c688b1a33cf57d5">computeValidsFromEdges</a> (self, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
@@ -793,6 +794,24 @@ returns invalid edge if no boundary edge is found
 </div><div class="memdoc">
 <pre class="fragment">verifies that all internal data structures are valid;
 if allVerts=true then checks in addition that all not-lone edges have valid vertices on both ends
+</pre> 
+</div>
+</div>
+<a id="a00f5eff68efeeabd8c22343d7fd2a221" name="a00f5eff68efeeabd8c22343d7fd2a221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00f5eff68efeeabd8c22343d7fd2a221">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshTopology.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">resets to the default-constructed state (including resuming valids updating), keeping the buffers' capacity for reuse
 </pre> 
 </div>
 </div>

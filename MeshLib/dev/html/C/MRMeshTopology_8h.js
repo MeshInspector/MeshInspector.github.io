@@ -18,6 +18,7 @@ var MRMeshTopology_8h =
     [ "MR_MeshTopology_bdEdgeWithOrigin", "MRMeshTopology_8h.html#a714461026b32bec374835052319e7cf8", null ],
     [ "MR_MeshTopology_buildGridMesh", "MRMeshTopology_8h.html#a97d53832f4cfd5b35eef8647a36c1e27", null ],
     [ "MR_MeshTopology_checkValidity", "MRMeshTopology_8h.html#a11344d69a733e4d99818f2b0dcdce78c", null ],
+    [ "MR_MeshTopology_clear", "MRMeshTopology_8h.html#a148df193e290afce9122aa3389700572", null ],
     [ "MR_MeshTopology_collapseEdge", "MRMeshTopology_8h.html#a81a024aa6db87a7f41b346490cbcfd09", null ],
     [ "MR_MeshTopology_computeNotLoneUndirectedEdges", "MRMeshTopology_8h.html#af431f4284a13d1a5c11c51a510c4894b", null ],
     [ "MR_MeshTopology_computeValidsFromEdges", "MRMeshTopology_8h.html#a354fcd47daf1ab8b2d36f223bc529066", null ],

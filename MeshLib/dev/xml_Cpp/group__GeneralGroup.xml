@@ -35955,7 +35955,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="588" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="588" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="591" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="591" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga72d923a9f0e2f0b8bf55d43bbd30bc2c" prot="public" static="no" mutable="no">
         <type>EdgeId</type>
@@ -35970,7 +35970,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="589" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="589" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="592" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="592" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2408c1ef3fd6c369eebe4355ae4ea4bc" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -35985,7 +35985,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="590" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="590" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="593" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="593" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab3e0a1e7779d04f8555ba394cd33ca44" prot="public" static="no" mutable="no">
         <type>FaceId</type>
@@ -36000,7 +36000,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="591" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="591" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="594" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="594" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9b7eb5f697ea83a1ba72945ca2bbd48a" prot="private" static="no" mutable="no">
         <type>Vector&lt; HalfEdgeRecord, EdgeId &gt;</type>
@@ -36015,7 +36015,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="610" column="12" bodyfile="MRMesh/MRMeshTopology.h" bodystart="610" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="613" column="12" bodyfile="MRMesh/MRMeshTopology.h" bodystart="613" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa05e32dd8cd4be5b168e51a5b3329b4b" prot="private" static="no" mutable="no">
         <type>Vector&lt; EdgeId, VertId &gt;</type>
@@ -36030,7 +36030,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="613" column="12" bodyfile="MRMesh/MRMeshTopology.h" bodystart="613" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="616" column="12" bodyfile="MRMesh/MRMeshTopology.h" bodystart="616" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga23ca10349eba18999fa2c78aa8781256" prot="private" static="no" mutable="no">
         <type>VertBitSet</type>
@@ -36045,7 +36045,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="614" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="614" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="617" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="617" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga30d785621dc52e841cbbc9da884ebeef" prot="private" static="no" mutable="no">
         <type>Vector&lt; EdgeId, FaceId &gt;</type>
@@ -36060,7 +36060,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="617" column="12" bodyfile="MRMesh/MRMeshTopology.h" bodystart="617" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="620" column="12" bodyfile="MRMesh/MRMeshTopology.h" bodystart="620" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab6216d00aa9f17f75d24d2a67d976419" prot="private" static="no" mutable="no">
         <type>FaceBitSet</type>
@@ -36075,7 +36075,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="618" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="618" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="621" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="621" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga273b7c26a64f8296fd8aae5275ebfd02" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -36091,7 +36091,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="620" column="9" bodyfile="MRMesh/MRMeshTopology.h" bodystart="620" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="623" column="9" bodyfile="MRMesh/MRMeshTopology.h" bodystart="623" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafa3ef8a0d481c18d55ef03928c9ed27c" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -36107,7 +36107,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="621" column="9" bodyfile="MRMesh/MRMeshTopology.h" bodystart="621" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="624" column="9" bodyfile="MRMesh/MRMeshTopology.h" bodystart="624" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga87e604fc7885293a1dbb7b4a89eed25f" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -36123,7 +36123,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="623" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="623" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="626" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="626" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9f2e1e81b6a1f5328a10fb914ad88869" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -71716,7 +71716,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="566" column="18" bodyfile="MRMesh/MRMeshTopology.h" bodystart="566" bodyend="-1"/>
+        <location file="MRMesh/MRMeshTopology.h" line="569" column="18" bodyfile="MRMesh/MRMeshTopology.h" bodystart="569" bodyend="-1"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1ga8c6392ce214f3ae75940276985adb46a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class</type>
@@ -115942,6 +115942,21 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRMeshTopology.h" line="75" column="11"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga2cf1d840779aa0c63f819f6e05a26f5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MeshTopology::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR::MeshTopology::clear</qualifiedname>
+        <briefdescription>
+<para>resets to the default-constructed state (including resuming valids updating), keeping the buffers&apos; capacity for reuse </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshTopology.h" line="78" column="11"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4824014eac0fba7df3e488b510f2f219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::MeshTopology::splice</definition>
@@ -115963,7 +115978,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="82" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="85" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga014b6c9fe6610ee83fcba20798e4a4bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -115988,7 +116003,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="91" column="13"/>
+        <location file="MRMesh/MRMeshTopology.h" line="94" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2dad4d8d3af9888d8bd8303195aad3b9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>EdgeId</type>
@@ -116007,7 +116022,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="95" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="95" bodyend="95"/>
+        <location file="MRMesh/MRMeshTopology.h" line="98" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="98" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7b32ade5428d261aa511099eff6788c0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>EdgeId</type>
@@ -116026,7 +116041,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="98" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="98" bodyend="98"/>
+        <location file="MRMesh/MRMeshTopology.h" line="101" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="101" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga730ccabca6bf4811fd6b7a2a87bdce13" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>VertId</type>
@@ -116045,7 +116060,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="101" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="101" bodyend="101"/>
+        <location file="MRMesh/MRMeshTopology.h" line="104" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="104" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4249f7a97c745af922214ed2ca58f20d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>VertId</type>
@@ -116064,7 +116079,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="104" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="104" bodyend="104"/>
+        <location file="MRMesh/MRMeshTopology.h" line="107" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="107" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga32ef296197eb1631ca3af65f4614024a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>FaceId</type>
@@ -116083,7 +116098,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="107" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="107" bodyend="107"/>
+        <location file="MRMesh/MRMeshTopology.h" line="110" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="110" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad584643e2e3233eea5dbb51eab4b1ba0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>FaceId</type>
@@ -116102,7 +116117,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="110" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="110" bodyend="110"/>
+        <location file="MRMesh/MRMeshTopology.h" line="113" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="113" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab206690266b8da660da20f5f9b077b3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -116125,7 +116140,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="115" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="118" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9d14ed95daaeb28bc7cab7f2046a13eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -116148,7 +116163,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="119" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="122" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad2eebf70e911bb41a4d9b755f78c5f21" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -116171,7 +116186,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="123" column="12"/>
+        <location file="MRMesh/MRMeshTopology.h" line="126" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0a695c10309ce43745b1a873a3dca83c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -116194,7 +116209,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="126" column="12"/>
+        <location file="MRMesh/MRMeshTopology.h" line="129" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga438a70cf73b4cfd4789c28a7fc72b459" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -116213,7 +116228,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="130" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="133" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2ffcbfff3f1140a0a80025377ee26f13" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -116232,7 +116247,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="133" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="133" bodyend="133"/>
+        <location file="MRMesh/MRMeshTopology.h" line="136" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="136" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0da48b7563fc9bae440855ac0527ac49" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -116255,7 +116270,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="136" column="12"/>
+        <location file="MRMesh/MRMeshTopology.h" line="139" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad6771eb4fb1587b4de73b9346da40119" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -116278,7 +116293,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="139" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="139" bodyend="139"/>
+        <location file="MRMesh/MRMeshTopology.h" line="142" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="142" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4aa04323ba343ed5b50dfaf554d47ccb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -116297,7 +116312,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="142" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="145" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6c8db8bf93e14dfbacb28ff9a388e9e1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -116316,7 +116331,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="145" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="145" bodyend="145"/>
+        <location file="MRMesh/MRMeshTopology.h" line="148" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="148" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad4973cce49632ce5051a46b9b194e8ec" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -116335,7 +116350,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="148" column="12"/>
+        <location file="MRMesh/MRMeshTopology.h" line="151" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1505aee9d1b0cdf3c24139b5e97bc187" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -116366,7 +116381,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="152" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="152" bodyend="152"/>
+        <location file="MRMesh/MRMeshTopology.h" line="155" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="155" bodyend="155"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga033cca6b8c6dc4e8ebac02a2a9b02268" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE void</type>
@@ -116389,7 +116404,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="153" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="153" bodyend="153"/>
+        <location file="MRMesh/MRMeshTopology.h" line="156" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="156" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gace0e3be1697a60c54a5f9fe91db3a30d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -116412,7 +116427,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="154" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="154" bodyend="154"/>
+        <location file="MRMesh/MRMeshTopology.h" line="157" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="157" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga845c17dd094d1fdc37fb0a874ee98eaa" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>ThreeVertIds</type>
@@ -116430,7 +116445,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="155" column="19" bodyfile="MRMesh/MRMeshTopology.h" bodystart="155" bodyend="155"/>
+        <location file="MRMesh/MRMeshTopology.h" line="158" column="19" bodyfile="MRMesh/MRMeshTopology.h" bodystart="158" bodyend="158"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf020bbe446f3965db015301732d7592d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -116453,7 +116468,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="158" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="158" bodyend="158"/>
+        <location file="MRMesh/MRMeshTopology.h" line="161" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="161" bodyend="161"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3d85b486bb589bae547c1e7fc7c1f342" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; ThreeVertIds &gt;</type>
@@ -116468,7 +116483,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="161" column="19"/>
+        <location file="MRMesh/MRMeshTopology.h" line="164" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga38ff51ae302402397ba017f96799d992" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Triangulation</type>
@@ -116483,7 +116498,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="165" column="21"/>
+        <location file="MRMesh/MRMeshTopology.h" line="168" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad3ba6513949b7e2cc8d026657fd8ee0f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -116514,7 +116529,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="169" column="15"/>
+        <location file="MRMesh/MRMeshTopology.h" line="172" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad62222883fc0c58bc72eed22f7d74953" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE void</type>
@@ -116537,7 +116552,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="170" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="170" bodyend="170"/>
+        <location file="MRMesh/MRMeshTopology.h" line="173" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="173" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9fd531135d0c893edd63545034f5b026" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -116560,7 +116575,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="171" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="171" bodyend="171"/>
+        <location file="MRMesh/MRMeshTopology.h" line="174" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="174" bodyend="174"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae7ad9074cc4e1be50475db39d352f94f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>ThreeVertIds</type>
@@ -116578,7 +116593,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="172" column="19" bodyfile="MRMesh/MRMeshTopology.h" bodystart="172" bodyend="172"/>
+        <location file="MRMesh/MRMeshTopology.h" line="175" column="19" bodyfile="MRMesh/MRMeshTopology.h" bodystart="175" bodyend="175"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaad405e625450208e48d0237b9b5f53e8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -116606,7 +116621,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="179" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="627" bodyend="645"/>
+        <location file="MRMesh/MRMeshTopology.h" line="182" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="630" bodyend="648"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga19c52a0f233ed29357bf32c280272444" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -116633,7 +116648,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="184" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="187" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4c0c34fc025958084fc870fb352c0f2a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -116664,7 +116679,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="188" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="188" bodyend="188"/>
+        <location file="MRMesh/MRMeshTopology.h" line="191" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="191" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9e543ea41db93b5cb72fa18263e4c563" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE void</type>
@@ -116687,7 +116702,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="189" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="189" bodyend="189"/>
+        <location file="MRMesh/MRMeshTopology.h" line="192" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="192" bodyend="192"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5d8a1cd1cd97ba3156151d3e36503e31" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -116707,7 +116722,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="192" column="12"/>
+        <location file="MRMesh/MRMeshTopology.h" line="195" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga32f0aeb4415b1d5b7e5176ea6051bdc3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Vector&lt; EdgeId, VertId &gt; &amp;</type>
@@ -116722,7 +116737,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="195" column="20" bodyfile="MRMesh/MRMeshTopology.h" bodystart="195" bodyend="195"/>
+        <location file="MRMesh/MRMeshTopology.h" line="198" column="20" bodyfile="MRMesh/MRMeshTopology.h" bodystart="198" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9b3a2bd65395c6f2d0aff6bb16c8a3b6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>EdgeId</type>
@@ -116741,7 +116756,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="198" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="198" bodyend="198"/>
+        <location file="MRMesh/MRMeshTopology.h" line="201" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="201" bodyend="201"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga326f13c710a4c0ebf09201838f65c4e9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -116760,7 +116775,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="201" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="201" bodyend="201"/>
+        <location file="MRMesh/MRMeshTopology.h" line="204" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="204" bodyend="204"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga720c7a299f00a1e717e4bd34ce86591f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -116775,7 +116790,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="204" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="204" bodyend="204"/>
+        <location file="MRMesh/MRMeshTopology.h" line="207" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="207" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafbdc5442d461cd2192267fe49446acfe" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -116790,7 +116805,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="207" column="14"/>
+        <location file="MRMesh/MRMeshTopology.h" line="210" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga087e309d5f0b9a28c106038d206f8d53" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>VertId</type>
@@ -116805,7 +116820,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="210" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="210" bodyend="210"/>
+        <location file="MRMesh/MRMeshTopology.h" line="213" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="213" bodyend="213"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga36c8997b06c1293a066fb50ea8b2d712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -116824,7 +116839,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="213" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="216" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga676ee0e9bb8167837e4106baff616102" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -116843,7 +116858,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="216" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="219" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac9a39211dd0a82528351dee2fe575817" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -116862,7 +116877,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="219" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="219" bodyend="219"/>
+        <location file="MRMesh/MRMeshTopology.h" line="222" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="222" bodyend="222"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2b16ab4e052fe4ad4ff4a7dd1ac4c01f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -116877,7 +116892,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="222" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="222" bodyend="222"/>
+        <location file="MRMesh/MRMeshTopology.h" line="225" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="225" bodyend="225"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafe0c8f123fa4b9130eb2d7e3a3632341" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -116892,7 +116907,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="225" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="225" bodyend="225"/>
+        <location file="MRMesh/MRMeshTopology.h" line="228" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="228" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae63ac568ee78898e47a22b30ec475e26" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const VertBitSet &amp;</type>
@@ -116907,7 +116922,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="228" column="24" bodyfile="MRMesh/MRMeshTopology.h" bodystart="228" bodyend="228"/>
+        <location file="MRMesh/MRMeshTopology.h" line="231" column="24" bodyfile="MRMesh/MRMeshTopology.h" bodystart="231" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacb037b0d20b8897728886d4405e62252" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -116926,7 +116941,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="231" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="231" bodyend="231"/>
+        <location file="MRMesh/MRMeshTopology.h" line="234" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="234" bodyend="234"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadd09a87837da71bfad4fc61ebcf887bd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const VertBitSet &amp;</type>
@@ -116947,7 +116962,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
 <para>region shall be either given on input or maintained in validVerts_</para>
 <para>if region is given and all valid vertices are known, then region must be a subset of them</para>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="234" column="24" bodyfile="MRMesh/MRMeshTopology.h" bodystart="234" bodyend="239"/>
+        <location file="MRMesh/MRMeshTopology.h" line="237" column="24" bodyfile="MRMesh/MRMeshTopology.h" bodystart="237" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadf1bd2c727b615b99908a7a3d4464bee" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Vector&lt; EdgeId, FaceId &gt; &amp;</type>
@@ -116962,7 +116977,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="243" column="20" bodyfile="MRMesh/MRMeshTopology.h" bodystart="243" bodyend="243"/>
+        <location file="MRMesh/MRMeshTopology.h" line="246" column="20" bodyfile="MRMesh/MRMeshTopology.h" bodystart="246" bodyend="246"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga75ce403909333e95eca530fcf3d62e2b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>EdgeId</type>
@@ -116981,7 +116996,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="246" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="246" bodyend="246"/>
+        <location file="MRMesh/MRMeshTopology.h" line="249" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="249" bodyend="249"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga574527159466523496e62ae160aa9d02" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -117000,7 +117015,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="249" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="249" bodyend="249"/>
+        <location file="MRMesh/MRMeshTopology.h" line="252" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="252" bodyend="252"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga29b34faf2ba0537e3f387e98377672ed" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -117023,7 +117038,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="252" column="14"/>
+        <location file="MRMesh/MRMeshTopology.h" line="255" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0e046e8e30818aee49f8bfa51ee4d3c7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -117046,7 +117061,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="255" column="14"/>
+        <location file="MRMesh/MRMeshTopology.h" line="258" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga306dae1a3d463053f6faa9a15edc4271" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -117069,7 +117084,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="258" column="14"/>
+        <location file="MRMesh/MRMeshTopology.h" line="261" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac7fa8aef5fd08168242b15c80c3a4877" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FaceId</type>
@@ -117092,7 +117107,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="261" column="14"/>
+        <location file="MRMesh/MRMeshTopology.h" line="264" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga94378f70606fda1a41eb0605de0c8cbe" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -117107,7 +117122,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="264" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="264" bodyend="264"/>
+        <location file="MRMesh/MRMeshTopology.h" line="267" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="267" bodyend="267"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6607b0ee7aec746e66385db6da3a2f48" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FaceId</type>
@@ -117122,7 +117137,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="267" column="14"/>
+        <location file="MRMesh/MRMeshTopology.h" line="270" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab2810fe9c6b38f4a0926069ab58120ea" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>FaceId</type>
@@ -117137,7 +117152,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="270" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="270" bodyend="270"/>
+        <location file="MRMesh/MRMeshTopology.h" line="273" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="273" bodyend="273"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9cec8fcb3700270debd8b9cdc9fa6cf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -117171,7 +117186,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="273" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="276" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga381fd334af76605898ec97a371babf04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VacantElements</type>
@@ -117213,7 +117228,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="280" column="21"/>
+        <location file="MRMesh/MRMeshTopology.h" line="283" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2a22972e251180aa6466d2ea6c6f6b80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -117232,7 +117247,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="283" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="286" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4d6063b2fb524b629fed580f2c958273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -117251,7 +117266,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="286" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="289" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga26bf81ee58d7f26387953a726a08f0a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -117270,7 +117285,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="289" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="289" bodyend="289"/>
+        <location file="MRMesh/MRMeshTopology.h" line="292" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="292" bodyend="292"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9caed84ef0fe1c701ce090f00d05593a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -117285,7 +117300,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="292" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="292" bodyend="292"/>
+        <location file="MRMesh/MRMeshTopology.h" line="295" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="295" bodyend="295"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga061c9ff212341377b260f4fc4881f378" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -117300,7 +117315,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="295" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="295" bodyend="295"/>
+        <location file="MRMesh/MRMeshTopology.h" line="298" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="298" bodyend="298"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf4e844ba63490bc5f09757e2a4f35319" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const FaceBitSet &amp;</type>
@@ -117315,7 +117330,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="298" column="24" bodyfile="MRMesh/MRMeshTopology.h" bodystart="298" bodyend="298"/>
+        <location file="MRMesh/MRMeshTopology.h" line="301" column="24" bodyfile="MRMesh/MRMeshTopology.h" bodystart="301" bodyend="301"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae796d1297cfc530ad544c5ced51b82fd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -117334,7 +117349,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="301" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="301" bodyend="301"/>
+        <location file="MRMesh/MRMeshTopology.h" line="304" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="304" bodyend="304"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafacf72825c9fa6fc3c32c4206677608e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const FaceBitSet &amp;</type>
@@ -117355,7 +117370,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
 <para>region shall be either given on input or maintained in validFaces_</para>
 <para>if region is given and all valid faces are known, then region must be a subset of them</para>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="304" column="24" bodyfile="MRMesh/MRMeshTopology.h" bodystart="304" bodyend="309"/>
+        <location file="MRMesh/MRMeshTopology.h" line="307" column="24" bodyfile="MRMesh/MRMeshTopology.h" bodystart="307" bodyend="312"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab17a6201011f8c4ba2d73fa64f8e52cb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -117379,7 +117394,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="313" column="14"/>
+        <location file="MRMesh/MRMeshTopology.h" line="316" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga67dccfa00720049db09ad580b927ffe3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -117403,7 +117418,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="317" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="317" bodyend="317"/>
+        <location file="MRMesh/MRMeshTopology.h" line="320" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="320" bodyend="320"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3cfb908a7643dfeeab18f913e86977ad" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>EdgeId</type>
@@ -117427,7 +117442,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="321" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="321" bodyend="321"/>
+        <location file="MRMesh/MRMeshTopology.h" line="324" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="324" bodyend="324"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6ea5ad3e9385a5a3a4e1f0770395cfc9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -117451,7 +117466,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="324" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="324" bodyend="324"/>
+        <location file="MRMesh/MRMeshTopology.h" line="327" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="327" bodyend="327"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga41cc672a3117204f595648b8c3e5f14f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -117471,7 +117486,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="327" column="18"/>
+        <location file="MRMesh/MRMeshTopology.h" line="330" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga26fb1755e53d61c7a438428f27b95f78" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -117495,7 +117510,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="331" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="331" bodyend="331"/>
+        <location file="MRMesh/MRMeshTopology.h" line="334" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="334" bodyend="334"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9149621788f57af5be92126cf7e5f24e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -117519,7 +117534,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="334" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="334" bodyend="334"/>
+        <location file="MRMesh/MRMeshTopology.h" line="337" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="337" bodyend="337"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3153a23344cee0bb2abae5328361f9e9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -117543,7 +117558,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="341" column="12"/>
+        <location file="MRMesh/MRMeshTopology.h" line="344" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf33b53d0bb5c12cc483fe7d8cce466f3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeBitSet</type>
@@ -117568,7 +117583,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="344" column="18"/>
+        <location file="MRMesh/MRMeshTopology.h" line="347" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5a51c0849bae463dcf914103a8f39ecd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -117592,7 +117607,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="348" column="14"/>
+        <location file="MRMesh/MRMeshTopology.h" line="351" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae4619557230f1c2141ac2e06274d3ba3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -117616,7 +117631,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="351" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="351" bodyend="351"/>
+        <location file="MRMesh/MRMeshTopology.h" line="354" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="354" bodyend="354"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3074ca02ebcce08012144224818cf970" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>EdgeId</type>
@@ -117640,7 +117655,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="355" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="355" bodyend="355"/>
+        <location file="MRMesh/MRMeshTopology.h" line="358" column="13" bodyfile="MRMesh/MRMeshTopology.h" bodystart="358" bodyend="358"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae366073a1bcb50b567a89f69a755913d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -117664,7 +117679,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="358" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="358" bodyend="358"/>
+        <location file="MRMesh/MRMeshTopology.h" line="361" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="361" bodyend="361"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga75bce1af74359d763751a9d8b41ac1f9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -117689,7 +117704,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="361" column="18"/>
+        <location file="MRMesh/MRMeshTopology.h" line="364" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga416c0b58a04f7a11b1ccd64fb480a6b4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -117713,7 +117728,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="364" column="12"/>
+        <location file="MRMesh/MRMeshTopology.h" line="367" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga71f39944d4eea5bdb00d37da53ae1882" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -117737,7 +117752,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="367" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="367" bodyend="367"/>
+        <location file="MRMesh/MRMeshTopology.h" line="370" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="370" bodyend="370"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga68d4b2d56fbb76bfc31e2d8a2672fc1c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -117761,7 +117776,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="370" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="370" bodyend="370"/>
+        <location file="MRMesh/MRMeshTopology.h" line="373" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="373" bodyend="373"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2f2136ea7f300f8a7a02cc34b58ca035" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -117799,7 +117814,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="374" column="14"/>
+        <location file="MRMesh/MRMeshTopology.h" line="377" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab4c4f7414e097980b6b0624fa7f0b5d9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -117837,7 +117852,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="378" column="14"/>
+        <location file="MRMesh/MRMeshTopology.h" line="381" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8deb18a92f928471c361121712f0b12a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -117860,7 +117875,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="382" column="14"/>
+        <location file="MRMesh/MRMeshTopology.h" line="385" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6bbe48d83ce18bfe5e56ec10d35c4638" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -117880,7 +117895,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="385" column="12"/>
+        <location file="MRMesh/MRMeshTopology.h" line="388" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3262bb44df785f646fa7a39b244388a8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeId &gt;</type>
@@ -117900,7 +117915,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="389" column="19"/>
+        <location file="MRMesh/MRMeshTopology.h" line="392" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa0a6937d0383d9132f7c4cb8aba4aa03" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -117929,7 +117944,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="393" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="396" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga711ccb0a051ca5c5c92d009eaeeee9a6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeLoop</type>
@@ -117948,7 +117963,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="396" column="16"/>
+        <location file="MRMesh/MRMeshTopology.h" line="399" column="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4b349540d13a045d0c10bb3c40c8f3bd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeLoop &gt;</type>
@@ -117967,7 +117982,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="400" column="19"/>
+        <location file="MRMesh/MRMeshTopology.h" line="403" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga98bac3d23ea0b468e299492ca1ada8ce" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE EdgeBitSet</type>
@@ -117982,7 +117997,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="403" column="34"/>
+        <location file="MRMesh/MRMeshTopology.h" line="406" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4ab0a983f4568892816dc828c4a0dbcf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE FaceBitSet</type>
@@ -118011,7 +118026,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="407" column="34"/>
+        <location file="MRMesh/MRMeshTopology.h" line="410" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1f3a9410f0124b5b1291194820433fb1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE VertBitSet</type>
@@ -118040,7 +118055,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="411" column="34"/>
+        <location file="MRMesh/MRMeshTopology.h" line="414" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab1169e94322f27842649f17de624db02" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -118059,7 +118074,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="415" column="18"/>
+        <location file="MRMesh/MRMeshTopology.h" line="418" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab273acab1025da6cc45beb4d4f1cf338" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -118078,7 +118093,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="418" column="18"/>
+        <location file="MRMesh/MRMeshTopology.h" line="421" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4320e52da10ab5ff062a760545ec2299" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -118097,7 +118112,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="421" column="18"/>
+        <location file="MRMesh/MRMeshTopology.h" line="424" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0bc82b41466ede631243a7960a4afe14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118116,7 +118131,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="426" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="429" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0204101063d00f8b0784f8488ba43a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -118145,7 +118160,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         <inbodydescription>
 <para>full ring has been inspected</para>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="431" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="648" bodyend="663"/>
+        <location file="MRMesh/MRMeshTopology.h" line="434" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="651" bodyend="666"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7af4e8c6a329931e3b173942b78922e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -118173,7 +118188,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="436" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="436" bodyend="436"/>
+        <location file="MRMesh/MRMeshTopology.h" line="439" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="439" bodyend="439"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga212723bf6e50621443bb5b341cc2ff98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -118202,7 +118217,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         <inbodydescription>
 <para>full ring has been inspected</para>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="441" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="666" bodyend="684"/>
+        <location file="MRMesh/MRMeshTopology.h" line="444" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="669" bodyend="687"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab32e7a532e75f1ace4b5098a79764cab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -118230,7 +118245,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="446" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="446" bodyend="446"/>
+        <location file="MRMesh/MRMeshTopology.h" line="449" column="10" bodyfile="MRMesh/MRMeshTopology.h" bodystart="449" bodyend="449"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0eade1b9b2b74f351beedb2162614ede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -118269,7 +118284,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="456" column="13"/>
+        <location file="MRMesh/MRMeshTopology.h" line="459" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7acd4a20781ea9221efe49b4a24ca803" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -118308,7 +118323,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="461" column="13"/>
+        <location file="MRMesh/MRMeshTopology.h" line="464" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5a84b9039b6fb046ebf4ea974748c4e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118350,7 +118365,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="467" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="470" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab20f149e1bd55d7df88bd59dc8ba2349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118388,7 +118403,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="473" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="476" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3fec886d75afa5eed0ceb5ddb4f6ac1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118428,7 +118443,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="474" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="477" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0bd7bdfdfbaae3bfe856cd1437097885" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118470,7 +118485,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="480" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="483" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2f77a84665c06d64b7bdda11f7c7d624" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE void</type>
@@ -118503,7 +118518,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="483" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="483" bodyend="484"/>
+        <location file="MRMesh/MRMeshTopology.h" line="486" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="486" bodyend="487"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7bbda199205f3f2040094ed56f5e1805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -118586,7 +118601,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="493" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="496" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3fe4136c1642a8e761ebeb82c82ce632" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE bool</type>
@@ -118634,7 +118649,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="498" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="498" bodyend="500"/>
+        <location file="MRMesh/MRMeshTopology.h" line="501" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="501" bodyend="503"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6e36bbc83e30c437d92e8d9253ae2a59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118649,7 +118664,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="503" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="506" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab1293a17064e703cfa337e675d61d8b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118703,7 +118718,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="509" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="512" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae238666eb2f609cc8a9b422099f3e918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118722,7 +118737,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="513" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="516" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga209f41dfcfd5540a55a1e01f31fb65b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118741,7 +118756,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="518" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="521" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga81f80fe1150711ff7445416be04b9133" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118760,7 +118775,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="522" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="525" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae53000ef54becc9aaca40915c254c24f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -118786,7 +118801,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="526" column="15"/>
+        <location file="MRMesh/MRMeshTopology.h" line="529" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadaf57d8b41c5f38c2bf17310ac1d8b78" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -118805,7 +118820,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="529" column="12"/>
+        <location file="MRMesh/MRMeshTopology.h" line="532" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga365a012f4cca05d6ad5abd4570b993cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118833,7 +118848,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="534" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="537" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9240c1848633d691fdbb0e5869910043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118882,7 +118897,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="539" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="542" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2125e27e8dfe29a6b457ec6ed685539c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -118902,7 +118917,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="546" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="549" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac675cc2e5656941060f7db9be54b92a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118917,7 +118932,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="549" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="552" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga45129b46fde8337018f14ecc690ddb81" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -118932,7 +118947,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="552" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="552" bodyend="552"/>
+        <location file="MRMesh/MRMeshTopology.h" line="555" column="11" bodyfile="MRMesh/MRMeshTopology.h" bodystart="555" bodyend="555"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabf2f3abf6b3d6899c61b6d9821d30a0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -118951,7 +118966,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="556" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="559" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabc042ad8f2696ac5c81db13024c97742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -118975,7 +118990,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="559" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="562" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad79858d7c4554bedc2efe05daec7f1b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -119000,7 +119015,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="563" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="566" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5fc8c691836a8645942e3336a365c6f5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -119016,7 +119031,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="570" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="573" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaaf2a238d7e0a5113cd84ddddc5a5ae9d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -119039,7 +119054,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="574" column="10"/>
+        <location file="MRMesh/MRMeshTopology.h" line="577" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga602a7ac58431dbda18955714d88e2d6e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -119054,7 +119069,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="577" column="10"/>
+        <location file="MRMesh/MRMeshTopology.h" line="580" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacfcbf77c1b54ee239b52eddbeaabb05b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -119077,7 +119092,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="580" column="10"/>
+        <location file="MRMesh/MRMeshTopology.h" line="583" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga195951b853c40bc3f05fae66582d8ab6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -119092,7 +119107,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="583" column="10"/>
+        <location file="MRMesh/MRMeshTopology.h" line="586" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4cce7def49dbe7470ef6d7c0aa86d5ec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -119110,7 +119125,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="593" column="14" bodyfile="MRMesh/MRMeshTopology.h" bodystart="593" bodyend="596"/>
+        <location file="MRMesh/MRMeshTopology.h" line="596" column="14" bodyfile="MRMesh/MRMeshTopology.h" bodystart="596" bodyend="599"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga52461c28c53cb8304e151cdbe8f0f989" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -119124,7 +119139,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="597" column="9"/>
+        <location file="MRMesh/MRMeshTopology.h" line="600" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1d0f48356164a758058b0338d1006522" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -119141,7 +119156,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="598" column="18" bodyfile="MRMesh/MRMeshTopology.h" bodystart="598" bodyend="598"/>
+        <location file="MRMesh/MRMeshTopology.h" line="601" column="18" bodyfile="MRMesh/MRMeshTopology.h" bodystart="601" bodyend="601"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad456367a69dae318e10d8ac8179866c6" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -119183,7 +119198,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="604" column="10"/>
+        <location file="MRMesh/MRMeshTopology.h" line="607" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5e72b7295c70edb21f4af29b7ad808b5" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -119232,7 +119247,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="606" column="10"/>
+        <location file="MRMesh/MRMeshTopology.h" line="609" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaaf3190c056e93a1b63f3643cef77443d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -119263,7 +119278,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="688" column="9" bodyfile="MRMesh/MRMeshTopology.h" bodystart="688" bodyend="702"/>
+        <location file="MRMesh/MRMeshTopology.h" line="691" column="9" bodyfile="MRMesh/MRMeshTopology.h" bodystart="691" bodyend="705"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf1195b4bb18db9e8ca21e92db9139406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -137889,6 +137904,43 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRRegionBoundary.h" line="18" column="33" bodyfile="MRMesh/MRRegionBoundary.h" bodystart="18" bodyend="19"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gad5f48a6c995163ccf86e1368e6d3a72e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::trackLeftBoundaryLoop</definition>
+        <argsstring>(const MeshTopology &amp;topology, EdgeId e0, EdgeLoop &amp;outLoop, const FaceBitSet *region=nullptr, Turn turn=Turn::Rightmost)</argsstring>
+        <name>trackLeftBoundaryLoop</name>
+        <qualifiedname>MR::trackLeftBoundaryLoop</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>EdgeId</type>
+          <declname>e0</declname>
+        </param>
+        <param>
+          <type>EdgeLoop &amp;</type>
+          <declname>outLoop</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>Turn</type>
+          <declname>turn</declname>
+          <defval>Turn::Rightmost</defval>
+        </param>
+        <briefdescription>
+<para>same as above, but writes the loop in <computeroutput>outLoop</computeroutput> (cleared first), so a caller tracking many loops one by one reuses its capacity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRegionBoundary.h" line="21" column="22" declfile="MRMesh/MRRegionBoundary.h" declline="21" declcolumn="22"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7e1b0e5fae67b830aef15f52355a6c40" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeLoop</type>
         <definition>EdgeLoop MR::trackRightBoundaryLoop</definition>
@@ -137920,7 +137972,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="23" column="12" declfile="MRMesh/MRRegionBoundary.h" declline="23" declcolumn="12"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="25" column="12" declfile="MRMesh/MRRegionBoundary.h" declline="25" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9875ea52b09e50db9dbb4481677d22f6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE EdgeLoop</type>
@@ -137952,7 +138004,44 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="25" column="33" bodyfile="MRMesh/MRRegionBoundary.h" bodystart="25" bodyend="26"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="27" column="33" bodyfile="MRMesh/MRRegionBoundary.h" bodystart="27" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga184ea2fa74460ca834372a2cfed0de72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::trackRightBoundaryLoop</definition>
+        <argsstring>(const MeshTopology &amp;topology, EdgeId e0, EdgeLoop &amp;outLoop, const FaceBitSet *region=nullptr, Turn turn=Turn::Rightmost)</argsstring>
+        <name>trackRightBoundaryLoop</name>
+        <qualifiedname>MR::trackRightBoundaryLoop</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>EdgeId</type>
+          <declname>e0</declname>
+        </param>
+        <param>
+          <type>EdgeLoop &amp;</type>
+          <declname>outLoop</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>Turn</type>
+          <declname>turn</declname>
+          <defval>Turn::Rightmost</defval>
+        </param>
+        <briefdescription>
+<para>same as above, but writes the loop in <computeroutput>outLoop</computeroutput> (cleared first), so a caller tracking many loops one by one reuses its capacity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRegionBoundary.h" line="30" column="22" declfile="MRMesh/MRRegionBoundary.h" declline="30" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab7a687178b1a5c17baab0681ea164891" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -137998,7 +138087,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="33" column="9" declfile="MRMesh/MRRegionBoundary.h" declline="33" declcolumn="9"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="37" column="9" declfile="MRMesh/MRRegionBoundary.h" declline="37" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa56b00c588c98e6db3c24cc2ae303cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -138044,7 +138133,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="39" column="9" declfile="MRMesh/MRRegionBoundary.h" declline="39" declcolumn="9"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="43" column="9" declfile="MRMesh/MRRegionBoundary.h" declline="43" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga450d72fb8dad81d37aeffe117b711181" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeLoop &gt;</type>
@@ -138080,7 +138169,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="45" column="15" declfile="MRMesh/MRRegionBoundary.h" declline="45" declcolumn="15"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="49" column="15" declfile="MRMesh/MRRegionBoundary.h" declline="49" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa8a5f1ea687b1c566475d7937b572e59" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgePath &gt;</type>
@@ -138116,7 +138205,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="51" column="15" declfile="MRMesh/MRRegionBoundary.h" declline="51" declcolumn="15"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="55" column="15" declfile="MRMesh/MRRegionBoundary.h" declline="55" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5632a1601c5dbaebc60e64e6255e079c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeLoop &gt;</type>
@@ -138145,7 +138234,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="55" column="15" declfile="MRMesh/MRRegionBoundary.h" declline="55" declcolumn="15"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="59" column="15" declfile="MRMesh/MRRegionBoundary.h" declline="59" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8904bf9f155b4c701884399ce5d8743d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE std::vector&lt; EdgeLoop &gt;</type>
@@ -138173,7 +138262,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="57" column="36" bodyfile="MRMesh/MRRegionBoundary.h" bodystart="57" bodyend="58"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="61" column="36" bodyfile="MRMesh/MRRegionBoundary.h" bodystart="61" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6affc4bcec8b8d37897deadf9bbd70bf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeLoop &gt;</type>
@@ -138202,7 +138291,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="62" column="15" declfile="MRMesh/MRRegionBoundary.h" declline="62" declcolumn="15"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="66" column="15" declfile="MRMesh/MRRegionBoundary.h" declline="66" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6de1045cd1926ec66a2019a99db8ab8a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE std::vector&lt; EdgeLoop &gt;</type>
@@ -138230,7 +138319,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="64" column="36" bodyfile="MRMesh/MRRegionBoundary.h" bodystart="64" bodyend="65"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="68" column="36" bodyfile="MRMesh/MRRegionBoundary.h" bodystart="68" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadd28d98a7af68d535a291b9a77b84a1d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeBitSet</type>
@@ -138267,7 +138356,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="69" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="69" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="73" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="73" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga12fdc014447563e6a694a7f9bae39a7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeLoop &gt;</type>
@@ -138296,7 +138385,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="75" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="75" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="79" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="79" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9a3ca5fbd5ec0dba1668bc17602b04e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE std::vector&lt; EdgeLoop &gt;</type>
@@ -138324,7 +138413,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="77" column="35" bodyfile="MRMesh/MRRegionBoundary.h" bodystart="77" bodyend="78"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="81" column="35" bodyfile="MRMesh/MRRegionBoundary.h" bodystart="81" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga25e4628987fb45fbedf8ebcb4327c4d2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgePath &gt;</type>
@@ -138347,7 +138436,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="82" column="15" declfile="MRMesh/MRRegionBoundary.h" declline="82" declcolumn="15"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="86" column="15" declfile="MRMesh/MRRegionBoundary.h" declline="86" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad3a38eb65db7e1c0b80715ca70e92e5c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -138370,7 +138459,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="85" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="85" declcolumn="24"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="89" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="89" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -138395,7 +138484,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="88" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="88" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="92" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="92" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1bf573dc61dc6ba97a3e8a4bc9028c2e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -138418,7 +138507,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="91" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="91" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="95" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="95" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1c24193ec72b494c106fad689c5c5c32" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const VertBitSet &amp;</type>
@@ -138445,7 +138534,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="95" column="21" declfile="MRMesh/MRRegionBoundary.h" declline="95" declcolumn="21"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="99" column="21" declfile="MRMesh/MRRegionBoundary.h" declline="99" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga933bf23c183f418612370ff8c7a14101" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -138469,7 +138558,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="98" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="98" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="102" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="102" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6f38b74b3e7d5e776f98e2f88bb48006" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE VertBitSet</type>
@@ -138492,7 +138581,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="102" column="29" declfile="MRMesh/MRRegionBoundary.h" declline="102" declcolumn="29"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="106" column="29" declfile="MRMesh/MRRegionBoundary.h" declline="106" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf2cf93d2c7ffbf6ae4821220390574fd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -138516,7 +138605,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="105" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="105" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="109" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="109" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad773688a06cb12794b937fd0e792f79a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -138539,7 +138628,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="109" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="109" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="113" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="113" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad41acdc2d93a9c111ff2a010a7814bdf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -138562,7 +138651,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="112" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="112" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="116" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="116" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaaef79237218e3b6757176a8a9b0ac03d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -138585,7 +138674,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="115" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="115" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="119" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="119" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8e8ba4975b219200687bca5ed2a7ab6a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeBitSet</type>
@@ -138608,7 +138697,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="118" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="118" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="122" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="122" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7c62678a98f7bc518805bd7a677d6674" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -138631,7 +138720,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="121" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="121" declcolumn="24"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="125" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="125" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga36ed48a6aab7607a3983c5492c50e22c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -138654,7 +138743,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="124" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="124" declcolumn="24"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="128" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="128" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4164918654e0538c4a3f1cfd0e4562a3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -138677,7 +138766,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="127" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="127" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="131" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="131" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa793f0cbb7613e733d7350367795da48" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -138700,7 +138789,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="130" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="130" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="134" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="134" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab23fc7120dab6b7ab49bdc965bfdb9f5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -138723,7 +138812,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="133" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="133" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="137" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="137" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga14cc03346c7b6c8e0f2fb75ab7865cd1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -138746,7 +138835,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="136" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="136" declcolumn="24"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="140" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="140" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac1f4537bd1f66f8d1fd1b74dc72b29c8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -138769,7 +138858,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="139" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="139" declcolumn="24"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="143" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="143" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga449e315d715d251f9ea330a4adb206b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const VertBitSet &amp;</type>
@@ -138796,7 +138885,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="143" column="21" declfile="MRMesh/MRRegionBoundary.h" declline="143" declcolumn="21"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="147" column="21" declfile="MRMesh/MRRegionBoundary.h" declline="147" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6552a6e6676abaae7bffe15e1b993c4a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -138819,7 +138908,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="146" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="146" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="150" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="150" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga336c89bb41942449b73eb9fdc6482579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>

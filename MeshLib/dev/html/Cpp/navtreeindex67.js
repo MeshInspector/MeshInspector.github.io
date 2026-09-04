@@ -1,5 +1,8 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1Polyline.html#ab3de745fc249ab0b56e00796cf740f97":[8,0,0,14,0,17],
+"structMR_1_1Polyline.html#ab5049b91b498ff6a3932bb2ee20cf2bf":[8,0,0,14,0,3],
+"structMR_1_1Polyline.html#ab5969e3da3e8deb772958e4855dc5b9c":[8,0,0,14,0,22],
 "structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f":[8,0,0,14,0,21],
 "structMR_1_1Polyline.html#abaaaf2e622a7df2fb5ef5492721109be":[8,0,0,14,0,13],
 "structMR_1_1Polyline.html#abe0cb6a927b49d813ccebab2cc70d7a7":[8,0,0,14,0,25],
@@ -246,8 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476":[8,0,0,9,7,0,5],
 "structMR_1_1SubdivideSettings.html#ae48504fe6f54fb67dee57969d77efc43":[8,0,0,9,7,0,2],
 "structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[8,0,0,9,7,0,11],
-"structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[8,0,0,9,7,0,13],
-"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[8,0,0,9,7,0,7],
-"structMR_1_1SurfaceManipulationWidget_1_1PickedVertData.html":[8,0,0,20,744],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[8,0,0,20,743]
+"structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[8,0,0,9,7,0,13]
 };

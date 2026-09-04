@@ -13,6 +13,7 @@ var classMR_1_1MeshTopology =
     [ "addVertId", "classMR_1_1MeshTopology.html#aa909a6bd7c873592dc14277eac2df1d6", null ],
     [ "assign", "classMR_1_1MeshTopology.html#a349c518750c2bda3d9dba761d2c87971", null ],
     [ "buildGridMesh", "classMR_1_1MeshTopology.html#afd15a9b543e4fd00dd0b86f60aa9116b", null ],
+    [ "clear", "classMR_1_1MeshTopology.html#aa78f8327f4f9f6923be05049270ac1ae", null ],
     [ "collapseEdge", "classMR_1_1MeshTopology.html#a0b5a8aa5f854f307af97aafe7cb3ab69", null ],
     [ "computeValidsFromEdges", "classMR_1_1MeshTopology.html#a5f8cc5b0e1d78c1a58fcbe9bb62ce559", null ],
     [ "deleteFace", "classMR_1_1MeshTopology.html#a02ab985393952c324537391d3a95b34b", null ],

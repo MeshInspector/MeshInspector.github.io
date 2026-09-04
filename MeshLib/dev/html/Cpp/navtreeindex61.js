@@ -1,5 +1,8 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1BindVertexAttribArraySettings.html":[8,0,0,20,651],
+"structMR_1_1BooleanInternalParameters.html":[8,0,0,8,1],
+"structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[8,0,0,8,1,2],
 "structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[8,0,0,8,1,1],
 "structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5":[8,0,0,8,1,3],
 "structMR_1_1BooleanInternalParameters.html#ac286ffae84a7480b081c9bb06413cb79":[8,0,0,8,1,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[8,0,0,16,4,0,6],
 "structMR_1_1DihedralAngleProcessParams.html":[8,0,0,20,198],
 "structMR_1_1Dipole.html":[8,0,0,20,188],
-"structMR_1_1DirectionWidget_1_1Arrow.html":[8,0,0,20,583],
-"structMR_1_1Directory.html":[8,0,0,20,190],
-"structMR_1_1DirectoryIterator.html":[8,0,0,20,189],
-"structMR_1_1DirectoryRecursive.html":[8,0,0,20,192]
+"structMR_1_1DirectionWidget_1_1Arrow.html":[8,0,0,20,583]
 };
