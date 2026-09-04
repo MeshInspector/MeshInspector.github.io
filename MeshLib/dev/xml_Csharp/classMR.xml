@@ -31426,13 +31426,13 @@ do not really keeps volume but tries hard </para>
           <declname>pos</declname>
         </param>
         <briefdescription>
-<para>Converts <ref refid="classMR_1_1PointOnObject" kindref="compound">PointOnObject</ref> coordinates depending on the object type to the PickedPoint variant; returns std::monostate if the pick does not address an existing element of the object Generated from function <computeroutput><ref refid="classMR_1a2729da10d059b5a37f412a5f5815b0d2" kindref="member">MR.pointOnObjectToPickedPoint</ref></computeroutput>. </para>
+<para>Converts <ref refid="classMR_1_1PointOnObject" kindref="compound">PointOnObject</ref> coordinates depending on the object type to the PickedPoint variant Generated from function <computeroutput><ref refid="classMR_1a2729da10d059b5a37f412a5f5815b0d2" kindref="member">MR.pointOnObjectToPickedPoint</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="217" column="88" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="217" bodyend="222"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="216" column="88" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="216" bodyend="221"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a54e825177825c441bc55c686b1161fd0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRVector3f</type>
@@ -31455,7 +31455,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="229" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="229" bodyend="234"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="228" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="228" bodyend="233"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad8baa1c1c560be78df3cd763db8d62cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRVector3f</type>
@@ -31493,7 +31493,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="243" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="243" bodyend="249"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="242" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="242" bodyend="248"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7fe7ddbf8363ea74405f8070c088308f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>

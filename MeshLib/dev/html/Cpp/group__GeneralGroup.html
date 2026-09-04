@@ -6984,6 +6984,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gae6ddf1f922426da0befb0c18020f6682" id="r_gae6ddf1f922426da0befb0c18020f6682"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae6ddf1f922426da0befb0c18020f6682">MR::PointOnObject::PointOnObject</a> ()</td></tr>
 <tr class="memitem:ga2e7dcb184c3434e435a3b5cf16b66101" id="r_ga2e7dcb184c3434e435a3b5cf16b66101"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2e7dcb184c3434e435a3b5cf16b66101">MR::PointOnObject::operator PointOnFace</a> () const</td></tr>
 <tr class="memitem:ga682733ab4117db6c9d32200fd2fbf837" id="r_ga682733ab4117db6c9d32200fd2fbf837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga682733ab4117db6c9d32200fd2fbf837">MR::pointOnObjectToPickedPoint</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *object, const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;pos)</td></tr>
+<tr class="memdesc:ga682733ab4117db6c9d32200fd2fbf837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> coordinates depending on the object type to the <a class="el" href="#ga3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> variant.  <br /></td></tr>
 <tr class="memitem:ga061be58a0c33284aabdda040949d2da1" id="r_ga061be58a0c33284aabdda040949d2da1"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga061be58a0c33284aabdda040949d2da1">MR::getPickedPointPosition</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;object, const <a class="el" href="#ga3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> &amp;point)</td></tr>
 <tr class="memitem:gabbd442442a2de3378064efed4ae28f84" id="r_gabbd442442a2de3378064efed4ae28f84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabbd442442a2de3378064efed4ae28f84">MR::pickedPointToVector3</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *object, const <a class="el" href="#ga3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> &amp;point)</td></tr>
 <tr class="memdesc:gabbd442442a2de3378064efed4ae28f84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts pickedPoint into local coordinates of its object.  <br /></td></tr>
@@ -144342,7 +144343,8 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRPointOnObject_8h.html">MRMesh/MRPointOnObject.h</a>&gt;</code></p>
-<p>Converts <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> coordinates depending on the object type to the <a class="el" href="#ga3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> variant; returns std::monostate if the pick does not address an existing element of the object </p>
+
+<p>Converts <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> coordinates depending on the object type to the <a class="el" href="#ga3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> variant. </p>
 
 </div>
 </div>
