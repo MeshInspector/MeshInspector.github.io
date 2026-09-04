@@ -210,6 +210,7 @@ var annotated_dup =
       [ "DecimateResult", "classmrmeshpy_1_1DecimateResult.html", "classmrmeshpy_1_1DecimateResult" ],
       [ "DecimateSettings", "classmrmeshpy_1_1DecimateSettings.html", "classmrmeshpy_1_1DecimateSettings" ],
       [ "DecimateStrategy", "classmrmeshpy_1_1DecimateStrategy.html", "classmrmeshpy_1_1DecimateStrategy" ],
+      [ "DeloneFlipsCache", "classmrmeshpy_1_1DeloneFlipsCache.html", "classmrmeshpy_1_1DeloneFlipsCache" ],
       [ "DeloneSettings", "classmrmeshpy_1_1DeloneSettings.html", "classmrmeshpy_1_1DeloneSettings" ],
       [ "DenoiseViaNormalsSettings", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html", "classmrmeshpy_1_1DenoiseViaNormalsSettings" ],
       [ "DenseBox", "classmrmeshpy_1_1DenseBox.html", "classmrmeshpy_1_1DenseBox" ],

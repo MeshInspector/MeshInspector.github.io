@@ -216,6 +216,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.DecimateResult", "classmrmeshpy_1_1DecimateResult.html", "classmrmeshpy_1_1DecimateResult" ],
     [ "mrmeshpy.DecimateSettings", "classmrmeshpy_1_1DecimateSettings.html", "classmrmeshpy_1_1DecimateSettings" ],
     [ "mrmeshpy.DecimateStrategy", "classmrmeshpy_1_1DecimateStrategy.html", "classmrmeshpy_1_1DecimateStrategy" ],
+    [ "mrmeshpy.DeloneFlipsCache", "classmrmeshpy_1_1DeloneFlipsCache.html", "classmrmeshpy_1_1DeloneFlipsCache" ],
     [ "mrmeshpy.DeloneSettings", "classmrmeshpy_1_1DeloneSettings.html", "classmrmeshpy_1_1DeloneSettings" ],
     [ "mrmeshpy.DenoiseViaNormalsSettings", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html", "classmrmeshpy_1_1DenoiseViaNormalsSettings" ],
     [ "mrmeshpy.DenseBox", "classmrmeshpy_1_1DenseBox.html", "classmrmeshpy_1_1DenseBox" ],

@@ -7980,6 +7980,22 @@
     <member refid="classMR_1_1Const__DecimateSettings_1a48e44a4f36b05fae04b9dca3275a3f2b" kind="function"><name>~Const_DecimateSettings</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a963114c1aa5a10572ef7da09a6c1488f" kind="function"><name>Const_DecimateSettings</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__DeloneFlipsCache" kind="class"><name>MR::Const_DeloneFlipsCache</name>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1a07aa4d1a97ab5f27379c5c15362d40f5" kind="property"><name>flipCandidates</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1a5db43626660a8c14b6b4d0b29960f444" kind="property"><name>nextFlipCandidates</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1a281cb75263f90326916e1cff4b1d59cf" kind="property"><name>queuedEdges</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1a124c78729a66b3d173916f15dbe3564d" kind="property"><name>roundEdges</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1a3ab498102e8dd19f96f2fed7037c85e9" kind="property"><name>nextRoundEdges</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1a847d71241fc81b4c9b7918893c123eee" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1a3464814bb636e335550f9f2d7ca85c32" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1a7114bca331cf9d9a9a1a20c48f96c4e5" kind="function"><name>Const_DeloneFlipsCache</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1a1a0a69536bf475ca1371fb06ba10d83f" kind="function"><name>Const_DeloneFlipsCache</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1a3d33f84f7b46e251e8fdcfeb6fe8d82a" kind="function"><name>Const_DeloneFlipsCache</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1a18f9ec49aca582ddde63ff5f93392315" kind="function"><name>Const_DeloneFlipsCache</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1abe6e447bbaf2dba84f4c0f91488d9e47" kind="function"><name>Const_DeloneFlipsCache</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1afe1ad2d84bba92a578333471fd3cbb75" kind="function"><name>~Const_DeloneFlipsCache</name></member>
+    <member refid="classMR_1_1Const__DeloneFlipsCache_1a9930152f3fbe94e99b2ac92dee58806c" kind="function"><name>Const_DeloneFlipsCache</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__DeloneSettings" kind="class"><name>MR::Const_DeloneSettings</name>
     <member refid="classMR_1_1Const__DeloneSettings_1a34c7d8ea1740d3aa29505ced049b0937" kind="property"><name>maxDeviationAfterFlip</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1a7a8c6f85c0a0df9b21ee9494519fb738" kind="property"><name>maxAngleChange</name></member>
@@ -7987,16 +8003,18 @@
     <member refid="classMR_1_1Const__DeloneSettings_1a80148e90901c3dc48f052fd07d2b80ba" kind="property"><name>region</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1a5613e2e85dfc38a7fd4cc433a4e4d362" kind="property"><name>notFlippable</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1ae30fec3df38f7a5f0618453c56c9bbaf" kind="property"><name>vertRegion</name></member>
+    <member refid="classMR_1_1Const__DeloneSettings_1a4736fe84eea5f11259315f66f471bbbf" kind="property"><name>cache</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1adf2e90024a808dc38a816bff8869ca5a" kind="variable"><name>__ref_storage_maxDeviationAfterFlip</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1a7416647685e6747fd417c2b04a200812" kind="variable"><name>__ref_storage_maxAngleChange</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1a653aa2ab88804ce720c847a7f8904929" kind="variable"><name>__ref_storage_criticalTriAspectRatio</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1a58366aaf825fe4b3b9dd2b70f1f0a412" kind="variable"><name>__ptr_storage_region</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1a9a9bfc6427b757241418d037289d2891" kind="variable"><name>__ptr_storage_notFlippable</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1aa8c739906eb3e1ca63812be81a9b6564" kind="variable"><name>__ptr_storage_vertRegion</name></member>
+    <member refid="classMR_1_1Const__DeloneSettings_1a818e8a5adcafddcdb8f0be98d5ec05ae" kind="variable"><name>__ptr_storage_cache</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1a08599f04cabd8265005d20f7b38822dd" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1ad2be551d8ab8baf3b31cf61535801012" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1acb92d26ed740f19aa94c8ec47d8bc918" kind="function"><name>Const_DeloneSettings</name></member>
-    <member refid="classMR_1_1Const__DeloneSettings_1a4a10c9adbebde007efb2e8146b2eb71d" kind="function"><name>Const_DeloneSettings</name></member>
+    <member refid="classMR_1_1Const__DeloneSettings_1a962f8c4af1c836db283b52d962a3a816" kind="function"><name>Const_DeloneSettings</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1ac5c00dcd641a9e88a06616e634706f3a" kind="function"><name>Const_DeloneSettings</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1a5b4dd78bedc07d3d51d94842b8f97675" kind="function"><name>Const_DeloneSettings</name></member>
     <member refid="classMR_1_1Const__DeloneSettings_1abb7243bec5c0e73202bf805d8d6c37ea" kind="function"><name>~Const_DeloneSettings</name></member>
@@ -27355,6 +27373,20 @@
     <member refid="classMR_1_1DecimateSettings_1a07505c08c620c736e4f5041c08418e2d" kind="function"><name>DecimateSettings</name></member>
     <member refid="classMR_1_1DecimateSettings_1a41a5f86701c05809d1d01a45254b2185" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1DeloneFlipsCache" kind="class"><name>MR::DeloneFlipsCache</name>
+    <member refid="classMR_1_1DeloneFlipsCache_1a649146d0cfa047d5e9e1ea180d3bf919" kind="property"><name>flipCandidates</name></member>
+    <member refid="classMR_1_1DeloneFlipsCache_1a8e3c5222bfe74e86696ae75959683678" kind="property"><name>nextFlipCandidates</name></member>
+    <member refid="classMR_1_1DeloneFlipsCache_1a749d3418bcaf109c090d9579e83e4e76" kind="property"><name>queuedEdges</name></member>
+    <member refid="classMR_1_1DeloneFlipsCache_1a8aff3b8be6a5c9984b452b18b12dfe63" kind="property"><name>roundEdges</name></member>
+    <member refid="classMR_1_1DeloneFlipsCache_1a59a371e41b112c5a4a85cf9fa96e778b" kind="property"><name>nextRoundEdges</name></member>
+    <member refid="classMR_1_1DeloneFlipsCache_1a64aa7354c573ced543c20a96abcf83e0" kind="function"><name>DeloneFlipsCache</name></member>
+    <member refid="classMR_1_1DeloneFlipsCache_1aee1c0fdf47f2031b53a5c9ddd01d4f44" kind="function"><name>DeloneFlipsCache</name></member>
+    <member refid="classMR_1_1DeloneFlipsCache_1a992fac8fa42d2f9e7be147e0f1c0216d" kind="function"><name>DeloneFlipsCache</name></member>
+    <member refid="classMR_1_1DeloneFlipsCache_1a255fcb0c5064e1817c45c05ae4e3cac0" kind="function"><name>DeloneFlipsCache</name></member>
+    <member refid="classMR_1_1DeloneFlipsCache_1a1500cf03a2e1fb45aa682afb24b077ba" kind="function"><name>DeloneFlipsCache</name></member>
+    <member refid="classMR_1_1DeloneFlipsCache_1a1efacb944b7dcd432dccd1e62d6eeef1" kind="function"><name>DeloneFlipsCache</name></member>
+    <member refid="classMR_1_1DeloneFlipsCache_1ae7d60fcb65f3a10e6b4c6522e9a4d938" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1DeloneSettings" kind="class"><name>MR::DeloneSettings</name>
     <member refid="classMR_1_1DeloneSettings_1adb69bac74bb385015b463084b5c3bcbd" kind="property"><name>maxDeviationAfterFlip</name></member>
     <member refid="classMR_1_1DeloneSettings_1ae4f3c99af90bd740d245f2fedee68fd5" kind="property"><name>maxAngleChange</name></member>
@@ -27362,9 +27394,10 @@
     <member refid="classMR_1_1DeloneSettings_1a08b2035a40c6d51db419b28ea11756b2" kind="property"><name>region</name></member>
     <member refid="classMR_1_1DeloneSettings_1a611fe9f326c99b1bf4f6c2fce16a5a98" kind="property"><name>notFlippable</name></member>
     <member refid="classMR_1_1DeloneSettings_1a4f0b04d0586bb31b8526ff1d07293e16" kind="property"><name>vertRegion</name></member>
+    <member refid="classMR_1_1DeloneSettings_1a1ae586c6419aa4ab3612f72fd75054c1" kind="property"><name>cache</name></member>
     <member refid="classMR_1_1DeloneSettings_1ac13ac99917cbce45a815e79d7a1f9100" kind="function"><name>DeloneSettings</name></member>
     <member refid="classMR_1_1DeloneSettings_1aff233148205194709d50b37f4722aa19" kind="function"><name>DeloneSettings</name></member>
-    <member refid="classMR_1_1DeloneSettings_1a0513d524a457fa113f2c55b8b858f7df" kind="function"><name>DeloneSettings</name></member>
+    <member refid="classMR_1_1DeloneSettings_1af323484166ee92091eaf6a6fea8d735b" kind="function"><name>DeloneSettings</name></member>
     <member refid="classMR_1_1DeloneSettings_1af16cdb23fce67a0a260b39ebae85f8ca" kind="function"><name>DeloneSettings</name></member>
     <member refid="classMR_1_1DeloneSettings_1a1bf7856a12c25cc5216742445d65ccc6" kind="function"><name>DeloneSettings</name></member>
     <member refid="classMR_1_1DeloneSettings_1af38fc3d1b54200d822b175bdb4c99ceb" kind="function"><name>assign</name></member>

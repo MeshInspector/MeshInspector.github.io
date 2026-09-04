@@ -388,6 +388,7 @@
     <innerclass refid="classMR_1_1Const__DecimatePolylineSettings__MRVector3f" prot="public">MR::Const_DecimatePolylineSettings_MRVector3f</innerclass>
     <innerclass refid="classMR_1_1Const__DecimateResult" prot="public">MR::Const_DecimateResult</innerclass>
     <innerclass refid="classMR_1_1Const__DecimateSettings" prot="public">MR::Const_DecimateSettings</innerclass>
+    <innerclass refid="classMR_1_1Const__DeloneFlipsCache" prot="public">MR::Const_DeloneFlipsCache</innerclass>
     <innerclass refid="classMR_1_1Const__DeloneSettings" prot="public">MR::Const_DeloneSettings</innerclass>
     <innerclass refid="classMR_1_1Const__DenoiseViaNormalsSettings" prot="public">MR::Const_DenoiseViaNormalsSettings</innerclass>
     <innerclass refid="classMR_1_1Const__DenseBox" prot="public">MR::Const_DenseBox</innerclass>
@@ -1121,6 +1122,7 @@
     <innerclass refid="classMR_1_1DecimatePolylineSettings__MRVector3f" prot="public">MR::DecimatePolylineSettings_MRVector3f</innerclass>
     <innerclass refid="classMR_1_1DecimateResult" prot="public">MR::DecimateResult</innerclass>
     <innerclass refid="classMR_1_1DecimateSettings" prot="public">MR::DecimateSettings</innerclass>
+    <innerclass refid="classMR_1_1DeloneFlipsCache" prot="public">MR::DeloneFlipsCache</innerclass>
     <innerclass refid="classMR_1_1DeloneSettings" prot="public">MR::DeloneSettings</innerclass>
     <innerclass refid="classMR_1_1DenoiseViaNormalsSettings" prot="public">MR::DenoiseViaNormalsSettings</innerclass>
     <innerclass refid="classMR_1_1DenseBox" prot="public">MR::DenseBox</innerclass>
@@ -3185,7 +3187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="358" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="359" bodyend="372"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="744" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="745" bodyend="758"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1ae4a363c7703389ade0f30371b85db9b7" prot="public" static="no" strong="yes">
         <type>byte</type>
@@ -19611,7 +19613,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="704" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="704" bodyend="722"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="1090" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="1090" bodyend="1108"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aece9c9a98674f0ae35c52ff8e9a07c5c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -19647,7 +19649,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="729" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="729" bodyend="747"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="1115" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="1115" bodyend="1133"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a035350981c49fa45e2ec296b1d766c09" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1aa3ebc28a0c17a0a5fc0c9b90a97bfc95" kindref="member">MR.FlipEdge</ref></type>
@@ -19685,7 +19687,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="753" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="753" bodyend="758"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="1139" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="1139" bodyend="1144"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a5211f9962e68c168e3cab2f5af91d622" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -19721,7 +19723,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="767" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="767" bodyend="775"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="1153" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="1153" bodyend="1161"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0f7a7d17c265b60a8012d118878c3f8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -19758,7 +19760,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="781" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="781" bodyend="789"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="1167" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="1167" bodyend="1175"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4804ad92f21716f288d355304c58b877" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -19789,7 +19791,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="797" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="797" bodyend="814"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="1183" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="1183" bodyend="1200"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac29c4f70305908b23c790bf013978298" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -19817,7 +19819,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="821" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="821" bodyend="826"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="1207" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="1207" bodyend="1212"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a772012c6f469a41be7f2987d59b2e2df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -19849,7 +19851,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="832" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="832" bodyend="837"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="1218" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="1218" bodyend="1223"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a110ee675ca5439144d5639cb7bc37739" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
@@ -19903,7 +19905,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="850" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="850" bodyend="856"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="1236" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="1236" bodyend="1242"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9167193b8252acc06e9d97e909db95fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
@@ -19941,7 +19943,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="864" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="864" bodyend="870"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="1250" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="1250" bodyend="1256"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4cab29f905bbeb7d0a46761f4ac24269" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
@@ -19995,7 +19997,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="884" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="884" bodyend="890"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="1270" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="1270" bodyend="1276"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a26102d7bb51637a4aba49aef9c7d1f84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>

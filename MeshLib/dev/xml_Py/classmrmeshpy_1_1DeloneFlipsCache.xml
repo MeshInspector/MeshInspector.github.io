@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DeloneFlipsCache" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DeloneFlipsCache</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DeloneFlipsCache_1adfe1c09de83c8d0958399c2a16f2b89b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DeloneFlipsCache::_offsetof_flipCandidates</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_flipCandidates</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache._offsetof_flipCandidates</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12852" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DeloneFlipsCache_1afd86c5aaa51947b89efbaed214158fe3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DeloneFlipsCache::_offsetof_nextFlipCandidates</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_nextFlipCandidates</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache._offsetof_nextFlipCandidates</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12853" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DeloneFlipsCache_1afb6e8f790a7528f62e4f15298e9f727d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DeloneFlipsCache::_offsetof_nextRoundEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_nextRoundEdges</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache._offsetof_nextRoundEdges</qualifiedname>
+        <initializer>=  120</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12854" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DeloneFlipsCache_1aa581d0dfa089b00cb10c9bbcba66a507" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DeloneFlipsCache::_offsetof_queuedEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_queuedEdges</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache._offsetof_queuedEdges</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12855" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DeloneFlipsCache_1a23c5a984ab7e61807dfd372a448afd3b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DeloneFlipsCache::_offsetof_roundEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_roundEdges</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache._offsetof_roundEdges</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12856" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneFlipsCache_1a0088ef53683f5be424a429cf98b73624" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DeloneFlipsCache.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12861" bodyend="12862"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneFlipsCache_1a19ccdd00c3b9c359ada8918001f3016b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DeloneFlipsCache" kindref="compound">DeloneFlipsCache</ref></type>
+        <definition> DeloneFlipsCache mrmeshpy.DeloneFlipsCache.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12865" bodyend="12866"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneFlipsCache_1a19ccdd00c3b9c359ada8918001f3016b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DeloneFlipsCache" kindref="compound">DeloneFlipsCache</ref></type>
+        <definition> DeloneFlipsCache mrmeshpy.DeloneFlipsCache.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12869" bodyend="12870"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneFlipsCache_1ae996fc23ae3bd14c5a3acece703aaa7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DeloneFlipsCache.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12872" bodyend="12873"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneFlipsCache_1aa2113abc94a717e317348a9d8425cae8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DeloneFlipsCache.__init__</definition>
+        <argsstring>(self, DeloneFlipsCache arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DeloneFlipsCache" kindref="compound">DeloneFlipsCache</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12875" bodyend="12878"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneFlipsCache_1a247b465dc97a2fa735de0d0c9c52be9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DeloneFlipsCache.__init__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet flipCandidates, UndirectedEdgeBitSet nextFlipCandidates, UndirectedEdgeBitSet queuedEdges, std_vector_Id_UndirectedEdgeTag roundEdges, std_vector_Id_UndirectedEdgeTag nextRoundEdges)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>flipCandidates</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>nextFlipCandidates</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>queuedEdges</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag" kindref="compound">std_vector_Id_UndirectedEdgeTag</ref></type>
+          <declname>roundEdges</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag" kindref="compound">std_vector_Id_UndirectedEdgeTag</ref></type>
+          <declname>nextRoundEdges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12880" bodyend="12883"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneFlipsCache_1a81164fa072cdf40e88ab31212249bf9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.DeloneFlipsCache.flipCandidates</definition>
+        <argsstring>(self)</argsstring>
+        <name>flipCandidates</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache.flipCandidates</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>of the parallel passes (a mesh of 256 undirected edges or more)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12885" bodyend="12888"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneFlipsCache_1ade49c470af8ae57c19fdef02768087ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DeloneFlipsCache.flipCandidates</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>flipCandidates</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache.flipCandidates</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12890" bodyend="12891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneFlipsCache_1adfdb336ff1865bc321c5da1873289cc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.DeloneFlipsCache.nextFlipCandidates</definition>
+        <argsstring>(self)</argsstring>
+        <name>nextFlipCandidates</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache.nextFlipCandidates</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>of the parallel passes (a mesh of 256 undirected edges or more)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12893" bodyend="12896"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneFlipsCache_1a435c23af7808035c91e1c5dcb70b4b6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DeloneFlipsCache.nextFlipCandidates</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>nextFlipCandidates</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache.nextFlipCandidates</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12898" bodyend="12899"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneFlipsCache_1af9fa293efb2822a2d4dca48e128a3375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.DeloneFlipsCache.queuedEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>queuedEdges</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache.queuedEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>of the serial rounds (a smaller mesh): the edges already queued for the next round, and the two rounds
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12901" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12901" bodyend="12904"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneFlipsCache_1aac875f7f72111d1cee03d564dd9b5cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DeloneFlipsCache.queuedEdges</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>queuedEdges</name>
+        <qualifiedname>mrmeshpy.DeloneFlipsCache.queuedEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12906" bodyend="12907"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DeloneFlipsCache
+
+the buffers makeDeloneEdgeFlips grows on every call; a caller running it many times on small meshes
+(e.g. one hole patch after another) keeps one instance between the calls to allocate them just once;
+one cache must not be used by several threads at once
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12844" bodyend="12907"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1a0088ef53683f5be424a429cf98b73624" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1ae996fc23ae3bd14c5a3acece703aaa7a" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1aa2113abc94a717e317348a9d8425cae8" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1a247b465dc97a2fa735de0d0c9c52be9b" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1adfe1c09de83c8d0958399c2a16f2b89b" prot="protected" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>_offsetof_flipCandidates</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1afd86c5aaa51947b89efbaed214158fe3" prot="protected" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>_offsetof_nextFlipCandidates</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1afb6e8f790a7528f62e4f15298e9f727d" prot="protected" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>_offsetof_nextRoundEdges</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1aa581d0dfa089b00cb10c9bbcba66a507" prot="protected" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>_offsetof_queuedEdges</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1a23c5a984ab7e61807dfd372a448afd3b" prot="protected" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>_offsetof_roundEdges</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1a81164fa072cdf40e88ab31212249bf9d" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>flipCandidates</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1ade49c470af8ae57c19fdef02768087ca" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>flipCandidates</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1adfdb336ff1865bc321c5da1873289cc3" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>nextFlipCandidates</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1a435c23af7808035c91e1c5dcb70b4b6b" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>nextFlipCandidates</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1a19ccdd00c3b9c359ada8918001f3016b" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1a19ccdd00c3b9c359ada8918001f3016b" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1af9fa293efb2822a2d4dca48e128a3375" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>queuedEdges</name></member>
+      <member refid="classmrmeshpy_1_1DeloneFlipsCache_1aac875f7f72111d1cee03d564dd9b5cf9" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneFlipsCache</scope><name>queuedEdges</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -473,6 +473,7 @@ var annotated_dup =
       [ "DecimateResult", "structMR_1_1DecimateResult.html", "structMR_1_1DecimateResult" ],
       [ "DecimateSettings", "structMR_1_1DecimateSettings.html", "structMR_1_1DecimateSettings" ],
       [ "DefaultSplashWindow", "classMR_1_1DefaultSplashWindow.html", "classMR_1_1DefaultSplashWindow" ],
+      [ "DeloneFlipsCache", "structMR_1_1DeloneFlipsCache.html", "structMR_1_1DeloneFlipsCache" ],
       [ "DeloneSettings", "structMR_1_1DeloneSettings.html", "structMR_1_1DeloneSettings" ],
       [ "DemoPlugin", "classMR_1_1DemoPlugin.html", "classMR_1_1DemoPlugin" ],
       [ "DenoiseViaNormalsSettings", "structMR_1_1DenoiseViaNormalsSettings.html", "structMR_1_1DenoiseViaNormalsSettings" ],

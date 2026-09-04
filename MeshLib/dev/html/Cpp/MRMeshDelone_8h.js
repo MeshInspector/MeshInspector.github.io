@@ -1,5 +1,6 @@
 var MRMeshDelone_8h =
 [
+    [ "MR::DeloneFlipsCache", "structMR_1_1DeloneFlipsCache.html", "structMR_1_1DeloneFlipsCache" ],
     [ "MR::DeloneSettings", "structMR_1_1DeloneSettings.html", "structMR_1_1DeloneSettings" ],
     [ "MR::FlipEdge", "group__MeshDeloneGroup.html#gaa3ebc28a0c17a0a5fc0c9b90a97bfc95", [
       [ "MR::FlipEdge::Can", "group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ad677b410373bc790d9a8ec2e68090839", null ],

@@ -145,6 +145,7 @@ $(function(){initNavTree('MRMeshDelone_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
@@ -153,6 +154,7 @@ $(function(){initNavTree('MRMeshDelone_8h.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a8d6c74581e7874fa4935c77ce617e419" id="r_a8d6c74581e7874fa4935c77ce617e419"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a></td></tr>
 <tr class="memitem:af90f4b39ad520e70053fc29ba9bb57c7" id="r_af90f4b39ad520e70053fc29ba9bb57c7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a></td></tr>
 <tr class="memitem:a25812984958f89a4d14d48a2bcf46824" id="r_a25812984958f89a4d14d48a2bcf46824"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aa76435b4ee48431a19de6d633c8833ae">MR_FlipEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25812984958f89a4d14d48a2bcf46824">MR_FlipEdge</a></td></tr>
 <tr class="memitem:a41a41039ee70031a05a4562044cce3ca" id="r_a41a41039ee70031a05a4562044cce3ca"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a41a41039ee70031a05a4562044cce3ca">MR_IntrinsicDeloneSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41a41039ee70031a05a4562044cce3ca">MR_IntrinsicDeloneSettings</a></td></tr>
@@ -166,6 +168,32 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ae22669a1d4ed23dff4ea9bceb5d37f9c" id="r_ae22669a1d4ed23dff4ea9bceb5d37f9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae22669a1d4ed23dff4ea9bceb5d37f9c">MR_DeloneFlipsCache_Get_flipCandidates</a> (const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this)</td></tr>
+<tr class="memitem:afbe1ce51576d273704ee00b3528af283" id="r_afbe1ce51576d273704ee00b3528af283"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbe1ce51576d273704ee00b3528af283">MR_DeloneFlipsCache_Set_flipCandidates</a> (<a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
+<tr class="memitem:a01f7e21a9044f3d60a97ce05789f80cd" id="r_a01f7e21a9044f3d60a97ce05789f80cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01f7e21a9044f3d60a97ce05789f80cd">MR_DeloneFlipsCache_GetMutable_flipCandidates</a> (<a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this)</td></tr>
+<tr class="memitem:ab6a4e9a83b7bd058b70aa6d9f05a5b9e" id="r_ab6a4e9a83b7bd058b70aa6d9f05a5b9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6a4e9a83b7bd058b70aa6d9f05a5b9e">MR_DeloneFlipsCache_Get_nextFlipCandidates</a> (const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this)</td></tr>
+<tr class="memitem:a293d3ececb3c2f0578bef029509a397c" id="r_a293d3ececb3c2f0578bef029509a397c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a293d3ececb3c2f0578bef029509a397c">MR_DeloneFlipsCache_Set_nextFlipCandidates</a> (<a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
+<tr class="memitem:a3ab5342901257c9717e41b7789d23e48" id="r_a3ab5342901257c9717e41b7789d23e48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ab5342901257c9717e41b7789d23e48">MR_DeloneFlipsCache_GetMutable_nextFlipCandidates</a> (<a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this)</td></tr>
+<tr class="memitem:a5d181b1515f933e9b2f96aaff0623e28" id="r_a5d181b1515f933e9b2f96aaff0623e28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d181b1515f933e9b2f96aaff0623e28">MR_DeloneFlipsCache_Get_queuedEdges</a> (const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this)</td></tr>
+<tr class="memitem:a768631cd4a2d26f4c941339e2bc47155" id="r_a768631cd4a2d26f4c941339e2bc47155"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a768631cd4a2d26f4c941339e2bc47155">MR_DeloneFlipsCache_Set_queuedEdges</a> (<a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
+<tr class="memitem:a7f1e5c0c5a0ce8042c8eb0f8e1263a75" id="r_a7f1e5c0c5a0ce8042c8eb0f8e1263a75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f1e5c0c5a0ce8042c8eb0f8e1263a75">MR_DeloneFlipsCache_GetMutable_queuedEdges</a> (<a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this)</td></tr>
+<tr class="memitem:a205c7743288b4b96dca5b84fadaaf8dc" id="r_a205c7743288b4b96dca5b84fadaaf8dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a205c7743288b4b96dca5b84fadaaf8dc">MR_DeloneFlipsCache_Get_roundEdges</a> (const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this)</td></tr>
+<tr class="memitem:a4563d98d30ca79c62f22b9680e74b90d" id="r_a4563d98d30ca79c62f22b9680e74b90d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4563d98d30ca79c62f22b9680e74b90d">MR_DeloneFlipsCache_Set_roundEdges</a> (<a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> *value)</td></tr>
+<tr class="memitem:ae678d32b6f3274d98acd3099f067b97a" id="r_ae678d32b6f3274d98acd3099f067b97a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae678d32b6f3274d98acd3099f067b97a">MR_DeloneFlipsCache_GetMutable_roundEdges</a> (<a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this)</td></tr>
+<tr class="memitem:aaa29ba4c9a288235d03e225ad7083755" id="r_aaa29ba4c9a288235d03e225ad7083755"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa29ba4c9a288235d03e225ad7083755">MR_DeloneFlipsCache_Get_nextRoundEdges</a> (const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this)</td></tr>
+<tr class="memitem:a61d8771e5647e416c6feb6efe519dbb4" id="r_a61d8771e5647e416c6feb6efe519dbb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61d8771e5647e416c6feb6efe519dbb4">MR_DeloneFlipsCache_Set_nextRoundEdges</a> (<a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> *value)</td></tr>
+<tr class="memitem:ab696495770ee578a4e057bf1f7ba1191" id="r_ab696495770ee578a4e057bf1f7ba1191"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab696495770ee578a4e057bf1f7ba1191">MR_DeloneFlipsCache_GetMutable_nextRoundEdges</a> (<a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this)</td></tr>
+<tr class="memitem:aeb6bc7488fb4605402a4d42383672a8b" id="r_aeb6bc7488fb4605402a4d42383672a8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb6bc7488fb4605402a4d42383672a8b">MR_DeloneFlipsCache_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a1a9f497eea11d50fe29a14c75807d90e" id="r_a1a9f497eea11d50fe29a14c75807d90e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a9f497eea11d50fe29a14c75807d90e">MR_DeloneFlipsCache_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a46ebf30a67fccd735b11e3d5404563eb" id="r_a46ebf30a67fccd735b11e3d5404563eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46ebf30a67fccd735b11e3d5404563eb">MR_DeloneFlipsCache_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> flipCandidates_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *flipCandidates, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> nextFlipCandidates_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *nextFlipCandidates, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> queuedEdges_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *queuedEdges, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> roundEdges_pass_by, <a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> *roundEdges, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> nextRoundEdges_pass_by, <a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> *nextRoundEdges)</td></tr>
+<tr class="memitem:a556163e94463973deb409d1933ecade8" id="r_a556163e94463973deb409d1933ecade8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a556163e94463973deb409d1933ecade8">MR_DeloneFlipsCache_OffsetPtr</a> (const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:aac9f8f461509e3bb91f69d65b0d90910" id="r_aac9f8f461509e3bb91f69d65b0d90910"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac9f8f461509e3bb91f69d65b0d90910">MR_DeloneFlipsCache_OffsetMutablePtr</a> (<a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a7654026b5703e7f77a8ced058935efa1" id="r_a7654026b5703e7f77a8ced058935efa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7654026b5703e7f77a8ced058935efa1">MR_DeloneFlipsCache_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_other)</td></tr>
+<tr class="memitem:af31c38d937e9479c439debe5ab2b87fb" id="r_af31c38d937e9479c439debe5ab2b87fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af31c38d937e9479c439debe5ab2b87fb">MR_DeloneFlipsCache_Destroy</a> (const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this)</td></tr>
+<tr class="memdesc:af31c38d937e9479c439debe5ab2b87fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:ad16ce250de223f3814d2e4e654a398d3" id="r_ad16ce250de223f3814d2e4e654a398d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad16ce250de223f3814d2e4e654a398d3">MR_DeloneFlipsCache_DestroyArray</a> (const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this)</td></tr>
+<tr class="memdesc:ad16ce250de223f3814d2e4e654a398d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a09f5bbf9cd42924072eb4914f604d65c" id="r_a09f5bbf9cd42924072eb4914f604d65c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09f5bbf9cd42924072eb4914f604d65c">MR_DeloneFlipsCache_AssignFromAnother</a> (<a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *_other)</td></tr>
 <tr class="memitem:ab382ccf9bff4ad95abc83be82b86bcab" id="r_ab382ccf9bff4ad95abc83be82b86bcab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab382ccf9bff4ad95abc83be82b86bcab">MR_DeloneSettings_Get_maxDeviationAfterFlip</a> (const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *_this)</td></tr>
 <tr class="memitem:a3d5a9ef28ddad840f8bfa35847bdf6e9" id="r_a3d5a9ef28ddad840f8bfa35847bdf6e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d5a9ef28ddad840f8bfa35847bdf6e9">MR_DeloneSettings_Set_maxDeviationAfterFlip</a> (<a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *_this, float value)</td></tr>
 <tr class="memitem:ac28f3dc4732210e59b0f1f2028bf45b5" id="r_ac28f3dc4732210e59b0f1f2028bf45b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac28f3dc4732210e59b0f1f2028bf45b5">MR_DeloneSettings_GetMutable_maxDeviationAfterFlip</a> (<a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *_this)</td></tr>
@@ -184,9 +212,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a1c7887a0da25c488b74ac6d02d337441" id="r_a1c7887a0da25c488b74ac6d02d337441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c7887a0da25c488b74ac6d02d337441">MR_DeloneSettings_Get_vertRegion</a> (const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *_this)</td></tr>
 <tr class="memitem:ae9a3775cc08b8778c301be0e67730fbf" id="r_ae9a3775cc08b8778c301be0e67730fbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9a3775cc08b8778c301be0e67730fbf">MR_DeloneSettings_Set_vertRegion</a> (<a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
 <tr class="memitem:ab8de94203cd043809fdc16f8e77028e8" id="r_ab8de94203cd043809fdc16f8e77028e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8de94203cd043809fdc16f8e77028e8">MR_DeloneSettings_GetMutable_vertRegion</a> (<a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *_this)</td></tr>
+<tr class="memitem:aba4b0fd2956311109d8aca1a7c90a5cb" id="r_aba4b0fd2956311109d8aca1a7c90a5cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba4b0fd2956311109d8aca1a7c90a5cb">MR_DeloneSettings_Get_cache</a> (const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *_this)</td></tr>
+<tr class="memitem:a84934f84041db39b9db7fc99681e683a" id="r_a84934f84041db39b9db7fc99681e683a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84934f84041db39b9db7fc99681e683a">MR_DeloneSettings_Set_cache</a> (<a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *_this, <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *value)</td></tr>
+<tr class="memitem:a3fdd0aa8d6e03267cb0b7b791d9cf319" id="r_a3fdd0aa8d6e03267cb0b7b791d9cf319"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fdd0aa8d6e03267cb0b7b791d9cf319">MR_DeloneSettings_GetMutable_cache</a> (<a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *_this)</td></tr>
 <tr class="memitem:af98987e5b4a51a7bf0b05b242a777913" id="r_af98987e5b4a51a7bf0b05b242a777913"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af98987e5b4a51a7bf0b05b242a777913">MR_DeloneSettings_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:a1b868f66091b09e9dc54bf1b4b04a57d" id="r_a1b868f66091b09e9dc54bf1b4b04a57d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b868f66091b09e9dc54bf1b4b04a57d">MR_DeloneSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a5dd1ad27b8b59bfb5f4d00e014926c58" id="r_a5dd1ad27b8b59bfb5f4d00e014926c58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dd1ad27b8b59bfb5f4d00e014926c58">MR_DeloneSettings_ConstructFrom</a> (float maxDeviationAfterFlip, float maxAngleChange, float criticalTriAspectRatio, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *notFlippable, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion)</td></tr>
+<tr class="memitem:aa3fd693bfca8b27095271b276d1bd076" id="r_aa3fd693bfca8b27095271b276d1bd076"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3fd693bfca8b27095271b276d1bd076">MR_DeloneSettings_ConstructFrom</a> (float maxDeviationAfterFlip, float maxAngleChange, float criticalTriAspectRatio, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *notFlippable, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion, <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *cache)</td></tr>
 <tr class="memitem:a61efef6e1a53733eea701508fb204558" id="r_a61efef6e1a53733eea701508fb204558"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61efef6e1a53733eea701508fb204558">MR_DeloneSettings_OffsetPtr</a> (const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a7df3bccd2f24c3ce3bfb7b2d91f946c6" id="r_a7df3bccd2f24c3ce3bfb7b2d91f946c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7df3bccd2f24c3ce3bfb7b2d91f946c6">MR_DeloneSettings_OffsetMutablePtr</a> (<a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:abfe3294a46a323f38385904a11e36af9" id="r_abfe3294a46a323f38385904a11e36af9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfe3294a46a323f38385904a11e36af9">MR_DeloneSettings_ConstructFromAnother</a> (const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *_other)</td></tr>
@@ -231,6 +262,21 @@ Functions</h2></td></tr>
 <tr class="memitem:ace6519aee91ccff2891b2668e29ebbb1" id="r_ace6519aee91ccff2891b2668e29ebbb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace6519aee91ccff2891b2668e29ebbb1">MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh</a> (<a class="el" href="MREdgeLengthMesh_8h.html#a21d0c9081671ec94a88f3883cd8e36f2">MR_EdgeLengthMesh</a> *mesh, const <a class="el" href="#a41a41039ee70031a05a4562044cce3ca">MR_IntrinsicDeloneSettings</a> *settings, const int *numIters, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a8d6c74581e7874fa4935c77ce617e419" name="a8d6c74581e7874fa4935c77ce617e419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d6c74581e7874fa4935c77ce617e419">&#9670;&#160;</a></span>MR_DeloneFlipsCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the buffers makeDeloneEdgeFlips grows on every call; a caller running it many times on small meshes (e.g. one hole patch after another) keeps one instance between the calls to allocate them just once; one cache must not be used by several threads at once Generated from class <span class="tt">MR::DeloneFlipsCache</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
 <a id="af90f4b39ad520e70053fc29ba9bb57c7" name="af90f4b39ad520e70053fc29ba9bb57c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af90f4b39ad520e70053fc29ba9bb57c7">&#9670;&#160;</a></span>MR_DeloneSettings</h2>
 
@@ -511,6 +557,550 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a09f5bbf9cd42924072eb4914f604d65c" name="a09f5bbf9cd42924072eb4914f604d65c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09f5bbf9cd42924072eb4914f604d65c">&#9670;&#160;</a></span>MR_DeloneFlipsCache_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> * MR_DeloneFlipsCache_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::DeloneFlipsCache::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a46ebf30a67fccd735b11e3d5404563eb" name="a46ebf30a67fccd735b11e3d5404563eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46ebf30a67fccd735b11e3d5404563eb">&#9670;&#160;</a></span>MR_DeloneFlipsCache_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> * MR_DeloneFlipsCache_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>flipCandidates_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>flipCandidates</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>nextFlipCandidates_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>nextFlipCandidates</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>queuedEdges_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>queuedEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>roundEdges_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>roundEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>nextRoundEdges_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>nextRoundEdges</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <span class="tt">MR::DeloneFlipsCache</span> elementwise. The reference to the parameter <span class="tt">flipCandidates</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">nextFlipCandidates</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">queuedEdges</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">roundEdges</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">nextRoundEdges</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#af31c38d937e9479c439debe5ab2b87fb" title="Destroys a heap-allocated instance of MR_DeloneFlipsCache. Does nothing if the pointer is null.">MR_DeloneFlipsCache_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a7654026b5703e7f77a8ced058935efa1" name="a7654026b5703e7f77a8ced058935efa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7654026b5703e7f77a8ced058935efa1">&#9670;&#160;</a></span>MR_DeloneFlipsCache_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> * MR_DeloneFlipsCache_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::DeloneFlipsCache::DeloneFlipsCache</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#af31c38d937e9479c439debe5ab2b87fb" title="Destroys a heap-allocated instance of MR_DeloneFlipsCache. Does nothing if the pointer is null.">MR_DeloneFlipsCache_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aeb6bc7488fb4605402a4d42383672a8b" name="aeb6bc7488fb4605402a4d42383672a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb6bc7488fb4605402a4d42383672a8b">&#9670;&#160;</a></span>MR_DeloneFlipsCache_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> * MR_DeloneFlipsCache_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#af31c38d937e9479c439debe5ab2b87fb" title="Destroys a heap-allocated instance of MR_DeloneFlipsCache. Does nothing if the pointer is null.">MR_DeloneFlipsCache_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1a9f497eea11d50fe29a14c75807d90e" name="a1a9f497eea11d50fe29a14c75807d90e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a9f497eea11d50fe29a14c75807d90e">&#9670;&#160;</a></span>MR_DeloneFlipsCache_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> * MR_DeloneFlipsCache_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#ad16ce250de223f3814d2e4e654a398d3" title="Destroys a heap-allocated array of MR_DeloneFlipsCache. Does nothing if the pointer is null.">MR_DeloneFlipsCache_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#aac9f8f461509e3bb91f69d65b0d90910">MR_DeloneFlipsCache_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a556163e94463973deb409d1933ecade8">MR_DeloneFlipsCache_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="af31c38d937e9479c439debe5ab2b87fb" name="af31c38d937e9479c439debe5ab2b87fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af31c38d937e9479c439debe5ab2b87fb">&#9670;&#160;</a></span>MR_DeloneFlipsCache_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DeloneFlipsCache_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ad16ce250de223f3814d2e4e654a398d3" name="ad16ce250de223f3814d2e4e654a398d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad16ce250de223f3814d2e4e654a398d3">&#9670;&#160;</a></span>MR_DeloneFlipsCache_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DeloneFlipsCache_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae22669a1d4ed23dff4ea9bceb5d37f9c" name="ae22669a1d4ed23dff4ea9bceb5d37f9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae22669a1d4ed23dff4ea9bceb5d37f9c">&#9670;&#160;</a></span>MR_DeloneFlipsCache_Get_flipCandidates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_DeloneFlipsCache_Get_flipCandidates </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>of the parallel passes (a mesh of 256 undirected edges or more) Returns a pointer to a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">flipCandidates</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ab6a4e9a83b7bd058b70aa6d9f05a5b9e" name="ab6a4e9a83b7bd058b70aa6d9f05a5b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6a4e9a83b7bd058b70aa6d9f05a5b9e">&#9670;&#160;</a></span>MR_DeloneFlipsCache_Get_nextFlipCandidates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_DeloneFlipsCache_Get_nextFlipCandidates </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>of the parallel passes (a mesh of 256 undirected edges or more) Returns a pointer to a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">nextFlipCandidates</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="aaa29ba4c9a288235d03e225ad7083755" name="aaa29ba4c9a288235d03e225ad7083755"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa29ba4c9a288235d03e225ad7083755">&#9670;&#160;</a></span>MR_DeloneFlipsCache_Get_nextRoundEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> * MR_DeloneFlipsCache_Get_nextRoundEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">nextRoundEdges</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a5d181b1515f933e9b2f96aaff0623e28" name="a5d181b1515f933e9b2f96aaff0623e28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d181b1515f933e9b2f96aaff0623e28">&#9670;&#160;</a></span>MR_DeloneFlipsCache_Get_queuedEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_DeloneFlipsCache_Get_queuedEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>of the serial rounds (a smaller mesh): the edges already queued for the next round, and the two rounds Returns a pointer to a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">queuedEdges</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a205c7743288b4b96dca5b84fadaaf8dc" name="a205c7743288b4b96dca5b84fadaaf8dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a205c7743288b4b96dca5b84fadaaf8dc">&#9670;&#160;</a></span>MR_DeloneFlipsCache_Get_roundEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> * MR_DeloneFlipsCache_Get_roundEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">roundEdges</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a01f7e21a9044f3d60a97ce05789f80cd" name="a01f7e21a9044f3d60a97ce05789f80cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01f7e21a9044f3d60a97ce05789f80cd">&#9670;&#160;</a></span>MR_DeloneFlipsCache_GetMutable_flipCandidates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_DeloneFlipsCache_GetMutable_flipCandidates </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>of the parallel passes (a mesh of 256 undirected edges or more) Returns a mutable pointer to a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">flipCandidates</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a3ab5342901257c9717e41b7789d23e48" name="a3ab5342901257c9717e41b7789d23e48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ab5342901257c9717e41b7789d23e48">&#9670;&#160;</a></span>MR_DeloneFlipsCache_GetMutable_nextFlipCandidates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_DeloneFlipsCache_GetMutable_nextFlipCandidates </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>of the parallel passes (a mesh of 256 undirected edges or more) Returns a mutable pointer to a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">nextFlipCandidates</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ab696495770ee578a4e057bf1f7ba1191" name="ab696495770ee578a4e057bf1f7ba1191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab696495770ee578a4e057bf1f7ba1191">&#9670;&#160;</a></span>MR_DeloneFlipsCache_GetMutable_nextRoundEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> * MR_DeloneFlipsCache_GetMutable_nextRoundEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">nextRoundEdges</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a7f1e5c0c5a0ce8042c8eb0f8e1263a75" name="a7f1e5c0c5a0ce8042c8eb0f8e1263a75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f1e5c0c5a0ce8042c8eb0f8e1263a75">&#9670;&#160;</a></span>MR_DeloneFlipsCache_GetMutable_queuedEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_DeloneFlipsCache_GetMutable_queuedEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>of the serial rounds (a smaller mesh): the edges already queued for the next round, and the two rounds Returns a mutable pointer to a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">queuedEdges</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ae678d32b6f3274d98acd3099f067b97a" name="ae678d32b6f3274d98acd3099f067b97a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae678d32b6f3274d98acd3099f067b97a">&#9670;&#160;</a></span>MR_DeloneFlipsCache_GetMutable_roundEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> * MR_DeloneFlipsCache_GetMutable_roundEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">roundEdges</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="aac9f8f461509e3bb91f69d65b0d90910" name="aac9f8f461509e3bb91f69d65b0d90910"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac9f8f461509e3bb91f69d65b0d90910">&#9670;&#160;</a></span>MR_DeloneFlipsCache_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> * MR_DeloneFlipsCache_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a556163e94463973deb409d1933ecade8" name="a556163e94463973deb409d1933ecade8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a556163e94463973deb409d1933ecade8">&#9670;&#160;</a></span>MR_DeloneFlipsCache_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> * MR_DeloneFlipsCache_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="afbe1ce51576d273704ee00b3528af283" name="afbe1ce51576d273704ee00b3528af283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbe1ce51576d273704ee00b3528af283">&#9670;&#160;</a></span>MR_DeloneFlipsCache_Set_flipCandidates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DeloneFlipsCache_Set_flipCandidates </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>of the parallel passes (a mesh of 256 undirected edges or more) Modifies a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">flipCandidates</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">flipCandidates</span>. When this function is called, this object will drop object references it held previously in <span class="tt">flipCandidates</span>. </p>
+
+</div>
+</div>
+<a id="a293d3ececb3c2f0578bef029509a397c" name="a293d3ececb3c2f0578bef029509a397c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a293d3ececb3c2f0578bef029509a397c">&#9670;&#160;</a></span>MR_DeloneFlipsCache_Set_nextFlipCandidates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DeloneFlipsCache_Set_nextFlipCandidates </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>of the parallel passes (a mesh of 256 undirected edges or more) Modifies a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">nextFlipCandidates</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">nextFlipCandidates</span>. When this function is called, this object will drop object references it held previously in <span class="tt">nextFlipCandidates</span>. </p>
+
+</div>
+</div>
+<a id="a61d8771e5647e416c6feb6efe519dbb4" name="a61d8771e5647e416c6feb6efe519dbb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61d8771e5647e416c6feb6efe519dbb4">&#9670;&#160;</a></span>MR_DeloneFlipsCache_Set_nextRoundEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DeloneFlipsCache_Set_nextRoundEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">nextRoundEdges</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">nextRoundEdges</span>. When this function is called, this object will drop object references it held previously in <span class="tt">nextRoundEdges</span>. </p>
+
+</div>
+</div>
+<a id="a768631cd4a2d26f4c941339e2bc47155" name="a768631cd4a2d26f4c941339e2bc47155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a768631cd4a2d26f4c941339e2bc47155">&#9670;&#160;</a></span>MR_DeloneFlipsCache_Set_queuedEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DeloneFlipsCache_Set_queuedEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>of the serial rounds (a smaller mesh): the edges already queued for the next round, and the two rounds Modifies a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">queuedEdges</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">queuedEdges</span>. When this function is called, this object will drop object references it held previously in <span class="tt">queuedEdges</span>. </p>
+
+</div>
+</div>
+<a id="a4563d98d30ca79c62f22b9680e74b90d" name="a4563d98d30ca79c62f22b9680e74b90d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4563d98d30ca79c62f22b9680e74b90d">&#9670;&#160;</a></span>MR_DeloneFlipsCache_Set_roundEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DeloneFlipsCache_Set_roundEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97">MR_std_vector_MR_UndirectedEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <span class="tt">MR::DeloneFlipsCache</span> named <span class="tt">roundEdges</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">roundEdges</span>. When this function is called, this object will drop object references it held previously in <span class="tt">roundEdges</span>. </p>
+
+</div>
+</div>
 <a id="ab564028f6412901fa79ba471c1cbab2b" name="ab564028f6412901fa79ba471c1cbab2b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab564028f6412901fa79ba471c1cbab2b">&#9670;&#160;</a></span>MR_DeloneSettings_AssignFromAnother()</h2>
 
@@ -533,8 +1123,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5dd1ad27b8b59bfb5f4d00e014926c58" name="a5dd1ad27b8b59bfb5f4d00e014926c58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5dd1ad27b8b59bfb5f4d00e014926c58">&#9670;&#160;</a></span>MR_DeloneSettings_ConstructFrom()</h2>
+<a id="aa3fd693bfca8b27095271b276d1bd076" name="aa3fd693bfca8b27095271b276d1bd076"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3fd693bfca8b27095271b276d1bd076">&#9670;&#160;</a></span>MR_DeloneSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -567,11 +1157,16 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>vertRegion</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>vertRegion</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>cache</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <span class="tt">MR::DeloneSettings</span> elementwise. The reference to the parameter <span class="tt">region</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">notFlippable</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">vertRegion</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aaf8d2e088923a375f48ef0b680171365" title="Destroys a heap-allocated instance of MR_DeloneSettings. Does nothing if the pointer is null.">MR_DeloneSettings_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+<p>Constructs <span class="tt">MR::DeloneSettings</span> elementwise. The reference to the parameter <span class="tt">region</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">notFlippable</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">vertRegion</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">cache</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aaf8d2e088923a375f48ef0b680171365" title="Destroys a heap-allocated instance of MR_DeloneSettings. Does nothing if the pointer is null.">MR_DeloneSettings_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -664,6 +1259,24 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aba4b0fd2956311109d8aca1a7c90a5cb" name="aba4b0fd2956311109d8aca1a7c90a5cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba4b0fd2956311109d8aca1a7c90a5cb">&#9670;&#160;</a></span>MR_DeloneSettings_Get_cache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *const  * MR_DeloneSettings_Get_cache </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional buffers reused between calls, see DeloneFlipsCache; flipping several meshes in parallel, give every thread its own cache Returns a pointer to a member variable of class <span class="tt">MR::DeloneSettings</span> named <span class="tt">cache</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -772,6 +1385,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Only edges with origin or destination in this set before or after flip can be flipped Returns a pointer to a member variable of class <span class="tt">MR::DeloneSettings</span> named <span class="tt">vertRegion</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a3fdd0aa8d6e03267cb0b7b791d9cf319" name="a3fdd0aa8d6e03267cb0b7b791d9cf319"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fdd0aa8d6e03267cb0b7b791d9cf319">&#9670;&#160;</a></span>MR_DeloneSettings_GetMutable_cache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> ** MR_DeloneSettings_GetMutable_cache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional buffers reused between calls, see DeloneFlipsCache; flipping several meshes in parallel, give every thread its own cache Returns a mutable pointer to a member variable of class <span class="tt">MR::DeloneSettings</span> named <span class="tt">cache</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -924,6 +1555,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a84934f84041db39b9db7fc99681e683a" name="a84934f84041db39b9db7fc99681e683a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84934f84041db39b9db7fc99681e683a">&#9670;&#160;</a></span>MR_DeloneSettings_Set_cache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DeloneSettings_Set_cache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af90f4b39ad520e70053fc29ba9bb57c7">MR_DeloneSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a8d6c74581e7874fa4935c77ce617e419">MR_DeloneFlipsCache</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional buffers reused between calls, see DeloneFlipsCache; flipping several meshes in parallel, give every thread its own cache Modifies a member variable of class <span class="tt">MR::DeloneSettings</span> named <span class="tt">cache</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">cache</span>. When this function is called, this object will drop object references it held previously in <span class="tt">cache</span>. </p>
 
 </div>
 </div>

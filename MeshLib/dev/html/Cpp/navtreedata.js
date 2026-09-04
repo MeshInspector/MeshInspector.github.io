@@ -213,14 +213,14 @@ var NAVTREEINDEX =
 "namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6aae3ce6f35dccfb7791bc311b81504efe9",
 "namespaceMR_1_1UnitSettings.html#a5c988ce02e5af851bf24cf8311f6d617",
 "structMR_1_1BindVertexAttribArraySettings.html",
-"structMR_1_1Directory.html",
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a1c450d64b652cb7ba2f84995e30c41d9",
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html#ad3b9bd4bb1b58ac3d681a5ee86935825",
-"structMR_1_1Mcp_1_1Schema_1_1String.html#aa45a18330dacd8ed1bd9b4af38bed320",
-"structMR_1_1MeshToDistanceMapParams.html#a564c1336e2a73c39aed0b35f500f1ff6",
-"structMR_1_1Polyline.html#ab3de745fc249ab0b56e00796cf740f97",
-"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d",
-"structMR_1_1UniquePtr.html"
+"structMR_1_1DenoiseViaNormalsSettings.html",
+"structMR_1_1IOFilter.html#a18838c79f9c4e0c3b96c9c294f66b83b",
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#a3ddcb12e9e357887d1e2769769196eed",
+"structMR_1_1Mcp_1_1Schema_1_1Object.html",
+"structMR_1_1MeshSave_1_1NamedXfMesh.html#ac966a0534972ef8bcc25ee2d926a5703",
+"structMR_1_1Polyline.html#a4b0c7356bf9410a07c99ee9ee80b8db5",
+"structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa",
+"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a6d87be1e6ad27cb40fc167743a714714"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

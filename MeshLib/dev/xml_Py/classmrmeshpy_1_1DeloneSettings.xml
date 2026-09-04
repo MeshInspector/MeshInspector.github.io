@@ -3,6 +3,21 @@
   <compounddef id="classmrmeshpy_1_1DeloneSettings" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::DeloneSettings</compoundname>
     <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DeloneSettings_1a020944d1fceaa711bb7d51a876085434" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DeloneSettings::_offsetof_cache</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cache</name>
+        <qualifiedname>mrmeshpy.DeloneSettings._offsetof_cache</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12912" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12912" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1DeloneSettings_1ae8957c3df28ef00d32901ec76e201757" prot="protected" static="yes" mutable="no">
         <type>typing</type>
         <definition>typing mrmeshpy.DeloneSettings::_offsetof_criticalTriAspectRatio</definition>
@@ -16,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12848" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12913" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12913" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1DeloneSettings_1a769b82e4b6a447e1ede4899d9150849b" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -31,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12849" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12914" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1DeloneSettings_1a85dc1ef1851602bb430c3e7794753aa1" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -46,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12850" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12915" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12915" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1DeloneSettings_1aa25ff85f968cc74a259a3e31db09789d" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -61,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12851" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12916" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1DeloneSettings_1a09fdeb648d17a891dc4b8ba2c7f26543" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -76,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12852" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12917" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1DeloneSettings_1a105d2811b5a05afcba15651847106ec4" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -91,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12853" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12918" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -115,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12856" bodyend="12857"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12921" bodyend="12922"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1ad3d8d71738b2463ea774683331141e72" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1DeloneSettings" kindref="compound">DeloneSettings</ref></type>
@@ -137,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12860" bodyend="12861"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12925" bodyend="12926"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1ad3d8d71738b2463ea774683331141e72" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1DeloneSettings" kindref="compound">DeloneSettings</ref></type>
@@ -159,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12864" bodyend="12865"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12929" bodyend="12930"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -179,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12867" bodyend="12868"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12932" bodyend="12933"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1a16ba078a461520d1302ad3a7db234316" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -203,12 +218,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12870" bodyend="12873"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12935" bodyend="12938"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1af8904d9e6a46b4093ed7983f36afe874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1a79576adaadd1eb40f9a356b0c353f6b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.DeloneSettings.__init__</definition>
-        <argsstring>(self, float maxDeviationAfterFlip, float maxAngleChange, float criticalTriAspectRatio, FaceBitSet region, UndirectedEdgeBitSet notFlippable, VertBitSet vertRegion)</argsstring>
+        <argsstring>(self, float maxDeviationAfterFlip, float maxAngleChange, float criticalTriAspectRatio, FaceBitSet region, UndirectedEdgeBitSet notFlippable, VertBitSet vertRegion, DeloneFlipsCache cache)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DeloneSettings.__init__</qualifiedname>
         <param>
@@ -239,6 +254,10 @@
           <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
           <declname>vertRegion</declname>
         </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DeloneFlipsCache" kindref="compound">DeloneFlipsCache</ref></type>
+          <declname>cache</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -247,7 +266,50 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12875" bodyend="12878"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12940" bodyend="12943"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1afba6b9789e71b94826472819a075a1ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DeloneFlipsCache" kindref="compound">DeloneFlipsCache</ref></type>
+        <definition> DeloneFlipsCache mrmeshpy.DeloneSettings.cache</definition>
+        <argsstring>(self)</argsstring>
+        <name>cache</name>
+        <qualifiedname>mrmeshpy.DeloneSettings.cache</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional buffers reused between calls, see DeloneFlipsCache;
+flipping several meshes in parallel, give every thread its own cache
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12945" bodyend="12949"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1a9308e498908d9d830f3e315ed6a867b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DeloneSettings.cache</definition>
+        <argsstring>(self, DeloneFlipsCache arg1)</argsstring>
+        <name>cache</name>
+        <qualifiedname>mrmeshpy.DeloneSettings.cache</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DeloneFlipsCache" kindref="compound">DeloneFlipsCache</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12951" bodyend="12952"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1a6f3e0cd4d7fd8fcdeac0587b83569177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -268,7 +330,7 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12880" bodyend="12884"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12954" bodyend="12958"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1a84ce44bad6da1e16d66848bb4f438b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -290,7 +352,7 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12886" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12886" bodyend="12887"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12960" bodyend="12961"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1a6d5ddda6af45818626f0df9b07774dac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -310,7 +372,7 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12889" bodyend="12892"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12963" bodyend="12966"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1aa08178988f1e7304096ad7e641b0f91d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -332,7 +394,7 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12894" bodyend="12895"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12968" bodyend="12969"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1a76845ab04c0635b101bf76601b744f34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -352,7 +414,7 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12897" bodyend="12900"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12971" bodyend="12974"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1a31aab6dfd5f30ef79ff9916499d11607" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -374,7 +436,7 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12902" bodyend="12903"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12976" bodyend="12977"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1a3a767967e878efcd7ca8a26b686e3ed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -394,7 +456,7 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12905" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12905" bodyend="12908"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12979" bodyend="12982"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1a77f4e295bacda62ec17540f9196f60d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -416,7 +478,7 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12910" bodyend="12911"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12984" bodyend="12985"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1a82118a36822ad1ccf9562fda5900ce6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -436,7 +498,7 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12913" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12913" bodyend="12916"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12987" bodyend="12990"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1ae5eec09e4ba1a3a836b8d460a42458d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -458,7 +520,7 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12918" bodyend="12919"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12992" bodyend="12993"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1aa9d70190b18a745faad143325f8392c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -478,7 +540,7 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12921" bodyend="12924"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12995" bodyend="12998"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DeloneSettings_1aadefc9bb5c15a729e4e1fd4a80b72f11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -500,7 +562,7 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12926" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12926" bodyend="12927"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13000" bodyend="13001"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -509,18 +571,21 @@ ignore dihedral angle check if one of triangles has aspect ratio more than this 
 <para><verbatim>Generated from:  MR::DeloneSettings
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12844" bodyend="12927"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12908" bodyend="13001"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1DeloneSettings_1a58b6348ea3f7fe9508caacaae568aa3b" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1DeloneSettings_1a90339f6a8aa00ae65e73579898f5499c" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1DeloneSettings_1a16ba078a461520d1302ad3a7db234316" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1DeloneSettings_1af8904d9e6a46b4093ed7983f36afe874" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DeloneSettings_1a79576adaadd1eb40f9a356b0c353f6b7" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DeloneSettings_1a020944d1fceaa711bb7d51a876085434" prot="protected" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>_offsetof_cache</name></member>
       <member refid="classmrmeshpy_1_1DeloneSettings_1ae8957c3df28ef00d32901ec76e201757" prot="protected" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>_offsetof_criticalTriAspectRatio</name></member>
       <member refid="classmrmeshpy_1_1DeloneSettings_1a769b82e4b6a447e1ede4899d9150849b" prot="protected" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>_offsetof_maxAngleChange</name></member>
       <member refid="classmrmeshpy_1_1DeloneSettings_1a85dc1ef1851602bb430c3e7794753aa1" prot="protected" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>_offsetof_maxDeviationAfterFlip</name></member>
       <member refid="classmrmeshpy_1_1DeloneSettings_1aa25ff85f968cc74a259a3e31db09789d" prot="protected" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>_offsetof_notFlippable</name></member>
       <member refid="classmrmeshpy_1_1DeloneSettings_1a09fdeb648d17a891dc4b8ba2c7f26543" prot="protected" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>_offsetof_region</name></member>
       <member refid="classmrmeshpy_1_1DeloneSettings_1a105d2811b5a05afcba15651847106ec4" prot="protected" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>_offsetof_vertRegion</name></member>
+      <member refid="classmrmeshpy_1_1DeloneSettings_1afba6b9789e71b94826472819a075a1ff" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>cache</name></member>
+      <member refid="classmrmeshpy_1_1DeloneSettings_1a9308e498908d9d830f3e315ed6a867b0" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>cache</name></member>
       <member refid="classmrmeshpy_1_1DeloneSettings_1a6f3e0cd4d7fd8fcdeac0587b83569177" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>criticalTriAspectRatio</name></member>
       <member refid="classmrmeshpy_1_1DeloneSettings_1a84ce44bad6da1e16d66848bb4f438b83" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>criticalTriAspectRatio</name></member>
       <member refid="classmrmeshpy_1_1DeloneSettings_1a6d5ddda6af45818626f0df9b07774dac" prot="public" virt="non-virtual"><scope>mrmeshpy::DeloneSettings</scope><name>maxAngleChange</name></member>

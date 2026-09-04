@@ -14475,9 +14475,34 @@
     <member refid="MRMeshDelone_8h_1aa76435b4ee48431a19de6d633c8833aea1e535a74c97b4c58ecdef88940d255d0" kind="enumvalue"><name>MR_FlipEdge_Can</name></member>
     <member refid="MRMeshDelone_8h_1aa76435b4ee48431a19de6d633c8833aeaa30a4a3b259653566dd43cfb4f281a8e" kind="enumvalue"><name>MR_FlipEdge_Cannot</name></member>
     <member refid="MRMeshDelone_8h_1aa76435b4ee48431a19de6d633c8833aeab516cff6dfa2c661ad2a72861328085b" kind="enumvalue"><name>MR_FlipEdge_Must</name></member>
+    <member refid="MRMeshDelone_8h_1a8d6c74581e7874fa4935c77ce617e419" kind="typedef"><name>MR_DeloneFlipsCache</name></member>
     <member refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kind="typedef"><name>MR_DeloneSettings</name></member>
     <member refid="MRMeshDelone_8h_1a25812984958f89a4d14d48a2bcf46824" kind="typedef"><name>MR_FlipEdge</name></member>
     <member refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kind="typedef"><name>MR_IntrinsicDeloneSettings</name></member>
+    <member refid="MRMeshDelone_8h_1ae22669a1d4ed23dff4ea9bceb5d37f9c" kind="function"><name>MR_DeloneFlipsCache_Get_flipCandidates</name></member>
+    <member refid="MRMeshDelone_8h_1afbe1ce51576d273704ee00b3528af283" kind="function"><name>MR_DeloneFlipsCache_Set_flipCandidates</name></member>
+    <member refid="MRMeshDelone_8h_1a01f7e21a9044f3d60a97ce05789f80cd" kind="function"><name>MR_DeloneFlipsCache_GetMutable_flipCandidates</name></member>
+    <member refid="MRMeshDelone_8h_1ab6a4e9a83b7bd058b70aa6d9f05a5b9e" kind="function"><name>MR_DeloneFlipsCache_Get_nextFlipCandidates</name></member>
+    <member refid="MRMeshDelone_8h_1a293d3ececb3c2f0578bef029509a397c" kind="function"><name>MR_DeloneFlipsCache_Set_nextFlipCandidates</name></member>
+    <member refid="MRMeshDelone_8h_1a3ab5342901257c9717e41b7789d23e48" kind="function"><name>MR_DeloneFlipsCache_GetMutable_nextFlipCandidates</name></member>
+    <member refid="MRMeshDelone_8h_1a5d181b1515f933e9b2f96aaff0623e28" kind="function"><name>MR_DeloneFlipsCache_Get_queuedEdges</name></member>
+    <member refid="MRMeshDelone_8h_1a768631cd4a2d26f4c941339e2bc47155" kind="function"><name>MR_DeloneFlipsCache_Set_queuedEdges</name></member>
+    <member refid="MRMeshDelone_8h_1a7f1e5c0c5a0ce8042c8eb0f8e1263a75" kind="function"><name>MR_DeloneFlipsCache_GetMutable_queuedEdges</name></member>
+    <member refid="MRMeshDelone_8h_1a205c7743288b4b96dca5b84fadaaf8dc" kind="function"><name>MR_DeloneFlipsCache_Get_roundEdges</name></member>
+    <member refid="MRMeshDelone_8h_1a4563d98d30ca79c62f22b9680e74b90d" kind="function"><name>MR_DeloneFlipsCache_Set_roundEdges</name></member>
+    <member refid="MRMeshDelone_8h_1ae678d32b6f3274d98acd3099f067b97a" kind="function"><name>MR_DeloneFlipsCache_GetMutable_roundEdges</name></member>
+    <member refid="MRMeshDelone_8h_1aaa29ba4c9a288235d03e225ad7083755" kind="function"><name>MR_DeloneFlipsCache_Get_nextRoundEdges</name></member>
+    <member refid="MRMeshDelone_8h_1a61d8771e5647e416c6feb6efe519dbb4" kind="function"><name>MR_DeloneFlipsCache_Set_nextRoundEdges</name></member>
+    <member refid="MRMeshDelone_8h_1ab696495770ee578a4e057bf1f7ba1191" kind="function"><name>MR_DeloneFlipsCache_GetMutable_nextRoundEdges</name></member>
+    <member refid="MRMeshDelone_8h_1aeb6bc7488fb4605402a4d42383672a8b" kind="function"><name>MR_DeloneFlipsCache_DefaultConstruct</name></member>
+    <member refid="MRMeshDelone_8h_1a1a9f497eea11d50fe29a14c75807d90e" kind="function"><name>MR_DeloneFlipsCache_DefaultConstructArray</name></member>
+    <member refid="MRMeshDelone_8h_1a46ebf30a67fccd735b11e3d5404563eb" kind="function"><name>MR_DeloneFlipsCache_ConstructFrom</name></member>
+    <member refid="MRMeshDelone_8h_1a556163e94463973deb409d1933ecade8" kind="function"><name>MR_DeloneFlipsCache_OffsetPtr</name></member>
+    <member refid="MRMeshDelone_8h_1aac9f8f461509e3bb91f69d65b0d90910" kind="function"><name>MR_DeloneFlipsCache_OffsetMutablePtr</name></member>
+    <member refid="MRMeshDelone_8h_1a7654026b5703e7f77a8ced058935efa1" kind="function"><name>MR_DeloneFlipsCache_ConstructFromAnother</name></member>
+    <member refid="MRMeshDelone_8h_1af31c38d937e9479c439debe5ab2b87fb" kind="function"><name>MR_DeloneFlipsCache_Destroy</name></member>
+    <member refid="MRMeshDelone_8h_1ad16ce250de223f3814d2e4e654a398d3" kind="function"><name>MR_DeloneFlipsCache_DestroyArray</name></member>
+    <member refid="MRMeshDelone_8h_1a09f5bbf9cd42924072eb4914f604d65c" kind="function"><name>MR_DeloneFlipsCache_AssignFromAnother</name></member>
     <member refid="MRMeshDelone_8h_1ab382ccf9bff4ad95abc83be82b86bcab" kind="function"><name>MR_DeloneSettings_Get_maxDeviationAfterFlip</name></member>
     <member refid="MRMeshDelone_8h_1a3d5a9ef28ddad840f8bfa35847bdf6e9" kind="function"><name>MR_DeloneSettings_Set_maxDeviationAfterFlip</name></member>
     <member refid="MRMeshDelone_8h_1ac28f3dc4732210e59b0f1f2028bf45b5" kind="function"><name>MR_DeloneSettings_GetMutable_maxDeviationAfterFlip</name></member>
@@ -14496,9 +14521,12 @@
     <member refid="MRMeshDelone_8h_1a1c7887a0da25c488b74ac6d02d337441" kind="function"><name>MR_DeloneSettings_Get_vertRegion</name></member>
     <member refid="MRMeshDelone_8h_1ae9a3775cc08b8778c301be0e67730fbf" kind="function"><name>MR_DeloneSettings_Set_vertRegion</name></member>
     <member refid="MRMeshDelone_8h_1ab8de94203cd043809fdc16f8e77028e8" kind="function"><name>MR_DeloneSettings_GetMutable_vertRegion</name></member>
+    <member refid="MRMeshDelone_8h_1aba4b0fd2956311109d8aca1a7c90a5cb" kind="function"><name>MR_DeloneSettings_Get_cache</name></member>
+    <member refid="MRMeshDelone_8h_1a84934f84041db39b9db7fc99681e683a" kind="function"><name>MR_DeloneSettings_Set_cache</name></member>
+    <member refid="MRMeshDelone_8h_1a3fdd0aa8d6e03267cb0b7b791d9cf319" kind="function"><name>MR_DeloneSettings_GetMutable_cache</name></member>
     <member refid="MRMeshDelone_8h_1af98987e5b4a51a7bf0b05b242a777913" kind="function"><name>MR_DeloneSettings_DefaultConstruct</name></member>
     <member refid="MRMeshDelone_8h_1a1b868f66091b09e9dc54bf1b4b04a57d" kind="function"><name>MR_DeloneSettings_DefaultConstructArray</name></member>
-    <member refid="MRMeshDelone_8h_1a5dd1ad27b8b59bfb5f4d00e014926c58" kind="function"><name>MR_DeloneSettings_ConstructFrom</name></member>
+    <member refid="MRMeshDelone_8h_1aa3fd693bfca8b27095271b276d1bd076" kind="function"><name>MR_DeloneSettings_ConstructFrom</name></member>
     <member refid="MRMeshDelone_8h_1a61efef6e1a53733eea701508fb204558" kind="function"><name>MR_DeloneSettings_OffsetPtr</name></member>
     <member refid="MRMeshDelone_8h_1a7df3bccd2f24c3ce3bfb7b2d91f946c6" kind="function"><name>MR_DeloneSettings_OffsetMutablePtr</name></member>
     <member refid="MRMeshDelone_8h_1abfe3294a46a323f38385904a11e36af9" kind="function"><name>MR_DeloneSettings_ConstructFromAnother</name></member>

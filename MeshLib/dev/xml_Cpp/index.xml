@@ -2440,6 +2440,13 @@
     <member refid="group__GeneralGroup_1ga953ff1190ff60fc2904411b3edd7c189" kind="function"><name>frame_</name></member>
     <member refid="group__GeneralGroup_1gadfb66ad05c281fed2a7b4e25cd6d9a0f" kind="function"><name>preDestruct_</name></member>
   </compound>
+  <compound refid="structMR_1_1DeloneFlipsCache" kind="struct"><name>MR::DeloneFlipsCache</name>
+    <member refid="structMR_1_1DeloneFlipsCache_1a82541a219cbf4d1deff8d55e0e0d618d" kind="variable"><name>flipCandidates</name></member>
+    <member refid="structMR_1_1DeloneFlipsCache_1a3a1a1bc0543a674c264e79c91353b0c6" kind="variable"><name>nextFlipCandidates</name></member>
+    <member refid="structMR_1_1DeloneFlipsCache_1a238e6b49d80746fc39866fa132c510d3" kind="variable"><name>queuedEdges</name></member>
+    <member refid="structMR_1_1DeloneFlipsCache_1a9a35236144629c8b122c73e09d8a57b3" kind="variable"><name>roundEdges</name></member>
+    <member refid="structMR_1_1DeloneFlipsCache_1a952f52b549cb750bf0006e86f02e64f8" kind="variable"><name>nextRoundEdges</name></member>
+  </compound>
   <compound refid="structMR_1_1DeloneSettings" kind="struct"><name>MR::DeloneSettings</name>
     <member refid="structMR_1_1DeloneSettings_1acc54a4a2c29214632bccda65b6e0cba0" kind="variable"><name>maxDeviationAfterFlip</name></member>
     <member refid="structMR_1_1DeloneSettings_1a2d89f7e52be83dd63ce7daed50c40c90" kind="variable"><name>maxAngleChange</name></member>
@@ -2447,6 +2454,7 @@
     <member refid="structMR_1_1DeloneSettings_1a0f1d4b68cf91c9aebfb8f580d7ab6610" kind="variable"><name>region</name></member>
     <member refid="structMR_1_1DeloneSettings_1a513ebe0c472b1ac5cdfa1226d4f52e27" kind="variable"><name>notFlippable</name></member>
     <member refid="structMR_1_1DeloneSettings_1a59743925cda5ef4a2b87449e410897e8" kind="variable"><name>vertRegion</name></member>
+    <member refid="structMR_1_1DeloneSettings_1aa9b9e4eb7d2bb9781d1170012f3c98b2" kind="variable"><name>cache</name></member>
   </compound>
   <compound refid="classMR_1_1DemoPlugin" kind="class"><name>MR::DemoPlugin</name>
     <member refid="group__GeneralGroup_1gace2c158a224cd44af075518041d25968" kind="variable"><name>demoSphere_</name></member>

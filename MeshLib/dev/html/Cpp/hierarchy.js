@@ -327,6 +327,7 @@ var hierarchy =
     [ "MR::DecimatePolylineSettings< V >", "structMR_1_1DecimatePolylineSettings.html", null ],
     [ "MR::DecimateResult", "structMR_1_1DecimateResult.html", null ],
     [ "MR::DecimateSettings", "structMR_1_1DecimateSettings.html", null ],
+    [ "MR::DeloneFlipsCache", "structMR_1_1DeloneFlipsCache.html", null ],
     [ "MR::DeloneSettings", "structMR_1_1DeloneSettings.html", null ],
     [ "MR::DenoiseViaNormalsSettings", "structMR_1_1DenoiseViaNormalsSettings.html", null ],
     [ "MR::DenseBox", "structMR_1_1DenseBox.html", null ],

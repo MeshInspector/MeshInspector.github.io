@@ -234,6 +234,7 @@ var hierarchy =
     [ "mrmeshpy.DecimateResult", "classmrmeshpy_1_1DecimateResult.html", null ],
     [ "mrmeshpy.DecimateSettings", "classmrmeshpy_1_1DecimateSettings.html", null ],
     [ "mrmeshpy.DecimateStrategy", "classmrmeshpy_1_1DecimateStrategy.html", null ],
+    [ "mrmeshpy.DeloneFlipsCache", "classmrmeshpy_1_1DeloneFlipsCache.html", null ],
     [ "mrmeshpy.DeloneSettings", "classmrmeshpy_1_1DeloneSettings.html", null ],
     [ "mrmeshpy.DenoiseViaNormalsSettings", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html", null ],
     [ "mrmeshpy.DenseBox", "classmrmeshpy_1_1DenseBox.html", null ],

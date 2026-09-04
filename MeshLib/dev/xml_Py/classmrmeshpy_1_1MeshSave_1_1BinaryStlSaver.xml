@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35640" bodyend="35643"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35714" bodyend="35717"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1BinaryStlSaver_1a32fcb36d26755ed4b1339b8216a3625a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -56,7 +56,7 @@ updates the number in the header
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35644" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35644" bodyend="35648"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35718" bodyend="35722"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1BinaryStlSaver_1a1125f772a5883f780e7c9d2f7d190d2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -80,7 +80,7 @@ updates the number in the header
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35649" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35649" bodyend="35653"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35723" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35723" bodyend="35727"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -91,7 +91,7 @@ updates the number in the header
 saver in binary .stl format that can write triangles one by one not knowing their number beforehand
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35634" bodyend="35652"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35708" bodyend="35726"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshSave_1_1BinaryStlSaver_1ae5f2de3ddf61e27fd7719b8858454214" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::BinaryStlSaver</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1BinaryStlSaver_1a32fcb36d26755ed4b1339b8216a3625a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::BinaryStlSaver</scope><name>updateHeadCounter</name></member>

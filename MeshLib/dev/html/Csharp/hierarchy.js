@@ -720,6 +720,9 @@ var hierarchy =
       [ "MR.Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html", [
         [ "MR.DecimateSettings", "classMR_1_1DecimateSettings.html", null ]
       ] ],
+      [ "MR.Const_DeloneFlipsCache", "classMR_1_1Const__DeloneFlipsCache.html", [
+        [ "MR.DeloneFlipsCache", "classMR_1_1DeloneFlipsCache.html", null ]
+      ] ],
       [ "MR.Const_DeloneSettings", "classMR_1_1Const__DeloneSettings.html", [
         [ "MR.DeloneSettings", "classMR_1_1DeloneSettings.html", null ]
       ] ],
@@ -3769,6 +3772,7 @@ var hierarchy =
       [ "MR.Const_DecimatePolylineSettings_MRVector3f", "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html", null ],
       [ "MR.Const_DecimateResult", "classMR_1_1Const__DecimateResult.html", null ],
       [ "MR.Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html", null ],
+      [ "MR.Const_DeloneFlipsCache", "classMR_1_1Const__DeloneFlipsCache.html", null ],
       [ "MR.Const_DeloneSettings", "classMR_1_1Const__DeloneSettings.html", null ],
       [ "MR.Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html", null ],
       [ "MR.Const_DenseBox", "classMR_1_1Const__DenseBox.html", null ],
