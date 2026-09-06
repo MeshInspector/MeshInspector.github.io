@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1CutByProjectionSettings.html#adbaa4f1db2e1aceaad4f152052bfe642":[8,3,0,0,0,1109,0],
+"classMR_1_1CutByProjectionSettings.html#aeb6c52ddc7105374ea595db9469cb578":[8,3,0,0,0,1109,2],
 "classMR_1_1CutByProjectionSettings.html#af4530181b0b21c811a0cca7106f3c0e1":[8,3,0,0,0,1109,6],
 "classMR_1_1CutMeshParameters.html":[8,3,0,0,0,1110],
 "classMR_1_1CutMeshParameters.html#a09f00bd0b51c745e195525112957c609":[8,3,0,0,0,1110,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1DenoiseViaNormalsSettings.html#a9f2d3a49973385aa25c60257c066d7a7":[8,3,0,0,0,1122,12],
 "classMR_1_1DenoiseViaNormalsSettings.html#aa4396848d0d42010f285365a71827e4b":[8,3,0,0,0,1122,15],
 "classMR_1_1DenoiseViaNormalsSettings.html#aa969bb3f8ab3f04e2bce245b7133f138":[8,3,0,0,0,1122,4],
-"classMR_1_1DenoiseViaNormalsSettings.html#adb3af5a3ba12b28f690ec76e46a1a439":[8,3,0,0,0,1122,6],
-"classMR_1_1DenseBox.html":[8,3,0,0,0,1123],
-"classMR_1_1DenseBox.html#a2f01b359ffb4eaec35d03e60d106656f":[8,3,0,0,0,1123,0]
+"classMR_1_1DenoiseViaNormalsSettings.html#adb3af5a3ba12b28f690ec76e46a1a439":[8,3,0,0,0,1122,6]
 };

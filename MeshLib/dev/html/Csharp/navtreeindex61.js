@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"classMR_1_1Const__NodeBitSet.html#abb6911725c363f0e4457071618db1822":[8,3,0,0,0,637,26],
+"classMR_1_1Const__NodeBitSet.html#ac3644edf2504d2ad38af252920a6176c":[8,3,0,0,0,637,43],
 "classMR_1_1Const__NodeBitSet.html#ac4830f1acc097e14c324aa2558740f11":[8,3,0,0,0,637,22],
 "classMR_1_1Const__NodeBitSet.html#ac548334f48bd3684cdc13593566c3a3f":[8,3,0,0,0,637,5],
 "classMR_1_1Const__NodeBitSet.html#ac9e6350ee1b6d9b98827688ecf7dc69e":[8,3,0,0,0,637,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "classMR_1_1Const__ObjectChildrenHolder.html#a2a804a63b954f10f3476e090789a5a4a":[8,3,0,0,0,659,7],
 "classMR_1_1Const__ObjectChildrenHolder.html#a57dd2151396cf6f6fb80ff2469cfa049":[8,3,0,0,0,659,6],
 "classMR_1_1Const__ObjectChildrenHolder.html#a7cf2fa770dd464914664167b3422addb":[8,3,0,0,0,659,4],
-"classMR_1_1Const__ObjectChildrenHolder.html#acca9d9e184398bc0a6ad55d412eae9d2":[8,3,0,0,0,659,5],
-"classMR_1_1Const__ObjectChildrenHolder.html#ae4dfd271ea01fa69227d1ce980995c26":[8,3,0,0,0,659,2],
-"classMR_1_1Const__ObjectComparableWithReference.html":[8,3,0,0,0,660]
+"classMR_1_1Const__ObjectChildrenHolder.html#acca9d9e184398bc0a6ad55d412eae9d2":[8,3,0,0,0,659,5]
 };

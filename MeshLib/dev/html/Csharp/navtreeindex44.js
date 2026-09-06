@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty_1_1ReachedVert.html#a16ee1a4b39e631ab1ae1c52f496b55e8":[8,3,0,0,0,416,1,2],
+"classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty_1_1ReachedVert.html#a4025d4c21d48a1bfd133961e7201f034":[8,3,0,0,0,416,1,7],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty_1_1ReachedVert.html#a50e3ed56dc4edb9ac21ca483c159cacb":[8,3,0,0,0,416,1,6],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty_1_1ReachedVert.html#a532020cadf8c7abdfc2e9aeab18525ac":[8,3,0,0,0,416,1,0],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty_1_1ReachedVert.html#a746f4f68acce118defb9ace7105189ba":[8,3,0,0,0,416,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1Const__Face2RegionMap.html#a52bed7fb4102a657fb98d29df7043086":[8,3,0,0,0,430,7],
 "classMR_1_1Const__Face2RegionMap.html#a53189d5478a8bb2ad5c965f2c6b70ba7":[8,3,0,0,0,430,20],
 "classMR_1_1Const__Face2RegionMap.html#a600ee3393a142723c468f147f012cbf8":[8,3,0,0,0,430,25],
-"classMR_1_1Const__Face2RegionMap.html#a7f036395bb1889e778576783eec1e541":[8,3,0,0,0,430,15],
-"classMR_1_1Const__Face2RegionMap.html#a869836ca138a2b08432688115d495547":[8,3,0,0,0,430,13],
-"classMR_1_1Const__Face2RegionMap.html#a89b51c877c6dda4b513002e5afa6784c":[8,3,0,0,0,430,22]
+"classMR_1_1Const__Face2RegionMap.html#a7f036395bb1889e778576783eec1e541":[8,3,0,0,0,430,15]
 };

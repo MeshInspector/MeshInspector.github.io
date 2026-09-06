@@ -1,5 +1,7 @@
 var NAVTREEINDEX100 =
 {
+"classMR_1_1EdgeScalars.html#aaee1c36bed56d6c0aab2cd32093c2194":[8,3,0,0,0,1157,24],
+"classMR_1_1EdgeScalars.html#aafcf8c45acbd2eee3dd76a5ea8ea2276":[8,3,0,0,0,1157,1],
 "classMR_1_1EdgeScalars.html#ab0ea86b7441ac3b1f278b886d270311e":[8,3,0,0,0,1157,14],
 "classMR_1_1EdgeScalars.html#ab96955a28278c530e944fe5b4f1b4e47":[8,3,0,0,0,1157,19],
 "classMR_1_1EdgeScalars.html#abf30b355b28633d248518c0f2098a664":[8,3,0,0,0,1157,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX100 =
 "classMR_1_1FaceDistancesSettings.html#a4432ed7f82b1aeabf03a300484de12dc":[8,3,0,0,0,1172,5],
 "classMR_1_1FaceDistancesSettings.html#a56c525691d6073b793ca78b36d2b7a35":[8,3,0,0,0,1172,7],
 "classMR_1_1FaceDistancesSettings.html#a99bf1a5a726ff8cae98616b686a9b58d":[8,3,0,0,0,1172,4],
-"classMR_1_1FaceDistancesSettings.html#aa5330b3c7597d23c10dfd5b07ff7f138":[8,3,0,0,0,1172,3],
-"classMR_1_1FaceDistancesSettings.html#acdf5a30120f3135ef32e5971a88630e2":[8,3,0,0,0,1172,0],
-"classMR_1_1FaceDistancesSettings.html#ad2f2774aee9bb7b22139adfc389c8ac7":[8,3,0,0,0,1172,1]
+"classMR_1_1FaceDistancesSettings.html#aa5330b3c7597d23c10dfd5b07ff7f138":[8,3,0,0,0,1172,3]
 };

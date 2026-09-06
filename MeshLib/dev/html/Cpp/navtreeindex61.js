@@ -1,5 +1,10 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1BaseTiffParameters.html":[8,0,0,20,508],
+"structMR_1_1BasicUiRenderTask.html":[8,0,0,20,300],
+"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[8,0,0,20,301],
+"structMR_1_1BendContoursAlongCurveParams.html":[8,0,0,20,117],
+"structMR_1_1BendTextAlongCurveParams.html":[8,0,0,20,553],
 "structMR_1_1BindVertexAttribArraySettings.html":[8,0,0,20,651],
 "structMR_1_1BooleanInternalParameters.html":[8,0,0,8,1],
 "structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[8,0,0,8,1,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[8,0,2,0,2,188,4],
 "structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[8,0,1,0,1,206,6],
 "structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[8,0,2,0,2,188,6],
-"structMR_1_1DeloneSettings.html#aa9b9e4eb7d2bb9781d1170012f3c98b2":[8,0,1,0,1,206,0],
-"structMR_1_1DeloneSettings.html#aa9b9e4eb7d2bb9781d1170012f3c98b2":[8,0,2,0,2,188,0],
-"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[8,0,1,0,1,206,1],
-"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[8,0,2,0,2,188,1],
-"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[8,0,1,0,1,206,3],
-"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[8,0,2,0,2,188,3]
+"structMR_1_1DeloneSettings.html#aa9b9e4eb7d2bb9781d1170012f3c98b2":[8,0,1,0,1,206,0]
 };

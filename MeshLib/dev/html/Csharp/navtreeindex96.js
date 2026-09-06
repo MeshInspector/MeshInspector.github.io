@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"classMR_1_1ContourToDistanceMapParams.html#a4af2acf3c570e39c3ddc9fccf9e7c009":[8,3,0,0,0,1097,11],
+"classMR_1_1ContourToDistanceMapParams.html#a4ddfbc5d17e30d59bf1d5f0b71e9a267":[8,3,0,0,0,1097,5],
 "classMR_1_1ContourToDistanceMapParams.html#a5a3f206c1b2f9cc19a24210af74a8e77":[8,3,0,0,0,1097,7],
 "classMR_1_1ContourToDistanceMapParams.html#a5eb3471a6b3af5b12f185217fa0489d7":[8,3,0,0,0,1097,2],
 "classMR_1_1ContourToDistanceMapParams.html#a6d4e4a4ddb48b883d15834467094dcf9":[8,3,0,0,0,1097,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "classMR_1_1CutByProjectionSettings.html#a0d626dd400c35c53305223b0a56d0d30":[8,3,0,0,0,1109,3],
 "classMR_1_1CutByProjectionSettings.html#a14858ddeebe2727a7f0e0e49d64c1c65":[8,3,0,0,0,1109,1],
 "classMR_1_1CutByProjectionSettings.html#a3bd08216256da6a551fec6ca357b88a2":[8,3,0,0,0,1109,4],
-"classMR_1_1CutByProjectionSettings.html#a920e5c5498135589ee86466cc9f5d9fb":[8,3,0,0,0,1109,5],
-"classMR_1_1CutByProjectionSettings.html#adbaa4f1db2e1aceaad4f152052bfe642":[8,3,0,0,0,1109,0],
-"classMR_1_1CutByProjectionSettings.html#aeb6c52ddc7105374ea595db9469cb578":[8,3,0,0,0,1109,2]
+"classMR_1_1CutByProjectionSettings.html#a920e5c5498135589ee86466cc9f5d9fb":[8,3,0,0,0,1109,5]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX152 =
 {
+"std__pair__const__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#a19c26ae03e9738503f79056cb4e4fffe":[8,2,2,0,0,0,0,2,255,4],
+"std__pair__const__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#a5aa4992a3dda3a00ed4d23336397c04c":[8,2,2,0,0,0,0,2,255,9],
 "std__pair__const__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#a68d1d581ae86f872be286a7a8338e436":[8,2,2,0,0,0,0,2,255,6],
 "std__pair__const__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#a8e331052b49f2d4616087689e74ae792":[8,2,2,0,0,0,0,2,255,5],
 "std__pair__const__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#a91f5833afd8657f3e6c4ed0bd0dad771":[8,2,2,0,0,0,0,2,255,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX152 =
 "std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h.html#ab1d58ce081baeeb0dd04697b7a3a4a4f":[8,2,2,0,0,0,0,2,287,10],
 "std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h.html#ae9ce884904669a6058c7370d9084271e":[8,2,2,0,0,0,0,2,287,9],
 "std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h.html#af55c9d8081ebcd1e78a5f22c2620e4c0":[8,2,2,0,0,0,0,2,287,11],
-"std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_source.html":[8,2,2,0,0,0,0,2,287],
-"std__pair__std__vector__MR__VertBitSet__int_8h.html":[8,2,2,0,0,0,0,2,288],
-"std__pair__std__vector__MR__VertBitSet__int_8h.html#a456d38d25901f6087952eb085e24e3b7":[8,2,2,0,0,0,0,2,288,9]
+"std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_source.html":[8,2,2,0,0,0,0,2,287]
 };

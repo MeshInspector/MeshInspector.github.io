@@ -1,5 +1,7 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1TeethMaskToDirectionVolumeConvertor.html#abb58375697341604aea5c5387072be36":[8,3,0,0,0,1658,2],
+"classMR_1_1TeethMaskToDirectionVolumeConvertor.html#af17e801e395c8427b7a182ea0b5d394f":[8,3,0,0,0,1658,1],
 "classMR_1_1TeethMaskToDirectionVolumeConvertor.html#af7cdde89f0ff557eae92078920254379":[8,3,0,0,0,1658,3],
 "classMR_1_1TerminalVertex.html":[8,3,0,0,0,1659],
 "classMR_1_1TerminalVertex.html#a053e038990da79f48a141051eb5de393":[8,3,0,0,0,1659,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1TriTriDistanceParams__Double.html":[8,3,0,0,0,1683],
 "classMR_1_1TriTriDistanceParams__Double.html#a53a0ba50e31fe140a37f71f56b2383bb":[8,3,0,0,0,1683,0],
 "classMR_1_1TriTriDistanceParams__Double.html#a5d13754ea9bf2cda981b82606468c349":[8,3,0,0,0,1683,6],
-"classMR_1_1TriTriDistanceParams__Double.html#aaae9997fd16a4ef687103bd4990c43f8":[8,3,0,0,0,1683,1],
-"classMR_1_1TriTriDistanceParams__Double.html#ab09171862e177bbe02bd92d953cab638":[8,3,0,0,0,1683,5],
-"classMR_1_1TriTriDistanceParams__Double.html#ab4f8104c8bb9769f054bacd97bb90e17":[8,3,0,0,0,1683,4]
+"classMR_1_1TriTriDistanceParams__Double.html#aaae9997fd16a4ef687103bd4990c43f8":[8,3,0,0,0,1683,1]
 };

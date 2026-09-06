@@ -1,5 +1,7 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1Const__BendTextAlongCurveParams.html#a11486a12a93770713123624e5eb77027":[8,3,0,0,0,261,1],
+"classMR_1_1Const__BendTextAlongCurveParams.html#a11c17db07d9031e03eeb0e05982c0df5":[8,3,0,0,0,261,7],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a1a218beb7e80376fbbd44f34d994da47":[8,3,0,0,0,261,21],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a2137aebdfaf30d6d2cd5c8c19857ca18":[8,3,0,0,0,261,5],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a23542c1560734440eb30aa037911032d":[8,3,0,0,0,261,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1Const__Buffer__Char.html#ac24145cec563c8a04110224338f8edd4":[8,3,0,0,0,284,5],
 "classMR_1_1Const__Buffer__Char.html#ac7cba71a0a6291e3c86873b3ff265d77":[8,3,0,0,0,284,1],
 "classMR_1_1Const__Buffer__Char.html#ace0d37aa91b6c794ebfb7e250a1861cc":[8,3,0,0,0,284,13],
-"classMR_1_1Const__Buffer__Char.html#aebc3dd45d7ae17a37c91ff47c3c3a645":[8,3,0,0,0,284,12],
-"classMR_1_1Const__Buffer__Char.html#af3c154ff545548a8a04322ec4ae0ebe7":[8,3,0,0,0,284,2],
-"classMR_1_1Const__Buffer__Char.html#af679ff23dd3b7c8f742302567af1f702":[8,3,0,0,0,284,10]
+"classMR_1_1Const__Buffer__Char.html#aebc3dd45d7ae17a37c91ff47c3c3a645":[8,3,0,0,0,284,12]
 };

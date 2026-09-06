@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html":[8,0,0,20,562],
+"classMR_1_1InSphereTester.html":[8,0,0,20,293],
 "classMR_1_1InSphereTesterSoS.html":[8,0,0,20,294],
 "classMR_1_1InTreePathBuilder.html":[8,0,0,20,296],
 "classMR_1_1InplaceStack.html":[8,0,0,20,292],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "classMR_1_1ObjectChildrenHolder.html#a44a4427301ae71511f5b3138cdf02e9f":[8,0,0,11,3,6],
 "classMR_1_1ObjectChildrenHolder.html#a676c20b6eea355fe68748a8c1ad0b086":[8,0,0,11,3,1],
 "classMR_1_1ObjectChildrenHolder.html#a79a7197e0981d1da1b59f5fa0d858f7d":[8,0,0,11,3,10],
-"classMR_1_1ObjectChildrenHolder.html#ac39b8635e5ec3a3e5d0c900806a6766e":[8,0,0,11,3,2],
-"classMR_1_1ObjectChildrenHolder.html#acad4a073a2e703743e01e2e5cce9e285":[8,0,0,11,3,0],
-"classMR_1_1ObjectChildrenHolder.html#af9423022c44615eb44c4c83247239a89":[8,0,0,11,3,7]
+"classMR_1_1ObjectChildrenHolder.html#ac39b8635e5ec3a3e5d0c900806a6766e":[8,0,0,11,3,2]
 };

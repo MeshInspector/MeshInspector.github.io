@@ -9255,6 +9255,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a40615f7945e27eae8640975e947c7703"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a40615f7945e27eae8640975e947c7703" title="Generated from function MR.makeCylinderAdvanced. Parameter radius0 defaults to 0.100000001f....">MR.makeCylinderAdvanced</a></span>. Parameter <span class="tt">radius0</span> defaults to <span class="tt">0.100000001f</span>. Parameter <span class="tt">radius1</span> defaults to <span class="tt">0.100000001f</span>. Parameter <span class="tt">start_angle</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">arc_size</span> defaults to <span class="tt">2.0f*MR::PI_F</span>. Parameter <span class="tt">length</span> defaults to <span class="tt">1.0f</span>. Parameter <span class="tt">resolution</span> defaults to <span class="tt">16</span>.  <br /></td></tr>
 <tr class="memitem:a0f18b8bef9a15812355ffd7621195ff7" id="r_a0f18b8bef9a15812355ffd7621195ff7"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f18b8bef9a15812355ffd7621195ff7">makeCone</a> (float? radius0=null, float? length=null, int? resolution=null)</td></tr>
 <tr class="memdesc:a0f18b8bef9a15812355ffd7621195ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a0f18b8bef9a15812355ffd7621195ff7" title="Generated from function MR.makeCone. Parameter radius0 defaults to 0.100000001f. Parameter length def...">MR.makeCone</a></span>. Parameter <span class="tt">radius0</span> defaults to <span class="tt">0.100000001f</span>. Parameter <span class="tt">length</span> defaults to <span class="tt">1.0f</span>. Parameter <span class="tt">resolution</span> defaults to <span class="tt">32</span>.  <br /></td></tr>
+<tr class="memitem:a7a2fd6c9db8b83882407c366c3776ec7" id="r_a7a2fd6c9db8b83882407c366c3776ec7"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a2fd6c9db8b83882407c366c3776ec7">delaunayTriangulationXY</a> (MR.Std._ByValue_Vector_MRVector3f points, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a7a2fd6c9db8b83882407c366c3776ec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates Delaunay triangulation of given points projected on XY plane, the vertices of the resulting mesh have the original 3D coordinates and the same ids as the input points; points will be moved inside this function, so the argument is taken by value Generated from function <span class="tt"><a class="el" href="#a7a2fd6c9db8b83882407c366c3776ec7" title="Creates Delaunay triangulation of given points projected on XY plane, the vertices of the resulting m...">MR.delaunayTriangulationXY</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a0e6541b14a9dac3653b66def6cd8fe80" id="r_a0e6541b14a9dac3653b66def6cd8fe80"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e6541b14a9dac3653b66def6cd8fe80">delaunayTriangulationXY</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> cloud, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a0e6541b14a9dac3653b66def6cd8fe80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates Delaunay triangulation of valid points of the cloud projected on XY plane, vertex ids in the resulting mesh are the same as in the cloud (invalid points become invalid vertices) Generated from function <span class="tt"><a class="el" href="#a7a2fd6c9db8b83882407c366c3776ec7" title="Creates Delaunay triangulation of given points projected on XY plane, the vertices of the resulting m...">MR.delaunayTriangulationXY</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a630013d66dd6ec05562c1b7a16f274fe" id="r_a630013d66dd6ec05562c1b7a16f274fe"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a630013d66dd6ec05562c1b7a16f274fe">delaunayTriangulationXY</a> (MR.Misc._Moved&lt; <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a> &gt; cloud, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a630013d66dd6ec05562c1b7a16f274fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, but moves cloud points into the resulting mesh instead of copying them Generated from function <span class="tt"><a class="el" href="#a7a2fd6c9db8b83882407c366c3776ec7" title="Creates Delaunay triangulation of given points projected on XY plane, the vertices of the resulting m...">MR.delaunayTriangulationXY</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:acec61d8702c54a9a100573ebaa8111f0" id="r_acec61d8702c54a9a100573ebaa8111f0"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acec61d8702c54a9a100573ebaa8111f0">calcDipoles</a> (<a class="el" href="classMR_1_1Dipoles.html">MR.Dipoles</a> dipoles, <a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, <a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh)</td></tr>
 <tr class="memdesc:acec61d8702c54a9a100573ebaa8111f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates dipoles for given mesh and AABB-tree Generated from function <span class="tt"><a class="el" href="#acec61d8702c54a9a100573ebaa8111f0" title="calculates dipoles for given mesh and AABB-tree Generated from function MR.calcDipoles.">MR.calcDipoles</a></span>.  <br /></td></tr>
 <tr class="memitem:aa4e40c2a080b9c9f5342514cae63e999" id="r_aa4e40c2a080b9c9f5342514cae63e999"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Dipoles.html">MR.Dipoles</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4e40c2a080b9c9f5342514cae63e999">calcDipoles</a> (<a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, <a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh)</td></tr>
@@ -11137,8 +11143,6 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:a3f2c3d315f40543d82d16bd8d0911243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setups logger: 1) makes stdout sink 2) makes file sink (MRLog.txt) 3) redirect std streams to logger 4) add custom sink if provided 5) print stacktrace on crash (not in wasm) log level - trace Generated from function <span class="tt"><a class="el" href="#a3f2c3d315f40543d82d16bd8d0911243" title="Setups logger: 1) makes stdout sink 2) makes file sink (MRLog.txt) 3) redirect std streams to logger ...">MR.setupLoggerByDefault</a></span>. Parameter <span class="tt">customLogSinkAdder</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:af56b42ffdbd35c6375425f81128cc625" id="r_af56b42ffdbd35c6375425f81128cc625"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af56b42ffdbd35c6375425f81128cc625">intLog2</a> (nuint n)</td></tr>
 <tr class="memdesc:af56b42ffdbd35c6375425f81128cc625"><td class="mdescLeft">&#160;</td><td class="mdescRight">integer binary logarithm: 0 -&gt; 0 1 -&gt; 1 [2,4) -&gt; 2 [4,8) -&gt; 3 ... Generated from function <span class="tt"><a class="el" href="#af56b42ffdbd35c6375425f81128cc625" title="integer binary logarithm: 0 -&gt; 0 1 -&gt; 1 [2,4) -&gt; 2 [4,8) -&gt; 3 ... Generated from function MR....">MR.intLog2</a></span>.  <br /></td></tr>
-<tr class="memitem:a2d5371466d8ef4dfa9eb977699e9f44c" id="r_a2d5371466d8ef4dfa9eb977699e9f44c"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d5371466d8ef4dfa9eb977699e9f44c">terrainTriangulation</a> (MR.Std._ByValue_Vector_MRVector3f points, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
-<tr class="memdesc:a2d5371466d8ef4dfa9eb977699e9f44c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates Delaunay triangulation using only XY components of points points will be changed inside this function take argument by value Generated from function <span class="tt"><a class="el" href="#a2d5371466d8ef4dfa9eb977699e9f44c" title="Creates Delaunay triangulation using only XY components of points points will be changed inside this ...">MR.terrainTriangulation</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a7cd260780645bc9fb94b14b47ca7ca10" id="r_a7cd260780645bc9fb94b14b47ca7ca10"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRVector2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cd260780645bc9fb94b14b47ca7ca10">findVertexUV</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, <a class="el" href="classMR_1_1Const__TriCornerUVCoords.html">MR.Const_TriCornerUVCoords</a> triCornerUvCoords)</td></tr>
 <tr class="memdesc:a7cd260780645bc9fb94b14b47ca7ca10"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns UV-coordinates at the given vertex if they are the same in all surrounding triangles; otherwise returns std::nullopt Generated from function <span class="tt"><a class="el" href="#a7cd260780645bc9fb94b14b47ca7ca10" title="returns UV-coordinates at the given vertex if they are the same in all surrounding triangles; otherwi...">MR.findVertexUV</a></span>.  <br /></td></tr>
 <tr class="memitem:aa7880a792cc8204ab77e68904f70fb26" id="r_aa7880a792cc8204ab77e68904f70fb26"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRVertCoords2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7880a792cc8204ab77e68904f70fb26">findVertexUVs</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__TriCornerUVCoords.html">MR.Const_TriCornerUVCoords</a> triCornerUvCoords)</td></tr>
@@ -30346,6 +30350,99 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 </div><div class="memdoc">
 
 <p>returns file extension used to serialize <a class="el" href="classMR_1_1ObjectVoxels.html" title="This class stores information about voxels object Generated from class MR.ObjectVoxels....">ObjectVoxels</a> by default (if not overridden in specific object), the string starts with '.' Generated from function <span class="tt"><a class="el" href="#a20ce6dc9e83f0b6c131eaf3c17a512da" title="returns file extension used to serialize ObjectVoxels by default (if not overridden in specific objec...">MR.defaultSerializeVoxelsFormat</a></span>. </p>
+
+</div>
+</div>
+<a id="a0e6541b14a9dac3653b66def6cd8fe80" name="a0e6541b14a9dac3653b66def6cd8fe80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e6541b14a9dac3653b66def6cd8fe80">&#9670;&#160;</a></span>delaunayTriangulationXY() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> MR.delaunayTriangulationXY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a></td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates Delaunay triangulation of valid points of the cloud projected on XY plane, vertex ids in the resulting mesh are the same as in the cloud (invalid points become invalid vertices) Generated from function <span class="tt"><a class="el" href="#a7a2fd6c9db8b83882407c366c3776ec7" title="Creates Delaunay triangulation of given points projected on XY plane, the vertices of the resulting m...">MR.delaunayTriangulationXY</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="a630013d66dd6ec05562c1b7a16f274fe" name="a630013d66dd6ec05562c1b7a16f274fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a630013d66dd6ec05562c1b7a16f274fe">&#9670;&#160;</a></span>delaunayTriangulationXY() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> MR.delaunayTriangulationXY </td>
+          <td>(</td>
+          <td class="paramtype">MR.Misc._Moved&lt; <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>same as above, but moves cloud points into the resulting mesh instead of copying them Generated from function <span class="tt"><a class="el" href="#a7a2fd6c9db8b83882407c366c3776ec7" title="Creates Delaunay triangulation of given points projected on XY plane, the vertices of the resulting m...">MR.delaunayTriangulationXY</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="a7a2fd6c9db8b83882407c366c3776ec7" name="a7a2fd6c9db8b83882407c366c3776ec7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a2fd6c9db8b83882407c366c3776ec7">&#9670;&#160;</a></span>delaunayTriangulationXY() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> MR.delaunayTriangulationXY </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std._ByValue_Vector_MRVector3f</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates Delaunay triangulation of given points projected on XY plane, the vertices of the resulting mesh have the original 3D coordinates and the same ids as the input points; points will be moved inside this function, so the argument is taken by value Generated from function <span class="tt"><a class="el" href="#a7a2fd6c9db8b83882407c366c3776ec7" title="Creates Delaunay triangulation of given points projected on XY plane, the vertices of the resulting m...">MR.delaunayTriangulationXY</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>
@@ -72658,37 +72755,6 @@ default metric: ComplexStitchMetric. </p>
 
 </div>
 </div>
-<a id="a2d5371466d8ef4dfa9eb977699e9f44c" name="a2d5371466d8ef4dfa9eb977699e9f44c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d5371466d8ef4dfa9eb977699e9f44c">&#9670;&#160;</a></span>terrainTriangulation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> MR.terrainTriangulation </td>
-          <td>(</td>
-          <td class="paramtype">MR.Std._ByValue_Vector_MRVector3f</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">MR.Std._ByValue_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates Delaunay triangulation using only XY components of points points will be changed inside this function take argument by value Generated from function <span class="tt"><a class="el" href="#a2d5371466d8ef4dfa9eb977699e9f44c" title="Creates Delaunay triangulation using only XY components of points points will be changed inside this ...">MR.terrainTriangulation</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
-
-</div>
-</div>
 <a id="a54bef7af1348a860bc491f2f317c5e6e" name="a54bef7af1348a860bc491f2f317c5e6e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a54bef7af1348a860bc491f2f317c5e6e">&#9670;&#160;</a></span>thickenMesh()</h2>
 
@@ -75293,6 +75359,7 @@ default metric: ComplexStitchMetric. </p>
 <li><a class="el" href="MRConvexHull_8cs.html">MRConvexHull.cs</a></li>
 <li><a class="el" href="MRCube_8cs.html">MRCube.cs</a></li>
 <li><a class="el" href="MRCylinder_8cs.html">MRCylinder.cs</a></li>
+<li><a class="el" href="MRDelaunayTriangulationXY_8cs.html">MRDelaunayTriangulationXY.cs</a></li>
 <li><a class="el" href="MRDipole_8cs.html">MRDipole.cs</a></li>
 <li><a class="el" href="MRDirMax_8cs.html">MRDirMax.cs</a></li>
 <li><a class="el" href="MRDirMaxBruteForce_8cs.html">MRDirMaxBruteForce.cs</a></li>
@@ -75446,7 +75513,6 @@ default metric: ComplexStitchMetric. </p>
 <li><a class="el" href="MRSurroundingContour_8cs.html">MRSurroundingContour.cs</a></li>
 <li><a class="el" href="MRSystem_8cs.html">MRSystem.cs</a></li>
 <li><a class="el" href="MRTelemetry_8cs.html">MRTelemetry.cs</a></li>
-<li><a class="el" href="MRTerrainTriangulation_8cs.html">MRTerrainTriangulation.cs</a></li>
 <li><a class="el" href="MRTextureColors_8cs.html">MRTextureColors.cs</a></li>
 <li><a class="el" href="MRTimer_8cs.html">MRTimer.cs</a></li>
 <li><a class="el" href="MRTorus_8cs.html">MRTorus.cs</a></li>

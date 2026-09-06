@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1Const__DistanceMap.html#a611f7f62192e935436d51f886afa3687":[8,3,0,0,0,398,21],
+"classMR_1_1Const__DistanceMap.html#a6966b075259e2a5424acd26d59597bf2":[8,3,0,0,0,398,16],
 "classMR_1_1Const__DistanceMap.html#a6cca14a2a97317429dfacbffa4cab120":[8,3,0,0,0,398,9],
 "classMR_1_1Const__DistanceMap.html#a7753a7e249ac75ad697f3131e601d99d":[8,3,0,0,0,398,24],
 "classMR_1_1Const__DistanceMap.html#a791add6cd1dd36e855fbe4d7564d480e":[8,3,0,0,0,398,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1Const__DividePolylineParameters.html#abcf5b37155d57773dc7e0d268d6da3e4":[8,3,0,0,0,407,3],
 "classMR_1_1Const__DividePolylineParameters.html#acd04adce37a0fdb6124e19207004b429":[8,3,0,0,0,407,6],
 "classMR_1_1Const__DividePolylineParameters.html#ae1f2ed468c58e365f628a2743047a0e8":[8,3,0,0,0,407,0],
-"classMR_1_1Const__DividePolylineParameters.html#ae3d57d6396fa1a6a16af01227b677b1c":[8,3,0,0,0,407,4],
-"classMR_1_1Const__DividePolylineParameters.html#aeb41b9fb8b92bc587d7402ca574adf13":[8,3,0,0,0,407,14],
-"classMR_1_1Const__DividePolylineParameters.html#aef5833798ee8a7a51e5931ed32a53e9a":[8,3,0,0,0,407,17]
+"classMR_1_1Const__DividePolylineParameters.html#ae3d57d6396fa1a6a16af01227b677b1c":[8,3,0,0,0,407,4]
 };

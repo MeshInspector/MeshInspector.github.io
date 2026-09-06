@@ -1,5 +1,7 @@
 var NAVTREEINDEX103 =
 {
+"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a07609e92425910fe47a8c09be99d2d78":[8,3,0,0,0,1187,5,6,1],
+"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a07fd647e7d4b4e116595e22dbf085e20":[8,3,0,0,0,1187,5,6,2],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a56998405976a406028c0f47ea247080e":[8,3,0,0,0,1187,5,6,4],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a6488a5cfe87fc34a5de5c120c2f6fc81":[8,3,0,0,0,1187,5,6,3],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a7c58a3b14ffa0f1fd598ab11afce6f1a":[8,3,0,0,0,1187,5,6,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX103 =
 "classMR_1_1FindDisorientationParams.html#a9af2894afb52c9416aa585d6799d627c":[8,3,0,0,0,1194,7],
 "classMR_1_1FindDisorientationParams.html#ad2b59bbf468b95b034491daeed513270":[8,3,0,0,0,1194,2],
 "classMR_1_1FindDisorientationParams.html#ad4f8ddcd9bf012d8e041191d6e380b72":[8,3,0,0,0,1194,1],
-"classMR_1_1FindDisorientationParams.html#aec5c92f69d4cc5f579fd7a7c46ae4ba5":[8,3,0,0,0,1194,3],
-"classMR_1_1FindInnerShellSettings.html":[8,3,0,0,0,1195],
-"classMR_1_1FindInnerShellSettings.html#a07ef823825c6c4eca9db5b4d818150e3":[8,3,0,0,0,1195,9]
+"classMR_1_1FindDisorientationParams.html#aec5c92f69d4cc5f579fd7a7c46ae4ba5":[8,3,0,0,0,1194,3]
 };

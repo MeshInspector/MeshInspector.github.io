@@ -91103,6 +91103,78 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </inbodydescription>
         <location file="MRMesh/MRCylinderObject.h" line="89" column="11"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga03e4bafcf07de23aba92cf73b46b85e7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::delaunayTriangulationXY</definition>
+        <argsstring>(std::vector&lt; Vector3f &gt; points, const ProgressCallback &amp;cb={})</argsstring>
+        <name>delaunayTriangulationXY</name>
+        <qualifiedname>MR::delaunayTriangulationXY</qualifiedname>
+        <param>
+          <type>std::vector&lt; Vector3f &gt;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates Delaunay triangulation of given points projected on XY plane, the vertices of the resulting mesh have the original 3D coordinates and the same ids as the input points; points will be moved inside this function, so the argument is taken by value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRDelaunayTriangulationXY.h" line="16" column="12" declfile="MRMesh/MRDelaunayTriangulationXY.h" declline="16" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga6b8f8de83a2129d91b27d35fb05da042" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::delaunayTriangulationXY</definition>
+        <argsstring>(const PointCloud &amp;cloud, const ProgressCallback &amp;cb={})</argsstring>
+        <name>delaunayTriangulationXY</name>
+        <qualifiedname>MR::delaunayTriangulationXY</qualifiedname>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates Delaunay triangulation of valid points of the cloud projected on XY plane, vertex ids in the resulting mesh are the same as in the cloud (invalid points become invalid vertices) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRDelaunayTriangulationXY.h" line="20" column="12" declfile="MRMesh/MRDelaunayTriangulationXY.h" declline="20" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga84b8f659711d0141a8edf4d898decc92" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::delaunayTriangulationXY</definition>
+        <argsstring>(PointCloud &amp;&amp;cloud, const ProgressCallback &amp;cb={})</argsstring>
+        <name>delaunayTriangulationXY</name>
+        <qualifiedname>MR::delaunayTriangulationXY</qualifiedname>
+        <param>
+          <type>PointCloud &amp;&amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>same as above, but moves cloud points into the resulting mesh instead of copying them </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRDelaunayTriangulationXY.h" line="23" column="12" declfile="MRMesh/MRDelaunayTriangulationXY.h" declline="23" declcolumn="12"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2eeee7c69c1cc455568a2ab69d3a179b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>MR::DenseBox::DenseBox</definition>
@@ -144064,10 +144136,10 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRTelemetry.h" line="22" column="12" bodyfile="MRMesh/MRTelemetry.h" bodystart="22" bodyend="31"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga3ff0cba60a401078d669a6e469f283c0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; Mesh &gt;</type>
-        <definition>Expected&lt; Mesh &gt; MR::terrainTriangulation</definition>
-        <argsstring>(std::vector&lt; Vector3f &gt; points, ProgressCallback cb={})</argsstring>
+      <memberdef kind="function" id="group__GeneralGroup_1gac7d752efc747cf47aa91ccdce5bc770f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE Expected&lt; Mesh &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; Mesh &gt; MR::terrainTriangulation</definition>
+        <argsstring>(std::vector&lt; Vector3f &gt; points, const ProgressCallback &amp;cb={})</argsstring>
         <name>terrainTriangulation</name>
         <qualifiedname>MR::terrainTriangulation</qualifiedname>
         <param>
@@ -144075,18 +144147,17 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
           <declname>points</declname>
         </param>
         <param>
-          <type>ProgressCallback</type>
+          <type>const ProgressCallback &amp;</type>
           <declname>cb</declname>
           <defval>{}</defval>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Creates Delaunay triangulation using only XY components of points points will be changed inside this function take argument by value </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTerrainTriangulation.h" line="15" column="12" declfile="MRMesh/MRTerrainTriangulation.h" declline="15" declcolumn="12"/>
+        <location file="MRMesh/MRTerrainTriangulation.h" line="11" column="32" bodyfile="MRMesh/MRTerrainTriangulation.h" bodystart="11" bodyend="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac11e11e244aac02b0b69506b6657c706" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; UVCoord &gt;</type>

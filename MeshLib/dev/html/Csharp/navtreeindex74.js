@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"classMR_1_1Const__Quaternionf.html#a2a1ce343fe6da4a81020bada6b08b009":[8,3,0,0,0,778,15],
+"classMR_1_1Const__Quaternionf.html#a2b0a193ce05f44a3c56ad6fcf8cc95f1":[8,3,0,0,0,778,27],
 "classMR_1_1Const__Quaternionf.html#a30d543171609311dbd1c342221dd46be":[8,3,0,0,0,778,28],
 "classMR_1_1Const__Quaternionf.html#a5168b0e6a1d66730cd806c3a919171d9":[8,3,0,0,0,778,22],
 "classMR_1_1Const__Quaternionf.html#a57048a64f93c2ca4e98822bfeab6a40a":[8,3,0,0,0,778,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "classMR_1_1Const__RegionBitSet.html#af91d44a1fd700ab600b5de8fd9f139a1":[8,3,0,0,0,784,10],
 "classMR_1_1Const__RegionBitSet.html#afa4df6a2c99a22ecefe3a2e2f2f619fb":[8,3,0,0,0,784,35],
 "classMR_1_1Const__RegionBitSet.html#afda93384c4810089e4eac01b57aba7b7":[8,3,0,0,0,784,4],
-"classMR_1_1Const__RegularMapMesher.html":[8,3,0,0,0,785],
-"classMR_1_1Const__RegularMapMesher.html#a33768ea39ee571054fa19c96de53cee0":[8,3,0,0,0,785,0],
-"classMR_1_1Const__RegularMapMesher.html#a59c844fc1e48e099b735d1dcebf6bde9":[8,3,0,0,0,785,6]
+"classMR_1_1Const__RegularMapMesher.html":[8,3,0,0,0,785]
 };

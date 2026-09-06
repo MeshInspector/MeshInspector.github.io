@@ -26,7 +26,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C Docs: MRTerrainTriangulation.h File Reference</title>
+<title>MeshLib C++ Docs: MRMesh/MRDelaunayTriangulationXY.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -75,7 +75,7 @@ MathJax.Hub.Config({
  <tr id="projectrow">
   <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
   <td id="projectalign">
-   <div id="projectname">MeshLib C Docs
+   <div id="projectname">MeshLib C++ Docs
    </div>
   </td>
  </tr>
@@ -111,7 +111,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('MRTerrainTriangulation_8h.html','',''); });
+$(function(){initNavTree('MRDelaunayTriangulationXY_8h.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -138,52 +138,30 @@ $(function(){initNavTree('MRTerrainTriangulation_8h.html','',''); });
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">MRTerrainTriangulation.h File Reference</div></div>
+  <div class="headertitle"><div class="title">MRDelaunayTriangulationXY.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMesh_8h_source.html">MRMesh.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
 </div>
-<p><a href="MRTerrainTriangulation_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="MRDelaunayTriangulationXY_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8d6422c61a56ff4d69b354d8f6215948" id="r_a8d6422c61a56ff4d69b354d8f6215948"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d6422c61a56ff4d69b354d8f6215948">MR_terrainTriangulation</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> points_pass_by, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:ga03e4bafcf07de23aba92cf73b46b85e7" id="r_ga03e4bafcf07de23aba92cf73b46b85e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga03e4bafcf07de23aba92cf73b46b85e7">MR::delaunayTriangulationXY</a> (std::vector&lt; Vector3f &gt; points, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memitem:ga6b8f8de83a2129d91b27d35fb05da042" id="r_ga6b8f8de83a2129d91b27d35fb05da042"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6b8f8de83a2129d91b27d35fb05da042">MR::delaunayTriangulationXY</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memitem:ga84b8f659711d0141a8edf4d898decc92" id="r_ga84b8f659711d0141a8edf4d898decc92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga84b8f659711d0141a8edf4d898decc92">MR::delaunayTriangulationXY</a> (<a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&amp;cloud, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:ga84b8f659711d0141a8edf4d898decc92"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, but moves cloud points into the resulting mesh instead of copying them  <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a8d6422c61a56ff4d69b354d8f6215948" name="a8d6422c61a56ff4d69b354d8f6215948"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d6422c61a56ff4d69b354d8f6215948">&#9670;&#160;</a></span>MR_terrainTriangulation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_terrainTriangulation </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>points_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Creates Delaunay triangulation using only XY components of points points will be changed inside this function take argument by value Generated from function <span class="tt">MR::terrainTriangulation</span>. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></span> to free it when you're done using it. </p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
@@ -191,7 +169,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_96fcd3db3f34838e5670d9db1231ee5a.html">include</a></li><li class="navelem"><a href="dir_48a1ec47db35593d9d3f02b5df3192b0.html">MRCMesh</a></li><li class="navelem"><a href="MRTerrainTriangulation_8h.html">MRTerrainTriangulation.h</a></li>
+    <li class="navelem"><a href="dir_0cc3bc4bf87f190d6580fb811ae42f71.html">MRMesh</a></li><li class="navelem"><a href="MRDelaunayTriangulationXY_8h.html">MRDelaunayTriangulationXY.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

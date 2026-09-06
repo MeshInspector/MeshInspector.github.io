@@ -1,5 +1,7 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#a8ec5bbaece53dd244d9adbdce37bf9f4":[8,3,0,0,0,271,3],
+"classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#a91b8c2610c7c1cec82e09d4687ecd268":[8,3,0,0,0,271,2],
 "classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#abdf70b00a3ad38ad8b5723cd824a26f5":[8,3,0,0,0,271,4],
 "classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#ac4ddc283d53b3e2080e6fe3ea9366a35":[8,3,0,0,0,271,6],
 "classMR_1_1Const__BMap__MRRegionId__MRRegionId.html":[8,3,0,0,0,272],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__BendTextAlongCurveParams.html":[8,3,0,0,0,261],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a0520f3d9e179a716ad0bac07eb1b2276":[8,3,0,0,0,261,2],
 "classMR_1_1Const__BendTextAlongCurveParams.html#a076d252b8d91083010b99238ef3d494a":[8,3,0,0,0,261,16],
-"classMR_1_1Const__BendTextAlongCurveParams.html#a0afb34d8cf1e79ba3577641267520974":[8,3,0,0,0,261,4],
-"classMR_1_1Const__BendTextAlongCurveParams.html#a11486a12a93770713123624e5eb77027":[8,3,0,0,0,261,1],
-"classMR_1_1Const__BendTextAlongCurveParams.html#a11c17db07d9031e03eeb0e05982c0df5":[8,3,0,0,0,261,7]
+"classMR_1_1Const__BendTextAlongCurveParams.html#a0afb34d8cf1e79ba3577641267520974":[8,3,0,0,0,261,4]
 };

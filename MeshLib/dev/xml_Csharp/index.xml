@@ -32721,6 +32721,9 @@
     <member refid="classMR_1af740a35b13d90312f7e8cb34c9cea2eb" kind="function"><name>makeOpenCone</name></member>
     <member refid="classMR_1a40615f7945e27eae8640975e947c7703" kind="function"><name>makeCylinderAdvanced</name></member>
     <member refid="classMR_1a0f18b8bef9a15812355ffd7621195ff7" kind="function"><name>makeCone</name></member>
+    <member refid="classMR_1a7a2fd6c9db8b83882407c366c3776ec7" kind="function"><name>delaunayTriangulationXY</name></member>
+    <member refid="classMR_1a0e6541b14a9dac3653b66def6cd8fe80" kind="function"><name>delaunayTriangulationXY</name></member>
+    <member refid="classMR_1a630013d66dd6ec05562c1b7a16f274fe" kind="function"><name>delaunayTriangulationXY</name></member>
     <member refid="classMR_1acec61d8702c54a9a100573ebaa8111f0" kind="function"><name>calcDipoles</name></member>
     <member refid="classMR_1aa4e40c2a080b9c9f5342514cae63e999" kind="function"><name>calcDipoles</name></member>
     <member refid="classMR_1a57ec6c4e79e8c196de9e7cffc82343c1" kind="function"><name>calcFastWindingNumber</name></member>
@@ -33655,7 +33658,6 @@
     <member refid="classMR_1a2d6658d918a640d40a180cd391f1d9cc" kind="function"><name>getCurrentProcessId</name></member>
     <member refid="classMR_1a3f2c3d315f40543d82d16bd8d0911243" kind="function"><name>setupLoggerByDefault</name></member>
     <member refid="classMR_1af56b42ffdbd35c6375425f81128cc625" kind="function"><name>intLog2</name></member>
-    <member refid="classMR_1a2d5371466d8ef4dfa9eb977699e9f44c" kind="function"><name>terrainTriangulation</name></member>
     <member refid="classMR_1a7cd260780645bc9fb94b14b47ca7ca10" kind="function"><name>findVertexUV</name></member>
     <member refid="classMR_1aa7880a792cc8204ab77e68904f70fb26" kind="function"><name>findVertexUVs</name></member>
     <member refid="classMR_1abc19425dd5b385621846d1aeeb7d2732" kind="function"><name>sampleVertexColor</name></member>
@@ -43747,6 +43749,8 @@
   </compound>
   <compound refid="MRCylinderObject_8cs" kind="file"><name>MRCylinderObject.cs</name>
   </compound>
+  <compound refid="MRDelaunayTriangulationXY_8cs" kind="file"><name>MRDelaunayTriangulationXY.cs</name>
+  </compound>
   <compound refid="MRDenseBox_8cs" kind="file"><name>MRDenseBox.cs</name>
   </compound>
   <compound refid="MRDipole_8cs" kind="file"><name>MRDipole.cs</name>
@@ -44294,8 +44298,6 @@
   <compound refid="MRSystemPath_8cs" kind="file"><name>MRSystemPath.cs</name>
   </compound>
   <compound refid="MRTelemetry_8cs" kind="file"><name>MRTelemetry.cs</name>
-  </compound>
-  <compound refid="MRTerrainTriangulation_8cs" kind="file"><name>MRTerrainTriangulation.cs</name>
   </compound>
   <compound refid="MRTextureColors_8cs" kind="file"><name>MRTextureColors.cs</name>
   </compound>

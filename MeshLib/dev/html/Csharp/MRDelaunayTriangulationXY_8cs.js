@@ -1,4 +1,4 @@
-var MRTerrainTriangulation_8cs =
+var MRDelaunayTriangulationXY_8cs =
 [
     [ "MR", "classMR.html", "classMR" ]
 ];

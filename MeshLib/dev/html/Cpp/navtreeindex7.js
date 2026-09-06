@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1BitSet.html#aab6d4690169ae21969bc5f538fc8fbff":[8,0,0,3,3,52],
+"classMR_1_1BitSet.html#aac44f8d71b297c1ae62c6d8966ac986c":[8,0,0,3,3,23],
 "classMR_1_1BitSet.html#aadab48850b173a8c3542b620d35b4960":[8,0,0,3,3,59],
 "classMR_1_1BitSet.html#ab21cd56d68b78fe434b450e0edbc8a52":[8,0,0,3,3,44],
 "classMR_1_1BitSet.html#ab3c6d3157f3b02affcf7def04eb60c31":[8,0,0,3,3,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1CircleObject.html#af6a4f0cbede7af795365ea5250edb8c4":[8,0,0,11,0,0,19],
 "classMR_1_1ColorMapAggregator.html":[8,0,0,20,169],
 "classMR_1_1ColorTheme.html":[8,0,0,20,574],
-"classMR_1_1CombinedHistoryAction.html":[8,0,0,4,36],
-"classMR_1_1CombinedHistoryAction.html":[8,0,0,20,171],
-"classMR_1_1CommandLoop.html":[8,0,0,20,575]
+"classMR_1_1CombinedHistoryAction.html":[8,0,0,4,36]
 };

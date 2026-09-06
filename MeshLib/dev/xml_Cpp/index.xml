@@ -14759,6 +14759,9 @@
     <member refid="group__GeneralGroup_1gabd16e5e560e3242b43d472ae3546e5ad" kind="function"><name>makeOpenCone</name></member>
     <member refid="group__GeneralGroup_1gad6bc93527f7daf6085d1bf12310ce8f3" kind="function"><name>makeCylinderAdvanced</name></member>
     <member refid="group__GeneralGroup_1gaa7e94c639e844da07b5feac8a0b6b713" kind="function"><name>makeCone</name></member>
+    <member refid="group__GeneralGroup_1ga03e4bafcf07de23aba92cf73b46b85e7" kind="function"><name>delaunayTriangulationXY</name></member>
+    <member refid="group__GeneralGroup_1ga6b8f8de83a2129d91b27d35fb05da042" kind="function"><name>delaunayTriangulationXY</name></member>
+    <member refid="group__GeneralGroup_1ga84b8f659711d0141a8edf4d898decc92" kind="function"><name>delaunayTriangulationXY</name></member>
     <member refid="group__GeneralGroup_1ga8fedddf735f8ee4a84207200eb0d9b6a" kind="function"><name>calcDipoles</name></member>
     <member refid="group__GeneralGroup_1ga6183b53e85b58b3c7c8e78c383c4be15" kind="function"><name>calcDipoles</name></member>
     <member refid="group__GeneralGroup_1gac27f9510340528d33d307b37dfa40ade" kind="function"><name>calcFastWindingNumber</name></member>
@@ -15780,7 +15783,7 @@
     <member refid="group__GeneralGroup_1gaee75405a45d413115baebc1b343a89a3" kind="function"><name>getCurrentProcessId</name></member>
     <member refid="group__GeneralGroup_1ga4dd8859ebc257098d203f7a962a131bd" kind="function"><name>setupLoggerByDefault</name></member>
     <member refid="group__GeneralGroup_1ga097e1d5f272059dda5a7aa233cf20a58" kind="function"><name>intLog2</name></member>
-    <member refid="group__GeneralGroup_1ga3ff0cba60a401078d669a6e469f283c0" kind="function"><name>terrainTriangulation</name></member>
+    <member refid="group__GeneralGroup_1gac7d752efc747cf47aa91ccdce5bc770f" kind="function"><name>terrainTriangulation</name></member>
     <member refid="group__GeneralGroup_1gac11e11e244aac02b0b69506b6657c706" kind="function"><name>findVertexUV</name></member>
     <member refid="group__GeneralGroup_1ga5428c2a5d40a3d0e09c57ea16c47701b" kind="function"><name>findVertexUVs</name></member>
     <member refid="group__GeneralGroup_1ga3d51a6426ec702d816828da6e6660c9e" kind="function"><name>sampleVertexColor</name></member>
@@ -17456,6 +17459,8 @@
   <compound refid="MRCylinderApproximator_8h" kind="file"><name>MRCylinderApproximator.h</name>
   </compound>
   <compound refid="MRCylinderObject_8h" kind="file"><name>MRCylinderObject.h</name>
+  </compound>
+  <compound refid="MRDelaunayTriangulationXY_8h" kind="file"><name>MRDelaunayTriangulationXY.h</name>
   </compound>
   <compound refid="MRDenseBox_8h" kind="file"><name>MRDenseBox.h</name>
   </compound>
@@ -26109,6 +26114,9 @@
     <member refid="group__GeneralGroup_1ga4f28aa553c692ebdccaac12a11da2408" kind="function"><name>serializeModel_</name></member>
     <member refid="group__GeneralGroup_1ga0b342739d4c8569a43f01cec9b3eb49d" kind="function"><name>deserializeModel_</name></member>
     <member refid="group__GeneralGroup_1ga06cc53a46f71b4756a31f6e125482278" kind="function"><name>setupRenderObject_</name></member>
+    <member refid="group__GeneralGroup_1ga03e4bafcf07de23aba92cf73b46b85e7" kind="function"><name>delaunayTriangulationXY</name></member>
+    <member refid="group__GeneralGroup_1ga6b8f8de83a2129d91b27d35fb05da042" kind="function"><name>delaunayTriangulationXY</name></member>
+    <member refid="group__GeneralGroup_1ga84b8f659711d0141a8edf4d898decc92" kind="function"><name>delaunayTriangulationXY</name></member>
     <member refid="group__GeneralGroup_1ga2eeee7c69c1cc455568a2ab69d3a179b" kind="function"><name>DenseBox</name></member>
     <member refid="group__GeneralGroup_1ga4585db9e756fe2049a698a2845f731d4" kind="function"><name>DenseBox</name></member>
     <member refid="group__GeneralGroup_1ga44dab18e1c0d6202ae231a1815202361" kind="function"><name>DenseBox</name></member>
@@ -28587,7 +28595,7 @@
     <member refid="group__GeneralGroup_1gaf764f93b60643f2b782f259b29fa4ef0" kind="function"><name>~LockGuard</name></member>
     <member refid="group__GeneralGroup_1gaf62d178d9fee21afe07b33f021a5a3e2" kind="function"><name>tryLock</name></member>
     <member refid="group__GeneralGroup_1ga097e1d5f272059dda5a7aa233cf20a58" kind="function"><name>intLog2</name></member>
-    <member refid="group__GeneralGroup_1ga3ff0cba60a401078d669a6e469f283c0" kind="function"><name>terrainTriangulation</name></member>
+    <member refid="group__GeneralGroup_1gac7d752efc747cf47aa91ccdce5bc770f" kind="function"><name>terrainTriangulation</name></member>
     <member refid="group__GeneralGroup_1gac11e11e244aac02b0b69506b6657c706" kind="function"><name>findVertexUV</name></member>
     <member refid="group__GeneralGroup_1ga5428c2a5d40a3d0e09c57ea16c47701b" kind="function"><name>findVertexUVs</name></member>
     <member refid="group__GeneralGroup_1ga3d51a6426ec702d816828da6e6660c9e" kind="function"><name>sampleVertexColor</name></member>

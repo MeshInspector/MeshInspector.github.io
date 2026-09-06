@@ -1,5 +1,10 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1DeloneSettings.html#aa9b9e4eb7d2bb9781d1170012f3c98b2":[8,0,2,0,2,188,0],
+"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[8,0,1,0,1,206,1],
+"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[8,0,2,0,2,188,1],
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[8,0,1,0,1,206,3],
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[8,0,2,0,2,188,3],
 "structMR_1_1DenoiseViaNormalsSettings.html":[8,0,0,20,385],
 "structMR_1_1DenseBox.html":[8,0,0,0,14],
 "structMR_1_1DenseBox.html":[8,0,0,20,187],
@@ -244,10 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1HexPalette.html":[8,0,0,20,269],
 "structMR_1_1HoleEdgePoint.html":[8,0,0,20,627],
 "structMR_1_1HoleFillPlan.html":[8,0,0,20,274],
-"structMR_1_1ICPGroupPair.html":[8,0,0,20,375],
-"structMR_1_1ICPGroupPairs.html":[8,0,0,20,376],
-"structMR_1_1ICPPairData.html":[8,0,0,20,275],
-"structMR_1_1ICPProperties.html":[8,0,0,20,280],
-"structMR_1_1IConnectable.html":[8,0,0,20,772],
-"structMR_1_1IOFilter.html":[8,0,0,2,6,0]
+"structMR_1_1ICPGroupPair.html":[8,0,0,20,375]
 };

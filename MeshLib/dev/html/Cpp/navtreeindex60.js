@@ -1,5 +1,10 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#adf87776474c7b33bf3fa2dab4b54d197":[8,0,1,0,1,49,2,1,3],
+"namespaceMR_1_1UI_1_1detail.html":[8,0,0,20,31],
+"namespaceMR_1_1UnitSettings.html":[8,0,1,0,1,50],
+"namespaceMR_1_1UnitSettings.html#a1ba5ba0e90a17b0b4971b32b561eeaf4":[8,0,1,0,1,50,0],
+"namespaceMR_1_1UnitSettings.html#a212516673007eec61db6d6737ed89889":[8,0,1,0,1,50,4],
 "namespaceMR_1_1UnitSettings.html#a5c988ce02e5af851bf24cf8311f6d617":[8,0,1,0,1,50,1],
 "namespaceMR_1_1UnitSettings.html#a6267dc3ac144ae861e2598c807bd77f1":[8,0,1,0,1,50,6],
 "namespaceMR_1_1UnitSettings.html#a6605d13452e5dc0af2d101284fc415c6":[8,0,1,0,1,50,9],
@@ -244,10 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1Ball.html":[8,0,0,20,122],
 "structMR_1_1BaseFitParams.html":[8,0,0,20,589],
 "structMR_1_1BaseRenderParams.html":[8,0,0,20,297],
-"structMR_1_1BaseShellParameters.html":[8,0,0,20,854],
-"structMR_1_1BaseTiffParameters.html":[8,0,0,20,508],
-"structMR_1_1BasicUiRenderTask.html":[8,0,0,20,300],
-"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[8,0,0,20,301],
-"structMR_1_1BendContoursAlongCurveParams.html":[8,0,0,20,117],
-"structMR_1_1BendTextAlongCurveParams.html":[8,0,0,20,553]
+"structMR_1_1BaseShellParameters.html":[8,0,0,20,854]
 };

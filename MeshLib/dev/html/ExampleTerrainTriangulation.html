@@ -144,7 +144,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRTerrainTriangulation.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRDelaunayTriangulationXY.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRColor.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
@@ -161,7 +161,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">        std::cerr &lt;&lt; loadRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        <span class="keywordflow">return</span> 1; <span class="comment">// error while loading file</span></div>
 <div class="line">    }</div>
-<div class="line">    <span class="keyword">auto</span> triangulationRes = MR::terrainTriangulation( loadRes-&gt;points.vec_ );</div>
+<div class="line">    <span class="keyword">auto</span> triangulationRes = MR::delaunayTriangulationXY( *loadRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !triangulationRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; triangulationRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
@@ -189,7 +189,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">lps.colors = colors</div>
 <div class="line">pc = mm.loadPoints(<span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>,lps)</div>
 <div class="line"> </div>
-<div class="line">terrain_mesh = mm.terrainTriangulation(pc.points.vec)</div>
+<div class="line">terrain_mesh = mm.delaunayTriangulationXY(pc)</div>
 <div class="line"> </div>
 <div class="line">mss = mm.SaveSettings()</div>
 <div class="line"><span class="keywordflow">if</span> (pc.points.vec.size() == colors.size()):</div>
@@ -200,7 +200,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRPointsLoadSettings.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRVector.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRTerrainTriangulation.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRDelaunayTriangulationXY.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRSaveSettings.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRColor.h&gt;</span></div>
@@ -230,10 +230,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail_load; <span class="comment">// error while loading file</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_MR_Mesh_std_string* triangulationRes = MR_terrainTriangulation(</div>
-<div class="line">        MR_PassBy_Copy,</div>
-<div class="line">        MR_VertCoords_GetMutable_vec_( MR_PointCloud_GetMutable_points( pc ) ),</div>
-<div class="line">        MR_PassBy_DefaultArgument, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* triangulationRes = MR_delaunayTriangulationXY_const_MR_PointCloud_ref( pc, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( triangulationRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>

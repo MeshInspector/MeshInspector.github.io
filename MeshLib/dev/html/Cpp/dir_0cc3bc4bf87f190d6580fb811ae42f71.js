@@ -83,6 +83,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRCylinder3.h", "MRCylinder3_8h.html", null ],
     [ "MRCylinderApproximator.h", "MRCylinderApproximator_8h.html", null ],
     [ "MRCylinderObject.h", "MRCylinderObject_8h.html", null ],
+    [ "MRDelaunayTriangulationXY.h", "MRDelaunayTriangulationXY_8h.html", "MRDelaunayTriangulationXY_8h" ],
     [ "MRDenseBox.h", "MRDenseBox_8h.html", null ],
     [ "MRDipole.h", "MRDipole_8h.html", "MRDipole_8h" ],
     [ "MRDirectory.h", "MRDirectory_8h.html", "MRDirectory_8h" ],
