@@ -1,5 +1,11 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1Histogram.html#ab0bbd3d8742e66c6ff69d2e691a4f7ad":[8,3,0,0,0,1227,0],
+"classMR_1_1Histogram.html#ab3d9c69327e5a321eefd6c70cb0a5593":[8,3,0,0,0,1227,7],
+"classMR_1_1Histogram.html#abca61af5d0c72a9284ec588336d45e0d":[8,3,0,0,0,1227,1],
+"classMR_1_1Histogram.html#ae17376057394991033ff98dbc0e42999":[8,3,0,0,0,1227,2],
+"classMR_1_1HistoryAction.html":[8,3,0,0,0,1228],
+"classMR_1_1HistoryAction.html#a4fa0656138f24560d866d1a306a4f8fc":[8,3,0,0,0,1228,0],
 "classMR_1_1HoleFillPlan.html":[8,3,0,0,0,1229],
 "classMR_1_1HoleFillPlan.html#a29d8e66ba2fe6237505716aa89048294":[8,3,0,0,0,1229,0],
 "classMR_1_1HoleFillPlan.html#a34f810739595a6937d1d1f4efc78f268":[8,3,0,0,0,1229,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1InflateSettings.html#aca2bbbf70d69b99429ef8517e9204419":[8,3,0,0,0,1245,6],
 "classMR_1_1InflateSettings.html#acd89a95a15f8846e897d05846e75ac5a":[8,3,0,0,0,1245,0],
 "classMR_1_1InterpolateScalarsParams.html":[8,3,0,0,0,1252],
-"classMR_1_1InterpolateScalarsParams.html#a01aa2a5cd8b692ee5f96d029f359ea4a":[8,3,0,0,0,1252,4],
-"classMR_1_1InterpolateScalarsParams.html#a0f4474d532ba4db304165bb99b84f059":[8,3,0,0,0,1252,6],
-"classMR_1_1InterpolateScalarsParams.html#a3405e6cdf7c58024ede53a4adef8266d":[8,3,0,0,0,1252,0],
-"classMR_1_1InterpolateScalarsParams.html#a3da02d3228e616c5a0a7fcc441502b8e":[8,3,0,0,0,1252,1],
-"classMR_1_1InterpolateScalarsParams.html#a3e1077b44ab3a0002c23dded398f743c":[8,3,0,0,0,1252,3],
-"classMR_1_1InterpolateScalarsParams.html#a4d25be1f0d2657325eae70e8b8db2d4d":[8,3,0,0,0,1252,7],
-"classMR_1_1InterpolateScalarsParams.html#a5b0589908642adb1aeb4c77bbc02a342":[8,3,0,0,0,1252,2]
+"classMR_1_1InterpolateScalarsParams.html#a01aa2a5cd8b692ee5f96d029f359ea4a":[8,3,0,0,0,1252,4]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX129 =
 {
+"classMR_1_1SetBitIteratorT__MRPixelBitSet.html#ac9d74328e3b7ac1508446ebcf860bd68":[8,3,0,0,0,1603,4],
+"classMR_1_1SetBitIteratorT__MRPixelBitSet.html#aea9fa0c97e4c54997c33aa3774287060":[8,3,0,0,0,1603,6],
+"classMR_1_1SetBitIteratorT__MRRegionBitSet.html":[8,3,0,0,0,1604],
+"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a2666f04c55cbe37fe80726e4f37a81e3":[8,3,0,0,0,1604,5],
+"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a34d3d84d8cf7a4afdabbdcc564dc0698":[8,3,0,0,0,1604,2],
+"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a368d2a793a084f11a5c4f401944e5da3":[8,3,0,0,0,1604,1],
+"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a6f21027a74971e57622d80420e419bfe":[8,3,0,0,0,1604,6],
+"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a79f4dc1e70e6f916675013b3ed16bd11":[8,3,0,0,0,1604,0],
 "classMR_1_1SetBitIteratorT__MRRegionBitSet.html#aa7546566d051e65a3a136afe3814850f":[8,3,0,0,0,1604,3],
 "classMR_1_1SetBitIteratorT__MRRegionBitSet.html#ae14c4084753745b9bf6b133884e79822":[8,3,0,0,0,1604,4],
 "classMR_1_1SetBitIteratorT__MRTextureBitSet.html":[8,3,0,0,0,1605],
@@ -241,13 +249,5 @@ var NAVTREEINDEX129 =
 "classMR_1_1Sphere2d.html":[8,3,0,0,0,1627],
 "classMR_1_1Sphere2d.html#a3ad74ff03b36eec0fc4842045fe1ae3f":[8,3,0,0,0,1627,1],
 "classMR_1_1Sphere2d.html#a52ef9baab5f14de58c1740b3d1829136":[8,3,0,0,0,1627,6],
-"classMR_1_1Sphere2d.html#a6cf02ddad3de059cc6b102d400e1fbd6":[8,3,0,0,0,1627,3],
-"classMR_1_1Sphere2d.html#a8a06d459383e71ced9a87aaf85a71c69":[8,3,0,0,0,1627,5],
-"classMR_1_1Sphere2d.html#aa99365939e8d93cba526b4fce21dc17d":[8,3,0,0,0,1627,0],
-"classMR_1_1Sphere2d.html#aaf368ed41850034f6496a0ca568d842a":[8,3,0,0,0,1627,4],
-"classMR_1_1Sphere2d.html#ae480050f605c2eb999fe20643bc6ea3a":[8,3,0,0,0,1627,2],
-"classMR_1_1Sphere2f.html":[8,3,0,0,0,1628],
-"classMR_1_1Sphere2f.html#a02cc7fc66dc4b144ed76398c30b63c2d":[8,3,0,0,0,1628,0],
-"classMR_1_1Sphere2f.html#a696a6e98649e6fcedc18ec924e657b13":[8,3,0,0,0,1628,2],
-"classMR_1_1Sphere2f.html#a697f085d0cfd615101c9aedb06dc6c92":[8,3,0,0,0,1628,6]
+"classMR_1_1Sphere2d.html#a6cf02ddad3de059cc6b102d400e1fbd6":[8,3,0,0,0,1627,3]
 };

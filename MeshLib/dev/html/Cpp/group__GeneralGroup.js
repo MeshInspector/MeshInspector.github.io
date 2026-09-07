@@ -4034,10 +4034,12 @@ var group__GeneralGroup =
       [ "vertStabilizers", "group__GeneralGroup.html#ga69d2ed7107a7dd975887edd0da2c8847", null ]
     ] ],
     [ "MR::InterpolateScalarsParams", "structMR_1_1InterpolateScalarsParams.html", [
-      [ "edgeWeights", "group__GeneralGroup.html#ga0781fd3cc59338f9f5f19b3fb3a34134", null ],
+      [ "edgeWeights", "group__GeneralGroup.html#gabd62037b2a4bfbc798d08e1f15916736", null ],
+      [ "edgeWeightsMetric", "group__GeneralGroup.html#gae26939130e290270dfce59cdc8ba7055", null ],
       [ "region", "group__GeneralGroup.html#ga17ce8fa9c3da180503cc50cdedfac9ec", null ],
       [ "stabilizer", "group__GeneralGroup.html#ga98ab155d04ae2cfd71541853f95b9905", null ],
-      [ "vertStabilizers", "group__GeneralGroup.html#ga4bdb32dfbab99a544136700fbe9fa29b", null ]
+      [ "vertStabilizers", "group__GeneralGroup.html#ga4bdb32dfbab99a544136700fbe9fa29b", null ],
+      [ "vmass", "group__GeneralGroup.html#ga82ed4a5e579949d2ab274d07843f75eb", null ]
     ] ],
     [ "MR::SpacingSettings", "structMR_1_1SpacingSettings.html", [
       [ "dist", "group__GeneralGroup.html#ga49adf144c8f1f64aafce1e6927f03dc0", null ],
@@ -13229,6 +13231,8 @@ var group__GeneralGroup =
     [ "MR::TriPoint::interpolate", "group__GeneralGroup.html#ga443eb1cdffa8cf6269dce8d4f7712a3b", null ],
     [ "MR::interpolateArcs", "group__GeneralGroup.html#gad92ea78439f58b683c4580b4100a379d", null ],
     [ "MR::interpolateLines", "group__GeneralGroup.html#ga6209e9d14f32919cc6a9a9d7cd2e93ca", null ],
+    [ "MR::interpolateScalarsSmoothly", "group__GeneralGroup.html#gaa6ab007d2bdc44836755de07d078c0bd", null ],
+    [ "MR::interpolateScalarsSmoothly", "group__GeneralGroup.html#gad1543ca6047b495ed58eaf035968f122", null ],
     [ "MR::interpolateScalarsSmoothly", "group__GeneralGroup.html#ga4f42a28b9964388bcffead051b48b0b3", null ],
     [ "MR::InterruptCloseListener::interruptClose_", "group__GeneralGroup.html#gaf380fa89eb3a2d038f3c24cd2d703ec6", null ],
     [ "MR::Viewer::interruptWindowClose", "group__GeneralGroup.html#ga7e7616d3e7c5c2c4229ab79201de365e", null ],
@@ -17141,10 +17145,11 @@ var group__GeneralGroup =
     [ "MR::RenderMeshObject::edgeSize_", "group__GeneralGroup.html#ga888fbd0e8bad27a4ff46ec6c1e1680e5", null ],
     [ "MR::RenderMeshObject::edgesTexture_", "group__GeneralGroup.html#gadec18a7be82779db2756036737e2119e", null ],
     [ "MR::EdgeTag", "group__GeneralGroup.html#gac8c2508941fcd4ad714cdf50c45aa41c", null ],
-    [ "MR::InterpolateScalarsParams::edgeWeights", "group__GeneralGroup.html#ga0781fd3cc59338f9f5f19b3fb3a34134", null ],
+    [ "MR::InterpolateScalarsParams::edgeWeights", "group__GeneralGroup.html#gabd62037b2a4bfbc798d08e1f15916736", null ],
     [ "MR::PositionVertsSmoothlyParams::edgeWeights", "group__GeneralGroup.html#ga7a683cc3d1052af67b00984f50fa920d", null ],
     [ "MR::SmoothFillingSettings::edgeWeights", "group__GeneralGroup.html#ga34a7a4b9c69f0c826cb30f38a9e10250", null ],
     [ "MR::SurfaceManipulationWidget::Settings::edgeWeights", "group__GeneralGroup.html#ga2bf410c025634089f22b3341825cd20b", null ],
+    [ "MR::InterpolateScalarsParams::edgeWeightsMetric", "group__GeneralGroup.html#gae26939130e290270dfce59cdc8ba7055", null ],
     [ "MR::ObjectMeshHolder::edgeWidth_", "group__GeneralGroup.html#gaa1769e8d7559173dc663c5b67a445a07", null ],
     [ "MR::ImGuiMenu::editedFeatureObject_", "group__GeneralGroup.html#ga9603f5d80ca9f918df4d86d0a40a94ab", null ],
     [ "MR::ImGuiMenu::editedFeatureObjectOldXf_", "group__GeneralGroup.html#ga6afa105ae1f7116d82db1d5068aef0ef", null ],
@@ -18703,6 +18708,7 @@ var group__GeneralGroup =
     [ "MR::SurfaceManipulationWidget::visualizationRegion_", "group__GeneralGroup.html#ga56cce88aefa27259841a2dee896b8812", null ],
     [ "MR::RenderDimensions::RadiusParams::visualLengthMultiplier", "group__GeneralGroup.html#ga209f752c72abb3b57f493fdde9dfe41e", null ],
     [ "MR::MeshBuilder::MeshPiece::vmap", "group__GeneralGroup.html#ga0e2772f29127c4ade3e9c174019fa545", null ],
+    [ "MR::InterpolateScalarsParams::vmass", "group__GeneralGroup.html#ga82ed4a5e579949d2ab274d07843f75eb", null ],
     [ "MR::SmoothFillingSettings::vmass", "group__GeneralGroup.html#ga527a7a95f06fcee7ca081ed3dbec23b6", null ],
     [ "MR::SurfaceManipulationWidget::Settings::vmass", "group__GeneralGroup.html#gaab506cf4d0c39bc59ac2ac941047014b", null ],
     [ "MR::CloseToMeshVolumeParams::vol", "group__GeneralGroup.html#ga1ce839bd011c48c41fab0722461d05c7", null ],

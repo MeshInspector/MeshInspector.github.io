@@ -1,5 +1,13 @@
 var NAVTREEINDEX52 =
 {
+"classmrmeshpy_1_1Mesh.html#a37e83e4c7e1761195f12e5983b3575bd":[8,1,1,0,1,527,37],
+"classmrmeshpy_1_1Mesh.html#a3cd28414929517740fac289e667c9722":[8,1,0,0,2,527,14],
+"classmrmeshpy_1_1Mesh.html#a3cd28414929517740fac289e667c9722":[8,1,1,0,1,527,14],
+"classmrmeshpy_1_1Mesh.html#a402590d4144379e3280089f0aaed2b01":[8,1,0,0,2,527,35],
+"classmrmeshpy_1_1Mesh.html#a402590d4144379e3280089f0aaed2b01":[8,1,1,0,1,527,35],
+"classmrmeshpy_1_1Mesh.html#a4055d158e8fb340093bf8a2e01a1fd04":[8,1,0,0,2,527,104],
+"classmrmeshpy_1_1Mesh.html#a4055d158e8fb340093bf8a2e01a1fd04":[8,1,1,0,1,527,104],
+"classmrmeshpy_1_1Mesh.html#a41c4cee4b8d615600f07c54c33f2aefb":[8,1,0,0,2,527,107],
 "classmrmeshpy_1_1Mesh.html#a41c4cee4b8d615600f07c54c33f2aefb":[8,1,1,0,1,527,107],
 "classmrmeshpy_1_1Mesh.html#a46543299c08d8ed0e033bd822cba2188":[8,1,0,0,2,527,97],
 "classmrmeshpy_1_1Mesh.html#a46543299c08d8ed0e033bd822cba2188":[8,1,1,0,1,527,97],
@@ -241,13 +249,5 @@ var NAVTREEINDEX52 =
 "classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#a2de8984ec8d545ae435a11d6e4c26eb6":[8,1,1,0,1,530,3,1],
 "classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#a3781a35cb5cda208f91dddf84a413d95":[8,1,0,0,2,530,3,2],
 "classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#a3781a35cb5cda208f91dddf84a413d95":[8,1,1,0,1,530,3,2],
-"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ac792ad3ce2d01e07406031d90f5b2234":[8,1,0,0,2,530,3,0],
-"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ac792ad3ce2d01e07406031d90f5b2234":[8,1,1,0,1,530,3,0],
-"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ae42b67c806d2e133a91b033c11f60c1f":[8,1,0,0,2,530,3,3],
-"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ae42b67c806d2e133a91b033c11f60c1f":[8,1,1,0,1,530,3,3],
-"classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html":[8,1,0,0,2,530,4],
-"classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html":[8,1,1,0,1,530,4],
-"classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a219b86159ce59fdf866d87e3b07d68f4":[8,1,0,0,2,530,4,0],
-"classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a219b86159ce59fdf866d87e3b07d68f4":[8,1,1,0,1,530,4,0],
-"classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a3d2aacb807db9740c43b13a221f178b2":[8,1,0,0,2,530,4,1]
+"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ac792ad3ce2d01e07406031d90f5b2234":[8,1,0,0,2,530,3,0]
 };

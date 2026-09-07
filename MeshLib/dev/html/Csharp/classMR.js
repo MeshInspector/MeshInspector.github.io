@@ -3592,6 +3592,8 @@ var classMR =
     [ "inSphere", "classMR.html#a62166d7af3268e1fb6ed4a2fe6dff277", null ],
     [ "interpolateArcs", "classMR.html#a34a6ea2c67931d38bb4b06bd5186954c", null ],
     [ "interpolateLines", "classMR.html#a9dec6805b39c94e9e51511945b4d2671", null ],
+    [ "interpolateScalarsSmoothly", "classMR.html#adcbc034ec24af6fede73883b949660bd", null ],
+    [ "interpolateScalarsSmoothly", "classMR.html#a6b64f5b4f5c4a6c3d5c29432724fe7eb", null ],
     [ "interpolateScalarsSmoothly", "classMR.html#a57335931d34961cb245a81d3b85eebac", null ],
     [ "intersection", "classMR.html#a15226665c3c4f5712216c9efbbd54c53", null ],
     [ "intLog2", "classMR.html#af56b42ffdbd35c6375425f81128cc625", null ],

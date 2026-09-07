@@ -1,5 +1,13 @@
 var NAVTREEINDEX115 =
 {
+"classMR_1_1Nesting_1_1BoxNestingOptions.html#af7820fb38d9bc4fea91a796f86f033f0":[8,3,0,0,0,1395,1,11],
+"classMR_1_1Nesting_1_1BoxNestingOptions.html#afdc85076be7ef6a47d6f291e7e9dff5c":[8,3,0,0,0,1395,1,14],
+"classMR_1_1Nesting_1_1BoxNestingParams.html":[8,3,0,0,0,1395,2],
+"classMR_1_1Nesting_1_1BoxNestingParams.html#a0cac6bf9b5103619d12661c36f30a588":[8,3,0,0,0,1395,2,2],
+"classMR_1_1Nesting_1_1BoxNestingParams.html#a27f5af093b663612b3f3cf5dae91ed98":[8,3,0,0,0,1395,2,4],
+"classMR_1_1Nesting_1_1BoxNestingParams.html#a33e29acd5e882ee07a3d6a40a57f1d75":[8,3,0,0,0,1395,2,3],
+"classMR_1_1Nesting_1_1BoxNestingParams.html#a3d2731aacad3be2d48c54feb8cd03a38":[8,3,0,0,0,1395,2,6],
+"classMR_1_1Nesting_1_1BoxNestingParams.html#a605769392a8470b99a06fd5d41537c62":[8,3,0,0,0,1395,2,1],
 "classMR_1_1Nesting_1_1BoxNestingParams.html#a623eb4fb95ae0cae3514889fa242155a":[8,3,0,0,0,1395,2,7],
 "classMR_1_1Nesting_1_1BoxNestingParams.html#a6900960b744ba0789b1203a1e6084069":[8,3,0,0,0,1395,2,5],
 "classMR_1_1Nesting_1_1BoxNestingParams.html#a926e10ae67da282b9dc6ec8c95c1515f":[8,3,0,0,0,1395,2,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX115 =
 "classMR_1_1NoCtor__Char.html#af77f5d97c3279927b85abb4625a8910c":[8,3,0,0,0,1399,1],
 "classMR_1_1NoCtor__MREdgeId.html":[8,3,0,0,0,1400],
 "classMR_1_1NoCtor__MREdgeId.html#a08eb096a265ca437fd5961c35deb65ce":[8,3,0,0,0,1400,3],
-"classMR_1_1NoCtor__MREdgeId.html#a12179caee8aeacdf637bc38cb9ff87a3":[8,3,0,0,0,1400,0],
-"classMR_1_1NoCtor__MREdgeId.html#a31caee8c2d96c177730e39fd5be98967":[8,3,0,0,0,1400,2],
-"classMR_1_1NoCtor__MREdgeId.html#af2b157a89d2b39d551c11691fef4ef15":[8,3,0,0,0,1400,1],
-"classMR_1_1NoCtor__MRFaceId.html":[8,3,0,0,0,1401],
-"classMR_1_1NoCtor__MRFaceId.html#a0c064b684f2f201cedea049af212672e":[8,3,0,0,0,1401,1],
-"classMR_1_1NoCtor__MRFaceId.html#a8727ccd5e626652dba959034e4dbb85f":[8,3,0,0,0,1401,2],
-"classMR_1_1NoCtor__MRFaceId.html#a9e9e73dd8dbae2cd061a3b57f3527e2a":[8,3,0,0,0,1401,3],
-"classMR_1_1NoCtor__MRFaceId.html#ac410d5164cd081e5f6b2237084e0a3a1":[8,3,0,0,0,1401,0],
-"classMR_1_1NoCtor__MRGraphEdgeId.html":[8,3,0,0,0,1402]
+"classMR_1_1NoCtor__MREdgeId.html#a12179caee8aeacdf637bc38cb9ff87a3":[8,3,0,0,0,1400,0]
 };

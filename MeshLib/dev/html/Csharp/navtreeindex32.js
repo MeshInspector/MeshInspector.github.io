@@ -1,5 +1,7 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__BMap__MRNodeId__MRNodeId.html#a91f6ece6269d11e3efd8575ae76eea31":[8,3,0,0,0,270,4],
+"classMR_1_1Const__BMap__MRNodeId__MRNodeId.html#ab07b2e73412c49de6ff5990853ee8a8b":[8,3,0,0,0,270,7],
 "classMR_1_1Const__BMap__MRNodeId__MRNodeId.html#ae49ee013adc11ea437f396a36c1123e0":[8,3,0,0,0,270,3],
 "classMR_1_1Const__BMap__MRObjId__MRObjId.html":[8,3,0,0,0,271],
 "classMR_1_1Const__BMap__MRObjId__MRObjId.html#a1cda34c0408fa5d09275bcb3e6503d7f":[8,3,0,0,0,271,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__BendContoursAlongCurveParams.html":[8,3,0,0,0,261],
 "classMR_1_1Const__BendContoursAlongCurveParams.html#a05413e88f1fc53477067a8e95ec40a24":[8,3,0,0,0,261,10],
 "classMR_1_1Const__BendContoursAlongCurveParams.html#a06b5a578e3ed8e202d455d8f9f61059c":[8,3,0,0,0,261,15],
-"classMR_1_1Const__BendContoursAlongCurveParams.html#a200911c82c33cffdef85ec0ebb11fb78":[8,3,0,0,0,261,8],
-"classMR_1_1Const__BendContoursAlongCurveParams.html#a346997c57650f47c35bbfc94df150a14":[8,3,0,0,0,261,2],
-"classMR_1_1Const__BendContoursAlongCurveParams.html#a41924aea2d8e118a693b854c3b0aa11f":[8,3,0,0,0,261,11]
+"classMR_1_1Const__BendContoursAlongCurveParams.html#a200911c82c33cffdef85ec0ebb11fb78":[8,3,0,0,0,261,8]
 };

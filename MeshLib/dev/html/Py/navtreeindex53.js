@@ -1,5 +1,13 @@
 var NAVTREEINDEX53 =
 {
+"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ac792ad3ce2d01e07406031d90f5b2234":[8,1,1,0,1,530,3,0],
+"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ae42b67c806d2e133a91b033c11f60c1f":[8,1,0,0,2,530,3,3],
+"classmrmeshpy_1_1MeshBuilder_1_1Triangle.html#ae42b67c806d2e133a91b033c11f60c1f":[8,1,1,0,1,530,3,3],
+"classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html":[8,1,0,0,2,530,4],
+"classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html":[8,1,1,0,1,530,4],
+"classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a219b86159ce59fdf866d87e3b07d68f4":[8,1,0,0,2,530,4,0],
+"classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a219b86159ce59fdf866d87e3b07d68f4":[8,1,1,0,1,530,4,0],
+"classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a3d2aacb807db9740c43b13a221f178b2":[8,1,0,0,2,530,4,1],
 "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a3d2aacb807db9740c43b13a221f178b2":[8,1,1,0,1,530,4,1],
 "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a8736529fcec425ab501a0b7a6f85f439":[8,1,0,0,2,530,4,2],
 "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a8736529fcec425ab501a0b7a6f85f439":[8,1,1,0,1,530,4,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX53 =
 "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#ae608d8067a515f4af07660928ee89d32":[8,1,1,0,1,534,4],
 "classmrmeshpy_1_1MeshIntersectionResult.html":[8,1,0,0,2,535],
 "classmrmeshpy_1_1MeshIntersectionResult.html":[8,1,1,0,1,535],
-"classmrmeshpy_1_1MeshIntersectionResult.html#a281993a00b5015b37e278be1bf196339":[8,1,0,0,2,535,1],
-"classmrmeshpy_1_1MeshIntersectionResult.html#a281993a00b5015b37e278be1bf196339":[8,1,1,0,1,535,1],
-"classmrmeshpy_1_1MeshIntersectionResult.html#a4b9ec9c21101fd50b44a5f6c5f4f8ce5":[8,1,0,0,2,535,0],
-"classmrmeshpy_1_1MeshIntersectionResult.html#a4b9ec9c21101fd50b44a5f6c5f4f8ce5":[8,1,1,0,1,535,0],
-"classmrmeshpy_1_1MeshIntersectionResult.html#aa0bce6664cf9819a32afacec3dc4445b":[8,1,0,0,2,535,9],
-"classmrmeshpy_1_1MeshIntersectionResult.html#aa0bce6664cf9819a32afacec3dc4445b":[8,1,1,0,1,535,9],
-"classmrmeshpy_1_1MeshIntersectionResult.html#aaa1362d44ecaa8bc05dd891fe1f247ac":[8,1,0,0,2,535,4],
-"classmrmeshpy_1_1MeshIntersectionResult.html#aaa1362d44ecaa8bc05dd891fe1f247ac":[8,1,1,0,1,535,4],
-"classmrmeshpy_1_1MeshIntersectionResult.html#aab887a864c34bb0615beb70031f4e53a":[8,1,0,0,2,535,6]
+"classmrmeshpy_1_1MeshIntersectionResult.html#a281993a00b5015b37e278be1bf196339":[8,1,0,0,2,535,1]
 };

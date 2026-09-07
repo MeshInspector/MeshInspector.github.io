@@ -2199,6 +2199,8 @@ var namespacemrmeshpy =
     [ "inSphere", "namespacemrmeshpy.html#addfc8534b08ec4064034d9dbff8f28e2", null ],
     [ "interpolateArcs", "namespacemrmeshpy.html#ae1031a3594a208de8eeb82e7295b8638", null ],
     [ "interpolateLines", "namespacemrmeshpy.html#a68e31268226515ddddf724fc783171a8", null ],
+    [ "interpolateScalarsSmoothly", "namespacemrmeshpy.html#a9f776b6a9e61e04d17b06da82ef12964", null ],
+    [ "interpolateScalarsSmoothly", "namespacemrmeshpy.html#ad0e35ef10a93308608f8d68881222229", null ],
     [ "interpolateScalarsSmoothly", "namespacemrmeshpy.html#aab42931d5f56804be3af38892b534cfc", null ],
     [ "intersection", "namespacemrmeshpy.html#ab795144bcd22c107fefe69589b5171e4", null ],
     [ "intLog2", "namespacemrmeshpy.html#a607f7f6599751fa947cdd45b09d34f08", null ],

@@ -1,5 +1,13 @@
 var NAVTREEINDEX83 =
 {
+"classmrmeshpy_1_1RelaxApproxType.html#a5c487fc90843d54d17a3265957f41af4":[8,1,1,0,1,808,5],
+"classmrmeshpy_1_1RelaxApproxType.html#a676b1a9bb7759cf7ddaed9f512570d0e":[8,1,0,0,2,808,11],
+"classmrmeshpy_1_1RelaxApproxType.html#a676b1a9bb7759cf7ddaed9f512570d0e":[8,1,1,0,1,808,11],
+"classmrmeshpy_1_1RelaxApproxType.html#a676cb1380c35bf6bcd6f997b703b7c59":[8,1,0,0,2,808,7],
+"classmrmeshpy_1_1RelaxApproxType.html#a676cb1380c35bf6bcd6f997b703b7c59":[8,1,1,0,1,808,7],
+"classmrmeshpy_1_1RelaxApproxType.html#a6f4d07b711c516a001c499db066248fd":[8,1,0,0,2,808,10],
+"classmrmeshpy_1_1RelaxApproxType.html#a6f4d07b711c516a001c499db066248fd":[8,1,1,0,1,808,10],
+"classmrmeshpy_1_1RelaxApproxType.html#ab808673ce83f1dce51c1f5017a3dc657":[8,1,0,0,2,808,2],
 "classmrmeshpy_1_1RelaxApproxType.html#ab808673ce83f1dce51c1f5017a3dc657":[8,1,1,0,1,808,2],
 "classmrmeshpy_1_1RelaxApproxType.html#af9cce47717dccb3891909525906b4837":[8,1,0,0,2,808,9],
 "classmrmeshpy_1_1RelaxApproxType.html#af9cce47717dccb3891909525906b4837":[8,1,1,0,1,808,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX83 =
 "classmrmeshpy_1_1RigidScaleXf3d.html#a4d463732672c8c12fa61e64e1a52edeb":[8,1,1,0,1,815,7],
 "classmrmeshpy_1_1RigidScaleXf3d.html#a6366a3dc255e29ba5e01d8d164023466":[8,1,0,0,2,815,2],
 "classmrmeshpy_1_1RigidScaleXf3d.html#a6366a3dc255e29ba5e01d8d164023466":[8,1,1,0,1,815,2],
-"classmrmeshpy_1_1RigidScaleXf3d.html#a65bc13eda28c1145a545c856d4b219c4":[8,1,0,0,2,815,5],
-"classmrmeshpy_1_1RigidScaleXf3d.html#a65bc13eda28c1145a545c856d4b219c4":[8,1,1,0,1,815,5],
-"classmrmeshpy_1_1RigidScaleXf3d.html#a723a687d2a9bf8e0c9fa80e12a976155":[8,1,0,0,2,815,3],
-"classmrmeshpy_1_1RigidScaleXf3d.html#a723a687d2a9bf8e0c9fa80e12a976155":[8,1,1,0,1,815,3],
-"classmrmeshpy_1_1RigidScaleXf3d.html#a78d228fe96ac459946373627dcd92064":[8,1,0,0,2,815,1],
-"classmrmeshpy_1_1RigidScaleXf3d.html#a78d228fe96ac459946373627dcd92064":[8,1,1,0,1,815,1],
-"classmrmeshpy_1_1RigidScaleXf3d.html#a84667234ca58c265a73dfa1cde06d7b2":[8,1,0,0,2,815,6],
-"classmrmeshpy_1_1RigidScaleXf3d.html#a84667234ca58c265a73dfa1cde06d7b2":[8,1,1,0,1,815,6],
-"classmrmeshpy_1_1RigidScaleXf3d.html#aa4bacabbb30ff6db855b27edb02a21c9":[8,1,0,0,2,815,8]
+"classmrmeshpy_1_1RigidScaleXf3d.html#a65bc13eda28c1145a545c856d4b219c4":[8,1,0,0,2,815,5]
 };

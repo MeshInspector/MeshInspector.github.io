@@ -17,7 +17,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="532" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="533" bodyend="542"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="556" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="557" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1InterpolateScalarsParams_1a7cb6084553f1e9397e64ef37d4af743c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1a886c75fb9652aa7838a87d63c33a5f9e" kindref="member">MR.EdgeWeights</ref></type>
+        <definition>new unsafe ref MR.EdgeWeights MR.InterpolateScalarsParams.edgeWeights</definition>
+        <argsstring></argsstring>
+        <name>edgeWeights</name>
+        <qualifiedname>MR.InterpolateScalarsParams.edgeWeights</qualifiedname>
+        <briefdescription>
+<para>weights of edges in the equations, used unless <computeroutput>edgeWeightsMetric</computeroutput> is specified </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="571" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="571" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1InterpolateScalarsParams_1a9082e86ec0dd1972db7fb41962793cd2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8" kindref="member">MR.VertexMass</ref></type>
+        <definition>new unsafe ref MR.VertexMass MR.InterpolateScalarsParams.vmass</definition>
+        <argsstring></argsstring>
+        <name>vmass</name>
+        <qualifiedname>MR.InterpolateScalarsParams.vmass</qualifiedname>
+        <briefdescription>
+<para>the stabilizer of each vertex is multiplied on the mass of that vertex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="576" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="576" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1InterpolateScalarsParams_1addbe3f6034748ffba106fb2054c1c73a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -32,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="547" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="547" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="581" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="581" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1InterpolateScalarsParams_1ae6f064e4ce49313e6941f0f34ecc16fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Float_From_MRVertId</type>
@@ -47,22 +77,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="552" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="552" bodyend="552"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="586" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="586" bodyend="586"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1InterpolateScalarsParams_1a0f4474d532ba4db304165bb99b84f059" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+      <memberdef kind="property" id="classMR_1_1InterpolateScalarsParams_1a801719d12983f01a21825142b6bc69fe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Float_From_MRUndirectedEdgeId</type>
-        <definition>new unsafe MR.Std.Function_Float_From_MRUndirectedEdgeId MR.InterpolateScalarsParams.edgeWeights</definition>
+        <definition>new unsafe MR.Std.Function_Float_From_MRUndirectedEdgeId MR.InterpolateScalarsParams.edgeWeightsMetric</definition>
         <argsstring></argsstring>
-        <name>edgeWeights</name>
-        <qualifiedname>MR.InterpolateScalarsParams.edgeWeights</qualifiedname>
+        <name>edgeWeightsMetric</name>
+        <qualifiedname>MR.InterpolateScalarsParams.edgeWeightsMetric</qualifiedname>
         <briefdescription>
-<para>if specified then it is used for edge weights instead of default 1 </para>
+<para>if specified then it is used for edge weights instead of <computeroutput>edgeWeights</computeroutput> </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="557" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="557" bodyend="557"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="591" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="591" bodyend="591"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -86,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="583" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="583" bodyend="587"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="617" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="617" bodyend="621"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -103,17 +133,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="593" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="593" bodyend="599"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="627" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="627" bodyend="633"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1InterpolateScalarsParams_1a3da02d3228e616c5a0a7fcc441502b8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1InterpolateScalarsParams_1adb640085fe947cbaa3e0bc16c297c995" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.InterpolateScalarsParams.InterpolateScalarsParams</definition>
-        <argsstring>(MR.Const_VertBitSet? region, float stabilizer, MR.Std._ByValue_Function_Float_From_MRVertId vertStabilizers, MR.Std._ByValue_Function_Float_From_MRUndirectedEdgeId edgeWeights)</argsstring>
+        <argsstring>(MR.Const_VertBitSet? region, MR.EdgeWeights edgeWeights, MR.VertexMass vmass, float stabilizer, MR.Std._ByValue_Function_Float_From_MRVertId vertStabilizers, MR.Std._ByValue_Function_Float_From_MRUndirectedEdgeId edgeWeightsMetric)</argsstring>
         <name>InterpolateScalarsParams</name>
         <qualifiedname>MR.InterpolateScalarsParams.InterpolateScalarsParams</qualifiedname>
         <param>
           <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a886c75fb9652aa7838a87d63c33a5f9e" kindref="member">MR.EdgeWeights</ref></type>
+          <declname>edgeWeights</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8" kindref="member">MR.VertexMass</ref></type>
+          <declname>vmass</declname>
         </param>
         <param>
           <type>float</type>
@@ -125,7 +163,7 @@
         </param>
         <param>
           <type>MR.Std._ByValue_Function_Float_From_MRUndirectedEdgeId</type>
-          <declname>edgeWeights</declname>
+          <declname>edgeWeightsMetric</declname>
         </param>
         <briefdescription>
 <para>Constructs <computeroutput><ref refid="classMR_1_1InterpolateScalarsParams" kindref="compound">MR.InterpolateScalarsParams</ref></computeroutput> elementwise. </para>
@@ -134,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="604" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="604" bodyend="613"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="638" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="638" bodyend="647"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InterpolateScalarsParams_1a5b0589908642adb1aeb4c77bbc02a342" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -153,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="618" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="618" bodyend="625"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="652" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="652" bodyend="659"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InterpolateScalarsParams_1a3e1077b44ab3a0002c23dded398f743c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -172,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="630" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="630" bodyend="630"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="664" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="664" bodyend="664"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InterpolateScalarsParams_1a01aa2a5cd8b692ee5f96d029f359ea4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -191,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="635" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="635" bodyend="635"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="669" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="669" bodyend="669"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InterpolateScalarsParams_1aa63726a3fba3ab9490bc83f93168e3c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1InterpolateScalarsParams" kindref="compound">MR.InterpolateScalarsParams</ref></type>
@@ -210,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="640" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="640" bodyend="647"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="674" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="674" bodyend="681"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -260,6 +298,8 @@
         </childnode>
         <childnode refid="5" relation="usage">
           <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ref_storage_edgeWeights</edgelabel>
+          <edgelabel>__ref_storage_vmass</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -269,29 +309,33 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="526" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="527" bodyend="648"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="550" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="551" bodyend="682"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__InterpolateScalarsParams_1a83d0325110c9deb142ee71a164751016" prot="protected" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__InterpolateScalarsParams_1aef3c37092bc8982d58fff8e60d053629" prot="protected" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>__ref_storage_edgeWeights</name></member>
       <member refid="classMR_1_1Const__InterpolateScalarsParams_1a427580762ca0af17477493a938b5e35d" prot="protected" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>__ref_storage_stabilizer</name></member>
+      <member refid="classMR_1_1Const__InterpolateScalarsParams_1a7ba262464dad8634f56c9ee7c665843f" prot="protected" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>__ref_storage_vmass</name></member>
       <member refid="classMR_1_1InterpolateScalarsParams_1aa63726a3fba3ab9490bc83f93168e3c7" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__InterpolateScalarsParams_1a2b421a6d2dd7e30f6884a5bd5587b495" prot="package" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>Const_InterpolateScalarsParams</name></member>
       <member refid="classMR_1_1Const__InterpolateScalarsParams_1acc0a5a5a72dae03a16778778b0055305" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>Const_InterpolateScalarsParams</name></member>
-      <member refid="classMR_1_1Const__InterpolateScalarsParams_1ab539541ac8d9056b9c282d587446a428" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>Const_InterpolateScalarsParams</name></member>
+      <member refid="classMR_1_1Const__InterpolateScalarsParams_1ae202d7a80f5197893ecd5dae30f3bb6a" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>Const_InterpolateScalarsParams</name></member>
       <member refid="classMR_1_1Const__InterpolateScalarsParams_1a5a9805e1535eaef081a19456513c2c84" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>Const_InterpolateScalarsParams</name></member>
       <member refid="classMR_1_1Const__InterpolateScalarsParams_1afb6a4b56da4332ce7b046207ee327fd2" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>Const_InterpolateScalarsParams</name></member>
       <member refid="classMR_1_1Const__InterpolateScalarsParams_1a3a057f5492192ee7de9d14ed6595cb41" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>Const_InterpolateScalarsParams</name></member>
       <member refid="classMR_1_1Const__InterpolateScalarsParams_1ae36b6db24b48ee27fd1bb724903751a9" prot="protected" virt="virtual"><scope>MR::InterpolateScalarsParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__InterpolateScalarsParams_1a6de29469182ec9783358f41543ebe4e0" prot="public" virt="virtual"><scope>MR::InterpolateScalarsParams</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1InterpolateScalarsParams_1a0f4474d532ba4db304165bb99b84f059" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>edgeWeights</name></member>
+      <member refid="classMR_1_1InterpolateScalarsParams_1a7cb6084553f1e9397e64ef37d4af743c" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>edgeWeights</name></member>
+      <member refid="classMR_1_1InterpolateScalarsParams_1a801719d12983f01a21825142b6bc69fe" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>edgeWeightsMetric</name></member>
       <member refid="classMR_1_1InterpolateScalarsParams_1abd56834eadfaa4ec56f6a7cee497bb96" prot="package" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>InterpolateScalarsParams</name></member>
       <member refid="classMR_1_1InterpolateScalarsParams_1a3405e6cdf7c58024ede53a4adef8266d" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>InterpolateScalarsParams</name></member>
-      <member refid="classMR_1_1InterpolateScalarsParams_1a3da02d3228e616c5a0a7fcc441502b8e" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>InterpolateScalarsParams</name></member>
+      <member refid="classMR_1_1InterpolateScalarsParams_1adb640085fe947cbaa3e0bc16c297c995" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>InterpolateScalarsParams</name></member>
       <member refid="classMR_1_1InterpolateScalarsParams_1a5b0589908642adb1aeb4c77bbc02a342" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>InterpolateScalarsParams</name></member>
       <member refid="classMR_1_1InterpolateScalarsParams_1a3e1077b44ab3a0002c23dded398f743c" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>InterpolateScalarsParams</name></member>
       <member refid="classMR_1_1InterpolateScalarsParams_1a01aa2a5cd8b692ee5f96d029f359ea4a" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>InterpolateScalarsParams</name></member>
       <member refid="classMR_1_1InterpolateScalarsParams_1a4d25be1f0d2657325eae70e8b8db2d4d" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>region</name></member>
       <member refid="classMR_1_1InterpolateScalarsParams_1addbe3f6034748ffba106fb2054c1c73a" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>stabilizer</name></member>
       <member refid="classMR_1_1InterpolateScalarsParams_1ae6f064e4ce49313e6941f0f34ecc16fa" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>vertStabilizers</name></member>
+      <member refid="classMR_1_1InterpolateScalarsParams_1a9082e86ec0dd1972db7fb41962793cd2" prot="public" virt="non-virtual"><scope>MR::InterpolateScalarsParams</scope><name>vmass</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

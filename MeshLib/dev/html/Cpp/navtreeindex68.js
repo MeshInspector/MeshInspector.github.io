@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[8,0,2,0,2,31,5,2],
+"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[8,0,1,0,1,46,5,0],
+"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[8,0,2,0,2,31,5,0],
+"structMR_1_1SpacingSettings.html":[8,0,0,20,459],
 "structMR_1_1Sphere.html":[8,0,0,0,22],
 "structMR_1_1Sphere.html":[8,0,0,20,499],
 "structMR_1_1SphereParams.html":[8,0,0,20,321],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#aa7bef794128e145f7ef27bb57872e2de":[8,0,2,0,2,33,0,7,1,2],
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#aaa2f88e1c672ce3881f126bcb168693b":[8,0,1,0,1,49,2,7,0,4],
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#aaa2f88e1c672ce3881f126bcb168693b":[8,0,2,0,2,33,0,7,0,4],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#ad03470ce1d0b8fc32529eae1388ddcdd":[8,0,1,0,1,49,2,7,0,2],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#ad03470ce1d0b8fc32529eae1388ddcdd":[8,0,1,0,1,49,2,7,1,3],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#ad03470ce1d0b8fc32529eae1388ddcdd":[8,0,2,0,2,33,0,7,0,2],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#ad03470ce1d0b8fc32529eae1388ddcdd":[8,0,2,0,2,33,0,7,1,3],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#af8d7643677c8aeeef29e018e4fe509bd":[8,0,1,0,1,49,2,7,0,3]
+"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#ad03470ce1d0b8fc32529eae1388ddcdd":[8,0,1,0,1,49,2,7,0,2]
 };

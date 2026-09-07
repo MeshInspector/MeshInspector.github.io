@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1AlphaShapeData.html":[8,0,0,20,118],
+"structMR_1_1AlphaShapeNei.html":[8,0,0,20,120],
+"structMR_1_1AlphaShapeStats.html":[8,0,0,20,119],
+"structMR_1_1AncillaryLabel.html":[8,0,0,20,565],
 "structMR_1_1AncillaryLines.html":[8,0,0,20,567],
 "structMR_1_1AncillaryMesh.html":[8,0,0,20,568],
 "structMR_1_1AncillaryPlane.html":[8,0,0,20,569],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1DeloneFlipsCache.html#a3a1a1bc0543a674c264e79c91353b0c6":[8,0,1,0,1,206,1],
 "structMR_1_1DeloneFlipsCache.html#a3a1a1bc0543a674c264e79c91353b0c6":[8,0,2,0,2,188,1],
 "structMR_1_1DeloneFlipsCache.html#a82541a219cbf4d1deff8d55e0e0d618d":[8,0,1,0,1,206,0],
-"structMR_1_1DeloneFlipsCache.html#a82541a219cbf4d1deff8d55e0e0d618d":[8,0,2,0,2,188,0],
-"structMR_1_1DeloneFlipsCache.html#a952f52b549cb750bf0006e86f02e64f8":[8,0,1,0,1,206,2],
-"structMR_1_1DeloneFlipsCache.html#a952f52b549cb750bf0006e86f02e64f8":[8,0,2,0,2,188,2],
-"structMR_1_1DeloneFlipsCache.html#a9a35236144629c8b122c73e09d8a57b3":[8,0,1,0,1,206,4],
-"structMR_1_1DeloneFlipsCache.html#a9a35236144629c8b122c73e09d8a57b3":[8,0,2,0,2,188,4]
+"structMR_1_1DeloneFlipsCache.html#a82541a219cbf4d1deff8d55e0e0d618d":[8,0,2,0,2,188,0]
 };

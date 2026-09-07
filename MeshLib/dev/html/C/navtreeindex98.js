@@ -1,5 +1,13 @@
 var NAVTREEINDEX98 =
 {
+"MRSphereObject_8h.html#a93d758c94b58d6f58b4d659e25fa6744":[8,2,2,0,0,0,0,1,328,110],
+"MRSphereObject_8h.html#a952fee783f588c6fe4a879c2307783b4":[8,2,2,0,0,0,0,1,328,58],
+"MRSphereObject_8h.html#a95bdd1317a3cb7c06433db14a3501bea":[8,2,2,0,0,0,0,1,328,84],
+"MRSphereObject_8h.html#a982ad7a836ca539e6d4e231f8a95a88c":[8,2,2,0,0,0,0,1,328,116],
+"MRSphereObject_8h.html#a98e68b76b09d16f69bcb4c582e2bd036":[8,2,2,0,0,0,0,1,328,42],
+"MRSphereObject_8h.html#a9de4534da67fd247daf85583208d041e":[8,2,2,0,0,0,0,1,328,8],
+"MRSphereObject_8h.html#a9dfd8f300230c1ed37391ec6474b198a":[8,2,2,0,0,0,0,1,328,32],
+"MRSphereObject_8h.html#a9e1c0e1eae41f5b3fd2861bfbdeaf3d5":[8,2,2,0,0,0,0,1,328,28],
 "MRSphereObject_8h.html#aa217dd5a5604d925d697b84720f7314f":[8,2,2,0,0,0,0,1,328,96],
 "MRSphereObject_8h.html#aa23e2b0bb9b7c9816d7fe691f75f2400":[8,2,2,0,0,0,0,1,328,148],
 "MRSphereObject_8h.html#aa27be7c4cbde5b0f4f2040c202067703":[8,2,2,0,0,0,0,1,328,164],
@@ -241,13 +249,5 @@ var NAVTREEINDEX98 =
 "MRSubfeatures_8h.html#af02ee38df887308b7c41fb18e2cbc06d":[8,2,2,0,0,0,0,1,333,18],
 "MRSubfeatures_8h_source.html":[8,2,2,0,0,0,0,1,333],
 "MRSurfaceDistanceBuilder_8h.html":[8,2,2,0,0,0,0,1,335],
-"MRSurfaceDistanceBuilder_8h.html#a0ec70674d6412513e8008d61c284c453":[8,2,2,0,0,0,0,1,335,14],
-"MRSurfaceDistanceBuilder_8h.html#a1d0a59dcbf14d2c46eb7f09430511c2f":[8,2,2,0,0,0,0,1,335,0],
-"MRSurfaceDistanceBuilder_8h.html#a22fb39b5cdf9c24469e46b5037c37fd4":[8,2,2,0,0,0,0,1,335,20],
-"MRSurfaceDistanceBuilder_8h.html#a2f145ce2b4622eff463121dc35d67ea7":[8,2,2,0,0,0,0,1,335,31],
-"MRSurfaceDistanceBuilder_8h.html#a33ea51b92cca6cac01baf4aa7a78e24a":[8,2,2,0,0,0,0,1,335,1],
-"MRSurfaceDistanceBuilder_8h.html#a3a7c9174bbab76896d52ae82f2b4ded9":[8,2,2,0,0,0,0,1,335,23],
-"MRSurfaceDistanceBuilder_8h.html#a3ca0eed7f08fa60f2f1d8d16a812d691":[8,2,2,0,0,0,0,1,335,27],
-"MRSurfaceDistanceBuilder_8h.html#a460d8e63bcae4d4dea74cee2370a866f":[8,2,2,0,0,0,0,1,335,25],
-"MRSurfaceDistanceBuilder_8h.html#a53e0522c371c5a5e806c57070cc8dad4":[8,2,2,0,0,0,0,1,335,6]
+"MRSurfaceDistanceBuilder_8h.html#a0ec70674d6412513e8008d61c284c453":[8,2,2,0,0,0,0,1,335,14]
 };

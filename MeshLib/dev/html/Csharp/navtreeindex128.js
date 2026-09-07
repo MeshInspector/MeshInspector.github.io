@@ -1,5 +1,13 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1SaveSettings.html#a3e17691d8cd4c8ed81002b0da79672c4":[8,3,0,0,0,1585,11],
+"classMR_1_1SaveSettings.html#a58b76e1e39c101b87925043fb9c4f93e":[8,3,0,0,0,1585,5],
+"classMR_1_1SaveSettings.html#a603cb9e64ff00f546275d30d0514c1c7":[8,3,0,0,0,1585,16],
+"classMR_1_1SaveSettings.html#a65abab80e05725aad1955e9671ebaeaa":[8,3,0,0,0,1585,17],
+"classMR_1_1SaveSettings.html#a9ef910af319f987f5ac113a74802ced3":[8,3,0,0,0,1585,2],
+"classMR_1_1SaveSettings.html#aa1caab12117b57c3e08054cfaddf977e":[8,3,0,0,0,1585,14],
+"classMR_1_1SaveSettings.html#aa29226c15a161c3a56ac2778d007f8af":[8,3,0,0,0,1585,13],
+"classMR_1_1SaveSettings.html#aa6cdc0dc8aba8a853203ec4d7358bd25":[8,3,0,0,0,1585,15],
 "classMR_1_1SaveSettings.html#aaa4a6f1418f0d390c8e9fa5207cc4c41":[8,3,0,0,0,1585,6],
 "classMR_1_1SaveSettings.html#ab4a8f94855513131d90009abf7dfcc2c":[8,3,0,0,0,1585,8],
 "classMR_1_1SaveSettings.html#ab4bbb1235275abac6d3bdb8595450a3f":[8,3,0,0,0,1585,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1SetBitIteratorT__MRPixelBitSet.html#a4388f931a6a55f468e25578f5826eed2":[8,3,0,0,0,1603,0],
 "classMR_1_1SetBitIteratorT__MRPixelBitSet.html#a55ffddefd1ef372b42835c1f540ad758":[8,3,0,0,0,1603,5],
 "classMR_1_1SetBitIteratorT__MRPixelBitSet.html#a8a4c06f431eb64c043821bc54923a9ff":[8,3,0,0,0,1603,2],
-"classMR_1_1SetBitIteratorT__MRPixelBitSet.html#a9d369bb0a95368f3b8e1d26d4385d5a1":[8,3,0,0,0,1603,3],
-"classMR_1_1SetBitIteratorT__MRPixelBitSet.html#ac9d74328e3b7ac1508446ebcf860bd68":[8,3,0,0,0,1603,4],
-"classMR_1_1SetBitIteratorT__MRPixelBitSet.html#aea9fa0c97e4c54997c33aa3774287060":[8,3,0,0,0,1603,6],
-"classMR_1_1SetBitIteratorT__MRRegionBitSet.html":[8,3,0,0,0,1604],
-"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a2666f04c55cbe37fe80726e4f37a81e3":[8,3,0,0,0,1604,5],
-"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a34d3d84d8cf7a4afdabbdcc564dc0698":[8,3,0,0,0,1604,2],
-"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a368d2a793a084f11a5c4f401944e5da3":[8,3,0,0,0,1604,1],
-"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a6f21027a74971e57622d80420e419bfe":[8,3,0,0,0,1604,6],
-"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a79f4dc1e70e6f916675013b3ed16bd11":[8,3,0,0,0,1604,0]
+"classMR_1_1SetBitIteratorT__MRPixelBitSet.html#a9d369bb0a95368f3b8e1d26d4385d5a1":[8,3,0,0,0,1603,3]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX96 =
 {
+"classmrmeshpy_1_1TriTriDistanceResult__float.html#a9ae58c121c80817c6e5ed7f2fd4f0399":[8,1,1,0,1,1136,8],
+"classmrmeshpy_1_1TriTriDistanceResult__float.html#aa65af4c9892c361712615ba94cfe3dc5":[8,1,0,0,2,1136,5],
+"classmrmeshpy_1_1TriTriDistanceResult__float.html#aa65af4c9892c361712615ba94cfe3dc5":[8,1,1,0,1,1136,5],
+"classmrmeshpy_1_1TriTriDistanceResult__float.html#ae6a10b0ec5d8c71bfc3ada511f82c1ea":[8,1,0,0,2,1136,9],
+"classmrmeshpy_1_1TriTriDistanceResult__float.html#ae6a10b0ec5d8c71bfc3ada511f82c1ea":[8,1,1,0,1,1136,9],
+"classmrmeshpy_1_1TriTriDistanceResult__float.html#aea52f19555ec55ad05cde5f786c795f6":[8,1,0,0,2,1136,6],
+"classmrmeshpy_1_1TriTriDistanceResult__float.html#aea52f19555ec55ad05cde5f786c795f6":[8,1,1,0,1,1136,6],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html":[8,1,0,0,2,1121],
 "classmrmeshpy_1_1TriangleSegmentIntersectResult.html":[8,1,1,0,1,1121],
 "classmrmeshpy_1_1TriangleSegmentIntersectResult.html#a1b7fe3ae6db4b0f58411b4c5d563cfd7":[8,1,0,0,2,1121,0],
 "classmrmeshpy_1_1TriangleSegmentIntersectResult.html#a1b7fe3ae6db4b0f58411b4c5d563cfd7":[8,1,1,0,1,1121,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX96 =
 "classmrmeshpy_1_1TriangulationParameters.html#a6cf9cb8054d6fb66d7b4f8c4db5be4e6":[8,1,1,0,1,1125,9],
 "classmrmeshpy_1_1TriangulationParameters.html#aa2223ccca70f71fcca4cc4f332814ce3":[8,1,0,0,2,1125,16],
 "classmrmeshpy_1_1TriangulationParameters.html#aa2223ccca70f71fcca4cc4f332814ce3":[8,1,1,0,1,1125,16],
-"classmrmeshpy_1_1TriangulationParameters.html#aab06faf25fb84d0f4a8dc725a7b07ece":[8,1,0,0,2,1125,8],
-"classmrmeshpy_1_1TriangulationParameters.html#aab06faf25fb84d0f4a8dc725a7b07ece":[8,1,1,0,1,1125,8],
-"classmrmeshpy_1_1TriangulationParameters.html#acda74d13dbfd8167a97ad8a278c5bb1e":[8,1,0,0,2,1125,5],
-"classmrmeshpy_1_1TriangulationParameters.html#acda74d13dbfd8167a97ad8a278c5bb1e":[8,1,1,0,1,1125,5],
-"classmrmeshpy_1_1TriangulationParameters.html#ad08d8276b35d17bd863d0795b40b0379":[8,1,0,0,2,1125,0],
-"classmrmeshpy_1_1TriangulationParameters.html#ad08d8276b35d17bd863d0795b40b0379":[8,1,1,0,1,1125,0],
-"classmrmeshpy_1_1TriangulationParameters.html#ad6040bf3125424f96e112a5061a05917":[8,1,0,0,2,1125,15],
-"classmrmeshpy_1_1TriangulationParameters.html#ad6040bf3125424f96e112a5061a05917":[8,1,1,0,1,1125,15],
-"classmrmeshpy_1_1TriangulationParameters.html#aea23d88ebae21d164056e37d057ce103":[8,1,0,0,2,1125,3]
+"classmrmeshpy_1_1TriangulationParameters.html#aab06faf25fb84d0f4a8dc725a7b07ece":[8,1,0,0,2,1125,8]
 };

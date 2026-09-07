@@ -2726,6 +2726,8 @@ var namespaceMR =
     [ "inSphere", "group__MathGroup.html#ga83d8be0f4efe6c9cba3f28d3deab2279", null ],
     [ "interpolateArcs", "group__GeneralGroup.html#gad92ea78439f58b683c4580b4100a379d", null ],
     [ "interpolateLines", "group__GeneralGroup.html#ga6209e9d14f32919cc6a9a9d7cd2e93ca", null ],
+    [ "interpolateScalarsSmoothly", "group__GeneralGroup.html#gaa6ab007d2bdc44836755de07d078c0bd", null ],
+    [ "interpolateScalarsSmoothly", "group__GeneralGroup.html#gad1543ca6047b495ed58eaf035968f122", null ],
     [ "interpolateScalarsSmoothly", "group__GeneralGroup.html#ga4f42a28b9964388bcffead051b48b0b3", null ],
     [ "intersection", "group__IntersectionGroup.html#gad9c4f2546d1a40da39bccf700c70ee49", null ],
     [ "intersection", "group__IntersectionGroup.html#ga1ff63020d1319814baf4c97e72dfcc2b", null ],

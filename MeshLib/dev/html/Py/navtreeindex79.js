@@ -1,5 +1,13 @@
 var NAVTREEINDEX79 =
 {
+"classmrmeshpy_1_1Polynomial__double__3.html#ab27950652c19272a6a93c1a25b995928":[8,1,1,0,1,767,0],
+"classmrmeshpy_1_1Polynomial__double__3.html#abecf537a43af87c86cd20873ede490d9":[8,1,0,0,2,767,3],
+"classmrmeshpy_1_1Polynomial__double__3.html#abecf537a43af87c86cd20873ede490d9":[8,1,1,0,1,767,3],
+"classmrmeshpy_1_1Polynomial__double__3.html#af82b8b4b711a4e4c7afeab194051e811":[8,1,0,0,2,767,2],
+"classmrmeshpy_1_1Polynomial__double__3.html#af82b8b4b711a4e4c7afeab194051e811":[8,1,1,0,1,767,2],
+"classmrmeshpy_1_1Polynomial__double__4.html":[8,1,0,0,2,768],
+"classmrmeshpy_1_1Polynomial__double__4.html":[8,1,1,0,1,768],
+"classmrmeshpy_1_1Polynomial__double__4.html#a0fb62bd8283270f6fd62a8a2d480663d":[8,1,0,0,2,768,3],
 "classmrmeshpy_1_1Polynomial__double__4.html#a0fb62bd8283270f6fd62a8a2d480663d":[8,1,1,0,1,768,3],
 "classmrmeshpy_1_1Polynomial__double__4.html#a1c7260aafbb3fc867e11c8103c0baac0":[8,1,0,0,2,768,2],
 "classmrmeshpy_1_1Polynomial__double__4.html#a1c7260aafbb3fc867e11c8103c0baac0":[8,1,1,0,1,768,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX79 =
 "classmrmeshpy_1_1PreciseVertCoords.html#a7916f7a4698289e22f323e91acf0472a":[8,1,1,0,1,784,0],
 "classmrmeshpy_1_1PreciseVertCoords.html#a7f7f273417df64dac291abae9fd9677c":[8,1,0,0,2,784,2],
 "classmrmeshpy_1_1PreciseVertCoords.html#a7f7f273417df64dac291abae9fd9677c":[8,1,1,0,1,784,2],
-"classmrmeshpy_1_1PreciseVertCoords.html#a8ea8bfa11a73c65820dadacb995107e7":[8,1,0,0,2,784,3],
-"classmrmeshpy_1_1PreciseVertCoords.html#a8ea8bfa11a73c65820dadacb995107e7":[8,1,1,0,1,784,3],
-"classmrmeshpy_1_1PreciseVertCoords.html#aa1dc5702f2c596f24deee87b8d7b0904":[8,1,0,0,2,784,6],
-"classmrmeshpy_1_1PreciseVertCoords.html#aa1dc5702f2c596f24deee87b8d7b0904":[8,1,1,0,1,784,6],
-"classmrmeshpy_1_1PreciseVertCoords2.html":[8,1,0,0,2,785],
-"classmrmeshpy_1_1PreciseVertCoords2.html":[8,1,1,0,1,785],
-"classmrmeshpy_1_1PreciseVertCoords2.html#a421623422a07b01f418804e20eb1facd":[8,1,0,0,2,785,2],
-"classmrmeshpy_1_1PreciseVertCoords2.html#a421623422a07b01f418804e20eb1facd":[8,1,1,0,1,785,2],
-"classmrmeshpy_1_1PreciseVertCoords2.html#a505886592d461b4b8fcc1bb3a872a54a":[8,1,0,0,2,785,0]
+"classmrmeshpy_1_1PreciseVertCoords.html#a8ea8bfa11a73c65820dadacb995107e7":[8,1,0,0,2,784,3]
 };

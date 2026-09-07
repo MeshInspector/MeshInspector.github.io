@@ -1,5 +1,13 @@
 var NAVTREEINDEX168 =
 {
+"std__vector__MR__CurvePoint_8h.html#acef9310fa692a5588a1270152f8a1562":[8,2,2,0,0,0,0,2,424,69],
+"std__vector__MR__CurvePoint_8h.html#ad03c3bfadaff0699187107614b214b41":[8,2,2,0,0,0,0,2,424,28],
+"std__vector__MR__CurvePoint_8h.html#ad3fd36f67c39d5c82cba2eb0bc6eb0c9":[8,2,2,0,0,0,0,2,424,12],
+"std__vector__MR__CurvePoint_8h.html#adefdfb4d881d62d71f158e25a005e266":[8,2,2,0,0,0,0,2,424,57],
+"std__vector__MR__CurvePoint_8h.html#ae47a7c8ec2b9215a880c1c3c62d7fe6c":[8,2,2,0,0,0,0,2,424,39],
+"std__vector__MR__CurvePoint_8h.html#ae5e6d828054f79c3a470716e0e4e3e42":[8,2,2,0,0,0,0,2,424,1],
+"std__vector__MR__CurvePoint_8h.html#ae645761dd8d5ce398b12e2fd6c18e926":[8,2,2,0,0,0,0,2,424,30],
+"std__vector__MR__CurvePoint_8h.html#ae839a6960796ce5fcb4c5210dc95ccb6":[8,2,2,0,0,0,0,2,424,27],
 "std__vector__MR__CurvePoint_8h.html#ae8958875f88d0ee731ecd96e9516c034":[8,2,2,0,0,0,0,2,424,24],
 "std__vector__MR__CurvePoint_8h.html#aee54436216c382454ee31707cdb3827d":[8,2,2,0,0,0,0,2,424,22],
 "std__vector__MR__CurvePoint_8h.html#af227c91a41ed1cc4ab59d6e6a7845f19":[8,2,2,0,0,0,0,2,424,47],
@@ -241,13 +249,5 @@ var NAVTREEINDEX168 =
 "std__vector__MR__EdgePointPair_8h.html#a2fec87f17786d8f6e4d2c7d20ad382fd":[8,2,2,0,0,0,0,2,429,63],
 "std__vector__MR__EdgePointPair_8h.html#a35ca8fa66918aa387db1619640465d87":[8,2,2,0,0,0,0,2,429,69],
 "std__vector__MR__EdgePointPair_8h.html#a3a80f77e762516311fcd5a28763b7bff":[8,2,2,0,0,0,0,2,429,44],
-"std__vector__MR__EdgePointPair_8h.html#a3b880e091d474e328ade44a6a9c0a2e1":[8,2,2,0,0,0,0,2,429,52],
-"std__vector__MR__EdgePointPair_8h.html#a4504b8bb8c7e6e1e784a1fe5eaeb73e8":[8,2,2,0,0,0,0,2,429,7],
-"std__vector__MR__EdgePointPair_8h.html#a5311428281ad9d55db0cbb43fd8ccad7":[8,2,2,0,0,0,0,2,429,15],
-"std__vector__MR__EdgePointPair_8h.html#a5823a79af1635faf452f7a3f6d6c3977":[8,2,2,0,0,0,0,2,429,40],
-"std__vector__MR__EdgePointPair_8h.html#a58f206bf34341bd0f1c6c288af4e3519":[8,2,2,0,0,0,0,2,429,42],
-"std__vector__MR__EdgePointPair_8h.html#a5ad12b53b10a75d91020f96f4cdef4e5":[8,2,2,0,0,0,0,2,429,3],
-"std__vector__MR__EdgePointPair_8h.html#a5f35deccd2d7d57a14eaf556801106be":[8,2,2,0,0,0,0,2,429,1],
-"std__vector__MR__EdgePointPair_8h.html#a620cf6143103662e367e9055ba50848f":[8,2,2,0,0,0,0,2,429,31],
-"std__vector__MR__EdgePointPair_8h.html#a63fcdb753c4203ba0f6ece6380af32b2":[8,2,2,0,0,0,0,2,429,9]
+"std__vector__MR__EdgePointPair_8h.html#a3b880e091d474e328ade44a6a9c0a2e1":[8,2,2,0,0,0,0,2,429,52]
 };

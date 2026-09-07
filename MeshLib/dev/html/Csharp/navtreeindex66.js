@@ -1,5 +1,11 @@
 var NAVTREEINDEX66 =
 {
+"classMR_1_1Const__ObjectPointsHolder.html#afca4b356d11d3b415310323dbf7dcd8a":[8,3,0,0,0,674,41],
+"classMR_1_1Const__ObjectTagEventDispatcher.html":[8,3,0,0,0,675],
+"classMR_1_1Const__ObjectTagEventDispatcher.html#a7367c3e627d71fe744a361be888ffa3e":[8,3,0,0,0,675,5],
+"classMR_1_1Const__ObjectTagEventDispatcher.html#aab25f3c77290ed44459fb0d642352cf2":[8,3,0,0,0,675,3],
+"classMR_1_1Const__ObjectTagEventDispatcher.html#ab10cc45ce245109ab03b2e5c58a61605":[8,3,0,0,0,675,1],
+"classMR_1_1Const__ObjectTagEventDispatcher.html#ab172c01a307788e26c6d70205bef3155":[8,3,0,0,0,675,0],
 "classMR_1_1Const__ObjectTagEventDispatcher.html#acef4c43401dac3b2c571fcd17e2acf51":[8,3,0,0,0,675,2],
 "classMR_1_1Const__ObjectTagEventDispatcher.html#ae51b289cf2f494ed904b10c7426cf5e9":[8,3,0,0,0,675,4],
 "classMR_1_1Const__ObjectVoxels.html":[8,3,0,0,0,676],
@@ -243,11 +249,5 @@ var NAVTREEINDEX66 =
 "classMR_1_1Const__OffsetContoursParams.html#a83f97f15995c36ee12400d4d35f6fda1adfd0a82c4bf37b1e90b690a22a20692e":[8,3,0,0,0,688,2,0],
 "classMR_1_1Const__OffsetContoursParams.html#a83f97f15995c36ee12400d4d35f6fda1aea89b68c34ce4a63c0f77e17413c6e30":[8,3,0,0,0,688,2,1],
 "classMR_1_1Const__OffsetContoursParams.html#a9968b20a85887c4683057e9afe58931a":[8,3,0,0,0,688,16],
-"classMR_1_1Const__OffsetContoursParams.html#a9a1c8081a5041009976ff692498330af":[8,3,0,0,0,688,3],
-"classMR_1_1Const__OffsetContoursParams.html#aa2c96ce29b9083ce7f5e0e5021c0af71":[8,3,0,0,0,688,17],
-"classMR_1_1Const__OffsetContoursParams.html#ab0ac0f3c2f8156a9098aac37cf8c616d":[8,3,0,0,0,688,4],
-"classMR_1_1Const__OffsetContoursParams.html#ab7dc48a1f1d574d8177d50bf925a116e":[8,3,0,0,0,688,6],
-"classMR_1_1Const__OffsetContoursParams.html#ac0ddb4c734a6be1c5f62dca22a71fbc7":[8,3,0,0,0,688,18],
-"classMR_1_1Const__OffsetContoursParams.html#ac2028137d9066703e1c7044a7d75d553":[8,3,0,0,0,688,19],
-"classMR_1_1Const__OffsetContoursParams.html#ae0f2821bc65b8a253d5755de79511c20":[8,3,0,0,0,688,0]
+"classMR_1_1Const__OffsetContoursParams.html#a9a1c8081a5041009976ff692498330af":[8,3,0,0,0,688,3]
 };

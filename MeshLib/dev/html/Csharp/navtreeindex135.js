@@ -1,5 +1,13 @@
 var NAVTREEINDEX135 =
 {
+"classMR_1_1UndirectedEdgeMap.html#ae42f0f14b8f89940cb22a2d0c74d846c":[8,3,0,0,0,1701,5],
+"classMR_1_1UndirectedEdgeMap.html#af66fd154c7a2f0a328447c4a3cbfa63b":[8,3,0,0,0,1701,11],
+"classMR_1_1UndirectedEdgeScalars.html":[8,3,0,0,0,1702],
+"classMR_1_1UndirectedEdgeScalars.html#a0469c8ac5592a6217259af6e4060705d":[8,3,0,0,0,1702,21],
+"classMR_1_1UndirectedEdgeScalars.html#a05386dc65aefb36a235688fb610b3038":[8,3,0,0,0,1702,25],
+"classMR_1_1UndirectedEdgeScalars.html#a126f207e8a66bcc9aab15a2452b5c0e9":[8,3,0,0,0,1702,5],
+"classMR_1_1UndirectedEdgeScalars.html#a376876b629cab0f38064e6eb749b2de5":[8,3,0,0,0,1702,20],
+"classMR_1_1UndirectedEdgeScalars.html#a3d8e93d46b3c766d949c1ed1fe4f82c4":[8,3,0,0,0,1702,1],
 "classMR_1_1UndirectedEdgeScalars.html#a5e28164c1a57cbdabef179b3ff62c1e8":[8,3,0,0,0,1702,18],
 "classMR_1_1UndirectedEdgeScalars.html#a6ea2433cc2b79d00af2174ebb5bf56fd":[8,3,0,0,0,1702,7],
 "classMR_1_1UndirectedEdgeScalars.html#a72c33a6f096ab78de0c36414c473a326":[8,3,0,0,0,1702,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX135 =
 "classMR_1_1Vector__Char__MRVertId.html#ac1db05ee9916b4669663c9727c076ad7":[8,3,0,0,0,1736,0],
 "classMR_1_1Vector__Char__MRVertId.html#accd198109c7e350ac60dd8cd6d7040fa":[8,3,0,0,0,1736,26],
 "classMR_1_1Vector__Char__MRVertId.html#acd97410e9b0b9b7563e8e516d0fc0385":[8,3,0,0,0,1736,2],
-"classMR_1_1Vector__Char__MRVertId.html#ae6699578389458140087bfb93aee175a":[8,3,0,0,0,1736,17],
-"classMR_1_1Vector__Char__MRVertId.html#af20d451e2b59923c2c5d93e44d3f5d46":[8,3,0,0,0,1736,12],
-"classMR_1_1Vector__Char__MRVertId.html#af4c450c6658de461a2727df79c5f9093":[8,3,0,0,0,1736,11],
-"classMR_1_1Vector__Char__MRVertId.html#af76f84d2b1ccbbf195548af5fd37bb33":[8,3,0,0,0,1736,18],
-"classMR_1_1Vector__Char__MRVertId.html#afa4ab64c0865ae093533d965e23b5f3b":[8,3,0,0,0,1736,21],
-"classMR_1_1Vector__Double__MRRegionId.html":[8,3,0,0,0,1737],
-"classMR_1_1Vector__Double__MRRegionId.html#a0639f3c05e01acd73604e8db7578f26d":[8,3,0,0,0,1737,25],
-"classMR_1_1Vector__Double__MRRegionId.html#a0ac7dba4c524ea87f6d45a51307dc8f7":[8,3,0,0,0,1737,8],
-"classMR_1_1Vector__Double__MRRegionId.html#a1c1bd7491e365d6ed6e4b0cfdf0bfbbe":[8,3,0,0,0,1737,3]
+"classMR_1_1Vector__Char__MRVertId.html#ae6699578389458140087bfb93aee175a":[8,3,0,0,0,1736,17]
 };

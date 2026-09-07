@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html":[8,0,2,0,2,7,11],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a3ec9519a874594345d17324a079237aa":[8,0,1,0,1,16,11,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a3ec9519a874594345d17324a079237aa":[8,0,2,0,2,7,11,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a6fa66d705cd65bc5dd8e745435221e52":[8,0,1,0,1,16,11,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a6fa66d705cd65bc5dd8e745435221e52":[8,0,2,0,2,7,11,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a9e3d5ac123e9d4946e2528d2e39fc91b":[8,0,1,0,1,16,11,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a9e3d5ac123e9d4946e2528d2e39fc91b":[8,0,2,0,2,7,11,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1McpSettings_1_1CmdLineOverrides.html#a25ac36ed0f1ea0a6a657f35364feb644":[8,0,2,0,2,12,0,1],
 "structMR_1_1Mcp_1_1Schema_1_1Array.html":[8,0,1,0,1,21,0,0],
 "structMR_1_1Mcp_1_1Schema_1_1Array.html":[8,0,2,0,2,10,0,0],
-"structMR_1_1Mcp_1_1Schema_1_1Array.html#a80a4e6ffb1a7ec7fddabf00b31a7c2b5":[8,0,1,0,1,21,0,0,0],
-"structMR_1_1Mcp_1_1Schema_1_1Array.html#a80a4e6ffb1a7ec7fddabf00b31a7c2b5":[8,0,2,0,2,10,0,0,0],
-"structMR_1_1Mcp_1_1Schema_1_1Base.html":[8,0,1,0,1,21,0,1],
-"structMR_1_1Mcp_1_1Schema_1_1Base.html":[8,0,2,0,2,10,0,1],
-"structMR_1_1Mcp_1_1Schema_1_1Base.html#a7d669690e5854d01f79f9d2da549f059":[8,0,1,0,1,21,0,1,1]
+"structMR_1_1Mcp_1_1Schema_1_1Array.html#a80a4e6ffb1a7ec7fddabf00b31a7c2b5":[8,0,1,0,1,21,0,0,0]
 };

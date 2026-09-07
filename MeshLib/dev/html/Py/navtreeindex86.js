@@ -1,5 +1,13 @@
 var NAVTREEINDEX86 =
 {
+"classmrmeshpy_1_1SelfIntersections_1_1Settings.html#ae449be75e1fc649fd7bc1e55437678ef":[8,1,1,0,1,833,0,2],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html":[8,1,0,0,2,833,0,0],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html":[8,1,1,0,1,833,0,0],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a193e71a988ce298ff8788c96a331e49f":[8,1,0,0,2,833,0,0,11],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a193e71a988ce298ff8788c96a331e49f":[8,1,1,0,1,833,0,0,11],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a2f12abc71c2a545cfdead0a77765dfad":[8,1,0,0,2,833,0,0,6],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a2f12abc71c2a545cfdead0a77765dfad":[8,1,1,0,1,833,0,0,6],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a456e16c544dfc022de1ef0106c877b0a":[8,1,0,0,2,833,0,0,2],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a456e16c544dfc022de1ef0106c877b0a":[8,1,1,0,1,833,0,0,2],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a4b23915cdf9584387989a394d9acde25":[8,1,0,0,2,833,0,0,7],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a4b23915cdf9584387989a394d9acde25":[8,1,1,0,1,833,0,0,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX86 =
 "classmrmeshpy_1_1SignDetectionModeShort.html#a1bcf436c63f1d4c4526f082db2283ee9":[8,1,1,0,1,842,0],
 "classmrmeshpy_1_1SignDetectionModeShort.html#a20b941d96a44fa7bf78fd2f4bbe85fd4":[8,1,0,0,2,842,5],
 "classmrmeshpy_1_1SignDetectionModeShort.html#a20b941d96a44fa7bf78fd2f4bbe85fd4":[8,1,1,0,1,842,5],
-"classmrmeshpy_1_1SignDetectionModeShort.html#a2f7ff482c360751dc7a18f36d6f108a1":[8,1,0,0,2,842,1],
-"classmrmeshpy_1_1SignDetectionModeShort.html#a2f7ff482c360751dc7a18f36d6f108a1":[8,1,1,0,1,842,1],
-"classmrmeshpy_1_1SignDetectionModeShort.html#a3591d6a8b0f001038841bbefdfb6f36c":[8,1,0,0,2,842,11],
-"classmrmeshpy_1_1SignDetectionModeShort.html#a3591d6a8b0f001038841bbefdfb6f36c":[8,1,1,0,1,842,11],
-"classmrmeshpy_1_1SignDetectionModeShort.html#a3dc749b75c636a6c1fd10a75275b77a9":[8,1,0,0,2,842,6],
-"classmrmeshpy_1_1SignDetectionModeShort.html#a3dc749b75c636a6c1fd10a75275b77a9":[8,1,1,0,1,842,6],
-"classmrmeshpy_1_1SignDetectionModeShort.html#a533ddde27104f739b798439e5949af47":[8,1,0,0,2,842,2],
-"classmrmeshpy_1_1SignDetectionModeShort.html#a533ddde27104f739b798439e5949af47":[8,1,1,0,1,842,2],
-"classmrmeshpy_1_1SignDetectionModeShort.html#a57131c9ffb5758577bd813e581cfa3fa":[8,1,0,0,2,842,9]
+"classmrmeshpy_1_1SignDetectionModeShort.html#a2f7ff482c360751dc7a18f36d6f108a1":[8,1,0,0,2,842,1]
 };

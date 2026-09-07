@@ -1,5 +1,13 @@
 var NAVTREEINDEX153 =
 {
+"structMR_1_1Vector3b.html#a63ee33ca237eafbc5beb2dcf3f880720":[8,3,0,0,0,1725,8],
+"structMR_1_1Vector3b.html#a64beba8d803f9874c304d2d2ed37940c":[8,3,0,0,0,1725,24],
+"structMR_1_1Vector3b.html#a6dc189733604c9e08b2dd4cb4b478511":[8,3,0,0,0,1725,12],
+"structMR_1_1Vector3b.html#a7edc33937b6c1a94e1c2423644d5a573":[8,3,0,0,0,1725,23],
+"structMR_1_1Vector3b.html#a7fbadc2d462cfb3d0fb86431cd46b694":[8,3,0,0,0,1725,21],
+"structMR_1_1Vector3b.html#a842b6a490dcfb072e1b130ffb15197c5":[8,3,0,0,0,1725,31],
+"structMR_1_1Vector3b.html#a91eeb25d98b031cdbfdea7ecbc4a8595":[8,3,0,0,0,1725,3],
+"structMR_1_1Vector3b.html#a9373111c5738ca5a9a5a067d92a02563":[8,3,0,0,0,1725,9],
 "structMR_1_1Vector3b.html#a9a3aed3d270aca235e803069dfbd189a":[8,3,0,0,0,1725,19],
 "structMR_1_1Vector3b.html#aa657b263878b85d134433efcb9df68f8":[8,3,0,0,0,1725,26],
 "structMR_1_1Vector3b.html#aa80498a0cb1defc0f3b0b5cd72c9ee6c":[8,3,0,0,0,1725,33],
@@ -241,13 +249,5 @@ var NAVTREEINDEX153 =
 "structMR_1_1Vector4d.html#ae0323899d542fb8b55e247cef77f5de9":[8,3,0,0,0,1732,16],
 "structMR_1_1Vector4d.html#af303d8ae253666924d1f545f61981c49":[8,3,0,0,0,1732,24],
 "structMR_1_1Vector4f.html":[8,3,0,0,0,1733],
-"structMR_1_1Vector4f.html#a0554ae777fcb6a214f67871152c51c50":[8,3,0,0,0,1733,1],
-"structMR_1_1Vector4f.html#a06daf6d9d0deaed7b362353466ae0dca":[8,3,0,0,0,1733,14],
-"structMR_1_1Vector4f.html#a1902d26c06f014bbdba5a93cdcf7cb20":[8,3,0,0,0,1733,8],
-"structMR_1_1Vector4f.html#a220de7e96be7ba808764d7ab3b8aaf41":[8,3,0,0,0,1733,18],
-"structMR_1_1Vector4f.html#a31c570a722fea52be333a576ed9402a2":[8,3,0,0,0,1733,30],
-"structMR_1_1Vector4f.html#a3d6f739089b761fb32fb1b910234a615":[8,3,0,0,0,1733,0],
-"structMR_1_1Vector4f.html#a41749e7752d42f9ffd2ee74bc63526aa":[8,3,0,0,0,1733,15],
-"structMR_1_1Vector4f.html#a4e46509c890fc9b60affb4c9d2cc5290":[8,3,0,0,0,1733,11],
-"structMR_1_1Vector4f.html#a4f887796467c2258252a9a985957e6c2":[8,3,0,0,0,1733,23]
+"structMR_1_1Vector4f.html#a0554ae777fcb6a214f67871152c51c50":[8,3,0,0,0,1733,1]
 };

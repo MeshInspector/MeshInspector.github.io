@@ -1,5 +1,13 @@
 var NAVTREEINDEX128 =
 {
+"classmrmeshpy_1_1VoxelsSave.html":[8,1,1,0,1,1277],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html":[8,1,0,0,2,1277,0],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html":[8,1,1,0,1,1277,0],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a0d7cdcdfa2cfe5aad0da69c8c6a20371":[8,1,0,0,2,1277,0,3],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a0d7cdcdfa2cfe5aad0da69c8c6a20371":[8,1,1,0,1,1277,0,3],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a351d3f3a8b18d4ac416530db5890eb63":[8,1,0,0,2,1277,0,9],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a351d3f3a8b18d4ac416530db5890eb63":[8,1,1,0,1,1277,0,9],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a45d1ed080e04b16fc4054b1bf545e021":[8,1,0,0,2,1277,0,0],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a45d1ed080e04b16fc4054b1bf545e021":[8,1,1,0,1,1277,0,0],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a53a3a92c69ae8588541e9f2a9d8a6ec9":[8,1,0,0,2,1277,0,10],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a53a3a92c69ae8588541e9f2a9d8a6ec9":[8,1,1,0,1,1277,0,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX128 =
 "classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html":[8,1,1,0,1,1293,1],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a17d001bababe881e536282b3a0eff7bc":[8,1,0,0,2,1293,1,1],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a17d001bababe881e536282b3a0eff7bc":[8,1,1,0,1,1293,1,1],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a4bbab34047ebfa5bc48eebbbf608d8b7":[8,1,0,0,2,1293,1,9],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a4bbab34047ebfa5bc48eebbbf608d8b7":[8,1,1,0,1,1293,1,9],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a58c914e518fc37266fd95d4eb99cdef6":[8,1,0,0,2,1293,1,0],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a58c914e518fc37266fd95d4eb99cdef6":[8,1,1,0,1,1293,1,0],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a7a556f60afafc2c9d588559cdf996cd2":[8,1,0,0,2,1293,1,10],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a7a556f60afafc2c9d588559cdf996cd2":[8,1,1,0,1,1293,1,10],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a997dc8d3f1e3c94f6124bc772e111d2f":[8,1,0,0,2,1293,1,4],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a997dc8d3f1e3c94f6124bc772e111d2f":[8,1,1,0,1,1293,1,4],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a9d02e97a48c74697e006ff77deae70cc":[8,1,0,0,2,1293,1,2]
+"classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a4bbab34047ebfa5bc48eebbbf608d8b7":[8,1,0,0,2,1293,1,9]
 };

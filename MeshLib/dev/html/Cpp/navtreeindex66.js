@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1MeshRegion.html":[8,0,0,20,363],
+"structMR_1_1MeshRelaxParams.html":[8,0,0,9,6,0],
+"structMR_1_1MeshRelaxParams.html#a41780c569c9092f50274655744456aea":[8,0,0,9,6,0,1],
+"structMR_1_1MeshRelaxParams.html#aeb8c3fee03385430c013562e6fafb17e":[8,0,0,9,6,0,0],
 "structMR_1_1MeshSave_1_1CtmSaveOptions.html":[8,0,0,20,90],
 "structMR_1_1MeshSave_1_1MeshSaver.html":[8,0,1,0,1,27,2],
 "structMR_1_1MeshSave_1_1MeshSaver.html":[8,0,2,0,2,16,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1PointsProjectionResult.html#a3b974a4c082686d4963d597b5533c340":[8,0,0,1,28,1],
 "structMR_1_1PointsProjectionResult.html#aac972c9152f1d040824f6ce8998b7cf7":[8,0,0,1,28,0],
 "structMR_1_1PointsProjectionResult.html#ac5592bc916da0b017f4e3a254bad34f7":[8,0,0,1,28,2],
-"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html":[8,0,0,20,91],
-"structMR_1_1PointsSave_1_1PointsSaver.html":[8,0,1,0,1,36,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html":[8,0,2,0,2,23,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[8,0,1,0,1,36,1,0],
-"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[8,0,2,0,2,23,1,0]
+"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html":[8,0,0,20,91]
 };

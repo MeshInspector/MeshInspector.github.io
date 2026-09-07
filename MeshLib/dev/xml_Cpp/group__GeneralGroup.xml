@@ -41818,6 +41818,38 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRMesh/MRPositionVertsSmoothly.h" line="50" column="22" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="50" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gabd62037b2a4bfbc798d08e1f15916736" prot="public" static="no" mutable="no">
+        <type>EdgeWeights</type>
+        <definition>EdgeWeights MR::InterpolateScalarsParams::edgeWeights</definition>
+        <argsstring></argsstring>
+        <name>edgeWeights</name>
+        <qualifiedname>MR::InterpolateScalarsParams::edgeWeights</qualifiedname>
+        <initializer>= EdgeWeights::Unit</initializer>
+        <briefdescription>
+<para>weights of edges in the equations, used unless <computeroutput>edgeWeightsMetric</computeroutput> is specified </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="53" column="17" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga82ed4a5e579949d2ab274d07843f75eb" prot="public" static="no" mutable="no">
+        <type>VertexMass</type>
+        <definition>VertexMass MR::InterpolateScalarsParams::vmass</definition>
+        <argsstring></argsstring>
+        <name>vmass</name>
+        <qualifiedname>MR::InterpolateScalarsParams::vmass</qualifiedname>
+        <initializer>= VertexMass::Unit</initializer>
+        <briefdescription>
+<para>the stabilizer of each vertex is multiplied on the mass of that vertex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="56" column="16" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga98ab155d04ae2cfd71541853f95b9905" prot="public" static="no" mutable="no">
         <type>float</type>
         <definition>float MR::InterpolateScalarsParams::stabilizer</definition>
@@ -41832,7 +41864,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="53" column="11" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="53" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="59" column="11" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4bdb32dfbab99a544136700fbe9fa29b" prot="public" static="no" mutable="no">
         <type>VertMetric</type>
@@ -41847,22 +41879,22 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="56" column="16" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="56" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="62" column="16" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="62" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga0781fd3cc59338f9f5f19b3fb3a34134" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1gae26939130e290270dfce59cdc8ba7055" prot="public" static="no" mutable="no">
         <type>UndirectedEdgeMetric</type>
-        <definition>UndirectedEdgeMetric MR::InterpolateScalarsParams::edgeWeights</definition>
+        <definition>UndirectedEdgeMetric MR::InterpolateScalarsParams::edgeWeightsMetric</definition>
         <argsstring></argsstring>
-        <name>edgeWeights</name>
-        <qualifiedname>MR::InterpolateScalarsParams::edgeWeights</qualifiedname>
+        <name>edgeWeightsMetric</name>
+        <qualifiedname>MR::InterpolateScalarsParams::edgeWeightsMetric</qualifiedname>
         <briefdescription>
-<para>if specified then it is used for edge weights instead of default 1 </para>
+<para>if specified then it is used for edge weights instead of <computeroutput>edgeWeights</computeroutput> </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="59" column="26" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="59" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="65" column="26" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac011fc95d61ece99cc3358e1236104d9" prot="public" static="no" mutable="no">
         <type>const VertBitSet *</type>
@@ -41878,7 +41910,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="70" column="22" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="70" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="79" column="22" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga49adf144c8f1f64aafce1e6927f03dc0" prot="public" static="no" mutable="no">
         <type>UndirectedEdgeMetric</type>
@@ -41893,7 +41925,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="73" column="26" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="73" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="82" column="26" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad568a8496f9ca1e1732124e9fa159cd5" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -41910,7 +41942,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="76" column="9" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="76" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="85" column="9" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga612a52253b770197ad7b0ddea8224c14" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -41926,7 +41958,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="79" column="11" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="79" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="88" column="11" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5443622562ccec60fb967801e5c0ad46" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -41942,7 +41974,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="82" column="11" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="82" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="91" column="11" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga65572ad8925a4fe549d886d23dc4b2e5" prot="public" static="no" mutable="no">
         <type>FacePredicate</type>
@@ -41957,7 +41989,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="85" column="19" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="85" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="94" column="19" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2b56de5e320c04500550d57d852fbb7b" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -41973,7 +42005,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="97" column="11" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="97" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="106" column="11" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="106" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga81342d048666014aff4d0999d92c9d50" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -41989,7 +42021,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="100" column="9" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="100" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="109" column="9" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0e7308020ddff9486f3d7673bb03a4b5" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -42005,7 +42037,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="103" column="10" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="103" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="112" column="10" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga01eec1ee9ce09177388ba2eb6097a88a" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -42021,7 +42053,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="105" column="10" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="105" bodyend="-1"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="114" column="10" bodyfile="MRMesh/MRPositionVertsSmoothly.h" bodystart="114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2898fdfcc0ded74f09a2807b6b6fef31" prot="public" static="no" mutable="no">
         <type>Event</type>
@@ -135575,6 +135607,63 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </inbodydescription>
         <location file="MRMesh/MRPositionVertsSmoothly.h" line="44" column="8" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="44" declcolumn="8"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaa6ab007d2bdc44836755de07d078c0bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::interpolateScalarsSmoothly</definition>
+        <argsstring>(const Mesh &amp;mesh, VertScalars &amp;field, const InterpolateScalarsParams &amp;params)</argsstring>
+        <name>interpolateScalarsSmoothly</name>
+        <qualifiedname>MR::interpolateScalarsSmoothly</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>VertScalars &amp;</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>const InterpolateScalarsParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the values of scalar field in region vertices to make it harmonic there: each value becomes the weighted mean of the values in neighbor vertices, while the values in all other vertices remain fixed; with non-negative edge weights and zero stabilizers, the computed values never leave the range of the fixed values </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="71" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="71" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gad1543ca6047b495ed58eaf035968f122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::interpolateScalarsSmoothly</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points, VertScalars &amp;field, const InterpolateScalarsParams &amp;params)</argsstring>
+        <name>interpolateScalarsSmoothly</name>
+        <qualifiedname>MR::interpolateScalarsSmoothly</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>VertScalars &amp;</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>const InterpolateScalarsParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="72" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="72" declcolumn="7"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4f42a28b9964388bcffead051b48b0b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::interpolateScalarsSmoothly</definition>
@@ -135594,13 +135683,13 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
           <declname>params</declname>
         </param>
         <briefdescription>
+<para>this overload has no access to mesh points, so it requires params.edgeWeights == <ref refid="group__GeneralGroup_1gga5ac9f08cd2ef48394fa1c77a8ebdd6c8a19c562a36aeb455d09534f93b4f5236f" kindref="member">EdgeWeights::Unit</ref> and params.vmass == <ref refid="group__GeneralGroup_1ggada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass::Unit</ref> </para>
         </briefdescription>
         <detaileddescription>
-<para>Computes the values of scalar field in region vertices to make it harmonic there: each value becomes the weighted mean of the values in neighbor vertices, while the values in all other vertices remain fixed; with non-negative edge weights and zero stabilizers, the computed values never leave the range of the fixed values </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="65" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="65" declcolumn="7"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="74" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="74" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadb739a70f56473054c61b01ea775d324" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -135623,7 +135712,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="89" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="89" declcolumn="7"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="98" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="98" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2ebbb4933faafb3ef63537dc45fdd789" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -135649,7 +135738,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="90" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="90" declcolumn="7"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="99" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="99" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga32961e262e92c3438548d8b9a40b5364" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -135685,7 +135774,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="111" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="111" declcolumn="7"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="120" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="120" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9cbc6ba131ff587e64d50eade7fc99cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -135715,7 +135804,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="112" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="112" declcolumn="7"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="121" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="121" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga62ff69b90b83786af6489013210c7650" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -135746,7 +135835,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPositionVertsSmoothly.h" line="117" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="117" declcolumn="7"/>
+        <location file="MRMesh/MRPositionVertsSmoothly.h" line="126" column="7" declfile="MRMesh/MRPositionVertsSmoothly.h" declline="126" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad0a5cd2183eefe7bfc3f29122f2b607d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

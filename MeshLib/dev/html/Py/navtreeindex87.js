@@ -1,5 +1,13 @@
 var NAVTREEINDEX87 =
 {
+"classmrmeshpy_1_1SignDetectionModeShort.html#a2f7ff482c360751dc7a18f36d6f108a1":[8,1,1,0,1,842,1],
+"classmrmeshpy_1_1SignDetectionModeShort.html#a3591d6a8b0f001038841bbefdfb6f36c":[8,1,0,0,2,842,11],
+"classmrmeshpy_1_1SignDetectionModeShort.html#a3591d6a8b0f001038841bbefdfb6f36c":[8,1,1,0,1,842,11],
+"classmrmeshpy_1_1SignDetectionModeShort.html#a3dc749b75c636a6c1fd10a75275b77a9":[8,1,0,0,2,842,6],
+"classmrmeshpy_1_1SignDetectionModeShort.html#a3dc749b75c636a6c1fd10a75275b77a9":[8,1,1,0,1,842,6],
+"classmrmeshpy_1_1SignDetectionModeShort.html#a533ddde27104f739b798439e5949af47":[8,1,0,0,2,842,2],
+"classmrmeshpy_1_1SignDetectionModeShort.html#a533ddde27104f739b798439e5949af47":[8,1,1,0,1,842,2],
+"classmrmeshpy_1_1SignDetectionModeShort.html#a57131c9ffb5758577bd813e581cfa3fa":[8,1,0,0,2,842,9],
 "classmrmeshpy_1_1SignDetectionModeShort.html#a57131c9ffb5758577bd813e581cfa3fa":[8,1,1,0,1,842,9],
 "classmrmeshpy_1_1SignDetectionModeShort.html#a588017b96dbf46ba620f53f29c373036":[8,1,0,0,2,842,3],
 "classmrmeshpy_1_1SignDetectionModeShort.html#a588017b96dbf46ba620f53f29c373036":[8,1,1,0,1,842,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX87 =
 "classmrmeshpy_1_1Sphere2d.html#a59ade2cc340e384eb8ee41e7f31f88fb":[8,1,1,0,1,858,4],
 "classmrmeshpy_1_1Sphere2d.html#aa72ebaf19e0c41d99384172081b990ba":[8,1,0,0,2,858,1],
 "classmrmeshpy_1_1Sphere2d.html#aa72ebaf19e0c41d99384172081b990ba":[8,1,1,0,1,858,1],
-"classmrmeshpy_1_1Sphere2d.html#aae3227cd27a0f2d05d45aa182691f5db":[8,1,0,0,2,858,0],
-"classmrmeshpy_1_1Sphere2d.html#aae3227cd27a0f2d05d45aa182691f5db":[8,1,1,0,1,858,0],
-"classmrmeshpy_1_1Sphere2d.html#ad6d31bb0fd2a32e50a18eb1972c77516":[8,1,0,0,2,858,6],
-"classmrmeshpy_1_1Sphere2d.html#ad6d31bb0fd2a32e50a18eb1972c77516":[8,1,1,0,1,858,6],
-"classmrmeshpy_1_1Sphere2d.html#af73a6015134904bc7dfb52682bb2330e":[8,1,0,0,2,858,2],
-"classmrmeshpy_1_1Sphere2d.html#af73a6015134904bc7dfb52682bb2330e":[8,1,1,0,1,858,2],
-"classmrmeshpy_1_1Sphere2f.html":[8,1,0,0,2,859],
-"classmrmeshpy_1_1Sphere2f.html":[8,1,1,0,1,859],
-"classmrmeshpy_1_1Sphere2f.html#a212d095db990241509a41901a531668c":[8,1,0,0,2,859,6]
+"classmrmeshpy_1_1Sphere2d.html#aae3227cd27a0f2d05d45aa182691f5db":[8,1,0,0,2,858,0]
 };

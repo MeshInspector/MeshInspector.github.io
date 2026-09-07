@@ -1,5 +1,11 @@
 var NAVTREEINDEX96 =
 {
+"classMR_1_1Const__ZlibParams.html#ad16490ac32ff333b27e3e2a55a90cfc8":[8,3,0,0,0,1032,1],
+"classMR_1_1Const__ZlibParams.html#ae289d948f6bf45b0e77772bd97025187":[8,3,0,0,0,1032,7],
+"classMR_1_1Const__ZlibParams.html#ae5a708384ef399208914a13c92ea0a50":[8,3,0,0,0,1032,2],
+"classMR_1_1ConstantCuspParams.html":[8,3,0,0,0,1033],
+"classMR_1_1ConstantCuspParams.html#a01536f453eaad46e6b08e49e61fa7f47":[8,3,0,0,0,1033,10],
+"classMR_1_1ConstantCuspParams.html#a0ad8023530126f87be00add95c98ec97":[8,3,0,0,0,1033,15],
 "classMR_1_1ConstantCuspParams.html#a10758245cc24e7f629659a90a88e42d6":[8,3,0,0,0,1033,8],
 "classMR_1_1ConstantCuspParams.html#a19380f35eb800df2203562afa706a36f":[8,3,0,0,0,1033,12],
 "classMR_1_1ConstantCuspParams.html#a27c4e60afa84b6944668c323ccdc19c0":[8,3,0,0,0,1033,19],
@@ -243,11 +249,5 @@ var NAVTREEINDEX96 =
 "classMR_1_1Cuda_1_1PointsProjector.html#a06ccb73e2c6d4072be65379597e3ed18":[8,3,0,0,0,1108,8,6],
 "classMR_1_1Cuda_1_1PointsProjector.html#a0722839107f79a5f4e7595489332400a":[8,3,0,0,0,1108,8,2],
 "classMR_1_1Cuda_1_1PointsProjector.html#a166217b21a96549dfd354e35616680f0":[8,3,0,0,0,1108,8,4],
-"classMR_1_1Cuda_1_1PointsProjector.html#a2c38207bc994ab88ce6947c75fa2d286":[8,3,0,0,0,1108,8,1],
-"classMR_1_1Cuda_1_1PointsProjector.html#a526fefc1ce55ab3078decd7fb0bfcada":[8,3,0,0,0,1108,8,5],
-"classMR_1_1Cuda_1_1PointsProjector.html#aa9f52d5cbc95260813ee5d1523609a71":[8,3,0,0,0,1108,8,3],
-"classMR_1_1Cuda_1_1PointsProjector.html#ab7500e9afbdc90e21f0dffc4d0d3aef1":[8,3,0,0,0,1108,8,0],
-"classMR_1_1Cuda_1_1PointsProjector.html#acd3c4cbb3aa5663760ede1e6b7cd537c":[8,3,0,0,0,1108,8,7],
-"classMR_1_1Cuda_1_1PointsToMeshProjector.html":[8,3,0,0,0,1108,9],
-"classMR_1_1Cuda_1_1PointsToMeshProjector.html#a010f47e518381d390ef0f4f3a26425d0":[8,3,0,0,0,1108,9,1]
+"classMR_1_1Cuda_1_1PointsProjector.html#a2c38207bc994ab88ce6947c75fa2d286":[8,3,0,0,0,1108,8,1]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a55652080e2a672c48b162872504fba59":[8,1,1,0,1,588,1,6],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a55f25ef6f6834596070a5940b27e0320":[8,1,0,0,2,588,1,19],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a55f25ef6f6834596070a5940b27e0320":[8,1,1,0,1,588,1,19],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a5da387645c2d880c8845abd257bfed1f":[8,1,0,0,2,588,1,8],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a5da387645c2d880c8845abd257bfed1f":[8,1,1,0,1,588,1,8],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a88218a33cbbfeb236b9d874cbb639101":[8,1,0,0,2,588,1,9],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a88218a33cbbfeb236b9d874cbb639101":[8,1,1,0,1,588,1,9],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a885c48c0ed25831ccda6e4d83d6c1902":[8,1,0,0,2,588,1,4],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a885c48c0ed25831ccda6e4d83d6c1902":[8,1,1,0,1,588,1,4],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a9f69a70b70f518cc8eddceb83d2f435c":[8,1,0,0,2,588,1,16],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a9f69a70b70f518cc8eddceb83d2f435c":[8,1,1,0,1,588,1,16],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "classmrmeshpy_1_1NoCtor__NodeId.html":[8,1,1,0,1,598],
 "classmrmeshpy_1_1NoCtor__NodeId.html#a03456da737f72f0a802275aea282acc8":[8,1,0,0,2,598,0],
 "classmrmeshpy_1_1NoCtor__NodeId.html#a03456da737f72f0a802275aea282acc8":[8,1,0,0,2,598,2],
-"classmrmeshpy_1_1NoCtor__NodeId.html#a03456da737f72f0a802275aea282acc8":[8,1,1,0,1,598,0],
-"classmrmeshpy_1_1NoCtor__NodeId.html#a03456da737f72f0a802275aea282acc8":[8,1,1,0,1,598,2],
-"classmrmeshpy_1_1NoCtor__NodeId.html#a89335dd3e09474978cb140ba8756a77a":[8,1,0,0,2,598,1],
-"classmrmeshpy_1_1NoCtor__NodeId.html#a89335dd3e09474978cb140ba8756a77a":[8,1,1,0,1,598,1],
-"classmrmeshpy_1_1NoCtor__ObjId.html":[8,1,0,0,2,599],
-"classmrmeshpy_1_1NoCtor__ObjId.html":[8,1,1,0,1,599],
-"classmrmeshpy_1_1NoCtor__ObjId.html#accd2ac9356035b558bca2721e496b0db":[8,1,0,0,2,599,0],
-"classmrmeshpy_1_1NoCtor__ObjId.html#accd2ac9356035b558bca2721e496b0db":[8,1,0,0,2,599,2],
-"classmrmeshpy_1_1NoCtor__ObjId.html#accd2ac9356035b558bca2721e496b0db":[8,1,1,0,1,599,0]
+"classmrmeshpy_1_1NoCtor__NodeId.html#a03456da737f72f0a802275aea282acc8":[8,1,1,0,1,598,0]
 };

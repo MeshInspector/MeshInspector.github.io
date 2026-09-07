@@ -1,5 +1,11 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1DistanceMeasurementObject.html#a7a3066ba00add7516602960d21fc766a":[8,3,0,0,0,1140,29],
+"classMR_1_1DistanceMeasurementObject.html#a7ab32c868a5111df007c954de9db6c11":[8,3,0,0,0,1140,6],
+"classMR_1_1DistanceMeasurementObject.html#a7c67eeaa1dce37d7615f4082cedd8a7d":[8,3,0,0,0,1140,18],
+"classMR_1_1DistanceMeasurementObject.html#a81117753054cca7fa848a76b33d4a3b6":[8,3,0,0,0,1140,28],
+"classMR_1_1DistanceMeasurementObject.html#a93201303a19ece5a41fc52297d769514":[8,3,0,0,0,1140,16],
+"classMR_1_1DistanceMeasurementObject.html#a9450841f6fce04f54f10968b7f3dcbf3":[8,3,0,0,0,1140,7],
 "classMR_1_1DistanceMeasurementObject.html#a993fec99aa6a58033159221d43d6d4e3":[8,3,0,0,0,1140,41],
 "classMR_1_1DistanceMeasurementObject.html#a9c423528e465f6723b4767b6cccf7680":[8,3,0,0,0,1140,44],
 "classMR_1_1DistanceMeasurementObject.html#aa798602551fbc29616ed1435e7795836":[8,3,0,0,0,1140,17],
@@ -243,11 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#ad896daa77e2a000d966606c52f18f62c":[8,3,0,0,0,1155,6],
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#afbf7e3e1fcdbe1b5d0d03ed967af8d35":[8,3,0,0,0,1155,9],
 "classMR_1_1EdgePoint.html":[8,3,0,0,0,1156],
-"classMR_1_1EdgePoint.html#a14c52358111de479d6d6dd4ff1e26d54":[8,3,0,0,0,1156,7],
-"classMR_1_1EdgePoint.html#a1f38aea768184180ab42febf18549ed2":[8,3,0,0,0,1156,2],
-"classMR_1_1EdgePoint.html#a48da1c16fa0f6986199ff440bdfa8dfc":[8,3,0,0,0,1156,8],
-"classMR_1_1EdgePoint.html#a516ef5f472c5216f0048787ae3a4e1e3":[8,3,0,0,0,1156,3],
-"classMR_1_1EdgePoint.html#a5e0a95b62e036b305c97582404c64981":[8,3,0,0,0,1156,6],
-"classMR_1_1EdgePoint.html#a5f7172d14fff7bb8cbd1b092576bf405":[8,3,0,0,0,1156,4],
-"classMR_1_1EdgePoint.html#a90f457fffa0b69bbeae7421a033f2bbe":[8,3,0,0,0,1156,0]
+"classMR_1_1EdgePoint.html#a14c52358111de479d6d6dd4ff1e26d54":[8,3,0,0,0,1156,7]
 };

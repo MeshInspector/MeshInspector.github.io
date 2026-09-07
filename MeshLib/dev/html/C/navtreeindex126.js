@@ -1,5 +1,13 @@
 var NAVTREEINDEX126 =
 {
+"MRVertDuplication_8h.html#aec6c12128e678357fc64d1c7d19d0fe4":[8,2,2,0,0,0,0,1,369,45],
+"MRVertDuplication_8h.html#aef16f4452629b5189a547af4eadf19aa":[8,2,2,0,0,0,0,1,369,18],
+"MRVertDuplication_8h.html#af6d6ea4fcd81235abd07073dbb8655fb":[8,2,2,0,0,0,0,1,369,21],
+"MRVertDuplication_8h.html#afd1114fb6679e2735a65004d15fd5c12":[8,2,2,0,0,0,0,1,369,54],
+"MRVertDuplication_8h.html#afed6abaf3179ff3a208c5ca0564c79b5":[8,2,2,0,0,0,0,1,369,29],
+"MRVertDuplication_8h_source.html":[8,2,2,0,0,0,0,1,369],
+"MRViewportId_8h.html":[8,2,2,0,0,0,0,1,370],
+"MRViewportId_8h.html#a13b802639dfffa4b1262bea40be7679f":[8,2,2,0,0,0,0,1,370,31],
 "MRViewportId_8h.html#a1af6d625bf1558b89cc438f3815a44bb":[8,2,2,0,0,0,0,1,370,25],
 "MRViewportId_8h.html#a1d06b9dbddb5e178c0b4148ff8a56f9d":[8,2,2,0,0,0,0,1,370,37],
 "MRViewportId_8h.html#a1d28fabd37539db8c21be97d94f1aa44":[8,2,2,0,0,0,0,1,370,32],
@@ -241,13 +249,5 @@ var NAVTREEINDEX126 =
 "MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dca2dcdcdf88c512e6a650c9f8b4ae39fab":[8,2,2,0,0,0,0,1,372,14,1],
 "MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dca91c6ff56f58d56aa0fc6ddc6e64b9d8d":[8,2,2,0,0,0,0,1,372,14,3],
 "MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dcaaf8c8941b95e07719ff58e2f23ef7d37":[8,2,2,0,0,0,0,1,372,14,4],
-"MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dcac2e2142adcb677eff42b74a6d1b095db":[8,2,2,0,0,0,0,1,372,14,0],
-"MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dcade750b071f145f0307d783d9a6cc5cdf":[8,2,2,0,0,0,0,1,372,14,2],
-"MRVisualObject_8h.html#a4b045dd815c02fdd0e12596fb10ee386":[8,2,2,0,0,0,0,1,372,88],
-"MRVisualObject_8h.html#a4b8db98a60daf66dc6781bf538731802":[8,2,2,0,0,0,0,1,372,110],
-"MRVisualObject_8h.html#a4ca077ebcfb150aa445f8ed358bebb50":[8,2,2,0,0,0,0,1,372,190],
-"MRVisualObject_8h.html#a4d54e346b90e31f7335fb82ec406ae7d":[8,2,2,0,0,0,0,1,372,38],
-"MRVisualObject_8h.html#a508d9663202bb00d66e9caaa1f4862a5":[8,2,2,0,0,0,0,1,372,118],
-"MRVisualObject_8h.html#a51eaeb6d35d668b6b7317c621fb274bd":[8,2,2,0,0,0,0,1,372,198],
-"MRVisualObject_8h.html#a525a86ebf492e763683af29b452ca967":[8,2,2,0,0,0,0,1,372,13]
+"MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dcac2e2142adcb677eff42b74a6d1b095db":[8,2,2,0,0,0,0,1,372,14,0]
 };

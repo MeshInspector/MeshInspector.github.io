@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1PointsSave_1_1PointsSaver.html":[8,0,1,0,1,36,1],
+"structMR_1_1PointsSave_1_1PointsSaver.html":[8,0,2,0,2,23,1],
+"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[8,0,1,0,1,36,1,0],
+"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[8,0,2,0,2,23,1,0],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[8,0,1,0,1,36,1,1],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[8,0,2,0,2,23,1,1],
 "structMR_1_1PointsToDistanceVolumeParams.html":[8,0,0,20,866],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1SpaceMouse_1_1Parameters.html":[8,0,2,0,2,31,5],
 "structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f":[8,0,1,0,1,46,5,1],
 "structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f":[8,0,2,0,2,31,5,1],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[8,0,1,0,1,46,5,2],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[8,0,2,0,2,31,5,2],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[8,0,1,0,1,46,5,0],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[8,0,2,0,2,31,5,0],
-"structMR_1_1SpacingSettings.html":[8,0,0,20,459]
+"structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[8,0,1,0,1,46,5,2]
 };
