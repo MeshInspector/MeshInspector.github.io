@@ -1017,6 +1017,7 @@ var annotated_dup =
       [ "SkyPatch", "structMR_1_1SkyPatch.html", "structMR_1_1SkyPatch" ],
       [ "SliceInfo", "structMR_1_1SliceInfo.html", "structMR_1_1SliceInfo" ],
       [ "SliceInfoBase", "structMR_1_1SliceInfoBase.html", "structMR_1_1SliceInfoBase" ],
+      [ "SmoothCameraMeshDepthSettings", "structMR_1_1SmoothCameraMeshDepthSettings.html", "structMR_1_1SmoothCameraMeshDepthSettings" ],
       [ "SmoothFillingSettings", "structMR_1_1SmoothFillingSettings.html", "structMR_1_1SmoothFillingSettings" ],
       [ "SomeLocalTriangulations", "structMR_1_1SomeLocalTriangulations.html", "structMR_1_1SomeLocalTriangulations" ],
       [ "SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", "structMR_1_1SortIntersectionsData" ],

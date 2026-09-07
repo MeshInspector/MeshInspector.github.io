@@ -1,5 +1,17 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0":[8,0,2,0,2,1,3,0],
+"structMR_1_1detail_1_1Units_1_1Empty.html":[8,0,0,20,769],
+"structMR_1_1overloaded.html":[8,0,0,20,359],
+"structWasm_1_1TypedArrayName.html":[8,0,1,0,3,0],
+"structWasm_1_1TypedArrayName.html":[8,0,2,0,3,0],
+"structWasm_1_1TypedArrayName_3_01float_01_4.html":[8,0,1,0,3,1],
+"structWasm_1_1TypedArrayName_3_01float_01_4.html":[8,0,2,0,3,1],
+"structWasm_1_1TypedArrayName_3_01uint32__t_01_4.html":[8,0,1,0,3,2],
+"structWasm_1_1TypedArrayName_3_01uint32__t_01_4.html":[8,0,2,0,3,2],
+"structWasm_1_1TypedArrayName_3_01uint8__t_01_4.html":[8,0,1,0,3,3],
+"structWasm_1_1TypedArrayName_3_01uint8__t_01_4.html":[8,0,2,0,3,3],
+"structWasm_1_1TypedArrayValType.html":[8,0,1,0,3,4],
 "structWasm_1_1TypedArrayValType.html":[8,0,2,0,3,4],
 "structWasm_1_1TypedArrayValType_3_01float_01_4.html":[8,0,1,0,3,5],
 "structWasm_1_1TypedArrayValType_3_01float_01_4.html":[8,0,2,0,3,5],

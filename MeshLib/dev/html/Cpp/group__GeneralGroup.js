@@ -714,6 +714,13 @@ var group__GeneralGroup =
       [ "outSmallestMap", "group__GeneralGroup.html#gaa68b17ccbae594b7c14e212cfb0c8d76", null ],
       [ "weldPixels", "group__GeneralGroup.html#ga99a952155e869aac1012346df7c9adad", null ]
     ] ],
+    [ "MR::SmoothCameraMeshDepthSettings", "structMR_1_1SmoothCameraMeshDepthSettings.html", [
+      [ "bdStabilizer", "group__GeneralGroup.html#gabb55aff7ba043466246f98596d0f5057", null ],
+      [ "edgeWeights", "group__GeneralGroup.html#ga5572680fd9364186a4c0da4cc8346a96", null ],
+      [ "innerStabilizer", "group__GeneralGroup.html#ga65a668f1e1faafa952d137a44c9e598e", null ],
+      [ "innerStabilizerType", "group__GeneralGroup.html#gae45f07dd1f02bf77e79c476050e64539", null ],
+      [ "region", "group__GeneralGroup.html#ga59ea37b974c89c4776f198ee775bf128", null ]
+    ] ],
     [ "MR::ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html", [
       [ "Obj", "group__GeneralGroup.html#ga5474abe2fe0d35caaf558c71cb6847d3", null ],
       [ "Type", "group__GeneralGroup.html#gaadf478d3d29a773bd02b96beae263a51", [
@@ -9533,6 +9540,11 @@ var group__GeneralGroup =
       [ "MR::ArcPlane::XZ", "group__GeneralGroup.html#ggae1af7aec8f28c8e85182ca94f5802435a27db3b98d01e664c17a6620b222c6469", null ],
       [ "MR::ArcPlane::YZ", "group__GeneralGroup.html#ggae1af7aec8f28c8e85182ca94f5802435affa4ba973372c3650fd0881abeca6512", null ]
     ] ],
+    [ "MR::AreaStabilizer", "group__GeneralGroup.html#ga00a7bb161f5eaaa90ce8cb39fec8eec6", [
+      [ "MR::AreaStabilizer::Uniform", "group__GeneralGroup.html#gga00a7bb161f5eaaa90ce8cb39fec8eec6af19516d11f2946f894070e92fcb56b6d", null ],
+      [ "MR::AreaStabilizer::Area", "group__GeneralGroup.html#gga00a7bb161f5eaaa90ce8cb39fec8eec6adeec4ff19974f12ed781cb9a59064214", null ],
+      [ "MR::AreaStabilizer::AreaSq", "group__GeneralGroup.html#gga00a7bb161f5eaaa90ce8cb39fec8eec6a5da7d793c7194dc27073ed583fa89ebc", null ]
+    ] ],
     [ "MR::AreaUnit", "group__GeneralGroup.html#gade788894f8f8c19c83a75d44908bc4e4", [
       [ "MR::AreaUnit::microns2", "group__GeneralGroup.html#ggade788894f8f8c19c83a75d44908bc4e4ac2ab9fc119a167292a594d648471255d", null ],
       [ "MR::AreaUnit::millimeters2", "group__GeneralGroup.html#ggade788894f8f8c19c83a75d44908bc4e4a1162e59f8ccc04d063172245c4fbb816", null ],
@@ -15740,6 +15752,8 @@ var group__GeneralGroup =
     [ "MR::UI::slider", "group__GeneralGroup.html#ga7ede0f8f76cc959c7be6cb81ee9174f8", null ],
     [ "MR::smaller", "group__GeneralGroup.html#gab32707ab055efa8d14815955fdfbcadd", null ],
     [ "MR::smaller2", "group__GeneralGroup.html#gac3755fe16cbdff13422789f6a4e3fad7", null ],
+    [ "MR::smoothCameraMeshDepth", "group__GeneralGroup.html#ga34d32643257635827068c2097df7017e", null ],
+    [ "MR::smoothCameraMeshDepth", "group__GeneralGroup.html#gad9eab2e80534607365923e07f1afc24a", null ],
     [ "MR::smoothSelection", "group__GeneralGroup.html#ga2e5a76df228902b02d151b1955e2ed3b", null ],
     [ "MR::Cone3Approximation::solve", "group__GeneralGroup.html#ga7c6a542eabe69884f78ec5044ab1df50", null ],
     [ "MR::Polynomial::solve", "group__GeneralGroup.html#ga5001ab42785d7fd024f3f75b296a25da", null ],
@@ -16727,6 +16741,7 @@ var group__GeneralGroup =
     [ "MR::PrecipitationSimulator::SimulationStep::basin", "group__GeneralGroup.html#gade9b7d38327629cc2bb9f840e03ef429", null ],
     [ "MR::Viewer::basisAxes", "group__GeneralGroup.html#gaabff40e9f5b2102161db747f1d36c787", null ],
     [ "MR::Viewer::basisViewController", "group__GeneralGroup.html#gad282257ff021063d9026914e11b361d1", null ],
+    [ "MR::SmoothCameraMeshDepthSettings::bdStabilizer", "group__GeneralGroup.html#gabb55aff7ba043466246f98596d0f5057", null ],
     [ "MR::SceneReorder::before", "group__GeneralGroup.html#gab39a433324beece46d83541e3d195aa1", null ],
     [ "MR::SubdivideFillingSettings::beforeEdgeSplit", "group__GeneralGroup.html#ga72c374e0d427e8beca46de3aa27d29f8", null ],
     [ "MR::BestFitParabola", "group__GeneralGroup.html#ga10b1bb82ec6277971f775e788f4b645b", null ],
@@ -17170,6 +17185,7 @@ var group__GeneralGroup =
     [ "MR::EdgeTag", "group__GeneralGroup.html#gac8c2508941fcd4ad714cdf50c45aa41c", null ],
     [ "MR::InterpolateScalarsParams::edgeWeights", "group__GeneralGroup.html#gabd62037b2a4bfbc798d08e1f15916736", null ],
     [ "MR::PositionVertsSmoothlyParams::edgeWeights", "group__GeneralGroup.html#ga7a683cc3d1052af67b00984f50fa920d", null ],
+    [ "MR::SmoothCameraMeshDepthSettings::edgeWeights", "group__GeneralGroup.html#ga5572680fd9364186a4c0da4cc8346a96", null ],
     [ "MR::SmoothFillingSettings::edgeWeights", "group__GeneralGroup.html#ga34a7a4b9c69f0c826cb30f38a9e10250", null ],
     [ "MR::SurfaceManipulationWidget::Settings::edgeWeights", "group__GeneralGroup.html#ga2bf410c025634089f22b3341825cd20b", null ],
     [ "MR::InterpolateScalarsParams::edgeWeightsMetric", "group__GeneralGroup.html#gae26939130e290270dfce59cdc8ba7055", null ],
@@ -17403,6 +17419,8 @@ var group__GeneralGroup =
     [ "MR::PythonExport::ModuleData::initFncPointer", "group__GeneralGroup.html#ga190cf30264de3002c79d0b715ed6697a", null ],
     [ "MR::ImGuiMenu::TagEditorState::initHasFrontColor", "group__GeneralGroup.html#gafb6faf8bc0849a0b80ae509cdf5c4b25", null ],
     [ "MR::ImGuiMenu::TagEditorState::initName", "group__GeneralGroup.html#gabaec0c0a0a46426ec7ec96e959e4f421", null ],
+    [ "MR::SmoothCameraMeshDepthSettings::innerStabilizer", "group__GeneralGroup.html#ga65a668f1e1faafa952d137a44c9e598e", null ],
+    [ "MR::SmoothCameraMeshDepthSettings::innerStabilizerType", "group__GeneralGroup.html#gae45f07dd1f02bf77e79c476050e64539", null ],
     [ "MR::PlanarTriangulation::BaseOutlineParameters::innerType", "group__GeneralGroup.html#ga96cc494dbae32854400a1fc481ea09b4", null ],
     [ "MR::UI::CustomConfigModalSettings::inputName", "group__GeneralGroup.html#gac8f21dd8acbc5b82e94cd24be7d5f52b", null ],
     [ "MR::UI::CustomConfigModalSettings::inputNameDialog", "group__GeneralGroup.html#gac23225fd924b723514e8bc5ff54d228e", null ],
@@ -18192,6 +18210,7 @@ var group__GeneralGroup =
     [ "MR::PositionVertsSmoothlyParams::region", "group__GeneralGroup.html#ga35aa8fa1280f405afeb9f43189843024", null ],
     [ "MR::ReduceTotalAngleParams::region", "group__GeneralGroup.html#gaa25442f103cd80c149b33bc79eb64b0a", null ],
     [ "MR::RelaxParams::region", "group__GeneralGroup.html#gabeb08d7e70411cf9ef2826c0f058b909", null ],
+    [ "MR::SmoothCameraMeshDepthSettings::region", "group__GeneralGroup.html#ga59ea37b974c89c4776f198ee775bf128", null ],
     [ "MR::SpacingSettings::region", "group__GeneralGroup.html#gac011fc95d61ece99cc3358e1236104d9", null ],
     [ "MR::RegionTag", "group__GeneralGroup.html#gaf293d6c66d14a3940a1c5a5685a1b36f", null ],
     [ "MR::SceneObjectsListDrawer::ScrollPositionPreservation::relativeMousePos", "group__GeneralGroup.html#gabbf3505abf910c44d4b8d50aaae3fb11", null ],

@@ -10863,6 +10863,13 @@
     <member refid="group__GeneralGroup_1ga0f4b29a9c38aac83de066f74ddc95c4d" kind="variable"><name>fileNum</name></member>
     <member refid="group__GeneralGroup_1ga2d712987f45ca23b27e048c4decf6293" kind="function"><name>operator&lt;=&gt;</name></member>
   </compound>
+  <compound refid="structMR_1_1SmoothCameraMeshDepthSettings" kind="struct"><name>MR::SmoothCameraMeshDepthSettings</name>
+    <member refid="group__GeneralGroup_1ga59ea37b974c89c4776f198ee775bf128" kind="variable"><name>region</name></member>
+    <member refid="group__GeneralGroup_1ga5572680fd9364186a4c0da4cc8346a96" kind="variable"><name>edgeWeights</name></member>
+    <member refid="group__GeneralGroup_1gabb55aff7ba043466246f98596d0f5057" kind="variable"><name>bdStabilizer</name></member>
+    <member refid="group__GeneralGroup_1ga65a668f1e1faafa952d137a44c9e598e" kind="variable"><name>innerStabilizer</name></member>
+    <member refid="group__GeneralGroup_1gae45f07dd1f02bf77e79c476050e64539" kind="variable"><name>innerStabilizerType</name></member>
+  </compound>
   <compound refid="structMR_1_1SmoothFillingSettings" kind="struct"><name>MR::SmoothFillingSettings</name>
     <member refid="group__GeneralGroup_1ga41d283fb6e36ac60be019b2f195c14e0" kind="variable"><name>naturalSmooth</name></member>
     <member refid="group__GeneralGroup_1ga34a7a4b9c69f0c826cb30f38a9e10250" kind="variable"><name>edgeWeights</name></member>
@@ -14177,6 +14184,7 @@
     <member refid="group__GeneralGroup_1ga23e900d0cb79ee7e0562507ab9e9f562" kind="enum"><name>PdfBuildinFont</name></member>
     <member refid="group__GeneralGroup_1ga05195fdcf0d1d90b73a5d24b11150005" kind="enum"><name>Axis</name></member>
     <member refid="group__BooleanGroup_1ga9e84a8cc429efdf5cc108ca1c6aaccbd" kind="enum"><name>BooleanOperation</name></member>
+    <member refid="group__GeneralGroup_1ga00a7bb161f5eaaa90ce8cb39fec8eec6" kind="enum"><name>AreaStabilizer</name></member>
     <member refid="group__GeneralGroup_1ga0ec93e9fcfd4b11654579d65e255bb7d" kind="enum"><name>ConeFitterType</name></member>
     <member refid="group__GeneralGroup_1ga6b6dd7eadc1056fc5ffd8af1810d925a" kind="enum"><name>FilterType</name></member>
     <member refid="group__GeneralGroup_1ga0e519d6a7c053c5d86dac33ecd0fa00c" kind="enum"><name>WrapType</name></member>
@@ -14716,6 +14724,8 @@
     <member refid="group__GeneralGroup_1ga868201390f7de0a75f629ef7dfed0aa9" kind="function"><name>triangulateCameraPoints</name></member>
     <member refid="group__GeneralGroup_1ga3619e11f13e5c6e182d8c26d6df842fa" kind="function"><name>triangulateCameraPoints</name></member>
     <member refid="group__GeneralGroup_1gad7441787d340a0a0452bcd5f396360c3" kind="function"><name>triangulateCameraPoints</name></member>
+    <member refid="group__GeneralGroup_1gad9eab2e80534607365923e07f1afc24a" kind="function"><name>smoothCameraMeshDepth</name></member>
+    <member refid="group__GeneralGroup_1ga34d32643257635827068c2097df7017e" kind="function"><name>smoothCameraMeshDepth</name></member>
     <member refid="group__GeneralGroup_1ga366a97494bd771a33e8d3bbacad944a9" kind="function"><name>Localtime</name></member>
     <member refid="group__GeneralGroup_1gad36e8ac1954499755bc5a0d1259fc529" kind="function"><name>LocaltimeOrZero</name></member>
     <member refid="group__GeneralGroup_1ga9457a97e2861090bf3dec6d35b87530c" kind="function"><name>chunkCount</name></member>
@@ -20475,6 +20485,10 @@
     <member refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0" kind="enumvalue"><name>Y</name></member>
     <member refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5" kind="enumvalue"><name>Z</name></member>
     <member refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
+    <member refid="group__GeneralGroup_1ga00a7bb161f5eaaa90ce8cb39fec8eec6" kind="enum"><name>AreaStabilizer</name></member>
+    <member refid="group__GeneralGroup_1gga00a7bb161f5eaaa90ce8cb39fec8eec6af19516d11f2946f894070e92fcb56b6d" kind="enumvalue"><name>Uniform</name></member>
+    <member refid="group__GeneralGroup_1gga00a7bb161f5eaaa90ce8cb39fec8eec6adeec4ff19974f12ed781cb9a59064214" kind="enumvalue"><name>Area</name></member>
+    <member refid="group__GeneralGroup_1gga00a7bb161f5eaaa90ce8cb39fec8eec6a5da7d793c7194dc27073ed583fa89ebc" kind="enumvalue"><name>AreaSq</name></member>
     <member refid="group__GeneralGroup_1gaadf478d3d29a773bd02b96beae263a51" kind="enum"><name>Type</name></member>
     <member refid="group__GeneralGroup_1ggaadf478d3d29a773bd02b96beae263a51a810460332a38c9ade69a49b057494cad" kind="enumvalue"><name>Unselected</name></member>
     <member refid="group__GeneralGroup_1ggaadf478d3d29a773bd02b96beae263a51a91b442d385b54e1418d81adc34871053" kind="enumvalue"><name>Selected</name></member>
@@ -22045,6 +22059,11 @@
     <member refid="group__GeneralGroup_1ga99a952155e869aac1012346df7c9adad" kind="variable"><name>weldPixels</name></member>
     <member refid="group__GeneralGroup_1gaa68b17ccbae594b7c14e212cfb0c8d76" kind="variable"><name>outSmallestMap</name></member>
     <member refid="group__GeneralGroup_1ga1107946dc94ab13ff2e36600f32d24ea" kind="variable"><name>outProjectedPoints</name></member>
+    <member refid="group__GeneralGroup_1ga59ea37b974c89c4776f198ee775bf128" kind="variable"><name>region</name></member>
+    <member refid="group__GeneralGroup_1ga5572680fd9364186a4c0da4cc8346a96" kind="variable"><name>edgeWeights</name></member>
+    <member refid="group__GeneralGroup_1gabb55aff7ba043466246f98596d0f5057" kind="variable"><name>bdStabilizer</name></member>
+    <member refid="group__GeneralGroup_1ga65a668f1e1faafa952d137a44c9e598e" kind="variable"><name>innerStabilizer</name></member>
+    <member refid="group__GeneralGroup_1gae45f07dd1f02bf77e79c476050e64539" kind="variable"><name>innerStabilizerType</name></member>
     <member refid="group__GeneralGroup_1gacc8589e249e872fd671d3e6bda89f90e" kind="variable"><name>obj_</name></member>
     <member refid="group__GeneralGroup_1ga9ceddbae75615ccd4de4e08c89bc6804" kind="variable"><name>type_</name></member>
     <member refid="group__GeneralGroup_1gaf535b50d7d5f119801de7487d5185b6f" kind="variable"><name>colors_</name></member>
@@ -25779,6 +25798,8 @@
     <member refid="group__GeneralGroup_1ga868201390f7de0a75f629ef7dfed0aa9" kind="function"><name>triangulateCameraPoints</name></member>
     <member refid="group__GeneralGroup_1ga3619e11f13e5c6e182d8c26d6df842fa" kind="function"><name>triangulateCameraPoints</name></member>
     <member refid="group__GeneralGroup_1gad7441787d340a0a0452bcd5f396360c3" kind="function"><name>triangulateCameraPoints</name></member>
+    <member refid="group__GeneralGroup_1gad9eab2e80534607365923e07f1afc24a" kind="function"><name>smoothCameraMeshDepth</name></member>
+    <member refid="group__GeneralGroup_1ga34d32643257635827068c2097df7017e" kind="function"><name>smoothCameraMeshDepth</name></member>
     <member refid="group__GeneralGroup_1ga0a70aa0463c05950aea6686ecc817d30" kind="function"><name>ChangeObjectColorAction</name></member>
     <member refid="group__GeneralGroup_1gada33e7dca54e7e04d9815765bed5fdfe" kind="function"><name>name</name></member>
     <member refid="group__GeneralGroup_1gafe3b10ca2078780fe08c4e06a3cb8eb3" kind="function"><name>action</name></member>

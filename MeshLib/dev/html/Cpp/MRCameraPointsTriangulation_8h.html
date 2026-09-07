@@ -140,6 +140,7 @@ $(function(){initNavTree('MRCameraPointsTriangulation_8h.html','',''); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRCameraPointsTriangulation.h File Reference</div></div>
 </div><!--header-->
@@ -148,17 +149,27 @@ $(function(){initNavTree('MRCameraPointsTriangulation_8h.html','',''); });
 <code>#include &quot;<a class="el" href="MRMatrix3_8h_source.html">MRMatrix3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRPositionVertsSmoothly_8h_source.html">MRPositionVertsSmoothly.h</a>&quot;</code><br />
 </div>
 <p><a href="MRCameraPointsTriangulation_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ACameraPointsTriangulationSettings" id="r_MR_3A_3ACameraPointsTriangulationSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CameraPointsTriangulationSettings.html">MR::CameraPointsTriangulationSettings</a></td></tr>
+<tr class="memitem:MR_3A_3ASmoothCameraMeshDepthSettings" id="r_MR_3A_3ASmoothCameraMeshDepthSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SmoothCameraMeshDepthSettings.html">MR::SmoothCameraMeshDepthSettings</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga00a7bb161f5eaaa90ce8cb39fec8eec6" id="r_ga00a7bb161f5eaaa90ce8cb39fec8eec6"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga00a7bb161f5eaaa90ce8cb39fec8eec6">MR::AreaStabilizer</a> { <a class="el" href="group__GeneralGroup.html#gga00a7bb161f5eaaa90ce8cb39fec8eec6af19516d11f2946f894070e92fcb56b6d">MR::AreaStabilizer::Uniform</a>
+, <a class="el" href="group__GeneralGroup.html#gga00a7bb161f5eaaa90ce8cb39fec8eec6adeec4ff19974f12ed781cb9a59064214">MR::AreaStabilizer::Area</a>
+, <a class="el" href="group__GeneralGroup.html#gga00a7bb161f5eaaa90ce8cb39fec8eec6a5da7d793c7194dc27073ed583fa89ebc">MR::AreaStabilizer::AreaSq</a>
+ }</td></tr>
+<tr class="memdesc:ga00a7bb161f5eaaa90ce8cb39fec8eec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">how the stabilizer of an inner vertex depends on the area of its neighborhood in the image plane  <a href="group__GeneralGroup.html#ga00a7bb161f5eaaa90ce8cb39fec8eec6">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -167,6 +178,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga3619e11f13e5c6e182d8c26d6df842fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, but only valid points of the cloud participate in the triangulation (invalid points become invalid vertices)  <br /></td></tr>
 <tr class="memitem:gad7441787d340a0a0452bcd5f396360c3" id="r_gad7441787d340a0a0452bcd5f396360c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gad7441787d340a0a0452bcd5f396360c3">MR::triangulateCameraPoints</a> (<a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&amp;cloud, const <a class="el" href="structMR_1_1CameraPointsTriangulationSettings.html">CameraPointsTriangulationSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:gad7441787d340a0a0452bcd5f396360c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, but moves cloud points into the resulting mesh instead of copying them  <br /></td></tr>
+<tr class="memitem:gad9eab2e80534607365923e07f1afc24a" id="r_gad9eab2e80534607365923e07f1afc24a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gad9eab2e80534607365923e07f1afc24a">MR::smoothCameraMeshDepth</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1SmoothCameraMeshDepthSettings.html">SmoothCameraMeshDepthSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga34d32643257635827068c2097df7017e" id="r_ga34d32643257635827068c2097df7017e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga34d32643257635827068c2097df7017e">MR::smoothCameraMeshDepth</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const <a class="el" href="structMR_1_1SmoothCameraMeshDepthSettings.html">SmoothCameraMeshDepthSettings</a> &amp;settings={})</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

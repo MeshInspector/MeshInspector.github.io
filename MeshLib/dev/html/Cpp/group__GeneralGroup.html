@@ -335,6 +335,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">flat map: I -&gt; T  <a href="structMR_1_1BMap.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3APackMapping" id="r_MR_3A_3APackMapping"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PackMapping.html">MR::PackMapping</a></td></tr>
 <tr class="memitem:MR_3A_3ACameraPointsTriangulationSettings" id="r_MR_3A_3ACameraPointsTriangulationSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CameraPointsTriangulationSettings.html">MR::CameraPointsTriangulationSettings</a></td></tr>
+<tr class="memitem:MR_3A_3ASmoothCameraMeshDepthSettings" id="r_MR_3A_3ASmoothCameraMeshDepthSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SmoothCameraMeshDepthSettings.html">MR::SmoothCameraMeshDepthSettings</a></td></tr>
 <tr class="memitem:MR_3A_3AChangeObjectColorAction" id="r_MR_3A_3AChangeObjectColorAction"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeObjectColorAction.html">MR::ChangeObjectColorAction</a></td></tr>
 <tr class="memitem:MR_3A_3AChangeFacesColorMapAction" id="r_MR_3A_3AChangeFacesColorMapAction"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeFacesColorMapAction.html">MR::ChangeFacesColorMapAction</a></td></tr>
 <tr class="memitem:MR_3A_3AChangeLinesColorMapAction" id="r_MR_3A_3AChangeLinesColorMapAction"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeLinesColorMapAction.html">MR::ChangeLinesColorMapAction</a></td></tr>
@@ -2088,6 +2089,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#gga05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5">MR::Axis::Z</a>
 , <a class="el" href="#gga05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">MR::Axis::Count</a>
  }</td></tr>
+<tr class="memitem:ga00a7bb161f5eaaa90ce8cb39fec8eec6" id="r_ga00a7bb161f5eaaa90ce8cb39fec8eec6"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga00a7bb161f5eaaa90ce8cb39fec8eec6">MR::AreaStabilizer</a> { <a class="el" href="#gga00a7bb161f5eaaa90ce8cb39fec8eec6af19516d11f2946f894070e92fcb56b6d">MR::AreaStabilizer::Uniform</a>
+, <a class="el" href="#gga00a7bb161f5eaaa90ce8cb39fec8eec6adeec4ff19974f12ed781cb9a59064214">MR::AreaStabilizer::Area</a>
+, <a class="el" href="#gga00a7bb161f5eaaa90ce8cb39fec8eec6a5da7d793c7194dc27073ed583fa89ebc">MR::AreaStabilizer::AreaSq</a>
+ }</td></tr>
+<tr class="memdesc:ga00a7bb161f5eaaa90ce8cb39fec8eec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">how the stabilizer of an inner vertex depends on the area of its neighborhood in the image plane  <a href="#ga00a7bb161f5eaaa90ce8cb39fec8eec6">More...</a><br /></td></tr>
 <tr class="memitem:gaadf478d3d29a773bd02b96beae263a51" id="r_gaadf478d3d29a773bd02b96beae263a51"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaadf478d3d29a773bd02b96beae263a51">MR::ChangeObjectColorAction::Type</a> { <a class="el" href="#ggaadf478d3d29a773bd02b96beae263a51a810460332a38c9ade69a49b057494cad">MR::ChangeObjectColorAction::Type::Unselected</a>
 , <a class="el" href="#ggaadf478d3d29a773bd02b96beae263a51a91b442d385b54e1418d81adc34871053">MR::ChangeObjectColorAction::Type::Selected</a>
 , <a class="el" href="#ggaadf478d3d29a773bd02b96beae263a51a0557fa923dcee4d0f86b1409f5c2167f">MR::ChangeObjectColorAction::Type::Back</a>
@@ -3710,6 +3716,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga3619e11f13e5c6e182d8c26d6df842fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, but only valid points of the cloud participate in the triangulation (invalid points become invalid vertices)  <br /></td></tr>
 <tr class="memitem:gad7441787d340a0a0452bcd5f396360c3" id="r_gad7441787d340a0a0452bcd5f396360c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad7441787d340a0a0452bcd5f396360c3">MR::triangulateCameraPoints</a> (<a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&amp;cloud, const <a class="el" href="structMR_1_1CameraPointsTriangulationSettings.html">CameraPointsTriangulationSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:gad7441787d340a0a0452bcd5f396360c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, but moves cloud points into the resulting mesh instead of copying them  <br /></td></tr>
+<tr class="memitem:gad9eab2e80534607365923e07f1afc24a" id="r_gad9eab2e80534607365923e07f1afc24a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad9eab2e80534607365923e07f1afc24a">MR::smoothCameraMeshDepth</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1SmoothCameraMeshDepthSettings.html">SmoothCameraMeshDepthSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga34d32643257635827068c2097df7017e" id="r_ga34d32643257635827068c2097df7017e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga34d32643257635827068c2097df7017e">MR::smoothCameraMeshDepth</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const <a class="el" href="structMR_1_1SmoothCameraMeshDepthSettings.html">SmoothCameraMeshDepthSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:ga0a70aa0463c05950aea6686ecc817d30" id="r_ga0a70aa0463c05950aea6686ecc817d30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0a70aa0463c05950aea6686ecc817d30">MR::ChangeObjectColorAction::ChangeObjectColorAction</a> (const std::string &amp;<a class="el" href="#gada33e7dca54e7e04d9815765bed5fdfe">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, <a class="el" href="#gaadf478d3d29a773bd02b96beae263a51">Type</a> type)</td></tr>
 <tr class="memdesc:ga0a70aa0463c05950aea6686ecc817d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructed from original obj.  <br /></td></tr>
 <tr class="memitem:gada33e7dca54e7e04d9815765bed5fdfe" id="r_gada33e7dca54e7e04d9815765bed5fdfe"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gada33e7dca54e7e04d9815765bed5fdfe">MR::ChangeObjectColorAction::name</a> () const override</td></tr>
@@ -11894,6 +11902,16 @@ Variables</h2></td></tr>
 <tr class="memitem:ga99a952155e869aac1012346df7c9adad" id="r_ga99a952155e869aac1012346df7c9adad"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga99a952155e869aac1012346df7c9adad">MR::CameraPointsTriangulationSettings::weldPixels</a> = 1</td></tr>
 <tr class="memitem:gaa68b17ccbae594b7c14e212cfb0c8d76" id="r_gaa68b17ccbae594b7c14e212cfb0c8d76"><td class="memItemLeft" align="right" valign="top">VertMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa68b17ccbae594b7c14e212cfb0c8d76">MR::CameraPointsTriangulationSettings::outSmallestMap</a> = nullptr</td></tr>
 <tr class="memitem:ga1107946dc94ab13ff2e36600f32d24ea" id="r_ga1107946dc94ab13ff2e36600f32d24ea"><td class="memItemLeft" align="right" valign="top">VertCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1107946dc94ab13ff2e36600f32d24ea">MR::CameraPointsTriangulationSettings::outProjectedPoints</a> = nullptr</td></tr>
+<tr class="memitem:ga59ea37b974c89c4776f198ee775bf128" id="r_ga59ea37b974c89c4776f198ee775bf128"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga59ea37b974c89c4776f198ee775bf128">MR::SmoothCameraMeshDepthSettings::region</a> = nullptr</td></tr>
+<tr class="memdesc:ga59ea37b974c89c4776f198ee775bf128"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertices where the depth is smoothed, nullptr means all vertices  <br /></td></tr>
+<tr class="memitem:ga5572680fd9364186a4c0da4cc8346a96" id="r_ga5572680fd9364186a4c0da4cc8346a96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5572680fd9364186a4c0da4cc8346a96">MR::SmoothCameraMeshDepthSettings::edgeWeights</a> = <a class="el" href="#gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a></td></tr>
+<tr class="memdesc:ga5572680fd9364186a4c0da4cc8346a96"><td class="mdescLeft">&#160;</td><td class="mdescRight">weights of edges in the equations, computed on the mesh projected in the image plane  <br /></td></tr>
+<tr class="memitem:gabb55aff7ba043466246f98596d0f5057" id="r_gabb55aff7ba043466246f98596d0f5057"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb55aff7ba043466246f98596d0f5057">MR::SmoothCameraMeshDepthSettings::bdStabilizer</a> = 10</td></tr>
+<tr class="memdesc:gabb55aff7ba043466246f98596d0f5057"><td class="mdescLeft">&#160;</td><td class="mdescRight">stabilizer of every boundary vertex of the mesh: the more the value, the bigger attraction of the vertex to its measured depth  <br /></td></tr>
+<tr class="memitem:ga65a668f1e1faafa952d137a44c9e598e" id="r_ga65a668f1e1faafa952d137a44c9e598e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga65a668f1e1faafa952d137a44c9e598e">MR::SmoothCameraMeshDepthSettings::innerStabilizer</a> = 1</td></tr>
+<tr class="memdesc:ga65a668f1e1faafa952d137a44c9e598e"><td class="mdescLeft">&#160;</td><td class="mdescRight">average stabilizer of inner vertices  <br /></td></tr>
+<tr class="memitem:gae45f07dd1f02bf77e79c476050e64539" id="r_gae45f07dd1f02bf77e79c476050e64539"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga00a7bb161f5eaaa90ce8cb39fec8eec6">AreaStabilizer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae45f07dd1f02bf77e79c476050e64539">MR::SmoothCameraMeshDepthSettings::innerStabilizerType</a> = <a class="el" href="#gga00a7bb161f5eaaa90ce8cb39fec8eec6a5da7d793c7194dc27073ed583fa89ebc">AreaStabilizer::AreaSq</a></td></tr>
+<tr class="memdesc:gae45f07dd1f02bf77e79c476050e64539"><td class="mdescLeft">&#160;</td><td class="mdescRight">distribution of innerStabilizer among inner vertices  <br /></td></tr>
 <tr class="memitem:ga67302698c90451ac1dbc264851582a22" id="r_ga67302698c90451ac1dbc264851582a22"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga67302698c90451ac1dbc264851582a22">MR::Chunk::offset</a></td></tr>
 <tr class="memdesc:ga67302698c90451ac1dbc264851582a22"><td class="mdescLeft">&#160;</td><td class="mdescRight">chunk offset  <br /></td></tr>
 <tr class="memitem:gadb4508fa30f32657421915e81df16da7" id="r_gadb4508fa30f32657421915e81df16da7"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb4508fa30f32657421915e81df16da7">MR::Chunk::size</a></td></tr>
@@ -23689,6 +23707,40 @@ template&lt;typename Tag&gt; </div>
 <tr><td class="fieldname"><a id="ggae1af7aec8f28c8e85182ca94f5802435a27db3b98d01e664c17a6620b222c6469" name="ggae1af7aec8f28c8e85182ca94f5802435a27db3b98d01e664c17a6620b222c6469"></a>XZ&#160;</td><td class="fielddoc"><p>G18 — XZ plane. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ggae1af7aec8f28c8e85182ca94f5802435affa4ba973372c3650fd0881abeca6512" name="ggae1af7aec8f28c8e85182ca94f5802435affa4ba973372c3650fd0881abeca6512"></a>YZ&#160;</td><td class="fielddoc"><p>G19 — YZ plane. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga00a7bb161f5eaaa90ce8cb39fec8eec6" name="ga00a7bb161f5eaaa90ce8cb39fec8eec6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga00a7bb161f5eaaa90ce8cb39fec8eec6">&#9670;&#160;</a></span>AreaStabilizer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ga00a7bb161f5eaaa90ce8cb39fec8eec6">MR::AreaStabilizer</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCameraPointsTriangulation_8h.html">MRMesh/MRCameraPointsTriangulation.h</a>&gt;</code></p>
+
+<p>how the stabilizer of an inner vertex depends on the area of its neighborhood in the image plane </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga00a7bb161f5eaaa90ce8cb39fec8eec6af19516d11f2946f894070e92fcb56b6d" name="gga00a7bb161f5eaaa90ce8cb39fec8eec6af19516d11f2946f894070e92fcb56b6d"></a>Uniform&#160;</td><td class="fielddoc"><p>all inner vertices have the same stabilizer </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga00a7bb161f5eaaa90ce8cb39fec8eec6adeec4ff19974f12ed781cb9a59064214" name="gga00a7bb161f5eaaa90ce8cb39fec8eec6adeec4ff19974f12ed781cb9a59064214"></a>Area&#160;</td><td class="fielddoc"><p>proportional to the neighborhood area (dense regions are smoothed the same as sparse ones) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga00a7bb161f5eaaa90ce8cb39fec8eec6a5da7d793c7194dc27073ed583fa89ebc" name="gga00a7bb161f5eaaa90ce8cb39fec8eec6a5da7d793c7194dc27073ed583fa89ebc"></a>AreaSq&#160;</td><td class="fielddoc"><p>proportional to the squared neighborhood area (dense regions are smoothed more than sparse ones) </p>
 </td></tr>
 </table>
 
@@ -176578,6 +176630,58 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetTyp
 
 </div>
 </div>
+<a id="ga34d32643257635827068c2097df7017e" name="ga34d32643257635827068c2097df7017e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga34d32643257635827068c2097df7017e">&#9670;&#160;</a></span>smoothCameraMeshDepth() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::smoothCameraMeshDepth </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1SmoothCameraMeshDepthSettings.html">SmoothCameraMeshDepthSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCameraPointsTriangulation_8h.html">MRMesh/MRCameraPointsTriangulation.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gad9eab2e80534607365923e07f1afc24a" name="gad9eab2e80534607365923e07f1afc24a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad9eab2e80534607365923e07f1afc24a">&#9670;&#160;</a></span>smoothCameraMeshDepth() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::smoothCameraMeshDepth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1SmoothCameraMeshDepthSettings.html">SmoothCameraMeshDepthSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCameraPointsTriangulation_8h.html">MRMesh/MRCameraPointsTriangulation.h</a>&gt;</code></p>
+<p>Reduces the depth noise of a mesh produced by triangulateCameraPoints (camera at the origin looking along +Z): the depth (z) field is made smooth by interpolateScalarsSmoothly with the stabilizers and edge weights given above (computed on the mesh projected in the image plane), and every vertex is moved along its viewing ray to the new depth, so the projection of the mesh in the image plane and its absence of self-intersections are preserved </p>
+
+</div>
+</div>
 <a id="ga2e5a76df228902b02d151b1955e2ed3b" name="ga2e5a76df228902b02d151b1955e2ed3b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2e5a76df228902b02d151b1955e2ed3b">&#9670;&#160;</a></span>smoothSelection()</h2>
 
@@ -203032,6 +203136,22 @@ template&lt;class MetricToPenalty&gt; </div>
 
 </div>
 </div>
+<a id="gabb55aff7ba043466246f98596d0f5057" name="gabb55aff7ba043466246f98596d0f5057"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb55aff7ba043466246f98596d0f5057">&#9670;&#160;</a></span>bdStabilizer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::SmoothCameraMeshDepthSettings::bdStabilizer = 10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>stabilizer of every boundary vertex of the mesh: the more the value, the bigger attraction of the vertex to its measured depth </p>
+
+</div>
+</div>
 <a id="gab39a433324beece46d83541e3d195aa1" name="gab39a433324beece46d83541e3d195aa1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gab39a433324beece46d83541e3d195aa1">&#9670;&#160;</a></span>before</h2>
 
@@ -210656,7 +210776,7 @@ template&lt;typename L&gt; </div>
 </div>
 </div>
 <a id="gabd62037b2a4bfbc798d08e1f15916736" name="gabd62037b2a4bfbc798d08e1f15916736"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabd62037b2a4bfbc798d08e1f15916736">&#9670;&#160;</a></span>edgeWeights <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd62037b2a4bfbc798d08e1f15916736">&#9670;&#160;</a></span>edgeWeights <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210672,7 +210792,7 @@ template&lt;typename L&gt; </div>
 </div>
 </div>
 <a id="ga7a683cc3d1052af67b00984f50fa920d" name="ga7a683cc3d1052af67b00984f50fa920d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7a683cc3d1052af67b00984f50fa920d">&#9670;&#160;</a></span>edgeWeights <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7a683cc3d1052af67b00984f50fa920d">&#9670;&#160;</a></span>edgeWeights <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210687,8 +210807,24 @@ template&lt;typename L&gt; </div>
 
 </div>
 </div>
+<a id="ga5572680fd9364186a4c0da4cc8346a96" name="ga5572680fd9364186a4c0da4cc8346a96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5572680fd9364186a4c0da4cc8346a96">&#9670;&#160;</a></span>edgeWeights <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a> MR::SmoothCameraMeshDepthSettings::edgeWeights = <a class="el" href="#gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>weights of edges in the equations, computed on the mesh projected in the image plane </p>
+
+</div>
+</div>
 <a id="ga34a7a4b9c69f0c826cb30f38a9e10250" name="ga34a7a4b9c69f0c826cb30f38a9e10250"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga34a7a4b9c69f0c826cb30f38a9e10250">&#9670;&#160;</a></span>edgeWeights <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga34a7a4b9c69f0c826cb30f38a9e10250">&#9670;&#160;</a></span>edgeWeights <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210704,7 +210840,7 @@ template&lt;typename L&gt; </div>
 </div>
 </div>
 <a id="ga2bf410c025634089f22b3341825cd20b" name="ga2bf410c025634089f22b3341825cd20b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2bf410c025634089f22b3341825cd20b">&#9670;&#160;</a></span>edgeWeights <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2bf410c025634089f22b3341825cd20b">&#9670;&#160;</a></span>edgeWeights <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214546,6 +214682,38 @@ template&lt;typename Accessor&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga65a668f1e1faafa952d137a44c9e598e" name="ga65a668f1e1faafa952d137a44c9e598e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga65a668f1e1faafa952d137a44c9e598e">&#9670;&#160;</a></span>innerStabilizer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::SmoothCameraMeshDepthSettings::innerStabilizer = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>average stabilizer of inner vertices </p>
+
+</div>
+</div>
+<a id="gae45f07dd1f02bf77e79c476050e64539" name="gae45f07dd1f02bf77e79c476050e64539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae45f07dd1f02bf77e79c476050e64539">&#9670;&#160;</a></span>innerStabilizerType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga00a7bb161f5eaaa90ce8cb39fec8eec6">AreaStabilizer</a> MR::SmoothCameraMeshDepthSettings::innerStabilizerType = <a class="el" href="#gga00a7bb161f5eaaa90ce8cb39fec8eec6a5da7d793c7194dc27073ed583fa89ebc">AreaStabilizer::AreaSq</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>distribution of innerStabilizer among inner vertices </p>
 
 </div>
 </div>
@@ -227370,7 +227538,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga79fd0b044bab7c845859903f9e5da95b" name="ga79fd0b044bab7c845859903f9e5da95b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga79fd0b044bab7c845859903f9e5da95b">&#9670;&#160;</a></span>region <span class="overload">[1/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga79fd0b044bab7c845859903f9e5da95b">&#9670;&#160;</a></span>region <span class="overload">[1/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227385,7 +227553,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gadce38a07b8b04db0fe998e792e4a6e34" name="gadce38a07b8b04db0fe998e792e4a6e34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadce38a07b8b04db0fe998e792e4a6e34">&#9670;&#160;</a></span>region <span class="overload">[2/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadce38a07b8b04db0fe998e792e4a6e34">&#9670;&#160;</a></span>region <span class="overload">[2/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227402,7 +227570,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaff2c0877c0a9eac16128d033db2d2860" name="gaff2c0877c0a9eac16128d033db2d2860"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaff2c0877c0a9eac16128d033db2d2860">&#9670;&#160;</a></span>region <span class="overload">[3/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff2c0877c0a9eac16128d033db2d2860">&#9670;&#160;</a></span>region <span class="overload">[3/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227418,7 +227586,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga17ce8fa9c3da180503cc50cdedfac9ec" name="ga17ce8fa9c3da180503cc50cdedfac9ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga17ce8fa9c3da180503cc50cdedfac9ec">&#9670;&#160;</a></span>region <span class="overload">[4/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga17ce8fa9c3da180503cc50cdedfac9ec">&#9670;&#160;</a></span>region <span class="overload">[4/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227433,7 +227601,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga1fdb51404a12dafa32d295e97234ce4f" name="ga1fdb51404a12dafa32d295e97234ce4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1fdb51404a12dafa32d295e97234ce4f">&#9670;&#160;</a></span>region <span class="overload">[5/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1fdb51404a12dafa32d295e97234ce4f">&#9670;&#160;</a></span>region <span class="overload">[5/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227449,7 +227617,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga3fe2bba25d7c567c9b75a5a856990f20" name="ga3fe2bba25d7c567c9b75a5a856990f20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3fe2bba25d7c567c9b75a5a856990f20">&#9670;&#160;</a></span>region <span class="overload">[6/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3fe2bba25d7c567c9b75a5a856990f20">&#9670;&#160;</a></span>region <span class="overload">[6/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227465,7 +227633,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga020e8c1bd5c2c3c5186ff4680d8004b0" name="ga020e8c1bd5c2c3c5186ff4680d8004b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga020e8c1bd5c2c3c5186ff4680d8004b0">&#9670;&#160;</a></span>region <span class="overload">[7/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga020e8c1bd5c2c3c5186ff4680d8004b0">&#9670;&#160;</a></span>region <span class="overload">[7/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227481,7 +227649,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gadb49365fb60e376e6302ffa62d2b534a" name="gadb49365fb60e376e6302ffa62d2b534a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadb49365fb60e376e6302ffa62d2b534a">&#9670;&#160;</a></span>region <span class="overload">[8/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadb49365fb60e376e6302ffa62d2b534a">&#9670;&#160;</a></span>region <span class="overload">[8/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227495,7 +227663,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga35aa8fa1280f405afeb9f43189843024" name="ga35aa8fa1280f405afeb9f43189843024"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga35aa8fa1280f405afeb9f43189843024">&#9670;&#160;</a></span>region <span class="overload">[9/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga35aa8fa1280f405afeb9f43189843024">&#9670;&#160;</a></span>region <span class="overload">[9/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227510,7 +227678,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gaa25442f103cd80c149b33bc79eb64b0a" name="gaa25442f103cd80c149b33bc79eb64b0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa25442f103cd80c149b33bc79eb64b0a">&#9670;&#160;</a></span>region <span class="overload">[10/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa25442f103cd80c149b33bc79eb64b0a">&#9670;&#160;</a></span>region <span class="overload">[10/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227526,7 +227694,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gabeb08d7e70411cf9ef2826c0f058b909" name="gabeb08d7e70411cf9ef2826c0f058b909"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabeb08d7e70411cf9ef2826c0f058b909">&#9670;&#160;</a></span>region <span class="overload">[11/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabeb08d7e70411cf9ef2826c0f058b909">&#9670;&#160;</a></span>region <span class="overload">[11/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227541,8 +227709,24 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 
 </div>
 </div>
+<a id="ga59ea37b974c89c4776f198ee775bf128" name="ga59ea37b974c89c4776f198ee775bf128"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga59ea37b974c89c4776f198ee775bf128">&#9670;&#160;</a></span>region <span class="overload">[12/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertBitSet* MR::SmoothCameraMeshDepthSettings::region = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>vertices where the depth is smoothed, nullptr means all vertices </p>
+
+</div>
+</div>
 <a id="gac011fc95d61ece99cc3358e1236104d9" name="gac011fc95d61ece99cc3358e1236104d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac011fc95d61ece99cc3358e1236104d9">&#9670;&#160;</a></span>region <span class="overload">[12/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac011fc95d61ece99cc3358e1236104d9">&#9670;&#160;</a></span>region <span class="overload">[13/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

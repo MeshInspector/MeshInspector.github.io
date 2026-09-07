@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AreaStabilizer" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AreaStabilizer</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AreaStabilizer_1a24685571c111c0e08bbdc433d0592acc" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AreaStabilizer::Area</definition>
+        <argsstring></argsstring>
+        <name>Area</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.Area</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AreaStabilizer" kindref="compound">AreaStabilizer</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2049" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AreaStabilizer_1aa30b50a2c979814bb6576b90f9e3ee25" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AreaStabilizer::AreaSq</definition>
+        <argsstring></argsstring>
+        <name>AreaSq</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.AreaSq</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AreaStabilizer" kindref="compound">AreaStabilizer</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2050" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AreaStabilizer_1abf148e0eda9f9836d5c07876e546db88" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AreaStabilizer::Uniform</definition>
+        <argsstring></argsstring>
+        <name>Uniform</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.Uniform</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AreaStabilizer" kindref="compound">AreaStabilizer</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2051" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AreaStabilizer_1a55578424c1b6c222713e676b8b4ae6ed" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AreaStabilizer::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1AreaStabilizer" kindref="compound">AreaStabilizer</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2052" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaStabilizer_1acdb669f9d764744ee669c231700d84c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AreaStabilizer.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2053" bodyend="2054"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaStabilizer_1ac6ab07547d91ede0e1b0619c5be57ec3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AreaStabilizer.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2055" bodyend="2056"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaStabilizer_1a28f22b8e2c633f24d723d487476210a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AreaStabilizer.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2057" bodyend="2058"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaStabilizer_1aec722b3bc0764554716b126d48d79fe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AreaStabilizer.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2059" bodyend="2060"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaStabilizer_1a6064ff0f7dfb9156a10f672cfa78cdf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AreaStabilizer.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2061" bodyend="2062"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaStabilizer_1a29eaa672d58d7d25ae22673489f053fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AreaStabilizer.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2063" bodyend="2064"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaStabilizer_1affd76bf0c8ece03d3e816710342c093e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AreaStabilizer.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2065" bodyend="2066"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaStabilizer_1a1325318dd20083de745a3760fb54ad29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AreaStabilizer.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2067" bodyend="2068"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaStabilizer_1a7509a90f114ea52bd9b6a9cd3612a078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AreaStabilizer.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2069" bodyend="2070"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaStabilizer_1a441057b14c1bb0b7edb5bde5134e85ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AreaStabilizer.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2071" bodyend="2072"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaStabilizer_1a8091e917c6c072fe7c5d7b8c675dd82a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AreaStabilizer.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2074" bodyend="2075"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaStabilizer_1a175ce18c5f9bf5279c9c93900dfe6109" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AreaStabilizer.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.AreaStabilizer.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2077" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2077" bodyend="2078"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Uniform : all inner vertices have the same stabilizer
+
+  Area : proportional to the neighborhood area (dense regions are smoothed the same as sparse ones)
+
+  AreaSq : proportional to the squared neighborhood area (dense regions are smoothed more than sparse ones)
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2039" bodyend="2078"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1acdb669f9d764744ee669c231700d84c0" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1ac6ab07547d91ede0e1b0619c5be57ec3" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1a28f22b8e2c633f24d723d487476210a3" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1aec722b3bc0764554716b126d48d79fe2" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1a6064ff0f7dfb9156a10f672cfa78cdf7" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1a29eaa672d58d7d25ae22673489f053fe" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1a55578424c1b6c222713e676b8b4ae6ed" prot="private" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1affd76bf0c8ece03d3e816710342c093e" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1a1325318dd20083de745a3760fb54ad29" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1a7509a90f114ea52bd9b6a9cd3612a078" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1a441057b14c1bb0b7edb5bde5134e85ca" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1a24685571c111c0e08bbdc433d0592acc" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>Area</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1aa30b50a2c979814bb6576b90f9e3ee25" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>AreaSq</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1a8091e917c6c072fe7c5d7b8c675dd82a" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1abf148e0eda9f9836d5c07876e546db88" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>Uniform</name></member>
+      <member refid="classmrmeshpy_1_1AreaStabilizer_1a175ce18c5f9bf5279c9c93900dfe6109" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaStabilizer</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

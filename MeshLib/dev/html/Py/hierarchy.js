@@ -36,6 +36,7 @@ var hierarchy =
     [ "mrmeshpy.AnyVisualizeMaskEnum", "classmrmeshpy_1_1AnyVisualizeMaskEnum.html", null ],
     [ "mrmeshpy.ArcInterpolationParams", "classmrmeshpy_1_1ArcInterpolationParams.html", null ],
     [ "mrmeshpy.ArcPlane", "classmrmeshpy_1_1ArcPlane.html", null ],
+    [ "mrmeshpy.AreaStabilizer", "classmrmeshpy_1_1AreaStabilizer.html", null ],
     [ "mrmeshpy.AreaUnit", "classmrmeshpy_1_1AreaUnit.html", null ],
     [ "mrmeshpy.Laplacian.Attractor", "classmrmeshpy_1_1Laplacian_1_1Attractor.html", null ],
     [ "mrmeshpy.Axis", "classmrmeshpy_1_1Axis.html", null ],
@@ -1089,6 +1090,7 @@ var hierarchy =
       [ "mrmeshpy.SliceInfo", "classmrmeshpy_1_1SliceInfo.html", null ]
     ] ],
     [ "mrmeshpy.SlicePlane", "classmrmeshpy_1_1SlicePlane.html", null ],
+    [ "mrmeshpy.SmoothCameraMeshDepthSettings", "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html", null ],
     [ "mrmeshpy.SmoothFillingSettings", "classmrmeshpy_1_1SmoothFillingSettings.html", null ],
     [ "mrmeshpy.SomeLocalTriangulations", "classmrmeshpy_1_1SomeLocalTriangulations.html", null ],
     [ "mrmeshpy.SortIntersectionsData", "classmrmeshpy_1_1SortIntersectionsData.html", null ],

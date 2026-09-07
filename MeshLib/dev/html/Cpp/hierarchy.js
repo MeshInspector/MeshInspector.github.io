@@ -1256,6 +1256,7 @@ var hierarchy =
     [ "MR::SliceInfoBase", "structMR_1_1SliceInfoBase.html", [
       [ "MR::SliceInfo", "structMR_1_1SliceInfo.html", null ]
     ] ],
+    [ "MR::SmoothCameraMeshDepthSettings", "structMR_1_1SmoothCameraMeshDepthSettings.html", null ],
     [ "MR::SmoothFillingSettings", "structMR_1_1SmoothFillingSettings.html", null ],
     [ "MR::SomeLocalTriangulations", "structMR_1_1SomeLocalTriangulations.html", null ],
     [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", null ],

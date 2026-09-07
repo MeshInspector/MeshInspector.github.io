@@ -19465,6 +19465,26 @@
     <member refid="classMR_1_1Const__SliceInfoBase_1a558efefa5da91b9e3f85eed79ec89776" kind="function"><name>~Const_SliceInfoBase</name></member>
     <member refid="classMR_1_1Const__SliceInfoBase_1aa38874176a64e84befff48e9fc306258" kind="function"><name>Const_SliceInfoBase</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__SmoothCameraMeshDepthSettings" kind="class"><name>MR::Const_SmoothCameraMeshDepthSettings</name>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1a8dd877df83333d49682baf6b9ad16b4a" kind="property"><name>region</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1a178bd161a170b24315c69d8472f108c2" kind="property"><name>edgeWeights</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1a546d13ab785099c2bba3d37861195312" kind="property"><name>bdStabilizer</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1a3c91618a18849e457b5b0eedeeb91762" kind="property"><name>innerStabilizer</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1a3ead253a311114907946e35381102b21" kind="property"><name>innerStabilizerType</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1a8862ce2d120bfb9c2283f2075d1ce372" kind="variable"><name>__ptr_storage_region</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1a44320e3e7ad73e6f610780c2b7cd8d35" kind="variable"><name>__ref_storage_edgeWeights</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1aef55a8c600b3ab8aada6d15250ed4e0d" kind="variable"><name>__ref_storage_bdStabilizer</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1ac3d4b8e7e36ce48711fc7444c0aa0f3c" kind="variable"><name>__ref_storage_innerStabilizer</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1ad1f695b18d93ff0e10dfcc5d0cf0937b" kind="variable"><name>__ref_storage_innerStabilizerType</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1a7aed08d5e899c8ee342a757e2d7dd434" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1a9fc8ebdb0e55834f55e730827a7408d3" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1a5860ff297ad4ef74bbea4c8d97e1f341" kind="function"><name>Const_SmoothCameraMeshDepthSettings</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1acd50fac1b2c7a138892b92709bf709f1" kind="function"><name>Const_SmoothCameraMeshDepthSettings</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1aa5df0ae608861de95ce4422a78171409" kind="function"><name>Const_SmoothCameraMeshDepthSettings</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1ae1d7bae27bbe17829a21feef6038f8a1" kind="function"><name>Const_SmoothCameraMeshDepthSettings</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1a9ca8b747acd77ace2268feec91fbe04c" kind="function"><name>~Const_SmoothCameraMeshDepthSettings</name></member>
+    <member refid="classMR_1_1Const__SmoothCameraMeshDepthSettings_1a8cf5a1aa8eb6ef9ddcb2547204bdbba4" kind="function"><name>Const_SmoothCameraMeshDepthSettings</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__SmoothFillingSettings" kind="class"><name>MR::Const_SmoothFillingSettings</name>
     <member refid="classMR_1_1Const__SmoothFillingSettings_1af57d37057f8af0e454fd81ef0d85093b" kind="property"><name>naturalSmooth</name></member>
     <member refid="classMR_1_1Const__SmoothFillingSettings_1a3d7b9c46de15f8466ce008c5531d38cc" kind="property"><name>edgeWeights</name></member>
@@ -32178,6 +32198,10 @@
     <member refid="classMR_1ad89c5fb7af9da0df04973fb2cd54e934ad7e2d5557f4bc77c023a5c3fd8b52aae" kind="enumvalue"><name>DifferenceBA</name></member>
     <member refid="classMR_1ad89c5fb7af9da0df04973fb2cd54e934a676747ace506f0a560e1d99f5da1ab2a" kind="enumvalue"><name>DifferenceAB</name></member>
     <member refid="classMR_1ad89c5fb7af9da0df04973fb2cd54e934ae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
+    <member refid="classMR_1ae4a644487f6367cd448dd55ff36621ba" kind="enum"><name>AreaStabilizer</name></member>
+    <member refid="classMR_1ae4a644487f6367cd448dd55ff36621baaf19516d11f2946f894070e92fcb56b6d" kind="enumvalue"><name>Uniform</name></member>
+    <member refid="classMR_1ae4a644487f6367cd448dd55ff36621baadeec4ff19974f12ed781cb9a59064214" kind="enumvalue"><name>Area</name></member>
+    <member refid="classMR_1ae4a644487f6367cd448dd55ff36621baa5da7d793c7194dc27073ed583fa89ebc" kind="enumvalue"><name>AreaSq</name></member>
     <member refid="classMR_1a294c22b69e418098a4582556d50f25fc" kind="enum"><name>ConeFitterType</name></member>
     <member refid="classMR_1a294c22b69e418098a4582556d50f25fca966805730aa004c013d26ce8985852a7" kind="enumvalue"><name>ApproximationPCM</name></member>
     <member refid="classMR_1a294c22b69e418098a4582556d50f25fca1a4728573c55a3c1ceca7af11776f64b" kind="enumvalue"><name>HemisphereSearchFit</name></member>
@@ -32691,6 +32715,8 @@
     <member refid="classMR_1a08725e0bb8a39f5a2a44c2d2e4c2535a" kind="function"><name>triangulateCameraPoints</name></member>
     <member refid="classMR_1a4fbd89168c39935de95cab96e26f1c9a" kind="function"><name>triangulateCameraPoints</name></member>
     <member refid="classMR_1af53dd3a401ca7717fa121a01a5ac5769" kind="function"><name>triangulateCameraPoints</name></member>
+    <member refid="classMR_1adeb65c1648f5bed77fc05ec2da1e9584" kind="function"><name>smoothCameraMeshDepth</name></member>
+    <member refid="classMR_1ab6f03278246a89b75d4a8d3295a45817" kind="function"><name>smoothCameraMeshDepth</name></member>
     <member refid="classMR_1a98b414dca4008a07be8cd8500c25ccdf" kind="function"><name>chunkCount</name></member>
     <member refid="classMR_1ab572097fb195b5011777d3165f4e95a3" kind="function"><name>splitByChunks</name></member>
     <member refid="classMR_1a5767e083088fd6530fb606001a7132ac" kind="function"><name>closestPointInTriangle</name></member>
@@ -38624,6 +38650,19 @@
     <member refid="classMR_1_1SliceInfoBase_1a46ed85c82a7f7aa8d41dd0133cf3289d" kind="function"><name>SliceInfoBase</name></member>
     <member refid="classMR_1_1SliceInfoBase_1ae9dcdaa280dc5cc300c30b9cc1298695" kind="function"><name>SliceInfoBase</name></member>
     <member refid="classMR_1_1SliceInfoBase_1a387bc1e52063db74bfcffe0a7d3488b5" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1SmoothCameraMeshDepthSettings" kind="class"><name>MR::SmoothCameraMeshDepthSettings</name>
+    <member refid="classMR_1_1SmoothCameraMeshDepthSettings_1ae5963eaca20822aba3ac686005be7def" kind="property"><name>region</name></member>
+    <member refid="classMR_1_1SmoothCameraMeshDepthSettings_1a54e7a63926da8b769150a6acca1ac9fb" kind="property"><name>edgeWeights</name></member>
+    <member refid="classMR_1_1SmoothCameraMeshDepthSettings_1af645e2d2c3bb9d09e0907e76249f9346" kind="property"><name>bdStabilizer</name></member>
+    <member refid="classMR_1_1SmoothCameraMeshDepthSettings_1ae3570886ee6a23f29381416c0891d249" kind="property"><name>innerStabilizer</name></member>
+    <member refid="classMR_1_1SmoothCameraMeshDepthSettings_1a3d71f3be77a6c29356290f48784bb533" kind="property"><name>innerStabilizerType</name></member>
+    <member refid="classMR_1_1SmoothCameraMeshDepthSettings_1a3eced33fd6c10e906949cd44461f7de0" kind="function"><name>SmoothCameraMeshDepthSettings</name></member>
+    <member refid="classMR_1_1SmoothCameraMeshDepthSettings_1a3781e3e97d5a268d1d17aa0ed47383c5" kind="function"><name>SmoothCameraMeshDepthSettings</name></member>
+    <member refid="classMR_1_1SmoothCameraMeshDepthSettings_1a87ef6aee4c6ba282c37c8e0fe728c379" kind="function"><name>SmoothCameraMeshDepthSettings</name></member>
+    <member refid="classMR_1_1SmoothCameraMeshDepthSettings_1a380549e4a7de7c8c59e139e81321f13e" kind="function"><name>SmoothCameraMeshDepthSettings</name></member>
+    <member refid="classMR_1_1SmoothCameraMeshDepthSettings_1ad00cb67303857ff121dc50715ca263d8" kind="function"><name>SmoothCameraMeshDepthSettings</name></member>
+    <member refid="classMR_1_1SmoothCameraMeshDepthSettings_1ae3adae5d2f97d0c2fd1565bdb3fedfcf" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1SmoothFillingSettings" kind="class"><name>MR::SmoothFillingSettings</name>
     <member refid="classMR_1_1SmoothFillingSettings_1a8691e5e74428c5cae071a0ce44499ece" kind="property"><name>naturalSmooth</name></member>

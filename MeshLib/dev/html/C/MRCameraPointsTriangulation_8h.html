@@ -139,11 +139,13 @@ $(function(){initNavTree('MRCameraPointsTriangulation_8h.html','',''); });
 <div class="header">
   <div class="summary">
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRCameraPointsTriangulation.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="MRMatrix3_8h_source.html">MRCMesh/MRMatrix3.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="MREnums_8h_source.html">MRCMesh/MREnums.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRMatrix3_8h_source.html">MRCMesh/MRMatrix3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -151,7 +153,19 @@ $(function(){initNavTree('MRCameraPointsTriangulation_8h.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:ad396cf7d4433c5ba7924776f5b379c9b" id="r_ad396cf7d4433c5ba7924776f5b379c9b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a></td></tr>
 <tr class="memitem:af57cf710f05cb1eeaf10d6a088652e50" id="r_af57cf710f05cb1eeaf10d6a088652e50"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af57cf710f05cb1eeaf10d6a088652e50">MR_CameraPointsTriangulationSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af57cf710f05cb1eeaf10d6a088652e50">MR_CameraPointsTriangulationSettings</a></td></tr>
+<tr class="memitem:afc6f595855730083dc16b79a6923521c" id="r_afc6f595855730083dc16b79a6923521c"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc6f595855730083dc16b79a6923521c">MR_AreaStabilizer</a></td></tr>
+<tr class="memdesc:afc6f595855730083dc16b79a6923521c"><td class="mdescLeft">&#160;</td><td class="mdescRight">how the stabilizer of an inner vertex depends on the area of its neighborhood in the image plane  <br /></td></tr>
+<tr class="memitem:a59dbce0e609c0b4893bfb88c940a0f98" id="r_a59dbce0e609c0b4893bfb88c940a0f98"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a1846dc8e5c53091983ac464b6e42c052" id="r_a1846dc8e5c53091983ac464b6e42c052"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a> { <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052a37cacb49a667d8795a17d2c28a7127c9">MR_AreaStabilizer_Uniform</a> = 0
+, <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052a6fe95eddc8f9c4f68717f115ac138e5a">MR_AreaStabilizer_Area</a> = 1
+, <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052a0a25ee82ca509295150c7799d5964125">MR_AreaStabilizer_AreaSq</a> = 2
+ }</td></tr>
+<tr class="memdesc:a1846dc8e5c53091983ac464b6e42c052"><td class="mdescLeft">&#160;</td><td class="mdescRight">how the stabilizer of an inner vertex depends on the area of its neighborhood in the image plane  <a href="#a1846dc8e5c53091983ac464b6e42c052">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -181,8 +195,52 @@ Functions</h2></td></tr>
 <tr class="memitem:a9cea52a80618a22bdea3358c416491ba" id="r_a9cea52a80618a22bdea3358c416491ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cea52a80618a22bdea3358c416491ba">MR_triangulateCameraPoints_const_MR_VertCoords_ref</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#af57cf710f05cb1eeaf10d6a088652e50">MR_CameraPointsTriangulationSettings</a> *settings, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="memitem:a087f910c38ab72ed1f7089f6e766de47" id="r_a087f910c38ab72ed1f7089f6e766de47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a087f910c38ab72ed1f7089f6e766de47">MR_triangulateCameraPoints_const_MR_PointCloud_ref</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="#af57cf710f05cb1eeaf10d6a088652e50">MR_CameraPointsTriangulationSettings</a> *settings, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="memitem:a159ec807329a944e6ae9057355f22a1e" id="r_a159ec807329a944e6ae9057355f22a1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a159ec807329a944e6ae9057355f22a1e">MR_triangulateCameraPoints_MR_PointCloud_rvalue_ref</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="#af57cf710f05cb1eeaf10d6a088652e50">MR_CameraPointsTriangulationSettings</a> *settings, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:acbe1fbe691cc7fb48abf05442ac124bc" id="r_acbe1fbe691cc7fb48abf05442ac124bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbe1fbe691cc7fb48abf05442ac124bc">MR_SmoothCameraMeshDepthSettings_Get_region</a> (const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this)</td></tr>
+<tr class="memitem:a45f2a842bc30abddaea83e49a3575bfd" id="r_a45f2a842bc30abddaea83e49a3575bfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45f2a842bc30abddaea83e49a3575bfd">MR_SmoothCameraMeshDepthSettings_Set_region</a> (<a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
+<tr class="memitem:a8e401f5fd845a79ce6380595f609b29c" id="r_a8e401f5fd845a79ce6380595f609b29c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e401f5fd845a79ce6380595f609b29c">MR_SmoothCameraMeshDepthSettings_GetMutable_region</a> (<a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this)</td></tr>
+<tr class="memitem:a634f80b5117cc18fcbc4a9799abae51f" id="r_a634f80b5117cc18fcbc4a9799abae51f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a634f80b5117cc18fcbc4a9799abae51f">MR_SmoothCameraMeshDepthSettings_Get_edgeWeights</a> (const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this)</td></tr>
+<tr class="memitem:abe1526bbb9567b78923b012bd6590598" id="r_abe1526bbb9567b78923b012bd6590598"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe1526bbb9567b78923b012bd6590598">MR_SmoothCameraMeshDepthSettings_Set_edgeWeights</a> (<a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this, <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> value)</td></tr>
+<tr class="memitem:a8cd40e68c465d898634dbdd75df574e4" id="r_a8cd40e68c465d898634dbdd75df574e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cd40e68c465d898634dbdd75df574e4">MR_SmoothCameraMeshDepthSettings_GetMutable_edgeWeights</a> (<a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this)</td></tr>
+<tr class="memitem:a39b0ccc824cb38b1af5a7e163029cd2c" id="r_a39b0ccc824cb38b1af5a7e163029cd2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39b0ccc824cb38b1af5a7e163029cd2c">MR_SmoothCameraMeshDepthSettings_Get_bdStabilizer</a> (const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this)</td></tr>
+<tr class="memitem:a7df075a6a05116092a755cf0d9ba34dd" id="r_a7df075a6a05116092a755cf0d9ba34dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7df075a6a05116092a755cf0d9ba34dd">MR_SmoothCameraMeshDepthSettings_Set_bdStabilizer</a> (<a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:aa8299b2f1311dcf0e2a5c777362d93bb" id="r_aa8299b2f1311dcf0e2a5c777362d93bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8299b2f1311dcf0e2a5c777362d93bb">MR_SmoothCameraMeshDepthSettings_GetMutable_bdStabilizer</a> (<a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this)</td></tr>
+<tr class="memitem:ac4c92c292a8043072126c6649da8b802" id="r_ac4c92c292a8043072126c6649da8b802"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4c92c292a8043072126c6649da8b802">MR_SmoothCameraMeshDepthSettings_Get_innerStabilizer</a> (const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this)</td></tr>
+<tr class="memitem:a1790da3b941c6430a267d30f5c8c374d" id="r_a1790da3b941c6430a267d30f5c8c374d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1790da3b941c6430a267d30f5c8c374d">MR_SmoothCameraMeshDepthSettings_Set_innerStabilizer</a> (<a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:a1bf67e810ca5f3737285eb7dfebe4695" id="r_a1bf67e810ca5f3737285eb7dfebe4695"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bf67e810ca5f3737285eb7dfebe4695">MR_SmoothCameraMeshDepthSettings_GetMutable_innerStabilizer</a> (<a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this)</td></tr>
+<tr class="memitem:a8c48ab3e6119b8391a256ed6d4041419" id="r_a8c48ab3e6119b8391a256ed6d4041419"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c48ab3e6119b8391a256ed6d4041419">MR_SmoothCameraMeshDepthSettings_Get_innerStabilizerType</a> (const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this)</td></tr>
+<tr class="memitem:a6a6eb2e2e54d3a28fc73e97c0cb97de3" id="r_a6a6eb2e2e54d3a28fc73e97c0cb97de3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a6eb2e2e54d3a28fc73e97c0cb97de3">MR_SmoothCameraMeshDepthSettings_Set_innerStabilizerType</a> (<a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this, <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a> value)</td></tr>
+<tr class="memitem:ae6a8cc8960e7fdf10e5fd966292f6a90" id="r_ae6a8cc8960e7fdf10e5fd966292f6a90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6a8cc8960e7fdf10e5fd966292f6a90">MR_SmoothCameraMeshDepthSettings_GetMutable_innerStabilizerType</a> (<a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this)</td></tr>
+<tr class="memitem:ada8eb17d67e70f6ba0e1121adcd4ca06" id="r_ada8eb17d67e70f6ba0e1121adcd4ca06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada8eb17d67e70f6ba0e1121adcd4ca06">MR_SmoothCameraMeshDepthSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a087de53adc2bff5914e1c9cd3bcf9bef" id="r_a087de53adc2bff5914e1c9cd3bcf9bef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a087de53adc2bff5914e1c9cd3bcf9bef">MR_SmoothCameraMeshDepthSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:ae03d2c2223387b2f71dcb24d6606ba3a" id="r_ae03d2c2223387b2f71dcb24d6606ba3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03d2c2223387b2f71dcb24d6606ba3a">MR_SmoothCameraMeshDepthSettings_ConstructFrom</a> (const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> edgeWeights, float bdStabilizer, float innerStabilizer, <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a> innerStabilizerType)</td></tr>
+<tr class="memitem:aa98cd9523387c81ab1d0d06206cada00" id="r_aa98cd9523387c81ab1d0d06206cada00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa98cd9523387c81ab1d0d06206cada00">MR_SmoothCameraMeshDepthSettings_OffsetPtr</a> (const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ad06f74cf50d99332ee237b05ac8fa0a2" id="r_ad06f74cf50d99332ee237b05ac8fa0a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad06f74cf50d99332ee237b05ac8fa0a2">MR_SmoothCameraMeshDepthSettings_OffsetMutablePtr</a> (<a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:af2018fbfdadee606879936f7a0b7fb85" id="r_af2018fbfdadee606879936f7a0b7fb85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2018fbfdadee606879936f7a0b7fb85">MR_SmoothCameraMeshDepthSettings_ConstructFromAnother</a> (const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_other)</td></tr>
+<tr class="memitem:a41c7f19416dc8379d924c072fd914dd1" id="r_a41c7f19416dc8379d924c072fd914dd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41c7f19416dc8379d924c072fd914dd1">MR_SmoothCameraMeshDepthSettings_Destroy</a> (const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this)</td></tr>
+<tr class="memdesc:a41c7f19416dc8379d924c072fd914dd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:ac095e26963b7b9ae2e739946a38d84ca" id="r_ac095e26963b7b9ae2e739946a38d84ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac095e26963b7b9ae2e739946a38d84ca">MR_SmoothCameraMeshDepthSettings_DestroyArray</a> (const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this)</td></tr>
+<tr class="memdesc:ac095e26963b7b9ae2e739946a38d84ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:ae79d04139d8024fb8d3fdf3d0946a9f9" id="r_ae79d04139d8024fb8d3fdf3d0946a9f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae79d04139d8024fb8d3fdf3d0946a9f9">MR_SmoothCameraMeshDepthSettings_AssignFromAnother</a> (<a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_this, const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *_other)</td></tr>
+<tr class="memitem:aedba07f354aec27ee71e46aeab0515b6" id="r_aedba07f354aec27ee71e46aeab0515b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedba07f354aec27ee71e46aeab0515b6">MR_smoothCameraMeshDepth_2</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *settings)</td></tr>
+<tr class="memitem:ae7c5f01ec0fb13582202652a7f2f6c03" id="r_ae7c5f01ec0fb13582202652a7f2f6c03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7c5f01ec0fb13582202652a7f2f6c03">MR_smoothCameraMeshDepth_3</a> (const <a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *settings)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="afc6f595855730083dc16b79a6923521c" name="afc6f595855730083dc16b79a6923521c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc6f595855730083dc16b79a6923521c">&#9670;&#160;</a></span>MR_AreaStabilizer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a> <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how the stabilizer of an inner vertex depends on the area of its neighborhood in the image plane </p>
+
+</div>
+</div>
 <a id="af57cf710f05cb1eeaf10d6a088652e50" name="af57cf710f05cb1eeaf10d6a088652e50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af57cf710f05cb1eeaf10d6a088652e50">&#9670;&#160;</a></span>MR_CameraPointsTriangulationSettings</h2>
 
@@ -195,6 +253,61 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from class <span class="tt">MR::CameraPointsTriangulationSettings</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ad396cf7d4433c5ba7924776f5b379c9b" name="ad396cf7d4433c5ba7924776f5b379c9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad396cf7d4433c5ba7924776f5b379c9b">&#9670;&#160;</a></span>MR_MeshTopology</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> <a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mesh Topology Generated from class <span class="tt">MR::MeshTopology</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a59dbce0e609c0b4893bfb88c940a0f98" name="a59dbce0e609c0b4893bfb88c940a0f98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59dbce0e609c0b4893bfb88c940a0f98">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <span class="tt">MR::SmoothCameraMeshDepthSettings</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="a1846dc8e5c53091983ac464b6e42c052" name="a1846dc8e5c53091983ac464b6e42c052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1846dc8e5c53091983ac464b6e42c052">&#9670;&#160;</a></span>MR_AreaStabilizer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how the stabilizer of an inner vertex depends on the area of its neighborhood in the image plane </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1846dc8e5c53091983ac464b6e42c052a37cacb49a667d8795a17d2c28a7127c9" name="a1846dc8e5c53091983ac464b6e42c052a37cacb49a667d8795a17d2c28a7127c9"></a>MR_AreaStabilizer_Uniform&#160;</td><td class="fielddoc"><p>all inner vertices have the same stabilizer </p>
+<p>proportional to the neighborhood area (dense regions are smoothed the same as sparse ones) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1846dc8e5c53091983ac464b6e42c052a6fe95eddc8f9c4f68717f115ac138e5a" name="a1846dc8e5c53091983ac464b6e42c052a6fe95eddc8f9c4f68717f115ac138e5a"></a>MR_AreaStabilizer_Area&#160;</td><td class="fielddoc"><p>proportional to the squared neighborhood area (dense regions are smoothed more than sparse ones) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1846dc8e5c53091983ac464b6e42c052a0a25ee82ca509295150c7799d5964125" name="a1846dc8e5c53091983ac464b6e42c052a0a25ee82ca509295150c7799d5964125"></a>MR_AreaStabilizer_AreaSq&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -618,6 +731,540 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>points closer than this distance in the image plane are merged into one vertex located at their average position; non-positive value disables merging Modifies a member variable of class <span class="tt">MR::CameraPointsTriangulationSettings</span> named <span class="tt">weldPixels</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">weldPixels</span>. </p>
+
+</div>
+</div>
+<a id="aedba07f354aec27ee71e46aeab0515b6" name="aedba07f354aec27ee71e46aeab0515b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedba07f354aec27ee71e46aeab0515b6">&#9670;&#160;</a></span>MR_smoothCameraMeshDepth_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_smoothCameraMeshDepth_2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reduces the depth noise of a mesh produced by triangulateCameraPoints (camera at the origin looking along +Z): the depth (z) field is made smooth by interpolateScalarsSmoothly with the stabilizers and edge weights given above (computed on the mesh projected in the image plane), and every vertex is moved along its viewing ray to the new depth, so the projection of the mesh in the image plane and its absence of self-intersections are preserved Generated from function <span class="tt">MR::smoothCameraMeshDepth</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="ae7c5f01ec0fb13582202652a7f2f6c03" name="ae7c5f01ec0fb13582202652a7f2f6c03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7c5f01ec0fb13582202652a7f2f6c03">&#9670;&#160;</a></span>MR_smoothCameraMeshDepth_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_smoothCameraMeshDepth_3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <span class="tt">MR::smoothCameraMeshDepth</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="ae79d04139d8024fb8d3fdf3d0946a9f9" name="ae79d04139d8024fb8d3fdf3d0946a9f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae79d04139d8024fb8d3fdf3d0946a9f9">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> * MR_SmoothCameraMeshDepthSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SmoothCameraMeshDepthSettings::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="ae03d2c2223387b2f71dcb24d6606ba3a" name="ae03d2c2223387b2f71dcb24d6606ba3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae03d2c2223387b2f71dcb24d6606ba3a">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> * MR_SmoothCameraMeshDepthSettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a></td>          <td class="paramname"><span class="paramname"><em>edgeWeights</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>bdStabilizer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>innerStabilizer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a></td>          <td class="paramname"><span class="paramname"><em>innerStabilizerType</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <span class="tt">MR::SmoothCameraMeshDepthSettings</span> elementwise. The reference to the parameter <span class="tt">region</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">edgeWeights</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">innerStabilizerType</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a41c7f19416dc8379d924c072fd914dd1" title="Destroys a heap-allocated instance of MR_SmoothCameraMeshDepthSettings. Does nothing if the pointer i...">MR_SmoothCameraMeshDepthSettings_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="af2018fbfdadee606879936f7a0b7fb85" name="af2018fbfdadee606879936f7a0b7fb85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2018fbfdadee606879936f7a0b7fb85">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> * MR_SmoothCameraMeshDepthSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::SmoothCameraMeshDepthSettings::SmoothCameraMeshDepthSettings</span>. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a41c7f19416dc8379d924c072fd914dd1" title="Destroys a heap-allocated instance of MR_SmoothCameraMeshDepthSettings. Does nothing if the pointer i...">MR_SmoothCameraMeshDepthSettings_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ada8eb17d67e70f6ba0e1121adcd4ca06" name="ada8eb17d67e70f6ba0e1121adcd4ca06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada8eb17d67e70f6ba0e1121adcd4ca06">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> * MR_SmoothCameraMeshDepthSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a41c7f19416dc8379d924c072fd914dd1" title="Destroys a heap-allocated instance of MR_SmoothCameraMeshDepthSettings. Does nothing if the pointer i...">MR_SmoothCameraMeshDepthSettings_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a087de53adc2bff5914e1c9cd3bcf9bef" name="a087de53adc2bff5914e1c9cd3bcf9bef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a087de53adc2bff5914e1c9cd3bcf9bef">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> * MR_SmoothCameraMeshDepthSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#ac095e26963b7b9ae2e739946a38d84ca" title="Destroys a heap-allocated array of MR_SmoothCameraMeshDepthSettings. Does nothing if the pointer is n...">MR_SmoothCameraMeshDepthSettings_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#ad06f74cf50d99332ee237b05ac8fa0a2">MR_SmoothCameraMeshDepthSettings_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#aa98cd9523387c81ab1d0d06206cada00">MR_SmoothCameraMeshDepthSettings_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a41c7f19416dc8379d924c072fd914dd1" name="a41c7f19416dc8379d924c072fd914dd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41c7f19416dc8379d924c072fd914dd1">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SmoothCameraMeshDepthSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ac095e26963b7b9ae2e739946a38d84ca" name="ac095e26963b7b9ae2e739946a38d84ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac095e26963b7b9ae2e739946a38d84ca">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SmoothCameraMeshDepthSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a39b0ccc824cb38b1af5a7e163029cd2c" name="a39b0ccc824cb38b1af5a7e163029cd2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39b0ccc824cb38b1af5a7e163029cd2c">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_Get_bdStabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_SmoothCameraMeshDepthSettings_Get_bdStabilizer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>stabilizer of every boundary vertex of the mesh: the more the value, the bigger attraction of the vertex to its measured depth Returns a pointer to a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">bdStabilizer</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a634f80b5117cc18fcbc4a9799abae51f" name="a634f80b5117cc18fcbc4a9799abae51f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a634f80b5117cc18fcbc4a9799abae51f">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_Get_edgeWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> * MR_SmoothCameraMeshDepthSettings_Get_edgeWeights </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>weights of edges in the equations, computed on the mesh projected in the image plane Returns a pointer to a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">edgeWeights</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ac4c92c292a8043072126c6649da8b802" name="ac4c92c292a8043072126c6649da8b802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4c92c292a8043072126c6649da8b802">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_Get_innerStabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_SmoothCameraMeshDepthSettings_Get_innerStabilizer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>average stabilizer of inner vertices Returns a pointer to a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">innerStabilizer</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a8c48ab3e6119b8391a256ed6d4041419" name="a8c48ab3e6119b8391a256ed6d4041419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c48ab3e6119b8391a256ed6d4041419">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_Get_innerStabilizerType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a> * MR_SmoothCameraMeshDepthSettings_Get_innerStabilizerType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>distribution of innerStabilizer among inner vertices Returns a pointer to a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">innerStabilizerType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="acbe1fbe691cc7fb48abf05442ac124bc" name="acbe1fbe691cc7fb48abf05442ac124bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbe1fbe691cc7fb48abf05442ac124bc">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_Get_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_SmoothCameraMeshDepthSettings_Get_region </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>vertices where the depth is smoothed, nullptr means all vertices Returns a pointer to a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="aa8299b2f1311dcf0e2a5c777362d93bb" name="aa8299b2f1311dcf0e2a5c777362d93bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8299b2f1311dcf0e2a5c777362d93bb">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_GetMutable_bdStabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_SmoothCameraMeshDepthSettings_GetMutable_bdStabilizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>stabilizer of every boundary vertex of the mesh: the more the value, the bigger attraction of the vertex to its measured depth Returns a mutable pointer to a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">bdStabilizer</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a8cd40e68c465d898634dbdd75df574e4" name="a8cd40e68c465d898634dbdd75df574e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cd40e68c465d898634dbdd75df574e4">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_GetMutable_edgeWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> * MR_SmoothCameraMeshDepthSettings_GetMutable_edgeWeights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>weights of edges in the equations, computed on the mesh projected in the image plane Returns a mutable pointer to a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">edgeWeights</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a1bf67e810ca5f3737285eb7dfebe4695" name="a1bf67e810ca5f3737285eb7dfebe4695"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bf67e810ca5f3737285eb7dfebe4695">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_GetMutable_innerStabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_SmoothCameraMeshDepthSettings_GetMutable_innerStabilizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>average stabilizer of inner vertices Returns a mutable pointer to a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">innerStabilizer</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ae6a8cc8960e7fdf10e5fd966292f6a90" name="ae6a8cc8960e7fdf10e5fd966292f6a90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6a8cc8960e7fdf10e5fd966292f6a90">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_GetMutable_innerStabilizerType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a> * MR_SmoothCameraMeshDepthSettings_GetMutable_innerStabilizerType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>distribution of innerStabilizer among inner vertices Returns a mutable pointer to a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">innerStabilizerType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a8e401f5fd845a79ce6380595f609b29c" name="a8e401f5fd845a79ce6380595f609b29c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e401f5fd845a79ce6380595f609b29c">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_GetMutable_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_SmoothCameraMeshDepthSettings_GetMutable_region </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>vertices where the depth is smoothed, nullptr means all vertices Returns a mutable pointer to a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ad06f74cf50d99332ee237b05ac8fa0a2" name="ad06f74cf50d99332ee237b05ac8fa0a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad06f74cf50d99332ee237b05ac8fa0a2">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> * MR_SmoothCameraMeshDepthSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="aa98cd9523387c81ab1d0d06206cada00" name="aa98cd9523387c81ab1d0d06206cada00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa98cd9523387c81ab1d0d06206cada00">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> * MR_SmoothCameraMeshDepthSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a7df075a6a05116092a755cf0d9ba34dd" name="a7df075a6a05116092a755cf0d9ba34dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7df075a6a05116092a755cf0d9ba34dd">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_Set_bdStabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SmoothCameraMeshDepthSettings_Set_bdStabilizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>stabilizer of every boundary vertex of the mesh: the more the value, the bigger attraction of the vertex to its measured depth Modifies a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">bdStabilizer</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">bdStabilizer</span>. </p>
+
+</div>
+</div>
+<a id="abe1526bbb9567b78923b012bd6590598" name="abe1526bbb9567b78923b012bd6590598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe1526bbb9567b78923b012bd6590598">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_Set_edgeWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SmoothCameraMeshDepthSettings_Set_edgeWeights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>weights of edges in the equations, computed on the mesh projected in the image plane Modifies a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">edgeWeights</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">edgeWeights</span>. When this function is called, this object will drop object references it held previously in <span class="tt">edgeWeights</span>. </p>
+
+</div>
+</div>
+<a id="a1790da3b941c6430a267d30f5c8c374d" name="a1790da3b941c6430a267d30f5c8c374d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1790da3b941c6430a267d30f5c8c374d">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_Set_innerStabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SmoothCameraMeshDepthSettings_Set_innerStabilizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>average stabilizer of inner vertices Modifies a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">innerStabilizer</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">innerStabilizer</span>. </p>
+
+</div>
+</div>
+<a id="a6a6eb2e2e54d3a28fc73e97c0cb97de3" name="a6a6eb2e2e54d3a28fc73e97c0cb97de3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a6eb2e2e54d3a28fc73e97c0cb97de3">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_Set_innerStabilizerType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SmoothCameraMeshDepthSettings_Set_innerStabilizerType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a1846dc8e5c53091983ac464b6e42c052">MR_AreaStabilizer</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>distribution of innerStabilizer among inner vertices Modifies a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">innerStabilizerType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">innerStabilizerType</span>. When this function is called, this object will drop object references it held previously in <span class="tt">innerStabilizerType</span>. </p>
+
+</div>
+</div>
+<a id="a45f2a842bc30abddaea83e49a3575bfd" name="a45f2a842bc30abddaea83e49a3575bfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45f2a842bc30abddaea83e49a3575bfd">&#9670;&#160;</a></span>MR_SmoothCameraMeshDepthSettings_Set_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SmoothCameraMeshDepthSettings_Set_region </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a59dbce0e609c0b4893bfb88c940a0f98">MR_SmoothCameraMeshDepthSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>vertices where the depth is smoothed, nullptr means all vertices Modifies a member variable of class <span class="tt">MR::SmoothCameraMeshDepthSettings</span> named <span class="tt">region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">region</span>. When this function is called, this object will drop object references it held previously in <span class="tt">region</span>. </p>
 
 </div>
 </div>

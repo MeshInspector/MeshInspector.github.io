@@ -696,6 +696,7 @@
     <innerclass refid="structMR_1_1SkyPatch" prot="public">MR::SkyPatch</innerclass>
     <innerclass refid="structMR_1_1SliceInfo" prot="public">MR::SliceInfo</innerclass>
     <innerclass refid="structMR_1_1SliceInfoBase" prot="public">MR::SliceInfoBase</innerclass>
+    <innerclass refid="structMR_1_1SmoothCameraMeshDepthSettings" prot="public">MR::SmoothCameraMeshDepthSettings</innerclass>
     <innerclass refid="structMR_1_1SmoothFillingSettings" prot="public">MR::SmoothFillingSettings</innerclass>
     <innerclass refid="structMR_1_1SomeLocalTriangulations" prot="public">MR::SomeLocalTriangulations</innerclass>
     <innerclass refid="structMR_1_1SortIntersectionsData" prot="public">MR::SortIntersectionsData</innerclass>
@@ -1622,6 +1623,7 @@
       <member refid="group__GeneralGroup_1ga23e900d0cb79ee7e0562507ab9e9f562" kind="enum"><name>PdfBuildinFont</name></member>
       <member refid="group__GeneralGroup_1ga05195fdcf0d1d90b73a5d24b11150005" kind="enum"><name>Axis</name></member>
       <member refid="group__BooleanGroup_1ga9e84a8cc429efdf5cc108ca1c6aaccbd" kind="enum"><name>BooleanOperation</name></member>
+      <member refid="group__GeneralGroup_1ga00a7bb161f5eaaa90ce8cb39fec8eec6" kind="enum"><name>AreaStabilizer</name></member>
       <member refid="group__GeneralGroup_1ga0ec93e9fcfd4b11654579d65e255bb7d" kind="enum"><name>ConeFitterType</name></member>
       <member refid="group__GeneralGroup_1ga6b6dd7eadc1056fc5ffd8af1810d925a" kind="enum"><name>FilterType</name></member>
       <member refid="group__GeneralGroup_1ga0e519d6a7c053c5d86dac33ecd0fa00c" kind="enum"><name>WrapType</name></member>
@@ -2193,6 +2195,8 @@
       <member refid="group__GeneralGroup_1ga868201390f7de0a75f629ef7dfed0aa9" kind="function"><name>triangulateCameraPoints</name></member>
       <member refid="group__GeneralGroup_1ga3619e11f13e5c6e182d8c26d6df842fa" kind="function"><name>triangulateCameraPoints</name></member>
       <member refid="group__GeneralGroup_1gad7441787d340a0a0452bcd5f396360c3" kind="function"><name>triangulateCameraPoints</name></member>
+      <member refid="group__GeneralGroup_1gad9eab2e80534607365923e07f1afc24a" kind="function"><name>smoothCameraMeshDepth</name></member>
+      <member refid="group__GeneralGroup_1ga34d32643257635827068c2097df7017e" kind="function"><name>smoothCameraMeshDepth</name></member>
       <member refid="group__GeneralGroup_1ga366a97494bd771a33e8d3bbacad944a9" kind="function"><name>Localtime</name></member>
       <member refid="group__GeneralGroup_1gad36e8ac1954499755bc5a0d1259fc529" kind="function"><name>LocaltimeOrZero</name></member>
       <member refid="group__GeneralGroup_1ga9457a97e2861090bf3dec6d35b87530c" kind="function"><name>chunkCount</name></member>

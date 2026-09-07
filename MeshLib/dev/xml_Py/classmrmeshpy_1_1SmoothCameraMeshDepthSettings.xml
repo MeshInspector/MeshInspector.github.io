@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SmoothCameraMeshDepthSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1adfae89744e766fb04573b7d988ad788b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SmoothCameraMeshDepthSettings::_offsetof_bdStabilizer</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_bdStabilizer</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings._offsetof_bdStabilizer</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55535" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1ac1a15bd14be78c4bdab64cc3f86948e6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SmoothCameraMeshDepthSettings::_offsetof_edgeWeights</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edgeWeights</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings._offsetof_edgeWeights</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55536" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1adc8026a67f8c34a6bc1ed43a83218736" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SmoothCameraMeshDepthSettings::_offsetof_innerStabilizer</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_innerStabilizer</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings._offsetof_innerStabilizer</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a6673630130eab2ea1c3be4f70e51d235" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SmoothCameraMeshDepthSettings::_offsetof_innerStabilizerType</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_innerStabilizerType</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings._offsetof_innerStabilizerType</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55538" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1af6e070b517ff57bc66b4c9d32d3ca8b2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SmoothCameraMeshDepthSettings::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings._offsetof_region</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55539" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a411849c7d33caac47dea7df7d3e2927b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SmoothCameraMeshDepthSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55542" bodyend="55543"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1ac1a5be537f432d9ed305c019560b3fb4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings" kindref="compound">SmoothCameraMeshDepthSettings</ref></type>
+        <definition> SmoothCameraMeshDepthSettings mrmeshpy.SmoothCameraMeshDepthSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55546" bodyend="55547"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1ac1a5be537f432d9ed305c019560b3fb4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings" kindref="compound">SmoothCameraMeshDepthSettings</ref></type>
+        <definition> SmoothCameraMeshDepthSettings mrmeshpy.SmoothCameraMeshDepthSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55550" bodyend="55551"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a12cc35a9d1fc91ae6b1898c552e885ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SmoothCameraMeshDepthSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55553" bodyend="55554"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a22efcbc9c04ce8ab952d28c98b3ab138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SmoothCameraMeshDepthSettings.__init__</definition>
+        <argsstring>(self, SmoothCameraMeshDepthSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings" kindref="compound">SmoothCameraMeshDepthSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55556" bodyend="55559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1af8aa18c12a3c4857f758650c0f1989d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SmoothCameraMeshDepthSettings.__init__</definition>
+        <argsstring>(self, VertBitSet region, EdgeWeights edgeWeights, float bdStabilizer, float innerStabilizer, AreaStabilizer innerStabilizerType)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeWeights" kindref="compound">EdgeWeights</ref></type>
+          <declname>edgeWeights</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bdStabilizer</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>innerStabilizer</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AreaStabilizer" kindref="compound">AreaStabilizer</ref></type>
+          <declname>innerStabilizerType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55561" bodyend="55564"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1aa9426a9fc530c1fa65dd8c7c07fd3b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SmoothCameraMeshDepthSettings.bdStabilizer</definition>
+        <argsstring>(self)</argsstring>
+        <name>bdStabilizer</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.bdStabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>stabilizer of every boundary vertex of the mesh: the more the value, the bigger attraction of the vertex to its measured depth
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55566" bodyend="55569"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a357c7f24c293cda13e07c6418197f47f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SmoothCameraMeshDepthSettings.bdStabilizer</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>bdStabilizer</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.bdStabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55571" bodyend="55572"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1abeb6ea6ae0cd827bc95521e57a13414b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeWeights" kindref="compound">EdgeWeights</ref></type>
+        <definition> EdgeWeights mrmeshpy.SmoothCameraMeshDepthSettings.edgeWeights</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgeWeights</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.edgeWeights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>weights of edges in the equations, computed on the mesh projected in the image plane
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55574" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55574" bodyend="55577"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a1f214398c47d56ebf1b3ec58473f30a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SmoothCameraMeshDepthSettings.edgeWeights</definition>
+        <argsstring>(self, EdgeWeights arg1)</argsstring>
+        <name>edgeWeights</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.edgeWeights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeWeights" kindref="compound">EdgeWeights</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55579" bodyend="55580"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a5df1a6286fe19d1fa5cab16edda2de09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SmoothCameraMeshDepthSettings.innerStabilizer</definition>
+        <argsstring>(self)</argsstring>
+        <name>innerStabilizer</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.innerStabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>average stabilizer of inner vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55582" bodyend="55585"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a42ad3770d51768b85fdad6ae869e434f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SmoothCameraMeshDepthSettings.innerStabilizer</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>innerStabilizer</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.innerStabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55587" bodyend="55588"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1ac9e3ec238fade0dc4bd1fb720c556b6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AreaStabilizer" kindref="compound">AreaStabilizer</ref></type>
+        <definition> AreaStabilizer mrmeshpy.SmoothCameraMeshDepthSettings.innerStabilizerType</definition>
+        <argsstring>(self)</argsstring>
+        <name>innerStabilizerType</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.innerStabilizerType</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>distribution of innerStabilizer among inner vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55590" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55590" bodyend="55593"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1ae38f0154d20a2979beef3a96ce2711e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SmoothCameraMeshDepthSettings.innerStabilizerType</definition>
+        <argsstring>(self, AreaStabilizer arg1)</argsstring>
+        <name>innerStabilizerType</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.innerStabilizerType</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AreaStabilizer" kindref="compound">AreaStabilizer</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55595" bodyend="55596"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a0118f78e90de645ea326f9afdca897bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.SmoothCameraMeshDepthSettings.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>vertices where the depth is smoothed, nullptr means all vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55598" bodyend="55601"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1ad94b15d3c1a92e2b1fc7121620a11da6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SmoothCameraMeshDepthSettings.region</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.SmoothCameraMeshDepthSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55603" bodyend="55604"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SmoothCameraMeshDepthSettings
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55531" bodyend="55604"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a411849c7d33caac47dea7df7d3e2927b" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a12cc35a9d1fc91ae6b1898c552e885ac" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a22efcbc9c04ce8ab952d28c98b3ab138" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1af8aa18c12a3c4857f758650c0f1989d0" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1adfae89744e766fb04573b7d988ad788b" prot="protected" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>_offsetof_bdStabilizer</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1ac1a15bd14be78c4bdab64cc3f86948e6" prot="protected" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>_offsetof_edgeWeights</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1adc8026a67f8c34a6bc1ed43a83218736" prot="protected" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>_offsetof_innerStabilizer</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a6673630130eab2ea1c3be4f70e51d235" prot="protected" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>_offsetof_innerStabilizerType</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1af6e070b517ff57bc66b4c9d32d3ca8b2" prot="protected" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1aa9426a9fc530c1fa65dd8c7c07fd3b09" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>bdStabilizer</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a357c7f24c293cda13e07c6418197f47f" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>bdStabilizer</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1abeb6ea6ae0cd827bc95521e57a13414b" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>edgeWeights</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a1f214398c47d56ebf1b3ec58473f30a9" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>edgeWeights</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a5df1a6286fe19d1fa5cab16edda2de09" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>innerStabilizer</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a42ad3770d51768b85fdad6ae869e434f" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>innerStabilizer</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1ac9e3ec238fade0dc4bd1fb720c556b6c" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>innerStabilizerType</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1ae38f0154d20a2979beef3a96ce2711e5" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>innerStabilizerType</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1ac1a5be537f432d9ed305c019560b3fb4" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1ac1a5be537f432d9ed305c019560b3fb4" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1a0118f78e90de645ea326f9afdca897bb" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1SmoothCameraMeshDepthSettings_1ad94b15d3c1a92e2b1fc7121620a11da6" prot="public" virt="non-virtual"><scope>mrmeshpy::SmoothCameraMeshDepthSettings</scope><name>region</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

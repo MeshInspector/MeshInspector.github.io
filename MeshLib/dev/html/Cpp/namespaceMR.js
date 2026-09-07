@@ -870,6 +870,7 @@ var namespaceMR =
     [ "SkyPatch", "structMR_1_1SkyPatch.html", "structMR_1_1SkyPatch" ],
     [ "SliceInfo", "structMR_1_1SliceInfo.html", "structMR_1_1SliceInfo" ],
     [ "SliceInfoBase", "structMR_1_1SliceInfoBase.html", "structMR_1_1SliceInfoBase" ],
+    [ "SmoothCameraMeshDepthSettings", "structMR_1_1SmoothCameraMeshDepthSettings.html", "structMR_1_1SmoothCameraMeshDepthSettings" ],
     [ "SmoothFillingSettings", "structMR_1_1SmoothFillingSettings.html", "structMR_1_1SmoothFillingSettings" ],
     [ "SomeLocalTriangulations", "structMR_1_1SomeLocalTriangulations.html", "structMR_1_1SomeLocalTriangulations" ],
     [ "SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", "structMR_1_1SortIntersectionsData" ],
@@ -1273,6 +1274,11 @@ var namespaceMR =
       [ "XY", "group__GeneralGroup.html#ggae1af7aec8f28c8e85182ca94f5802435a74c53bcd3dcb2bb79993b2fec37d362a", null ],
       [ "XZ", "group__GeneralGroup.html#ggae1af7aec8f28c8e85182ca94f5802435a27db3b98d01e664c17a6620b222c6469", null ],
       [ "YZ", "group__GeneralGroup.html#ggae1af7aec8f28c8e85182ca94f5802435affa4ba973372c3650fd0881abeca6512", null ]
+    ] ],
+    [ "AreaStabilizer", "group__GeneralGroup.html#ga00a7bb161f5eaaa90ce8cb39fec8eec6", [
+      [ "Uniform", "group__GeneralGroup.html#gga00a7bb161f5eaaa90ce8cb39fec8eec6af19516d11f2946f894070e92fcb56b6d", null ],
+      [ "Area", "group__GeneralGroup.html#gga00a7bb161f5eaaa90ce8cb39fec8eec6adeec4ff19974f12ed781cb9a59064214", null ],
+      [ "AreaSq", "group__GeneralGroup.html#gga00a7bb161f5eaaa90ce8cb39fec8eec6a5da7d793c7194dc27073ed583fa89ebc", null ]
     ] ],
     [ "AreaUnit", "group__GeneralGroup.html#gade788894f8f8c19c83a75d44908bc4e4", [
       [ "microns2", "group__GeneralGroup.html#ggade788894f8f8c19c83a75d44908bc4e4ac2ab9fc119a167292a594d648471255d", null ],
@@ -3420,6 +3426,8 @@ var namespaceMR =
     [ "slerp", "group__GeneralGroup.html#ga5b71c529c0724694aa58ca8f01246b4d", null ],
     [ "smaller", "group__GeneralGroup.html#gab32707ab055efa8d14815955fdfbcadd", null ],
     [ "smaller2", "group__GeneralGroup.html#gac3755fe16cbdff13422789f6a4e3fad7", null ],
+    [ "smoothCameraMeshDepth", "group__GeneralGroup.html#ga34d32643257635827068c2097df7017e", null ],
+    [ "smoothCameraMeshDepth", "group__GeneralGroup.html#gad9eab2e80534607365923e07f1afc24a", null ],
     [ "smoothRegionBoundary", "group__MeshRelaxGroup.html#ga1e187006b1fd0ad4a2ae525c00b813d7", null ],
     [ "smoothSelection", "group__GeneralGroup.html#ga2e5a76df228902b02d151b1955e2ed3b", null ],
     [ "sortPathsByLength", "group__SurfacePathGroup.html#gaabc40dcee3ba22d445c0f838f170d549", null ],

@@ -2131,6 +2131,9 @@ var hierarchy =
       [ "MR.Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html", [
         [ "MR.SliceInfoBase", "classMR_1_1SliceInfoBase.html", null ]
       ] ],
+      [ "MR.Const_SmoothCameraMeshDepthSettings", "classMR_1_1Const__SmoothCameraMeshDepthSettings.html", [
+        [ "MR.SmoothCameraMeshDepthSettings", "classMR_1_1SmoothCameraMeshDepthSettings.html", null ]
+      ] ],
       [ "MR.Const_SmoothFillingSettings", "classMR_1_1Const__SmoothFillingSettings.html", [
         [ "MR.SmoothFillingSettings", "classMR_1_1SmoothFillingSettings.html", null ]
       ] ],
@@ -4258,6 +4261,7 @@ var hierarchy =
       [ "MR.Const_SkyPatch", "classMR_1_1Const__SkyPatch.html", null ],
       [ "MR.Const_SliceInfo", "classMR_1_1Const__SliceInfo.html", null ],
       [ "MR.Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html", null ],
+      [ "MR.Const_SmoothCameraMeshDepthSettings", "classMR_1_1Const__SmoothCameraMeshDepthSettings.html", null ],
       [ "MR.Const_SmoothFillingSettings", "classMR_1_1Const__SmoothFillingSettings.html", null ],
       [ "MR.Const_SomeLocalTriangulations", "classMR_1_1Const__SomeLocalTriangulations.html", null ],
       [ "MR.Const_SortIntersectionsData", "classMR_1_1Const__SortIntersectionsData.html", null ],

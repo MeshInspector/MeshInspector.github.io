@@ -3544,6 +3544,8 @@
       <node id="326">
         <label>MRMesh/MRPositionVertsSmoothly.h</label>
         <link refid="MRPositionVertsSmoothly_8h"/>
+        <childnode refid="276" relation="include">
+        </childnode>
       </node>
       <node id="582">
         <label>MRMesh/MRPositionedText.h</label>

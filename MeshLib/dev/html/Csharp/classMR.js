@@ -833,6 +833,7 @@ var classMR =
     [ "Const_SkyPatch", "classMR_1_1Const__SkyPatch.html", "classMR_1_1Const__SkyPatch" ],
     [ "Const_SliceInfo", "classMR_1_1Const__SliceInfo.html", "classMR_1_1Const__SliceInfo" ],
     [ "Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html", "classMR_1_1Const__SliceInfoBase" ],
+    [ "Const_SmoothCameraMeshDepthSettings", "classMR_1_1Const__SmoothCameraMeshDepthSettings.html", "classMR_1_1Const__SmoothCameraMeshDepthSettings" ],
     [ "Const_SmoothFillingSettings", "classMR_1_1Const__SmoothFillingSettings.html", "classMR_1_1Const__SmoothFillingSettings" ],
     [ "Const_SomeLocalTriangulations", "classMR_1_1Const__SomeLocalTriangulations.html", "classMR_1_1Const__SomeLocalTriangulations" ],
     [ "Const_SortIntersectionsData", "classMR_1_1Const__SortIntersectionsData.html", "classMR_1_1Const__SortIntersectionsData" ],
@@ -1625,6 +1626,7 @@ var classMR =
     [ "SkyPatch", "classMR_1_1SkyPatch.html", "classMR_1_1SkyPatch" ],
     [ "SliceInfo", "classMR_1_1SliceInfo.html", "classMR_1_1SliceInfo" ],
     [ "SliceInfoBase", "classMR_1_1SliceInfoBase.html", "classMR_1_1SliceInfoBase" ],
+    [ "SmoothCameraMeshDepthSettings", "classMR_1_1SmoothCameraMeshDepthSettings.html", "classMR_1_1SmoothCameraMeshDepthSettings" ],
     [ "SmoothFillingSettings", "classMR_1_1SmoothFillingSettings.html", "classMR_1_1SmoothFillingSettings" ],
     [ "SomeLocalTriangulations", "classMR_1_1SomeLocalTriangulations.html", "classMR_1_1SomeLocalTriangulations" ],
     [ "SortIntersectionsData", "classMR_1_1SortIntersectionsData.html", "classMR_1_1SortIntersectionsData" ],
@@ -1865,6 +1867,11 @@ var classMR =
       [ "XY", "classMR.html#afd36e700e6c3e32c350de8faa2cc7b37a74c53bcd3dcb2bb79993b2fec37d362a", null ],
       [ "XZ", "classMR.html#afd36e700e6c3e32c350de8faa2cc7b37a27db3b98d01e664c17a6620b222c6469", null ],
       [ "YZ", "classMR.html#afd36e700e6c3e32c350de8faa2cc7b37affa4ba973372c3650fd0881abeca6512", null ]
+    ] ],
+    [ "AreaStabilizer", "classMR.html#ae4a644487f6367cd448dd55ff36621ba", [
+      [ "Uniform", "classMR.html#ae4a644487f6367cd448dd55ff36621baaf19516d11f2946f894070e92fcb56b6d", null ],
+      [ "Area", "classMR.html#ae4a644487f6367cd448dd55ff36621baadeec4ff19974f12ed781cb9a59064214", null ],
+      [ "AreaSq", "classMR.html#ae4a644487f6367cd448dd55ff36621baa5da7d793c7194dc27073ed583fa89ebc", null ]
     ] ],
     [ "AreaUnit", "classMR.html#ad11b46fb32fbec07e2e208e6e457b810", [
       [ "Microns2", "classMR.html#ad11b46fb32fbec07e2e208e6e457b810a72f8d05552b0bee23d16d9d96541ced2", null ],
@@ -4002,6 +4009,8 @@ var classMR =
     [ "simpleVolumeToVdbVolume", "classMR.html#abf08935359755caece8f2bab39999e8b", null ],
     [ "smaller", "classMR.html#ad9cb0feb67ca51f1ad5cd3e6a93efbd5", null ],
     [ "smaller2", "classMR.html#a15c1a7a6e806f8defc13c87a6351b76c", null ],
+    [ "smoothCameraMeshDepth", "classMR.html#ab6f03278246a89b75d4a8d3295a45817", null ],
+    [ "smoothCameraMeshDepth", "classMR.html#adeb65c1648f5bed77fc05ec2da1e9584", null ],
     [ "smoothRegionBoundary", "classMR.html#ab0c9ae61ebaf7477503946a88172f3bd", null ],
     [ "smoothSelection", "classMR.html#a275724b35da7e9db0f52c0ea40ffb18a", null ],
     [ "sortPathsByLength", "classMR.html#ad888ecff428c9160d70add1d0a966cb0", null ],

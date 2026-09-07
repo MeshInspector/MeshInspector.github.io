@@ -835,6 +835,7 @@
     <innerclass refid="classMR_1_1Const__SkyPatch" prot="public">MR::Const_SkyPatch</innerclass>
     <innerclass refid="classMR_1_1Const__SliceInfo" prot="public">MR::Const_SliceInfo</innerclass>
     <innerclass refid="classMR_1_1Const__SliceInfoBase" prot="public">MR::Const_SliceInfoBase</innerclass>
+    <innerclass refid="classMR_1_1Const__SmoothCameraMeshDepthSettings" prot="public">MR::Const_SmoothCameraMeshDepthSettings</innerclass>
     <innerclass refid="classMR_1_1Const__SmoothFillingSettings" prot="public">MR::Const_SmoothFillingSettings</innerclass>
     <innerclass refid="classMR_1_1Const__SomeLocalTriangulations" prot="public">MR::Const_SomeLocalTriangulations</innerclass>
     <innerclass refid="classMR_1_1Const__SortIntersectionsData" prot="public">MR::Const_SortIntersectionsData</innerclass>
@@ -1627,6 +1628,7 @@
     <innerclass refid="classMR_1_1SkyPatch" prot="public">MR::SkyPatch</innerclass>
     <innerclass refid="classMR_1_1SliceInfo" prot="public">MR::SliceInfo</innerclass>
     <innerclass refid="classMR_1_1SliceInfoBase" prot="public">MR::SliceInfoBase</innerclass>
+    <innerclass refid="classMR_1_1SmoothCameraMeshDepthSettings" prot="public">MR::SmoothCameraMeshDepthSettings</innerclass>
     <innerclass refid="classMR_1_1SmoothFillingSettings" prot="public">MR::SmoothFillingSettings</innerclass>
     <innerclass refid="classMR_1_1SomeLocalTriangulations" prot="public">MR::SomeLocalTriangulations</innerclass>
     <innerclass refid="classMR_1_1SortIntersectionsData" prot="public">MR::SortIntersectionsData</innerclass>
@@ -2143,6 +2145,46 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="9" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1ae4a644487f6367cd448dd55ff36621ba" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>AreaStabilizer</name>
+        <qualifiedname>MR.AreaStabilizer</qualifiedname>
+        <enumvalue id="classMR_1ae4a644487f6367cd448dd55ff36621baaf19516d11f2946f894070e92fcb56b6d" prot="public">
+          <name>Uniform</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>all inner vertices have the same stabilizer </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1ae4a644487f6367cd448dd55ff36621baadeec4ff19974f12ed781cb9a59064214" prot="public">
+          <name>Area</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>proportional to the neighborhood area (dense regions are smoothed the same as sparse ones) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1ae4a644487f6367cd448dd55ff36621baa5da7d793c7194dc27073ed583fa89ebc" prot="public">
+          <name>AreaSq</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>proportional to the squared neighborhood area (dense regions are smoothed more than sparse ones) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>how the stabilizer of an inner vertex depends on the area of its neighborhood in the image plane </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" line="307" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" bodystart="308" bodyend="321"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1a294c22b69e418098a4582556d50f25fc" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -8746,7 +8788,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" line="315" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" bodystart="315" bodyend="323"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" line="622" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" bodystart="622" bodyend="630"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4fbd89168c39935de95cab96e26f1c9a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -8774,7 +8816,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" line="330" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" bodystart="330" bodyend="338"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" line="637" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" bodystart="637" bodyend="645"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af53dd3a401ca7717fa121a01a5ac5769" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -8802,7 +8844,59 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" line="345" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" bodystart="345" bodyend="353"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" line="652" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" bodystart="652" bodyend="660"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1adeb65c1648f5bed77fc05ec2da1e9584" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.smoothCameraMeshDepth</definition>
+        <argsstring>(MR.Mesh mesh, MR.Const_SmoothCameraMeshDepthSettings? settings=null)</argsstring>
+        <name>smoothCameraMeshDepth</name>
+        <qualifiedname>MR.smoothCameraMeshDepth</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SmoothCameraMeshDepthSettings" kindref="compound">MR.Const_SmoothCameraMeshDepthSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Reduces the depth noise of a mesh produced by triangulateCameraPoints (camera at the origin looking along +Z): the depth (z) field is made smooth by interpolateScalarsSmoothly with the stabilizers and edge weights given above (computed on the mesh projected in the image plane), and every vertex is moved along its viewing ray to the new depth, so the projection of the mesh in the image plane and its absence of self-intersections are preserved Generated from function <computeroutput><ref refid="classMR_1adeb65c1648f5bed77fc05ec2da1e9584" kindref="member">MR.smoothCameraMeshDepth</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" line="670" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" bodystart="670" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ab6f03278246a89b75d4a8d3295a45817" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.smoothCameraMeshDepth</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.VertCoords points, MR.Const_SmoothCameraMeshDepthSettings? settings=null)</argsstring>
+        <name>smoothCameraMeshDepth</name>
+        <qualifiedname>MR.smoothCameraMeshDepth</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords" kindref="compound">MR.VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SmoothCameraMeshDepthSettings" kindref="compound">MR.Const_SmoothCameraMeshDepthSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1adeb65c1648f5bed77fc05ec2da1e9584" kindref="member">MR.smoothCameraMeshDepth</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" line="681" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" bodystart="681" bodyend="686"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a98b414dca4008a07be8cd8500c25ccdf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -54247,6 +54341,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a8b21f7dd3f32e9dbe5c764d939e4f7aa" prot="public" virt="non-virtual"><scope>MR</scope><name>area</name></member>
       <member refid="classMR_1a25393d6c8a322234838c6c15112e3cf1" prot="public" virt="non-virtual"><scope>MR</scope><name>area</name></member>
       <member refid="classMR_1ad3c997dbda7173a4100bc43a5a6e7d4a" prot="public" virt="non-virtual"><scope>MR</scope><name>area</name></member>
+      <member refid="classMR_1ae4a644487f6367cd448dd55ff36621ba" prot="public" virt="non-virtual"><scope>MR</scope><name>AreaStabilizer</name></member>
       <member refid="classMR_1ad11b46fb32fbec07e2e208e6e457b810" prot="public" virt="non-virtual"><scope>MR</scope><name>AreaUnit</name></member>
       <member refid="classMR_1a452d6218563d5a3f7bed445c962984e5" prot="public" virt="non-virtual"><scope>MR</scope><name>asSelectivityType_MRObject</name></member>
       <member refid="classMR_1ae2e1c2a632dc9a920e9f52b8d469a545" prot="public" virt="non-virtual"><scope>MR</scope><name>asSelectivityType_MRObjectDistanceMap</name></member>
@@ -55963,6 +56058,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a2f6d997fab8518c579b67d420b8dea94" prot="public" virt="non-virtual"><scope>MR</scope><name>SlicePlane</name></member>
       <member refid="classMR_1ad9cb0feb67ca51f1ad5cd3e6a93efbd5" prot="public" virt="non-virtual"><scope>MR</scope><name>smaller</name></member>
       <member refid="classMR_1a15c1a7a6e806f8defc13c87a6351b76c" prot="public" virt="non-virtual"><scope>MR</scope><name>smaller2</name></member>
+      <member refid="classMR_1adeb65c1648f5bed77fc05ec2da1e9584" prot="public" virt="non-virtual"><scope>MR</scope><name>smoothCameraMeshDepth</name></member>
+      <member refid="classMR_1ab6f03278246a89b75d4a8d3295a45817" prot="public" virt="non-virtual"><scope>MR</scope><name>smoothCameraMeshDepth</name></member>
       <member refid="classMR_1ab0c9ae61ebaf7477503946a88172f3bd" prot="public" virt="non-virtual"><scope>MR</scope><name>smoothRegionBoundary</name></member>
       <member refid="classMR_1a275724b35da7e9db0f52c0ea40ffb18a" prot="public" virt="non-virtual"><scope>MR</scope><name>smoothSelection</name></member>
       <member refid="classMR_1ad888ecff428c9160d70add1d0a966cb0" prot="public" virt="non-virtual"><scope>MR</scope><name>sortPathsByLength</name></member>
