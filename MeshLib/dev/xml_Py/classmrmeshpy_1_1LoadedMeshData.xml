@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27395" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27403" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27403" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1LoadedMeshData_1a7821578c6481126a643f3c540e29ca2c" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27396" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27404" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1LoadedMeshData_1a7d24653f4be82ac5c897144b2622cca6" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27397" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27405" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1LoadedMeshData_1afc016f9a904c488a5625c875b5393ffc" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27398" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27406" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -86,53 +86,53 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27405" bodyend="27406"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1LoadedMeshData_1a1d12f92fa2e2ab67e7597cc25df2f745" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1LoadedMeshData" kindref="compound">LoadedMeshData</ref></type>
-        <definition> LoadedMeshData mrmeshpy.LoadedMeshData.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.LoadedMeshData.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ObjectMeshData_1ad00bbed4ef2f398b8049b30dc8dc6bd8">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27409" bodyend="27410"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1LoadedMeshData_1a1d12f92fa2e2ab67e7597cc25df2f745" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1LoadedMeshData" kindref="compound">LoadedMeshData</ref></type>
-        <definition> LoadedMeshData mrmeshpy.LoadedMeshData.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.LoadedMeshData.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ObjectMeshData_1ad00bbed4ef2f398b8049b30dc8dc6bd8">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27413" bodyend="27414"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedMeshData_1a1d12f92fa2e2ab67e7597cc25df2f745" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LoadedMeshData" kindref="compound">LoadedMeshData</ref></type>
+        <definition> LoadedMeshData mrmeshpy.LoadedMeshData.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.LoadedMeshData.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshData_1ad00bbed4ef2f398b8049b30dc8dc6bd8">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27417" bodyend="27418"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedMeshData_1a1d12f92fa2e2ab67e7597cc25df2f745" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LoadedMeshData" kindref="compound">LoadedMeshData</ref></type>
+        <definition> LoadedMeshData mrmeshpy.LoadedMeshData.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.LoadedMeshData.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshData_1ad00bbed4ef2f398b8049b30dc8dc6bd8">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27421" bodyend="27422"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27416" bodyend="27417"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27424" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27424" bodyend="27425"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1LoadedMeshData_1aa67935e48f207d09cf21f35556e4b934" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27419" bodyend="27422"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27427" bodyend="27430"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -211,7 +211,7 @@ ObjectMeshData and additional information from mesh importer
         <link refid="classmrmeshpy_1_1ObjectMeshData"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27389" bodyend="27422"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27397" bodyend="27430"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1LoadedMeshData_1ae3e495977a9915f050e54d91a339ea3c" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedMeshData</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1LoadedMeshData_1a1bb0bd1b10e453f5a1941ec1c8af7847" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedMeshData</scope><name>__init__</name></member>

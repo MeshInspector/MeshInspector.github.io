@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"functions_vars_o.html":[8,0,2,3,2,15],
+"functions_vars_p.html":[8,0,2,3,2,16],
 "functions_vars_q.html":[8,0,2,3,2,17],
 "functions_vars_r.html":[8,0,2,3,2,18],
 "functions_vars_s.html":[8,0,2,3,2,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "group__BasicGroup.html#gafb82b59416abea95f150286ba0695dd8":[8,0,0,3,91],
 "group__BasicStructuresGroup.html":[8,0,0,18],
 "group__BasicStructuresGroup.html#ga008386feb5f7364043e76dc51b8a0a9d":[8,0,0,18,18],
-"group__BasicStructuresGroup.html#ga00a487924b8ec452f4a8b75891d68fc3":[8,0,0,18,19],
-"group__BasicStructuresGroup.html#ga12f92e71b639968eb7a4ffb4cbe51291":[8,0,0,18,27],
-"group__BasicStructuresGroup.html#ga1322ac706e673ed930bc4c32c05fa2d3":[8,0,0,18,8]
+"group__BasicStructuresGroup.html#ga00a487924b8ec452f4a8b75891d68fc3":[8,0,0,18,19]
 };

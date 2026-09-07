@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PlanarTriangulation_1_1ISweepLineCache" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PlanarTriangulation::ISweepLineCache</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PlanarTriangulation::ISweepLineCache
+
+keeps the internal buffers of the sweep-line triangulation alive between runs, so a caller
+triangulating many contour sets one by one avoids re-allocating them on every call;
+the entries returning a Mesh move the topology and the points out into it, so those two grow again
+on the next run, while \\ref triangulateDisjointContoursTopology keeps everything;
+one cache must not be used by several threads at once
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45866" bodyend="45875"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

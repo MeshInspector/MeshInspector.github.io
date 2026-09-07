@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35416" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35424" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35424" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1MeshPoint_1a46164926d9b9c3611846e99e6139c067" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35417" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35425" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1MeshPoint_1a4486bd33396583e304eb246bbb5ce6b9" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35418" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35426" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1MeshPoint_1a0f621096feade816113305fb4663c19e" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35419" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35427" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -85,51 +85,51 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35422" bodyend="35423"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1a818569617902596c75b34888c458b19c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1MeshPoint" kindref="compound">MeshPoint</ref></type>
-        <definition> MeshPoint mrmeshpy.MeshPoint.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.MeshPoint.operator</qualifiedname>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35426" bodyend="35427"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1a818569617902596c75b34888c458b19c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1MeshPoint" kindref="compound">MeshPoint</ref></type>
-        <definition> MeshPoint mrmeshpy.MeshPoint.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.MeshPoint.operator</qualifiedname>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35430" bodyend="35431"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1a818569617902596c75b34888c458b19c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshPoint" kindref="compound">MeshPoint</ref></type>
+        <definition> MeshPoint mrmeshpy.MeshPoint.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshPoint.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35434" bodyend="35435"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1a818569617902596c75b34888c458b19c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshPoint" kindref="compound">MeshPoint</ref></type>
+        <definition> MeshPoint mrmeshpy.MeshPoint.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshPoint.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35438" bodyend="35439"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35433" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35433" bodyend="35434"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35441" bodyend="35442"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1a3ea130fe006494f9c95e26d6de39a5f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35436" bodyend="35439"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35444" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35444" bodyend="35447"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1a84e01f0a9270e8e425f526c55f3b1adf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -209,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35441" bodyend="35444"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35449" bodyend="35452"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1a36fab818831cf80c536da71d6836558c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -235,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35445" bodyend="35446"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35453" bodyend="35454"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1ab109c30482035b9692bd1b68753ab5b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -255,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35448" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35448" bodyend="35451"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35456" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35456" bodyend="35459"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1ac753a0f1425c48c64992dfbc97353fba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -277,7 +277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35453" bodyend="35454"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35461" bodyend="35462"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1a794bb6cb2ea8a00b9a57ff62a600dd3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__FaceTag" kindref="compound">func_bool_from_Id_FaceTag</ref></type>
@@ -297,7 +297,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35456" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35456" bodyend="35459"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35464" bodyend="35467"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1a2a53d8178e7113035b292c33715a690b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -319,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35461" bodyend="35462"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35469" bodyend="35470"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1ad2baf2d57ca7331db3538b7c2adb1304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
@@ -339,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35464" bodyend="35467"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35472" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35472" bodyend="35475"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1aaa5a2211d85923c8eadc95afc4949355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -361,7 +361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35469" bodyend="35470"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35477" bodyend="35478"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1a33f352725426d0bcd74dfe01aff05f1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
@@ -381,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35472" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35472" bodyend="35475"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35480" bodyend="35483"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshPoint_1a59740927b7c5636487dff8fce0f7f2ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -403,7 +403,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35477" bodyend="35478"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35485" bodyend="35486"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -414,7 +414,7 @@
 describes the point of measurement on mesh
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35410" bodyend="35478"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35418" bodyend="35486"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshPoint_1a7907df46e48faf4055734b8b3636dd43" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshPoint</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshPoint_1aa98282750a7758e7ddcfd80a2f0b2c79" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshPoint</scope><name>__init__</name></member>

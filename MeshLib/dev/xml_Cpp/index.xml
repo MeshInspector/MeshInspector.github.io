@@ -4341,6 +4341,12 @@
     <member refid="group__GeneralGroup_1ga3cd5d444973254e7b31ab81917f07329" kind="function"><name>calcFromGridByParts</name></member>
     <member refid="group__GeneralGroup_1ga91d50343ae8805a878c0dac2b8ff0802" kind="function"><name>calcFromGridWithDistancesByParts</name></member>
   </compound>
+  <compound refid="classMR_1_1IFillContours2DPlanCache" kind="class"><name>MR::IFillContours2DPlanCache</name>
+    <member refid="group__GeneralGroup_1gac986694dc0a1be93cbbe72137afb0c01" kind="function"><name>IFillContours2DPlanCache</name></member>
+    <member refid="group__GeneralGroup_1gac27fc96190e0e87e2ae498b3e7958c6a" kind="function"><name>IFillContours2DPlanCache</name></member>
+    <member refid="group__GeneralGroup_1gae172c477a54668981920e53b0b00f142" kind="function"><name>operator=</name></member>
+    <member refid="group__GeneralGroup_1ga0bdf3ace1d0ea134aadd936c4f9ff747" kind="function"><name>~IFillContours2DPlanCache</name></member>
+  </compound>
   <compound refid="classMR_1_1IICPTreeIndexer" kind="class"><name>MR::IICPTreeIndexer</name>
     <member refid="group__GeneralGroup_1ga68616944ac0168797fb2fece7d28f477" kind="function"><name>~IICPTreeIndexer</name></member>
     <member refid="group__GeneralGroup_1ga1f778d40d47e51211af6dc767319487a" kind="function"><name>fromSameNode</name></member>
@@ -4804,6 +4810,12 @@
   <compound refid="structMR_1_1IsVisualizeMaskEnum_3_01PointsVisualizePropertyType_01_4" kind="struct"><name>MR::IsVisualizeMaskEnum&lt; PointsVisualizePropertyType &gt;</name>
   </compound>
   <compound refid="structMR_1_1IsVisualizeMaskEnum_3_01VisualizeMaskType_01_4" kind="struct"><name>MR::IsVisualizeMaskEnum&lt; VisualizeMaskType &gt;</name>
+  </compound>
+  <compound refid="classMR_1_1PlanarTriangulation_1_1ISweepLineCache" kind="class"><name>MR::PlanarTriangulation::ISweepLineCache</name>
+    <member refid="group__GeneralGroup_1gac7ed44839b1ca7e7617e7fa3515aab8c" kind="function"><name>ISweepLineCache</name></member>
+    <member refid="group__GeneralGroup_1ga751f460bcb903fdc8e863f6a1681e1b2" kind="function"><name>ISweepLineCache</name></member>
+    <member refid="group__GeneralGroup_1ga9380ca590b2600cc64a333d4892f2ef1" kind="function"><name>operator=</name></member>
+    <member refid="group__GeneralGroup_1ga7515177ffb82bd098525ebe56ec7e05b" kind="function"><name>~ISweepLineCache</name></member>
   </compound>
   <compound refid="classMR_1_1ItemEnabledPerViewport" kind="class"><name>MR::ItemEnabledPerViewport</name>
     <member refid="group__GeneralGroup_1ga40762ec90c11a9a4c41e2d161a68e435" kind="variable"><name>enabledViewports_</name></member>
@@ -14886,7 +14898,8 @@
     <member refid="group__MeshSegmentationGroup_1ga60ce8ecdf324e3ba1847b97a26909194" kind="function"><name>fillContourLeftByGraphCut</name></member>
     <member refid="group__MeshSegmentationGroup_1ga83df6392f2ec180519c0977c7c2a0db7" kind="function"><name>segmentByGraphCut</name></member>
     <member refid="group__GeneralGroup_1gae5df64d06977ab4f0e99d701b9e08047" kind="function"><name>fillContours2D</name></member>
-    <member refid="group__GeneralGroup_1gaddf2d1d185cf7c81ad935d5ae1404d6d" kind="function"><name>fillContours2DPlan</name></member>
+    <member refid="group__GeneralGroup_1ga4b58b14fd18ff412914c444b5d647659" kind="function"><name>makeFillContours2DPlanCache</name></member>
+    <member refid="group__GeneralGroup_1ga88978dc2a299b9b88ea0033da1865186" kind="function"><name>fillContours2DPlan</name></member>
     <member refid="group__GeneralGroup_1gaafdd9eb0912943e6c057d7f3fc8d140b" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="group__GeneralGroup_1gaaee16285913fcc24c3f7ac59e8f82904" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="group__GeneralGroup_1gaf6bdf308d7a325fb349bc72dc306b788" kind="function"><name>fillPlanarHole</name></member>
@@ -16752,9 +16765,11 @@
     <member refid="group__GeneralGroup_1ga4e98690acecec7a927c64053f5b86d80" kind="function"><name>getOutline</name></member>
     <member refid="group__GeneralGroup_1ga161bba00aa938095d492c1a6a2e5ac70" kind="function"><name>triangulateContours</name></member>
     <member refid="group__GeneralGroup_1gaf8916398a1df6d3844748b9d3d06c877" kind="function"><name>triangulateContours</name></member>
-    <member refid="group__GeneralGroup_1ga6aae14fbc41cd374145370930cb67b4e" kind="function"><name>triangulateDisjointContours</name></member>
-    <member refid="group__GeneralGroup_1gac8b02e76a3739230980adf2a19f9fc63" kind="function"><name>triangulateDisjointContours</name></member>
-    <member refid="group__GeneralGroup_1gaa7fbba3ab7f376375bbede5a59a05768" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1ga6aa55c423349c3200c91a32652683cca" kind="function"><name>makeSweepLineCache</name></member>
+    <member refid="group__GeneralGroup_1gaf1407ed99d00015ef1fed87faa3d5d8f" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1ga818dcd39c8d72c4d2a32fc940d6ad524" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1ga3b3c6c939868a97b44c3b77793d46515" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1ga2f9e9b49c88ebf29c5a8a41b0659b9a4" kind="function"><name>triangulateDisjointContoursTopology</name></member>
     <member refid="group__GeneralGroup_1ga6bf92ff9850bc3bd73ec9926a31dcfed" kind="function"><name>getMonotonePlan</name></member>
   </compound>
   <compound refid="namespaceMR_1_1PointCloudComponents" kind="namespace"><name>MR::PointCloudComponents</name>
@@ -25608,9 +25623,15 @@
     <member refid="group__GeneralGroup_1ga4e98690acecec7a927c64053f5b86d80" kind="function"><name>getOutline</name></member>
     <member refid="group__GeneralGroup_1ga161bba00aa938095d492c1a6a2e5ac70" kind="function"><name>triangulateContours</name></member>
     <member refid="group__GeneralGroup_1gaf8916398a1df6d3844748b9d3d06c877" kind="function"><name>triangulateContours</name></member>
-    <member refid="group__GeneralGroup_1ga6aae14fbc41cd374145370930cb67b4e" kind="function"><name>triangulateDisjointContours</name></member>
-    <member refid="group__GeneralGroup_1gac8b02e76a3739230980adf2a19f9fc63" kind="function"><name>triangulateDisjointContours</name></member>
-    <member refid="group__GeneralGroup_1gaa7fbba3ab7f376375bbede5a59a05768" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1gac7ed44839b1ca7e7617e7fa3515aab8c" kind="function"><name>ISweepLineCache</name></member>
+    <member refid="group__GeneralGroup_1ga751f460bcb903fdc8e863f6a1681e1b2" kind="function"><name>ISweepLineCache</name></member>
+    <member refid="group__GeneralGroup_1ga9380ca590b2600cc64a333d4892f2ef1" kind="function"><name>operator=</name></member>
+    <member refid="group__GeneralGroup_1ga7515177ffb82bd098525ebe56ec7e05b" kind="function"><name>~ISweepLineCache</name></member>
+    <member refid="group__GeneralGroup_1ga6aa55c423349c3200c91a32652683cca" kind="function"><name>makeSweepLineCache</name></member>
+    <member refid="group__GeneralGroup_1gaf1407ed99d00015ef1fed87faa3d5d8f" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1ga818dcd39c8d72c4d2a32fc940d6ad524" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1ga3b3c6c939868a97b44c3b77793d46515" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="group__GeneralGroup_1ga2f9e9b49c88ebf29c5a8a41b0659b9a4" kind="function"><name>triangulateDisjointContoursTopology</name></member>
     <member refid="group__GeneralGroup_1ga6bf92ff9850bc3bd73ec9926a31dcfed" kind="function"><name>getMonotonePlan</name></member>
     <member refid="group__GeneralGroup_1ga58f8dd538965bde14c46c2ed60aac1f9" kind="function"><name>nodes</name></member>
     <member refid="group__GeneralGroup_1gac94f623e90a49fd07aeb61722ab8e7f1" kind="function"><name>operator[]</name></member>
@@ -26473,7 +26494,12 @@
     <member refid="group__GeneralGroup_1ga6c8e79658ff0e0bfd4896980aaca5880" kind="function"><name>fillContourLeft</name></member>
     <member refid="group__GeneralGroup_1ga38f79649d26337fa1b8345a42f09bc6a" kind="function"><name>fillContourLeft</name></member>
     <member refid="group__GeneralGroup_1gae5df64d06977ab4f0e99d701b9e08047" kind="function"><name>fillContours2D</name></member>
-    <member refid="group__GeneralGroup_1gaddf2d1d185cf7c81ad935d5ae1404d6d" kind="function"><name>fillContours2DPlan</name></member>
+    <member refid="group__GeneralGroup_1gac986694dc0a1be93cbbe72137afb0c01" kind="function"><name>IFillContours2DPlanCache</name></member>
+    <member refid="group__GeneralGroup_1gac27fc96190e0e87e2ae498b3e7958c6a" kind="function"><name>IFillContours2DPlanCache</name></member>
+    <member refid="group__GeneralGroup_1gae172c477a54668981920e53b0b00f142" kind="function"><name>operator=</name></member>
+    <member refid="group__GeneralGroup_1ga0bdf3ace1d0ea134aadd936c4f9ff747" kind="function"><name>~IFillContours2DPlanCache</name></member>
+    <member refid="group__GeneralGroup_1ga4b58b14fd18ff412914c444b5d647659" kind="function"><name>makeFillContours2DPlanCache</name></member>
+    <member refid="group__GeneralGroup_1ga88978dc2a299b9b88ea0033da1865186" kind="function"><name>fillContours2DPlan</name></member>
     <member refid="group__GeneralGroup_1gaafdd9eb0912943e6c057d7f3fc8d140b" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="group__GeneralGroup_1gaaee16285913fcc24c3f7ac59e8f82904" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="group__GeneralGroup_1gaf6bdf308d7a325fb349bc72dc306b788" kind="function"><name>fillPlanarHole</name></member>

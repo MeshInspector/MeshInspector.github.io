@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26077" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26077" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26085" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26085" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft_1acc3a8fa3b913c63b9b4316d7e66dd1ef" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26078" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26078" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26086" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -55,51 +55,51 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26083" bodyend="26084"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft_1a619c75cec9778a2f149940cdefee15a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft" kindref="compound">IteratorRange_RingIterator_NextEdgeSameLeft</ref></type>
-        <definition> IteratorRange_RingIterator_NextEdgeSameLeft mrmeshpy.IteratorRange_RingIterator_NextEdgeSameLeft.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.IteratorRange_RingIterator_NextEdgeSameLeft.operator</qualifiedname>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26087" bodyend="26088"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft_1a619c75cec9778a2f149940cdefee15a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft" kindref="compound">IteratorRange_RingIterator_NextEdgeSameLeft</ref></type>
-        <definition> IteratorRange_RingIterator_NextEdgeSameLeft mrmeshpy.IteratorRange_RingIterator_NextEdgeSameLeft.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.IteratorRange_RingIterator_NextEdgeSameLeft.operator</qualifiedname>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26091" bodyend="26092"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft_1a619c75cec9778a2f149940cdefee15a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft" kindref="compound">IteratorRange_RingIterator_NextEdgeSameLeft</ref></type>
+        <definition> IteratorRange_RingIterator_NextEdgeSameLeft mrmeshpy.IteratorRange_RingIterator_NextEdgeSameLeft.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.IteratorRange_RingIterator_NextEdgeSameLeft.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26095" bodyend="26096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft_1a619c75cec9778a2f149940cdefee15a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft" kindref="compound">IteratorRange_RingIterator_NextEdgeSameLeft</ref></type>
+        <definition> IteratorRange_RingIterator_NextEdgeSameLeft mrmeshpy.IteratorRange_RingIterator_NextEdgeSameLeft.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.IteratorRange_RingIterator_NextEdgeSameLeft.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26099" bodyend="26100"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26094" bodyend="26095"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26102" bodyend="26103"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft_1afe2f953921b314f3d3bacad5a8f6c8a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26097" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26097" bodyend="26100"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26105" bodyend="26108"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft_1ae08bf085fb820385ff5621152af839bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[<ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref>]</type>
@@ -169,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26101" bodyend="26102"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26109" bodyend="26110"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -181,7 +181,7 @@ Aliases:  IteratorRange_LeftRingIterator
 \\brief simple alternative to boost/iterator_range
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26070" bodyend="26102"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26078" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26078" bodyend="26110"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft_1a8b7e7e3cf56d2e337391e1828f4f7b5b" prot="public" virt="non-virtual"><scope>mrmeshpy::IteratorRange_RingIterator_NextEdgeSameLeft</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft_1a6495474ff4d5ccc82a33ce50c61485b0" prot="public" virt="non-virtual"><scope>mrmeshpy::IteratorRange_RingIterator_NextEdgeSameLeft</scope><name>__init__</name></member>

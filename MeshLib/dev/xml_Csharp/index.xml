@@ -10762,6 +10762,12 @@
     <member refid="classMR_1_1Const__IFastWindingNumberByParts_1aae4451d65b977cfeb0b92a73987a89d1" kind="function"><name>~Const_IFastWindingNumberByParts</name></member>
     <member refid="classMR_1_1Const__IFastWindingNumberByParts_1a8467ad2d48d42acfe991f291863edfb3" kind="function"><name>Const_IFastWindingNumberByParts</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__IFillContours2DPlanCache" kind="class"><name>MR::Const_IFillContours2DPlanCache</name>
+    <member refid="classMR_1_1Const__IFillContours2DPlanCache_1ac9938acb2149b6388c73cfd34d5f9cfb" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__IFillContours2DPlanCache_1aea72dccd961d59fa75971f954a38bb49" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__IFillContours2DPlanCache_1a478de4418c16923d4a2b7a361c600f1d" kind="function"><name>~Const_IFillContours2DPlanCache</name></member>
+    <member refid="classMR_1_1Const__IFillContours2DPlanCache_1ad2cd4ffac48141ea724597d185e6d948" kind="function"><name>Const_IFillContours2DPlanCache</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__IICPTreeIndexer" kind="class"><name>MR::Const_IICPTreeIndexer</name>
     <member refid="classMR_1_1Const__IICPTreeIndexer_1ac21a369423c160fd95c6976c37da07ec" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__IICPTreeIndexer_1a1dd4806f7f6e87e220a53fc9be69765a" kind="function"><name>Dispose</name></member>
@@ -11271,6 +11277,12 @@
     <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRVisualizeMaskType_1a8d0e79e576a598a7075b190a81bd61e6" kind="function"><name>Const_IsVisualizeMaskEnum_MRVisualizeMaskType</name></member>
     <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRVisualizeMaskType_1a1eb997d8bb8d1528cf022ecd4e4b4c15" kind="function"><name>~Const_IsVisualizeMaskEnum_MRVisualizeMaskType</name></member>
     <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRVisualizeMaskType_1a15803cfc725cb3741ecbcf84ed9b2d82" kind="function"><name>Const_IsVisualizeMaskEnum_MRVisualizeMaskType</name></member>
+  </compound>
+  <compound refid="classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache" kind="class"><name>MR::PlanarTriangulation::Const_ISweepLineCache</name>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache_1ad49f08557942114e7ba57ac0909543cc" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache_1a0a212f04b56f9a7fe50d9243c2fca6e5" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache_1ad2e54f6d6e7c5e39281af4e75a50818c" kind="function"><name>~Const_ISweepLineCache</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache_1ad1778e865e37dac8a934b1d366fde21b" kind="function"><name>Const_ISweepLineCache</name></member>
   </compound>
   <compound refid="classMR_1_1Const__IteratorRange__MRChunkIterator" kind="class"><name>MR::Const_IteratorRange_MRChunkIterator</name>
     <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a68156386fe282387b171af38683af18c" kind="property"><name>begin</name></member>
@@ -29559,6 +29571,9 @@
     <member refid="classMR_1_1IFastWindingNumberByParts_1a1956106d30f3ea809c3f88b7bfb2bf93" kind="function"><name>calcFromGridByParts</name></member>
     <member refid="classMR_1_1IFastWindingNumberByParts_1a7c927c1d7e88c4521631c2181856d27e" kind="function"><name>calcFromGridWithDistancesByParts</name></member>
   </compound>
+  <compound refid="classMR_1_1IFillContours2DPlanCache" kind="class"><name>MR::IFillContours2DPlanCache</name>
+    <member refid="classMR_1_1IFillContours2DPlanCache_1a598db4e2799c37b5ff66f9562f23f731" kind="function"><name>IFillContours2DPlanCache</name></member>
+  </compound>
   <compound refid="classMR_1_1IICPTreeIndexer" kind="class"><name>MR::IICPTreeIndexer</name>
     <member refid="classMR_1_1IICPTreeIndexer_1a3cdfd32673bb29a8475fe92fa93681f8" kind="function"><name>IICPTreeIndexer</name></member>
   </compound>
@@ -29928,6 +29943,9 @@
     <member refid="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1a9af831e1b2e0266aee8a5af4587bfdcd" kind="function"><name>IsVisualizeMaskEnum_MRVisualizeMaskType</name></member>
     <member refid="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1a99e4a3e9834ad4795182155b3148dc9e" kind="function"><name>IsVisualizeMaskEnum_MRVisualizeMaskType</name></member>
     <member refid="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1aebd2d78fe438756066b02221d670218e" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1PlanarTriangulation_1_1ISweepLineCache" kind="class"><name>MR::PlanarTriangulation::ISweepLineCache</name>
+    <member refid="classMR_1_1PlanarTriangulation_1_1ISweepLineCache_1a65cc141ee3be80068d817bc7599bbafc" kind="function"><name>ISweepLineCache</name></member>
   </compound>
   <compound refid="classMR_1_1IteratorRange__MRChunkIterator" kind="class"><name>MR::IteratorRange_MRChunkIterator</name>
     <member refid="classMR_1_1IteratorRange__MRChunkIterator_1a5338f3ece7cf679d0f10706570c2d9c2" kind="property"><name>begin</name></member>
@@ -32909,7 +32927,8 @@
     <member refid="classMR_1aff17a33ed0c353c164bdbe0f42783533" kind="function"><name>fillContourLeftByGraphCut</name></member>
     <member refid="classMR_1a8c87e6cc97c23cccbec5782dcef91840" kind="function"><name>segmentByGraphCut</name></member>
     <member refid="classMR_1ae37b9b104c301a064d75b73094c0f563" kind="function"><name>fillContours2D</name></member>
-    <member refid="classMR_1aa3f1d6bf3ad1faf61a7e009906ab58f7" kind="function"><name>fillContours2DPlan</name></member>
+    <member refid="classMR_1a181ef1de3a3a5b9cb580e96e1f4e6675" kind="function"><name>makeFillContours2DPlanCache</name></member>
+    <member refid="classMR_1a23ac4b92c498002b16d1e14d3c27c802" kind="function"><name>fillContours2DPlan</name></member>
     <member refid="classMR_1a025b21916135fedc41203bd96add9132" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="classMR_1a111aa6fde349ac423d4946e6273e0705" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="classMR_1abb86fb6317892be1111e7900800a98bc" kind="function"><name>fillPlanarHole</name></member>
@@ -36468,9 +36487,10 @@
     <member refid="classMR_1_1PlanarTriangulation_1a284e7bebb8b5ffd5cb288277726bd05d" kind="function"><name>getOutline</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1afa9d6d095b5187fc1d409d63a9565495" kind="function"><name>triangulateContours</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1a716126ac0156f532587b6b72b08b4492" kind="function"><name>triangulateContours</name></member>
-    <member refid="classMR_1_1PlanarTriangulation_1aa43721ee35ac47b736aab3533b4bf7a0" kind="function"><name>triangulateDisjointContours</name></member>
-    <member refid="classMR_1_1PlanarTriangulation_1a729cf46c3cb7c952ae221c96e50cbaf5" kind="function"><name>triangulateDisjointContours</name></member>
-    <member refid="classMR_1_1PlanarTriangulation_1a4381f5b19cfa561689e12c3e7f146ce5" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1aa48fb76901da62e249f43ddab18bcdf3" kind="function"><name>makeSweepLineCache</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1ad635cafea2c2834c0679bd865982b6a1" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1a56524124261f4c428fec706b38a83ed4" kind="function"><name>triangulateDisjointContours</name></member>
+    <member refid="classMR_1_1PlanarTriangulation_1a416c05781c33fbcf3c9c3e2c61cf70b1" kind="function"><name>triangulateDisjointContours</name></member>
     <member refid="classMR_1_1PlanarTriangulation_1aaf3dae5bbd300ace7a08d735961239a5" kind="function"><name>getMonotonePlan</name></member>
   </compound>
   <compound refid="classMR_1_1Features_1_1Primitives_1_1Plane" kind="class"><name>MR::Features::Primitives::Plane</name>

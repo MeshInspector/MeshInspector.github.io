@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35752" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35760" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1MeshRelaxParams_1ae26f379815abc4182311a829d5475ab1" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35753" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35761" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -58,61 +58,61 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35756" bodyend="35757"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1MeshRelaxParams" kindref="compound">MeshRelaxParams</ref></type>
-        <definition> MeshRelaxParams mrmeshpy.MeshRelaxParams.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.MeshRelaxParams.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820">operator</reimplements>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35760" bodyend="35761"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1MeshRelaxParams" kindref="compound">MeshRelaxParams</ref></type>
-        <definition> MeshRelaxParams mrmeshpy.MeshRelaxParams.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.MeshRelaxParams.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820">operator</reimplements>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35764" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35764" bodyend="35765"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshRelaxParams" kindref="compound">MeshRelaxParams</ref></type>
+        <definition> MeshRelaxParams mrmeshpy.MeshRelaxParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820">operator</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35768" bodyend="35769"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshRelaxParams" kindref="compound">MeshRelaxParams</ref></type>
+        <definition> MeshRelaxParams mrmeshpy.MeshRelaxParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820">operator</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35772" bodyend="35773"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35767" bodyend="35768"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35775" bodyend="35776"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1affa29ba69fd1bf324019147f24aec9b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35770" bodyend="35773"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35778" bodyend="35781"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1a983affa5cbe5ee3c52b8a29bea7e076b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35775" bodyend="35778"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35783" bodyend="35786"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1a23eb82779d0d3407ad5688db3e277e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -198,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35780" bodyend="35781"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35788" bodyend="35789"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1a0239cf6d7feec0e0325551a68f421b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertScalars" kindref="compound">VertScalars</ref></type>
@@ -218,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35783" bodyend="35786"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35791" bodyend="35794"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1a305b7d103879184cfc7d5654f6d82a40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -240,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35788" bodyend="35789"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35796" bodyend="35797"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -285,7 +285,7 @@
         <link refid="classmrmeshpy_1_1RelaxParams"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35748" bodyend="35789"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35756" bodyend="35797"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1aea05903fe87f8c86fe3684dbdd89e842" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshRelaxParams_1ae8a71231f773b03dfafc220e96a3ceed" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>__init__</name></member>

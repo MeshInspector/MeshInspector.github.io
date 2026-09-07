@@ -1066,6 +1066,9 @@ var hierarchy =
       [ "MR.Const_IFastWindingNumberByParts", "classMR_1_1Const__IFastWindingNumberByParts.html", [
         [ "MR.IFastWindingNumberByParts", "classMR_1_1IFastWindingNumberByParts.html", null ]
       ] ],
+      [ "MR.Const_IFillContours2DPlanCache", "classMR_1_1Const__IFillContours2DPlanCache.html", [
+        [ "MR.IFillContours2DPlanCache", "classMR_1_1IFillContours2DPlanCache.html", null ]
+      ] ],
       [ "MR.Const_IICPTreeIndexer", "classMR_1_1Const__IICPTreeIndexer.html", [
         [ "MR.IICPTreeIndexer", "classMR_1_1IICPTreeIndexer.html", null ]
       ] ],
@@ -2942,6 +2945,9 @@ var hierarchy =
       [ "MR.PlanarTriangulation.Const_BaseOutlineParameters", "classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html", [
         [ "MR.PlanarTriangulation.BaseOutlineParameters", "classMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html", null ]
       ] ],
+      [ "MR.PlanarTriangulation.Const_ISweepLineCache", "classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache.html", [
+        [ "MR.PlanarTriangulation.ISweepLineCache", "classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html", null ]
+      ] ],
       [ "MR.PlanarTriangulation.Const_IntersectionInfo", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html", [
         [ "MR.PlanarTriangulation.IntersectionInfo", "classMR_1_1PlanarTriangulation_1_1IntersectionInfo.html", null ]
       ] ],
@@ -3891,6 +3897,7 @@ var hierarchy =
       [ "MR.Const_IComputeToolDistance", "classMR_1_1Const__IComputeToolDistance.html", null ],
       [ "MR.Const_IFastWindingNumber", "classMR_1_1Const__IFastWindingNumber.html", null ],
       [ "MR.Const_IFastWindingNumberByParts", "classMR_1_1Const__IFastWindingNumberByParts.html", null ],
+      [ "MR.Const_IFillContours2DPlanCache", "classMR_1_1Const__IFillContours2DPlanCache.html", null ],
       [ "MR.Const_IICPTreeIndexer", "classMR_1_1Const__IICPTreeIndexer.html", null ],
       [ "MR.Const_IOFilter", "classMR_1_1Const__IOFilter.html", null ],
       [ "MR.Const_IPointPairs", "classMR_1_1Const__IPointPairs.html", null ],
@@ -4523,6 +4530,7 @@ var hierarchy =
       [ "MR.Parallel.Const_CallSimply", "classMR_1_1Parallel_1_1Const__CallSimply.html", null ],
       [ "MR.Parallel.Const_CallSimplyMaker", "classMR_1_1Parallel_1_1Const__CallSimplyMaker.html", null ],
       [ "MR.PlanarTriangulation.Const_BaseOutlineParameters", "classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html", null ],
+      [ "MR.PlanarTriangulation.Const_ISweepLineCache", "classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache.html", null ],
       [ "MR.PlanarTriangulation.Const_IntersectionInfo", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html", null ],
       [ "MR.PlanarTriangulation.Const_IntersectionsMap", "classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap.html", null ],
       [ "MR.PlanarTriangulation.Const_OutlineParameters", "classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html", null ],

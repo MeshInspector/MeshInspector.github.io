@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"classMR_1_1Const__FreeFormBestFit.html#ae3bb581479fc475f9f0ffe74b9aa101a":[8,3,0,0,0,468,3],
 "classMR_1_1Const__FreeFormDeformer.html":[8,3,0,0,0,469],
 "classMR_1_1Const__FreeFormDeformer.html#a0513856f97448c94da6623fd259f6f74":[8,3,0,0,0,469,5],
 "classMR_1_1Const__FreeFormDeformer.html#a0a821466170fe2131014c97ab117489e":[8,3,0,0,0,469,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "classMR_1_1Const__GraphEdgeBitSet.html#a75b56c6385d89ea91a6546c649b6517c":[8,3,0,0,0,477,26],
 "classMR_1_1Const__GraphEdgeBitSet.html#a79f6478c9ed310f7d75d6026eae9791a":[8,3,0,0,0,477,17],
 "classMR_1_1Const__GraphEdgeBitSet.html#a82d34703fad645640533509db1f3b24f":[8,3,0,0,0,477,21],
-"classMR_1_1Const__GraphEdgeBitSet.html#a88ac504b46135e1d0d08e015948c68d6":[8,3,0,0,0,477,39],
-"classMR_1_1Const__GraphEdgeBitSet.html#a89e26e83521c9c17412c474b50525407":[8,3,0,0,0,477,18]
+"classMR_1_1Const__GraphEdgeBitSet.html#a88ac504b46135e1d0d08e015948c68d6":[8,3,0,0,0,477,39]
 };

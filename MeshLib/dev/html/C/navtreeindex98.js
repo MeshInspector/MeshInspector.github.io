@@ -1,5 +1,15 @@
 var NAVTREEINDEX98 =
 {
+"MRSphereObject_8h.html#a866b821997a7e8957da60ef9d6272481":[8,2,2,0,0,0,0,1,328,57],
+"MRSphereObject_8h.html#a86db4d594ec46efc829d2ddd041c7e39":[8,2,2,0,0,0,0,1,328,10],
+"MRSphereObject_8h.html#a8a6ec15b8f42c708c88f25ea6764da71":[8,2,2,0,0,0,0,1,328,37],
+"MRSphereObject_8h.html#a8d1cd4539fd9dc98be121b505475c3d6":[8,2,2,0,0,0,0,1,328,167],
+"MRSphereObject_8h.html#a8e39d9a855e379fbeab347672473aa6a":[8,2,2,0,0,0,0,1,328,35],
+"MRSphereObject_8h.html#a8fe0796a6b10caf135e3f283ef7458e7":[8,2,2,0,0,0,0,1,328,41],
+"MRSphereObject_8h.html#a9034d288f26b2e5ef3e08c0e198866b0":[8,2,2,0,0,0,0,1,328,108],
+"MRSphereObject_8h.html#a90bd3e9ca4e92f3ece061b83cae176bf":[8,2,2,0,0,0,0,1,328,24],
+"MRSphereObject_8h.html#a9189d533810b8ab6c3fc4fb619dacbae":[8,2,2,0,0,0,0,1,328,154],
+"MRSphereObject_8h.html#a91c3dcff4f1c1fde08181276ebecbc24":[8,2,2,0,0,0,0,1,328,82],
 "MRSphereObject_8h.html#a93d758c94b58d6f58b4d659e25fa6744":[8,2,2,0,0,0,0,1,328,110],
 "MRSphereObject_8h.html#a952fee783f588c6fe4a879c2307783b4":[8,2,2,0,0,0,0,1,328,58],
 "MRSphereObject_8h.html#a95bdd1317a3cb7c06433db14a3501bea":[8,2,2,0,0,0,0,1,328,84],
@@ -239,15 +249,5 @@ var NAVTREEINDEX98 =
 "MRSubfeatures_8h.html#a90ae287c1a69818da4c53ab54e2cb408":[8,2,2,0,0,0,0,1,333,11],
 "MRSubfeatures_8h.html#ab08ef28293e619b3bebc4a75ce87e573":[8,2,2,0,0,0,0,1,333,14],
 "MRSubfeatures_8h.html#abbce51d2b9b28650fdfd552bbc750edc":[8,2,2,0,0,0,0,1,333,0],
-"MRSubfeatures_8h.html#ac478f7ba0942340b4d7db38d473b9b2e":[8,2,2,0,0,0,0,1,333,6],
-"MRSubfeatures_8h.html#acc4457dc32d758f4a979db7571f2382e":[8,2,2,0,0,0,0,1,333,15],
-"MRSubfeatures_8h.html#accbc7250e51a450cb8bb23f5bb3cf6c8":[8,2,2,0,0,0,0,1,333,7],
-"MRSubfeatures_8h.html#ad56703f12befb17b3ce0184bd07e7a5b":[8,2,2,0,0,0,0,1,333,4],
-"MRSubfeatures_8h.html#ae1622ece013eee14fde812c89acf8b22":[8,2,2,0,0,0,0,1,333,19],
-"MRSubfeatures_8h.html#aead1805af95601b5b14f3e40afd8ce05":[8,2,2,0,0,0,0,1,333,12],
-"MRSubfeatures_8h.html#aeb2472172c06023be0b7f657a164a3e0":[8,2,2,0,0,0,0,1,333,20],
-"MRSubfeatures_8h.html#af02ee38df887308b7c41fb18e2cbc06d":[8,2,2,0,0,0,0,1,333,18],
-"MRSubfeatures_8h_source.html":[8,2,2,0,0,0,0,1,333],
-"MRSurfaceDistanceBuilder_8h.html":[8,2,2,0,0,0,0,1,335],
-"MRSurfaceDistanceBuilder_8h.html#a0ec70674d6412513e8008d61c284c453":[8,2,2,0,0,0,0,1,335,14]
+"MRSubfeatures_8h.html#ac478f7ba0942340b4d7db38d473b9b2e":[8,2,2,0,0,0,0,1,333,6]
 };

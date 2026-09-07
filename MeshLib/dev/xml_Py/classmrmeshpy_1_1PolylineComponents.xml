@@ -4,6 +4,27 @@
     <compoundname>mrmeshpy::PolylineComponents</compoundname>
     <innerclass refid="classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" prot="public">mrmeshpy::PolylineComponents::LargeByLengthComponentsSettings</innerclass>
     <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1ae4c0e5485d9ae94c5311c9ff3751789f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag" kindref="compound">std_vector_TypedBitSet_Id_UndirectedEdgeTag</ref></type>
+        <definition> std_vector_TypedBitSet_Id_UndirectedEdgeTag mrmeshpy.PolylineComponents.getAllComponents</definition>
+        <argsstring>(PolylineTopology topology)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>mrmeshpy.PolylineComponents.getAllComponents</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets all connected components of polyline topology
+\\note be careful, if mesh is large enough and has many components, the memory overflow will occur
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48902" bodyend="48906"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1a9ac8e17e32d9f8be8ed437ba481b2c9c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>tuple[<ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag" kindref="compound">std_vector_TypedBitSet_Id_UndirectedEdgeTag</ref>, int]</type>
         <definition> tuple[std_vector_TypedBitSet_Id_UndirectedEdgeTag, int] mrmeshpy.PolylineComponents.getAllComponents</definition>
@@ -29,28 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48879" bodyend="48885"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1ae4c0e5485d9ae94c5311c9ff3751789f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag" kindref="compound">std_vector_TypedBitSet_Id_UndirectedEdgeTag</ref></type>
-        <definition> std_vector_TypedBitSet_Id_UndirectedEdgeTag mrmeshpy.PolylineComponents.getAllComponents</definition>
-        <argsstring>(PolylineTopology topology)</argsstring>
-        <name>getAllComponents</name>
-        <qualifiedname>mrmeshpy.PolylineComponents.getAllComponents</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></type>
-          <declname>topology</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>gets all connected components of polyline topology
-\\note be careful, if mesh is large enough and has many components, the memory overflow will occur
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48888" bodyend="48892"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48909" bodyend="48915"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1a0751b2be93de2423443acd3ebbc742a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -75,7 +75,7 @@ not effective to call more than once, if several components are needed use getAl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48894" bodyend="48898"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48917" bodyend="48921"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1a25a2c10c91f10d11c42c4512d1a9b3bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -105,7 +105,7 @@ not effective to call more than once, if several components are needed use getAl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48901" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48901" bodyend="48904"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48924" bodyend="48927"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1a99488fcfbe9e63b90b9ee7c64be319b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -135,7 +135,7 @@ not effective to call more than once, if several components are needed use getAl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48907" bodyend="48910"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48930" bodyend="48933"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1a679007ee4675b5cd03be9ac0290c7894" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag" kindref="compound">std_vector_TypedBitSet_Id_UndirectedEdgeTag</ref></type>
@@ -159,7 +159,7 @@ not effective to call more than once, if several components are needed use getAl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48913" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48913" bodyend="48916"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48936" bodyend="48939"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1ac7b732efa2e637248f9f0d3ec0fd819b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag" kindref="compound">std_vector_TypedBitSet_Id_UndirectedEdgeTag</ref></type>
@@ -183,7 +183,7 @@ not effective to call more than once, if several components are needed use getAl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48919" bodyend="48922"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48942" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48942" bodyend="48945"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1a365d405efc70c5bac46665018da8c1bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -203,7 +203,7 @@ not effective to call more than once, if several components are needed use getAl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48924" bodyend="48927"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48947" bodyend="48950"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1a01a36542aef1f40a46a2fe7eb4f3724a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId" kindref="compound">UnionFind_UndirectedEdgeId</ref></type>
@@ -223,7 +223,7 @@ not effective to call more than once, if several components are needed use getAl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48929" bodyend="48932"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48952" bodyend="48955"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -232,10 +232,10 @@ not effective to call more than once, if several components are needed use getAl
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48817" bodyend="48932"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48840" bodyend="48955"/>
     <listofallmembers>
-      <member refid="classmrmeshpy_1_1PolylineComponents_1a9ac8e17e32d9f8be8ed437ba481b2c9c" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1PolylineComponents_1ae4c0e5485d9ae94c5311c9ff3751789f" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineComponents</scope><name>getAllComponents</name></member>
+      <member refid="classmrmeshpy_1_1PolylineComponents_1a9ac8e17e32d9f8be8ed437ba481b2c9c" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1PolylineComponents_1a0751b2be93de2423443acd3ebbc742a6" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineComponents</scope><name>getComponent</name></member>
       <member refid="classmrmeshpy_1_1PolylineComponents_1a25a2c10c91f10d11c42c4512d1a9b3bf" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineComponents</scope><name>getLargestComponent</name></member>
       <member refid="classmrmeshpy_1_1PolylineComponents_1a99488fcfbe9e63b90b9ee7c64be319b4" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineComponents</scope><name>getLargestComponent</name></member>

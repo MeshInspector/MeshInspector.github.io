@@ -634,6 +634,7 @@ var hierarchy =
     [ "MR::IFastWindingNumberByParts", "classMR_1_1IFastWindingNumberByParts.html", [
       [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", null ]
     ] ],
+    [ "MR::IFillContours2DPlanCache", "classMR_1_1IFillContours2DPlanCache.html", null ],
     [ "MR::IICPTreeIndexer", "classMR_1_1IICPTreeIndexer.html", null ],
     [ "MR::Image", "structMR_1_1Image.html", [
       [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", null ]
@@ -782,6 +783,7 @@ var hierarchy =
       [ "MR::SceneStateExactCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", null ]
     ] ],
     [ "MR::NormalsToPoints::ISolver", "classMR_1_1NormalsToPoints_1_1ISolver.html", null ],
+    [ "MR::PlanarTriangulation::ISweepLineCache", "classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html", null ],
     [ "MR::ItemEnabledPerViewport", "classMR_1_1ItemEnabledPerViewport.html", null ],
     [ "MR::IteratorRange< I >", "structMR_1_1IteratorRange.html", null ],
     [ "MR::ITransformControls", "classMR_1_1ITransformControls.html", [

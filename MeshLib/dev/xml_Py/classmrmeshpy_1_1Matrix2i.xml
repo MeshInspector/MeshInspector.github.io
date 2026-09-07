@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29143" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29151" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Matrix2i_1aef76cc574e8565f25d6db85ff2413118" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29144" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29152" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29148" bodyend="29149"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29156" bodyend="29157"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a155ee838b3fcaa4bf643c0528d66ca98" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -80,7 +80,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29151" bodyend="29155"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29159" bodyend="29163"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1acbbde03a0bbbf8f2e980cd3f88aff20f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -104,7 +104,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29157" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29157" bodyend="29160"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29165" bodyend="29168"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a267e1b39be4a7a677b77ea82c6aaf860" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -118,51 +118,51 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29162" bodyend="29163"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a9ff576a8653c759dbf049573b6c2ecfb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
-        <definition> Matrix2i mrmeshpy.Matrix2i.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.Matrix2i.operator</qualifiedname>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29166" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29166" bodyend="29167"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a9ff576a8653c759dbf049573b6c2ecfb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
-        <definition> Matrix2i mrmeshpy.Matrix2i.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.Matrix2i.operator</qualifiedname>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29170" bodyend="29171"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a9ff576a8653c759dbf049573b6c2ecfb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Matrix2i.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29174" bodyend="29175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a9ff576a8653c759dbf049573b6c2ecfb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
+        <definition> Matrix2i mrmeshpy.Matrix2i.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Matrix2i.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29178" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29178" bodyend="29179"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a7152be28b2743a8bbf8d3dab965a210a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -182,7 +182,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29174" bodyend="29177"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29182" bodyend="29185"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a4b46979688476460ac24bcf755e1e6fd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -206,7 +206,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29180" bodyend="29183"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29188" bodyend="29191"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1af2d27b680e6870c0af941e0e6541771e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -224,7 +224,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29186" bodyend="29187"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29194" bodyend="29195"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a67d493489eed7cc7a2c41f88ce0cc568" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -238,7 +238,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29189" bodyend="29190"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29197" bodyend="29198"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -264,7 +264,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29191" bodyend="29194"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29199" bodyend="29202"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a0a4b9a47007e7127e2ee4de2a9ac7da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -286,7 +286,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29195" bodyend="29196"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29203" bodyend="29204"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a06178da83d96200d1ea8fe7499b73cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
@@ -310,7 +310,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29198" bodyend="29201"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29206" bodyend="29209"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a06178da83d96200d1ea8fe7499b73cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
@@ -332,7 +332,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29203" bodyend="29204"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29211" bodyend="29212"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a2c1e571560c8c6ddb9dd604f8b287b55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -354,7 +354,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29205" bodyend="29206"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29213" bodyend="29214"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a2c9e08e14e47e49e5df2bbd2fd790eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -376,7 +376,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29207" bodyend="29208"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29215" bodyend="29216"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a421f1b43a5e23febfd7e7c9f8e7782e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -394,7 +394,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29210" bodyend="29211"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29218" bodyend="29219"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1ac33459a11f1c865826e7dd3d5315208c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -422,7 +422,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29213" bodyend="29216"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29221" bodyend="29224"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a23b5d00d4c8fe3da1969424b8f5bc414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -446,7 +446,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29218" bodyend="29221"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29226" bodyend="29229"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1ad130520f9f52e1b8682030f31df8a1bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -468,7 +468,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29222" bodyend="29223"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29230" bodyend="29231"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a4776e109e1477e8ad11f2202d941cfc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -490,7 +490,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29224" bodyend="29225"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29232" bodyend="29233"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a3aff3de3b019694d93a869fc8dfe69c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -512,7 +512,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29227" bodyend="29228"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29235" bodyend="29236"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a84637e707bff2ca521b9d4d7cf831bd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
@@ -536,7 +536,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29230" bodyend="29233"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29238" bodyend="29241"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1ab44e064cee10b80b7abe4367ea912a79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -560,7 +560,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29235" bodyend="29238"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29243" bodyend="29246"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a42390eee27563b7961ef843ae18e36b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -582,7 +582,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29239" bodyend="29240"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29247" bodyend="29248"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1adcc49fe1d69e236c1e6c783441061701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -600,7 +600,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29241" bodyend="29242"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29249" bodyend="29250"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a4fe177f34f16d613bc532f6e3147c07d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Any</type>
@@ -622,7 +622,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29243" bodyend="29244"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29251" bodyend="29252"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1ac8f544a3f6be4e5e24c487c831b8b1c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -644,7 +644,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29245" bodyend="29246"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29253" bodyend="29254"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a231c43034bd3cc4945602e350718cb49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Any</type>
@@ -666,7 +666,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29247" bodyend="29248"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29255" bodyend="29256"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a6aaa0caa29fee8d4c3f6d3f8ae264774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -692,7 +692,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29249" bodyend="29250"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29257" bodyend="29258"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a18147ba68f51819183ed7aacc456e8ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -714,7 +714,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29251" bodyend="29252"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29259" bodyend="29260"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1ad7d97ce8ecb8923d39e029e479549145" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -736,7 +736,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29253" bodyend="29254"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29261" bodyend="29262"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a3063d6177235092a99d482711d5caf20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
@@ -760,7 +760,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29255" bodyend="29258"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29263" bodyend="29266"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1ae8f42b43ad27acf455b0b12f8005a375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -780,7 +780,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29259" bodyend="29262"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29267" bodyend="29270"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a94832647f7d785383254f012d913262e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -798,7 +798,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29263" bodyend="29264"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29271" bodyend="29272"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a8c14da0c756043ffb93f864c97c17170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -818,7 +818,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29265" bodyend="29268"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29273" bodyend="29276"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1aa4982faeac4a7ad5762cd7f7022c07a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -838,7 +838,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29269" bodyend="29272"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29277" bodyend="29280"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a885bb0a247b5643cfcf5d71426abbb9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Matrix2i" kindref="compound">Matrix2i</ref></type>
@@ -858,7 +858,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29273" bodyend="29276"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29281" bodyend="29284"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1af45a069536604c732e3a426bcb2e7d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
@@ -878,7 +878,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29278" bodyend="29281"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29286" bodyend="29289"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Matrix2i_1a32540810f3270a9299ee7c1a4a44d778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -900,7 +900,7 @@ use this method to get the matrix that transforms basis vectors ( plusX, plusY )
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29283" bodyend="29284"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29291" bodyend="29292"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -912,7 +912,7 @@ Aliases:  Vector2_int_MatrixType
 arbitrary 2x2 matrix
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29136" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29136" bodyend="29284"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29144" bodyend="29292"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Matrix2i_1a9fa115882ebc43a26bac45a4c8fb83cc" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__add__</name></member>
       <member refid="classmrmeshpy_1_1Matrix2i_1a0a4b9a47007e7127e2ee4de2a9ac7da1" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix2i</scope><name>__eq__</name></member>

@@ -1,8 +1,9 @@
 var NAVTREEINDEX29 =
 {
-"classMR_1_1ConstBox__VoxelId.html#af72939bc5398ff518198034473b8596a":[8,3,0,0,0,1095,19],
-"classMR_1_1ConstBox__VoxelId.html#afdaf1777141c843b580a2a9d78ff2de1":[8,3,0,0,0,1095,20],
-"classMR_1_1ConstBox__VoxelId.html#aff0357b00a30327c7873e31fe7226cec":[8,3,0,0,0,1095,8],
+"classMR_1_1ConstBox__VoxelId.html#af4358847a98be2ca5ce737bdf30389f1":[8,3,0,0,0,1096,12],
+"classMR_1_1ConstBox__VoxelId.html#af72939bc5398ff518198034473b8596a":[8,3,0,0,0,1096,19],
+"classMR_1_1ConstBox__VoxelId.html#afdaf1777141c843b580a2a9d78ff2de1":[8,3,0,0,0,1096,20],
+"classMR_1_1ConstBox__VoxelId.html#aff0357b00a30327c7873e31fe7226cec":[8,3,0,0,0,1096,8],
 "classMR_1_1Const__AABBTree.html":[8,3,0,0,0,222],
 "classMR_1_1Const__AABBTree.html#a011e8d3955977b9e51e774c6b1be340e":[8,3,0,0,0,222,10],
 "classMR_1_1Const__AABBTree.html#a1dc54498b639c8383a5f35957978a1d9":[8,3,0,0,0,222,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "classMR_1_1Const__AABBTreePolyline2.html#ab5caed6ad0e4e5ba1968353c8d2100ce":[8,3,0,0,0,233,7],
 "classMR_1_1Const__AABBTreePolyline2.html#abba19bd6903e5f5e7dc2650cf98c90bd":[8,3,0,0,0,233,4],
 "classMR_1_1Const__AABBTreePolyline2.html#ac90a6fa1e8186d2f4ba3134ec2d489ae":[8,3,0,0,0,233,1],
-"classMR_1_1Const__AABBTreePolyline2.html#ad21db3da548da36dc34953d3b6e1aea9":[8,3,0,0,0,233,14],
-"classMR_1_1Const__AABBTreePolyline2.html#aedf99d63136f397540bcf66a5a76a289":[8,3,0,0,0,233,9]
+"classMR_1_1Const__AABBTreePolyline2.html#ad21db3da548da36dc34953d3b6e1aea9":[8,3,0,0,0,233,14]
 };

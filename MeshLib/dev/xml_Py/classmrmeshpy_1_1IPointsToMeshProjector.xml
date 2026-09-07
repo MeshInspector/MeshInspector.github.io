@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24409" bodyend="24412"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24417" bodyend="24420"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IPointsToMeshProjector_1a183a14af5ae991355ca023b734c99f12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24413" bodyend="24416"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24421" bodyend="24424"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IPointsToMeshProjector_1aaf02b6f2d268f959073790823847b960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24417" bodyend="24420"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24425" bodyend="24428"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -124,7 +124,7 @@ Abstract class, computes the closest point on mesh to each of given points. Pure
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24403" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24403" bodyend="24420"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24411" bodyend="24428"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1IPointsToMeshProjector_1abde909341f45cefaf5a8e331819186b4" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointsToMeshProjector</scope><name>findProjections</name></member>
       <member refid="classmrmeshpy_1_1IPointsToMeshProjector_1a183a14af5ae991355ca023b734c99f12" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>

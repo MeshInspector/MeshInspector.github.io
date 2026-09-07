@@ -286,6 +286,7 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3APlanarTriangulation_3A_3ABaseOutlineParameters" id="r_MR_3A_3APlanarTriangulation_3A_3ABaseOutlineParameters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html">MR::PlanarTriangulation::BaseOutlineParameters</a></td></tr>
 <tr class="memitem:MR_3A_3APlanarTriangulation_3A_3AOutlineParameters" id="r_MR_3A_3APlanarTriangulation_3A_3AOutlineParameters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PlanarTriangulation_1_1OutlineParameters.html">MR::PlanarTriangulation::OutlineParameters</a></td></tr>
 <tr class="memitem:MR_3A_3APlanarTriangulation_3A_3ATriangulationParameters" id="r_MR_3A_3APlanarTriangulation_3A_3ATriangulationParameters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PlanarTriangulation_1_1TriangulationParameters.html">MR::PlanarTriangulation::TriangulationParameters</a></td></tr>
+<tr class="memitem:MR_3A_3APlanarTriangulation_3A_3AISweepLineCache" id="r_MR_3A_3APlanarTriangulation_3A_3AISweepLineCache"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">MR::PlanarTriangulation::ISweepLineCache</a></td></tr>
 <tr class="memitem:MR_3A_3AAABBTreeBase_3C_20T_20_3E" id="r_MR_3A_3AAABBTreeBase_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for most AABB-trees (except for <a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure">AABBTreePoints</a>)  <a href="classMR_1_1AABBTreeBase.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AObjTreeTraits" id="r_MR_3A_3AObjTreeTraits"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ObjTreeTraits.html">MR::ObjTreeTraits</a></td></tr>
@@ -480,6 +481,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the class stores some number of smallest elements from a larger number of candidates  <a href="classMR_1_1FewSmallest.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AFile" id="r_MR_3A_3AFile"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1File.html">MR::File</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the class to open C FILE handle and automatically close it in the destructor  <a href="classMR_1_1File.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AIFillContours2DPlanCache" id="r_MR_3A_3AIFillContours2DPlanCache"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFillContours2DPlanCache.html">MR::IFillContours2DPlanCache</a></td></tr>
 <tr class="memitem:MR_3A_3ASubdivideFillingSettings" id="r_MR_3A_3ASubdivideFillingSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideFillingSettings.html">MR::SubdivideFillingSettings</a></td></tr>
 <tr class="memitem:MR_3A_3ASmoothFillingSettings" id="r_MR_3A_3ASmoothFillingSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SmoothFillingSettings.html">MR::SmoothFillingSettings</a></td></tr>
 <tr class="memitem:MR_3A_3AOutAttributesFillingSettings" id="r_MR_3A_3AOutAttributesFillingSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OutAttributesFillingSettings.html">MR::OutAttributesFillingSettings</a></td></tr>
@@ -3477,11 +3479,19 @@ Functions</h2></td></tr>
 <tr class="memitem:ga161bba00aa938095d492c1a6a2e5ac70" id="r_ga161bba00aa938095d492c1a6a2e5ac70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga161bba00aa938095d492c1a6a2e5ac70">MR::PlanarTriangulation::triangulateContours</a> (const <a class="el" href="#ga4bcf38e9e8de19979ccfe5e3eab1967b">Contours2d</a> &amp;contours, const <a class="el" href="structMR_1_1PlanarTriangulation_1_1TriangulationParameters.html">TriangulationParameters</a> &amp;params={})</td></tr>
 <tr class="memdesc:ga161bba00aa938095d492c1a6a2e5ac70"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
 <tr class="memitem:gaf8916398a1df6d3844748b9d3d06c877" id="r_gaf8916398a1df6d3844748b9d3d06c877"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf8916398a1df6d3844748b9d3d06c877">MR::PlanarTriangulation::triangulateContours</a> (const <a class="el" href="#ga8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, const <a class="el" href="structMR_1_1PlanarTriangulation_1_1TriangulationParameters.html">TriangulationParameters</a> &amp;params={})</td></tr>
-<tr class="memitem:ga6aae14fbc41cd374145370930cb67b4e" id="r_ga6aae14fbc41cd374145370930cb67b4e"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6aae14fbc41cd374145370930cb67b4e">MR::PlanarTriangulation::triangulateDisjointContours</a> (const <a class="el" href="#ga4bcf38e9e8de19979ccfe5e3eab1967b">Contours2d</a> &amp;contours)</td></tr>
-<tr class="memdesc:ga6aae14fbc41cd374145370930cb67b4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
-<tr class="memitem:gac8b02e76a3739230980adf2a19f9fc63" id="r_gac8b02e76a3739230980adf2a19f9fc63"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac8b02e76a3739230980adf2a19f9fc63">MR::PlanarTriangulation::triangulateDisjointContours</a> (const <a class="el" href="#ga8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours)</td></tr>
-<tr class="memitem:gaa7fbba3ab7f376375bbede5a59a05768" id="r_gaa7fbba3ab7f376375bbede5a59a05768"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa7fbba3ab7f376375bbede5a59a05768">MR::PlanarTriangulation::triangulateDisjointContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, WholeEdgeMap *outPatchMap=nullptr)</td></tr>
-<tr class="memdesc:gaa7fbba3ab7f376375bbede5a59a05768"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
+<tr class="memitem:gac7ed44839b1ca7e7617e7fa3515aab8c" id="r_gac7ed44839b1ca7e7617e7fa3515aab8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac7ed44839b1ca7e7617e7fa3515aab8c">MR::PlanarTriangulation::ISweepLineCache::ISweepLineCache</a> ()=default</td></tr>
+<tr class="memitem:ga751f460bcb903fdc8e863f6a1681e1b2" id="r_ga751f460bcb903fdc8e863f6a1681e1b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga751f460bcb903fdc8e863f6a1681e1b2">MR::PlanarTriangulation::ISweepLineCache::ISweepLineCache</a> (const <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> &amp;)=delete</td></tr>
+<tr class="memitem:ga9380ca590b2600cc64a333d4892f2ef1" id="r_ga9380ca590b2600cc64a333d4892f2ef1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9380ca590b2600cc64a333d4892f2ef1">MR::PlanarTriangulation::ISweepLineCache::operator=</a> (const <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> &amp;)=delete</td></tr>
+<tr class="memitem:ga7515177ffb82bd098525ebe56ec7e05b" id="r_ga7515177ffb82bd098525ebe56ec7e05b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7515177ffb82bd098525ebe56ec7e05b">MR::PlanarTriangulation::ISweepLineCache::~ISweepLineCache</a> ()=0</td></tr>
+<tr class="memdesc:ga7515177ffb82bd098525ebe56ec7e05b"><td class="mdescLeft">&#160;</td><td class="mdescRight">pure to make the class abstract: instances are created by <a class="el" href="#ga6aa55c423349c3200c91a32652683cca" title="creates a cache for the sweep-line triangulation">makeSweepLineCache()</a> only  <br /></td></tr>
+<tr class="memitem:ga6aa55c423349c3200c91a32652683cca" id="r_ga6aa55c423349c3200c91a32652683cca"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6aa55c423349c3200c91a32652683cca">MR::PlanarTriangulation::makeSweepLineCache</a> ()</td></tr>
+<tr class="memdesc:ga6aa55c423349c3200c91a32652683cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a cache for the sweep-line triangulation  <br /></td></tr>
+<tr class="memitem:gaf1407ed99d00015ef1fed87faa3d5d8f" id="r_gaf1407ed99d00015ef1fed87faa3d5d8f"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf1407ed99d00015ef1fed87faa3d5d8f">MR::PlanarTriangulation::triangulateDisjointContours</a> (const <a class="el" href="#ga4bcf38e9e8de19979ccfe5e3eab1967b">Contours2d</a> &amp;contours, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *cache=nullptr)</td></tr>
+<tr class="memdesc:gaf1407ed99d00015ef1fed87faa3d5d8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
+<tr class="memitem:ga818dcd39c8d72c4d2a32fc940d6ad524" id="r_ga818dcd39c8d72c4d2a32fc940d6ad524"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga818dcd39c8d72c4d2a32fc940d6ad524">MR::PlanarTriangulation::triangulateDisjointContours</a> (const <a class="el" href="#ga8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *cache=nullptr)</td></tr>
+<tr class="memitem:ga3b3c6c939868a97b44c3b77793d46515" id="r_ga3b3c6c939868a97b44c3b77793d46515"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3b3c6c939868a97b44c3b77793d46515">MR::PlanarTriangulation::triangulateDisjointContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, WholeEdgeMap *outPatchMap=nullptr, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *cache=nullptr)</td></tr>
+<tr class="memdesc:ga3b3c6c939868a97b44c3b77793d46515"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
+<tr class="memitem:ga2f9e9b49c88ebf29c5a8a41b0659b9a4" id="r_ga2f9e9b49c88ebf29c5a8a41b0659b9a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2f9e9b49c88ebf29c5a8a41b0659b9a4">MR::PlanarTriangulation::triangulateDisjointContoursTopology</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, WholeEdgeMap &amp;outPatchMap, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> &amp;cache)</td></tr>
 <tr class="memitem:ga6bf92ff9850bc3bd73ec9926a31dcfed" id="r_ga6bf92ff9850bc3bd73ec9926a31dcfed"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6bf92ff9850bc3bd73ec9926a31dcfed">MR::PlanarTriangulation::getMonotonePlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>)</td></tr>
 <tr class="memdesc:ga6bf92ff9850bc3bd73ec9926a31dcfed"><td class="mdescLeft">&#160;</td><td class="mdescRight">splits the near-planar region bounded by <code class="param">loops</code> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation  <br /></td></tr>
 <tr class="memitem:ga58f8dd538965bde14c46c2ed60aac1f9" id="r_ga58f8dd538965bde14c46c2ed60aac1f9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga7a0335fa16114969e7f5e031192bf45b">NodeVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga58f8dd538965bde14c46c2ed60aac1f9">MR::AABBTreeBase&lt; T &gt;::nodes</a> () const</td></tr>
@@ -4734,8 +4744,15 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga38f79649d26337fa1b8345a42f09bc6a" id="r_ga38f79649d26337fa1b8345a42f09bc6a"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga38f79649d26337fa1b8345a42f09bc6a">MR::fillContourLeft</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const std::vector&lt; <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;contours)</td></tr>
 <tr class="memitem:gae5df64d06977ab4f0e99d701b9e08047" id="r_gae5df64d06977ab4f0e99d701b9e08047"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae5df64d06977ab4f0e99d701b9e08047">MR::fillContours2D</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges)</td></tr>
 <tr class="memdesc:gae5df64d06977ab4f0e99d701b9e08047"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill holes with border in same plane (i.e. after cut by plane)  <br /></td></tr>
-<tr class="memitem:gaddf2d1d185cf7c81ad935d5ae1404d6d" id="r_gaddf2d1d185cf7c81ad935d5ae1404d6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaddf2d1d185cf7c81ad935d5ae1404d6d">MR::fillContours2DPlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId holeEdgeId)</td></tr>
-<tr class="memdesc:gaddf2d1d185cf7c81ad935d5ae1404d6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare filling plan for hole with border in same plane (i.e. after cut by plane)  <br /></td></tr>
+<tr class="memitem:gac986694dc0a1be93cbbe72137afb0c01" id="r_gac986694dc0a1be93cbbe72137afb0c01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac986694dc0a1be93cbbe72137afb0c01">MR::IFillContours2DPlanCache::IFillContours2DPlanCache</a> ()=default</td></tr>
+<tr class="memitem:gac27fc96190e0e87e2ae498b3e7958c6a" id="r_gac27fc96190e0e87e2ae498b3e7958c6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac27fc96190e0e87e2ae498b3e7958c6a">MR::IFillContours2DPlanCache::IFillContours2DPlanCache</a> (const <a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> &amp;)=delete</td></tr>
+<tr class="memitem:gae172c477a54668981920e53b0b00f142" id="r_gae172c477a54668981920e53b0b00f142"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae172c477a54668981920e53b0b00f142">MR::IFillContours2DPlanCache::operator=</a> (const <a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> &amp;)=delete</td></tr>
+<tr class="memitem:ga0bdf3ace1d0ea134aadd936c4f9ff747" id="r_ga0bdf3ace1d0ea134aadd936c4f9ff747"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0bdf3ace1d0ea134aadd936c4f9ff747">MR::IFillContours2DPlanCache::~IFillContours2DPlanCache</a> ()=0</td></tr>
+<tr class="memdesc:ga0bdf3ace1d0ea134aadd936c4f9ff747"><td class="mdescLeft">&#160;</td><td class="mdescRight">pure to make the class abstract: instances are created by <a class="el" href="#ga4b58b14fd18ff412914c444b5d647659" title="creates a cache for fillContours2DPlan">makeFillContours2DPlanCache()</a> only  <br /></td></tr>
+<tr class="memitem:ga4b58b14fd18ff412914c444b5d647659" id="r_ga4b58b14fd18ff412914c444b5d647659"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b58b14fd18ff412914c444b5d647659">MR::makeFillContours2DPlanCache</a> ()</td></tr>
+<tr class="memdesc:ga4b58b14fd18ff412914c444b5d647659"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a cache for <a class="el" href="#ga88978dc2a299b9b88ea0033da1865186">fillContours2DPlan</a>  <br /></td></tr>
+<tr class="memitem:ga88978dc2a299b9b88ea0033da1865186" id="r_ga88978dc2a299b9b88ea0033da1865186"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga88978dc2a299b9b88ea0033da1865186">MR::fillContours2DPlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId holeEdgeId, <a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> *cache=nullptr)</td></tr>
+<tr class="memdesc:ga88978dc2a299b9b88ea0033da1865186"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare filling plan for hole with border in same plane (i.e. after cut by plane)  <br /></td></tr>
 <tr class="memitem:gaafdd9eb0912943e6c057d7f3fc8d140b" id="r_gaafdd9eb0912943e6c057d7f3fc8d140b"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaafdd9eb0912943e6c057d7f3fc8d140b">MR::getXfFromOxyPlane</a> (const <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> &amp;contours)</td></tr>
 <tr class="memitem:gaaee16285913fcc24c3f7ac59e8f82904" id="r_gaaee16285913fcc24c3f7ac59e8f82904"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaee16285913fcc24c3f7ac59e8f82904">MR::getXfFromOxyPlane</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;paths)</td></tr>
 <tr class="memitem:gaf6bdf308d7a325fb349bc72dc306b788" id="r_gaf6bdf308d7a325fb349bc72dc306b788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf6bdf308d7a325fb349bc72dc306b788">MR::fillPlanarHole</a> (<a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;data, std::vector&lt; <a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; &amp;holeContours)</td></tr>
@@ -68418,8 +68435,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gaddf2d1d185cf7c81ad935d5ae1404d6d" name="gaddf2d1d185cf7c81ad935d5ae1404d6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaddf2d1d185cf7c81ad935d5ae1404d6d">&#9670;&#160;</a></span>fillContours2DPlan()</h2>
+<a id="ga88978dc2a299b9b88ea0033da1865186" name="ga88978dc2a299b9b88ea0033da1865186"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga88978dc2a299b9b88ea0033da1865186">&#9670;&#160;</a></span>fillContours2DPlan()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68432,7 +68449,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>holeEdgeId</em></span>&#160;)</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>holeEdgeId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> *</td>          <td class="paramname"><span class="paramname"><em>cache</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -68444,6 +68466,7 @@ template&lt;typename T&gt; </div>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>- mesh with hole </td></tr>
     <tr><td class="paramname">holeEdgeId</td><td>- the edge here represents a hole borders that should be filled edge should have invalid left face (FaceId == -1) </td></tr>
+    <tr><td class="paramname">cache</td><td>- if not null, keeps the buffers of this call in it, see <a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -89365,7 +89388,7 @@ template&lt;typename T&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">loops</td><td>one closed <a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> of at least 3 edges per boundary of one region, bounding holes of <code class="param">mesh</code> as trackRightBoundaryLoop returns them; which way round a loop runs does not matter </td></tr>
-    <tr><td class="paramname">normal</td><td>the orientation the region is monotone around, see <a class="el" href="#ga6aae14fbc41cd374145370930cb67b4e">triangulateDisjointContours</a> </td></tr>
+    <tr><td class="paramname">normal</td><td>the orientation the region is monotone around, see <a class="el" href="#gaf1407ed99d00015ef1fed87faa3d5d8f">triangulateDisjointContours</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -104124,6 +104147,61 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gac986694dc0a1be93cbbe72137afb0c01" name="gac986694dc0a1be93cbbe72137afb0c01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac986694dc0a1be93cbbe72137afb0c01">&#9670;&#160;</a></span>IFillContours2DPlanCache() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::IFillContours2DPlanCache::IFillContours2DPlanCache </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFillContours2D_8h.html">MRMesh/MRFillContours2D.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gac27fc96190e0e87e2ae498b3e7958c6a" name="gac27fc96190e0e87e2ae498b3e7958c6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac27fc96190e0e87e2ae498b3e7958c6a">&#9670;&#160;</a></span>IFillContours2DPlanCache() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::IFillContours2DPlanCache::IFillContours2DPlanCache </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFillContours2D_8h.html">MRMesh/MRFillContours2D.h</a>&gt;</code></p>
+<p>not copyable: the cache is its owner's private scratch, and a copy would silently duplicate every buffer (this also silences warning C5267 about the user-provided destructor below) </p>
+
+</div>
+</div>
 <a id="gaf2026eeba0e30566834023085a3b9aac" name="gaf2026eeba0e30566834023085a3b9aac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaf2026eeba0e30566834023085a3b9aac">&#9670;&#160;</a></span>ignoreOcclusion()</h2>
 
@@ -111472,6 +111550,61 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
+<a id="gac7ed44839b1ca7e7617e7fa3515aab8c" name="gac7ed44839b1ca7e7617e7fa3515aab8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac7ed44839b1ca7e7617e7fa3515aab8c">&#9670;&#160;</a></span>ISweepLineCache() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::PlanarTriangulation::ISweepLineCache::ISweepLineCache </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga751f460bcb903fdc8e863f6a1681e1b2" name="ga751f460bcb903fdc8e863f6a1681e1b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga751f460bcb903fdc8e863f6a1681e1b2">&#9670;&#160;</a></span>ISweepLineCache() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::PlanarTriangulation::ISweepLineCache::ISweepLineCache </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
+<p>not copyable: the cache is its owner's private scratch, and a copy would silently duplicate every buffer (this also silences warning C5267 about the user-provided destructor below) </p>
+
+</div>
+</div>
 <a id="gad0e22f8a9ddce47d6aab63cfe35ab6bd" name="gad0e22f8a9ddce47d6aab63cfe35ab6bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad0e22f8a9ddce47d6aab63cfe35ab6bd">&#9670;&#160;</a></span>isZeroRadius()</h2>
 
@@ -116516,6 +116649,27 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga4b58b14fd18ff412914c444b5d647659" name="ga4b58b14fd18ff412914c444b5d647659"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4b58b14fd18ff412914c444b5d647659">&#9670;&#160;</a></span>makeFillContours2DPlanCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> &gt; MR::makeFillContours2DPlanCache </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFillContours2D_8h.html">MRMesh/MRFillContours2D.h</a>&gt;</code></p>
+
+<p>creates a cache for <a class="el" href="#ga88978dc2a299b9b88ea0033da1865186">fillContours2DPlan</a> </p>
+
+</div>
+</div>
 <a id="ga6c7c9b7158d19c16a538796d96742fe2" name="ga6c7c9b7158d19c16a538796d96742fe2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga6c7c9b7158d19c16a538796d96742fe2">&#9670;&#160;</a></span>makeFreeFormOriginGrid()</h2>
 
@@ -117504,6 +117658,27 @@ template&lt;typename RenderObjType&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>contour with same number of points and same marked, where each return point tries to be on a smooth curve </dd></dl>
+
+</div>
+</div>
+<a id="ga6aa55c423349c3200c91a32652683cca" name="ga6aa55c423349c3200c91a32652683cca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6aa55c423349c3200c91a32652683cca">&#9670;&#160;</a></span>makeSweepLineCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> &gt; MR::PlanarTriangulation::makeSweepLineCache </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
+
+<p>creates a cache for the sweep-line triangulation </p>
 
 </div>
 </div>
@@ -137033,7 +137208,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga070a922323be7efce55dd8c8690ea31f" name="ga070a922323be7efce55dd8c8690ea31f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga070a922323be7efce55dd8c8690ea31f">&#9670;&#160;</a></span>operator=() <span class="overload">[1/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga070a922323be7efce55dd8c8690ea31f">&#9670;&#160;</a></span>operator=() <span class="overload">[1/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137060,7 +137235,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga5420cacb7b0e5953d10f72c74ca8f91a" name="ga5420cacb7b0e5953d10f72c74ca8f91a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5420cacb7b0e5953d10f72c74ca8f91a">&#9670;&#160;</a></span>operator=() <span class="overload">[2/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5420cacb7b0e5953d10f72c74ca8f91a">&#9670;&#160;</a></span>operator=() <span class="overload">[2/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137087,7 +137262,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga1ca43fe7d75b0248f913382d597ca50c" name="ga1ca43fe7d75b0248f913382d597ca50c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1ca43fe7d75b0248f913382d597ca50c">&#9670;&#160;</a></span>operator=() <span class="overload">[3/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1ca43fe7d75b0248f913382d597ca50c">&#9670;&#160;</a></span>operator=() <span class="overload">[3/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137114,7 +137289,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga5b991fd73a28962d40fc9a290e1c806f" name="ga5b991fd73a28962d40fc9a290e1c806f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5b991fd73a28962d40fc9a290e1c806f">&#9670;&#160;</a></span>operator=() <span class="overload">[4/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5b991fd73a28962d40fc9a290e1c806f">&#9670;&#160;</a></span>operator=() <span class="overload">[4/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137133,7 +137308,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="gaecec1c034a47b9b7d102ba9bf6366869" name="gaecec1c034a47b9b7d102ba9bf6366869"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaecec1c034a47b9b7d102ba9bf6366869">&#9670;&#160;</a></span>operator=() <span class="overload">[5/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaecec1c034a47b9b7d102ba9bf6366869">&#9670;&#160;</a></span>operator=() <span class="overload">[5/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137160,7 +137335,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="gad9e371006af6a03a0cfe38eaeb705a44" name="gad9e371006af6a03a0cfe38eaeb705a44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad9e371006af6a03a0cfe38eaeb705a44">&#9670;&#160;</a></span>operator=() <span class="overload">[6/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad9e371006af6a03a0cfe38eaeb705a44">&#9670;&#160;</a></span>operator=() <span class="overload">[6/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137187,7 +137362,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga9b1ac7e192d228a673f6f986c31e3cc5" name="ga9b1ac7e192d228a673f6f986c31e3cc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9b1ac7e192d228a673f6f986c31e3cc5">&#9670;&#160;</a></span>operator=() <span class="overload">[7/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b1ac7e192d228a673f6f986c31e3cc5">&#9670;&#160;</a></span>operator=() <span class="overload">[7/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137216,7 +137391,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gacb1826dab20e4f01008b7f825c8e9ac5" name="gacb1826dab20e4f01008b7f825c8e9ac5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacb1826dab20e4f01008b7f825c8e9ac5">&#9670;&#160;</a></span>operator=() <span class="overload">[8/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacb1826dab20e4f01008b7f825c8e9ac5">&#9670;&#160;</a></span>operator=() <span class="overload">[8/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137245,7 +137420,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gae4cd26a146e8e880ab41c0d4a04df064" name="gae4cd26a146e8e880ab41c0d4a04df064"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae4cd26a146e8e880ab41c0d4a04df064">&#9670;&#160;</a></span>operator=() <span class="overload">[9/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae4cd26a146e8e880ab41c0d4a04df064">&#9670;&#160;</a></span>operator=() <span class="overload">[9/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137272,7 +137447,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gae03db3414263164b9321a4ed5d41838a" name="gae03db3414263164b9321a4ed5d41838a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae03db3414263164b9321a4ed5d41838a">&#9670;&#160;</a></span>operator=() <span class="overload">[10/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae03db3414263164b9321a4ed5d41838a">&#9670;&#160;</a></span>operator=() <span class="overload">[10/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137299,7 +137474,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga0f482dbbdc6658514696e4dc9294a58a" name="ga0f482dbbdc6658514696e4dc9294a58a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0f482dbbdc6658514696e4dc9294a58a">&#9670;&#160;</a></span>operator=() <span class="overload">[11/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0f482dbbdc6658514696e4dc9294a58a">&#9670;&#160;</a></span>operator=() <span class="overload">[11/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137326,7 +137501,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gaed2d23faa5e35c40c16b5ab5550ed022" name="gaed2d23faa5e35c40c16b5ab5550ed022"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaed2d23faa5e35c40c16b5ab5550ed022">&#9670;&#160;</a></span>operator=() <span class="overload">[12/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed2d23faa5e35c40c16b5ab5550ed022">&#9670;&#160;</a></span>operator=() <span class="overload">[12/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137353,7 +137528,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gae8bd5243efd5066d7b24657c23126e25" name="gae8bd5243efd5066d7b24657c23126e25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae8bd5243efd5066d7b24657c23126e25">&#9670;&#160;</a></span>operator=() <span class="overload">[13/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae8bd5243efd5066d7b24657c23126e25">&#9670;&#160;</a></span>operator=() <span class="overload">[13/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137380,7 +137555,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gafa02a2926481fdba8023d277e998fb15" name="gafa02a2926481fdba8023d277e998fb15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafa02a2926481fdba8023d277e998fb15">&#9670;&#160;</a></span>operator=() <span class="overload">[14/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa02a2926481fdba8023d277e998fb15">&#9670;&#160;</a></span>operator=() <span class="overload">[14/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137407,7 +137582,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga30e0967b694b072f61a810e93ccd63c6" name="ga30e0967b694b072f61a810e93ccd63c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga30e0967b694b072f61a810e93ccd63c6">&#9670;&#160;</a></span>operator=() <span class="overload">[15/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga30e0967b694b072f61a810e93ccd63c6">&#9670;&#160;</a></span>operator=() <span class="overload">[15/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137434,7 +137609,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga0e75b59b59d0598284793e8509995bfe" name="ga0e75b59b59d0598284793e8509995bfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0e75b59b59d0598284793e8509995bfe">&#9670;&#160;</a></span>operator=() <span class="overload">[16/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e75b59b59d0598284793e8509995bfe">&#9670;&#160;</a></span>operator=() <span class="overload">[16/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137461,7 +137636,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga9ca34a6881807130cc132c87a37daf12" name="ga9ca34a6881807130cc132c87a37daf12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9ca34a6881807130cc132c87a37daf12">&#9670;&#160;</a></span>operator=() <span class="overload">[17/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ca34a6881807130cc132c87a37daf12">&#9670;&#160;</a></span>operator=() <span class="overload">[17/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137488,7 +137663,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga05f06d3436cf85a666543f93bc516284" name="ga05f06d3436cf85a666543f93bc516284"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga05f06d3436cf85a666543f93bc516284">&#9670;&#160;</a></span>operator=() <span class="overload">[18/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga05f06d3436cf85a666543f93bc516284">&#9670;&#160;</a></span>operator=() <span class="overload">[18/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137517,7 +137692,7 @@ template&lt;typename R, typename... Args&gt; </div>
 </div>
 </div>
 <a id="ga4d911f9ae8f1bfe18be5cfe46e516ee4" name="ga4d911f9ae8f1bfe18be5cfe46e516ee4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4d911f9ae8f1bfe18be5cfe46e516ee4">&#9670;&#160;</a></span>operator=() <span class="overload">[19/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4d911f9ae8f1bfe18be5cfe46e516ee4">&#9670;&#160;</a></span>operator=() <span class="overload">[19/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137548,7 +137723,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="gaa86bea902bbc968c22771410b0e0e5b0" name="gaa86bea902bbc968c22771410b0e0e5b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa86bea902bbc968c22771410b0e0e5b0">&#9670;&#160;</a></span>operator=() <span class="overload">[20/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa86bea902bbc968c22771410b0e0e5b0">&#9670;&#160;</a></span>operator=() <span class="overload">[20/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137575,7 +137750,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="gac1f71cc8ecd3ae4b03b5b162ada7b3fa" name="gac1f71cc8ecd3ae4b03b5b162ada7b3fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac1f71cc8ecd3ae4b03b5b162ada7b3fa">&#9670;&#160;</a></span>operator=() <span class="overload">[21/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac1f71cc8ecd3ae4b03b5b162ada7b3fa">&#9670;&#160;</a></span>operator=() <span class="overload">[21/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137602,7 +137777,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="gac05f999428948991b9e2451bf4d1cf19" name="gac05f999428948991b9e2451bf4d1cf19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac05f999428948991b9e2451bf4d1cf19">&#9670;&#160;</a></span>operator=() <span class="overload">[22/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac05f999428948991b9e2451bf4d1cf19">&#9670;&#160;</a></span>operator=() <span class="overload">[22/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137629,7 +137804,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="ga04a1b44a9277a7f2dad9ca4c4ea14815" name="ga04a1b44a9277a7f2dad9ca4c4ea14815"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga04a1b44a9277a7f2dad9ca4c4ea14815">&#9670;&#160;</a></span>operator=() <span class="overload">[23/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga04a1b44a9277a7f2dad9ca4c4ea14815">&#9670;&#160;</a></span>operator=() <span class="overload">[23/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137655,8 +137830,35 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 
 </div>
 </div>
+<a id="gae172c477a54668981920e53b0b00f142" name="gae172c477a54668981920e53b0b00f142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae172c477a54668981920e53b0b00f142">&#9670;&#160;</a></span>operator=() <span class="overload">[24/75]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> &amp; MR::IFillContours2DPlanCache::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFillContours2D_8h.html">MRMesh/MRFillContours2D.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gabb689ad7795aaeb7236800bec89a0cab" name="gabb689ad7795aaeb7236800bec89a0cab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabb689ad7795aaeb7236800bec89a0cab">&#9670;&#160;</a></span>operator=() <span class="overload">[24/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb689ad7795aaeb7236800bec89a0cab">&#9670;&#160;</a></span>operator=() <span class="overload">[25/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137683,7 +137885,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="gab45a73b14fac3dc080a3e99e4070de26" name="gab45a73b14fac3dc080a3e99e4070de26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab45a73b14fac3dc080a3e99e4070de26">&#9670;&#160;</a></span>operator=() <span class="overload">[25/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab45a73b14fac3dc080a3e99e4070de26">&#9670;&#160;</a></span>operator=() <span class="overload">[26/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137710,7 +137912,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="gab5915cce854bcb4f57f7e00bba6cb20e" name="gab5915cce854bcb4f57f7e00bba6cb20e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab5915cce854bcb4f57f7e00bba6cb20e">&#9670;&#160;</a></span>operator=() <span class="overload">[26/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab5915cce854bcb4f57f7e00bba6cb20e">&#9670;&#160;</a></span>operator=() <span class="overload">[27/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137737,7 +137939,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="ga0440d8357dd92c859ead3bb3c486be5e" name="ga0440d8357dd92c859ead3bb3c486be5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0440d8357dd92c859ead3bb3c486be5e">&#9670;&#160;</a></span>operator=() <span class="overload">[27/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0440d8357dd92c859ead3bb3c486be5e">&#9670;&#160;</a></span>operator=() <span class="overload">[28/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137764,7 +137966,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="ga8fbe26bcbe7891c7be47fb330920e3b4" name="ga8fbe26bcbe7891c7be47fb330920e3b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8fbe26bcbe7891c7be47fb330920e3b4">&#9670;&#160;</a></span>operator=() <span class="overload">[28/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8fbe26bcbe7891c7be47fb330920e3b4">&#9670;&#160;</a></span>operator=() <span class="overload">[29/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137794,7 +137996,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gabb7351b3a06553b474e90d20d68efc30" name="gabb7351b3a06553b474e90d20d68efc30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabb7351b3a06553b474e90d20d68efc30">&#9670;&#160;</a></span>operator=() <span class="overload">[29/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb7351b3a06553b474e90d20d68efc30">&#9670;&#160;</a></span>operator=() <span class="overload">[30/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137821,7 +138023,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gaccbf59471a9ce12f038a0358ae18405b" name="gaccbf59471a9ce12f038a0358ae18405b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaccbf59471a9ce12f038a0358ae18405b">&#9670;&#160;</a></span>operator=() <span class="overload">[30/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaccbf59471a9ce12f038a0358ae18405b">&#9670;&#160;</a></span>operator=() <span class="overload">[31/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137848,7 +138050,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gad1905b7160fa76212ab3913f59d132ce" name="gad1905b7160fa76212ab3913f59d132ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad1905b7160fa76212ab3913f59d132ce">&#9670;&#160;</a></span>operator=() <span class="overload">[31/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1905b7160fa76212ab3913f59d132ce">&#9670;&#160;</a></span>operator=() <span class="overload">[32/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137875,7 +138077,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga6079e4aac0a4e04a8055a9f639264096" name="ga6079e4aac0a4e04a8055a9f639264096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6079e4aac0a4e04a8055a9f639264096">&#9670;&#160;</a></span>operator=() <span class="overload">[32/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6079e4aac0a4e04a8055a9f639264096">&#9670;&#160;</a></span>operator=() <span class="overload">[33/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137902,7 +138104,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gadf86e3267eaf731978a882003b39b9b6" name="gadf86e3267eaf731978a882003b39b9b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadf86e3267eaf731978a882003b39b9b6">&#9670;&#160;</a></span>operator=() <span class="overload">[33/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadf86e3267eaf731978a882003b39b9b6">&#9670;&#160;</a></span>operator=() <span class="overload">[34/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137929,7 +138131,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga964bd7e09c026c38216e2e84b35c1422" name="ga964bd7e09c026c38216e2e84b35c1422"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga964bd7e09c026c38216e2e84b35c1422">&#9670;&#160;</a></span>operator=() <span class="overload">[34/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga964bd7e09c026c38216e2e84b35c1422">&#9670;&#160;</a></span>operator=() <span class="overload">[35/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137956,7 +138158,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga0e9dc3b13cbd0cb09a69c514d5291c09" name="ga0e9dc3b13cbd0cb09a69c514d5291c09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0e9dc3b13cbd0cb09a69c514d5291c09">&#9670;&#160;</a></span>operator=() <span class="overload">[35/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e9dc3b13cbd0cb09a69c514d5291c09">&#9670;&#160;</a></span>operator=() <span class="overload">[36/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137983,7 +138185,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga50aaf3757356ccffb73f014770fa24e4" name="ga50aaf3757356ccffb73f014770fa24e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga50aaf3757356ccffb73f014770fa24e4">&#9670;&#160;</a></span>operator=() <span class="overload">[36/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga50aaf3757356ccffb73f014770fa24e4">&#9670;&#160;</a></span>operator=() <span class="overload">[37/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138010,7 +138212,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gae26c6b747a929751fcc5ad90b70b9d66" name="gae26c6b747a929751fcc5ad90b70b9d66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae26c6b747a929751fcc5ad90b70b9d66">&#9670;&#160;</a></span>operator=() <span class="overload">[37/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae26c6b747a929751fcc5ad90b70b9d66">&#9670;&#160;</a></span>operator=() <span class="overload">[38/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138037,7 +138239,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga399c6bd6321c060f5c6faffab0095bed" name="ga399c6bd6321c060f5c6faffab0095bed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga399c6bd6321c060f5c6faffab0095bed">&#9670;&#160;</a></span>operator=() <span class="overload">[38/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga399c6bd6321c060f5c6faffab0095bed">&#9670;&#160;</a></span>operator=() <span class="overload">[39/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138064,7 +138266,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga90e2e79193a58687ce5b39eda75dba30" name="ga90e2e79193a58687ce5b39eda75dba30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga90e2e79193a58687ce5b39eda75dba30">&#9670;&#160;</a></span>operator=() <span class="overload">[39/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga90e2e79193a58687ce5b39eda75dba30">&#9670;&#160;</a></span>operator=() <span class="overload">[40/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138091,7 +138293,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga9b6725a731d27509c295fc3a0acd2bfd" name="ga9b6725a731d27509c295fc3a0acd2bfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9b6725a731d27509c295fc3a0acd2bfd">&#9670;&#160;</a></span>operator=() <span class="overload">[40/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b6725a731d27509c295fc3a0acd2bfd">&#9670;&#160;</a></span>operator=() <span class="overload">[41/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138118,7 +138320,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga5831e567d62ac9ac7959897b98ee75ae" name="ga5831e567d62ac9ac7959897b98ee75ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5831e567d62ac9ac7959897b98ee75ae">&#9670;&#160;</a></span>operator=() <span class="overload">[41/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5831e567d62ac9ac7959897b98ee75ae">&#9670;&#160;</a></span>operator=() <span class="overload">[42/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138145,7 +138347,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga704442d942ed959e077e867fd13df5ef" name="ga704442d942ed959e077e867fd13df5ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga704442d942ed959e077e867fd13df5ef">&#9670;&#160;</a></span>operator=() <span class="overload">[42/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga704442d942ed959e077e867fd13df5ef">&#9670;&#160;</a></span>operator=() <span class="overload">[43/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138172,7 +138374,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga2f2260ca64565ffbedc9236f28e19b98" name="ga2f2260ca64565ffbedc9236f28e19b98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2f2260ca64565ffbedc9236f28e19b98">&#9670;&#160;</a></span>operator=() <span class="overload">[43/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f2260ca64565ffbedc9236f28e19b98">&#9670;&#160;</a></span>operator=() <span class="overload">[44/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138199,7 +138401,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga4f6e5b9408dbe06b4b1b129238cc298e" name="ga4f6e5b9408dbe06b4b1b129238cc298e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4f6e5b9408dbe06b4b1b129238cc298e">&#9670;&#160;</a></span>operator=() <span class="overload">[44/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f6e5b9408dbe06b4b1b129238cc298e">&#9670;&#160;</a></span>operator=() <span class="overload">[45/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138225,8 +138427,35 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 
 </div>
 </div>
+<a id="ga9380ca590b2600cc64a333d4892f2ef1" name="ga9380ca590b2600cc64a333d4892f2ef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9380ca590b2600cc64a333d4892f2ef1">&#9670;&#160;</a></span>operator=() <span class="overload">[46/75]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> &amp; MR::PlanarTriangulation::ISweepLineCache::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gadaeb5cfe07e0bb5c613eeb2c30a67950" name="gadaeb5cfe07e0bb5c613eeb2c30a67950"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadaeb5cfe07e0bb5c613eeb2c30a67950">&#9670;&#160;</a></span>operator=() <span class="overload">[45/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadaeb5cfe07e0bb5c613eeb2c30a67950">&#9670;&#160;</a></span>operator=() <span class="overload">[47/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138253,7 +138482,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga15a31f379a5e9fe7e7f2c58e7e1b0207" name="ga15a31f379a5e9fe7e7f2c58e7e1b0207"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga15a31f379a5e9fe7e7f2c58e7e1b0207">&#9670;&#160;</a></span>operator=() <span class="overload">[46/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga15a31f379a5e9fe7e7f2c58e7e1b0207">&#9670;&#160;</a></span>operator=() <span class="overload">[48/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138281,7 +138510,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga04651779fcd30d074c04198375b93a5c" name="ga04651779fcd30d074c04198375b93a5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga04651779fcd30d074c04198375b93a5c">&#9670;&#160;</a></span>operator=() <span class="overload">[47/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga04651779fcd30d074c04198375b93a5c">&#9670;&#160;</a></span>operator=() <span class="overload">[49/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138308,7 +138537,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gae0b89143bda253553841055632c8f8bd" name="gae0b89143bda253553841055632c8f8bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae0b89143bda253553841055632c8f8bd">&#9670;&#160;</a></span>operator=() <span class="overload">[48/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae0b89143bda253553841055632c8f8bd">&#9670;&#160;</a></span>operator=() <span class="overload">[50/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138335,7 +138564,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga7f6c27b4d8d26bfca58a49fc3a614732" name="ga7f6c27b4d8d26bfca58a49fc3a614732"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7f6c27b4d8d26bfca58a49fc3a614732">&#9670;&#160;</a></span>operator=() <span class="overload">[49/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f6c27b4d8d26bfca58a49fc3a614732">&#9670;&#160;</a></span>operator=() <span class="overload">[51/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138362,7 +138591,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga881370b0a38e287dc6a8ef290f2747e6" name="ga881370b0a38e287dc6a8ef290f2747e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga881370b0a38e287dc6a8ef290f2747e6">&#9670;&#160;</a></span>operator=() <span class="overload">[50/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga881370b0a38e287dc6a8ef290f2747e6">&#9670;&#160;</a></span>operator=() <span class="overload">[52/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138389,7 +138618,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gaf5adb3060c521b2e091eff673e8780ce" name="gaf5adb3060c521b2e091eff673e8780ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf5adb3060c521b2e091eff673e8780ce">&#9670;&#160;</a></span>operator=() <span class="overload">[51/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf5adb3060c521b2e091eff673e8780ce">&#9670;&#160;</a></span>operator=() <span class="overload">[53/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138416,7 +138645,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga3e74b18bef132d73cfbd57d646961b95" name="ga3e74b18bef132d73cfbd57d646961b95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3e74b18bef132d73cfbd57d646961b95">&#9670;&#160;</a></span>operator=() <span class="overload">[52/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3e74b18bef132d73cfbd57d646961b95">&#9670;&#160;</a></span>operator=() <span class="overload">[54/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138443,7 +138672,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gaea174e0acc86ab90ebe3d0b222305838" name="gaea174e0acc86ab90ebe3d0b222305838"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaea174e0acc86ab90ebe3d0b222305838">&#9670;&#160;</a></span>operator=() <span class="overload">[53/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaea174e0acc86ab90ebe3d0b222305838">&#9670;&#160;</a></span>operator=() <span class="overload">[55/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138472,7 +138701,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad2ac352405fa0b18359e9604a84d95eb" name="gad2ac352405fa0b18359e9604a84d95eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad2ac352405fa0b18359e9604a84d95eb">&#9670;&#160;</a></span>operator=() <span class="overload">[54/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad2ac352405fa0b18359e9604a84d95eb">&#9670;&#160;</a></span>operator=() <span class="overload">[56/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138501,7 +138730,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga69ea1c4cfb77f79ea8c163ceb39ef970" name="ga69ea1c4cfb77f79ea8c163ceb39ef970"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga69ea1c4cfb77f79ea8c163ceb39ef970">&#9670;&#160;</a></span>operator=() <span class="overload">[55/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga69ea1c4cfb77f79ea8c163ceb39ef970">&#9670;&#160;</a></span>operator=() <span class="overload">[57/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138530,7 +138759,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafc914c440e4c94f219e3d213905b1edb" name="gafc914c440e4c94f219e3d213905b1edb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafc914c440e4c94f219e3d213905b1edb">&#9670;&#160;</a></span>operator=() <span class="overload">[56/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafc914c440e4c94f219e3d213905b1edb">&#9670;&#160;</a></span>operator=() <span class="overload">[58/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138557,7 +138786,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gade58c0ef13c1a69cfb93d12cf35bc0f1" name="gade58c0ef13c1a69cfb93d12cf35bc0f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gade58c0ef13c1a69cfb93d12cf35bc0f1">&#9670;&#160;</a></span>operator=() <span class="overload">[57/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gade58c0ef13c1a69cfb93d12cf35bc0f1">&#9670;&#160;</a></span>operator=() <span class="overload">[59/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138584,7 +138813,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga21967781082125022521f93f1cd916f4" name="ga21967781082125022521f93f1cd916f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga21967781082125022521f93f1cd916f4">&#9670;&#160;</a></span>operator=() <span class="overload">[58/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga21967781082125022521f93f1cd916f4">&#9670;&#160;</a></span>operator=() <span class="overload">[60/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138611,7 +138840,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gabe032465a924da8e89497c48367273a5" name="gabe032465a924da8e89497c48367273a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabe032465a924da8e89497c48367273a5">&#9670;&#160;</a></span>operator=() <span class="overload">[59/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe032465a924da8e89497c48367273a5">&#9670;&#160;</a></span>operator=() <span class="overload">[61/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138638,7 +138867,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad472a32e4da24e2c6a9a3cf0a5b4ff3b" name="gad472a32e4da24e2c6a9a3cf0a5b4ff3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad472a32e4da24e2c6a9a3cf0a5b4ff3b">&#9670;&#160;</a></span>operator=() <span class="overload">[60/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad472a32e4da24e2c6a9a3cf0a5b4ff3b">&#9670;&#160;</a></span>operator=() <span class="overload">[62/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138665,7 +138894,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga686800cf738a0eed6cba651c112745b3" name="ga686800cf738a0eed6cba651c112745b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga686800cf738a0eed6cba651c112745b3">&#9670;&#160;</a></span>operator=() <span class="overload">[61/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga686800cf738a0eed6cba651c112745b3">&#9670;&#160;</a></span>operator=() <span class="overload">[63/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138692,7 +138921,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafd2182a569c18420a6c4b56bfccf1159" name="gafd2182a569c18420a6c4b56bfccf1159"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafd2182a569c18420a6c4b56bfccf1159">&#9670;&#160;</a></span>operator=() <span class="overload">[62/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafd2182a569c18420a6c4b56bfccf1159">&#9670;&#160;</a></span>operator=() <span class="overload">[64/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138719,7 +138948,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga98d1be64f282627eb49ed2944adb718b" name="ga98d1be64f282627eb49ed2944adb718b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga98d1be64f282627eb49ed2944adb718b">&#9670;&#160;</a></span>operator=() <span class="overload">[63/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga98d1be64f282627eb49ed2944adb718b">&#9670;&#160;</a></span>operator=() <span class="overload">[65/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138746,7 +138975,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaab2ceb1171b2a26773ddd20b58e22a85" name="gaab2ceb1171b2a26773ddd20b58e22a85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaab2ceb1171b2a26773ddd20b58e22a85">&#9670;&#160;</a></span>operator=() <span class="overload">[64/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaab2ceb1171b2a26773ddd20b58e22a85">&#9670;&#160;</a></span>operator=() <span class="overload">[66/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138775,7 +139004,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga12789ea5c04ee7a92d7b00755508df3f" name="ga12789ea5c04ee7a92d7b00755508df3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga12789ea5c04ee7a92d7b00755508df3f">&#9670;&#160;</a></span>operator=() <span class="overload">[65/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga12789ea5c04ee7a92d7b00755508df3f">&#9670;&#160;</a></span>operator=() <span class="overload">[67/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138804,7 +139033,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga42efa327646696f0d3cafc2f14acb727" name="ga42efa327646696f0d3cafc2f14acb727"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga42efa327646696f0d3cafc2f14acb727">&#9670;&#160;</a></span>operator=() <span class="overload">[66/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga42efa327646696f0d3cafc2f14acb727">&#9670;&#160;</a></span>operator=() <span class="overload">[68/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138833,7 +139062,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga18f05667e76ccc9a5c5ef69bd3584e26" name="ga18f05667e76ccc9a5c5ef69bd3584e26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga18f05667e76ccc9a5c5ef69bd3584e26">&#9670;&#160;</a></span>operator=() <span class="overload">[67/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga18f05667e76ccc9a5c5ef69bd3584e26">&#9670;&#160;</a></span>operator=() <span class="overload">[69/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138860,7 +139089,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga61854bf3fe886747be7d3c8ffe57841d" name="ga61854bf3fe886747be7d3c8ffe57841d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga61854bf3fe886747be7d3c8ffe57841d">&#9670;&#160;</a></span>operator=() <span class="overload">[68/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61854bf3fe886747be7d3c8ffe57841d">&#9670;&#160;</a></span>operator=() <span class="overload">[70/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138887,7 +139116,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gabe2f2d2fe99553548fc2b3f3a9f3d4b8" name="gabe2f2d2fe99553548fc2b3f3a9f3d4b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabe2f2d2fe99553548fc2b3f3a9f3d4b8">&#9670;&#160;</a></span>operator=() <span class="overload">[69/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe2f2d2fe99553548fc2b3f3a9f3d4b8">&#9670;&#160;</a></span>operator=() <span class="overload">[71/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138914,7 +139143,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaf6d0b135cd7ea98a92eac23f1bac3642" name="gaf6d0b135cd7ea98a92eac23f1bac3642"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf6d0b135cd7ea98a92eac23f1bac3642">&#9670;&#160;</a></span>operator=() <span class="overload">[70/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf6d0b135cd7ea98a92eac23f1bac3642">&#9670;&#160;</a></span>operator=() <span class="overload">[72/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138941,7 +139170,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga1540ae57916ae7af3244396a8443ff87" name="ga1540ae57916ae7af3244396a8443ff87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1540ae57916ae7af3244396a8443ff87">&#9670;&#160;</a></span>operator=() <span class="overload">[71/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1540ae57916ae7af3244396a8443ff87">&#9670;&#160;</a></span>operator=() <span class="overload">[73/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138968,7 +139197,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gac3bc0c5c28107a3a11a89d8b43373be0" name="gac3bc0c5c28107a3a11a89d8b43373be0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac3bc0c5c28107a3a11a89d8b43373be0">&#9670;&#160;</a></span>operator=() <span class="overload">[72/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac3bc0c5c28107a3a11a89d8b43373be0">&#9670;&#160;</a></span>operator=() <span class="overload">[74/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138997,7 +139226,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga51e46bdba8b867ecd3c48d42a29c6aac" name="ga51e46bdba8b867ecd3c48d42a29c6aac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga51e46bdba8b867ecd3c48d42a29c6aac">&#9670;&#160;</a></span>operator=() <span class="overload">[73/73]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga51e46bdba8b867ecd3c48d42a29c6aac">&#9670;&#160;</a></span>operator=() <span class="overload">[75/75]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186881,8 +187110,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga6aae14fbc41cd374145370930cb67b4e" name="ga6aae14fbc41cd374145370930cb67b4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6aae14fbc41cd374145370930cb67b4e">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[1/3]</span></h2>
+<a id="gaf1407ed99d00015ef1fed87faa3d5d8f" name="gaf1407ed99d00015ef1fed87faa3d5d8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf1407ed99d00015ef1fed87faa3d5d8f">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186890,8 +187119,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::PlanarTriangulation::triangulateDisjointContours </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#ga4bcf38e9e8de19979ccfe5e3eab1967b">Contours2d</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>contours</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#ga4bcf38e9e8de19979ccfe5e3eab1967b">Contours2d</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *</td>          <td class="paramname"><span class="paramname"><em>cache</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -186903,8 +187136,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gac8b02e76a3739230980adf2a19f9fc63" name="gac8b02e76a3739230980adf2a19f9fc63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac8b02e76a3739230980adf2a19f9fc63">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[2/3]</span></h2>
+<a id="ga818dcd39c8d72c4d2a32fc940d6ad524" name="ga818dcd39c8d72c4d2a32fc940d6ad524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga818dcd39c8d72c4d2a32fc940d6ad524">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186912,8 +187145,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::PlanarTriangulation::triangulateDisjointContours </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#ga8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>contours</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#ga8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *</td>          <td class="paramname"><span class="paramname"><em>cache</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -186922,8 +187159,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gaa7fbba3ab7f376375bbede5a59a05768" name="gaa7fbba3ab7f376375bbede5a59a05768"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa7fbba3ab7f376375bbede5a59a05768">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[3/3]</span></h2>
+<a id="ga3b3c6c939868a97b44c3b77793d46515" name="ga3b3c6c939868a97b44c3b77793d46515"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b3c6c939868a97b44c3b77793d46515">&#9670;&#160;</a></span>triangulateDisjointContours() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186946,7 +187183,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">WholeEdgeMap *</td>          <td class="paramname"><span class="paramname"><em>outPatchMap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">WholeEdgeMap *</td>          <td class="paramname"><span class="paramname"><em>outPatchMap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *</td>          <td class="paramname"><span class="paramname"><em>cache</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -186962,6 +187204,45 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>std::nullopt if the loops self-intersect, otherwise the patch mesh </dd></dl>
+
+</div>
+</div>
+<a id="ga2f9e9b49c88ebf29c5a8a41b0659b9a4" name="ga2f9e9b49c88ebf29c5a8a41b0659b9a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f9e9b49c88ebf29c5a8a41b0659b9a4">&#9670;&#160;</a></span>triangulateDisjointContoursTopology()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> * MR::PlanarTriangulation::triangulateDisjointContoursTopology </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loops</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">WholeEdgeMap &amp;</td>          <td class="paramname"><span class="paramname"><em>outPatchMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cache</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
+<p>same as triangulateDisjointContours( mesh, loops, normal, &amp;outPatchMap ) above, but returns only the patch connectivity, which lives inside <code class="param">cache</code> until the next run on it, and no vertex coordinates; intended for planning </p><dl class="section return"><dt>Returns</dt><dd>nullptr if the loops self-intersect; an empty topology if <code class="param">loops</code> is empty This is skipped in the bindings: the result points inside the cache and must not outlive it. </dd></dl>
 
 </div>
 </div>
@@ -197699,6 +197980,35 @@ template&lt;class HistoryActionType&gt; </div>
 
 </div>
 </div>
+<a id="ga0bdf3ace1d0ea134aadd936c4f9ff747" name="ga0bdf3ace1d0ea134aadd936c4f9ff747"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0bdf3ace1d0ea134aadd936c4f9ff747">&#9670;&#160;</a></span>~IFillContours2DPlanCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MR::IFillContours2DPlanCache::~IFillContours2DPlanCache </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFillContours2D_8h.html">MRMesh/MRFillContours2D.h</a>&gt;</code></p>
+
+<p>pure to make the class abstract: instances are created by <a class="el" href="#ga4b58b14fd18ff412914c444b5d647659" title="creates a cache for fillContours2DPlan">makeFillContours2DPlanCache()</a> only </p>
+
+</div>
+</div>
 <a id="ga68616944ac0168797fb2fece7d28f477" name="ga68616944ac0168797fb2fece7d28f477"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga68616944ac0168797fb2fece7d28f477">&#9670;&#160;</a></span>~IICPTreeIndexer()</h2>
 
@@ -197966,6 +198276,35 @@ template&lt;class HistoryActionType&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRNormalsToPoints_8h.html">MRMesh/MRNormalsToPoints.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga7515177ffb82bd098525ebe56ec7e05b" name="ga7515177ffb82bd098525ebe56ec7e05b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7515177ffb82bd098525ebe56ec7e05b">&#9670;&#160;</a></span>~ISweepLineCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MR::PlanarTriangulation::ISweepLineCache::~ISweepLineCache </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
+
+<p>pure to make the class abstract: instances are created by <a class="el" href="#ga6aa55c423349c3200c91a32652683cca" title="creates a cache for the sweep-line triangulation">makeSweepLineCache()</a> only </p>
 
 </div>
 </div>

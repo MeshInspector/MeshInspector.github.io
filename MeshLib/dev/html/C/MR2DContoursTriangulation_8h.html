@@ -173,6 +173,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a7cc04c912771d8ecdeac92a3fd49e1be" id="r_a7cc04c912771d8ecdeac92a3fd49e1be"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc04c912771d8ecdeac92a3fd49e1be">MR_PlanarTriangulation_BaseOutlineParameters</a></td></tr>
 <tr class="memitem:a28d6175ed8fd5f5c9198db6604483f5a" id="r_a28d6175ed8fd5f5c9198db6604483f5a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a28d6175ed8fd5f5c9198db6604483f5a">MR_PlanarTriangulation_OutlineParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28d6175ed8fd5f5c9198db6604483f5a">MR_PlanarTriangulation_OutlineParameters</a></td></tr>
 <tr class="memitem:a6f87d845f030de3ef4ba6630e67bae6d" id="r_a6f87d845f030de3ef4ba6630e67bae6d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6f87d845f030de3ef4ba6630e67bae6d">MR_PlanarTriangulation_TriangulationParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f87d845f030de3ef4ba6630e67bae6d">MR_PlanarTriangulation_TriangulationParameters</a></td></tr>
+<tr class="memitem:aa3e2d47169e39ff9786e16d91f8f703c" id="r_aa3e2d47169e39ff9786e16d91f8f703c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -289,11 +290,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a3a93a72835f2e55ee9b4e7a5f723fc96" id="r_a3a93a72835f2e55ee9b4e7a5f723fc96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a93a72835f2e55ee9b4e7a5f723fc96">MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *contours, const <a class="el" href="#a6f87d845f030de3ef4ba6630e67bae6d">MR_PlanarTriangulation_TriangulationParameters</a> *params)</td></tr>
 <tr class="memdesc:a3a93a72835f2e55ee9b4e7a5f723fc96"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
 <tr class="memitem:ae50a0bbb7b2b7be040819f554cf7d2a8" id="r_ae50a0bbb7b2b7be040819f554cf7d2a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae50a0bbb7b2b7be040819f554cf7d2a8">MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, const <a class="el" href="#a6f87d845f030de3ef4ba6630e67bae6d">MR_PlanarTriangulation_TriangulationParameters</a> *params)</td></tr>
-<tr class="memitem:ae16ead891c65a3e38f6e407a13210930" id="r_ae16ead891c65a3e38f6e407a13210930"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae16ead891c65a3e38f6e407a13210930">MR_PlanarTriangulation_triangulateDisjointContours_1_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *contours)</td></tr>
-<tr class="memdesc:ae16ead891c65a3e38f6e407a13210930"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
-<tr class="memitem:ac412e95881d088ecc7116e3e563a176a" id="r_ac412e95881d088ecc7116e3e563a176a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac412e95881d088ecc7116e3e563a176a">MR_PlanarTriangulation_triangulateDisjointContours_1_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours)</td></tr>
-<tr class="memitem:a77e9803ea01cb9d26bcd752b6e90a4fe" id="r_a77e9803ea01cb9d26bcd752b6e90a4fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77e9803ea01cb9d26bcd752b6e90a4fe">MR_PlanarTriangulation_triangulateDisjointContours_4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *loops, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *normal, <a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *outPatchMap)</td></tr>
-<tr class="memdesc:a77e9803ea01cb9d26bcd752b6e90a4fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
+<tr class="memitem:a4a445fd5df9811d82c18e576ca1f302f" id="r_a4a445fd5df9811d82c18e576ca1f302f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a445fd5df9811d82c18e576ca1f302f">MR_PlanarTriangulation_ISweepLineCache_Destroy</a> (const <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *_this)</td></tr>
+<tr class="memdesc:a4a445fd5df9811d82c18e576ca1f302f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a6bda75cb2181d78f962387ea117dc86c" id="r_a6bda75cb2181d78f962387ea117dc86c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bda75cb2181d78f962387ea117dc86c">MR_PlanarTriangulation_ISweepLineCache_DestroyArray</a> (const <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *_this)</td></tr>
+<tr class="memdesc:a6bda75cb2181d78f962387ea117dc86c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:ab660c44aaa28f7c19a6e4e0047e96177" id="r_ab660c44aaa28f7c19a6e4e0047e96177"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab660c44aaa28f7c19a6e4e0047e96177">MR_PlanarTriangulation_ISweepLineCache_OffsetPtr</a> (const <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:af9829dd2804120bb387c8b05effd9b8c" id="r_af9829dd2804120bb387c8b05effd9b8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9829dd2804120bb387c8b05effd9b8c">MR_PlanarTriangulation_ISweepLineCache_OffsetMutablePtr</a> (<a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:aa108b08b99f72824a38a032d6165f61d" id="r_aa108b08b99f72824a38a032d6165f61d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa108b08b99f72824a38a032d6165f61d">MR_PlanarTriangulation_triangulateDisjointContours_2_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *contours, <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *cache)</td></tr>
+<tr class="memdesc:aa108b08b99f72824a38a032d6165f61d"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
+<tr class="memitem:a5bced5b58925b9a430cf0ce5a154cb0f" id="r_a5bced5b58925b9a430cf0ce5a154cb0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bced5b58925b9a430cf0ce5a154cb0f">MR_PlanarTriangulation_triangulateDisjointContours_2_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *cache)</td></tr>
+<tr class="memdesc:a5bced5b58925b9a430cf0ce5a154cb0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt">MR::PlanarTriangulation::triangulateDisjointContours</span>. Parameter <span class="tt">contours</span> can not be null. It is a single object. Parameter <span class="tt">cache</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__Mesh_8h.html#a543c0258d04b6eb7e1cc8ac22d34c3d4" title="Destroys a heap-allocated instance of MR_std_optional_MR_Mesh. Does nothing if the pointer is null.">MR_std_optional_MR_Mesh_Destroy()</a></span> to free it when you're done using it.  <br /></td></tr>
+<tr class="memitem:ad5c5858ec84c8fcfc4d2443564262f09" id="r_ad5c5858ec84c8fcfc4d2443564262f09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5c5858ec84c8fcfc4d2443564262f09">MR_PlanarTriangulation_triangulateDisjointContours_5</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *loops, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *normal, <a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *outPatchMap, <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *cache)</td></tr>
+<tr class="memdesc:ad5c5858ec84c8fcfc4d2443564262f09"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
 <tr class="memitem:a096c2450a4ec19741e247bb38d87de95" id="r_a096c2450a4ec19741e247bb38d87de95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab9ea483d49601b3017056ba3df23921e">MR_std_optional_MR_HoleFillPlan</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a096c2450a4ec19741e247bb38d87de95">MR_PlanarTriangulation_getMonotonePlan</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *loops, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *normal)</td></tr>
 <tr class="memdesc:a096c2450a4ec19741e247bb38d87de95"><td class="mdescLeft">&#160;</td><td class="mdescRight">splits the near-planar region bounded by <code class="param">loops</code> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation  <br /></td></tr>
 </table>
@@ -340,6 +348,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>struct to map new vertices (only appear on intersections) of the outline to it's edges Generated from class <span class="tt">MR::PlanarTriangulation::IntersectionsMap</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="aa3e2d47169e39ff9786e16d91f8f703c" name="aa3e2d47169e39ff9786e16d91f8f703c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3e2d47169e39ff9786e16d91f8f703c">&#9670;&#160;</a></span>MR_PlanarTriangulation_ISweepLineCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>keeps the internal buffers of the sweep-line triangulation alive between runs, so a caller triangulating many contour sets one by one avoids re-allocating them on every call; the entries returning a Mesh move the topology and the points out into it, so those two grow again on the next run, while triangulateDisjointContoursTopology keeps everything; one cache must not be used by several threads at once Generated from class <span class="tt">MR::PlanarTriangulation::ISweepLineCache</span>. </p>
 
 </div>
 </div>
@@ -904,7 +927,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>std::nullopt if the loops intersect or a chord would land in a face instead of a hole, so that the caller can fall back on filling every loop separately; otherwise a plan with numTris == 0 for executeHoleFillPlan, which then only adds edges (empty if already monotone, a no-op). Validate it with isFillingMultipleEdgeFree: a chord may duplicate an off-loop mesh edge Generated from function <span class="tt">MR::PlanarTriangulation::getMonotonePlan</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">loops</span> can not be null. It is a single object. Parameter <span class="tt">normal</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__HoleFillPlan_8h.html#a6d0924adf124c1d36ab1cd726086a066" title="Destroys a heap-allocated instance of MR_std_optional_MR_HoleFillPlan. Does nothing if the pointer is...">MR_std_optional_MR_HoleFillPlan_Destroy()</a></span> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>std::nullopt if the loops intersect or a chord would land in a face instead of a hole, so that the caller can fall back on filling every loop separately; otherwise a plan with numTris == 0 for executeHoleFillPlan, which then only adds edges (empty if already monotone, a no-op). Validate it with isFillingMultipleEdgeFree: a chord may duplicate an off-loop mesh edge Generated from function <span class="tt">MR::PlanarTriangulation::getMonotonePlan</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">loops</span> can not be null. It is a single object. Parameter <span class="tt">normal</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__HoleFillPlan_8h.html#a6d0924adf124c1d36ab1cd726086a066" title="Destroys a heap-allocated instance of MR_std_optional_MR_HoleFillPlan. Does nothing if the pointer is...">MR_std_optional_MR_HoleFillPlan_Destroy()</a></span> to free it when you're done using it. */ </dd></dl>
 
 </div>
 </div>
@@ -1887,6 +1910,88 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4a445fd5df9811d82c18e576ca1f302f" name="a4a445fd5df9811d82c18e576ca1f302f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a445fd5df9811d82c18e576ca1f302f">&#9670;&#160;</a></span>MR_PlanarTriangulation_ISweepLineCache_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PlanarTriangulation_ISweepLineCache_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6bda75cb2181d78f962387ea117dc86c" name="a6bda75cb2181d78f962387ea117dc86c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bda75cb2181d78f962387ea117dc86c">&#9670;&#160;</a></span>MR_PlanarTriangulation_ISweepLineCache_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PlanarTriangulation_ISweepLineCache_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="af9829dd2804120bb387c8b05effd9b8c" name="af9829dd2804120bb387c8b05effd9b8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9829dd2804120bb387c8b05effd9b8c">&#9670;&#160;</a></span>MR_PlanarTriangulation_ISweepLineCache_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> * MR_PlanarTriangulation_ISweepLineCache_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="ab660c44aaa28f7c19a6e4e0047e96177" name="ab660c44aaa28f7c19a6e4e0047e96177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab660c44aaa28f7c19a6e4e0047e96177">&#9670;&#160;</a></span>MR_PlanarTriangulation_ISweepLineCache_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> * MR_PlanarTriangulation_ISweepLineCache_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
 <a id="a804f0ed570ff26b1d7813f6349b0ee7d" name="a804f0ed570ff26b1d7813f6349b0ee7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a804f0ed570ff26b1d7813f6349b0ee7d">&#9670;&#160;</a></span>MR_PlanarTriangulation_OutlineParameters_AssignFromAnother()</h2>
 
@@ -2228,52 +2333,62 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae16ead891c65a3e38f6e407a13210930" name="ae16ead891c65a3e38f6e407a13210930"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae16ead891c65a3e38f6e407a13210930">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_1_std_vector_std_vector_MR_Vector2d()</h2>
+<a id="aa108b08b99f72824a38a032d6165f61d" name="aa108b08b99f72824a38a032d6165f61d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa108b08b99f72824a38a032d6165f61d">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_2_std_vector_std_vector_MR_Vector2d()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_1_std_vector_std_vector_MR_Vector2d </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_2_std_vector_std_vector_MR_Vector2d </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *</td>          <td class="paramname"><span class="paramname"><em>cache</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour) </p>
-<dl class="section return"><dt>Returns</dt><dd>std::optional&lt;Mesh&gt; : if some contours intersect return false, otherwise return created mesh Generated from function <span class="tt">MR::PlanarTriangulation::triangulateDisjointContours</span>. Parameter <span class="tt">contours</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__Mesh_8h.html#a543c0258d04b6eb7e1cc8ac22d34c3d4" title="Destroys a heap-allocated instance of MR_std_optional_MR_Mesh. Does nothing if the pointer is null.">MR_std_optional_MR_Mesh_Destroy()</a></span> to free it when you're done using it. </dd></dl>
+<p>creates a cache for the sweep-line triangulation Generated from function <span class="tt">MR::PlanarTriangulation::makeSweepLineCache</span>. The returned pointer is owning! If not null, it must be deallocated using `MR_PlanarTriangulation_ISweepLineCache_Destroy(). MRC_API <a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *MR_PlanarTriangulation_makeSweepLineCache(void);</p>
+<p>/** </p><dl class="section return"><dt>Returns</dt><dd>std::optional&lt;Mesh&gt; : if some contours intersect return false, otherwise return created mesh Generated from function <span class="tt">MR::PlanarTriangulation::triangulateDisjointContours</span>. Parameter <span class="tt">contours</span> can not be null. It is a single object. Parameter <span class="tt">cache</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__Mesh_8h.html#a543c0258d04b6eb7e1cc8ac22d34c3d4" title="Destroys a heap-allocated instance of MR_std_optional_MR_Mesh. Does nothing if the pointer is null.">MR_std_optional_MR_Mesh_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
-<a id="ac412e95881d088ecc7116e3e563a176a" name="ac412e95881d088ecc7116e3e563a176a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac412e95881d088ecc7116e3e563a176a">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_1_std_vector_std_vector_MR_Vector2f()</h2>
+<a id="a5bced5b58925b9a430cf0ce5a154cb0f" name="a5bced5b58925b9a430cf0ce5a154cb0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bced5b58925b9a430cf0ce5a154cb0f">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_2_std_vector_std_vector_MR_Vector2f()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_1_std_vector_std_vector_MR_Vector2f </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_2_std_vector_std_vector_MR_Vector2f </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *</td>          <td class="paramname"><span class="paramname"><em>cache</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::PlanarTriangulation::triangulateDisjointContours</span>. Parameter <span class="tt">contours</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__Mesh_8h.html#a543c0258d04b6eb7e1cc8ac22d34c3d4" title="Destroys a heap-allocated instance of MR_std_optional_MR_Mesh. Does nothing if the pointer is null.">MR_std_optional_MR_Mesh_Destroy()</a></span> to free it when you're done using it. </p>
+
+<p>Generated from function <span class="tt">MR::PlanarTriangulation::triangulateDisjointContours</span>. Parameter <span class="tt">contours</span> can not be null. It is a single object. Parameter <span class="tt">cache</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__Mesh_8h.html#a543c0258d04b6eb7e1cc8ac22d34c3d4" title="Destroys a heap-allocated instance of MR_std_optional_MR_Mesh. Does nothing if the pointer is null.">MR_std_optional_MR_Mesh_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="a77e9803ea01cb9d26bcd752b6e90a4fe" name="a77e9803ea01cb9d26bcd752b6e90a4fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77e9803ea01cb9d26bcd752b6e90a4fe">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_4()</h2>
+<a id="ad5c5858ec84c8fcfc4d2443564262f09" name="ad5c5858ec84c8fcfc4d2443564262f09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5c5858ec84c8fcfc4d2443564262f09">&#9670;&#160;</a></span>MR_PlanarTriangulation_triangulateDisjointContours_5()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_4 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> * MR_PlanarTriangulation_triangulateDisjointContours_5 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -2290,7 +2405,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *</td>          <td class="paramname"><span class="paramname"><em>outPatchMap</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a> *</td>          <td class="paramname"><span class="paramname"><em>outPatchMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa3e2d47169e39ff9786e16d91f8f703c">MR_PlanarTriangulation_ISweepLineCache</a> *</td>          <td class="paramname"><span class="paramname"><em>cache</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2303,7 +2423,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>std::nullopt if the loops self-intersect, otherwise the patch mesh Generated from function <span class="tt">MR::PlanarTriangulation::triangulateDisjointContours</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">loops</span> can not be null. It is a single object. Parameter <span class="tt">normal</span> can not be null. It is a single object. Parameter <span class="tt">outPatchMap</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__Mesh_8h.html#a543c0258d04b6eb7e1cc8ac22d34c3d4" title="Destroys a heap-allocated instance of MR_std_optional_MR_Mesh. Does nothing if the pointer is null.">MR_std_optional_MR_Mesh_Destroy()</a></span> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>std::nullopt if the loops self-intersect, otherwise the patch mesh Generated from function <span class="tt">MR::PlanarTriangulation::triangulateDisjointContours</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">loops</span> can not be null. It is a single object. Parameter <span class="tt">normal</span> can not be null. It is a single object. Parameter <span class="tt">outPatchMap</span> defaults to a null pointer in C++. Parameter <span class="tt">cache</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__Mesh_8h.html#a543c0258d04b6eb7e1cc8ac22d34c3d4" title="Destroys a heap-allocated instance of MR_std_optional_MR_Mesh. Does nothing if the pointer is null.">MR_std_optional_MR_Mesh_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>

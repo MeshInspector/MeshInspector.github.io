@@ -5,6 +5,7 @@
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" prot="public">MR::PlanarTriangulation::BaseOutlineParameters</innerclass>
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" prot="public">MR::PlanarTriangulation::IntersectionInfo</innerclass>
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" prot="public">MR::PlanarTriangulation::IntersectionsMap</innerclass>
+    <innerclass refid="classMR_1_1PlanarTriangulation_1_1ISweepLineCache" prot="public">MR::PlanarTriangulation::ISweepLineCache</innerclass>
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters" prot="public">MR::PlanarTriangulation::OutlineParameters</innerclass>
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1TriangulationParameters" prot="public">MR::PlanarTriangulation::TriangulationParameters</innerclass>
     <sectiondef kind="enum">
@@ -21,15 +22,17 @@
       <member refid="group__GeneralGroup_1ga4e98690acecec7a927c64053f5b86d80" kind="function"><name>getOutline</name></member>
       <member refid="group__GeneralGroup_1ga161bba00aa938095d492c1a6a2e5ac70" kind="function"><name>triangulateContours</name></member>
       <member refid="group__GeneralGroup_1gaf8916398a1df6d3844748b9d3d06c877" kind="function"><name>triangulateContours</name></member>
-      <member refid="group__GeneralGroup_1ga6aae14fbc41cd374145370930cb67b4e" kind="function"><name>triangulateDisjointContours</name></member>
-      <member refid="group__GeneralGroup_1gac8b02e76a3739230980adf2a19f9fc63" kind="function"><name>triangulateDisjointContours</name></member>
-      <member refid="group__GeneralGroup_1gaa7fbba3ab7f376375bbede5a59a05768" kind="function"><name>triangulateDisjointContours</name></member>
+      <member refid="group__GeneralGroup_1ga6aa55c423349c3200c91a32652683cca" kind="function"><name>makeSweepLineCache</name></member>
+      <member refid="group__GeneralGroup_1gaf1407ed99d00015ef1fed87faa3d5d8f" kind="function"><name>triangulateDisjointContours</name></member>
+      <member refid="group__GeneralGroup_1ga818dcd39c8d72c4d2a32fc940d6ad524" kind="function"><name>triangulateDisjointContours</name></member>
+      <member refid="group__GeneralGroup_1ga3b3c6c939868a97b44c3b77793d46515" kind="function"><name>triangulateDisjointContours</name></member>
+      <member refid="group__GeneralGroup_1ga2f9e9b49c88ebf29c5a8a41b0659b9a4" kind="function"><name>triangulateDisjointContoursTopology</name></member>
       <member refid="group__GeneralGroup_1ga6bf92ff9850bc3bd73ec9926a31dcfed" kind="function"><name>getMonotonePlan</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MR2DContoursTriangulation.h" line="13" column="1"/>
+    <location file="MRMesh/MR2DContoursTriangulation.h" line="14" column="1"/>
   </compounddef>
 </doxygen>

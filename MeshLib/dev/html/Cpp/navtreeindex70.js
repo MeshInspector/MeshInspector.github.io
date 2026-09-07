@@ -1,5 +1,18 @@
 var NAVTREEINDEX70 =
 {
+"structWasm_1_1TypedArrayValType.html":[8,0,2,0,3,4],
+"structWasm_1_1TypedArrayValType_3_01float_01_4.html":[8,0,1,0,3,5],
+"structWasm_1_1TypedArrayValType_3_01float_01_4.html":[8,0,2,0,3,5],
+"structWasm_1_1TypedArrayValType_3_01float_01_4.html#a9bb35deedbab6578980a5f1bb74f3809":[8,0,1,0,3,5,0],
+"structWasm_1_1TypedArrayValType_3_01float_01_4.html#a9bb35deedbab6578980a5f1bb74f3809":[8,0,2,0,3,5,0],
+"structWasm_1_1TypedArrayValType_3_01uint32__t_01_4.html":[8,0,1,0,3,6],
+"structWasm_1_1TypedArrayValType_3_01uint32__t_01_4.html":[8,0,2,0,3,6],
+"structWasm_1_1TypedArrayValType_3_01uint32__t_01_4.html#a8aeb7f8f8881d26f5fbed7b8f64604a3":[8,0,1,0,3,6,0],
+"structWasm_1_1TypedArrayValType_3_01uint32__t_01_4.html#a8aeb7f8f8881d26f5fbed7b8f64604a3":[8,0,2,0,3,6,0],
+"structWasm_1_1TypedArrayValType_3_01uint8__t_01_4.html":[8,0,1,0,3,7],
+"structWasm_1_1TypedArrayValType_3_01uint8__t_01_4.html":[8,0,2,0,3,7],
+"structWasm_1_1TypedArrayValType_3_01uint8__t_01_4.html#af1f7d02ee1de5ba0f9980457c80db195":[8,0,1,0,3,7,0],
+"structWasm_1_1TypedArrayValType_3_01uint8__t_01_4.html#af1f7d02ee1de5ba0f9980457c80db195":[8,0,2,0,3,7,0],
 "structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4.html":[8,0,2,0,0,0],
 "structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4.html#a9516609c5c321a3e3829b7e12b0ed9b6":[8,0,2,0,0,0,0],
 "structfmt_1_1formatter_3_01MR_1_1BitSet_01_4.html":[8,0,2,0,0,1],

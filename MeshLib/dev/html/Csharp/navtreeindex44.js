@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a97158a8a4dd024d3a9276aa638aaae06":[8,3,0,0,0,417,1,0],
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#ac16fe907a6abede5319ac83459a080e7":[8,3,0,0,0,417,1,3],
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#af9bd1c7b275e9289597d6103fed37776":[8,3,0,0,0,417,1,7],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html":[8,3,0,0,0,418],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1Const__EndMillTool.html#ab29f73de0b3da41523a67d4c5cb6a833":[8,3,0,0,0,428,11],
 "classMR_1_1Const__EndMillTool.html#ab78c628d56ccaa45dcf87ced5db84235":[8,3,0,0,0,428,1],
 "classMR_1_1Const__EndMillTool.html#ad1016cc331bf14bda3a64ed637258140":[8,3,0,0,0,428,7],
-"classMR_1_1Const__EndMillTool.html#ae66fcc1acb95db208a9d0ed783f32ff1":[8,3,0,0,0,428,6],
-"classMR_1_1Const__EnumNeihbourFaces.html":[8,3,0,0,0,429]
+"classMR_1_1Const__EndMillTool.html#ae66fcc1acb95db208a9d0ed783f32ff1":[8,3,0,0,0,428,6]
 };

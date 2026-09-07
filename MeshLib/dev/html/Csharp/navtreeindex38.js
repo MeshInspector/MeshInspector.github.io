@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1Const__CircleObject.html#affff7b19f53c7a82950efb95b79c06ec":[8,3,0,0,0,348,8],
 "classMR_1_1Const__CloseToMeshVolumeParams.html":[8,3,0,0,0,349],
 "classMR_1_1Const__CloseToMeshVolumeParams.html#a125c4ce203118727ed3096c2b945920c":[8,3,0,0,0,349,1],
 "classMR_1_1Const__CloseToMeshVolumeParams.html#a15a7aeea2a622ad0f64c32eab31d146d":[8,3,0,0,0,349,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1Const__ConeObject.html#aee0780dc05c46721f73c3f355b4895df":[8,3,0,0,0,361,6],
 "classMR_1_1Const__ConeObject.html#aeefc9b8329b8f3a81843feb46d04e7ac":[8,3,0,0,0,361,40],
 "classMR_1_1Const__ConeObject.html#af0046722bce490234cce74a087aa96a5":[8,3,0,0,0,361,2],
-"classMR_1_1Const__ConeObject.html#af700a78fac4707c5d2bf070eaada394d":[8,3,0,0,0,361,81],
-"classMR_1_1Const__ConeObject.html#af931609a5a49be90520b5ab3197a6d94":[8,3,0,0,0,361,37]
+"classMR_1_1Const__ConeObject.html#af700a78fac4707c5d2bf070eaada394d":[8,3,0,0,0,361,81]
 };

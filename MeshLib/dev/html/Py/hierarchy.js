@@ -546,6 +546,7 @@ var hierarchy =
       [ "mrcudapy.FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", null ]
     ] ],
     [ "mrmeshpy.IFastWindingNumberByParts", "classmrmeshpy_1_1IFastWindingNumberByParts.html", null ],
+    [ "mrmeshpy.IFillContours2DPlanCache", "classmrmeshpy_1_1IFillContours2DPlanCache.html", null ],
     [ "mrmeshpy.IICPTreeIndexer", "classmrmeshpy_1_1IICPTreeIndexer.html", null ],
     [ "mrmeshpy.Image", "classmrmeshpy_1_1Image.html", [
       [ "mrmeshpy.MeshTexture", "classmrmeshpy_1_1MeshTexture.html", null ]
@@ -609,6 +610,7 @@ var hierarchy =
     [ "mrmeshpy.IsVisualizeMaskEnum_PointMeasurementVisualizePropertyType", "classmrmeshpy_1_1IsVisualizeMaskEnum__PointMeasurementVisualizePropertyType.html", null ],
     [ "mrmeshpy.IsVisualizeMaskEnum_PointsVisualizePropertyType", "classmrmeshpy_1_1IsVisualizeMaskEnum__PointsVisualizePropertyType.html", null ],
     [ "mrmeshpy.IsVisualizeMaskEnum_VisualizeMaskType", "classmrmeshpy_1_1IsVisualizeMaskEnum__VisualizeMaskType.html", null ],
+    [ "mrmeshpy.PlanarTriangulation.ISweepLineCache", "classmrmeshpy_1_1PlanarTriangulation_1_1ISweepLineCache.html", null ],
     [ "mrmeshpy.IteratorRange_ChunkIterator", "classmrmeshpy_1_1IteratorRange__ChunkIterator.html", null ],
     [ "mrmeshpy.IteratorRange_PolylineUndirectedEdgeIterator", "classmrmeshpy_1_1IteratorRange__PolylineUndirectedEdgeIterator.html", null ],
     [ "mrmeshpy.IteratorRange_RingIterator_NextEdgeSameLeft", "classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameLeft.html", null ],

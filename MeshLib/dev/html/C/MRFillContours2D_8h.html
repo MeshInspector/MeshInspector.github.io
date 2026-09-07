@@ -146,22 +146,33 @@ $(function(){initNavTree('MRFillContours2D_8h.html','',''); });
 <div class="textblock"><code>#include &lt;<a class="el" href="MRAffineXf_8h_source.html">MRCMesh/MRAffineXf.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRFillContours2D_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a94be373466adb78333ccf2281ac6de67" id="r_a94be373466adb78333ccf2281ac6de67"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a94be373466adb78333ccf2281ac6de67">MR_expected_MR_HoleFillPlan_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94be373466adb78333ccf2281ac6de67">MR_expected_MR_HoleFillPlan_std_string</a></td></tr>
+<tr class="memitem:a01371398139dd10a836844dd22bb165f" id="r_a01371398139dd10a836844dd22bb165f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a858df18b99bad479b69025cb19a7ae98" id="r_a858df18b99bad479b69025cb19a7ae98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a858df18b99bad479b69025cb19a7ae98">MR_fillContours2D</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *holeRepresentativeEdges)</td></tr>
 <tr class="memdesc:a858df18b99bad479b69025cb19a7ae98"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill holes with border in same plane (i.e. after cut by plane)  <br /></td></tr>
-<tr class="memitem:a302bb8cf02fec152f8df4aabe8af8878" id="r_a302bb8cf02fec152f8df4aabe8af8878"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a94be373466adb78333ccf2281ac6de67">MR_expected_MR_HoleFillPlan_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a302bb8cf02fec152f8df4aabe8af8878">MR_fillContours2DPlan</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> holeEdgeId)</td></tr>
-<tr class="memdesc:a302bb8cf02fec152f8df4aabe8af8878"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare filling plan for hole with border in same plane (i.e. after cut by plane)  <br /></td></tr>
+<tr class="memitem:ada7e4a2c87eed02578b30431390e62b6" id="r_ada7e4a2c87eed02578b30431390e62b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada7e4a2c87eed02578b30431390e62b6">MR_IFillContours2DPlanCache_Destroy</a> (const <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *_this)</td></tr>
+<tr class="memdesc:ada7e4a2c87eed02578b30431390e62b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a1efe94587ba4de74264c44594b084e09" id="r_a1efe94587ba4de74264c44594b084e09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1efe94587ba4de74264c44594b084e09">MR_IFillContours2DPlanCache_DestroyArray</a> (const <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *_this)</td></tr>
+<tr class="memdesc:a1efe94587ba4de74264c44594b084e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:acce596d8fa2932bbcb4ab74ae2d233c9" id="r_acce596d8fa2932bbcb4ab74ae2d233c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acce596d8fa2932bbcb4ab74ae2d233c9">MR_IFillContours2DPlanCache_OffsetPtr</a> (const <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ac6ef43c00546e626599720987d389860" id="r_ac6ef43c00546e626599720987d389860"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6ef43c00546e626599720987d389860">MR_IFillContours2DPlanCache_OffsetMutablePtr</a> (<a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a612f3e3283b2babd3ec5f73e29bfd93c" id="r_a612f3e3283b2babd3ec5f73e29bfd93c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a94be373466adb78333ccf2281ac6de67">MR_expected_MR_HoleFillPlan_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a612f3e3283b2babd3ec5f73e29bfd93c">MR_fillContours2DPlan</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> holeEdgeId, <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *cache)</td></tr>
+<tr class="memdesc:a612f3e3283b2babd3ec5f73e29bfd93c"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare filling plan for hole with border in same plane (i.e. after cut by plane)  <br /></td></tr>
 <tr class="memitem:af5aca5ec89044050bdb484a296ea0e37" id="r_af5aca5ec89044050bdb484a296ea0e37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5aca5ec89044050bdb484a296ea0e37">MR_getXfFromOxyPlane_1</a> (const <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *contours)</td></tr>
+<tr class="memdesc:af5aca5ec89044050bdb484a296ea0e37"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the transformation that maps O into center mass of contours' points OXY into best plane containing the points Generated from function <span class="tt">MR::getXfFromOxyPlane</span>. Parameter <span class="tt">contours</span> can not be null. It is a single object.  <br /></td></tr>
 <tr class="memitem:a09b338703c75be097b80aba92c43f358" id="r_a09b338703c75be097b80aba92c43f358"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09b338703c75be097b80aba92c43f358">MR_getXfFromOxyPlane_2</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *paths)</td></tr>
+<tr class="memdesc:a09b338703c75be097b80aba92c43f358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt">MR::getXfFromOxyPlane</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">paths</span> can not be null. It is a single object.  <br /></td></tr>
 <tr class="memitem:a37718075d8c6358dc186b8298e6c6d1e" id="r_a37718075d8c6358dc186b8298e6c6d1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37718075d8c6358dc186b8298e6c6d1e">MR_fillPlanarHole</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *data, <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *holeContours)</td></tr>
+<tr class="memdesc:a37718075d8c6358dc186b8298e6c6d1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">given an ObjectMeshData and the contours of a planar hole in it, fills the hole using fillContours2D function and updates all per-element attributes; if some contours were not closed on input, then it closes them by adding a bridge edge in each Generated from function <span class="tt">MR::fillPlanarHole</span>. Parameter <span class="tt">data</span> can not be null. It is a single object. Parameter <span class="tt">holeContours</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. */  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a94be373466adb78333ccf2281ac6de67" name="a94be373466adb78333ccf2281ac6de67"></a>
@@ -176,6 +187,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Stores either a <span class="tt">MR::HoleFillPlan</span> that represents success or a <span class="tt">std::string</span> that represents an error. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a01371398139dd10a836844dd22bb165f" name="a01371398139dd10a836844dd22bb165f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01371398139dd10a836844dd22bb165f">&#9670;&#160;</a></span>MR_IFillContours2DPlanCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>keeps the buffers of fillContours2DPlan alive between calls (the sweep-line triangulation's own cache among them), so a caller preparing plans for many holes one by one avoids re-allocating them on every call; one cache must not be used by several threads at once Generated from class <span class="tt">MR::IFillContours2DPlanCache</span>. </p>
 
 </div>
 </div>
@@ -211,8 +237,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a302bb8cf02fec152f8df4aabe8af8878" name="a302bb8cf02fec152f8df4aabe8af8878"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a302bb8cf02fec152f8df4aabe8af8878">&#9670;&#160;</a></span>MR_fillContours2DPlan()</h2>
+<a id="a612f3e3283b2babd3ec5f73e29bfd93c" name="a612f3e3283b2babd3ec5f73e29bfd93c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a612f3e3283b2babd3ec5f73e29bfd93c">&#9670;&#160;</a></span>MR_fillContours2DPlan()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -225,20 +251,27 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR__EdgeId.html">MR_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>holeEdgeId</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structMR__EdgeId.html">MR_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>holeEdgeId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *</td>          <td class="paramname"><span class="paramname"><em>cache</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>prepare filling plan for hole with border in same plane (i.e. after cut by plane) </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>creates a cache for fillContours2DPlan Generated from function <span class="tt">MR::makeFillContours2DPlanCache</span>. The returned pointer is owning! If not null, it must be deallocated using `MR_IFillContours2DPlanCache_Destroy(). MRC_API <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *MR_makeFillContours2DPlanCache(void);</p>
+<p>/** </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>- mesh with hole </td></tr>
     <tr><td class="paramname">holeEdgeId</td><td>- the edge here represents a hole borders that should be filled edge should have invalid left face (FaceId == -1) </td></tr>
+    <tr><td class="paramname">cache</td><td>- if not null, keeps the buffers of this call in it, see IFillContours2DPlanCache </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Expected with has_value()=true if hole plan is prepared, otherwise - string error Generated from function <span class="tt">MR::fillContours2DPlan</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__HoleFillPlan__std__string_8h.html#ad4e99ef86a7c661dfbcffe2f717ca2c3" title="Destroys a heap-allocated instance of MR_expected_MR_HoleFillPlan_std_string. Does nothing if the poi...">MR_expected_MR_HoleFillPlan_std_string_Destroy()</a></span> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Expected with has_value()=true if hole plan is prepared, otherwise - string error Generated from function <span class="tt">MR::fillContours2DPlan</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">cache</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__HoleFillPlan__std__string_8h.html#ad4e99ef86a7c661dfbcffe2f717ca2c3" title="Destroys a heap-allocated instance of MR_expected_MR_HoleFillPlan_std_string. Does nothing if the poi...">MR_expected_MR_HoleFillPlan_std_string_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -260,7 +293,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given an ObjectMeshData and the contours of a planar hole in it, fills the hole using fillContours2D function and updates all per-element attributes; if some contours were not closed on input, then it closes them by adding a bridge edge in each Generated from function <span class="tt">MR::fillPlanarHole</span>. Parameter <span class="tt">data</span> can not be null. It is a single object. Parameter <span class="tt">holeContours</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+
+<p>given an ObjectMeshData and the contours of a planar hole in it, fills the hole using fillContours2D function and updates all per-element attributes; if some contours were not closed on input, then it closes them by adding a bridge edge in each Generated from function <span class="tt">MR::fillPlanarHole</span>. Parameter <span class="tt">data</span> can not be null. It is a single object. Parameter <span class="tt">holeContours</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. */ </p>
 
 </div>
 </div>
@@ -278,6 +312,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>computes the transformation that maps O into center mass of contours' points OXY into best plane containing the points Generated from function <span class="tt">MR::getXfFromOxyPlane</span>. Parameter <span class="tt">contours</span> can not be null. It is a single object. </p>
 
 </div>
@@ -300,7 +335,90 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>Generated from function <span class="tt">MR::getXfFromOxyPlane</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">paths</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ada7e4a2c87eed02578b30431390e62b6" name="ada7e4a2c87eed02578b30431390e62b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada7e4a2c87eed02578b30431390e62b6">&#9670;&#160;</a></span>MR_IFillContours2DPlanCache_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_IFillContours2DPlanCache_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a1efe94587ba4de74264c44594b084e09" name="a1efe94587ba4de74264c44594b084e09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1efe94587ba4de74264c44594b084e09">&#9670;&#160;</a></span>MR_IFillContours2DPlanCache_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_IFillContours2DPlanCache_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ac6ef43c00546e626599720987d389860" name="ac6ef43c00546e626599720987d389860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6ef43c00546e626599720987d389860">&#9670;&#160;</a></span>MR_IFillContours2DPlanCache_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> * MR_IFillContours2DPlanCache_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="acce596d8fa2932bbcb4ab74ae2d233c9" name="acce596d8fa2932bbcb4ab74ae2d233c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acce596d8fa2932bbcb4ab74ae2d233c9">&#9670;&#160;</a></span>MR_IFillContours2DPlanCache_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> * MR_IFillContours2DPlanCache_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a01371398139dd10a836844dd22bb165f">MR_IFillContours2DPlanCache</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
 
 </div>
 </div>

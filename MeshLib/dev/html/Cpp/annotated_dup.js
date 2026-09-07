@@ -193,6 +193,7 @@ var annotated_dup =
         [ "BaseOutlineParameters", "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html", "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" ],
         [ "IntersectionInfo", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo" ],
         [ "IntersectionsMap", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap" ],
+        [ "ISweepLineCache", "classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html", "classMR_1_1PlanarTriangulation_1_1ISweepLineCache" ],
         [ "OutlineParameters", "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html", "structMR_1_1PlanarTriangulation_1_1OutlineParameters" ],
         [ "TriangulationParameters", "structMR_1_1PlanarTriangulation_1_1TriangulationParameters.html", "structMR_1_1PlanarTriangulation_1_1TriangulationParameters" ]
       ] ],
@@ -609,6 +610,7 @@ var annotated_dup =
       [ "IdRange", "structMR_1_1IdRange.html", "structMR_1_1IdRange" ],
       [ "IFastWindingNumber", "classMR_1_1IFastWindingNumber.html", "classMR_1_1IFastWindingNumber" ],
       [ "IFastWindingNumberByParts", "classMR_1_1IFastWindingNumberByParts.html", "classMR_1_1IFastWindingNumberByParts" ],
+      [ "IFillContours2DPlanCache", "classMR_1_1IFillContours2DPlanCache.html", "classMR_1_1IFillContours2DPlanCache" ],
       [ "IICPTreeIndexer", "classMR_1_1IICPTreeIndexer.html", "classMR_1_1IICPTreeIndexer" ],
       [ "Image", "structMR_1_1Image.html", "structMR_1_1Image" ],
       [ "ImGuiImage", "classMR_1_1ImGuiImage.html", "classMR_1_1ImGuiImage" ],

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1IFillContours2DPlanCache" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::IFillContours2DPlanCache</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::IFillContours2DPlanCache
+
+keeps the buffers of \\ref fillContours2DPlan alive between calls (the sweep-line triangulation&apos;s
+own cache among them), so a caller preparing plans for many holes one by one avoids re-allocating
+them on every call; one cache must not be used by several threads at once
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24280" bodyend="24287"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
