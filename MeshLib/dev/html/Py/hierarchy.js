@@ -176,6 +176,7 @@ var hierarchy =
     [ "mrmeshpy.MarchingCubesParams.CachingMode", "classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html", null ],
     [ "mrmeshpy.Parallel.CallSimply", "classmrmeshpy_1_1Parallel_1_1CallSimply.html", null ],
     [ "mrmeshpy.Parallel.CallSimplyMaker", "classmrmeshpy_1_1Parallel_1_1CallSimplyMaker.html", null ],
+    [ "mrmeshpy.CameraPointsTriangulationSettings", "classmrmeshpy_1_1CameraPointsTriangulationSettings.html", null ],
     [ "mrmeshpy.MultiwayICPSamplingParameters.CascadeMode", "classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html", null ],
     [ "mrmeshpy.Pdf.Cell", "classmrmeshpy_1_1Pdf_1_1Cell.html", null ],
     [ "mrmeshpy.Pdf.CellCustomParams", "classmrmeshpy_1_1Pdf_1_1CellCustomParams.html", null ],

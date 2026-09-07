@@ -198,6 +198,7 @@ var hierarchy =
     [ "MR::Parallel::CallSimplyMaker", "structMR_1_1Parallel_1_1CallSimplyMaker.html", null ],
     [ "MR::Parallel::CallWithTLS< T >", "structMR_1_1Parallel_1_1CallWithTLS.html", null ],
     [ "MR::Parallel::CallWithTLSMaker< L >", "structMR_1_1Parallel_1_1CallWithTLSMaker.html", null ],
+    [ "MR::CameraPointsTriangulationSettings", "structMR_1_1CameraPointsTriangulationSettings.html", null ],
     [ "MR::Pdf::Cell", "structMR_1_1Pdf_1_1Cell.html", null ],
     [ "MR::Pdf::CellCustomParams", "structMR_1_1Pdf_1_1CellCustomParams.html", null ],
     [ "MR::UI::CheckboxOrModifierState", "structMR_1_1UI_1_1CheckboxOrModifierState.html", null ],

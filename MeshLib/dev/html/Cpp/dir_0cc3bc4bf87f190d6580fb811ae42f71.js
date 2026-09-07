@@ -37,6 +37,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRBox.h", "MRBox_8h.html", "MRBox_8h" ],
     [ "MRBoxNesting.h", "MRBoxNesting_8h.html", "MRBoxNesting_8h" ],
     [ "MRBuffer.h", "MRBuffer_8h.html", "MRBuffer_8h" ],
+    [ "MRCameraPointsTriangulation.h", "MRCameraPointsTriangulation_8h.html", "MRCameraPointsTriangulation_8h" ],
     [ "MRCanonicalTypedefs.h", "MRCanonicalTypedefs_8h.html", "MRCanonicalTypedefs_8h" ],
     [ "MRChangeColoringActions.h", "MRChangeColoringActions_8h.html", null ],
     [ "MRChangeColoringType.h", "MRChangeColoringType_8h.html", null ],

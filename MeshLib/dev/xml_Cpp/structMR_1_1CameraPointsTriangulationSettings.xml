@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CameraPointsTriangulationSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::CameraPointsTriangulationSettings</compoundname>
+    <includes refid="MRCameraPointsTriangulation_8h" local="no">MRMesh/MRCameraPointsTriangulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gafa802ce05f0836466b3ed6f087bd9f72" kind="variable"><name>intrinsics</name></member>
+      <member refid="group__GeneralGroup_1ga99a952155e869aac1012346df7c9adad" kind="variable"><name>weldPixels</name></member>
+      <member refid="group__GeneralGroup_1gaa68b17ccbae594b7c14e212cfb0c8d76" kind="variable"><name>outSmallestMap</name></member>
+      <member refid="group__GeneralGroup_1ga1107946dc94ab13ff2e36600f32d24ea" kind="variable"><name>outProjectedPoints</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRCameraPointsTriangulation.h" line="14" column="1" bodyfile="MRMesh/MRCameraPointsTriangulation.h" bodystart="15" bodyend="30"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gafa802ce05f0836466b3ed6f087bd9f72" prot="public" virt="non-virtual"><scope>MR::CameraPointsTriangulationSettings</scope><name>intrinsics</name></member>
+      <member refid="group__GeneralGroup_1ga1107946dc94ab13ff2e36600f32d24ea" prot="public" virt="non-virtual"><scope>MR::CameraPointsTriangulationSettings</scope><name>outProjectedPoints</name></member>
+      <member refid="group__GeneralGroup_1gaa68b17ccbae594b7c14e212cfb0c8d76" prot="public" virt="non-virtual"><scope>MR::CameraPointsTriangulationSettings</scope><name>outSmallestMap</name></member>
+      <member refid="group__GeneralGroup_1ga99a952155e869aac1012346df7c9adad" prot="public" virt="non-virtual"><scope>MR::CameraPointsTriangulationSettings</scope><name>weldPixels</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

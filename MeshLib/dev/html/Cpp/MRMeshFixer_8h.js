@@ -1,6 +1,7 @@
 var MRMeshFixer_8h =
 [
     [ "MR::MultipleEdge", "group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc", null ],
+    [ "MR::deleteFacesWithLongEdges", "group__MeshFixerGroup.html#ga070d3e16e2fb8549c1d840e8595948bd", null ],
     [ "MR::duplicateMultiHoleVertices", "group__MeshFixerGroup.html#ga9f1f866643e15bf1b9d9131f2d6dad0e", null ],
     [ "MR::duplicateMultiHoleVertices", "group__MeshFixerGroup.html#ga900c1c80bfa1ca726e5afe5ccab5b31d", null ],
     [ "MR::eliminateDegree3Dest", "group__MeshFixerGroup.html#ga1a6d31909cb9b003dd59942b58bcdfae", null ],

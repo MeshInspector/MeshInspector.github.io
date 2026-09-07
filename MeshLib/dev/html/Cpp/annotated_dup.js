@@ -376,6 +376,7 @@ var annotated_dup =
       [ "BoxedLeaf", "structMR_1_1BoxedLeaf.html", "structMR_1_1BoxedLeaf" ],
       [ "Buffer", "classMR_1_1Buffer.html", "classMR_1_1Buffer" ],
       [ "CameraOrientation", "classMR_1_1CameraOrientation.html", "classMR_1_1CameraOrientation" ],
+      [ "CameraPointsTriangulationSettings", "structMR_1_1CameraPointsTriangulationSettings.html", "structMR_1_1CameraPointsTriangulationSettings" ],
       [ "CaptureScreenshotMenuItem", "classMR_1_1CaptureScreenshotMenuItem.html", "classMR_1_1CaptureScreenshotMenuItem" ],
       [ "CaptureScreenshotToClipBoardMenuItem", "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html", "classMR_1_1CaptureScreenshotToClipBoardMenuItem" ],
       [ "CaptureUIScreenshotMenuItem", "classMR_1_1CaptureUIScreenshotMenuItem.html", "classMR_1_1CaptureUIScreenshotMenuItem" ],

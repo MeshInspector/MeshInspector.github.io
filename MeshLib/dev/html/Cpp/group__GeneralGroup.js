@@ -702,6 +702,12 @@ var group__GeneralGroup =
       [ "f", "group__GeneralGroup.html#ga53564598fd272bd72bf4ea9a97a2340a", null ],
       [ "v", "group__GeneralGroup.html#ga3080324e4d0c9556be1e426c7a87ff79", null ]
     ] ],
+    [ "MR::CameraPointsTriangulationSettings", "structMR_1_1CameraPointsTriangulationSettings.html", [
+      [ "intrinsics", "group__GeneralGroup.html#gafa802ce05f0836466b3ed6f087bd9f72", null ],
+      [ "outProjectedPoints", "group__GeneralGroup.html#ga1107946dc94ab13ff2e36600f32d24ea", null ],
+      [ "outSmallestMap", "group__GeneralGroup.html#gaa68b17ccbae594b7c14e212cfb0c8d76", null ],
+      [ "weldPixels", "group__GeneralGroup.html#ga99a952155e869aac1012346df7c9adad", null ]
+    ] ],
     [ "MR::ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html", [
       [ "Obj", "group__GeneralGroup.html#ga5474abe2fe0d35caaf558c71cb6847d3", null ],
       [ "Type", "group__GeneralGroup.html#gaadf478d3d29a773bd02b96beae263a51", [
@@ -16063,6 +16069,9 @@ var group__GeneralGroup =
     [ "MR::MeshBuilder::Triangle::Triangle", "group__GeneralGroup.html#ga9a381456c77917de55d37a962d6841e9", null ],
     [ "MR::triangleAspectRatio", "group__GeneralGroup.html#ga58ab3f5ec456dc68b875f4487c44e756", null ],
     [ "MR::triangleWithNormal", "group__GeneralGroup.html#ga5b210182919ce9a4fe5cdce5115f4cc3", null ],
+    [ "MR::triangulateCameraPoints", "group__GeneralGroup.html#ga3619e11f13e5c6e182d8c26d6df842fa", null ],
+    [ "MR::triangulateCameraPoints", "group__GeneralGroup.html#ga868201390f7de0a75f629ef7dfed0aa9", null ],
+    [ "MR::triangulateCameraPoints", "group__GeneralGroup.html#gad7441787d340a0a0452bcd5f396360c3", null ],
     [ "MR::PlanarTriangulation::triangulateContours", "group__GeneralGroup.html#ga161bba00aa938095d492c1a6a2e5ac70", null ],
     [ "MR::PlanarTriangulation::triangulateContours", "group__GeneralGroup.html#gaf8916398a1df6d3844748b9d3d06c877", null ],
     [ "MR::PlanarTriangulation::triangulateDisjointContours", "group__GeneralGroup.html#ga6aae14fbc41cd374145370930cb67b4e", null ],
@@ -17380,6 +17389,7 @@ var group__GeneralGroup =
     [ "MR::OneMeshContour::intersections", "group__GeneralGroup.html#ga6e1a28642564323f19cdf9f04319d5ef", null ],
     [ "MR::AlphaShapeData::intPoints", "group__GeneralGroup.html#ga83480f95b9e1d4f1069a44ea03726ea8", null ],
     [ "MR::AlphaShapeData::intRadiusSq", "group__GeneralGroup.html#ga9f56dd5709fb6f4de21f77cae0674f72", null ],
+    [ "MR::CameraPointsTriangulationSettings::intrinsics", "group__GeneralGroup.html#gafa802ce05f0836466b3ed6f087bd9f72", null ],
     [ "MR::ImGuiMenu::invertedRotation_", "group__GeneralGroup.html#ga44726097595253c81b8abae8fe5fe91f", null ],
     [ "MR::ConvertToIntVector::invRange", "group__GeneralGroup.html#ga51d6cf970fac7447ef8124904efcbefa", null ],
     [ "MR::PointsToDistanceVolumeParams::invSigmaModifier", "group__GeneralGroup.html#ga92d4aead46ac278be1c9152c417996d2", null ],
@@ -17884,10 +17894,12 @@ var group__GeneralGroup =
     [ "MR::MarchingCubesParams::outGridToMeshXf", "group__GeneralGroup.html#gaeb823105963b83bd0e3cb44e58a76a76", null ],
     [ "MR::PlanarTriangulation::TriangulationParameters::outInterMap", "group__GeneralGroup.html#gae9a3578068a8a12a4e3f251b9f2824e3", null ],
     [ "MR::MakeDegenerateBandAroundRegionParams::outNewFaces", "group__GeneralGroup.html#ga7d6c4b4b9c582144c01aad1b8bf29605", null ],
+    [ "MR::CameraPointsTriangulationSettings::outProjectedPoints", "group__GeneralGroup.html#ga1107946dc94ab13ff2e36600f32d24ea", null ],
     [ "MR::RebuildMeshSettings::outSharpEdges", "group__GeneralGroup.html#gab3fd176a4586472f781779fd1126f50c", null ],
     [ "MR::SharpenMarchingCubesMeshSettings::outSharpEdges", "group__GeneralGroup.html#ga0f708a94c94e32aa8001fe2cf18960d4", null ],
     [ "MR::SharpOffsetParameters::outSharpEdges", "group__GeneralGroup.html#ga662db16653ae12258fec109e1a4b4357", null ],
     [ "MR::ThickenParams::outsideOffset", "group__GeneralGroup.html#ga733a99389aa160de68b6109611d489c6", null ],
+    [ "MR::CameraPointsTriangulationSettings::outSmallestMap", "group__GeneralGroup.html#gaa68b17ccbae594b7c14e212cfb0c8d76", null ],
     [ "MR::EmbeddedStructureParameters::outStructFaces", "group__GeneralGroup.html#gaa4c80584b3d08189de287de06a281f18", null ],
     [ "MR::DividePointCloudOptionalOutput::outVmap", "group__GeneralGroup.html#ga8f57623cee5e4db20049f8d9d6dff9cf", null ],
     [ "MR::DividePolylineParameters::outVmap", "group__GeneralGroup.html#ga0dd7e0ac90d0f63dc7e3903f3107a461", null ],
@@ -18745,6 +18757,7 @@ var group__GeneralGroup =
     [ "MR::ParallelProgressReporter::TaskInfo::weight", "group__GeneralGroup.html#ga276059ffbe521f7edd753194e8ed98e2", null ],
     [ "MR::WeightedVertex::weight", "group__GeneralGroup.html#ga1208b58be6e320fd52f5e5a18d6c5760", null ],
     [ "MR::RibbonSchemaHolder::SearchParams::weights", "group__GeneralGroup.html#gaa7e03f93869b8695b61ce8aaf08406f8", null ],
+    [ "MR::CameraPointsTriangulationSettings::weldPixels", "group__GeneralGroup.html#ga99a952155e869aac1012346df7c9adad", null ],
     [ "MR::RibbonIcons::Icons::white", "group__GeneralGroup.html#ga5393f41d456609657a0ec506c3d1006b", null ],
     [ "MR::SceneReorder::who", "group__GeneralGroup.html#gad02567fbc39d8a94b4870c8b0f55a01a", null ],
     [ "MR::PickPointManager::Params::widgetContourCloseMod", "group__GeneralGroup.html#ga5fea1d890a42ca21cec4e297bf2ae7ed", null ],

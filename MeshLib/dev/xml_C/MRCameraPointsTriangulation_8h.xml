@@ -1,0 +1,662 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRCameraPointsTriangulation_8h" kind="file" language="C++">
+    <compoundname>MRCameraPointsTriangulation.h</compoundname>
+    <includes refid="MRMatrix3_8h" local="no">MRCMesh/MRMatrix3.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRCameraPointsTriangulation.h</label>
+        <link refid="MRCameraPointsTriangulation_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+      <node id="7">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" prot="public" static="no">
+        <type>struct <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref></type>
+        <definition>typedef struct MR_CameraPointsTriangulationSettings MR_CameraPointsTriangulationSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_CameraPointsTriangulationSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="21" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1af2ba360d8812a2e787179c320f8b8925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref> *</type>
+        <definition>MRC_API const MR_Matrix3f * MR_CameraPointsTriangulationSettings_Get_intrinsics</definition>
+        <argsstring>(const MR_CameraPointsTriangulationSettings *_this)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_Get_intrinsics</name>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>camera intrinsic matrix: the image-plane (pixel) position of a point p in camera space is ( K * p ).xy / ( K * p ).z Returns a pointer to a member variable of class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> named <computeroutput>intrinsics</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="28" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="28" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1ab6c57f4225d65d09ca099eed6d2e079a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CameraPointsTriangulationSettings_Set_intrinsics</definition>
+        <argsstring>(MR_CameraPointsTriangulationSettings *_this, MR_Matrix3f value)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_Set_intrinsics</name>
+        <param>
+          <type><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>camera intrinsic matrix: the image-plane (pixel) position of a point p in camera space is ( K * p ).xy / ( K * p ).z Modifies a member variable of class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> named <computeroutput>intrinsics</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>intrinsics</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>intrinsics</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="35" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="35" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a70302a52f9397c16e02a42e3fbeabb4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref> *</type>
+        <definition>MRC_API MR_Matrix3f * MR_CameraPointsTriangulationSettings_GetMutable_intrinsics</definition>
+        <argsstring>(MR_CameraPointsTriangulationSettings *_this)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_GetMutable_intrinsics</name>
+        <param>
+          <type><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>camera intrinsic matrix: the image-plane (pixel) position of a point p in camera space is ( K * p ).xy / ( K * p ).z Returns a mutable pointer to a member variable of class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> named <computeroutput>intrinsics</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="42" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="42" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1ae68479748e89afeff441e3a797bfa51e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_CameraPointsTriangulationSettings_Get_weldPixels</definition>
+        <argsstring>(const MR_CameraPointsTriangulationSettings *_this)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_Get_weldPixels</name>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>points closer than this distance in the image plane are merged into one vertex located at their average position; non-positive value disables merging Returns a pointer to a member variable of class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> named <computeroutput>weldPixels</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="50" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="50" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1aa279b40e5a81f13a1eb0b8e81907ca60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CameraPointsTriangulationSettings_Set_weldPixels</definition>
+        <argsstring>(MR_CameraPointsTriangulationSettings *_this, float value)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_Set_weldPixels</name>
+        <param>
+          <type><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>points closer than this distance in the image plane are merged into one vertex located at their average position; non-positive value disables merging Modifies a member variable of class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> named <computeroutput>weldPixels</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>weldPixels</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="57" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1aa5d61bcbce12e97d4ea8cb87d48f98ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_CameraPointsTriangulationSettings_GetMutable_weldPixels</definition>
+        <argsstring>(MR_CameraPointsTriangulationSettings *_this)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_GetMutable_weldPixels</name>
+        <param>
+          <type><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>points closer than this distance in the image plane are merged into one vertex located at their average position; non-positive value disables merging Returns a mutable pointer to a member variable of class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> named <computeroutput>weldPixels</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="65" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="65" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1afbde8753509cf4fc823bde9dbeeda572" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
+        <definition>MRC_API MR_VertMap *const  * MR_CameraPointsTriangulationSettings_Get_outSmallestMap</definition>
+        <argsstring>(const MR_CameraPointsTriangulationSettings *_this)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_Get_outSmallestMap</name>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if not null, receives the result of findSmallestCloseVertices on the image-plane positions: each point is mapped to the point it was merged into (or to itself); left unchanged if weldPixels &lt;= 0 Returns a pointer to a member variable of class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> named <computeroutput>outSmallestMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="73" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="73" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a65c18ac0ad41f47f50eedbdc8d124cb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CameraPointsTriangulationSettings_Set_outSmallestMap</definition>
+        <argsstring>(MR_CameraPointsTriangulationSettings *_this, MR_VertMap *value)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_Set_outSmallestMap</name>
+        <param>
+          <type><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if not null, receives the result of findSmallestCloseVertices on the image-plane positions: each point is mapped to the point it was merged into (or to itself); left unchanged if weldPixels &lt;= 0 Modifies a member variable of class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> named <computeroutput>outSmallestMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outSmallestMap</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outSmallestMap</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="81" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a49fc7c6e68dc578b84ff703bf9aca04b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
+        <definition>MRC_API MR_VertMap ** MR_CameraPointsTriangulationSettings_GetMutable_outSmallestMap</definition>
+        <argsstring>(MR_CameraPointsTriangulationSettings *_this)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_GetMutable_outSmallestMap</name>
+        <param>
+          <type><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if not null, receives the result of findSmallestCloseVertices on the image-plane positions: each point is mapped to the point it was merged into (or to itself); left unchanged if weldPixels &lt;= 0 Returns a mutable pointer to a member variable of class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> named <computeroutput>outSmallestMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="89" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="89" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1af9f420fab0ccef9ebb906cdff1625442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *const *</type>
+        <definition>MRC_API MR_VertCoords *const  * MR_CameraPointsTriangulationSettings_Get_outProjectedPoints</definition>
+        <argsstring>(const MR_CameraPointsTriangulationSettings *_this)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_Get_outProjectedPoints</name>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if not null, receives the image-plane coordinates of all points as ( x, -y, 1 ) with y mirrored, for welded points these are the coordinates of the averaged position, for invalid cloud points zeros Returns a pointer to a member variable of class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> named <computeroutput>outProjectedPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="97" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="97" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a53ded38b0db5c84d7ed8c090758e5e7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CameraPointsTriangulationSettings_Set_outProjectedPoints</definition>
+        <argsstring>(MR_CameraPointsTriangulationSettings *_this, MR_VertCoords *value)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_Set_outProjectedPoints</name>
+        <param>
+          <type><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if not null, receives the image-plane coordinates of all points as ( x, -y, 1 ) with y mirrored, for welded points these are the coordinates of the averaged position, for invalid cloud points zeros Modifies a member variable of class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> named <computeroutput>outProjectedPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>outProjectedPoints</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>outProjectedPoints</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="105" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="105" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1ae2797519ad621a9a58c36d6e73935653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> **</type>
+        <definition>MRC_API MR_VertCoords ** MR_CameraPointsTriangulationSettings_GetMutable_outProjectedPoints</definition>
+        <argsstring>(MR_CameraPointsTriangulationSettings *_this)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_GetMutable_outProjectedPoints</name>
+        <param>
+          <type><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if not null, receives the image-plane coordinates of all points as ( x, -y, 1 ) with y mirrored, for welded points these are the coordinates of the averaged position, for invalid cloud points zeros Returns a mutable pointer to a member variable of class <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> named <computeroutput>outProjectedPoints</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="113" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="113" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1afe1a0d5ece25ec5ab4c50963348db0d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+        <definition>MRC_API MR_CameraPointsTriangulationSettings * MR_CameraPointsTriangulationSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCameraPointsTriangulation_8h_1a13644ccef4657f6b9e83c7bcd04a8adc" kindref="member">MR_CameraPointsTriangulationSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="117" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="117" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a711df224e199541bfcc18b084b570d42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+        <definition>MRC_API MR_CameraPointsTriangulationSettings * MR_CameraPointsTriangulationSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRCameraPointsTriangulation_8h_1a5140d0fe9aee4628c5467332091146e9" kindref="member">MR_CameraPointsTriangulationSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRCameraPointsTriangulation_8h_1a8015fcbbb7464cf98d1a1d6ab20144bf" kindref="member">MR_CameraPointsTriangulationSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRCameraPointsTriangulation_8h_1a22ad44ca063d942dd5d732852a156999" kindref="member">MR_CameraPointsTriangulationSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="122" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="122" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1ab2007628dd17527da23eb6d712fed882" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+        <definition>MRC_API MR_CameraPointsTriangulationSettings * MR_CameraPointsTriangulationSettings_ConstructFrom</definition>
+        <argsstring>(MR_Matrix3f intrinsics, float weldPixels, MR_VertMap *outSmallestMap, MR_VertCoords *outProjectedPoints)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_ConstructFrom</name>
+        <param>
+          <type><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref></type>
+          <declname>intrinsics</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weldPixels</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *</type>
+          <declname>outSmallestMap</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>outProjectedPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::CameraPointsTriangulationSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>intrinsics</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outSmallestMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outProjectedPoints</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCameraPointsTriangulation_8h_1a13644ccef4657f6b9e83c7bcd04a8adc" kindref="member">MR_CameraPointsTriangulationSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="130" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="130" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a22ad44ca063d942dd5d732852a156999" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+        <definition>MRC_API const MR_CameraPointsTriangulationSettings * MR_CameraPointsTriangulationSettings_OffsetPtr</definition>
+        <argsstring>(const MR_CameraPointsTriangulationSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="134" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="134" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a8015fcbbb7464cf98d1a1d6ab20144bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+        <definition>MRC_API MR_CameraPointsTriangulationSettings * MR_CameraPointsTriangulationSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_CameraPointsTriangulationSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="138" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="138" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1aada5147e1419f50698048babdf363aaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+        <definition>MRC_API MR_CameraPointsTriangulationSettings * MR_CameraPointsTriangulationSettings_ConstructFromAnother</definition>
+        <argsstring>(const MR_CameraPointsTriangulationSettings *_other)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::CameraPointsTriangulationSettings::CameraPointsTriangulationSettings</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCameraPointsTriangulation_8h_1a13644ccef4657f6b9e83c7bcd04a8adc" kindref="member">MR_CameraPointsTriangulationSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="144" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="144" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a13644ccef4657f6b9e83c7bcd04a8adc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CameraPointsTriangulationSettings_Destroy</definition>
+        <argsstring>(const MR_CameraPointsTriangulationSettings *_this)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a5140d0fe9aee4628c5467332091146e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CameraPointsTriangulationSettings_DestroyArray</definition>
+        <argsstring>(const MR_CameraPointsTriangulationSettings *_this)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="150" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a4ddfbc9280d13f0d5397d241e2115f59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+        <definition>MRC_API MR_CameraPointsTriangulationSettings * MR_CameraPointsTriangulationSettings_AssignFromAnother</definition>
+        <argsstring>(MR_CameraPointsTriangulationSettings *_this, const MR_CameraPointsTriangulationSettings *_other)</argsstring>
+        <name>MR_CameraPointsTriangulationSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::CameraPointsTriangulationSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="158" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="158" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a9cea52a80618a22bdea3358c416491ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_triangulateCameraPoints_const_MR_VertCoords_ref</definition>
+        <argsstring>(const MR_VertCoords *points, const MR_CameraPointsTriangulationSettings *settings, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_triangulateCameraPoints_const_MR_VertCoords_ref</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a mesh from points seen by one pinhole camera (e.g. the points obtained by stereo triangulation of a single frame): points are projected in the image plane, Delaunay-triangulated there (see delaunayTriangulationXY), and the triangulation is lifted back on the original 3D points, so the result is a height field over the image without self-intersections <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>points</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>coordinates in the camera space (the camera is at the origin and looks along +Z), all points must have positive z </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mesh with triangles oriented toward the camera; vertex ids are the same as in <computeroutput>points</computeroutput>, and the points merged into others by welding become invalid vertices; the triangles bridging holes in the sampling or depth steps can be removed afterwards by deleteFacesWithLongEdges Generated from function <computeroutput>MR::triangulateCameraPoints</computeroutput>. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Mesh__std__string_8h_1adf45ed943c3005d85a9baaa15feb26f1" kindref="member">MR_expected_MR_Mesh_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="173" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="173" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a087f910c38ab72ed1f7089f6e766de47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_triangulateCameraPoints_const_MR_PointCloud_ref</definition>
+        <argsstring>(const MR_PointCloud *cloud, const MR_CameraPointsTriangulationSettings *settings, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_triangulateCameraPoints_const_MR_PointCloud_ref</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>same as above, but only valid points of the cloud participate in the triangulation (invalid points become invalid vertices) Generated from function <computeroutput>MR::triangulateCameraPoints</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Mesh__std__string_8h_1adf45ed943c3005d85a9baaa15feb26f1" kindref="member">MR_expected_MR_Mesh_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="182" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="182" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCameraPointsTriangulation_8h_1a159ec807329a944e6ae9057355f22a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_triangulateCameraPoints_MR_PointCloud_rvalue_ref</definition>
+        <argsstring>(MR_PointCloud *cloud, const MR_CameraPointsTriangulationSettings *settings, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_triangulateCameraPoints_MR_PointCloud_rvalue_ref</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>same as above, but moves cloud points into the resulting mesh instead of copying them Generated from function <computeroutput>MR::triangulateCameraPoints</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Mesh__std__string_8h_1adf45ed943c3005d85a9baaa15feb26f1" kindref="member">MR_expected_MR_Mesh_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" line="193" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h" declline="193" declcolumn="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRMatrix3_8h" kindref="compound">MRCMesh/MRMatrix3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRCameraPointsTriangulation_8h_1af2ba360d8812a2e787179c320f8b8925" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1af2ba360d8812a2e787179c320f8b8925" kindref="member">MR_CameraPointsTriangulationSettings_Get_intrinsics</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRCameraPointsTriangulation_8h_1ab6c57f4225d65d09ca099eed6d2e079a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ab6c57f4225d65d09ca099eed6d2e079a" kindref="member">MR_CameraPointsTriangulationSettings_Set_intrinsics</ref>(<ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this,<sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRCameraPointsTriangulation_8h_1a70302a52f9397c16e02a42e3fbeabb4e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1a70302a52f9397c16e02a42e3fbeabb4e" kindref="member">MR_CameraPointsTriangulationSettings_GetMutable_intrinsics</ref>(<ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRCameraPointsTriangulation_8h_1ae68479748e89afeff441e3a797bfa51e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1ae68479748e89afeff441e3a797bfa51e" kindref="member">MR_CameraPointsTriangulationSettings_Get_weldPixels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRCameraPointsTriangulation_8h_1aa279b40e5a81f13a1eb0b8e81907ca60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1aa279b40e5a81f13a1eb0b8e81907ca60" kindref="member">MR_CameraPointsTriangulationSettings_Set_weldPixels</ref>(<ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRCameraPointsTriangulation_8h_1aa5d61bcbce12e97d4ea8cb87d48f98ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1aa5d61bcbce12e97d4ea8cb87d48f98ac" kindref="member">MR_CameraPointsTriangulationSettings_GetMutable_weldPixels</ref>(<ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRCameraPointsTriangulation_8h_1afbde8753509cf4fc823bde9dbeeda572" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1afbde8753509cf4fc823bde9dbeeda572" kindref="member">MR_CameraPointsTriangulationSettings_Get_outSmallestMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRCameraPointsTriangulation_8h_1a65c18ac0ad41f47f50eedbdc8d124cb9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1a65c18ac0ad41f47f50eedbdc8d124cb9" kindref="member">MR_CameraPointsTriangulationSettings_Set_outSmallestMap</ref>(<ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRCameraPointsTriangulation_8h_1a49fc7c6e68dc578b84ff703bf9aca04b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRCameraPointsTriangulation_8h_1a49fc7c6e68dc578b84ff703bf9aca04b" kindref="member">MR_CameraPointsTriangulationSettings_GetMutable_outSmallestMap</ref>(<ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRCameraPointsTriangulation_8h_1af9f420fab0ccef9ebb906cdff1625442" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1af9f420fab0ccef9ebb906cdff1625442" kindref="member">MR_CameraPointsTriangulationSettings_Get_outProjectedPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRCameraPointsTriangulation_8h_1a53ded38b0db5c84d7ed8c090758e5e7d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1a53ded38b0db5c84d7ed8c090758e5e7d" kindref="member">MR_CameraPointsTriangulationSettings_Set_outProjectedPoints</ref>(<ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRCameraPointsTriangulation_8h_1ae2797519ad621a9a58c36d6e73935653" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>**<ref refid="MRCameraPointsTriangulation_8h_1ae2797519ad621a9a58c36d6e73935653" kindref="member">MR_CameraPointsTriangulationSettings_GetMutable_outProjectedPoints</ref>(<ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRCameraPointsTriangulation_8h_1afe1a0d5ece25ec5ab4c50963348db0d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1afe1a0d5ece25ec5ab4c50963348db0d4" kindref="member">MR_CameraPointsTriangulationSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRCameraPointsTriangulation_8h_1a711df224e199541bfcc18b084b570d42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1a711df224e199541bfcc18b084b570d42" kindref="member">MR_CameraPointsTriangulationSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRCameraPointsTriangulation_8h_1ab2007628dd17527da23eb6d712fed882" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1ab2007628dd17527da23eb6d712fed882" kindref="member">MR_CameraPointsTriangulationSettings_ConstructFrom</ref>(<ref refid="structMR__Matrix3f" kindref="compound">MR_Matrix3f</ref><sp/>intrinsics,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>weldPixels,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*outSmallestMap,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*outProjectedPoints);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="MRCameraPointsTriangulation_8h_1a22ad44ca063d942dd5d732852a156999" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1a22ad44ca063d942dd5d732852a156999" kindref="member">MR_CameraPointsTriangulationSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRCameraPointsTriangulation_8h_1a8015fcbbb7464cf98d1a1d6ab20144bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1a8015fcbbb7464cf98d1a1d6ab20144bf" kindref="member">MR_CameraPointsTriangulationSettings_OffsetMutablePtr</ref>(<ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="MRCameraPointsTriangulation_8h_1aada5147e1419f50698048babdf363aaf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1aada5147e1419f50698048babdf363aaf" kindref="member">MR_CameraPointsTriangulationSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRCameraPointsTriangulation_8h_1a13644ccef4657f6b9e83c7bcd04a8adc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1a13644ccef4657f6b9e83c7bcd04a8adc" kindref="member">MR_CameraPointsTriangulationSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRCameraPointsTriangulation_8h_1a5140d0fe9aee4628c5467332091146e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1a5140d0fe9aee4628c5467332091146e9" kindref="member">MR_CameraPointsTriangulationSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRCameraPointsTriangulation_8h_1a4ddfbc9280d13f0d5397d241e2115f59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1a4ddfbc9280d13f0d5397d241e2115f59" kindref="member">MR_CameraPointsTriangulationSettings_AssignFromAnother</ref>(<ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRCameraPointsTriangulation_8h_1a9cea52a80618a22bdea3358c416491ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1a9cea52a80618a22bdea3358c416491ba" kindref="member">MR_triangulateCameraPoints_const_MR_VertCoords_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRCameraPointsTriangulation_8h_1a087f910c38ab72ed1f7089f6e766de47" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1a087f910c38ab72ed1f7089f6e766de47" kindref="member">MR_triangulateCameraPoints_const_MR_PointCloud_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRCameraPointsTriangulation_8h_1a159ec807329a944e6ae9057355f22a1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRCameraPointsTriangulation_8h_1a159ec807329a944e6ae9057355f22a1e" kindref="member">MR_triangulateCameraPoints_MR_PointCloud_rvalue_ref</ref>(<ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kindref="member">MR_CameraPointsTriangulationSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCameraPointsTriangulation.h"/>
+  </compounddef>
+</doxygen>

@@ -1001,6 +1001,12 @@
     <member refid="group__GeneralGroup_1ga8db9dbabafdd09e59c1024801023714d" kind="function"><name>autofit_</name></member>
     <member refid="group__GeneralGroup_1gab1bda1ad0175c8eb29937d2f0fd37548" kind="function"><name>getCamera_</name></member>
   </compound>
+  <compound refid="structMR_1_1CameraPointsTriangulationSettings" kind="struct"><name>MR::CameraPointsTriangulationSettings</name>
+    <member refid="group__GeneralGroup_1gafa802ce05f0836466b3ed6f087bd9f72" kind="variable"><name>intrinsics</name></member>
+    <member refid="group__GeneralGroup_1ga99a952155e869aac1012346df7c9adad" kind="variable"><name>weldPixels</name></member>
+    <member refid="group__GeneralGroup_1gaa68b17ccbae594b7c14e212cfb0c8d76" kind="variable"><name>outSmallestMap</name></member>
+    <member refid="group__GeneralGroup_1ga1107946dc94ab13ff2e36600f32d24ea" kind="variable"><name>outProjectedPoints</name></member>
+  </compound>
   <compound refid="structMR_1_1EdgePathsBuilderT_1_1CandidateVert" kind="struct"><name>MR::EdgePathsBuilderT::CandidateVert</name>
     <member refid="group__GeneralGroup_1ga36a3edb3148be58b6f020a1df9723df8" kind="variable"><name>v</name></member>
     <member refid="group__GeneralGroup_1gae535b54cf5106417da209d0f0dbcc42a" kind="variable"><name>penalty</name></member>
@@ -14693,6 +14699,9 @@
     <member refid="group__BoxGroup_1ga76c5563a8f378f26e9e7cd06542fc0bf" kind="function"><name>get</name></member>
     <member refid="group__GeneralGroup_1ga6925a647a7b6367122e6ae1212993a2b" kind="function"><name>getAt</name></member>
     <member refid="group__GeneralGroup_1gab5fd6e1a390fa8c05a8ad7006709dbf2" kind="function"><name>compose</name></member>
+    <member refid="group__GeneralGroup_1ga868201390f7de0a75f629ef7dfed0aa9" kind="function"><name>triangulateCameraPoints</name></member>
+    <member refid="group__GeneralGroup_1ga3619e11f13e5c6e182d8c26d6df842fa" kind="function"><name>triangulateCameraPoints</name></member>
+    <member refid="group__GeneralGroup_1gad7441787d340a0a0452bcd5f396360c3" kind="function"><name>triangulateCameraPoints</name></member>
     <member refid="group__GeneralGroup_1ga366a97494bd771a33e8d3bbacad944a9" kind="function"><name>Localtime</name></member>
     <member refid="group__GeneralGroup_1gad36e8ac1954499755bc5a0d1259fc529" kind="function"><name>LocaltimeOrZero</name></member>
     <member refid="group__GeneralGroup_1ga9457a97e2861090bf3dec6d35b87530c" kind="function"><name>chunkCount</name></member>
@@ -15091,6 +15100,7 @@
     <member refid="group__MeshFixerGroup_1gafd47b9faed25bf5ffcb8a57264c890b1" kind="function"><name>findDegenerateFaces</name></member>
     <member refid="group__MeshFixerGroup_1ga6eafb1189e4c2e117a06c36ae2b67fd5" kind="function"><name>findNotSmoothFaces</name></member>
     <member refid="group__MeshFixerGroup_1ga3d72f926edb3f593c53583fba7398538" kind="function"><name>findShortEdges</name></member>
+    <member refid="group__MeshFixerGroup_1ga070d3e16e2fb8549c1d840e8595948bd" kind="function"><name>deleteFacesWithLongEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga1e63ddf91205ab34304a9ff3b2b550a2" kind="function"><name>fixMeshDegeneracies</name></member>
     <member refid="group__MeshFixerGroup_1ga83684a28016ea3e3feadd7c643905e6d" kind="function"><name>findInnerVertsOfDegree</name></member>
     <member refid="group__MeshFixerGroup_1ga754a74fa515375b32aee32394abe05f6" kind="function"><name>isEdgeBetweenDoubleTris</name></member>
@@ -17361,6 +17371,8 @@
   </compound>
   <compound refid="MRBuffer_8h" kind="file"><name>MRBuffer.h</name>
   </compound>
+  <compound refid="MRCameraPointsTriangulation_8h" kind="file"><name>MRCameraPointsTriangulation.h</name>
+  </compound>
   <compound refid="MRCanonicalTypedefs_8h" kind="file"><name>MRCanonicalTypedefs.h</name>
     <member refid="MRCanonicalTypedefs_8h_1a011d44bc0918ffa467a5150bc8a81e03" kind="define"><name>MR_CANONICAL_TYPEDEFS</name></member>
     <member refid="MRCanonicalTypedefs_8h_1abbdf37435c9fc8f0138b1bd0133c1d17" kind="define"><name>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_BODY</name></member>
@@ -19555,6 +19567,7 @@
     <member refid="group__MeshFixerGroup_1gafd47b9faed25bf5ffcb8a57264c890b1" kind="function"><name>findDegenerateFaces</name></member>
     <member refid="group__MeshFixerGroup_1ga6eafb1189e4c2e117a06c36ae2b67fd5" kind="function"><name>findNotSmoothFaces</name></member>
     <member refid="group__MeshFixerGroup_1ga3d72f926edb3f593c53583fba7398538" kind="function"><name>findShortEdges</name></member>
+    <member refid="group__MeshFixerGroup_1ga070d3e16e2fb8549c1d840e8595948bd" kind="function"><name>deleteFacesWithLongEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga1e63ddf91205ab34304a9ff3b2b550a2" kind="function"><name>fixMeshDegeneracies</name></member>
     <member refid="group__MeshFixerGroup_1ga83684a28016ea3e3feadd7c643905e6d" kind="function"><name>findInnerVertsOfDegree</name></member>
     <member refid="group__MeshFixerGroup_1ga754a74fa515375b32aee32394abe05f6" kind="function"><name>isEdgeBetweenDoubleTris</name></member>
@@ -22009,6 +22022,10 @@
     <member refid="group__GeneralGroup_1ga064cdbdc31f7c5de6f7cb77f75c1a962" kind="variable"><name>e</name></member>
     <member refid="group__GeneralGroup_1ga53564598fd272bd72bf4ea9a97a2340a" kind="variable"><name>f</name></member>
     <member refid="group__GeneralGroup_1ga3080324e4d0c9556be1e426c7a87ff79" kind="variable"><name>v</name></member>
+    <member refid="group__GeneralGroup_1gafa802ce05f0836466b3ed6f087bd9f72" kind="variable"><name>intrinsics</name></member>
+    <member refid="group__GeneralGroup_1ga99a952155e869aac1012346df7c9adad" kind="variable"><name>weldPixels</name></member>
+    <member refid="group__GeneralGroup_1gaa68b17ccbae594b7c14e212cfb0c8d76" kind="variable"><name>outSmallestMap</name></member>
+    <member refid="group__GeneralGroup_1ga1107946dc94ab13ff2e36600f32d24ea" kind="variable"><name>outProjectedPoints</name></member>
     <member refid="group__GeneralGroup_1gacc8589e249e872fd671d3e6bda89f90e" kind="variable"><name>obj_</name></member>
     <member refid="group__GeneralGroup_1ga9ceddbae75615ccd4de4e08c89bc6804" kind="variable"><name>type_</name></member>
     <member refid="group__GeneralGroup_1gaf535b50d7d5f119801de7487d5185b6f" kind="variable"><name>colors_</name></member>
@@ -25732,6 +25749,9 @@
     <member refid="group__GeneralGroup_1ga7351432c6f65b963c17560ef8054076c" kind="function"><name>heapBytes</name></member>
     <member refid="group__GeneralGroup_1ga6925a647a7b6367122e6ae1212993a2b" kind="function"><name>getAt</name></member>
     <member refid="group__GeneralGroup_1gab5fd6e1a390fa8c05a8ad7006709dbf2" kind="function"><name>compose</name></member>
+    <member refid="group__GeneralGroup_1ga868201390f7de0a75f629ef7dfed0aa9" kind="function"><name>triangulateCameraPoints</name></member>
+    <member refid="group__GeneralGroup_1ga3619e11f13e5c6e182d8c26d6df842fa" kind="function"><name>triangulateCameraPoints</name></member>
+    <member refid="group__GeneralGroup_1gad7441787d340a0a0452bcd5f396360c3" kind="function"><name>triangulateCameraPoints</name></member>
     <member refid="group__GeneralGroup_1ga0a70aa0463c05950aea6686ecc817d30" kind="function"><name>ChangeObjectColorAction</name></member>
     <member refid="group__GeneralGroup_1gada33e7dca54e7e04d9815765bed5fdfe" kind="function"><name>name</name></member>
     <member refid="group__GeneralGroup_1gafe3b10ca2078780fe08c4e06a3cb8eb3" kind="function"><name>action</name></member>

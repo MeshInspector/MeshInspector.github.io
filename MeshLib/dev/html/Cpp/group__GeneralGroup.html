@@ -333,6 +333,7 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ABMap_3C_20T_2C_20I_20_3E" id="r_MR_3A_3ABMap_3C_20T_2C_20I_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BMap.html">MR::BMap&lt; T, I &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">flat map: I -&gt; T  <a href="structMR_1_1BMap.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3APackMapping" id="r_MR_3A_3APackMapping"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PackMapping.html">MR::PackMapping</a></td></tr>
+<tr class="memitem:MR_3A_3ACameraPointsTriangulationSettings" id="r_MR_3A_3ACameraPointsTriangulationSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CameraPointsTriangulationSettings.html">MR::CameraPointsTriangulationSettings</a></td></tr>
 <tr class="memitem:MR_3A_3AChangeObjectColorAction" id="r_MR_3A_3AChangeObjectColorAction"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeObjectColorAction.html">MR::ChangeObjectColorAction</a></td></tr>
 <tr class="memitem:MR_3A_3AChangeFacesColorMapAction" id="r_MR_3A_3AChangeFacesColorMapAction"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeFacesColorMapAction.html">MR::ChangeFacesColorMapAction</a></td></tr>
 <tr class="memitem:MR_3A_3AChangeLinesColorMapAction" id="r_MR_3A_3AChangeLinesColorMapAction"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeLinesColorMapAction.html">MR::ChangeLinesColorMapAction</a></td></tr>
@@ -3694,6 +3695,11 @@ Functions</h2></td></tr>
 <tr class="memitem:gab5fd6e1a390fa8c05a8ad7006709dbf2" id="r_gab5fd6e1a390fa8c05a8ad7006709dbf2"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gab5fd6e1a390fa8c05a8ad7006709dbf2 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1BMap.html">BMap</a>&lt; T, T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab5fd6e1a390fa8c05a8ad7006709dbf2">MR::compose</a> (const <a class="el" href="structMR_1_1BMap.html">BMap</a>&lt; T, T &gt; &amp;a, const <a class="el" href="structMR_1_1BMap.html">BMap</a>&lt; T, T &gt; &amp;b)</td></tr>
 <tr class="memdesc:gab5fd6e1a390fa8c05a8ad7006709dbf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the composition of two mappings x -&gt; a(b(x))  <br /></td></tr>
+<tr class="memitem:ga868201390f7de0a75f629ef7dfed0aa9" id="r_ga868201390f7de0a75f629ef7dfed0aa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga868201390f7de0a75f629ef7dfed0aa9">MR::triangulateCameraPoints</a> (const VertCoords &amp;points, const <a class="el" href="structMR_1_1CameraPointsTriangulationSettings.html">CameraPointsTriangulationSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memitem:ga3619e11f13e5c6e182d8c26d6df842fa" id="r_ga3619e11f13e5c6e182d8c26d6df842fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3619e11f13e5c6e182d8c26d6df842fa">MR::triangulateCameraPoints</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1CameraPointsTriangulationSettings.html">CameraPointsTriangulationSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:ga3619e11f13e5c6e182d8c26d6df842fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, but only valid points of the cloud participate in the triangulation (invalid points become invalid vertices)  <br /></td></tr>
+<tr class="memitem:gad7441787d340a0a0452bcd5f396360c3" id="r_gad7441787d340a0a0452bcd5f396360c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad7441787d340a0a0452bcd5f396360c3">MR::triangulateCameraPoints</a> (<a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&amp;cloud, const <a class="el" href="structMR_1_1CameraPointsTriangulationSettings.html">CameraPointsTriangulationSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:gad7441787d340a0a0452bcd5f396360c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, but moves cloud points into the resulting mesh instead of copying them  <br /></td></tr>
 <tr class="memitem:ga0a70aa0463c05950aea6686ecc817d30" id="r_ga0a70aa0463c05950aea6686ecc817d30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0a70aa0463c05950aea6686ecc817d30">MR::ChangeObjectColorAction::ChangeObjectColorAction</a> (const std::string &amp;<a class="el" href="#gada33e7dca54e7e04d9815765bed5fdfe">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, <a class="el" href="#gaadf478d3d29a773bd02b96beae263a51">Type</a> type)</td></tr>
 <tr class="memdesc:ga0a70aa0463c05950aea6686ecc817d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructed from original obj.  <br /></td></tr>
 <tr class="memitem:gada33e7dca54e7e04d9815765bed5fdfe" id="r_gada33e7dca54e7e04d9815765bed5fdfe"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gada33e7dca54e7e04d9815765bed5fdfe">MR::ChangeObjectColorAction::name</a> () const override</td></tr>
@@ -11863,6 +11869,11 @@ Variables</h2></td></tr>
 <tr class="memitem:ga064cdbdc31f7c5de6f7cb77f75c1a962" id="r_ga064cdbdc31f7c5de6f7cb77f75c1a962"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga064cdbdc31f7c5de6f7cb77f75c1a962">MR::PackMapping::e</a></td></tr>
 <tr class="memitem:ga53564598fd272bd72bf4ea9a97a2340a" id="r_ga53564598fd272bd72bf4ea9a97a2340a"><td class="memItemLeft" align="right" valign="top">FaceBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga53564598fd272bd72bf4ea9a97a2340a">MR::PackMapping::f</a></td></tr>
 <tr class="memitem:ga3080324e4d0c9556be1e426c7a87ff79" id="r_ga3080324e4d0c9556be1e426c7a87ff79"><td class="memItemLeft" align="right" valign="top">VertBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3080324e4d0c9556be1e426c7a87ff79">MR::PackMapping::v</a></td></tr>
+<tr class="memitem:gafa802ce05f0836466b3ed6f087bd9f72" id="r_gafa802ce05f0836466b3ed6f087bd9f72"><td class="memItemLeft" align="right" valign="top">Matrix3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafa802ce05f0836466b3ed6f087bd9f72">MR::CameraPointsTriangulationSettings::intrinsics</a></td></tr>
+<tr class="memdesc:gafa802ce05f0836466b3ed6f087bd9f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">camera intrinsic matrix: the image-plane (pixel) position of a point p in camera space is ( K * p ).xy / ( K * p ).z  <br /></td></tr>
+<tr class="memitem:ga99a952155e869aac1012346df7c9adad" id="r_ga99a952155e869aac1012346df7c9adad"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga99a952155e869aac1012346df7c9adad">MR::CameraPointsTriangulationSettings::weldPixels</a> = 1</td></tr>
+<tr class="memitem:gaa68b17ccbae594b7c14e212cfb0c8d76" id="r_gaa68b17ccbae594b7c14e212cfb0c8d76"><td class="memItemLeft" align="right" valign="top">VertMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa68b17ccbae594b7c14e212cfb0c8d76">MR::CameraPointsTriangulationSettings::outSmallestMap</a> = nullptr</td></tr>
+<tr class="memitem:ga1107946dc94ab13ff2e36600f32d24ea" id="r_ga1107946dc94ab13ff2e36600f32d24ea"><td class="memItemLeft" align="right" valign="top">VertCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1107946dc94ab13ff2e36600f32d24ea">MR::CameraPointsTriangulationSettings::outProjectedPoints</a> = nullptr</td></tr>
 <tr class="memitem:ga67302698c90451ac1dbc264851582a22" id="r_ga67302698c90451ac1dbc264851582a22"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga67302698c90451ac1dbc264851582a22">MR::Chunk::offset</a></td></tr>
 <tr class="memdesc:ga67302698c90451ac1dbc264851582a22"><td class="mdescLeft">&#160;</td><td class="mdescRight">chunk offset  <br /></td></tr>
 <tr class="memitem:gadb4508fa30f32657421915e81df16da7" id="r_gadb4508fa30f32657421915e81df16da7"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb4508fa30f32657421915e81df16da7">MR::Chunk::size</a></td></tr>
@@ -186632,6 +186643,125 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga3619e11f13e5c6e182d8c26d6df842fa" name="ga3619e11f13e5c6e182d8c26d6df842fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3619e11f13e5c6e182d8c26d6df842fa">&#9670;&#160;</a></span>triangulateCameraPoints() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::triangulateCameraPoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CameraPointsTriangulationSettings.html">CameraPointsTriangulationSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCameraPointsTriangulation_8h.html">MRMesh/MRCameraPointsTriangulation.h</a>&gt;</code></p>
+
+<p>same as above, but only valid points of the cloud participate in the triangulation (invalid points become invalid vertices) </p>
+
+</div>
+</div>
+<a id="ga868201390f7de0a75f629ef7dfed0aa9" name="ga868201390f7de0a75f629ef7dfed0aa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga868201390f7de0a75f629ef7dfed0aa9">&#9670;&#160;</a></span>triangulateCameraPoints() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::triangulateCameraPoints </td>
+          <td>(</td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CameraPointsTriangulationSettings.html">CameraPointsTriangulationSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCameraPointsTriangulation_8h.html">MRMesh/MRCameraPointsTriangulation.h</a>&gt;</code></p>
+<p>Creates a mesh from points seen by one pinhole camera (e.g. the points obtained by stereo triangulation of a single frame): points are projected in the image plane, Delaunay-triangulated there (see delaunayTriangulationXY), and the triangulation is lifted back on the original 3D points, so the result is a height field over the image without self-intersections </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">points</td><td>coordinates in the camera space (the camera is at the origin and looks along +Z), all points must have positive z </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mesh with triangles oriented toward the camera; vertex ids are the same as in <code class="param">points</code>, and the points merged into others by welding become invalid vertices; the triangles bridging holes in the sampling or depth steps can be removed afterwards by deleteFacesWithLongEdges </dd></dl>
+
+</div>
+</div>
+<a id="gad7441787d340a0a0452bcd5f396360c3" name="gad7441787d340a0a0452bcd5f396360c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad7441787d340a0a0452bcd5f396360c3">&#9670;&#160;</a></span>triangulateCameraPoints() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::triangulateCameraPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CameraPointsTriangulationSettings.html">CameraPointsTriangulationSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCameraPointsTriangulation_8h.html">MRMesh/MRCameraPointsTriangulation.h</a>&gt;</code></p>
+
+<p>same as above, but moves cloud points into the resulting mesh instead of copying them </p>
+
+</div>
+</div>
 <a id="ga161bba00aa938095d492c1a6a2e5ac70" name="ga161bba00aa938095d492c1a6a2e5ac70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga161bba00aa938095d492c1a6a2e5ac70">&#9670;&#160;</a></span>triangulateContours() <span class="overload">[1/2]</span></h2>
 
@@ -214219,6 +214349,22 @@ template&lt;typename Accessor&gt; </div>
 
 </div>
 </div>
+<a id="gafa802ce05f0836466b3ed6f087bd9f72" name="gafa802ce05f0836466b3ed6f087bd9f72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa802ce05f0836466b3ed6f087bd9f72">&#9670;&#160;</a></span>intrinsics</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Matrix3f MR::CameraPointsTriangulationSettings::intrinsics</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>camera intrinsic matrix: the image-plane (pixel) position of a point p in camera space is ( K * p ).xy / ( K * p ).z </p>
+
+</div>
+</div>
 <a id="ga44726097595253c81b8abae8fe5fe91f" name="ga44726097595253c81b8abae8fe5fe91f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga44726097595253c81b8abae8fe5fe91f">&#9670;&#160;</a></span>invertedRotation_</h2>
 
@@ -222524,6 +222670,21 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga1107946dc94ab13ff2e36600f32d24ea" name="ga1107946dc94ab13ff2e36600f32d24ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1107946dc94ab13ff2e36600f32d24ea">&#9670;&#160;</a></span>outProjectedPoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertCoords* MR::CameraPointsTriangulationSettings::outProjectedPoints = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if not null, receives the image-plane coordinates of all points as ( x, -y, 1 ) with y mirrored, for welded points these are the coordinates of the averaged position, for invalid cloud points zeros </p>
+
+</div>
+</div>
 <a id="gab3fd176a4586472f781779fd1126f50c" name="gab3fd176a4586472f781779fd1126f50c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gab3fd176a4586472f781779fd1126f50c">&#9670;&#160;</a></span>outSharpEdges <span class="overload">[1/3]</span></h2>
 
@@ -222585,6 +222746,21 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p>the amount of offset for original mesh vertices </p>
+
+</div>
+</div>
+<a id="gaa68b17ccbae594b7c14e212cfb0c8d76" name="gaa68b17ccbae594b7c14e212cfb0c8d76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa68b17ccbae594b7c14e212cfb0c8d76">&#9670;&#160;</a></span>outSmallestMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertMap* MR::CameraPointsTriangulationSettings::outSmallestMap = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if not null, receives the result of findSmallestCloseVertices on the image-plane positions: each point is mapped to the point it was merged into (or to itself); left unchanged if weldPixels &lt;= 0 </p>
 
 </div>
 </div>
@@ -236934,6 +237110,21 @@ template&lt;typename ObjectT = Object&gt; </div>
 </div><div class="memdoc">
 
 <p>returns the coefficients of matching the search string for each tool found </p>
+
+</div>
+</div>
+<a id="ga99a952155e869aac1012346df7c9adad" name="ga99a952155e869aac1012346df7c9adad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga99a952155e869aac1012346df7c9adad">&#9670;&#160;</a></span>weldPixels</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::CameraPointsTriangulationSettings::weldPixels = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>points closer than this distance in the image plane are merged into one vertex located at their average position; non-positive value disables merging </p>
 
 </div>
 </div>

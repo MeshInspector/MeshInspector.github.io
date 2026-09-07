@@ -9,6 +9,7 @@
     <includes local="no">stdint.h</includes>
     <includedby refid="MRAddVisualPropertiesMixin_8h" local="no">MRAddVisualPropertiesMixin.h</includedby>
     <includedby refid="MRAffineXf_8h" local="no">MRAffineXf.h</includedby>
+    <includedby refid="MRCameraPointsTriangulation_8h" local="no">MRCameraPointsTriangulation.h</includedby>
     <includedby refid="MRCircleObject_8h" local="no">MRCircleObject.h</includedby>
     <includedby refid="MRConeObject_8h" local="no">MRConeObject.h</includedby>
     <includedby refid="MRCylinderObject_8h" local="no">MRCylinderObject.h</includedby>
@@ -196,6 +197,10 @@
         <label>MRBestFit.h</label>
         <link refid="MRBestFit_8h"/>
       </node>
+      <node id="60">
+        <label>MRCameraPointsTriangulation.h</label>
+        <link refid="MRCameraPointsTriangulation_8h"/>
+      </node>
       <node id="6">
         <label>MRCircleObject.h</label>
         <link refid="MRCircleObject_8h"/>
@@ -246,6 +251,8 @@
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>

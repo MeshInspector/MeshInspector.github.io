@@ -98,6 +98,7 @@
     <innerclass refid="classMR_1_1Buffer" prot="public">MR::Buffer</innerclass>
     <innerclass refid="structMR_1_1BMap" prot="public">MR::BMap</innerclass>
     <innerclass refid="structMR_1_1PackMapping" prot="public">MR::PackMapping</innerclass>
+    <innerclass refid="structMR_1_1CameraPointsTriangulationSettings" prot="public">MR::CameraPointsTriangulationSettings</innerclass>
     <innerclass refid="classMR_1_1ChangeObjectColorAction" prot="public">MR::ChangeObjectColorAction</innerclass>
     <innerclass refid="classMR_1_1ChangeFacesColorMapAction" prot="public">MR::ChangeFacesColorMapAction</innerclass>
     <innerclass refid="classMR_1_1ChangeLinesColorMapAction" prot="public">MR::ChangeLinesColorMapAction</innerclass>
@@ -24716,6 +24717,69 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRBuffer.h" line="147" column="14" bodyfile="MRMesh/MRBuffer.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gafa802ce05f0836466b3ed6f087bd9f72" prot="public" static="no" mutable="no">
+        <type>Matrix3f</type>
+        <definition>Matrix3f MR::CameraPointsTriangulationSettings::intrinsics</definition>
+        <argsstring></argsstring>
+        <name>intrinsics</name>
+        <qualifiedname>MR::CameraPointsTriangulationSettings::intrinsics</qualifiedname>
+        <briefdescription>
+<para>camera intrinsic matrix: the image-plane (pixel) position of a point p in camera space is ( K * p ).xy / ( K * p ).z </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCameraPointsTriangulation.h" line="17" column="14" bodyfile="MRMesh/MRCameraPointsTriangulation.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga99a952155e869aac1012346df7c9adad" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::CameraPointsTriangulationSettings::weldPixels</definition>
+        <argsstring></argsstring>
+        <name>weldPixels</name>
+        <qualifiedname>MR::CameraPointsTriangulationSettings::weldPixels</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>points closer than this distance in the image plane are merged into one vertex located at their average position; non-positive value disables merging </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCameraPointsTriangulation.h" line="21" column="11" bodyfile="MRMesh/MRCameraPointsTriangulation.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaa68b17ccbae594b7c14e212cfb0c8d76" prot="public" static="no" mutable="no">
+        <type>VertMap *</type>
+        <definition>VertMap* MR::CameraPointsTriangulationSettings::outSmallestMap</definition>
+        <argsstring></argsstring>
+        <name>outSmallestMap</name>
+        <qualifiedname>MR::CameraPointsTriangulationSettings::outSmallestMap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if not null, receives the result of findSmallestCloseVertices on the image-plane positions: each point is mapped to the point it was merged into (or to itself); left unchanged if weldPixels &lt;= 0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCameraPointsTriangulation.h" line="25" column="14" bodyfile="MRMesh/MRCameraPointsTriangulation.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga1107946dc94ab13ff2e36600f32d24ea" prot="public" static="no" mutable="no">
+        <type>VertCoords *</type>
+        <definition>VertCoords* MR::CameraPointsTriangulationSettings::outProjectedPoints</definition>
+        <argsstring></argsstring>
+        <name>outProjectedPoints</name>
+        <qualifiedname>MR::CameraPointsTriangulationSettings::outProjectedPoints</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if not null, receives the image-plane coordinates of all points as ( x, -y, 1 ) with y mirrored, for welded points these are the coordinates of the averaged position, for invalid cloud points zeros </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCameraPointsTriangulation.h" line="29" column="17" bodyfile="MRMesh/MRCameraPointsTriangulation.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacc8589e249e872fd671d3e6bda89f90e" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; VisualObject &gt;</type>
@@ -83269,6 +83333,101 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
 <para>invalid bx (=-1) will be casted to size_t(-1)</para>
         </inbodydescription>
         <location file="MRMesh/MRBuffer.h" line="152" column="6" bodyfile="MRMesh/MRBuffer.h" bodystart="152" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga868201390f7de0a75f629ef7dfed0aa9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::triangulateCameraPoints</definition>
+        <argsstring>(const VertCoords &amp;points, const CameraPointsTriangulationSettings &amp;settings, const ProgressCallback &amp;cb={})</argsstring>
+        <name>triangulateCameraPoints</name>
+        <qualifiedname>MR::triangulateCameraPoints</qualifiedname>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const CameraPointsTriangulationSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a mesh from points seen by one pinhole camera (e.g. the points obtained by stereo triangulation of a single frame): points are projected in the image plane, Delaunay-triangulated there (see delaunayTriangulationXY), and the triangulation is lifted back on the original 3D points, so the result is a height field over the image without self-intersections <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>points</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>coordinates in the camera space (the camera is at the origin and looks along +Z), all points must have positive z </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mesh with triangles oriented toward the camera; vertex ids are the same as in <computeroutput>points</computeroutput>, and the points merged into others by welding become invalid vertices; the triangles bridging holes in the sampling or depth steps can be removed afterwards by deleteFacesWithLongEdges </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCameraPointsTriangulation.h" line="39" column="12" declfile="MRMesh/MRCameraPointsTriangulation.h" declline="39" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga3619e11f13e5c6e182d8c26d6df842fa" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::triangulateCameraPoints</definition>
+        <argsstring>(const PointCloud &amp;cloud, const CameraPointsTriangulationSettings &amp;settings, const ProgressCallback &amp;cb={})</argsstring>
+        <name>triangulateCameraPoints</name>
+        <qualifiedname>MR::triangulateCameraPoints</qualifiedname>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const CameraPointsTriangulationSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>same as above, but only valid points of the cloud participate in the triangulation (invalid points become invalid vertices) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCameraPointsTriangulation.h" line="42" column="12" declfile="MRMesh/MRCameraPointsTriangulation.h" declline="42" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gad7441787d340a0a0452bcd5f396360c3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::triangulateCameraPoints</definition>
+        <argsstring>(PointCloud &amp;&amp;cloud, const CameraPointsTriangulationSettings &amp;settings, const ProgressCallback &amp;cb={})</argsstring>
+        <name>triangulateCameraPoints</name>
+        <qualifiedname>MR::triangulateCameraPoints</qualifiedname>
+        <param>
+          <type>PointCloud &amp;&amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const CameraPointsTriangulationSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>same as above, but moves cloud points into the resulting mesh instead of copying them </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCameraPointsTriangulation.h" line="45" column="12" declfile="MRMesh/MRCameraPointsTriangulation.h" declline="45" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0a70aa0463c05950aea6686ecc817d30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>

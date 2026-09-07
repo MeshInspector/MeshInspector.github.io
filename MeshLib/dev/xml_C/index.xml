@@ -5958,6 +5958,33 @@
     <member refid="MRBuffer_8h_1a7a59a0ce206684a949c23ffd7fad0d9e" kind="function"><name>MR_PackMapping_DestroyArray</name></member>
     <member refid="MRBuffer_8h_1af4120bd36c78ef88124c95e73df6873e" kind="function"><name>MR_PackMapping_AssignFromAnother</name></member>
   </compound>
+  <compound refid="MRCameraPointsTriangulation_8h" kind="file"><name>MRCameraPointsTriangulation.h</name>
+    <member refid="MRCameraPointsTriangulation_8h_1af57cf710f05cb1eeaf10d6a088652e50" kind="typedef"><name>MR_CameraPointsTriangulationSettings</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1af2ba360d8812a2e787179c320f8b8925" kind="function"><name>MR_CameraPointsTriangulationSettings_Get_intrinsics</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1ab6c57f4225d65d09ca099eed6d2e079a" kind="function"><name>MR_CameraPointsTriangulationSettings_Set_intrinsics</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a70302a52f9397c16e02a42e3fbeabb4e" kind="function"><name>MR_CameraPointsTriangulationSettings_GetMutable_intrinsics</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1ae68479748e89afeff441e3a797bfa51e" kind="function"><name>MR_CameraPointsTriangulationSettings_Get_weldPixels</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1aa279b40e5a81f13a1eb0b8e81907ca60" kind="function"><name>MR_CameraPointsTriangulationSettings_Set_weldPixels</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1aa5d61bcbce12e97d4ea8cb87d48f98ac" kind="function"><name>MR_CameraPointsTriangulationSettings_GetMutable_weldPixels</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1afbde8753509cf4fc823bde9dbeeda572" kind="function"><name>MR_CameraPointsTriangulationSettings_Get_outSmallestMap</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a65c18ac0ad41f47f50eedbdc8d124cb9" kind="function"><name>MR_CameraPointsTriangulationSettings_Set_outSmallestMap</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a49fc7c6e68dc578b84ff703bf9aca04b" kind="function"><name>MR_CameraPointsTriangulationSettings_GetMutable_outSmallestMap</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1af9f420fab0ccef9ebb906cdff1625442" kind="function"><name>MR_CameraPointsTriangulationSettings_Get_outProjectedPoints</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a53ded38b0db5c84d7ed8c090758e5e7d" kind="function"><name>MR_CameraPointsTriangulationSettings_Set_outProjectedPoints</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1ae2797519ad621a9a58c36d6e73935653" kind="function"><name>MR_CameraPointsTriangulationSettings_GetMutable_outProjectedPoints</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1afe1a0d5ece25ec5ab4c50963348db0d4" kind="function"><name>MR_CameraPointsTriangulationSettings_DefaultConstruct</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a711df224e199541bfcc18b084b570d42" kind="function"><name>MR_CameraPointsTriangulationSettings_DefaultConstructArray</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1ab2007628dd17527da23eb6d712fed882" kind="function"><name>MR_CameraPointsTriangulationSettings_ConstructFrom</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a22ad44ca063d942dd5d732852a156999" kind="function"><name>MR_CameraPointsTriangulationSettings_OffsetPtr</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a8015fcbbb7464cf98d1a1d6ab20144bf" kind="function"><name>MR_CameraPointsTriangulationSettings_OffsetMutablePtr</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1aada5147e1419f50698048babdf363aaf" kind="function"><name>MR_CameraPointsTriangulationSettings_ConstructFromAnother</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a13644ccef4657f6b9e83c7bcd04a8adc" kind="function"><name>MR_CameraPointsTriangulationSettings_Destroy</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a5140d0fe9aee4628c5467332091146e9" kind="function"><name>MR_CameraPointsTriangulationSettings_DestroyArray</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a4ddfbc9280d13f0d5397d241e2115f59" kind="function"><name>MR_CameraPointsTriangulationSettings_AssignFromAnother</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a9cea52a80618a22bdea3358c416491ba" kind="function"><name>MR_triangulateCameraPoints_const_MR_VertCoords_ref</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a087f910c38ab72ed1f7089f6e766de47" kind="function"><name>MR_triangulateCameraPoints_const_MR_PointCloud_ref</name></member>
+    <member refid="MRCameraPointsTriangulation_8h_1a159ec807329a944e6ae9057355f22a1e" kind="function"><name>MR_triangulateCameraPoints_MR_PointCloud_rvalue_ref</name></member>
+  </compound>
   <compound refid="MRChangeColoringActions_8h" kind="file"><name>MRChangeColoringActions.h</name>
     <member refid="MRChangeColoringActions_8h_1a9789518b7ebd15e444aa399fec82113b" kind="enum"><name>MR_ChangeObjectColorAction_Type</name></member>
     <member refid="MRChangeColoringActions_8h_1a9789518b7ebd15e444aa399fec82113bab7a5afbdff1adbd80b5608ae7243da51" kind="enumvalue"><name>MR_ChangeObjectColorAction_Type_Unselected</name></member>
@@ -14780,6 +14807,7 @@
     <member refid="MRMeshFixer_8h_1ad4166cb427726661e4c4b9874a8879db" kind="function"><name>MR_findDegenerateFaces</name></member>
     <member refid="MRMeshFixer_8h_1ad4b6b6782255c894c31af72ca4b7f47f" kind="function"><name>MR_findNotSmoothFaces</name></member>
     <member refid="MRMeshFixer_8h_1a17bd525f3bb0fdfbba5fb58f3e30759c" kind="function"><name>MR_findShortEdges</name></member>
+    <member refid="MRMeshFixer_8h_1a4e09dea25454889b940b16c035232e0d" kind="function"><name>MR_deleteFacesWithLongEdges</name></member>
     <member refid="MRMeshFixer_8h_1a12e0cafcff9650e26785f7a41e6d9572" kind="function"><name>MR_FixMeshDegeneraciesParams_Get_maxDeviation</name></member>
     <member refid="MRMeshFixer_8h_1a29613379c8b4b8d35b8d9000951b64b9" kind="function"><name>MR_FixMeshDegeneraciesParams_Set_maxDeviation</name></member>
     <member refid="MRMeshFixer_8h_1abba9cdab3f8d6bf64551b1a5fa4acae0" kind="function"><name>MR_FixMeshDegeneraciesParams_GetMutable_maxDeviation</name></member>

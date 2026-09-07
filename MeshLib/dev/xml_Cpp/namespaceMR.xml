@@ -55,6 +55,7 @@
     <innerclass refid="structMR_1_1BoxedLeaf" prot="public">MR::BoxedLeaf</innerclass>
     <innerclass refid="classMR_1_1Buffer" prot="public">MR::Buffer</innerclass>
     <innerclass refid="classMR_1_1CameraOrientation" prot="public">MR::CameraOrientation</innerclass>
+    <innerclass refid="structMR_1_1CameraPointsTriangulationSettings" prot="public">MR::CameraPointsTriangulationSettings</innerclass>
     <innerclass refid="classMR_1_1CaptureScreenshotMenuItem" prot="public">MR::CaptureScreenshotMenuItem</innerclass>
     <innerclass refid="classMR_1_1CaptureScreenshotToClipBoardMenuItem" prot="public">MR::CaptureScreenshotToClipBoardMenuItem</innerclass>
     <innerclass refid="classMR_1_1CaptureUIScreenshotMenuItem" prot="public">MR::CaptureUIScreenshotMenuItem</innerclass>
@@ -2188,6 +2189,9 @@
       <member refid="group__BoxGroup_1ga76c5563a8f378f26e9e7cd06542fc0bf" kind="function"><name>get</name></member>
       <member refid="group__GeneralGroup_1ga6925a647a7b6367122e6ae1212993a2b" kind="function"><name>getAt</name></member>
       <member refid="group__GeneralGroup_1gab5fd6e1a390fa8c05a8ad7006709dbf2" kind="function"><name>compose</name></member>
+      <member refid="group__GeneralGroup_1ga868201390f7de0a75f629ef7dfed0aa9" kind="function"><name>triangulateCameraPoints</name></member>
+      <member refid="group__GeneralGroup_1ga3619e11f13e5c6e182d8c26d6df842fa" kind="function"><name>triangulateCameraPoints</name></member>
+      <member refid="group__GeneralGroup_1gad7441787d340a0a0452bcd5f396360c3" kind="function"><name>triangulateCameraPoints</name></member>
       <member refid="group__GeneralGroup_1ga366a97494bd771a33e8d3bbacad944a9" kind="function"><name>Localtime</name></member>
       <member refid="group__GeneralGroup_1gad36e8ac1954499755bc5a0d1259fc529" kind="function"><name>LocaltimeOrZero</name></member>
       <member refid="group__GeneralGroup_1ga9457a97e2861090bf3dec6d35b87530c" kind="function"><name>chunkCount</name></member>
@@ -2586,6 +2590,7 @@
       <member refid="group__MeshFixerGroup_1gafd47b9faed25bf5ffcb8a57264c890b1" kind="function"><name>findDegenerateFaces</name></member>
       <member refid="group__MeshFixerGroup_1ga6eafb1189e4c2e117a06c36ae2b67fd5" kind="function"><name>findNotSmoothFaces</name></member>
       <member refid="group__MeshFixerGroup_1ga3d72f926edb3f593c53583fba7398538" kind="function"><name>findShortEdges</name></member>
+      <member refid="group__MeshFixerGroup_1ga070d3e16e2fb8549c1d840e8595948bd" kind="function"><name>deleteFacesWithLongEdges</name></member>
       <member refid="group__MeshFixerGroup_1ga1e63ddf91205ab34304a9ff3b2b550a2" kind="function"><name>fixMeshDegeneracies</name></member>
       <member refid="group__MeshFixerGroup_1ga83684a28016ea3e3feadd7c643905e6d" kind="function"><name>findInnerVertsOfDegree</name></member>
       <member refid="group__MeshFixerGroup_1ga754a74fa515375b32aee32394abe05f6" kind="function"><name>isEdgeBetweenDoubleTris</name></member>

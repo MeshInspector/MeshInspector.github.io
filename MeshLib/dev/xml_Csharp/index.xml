@@ -3052,6 +3052,18 @@
     <member refid="classMR_1_1Parallel_1_1CallSimplyMaker_1a4730ba3797bf4e176646749acd92eacf" kind="function"><name>CallSimplyMaker</name></member>
     <member refid="classMR_1_1Parallel_1_1CallSimplyMaker_1acbe38f6d945b374b34b9f97df6a4f09e" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1CameraPointsTriangulationSettings" kind="class"><name>MR::CameraPointsTriangulationSettings</name>
+    <member refid="classMR_1_1CameraPointsTriangulationSettings_1a897da607fd0647d5deca4d0137ed6d28" kind="property"><name>intrinsics</name></member>
+    <member refid="classMR_1_1CameraPointsTriangulationSettings_1a0dabb28e3ed5af796b5b1a4eecde58bf" kind="property"><name>weldPixels</name></member>
+    <member refid="classMR_1_1CameraPointsTriangulationSettings_1a5db609413c9dce21ca03c86856e39554" kind="property"><name>outSmallestMap</name></member>
+    <member refid="classMR_1_1CameraPointsTriangulationSettings_1ae1465c26afebd05c72f82bdba283d7bc" kind="property"><name>outProjectedPoints</name></member>
+    <member refid="classMR_1_1CameraPointsTriangulationSettings_1a1222f4c0ab5c2b675e47dbad3fd4fd02" kind="function"><name>CameraPointsTriangulationSettings</name></member>
+    <member refid="classMR_1_1CameraPointsTriangulationSettings_1a47a81cede1fdd4902fe097eed17851e1" kind="function"><name>CameraPointsTriangulationSettings</name></member>
+    <member refid="classMR_1_1CameraPointsTriangulationSettings_1ae6e056b815ef7222b31d237882e1d25a" kind="function"><name>CameraPointsTriangulationSettings</name></member>
+    <member refid="classMR_1_1CameraPointsTriangulationSettings_1a90799b21d4856c3561f3d2f83a0ec8ad" kind="function"><name>CameraPointsTriangulationSettings</name></member>
+    <member refid="classMR_1_1CameraPointsTriangulationSettings_1aebecab521d3f88f9135853e5ee842ea8" kind="function"><name>CameraPointsTriangulationSettings</name></member>
+    <member refid="classMR_1_1CameraPointsTriangulationSettings_1acffa15c0615a30b54f0380d9f84bcbfd" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__Pdf_1_1Cell" kind="class"><name>MR::Const_Pdf::Cell</name>
     <member refid="classMR_1_1Const__Pdf_1_1Cell_1ac8e0443607ecbff70260081cd10b0ed3" kind="property"><name>data</name></member>
     <member refid="classMR_1_1Const__Pdf_1_1Cell_1aaa4e4535438266a172309e97988312a3" kind="function"><name>Cell</name></member>
@@ -6050,6 +6062,24 @@
     <member refid="classMR_1_1Parallel_1_1Const__CallSimplyMaker_1acf31f80b8dd640993f8d294caef2a079" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Parallel_1_1Const__CallSimplyMaker_1a8336924e9788d29bc3e30e4b2dcd8826" kind="function"><name>~Const_CallSimplyMaker</name></member>
     <member refid="classMR_1_1Parallel_1_1Const__CallSimplyMaker_1a97fbfcdae38cc85155336bb18b44c99f" kind="function"><name>Const_CallSimplyMaker</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__CameraPointsTriangulationSettings" kind="class"><name>MR::Const_CameraPointsTriangulationSettings</name>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1adb2ed9c89de4a47a955489bb39a2e72f" kind="property"><name>intrinsics</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1af572e954a62d2099a006f3f2157dcc15" kind="property"><name>weldPixels</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1a0a377ba24f0c1b643898d57ce0f0fc14" kind="property"><name>outSmallestMap</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1a5ac6a57d2683e4d884c93c3c753fb381" kind="property"><name>outProjectedPoints</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1aa3bbcccb93fd60ed00b4864826635214" kind="variable"><name>__ref_storage_intrinsics</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1a00d330d7976a458d56bbd26ad1c82d38" kind="variable"><name>__ref_storage_weldPixels</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1a0b81644a972d0296cb7055b65bcbd7bd" kind="variable"><name>__ptr_storage_outSmallestMap</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1a0edf56608235ceb82c7d6d7ac0d2a847" kind="variable"><name>__ptr_storage_outProjectedPoints</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1af4be8f11fab190107057c2e060345775" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1a0e407c36fa78469fe1ca7aa78250aec3" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1a9f510838d958e4dd3d5b64f942e490ad" kind="function"><name>Const_CameraPointsTriangulationSettings</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1ac49a150da5d1c55c1328109fe1f9b218" kind="function"><name>Const_CameraPointsTriangulationSettings</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1a142fdfd62e17635725bf45feacc5b34e" kind="function"><name>Const_CameraPointsTriangulationSettings</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1aaef98c2b1c2187810cfee7d45aaa21a0" kind="function"><name>Const_CameraPointsTriangulationSettings</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1a8750b9d92c00bd7a71b065c6bebff9f3" kind="function"><name>~Const_CameraPointsTriangulationSettings</name></member>
+    <member refid="classMR_1_1Const__CameraPointsTriangulationSettings_1af588ce83c08cedd7802c02e3686b7c73" kind="function"><name>Const_CameraPointsTriangulationSettings</name></member>
   </compound>
   <compound refid="classMR_1_1Const__Pdf_1_1Const__Cell" kind="class"><name>MR::Const_Pdf::Const_Cell</name>
     <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1a74f44c0e42c1ca442f5422bf7a6e4823" kind="property"><name>data</name></member>
@@ -32634,6 +32664,9 @@
     <member refid="classMR_1a6d017ec0661d430852205f4e47b4b1d3" kind="function"><name>end</name></member>
     <member refid="classMR_1ab7afa217d30e2dbbae9b986512d12897" kind="function"><name>end</name></member>
     <member refid="classMR_1aec17d2c8eb20c148fa1951f0e2cd5be8" kind="function"><name>getAt</name></member>
+    <member refid="classMR_1a08725e0bb8a39f5a2a44c2d2e4c2535a" kind="function"><name>triangulateCameraPoints</name></member>
+    <member refid="classMR_1a4fbd89168c39935de95cab96e26f1c9a" kind="function"><name>triangulateCameraPoints</name></member>
+    <member refid="classMR_1af53dd3a401ca7717fa121a01a5ac5769" kind="function"><name>triangulateCameraPoints</name></member>
     <member refid="classMR_1a98b414dca4008a07be8cd8500c25ccdf" kind="function"><name>chunkCount</name></member>
     <member refid="classMR_1ab572097fb195b5011777d3165f4e95a3" kind="function"><name>splitByChunks</name></member>
     <member refid="classMR_1a5767e083088fd6530fb606001a7132ac" kind="function"><name>closestPointInTriangle</name></member>
@@ -33072,6 +33105,7 @@
     <member refid="classMR_1a4dff76f4b1533772fb89ca30405240ad" kind="function"><name>findDegenerateFaces</name></member>
     <member refid="classMR_1adcfd10de832d104a9cc341f39addfc9d" kind="function"><name>findNotSmoothFaces</name></member>
     <member refid="classMR_1a18d296c841db9ca6d6984fbd0b4672c4" kind="function"><name>findShortEdges</name></member>
+    <member refid="classMR_1aa1180c9d1583ff8c3e199e4962fdbef6" kind="function"><name>deleteFacesWithLongEdges</name></member>
     <member refid="classMR_1aedd1f11cf956f37d4ffb49f6d5f590c8" kind="function"><name>fixMeshDegeneracies</name></member>
     <member refid="classMR_1a60605fefa0bd7baed1a7039973ed4488" kind="function"><name>findInnerVertsOfDegree</name></member>
     <member refid="classMR_1a2aad8cde3ad7daeae5ea6ed7e582e657" kind="function"><name>isEdgeBetweenDoubleTris</name></member>
@@ -43672,6 +43706,8 @@
   <compound refid="MRBoxNesting_8cs" kind="file"><name>MRBoxNesting.cs</name>
   </compound>
   <compound refid="MRBuffer_8cs" kind="file"><name>MRBuffer.cs</name>
+  </compound>
+  <compound refid="MRCameraPointsTriangulation_8cs" kind="file"><name>MRCameraPointsTriangulation.cs</name>
   </compound>
   <compound refid="MRChangeColoringActions_8cs" kind="file"><name>MRChangeColoringActions.cs</name>
   </compound>

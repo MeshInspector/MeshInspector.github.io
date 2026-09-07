@@ -163,6 +163,7 @@
     <innerclass refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId" prot="public">MR::Buffer_MRVoxelId_MRVoxelId</innerclass>
     <innerclass refid="classMR_1_1Buffer__Uint64T" prot="public">MR::Buffer_Uint64T</innerclass>
     <innerclass refid="classMR_1_1Buffer__UnsignedChar" prot="public">MR::Buffer_UnsignedChar</innerclass>
+    <innerclass refid="classMR_1_1CameraPointsTriangulationSettings" prot="public">MR::CameraPointsTriangulationSettings</innerclass>
     <innerclass refid="classMR_1_1ChangeActiveBoxAction" prot="public">MR::ChangeActiveBoxAction</innerclass>
     <innerclass refid="classMR_1_1ChangeColoringType" prot="public">MR::ChangeColoringType</innerclass>
     <innerclass refid="classMR_1_1ChangeDualMarchingCubesAction" prot="public">MR::ChangeDualMarchingCubesAction</innerclass>
@@ -306,6 +307,7 @@
     <innerclass refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId" prot="public">MR::Const_Buffer_MRVoxelId_MRVoxelId</innerclass>
     <innerclass refid="classMR_1_1Const__Buffer__Uint64T" prot="public">MR::Const_Buffer_Uint64T</innerclass>
     <innerclass refid="classMR_1_1Const__Buffer__UnsignedChar" prot="public">MR::Const_Buffer_UnsignedChar</innerclass>
+    <innerclass refid="classMR_1_1Const__CameraPointsTriangulationSettings" prot="public">MR::Const_CameraPointsTriangulationSettings</innerclass>
     <innerclass refid="classMR_1_1Const__ChangeActiveBoxAction" prot="public">MR::Const_ChangeActiveBoxAction</innerclass>
     <innerclass refid="classMR_1_1Const__ChangeColoringType" prot="public">MR::Const_ChangeColoringType</innerclass>
     <innerclass refid="classMR_1_1Const__ChangeDualMarchingCubesAction" prot="public">MR::Const_ChangeDualMarchingCubesAction</innerclass>
@@ -8703,6 +8705,102 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="16479" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="16479" bodyend="16484"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a08725e0bb8a39f5a2a44c2d2e4c2535a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.triangulateCameraPoints</definition>
+        <argsstring>(MR.Const_VertCoords points, MR.Const_CameraPointsTriangulationSettings settings, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>triangulateCameraPoints</name>
+        <qualifiedname>MR.triangulateCameraPoints</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__CameraPointsTriangulationSettings" kindref="compound">MR.Const_CameraPointsTriangulationSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Creates a mesh from points seen by one pinhole camera (e.g. the points obtained by stereo triangulation of a single frame): points are projected in the image plane, Delaunay-triangulated there (see delaunayTriangulationXY), and the triangulation is lifted back on the original 3D points, so the result is a height field over the image without self-intersections. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>points</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>coordinates in the camera space (the camera is at the origin and looks along +Z), all points must have positive z </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mesh with triangles oriented toward the camera; vertex ids are the same as in <computeroutput>points</computeroutput>, and the points merged into others by welding become invalid vertices; the triangles bridging holes in the sampling or depth steps can be removed afterwards by deleteFacesWithLongEdges Generated from function <computeroutput><ref refid="classMR_1a08725e0bb8a39f5a2a44c2d2e4c2535a" kindref="member">MR.triangulateCameraPoints</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" line="315" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" bodystart="315" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a4fbd89168c39935de95cab96e26f1c9a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.triangulateCameraPoints</definition>
+        <argsstring>(MR.Const_PointCloud cloud, MR.Const_CameraPointsTriangulationSettings settings, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>triangulateCameraPoints</name>
+        <qualifiedname>MR.triangulateCameraPoints</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__CameraPointsTriangulationSettings" kindref="compound">MR.Const_CameraPointsTriangulationSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>same as above, but only valid points of the cloud participate in the triangulation (invalid points become invalid vertices) Generated from function <computeroutput><ref refid="classMR_1a08725e0bb8a39f5a2a44c2d2e4c2535a" kindref="member">MR.triangulateCameraPoints</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" line="330" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" bodystart="330" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1af53dd3a401ca7717fa121a01a5ac5769" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.triangulateCameraPoints</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.PointCloud &gt; cloud, MR.Const_CameraPointsTriangulationSettings settings, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>triangulateCameraPoints</name>
+        <qualifiedname>MR.triangulateCameraPoints</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref> &gt;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__CameraPointsTriangulationSettings" kindref="compound">MR.Const_CameraPointsTriangulationSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>same as above, but moves cloud points into the resulting mesh instead of copying them Generated from function <computeroutput><ref refid="classMR_1a08725e0bb8a39f5a2a44c2d2e4c2535a" kindref="member">MR.triangulateCameraPoints</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" line="345" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCameraPointsTriangulation.cs" bodystart="345" bodyend="353"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a98b414dca4008a07be8cd8500c25ccdf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -21415,6 +21513,29 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1051" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1051" bodyend="1059"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1aa1180c9d1583ff8c3e199e4962fdbef6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.deleteFacesWithLongEdges</definition>
+        <argsstring>(MR.Mesh mesh, float maxEdgeLength)</argsstring>
+        <name>deleteFacesWithLongEdges</name>
+        <qualifiedname>MR.deleteFacesWithLongEdges</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxEdgeLength</declname>
+        </param>
+        <briefdescription>
+<para>deletes all faces having at least one edge longer than maxEdgeLength Generated from function <computeroutput><ref refid="classMR_1aa1180c9d1583ff8c3e199e4962fdbef6" kindref="member">MR.deleteFacesWithLongEdges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1065" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1065" bodyend="1070"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1aedd1f11cf956f37d4ffb49f6d5f590c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.fixMeshDegeneracies</definition>
@@ -21436,7 +21557,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1065" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1065" bodyend="1072"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1076" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1076" bodyend="1083"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a60605fefa0bd7baed1a7039973ed4488" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -21464,7 +21585,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1078" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1078" bodyend="1083"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1089" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1089" bodyend="1094"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a2aad8cde3ad7daeae5ea6ed7e582e657" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -21487,7 +21608,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1089" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1089" bodyend="1094"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1100" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1100" bodyend="1105"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1d76581e3b2dff62e442c8bb46802970" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -21515,7 +21636,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1103" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1103" bodyend="1108"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1114" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1114" bodyend="1119"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a5f820df3bca9d4ae70609c8287619f6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -21543,7 +21664,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1115" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1115" bodyend="1120"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1126" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1126" bodyend="1131"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7a088a3f6722e92c81727faf3ce59e67" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -21566,7 +21687,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1126" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1126" bodyend="1131"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1137" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1137" bodyend="1142"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad9987f138db6444c564d29257bfa37d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -21594,7 +21715,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1140" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1140" bodyend="1145"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1151" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1151" bodyend="1156"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a59d2d98530c1b350e77c28f462f50e9d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
@@ -21634,7 +21755,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1153" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1153" bodyend="1158"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1164" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1164" bodyend="1169"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a192b7b02ccdd2771528e5d27270e57c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -21657,7 +21778,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1165" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1165" bodyend="1170"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1176" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1176" bodyend="1181"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1adfd960cc1ba0feee6837db6affd1d596" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -21676,7 +21797,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1176" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1176" bodyend="1181"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1187" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1187" bodyend="1192"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1affd314e05844616b16c9fcca2dd95f65" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -21695,7 +21816,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1189" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1189" bodyend="1194"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1200" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1200" bodyend="1205"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a46aedb759b67c9c7168ef85bd78d15b8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -21719,7 +21840,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1201" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1201" bodyend="1206"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1212" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1212" bodyend="1217"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ace76c86892a7862fccf42a625152f57f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -21743,7 +21864,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1213" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1213" bodyend="1221"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1224" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1224" bodyend="1232"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae6ca9e2df203172e726e347559d748a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshIntersectionResult" kindref="compound">MR.MeshIntersectionResult</ref></type>
@@ -54524,6 +54645,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a7a2fd6c9db8b83882407c366c3776ec7" prot="public" virt="non-virtual"><scope>MR</scope><name>delaunayTriangulationXY</name></member>
       <member refid="classMR_1a0e6541b14a9dac3653b66def6cd8fe80" prot="public" virt="non-virtual"><scope>MR</scope><name>delaunayTriangulationXY</name></member>
       <member refid="classMR_1a630013d66dd6ec05562c1b7a16f274fe" prot="public" virt="non-virtual"><scope>MR</scope><name>delaunayTriangulationXY</name></member>
+      <member refid="classMR_1aa1180c9d1583ff8c3e199e4962fdbef6" prot="public" virt="non-virtual"><scope>MR</scope><name>deleteFacesWithLongEdges</name></member>
       <member refid="classMR_1a0467ad00fe01ec85bcd837c9467a0632" prot="public" virt="non-virtual"><scope>MR</scope><name>deleteTargetFaces</name></member>
       <member refid="classMR_1a8d33e06ba036821c647ae1ea854523f7" prot="public" virt="non-virtual"><scope>MR</scope><name>deleteTargetFaces</name></member>
       <member refid="classMR_1a4239fd9cc6a065405e0fa4b4b80e7f36" prot="public" virt="non-virtual"><scope>MR</scope><name>delRegionKeepBd</name></member>
@@ -55817,6 +55939,9 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a9deb2526f36496a18d8266e6beb062a2" prot="public" virt="non-virtual"><scope>MR</scope><name>triangleAspectRatio</name></member>
       <member refid="classMR_1ad25c8190ebb5b37b736dc4c406e31993" prot="public" virt="non-virtual"><scope>MR</scope><name>triangleWithNormal</name></member>
       <member refid="classMR_1a5be97ba97709b4d74418ac1003fc32b3" prot="public" virt="non-virtual"><scope>MR</scope><name>triangleWithNormal</name></member>
+      <member refid="classMR_1a08725e0bb8a39f5a2a44c2d2e4c2535a" prot="public" virt="non-virtual"><scope>MR</scope><name>triangulateCameraPoints</name></member>
+      <member refid="classMR_1a4fbd89168c39935de95cab96e26f1c9a" prot="public" virt="non-virtual"><scope>MR</scope><name>triangulateCameraPoints</name></member>
+      <member refid="classMR_1af53dd3a401ca7717fa121a01a5ac5769" prot="public" virt="non-virtual"><scope>MR</scope><name>triangulateCameraPoints</name></member>
       <member refid="classMR_1a1e71855c2ecbb138fc77ec6147099958" prot="public" virt="non-virtual"><scope>MR</scope><name>triangulateHoles</name></member>
       <member refid="classMR_1a3cdd62f00020dd257c7ba0d90e6b5d5f" prot="public" virt="non-virtual"><scope>MR</scope><name>triangulatePointCloud</name></member>
       <member refid="classMR_1a51f0a36c806d7447cac24a7a299f8074" prot="public" virt="non-virtual"><scope>MR</scope><name>triCenter</name></member>

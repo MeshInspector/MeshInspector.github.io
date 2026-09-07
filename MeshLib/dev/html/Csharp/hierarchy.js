@@ -477,6 +477,9 @@ var hierarchy =
       [ "MR.Const_CNCMachineSettings", "classMR_1_1Const__CNCMachineSettings.html", [
         [ "MR.CNCMachineSettings", "classMR_1_1CNCMachineSettings.html", null ]
       ] ],
+      [ "MR.Const_CameraPointsTriangulationSettings", "classMR_1_1Const__CameraPointsTriangulationSettings.html", [
+        [ "MR.CameraPointsTriangulationSettings", "classMR_1_1CameraPointsTriangulationSettings.html", null ]
+      ] ],
       [ "MR.Const_ChangVoxelSelectionAction", "classMR_1_1Const__ChangVoxelSelectionAction.html", [
         [ "MR.ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html", null ]
       ] ],
@@ -3691,6 +3694,7 @@ var hierarchy =
       [ "MR.Const_Buffer_Uint64T", "classMR_1_1Const__Buffer__Uint64T.html", null ],
       [ "MR.Const_Buffer_UnsignedChar", "classMR_1_1Const__Buffer__UnsignedChar.html", null ],
       [ "MR.Const_CNCMachineSettings", "classMR_1_1Const__CNCMachineSettings.html", null ],
+      [ "MR.Const_CameraPointsTriangulationSettings", "classMR_1_1Const__CameraPointsTriangulationSettings.html", null ],
       [ "MR.Const_ChangVoxelSelectionAction", "classMR_1_1Const__ChangVoxelSelectionAction.html", null ],
       [ "MR.Const_ChangeActiveBoxAction", "classMR_1_1Const__ChangeActiveBoxAction.html", null ],
       [ "MR.Const_ChangeColoringType", "classMR_1_1Const__ChangeColoringType.html", null ],

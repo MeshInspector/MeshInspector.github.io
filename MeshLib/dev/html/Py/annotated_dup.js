@@ -117,6 +117,7 @@ var annotated_dup =
       [ "Buffer_VertId_VertId", "classmrmeshpy_1_1Buffer__VertId__VertId.html", "classmrmeshpy_1_1Buffer__VertId__VertId" ],
       [ "Buffer_VoxelId_VoxelId", "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html", "classmrmeshpy_1_1Buffer__VoxelId__VoxelId" ],
       [ "BypassDirection", "classmrmeshpy_1_1BypassDirection.html", "classmrmeshpy_1_1BypassDirection" ],
+      [ "CameraPointsTriangulationSettings", "classmrmeshpy_1_1CameraPointsTriangulationSettings.html", "classmrmeshpy_1_1CameraPointsTriangulationSettings" ],
       [ "ChangeActiveBoxAction", "classmrmeshpy_1_1ChangeActiveBoxAction.html", "classmrmeshpy_1_1ChangeActiveBoxAction" ],
       [ "ChangeColoringType", "classmrmeshpy_1_1ChangeColoringType.html", "classmrmeshpy_1_1ChangeColoringType" ],
       [ "ChangeDualMarchingCubesAction", "classmrmeshpy_1_1ChangeDualMarchingCubesAction.html", "classmrmeshpy_1_1ChangeDualMarchingCubesAction" ],

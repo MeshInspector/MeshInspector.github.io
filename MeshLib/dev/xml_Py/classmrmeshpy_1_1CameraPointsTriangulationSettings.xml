@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CameraPointsTriangulationSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CameraPointsTriangulationSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1ae8ce369cb4f43798430bcb84ac7be651" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CameraPointsTriangulationSettings::_offsetof_intrinsics</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_intrinsics</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings._offsetof_intrinsics</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7952" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a2a6208593dfecfecb1714c359da81deb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CameraPointsTriangulationSettings::_offsetof_outProjectedPoints</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outProjectedPoints</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings._offsetof_outProjectedPoints</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7953" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7953" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a4db9f14d52348792c92d42d83bc85f2e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CameraPointsTriangulationSettings::_offsetof_outSmallestMap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outSmallestMap</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings._offsetof_outSmallestMap</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7954" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1acd06c869cd48ade55d0b34609774339a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CameraPointsTriangulationSettings::_offsetof_weldPixels</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_weldPixels</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings._offsetof_weldPixels</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7955" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1aec2c28b2badcc45285e9dc976f3261e2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CameraPointsTriangulationSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7958" bodyend="7959"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1ac0c3322157ee3a77dd4e1ce7d2045b87" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CameraPointsTriangulationSettings" kindref="compound">CameraPointsTriangulationSettings</ref></type>
+        <definition> CameraPointsTriangulationSettings mrmeshpy.CameraPointsTriangulationSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7962" bodyend="7963"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1ac0c3322157ee3a77dd4e1ce7d2045b87" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CameraPointsTriangulationSettings" kindref="compound">CameraPointsTriangulationSettings</ref></type>
+        <definition> CameraPointsTriangulationSettings mrmeshpy.CameraPointsTriangulationSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7966" bodyend="7967"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a3062971f66bef03152ab975a514d88de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CameraPointsTriangulationSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7969" bodyend="7970"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1ad68626e9ca9cf37ad8f6ad0bb034af58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CameraPointsTriangulationSettings.__init__</definition>
+        <argsstring>(self, CameraPointsTriangulationSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CameraPointsTriangulationSettings" kindref="compound">CameraPointsTriangulationSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7972" bodyend="7975"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a1e1f8f2276ab4eb4b0802932c5699601" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CameraPointsTriangulationSettings.__init__</definition>
+        <argsstring>(self, Matrix3f intrinsics, float weldPixels, VertMap outSmallestMap, VertCoords outProjectedPoints)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+          <declname>intrinsics</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weldPixels</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>outSmallestMap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>outProjectedPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7977" bodyend="7980"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a10c138b70548f1d884930863aa791889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+        <definition> Matrix3f mrmeshpy.CameraPointsTriangulationSettings.intrinsics</definition>
+        <argsstring>(self)</argsstring>
+        <name>intrinsics</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.intrinsics</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>camera intrinsic matrix: the image-plane (pixel) position of a point p in camera space is ( K * p ).xy / ( K * p ).z
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7982" bodyend="7985"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a53e9348c7453942d8d2cadab1062c213" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CameraPointsTriangulationSettings.intrinsics</definition>
+        <argsstring>(self, Matrix3f arg1)</argsstring>
+        <name>intrinsics</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.intrinsics</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7987" bodyend="7988"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1ac07d6c60714cd9efa03fd45e01df522c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+        <definition> VertCoords mrmeshpy.CameraPointsTriangulationSettings.outProjectedPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>outProjectedPoints</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.outProjectedPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if not null, receives the image-plane coordinates of all points as ( x, -y, 1 ) with y mirrored,
+for welded points these are the coordinates of the averaged position, for invalid cloud points zeros
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7990" bodyend="7994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a60fb45d8b8adbcbcc32a8e8da3eb3866" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CameraPointsTriangulationSettings.outProjectedPoints</definition>
+        <argsstring>(self, VertCoords arg1)</argsstring>
+        <name>outProjectedPoints</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.outProjectedPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7996" bodyend="7997"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1ad07bc932dac1e5f0467fea574b7992f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition> VertMap mrmeshpy.CameraPointsTriangulationSettings.outSmallestMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>outSmallestMap</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.outSmallestMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if not null, receives the result of findSmallestCloseVertices on the image-plane positions:
+each point is mapped to the point it was merged into (or to itself); left unchanged if weldPixels &lt;= 0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7999" bodyend="8003"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1acd701f0f730f710b2ec43a8302d0d2e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CameraPointsTriangulationSettings.outSmallestMap</definition>
+        <argsstring>(self, VertMap arg1)</argsstring>
+        <name>outSmallestMap</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.outSmallestMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8005" bodyend="8006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a8c564a008bf9937ba0d7495c7e73357e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.CameraPointsTriangulationSettings.weldPixels</definition>
+        <argsstring>(self)</argsstring>
+        <name>weldPixels</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.weldPixels</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>points closer than this distance in the image plane are merged into one vertex located at their average position;
+non-positive value disables merging
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8008" bodyend="8012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a53c31191ba87f011020755003b91402b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CameraPointsTriangulationSettings.weldPixels</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>weldPixels</name>
+        <qualifiedname>mrmeshpy.CameraPointsTriangulationSettings.weldPixels</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8014" bodyend="8015"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CameraPointsTriangulationSettings
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7948" bodyend="8015"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1aec2c28b2badcc45285e9dc976f3261e2" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a3062971f66bef03152ab975a514d88de" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1ad68626e9ca9cf37ad8f6ad0bb034af58" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a1e1f8f2276ab4eb4b0802932c5699601" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1ae8ce369cb4f43798430bcb84ac7be651" prot="protected" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>_offsetof_intrinsics</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a2a6208593dfecfecb1714c359da81deb" prot="protected" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>_offsetof_outProjectedPoints</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a4db9f14d52348792c92d42d83bc85f2e" prot="protected" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>_offsetof_outSmallestMap</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1acd06c869cd48ade55d0b34609774339a" prot="protected" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>_offsetof_weldPixels</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a10c138b70548f1d884930863aa791889" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>intrinsics</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a53e9348c7453942d8d2cadab1062c213" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>intrinsics</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1ac0c3322157ee3a77dd4e1ce7d2045b87" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1ac0c3322157ee3a77dd4e1ce7d2045b87" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1ac07d6c60714cd9efa03fd45e01df522c" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>outProjectedPoints</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a60fb45d8b8adbcbcc32a8e8da3eb3866" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>outProjectedPoints</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1ad07bc932dac1e5f0467fea574b7992f7" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>outSmallestMap</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1acd701f0f730f710b2ec43a8302d0d2e3" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>outSmallestMap</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a8c564a008bf9937ba0d7495c7e73357e" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>weldPixels</name></member>
+      <member refid="classmrmeshpy_1_1CameraPointsTriangulationSettings_1a53c31191ba87f011020755003b91402b" prot="public" virt="non-virtual"><scope>mrmeshpy::CameraPointsTriangulationSettings</scope><name>weldPixels</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

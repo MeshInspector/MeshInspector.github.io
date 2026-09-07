@@ -31,6 +31,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRBox.cs", "MRBox_8cs.html", "MRBox_8cs" ],
     [ "MRBoxNesting.cs", "MRBoxNesting_8cs.html", "MRBoxNesting_8cs" ],
     [ "MRBuffer.cs", "MRBuffer_8cs.html", "MRBuffer_8cs" ],
+    [ "MRCameraPointsTriangulation.cs", "MRCameraPointsTriangulation_8cs.html", "MRCameraPointsTriangulation_8cs" ],
     [ "MRChangeColoringActions.cs", "MRChangeColoringActions_8cs.html", "MRChangeColoringActions_8cs" ],
     [ "MRChangeColoringType.cs", "MRChangeColoringType_8cs.html", "MRChangeColoringType_8cs" ],
     [ "MRChangeMeshAction.cs", "MRChangeMeshAction_8cs.html", "MRChangeMeshAction_8cs" ],
