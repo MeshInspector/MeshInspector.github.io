@@ -10865,6 +10865,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:a36f35b7572e1c63fe86da0377cd05a2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether triangle ABC (vertices 0,1,2) and segment DE (vertices 3,4) intersect. Simulation-of-simplicity removes the degenerate cases (segment passing exactly through an edge or vertex of the triangle, or lying in the triangle's plane), so the answer is always a clean yes/no. Generated from function <span class="tt"><a class="el" href="#a36f35b7572e1c63fe86da0377cd05a2a" title="checks whether triangle ABC (vertices 0,1,2) and segment DE (vertices 3,4) intersect....">MR.doTriangleSegmentIntersect</a></span>.  <br /></td></tr>
 <tr class="memitem:a405d33389ff7a3ce25f375f986d51a41" id="r_a405d33389ff7a3ce25f375f986d51a41"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a405d33389ff7a3ce25f375f986d51a41">segmentIntersectionOrder</a> (MR.Std.Const_Array_MRPreciseVertCoords_8 vs)</td></tr>
 <tr class="memdesc:a405d33389ff7a3ce25f375f986d51a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">given line segment s (vertices 0,1) and two triangles ta (vertices 2,3,4) and tb (vertices 5,6,7), each known to be pierced by s, returns the order in which s meets them, using precise predicates. Here s^t denotes the point where segment s crosses triangle t, and s[0]/s[1] are the segment endpoints. Walking s from s[0] to s[1]: true: order is s[0], s^ta, s^tb, s[1] (ta met before tb) false: order is s[0], s^tb, s^ta, s[1] (tb met before ta) triangles ta and tb may share at most two vertices; all remaining vertices must be unique Generated from function <span class="tt"><a class="el" href="#af0364b794d86be0aa6b00bff95f7e1cd" title="given line segment s=01 and two other segments sa=23, sb=45 known to intersect it,...">MR.segmentIntersectionOrder</a></span>.  <br /></td></tr>
+<tr class="memitem:a9a9861ab16fda76a069d9186c17a858c" id="r_a9a9861ab16fda76a069d9186c17a858c"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a9861ab16fda76a069d9186c17a858c">segmentIntersectionTriPlaneOrder</a> (MR.Std.Const_Array_MRPreciseVertCoords_8 vs)</td></tr>
+<tr class="memdesc:a9a9861ab16fda76a069d9186c17a858c"><td class="mdescLeft">&#160;</td><td class="mdescRight">given line segment s (vertices 0,1), triangle ta (vertices 2,3,4) known to be pierced by s, and infinite plane pb passing via vertices 5,6,7, returns the order in which the line of s meets ta and pb, using precise predicates. Here s^ta is the point where s crosses ta, and s^pb is the point where the line of s crosses pb. Walking the line in the direction from s[0] to s[1]: true: s^ta is met before s^pb (order is s[0], s^ta, s^pb) false: s^pb is met before s^ta (order is s^pb, s^ta, s[1]) ta and pb may share at most two vertices; all remaining vertices must be unique Generated from function <span class="tt"><a class="el" href="#a9a9861ab16fda76a069d9186c17a858c" title="given line segment s (vertices 0,1), triangle ta (vertices 2,3,4) known to be pierced by s,...">MR.segmentIntersectionTriPlaneOrder</a></span>.  <br /></td></tr>
 <tr class="memitem:a1921d12c84dd8d6f609054608fbc7c82" id="r_a1921d12c84dd8d6f609054608fbc7c82"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1ConvertToIntVector.html">MR.ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1921d12c84dd8d6f609054608fbc7c82">getToIntConverter</a> (in <a class="el" href="structMR_1_1Box3d.html">MR.Box3d</a> box)</td></tr>
 <tr class="memdesc:a1921d12c84dd8d6f609054608fbc7c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from <a class="el" href="structMR_1_1Vector3f.html" title="Generated from class MR.Vector3f. This is the by-value version of the struct.">Vector3f</a> to <a class="el" href="structMR_1_1Vector3i.html" title="Generated from class MR.Vector3i. This is the by-value version of the struct.">Vector3i</a> in Box range (int diapason is mapped to box range) Generated from function <span class="tt"><a class="el" href="#a1921d12c84dd8d6f609054608fbc7c82" title="creates converter from Vector3f to Vector3i in Box range (int diapason is mapped to box range) Genera...">MR.getToIntConverter</a></span>.  <br /></td></tr>
 <tr class="memitem:a069b66525f0bd744a981a331e7a89513" id="r_a069b66525f0bd744a981a331e7a89513"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1ConvertToFloatVector.html">MR.ConvertToFloatVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a069b66525f0bd744a981a331e7a89513">getToFloatConverter</a> (in <a class="el" href="structMR_1_1Box3d.html">MR.Box3d</a> box)</td></tr>
@@ -70005,6 +70007,33 @@ do not really keeps volume but tries hard </p>
 </div><div class="memdoc">
 
 <p>given line segment s (vertices 0,1) and two triangles ta (vertices 2,3,4) and tb (vertices 5,6,7), each known to be pierced by s, returns the order in which s meets them, using precise predicates. Here s^t denotes the point where segment s crosses triangle t, and s[0]/s[1] are the segment endpoints. Walking s from s[0] to s[1]: true: order is s[0], s^ta, s^tb, s[1] (ta met before tb) false: order is s[0], s^tb, s^ta, s[1] (tb met before ta) triangles ta and tb may share at most two vertices; all remaining vertices must be unique Generated from function <span class="tt"><a class="el" href="#af0364b794d86be0aa6b00bff95f7e1cd" title="given line segment s=01 and two other segments sa=23, sb=45 known to intersect it,...">MR.segmentIntersectionOrder</a></span>. </p>
+
+</div>
+</div>
+<a id="a9a9861ab16fda76a069d9186c17a858c" name="a9a9861ab16fda76a069d9186c17a858c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a9861ab16fda76a069d9186c17a858c">&#9670;&#160;</a></span>segmentIntersectionTriPlaneOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.segmentIntersectionTriPlaneOrder </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Const_Array_MRPreciseVertCoords_8</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>given line segment s (vertices 0,1), triangle ta (vertices 2,3,4) known to be pierced by s, and infinite plane pb passing via vertices 5,6,7, returns the order in which the line of s meets ta and pb, using precise predicates. Here s^ta is the point where s crosses ta, and s^pb is the point where the line of s crosses pb. Walking the line in the direction from s[0] to s[1]: true: s^ta is met before s^pb (order is s[0], s^ta, s^pb) false: s^pb is met before s^ta (order is s^pb, s^ta, s[1]) ta and pb may share at most two vertices; all remaining vertices must be unique Generated from function <span class="tt"><a class="el" href="#a9a9861ab16fda76a069d9186c17a858c" title="given line segment s (vertices 0,1), triangle ta (vertices 2,3,4) known to be pierced by s,...">MR.segmentIntersectionTriPlaneOrder</a></span>. </p>
 
 </div>
 </div>

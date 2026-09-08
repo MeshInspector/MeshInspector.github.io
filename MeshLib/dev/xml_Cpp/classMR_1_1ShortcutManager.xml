@@ -4,6 +4,7 @@
     <compoundname>MR::ShortcutManager</compoundname>
     <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; KeyDownListener, KeyRepeatListener &gt;</basecompoundref>
     <includes refid="MRShortcutManager_8h" local="no">MRViewer/MRShortcutManager.h</includes>
+    <innerclass refid="structMR_1_1ShortcutManager_1_1ShortcutAction" prot="public">MR::ShortcutManager::ShortcutAction</innerclass>
     <innerclass refid="structMR_1_1ShortcutManager_1_1ShortcutCommand" prot="public">MR::ShortcutManager::ShortcutCommand</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1ga1a85baae28af51cf7825c2099b693c1b" kind="enum"><name>Reason</name></member>
@@ -26,7 +27,8 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gac5d35f9b0ea4c909a2e0e182b46ca18b" kind="function"><name>~ShortcutManager</name></member>
-      <member refid="group__GeneralGroup_1ga38ea827ed2f7a6e11bc9d820df2f3467" kind="function"><name>setShortcut</name></member>
+      <member refid="group__GeneralGroup_1ga151c44e97717ac5bcb5627cf3dbca179" kind="function"><name>setShortcut</name></member>
+      <member refid="group__GeneralGroup_1ga4c68791d3f75a5a75cf9cc1de43d5621" kind="function"><name>setShortcut</name></member>
       <member refid="group__GeneralGroup_1ga1b3fadc0be7a95ea871c730b0038d2df" kind="function"><name>getShortcutList</name></member>
       <member refid="group__GeneralGroup_1gaaf51fc21fb54cb1e8d7b1734c0d4c0e9" kind="function"><name>isEnabled</name></member>
       <member refid="group__GeneralGroup_1ga5e5ccda452d5473a8328af4b7003e4f3" kind="function"><name>enable</name></member>
@@ -40,6 +42,10 @@
       <member refid="group__GeneralGroup_1ga15b57b50512b2769b584863ef3b21cb0" kind="function"><name>getModifierString</name></member>
       <member refid="group__GeneralGroup_1ga2d13f2ae4409cb7a885172ab0edb7f9a" kind="function"><name>getKeyString</name></member>
       <member refid="group__GeneralGroup_1ga9215f4392ec0aaaf49c8df15042552e0" kind="function"><name>getKeyFullString</name></member>
+      <member refid="group__GeneralGroup_1ga8389e3401cdb0d37f50b39a1e511104a" kind="function"><name>parseKey</name></member>
+      <member refid="group__GeneralGroup_1gada55de86cc547515b4abee252d5cc7dd" kind="function"><name>parseModifier</name></member>
+      <member refid="group__GeneralGroup_1gaa05dcb9fe7531702637967609af8bf6d" kind="function"><name>parseCategory</name></member>
+      <member refid="group__GeneralGroup_1gac7f8ea82cc4bfd7220630d3cc9e7ce68" kind="function"><name>parseShortcutKey</name></member>
     </sectiondef>
     <sectiondef kind="protected-static-func">
       <member refid="group__GeneralGroup_1ga8ec5f01d49170ca3c2273904385eb8a3" kind="function"><name>mapKeyFromKeyAndMod</name></member>
@@ -84,7 +90,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRShortcutManager.h" line="46" column="1" bodyfile="MRViewer/MRShortcutManager.h" bodystart="47" bodyend="119"/>
+    <location file="MRViewer/MRShortcutManager.h" line="21" column="1" bodyfile="MRViewer/MRShortcutManager.h" bodystart="22" bodyend="127"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa81ce4c0f43334be0c680e28346fce2e" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>backMap_</name></member>
       <member refid="group__GeneralGroup_1gacac503f87e678e4a4e1c3541d5915098" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>Category</name></member>
@@ -106,9 +112,14 @@
       <member refid="group__GeneralGroup_1ga8ec5f01d49170ca3c2273904385eb8a3" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>mapKeyFromKeyAndMod</name></member>
       <member refid="group__GeneralGroup_1ga959eba5366b2a67059bd1ee8ff2d3b62" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>onKeyDown_</name></member>
       <member refid="group__GeneralGroup_1gaa663126efdb053e8d1d576bf2a2458c2" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>onKeyRepeat_</name></member>
+      <member refid="group__GeneralGroup_1gaa05dcb9fe7531702637967609af8bf6d" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>parseCategory</name></member>
+      <member refid="group__GeneralGroup_1ga8389e3401cdb0d37f50b39a1e511104a" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>parseKey</name></member>
+      <member refid="group__GeneralGroup_1gada55de86cc547515b4abee252d5cc7dd" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>parseModifier</name></member>
+      <member refid="group__GeneralGroup_1gac7f8ea82cc4bfd7220630d3cc9e7ce68" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>parseShortcutKey</name></member>
       <member refid="group__GeneralGroup_1ga6cab93cfde2e7e912bd72003bae3d3e2" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>processShortcut</name></member>
       <member refid="group__GeneralGroup_1ga1a85baae28af51cf7825c2099b693c1b" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>Reason</name></member>
-      <member refid="group__GeneralGroup_1ga38ea827ed2f7a6e11bc9d820df2f3467" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>setShortcut</name></member>
+      <member refid="group__GeneralGroup_1ga151c44e97717ac5bcb5627cf3dbca179" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>setShortcut</name></member>
+      <member refid="group__GeneralGroup_1ga4c68791d3f75a5a75cf9cc1de43d5621" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>setShortcut</name></member>
       <member refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>ShortcutKey</name></member>
       <member refid="group__GeneralGroup_1ga912f0a1bddab02d0a371cdf93d4729f1" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>ShortcutList</name></member>
       <member refid="group__GeneralGroup_1ga12fa153bb2f0df72498264f840eeef6c" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>ShourtcutsBackMap</name></member>

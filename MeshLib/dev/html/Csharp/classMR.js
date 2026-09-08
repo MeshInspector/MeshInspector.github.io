@@ -3975,6 +3975,7 @@ var classMR =
     [ "segmentByGraphCut", "classMR.html#a8c87e6cc97c23cccbec5782dcef91840", null ],
     [ "segmentIntersectionOrder", "classMR.html#af0364b794d86be0aa6b00bff95f7e1cd", null ],
     [ "segmentIntersectionOrder", "classMR.html#a405d33389ff7a3ce25f375f986d51a41", null ],
+    [ "segmentIntersectionTriPlaneOrder", "classMR.html#a9a9861ab16fda76a069d9186c17a858c", null ],
     [ "segmentMesh", "classMR.html#a2892a429fcca8d796d18aaa4487030c8", null ],
     [ "segmentVolume", "classMR.html#a570164c9fa738330e4096fc83af4e60d", null ],
     [ "segmentVolumeByGraphCut", "classMR.html#a923cb919bc0ecb481be1168e2e016228", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"classMR_1_1Const__TriangulateHolesParams.html#a7d4012eded1b84883504cebeb9ada2b7":[8,3,0,0,0,884,4],
 "classMR_1_1Const__TriangulateHolesParams.html#a8992f6949fee5a538f9d334a5b4cfde4":[8,3,0,0,0,884,1],
 "classMR_1_1Const__TriangulateHolesParams.html#ac8d4aa7744f59848836e54c1f3714062":[8,3,0,0,0,884,6],
 "classMR_1_1Const__TriangulateHolesParams.html#acb807f9c9cdce7fe8855b755490277de":[8,3,0,0,0,884,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "classMR_1_1Const__UndirectedEdgeBitSet.html#a2f3c5a2ccf563364e87f36c150ca2e41":[8,3,0,0,0,905,44],
 "classMR_1_1Const__UndirectedEdgeBitSet.html#a4200415aef7d5367ade2ab77df5ef51c":[8,3,0,0,0,905,19],
 "classMR_1_1Const__UndirectedEdgeBitSet.html#a4af7449fa28e5903fa3fcb85e89c9d0b":[8,3,0,0,0,905,17],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#a528b02fe3c4934af04d452eeb2584ece":[8,3,0,0,0,905,33],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#a54256869ed5b9fdad3c41bfb38f2d081":[8,3,0,0,0,905,32]
+"classMR_1_1Const__UndirectedEdgeBitSet.html#a528b02fe3c4934af04d452eeb2584ece":[8,3,0,0,0,905,33]
 };

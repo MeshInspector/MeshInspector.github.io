@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1Buffer__MRUndirectedEdgeId.html#a5fbeb21e51d9b5e12860825c690d6bef":[8,3,0,0,0,154,6],
 "classMR_1_1Buffer__MRUndirectedEdgeId.html#a7beca22ed67490d33e1455c7cba27052":[8,3,0,0,0,154,4],
 "classMR_1_1Buffer__MRUndirectedEdgeId.html#aacf6dd77fe1de24f09e7cd667aae87a3":[8,3,0,0,0,154,0],
 "classMR_1_1Buffer__MRUndirectedEdgeId.html#aaf730f2523eab0c1162ae5fca428c69a":[8,3,0,0,0,154,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangeMeshUVCoordsAction.html#adc211f3c084a4903355cec1a2b7e6034":[8,3,0,0,0,178,6],
 "classMR_1_1ChangeNameAction.html":[8,3,0,0,0,179],
 "classMR_1_1ChangeNameAction.html#a1d82b6634a26cd7a288d82796dfc865a":[8,3,0,0,0,179,0],
-"classMR_1_1ChangeNameAction.html#a211c2e05f9d912435891d15d4d4077ee":[8,3,0,0,0,179,2],
-"classMR_1_1ChangeNameAction.html#a31fe7a1e823a6eafac64e1f938d127e4":[8,3,0,0,0,179,4]
+"classMR_1_1ChangeNameAction.html#a211c2e05f9d912435891d15d4d4077ee":[8,3,0,0,0,179,2]
 };

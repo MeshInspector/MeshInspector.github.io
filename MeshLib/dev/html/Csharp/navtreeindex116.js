@@ -1,5 +1,6 @@
 var NAVTREEINDEX116 =
 {
+"classMR_1_1NewEdgesMap.html":[8,3,0,0,0,1399],
 "classMR_1_1NewEdgesMap.html#a0ade3d587a06a3ab61ee67b30cfb2929":[8,3,0,0,0,1399,7],
 "classMR_1_1NewEdgesMap.html#a4d500b96c8a39d7e009ee25a9e1f8c36":[8,3,0,0,0,1399,4],
 "classMR_1_1NewEdgesMap.html#aa4832d1260cb9bdb36d049f4c28cb518":[8,3,0,0,0,1399,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX116 =
 "classMR_1_1NoInitNodeId.html#a9a75150ce104e1a6230944848d2cb1ba":[8,3,0,0,0,1435,5],
 "classMR_1_1NoInitNodeId.html#ace2e08ee5083db05085fb688eaba7ed5":[8,3,0,0,0,1435,4],
 "classMR_1_1NodeBitSet.html":[8,3,0,0,0,1418],
-"classMR_1_1NodeBitSet.html#a00029c4f43b19c793c812138d02a9bba":[8,3,0,0,0,1418,20],
-"classMR_1_1NodeBitSet.html#a0349badc164c3e77dbad8647f5e84910":[8,3,0,0,0,1418,1]
+"classMR_1_1NodeBitSet.html#a00029c4f43b19c793c812138d02a9bba":[8,3,0,0,0,1418,20]
 };

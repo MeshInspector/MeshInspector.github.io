@@ -10,10 +10,11 @@
       <member refid="group__GeneralGroup_1gacf2e272c865f0181e677f9a0cce89ec5" kind="variable"><name>repeatable</name></member>
     </sectiondef>
     <briefdescription>
+<para>the parameter of the deprecated setShortcut overload, also the internal storage of an action </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRViewer/MRShortcutManager.h" line="54" column="5" bodyfile="MRViewer/MRShortcutManager.h" bodystart="55" bodyend="60"/>
+    <location file="MRViewer/MRShortcutManager.h" line="38" column="5" bodyfile="MRViewer/MRShortcutManager.h" bodystart="39" bodyend="44"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga74e7c30555d8435657c7465809b44a6a" prot="public" virt="non-virtual"><scope>MR::ShortcutManager::ShortcutCommand</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac999d8643aea2ec7e9ddc3a4adc4daf6" prot="public" virt="non-virtual"><scope>MR::ShortcutManager::ShortcutCommand</scope><name>category</name></member>

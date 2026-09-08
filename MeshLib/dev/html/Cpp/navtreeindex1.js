@@ -8,8 +8,6 @@ var NAVTREEINDEX1 =
 "MRCombinedHistoryAction_8h_source.html":[8,0,3,0,7,66],
 "MRCommandLoop_8h.html":[8,0,3,0,11,13],
 "MRCommandLoop_8h_source.html":[8,0,3,0,11,13],
-"MRCommonPluginsShortcuts_8h.html":[8,0,3,0,1,4],
-"MRCommonPluginsShortcuts_8h_source.html":[8,0,3,0,1,4],
 "MRComputeBoundingBox_8h.html":[8,0,3,0,7,67],
 "MRComputeBoundingBox_8h_source.html":[8,0,3,0,7,67],
 "MRComputeVolume_8h.html":[8,0,3,0,12,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX1 =
 "MRGcodeProcessor_8h_source.html":[8,0,3,0,7,134],
 "MRGetSystemInfoJson_8h.html":[8,0,3,0,11,30],
 "MRGetSystemInfoJson_8h_source.html":[8,0,3,0,11,30],
-"MRGltf_8h.html":[8,0,3,0,4,4]
+"MRGltf_8h.html":[8,0,3,0,4,4],
+"MRGltf_8h_source.html":[8,0,3,0,4,4],
+"MRGraph_8h.html":[8,0,3,0,7,135]
 };
