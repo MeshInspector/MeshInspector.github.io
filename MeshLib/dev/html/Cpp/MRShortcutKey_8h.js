@@ -1,4 +1,4 @@
-var MRShortcutManager_8h =
+var MRShortcutKey_8h =
 [
     [ "MR::ShortcutCategory", "group__GeneralGroup.html#gabeff4ec21e8ee2ea544cdb4ce4d55d6b", [
       [ "MR::ShortcutCategory::Info", "group__GeneralGroup.html#ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba4059b0251f66a18cb56f544728796875", null ],

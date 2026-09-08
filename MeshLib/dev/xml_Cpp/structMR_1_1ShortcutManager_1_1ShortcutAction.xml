@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ShortcutManager_1_1ShortcutAction" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ShortcutManager::ShortcutAction</compoundname>
+    <includes refid="MRShortcutManager_8h" local="no">MRViewer/MRShortcutManager.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga8bb005062ea606a2a68ab2995184d194" kind="variable"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga0a5b5d199aa906bfbcf6e2601ec29929" kind="variable"><name>func</name></member>
+      <member refid="group__GeneralGroup_1ga2d07117163290a772b1f20d166035207" kind="variable"><name>repeatable</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>what a shortcut does </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRViewer/MRShortcutManager.h" line="30" column="5" bodyfile="MRViewer/MRShortcutManager.h" bodystart="31" bodyend="35"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0a5b5d199aa906bfbcf6e2601ec29929" prot="public" virt="non-virtual"><scope>MR::ShortcutManager::ShortcutAction</scope><name>func</name></member>
+      <member refid="group__GeneralGroup_1ga8bb005062ea606a2a68ab2995184d194" prot="public" virt="non-virtual"><scope>MR::ShortcutManager::ShortcutAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga2d07117163290a772b1f20d166035207" prot="public" virt="non-virtual"><scope>MR::ShortcutManager::ShortcutAction</scope><name>repeatable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

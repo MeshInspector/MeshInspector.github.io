@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"classMR_1_1WholeEdgeMap.html#ae3eb7170a6129dbab7b55a5344ac67ba":[8,3,0,0,0,1845,16],
 "classMR_1_1WholeEdgeMap.html#ae45c2a26a07a3cf1484671badda40335":[8,3,0,0,0,1845,14],
 "classMR_1_1WholeEdgeMap.html#ae98d859131943469219902483e08d0c6":[8,3,0,0,0,1845,2],
 "classMR_1_1WholeEdgeMap.html#aed5d2bc42d5329b8541b99b66cdf3c74":[8,3,0,0,0,1845,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "structMR_1_1Box1d.html#a81b38d86c0881c5c32cf3156e10f2110":[8,3,0,0,0,66,34],
 "structMR_1_1Box1d.html#a86753508659a6a96d79a09a5010bb269":[8,3,0,0,0,66,6],
 "structMR_1_1Box1d.html#a8cc8a6a62453c68f08f9cd07e678fe17":[8,3,0,0,0,66,20],
-"structMR_1_1Box1d.html#a923402ce610f6f1e153a1645eb634d9d":[8,3,0,0,0,66,26],
-"structMR_1_1Box1d.html#a951e8b662600c062eaa7d5b63dde58c4":[8,3,0,0,0,66,2]
+"structMR_1_1Box1d.html#a923402ce610f6f1e153a1645eb634d9d":[8,3,0,0,0,66,26]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX108 =
 {
+"classMR_1_1Line3f.html#abdf789696ef11f2e49b00ad22eca924a":[8,3,0,0,0,1285,3],
 "classMR_1_1Line3f.html#afd98f74bc74c335c5f3de6364eb7682a":[8,3,0,0,0,1285,7],
 "classMR_1_1LineInterpolationParams.html":[8,3,0,0,0,1288],
 "classMR_1_1LineInterpolationParams.html#a0268ab329f3668e886e3259d122bac4b":[8,3,0,0,0,1288,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX108 =
 "classMR_1_1MakeDegenerateBandAroundRegionParams.html#aaad7039c83df05926aa31c58abab4e5b":[8,3,0,0,0,1307,3],
 "classMR_1_1MakeDegenerateBandAroundRegionParams.html#abf8aa170dd566af396e473707363e501":[8,3,0,0,0,1307,7],
 "classMR_1_1MakeDegenerateBandAroundRegionParams.html#ae75651759ac87bbc6a020ec306f98bbf":[8,3,0,0,0,1307,6],
-"classMR_1_1MakeSignedByWindingNumberSettings.html":[8,3,0,0,0,1308],
-"classMR_1_1MakeSignedByWindingNumberSettings.html#a213bbc431fa0e7a9d35fc34333355c7f":[8,3,0,0,0,1308,10]
+"classMR_1_1MakeSignedByWindingNumberSettings.html":[8,3,0,0,0,1308]
 };

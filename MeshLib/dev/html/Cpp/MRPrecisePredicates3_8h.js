@@ -13,5 +13,6 @@ var MRPrecisePredicates3_8h =
     [ "MR::orient3d", "group__MathGroup.html#gab50d60e9d4e42e53f0f0488142b74875", null ],
     [ "MR::orient3d", "group__MathGroup.html#ga343b0de4b65432a92901c76af4024b57", null ],
     [ "MR::orient3d", "group__MathGroup.html#ga24ef393e1380f77979d9cfa6f7e0e88e", null ],
-    [ "MR::segmentIntersectionOrder", "group__MathGroup.html#ga4407955477825bbff775800e3841da28", null ]
+    [ "MR::segmentIntersectionOrder", "group__MathGroup.html#ga4407955477825bbff775800e3841da28", null ],
+    [ "MR::segmentIntersectionTriPlaneOrder", "group__MathGroup.html#gaae180a2cc2ed168bacc3bb0f55ced219", null ]
 ];

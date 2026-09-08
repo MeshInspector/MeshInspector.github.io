@@ -1,5 +1,6 @@
 var NAVTREEINDEX188 =
 {
+"std__vector__MR__SkyPatch_8h.html#abcdd3edac26e32e29d54549f3a88aed7":[8,2,2,0,0,0,0,2,492,52],
 "std__vector__MR__SkyPatch_8h.html#abcfbdac24fe817b8c493147ed2a39f93":[8,2,2,0,0,0,0,2,492,60],
 "std__vector__MR__SkyPatch_8h.html#abf21b09066ec41c2319cf899038e6fd9":[8,2,2,0,0,0,0,2,492,40],
 "std__vector__MR__SkyPatch_8h.html#ac36a97d98b0f17bf5733ceb5e68b344d":[8,2,2,0,0,0,0,2,492,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX188 =
 "std__vector__MR__TriPointf_8h.html#a00f4d6fe4593dfbaf60da2ae2fea8601":[8,2,2,0,0,0,0,2,496,33],
 "std__vector__MR__TriPointf_8h.html#a030afdf2ec2fc8b0648652cde8257283":[8,2,2,0,0,0,0,2,496,25],
 "std__vector__MR__TriPointf_8h.html#a06459455940385015c71b486bc6be0b9":[8,2,2,0,0,0,0,2,496,11],
-"std__vector__MR__TriPointf_8h.html#a079b93f47774e1e60329433f0f8e3ea0":[8,2,2,0,0,0,0,2,496,22],
-"std__vector__MR__TriPointf_8h.html#a0c7204e4b98c01eb2aaa397c4655873a":[8,2,2,0,0,0,0,2,496,39]
+"std__vector__MR__TriPointf_8h.html#a079b93f47774e1e60329433f0f8e3ea0":[8,2,2,0,0,0,0,2,496,22]
 };

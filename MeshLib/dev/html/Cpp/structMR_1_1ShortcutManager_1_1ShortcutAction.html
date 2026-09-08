@@ -26,7 +26,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C++ Docs: MRCommonPlugins/MRCommonPluginsShortcuts.h Source File</title>
+<title>MeshLib C++ Docs: MR::ShortcutManager::ShortcutAction Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -111,7 +111,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('MRCommonPluginsShortcuts_8h_source.html','',''); });
+$(function(){initNavTree('structMR_1_1ShortcutManager_1_1ShortcutAction.html','','structMR_1_1ShortcutManager_1_1ShortcutAction-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -137,30 +137,38 @@ $(function(){initNavTree('MRCommonPluginsShortcuts_8h_source.html','',''); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">MRCommonPluginsShortcuts.h</div></div>
+  <div class="summary">
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="structMR_1_1ShortcutManager_1_1ShortcutAction-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">MR::ShortcutManager::ShortcutAction Struct Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-<a href="MRCommonPluginsShortcuts_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRCommonPlugins/exports.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaaf1b942a3a38255874216b2086b3dc3e">   13</a></span>MRCOMMONPLUGINS_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__GeneralGroup.html#gaaf1b942a3a38255874216b2086b3dc3e">setupCommonPluginsShortcuts</a>();</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>}</div>
-<div class="ttc" id="agroup__GeneralGroup_html_gaaf1b942a3a38255874216b2086b3dc3e"><div class="ttname"><a href="group__GeneralGroup.html#gaaf1b942a3a38255874216b2086b3dc3e">MR::setupCommonPluginsShortcuts</a></div><div class="ttdeci">MRCOMMONPLUGINS_API void setupCommonPluginsShortcuts()</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-</div><!-- fragment --></div><!-- contents -->
+
+<p>what a shortcut does  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="MRShortcutManager_8h_source.html">MRViewer/MRShortcutManager.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ga8bb005062ea606a2a68ab2995184d194" id="r_ga8bb005062ea606a2a68ab2995184d194"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8bb005062ea606a2a68ab2995184d194">name</a></td></tr>
+<tr class="memitem:ga0a5b5d199aa906bfbcf6e2601ec29929" id="r_ga0a5b5d199aa906bfbcf6e2601ec29929"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0a5b5d199aa906bfbcf6e2601ec29929">func</a></td></tr>
+<tr class="memdesc:ga0a5b5d199aa906bfbcf6e2601ec29929"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of action  <br /></td></tr>
+<tr class="memitem:ga2d07117163290a772b1f20d166035207" id="r_ga2d07117163290a772b1f20d166035207"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2d07117163290a772b1f20d166035207">repeatable</a> = true</td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>what a shortcut does </p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li>MRViewer/<a class="el" href="MRShortcutManager_8h_source.html">MRShortcutManager.h</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_9d18c845e499e69c9a4e6cc71160759c.html">MRCommonPlugins</a></li><li class="navelem"><a href="MRCommonPluginsShortcuts_8h.html">MRCommonPluginsShortcuts.h</a></li>
+    <li class="navelem"><a href="namespaceMR.html">MR</a></li><li class="navelem"><a href="classMR_1_1ShortcutManager.html">ShortcutManager</a></li><li class="navelem"><a href="structMR_1_1ShortcutManager_1_1ShortcutAction.html">ShortcutAction</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
