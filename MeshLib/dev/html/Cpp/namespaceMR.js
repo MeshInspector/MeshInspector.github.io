@@ -3422,7 +3422,6 @@ var namespaceMR =
     [ "shrinkVoxelsMask", "group__VolumeIndexerGroup.html#ga051634fee494f975b01af37644de2b2a", null ],
     [ "shrinkwrap", "group__MeshAlgorithmGroup.html#gab7d2c48bfaa0dc31cdbf3e73901a79b4", null ],
     [ "signedDistanceToMesh", "group__AABBTreeGroup.html#ga50fea0557381236d780b7ea113906a0f", null ],
-    [ "signOfProductsDiff", "group__GeneralGroup.html#ga653978c9d8cd70c6399ccb07f7191182", null ],
     [ "simpleVolumeToDenseGrid", "group__GeneralGroup.html#gaff9290893302d164d71224a62681ffb8", null ],
     [ "simpleVolumeToVdbVolume", "group__GeneralGroup.html#ga848886a5fe4ea4919a1dd3460818a93b", null ],
     [ "size", "group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a", null ],

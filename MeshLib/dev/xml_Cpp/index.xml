@@ -10949,7 +10949,6 @@
     <member refid="group__GeneralGroup_1ga4594d4e61f1e8cb98cdf84f86dcdc9bd" kind="function"><name>get</name></member>
     <member refid="group__GeneralGroup_1ga7db8147e43ed44e6850f4f813a585247" kind="function"><name>operator+=</name></member>
     <member refid="group__GeneralGroup_1ga33daec7c11a36c33eb5530ffa262a597" kind="function"><name>operator-=</name></member>
-    <member refid="group__GeneralGroup_1gaa2b403abf3066fd54bde49ee763aab40" kind="function"><name>fromUnsortedTerms</name></member>
     <member refid="group__GeneralGroup_1ga844f65b0aad10ae232ab11237a790ae1" kind="friend"><name>operator+</name></member>
     <member refid="group__GeneralGroup_1ga869660408870e65bd32d5ea6df41edce" kind="friend"><name>operator-</name></member>
     <member refid="group__GeneralGroup_1ga63b86dd913cfa47171634ae6a4537fdb" kind="friend"><name>mulAs</name></member>
@@ -15746,7 +15745,6 @@
     <member refid="group__GeneralGroup_1gabbe6d9d5f0b3716ea3a9824b82181f26" kind="function"><name>makeSolidOfRevolution</name></member>
     <member refid="group__GeneralGroup_1ga2a9110bdd2a450f4830e39f32ae6dcfc" kind="function"><name>mulAs</name></member>
     <member refid="group__GeneralGroup_1ga39de2d02d74ee4158df88993a656c0d0" kind="function"><name>operator*</name></member>
-    <member refid="group__GeneralGroup_1ga653978c9d8cd70c6399ccb07f7191182" kind="function"><name>signOfProductsDiff</name></member>
     <member refid="group__GeneralGroup_1ga28de882a11f5c9ac17334f542ab0ec47" kind="function"><name>projectSpline</name></member>
     <member refid="group__GeneralGroup_1ga2b6db8327a937df5f0371d7adba2adc5" kind="function"><name>projectSplineAsMTP</name></member>
     <member refid="group__GeneralGroup_1ga81f6f33a8bc09d719c3ccbc1141aea10" kind="function"><name>getCurrentStacktraceInline</name></member>
@@ -28571,12 +28569,10 @@
     <member refid="group__GeneralGroup_1gabbe6d9d5f0b3716ea3a9824b82181f26" kind="function"><name>makeSolidOfRevolution</name></member>
     <member refid="group__GeneralGroup_1ga2a9110bdd2a450f4830e39f32ae6dcfc" kind="function"><name>mulAs</name></member>
     <member refid="group__GeneralGroup_1ga39de2d02d74ee4158df88993a656c0d0" kind="function"><name>operator*</name></member>
-    <member refid="group__GeneralGroup_1ga653978c9d8cd70c6399ccb07f7191182" kind="function"><name>signOfProductsDiff</name></member>
     <member refid="group__GeneralGroup_1ga3dc64df27400abce4c5aa702e5829ac3" kind="function"><name>SparsePolynomial</name></member>
     <member refid="group__GeneralGroup_1ga8b1ef47ca46e4387543f27df6e3b3bf7" kind="function"><name>SparsePolynomial</name></member>
     <member refid="group__GeneralGroup_1gaf742f5b139ea26142c4b53b07b105655" kind="function"><name>SparsePolynomial</name></member>
     <member refid="group__GeneralGroup_1gadb8ff3c08eca24b211a02e31060ec736" kind="function"><name>SparsePolynomial</name></member>
-    <member refid="group__GeneralGroup_1gaa2b403abf3066fd54bde49ee763aab40" kind="function"><name>fromUnsortedTerms</name></member>
     <member refid="group__GeneralGroup_1ga687ad0841acd4ba8dd03d5915fdaecf3" kind="function"><name>setZeroCoeff</name></member>
     <member refid="group__GeneralGroup_1ga3121c41d3714630889e95595c2ed63ba" kind="function"><name>empty</name></member>
     <member refid="group__GeneralGroup_1ga555f6678115944f56cb6b347fcbc297a" kind="function"><name>isPositive</name></member>

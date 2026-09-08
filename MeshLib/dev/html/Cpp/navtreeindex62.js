@@ -1,7 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"structMR_1_1DecimateResult.html":[8,0,0,10,1],
-"structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd":[8,0,0,10,1,3],
 "structMR_1_1DecimateResult.html#a2c8b594ad2bac0e25760edeab9f76623":[8,0,0,10,1,2],
 "structMR_1_1DecimateResult.html#a4080c2ae3d9e15c04989c161cacb96d8":[8,0,0,10,1,1],
 "structMR_1_1DecimateResult.html#a957fcc3b175a446e3a20f7299cd9a1b6":[8,0,0,10,1,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX62 =
 "structMR_1_1FindOutliersParams.html":[8,0,0,20,425],
 "structMR_1_1FindOverhangsSettings.html":[8,0,0,20,365],
 "structMR_1_1FindOverlappingSettings.html":[8,0,0,20,426],
-"structMR_1_1FindProjectionOnPointsSettings.html":[8,0,0,1,29]
+"structMR_1_1FindProjectionOnPointsSettings.html":[8,0,0,1,29],
+"structMR_1_1FindProjectionOnPointsSettings.html#a33ab001af75b70c47485278f07082bd5":[8,0,0,1,29,1],
+"structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217":[8,0,0,1,29,4]
 };
