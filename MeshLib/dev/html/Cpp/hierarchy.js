@@ -838,7 +838,6 @@ var hierarchy =
     [ "MR::Features::MeasureResult", "structMR_1_1Features_1_1MeasureResult.html", null ],
     [ "MR::MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", null ],
     [ "MR::MenuItemInfo", "structMR_1_1MenuItemInfo.html", null ],
-    [ "MR::MenuItemShortcut", "structMR_1_1MenuItemShortcut.html", null ],
     [ "MR::MergeVolumePartSettings", "structMR_1_1MergeVolumePartSettings.html", null ],
     [ "MR::Mesh", "structMR_1_1Mesh.html", null ],
     [ "MR::MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", null ],
@@ -1239,8 +1238,6 @@ var hierarchy =
     [ "MR::SharpenMarchingCubesMeshSettings", "structMR_1_1SharpenMarchingCubesMeshSettings.html", null ],
     [ "MR::ShellVertexInfo", "structMR_1_1ShellVertexInfo.html", null ],
     [ "MR::ShiftTransformer< TreeT >", "classMR_1_1ShiftTransformer.html", null ],
-    [ "MR::Shortcut", "structMR_1_1Shortcut.html", null ],
-    [ "MR::ShortcutManager::ShortcutAction", "structMR_1_1ShortcutManager_1_1ShortcutAction.html", null ],
     [ "MR::ShortcutManager::ShortcutCommand", "structMR_1_1ShortcutManager_1_1ShortcutCommand.html", null ],
     [ "MR::ShortcutKey", "structMR_1_1ShortcutKey.html", null ],
     [ "boost::signals2::signal", null, [

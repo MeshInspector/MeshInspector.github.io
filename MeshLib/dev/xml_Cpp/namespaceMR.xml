@@ -364,7 +364,6 @@
     <innerclass refid="classMR_1_1MeasurementObject" prot="public">MR::MeasurementObject</innerclass>
     <innerclass refid="structMR_1_1MenuItemCaptionSize" prot="public">MR::MenuItemCaptionSize</innerclass>
     <innerclass refid="structMR_1_1MenuItemInfo" prot="public">MR::MenuItemInfo</innerclass>
-    <innerclass refid="structMR_1_1MenuItemShortcut" prot="public">MR::MenuItemShortcut</innerclass>
     <innerclass refid="structMR_1_1MergeVolumePartSettings" prot="public">MR::MergeVolumePartSettings</innerclass>
     <innerclass refid="structMR_1_1Mesh" prot="public">MR::Mesh</innerclass>
     <innerclass refid="structMR_1_1MeshApproxRelaxParams" prot="public">MR::MeshApproxRelaxParams</innerclass>
@@ -687,7 +686,6 @@
     <innerclass refid="structMR_1_1SharpOffsetParameters" prot="public">MR::SharpOffsetParameters</innerclass>
     <innerclass refid="structMR_1_1ShellVertexInfo" prot="public">MR::ShellVertexInfo</innerclass>
     <innerclass refid="classMR_1_1ShiftTransformer" prot="public">MR::ShiftTransformer</innerclass>
-    <innerclass refid="structMR_1_1Shortcut" prot="public">MR::Shortcut</innerclass>
     <innerclass refid="structMR_1_1ShortcutKey" prot="public">MR::ShortcutKey</innerclass>
     <innerclass refid="classMR_1_1ShortcutManager" prot="public">MR::ShortcutManager</innerclass>
     <innerclass refid="structMR_1_1ShrinkwrapParameters" prot="public">MR::ShrinkwrapParameters</innerclass>
@@ -2100,6 +2098,7 @@
       <member refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kind="variable"><name>FunctionVolume</name></member>
     </sectiondef>
     <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1gaaf1b942a3a38255874216b2086b3dc3e" kind="function"><name>setupCommonPluginsShortcuts</name></member>
       <member refid="group__GeneralGroup_1ga19050dd10a5949c79f3e19aeaff6466b" kind="function"><name>deserializeObjectTreeFrom3mf</name></member>
       <member refid="group__GeneralGroup_1ga58ca3a48e21d88de69dd699129025edb" kind="function"><name>deserializeObjectTreeFromModel</name></member>
       <member refid="group__GeneralGroup_1gae6fa636dd51f34ce2884fd560b05e1f4" kind="function"><name>deserializeObjectTreeFromGltf</name></member>

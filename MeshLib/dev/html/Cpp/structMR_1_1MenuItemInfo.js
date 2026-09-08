@@ -7,6 +7,5 @@ var structMR_1_1MenuItemInfo =
     [ "icon", "group__GeneralGroup.html#ga7ae92cc9abaa72fdd49fb11994a79ecb", null ],
     [ "item", "group__GeneralGroup.html#ga926a6449190c31f77c5b88b8c236958e", null ],
     [ "localeDomainId", "group__GeneralGroup.html#ga7fb5cde33fc99b1ed5ef203ab985cffb", null ],
-    [ "shortcut", "group__GeneralGroup.html#gaff5cdac97d9553866e2b0f12d9a466c7", null ],
     [ "tooltip", "group__GeneralGroup.html#ga9a40f27aa0f9195b23043223e671187f", null ]
 ];

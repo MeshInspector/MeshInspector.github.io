@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"MRParabola_8h_source.html":[8,0,3,0,7,287],
+"MRParallelFor_8h.html":[8,0,3,0,7,289],
 "MRParallelFor_8h_source.html":[8,0,3,0,7,289],
 "MRParallelMinMax_8h.html":[8,0,3,0,7,290],
 "MRParallelMinMax_8h_source.html":[8,0,3,0,7,290],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "MRRibbonLayoutConfig_8h.html":[8,0,3,0,11,98],
 "MRRibbonLayoutConfig_8h_source.html":[8,0,3,0,11,98],
 "MRRibbonMenuItem_8h.html":[8,0,3,0,11,100],
-"MRRibbonMenuItem_8h_source.html":[8,0,3,0,11,100],
-"MRRibbonMenuSearch_8h.html":[8,0,3,0,11,101],
-"MRRibbonMenuSearch_8h_source.html":[8,0,3,0,11,101]
+"MRRibbonMenuItem_8h_source.html":[8,0,3,0,11,100]
 };
