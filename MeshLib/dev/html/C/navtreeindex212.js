@@ -1,5 +1,14 @@
 var NAVTREEINDEX212 =
 {
+"structMR__Vector4i.html":[8,2,1,0,69],
+"structMR__Vector4i.html#a08e229639c788715be82424368ea0065":[8,2,1,0,69,2],
+"structMR__Vector4i.html#a646bf8d52933ba2af8ec2023498d69fb":[8,2,1,0,69,1],
+"structMR__Vector4i.html#a794fbee48aa63f12aeb0a8dd39b99b42":[8,2,1,0,69,0],
+"structMR__Vector4i.html#ab0abd0df20fe4e08f519f993e4133ea7":[8,2,1,0,69,3],
+"structMR__Vector4i64.html":[8,2,1,0,70],
+"structMR__Vector4i64.html#a46bc68ad37f5232c4af4378f42b4f2e5":[8,2,1,0,70,1],
+"structMR__Vector4i64.html#a86648c6970c8605979e7992a23690b1b":[8,2,1,0,70,3],
+"structMR__Vector4i64.html#aebb4f8e5c021e1ba82fb9397cb2bc95d":[8,2,1,0,70,0],
 "structMR__Vector4i64.html#aff7d5a8992dfc0ca93c58221135e1da5":[8,2,1,0,70,2],
 "structMR__VertId.html":[8,2,1,0,71],
 "structMR__VertId.html#aa09d1de62013d40fe76ab8402a15a4f7":[8,2,1,0,71,0],

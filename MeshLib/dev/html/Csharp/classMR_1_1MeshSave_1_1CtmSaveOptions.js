@@ -18,6 +18,7 @@ var classMR_1_1MeshSave_1_1CtmSaveOptions =
     [ "progress", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#a6a0a7a64ae387007e9f6bfb6b3695f54", null ],
     [ "saveTriCornerUVCoords", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#a40e211f90634b8c12885fb650237c763", null ],
     [ "solidColor", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#a2ed7d23f734cc394370249a0c40f1475", null ],
+    [ "telemetrySignal", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#a47bbd3e62e507d976474fe4c6d1f2f44", null ],
     [ "texture", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#aa5a9f26c25457491e7ad2248bba0f01e", null ],
     [ "uvMap", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#a0e882f66de8a96efd477084ad2eaa011", null ],
     [ "vertexPrecision", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#a75d0cae41189ee2a5cc7dd21e9feb705", null ],

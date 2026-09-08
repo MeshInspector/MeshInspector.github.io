@@ -4320,6 +4320,7 @@ var group__GeneralGroup =
       [ "progress", "group__GeneralGroup.html#ga0f2bb31407f2693aa939c47e0052b527", null ],
       [ "saveTriCornerUVCoords", "group__GeneralGroup.html#gac0798760baa0755ad37dde251b754b9d", null ],
       [ "solidColor", "group__GeneralGroup.html#ga127d98f930cd561a8633297e3422f649", null ],
+      [ "telemetrySignal", "group__GeneralGroup.html#ga61f8231ef54870e7e1fb1335672a25a4", null ],
       [ "texture", "group__GeneralGroup.html#ga0cd4cf82acb2f094f43f785282fcb76a", null ],
       [ "uvMap", "group__GeneralGroup.html#ga71c2ed63cb6a101dbd9b47f8ca9898fd", null ],
       [ "xf", "group__GeneralGroup.html#ga972e4972bf3626cb56f22c55b69cccc0", null ]
@@ -18545,6 +18546,7 @@ var group__GeneralGroup =
     [ "MR::MeshLoadSettings::telemetrySignal", "group__GeneralGroup.html#gadf9210a3db4a2bdb4ccfb7e14f428246", null ],
     [ "MR::PlyLoadParams::telemetrySignal", "group__GeneralGroup.html#ga9ad593a784aa6436f4c2c6a5ba87b9ca", null ],
     [ "MR::PointsLoadSettings::telemetrySignal", "group__GeneralGroup.html#ga1dce73fcc836e6bf67b9078a0dbc0e50", null ],
+    [ "MR::SaveSettings::telemetrySignal", "group__GeneralGroup.html#ga61f8231ef54870e7e1fb1335672a25a4", null ],
     [ "MR::SplashWindow::terminate_", "group__GeneralGroup.html#ga302e1b3310c1ee684e3de1d7a239e964", null ],
     [ "MR::UI::ButtonCustomizationParams::testEngineName", "group__GeneralGroup.html#ga95c7d0696bf82bdb91773e3df15adce1", null ],
     [ "MR::ModalDialogSettings::text", "group__GeneralGroup.html#gaa65f2b8b59737180b99cc277177d4ff5", null ],

@@ -1,5 +1,14 @@
 var NAVTREEINDEX134 =
 {
+"classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a63bc49ce930867100df4a9f996a112dd":[8,3,0,0,0,1680,3,0],
+"classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a7efeccae78f6c00e880641462cbca7f2":[8,3,0,0,0,1680,3,9],
+"classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a89e9324799b3e6f6fb9d69dd91314792":[8,3,0,0,0,1680,3,3],
+"classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a99eafa1ad93235590681a5ba31da1239":[8,3,0,0,0,1680,3,2],
+"classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa05058f0a307f86e577dcd995c2d4f71":[8,3,0,0,0,1680,3,8],
+"classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aedc6de04e2f6822639127c5a480e7771":[8,3,0,0,0,1680,3,7],
+"classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af6f94de4651d5915a2396fd0366ff784":[8,3,0,0,0,1680,3,5],
+"classMR_1_1TriangulationHelpers_1_1Settings.html":[8,3,0,0,0,1680,4],
+"classMR_1_1TriangulationHelpers_1_1Settings.html#a2be2b7cd6d9f14d8b74a765297bc5c96":[8,3,0,0,0,1680,4,3],
 "classMR_1_1TriangulationHelpers_1_1Settings.html#a2d94eeb30192add30f608bb2bb7cfe0d":[8,3,0,0,0,1680,4,7],
 "classMR_1_1TriangulationHelpers_1_1Settings.html#a3e31375c71dbf56971109212d58bd5dd":[8,3,0,0,0,1680,4,0],
 "classMR_1_1TriangulationHelpers_1_1Settings.html#a4a28c13edd719230af4d3fbd1c6b94a6":[8,3,0,0,0,1680,4,12],
@@ -240,14 +249,5 @@ var NAVTREEINDEX134 =
 "classMR_1_1UndirectedEdgeColors.html#a2c5d06351c256f1d6f95bce43c6385b4":[8,3,0,0,0,1702,9],
 "classMR_1_1UndirectedEdgeColors.html#a38a2a84d3a011f9be10712d0a3f7f9e8":[8,3,0,0,0,1702,16],
 "classMR_1_1UndirectedEdgeColors.html#a4fc8642aa1b56fbf48f6c8329f9f0d25":[8,3,0,0,0,1702,22],
-"classMR_1_1UndirectedEdgeColors.html#a5cad4ca40c5f39f4b64f66db2bea3075":[8,3,0,0,0,1702,25],
-"classMR_1_1UndirectedEdgeColors.html#a5d5fc17ab6e9ce07abd842397940bee8":[8,3,0,0,0,1702,10],
-"classMR_1_1UndirectedEdgeColors.html#a60c3243a20ed7ec0b457e86ffb9e42e5":[8,3,0,0,0,1702,17],
-"classMR_1_1UndirectedEdgeColors.html#a632cb76e39aaae305fd21704fb1fe3ac":[8,3,0,0,0,1702,14],
-"classMR_1_1UndirectedEdgeColors.html#a772f08ee8c440fba3553f630f6361102":[8,3,0,0,0,1702,28],
-"classMR_1_1UndirectedEdgeColors.html#a792a7c1c35afa537d053f1308fa6daf6":[8,3,0,0,0,1702,18],
-"classMR_1_1UndirectedEdgeColors.html#a81accfb6ef42b3a667825daf1593cdfc":[8,3,0,0,0,1702,6],
-"classMR_1_1UndirectedEdgeColors.html#a8538eb77c9491a566e03ac08930009b6":[8,3,0,0,0,1702,8],
-"classMR_1_1UndirectedEdgeColors.html#a871fd2789e965ab36a7eba3658cb853c":[8,3,0,0,0,1702,23],
-"classMR_1_1UndirectedEdgeColors.html#aa281a69d672eb03e4d90d8f8875d3c07":[8,3,0,0,0,1702,4]
+"classMR_1_1UndirectedEdgeColors.html#a5cad4ca40c5f39f4b64f66db2bea3075":[8,3,0,0,0,1702,25]
 };

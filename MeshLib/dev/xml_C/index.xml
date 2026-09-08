@@ -389,6 +389,9 @@
     <member refid="MRCtm_8h_1a8373abce6b78c7f2ef324d620582a60a" kind="function"><name>MR_MeshSave_CtmSaveOptions_Get_solidColor</name></member>
     <member refid="MRCtm_8h_1a05e0bbd9be53dad1667407983d928c06" kind="function"><name>MR_MeshSave_CtmSaveOptions_Set_solidColor</name></member>
     <member refid="MRCtm_8h_1a2eeac9f2bde83adf988c351535e11fd7" kind="function"><name>MR_MeshSave_CtmSaveOptions_GetMutable_solidColor</name></member>
+    <member refid="MRCtm_8h_1a3f7d2ef5e36f20871bc674309826b310" kind="function"><name>MR_MeshSave_CtmSaveOptions_Get_telemetrySignal</name></member>
+    <member refid="MRCtm_8h_1a9b4be297a5d8632bfbdb32cb623b8173" kind="function"><name>MR_MeshSave_CtmSaveOptions_Set_telemetrySignal</name></member>
+    <member refid="MRCtm_8h_1a9065f4bf61d87aa4475721ed2a871533" kind="function"><name>MR_MeshSave_CtmSaveOptions_GetMutable_telemetrySignal</name></member>
     <member refid="MRCtm_8h_1a308462da117a0cfa405e745629415ca0" kind="function"><name>MR_MeshSave_CtmSaveOptions_Get_progress</name></member>
     <member refid="MRCtm_8h_1ab52d8f4b7f5b7955ab44f609eed4d7c2" kind="function"><name>MR_MeshSave_CtmSaveOptions_Set_progress</name></member>
     <member refid="MRCtm_8h_1a0fe6fc0abe9e99333c9a786409c7612c" kind="function"><name>MR_MeshSave_CtmSaveOptions_GetMutable_progress</name></member>
@@ -449,6 +452,9 @@
     <member refid="MRCtm_8h_1aeaf21845bd779a06b52c290a94152cb8" kind="function"><name>MR_PointsSave_CtmSavePointsOptions_Get_solidColor</name></member>
     <member refid="MRCtm_8h_1ae8940e8549d17b32a49176510055a04d" kind="function"><name>MR_PointsSave_CtmSavePointsOptions_Set_solidColor</name></member>
     <member refid="MRCtm_8h_1a757aa15565da5a6e3b219fc355aeed38" kind="function"><name>MR_PointsSave_CtmSavePointsOptions_GetMutable_solidColor</name></member>
+    <member refid="MRCtm_8h_1afdda9d29633debd98957af88a70fb376" kind="function"><name>MR_PointsSave_CtmSavePointsOptions_Get_telemetrySignal</name></member>
+    <member refid="MRCtm_8h_1a8738a24a34c0d4715a5563cf7d8d2d7f" kind="function"><name>MR_PointsSave_CtmSavePointsOptions_Set_telemetrySignal</name></member>
+    <member refid="MRCtm_8h_1a62ddaab1ebda9366c408b9e2f9931b8a" kind="function"><name>MR_PointsSave_CtmSavePointsOptions_GetMutable_telemetrySignal</name></member>
     <member refid="MRCtm_8h_1a427b98dcaa1daa1c6670dc3aa74a4642" kind="function"><name>MR_PointsSave_CtmSavePointsOptions_Get_progress</name></member>
     <member refid="MRCtm_8h_1a55d6247cbbd807c11acf7583c39433f7" kind="function"><name>MR_PointsSave_CtmSavePointsOptions_Set_progress</name></member>
     <member refid="MRCtm_8h_1acad61c6a13c5c2ae5a802100593cb74a" kind="function"><name>MR_PointsSave_CtmSavePointsOptions_GetMutable_progress</name></member>
@@ -22436,12 +22442,15 @@
     <member refid="MRSaveSettings_8h_1a0e7dac6d892d92f5949a43caa41a4010" kind="function"><name>MR_SaveSettings_Get_solidColor</name></member>
     <member refid="MRSaveSettings_8h_1acbc909c10738d77157d1d5276fd96b33" kind="function"><name>MR_SaveSettings_Set_solidColor</name></member>
     <member refid="MRSaveSettings_8h_1ab87c3f209c5662b3b9695e7b942d9acc" kind="function"><name>MR_SaveSettings_GetMutable_solidColor</name></member>
+    <member refid="MRSaveSettings_8h_1a70b9d8356c236a3c90f38eb2d4272bc3" kind="function"><name>MR_SaveSettings_Get_telemetrySignal</name></member>
+    <member refid="MRSaveSettings_8h_1a0173b019298518e0ac0383c447fae6b2" kind="function"><name>MR_SaveSettings_Set_telemetrySignal</name></member>
+    <member refid="MRSaveSettings_8h_1a63cf887d10538677b71cef8c0581b075" kind="function"><name>MR_SaveSettings_GetMutable_telemetrySignal</name></member>
     <member refid="MRSaveSettings_8h_1aa2e93a130572de8ea1849d2f6e49e938" kind="function"><name>MR_SaveSettings_Get_progress</name></member>
     <member refid="MRSaveSettings_8h_1ad56722a75b4b2a43b36280d4192d3e21" kind="function"><name>MR_SaveSettings_Set_progress</name></member>
     <member refid="MRSaveSettings_8h_1af90fbfc5c629bfb342f1ee9b503abf99" kind="function"><name>MR_SaveSettings_GetMutable_progress</name></member>
     <member refid="MRSaveSettings_8h_1af16001ecdd75188c01262bdf53566a54" kind="function"><name>MR_SaveSettings_DefaultConstruct</name></member>
     <member refid="MRSaveSettings_8h_1a885d32f34aa817ecc5a3656d1d29b98d" kind="function"><name>MR_SaveSettings_DefaultConstructArray</name></member>
-    <member refid="MRSaveSettings_8h_1afadececb2003f3702261395afbf0aa30" kind="function"><name>MR_SaveSettings_ConstructFrom</name></member>
+    <member refid="MRSaveSettings_8h_1a3c8b9cfddd80583cfb3389031e9b2977" kind="function"><name>MR_SaveSettings_ConstructFrom</name></member>
     <member refid="MRSaveSettings_8h_1a89364ac656ed73d0c398ddf10ca8784f" kind="function"><name>MR_SaveSettings_OffsetPtr</name></member>
     <member refid="MRSaveSettings_8h_1a3849b5b19daf665700a0f7a1a8cbfaaf" kind="function"><name>MR_SaveSettings_OffsetMutablePtr</name></member>
     <member refid="MRSaveSettings_8h_1a5cd90a86abb76c5fcdcc5ab6c6b1c3b1" kind="function"><name>MR_SaveSettings_ConstructFromAnother</name></member>

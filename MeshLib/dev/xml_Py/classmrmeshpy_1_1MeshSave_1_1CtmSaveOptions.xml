@@ -361,6 +361,7 @@
       <member refid="classmrmeshpy_1_1SaveSettings_1ad48354bde4088e2b337e62c9d86b3e1b" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_progress</name></member>
       <member refid="classmrmeshpy_1_1SaveSettings_1a819623127578de57657b454d96613484" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_saveTriCornerUVCoords</name></member>
       <member refid="classmrmeshpy_1_1SaveSettings_1aac63ae0eae5e3bea4e338ebfb82eb2c3" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_solidColor</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aea88a521334279f5ac00dd457ec24c22" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_telemetrySignal</name></member>
       <member refid="classmrmeshpy_1_1SaveSettings_1acacfe86c98d114f89fd4c30ba9634ef1" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_texture</name></member>
       <member refid="classmrmeshpy_1_1SaveSettings_1ac88cf3cf5ff30969ae1804138eca04d5" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_uvMap</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1abda69ebfdd2e5a4da3c9534e47c152f3" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_vertexPrecision</name></member>
@@ -390,6 +391,8 @@
       <member refid="classmrmeshpy_1_1SaveSettings_1a065faec4aa15fddb07aeab33ec88d3e1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>saveTriCornerUVCoords</name></member>
       <member refid="classmrmeshpy_1_1SaveSettings_1a1c4405d19328e0f1b917e56fac7f7c8f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>solidColor</name></member>
       <member refid="classmrmeshpy_1_1SaveSettings_1a6562a7051c49a9ce7d811f217eeeb77e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>solidColor</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a7d567ca2364dc8ff64662fde01bbb43d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>telemetrySignal</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aea586d6ed0ff9ec645d59b0719318c4a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>telemetrySignal</name></member>
       <member refid="classmrmeshpy_1_1SaveSettings_1a60eff520b1c3959b2b96552b61ed69db" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>texture</name></member>
       <member refid="classmrmeshpy_1_1SaveSettings_1aebb954e2bd869408a83b791b34b2196c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>texture</name></member>
       <member refid="classmrmeshpy_1_1SaveSettings_1a33660f56044f095ceee7e8f4d5aa2f3b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>uvMap</name></member>

@@ -1,5 +1,11 @@
 var NAVTREEINDEX77 =
 {
+"MRObjectPointsHolder_8h.html#ac3dd850b49afc175269f5c7520dc2a4a":[8,2,2,0,0,0,0,1,236,100],
+"MRObjectPointsHolder_8h.html#ac42252fbb0ea8aefa223c95e29492fe0":[8,2,2,0,0,0,0,1,236,99],
+"MRObjectPointsHolder_8h.html#ac497c073e8dc66a9d656ffbae5e2091e":[8,2,2,0,0,0,0,1,236,32],
+"MRObjectPointsHolder_8h.html#aca924ac5113db75d49d64e9c253b84c6":[8,2,2,0,0,0,0,1,236,148],
+"MRObjectPointsHolder_8h.html#acade344ca4f98a59ae3e667572006991":[8,2,2,0,0,0,0,1,236,122],
+"MRObjectPointsHolder_8h.html#acc879d317415de7ad38151689f974d7b":[8,2,2,0,0,0,0,1,236,23],
 "MRObjectPointsHolder_8h.html#acfd066666dbd23910e5c8b85877d93f4":[8,2,2,0,0,0,0,1,236,57],
 "MRObjectPointsHolder_8h.html#ad1bbdffa54c820f032346353d8947957":[8,2,2,0,0,0,0,1,236,95],
 "MRObjectPointsHolder_8h.html#ad26e2fa4f2c77c9c68b871aa91215d15":[8,2,2,0,0,0,0,1,236,54],
@@ -243,11 +249,5 @@ var NAVTREEINDEX77 =
 "MRObjectSaveSettings_8h.html#ae73978f35ecb92911d26c5450d412160":[8,2,2,0,0,0,0,1,239,27],
 "MRObjectSaveSettings_8h.html#ae9024025be47bc9af522270e77a3a369":[8,2,2,0,0,0,0,1,239,16],
 "MRObjectSaveSettings_8h_source.html":[8,2,2,0,0,0,0,1,239],
-"MRObjectSave_8h.html":[8,2,2,0,0,0,0,1,238],
-"MRObjectSave_8h.html#a299e71ff45307299b3d8aec0528eb147":[8,2,2,0,0,0,0,1,238,3],
-"MRObjectSave_8h.html#a4ddf6c8024b9db9485d7e2fca6b6c82f":[8,2,2,0,0,0,0,1,238,1],
-"MRObjectSave_8h.html#a53c86ed440ceab64586b5f4dd52087a1":[8,2,2,0,0,0,0,1,238,2],
-"MRObjectSave_8h.html#a8ea0856fcd01d21e1d2d78a04eb46c1c":[8,2,2,0,0,0,0,1,238,0],
-"MRObjectSave_8h.html#a9d2bc41bf00f30b4253c1b1d37e7b269":[8,2,2,0,0,0,0,1,238,4],
-"MRObjectSave_8h_source.html":[8,2,2,0,0,0,0,1,238]
+"MRObjectSave_8h.html":[8,2,2,0,0,0,0,1,238]
 };

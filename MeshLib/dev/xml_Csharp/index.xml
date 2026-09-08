@@ -7508,6 +7508,7 @@
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1af3c6d438f18fe31f84d154354d2617f0" kind="property"><name>xf</name></member>
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a5feba8d6aa7245e3d60832685059b20c" kind="property"><name>lengthUnit</name></member>
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a81aa74631bc9399c6ae7b4684b027781" kind="property"><name>solidColor</name></member>
+    <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a4089f9eed598931243f3aa88a59fbc67" kind="property"><name>telemetrySignal</name></member>
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1afbd45ae2b222863c391a0ce234bc1a47" kind="property"><name>progress</name></member>
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a4c9ec3ef94a96865caee616f44069daa" kind="variable"><name>__ref_storage_meshCompression</name></member>
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a75471ad14bc7475b87c533ed8a123256" kind="variable"><name>__ref_storage_vertexPrecision</name></member>
@@ -7521,6 +7522,7 @@
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1ae4bdd403c8e69a2e6163a318af112f61" kind="variable"><name>__ref_storage_saveTriCornerUVCoords</name></member>
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1ac8e6bf75b65a77be993e15f2d7a4a0f1" kind="variable"><name>__ptr_storage_texture</name></member>
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a45e1f3878a6d8ec0a0954dd469e1b27d" kind="variable"><name>__ptr_storage_xf</name></member>
+    <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a144b5a3356ea226df1f031a95ac6f394" kind="variable"><name>__ref_storage_telemetrySignal</name></member>
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a25a3d5c79f6a66783ee4cdaed0c98729" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a5e90ee5d4c2246f4c1f7310b64cd6864" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a6088524a1949f2721b8b2d15217ba424" kind="function"><name>Const_CtmSaveOptions</name></member>
@@ -7545,6 +7547,7 @@
     <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1abacc88695cc5dd73f34084eca3ed6366" kind="property"><name>xf</name></member>
     <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a5cc70544dcce42f608a4914566624f40" kind="property"><name>lengthUnit</name></member>
     <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a1637397189664c5feef48669988cf567" kind="property"><name>solidColor</name></member>
+    <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1ab7316d0538844419b38219cee9b91b5b" kind="property"><name>telemetrySignal</name></member>
     <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1af74844506f8ebdae4b43f637280f0c8b" kind="property"><name>progress</name></member>
     <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a645260c4dffbef9d45fddb6e4e8a6702" kind="variable"><name>__ref_storage_compressionLevel</name></member>
     <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a275e9b2b5055b8a83bdbe4c0d58ae8f5" kind="variable"><name>__ptr_storage_comment</name></member>
@@ -7556,6 +7559,7 @@
     <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a194eb64710df766f8b8480327ec33d6a" kind="variable"><name>__ref_storage_saveTriCornerUVCoords</name></member>
     <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a491b54dd89edb61941fe64679b305369" kind="variable"><name>__ptr_storage_texture</name></member>
     <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a4c45804986d65dd6a8218e2051e1005a" kind="variable"><name>__ptr_storage_xf</name></member>
+    <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a8a815a95f2cbc901d526f521b3d0a430" kind="variable"><name>__ref_storage_telemetrySignal</name></member>
     <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a3defe6c34796914d95f02ac37b01bd6d" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1aac7fa9077c8fb30c1b0366094d75022c" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a2087714eb68ddd99ccf8a221a98427ac" kind="function"><name>Const_CtmSavePointsOptions</name></member>
@@ -18506,6 +18510,7 @@
     <member refid="classMR_1_1Const__SaveSettings_1aee56c53cf4f101b9e1871da4bedbfb5d" kind="property"><name>xf</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1afbd14e4ebbe98232e14e14c39b857c78" kind="property"><name>lengthUnit</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1a81207c6d4125a748e1d92b0f1e2ad7b7" kind="property"><name>solidColor</name></member>
+    <member refid="classMR_1_1Const__SaveSettings_1a4abd4eb639467875b2e37ff09a3f25f8" kind="property"><name>telemetrySignal</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1a3e406f35dd33e3685c97a3d6632f1ea6" kind="property"><name>progress</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1a261715a00d47eda8ffb143a16c9576f1" kind="variable"><name>__ref_storage_onlyValidPoints</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1ac6458550b586645841d71c61ebe3bd0a" kind="variable"><name>__ref_storage_packPrimitives</name></member>
@@ -18515,10 +18520,11 @@
     <member refid="classMR_1_1Const__SaveSettings_1ac84bcefa0757fda0fdd96544a4a22348" kind="variable"><name>__ref_storage_saveTriCornerUVCoords</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1a1b7b37741c8d81e40862d7b74fd783c6" kind="variable"><name>__ptr_storage_texture</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1adb3a4884ed904a5de17afb6315e13cdd" kind="variable"><name>__ptr_storage_xf</name></member>
+    <member refid="classMR_1_1Const__SaveSettings_1a458fce427655aae877f6b36340810a6b" kind="variable"><name>__ref_storage_telemetrySignal</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1a94d410b5a61ad03e5d0def3476959de7" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1abb442483fd854830392f030c2d8178df" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1a74b9ca0113d8bede40794a2276790596" kind="function"><name>Const_SaveSettings</name></member>
-    <member refid="classMR_1_1Const__SaveSettings_1ac60faf9d62f23bd6f3198d9c609a9a77" kind="function"><name>Const_SaveSettings</name></member>
+    <member refid="classMR_1_1Const__SaveSettings_1ac8feb660e0942efa5d66f5368b2ad63c" kind="function"><name>Const_SaveSettings</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1a4f2b9f60633d28351cade5aa4ebc96c2" kind="function"><name>Const_SaveSettings</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1a506f91750aff9650135b9b0c05d8e27f" kind="function"><name>Const_SaveSettings</name></member>
     <member refid="classMR_1_1Const__SaveSettings_1aafa05cfac60283d1f9d7aab90303711b" kind="function"><name>Const_SaveSettings</name></member>
@@ -27095,6 +27101,7 @@
     <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1acb721fca877e5719d45d9a7ec7cde161" kind="property"><name>xf</name></member>
     <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1a27dd7601faeaa6194e8eb00d3dc58071" kind="property"><name>lengthUnit</name></member>
     <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1a2ed7d23f734cc394370249a0c40f1475" kind="property"><name>solidColor</name></member>
+    <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1a47bbd3e62e507d976474fe4c6d1f2f44" kind="property"><name>telemetrySignal</name></member>
     <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1a6a0a7a64ae387007e9f6bfb6b3695f54" kind="property"><name>progress</name></member>
     <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1a57f858f4c1d2ca0a02c1c61fbda01b56" kind="function"><name>operator MR.SaveSettings</name></member>
     <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1a77d4d8217ec7b34d3a8f17120d082135" kind="function"><name>CtmSaveOptions</name></member>
@@ -27118,6 +27125,7 @@
     <member refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions_1af159eb0718010983dcdc16815b58d815" kind="property"><name>xf</name></member>
     <member refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions_1a47646ee3e10ff8d0df45dac5c430591d" kind="property"><name>lengthUnit</name></member>
     <member refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions_1af59ed457415d359be9c6e9fd8e256c56" kind="property"><name>solidColor</name></member>
+    <member refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions_1adad821c0d11426da37b1dec3fc3b338f" kind="property"><name>telemetrySignal</name></member>
     <member refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions_1a419c111e1407e323211bf1ca29107474" kind="property"><name>progress</name></member>
     <member refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions_1af91ef483c5fb1d8d44a3daf22152ecf5" kind="function"><name>operator MR.SaveSettings</name></member>
     <member refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions_1ac51865d8ad0149ac9ac58d6979c0906b" kind="function"><name>CtmSavePointsOptions</name></member>
@@ -38097,10 +38105,11 @@
     <member refid="classMR_1_1SaveSettings_1a65abab80e05725aad1955e9671ebaeaa" kind="property"><name>xf</name></member>
     <member refid="classMR_1_1SaveSettings_1a1eb9ec3042e1085c117217486a570efd" kind="property"><name>lengthUnit</name></member>
     <member refid="classMR_1_1SaveSettings_1aa1caab12117b57c3e08054cfaddf977e" kind="property"><name>solidColor</name></member>
+    <member refid="classMR_1_1SaveSettings_1accd2a5307a3530412f802e37b3dd1839" kind="property"><name>telemetrySignal</name></member>
     <member refid="classMR_1_1SaveSettings_1a2db28e4449528ee19634a01d654f48f0" kind="property"><name>progress</name></member>
     <member refid="classMR_1_1SaveSettings_1a2f5e24d892d881bfa7bd426e646e54b6" kind="function"><name>SaveSettings</name></member>
     <member refid="classMR_1_1SaveSettings_1ae4cf7617b98c26fe584e4f7594cc49d6" kind="function"><name>SaveSettings</name></member>
-    <member refid="classMR_1_1SaveSettings_1ae8c30d82a5a96800b911546ae4039b55" kind="function"><name>SaveSettings</name></member>
+    <member refid="classMR_1_1SaveSettings_1ae32fd1e9ebaed5a1dd7578c700bd3380" kind="function"><name>SaveSettings</name></member>
     <member refid="classMR_1_1SaveSettings_1a9ef910af319f987f5ac113a74802ced3" kind="function"><name>SaveSettings</name></member>
     <member refid="classMR_1_1SaveSettings_1ab4bbb1235275abac6d3bdb8595450a3f" kind="function"><name>SaveSettings</name></member>
     <member refid="classMR_1_1SaveSettings_1ad16752a9c1c605e496c0c05f990c7000" kind="function"><name>SaveSettings</name></member>

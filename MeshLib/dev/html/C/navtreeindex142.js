@@ -1,5 +1,14 @@
 var NAVTREEINDEX142 =
 {
+"std__array__MR__PreciseVertCoords2__3_8h_source.html":[8,2,2,0,0,0,0,2,102],
+"std__array__MR__PreciseVertCoords2__4_8h.html":[8,2,2,0,0,0,0,2,103],
+"std__array__MR__PreciseVertCoords2__4_8h.html#a0f737940954735ed1ca62bf216399a49":[8,2,2,0,0,0,0,2,103,6],
+"std__array__MR__PreciseVertCoords2__4_8h.html#a1e1754f6a9276253ff164849b42ab0dc":[8,2,2,0,0,0,0,2,103,14],
+"std__array__MR__PreciseVertCoords2__4_8h.html#a4ac36c691369897e1b78a46bca656589":[8,2,2,0,0,0,0,2,103,0],
+"std__array__MR__PreciseVertCoords2__4_8h.html#a57136fcf5a33a7144ba9f47db5c7c928":[8,2,2,0,0,0,0,2,103,13],
+"std__array__MR__PreciseVertCoords2__4_8h.html#a5bcfd01179dbc248791cdb4b8e384192":[8,2,2,0,0,0,0,2,103,12],
+"std__array__MR__PreciseVertCoords2__4_8h.html#a5cfd78845058f9e4cfb25941b3df5383":[8,2,2,0,0,0,0,2,103,15],
+"std__array__MR__PreciseVertCoords2__4_8h.html#a7098b3b8532964d316fc4dc4e7dd2b99":[8,2,2,0,0,0,0,2,103,4],
 "std__array__MR__PreciseVertCoords2__4_8h.html#a721e80b38c72b32a297d9c1ec66fd23f":[8,2,2,0,0,0,0,2,103,11],
 "std__array__MR__PreciseVertCoords2__4_8h.html#a74e43f41c75ae9dd4feb2a9afd3601c5":[8,2,2,0,0,0,0,2,103,1],
 "std__array__MR__PreciseVertCoords2__4_8h.html#a7c690acec054c4fd8f807c6a1e6a9953":[8,2,2,0,0,0,0,2,103,10],
@@ -240,14 +249,5 @@ var NAVTREEINDEX142 =
 "std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h.html#a7964fdff1abab46629005632625faf64":[8,2,2,0,0,0,0,2,156,4],
 "std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h.html#a98b22052932a608af272c8f4697da44e":[8,2,2,0,0,0,0,2,156,7],
 "std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h.html#a99b60bb4e3da509f4907a222b3006d57":[8,2,2,0,0,0,0,2,156,10],
-"std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h.html#ab2d5b42ab1bd19ec4fd910f90d755874":[8,2,2,0,0,0,0,2,156,9],
-"std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h.html#abfb48458107881c5b58b7cd7b92db9f8":[8,2,2,0,0,0,0,2,156,8],
-"std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h.html#ad87abd8349ca077e33bbdb3e2d7688e5":[8,2,2,0,0,0,0,2,156,3],
-"std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_source.html":[8,2,2,0,0,0,0,2,156],
-"std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html":[8,2,2,0,0,0,0,2,157],
-"std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a1763898a150aa4eb98c86e49093c2b3d":[8,2,2,0,0,0,0,2,157,4],
-"std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a1eac643c094376914ae5b12b8c2221f6":[8,2,2,0,0,0,0,2,157,10],
-"std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a6a3d12f7173caf165b2277f60603f83f":[8,2,2,0,0,0,0,2,157,12],
-"std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#aa6e08e912507ec4b45ac3ee2f1f06aca":[8,2,2,0,0,0,0,2,157,5],
-"std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab0a5ba7f444bcf19adecff653b4835d6":[8,2,2,0,0,0,0,2,157,13]
+"std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h.html#ab2d5b42ab1bd19ec4fd910f90d755874":[8,2,2,0,0,0,0,2,156,9]
 };

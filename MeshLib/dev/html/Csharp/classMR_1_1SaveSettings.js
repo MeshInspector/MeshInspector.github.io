@@ -1,7 +1,7 @@
 var classMR_1_1SaveSettings =
 [
     [ "SaveSettings", "classMR_1_1SaveSettings.html#ae4cf7617b98c26fe584e4f7594cc49d6", null ],
-    [ "SaveSettings", "classMR_1_1SaveSettings.html#ae8c30d82a5a96800b911546ae4039b55", null ],
+    [ "SaveSettings", "classMR_1_1SaveSettings.html#ae32fd1e9ebaed5a1dd7578c700bd3380", null ],
     [ "SaveSettings", "classMR_1_1SaveSettings.html#a9ef910af319f987f5ac113a74802ced3", null ],
     [ "SaveSettings", "classMR_1_1SaveSettings.html#ab4bbb1235275abac6d3bdb8595450a3f", null ],
     [ "SaveSettings", "classMR_1_1SaveSettings.html#ad16752a9c1c605e496c0c05f990c7000", null ],
@@ -15,6 +15,7 @@ var classMR_1_1SaveSettings =
     [ "progress", "classMR_1_1SaveSettings.html#a2db28e4449528ee19634a01d654f48f0", null ],
     [ "saveTriCornerUVCoords", "classMR_1_1SaveSettings.html#aa29226c15a161c3a56ac2778d007f8af", null ],
     [ "solidColor", "classMR_1_1SaveSettings.html#aa1caab12117b57c3e08054cfaddf977e", null ],
+    [ "telemetrySignal", "classMR_1_1SaveSettings.html#accd2a5307a3530412f802e37b3dd1839", null ],
     [ "texture", "classMR_1_1SaveSettings.html#aa6cdc0dc8aba8a853203ec4d7358bd25", null ],
     [ "uvMap", "classMR_1_1SaveSettings.html#a603cb9e64ff00f546275d30d0514c1c7", null ],
     [ "xf", "classMR_1_1SaveSettings.html#a65abab80e05725aad1955e9671ebaeaa", null ]

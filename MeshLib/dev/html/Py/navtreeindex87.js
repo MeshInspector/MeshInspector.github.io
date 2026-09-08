@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"classmrmeshpy_1_1SignDetectionMode.html":[8,1,1,0,1,843],
+"classmrmeshpy_1_1SignDetectionMode.html#a07e65387ed04738c3081c587c9e31eea":[8,1,0,0,2,843,5],
+"classmrmeshpy_1_1SignDetectionMode.html#a07e65387ed04738c3081c587c9e31eea":[8,1,1,0,1,843,5],
+"classmrmeshpy_1_1SignDetectionMode.html#a0d12a1f66cd6a1a296e75590b86d7895":[8,1,0,0,2,843,7],
 "classmrmeshpy_1_1SignDetectionMode.html#a0d12a1f66cd6a1a296e75590b86d7895":[8,1,1,0,1,843,7],
 "classmrmeshpy_1_1SignDetectionMode.html#a11cf9a7318a659517b84f6590f92d32c":[8,1,0,0,2,843,11],
 "classmrmeshpy_1_1SignDetectionMode.html#a11cf9a7318a659517b84f6590f92d32c":[8,1,1,0,1,843,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX87 =
 "classmrmeshpy_1_1SmoothFillingSettings.html#afa82b6ee7264b7f4c7265f58073499a5":[8,1,1,0,1,857,1],
 "classmrmeshpy_1_1SomeLocalTriangulations.html":[8,1,0,0,2,858],
 "classmrmeshpy_1_1SomeLocalTriangulations.html":[8,1,1,0,1,858],
-"classmrmeshpy_1_1SomeLocalTriangulations.html#a79040d06ab4102ffcbaee8680fa9d2ba":[8,1,0,0,2,858,2],
-"classmrmeshpy_1_1SomeLocalTriangulations.html#a79040d06ab4102ffcbaee8680fa9d2ba":[8,1,1,0,1,858,2],
-"classmrmeshpy_1_1SomeLocalTriangulations.html#a7b7f7f9065ebe2e66911d90b068a6af3":[8,1,0,0,2,858,1],
-"classmrmeshpy_1_1SomeLocalTriangulations.html#a7b7f7f9065ebe2e66911d90b068a6af3":[8,1,1,0,1,858,1],
-"classmrmeshpy_1_1SomeLocalTriangulations.html#aa1482015a79edf9856fee8764fddf4aa":[8,1,0,0,2,858,0]
+"classmrmeshpy_1_1SomeLocalTriangulations.html#a79040d06ab4102ffcbaee8680fa9d2ba":[8,1,0,0,2,858,2]
 };

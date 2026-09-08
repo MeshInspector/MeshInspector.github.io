@@ -17,6 +17,7 @@ var classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions =
     [ "__ref_storage_onlyValidPoints", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a96c16c14629774a1924a6ea47d8cb224", null ],
     [ "__ref_storage_packPrimitives", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a4f7fbc790f8dbce105c8cd1807afa84f", null ],
     [ "__ref_storage_saveTriCornerUVCoords", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a194eb64710df766f8b8480327ec33d6a", null ],
+    [ "__ref_storage_telemetrySignal", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a8a815a95f2cbc901d526f521b3d0a430", null ],
     [ "colors", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a82a2c56caf3b7db4aec562fe2247bf0e", null ],
     [ "comment", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a23cd7c0114f5f841945a9a0a56f5280d", null ],
     [ "compressionLevel", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#aa972689c9367e4d850656f9810c06fbd", null ],
@@ -28,6 +29,7 @@ var classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions =
     [ "progress", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#af74844506f8ebdae4b43f637280f0c8b", null ],
     [ "saveTriCornerUVCoords", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#ab14e8a87d6045f9d76eef35030516e29", null ],
     [ "solidColor", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a1637397189664c5feef48669988cf567", null ],
+    [ "telemetrySignal", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#ab7316d0538844419b38219cee9b91b5b", null ],
     [ "texture", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#ab71a9b406d184f31efd20e4be1c154d0", null ],
     [ "uvMap", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a265d6499c8efb36484866e57f81bde58", null ],
     [ "xf", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#abacc88695cc5dd73f34084eca3ed6366", null ]

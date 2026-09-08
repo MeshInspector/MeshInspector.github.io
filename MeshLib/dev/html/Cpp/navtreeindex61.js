@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[8,0,1,0,0,1,0],
 "structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[8,0,2,0,1,1,0],
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[8,0,1,0,0,1,2],
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[8,0,2,0,1,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1CutMeshResult.html":[8,0,0,8,4],
 "structMR_1_1CutMeshResult.html":[8,0,0,20,183],
 "structMR_1_1DecimatePolylineResult.html":[8,0,0,20,454],
-"structMR_1_1DecimatePolylineSettings.html":[8,0,0,10,4],
-"structMR_1_1DecimatePolylineSettings.html":[8,0,0,20,453]
+"structMR_1_1DecimatePolylineSettings.html":[8,0,0,10,4]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1GridToMeshSettings.html#a9b469980c0708879b3904ea8f7ca2dad":[8,3,0,0,0,1226,11],
+"classMR_1_1GridToMeshSettings.html#a9e653930bb00a19e8d1833aa0469e711":[8,3,0,0,0,1226,10],
 "classMR_1_1GridToMeshSettings.html#aabea4a719e879795d881a2d9e90e8750":[8,3,0,0,0,1226,1],
 "classMR_1_1GridToMeshSettings.html#ac4a546b1910f492043db5ea0acc19e34":[8,3,0,0,0,1226,4],
 "classMR_1_1GridToMeshSettings.html#ac53ef8702a4d873c7d4d4932220fe82c":[8,3,0,0,0,1226,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1InSphereTester__Double.html#ab8b76655eed550a578db1ac44e8d16e3":[8,3,0,0,0,1251,3],
 "classMR_1_1InSphereTester__Double.html#ad94306d87b6eebdf46a4148d2c9a5fe6":[8,3,0,0,0,1251,0],
 "classMR_1_1InSphereTester__Double.html#ada50e5a44473a7c8c7d19065e828338f":[8,3,0,0,0,1251,4],
-"classMR_1_1InSphereTester__Double.html#af5a0973bb91faa511e7569fb47895de0":[8,3,0,0,0,1251,5],
-"classMR_1_1InSphereTester__Float.html":[8,3,0,0,0,1252],
-"classMR_1_1InSphereTester__Float.html#a61f41e7c043e5348588495ba595a6853":[8,3,0,0,0,1252,3]
+"classMR_1_1InSphereTester__Double.html#af5a0973bb91faa511e7569fb47895de0":[8,3,0,0,0,1251,5]
 };

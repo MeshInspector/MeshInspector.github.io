@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="354" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="355" bodyend="368"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="366" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="367" bodyend="380"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
@@ -270,6 +270,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="198" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="198" bodyend="198"/>
       </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a4089f9eed598931243f3aa88a59fbc67" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.MeshSave.Const_CtmSaveOptions.telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>MR.MeshSave.Const_CtmSaveOptions.telemetrySignal</qualifiedname>
+        <briefdescription>
+<para>permit telemetry signal about saving </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="203" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="203" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1afbd45ae2b222863c391a0ce234bc1a47" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
         <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.MeshSave.Const_CtmSaveOptions.progress</definition>
@@ -283,7 +298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="203" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="203" bodyend="203"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="209" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="209" bodyend="209"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -455,6 +470,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="188" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="188" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a144b5a3356ea226df1f031a95ac6f394" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.MeshSave.Const_CtmSaveOptions.__ref_storage_telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_telemetrySignal</name>
+        <qualifiedname>MR.MeshSave.Const_CtmSaveOptions.__ref_storage_telemetrySignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="204" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="204" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
       <memberdef kind="function" id="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a25a3d5c79f6a66783ee4cdaed0c98729" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -504,7 +533,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="324" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="324" bodyend="330"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="336" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="336" bodyend="342"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a21126211f65ab5f27200ff5c3c1aa6b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -523,7 +552,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="335" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="335" bodyend="342"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="347" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="347" bodyend="354"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1aa062cf9ec8579011ff482a24cf81eae6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -542,7 +571,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="347" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="347" bodyend="347"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="359" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="359" bodyend="359"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a966226f04373605bbcc2152251d41418" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -561,7 +590,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="352" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="352" bodyend="352"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="364" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="364" bodyend="364"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -621,7 +650,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="313" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="313" bodyend="318"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="325" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="325" bodyend="330"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -679,7 +708,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="12" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="13" bodyend="369"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="12" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="13" bodyend="381"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a97d0b0ad45fc14ed2b906a27200fd50b" prot="protected" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>__ptr_storage_colors</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1aea274200d48bd6cc86df3c39487ae172" prot="protected" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>__ptr_storage_comment</name></member>
@@ -692,6 +721,7 @@
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1ad1487e44d58ee48a066c1df37a576368" prot="protected" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>__ref_storage_onlyValidPoints</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1aee8f0d3ee1272169d631b292e5cc037b" prot="protected" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>__ref_storage_packPrimitives</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1ae4bdd403c8e69a2e6163a318af112f61" prot="protected" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>__ref_storage_saveTriCornerUVCoords</name></member>
+      <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a144b5a3356ea226df1f031a95ac6f394" prot="protected" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>__ref_storage_telemetrySignal</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a75471ad14bc7475b87c533ed8a123256" prot="protected" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>__ref_storage_vertexPrecision</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1ad09647ea5f4ded6ef5781a9750113fb4" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>colors</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a45859d406a5b5e2b722c223b22d8c9e4" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>comment</name></member>
@@ -714,6 +744,7 @@
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1afbd45ae2b222863c391a0ce234bc1a47" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>progress</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a89ebc0aa407a521039970d4f98519312" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>saveTriCornerUVCoords</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a81aa74631bc9399c6ae7b4684b027781" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>solidColor</name></member>
+      <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a4089f9eed598931243f3aa88a59fbc67" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>telemetrySignal</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a06b37d1cccfb6b387e0142e003077f90" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>texture</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a1f0ebd68ab3f526a1ff6b1f533c03312" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>uvMap</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1a0eb883f8424ef7bc4ad3c7f5bcb804bf" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_CtmSaveOptions</scope><name>vertexPrecision</name></member>

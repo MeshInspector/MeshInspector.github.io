@@ -1,5 +1,14 @@
 var NAVTREEINDEX168 =
 {
+"std__vector__MR__Color_8h.html#a58f9b53bf9c22c2987a972c9a6f81f33":[8,2,2,0,0,0,0,2,423,29],
+"std__vector__MR__Color_8h.html#a5c00c94f5118afda82e7c0666b85eb0c":[8,2,2,0,0,0,0,2,423,7],
+"std__vector__MR__Color_8h.html#a6982878cf42cf5633ea1942f3258ee2f":[8,2,2,0,0,0,0,2,423,19],
+"std__vector__MR__Color_8h.html#a6a83ea38055ae14ac32a63cb847ebef5":[8,2,2,0,0,0,0,2,423,8],
+"std__vector__MR__Color_8h.html#a6ed9d65f15d0c1c50cfa1d0fd3a05e46":[8,2,2,0,0,0,0,2,423,15],
+"std__vector__MR__Color_8h.html#a70ea75437db2155e94d7af830719949b":[8,2,2,0,0,0,0,2,423,14],
+"std__vector__MR__Color_8h.html#a750f1b1248ee743cbbaf877d4bdaf337":[8,2,2,0,0,0,0,2,423,18],
+"std__vector__MR__Color_8h.html#a81c0c2f22380254cfdf825204cf23e20":[8,2,2,0,0,0,0,2,423,20],
+"std__vector__MR__Color_8h.html#a83c31fcc409c9ab8c4dbcb624e19dc11":[8,2,2,0,0,0,0,2,423,44],
 "std__vector__MR__Color_8h.html#a8519930227b3b013b16c7fa2fa94acf5":[8,2,2,0,0,0,0,2,423,39],
 "std__vector__MR__Color_8h.html#a87f08f85315a7395a41611880a1cc5cb":[8,2,2,0,0,0,0,2,423,67],
 "std__vector__MR__Color_8h.html#a8aa96c74f12a9ccb8284b1c79870a44c":[8,2,2,0,0,0,0,2,423,59],
@@ -240,14 +249,5 @@ var NAVTREEINDEX168 =
 "std__vector__MR__EdgeBitSet_8h.html#ac8c52f08758063aa74e262bcd457c2f7":[8,2,2,0,0,0,0,2,426,7],
 "std__vector__MR__EdgeBitSet_8h.html#ad1ac342eed6267076cede130639ba8e7":[8,2,2,0,0,0,0,2,426,52],
 "std__vector__MR__EdgeBitSet_8h.html#ad31824f46181f93ce2372b8fb7c693ea":[8,2,2,0,0,0,0,2,426,42],
-"std__vector__MR__EdgeBitSet_8h.html#ada3ba8d41205afc9079487a35b2b0aee":[8,2,2,0,0,0,0,2,426,23],
-"std__vector__MR__EdgeBitSet_8h.html#adf0f9142ce618198f196bdd4b0e17067":[8,2,2,0,0,0,0,2,426,34],
-"std__vector__MR__EdgeBitSet_8h.html#ae38fbc3be57e655436d69a20305bb5d4":[8,2,2,0,0,0,0,2,426,14],
-"std__vector__MR__EdgeBitSet_8h.html#ae4cce54066261a5670e8c6a5dc5e281e":[8,2,2,0,0,0,0,2,426,31],
-"std__vector__MR__EdgeBitSet_8h.html#ae5376fb41280a349ed79ac37157ece89":[8,2,2,0,0,0,0,2,426,15],
-"std__vector__MR__EdgeBitSet_8h.html#ae602247f24d2c4a07dc0f1739ee6dfdc":[8,2,2,0,0,0,0,2,426,70],
-"std__vector__MR__EdgeBitSet_8h.html#ae6873cb16445856e8d469707951d9788":[8,2,2,0,0,0,0,2,426,47],
-"std__vector__MR__EdgeBitSet_8h.html#ae8df937179102a9890e46a1bdf1af64e":[8,2,2,0,0,0,0,2,426,26],
-"std__vector__MR__EdgeBitSet_8h.html#af08d542482d250787ba1a9abe45d9547":[8,2,2,0,0,0,0,2,426,4],
-"std__vector__MR__EdgeBitSet_8h.html#af8005439e5fe152f0de768fe248e6118":[8,2,2,0,0,0,0,2,426,18]
+"std__vector__MR__EdgeBitSet_8h.html#ada3ba8d41205afc9079487a35b2b0aee":[8,2,2,0,0,0,0,2,426,23]
 };

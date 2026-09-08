@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"classmrmeshpy_1_1SegmentSegmentIntersectResult.html#afd57256db0a41e9bcf19c77eae89289c":[8,1,1,0,1,832,3],
+"classmrmeshpy_1_1SelfIntersections.html":[8,1,0,0,2,835],
+"classmrmeshpy_1_1SelfIntersections.html":[8,1,1,0,1,835],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings.html":[8,1,0,0,2,835,0],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html":[8,1,1,0,1,835,0],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a0500ddad8ff8c78ed7afe7df474bc5eb":[8,1,0,0,2,835,0,6],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a0500ddad8ff8c78ed7afe7df474bc5eb":[8,1,1,0,1,835,0,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX86 =
 "classmrmeshpy_1_1Side.html#adc003012dbc5d5b550ce3f5fe588597d":[8,1,1,0,1,842,3],
 "classmrmeshpy_1_1Side.html#ae0cd28c4ea87b7d3d7c401271f115d54":[8,1,0,0,2,842,1],
 "classmrmeshpy_1_1Side.html#ae0cd28c4ea87b7d3d7c401271f115d54":[8,1,1,0,1,842,1],
-"classmrmeshpy_1_1SignDetectionMode.html":[8,1,0,0,2,843],
-"classmrmeshpy_1_1SignDetectionMode.html":[8,1,1,0,1,843],
-"classmrmeshpy_1_1SignDetectionMode.html#a07e65387ed04738c3081c587c9e31eea":[8,1,0,0,2,843,5],
-"classmrmeshpy_1_1SignDetectionMode.html#a07e65387ed04738c3081c587c9e31eea":[8,1,1,0,1,843,5],
-"classmrmeshpy_1_1SignDetectionMode.html#a0d12a1f66cd6a1a296e75590b86d7895":[8,1,0,0,2,843,7]
+"classmrmeshpy_1_1SignDetectionMode.html":[8,1,0,0,2,843]
 };

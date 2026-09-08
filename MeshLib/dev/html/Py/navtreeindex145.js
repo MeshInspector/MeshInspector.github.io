@@ -1,5 +1,9 @@
 var NAVTREEINDEX145 =
 {
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html#acd3f6704bcdbdbafb4c61d7d68c3c2f6":[8,1,1,0,1,932,12],
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html#ae141212f95ce69c0d1bb36cb77a76157":[8,1,0,0,2,932,7],
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html#ae141212f95ce69c0d1bb36cb77a76157":[8,1,1,0,1,932,7],
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html#aea26007e266b95046c6a70d757d12b7b":[8,1,0,0,2,932,8],
 "classmrmeshpy_1_1std__vector__Box__Vector3__float.html#aea26007e266b95046c6a70d757d12b7b":[8,1,1,0,1,932,8],
 "classmrmeshpy_1_1std__vector__Box__Vector3__float.html#aeb18750f0a30a150be6cb56c7ec737e7":[8,1,0,0,2,932,20],
 "classmrmeshpy_1_1std__vector__Box__Vector3__float.html#aeb18750f0a30a150be6cb56c7ec737e7":[8,1,1,0,1,932,20],
@@ -245,9 +249,5 @@ var NAVTREEINDEX145 =
 "classmrmeshpy_1_1std__vector__DistanceMap.html#a3b420837a43b8367fb6f77d887e987c6":[8,1,1,0,1,938,16],
 "classmrmeshpy_1_1std__vector__DistanceMap.html#a3ce29712c42d9d250d65fdf9e4a8e367":[8,1,0,0,2,938,0],
 "classmrmeshpy_1_1std__vector__DistanceMap.html#a3ce29712c42d9d250d65fdf9e4a8e367":[8,1,1,0,1,938,0],
-"classmrmeshpy_1_1std__vector__DistanceMap.html#a43ffca2ed4dfd76f86f1865614326083":[8,1,0,0,2,938,4],
-"classmrmeshpy_1_1std__vector__DistanceMap.html#a43ffca2ed4dfd76f86f1865614326083":[8,1,1,0,1,938,4],
-"classmrmeshpy_1_1std__vector__DistanceMap.html#a51c17f466ce6bf7918f7cf15eb2458a8":[8,1,0,0,2,938,13],
-"classmrmeshpy_1_1std__vector__DistanceMap.html#a51c17f466ce6bf7918f7cf15eb2458a8":[8,1,1,0,1,938,13],
-"classmrmeshpy_1_1std__vector__DistanceMap.html#a583530ab353a4bf57273e630d9c9be17":[8,1,0,0,2,938,9]
+"classmrmeshpy_1_1std__vector__DistanceMap.html#a43ffca2ed4dfd76f86f1865614326083":[8,1,0,0,2,938,4]
 };

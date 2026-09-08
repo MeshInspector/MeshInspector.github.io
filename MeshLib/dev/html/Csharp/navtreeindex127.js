@@ -1,5 +1,13 @@
 var NAVTREEINDEX127 =
 {
+"classMR_1_1Quaterniond.html#a2009d331332f84dfca779867929d7ea0":[8,3,0,0,0,1569,16],
+"classMR_1_1Quaterniond.html#a2da06180ec69fc220e7e4b0d8eb64ea5":[8,3,0,0,0,1569,1],
+"classMR_1_1Quaterniond.html#a325c07a9585f17a476979a9530c72d53":[8,3,0,0,0,1569,6],
+"classMR_1_1Quaterniond.html#a351d46d3c7ce97a351f87ea1a579daed":[8,3,0,0,0,1569,0],
+"classMR_1_1Quaterniond.html#a5ab160e42b615d66ca32c77112e98d9e":[8,3,0,0,0,1569,11],
+"classMR_1_1Quaterniond.html#a76b150a8535276fc0833a2aa260636c9":[8,3,0,0,0,1569,14],
+"classMR_1_1Quaterniond.html#a7896ec3ceebb8b82e456d2708d835d12":[8,3,0,0,0,1569,4],
+"classMR_1_1Quaterniond.html#a7cde1a4c3807a343d179832d05dfc60c":[8,3,0,0,0,1569,10],
 "classMR_1_1Quaterniond.html#a836ed72e35726cdde38eedde5a13391d":[8,3,0,0,0,1569,3],
 "classMR_1_1Quaterniond.html#abaeb60dcd9b929258b50cf6fead25a9b":[8,3,0,0,0,1569,2],
 "classMR_1_1Quaterniond.html#acc033fb2ed26a854da5884fd58b420d3":[8,3,0,0,0,1569,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX127 =
 "classMR_1_1RigidScaleXf3d.html#a722c5877ca674044c5c972aeeb8d531c":[8,3,0,0,0,1582,1],
 "classMR_1_1RigidScaleXf3d.html#a86350f91cb4c316a9afb8456e9a33014":[8,3,0,0,0,1582,3],
 "classMR_1_1RigidScaleXf3d.html#aefc67726516a6943f37faee28aa664d1":[8,3,0,0,0,1582,6],
-"classMR_1_1RigidScaleXf3f.html":[8,3,0,0,0,1583],
-"classMR_1_1RigidScaleXf3f.html#a09777fe1be6f4f6989e5ef00acc0429b":[8,3,0,0,0,1583,0],
-"classMR_1_1RigidScaleXf3f.html#a14f28a87e4b6b89466c1af6382650bec":[8,3,0,0,0,1583,5],
-"classMR_1_1RigidScaleXf3f.html#a39b73a9bb9ad09512b0ac82d0b4a614d":[8,3,0,0,0,1583,3],
-"classMR_1_1RigidScaleXf3f.html#a5ecd1e9e1f305dbcfd58bbe00639574c":[8,3,0,0,0,1583,6],
-"classMR_1_1RigidScaleXf3f.html#a8a31b12e756d9dbfaaca0377af9a29dd":[8,3,0,0,0,1583,1],
-"classMR_1_1RigidScaleXf3f.html#abdb8701aef14dafbc5cd7305d5147d47":[8,3,0,0,0,1583,4],
-"classMR_1_1RigidScaleXf3f.html#ad41dc504cec2c59a7774d7ed794f2868":[8,3,0,0,0,1583,7],
-"classMR_1_1RigidScaleXf3f.html#ad75ad45c452853bd129755ed8525129d":[8,3,0,0,0,1583,2]
+"classMR_1_1RigidScaleXf3f.html":[8,3,0,0,0,1583]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX85 =
 {
+"classmrmeshpy_1_1SceneColors_1_1Type.html#ac245d04d7b4adcbb4ca20a10b58aad64":[8,1,1,0,1,825,0,7],
+"classmrmeshpy_1_1SceneColors_1_1Type.html#acf66342c85caf4e0b48804c5db34116b":[8,1,0,0,2,825,0,11],
+"classmrmeshpy_1_1SceneColors_1_1Type.html#acf66342c85caf4e0b48804c5db34116b":[8,1,1,0,1,825,0,11],
+"classmrmeshpy_1_1SceneLoad.html":[8,1,0,0,2,826],
 "classmrmeshpy_1_1SceneLoad.html":[8,1,1,0,1,826],
 "classmrmeshpy_1_1SceneLoad_1_1Result.html":[8,1,0,0,2,826,0],
 "classmrmeshpy_1_1SceneLoad_1_1Result.html":[8,1,1,0,1,826,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX85 =
 "classmrmeshpy_1_1SegmentSegmentIntersectResult.html#a90ff2609f5bf88e9589b868674fa8121":[8,1,1,0,1,832,7],
 "classmrmeshpy_1_1SegmentSegmentIntersectResult.html#abb6447b572da57592c517b35f1ae8ae2":[8,1,0,0,2,832,1],
 "classmrmeshpy_1_1SegmentSegmentIntersectResult.html#abb6447b572da57592c517b35f1ae8ae2":[8,1,1,0,1,832,1],
-"classmrmeshpy_1_1SegmentSegmentIntersectResult.html#afd57256db0a41e9bcf19c77eae89289c":[8,1,0,0,2,832,3],
-"classmrmeshpy_1_1SegmentSegmentIntersectResult.html#afd57256db0a41e9bcf19c77eae89289c":[8,1,1,0,1,832,3],
-"classmrmeshpy_1_1SelfIntersections.html":[8,1,0,0,2,835],
-"classmrmeshpy_1_1SelfIntersections.html":[8,1,1,0,1,835],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings.html":[8,1,0,0,2,835,0]
+"classmrmeshpy_1_1SegmentSegmentIntersectResult.html#afd57256db0a41e9bcf19c77eae89289c":[8,1,0,0,2,832,3]
 };
