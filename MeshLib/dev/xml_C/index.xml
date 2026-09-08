@@ -18845,8 +18845,6 @@
     <member refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652a411320681287d08ff511d1f332c94047" kind="enumvalue"><name>MR_ObjectSelectivityType_Selected</name></member>
     <member refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652a76ee1aca7822eba291ddc29a19bdc249" kind="enumvalue"><name>MR_ObjectSelectivityType_LocalSelected</name></member>
     <member refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652a8a1f0769baaa377e2fa561b566fcd6fe" kind="enumvalue"><name>MR_ObjectSelectivityType_Any</name></member>
-    <member refid="MRObjectsAccess_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kind="typedef"><name>MR_std_shared_ptr_MR_ObjectDistanceMap</name></member>
-    <member refid="MRObjectsAccess_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kind="typedef"><name>MR_std_shared_ptr_MR_ObjectPointsHolder</name></member>
     <member refid="MRObjectsAccess_8h_1acb36d23341ea6a57f478bf8ab3cbb672" kind="typedef"><name>MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap</name></member>
     <member refid="MRObjectsAccess_8h_1a01bf955f40873834f02f3f2dcd641c01" kind="typedef"><name>MR_std_vector_std_shared_ptr_MR_ObjectLinesHolder</name></member>
     <member refid="MRObjectsAccess_8h_1a368be4c555d5f1592256a167548cd2df" kind="typedef"><name>MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder</name></member>
@@ -18854,26 +18852,6 @@
     <member refid="MRObjectsAccess_8h_1a4f75187fb5feeeffabff5d778e7aebac" kind="typedef"><name>MR_std_vector_std_shared_ptr_MR_ObjectVoxels</name></member>
     <member refid="MRObjectsAccess_8h_1a9a3bde7539329e99c0ca4a5bc4291d36" kind="typedef"><name>MR_std_vector_std_shared_ptr_MR_VisualObject</name></member>
     <member refid="MRObjectsAccess_8h_1a59af93879ebdd85f9465fa18f8558998" kind="typedef"><name>MR_ObjectSelectivityType</name></member>
-    <member refid="MRObjectsAccess_8h_1ab7819bac5cd4e560e242389155838bb2" kind="function"><name>MR_asSelectivityType_MR_Object</name></member>
-    <member refid="MRObjectsAccess_8h_1a7862dbb79acf609be3304bda46960da4" kind="function"><name>MR_asSelectivityType_MR_VisualObject</name></member>
-    <member refid="MRObjectsAccess_8h_1a28f07821b0d8d090962ad3301fcf739e" kind="function"><name>MR_asSelectivityType_MR_ObjectPoints</name></member>
-    <member refid="MRObjectsAccess_8h_1acaaf81369281c98bc3c8512ade043137" kind="function"><name>MR_asSelectivityType_MR_ObjectPointsHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1a6ed65b810f6e0668b417f629298e17a7" kind="function"><name>MR_asSelectivityType_MR_ObjectLines</name></member>
-    <member refid="MRObjectsAccess_8h_1ad554c62a338bacd6b0393177ceb8780e" kind="function"><name>MR_asSelectivityType_MR_ObjectLinesHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1acdbc38061e7ea76e2026f04010766b1a" kind="function"><name>MR_asSelectivityType_MR_ObjectMesh</name></member>
-    <member refid="MRObjectsAccess_8h_1a991f88491fbc68dae2ef0b27fe8b997a" kind="function"><name>MR_asSelectivityType_MR_ObjectMeshHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1aa6f50642d417d8b1f62c5b2235a23e89" kind="function"><name>MR_asSelectivityType_MR_ObjectDistanceMap</name></member>
-    <member refid="MRObjectsAccess_8h_1a22122c7c2913fbbc6787b60504b331ce" kind="function"><name>MR_asSelectivityType_MR_ObjectVoxels</name></member>
-    <member refid="MRObjectsAccess_8h_1aa6c3ee8f3522edc59f9d9c7d472d78a8" kind="function"><name>MR_getAllObjectsInTree_MR_Object</name></member>
-    <member refid="MRObjectsAccess_8h_1a6177e69875f5ebb889660bf8e7ece2bb" kind="function"><name>MR_getAllObjectsInTree_MR_VisualObject</name></member>
-    <member refid="MRObjectsAccess_8h_1a362a7b3111a50ed533b7c11a00b8a334" kind="function"><name>MR_getAllObjectsInTree_MR_ObjectPoints</name></member>
-    <member refid="MRObjectsAccess_8h_1afaa090fcbefa29e5fb8bd291bb18a66f" kind="function"><name>MR_getAllObjectsInTree_MR_ObjectPointsHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1a05312221d7892299909cb1a44a97225c" kind="function"><name>MR_getAllObjectsInTree_MR_ObjectLines</name></member>
-    <member refid="MRObjectsAccess_8h_1a9510f3c13f8ab16d86ca583223892abe" kind="function"><name>MR_getAllObjectsInTree_MR_ObjectLinesHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1acdf425298b931342e6694e3f637ecfef" kind="function"><name>MR_getAllObjectsInTree_MR_ObjectMesh</name></member>
-    <member refid="MRObjectsAccess_8h_1a9ac7016b7314e82735cc1b2acee1831b" kind="function"><name>MR_getAllObjectsInTree_MR_ObjectMeshHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1acf09a25d0e7b58e5109146a3caf98c15" kind="function"><name>MR_getAllObjectsInTree_MR_ObjectDistanceMap</name></member>
-    <member refid="MRObjectsAccess_8h_1a0d73e80eb1457586d014299ef94b712c" kind="function"><name>MR_getAllObjectsInTree_MR_ObjectVoxels</name></member>
     <member refid="MRObjectsAccess_8h_1ae77a78641bbe60344efbb85cfc61916d" kind="function"><name>MR_getTopmostVisibleObjects_MR_Object</name></member>
     <member refid="MRObjectsAccess_8h_1a743c6acc0ba3c42669ae068aa03628e2" kind="function"><name>MR_getTopmostVisibleObjects_MR_VisualObject</name></member>
     <member refid="MRObjectsAccess_8h_1a148c9115eda73f591b21b204494833da" kind="function"><name>MR_getTopmostVisibleObjects_MR_ObjectPoints</name></member>
@@ -18884,37 +18862,7 @@
     <member refid="MRObjectsAccess_8h_1a77158fe16b4c0c6de676920b75f04e29" kind="function"><name>MR_getTopmostVisibleObjects_MR_ObjectMeshHolder</name></member>
     <member refid="MRObjectsAccess_8h_1ade356c5dc600e7c6ff7b2d271e9ffce3" kind="function"><name>MR_getTopmostVisibleObjects_MR_ObjectDistanceMap</name></member>
     <member refid="MRObjectsAccess_8h_1ae196d49fa0bd0dc57e7b90647d10d235" kind="function"><name>MR_getTopmostVisibleObjects_MR_ObjectVoxels</name></member>
-    <member refid="MRObjectsAccess_8h_1a56d721db0c05747faa8b70a94b1a6f16" kind="function"><name>MR_getTopmostObjects_MR_Object</name></member>
-    <member refid="MRObjectsAccess_8h_1a8d960c42e35f4d4ed1bc43a298572922" kind="function"><name>MR_getTopmostObjects_MR_VisualObject</name></member>
-    <member refid="MRObjectsAccess_8h_1a42419b78d2f7e3e73b0e900d379e3e95" kind="function"><name>MR_getTopmostObjects_MR_ObjectPoints</name></member>
-    <member refid="MRObjectsAccess_8h_1ae2d987697338695bf1de13c7bb18e5ed" kind="function"><name>MR_getTopmostObjects_MR_ObjectPointsHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1a6f18d1dbc45fa88f1be1fc73b7b297af" kind="function"><name>MR_getTopmostObjects_MR_ObjectLines</name></member>
-    <member refid="MRObjectsAccess_8h_1a79a6820993fa2817c155ef6f6e4000d3" kind="function"><name>MR_getTopmostObjects_MR_ObjectLinesHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1a91fd16bc4a35754530a092dc90e8e2f6" kind="function"><name>MR_getTopmostObjects_MR_ObjectMesh</name></member>
-    <member refid="MRObjectsAccess_8h_1ab7f3a3c6de0cecead91039a5dfcf9c4a" kind="function"><name>MR_getTopmostObjects_MR_ObjectMeshHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1ada164ca819252e587efc5c5ef12a75bb" kind="function"><name>MR_getTopmostObjects_MR_ObjectDistanceMap</name></member>
-    <member refid="MRObjectsAccess_8h_1a73b06d72af50a40deb957593ae554aa2" kind="function"><name>MR_getTopmostObjects_MR_ObjectVoxels</name></member>
-    <member refid="MRObjectsAccess_8h_1a73229264d97597b29bca3b9742d15ab2" kind="function"><name>MR_getDepthFirstObject_MR_Object</name></member>
-    <member refid="MRObjectsAccess_8h_1ae5fdf81c31f1bf9ee5b7256330650679" kind="function"><name>MR_getDepthFirstObject_MR_VisualObject</name></member>
-    <member refid="MRObjectsAccess_8h_1a771719579eb1c9573a3f4b441b823723" kind="function"><name>MR_getDepthFirstObject_MR_ObjectPoints</name></member>
-    <member refid="MRObjectsAccess_8h_1a96bf4499e04bb2f5c735ff2e8ee0ba59" kind="function"><name>MR_getDepthFirstObject_MR_ObjectPointsHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1ae3dc9eb4dd0e5cc43292e6311a4272e7" kind="function"><name>MR_getDepthFirstObject_MR_ObjectLines</name></member>
-    <member refid="MRObjectsAccess_8h_1a46534fcfb5fe5aa4ae541352bf584c19" kind="function"><name>MR_getDepthFirstObject_MR_ObjectLinesHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1a7a9b83310cceba85cbb9e52851203264" kind="function"><name>MR_getDepthFirstObject_MR_ObjectMesh</name></member>
-    <member refid="MRObjectsAccess_8h_1af389fe85bce311a75fa869b1506f4b26" kind="function"><name>MR_getDepthFirstObject_MR_ObjectMeshHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1a02f4305d754d41db4c116439ed26ccd7" kind="function"><name>MR_getDepthFirstObject_MR_ObjectDistanceMap</name></member>
-    <member refid="MRObjectsAccess_8h_1aa2c2e3f32c4e2936cb652ecaec0fbf19" kind="function"><name>MR_getDepthFirstObject_MR_ObjectVoxels</name></member>
     <member refid="MRObjectsAccess_8h_1a0b9040d62d188f1d436db30f904abd85" kind="function"><name>MR_objectHasSelectableChildren</name></member>
-    <member refid="MRObjectsAccess_8h_1a3fecee7f3a8b1b049edd2983357e4132" kind="function"><name>MR_appendObjectFromTreeRecursive_MR_Object</name></member>
-    <member refid="MRObjectsAccess_8h_1a225114565d49ccfc46c117c4feeb8969" kind="function"><name>MR_appendObjectFromTreeRecursive_MR_VisualObject</name></member>
-    <member refid="MRObjectsAccess_8h_1acaa4b98ca27244813b3e75e87824bc31" kind="function"><name>MR_appendObjectFromTreeRecursive_MR_ObjectPoints</name></member>
-    <member refid="MRObjectsAccess_8h_1a9bdb802964df4e5c04597e5753808d50" kind="function"><name>MR_appendObjectFromTreeRecursive_MR_ObjectPointsHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1a6a9ec8917d154793cf2d73daa0b35fa2" kind="function"><name>MR_appendObjectFromTreeRecursive_MR_ObjectLines</name></member>
-    <member refid="MRObjectsAccess_8h_1ad67cc322fdfc4f36c61f778a016408b2" kind="function"><name>MR_appendObjectFromTreeRecursive_MR_ObjectLinesHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1acaed871b0bf3238dfeea731735140852" kind="function"><name>MR_appendObjectFromTreeRecursive_MR_ObjectMesh</name></member>
-    <member refid="MRObjectsAccess_8h_1a644c7b10dcaca12fd5adf0b233b54f6f" kind="function"><name>MR_appendObjectFromTreeRecursive_MR_ObjectMeshHolder</name></member>
-    <member refid="MRObjectsAccess_8h_1ae2eb14914111593f433af4fa215dad3f" kind="function"><name>MR_appendObjectFromTreeRecursive_MR_ObjectDistanceMap</name></member>
-    <member refid="MRObjectsAccess_8h_1a590832b5185586a397aea2f3a65da8eb" kind="function"><name>MR_appendObjectFromTreeRecursive_MR_ObjectVoxels</name></member>
   </compound>
   <compound refid="MRObjectSave_8h" kind="file"><name>MRObjectSave.h</name>
     <member refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kind="typedef"><name>MR_ObjectSave_Settings</name></member>
@@ -37100,6 +37048,7 @@
     <member refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aa5a1c288cde558ab8f6b37f8fd54a52a" kind="function"><name>MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignTo_MR_std_shared_ptr_void</name></member>
   </compound>
   <compound refid="std__shared__ptr__MR__ObjectDistanceMap_8h" kind="file"><name>std_shared_ptr_MR_ObjectDistanceMap.h</name>
+    <member refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ad4e0c96f13e9f3c4aee0932d5b1fde3b" kind="typedef"><name>MR_std_shared_ptr_MR_ObjectDistanceMap</name></member>
     <member refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1ab3d600dae8434ffe8675703a9cfb3ad0" kind="function"><name>MR_std_shared_ptr_MR_ObjectDistanceMap_DefaultConstruct</name></member>
     <member refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a2aada8e8ba21fd2deabee6b37375adfa" kind="function"><name>MR_std_shared_ptr_MR_ObjectDistanceMap_DefaultConstructArray</name></member>
     <member refid="std__shared__ptr__MR__ObjectDistanceMap_8h_1a646445756f47f511b58bd172faf7d93c" kind="function"><name>MR_std_shared_ptr_MR_ObjectDistanceMap_ConstructFromAnother</name></member>
@@ -37287,6 +37236,7 @@
     <member refid="std__shared__ptr__MR__ObjectPoints_8h_1a2da1dc4fd5e391451b583351cb9fc442" kind="function"><name>MR_std_shared_ptr_MR_ObjectPoints_AssignTo_MR_std_shared_ptr_void</name></member>
   </compound>
   <compound refid="std__shared__ptr__MR__ObjectPointsHolder_8h" kind="file"><name>std_shared_ptr_MR_ObjectPointsHolder.h</name>
+    <member refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a6b7826ce381e59424ce5a4ab029c5a69" kind="typedef"><name>MR_std_shared_ptr_MR_ObjectPointsHolder</name></member>
     <member refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1ae86d6fec9d8cf86a5b542cc2e21fd26f" kind="function"><name>MR_std_shared_ptr_MR_ObjectPointsHolder_DefaultConstruct</name></member>
     <member refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a3f6f7ea3cb9d6569298b5672b07a374c" kind="function"><name>MR_std_shared_ptr_MR_ObjectPointsHolder_DefaultConstructArray</name></member>
     <member refid="std__shared__ptr__MR__ObjectPointsHolder_8h_1a7a0152cf4579acce858d4d84858faf3e" kind="function"><name>MR_std_shared_ptr_MR_ObjectPointsHolder_ConstructFromAnother</name></member>

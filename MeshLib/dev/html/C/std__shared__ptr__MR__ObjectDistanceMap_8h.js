@@ -1,5 +1,6 @@
 var std__shared__ptr__MR__ObjectDistanceMap_8h =
 [
+    [ "MR_std_shared_ptr_MR_ObjectDistanceMap", "std__shared__ptr__MR__ObjectDistanceMap_8h.html#ad4e0c96f13e9f3c4aee0932d5b1fde3b", null ],
     [ "MR_std_shared_ptr_MR_ObjectDistanceMap_Assign", "std__shared__ptr__MR__ObjectDistanceMap_8h.html#a21f8077625fbcc35b12b6840db86031e", null ],
     [ "MR_std_shared_ptr_MR_ObjectDistanceMap_AssignAliasing", "std__shared__ptr__MR__ObjectDistanceMap_8h.html#a90f7f01270cb8adee5d2714b81d6210c", null ],
     [ "MR_std_shared_ptr_MR_ObjectDistanceMap_AssignFromAnother", "std__shared__ptr__MR__ObjectDistanceMap_8h.html#a63b2b109bcb54348f565764af75e5151", null ],
