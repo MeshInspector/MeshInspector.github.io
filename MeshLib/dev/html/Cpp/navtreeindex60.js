@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[8,0,0,20,28],
+"namespaceMR_1_1StyleConsts_1_1Modal.html":[8,0,0,20,26],
 "namespaceMR_1_1StyleConsts_1_1Notification.html":[8,0,0,20,29],
 "namespaceMR_1_1StyleConsts_1_1ProgressBar.html":[8,0,0,20,27],
 "namespaceMR_1_1TriangulationHelpers.html":[8,0,1,0,1,48],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structImGui_1_1HistogramGridLine.html":[8,0,2,0,1,1],
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[8,0,1,0,0,1,1],
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[8,0,2,0,1,1,1],
-"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[8,0,1,0,0,1,0],
-"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[8,0,2,0,1,1,0],
-"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[8,0,1,0,0,1,2]
+"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[8,0,1,0,0,1,0]
 };
