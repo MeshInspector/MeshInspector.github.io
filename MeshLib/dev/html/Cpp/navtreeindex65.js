@@ -1,9 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"structMR_1_1McOffsetMeshOutputs.html":[8,0,0,20,861],
-"structMR_1_1McpGateway_1_1Config.html":[8,0,1,0,1,22,0],
-"structMR_1_1McpGateway_1_1Config.html":[8,0,2,0,2,11,0],
-"structMR_1_1McpGateway_1_1Config.html#a0a4b77ae0f972bb301c60f404c907ec3":[8,0,1,0,1,22,0,0],
 "structMR_1_1McpGateway_1_1Config.html#a0a4b77ae0f972bb301c60f404c907ec3":[8,0,2,0,2,11,0,0],
 "structMR_1_1McpGateway_1_1Config.html#a3c192ccbebdacb33bf3761707793a9a0":[8,0,1,0,1,22,0,4],
 "structMR_1_1McpGateway_1_1Config.html#a3c192ccbebdacb33bf3761707793a9a0":[8,0,2,0,2,11,0,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX65 =
 "structMR_1_1MeshLoad_1_1StepLoadSettings.html#a7d49edf6d491e777a91aa4259a6702ad":[8,0,1,0,1,26,3,1],
 "structMR_1_1MeshLoad_1_1StepLoadSettings.html#a7d49edf6d491e777a91aa4259a6702ad":[8,0,2,0,2,15,3,1],
 "structMR_1_1MeshLoad_1_1StepLoadSettings.html#adb63f8f295224fa727fc868341d70f97":[8,0,1,0,1,26,3,0],
-"structMR_1_1MeshLoad_1_1StepLoadSettings.html#adb63f8f295224fa727fc868341d70f97":[8,0,2,0,2,15,3,0]
+"structMR_1_1MeshLoad_1_1StepLoadSettings.html#adb63f8f295224fa727fc868341d70f97":[8,0,2,0,2,15,3,0],
+"structMR_1_1MeshMeshConverter.html":[8,0,0,20,335],
+"structMR_1_1MeshMeshDistanceResult.html":[8,0,0,1,23],
+"structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9":[8,0,0,1,23,2],
+"structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4":[8,0,0,1,23,0]
 };

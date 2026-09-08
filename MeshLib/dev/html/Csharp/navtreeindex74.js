@@ -1,6 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"classMR_1_1Const__QuadricApprox.html#aa315cc9b32d1baebaf91ce6da71bda6c":[8,3,0,0,0,779,3],
 "classMR_1_1Const__QuadricApprox.html#ae97dfe73581667b5aff662ca04254668":[8,3,0,0,0,779,4],
 "classMR_1_1Const__QuadricApprox.html#af130c605fb7e84030a2dd23902b8d2be":[8,3,0,0,0,779,1],
 "classMR_1_1Const__QuadricApprox.html#af6558bb57d1af1b63cc9aaa9df86300c":[8,3,0,0,0,779,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX74 =
 "classMR_1_1Const__RegionBitSet.html":[8,3,0,0,0,787],
 "classMR_1_1Const__RegionBitSet.html#a08d19723d433bc0390a66d985dd0a271":[8,3,0,0,0,787,15],
 "classMR_1_1Const__RegionBitSet.html#a0a4dd380084f0c3c28d5c0b77b5988b4":[8,3,0,0,0,787,19],
-"classMR_1_1Const__RegionBitSet.html#a0c0524355539723bd0df2d6a35eaa3cf":[8,3,0,0,0,787,9]
+"classMR_1_1Const__RegionBitSet.html#a0c0524355539723bd0df2d6a35eaa3cf":[8,3,0,0,0,787,9],
+"classMR_1_1Const__RegionBitSet.html#a0e5cff6494861e2d10180cff81960668":[8,3,0,0,0,787,29]
 };

@@ -11,7 +11,7 @@ var classMR_1_1SparsePolynomial =
     [ "operator+=", "group__GeneralGroup.html#ga7db8147e43ed44e6850f4f813a585247", null ],
     [ "operator-=", "group__GeneralGroup.html#ga33daec7c11a36c33eb5530ffa262a597", null ],
     [ "setZeroCoeff", "group__GeneralGroup.html#ga687ad0841acd4ba8dd03d5915fdaecf3", null ],
-    [ "mulAs", "group__GeneralGroup.html#ga63b86dd913cfa47171634ae6a4537fdb", null ],
+    [ "operator*", "group__GeneralGroup.html#gae7d77a6dff850c8e2a355bbebaf3e011", null ],
     [ "operator+", "group__GeneralGroup.html#ga844f65b0aad10ae232ab11237a790ae1", null ],
     [ "operator-", "group__GeneralGroup.html#ga869660408870e65bd32d5ea6df41edce", null ]
 ];

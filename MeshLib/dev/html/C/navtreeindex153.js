@@ -1,6 +1,5 @@
 var NAVTREEINDEX153 =
 {
-"std__pair__float__float_8h.html#a9ca9c258d300dcd6b0f51f57ad204f53":[8,2,2,0,0,0,0,2,264,10],
 "std__pair__float__float_8h.html#ad5c88f7f79df4841e7c5ca88fbb063af":[8,2,2,0,0,0,0,2,264,6],
 "std__pair__float__float_8h_source.html":[8,2,2,0,0,0,0,2,264],
 "std__pair__int__int_8h.html":[8,2,2,0,0,0,0,2,266],
@@ -249,5 +248,6 @@ var NAVTREEINDEX153 =
 "std__shared__ptr__MR__ChangVoxelSelectionAction_8h.html#a1aa1c423ea6e5dee06b508edeca834d5":[8,2,2,0,0,0,0,2,340,10],
 "std__shared__ptr__MR__ChangVoxelSelectionAction_8h.html#a1de9cd1c5373186ff4e566c95b7d874e":[8,2,2,0,0,0,0,2,340,20],
 "std__shared__ptr__MR__ChangVoxelSelectionAction_8h.html#a266886d755701b750a16772df942e063":[8,2,2,0,0,0,0,2,340,4],
-"std__shared__ptr__MR__ChangVoxelSelectionAction_8h.html#a2fcf8e2b704c51b8028fcb999c0e8e8d":[8,2,2,0,0,0,0,2,340,6]
+"std__shared__ptr__MR__ChangVoxelSelectionAction_8h.html#a2fcf8e2b704c51b8028fcb999c0e8e8d":[8,2,2,0,0,0,0,2,340,6],
+"std__shared__ptr__MR__ChangVoxelSelectionAction_8h.html#a41cde92ee03c65fdb7fee77ab40a5a73":[8,2,2,0,0,0,0,2,340,11]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"classMR_1_1Const__SetBitIteratorT__MRGraphEdgeBitSet.html#acc834688656e5c85ac1da3e0b49a25d3":[8,3,0,0,0,809,11],
 "classMR_1_1Const__SetBitIteratorT__MRGraphEdgeBitSet.html#ace3c04b6ef3bf3d45b54aeebac5989ea":[8,3,0,0,0,809,10],
 "classMR_1_1Const__SetBitIteratorT__MRGraphEdgeBitSet.html#ad6c3e022ff38d6f66e0765fedb61c76a":[8,3,0,0,0,809,12],
 "classMR_1_1Const__SetBitIteratorT__MRGraphEdgeBitSet.html#ad7932b3a2db32594f360044dabebdb15":[8,3,0,0,0,809,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX77 =
 "classMR_1_1Const__SignedDistanceToMeshOptions.html#acee03c62d7ef6ff396a0bf8ef4757694":[8,3,0,0,0,823,0],
 "classMR_1_1Const__SignedDistanceToMeshOptions.html#ad120654f7b7749891efc5461d841ef0c":[8,3,0,0,0,823,12],
 "classMR_1_1Const__SignedDistanceToMeshOptions.html#ae81f270cfbaa3eacfcad899131157701":[8,3,0,0,0,823,8],
-"classMR_1_1Const__SignedDistanceToMeshResult.html":[8,3,0,0,0,824]
+"classMR_1_1Const__SignedDistanceToMeshResult.html":[8,3,0,0,0,824],
+"classMR_1_1Const__SignedDistanceToMeshResult.html#a03c31ef61d792e699d95fd2ae15fe166":[8,3,0,0,0,824,0]
 };

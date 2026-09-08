@@ -1,6 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"classMR_1_1Const__PointPairs.html#a41516d2246a18fbd85312adc7e145bc4":[8,3,0,0,0,727,11],
 "classMR_1_1Const__PointPairs.html#a5415f2be3a20dc91f58fdee990454bb9":[8,3,0,0,0,727,5],
 "classMR_1_1Const__PointPairs.html#a54f6a901903ba1ff96b3ae299601dc6f":[8,3,0,0,0,727,4],
 "classMR_1_1Const__PointPairs.html#a78e092a430592b1891a0b7848baf6741":[8,3,0,0,0,727,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX71 =
 "classMR_1_1Const__PolylineProjectionResult2.html#a929906bc6d66ad2d0f46fecd5d68bd24":[8,3,0,0,0,741,6],
 "classMR_1_1Const__PolylineProjectionResult2.html#aa611cf283e83b266e679ad9b287ec584":[8,3,0,0,0,741,10],
 "classMR_1_1Const__PolylineProjectionResult2.html#aa71c2599896fba14d406902989bf67b7":[8,3,0,0,0,741,2],
-"classMR_1_1Const__PolylineProjectionResult2.html#ab4e1c71fcfee76fcffba85ca369ad410":[8,3,0,0,0,741,11]
+"classMR_1_1Const__PolylineProjectionResult2.html#ab4e1c71fcfee76fcffba85ca369ad410":[8,3,0,0,0,741,11],
+"classMR_1_1Const__PolylineProjectionResult2.html#ab5e27e7c27d3ed934d0fb8a00f01650d":[8,3,0,0,0,741,0]
 };

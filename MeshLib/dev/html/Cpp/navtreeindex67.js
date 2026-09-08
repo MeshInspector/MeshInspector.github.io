@@ -1,9 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#a8b3bf0a577305270989410f28025a672":[8,0,2,0,2,22,0,2],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[8,0,1,0,1,35,0,1],
-"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[8,0,2,0,2,22,0,1],
-"structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html":[8,0,0,21,0],
 "structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#a16c217c6cb59687dff9a821eeb23f1ed":[8,0,0,21,0,0],
 "structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#a68c631f384663243df50045a0e260556":[8,0,0,21,0,1],
 "structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#ae48ef2454e91343b51324c18fa937fe7":[8,0,0,21,0,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX67 =
 "structMR_1_1SignedDistanceToMeshResult.html":[8,0,0,1,27],
 "structMR_1_1SignedDistanceToMeshResult.html#ab2ab2feebc81103d19915755ccb48d23":[8,0,0,1,27,0],
 "structMR_1_1SignedDistanceToMeshResult.html#adb459805ccfb452c3a5c82fe673bbfec":[8,0,0,1,27,2],
-"structMR_1_1SignedDistanceToMeshResult.html#aec6c1291f51d451f8ab2bcf2d9371c41":[8,0,0,1,27,1]
+"structMR_1_1SignedDistanceToMeshResult.html#aec6c1291f51d451f8ab2bcf2d9371c41":[8,0,0,1,27,1],
+"structMR_1_1SimpleTimeRecord.html":[8,0,0,3,12],
+"structMR_1_1SimpleTimeRecord.html#a2baac0fd5930644e7eff1dcb301703ca":[8,0,0,3,12,1],
+"structMR_1_1SimpleTimeRecord.html#a5bc2244721bb50d4a1d54c4d3cedd459":[8,0,0,3,12,0],
+"structMR_1_1SimpleTimeRecord.html#a783bd5b3455191ffcbf6c59363d9e81e":[8,0,0,3,12,2]
 };

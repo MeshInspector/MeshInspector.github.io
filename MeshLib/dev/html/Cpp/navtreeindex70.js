@@ -1,9 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType_3_01T_3_01U_01_4_01_4.html":[8,0,0,20,347],
-"structMR_1_1detail_1_1MakeScopeGuard.html":[8,0,1,0,1,3,3],
-"structMR_1_1detail_1_1MakeScopeGuard.html":[8,0,2,0,2,1,3],
-"structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0":[8,0,1,0,1,3,3,0],
 "structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0":[8,0,2,0,2,1,3,0],
 "structMR_1_1detail_1_1Units_1_1Empty.html":[8,0,0,20,769],
 "structMR_1_1overloaded.html":[8,0,0,20,359],

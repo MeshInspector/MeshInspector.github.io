@@ -1,9 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a65617319e0c1b767525aede65d4607b5":[8,0,2,0,2,7,10,4],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a6b5c4e498863bfe625111f92bb9b193c":[8,0,1,0,1,16,10,15],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a6b5c4e498863bfe625111f92bb9b193c":[8,0,2,0,2,7,10,15],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a786095a8e2e597d7ebe8929936008171":[8,0,1,0,1,16,10,13],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a786095a8e2e597d7ebe8929936008171":[8,0,2,0,2,7,10,13],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a99ca3155588713524843ad362ebdf8c4":[8,0,1,0,1,16,10,20],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a99ca3155588713524843ad362ebdf8c4":[8,0,2,0,2,7,10,20],
@@ -249,5 +245,9 @@ var NAVTREEINDEX64 =
 "structMR_1_1Matrix3_1_1QR.html":[8,0,0,20,330],
 "structMR_1_1Matrix4.html":[8,0,0,0,7,3],
 "structMR_1_1Matrix4.html":[8,0,0,20,331],
-"structMR_1_1MaxArg.html":[8,0,0,20,350]
+"structMR_1_1MaxArg.html":[8,0,0,20,350],
+"structMR_1_1McOffsetMeshOutputs.html":[8,0,0,20,861],
+"structMR_1_1McpGateway_1_1Config.html":[8,0,1,0,1,22,0],
+"structMR_1_1McpGateway_1_1Config.html":[8,0,2,0,2,11,0],
+"structMR_1_1McpGateway_1_1Config.html#a0a4b77ae0f972bb301c60f404c907ec3":[8,0,1,0,1,22,0,0]
 };

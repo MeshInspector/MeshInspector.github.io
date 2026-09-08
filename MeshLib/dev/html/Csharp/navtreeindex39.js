@@ -1,6 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"classMR_1_1Const__ConeObject.html#ae6f5c1aec42acc971d75d4cba88ae90c":[8,3,0,0,0,361,0],
 "classMR_1_1Const__ConeObject.html#ae87d3ccaceba7a4ec822458ba271b121":[8,3,0,0,0,361,47],
 "classMR_1_1Const__ConeObject.html#aec9b4e7d0808c7c6cc302cb2448b63e4":[8,3,0,0,0,361,72],
 "classMR_1_1Const__ConeObject.html#aee0780dc05c46721f73c3f355b4895df":[8,3,0,0,0,361,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX39 =
 "classMR_1_1Const__CurvePoint.html#abe795dda3ec88dd30a8dae3d2530fa91":[8,3,0,0,0,376,9],
 "classMR_1_1Const__CurvePoint.html#ad201d9879d6f4dd1ab48fee81e2de52a":[8,3,0,0,0,376,0],
 "classMR_1_1Const__CurvePoint.html#ae1c6d5f187329de0aa362bc0cec17731":[8,3,0,0,0,376,4],
-"classMR_1_1Const__CurvePoint.html#ae974b86ef2b857a7ba70245b085c1345":[8,3,0,0,0,376,6]
+"classMR_1_1Const__CurvePoint.html#ae974b86ef2b857a7ba70245b085c1345":[8,3,0,0,0,376,6],
+"classMR_1_1Const__CutByProjectionSettings.html":[8,3,0,0,0,377]
 };

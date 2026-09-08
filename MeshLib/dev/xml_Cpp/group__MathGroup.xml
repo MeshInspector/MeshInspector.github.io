@@ -429,25 +429,6 @@
         </inbodydescription>
         <location file="MRMesh/MRPrecisePredicates3.h" line="85" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="85" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__MathGroup_1gaae180a2cc2ed168bacc3bb0f55ced219" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::segmentIntersectionTriPlaneOrder</definition>
-        <argsstring>(const std::array&lt; PreciseVertCoords, 8 &gt; &amp;vs)</argsstring>
-        <name>segmentIntersectionTriPlaneOrder</name>
-        <qualifiedname>MR::segmentIntersectionTriPlaneOrder</qualifiedname>
-        <param>
-          <type>const std::array&lt; PreciseVertCoords, 8 &gt; &amp;</type>
-          <declname>vs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>given line segment s (vertices 0,1), triangle ta (vertices 2,3,4) known to be pierced by s, and infinite plane pb passing via vertices 5,6,7, returns the order in which the line of s meets ta and pb, using precise predicates. Here s^ta is the point where s crosses ta, and s^pb is the point where the line of s crosses pb. Walking the line in the direction from s[0] to s[1]: true: s^ta is met before s^pb (order is s[0], s^ta, s^pb) false: s^pb is met before s^ta (order is s^pb, s^ta, s[1]) ta and pb may share at most two vertices; all remaining vertices must be unique </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="95" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="95" declcolumn="8"/>
-      </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ConvertToIntVector</type>
         <definition>ConvertToIntVector MR::getToIntConverter</definition>
@@ -465,7 +446,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="150" column="22" declfile="MRMesh/MRPrecisePredicates3.h" declline="150" declcolumn="22"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="140" column="22" declfile="MRMesh/MRPrecisePredicates3.h" declline="140" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ConvertToFloatVector</type>
@@ -484,7 +465,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="152" column="24" declfile="MRMesh/MRPrecisePredicates3.h" declline="152" declcolumn="24"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="142" column="24" declfile="MRMesh/MRPrecisePredicates3.h" declline="142" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga39e5dd8c133fbb356e478051d5923e8b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector&lt; Vector3i, VertId &gt;</type>
@@ -521,7 +502,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="156" column="10" declfile="MRMesh/MRPrecisePredicates3.h" declline="156" declcolumn="10"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="146" column="10" declfile="MRMesh/MRPrecisePredicates3.h" declline="146" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gabad3bcfedc022e24fc08968b846a21b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertCoords</type>
@@ -558,7 +539,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="161" column="14" declfile="MRMesh/MRPrecisePredicates3.h" declline="161" declcolumn="14"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="151" column="14" declfile="MRMesh/MRPrecisePredicates3.h" declline="151" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Vector3i &gt;</type>
@@ -589,7 +570,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="166" column="17" declfile="MRMesh/MRPrecisePredicates3.h" declline="166" declcolumn="17"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="156" column="17" declfile="MRMesh/MRPrecisePredicates3.h" declline="156" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaab6e7e21a9eac612957d5e6b91637769" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -628,7 +609,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="170" column="12" declfile="MRMesh/MRPrecisePredicates3.h" declline="170" declcolumn="12"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="160" column="12" declfile="MRMesh/MRPrecisePredicates3.h" declline="160" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">

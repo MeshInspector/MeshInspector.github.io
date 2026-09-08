@@ -84,7 +84,6 @@ var MRPrecisePredicates3_8h =
     [ "MR_PreciseVertCoords_Set_id", "MRPrecisePredicates3_8h.html#aeb07e9abf8e75c68027922e3bd08e7aa", null ],
     [ "MR_PreciseVertCoords_Set_pt", "MRPrecisePredicates3_8h.html#a9841e5df1efd519ced59ba2952602838", null ],
     [ "MR_segmentIntersectionOrder_std_array_MR_PreciseVertCoords_8", "MRPrecisePredicates3_8h.html#af77bb9615af4031e103fa45d949dc79f", null ],
-    [ "MR_segmentIntersectionTriPlaneOrder", "MRPrecisePredicates3_8h.html#a0fd1c641b1e6e2019274c9d8b77eb523", null ],
     [ "MR_TriangleSegmentIntersectResult_AssignFromAnother", "MRPrecisePredicates3_8h.html#a6778adc22645eac708b69fd4467c121b", null ],
     [ "MR_TriangleSegmentIntersectResult_ConstructFrom", "MRPrecisePredicates3_8h.html#a3d9837eea3e498e62679906eede69aaf", null ],
     [ "MR_TriangleSegmentIntersectResult_ConstructFromAnother", "MRPrecisePredicates3_8h.html#a3c1c35a5e91a028dbf5b2d4d68e7fec0", null ],

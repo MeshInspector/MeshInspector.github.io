@@ -1,9 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"structMR_1_1DecimateSettings.html#a7b024d2a905ecd6515a263ec20d35dc6":[8,0,0,10,0,24],
-"structMR_1_1DecimateSettings.html#a7cc18ed533890cfc09a39ba3724b5f85":[8,0,0,10,0,14],
-"structMR_1_1DecimateSettings.html#a7d69e19f2609b7330c6ac5d17a9ebfff":[8,0,0,10,0,19],
-"structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111":[8,0,0,10,0,30],
 "structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4":[8,0,0,10,0,25],
 "structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644":[8,0,0,10,0,22],
 "structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de":[8,0,0,10,0,21],
@@ -249,5 +245,9 @@ var NAVTREEINDEX62 =
 "structMR_1_1FixMeshDegeneraciesParams.html#a03fabfe38c70165440f7eaf7677e07ce":[8,0,0,9,4,0,6],
 "structMR_1_1FixMeshDegeneraciesParams.html#a0eff7987d6820ff165e578fac210c66e":[8,0,0,9,4,0,1],
 "structMR_1_1FixMeshDegeneraciesParams.html#a1288492f43aeb3ebd3709f7eaed006ec":[8,0,0,9,4,0,4],
-"structMR_1_1FixMeshDegeneraciesParams.html#a27e58d6d674f40a1d627ba6f034ef140":[8,0,0,9,4,0,3]
+"structMR_1_1FixMeshDegeneraciesParams.html#a27e58d6d674f40a1d627ba6f034ef140":[8,0,0,9,4,0,3],
+"structMR_1_1FixMeshDegeneraciesParams.html#a39c6c7eb9bf8c2a75b88975d8f434101":[8,0,0,9,4,0,5],
+"structMR_1_1FixMeshDegeneraciesParams.html#a53fef689c0014c588a5990ec1626c5a7":[8,0,0,9,4,0,7],
+"structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42":[8,0,0,9,4,0,0],
+"structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a0bf6dee16a4d7f43f80c7ab2f6157c10":[8,0,0,9,4,0,0,1]
 };

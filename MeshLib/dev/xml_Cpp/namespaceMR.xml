@@ -1275,7 +1275,6 @@
       <member refid="group__MathGroup_1ga55fa84104f9667699a40034291a40723" kind="function"><name>ccwAroundLine</name></member>
       <member refid="group__MathGroup_1ga4b162fc9a97cef14dfdf9a7dfc6bf34f" kind="function"><name>doTriangleSegmentIntersect</name></member>
       <member refid="group__MathGroup_1ga4407955477825bbff775800e3841da28" kind="function"><name>segmentIntersectionOrder</name></member>
-      <member refid="group__MathGroup_1gaae180a2cc2ed168bacc3bb0f55ced219" kind="function"><name>segmentIntersectionTriPlaneOrder</name></member>
       <member refid="group__MathGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" kind="function"><name>getToIntConverter</name></member>
       <member refid="group__MathGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" kind="function"><name>getToFloatConverter</name></member>
       <member refid="group__MathGroup_1ga39e5dd8c133fbb356e478051d5923e8b" kind="function"><name>computeIntCoords</name></member>
@@ -1885,7 +1884,6 @@
       <member refid="group__GeneralGroup_1ga13c6625ef2ade2be056564a39a8474d2" kind="typedef"><name>GroupOrder</name></member>
       <member refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" kind="typedef"><name>SeparationPointSet</name></member>
       <member refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" kind="typedef"><name>SeparationPointMap</name></member>
-      <member refid="group__GeneralGroup_1gaa4ca76b378d33a7868bd13efacf4daa0" kind="typedef"><name>SparsePolynomialProduct</name></member>
       <member refid="group__GeneralGroup_1ga9b40642439b0e49df514a79a4cc26a55" kind="typedef"><name>TriTriDistanceResultf</name></member>
       <member refid="group__GeneralGroup_1ga307f773bda9a64426a2d85875a9f7241" kind="typedef"><name>TriTriDistanceResultd</name></member>
       <member refid="group__GeneralGroup_1ga74b84c1e75186c097b95643711a4c6c4" kind="typedef"><name>TriTriDistanceParamsf</name></member>
@@ -3193,7 +3191,6 @@
       <member refid="group__GeneralGroup_1gad46cffad677b26b136b9c6fefc6049d8" kind="function"><name>computeSkyViewFactor</name></member>
       <member refid="group__GeneralGroup_1ga678b15ebf477018c8351e48b2ae9fcd6" kind="function"><name>findSkyRays</name></member>
       <member refid="group__GeneralGroup_1gabbe6d9d5f0b3716ea3a9824b82181f26" kind="function"><name>makeSolidOfRevolution</name></member>
-      <member refid="group__GeneralGroup_1ga2a9110bdd2a450f4830e39f32ae6dcfc" kind="function"><name>mulAs</name></member>
       <member refid="group__GeneralGroup_1ga39de2d02d74ee4158df88993a656c0d0" kind="function"><name>operator*</name></member>
       <member refid="group__GeneralGroup_1ga28de882a11f5c9ac17334f542ab0ec47" kind="function"><name>projectSpline</name></member>
       <member refid="group__GeneralGroup_1ga2b6db8327a937df5f0371d7adba2adc5" kind="function"><name>projectSplineAsMTP</name></member>

@@ -234,7 +234,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga55fa84104f9667699a40034291a40723" id="r_ga55fa84104f9667699a40034291a40723"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga55fa84104f9667699a40034291a40723">MR::ccwAroundLine</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 5 &gt; &amp;vs)</td></tr>
 <tr class="memitem:ga4b162fc9a97cef14dfdf9a7dfc6bf34f" id="r_ga4b162fc9a97cef14dfdf9a7dfc6bf34f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">TriangleSegmentIntersectResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b162fc9a97cef14dfdf9a7dfc6bf34f">MR::doTriangleSegmentIntersect</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 5 &gt; &amp;vs)</td></tr>
 <tr class="memitem:ga4407955477825bbff775800e3841da28" id="r_ga4407955477825bbff775800e3841da28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4407955477825bbff775800e3841da28">MR::segmentIntersectionOrder</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 8 &gt; &amp;vs)</td></tr>
-<tr class="memitem:gaae180a2cc2ed168bacc3bb0f55ced219" id="r_gaae180a2cc2ed168bacc3bb0f55ced219"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaae180a2cc2ed168bacc3bb0f55ced219">MR::segmentIntersectionTriPlaneOrder</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 8 &gt; &amp;vs)</td></tr>
 <tr class="memitem:ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" id="r_ga1d477d2bd0d97e5a7ee1a9b3e62d06cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1d477d2bd0d97e5a7ee1a9b3e62d06cc">MR::getToIntConverter</a> (const Box3d &amp;box)</td></tr>
 <tr class="memdesc:ga1d477d2bd0d97e5a7ee1a9b3e62d06cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from Vector3f to Vector3i in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range)  <br /></td></tr>
 <tr class="memitem:ga5daf9fc7ddf6a348c4194b8582821c82" id="r_ga5daf9fc7ddf6a348c4194b8582821c82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5daf9fc7ddf6a348c4194b8582821c82">MR::getToFloatConverter</a> (const Box3d &amp;box)</td></tr>
@@ -1791,34 +1790,6 @@ template&lt;typename V&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
 <p>given line segment s (vertices 0,1) and two triangles ta (vertices 2,3,4) and tb (vertices 5,6,7), each known to be pierced by s, returns the order in which s meets them, using precise predicates. Here s^t denotes the point where segment s crosses triangle t, and s[0]/s[1] are the segment endpoints. Walking s from s[0] to s[1]: true: order is s[0], s^ta, s^tb, s[1] (ta met before tb) false: order is s[0], s^tb, s^ta, s[1] (tb met before ta) triangles ta and tb may share at most two vertices; all remaining vertices must be unique </p>
-
-</div>
-</div>
-<a id="gaae180a2cc2ed168bacc3bb0f55ced219" name="gaae180a2cc2ed168bacc3bb0f55ced219"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaae180a2cc2ed168bacc3bb0f55ced219">&#9670;&#160;</a></span>segmentIntersectionTriPlaneOrder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::segmentIntersectionTriPlaneOrder </td>
-          <td>(</td>
-          <td class="paramtype">const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 8 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
-<p>given line segment s (vertices 0,1), triangle ta (vertices 2,3,4) known to be pierced by s, and infinite plane pb passing via vertices 5,6,7, returns the order in which the line of s meets ta and pb, using precise predicates. Here s^ta is the point where s crosses ta, and s^pb is the point where the line of s crosses pb. Walking the line in the direction from s[0] to s[1]: true: s^ta is met before s^pb (order is s[0], s^ta, s^pb) false: s^pb is met before s^ta (order is s^pb, s^ta, s[1]) ta and pb may share at most two vertices; all remaining vertices must be unique </p>
 
 </div>
 </div>

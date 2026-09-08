@@ -220,7 +220,6 @@ var group__MathGroup =
     [ "MR::orient3d", "group__MathGroup.html#ga343b0de4b65432a92901c76af4024b57", null ],
     [ "MR::orient3d", "group__MathGroup.html#ga24ef393e1380f77979d9cfa6f7e0e88e", null ],
     [ "MR::segmentIntersectionOrder", "group__MathGroup.html#ga4407955477825bbff775800e3841da28", null ],
-    [ "MR::segmentIntersectionTriPlaneOrder", "group__MathGroup.html#gaae180a2cc2ed168bacc3bb0f55ced219", null ],
     [ "MR::toEigen", "group__MathGroup.html#ga8888d3eb79b0414fbc4855426d85cf9c", null ],
     [ "MR::toEigen", "group__MathGroup.html#gabd50a577d1934b0c0a0aca008de7d541", null ],
     [ "MR::toEigen", "group__MathGroup.html#ga4d999217b3e42b5726808b25c5c988cc", null ],

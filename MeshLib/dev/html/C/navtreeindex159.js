@@ -1,6 +1,5 @@
 var NAVTREEINDEX159 =
 {
-"std__shared__ptr__MR__IFastWindingNumber_8h.html#a4b91d4a63e95435adf5943c53cd2e70a":[8,2,2,0,0,0,0,2,350,3],
 "std__shared__ptr__MR__IFastWindingNumber_8h.html#a57808e771237850271e469d112021bf5":[8,2,2,0,0,0,0,2,350,20],
 "std__shared__ptr__MR__IFastWindingNumber_8h.html#a7324ed069453b9b1f1d9ca248769dd7c":[8,2,2,0,0,0,0,2,350,14],
 "std__shared__ptr__MR__IFastWindingNumber_8h.html#a7841aaba7f72d99547b248211372269c":[8,2,2,0,0,0,0,2,350,19],
@@ -249,5 +248,6 @@ var NAVTREEINDEX159 =
 "std__shared__ptr__MR__ObjectGcode_8h.html#ad81f8c1afbec31657ec4984c104b14bc":[8,2,2,0,0,0,0,2,362,6],
 "std__shared__ptr__MR__ObjectGcode_8h.html#adbdbad98a17f05b9a12e9ad4e00be843":[8,2,2,0,0,0,0,2,362,10],
 "std__shared__ptr__MR__ObjectGcode_8h.html#afce05035a7fd442dffbb6912dfd6c30f":[8,2,2,0,0,0,0,2,362,3],
-"std__shared__ptr__MR__ObjectGcode_8h_source.html":[8,2,2,0,0,0,0,2,362]
+"std__shared__ptr__MR__ObjectGcode_8h_source.html":[8,2,2,0,0,0,0,2,362],
+"std__shared__ptr__MR__ObjectLabel_8h.html":[8,2,2,0,0,0,0,2,363]
 };

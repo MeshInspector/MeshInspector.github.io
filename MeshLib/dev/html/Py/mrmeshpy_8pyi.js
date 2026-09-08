@@ -2775,7 +2775,6 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.segmentByGraphCut", "namespacemrmeshpy.html#aefe118e581cf61b219a19ef8ecde87be", null ],
     [ "mrmeshpy.segmentIntersectionOrder", "namespacemrmeshpy.html#a85dfe702eddd07723e2dba67e2bfc0ef", null ],
     [ "mrmeshpy.segmentIntersectionOrder", "namespacemrmeshpy.html#a0811e9ec5d294677e5a929d6374c8f41", null ],
-    [ "mrmeshpy.segmentIntersectionTriPlaneOrder", "namespacemrmeshpy.html#ad7cea819743fabc3cc8df10127c52a48", null ],
     [ "mrmeshpy.segmentMesh", "namespacemrmeshpy.html#a27f24894b88b62a35b041cf632073d2d", null ],
     [ "mrmeshpy.segmentVolume", "namespacemrmeshpy.html#abd6cb28284360fd2cd8047e66f53eaab", null ],
     [ "mrmeshpy.segmentVolumeByGraphCut", "namespacemrmeshpy.html#a7e1799af7c865683af6de3e4e7c241b8", null ],
