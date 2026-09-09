@@ -26,7 +26,6 @@ var NAVTREE =
 [
   [ "MeshLib Python Docs", "index.html", [
     [ "About", "../index.html", null ],
-    [ "Live Demo", "^https://demo.meshlib.io/", null ],
     [ "Getting Started", "../InstallationGuide.html", [
       [ "Python", "../MeshLibPythonSetupGuide.html", null ],
       [ "C++", "../MeshLibCppSetupGuide.html", null ],
@@ -317,14 +316,14 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1std__vector__unsigned__char.html#ae058d60e3e39cb26f96776b7a0fbc94d",
 "classmrviewerpy_1_1UiValueReal.html#a636b41bac5f2005d0f204facacf04e05",
 "namespacemembers_func.html",
-"namespacemrmeshpy.html#a1477f9b7c00ef5a1c30dd2d4d4c0e304",
-"namespacemrmeshpy.html#a34f738bcb81b360c95f3e2045f27fcf5",
-"namespacemrmeshpy.html#a515f346910c2d13b4db9837d309e91d8",
-"namespacemrmeshpy.html#a710a5644186a54d647e1a327b79be140",
-"namespacemrmeshpy.html#a9206f1f51d3ee008d85f613994353866",
-"namespacemrmeshpy.html#ab0e41559563244cf755f17513ef74a98",
-"namespacemrmeshpy.html#aceef0306f3bf05e75c6dc932b21c21ab",
-"namespacemrmeshpy.html#aece719fdf8cbd1a1c85d3ccdc243010d"
+"namespacemrmeshpy.html#a148e0972f8feab8d215d80f843d9451d",
+"namespacemrmeshpy.html#a3517716582e56626613b01704e3c5d4e",
+"namespacemrmeshpy.html#a518a606de3a3f4f80e0ec69b5602b661",
+"namespacemrmeshpy.html#a71232aeb9a60eacc0ff2bb19c7788c5c",
+"namespacemrmeshpy.html#a92269dfaed87153fb186f39a5f357936",
+"namespacemrmeshpy.html#ab10aaf46611e0e0bfdfb1c3e613bd675",
+"namespacemrmeshpy.html#acf5bf06b616108f9412b76131dc4b0ea",
+"namespacemrmeshpy.html#aed0b0fb58e3b2b3414b485ee02fb2b38"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

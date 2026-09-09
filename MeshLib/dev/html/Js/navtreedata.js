@@ -26,7 +26,6 @@ var NAVTREE =
 [
   [ "MeshLib JavaScript Docs", "index.html", [
     [ "About", "../index.html", null ],
-    [ "Live Demo", "^https://demo.meshlib.io/", null ],
     [ "Getting Started", "../InstallationGuide.html", [
       [ "Python", "../MeshLibPythonSetupGuide.html", null ],
       [ "C++", "../MeshLibCppSetupGuide.html", null ],
@@ -134,9 +133,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../APIPage.html",
-"bindings_8d_8mts.html#aeb544177a64dedb92b29a4849f145e50",
-"classMesh.html#ad17dde3aebb29ea8c0c4d2d343210fc4",
-"functions_t.html"
+"bindings_8d_8mts.html#aec2a1b3c16c6e6c409cb8571c9ca4b13",
+"classMesh.html#aed586a2285b09d1dfed0e38590449e7c",
+"functions_u.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
