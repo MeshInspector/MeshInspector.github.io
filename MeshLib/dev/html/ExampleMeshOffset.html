@@ -355,7 +355,8 @@ $(function(){initNavTree('ExampleMeshOffset.html','',''); });
 <div class="line"> </div>
 <div class="line">// Save result</div>
 <div class="line">ml.MeshSave.toAnySupportedFormat(result, &#39;mesh_offset.stl&#39;);</div>
-</div><!-- fragment --> Source mesh <div class="image">
+</div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a current browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
+Source mesh <div class="image">
 <img src="offset_before.png" alt=""/>
 </div>
  After offset <div class="image">
