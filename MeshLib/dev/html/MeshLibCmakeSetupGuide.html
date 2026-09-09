@@ -188,10 +188,13 @@ How to Use MeshLib with CMake</h1>
 <h2 class="doxsection"><a class="anchor" id="CmakeQuickIntegration"></a>
 Quick Integration Guide</h2>
 <p>MeshLib provides native CMake integration support for <b>Linux</b> and <b>macOS</b>; for <b>Windows</b> see the <a class="el" href="#CmakeWindowsIntegration">Windows Integration Guide</a> below. Example CMake configuration files are available to demonstrate how to link against the pre-built libraries. You can find these examples in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a>.</p>
+<p>MeshLib requires CMake 3.18 or newer. If configuration or the build fails, see <a class="el" href="MeshLibCppSetupGuide.html#CppSetupTroubleshooting">Troubleshooting</a> in the C++ Setup Guide.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
 Find MeshLib CMake Configuration Files</h3>
 <p>For a start, find the MeshLib package: </p><div class="fragment"><div class="line">find_package(MeshLib CONFIG REQUIRED)</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
+</div><!-- fragment --><p>The Ubuntu <span class="tt">.deb</span> and the macOS <span class="tt">.pkg</span> install the package where CMake searches by default. For the portable Linux vcpkg build, pass the directory it was unpacked to: </p><div class="fragment"><div class="line">cmake -S . -B build -DCMAKE_FIND_ROOT_PATH=path_to_install</div>
+</div><!-- fragment --><p> <span class="tt">MeshLib_DIR</span> alone is not sufficient, since the bundled third-party libraries are looked up in the same directory.</p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
 Include the MeshLib Headers</h3>
 <p>Add <b>both</b> include directories from the installed MeshLib package to your project. In your CMake configuration (<span class="tt">CMakeLists.txt</span>): </p><div class="fragment"><div class="line">include_directories(${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
 <div class="line"># or</div>
@@ -204,7 +207,16 @@ Link the MeshLib Libraries</h3>
 <div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MRMesh MeshLib::MRViewer)</div>
 </div><!-- fragment --><p>Or if you use the C API, instead link <span class="tt">MeshLib::MeshLibC2</span>:</p>
 <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
-</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
+</div><!-- fragment --><p>The package defines the following targets, each guarded by the variable in parentheses. A distribution sets it to <span class="tt">ON</span> for every module it ships, and only those targets exist.</p><ul>
+<li><span class="tt">MeshLib::MRMesh</span>: core data structures and algorithms, needed by every C++ project.</li>
+<li><span class="tt">MeshLib::MRIOExtras</span> (<span class="tt">MESHLIB_BUILD_EXTRA_IO_FORMATS</span>): additional file formats such as 3MF, CTM, E57, glTF, LAS, and STEP.</li>
+<li><span class="tt">MeshLib::MRSymbolMesh</span> (<span class="tt">MESHLIB_BUILD_SYMBOLMESH</span>): text converted to meshes.</li>
+<li><span class="tt">MeshLib::MRVoxels</span> (<span class="tt">MESHLIB_BUILD_VOXELS</span>): voxel volumes and the algorithms built on them: offsets, fusion, marching cubes.</li>
+<li><span class="tt">MeshLib::MRCuda</span> (<span class="tt">MESHLIB_BUILD_MRCUDA</span>): CUDA implementations of several algorithms; unavailable for macOS and Emscripten.</li>
+<li><span class="tt">MeshLib::MRViewer</span> and <span class="tt">MeshLib::MRCommonPlugins</span> (<span class="tt">MESHLIB_BUILD_MRVIEWER</span>): the viewer framework and its standard plugins.</li>
+<li><span class="tt">MeshLib::MeshLibC2</span> (<span class="tt">MESHLIB_BUILD_GENERATED_C_BINDINGS</span>): the C API.</li>
+</ul>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
 A Complete Minimal Example</h3>
 <p>Putting the steps above together, this is a complete <span class="tt">CMakeLists.txt</span> that compiles, links and runs a program including <span class="tt">&lt;MRMesh/MRMesh.h&gt;</span>. The <b>Linking Additional Third-Party Libraries</b> section below is not needed for it:</p>
 <div class="fragment"><div class="line">cmake_minimum_required(VERSION 3.18)</div>
@@ -218,6 +230,18 @@ A Complete Minimal Example</h3>
 <div class="line">target_include_directories(hello PUBLIC ${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
 <div class="line">target_link_libraries(hello PUBLIC MeshLib::MRMesh)</div>
 </div><!-- fragment --><p>For the <span class="tt">main.cpp</span> this expects, see <a class="el" href="MeshLibCppSetupGuide.html#CppSetupVerify">Verify your setup</a> in the C++ Setup Guide: a self-contained program that builds a mesh, checks it, saves it and returns non-zero on failure.</p>
+<p>A C project is the same shape, linking <span class="tt">MeshLib::MeshLibC2</span> instead. Note that it needs only <span class="tt">MESHLIB_INCLUDE_DIR</span> as the <span class="tt">MRC*</span> headers include no third-party header.</p>
+<div class="fragment"><div class="line">cmake_minimum_required(VERSION 3.18)</div>
+<div class="line">set(CMAKE_C_STANDARD 11)</div>
+<div class="line">set(CMAKE_C_STANDARD_REQUIRED ON)</div>
+<div class="line">project(hello C)</div>
+<div class="line"> </div>
+<div class="line">find_package(MeshLib CONFIG REQUIRED)</div>
+<div class="line"> </div>
+<div class="line">add_executable(hello main.c)</div>
+<div class="line">target_include_directories(hello PUBLIC ${MESHLIB_INCLUDE_DIR})</div>
+<div class="line">target_link_libraries(hello PUBLIC MeshLib::MeshLibC2)</div>
+</div><!-- fragment --><p>For the <span class="tt">main.c</span>, take one of the <a class="el" href="Examples.html">C code samples</a>; <a class="el" href="ExampleMeshLoadSave.html">Load and Save Meshes</a> is the shortest.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
 Linking Additional Third-Party Libraries</h3>
 <p>Only if <b>your</b> <b>own</b> code links a third-party library bundled with MeshLib (rather than just using MeshLib's API), add the directory those libraries live in:</p>
