@@ -143,35 +143,24 @@ $(function(){initNavTree('MeshLibCSetupGuide.html','',''); });
 <div class="toc"><h3>Table of Contents</h3>
 <ul>
   <li class="level1">
-    <a href="#autotoc_md40">Setting Up MeshLib for C Development </a>
+    <a href="#autotoc_md38">Setting Up MeshLib for C Development </a>
     <ul>
       <li class="level2">
-        <a href="#CSetupPrerequisites">Prerequisites </a>
+        <a href="#autotoc_md39">Installing binary releases of MeshLib </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md41">Compiler and language standard </a>
+            <a href="#autotoc_md40">Windows </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md42">CMake </a>
+            <a href="#autotoc_md41">Linux </a>
+          </li>
+          <li class="level3">
+            <a href="#autotoc_md42">macOS </a>
           </li>
         </ul>
       </li>
       <li class="level2">
-        <a href="#autotoc_md43">Installing binary releases of MeshLib </a>
-        <ul>
-          <li class="level3">
-            <a href="#autotoc_md44">Windows </a>
-          </li>
-          <li class="level3">
-            <a href="#autotoc_md45">Linux </a>
-          </li>
-          <li class="level3">
-            <a href="#autotoc_md46">macOS </a>
-          </li>
-        </ul>
-      </li>
-      <li class="level2">
-        <a href="#autotoc_md47">Try MeshLib with C Examples </a>
+        <a href="#autotoc_md43">Try MeshLib with C Examples </a>
       </li>
       <li class="level2">
         <a href="#CppBuildCBindingsFromSource">Building C API from source </a>
@@ -180,26 +169,15 @@ $(function(){initNavTree('MeshLibCSetupGuide.html','',''); });
   </li>
 </ul>
 </div>
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md40"></a>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
 Setting Up MeshLib for C Development</h1>
 <dl class="section note"><dt>Note</dt><dd>The C API library is called <span class="tt">MeshLibC2</span>, and its headers are in the <span class="tt">MRC*</span> directories (<span class="tt">MRCMesh</span>/etc, as opposed to <span class="tt">MRMesh</span>/etc for C++ API). </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The recommended way of installing the C API is from the <a href="https://github.com/MeshInspector/MeshLib/releases">binary releases</a> of MeshLib. It's also possible to build <a class="el" href="#CppBuildCBindingsFromSource">from source</a>. </dd></dl>
-<h2 class="doxsection"><a class="anchor" id="CSetupPrerequisites"></a>
-Prerequisites</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md41"></a>
-Compiler and language standard</h3>
-<p>Compile your own code as C11 or newer:</p><ul>
-<li><span class="tt">/std:c11</span> in Visual Studio (2019 version 16.8 or newer)</li>
-<li><span class="tt">-std=c11</span> with GCC or Clang</li>
-</ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md42"></a>
-CMake</h3>
-<p>Integrating MeshLib with CMake needs CMake 3.18 or newer. See <a class="el" href="MeshLibCmakeSetupGuide.html">the CMake Setup Guide</a>.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
 Installing binary releases of MeshLib</h2>
 <p>The installation process is <a class="el" href="MeshLibCppSetupGuide.html">same as for C++</a>, and is also explained below.</p>
 <p>The release archives include the C headers (in the directory called <span class="tt">MRCMesh</span> and several other <span class="tt">MRC...</span> directories), and a compiled library named <span class="tt">MeshLibC2</span> (<span class="tt">MeshLibC2.dll</span> on Windows, <span class="tt">libMeshLibC2.so</span> on Linux, etc). This library links against our C++ libraries (<span class="tt">MRMesh</span> and others) and provides C wrappers for them.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md40"></a>
 Windows</h3>
 <dl class="section note"><dt>Note</dt><dd>MeshLib for Windows is distributed for x64 only. Make sure you're not targeting x32.</dd></dl>
 <p>Every release publishes one Windows distributive per Visual Studio toolset, plus one for Debug builds that keep MSVC's iterator debugging on. The <a class="el" href="MeshLibCppSetupGuide.html#CppSetupWindows">C++ guide's archive table</a> names all four and says which one to take, including the binary-compatibility rule that lets an older toolset's archive serve a newer Visual Studio. It applies to C unchanged, except for its <span class="tt">_ITERATOR_DEBUG_LEVEL</span> column: a pure-C consumer needs no <span class="tt">_ITERATOR_DEBUG_LEVEL</span> define, whichever archive it picks, because C code passes no standard containers across the DLL boundary, so the mismatch that define guards against cannot arise. A project that also compiles C++ translation units against MeshLib's C++ headers does need it, at the value in that column.</p>
@@ -219,8 +197,6 @@ Windows</h3>
 <li><b>Configure and integrate with Visual Studio</b><ul>
 <li><b>Solution Platform</b>: <br  />
  Set: <span class="tt">x64</span></li>
-<li><b>C/C++ → Language → C Language Standard</b>: <br  />
- Set: <span class="tt">/std:c11</span> or later</li>
 <li><b>C/C++ → General → Additional Include Directories</b>: <br  />
  Add: <span class="tt">C:\meshlib-built\install\include</span></li>
 <li><b>C/C++ → All Options → Additional Options</b>: <br  />
@@ -233,7 +209,7 @@ Windows</h3>
 </ul>
 </li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md45"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md41"></a>
 Linux</h3>
 <ol type="1">
 <li><b>Download the Package for Your Distribution and CPU</b> <br  />
@@ -247,7 +223,7 @@ Linux</h3>
  Add the following to your <span class="tt">CMakeLists.txt</span>: <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
 </div><!-- fragment --></li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md46"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md42"></a>
 macOS</h3>
 <ol type="1">
 <li><b>Download the Installer</b> <br  />
@@ -256,7 +232,7 @@ macOS</h3>
 <li>Double-click the downloaded <span class="tt">.pkg</span> and follow the installer. The release asset is the installer itself, so there is nothing to unpack first.</li>
 <li>The framework is installed into <span class="tt">/Library/Frameworks/MeshLib.framework</span>, or into <span class="tt">~/Library/Frameworks/MeshLib.framework</span> if you choose to install for the current user only.</li>
 <li><b>Install Dependencies via Homebrew</b> <br  />
- The <span class="tt">.pkg</span> does not pull in the Homebrew formulae MeshLib links against, so install them yourself. Skip this step if your project enables only the C language. This needs <a href="https://brew.sh/">Homebrew</a> — install it first if you do not have it. Open Terminal and run the following command: <div class="fragment"><div class="line">xargs brew install &lt; /Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</div>
+ The <span class="tt">.pkg</span> does not pull in the Homebrew formulae MeshLib links against, so install them yourself. Skip this step if your project only uses the C interface. This needs <a href="https://brew.sh/">Homebrew</a> — install it first if you do not have it. Open Terminal and run the following command: <div class="fragment"><div class="line">xargs brew install &lt; /Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</div>
 </div><!-- fragment --></li>
 <li>If you installed for the current user only, prefix the path with <span class="tt">~</span>: <span class="tt">~/Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</span>.</li>
 </ul>
@@ -265,7 +241,7 @@ macOS</h3>
  Add the following to your <span class="tt">CMakeLists.txt</span>: <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
 </div><!-- fragment --></li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md47"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
 Try MeshLib with C Examples</h2>
 <p>MeshLib provides a <a class="el" href="Examples.html">collection of C code samples</a> to help you get started quickly with common mesh processing tasks.</p>
 <p>We suggest running one of them to confirm that the installation was performed correctly, for example the <a class="el" href="ExampleMeshLoadSave.html">Load and Save Meshes</a> sample.</p>

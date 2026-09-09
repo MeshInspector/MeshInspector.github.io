@@ -200,7 +200,7 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <div class="line">    <span class="keywordtype">size_t</span> facesNum = MR_Triangulation_size( t );</div>
 <div class="line">    <span class="comment">// faces are stored as vertex id triples...</span></div>
 <div class="line">    printf( <span class="stringliteral">&quot;Face vertex IDs:\n&quot;</span> );</div>
-<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; facesNum; ++i )</div>
+<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; verticesNum; ++i )</div>
 <div class="line">        printf( <span class="stringliteral">&quot;  face %d:  %d, %d, %d\n&quot;</span>, (<span class="keywordtype">int</span>)i, faces[i].elems[0].id_, faces[i].elems[1].id_, faces[i].elems[2].id_ );</div>
 <div class="line">    <span class="comment">// ...and can also be cast to an integer array</span></div>
 <div class="line">    <span class="keywordtype">int</span>* faceData = malloc( <span class="keyword">sizeof</span>( <span class="keywordtype">int</span> ) * 3 * facesNum );</div>
@@ -260,10 +260,9 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <div class="line"> </div>
 <div class="line">// TODO: export in your format</div>
 <div class="line">console.log(`${vertexCoordinates.length / 3} vertices, ${vertexTriples.length / 3} triangles`);</div>
-</div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a current browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
-</li>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->
