@@ -24,6 +24,7 @@
 */
 var menudata={children:[
 {text:"About",url:"index.html"},
+{text:"Live Demo",url:"^https://demo.meshlib.io/"},
 {text:"Getting Started",url:"InstallationGuide.html",children:[
 {text:"Python",url:"MeshLibPythonSetupGuide.html"},
 {text:"C++",url:"MeshLibCppSetupGuide.html"},
