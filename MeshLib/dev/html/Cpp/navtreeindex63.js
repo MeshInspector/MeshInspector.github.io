@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1FindOverlappingSettings.html":[8,0,0,20,426],
 "structMR_1_1FindProjectionOnPointsSettings.html":[8,0,0,1,29],
 "structMR_1_1FindProjectionOnPointsSettings.html#a33ab001af75b70c47485278f07082bd5":[8,0,0,1,29,1],
 "structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217":[8,0,0,1,29,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html#ae57c16098d513998573613bc01be95d3":[8,0,1,0,1,16,9,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html#ae57c16098d513998573613bc01be95d3":[8,0,2,0,2,7,9,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html":[8,0,1,0,1,16,9,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html":[8,0,2,0,2,7,9,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a4bffbd994362942f69eb09e7e455e883":[8,0,1,0,1,16,9,0,2]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html":[8,0,2,0,2,7,9,0]
 };

@@ -12038,6 +12038,7 @@ var group__GeneralGroup =
     [ "MR::findInnerShellVerts", "group__GeneralGroup.html#ga35c9d7ab15274c914e84713e9de7c20b", null ],
     [ "MR::findInSphere", "group__GeneralGroup.html#gabf4aff33ab299120189d8fe0bf49ae8a", null ],
     [ "MR::findInSphere", "group__GeneralGroup.html#gab0c7ddb6812ef3a4def0bec679fb7e04", null ],
+    [ "MR::RibbonSchemaHolder::findItem", "group__GeneralGroup.html#ga370a840d099cc45ba90568d733f58245", null ],
     [ "MR::RibbonSchemaHolder::findItemTab", "group__GeneralGroup.html#gafa71f6751144e899c162ec0eaa802fd4", null ],
     [ "MR::MeshTopology::findLeftBdEdges", "group__GeneralGroup.html#gaf33b53d0bb5c12cc483fe7d8cce466f3", null ],
     [ "MR::findLeftBoundary", "group__GeneralGroup.html#ga8904bf9f155b4c701884399ce5d8743d", null ],

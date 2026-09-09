@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1DecimatePolylineSettings.html":[8,0,0,10,4],
 "structMR_1_1DecimatePolylineSettings.html":[8,0,0,20,453],
 "structMR_1_1DecimateResult.html":[8,0,0,10,1],
 "structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd":[8,0,0,10,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1FindDisorientationParams.html#a8d3d371ac19975e796450c4a8bbb2d44":[8,0,0,9,4,2,3],
 "structMR_1_1FindInnerShellSettings.html":[8,0,0,20,294],
 "structMR_1_1FindOutliersParams.html":[8,0,0,20,425],
-"structMR_1_1FindOverhangsSettings.html":[8,0,0,20,365],
-"structMR_1_1FindOverlappingSettings.html":[8,0,0,20,426]
+"structMR_1_1FindOverhangsSettings.html":[8,0,0,20,365]
 };

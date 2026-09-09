@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1SpaceMouse.html#afea9877496a4f6098c6687dbbae1ac62":[8,0,1,0,1,46,6],
 "namespaceMR_1_1StyleConsts.html":[8,0,0,20,25],
 "namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[8,0,0,20,28],
 "namespaceMR_1_1StyleConsts_1_1Modal.html":[8,0,0,20,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[8,0,2,0,1,0,3],
 "structImGui_1_1HistogramGridLine.html":[8,0,1,0,0,1],
 "structImGui_1_1HistogramGridLine.html":[8,0,2,0,1,1],
-"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[8,0,1,0,0,1,1],
-"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[8,0,2,0,1,1,1]
+"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[8,0,1,0,0,1,1]
 };
