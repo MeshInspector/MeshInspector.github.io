@@ -1175,13 +1175,13 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1af6f3d07abc979d6e4af5f9eb67bca869" kindref="member">MR.ObjectLines.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1af6f3d07abc979d6e4af5f9eb67bca869" kindref="member">MR.ObjectLines.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="868" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="868" bodyend="873"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="867" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="867" bodyend="872"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a539b793ffb9fe66e3759075bf15a5f95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1196,7 +1196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="880" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="880" bodyend="885"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="879" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="879" bodyend="884"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a6041e227967fd60ccd6e6c9e84db7ec2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1215,7 +1215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="891" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="891" bodyend="896"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="890" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="890" bodyend="895"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ac6d441ca7adb53e3e3a4f892fdf5f126" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -1230,7 +1230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="902" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="902" bodyend="907"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="901" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="901" bodyend="906"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a800aa30d98f47ef4f5fe57f7287bf05d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1245,7 +1245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="914" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="914" bodyend="919"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="913" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="913" bodyend="918"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1504,7 +1504,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="16" bodyend="920"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="16" bodyend="919"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__ObjectLines_1a2ef78af8fa9bcf8d2a91062fb97a4589" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>avgEdgeLen</name></member>
       <member refid="classMR_1_1Const__ObjectLines_1a2ad372c849f67379fd95b04014e9b7bd" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>className</name></member>

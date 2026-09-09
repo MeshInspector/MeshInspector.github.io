@@ -1265,13 +1265,13 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1aed11e078c6370f796ec1aeaa8a0aaa83" kindref="member">MR.ObjectGcode.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1aed11e078c6370f796ec1aeaa8a0aaa83" kindref="member">MR.ObjectGcode.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="930" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="930" bodyend="935"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="929" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="929" bodyend="934"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1af3732f9d8f8b1d9831e2cfe098901a7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1286,7 +1286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="942" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="942" bodyend="947"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="941" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="941" bodyend="946"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1aa67f8229e8c1878ff01d146de1f0cea7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1305,7 +1305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="953" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="953" bodyend="958"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="952" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="952" bodyend="957"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ac06dabc24578cff9d58ba2d2788a2c0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -1320,7 +1320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="964" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="964" bodyend="969"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="963" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="963" bodyend="968"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ac50f0763aa4b178433df21e3f0780d83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1335,7 +1335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="976" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="976" bodyend="981"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="975" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="975" bodyend="980"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1594,7 +1594,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="16" bodyend="982"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="16" bodyend="981"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__ObjectGcode_1a716a0422d5626ff99db087215ab87359" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>actionList</name></member>
       <member refid="classMR_1_1Const__ObjectGcode_1a239335361203cd82cfd400eb23e1afa2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>avgEdgeLen</name></member>

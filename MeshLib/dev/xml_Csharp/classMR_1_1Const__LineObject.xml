@@ -1400,13 +1400,13 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__LineObject_1a1319facdd133330bea5e27bfcb74c5bf" kindref="member">MR.LineObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__LineObject_1a1319facdd133330bea5e27bfcb74c5bf" kindref="member">MR.LineObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1006" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1006" bodyend="1011"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1005" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1005" bodyend="1010"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__LineObject_1a28b56154948520075c0cede793eb8572" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1421,7 +1421,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1017" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1017" bodyend="1022"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1016" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1016" bodyend="1021"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__LineObject_1a658cee5ed4584344657ab447279b80dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1436,7 +1436,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1029" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1029" bodyend="1034"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1028" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1028" bodyend="1033"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__LineObject_1a6795618158346a7622b90a579c00eca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1451,7 +1451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1041" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1041" bodyend="1046"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1040" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1040" bodyend="1045"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__LineObject_1a7ea31641c38d4f358172b29d7fa64264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1470,7 +1470,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1052" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1052" bodyend="1057"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1051" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1051" bodyend="1056"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__LineObject_1ad069373d288a5c87097bdddd6a03f55f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -1485,7 +1485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1063" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1063" bodyend="1068"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1062" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1062" bodyend="1067"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__LineObject_1acc2c4e51e72e631ce7e71fd2fd5b2987" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1500,7 +1500,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1075" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1075" bodyend="1080"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1074" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1074" bodyend="1079"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1778,7 +1778,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="16" bodyend="1081"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="16" bodyend="1080"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__LineObject_1a32891a0c49bcbad2544162cae78be37e" prot="public" virt="non-virtual"><scope>MR::Const_LineObject</scope><name>className</name></member>
       <member refid="classMR_1_1Const__LineObject_1ae612540a55fbff970e8ec03826e8adde" prot="public" virt="non-virtual"><scope>MR::Const_LineObject</scope><name>classNameInPlural</name></member>

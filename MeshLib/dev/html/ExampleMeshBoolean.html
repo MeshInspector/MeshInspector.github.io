@@ -141,6 +141,7 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Example of boolean operation</p>
+<p>The optional BooleanResultMapper passed to the operation maps faces, vertices and edges of the input meshes to the primitives of the result mesh, and its getNew2OldFaceMap maps the faces back.</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshBoolean.h&gt;</span></div>
@@ -159,12 +160,42 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <div class="line">    MR::AffineXf3f xf = MR::AffineXf3f::translation( MR::Vector3f( 0.7f, 0.0f, 0.0f ) );</div>
 <div class="line">    sphere2.transform( xf );</div>
 <div class="line"> </div>
+<div class="line">    <span class="comment">// optional mapper relating the primitives of the input meshes to the primitives of the result</span></div>
+<div class="line">    MR::BooleanResultMapper mapper;</div>
+<div class="line"> </div>
 <div class="line">    <span class="comment">// perform boolean operation</span></div>
-<div class="line">    MR::BooleanResult result = MR::boolean( sphere1, sphere2, MR::BooleanOperation::Intersection );</div>
+<div class="line">    MR::BooleanResult result = MR::boolean( sphere1, sphere2, MR::BooleanOperation::Intersection, { .mapper = &amp;mapper } );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !result.valid() )</div>
 <div class="line">        std::cerr &lt;&lt; result.errorString &lt;&lt; std::endl;</div>
 <div class="line"> </div>
 <div class="line">    MR::Mesh resultMesh = *result;</div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// find the faces of the result produced by each input sphere, and the faces the cut created</span></div>
+<div class="line">    <span class="keyword">using </span>MapObject = MR::BooleanResultMapper::MapObject;</div>
+<div class="line">    MR::FaceBitSet facesOfSphere1 = mapper.map( sphere1.topology.getValidFaces(), MapObject::A );</div>
+<div class="line">    MR::FaceBitSet facesOfSphere2 = mapper.map( sphere2.topology.getValidFaces(), MapObject::B );</div>
+<div class="line">    MR::FaceBitSet newFaces = mapper.newFaces();</div>
+<div class="line"> </div>
+<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;faces from sphere1: &quot;</span> &lt;&lt; facesOfSphere1.count() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line">              &lt;&lt; <span class="stringliteral">&quot;faces from sphere2: &quot;</span> &lt;&lt; facesOfSphere2.count() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line">              &lt;&lt; <span class="stringliteral">&quot;faces created by the cut: &quot;</span> &lt;&lt; newFaces.count() &lt;&lt; std::endl;</div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// map one particular face of sphere1 forward: the cut can split it in several faces of the</span></div>
+<div class="line">    <span class="comment">// result, or drop it completely if that part of sphere1 is not in the result</span></div>
+<div class="line">    MR::FaceId faceOfSphere1( 793 );</div>
+<div class="line">    MR::FaceBitSet oneFace;</div>
+<div class="line">    oneFace.autoResizeSet( faceOfSphere1 );</div>
+<div class="line">    MR::FaceBitSet producedFaces = mapper.map( oneFace, MapObject::A );</div>
+<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;face &quot;</span> &lt;&lt; faceOfSphere1 &lt;&lt; <span class="stringliteral">&quot; of sphere1 produced &quot;</span> &lt;&lt; producedFaces.count() &lt;&lt; <span class="stringliteral">&quot; faces of the result:&quot;</span>;</div>
+<div class="line">    <span class="keywordflow">for</span> ( MR::FaceId f : producedFaces )</div>
+<div class="line">        std::cout &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; f;</div>
+<div class="line">    std::cout &lt;&lt; std::endl;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// and backward: the face of sphere1 each face of the result came from</span></div>
+<div class="line">    <span class="comment">// (invalid id for the faces that came from sphere2)</span></div>
+<div class="line">    MR::FaceMap new2OldFaces = mapper.getNew2OldFaceMap( MapObject::A );</div>
+<div class="line">    MR::FaceId resultFace = producedFaces.find_first();</div>
+<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;face &quot;</span> &lt;&lt; resultFace &lt;&lt; <span class="stringliteral">&quot; of the result came from face &quot;</span> &lt;&lt; new2OldFaces[resultFace] &lt;&lt; <span class="stringliteral">&quot; of sphere1&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// save result to STL file</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( resultMesh, <span class="stringliteral">&quot;out_boolean.stl&quot;</span> ); !saveRes )</div>
@@ -193,11 +224,37 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <div class="line">xf = mrmeshpy.AffineXf3f.translation(mrmeshpy.Vector3f(0.7, 0.0, 0.0))</div>
 <div class="line">sphere2.transform(xf)</div>
 <div class="line"> </div>
+<div class="line"><span class="comment"># optional mapper relating the primitives of the input meshes to the primitives of the result</span></div>
+<div class="line">mapper = mrmeshpy.BooleanResultMapper()</div>
+<div class="line"> </div>
 <div class="line"><span class="comment"># perform boolean operation</span></div>
-<div class="line">result = mrmeshpy.boolean(sphere1, sphere2, mrmeshpy.BooleanOperation.Intersection)</div>
+<div class="line">result = mrmeshpy.boolean(sphere1, sphere2, mrmeshpy.BooleanOperation.Intersection, <span class="keywordtype">None</span>, mapper)</div>
 <div class="line"><span class="keywordflow">if</span> <span class="keywordflow">not</span> result.valid():</div>
 <div class="line">    print(result.errorString)</div>
 <div class="line"><span class="keywordflow">else</span>:</div>
+<div class="line">    <span class="comment"># find the faces of the result produced by each input sphere, and the faces the cut created</span></div>
+<div class="line">    map_object = mrmeshpy.BooleanResultMapper.MapObject</div>
+<div class="line">    faces_of_sphere1 = mapper.map(sphere1.topology.getValidFaces(), map_object.A)</div>
+<div class="line">    faces_of_sphere2 = mapper.map(sphere2.topology.getValidFaces(), map_object.B)</div>
+<div class="line">    new_faces = mapper.newFaces()</div>
+<div class="line">    print(f<span class="stringliteral">&quot;faces from sphere1: {faces_of_sphere1.count()}&quot;</span>)</div>
+<div class="line">    print(f<span class="stringliteral">&quot;faces from sphere2: {faces_of_sphere2.count()}&quot;</span>)</div>
+<div class="line">    print(f<span class="stringliteral">&quot;faces created by the cut: {new_faces.count()}&quot;</span>)</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment"># map one particular face of sphere1 forward: the cut can split it in several faces of the</span></div>
+<div class="line">    <span class="comment"># result, or drop it completely if that part of sphere1 is not in the result</span></div>
+<div class="line">    face_of_sphere1 = mrmeshpy.FaceId(793)</div>
+<div class="line">    one_face = mrmeshpy.FaceBitSet()</div>
+<div class="line">    one_face.autoResizeSet(face_of_sphere1)</div>
+<div class="line">    produced_faces = mapper.map(one_face, map_object.A)</div>
+<div class="line">    print(f<span class="stringliteral">&quot;face {face_of_sphere1.get()} of sphere1 produced {produced_faces.count()} faces of the result&quot;</span>)</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment"># and backward: the face of sphere1 each face of the result came from</span></div>
+<div class="line">    <span class="comment"># (invalid id for the faces that came from sphere2)</span></div>
+<div class="line">    new2old_faces = mapper.getNew2OldFaceMap(map_object.A)</div>
+<div class="line">    result_face = produced_faces.find_first()</div>
+<div class="line">    print(f<span class="stringliteral">&quot;face {result_face.get()} of the result came from face {new2old_faces[result_face].get()} of sphere1&quot;</span>)</div>
+<div class="line"> </div>
 <div class="line">    <span class="comment"># save result to STL file</span></div>
 <div class="line">    mrmeshpy.saveMesh(result.mesh, <span class="stringliteral">&quot;out_boolean.stl&quot;</span>)</div>
 </div><!-- fragment --> Source meshes <div class="image">
@@ -208,10 +265,15 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 </div>
 </li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRAffineXf.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRBitSet.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRBooleanOperation.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRId.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMakeSphereMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshBoolean.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshTopology.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRVector.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRVector3.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_void_std_string.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
@@ -237,13 +299,53 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <div class="line">    MR_AffineXf3f xf = MR_AffineXf3f_translation( &amp;xfTranslation );</div>
 <div class="line">    MR_Mesh_transform( sphere2, &amp;xf, NULL );</div>
 <div class="line"> </div>
+<div class="line">    <span class="comment">// Ask for an optional mapper relating the primitives of the input meshes to the primitives of the result.</span></div>
+<div class="line">    MR_BooleanResultMapper* mapper = MR_BooleanResultMapper_DefaultConstruct();</div>
+<div class="line">    MR_BooleanParameters* params = MR_BooleanParameters_DefaultConstruct();</div>
+<div class="line">    MR_BooleanParameters_Set_mapper( params, mapper );</div>
+<div class="line"> </div>
 <div class="line">    <span class="comment">// Perform the boolean operation.</span></div>
-<div class="line">    MR_BooleanResult* result = MR_boolean_4_const_MR_Mesh_ref( sphere1, sphere2, MR_BooleanOperation_Intersection, NULL );</div>
+<div class="line">    MR_BooleanResult* result = MR_boolean_4_const_MR_Mesh_ref( sphere1, sphere2, MR_BooleanOperation_Intersection, params );</div>
+<div class="line">    MR_BooleanParameters_Destroy( params );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !MR_BooleanResult_valid( result ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to perform boolean: %s\n&quot;</span>, MR_std_string_data( MR_BooleanResult_Get_errorString( result ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail;</div>
 <div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Find the faces of the result produced by each input sphere, and the faces the cut created.</span></div>
+<div class="line">    MR_FaceBitSet* facesOfSphere1 = MR_BooleanResultMapper_map_MR_FaceBitSet(</div>
+<div class="line">        mapper, MR_MeshTopology_getValidFaces( MR_Mesh_Get_topology( sphere1 ) ), MR_BooleanResultMapper_MapObject_A );</div>
+<div class="line">    MR_FaceBitSet* facesOfSphere2 = MR_BooleanResultMapper_map_MR_FaceBitSet(</div>
+<div class="line">        mapper, MR_MeshTopology_getValidFaces( MR_Mesh_Get_topology( sphere2 ) ), MR_BooleanResultMapper_MapObject_B );</div>
+<div class="line">    MR_FaceBitSet* newFaces = MR_BooleanResultMapper_newFaces( mapper );</div>
+<div class="line"> </div>
+<div class="line">    printf( <span class="stringliteral">&quot;faces from sphere1: %zu\n&quot;</span>, MR_FaceBitSet_count( facesOfSphere1 ) );</div>
+<div class="line">    printf( <span class="stringliteral">&quot;faces from sphere2: %zu\n&quot;</span>, MR_FaceBitSet_count( facesOfSphere2 ) );</div>
+<div class="line">    printf( <span class="stringliteral">&quot;faces created by the cut: %zu\n&quot;</span>, MR_FaceBitSet_count( newFaces ) );</div>
+<div class="line"> </div>
+<div class="line">    MR_FaceBitSet_Destroy( newFaces );</div>
+<div class="line">    MR_FaceBitSet_Destroy( facesOfSphere2 );</div>
+<div class="line">    MR_FaceBitSet_Destroy( facesOfSphere1 );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Map one particular face of sphere1 forward: the cut can split it in several faces of the</span></div>
+<div class="line">    <span class="comment">// result, or drop it completely if that part of sphere1 is not in the result.</span></div>
+<div class="line">    MR_FaceId faceOfSphere1 = { 793 };</div>
+<div class="line">    MR_FaceBitSet* oneFace = MR_FaceBitSet_DefaultConstruct();</div>
+<div class="line">    MR_FaceBitSet_autoResizeSet_2( oneFace, faceOfSphere1, NULL );</div>
+<div class="line">    MR_FaceBitSet* producedFaces = MR_BooleanResultMapper_map_MR_FaceBitSet( mapper, oneFace, MR_BooleanResultMapper_MapObject_A );</div>
+<div class="line">    printf( <span class="stringliteral">&quot;face %d of sphere1 produced %zu faces of the result\n&quot;</span>, faceOfSphere1.id_, MR_FaceBitSet_count( producedFaces ) );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// And backward: the face of sphere1 each face of the result came from</span></div>
+<div class="line">    <span class="comment">// (invalid id for the faces that came from sphere2).</span></div>
+<div class="line">    MR_FaceMap* new2OldFaces = MR_BooleanResultMapper_getNew2OldFaceMap( mapper, MR_BooleanResultMapper_MapObject_A );</div>
+<div class="line">    MR_FaceId resultFace = MR_FaceBitSet_find_first( producedFaces );</div>
+<div class="line">    printf( <span class="stringliteral">&quot;face %d of the result came from face %d of sphere1\n&quot;</span>,</div>
+<div class="line">        resultFace.id_, MR_FaceMap_index( new2OldFaces, resultFace )-&gt;id_ );</div>
+<div class="line"> </div>
+<div class="line">    MR_FaceMap_Destroy( new2OldFaces );</div>
+<div class="line">    MR_FaceBitSet_Destroy( producedFaces );</div>
+<div class="line">    MR_FaceBitSet_Destroy( oneFace );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result to an STL file.</span></div>
 <div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( MR_BooleanResult_Get_mesh( result ), <span class="stringliteral">&quot;out_boolean.stl&quot;</span>, NULL, NULL);</div>
@@ -256,6 +358,7 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <div class="line">    rc = EXIT_SUCCESS;</div>
 <div class="line">fail:</div>
 <div class="line">    MR_BooleanResult_Destroy( result );</div>
+<div class="line">    MR_BooleanResultMapper_Destroy( mapper );</div>
 <div class="line">    MR_Mesh_Destroy( sphere2 );</div>
 <div class="line">    MR_Mesh_Destroy( sphere1 );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
@@ -288,12 +391,46 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <div class="line">                mesh_b.transform(MR.AffineXf3f.translation(<span class="keyword">new</span> MR.Vector3f(0.7f, 0.0f, 0.0f)));</div>
 <div class="line">            }</div>
 <div class="line"> </div>
+<div class="line">            <span class="comment">// optional mapper relating the primitives of the input meshes to the primitives of the result</span></div>
+<div class="line">            var mapper = <span class="keyword">new</span> MR.BooleanResultMapper();</div>
+<div class="line">            var parameters = <span class="keyword">new</span> MR.BooleanParameters();</div>
+<div class="line">            parameters.mapper = mapper;</div>
+<div class="line"> </div>
 <div class="line">            <span class="comment">// perform boolean operation</span></div>
-<div class="line">            MR.BooleanResult res = MR.boolean(mesh_a, mesh_b, MR.BooleanOperation.Intersection);</div>
+<div class="line">            MR.BooleanResult res = MR.boolean(mesh_a, mesh_b, MR.BooleanOperation.Intersection, parameters);</div>
 <div class="line">            <span class="keywordflow">if</span> (!res.valid())</div>
 <div class="line">            {</div>
 <div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, res.errorString);</div>
 <div class="line">                <span class="keywordflow">return</span>;</div>
+<div class="line">            }</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// find the faces of the result produced by each input mesh, and the faces the cut created</span></div>
+<div class="line">            var facesOfA = mapper.map(mesh_a.topology.getValidFaces(), MR.BooleanResultMapper.MapObject.A);</div>
+<div class="line">            var facesOfB = mapper.map(mesh_b.topology.getValidFaces(), MR.BooleanResultMapper.MapObject.B);</div>
+<div class="line">            var newFaces = mapper.newFaces();</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;faces from mesh A: {0}&quot;</span>, facesOfA.count());</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;faces from mesh B: {0}&quot;</span>, facesOfB.count());</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;faces created by the cut: {0}&quot;</span>, newFaces.count());</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// map one particular face of mesh A forward: the cut can split it in several faces of</span></div>
+<div class="line">            <span class="comment">// the result, or drop it completely if that part of mesh A is not in the result</span></div>
+<div class="line">            var faceOfA = <span class="keyword">new</span> MR.FaceId(793);</div>
+<div class="line">            var oneFace = <span class="keyword">new</span> MR.FaceBitSet(794);</div>
+<div class="line">            oneFace.set(faceOfA);</div>
+<div class="line">            var producedFaces = mapper.map(oneFace, MR.BooleanResultMapper.MapObject.A);</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;face {0} of mesh A produced {1} faces of the result&quot;</span>, faceOfA.id, producedFaces.count());</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// and backward: the face of mesh A each face of the result came from</span></div>
+<div class="line">            <span class="comment">// (invalid id for the faces that came from mesh B)</span></div>
+<div class="line">            var new2OldFaces = mapper.getNew2OldFaceMap(MR.BooleanResultMapper.MapObject.A);</div>
+<div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> f = 0; f &lt; (int)new2OldFaces.size(); ++f)</div>
+<div class="line">            {</div>
+<div class="line">                var resultFace = <span class="keyword">new</span> MR.FaceId(f);</div>
+<div class="line">                <span class="keywordflow">if</span> (!producedFaces.test(resultFace))</div>
+<div class="line">                    <span class="keywordflow">continue</span>;</div>
+<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;face {0} of the result came from face {1} of mesh A&quot;</span>,</div>
+<div class="line">                    f, new2OldFaces[resultFace].<span class="keywordtype">id</span>);</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
 <div class="line">            }</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// save result to STL file</span></div>
@@ -325,10 +462,39 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <div class="line">using xf = ml.AffineXf3f.translation({ x: 0.7, y: 0.0, z: 0.0 });</div>
 <div class="line">sphere2.transform(xf);</div>
 <div class="line"> </div>
+<div class="line">// optional mapper relating the primitives of the input meshes to the primitives of the result</div>
+<div class="line">using mapper = new ml.BooleanResultMapper();</div>
+<div class="line"> </div>
 <div class="line">// perform boolean operation</div>
-<div class="line">using result = ml.boolean(sphere1, sphere2, ml.BooleanOperation.Intersection);</div>
+<div class="line">using result = ml.boolean(sphere1, sphere2, ml.BooleanOperation.Intersection, mapper);</div>
 <div class="line">if (!result.valid())</div>
 <div class="line">  throw new Error(result.errorString);</div>
+<div class="line"> </div>
+<div class="line">// find the faces of the result produced by each input sphere, and the faces the cut created</div>
+<div class="line">using topology1 = sphere1.topology;</div>
+<div class="line">using topology2 = sphere2.topology;</div>
+<div class="line">using validFaces1 = topology1.getValidFaces();</div>
+<div class="line">using validFaces2 = topology2.getValidFaces();</div>
+<div class="line">using facesOfSphere1 = mapper.mapFaces(validFaces1, ml.BooleanMapObject.A);</div>
+<div class="line">using facesOfSphere2 = mapper.mapFaces(validFaces2, ml.BooleanMapObject.B);</div>
+<div class="line">using newFaces = mapper.newFaces();</div>
+<div class="line">console.log(`faces from sphere1: ${facesOfSphere1.count()}`);</div>
+<div class="line">console.log(`faces from sphere2: ${facesOfSphere2.count()}`);</div>
+<div class="line">console.log(`faces created by the cut: ${newFaces.count()}`);</div>
+<div class="line"> </div>
+<div class="line">// map one particular face of sphere1 forward: the cut can split it in several faces of the</div>
+<div class="line">// result, or drop it completely if that part of sphere1 is not in the result</div>
+<div class="line">const faceOfSphere1 = 793;</div>
+<div class="line">using oneFace = ml.FaceBitSet.fromIndices([faceOfSphere1]);</div>
+<div class="line">using producedFaces = mapper.mapFaces(oneFace, ml.BooleanMapObject.A);</div>
+<div class="line">console.log(`face ${faceOfSphere1} of sphere1 produced ${producedFaces.count()} faces of the result`);</div>
+<div class="line"> </div>
+<div class="line">// and backward: the face of sphere1 each face of the result came from</div>
+<div class="line">// (4294967295, i.e. an invalid id, for the faces that came from sphere2)</div>
+<div class="line">using new2OldFaces = mapper.getNew2OldFaceMap(ml.BooleanMapObject.A);</div>
+<div class="line">const new2OldFacesArray = new2OldFaces.toArray();</div>
+<div class="line">const resultFace = producedFaces.find_first();</div>
+<div class="line">console.log(`face ${resultFace} of the result came from face ${new2OldFacesArray[resultFace]} of sphere1`);</div>
 <div class="line"> </div>
 <div class="line">// save result to STL file</div>
 <div class="line">using resultMesh = result.mesh;</div>

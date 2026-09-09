@@ -1706,13 +1706,13 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a1e6e319456187763320200b526b2ed00" kindref="member">MR.ObjectMeshHolder.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMeshHolder_1a1e6e319456187763320200b526b2ed00" kindref="member">MR.ObjectMeshHolder.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="1232" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="1232" bodyend="1237"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="1231" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="1231" bodyend="1236"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1ab880c2fb649b45e46e8c444eaf01beb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1727,7 +1727,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="1244" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="1244" bodyend="1249"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="1243" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="1243" bodyend="1248"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectMeshHolder_1ab72e8a2613e0311270fdb06ae90e9be7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1742,7 +1742,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="1256" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="1256" bodyend="1261"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="1255" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="1255" bodyend="1260"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1965,7 +1965,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="36" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="37" bodyend="1262"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="36" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="37" bodyend="1261"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1a43c3df0b9457e7737b4e90ff39b95b46" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>actualSerializeFormat</name></member>
       <member refid="classMR_1_1Const__ObjectMeshHolder_1a593ea90c81f8c3040ef9b88835909a5d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshHolder</scope><name>avgEdgeLen</name></member>

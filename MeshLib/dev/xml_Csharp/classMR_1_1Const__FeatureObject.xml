@@ -1247,13 +1247,13 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__FeatureObject_1ac622622f2470d2eaf6e8f06045e2f945" kindref="member">MR.FeatureObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__FeatureObject_1ac622622f2470d2eaf6e8f06045e2f945" kindref="member">MR.FeatureObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1406" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1406" bodyend="1411"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1405" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1405" bodyend="1410"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FeatureObject_1a14593ce8e089f1a5c6b10305ed074d70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1268,7 +1268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1417" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1417" bodyend="1422"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1416" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1416" bodyend="1421"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FeatureObject_1a19085d786e075e8e0a575577d1a42d9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1283,7 +1283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1429" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1429" bodyend="1434"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1428" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1428" bodyend="1433"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FeatureObject_1a4124d7b18c9b633cae2d23b9f24b8bbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1298,7 +1298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1441" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1441" bodyend="1446"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1440" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1440" bodyend="1445"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FeatureObject_1ae12c1100ada68ed8e06760f788131097" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1317,7 +1317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1452" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1452" bodyend="1457"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1451" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1451" bodyend="1456"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FeatureObject_1a5d945172cae027fdbf9e2e982eeb194b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -1332,7 +1332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1463" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1463" bodyend="1468"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1462" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1462" bodyend="1467"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FeatureObject_1ae65a926575a762664e06bfa788e84c6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1347,7 +1347,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1475" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1475" bodyend="1480"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="1474" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="1474" bodyend="1479"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1570,7 +1570,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="525" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="526" bodyend="1481"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="525" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="526" bodyend="1480"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__FeatureObject_1a397f6dd9bcdb2938a260a947adffe147" prot="public" virt="non-virtual"><scope>MR::Const_FeatureObject</scope><name>className</name></member>
       <member refid="classMR_1_1Const__FeatureObject_1a5b13b1b219b97620b20f3a796eb33b16" prot="public" virt="non-virtual"><scope>MR::Const_FeatureObject</scope><name>classNameInPlural</name></member>

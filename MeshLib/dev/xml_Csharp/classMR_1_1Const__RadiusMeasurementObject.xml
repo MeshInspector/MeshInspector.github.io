@@ -1135,13 +1135,13 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__RadiusMeasurementObject_1a8e8b8be0cc3146a462dc3649c0034d69" kindref="member">MR.RadiusMeasurementObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__RadiusMeasurementObject_1a8e8b8be0cc3146a462dc3649c0034d69" kindref="member">MR.RadiusMeasurementObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="849" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="849" bodyend="854"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="848" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="848" bodyend="853"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RadiusMeasurementObject_1ad524570c7f8b80611485f6ce4df57312" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1156,7 +1156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="860" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="860" bodyend="865"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="859" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="859" bodyend="864"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RadiusMeasurementObject_1a0d74f7b97d686aace1c5ac1e1461fb43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1171,7 +1171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="872" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="872" bodyend="877"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="871" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="871" bodyend="876"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RadiusMeasurementObject_1aff65ae13893b22f1419ca9936ff4125b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1186,7 +1186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="884" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="884" bodyend="889"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="883" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="883" bodyend="888"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RadiusMeasurementObject_1aaf15e405aff0abea522e064f52793918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1205,7 +1205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="895" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="895" bodyend="900"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="894" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="894" bodyend="899"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RadiusMeasurementObject_1aec780ac8d06d50a6a324aae9b13d7156" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -1220,7 +1220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="906" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="906" bodyend="911"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="905" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="905" bodyend="910"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RadiusMeasurementObject_1ae5b62f62414e8a7533c5aff5d9358ac6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1235,7 +1235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="918" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="918" bodyend="923"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="917" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="917" bodyend="922"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1494,7 +1494,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="16" bodyend="924"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusMeasurementObject.cs" bodystart="16" bodyend="923"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1a933814531a83e83e8f77ec7055ab6dfa" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>className</name></member>
       <member refid="classMR_1_1Const__RadiusMeasurementObject_1a9c367224057c0fed046ba1de0f41fe59" prot="public" virt="non-virtual"><scope>MR::Const_RadiusMeasurementObject</scope><name>classNameInPlural</name></member>

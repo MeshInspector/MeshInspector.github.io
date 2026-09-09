@@ -1169,13 +1169,13 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__PointMeasurementObject_1a6d129823b5f61a7abce8e8cc16c66640" kindref="member">MR.PointMeasurementObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__PointMeasurementObject_1a6d129823b5f61a7abce8e8cc16c66640" kindref="member">MR.PointMeasurementObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="868" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="868" bodyend="873"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="867" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="867" bodyend="872"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointMeasurementObject_1aa4567b3ab68dd9f8a33e24940b42958f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1190,7 +1190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="879" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="879" bodyend="884"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="878" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="878" bodyend="883"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointMeasurementObject_1a903edbb4ec37e9fd56fdf5673e536390" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1205,7 +1205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="891" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="891" bodyend="896"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="890" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="890" bodyend="895"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointMeasurementObject_1a8e639710ba65b1c72615c2057fe48d03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1220,7 +1220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="903" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="903" bodyend="908"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="902" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="902" bodyend="907"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointMeasurementObject_1aa4835b2160f096f3e6451cd51c665981" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1239,7 +1239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="914" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="914" bodyend="919"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="913" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="913" bodyend="918"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointMeasurementObject_1a1b1855b376c3e3fcf4e4ff0a82049985" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -1254,7 +1254,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="925" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="925" bodyend="930"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="924" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="924" bodyend="929"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointMeasurementObject_1ae7b10d503fc456d2da7a7e215a376aa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1269,7 +1269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="937" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="937" bodyend="942"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="936" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="936" bodyend="941"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1564,7 +1564,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="21" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="22" bodyend="943"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="21" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="22" bodyend="942"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a53ee8ab3715a493adaac7539b8a04c7b" prot="public" virt="non-virtual"><scope>MR::Const_PointMeasurementObject</scope><name>className</name></member>
       <member refid="classMR_1_1Const__PointMeasurementObject_1a7b91f77a2dfa3b7b58ebb931ba9168e8" prot="public" virt="non-virtual"><scope>MR::Const_PointMeasurementObject</scope><name>classNameInPlural</name></member>

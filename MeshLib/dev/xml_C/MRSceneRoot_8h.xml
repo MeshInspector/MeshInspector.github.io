@@ -1631,11 +1631,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput>MR::SceneRootObject::getWorldTreeBox</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_1</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+<para>returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput>MR::SceneRootObject::getWorldTreeBox</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_1</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="424" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="424" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="423" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="423" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a405120c708e04776d8845a83586a07a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -1653,7 +1653,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="429" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="429" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="428" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="428" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1ae2cc83db483373b9a5d53d617a3b5d0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -1671,7 +1671,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="435" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="435" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="434" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="434" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1adf1b3d5078033ab6589f370a2c04be66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref> *</type>
@@ -1689,7 +1689,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="442" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="442" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="441" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="441" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a34823ed8d0e6c95f22333791618afc80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -1715,7 +1715,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="451" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="451" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="450" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="450" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a6125b6c302efd67ce2ea6a5792a673b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -1741,7 +1741,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="459" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="459" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="458" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="458" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a983cef8b2bf16ca4685a0ddaf25337ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
@@ -1759,7 +1759,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="464" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="464" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="463" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="463" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a7b87ebb0259c1a5616ac20415ee8fb82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -1781,7 +1781,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="470" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="470" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="469" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="469" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1ab30ff85073194d4c62cef42359dc3f39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
@@ -1799,7 +1799,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="475" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="475" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="474" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="474" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a9c22e813a3921dd714bffbb732959fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *</type>
@@ -1817,7 +1817,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="482" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="482" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="481" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="481" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a1dce2ea8a00445cedebe98f820587ce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref> *</type>
@@ -1839,7 +1839,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="488" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="488" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="487" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="487" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a5fa0ff63164a8f0d93029b0a100461a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref> *</type>
@@ -1861,7 +1861,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="493" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="493" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="492" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="492" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1ac04b888fb856ca0bc44e3b0f4062fcc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref> *</type>
@@ -1883,7 +1883,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="497" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="497" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="496" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="496" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1aa0f28a0a55cab3329aa279eef8bf2e70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref> *</type>
@@ -1905,7 +1905,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="501" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="501" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="500" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="500" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1ac8707be247c8df0e3534d0c4f13966aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1923,7 +1923,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="504" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="504" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="503" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="503" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a7a8d4a2bd70193946b0c24b5fbdac14a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1941,7 +1941,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="507" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="507" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="506" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="506" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1ae960e4bb9ef13a9032b94bec852deaf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref> *</type>
@@ -1967,7 +1967,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="514" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="514" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="513" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="513" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a07564c84f4cd0c720974245b6bccdcc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref> *</type>
@@ -1984,7 +1984,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="518" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="518" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="517" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="517" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a6c98cbc77e98e5ff580c58a3247a092b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref> *</type>
@@ -2001,7 +2001,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="522" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="522" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="521" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="521" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1ac8446385e6100873728c6083addfd7fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -2023,7 +2023,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="526" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="526" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="525" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="525" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a74b89e4f3d6105d41d525186f083dc12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref> *</type>
@@ -2040,7 +2040,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="530" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="530" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="529" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="529" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a2068d4cd7c9b2641a7b945eee92b2a9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSceneRoot_8h_1a331e2aeba64435c9d33bfce1ba5741de" kindref="member">MR_std_shared_ptr_const_MR_SceneRootObject</ref> *</type>
@@ -2057,7 +2057,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="534" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="534" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="533" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="533" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneRoot_8h_1a6c51be6c38804779ff77bca30c3316c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
@@ -2074,7 +2074,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="538" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="538" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" line="537" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h" declline="537" declcolumn="38"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2252,59 +2252,59 @@
 <codeline lineno="412"><highlight class="normal"></highlight></codeline>
 <codeline lineno="417" refid="MRSceneRoot_8h_1a5d5e358ae51f7c5e677c4b02b9b77d4b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRSceneRoot_8h_1a5d5e358ae51f7c5e677c4b02b9b77d4b" kindref="member">MR_SceneRootObject_getWorldBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ViewportId" kindref="compound">MR_ViewportId</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="418"><highlight class="normal"></highlight></codeline>
-<codeline lineno="424" refid="MRSceneRoot_8h_1a6a70995e6dec150a334d957894f2acfe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRSceneRoot_8h_1a6a70995e6dec150a334d957894f2acfe" kindref="member">MR_SceneRootObject_getWorldTreeBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ViewportId" kindref="compound">MR_ViewportId</ref><sp/>*_1);</highlight></codeline>
-<codeline lineno="425"><highlight class="normal"></highlight></codeline>
-<codeline lineno="429" refid="MRSceneRoot_8h_1a405120c708e04776d8845a83586a07a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a405120c708e04776d8845a83586a07a7" kindref="member">MR_SceneRootObject_hasVisualRepresentation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="430"><highlight class="normal"></highlight></codeline>
-<codeline lineno="435" refid="MRSceneRoot_8h_1ae2cc83db483373b9a5d53d617a3b5d0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ae2cc83db483373b9a5d53d617a3b5d0c" kindref="member">MR_SceneRootObject_hasModel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="436"><highlight class="normal"></highlight></codeline>
-<codeline lineno="442" refid="MRSceneRoot_8h_1adf1b3d5078033ab6589f370a2c04be66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*<ref refid="MRSceneRoot_8h_1adf1b3d5078033ab6589f370a2c04be66" kindref="member">MR_SceneRootObject_tags</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="443"><highlight class="normal"></highlight></codeline>
-<codeline lineno="451" refid="MRSceneRoot_8h_1a34823ed8d0e6c95f22333791618afc80" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a34823ed8d0e6c95f22333791618afc80" kindref="member">MR_SceneRootObject_addTag</ref>(<ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tag,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tag_end);</highlight></codeline>
-<codeline lineno="452"><highlight class="normal"></highlight></codeline>
-<codeline lineno="459" refid="MRSceneRoot_8h_1a6125b6c302efd67ce2ea6a5792a673b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a6125b6c302efd67ce2ea6a5792a673b0" kindref="member">MR_SceneRootObject_removeTag</ref>(<ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tag,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tag_end);</highlight></codeline>
-<codeline lineno="460"><highlight class="normal"></highlight></codeline>
-<codeline lineno="464" refid="MRSceneRoot_8h_1a983cef8b2bf16ca4685a0ddaf25337ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a983cef8b2bf16ca4685a0ddaf25337ff" kindref="member">MR_SceneRootObject_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="465"><highlight class="normal"></highlight></codeline>
-<codeline lineno="466"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>true<sp/>if<sp/>model<sp/>of<sp/>current<sp/>object<sp/>equals<sp/>to<sp/>model<sp/>(the<sp/>same)<sp/>of<sp/>other</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="470" refid="MRSceneRoot_8h_1a7b87ebb0259c1a5616ac20415ee8fb82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a7b87ebb0259c1a5616ac20415ee8fb82" kindref="member">MR_SceneRootObject_sameModels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
-<codeline lineno="471"><highlight class="normal"></highlight></codeline>
-<codeline lineno="472"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>hash<sp/>of<sp/>model<sp/>(or<sp/>hash<sp/>object<sp/>pointer<sp/>if<sp/>object<sp/>has<sp/>no<sp/>model)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="475" refid="MRSceneRoot_8h_1ab30ff85073194d4c62cef42359dc3f39" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ab30ff85073194d4c62cef42359dc3f39" kindref="member">MR_SceneRootObject_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="476"><highlight class="normal"></highlight></codeline>
-<codeline lineno="477"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="478"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="482" refid="MRSceneRoot_8h_1a9c22e813a3921dd714bffbb732959fab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*<ref refid="MRSceneRoot_8h_1a9c22e813a3921dd714bffbb732959fab" kindref="member">MR_SceneRootObject_getSharedPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="483"><highlight class="normal"></highlight></codeline>
-<codeline lineno="488" refid="MRSceneRoot_8h_1a1dce2ea8a00445cedebe98f820587ce2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref><sp/>*<ref refid="MRSceneRoot_8h_1a1dce2ea8a00445cedebe98f820587ce2" kindref="member">MR_createRootFormObject</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>obj_pass_by,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj);</highlight></codeline>
-<codeline lineno="489"><highlight class="normal"></highlight></codeline>
-<codeline lineno="493" refid="MRSceneRoot_8h_1a5fa0ff63164a8f0d93029b0a100461a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*<ref refid="MRSceneRoot_8h_1a5fa0ff63164a8f0d93029b0a100461a2" kindref="member">MR_SceneRoot_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="494"><highlight class="normal"></highlight></codeline>
-<codeline lineno="497" refid="MRSceneRoot_8h_1ac04b888fb856ca0bc44e3b0f4062fcc4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*<ref refid="MRSceneRoot_8h_1ac04b888fb856ca0bc44e3b0f4062fcc4" kindref="member">MR_SceneRoot_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="498"><highlight class="normal"></highlight></codeline>
-<codeline lineno="501" refid="MRSceneRoot_8h_1aa0f28a0a55cab3329aa279eef8bf2e70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*<ref refid="MRSceneRoot_8h_1aa0f28a0a55cab3329aa279eef8bf2e70" kindref="member">MR_SceneRoot_OffsetMutablePtr</ref>(<ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="502"><highlight class="normal"></highlight></codeline>
-<codeline lineno="504" refid="MRSceneRoot_8h_1ac8707be247c8df0e3534d0c4f13966aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ac8707be247c8df0e3534d0c4f13966aa" kindref="member">MR_SceneRoot_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="505"><highlight class="normal"></highlight></codeline>
-<codeline lineno="507" refid="MRSceneRoot_8h_1a7a8d4a2bd70193946b0c24b5fbdac14a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a7a8d4a2bd70193946b0c24b5fbdac14a" kindref="member">MR_SceneRoot_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="508"><highlight class="normal"></highlight></codeline>
-<codeline lineno="514" refid="MRSceneRoot_8h_1ae960e4bb9ef13a9032b94bec852deaf9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*<ref refid="MRSceneRoot_8h_1ae960e4bb9ef13a9032b94bec852deaf9" kindref="member">MR_SceneRoot_AssignFromAnother</ref>(<ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="515"><highlight class="normal"></highlight></codeline>
-<codeline lineno="518" refid="MRSceneRoot_8h_1a07564c84f4cd0c720974245b6bccdcc7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*<ref refid="MRSceneRoot_8h_1a07564c84f4cd0c720974245b6bccdcc7" kindref="member">MR_SceneRoot_get</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="519"><highlight class="normal"></highlight></codeline>
-<codeline lineno="522" refid="MRSceneRoot_8h_1a6c98cbc77e98e5ff580c58a3247a092b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref><sp/>*<ref refid="MRSceneRoot_8h_1a6c98cbc77e98e5ff580c58a3247a092b" kindref="member">MR_SceneRoot_getSharedPtr</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="523"><highlight class="normal"></highlight></codeline>
-<codeline lineno="526" refid="MRSceneRoot_8h_1ac8446385e6100873728c6083addfd7fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ac8446385e6100873728c6083addfd7fb" kindref="member">MR_SceneRoot_setScenePath</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*scenePath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*scenePath_end);</highlight></codeline>
-<codeline lineno="527"><highlight class="normal"></highlight></codeline>
-<codeline lineno="530" refid="MRSceneRoot_8h_1a74b89e4f3d6105d41d525186f083dc12" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*<ref refid="MRSceneRoot_8h_1a74b89e4f3d6105d41d525186f083dc12" kindref="member">MR_SceneRoot_constGet</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="531"><highlight class="normal"></highlight></codeline>
-<codeline lineno="534" refid="MRSceneRoot_8h_1a2068d4cd7c9b2641a7b945eee92b2a9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneRoot_8h_1a331e2aeba64435c9d33bfce1ba5741de" kindref="member">MR_std_shared_ptr_const_MR_SceneRootObject</ref><sp/>*<ref refid="MRSceneRoot_8h_1a2068d4cd7c9b2641a7b945eee92b2a9e" kindref="member">MR_SceneRoot_constGetSharedPtr</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="535"><highlight class="normal"></highlight></codeline>
-<codeline lineno="538" refid="MRSceneRoot_8h_1a6c51be6c38804779ff77bca30c3316c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSceneRoot_8h_1a6c51be6c38804779ff77bca30c3316c4" kindref="member">MR_SceneRoot_getScenePath</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="539"><highlight class="normal"></highlight></codeline>
-<codeline lineno="540"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="541"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="542"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="423" refid="MRSceneRoot_8h_1a6a70995e6dec150a334d957894f2acfe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRSceneRoot_8h_1a6a70995e6dec150a334d957894f2acfe" kindref="member">MR_SceneRootObject_getWorldTreeBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ViewportId" kindref="compound">MR_ViewportId</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"></highlight></codeline>
+<codeline lineno="428" refid="MRSceneRoot_8h_1a405120c708e04776d8845a83586a07a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a405120c708e04776d8845a83586a07a7" kindref="member">MR_SceneRootObject_hasVisualRepresentation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="429"><highlight class="normal"></highlight></codeline>
+<codeline lineno="434" refid="MRSceneRoot_8h_1ae2cc83db483373b9a5d53d617a3b5d0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ae2cc83db483373b9a5d53d617a3b5d0c" kindref="member">MR_SceneRootObject_hasModel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="435"><highlight class="normal"></highlight></codeline>
+<codeline lineno="441" refid="MRSceneRoot_8h_1adf1b3d5078033ab6589f370a2c04be66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1ac70a547e279521dbca88d6d95326ba2a" kindref="member">MR_std_set_std_string</ref><sp/>*<ref refid="MRSceneRoot_8h_1adf1b3d5078033ab6589f370a2c04be66" kindref="member">MR_SceneRootObject_tags</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"></highlight></codeline>
+<codeline lineno="450" refid="MRSceneRoot_8h_1a34823ed8d0e6c95f22333791618afc80" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a34823ed8d0e6c95f22333791618afc80" kindref="member">MR_SceneRootObject_addTag</ref>(<ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tag,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tag_end);</highlight></codeline>
+<codeline lineno="451"><highlight class="normal"></highlight></codeline>
+<codeline lineno="458" refid="MRSceneRoot_8h_1a6125b6c302efd67ce2ea6a5792a673b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a6125b6c302efd67ce2ea6a5792a673b0" kindref="member">MR_SceneRootObject_removeTag</ref>(<ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tag,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tag_end);</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"></highlight></codeline>
+<codeline lineno="463" refid="MRSceneRoot_8h_1a983cef8b2bf16ca4685a0ddaf25337ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a983cef8b2bf16ca4685a0ddaf25337ff" kindref="member">MR_SceneRootObject_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="464"><highlight class="normal"></highlight></codeline>
+<codeline lineno="465"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>true<sp/>if<sp/>model<sp/>of<sp/>current<sp/>object<sp/>equals<sp/>to<sp/>model<sp/>(the<sp/>same)<sp/>of<sp/>other</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="469" refid="MRSceneRoot_8h_1a7b87ebb0259c1a5616ac20415ee8fb82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a7b87ebb0259c1a5616ac20415ee8fb82" kindref="member">MR_SceneRootObject_sameModels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="470"><highlight class="normal"></highlight></codeline>
+<codeline lineno="471"><highlight class="normal"></highlight><highlight class="comment">//<sp/>return<sp/>hash<sp/>of<sp/>model<sp/>(or<sp/>hash<sp/>object<sp/>pointer<sp/>if<sp/>object<sp/>has<sp/>no<sp/>model)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="474" refid="MRSceneRoot_8h_1ab30ff85073194d4c62cef42359dc3f39" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ab30ff85073194d4c62cef42359dc3f39" kindref="member">MR_SceneRootObject_getModelHash</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="475"><highlight class="normal"></highlight></codeline>
+<codeline lineno="476"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>this<sp/>Object<sp/>as<sp/>shared_ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="477"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="481" refid="MRSceneRoot_8h_1a9c22e813a3921dd714bffbb732959fab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*<ref refid="MRSceneRoot_8h_1a9c22e813a3921dd714bffbb732959fab" kindref="member">MR_SceneRootObject_getSharedPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="482"><highlight class="normal"></highlight></codeline>
+<codeline lineno="487" refid="MRSceneRoot_8h_1a1dce2ea8a00445cedebe98f820587ce2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref><sp/>*<ref refid="MRSceneRoot_8h_1a1dce2ea8a00445cedebe98f820587ce2" kindref="member">MR_createRootFormObject</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>obj_pass_by,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"></highlight></codeline>
+<codeline lineno="492" refid="MRSceneRoot_8h_1a5fa0ff63164a8f0d93029b0a100461a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*<ref refid="MRSceneRoot_8h_1a5fa0ff63164a8f0d93029b0a100461a2" kindref="member">MR_SceneRoot_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="493"><highlight class="normal"></highlight></codeline>
+<codeline lineno="496" refid="MRSceneRoot_8h_1ac04b888fb856ca0bc44e3b0f4062fcc4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*<ref refid="MRSceneRoot_8h_1ac04b888fb856ca0bc44e3b0f4062fcc4" kindref="member">MR_SceneRoot_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"></highlight></codeline>
+<codeline lineno="500" refid="MRSceneRoot_8h_1aa0f28a0a55cab3329aa279eef8bf2e70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*<ref refid="MRSceneRoot_8h_1aa0f28a0a55cab3329aa279eef8bf2e70" kindref="member">MR_SceneRoot_OffsetMutablePtr</ref>(<ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"></highlight></codeline>
+<codeline lineno="503" refid="MRSceneRoot_8h_1ac8707be247c8df0e3534d0c4f13966aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ac8707be247c8df0e3534d0c4f13966aa" kindref="member">MR_SceneRoot_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="504"><highlight class="normal"></highlight></codeline>
+<codeline lineno="506" refid="MRSceneRoot_8h_1a7a8d4a2bd70193946b0c24b5fbdac14a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a7a8d4a2bd70193946b0c24b5fbdac14a" kindref="member">MR_SceneRoot_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="507"><highlight class="normal"></highlight></codeline>
+<codeline lineno="513" refid="MRSceneRoot_8h_1ae960e4bb9ef13a9032b94bec852deaf9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*<ref refid="MRSceneRoot_8h_1ae960e4bb9ef13a9032b94bec852deaf9" kindref="member">MR_SceneRoot_AssignFromAnother</ref>(<ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRSceneRoot_8h_1ab54b7348c2e5fb01019351f23b672f22" kindref="member">MR_SceneRoot</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="514"><highlight class="normal"></highlight></codeline>
+<codeline lineno="517" refid="MRSceneRoot_8h_1a07564c84f4cd0c720974245b6bccdcc7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*<ref refid="MRSceneRoot_8h_1a07564c84f4cd0c720974245b6bccdcc7" kindref="member">MR_SceneRoot_get</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="518"><highlight class="normal"></highlight></codeline>
+<codeline lineno="521" refid="MRSceneRoot_8h_1a6c98cbc77e98e5ff580c58a3247a092b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneLoad_8h_1a455fb1e45d1e455a5436d36279622bb2" kindref="member">MR_std_shared_ptr_MR_SceneRootObject</ref><sp/>*<ref refid="MRSceneRoot_8h_1a6c98cbc77e98e5ff580c58a3247a092b" kindref="member">MR_SceneRoot_getSharedPtr</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="522"><highlight class="normal"></highlight></codeline>
+<codeline lineno="525" refid="MRSceneRoot_8h_1ac8446385e6100873728c6083addfd7fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1ac8446385e6100873728c6083addfd7fb" kindref="member">MR_SceneRoot_setScenePath</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*scenePath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*scenePath_end);</highlight></codeline>
+<codeline lineno="526"><highlight class="normal"></highlight></codeline>
+<codeline lineno="529" refid="MRSceneRoot_8h_1a74b89e4f3d6105d41d525186f083dc12" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneRoot_8h_1a885f919fff839030c6725c849e0db23a" kindref="member">MR_SceneRootObject</ref><sp/>*<ref refid="MRSceneRoot_8h_1a74b89e4f3d6105d41d525186f083dc12" kindref="member">MR_SceneRoot_constGet</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="530"><highlight class="normal"></highlight></codeline>
+<codeline lineno="533" refid="MRSceneRoot_8h_1a2068d4cd7c9b2641a7b945eee92b2a9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneRoot_8h_1a331e2aeba64435c9d33bfce1ba5741de" kindref="member">MR_std_shared_ptr_const_MR_SceneRootObject</ref><sp/>*<ref refid="MRSceneRoot_8h_1a2068d4cd7c9b2641a7b945eee92b2a9e" kindref="member">MR_SceneRoot_constGetSharedPtr</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="534"><highlight class="normal"></highlight></codeline>
+<codeline lineno="537" refid="MRSceneRoot_8h_1a6c51be6c38804779ff77bca30c3316c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSceneRoot_8h_1a6c51be6c38804779ff77bca30c3316c4" kindref="member">MR_SceneRoot_getScenePath</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="538"><highlight class="normal"></highlight></codeline>
+<codeline lineno="539"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="540"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="541"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneRoot.h"/>
   </compounddef>

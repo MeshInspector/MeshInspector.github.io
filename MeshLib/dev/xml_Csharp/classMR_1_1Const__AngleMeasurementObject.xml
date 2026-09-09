@@ -1102,13 +1102,13 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a96f240137535e3e49cd9cc9961da0034" kindref="member">MR.AngleMeasurementObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a96f240137535e3e49cd9cc9961da0034" kindref="member">MR.AngleMeasurementObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="818" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="818" bodyend="823"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="817" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="817" bodyend="822"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a353c2eedc7abd9247c5751710083a166" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1123,7 +1123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="829" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="829" bodyend="834"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="828" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="828" bodyend="833"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a71f3289fa04fe607056642a17985a1c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1138,7 +1138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="841" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="841" bodyend="846"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="840" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="840" bodyend="845"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ae0ae1c1555e7be7c4103adcea8bd8366" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1153,7 +1153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="853" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="853" bodyend="858"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="852" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="852" bodyend="857"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1af10375f344c2a0829f48643158152474" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1172,7 +1172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="864" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="864" bodyend="869"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="863" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="863" bodyend="868"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ac690a161753d35dd3ffc867160a6b3f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -1187,7 +1187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="875" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="875" bodyend="880"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="874" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="874" bodyend="879"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1abc1200f2c4d85b28824c9e159003ac1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1202,7 +1202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="887" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="887" bodyend="892"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="886" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="886" bodyend="891"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1461,7 +1461,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="16" bodyend="893"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="16" bodyend="892"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__AngleMeasurementObject_1ac11b669a15f6be4fd7c44095fa1092ff" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>className</name></member>
       <member refid="classMR_1_1Const__AngleMeasurementObject_1a8c56f9d434d4f608da1c76ea64f8185c" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>classNameInPlural</name></member>

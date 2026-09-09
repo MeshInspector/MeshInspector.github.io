@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="59" column="5" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="59" bodyend="59"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="61" column="5" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="61" bodyend="61"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="96" column="16" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="96" bodyend="-1"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="98" column="16" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="98" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="61" column="5"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="63" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1af6e316b7b21f94033491018406e4e3a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="64" column="17"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="66" column="17"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a8f369cfaf8161eeacbd279d20b92aadb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="67" column="17"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="69" column="17"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a3c9521a76c9f0ff1327150e75980e48f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeBitSet</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="70" column="17"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="72" column="17"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a4025520e93584d2b0b95e661d513df2b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="73" column="27"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="75" column="27"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a49d9476b91391ce052bbd2b26db33be5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="76" column="17"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="78" column="17"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1aaf90aec00a5988f4230c6f10a48a275f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="79" column="17"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="81" column="17"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a2afc6594c031077012caba95a2ba2672" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FaceMap</type>
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="82" column="15"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="84" column="15"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1BooleanResultMapper_1a90a7bf08cca602701e835565e3d516e7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="structMR_1_1BooleanResultMapper_1_1Maps" kindref="compound">Maps</ref> &amp;</type>
@@ -246,7 +246,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="98" column="17" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="98" bodyend="98"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="100" column="17" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="100" bodyend="100"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -254,11 +254,11 @@
     </briefdescription>
     <detaileddescription>
 <para>Structure to easily map topology of <ref refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kindref="member">MR::boolean</ref> input meshes to result mesh</para>
-<para>This structure allows to map faces, vertices and edges of mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> input of <ref refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kindref="member">MR::boolean</ref> to result mesh topology primitives <simplesect kind="see"><para><ref refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kindref="member">MR::boolean</ref> </para>
+<para>This structure allows to map faces, vertices and edges of mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> input of <ref refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kindref="member">MR::boolean</ref> to result mesh topology primitives <programlisting filename="cpp-examples/MeshBoolean.dox.cpp"></programlisting> <programlisting filename="cpp-examples/MeshBoolean.dox.cpp"></programlisting> <simplesect kind="see"><para><ref refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kindref="member">MR::boolean</ref> </para>
 </simplesect>
 </para>
     </detaileddescription>
-    <location file="MRMesh/MRBooleanOperation.h" line="56" column="1" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="57" bodyend="99"/>
+    <location file="MRMesh/MRBooleanOperation.h" line="58" column="1" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="59" bodyend="101"/>
     <listofallmembers>
       <member refid="structMR_1_1BooleanResultMapper_1a00bac3eecd35b44f05f28f7cb1f3c0d9" prot="public" virt="non-virtual"><scope>MR::BooleanResultMapper</scope><name>BooleanResultMapper</name></member>
       <member refid="structMR_1_1BooleanResultMapper_1aaf90aec00a5988f4230c6f10a48a275f" prot="public" virt="non-virtual"><scope>MR::BooleanResultMapper</scope><name>filteredOldFaceBitSet</name></member>

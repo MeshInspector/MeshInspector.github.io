@@ -1341,13 +1341,13 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__CircleObject_1ab6b3a437a66b44edeed59fdf99115255" kindref="member">MR.CircleObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__CircleObject_1ab6b3a437a66b44edeed59fdf99115255" kindref="member">MR.CircleObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="988" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="988" bodyend="993"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="987" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="987" bodyend="992"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CircleObject_1a7358d1fd496e92cb707ec713b6e32701" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1362,7 +1362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="999" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="999" bodyend="1004"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="998" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="998" bodyend="1003"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CircleObject_1a9e8f26a0942125c75bfb27b1028b7abd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1377,7 +1377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1011" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1011" bodyend="1016"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1010" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1010" bodyend="1015"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CircleObject_1a657ffb1a7098f27eccff2bb5a0d62a9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1392,7 +1392,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1023" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1023" bodyend="1028"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1022" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1022" bodyend="1027"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CircleObject_1a0da25516b07a4892abfda91282f1f442" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1411,7 +1411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1034" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1034" bodyend="1039"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1033" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1033" bodyend="1038"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CircleObject_1a1d354a8996a478f6b219cbd4a89b56bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -1426,7 +1426,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1045" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1045" bodyend="1050"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1044" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1044" bodyend="1049"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CircleObject_1a27c44ba4ead0acf03abd5be9c297ee54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1441,7 +1441,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1057" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1057" bodyend="1062"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1056" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1056" bodyend="1061"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1755,7 +1755,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="17" bodyend="1063"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="17" bodyend="1062"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__CircleObject_1a3a2e28de6e7c14bdf8b6f0f954f188a7" prot="public" virt="non-virtual"><scope>MR::Const_CircleObject</scope><name>className</name></member>
       <member refid="classMR_1_1Const__CircleObject_1a1cdf76dcf1b9f98bad8ddec62d2ecf52" prot="public" virt="non-virtual"><scope>MR::Const_CircleObject</scope><name>classNameInPlural</name></member>

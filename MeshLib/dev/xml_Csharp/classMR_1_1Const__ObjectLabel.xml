@@ -1255,13 +1255,13 @@
           <defval>default</defval>
         </param>
         <briefdescription>
-<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a74b04ba317847299fe7b1679c00af849" kindref="member">MR.ObjectLabel.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a74b04ba317847299fe7b1679c00af849" kindref="member">MR.ObjectLabel.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="918" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="918" bodyend="923"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="917" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="917" bodyend="922"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1abf6aa11b17c07fdb1831456dde09d629" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1276,7 +1276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="930" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="930" bodyend="935"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="929" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="929" bodyend="934"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a72f9b6eb8fca47b81547903804a6a413" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1291,7 +1291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="942" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="942" bodyend="947"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="941" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="941" bodyend="946"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1add8f1ccb9040b68d2c83605fbbc13560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1310,7 +1310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="953" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="953" bodyend="958"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="952" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="952" bodyend="957"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ac29cc74ed695af4c4462f06dcd9a9d79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -1325,7 +1325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="964" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="964" bodyend="969"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="963" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="963" bodyend="968"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1aa99ffe73d5e18286dded1d2a47768deb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1340,7 +1340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="976" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="976" bodyend="981"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="975" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="975" bodyend="980"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1564,7 +1564,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="24" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="25" bodyend="982"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="24" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="25" bodyend="981"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__ObjectLabel_1a210080674c3e13b3a39adda8c9ac3239" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>buildMeshFromText</name></member>
       <member refid="classMR_1_1Const__ObjectLabel_1abaccb6509ffaa3727e3c19d20acd5bc5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>className</name></member>
