@@ -1563,7 +1563,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() </para>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid meshPtr() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloudPtr() </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

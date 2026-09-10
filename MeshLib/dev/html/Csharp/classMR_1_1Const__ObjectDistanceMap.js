@@ -78,6 +78,7 @@ var classMR_1_1Const__ObjectDistanceMap =
     [ "isVisible", "classMR_1_1Const__ObjectDistanceMap.html#adc9857c84c30a707f6ae34d7a0018f12", null ],
     [ "mesh", "classMR_1_1Const__ObjectDistanceMap.html#a6f0d2cd9a284557bd8815cc7281683ef", null ],
     [ "meshPart", "classMR_1_1Const__ObjectDistanceMap.html#a28519a43de1e0f6a60f8a2716aebcd8c", null ],
+    [ "meshPtr", "classMR_1_1Const__ObjectDistanceMap.html#a4125455f32a344b699b38a3b8ba947e3", null ],
     [ "name", "classMR_1_1Const__ObjectDistanceMap.html#a4d8a3ee6e9492dfb70acb81711532249", null ],
     [ "numComponents", "classMR_1_1Const__ObjectDistanceMap.html#a2d776197b91947b5e06ce1ab1b8934cc", null ],
     [ "numCreaseEdges", "classMR_1_1Const__ObjectDistanceMap.html#a5f9dc8cd95f85c1ce50fc5c0c8ad7d13", null ],

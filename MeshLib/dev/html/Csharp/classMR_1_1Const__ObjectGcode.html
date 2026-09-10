@@ -201,8 +201,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a34d92f450a0c08651935dd399e4a04d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a34d92f450a0c08651935dd399e4a04d0" title="Generated from method MR.ObjectGcode.hasVisualRepresentation.">MR.ObjectGcode.hasVisualRepresentation</a></span>.  <br /></td></tr>
 <tr class="memitem:adbbccd8786383774f218ccb0706acd56" id="r_adbbccd8786383774f218ccb0706acd56"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbbccd8786383774f218ccb0706acd56">hasModel</a> ()</td></tr>
 <tr class="memdesc:adbbccd8786383774f218ccb0706acd56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#adbbccd8786383774f218ccb0706acd56" title="Generated from method MR.ObjectGcode.hasModel.">MR.ObjectGcode.hasModel</a></span>.  <br /></td></tr>
+<tr class="memitem:afff537cdeaf65eafa8b07ebf6aaa2ad3" id="r_afff537cdeaf65eafa8b07ebf6aaa2ad3"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__Polyline3.html">Const_Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afff537cdeaf65eafa8b07ebf6aaa2ad3">polylinePtr</a> ()</td></tr>
+<tr class="memdesc:afff537cdeaf65eafa8b07ebf6aaa2ad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the polyline of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#afff537cdeaf65eafa8b07ebf6aaa2ad3" title="returns the polyline of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectGcode.polylinePtr</a></span>.  <br /></td></tr>
 <tr class="memitem:afaffd18b49cb4e8129f6b30a6bd46e76" id="r_afaffd18b49cb4e8129f6b30a6bd46e76"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_SharedPtr_ConstMRPolyline3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaffd18b49cb4e8129f6b30a6bd46e76">polyline</a> ()</td></tr>
-<tr class="memdesc:afaffd18b49cb4e8129f6b30a6bd46e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#afaffd18b49cb4e8129f6b30a6bd46e76" title="Generated from method MR.ObjectGcode.polyline.">MR.ObjectGcode.polyline</a></span>.  <br /></td></tr>
 <tr class="memitem:a7d981619b3a18d7b1c0f7333acabd442" id="r_a7d981619b3a18d7b1c0f7333acabd442"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__Vector4__UnsignedChar.html">MR.Const_Vector4_UnsignedChar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d981619b3a18d7b1c0f7333acabd442">getDashPattern</a> (MR._InOpt_ViewportId vpId=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</td></tr>
 <tr class="memdesc:a7d981619b3a18d7b1c0f7333acabd442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a7d981619b3a18d7b1c0f7333acabd442" title="Generated from method MR.ObjectGcode.getDashPattern. Parameter vpId defaults to {}...">MR.ObjectGcode.getDashPattern</a></span>. Parameter <span class="tt">vpId</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a68fd44799495649691fbc3e7e927daa3" id="r_a68fd44799495649691fbc3e7e927daa3"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68fd44799495649691fbc3e7e927daa3">getLineWidth</a> ()</td></tr>
@@ -2115,8 +2116,34 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#afff537cdeaf65eafa8b07ebf6aaa2ad3" title="returns the polyline of this object, or nullptr if it is not set Generated from method MR....">polylinePtr()</a> instead Generated from method <span class="tt"><a class="el" href="#afaffd18b49cb4e8129f6b30a6bd46e76">MR.ObjectGcode.polyline</a></span>. </dd></dl>
 
-<p>Generated from method <span class="tt"><a class="el" href="#afaffd18b49cb4e8129f6b30a6bd46e76" title="Generated from method MR.ObjectGcode.polyline.">MR.ObjectGcode.polyline</a></span>. </p>
+</div>
+</div>
+<a id="afff537cdeaf65eafa8b07ebf6aaa2ad3" name="afff537cdeaf65eafa8b07ebf6aaa2ad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afff537cdeaf65eafa8b07ebf6aaa2ad3">&#9670;&#160;</a></span>polylinePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.? <a class="el" href="classMR_1_1Const__Polyline3.html">Const_Polyline3</a> MR.Const_ObjectGcode.polylinePtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the polyline of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#afff537cdeaf65eafa8b07ebf6aaa2ad3" title="returns the polyline of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectGcode.polylinePtr</a></span>. </p>
 
 </div>
 </div>

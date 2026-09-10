@@ -14454,6 +14454,7 @@
     <member refid="classMR_1_1Const__ObjectDistanceMap_1ad5aac1a9d0483fafa0a53e47ccaff26b" kind="function"><name>getToWorldParameters</name></member>
     <member refid="classMR_1_1Const__ObjectDistanceMap_1a4c035556d265441859ddeaff40969843" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__ObjectDistanceMap_1a2ff9a3ed3c068497e2e69ad4470092c3" kind="function"><name>hasVisualRepresentation</name></member>
+    <member refid="classMR_1_1Const__ObjectDistanceMap_1a4125455f32a344b699b38a3b8ba947e3" kind="function"><name>meshPtr</name></member>
     <member refid="classMR_1_1Const__ObjectDistanceMap_1a6f0d2cd9a284557bd8815cc7281683ef" kind="function"><name>mesh</name></member>
     <member refid="classMR_1_1Const__ObjectDistanceMap_1a28519a43de1e0f6a60f8a2716aebcd8c" kind="function"><name>meshPart</name></member>
     <member refid="classMR_1_1Const__ObjectDistanceMap_1a44eab9ef5ce2d7d20db32c6afd89b2fa" kind="function"><name>getSelectedFaces</name></member>
@@ -14584,6 +14585,7 @@
     <member refid="classMR_1_1Const__ObjectGcode_1aa1fcc6bdc04f8356a1997f9adf65283a" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__ObjectGcode_1a34d92f450a0c08651935dd399e4a04d0" kind="function"><name>hasVisualRepresentation</name></member>
     <member refid="classMR_1_1Const__ObjectGcode_1adbbccd8786383774f218ccb0706acd56" kind="function"><name>hasModel</name></member>
+    <member refid="classMR_1_1Const__ObjectGcode_1afff537cdeaf65eafa8b07ebf6aaa2ad3" kind="function"><name>polylinePtr</name></member>
     <member refid="classMR_1_1Const__ObjectGcode_1afaffd18b49cb4e8129f6b30a6bd46e76" kind="function"><name>polyline</name></member>
     <member refid="classMR_1_1Const__ObjectGcode_1a7d981619b3a18d7b1c0f7333acabd442" kind="function"><name>getDashPattern</name></member>
     <member refid="classMR_1_1Const__ObjectGcode_1a68fd44799495649691fbc3e7e927daa3" kind="function"><name>getLineWidth</name></member>
@@ -14759,6 +14761,7 @@
     <member refid="classMR_1_1Const__ObjectLines_1af717b434eeeb84e36dcacc07e4704f2a" kind="function"><name>getInfoLines</name></member>
     <member refid="classMR_1_1Const__ObjectLines_1a813ea85986db3bdd2972334ab1746803" kind="function"><name>hasVisualRepresentation</name></member>
     <member refid="classMR_1_1Const__ObjectLines_1a925dd88d7d93f4f97e1a5be648fb2cb3" kind="function"><name>hasModel</name></member>
+    <member refid="classMR_1_1Const__ObjectLines_1aa1e7482187f81ef95e8755a5aaec18eb" kind="function"><name>polylinePtr</name></member>
     <member refid="classMR_1_1Const__ObjectLines_1ae60a6530e59af1986005f699d0256149" kind="function"><name>polyline</name></member>
     <member refid="classMR_1_1Const__ObjectLines_1a1e3cbd2e18ced3d6c59107be8cf6546f" kind="function"><name>getDashPattern</name></member>
     <member refid="classMR_1_1Const__ObjectLines_1ac3f7236d1d6cb8e8d2e8a3057f7b5408" kind="function"><name>getLineWidth</name></member>
@@ -14842,6 +14845,7 @@
     <member refid="classMR_1_1Const__ObjectLinesHolder_1aa06f439db8d984c76841332218d4e38c" kind="function"><name>hasModel</name></member>
     <member refid="classMR_1_1Const__ObjectLinesHolder_1a0850580361dbdcf7885a1e4bfb1ffd4b" kind="function"><name>clone</name></member>
     <member refid="classMR_1_1Const__ObjectLinesHolder_1a9e6edb5fb746238f67886f4ffd161b73" kind="function"><name>shallowClone</name></member>
+    <member refid="classMR_1_1Const__ObjectLinesHolder_1a694643e2cc94b9d4b46b3dd7b3bd4091" kind="function"><name>polylinePtr</name></member>
     <member refid="classMR_1_1Const__ObjectLinesHolder_1a836c722a3aacd2a7ae141f4a53c4d503" kind="function"><name>polyline</name></member>
     <member refid="classMR_1_1Const__ObjectLinesHolder_1a8dc5e4df443ad7af24a4f058edf7944b" kind="function"><name>getDashPattern</name></member>
     <member refid="classMR_1_1Const__ObjectLinesHolder_1a25d61db60a0a4d27ee5b0334cd8094f8" kind="function"><name>getLineWidth</name></member>
@@ -14930,6 +14934,7 @@
     <member refid="classMR_1_1Const__ObjectMesh_1a25385b3fb2de1976ff4eeae69eaaf71d" kind="function"><name>worldRayIntersection</name></member>
     <member refid="classMR_1_1Const__ObjectMesh_1af0770e1051783085cd4161af2a2d70d4" kind="function"><name>hasVisualRepresentation</name></member>
     <member refid="classMR_1_1Const__ObjectMesh_1a3c24be5da2d68db53a337cfb21a9b02e" kind="function"><name>hasModel</name></member>
+    <member refid="classMR_1_1Const__ObjectMesh_1a3908ad9b5adc9538ec34c5ac60c3330e" kind="function"><name>meshPtr</name></member>
     <member refid="classMR_1_1Const__ObjectMesh_1a5452f0b394beb7f8d2bc5eaf628a2a88" kind="function"><name>mesh</name></member>
     <member refid="classMR_1_1Const__ObjectMesh_1a41b157b23ab5177740f8720bb858cca2" kind="function"><name>meshPart</name></member>
     <member refid="classMR_1_1Const__ObjectMesh_1a35d684347eb6525a9ccf3206300f9ad7" kind="function"><name>getSelectedFaces</name></member>
@@ -15064,6 +15069,7 @@
     <member refid="classMR_1_1Const__ObjectMeshHolder_1a46342cb2481a19a310e931b3a7ae14a3" kind="function"><name>typeName</name></member>
     <member refid="classMR_1_1Const__ObjectMeshHolder_1ad01b9b9dbbc69bf9a9d20d0baf0cf8d5" kind="function"><name>hasVisualRepresentation</name></member>
     <member refid="classMR_1_1Const__ObjectMeshHolder_1aed268569cf359fd4653851ffea563556" kind="function"><name>hasModel</name></member>
+    <member refid="classMR_1_1Const__ObjectMeshHolder_1a598d1cd411c39ce9b1ea92903ed3505d" kind="function"><name>meshPtr</name></member>
     <member refid="classMR_1_1Const__ObjectMeshHolder_1a27141ad37dfd94cce1beb8891291f7f8" kind="function"><name>mesh</name></member>
     <member refid="classMR_1_1Const__ObjectMeshHolder_1a0b5d09295b2d681257dc3b70d4404e17" kind="function"><name>meshPart</name></member>
     <member refid="classMR_1_1Const__ObjectMeshHolder_1ade418862b335dd00f35d9d01a05cd5d4" kind="function"><name>clone</name></member>
@@ -15202,6 +15208,7 @@
     <member refid="classMR_1_1Const__ObjectPoints_1a66c74f553cc6bed75fea4930a049885c" kind="function"><name>getInfoLines</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1aa2668c0c2ca62a4bca4d6086092fb0a0" kind="function"><name>hasVisualRepresentation</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1a19204f3ff0b07458f334eb36ef159918" kind="function"><name>hasModel</name></member>
+    <member refid="classMR_1_1Const__ObjectPoints_1aa3a29103ec8caf9635b76ae2bde9532b" kind="function"><name>pointCloudPtr</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1af1b459f391497fe3d041659f01944fa5" kind="function"><name>pointCloud</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1a064c62da2a901465215a32b27e32b958" kind="function"><name>pointCloudPart</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1a783f726d11907bae1e0629a1f1c2cb40" kind="function"><name>getSelectedPoints</name></member>
@@ -15292,6 +15299,7 @@
     <member refid="classMR_1_1Const__ObjectPointsHolder_1a59ccebe7711eb092dc705f831918f2c2" kind="function"><name>typeName</name></member>
     <member refid="classMR_1_1Const__ObjectPointsHolder_1a8d9d90c9eec44862ba869452753e6e64" kind="function"><name>hasVisualRepresentation</name></member>
     <member refid="classMR_1_1Const__ObjectPointsHolder_1afca4b356d11d3b415310323dbf7dcd8a" kind="function"><name>hasModel</name></member>
+    <member refid="classMR_1_1Const__ObjectPointsHolder_1ad07c8c0d28a99a4b92a82fb33ad71964" kind="function"><name>pointCloudPtr</name></member>
     <member refid="classMR_1_1Const__ObjectPointsHolder_1a8bcd2368844cc59769495dd55b30f7e1" kind="function"><name>pointCloud</name></member>
     <member refid="classMR_1_1Const__ObjectPointsHolder_1a93c8da2b2f5289d1dfcc164a14373a35" kind="function"><name>pointCloudPart</name></member>
     <member refid="classMR_1_1Const__ObjectPointsHolder_1aedac6e986cf99f15c0f11c876f972a25" kind="function"><name>clone</name></member>
@@ -15422,6 +15430,7 @@
     <member refid="classMR_1_1Const__ObjectVoxels_1ad31cff2f865afd1f2477b2fd94cc9832" kind="function"><name>activeVoxels</name></member>
     <member refid="classMR_1_1Const__ObjectVoxels_1a185747a5c9c62d5f7c3aba0eecd967e2" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__ObjectVoxels_1a5f77269d2d517010afd2d5681eeee79f" kind="function"><name>serializeFormat</name></member>
+    <member refid="classMR_1_1Const__ObjectVoxels_1ad84232e38f12ea6440b45d6ee2c15437" kind="function"><name>meshPtr</name></member>
     <member refid="classMR_1_1Const__ObjectVoxels_1a29dd0587df04558e1c880007aa59a7ab" kind="function"><name>mesh</name></member>
     <member refid="classMR_1_1Const__ObjectVoxels_1a1aac428df5f455f2933ac55299d297a3" kind="function"><name>meshPart</name></member>
     <member refid="classMR_1_1Const__ObjectVoxels_1aac9dcce1020fcadc31bc6f5449e6403b" kind="function"><name>getSelectedFaces</name></member>
@@ -35094,6 +35103,7 @@
     <member refid="classMR_1_1ObjectDistanceMap_1ab385ebf0586c91ee4c4d4892a4b29a1d" kind="function"><name>setDistanceMap</name></member>
     <member refid="classMR_1_1ObjectDistanceMap_1ad74ea2badb8ee58c5dafbcd463777d48" kind="function"><name>updateMesh</name></member>
     <member refid="classMR_1_1ObjectDistanceMap_1adc5a126cf94576a0810f56e7b8807431" kind="function"><name>resetFrontColor</name></member>
+    <member refid="classMR_1_1ObjectDistanceMap_1ac5396ff309a08965b76f8195082f7e88" kind="function"><name>varMeshPtr</name></member>
     <member refid="classMR_1_1ObjectDistanceMap_1a2a8971aeb875fd9db514041714fba593" kind="function"><name>setDirtyFlags</name></member>
     <member refid="classMR_1_1ObjectDistanceMap_1aff1e543e44c79ee7ebc2deb89a484081" kind="function"><name>setDirtyFlagsFast</name></member>
     <member refid="classMR_1_1ObjectDistanceMap_1a48141dbc02dd38710a472c81d873613a" kind="function"><name>invalidateMetricsCache</name></member>
@@ -35196,6 +35206,7 @@
     <member refid="classMR_1_1ObjectGcode_1a7ebd3ae10572eac5dcc7651373d7c564" kind="function"><name>select</name></member>
     <member refid="classMR_1_1ObjectGcode_1a2cf928c8edd3491ffc80fcf106acd816" kind="function"><name>setFrontColor</name></member>
     <member refid="classMR_1_1ObjectGcode_1ac3e7488aab46ce84455e8b652e2aa22b" kind="function"><name>applyScale</name></member>
+    <member refid="classMR_1_1ObjectGcode_1a0d5615a53fb078980c8f39523bc5cb01" kind="function"><name>varPolylinePtr</name></member>
     <member refid="classMR_1_1ObjectGcode_1a6dc43e573a3aa831c5dd174eac6fc6ca" kind="function"><name>setDashPattern</name></member>
     <member refid="classMR_1_1ObjectGcode_1abf48e737e36a8175cef39bc99a287990" kind="function"><name>setLineWidth</name></member>
     <member refid="classMR_1_1ObjectGcode_1aa69bce7a167420919894c9bbe818f3cd" kind="function"><name>setPointSize</name></member>
@@ -35325,6 +35336,7 @@
     <member refid="classMR_1_1ObjectLines_1a2455814e18898ccca34377271159060c" kind="function"><name>updatePolyline</name></member>
     <member refid="classMR_1_1ObjectLines_1a5c5d537cecef8816f0109fe3836d14aa" kind="function"><name>varPolyline</name></member>
     <member refid="classMR_1_1ObjectLines_1a2038628a03272f790e58e01d8c515560" kind="function"><name>applyScale</name></member>
+    <member refid="classMR_1_1ObjectLines_1a968afe625caa4d88f4288f5e9365d7ea" kind="function"><name>varPolylinePtr</name></member>
     <member refid="classMR_1_1ObjectLines_1ac1a687b7849564a3867050a8e5960076" kind="function"><name>setDirtyFlags</name></member>
     <member refid="classMR_1_1ObjectLines_1ab47d5a7845096b29fecbe9c728f5b428" kind="function"><name>setDashPattern</name></member>
     <member refid="classMR_1_1ObjectLines_1ad801f729b04ebcfcb84da1b10b206f39" kind="function"><name>setLineWidth</name></member>
@@ -35386,6 +35398,7 @@
     <member refid="classMR_1_1ObjectLinesHolder_1a781ff8a03817eb3a6a9ee4bdaa8b0863" kind="function"><name>ObjectLinesHolder</name></member>
     <member refid="classMR_1_1ObjectLinesHolder_1ada3b4d2e2d5930cefd12eaeb18d4a183" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1ObjectLinesHolder_1acafd009ea598f84d8c3707d061e17856" kind="function"><name>applyScale</name></member>
+    <member refid="classMR_1_1ObjectLinesHolder_1a27a2e1730f0101ed5b5c47ba99198662" kind="function"><name>varPolylinePtr</name></member>
     <member refid="classMR_1_1ObjectLinesHolder_1aca3b56e0ee3729ecd7359a7a486ff596" kind="function"><name>setDirtyFlags</name></member>
     <member refid="classMR_1_1ObjectLinesHolder_1ae2c1d0147771ff0b9f36cdefabaeb635" kind="function"><name>setDashPattern</name></member>
     <member refid="classMR_1_1ObjectLinesHolder_1ae26b5166b3e2840f1195276ae65c8787" kind="function"><name>setLineWidth</name></member>
@@ -35452,6 +35465,7 @@
     <member refid="classMR_1_1ObjectMesh_1a9e0328d7678bde5eb4adf71db40d9d1a" kind="function"><name>setMesh</name></member>
     <member refid="classMR_1_1ObjectMesh_1a32b66846bc61e35bdc2068a76811507d" kind="function"><name>updateMesh</name></member>
     <member refid="classMR_1_1ObjectMesh_1a2056fa80e298b8d348c9299cae84eb80" kind="function"><name>applyScale</name></member>
+    <member refid="classMR_1_1ObjectMesh_1abdf6fc22a640495f9b81260cb17f6eb0" kind="function"><name>varMeshPtr</name></member>
     <member refid="classMR_1_1ObjectMesh_1afa48c806661bccfb1c88c49bdce893db" kind="function"><name>setDirtyFlags</name></member>
     <member refid="classMR_1_1ObjectMesh_1a14cc6ced7262e1e439eb0bc034f41a81" kind="function"><name>setDirtyFlagsFast</name></member>
     <member refid="classMR_1_1ObjectMesh_1a6e2cdddcfafe145e21c2f41316084044" kind="function"><name>invalidateMetricsCache</name></member>
@@ -35560,6 +35574,7 @@
     <member refid="classMR_1_1ObjectMeshHolder_1acc3f910a7c7374e5b17352a18277b1bc" kind="function"><name>ObjectMeshHolder</name></member>
     <member refid="classMR_1_1ObjectMeshHolder_1a6480911d426956e4ca0a30837ca5a79f" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1ObjectMeshHolder_1aa7df0afc461871049abd8e1e8e8b7d8e" kind="function"><name>applyScale</name></member>
+    <member refid="classMR_1_1ObjectMeshHolder_1a1c32cfc2800c3000bf64e200708ba94b" kind="function"><name>varMeshPtr</name></member>
     <member refid="classMR_1_1ObjectMeshHolder_1ae068236eae48403a3c2433889e23b767" kind="function"><name>setDirtyFlags</name></member>
     <member refid="classMR_1_1ObjectMeshHolder_1a669d79f8b69c549de9eee821ae6767e4" kind="function"><name>setDirtyFlagsFast</name></member>
     <member refid="classMR_1_1ObjectMeshHolder_1a04cf2719145f33c3393484dbfeb39671" kind="function"><name>invalidateMetricsCache</name></member>
@@ -35666,6 +35681,7 @@
     <member refid="classMR_1_1ObjectPoints_1af9c27d9accbeda280597034655fb66fe" kind="function"><name>setPointCloud</name></member>
     <member refid="classMR_1_1ObjectPoints_1ad3ebe0f2a207354d481eb8f7e22bb478" kind="function"><name>swapPointCloud</name></member>
     <member refid="classMR_1_1ObjectPoints_1ac86ac0249ac592420f49220ee9b211c0" kind="function"><name>applyScale</name></member>
+    <member refid="classMR_1_1ObjectPoints_1af023276ef416b1db7122be0dfadbf3cb" kind="function"><name>varPointCloudPtr</name></member>
     <member refid="classMR_1_1ObjectPoints_1a57921c620f2fb8b51d5560f32e7b0036" kind="function"><name>setDirtyFlags</name></member>
     <member refid="classMR_1_1ObjectPoints_1a8f04f2ab67d36810a0e49c546dbd9a1d" kind="function"><name>selectPoints</name></member>
     <member refid="classMR_1_1ObjectPoints_1a09a7bd540e183df9258e8961d288ee59" kind="function"><name>updateSelectedPoints</name></member>
@@ -35729,6 +35745,7 @@
     <member refid="classMR_1_1ObjectPointsHolder_1ae046ab67aa359f65a36a705cd20d18de" kind="function"><name>ObjectPointsHolder</name></member>
     <member refid="classMR_1_1ObjectPointsHolder_1ac38b2d99f99d4a28a0b456374bfe55bd" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1ObjectPointsHolder_1a020549937de7904cbdba95b63fb17a11" kind="function"><name>applyScale</name></member>
+    <member refid="classMR_1_1ObjectPointsHolder_1a7e605b56e8eec9563ee05d399c91a95f" kind="function"><name>varPointCloudPtr</name></member>
     <member refid="classMR_1_1ObjectPointsHolder_1ac73cc7e35cb3dcf72957acb17cd8ded5" kind="function"><name>setDirtyFlags</name></member>
     <member refid="classMR_1_1ObjectPointsHolder_1a542eaa1195f815546f8e0afe0b79d48c" kind="function"><name>selectPoints</name></member>
     <member refid="classMR_1_1ObjectPointsHolder_1a1a0eb7b01c367644a0d157eb93681892" kind="function"><name>updateSelectedPoints</name></member>
@@ -35827,6 +35844,7 @@
     <member refid="classMR_1_1ObjectVoxels_1ab8ca35f2f513042ac78c7560340df81c" kind="function"><name>setDirtyFlags</name></member>
     <member refid="classMR_1_1ObjectVoxels_1a845d10d378d025ee43f715f3e0b4641a" kind="function"><name>setSerializeFormat</name></member>
     <member refid="classMR_1_1ObjectVoxels_1ae61b9ad30ebad708e1da65eca94f33ae" kind="function"><name>resetFrontColor</name></member>
+    <member refid="classMR_1_1ObjectVoxels_1a66b0a06e08274a917816262a002789a2" kind="function"><name>varMeshPtr</name></member>
     <member refid="classMR_1_1ObjectVoxels_1ac32ead35108a81fb27835011e87aa120" kind="function"><name>setDirtyFlagsFast</name></member>
     <member refid="classMR_1_1ObjectVoxels_1a3b509b88c08e225192ccb158929e3024" kind="function"><name>invalidateMetricsCache</name></member>
     <member refid="classMR_1_1ObjectVoxels_1ab5a47ddcf157ad1b85e01f3777915d20" kind="function"><name>selectFaces</name></member>
@@ -44573,6 +44591,8 @@
   <compound refid="APICsharpPage_8dox" kind="file"><name>APICsharpPage.dox</name>
   </compound>
   <compound refid="APICsharpPage" kind="page"><name>APICsharpPage</name>
+  </compound>
+  <compound refid="deprecated" kind="page"><name>deprecated</name>
   </compound>
   <compound refid="dir_961bdd6bab3018deff5d9bfb5901f954" kind="dir"><name>CsharpBindings</name>
   </compound>

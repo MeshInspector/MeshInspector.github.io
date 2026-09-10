@@ -1,5 +1,14 @@
 var NAVTREEINDEX96 =
 {
+"classMR_1_1Const__ZCompensateParams.html#af75ff2d683f534553bc39fc235032074":[9,3,0,0,0,1030,10],
+"classMR_1_1Const__ZeroOnMove__SizeT.html":[9,3,0,0,0,1031],
+"classMR_1_1Const__ZeroOnMove__SizeT.html#a0243dd401414222aa41d1eea5da1a931":[9,3,0,0,0,1031,3],
+"classMR_1_1Const__ZeroOnMove__SizeT.html#a2ef65f3a51ba6c8738f5d121a748598b":[9,3,0,0,0,1031,5],
+"classMR_1_1Const__ZeroOnMove__SizeT.html#a31a9886b26f1793a881a208ee25b668a":[9,3,0,0,0,1031,2],
+"classMR_1_1Const__ZeroOnMove__SizeT.html#a717711ae2b2573b52fa170a52cc0dbba":[9,3,0,0,0,1031,0],
+"classMR_1_1Const__ZeroOnMove__SizeT.html#a7c210909ab706e7c23819e253156cbcc":[9,3,0,0,0,1031,4],
+"classMR_1_1Const__ZeroOnMove__SizeT.html#a944d64200f2a36918b0d71312de1cc32":[9,3,0,0,0,1031,1],
+"classMR_1_1Const__ZlibCompressParams.html":[9,3,0,0,0,1032],
 "classMR_1_1Const__ZlibCompressParams.html#a07838910415bbcf105f2de1c420118e6":[9,3,0,0,0,1032,0],
 "classMR_1_1Const__ZlibCompressParams.html#a124bf8bdbc9a9f7ad208dfda90b99c98":[9,3,0,0,0,1032,2],
 "classMR_1_1Const__ZlibCompressParams.html#a5f8b992389adc7d0e616f6f92b5601ce":[9,3,0,0,0,1032,4],
@@ -240,14 +249,5 @@ var NAVTREEINDEX96 =
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html":[9,3,0,0,0,1110,5],
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a0c5d2e92cddc3957fd34799932d82002":[9,3,0,0,0,1110,5,2],
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a30c1365e012d872d8df43e12fbc76e53":[9,3,0,0,0,1110,5,0],
-"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a345a2c3a2ad57fe98251e53d6119fb32":[9,3,0,0,0,1110,5,8],
-"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6b9df534abc4ddb6c2c9b95a674063ed":[9,3,0,0,0,1110,5,1],
-"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6dacf8fbd0207d569e3e35876ee708d6":[9,3,0,0,0,1110,5,7],
-"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac3f7a8e10de898caab17054a19c1187b":[9,3,0,0,0,1110,5,3],
-"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac8675580f0e0f03eaa9f73c5f5e0be3a":[9,3,0,0,0,1110,5,6],
-"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#acd9ad7fc72d377e1afdc3d3cbbf74bbd":[9,3,0,0,0,1110,5,5],
-"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#adfe1466efe7d1fc5372095f5e5f35082":[9,3,0,0,0,1110,5,4],
-"classMR_1_1Cuda_1_1DeviceInfo.html":[9,3,0,0,0,1110,6],
-"classMR_1_1Cuda_1_1DeviceInfo.html#a11540c23bfe5df4433b853029235ad5f":[9,3,0,0,0,1110,6,11],
-"classMR_1_1Cuda_1_1DeviceInfo.html#a4b29477160f3d5b4ab27a91f36c24dcc":[9,3,0,0,0,1110,6,6]
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a345a2c3a2ad57fe98251e53d6119fb32":[9,3,0,0,0,1110,5,8]
 };

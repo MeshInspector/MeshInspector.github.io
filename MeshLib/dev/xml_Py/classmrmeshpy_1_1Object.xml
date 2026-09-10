@@ -778,7 +778,7 @@ Will return `this` if `other` matches `this`.
         </briefdescription>
         <detaileddescription>
 <para><verbatim>does the object have any model available (but possibly empty),
-e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
+e.g. ObjectMesh has valid meshPtr() or ObjectPoints has valid pointCloudPtr()
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>

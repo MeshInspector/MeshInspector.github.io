@@ -195,8 +195,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4c035556d265441859ddeaff40969843"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="#a4c035556d265441859ddeaff40969843" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.ObjectDistanceMap.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:a2ff9a3ed3c068497e2e69ad4470092c3" id="r_a2ff9a3ed3c068497e2e69ad4470092c3"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ff9a3ed3c068497e2e69ad4470092c3">hasVisualRepresentation</a> ()</td></tr>
 <tr class="memdesc:a2ff9a3ed3c068497e2e69ad4470092c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">mesh object can be seen if the mesh has at least one edge Generated from method <span class="tt"><a class="el" href="#a2ff9a3ed3c068497e2e69ad4470092c3" title="mesh object can be seen if the mesh has at least one edge Generated from method MR....">MR.ObjectDistanceMap.hasVisualRepresentation</a></span>.  <br /></td></tr>
+<tr class="memitem:a4125455f32a344b699b38a3b8ba947e3" id="r_a4125455f32a344b699b38a3b8ba947e3"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__Mesh.html">Const_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4125455f32a344b699b38a3b8ba947e3">meshPtr</a> ()</td></tr>
+<tr class="memdesc:a4125455f32a344b699b38a3b8ba947e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mesh of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#a4125455f32a344b699b38a3b8ba947e3" title="returns the mesh of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectDistanceMap.meshPtr</a></span>.  <br /></td></tr>
 <tr class="memitem:a6f0d2cd9a284557bd8815cc7281683ef" id="r_a6f0d2cd9a284557bd8815cc7281683ef"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_SharedPtr_ConstMRMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f0d2cd9a284557bd8815cc7281683ef">mesh</a> ()</td></tr>
-<tr class="memdesc:a6f0d2cd9a284557bd8815cc7281683ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a6f0d2cd9a284557bd8815cc7281683ef" title="Generated from method MR.ObjectDistanceMap.mesh.">MR.ObjectDistanceMap.mesh</a></span>.  <br /></td></tr>
 <tr class="memitem:a28519a43de1e0f6a60f8a2716aebcd8c" id="r_a28519a43de1e0f6a60f8a2716aebcd8c"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1MeshPart.html">MR.MeshPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28519a43de1e0f6a60f8a2716aebcd8c">meshPart</a> ()</td></tr>
 <tr class="memitem:a44eab9ef5ce2d7d20db32c6afd89b2fa" id="r_a44eab9ef5ce2d7d20db32c6afd89b2fa"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44eab9ef5ce2d7d20db32c6afd89b2fa">getSelectedFaces</a> ()</td></tr>
 <tr class="memdesc:a44eab9ef5ce2d7d20db32c6afd89b2fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a44eab9ef5ce2d7d20db32c6afd89b2fa" title="Generated from method MR.ObjectDistanceMap.getSelectedFaces.">MR.ObjectDistanceMap.getSelectedFaces</a></span>.  <br /></td></tr>
@@ -2479,8 +2480,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Generated from method <span class="tt"><a class="el" href="#a6f0d2cd9a284557bd8815cc7281683ef" title="Generated from method MR.ObjectDistanceMap.mesh.">MR.ObjectDistanceMap.mesh</a></span>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#a4125455f32a344b699b38a3b8ba947e3" title="returns the mesh of this object, or nullptr if it is not set Generated from method MR....">meshPtr()</a> instead Generated from method <span class="tt"><a class="el" href="#a6f0d2cd9a284557bd8815cc7281683ef">MR.ObjectDistanceMap.mesh</a></span>. </dd></dl>
 
 </div>
 </div>
@@ -2507,6 +2507,33 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the pair ( mesh, selected triangles ) if any triangle is selected or whole mesh otherwise Generated from method <span class="tt"><a class="el" href="#a28519a43de1e0f6a60f8a2716aebcd8c">MR.ObjectDistanceMap.meshPart</a></span>. </dd></dl>
+
+</div>
+</div>
+<a id="a4125455f32a344b699b38a3b8ba947e3" name="a4125455f32a344b699b38a3b8ba947e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4125455f32a344b699b38a3b8ba947e3">&#9670;&#160;</a></span>meshPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.? <a class="el" href="classMR_1_1Const__Mesh.html">Const_Mesh</a> MR.Const_ObjectDistanceMap.meshPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the mesh of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#a4125455f32a344b699b38a3b8ba947e3" title="returns the mesh of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectDistanceMap.meshPtr</a></span>. </p>
 
 </div>
 </div>

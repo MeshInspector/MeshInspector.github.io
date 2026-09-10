@@ -1,5 +1,14 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6b9df534abc4ddb6c2c9b95a674063ed":[9,3,0,0,0,1110,5,1],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6dacf8fbd0207d569e3e35876ee708d6":[9,3,0,0,0,1110,5,7],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac3f7a8e10de898caab17054a19c1187b":[9,3,0,0,0,1110,5,3],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac8675580f0e0f03eaa9f73c5f5e0be3a":[9,3,0,0,0,1110,5,6],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#acd9ad7fc72d377e1afdc3d3cbbf74bbd":[9,3,0,0,0,1110,5,5],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#adfe1466efe7d1fc5372095f5e5f35082":[9,3,0,0,0,1110,5,4],
+"classMR_1_1Cuda_1_1DeviceInfo.html":[9,3,0,0,0,1110,6],
+"classMR_1_1Cuda_1_1DeviceInfo.html#a11540c23bfe5df4433b853029235ad5f":[9,3,0,0,0,1110,6,11],
+"classMR_1_1Cuda_1_1DeviceInfo.html#a4b29477160f3d5b4ab27a91f36c24dcc":[9,3,0,0,0,1110,6,6],
 "classMR_1_1Cuda_1_1DeviceInfo.html#a511c6973291a9a12b4f4b08e9d4db247":[9,3,0,0,0,1110,6,4],
 "classMR_1_1Cuda_1_1DeviceInfo.html#a6e6c4939b6920c688230767ddcfd831f":[9,3,0,0,0,1110,6,8],
 "classMR_1_1Cuda_1_1DeviceInfo.html#a90555be5935f5bc531443e1540561178":[9,3,0,0,0,1110,6,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1DecimateSettings.html":[9,3,0,0,0,1123],
 "classMR_1_1DecimateSettings.html#a040958d62d8f9cf6d834297c179c458a":[9,3,0,0,0,1123,18],
 "classMR_1_1DecimateSettings.html#a051e26d6cd8669e3ea6efd9397bd3f4d":[9,3,0,0,0,1123,31],
-"classMR_1_1DecimateSettings.html#a06306ed033b5ccfa3237dab3fb1c3a61":[9,3,0,0,0,1123,11],
-"classMR_1_1DecimateSettings.html#a07505c08c620c736e4f5041c08418e2d":[9,3,0,0,0,1123,4],
-"classMR_1_1DecimateSettings.html#a07b555009b336d2c01e32bff7b384259":[9,3,0,0,0,1123,34],
-"classMR_1_1DecimateSettings.html#a0c8618241fb4ab98e199e480d5808066":[9,3,0,0,0,1123,29],
-"classMR_1_1DecimateSettings.html#a112b89ae894d191a8da473e6372dc580":[9,3,0,0,0,1123,20],
-"classMR_1_1DecimateSettings.html#a16b4d617cafe84f89524e6812152959f":[9,3,0,0,0,1123,21],
-"classMR_1_1DecimateSettings.html#a1895e45baef40c594f71539eee3ef9fb":[9,3,0,0,0,1123,9],
-"classMR_1_1DecimateSettings.html#a19366c7241619dce5318daee1720b2a2":[9,3,0,0,0,1123,35],
-"classMR_1_1DecimateSettings.html#a193a618670d11e983f53b8bbb475dc82":[9,3,0,0,0,1123,14],
-"classMR_1_1DecimateSettings.html#a1f59a8f451281096bee895e0f09f083d":[9,3,0,0,0,1123,7]
+"classMR_1_1DecimateSettings.html#a06306ed033b5ccfa3237dab3fb1c3a61":[9,3,0,0,0,1123,11]
 };

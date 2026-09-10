@@ -369,6 +369,7 @@
       <member refid="group__GeneralGroup_1ga8de8f6b6c5eaa17e1cfd18ffe80fda9d" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>pointSize_</name></member>
       <member refid="group__GeneralGroup_1gae0b496042ca65d7b8bdb862c9e984ff7" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>polyline</name></member>
       <member refid="group__GeneralGroup_1gafba90d7f156c0d8bb20a9daa74a003ce" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>polyline_</name></member>
+      <member refid="group__GeneralGroup_1gad5cf75ed10ccc65062b81be77146a84d" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>polylinePtr</name></member>
       <member refid="classMR_1_1Object_1a7a29a352087add682135f1b2e1c8030e" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>removeChild</name></member>
       <member refid="classMR_1_1Object_1a47b1fa919826f583d492e9c5c12b448f" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>removeChild</name></member>
@@ -466,6 +467,7 @@
       <member refid="group__GeneralGroup_1gab2d21946ef246e3fb5f97cdd7fc89e1c" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>updateVertsColorMap</name></member>
       <member refid="classMR_1_1VisualObject_1ac2b8bafaf72ee52d9a2312d0a51666b2" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
+      <member refid="group__GeneralGroup_1gaa3875bc524fb77bbb459b77d5ee068ff" prot="public" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>varPolylinePtr</name></member>
       <member refid="group__GeneralGroup_1gaebf8fd3ebbe9baca5e1890a03da63db7" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>vertsColorMap_</name></member>
       <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::ObjectGcode</scope><name>visibilityMask</name></member>
       <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::ObjectGcode</scope><name>visibilityMask_</name></member>

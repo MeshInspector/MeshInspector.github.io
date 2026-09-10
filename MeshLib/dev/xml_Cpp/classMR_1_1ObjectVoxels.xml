@@ -482,6 +482,7 @@
       <member refid="group__GeneralGroup_1ga13d6a31dd591af6acf9a834da59aa1fd" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>meshChangedSignal</name></member>
       <member refid="group__GeneralGroup_1gadbd8b03aaca3e9e823be43fe1b77f12a" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>meshIsClosed_</name></member>
       <member refid="group__GeneralGroup_1ga5f17cf78de5c594d2941f35bd82197f1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>meshPart</name></member>
+      <member refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>meshPtr</name></member>
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>needRedraw_</name></member>
@@ -680,6 +681,7 @@
       <member refid="group__GeneralGroup_1ga4117a6dc7b78840dbc64df893726468c" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>updateVertsColorMap</name></member>
       <member refid="classMR_1_1VisualObject_1ac2b8bafaf72ee52d9a2312d0a51666b2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
+      <member refid="group__GeneralGroup_1gabc6f35e0e520a3551d1dab3ccd59f27b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>varMeshPtr</name></member>
       <member refid="group__GeneralGroup_1ga10fd8457c5eafb626b75de39437e545a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>varVdbVolume</name></member>
       <member refid="group__GeneralGroup_1ga40a8a10a59c84f407f0b8cbdec7bedb1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>vdbVolume</name></member>
       <member refid="group__GeneralGroup_1gac5328eef76782cbced806363a3597ca0" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>vdbVolume_</name></member>

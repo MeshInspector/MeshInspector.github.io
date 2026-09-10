@@ -57,5 +57,6 @@ var classMR_1_1ObjectLinesHolder =
     [ "swap", "classMR_1_1ObjectLinesHolder.html#a63cd86411490fdcf18e95acd0c79eb38", null ],
     [ "toggleVisualizeProperty", "classMR_1_1ObjectLinesHolder.html#aa9fb8aee413ecbc091db272247b1fa36", null ],
     [ "updateLinesColorMap", "classMR_1_1ObjectLinesHolder.html#a369d8a9801b01a0ebd04e2344257cff4", null ],
-    [ "updateVertsColorMap", "classMR_1_1ObjectLinesHolder.html#a525aed64853ffb3c819c3e7fe22635e7", null ]
+    [ "updateVertsColorMap", "classMR_1_1ObjectLinesHolder.html#a525aed64853ffb3c819c3e7fe22635e7", null ],
+    [ "varPolylinePtr", "classMR_1_1ObjectLinesHolder.html#a27a2e1730f0101ed5b5c47ba99198662", null ]
 ];

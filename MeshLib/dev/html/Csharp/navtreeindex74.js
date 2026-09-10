@@ -1,5 +1,14 @@
 var NAVTREEINDEX74 =
 {
+"classMR_1_1Const__QuadraticForm3f.html#a24b9b4295073198ec067fb0881776bec":[9,3,0,0,0,778,0],
+"classMR_1_1Const__QuadraticForm3f.html#a27e223ffe09e9cc0edf269d7f29634d2":[9,3,0,0,0,778,4],
+"classMR_1_1Const__QuadraticForm3f.html#a45a0d15156490c3c2a751b0ba7dfd370":[9,3,0,0,0,778,9],
+"classMR_1_1Const__QuadraticForm3f.html#a4ae9f7662b2e41e675e82f18e2887c5d":[9,3,0,0,0,778,5],
+"classMR_1_1Const__QuadraticForm3f.html#aaccfcdeaff36c02f67964a9bd3f33765":[9,3,0,0,0,778,3],
+"classMR_1_1Const__QuadraticForm3f.html#ab5b912531dced1a155e923348d4a0e40":[9,3,0,0,0,778,7],
+"classMR_1_1Const__QuadraticForm3f.html#ac1ecf20af06066719b056081b0505bd7":[9,3,0,0,0,778,6],
+"classMR_1_1Const__QuadraticForm3f.html#ae73bf5dc396354983d18642a8541f9a9":[9,3,0,0,0,778,1],
+"classMR_1_1Const__QuadricApprox.html":[9,3,0,0,0,779],
 "classMR_1_1Const__QuadricApprox.html#a93c989cdb323f8ccac9deca6c858e6ae":[9,3,0,0,0,779,0],
 "classMR_1_1Const__QuadricApprox.html#aa315cc9b32d1baebaf91ce6da71bda6c":[9,3,0,0,0,779,3],
 "classMR_1_1Const__QuadricApprox.html#ae97dfe73581667b5aff662ca04254668":[9,3,0,0,0,779,4],
@@ -240,14 +249,5 @@ var NAVTREEINDEX74 =
 "classMR_1_1Const__RefineParameters.html#a87303e022272f1b381acc0188f6adbf8":[9,3,0,0,0,786,5],
 "classMR_1_1Const__RefineParameters.html#a90309a3d6846f51eb4ef97fa8c9c3bed":[9,3,0,0,0,786,3],
 "classMR_1_1Const__RefineParameters.html#a93e6073e43c014f9f26265384f5bd3f2":[9,3,0,0,0,786,2],
-"classMR_1_1Const__RefineParameters.html#a94ed0597c92f72048eff7c2b20415e54":[9,3,0,0,0,786,12],
-"classMR_1_1Const__RefineParameters.html#aa93dda15926e3fd62b904125b4a255ce":[9,3,0,0,0,786,8],
-"classMR_1_1Const__RefineParameters.html#aa95a98ff2ff396e97314faa96c19d2b4":[9,3,0,0,0,786,15],
-"classMR_1_1Const__RefineParameters.html#abb1ba572601e43d451e7e1afaf339182":[9,3,0,0,0,786,10],
-"classMR_1_1Const__RefineParameters.html#ad01c61c9cb7289b7d1ae7594b92d4ea0":[9,3,0,0,0,786,6],
-"classMR_1_1Const__RefineParameters.html#ad4b53af306e8dc31086529b88864b2e9":[9,3,0,0,0,786,16],
-"classMR_1_1Const__RefineParameters.html#ae13dc58e7e63ed318b993f6e899fe9d1":[9,3,0,0,0,786,13],
-"classMR_1_1Const__RegionBitSet.html":[9,3,0,0,0,787],
-"classMR_1_1Const__RegionBitSet.html#a08d19723d433bc0390a66d985dd0a271":[9,3,0,0,0,787,15],
-"classMR_1_1Const__RegionBitSet.html#a0a4dd380084f0c3c28d5c0b77b5988b4":[9,3,0,0,0,787,19]
+"classMR_1_1Const__RefineParameters.html#a94ed0597c92f72048eff7c2b20415e54":[9,3,0,0,0,786,12]
 };

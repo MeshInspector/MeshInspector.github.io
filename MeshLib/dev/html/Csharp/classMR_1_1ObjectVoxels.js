@@ -108,5 +108,6 @@ var classMR_1_1ObjectVoxels =
     [ "updateUVCoords", "classMR_1_1ObjectVoxels.html#ac11a41431b8da1282d7cc871f20e248a", null ],
     [ "updateVdbVolume", "classMR_1_1ObjectVoxels.html#a74ad8d0d142b91680e4dd5d74124a293", null ],
     [ "updateVertsColorMap", "classMR_1_1ObjectVoxels.html#abae5239a38f1d110b89c27800d7bd525", null ],
+    [ "varMeshPtr", "classMR_1_1ObjectVoxels.html#a66b0a06e08274a917816262a002789a2", null ],
     [ "varVdbVolume", "classMR_1_1ObjectVoxels.html#a2bbb4b410c9830b2a52346c1d73a504d", null ]
 ];

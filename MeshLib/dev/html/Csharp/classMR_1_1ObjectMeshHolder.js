@@ -87,5 +87,6 @@ var classMR_1_1ObjectMeshHolder =
     [ "updateTexturePerFace", "classMR_1_1ObjectMeshHolder.html#a83045109bc0a73eac183e9c5e2af1111", null ],
     [ "updateTextures", "classMR_1_1ObjectMeshHolder.html#a037a5f3de0832dc77334d3e0b8eae7f3", null ],
     [ "updateUVCoords", "classMR_1_1ObjectMeshHolder.html#a2734f2ac157455b6b01e2c67d2b7db67", null ],
-    [ "updateVertsColorMap", "classMR_1_1ObjectMeshHolder.html#a5bfd0582e3690f0482646a87ee3d929a", null ]
+    [ "updateVertsColorMap", "classMR_1_1ObjectMeshHolder.html#a5bfd0582e3690f0482646a87ee3d929a", null ],
+    [ "varMeshPtr", "classMR_1_1ObjectMeshHolder.html#a1c32cfc2800c3000bf64e200708ba94b", null ]
 ];

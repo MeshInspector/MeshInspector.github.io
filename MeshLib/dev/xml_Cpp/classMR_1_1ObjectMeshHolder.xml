@@ -65,6 +65,8 @@
       <member refid="group__GeneralGroup_1gab9415388ab77dd620bfcdca156d96e67" kind="function"><name>applyScale</name></member>
       <member refid="group__GeneralGroup_1gafadaad70a91ca257f963cf38bcf1f9eb" kind="function"><name>hasVisualRepresentation</name></member>
       <member refid="group__GeneralGroup_1ga0f23153d023000ffb86577703cf329dd" kind="function"><name>hasModel</name></member>
+      <member refid="group__GeneralGroup_1gabc6f35e0e520a3551d1dab3ccd59f27b" kind="function"><name>varMeshPtr</name></member>
+      <member refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" kind="function"><name>meshPtr</name></member>
       <member refid="group__GeneralGroup_1gaf6739310dc9f9e21c461819ea47dc086" kind="function"><name>mesh</name></member>
       <member refid="group__GeneralGroup_1ga5f17cf78de5c594d2941f35bd82197f1" kind="function"><name>meshPart</name></member>
       <member refid="group__GeneralGroup_1ga29915614a6305ff839e77921819340c6" kind="function"><name>clone</name></member>
@@ -396,7 +398,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRObjectMeshHolder.h" line="36" column="1" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="37" bodyend="359"/>
+    <location file="MRMesh/MRObjectMeshHolder.h" line="36" column="1" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="37" bodyend="367"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa8ad23b98d545682db124f812216b717" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>actualSerializeFormat</name></member>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::ObjectMeshHolder</scope><name>addChild</name></member>
@@ -527,6 +529,7 @@
       <member refid="group__GeneralGroup_1ga13d6a31dd591af6acf9a834da59aa1fd" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>meshChangedSignal</name></member>
       <member refid="group__GeneralGroup_1gadbd8b03aaca3e9e823be43fe1b77f12a" prot="protected" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>meshIsClosed_</name></member>
       <member refid="group__GeneralGroup_1ga5f17cf78de5c594d2941f35bd82197f1" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>meshPart</name></member>
+      <member refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>meshPtr</name></member>
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>needRedraw_</name></member>
@@ -699,6 +702,7 @@
       <member refid="group__GeneralGroup_1ga4117a6dc7b78840dbc64df893726468c" prot="public" virt="virtual"><scope>MR::ObjectMeshHolder</scope><name>updateVertsColorMap</name></member>
       <member refid="classMR_1_1VisualObject_1ac2b8bafaf72ee52d9a2312d0a51666b2" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
+      <member refid="group__GeneralGroup_1gabc6f35e0e520a3551d1dab3ccd59f27b" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>varMeshPtr</name></member>
       <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::ObjectMeshHolder</scope><name>visibilityMask</name></member>
       <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>visibilityMask_</name></member>
       <member refid="classMR_1_1VisualObject_1afba4e36ba430b26b2a358fe7669c568b" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>VisualObject</name></member>

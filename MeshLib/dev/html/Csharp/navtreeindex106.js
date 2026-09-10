@@ -1,5 +1,14 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1GridSettings.html#ab1f19be96192babee0d220ce6dff5fb4":[9,3,0,0,0,1225,7],
+"classMR_1_1GridSettings.html#af77ff5e075893577c26a461fdb5a0222":[9,3,0,0,0,1225,6],
+"classMR_1_1GridToMeshSettings.html":[9,3,0,0,0,1226],
+"classMR_1_1GridToMeshSettings.html#a121857b40909855ddf4e329cbb32055b":[9,3,0,0,0,1226,6],
+"classMR_1_1GridToMeshSettings.html#a13fd596b0d9ec494985e6170d41d9372":[9,3,0,0,0,1226,7],
+"classMR_1_1GridToMeshSettings.html#a3755177020f1ce5d135b71304d7bae3d":[9,3,0,0,0,1226,0],
+"classMR_1_1GridToMeshSettings.html#a397d334b2e3a61834e7cc09885cffa10":[9,3,0,0,0,1226,9],
+"classMR_1_1GridToMeshSettings.html#a415d421a868191a95a566bb3e1cba079":[9,3,0,0,0,1226,3],
+"classMR_1_1GridToMeshSettings.html#a89533eb713e25d0ac20d927e43ee8741":[9,3,0,0,0,1226,8],
 "classMR_1_1GridToMeshSettings.html#a8e9279925d5eae288f629bfbee49940c":[9,3,0,0,0,1226,12],
 "classMR_1_1GridToMeshSettings.html#a9b469980c0708879b3904ea8f7ca2dad":[9,3,0,0,0,1226,11],
 "classMR_1_1GridToMeshSettings.html#a9e653930bb00a19e8d1833aa0469e711":[9,3,0,0,0,1226,10],
@@ -240,14 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1InSphereTesterSoS.html#a14fe33c42958d78348c9e299eff245a9":[9,3,0,0,0,1254,3],
 "classMR_1_1InSphereTesterSoS.html#a3fe7f920836c9b97d7b4730ea06fec0f":[9,3,0,0,0,1254,6],
 "classMR_1_1InSphereTesterSoS.html#a505d1885369f21fa3dc0a8301be986cb":[9,3,0,0,0,1254,1],
-"classMR_1_1InSphereTesterSoS.html#a6092a9a1d5ba5c00f843ac6d9dceeb4a":[9,3,0,0,0,1254,0],
-"classMR_1_1InSphereTesterSoS.html#a6aed073cd00a65e5ded402b154d988d8":[9,3,0,0,0,1254,4],
-"classMR_1_1InSphereTesterSoS.html#a976095aeaabcaeb3f5007e6ad7a95537":[9,3,0,0,0,1254,5],
-"classMR_1_1InSphereTesterSoS.html#aa81d872a1692085553d301199fc9cc90":[9,3,0,0,0,1254,2],
-"classMR_1_1InSphereTester__Double.html":[9,3,0,0,0,1251],
-"classMR_1_1InSphereTester__Double.html#a15fc0beabc71d2aba2fbd3fdd47b1285":[9,3,0,0,0,1251,1],
-"classMR_1_1InSphereTester__Double.html#a763f8aa6c2114eacead791c001be6ea2":[9,3,0,0,0,1251,2],
-"classMR_1_1InSphereTester__Double.html#ab8b76655eed550a578db1ac44e8d16e3":[9,3,0,0,0,1251,3],
-"classMR_1_1InSphereTester__Double.html#ad94306d87b6eebdf46a4148d2c9a5fe6":[9,3,0,0,0,1251,0],
-"classMR_1_1InSphereTester__Double.html#ada50e5a44473a7c8c7d19065e828338f":[9,3,0,0,0,1251,4]
+"classMR_1_1InSphereTesterSoS.html#a6092a9a1d5ba5c00f843ac6d9dceeb4a":[9,3,0,0,0,1254,0]
 };

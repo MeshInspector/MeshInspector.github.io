@@ -1277,7 +1277,7 @@
         <name>hasModel</name>
         <qualifiedname>MR.Const_FeatureObject.hasModel</qualifiedname>
         <briefdescription>
-<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() Generated from method <computeroutput><ref refid="classMR_1_1Const__FeatureObject_1a19085d786e075e8e0a575577d1a42d9d" kindref="member">MR.FeatureObject.hasModel</ref></computeroutput>. </para>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid meshPtr() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloudPtr() Generated from method <computeroutput><ref refid="classMR_1_1Const__FeatureObject_1a19085d786e075e8e0a575577d1a42d9d" kindref="member">MR.FeatureObject.hasModel</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

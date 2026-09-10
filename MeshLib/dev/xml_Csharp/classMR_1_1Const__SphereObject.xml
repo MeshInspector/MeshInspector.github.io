@@ -1370,7 +1370,7 @@
         <name>hasModel</name>
         <qualifiedname>MR.Const_SphereObject.hasModel</qualifiedname>
         <briefdescription>
-<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aa8a7fa2c327b2ed381a72807c6a9d409" kindref="member">MR.SphereObject.hasModel</ref></computeroutput>. </para>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid meshPtr() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloudPtr() Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aa8a7fa2c327b2ed381a72807c6a9d409" kindref="member">MR.SphereObject.hasModel</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

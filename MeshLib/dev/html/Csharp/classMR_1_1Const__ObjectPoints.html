@@ -191,8 +191,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa2668c0c2ca62a4bca4d6086092fb0a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aa2668c0c2ca62a4bca4d6086092fb0a0" title="Generated from method MR.ObjectPoints.hasVisualRepresentation.">MR.ObjectPoints.hasVisualRepresentation</a></span>.  <br /></td></tr>
 <tr class="memitem:a19204f3ff0b07458f334eb36ef159918" id="r_a19204f3ff0b07458f334eb36ef159918"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19204f3ff0b07458f334eb36ef159918">hasModel</a> ()</td></tr>
 <tr class="memdesc:a19204f3ff0b07458f334eb36ef159918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a19204f3ff0b07458f334eb36ef159918" title="Generated from method MR.ObjectPoints.hasModel.">MR.ObjectPoints.hasModel</a></span>.  <br /></td></tr>
+<tr class="memitem:aa3a29103ec8caf9635b76ae2bde9532b" id="r_aa3a29103ec8caf9635b76ae2bde9532b"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__PointCloud.html">Const_PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3a29103ec8caf9635b76ae2bde9532b">pointCloudPtr</a> ()</td></tr>
+<tr class="memdesc:aa3a29103ec8caf9635b76ae2bde9532b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the point cloud of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#aa3a29103ec8caf9635b76ae2bde9532b" title="returns the point cloud of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectPoints.pointCloudPtr</a></span>.  <br /></td></tr>
 <tr class="memitem:af1b459f391497fe3d041659f01944fa5" id="r_af1b459f391497fe3d041659f01944fa5"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_SharedPtr_ConstMRPointCloud&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1b459f391497fe3d041659f01944fa5">pointCloud</a> ()</td></tr>
-<tr class="memdesc:af1b459f391497fe3d041659f01944fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#af1b459f391497fe3d041659f01944fa5" title="Generated from method MR.ObjectPoints.pointCloud.">MR.ObjectPoints.pointCloud</a></span>.  <br /></td></tr>
 <tr class="memitem:a064c62da2a901465215a32b27e32b958" id="r_a064c62da2a901465215a32b27e32b958"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1PointCloudPart.html">MR.PointCloudPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a064c62da2a901465215a32b27e32b958">pointCloudPart</a> ()</td></tr>
 <tr class="memitem:a783f726d11907bae1e0629a1f1c2cb40" id="r_a783f726d11907bae1e0629a1f1c2cb40"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a783f726d11907bae1e0629a1f1c2cb40">getSelectedPoints</a> ()</td></tr>
 <tr class="memdesc:a783f726d11907bae1e0629a1f1c2cb40"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets current selected points Generated from method <span class="tt"><a class="el" href="#a783f726d11907bae1e0629a1f1c2cb40" title="gets current selected points Generated from method MR.ObjectPoints.getSelectedPoints.">MR.ObjectPoints.getSelectedPoints</a></span>.  <br /></td></tr>
@@ -2099,8 +2100,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Generated from method <span class="tt"><a class="el" href="#af1b459f391497fe3d041659f01944fa5" title="Generated from method MR.ObjectPoints.pointCloud.">MR.ObjectPoints.pointCloud</a></span>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000007">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#aa3a29103ec8caf9635b76ae2bde9532b" title="returns the point cloud of this object, or nullptr if it is not set Generated from method MR....">pointCloudPtr()</a> instead Generated from method <span class="tt"><a class="el" href="#af1b459f391497fe3d041659f01944fa5">MR.ObjectPoints.pointCloud</a></span>. </dd></dl>
 
 </div>
 </div>
@@ -2127,6 +2127,33 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the pair ( point cloud, selected points ) if any point is selected or full point cloud otherwise Generated from method <span class="tt"><a class="el" href="#a064c62da2a901465215a32b27e32b958">MR.ObjectPoints.pointCloudPart</a></span>. </dd></dl>
+
+</div>
+</div>
+<a id="aa3a29103ec8caf9635b76ae2bde9532b" name="aa3a29103ec8caf9635b76ae2bde9532b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3a29103ec8caf9635b76ae2bde9532b">&#9670;&#160;</a></span>pointCloudPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.? <a class="el" href="classMR_1_1Const__PointCloud.html">Const_PointCloud</a> MR.Const_ObjectPoints.pointCloudPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the point cloud of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#aa3a29103ec8caf9635b76ae2bde9532b" title="returns the point cloud of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectPoints.pointCloudPtr</a></span>. </p>
 
 </div>
 </div>

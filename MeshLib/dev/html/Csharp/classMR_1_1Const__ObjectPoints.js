@@ -66,6 +66,7 @@ var classMR_1_1Const__ObjectPoints =
     [ "operator MR.Const_VisualObject", "classMR_1_1Const__ObjectPoints.html#aa4a91a4ff5bcc4fea2a2b76d059a28b4", null ],
     [ "pointCloud", "classMR_1_1Const__ObjectPoints.html#af1b459f391497fe3d041659f01944fa5", null ],
     [ "pointCloudPart", "classMR_1_1Const__ObjectPoints.html#a064c62da2a901465215a32b27e32b958", null ],
+    [ "pointCloudPtr", "classMR_1_1Const__ObjectPoints.html#aa3a29103ec8caf9635b76ae2bde9532b", null ],
     [ "render", "classMR_1_1Const__ObjectPoints.html#a101218aaa9034548237c9ba57f8f6d0a", null ],
     [ "renderForPicker", "classMR_1_1Const__ObjectPoints.html#a6c872956cc89fbe0ffd94a7af5f1e18d", null ],
     [ "renderUi", "classMR_1_1Const__ObjectPoints.html#af56e9417c2d0aa87987e18191ced1789", null ],

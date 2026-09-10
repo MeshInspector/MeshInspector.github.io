@@ -247,8 +247,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a185747a5c9c62d5f7c3aba0eecd967e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="#a185747a5c9c62d5f7c3aba0eecd967e2" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.ObjectVoxels.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:a5f77269d2d517010afd2d5681eeee79f" id="r_a5f77269d2d517010afd2d5681eeee79f"><td class="memItemLeft" align="right" valign="top">unsafe? byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f77269d2d517010afd2d5681eeee79f">serializeFormat</a> ()</td></tr>
 <tr class="memdesc:a5f77269d2d517010afd2d5681eeee79f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize voxels inside this object, nullptr means <a class="el" href="classMR.html#a20ce6dc9e83f0b6c131eaf3c17a512da" title="returns file extension used to serialize ObjectVoxels by default (if not overridden in specific objec...">defaultSerializeVoxelsFormat()</a> Generated from method <span class="tt"><a class="el" href="#a5f77269d2d517010afd2d5681eeee79f" title="returns overriden file extension used to serialize voxels inside this object, nullptr means defaultSe...">MR.ObjectVoxels.serializeFormat</a></span>.  <br /></td></tr>
+<tr class="memitem:ad84232e38f12ea6440b45d6ee2c15437" id="r_ad84232e38f12ea6440b45d6ee2c15437"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__Mesh.html">Const_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad84232e38f12ea6440b45d6ee2c15437">meshPtr</a> ()</td></tr>
+<tr class="memdesc:ad84232e38f12ea6440b45d6ee2c15437"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mesh of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#ad84232e38f12ea6440b45d6ee2c15437" title="returns the mesh of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectVoxels.meshPtr</a></span>.  <br /></td></tr>
 <tr class="memitem:a29dd0587df04558e1c880007aa59a7ab" id="r_a29dd0587df04558e1c880007aa59a7ab"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_SharedPtr_ConstMRMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29dd0587df04558e1c880007aa59a7ab">mesh</a> ()</td></tr>
-<tr class="memdesc:a29dd0587df04558e1c880007aa59a7ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a29dd0587df04558e1c880007aa59a7ab" title="Generated from method MR.ObjectVoxels.mesh.">MR.ObjectVoxels.mesh</a></span>.  <br /></td></tr>
 <tr class="memitem:a1aac428df5f455f2933ac55299d297a3" id="r_a1aac428df5f455f2933ac55299d297a3"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1MeshPart.html">MR.MeshPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1aac428df5f455f2933ac55299d297a3">meshPart</a> ()</td></tr>
 <tr class="memitem:aac9dcce1020fcadc31bc6f5449e6403b" id="r_aac9dcce1020fcadc31bc6f5449e6403b"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac9dcce1020fcadc31bc6f5449e6403b">getSelectedFaces</a> ()</td></tr>
 <tr class="memdesc:aac9dcce1020fcadc31bc6f5449e6403b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aac9dcce1020fcadc31bc6f5449e6403b" title="Generated from method MR.ObjectVoxels.getSelectedFaces.">MR.ObjectVoxels.getSelectedFaces</a></span>.  <br /></td></tr>
@@ -2907,8 +2908,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Generated from method <span class="tt"><a class="el" href="#a29dd0587df04558e1c880007aa59a7ab" title="Generated from method MR.ObjectVoxels.mesh.">MR.ObjectVoxels.mesh</a></span>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000009">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#ad84232e38f12ea6440b45d6ee2c15437" title="returns the mesh of this object, or nullptr if it is not set Generated from method MR....">meshPtr()</a> instead Generated from method <span class="tt"><a class="el" href="#a29dd0587df04558e1c880007aa59a7ab">MR.ObjectVoxels.mesh</a></span>. </dd></dl>
 
 </div>
 </div>
@@ -2935,6 +2935,33 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the pair ( mesh, selected triangles ) if any triangle is selected or whole mesh otherwise Generated from method <span class="tt"><a class="el" href="#a1aac428df5f455f2933ac55299d297a3">MR.ObjectVoxels.meshPart</a></span>. </dd></dl>
+
+</div>
+</div>
+<a id="ad84232e38f12ea6440b45d6ee2c15437" name="ad84232e38f12ea6440b45d6ee2c15437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad84232e38f12ea6440b45d6ee2c15437">&#9670;&#160;</a></span>meshPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.? <a class="el" href="classMR_1_1Const__Mesh.html">Const_Mesh</a> MR.Const_ObjectVoxels.meshPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the mesh of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#ad84232e38f12ea6440b45d6ee2c15437" title="returns the mesh of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectVoxels.meshPtr</a></span>. </p>
 
 </div>
 </div>

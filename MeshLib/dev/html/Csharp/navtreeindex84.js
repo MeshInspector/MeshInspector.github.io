@@ -1,5 +1,14 @@
 var NAVTREEINDEX84 =
 {
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#a91d19a20948dbb0282a57459ba1adb71":[9,3,0,0,0,883,4],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#aaa217d66a0d0745290382bdc7825f58c":[9,3,0,0,0,883,8],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#ab7c287d6f80d6566ecc2c03a1c3a4a31":[9,3,0,0,0,883,6],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#ac3ad793602c34182a643474d6444f2c7":[9,3,0,0,0,883,0],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#ac4803f516c37e31eac602fc193983888":[9,3,0,0,0,883,1],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#ada63789126823128a4aa1a3a5987f0c5":[9,3,0,0,0,883,5],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#adf50ea55aacf20e1cb3056c538999972":[9,3,0,0,0,883,9],
+"classMR_1_1Const__TriangulateHolesParams.html":[9,3,0,0,0,884],
+"classMR_1_1Const__TriangulateHolesParams.html#a0eed3e811249cfcbde84ea98fc81faa2":[9,3,0,0,0,884,8],
 "classMR_1_1Const__TriangulateHolesParams.html#a3750d08f9cb81dc5a0dfba9815891ac0":[9,3,0,0,0,884,0],
 "classMR_1_1Const__TriangulateHolesParams.html#a382eb0de4bc18f8ba6ec1e73f108ec68":[9,3,0,0,0,884,5],
 "classMR_1_1Const__TriangulateHolesParams.html#a5c4d6e6712d588661999ed2a43360c01":[9,3,0,0,0,884,7],
@@ -240,14 +249,5 @@ var NAVTREEINDEX84 =
 "classMR_1_1Const__UndirectedEdgeBMap.html#ad4f8ff7dafe18bb42c119f1875d05d7d":[9,3,0,0,0,906,0],
 "classMR_1_1Const__UndirectedEdgeBitSet.html":[9,3,0,0,0,905],
 "classMR_1_1Const__UndirectedEdgeBitSet.html#a036da4a7385625896014acb991e26a50":[9,3,0,0,0,905,4],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#a03be7a81727808bb583d436f8706707a":[9,3,0,0,0,905,24],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#a04de815fb4a0254081312647f1d54838":[9,3,0,0,0,905,9],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#a0b0dd2d135d2491b0bb5317abdc1b5f2":[9,3,0,0,0,905,18],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#a14caf1b7568477062e20e8beac91866c":[9,3,0,0,0,905,36],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#a1e8cd4ada8c018f500f663163f58ec09":[9,3,0,0,0,905,38],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#a1f91322af928448c21189b200b02db77":[9,3,0,0,0,905,41],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#a2abb08793afba28a75be1b534d65b273":[9,3,0,0,0,905,0],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#a2af648919299b8edfbe4462fde4d61e2":[9,3,0,0,0,905,46],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#a2b3167343523bb064ce26e358a9f62ae":[9,3,0,0,0,905,48],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#a2f3c5a2ccf563364e87f36c150ca2e41":[9,3,0,0,0,905,44]
+"classMR_1_1Const__UndirectedEdgeBitSet.html#a03be7a81727808bb583d436f8706707a":[9,3,0,0,0,905,24]
 };

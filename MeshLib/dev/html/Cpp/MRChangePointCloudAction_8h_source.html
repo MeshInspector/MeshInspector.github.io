@@ -165,7 +165,7 @@ $(function(){initNavTree('MRChangePointCloudAction_8h_source.html','',''); });
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    {</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">if</span> ( obj )</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        {</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <span class="keywordflow">if</span> ( <span class="keyword">auto</span> m = obj-&gt;pointCloud() )</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <span class="keywordflow">if</span> ( <span class="keyword">auto</span> m = obj-&gt;pointCloudPtr() )</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                clonePointCloud_ = std::make_shared&lt;PointCloud&gt;( *m );</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        }</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    }</div>
@@ -230,7 +230,7 @@ $(function(){initNavTree('MRChangePointCloudAction_8h_source.html','',''); });
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    {</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keywordflow">if</span> ( obj )</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        {</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            <span class="keywordflow">if</span> ( <span class="keyword">auto</span> m = obj-&gt;pointCloud() )</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            <span class="keywordflow">if</span> ( <span class="keyword">auto</span> m = obj-&gt;pointCloudPtr() )</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>                clonePoints_ = m-&gt;points;</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        }</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    }</div>
@@ -304,7 +304,7 @@ $(function(){initNavTree('MRChangePointCloudAction_8h_source.html','',''); });
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    {</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>        <span class="keywordflow">if</span> ( obj )</div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>        {</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>            <span class="keywordflow">if</span> ( <span class="keyword">auto</span> m = obj-&gt;pointCloud() )</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>            <span class="keywordflow">if</span> ( <span class="keyword">auto</span> m = obj-&gt;pointCloudPtr() )</div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>                <span class="keywordflow">if</span> ( m-&gt;points.size() &gt; pointId_ )</div>
 <div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>                    safeCoords_ = m-&gt;points[pointId_];</div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>        }</div>

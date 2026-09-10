@@ -212,6 +212,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a845d10d378d025ee43f715f3e0b4641a"><td class="mdescLeft">&#160;</td><td class="mdescRight">overrides file extension used to serialize voxels inside this object: must start from '.', nullptr means serialize in <a class="el" href="classMR.html#a20ce6dc9e83f0b6c131eaf3c17a512da" title="returns file extension used to serialize ObjectVoxels by default (if not overridden in specific objec...">defaultSerializeVoxelsFormat()</a> Generated from method <span class="tt"><a class="el" href="#a845d10d378d025ee43f715f3e0b4641a" title="overrides file extension used to serialize voxels inside this object: must start from &#39;....">MR.ObjectVoxels.setSerializeFormat</a></span>.  <br /></td></tr>
 <tr class="memitem:ae61b9ad30ebad708e1da65eca94f33ae" id="r_ae61b9ad30ebad708e1da65eca94f33ae"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae61b9ad30ebad708e1da65eca94f33ae">resetFrontColor</a> ()</td></tr>
 <tr class="memdesc:ae61b9ad30ebad708e1da65eca94f33ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset basic object colors to their default values from the current theme Generated from method <span class="tt"><a class="el" href="#ae61b9ad30ebad708e1da65eca94f33ae" title="reset basic object colors to their default values from the current theme Generated from method MR....">MR.ObjectVoxels.resetFrontColor</a></span>.  <br /></td></tr>
+<tr class="memitem:a66b0a06e08274a917816262a002789a2" id="r_a66b0a06e08274a917816262a002789a2"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66b0a06e08274a917816262a002789a2">varMeshPtr</a> ()</td></tr>
+<tr class="memdesc:a66b0a06e08274a917816262a002789a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mesh of this object for modification, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#a66b0a06e08274a917816262a002789a2" title="returns the mesh of this object for modification, or nullptr if it is not set Generated from method M...">MR.ObjectVoxels.varMeshPtr</a></span>.  <br /></td></tr>
 <tr class="memitem:ac32ead35108a81fb27835011e87aa120" id="r_ac32ead35108a81fb27835011e87aa120"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac32ead35108a81fb27835011e87aa120">setDirtyFlagsFast</a> (uint mask)</td></tr>
 <tr class="memdesc:ac32ead35108a81fb27835011e87aa120"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is a faster version of <a class="el" href="#ab8ca35f2f513042ac78c7560340df81c" title="Generated from method MR.ObjectVoxels.setDirtyFlags. Parameter invalidateCaches defaults to true.">setDirtyFlags()</a>, which does not invalidate metrics cache (area, volume, ...); the user is responsible for calling invalidateMetricsCache( mask ) or setDirtyFlags( mask ) at the end of mesh editing; DANGER: all cached values returned until then can be outdated Generated from method <span class="tt"><a class="el" href="#ac32ead35108a81fb27835011e87aa120" title="this is a faster version of setDirtyFlags(), which does not invalidate metrics cache (area,...">MR.ObjectVoxels.setDirtyFlagsFast</a></span>.  <br /></td></tr>
 <tr class="memitem:a3b509b88c08e225192ccb158929e3024" id="r_a3b509b88c08e225192ccb158929e3024"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b509b88c08e225192ccb158929e3024">invalidateMetricsCache</a> (uint mask)</td></tr>
@@ -438,8 +440,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a185747a5c9c62d5f7c3aba0eecd967e2 inherit pub_methods_classMR_1_1Const__ObjectVoxels"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__ObjectVoxels.html#a185747a5c9c62d5f7c3aba0eecd967e2" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.ObjectVoxels.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:a5f77269d2d517010afd2d5681eeee79f inherit pub_methods_classMR_1_1Const__ObjectVoxels" id="r_a5f77269d2d517010afd2d5681eeee79f"><td class="memItemLeft" align="right" valign="top">unsafe? byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__ObjectVoxels.html#a5f77269d2d517010afd2d5681eeee79f">serializeFormat</a> ()</td></tr>
 <tr class="memdesc:a5f77269d2d517010afd2d5681eeee79f inherit pub_methods_classMR_1_1Const__ObjectVoxels"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize voxels inside this object, nullptr means <a class="el" href="classMR.html#a20ce6dc9e83f0b6c131eaf3c17a512da" title="returns file extension used to serialize ObjectVoxels by default (if not overridden in specific objec...">defaultSerializeVoxelsFormat()</a> Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__ObjectVoxels.html#a5f77269d2d517010afd2d5681eeee79f" title="returns overriden file extension used to serialize voxels inside this object, nullptr means defaultSe...">MR.ObjectVoxels.serializeFormat</a></span>.  <br /></td></tr>
+<tr class="memitem:ad84232e38f12ea6440b45d6ee2c15437 inherit pub_methods_classMR_1_1Const__ObjectVoxels" id="r_ad84232e38f12ea6440b45d6ee2c15437"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__Mesh.html">Const_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__ObjectVoxels.html#ad84232e38f12ea6440b45d6ee2c15437">meshPtr</a> ()</td></tr>
+<tr class="memdesc:ad84232e38f12ea6440b45d6ee2c15437 inherit pub_methods_classMR_1_1Const__ObjectVoxels"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mesh of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__ObjectVoxels.html#ad84232e38f12ea6440b45d6ee2c15437" title="returns the mesh of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectVoxels.meshPtr</a></span>.  <br /></td></tr>
 <tr class="memitem:a29dd0587df04558e1c880007aa59a7ab inherit pub_methods_classMR_1_1Const__ObjectVoxels" id="r_a29dd0587df04558e1c880007aa59a7ab"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_SharedPtr_ConstMRMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__ObjectVoxels.html#a29dd0587df04558e1c880007aa59a7ab">mesh</a> ()</td></tr>
-<tr class="memdesc:a29dd0587df04558e1c880007aa59a7ab inherit pub_methods_classMR_1_1Const__ObjectVoxels"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__ObjectVoxels.html#a29dd0587df04558e1c880007aa59a7ab" title="Generated from method MR.ObjectVoxels.mesh.">MR.ObjectVoxels.mesh</a></span>.  <br /></td></tr>
 <tr class="memitem:a1aac428df5f455f2933ac55299d297a3 inherit pub_methods_classMR_1_1Const__ObjectVoxels" id="r_a1aac428df5f455f2933ac55299d297a3"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1MeshPart.html">MR.MeshPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__ObjectVoxels.html#a1aac428df5f455f2933ac55299d297a3">meshPart</a> ()</td></tr>
 <tr class="memitem:aac9dcce1020fcadc31bc6f5449e6403b inherit pub_methods_classMR_1_1Const__ObjectVoxels" id="r_aac9dcce1020fcadc31bc6f5449e6403b"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__ObjectVoxels.html#aac9dcce1020fcadc31bc6f5449e6403b">getSelectedFaces</a> ()</td></tr>
 <tr class="memdesc:aac9dcce1020fcadc31bc6f5449e6403b inherit pub_methods_classMR_1_1Const__ObjectVoxels"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__ObjectVoxels.html#aac9dcce1020fcadc31bc6f5449e6403b" title="Generated from method MR.ObjectVoxels.getSelectedFaces.">MR.ObjectVoxels.getSelectedFaces</a></span>.  <br /></td></tr>
@@ -3766,6 +3769,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>swaps per-vertex colors of the object with given argument Generated from method <span class="tt"><a class="el" href="#abae5239a38f1d110b89c27800d7bd525" title="swaps per-vertex colors of the object with given argument Generated from method MR....">MR.ObjectVoxels.updateVertsColorMap</a></span>. </p>
+
+</div>
+</div>
+<a id="a66b0a06e08274a917816262a002789a2" name="a66b0a06e08274a917816262a002789a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66b0a06e08274a917816262a002789a2">&#9670;&#160;</a></span>varMeshPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.? <a class="el" href="classMR_1_1Mesh.html">Mesh</a> MR.ObjectVoxels.varMeshPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the mesh of this object for modification, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#a66b0a06e08274a917816262a002789a2" title="returns the mesh of this object for modification, or nullptr if it is not set Generated from method M...">MR.ObjectVoxels.varMeshPtr</a></span>. </p>
 
 </div>
 </div>

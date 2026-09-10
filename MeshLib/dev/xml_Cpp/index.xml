@@ -6994,6 +6994,8 @@
     <member refid="group__GeneralGroup_1ga8374696160d445c466b11e006c7fb4c7" kind="function"><name>hasModel</name></member>
     <member refid="group__GeneralGroup_1ga288d0f8a4f96ea4bb3023d24a68cb350" kind="function"><name>clone</name></member>
     <member refid="group__GeneralGroup_1ga86badba7ec7e0bdd786bdf427783b6e3" kind="function"><name>shallowClone</name></member>
+    <member refid="group__GeneralGroup_1gaa3875bc524fb77bbb459b77d5ee068ff" kind="function"><name>varPolylinePtr</name></member>
+    <member refid="group__GeneralGroup_1gad5cf75ed10ccc65062b81be77146a84d" kind="function"><name>polylinePtr</name></member>
     <member refid="group__GeneralGroup_1gae0b496042ca65d7b8bdb862c9e984ff7" kind="function"><name>polyline</name></member>
     <member refid="group__GeneralGroup_1ga2c118606eb83948e238984cf26a8733b" kind="function"><name>setDirtyFlags</name></member>
     <member refid="group__GeneralGroup_1ga6d3d6f849d88c940ef456090aef7249d" kind="function"><name>setDashPattern</name></member>
@@ -7119,6 +7121,8 @@
     <member refid="group__GeneralGroup_1gab9415388ab77dd620bfcdca156d96e67" kind="function"><name>applyScale</name></member>
     <member refid="group__GeneralGroup_1gafadaad70a91ca257f963cf38bcf1f9eb" kind="function"><name>hasVisualRepresentation</name></member>
     <member refid="group__GeneralGroup_1ga0f23153d023000ffb86577703cf329dd" kind="function"><name>hasModel</name></member>
+    <member refid="group__GeneralGroup_1gabc6f35e0e520a3551d1dab3ccd59f27b" kind="function"><name>varMeshPtr</name></member>
+    <member refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" kind="function"><name>meshPtr</name></member>
     <member refid="group__GeneralGroup_1gaf6739310dc9f9e21c461819ea47dc086" kind="function"><name>mesh</name></member>
     <member refid="group__GeneralGroup_1ga5f17cf78de5c594d2941f35bd82197f1" kind="function"><name>meshPart</name></member>
     <member refid="group__GeneralGroup_1ga29915614a6305ff839e77921819340c6" kind="function"><name>clone</name></member>
@@ -7284,6 +7288,8 @@
     <member refid="group__GeneralGroup_1gace435c6713a8f474acf226c4201a1bf5" kind="function"><name>applyScale</name></member>
     <member refid="group__GeneralGroup_1ga8824c33bac24ff7ace26edef63b2ae39" kind="function"><name>hasVisualRepresentation</name></member>
     <member refid="group__GeneralGroup_1ga3f994efd266fcfa91366976539698e6b" kind="function"><name>hasModel</name></member>
+    <member refid="group__GeneralGroup_1gaa442bac6beba99be01093c0fe289d378" kind="function"><name>varPointCloudPtr</name></member>
+    <member refid="group__GeneralGroup_1gac447393d1be3d444f139905cc7a61329" kind="function"><name>pointCloudPtr</name></member>
     <member refid="group__GeneralGroup_1ga1e4577ab2bb24e7600c98bc550668b06" kind="function"><name>pointCloud</name></member>
     <member refid="group__GeneralGroup_1ga8f8cc5bc215e60ae310217c6a7afbcb4" kind="function"><name>pointCloudPart</name></member>
     <member refid="group__GeneralGroup_1gaa9ec3487af81936ddfc67111d2af8fd3" kind="function"><name>clone</name></member>
@@ -27728,6 +27734,8 @@
     <member refid="group__GeneralGroup_1ga8374696160d445c466b11e006c7fb4c7" kind="function"><name>hasModel</name></member>
     <member refid="group__GeneralGroup_1ga288d0f8a4f96ea4bb3023d24a68cb350" kind="function"><name>clone</name></member>
     <member refid="group__GeneralGroup_1ga86badba7ec7e0bdd786bdf427783b6e3" kind="function"><name>shallowClone</name></member>
+    <member refid="group__GeneralGroup_1gaa3875bc524fb77bbb459b77d5ee068ff" kind="function"><name>varPolylinePtr</name></member>
+    <member refid="group__GeneralGroup_1gad5cf75ed10ccc65062b81be77146a84d" kind="function"><name>polylinePtr</name></member>
     <member refid="group__GeneralGroup_1gae0b496042ca65d7b8bdb862c9e984ff7" kind="function"><name>polyline</name></member>
     <member refid="group__GeneralGroup_1ga2c118606eb83948e238984cf26a8733b" kind="function"><name>setDirtyFlags</name></member>
     <member refid="group__GeneralGroup_1ga6d3d6f849d88c940ef456090aef7249d" kind="function"><name>setDashPattern</name></member>
@@ -27800,6 +27808,8 @@
     <member refid="group__GeneralGroup_1gab9415388ab77dd620bfcdca156d96e67" kind="function"><name>applyScale</name></member>
     <member refid="group__GeneralGroup_1gafadaad70a91ca257f963cf38bcf1f9eb" kind="function"><name>hasVisualRepresentation</name></member>
     <member refid="group__GeneralGroup_1ga0f23153d023000ffb86577703cf329dd" kind="function"><name>hasModel</name></member>
+    <member refid="group__GeneralGroup_1gabc6f35e0e520a3551d1dab3ccd59f27b" kind="function"><name>varMeshPtr</name></member>
+    <member refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" kind="function"><name>meshPtr</name></member>
     <member refid="group__GeneralGroup_1gaf6739310dc9f9e21c461819ea47dc086" kind="function"><name>mesh</name></member>
     <member refid="group__GeneralGroup_1ga5f17cf78de5c594d2941f35bd82197f1" kind="function"><name>meshPart</name></member>
     <member refid="group__GeneralGroup_1ga29915614a6305ff839e77921819340c6" kind="function"><name>clone</name></member>
@@ -27943,6 +27953,8 @@
     <member refid="group__GeneralGroup_1gace435c6713a8f474acf226c4201a1bf5" kind="function"><name>applyScale</name></member>
     <member refid="group__GeneralGroup_1ga8824c33bac24ff7ace26edef63b2ae39" kind="function"><name>hasVisualRepresentation</name></member>
     <member refid="group__GeneralGroup_1ga3f994efd266fcfa91366976539698e6b" kind="function"><name>hasModel</name></member>
+    <member refid="group__GeneralGroup_1gaa442bac6beba99be01093c0fe289d378" kind="function"><name>varPointCloudPtr</name></member>
+    <member refid="group__GeneralGroup_1gac447393d1be3d444f139905cc7a61329" kind="function"><name>pointCloudPtr</name></member>
     <member refid="group__GeneralGroup_1ga1e4577ab2bb24e7600c98bc550668b06" kind="function"><name>pointCloud</name></member>
     <member refid="group__GeneralGroup_1ga8f8cc5bc215e60ae310217c6a7afbcb4" kind="function"><name>pointCloudPart</name></member>
     <member refid="group__GeneralGroup_1gaa9ec3487af81936ddfc67111d2af8fd3" kind="function"><name>clone</name></member>
@@ -31705,6 +31717,8 @@
     <member refid="group__PointsLoadGroup_1ga2f6fce0c981120353266ad43051e1eba" kind="function"><name>fromMultiScanFolder</name></member>
   </compound>
   <compound refid="APICppPage" kind="page"><name>APICppPage</name>
+  </compound>
+  <compound refid="deprecated" kind="page"><name>deprecated</name>
   </compound>
   <compound refid="dir_ac44010fd0c50cb00bed3e306e558be5" kind="dir"><name>MRCommonPlugins/Basic</name>
   </compound>

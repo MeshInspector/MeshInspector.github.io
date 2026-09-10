@@ -1,5 +1,11 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191ad5c7c7093e96c026200b27ff2ec99ff1":[9,0,1,0,1,46,9,12],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191add78eb3edda7b21ae662a3af71aec8ff":[9,0,1,0,1,46,9,5],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191aea0c2eb0e1f4d601ef8845cb9d3265f7":[9,0,1,0,1,46,9,2],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191aea2a4a37b9d169eb4eddf18d7e07c2e4":[9,0,1,0,1,46,9,3],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191afdf73f89250319addc5fb627e1a7d3cd":[9,0,1,0,1,46,9,11],
+"namespaceMR_1_1SpaceMouse.html#abf82e89e6fb5b9737517cfd1d6f69e18":[9,0,1,0,1,46,8],
 "namespaceMR_1_1SpaceMouse.html#af8da66a1778b1276a2273cce6aa25df1":[9,0,1,0,1,46,10],
 "namespaceMR_1_1SpaceMouse.html#afea9877496a4f6098c6687dbbae1ac62":[9,0,1,0,1,46,6],
 "namespaceMR_1_1StyleConsts.html":[9,0,0,20,25],
@@ -243,11 +249,5 @@ var NAVTREEINDEX60 =
 "structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[9,0,1,0,0,0,2],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03":[9,0,2,0,1,0,2],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[9,0,1,0,0,0,1],
-"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[9,0,2,0,1,0,1],
-"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[9,0,1,0,0,0,8],
-"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[9,0,2,0,1,0,8],
-"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[9,0,1,0,0,0,3],
-"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[9,0,2,0,1,0,3],
-"structImGui_1_1HistogramGridLine.html":[9,0,1,0,0,1],
-"structImGui_1_1HistogramGridLine.html":[9,0,2,0,1,1]
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[9,0,2,0,1,0,1]
 };

@@ -75,6 +75,7 @@ var classMR_1_1Const__ObjectMesh =
     [ "isVisible", "classMR_1_1Const__ObjectMesh.html#a078129d3eee0f499114fbbf94166bae5", null ],
     [ "mesh", "classMR_1_1Const__ObjectMesh.html#a5452f0b394beb7f8d2bc5eaf628a2a88", null ],
     [ "meshPart", "classMR_1_1Const__ObjectMesh.html#a41b157b23ab5177740f8720bb858cca2", null ],
+    [ "meshPtr", "classMR_1_1Const__ObjectMesh.html#a3908ad9b5adc9538ec34c5ac60c3330e", null ],
     [ "name", "classMR_1_1Const__ObjectMesh.html#ac6b9c5f0b62185015e2436dca6c22f0b", null ],
     [ "numComponents", "classMR_1_1Const__ObjectMesh.html#ab522762fc42c94ddab507be9763eb04c", null ],
     [ "numCreaseEdges", "classMR_1_1Const__ObjectMesh.html#ac7fdaf314697952b73b508adc4f66a7a", null ],

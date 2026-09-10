@@ -1,5 +1,11 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1PointCloud.html#a7f4cc661b8564a36aabab04453b0e27f":[9,0,0,12,0,5],
+"structMR_1_1PointCloud.html#a8ac1e905740b138eb0ea9644d11c6ad9":[9,0,0,12,0,6],
+"structMR_1_1PointCloud.html#a8d42094704ecd8b5b4eb3a82c10c111d":[9,0,0,12,0,8],
+"structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03":[9,0,0,12,0,23],
+"structMR_1_1PointCloud.html#a9fee9a45c5a54797c40fb2c7c9ed646e":[9,0,0,12,0,18],
+"structMR_1_1PointCloud.html#ab5cc9f05068553ba1033167bb6189fcf":[9,0,0,12,0,17],
 "structMR_1_1PointCloud.html#ab63b94ac2b31f8c2e5b7ee94bcfa2471":[9,0,0,12,0,12],
 "structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069":[9,0,0,12,0,16],
 "structMR_1_1PointCloud.html#ab8528785525982a60c9bb9ea1ddcc103":[9,0,0,12,0,11],
@@ -243,11 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1SceneReorder.html":[9,0,0,20,712],
 "structMR_1_1SceneSave_1_1Settings.html":[9,0,1,0,1,44,0],
 "structMR_1_1SceneSave_1_1Settings.html":[9,0,2,0,2,29,0],
-"structMR_1_1SceneSave_1_1Settings.html#a5eba607b1b31e9aa25865db38feea83b":[9,0,1,0,1,44,0,1],
-"structMR_1_1SceneSave_1_1Settings.html#a5eba607b1b31e9aa25865db38feea83b":[9,0,2,0,2,29,0,1],
-"structMR_1_1SceneSave_1_1Settings.html#abe24eb97f130222d8ab758179249597b":[9,0,1,0,1,44,0,0],
-"structMR_1_1SceneSave_1_1Settings.html#abe24eb97f130222d8ab758179249597b":[9,0,2,0,2,29,0,0],
-"structMR_1_1SearchPathSettings.html":[9,0,0,20,422],
-"structMR_1_1SegmEndColors.html":[9,0,0,20,833],
-"structMR_1_1SegmPoint.html":[9,0,0,0,21]
+"structMR_1_1SceneSave_1_1Settings.html#a5eba607b1b31e9aa25865db38feea83b":[9,0,1,0,1,44,0,1]
 };

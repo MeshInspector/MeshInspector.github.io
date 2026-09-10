@@ -1,5 +1,11 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a37b0bf2cf4c042ffe4a78515e1678539":[9,0,0,19,0,1,1],
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#a636d67f78f166efbfe9ac18cc9d0d530":[9,0,0,19,0,1,2],
+"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#aeaa75229a5b3cb60dc76ff1032f4c655":[9,0,0,19,0,1,3],
+"structMR_1_1MeshEqualizeTriAreasParams.html":[9,0,0,9,6,1],
+"structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[9,0,0,9,6,1,0],
+"structMR_1_1MeshFromVoxelsPostProcessingParams.html":[9,0,0,20,877],
 "structMR_1_1MeshIntersectionResult.html":[9,0,0,1,19],
 "structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903":[9,0,0,1,19,0],
 "structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1":[9,0,0,1,19,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1PointCloud.html#a5da247e2172bb10e5ba6ed1105d5c167":[9,0,0,12,0,13],
 "structMR_1_1PointCloud.html#a645a4b6af1de600172fab56912082219":[9,0,0,12,0,9],
 "structMR_1_1PointCloud.html#a765101913d8149614746444a3257c1f2":[9,0,0,12,0,2],
-"structMR_1_1PointCloud.html#a7e507a7cdba55a1c26aa3a073cf2d315":[9,0,0,12,0,1],
-"structMR_1_1PointCloud.html#a7f4cc661b8564a36aabab04453b0e27f":[9,0,0,12,0,5],
-"structMR_1_1PointCloud.html#a8ac1e905740b138eb0ea9644d11c6ad9":[9,0,0,12,0,6],
-"structMR_1_1PointCloud.html#a8d42094704ecd8b5b4eb3a82c10c111d":[9,0,0,12,0,8],
-"structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03":[9,0,0,12,0,23],
-"structMR_1_1PointCloud.html#a9fee9a45c5a54797c40fb2c7c9ed646e":[9,0,0,12,0,18],
-"structMR_1_1PointCloud.html#ab5cc9f05068553ba1033167bb6189fcf":[9,0,0,12,0,17]
+"structMR_1_1PointCloud.html#a7e507a7cdba55a1c26aa3a073cf2d315":[9,0,0,12,0,1]
 };

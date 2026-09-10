@@ -94,6 +94,7 @@ var classMR_1_1Const__ObjectVoxels =
     [ "isVolumeRenderingEnabled", "classMR_1_1Const__ObjectVoxels.html#aa05553587afd29fec87723ec30bbdb04", null ],
     [ "mesh", "classMR_1_1Const__ObjectVoxels.html#a29dd0587df04558e1c880007aa59a7ab", null ],
     [ "meshPart", "classMR_1_1Const__ObjectVoxels.html#a1aac428df5f455f2933ac55299d297a3", null ],
+    [ "meshPtr", "classMR_1_1Const__ObjectVoxels.html#ad84232e38f12ea6440b45d6ee2c15437", null ],
     [ "name", "classMR_1_1Const__ObjectVoxels.html#a60182b69084972c3c5af36801fe22cdc", null ],
     [ "numComponents", "classMR_1_1Const__ObjectVoxels.html#a49903a8a3fe922368b692af0eaf3ddeb", null ],
     [ "numCreaseEdges", "classMR_1_1Const__ObjectVoxels.html#a6e4c96e995c834dd26a62e8c26a744d7", null ],

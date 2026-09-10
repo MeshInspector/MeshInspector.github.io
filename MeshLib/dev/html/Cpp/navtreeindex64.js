@@ -1,5 +1,11 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html":[9,0,2,0,2,7,9],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html#a275878227f6987b781fd73d3741d8a6d":[9,0,1,0,1,16,9,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html#a275878227f6987b781fd73d3741d8a6d":[9,0,2,0,2,7,9,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html#ae57c16098d513998573613bc01be95d3":[9,0,1,0,1,16,9,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html#ae57c16098d513998573613bc01be95d3":[9,0,2,0,2,7,9,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html":[9,0,1,0,1,16,9,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html":[9,0,2,0,2,7,9,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a4bffbd994362942f69eb09e7e455e883":[9,0,1,0,1,16,9,0,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a4bffbd994362942f69eb09e7e455e883":[9,0,2,0,2,7,9,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html":[9,0,0,20,343],
 "structMR_1_1MakeSignedByWindingNumberSettings.html":[9,0,0,20,896],
 "structMR_1_1MapOrHashMap.html":[9,0,0,20,325],
-"structMR_1_1MarchingCubesParams.html":[9,0,0,20,854],
-"structMR_1_1MarkedContour3f.html":[9,0,0,20,326],
-"structMR_1_1MarkedVoxelSlice_1_1Mark.html":[9,0,0,20,608],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[9,0,0,20,609],
-"structMR_1_1Matrix.html":[9,0,0,0,7,0],
-"structMR_1_1Matrix.html#a2ad7f900e6b01f0617767997c6b9b640":[9,0,0,0,7,0,1],
-"structMR_1_1Matrix.html#a354da291fab3037516b4802e24177529":[9,0,0,0,7,0,13]
+"structMR_1_1MarchingCubesParams.html":[9,0,0,20,854]
 };

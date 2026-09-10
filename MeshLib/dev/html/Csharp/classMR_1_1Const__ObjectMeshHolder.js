@@ -75,6 +75,7 @@ var classMR_1_1Const__ObjectMeshHolder =
     [ "isVisible", "classMR_1_1Const__ObjectMeshHolder.html#a58a84ca1213b9b29754cb3f66b384940", null ],
     [ "mesh", "classMR_1_1Const__ObjectMeshHolder.html#a27141ad37dfd94cce1beb8891291f7f8", null ],
     [ "meshPart", "classMR_1_1Const__ObjectMeshHolder.html#a0b5d09295b2d681257dc3b70d4404e17", null ],
+    [ "meshPtr", "classMR_1_1Const__ObjectMeshHolder.html#a598d1cd411c39ce9b1ea92903ed3505d", null ],
     [ "name", "classMR_1_1Const__ObjectMeshHolder.html#ad0dd8fa55b36ae14cc0d611d9c660d47", null ],
     [ "numComponents", "classMR_1_1Const__ObjectMeshHolder.html#a4654a7ac1e8b4cc0ce6308159c0ed83f", null ],
     [ "numCreaseEdges", "classMR_1_1Const__ObjectMeshHolder.html#afa1f87eb2f115c891b545767e1f95aa6", null ],

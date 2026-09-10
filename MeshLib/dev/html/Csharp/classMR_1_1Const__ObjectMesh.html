@@ -189,8 +189,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af0770e1051783085cd4161af2a2d70d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">mesh object can be seen if the mesh has at least one edge Generated from method <span class="tt"><a class="el" href="#af0770e1051783085cd4161af2a2d70d4" title="mesh object can be seen if the mesh has at least one edge Generated from method MR....">MR.ObjectMesh.hasVisualRepresentation</a></span>.  <br /></td></tr>
 <tr class="memitem:a3c24be5da2d68db53a337cfb21a9b02e" id="r_a3c24be5da2d68db53a337cfb21a9b02e"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c24be5da2d68db53a337cfb21a9b02e">hasModel</a> ()</td></tr>
 <tr class="memdesc:a3c24be5da2d68db53a337cfb21a9b02e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a3c24be5da2d68db53a337cfb21a9b02e" title="Generated from method MR.ObjectMesh.hasModel.">MR.ObjectMesh.hasModel</a></span>.  <br /></td></tr>
+<tr class="memitem:a3908ad9b5adc9538ec34c5ac60c3330e" id="r_a3908ad9b5adc9538ec34c5ac60c3330e"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__Mesh.html">Const_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3908ad9b5adc9538ec34c5ac60c3330e">meshPtr</a> ()</td></tr>
+<tr class="memdesc:a3908ad9b5adc9538ec34c5ac60c3330e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mesh of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#a3908ad9b5adc9538ec34c5ac60c3330e" title="returns the mesh of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectMesh.meshPtr</a></span>.  <br /></td></tr>
 <tr class="memitem:a5452f0b394beb7f8d2bc5eaf628a2a88" id="r_a5452f0b394beb7f8d2bc5eaf628a2a88"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_SharedPtr_ConstMRMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5452f0b394beb7f8d2bc5eaf628a2a88">mesh</a> ()</td></tr>
-<tr class="memdesc:a5452f0b394beb7f8d2bc5eaf628a2a88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a5452f0b394beb7f8d2bc5eaf628a2a88" title="Generated from method MR.ObjectMesh.mesh.">MR.ObjectMesh.mesh</a></span>.  <br /></td></tr>
 <tr class="memitem:a41b157b23ab5177740f8720bb858cca2" id="r_a41b157b23ab5177740f8720bb858cca2"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1MeshPart.html">MR.MeshPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41b157b23ab5177740f8720bb858cca2">meshPart</a> ()</td></tr>
 <tr class="memitem:a35d684347eb6525a9ccf3206300f9ad7" id="r_a35d684347eb6525a9ccf3206300f9ad7"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35d684347eb6525a9ccf3206300f9ad7">getSelectedFaces</a> ()</td></tr>
 <tr class="memdesc:a35d684347eb6525a9ccf3206300f9ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a35d684347eb6525a9ccf3206300f9ad7" title="Generated from method MR.ObjectMesh.getSelectedFaces.">MR.ObjectMesh.getSelectedFaces</a></span>.  <br /></td></tr>
@@ -2394,8 +2395,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Generated from method <span class="tt"><a class="el" href="#a5452f0b394beb7f8d2bc5eaf628a2a88" title="Generated from method MR.ObjectMesh.mesh.">MR.ObjectMesh.mesh</a></span>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000005">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#a3908ad9b5adc9538ec34c5ac60c3330e" title="returns the mesh of this object, or nullptr if it is not set Generated from method MR....">meshPtr()</a> instead Generated from method <span class="tt"><a class="el" href="#a5452f0b394beb7f8d2bc5eaf628a2a88">MR.ObjectMesh.mesh</a></span>. </dd></dl>
 
 </div>
 </div>
@@ -2422,6 +2422,33 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the pair ( mesh, selected triangles ) if any triangle is selected or whole mesh otherwise Generated from method <span class="tt"><a class="el" href="#a41b157b23ab5177740f8720bb858cca2">MR.ObjectMesh.meshPart</a></span>. </dd></dl>
+
+</div>
+</div>
+<a id="a3908ad9b5adc9538ec34c5ac60c3330e" name="a3908ad9b5adc9538ec34c5ac60c3330e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3908ad9b5adc9538ec34c5ac60c3330e">&#9670;&#160;</a></span>meshPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.? <a class="el" href="classMR_1_1Const__Mesh.html">Const_Mesh</a> MR.Const_ObjectMesh.meshPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the mesh of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#a3908ad9b5adc9538ec34c5ac60c3330e" title="returns the mesh of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectMesh.meshPtr</a></span>. </p>
 
 </div>
 </div>

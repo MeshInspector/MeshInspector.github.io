@@ -165,7 +165,7 @@ $(function(){initNavTree('MRChangeMeshAction_8h_source.html','',''); });
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    {</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordflow">if</span> ( obj )</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        {</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            <span class="keywordflow">if</span> ( <span class="keyword">auto</span> m = obj-&gt;mesh() )</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            <span class="keywordflow">if</span> ( <span class="keyword">auto</span> m = obj-&gt;meshPtr() )</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>                cloneMesh_ = std::make_shared&lt;Mesh&gt;( *m );</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        }</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
@@ -371,7 +371,7 @@ $(function(){initNavTree('MRChangeMeshAction_8h_source.html','',''); });
 <div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    {</div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>        <span class="keywordflow">if</span> ( !objMesh_ )</div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>        <span class="keywordflow">if</span> ( <span class="keyword">auto</span> m = objMesh_-&gt;mesh() )</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>        <span class="keywordflow">if</span> ( <span class="keyword">auto</span> m = objMesh_-&gt;meshPtr() )</div>
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>            clonePoints_ = m-&gt;points;</div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    }</div>
 </div>
@@ -446,7 +446,7 @@ $(function(){initNavTree('MRChangeMeshAction_8h_source.html','',''); });
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    {</div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>        <span class="keywordflow">if</span> ( !objMesh_ )</div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>        <span class="keywordflow">if</span> ( <span class="keyword">auto</span> m = objMesh_-&gt;mesh() )</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>        <span class="keywordflow">if</span> ( <span class="keyword">auto</span> m = objMesh_-&gt;meshPtr() )</div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>            cloneTopology_ = m-&gt;topology;</div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    }</div>
 </div>

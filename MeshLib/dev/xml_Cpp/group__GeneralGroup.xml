@@ -17391,7 +17391,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="123" column="5" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="123" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="131" column="5" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga805c1ad3440c499cc84cd984e5284780" prot="public" static="no">
         <type>Signal&lt; void()&gt;</type>
@@ -17406,7 +17406,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="273" column="5" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="273" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="281" column="5" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="281" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gac614a0df5c890a819449780ce778d66f" prot="public" static="no">
         <type>Signal&lt; void(uint32_t mask)&gt;</type>
@@ -17421,7 +17421,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="279" column="5" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="279" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="287" column="5" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="287" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga47af96d907b055836d92ad8ff7c21d95" prot="public" static="no">
         <type>Signal&lt; void()&gt;</type>
@@ -17436,7 +17436,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="164" column="5" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="164" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="172" column="5" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga5973874925d41d27196eb5a6f381ebbc" prot="public" static="no">
         <type>Signal&lt; void(uint32_t mask)&gt;</type>
@@ -17451,7 +17451,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="171" column="5" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="171" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="179" column="5" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="179" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga33324ded1eb6bd24558e279fc84ce438" prot="public" static="no">
         <type>Signal&lt; void(Object *obj, const std::string &amp;tag)&gt;</type>
@@ -37822,7 +37822,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="124" column="24" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="124" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="132" column="24" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga93290385193f37f80ec2fe07e19fc8c9" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; size_t &gt;</type>
@@ -37836,7 +37836,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="158" column="27" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="158" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="166" column="27" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="166" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac4657e92207e28ae97a59ce816f15f2e" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; size_t &gt;</type>
@@ -37850,7 +37850,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="159" column="27" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="159" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="167" column="27" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2abf795e99899109737e507f19ac02a7" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; float &gt;</type>
@@ -37864,7 +37864,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="160" column="27" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="160" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="168" column="27" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaee46157cb8a669b29f698f0ea9688264" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; float &gt;</type>
@@ -37878,7 +37878,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="161" column="27" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="161" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="169" column="27" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="169" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf3f76f7286057cda0116754b663cf340" prot="protected" static="no" mutable="yes">
         <type>ViewportProperty&lt; XfBasedCache&lt; Box3f &gt; &gt;</type>
@@ -37892,7 +37892,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="162" column="30" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="162" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="170" column="30" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaebf8fd3ebbe9baca5e1890a03da63db7" prot="protected" static="no" mutable="no">
         <type>VertColors</type>
@@ -37906,7 +37906,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="164" column="16" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="164" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="172" column="16" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga58e224092d5971b40208e6d4a15e6862" prot="protected" static="no" mutable="no">
         <type>UndirectedEdgeColors</type>
@@ -37920,7 +37920,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="165" column="26" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="165" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="173" column="26" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="173" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac97e60fe1e8a87ff8905e571fd47bbd1" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -37934,7 +37934,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="167" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="167" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="175" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="175" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5e2decefeb68afc04d745403e70da92f" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -37948,7 +37948,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="168" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="168" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="176" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga64d69137f11ccce4e6ba7aaa0ef41237" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -37962,7 +37962,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="169" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="169" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="177" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="177" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabe70f54ddf2aae2d5784d3aac54214ca" prot="protected" static="no" mutable="no">
         <type>ViewportProperty&lt; DashPattern &gt;</type>
@@ -37977,7 +37977,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="170" column="22" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="170" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="178" column="22" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="178" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab981ac159b7e944aef46d972503003e7" prot="protected" static="no" mutable="no">
         <type>float</type>
@@ -37993,7 +37993,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="173" column="11" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="173" bodyend="173"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="181" column="11" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="181" bodyend="181"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8de8f6b6c5eaa17e1cfd18ffe80fda9d" prot="protected" static="no" mutable="no">
         <type>float</type>
@@ -38008,7 +38008,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="174" column="11" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="174" bodyend="174"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="182" column="11" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="182" bodyend="182"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafba90d7f156c0d8bb20a9daa74a003ce" prot="protected" static="no" mutable="no">
         <type>std::shared_ptr&lt; Polyline3 &gt;</type>
@@ -38022,7 +38022,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="175" column="21" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="175" bodyend="-1"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="183" column="21" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="183" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga768ff92a1b363f68475e9d27cfc1688a" prot="public" static="no" mutable="no">
         <type>const std::vector&lt; AffineXf3f &gt; *</type>
@@ -38325,7 +38325,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="274" column="28" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="274" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="282" column="28" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="282" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1292f930863c1ec575b946a71efaa225" prot="public" static="no" mutable="no">
         <type>SelectionChangedSignal</type>
@@ -38339,7 +38339,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="275" column="28" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="275" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="283" column="28" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="283" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf852a5542908bb08f0eecec630ba0ef8" prot="public" static="no" mutable="no">
         <type>SelectionChangedSignal</type>
@@ -38353,7 +38353,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="276" column="28" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="276" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="284" column="28" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="284" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga13d6a31dd591af6acf9a834da59aa1fd" prot="public" static="no" mutable="no">
         <type>MeshChangedSignal</type>
@@ -38367,7 +38367,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="280" column="23" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="280" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="288" column="23" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="288" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4d8f66e084faf7466dcbbc15865dfe6b" prot="protected" static="no" mutable="no">
         <type>ObjectMeshData</type>
@@ -38381,7 +38381,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="283" column="20" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="283" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="291" column="20" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="291" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga00b7332057379b5380b52ad91a88ed4e" prot="protected" static="no" mutable="no">
         <type>Vector&lt; MeshTexture, TextureId &gt;</type>
@@ -38396,7 +38396,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="286" column="12" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="286" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="294" column="12" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="294" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaabe11a7d97527caa17d527044aa97a11" prot="protected" static="no" mutable="no">
         <type>MeshTexture</type>
@@ -38410,7 +38410,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="288" column="17" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="288" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="296" column="17" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="296" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga41d53a14ee2d2fa5b894d5a5b19586e5" prot="protected" static="no" mutable="no">
         <type>VertUVCoords</type>
@@ -38425,7 +38425,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="289" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="289" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="297" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="297" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1f8f8cc0499cdafeb2d13bf4cc596002" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; size_t &gt;</type>
@@ -38439,7 +38439,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="291" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="291" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="299" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="299" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga996fcb729de614183881e67181ee8ed9" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; size_t &gt;</type>
@@ -38453,7 +38453,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="292" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="292" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="300" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="300" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6bceb32f08fb95f31d399daf788c3bf1" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; size_t &gt;</type>
@@ -38467,7 +38467,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="293" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="293" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="301" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="301" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga638c9fd07d62fc31be6c0b36171ebb71" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; size_t &gt;</type>
@@ -38481,7 +38481,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="294" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="294" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="302" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="302" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gadbd8b03aaca3e9e823be43fe1b77f12a" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; bool &gt;</type>
@@ -38495,7 +38495,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="295" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="295" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="303" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="303" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga102e4183b2d8571edf565f4dd6e61a94" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; size_t &gt;</type>
@@ -38509,7 +38509,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="296" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="296" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="304" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="304" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga54b15a24e639bc505ad9080bd8128b4c" prot="protected" static="no" mutable="no">
         <type>std::optional&lt; size_t &gt;</type>
@@ -38523,7 +38523,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="296" column="45" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="296" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="304" column="45" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="304" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf410ff87afee85c7978cca07f1616415" prot="protected" static="no" mutable="no">
         <type>std::optional&lt; size_t &gt;</type>
@@ -38537,7 +38537,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="296" column="63" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="296" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="304" column="63" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="304" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabfac8fd9808955939be1f0186cbdb896" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; double &gt;</type>
@@ -38551,7 +38551,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="297" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="297" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="305" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="305" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacb6fda2cf6c7571a2377f2589cf588e4" prot="protected" static="no" mutable="no">
         <type>std::optional&lt; double &gt;</type>
@@ -38565,7 +38565,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="297" column="38" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="297" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="305" column="38" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="305" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga58dd82a33da66d9d3ec4496e55d90a20" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; double &gt;</type>
@@ -38579,7 +38579,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="298" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="298" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="306" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="306" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7b9b185e83a83d6a3cdf3f18fca7d410" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; float &gt;</type>
@@ -38593,7 +38593,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="299" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="299" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="307" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="307" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga33c3cd830b02b4b20f5c72a8bf2f7a47" prot="protected" static="no" mutable="yes">
         <type>ViewportProperty&lt; XfBasedCache&lt; Box3f &gt; &gt;</type>
@@ -38607,7 +38607,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="300" column="30" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="300" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="308" column="30" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="308" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf72fa2fcab15bd3bf7603fdd80cbba88" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -38621,7 +38621,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="326" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="326" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="334" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="334" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad7aa672bc4e05315f4c4ce221052f19e" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -38636,7 +38636,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="327" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="327" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="335" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="335" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2d4ce0acba3551b05cd666448ac281ea" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -38650,7 +38650,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="328" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="328" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="336" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="336" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4fdda6003dc7f769d8227e058ee544e5" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -38664,7 +38664,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="329" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="329" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="337" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="337" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad879a1f93bfd6cabaa301a5c100bba0c" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -38679,7 +38679,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="330" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="330" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="338" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="338" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab0bf0b80cfcbea1dbaa1b6756875f04d" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -38694,7 +38694,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="331" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="331" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="339" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="339" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7fcd56a6b217b20156b3dbaf4af67cfd" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -38708,7 +38708,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="332" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="332" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="340" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="340" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabfb0b5e6707ccd91eba2f65995c7d4fb" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -38722,7 +38722,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="333" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="333" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="341" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="341" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga24fe3e12e40596c73eb4986aa7e32b75" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -38737,7 +38737,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="334" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="334" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="342" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="342" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf0c66d3dd88973f029e2b39f28453178" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -38753,7 +38753,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="338" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="338" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="346" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="346" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga40080eaaf8af23095fec3cc9cd024aba" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -38767,7 +38767,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="340" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="340" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="348" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="348" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafae46ed97209f2812a1d201e7005e7ba" prot="protected" static="no" mutable="no">
         <type>ViewportProperty&lt; Color &gt;</type>
@@ -38781,7 +38781,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="342" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="342" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="350" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="350" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6ca784437675d7585dd7787889353c3a" prot="protected" static="no" mutable="no">
         <type>ViewportProperty&lt; Color &gt;</type>
@@ -38795,7 +38795,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="343" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="343" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="351" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="351" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab7fd1ed5927f5fc5a4c51cfa56bf2012" prot="protected" static="no" mutable="no">
         <type>ViewportProperty&lt; Color &gt;</type>
@@ -38809,7 +38809,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="344" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="344" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="352" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="352" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga219bb50dadde8e1916311120d3a9a6c4" prot="protected" static="no" mutable="no">
         <type>ViewportProperty&lt; Color &gt;</type>
@@ -38823,7 +38823,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="345" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="345" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="353" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="353" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga03a8c271c0681ce20d9510255ef66d78" prot="protected" static="no" mutable="no">
         <type>ViewportProperty&lt; Color &gt;</type>
@@ -38837,7 +38837,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="346" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="346" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="354" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="354" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa1769e8d7559173dc663c5b67a445a07" prot="protected" static="no" mutable="no">
         <type>float</type>
@@ -38852,7 +38852,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="348" column="11" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="348" bodyend="348"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="356" column="11" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="356" bodyend="356"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab187aa4debc4ac6ed823e8b65e20df33" prot="protected" static="no" mutable="no">
         <type>float</type>
@@ -38867,7 +38867,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="349" column="11" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="349" bodyend="349"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="357" column="11" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="357" bodyend="357"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf05bfcbf0acf9d6b16f25a1c384f9020" prot="private" static="no" mutable="no">
         <type>const char *</type>
@@ -38882,7 +38882,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="358" column="17" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="358" bodyend="-1"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="366" column="17" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="366" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacdce382a246b8c333783f28615aac9f0" prot="public" static="no" mutable="no">
         <type></type>
@@ -38924,7 +38924,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="137" column="26" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="137" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="145" column="26" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="145" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga64f6a6f37810695e4b48f8022a5bde9f" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>int</type>
@@ -38940,7 +38940,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="139" column="26" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="139" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="147" column="26" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="147" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5bbb21ee63e49be34db52c3c870061a4" prot="public" static="no" mutable="no">
         <type>SelectionChangedSignal</type>
@@ -38954,7 +38954,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="165" column="28" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="165" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="173" column="28" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="173" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6fea0837d122988e4317e021db887a42" prot="public" static="no" mutable="no">
         <type>Signal&lt; void()&gt;</type>
@@ -38969,7 +38969,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="168" column="12" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="168" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="176" column="12" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga399b7a5eaf4584900665900719cb2e7f" prot="public" static="no" mutable="no">
         <type>ChangedSignal</type>
@@ -38983,7 +38983,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="172" column="19" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="172" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="180" column="19" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="180" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga89efdd45b8ade4b867e62d9b15297963" prot="public" static="no" mutable="no">
         <type>ChangedSignal</type>
@@ -38997,7 +38997,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="173" column="19" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="173" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="181" column="19" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="181" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga63b094a393073c94e180aece5eeb0729" prot="protected" static="no" mutable="no">
         <type>VertBitSet</type>
@@ -39011,7 +39011,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="176" column="16" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="176" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="184" column="16" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="184" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga20b26902cdfc19f4bd28762ec7add76e" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; size_t &gt;</type>
@@ -39025,7 +39025,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="177" column="27" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="177" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="185" column="27" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="185" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf7ab9f32dcef65ad1a79fde9078c19af" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; size_t &gt;</type>
@@ -39039,7 +39039,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="178" column="27" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="178" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="186" column="27" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="186" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga045c0320f1489b9374254b9dd00aeb51" prot="protected" static="no" mutable="no">
         <type>ViewportProperty&lt; Color &gt;</type>
@@ -39053,7 +39053,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="179" column="22" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="179" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="187" column="22" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="187" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga48270cb125e897505184be1003eb4500" prot="protected" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -39068,7 +39068,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="180" column="18" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="180" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="188" column="18" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="188" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3bea7e24940446fdc81e38da2f8db14c" prot="protected" static="no" mutable="no">
         <type>VertColors</type>
@@ -39082,7 +39082,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="181" column="16" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="181" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="189" column="16" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="189" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabfa588fa9e443c6c2bb637a1e9ad98cb" prot="protected" static="no" mutable="no">
         <type>std::shared_ptr&lt; PointCloud &gt;</type>
@@ -39096,7 +39096,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="187" column="21" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="187" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="195" column="21" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="195" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga896a4967afa85824de6ebc22a609a95d" prot="protected" static="no" mutable="yes">
         <type>ViewportProperty&lt; XfBasedCache&lt; Box3f &gt; &gt;</type>
@@ -39110,7 +39110,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="188" column="30" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="188" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="196" column="30" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="196" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaff82edcc80eafd10cf373c842d0c3b8e" prot="protected" static="no" mutable="no">
         <type>float</type>
@@ -39126,7 +39126,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="191" column="11" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="191" bodyend="191"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="199" column="11" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="199" bodyend="199"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1bf94b614f61d0c5f7e7e9128c767f12" prot="protected" static="no" mutable="no">
         <type>int</type>
@@ -39141,7 +39141,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="213" column="9" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="213" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="221" column="9" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="221" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga75cc66876cd874cbf5e8185768bdb2be" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -39156,7 +39156,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="226" column="9" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="226" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="234" column="9" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="234" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gace6ed38ca530c42b12860aef7d541653" prot="private" static="no" mutable="no">
         <type>const char *</type>
@@ -39172,7 +39172,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="228" column="17" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="228" bodyend="-1"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="236" column="17" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="236" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga22f25a3d5d44b6ce0dd9cbf858973ae3" prot="public" static="no" mutable="no">
         <type></type>
@@ -123253,7 +123253,7 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid <ref refid="group__GeneralGroup_1gaf6739310dc9f9e21c461819ea47dc086" kindref="member">mesh()</ref> or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() </para>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid <ref refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" kindref="member">meshPtr()</ref> or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloudPtr() </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -124663,7 +124663,7 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() </para>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid meshPtr() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloudPtr() </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -124705,6 +124705,36 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="MRMesh/MRObjectLinesHolder.h" line="48" column="30"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaa3875bc524fb77bbb459b77d5ee068ff" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Polyline3 *</type>
+        <definition>Polyline3 * MR::ObjectLinesHolder::varPolylinePtr</definition>
+        <argsstring>()</argsstring>
+        <name>varPolylinePtr</name>
+        <qualifiedname>MR::ObjectLinesHolder::varPolylinePtr</qualifiedname>
+        <briefdescription>
+<para>returns the polyline of this object for modification, or nullptr if it is not set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="51" column="22" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gad5cf75ed10ccc65062b81be77146a84d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Polyline3 *</type>
+        <definition>const Polyline3 * MR::ObjectLinesHolder::polylinePtr</definition>
+        <argsstring>() const</argsstring>
+        <name>polylinePtr</name>
+        <qualifiedname>MR::ObjectLinesHolder::polylinePtr</qualifiedname>
+        <briefdescription>
+<para>returns the polyline of this object, or nullptr if it is not set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="54" column="22" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="54" bodyend="54"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae0b496042ca65d7b8bdb862c9e984ff7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::shared_ptr&lt; const Polyline3 &gt; &amp;</type>
         <definition>const std::shared_ptr&lt; const Polyline3 &gt; &amp; MR::ObjectLinesHolder::polyline</definition>
@@ -124714,10 +124744,12 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000001"><xreftitle>Deprecated</xreftitle><xrefdescription><para>the cast inside is undefined behaviour, use <ref refid="group__GeneralGroup_1gad5cf75ed10ccc65062b81be77146a84d" kindref="member">polylinePtr()</ref> instead </para>
+</xrefdescription></xrefsect></para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="54" column="27" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="54" bodyend="55"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="62" column="27" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="62" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2c118606eb83948e238984cf26a8733b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -124743,7 +124775,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="60" column="19"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="68" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6d3d6f849d88c940ef456090aef7249d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -124767,7 +124799,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="67" column="19"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="75" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7b42c2e0a5a94bede326754d2b3f369c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>const DashPattern &amp;</type>
@@ -124791,7 +124823,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="68" column="31" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="68" bodyend="68"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="76" column="31" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="76" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae8ac64f5bee07f392d5146616d32655c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -124809,7 +124841,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="70" column="19"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="78" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad29f08547db22aca65fa19e23ac218b7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>float</type>
@@ -124824,7 +124856,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="71" column="19" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="71" bodyend="71"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="79" column="19" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="79" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac925a432024811359cd2897105e1ea0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -124842,7 +124874,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="72" column="19"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="80" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga73e673c22a3081ef1fc777c20c702125" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>float</type>
@@ -124856,7 +124888,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="73" column="19" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="73" bodyend="73"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="81" column="19" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="81" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaee2f0ca0cadeda77ed87b5834547d9f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -124880,7 +124912,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="76" column="5" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="76" bodyend="76"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="84" column="5" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="84" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3006fc44192a071fef4bab8866b90744" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const VertColors &amp;</type>
@@ -124895,7 +124927,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="79" column="22" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="79" bodyend="79"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="87" column="22" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="87" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gace6659e797e2acb19d73486102ef01d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -124914,7 +124946,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="82" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="82" bodyend="82"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="90" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="90" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab2d21946ef246e3fb5f97cdd7fc89e1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -124933,7 +124965,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="85" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="85" bodyend="85"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="93" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="93" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3b4f5ecefe1873ce10840277c57f9e94" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const UndirectedEdgeColors &amp;</type>
@@ -124947,7 +124979,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="87" column="32" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="87" bodyend="87"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="95" column="32" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="95" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacd01b614fd09efea6271585ca949bfa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -124965,7 +124997,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="88" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="88" bodyend="88"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="96" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="96" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga59e3e83d9bf413fdb9a84fedda40f08f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -124983,7 +125015,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="89" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="89" bodyend="89"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="97" column="18" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="97" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8c79f230dde0e7630a36eea3f0b0e462" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -125003,7 +125035,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="91" column="12"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="99" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaaa91fbfbcb8b7350ca5b16b3ef1754fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>AllVisualizeProperties</type>
@@ -125019,7 +125051,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="93" column="29"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="101" column="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga101eff1217ba6e2b9831038c2df8f6cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>const ViewportMask &amp;</type>
@@ -125039,7 +125071,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="95" column="25"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="103" column="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1285d8eb2e97fb22365dca86f412538e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -125080,7 +125112,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="98" column="19"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="106" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8804ef79037117d7ab6ee55952194df3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>Box3f</type>
@@ -125100,7 +125132,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="102" column="20"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="110" column="20"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf1ab39f2aa085b410a6f1a3738fb9e12" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type>size_t</type>
@@ -125117,7 +125149,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="105" column="22"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="113" column="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabd9051980f74da0110bfeef73ebc1d2a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -125132,7 +125164,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="108" column="13"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="116" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga51d0fd14a1096bdd989bf91f74647583" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -125147,7 +125179,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="111" column="14"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="119" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga049d12b9880208319efe15e21cb9e939" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -125162,7 +125194,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="114" column="14"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="122" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga63c16c4638d51d456c986a1136d1c937" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -125177,7 +125209,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="117" column="13"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="125" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga17db95a8d25d22c913fbaa27e2f72af1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -125193,7 +125225,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="120" column="11"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="128" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac57e00c43da38f333bf623761dfd2c82" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -125211,7 +125243,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="127" column="5"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="135" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaca193c04df4a53ca594bc7b038e81848" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -125233,7 +125265,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="130" column="19"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="138" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5be3e4021558ce03754c02863c140917" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -125254,7 +125286,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="134" column="19"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="142" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga21122266edf9a2099b7715ce07616c3e" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -125273,7 +125305,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="138" column="11"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="146" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4015cc30818d479e4158e2d4c19ca6eb" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -125295,7 +125327,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="140" column="19"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="148" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac06fcc8cb9f188126a8933d4792efc28" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>Expected&lt; void &gt;</type>
@@ -125320,7 +125352,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="142" column="15"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="150" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gace7577feee3f35a688b9c335bb76a422" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -125339,7 +125371,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="146" column="11"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="154" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga97e97ebc00437373b5dd3ae4d9889fa9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -125360,7 +125392,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="149" column="19"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="157" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad09fce44b9b485c7bd1019f9c5e31518" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>Box3f</type>
@@ -125375,7 +125407,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="151" column="20"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="159" column="20"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2738afc520b1d5a314f8da690f0d0dfe" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -125391,7 +125423,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="153" column="19"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="161" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1d6d61e3e553b2c152749bbc248d80f2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -125415,7 +125447,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="156" column="11"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="164" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8c460b85e5145a984b0ed194e901f158" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -125430,7 +125462,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="179" column="10"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="187" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4205065108344881a4dc050d2255bff7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -125445,7 +125477,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectLinesHolder.h" line="182" column="10"/>
+        <location file="MRMesh/MRObjectLinesHolder.h" line="190" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga60912e66f88e4d3f0f1330585e37a930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -125589,7 +125621,7 @@ element fields:<linebreak/>
         <name>varMesh</name>
         <qualifiedname>MR::ObjectMesh::varMesh</qualifiedname>
         <briefdescription>
-<para>returns variable mesh, if const mesh is needed use <computeroutput><ref refid="group__GeneralGroup_1gaf6739310dc9f9e21c461819ea47dc086" kindref="member">mesh()</ref></computeroutput> instead </para>
+<para>returns variable mesh, if const mesh is needed use <computeroutput><ref refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" kindref="member">meshPtr()</ref></computeroutput> instead </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126027,11 +126059,41 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid <ref refid="group__GeneralGroup_1gaf6739310dc9f9e21c461819ea47dc086" kindref="member">mesh()</ref> or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() </para>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid <ref refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" kindref="member">meshPtr()</ref> or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloudPtr() </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRObjectMeshHolder.h" line="52" column="19" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gabc6f35e0e520a3551d1dab3ccd59f27b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh *</type>
+        <definition>Mesh * MR::ObjectMeshHolder::varMeshPtr</definition>
+        <argsstring>()</argsstring>
+        <name>varMeshPtr</name>
+        <qualifiedname>MR::ObjectMeshHolder::varMeshPtr</qualifiedname>
+        <briefdescription>
+<para>returns the mesh of this object for modification, or nullptr if it is not set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="55" column="17" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Mesh *</type>
+        <definition>const Mesh * MR::ObjectMeshHolder::meshPtr</definition>
+        <argsstring>() const</argsstring>
+        <name>meshPtr</name>
+        <qualifiedname>MR::ObjectMeshHolder::meshPtr</qualifiedname>
+        <briefdescription>
+<para>returns the mesh of this object, or nullptr if it is not set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="58" column="17" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="58" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf6739310dc9f9e21c461819ea47dc086" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::shared_ptr&lt; const Mesh &gt; &amp;</type>
@@ -126042,10 +126104,12 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000002"><xreftitle>Deprecated</xreftitle><xrefdescription><para>the cast inside is undefined behaviour, use <ref refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" kindref="member">meshPtr()</ref> instead </para>
+</xrefdescription></xrefsect></para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="58" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="58" bodyend="59"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="66" column="27" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="66" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5f17cf78de5c594d2941f35bd82197f1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>MeshPart</type>
@@ -126063,7 +126127,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="65" column="14" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="65" bodyend="65"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="73" column="14" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="73" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga29915614a6305ff839e77921819340c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::shared_ptr&lt; Object &gt;</type>
@@ -126082,7 +126146,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="67" column="30"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="75" column="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga92647e19258b5c8e4728a519c3dfedf1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::shared_ptr&lt; Object &gt;</type>
@@ -126101,7 +126165,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="68" column="30"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="76" column="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5538c99ec60484cf9098660809ddc9ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126144,7 +126208,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="70" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="78" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gace1996eee59e03e17316a7dbfc40314f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126163,7 +126227,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="75" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="83" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4195be2ed0948828c7593a815c4ec474" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126182,7 +126246,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="78" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="86" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga697b65bd9396e5efa3f7a8645c661485" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const FaceBitSet &amp;</type>
@@ -126196,7 +126260,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="80" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="80" bodyend="80"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="88" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="88" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac8b7c9b6157b208fcd93c13a0ee52af4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126214,7 +126278,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="81" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="89" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac3f3d3b3f32e309fe068bd004f4f2fca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const Color &amp;</type>
@@ -126234,7 +126298,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="83" column="18"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="91" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga074e102035e0fdfa8f7baf5c1a5ecb28" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126258,7 +126322,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="85" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="93" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga79856827ecd3b0b2406f09572b88c904" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const UndirectedEdgeBitSet &amp;</type>
@@ -126272,7 +126336,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="87" column="32" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="87" bodyend="87"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="95" column="32" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="95" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5ca15ead6c47599803fd5988fefc7f17" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126290,7 +126354,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="88" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="96" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga42ff986f94a4bb2bfb7b8883b775ec46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const Color &amp;</type>
@@ -126310,7 +126374,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="90" column="18"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="98" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf15299f81c09967c3e8d56e76a32452c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126334,7 +126398,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="92" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="100" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5b126dd9b7a986f4b8bab1292b53d22d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const ViewportProperty&lt; Color &gt; &amp;</type>
@@ -126348,7 +126412,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="94" column="29"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="102" column="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8e1bbb67dcf6e4fdfbaad9d3758f6ab5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126366,7 +126430,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="95" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="103" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8ce1e2f3c114e24b4969de944fa04149" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const ViewportProperty&lt; Color &gt; &amp;</type>
@@ -126380,7 +126444,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="97" column="29"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="105" column="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab1c09edad8fef9c1754a421fb3f663c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126398,7 +126462,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="98" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="106" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7ddea20852c4ca2ccc7cc49feeb8ec92" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const ViewportProperty&lt; Color &gt; &amp;</type>
@@ -126412,7 +126476,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="100" column="29"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="108" column="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9e52cf38c35dbb484860feda2f372340" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126430,7 +126494,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="101" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="109" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6d9cb5e4e391bb6e0f300a7158f42fa1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const ViewportProperty&lt; Color &gt; &amp;</type>
@@ -126444,7 +126508,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="103" column="29"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="111" column="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac5f75c14218ba8e001a776a5a77a6c48" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126462,7 +126526,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="104" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="112" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga879851373d119e303a053d46f65a4903" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const ViewportProperty&lt; Color &gt; &amp;</type>
@@ -126476,7 +126540,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="106" column="29"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="114" column="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae2ff1266fe7607111b028387011440aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126494,7 +126558,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="107" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="115" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9f6d4c54d2b17cae07a659e48192c9fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -126513,7 +126577,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="110" column="11"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="118" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab3f35c8b6e713ad9cd367208c6f5a576" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const UndirectedEdgeBitSet &amp;</type>
@@ -126528,7 +126592,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="113" column="32" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="113" bodyend="113"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="121" column="32" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="121" bodyend="121"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7acd2fd89b48cc0b4de9fa833b2295f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126546,7 +126610,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="114" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="122" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga70efb013b248cdab3b4c5d509cd74d8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -126565,7 +126629,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="117" column="10" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="117" bodyend="118"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="125" column="10" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="125" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaadf8f8358c5a229c964aa46e1e991a52" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -126579,7 +126643,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="119" column="10" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="119" bodyend="120"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="127" column="10" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="127" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga177a34c96d7edbf6e850dc2191f76400" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -126599,7 +126663,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="122" column="12"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="130" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac22ecd9403c85722f7624b0a796f0f52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>AllVisualizeProperties</type>
@@ -126615,7 +126679,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="125" column="29"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="133" column="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga937224b013185de8a75766c3f63423ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>const ViewportMask &amp;</type>
@@ -126635,7 +126699,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="127" column="25"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="135" column="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadd1291e117b3b7ccbb8fd36655d6ea1f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const ObjectMeshData &amp;</type>
@@ -126650,7 +126714,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="130" column="26" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="130" bodyend="130"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="138" column="26" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="138" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad4ddf1dcf1a9a25c4b8c8906ca2a91ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -126669,7 +126733,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="133" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="133" bodyend="133"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="141" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="141" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab7e47b82a6501403576f8f97bf8b117a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -126688,7 +126752,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="136" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="136" bodyend="136"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="144" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="144" bodyend="144"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacc73743db2e1a6e34b313feefd404cdd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const VertColors &amp;</type>
@@ -126703,7 +126767,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="139" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="139" bodyend="139"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="147" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="147" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3f8e456d81aff83b30c9717c73e7aeba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -126722,7 +126786,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="142" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="142" bodyend="142"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="150" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="150" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4117a6dc7b78840dbc64df893726468c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -126741,7 +126805,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="145" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="145" bodyend="145"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="153" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="153" bodyend="153"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0e3c9e77446d31e2e7e12cf822f5edb6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const FaceColors &amp;</type>
@@ -126755,7 +126819,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="147" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="147" bodyend="147"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="155" column="22" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="155" bodyend="155"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad2c095e852b96639b8c16e180e0078a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -126773,7 +126837,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="148" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="148" bodyend="148"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="156" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="156" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf9474b43d51c62988e5b27581aff6adc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -126791,7 +126855,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="149" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="149" bodyend="149"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="157" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="157" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga729f265cc4c80fd5b450358a97d70b3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126809,7 +126873,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="151" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="159" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad65f6d1258779e47bfb25301f328516c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -126823,7 +126887,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="152" column="11" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="152" bodyend="152"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="160" column="11" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="160" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1112ff891c579ae8b418e78320dc1deb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -126841,7 +126905,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="153" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="161" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab26b6b5cf92baf23c6b2e8170a87b89d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>float</type>
@@ -126855,7 +126919,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="154" column="19" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="154" bodyend="154"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="162" column="19" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="162" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0e1db2e8c5435c87e74d548d3fa1d8f3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Color &amp;</type>
@@ -126874,7 +126938,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="156" column="17" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="156" bodyend="156"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="164" column="17" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="164" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3e32ed3d337d28b3cb298e23cc6b468b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -126897,7 +126961,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="157" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="157" bodyend="158"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="165" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="165" bodyend="166"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac9c4f457b06a88041861aa3e40ea3fc3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Color &amp;</type>
@@ -126916,7 +126980,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="160" column="17" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="160" bodyend="160"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="168" column="17" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="168" bodyend="168"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7edf3cbac749281058bb3d423e7fe0ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -126939,7 +127003,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="161" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="161" bodyend="162"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="169" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="169" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2ebe27e0c471f4bb22cc1c0172484d60" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Color &amp;</type>
@@ -126958,7 +127022,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="164" column="17" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="164" bodyend="164"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="172" column="17" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="172" bodyend="172"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab613dad6e4c41c979981b68208847e66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -126981,7 +127045,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="165" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="165" bodyend="166"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="173" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="173" bodyend="174"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2e5a1d2eb57673d1f8ca824ea753f470" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -127005,7 +127069,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="169" column="5" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="169" bodyend="170"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="177" column="5" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="177" bodyend="178"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5770fa5fe21ed44ab696c0251d41ca3f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const MeshTexture &amp;</type>
@@ -127020,7 +127084,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="173" column="24"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="181" column="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga031526908b8c24a19998010795548bf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>MR_BIND_IGNORE void</type>
@@ -127039,7 +127103,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="175" column="35"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="183" column="35"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad80eb8318a20bb1dcfec3fcaf59f8687" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>MR_BIND_IGNORE void</type>
@@ -127057,7 +127121,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="176" column="35"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="184" column="35"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2d3c121c2b9e8728bd52a1e0ff43537e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Vector&lt; MeshTexture, TextureId &gt; &amp;</type>
@@ -127071,7 +127135,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="177" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="177" bodyend="177"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="185" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="185" bodyend="185"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9e857e430e96a10412942e874d13da0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -127089,7 +127153,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="178" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="178" bodyend="178"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="186" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="186" bodyend="186"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0834f40134c75b693c4475dc2ccbd4a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -127107,7 +127171,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="179" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="179" bodyend="179"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="187" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="187" bodyend="187"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1468395d79ceedfab7575a425cc97f7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -127126,7 +127190,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="183" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="183" bodyend="183"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="191" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="191" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga01587efe8374921bfb24c7f40d3e48ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -127144,7 +127208,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="184" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="184" bodyend="184"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="192" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="192" bodyend="192"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga230a519ac5df8f4d1c2d2bf3b20fa0c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -127162,7 +127226,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="185" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="185" bodyend="185"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="193" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="193" bodyend="193"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5e8fda60a93aea300380380a7f156e9e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const TexturePerFace &amp;</type>
@@ -127176,7 +127240,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="186" column="26" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="186" bodyend="186"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="194" column="26" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="194" bodyend="194"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga13de75b67197d64f39f0a3a1600d47d0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const VertUVCoords &amp;</type>
@@ -127190,7 +127254,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="188" column="24" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="188" bodyend="188"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="196" column="24" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="196" bodyend="196"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab5f8d8f157a25084f946c4378faa0c62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -127208,7 +127272,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="189" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="189" bodyend="189"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="197" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="197" bodyend="197"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga47088bf32314b542fdbe1975b00d6759" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -127226,7 +127290,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="190" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="190" bodyend="190"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="198" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="198" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad59eb1857e4bc50d0c79ce476f27bb43" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -127272,7 +127336,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="193" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="201" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9de7cd3fdf80c3ce5e6bbf73a7d8b202" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -127318,7 +127382,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="196" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="204" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5f368326a7047c6e9f9a0307f856cd44" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const MeshTexture &amp;</type>
@@ -127333,7 +127397,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="199" column="23" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="199" bodyend="199"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="207" column="23" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="207" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf874792709a30f721e8547c417eb4a02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -127351,7 +127415,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="200" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="200" bodyend="200"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="208" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="208" bodyend="208"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa3e69591117ea11ea4f535d546518fc0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const VertUVCoords &amp;</type>
@@ -127365,7 +127429,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="202" column="24" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="202" bodyend="202"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="210" column="24" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="210" bodyend="210"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa401434ef1423f095077a16d6f720a35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -127383,7 +127447,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="203" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="203" bodyend="203"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="211" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="211" bodyend="211"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga663d9471a16c9490dadae17913e17742" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -127401,7 +127465,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="204" column="10" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="204" bodyend="204"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="212" column="10" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="212" bodyend="212"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6b32af4a4df60d871381468457e8797c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -127415,7 +127479,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="206" column="10" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="206" bodyend="206"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="214" column="10" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="214" bodyend="214"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf6717313d51b810949341a85039402a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -127429,7 +127493,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="207" column="11"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="215" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga12db668572358bc3aa3cde449fa6a894" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -127449,7 +127513,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="209" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="217" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa1fdd0e5996148b4803fcd6dd21329a6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -127464,7 +127528,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="212" column="12"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="220" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4a23f1d3dcde64228575d9b50ba65725" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type>Box3f</type>
@@ -127484,7 +127548,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="216" column="21"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="224" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga617abbf29ae992a4fce93230e90d4da5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -127499,7 +127563,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="219" column="14"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="227" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab1db56c00c887c67b3b7f45775dbd26a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -127514,7 +127578,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="222" column="14"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="230" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga76939cb6ffbd4c31e2e919546c3c3f43" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -127529,7 +127593,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="225" column="14"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="233" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadfe0d12433a55b68bb9573fa3404faba" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -127544,7 +127608,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="228" column="14"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="236" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga59a4df7e3b1bbcab57bf1f3e2d09ea48" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -127559,7 +127623,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="231" column="14"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="239" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae5adb8502374b31a67dbafdd4ec3d480" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -127574,7 +127638,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="234" column="14"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="242" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga66a42a27b1f6e8f56408bdb8c5e9ad82" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -127589,7 +127653,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="237" column="13"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="245" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga02502a93cc14a00d295f57685e53f49d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -127604,7 +127668,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="240" column="14"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="248" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga627e707c19c7c6fe4eae252971baf295" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -127619,7 +127683,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="243" column="14"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="251" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9978ffcbffb3b232e5e0f4ac8a3d56ef" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -127634,7 +127698,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="246" column="14"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="254" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabf61c09f3b0261be1832dc6fbe9c1485" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -127649,7 +127713,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="249" column="14"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="257" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga088b746453f486538f4a92503bb57ad1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type>size_t</type>
@@ -127667,7 +127731,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="252" column="22"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="260" column="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab34b3d99c43ea087bbb11a0948a1dd86" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const char *</type>
@@ -127682,7 +127746,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="255" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="255" bodyend="255"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="263" column="18" bodyfile="MRMesh/MRObjectMeshHolder.h" bodystart="263" bodyend="263"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa8ad23b98d545682db124f812216b717" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const char *</type>
@@ -127697,7 +127761,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="258" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="266" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0826e2dc429bc8184d9a8b9fcdc8612f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -127716,7 +127780,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="262" column="11"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="270" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4c898749d42f1d610da7ccc6a6d02411" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -127733,7 +127797,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="265" column="11"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="273" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2c8d4041089359d161add79204ad2fbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -127749,7 +127813,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="267" column="11"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="275" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga50911deee9ba664ce8939acb05d66332" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>size_t</type>
@@ -127765,7 +127829,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="269" column="21"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="277" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4bd8f5cef86101c686388e9c14035670" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -127785,7 +127849,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="270" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="278" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga88f45ea2e9b2aa653872e5c794327f4c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -127803,7 +127867,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="302" column="5"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="310" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga952ae83b2d123e899c458b84d86609ac" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -127826,7 +127890,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="305" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="313" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga22b39152e22b2824d783fb2f2919d0c0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -127847,7 +127911,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="308" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="316" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga47755a47005589e139ae15824e755a49" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>Expected&lt; std::future&lt; Expected&lt; void &gt; &gt; &gt;</type>
@@ -127869,7 +127933,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="310" column="23"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="318" column="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7fa5273fb9c9cf3a212030c556ad3b22" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -127894,7 +127958,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="312" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="320" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga51cb56f0b52248703b4fa96c7685964b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -127917,7 +127981,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="314" column="11"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="322" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1cf0b27a9b9904ff3dcde54694cc424c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>Expected&lt; void &gt;</type>
@@ -127943,7 +128007,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="316" column="15"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="324" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7f4b16c5a6294a18671f4bf538980d96" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>Expected&lt; void &gt;</type>
@@ -127963,7 +128027,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="317" column="23"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="325" column="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9ffe0e484a89b59b8a16a7a306abd146" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -127987,7 +128051,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="320" column="11"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="328" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5e2aac0fdcedeffa2fa63a6e919ad77a" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>Box3f</type>
@@ -128002,7 +128066,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="322" column="20"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="330" column="20"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4dda7c8f974fc1d88b553ad6e192d1fb" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -128018,7 +128082,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="324" column="19"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="332" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaef46fc3b1da7df32762502788193378e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -128033,7 +128097,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="353" column="10"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="361" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa89489923b1385e4c794696cc32c467b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -128048,7 +128112,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="356" column="10"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="364" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa327a029bad713e6790ebf10e611f39e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const std::string &amp;</type>
@@ -128063,7 +128127,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="363" column="22" declfile="MRMesh/MRObjectMeshHolder.h" declline="363" declcolumn="22"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="371" column="22" declfile="MRMesh/MRObjectMeshHolder.h" declline="371" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3e1e9d92e64e6c27696b626e2c450144" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -128082,7 +128146,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="369" column="7" declfile="MRMesh/MRObjectMeshHolder.h" declline="369" declcolumn="7"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="377" column="7" declfile="MRMesh/MRObjectMeshHolder.h" declline="377" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7add507ed0f2abe3843cec2e9f387f8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -128249,7 +128313,7 @@ element fields:<linebreak/>
         <name>varPointCloud</name>
         <qualifiedname>MR::ObjectPoints::varPointCloud</qualifiedname>
         <briefdescription>
-<para>returns variable point cloud, if const point cloud is needed use <computeroutput><ref refid="group__GeneralGroup_1ga1e4577ab2bb24e7600c98bc550668b06" kindref="member">pointCloud()</ref></computeroutput> instead </para>
+<para>returns variable point cloud, if const point cloud is needed use <computeroutput><ref refid="group__GeneralGroup_1gac447393d1be3d444f139905cc7a61329" kindref="member">pointCloudPtr()</ref></computeroutput> instead </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128636,11 +128700,41 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid <ref refid="group__GeneralGroup_1ga1e4577ab2bb24e7600c98bc550668b06" kindref="member">pointCloud()</ref> </para>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid meshPtr() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid <ref refid="group__GeneralGroup_1gac447393d1be3d444f139905cc7a61329" kindref="member">pointCloudPtr()</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRObjectPointsHolder.h" line="40" column="19" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaa442bac6beba99be01093c0fe289d378" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PointCloud *</type>
+        <definition>PointCloud * MR::ObjectPointsHolder::varPointCloudPtr</definition>
+        <argsstring>()</argsstring>
+        <name>varPointCloudPtr</name>
+        <qualifiedname>MR::ObjectPointsHolder::varPointCloudPtr</qualifiedname>
+        <briefdescription>
+<para>returns the point cloud of this object for modification, or nullptr if it is not set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="43" column="23" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gac447393d1be3d444f139905cc7a61329" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const PointCloud *</type>
+        <definition>const PointCloud * MR::ObjectPointsHolder::pointCloudPtr</definition>
+        <argsstring>() const</argsstring>
+        <name>pointCloudPtr</name>
+        <qualifiedname>MR::ObjectPointsHolder::pointCloudPtr</qualifiedname>
+        <briefdescription>
+<para>returns the point cloud of this object, or nullptr if it is not set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="46" column="23" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="46" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1e4577ab2bb24e7600c98bc550668b06" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::shared_ptr&lt; const PointCloud &gt; &amp;</type>
@@ -128651,10 +128745,12 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000003"><xreftitle>Deprecated</xreftitle><xrefdescription><para>the cast inside is undefined behaviour, use <ref refid="group__GeneralGroup_1gac447393d1be3d444f139905cc7a61329" kindref="member">pointCloudPtr()</ref> instead </para>
+</xrefdescription></xrefsect></para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="46" column="27" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="46" bodyend="47"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="54" column="27" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="54" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8f8cc5bc215e60ae310217c6a7afbcb4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>PointCloudPart</type>
@@ -128672,7 +128768,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="53" column="21" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="53" bodyend="53"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="61" column="21" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="61" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa9ec3487af81936ddfc67111d2af8fd3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::shared_ptr&lt; Object &gt;</type>
@@ -128689,7 +128785,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="55" column="30"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="63" column="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2b1edbd43fdb6a74ee5714f1b7367248" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::shared_ptr&lt; Object &gt;</type>
@@ -128706,7 +128802,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="56" column="30"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="64" column="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga721b9a7c8e1ace1a41ba5e5413bad3eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -128748,7 +128844,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="58" column="19"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="66" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad8bde1f8aa5e5c2b7abd5eaa069f4cba" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const VertBitSet &amp;</type>
@@ -128763,7 +128859,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="61" column="22" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="61" bodyend="61"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="69" column="22" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="69" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab4590c20e3453fd49b62915f266c4c79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -128782,7 +128878,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="64" column="10" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="64" bodyend="64"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="72" column="10" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="72" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga611b1dba756afffcd02cdf0e1f4b3e6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -128801,7 +128897,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="67" column="19"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="75" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0bea9dcf2bc736a689bb46825f61f32f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const VertBitSet &amp;</type>
@@ -128816,7 +128912,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="70" column="23"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="78" column="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4bc2febb79ba59f6cf1a1567e8530a7f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Color &amp;</type>
@@ -128836,7 +128932,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="73" column="17" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="73" bodyend="76"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="81" column="17" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="81" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadef8be8062c02a9efb60a826ac147f11" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -128860,7 +128956,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="78" column="19"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="86" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae95d83452a51d5f31a49fe2185237336" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const ViewportProperty&lt; Color &gt; &amp;</type>
@@ -128874,7 +128970,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="80" column="29"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="88" column="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0982c375b977cce49f97da742ff0e49a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -128892,7 +128988,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="81" column="19"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="89" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaea1be678695f2bce6d6d021a82f82506" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -128911,7 +129007,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="84" column="11"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="92" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga94d4029c2fb7ef225026b5c04518e6ae" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -128931,7 +129027,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="86" column="12"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="94" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae3b2bea04abb41d991834debde3ccedf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const VertColors &amp;</type>
@@ -128946,7 +129042,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="89" column="22" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="89" bodyend="89"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="97" column="22" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="97" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacd5076d5c4b63ae07c67fb237ce83775" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -128965,7 +129061,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="92" column="18" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="92" bodyend="92"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="100" column="18" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="100" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2c17071846cdec9a78120404df0df2ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -128984,7 +129080,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="95" column="18" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="95" bodyend="95"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="103" column="18" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga853c0c5a3590572d416cb59aa75e789d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129030,7 +129126,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="98" column="19"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="106" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab74f5a660958ee04a9a078b3a4e14db3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>AllVisualizeProperties</type>
@@ -129046,7 +129142,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="101" column="29"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="109" column="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7879b78a38616b11af4fcd4f7fb21972" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>const ViewportMask &amp;</type>
@@ -129066,7 +129162,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="103" column="25"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="111" column="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2f6ac7ab58bda7ff27961813042ea90a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129085,7 +129181,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="106" column="19"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="114" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa53d380f14d7e4f6295ef7054713cf91" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>float</type>
@@ -129101,7 +129197,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="108" column="19" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="108" bodyend="108"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="116" column="19" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="116" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga19482cf3c1f465a186788f1208312266" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -129125,7 +129221,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="111" column="5" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="111" bodyend="112"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="119" column="5" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="119" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0636207d4d54a7bfebf51173307dc231" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>Box3f</type>
@@ -129145,7 +129241,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="116" column="20"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="124" column="20"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga34fe107b9cb13d0282feb8104beef817" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -129160,7 +129256,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="118" column="13"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="126" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga894757730af6ccd8ab99ac8493001572" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -129175,7 +129271,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="120" column="13"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="128" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad5608afd5c7be7e2bc7402119cce44de" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type>size_t</type>
@@ -129191,7 +129287,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="123" column="22"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="131" column="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga655ebcd931a3422a41e25e3080f708d5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -129206,7 +129302,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="131" column="9" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="131" bodyend="131"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="139" column="9" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="139" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8e889a076ec09ab804c3619a2e0e4675" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -129221,7 +129317,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="134" column="13"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="142" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga77683714ded8bf8235f76f466b05ff53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -129236,7 +129332,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="143" column="10" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="143" bodyend="143"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="151" column="10" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="151" bodyend="151"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga001da3dc52da578f811cb94d08b1e711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -129257,7 +129353,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="147" column="11"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="155" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa25dc82cc5e496a153beeae60247d6c3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const char *</type>
@@ -129272,7 +129368,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="150" column="18" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="150" bodyend="150"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="158" column="18" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="158" bodyend="158"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1027d5f4b567e9cc613073b40d9394ea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE const char *</type>
@@ -129286,7 +129382,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="151" column="33" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="151" bodyend="151"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="159" column="33" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="159" bodyend="159"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae73c2487cbbb06cb19b9594324c29ff2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -129305,7 +129401,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="155" column="11"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="163" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga37fdb82e969da9523ee3f2deec8e9d75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE void</type>
@@ -129323,7 +129419,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="156" column="26" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="156" bodyend="156"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="164" column="26" bodyfile="MRMesh/MRObjectPointsHolder.h" bodystart="164" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac3f94542020ba9232a4bc392538d461b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129339,7 +129435,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="159" column="11"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="167" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga28202d2035aac5b0c08f04d595fea0e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129355,7 +129451,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="161" column="11"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="169" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad4d8cdb97d2c2e2f85c18d9782e3f64b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129375,7 +129471,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="185" column="19"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="193" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga812b962d75d5c7f853ba5ae479e40120" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -129393,7 +129489,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="193" column="5"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="201" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab923039b071facefc26f78f799bdb90b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129414,7 +129510,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="196" column="19"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="204" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6eb0e3b349f7b2d1ead8bd0130b3f57a" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>Box3f</type>
@@ -129429,7 +129525,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="198" column="20"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="206" column="20"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1cd5516a81f2751f2384f05be888efd8" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>Expected&lt; std::future&lt; Expected&lt; void &gt; &gt; &gt;</type>
@@ -129449,7 +129545,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="200" column="23"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="208" column="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaae91725bdff8abb434b945aa3419678d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>Expected&lt; void &gt;</type>
@@ -129474,7 +129570,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="202" column="23"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="210" column="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga24d6d8ce1921071df9651d0ff6c782c1" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129497,7 +129593,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="204" column="19"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="212" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab0c53a052dbd76ac138b176fd1fabece" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129519,7 +129615,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="206" column="19"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="214" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga711ecee2d4dcf1f5d809c9a48112dba5" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129535,7 +129631,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="208" column="19"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="216" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga05e873804e02dbf7cbb548e35d30df1f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129559,7 +129655,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="211" column="11"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="219" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabe1e951932c506b306d367115a41e02c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -129574,7 +129670,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="218" column="10"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="226" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5a6a53417a1bffe790748adf670da548" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -129589,7 +129685,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="221" column="10"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="229" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9cddf2a7ff90fd435aab61ca3770f048" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -129604,7 +129700,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="224" column="10"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="232" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2c6a78cd704061f23a26f39a7894d013" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const std::string &amp;</type>
@@ -129619,7 +129715,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="233" column="22" declfile="MRMesh/MRObjectPointsHolder.h" declline="233" declcolumn="22"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="241" column="22" declfile="MRMesh/MRObjectPointsHolder.h" declline="241" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7e504838577ed8995448cf04bf473df1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -129638,7 +129734,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="239" column="7" declfile="MRMesh/MRObjectPointsHolder.h" declline="239" declcolumn="7"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="247" column="7" declfile="MRMesh/MRObjectPointsHolder.h" declline="247" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -199789,7 +199885,7 @@ actually all zeros </para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid <ref refid="group__GeneralGroup_1gaf6739310dc9f9e21c461819ea47dc086" kindref="member">mesh()</ref> or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() </para>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid <ref refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" kindref="member">meshPtr()</ref> or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloudPtr() </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

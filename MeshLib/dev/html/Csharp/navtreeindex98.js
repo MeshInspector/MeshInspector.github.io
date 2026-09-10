@@ -1,5 +1,14 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1DecimateSettings.html#a07505c08c620c736e4f5041c08418e2d":[9,3,0,0,0,1123,4],
+"classMR_1_1DecimateSettings.html#a07b555009b336d2c01e32bff7b384259":[9,3,0,0,0,1123,34],
+"classMR_1_1DecimateSettings.html#a0c8618241fb4ab98e199e480d5808066":[9,3,0,0,0,1123,29],
+"classMR_1_1DecimateSettings.html#a112b89ae894d191a8da473e6372dc580":[9,3,0,0,0,1123,20],
+"classMR_1_1DecimateSettings.html#a16b4d617cafe84f89524e6812152959f":[9,3,0,0,0,1123,21],
+"classMR_1_1DecimateSettings.html#a1895e45baef40c594f71539eee3ef9fb":[9,3,0,0,0,1123,9],
+"classMR_1_1DecimateSettings.html#a19366c7241619dce5318daee1720b2a2":[9,3,0,0,0,1123,35],
+"classMR_1_1DecimateSettings.html#a193a618670d11e983f53b8bbb475dc82":[9,3,0,0,0,1123,14],
+"classMR_1_1DecimateSettings.html#a1f59a8f451281096bee895e0f09f083d":[9,3,0,0,0,1123,7],
 "classMR_1_1DecimateSettings.html#a24e37817f6c0a3ec00b7241e98ae75a3":[9,3,0,0,0,1123,33],
 "classMR_1_1DecimateSettings.html#a28626ec5f7c445d8328f8640e3e1acef":[9,3,0,0,0,1123,22],
 "classMR_1_1DecimateSettings.html#a2e6ecb0db6897dc915a800fc726f449a":[9,3,0,0,0,1123,36],
@@ -240,14 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1DistanceMapToWorld.html#a5738206ef6e1203005535f1c21288fa2":[9,3,0,0,0,1141,10],
 "classMR_1_1DistanceMapToWorld.html#a6f8ee7b73a16f41db4f310ef9c50bdac":[9,3,0,0,0,1141,12],
 "classMR_1_1DistanceMapToWorld.html#a71cd15348b85a411d7c32f3a131bf6ee":[9,3,0,0,0,1141,6],
-"classMR_1_1DistanceMapToWorld.html#a72e88e17f64ad791e8094559f2cc3ee3":[9,3,0,0,0,1141,3],
-"classMR_1_1DistanceMapToWorld.html#a88a6c37ca2375d6901ed65ebebdae8dc":[9,3,0,0,0,1141,8],
-"classMR_1_1DistanceMapToWorld.html#aa3abd2a558c2e1064c518788b02f13d5":[9,3,0,0,0,1141,13],
-"classMR_1_1DistanceMapToWorld.html#ab6acb651987dc943e668beddb62f3178":[9,3,0,0,0,1141,2],
-"classMR_1_1DistanceMapToWorld.html#ac1023623f740e6311e402e3353dac47e":[9,3,0,0,0,1141,9],
-"classMR_1_1DistanceMapToWorld.html#adf79ddae6bfde2f4c815b2dcabb7760d":[9,3,0,0,0,1141,0],
-"classMR_1_1DistanceMapToWorld.html#ae01bf1c69ad598b8964fc54af973e051":[9,3,0,0,0,1141,11],
-"classMR_1_1DistanceMeasurementObject.html":[9,3,0,0,0,1142],
-"classMR_1_1DistanceMeasurementObject.html#a00111fc5f104a7abc3d8be2834ea4e68":[9,3,0,0,0,1142,49],
-"classMR_1_1DistanceMeasurementObject.html#a027e701d28b890228ec3859e098c5084":[9,3,0,0,0,1142,46]
+"classMR_1_1DistanceMapToWorld.html#a72e88e17f64ad791e8094559f2cc3ee3":[9,3,0,0,0,1141,3]
 };

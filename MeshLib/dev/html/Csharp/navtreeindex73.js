@@ -1,5 +1,14 @@
 var NAVTREEINDEX73 =
 {
+"classMR_1_1Const__Polynomial__Double__4.html#aec356d12a578bd0f4cdbb41179e4bcb9":[9,3,0,0,0,756,10],
+"classMR_1_1Const__Polynomial__Double__4.html#af0adce2b39483b789e55c455c9330e6a":[9,3,0,0,0,756,4],
+"classMR_1_1Const__Polynomial__Double__5.html":[9,3,0,0,0,757],
+"classMR_1_1Const__Polynomial__Double__5.html#a1488a99bb09cd0a2cbe7cd5b2ed555d0":[9,3,0,0,0,757,8],
+"classMR_1_1Const__Polynomial__Double__5.html#a1931115b510dab81c0198f7876a34505":[9,3,0,0,0,757,5],
+"classMR_1_1Const__Polynomial__Double__5.html#a21d473a1dd99391b80b9987044b9a32b":[9,3,0,0,0,757,7],
+"classMR_1_1Const__Polynomial__Double__5.html#a3b9c8f414d6aeafe213c1f02c0ef9d3a":[9,3,0,0,0,757,9],
+"classMR_1_1Const__Polynomial__Double__5.html#a4c72adba82d0c2dfbd289d9fb644e3c2":[9,3,0,0,0,757,2],
+"classMR_1_1Const__Polynomial__Double__5.html#a6462ace27c597805575b3b181f71394c":[9,3,0,0,0,757,1],
 "classMR_1_1Const__Polynomial__Double__5.html#a660bfeda3e82dfecbba88f3f74af286d":[9,3,0,0,0,757,3],
 "classMR_1_1Const__Polynomial__Double__5.html#a900de30b1199a4e51a9b4432e1c5eef7":[9,3,0,0,0,757,4],
 "classMR_1_1Const__Polynomial__Double__5.html#ab5c1557a3a98d505e7d1f8ca32087357":[9,3,0,0,0,757,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX73 =
 "classMR_1_1Const__QuadraticForm3d.html#af53d9222735ec01d57801d2cb203e9d8":[9,3,0,0,0,777,8],
 "classMR_1_1Const__QuadraticForm3f.html":[9,3,0,0,0,778],
 "classMR_1_1Const__QuadraticForm3f.html#a0a57d80977de67674b6ef8f72a6b71fa":[9,3,0,0,0,778,2],
-"classMR_1_1Const__QuadraticForm3f.html#a1b909ebe56a14649c74cc2796dc9d43b":[9,3,0,0,0,778,8],
-"classMR_1_1Const__QuadraticForm3f.html#a24b9b4295073198ec067fb0881776bec":[9,3,0,0,0,778,0],
-"classMR_1_1Const__QuadraticForm3f.html#a27e223ffe09e9cc0edf269d7f29634d2":[9,3,0,0,0,778,4],
-"classMR_1_1Const__QuadraticForm3f.html#a45a0d15156490c3c2a751b0ba7dfd370":[9,3,0,0,0,778,9],
-"classMR_1_1Const__QuadraticForm3f.html#a4ae9f7662b2e41e675e82f18e2887c5d":[9,3,0,0,0,778,5],
-"classMR_1_1Const__QuadraticForm3f.html#aaccfcdeaff36c02f67964a9bd3f33765":[9,3,0,0,0,778,3],
-"classMR_1_1Const__QuadraticForm3f.html#ab5b912531dced1a155e923348d4a0e40":[9,3,0,0,0,778,7],
-"classMR_1_1Const__QuadraticForm3f.html#ac1ecf20af06066719b056081b0505bd7":[9,3,0,0,0,778,6],
-"classMR_1_1Const__QuadraticForm3f.html#ae73bf5dc396354983d18642a8541f9a9":[9,3,0,0,0,778,1],
-"classMR_1_1Const__QuadricApprox.html":[9,3,0,0,0,779]
+"classMR_1_1Const__QuadraticForm3f.html#a1b909ebe56a14649c74cc2796dc9d43b":[9,3,0,0,0,778,8]
 };

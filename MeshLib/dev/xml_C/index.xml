@@ -17298,6 +17298,8 @@
     <member refid="MRObjectDistanceMap_8h_1a784dfc6452a4f55f13c5de67e13febbd" kind="function"><name>MR_ObjectDistanceMap_heapBytes</name></member>
     <member refid="MRObjectDistanceMap_8h_1a828eed18ad029c30686e253f87d7c62b" kind="function"><name>MR_ObjectDistanceMap_resetFrontColor</name></member>
     <member refid="MRObjectDistanceMap_8h_1aeda25d211b785f06cf05043c1b17f06e" kind="function"><name>MR_ObjectDistanceMap_hasVisualRepresentation</name></member>
+    <member refid="MRObjectDistanceMap_8h_1a9491d3a3431193dda22034bda0ff147f" kind="function"><name>MR_ObjectDistanceMap_varMeshPtr</name></member>
+    <member refid="MRObjectDistanceMap_8h_1a12a51652e58a6125477d6d3ff0fb0cd9" kind="function"><name>MR_ObjectDistanceMap_meshPtr</name></member>
     <member refid="MRObjectDistanceMap_8h_1af110260cbf2db8b5164d2e1ed93f1c3e" kind="function"><name>MR_ObjectDistanceMap_mesh</name></member>
     <member refid="MRObjectDistanceMap_8h_1a2b3dfa3743ca0cf85c9e830839497e5d" kind="function"><name>MR_ObjectDistanceMap_meshPart</name></member>
     <member refid="MRObjectDistanceMap_8h_1a852940ee15a21073003b65b44a456cf5" kind="function"><name>MR_ObjectDistanceMap_setDirtyFlags</name></member>
@@ -17543,6 +17545,8 @@
     <member refid="MRObjectGcode_8h_1a50f8c443723fbc0dffb633683d6d2add" kind="function"><name>MR_ObjectGcode_applyScale</name></member>
     <member refid="MRObjectGcode_8h_1aa645294892b40d45c70206051205bec8" kind="function"><name>MR_ObjectGcode_hasVisualRepresentation</name></member>
     <member refid="MRObjectGcode_8h_1a1879104a3f5c23dd09c8c74adb6ab97b" kind="function"><name>MR_ObjectGcode_hasModel</name></member>
+    <member refid="MRObjectGcode_8h_1a2a4e224dd85dcfe93117c5dcfca85c9e" kind="function"><name>MR_ObjectGcode_varPolylinePtr</name></member>
+    <member refid="MRObjectGcode_8h_1a233c60bfa0320ad6996e104ee02bca38" kind="function"><name>MR_ObjectGcode_polylinePtr</name></member>
     <member refid="MRObjectGcode_8h_1a23cd8403b40ab59bdcfcd2068cdcb31d" kind="function"><name>MR_ObjectGcode_polyline</name></member>
     <member refid="MRObjectGcode_8h_1aeb1081fb22b1438d8992d5811b68c391" kind="function"><name>MR_ObjectGcode_setDashPattern</name></member>
     <member refid="MRObjectGcode_8h_1acee3d87d94a3ef747e9d85ee690f077b" kind="function"><name>MR_ObjectGcode_getDashPattern</name></member>
@@ -17703,6 +17707,8 @@
     <member refid="MRObjectLines_8h_1aaf4f9772e79b2b94ce1fbe88a43e2f87" kind="function"><name>MR_ObjectLines_applyScale</name></member>
     <member refid="MRObjectLines_8h_1afd50b6ab268d6dc9310b46f91d34582c" kind="function"><name>MR_ObjectLines_hasVisualRepresentation</name></member>
     <member refid="MRObjectLines_8h_1ac8ba1a46dd594987ae67b1b2ddcaaa83" kind="function"><name>MR_ObjectLines_hasModel</name></member>
+    <member refid="MRObjectLines_8h_1af12d5f76c80c0fb1f3f58def7a9d35f2" kind="function"><name>MR_ObjectLines_varPolylinePtr</name></member>
+    <member refid="MRObjectLines_8h_1a22ae5cf15cb0566742ca4a35513f3a52" kind="function"><name>MR_ObjectLines_polylinePtr</name></member>
     <member refid="MRObjectLines_8h_1adc6e5e5ebb2b44f5c84f5f26e0a0f92d" kind="function"><name>MR_ObjectLines_polyline</name></member>
     <member refid="MRObjectLines_8h_1a0ed3348e849de01b109f15690966f608" kind="function"><name>MR_ObjectLines_setDirtyFlags</name></member>
     <member refid="MRObjectLines_8h_1a5d48160b3967e4a9ad63aa11dede3869" kind="function"><name>MR_ObjectLines_setDashPattern</name></member>
@@ -17857,6 +17863,8 @@
     <member refid="MRObjectLinesHolder_8h_1a3e6bd00bd263a89ef23671b91f20444a" kind="function"><name>MR_ObjectLinesHolder_hasModel</name></member>
     <member refid="MRObjectLinesHolder_8h_1a259482f805f4fc20aa39572233fb7467" kind="function"><name>MR_ObjectLinesHolder_clone</name></member>
     <member refid="MRObjectLinesHolder_8h_1ad1e0a598a0db433733adb891f9b32133" kind="function"><name>MR_ObjectLinesHolder_shallowClone</name></member>
+    <member refid="MRObjectLinesHolder_8h_1ae4813ee8f32a0365a82fa2ce72d637cd" kind="function"><name>MR_ObjectLinesHolder_varPolylinePtr</name></member>
+    <member refid="MRObjectLinesHolder_8h_1a9572dab48986ed7d2aec5c63c0a88b36" kind="function"><name>MR_ObjectLinesHolder_polylinePtr</name></member>
     <member refid="MRObjectLinesHolder_8h_1aa0687f24b330815fd7e612262f7f6106" kind="function"><name>MR_ObjectLinesHolder_polyline</name></member>
     <member refid="MRObjectLinesHolder_8h_1a5b6234bfe6fa9cbf64aeca196a847e8f" kind="function"><name>MR_ObjectLinesHolder_setDirtyFlags</name></member>
     <member refid="MRObjectLinesHolder_8h_1af291bf82b1be81531bbed2189f2aff30" kind="function"><name>MR_ObjectLinesHolder_setDashPattern</name></member>
@@ -18049,6 +18057,8 @@
     <member refid="MRObjectMesh_8h_1a91344c571fe4bd2a7fc7d243138fdc50" kind="function"><name>MR_ObjectMesh_applyScale</name></member>
     <member refid="MRObjectMesh_8h_1a83eaec4ba99bcdab5169003f22638945" kind="function"><name>MR_ObjectMesh_hasVisualRepresentation</name></member>
     <member refid="MRObjectMesh_8h_1a45926f36699b8d4ce3f4610803fc98d4" kind="function"><name>MR_ObjectMesh_hasModel</name></member>
+    <member refid="MRObjectMesh_8h_1a9ab333b22f4fa96cbf2e201cd4084dc0" kind="function"><name>MR_ObjectMesh_varMeshPtr</name></member>
+    <member refid="MRObjectMesh_8h_1ab89b080b148985df3c1c6cdca505b072" kind="function"><name>MR_ObjectMesh_meshPtr</name></member>
     <member refid="MRObjectMesh_8h_1a047ad4e8fea9f1855bfd0c5167ada950" kind="function"><name>MR_ObjectMesh_mesh</name></member>
     <member refid="MRObjectMesh_8h_1a6639b1a62c312531ba8d969fad0fc7ab" kind="function"><name>MR_ObjectMesh_meshPart</name></member>
     <member refid="MRObjectMesh_8h_1a2109272a2e1fa0c104dcde3296341b77" kind="function"><name>MR_ObjectMesh_setDirtyFlags</name></member>
@@ -18321,6 +18331,8 @@
     <member refid="MRObjectMeshHolder_8h_1a938d85e6ad008f131fb142057ccc0dca" kind="function"><name>MR_ObjectMeshHolder_applyScale</name></member>
     <member refid="MRObjectMeshHolder_8h_1aa785be97ee7b2882e56fc0f905a4de1c" kind="function"><name>MR_ObjectMeshHolder_hasVisualRepresentation</name></member>
     <member refid="MRObjectMeshHolder_8h_1a9432360592025610ad6ceee510509167" kind="function"><name>MR_ObjectMeshHolder_hasModel</name></member>
+    <member refid="MRObjectMeshHolder_8h_1a0f6588920710421799efa5a96c227eec" kind="function"><name>MR_ObjectMeshHolder_varMeshPtr</name></member>
+    <member refid="MRObjectMeshHolder_8h_1a1eea9c3519ff21ec8414c81c9f68b651" kind="function"><name>MR_ObjectMeshHolder_meshPtr</name></member>
     <member refid="MRObjectMeshHolder_8h_1aa88cec13bc92dd9150cae2f3885600f1" kind="function"><name>MR_ObjectMeshHolder_mesh</name></member>
     <member refid="MRObjectMeshHolder_8h_1ac6f65a12976b11fd57ee6dd46b44fe66" kind="function"><name>MR_ObjectMeshHolder_meshPart</name></member>
     <member refid="MRObjectMeshHolder_8h_1a29eb23eda449bf61714309d2ae56c535" kind="function"><name>MR_ObjectMeshHolder_clone</name></member>
@@ -18560,6 +18572,8 @@
     <member refid="MRObjectPoints_8h_1adac16eb7783b64e6c0f618728deb2058" kind="function"><name>MR_ObjectPoints_applyScale</name></member>
     <member refid="MRObjectPoints_8h_1af64c44930c5519099b1fd71c06c0297e" kind="function"><name>MR_ObjectPoints_hasVisualRepresentation</name></member>
     <member refid="MRObjectPoints_8h_1a70eebc86f46c8b976e16525f2f270324" kind="function"><name>MR_ObjectPoints_hasModel</name></member>
+    <member refid="MRObjectPoints_8h_1a6a6d866228b80747f2eeff65b6270870" kind="function"><name>MR_ObjectPoints_varPointCloudPtr</name></member>
+    <member refid="MRObjectPoints_8h_1aa89b9feaf4425e2a8e2209275b4dec30" kind="function"><name>MR_ObjectPoints_pointCloudPtr</name></member>
     <member refid="MRObjectPoints_8h_1a5b2e748350e50752037d2abeadf2530d" kind="function"><name>MR_ObjectPoints_pointCloud</name></member>
     <member refid="MRObjectPoints_8h_1a0bc2ee1737f9b1cb830b637499984e32" kind="function"><name>MR_ObjectPoints_pointCloudPart</name></member>
     <member refid="MRObjectPoints_8h_1a11f855845a99cd7e60d6c2544e7606be" kind="function"><name>MR_ObjectPoints_setDirtyFlags</name></member>
@@ -18719,6 +18733,8 @@
     <member refid="MRObjectPointsHolder_8h_1a86ee9d7fea6288f50587e5b93f5ec661" kind="function"><name>MR_ObjectPointsHolder_applyScale</name></member>
     <member refid="MRObjectPointsHolder_8h_1a2e329f9b064b1ec35afd82de28fec933" kind="function"><name>MR_ObjectPointsHolder_hasVisualRepresentation</name></member>
     <member refid="MRObjectPointsHolder_8h_1a9adabf753088b420d383760a074a029d" kind="function"><name>MR_ObjectPointsHolder_hasModel</name></member>
+    <member refid="MRObjectPointsHolder_8h_1a208c80bdc85baa2221bc5277e79cef20" kind="function"><name>MR_ObjectPointsHolder_varPointCloudPtr</name></member>
+    <member refid="MRObjectPointsHolder_8h_1aa79b6b48e5ea4fa00bf5f547ff0b8b65" kind="function"><name>MR_ObjectPointsHolder_pointCloudPtr</name></member>
     <member refid="MRObjectPointsHolder_8h_1a0a4b0605a5cd10234b4f3a70d6963ddb" kind="function"><name>MR_ObjectPointsHolder_pointCloud</name></member>
     <member refid="MRObjectPointsHolder_8h_1a032e87afdcf3958e03ae428538a4b520" kind="function"><name>MR_ObjectPointsHolder_pointCloudPart</name></member>
     <member refid="MRObjectPointsHolder_8h_1ad6456b39ef3431b9125d02224e4cbb3c" kind="function"><name>MR_ObjectPointsHolder_clone</name></member>
@@ -53071,6 +53087,8 @@
   <compound refid="APICPage_8dox" kind="file"><name>APICPage.dox</name>
   </compound>
   <compound refid="APICPage" kind="page"><name>APICPage</name>
+  </compound>
+  <compound refid="deprecated" kind="page"><name>deprecated</name>
   </compound>
   <compound refid="dir_87d38852fc01aff5f853718c8d8b5cb2" kind="dir"><name>Cbindings</name>
   </compound>

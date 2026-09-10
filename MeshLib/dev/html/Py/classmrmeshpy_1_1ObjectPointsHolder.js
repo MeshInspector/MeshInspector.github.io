@@ -23,6 +23,7 @@ var classmrmeshpy_1_1ObjectPointsHolder =
     [ "numValidPoints", "classmrmeshpy_1_1ObjectPointsHolder.html#a7ed499b29435313b0f06dd2ae5545304", null ],
     [ "pointCloud", "classmrmeshpy_1_1ObjectPointsHolder.html#aaf3826262060be74638f5b20f273c8e3", null ],
     [ "pointCloudPart", "classmrmeshpy_1_1ObjectPointsHolder.html#a3027efc64dea7569dd3e7f1062c1b575", null ],
+    [ "pointCloudPtr", "classmrmeshpy_1_1ObjectPointsHolder.html#a14aae2b28f75940f9fd454f5542a88b3", null ],
     [ "resetColors", "classmrmeshpy_1_1ObjectPointsHolder.html#a84437a0e674b5dac4596ae997219ed33", null ],
     [ "resetFrontColor", "classmrmeshpy_1_1ObjectPointsHolder.html#abc7611457d22550c27df17a2882c2f48", null ],
     [ "selectPoints", "classmrmeshpy_1_1ObjectPointsHolder.html#ac7bf2ac3747207443f498dc11d9f3c85", null ],
@@ -38,5 +39,6 @@ var classmrmeshpy_1_1ObjectPointsHolder =
     [ "supportsVisualizeProperty", "classmrmeshpy_1_1ObjectPointsHolder.html#a20924da44458776bdc8ae1d585d13339", null ],
     [ "typeName", "classmrmeshpy_1_1ObjectPointsHolder.html#ae619aa1d3ffa919568541313c7f6f7dd", null ],
     [ "updateSelectedPoints", "classmrmeshpy_1_1ObjectPointsHolder.html#a1f90e5e83a566770f84126a9b3b4fcf2", null ],
-    [ "updateVertsColorMap", "classmrmeshpy_1_1ObjectPointsHolder.html#a35f2cc652912d18a70a589199a11fc30", null ]
+    [ "updateVertsColorMap", "classmrmeshpy_1_1ObjectPointsHolder.html#a35f2cc652912d18a70a589199a11fc30", null ],
+    [ "varPointCloudPtr", "classmrmeshpy_1_1ObjectPointsHolder.html#afafc6401a6cad211f9bbb51641215711", null ]
 ];

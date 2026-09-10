@@ -1,5 +1,14 @@
 var NAVTREEINDEX78 =
 {
+"classMR_1_1Const__SignedDistanceToMeshOptions.html#a810884f23761081876306c5968301fad":[9,3,0,0,0,823,14],
+"classMR_1_1Const__SignedDistanceToMeshOptions.html#a89ee470012661e6d45ca43caa5f2d861":[9,3,0,0,0,823,5],
+"classMR_1_1Const__SignedDistanceToMeshOptions.html#a8b87f114802baf06c1b2df116ea850f1":[9,3,0,0,0,823,7],
+"classMR_1_1Const__SignedDistanceToMeshOptions.html#ab212e3aa307ab850a38aa2cc4487bc3d":[9,3,0,0,0,823,11],
+"classMR_1_1Const__SignedDistanceToMeshOptions.html#abc2e405b288e2657f98f8fc4c8b68399":[9,3,0,0,0,823,2],
+"classMR_1_1Const__SignedDistanceToMeshOptions.html#abca23fb3f2a607a46d525a127e773b56":[9,3,0,0,0,823,17],
+"classMR_1_1Const__SignedDistanceToMeshOptions.html#ac8afb4f34e537eb278eee5693ed30924":[9,3,0,0,0,823,15],
+"classMR_1_1Const__SignedDistanceToMeshOptions.html#aca2a83bbf12c0132deab51de3fa76e6b":[9,3,0,0,0,823,9],
+"classMR_1_1Const__SignedDistanceToMeshOptions.html#acee03c62d7ef6ff396a0bf8ef4757694":[9,3,0,0,0,823,0],
 "classMR_1_1Const__SignedDistanceToMeshOptions.html#ad120654f7b7749891efc5461d841ef0c":[9,3,0,0,0,823,12],
 "classMR_1_1Const__SignedDistanceToMeshOptions.html#ae81f270cfbaa3eacfcad899131157701":[9,3,0,0,0,823,8],
 "classMR_1_1Const__SignedDistanceToMeshResult.html":[9,3,0,0,0,824],
@@ -240,14 +249,5 @@ var NAVTREEINDEX78 =
 "classMR_1_1Const__SpacingSettings.html#a369bace66218ad254411802f4ef7272f":[9,3,0,0,0,837,14],
 "classMR_1_1Const__SpacingSettings.html#a419cb3991b6e9f2f4183fc6807b62e1a":[9,3,0,0,0,837,3],
 "classMR_1_1Const__SpacingSettings.html#a49235829ded05bab8f234806d2d47706":[9,3,0,0,0,837,15],
-"classMR_1_1Const__SpacingSettings.html#a4e3dcf73cb6f345f37ce0e7560f9fa48":[9,3,0,0,0,837,2],
-"classMR_1_1Const__SpacingSettings.html#a5072a8eb5a9087c3186637946dc4e075":[9,3,0,0,0,837,9],
-"classMR_1_1Const__SpacingSettings.html#a5492a6272fca0ea4680aef4b4f929206":[9,3,0,0,0,837,8],
-"classMR_1_1Const__SpacingSettings.html#a68f190c2259976b9b1923b812daab07f":[9,3,0,0,0,837,5],
-"classMR_1_1Const__SpacingSettings.html#a6e661e3366f8750a4fb0dd4143f53df8":[9,3,0,0,0,837,13],
-"classMR_1_1Const__SpacingSettings.html#a85bcb9272d17825de3375e846b556eb9":[9,3,0,0,0,837,6],
-"classMR_1_1Const__SpacingSettings.html#a9be68a79dd36cf582f20cd9262adce6e":[9,3,0,0,0,837,1],
-"classMR_1_1Const__SpacingSettings.html#ac8d1172367c42e1f630e44a3e2a27f03":[9,3,0,0,0,837,12],
-"classMR_1_1Const__SpacingSettings.html#af025763c0385cf620b476592e48fe707":[9,3,0,0,0,837,10],
-"classMR_1_1Const__Sphere2d.html":[9,3,0,0,0,838]
+"classMR_1_1Const__SpacingSettings.html#a4e3dcf73cb6f345f37ce0e7560f9fa48":[9,3,0,0,0,837,2]
 };

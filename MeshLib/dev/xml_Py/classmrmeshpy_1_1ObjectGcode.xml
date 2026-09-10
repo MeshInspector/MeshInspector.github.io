@@ -657,6 +657,7 @@ an object that stores a g-code
       <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>parent</name></member>
       <member refid="classmrmeshpy_1_1Object_1a49aa72b1374065f24972ced7c2bfbe34" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>parent</name></member>
       <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a6ae665bceaf15ddd1db70c553f88ef8f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>polyline</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a860b19441c30b514df3b1ca71f4315f5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>polylinePtr</name></member>
       <member refid="classmrmeshpy_1_1Object_1aa593f6befb32f6453133a516f1c863b8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>removeAllChildren</name></member>
       <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>removeChild</name></member>
       <member refid="classmrmeshpy_1_1Object_1a414cac53ffc4dac827d7b9ddbf126098" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>removeChild</name></member>
@@ -726,6 +727,7 @@ an object that stores a g-code
       <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a0882af5e3f185e6fe9863b2b29e59559" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>updateLinesColorMap</name></member>
       <member refid="classmrmeshpy_1_1ObjectLinesHolder_1af3e21cbc79b8e070d567c38eb8e25445" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>updateVertsColorMap</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a5e25b63c3965dc9f65f914e80f164bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a9c06bd2d83101f77e66340060362f856" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>varPolylinePtr</name></member>
       <member refid="classmrmeshpy_1_1Object_1a64e97a992a254dfa6b44c7bf1eb144e4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>visibilityMask</name></member>
       <member refid="classmrmeshpy_1_1Object_1a0fe057c0f6fe9f8ee98bd8210faa983c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>worldXf</name></member>
       <member refid="classmrmeshpy_1_1Object_1a157327fa8110ea13a8b12bf04748331d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectGcode</scope><name>xf</name></member>

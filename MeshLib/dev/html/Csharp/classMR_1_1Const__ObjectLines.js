@@ -61,6 +61,7 @@ var classMR_1_1Const__ObjectLines =
     [ "operator MR.Const_ObjectLinesHolder", "classMR_1_1Const__ObjectLines.html#a863323f57018f6006653983bcfb40d79", null ],
     [ "operator MR.Const_VisualObject", "classMR_1_1Const__ObjectLines.html#a51cb7ba9f41b1bce790762619f3c010a", null ],
     [ "polyline", "classMR_1_1Const__ObjectLines.html#ae60a6530e59af1986005f699d0256149", null ],
+    [ "polylinePtr", "classMR_1_1Const__ObjectLines.html#aa1e7482187f81ef95e8755a5aaec18eb", null ],
     [ "render", "classMR_1_1Const__ObjectLines.html#a4c7e62d822def47fd20a0450e1c8b02b", null ],
     [ "renderForPicker", "classMR_1_1Const__ObjectLines.html#abe87eed266e47a5ee6bb5a866aa5c379", null ],
     [ "renderUi", "classMR_1_1Const__ObjectLines.html#ad347259a12808e053d4a529396b02355", null ],

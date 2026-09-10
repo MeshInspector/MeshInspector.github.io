@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[9,0,1,0,0,0,8],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[9,0,2,0,1,0,8],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[9,0,1,0,0,0,3],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[9,0,2,0,1,0,3],
+"structImGui_1_1HistogramGridLine.html":[9,0,1,0,0,1],
+"structImGui_1_1HistogramGridLine.html":[9,0,2,0,1,1],
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[9,0,1,0,0,1,1],
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[9,0,2,0,1,1,1],
 "structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[9,0,1,0,0,1,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1Cuda_1_1DeviceInfo.html":[9,0,0,20,86],
 "structMR_1_1CursorEntranceListener.html":[9,0,0,20,820],
 "structMR_1_1CurveFunc.html":[9,0,0,20,186],
-"structMR_1_1CurvePoint.html":[9,0,0,20,185],
-"structMR_1_1CustomButtonParameters.html":[9,0,0,20,673],
-"structMR_1_1CutByProjectionSettings.html":[9,0,0,20,184],
-"structMR_1_1CutMeshParameters.html":[9,0,0,8,3],
-"structMR_1_1CutMeshParameters.html":[9,0,0,20,182],
-"structMR_1_1CutMeshResult.html":[9,0,0,8,4],
-"structMR_1_1CutMeshResult.html":[9,0,0,20,183]
+"structMR_1_1CurvePoint.html":[9,0,0,20,185]
 };

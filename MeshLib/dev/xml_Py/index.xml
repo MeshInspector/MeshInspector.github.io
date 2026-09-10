@@ -13383,6 +13383,7 @@
     <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a2b1a6a7bd1e518c46da8429a841f873b" kind="function"><name>numComponents</name></member>
     <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a9c8bef0028808244b470495c2c937844" kind="function"><name>numUndirectedEdges</name></member>
     <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a6ae665bceaf15ddd1db70c553f88ef8f" kind="function"><name>polyline</name></member>
+    <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a860b19441c30b514df3b1ca71f4315f5" kind="function"><name>polylinePtr</name></member>
     <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a2b6ccbafe3df2faed6e745abad21486f" kind="function"><name>resetFrontColor</name></member>
     <member refid="classmrmeshpy_1_1ObjectLinesHolder_1abb5283114195f89d27d3aa6df20b216a" kind="function"><name>setDashPattern</name></member>
     <member refid="classmrmeshpy_1_1ObjectLinesHolder_1ae2cf69c6b8bbc437fac219147a738433" kind="function"><name>setDirtyFlags</name></member>
@@ -13396,6 +13397,7 @@
     <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a3d74f153344e45ee25a3ab78a883ba4a" kind="function"><name>typeName</name></member>
     <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a0882af5e3f185e6fe9863b2b29e59559" kind="function"><name>updateLinesColorMap</name></member>
     <member refid="classmrmeshpy_1_1ObjectLinesHolder_1af3e21cbc79b8e070d567c38eb8e25445" kind="function"><name>updateVertsColorMap</name></member>
+    <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a9c06bd2d83101f77e66340060362f856" kind="function"><name>varPolylinePtr</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1ObjectMesh" kind="class"><name>mrmeshpy::ObjectMesh</name>
     <member refid="classmrmeshpy_1_1ObjectMesh_1a898363dabaf8566d1edb5e6c97cd1cc3" kind="function"><name>StaticClassName</name></member>
@@ -13488,6 +13490,7 @@
     <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a08c496d5f2feda4ef87a2e68664cee68" kind="function"><name>isMeshClosed</name></member>
     <member refid="classmrmeshpy_1_1ObjectMeshHolder_1acea2aff8d75e3b354c19d335a57864d6" kind="function"><name>mesh</name></member>
     <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ae07f108a03ac58b498b0f04b2d820244" kind="function"><name>meshPart</name></member>
+    <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a4ea7a46be06cba267076d0b263b541e1" kind="function"><name>meshPtr</name></member>
     <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a979dfdec04a5f6bfa7c8bd36eecd7b93" kind="function"><name>numComponents</name></member>
     <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a6bc1c5e373cd92f5a1c8dd0b504fdd21" kind="function"><name>numCreaseEdges</name></member>
     <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ae01bf8a0c21bde1d04bc3109f8280366" kind="function"><name>numHandles</name></member>
@@ -13538,6 +13541,7 @@
     <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aff3de3e9f18709ef5116530251eb0aba" kind="function"><name>updateTextures</name></member>
     <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a782f1f24dae769af851d7bc5ae0333ee" kind="function"><name>updateUVCoords</name></member>
     <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a949e3a4800e457a42b7e06b7a82af8ce" kind="function"><name>updateVertsColorMap</name></member>
+    <member refid="classmrmeshpy_1_1ObjectMeshHolder_1adb8f3fc045dc651019192163a6e80347" kind="function"><name>varMeshPtr</name></member>
     <member refid="classmrmeshpy_1_1ObjectMeshHolder_1af6e17574c4689dd7f95c8a6d7a7a2c96" kind="function"><name>volume</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1ObjectMeshMergeOptions" kind="class"><name>mrmeshpy::ObjectMeshMergeOptions</name>
@@ -13596,6 +13600,7 @@
     <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a7ed499b29435313b0f06dd2ae5545304" kind="function"><name>numValidPoints</name></member>
     <member refid="classmrmeshpy_1_1ObjectPointsHolder_1aaf3826262060be74638f5b20f273c8e3" kind="function"><name>pointCloud</name></member>
     <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a3027efc64dea7569dd3e7f1062c1b575" kind="function"><name>pointCloudPart</name></member>
+    <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a14aae2b28f75940f9fd454f5542a88b3" kind="function"><name>pointCloudPtr</name></member>
     <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a84437a0e674b5dac4596ae997219ed33" kind="function"><name>resetColors</name></member>
     <member refid="classmrmeshpy_1_1ObjectPointsHolder_1abc7611457d22550c27df17a2882c2f48" kind="function"><name>resetFrontColor</name></member>
     <member refid="classmrmeshpy_1_1ObjectPointsHolder_1ac7bf2ac3747207443f498dc11d9f3c85" kind="function"><name>selectPoints</name></member>
@@ -13612,6 +13617,7 @@
     <member refid="classmrmeshpy_1_1ObjectPointsHolder_1ae619aa1d3ffa919568541313c7f6f7dd" kind="function"><name>typeName</name></member>
     <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a1f90e5e83a566770f84126a9b3b4fcf2" kind="function"><name>updateSelectedPoints</name></member>
     <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a35f2cc652912d18a70a589199a11fc30" kind="function"><name>updateVertsColorMap</name></member>
+    <member refid="classmrmeshpy_1_1ObjectPointsHolder_1afafc6401a6cad211f9bbb51641215711" kind="function"><name>varPointCloudPtr</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1ObjectSave" kind="class"><name>mrmeshpy::ObjectSave</name>
     <member refid="classmrmeshpy_1_1ObjectSave_1a362cee4f571f314a45e7244b451bc939" kind="function"><name>toAnySupportedFormat</name></member>

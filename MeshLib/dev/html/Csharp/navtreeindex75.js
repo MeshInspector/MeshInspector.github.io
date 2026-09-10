@@ -1,5 +1,14 @@
 var NAVTREEINDEX75 =
 {
+"classMR_1_1Const__RefineParameters.html#aa93dda15926e3fd62b904125b4a255ce":[9,3,0,0,0,786,8],
+"classMR_1_1Const__RefineParameters.html#aa95a98ff2ff396e97314faa96c19d2b4":[9,3,0,0,0,786,15],
+"classMR_1_1Const__RefineParameters.html#abb1ba572601e43d451e7e1afaf339182":[9,3,0,0,0,786,10],
+"classMR_1_1Const__RefineParameters.html#ad01c61c9cb7289b7d1ae7594b92d4ea0":[9,3,0,0,0,786,6],
+"classMR_1_1Const__RefineParameters.html#ad4b53af306e8dc31086529b88864b2e9":[9,3,0,0,0,786,16],
+"classMR_1_1Const__RefineParameters.html#ae13dc58e7e63ed318b993f6e899fe9d1":[9,3,0,0,0,786,13],
+"classMR_1_1Const__RegionBitSet.html":[9,3,0,0,0,787],
+"classMR_1_1Const__RegionBitSet.html#a08d19723d433bc0390a66d985dd0a271":[9,3,0,0,0,787,15],
+"classMR_1_1Const__RegionBitSet.html#a0a4dd380084f0c3c28d5c0b77b5988b4":[9,3,0,0,0,787,19],
 "classMR_1_1Const__RegionBitSet.html#a0c0524355539723bd0df2d6a35eaa3cf":[9,3,0,0,0,787,9],
 "classMR_1_1Const__RegionBitSet.html#a0e5cff6494861e2d10180cff81960668":[9,3,0,0,0,787,29],
 "classMR_1_1Const__RegionBitSet.html#a146cc3e2afb7e88064537d89eec7ed4f":[9,3,0,0,0,787,45],
@@ -240,14 +249,5 @@ var NAVTREEINDEX75 =
 "classMR_1_1Const__SaveSettings.html#ac84bcefa0757fda0fdd96544a4a22348":[9,3,0,0,0,798,14],
 "classMR_1_1Const__SaveSettings.html#ac8feb660e0942efa5d66f5368b2ad63c":[9,3,0,0,0,798,1],
 "classMR_1_1Const__SaveSettings.html#adb3a4884ed904a5de17afb6315e13cdd":[9,3,0,0,0,798,11],
-"classMR_1_1Const__SaveSettings.html#ae240a083e37e263d752acb670e6ce52a":[9,3,0,0,0,798,19],
-"classMR_1_1Const__SaveSettings.html#aee56c53cf4f101b9e1871da4bedbfb5d":[9,3,0,0,0,798,28],
-"classMR_1_1Const__SaveSettings.html#afb6b51d9ab949fd20bdb0d4a7694fca9":[9,3,0,0,0,798,23],
-"classMR_1_1Const__SaveSettings.html#afbd14e4ebbe98232e14e14c39b857c78":[9,3,0,0,0,798,17],
-"classMR_1_1Const__SceneColors.html":[9,3,0,0,0,799],
-"classMR_1_1Const__SceneColors.html#a47898d03f87d23d5ac50a9bc8f003352":[9,3,0,0,0,799,1],
-"classMR_1_1Const__SceneColors.html#a9e8ced06b99e59b9a94c19c94d9f2ea0":[9,3,0,0,0,799,2],
-"classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72":[9,3,0,0,0,799,0],
-"classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72a08c22b851e77f326668ddaa738b48310":[9,3,0,0,0,799,0,5],
-"classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72a0c98b01e9116b07f07dd4a2a7b94a5be":[9,3,0,0,0,799,0,2]
+"classMR_1_1Const__SaveSettings.html#ae240a083e37e263d752acb670e6ce52a":[9,3,0,0,0,798,19]
 };

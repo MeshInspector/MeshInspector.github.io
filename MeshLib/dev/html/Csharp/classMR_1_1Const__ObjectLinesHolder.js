@@ -59,6 +59,7 @@ var classMR_1_1Const__ObjectLinesHolder =
     [ "operator MR.Const_ObjectChildrenHolder", "classMR_1_1Const__ObjectLinesHolder.html#a70a9e27a852556637a343f6a380c0135", null ],
     [ "operator MR.Const_VisualObject", "classMR_1_1Const__ObjectLinesHolder.html#a7c99c8dd57d14742df2cffe5ebb05a68", null ],
     [ "polyline", "classMR_1_1Const__ObjectLinesHolder.html#a836c722a3aacd2a7ae141f4a53c4d503", null ],
+    [ "polylinePtr", "classMR_1_1Const__ObjectLinesHolder.html#a694643e2cc94b9d4b46b3dd7b3bd4091", null ],
     [ "render", "classMR_1_1Const__ObjectLinesHolder.html#a865d0b2b55cff3656b2e7c2afbd6b306", null ],
     [ "renderForPicker", "classMR_1_1Const__ObjectLinesHolder.html#ac9e5f2de325ddd8747a9c69f78060f55", null ],
     [ "renderUi", "classMR_1_1Const__ObjectLinesHolder.html#aecd23d2e520f97a001614491b05be570", null ],

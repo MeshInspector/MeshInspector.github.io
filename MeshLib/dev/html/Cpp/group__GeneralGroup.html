@@ -6405,6 +6405,10 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga8374696160d445c466b11e006c7fb4c7" id="r_ga8374696160d445c466b11e006c7fb4c7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8374696160d445c466b11e006c7fb4c7">MR::ObjectLinesHolder::hasModel</a> () const override</td></tr>
 <tr class="memitem:ga288d0f8a4f96ea4bb3023d24a68cb350" id="r_ga288d0f8a4f96ea4bb3023d24a68cb350"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga288d0f8a4f96ea4bb3023d24a68cb350">MR::ObjectLinesHolder::clone</a> () const override</td></tr>
 <tr class="memitem:ga86badba7ec7e0bdd786bdf427783b6e3" id="r_ga86badba7ec7e0bdd786bdf427783b6e3"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga86badba7ec7e0bdd786bdf427783b6e3">MR::ObjectLinesHolder::shallowClone</a> () const override</td></tr>
+<tr class="memitem:gaa3875bc524fb77bbb459b77d5ee068ff" id="r_gaa3875bc524fb77bbb459b77d5ee068ff"><td class="memItemLeft" align="right" valign="top">Polyline3 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa3875bc524fb77bbb459b77d5ee068ff">MR::ObjectLinesHolder::varPolylinePtr</a> ()</td></tr>
+<tr class="memdesc:gaa3875bc524fb77bbb459b77d5ee068ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the polyline of this object for modification, or nullptr if it is not set  <br /></td></tr>
+<tr class="memitem:gad5cf75ed10ccc65062b81be77146a84d" id="r_gad5cf75ed10ccc65062b81be77146a84d"><td class="memItemLeft" align="right" valign="top">const Polyline3 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad5cf75ed10ccc65062b81be77146a84d">MR::ObjectLinesHolder::polylinePtr</a> () const</td></tr>
+<tr class="memdesc:gad5cf75ed10ccc65062b81be77146a84d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the polyline of this object, or nullptr if it is not set  <br /></td></tr>
 <tr class="memitem:gae0b496042ca65d7b8bdb862c9e984ff7" id="r_gae0b496042ca65d7b8bdb862c9e984ff7"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; const Polyline3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae0b496042ca65d7b8bdb862c9e984ff7">MR::ObjectLinesHolder::polyline</a> () const</td></tr>
 <tr class="memitem:ga2c118606eb83948e238984cf26a8733b" id="r_ga2c118606eb83948e238984cf26a8733b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2c118606eb83948e238984cf26a8733b">MR::ObjectLinesHolder::setDirtyFlags</a> (uint32_t mask, bool invalidateCaches=true) override</td></tr>
 <tr class="memdesc:ga2c118606eb83948e238984cf26a8733b"><td class="mdescLeft">&#160;</td><td class="mdescRight">reinterpret_cast to avoid making a copy of shared_ptr  <br /></td></tr>
@@ -6471,7 +6475,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga654669ad9934295b9cf91aac1cfa657e" id="r_ga654669ad9934295b9cf91aac1cfa657e"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga654669ad9934295b9cf91aac1cfa657e">MR::ObjectMesh::StaticClassNameInPlural</a> () noexcept</td></tr>
 <tr class="memitem:ga34dcbce4338ca82addb8e7a6fc88d1e6" id="r_ga34dcbce4338ca82addb8e7a6fc88d1e6"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga34dcbce4338ca82addb8e7a6fc88d1e6">MR::ObjectMesh::classNameInPlural</a> () const override</td></tr>
 <tr class="memitem:gab3bb6cba075e46e077c30ed748202d77" id="r_gab3bb6cba075e46e077c30ed748202d77"><td class="memItemLeft" align="right" valign="top">virtual const std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab3bb6cba075e46e077c30ed748202d77">MR::ObjectMesh::varMesh</a> ()</td></tr>
-<tr class="memdesc:gab3bb6cba075e46e077c30ed748202d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns variable mesh, if const mesh is needed use <span class="tt"><a class="el" href="#gaf6739310dc9f9e21c461819ea47dc086">mesh()</a></span> instead  <br /></td></tr>
+<tr class="memdesc:gab3bb6cba075e46e077c30ed748202d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns variable mesh, if const mesh is needed use <span class="tt"><a class="el" href="#ga090863e84b2143a5486ca6972b2f8584" title="returns the mesh of this object, or nullptr if it is not set">meshPtr()</a></span> instead  <br /></td></tr>
 <tr class="memitem:ga32c0d490511a95e4a3693599905652f6" id="r_ga32c0d490511a95e4a3693599905652f6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga32c0d490511a95e4a3693599905652f6">MR::ObjectMesh::setMesh</a> (std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; <a class="el" href="#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>)</td></tr>
 <tr class="memdesc:ga32c0d490511a95e4a3693599905652f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets given mesh to this, resets selection and creases  <br /></td></tr>
 <tr class="memitem:ga885ec555e6dc4a1b0653fb7829f873b6" id="r_ga885ec555e6dc4a1b0653fb7829f873b6"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga885ec555e6dc4a1b0653fb7829f873b6">MR::ObjectMesh::updateMesh</a> (std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; <a class="el" href="#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>)</td></tr>
@@ -6504,6 +6508,10 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gafadaad70a91ca257f963cf38bcf1f9eb" id="r_gafadaad70a91ca257f963cf38bcf1f9eb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafadaad70a91ca257f963cf38bcf1f9eb">MR::ObjectMeshHolder::hasVisualRepresentation</a> () const override</td></tr>
 <tr class="memdesc:gafadaad70a91ca257f963cf38bcf1f9eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">mesh object can be seen if the mesh has at least one edge  <br /></td></tr>
 <tr class="memitem:ga0f23153d023000ffb86577703cf329dd" id="r_ga0f23153d023000ffb86577703cf329dd"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f23153d023000ffb86577703cf329dd">MR::ObjectMeshHolder::hasModel</a> () const override</td></tr>
+<tr class="memitem:gabc6f35e0e520a3551d1dab3ccd59f27b" id="r_gabc6f35e0e520a3551d1dab3ccd59f27b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabc6f35e0e520a3551d1dab3ccd59f27b">MR::ObjectMeshHolder::varMeshPtr</a> ()</td></tr>
+<tr class="memdesc:gabc6f35e0e520a3551d1dab3ccd59f27b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mesh of this object for modification, or nullptr if it is not set  <br /></td></tr>
+<tr class="memitem:ga090863e84b2143a5486ca6972b2f8584" id="r_ga090863e84b2143a5486ca6972b2f8584"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga090863e84b2143a5486ca6972b2f8584">MR::ObjectMeshHolder::meshPtr</a> () const</td></tr>
+<tr class="memdesc:ga090863e84b2143a5486ca6972b2f8584"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mesh of this object, or nullptr if it is not set  <br /></td></tr>
 <tr class="memitem:gaf6739310dc9f9e21c461819ea47dc086" id="r_gaf6739310dc9f9e21c461819ea47dc086"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf6739310dc9f9e21c461819ea47dc086">MR::ObjectMeshHolder::mesh</a> () const</td></tr>
 <tr class="memitem:ga5f17cf78de5c594d2941f35bd82197f1" id="r_ga5f17cf78de5c594d2941f35bd82197f1"><td class="memItemLeft" align="right" valign="top">MeshPart&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f17cf78de5c594d2941f35bd82197f1">MR::ObjectMeshHolder::meshPart</a> () const</td></tr>
 <tr class="memdesc:ga5f17cf78de5c594d2941f35bd82197f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">reinterpret_cast to avoid making a copy of shared_ptr  <br /></td></tr>
@@ -6672,7 +6680,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gafcf28edd7f47227d028c84a6876dc0ef" id="r_gafcf28edd7f47227d028c84a6876dc0ef"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafcf28edd7f47227d028c84a6876dc0ef">MR::ObjectPoints::StaticClassNameInPlural</a> () noexcept</td></tr>
 <tr class="memitem:ga7158fa0a7fc019003efd19130a838f58" id="r_ga7158fa0a7fc019003efd19130a838f58"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7158fa0a7fc019003efd19130a838f58">MR::ObjectPoints::classNameInPlural</a> () const override</td></tr>
 <tr class="memitem:gaa134e3602fae441e2eb584f728815c89" id="r_gaa134e3602fae441e2eb584f728815c89"><td class="memItemLeft" align="right" valign="top">virtual const std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa134e3602fae441e2eb584f728815c89">MR::ObjectPoints::varPointCloud</a> ()</td></tr>
-<tr class="memdesc:gaa134e3602fae441e2eb584f728815c89"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns variable point cloud, if const point cloud is needed use <span class="tt"><a class="el" href="#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud()</a></span> instead  <br /></td></tr>
+<tr class="memdesc:gaa134e3602fae441e2eb584f728815c89"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns variable point cloud, if const point cloud is needed use <span class="tt"><a class="el" href="#gac447393d1be3d444f139905cc7a61329" title="returns the point cloud of this object, or nullptr if it is not set">pointCloudPtr()</a></span> instead  <br /></td></tr>
 <tr class="memitem:ga5856ca60c2f8b465c0ef652b64673c43" id="r_ga5856ca60c2f8b465c0ef652b64673c43"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5856ca60c2f8b465c0ef652b64673c43">MR::ObjectPoints::clone</a> () const override</td></tr>
 <tr class="memitem:ga2c3cd5b9c7b2ec3d338781a407811c59" id="r_ga2c3cd5b9c7b2ec3d338781a407811c59"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2c3cd5b9c7b2ec3d338781a407811c59">MR::ObjectPoints::shallowClone</a> () const override</td></tr>
 <tr class="memitem:gac7133f9317fd79fe3af1c4c4f58e0865" id="r_gac7133f9317fd79fe3af1c4c4f58e0865"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac7133f9317fd79fe3af1c4c4f58e0865">MR::ObjectPoints::setPointCloud</a> (const std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; &amp;<a class="el" href="#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a>)</td></tr>
@@ -6698,6 +6706,10 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga8824c33bac24ff7ace26edef63b2ae39" id="r_ga8824c33bac24ff7ace26edef63b2ae39"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8824c33bac24ff7ace26edef63b2ae39">MR::ObjectPointsHolder::hasVisualRepresentation</a> () const override</td></tr>
 <tr class="memdesc:ga8824c33bac24ff7ace26edef63b2ae39"><td class="mdescLeft">&#160;</td><td class="mdescRight">does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects  <br /></td></tr>
 <tr class="memitem:ga3f994efd266fcfa91366976539698e6b" id="r_ga3f994efd266fcfa91366976539698e6b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f994efd266fcfa91366976539698e6b">MR::ObjectPointsHolder::hasModel</a> () const override</td></tr>
+<tr class="memitem:gaa442bac6beba99be01093c0fe289d378" id="r_gaa442bac6beba99be01093c0fe289d378"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa442bac6beba99be01093c0fe289d378">MR::ObjectPointsHolder::varPointCloudPtr</a> ()</td></tr>
+<tr class="memdesc:gaa442bac6beba99be01093c0fe289d378"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the point cloud of this object for modification, or nullptr if it is not set  <br /></td></tr>
+<tr class="memitem:gac447393d1be3d444f139905cc7a61329" id="r_gac447393d1be3d444f139905cc7a61329"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac447393d1be3d444f139905cc7a61329">MR::ObjectPointsHolder::pointCloudPtr</a> () const</td></tr>
+<tr class="memdesc:gac447393d1be3d444f139905cc7a61329"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the point cloud of this object, or nullptr if it is not set  <br /></td></tr>
 <tr class="memitem:ga1e4577ab2bb24e7600c98bc550668b06" id="r_ga1e4577ab2bb24e7600c98bc550668b06"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1e4577ab2bb24e7600c98bc550668b06">MR::ObjectPointsHolder::pointCloud</a> () const</td></tr>
 <tr class="memitem:ga8f8cc5bc215e60ae310217c6a7afbcb4" id="r_ga8f8cc5bc215e60ae310217c6a7afbcb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f8cc5bc215e60ae310217c6a7afbcb4">MR::ObjectPointsHolder::pointCloudPart</a> () const</td></tr>
 <tr class="memdesc:ga8f8cc5bc215e60ae310217c6a7afbcb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">reinterpret_cast to avoid making a copy of shared_ptr  <br /></td></tr>
@@ -100647,7 +100659,7 @@ template&lt;detail::Units::Scalar T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectDistanceMap_8h.html">MRMesh/MRObjectDistanceMap.h</a>&gt;</code></p>
-<p>does the object have any model available (but possibly empty), e.g. <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> has valid <a class="el" href="#gaf6739310dc9f9e21c461819ea47dc086">mesh()</a> or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> has valid pointCloud() </p>
+<p>does the object have any model available (but possibly empty), e.g. <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> has valid <a class="el" href="#ga090863e84b2143a5486ca6972b2f8584" title="returns the mesh of this object, or nullptr if it is not set">meshPtr()</a> or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> has valid pointCloudPtr() </p>
 
 <p>Reimplemented from <a class="el" href="#ga0f23153d023000ffb86577703cf329dd">MR::ObjectMeshHolder</a>.</p>
 
@@ -100677,7 +100689,7 @@ template&lt;detail::Units::Scalar T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectLinesHolder_8h.html">MRMesh/MRObjectLinesHolder.h</a>&gt;</code></p>
-<p>does the object have any model available (but possibly empty), e.g. <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> has valid mesh() or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> has valid pointCloud() </p>
+<p>does the object have any model available (but possibly empty), e.g. <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> has valid meshPtr() or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> has valid pointCloudPtr() </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a376cb1be36addec5afd14487533e6693">MR::Object</a>.</p>
 
@@ -100707,7 +100719,7 @@ template&lt;detail::Units::Scalar T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectMeshHolder_8h.html">MRMesh/MRObjectMeshHolder.h</a>&gt;</code></p>
-<p>does the object have any model available (but possibly empty), e.g. <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> has valid <a class="el" href="#gaf6739310dc9f9e21c461819ea47dc086">mesh()</a> or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> has valid pointCloud() </p>
+<p>does the object have any model available (but possibly empty), e.g. <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> has valid <a class="el" href="#ga090863e84b2143a5486ca6972b2f8584" title="returns the mesh of this object, or nullptr if it is not set">meshPtr()</a> or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> has valid pointCloudPtr() </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a376cb1be36addec5afd14487533e6693">MR::Object</a>.</p>
 
@@ -100739,7 +100751,7 @@ template&lt;detail::Units::Scalar T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectPointsHolder_8h.html">MRMesh/MRObjectPointsHolder.h</a>&gt;</code></p>
-<p>does the object have any model available (but possibly empty), e.g. <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> has valid mesh() or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> has valid <a class="el" href="#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud()</a> </p>
+<p>does the object have any model available (but possibly empty), e.g. <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> has valid meshPtr() or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> has valid <a class="el" href="#gac447393d1be3d444f139905cc7a61329" title="returns the point cloud of this object, or nullptr if it is not set">pointCloudPtr()</a> </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a376cb1be36addec5afd14487533e6693">MR::Object</a>.</p>
 
@@ -100769,7 +100781,7 @@ template&lt;detail::Units::Scalar T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectVoxels_8h.html">MRVoxels/MRObjectVoxels.h</a>&gt;</code></p>
-<p>does the object have any model available (but possibly empty), e.g. <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> has valid <a class="el" href="#gaf6739310dc9f9e21c461819ea47dc086">mesh()</a> or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> has valid pointCloud() </p>
+<p>does the object have any model available (but possibly empty), e.g. <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> has valid <a class="el" href="#ga090863e84b2143a5486ca6972b2f8584" title="returns the mesh of this object, or nullptr if it is not set">meshPtr()</a> or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> has valid pointCloudPtr() </p>
 
 <p>Reimplemented from <a class="el" href="#ga0f23153d023000ffb86577703cf329dd">MR::ObjectMeshHolder</a>.</p>
 
@@ -120380,6 +120392,7 @@ template&lt;typename Volume&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectMeshHolder_8h.html">MRMesh/MRObjectMeshHolder.h</a>&gt;</code></p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#ga090863e84b2143a5486ca6972b2f8584" title="returns the mesh of this object, or nullptr if it is not set">meshPtr()</a> instead </dd></dl>
 
 </div>
 </div>
@@ -120901,6 +120914,35 @@ template&lt;typename Volume&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRMeshDecimateCallbacks_8h.html">MRMesh/MRMeshDecimateCallbacks.h</a>&gt;</code></p>
 <p>Please use this callback when you decimate a mesh with associated data with each vertex recalculate texture coordinates and mesh vertex colors for vertices moved during decimation usage example <a class="el" href="structMR_1_1MeshAttributesToUpdate.html" title="the attribute data of the mesh that needs to be updated">MeshAttributesToUpdate</a> meshParams; auto uvCoords = obj-&gt;getUVCoords(); auto colorMap = obj-&gt;getVertsColorMap(); if ( needUpdateUV ) meshParams.uvCoords = &amp;uvCoords; if ( needUpdateColorMap ) meshParams.colorMap = &amp;colorMap; auto preCollapse = meshPreCollapseVertAttribute( mesh, meshParams ); decimateMesh( mesh, <a class="el" href="structMR_1_1DecimateSettings.html" title="Parameters structure for MR::decimateMesh.">DecimateSettings</a>{ .preCollapse = preCollapse } ); </p>
+
+</div>
+</div>
+<a id="ga090863e84b2143a5486ca6972b2f8584" name="ga090863e84b2143a5486ca6972b2f8584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga090863e84b2143a5486ca6972b2f8584">&#9670;&#160;</a></span>meshPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> * MR::ObjectMeshHolder::meshPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRObjectMeshHolder_8h.html">MRMesh/MRObjectMeshHolder.h</a>&gt;</code></p>
+
+<p>returns the mesh of this object, or nullptr if it is not set </p>
 
 </div>
 </div>
@@ -144689,6 +144731,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectPointsHolder_8h.html">MRMesh/MRObjectPointsHolder.h</a>&gt;</code></p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#gac447393d1be3d444f139905cc7a61329" title="returns the point cloud of this object, or nullptr if it is not set">pointCloudPtr()</a> instead </dd></dl>
 
 </div>
 </div>
@@ -144781,6 +144824,35 @@ template&lt;typename T&gt; </div>
 
 <p>reinterpret_cast to avoid making a copy of shared_ptr </p>
 <dl class="section return"><dt>Returns</dt><dd>the pair ( point cloud, selected points ) if any point is selected or full point cloud otherwise </dd></dl>
+
+</div>
+</div>
+<a id="gac447393d1be3d444f139905cc7a61329" name="gac447393d1be3d444f139905cc7a61329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac447393d1be3d444f139905cc7a61329">&#9670;&#160;</a></span>pointCloudPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> * MR::ObjectPointsHolder::pointCloudPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRObjectPointsHolder_8h.html">MRMesh/MRObjectPointsHolder.h</a>&gt;</code></p>
+
+<p>returns the point cloud of this object, or nullptr if it is not set </p>
 
 </div>
 </div>
@@ -145548,6 +145620,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectLinesHolder_8h.html">MRMesh/MRObjectLinesHolder.h</a>&gt;</code></p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#gad5cf75ed10ccc65062b81be77146a84d" title="returns the polyline of this object, or nullptr if it is not set">polylinePtr()</a> instead </dd></dl>
 
 </div>
 </div>
@@ -145652,6 +145725,35 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gad5cf75ed10ccc65062b81be77146a84d" name="gad5cf75ed10ccc65062b81be77146a84d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5cf75ed10ccc65062b81be77146a84d">&#9670;&#160;</a></span>polylinePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Polyline3 * MR::ObjectLinesHolder::polylinePtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRObjectLinesHolder_8h.html">MRMesh/MRObjectLinesHolder.h</a>&gt;</code></p>
+
+<p>returns the polyline of this object, or nullptr if it is not set </p>
 
 </div>
 </div>
@@ -194101,7 +194203,36 @@ template&lt;detail::Units::Scalar T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRObjectMesh_8h.html">MRMesh/MRObjectMesh.h</a>&gt;</code></p>
 
-<p>returns variable mesh, if const mesh is needed use <span class="tt"><a class="el" href="#gaf6739310dc9f9e21c461819ea47dc086">mesh()</a></span> instead </p>
+<p>returns variable mesh, if const mesh is needed use <span class="tt"><a class="el" href="#ga090863e84b2143a5486ca6972b2f8584" title="returns the mesh of this object, or nullptr if it is not set">meshPtr()</a></span> instead </p>
+
+</div>
+</div>
+<a id="gabc6f35e0e520a3551d1dab3ccd59f27b" name="gabc6f35e0e520a3551d1dab3ccd59f27b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc6f35e0e520a3551d1dab3ccd59f27b">&#9670;&#160;</a></span>varMeshPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> * MR::ObjectMeshHolder::varMeshPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRObjectMeshHolder_8h.html">MRMesh/MRObjectMeshHolder.h</a>&gt;</code></p>
+
+<p>returns the mesh of this object for modification, or nullptr if it is not set </p>
 
 </div>
 </div>
@@ -194130,7 +194261,36 @@ template&lt;detail::Units::Scalar T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRObjectPoints_8h.html">MRMesh/MRObjectPoints.h</a>&gt;</code></p>
 
-<p>returns variable point cloud, if const point cloud is needed use <span class="tt"><a class="el" href="#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud()</a></span> instead </p>
+<p>returns variable point cloud, if const point cloud is needed use <span class="tt"><a class="el" href="#gac447393d1be3d444f139905cc7a61329" title="returns the point cloud of this object, or nullptr if it is not set">pointCloudPtr()</a></span> instead </p>
+
+</div>
+</div>
+<a id="gaa442bac6beba99be01093c0fe289d378" name="gaa442bac6beba99be01093c0fe289d378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa442bac6beba99be01093c0fe289d378">&#9670;&#160;</a></span>varPointCloudPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> * MR::ObjectPointsHolder::varPointCloudPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRObjectPointsHolder_8h.html">MRMesh/MRObjectPointsHolder.h</a>&gt;</code></p>
+
+<p>returns the point cloud of this object for modification, or nullptr if it is not set </p>
 
 </div>
 </div>
@@ -194158,6 +194318,35 @@ template&lt;detail::Units::Scalar T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectLines_8h.html">MRMesh/MRObjectLines.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gaa3875bc524fb77bbb459b77d5ee068ff" name="gaa3875bc524fb77bbb459b77d5ee068ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa3875bc524fb77bbb459b77d5ee068ff">&#9670;&#160;</a></span>varPolylinePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Polyline3 * MR::ObjectLinesHolder::varPolylinePtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRObjectLinesHolder_8h.html">MRMesh/MRObjectLinesHolder.h</a>&gt;</code></p>
+
+<p>returns the polyline of this object for modification, or nullptr if it is not set </p>
 
 </div>
 </div>

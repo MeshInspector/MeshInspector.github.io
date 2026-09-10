@@ -1,5 +1,14 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1DistanceMapToWorld.html#a88a6c37ca2375d6901ed65ebebdae8dc":[9,3,0,0,0,1141,8],
+"classMR_1_1DistanceMapToWorld.html#aa3abd2a558c2e1064c518788b02f13d5":[9,3,0,0,0,1141,13],
+"classMR_1_1DistanceMapToWorld.html#ab6acb651987dc943e668beddb62f3178":[9,3,0,0,0,1141,2],
+"classMR_1_1DistanceMapToWorld.html#ac1023623f740e6311e402e3353dac47e":[9,3,0,0,0,1141,9],
+"classMR_1_1DistanceMapToWorld.html#adf79ddae6bfde2f4c815b2dcabb7760d":[9,3,0,0,0,1141,0],
+"classMR_1_1DistanceMapToWorld.html#ae01bf1c69ad598b8964fc54af973e051":[9,3,0,0,0,1141,11],
+"classMR_1_1DistanceMeasurementObject.html":[9,3,0,0,0,1142],
+"classMR_1_1DistanceMeasurementObject.html#a00111fc5f104a7abc3d8be2834ea4e68":[9,3,0,0,0,1142,49],
+"classMR_1_1DistanceMeasurementObject.html#a027e701d28b890228ec3859e098c5084":[9,3,0,0,0,1142,46],
 "classMR_1_1DistanceMeasurementObject.html#a0308ad278aa2e219144f3865418d2dce":[9,3,0,0,0,1142,13],
 "classMR_1_1DistanceMeasurementObject.html#a0813b1e12568b3089c27cd5bd98c7cab":[9,3,0,0,0,1142,20],
 "classMR_1_1DistanceMeasurementObject.html#a090faaee115e2d22e4265e02af193bfa":[9,3,0,0,0,1142,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1EdgeMap.html#add5a4589c93a3ccd2149f537fbe4c549":[9,3,0,0,0,1154,8],
 "classMR_1_1EdgeMap.html#ae1e40c3baee158b932a035f4a901c628":[9,3,0,0,0,1154,20],
 "classMR_1_1EdgeMap.html#ae5639b5a5ecdeb68449c2b245bbe293d":[9,3,0,0,0,1154,6],
-"classMR_1_1EdgeMap.html#ae910100357d707caa6af9f571f69615f":[9,3,0,0,0,1154,9],
-"classMR_1_1EdgeMap.html#af12ecb46144f0e2674524a37ab78a926":[9,3,0,0,0,1154,17],
-"classMR_1_1EdgeMap.html#af37cf6449ccd0abe992d2906171fec23":[9,3,0,0,0,1154,16],
-"classMR_1_1EdgeMap.html#af6ab9f2cff75bac620c9b30128883ca5":[9,3,0,0,0,1154,22],
-"classMR_1_1EdgeMap.html#af831a3ec69500981a36e8e64340056af":[9,3,0,0,0,1154,26],
-"classMR_1_1EdgePathsAStarBuilder.html":[9,3,0,0,0,1155],
-"classMR_1_1EdgePathsAStarBuilder.html#a1847c905babf31a4e345d8363b387ac1":[9,3,0,0,0,1155,8],
-"classMR_1_1EdgePathsAStarBuilder.html#a35e12b00f998d07b98f1439457adaa4b":[9,3,0,0,0,1155,1],
-"classMR_1_1EdgePathsAStarBuilder.html#a70a64104594575ac1321fec8d28bd596":[9,3,0,0,0,1155,0],
-"classMR_1_1EdgePathsAStarBuilder.html#a73af0f7972a7561d5d74e8b18bf0bcdc":[9,3,0,0,0,1155,5]
+"classMR_1_1EdgeMap.html#ae910100357d707caa6af9f571f69615f":[9,3,0,0,0,1154,9]
 };

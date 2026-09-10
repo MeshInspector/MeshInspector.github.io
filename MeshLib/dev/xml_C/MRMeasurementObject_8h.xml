@@ -2771,7 +2771,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>does the object have any model available (but possibly empty), e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud() Generated from method <computeroutput>MR::MeasurementObject::hasModel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>does the object have any model available (but possibly empty), e.g. ObjectMesh has valid meshPtr() or ObjectPoints has valid pointCloudPtr() Generated from method <computeroutput>MR::MeasurementObject::hasModel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

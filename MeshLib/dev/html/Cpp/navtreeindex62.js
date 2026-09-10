@@ -1,5 +1,11 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1CustomButtonParameters.html":[9,0,0,20,673],
+"structMR_1_1CutByProjectionSettings.html":[9,0,0,20,184],
+"structMR_1_1CutMeshParameters.html":[9,0,0,8,3],
+"structMR_1_1CutMeshParameters.html":[9,0,0,20,182],
+"structMR_1_1CutMeshResult.html":[9,0,0,8,4],
+"structMR_1_1CutMeshResult.html":[9,0,0,20,183],
 "structMR_1_1DecimatePolylineResult.html":[9,0,0,20,454],
 "structMR_1_1DecimatePolylineSettings.html":[9,0,0,10,4],
 "structMR_1_1DecimatePolylineSettings.html":[9,0,0,20,453],
@@ -243,11 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1FindDisorientationParams.html":[9,0,0,9,4,2],
 "structMR_1_1FindDisorientationParams.html#a0c40bf2320287e58137728520c03765e":[9,0,0,9,4,2,1],
 "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389d":[9,0,0,9,4,2,0],
-"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da130c5b3473c57faa76e2a1c54e26f88e":[9,0,0,9,4,2,0,2],
-"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da3289297424e01eda5b788c083bbf3147":[9,0,0,9,4,2,0,0],
-"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389daa16249848fdc15d3bd637c5a13101cdb":[9,0,0,9,4,2,0,1],
-"structMR_1_1FindDisorientationParams.html#a66e41167bc8d6713f7b3c8d46c29d247":[9,0,0,9,4,2,2],
-"structMR_1_1FindDisorientationParams.html#a8d3d371ac19975e796450c4a8bbb2d44":[9,0,0,9,4,2,3],
-"structMR_1_1FindInnerShellSettings.html":[9,0,0,20,294],
-"structMR_1_1FindOutliersParams.html":[9,0,0,20,425]
+"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da130c5b3473c57faa76e2a1c54e26f88e":[9,0,0,9,4,2,0,2]
 };

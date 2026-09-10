@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term>Member <ref refid="MRObjectDistanceMap_8h_1af110260cbf2db8b5164d2e1ed93f1c3e" kindref="member">MR_ObjectDistanceMap_mesh</ref>  (const <ref refid="MRObjectDistanceMap_8h_1ad6ad696793a6623bba06b95cbf9e7245" kindref="member">MR_ObjectDistanceMap</ref> *_this)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000001"/>the cast inside is undefined behaviour, use meshPtr() instead Generated from method <computeroutput>MR::ObjectDistanceMap::mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </para>
+</listitem>
+<varlistentry><term>Member <ref refid="MRObjectGcode_8h_1a23cd8403b40ab59bdcfcd2068cdcb31d" kindref="member">MR_ObjectGcode_polyline</ref>  (const <ref refid="MRObjectGcode_8h_1af23a4f0a386adc3ab051268483b937da" kindref="member">MR_ObjectGcode</ref> *_this)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000002"/>the cast inside is undefined behaviour, use polylinePtr() instead Generated from method <computeroutput>MR::ObjectGcode::polyline</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </para>
+</listitem>
+<varlistentry><term>Member <ref refid="MRObjectLines_8h_1adc6e5e5ebb2b44f5c84f5f26e0a0f92d" kindref="member">MR_ObjectLines_polyline</ref>  (const <ref refid="MRObjectLines_8h_1a6ea30e504a416bf2f8b79c3f9124e265" kindref="member">MR_ObjectLines</ref> *_this)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000003"/>the cast inside is undefined behaviour, use polylinePtr() instead Generated from method <computeroutput>MR::ObjectLines::polyline</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </para>
+</listitem>
+<varlistentry><term>Member <ref refid="MRObjectLinesHolder_8h_1aa0687f24b330815fd7e612262f7f6106" kindref="member">MR_ObjectLinesHolder_polyline</ref>  (const <ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref> *_this)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000004"/>the cast inside is undefined behaviour, use polylinePtr() instead Generated from method <computeroutput>MR::ObjectLinesHolder::polyline</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </para>
+</listitem>
+<varlistentry><term>Member <ref refid="MRObjectMesh_8h_1a047ad4e8fea9f1855bfd0c5167ada950" kindref="member">MR_ObjectMesh_mesh</ref>  (const <ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref> *_this)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000005"/>the cast inside is undefined behaviour, use meshPtr() instead Generated from method <computeroutput>MR::ObjectMesh::mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </para>
+</listitem>
+<varlistentry><term>Member <ref refid="MRObjectMeshHolder_8h_1aa88cec13bc92dd9150cae2f3885600f1" kindref="member">MR_ObjectMeshHolder_mesh</ref>  (const <ref refid="MRObjectDistanceMap_8h_1a1c5e41e50d86c1613114a6f1296f0934" kindref="member">MR_ObjectMeshHolder</ref> *_this)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000006"/>the cast inside is undefined behaviour, use meshPtr() instead Generated from method <computeroutput>MR::ObjectMeshHolder::mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </para>
+</listitem>
+<varlistentry><term>Member <ref refid="MRObjectPoints_8h_1a5b2e748350e50752037d2abeadf2530d" kindref="member">MR_ObjectPoints_pointCloud</ref>  (const <ref refid="MRMeshOrPointsObject_8h_1ab1c1a63bde0febef265b95d647c94932" kindref="member">MR_ObjectPoints</ref> *_this)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000007"/>the cast inside is undefined behaviour, use pointCloudPtr() instead Generated from method <computeroutput>MR::ObjectPoints::pointCloud</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </para>
+</listitem>
+<varlistentry><term>Member <ref refid="MRObjectPointsHolder_8h_1a0a4b0605a5cd10234b4f3a70d6963ddb" kindref="member">MR_ObjectPointsHolder_pointCloud</ref>  (const <ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref> *_this)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000008"/>the cast inside is undefined behaviour, use pointCloudPtr() instead Generated from method <computeroutput>MR::ObjectPointsHolder::pointCloud</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </para>
+</listitem>
+<varlistentry><term>Member <ref refid="MRObjectVoxels_8h_1a5d48f92474e0313898091657a5c554a8" kindref="member">MR_setDefaultSerializeVoxelsFormat</ref>  (const char *newFormat, const char *newFormat_end)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000009"/>the cast inside is undefined behaviour, use meshPtr() instead / Generated from method <computeroutput>MR::ObjectVoxels::mesh</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it.</para>
+</listitem>
+</variablelist>
+</para>
+    </detaileddescription>
+    <location file="deprecated"/>
+  </compounddef>
+</doxygen>

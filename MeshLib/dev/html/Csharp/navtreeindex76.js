@@ -1,5 +1,14 @@
 var NAVTREEINDEX76 =
 {
+"classMR_1_1Const__SaveSettings.html#aee56c53cf4f101b9e1871da4bedbfb5d":[9,3,0,0,0,798,28],
+"classMR_1_1Const__SaveSettings.html#afb6b51d9ab949fd20bdb0d4a7694fca9":[9,3,0,0,0,798,23],
+"classMR_1_1Const__SaveSettings.html#afbd14e4ebbe98232e14e14c39b857c78":[9,3,0,0,0,798,17],
+"classMR_1_1Const__SceneColors.html":[9,3,0,0,0,799],
+"classMR_1_1Const__SceneColors.html#a47898d03f87d23d5ac50a9bc8f003352":[9,3,0,0,0,799,1],
+"classMR_1_1Const__SceneColors.html#a9e8ced06b99e59b9a94c19c94d9f2ea0":[9,3,0,0,0,799,2],
+"classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72":[9,3,0,0,0,799,0],
+"classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72a08c22b851e77f326668ddaa738b48310":[9,3,0,0,0,799,0,5],
+"classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72a0c98b01e9116b07f07dd4a2a7b94a5be":[9,3,0,0,0,799,0,2],
 "classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72a1c9d93e1cbbce4c170f4e9f503ebea5b":[9,3,0,0,0,799,0,34],
 "classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72a21ce635f908c510ee396589983b0edf6":[9,3,0,0,0,799,0,24],
 "classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72a2b2cf25e1019f4ecd0fd09effc7ffb41":[9,3,0,0,0,799,0,33],
@@ -240,14 +249,5 @@ var NAVTREEINDEX76 =
 "classMR_1_1Const__SetBitIterator.html#a55a8d756f257c7b7938a5b8c08f398e7":[9,3,0,0,0,808,10],
 "classMR_1_1Const__SetBitIterator.html#a64b9a4ce5d293ecd0fa639b246f8808e":[9,3,0,0,0,808,13],
 "classMR_1_1Const__SetBitIterator.html#a8a037e096a2ee87b8e4a479ca8187f12":[9,3,0,0,0,808,0],
-"classMR_1_1Const__SetBitIterator.html#ab1f4a603b9309cc275ea3be321868946":[9,3,0,0,0,808,5],
-"classMR_1_1Const__SetBitIterator.html#abcf2cfbc281007d2a344c8f0c7a40048":[9,3,0,0,0,808,4],
-"classMR_1_1Const__SetBitIterator.html#ae26acc3f1238fde4d18449ebee13d804":[9,3,0,0,0,808,12],
-"classMR_1_1Const__SetBitIteratorT__MRGraphEdgeBitSet.html":[9,3,0,0,0,809],
-"classMR_1_1Const__SetBitIteratorT__MRGraphEdgeBitSet.html#a0701b32562624c1c3ee2361cdd67e2ea":[9,3,0,0,0,809,5],
-"classMR_1_1Const__SetBitIteratorT__MRGraphEdgeBitSet.html#a351a3d9b26c13bea34661461a7ec41c2":[9,3,0,0,0,809,6],
-"classMR_1_1Const__SetBitIteratorT__MRGraphEdgeBitSet.html#a453c0251a4dd27f82602d1f2443380a4":[9,3,0,0,0,809,8],
-"classMR_1_1Const__SetBitIteratorT__MRGraphEdgeBitSet.html#a4adb1949e6ce0ff89f1509f698defb9d":[9,3,0,0,0,809,4],
-"classMR_1_1Const__SetBitIteratorT__MRGraphEdgeBitSet.html#a4b352086e95d86b273acf7c33561052e":[9,3,0,0,0,809,1],
-"classMR_1_1Const__SetBitIteratorT__MRGraphEdgeBitSet.html#a868076ae14dbc3ca61237d744778af1d":[9,3,0,0,0,809,13]
+"classMR_1_1Const__SetBitIterator.html#ab1f4a603b9309cc275ea3be321868946":[9,3,0,0,0,808,5]
 };

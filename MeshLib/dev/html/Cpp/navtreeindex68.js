@@ -1,5 +1,11 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1SceneSave_1_1Settings.html#a5eba607b1b31e9aa25865db38feea83b":[9,0,2,0,2,29,0,1],
+"structMR_1_1SceneSave_1_1Settings.html#abe24eb97f130222d8ab758179249597b":[9,0,1,0,1,44,0,0],
+"structMR_1_1SceneSave_1_1Settings.html#abe24eb97f130222d8ab758179249597b":[9,0,2,0,2,29,0,0],
+"structMR_1_1SearchPathSettings.html":[9,0,0,20,422],
+"structMR_1_1SegmEndColors.html":[9,0,0,20,833],
+"structMR_1_1SegmPoint.html":[9,0,0,0,21],
 "structMR_1_1SegmPoint.html":[9,0,0,20,495],
 "structMR_1_1SegmentSegmentIntersectResult.html":[9,0,0,20,468],
 "structMR_1_1SelfIntersections_1_1Settings.html":[9,0,0,20,259],
@@ -243,11 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1UI_1_1SeparatorParams.html":[9,0,0,20,768],
 "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html":[9,0,1,0,1,49,2,2],
 "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html":[9,0,2,0,2,33,0,2],
-"structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#a09f3fe261438edd0071ac8dd34a503a1":[9,0,1,0,1,49,2,2,1],
-"structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#a09f3fe261438edd0071ac8dd34a503a1":[9,0,2,0,2,33,0,2,1],
-"structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#ae0e6dd790b8725ec765ff66f969fef75":[9,0,1,0,1,49,2,2,0],
-"structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#ae0e6dd790b8725ec765ff66f969fef75":[9,0,2,0,2,33,0,2,0],
-"structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html":[9,0,1,0,1,49,2,0,0],
-"structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html":[9,0,2,0,2,33,0,0,0],
-"structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html#a4e3cc6eede4e75192082ff04395854a1":[9,0,1,0,1,49,2,0,0,0]
+"structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#a09f3fe261438edd0071ac8dd34a503a1":[9,0,1,0,1,49,2,2,1]
 };

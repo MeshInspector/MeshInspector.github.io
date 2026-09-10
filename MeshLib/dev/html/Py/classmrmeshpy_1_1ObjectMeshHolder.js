@@ -47,6 +47,7 @@ var classmrmeshpy_1_1ObjectMeshHolder =
     [ "isMeshClosed", "classmrmeshpy_1_1ObjectMeshHolder.html#a08c496d5f2feda4ef87a2e68664cee68", null ],
     [ "mesh", "classmrmeshpy_1_1ObjectMeshHolder.html#acea2aff8d75e3b354c19d335a57864d6", null ],
     [ "meshPart", "classmrmeshpy_1_1ObjectMeshHolder.html#ae07f108a03ac58b498b0f04b2d820244", null ],
+    [ "meshPtr", "classmrmeshpy_1_1ObjectMeshHolder.html#a4ea7a46be06cba267076d0b263b541e1", null ],
     [ "numComponents", "classmrmeshpy_1_1ObjectMeshHolder.html#a979dfdec04a5f6bfa7c8bd36eecd7b93", null ],
     [ "numCreaseEdges", "classmrmeshpy_1_1ObjectMeshHolder.html#a6bc1c5e373cd92f5a1c8dd0b504fdd21", null ],
     [ "numHandles", "classmrmeshpy_1_1ObjectMeshHolder.html#ae01bf8a0c21bde1d04bc3109f8280366", null ],
@@ -97,5 +98,6 @@ var classmrmeshpy_1_1ObjectMeshHolder =
     [ "updateTextures", "classmrmeshpy_1_1ObjectMeshHolder.html#aff3de3e9f18709ef5116530251eb0aba", null ],
     [ "updateUVCoords", "classmrmeshpy_1_1ObjectMeshHolder.html#a782f1f24dae769af851d7bc5ae0333ee", null ],
     [ "updateVertsColorMap", "classmrmeshpy_1_1ObjectMeshHolder.html#a949e3a4800e457a42b7e06b7a82af8ce", null ],
+    [ "varMeshPtr", "classmrmeshpy_1_1ObjectMeshHolder.html#adb8f3fc045dc651019192163a6e80347", null ],
     [ "volume", "classmrmeshpy_1_1ObjectMeshHolder.html#af6e17574c4689dd7f95c8a6d7a7a2c96", null ]
 ];
