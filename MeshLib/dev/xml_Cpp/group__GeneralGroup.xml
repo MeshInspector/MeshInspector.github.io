@@ -19506,7 +19506,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="78" column="17" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="78" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="82" column="17" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" prot="public" static="no">
         <type><ref refid="structMR_1_1ShortcutKey" kindref="compound">MR::ShortcutKey</ref></type>
@@ -60054,7 +60054,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="109" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="109" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="113" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf4b84e5c4ee9c3f4eca9a8e0c73dde3d" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -60069,7 +60069,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="110" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="110" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="114" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8a60d352593fe44cc3cfcd83f0490498" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -60084,7 +60084,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="126" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="126" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="130" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gadd1a30cdd75755b51664d031778458f9" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -60099,7 +60099,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="127" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="127" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="131" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0c8ba2a60d4747b8f0eae8791efd2249" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -60114,7 +60114,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="132" column="13" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="132" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="136" column="13" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="136" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf5e2efafccac2a050712323ed5479603" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -60130,7 +60130,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="133" column="15" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="133" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="137" column="15" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="137" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5fa4cc6e843bdb6827ddcfde0e1b7709" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -60146,7 +60146,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="134" column="14" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="134" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="138" column="14" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8ed6e5199964885fbd4d42c0691c91a3" prot="private" static="no" mutable="no">
         <type>MoveAndScrollData</type>
@@ -60160,7 +60160,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="136" column="23" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="136" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="140" column="23" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="140" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga462460aacf6b87ba3500be6d2305892e" prot="private" static="no" mutable="no">
         <type>MoveAndScrollData</type>
@@ -60174,7 +60174,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="137" column="23" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="137" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="141" column="23" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="141" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga93aad96cf435af094f474899bc80c660" prot="private" static="no" mutable="no">
         <type>MoveAndScrollData</type>
@@ -60188,7 +60188,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="138" column="23" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="138" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="142" column="23" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6b506e2a4af03f568dcad5b76ccd21be" prot="private" static="no" mutable="no">
         <type>SceneReorder</type>
@@ -60202,7 +60202,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="140" column="18" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="140" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="144" column="18" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabbf3505abf910c44d4b8d50aaae3fb11" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -60217,7 +60217,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="145" column="15" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="145" bodyend="145"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="149" column="15" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="149" bodyend="149"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaef48e5d11739e2460d49ae418a9b07ad" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -60232,7 +60232,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="146" column="15" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="146" bodyend="146"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="150" column="15" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="150" bodyend="150"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0afb65f705666663924638196be9f85a" prot="private" static="no" mutable="no">
         <type>struct MR::SceneObjectsListDrawer::ScrollPositionPreservation</type>
@@ -60246,7 +60246,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="147" column="21"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="151" column="21"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac24b4b269239dd2b3da9c9d21ab89b53" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -60262,7 +60262,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="149" column="9" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="149" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="153" column="9" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga65e801481ef6fc98205d59d1fa5e79b0" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -60278,7 +60278,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="151" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="151" bodyend="151"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="155" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="155" bodyend="155"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1ae5202f89849a3745f8753c984a2ecf" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -60294,7 +60294,23 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="153" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="153" bodyend="153"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="157" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga56acdae4fd756a65ce6ea8f31206ac9f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SceneObjectsListDrawer::collapseSceneTreeRequested_</definition>
+        <argsstring></argsstring>
+        <name>collapseSceneTreeRequested_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::collapseSceneTreeRequested_</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>see <ref refid="group__GeneralGroup_1ga11843c9f225ff4abc28a208f09401aed" kindref="member">collapseSceneTree()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="163" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga35cdb8be56900573df3387f4538a787b" prot="protected" static="no" mutable="no">
         <type>std::unordered_map&lt; const Object *, bool &gt;</type>
@@ -60308,7 +60324,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="156" column="24" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="156" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="166" column="24" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="166" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad781fd9e905dc8e6d2f5cc6645b6d82e" prot="public" static="no" constexpr="yes" mutable="no">
         <type>int</type>
@@ -60316,14 +60332,15 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <argsstring></argsstring>
         <name>sDefaultGroupState</name>
         <qualifiedname>MR::sDefaultGroupState</qualifiedname>
-        <initializer>= 0</initializer>
+        <initializer>= 1 &lt;&lt; 5</initializer>
         <briefdescription>
+<para>ImGuiTreeNodeFlags_DefaultOpen; the value is spelled out not to include imgui.h here, see the static_assert in the .cpp. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="159" column="22" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="159" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="170" column="22" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga91ce578b57c3afcd001373ff561404a9" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; Object &gt;</type>
@@ -177079,6 +177096,21 @@ returns true if load was succeed </para>
         </inbodydescription>
         <location file="MRViewer/MRSceneObjectsListDrawer.h" line="55" column="11"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga11843c9f225ff4abc28a208f09401aed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SceneObjectsListDrawer::collapseSceneTree</definition>
+        <argsstring>()</argsstring>
+        <name>collapseSceneTree</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::collapseSceneTree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>collapses every group of the scene tree during the next draw; this is called when a scene is opened from a file, where deep hierarchies (e.g. of STEP files) would otherwise flood the tree </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="59" column="11"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8084682665d391053cd04055e7c0ca4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::SceneObjectsListDrawer::allowSceneReorder</definition>
@@ -177096,7 +177128,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="58" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="62" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2ef9e21dc6abd9863447c81ea60442fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177116,7 +177148,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="61" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="65" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3a39bc8bafb8bd84897729f531668a07" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -177138,7 +177170,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="66" column="19" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="66" bodyend="67"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="70" column="19" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="70" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa58840367fe8403f849034a505b66a2b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -177160,7 +177192,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="70" column="19" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="70" bodyend="71"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="74" column="19" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="74" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafd696bf615f9798542dd47452479139e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>float</type>
@@ -177183,7 +177215,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="76" column="20"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="80" column="20"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf513731334115b0f7e6b6dd4eba06375" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -177207,7 +177239,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="80" column="19"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="84" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae92bca1def2f90b666c4e0d9e4bb01d5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::string</type>
@@ -177230,7 +177262,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="82" column="26"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="86" column="26"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac7cac88af55e173aeb0c55db22de8537" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -177258,7 +177290,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="85" column="19"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="89" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac83507788674f6fdc300388afebb3304" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -177286,7 +177318,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="87" column="19"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="91" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga809ccc1275d19dfcc5bfc3cadba293b1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -177313,7 +177345,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="90" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="94" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga74e5357e26632ac0982586feae564127" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177336,7 +177368,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="93" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="97" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8aec8ee6ac0266249b98403d81359111" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177355,7 +177387,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="96" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="100" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6b32550029f40adcc37e0d55b6cd3a1b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -177370,7 +177402,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="99" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="103" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4dad108f861cd4c0c6a865c6ea12b6c5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177401,7 +177433,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="104" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="108" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga79c979b84fc273be259ddba84ad09b5a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177424,7 +177456,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="107" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="111" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa63339981a28d0554c97a965142626c2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177438,7 +177470,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="112" column="10"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="116" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga53956dc4e37d0ddf2727ae5fc9aed2e5" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -177452,7 +177484,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="114" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="118" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga99cca3921f92be5097701848cabe923a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177466,7 +177498,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="115" column="10"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="119" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9ed66c5b5c043bdbfc1b1562cf5f1cfb" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -177481,7 +177513,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="118" column="19"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="122" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab91f94e8ae1fdc4ef130921e7b59b0a7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; Object * &gt;</type>
@@ -177515,7 +177547,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="120" column="17"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="124" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9850a78cb338110886f83ec3be592af6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177541,7 +177573,22 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="124" column="10"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="128" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga263a0162283350565586c34660445415" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SceneObjectsListDrawer::applyCollapseSceneTree_</definition>
+        <argsstring>()</argsstring>
+        <name>applyCollapseSceneTree_</name>
+        <qualifiedname>MR::SceneObjectsListDrawer::applyCollapseSceneTree_</qualifiedname>
+        <briefdescription>
+<para>applies and resets collapseSceneTreeRequested_; must be called inside the scene tree window </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="160" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga28b1d1a4fc0bc2811d060a22d79a48b9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>TypedFlatTree</type>

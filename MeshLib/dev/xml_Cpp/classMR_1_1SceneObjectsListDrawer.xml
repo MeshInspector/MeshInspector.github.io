@@ -25,6 +25,7 @@
       <member refid="group__GeneralGroup_1gac24b4b269239dd2b3da9c9d21ab89b53" kind="variable"><name>framesTillFixScroll_</name></member>
       <member refid="group__GeneralGroup_1ga65e801481ef6fc98205d59d1fa5e79b0" kind="variable"><name>dragObjectsMode_</name></member>
       <member refid="group__GeneralGroup_1ga1ae5202f89849a3745f8753c984a2ecf" kind="variable"><name>dragModeTrigger_</name></member>
+      <member refid="group__GeneralGroup_1ga56acdae4fd756a65ce6ea8f31206ac9f" kind="variable"><name>collapseSceneTreeRequested_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaffefc47d2b779b451bc3f420ddfdbdf8" kind="function"><name>~SceneObjectsListDrawer</name></member>
@@ -39,6 +40,7 @@
       <member refid="group__GeneralGroup_1ga160aa4ff3b71b928c4698592058c522e" kind="function"><name>setLeavesVisibility</name></member>
       <member refid="group__GeneralGroup_1ga13d961a22753a08bcf92f9601fe0f5d2" kind="function"><name>setObjectTreeState</name></member>
       <member refid="group__GeneralGroup_1gaa0df0e36dc182f424db88b3b6b512252" kind="function"><name>expandObjectTreeAndScroll</name></member>
+      <member refid="group__GeneralGroup_1ga11843c9f225ff4abc28a208f09401aed" kind="function"><name>collapseSceneTree</name></member>
       <member refid="group__GeneralGroup_1ga8084682665d391053cd04055e7c0ca4c" kind="function"><name>allowSceneReorder</name></member>
       <member refid="group__GeneralGroup_1ga2ef9e21dc6abd9863447c81ea60442fc" kind="function"><name>setNextFrameFixScroll</name></member>
     </sectiondef>
@@ -64,6 +66,7 @@
       <member refid="group__GeneralGroup_1ga9ed66c5b5c043bdbfc1b1562cf5f1cfb" kind="function"><name>updateSceneWindowScrollIfNeeded_</name></member>
       <member refid="group__GeneralGroup_1gab91f94e8ae1fdc4ef130921e7b59b0a7" kind="function"><name>getPreSelection_</name></member>
       <member refid="group__GeneralGroup_1ga9850a78cb338110886f83ec3be592af6" kind="function"><name>updateSelection_</name></member>
+      <member refid="group__GeneralGroup_1ga263a0162283350565586c34660445415" kind="function"><name>applyCollapseSceneTree_</name></member>
     </sectiondef>
     <briefdescription>
 <para>class for drawing a list of scene objects (and handling interaction with it) </para>
@@ -82,13 +85,16 @@
         <link refid="classMR_1_1SceneObjectsListDrawer"/>
       </node>
     </inheritancegraph>
-    <location file="MRViewer/MRSceneObjectsListDrawer.h" line="18" column="1" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="19" bodyend="157"/>
+    <location file="MRViewer/MRSceneObjectsListDrawer.h" line="18" column="1" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="19" bodyend="167"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8084682665d391053cd04055e7c0ca4c" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>allowSceneReorder</name></member>
       <member refid="group__GeneralGroup_1gadd1a30cdd75755b51664d031778458f9" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>allowSceneReorder_</name></member>
+      <member refid="group__GeneralGroup_1ga263a0162283350565586c34660445415" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>applyCollapseSceneTree_</name></member>
       <member refid="group__GeneralGroup_1ga2811dc65af1b9861a17e94ccb17ab9ff" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>changeSelection</name></member>
       <member refid="group__GeneralGroup_1gaa560a972c56ad0d267fae3065613e834" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>changeVisible</name></member>
       <member refid="group__GeneralGroup_1ga8a60d352593fe44cc3cfcd83f0490498" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>clickTrigger_</name></member>
+      <member refid="group__GeneralGroup_1ga11843c9f225ff4abc28a208f09401aed" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>collapseSceneTree</name></member>
+      <member refid="group__GeneralGroup_1ga56acdae4fd756a65ce6ea8f31206ac9f" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>collapseSceneTreeRequested_</name></member>
       <member refid="group__GeneralGroup_1gaf513731334115b0f7e6b6dd4eba06375" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>collapsingHeader_</name></member>
       <member refid="group__GeneralGroup_1gaf4b84e5c4ee9c3f4eca9a8e0c73dde3d" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>deselectNewHiddenObjects_</name></member>
       <member refid="group__GeneralGroup_1ga462460aacf6b87ba3500be6d2305892e" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>downLastSelected_</name></member>

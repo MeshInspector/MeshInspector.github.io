@@ -10342,6 +10342,7 @@
     <member refid="group__GeneralGroup_1gac24b4b269239dd2b3da9c9d21ab89b53" kind="variable"><name>framesTillFixScroll_</name></member>
     <member refid="group__GeneralGroup_1ga65e801481ef6fc98205d59d1fa5e79b0" kind="variable"><name>dragObjectsMode_</name></member>
     <member refid="group__GeneralGroup_1ga1ae5202f89849a3745f8753c984a2ecf" kind="variable"><name>dragModeTrigger_</name></member>
+    <member refid="group__GeneralGroup_1ga56acdae4fd756a65ce6ea8f31206ac9f" kind="variable"><name>collapseSceneTreeRequested_</name></member>
     <member refid="group__GeneralGroup_1gaffefc47d2b779b451bc3f420ddfdbdf8" kind="function"><name>~SceneObjectsListDrawer</name></member>
     <member refid="group__GeneralGroup_1ga3d227339c7308cbe6b17b82bede4dc9d" kind="function"><name>draw</name></member>
     <member refid="group__GeneralGroup_1ga87100a0f8079f7712cae2c150a6a9ed9" kind="function"><name>setShowNewSelectedObjects</name></member>
@@ -10354,6 +10355,7 @@
     <member refid="group__GeneralGroup_1ga160aa4ff3b71b928c4698592058c522e" kind="function"><name>setLeavesVisibility</name></member>
     <member refid="group__GeneralGroup_1ga13d961a22753a08bcf92f9601fe0f5d2" kind="function"><name>setObjectTreeState</name></member>
     <member refid="group__GeneralGroup_1gaa0df0e36dc182f424db88b3b6b512252" kind="function"><name>expandObjectTreeAndScroll</name></member>
+    <member refid="group__GeneralGroup_1ga11843c9f225ff4abc28a208f09401aed" kind="function"><name>collapseSceneTree</name></member>
     <member refid="group__GeneralGroup_1ga8084682665d391053cd04055e7c0ca4c" kind="function"><name>allowSceneReorder</name></member>
     <member refid="group__GeneralGroup_1ga2ef9e21dc6abd9863447c81ea60442fc" kind="function"><name>setNextFrameFixScroll</name></member>
     <member refid="group__GeneralGroup_1ga3a39bc8bafb8bd84897729f531668a07" kind="function"><name>drawCustomObjectPrefixInScene_</name></member>
@@ -10375,6 +10377,7 @@
     <member refid="group__GeneralGroup_1ga9ed66c5b5c043bdbfc1b1562cf5f1cfb" kind="function"><name>updateSceneWindowScrollIfNeeded_</name></member>
     <member refid="group__GeneralGroup_1gab91f94e8ae1fdc4ef130921e7b59b0a7" kind="function"><name>getPreSelection_</name></member>
     <member refid="group__GeneralGroup_1ga9850a78cb338110886f83ec3be592af6" kind="function"><name>updateSelection_</name></member>
+    <member refid="group__GeneralGroup_1ga263a0162283350565586c34660445415" kind="function"><name>applyCollapseSceneTree_</name></member>
   </compound>
   <compound refid="structMR_1_1SceneReorder" kind="struct"><name>MR::SceneReorder</name>
     <member refid="group__GeneralGroup_1gad02567fbc39d8a94b4870c8b0f55a01a" kind="variable"><name>who</name></member>
@@ -24497,6 +24500,7 @@
     <member refid="group__GeneralGroup_1gac24b4b269239dd2b3da9c9d21ab89b53" kind="variable"><name>framesTillFixScroll_</name></member>
     <member refid="group__GeneralGroup_1ga65e801481ef6fc98205d59d1fa5e79b0" kind="variable"><name>dragObjectsMode_</name></member>
     <member refid="group__GeneralGroup_1ga1ae5202f89849a3745f8753c984a2ecf" kind="variable"><name>dragModeTrigger_</name></member>
+    <member refid="group__GeneralGroup_1ga56acdae4fd756a65ce6ea8f31206ac9f" kind="variable"><name>collapseSceneTreeRequested_</name></member>
     <member refid="group__GeneralGroup_1ga35cdb8be56900573df3387f4538a787b" kind="variable"><name>sceneOpenCommands_</name></member>
     <member refid="group__GeneralGroup_1gad781fd9e905dc8e6d2f5cc6645b6d82e" kind="variable"><name>sDefaultGroupState</name></member>
     <member refid="group__GeneralGroup_1ga91ce578b57c3afcd001373ff561404a9" kind="variable"><name>root</name></member>
@@ -30388,6 +30392,7 @@
     <member refid="group__GeneralGroup_1ga160aa4ff3b71b928c4698592058c522e" kind="function"><name>setLeavesVisibility</name></member>
     <member refid="group__GeneralGroup_1ga13d961a22753a08bcf92f9601fe0f5d2" kind="function"><name>setObjectTreeState</name></member>
     <member refid="group__GeneralGroup_1gaa0df0e36dc182f424db88b3b6b512252" kind="function"><name>expandObjectTreeAndScroll</name></member>
+    <member refid="group__GeneralGroup_1ga11843c9f225ff4abc28a208f09401aed" kind="function"><name>collapseSceneTree</name></member>
     <member refid="group__GeneralGroup_1ga8084682665d391053cd04055e7c0ca4c" kind="function"><name>allowSceneReorder</name></member>
     <member refid="group__GeneralGroup_1ga2ef9e21dc6abd9863447c81ea60442fc" kind="function"><name>setNextFrameFixScroll</name></member>
     <member refid="group__GeneralGroup_1ga3a39bc8bafb8bd84897729f531668a07" kind="function"><name>drawCustomObjectPrefixInScene_</name></member>
@@ -30409,6 +30414,7 @@
     <member refid="group__GeneralGroup_1ga9ed66c5b5c043bdbfc1b1562cf5f1cfb" kind="function"><name>updateSceneWindowScrollIfNeeded_</name></member>
     <member refid="group__GeneralGroup_1gab91f94e8ae1fdc4ef130921e7b59b0a7" kind="function"><name>getPreSelection_</name></member>
     <member refid="group__GeneralGroup_1ga9850a78cb338110886f83ec3be592af6" kind="function"><name>updateSelection_</name></member>
+    <member refid="group__GeneralGroup_1ga263a0162283350565586c34660445415" kind="function"><name>applyCollapseSceneTree_</name></member>
     <member refid="group__GeneralGroup_1ga28b1d1a4fc0bc2811d060a22d79a48b9" kind="function"><name>fromFlatTree</name></member>
     <member refid="group__GeneralGroup_1gadb868a4d0ec15bc3b7720958a84c4748" kind="function"><name>getFlatSubtrees</name></member>
     <member refid="group__GeneralGroup_1gab0122d48aa237a15416e1668203305e8" kind="function"><name>mergeSubtree</name></member>

@@ -10003,6 +10003,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memdesc:ga13d961a22753a08bcf92f9601fe0f5d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">set object collapse state (hiding children)  <br /></td></tr>
 <tr class="memitem:gaa0df0e36dc182f424db88b3b6b512252" id="r_gaa0df0e36dc182f424db88b3b6b512252"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa0df0e36dc182f424db88b3b6b512252">MR::SceneObjectsListDrawer::expandObjectTreeAndScroll</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> *obj)</td></tr>
 <tr class="memdesc:gaa0df0e36dc182f424db88b3b6b512252"><td class="mdescLeft">&#160;</td><td class="mdescRight">expands all <span class="tt">obj</span>s parents in tree and scroll scene tree window so selection becomes visible  <br /></td></tr>
+<tr class="memitem:ga11843c9f225ff4abc28a208f09401aed" id="r_ga11843c9f225ff4abc28a208f09401aed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga11843c9f225ff4abc28a208f09401aed">MR::SceneObjectsListDrawer::collapseSceneTree</a> ()</td></tr>
 <tr class="memitem:ga8084682665d391053cd04055e7c0ca4c" id="r_ga8084682665d391053cd04055e7c0ca4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8084682665d391053cd04055e7c0ca4c">MR::SceneObjectsListDrawer::allowSceneReorder</a> (bool allow)</td></tr>
 <tr class="memdesc:ga8084682665d391053cd04055e7c0ca4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">set possibility change object order  <br /></td></tr>
 <tr class="memitem:ga2ef9e21dc6abd9863447c81ea60442fc" id="r_ga2ef9e21dc6abd9863447c81ea60442fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2ef9e21dc6abd9863447c81ea60442fc">MR::SceneObjectsListDrawer::setNextFrameFixScroll</a> (int skipFrames=1)</td></tr>
@@ -14256,7 +14257,8 @@ Variables</h2></td></tr>
 <tr class="memitem:gabbf3505abf910c44d4b8d50aaae3fb11" id="r_gabbf3505abf910c44d4b8d50aaae3fb11"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabbf3505abf910c44d4b8d50aaae3fb11">MR::SceneObjectsListDrawer::ScrollPositionPreservation::relativeMousePos</a> { 0.0f }</td></tr>
 <tr class="memitem:gaef48e5d11739e2460d49ae418a9b07ad" id="r_gaef48e5d11739e2460d49ae418a9b07ad"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaef48e5d11739e2460d49ae418a9b07ad">MR::SceneObjectsListDrawer::ScrollPositionPreservation::absLinePosRatio</a> { 0.0f }</td></tr>
 <tr class="memitem:ga35cdb8be56900573df3387f4538a787b" id="r_ga35cdb8be56900573df3387f4538a787b"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> *, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga35cdb8be56900573df3387f4538a787b">MR::SceneObjectsListDrawer::sceneOpenCommands_</a></td></tr>
-<tr class="memitem:gad781fd9e905dc8e6d2f5cc6645b6d82e" id="r_gad781fd9e905dc8e6d2f5cc6645b6d82e"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad781fd9e905dc8e6d2f5cc6645b6d82e">MR::sDefaultGroupState</a> = 0</td></tr>
+<tr class="memitem:gad781fd9e905dc8e6d2f5cc6645b6d82e" id="r_gad781fd9e905dc8e6d2f5cc6645b6d82e"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad781fd9e905dc8e6d2f5cc6645b6d82e">MR::sDefaultGroupState</a> = 1 &lt;&lt; 5</td></tr>
+<tr class="memdesc:gad781fd9e905dc8e6d2f5cc6645b6d82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ImGuiTreeNodeFlags_DefaultOpen; the value is spelled out not to include imgui.h here, see the static_assert in the .cpp.  <br /></td></tr>
 <tr class="memitem:ga91ce578b57c3afcd001373ff561404a9" id="r_ga91ce578b57c3afcd001373ff561404a9"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga91ce578b57c3afcd001373ff561404a9">MR::FlatTree::root</a></td></tr>
 <tr class="memitem:gac658a0431f66b43b4735d82b4ce30504" id="r_gac658a0431f66b43b4735d82b4ce30504"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac658a0431f66b43b4735d82b4ce30504">MR::FlatTree::subobjects</a></td></tr>
 <tr class="memitem:gaa04d404e0e698980823e763537ad5250" id="r_gaa04d404e0e698980823e763537ad5250"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa04d404e0e698980823e763537ad5250">MR::TypedFlatTree::root</a></td></tr>
@@ -46847,6 +46849,26 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
 <p>collapses given edge in a vertex and deletes 1) faces: left( e ) and right( e ); 2) edges: e, next( e.sym() ), prev( e.sym() ), and optionally next( e ), prev( e ) if their left and right triangles are deleted; 3) all vertices that lost their last edge; calls onEdgeDel for every deleted edge (del) including given (e); if valid (rem) is given then dest( del ) = dest( rem ) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) </p><dl class="section return"><dt>Returns</dt><dd>prev( e ) if it is still valid </dd></dl>
+
+</div>
+</div>
+<a id="ga11843c9f225ff4abc28a208f09401aed" name="ga11843c9f225ff4abc28a208f09401aed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga11843c9f225ff4abc28a208f09401aed">&#9670;&#160;</a></span>collapseSceneTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::SceneObjectsListDrawer::collapseSceneTree </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSceneObjectsListDrawer_8h.html">MRViewer/MRSceneObjectsListDrawer.h</a>&gt;</code></p>
+<p>collapses every group of the scene tree during the next draw; this is called when a scene is opened from a file, where deep hierarchies (e.g. of STEP files) would otherwise flood the tree </p>
 
 </div>
 </div>
@@ -230030,7 +230052,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int MR::sDefaultGroupState = 0</td>
+          <td class="memname">int MR::sDefaultGroupState = 1 &lt;&lt; 5</td>
         </tr>
       </table>
   </td>
@@ -230041,6 +230063,8 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRSceneObjectsListDrawer_8h.html">MRViewer/MRSceneObjectsListDrawer.h</a>&gt;</code></p>
+
+<p>ImGuiTreeNodeFlags_DefaultOpen; the value is spelled out not to include imgui.h here, see the static_assert in the .cpp. </p>
 
 </div>
 </div>

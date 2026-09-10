@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1VoxelsSave_1_1SavingSettings.html#abc7da521abdd392c79be9602cde3dc64":[9,0,2,0,2,35,0,1],
 "structMR_1_1VoxelsVolume.html":[9,0,0,20,910],
 "structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters.html":[9,0,0,20,917],
 "structMR_1_1VoxelsVolumeMinMax.html":[9,0,0,20,911],
