@@ -389,7 +389,7 @@ macOS (arm64 / Intel)</h3>
 <li>Deploy. <b>Recommended (safer):</b> install into a writable clone of the host app — does not touch the system bundle and does not break its code signature. <div class="fragment"><div class="line">mkdir -p ~/Apps</div>
 <div class="line">cp -R /Applications/MeshInspector.app ~/Apps/MI-MyPlugin     # NB: drop the .app suffix</div>
 <div class="line"> </div>
-<div class="line">cp example_plugin_build/libMyPlugin.dylib            ~/Apps/MI-MyPlugin/Contents/libs/</div>
+<div class="line">cp example_plugin_build/libMyPlugin.dylib            ~/Apps/MI-MyPlugin/Contents/Frameworks/</div>
 <div class="line">cp example_plugin/MyPlugin.items.json                ~/Apps/MI-MyPlugin/Contents/Resources/</div>
 <div class="line">cp example_plugin/MyPlugin.ui.json                   ~/Apps/MI-MyPlugin/Contents/Resources/</div>
 <div class="line">cp -R example_plugin/resource                        ~/Apps/MI-MyPlugin/Contents/Resources/</div>

@@ -280,7 +280,7 @@ macOS — option A: install into a user-owned clone (recommended)</h4>
 <div class="fragment"><div class="line">mkdir -p ~/Apps</div>
 <div class="line">cp -R /Applications/MeshInspector.app ~/Apps/MI-MyPlugin     # NB: drop the .app suffix</div>
 <div class="line"> </div>
-<div class="line">cp libMyPlugin.dylib                    ~/Apps/MI-MyPlugin/Contents/libs/</div>
+<div class="line">cp libMyPlugin.dylib                    ~/Apps/MI-MyPlugin/Contents/Frameworks/</div>
 <div class="line">cp MyPlugin.items.json MyPlugin.ui.json ~/Apps/MI-MyPlugin/Contents/Resources/</div>
 <div class="line">cp -R resource                          ~/Apps/MI-MyPlugin/Contents/Resources/</div>
 <div class="line"> </div>
@@ -293,11 +293,11 @@ macOS — option A: install into a user-owned clone (recommended)</h4>
 <h4 class="doxsection"><a class="anchor" id="autotoc_md111"></a>
 macOS — option B: install into the system MeshInspector.app (advanced)</h4>
 <p>This writes directly into the notarized app bundle. <b>It is system-wide and breaks the bundle's code signature</b> — Gatekeeper may block subsequent launches or warn that the app is "damaged", and the auto-updater (Sparkle) may overwrite your plugin on the next MeshInspector update. Use this only if you understand the trade-off.</p>
-<div class="fragment"><div class="line">sudo cp libMyPlugin.dylib                    /Applications/MeshInspector.app/Contents/libs/</div>
+<div class="fragment"><div class="line">sudo cp libMyPlugin.dylib                    /Applications/MeshInspector.app/Contents/Frameworks/</div>
 <div class="line">sudo cp MyPlugin.items.json MyPlugin.ui.json /Applications/MeshInspector.app/Contents/Resources/</div>
 <div class="line">sudo cp -R resource                          /Applications/MeshInspector.app/Contents/Resources/</div>
 </div><!-- fragment --><p>If Gatekeeper subsequently refuses to launch the app, re-sign the bundle with an ad-hoc signature: </p><div class="fragment"><div class="line">sudo codesign --force --deep --sign - /Applications/MeshInspector.app</div>
-</div><!-- fragment --><dl class="section warning"><dt>Warning</dt><dd>Only do this with a plugin from a source you trust. A malicious <span class="tt">.dylib</span> placed in <span class="tt">/Applications/MeshInspector.app/Contents/libs/</span> runs every time anyone on the machine launches MeshInspector.</dd></dl>
+</div><!-- fragment --><dl class="section warning"><dt>Warning</dt><dd>Only do this with a plugin from a source you trust. A malicious <span class="tt">.dylib</span> placed in <span class="tt">/Applications/MeshInspector.app/Contents/Frameworks/</span> runs every time anyone on the machine launches MeshInspector.</dd></dl>
 <h1 class="doxsection"><a class="anchor" id="HowtoAddPluginOverview_VerifyInstall"></a>
 Verifying the install</h1>
 <p>Launch the host application and inspect the log file:</p>
@@ -320,7 +320,7 @@ Common failure modes</h4>
 <h1 class="doxsection"><a class="anchor" id="HowtoAddPluginOverview_Uninstall"></a>
 Uninstall</h1>
 <p>Quit the host, then delete the three sets of files you copied during install. Example for the macOS user-clone case:</p>
-<div class="fragment"><div class="line">rm ~/Apps/MI-MyPlugin/Contents/libs/libMyPlugin.dylib</div>
+<div class="fragment"><div class="line">rm ~/Apps/MI-MyPlugin/Contents/Frameworks/libMyPlugin.dylib</div>
 <div class="line">rm ~/Apps/MI-MyPlugin/Contents/Resources/MyPlugin.items.json</div>
 <div class="line">rm ~/Apps/MI-MyPlugin/Contents/Resources/MyPlugin.ui.json</div>
 <div class="line">rm -rf ~/Apps/MI-MyPlugin/Contents/Resources/resource     # only if you copied it</div>
