@@ -7,6 +7,7 @@ var classMR_1_1Const__SphereObject =
     [ "classNameInPlural", "classMR_1_1Const__SphereObject.html#a3ba59408cbff1956f8057e26e9ca85d5", null ],
     [ "clone", "classMR_1_1Const__SphereObject.html#a827938904f87f62e3da62faa4e2ae563", null ],
     [ "cloneTree", "classMR_1_1Const__SphereObject.html#a30453973965dbf4d9e2fe97695d93747", null ],
+    [ "constChildren", "classMR_1_1Const__SphereObject.html#a38c88a6827e21254c991f738ae1c30d0", null ],
     [ "Dispose", "classMR_1_1Const__SphereObject.html#af47a5fb641ebe4ced920ec30f811cf73", null ],
     [ "Dispose", "classMR_1_1Const__SphereObject.html#a24a4ae82705e47baf828a763cf6d01eb", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__SphereObject.html#ad9888df40bdc955a669a0d0127926f7e", null ],

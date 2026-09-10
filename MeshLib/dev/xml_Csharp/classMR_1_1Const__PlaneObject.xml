@@ -1264,6 +1264,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="903" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="903" bodyend="908"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1af5cab49edde117d60bcbd8ded4dbf047" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ConstChildren" kindref="compound">MR.ConstChildren</ref></type>
+        <definition>unsafe MR.ConstChildren MR.Const_PlaneObject.constChildren</definition>
+        <argsstring>()</argsstring>
+        <name>constChildren</name>
+        <qualifiedname>MR.Const_PlaneObject.constChildren</qualifiedname>
+        <briefdescription>
+<para>the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <computeroutput><ref refid="classMR_1_1Const__PlaneObject_1af5cab49edde117d60bcbd8ded4dbf047" kindref="member">MR.PlaneObject.constChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="915" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="915" bodyend="920"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1aca9385269d28d1074b4e0987fee76275" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.Const_PlaneObject.isSelected</definition>
@@ -1277,7 +1292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="913" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="913" bodyend="918"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="925" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="925" bodyend="930"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1a364622a5c02a1e0847c08773cd2689bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1292,7 +1307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="923" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="923" bodyend="928"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="935" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="935" bodyend="940"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1a5ca99d847843510c10197b07925f1606" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1307,7 +1322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="934" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="934" bodyend="939"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="946" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="946" bodyend="951"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1a7c1e7fa3184bde5ec1d2c21b96e5b17a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1327,7 +1342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="946" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="946" bodyend="951"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="958" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="958" bodyend="963"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1a10bf060597b071131224cd12cd2323f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
@@ -1342,7 +1357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="957" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="957" bodyend="962"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="969" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="969" bodyend="974"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1a8e11ebac24f70fc13da7cb9b066b74b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1357,7 +1372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="967" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="967" bodyend="972"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="979" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="979" bodyend="984"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1a7d2ff18f44fb413974908aa4879480e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1372,7 +1387,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="978" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="978" bodyend="983"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="990" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="990" bodyend="995"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1ade393b86441a5f0cb00abb368b6558f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1387,7 +1402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="990" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="990" bodyend="995"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1002" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1002" bodyend="1007"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1af4796da62e5435d0992afc90c749d3ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -1407,7 +1422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1002" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1002" bodyend="1007"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1014" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1014" bodyend="1019"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1abdafaa67e1660acc790c17d8d0710e03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1422,7 +1437,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1013" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1013" bodyend="1018"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1025" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1025" bodyend="1030"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1a1d14609397d5228202f7e470241bcc78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1437,7 +1452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1025" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1025" bodyend="1030"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1037" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1037" bodyend="1042"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1aebf6289ea735caae35cf9a885ef66d0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1452,7 +1467,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1037" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1037" bodyend="1042"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1049" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1049" bodyend="1054"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1a980ffb6f6804ab5c296c8a8eb2e1c4e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1471,7 +1486,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1048" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1048" bodyend="1053"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1060" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1060" bodyend="1065"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1a63e4bb153587f8f846879bd238384c2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -1486,7 +1501,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1059" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1059" bodyend="1064"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1071" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1071" bodyend="1076"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PlaneObject_1a5e7858d7d8f5cb1d25fba88b475cc1f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1501,7 +1516,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1071" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1071" bodyend="1076"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="1083" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="1083" bodyend="1088"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1779,7 +1794,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="16" bodyend="1077"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlaneObject.cs" bodystart="16" bodyend="1089"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__PlaneObject_1a5ee2db817b78c6b23bfa92d30c50dd88" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>calcLocalBasis</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1a8801ca8a7f72b176a988b2aa81fc94a5" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>className</name></member>
@@ -1790,6 +1805,7 @@
       <member refid="classMR_1_1Const__PlaneObject_1a6f5acfdf4c37445b5eaefba5e502751d" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>Const_PlaneObject</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1a9066bfb63c26f06ff05f7af78e2b1fe1" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>Const_PlaneObject</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1ae685958e7a32ccc16c7ec74a866c6666" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>Const_PlaneObject</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1af5cab49edde117d60bcbd8ded4dbf047" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>constChildren</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1aa30402ff712bdcca3d8b5ee1edbb7f4d" prot="protected" virt="virtual"><scope>MR::Const_PlaneObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1a7e0b83e370ccc532bc4016d58dbe3dd7" prot="public" virt="virtual"><scope>MR::Const_PlaneObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__PlaneObject_1aba5837498954b8ce3c33c7da2e4f4447" prot="public" virt="non-virtual"><scope>MR::Const_PlaneObject</scope><name>getAllSharedProperties</name></member>

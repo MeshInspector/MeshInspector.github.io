@@ -7,6 +7,7 @@ var classMR_1_1Const__AngleMeasurementObject =
     [ "clone", "classMR_1_1Const__AngleMeasurementObject.html#aba503b044b95472f19ae8f38000b3816", null ],
     [ "cloneTree", "classMR_1_1Const__AngleMeasurementObject.html#a0aa4a283d423a063faa2c16e940cc560", null ],
     [ "computeAngle", "classMR_1_1Const__AngleMeasurementObject.html#a8e071f1462d52b87c43efb48a75c01d8", null ],
+    [ "constChildren", "classMR_1_1Const__AngleMeasurementObject.html#a0fc787ab7b5445cca40f07ac0114d70d", null ],
     [ "Dispose", "classMR_1_1Const__AngleMeasurementObject.html#a2a8df7467391bccedc23d69e812f4045", null ],
     [ "Dispose", "classMR_1_1Const__AngleMeasurementObject.html#a5c0a0e775b488b4694916f0cc654baed", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__AngleMeasurementObject.html#abee1f78a7287b4a92eb2cbbae57050ba", null ],

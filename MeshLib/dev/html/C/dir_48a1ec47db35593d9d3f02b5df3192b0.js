@@ -60,6 +60,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRCone3.h", "MRCone3_8h.html", "MRCone3_8h" ],
     [ "MRConeApproximator.h", "MRConeApproximator_8h.html", "MRConeApproximator_8h" ],
     [ "MRConeObject.h", "MRConeObject_8h.html", "MRConeObject_8h" ],
+    [ "MRConstChildren.h", "MRConstChildren_8h.html", "MRConstChildren_8h" ],
     [ "MRContour.h", "MRContour_8h.html", "MRContour_8h" ],
     [ "MRContoursCut.h", "MRContoursCut_8h.html", "MRContoursCut_8h" ],
     [ "MRContoursSeparation.h", "MRContoursSeparation_8h.html", "MRContoursSeparation_8h" ],

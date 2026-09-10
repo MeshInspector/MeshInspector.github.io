@@ -7,6 +7,7 @@ var classMR_1_1Const__ObjectPoints =
     [ "classNameInPlural", "classMR_1_1Const__ObjectPoints.html#a0939caa9f930cb58a33b3935a7d85aa6", null ],
     [ "clone", "classMR_1_1Const__ObjectPoints.html#a94ab326a8128c3184f0dc21ca4e34c3f", null ],
     [ "cloneTree", "classMR_1_1Const__ObjectPoints.html#a2163838bd8ccab67c97c94ce14154ec5", null ],
+    [ "constChildren", "classMR_1_1Const__ObjectPoints.html#a74453a62554254421500b53322af7527", null ],
     [ "Dispose", "classMR_1_1Const__ObjectPoints.html#adba63b2b6bdd76cd521ab38757ec5515", null ],
     [ "Dispose", "classMR_1_1Const__ObjectPoints.html#a77dc07825eab6250617bd861c0cd6ae8", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__ObjectPoints.html#ab180649719ffe8355f9f040be22cae88", null ],

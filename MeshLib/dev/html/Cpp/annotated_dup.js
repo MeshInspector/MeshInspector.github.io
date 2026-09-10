@@ -449,6 +449,7 @@ var annotated_dup =
       [ "Config", "classMR_1_1Config.html", "classMR_1_1Config" ],
       [ "ConnectionHolder", "structMR_1_1ConnectionHolder.html", "structMR_1_1ConnectionHolder" ],
       [ "ConstantCuspParams", "structMR_1_1ConstantCuspParams.html", "structMR_1_1ConstantCuspParams" ],
+      [ "ConstChildren", "classMR_1_1ConstChildren.html", "classMR_1_1ConstChildren" ],
       [ "ContoursDistanceMapOffset", "structMR_1_1ContoursDistanceMapOffset.html", "structMR_1_1ContoursDistanceMapOffset" ],
       [ "ContoursDistanceMapOptions", "structMR_1_1ContoursDistanceMapOptions.html", "structMR_1_1ContoursDistanceMapOptions" ],
       [ "ContoursMeshAlignParams", "structMR_1_1ContoursMeshAlignParams.html", "structMR_1_1ContoursMeshAlignParams" ],

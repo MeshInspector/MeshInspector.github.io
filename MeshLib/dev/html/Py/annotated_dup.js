@@ -186,6 +186,7 @@ var annotated_dup =
       [ "ConeFitterType", "classmrmeshpy_1_1ConeFitterType.html", "classmrmeshpy_1_1ConeFitterType" ],
       [ "ConeObject", "classmrmeshpy_1_1ConeObject.html", "classmrmeshpy_1_1ConeObject" ],
       [ "ConstantCuspParams", "classmrmeshpy_1_1ConstantCuspParams.html", "classmrmeshpy_1_1ConstantCuspParams" ],
+      [ "ConstChildren", "classmrmeshpy_1_1ConstChildren.html", "classmrmeshpy_1_1ConstChildren" ],
       [ "ContoursDistanceMapOffset", "classmrmeshpy_1_1ContoursDistanceMapOffset.html", "classmrmeshpy_1_1ContoursDistanceMapOffset" ],
       [ "ContoursDistanceMapOptions", "classmrmeshpy_1_1ContoursDistanceMapOptions.html", "classmrmeshpy_1_1ContoursDistanceMapOptions" ],
       [ "ContoursMeshAlignParams", "classmrmeshpy_1_1ContoursMeshAlignParams.html", "classmrmeshpy_1_1ContoursMeshAlignParams" ],

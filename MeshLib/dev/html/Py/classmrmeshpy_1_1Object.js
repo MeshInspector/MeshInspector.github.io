@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Object =
     [ "classNameInPlural", "classmrmeshpy_1_1Object.html#af7aa1dd011a7ad1260f8e39eadc81b79", null ],
     [ "clone", "classmrmeshpy_1_1Object.html#a3cede34187cf92e2953b8c04cc66db22", null ],
     [ "cloneTree", "classmrmeshpy_1_1Object.html#a115b8bd891d9bd7e08946e8f84da09f0", null ],
+    [ "constChildren", "classmrmeshpy_1_1Object.html#a08d2ce87823fae00ba9c6a3c6e78f7a9", null ],
     [ "detachFromParent", "classmrmeshpy_1_1Object.html#a567315111aee91b3dd5bfef4188b23b7", null ],
     [ "find", "classmrmeshpy_1_1Object.html#ae6adbbc7286265563fb4d6d162f4dc49", null ],
     [ "find", "classmrmeshpy_1_1Object.html#ae6adbbc7286265563fb4d6d162f4dc49", null ],

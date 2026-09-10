@@ -203,8 +203,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3ec81b12948c0de0a5074221642f74ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if given object is ancestor of this one, false otherwise Generated from method <span class="tt"><a class="el" href="#a3ec81b12948c0de0a5074221642f74ad" title="return true if given object is ancestor of this one, false otherwise Generated from method MR....">MR.Object.isAncestor</a></span>.  <br /></td></tr>
 <tr class="memitem:a0cf58ca9074b2ddee53ba2ec0d9adec7" id="r_a0cf58ca9074b2ddee53ba2ec0d9adec7"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__Object.html">Const_Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cf58ca9074b2ddee53ba2ec0d9adec7">findCommonAncestor</a> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a> other)</td></tr>
 <tr class="memdesc:a0cf58ca9074b2ddee53ba2ec0d9adec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Object.html#ad7dbcab8502ebb09236848f713eceeb3" title="Find a common ancestor between this object and the other one. Returns null on failure (which is impos...">MR.Object.findCommonAncestor</a></span>.  <br /></td></tr>
+<tr class="memitem:afde3a957de581e9a0991652214b8eb16" id="r_afde3a957de581e9a0991652214b8eb16"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afde3a957de581e9a0991652214b8eb16">constChildren</a> ()</td></tr>
+<tr class="memdesc:afde3a957de581e9a0991652214b8eb16"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#afde3a957de581e9a0991652214b8eb16" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.Object.constChildren</a></span>.  <br /></td></tr>
 <tr class="memitem:aea2dc47ab54df34c22ba1707e55d7962" id="r_aea2dc47ab54df34c22ba1707e55d7962"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_StdSharedPtrConstMRObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea2dc47ab54df34c22ba1707e55d7962">children</a> ()</td></tr>
-<tr class="memdesc:aea2dc47ab54df34c22ba1707e55d7962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Object.html#a19b8c65dea6b0301a1ad9d73b73bdb26" title="an object can hold other sub-objects Generated from method MR.Object.children.">MR.Object.children</a></span>.  <br /></td></tr>
 <tr class="memitem:adca72961c36e326e095660a1e9cc13a8" id="r_adca72961c36e326e095660a1e9cc13a8"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adca72961c36e326e095660a1e9cc13a8">isSelected</a> ()</td></tr>
 <tr class="memdesc:adca72961c36e326e095660a1e9cc13a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#adca72961c36e326e095660a1e9cc13a8" title="Generated from method MR.Object.isSelected.">MR.Object.isSelected</a></span>.  <br /></td></tr>
 <tr class="memitem:acac169246d59e805d13fd96fad03e644" id="r_acac169246d59e805d13fd96fad03e644"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acac169246d59e805d13fd96fad03e644">isAncillary</a> ()</td></tr>
@@ -369,8 +370,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Generated from method <span class="tt"><a class="el" href="classMR_1_1Object.html#a19b8c65dea6b0301a1ad9d73b73bdb26" title="an object can hold other sub-objects Generated from method MR.Object.children.">MR.Object.children</a></span>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#afde3a957de581e9a0991652214b8eb16" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">constChildren()</a> instead Generated from method <span class="tt"><a class="el" href="classMR_1_1Object.html#a19b8c65dea6b0301a1ad9d73b73bdb26" title="an object can hold other sub-objects Generated from method MR.Object.children.">MR.Object.children</a></span>. </dd></dl>
 
 </div>
 </div>
@@ -479,6 +479,33 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>clones all tree of this object (except ancillary and unrecognized children) Generated from method <span class="tt"><a class="el" href="#a577ee25c4c5f3f2b2903efb573326f88" title="clones all tree of this object (except ancillary and unrecognized children) Generated from method MR....">MR.Object.cloneTree</a></span>. </p>
+
+</div>
+</div>
+<a id="afde3a957de581e9a0991652214b8eb16" name="afde3a957de581e9a0991652214b8eb16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afde3a957de581e9a0991652214b8eb16">&#9670;&#160;</a></span>constChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a> MR.Const_Object.constChildren </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#afde3a957de581e9a0991652214b8eb16" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.Object.constChildren</a></span>. </p>
 
 </div>
 </div>

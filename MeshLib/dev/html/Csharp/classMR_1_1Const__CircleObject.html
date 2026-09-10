@@ -295,6 +295,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8b662c162a232a5f1ea570ff0b2ee294"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <span class="tt"><a class="el" href="#a8b662c162a232a5f1ea570ff0b2ee294" title="If true, the scene tree GUI doesn&#39;t allow you to drag&#39;n&#39;drop this object into a different parent....">MR.CircleObject.isParentLocked</a></span>.  <br /></td></tr>
 <tr class="memitem:a3e2682571b267de5bc601abd96d20d4a" id="r_a3e2682571b267de5bc601abd96d20d4a"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e2682571b267de5bc601abd96d20d4a">isAncestor</a> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a>? ancestor)</td></tr>
 <tr class="memdesc:a3e2682571b267de5bc601abd96d20d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if given object is ancestor of this one, false otherwise Generated from method <span class="tt"><a class="el" href="#a3e2682571b267de5bc601abd96d20d4a" title="return true if given object is ancestor of this one, false otherwise Generated from method MR....">MR.CircleObject.isAncestor</a></span>.  <br /></td></tr>
+<tr class="memitem:ab26ab2cb096894d17d75c2ebe85fb545" id="r_ab26ab2cb096894d17d75c2ebe85fb545"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26ab2cb096894d17d75c2ebe85fb545">constChildren</a> ()</td></tr>
+<tr class="memdesc:ab26ab2cb096894d17d75c2ebe85fb545"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#ab26ab2cb096894d17d75c2ebe85fb545" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.CircleObject.constChildren</a></span>.  <br /></td></tr>
 <tr class="memitem:a7a7a276f3e537391ddeda9222f4c4597" id="r_a7a7a276f3e537391ddeda9222f4c4597"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a7a276f3e537391ddeda9222f4c4597">isSelected</a> ()</td></tr>
 <tr class="memdesc:a7a7a276f3e537391ddeda9222f4c4597"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a7a7a276f3e537391ddeda9222f4c4597" title="Generated from method MR.CircleObject.isSelected.">MR.CircleObject.isSelected</a></span>.  <br /></td></tr>
 <tr class="memitem:a0197b14106d15a097551fbe53e2854e6" id="r_a0197b14106d15a097551fbe53e2854e6"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0197b14106d15a097551fbe53e2854e6">isAncillary</a> ()</td></tr>
@@ -540,6 +542,33 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>clones all tree of this object (except ancillary and unrecognized children) Generated from method <span class="tt"><a class="el" href="#aab6888351ec329060e28c9ce21344095" title="clones all tree of this object (except ancillary and unrecognized children) Generated from method MR....">MR.CircleObject.cloneTree</a></span>. </p>
+
+</div>
+</div>
+<a id="ab26ab2cb096894d17d75c2ebe85fb545" name="ab26ab2cb096894d17d75c2ebe85fb545"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab26ab2cb096894d17d75c2ebe85fb545">&#9670;&#160;</a></span>constChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a> MR.Const_CircleObject.constChildren </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#ab26ab2cb096894d17d75c2ebe85fb545" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.CircleObject.constChildren</a></span>. </p>
 
 </div>
 </div>

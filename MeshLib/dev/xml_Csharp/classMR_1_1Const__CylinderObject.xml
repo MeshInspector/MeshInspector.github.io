@@ -1243,6 +1243,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="913" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="913" bodyend="918"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1a15c97c8006718707945473f87dfad53a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ConstChildren" kindref="compound">MR.ConstChildren</ref></type>
+        <definition>unsafe MR.ConstChildren MR.Const_CylinderObject.constChildren</definition>
+        <argsstring>()</argsstring>
+        <name>constChildren</name>
+        <qualifiedname>MR.Const_CylinderObject.constChildren</qualifiedname>
+        <briefdescription>
+<para>the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <computeroutput><ref refid="classMR_1_1Const__CylinderObject_1a15c97c8006718707945473f87dfad53a" kindref="member">MR.CylinderObject.constChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="925" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="925" bodyend="930"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1af7e389d1b2ea96fbea96c8bad379e815" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.Const_CylinderObject.isSelected</definition>
@@ -1256,7 +1271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="923" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="923" bodyend="928"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="935" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="935" bodyend="940"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1a08a8da6511eba343bfa000e66f8aed5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1271,7 +1286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="933" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="933" bodyend="938"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="945" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="945" bodyend="950"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1acb9482df45b5db1733c3fb991bc00c84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1286,7 +1301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="944" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="944" bodyend="949"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="956" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="956" bodyend="961"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1ad2abbe8ae0b50a6b89eedb69c9077d0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1306,7 +1321,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="956" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="956" bodyend="961"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="968" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="968" bodyend="973"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1ad55ecfb73626007a70330ef948e78ca7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
@@ -1321,7 +1336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="967" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="967" bodyend="972"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="979" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="979" bodyend="984"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1a349e4815c306985e575784d5c6565b62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1336,7 +1351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="977" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="977" bodyend="982"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="989" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="989" bodyend="994"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1a3d3a9191f927426b24e3316092930616" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1351,7 +1366,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="988" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="988" bodyend="993"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1000" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1000" bodyend="1005"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1a1a70c8d78d76d99357951f92b3a2fd51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1366,7 +1381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1000" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1000" bodyend="1005"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1012" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1012" bodyend="1017"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1aeeef83bae473d6454d3d7680701b7e6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -1386,7 +1401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1012" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1012" bodyend="1017"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1024" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1024" bodyend="1029"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1ad130f34b7389613fab37c1631f07dc06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1401,7 +1416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1023" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1023" bodyend="1028"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1035" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1035" bodyend="1040"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1aff3083651a69ca6ad8fb88447758d3bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1416,7 +1431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1035" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1035" bodyend="1040"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1047" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1047" bodyend="1052"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1adf094b7f906f861a828829b7a03d8981" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1431,7 +1446,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1047" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1047" bodyend="1052"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1059" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1059" bodyend="1064"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1a69ff4f1529dcca4cdfd4c2458d45d156" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1450,7 +1465,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1058" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1058" bodyend="1063"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1070" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1070" bodyend="1075"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1a1f36a04424f380a8341a052259336207" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -1465,7 +1480,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1069" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1069" bodyend="1074"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1081" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1081" bodyend="1086"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CylinderObject_1a1455f591c4ee74bc593160d766180248" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1480,7 +1495,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1081" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1081" bodyend="1086"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1093" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1093" bodyend="1098"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1794,7 +1809,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="17" bodyend="1087"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="17" bodyend="1099"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__CylinderObject_1aa5a382955286b8f6252922baaabc7aae" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>className</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1a81336d0eff52c89dcafe5b692196ee1c" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>classNameInPlural</name></member>
@@ -1804,6 +1819,7 @@
       <member refid="classMR_1_1Const__CylinderObject_1aa1816fcfc7e59884543ae877775d1807" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>Const_CylinderObject</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1a7bd4c667e2e3c90213b65c774296dcaa" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>Const_CylinderObject</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1a389b60d0ffdabbca53bb3d3bb631a36f" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>Const_CylinderObject</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a15c97c8006718707945473f87dfad53a" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>constChildren</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1aae7062e2f3b954e2846b07ac87f4d780" prot="protected" virt="virtual"><scope>MR::Const_CylinderObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1afa05943c1f8903e6122ae75414406b48" prot="public" virt="virtual"><scope>MR::Const_CylinderObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__CylinderObject_1aad792f8473af5859d4885cbd2497467e" prot="public" virt="non-virtual"><scope>MR::Const_CylinderObject</scope><name>getAllSharedProperties</name></member>

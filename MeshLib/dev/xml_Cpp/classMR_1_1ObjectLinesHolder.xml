@@ -279,6 +279,7 @@
       <member refid="classMR_1_1Object_1ad1ccd26177dbfce7701ea0c9258f755a" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>cloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>coloringType_</name></member>
       <member refid="group__GeneralGroup_1gad09fce44b9b485c7bd1019f9c5e31518" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>computeBoundingBox_</name></member>
+      <member refid="classMR_1_1Object_1ac8aa3b30c857e87440cb2be7e1a60732" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>constChildren</name></member>
       <member refid="classMR_1_1VisualObject_1a64b9343aa9d5bb3c96e4a4f25fec077e" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>copyAllSolidColors</name></member>
       <member refid="group__GeneralGroup_1ga1285d8eb2e97fb22365dca86f412538e" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>copyColors</name></member>
       <member refid="group__GeneralGroup_1ga64d69137f11ccce4e6ba7aaa0ef41237" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>dashed_</name></member>

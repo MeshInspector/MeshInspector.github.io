@@ -194,6 +194,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af7aa1dd011a7ad1260f8e39eadc81b79" id="r_af7aa1dd011a7ad1260f8e39eadc81b79"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7aa1dd011a7ad1260f8e39eadc81b79">classNameInPlural</a> (self)</td></tr>
 <tr class="memitem:a3cede34187cf92e2953b8c04cc66db22" id="r_a3cede34187cf92e2953b8c04cc66db22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cede34187cf92e2953b8c04cc66db22">clone</a> (self)</td></tr>
 <tr class="memitem:a115b8bd891d9bd7e08946e8f84da09f0" id="r_a115b8bd891d9bd7e08946e8f84da09f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a115b8bd891d9bd7e08946e8f84da09f0">cloneTree</a> (self)</td></tr>
+<tr class="memitem:a08d2ce87823fae00ba9c6a3c6e78f7a9" id="r_a08d2ce87823fae00ba9c6a3c6e78f7a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstChildren.html">ConstChildren</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08d2ce87823fae00ba9c6a3c6e78f7a9">constChildren</a> (self)</td></tr>
 <tr class="memitem:a567315111aee91b3dd5bfef4188b23b7" id="r_a567315111aee91b3dd5bfef4188b23b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a567315111aee91b3dd5bfef4188b23b7">detachFromParent</a> (self)</td></tr>
 <tr class="memitem:ae6adbbc7286265563fb4d6d162f4dc49" id="r_ae6adbbc7286265563fb4d6d162f4dc49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6adbbc7286265563fb4d6d162f4dc49">find</a> (self, str <a class="el" href="#a1df02ba03a7110bf58c7f740696f4c35">name</a>)</td></tr>
 <tr class="memitem:ae6adbbc7286265563fb4d6d162f4dc49" id="r_ae6adbbc7286265563fb4d6d162f4dc49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6adbbc7286265563fb4d6d162f4dc49">find</a> (self, str <a class="el" href="#a1df02ba03a7110bf58c7f740696f4c35">name</a>)</td></tr>
@@ -459,7 +460,8 @@ NOTE: tags starting with a dot are considered as service ones and might be hidde
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">\\deprecated the cast inside is undefined behaviour, use constChildren() instead
+</pre> 
 </div>
 </div>
 <a id="a56da686c9c9740bc6bd8b96490bec744" name="a56da686c9c9740bc6bd8b96490bec744"></a>
@@ -535,6 +537,25 @@ NOTE: tags starting with a dot are considered as service ones and might be hidde
       </table>
 </div><div class="memdoc">
 <pre class="fragment">clones all tree of this object (except ancillary and unrecognized children)
+</pre> 
+</div>
+</div>
+<a id="a08d2ce87823fae00ba9c6a3c6e78f7a9" name="a08d2ce87823fae00ba9c6a3c6e78f7a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08d2ce87823fae00ba9c6a3c6e78f7a9">&#9670;&#160;</a></span>constChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ConstChildren.html">ConstChildren</a> mrmeshpy.Object.constChildren </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">the same sub-objects without the ability to modify them; the returned view is
+invalidated by anything that changes the children of this object
 </pre> 
 </div>
 </div>

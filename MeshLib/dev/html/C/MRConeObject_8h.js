@@ -10,6 +10,7 @@ var MRConeObject_8h =
     [ "MR_ConeObject_classNameInPlural", "MRConeObject_8h.html#ac250d6a4d6b5455fc19dbbd83670f97f", null ],
     [ "MR_ConeObject_clone", "MRConeObject_8h.html#a89b8b4ce032d964cc1c8f14d50d1e76d", null ],
     [ "MR_ConeObject_cloneTree", "MRConeObject_8h.html#ac806678c03f2f42e347f53f165f0dc73", null ],
+    [ "MR_ConeObject_constChildren", "MRConeObject_8h.html#aee29590eadf7b9e69942a0dcf474b9f1", null ],
     [ "MR_ConeObject_Construct", "MRConeObject_8h.html#add43ef54d6e3552fa2a886ef4c28f1cf", null ],
     [ "MR_ConeObject_ConstructFromAnother", "MRConeObject_8h.html#aec7adf46f43303672da78aa6d781e3ef", null ],
     [ "MR_ConeObject_copyAllSolidColors", "MRConeObject_8h.html#abb8ecc223cb4dc531bf4fe1c8e905d40", null ],

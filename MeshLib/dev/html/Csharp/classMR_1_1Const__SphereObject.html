@@ -295,6 +295,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae4215ee486391cdecf1332bbbc0aea3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <span class="tt"><a class="el" href="#ae4215ee486391cdecf1332bbbc0aea3b" title="If true, the scene tree GUI doesn&#39;t allow you to drag&#39;n&#39;drop this object into a different parent....">MR.SphereObject.isParentLocked</a></span>.  <br /></td></tr>
 <tr class="memitem:a990472978c65061586fea3c969dd078d" id="r_a990472978c65061586fea3c969dd078d"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a990472978c65061586fea3c969dd078d">isAncestor</a> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a>? ancestor)</td></tr>
 <tr class="memdesc:a990472978c65061586fea3c969dd078d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if given object is ancestor of this one, false otherwise Generated from method <span class="tt"><a class="el" href="#a990472978c65061586fea3c969dd078d" title="return true if given object is ancestor of this one, false otherwise Generated from method MR....">MR.SphereObject.isAncestor</a></span>.  <br /></td></tr>
+<tr class="memitem:a38c88a6827e21254c991f738ae1c30d0" id="r_a38c88a6827e21254c991f738ae1c30d0"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38c88a6827e21254c991f738ae1c30d0">constChildren</a> ()</td></tr>
+<tr class="memdesc:a38c88a6827e21254c991f738ae1c30d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#a38c88a6827e21254c991f738ae1c30d0" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.SphereObject.constChildren</a></span>.  <br /></td></tr>
 <tr class="memitem:aefda9fc0fb5f43157ee7564a060822ad" id="r_aefda9fc0fb5f43157ee7564a060822ad"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefda9fc0fb5f43157ee7564a060822ad">isSelected</a> ()</td></tr>
 <tr class="memdesc:aefda9fc0fb5f43157ee7564a060822ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aefda9fc0fb5f43157ee7564a060822ad" title="Generated from method MR.SphereObject.isSelected.">MR.SphereObject.isSelected</a></span>.  <br /></td></tr>
 <tr class="memitem:a8de65b7a92fa90cae0cb025677769689" id="r_a8de65b7a92fa90cae0cb025677769689"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8de65b7a92fa90cae0cb025677769689">isAncillary</a> ()</td></tr>
@@ -540,6 +542,33 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>clones all tree of this object (except ancillary and unrecognized children) Generated from method <span class="tt"><a class="el" href="#a30453973965dbf4d9e2fe97695d93747" title="clones all tree of this object (except ancillary and unrecognized children) Generated from method MR....">MR.SphereObject.cloneTree</a></span>. </p>
+
+</div>
+</div>
+<a id="a38c88a6827e21254c991f738ae1c30d0" name="a38c88a6827e21254c991f738ae1c30d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38c88a6827e21254c991f738ae1c30d0">&#9670;&#160;</a></span>constChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a> MR.Const_SphereObject.constChildren </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#a38c88a6827e21254c991f738ae1c30d0" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.SphereObject.constChildren</a></span>. </p>
 
 </div>
 </div>

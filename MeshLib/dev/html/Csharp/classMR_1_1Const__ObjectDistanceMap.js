@@ -9,6 +9,7 @@ var classMR_1_1Const__ObjectDistanceMap =
     [ "classNameInPlural", "classMR_1_1Const__ObjectDistanceMap.html#a5e3d28235230d1b3d350d7302a72bf03", null ],
     [ "clone", "classMR_1_1Const__ObjectDistanceMap.html#a35f8ec3fb67b590575aed110e1e82b9d", null ],
     [ "cloneTree", "classMR_1_1Const__ObjectDistanceMap.html#a5ba7b427904a8d21a5ba53ae765ed7e0", null ],
+    [ "constChildren", "classMR_1_1Const__ObjectDistanceMap.html#abb445b65c416885df49b403a1f07ca49", null ],
     [ "creases", "classMR_1_1Const__ObjectDistanceMap.html#a41b08ed1eba1a4e1f27ec760eb4009c0", null ],
     [ "data", "classMR_1_1Const__ObjectDistanceMap.html#aca975b6685c1d7a537a321fb4cd62929", null ],
     [ "Dispose", "classMR_1_1Const__ObjectDistanceMap.html#a535337cb002b3bac118a68133ce9b486", null ],

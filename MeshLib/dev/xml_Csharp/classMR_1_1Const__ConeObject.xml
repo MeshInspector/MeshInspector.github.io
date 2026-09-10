@@ -1263,6 +1263,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="925" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="925" bodyend="930"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a232c26d2bf55be79fb1ca7202077837d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ConstChildren" kindref="compound">MR.ConstChildren</ref></type>
+        <definition>unsafe MR.ConstChildren MR.Const_ConeObject.constChildren</definition>
+        <argsstring>()</argsstring>
+        <name>constChildren</name>
+        <qualifiedname>MR.Const_ConeObject.constChildren</qualifiedname>
+        <briefdescription>
+<para>the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a232c26d2bf55be79fb1ca7202077837d" kindref="member">MR.ConeObject.constChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="937" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="937" bodyend="942"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aa76f04b0ba32f5660f898ffc6df84c10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.Const_ConeObject.isSelected</definition>
@@ -1276,7 +1291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="935" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="935" bodyend="940"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="947" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="947" bodyend="952"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aa2365cad96128a366a57549b6152551c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1291,7 +1306,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="945" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="945" bodyend="950"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="957" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="957" bodyend="962"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a9231ec9981f3f2a686bd751d19528a2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1306,7 +1321,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="956" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="956" bodyend="961"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="968" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="968" bodyend="973"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a1779e36d703df21d0ce0a4ce66d6c04b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1326,7 +1341,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="968" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="968" bodyend="973"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="980" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="980" bodyend="985"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ab76e0b3c17cb50d8025c5e5823fdcdad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
@@ -1341,7 +1356,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="979" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="979" bodyend="984"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="991" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="991" bodyend="996"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1afb8f9ed7262d76329cd0c6207868556d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1356,7 +1371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="989" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="989" bodyend="994"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1001" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1001" bodyend="1006"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aee0780dc05c46721f73c3f355b4895df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1371,7 +1386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1000" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1000" bodyend="1005"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1012" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1012" bodyend="1017"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a740e575c33f55be44b1e344879b5af27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1386,7 +1401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1012" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1012" bodyend="1017"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1024" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1024" bodyend="1029"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ac9ed01650a77d5f046e8734c4a5269a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -1406,7 +1421,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1024" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1024" bodyend="1029"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1036" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1036" bodyend="1041"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a7ca4c7fa4c488089fe61d299cece85c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1421,7 +1436,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1035" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1035" bodyend="1040"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1047" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1047" bodyend="1052"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a53ce1a1621fd73ccbc5f977b5e71c596" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1436,7 +1451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1047" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1047" bodyend="1052"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1059" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1059" bodyend="1064"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ae1cd13cbd6865513ab56415fbbc17003" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1451,7 +1466,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1059" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1059" bodyend="1064"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1071" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1071" bodyend="1076"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ae088fc0c4ea336b862be6b42edbc54c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1470,7 +1485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1070" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1070" bodyend="1075"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1082" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1082" bodyend="1087"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a59f493273bbf460d718e155f12de6628" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -1485,7 +1500,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1081" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1081" bodyend="1086"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1093" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1093" bodyend="1098"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a1c88f5ef240f2e71dc00e67042083f9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1500,7 +1515,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1093" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1093" bodyend="1098"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1105" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1105" bodyend="1110"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1814,7 +1829,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="17" bodyend="1099"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="17" bodyend="1111"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__ConeObject_1a25b727214e4a2e639e54269cb15f9598" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>className</name></member>
       <member refid="classMR_1_1Const__ConeObject_1ab622cb386c15aac22e60b38af9734fa4" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>classNameInPlural</name></member>
@@ -1824,6 +1839,7 @@
       <member refid="classMR_1_1Const__ConeObject_1ae6f5c1aec42acc971d75d4cba88ae90c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>Const_ConeObject</name></member>
       <member refid="classMR_1_1Const__ConeObject_1a9502d4c4a20b0ed71fd3b57ca305f4f5" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>Const_ConeObject</name></member>
       <member refid="classMR_1_1Const__ConeObject_1af0046722bce490234cce74a087aa96a5" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>Const_ConeObject</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a232c26d2bf55be79fb1ca7202077837d" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>constChildren</name></member>
       <member refid="classMR_1_1Const__ConeObject_1a4fd200c4f64b587e7d882e9b19fb0d77" prot="protected" virt="virtual"><scope>MR::Const_ConeObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ConeObject_1a08a6a195d57b19f874c8b820d95c0f2a" prot="public" virt="virtual"><scope>MR::Const_ConeObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ConeObject_1a01979884756a271375ca251896f08d23" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getAllSharedProperties</name></member>

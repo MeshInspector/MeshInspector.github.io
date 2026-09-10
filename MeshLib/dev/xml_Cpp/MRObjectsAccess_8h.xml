@@ -34,18 +34,32 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
+      <node id="28">
+        <label>MRConstChildren.h</label>
+        <link refid="MRConstChildren_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
       <node id="21">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="28">
+      <node id="31">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
@@ -99,21 +113,23 @@
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
@@ -125,10 +141,10 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
       </node>
-      <node id="30">
+      <node id="33">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="10" relation="include">
@@ -139,15 +155,15 @@
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="35">
         <label>MRSignal.h</label>
         <link refid="MRSignal_8h"/>
-        <childnode refid="33" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
       </node>
       <node id="7">
@@ -182,7 +198,7 @@
         <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="38">
         <label>MRViewportId.h</label>
         <link refid="MRViewportId_8h"/>
         <childnode refid="10" relation="include">
@@ -190,25 +206,25 @@
         <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="37">
         <label>MRViewportProperty.h</label>
         <link refid="MRViewportProperty_8h"/>
-        <childnode refid="35" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
       <node id="11">
         <label>config.h</label>
         <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="41">
+      <node id="43">
         <label>MRObjectsAccess.hpp</label>
       </node>
       <node id="13">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="29">
+      <node id="32">
         <label>MRPch/MRExpected.h</label>
       </node>
       <node id="22">
@@ -217,7 +233,7 @@
       <node id="14">
         <label>array</label>
       </node>
-      <node id="33">
+      <node id="36">
         <label>boost/signals2/signal.hpp</label>
       </node>
       <node id="20">
@@ -235,34 +251,37 @@
       <node id="24">
         <label>cstring</label>
       </node>
-      <node id="37">
+      <node id="40">
         <label>filesystem</label>
       </node>
       <node id="18">
         <label>functional</label>
       </node>
-      <node id="38">
+      <node id="41">
         <label>future</label>
       </node>
       <node id="25">
         <label>iosfwd</label>
       </node>
-      <node id="36">
-        <label>map</label>
+      <node id="29">
+        <label>iterator</label>
       </node>
       <node id="39">
+        <label>map</label>
+      </node>
+      <node id="30">
         <label>memory</label>
       </node>
       <node id="17">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>
       </node>
-      <node id="40">
+      <node id="42">
         <label>set</label>
       </node>
       <node id="16">
         <label>string</label>
       </node>
-      <node id="31">
+      <node id="34">
         <label>tuple</label>
       </node>
       <node id="9">
@@ -354,7 +373,7 @@
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="66" refid="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" kindref="member">objectHasSelectableChildren</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Object" kindref="compound">MR::Object</ref>&amp;<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>recurse<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)</highlight></codeline>
 <codeline lineno="67"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>child<sp/>:<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">.children()<sp/>)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>child<sp/>:<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">.constChildren()<sp/>)</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!child-&gt;isAncillary()<sp/>||<sp/>(<sp/>recurse<sp/>&amp;&amp;<sp/><ref refid="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" kindref="member">objectHasSelectableChildren</ref>(<sp/>*child,<sp/>recurse<sp/>)<sp/>)<sp/>)</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>

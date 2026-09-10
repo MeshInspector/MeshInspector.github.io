@@ -29,6 +29,7 @@ var MRObjectMeshHolder_8h =
     [ "MR_ObjectMeshHolder_clearAncillaryTexture", "MRObjectMeshHolder_8h.html#adc4fee7ad106b52292cbe75b747ba4d3", null ],
     [ "MR_ObjectMeshHolder_clone", "MRObjectMeshHolder_8h.html#a29eb23eda449bf61714309d2ae56c535", null ],
     [ "MR_ObjectMeshHolder_cloneTree", "MRObjectMeshHolder_8h.html#a7da194df9e999bedf51b927d3de5a22d", null ],
+    [ "MR_ObjectMeshHolder_constChildren", "MRObjectMeshHolder_8h.html#a9f8e00908cd4fd02d3638cd2253083d8", null ],
     [ "MR_ObjectMeshHolder_ConstructFromAnother", "MRObjectMeshHolder_8h.html#a0739a79f4ef2192c8b5ef1f782b502a1", null ],
     [ "MR_ObjectMeshHolder_copyAllSolidColors", "MRObjectMeshHolder_8h.html#a7fc427b5fe4b6ace077317df040c71f2", null ],
     [ "MR_ObjectMeshHolder_copyColors", "MRObjectMeshHolder_8h.html#a3b7ddba22a2df57da1269ec9c0b8888d", null ],

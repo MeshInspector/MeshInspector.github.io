@@ -146,6 +146,7 @@ var MRVisualObject_8h =
     [ "MR_VisualObject_classNameInPlural", "MRVisualObject_8h.html#ad5190e1e563987508c6ce73dc9dda46e", null ],
     [ "MR_VisualObject_clone", "MRVisualObject_8h.html#a508d9663202bb00d66e9caaa1f4862a5", null ],
     [ "MR_VisualObject_cloneTree", "MRVisualObject_8h.html#a864bb0db48748cea4365b6d98717a06a", null ],
+    [ "MR_VisualObject_constChildren", "MRVisualObject_8h.html#a55a994b2d2f68a86530089203486f67a", null ],
     [ "MR_VisualObject_ConstructFromAnother", "MRVisualObject_8h.html#a6b570d6492734362f9c31fa528ccf596", null ],
     [ "MR_VisualObject_copyAllSolidColors", "MRVisualObject_8h.html#adf69019a11f6e86593161a6913ccb09c", null ],
     [ "MR_VisualObject_DefaultConstruct", "MRVisualObject_8h.html#af26c7692ca3c6ca608e2ba1b934ba5be", null ],

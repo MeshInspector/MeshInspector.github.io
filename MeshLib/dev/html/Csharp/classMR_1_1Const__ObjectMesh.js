@@ -8,6 +8,7 @@ var classMR_1_1Const__ObjectMesh =
     [ "classNameInPlural", "classMR_1_1Const__ObjectMesh.html#a6e337daccfd04995bee1a44ac9ab979d", null ],
     [ "clone", "classMR_1_1Const__ObjectMesh.html#a494dc870aaea2d9d280a40159d41580b", null ],
     [ "cloneTree", "classMR_1_1Const__ObjectMesh.html#ab96828e5a12dec8363c6f679e0875e92", null ],
+    [ "constChildren", "classMR_1_1Const__ObjectMesh.html#ad2a34de38c8d44a2e0df9cc7ed1cfc6a", null ],
     [ "creases", "classMR_1_1Const__ObjectMesh.html#ab0ff3a29b1c9035e42efb9d1a4784c90", null ],
     [ "data", "classMR_1_1Const__ObjectMesh.html#a4c36754cdccbae0ff4ecf4a6b0d7e3e4", null ],
     [ "Dispose", "classMR_1_1Const__ObjectMesh.html#a49ae7a9e0c45f15749ab2e5fb342dd03", null ],

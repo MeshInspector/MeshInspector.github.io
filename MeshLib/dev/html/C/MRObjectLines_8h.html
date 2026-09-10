@@ -304,6 +304,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a177f764c7b005e0c96c60fdc71494eb9" id="r_a177f764c7b005e0c96c60fdc71494eb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a177f764c7b005e0c96c60fdc71494eb9">MR_ObjectLines_setParentLocked</a> (<a class="el" href="#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this, bool lock)</td></tr>
 <tr class="memitem:a69b2fd3a49037673ceb9468adee3dbb9" id="r_a69b2fd3a49037673ceb9468adee3dbb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69b2fd3a49037673ceb9468adee3dbb9">MR_ObjectLines_isAncestor</a> (const <a class="el" href="#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this, const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *ancestor)</td></tr>
 <tr class="memitem:a733d9ba24065769059d17a4c479e660f" id="r_a733d9ba24065769059d17a4c479e660f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a733d9ba24065769059d17a4c479e660f">MR_ObjectLines_detachFromParent</a> (<a class="el" href="#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this)</td></tr>
+<tr class="memitem:a73ba2fe9753b7cf39ab8754fa99b4ff7" id="r_a73ba2fe9753b7cf39ab8754fa99b4ff7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a4b66b8839d5344c80a7178e630673a16">MR_ConstChildren</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73ba2fe9753b7cf39ab8754fa99b4ff7">MR_ObjectLines_constChildren</a> (const <a class="el" href="#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this)</td></tr>
 <tr class="memitem:a97516037d0986c2355171ed39e344b17" id="r_a97516037d0986c2355171ed39e344b17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97516037d0986c2355171ed39e344b17">MR_ObjectLines_addChild</a> (<a class="el" href="#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> child_pass_by, <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *child, const bool *recognizedChild)</td></tr>
 <tr class="memitem:a71030512f46b71d012babd549349b860" id="r_a71030512f46b71d012babd549349b860"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71030512f46b71d012babd549349b860">MR_ObjectLines_addChildBefore</a> (<a class="el" href="#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> newChild_pass_by, <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *newChild, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *existingChild)</td></tr>
 <tr class="memitem:a26f7ee9482d39205c70216ad94fa8025" id="r_a26f7ee9482d39205c70216ad94fa8025"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26f7ee9482d39205c70216ad94fa8025">MR_ObjectLines_removeAllChildren</a> (<a class="el" href="#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this)</td></tr>
@@ -635,6 +636,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>clones all tree of this object (except ancillary and unrecognized children) Generated from method <span class="tt">MR::ObjectLines::cloneTree</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a73ba2fe9753b7cf39ab8754fa99b4ff7" name="a73ba2fe9753b7cf39ab8754fa99b4ff7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73ba2fe9753b7cf39ab8754fa99b4ff7">&#9670;&#160;</a></span>MR_ObjectLines_constChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a4b66b8839d5344c80a7178e630673a16">MR_ConstChildren</a> * MR_ObjectLines_constChildren </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt">MR::ObjectLines::constChildren</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRConstChildren_8h.html#a6b7be996e1c56b44358aaf22f5bd2f11" title="Destroys a heap-allocated instance of MR_ConstChildren. Does nothing if the pointer is null.">MR_ConstChildren_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2092,7 +2111,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use polylinePtr() instead Generated from method <span class="tt">MR::ObjectLines::polyline</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use polylinePtr() instead Generated from method <span class="tt">MR::ObjectLines::polyline</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
 
 </div>
 </div>

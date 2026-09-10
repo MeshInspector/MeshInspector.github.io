@@ -1,6 +1,5 @@
 var MRObject_8h =
 [
-    [ "MR_std_shared_ptr_const_MR_Object", "MRObject_8h.html#a430d586657822e294dced54cc7b4f7a6", null ],
     [ "MR_std_vector_std_shared_ptr_const_MR_Object", "MRObject_8h.html#ae295d93375f5ea0ece8044d77aa7f442", null ],
     [ "MR_Object_addChild", "MRObject_8h.html#a2cadebe42693565a3976356f67032a92", null ],
     [ "MR_Object_addChildBefore", "MRObject_8h.html#ac078c8a1b507ca36a3688f421371e1e5", null ],
@@ -15,6 +14,7 @@ var MRObject_8h =
     [ "MR_Object_classNameInPlural", "MRObject_8h.html#a5801869616158c69c932d9bcbf4d7b7c", null ],
     [ "MR_Object_clone", "MRObject_8h.html#a8e5916db4e370e678cb9e3818e8598e4", null ],
     [ "MR_Object_cloneTree", "MRObject_8h.html#a2bd4c455c5850636fcf333591ffc5b3a", null ],
+    [ "MR_Object_constChildren", "MRObject_8h.html#af7fad265a5987041d6b5313524aa3285", null ],
     [ "MR_Object_ConstructFromAnother", "MRObject_8h.html#abda7ccf681269be8db8accf627944082", null ],
     [ "MR_Object_DefaultConstruct", "MRObject_8h.html#a74af1ea2ec55a48a154aa1541ea69d38", null ],
     [ "MR_Object_DefaultConstructArray", "MRObject_8h.html#a51d37bace952f99e90f89d3efd4c75de", null ],

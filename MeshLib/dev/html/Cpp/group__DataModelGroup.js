@@ -38,6 +38,7 @@ var group__DataModelGroup =
       [ "classNameInPlural", "classMR_1_1Object.html#a6f75a192e0d9f2bdfecdac79b4a15ae1", null ],
       [ "clone", "classMR_1_1Object.html#a3d0d34710d4460c82c6e1a0b641b49ca", null ],
       [ "cloneTree", "classMR_1_1Object.html#ad1ccd26177dbfce7701ea0c9258f755a", null ],
+      [ "constChildren", "classMR_1_1Object.html#ac8aa3b30c857e87440cb2be7e1a60732", null ],
       [ "deserializeFields_", "classMR_1_1Object.html#ace37b35645d3a70bd3bd51339b19d2bc", null ],
       [ "deserializeModel_", "classMR_1_1Object.html#a24103b426aec928b849c1c5aed3849fd", null ],
       [ "deserializeRecursive", "classMR_1_1Object.html#a5ad7a9244371a01ba7538ff24ce15165", null ],

@@ -9,6 +9,7 @@ var MRMeasurementObject_8h =
     [ "MR_MeasurementObject_classNameInPlural", "MRMeasurementObject_8h.html#a93758fbac546387d9482e53c284839f2", null ],
     [ "MR_MeasurementObject_clone", "MRMeasurementObject_8h.html#a2411efe5245ba09e33e0add7ebd663f7", null ],
     [ "MR_MeasurementObject_cloneTree", "MRMeasurementObject_8h.html#a1a57534af03a13eaabb31594f9493e1d", null ],
+    [ "MR_MeasurementObject_constChildren", "MRMeasurementObject_8h.html#a49a54305008ff8e23bcaf9061437daf2", null ],
     [ "MR_MeasurementObject_ConstructFromAnother", "MRMeasurementObject_8h.html#af6c7d68adaa9e7cbbb09021a421eee56", null ],
     [ "MR_MeasurementObject_copyAllSolidColors", "MRMeasurementObject_8h.html#ac67ceaa057fc471ad8912e14a329ac5c", null ],
     [ "MR_MeasurementObject_Destroy", "MRMeasurementObject_8h.html#a8c6ea0856b9623e28aef23125f71053f", null ],

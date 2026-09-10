@@ -187,6 +187,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.Cone3f", "classmrmeshpy_1_1Cone3f.html", "classmrmeshpy_1_1Cone3f" ],
     [ "mrmeshpy.ConeFitterType", "classmrmeshpy_1_1ConeFitterType.html", "classmrmeshpy_1_1ConeFitterType" ],
     [ "mrmeshpy.ConeObject", "classmrmeshpy_1_1ConeObject.html", "classmrmeshpy_1_1ConeObject" ],
+    [ "mrmeshpy.ConstChildren", "classmrmeshpy_1_1ConstChildren.html", "classmrmeshpy_1_1ConstChildren" ],
     [ "mrmeshpy.ConstantCuspParams", "classmrmeshpy_1_1ConstantCuspParams.html", "classmrmeshpy_1_1ConstantCuspParams" ],
     [ "mrmeshpy.ContourToDistanceMapParams", "classmrmeshpy_1_1ContourToDistanceMapParams.html", "classmrmeshpy_1_1ContourToDistanceMapParams" ],
     [ "mrmeshpy.ContoursDistanceMapOffset", "classmrmeshpy_1_1ContoursDistanceMapOffset.html", "classmrmeshpy_1_1ContoursDistanceMapOffset" ],

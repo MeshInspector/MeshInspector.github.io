@@ -7,6 +7,7 @@ var classMR_1_1Const__PointObject =
     [ "classNameInPlural", "classMR_1_1Const__PointObject.html#a6720ebcc6c51cc6f4bc33c15f2d78a5c", null ],
     [ "clone", "classMR_1_1Const__PointObject.html#abba41e33883679b7618378f9c1f79dea", null ],
     [ "cloneTree", "classMR_1_1Const__PointObject.html#a310f7a4e6122a6f0df927127cac758b5", null ],
+    [ "constChildren", "classMR_1_1Const__PointObject.html#aa5211f2c627736ec38b43bad4e3b42c8", null ],
     [ "Dispose", "classMR_1_1Const__PointObject.html#af159d3dc0bd7b1906d0501534bf506b1", null ],
     [ "Dispose", "classMR_1_1Const__PointObject.html#a9ff75e14a9072d6bcdc006ddc7c23ff2", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__PointObject.html#a70fffa691256d53491278083cb32b745", null ],

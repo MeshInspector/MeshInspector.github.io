@@ -538,6 +538,7 @@ Represents an angle measurement.
       <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a12dc6efe8b7d81f30825123b91ac1082" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>clone</name></member>
       <member refid="classmrmeshpy_1_1Object_1a115b8bd891d9bd7e08946e8f84da09f0" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>cloneTree</name></member>
       <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a45a177075898ce7073cd3a0e7328abdc" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>computeAngle</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a08d2ce87823fae00ba9c6a3c6e78f7a9" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>constChildren</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1ae752ebe42b1366e48661b9f506530f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classmrmeshpy_1_1Object_1a567315111aee91b3dd5bfef4188b23b7" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>detachFromParent</name></member>
       <member refid="classmrmeshpy_1_1Object_1ae6adbbc7286265563fb4d6d162f4dc49" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>find</name></member>

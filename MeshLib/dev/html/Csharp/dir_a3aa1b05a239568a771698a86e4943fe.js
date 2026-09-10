@@ -60,6 +60,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRCone3.cs", "MRCone3_8cs.html", "MRCone3_8cs" ],
     [ "MRConeApproximator.cs", "MRConeApproximator_8cs.html", "MRConeApproximator_8cs" ],
     [ "MRConeObject.cs", "MRConeObject_8cs.html", "MRConeObject_8cs" ],
+    [ "MRConstChildren.cs", "MRConstChildren_8cs.html", "MRConstChildren_8cs" ],
     [ "MRContour.cs", "MRContour_8cs.html", "MRContour_8cs" ],
     [ "MRContoursCut.cs", "MRContoursCut_8cs.html", "MRContoursCut_8cs" ],
     [ "MRContoursSeparation.cs", "MRContoursSeparation_8cs.html", "MRContoursSeparation_8cs" ],

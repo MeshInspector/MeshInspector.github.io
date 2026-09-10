@@ -210,6 +210,7 @@ var hierarchy =
     [ "mrmeshpy.Cone3f", "classmrmeshpy_1_1Cone3f.html", null ],
     [ "mrmeshpy.ConeFitterType", "classmrmeshpy_1_1ConeFitterType.html", null ],
     [ "mrmeshpy.Features.Primitives.ConeSegment", "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html", null ],
+    [ "mrmeshpy.ConstChildren", "classmrmeshpy_1_1ConstChildren.html", null ],
     [ "mrmeshpy.ContoursDistanceMapOffset", "classmrmeshpy_1_1ContoursDistanceMapOffset.html", null ],
     [ "mrmeshpy.ContoursDistanceMapOptions", "classmrmeshpy_1_1ContoursDistanceMapOptions.html", null ],
     [ "mrmeshpy.ContoursMeshAlignParams", "classmrmeshpy_1_1ContoursMeshAlignParams.html", null ],

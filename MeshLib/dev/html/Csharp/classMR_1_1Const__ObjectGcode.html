@@ -294,6 +294,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a62aa65ff24ada1f45aa52ae20b35c59b"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <span class="tt"><a class="el" href="#a62aa65ff24ada1f45aa52ae20b35c59b" title="If true, the scene tree GUI doesn&#39;t allow you to drag&#39;n&#39;drop this object into a different parent....">MR.ObjectGcode.isParentLocked</a></span>.  <br /></td></tr>
 <tr class="memitem:a25df3ed71d62b9f7f6655d4e28bc786a" id="r_a25df3ed71d62b9f7f6655d4e28bc786a"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25df3ed71d62b9f7f6655d4e28bc786a">isAncestor</a> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a>? ancestor)</td></tr>
 <tr class="memdesc:a25df3ed71d62b9f7f6655d4e28bc786a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if given object is ancestor of this one, false otherwise Generated from method <span class="tt"><a class="el" href="#a25df3ed71d62b9f7f6655d4e28bc786a" title="return true if given object is ancestor of this one, false otherwise Generated from method MR....">MR.ObjectGcode.isAncestor</a></span>.  <br /></td></tr>
+<tr class="memitem:a4eb73e9c7142448832026fc5f0a9b202" id="r_a4eb73e9c7142448832026fc5f0a9b202"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eb73e9c7142448832026fc5f0a9b202">constChildren</a> ()</td></tr>
+<tr class="memdesc:a4eb73e9c7142448832026fc5f0a9b202"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#a4eb73e9c7142448832026fc5f0a9b202" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.ObjectGcode.constChildren</a></span>.  <br /></td></tr>
 <tr class="memitem:a49a40ea7abb28afa85966fc8f027b778" id="r_a49a40ea7abb28afa85966fc8f027b778"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49a40ea7abb28afa85966fc8f027b778">isSelected</a> ()</td></tr>
 <tr class="memdesc:a49a40ea7abb28afa85966fc8f027b778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a49a40ea7abb28afa85966fc8f027b778" title="Generated from method MR.ObjectGcode.isSelected.">MR.ObjectGcode.isSelected</a></span>.  <br /></td></tr>
 <tr class="memitem:abd3bce5d7092aeb3df08cf51ae5d9bef" id="r_abd3bce5d7092aeb3df08cf51ae5d9bef"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd3bce5d7092aeb3df08cf51ae5d9bef">isAncillary</a> ()</td></tr>
@@ -558,6 +560,33 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>clones all tree of this object (except ancillary and unrecognized children) Generated from method <span class="tt"><a class="el" href="#a6a5d6b44f58b00148fbf79bd6a4dcdc3" title="clones all tree of this object (except ancillary and unrecognized children) Generated from method MR....">MR.ObjectGcode.cloneTree</a></span>. </p>
+
+</div>
+</div>
+<a id="a4eb73e9c7142448832026fc5f0a9b202" name="a4eb73e9c7142448832026fc5f0a9b202"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eb73e9c7142448832026fc5f0a9b202">&#9670;&#160;</a></span>constChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a> MR.Const_ObjectGcode.constChildren </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#a4eb73e9c7142448832026fc5f0a9b202" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.ObjectGcode.constChildren</a></span>. </p>
 
 </div>
 </div>
@@ -2116,7 +2145,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#afff537cdeaf65eafa8b07ebf6aaa2ad3" title="returns the polyline of this object, or nullptr if it is not set Generated from method MR....">polylinePtr()</a> instead Generated from method <span class="tt"><a class="el" href="#afaffd18b49cb4e8129f6b30a6bd46e76">MR.ObjectGcode.polyline</a></span>. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#afff537cdeaf65eafa8b07ebf6aaa2ad3" title="returns the polyline of this object, or nullptr if it is not set Generated from method MR....">polylinePtr()</a> instead Generated from method <span class="tt"><a class="el" href="#afaffd18b49cb4e8129f6b30a6bd46e76">MR.ObjectGcode.polyline</a></span>. </dd></dl>
 
 </div>
 </div>

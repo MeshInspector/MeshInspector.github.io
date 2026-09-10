@@ -139,6 +139,8 @@
     <innerclass refid="classMR_1_1Cone3Approximation" prot="public">MR::Cone3Approximation</innerclass>
     <innerclass refid="classMR_1_1ConeObject" prot="public">MR::ConeObject</innerclass>
     <innerclass refid="classMR_1_1Config" prot="public">MR::Config</innerclass>
+    <innerclass refid="classMR_1_1ConstChildren" prot="public">MR::ConstChildren</innerclass>
+    <innerclass refid="classMR_1_1ConstChildren_1_1Iterator" prot="public">MR::ConstChildren::Iterator</innerclass>
     <innerclass refid="structMR_1_1NewEdgesMap" prot="public">MR::NewEdgesMap</innerclass>
     <innerclass refid="structMR_1_1CutMeshParameters" prot="public">MR::CutMeshParameters</innerclass>
     <innerclass refid="structMR_1_1CutMeshResult" prot="public">MR::CutMeshResult</innerclass>
@@ -15013,6 +15015,77 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRConfig.h" line="101" column="25" bodyfile="MRMesh/MRConfig.h" bodystart="101" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga86512c1aafb328a7cf78ee56e2ad224a" prot="public" static="no">
+        <type>std::vector&lt; std::shared_ptr&lt; Object &gt; &gt;</type>
+        <definition>using MR::ConstChildren::Storage =  std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>Storage</name>
+        <qualifiedname>MR::ConstChildren::Storage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="37" column="5" bodyfile="MRMesh/MRConstChildren.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1gae7c12439a318077dcb19052a0951b066" prot="public" static="no">
+        <type>std::forward_iterator_tag</type>
+        <definition>using MR::ConstChildren::Iterator::iterator_concept =  std::forward_iterator_tag</definition>
+        <argsstring></argsstring>
+        <name>iterator_concept</name>
+        <qualifiedname>MR::ConstChildren::Iterator::iterator_concept</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dereference produces a prvalue, so the C++17 category can only be input, but the iterator is multi-pass and models std::forward_iterator </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="45" column="9" bodyfile="MRMesh/MRConstChildren.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga999327b8f650d03be9fa8225d9fe9c8c" prot="public" static="no">
+        <type>std::input_iterator_tag</type>
+        <definition>using MR::ConstChildren::Iterator::iterator_category =  std::input_iterator_tag</definition>
+        <argsstring></argsstring>
+        <name>iterator_category</name>
+        <qualifiedname>MR::ConstChildren::Iterator::iterator_category</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="46" column="9" bodyfile="MRMesh/MRConstChildren.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga0582f399e5067aa8b73a82cf10fd6c8f" prot="public" static="no">
+        <type>std::shared_ptr&lt; const Object &gt;</type>
+        <definition>using MR::ConstChildren::Iterator::value_type =  std::shared_ptr&lt;const Object&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>MR::ConstChildren::Iterator::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="47" column="9" bodyfile="MRMesh/MRConstChildren.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1gae1a6c04e0c1042d2b6020848b6922f82" prot="public" static="no">
+        <type>std::ptrdiff_t</type>
+        <definition>using MR::ConstChildren::Iterator::difference_type =  std::ptrdiff_t</definition>
+        <argsstring></argsstring>
+        <name>difference_type</name>
+        <qualifiedname>MR::ConstChildren::Iterator::difference_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="48" column="9" bodyfile="MRMesh/MRConstChildren.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga2403984460c26289689a1eddd1fb4270" prot="public" static="no">
         <type>std::function&lt; void(const MeshEdgePoint &amp;mep)&gt;</type>
         <definition>using MR::PathMeshEdgePointCallback =  std::function&lt;void( const MeshEdgePoint&amp; mep )&gt;</definition>
@@ -26708,6 +26781,35 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRConfig.h" line="140" column="32" bodyfile="MRMesh/MRConfig.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga94ab59a76edb816a9a34d7c4f4f7cf60" prot="private" static="no" mutable="no">
+        <type>Storage::const_iterator</type>
+        <definition>Storage::const_iterator MR::ConstChildren::Iterator::it_</definition>
+        <argsstring></argsstring>
+        <name>it_</name>
+        <qualifiedname>MR::ConstChildren::Iterator::it_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="59" column="33" bodyfile="MRMesh/MRConstChildren.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gabdd02631ab33967e5009193294efbfd7" prot="private" static="no" mutable="no">
+        <type>const Storage &amp;</type>
+        <definition>const Storage&amp; MR::ConstChildren::children_</definition>
+        <argsstring></argsstring>
+        <name>children_</name>
+        <qualifiedname>MR::ConstChildren::children_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="72" column="20" bodyfile="MRMesh/MRConstChildren.h" bodystart="72" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3af4a8bfbe6579dc273d0b9f368f77aa" prot="public" static="no" mutable="no">
         <type>UndirectedEdgeBitSet</type>
@@ -90252,6 +90354,192 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </inbodydescription>
         <location file="MRMesh/MRConfig.h" line="130" column="10" bodyfile="MRMesh/MRConfig.h" bodystart="130" bodyend="130"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga0ce0435d606c4d19a79a699eec18f7f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ConstChildren::Iterator::Iterator</definition>
+        <argsstring>()</argsstring>
+        <name>Iterator</name>
+        <qualifiedname>MR::ConstChildren::Iterator::Iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="50" column="9" bodyfile="MRMesh/MRConstChildren.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga3f09a9ae06179320e55182fd08d60238" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ConstChildren::Iterator::Iterator</definition>
+        <argsstring>(Storage::const_iterator it)</argsstring>
+        <name>Iterator</name>
+        <qualifiedname>MR::ConstChildren::Iterator::Iterator</qualifiedname>
+        <param>
+          <type>Storage::const_iterator</type>
+          <declname>it</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="51" column="18" bodyfile="MRMesh/MRConstChildren.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga9fc8635872b9c08c9cf067bbc26cf8cd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>value_type</type>
+        <definition>value_type MR::ConstChildren::Iterator::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::ConstChildren::Iterator::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="53" column="21" bodyfile="MRMesh/MRConstChildren.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga1113eefe20e266ac285214ec4b33158d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterator &amp;</type>
+        <definition>Iterator &amp; MR::ConstChildren::Iterator::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR::ConstChildren::Iterator::operator++</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="54" column="19" bodyfile="MRMesh/MRConstChildren.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaaad59ff19b36e3fb39a9c68fafa10644" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterator</type>
+        <definition>Iterator MR::ConstChildren::Iterator::operator++</definition>
+        <argsstring>(int)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR::ConstChildren::Iterator::operator++</qualifiedname>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="55" column="18" bodyfile="MRMesh/MRConstChildren.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga63d12752978b08aa7d7bfb5249ce87e4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ConstChildren::Iterator::operator==</definition>
+        <argsstring>(const Iterator &amp;) const =default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::ConstChildren::Iterator::operator==</qualifiedname>
+        <param>
+          <type>const Iterator &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="56" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga1c8eaeed8ac8e96f4da10c5486d49763" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ConstChildren::ConstChildren</definition>
+        <argsstring>(const Storage &amp;children)</argsstring>
+        <name>ConstChildren</name>
+        <qualifiedname>MR::ConstChildren::ConstChildren</qualifiedname>
+        <param>
+          <type>const Storage &amp;</type>
+          <declname>children</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="62" column="14" bodyfile="MRMesh/MRConstChildren.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga6c5d381f14e7361a89944b42035ddc7e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE_PY Iterator</type>
+        <definition>MR_BIND_IGNORE_PY Iterator MR::ConstChildren::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR::ConstChildren::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="64" column="33" bodyfile="MRMesh/MRConstChildren.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gab60c9f16097547d7fa4a9a169519373b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE_PY Iterator</type>
+        <definition>MR_BIND_IGNORE_PY Iterator MR::ConstChildren::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <qualifiedname>MR::ConstChildren::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="65" column="33" bodyfile="MRMesh/MRConstChildren.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga3a0382330d92b7c545f5607154fe236f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ConstChildren::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR::ConstChildren::empty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="67" column="11" bodyfile="MRMesh/MRConstChildren.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga1a7314cfced15e3be5d5495b7a618adf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::ConstChildren::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>MR::ConstChildren::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="68" column="13" bodyfile="MRMesh/MRConstChildren.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gabd262d110c14eb87676ed8a2fe7378cd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; const Object &gt;</type>
+        <definition>std::shared_ptr&lt; const Object &gt; MR::ConstChildren::operator[]</definition>
+        <argsstring>(size_t i) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::ConstChildren::operator[]</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRConstChildren.h" line="69" column="22" bodyfile="MRMesh/MRConstChildren.h" bodystart="69" bodyend="69"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf5b396c08011572eef5659ca9b84f37a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; FaceBitSet &gt;</type>
         <definition>Expected&lt; FaceBitSet &gt; MR::cutMeshByContour</definition>
@@ -124744,7 +125032,7 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000001"><xreftitle>Deprecated</xreftitle><xrefdescription><para>the cast inside is undefined behaviour, use <ref refid="group__GeneralGroup_1gad5cf75ed10ccc65062b81be77146a84d" kindref="member">polylinePtr()</ref> instead </para>
+<para><xrefsect id="deprecated_1_deprecated000002"><xreftitle>Deprecated</xreftitle><xrefdescription><para>the cast inside is undefined behaviour, use <ref refid="group__GeneralGroup_1gad5cf75ed10ccc65062b81be77146a84d" kindref="member">polylinePtr()</ref> instead </para>
 </xrefdescription></xrefsect></para>
         </detaileddescription>
         <inbodydescription>
@@ -126104,7 +126392,7 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000002"><xreftitle>Deprecated</xreftitle><xrefdescription><para>the cast inside is undefined behaviour, use <ref refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" kindref="member">meshPtr()</ref> instead </para>
+<para><xrefsect id="deprecated_1_deprecated000003"><xreftitle>Deprecated</xreftitle><xrefdescription><para>the cast inside is undefined behaviour, use <ref refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" kindref="member">meshPtr()</ref> instead </para>
 </xrefdescription></xrefsect></para>
         </detaileddescription>
         <inbodydescription>
@@ -128745,7 +129033,7 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000003"><xreftitle>Deprecated</xreftitle><xrefdescription><para>the cast inside is undefined behaviour, use <ref refid="group__GeneralGroup_1gac447393d1be3d444f139905cc7a61329" kindref="member">pointCloudPtr()</ref> instead </para>
+<para><xrefsect id="deprecated_1_deprecated000004"><xreftitle>Deprecated</xreftitle><xrefdescription><para>the cast inside is undefined behaviour, use <ref refid="group__GeneralGroup_1gac447393d1be3d444f139905cc7a61329" kindref="member">pointCloudPtr()</ref> instead </para>
 </xrefdescription></xrefsect></para>
         </detaileddescription>
         <inbodydescription>

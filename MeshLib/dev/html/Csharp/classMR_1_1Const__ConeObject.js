@@ -7,6 +7,7 @@ var classMR_1_1Const__ConeObject =
     [ "classNameInPlural", "classMR_1_1Const__ConeObject.html#ab622cb386c15aac22e60b38af9734fa4", null ],
     [ "clone", "classMR_1_1Const__ConeObject.html#ad5d3320b03d7078300e8bbfcfaefd07a", null ],
     [ "cloneTree", "classMR_1_1Const__ConeObject.html#aee0780dc05c46721f73c3f355b4895df", null ],
+    [ "constChildren", "classMR_1_1Const__ConeObject.html#a232c26d2bf55be79fb1ca7202077837d", null ],
     [ "Dispose", "classMR_1_1Const__ConeObject.html#a08a6a195d57b19f874c8b820d95c0f2a", null ],
     [ "Dispose", "classMR_1_1Const__ConeObject.html#a4fd200c4f64b587e7d882e9b19fb0d77", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__ConeObject.html#a01979884756a271375ca251896f08d23", null ],

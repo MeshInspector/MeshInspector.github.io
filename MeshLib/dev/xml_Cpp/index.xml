@@ -2078,6 +2078,16 @@
   <compound refid="structMR_1_1ConstantCuspParams" kind="struct"><name>MR::ConstantCuspParams</name>
     <member refid="group__GeneralGroup_1gae516e612489724b0fd33771eac4c5843" kind="variable"><name>fromCenterToBoundary</name></member>
   </compound>
+  <compound refid="classMR_1_1ConstChildren" kind="class"><name>MR::ConstChildren</name>
+    <member refid="group__GeneralGroup_1ga86512c1aafb328a7cf78ee56e2ad224a" kind="typedef"><name>Storage</name></member>
+    <member refid="group__GeneralGroup_1gabdd02631ab33967e5009193294efbfd7" kind="variable"><name>children_</name></member>
+    <member refid="group__GeneralGroup_1ga1c8eaeed8ac8e96f4da10c5486d49763" kind="function"><name>ConstChildren</name></member>
+    <member refid="group__GeneralGroup_1ga6c5d381f14e7361a89944b42035ddc7e" kind="function"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1gab60c9f16097547d7fa4a9a169519373b" kind="function"><name>end</name></member>
+    <member refid="group__GeneralGroup_1ga3a0382330d92b7c545f5607154fe236f" kind="function"><name>empty</name></member>
+    <member refid="group__GeneralGroup_1ga1a7314cfced15e3be5d5495b7a618adf" kind="function"><name>size</name></member>
+    <member refid="group__GeneralGroup_1gabd262d110c14eb87676ed8a2fe7378cd" kind="function"><name>operator[]</name></member>
+  </compound>
   <compound refid="structMR_1_1ContoursDistanceMapOffset" kind="struct"><name>MR::ContoursDistanceMapOffset</name>
     <member refid="structMR_1_1ContoursDistanceMapOffset_1ae4253ef0c3b8227af4acd442f2567178" kind="enum"><name>OffsetType</name></member>
     <member refid="structMR_1_1ContoursDistanceMapOffset_1ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0" kind="enumvalue"><name>Normal</name></member>
@@ -4823,6 +4833,19 @@
     <member refid="group__GeneralGroup_1ga90cbd3da86bc6165bc468eaa3af40bc7" kind="function"><name>setEnabledViewports</name></member>
     <member refid="group__GeneralGroup_1ga8551ebd9ecb3e6bab5cde187606e154a" kind="function"><name>ItemEnabledPerViewport</name></member>
   </compound>
+  <compound refid="classMR_1_1ConstChildren_1_1Iterator" kind="class"><name>MR::ConstChildren::Iterator</name>
+    <member refid="group__GeneralGroup_1gae7c12439a318077dcb19052a0951b066" kind="typedef"><name>iterator_concept</name></member>
+    <member refid="group__GeneralGroup_1ga999327b8f650d03be9fa8225d9fe9c8c" kind="typedef"><name>iterator_category</name></member>
+    <member refid="group__GeneralGroup_1ga0582f399e5067aa8b73a82cf10fd6c8f" kind="typedef"><name>value_type</name></member>
+    <member refid="group__GeneralGroup_1gae1a6c04e0c1042d2b6020848b6922f82" kind="typedef"><name>difference_type</name></member>
+    <member refid="group__GeneralGroup_1ga94ab59a76edb816a9a34d7c4f4f7cf60" kind="variable"><name>it_</name></member>
+    <member refid="group__GeneralGroup_1ga0ce0435d606c4d19a79a699eec18f7f2" kind="function"><name>Iterator</name></member>
+    <member refid="group__GeneralGroup_1ga3f09a9ae06179320e55182fd08d60238" kind="function"><name>Iterator</name></member>
+    <member refid="group__GeneralGroup_1ga9fc8635872b9c08c9cf067bbc26cf8cd" kind="function"><name>operator*</name></member>
+    <member refid="group__GeneralGroup_1ga1113eefe20e266ac285214ec4b33158d" kind="function"><name>operator++</name></member>
+    <member refid="group__GeneralGroup_1gaaad59ff19b36e3fb39a9c68fafa10644" kind="function"><name>operator++</name></member>
+    <member refid="group__GeneralGroup_1ga63d12752978b08aa7d7bfb5249ce87e4" kind="function"><name>operator==</name></member>
+  </compound>
   <compound refid="structMR_1_1IteratorRange" kind="struct"><name>MR::IteratorRange</name>
     <member refid="structMR_1_1IteratorRange_1a6dc3025499872ade8eaf5f1768b10aa3" kind="variable"><name>begin_</name></member>
     <member refid="structMR_1_1IteratorRange_1af62765e0ec5f90f3aaafe5a6fd50938a" kind="variable"><name>end_</name></member>
@@ -6676,6 +6699,7 @@
     <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" kind="function"><name>findCommonAncestor</name></member>
     <member refid="classMR_1_1Object_1acde230852a1c88579a652d00e088d03a" kind="function"><name>detachFromParent</name></member>
     <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" kind="function"><name>children</name></member>
+    <member refid="classMR_1_1Object_1ac8aa3b30c857e87440cb2be7e1a60732" kind="function"><name>constChildren</name></member>
     <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" kind="function"><name>children</name></member>
     <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" kind="function"><name>addChild</name></member>
     <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" kind="function"><name>addChildBefore</name></member>
@@ -17511,6 +17535,8 @@
   </compound>
   <compound refid="MRConstants_8h" kind="file"><name>MRConstants.h</name>
   </compound>
+  <compound refid="MRConstChildren_8h" kind="file"><name>MRConstChildren.h</name>
+  </compound>
   <compound refid="MRContour_8h" kind="file"><name>MRContour.h</name>
   </compound>
   <compound refid="MRContoursCut_8h" kind="file"><name>MRContoursCut.h</name>
@@ -21435,6 +21461,11 @@
     <member refid="group__GeneralGroup_1gad11690cdf0c6a6de76d2859de79fa518" kind="typedef"><name>ValueType</name></member>
     <member refid="group__GeneralGroup_1gac2e6bb7e397f17483383aef3880628d3" kind="typedef"><name>JacobianType</name></member>
     <member refid="group__GeneralGroup_1ga3933d06b4e35a4f309cff393747e1f2f" kind="typedef"><name>Enum</name></member>
+    <member refid="group__GeneralGroup_1ga86512c1aafb328a7cf78ee56e2ad224a" kind="typedef"><name>Storage</name></member>
+    <member refid="group__GeneralGroup_1gae7c12439a318077dcb19052a0951b066" kind="typedef"><name>iterator_concept</name></member>
+    <member refid="group__GeneralGroup_1ga999327b8f650d03be9fa8225d9fe9c8c" kind="typedef"><name>iterator_category</name></member>
+    <member refid="group__GeneralGroup_1ga0582f399e5067aa8b73a82cf10fd6c8f" kind="typedef"><name>value_type</name></member>
+    <member refid="group__GeneralGroup_1gae1a6c04e0c1042d2b6020848b6922f82" kind="typedef"><name>difference_type</name></member>
     <member refid="group__GeneralGroup_1ga2403984460c26289689a1eddd1fb4270" kind="typedef"><name>PathMeshEdgePointCallback</name></member>
     <member refid="group__GeneralGroup_1ga9373564bf8d768311a39df2f41d3d8e4" kind="typedef"><name>CurvePoints</name></member>
     <member refid="group__GeneralGroup_1ga14b6e326990c49dd287dac693682485e" kind="typedef"><name>iterator_category</name></member>
@@ -22222,6 +22253,8 @@
     <member refid="group__GeneralGroup_1ga67455501f76e21a4f415d860c1ce9991" kind="variable"><name>filePath_</name></member>
     <member refid="group__GeneralGroup_1gafa98e70c188af9b2cc8eb680fe4dd230" kind="variable"><name>loggerHandle_</name></member>
     <member refid="group__GeneralGroup_1ga8fdcee123f4dd11bb083a3c996f96683" kind="variable"><name>reportedMissingKeys_</name></member>
+    <member refid="group__GeneralGroup_1ga94ab59a76edb816a9a34d7c4f4f7cf60" kind="variable"><name>it_</name></member>
+    <member refid="group__GeneralGroup_1gabdd02631ab33967e5009193294efbfd7" kind="variable"><name>children_</name></member>
     <member refid="group__GeneralGroup_1ga3af4a8bfbe6579dc273d0b9f368f77aa" kind="variable"><name>splitEdges</name></member>
     <member refid="group__GeneralGroup_1ga1d44ed6247b64a9007baa4bbbf2903aa" kind="variable"><name>map</name></member>
     <member refid="group__GeneralGroup_1ga3aaef62dde9c7e4727195071089e409f" kind="variable"><name>sortData</name></member>
@@ -26160,6 +26193,18 @@
     <member refid="group__GeneralGroup_1gaeefbc83df19f4d44acd7a2e994cad721" kind="function"><name>setJsonValue</name></member>
     <member refid="group__GeneralGroup_1ga511ac76ed53aafae5ab8d337aeaa6795" kind="function"><name>toJson</name></member>
     <member refid="group__GeneralGroup_1ga534db3261935504b918838858cff437a" kind="function"><name>fromJson</name></member>
+    <member refid="group__GeneralGroup_1ga0ce0435d606c4d19a79a699eec18f7f2" kind="function"><name>Iterator</name></member>
+    <member refid="group__GeneralGroup_1ga3f09a9ae06179320e55182fd08d60238" kind="function"><name>Iterator</name></member>
+    <member refid="group__GeneralGroup_1ga9fc8635872b9c08c9cf067bbc26cf8cd" kind="function"><name>operator*</name></member>
+    <member refid="group__GeneralGroup_1ga1113eefe20e266ac285214ec4b33158d" kind="function"><name>operator++</name></member>
+    <member refid="group__GeneralGroup_1gaaad59ff19b36e3fb39a9c68fafa10644" kind="function"><name>operator++</name></member>
+    <member refid="group__GeneralGroup_1ga63d12752978b08aa7d7bfb5249ce87e4" kind="function"><name>operator==</name></member>
+    <member refid="group__GeneralGroup_1ga1c8eaeed8ac8e96f4da10c5486d49763" kind="function"><name>ConstChildren</name></member>
+    <member refid="group__GeneralGroup_1ga6c5d381f14e7361a89944b42035ddc7e" kind="function"><name>begin</name></member>
+    <member refid="group__GeneralGroup_1gab60c9f16097547d7fa4a9a169519373b" kind="function"><name>end</name></member>
+    <member refid="group__GeneralGroup_1ga3a0382330d92b7c545f5607154fe236f" kind="function"><name>empty</name></member>
+    <member refid="group__GeneralGroup_1ga1a7314cfced15e3be5d5495b7a618adf" kind="function"><name>size</name></member>
+    <member refid="group__GeneralGroup_1gabd262d110c14eb87676ed8a2fe7378cd" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1gaf5b396c08011572eef5659ca9b84f37a" kind="function"><name>cutMeshByContour</name></member>
     <member refid="group__GeneralGroup_1ga8471f2a87338254b2c1d8a0790776f0e" kind="function"><name>cutMeshByContours</name></member>
     <member refid="group__GeneralGroup_1ga66c0157a15c650c2df28de17df4c485c" kind="function"><name>cutMeshByProjection</name></member>

@@ -248,6 +248,7 @@
       <member refid="classMR_1_1Object_1ad1ccd26177dbfce7701ea0c9258f755a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>cloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>coloringType_</name></member>
       <member refid="group__GeneralGroup_1ga4984e1fd0de3ca9f68581167f630e772" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>computeBoundingBox_</name></member>
+      <member refid="classMR_1_1Object_1ac8aa3b30c857e87440cb2be7e1a60732" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>constChildren</name></member>
       <member refid="group__GeneralGroup_1gaee1743b888226be20aed8d683d65c188" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>contour_</name></member>
       <member refid="group__GeneralGroup_1ga12d207d71db54cf8592a72d10a999d3a" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>contourColor_</name></member>
       <member refid="classMR_1_1VisualObject_1a64b9343aa9d5bb3c96e4a4f25fec077e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>copyAllSolidColors</name></member>

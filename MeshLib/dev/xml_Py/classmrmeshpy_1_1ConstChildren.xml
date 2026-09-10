@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ConstChildren" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ConstChildren</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ConstChildren_1a21f0382e26bd0e97d75dbca99b74e3b5" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ConstChildren::Storage</definition>
+        <argsstring></argsstring>
+        <name>Storage</name>
+        <qualifiedname>mrmeshpy.ConstChildren.Storage</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__Object" kindref="compound">std_vector_std_shared_ptr_Object</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10951" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstChildren_1a8631c93ed44ccc13a9723508300401da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConstChildren.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConstChildren.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10954" bodyend="10955"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstChildren_1aa0d5cd6b37f0e9aa9abcc6be471c3738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ConstChildren.__getitem__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.ConstChildren.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10956" bodyend="10957"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstChildren_1a6ec202be7f0f4e6a31849a9849442ac2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConstChildren.__init__</definition>
+        <argsstring>(self, std_vector_std_shared_ptr_Object children)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConstChildren.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__Object" kindref="compound">std_vector_std_shared_ptr_Object</ref></type>
+          <declname>children</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10959" bodyend="10960"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstChildren_1a2fe8a2b8dbc9c422f76974c80a307024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConstChildren.__init__</definition>
+        <argsstring>(self, ConstChildren arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConstChildren.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ConstChildren" kindref="compound">ConstChildren</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10962" bodyend="10965"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstChildren_1ad4bb34146350e7e27df92373aed3daf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref>]</type>
+        <definition> typing.Iterator[Object] mrmeshpy.ConstChildren.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.ConstChildren.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10966" bodyend="10967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstChildren_1aadac2e7f978b3cf9e0a95b8780c90659" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ConstChildren.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.ConstChildren.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10968" bodyend="10969"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstChildren_1accd59b0eea838ff134cd98f3db47f748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ConstChildren.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.ConstChildren.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10970" bodyend="10971"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ConstChildren
+
+read-only access to the children of an Object, as returned by Object::constChildren()
+
+Object stores its children as std::shared_ptr&lt;Object&gt;, and a const Object cannot hand
+them out directly without either dropping constness or copying the whole vector.
+This class solves that: it is a lightweight non-owning view on the object&apos;s children,
+which produces std::shared_ptr&lt;const Object&gt; on the fly. Typical use:
+
+    for ( const auto &amp; child : obj.constChildren() )
+        processRecursively( *child );
+
+It is also indexable, so a plain loop works too:
+
+    for ( size_t i = 0; i &lt; obj.constChildren().size(); ++i )
+        process( *obj.constChildren()[i] );
+
+The view refers to the object&apos;s own storage, so use it as a temporary and do not store
+it: it is invalidated by anything that adds, removes or reorders the object&apos;s children,
+exactly like an iterator of the underlying vector.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10928" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10928" bodyend="10971"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ConstChildren_1aa0d5cd6b37f0e9aa9abcc6be471c3738" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstChildren</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1ConstChildren_1a8631c93ed44ccc13a9723508300401da" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstChildren</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConstChildren_1a6ec202be7f0f4e6a31849a9849442ac2" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstChildren</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConstChildren_1a2fe8a2b8dbc9c422f76974c80a307024" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstChildren</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConstChildren_1ad4bb34146350e7e27df92373aed3daf2" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstChildren</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1ConstChildren_1aadac2e7f978b3cf9e0a95b8780c90659" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstChildren</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1ConstChildren_1accd59b0eea838ff134cd98f3db47f748" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstChildren</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1ConstChildren_1a21f0382e26bd0e97d75dbca99b74e3b5" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstChildren</scope><name>Storage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

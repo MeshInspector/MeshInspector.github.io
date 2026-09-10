@@ -11,6 +11,7 @@ var classMR_1_1Const__ObjectVoxels =
     [ "classNameInPlural", "classMR_1_1Const__ObjectVoxels.html#aff586b7d1c267e0655353821ed004a60", null ],
     [ "clone", "classMR_1_1Const__ObjectVoxels.html#a7fc656c4cdef627642bc8d1efe0c460d", null ],
     [ "cloneTree", "classMR_1_1Const__ObjectVoxels.html#a20d23b19fa767c165722341919198543", null ],
+    [ "constChildren", "classMR_1_1Const__ObjectVoxels.html#af43c133202e6b1ab82fd4b5f85b3352c", null ],
     [ "creases", "classMR_1_1Const__ObjectVoxels.html#aea56313bd9544f6334e381fcb6a06c00", null ],
     [ "data", "classMR_1_1Const__ObjectVoxels.html#a2258619706d93e48f503087e495ddcde", null ],
     [ "dimensions", "classMR_1_1Const__ObjectVoxels.html#a7d3099416eeb609d65d1b6e969e3b60d", null ],

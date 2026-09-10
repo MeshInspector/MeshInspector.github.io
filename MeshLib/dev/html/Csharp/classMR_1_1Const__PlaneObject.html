@@ -301,6 +301,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2552c1fe1a4a483c962d841616a6fee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <span class="tt"><a class="el" href="#a2552c1fe1a4a483c962d841616a6fee6" title="If true, the scene tree GUI doesn&#39;t allow you to drag&#39;n&#39;drop this object into a different parent....">MR.PlaneObject.isParentLocked</a></span>.  <br /></td></tr>
 <tr class="memitem:a9fedbbe8de6601c5e8942a18cefbcc2c" id="r_a9fedbbe8de6601c5e8942a18cefbcc2c"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fedbbe8de6601c5e8942a18cefbcc2c">isAncestor</a> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a>? ancestor)</td></tr>
 <tr class="memdesc:a9fedbbe8de6601c5e8942a18cefbcc2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if given object is ancestor of this one, false otherwise Generated from method <span class="tt"><a class="el" href="#a9fedbbe8de6601c5e8942a18cefbcc2c" title="return true if given object is ancestor of this one, false otherwise Generated from method MR....">MR.PlaneObject.isAncestor</a></span>.  <br /></td></tr>
+<tr class="memitem:af5cab49edde117d60bcbd8ded4dbf047" id="r_af5cab49edde117d60bcbd8ded4dbf047"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5cab49edde117d60bcbd8ded4dbf047">constChildren</a> ()</td></tr>
+<tr class="memdesc:af5cab49edde117d60bcbd8ded4dbf047"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#af5cab49edde117d60bcbd8ded4dbf047" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.PlaneObject.constChildren</a></span>.  <br /></td></tr>
 <tr class="memitem:aca9385269d28d1074b4e0987fee76275" id="r_aca9385269d28d1074b4e0987fee76275"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca9385269d28d1074b4e0987fee76275">isSelected</a> ()</td></tr>
 <tr class="memdesc:aca9385269d28d1074b4e0987fee76275"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aca9385269d28d1074b4e0987fee76275" title="Generated from method MR.PlaneObject.isSelected.">MR.PlaneObject.isSelected</a></span>.  <br /></td></tr>
 <tr class="memitem:a364622a5c02a1e0847c08773cd2689bc" id="r_a364622a5c02a1e0847c08773cd2689bc"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a364622a5c02a1e0847c08773cd2689bc">isAncillary</a> ()</td></tr>
@@ -571,6 +573,33 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>clones all tree of this object (except ancillary and unrecognized children) Generated from method <span class="tt"><a class="el" href="#a7d2ff18f44fb413974908aa4879480e8" title="clones all tree of this object (except ancillary and unrecognized children) Generated from method MR....">MR.PlaneObject.cloneTree</a></span>. </p>
+
+</div>
+</div>
+<a id="af5cab49edde117d60bcbd8ded4dbf047" name="af5cab49edde117d60bcbd8ded4dbf047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5cab49edde117d60bcbd8ded4dbf047">&#9670;&#160;</a></span>constChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a> MR.Const_PlaneObject.constChildren </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#af5cab49edde117d60bcbd8ded4dbf047" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.PlaneObject.constChildren</a></span>. </p>
 
 </div>
 </div>

@@ -216,6 +216,7 @@
       <member refid="group__GeneralGroup_1ga1af2fb6750b1e2140e899aaac1d0864d" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
       <member refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>computeBoundingBox_</name></member>
       <member refid="group__GeneralGroup_1ga59e88082c408a26a049f08d7d2df6693" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>computeComparableProperty</name></member>
+      <member refid="classMR_1_1Object_1ac8aa3b30c857e87440cb2be7e1a60732" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>constChildren</name></member>
       <member refid="classMR_1_1VisualObject_1a64b9343aa9d5bb3c96e4a4f25fec077e" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>depthTest_</name></member>
       <member refid="group__GeneralGroup_1ga528d61e1346347cab130b0245d2e6700" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>deserializeFields_</name></member>

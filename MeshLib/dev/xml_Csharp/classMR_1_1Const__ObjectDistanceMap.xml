@@ -283,7 +283,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><xrefsect id="deprecated_1_deprecated000001"><xreftitle>Deprecated</xreftitle><xrefdescription><para>the cast inside is undefined behaviour, use <ref refid="classMR_1_1Const__ObjectDistanceMap_1a4125455f32a344b699b38a3b8ba947e3" kindref="member">meshPtr()</ref> instead Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a6f0d2cd9a284557bd8815cc7281683ef" kindref="member">MR.ObjectDistanceMap.mesh</ref></computeroutput>. </para>
+<para><xrefsect id="deprecated_1_deprecated000002"><xreftitle>Deprecated</xreftitle><xrefdescription><para>the cast inside is undefined behaviour, use <ref refid="classMR_1_1Const__ObjectDistanceMap_1a4125455f32a344b699b38a3b8ba947e3" kindref="member">meshPtr()</ref> instead Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1a6f0d2cd9a284557bd8815cc7281683ef" kindref="member">MR.ObjectDistanceMap.mesh</ref></computeroutput>. </para>
 </xrefdescription></xrefsect></para>
         </detaileddescription>
         <inbodydescription>
@@ -1635,6 +1635,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1175" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1175" bodyend="1180"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1abb445b65c416885df49b403a1f07ca49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ConstChildren" kindref="compound">MR.ConstChildren</ref></type>
+        <definition>unsafe MR.ConstChildren MR.Const_ObjectDistanceMap.constChildren</definition>
+        <argsstring>()</argsstring>
+        <name>constChildren</name>
+        <qualifiedname>MR.Const_ObjectDistanceMap.constChildren</qualifiedname>
+        <briefdescription>
+<para>the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectDistanceMap_1abb445b65c416885df49b403a1f07ca49" kindref="member">MR.ObjectDistanceMap.constChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1187" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1187" bodyend="1192"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1aa5c224d24a684434c99b801cd6cac16e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.Const_ObjectDistanceMap.isSelected</definition>
@@ -1648,7 +1663,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1185" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1185" bodyend="1190"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1197" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1197" bodyend="1202"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a7ccf6f533362f9fccab6d00fbe15242d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1663,7 +1678,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1195" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1195" bodyend="1200"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1207" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1207" bodyend="1212"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a358a8f7687eddd76fd66ca2268d491b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1678,7 +1693,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1206" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1206" bodyend="1211"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1218" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1218" bodyend="1223"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1adc9857c84c30a707f6ae34d7a0018f12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -1698,7 +1713,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1218" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1218" bodyend="1223"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1230" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1230" bodyend="1235"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a3e010be7dfa6afc38d88224543345abb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
@@ -1713,7 +1728,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1229" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1229" bodyend="1234"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1241" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1241" bodyend="1246"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a6f47112014be1655db458e03bd862756" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -1728,7 +1743,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1239" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1239" bodyend="1244"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1251" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1251" bodyend="1256"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a5ba7b427904a8d21a5ba53ae765ed7e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1743,7 +1758,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1250" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1250" bodyend="1255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1262" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1262" bodyend="1267"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a7bab3751bed87da4e3aff54084398fd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1758,7 +1773,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1262" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1262" bodyend="1267"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1274" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1274" bodyend="1279"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1aa6aeb7bb841c5e10a9a7dbe27ea5cd49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -1778,7 +1793,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1274" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1274" bodyend="1279"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1286" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1286" bodyend="1291"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a76a724165b2d110ad1b7fdaf7d6e23a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Const_Set_StdString</type>
@@ -1793,7 +1808,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1286" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1286" bodyend="1291"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1298" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1298" bodyend="1303"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ObjectDistanceMap_1a560f39fe81b927be0f854f67c39005d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -1808,7 +1823,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1298" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1298" bodyend="1303"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1310" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1310" bodyend="1315"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -2067,7 +2082,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="16" bodyend="1304"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="16" bodyend="1316"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a137566ad0885a7094e82f33f9102ddab" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>actualSerializeFormat</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a5c59780f80dd63918d57a7f1c694b4d0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>avgEdgeLen</name></member>
@@ -2079,6 +2094,7 @@
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a8072fd8caf64d07ea1a7a28f36d5d101" prot="package" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>Const_ObjectDistanceMap</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1ad84370f622b97333bd202363e246b5ed" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>Const_ObjectDistanceMap</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1af6b674e6ba50e5b88f0aa270ccc4ea53" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>Const_ObjectDistanceMap</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1abb445b65c416885df49b403a1f07ca49" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>constChildren</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a41b08ed1eba1a4e1f27ec760eb4009c0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>creases</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1aca975b6685c1d7a537a321fb4cd62929" prot="public" virt="non-virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__ObjectDistanceMap_1a0a4596f669ed52fa23c8b4bce1521202" prot="protected" virt="virtual"><scope>MR::Const_ObjectDistanceMap</scope><name>Dispose</name></member>

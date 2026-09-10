@@ -15,6 +15,7 @@ var MRObjectPointsHolder_8h =
     [ "MR_ObjectPointsHolder_classNameInPlural", "MRObjectPointsHolder_8h.html#ae2300817ee484729023053aa02a11fc3", null ],
     [ "MR_ObjectPointsHolder_clone", "MRObjectPointsHolder_8h.html#ad6456b39ef3431b9125d02224e4cbb3c", null ],
     [ "MR_ObjectPointsHolder_cloneTree", "MRObjectPointsHolder_8h.html#aee63d4502677a241d1b4364f3f044fc5", null ],
+    [ "MR_ObjectPointsHolder_constChildren", "MRObjectPointsHolder_8h.html#af88430899f0b056161f0bbd8aca1eb88", null ],
     [ "MR_ObjectPointsHolder_ConstructFromAnother", "MRObjectPointsHolder_8h.html#a423ec1d576ff2dcd4cc4508347ce88c7", null ],
     [ "MR_ObjectPointsHolder_copyAllSolidColors", "MRObjectPointsHolder_8h.html#a8fff66ad73b2d8addab4cce81a5377fe", null ],
     [ "MR_ObjectPointsHolder_copyColors", "MRObjectPointsHolder_8h.html#a35b910d54ce1715d12c516f2a664a03a", null ],

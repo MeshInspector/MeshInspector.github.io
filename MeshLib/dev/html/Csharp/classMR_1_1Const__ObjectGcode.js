@@ -8,6 +8,7 @@ var classMR_1_1Const__ObjectGcode =
     [ "classNameInPlural", "classMR_1_1Const__ObjectGcode.html#aee96ecec04c7d72efa362a5dfe950af7", null ],
     [ "clone", "classMR_1_1Const__ObjectGcode.html#a9e245f00ca550ffce5edc4583fcc71ce", null ],
     [ "cloneTree", "classMR_1_1Const__ObjectGcode.html#a6a5d6b44f58b00148fbf79bd6a4dcdc3", null ],
+    [ "constChildren", "classMR_1_1Const__ObjectGcode.html#a4eb73e9c7142448832026fc5f0a9b202", null ],
     [ "Dispose", "classMR_1_1Const__ObjectGcode.html#a25fa470127aa90a81bd0b3a672f17cfc", null ],
     [ "Dispose", "classMR_1_1Const__ObjectGcode.html#a77cf53d15073bb58dbd70433d0d3f33d", null ],
     [ "gcodeSource", "classMR_1_1Const__ObjectGcode.html#a97dc98d35503c27910e58bf14c3d6467", null ],

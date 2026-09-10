@@ -226,6 +226,7 @@
       <member refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>computeBoundingBox_</name></member>
       <member refid="group__GeneralGroup_1gabb07dcd9019b22d939a6dde5389cac55" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>computeComparableProperty</name></member>
       <member refid="group__GeneralGroup_1ga91dad20757d0a20d7cef113ec87248d4" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>computeDistance</name></member>
+      <member refid="classMR_1_1Object_1ac8aa3b30c857e87440cb2be7e1a60732" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>constChildren</name></member>
       <member refid="classMR_1_1VisualObject_1a64b9343aa9d5bb3c96e4a4f25fec077e" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>depthTest_</name></member>
       <member refid="group__GeneralGroup_1gad71d0831f944a5a6c9306e34e53b76dc" prot="protected" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>deserializeFields_</name></member>

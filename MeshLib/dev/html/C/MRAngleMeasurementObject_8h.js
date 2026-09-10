@@ -12,6 +12,7 @@ var MRAngleMeasurementObject_8h =
     [ "MR_AngleMeasurementObject_clone", "MRAngleMeasurementObject_8h.html#a1155917e029f7630502a1237d1d643d6", null ],
     [ "MR_AngleMeasurementObject_cloneTree", "MRAngleMeasurementObject_8h.html#a3b5539e7d3e95efb6b74fe01bb16f4fd", null ],
     [ "MR_AngleMeasurementObject_computeAngle", "MRAngleMeasurementObject_8h.html#a61799a527bc046033642fdcb37c80900", null ],
+    [ "MR_AngleMeasurementObject_constChildren", "MRAngleMeasurementObject_8h.html#a2031a5b3da6853d135441f8fac2d6c39", null ],
     [ "MR_AngleMeasurementObject_ConstructFromAnother", "MRAngleMeasurementObject_8h.html#a6d6d2c0e07bffc98c1a1ee90de4b5bc1", null ],
     [ "MR_AngleMeasurementObject_copyAllSolidColors", "MRAngleMeasurementObject_8h.html#a5ba3f5aefdda41eb3b7cc42804bdd74a", null ],
     [ "MR_AngleMeasurementObject_DefaultConstruct", "MRAngleMeasurementObject_8h.html#a57297e0fdbe5a30268c8f28aba961025", null ],

@@ -293,6 +293,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae283ed1e219c18597f003c452fbe6773"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <span class="tt"><a class="el" href="#ae283ed1e219c18597f003c452fbe6773" title="If true, the scene tree GUI doesn&#39;t allow you to drag&#39;n&#39;drop this object into a different parent....">MR.ObjectPoints.isParentLocked</a></span>.  <br /></td></tr>
 <tr class="memitem:a2056c144b38d9cf4f9c4afbb40862f33" id="r_a2056c144b38d9cf4f9c4afbb40862f33"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2056c144b38d9cf4f9c4afbb40862f33">isAncestor</a> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a>? ancestor)</td></tr>
 <tr class="memdesc:a2056c144b38d9cf4f9c4afbb40862f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if given object is ancestor of this one, false otherwise Generated from method <span class="tt"><a class="el" href="#a2056c144b38d9cf4f9c4afbb40862f33" title="return true if given object is ancestor of this one, false otherwise Generated from method MR....">MR.ObjectPoints.isAncestor</a></span>.  <br /></td></tr>
+<tr class="memitem:a74453a62554254421500b53322af7527" id="r_a74453a62554254421500b53322af7527"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74453a62554254421500b53322af7527">constChildren</a> ()</td></tr>
+<tr class="memdesc:a74453a62554254421500b53322af7527"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#a74453a62554254421500b53322af7527" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.ObjectPoints.constChildren</a></span>.  <br /></td></tr>
 <tr class="memitem:addcf994a7942f8ab9dbe67eabdcbfa5b" id="r_addcf994a7942f8ab9dbe67eabdcbfa5b"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addcf994a7942f8ab9dbe67eabdcbfa5b">isSelected</a> ()</td></tr>
 <tr class="memdesc:addcf994a7942f8ab9dbe67eabdcbfa5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#addcf994a7942f8ab9dbe67eabdcbfa5b" title="Generated from method MR.ObjectPoints.isSelected.">MR.ObjectPoints.isSelected</a></span>.  <br /></td></tr>
 <tr class="memitem:a75b80caa99ed1c4e102269b1c922952b" id="r_a75b80caa99ed1c4e102269b1c922952b"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75b80caa99ed1c4e102269b1c922952b">isAncillary</a> ()</td></tr>
@@ -546,6 +548,33 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>clones all tree of this object (except ancillary and unrecognized children) Generated from method <span class="tt"><a class="el" href="#a2163838bd8ccab67c97c94ce14154ec5" title="clones all tree of this object (except ancillary and unrecognized children) Generated from method MR....">MR.ObjectPoints.cloneTree</a></span>. </p>
+
+</div>
+</div>
+<a id="a74453a62554254421500b53322af7527" name="a74453a62554254421500b53322af7527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74453a62554254421500b53322af7527">&#9670;&#160;</a></span>constChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a> MR.Const_ObjectPoints.constChildren </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#a74453a62554254421500b53322af7527" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.ObjectPoints.constChildren</a></span>. </p>
 
 </div>
 </div>
@@ -2100,7 +2129,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000007">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#aa3a29103ec8caf9635b76ae2bde9532b" title="returns the point cloud of this object, or nullptr if it is not set Generated from method MR....">pointCloudPtr()</a> instead Generated from method <span class="tt"><a class="el" href="#af1b459f391497fe3d041659f01944fa5">MR.ObjectPoints.pointCloud</a></span>. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000008">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#aa3a29103ec8caf9635b76ae2bde9532b" title="returns the point cloud of this object, or nullptr if it is not set Generated from method MR....">pointCloudPtr()</a> instead Generated from method <span class="tt"><a class="el" href="#af1b459f391497fe3d041659f01944fa5">MR.ObjectPoints.pointCloud</a></span>. </dd></dl>
 
 </div>
 </div>

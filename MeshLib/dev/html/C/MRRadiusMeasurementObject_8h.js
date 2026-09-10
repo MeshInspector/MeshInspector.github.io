@@ -11,6 +11,7 @@ var MRRadiusMeasurementObject_8h =
     [ "MR_RadiusMeasurementObject_clone", "MRRadiusMeasurementObject_8h.html#a81efec91e59d5dde57163191978316ac", null ],
     [ "MR_RadiusMeasurementObject_cloneTree", "MRRadiusMeasurementObject_8h.html#a1fc3f1730307648373f53e849a562d3e", null ],
     [ "MR_RadiusMeasurementObject_computeRadiusOrDiameter", "MRRadiusMeasurementObject_8h.html#adb4d0cb9b8d4fb043d778dcb49f72227", null ],
+    [ "MR_RadiusMeasurementObject_constChildren", "MRRadiusMeasurementObject_8h.html#a801d338bf86f137dca37ade2f1f07331", null ],
     [ "MR_RadiusMeasurementObject_ConstructFromAnother", "MRRadiusMeasurementObject_8h.html#a4a1c90a39864146210d7ebd53208909e", null ],
     [ "MR_RadiusMeasurementObject_copyAllSolidColors", "MRRadiusMeasurementObject_8h.html#a43f060ba86394236a0c65577d90fe546", null ],
     [ "MR_RadiusMeasurementObject_DefaultConstruct", "MRRadiusMeasurementObject_8h.html#a5e651d8bace180a67f54c4cb8ad46da8", null ],

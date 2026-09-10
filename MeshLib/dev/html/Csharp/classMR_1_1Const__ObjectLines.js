@@ -7,6 +7,7 @@ var classMR_1_1Const__ObjectLines =
     [ "classNameInPlural", "classMR_1_1Const__ObjectLines.html#a5d75c46585286390e01c98f8eb45c58a", null ],
     [ "clone", "classMR_1_1Const__ObjectLines.html#a2f8b7b92b52f3b1eb378fa6f39805348", null ],
     [ "cloneTree", "classMR_1_1Const__ObjectLines.html#ac4bc6ff12085eaf93bdce490d77c0db8", null ],
+    [ "constChildren", "classMR_1_1Const__ObjectLines.html#a5a1c77b138a22dc990850c58eb805fca", null ],
     [ "Dispose", "classMR_1_1Const__ObjectLines.html#a7b6e849d15b236232f8b0053dd52f47b", null ],
     [ "Dispose", "classMR_1_1Const__ObjectLines.html#a448777c8d5e3672a2ca86adc3fc464b6", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__ObjectLines.html#a5449c8fb305df23cc3a92fd8715f7fdd", null ],

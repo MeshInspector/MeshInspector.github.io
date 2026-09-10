@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObject.h" line="53" column="27" bodyfile="MRMesh/MRObject.h" bodystart="53" bodyend="-1"/>
+        <location file="MRMesh/MRObject.h" line="54" column="27" bodyfile="MRMesh/MRObject.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" static="no" mutable="no">
         <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObject.h" line="54" column="17" bodyfile="MRMesh/MRObject.h" bodystart="54" bodyend="-1"/>
+        <location file="MRMesh/MRObject.h" line="55" column="17" bodyfile="MRMesh/MRObject.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" static="no" mutable="no">
         <type>std::vector&lt; std::weak_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObject.h" line="55" column="17" bodyfile="MRMesh/MRObject.h" bodystart="55" bodyend="-1"/>
+        <location file="MRMesh/MRObject.h" line="56" column="17" bodyfile="MRMesh/MRObject.h" bodystart="56" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObject.h" line="37" column="5"/>
+        <location file="MRMesh/MRObject.h" line="38" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObject.h" line="38" column="5" bodyfile="MRMesh/MRObject.h" bodystart="38" bodyend="38"/>
+        <location file="MRMesh/MRObject.h" line="39" column="5" bodyfile="MRMesh/MRObject.h" bodystart="39" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">ObjectChildrenHolder</ref> &amp;</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObject.h" line="39" column="27" bodyfile="MRMesh/MRObject.h" bodystart="39" bodyend="39"/>
+        <location file="MRMesh/MRObject.h" line="40" column="27" bodyfile="MRMesh/MRObject.h" bodystart="40" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1ac39b8635e5ec3a3e5d0c900806a6766e" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObject.h" line="40" column="6"/>
+        <location file="MRMesh/MRObject.h" line="41" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1af9423022c44615eb44c4c83247239a89" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">ObjectChildrenHolder</ref> &amp;</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObject.h" line="41" column="28"/>
+        <location file="MRMesh/MRObject.h" line="42" column="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1afc70bfdd1da7c7b37030df9392d86ab5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObject.h" line="42" column="6"/>
+        <location file="MRMesh/MRObject.h" line="43" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a05ec077c2240d9e3d7a9889ec4ad308d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObject.h" line="46" column="23"/>
+        <location file="MRMesh/MRObject.h" line="47" column="23"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a1e6d0779adf4e149515a0404d3cf4276" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObject.h" line="50" column="14"/>
+        <location file="MRMesh/MRObject.h" line="51" column="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -402,7 +402,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRObject.h" line="34" column="1" bodyfile="MRMesh/MRObject.h" bodystart="35" bodyend="56"/>
+    <location file="MRMesh/MRObject.h" line="35" column="1" bodyfile="MRMesh/MRObject.h" bodystart="36" bodyend="57"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>bastards_</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>children_</name></member>

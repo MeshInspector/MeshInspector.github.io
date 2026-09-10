@@ -1472,6 +1472,7 @@
   <compound refid="MRAddVisualPropertiesMixin_8h" kind="file"><name>MRAddVisualPropertiesMixin.h</name>
     <member refid="MRAddVisualPropertiesMixin_8h_1a47309f5020d832f0d5effdd481071a1e" kind="typedef"><name>MR_AnyVisualizeMaskEnum</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1ab04f90c0c45a09f664d0bd8e652bc339" kind="typedef"><name>MR_Color</name></member>
+    <member refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kind="typedef"><name>MR_ConstChildren</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kind="typedef"><name>MR_FeatureObject</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1af9fa34609dfd430727cb347f86a5f28f" kind="typedef"><name>MR_FeatureObjectProjectPointResult</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1a05411842860db9b06c2e1dd0a3b5cb32" kind="typedef"><name>MR_ModelBaseRenderParams</name></member>
@@ -1596,6 +1597,7 @@
     <member refid="MRAddVisualPropertiesMixin_8h_1a6416e17eb595fa2a2622c18a42f040ca" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_setParentLocked</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1a656d325217ece438d0ab8297c82767cc" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_isAncestor</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1a7f2c22ea4fc6848cda40ab0d89d6aec6" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_detachFromParent</name></member>
+    <member refid="MRAddVisualPropertiesMixin_8h_1a93a4a8d9b686f0acd7f295c558aa16cc" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_constChildren</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1a557d75f846c4492e99db9d2d8d900ca6" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_addChild</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1aa023e20368f6dfcb49758e5725954323" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_addChildBefore</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1aefb833e8a3a37a4831e240b5dd9039f4" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_removeAllChildren</name></member>
@@ -1757,6 +1759,7 @@
     <member refid="MRAddVisualPropertiesMixin_8h_1a8795b2061d301478eed9c4999a91992b" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_setParentLocked</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1a2fe11fae1ff315435fd807ebb25e7a0f" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_isAncestor</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1a73a4c01fa8129ee6141cb07f753567ee" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_detachFromParent</name></member>
+    <member refid="MRAddVisualPropertiesMixin_8h_1a5aa5679de3776620a213a5545f373bde" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_constChildren</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1afd3325574e4e9b73806da35b31ed3ba5" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_addChild</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1abd96e4da27c5387898f7709e6a11e551" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_addChildBefore</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1ac7dedcf9c61c13bb18f244b1afbb1a2d" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length_removeAllChildren</name></member>
@@ -1918,6 +1921,7 @@
     <member refid="MRAddVisualPropertiesMixin_8h_1a103642b4abb7ff6aa7d1aa84983e736d" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_setParentLocked</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1aabf59fb47c000d1bf2797b777914d18c" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_isAncestor</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1a3b9a2b826281041e9de482f11fcede6c" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_detachFromParent</name></member>
+    <member refid="MRAddVisualPropertiesMixin_8h_1a273bb3c948472eac66fb87bc3fa42ad7" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_constChildren</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1a9aec56f974bbd9063a6c903940d13c7a" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_addChild</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1af1e0e44c6cf09c9aa7d8d058695447f7" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_addChildBefore</name></member>
     <member refid="MRAddVisualPropertiesMixin_8h_1a5ab13883df522f1f90e573647ff27748" kind="function"><name>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length_removeAllChildren</name></member>
@@ -2403,6 +2407,7 @@
     <member refid="MRAngleMeasurementObject_8h_1ab014ab4217ae3526bd216abb96ebcffb" kind="function"><name>MR_AngleMeasurementObject_setParentLocked</name></member>
     <member refid="MRAngleMeasurementObject_8h_1a245b57c65e9be3ffc95fb2a82365f3a9" kind="function"><name>MR_AngleMeasurementObject_isAncestor</name></member>
     <member refid="MRAngleMeasurementObject_8h_1a0a34219550f93a6b34be40c1ba9b2e0a" kind="function"><name>MR_AngleMeasurementObject_detachFromParent</name></member>
+    <member refid="MRAngleMeasurementObject_8h_1a2031a5b3da6853d135441f8fac2d6c39" kind="function"><name>MR_AngleMeasurementObject_constChildren</name></member>
     <member refid="MRAngleMeasurementObject_8h_1a44e86308c75b2d64679df1d8ce7578d1" kind="function"><name>MR_AngleMeasurementObject_addChild</name></member>
     <member refid="MRAngleMeasurementObject_8h_1ab43ea9ed3a29ec9d31b872851aa79f4e" kind="function"><name>MR_AngleMeasurementObject_addChildBefore</name></member>
     <member refid="MRAngleMeasurementObject_8h_1a87508007d0d57b948742099d382ca8a9" kind="function"><name>MR_AngleMeasurementObject_removeAllChildren</name></member>
@@ -6960,6 +6965,7 @@
     <member refid="MRCircleObject_8h_1aeab81697dfd5b808b2fa478fe3c5f4fd" kind="function"><name>MR_CircleObject_setParentLocked</name></member>
     <member refid="MRCircleObject_8h_1a6124be398c064d87521076dc0355d646" kind="function"><name>MR_CircleObject_isAncestor</name></member>
     <member refid="MRCircleObject_8h_1a0b2e4455855cc52917ea07c968e71e8f" kind="function"><name>MR_CircleObject_detachFromParent</name></member>
+    <member refid="MRCircleObject_8h_1af3878e0ae440350879de2c5cb61b7d60" kind="function"><name>MR_CircleObject_constChildren</name></member>
     <member refid="MRCircleObject_8h_1a666cbbefb90ff1e261ea1d1b35f40e97" kind="function"><name>MR_CircleObject_addChild</name></member>
     <member refid="MRCircleObject_8h_1aef272a86f01e9c2abde6c95d939e0469" kind="function"><name>MR_CircleObject_addChildBefore</name></member>
     <member refid="MRCircleObject_8h_1a0cfa7433807e4a6041824bacf25a0be2" kind="function"><name>MR_CircleObject_removeAllChildren</name></member>
@@ -7608,6 +7614,7 @@
     <member refid="MRConeObject_8h_1a96e106174765c78a3d8f45fee304c4ab" kind="function"><name>MR_ConeObject_setParentLocked</name></member>
     <member refid="MRConeObject_8h_1a22979301384fe91e5d1b18237daa12a9" kind="function"><name>MR_ConeObject_isAncestor</name></member>
     <member refid="MRConeObject_8h_1a997358bc95d67f2a4ef05f6a10a94436" kind="function"><name>MR_ConeObject_detachFromParent</name></member>
+    <member refid="MRConeObject_8h_1aee29590eadf7b9e69942a0dcf474b9f1" kind="function"><name>MR_ConeObject_constChildren</name></member>
     <member refid="MRConeObject_8h_1ab08e5aa18ed80b77dd88ef556bf68bb5" kind="function"><name>MR_ConeObject_addChild</name></member>
     <member refid="MRConeObject_8h_1ace4e0bf92fa3b382d7c69558e078414d" kind="function"><name>MR_ConeObject_addChildBefore</name></member>
     <member refid="MRConeObject_8h_1a2734034d38a2cd7f5059811865280a47" kind="function"><name>MR_ConeObject_removeAllChildren</name></member>
@@ -7634,6 +7641,36 @@
     <member refid="MRConeObject_8h_1a72a0f79ee4e57e23d9f3b2cd2706f0a6" kind="function"><name>MR_ConeObject_sameModels</name></member>
     <member refid="MRConeObject_8h_1ae4867653c840352c8ea87aab12ecea9c" kind="function"><name>MR_ConeObject_getModelHash</name></member>
     <member refid="MRConeObject_8h_1ac6a8814c107fadb84e5ad74931091bc3" kind="function"><name>MR_ConeObject_getSharedPtr</name></member>
+  </compound>
+  <compound refid="MRConstChildren_8h" kind="file"><name>MRConstChildren.h</name>
+    <member refid="MRConstChildren_8h_1a430d586657822e294dced54cc7b4f7a6" kind="typedef"><name>MR_std_shared_ptr_const_MR_Object</name></member>
+    <member refid="MRConstChildren_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kind="typedef"><name>MR_std_vector_std_shared_ptr_MR_Object</name></member>
+    <member refid="MRConstChildren_8h_1aae3d41307a14e2f069896e2a78279b37" kind="typedef"><name>MR_std_vector_std_shared_ptr_MR_Object_const_iterator</name></member>
+    <member refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kind="typedef"><name>MR_ConstChildren_Iterator</name></member>
+    <member refid="MRConstChildren_8h_1a5c851273c1aadcd8bf0d80815800cbd2" kind="function"><name>MR_ConstChildren_ConstructFromAnother</name></member>
+    <member refid="MRConstChildren_8h_1aa37bbfdfc9376b908fa1af988b375932" kind="function"><name>MR_ConstChildren_OffsetPtr</name></member>
+    <member refid="MRConstChildren_8h_1ac71f9fe031ba3759bff5449143c72b63" kind="function"><name>MR_ConstChildren_OffsetMutablePtr</name></member>
+    <member refid="MRConstChildren_8h_1a9ae0e013fe4adaba21d1cb42e32485a7" kind="function"><name>MR_ConstChildren_Construct</name></member>
+    <member refid="MRConstChildren_8h_1a6b7be996e1c56b44358aaf22f5bd2f11" kind="function"><name>MR_ConstChildren_Destroy</name></member>
+    <member refid="MRConstChildren_8h_1a74e8effbb28f6f2a49c843901b0be282" kind="function"><name>MR_ConstChildren_DestroyArray</name></member>
+    <member refid="MRConstChildren_8h_1ac2f5dcd2c6a9111fde9b61f9147a06fa" kind="function"><name>MR_ConstChildren_begin</name></member>
+    <member refid="MRConstChildren_8h_1a7b7788ec5c3558fbe7ee31f893a76043" kind="function"><name>MR_ConstChildren_end</name></member>
+    <member refid="MRConstChildren_8h_1aed496cda4499311ebe8f76d271f7e2e5" kind="function"><name>MR_ConstChildren_empty</name></member>
+    <member refid="MRConstChildren_8h_1a576d365815ba6f8ccf7c0fca2d9cc852" kind="function"><name>MR_ConstChildren_size</name></member>
+    <member refid="MRConstChildren_8h_1a53604cdd802178aec5705193fec48e16" kind="function"><name>MR_ConstChildren_index</name></member>
+    <member refid="MRConstChildren_8h_1ac678bf0b9caa1c38c32d9a0f8b6b1982" kind="function"><name>MR_ConstChildren_Iterator_DefaultConstruct</name></member>
+    <member refid="MRConstChildren_8h_1a140e5fa6428632a260f13b87da98627d" kind="function"><name>MR_ConstChildren_Iterator_DefaultConstructArray</name></member>
+    <member refid="MRConstChildren_8h_1aab92a0f6cdfb3238bdbde48d707b1a90" kind="function"><name>MR_ConstChildren_Iterator_OffsetPtr</name></member>
+    <member refid="MRConstChildren_8h_1add525cdca5681a3435ac5b99f1c0e07e" kind="function"><name>MR_ConstChildren_Iterator_OffsetMutablePtr</name></member>
+    <member refid="MRConstChildren_8h_1a08ab254daf039a5d22aa9265af25064b" kind="function"><name>MR_ConstChildren_Iterator_ConstructFromAnother</name></member>
+    <member refid="MRConstChildren_8h_1a62b2c91e81e6f76ab88dbd7abdf52d00" kind="function"><name>MR_ConstChildren_Iterator_Construct</name></member>
+    <member refid="MRConstChildren_8h_1aa2751a503f2d5f79baf718a489050c5b" kind="function"><name>MR_ConstChildren_Iterator_Destroy</name></member>
+    <member refid="MRConstChildren_8h_1a2dbb6e4094d37a814ab9e24c5db8d6f6" kind="function"><name>MR_ConstChildren_Iterator_DestroyArray</name></member>
+    <member refid="MRConstChildren_8h_1a3a231ec1ecce963062efe86e55c76454" kind="function"><name>MR_ConstChildren_Iterator_AssignFromAnother</name></member>
+    <member refid="MRConstChildren_8h_1a299e278c6c733bf4a69c943f391fa1d3" kind="function"><name>MR_deref_MR_ConstChildren_Iterator</name></member>
+    <member refid="MRConstChildren_8h_1ad5e2ce429367b122d0ba07b642620e31" kind="function"><name>MR_incr_MR_ConstChildren_Iterator</name></member>
+    <member refid="MRConstChildren_8h_1ad1015669672ae46f94eaf9dce6a9cc32" kind="function"><name>MR_post_incr_MR_ConstChildren_Iterator</name></member>
+    <member refid="MRConstChildren_8h_1a529e8dfd9f1fcfa045d5d104fc027724" kind="function"><name>MR_equal_MR_ConstChildren_Iterator</name></member>
   </compound>
   <compound refid="MRContour_8h" kind="file"><name>MRContour.h</name>
     <member refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kind="typedef"><name>MR_std_vector_MR_Vector2d</name></member>
@@ -8055,6 +8092,7 @@
     <member refid="MRCylinderObject_8h_1a54546b6b31bf13f8cc0ae7e1effa76e1" kind="function"><name>MR_CylinderObject_setParentLocked</name></member>
     <member refid="MRCylinderObject_8h_1a57126aef9212eab964552e6ef46d44f9" kind="function"><name>MR_CylinderObject_isAncestor</name></member>
     <member refid="MRCylinderObject_8h_1ac1ec209cc517276a811624522dcd8a8e" kind="function"><name>MR_CylinderObject_detachFromParent</name></member>
+    <member refid="MRCylinderObject_8h_1afac7eeee63505327c7c90d57278c68bb" kind="function"><name>MR_CylinderObject_constChildren</name></member>
     <member refid="MRCylinderObject_8h_1a0d6437e4505b150ae8724d5360c9d395" kind="function"><name>MR_CylinderObject_addChild</name></member>
     <member refid="MRCylinderObject_8h_1afd9ccd7b9d8151cf1de13c62dc6f5ee0" kind="function"><name>MR_CylinderObject_addChildBefore</name></member>
     <member refid="MRCylinderObject_8h_1ad0f2144352bfbe0e0a67077d631fc15c" kind="function"><name>MR_CylinderObject_removeAllChildren</name></member>
@@ -8602,6 +8640,7 @@
     <member refid="MRDistanceMeasurementObject_8h_1a0f68962939c3edf2f12bf668cbe7ebc2" kind="function"><name>MR_DistanceMeasurementObject_setParentLocked</name></member>
     <member refid="MRDistanceMeasurementObject_8h_1a8abeb6eab173c4139afd7a30f05dc109" kind="function"><name>MR_DistanceMeasurementObject_isAncestor</name></member>
     <member refid="MRDistanceMeasurementObject_8h_1adef9f461cb4c0536afad0bbf9a39d6b7" kind="function"><name>MR_DistanceMeasurementObject_detachFromParent</name></member>
+    <member refid="MRDistanceMeasurementObject_8h_1a50121146105095d72316c1be5b179b6b" kind="function"><name>MR_DistanceMeasurementObject_constChildren</name></member>
     <member refid="MRDistanceMeasurementObject_8h_1a5e47ab497a94b878be2b7d48140a88f5" kind="function"><name>MR_DistanceMeasurementObject_addChild</name></member>
     <member refid="MRDistanceMeasurementObject_8h_1a479a5ea966ea2f235ec95e1526d729b8" kind="function"><name>MR_DistanceMeasurementObject_addChildBefore</name></member>
     <member refid="MRDistanceMeasurementObject_8h_1a3250258794944af08c7b0a42c6060911" kind="function"><name>MR_DistanceMeasurementObject_removeAllChildren</name></member>
@@ -9615,6 +9654,7 @@
     <member refid="MRFeatureObject_8h_1a9b253339ff0b847b597dfb47f4de54ed" kind="function"><name>MR_FeatureObject_setParentLocked</name></member>
     <member refid="MRFeatureObject_8h_1a9a96595ccfa07e9974b3d88ecaf8d6cb" kind="function"><name>MR_FeatureObject_isAncestor</name></member>
     <member refid="MRFeatureObject_8h_1a509fa8f964bd58252e5aa8efc68abd66" kind="function"><name>MR_FeatureObject_detachFromParent</name></member>
+    <member refid="MRFeatureObject_8h_1af92d35a19757895ab8da74d1da2daec2" kind="function"><name>MR_FeatureObject_constChildren</name></member>
     <member refid="MRFeatureObject_8h_1aca055e4c098f80ed252bcd457e1afffa" kind="function"><name>MR_FeatureObject_addChild</name></member>
     <member refid="MRFeatureObject_8h_1ae0fd448649785cd9f9607c09ba1d745b" kind="function"><name>MR_FeatureObject_addChildBefore</name></member>
     <member refid="MRFeatureObject_8h_1ae636d8960e290069175aa3691c468806" kind="function"><name>MR_FeatureObject_removeAllChildren</name></member>
@@ -10466,7 +10506,6 @@
   </compound>
   <compound refid="MRHeapBytes_8h" kind="file"><name>MRHeapBytes.h</name>
     <member refid="MRHeapBytes_8h_1a12c0c2665578dd4a12b184b0e9247713" kind="typedef"><name>MR_std_vector_size_t</name></member>
-    <member refid="MRHeapBytes_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kind="typedef"><name>MR_std_vector_std_shared_ptr_MR_Object</name></member>
     <member refid="MRHeapBytes_8h_1a1ff304559a28a745c4978271b9390847" kind="function"><name>MR_heapBytes_MR_Color</name></member>
     <member refid="MRHeapBytes_8h_1a36e3a037dd1da870f21c07e0307bc067" kind="function"><name>MR_heapBytes_std_shared_ptr_MR_Object</name></member>
     <member refid="MRHeapBytes_8h_1af366d379992992056032493a726557f6" kind="function"><name>MR_heapBytes_float</name></member>
@@ -12117,6 +12156,7 @@
     <member refid="MRLineObject_8h_1aaf2231d0c24e1d41ebd9e25dc4aae815" kind="function"><name>MR_LineObject_setParentLocked</name></member>
     <member refid="MRLineObject_8h_1a4e9797863f880da6b1f67a6d07b3e800" kind="function"><name>MR_LineObject_isAncestor</name></member>
     <member refid="MRLineObject_8h_1a323254912d48aa9ebba6c94cca7c7e3b" kind="function"><name>MR_LineObject_detachFromParent</name></member>
+    <member refid="MRLineObject_8h_1addd0b462f92cdaf7ddc6e2c7263396aa" kind="function"><name>MR_LineObject_constChildren</name></member>
     <member refid="MRLineObject_8h_1accfa148e0584e616bc5d5067c298d761" kind="function"><name>MR_LineObject_addChild</name></member>
     <member refid="MRLineObject_8h_1a63a31674f8df19817956d624f32eb29c" kind="function"><name>MR_LineObject_addChildBefore</name></member>
     <member refid="MRLineObject_8h_1a5a4825ac74a863f9db95f4a5369a9f12" kind="function"><name>MR_LineObject_removeAllChildren</name></member>
@@ -13664,6 +13704,7 @@
     <member refid="MRMeasurementObject_8h_1a0bb12635b6372246e62110617a0cbe0d" kind="function"><name>MR_MeasurementObject_setParentLocked</name></member>
     <member refid="MRMeasurementObject_8h_1a4ed7a599c948f050f6d56b964583b38b" kind="function"><name>MR_MeasurementObject_isAncestor</name></member>
     <member refid="MRMeasurementObject_8h_1aa5ebf62b9eae9df7111a9b0f9ac7da42" kind="function"><name>MR_MeasurementObject_detachFromParent</name></member>
+    <member refid="MRMeasurementObject_8h_1a49a54305008ff8e23bcaf9061437daf2" kind="function"><name>MR_MeasurementObject_constChildren</name></member>
     <member refid="MRMeasurementObject_8h_1ade6dd9dac8b933b51bf359c3186d600e" kind="function"><name>MR_MeasurementObject_addChild</name></member>
     <member refid="MRMeasurementObject_8h_1afb4d44932f07123dac93b03fe5b0d8e6" kind="function"><name>MR_MeasurementObject_addChildBefore</name></member>
     <member refid="MRMeasurementObject_8h_1a7203f05fb1b70b6cea12b88ef3d803ea" kind="function"><name>MR_MeasurementObject_removeAllChildren</name></member>
@@ -17073,7 +17114,6 @@
     <member refid="MRNormalsToPoints_8h_1ae2378c6430705eaa75bf67903c8c9821" kind="function"><name>MR_NormalsToPoints_ISolver_OffsetMutablePtr</name></member>
   </compound>
   <compound refid="MRObject_8h" kind="file"><name>MRObject.h</name>
-    <member refid="MRObject_8h_1a430d586657822e294dced54cc7b4f7a6" kind="typedef"><name>MR_std_shared_ptr_const_MR_Object</name></member>
     <member refid="MRObject_8h_1ae295d93375f5ea0ece8044d77aa7f442" kind="typedef"><name>MR_std_vector_std_shared_ptr_const_MR_Object</name></member>
     <member refid="MRObject_8h_1a198b8cc667b3de135d790c751ed63da4" kind="function"><name>MR_ObjectChildrenHolder_DefaultConstruct</name></member>
     <member refid="MRObject_8h_1a7680ab715441e174b35bcd7c583cede8" kind="function"><name>MR_ObjectChildrenHolder_DefaultConstructArray</name></member>
@@ -17131,6 +17171,7 @@
     <member refid="MRObject_8h_1a67e80ff4f36e45b6044f028c34613f3d" kind="function"><name>MR_Object_findCommonAncestor</name></member>
     <member refid="MRObject_8h_1ade7d5cfc5dbaac13ba8fc051a7fd2cde" kind="function"><name>MR_Object_detachFromParent</name></member>
     <member refid="MRObject_8h_1ae2223ea64a471d1d5d68f261ebb7a696" kind="function"><name>MR_Object_children_mut</name></member>
+    <member refid="MRObject_8h_1af7fad265a5987041d6b5313524aa3285" kind="function"><name>MR_Object_constChildren</name></member>
     <member refid="MRObject_8h_1ae09fdc8226bcbd2d669c798afc81e5e6" kind="function"><name>MR_Object_children</name></member>
     <member refid="MRObject_8h_1a2cadebe42693565a3976356f67032a92" kind="function"><name>MR_Object_addChild</name></member>
     <member refid="MRObject_8h_1ac078c8a1b507ca36a3688f421371e1e5" kind="function"><name>MR_Object_addChildBefore</name></member>
@@ -17447,6 +17488,7 @@
     <member refid="MRObjectDistanceMap_8h_1a6585bf6a8be60d08723d87c0214e1983" kind="function"><name>MR_ObjectDistanceMap_setParentLocked</name></member>
     <member refid="MRObjectDistanceMap_8h_1a644aded507946b62f853437921ff2560" kind="function"><name>MR_ObjectDistanceMap_isAncestor</name></member>
     <member refid="MRObjectDistanceMap_8h_1a6f1fb59ca4e90330ab9dc8313b38453e" kind="function"><name>MR_ObjectDistanceMap_detachFromParent</name></member>
+    <member refid="MRObjectDistanceMap_8h_1aebee817ebc02a6f25d505f63695f057a" kind="function"><name>MR_ObjectDistanceMap_constChildren</name></member>
     <member refid="MRObjectDistanceMap_8h_1a374f809a8ba8b085288e98140285c5a2" kind="function"><name>MR_ObjectDistanceMap_addChild</name></member>
     <member refid="MRObjectDistanceMap_8h_1a206f9176b2a3363de13f37a45eefd19d" kind="function"><name>MR_ObjectDistanceMap_addChildBefore</name></member>
     <member refid="MRObjectDistanceMap_8h_1a7a2c449cad5a3aa739ec2f8ea02dd623" kind="function"><name>MR_ObjectDistanceMap_removeAllChildren</name></member>
@@ -17629,6 +17671,7 @@
     <member refid="MRObjectGcode_8h_1abe69faeed553beaa428d3e99a5628fb7" kind="function"><name>MR_ObjectGcode_setParentLocked</name></member>
     <member refid="MRObjectGcode_8h_1a4cf758f71d48ac9b001788ebba5b1e94" kind="function"><name>MR_ObjectGcode_isAncestor</name></member>
     <member refid="MRObjectGcode_8h_1afd3fb704303d57a08790fc48f06a5cc3" kind="function"><name>MR_ObjectGcode_detachFromParent</name></member>
+    <member refid="MRObjectGcode_8h_1a50f043488c04dbc6cebdf436d0e37f0e" kind="function"><name>MR_ObjectGcode_constChildren</name></member>
     <member refid="MRObjectGcode_8h_1afe9601e8abffa826b29dc4f215449341" kind="function"><name>MR_ObjectGcode_addChild</name></member>
     <member refid="MRObjectGcode_8h_1a0d91c3a071ee2ffb019fef3cda774b02" kind="function"><name>MR_ObjectGcode_addChildBefore</name></member>
     <member refid="MRObjectGcode_8h_1a1cea9e82706787d1912bcc29ecf40fb3" kind="function"><name>MR_ObjectGcode_removeAllChildren</name></member>
@@ -17794,6 +17837,7 @@
     <member refid="MRObjectLines_8h_1a177f764c7b005e0c96c60fdc71494eb9" kind="function"><name>MR_ObjectLines_setParentLocked</name></member>
     <member refid="MRObjectLines_8h_1a69b2fd3a49037673ceb9468adee3dbb9" kind="function"><name>MR_ObjectLines_isAncestor</name></member>
     <member refid="MRObjectLines_8h_1a733d9ba24065769059d17a4c479e660f" kind="function"><name>MR_ObjectLines_detachFromParent</name></member>
+    <member refid="MRObjectLines_8h_1a73ba2fe9753b7cf39ab8754fa99b4ff7" kind="function"><name>MR_ObjectLines_constChildren</name></member>
     <member refid="MRObjectLines_8h_1a97516037d0986c2355171ed39e344b17" kind="function"><name>MR_ObjectLines_addChild</name></member>
     <member refid="MRObjectLines_8h_1a71030512f46b71d012babd549349b860" kind="function"><name>MR_ObjectLines_addChildBefore</name></member>
     <member refid="MRObjectLines_8h_1a26f7ee9482d39205c70216ad94fa8025" kind="function"><name>MR_ObjectLines_removeAllChildren</name></member>
@@ -17955,6 +17999,7 @@
     <member refid="MRObjectLinesHolder_8h_1af39c19d566799ac9b7cc704a8404a6e5" kind="function"><name>MR_ObjectLinesHolder_setParentLocked</name></member>
     <member refid="MRObjectLinesHolder_8h_1a384669b10318003706c788fd95f496b1" kind="function"><name>MR_ObjectLinesHolder_isAncestor</name></member>
     <member refid="MRObjectLinesHolder_8h_1a53e7b169705bebb9480b076522f0a02f" kind="function"><name>MR_ObjectLinesHolder_detachFromParent</name></member>
+    <member refid="MRObjectLinesHolder_8h_1aa665216d96a9fb2aa26460ec34e6ccc7" kind="function"><name>MR_ObjectLinesHolder_constChildren</name></member>
     <member refid="MRObjectLinesHolder_8h_1a1ed46c3aa29085a4ba67e12bf7a81f06" kind="function"><name>MR_ObjectLinesHolder_addChild</name></member>
     <member refid="MRObjectLinesHolder_8h_1a2d688fa6fcd564ee3f106486e064b654" kind="function"><name>MR_ObjectLinesHolder_addChildBefore</name></member>
     <member refid="MRObjectLinesHolder_8h_1a15960da923cafaf2893e0fcb0ddb0f89" kind="function"><name>MR_ObjectLinesHolder_removeAllChildren</name></member>
@@ -18208,6 +18253,7 @@
     <member refid="MRObjectMesh_8h_1ae90aa79a73b97c5d33bacd8a5556d197" kind="function"><name>MR_ObjectMesh_setParentLocked</name></member>
     <member refid="MRObjectMesh_8h_1a0acbe56e790ff336234e6086237c6d67" kind="function"><name>MR_ObjectMesh_isAncestor</name></member>
     <member refid="MRObjectMesh_8h_1a71e7b0d1a1c0f11a8703ec5af0e30305" kind="function"><name>MR_ObjectMesh_detachFromParent</name></member>
+    <member refid="MRObjectMesh_8h_1afd1d9fa7868bad1e7211e1a81b88ff68" kind="function"><name>MR_ObjectMesh_constChildren</name></member>
     <member refid="MRObjectMesh_8h_1a58f4511dc1b9c0555166e3adf60cac77" kind="function"><name>MR_ObjectMesh_addChild</name></member>
     <member refid="MRObjectMesh_8h_1a3c13b42861ab94e7bebb8a253fb3ea4f" kind="function"><name>MR_ObjectMesh_addChildBefore</name></member>
     <member refid="MRObjectMesh_8h_1a8959259f96afb31d8e34993961941550" kind="function"><name>MR_ObjectMesh_removeAllChildren</name></member>
@@ -18489,6 +18535,7 @@
     <member refid="MRObjectMeshHolder_8h_1a1d7a5f028725ff6b79dc89777fa131d4" kind="function"><name>MR_ObjectMeshHolder_setParentLocked</name></member>
     <member refid="MRObjectMeshHolder_8h_1a405afffcefaf76708826da63861ac9eb" kind="function"><name>MR_ObjectMeshHolder_isAncestor</name></member>
     <member refid="MRObjectMeshHolder_8h_1a47945c19e830bb642e0e608a15ec871a" kind="function"><name>MR_ObjectMeshHolder_detachFromParent</name></member>
+    <member refid="MRObjectMeshHolder_8h_1a9f8e00908cd4fd02d3638cd2253083d8" kind="function"><name>MR_ObjectMeshHolder_constChildren</name></member>
     <member refid="MRObjectMeshHolder_8h_1ae5fdb0134d82ca7bcbf286ee4ea3072d" kind="function"><name>MR_ObjectMeshHolder_addChild</name></member>
     <member refid="MRObjectMeshHolder_8h_1a672bbb3bb5955ce3ba10701bb5aa2080" kind="function"><name>MR_ObjectMeshHolder_addChildBefore</name></member>
     <member refid="MRObjectMeshHolder_8h_1a256095c11b01b166699332a644d382a9" kind="function"><name>MR_ObjectMeshHolder_removeAllChildren</name></member>
@@ -18665,6 +18712,7 @@
     <member refid="MRObjectPoints_8h_1a9ff3254f65eadd1066b170c1969f47fc" kind="function"><name>MR_ObjectPoints_setParentLocked</name></member>
     <member refid="MRObjectPoints_8h_1a41f5e30f20ee62dc9d8af4ebc189fb1a" kind="function"><name>MR_ObjectPoints_isAncestor</name></member>
     <member refid="MRObjectPoints_8h_1ae4a9fc1915fdec5480974bc606e48e0e" kind="function"><name>MR_ObjectPoints_detachFromParent</name></member>
+    <member refid="MRObjectPoints_8h_1aeeadc7defd84534f6d95b4601eb850ab" kind="function"><name>MR_ObjectPoints_constChildren</name></member>
     <member refid="MRObjectPoints_8h_1a12f90441170e0744b1655bf3799bd9b4" kind="function"><name>MR_ObjectPoints_addChild</name></member>
     <member refid="MRObjectPoints_8h_1a6367ad84b53bcd9c03b89eee2392b2ab" kind="function"><name>MR_ObjectPoints_addChildBefore</name></member>
     <member refid="MRObjectPoints_8h_1a91341b4f6dcaf08f50db2df3575d1d1b" kind="function"><name>MR_ObjectPoints_removeAllChildren</name></member>
@@ -18833,6 +18881,7 @@
     <member refid="MRObjectPointsHolder_8h_1a36e2204c036c9ced101a0fe70416e44f" kind="function"><name>MR_ObjectPointsHolder_setParentLocked</name></member>
     <member refid="MRObjectPointsHolder_8h_1aa792f6be37a67ebd2cd3afe271144890" kind="function"><name>MR_ObjectPointsHolder_isAncestor</name></member>
     <member refid="MRObjectPointsHolder_8h_1a23719be99fb6171cf2ba1f5deb817a4b" kind="function"><name>MR_ObjectPointsHolder_detachFromParent</name></member>
+    <member refid="MRObjectPointsHolder_8h_1af88430899f0b056161f0bbd8aca1eb88" kind="function"><name>MR_ObjectPointsHolder_constChildren</name></member>
     <member refid="MRObjectPointsHolder_8h_1a52a97b0338a4e791cf2e40049aa574e5" kind="function"><name>MR_ObjectPointsHolder_addChild</name></member>
     <member refid="MRObjectPointsHolder_8h_1a8b0e7a88dcf45ffe74b17e90a5495133" kind="function"><name>MR_ObjectPointsHolder_addChildBefore</name></member>
     <member refid="MRObjectPointsHolder_8h_1afce8f4d8ba755d55e11989014643ed31" kind="function"><name>MR_ObjectPointsHolder_removeAllChildren</name></member>
@@ -19738,6 +19787,7 @@
     <member refid="MRPlaneObject_8h_1a57cb0154feb4ef640cb87b8a4a41a0fa" kind="function"><name>MR_PlaneObject_setParentLocked</name></member>
     <member refid="MRPlaneObject_8h_1acb9b2164323dc6d896fd31c010cab9e0" kind="function"><name>MR_PlaneObject_isAncestor</name></member>
     <member refid="MRPlaneObject_8h_1ad95e20b0befdcb446fa492586273abfe" kind="function"><name>MR_PlaneObject_detachFromParent</name></member>
+    <member refid="MRPlaneObject_8h_1a8e25e32208779cfb7413ed6e94e29fe5" kind="function"><name>MR_PlaneObject_constChildren</name></member>
     <member refid="MRPlaneObject_8h_1a196775ec0ea75d23fd5f3bdaa1eafd58" kind="function"><name>MR_PlaneObject_addChild</name></member>
     <member refid="MRPlaneObject_8h_1aa6d00e3ad9f92c094730c263cd2ff4b0" kind="function"><name>MR_PlaneObject_addChildBefore</name></member>
     <member refid="MRPlaneObject_8h_1ada771e36c276e59fc34795d13a3b1e63" kind="function"><name>MR_PlaneObject_removeAllChildren</name></member>
@@ -20282,6 +20332,7 @@
     <member refid="MRPointMeasurementObject_8h_1a0985783baebb3a036a934b50b3973724" kind="function"><name>MR_PointMeasurementObject_setParentLocked</name></member>
     <member refid="MRPointMeasurementObject_8h_1a81b40a9d7d40852c42dad93d0ee509e6" kind="function"><name>MR_PointMeasurementObject_isAncestor</name></member>
     <member refid="MRPointMeasurementObject_8h_1a5ca5babe9f59c88d0dc968552fdb18ae" kind="function"><name>MR_PointMeasurementObject_detachFromParent</name></member>
+    <member refid="MRPointMeasurementObject_8h_1ad8e451fadfea23dd6f028d45baa1bb0d" kind="function"><name>MR_PointMeasurementObject_constChildren</name></member>
     <member refid="MRPointMeasurementObject_8h_1a2fc6ed62d75f97cb052ddcea4e8ce15f" kind="function"><name>MR_PointMeasurementObject_addChild</name></member>
     <member refid="MRPointMeasurementObject_8h_1a97cd3bb93ba861cecf3b29966e045ceb" kind="function"><name>MR_PointMeasurementObject_addChildBefore</name></member>
     <member refid="MRPointMeasurementObject_8h_1ae7cb6c4254478062f5ffff309d302341" kind="function"><name>MR_PointMeasurementObject_removeAllChildren</name></member>
@@ -20454,6 +20505,7 @@
     <member refid="MRPointObject_8h_1ab90c8dd43563e553e468dbaf96e5a0af" kind="function"><name>MR_PointObject_setParentLocked</name></member>
     <member refid="MRPointObject_8h_1ab9e44a79fbd451ef71692101a3612b0b" kind="function"><name>MR_PointObject_isAncestor</name></member>
     <member refid="MRPointObject_8h_1a9e336c5dfcc5f6aeff578e9d56e8057a" kind="function"><name>MR_PointObject_detachFromParent</name></member>
+    <member refid="MRPointObject_8h_1a3132c213d40399cb0fc1ce8842bcb44e" kind="function"><name>MR_PointObject_constChildren</name></member>
     <member refid="MRPointObject_8h_1a16158f41bfde9d1d2ab3fc59ae2fe63a" kind="function"><name>MR_PointObject_addChild</name></member>
     <member refid="MRPointObject_8h_1a958f15330944860249d5339754f18826" kind="function"><name>MR_PointObject_addChildBefore</name></member>
     <member refid="MRPointObject_8h_1a89008a6ba9d30d23a9b7a8266264fda1" kind="function"><name>MR_PointObject_removeAllChildren</name></member>
@@ -22102,6 +22154,7 @@
     <member refid="MRRadiusMeasurementObject_8h_1a39881b8d38a831f58b4166e8a459a64e" kind="function"><name>MR_RadiusMeasurementObject_setParentLocked</name></member>
     <member refid="MRRadiusMeasurementObject_8h_1a7d1b84450926bd386f85c44f0c36d245" kind="function"><name>MR_RadiusMeasurementObject_isAncestor</name></member>
     <member refid="MRRadiusMeasurementObject_8h_1af733cd233bf940d9b87e1019ea543f5a" kind="function"><name>MR_RadiusMeasurementObject_detachFromParent</name></member>
+    <member refid="MRRadiusMeasurementObject_8h_1a801d338bf86f137dca37ade2f1f07331" kind="function"><name>MR_RadiusMeasurementObject_constChildren</name></member>
     <member refid="MRRadiusMeasurementObject_8h_1a3a7d5a43b2dc71c21bcbc08438588f51" kind="function"><name>MR_RadiusMeasurementObject_addChild</name></member>
     <member refid="MRRadiusMeasurementObject_8h_1ae5cc013794898400f73d5fdb4d3a11ca" kind="function"><name>MR_RadiusMeasurementObject_addChildBefore</name></member>
     <member refid="MRRadiusMeasurementObject_8h_1a899d4b267637cce8abebb419feee4b9b" kind="function"><name>MR_RadiusMeasurementObject_removeAllChildren</name></member>
@@ -22643,6 +22696,7 @@
     <member refid="MRSceneRoot_8h_1a43b66714d6d479294962dd8df1cebba2" kind="function"><name>MR_SceneRootObject_setParentLocked</name></member>
     <member refid="MRSceneRoot_8h_1aae79149740503ee38fe27c58b84bbe60" kind="function"><name>MR_SceneRootObject_isAncestor</name></member>
     <member refid="MRSceneRoot_8h_1a99af61650591c7b71d3d3657a9c77aff" kind="function"><name>MR_SceneRootObject_detachFromParent</name></member>
+    <member refid="MRSceneRoot_8h_1af277d67488fffb9a8b5aff17bf590b1e" kind="function"><name>MR_SceneRootObject_constChildren</name></member>
     <member refid="MRSceneRoot_8h_1a0342f3b5818ae535dd84c3696aa6bcd3" kind="function"><name>MR_SceneRootObject_addChild</name></member>
     <member refid="MRSceneRoot_8h_1a3f44140deb110e9a44224bcf59272375" kind="function"><name>MR_SceneRootObject_addChildBefore</name></member>
     <member refid="MRSceneRoot_8h_1a4d27f848c8f2ccfec346bcac63fbaf97" kind="function"><name>MR_SceneRootObject_removeAllChildren</name></member>
@@ -23180,6 +23234,7 @@
     <member refid="MRSphereObject_8h_1ade24d2e5b95534b9ba90e2ec4f555c7c" kind="function"><name>MR_SphereObject_setParentLocked</name></member>
     <member refid="MRSphereObject_8h_1a7d3d406d52011c9453ed33a9e508285a" kind="function"><name>MR_SphereObject_isAncestor</name></member>
     <member refid="MRSphereObject_8h_1a30596fd2545bdcbb9896af13971f4623" kind="function"><name>MR_SphereObject_detachFromParent</name></member>
+    <member refid="MRSphereObject_8h_1a92315b80c1da0f2681dcedb5889eaa9b" kind="function"><name>MR_SphereObject_constChildren</name></member>
     <member refid="MRSphereObject_8h_1ae906db6ee447dc8055cf1ee902b47a44" kind="function"><name>MR_SphereObject_addChild</name></member>
     <member refid="MRSphereObject_8h_1a0319009cdc2909dc26a1d80a4e91d188" kind="function"><name>MR_SphereObject_addChildBefore</name></member>
     <member refid="MRSphereObject_8h_1a257cf304c2861dd6e66cc0817d561643" kind="function"><name>MR_SphereObject_removeAllChildren</name></member>
@@ -29804,6 +29859,7 @@
     <member refid="MRVisualObject_8h_1a3b080be9039e5c8bbe0c003378f6c512" kind="function"><name>MR_VisualObject_setParentLocked</name></member>
     <member refid="MRVisualObject_8h_1a772b672c09d4dd053c6ade895015c0a2" kind="function"><name>MR_VisualObject_isAncestor</name></member>
     <member refid="MRVisualObject_8h_1a9c6d35447061b5f5d7db88851973b63a" kind="function"><name>MR_VisualObject_detachFromParent</name></member>
+    <member refid="MRVisualObject_8h_1a55a994b2d2f68a86530089203486f67a" kind="function"><name>MR_VisualObject_constChildren</name></member>
     <member refid="MRVisualObject_8h_1abc8f19e81367b9ca382fa636ae4c280d" kind="function"><name>MR_VisualObject_addChild</name></member>
     <member refid="MRVisualObject_8h_1a331c9a2d2c5e525c5e701704ae7a933c" kind="function"><name>MR_VisualObject_addChildBefore</name></member>
     <member refid="MRVisualObject_8h_1ac62c3ebc452a0a3d74b1e99e7d8f12bc" kind="function"><name>MR_VisualObject_removeAllChildren</name></member>
@@ -47779,7 +47835,6 @@
     <member refid="std__vector__std__shared__ptr__MR__Mesh_8h_1ac1f44b9fee232c2471afa2757055b283" kind="function"><name>MR_equal_MR_std_vector_std_shared_ptr_MR_Mesh_iterator</name></member>
   </compound>
   <compound refid="std__vector__std__shared__ptr__MR__Object_8h" kind="file"><name>std_vector_std_shared_ptr_MR_Object.h</name>
-    <member refid="std__vector__std__shared__ptr__MR__Object_8h_1aae3d41307a14e2f069896e2a78279b37" kind="typedef"><name>MR_std_vector_std_shared_ptr_MR_Object_const_iterator</name></member>
     <member refid="std__vector__std__shared__ptr__MR__Object_8h_1ae852d97542b49c88d8e1a20ce193cd70" kind="typedef"><name>MR_std_vector_std_shared_ptr_MR_Object_iterator</name></member>
     <member refid="std__vector__std__shared__ptr__MR__Object_8h_1ae7bace8556e12a9f320f88048a9bfd93" kind="function"><name>MR_std_vector_std_shared_ptr_MR_Object_DefaultConstruct</name></member>
     <member refid="std__vector__std__shared__ptr__MR__Object_8h_1a20a957a92401ff1f36f5604c69c2a7ad" kind="function"><name>MR_std_vector_std_shared_ptr_MR_Object_DefaultConstructArray</name></member>
@@ -50013,6 +50068,7 @@
     <member refid="MRObjectLabel_8h_1a7a3e3aa807dca49bf33c8afcb049f4de" kind="function"><name>MR_ObjectLabel_setParentLocked</name></member>
     <member refid="MRObjectLabel_8h_1ab3796f305779fa3e175ab8d0774d81b6" kind="function"><name>MR_ObjectLabel_isAncestor</name></member>
     <member refid="MRObjectLabel_8h_1a8a94d1835b37f8ebec5e6fa3fe95d5f1" kind="function"><name>MR_ObjectLabel_detachFromParent</name></member>
+    <member refid="MRObjectLabel_8h_1aceb7f3acb075817c8997038736aaf4fb" kind="function"><name>MR_ObjectLabel_constChildren</name></member>
     <member refid="MRObjectLabel_8h_1a7c98c58970eb00d6fbb13bcaa8587197" kind="function"><name>MR_ObjectLabel_addChild</name></member>
     <member refid="MRObjectLabel_8h_1a07aea1e53c052169ee326ab49a9a9ada" kind="function"><name>MR_ObjectLabel_addChildBefore</name></member>
     <member refid="MRObjectLabel_8h_1afedb3a6ab7381125d24d6742b21a49d2" kind="function"><name>MR_ObjectLabel_removeAllChildren</name></member>

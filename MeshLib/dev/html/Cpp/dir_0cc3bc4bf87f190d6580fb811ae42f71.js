@@ -73,6 +73,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRConeObject.h", "MRConeObject_8h.html", null ],
     [ "MRConfig.h", "MRConfig_8h.html", null ],
     [ "MRConstants.h", "MRConstants_8h.html", null ],
+    [ "MRConstChildren.h", "MRConstChildren_8h.html", null ],
     [ "MRContour.h", "MRContour_8h.html", "MRContour_8h" ],
     [ "MRContoursCut.h", "MRContoursCut_8h.html", "MRContoursCut_8h" ],
     [ "MRContoursSeparation.h", "MRContoursSeparation_8h.html", "MRContoursSeparation_8h" ],

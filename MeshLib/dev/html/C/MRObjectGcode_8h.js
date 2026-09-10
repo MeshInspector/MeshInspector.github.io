@@ -15,6 +15,7 @@ var MRObjectGcode_8h =
     [ "MR_ObjectGcode_classNameInPlural", "MRObjectGcode_8h.html#ad206310778cd9c78857ccb711bcf0c1b", null ],
     [ "MR_ObjectGcode_clone", "MRObjectGcode_8h.html#a7cc17ced56653081d67111d29e7a6f2a", null ],
     [ "MR_ObjectGcode_cloneTree", "MRObjectGcode_8h.html#a7802d1cd20575d05c37ee1a63841d9c4", null ],
+    [ "MR_ObjectGcode_constChildren", "MRObjectGcode_8h.html#a50f043488c04dbc6cebdf436d0e37f0e", null ],
     [ "MR_ObjectGcode_ConstructFromAnother", "MRObjectGcode_8h.html#a6c1d768320003251910e4847510dc866", null ],
     [ "MR_ObjectGcode_copyAllSolidColors", "MRObjectGcode_8h.html#a33489dfe6b7c2897adb8304dfb0b8c4d", null ],
     [ "MR_ObjectGcode_copyColors", "MRObjectGcode_8h.html#a58500961e001638db09f18f5a150d59a", null ],

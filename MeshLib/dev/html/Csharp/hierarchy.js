@@ -645,6 +645,12 @@ var hierarchy =
       [ "MR.Const_ConeObject", "classMR_1_1Const__ConeObject.html", [
         [ "MR.ConeObject", "classMR_1_1ConeObject.html", null ]
       ] ],
+      [ "MR.Const_ConstChildren", "classMR_1_1Const__ConstChildren.html", [
+        [ "MR.ConstChildren", "classMR_1_1ConstChildren.html", null ]
+      ] ],
+      [ "MR.Const_ConstChildren.Const_Iterator", "classMR_1_1Const__ConstChildren_1_1Const__Iterator.html", [
+        [ "MR.Const_ConstChildren.Iterator", "classMR_1_1Const__ConstChildren_1_1Iterator.html", null ]
+      ] ],
       [ "MR.Const_ConstantCuspParams", "classMR_1_1Const__ConstantCuspParams.html", [
         [ "MR.ConstantCuspParams", "classMR_1_1ConstantCuspParams.html", null ]
       ] ],
@@ -3081,6 +3087,7 @@ var hierarchy =
       [ "MR.Const_Buffer_MRVoxelId_MRVoxelId", "classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId.html", null ],
       [ "MR.Const_Buffer_Uint64T", "classMR_1_1Const__Buffer__Uint64T.html", null ],
       [ "MR.Const_Buffer_UnsignedChar", "classMR_1_1Const__Buffer__UnsignedChar.html", null ],
+      [ "MR.Const_ConstChildren", "classMR_1_1Const__ConstChildren.html", null ],
       [ "MR.Const_Dipoles", "classMR_1_1Const__Dipoles.html", null ],
       [ "MR.Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html", null ],
       [ "MR.Const_EdgeColors", "classMR_1_1Const__EdgeColors.html", null ],
@@ -3344,6 +3351,7 @@ var hierarchy =
       [ "MR.Const_BitSet", "classMR_1_1Const__BitSet.html", null ],
       [ "MR.Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html", null ],
       [ "MR.Const_ChunkIterator", "classMR_1_1Const__ChunkIterator.html", null ],
+      [ "MR.Const_ConstChildren.Const_Iterator", "classMR_1_1Const__ConstChildren_1_1Const__Iterator.html", null ],
       [ "MR.Const_EdgeColors", "classMR_1_1Const__EdgeColors.html", null ],
       [ "MR.Const_EdgeMap", "classMR_1_1Const__EdgeMap.html", null ],
       [ "MR.Const_EdgePoint", "classMR_1_1Const__EdgePoint.html", null ],
@@ -3759,6 +3767,8 @@ var hierarchy =
       [ "MR.Const_Cone3d", "classMR_1_1Const__Cone3d.html", null ],
       [ "MR.Const_Cone3f", "classMR_1_1Const__Cone3f.html", null ],
       [ "MR.Const_ConeObject", "classMR_1_1Const__ConeObject.html", null ],
+      [ "MR.Const_ConstChildren", "classMR_1_1Const__ConstChildren.html", null ],
+      [ "MR.Const_ConstChildren.Const_Iterator", "classMR_1_1Const__ConstChildren_1_1Const__Iterator.html", null ],
       [ "MR.Const_ConstantCuspParams", "classMR_1_1Const__ConstantCuspParams.html", null ],
       [ "MR.Const_ContourToDistanceMapParams", "classMR_1_1Const__ContourToDistanceMapParams.html", null ],
       [ "MR.Const_ContoursDistanceMapOffset", "classMR_1_1Const__ContoursDistanceMapOffset.html", null ],

@@ -7,6 +7,7 @@ var classMR_1_1Const__ObjectLabel =
     [ "classNameInPlural", "classMR_1_1Const__ObjectLabel.html#ade4c817dc574fe34816735544ec1d085", null ],
     [ "clone", "classMR_1_1Const__ObjectLabel.html#ac1e1446af775d8f0b06e6c3e3a867c08", null ],
     [ "cloneTree", "classMR_1_1Const__ObjectLabel.html#a5a157e2237f269d602727a15438d4923", null ],
+    [ "constChildren", "classMR_1_1Const__ObjectLabel.html#aefede3e9574d2e28cfb7f629c4ade2d8", null ],
     [ "Dispose", "classMR_1_1Const__ObjectLabel.html#a4c1c58c108bb696167f725d64407cca7", null ],
     [ "Dispose", "classMR_1_1Const__ObjectLabel.html#af4f2e9c2828be259b476ec0ad08d3c52", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__ObjectLabel.html#ac1919800b56b6d6d1e89b079df9c5149", null ],

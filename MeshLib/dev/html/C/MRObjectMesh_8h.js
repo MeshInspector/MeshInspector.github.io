@@ -18,6 +18,7 @@ var MRObjectMesh_8h =
     [ "MR_ObjectMesh_clearAncillaryTexture", "MRObjectMesh_8h.html#a4d92141a5c4cda5bd7def6bc44371c95", null ],
     [ "MR_ObjectMesh_clone", "MRObjectMesh_8h.html#a5dce43f5943d4c7940005a8f5cf26d1d", null ],
     [ "MR_ObjectMesh_cloneTree", "MRObjectMesh_8h.html#ad4c3510f9e0badf01e9026bc921367a5", null ],
+    [ "MR_ObjectMesh_constChildren", "MRObjectMesh_8h.html#afd1d9fa7868bad1e7211e1a81b88ff68", null ],
     [ "MR_ObjectMesh_ConstructFromAnother", "MRObjectMesh_8h.html#a1e27f014188ce396021431fc345445eb", null ],
     [ "MR_ObjectMesh_copyAllSolidColors", "MRObjectMesh_8h.html#a5aa81c17b91cdd4484587ff5175c0b9c", null ],
     [ "MR_ObjectMesh_copyColors", "MRObjectMesh_8h.html#a7faf0c7d48a68640364d87aedd162219", null ],

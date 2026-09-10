@@ -17,6 +17,7 @@ var MRObjectDistanceMap_8h =
     [ "MR_ObjectDistanceMap_clearAncillaryTexture", "MRObjectDistanceMap_8h.html#a0b91311bce0351f33848d7b11a501ca9", null ],
     [ "MR_ObjectDistanceMap_clone", "MRObjectDistanceMap_8h.html#a528465c59e12c7d382041614781b0f5f", null ],
     [ "MR_ObjectDistanceMap_cloneTree", "MRObjectDistanceMap_8h.html#a071e6207a21d54e28af3f944fd4101b3", null ],
+    [ "MR_ObjectDistanceMap_constChildren", "MRObjectDistanceMap_8h.html#aebee817ebc02a6f25d505f63695f057a", null ],
     [ "MR_ObjectDistanceMap_ConstructFromAnother", "MRObjectDistanceMap_8h.html#ab413ce6675e4130f599b98fdb64866c7", null ],
     [ "MR_ObjectDistanceMap_copyAllSolidColors", "MRObjectDistanceMap_8h.html#a98936694fb528ba500151b618219cb00", null ],
     [ "MR_ObjectDistanceMap_copyColors", "MRObjectDistanceMap_8h.html#a5ae7ffca462dc0eb753c0c4f29798156", null ],
