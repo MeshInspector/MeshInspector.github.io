@@ -192,8 +192,8 @@ Points</h3>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md153"></a>
 Topology</h3>
 <p>Topology in Meshlib is represented as "Half-Edge structure" which means that core primitives are "Half-Edges". <br  />
-"Half-Edges" are called "Half" because a pair of half edges represent one "Oriented Edge" (one for origin vertex and left face, and the other for destination vertex and right face) <br  />
-<span class="tt">MeshTopology</span> consists of 3 major parts:</p><ul>
+ "Half-Edges" are called "Half" because a pair of half edges represent one "Oriented Edge" (one for origin vertex and left face, and the other for destination vertex and right face) <br  />
+ <span class="tt">MeshTopology</span> consists of 3 major parts:</p><ul>
 <li>"Half-Edge" records (4 attributes for each "Half-Edge")</li>
 <li>Face to Edge map (for each <span class="tt">FaceId</span> stores one <span class="tt">EdgeId</span> with this <span class="tt">FaceId</span> to the left)</li>
 <li>Vert to Edge map (for each <span class="tt">VertId</span> stores one <span class="tt">EdgeId</span> with this <span class="tt">VertId</span> origin)</li>
@@ -209,7 +209,7 @@ Topology</h3>
 <div class="image">
 <img src="Half-Edge.png" alt=""/>
 </div>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md154"></a>
+    <h2 class="doxsection"><a class="anchor" id="autotoc_md154"></a>
 Mesh Navigation</h2>
 <p><span class="tt">EdgeId e = ...</span> is unique identifier of an oriented edge in mesh ("Half-Edge").</p>
 <p><span class="tt">e.sym()</span> - the same edge with opposite orientation ("The Other Half").</p>
@@ -222,10 +222,10 @@ Mesh Navigation</h2>
 <div class="image">
 <img src="navigation_base.png" alt=""/>
 </div>
-<div class="image">
+    <div class="image">
 <img src="navigation_hole.png" alt=""/>
 </div>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md155"></a>
+    <h3 class="doxsection"><a class="anchor" id="autotoc_md155"></a>
 Iterating over valid vertices</h3>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> ( VertId v : mesh.topology.getValidVerts() )</div>
 <div class="line">{</div>
@@ -256,7 +256,7 @@ More</h2>
 <div class="image">
 <img src="Quad-Edge.png" alt=""/>
 </div>
-<table class="markdownTable">
+    <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Quad-Edge paper  </th><th class="markdownTableHeadNone">MeshLib  </th></tr>
 <tr class="markdownTableRowOdd">

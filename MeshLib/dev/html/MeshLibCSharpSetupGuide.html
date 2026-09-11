@@ -233,7 +233,7 @@ Supported platforms</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">macOS  </td><td class="markdownTableBodyNone">x64 (Intel)  </td><td class="markdownTableBodyNone">macOS 15  </td></tr>
 </table>
-<dl class="section note"><dt>Note</dt><dd>On Windows on Arm, .NET 5 and newer resolve <span class="tt">win-arm64</span> by themselves. A <b></b>.NET <b>Framework</b> project instead gets the runtime named by its <span class="tt">PlatformTarget</span>, so set <span class="tt">&lt;PlatformTarget&gt;ARM64&lt;/PlatformTarget&gt;</span> to run natively; any other value gives it the <span class="tt">win-x64</span> libraries and the x64 emulation. Native Arm64 .NET Framework requires 4.8.1, i.e. Windows 11.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>On Windows on Arm, .NET 5 and newer resolve <span class="tt">win-arm64</span> by themselves. A <b>.NET Framework</b> project instead gets the runtime named by its <span class="tt">PlatformTarget</span>, so set <span class="tt">&lt;PlatformTarget&gt;ARM64&lt;/PlatformTarget&gt;</span> to run natively; any other value gives it the <span class="tt">win-x64</span> libraries and the x64 emulation. Native Arm64 .NET Framework requires 4.8.1, i.e. Windows 11.</dd></dl>
 <p>On <b>Linux</b> no extra system packages are required: beyond the C and C++ runtimes the libraries need only <span class="tt">libexpat1</span> and <span class="tt">zlib1g</span>, which a standard desktop or server install already provides. Every other dependency is bundled in the package.</p>
 <p>On <b>macOS</b> the floor differs by architecture: part of the file-format libraries in the x64 runtime are built against a newer SDK, so on an Intel Mac running macOS 14 the core API loads but the extra formats (E57, LAZ, CTM) fail.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md49"></a>
@@ -430,8 +430,8 @@ Troubleshooting</h2>
 <p>The C# assembly is a thin managed wrapper over MeshLib's native libraries, so setup problems typically surface not when the package is installed or the project is built, but as one of the following exceptions on the first call into MeshLib.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md56"></a>
 DllNotFoundException</h3>
-<div class="fragment"><div class="line">System.DllNotFoundException: Unable to load DLL <span class="stringliteral">&#39;MeshLibC2&#39;</span> or one of its dependencies: The specified module could not be found.</div>
-</div><!-- fragment --><p> (on Linux and macOS: &lsquo;Unable to load shared library 'MeshLibC2&rsquo; or one of its dependencies`)</p>
+<div class="fragment"><div class="line">System.DllNotFoundException: Unable to load DLL &#39;MeshLibC2&#39; or one of its dependencies: The specified module could not be found.</div>
+</div><!-- fragment --><p> (on Linux and macOS: <span class="tt">Unable to load shared library 'MeshLibC2' or one of its dependencies</span>)</p>
 <p>The native libraries were not found at run time:</p><ul>
 <li>Check that your platform is <a class="el" href="#MeshLibCSharpPlatforms">supported</a>.</li>
 <li>Check that the native libraries reached your build output: on .NET they are placed under <span class="tt">runtimes/&lt;rid&gt;/native/</span> in the output directory (see <a class="el" href="#MeshLibCSharpPackageSize">Package Size and Native Runtimes</a>), on .NET Framework next to the executable (<span class="tt">MeshLibC2.dll</span> and its dependencies on Windows).</li>

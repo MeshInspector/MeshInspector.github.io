@@ -244,7 +244,7 @@ A Complete Minimal Example</h3>
 </div><!-- fragment --><p>For the <span class="tt">main.c</span>, take one of the <a class="el" href="Examples.html">C code samples</a>; <a class="el" href="ExampleMeshLoadSave.html">Load and Save Meshes</a> is the shortest.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
 Linking Additional Third-Party Libraries</h3>
-<p>Only if <b>your</b> <b>own</b> code links a third-party library bundled with MeshLib (rather than just using MeshLib's API), add the directory those libraries live in:</p>
+<p>Only if <b>your own</b> code links a third-party library bundled with MeshLib (rather than just using MeshLib's API), add the directory those libraries live in:</p>
 <div class="fragment"><div class="line">target_link_directories(your_project_name PUBLIC ${MESHLIB_THIRDPARTY_LIB_DIR})</div>
 </div><!-- fragment --><p>The <span class="tt">MeshLib::*</span> imported targets already carry the paths of the third-party libraries <b>they</b> need, so this line is not required by the example above. See the <span class="tt">CMakeLists.txt</span> in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> for a working configuration.</p>
 <h2 class="doxsection"><a class="anchor" id="CmakeWindowsIntegration"></a>
