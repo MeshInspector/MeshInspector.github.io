@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"group__TriangleIntersectionGroup.html#gabd389cf6a5e3a2723def05e2d19fac73":[9,0,0,0,10,7],
+"group__TriangleIntersectionGroup.html#gacaf1c69550575145e170779a5d620b42":[9,0,0,0,10,3],
 "group__TriangleIntersectionGroup.html#gad2f32d1f571dde6434e36df0a4357290":[9,0,0,0,10,5],
 "group__TriangleIntersectionGroup.html#gae2d884d3111355ff558c2b7f34c314d0":[9,0,0,0,10,6],
 "group__TriangleIntersectionGroup.html#gaeed5ed30fa651d9e8908b1c86b1a77b9":[9,0,0,0,10,10],
@@ -221,16 +223,16 @@ var NAVTREEINDEX58 =
 "namespaceMR.html#a03d4bc2fa6d66cfcaa8ed9d0b124e863":[9,0,1,0,1,1034],
 "namespaceMR.html#a0df0f857bd84e84b19954332c9dcfae5":[9,0,1,0,1,1037],
 "namespaceMR.html#a180687f93fbe5cc6216008e26099f5f8":[9,0,1,0,1,1035],
-"namespaceMR.html#a4c95ee49f1806c7573241fe7617401c9":[9,0,1,0,1,2417],
-"namespaceMR.html#a90e7a361537bcd60aa55bcec6cc4ffb1":[9,0,1,0,1,2312],
+"namespaceMR.html#a4c95ee49f1806c7573241fe7617401c9":[9,0,1,0,1,2418],
+"namespaceMR.html#a90e7a361537bcd60aa55bcec6cc4ffb1":[9,0,1,0,1,2313],
 "namespaceMR.html#a9381161a7388eeabb33982f4df1cf1c3":[9,0,1,0,1,1038],
 "namespaceMR.html#a93836181db6f59783ce1351a98d59cb8":[9,0,1,0,1,1036],
 "namespaceMR.html#a93bff7f59121c9c61175744b11326824":[9,0,1,0,1,986],
 "namespaceMR.html#a94d7093d57cb27ac9abdfb241ddb6bc0":[9,0,1,0,1,1039],
-"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2416],
-"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3094],
-"namespaceMR.html#adc6c309b18d3d1c442591ea06f9cb26c":[9,0,1,0,1,2304],
-"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2415],
+"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2417],
+"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3096],
+"namespaceMR.html#adc6c309b18d3d1c442591ea06f9cb26c":[9,0,1,0,1,2305],
+"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2416],
 "namespaceMR_1_1AsyncObjectLoad.html":[9,0,1,0,1,0],
 "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[9,0,1,0,1,0,1],
 "namespaceMR_1_1AsyncObjectLoad.html#a5be8803f8be8c57d2ec98589759c0507":[9,0,1,0,1,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "namespaceMR_1_1BitSetParallel.html#ac886c0876beae880356ab560e584b63e":[9,0,1,0,1,1,2],
 "namespaceMR_1_1Cuda.html":[9,0,0,20,0],
 "namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579":[9,0,1,0,1,2,19],
-"namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86":[9,0,1,0,1,2,18],
-"namespaceMR_1_1Cuda.html#a57e91a18687a893997356f499e9a7e94":[9,0,1,0,1,2,13],
-"namespaceMR_1_1Cuda.html#a770259831b49f60068c30df5121056c9":[9,0,1,0,1,2,32]
+"namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86":[9,0,1,0,1,2,18]
 };

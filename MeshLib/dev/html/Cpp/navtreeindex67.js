@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1PickPointManager_1_1Params.html":[9,0,0,20,635],
+"structMR_1_1PickPointManager_1_1WidgetHistoryAction.html":[9,0,0,20,636],
 "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[9,0,0,20,104],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html":[9,0,0,20,102],
 "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html":[9,0,0,20,103],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1SaveSettings.html":[9,0,0,20,491],
 "structMR_1_1SceneColors.html":[9,0,0,18,2],
 "structMR_1_1SceneColors.html":[9,0,0,20,493],
-"structMR_1_1SceneLoad_1_1Result.html":[9,0,1,0,1,43,0],
-"structMR_1_1SceneLoad_1_1Result.html":[9,0,2,0,2,28,0],
-"structMR_1_1SceneLoad_1_1Result.html#a0dcfb794202c73cf1889f44eaed89d0d":[9,0,1,0,1,43,0,1]
+"structMR_1_1SceneLoad_1_1Result.html":[9,0,1,0,1,43,0]
 };

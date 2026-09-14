@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1Mesh.html#af6a988ce4d0f323cbbccd414f50e899a":[9,0,0,7,1,54],
+"structMR_1_1Mesh.html#af8c6a8e572a6252362c3616d2973c5f7":[9,0,0,7,1,108],
 "structMR_1_1Mesh.html#afd3563494ce9b9a0cf5a7e4346606961":[9,0,0,7,1,28],
 "structMR_1_1Mesh.html#aff330955f978300560fd33b43cd77cdd":[9,0,0,7,1,80],
 "structMR_1_1MeshApproxRelaxParams.html":[9,0,0,9,6,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1Pdf_1_1PaletteRowStats.html":[9,0,0,20,96],
 "structMR_1_1Pdf_1_1TextCellParams.html":[9,0,0,20,101],
 "structMR_1_1Pdf_1_1TextParams.html":[9,0,0,20,95],
-"structMR_1_1PickPointManager_1_1ObjectState.html":[9,0,0,20,637],
-"structMR_1_1PickPointManager_1_1Params.html":[9,0,0,20,635],
-"structMR_1_1PickPointManager_1_1WidgetHistoryAction.html":[9,0,0,20,636]
+"structMR_1_1PickPointManager_1_1ObjectState.html":[9,0,0,20,637]
 };
