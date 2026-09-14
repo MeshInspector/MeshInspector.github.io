@@ -15,6 +15,7 @@ EXCLUDE                = ../MeshLib/doxygen/APICppPage.dox \
                          ../MeshLib/examples/typescript/README.md \
                          ../MeshLib/examples/threejs/README.md \
                          ../MeshLib/examples/aws-lambda/readme.md
+STRIP_FROM_PATH        = ../MeshLib
 EXAMPLE_PATH           = ../MeshLib/examples \
                          ../MeshLib/doxygen/common_files
 EXAMPLE_RECURSIVE      = YES
