@@ -171,90 +171,50 @@ $(function(){initNavTree('BasicMathTypesOverview.html','',''); });
   </li>
 </ul>
 </div>
-<div class="textblock"><p><a class="anchor" id="md_doxygen_2general__pages_2BasicMathTypesOverview"></a></p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
 Vectors, matrices, and transformations</h1>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md9"></a>
 Vectors and matrices</h2>
 <p>MeshLib has its own types for representing small vectors and matrices (of dimensions 2, 3, 4):</p>
-<ul>
-<li><p class="startli">The vector types are: <span class="tt">MR::Vector2f</span>, <span class="tt">MR::Vector3f</span>, <span class="tt">MR::Vector4f</span>, defined in <span class="tt">&lt;MRMesh/MRVector[2|3|4].h&gt;</span> respectively.</p>
-<p class="startli"><span class="tt">f</span> in <code>MR::Vector[2|3|4]<b>f</b></code> stands for <code><b>f</b>loat</code>. Use <span class="tt">…d</span> for <span class="tt">double</span>, <span class="tt">…i</span> for <span class="tt">int</span>, or pass an arbitrary type to the <span class="tt">MR::Vector[2|3|4]&lt;T&gt;</span> templates.</p>
-</li>
-<li><p class="startli">Similarly, the matrices are: <span class="tt">MR::Matrix2f</span>, <span class="tt">MR::Matrix3f</span>, <span class="tt">MR::Matrix4f</span>, defined in <span class="tt">&lt;MRMesh/MRMatrix[2|3|4].h&gt;</span> respectively.</p>
-<p class="startli">They support the same type suffixes, and are similarly templated.</p>
-<p class="startli">The matrices are <b>row-major</b>, meaning each row is contiguous, and <span class="tt">matrix[i]</span> refers to the <span class="tt">i</span>th row.</p>
-</li>
-</ul>
+<p>The vector types are: <span class="tt">MR::Vector2f</span>, <span class="tt">MR::Vector3f</span>, <span class="tt">MR::Vector4f</span>, defined in <span class="tt">&lt;MRMesh/MRVector[2|3|4].h&gt;</span> respectively.</p>
+<p><span class="tt">f</span> in <code>MR::Vector[2|3|4]<b>f</b></code> stands for <code><b>f</b>loat</code>. Use <span class="tt">…d</span> for <span class="tt">double</span>, <span class="tt">…i</span> for <span class="tt">int</span>, or pass an arbitrary type to the <span class="tt">MR::Vector[2|3|4]&lt;T&gt;</span> templates.</p>
+<p>Similarly, the matrices are: <span class="tt">MR::Matrix2f</span>, <span class="tt">MR::Matrix3f</span>, <span class="tt">MR::Matrix4f</span>, defined in <span class="tt">&lt;MRMesh/MRMatrix[2|3|4].h&gt;</span> respectively.</p>
+<p>They support the same type suffixes, and are similarly templated.</p>
+<p>The matrices are <b>row-major</b>, meaning each row is contiguous, and <span class="tt">matrix[i]</span> refers to the <span class="tt">i</span>th row.</p>
 <p>Vectors and matrices overload the common operators, including <span class="tt">+</span> for vectors, and <span class="tt">*</span> for matrix-matrix and matrix-vector multiplication.</p>
 <p>We use the "matrix · vector" convention (OpenGL-style), rather than "vector · matrix" (DirectX-style). The <span class="tt">*</span> operator isn't overloaded for the latter case at all.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
 Vectors</h3>
 <p>Construction:</p>
-<ul>
-<li><span class="tt">MR::Vector3f()</span> zeroes the vector.</li>
-<li><span class="tt">MR::Vector3f(x, y, z)</span> — elementwise.</li>
-</ul>
+<p><span class="tt">MR::Vector3f()</span> zeroes the vector. <span class="tt">MR::Vector3f(x, y, z)</span> — elementwise.</p>
 <p>Element access is <span class="tt">vec[i]</span> or <span class="tt">vec.x</span>, <span class="tt">vec.y</span>, <span class="tt">vec.z</span>, <span class="tt">vec.w</span>.</p>
 <p>Overloaded operators:</p>
-<ul>
-<li><span class="tt">+</span>, <span class="tt">-</span> add and subtract two vectors elementwise. Unary versions are also provided.</li>
-<li><span class="tt">*</span> and <span class="tt">/</span> can only be applied to a vector and a scalar. To multiply or divide two vectors elementwise use <span class="tt">MR::mult(v1, v2)</span> and <span class="tt">MR::div(v1, v2)</span>.</li>
-</ul>
+<p><span class="tt">+</span>, <span class="tt">-</span> add and subtract two vectors elementwise. Unary versions are also provided.</p>
+<p><span class="tt">*</span> and <span class="tt">/</span> can only be applied to a vector and a scalar. To multiply or divide two vectors elementwise use <span class="tt">MR::mult(v1, v2)</span> and <span class="tt">MR::div(v1, v2)</span>.</p>
 <p>Various vector products:</p>
-<ul>
-<li><span class="tt">MR::dot(v1, v2)</span></li>
-<li><span class="tt">MR::cross(v1, v2)</span> — for 2D vectors this returns a single number, the Z component of <span class="tt">(x1,y1,0)✕(x2,y2,0)</span>.</li>
-<li><span class="tt">MR::outer(v1, v2)</span></li>
-<li><span class="tt">MR::mixed(v1, v2, v3)</span></li>
-</ul>
+<p><span class="tt">MR::dot(v1, v2)</span> <span class="tt">MR::cross(v1, v2)</span> — for 2D vectors this returns a single number, the Z component of <span class="tt">(x1,y1,0)✕(x2,y2,0)</span>. <span class="tt">MR::outer(v1, v2)</span> <span class="tt">MR::mixed(v1, v2, v3)</span></p>
 <p>Some other operations:</p>
-<ul>
-<li><span class="tt">v1.length()</span>, <span class="tt">v1.lengthSq()</span> — normal and squared length.</li>
-<li><span class="tt">MR::distance(v1, v2)</span>, <span class="tt">MR::distanceSq(v1, v2)</span> — normal and squared distance.</li>
-<li><span class="tt">v1.normalized()</span> — returns the vector scaled to length 1 (does nothing if the length was 0).</li>
-<li><span class="tt">v1.perpendicular()</span> — returns one orthogonal vector in 2D, or a pair of two orthogonal vectors in 3D.</li>
-<li><span class="tt">MR::angle(v1, v2)</span> — the angle between two vectors, in range <span class="tt">[0;𝜋)</span> (this angle is between directed vectors, not lines).</li>
-</ul>
+<p><span class="tt">v1.length()</span>, <span class="tt">v1.lengthSq()</span> — normal and squared length. <span class="tt">MR::distance(v1, v2)</span>, <span class="tt">MR::distanceSq(v1, v2)</span> — normal and squared distance. <span class="tt">v1.normalized()</span> — returns the vector scaled to length 1 (does nothing if the length was 0). <span class="tt">v1.perpendicular()</span> — returns one orthogonal vector in 2D, or a pair of two orthogonal vectors in 3D. <span class="tt">MR::angle(v1, v2)</span> — the angle between two vectors, in range <span class="tt">[0;𝜋)</span> (this angle is between directed vectors, not lines).</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md11"></a>
 Matrices</h3>
 <p>Construction:</p>
-<ul>
-<li><span class="tt">MR::Matrix3f()</span> constructs an identity matrix by default, or you can be explicit with <span class="tt">MR::Matrix3f::identity()</span>.</li>
-<li><span class="tt">MR::Matrix3f(v1, v2, v3)</span> constructs the matrix from <b>row</b> vectors, same as <span class="tt">MR::Matrix3f::fromRows(v1, v2, v3)</span>. Use <span class="tt">MR::Matrix3f::fromColumns(v1, v2, v3)</span> to construct from columns.</li>
-</ul>
+<p><span class="tt">MR::Matrix3f()</span> constructs an identity matrix by default, or you can be explicit with <span class="tt">MR::Matrix3f::identity()</span>.</p>
+<p><span class="tt">MR::Matrix3f(v1, v2, v3)</span> constructs the matrix from <b>row</b> vectors, same as <span class="tt">MR::Matrix3f::fromRows(v1, v2, v3)</span>. Use <span class="tt">MR::Matrix3f::fromColumns(v1, v2, v3)</span> to construct from columns.</p>
 <p>Element access:</p>
-<ul>
-<li><span class="tt">mat[i]</span> and <span class="tt">mat.x</span>, <span class="tt">mat.y</span>, <span class="tt">mat.z</span>, <span class="tt">mat.w</span> return the row vectors.</li>
-<li><span class="tt">mat.col(i)</span> returns column vectors (read-only).</li>
-</ul>
+<p><span class="tt">mat[i]</span> and <span class="tt">mat.x</span>, <span class="tt">mat.y</span>, <span class="tt">mat.z</span>, <span class="tt">mat.w</span> return the row vectors.</p>
+<p><span class="tt">mat.col(i)</span> returns column vectors (read-only).</p>
 <p>Overloaded operators:</p>
-<ul>
-<li><span class="tt">*</span> — matrices can be multiplied by each other and by vectors.</li>
-<li><span class="tt">+</span>, <span class="tt">-</span> — elementwise between two matrices.</li>
-<li><span class="tt">*</span>, <span class="tt">/</span> — scale the matrix by a scalar.</li>
-</ul>
+<p><span class="tt">*</span> — matrices can be multiplied by each other and by vectors.</p>
+<p><span class="tt">+</span>, <span class="tt">-</span> — elementwise between two matrices.</p>
+<p><span class="tt">*</span>, <span class="tt">/</span> — scale the matrix by a scalar.</p>
 <p>Some basic operations:</p>
-<ul>
-<li><span class="tt">m1.inverse()</span> — returns an inverted copy, doesn't modify the source matrix.</li>
-<li><span class="tt">m1.transposed()</span> — similarly returns a transposed copy, doesn't modify the source matrix.</li>
-<li><span class="tt">m1.det()</span> — determinant.</li>
-<li><span class="tt">m1.trace()</span></li>
-<li><span class="tt">m1.norm()</span>, <span class="tt">m1.normSq()</span> — the norm, regular and squared.</li>
-</ul>
+<p><span class="tt">m1.inverse()</span> — returns an inverted copy, doesn't modify the source matrix. <span class="tt">m1.transposed()</span> — similarly returns a transposed copy, doesn't modify the source matrix. <span class="tt">m1.det()</span> — determinant. <span class="tt">m1.trace()</span> <span class="tt">m1.norm()</span>, <span class="tt">m1.normSq()</span> — the norm, regular and squared.</p>
 <p>Predefined matrices:</p>
-<ul>
-<li><span class="tt">MR::Matrix3f::identity()</span></li>
-<li><span class="tt">MR::Matrix3f::scale(s)</span> — scale, either uniform or not (if <span class="tt">s</span> is scalar and vector respectively).</li>
-<li><p class="startli"><span class="tt">MR::Matrix3f::rotation(axis, angle)</span> — rotation around an axis (the axis doesn't need to be normalized, the angle is in radians).</p>
-<p class="startli"><span class="tt">MR::Matrix3f::rotation(dir1, dir2)</span> — shortest rotation from one direction to another (neither needs to be normalized).</p>
-</li>
-</ul>
+<p><span class="tt">MR::Matrix3f::identity()</span> <span class="tt">MR::Matrix3f::scale(s)</span> — scale, either uniform or not (if <span class="tt">s</span> is scalar and vector respectively). <span class="tt">MR::Matrix3f::rotation(axis, angle)</span> — rotation around an axis (the axis doesn't need to be normalized, the angle is in radians).</p>
+<p><span class="tt">MR::Matrix3f::rotation(dir1, dir2)</span> — shortest rotation from one direction to another (neither needs to be normalized).</p>
 <p>Interpolation:</p>
-<ul>
-<li><span class="tt">MR::slerp(m1, m2, t)</span> — quaternion-based <a href="https://en.wikipedia.org/wiki/Slerp">Slerp</a> interpolation between two matrices. (<span class="tt">t == 0</span> produces <span class="tt">m1</span>, <span class="tt">t == 1</span> produces <span class="tt">m2</span>.)<br  />
- This function is defined in <span class="tt">&lt;MRMesh/MRQuaternion.h&gt;</span>.</li>
-</ul>
+<p><span class="tt">MR::slerp(m1, m2, t)</span> — quaternion-based <a href="https://en.wikipedia.org/wiki/Slerp">Slerp</a> interpolation between two matrices. (<span class="tt">t == 0</span> produces <span class="tt">m1</span>, <span class="tt">t == 1</span> produces <span class="tt">m2</span>.)<br  />
+ This function is defined in <span class="tt">&lt;MRMesh/MRQuaternion.h&gt;</span>.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
 Affine transformations</h2>
 <p>Most transformations in MeshLib are represented using a matrix-vector pair — <span class="tt">MR::AffineXf3f</span>, defined in <span class="tt">&lt;MRMesh/MRAffineXf.h&gt;</span>.</p>
@@ -268,36 +228,21 @@ Affine transformations</h2>
  "F" in this case is short for "-form". </p>
 </blockquote>
 <p>Construction:</p>
-<ul>
-<li><span class="tt">MR::AffineXf3f()</span> is identity transformation (an identity matrix and a zero vector).</li>
-<li><span class="tt">MR::AffineXf3f::linear(mat)</span> constructs from a matrix only and zeroes the vector.</li>
-<li><span class="tt">MR::AffineXf3f::translation(vec)</span> constructs from a vector only and uses an identity matrix.</li>
-<li><span class="tt">MR::AffineXf3f::xfAround(mat, point)</span> sets the matrix as is, and sets the vector so that the <span class="tt">point</span> doesn't change when transformed by the resulting XF.</li>
-</ul>
+<p><span class="tt">MR::AffineXf3f()</span> is identity transformation (an identity matrix and a zero vector).</p>
+<p><span class="tt">MR::AffineXf3f::linear(mat)</span> constructs from a matrix only and zeroes the vector. <span class="tt">MR::AffineXf3f::translation(vec)</span> constructs from a vector only and uses an identity matrix. <span class="tt">MR::AffineXf3f::xfAround(mat, point)</span> sets the matrix as is, and sets the vector so that the <span class="tt">point</span> doesn't change when transformed by the resulting XF.</p>
 <p>Element access:</p>
-<ul>
-<li><span class="tt">xf.A</span> is the matrix (rotation, scale and shear).</li>
-<li><span class="tt">xf.b</span> is the vector (translation).</li>
-</ul>
+<p><span class="tt">xf.A</span> is the matrix (rotation, scale and shear). <span class="tt">xf.b</span> is the vector (translation).</p>
 <p>Combining and applying transformations:</p>
-<ul>
-<li><p class="startli"><span class="tt">xf1 * xf2</span> combines two transformations, like matrix multiplication.</p>
-<p class="startli">Note that we're using "matrix · vector" convention (OpenGL-style), rather than "vector · matrix" (DirectX-style). This means that adding <span class="tt">... * xf</span> on the right acts in local space, while adding <span class="tt">xf * ...</span> on the left acts in world space.</p>
-</li>
-<li><span class="tt">xf1( v1 )</span> applies the transformation to a vector, like multiplying a matrix by a vector. Same as <span class="tt">xf1.A * v1 + xf1.b</span>.</li>
-</ul>
+<p><span class="tt">xf1 * xf2</span> combines two transformations, like matrix multiplication.</p>
+<p>Note that we're using "matrix · vector" convention (OpenGL-style), rather than "vector · matrix" (DirectX-style). This means that adding <span class="tt">... * xf</span> on the right acts in local space, while adding <span class="tt">xf * ...</span> on the left acts in world space.</p>
+<p><span class="tt">xf1( v1 )</span> applies the transformation to a vector, like multiplying a matrix by a vector. Same as <span class="tt">xf1.A * v1 + xf1.b</span>.</p>
 <p>Some common operations:</p>
-<ul>
-<li><span class="tt">xf1.inverse()</span> inverts the transformation, like inverting a matrix.</li>
-<li><span class="tt">MR::slerp(xf1, xf2, t)</span> is a quaternion-based <a href="https://en.wikipedia.org/wiki/Slerp">Slerp</a> interpolation between two transformations. (<span class="tt">t == 0</span> produces <span class="tt">xf1</span>, <span class="tt">t == 1</span> produces <span class="tt">xf2</span>.)<br  />
- This function is defined in <span class="tt">&lt;MRMesh/MRQuaternion.h&gt;</span>.</li>
-</ul>
+<p><span class="tt">xf1.inverse()</span> inverts the transformation, like inverting a matrix.</p>
+<p><span class="tt">MR::slerp(xf1, xf2, t)</span> is a quaternion-based <a href="https://en.wikipedia.org/wiki/Slerp">Slerp</a> interpolation between two transformations. (<span class="tt">t == 0</span> produces <span class="tt">xf1</span>, <span class="tt">t == 1</span> produces <span class="tt">xf2</span>.)<br  />
+ This function is defined in <span class="tt">&lt;MRMesh/MRQuaternion.h&gt;</span>.</p>
 <p>Conversion to and from matrices:</p>
-<ul>
-<li><p class="startli"><span class="tt">MR::AffineXf3f</span> can be converted to and from <span class="tt">MR::Matrix4f</span> (directly, without calling any functions).</p>
-<p class="startli">When converting to a matrix, the last row is set to <span class="tt">(0,0,0,1)</span> and the rest is copied as is. The opposite conversion checks that the last row is <span class="tt">(0,0,0,1)</span> before discarding it.</p>
-</li>
-</ul>
+<p><span class="tt">MR::AffineXf3f</span> can be converted to and from <span class="tt">MR::Matrix4f</span> (directly, without calling any functions).</p>
+<p>When converting to a matrix, the last row is set to <span class="tt">(0,0,0,1)</span> and the rest is copied as is. The opposite conversion checks that the last row is <span class="tt">(0,0,0,1)</span> before discarding it.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md13"></a>
 Object transformations</h3>
 <p>If you're using <span class="tt">MR::Object</span> to hold data (and the classes derived from it, such as <span class="tt">MR::ObjectMesh</span>), each <span class="tt">MR::Object</span> holds its own <span class="tt">MR::AffineXf3f</span>.</p>
@@ -308,10 +253,8 @@ Object transformations</h3>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
 Other types</h2>
 <p>MeshLib supports some other types not documented here:</p>
-<ul>
-<li>Quaternions — <span class="tt">MR::Quaternionf</span> defined in <span class="tt">&lt;MRMesh/MRQuaternion.h&gt;</span>.</li>
-<li>Symmetric matrices — <span class="tt">MR::SymMatrix[2,3,4]f</span> defined in <span class="tt">&lt;MRMesh/MRSymMatrix[2,3,4].h&gt;</span>.</li>
-</ul>
+<p>Quaternions — <span class="tt">MR::Quaternionf</span> defined in <span class="tt">&lt;MRMesh/MRQuaternion.h&gt;</span>.</p>
+<p>Symmetric matrices — <span class="tt">MR::SymMatrix[2,3,4]f</span> defined in <span class="tt">&lt;MRMesh/MRSymMatrix[2,3,4].h&gt;</span>.</p>
 <p>Consult the respective headers for details. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

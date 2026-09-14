@@ -212,8 +212,7 @@ $(function(){initNavTree('HowtoAddPluginOverview.html','',''); });
   </li>
 </ul>
 </div>
-<div class="textblock"><p><a class="anchor" id="md_doxygen_2general__pages_2HowtoAddPluginOverview"></a></p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md101"></a>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md101"></a>
 Add Your Own Plugin to MeshInspector / MeshLib</h1>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md102"></a>
 What is a plugin?</h2>
@@ -315,9 +314,9 @@ Verifying the install</h1>
 <div class="line">[info] Load library MyPlugin was successful</div>
 </div><!-- fragment --><h4 class="doxsection"><a class="anchor" id="autotoc_md112"></a>
 Common failure modes</h4>
-<p><b>"Ribbon item \"My Tool\" is not registered"</b> — the <span class="tt">Name</span> field in <span class="tt">*.items.json</span> does not match the string passed to <span class="tt">RibbonMenuItem("...")</span> (or <span class="tt">StatePlugin("...")</span>) in the source. Names are byte-identical strings; "My Tool" and "MyTool" are different. Fix the JSON or the source so they match exactly.</p>
-<p><b>Plugin loads but ribbon button does not appear</b> — <span class="tt">*.ui.json</span> references a tab or group that does not exist, or the <span class="tt">Order</span> value collides with another plugin. Check that <span class="tt">Tabs[].Name</span> matches an existing tab (e.g. <span class="tt">Home</span>, <span class="tt">Mesh Edit</span>) and that <span class="tt">Groups[].Name</span> matches a group inside that tab.</p>
-<p><b>Plugin loads but no items show</b> — your <span class="tt">LibName</span> in <span class="tt">*.ui.json</span> does not match the produced library file name (without the <span class="tt">lib</span> prefix and <span class="tt">.dylib</span>/<span class="tt">.so</span>/<span class="tt">.dll</span> suffix). For <span class="tt">libMyPlugin.dylib</span>, <span class="tt">LibName</span> must be <span class="tt">MyPlugin</span>.</p>
+<p>"Ribbon item \"My Tool\" is not registered"** — the <span class="tt">Name</span> field in <span class="tt">*.items.json</span> does not match the string passed to <span class="tt">RibbonMenuItem("...")</span> (or <span class="tt">StatePlugin("...")</span>) in the source. Names are byte-identical strings; "My Tool" and "MyTool" are different. Fix the JSON or the source so they match exactly.</p>
+<p>Plugin loads but ribbon button does not appear** — <span class="tt">*.ui.json</span> references a tab or group that does not exist, or the <span class="tt">Order</span> value collides with another plugin. Check that <span class="tt">Tabs[].Name</span> matches an existing tab (e.g. <span class="tt">Home</span>, <span class="tt">Mesh Edit</span>) and that <span class="tt">Groups[].Name</span> matches a group inside that tab.</p>
+<p>Plugin loads but no items show** — your <span class="tt">LibName</span> in <span class="tt">*.ui.json</span> does not match the produced library file name (without the <span class="tt">lib</span> prefix and <span class="tt">.dylib</span>/<span class="tt">.so</span>/<span class="tt">.dll</span> suffix). For <span class="tt">libMyPlugin.dylib</span>, <span class="tt">LibName</span> must be <span class="tt">MyPlugin</span>.</p>
 <h1 class="doxsection"><a class="anchor" id="HowtoAddPluginOverview_Uninstall"></a>
 Uninstall</h1>
 <p>Quit the host, then delete the three sets of files you copied during install. Example for the macOS user-clone case:</p>
