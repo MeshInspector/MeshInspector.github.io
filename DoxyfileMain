@@ -4,13 +4,17 @@ PROJECT_NAME           = "MeshLib Documentation"
 LAYOUT_FILE            = ../MeshLib/doxygen/DoxygenLayoutMain.xml
 INPUT                  = ../MeshLib/doxygen \
                          ../MeshLib/examples
-FILE_PATTERNS          = *.dox \
+FILE_PATTERNS          = *.dox *.md \
                          *.cpp
 EXCLUDE                = ../MeshLib/doxygen/APICppPage.dox \
                          ../MeshLib/doxygen/APIPyPage.dox \
                          ../MeshLib/doxygen/APICPage.dox \
                          ../MeshLib/doxygen/APICsharpPage.dox \
-                         ../MeshLib/doxygen/APIJsPage.dox
+                         ../MeshLib/doxygen/APIJsPage.dox \
+                         ../MeshLib/doxygen/common_files \
+                         ../MeshLib/examples/typescript/README.md \
+                         ../MeshLib/examples/threejs/README.md \
+                         ../MeshLib/examples/aws-lambda/readme.md
 EXAMPLE_PATH           = ../MeshLib/examples \
                          ../MeshLib/doxygen/common_files
 EXAMPLE_RECURSIVE      = YES
