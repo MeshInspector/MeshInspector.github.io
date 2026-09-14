@@ -11,10 +11,9 @@ EXCLUDE                = ../MeshLib/doxygen/APICppPage.dox \
                          ../MeshLib/doxygen/APICPage.dox \
                          ../MeshLib/doxygen/APICsharpPage.dox \
                          ../MeshLib/doxygen/APIJsPage.dox \
-                         ../MeshLib/doxygen/common_files \
-                         ../MeshLib/examples/typescript/README.md \
-                         ../MeshLib/examples/threejs/README.md \
-                         ../MeshLib/examples/aws-lambda/readme.md
+                         ../MeshLib/doxygen/common_files
+EXCLUDE_PATTERNS       = README.md \
+                         readme.md
 STRIP_FROM_PATH        = ../MeshLib
 EXAMPLE_PATH           = ../MeshLib/examples \
                          ../MeshLib/doxygen/common_files
