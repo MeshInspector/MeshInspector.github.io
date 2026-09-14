@@ -257,14 +257,7 @@ Bundlers</h3>
 <div class="line">import wasmUrl from &#39;@meshinspector/meshlib/meshlib.wasm&#39;;</div>
 <div class="line"> </div>
 <div class="line">const ml = await createMeshLib( { locateFile: () =&gt; wasmUrl } );</div>
-</div><!-- fragment --><p>The bundler must treat <span class="tt">.wasm</span> files as static assets, so that the import resolves to the URL of the emitted file; the option is usually called an asset or file loader. For example:</p>
-<ul>
-<li><b>Vite</b>: append <span class="tt">?url</span> to the import specifier: &lsquo;import wasmUrl from &rsquo;@meshinspector/meshlib/meshlib.wasm?url';<span class="tt"></span></li>
-<li><span class="tt">**webpack**, **Rspack**: add a module rule </span>{ test: /.wasm$/, type: 'asset/resource' }<span class="tt"></span></li>
-<li><span class="tt">**esbuild**: pass </span>&ndash;loader:.wasm=file<span class="tt"></span></li>
-<li><span class="tt">**Rollup**: add </span>@rollup/plugin-url<span class="tt"> with </span>include: /.wasm$/<span class="tt"></span></li>
-<li><span class="tt">**Parcel**: use the </span>url:<span class="tt"> scheme on the import specifier: </span>import wasmUrl from 'url:@meshinspector/meshlib/meshlib.wasm';`</li>
-</ul>
+</div><!-- fragment --><p>In the browser the multi-threaded build additionally requires the page to be <a class="el" href="#JsMtCrossOriginIsolation">cross-origin isolated</a>.</p>
 <h3 class="doxsection"><a class="anchor" id="MeshLibJsPayloadSize"></a>
 Payload Size</h3>
 <p>MeshLib is a WebAssembly build of the full geometry library, so a browser downloads roughly <b>11 MB of wasm, about 3 MB gzipped over the wire</b>, before the first geometry call. <span class="tt">@meshinspector/meshlib-mt</span> is the same order of magnitude.</p>
@@ -295,9 +288,7 @@ Cross-Origin Isolation for the Multi-Threaded Build in the Browser</h2>
 <p>So on a page that is not cross-origin isolated you have three options: send the headers, install the service-worker shim, or use the single-threaded <span class="tt">@meshinspector/meshlib</span> package, which has no such requirement.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md146"></a>
 Getting Started: Your First Example</h2>
-<p>The default export is an async factory. Await it once to get the module instance, then call MeshLib functions on it:</p>
-<dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a current browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see the <b>Memory Management</b> section below).</dd></dl>
-<div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<p>The default export is an async factory. Await it once to get the module instance, then call MeshLib functions on it: </p><div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
 <div class="line">const ml = await createMeshLib();</div>
 <div class="line"> </div>
@@ -316,7 +307,9 @@ Getting Started: Your First Example</h2>
 <div class="line">using mesh = ml.Mesh.fromTriangles(coords, tris);</div>
 <div class="line"> </div>
 <div class="line">console.log(&#39;volume =&#39;, mesh.volume()); // ~8</div>
-</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>This example loads the module at the top level, which downloads the wasm on startup. In the browser, consider the lazy alternative in <a class="el" href="#MeshLibJsPayloadSize">Payload Size</a>.</dd></dl>
+</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>This example loads the module at the top level, which downloads the wasm on startup. In the browser, consider the lazy alternative in <a class="el" href="#MeshLibJsPayloadSize">Payload Size</a>.</dd>
+<dd>
+The <span class="tt">using</span> declaration requires Node.js 24+ or a current browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see the <b>Memory Management</b> section below).</dd></dl>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md147"></a>
 TypeScript</h2>
 <p>The package ships type definitions, so <span class="tt">createMeshLib</span> and the whole module API are typed with minimal setup: </p><div class="fragment"><div class="line">import createMeshLib, { type Mesh } from &#39;@meshinspector/meshlib&#39;;</div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86":[9,0,1,0,1,2,18],
 "namespaceMR_1_1Cuda.html#a57e91a18687a893997356f499e9a7e94":[9,0,1,0,1,2,13],
 "namespaceMR_1_1Cuda.html#a770259831b49f60068c30df5121056c9":[9,0,1,0,1,2,32],
 "namespaceMR_1_1Cuda.html#aaa9aa568ce6f99642f04342760455a3f":[9,0,1,0,1,2,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1SpaceMouse.html#a0125a493583e2d875e2b9cb7607f9ef0":[9,0,1,0,1,46,7],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191":[9,0,1,0,1,46,9],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24":[9,0,1,0,1,46,9,22],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1":[9,0,1,0,1,46,9,18],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0d2387373cd1f88af245ff8a45265edc":[9,0,1,0,1,46,9,27]
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1":[9,0,1,0,1,46,9,18]
 };

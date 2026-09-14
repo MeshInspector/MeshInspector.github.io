@@ -18164,6 +18164,7 @@ var group__GeneralGroup =
     [ "MR::Polyline2ProjectionWithOffsetResult", "group__GeneralGroup.html#gacdd7942df456145c6efbf9d6524f3f88", null ],
     [ "MR::ObjectLinesHolder::polyline_", "group__GeneralGroup.html#gafba90d7f156c0d8bb20a9daa74a003ce", null ],
     [ "MR::PolylineProjectionWithOffsetResult", "group__GeneralGroup.html#ga507086a21a04027731ffeb5332b8ed9c", null ],
+    [ "MR::StyleConsts::CustomCombo::popupItemSpacingY", "group__GeneralGroup.html#ga979b60469d45731dad95e4d5b2ba9e23", null ],
     [ "MR::ImGuiMenu::popUpRenameBuffer_", "group__GeneralGroup.html#ga43c1faf504ab05faff5dd7aadbf0ce81", null ],
     [ "MR::CurvePoint::pos", "group__GeneralGroup.html#gaa66dd8795ad06b100b6b27009f406df5", null ],
     [ "MR::Dipole::pos", "group__GeneralGroup.html#gae70faa532d5372a7fa0e32336cc6df35", null ],
