@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "MeshLib Documentation", "index.html", [
-    [ "About", "index.html", null ],
+    [ "About", "index.html", "index" ],
     [ "Live Demo", "^https://demo.meshlib.io/", null ],
     [ "Getting Started", "InstallationGuide.html", [
       [ "Python", "MeshLibPythonSetupGuide.html", null ],

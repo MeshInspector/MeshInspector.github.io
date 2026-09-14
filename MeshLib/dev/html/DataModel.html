@@ -140,15 +140,16 @@ $(function(){initNavTree('DataModel.html','',''); });
   <div class="headertitle"><div class="title">Data Model Class Hierarchy </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>All data in MeshLib are stored in objects. Each object can have it own type derived from Object: </p><pre class="fragment">           Object (Simple object can be selected or hidden)
+<div class="textblock"><p><a class="anchor" id="md__2home_2runner_2work_2MeshLib_2MeshLib_2MeshLib_2doxygen_2general__pages_2DataModel"></a></p>
+<p>All data in MeshLib are stored in objects. Each object can have it own type derived from Object: </p><pre class="fragment">           Object (Simple object can be selected or hidden)
              |
         VisualObject (Object with common visualize properties, which are used in ObjectMesh and ObjectPoints)
          /        \
   ObjectMesh     ObjectPoints
       /
 JawScan, Tooth, ...
-</pre><h2 class="doxsection"><a class="anchor" id="autotoc_md60"></a>
-Scene</h2>
+</pre><h1 class="doxsection"><a class="anchor" id="autotoc_md60"></a>
+Scene</h1>
 <p>Scene in MeshLib consists of a tree of object with one root, and all others objects are children or some grandchildren of scene root. Each object has its own name (e.g. Upper Jaw), transform, visibility, selected and ancillary flags. Ancillary objects are not shown in UI list but rendered in 3D and cannot be selected. For example, a scene can look like: </p><pre class="fragment">                Root
                  |
                 Case
@@ -159,8 +160,8 @@ Scene</h2>
         /      \
     Jaw Scan   Tooth UL1 ...
 </pre><p>Objects inherit parameters from scene parent, for example transform and visibility. So all children are hidden if their parent is hidden irrespective of their own visibility field. And each object transform is the transform from local object space into parent's space. So if parent is moved, all objects are moved with it.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md61"></a>
-Serialization</h2>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md61"></a>
+Serialization</h1>
 <p>To serialize object tree one needs to call </p><div class="fragment"><div class="line"><span class="comment">// saves object subtree in given scene file (zip/mru)</span></div>
 <div class="line"><span class="comment">// format specification:</span></div>
 <div class="line"><span class="comment">//  children are saved under folder with name of their parent object</span></div>
@@ -176,8 +177,8 @@ Serialization</h2>
 <div class="line"><span class="comment">//  </span></div>
 <div class="line"><span class="comment">// loading is controlled with Object::deserializeModel_ and Object::deserializeFields_</span></div>
 <div class="line">MRMESH_API tl::expected&lt;Object, std::string&gt; deserializeObjectTree(<span class="keyword">const</span> std::filesystem::path&amp; path);</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md62"></a>
-Inheritance</h2>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md62"></a>
+Inheritance</h1>
 <p>To create your own object type you need to make class derived from one of base class:</p><ol type="1">
 <li>If you need object with mesh and some extra methods and fields you should derive from ObjectMesh</li>
 <li>If you need object with voxels and some extra methods and fields you should derive from ObjectVoxels</li>

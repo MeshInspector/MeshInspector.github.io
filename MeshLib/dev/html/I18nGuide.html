@@ -241,7 +241,8 @@ $(function(){initNavTree('I18nGuide.html','',''); });
   </li>
 </ul>
 </div>
-<div class="textblock"><p>MeshLib uses a <a href="https://www.gnu.org/software/gettext/">gettext</a>-compatible localization system backed by <a href="https://www.boost.org/doc/libs/release/libs/locale/">Boost.Locale</a>. Translatable strings are marked in C++ source code, extracted to template files, translated per language, compiled to binary catalogs, and loaded at runtime.</p>
+<div class="textblock"><p><a class="anchor" id="md__2home_2runner_2work_2MeshLib_2MeshLib_2MeshLib_2doxygen_2general__pages_2I18nGuide"></a></p>
+<p>MeshLib uses a <a href="https://www.gnu.org/software/gettext/">gettext</a>-compatible localization system backed by <a href="https://www.boost.org/doc/libs/release/libs/locale/">Boost.Locale</a>. Translatable strings are marked in C++ source code, extracted to template files, translated per language, compiled to binary catalogs, and loaded at runtime.</p>
 <p>This guide explains how to integrate and use the i18n system in your own MeshLib-based project.</p>
 <h1 class="doxsection"><a class="anchor" id="I18nFileFormats"></a>
 File formats and directory layout</h1>
@@ -253,15 +254,14 @@ File formats and directory layout</h1>
 </ul>
 <p>Source translations live under a <span class="tt">locale/</span> directory at the project root:</p>
 <div class="fragment"><div class="line">locale/</div>
-<div class="line">  MyPlugin.pot                           &lt;- <span class="keyword">template</span> (<a class="code hl_variable" href="CommonDistributionProperties_8dox.html#a01eda4eabd2929fb8a2c723a6bbf9cbf">all</a> extractable strings)</div>
-<div class="line">  MRRibbonMyMenu.pot                     &lt;- <span class="keyword">template</span> <span class="keywordflow">for</span> ribbon JSON strings</div>
+<div class="line">  MyPlugin.pot                           &lt;- template (all extractable strings)</div>
+<div class="line">  MRRibbonMyMenu.pot                     &lt;- template for ribbon JSON strings</div>
 <div class="line">  de/</div>
 <div class="line">    MyPlugin.po                          &lt;- German translations</div>
 <div class="line">    MRRibbonMyMenu.po</div>
 <div class="line">  fr/</div>
 <div class="line">    MyPlugin.po                          &lt;- French translations</div>
 <div class="line">    MRRibbonMyMenu.po</div>
-<div class="ttc" id="aCommonDistributionProperties_8dox_html_a01eda4eabd2929fb8a2c723a6bbf9cbf"><div class="ttname"><a href="CommonDistributionProperties_8dox.html#a01eda4eabd2929fb8a2c723a6bbf9cbf">all</a></div><div class="ttdeci">that header already declares MR_ITERATOR_DEBUG_LEVEL for so only _ITERATOR_DEBUG_LEVEL is yours to set — and IteratorDebug then needs no define at all</div><div class="ttdef"><b>Definition</b> CommonDistributionProperties.dox:5</div></div>
 </div><!-- fragment --><p>At build time, <span class="tt">.po</span> files are compiled to <span class="tt">.mo</span> and placed in the output directory:</p>
 <div class="fragment"><div class="line">&lt;build&gt;/locale/&lt;lang&gt;/LC_MESSAGES/&lt;Domain&gt;.mo</div>
 </div><!-- fragment --><p>For example: <span class="tt">build/Release/bin/locale/de/LC_MESSAGES/MyPlugin.mo</span>.</p>
