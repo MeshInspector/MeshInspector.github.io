@@ -6,10 +6,12 @@
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters" prot="public">MR::PlanarTriangulation::Const_BaseOutlineParameters</innerclass>
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo" prot="public">MR::PlanarTriangulation::Const_IntersectionInfo</innerclass>
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap" prot="public">MR::PlanarTriangulation::Const_IntersectionsMap</innerclass>
+    <innerclass refid="classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache" prot="public">MR::PlanarTriangulation::Const_ISweepLineCache</innerclass>
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters" prot="public">MR::PlanarTriangulation::Const_OutlineParameters</innerclass>
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters" prot="public">MR::PlanarTriangulation::Const_TriangulationParameters</innerclass>
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" prot="public">MR::PlanarTriangulation::IntersectionInfo</innerclass>
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap" prot="public">MR::PlanarTriangulation::IntersectionsMap</innerclass>
+    <innerclass refid="classMR_1_1PlanarTriangulation_1_1ISweepLineCache" prot="public">MR::PlanarTriangulation::ISweepLineCache</innerclass>
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1OutlineParameters" prot="public">MR::PlanarTriangulation::OutlineParameters</innerclass>
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters" prot="public">MR::PlanarTriangulation::TriangulationParameters</innerclass>
     <sectiondef kind="public-type">
@@ -52,29 +54,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1aabce6890184b20ef505396e0d9e07014" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Vector_StdVectorMRVertId</type>
-        <definition>static unsafe MR.Std.Vector_StdVectorMRVertId MR.PlanarTriangulation.findHoleVertIdsByHoleEdges</definition>
-        <argsstring>(MR.Const_MeshTopology tp, MR.Std.Const_Vector_StdVectorMREdgeId holePaths)</argsstring>
-        <name>findHoleVertIdsByHoleEdges</name>
-        <qualifiedname>MR.PlanarTriangulation.findHoleVertIdsByHoleEdges</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
-          <declname>tp</declname>
-        </param>
-        <param>
-          <type>MR.Std.Const_Vector_StdVectorMREdgeId</type>
-          <declname>holePaths</declname>
-        </param>
-        <briefdescription>
-<para>return vertices of holes that correspond internal contours representation of <ref refid="classMR_1_1PlanarTriangulation" kindref="compound">PlanarTriangulation</ref> Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1aabce6890184b20ef505396e0d9e07014" kindref="member">MR.PlanarTriangulation.findHoleVertIdsByHoleEdges</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1345" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1345" bodyend="1350"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a34a9cb429fb7084527f2f92fc91cb4fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.PlanarTriangulation.getOutlineMesh</definition>
@@ -102,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1358" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1358" bodyend="1363"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1384" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1384" bodyend="1389"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a5deeeab300c5b42ba33450aca60b58f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -131,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1369" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1369" bodyend="1374"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1395" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1395" bodyend="1400"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1ab54f5e80cd451829b80c779726084587" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector2f</type>
@@ -155,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1381" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1381" bodyend="1386"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1407" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1407" bodyend="1412"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a284e7bebb8b5ffd5cb288277726bd05d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector2f</type>
@@ -179,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1392" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1392" bodyend="1397"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1418" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1418" bodyend="1423"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1afa9d6d095b5187fc1d409d63a9565495" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -206,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1406" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1406" bodyend="1411"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1432" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1432" bodyend="1437"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a716126ac0156f532587b6b72b08b4492" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -230,12 +209,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1417" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1417" bodyend="1422"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1443" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1443" bodyend="1448"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1aa48fb76901da62e249f43ddab18bcdf3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void *</type>
+        <definition>static unsafe void * MR.PlanarTriangulation.makeSweepLineCache</definition>
+        <argsstring>()</argsstring>
+        <name>makeSweepLineCache</name>
+        <qualifiedname>MR.PlanarTriangulation.makeSweepLineCache</qualifiedname>
+        <briefdescription>
+<para>creates a cache for the sweep-line triangulation Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1aa48fb76901da62e249f43ddab18bcdf3" kindref="member">MR.PlanarTriangulation.makeSweepLineCache</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1454" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1454" bodyend="1459"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1ad635cafea2c2834c0679bd865982b6a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRMesh</type>
         <definition>static unsafe MR.Std.Optional_MRMesh MR.PlanarTriangulation.triangulateDisjointContours</definition>
-        <argsstring>(MR.Std.Const_Vector_StdVectorMRVector2d contours, MR.Std.Const_Vector_StdVectorMRVertId? holeVertsIds=null, MR.Std.Vector_StdVectorMREdgeId? outBoundaries=null)</argsstring>
+        <argsstring>(MR.Std.Const_Vector_StdVectorMRVector2d contours, MR.PlanarTriangulation.ISweepLineCache? cache=null)</argsstring>
         <name>triangulateDisjointContours</name>
         <qualifiedname>MR.PlanarTriangulation.triangulateDisjointContours</qualifiedname>
         <param>
@@ -243,48 +237,26 @@
           <declname>contours</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Vector_StdVectorMRVertId?</type>
-          <declname>holeVertsIds</declname>
-          <defval>null</defval>
-        </param>
-        <param>
-          <type>MR.Std.Vector_StdVectorMREdgeId?</type>
-          <declname>outBoundaries</declname>
+          <type><ref refid="classMR_1_1PlanarTriangulation_1_1ISweepLineCache" kindref="compound">MR.PlanarTriangulation.ISweepLineCache</ref>?</type>
+          <declname>cache</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
 <para>triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour) </para>
         </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>holeVertsIds</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if set merge only points with same vertex id, otherwise merge all points with same coordinates </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>outBoundaries</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>optional output EdgePaths that correspond to initial contours </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>std::optional&lt;<ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref>&gt; : if some contours intersect return false, otherwise return created mesh Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" kindref="member">MR.PlanarTriangulation.triangulateDisjointContours</ref></computeroutput>. </para>
+<para><simplesect kind="return"><para>std::optional&lt;<ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref>&gt; : if some contours intersect return false, otherwise return created mesh Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1ad635cafea2c2834c0679bd865982b6a1" kindref="member">MR.PlanarTriangulation.triangulateDisjointContours</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1432" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1432" bodyend="1437"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1467" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1467" bodyend="1472"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a12b16db47d4de981fcbd2c22d0ca3369" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a56524124261f4c428fec706b38a83ed4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRMesh</type>
         <definition>static unsafe MR.Std.Optional_MRMesh MR.PlanarTriangulation.triangulateDisjointContours</definition>
-        <argsstring>(MR.Std.Const_Vector_StdVectorMRVector2f contours, MR.Std.Const_Vector_StdVectorMRVertId? holeVertsIds=null, MR.Std.Vector_StdVectorMREdgeId? outBoundaries=null)</argsstring>
+        <argsstring>(MR.Std.Const_Vector_StdVectorMRVector2f contours, MR.PlanarTriangulation.ISweepLineCache? cache=null)</argsstring>
         <name>triangulateDisjointContours</name>
         <qualifiedname>MR.PlanarTriangulation.triangulateDisjointContours</qualifiedname>
         <param>
@@ -292,28 +264,23 @@
           <declname>contours</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Vector_StdVectorMRVertId?</type>
-          <declname>holeVertsIds</declname>
-          <defval>null</defval>
-        </param>
-        <param>
-          <type>MR.Std.Vector_StdVectorMREdgeId?</type>
-          <declname>outBoundaries</declname>
+          <type><ref refid="classMR_1_1PlanarTriangulation_1_1ISweepLineCache" kindref="compound">MR.PlanarTriangulation.ISweepLineCache</ref>?</type>
+          <declname>cache</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" kindref="member">MR.PlanarTriangulation.triangulateDisjointContours</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1ad635cafea2c2834c0679bd865982b6a1" kindref="member">MR.PlanarTriangulation.triangulateDisjointContours</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1442" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1442" bodyend="1447"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1477" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1477" bodyend="1482"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1ae647f7cb5bdf02dbd6d8ecf6d762cd53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a416c05781c33fbcf3c9c3e2c61cf70b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRMesh</type>
         <definition>static unsafe MR.Std.Optional_MRMesh MR.PlanarTriangulation.triangulateDisjointContours</definition>
-        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_StdVectorMREdgeId loops, in MR.Vector3f normal, MR.Std.Vector_StdVectorMREdgeId? outBoundaries=null)</argsstring>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_StdVectorMREdgeId loops, in MR.Vector3f normal, MR.WholeEdgeMap? outPatchMap=null, MR.PlanarTriangulation.ISweepLineCache? cache=null)</argsstring>
         <name>triangulateDisjointContours</name>
         <qualifiedname>MR.PlanarTriangulation.triangulateDisjointContours</qualifiedname>
         <param>
@@ -329,8 +296,13 @@
           <declname>normal</declname>
         </param>
         <param>
-          <type>MR.Std.Vector_StdVectorMREdgeId?</type>
-          <declname>outBoundaries</declname>
+          <type><ref refid="classMR_1_1WholeEdgeMap" kindref="compound">MR.WholeEdgeMap</ref>?</type>
+          <declname>outPatchMap</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1PlanarTriangulation_1_1ISweepLineCache" kindref="compound">MR.PlanarTriangulation.ISweepLineCache</ref>?</type>
+          <declname>cache</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
@@ -345,32 +317,88 @@
 <para>one closed EdgeLoop per contour (as produced by trackRightBoundaryLoop on each hole edge) </para>
 </parameterdescription>
 </parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outPatchMap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional output: for each patch boundary edge (by undirected id) the mesh edge it copies, directed along it; edges past its size are the triangulation's own </para>
+</parameterdescription>
+</parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>std::nullopt if the loops self-intersect, otherwise the patch mesh Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" kindref="member">MR.PlanarTriangulation.triangulateDisjointContours</ref></computeroutput>. </para>
+<simplesect kind="return"><para>std::nullopt if the loops self-intersect, otherwise the patch mesh Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1ad635cafea2c2834c0679bd865982b6a1" kindref="member">MR.PlanarTriangulation.triangulateDisjointContours</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1457" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1457" bodyend="1465"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1494" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1494" bodyend="1502"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1aaf3dae5bbd300ace7a08d735961239a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRHoleFillPlan</type>
+        <definition>static unsafe MR.Std.Optional_MRHoleFillPlan MR.PlanarTriangulation.getMonotonePlan</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_StdVectorMREdgeId loops, in MR.Vector3f normal)</argsstring>
+        <name>getMonotonePlan</name>
+        <qualifiedname>MR.PlanarTriangulation.getMonotonePlan</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMREdgeId</type>
+          <declname>loops</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <briefdescription>
+<para>splits the near-planar region bounded by <computeroutput>loops</computeroutput> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>loops</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>one closed EdgeLoop of at least 3 edges per boundary of one region, bounding holes of <computeroutput>mesh</computeroutput> as trackRightBoundaryLoop returns them; which way round a loop runs does not matter </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>normal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the orientation the region is monotone around, see <ref refid="classMR_1_1PlanarTriangulation_1ad635cafea2c2834c0679bd865982b6a1" kindref="member">triangulateDisjointContours</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::nullopt if the loops intersect or a chord would land in a face instead of a hole, so that the caller can fall back on filling every loop separately; otherwise a plan with numTris == 0 for <ref refid="classMR_1abfb452e0e82cc49c11c92ec37457abd9" kindref="member">executeHoleFillPlan</ref>, which then only adds edges (empty if already monotone, a no-op). Validate it with isFillingMultipleEdgeFree: a chord may duplicate an off-loop mesh edge Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1aaf3dae5bbd300ace7a08d735961239a5" kindref="member">MR.PlanarTriangulation.getMonotonePlan</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1516" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1516" bodyend="1524"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="4" bodyend="1466"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="4" bodyend="1525"/>
     <listofallmembers>
-      <member refid="classMR_1_1PlanarTriangulation_1aabce6890184b20ef505396e0d9e07014" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>findHoleVertIdsByHoleEdges</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1aaf3dae5bbd300ace7a08d735961239a5" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>getMonotonePlan</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1ab54f5e80cd451829b80c779726084587" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>getOutline</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1a284e7bebb8b5ffd5cb288277726bd05d" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>getOutline</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1a34a9cb429fb7084527f2f92fc91cb4fb" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>getOutlineMesh</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1a5deeeab300c5b42ba33450aca60b58f1" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>getOutlineMesh</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1aa48fb76901da62e249f43ddab18bcdf3" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>makeSweepLineCache</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1afa9d6d095b5187fc1d409d63a9565495" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>triangulateContours</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1a716126ac0156f532587b6b72b08b4492" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>triangulateContours</name></member>
-      <member refid="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>triangulateDisjointContours</name></member>
-      <member refid="classMR_1_1PlanarTriangulation_1a12b16db47d4de981fcbd2c22d0ca3369" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>triangulateDisjointContours</name></member>
-      <member refid="classMR_1_1PlanarTriangulation_1ae647f7cb5bdf02dbd6d8ecf6d762cd53" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>triangulateDisjointContours</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1ad635cafea2c2834c0679bd865982b6a1" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>triangulateDisjointContours</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1a56524124261f4c428fec706b38a83ed4" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>triangulateDisjointContours</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1a416c05781c33fbcf3c9c3e2c61cf70b1" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>triangulateDisjointContours</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1a16757991e9e882dfb0fed5364ee342bf" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>WindingMode</name></member>
     </listofallmembers>
   </compounddef>

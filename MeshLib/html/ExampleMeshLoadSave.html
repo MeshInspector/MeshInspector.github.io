@@ -140,7 +140,8 @@ $(function(){initNavTree('ExampleMeshLoadSave.html','',''); });
   <div class="headertitle"><div class="title">Loading and saving mesh files </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Following code presents example of loading and saving mesh file</p>
+<div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2MeshLoadSave"></a></p>
+<p>Following code presents example of loading and saving mesh file</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
@@ -186,22 +187,31 @@ $(function(){initNavTree('ExampleMeshLoadSave.html','',''); });
 MR::MeshSave</dd></dl>
 </li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
+<div class="line"><span class="keyword">import</span> os</div>
 <div class="line"><span class="keyword">import</span> sys</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># This example needs an input mesh; create one if you do not have it already</span></div>
+<div class="line"><span class="keywordflow">if</span> <span class="keywordflow">not</span> os.path.exists(<span class="stringliteral">&quot;mesh.stl&quot;</span>):</div>
+<div class="line">    mrmeshpy.saveMesh(mrmeshpy.makeCube(), <span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Load mesh</span></div>
 <div class="line"><span class="keywordflow">try</span>:</div>
 <div class="line">    mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
-<div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
-<div class="line">    print(e)</div>
+<div class="line"><span class="keywordflow">except</span> RuntimeError <span class="keyword">as</span> e:</div>
+<div class="line">    print(f<span class="stringliteral">&quot;Failed to load mesh: {e}&quot;</span>)</div>
 <div class="line">    sys.exit(1)</div>
+<div class="line"> </div>
+<div class="line">print(f<span class="stringliteral">&quot;Loaded {mesh.topology.numValidVerts()} vertices, &quot;</span></div>
+<div class="line">      f<span class="stringliteral">&quot;{mesh.topology.numValidFaces()} faces&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save mesh</span></div>
 <div class="line"><span class="keywordflow">try</span>:</div>
 <div class="line">    mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
-<div class="line"><span class="keywordflow">except</span> ValueError <span class="keyword">as</span> e:</div>
-<div class="line">    print(e)</div>
+<div class="line"><span class="keywordflow">except</span> RuntimeError <span class="keyword">as</span> e:</div>
+<div class="line">    print(f<span class="stringliteral">&quot;Failed to save mesh: {e}&quot;</span>)</div>
 <div class="line">    sys.exit(1)</div>
 <div class="line"> </div>
+<div class="line">print(<span class="stringliteral">&quot;Saved mesh.ply&quot;</span>)</div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshLoad.h&gt;</span></div>
@@ -216,22 +226,27 @@ MR::MeshSave</dd></dl>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>** argv )</div>
 <div class="line">{</div>
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
+<div class="line">    <span class="keyword">const</span> <span class="keywordtype">char</span>* inputPath = argc &gt; 1 ? argv[1] : <span class="stringliteral">&quot;mesh.stl&quot;</span>;</div>
+<div class="line">    <span class="keyword">const</span> <span class="keywordtype">char</span>* outputPath = argc &gt; 2 ? argv[2] : <span class="stringliteral">&quot;mesh.ply&quot;</span>;</div>
+<div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( inputPath, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
+<div class="line">        <span class="keywordflow">if</span> ( argc &lt;= 1 )</div>
+<div class="line">            fprintf( stderr, <span class="stringliteral">&quot;Usage: MeshLoadSave [input mesh] [output mesh]\n&quot;</span> );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_load;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save mesh.</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, outputPath, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -248,11 +263,18 @@ MR::MeshSave</dd></dl>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshLoadSaveExample</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
+<div class="line">            <span class="comment">// This example needs an input mesh; create one if you do not have it already</span></div>
+<div class="line">            <span class="keywordflow">if</span> (!File.Exists(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
+<div class="line">                MR.MeshSave.toAnySupportedFormat(MR.makeCube(), <span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Load mesh</span></div>
 <div class="line">            var mesh = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Save it in another format</span></div>
 <div class="line">            MR.MeshSave.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
@@ -271,9 +293,10 @@ MR::MeshSave</dd></dl>
 <div class="line"> </div>
 <div class="line">// Save mesh (the format is chosen from the file extension)</div>
 <div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;mesh.ply&#39;);</div>
-</div><!-- fragment --></li>
+</div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
+</li>
 </ul>
-</div><div class="tabbed"></div> </div></div><!-- contents -->
+</div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

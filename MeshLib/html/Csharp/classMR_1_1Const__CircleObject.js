@@ -7,6 +7,7 @@ var classMR_1_1Const__CircleObject =
     [ "classNameInPlural", "classMR_1_1Const__CircleObject.html#a1cdf76dcf1b9f98bad8ddec62d2ecf52", null ],
     [ "clone", "classMR_1_1Const__CircleObject.html#aaa9d7dfd8fb8c7fc45554dfd1d04267e", null ],
     [ "cloneTree", "classMR_1_1Const__CircleObject.html#aab6888351ec329060e28c9ce21344095", null ],
+    [ "constChildren", "classMR_1_1Const__CircleObject.html#ab26ab2cb096894d17d75c2ebe85fb545", null ],
     [ "Dispose", "classMR_1_1Const__CircleObject.html#a4f59ce78416d91dd4e46505532b31e8e", null ],
     [ "Dispose", "classMR_1_1Const__CircleObject.html#affff7b19f53c7a82950efb95b79c06ec", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__CircleObject.html#a83f279b6bfa10a1909093fa6d89a2821", null ],

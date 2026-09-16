@@ -95,7 +95,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds the vertex in the mesh part having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput>MR::findDirMax</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>m</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
+<para>finds the vertex in the mesh part having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput>MR::findDirMax</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>m</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>MR::UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -121,7 +121,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds the vertex in the mesh part having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput>MR::findDirMax</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
+<para>finds the vertex in the mesh part having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput>MR::findDirMax</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>MR::UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -147,7 +147,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds the vertex in the mesh part having the largest projection on given direction, optionally uses aabb-points-tree inside for faster computation Generated from function <computeroutput>MR::findDirMax</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
+<para>finds the vertex in the mesh part having the largest projection on given direction, optionally uses aabb-points-tree inside for faster computation Generated from function <computeroutput>MR::findDirMax</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>MR::UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -173,7 +173,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds the vertex in the polyline having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput>MR::findDirMax</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
+<para>finds the vertex in the polyline having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput>MR::findDirMax</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>MR::UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -199,7 +199,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds the vertex in the polyline having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput>MR::findDirMax</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
+<para>finds the vertex in the polyline having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput>MR::findDirMax</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>MR::UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -229,7 +229,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds the point in the cloud having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput>MR::findDirMax</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
+<para>finds the point in the cloud having the largest projection on given direction, optionally uses aabb-tree inside for faster computation Generated from function <computeroutput>MR::findDirMax</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>u</computeroutput> has a default argument: <computeroutput>MR::UseAABBTree::Yes</computeroutput>, pass a null pointer to use it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

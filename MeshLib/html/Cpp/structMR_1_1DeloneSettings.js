@@ -1,5 +1,6 @@
 var structMR_1_1DeloneSettings =
 [
+    [ "cache", "structMR_1_1DeloneSettings.html#aa9b9e4eb7d2bb9781d1170012f3c98b2", null ],
     [ "criticalTriAspectRatio", "structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2", null ],
     [ "maxAngleChange", "structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90", null ],
     [ "maxDeviationAfterFlip", "structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0", null ],

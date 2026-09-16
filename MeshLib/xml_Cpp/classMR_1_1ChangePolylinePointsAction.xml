@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePolylineAction.h" line="118" column="21" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="118" bodyend="-1"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="127" column="21" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ChangePolylinePointsAction_1a5852de95cae4970b48dd0a0083baa9df" prot="private" static="no" mutable="no">
         <type>VertCoords</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePolylineAction.h" line="119" column="16" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="119" bodyend="-1"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="128" column="16" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1ChangePolylinePointsAction_1a805fb1cf60c6071f9bf542f9111b8a41" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePolylineAction.h" line="121" column="17" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="121" bodyend="-1"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="130" column="17" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="130" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,6 +88,33 @@
         </inbodydescription>
         <location file="MRMesh/MRChangePolylineAction.h" line="79" column="5" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="79" bodyend="87"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1a47e8f25027f128e53d16bbb01972bdf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ChangePolylinePointsAction::ChangePolylinePointsAction</definition>
+        <argsstring>(std::string name, const std::shared_ptr&lt; ObjectLines &gt; &amp;obj, VertCoords &amp;&amp;newPoints)</argsstring>
+        <name>ChangePolylinePointsAction</name>
+        <qualifiedname>MR::ChangePolylinePointsAction::ChangePolylinePointsAction</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectLines" kindref="compound">ObjectLines</ref> &gt; &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>VertCoords &amp;&amp;</type>
+          <declname>newPoints</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s lines points and immediate set new value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRChangePolylineAction.h" line="90" column="5" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="90" bodyend="96"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1ae04072e7453616bbbf69ed34589627f2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
         <definition>virtual std::string MR::ChangePolylinePointsAction::name</definition>
@@ -101,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePolylineAction.h" line="89" column="25" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="89" bodyend="92"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="98" column="25" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="98" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1a4524618733bcefbd17c242f49c3112e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -121,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePolylineAction.h" line="94" column="18" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="94" bodyend="104"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="103" column="18" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="103" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1a63e6b7f8c45895a7781661ac76232a24" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -137,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePolylineAction.h" line="112" column="21" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="112" bodyend="115"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="121" column="21" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="121" bodyend="124"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -157,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRChangePolylineAction.h" line="106" column="17" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="106" bodyend="110"/>
+        <location file="MRMesh/MRChangePolylineAction.h" line="115" column="17" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="115" bodyend="119"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -189,10 +216,11 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRChangePolylineAction.h" line="73" column="1" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="74" bodyend="122"/>
+    <location file="MRMesh/MRChangePolylineAction.h" line="73" column="1" bodyfile="MRMesh/MRChangePolylineAction.h" bodystart="74" bodyend="131"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangePolylinePointsAction_1a4524618733bcefbd17c242f49c3112e1" prot="public" virt="virtual"><scope>MR::ChangePolylinePointsAction</scope><name>action</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1a506a1c3421dec57c85ee978ba69a0591" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>
+      <member refid="classMR_1_1ChangePolylinePointsAction_1a47e8f25027f128e53d16bbb01972bdf9" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1a5852de95cae4970b48dd0a0083baa9df" prot="private" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>clonePoints_</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1a63e6b7f8c45895a7781661ac76232a24" prot="public" virt="virtual"><scope>MR::ChangePolylinePointsAction</scope><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1gae00d8fe206eb19a46974a6a237d80eab" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>HistoryAction</name></member>

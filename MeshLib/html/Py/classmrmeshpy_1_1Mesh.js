@@ -5,7 +5,7 @@ var classmrmeshpy_1_1Mesh =
     [ "__eq__", "classmrmeshpy_1_1Mesh.html#a103b613cee322330912a3c900658294a", null ],
     [ "addMesh", "classmrmeshpy_1_1Mesh.html#ae731d56bbdc20ff0d0e51f413aa78a73", null ],
     [ "addMesh", "classmrmeshpy_1_1Mesh.html#afdf5d70947b1bf879366c1f237434b82", null ],
-    [ "addMeshPart", "classmrmeshpy_1_1Mesh.html#a58da71c41d0bc234617e9ed31980f3e7", null ],
+    [ "addMeshPart", "classmrmeshpy_1_1Mesh.html#a007e3bcf71f8620611addd6e94c3513b", null ],
     [ "addMeshPart", "classmrmeshpy_1_1Mesh.html#ad69b1d629c26f0c36920b891a7273ba3", null ],
     [ "addPoint", "classmrmeshpy_1_1Mesh.html#aa8168a99fdd72af7ec60c15a351c61c2", null ],
     [ "addSeparateContours", "classmrmeshpy_1_1Mesh.html#a316a091f4a780709586a822fd5075538", null ],

@@ -7,6 +7,7 @@ var classMR_1_1Const__LineObject =
     [ "classNameInPlural", "classMR_1_1Const__LineObject.html#ae612540a55fbff970e8ec03826e8adde", null ],
     [ "clone", "classMR_1_1Const__LineObject.html#acdbad527fc4630899ce33a35a36b2557", null ],
     [ "cloneTree", "classMR_1_1Const__LineObject.html#a95c2457595dfbdadad6a4f2f4bbc2e48", null ],
+    [ "constChildren", "classMR_1_1Const__LineObject.html#ad75725a67094df2b17b391fec738bbe8", null ],
     [ "Dispose", "classMR_1_1Const__LineObject.html#a65d2231f12a0c8c352bb9a7729d337e9", null ],
     [ "Dispose", "classMR_1_1Const__LineObject.html#abfb6ccdd3561bfb72f9a426f82e2e302", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__LineObject.html#a087dd91dd13db8eb622e2d35fb66c962", null ],

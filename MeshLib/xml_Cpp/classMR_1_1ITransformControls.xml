@@ -24,7 +24,7 @@
       <member refid="group__GeneralGroup_1ga907d92df55bd4c1c24eb99b0ac884d77" kind="function"><name>init</name></member>
       <member refid="group__GeneralGroup_1ga786c7692ef96e6c97a0da7ae332b5597" kind="function"><name>update</name></member>
       <member refid="group__GeneralGroup_1ga18436dfbd4ff243fc8bd07d0a3f36b73" kind="function"><name>hover</name></member>
-      <member refid="group__GeneralGroup_1ga4e00cf9a8a073e2d8964dbbd10f60b6f" kind="function"><name>stopModify</name></member>
+      <member refid="group__GeneralGroup_1ga65ad009cf346461d12e9799d32f6fc37" kind="function"><name>stopModify</name></member>
       <member refid="group__GeneralGroup_1ga40fae0e672b2463e378a9403a9dbc242" kind="function"><name>updateVisualTransformMode</name></member>
       <member refid="group__GeneralGroup_1ga26636938df550b48cbff6e634f95ba4e" kind="function"><name>updateTranslation</name></member>
       <member refid="group__GeneralGroup_1ga60452f38e7767aed4b34990197332ee1" kind="function"><name>updateRotation</name></member>
@@ -51,7 +51,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="MRViewer/MRObjectTransformWidget.h" line="45" column="1" bodyfile="MRViewer/MRObjectTransformWidget.h" bodystart="46" bodyend="130"/>
+    <location file="MRViewer/MRObjectTransformWidget.h" line="45" column="1" bodyfile="MRViewer/MRObjectTransformWidget.h" bodystart="46" bodyend="131"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac8df70c3288ca286a73d2343210e32be" prot="private" virt="non-virtual"><scope>MR::ITransformControls</scope><name>center_</name></member>
       <member refid="group__GeneralGroup_1ga053e821953dbcafc94e913961cdbc94a" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>getCenter</name></member>
@@ -66,7 +66,7 @@
       <member refid="group__GeneralGroup_1ga808053311f7578b9199e4b3f33d53c3a" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>setCenter</name></member>
       <member refid="group__GeneralGroup_1ga6c067680512671636e7975d37ba24bdd" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>setPickThrough</name></member>
       <member refid="group__GeneralGroup_1ga7ae4eb78f83ef31cb1fb11184c3eca6d" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>setTransformModesValidator</name></member>
-      <member refid="group__GeneralGroup_1ga4e00cf9a8a073e2d8964dbbd10f60b6f" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>stopModify</name></member>
+      <member refid="group__GeneralGroup_1ga65ad009cf346461d12e9799d32f6fc37" prot="public" virt="non-virtual"><scope>MR::ITransformControls</scope><name>stopModify</name></member>
       <member refid="group__GeneralGroup_1ga044830cadc17d1698a87fcdd9a6c699e" prot="protected" virt="pure-virtual"><scope>MR::ITransformControls</scope><name>stopModify_</name></member>
       <member refid="group__GeneralGroup_1ga786c7692ef96e6c97a0da7ae332b5597" prot="public" virt="pure-virtual"><scope>MR::ITransformControls</scope><name>update</name></member>
       <member refid="group__GeneralGroup_1ga60452f38e7767aed4b34990197332ee1" prot="public" virt="pure-virtual"><scope>MR::ITransformControls</scope><name>updateRotation</name></member>

@@ -11,6 +11,7 @@ var MRPlaneObject_8h =
     [ "MR_PlaneObject_classNameInPlural", "MRPlaneObject_8h.html#a896eb00f4590205b9bef1141338e24c9", null ],
     [ "MR_PlaneObject_clone", "MRPlaneObject_8h.html#a6aa6b77955385ef86422ed01ca5d1f0a", null ],
     [ "MR_PlaneObject_cloneTree", "MRPlaneObject_8h.html#a8491be5288034beb2c5065607811aba0", null ],
+    [ "MR_PlaneObject_constChildren", "MRPlaneObject_8h.html#a8e25e32208779cfb7413ed6e94e29fe5", null ],
     [ "MR_PlaneObject_Construct", "MRPlaneObject_8h.html#ab19a135055e6c24888d81e10283e0fb9", null ],
     [ "MR_PlaneObject_ConstructFromAnother", "MRPlaneObject_8h.html#a9c8317fe1fa80d0f3f68be3e5d1735c5", null ],
     [ "MR_PlaneObject_copyAllSolidColors", "MRPlaneObject_8h.html#ab704c6a6e97663d83f7002573d16fb24", null ],

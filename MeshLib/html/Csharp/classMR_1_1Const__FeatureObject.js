@@ -4,6 +4,7 @@ var classMR_1_1Const__FeatureObject =
     [ "classNameInPlural", "classMR_1_1Const__FeatureObject.html#a5b13b1b219b97620b20f3a796eb33b16", null ],
     [ "clone", "classMR_1_1Const__FeatureObject.html#aa955e7c40c7d550be0b285bd2e32fa5c", null ],
     [ "cloneTree", "classMR_1_1Const__FeatureObject.html#af3f10e65a84e56212bfe1ce310714eb3", null ],
+    [ "constChildren", "classMR_1_1Const__FeatureObject.html#ac40cb62577d39a1be5836bd682e73411", null ],
     [ "Dispose", "classMR_1_1Const__FeatureObject.html#abbf6c0c19dd7b952ea70ec3eefd36703", null ],
     [ "Dispose", "classMR_1_1Const__FeatureObject.html#a6e09bcaac8d16893967f38359c4176b6", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__FeatureObject.html#a118cc0a398bccf13c684707499b16b03", null ],

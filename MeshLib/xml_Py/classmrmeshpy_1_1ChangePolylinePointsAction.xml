@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8775" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9194" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8778" bodyend="8779"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9197" bodyend="9198"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylinePointsAction_1aff3af5930bbb3935f466b5b8ea1c88bb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8781" bodyend="8782"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9200" bodyend="9201"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylinePointsAction_1a9a62471ca06eccdc69fda801d5dd808b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8784" bodyend="8785"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9203" bodyend="9204"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -114,7 +114,39 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8787" bodyend="8790"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9206" bodyend="9209"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylinePointsAction_1a5808853e68f18ddebee4d49c26c01b73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePolylinePointsAction.__init__</definition>
+        <argsstring>(self, str name, ObjectLines obj, VertCoords newPoints)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangePolylinePointsAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLines" kindref="compound">ObjectLines</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>newPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s lines points and immediate set new value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9211" bodyend="9214"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylinePointsAction_1a44c1d531c27dcc607568ee421756c91c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -138,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8792" bodyend="8795"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9216" bodyend="9219"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylinePointsAction_1a0976efe6a59ef72acd5f51fd476706bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -159,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8796" bodyend="8797"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9220" bodyend="9221"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylinePointsAction_1a78ed549707511b6f65c5105580bf05bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -178,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8798" bodyend="8799"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9222" bodyend="9223"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -213,10 +245,11 @@ Undo action for ObjectLines points only (not topology) change
         <link refid="classmrmeshpy_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8769" bodyend="8799"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9188" bodyend="9223"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ChangePolylinePointsAction_1a039f2422cc839e7e3eb2fc967adfcb1d" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylinePointsAction</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ChangePolylinePointsAction_1a44ccc8a6af031013449e3221ad7372e2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylinePointsAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangePolylinePointsAction_1a5808853e68f18ddebee4d49c26c01b73" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylinePointsAction</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ChangePolylinePointsAction_1a44c1d531c27dcc607568ee421756c91c" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylinePointsAction</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ChangePolylinePointsAction_1aff3af5930bbb3935f466b5b8ea1c88bb" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylinePointsAction</scope><name>action</name></member>
       <member refid="classmrmeshpy_1_1ChangePolylinePointsAction_1a0976efe6a59ef72acd5f51fd476706bd" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylinePointsAction</scope><name>heapBytes</name></member>

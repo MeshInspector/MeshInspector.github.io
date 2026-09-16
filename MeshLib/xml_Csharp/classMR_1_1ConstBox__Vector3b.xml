@@ -229,20 +229,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="93" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="93" bodyend="99"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__Vector3b_1a47f633d52879a7391dae4db5760766f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe bool</type>
-        <definition>unsafe bool MR.ConstBox_Vector3b.lengthSq</definition>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector3b_1abcb96c8f35f61d92d768993f6a5fa3d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.ConstBox_Vector3b.lengthSq</definition>
         <argsstring>()</argsstring>
         <name>lengthSq</name>
         <qualifiedname>MR.ConstBox_Vector3b.lengthSq</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector3b_1abd9d6b46f3d8d36b7eeb8044a7e6285f" kindref="member">MR.Vector3b.lengthSq</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector3b_1ac5610b750a74e0256b4ae5827ba9fce2" kindref="member">MR.Vector3b.lengthSq</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="157" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="157" bodyend="162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="157" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="157" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Vector3b_1a5c6eceb861400b65c88aa749c272f66b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe double</type>
@@ -705,7 +705,7 @@
       <member refid="classMR_1_1ConstBox__Vector3b_1adbd8bb9e2c37b2bebbd66ab3b9195aa3" prot="public" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>Equals</name></member>
       <member refid="classMR_1_1ConstBox__Vector3b_1a52e8ca82139197ecb2869b094f244258" prot="public" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>Equals</name></member>
       <member refid="classMR_1_1ConstBox__Vector3b_1a5c6eceb861400b65c88aa749c272f66b" prot="public" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>length</name></member>
-      <member refid="classMR_1_1ConstBox__Vector3b_1a47f633d52879a7391dae4db5760766f8" prot="public" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>lengthSq</name></member>
+      <member refid="classMR_1_1ConstBox__Vector3b_1abcb96c8f35f61d92d768993f6a5fa3d4" prot="public" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>lengthSq</name></member>
       <member refid="classMR_1_1ConstBox__Vector3b_1ae4b7e79b3797084da4abe0951185cda0" prot="public" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>operator ConstBox_Vector3b</name></member>
       <member refid="classMR_1_1ConstBox__Vector3b_1a379bac31bac782adb14cb138d45e8abb" prot="public" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>operator!=</name></member>
       <member refid="classMR_1_1ConstBox__Vector3b_1a2e9e58eeebbe9a160e135e58b26a61b0" prot="public" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>operator*</name></member>

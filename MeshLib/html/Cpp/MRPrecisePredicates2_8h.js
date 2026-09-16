@@ -7,6 +7,7 @@ var MRPrecisePredicates2_8h =
     [ "MR::ccw", "group__GeneralGroup.html#ga47e912a91bc60a4df60c2bfcd07884cf", null ],
     [ "MR::ccw", "group__GeneralGroup.html#ga748634eee611373365c3a338f0259d7e", null ],
     [ "MR::doSegmentSegmentIntersect", "group__GeneralGroup.html#ga602409f55231f953fa2202ec4e12d91b", null ],
+    [ "MR::findSegmentSegmentIntersectionPrecise", "group__GeneralGroup.html#ga3e2091f496f4b822c308240ef55105ac", null ],
     [ "MR::findSegmentSegmentIntersectionPrecise", "group__GeneralGroup.html#ga217c93ac0b5b2271f3387a858b87d734", null ],
     [ "MR::findSegmentSegmentIntersectionPrecise", "group__GeneralGroup.html#ga77c53fa57be3188038506af24b3f752a", null ],
     [ "MR::inCircle", "group__GeneralGroup.html#gad4c5145fee372c8a8f457e7bbd246a34", null ],

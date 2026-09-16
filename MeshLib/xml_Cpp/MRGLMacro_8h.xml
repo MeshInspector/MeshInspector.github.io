@@ -34,6 +34,10 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="14">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
       <node id="3">
         <label>MRViewer/MRDepthPeelingGL.h</label>
         <link refid="MRDepthPeelingGL_8h"/>
@@ -115,10 +119,6 @@
         <link refid="MRShadowsGL_8h"/>
         <childnode refid="14" relation="include">
         </childnode>
-      </node>
-      <node id="14">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
     <sectiondef kind="define">

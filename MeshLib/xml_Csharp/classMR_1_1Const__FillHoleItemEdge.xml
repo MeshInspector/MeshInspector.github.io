@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FillHoleItemEdge" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FillHoleItemEdge</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FillHoleItemEdge" prot="public" virt="non-virtual">MR.FillHoleItemEdge</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__FillHoleItemEdge_1ae9fbc0ccdf825819fc8d16c24b90299e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_FillHoleItemEdge.item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.item</qualifiedname>
+        <briefdescription>
+<para>index of the item creating the edge </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="237" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FillHoleItemEdge_1a8c2047355d842d273e987345fb6fc8b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_FillHoleItemEdge.sym</definition>
+        <argsstring></argsstring>
+        <name>sym</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.sym</qualifiedname>
+        <briefdescription>
+<para>take that edge in the opposite direction, so with the other origin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="243" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="243" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__FillHoleItemEdge_1a39b3a3e87f149d508b42f011c7ff7394" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_FillHoleItemEdge.__ref_storage_item</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_item</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.__ref_storage_item</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="238" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__FillHoleItemEdge_1ae3d5e4508ee77d2d0afa2abfaded3461" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_FillHoleItemEdge.__ref_storage_sym</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_sym</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.__ref_storage_sym</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="244" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="244" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleItemEdge_1a6f432a5be94a0bb2d99840523b425890" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FillHoleItemEdge.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="222" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="222" bodyend="230"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleItemEdge_1a60f7407fc898112baa9e8f7809295293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FillHoleItemEdge.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="231" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="231" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleItemEdge_1a16f6cd511b18c38eedca8f17ad79039f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FillHoleItemEdge.Const_FillHoleItemEdge</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FillHoleItemEdge</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.Const_FillHoleItemEdge</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="277" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="277" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleItemEdge_1ade026cab0e7fefb7176f4d8b0eec2255" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FillHoleItemEdge.Const_FillHoleItemEdge</definition>
+        <argsstring>(int item, bool sym)</argsstring>
+        <name>Const_FillHoleItemEdge</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.Const_FillHoleItemEdge</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sym</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FillHoleItemEdge" kindref="compound">MR.FillHoleItemEdge</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="288" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="288" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleItemEdge_1a03b41a9eadfdd02be70c9f276ae28267" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FillHoleItemEdge.Const_FillHoleItemEdge</definition>
+        <argsstring>(MR.Const_FillHoleItemEdge _other)</argsstring>
+        <name>Const_FillHoleItemEdge</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.Const_FillHoleItemEdge</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FillHoleItemEdge" kindref="compound">MR.Const_FillHoleItemEdge</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FillHoleItemEdge_1a9408c541886daff5d958a011150eaf28" kindref="member">MR.FillHoleItemEdge.FillHoleItemEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="299" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="299" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleItemEdge_1a371b966ec83935dd8c003a18c712f840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FillHoleItemEdge.Const_FillHoleItemEdge</definition>
+        <argsstring>(FillHoleItemEdge _other)</argsstring>
+        <name>Const_FillHoleItemEdge</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.Const_FillHoleItemEdge</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FillHoleItemEdge" kindref="compound">FillHoleItemEdge</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FillHoleItemEdge_1a9408c541886daff5d958a011150eaf28" kindref="member">MR.FillHoleItemEdge.FillHoleItemEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="311" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="311" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleItemEdge_1a21715937b0d8857775385b0c1ddd3efb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_FillHoleItemEdge.encode</definition>
+        <argsstring>()</argsstring>
+        <name>encode</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.encode</qualifiedname>
+        <briefdescription>
+<para>encodes this edge in a negative code Generated from method <computeroutput><ref refid="classMR_1_1Const__FillHoleItemEdge_1a21715937b0d8857775385b0c1ddd3efb" kindref="member">MR.FillHoleItemEdge.encode</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="317" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="317" bodyend="322"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleItemEdge_1a4a187e4c06e5647d133f464580e02817" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FillHoleItemEdge.~Const_FillHoleItemEdge</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FillHoleItemEdge</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.~Const_FillHoleItemEdge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="232" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="232" bodyend="232"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleItemEdge_1abf0e9f82a0467c0919f4f92c1262e888" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FillHoleItemEdge.Const_FillHoleItemEdge</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FillHoleItemEdge</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.Const_FillHoleItemEdge</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="266" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="266" bodyend="271"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleItemEdge_1a9f6133f493981e980bb9406a6e5794fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FillHoleItemEdge" kindref="compound">MR.FillHoleItemEdge</ref></type>
+        <definition>static unsafe MR.FillHoleItemEdge MR.Const_FillHoleItemEdge.decode</definition>
+        <argsstring>(int code)</argsstring>
+        <name>decode</name>
+        <qualifiedname>MR.Const_FillHoleItemEdge.decode</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+<para>decodes a negative code back in the edge it denotes Generated from method <computeroutput><ref refid="classMR_1_1Const__FillHoleItemEdge_1a9f6133f493981e980bb9406a6e5794fd" kindref="member">MR.FillHoleItemEdge.decode</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="328" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="328" bodyend="333"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>an edge created by an item of the plan, given in the same way as <ref refid="structMR_1_1EdgeId" kindref="compound">EdgeId</ref> gives an edge of a mesh: what the edge is, plus which of its two directions is meant Generated from class <computeroutput><ref refid="classMR_1_1FillHoleItemEdge" kindref="compound">MR.FillHoleItemEdge</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_FillHoleItemEdge</label>
+        <link refid="classMR_1_1Const__FillHoleItemEdge"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.FillHoleItemEdge</label>
+        <link refid="classMR_1_1FillHoleItemEdge"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_FillHoleItemEdge</label>
+        <link refid="classMR_1_1Const__FillHoleItemEdge"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="216" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="217" bodyend="334"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1a39b3a3e87f149d508b42f011c7ff7394" prot="protected" virt="non-virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>__ref_storage_item</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1ae3d5e4508ee77d2d0afa2abfaded3461" prot="protected" virt="non-virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>__ref_storage_sym</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1abf0e9f82a0467c0919f4f92c1262e888" prot="package" virt="non-virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>Const_FillHoleItemEdge</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1a16f6cd511b18c38eedca8f17ad79039f" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>Const_FillHoleItemEdge</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1ade026cab0e7fefb7176f4d8b0eec2255" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>Const_FillHoleItemEdge</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1a03b41a9eadfdd02be70c9f276ae28267" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>Const_FillHoleItemEdge</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1a371b966ec83935dd8c003a18c712f840" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>Const_FillHoleItemEdge</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1a9f6133f493981e980bb9406a6e5794fd" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>decode</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1a6f432a5be94a0bb2d99840523b425890" prot="protected" virt="virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1a60f7407fc898112baa9e8f7809295293" prot="public" virt="virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1a21715937b0d8857775385b0c1ddd3efb" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>encode</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1ae9fbc0ccdf825819fc8d16c24b90299e" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>item</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1a8c2047355d842d273e987345fb6fc8b0" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>sym</name></member>
+      <member refid="classMR_1_1Const__FillHoleItemEdge_1a4a187e4c06e5647d133f464580e02817" prot="private" virt="non-virtual"><scope>MR::Const_FillHoleItemEdge</scope><name>~Const_FillHoleItemEdge</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

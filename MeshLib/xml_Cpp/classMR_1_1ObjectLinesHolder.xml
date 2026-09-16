@@ -38,6 +38,8 @@
       <member refid="group__GeneralGroup_1ga8374696160d445c466b11e006c7fb4c7" kind="function"><name>hasModel</name></member>
       <member refid="group__GeneralGroup_1ga288d0f8a4f96ea4bb3023d24a68cb350" kind="function"><name>clone</name></member>
       <member refid="group__GeneralGroup_1ga86badba7ec7e0bdd786bdf427783b6e3" kind="function"><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1gaa3875bc524fb77bbb459b77d5ee068ff" kind="function"><name>varPolylinePtr</name></member>
+      <member refid="group__GeneralGroup_1gad5cf75ed10ccc65062b81be77146a84d" kind="function"><name>polylinePtr</name></member>
       <member refid="group__GeneralGroup_1gae0b496042ca65d7b8bdb862c9e984ff7" kind="function"><name>polyline</name></member>
       <member refid="group__GeneralGroup_1ga2c118606eb83948e238984cf26a8733b" kind="function"><name>setDirtyFlags</name></member>
       <member refid="group__GeneralGroup_1ga6d3d6f849d88c940ef456090aef7249d" kind="function"><name>setDashPattern</name></member>
@@ -252,7 +254,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRObjectLinesHolder.h" line="29" column="1" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="30" bodyend="181"/>
+    <location file="MRMesh/MRObjectLinesHolder.h" line="31" column="1" bodyfile="MRMesh/MRObjectLinesHolder.h" bodystart="32" bodyend="191"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>addChildBefore</name></member>
@@ -277,6 +279,7 @@
       <member refid="classMR_1_1Object_1ad1ccd26177dbfce7701ea0c9258f755a" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>cloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>coloringType_</name></member>
       <member refid="group__GeneralGroup_1gad09fce44b9b485c7bd1019f9c5e31518" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>computeBoundingBox_</name></member>
+      <member refid="classMR_1_1Object_1ac8aa3b30c857e87440cb2be7e1a60732" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>constChildren</name></member>
       <member refid="classMR_1_1VisualObject_1a64b9343aa9d5bb3c96e4a4f25fec077e" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>copyAllSolidColors</name></member>
       <member refid="group__GeneralGroup_1ga1285d8eb2e97fb22365dca86f412538e" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>copyColors</name></member>
       <member refid="group__GeneralGroup_1ga64d69137f11ccce4e6ba7aaa0ef41237" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>dashed_</name></member>
@@ -365,7 +368,7 @@
       <member refid="group__GeneralGroup_1gac57e00c43da38f333bf623761dfd2c82" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
       <member refid="classMR_1_1Object_1aac36fc983d44d6c7aca1abc5d12dd457" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>onWorldXfChanged_</name></member>
       <member refid="group__GeneralGroup_1ga399c6bd6321c060f5c6faffab0095bed" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator=</name></member>
-      <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectLinesHolder</scope><name>operator=</name></member>
+      <member refid="classMR_1_1VisualObject_1a8ece540600bd8e7ebf4ca08077b7e84a" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectLinesHolder</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::ObjectLinesHolder</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectLinesHolder</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1af9423022c44615eb44c4c83247239a89" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectLinesHolder</scope><name>operator=</name></member>
@@ -377,6 +380,7 @@
       <member refid="group__GeneralGroup_1ga8de8f6b6c5eaa17e1cfd18ffe80fda9d" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>pointSize_</name></member>
       <member refid="group__GeneralGroup_1gae0b496042ca65d7b8bdb862c9e984ff7" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>polyline</name></member>
       <member refid="group__GeneralGroup_1gafba90d7f156c0d8bb20a9daa74a003ce" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>polyline_</name></member>
+      <member refid="group__GeneralGroup_1gad5cf75ed10ccc65062b81be77146a84d" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>polylinePtr</name></member>
       <member refid="classMR_1_1Object_1a7a29a352087add682135f1b2e1c8030e" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>removeChild</name></member>
       <member refid="classMR_1_1Object_1a47b1fa919826f583d492e9c5c12b448f" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>removeChild</name></member>
@@ -467,13 +471,14 @@
       <member refid="group__GeneralGroup_1gab2d21946ef246e3fb5f97cdd7fc89e1c" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>updateVertsColorMap</name></member>
       <member refid="classMR_1_1VisualObject_1ac2b8bafaf72ee52d9a2312d0a51666b2" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
+      <member refid="group__GeneralGroup_1gaa3875bc524fb77bbb459b77d5ee068ff" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>varPolylinePtr</name></member>
       <member refid="group__GeneralGroup_1gaebf8fd3ebbe9baca5e1890a03da63db7" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>vertsColorMap_</name></member>
       <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>visibilityMask</name></member>
       <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>visibilityMask_</name></member>
       <member refid="classMR_1_1VisualObject_1afba4e36ba430b26b2a358fe7669c568b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>VisualObject</name></member>
-      <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1aa760a971390294ae8f47b048e2254078" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a132f300dcd5614eaaa237b865dc79763" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>VisualObject</name></member>
-      <member refid="classMR_1_1VisualObject_1a84d46a3ce3da143b5735f0b6ac79deee" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1ae95163e3f9a621b38ea424bb85259f83" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>VisualObject</name></member>
       <member refid="group__GeneralGroup_1gaf3f76f7286057cda0116754b663cf340" prot="protected" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>worldBox_</name></member>
       <member refid="classMR_1_1Object_1a2b84ff3669616f30ffec70c763993f12" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>worldXf</name></member>
       <member refid="classMR_1_1Object_1a84debbb8e5d281139acb86024c2f7964" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>worldXfChangedSignal</name></member>
@@ -483,7 +488,7 @@
       <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>xfsForAllViewports</name></member>
       <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>~Object</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1afc70bfdd1da7c7b37030df9392d86ab5" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>~ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1VisualObject_1a32d2019eae016848083a25a159b3b058" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>~VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a4d882264305c1f53e4fbc8f91d904be2" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>~VisualObject</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

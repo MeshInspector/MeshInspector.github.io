@@ -3,8 +3,8 @@
   <compounddef id="MRTouchpadParameters_8h" kind="file" language="C++">
     <compoundname>MRTouchpadParameters.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
+    <includedby refid="MRViewerSettingsPlugin_8h" local="yes">MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</includedby>
     <includedby refid="MRTouchpadController_8h" local="yes">MRViewer/MRTouchpadController.h</includedby>
-    <includedby refid="MRViewerSettingsPlugin_8h" local="yes">MRViewer/MRViewerSettingsPlugin.h</includedby>
     <incdepgraph>
       <node id="8">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -98,6 +98,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
+      <node id="3">
         <label>MRViewer/MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
@@ -108,10 +112,6 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-      </node>
-      <node id="3">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structMR_1_1TouchpadParameters" prot="public">MR::TouchpadParameters</innerclass>

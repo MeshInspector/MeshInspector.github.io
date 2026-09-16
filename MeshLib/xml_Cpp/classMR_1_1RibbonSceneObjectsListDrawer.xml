@@ -82,6 +82,7 @@
       <member refid="group__GeneralGroup_1ga2811dc65af1b9861a17e94ccb17ab9ff" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>changeSelection</name></member>
       <member refid="group__GeneralGroup_1gaa560a972c56ad0d267fae3065613e834" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>changeVisible</name></member>
       <member refid="group__GeneralGroup_1gafdc5139f352c892655303a7d8f612a4c" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>closeContextOnChange_</name></member>
+      <member refid="group__GeneralGroup_1ga11843c9f225ff4abc28a208f09401aed" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>collapseSceneTree</name></member>
       <member refid="group__GeneralGroup_1ga6786c6530d025a1e9acab79910d8a114" prot="protected" virt="virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>collapsingHeader_</name></member>
       <member refid="group__GeneralGroup_1ga31ea2ed9ee0ff224fddc9ee57a55c8d9" prot="private" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>currentElementId_</name></member>
       <member refid="group__GeneralGroup_1gaf4b84e5c4ee9c3f4eca9a8e0c73dde3d" prot="protected" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer</scope><name>deselectNewHiddenObjects_</name></member>

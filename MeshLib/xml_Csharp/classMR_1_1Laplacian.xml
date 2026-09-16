@@ -130,7 +130,7 @@
 <parametername>usePoints</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is not nullptr, then these points will be used instead of passed to a constructor for weights computation and shape memory Generated from method <computeroutput><ref refid="classMR_1_1Laplacian_1a465de937f70863f60a48bdc752533568" kindref="member">MR.Laplacian.init</ref></computeroutput>. Parameter <computeroutput>vmass</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass.Unit</ref></computeroutput>. Parameter <computeroutput>rem</computeroutput> defaults to <computeroutput><ref refid="classMR_1ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435" kindref="member">RememberShape.Yes</ref></computeroutput>. </para>
+<para>is not nullptr, then these points will be used instead of passed to a constructor for weights computation and shape memory Generated from method <computeroutput><ref refid="classMR_1_1Laplacian_1a465de937f70863f60a48bdc752533568" kindref="member">MR.Laplacian.init</ref></computeroutput>. Parameter <computeroutput>vmass</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" kindref="member">MR.VertexMass.Unit</ref></computeroutput>. Parameter <computeroutput>rem</computeroutput> defaults to <computeroutput><ref refid="classMR_1ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.RememberShape.Yes</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -169,7 +169,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>same as <ref refid="classMR_1_1Laplacian_1a465de937f70863f60a48bdc752533568" kindref="member">init()</ref> but uses the given points instead of ones passed to a constructor for weights computation and shape memory Generated from method <computeroutput><ref refid="classMR_1_1Laplacian_1a95b7b062050fc6505a5a7b7f01bb0cf6" kindref="member">MR.Laplacian.initFromPoints</ref></computeroutput>. Parameter <computeroutput>vmass</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" kindref="member">VertexMass.Unit</ref></computeroutput>. Parameter <computeroutput>rem</computeroutput> defaults to <computeroutput><ref refid="classMR_1ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435" kindref="member">RememberShape.Yes</ref></computeroutput>. </para>
+<para>same as <ref refid="classMR_1_1Laplacian_1a465de937f70863f60a48bdc752533568" kindref="member">init()</ref> but uses the given points instead of ones passed to a constructor for weights computation and shape memory Generated from method <computeroutput><ref refid="classMR_1_1Laplacian_1a95b7b062050fc6505a5a7b7f01bb0cf6" kindref="member">MR.Laplacian.initFromPoints</ref></computeroutput>. Parameter <computeroutput>vmass</computeroutput> defaults to <computeroutput><ref refid="classMR_1ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" kindref="member">MR.VertexMass.Unit</ref></computeroutput>. Parameter <computeroutput>rem</computeroutput> defaults to <computeroutput><ref refid="classMR_1ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435" kindref="member">MR.RememberShape.Yes</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

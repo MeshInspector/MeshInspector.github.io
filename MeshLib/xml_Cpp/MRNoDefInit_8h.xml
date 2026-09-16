@@ -94,9 +94,11 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -129,59 +131,63 @@
         <label>MRMesh/MRPointCloudTriangulationHelpers.h</label>
         <link refid="MRPointCloudTriangulationHelpers_8h"/>
       </node>
-      <node id="10">
+      <node id="9">
+        <label>MRMesh/MRVarBigInt.h</label>
+        <link refid="MRVarBigInt_8h"/>
+      </node>
+      <node id="11">
         <label>MRViewer/MRGLStaticHolder.h</label>
         <link refid="MRGLStaticHolder_8h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>MRViewer/MRRenderFeatureObjects.h</label>
-        <link refid="MRRenderFeatureObjects_8h"/>
-      </node>
-      <node id="9">
-        <label>MRViewer/MRRenderHelpers.h</label>
-        <link refid="MRRenderHelpers_8h"/>
-        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+      </node>
+      <node id="13">
+        <label>MRViewer/MRRenderFeatureObjects.h</label>
+        <link refid="MRRenderFeatureObjects_8h"/>
+      </node>
+      <node id="10">
+        <label>MRViewer/MRRenderHelpers.h</label>
+        <link refid="MRRenderHelpers_8h"/>
         <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-      </node>
-      <node id="15">
-        <label>MRViewer/MRRenderLabelObject.h</label>
-        <link refid="MRRenderLabelObject_8h"/>
-      </node>
-      <node id="11">
-        <label>MRViewer/MRRenderLinesObject.h</label>
-        <link refid="MRRenderLinesObject_8h"/>
         <childnode refid="12" relation="include">
         </childnode>
-      </node>
-      <node id="13">
-        <label>MRViewer/MRRenderMeshObject.h</label>
-        <link refid="MRRenderMeshObject_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-      </node>
-      <node id="14">
-        <label>MRViewer/MRRenderPointsObject.h</label>
-        <link refid="MRRenderPointsObject_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="16">
+        <label>MRViewer/MRRenderLabelObject.h</label>
+        <link refid="MRRenderLabelObject_8h"/>
+      </node>
+      <node id="12">
+        <label>MRViewer/MRRenderLinesObject.h</label>
+        <link refid="MRRenderLinesObject_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRViewer/MRRenderMeshObject.h</label>
+        <link refid="MRRenderMeshObject_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRViewer/MRRenderPointsObject.h</label>
+        <link refid="MRRenderPointsObject_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
         <label>MRViewer/MRRenderVolumeObject.h</label>
         <link refid="MRRenderVolumeObject_8h"/>
       </node>

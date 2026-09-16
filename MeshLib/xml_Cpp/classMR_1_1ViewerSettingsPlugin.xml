@@ -3,7 +3,7 @@
   <compounddef id="classMR_1_1ViewerSettingsPlugin" kind="class" language="C++" prot="public">
     <compoundname>MR::ViewerSettingsPlugin</compoundname>
     <basecompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt;&gt;</basecompoundref>
-    <includes refid="MRViewerSettingsPlugin_8h" local="no">MRViewer/MRViewerSettingsPlugin.h</includes>
+    <includes refid="MRViewerSettingsPlugin_8h" local="no">MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</includes>
     <innerclass refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings" prot="public">MR::ViewerSettingsPlugin::ExternalSettings</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" kind="enum"><name>TabType</name></member>
@@ -29,13 +29,13 @@
       <member refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" kind="function"><name>ViewerSettingsPlugin</name></member>
       <member refid="group__GeneralGroup_1ga119e03f41d8f3bdf0c9ee522b8ad623b" kind="function"><name>drawDialog</name></member>
       <member refid="group__GeneralGroup_1gac31f0ed7c0847408208b9cd59d7a9c40" kind="function"><name>blocking</name></member>
-      <member refid="group__GeneralGroup_1gabb15c0c1b70bb9ff91021e28f50a7b15" kind="function"><name>updateThemes</name></member>
-      <member refid="group__GeneralGroup_1ga26c3643fb290f5451aba04478ef7d6cd" kind="function"><name>addComboSettings</name></member>
-      <member refid="group__GeneralGroup_1ga825a622fcfe43eae88b6c32e132c0ba3" kind="function"><name>delComboSettings</name></member>
-      <member refid="group__GeneralGroup_1gacc58c168370abe4d53898a41e80cfc51" kind="function"><name>setActiveTab</name></member>
+      <member refid="group__GeneralGroup_1ga2bd394f0e78044d2a22dbea3c993e04c" kind="function"><name>updateThemes</name></member>
+      <member refid="group__GeneralGroup_1ga7c752a952b08baa8a106a3df277698df" kind="function"><name>addComboSettings</name></member>
+      <member refid="group__GeneralGroup_1ga4861cc201749e069416f4f233de758cd" kind="function"><name>delComboSettings</name></member>
+      <member refid="group__GeneralGroup_1ga87d0a86ee8efb653beafdd42d3e969fc" kind="function"><name>setActiveTab</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <member refid="group__GeneralGroup_1gaf31247144d4b7dbe6ce93572ca7047cc" kind="function"><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gad9bb1178cd07c90a5a7cedf2236259c4" kind="function"><name>instance</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gad68314882fab9a5eb41c7e70678268cd" kind="function"><name>onEnable_</name></member>
@@ -197,17 +197,17 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRViewerSettingsPlugin.h" line="17" column="1" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="18" bodyend="133"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="18" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="19" bodyend="134"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gaca69b2de3f466e977b398c0155b02cca" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>activeTab_</name></member>
-      <member refid="group__GeneralGroup_1ga26c3643fb290f5451aba04478ef7d6cd" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>addComboSettings</name></member>
+      <member refid="group__GeneralGroup_1ga7c752a952b08baa8a106a3df277698df" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>addComboSettings</name></member>
       <member refid="group__GeneralGroup_1gad8e0bf4467ab87e19a5146de2385bebf" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>backgroundColor_</name></member>
       <member refid="group__GeneralGroup_1gac31f0ed7c0847408208b9cd59d7a9c40" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>blocking</name></member>
       <member refid="group__GeneralGroup_1ga637d5932d31bff8b065062c7e191fc05" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>checkStringMask</name></member>
       <member refid="group__GeneralGroup_1ga70f10bd29105edf9ee71c6dd68ef5c9b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>comboSettings_</name></member>
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>connect</name></member>
-      <member refid="group__GeneralGroup_1ga825a622fcfe43eae88b6c32e132c0ba3" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>delComboSettings</name></member>
+      <member refid="group__GeneralGroup_1ga4861cc201749e069416f4f233de758cd" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>delComboSettings</name></member>
       <member refid="group__GeneralGroup_1ga55b362aee5989fe359aadd33c9be78b4" prot="protected" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>dialogIsCollapsed_</name></member>
       <member refid="group__GeneralGroup_1ga4f65b03557a2fc96a2243d1d1ce7e99b" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>dialogIsOpen</name></member>
       <member refid="group__GeneralGroup_1ga1d97f71a0f325fbe29b0bbec3e564204" prot="protected" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>dialogIsOpen_</name></member>
@@ -249,7 +249,7 @@
       <member refid="group__GeneralGroup_1ga8b0d0e857bc86e82e9aafaa8c2fb3a9b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>gpuOverridesMSAA_</name></member>
       <member refid="group__GeneralGroup_1ga4a73edaf848e58004c9362f2ac6df049" prot="protected" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>ImGuiBeginWindow_</name></member>
       <member refid="group__GeneralGroup_1ga67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>init</name></member>
-      <member refid="group__GeneralGroup_1gaf31247144d4b7dbe6ce93572ca7047cc" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gad9bb1178cd07c90a5a7cedf2236259c4" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>instance</name></member>
       <member refid="group__GeneralGroup_1ga2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>isActive</name></member>
       <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>isAvailable</name></member>
       <member refid="group__GeneralGroup_1ga23d5a6b87188d85970d7592c1c901ff8" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>isEnabled</name></member>
@@ -271,7 +271,7 @@
       <member refid="group__GeneralGroup_1ga45939d4c50c20e1fe0bbfdb77d397ae1" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>RibbonMenuItem</name></member>
       <member refid="group__GeneralGroup_1gad0e0d1cc8fce8e794694d3f6d877d794" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>selectedLanguage_</name></member>
       <member refid="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>selectedUserPreset_</name></member>
-      <member refid="group__GeneralGroup_1gacc58c168370abe4d53898a41e80cfc51" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setActiveTab</name></member>
+      <member refid="group__GeneralGroup_1ga87d0a86ee8efb653beafdd42d3e969fc" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setActiveTab</name></member>
       <member refid="group__GeneralGroup_1ga8e7e2dc213b0d280a1c4c3dcde52aa9e" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setDropItemsFromItemList</name></member>
       <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setRibbonItemType</name></member>
       <member refid="group__GeneralGroup_1ga0223aec29e05a326d4505029393e7608" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setUIName</name></member>
@@ -292,7 +292,7 @@
       <member refid="group__GeneralGroup_1ga14f462561c6d7534870cd58ca7bf20fb" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>UINameSuffix</name></member>
       <member refid="group__GeneralGroup_1gad21a2705e7ef20d2834f543c459d1df2" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>updateDialog_</name></member>
       <member refid="group__GeneralGroup_1ga0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>updateSelection</name></member>
-      <member refid="group__GeneralGroup_1gabb15c0c1b70bb9ff91021e28f50a7b15" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>updateThemes</name></member>
+      <member refid="group__GeneralGroup_1ga2bd394f0e78044d2a22dbea3c993e04c" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>updateThemes</name></member>
       <member refid="group__GeneralGroup_1gad4388798318e29736315d5a9cb21ebb0" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>userThemesPresets_</name></member>
       <member refid="group__GeneralGroup_1gad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>viewer</name></member>
       <member refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>ViewerSettingsPlugin</name></member>

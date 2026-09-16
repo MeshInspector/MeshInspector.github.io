@@ -6,6 +6,7 @@ var classMR_1_1Const__VisualObject =
     [ "classNameInPlural", "classMR_1_1Const__VisualObject.html#ababab9303c0a975ddd33baf78ab43864", null ],
     [ "clone", "classMR_1_1Const__VisualObject.html#affc78eeb71e85a226fe83b837823e90b", null ],
     [ "cloneTree", "classMR_1_1Const__VisualObject.html#a72f5446e9a54305ec6bbaa78f7ea2ea5", null ],
+    [ "constChildren", "classMR_1_1Const__VisualObject.html#a8a733a7f3d37c70a5ba9d96ab149de1e", null ],
     [ "Dispose", "classMR_1_1Const__VisualObject.html#a3a691bed6d74f01539a4d620686410c2", null ],
     [ "Dispose", "classMR_1_1Const__VisualObject.html#a3078f81c09d54fb07ae1ed75ea8f00fc", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__VisualObject.html#ad0f43a8225769d169e491d417e45987e", null ],

@@ -26,6 +26,7 @@ var MRSceneRoot_8h =
     [ "MR_SceneRootObject_clone", "MRSceneRoot_8h.html#aa7fbaf527d9ba53b3258fff71d4e47ed", null ],
     [ "MR_SceneRootObject_cloneRoot", "MRSceneRoot_8h.html#a771df96f595492ec18d214432350247e", null ],
     [ "MR_SceneRootObject_cloneTree", "MRSceneRoot_8h.html#aa5b5e1fcbd687234a8d8366770c43347", null ],
+    [ "MR_SceneRootObject_constChildren", "MRSceneRoot_8h.html#af277d67488fffb9a8b5aff17bf590b1e", null ],
     [ "MR_SceneRootObject_ConstructFromAnother", "MRSceneRoot_8h.html#ab09df5b7d6706524e779413ca9feafd5", null ],
     [ "MR_SceneRootObject_DefaultConstruct", "MRSceneRoot_8h.html#a881f702590d2b633de1ede775e216346", null ],
     [ "MR_SceneRootObject_DefaultConstructArray", "MRSceneRoot_8h.html#a5859e84688bdf60c5bed52fd4f63c32f", null ],

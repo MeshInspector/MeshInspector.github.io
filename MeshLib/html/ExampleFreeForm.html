@@ -140,7 +140,9 @@ $(function(){initNavTree('ExampleFreeForm.html','',''); });
   <div class="headertitle"><div class="title">Free Form Deformation Example </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Example of using Free Form deformation of the mesh</p>
+<div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2FreeFormDeformation"></a></p>
+<p>Example of using Free Form deformation of the mesh</p>
+<p>▶ <a href="https://demo.meshlib.io/#deform">See it live in the browser</a></p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRFreeFormDeformer.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
@@ -286,12 +288,13 @@ $(function(){initNavTree('ExampleFreeForm.html','',''); });
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>FreeFormDeformationExample</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <span class="comment">// Load mesh</span></div>
-<div class="line">            var mesh = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line">            <span class="comment">// Make a mesh to deform</span></div>
+<div class="line">            <span class="comment">// (to deform your own mesh, load it with MR.MeshLoad.fromAnySupportedFormat(&quot;mesh.stl&quot;) instead)</span></div>
+<div class="line">            var mesh = MR.makeUVSphere(1.0f, 32, 32);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Compute mesh bounding box</span></div>
 <div class="line">            MR.Box3f box = mesh.getBoundingBox();</div>
@@ -359,9 +362,10 @@ $(function(){initNavTree('ExampleFreeForm.html','',''); });
 <div class="line"> </div>
 <div class="line">// Save deformed mesh</div>
 <div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;deformed_mesh.stl&#39;);</div>
-</div><!-- fragment --></li>
+</div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
+</li>
 </ul>
-</div><div class="tabbed"></div> </div></div><!-- contents -->
+</div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

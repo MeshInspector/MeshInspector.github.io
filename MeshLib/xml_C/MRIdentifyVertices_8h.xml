@@ -39,38 +39,6 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" prot="public" static="no">
-        <type>struct <ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref></type>
-        <definition>typedef struct MR_Triangulation MR_Triangulation</definition>
-        <argsstring></argsstring>
-        <name>MR_Triangulation</name>
-        <briefdescription>
-<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="templateparam"><parameteritem>
-<parameternamelist>
-<parametername>T</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>type of stored elements </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>I</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Triangulation</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIdentifyVertices.h" line="13" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIdentifyVertices.h" bodystart="13" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" prot="public" static="no">
         <type>struct <ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref></type>
         <definition>typedef struct MR_std_vector_std_array_MR_Vector3f_3 MR_std_vector_std_array_MR_Vector3f_3</definition>
@@ -522,7 +490,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIdentifyVertices.h" line="124" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIdentifyVertices.h" declline="124" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRIdentifyVertices_8h_1ad69d4834421103f42e06044516de75d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref> *</type>
         <definition>MRC_API MR_Triangulation * MR_MeshBuilder_VertexIdentifier_takeTriangulation</definition>
         <argsstring>(MR_MeshBuilder_VertexIdentifier *_this)</argsstring>
         <name>MR_MeshBuilder_VertexIdentifier_takeTriangulation</name>
@@ -575,7 +543,7 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16" refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref><sp/><ref refid="MRIdentifyVertices_8h_1af3681c958ee919df825e522f1899b362" kindref="member">MR_std_vector_std_array_MR_Vector3f_3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_array_MR_Vector3f_3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
@@ -625,7 +593,7 @@
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="124" refid="MRIdentifyVertices_8h_1a844c026cc79096ae62a0cb2235c380e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1a844c026cc79096ae62a0cb2235c380e2" kindref="member">MR_MeshBuilder_VertexIdentifier_numTris</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRIdentifyVertices_8h_1ad69d4834421103f42e06044516de75d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1ad69d4834421103f42e06044516de75d3" kindref="member">MR_MeshBuilder_VertexIdentifier_takeTriangulation</ref>(<ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="130" refid="MRIdentifyVertices_8h_1ad69d4834421103f42e06044516de75d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlphaShape_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1ad69d4834421103f42e06044516de75d3" kindref="member">MR_MeshBuilder_VertexIdentifier_takeTriangulation</ref>(<ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
 <codeline lineno="136" refid="MRIdentifyVertices_8h_1ad05b3c0af4b060e91c9e655168de4000" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRIdentifyVertices_8h_1ad05b3c0af4b060e91c9e655168de4000" kindref="member">MR_MeshBuilder_VertexIdentifier_takePoints</ref>(<ref refid="MRIdentifyVertices_8h_1adfc57908a1555561f8f53abd4bc8f04c" kindref="member">MR_MeshBuilder_VertexIdentifier</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>

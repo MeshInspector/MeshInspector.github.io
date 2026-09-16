@@ -15,6 +15,9 @@ var hierarchy =
     [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
     [ "MR::SpaceMouse::Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
     [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", null ],
+    [ "MR::AlphaShapeData", "structMR_1_1AlphaShapeData.html", null ],
+    [ "MR::AlphaShapeNei", "structMR_1_1AlphaShapeNei.html", null ],
+    [ "MR::AlphaShapeStats", "structMR_1_1AlphaShapeStats.html", null ],
     [ "MR::AlphaSortGL", "classMR_1_1AlphaSortGL.html", null ],
     [ "MR::AncillaryLabel", "structMR_1_1AncillaryLabel.html", null ],
     [ "MR::AncillaryLines", "structMR_1_1AncillaryLines.html", null ],
@@ -195,6 +198,7 @@ var hierarchy =
     [ "MR::Parallel::CallSimplyMaker", "structMR_1_1Parallel_1_1CallSimplyMaker.html", null ],
     [ "MR::Parallel::CallWithTLS< T >", "structMR_1_1Parallel_1_1CallWithTLS.html", null ],
     [ "MR::Parallel::CallWithTLSMaker< L >", "structMR_1_1Parallel_1_1CallWithTLSMaker.html", null ],
+    [ "MR::CameraPointsTriangulationSettings", "structMR_1_1CameraPointsTriangulationSettings.html", null ],
     [ "MR::Pdf::Cell", "structMR_1_1Pdf_1_1Cell.html", null ],
     [ "MR::Pdf::CellCustomParams", "structMR_1_1Pdf_1_1CellCustomParams.html", null ],
     [ "MR::UI::CheckboxOrModifierState", "structMR_1_1UI_1_1CheckboxOrModifierState.html", null ],
@@ -297,6 +301,7 @@ var hierarchy =
       ] ],
       [ "MR::MultiListener< Connectables >", "structMR_1_1MultiListener.html", null ]
     ] ],
+    [ "MR::ConstChildren", "classMR_1_1ConstChildren.html", null ],
     [ "MR::ContoursDistanceMapOffset", "structMR_1_1ContoursDistanceMapOffset.html", null ],
     [ "MR::ContoursDistanceMapOptions", "structMR_1_1ContoursDistanceMapOptions.html", null ],
     [ "MR::ContoursMeshAlignParams", "structMR_1_1ContoursMeshAlignParams.html", null ],
@@ -324,6 +329,7 @@ var hierarchy =
     [ "MR::DecimatePolylineSettings< V >", "structMR_1_1DecimatePolylineSettings.html", null ],
     [ "MR::DecimateResult", "structMR_1_1DecimateResult.html", null ],
     [ "MR::DecimateSettings", "structMR_1_1DecimateSettings.html", null ],
+    [ "MR::DeloneFlipsCache", "structMR_1_1DeloneFlipsCache.html", null ],
     [ "MR::DeloneSettings", "structMR_1_1DeloneSettings.html", null ],
     [ "MR::DenoiseViaNormalsSettings", "structMR_1_1DenoiseViaNormalsSettings.html", null ],
     [ "MR::DenseBox", "structMR_1_1DenseBox.html", null ],
@@ -412,6 +418,7 @@ var hierarchy =
     [ "MR::FanRecord", "structMR_1_1FanRecord.html", [
       [ "MR::FanRecordWithCenter", "structMR_1_1FanRecordWithCenter.html", null ]
     ] ],
+    [ "MR::FastInt< nBits >", "classMR_1_1FastInt.html", null ],
     [ "MR::FeatureObjectProjectPointResult", "structMR_1_1FeatureObjectProjectPointResult.html", null ],
     [ "MR::FeatureObjectSharedProperty", "structMR_1_1FeatureObjectSharedProperty.html", null ],
     [ "MR::FewSmallest< T >", "classMR_1_1FewSmallest.html", null ],
@@ -422,6 +429,7 @@ var hierarchy =
       [ "MR::FileDialog::Parameters", "structMR_1_1FileDialog_1_1Parameters.html", null ]
     ] ],
     [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", null ],
+    [ "MR::FillHoleItemEdge", "structMR_1_1FillHoleItemEdge.html", null ],
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
     [ "MR::FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", null ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
@@ -473,6 +481,7 @@ var hierarchy =
     [ "MR::GCommand", "structMR_1_1GCommand.html", null ],
     [ "MR::GeodesicPath", "structMR_1_1GeodesicPath.html", null ],
     [ "MR::GlBuffer", "classMR_1_1GlBuffer.html", null ],
+    [ "MR::GLDriverIssue", "structMR_1_1GLDriverIssue.html", null ],
     [ "MR::GLStaticHolder", "classMR_1_1GLStaticHolder.html", null ],
     [ "MR::GlTexture", "classMR_1_1GlTexture.html", [
       [ "MR::GlTexture2", "classMR_1_1GlTexture2.html", null ],
@@ -627,6 +636,7 @@ var hierarchy =
     [ "MR::IFastWindingNumberByParts", "classMR_1_1IFastWindingNumberByParts.html", [
       [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", null ]
     ] ],
+    [ "MR::IFillContours2DPlanCache", "classMR_1_1IFillContours2DPlanCache.html", null ],
     [ "MR::IICPTreeIndexer", "classMR_1_1IICPTreeIndexer.html", null ],
     [ "MR::Image", "structMR_1_1Image.html", [
       [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", null ]
@@ -643,7 +653,13 @@ var hierarchy =
     [ "MR::InplaceStack< T, N >", "classMR_1_1InplaceStack.html", null ],
     [ "MR::InSphere", "structMR_1_1InSphere.html", null ],
     [ "MR::InSphereSearchSettings", "structMR_1_1InSphereSearchSettings.html", null ],
-    [ "MR::InSphereTester< T >", "classMR_1_1InSphereTester.html", null ],
+    [ "MR::InSphereTester< T >", "classMR_1_1InSphereTester.html", [
+      [ "MR::InSphereTesterSoS", "classMR_1_1InSphereTesterSoS.html", [
+        [ "MR::FastInSphereTesterSoS", "classMR_1_1FastInSphereTesterSoS.html", null ]
+      ] ]
+    ] ],
+    [ "MR::Int128Mul256", "classMR_1_1Int128Mul256.html", null ],
+    [ "MR::Int64Mul128", "classMR_1_1Int64Mul128.html", null ],
     [ "std::integral_constant", null, [
       [ "MR::ImGuiMath::detail::CommonVecSize< T, P... >", "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html", null ],
       [ "MR::ImGuiMath::detail::VecSize< ImVec2 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html", null ],
@@ -653,6 +669,7 @@ var hierarchy =
       [ "MR::ImGuiMath::detail::VecSize< ImVec2 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html", null ],
       [ "MR::ImGuiMath::detail::VecSize< ImVec4 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html", null ]
     ] ],
+    [ "MR::InterpolateScalarsParams", "structMR_1_1InterpolateScalarsParams.html", null ],
     [ "MR::PlanarTriangulation::IntersectionInfo", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html", null ],
     [ "MR::IntersectionPrecomputes< T >", "structMR_1_1IntersectionPrecomputes.html", null ],
     [ "MR::IntersectionPrecomputes2< T >", "structMR_1_1IntersectionPrecomputes2.html", null ],
@@ -768,7 +785,9 @@ var hierarchy =
       [ "MR::SceneStateExactCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", null ]
     ] ],
     [ "MR::NormalsToPoints::ISolver", "classMR_1_1NormalsToPoints_1_1ISolver.html", null ],
+    [ "MR::PlanarTriangulation::ISweepLineCache", "classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html", null ],
     [ "MR::ItemEnabledPerViewport", "classMR_1_1ItemEnabledPerViewport.html", null ],
+    [ "MR::ConstChildren::Iterator", "classMR_1_1ConstChildren_1_1Iterator.html", null ],
     [ "MR::IteratorRange< I >", "structMR_1_1IteratorRange.html", null ],
     [ "MR::ITransformControls", "classMR_1_1ITransformControls.html", [
       [ "MR::TransformControls", "classMR_1_1TransformControls.html", null ]
@@ -818,9 +837,11 @@ var hierarchy =
     [ "MR::Matrix3< T >", "structMR_1_1Matrix3.html", null ],
     [ "MR::Matrix4< T >", "structMR_1_1Matrix4.html", null ],
     [ "MR::MaxArg< T, I >", "structMR_1_1MaxArg.html", null ],
+    [ "MR::McOffsetMeshOutputs", "structMR_1_1McOffsetMeshOutputs.html", null ],
     [ "MR::Features::MeasureResult", "structMR_1_1Features_1_1MeasureResult.html", null ],
     [ "MR::MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", null ],
     [ "MR::MenuItemInfo", "structMR_1_1MenuItemInfo.html", null ],
+    [ "MR::MenuItemShortcut", "structMR_1_1MenuItemShortcut.html", null ],
     [ "MR::MergeVolumePartSettings", "structMR_1_1MergeVolumePartSettings.html", null ],
     [ "MR::Mesh", "structMR_1_1Mesh.html", null ],
     [ "MR::MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", null ],
@@ -842,7 +863,9 @@ var hierarchy =
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshPoint", "structMR_1_1MeshPoint.html", null ],
     [ "MR::MeshPointAndDistance", "structMR_1_1MeshPointAndDistance.html", null ],
-    [ "MR::MeshProjectionParameters", "structMR_1_1MeshProjectionParameters.html", null ],
+    [ "MR::MeshProjectionParameters", "structMR_1_1MeshProjectionParameters.html", [
+      [ "MR::ShrinkwrapParameters", "structMR_1_1ShrinkwrapParameters.html", null ]
+    ] ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshProjectionTransforms", "structMR_1_1MeshProjectionTransforms.html", null ],
     [ "MR::MeshRegion< RegionTag >", "structMR_1_1MeshRegion.html", null ],
@@ -1219,6 +1242,8 @@ var hierarchy =
     [ "MR::SharpenMarchingCubesMeshSettings", "structMR_1_1SharpenMarchingCubesMeshSettings.html", null ],
     [ "MR::ShellVertexInfo", "structMR_1_1ShellVertexInfo.html", null ],
     [ "MR::ShiftTransformer< TreeT >", "classMR_1_1ShiftTransformer.html", null ],
+    [ "MR::Shortcut", "structMR_1_1Shortcut.html", null ],
+    [ "MR::ShortcutManager::ShortcutAction", "structMR_1_1ShortcutManager_1_1ShortcutAction.html", null ],
     [ "MR::ShortcutManager::ShortcutCommand", "structMR_1_1ShortcutManager_1_1ShortcutCommand.html", null ],
     [ "MR::ShortcutKey", "structMR_1_1ShortcutKey.html", null ],
     [ "boost::signals2::signal", null, [
@@ -1237,6 +1262,7 @@ var hierarchy =
     [ "MR::SliceInfoBase", "structMR_1_1SliceInfoBase.html", [
       [ "MR::SliceInfo", "structMR_1_1SliceInfo.html", null ]
     ] ],
+    [ "MR::SmoothCameraMeshDepthSettings", "structMR_1_1SmoothCameraMeshDepthSettings.html", null ],
     [ "MR::SmoothFillingSettings", "structMR_1_1SmoothFillingSettings.html", null ],
     [ "MR::SomeLocalTriangulations", "structMR_1_1SomeLocalTriangulations.html", null ],
     [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", null ],
@@ -1379,6 +1405,7 @@ var hierarchy =
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html", null ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html", null ],
     [ "MR::UI::TestEngine::ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", null ],
+    [ "MR::VarBigInt", "classMR_1_1VarBigInt.html", null ],
     [ "MR::VarEdgeTri", "structMR_1_1VarEdgeTri.html", null ],
     [ "MR::ImGuiMath::detail::VecFromSize< N >", "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize.html", null ],
     [ "MR::ImGuiMath::detail::VecFromSize< 2 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html", null ],

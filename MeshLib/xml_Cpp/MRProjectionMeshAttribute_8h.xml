@@ -42,14 +42,14 @@
         <childnode refid="35" relation="include">
         </childnode>
       </node>
-      <node id="56">
+      <node id="57">
         <label>MRBitSetParallelFor.h</label>
         <link refid="MRBitSetParallelFor_8h"/>
         <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="57" relation="include">
-        </childnode>
         <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
         </childnode>
         <childnode refid="42" relation="include">
         </childnode>
@@ -90,7 +90,7 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="57">
+      <node id="58">
         <label>MRFunctional.h</label>
         <link refid="MRFunctional_8h"/>
         <childnode refid="11" relation="include">
@@ -143,20 +143,22 @@
         </childnode>
         <childnode refid="49" relation="include">
         </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
         <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
       </node>
-      <node id="60">
+      <node id="61">
         <label>MRMeshAttributesToUpdate.h</label>
         <link refid="MRMeshAttributesToUpdate_8h"/>
         <childnode refid="2" relation="include">
@@ -208,26 +210,26 @@
         <childnode refid="47" relation="include">
         </childnode>
       </node>
-      <node id="50">
+      <node id="51">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="50">
         <label>MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
         <childnode refid="47" relation="include">
         </childnode>
         <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
-        </childnode>
         <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
@@ -266,10 +268,10 @@
         <childnode refid="41" relation="include">
         </childnode>
       </node>
-      <node id="58">
+      <node id="59">
         <label>MRParallel.h</label>
         <link refid="MRParallel_8h"/>
-        <childnode refid="59" relation="include">
+        <childnode refid="60" relation="include">
         </childnode>
       </node>
       <node id="36">
@@ -315,11 +317,11 @@
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="57" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
-        <childnode refid="60" relation="include">
+        <childnode refid="61" relation="include">
         </childnode>
       </node>
       <node id="29">
@@ -340,7 +342,7 @@
         <childnode refid="40" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="54">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="2" relation="include">
@@ -349,7 +351,7 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
       </node>
       <node id="38">
@@ -410,7 +412,25 @@
         <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="55">
+      <node id="49">
+        <label>MRVertDuplication.h</label>
+        <link refid="MRVertDuplication_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
         <label>MRWriter.h</label>
         <link refid="MRWriter_8h"/>
       </node>
@@ -424,7 +444,7 @@
       <node id="45">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="59">
+      <node id="60">
         <label>MRPch/MRTBB.h</label>
       </node>
       <node id="34">
@@ -439,7 +459,7 @@
       <node id="13">
         <label>cassert</label>
       </node>
-      <node id="51">
+      <node id="52">
         <label>cfloat</label>
       </node>
       <node id="23">
@@ -469,10 +489,10 @@
       <node id="40">
         <label>limits</label>
       </node>
-      <node id="54">
+      <node id="55">
         <label>memory</label>
       </node>
-      <node id="52">
+      <node id="53">
         <label>optional</label>
       </node>
       <node id="10">

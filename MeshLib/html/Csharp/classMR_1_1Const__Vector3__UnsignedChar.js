@@ -12,7 +12,7 @@ var classMR_1_1Const__Vector3__UnsignedChar =
     [ "Equals", "classMR_1_1Const__Vector3__UnsignedChar.html#aad8e2cb2f3b6fcaf017fc4721197464f", null ],
     [ "furthestBasisVector", "classMR_1_1Const__Vector3__UnsignedChar.html#ab010d5c17ef859d75a2a9e2a257e8ac1", null ],
     [ "length", "classMR_1_1Const__Vector3__UnsignedChar.html#ab5769e4fca6ee2a3df13cf1e49434a71", null ],
-    [ "lengthSq", "classMR_1_1Const__Vector3__UnsignedChar.html#af2d7f58cdf218ede5868c99a16fff300", null ],
+    [ "lengthSq", "classMR_1_1Const__Vector3__UnsignedChar.html#ad6f785a5e7d8580c5d2d2968ba220208", null ],
     [ "operator!=", "classMR_1_1Const__Vector3__UnsignedChar.html#ab0e63662dcfaf7176ac28a5c022d27eb", null ],
     [ "operator*", "classMR_1_1Const__Vector3__UnsignedChar.html#aade35d22bda7baebc873883bca99403a", null ],
     [ "operator*", "classMR_1_1Const__Vector3__UnsignedChar.html#a2a8d0ea80b960aa88d39c1c2fde04538", null ],

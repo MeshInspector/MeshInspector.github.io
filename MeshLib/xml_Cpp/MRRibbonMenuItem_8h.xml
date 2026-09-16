@@ -6,14 +6,14 @@
     <includes local="no">string</includes>
     <includes local="no">memory</includes>
     <includedby refid="MRDrawViewportWidgetsItem_8h" local="yes">MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h</includedby>
+    <includedby refid="MRHistoryMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h</includedby>
     <includedby refid="MRIOFilesMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</includedby>
     <includedby refid="MRRibbonSceneButtons_8h" local="yes">MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</includedby>
-    <includedby refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includedby>
+    <includedby refid="MRSceneControlMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includedby>
     <includedby refid="MRLambdaRibbonItem_8h" local="yes">MRViewer/MRLambdaRibbonItem.h</includedby>
     <includedby refid="MRRibbonButtonDrawer_8h" local="yes">MRViewer/MRRibbonButtonDrawer.h</includedby>
     <includedby refid="MRRibbonMenu_8h" local="yes">MRViewer/MRRibbonMenu.h</includedby>
     <includedby refid="MRRibbonRegisterItem_8h" local="yes">MRViewer/MRRibbonRegisterItem.h</includedby>
-    <includedby refid="MRViewer_2MRSceneControlMenuItems_8h" local="yes">MRViewer/MRSceneControlMenuItems.h</includedby>
     <includedby refid="MRStatePlugin_8h" local="yes">MRViewer/MRStatePlugin.h</includedby>
     <incdepgraph>
       <node id="9">
@@ -149,40 +149,48 @@
         <link refid="MRAddCustomTheme_8h"/>
       </node>
       <node id="3">
+        <label>MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h</label>
+        <link refid="MRHistoryMenuItems_8h"/>
+      </node>
+      <node id="4">
         <label>MRCommonPlugins/ViewerButtons/MRIOFilesMenuItems.h</label>
         <link refid="MRIOFilesMenuItems_8h"/>
       </node>
-      <node id="4">
+      <node id="5">
         <label>MRCommonPlugins/ViewerButtons/MRRibbonSceneButtons.h</label>
         <link refid="MRRibbonSceneButtons_8h"/>
       </node>
-      <node id="5">
+      <node id="6">
         <label>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</label>
-        <link refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h"/>
+        <link refid="MRSceneControlMenuItems_8h"/>
       </node>
       <node id="18">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
+      <node id="19">
         <label>MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h</label>
         <link refid="MRBinaryOperationsPlugin_8h"/>
       </node>
-      <node id="19">
+      <node id="20">
         <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
-      <node id="6">
+      <node id="7">
         <label>MRViewer/MRLambdaRibbonItem.h</label>
         <link refid="MRLambdaRibbonItem_8h"/>
       </node>
-      <node id="20">
+      <node id="21">
         <label>MRViewer/MRMeshModifier.h</label>
         <link refid="MRMeshModifier_8h"/>
       </node>
-      <node id="7">
+      <node id="8">
         <label>MRViewer/MRRibbonButtonDrawer.h</label>
         <link refid="MRRibbonButtonDrawer_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="9">
         <label>MRViewer/MRRibbonMenu.h</label>
         <link refid="MRRibbonMenu_8h"/>
       </node>
@@ -205,34 +213,30 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="11">
+      <node id="12">
         <label>MRViewer/MRRibbonMenuSearch.h</label>
         <link refid="MRRibbonMenuSearch_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>MRViewer/MRRibbonRegisterItem.h</label>
-        <link refid="MRRibbonRegisterItem_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
       <node id="10">
-        <label>MRViewer/MRRibbonSchema.h</label>
-        <link refid="MRRibbonSchema_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
+        <label>MRViewer/MRRibbonRegisterItem.h</label>
+        <link refid="MRRibbonRegisterItem_8h"/>
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="12">
-        <label>MRViewer/MRSceneControlMenuItems.h</label>
-        <link refid="MRViewer_2MRSceneControlMenuItems_8h"/>
+      <node id="11">
+        <label>MRViewer/MRRibbonSchema.h</label>
+        <link refid="MRRibbonSchema_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
       </node>
       <node id="13">
         <label>MRViewer/MRStatePlugin.h</label>
@@ -245,7 +249,7 @@
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
@@ -255,10 +259,6 @@
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-      </node>
-      <node id="21">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classMR_1_1RibbonMenuItem" prot="public">MR::RibbonMenuItem</innerclass>

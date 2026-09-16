@@ -72,6 +72,7 @@
       <member refid="group__GeneralGroup_1gab5532c1d01a39c62fd0e2aadaafa3e16" kind="function"><name>setControlsXf_</name></member>
       <member refid="group__GeneralGroup_1ga09f25aa1c06cec83387d270cbd72d3ea" kind="function"><name>addXf_</name></member>
       <member refid="group__GeneralGroup_1gacd15c53d1b1e7d47caa576ab32dab2db" kind="function"><name>stopModify_</name></member>
+      <member refid="group__GeneralGroup_1ga6581f58b2d62ded8d0f60dad0c3d9577" kind="function"><name>editModeFor_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -112,7 +113,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRObjectTransformWidget.h" line="224" column="1" bodyfile="MRViewer/MRObjectTransformWidget.h" bodystart="225" bodyend="398"/>
+    <location file="MRViewer/MRObjectTransformWidget.h" line="225" column="1" bodyfile="MRViewer/MRObjectTransformWidget.h" bodystart="226" bodyend="402"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gabfce02c63c40c156d75f3cfdb295cd35" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>accumAngle_</name></member>
       <member refid="group__GeneralGroup_1gadf7dda2a6ad3aec260c818b17abb25ec" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>accumShift_</name></member>
@@ -134,6 +135,7 @@
       <member refid="group__GeneralGroup_1gaef969a3ce10018f60dfd2a91386cc9dc" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>create</name></member>
       <member refid="group__GeneralGroup_1ga35449e1ae8d7cbf3fd2419e1bbf163c1" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>currentScaling_</name></member>
       <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga6581f58b2d62ded8d0f60dad0c3d9577" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>editModeFor_</name></member>
       <member refid="group__GeneralGroup_1gafb0da08c56395ca16379820ac5911047" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>followObjVisibility</name></member>
       <member refid="group__GeneralGroup_1ga80fb43258823d107074fb68a3f1c411d" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getAxisTransformMode</name></member>
       <member refid="group__GeneralGroup_1gaebfb068e75e8789d13365be5f6185026" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget</scope><name>getControls</name></member>

@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="235" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="235" bodyend="235"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="472" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="472" bodyend="472"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__HoleFillPlan_1aa1e7a0fb8157f1a490792c6370beee89" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe int</type>
@@ -27,12 +27,13 @@
         <name>numTris</name>
         <qualifiedname>MR.Const_HoleFillPlan.numTris</qualifiedname>
         <briefdescription>
+<para>the number of triangles in the filling; zero means that the plan only adds the edges of items and creates no faces, e.g. it splits a hole in several holes </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="238" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="238" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="479" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="479" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -48,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="239" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="239" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="480" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="480" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -68,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="223" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="223" bodyend="231"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="460" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="460" bodyend="468"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -84,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="232" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="232" bodyend="232"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="469" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="469" bodyend="469"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__HoleFillPlan_1a47e582d995bcf4856dbd6741847b7ecc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -99,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="273" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="273" bodyend="279"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="514" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="514" bodyend="520"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__HoleFillPlan_1a96c57602d033cc34c8ab1056d647d38d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -122,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="284" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="284" bodyend="291"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="525" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="525" bodyend="532"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__HoleFillPlan_1ab63c4efda4bc1eb0c9da30cc7f551f8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -141,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="296" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="296" bodyend="303"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="537" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="537" bodyend="544"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__HoleFillPlan_1a0268e4ead7081abaf0f899db277e082f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -160,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="308" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="308" bodyend="308"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="549" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="549" bodyend="549"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__HoleFillPlan_1ac451c0a2f7d3a02a449f7272114ccb58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -179,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="313" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="313" bodyend="313"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="554" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="554" bodyend="554"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -195,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="233" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="233" bodyend="233"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="470" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="470" bodyend="470"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -219,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="262" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="262" bodyend="267"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="503" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="503" bodyend="508"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -265,7 +266,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="217" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="218" bodyend="314"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" line="454" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHoleFillPlan.cs" bodystart="455" bodyend="555"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__HoleFillPlan_1ad54cbe4fed74682b8363cc2e71cf5952" prot="protected" virt="non-virtual"><scope>MR::Const_HoleFillPlan</scope><name>__ref_storage_numTris</name></member>
       <member refid="classMR_1_1Const__HoleFillPlan_1aa8af23566607717991ca677abfd11371" prot="package" virt="non-virtual"><scope>MR::Const_HoleFillPlan</scope><name>Const_HoleFillPlan</name></member>

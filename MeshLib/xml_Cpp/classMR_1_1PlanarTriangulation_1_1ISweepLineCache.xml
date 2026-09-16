@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PlanarTriangulation_1_1ISweepLineCache" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::PlanarTriangulation::ISweepLineCache</compoundname>
+    <includes refid="MR2DContoursTriangulation_8h" local="no">MRMesh/MR2DContoursTriangulation.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gac7ed44839b1ca7e7617e7fa3515aab8c" kind="function"><name>ISweepLineCache</name></member>
+      <member refid="group__GeneralGroup_1ga751f460bcb903fdc8e863f6a1681e1b2" kind="function"><name>ISweepLineCache</name></member>
+      <member refid="group__GeneralGroup_1ga9380ca590b2600cc64a333d4892f2ef1" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga7515177ffb82bd098525ebe56ec7e05b" kind="function"><name>~ISweepLineCache</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>keeps the internal buffers of the sweep-line triangulation alive between runs, so a caller triangulating many contour sets one by one avoids re-allocating them on every call; the entries returning a <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> move the topology and the points out into it, so those two grow again on the next run, while <ref refid="group__GeneralGroup_1ga2f9e9b49c88ebf29c5a8a41b0659b9a4" kindref="member">triangulateDisjointContoursTopology</ref> keeps everything; one cache must not be used by several threads at once </para>
+    </detaileddescription>
+    <location file="MRMesh/MR2DContoursTriangulation.h" line="101" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="102" bodyend="111"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac7ed44839b1ca7e7617e7fa3515aab8c" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::ISweepLineCache</scope><name>ISweepLineCache</name></member>
+      <member refid="group__GeneralGroup_1ga751f460bcb903fdc8e863f6a1681e1b2" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::ISweepLineCache</scope><name>ISweepLineCache</name></member>
+      <member refid="group__GeneralGroup_1ga9380ca590b2600cc64a333d4892f2ef1" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::ISweepLineCache</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga7515177ffb82bd098525ebe56ec7e05b" prot="public" virt="pure-virtual"><scope>MR::PlanarTriangulation::ISweepLineCache</scope><name>~ISweepLineCache</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

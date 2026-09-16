@@ -13,5 +13,7 @@ var classmrmeshpy_1_1SharpOffsetParameters =
     [ "outSharpEdges", "classmrmeshpy_1_1SharpOffsetParameters.html#aeb4ac64396c544150ae98f2b5550426d", null ],
     [ "outSharpEdges", "classmrmeshpy_1_1SharpOffsetParameters.html#a7230ca50a7b80c52fd634f442da3f3ee", null ],
     [ "outVoxelPerFace", "classmrmeshpy_1_1SharpOffsetParameters.html#a589fb6ea2a79c69194cf829ecc812706", null ],
-    [ "outVoxelPerFace", "classmrmeshpy_1_1SharpOffsetParameters.html#a465fed2f2db897e089becbfda760a10e", null ]
+    [ "outVoxelPerFace", "classmrmeshpy_1_1SharpOffsetParameters.html#a465fed2f2db897e089becbfda760a10e", null ],
+    [ "voxelClamp", "classmrmeshpy_1_1SharpOffsetParameters.html#aeb0e3f9cfaa85ea89910a6b5afe74068", null ],
+    [ "voxelClamp", "classmrmeshpy_1_1SharpOffsetParameters.html#a7fe160ddda7ec8b8cee1a7eaec892b45", null ]
 ];

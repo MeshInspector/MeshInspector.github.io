@@ -140,7 +140,9 @@ $(function(){initNavTree('ExampleSignedDistancePointToMesh.html','',''); });
   <div class="headertitle"><div class="title">Signed Distance Point To Mesh </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Example of usage to get signed distance from point to mesh</p>
+<div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2SignedDistancePointToMesh"></a></p>
+<p>Example of usage to get signed distance from point to mesh</p>
+<p>▶ <a href="https://demo.meshlib.io/#closest-points">See it live in the browser</a></p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshLoad.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshProject.h&quot;</span></div>
@@ -224,9 +226,10 @@ $(function(){initNavTree('ExampleSignedDistancePointToMesh.html','',''); });
 <div class="line">const result = ml.findSignedDistanceFromPoint(point, mesh);</div>
 <div class="line">if (result)</div>
 <div class="line">  console.log(`Signed distance from point to mesh ${result.dist}`);</div>
-</div><!-- fragment --></li>
+</div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
+</li>
 </ul>
-</div><div class="tabbed"></div> </div></div><!-- contents -->
+</div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

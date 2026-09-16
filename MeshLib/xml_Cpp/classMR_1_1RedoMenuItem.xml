@@ -3,7 +3,7 @@
   <compounddef id="classMR_1_1RedoMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::RedoMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRViewer_2MRSceneControlMenuItems_8h" local="no">MRViewer/MRSceneControlMenuItems.h</includes>
+    <includes refid="MRHistoryMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h</includes>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga8c653d61ba6079f4d97d9299f3a8cbe8" kind="variable"><name>historyStoreConnection_</name></member>
     </sectiondef>
@@ -56,7 +56,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRSceneControlMenuItems.h" line="25" column="1" bodyfile="MRViewer/MRSceneControlMenuItems.h" bodystart="26" bodyend="37"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" line="25" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h" bodystart="26" bodyend="37"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga36ed5986c45fa790cafed4df8b0d3536" prot="public" virt="virtual"><scope>MR::RedoMenuItem</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::RedoMenuItem</scope><name>blocking</name></member>

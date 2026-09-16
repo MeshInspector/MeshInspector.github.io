@@ -10,6 +10,7 @@ var MRSphereObject_8h =
     [ "MR_SphereObject_classNameInPlural", "MRSphereObject_8h.html#a691f02abd8d21213b7a0aa40b1731b65", null ],
     [ "MR_SphereObject_clone", "MRSphereObject_8h.html#a9de4534da67fd247daf85583208d041e", null ],
     [ "MR_SphereObject_cloneTree", "MRSphereObject_8h.html#a0fedef3e8910089458e812bef8186ace", null ],
+    [ "MR_SphereObject_constChildren", "MRSphereObject_8h.html#a92315b80c1da0f2681dcedb5889eaa9b", null ],
     [ "MR_SphereObject_Construct", "MRSphereObject_8h.html#a86db4d594ec46efc829d2ddd041c7e39", null ],
     [ "MR_SphereObject_ConstructFromAnother", "MRSphereObject_8h.html#ae80985686e97510d28a31faaef040d0f", null ],
     [ "MR_SphereObject_copyAllSolidColors", "MRSphereObject_8h.html#a20ec15b956aab7ef853da67441a2022d", null ],

@@ -8,6 +8,7 @@ var classMR_1_1Const__Object =
     [ "classNameInPlural", "classMR_1_1Const__Object.html#a572cb45556d45a0b24f4ec547005c398", null ],
     [ "clone", "classMR_1_1Const__Object.html#aba982e3e0e60423c2b9022a98b00c392", null ],
     [ "cloneTree", "classMR_1_1Const__Object.html#a577ee25c4c5f3f2b2903efb573326f88", null ],
+    [ "constChildren", "classMR_1_1Const__Object.html#afde3a957de581e9a0991652214b8eb16", null ],
     [ "Dispose", "classMR_1_1Const__Object.html#ae8fd02ea186677e346b908348e4173d1", null ],
     [ "Dispose", "classMR_1_1Const__Object.html#ac72feb51ffa1555cace2e53b65a98964", null ],
     [ "find", "classMR_1_1Const__Object.html#a02304f151b3f362926ed6c9c2d15c14e", null ],

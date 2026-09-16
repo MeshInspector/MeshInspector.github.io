@@ -8,6 +8,7 @@ var classMR_1_1Const__PointMeasurementObject =
     [ "cloneTree", "classMR_1_1Const__PointMeasurementObject.html#a6c33163101f415360cf783b447d1985e", null ],
     [ "comparisonToleranceIsAlwaysOnlyPositive", "classMR_1_1Const__PointMeasurementObject.html#a2e9f3b8bc0ed2fbb898eda7f4ce1aafa", null ],
     [ "computeComparableProperty", "classMR_1_1Const__PointMeasurementObject.html#a27e01dfe06572afacb162a7cb6b783a9", null ],
+    [ "constChildren", "classMR_1_1Const__PointMeasurementObject.html#a98d8edf2aff6c5bde190bc5a6ab70313", null ],
     [ "Dispose", "classMR_1_1Const__PointMeasurementObject.html#adb84c9bd4e36225a663729109689f710", null ],
     [ "Dispose", "classMR_1_1Const__PointMeasurementObject.html#af616453898ae055ec23f6ab71339bd9e", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__PointMeasurementObject.html#a5dd0dad53195c0b2a0ed461cc14253f2", null ],

@@ -207,6 +207,7 @@ var group__BasicGroup =
     ] ],
     [ "MR::Timer", "classMR_1_1Timer.html", [
       [ "Timer", "classMR_1_1Timer.html#ae80a6af65498d28b69104f6cba5dae47", null ],
+      [ "Timer", "classMR_1_1Timer.html#a4c03f6a23e6326c2a54b95d61c3875f6", null ],
       [ "~Timer", "classMR_1_1Timer.html#a566c11ef9ebd550e2fa3cc5d71166218", null ],
       [ "Timer", "classMR_1_1Timer.html#a553683f7d466d5b7fb678541b729b8d7", null ],
       [ "Timer", "classMR_1_1Timer.html#ac663a305ea77099e4a39bed149100061", null ],
@@ -215,6 +216,7 @@ var group__BasicGroup =
       [ "operator=", "classMR_1_1Timer.html#abf15faf22086bb240a8b83b365a55a87", null ],
       [ "restart", "classMR_1_1Timer.html#a2db88e174e3796c728ed6585e2ade84d", null ],
       [ "secondsPassed", "classMR_1_1Timer.html#a732ca995a77c5930f0a5abe57ab4bc43", null ],
+      [ "start", "classMR_1_1Timer.html#aa95595c8a61134a95db0f4656877b8f0", null ],
       [ "start", "classMR_1_1Timer.html#a99cd37e3d1b7371e80e114ffd3493a43", null ]
     ] ],
     [ "MR::SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", [
@@ -327,6 +329,7 @@ var group__BasicGroup =
       [ "vec_", "group__GeneralGroup.html#gad4c1a76a727c0e52830149df75a87a0f", null ]
     ] ],
     [ "MR::addFileNameInError", "group__BasicGroup.html#ga5a6d09d98985d45fdd40a23f1df854c2", null ],
+    [ "MR::appendUtf8", "group__BasicGroup.html#gad3f1a3adf2ff77fb434aff7b938e091a", null ],
     [ "MR::asString", "group__BasicGroup.html#gaeaebbb2f1efd81e84ec37217bb4edf4c", null ],
     [ "MR::asString", "group__BasicGroup.html#gabf753ea56f25d4f1e8076ef90286efce", null ],
     [ "MR::asU8String", "group__BasicGroup.html#gaa7dfbd8929d54cde238ceb82f7836fcc", null ],
@@ -417,12 +420,13 @@ var group__BasicGroup =
     [ "MR::toLower", "group__BasicGroup.html#gaa3366c40c50de491cccc08d16cc85640", null ],
     [ "MR::toLower", "group__BasicGroup.html#ga85f29c2edc391eb7cbc4c9a948de7b8d", null ],
     [ "MR::unregisterThreadRootTimeRecord", "group__BasicGroup.html#ga18b970e8dba2f07bb78d3e801f3cccb4", null ],
+    [ "MR::utf32ToUtf8", "group__BasicGroup.html#ga78e854361dc1dced79ade4111cdb6965", null ],
     [ "MR::utf8string", "group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d", null ],
     [ "MR::utf8string", "group__BasicGroup.html#ga94712bce613ec3f52b3d976ed63e7910", null ],
     [ "MR::utf8substr", "group__BasicGroup.html#gabcd2fb63d421c0032f7bf3137e782982", null ],
     [ "MR::utf8ToCodepoint", "group__BasicGroup.html#ga7036065ef1d5168bd166eb7895394d25", null ],
     [ "MR::utf8ToSystem", "group__BasicGroup.html#ga1b87be01485e0c20473245dcf0801542", null ],
-    [ "MR::utf8ToUtf32", "group__BasicGroup.html#gabd7414ba2653a2f31bde754990038ce6", null ],
+    [ "MR::utf8ToUtf32", "group__BasicGroup.html#gad30e63b6f4f948b8d58e1dda5feb678d", null ],
     [ "MR::utf8ToWide", "group__BasicGroup.html#gabf0c62e8eb667d4d1d481e1439abc619", null ],
     [ "MR::vertMapsComposition", "group__BasicGroup.html#ga67788793274ddc28050e9e3d1c76c40f", null ],
     [ "MR::vertMapsComposition", "group__BasicGroup.html#ga9827d849d71487bb58386782fb69e80d", null ],

@@ -198,6 +198,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a194eb64710df766f8b8480327ec33d6a" id="r_a194eb64710df766f8b8480327ec33d6a"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a194eb64710df766f8b8480327ec33d6a">__ref_storage_saveTriCornerUVCoords</a></td></tr>
 <tr class="memitem:a491b54dd89edb61941fe64679b305369" id="r_a491b54dd89edb61941fe64679b305369"><td class="memItemLeft" align="right" valign="top">unsafe MR.Const_MeshTexture._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a491b54dd89edb61941fe64679b305369">__ptr_storage_texture</a></td></tr>
 <tr class="memitem:a4c45804986d65dd6a8218e2051e1005a" id="r_a4c45804986d65dd6a8218e2051e1005a"><td class="memItemLeft" align="right" valign="top">unsafe MR.ConstBox_AffineXf3d._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c45804986d65dd6a8218e2051e1005a">__ptr_storage_xf</a></td></tr>
+<tr class="memitem:a8a815a95f2cbc901d526f521b3d0a430" id="r_a8a815a95f2cbc901d526f521b3d0a430"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a815a95f2cbc901d526f521b3d0a430">__ref_storage_telemetrySignal</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -227,6 +228,8 @@ Properties</h2></td></tr>
 <tr class="memdesc:a5cc70544dcce42f608a4914566624f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">units of input coordinates and transformation, to be serialized if the format supports it  <br /></td></tr>
 <tr class="memitem:a1637397189664c5feef48669988cf567" id="r_a1637397189664c5feef48669988cf567"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Optional_MRColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1637397189664c5feef48669988cf567">solidColor</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a1637397189664c5feef48669988cf567"><td class="mdescLeft">&#160;</td><td class="mdescRight">the color of whole object  <br /></td></tr>
+<tr class="memitem:ab7316d0538844419b38219cee9b91b5b" id="r_ab7316d0538844419b38219cee9b91b5b"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7316d0538844419b38219cee9b91b5b">telemetrySignal</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab7316d0538844419b38219cee9b91b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">permit telemetry signal about saving  <br /></td></tr>
 <tr class="memitem:af74844506f8ebdae4b43f637280f0c8b" id="r_af74844506f8ebdae4b43f637280f0c8b"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af74844506f8ebdae4b43f637280f0c8b">progress</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:af74844506f8ebdae4b43f637280f0c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">to report save progress and cancel saving if user desires  <br /></td></tr>
 </table>
@@ -638,6 +641,28 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a8a815a95f2cbc901d526f521b3d0a430" name="a8a815a95f2cbc901d526f521b3d0a430"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a815a95f2cbc901d526f521b3d0a430">&#9670;&#160;</a></span>__ref_storage_telemetrySignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool* MR.PointsSave.Const_CtmSavePointsOptions.__ref_storage_telemetrySignal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
 <a id="a82a2c56caf3b7db4aec562fe2247bf0e" name="a82a2c56caf3b7db4aec562fe2247bf0e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82a2c56caf3b7db4aec562fe2247bf0e">&#9670;&#160;</a></span>colors</h2>
@@ -900,6 +925,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the color of whole object </p>
+
+</div>
+</div>
+<a id="ab7316d0538844419b38219cee9b91b5b" name="ab7316d0538844419b38219cee9b91b5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7316d0538844419b38219cee9b91b5b">&#9670;&#160;</a></span>telemetrySignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.PointsSave.Const_CtmSavePointsOptions.telemetrySignal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>permit telemetry signal about saving </p>
 
 </div>
 </div>

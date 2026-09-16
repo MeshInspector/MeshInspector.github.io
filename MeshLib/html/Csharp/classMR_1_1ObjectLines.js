@@ -62,5 +62,6 @@ var classMR_1_1ObjectLines =
     [ "updateLinesColorMap", "classMR_1_1ObjectLines.html#a168a73719b454b617cf9f70542f5e479", null ],
     [ "updatePolyline", "classMR_1_1ObjectLines.html#a2455814e18898ccca34377271159060c", null ],
     [ "updateVertsColorMap", "classMR_1_1ObjectLines.html#a542c1c739945796c36f526861cfe4de6", null ],
-    [ "varPolyline", "classMR_1_1ObjectLines.html#a5c5d537cecef8816f0109fe3836d14aa", null ]
+    [ "varPolyline", "classMR_1_1ObjectLines.html#a5c5d537cecef8816f0109fe3836d14aa", null ],
+    [ "varPolylinePtr", "classMR_1_1ObjectLines.html#a968afe625caa4d88f4288f5e9365d7ea", null ]
 ];

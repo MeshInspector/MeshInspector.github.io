@@ -65,5 +65,6 @@ var classMR_1_1ObjectPoints =
     [ "toggleVisualizeProperty", "classMR_1_1ObjectPoints.html#a8cce509a3d9de40a6c685b8919c35805", null ],
     [ "updateSelectedPoints", "classMR_1_1ObjectPoints.html#a09a7bd540e183df9258e8961d288ee59", null ],
     [ "updateVertsColorMap", "classMR_1_1ObjectPoints.html#a5e7e1323b3a2ea009503da07c53ccd3d", null ],
-    [ "varPointCloud", "classMR_1_1ObjectPoints.html#a4daaf98c8ebfd08175a25b80f7f7bfd4", null ]
+    [ "varPointCloud", "classMR_1_1ObjectPoints.html#a4daaf98c8ebfd08175a25b80f7f7bfd4", null ],
+    [ "varPointCloudPtr", "classMR_1_1ObjectPoints.html#af023276ef416b1db7122be0dfadbf3cb", null ]
 ];

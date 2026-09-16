@@ -10,6 +10,7 @@ var MRCylinderObject_8h =
     [ "MR_CylinderObject_classNameInPlural", "MRCylinderObject_8h.html#afa528993b34177b5d9151a920e0f4c46", null ],
     [ "MR_CylinderObject_clone", "MRCylinderObject_8h.html#ae0842f66a4d7da75b66488a22ad4cd31", null ],
     [ "MR_CylinderObject_cloneTree", "MRCylinderObject_8h.html#ad7effe7d51d0096aea1ffa9c33bd94d4", null ],
+    [ "MR_CylinderObject_constChildren", "MRCylinderObject_8h.html#afac7eeee63505327c7c90d57278c68bb", null ],
     [ "MR_CylinderObject_Construct", "MRCylinderObject_8h.html#a5f587936585ab8be34a5bf65abbe0b3b", null ],
     [ "MR_CylinderObject_ConstructFromAnother", "MRCylinderObject_8h.html#a2ed34b4a4cdcfcb28ca25d5e79aebe6a", null ],
     [ "MR_CylinderObject_copyAllSolidColors", "MRCylinderObject_8h.html#a362e700c5ccb9dcff1d5e14584b4c63c", null ],

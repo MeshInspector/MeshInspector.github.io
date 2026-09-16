@@ -10,6 +10,7 @@ var MRCircleObject_8h =
     [ "MR_CircleObject_classNameInPlural", "MRCircleObject_8h.html#a31d0c56984c07bea212d100574f05de7", null ],
     [ "MR_CircleObject_clone", "MRCircleObject_8h.html#a476ceb9e05fd79cad4e1c3d5f93b7964", null ],
     [ "MR_CircleObject_cloneTree", "MRCircleObject_8h.html#a2b92c0c158f2f0ed2aa4f8e941c01462", null ],
+    [ "MR_CircleObject_constChildren", "MRCircleObject_8h.html#af3878e0ae440350879de2c5cb61b7d60", null ],
     [ "MR_CircleObject_Construct", "MRCircleObject_8h.html#ac75da8900fcf5c4b6ffaffc1b4f4ba98", null ],
     [ "MR_CircleObject_ConstructFromAnother", "MRCircleObject_8h.html#ada395d7d27de472566f45e4e24613387", null ],
     [ "MR_CircleObject_copyAllSolidColors", "MRCircleObject_8h.html#aedbc65422effa1c1c0aa6aa7b042607c", null ],

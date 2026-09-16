@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41358" bodyend="41359"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42321" bodyend="42322"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1ad541cdc627705d31cb21b7113e728dcd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41361" bodyend="41362"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42324" bodyend="42325"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a87846dafe1d3e18cfad37e5cb1a810a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41364" bodyend="41365"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42327" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42327" bodyend="42328"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a8eec31c8c39a7693365d9c464f71bfc5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -72,12 +72,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>mesh(self: meshlib.mrmeshpy.ObjectMeshHolder) -&gt; meshlib.mrmeshpy.Mesh
+<para><verbatim>meshPtr(self: meshlib.mrmeshpy.ObjectMeshHolder) -&gt; meshlib.mrmeshpy.Mesh
+
+returns the mesh of this object, or nullptr if it is not set
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41367" bodyend="41370"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42330" bodyend="42335"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -97,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41371" bodyend="41372"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42336" bodyend="42337"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a7dfbccad2835d0f6f74a50b880200d3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -116,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41373" bodyend="41374"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42338" bodyend="42339"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a0bf0ab6bb49a91a70323cb8806f1e8ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -135,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41375" bodyend="41376"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42340" bodyend="42341"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a74d05289828bf738860653a727be72e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
@@ -157,7 +159,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41377" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41377" bodyend="41378"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42342" bodyend="42343"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1adc56c57b9eb3aff553e4b128a812afca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
@@ -178,7 +180,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41379" bodyend="41380"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42344" bodyend="42345"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a0858482917c22a413b042da6e1c4920a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -202,7 +204,7 @@ making new object the owner of all copied resources
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41381" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41381" bodyend="41384"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42346" bodyend="42349"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1acc666f41f06a7e1c289a22ed5fc97e5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
@@ -224,7 +226,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41385" bodyend="41386"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42350" bodyend="42351"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a33edc6ff466c80f1b112a02c315e9ddc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -243,7 +245,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41387" bodyend="41388"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42352" bodyend="42353"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a3eb4e068663392513827bd418a9faf6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -268,7 +270,7 @@ does not touch selection or creases
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41389" bodyend="41393"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42354" bodyend="42358"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1aa0c2282c8ddf93268aba494de71e4e95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -283,12 +285,12 @@ does not touch selection or creases
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>returns variable mesh, if const mesh is needed use `mesh()` instead
+<para><verbatim>returns variable mesh, if const mesh is needed use `meshPtr()` instead
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41394" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41394" bodyend="41397"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42359" bodyend="42362"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ObjectMesh_1a35baa6fed63cd3a3920dc66f135843f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref></type>
@@ -319,14 +321,14 @@ it is inefficient to call this function for many rays, because it computes world
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41398" bodyend="41403"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42363" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42363" bodyend="42368"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::ObjectMesh
-Aliases:  ChangeMeshPointsAction.Obj, ChangeMeshEdgeSelectionAction.Obj, ChangeMeshAction.Obj, std_shared_ptr_ObjectMesh, ChangeMeshDataAction.Obj, ChangeMeshTopologyAction.Obj, VersatileChangeMeshPointsAction.Obj, ChangeMeshCreasesAction.Obj, ChangeMeshFaceSelectionAction.Obj
+Aliases:  ChangeMeshAction.Obj, ChangeMeshCreasesAction.Obj, ChangeMeshDataAction.Obj, ChangeMeshEdgeSelectionAction.Obj, ChangeMeshFaceSelectionAction.Obj, ChangeMeshPointsAction.Obj, ChangeMeshTopologyAction.Obj, VersatileChangeMeshPointsAction.Obj, std_shared_ptr_ObjectMesh
 
 an object that stores a mesh
 </verbatim> </para>
@@ -391,7 +393,7 @@ an object that stores a mesh
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41350" bodyend="41403"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42313" bodyend="42368"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ObjectMesh_1a969a9885ff3b33b06a0ada8c222f6e7c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a21da96a6ae7153f7c35f8a82cf8e9fe1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>actualSerializeFormat</name></member>
@@ -410,6 +412,7 @@ an object that stores a mesh
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a32fa910c9a4cea13dfb676f13b6753ba" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>clearAncillaryTexture</name></member>
       <member refid="classmrmeshpy_1_1ObjectMesh_1a74d05289828bf738860653a727be72e9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>clone</name></member>
       <member refid="classmrmeshpy_1_1Object_1a115b8bd891d9bd7e08946e8f84da09f0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>cloneTree</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a08d2ce87823fae00ba9c6a3c6e78f7a9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>constChildren</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aef43054cf4c656b003d29f636d92feec" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>copyAllSolidColors</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a0c5dcae9192fc539bdcc889da920531c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>copyColors</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a7440ec67f10e7cbc3ef9013e02897b6f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>copyTextureAndColors</name></member>
@@ -465,9 +468,9 @@ an object that stores a mesh
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a57fe4fe1f7e1397960b0735df502637a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>getVisualizePropertyMask</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a3ffd95e9ae64f3fa3e3f1b78ba9d2657" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>getWorldBox</name></member>
       <member refid="classmrmeshpy_1_1Object_1a000669ce3765e97358761b420a4b3283" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>getWorldTreeBox</name></member>
-      <member refid="classmrmeshpy_1_1VisualObject_1a7423a165764f0bf97fbbfcb6ef6913e2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>globalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a8ab6afcbd16f9abf56f55f679c80460f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>globalClippedByPlane</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1ade27c4b572461dfa2f68ed3b8ecafb70" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>globalClippedByPlaneMask</name></member>
-      <member refid="classmrmeshpy_1_1Object_1a78a7d136a58b2e69851ac59192bcd5b5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>globalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1Object_1ac7b6c94738fee4042bea1b8dbd30ce88" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>globalVisibility</name></member>
       <member refid="classmrmeshpy_1_1Object_1a4b1a4fd5f92fc87757bc139ce2e770be" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>globalVisibilityMask</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1af1017063423135eaa7a43c728fa9676c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>hasAncillaryTexture</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1abec49ca4f46abd8fcbd205498598008d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>hasModel</name></member>
@@ -480,11 +483,12 @@ an object that stores a mesh
       <member refid="classmrmeshpy_1_1Object_1adb58092748e5b61228ff7ed23b9c0d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>isLocked</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a08c496d5f2feda4ef87a2e68664cee68" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>isMeshClosed</name></member>
       <member refid="classmrmeshpy_1_1Object_1aad4248d019ab25e15e9f40f726c1f3d3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>isParentLocked</name></member>
-      <member refid="classmrmeshpy_1_1VisualObject_1a90715c5c04e6a8c2a5d0998877fec7d7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>isPickable</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a6b0ad0aeac71a68ad9c8f707e0bab185" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>isPickable</name></member>
       <member refid="classmrmeshpy_1_1Object_1add3395c8e6e84a9d82d622557fb6939f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>isSelected</name></member>
-      <member refid="classmrmeshpy_1_1Object_1ad160388c69186e8a83fde5e8eb02535e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>isVisible</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a796925d8eb6a02da895396a7c7529aeb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>isVisible</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1acea2aff8d75e3b354c19d335a57864d6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>mesh</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1ae07f108a03ac58b498b0f04b2d820244" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>meshPart</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a4ea7a46be06cba267076d0b263b541e1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>meshPtr</name></member>
       <member refid="classmrmeshpy_1_1Object_1a1df02ba03a7110bf58c7f740696f4c35" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>name</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a979dfdec04a5f6bfa7c8bd36eecd7b93" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>numComponents</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a6bc1c5e373cd92f5a1c8dd0b504fdd21" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>numCreaseEdges</name></member>
@@ -539,13 +543,13 @@ an object that stores a mesh
       <member refid="classmrmeshpy_1_1VisualObject_1acdbcc2226221f32f64842601d9e1e4a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setFrontColorsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a5323ee4dc727ada25adb2c462a136568" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setGlobalAlpha</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1afa64178b2ff0ec0f3160412286a20124" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setGlobalAlphaForAllViewports</name></member>
-      <member refid="classmrmeshpy_1_1VisualObject_1acf83e4c9435a077550174b95dbba85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setGlobalClippedByPlane</name></member>
-      <member refid="classmrmeshpy_1_1Object_1a1f260bf94c3aaca96c76a3b2df7e4123" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setGlobalVisibility</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a794f2ba21440384fe132aabe14b578ba" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a721bdb23c6fdb6cd8a04aa0b7531c247" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setGlobalVisibility</name></member>
       <member refid="classmrmeshpy_1_1Object_1aff9e7cf21687080d8eb1322b76772577" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setLocked</name></member>
       <member refid="classmrmeshpy_1_1ObjectMesh_1a0858482917c22a413b042da6e1c4920a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setMesh</name></member>
       <member refid="classmrmeshpy_1_1Object_1a9c9747a45a791c65be899d3376c0b6ef" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setName</name></member>
       <member refid="classmrmeshpy_1_1Object_1aae28ca7af2e7903818a96c60d5959e07" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setParentLocked</name></member>
-      <member refid="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setPickable</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a69128c5df21faac74cf246e1815efb18" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setPickable</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aac4702d2617abf60328e511da05b9956" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setPointsColor</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a5ee12a0030576d035401c01210a12632" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setPointsColorsForAllViewports</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a01bc162c74484a6f6cd6a3eb8a0b2d12" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setPointSize</name></member>
@@ -562,7 +566,7 @@ an object that stores a mesh
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aadc625903b402602f54d529afaf38cb4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setUVCoords</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1aa232c8a1604ba8e4df6c998dc938e655" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setVertsColorMap</name></member>
       <member refid="classmrmeshpy_1_1Object_1a2a093177bee96f9715ec03afc69262aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setVisibilityMask</name></member>
-      <member refid="classmrmeshpy_1_1Object_1a8b7a91d7379e983adad42fd434e04381" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setVisible</name></member>
+      <member refid="classmrmeshpy_1_1Object_1a05796e15ae29d5b6fbf763d2a7918745" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setVisible</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a714cc9052b7153f7263836546050015f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setVisualizeProperty</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a48dca93e69125ceede505cae9f2e4629" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setVisualizePropertyMask</name></member>
       <member refid="classmrmeshpy_1_1Object_1a77d09c218526c06a68035b076296bcda" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>setWorldXf</name></member>
@@ -592,6 +596,7 @@ an object that stores a mesh
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1a949e3a4800e457a42b7e06b7a82af8ce" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>updateVertsColorMap</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a5e25b63c3965dc9f65f914e80f164bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classmrmeshpy_1_1ObjectMesh_1aa0c2282c8ddf93268aba494de71e4e95" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>varMesh</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshHolder_1adb8f3fc045dc651019192163a6e80347" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>varMeshPtr</name></member>
       <member refid="classmrmeshpy_1_1Object_1a64e97a992a254dfa6b44c7bf1eb144e4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>visibilityMask</name></member>
       <member refid="classmrmeshpy_1_1ObjectMeshHolder_1af6e17574c4689dd7f95c8a6d7a7a2c96" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>volume</name></member>
       <member refid="classmrmeshpy_1_1ObjectMesh_1a35baa6fed63cd3a3920dc66f135843f5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMesh</scope><name>worldRayIntersection</name></member>

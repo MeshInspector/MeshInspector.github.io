@@ -7,6 +7,7 @@ var classMR_1_1Const__MeasurementObject =
     [ "classNameInPlural", "classMR_1_1Const__MeasurementObject.html#a0d3bfe92f554537fe509b6f9c34bc655", null ],
     [ "clone", "classMR_1_1Const__MeasurementObject.html#a1fb0bb14942a0966c6af51174ef125fa", null ],
     [ "cloneTree", "classMR_1_1Const__MeasurementObject.html#a727d943a3e99a06ebb581587fac232db", null ],
+    [ "constChildren", "classMR_1_1Const__MeasurementObject.html#aa3dec41b699ed053efb2787fdc1d474e", null ],
     [ "Dispose", "classMR_1_1Const__MeasurementObject.html#a849b84e78febebd9ce280c44f8ab2a88", null ],
     [ "Dispose", "classMR_1_1Const__MeasurementObject.html#a5306852b6b5f38fc63df6c9b411fa808", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__MeasurementObject.html#a08fd674d4d033f40130b571873554a48", null ],

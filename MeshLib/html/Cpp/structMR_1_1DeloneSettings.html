@@ -159,8 +159,24 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a513ebe0c472b1ac5cdfa1226d4f52e27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped.  <br /></td></tr>
 <tr class="memitem:a59743925cda5ef4a2b87449e410897e8" id="r_a59743925cda5ef4a2b87449e410897e8"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59743925cda5ef4a2b87449e410897e8">vertRegion</a> = nullptr</td></tr>
 <tr class="memdesc:a59743925cda5ef4a2b87449e410897e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only edges with origin or destination in this set before or after flip can be flipped.  <br /></td></tr>
+<tr class="memitem:aa9b9e4eb7d2bb9781d1170012f3c98b2" id="r_aa9b9e4eb7d2bb9781d1170012f3c98b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1DeloneFlipsCache.html">DeloneFlipsCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9b9e4eb7d2bb9781d1170012f3c98b2">cache</a> = nullptr</td></tr>
 </table>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="aa9b9e4eb7d2bb9781d1170012f3c98b2" name="aa9b9e4eb7d2bb9781d1170012f3c98b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9b9e4eb7d2bb9781d1170012f3c98b2">&#9670;&#160;</a></span>cache</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1DeloneFlipsCache.html">DeloneFlipsCache</a>* MR::DeloneSettings::cache = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional buffers reused between calls, see <a class="el" href="structMR_1_1DeloneFlipsCache.html">DeloneFlipsCache</a>; flipping several meshes in parallel, give every thread its own cache </p>
+
+</div>
+</div>
 <a id="ac1d8b0d536be2f423ac9a2d1b2bce7d2" name="ac1d8b0d536be2f423ac9a2d1b2bce7d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1d8b0d536be2f423ac9a2d1b2bce7d2">&#9670;&#160;</a></span>criticalTriAspectRatio</h2>
 

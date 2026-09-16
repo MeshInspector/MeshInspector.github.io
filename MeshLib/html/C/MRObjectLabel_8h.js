@@ -18,6 +18,7 @@ var MRObjectLabel_8h =
     [ "MR_ObjectLabel_classNameInPlural", "MRObjectLabel_8h.html#aa6bc74365bd75957a6b68cd32bfe7741", null ],
     [ "MR_ObjectLabel_clone", "MRObjectLabel_8h.html#a3810156218d3483152d0c41f8afd3ac2", null ],
     [ "MR_ObjectLabel_cloneTree", "MRObjectLabel_8h.html#a3e520c67a3d3678741fcdf5b9248fc8c", null ],
+    [ "MR_ObjectLabel_constChildren", "MRObjectLabel_8h.html#aceb7f3acb075817c8997038736aaf4fb", null ],
     [ "MR_ObjectLabel_ConstructFromAnother", "MRObjectLabel_8h.html#af80ff23c38c01e7e4cc4ec58e5c728e4", null ],
     [ "MR_ObjectLabel_copyAllSolidColors", "MRObjectLabel_8h.html#a6fd25dd6f31c00e1bd9f0212a74a5025", null ],
     [ "MR_ObjectLabel_DefaultConstruct", "MRObjectLabel_8h.html#a1e4f2cafe78e612c95aafaebbd0e46bb", null ],

@@ -4,6 +4,7 @@ var classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualiz
     [ "classNameInPlural", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#afe8344fb5d0b6c9fca57283b6cdd4895", null ],
     [ "clone", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a662a87630bdd4af5797e7e2f9acd0c4f", null ],
     [ "cloneTree", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a748cd7c206ea7f9e79ec66541a02991c", null ],
+    [ "constChildren", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a18bd387bc8c302cd791507df508a64fe", null ],
     [ "Dispose", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a9fd73f8839d0d6e3bd7472e54e0778d2", null ],
     [ "Dispose", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#a7bea20b84c36ca92dde5d6d5397d8da9", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html#ac5b304d503d1326b53e0221f4b06b77b", null ],

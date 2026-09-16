@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ConstChildren" kind="class" language="C++" prot="public">
+    <compoundname>MR::ConstChildren</compoundname>
+    <includes refid="MRConstChildren_8h" local="no">MRMesh/MRConstChildren.h</includes>
+    <innerclass refid="classMR_1_1ConstChildren_1_1Iterator" prot="public">MR::ConstChildren::Iterator</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga86512c1aafb328a7cf78ee56e2ad224a" kind="typedef"><name>Storage</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gabdd02631ab33967e5009193294efbfd7" kind="variable"><name>children_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga1c8eaeed8ac8e96f4da10c5486d49763" kind="function"><name>ConstChildren</name></member>
+      <member refid="group__GeneralGroup_1ga6c5d381f14e7361a89944b42035ddc7e" kind="function"><name>begin</name></member>
+      <member refid="group__GeneralGroup_1gab60c9f16097547d7fa4a9a169519373b" kind="function"><name>end</name></member>
+      <member refid="group__GeneralGroup_1ga3a0382330d92b7c545f5607154fe236f" kind="function"><name>empty</name></member>
+      <member refid="group__GeneralGroup_1ga1a7314cfced15e3be5d5495b7a618adf" kind="function"><name>size</name></member>
+      <member refid="group__GeneralGroup_1gabd262d110c14eb87676ed8a2fe7378cd" kind="function"><name>operator[]</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>read-only access to the children of an <ref refid="classMR_1_1Object" kindref="compound">Object</ref>, as returned by <ref refid="classMR_1_1Object_1ac8aa3b30c857e87440cb2be7e1a60732" kindref="member">Object::constChildren()</ref></para>
+<para><ref refid="classMR_1_1Object" kindref="compound">Object</ref> stores its children as std::shared_ptr&lt;Object&gt;, and a const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> cannot hand them out directly without either dropping constness or copying the whole vector. This class solves that: it is a lightweight non-owning view on the object&apos;s children, which produces std::shared_ptr&lt;const Object&gt; on the fly. Typical use: <verbatim>for ( const auto &amp; child : obj.constChildren() )
+    processRecursively( *child );
+</verbatim></para>
+<para>It is also indexable, so a plain loop works too: <verbatim>for ( size_t i = 0; i &lt; obj.constChildren().size(); ++i )
+    process( *obj.constChildren()[i] );
+</verbatim></para>
+<para>The view refers to the object&apos;s own storage, so use it as a temporary and do not store it: it is invalidated by anything that adds, removes or reorders the object&apos;s children, exactly like an iterator of the underlying vector. </para>
+    </detaileddescription>
+    <location file="MRMesh/MRConstChildren.h" line="34" column="1" bodyfile="MRMesh/MRConstChildren.h" bodystart="35" bodyend="73"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6c5d381f14e7361a89944b42035ddc7e" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>begin</name></member>
+      <member refid="group__GeneralGroup_1gabdd02631ab33967e5009193294efbfd7" prot="private" virt="non-virtual"><scope>MR::ConstChildren</scope><name>children_</name></member>
+      <member refid="group__GeneralGroup_1ga1c8eaeed8ac8e96f4da10c5486d49763" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>ConstChildren</name></member>
+      <member refid="group__GeneralGroup_1ga3a0382330d92b7c545f5607154fe236f" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>empty</name></member>
+      <member refid="group__GeneralGroup_1gab60c9f16097547d7fa4a9a169519373b" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>end</name></member>
+      <member refid="group__GeneralGroup_1gabd262d110c14eb87676ed8a2fe7378cd" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga1a7314cfced15e3be5d5495b7a618adf" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga86512c1aafb328a7cf78ee56e2ad224a" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>Storage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

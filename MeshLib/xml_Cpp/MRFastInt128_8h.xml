@@ -2,26 +2,72 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRFastInt128_8h" kind="file" language="C++">
     <compoundname>MRFastInt128.h</compoundname>
+    <includedby refid="MRAlphaShape_8h" local="yes">MRMesh/MRAlphaShape.h</includedby>
+    <includedby refid="MRFastInt_8h" local="yes">MRMesh/MRFastInt.h</includedby>
     <includedby refid="MRHighPrecision_8h" local="yes">MRMesh/MRHighPrecision.h</includedby>
+    <includedby refid="MRInt64Mul128_8h" local="yes">MRMesh/MRInt64Mul128.h</includedby>
+    <includedby refid="MRVarBigInt_8h" local="yes">MRMesh/MRVarBigInt.h</includedby>
     <invincdepgraph>
+      <node id="2">
+        <label>MRMesh/MRAlphaShape.h</label>
+        <link refid="MRAlphaShape_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMesh/MRFastInt.h</label>
+        <link refid="MRFastInt_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRMesh/MRFastInt128.h</label>
         <link refid="MRFastInt128_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-      </node>
-      <node id="2">
-        <label>MRMesh/MRHighPrecision.h</label>
-        <link refid="MRHighPrecision_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
       </node>
-      <node id="3">
+      <node id="4">
+        <label>MRMesh/MRHighPrecision.h</label>
+        <link refid="MRHighPrecision_8h"/>
+      </node>
+      <node id="5">
         <label>MRMesh/MRInSphere.h</label>
         <link refid="MRInSphere_8h"/>
       </node>
+      <node id="7">
+        <label>MRMesh/MRInt64Mul128.h</label>
+        <link refid="MRInt64Mul128_8h"/>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRVarBigInt.h</label>
+        <link refid="MRVarBigInt_8h"/>
+      </node>
     </invincdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="MRFastInt128_8h_1aea8871559c4f6326492db20c974ef881" prot="public" static="no">
+        <name>MR_HAS_BUILTIN_INT128</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the compiler has __int128_t, and with it a built-in conversion in double, which std::_Signed128 above has no equivalent of; see <ref refid="group__HighPrecisionGroup_1ga096c2c7825f1a47993ae9d976bacd68d" kindref="member">MR::toDouble</ref> in <ref refid="MRFastInt_8h" kindref="compound">MRFastInt.h</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRFastInt128.h" line="19" column="9" bodyfile="MRMesh/MRFastInt128.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -34,15 +80,18 @@
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref><sp/>=<sp/>std::_Signed128;</highlight></codeline>
-<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
-<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref><sp/>=<sp/>__int128_t;</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref><sp/>=<sp/>std::_Signed128;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kindref="member">FastUInt128</ref><sp/>=<sp/>std::_Unsigned128;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRFastInt128_8h_1aea8871559c4f6326492db20c974ef881" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_HAS_BUILTIN_INT128<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref><sp/>=<sp/>__int128_t;</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga906daf2182f2898fb3e5ad598d8960ae" kindref="member">FastUInt128</ref><sp/>=<sp/>__uint128_t;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRFastInt128.h"/>
   </compounddef>

@@ -6,7 +6,6 @@ var MRBooleanOperation_8h =
     [ "MR_BooleanResultMapper_MapObject", "MRBooleanOperation_8h.html#a759a9c7800e3bc0fca2e9d8daaa18f89", null ],
     [ "MR_BooleanResultMapper_Maps", "MRBooleanOperation_8h.html#a7d191f578301123ae97adbfd5ac96d34", null ],
     [ "MR_std_array_MR_BooleanResultMapper_Maps_2", "MRBooleanOperation_8h.html#a5adf2c3b0beed4fb6b836f265c2be7be", null ],
-    [ "MR_WholeEdgeMap", "MRBooleanOperation_8h.html#a50066b58d97b0be73d826cfdcc9eb188", null ],
     [ "MR_BooleanOperation", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5", [
       [ "MR_BooleanOperation_InsideA", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5abeed6eb985c743a4aa21ed1f93490066", null ],
       [ "MR_BooleanOperation_InsideB", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5a6b965892509e59c342b8f1087c9d9923", null ],

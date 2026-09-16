@@ -92,5 +92,6 @@ var classMR_1_1ObjectMesh =
     [ "updateTextures", "classMR_1_1ObjectMesh.html#a1b2dcc15dadee15a6dabbe6d38a75719", null ],
     [ "updateUVCoords", "classMR_1_1ObjectMesh.html#a24a3e6880ebc0eba2a5c26e1af6bbc71", null ],
     [ "updateVertsColorMap", "classMR_1_1ObjectMesh.html#a07e8f0c3847d9addb5f4f2d4c825a32d", null ],
-    [ "varMesh", "classMR_1_1ObjectMesh.html#a4e97c5d1e0534792fefd28114af05f59", null ]
+    [ "varMesh", "classMR_1_1ObjectMesh.html#a4e97c5d1e0534792fefd28114af05f59", null ],
+    [ "varMeshPtr", "classMR_1_1ObjectMesh.html#abdf6fc22a640495f9b81260cb17f6eb0", null ]
 ];

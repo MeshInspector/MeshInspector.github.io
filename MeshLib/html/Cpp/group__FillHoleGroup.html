@@ -206,6 +206,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga22925ca42a37db6c68a9101867744a31" id="r_ga22925ca42a37db6c68a9101867744a31"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga22925ca42a37db6c68a9101867744a31">MR::makeBridgeEdge</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId a, EdgeId b)</td></tr>
 <tr class="memitem:gaedeea912acd0e1829ff8da9d845c8f69" id="r_gaedeea912acd0e1829ff8da9d845c8f69"><td class="memItemLeft" align="right" valign="top">std::vector&lt; EdgeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaedeea912acd0e1829ff8da9d845c8f69">MR::makeInterHoleBridgeEdges</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges)</td></tr>
 <tr class="memitem:gaa7b4656b5eb409139fbb67985106e06b" id="r_gaa7b4656b5eb409139fbb67985106e06b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; EdgeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa7b4656b5eb409139fbb67985106e06b">MR::makeInterHoleBridgeEdges</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges)</td></tr>
+<tr class="memitem:gae3f4f1ce30142665d23ff5afabc9faa0" id="r_gae3f4f1ce30142665d23ff5afabc9faa0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3f4f1ce30142665d23ff5afabc9faa0">MR::bridgeFillAllHoles</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;params={})</td></tr>
 <tr class="memitem:ga71fca5b809e46f918e1bc23c90c3201e" id="r_ga71fca5b809e46f918e1bc23c90c3201e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga71fca5b809e46f918e1bc23c90c3201e">MR::splitQuad</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId a, FaceBitSet *outNewFaces=nullptr)</td></tr>
 <tr class="memdesc:ga71fca5b809e46f918e1bc23c90c3201e"><td class="mdescLeft">&#160;</td><td class="mdescRight">given quadrangle face to the left of a, splits it in two triangles with new diagonal edge via dest(a)  <br /></td></tr>
 <tr class="memitem:ga633f1395df33828b2f19fc042879aa29" id="r_ga633f1395df33828b2f19fc042879aa29"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga633f1395df33828b2f19fc042879aa29">MR::calcCombinedFillMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const FaceBitSet &amp;filledRegion, const <a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a> &amp;metric)</td></tr>
@@ -289,6 +290,30 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="gae3f4f1ce30142665d23ff5afabc9faa0" name="gae3f4f1ce30142665d23ff5afabc9faa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae3f4f1ce30142665d23ff5afabc9faa0">&#9670;&#160;</a></span>bridgeFillAllHoles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::bridgeFillAllHoles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshFillHole_8h.html">MRMesh/MRMeshFillHole.h</a>&gt;</code></p>
+<p>creates bridge edges between all holes of the mesh by calling makeInterHoleBridgeEdges, and fills all remaining holes; </p><dl class="section return"><dt>Returns</dt><dd>false if the mesh had no holes and was not changed, true otherwise </dd></dl>
+
+</div>
+</div>
 <a id="gad9d00d278b9f0d856d31227faa8500d5" name="gad9d00d278b9f0d856d31227faa8500d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad9d00d278b9f0d856d31227faa8500d5">&#9670;&#160;</a></span>buildBottom()</h2>
 

@@ -6,21 +6,6 @@
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1PlanarTriangulation_1_1TriangulationParameters" prot="public" virt="non-virtual">MR.PlanarTriangulation.TriangulationParameters</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ac6efdaa2e32c342baf43eed1ac4d9f12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe MR.Std.? Const_Vector_StdVectorMRVertId</type>
-        <definition>unsafe MR.Std.? Const_Vector_StdVectorMRVertId MR.PlanarTriangulation.Const_TriangulationParameters.holeVertsIds</definition>
-        <argsstring></argsstring>
-        <name>holeVertsIds</name>
-        <qualifiedname>MR.PlanarTriangulation.Const_TriangulationParameters.holeVertsIds</qualifiedname>
-        <briefdescription>
-<para>if set merge only points with same vertex id, otherwise merge all points with same coordinates </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1060" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1061" bodyend="1072"/>
-      </memberdef>
       <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ab18db8c33708b83facac33e28215c1d4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe MR.? <ref refid="classMR_1_1Vector__Int__MRFaceId" kindref="compound">Vector_Int_MRFaceId</ref></type>
         <definition>unsafe MR.? Vector_Int_MRFaceId MR.PlanarTriangulation.Const_TriangulationParameters.outFaceWinding</definition>
@@ -34,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1079" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1080" bodyend="1091"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1061" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1062" bodyend="1073"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a391609675788266ead3bd70695a91853" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe MR.PlanarTriangulation.? <ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">IntersectionsMap</ref></type>
@@ -49,24 +34,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1098" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1099" bodyend="1110"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1080" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1081" bodyend="1092"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a12df045b053c0fd074ced1aedbd50845" prot="protected" static="no" mutable="no">
-        <type>unsafe MR.Std.Const_Vector_StdVectorMRVertId._Underlying **</type>
-        <definition>unsafe MR.Std.Const_Vector_StdVectorMRVertId._Underlying** MR.PlanarTriangulation.Const_TriangulationParameters.__ptr_storage_holeVertsIds</definition>
-        <argsstring></argsstring>
-        <name>__ptr_storage_holeVertsIds</name>
-        <qualifiedname>MR.PlanarTriangulation.Const_TriangulationParameters.__ptr_storage_holeVertsIds</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1073" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1073" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1afd1e2d64d18177832e9c167cc7b218e7" prot="protected" static="no" mutable="no">
         <type>unsafe MR.Vector_Int_MRFaceId._Underlying **</type>
         <definition>unsafe MR.Vector_Int_MRFaceId._Underlying** MR.PlanarTriangulation.Const_TriangulationParameters.__ptr_storage_outFaceWinding</definition>
@@ -79,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1092" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1092" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1074" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1074" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a4cc8034fe1ac9b6ebabcc6f442d9f7d7" prot="protected" static="no" mutable="no">
         <type>unsafe MR.PlanarTriangulation.IntersectionsMap._Underlying **</type>
@@ -93,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1111" column="87" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1111" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1093" column="87" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1093" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -144,18 +115,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1150" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1150" bodyend="1156"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1126" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1126" bodyend="1132"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ae183367809cef4bd18996394382cea92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ad5974f49076243f83789085572ac2230" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.PlanarTriangulation.Const_TriangulationParameters.Const_TriangulationParameters</definition>
-        <argsstring>(MR.Std.Const_Vector_StdVectorMRVertId? holeVertsIds, MR.Vector_Int_MRFaceId? outFaceWinding, MR.PlanarTriangulation.IntersectionsMap? outInterMap)</argsstring>
+        <argsstring>(MR.Vector_Int_MRFaceId? outFaceWinding, MR.PlanarTriangulation.IntersectionsMap? outInterMap)</argsstring>
         <name>Const_TriangulationParameters</name>
         <qualifiedname>MR.PlanarTriangulation.Const_TriangulationParameters.Const_TriangulationParameters</qualifiedname>
-        <param>
-          <type>MR.Std.Const_Vector_StdVectorMRVertId?</type>
-          <declname>holeVertsIds</declname>
-        </param>
         <param>
           <type><ref refid="classMR_1_1Vector__Int__MRFaceId" kindref="compound">MR.Vector_Int_MRFaceId</ref>?</type>
           <declname>outFaceWinding</declname>
@@ -171,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1161" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1161" bodyend="1170"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1137" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1137" bodyend="1145"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ad573b835eea913689be9b667fff0f6d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -190,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1175" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1175" bodyend="1182"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1150" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1150" bodyend="1157"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a4403371a2ad535408060f4e9e9b572f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -209,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1187" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1187" bodyend="1187"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1162" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1162" bodyend="1162"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -249,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1139" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1139" bodyend="1144"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1115" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1115" bodyend="1120"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -292,7 +259,6 @@
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="usage">
-          <edgelabel>__ptr_storage_holeVertsIds</edgelabel>
           <edgelabel>__ptr_storage_outFaceWinding</edgelabel>
           <edgelabel>__ptr_storage_outInterMap</edgelabel>
         </childnode>
@@ -304,19 +270,17 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1039" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1040" bodyend="1188"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1039" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1040" bodyend="1163"/>
     <listofallmembers>
-      <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a12df045b053c0fd074ced1aedbd50845" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>__ptr_storage_holeVertsIds</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1afd1e2d64d18177832e9c167cc7b218e7" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>__ptr_storage_outFaceWinding</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a4cc8034fe1ac9b6ebabcc6f442d9f7d7" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>__ptr_storage_outInterMap</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a6877f831b01c59e8a3bddf125741d35b" prot="package" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ad9f309ab141b9b70d58db561c2a21f47" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
-      <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ae183367809cef4bd18996394382cea92" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ad5974f49076243f83789085572ac2230" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ad573b835eea913689be9b667fff0f6d9" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a4403371a2ad535408060f4e9e9b572f7" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1aab99df442bbfa24eac0557f5599d8ccc" prot="protected" virt="virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a8e0dab86556e64acae7bf4c84943b158" prot="public" virt="virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ac6efdaa2e32c342baf43eed1ac4d9f12" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>holeVertsIds</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1ab18db8c33708b83facac33e28215c1d4" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>outFaceWinding</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a391609675788266ead3bd70695a91853" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>outInterMap</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters_1a285e22b299b7c96347203ce5481ba0d7" prot="private" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_TriangulationParameters</scope><name>~Const_TriangulationParameters</name></member>

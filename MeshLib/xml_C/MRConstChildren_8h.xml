@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRConstChildren_8h" kind="file" language="C++">
+    <compoundname>MRConstChildren.h</compoundname>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRConstChildren.h</label>
+        <link refid="MRConstChildren_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRConstChildren_8h_1a430d586657822e294dced54cc7b4f7a6" prot="public" static="no">
+        <type>struct <ref refid="MRConstChildren_8h_1a430d586657822e294dced54cc7b4f7a6" kindref="member">MR_std_shared_ptr_const_MR_Object</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_const_MR_Object MR_std_shared_ptr_const_MR_Object</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_const_MR_Object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Wraps a pointer to a single shared reference-counted heap-allocated <computeroutput>const MR::Object</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="12" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRConstChildren_8h_1acc2f4e4d04631180d278fad84fbbc6cf" prot="public" static="no">
+        <type>struct <ref refid="MRConstChildren_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref></type>
+        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_Object MR_std_vector_std_shared_ptr_MR_Object</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_shared_ptr_MR_Object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;std::shared_ptr&lt;MR::Object&gt;&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="13" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRConstChildren_8h_1aae3d41307a14e2f069896e2a78279b37" prot="public" static="no">
+        <type>struct <ref refid="MRConstChildren_8h_1aae3d41307a14e2f069896e2a78279b37" kindref="member">MR_std_vector_std_shared_ptr_MR_Object_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_std_shared_ptr_MR_Object_const_iterator MR_std_vector_std_shared_ptr_MR_Object_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_shared_ptr_MR_Object_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRConstChildren_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="14" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" prot="public" static="no">
+        <type>struct <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref></type>
+        <definition>typedef struct MR_ConstChildren_Iterator MR_ConstChildren_Iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_ConstChildren_Iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dereferences to std::shared_ptr&lt;const Object&gt;, constructed on each dereference Generated from class <computeroutput>MR::ConstChildren::Iterator</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="20" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRConstChildren_8h_1a5c851273c1aadcd8bf0d80815800cbd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+        <definition>MRC_API MR_ConstChildren * MR_ConstChildren_ConstructFromAnother</definition>
+        <argsstring>(const MR_ConstChildren *_other)</argsstring>
+        <name>MR_ConstChildren_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ConstChildren::ConstChildren</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConstChildren_8h_1a6b7be996e1c56b44358aaf22f5bd2f11" kindref="member">MR_ConstChildren_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="48" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="48" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1aa37bbfdfc9376b908fa1af988b375932" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+        <definition>MRC_API const MR_ConstChildren * MR_ConstChildren_OffsetPtr</definition>
+        <argsstring>(const MR_ConstChildren *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ConstChildren_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="52" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="52" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1ac71f9fe031ba3759bff5449143c72b63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+        <definition>MRC_API MR_ConstChildren * MR_ConstChildren_OffsetMutablePtr</definition>
+        <argsstring>(MR_ConstChildren *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ConstChildren_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="56" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="56" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a9ae0e013fe4adaba21d1cb42e32485a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+        <definition>MRC_API MR_ConstChildren * MR_ConstChildren_Construct</definition>
+        <argsstring>(const MR_std_vector_std_shared_ptr_MR_Object *children)</argsstring>
+        <name>MR_ConstChildren_Construct</name>
+        <param>
+          <type>const <ref refid="MRConstChildren_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref> *</type>
+          <declname>children</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ConstChildren::ConstChildren</computeroutput>. Parameter <computeroutput>children</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>children</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConstChildren_8h_1a6b7be996e1c56b44358aaf22f5bd2f11" kindref="member">MR_ConstChildren_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="62" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="62" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a6b7be996e1c56b44358aaf22f5bd2f11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ConstChildren_Destroy</definition>
+        <argsstring>(const MR_ConstChildren *_this)</argsstring>
+        <name>MR_ConstChildren_Destroy</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="65" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a74e8effbb28f6f2a49c843901b0be282" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ConstChildren_DestroyArray</definition>
+        <argsstring>(const MR_ConstChildren *_this)</argsstring>
+        <name>MR_ConstChildren_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="68" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1ac2f5dcd2c6a9111fde9b61f9147a06fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+        <definition>MRC_API MR_ConstChildren_Iterator * MR_ConstChildren_begin</definition>
+        <argsstring>(const MR_ConstChildren *_this)</argsstring>
+        <name>MR_ConstChildren_begin</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ConstChildren::begin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConstChildren_8h_1aa2751a503f2d5f79baf718a489050c5b" kindref="member">MR_ConstChildren_Iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="74" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="74" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a7b7788ec5c3558fbe7ee31f893a76043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+        <definition>MRC_API MR_ConstChildren_Iterator * MR_ConstChildren_end</definition>
+        <argsstring>(const MR_ConstChildren *_this)</argsstring>
+        <name>MR_ConstChildren_end</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ConstChildren::end</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConstChildren_8h_1aa2751a503f2d5f79baf718a489050c5b" kindref="member">MR_ConstChildren_Iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="80" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="80" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1aed496cda4499311ebe8f76d271f7e2e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_ConstChildren_empty</definition>
+        <argsstring>(const MR_ConstChildren *_this)</argsstring>
+        <name>MR_ConstChildren_empty</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ConstChildren::empty</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="84" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a576d365815ba6f8ccf7c0fca2d9cc852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_ConstChildren_size</definition>
+        <argsstring>(const MR_ConstChildren *_this)</argsstring>
+        <name>MR_ConstChildren_size</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ConstChildren::size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="88" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="88" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a53604cdd802178aec5705193fec48e16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRConstChildren_8h_1a430d586657822e294dced54cc7b4f7a6" kindref="member">MR_std_shared_ptr_const_MR_Object</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_const_MR_Object * MR_ConstChildren_index</definition>
+        <argsstring>(const MR_ConstChildren *_this, size_t i)</argsstring>
+        <name>MR_ConstChildren_index</name>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ConstChildren::operator[]</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__const__MR__Object_8h_1a1e50ed8c80cc6000ea377a90232e08d3" kindref="member">MR_std_shared_ptr_const_MR_Object_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="93" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="93" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1ac678bf0b9caa1c38c32d9a0f8b6b1982" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+        <definition>MRC_API MR_ConstChildren_Iterator * MR_ConstChildren_Iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_ConstChildren_Iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConstChildren_8h_1aa2751a503f2d5f79baf718a489050c5b" kindref="member">MR_ConstChildren_Iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="97" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="97" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a140e5fa6428632a260f13b87da98627d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+        <definition>MRC_API MR_ConstChildren_Iterator * MR_ConstChildren_Iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_ConstChildren_Iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRConstChildren_8h_1a2dbb6e4094d37a814ab9e24c5db8d6f6" kindref="member">MR_ConstChildren_Iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRConstChildren_8h_1add525cdca5681a3435ac5b99f1c0e07e" kindref="member">MR_ConstChildren_Iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRConstChildren_8h_1aab92a0f6cdfb3238bdbde48d707b1a90" kindref="member">MR_ConstChildren_Iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="102" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="102" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1aab92a0f6cdfb3238bdbde48d707b1a90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+        <definition>MRC_API const MR_ConstChildren_Iterator * MR_ConstChildren_Iterator_OffsetPtr</definition>
+        <argsstring>(const MR_ConstChildren_Iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ConstChildren_Iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="106" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="106" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1add525cdca5681a3435ac5b99f1c0e07e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+        <definition>MRC_API MR_ConstChildren_Iterator * MR_ConstChildren_Iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_ConstChildren_Iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ConstChildren_Iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="110" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="110" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a08ab254daf039a5d22aa9265af25064b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+        <definition>MRC_API MR_ConstChildren_Iterator * MR_ConstChildren_Iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_ConstChildren_Iterator *_other)</argsstring>
+        <name>MR_ConstChildren_Iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ConstChildren::Iterator::Iterator</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConstChildren_8h_1aa2751a503f2d5f79baf718a489050c5b" kindref="member">MR_ConstChildren_Iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="116" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="116" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a62b2c91e81e6f76ab88dbd7abdf52d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+        <definition>MRC_API MR_ConstChildren_Iterator * MR_ConstChildren_Iterator_Construct</definition>
+        <argsstring>(const MR_std_vector_std_shared_ptr_MR_Object_const_iterator *it)</argsstring>
+        <name>MR_ConstChildren_Iterator_Construct</name>
+        <param>
+          <type>const <ref refid="MRConstChildren_8h_1aae3d41307a14e2f069896e2a78279b37" kindref="member">MR_std_vector_std_shared_ptr_MR_Object_const_iterator</ref> *</type>
+          <declname>it</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ConstChildren::Iterator::Iterator</computeroutput>. Parameter <computeroutput>it</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>it</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConstChildren_8h_1aa2751a503f2d5f79baf718a489050c5b" kindref="member">MR_ConstChildren_Iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="122" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="122" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1aa2751a503f2d5f79baf718a489050c5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ConstChildren_Iterator_Destroy</definition>
+        <argsstring>(const MR_ConstChildren_Iterator *_this)</argsstring>
+        <name>MR_ConstChildren_Iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="125" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a2dbb6e4094d37a814ab9e24c5db8d6f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ConstChildren_Iterator_DestroyArray</definition>
+        <argsstring>(const MR_ConstChildren_Iterator *_this)</argsstring>
+        <name>MR_ConstChildren_Iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="128" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a3a231ec1ecce963062efe86e55c76454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+        <definition>MRC_API MR_ConstChildren_Iterator * MR_ConstChildren_Iterator_AssignFromAnother</definition>
+        <argsstring>(MR_ConstChildren_Iterator *_this, const MR_ConstChildren_Iterator *_other)</argsstring>
+        <name>MR_ConstChildren_Iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ConstChildren::Iterator::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="136" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="136" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a299e278c6c733bf4a69c943f391fa1d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRConstChildren_8h_1a430d586657822e294dced54cc7b4f7a6" kindref="member">MR_std_shared_ptr_const_MR_Object</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_const_MR_Object * MR_deref_MR_ConstChildren_Iterator</definition>
+        <argsstring>(const MR_ConstChildren_Iterator *_this)</argsstring>
+        <name>MR_deref_MR_ConstChildren_Iterator</name>
+        <param>
+          <type>const <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ConstChildren::Iterator::operator*</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__const__MR__Object_8h_1a1e50ed8c80cc6000ea377a90232e08d3" kindref="member">MR_std_shared_ptr_const_MR_Object_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="142" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="142" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1ad5e2ce429367b122d0ba07b642620e31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+        <definition>MRC_API MR_ConstChildren_Iterator * MR_incr_MR_ConstChildren_Iterator</definition>
+        <argsstring>(MR_ConstChildren_Iterator *_this)</argsstring>
+        <name>MR_incr_MR_ConstChildren_Iterator</name>
+        <param>
+          <type><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ConstChildren::Iterator::operator++</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="147" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="147" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1ad1015669672ae46f94eaf9dce6a9cc32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+        <definition>MRC_API MR_ConstChildren_Iterator * MR_post_incr_MR_ConstChildren_Iterator</definition>
+        <argsstring>(MR_ConstChildren_Iterator *_this)</argsstring>
+        <name>MR_post_incr_MR_ConstChildren_Iterator</name>
+        <param>
+          <type><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ConstChildren::Iterator::operator++</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRConstChildren_8h_1aa2751a503f2d5f79baf718a489050c5b" kindref="member">MR_ConstChildren_Iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="152" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="152" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRConstChildren_8h_1a529e8dfd9f1fcfa045d5d104fc027724" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_ConstChildren_Iterator</definition>
+        <argsstring>(const MR_ConstChildren_Iterator *_this, const MR_ConstChildren_Iterator *_1)</argsstring>
+        <name>MR_equal_MR_ConstChildren_Iterator</name>
+        <param>
+          <type>const <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref> *</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ConstChildren::Iterator::operator==</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_1</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h" declline="157" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRConstChildren_8h_1a430d586657822e294dced54cc7b4f7a6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRConstChildren_8h_1a430d586657822e294dced54cc7b4f7a6" kindref="member">MR_std_shared_ptr_const_MR_Object</ref><sp/><ref refid="MRConstChildren_8h_1a430d586657822e294dced54cc7b4f7a6" kindref="member">MR_std_shared_ptr_const_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_const_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRConstChildren_8h_1acc2f4e4d04631180d278fad84fbbc6cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRConstChildren_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRConstChildren_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRConstChildren_8h_1aae3d41307a14e2f069896e2a78279b37" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRConstChildren_8h_1aae3d41307a14e2f069896e2a78279b37" kindref="member">MR_std_vector_std_shared_ptr_MR_Object_const_iterator</ref><sp/><ref refid="MRConstChildren_8h_1aae3d41307a14e2f069896e2a78279b37" kindref="member">MR_std_vector_std_shared_ptr_MR_Object_const_iterator</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRConstChildren_8h_1a5c851273c1aadcd8bf0d80815800cbd2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*<ref refid="MRConstChildren_8h_1a5c851273c1aadcd8bf0d80815800cbd2" kindref="member">MR_ConstChildren_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRConstChildren_8h_1aa37bbfdfc9376b908fa1af988b375932" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*<ref refid="MRConstChildren_8h_1aa37bbfdfc9376b908fa1af988b375932" kindref="member">MR_ConstChildren_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRConstChildren_8h_1ac71f9fe031ba3759bff5449143c72b63" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*<ref refid="MRConstChildren_8h_1ac71f9fe031ba3759bff5449143c72b63" kindref="member">MR_ConstChildren_OffsetMutablePtr</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRConstChildren_8h_1a9ae0e013fe4adaba21d1cb42e32485a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*<ref refid="MRConstChildren_8h_1a9ae0e013fe4adaba21d1cb42e32485a7" kindref="member">MR_ConstChildren_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1acc2f4e4d04631180d278fad84fbbc6cf" kindref="member">MR_std_vector_std_shared_ptr_MR_Object</ref><sp/>*children);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRConstChildren_8h_1a6b7be996e1c56b44358aaf22f5bd2f11" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a6b7be996e1c56b44358aaf22f5bd2f11" kindref="member">MR_ConstChildren_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRConstChildren_8h_1a74e8effbb28f6f2a49c843901b0be282" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a74e8effbb28f6f2a49c843901b0be282" kindref="member">MR_ConstChildren_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRConstChildren_8h_1ac2f5dcd2c6a9111fde9b61f9147a06fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*<ref refid="MRConstChildren_8h_1ac2f5dcd2c6a9111fde9b61f9147a06fa" kindref="member">MR_ConstChildren_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRConstChildren_8h_1a7b7788ec5c3558fbe7ee31f893a76043" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*<ref refid="MRConstChildren_8h_1a7b7788ec5c3558fbe7ee31f893a76043" kindref="member">MR_ConstChildren_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRConstChildren_8h_1aed496cda4499311ebe8f76d271f7e2e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1aed496cda4499311ebe8f76d271f7e2e5" kindref="member">MR_ConstChildren_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRConstChildren_8h_1a576d365815ba6f8ccf7c0fca2d9cc852" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a576d365815ba6f8ccf7c0fca2d9cc852" kindref="member">MR_ConstChildren_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRConstChildren_8h_1a53604cdd802178aec5705193fec48e16" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRConstChildren_8h_1a430d586657822e294dced54cc7b4f7a6" kindref="member">MR_std_shared_ptr_const_MR_Object</ref><sp/>*<ref refid="MRConstChildren_8h_1a53604cdd802178aec5705193fec48e16" kindref="member">MR_ConstChildren_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a4b66b8839d5344c80a7178e630673a16" kindref="member">MR_ConstChildren</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRConstChildren_8h_1ac678bf0b9caa1c38c32d9a0f8b6b1982" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*<ref refid="MRConstChildren_8h_1ac678bf0b9caa1c38c32d9a0f8b6b1982" kindref="member">MR_ConstChildren_Iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRConstChildren_8h_1a140e5fa6428632a260f13b87da98627d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*<ref refid="MRConstChildren_8h_1a140e5fa6428632a260f13b87da98627d" kindref="member">MR_ConstChildren_Iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRConstChildren_8h_1aab92a0f6cdfb3238bdbde48d707b1a90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*<ref refid="MRConstChildren_8h_1aab92a0f6cdfb3238bdbde48d707b1a90" kindref="member">MR_ConstChildren_Iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRConstChildren_8h_1add525cdca5681a3435ac5b99f1c0e07e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*<ref refid="MRConstChildren_8h_1add525cdca5681a3435ac5b99f1c0e07e" kindref="member">MR_ConstChildren_Iterator_OffsetMutablePtr</ref>(<ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRConstChildren_8h_1a08ab254daf039a5d22aa9265af25064b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*<ref refid="MRConstChildren_8h_1a08ab254daf039a5d22aa9265af25064b" kindref="member">MR_ConstChildren_Iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRConstChildren_8h_1a62b2c91e81e6f76ab88dbd7abdf52d00" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*<ref refid="MRConstChildren_8h_1a62b2c91e81e6f76ab88dbd7abdf52d00" kindref="member">MR_ConstChildren_Iterator_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1aae3d41307a14e2f069896e2a78279b37" kindref="member">MR_std_vector_std_shared_ptr_MR_Object_const_iterator</ref><sp/>*it);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRConstChildren_8h_1aa2751a503f2d5f79baf718a489050c5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1aa2751a503f2d5f79baf718a489050c5b" kindref="member">MR_ConstChildren_Iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRConstChildren_8h_1a2dbb6e4094d37a814ab9e24c5db8d6f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a2dbb6e4094d37a814ab9e24c5db8d6f6" kindref="member">MR_ConstChildren_Iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRConstChildren_8h_1a3a231ec1ecce963062efe86e55c76454" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*<ref refid="MRConstChildren_8h_1a3a231ec1ecce963062efe86e55c76454" kindref="member">MR_ConstChildren_Iterator_AssignFromAnother</ref>(<ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRConstChildren_8h_1a299e278c6c733bf4a69c943f391fa1d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRConstChildren_8h_1a430d586657822e294dced54cc7b4f7a6" kindref="member">MR_std_shared_ptr_const_MR_Object</ref><sp/>*<ref refid="MRConstChildren_8h_1a299e278c6c733bf4a69c943f391fa1d3" kindref="member">MR_deref_MR_ConstChildren_Iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRConstChildren_8h_1ad5e2ce429367b122d0ba07b642620e31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*<ref refid="MRConstChildren_8h_1ad5e2ce429367b122d0ba07b642620e31" kindref="member">MR_incr_MR_ConstChildren_Iterator</ref>(<ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MRConstChildren_8h_1ad1015669672ae46f94eaf9dce6a9cc32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*<ref refid="MRConstChildren_8h_1ad1015669672ae46f94eaf9dce6a9cc32" kindref="member">MR_post_incr_MR_ConstChildren_Iterator</ref>(<ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRConstChildren_8h_1a529e8dfd9f1fcfa045d5d104fc027724" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a529e8dfd9f1fcfa045d5d104fc027724" kindref="member">MR_equal_MR_ConstChildren_Iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRConstChildren_8h_1a4c571cf69b338990ec8b2176e0b6ae55" kindref="member">MR_ConstChildren_Iterator</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRConstChildren.h"/>
+  </compounddef>
+</doxygen>

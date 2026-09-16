@@ -173,6 +173,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a455a37f2beea261ea75c996d374fc0d9" id="r_a455a37f2beea261ea75c996d374fc0d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a455a37f2beea261ea75c996d374fc0d9">ChangePointPointSelectionAction</a> (const std::string &amp;<a class="el" href="#a7ebe140792b37c16fdd8f129492ad4c8">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;objPoints)</td></tr>
 <tr class="memdesc:a455a37f2beea261ea75c996d374fc0d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's vertex selection before making any changes in it  <br /></td></tr>
+<tr class="memitem:a435399a73689e1363e7232f7feee3666" id="r_a435399a73689e1363e7232f7feee3666"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a435399a73689e1363e7232f7feee3666">ChangePointPointSelectionAction</a> (const std::string &amp;<a class="el" href="#a7ebe140792b37c16fdd8f129492ad4c8">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;objPoints, VertBitSet &amp;&amp;newSelection)</td></tr>
+<tr class="memdesc:a435399a73689e1363e7232f7feee3666"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's vertex selection and immediately set new selection  <br /></td></tr>
 <tr class="memitem:a7ebe140792b37c16fdd8f129492ad4c8" id="r_a7ebe140792b37c16fdd8f129492ad4c8"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ebe140792b37c16fdd8f129492ad4c8">name</a> () const override</td></tr>
 <tr class="memitem:ac11863b18cf6233f258a49395537c69c" id="r_ac11863b18cf6233f258a49395537c69c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac11863b18cf6233f258a49395537c69c">action</a> (<a class="el" href="group__GeneralGroup.html#gac16eb31dd26d35cfc18bac8a05983aa7">Type</a>) override</td></tr>
 <tr class="memdesc:ac11863b18cf6233f258a49395537c69c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called on history action (undo, redo, etc.)  <br /></td></tr>
@@ -210,7 +212,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a455a37f2beea261ea75c996d374fc0d9" name="a455a37f2beea261ea75c996d374fc0d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a455a37f2beea261ea75c996d374fc0d9">&#9670;&#160;</a></span>ChangePointPointSelectionAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a455a37f2beea261ea75c996d374fc0d9">&#9670;&#160;</a></span>ChangePointPointSelectionAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,6 +239,42 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>use this constructor to remember object's vertex selection before making any changes in it </p>
+
+</div>
+</div>
+<a id="a435399a73689e1363e7232f7feee3666" name="a435399a73689e1363e7232f7feee3666"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a435399a73689e1363e7232f7feee3666">&#9670;&#160;</a></span>ChangePointPointSelectionAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangePointPointSelectionAction::ChangePointPointSelectionAction </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertBitSet &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>newSelection</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's vertex selection and immediately set new selection </p>
 
 </div>
 </div>

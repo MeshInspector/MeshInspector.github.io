@@ -47,7 +47,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Read-only iterator for <computeroutput><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Read-only iterator for <computeroutput><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -61,7 +61,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Mutable iterator for <computeroutput><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Mutable iterator for <computeroutput><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -70,7 +70,7 @@
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="std__vector__std__vector__MR__VertId_8h_1ae5806be50a5ac82736a01c60c60b4130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_VertId * MR_std_vector_std_vector_MR_VertId_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_DefaultConstruct</name>
@@ -87,7 +87,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_std_vector_MR_VertId.h" line="30" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_std_vector_MR_VertId.h" declline="30" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="std__vector__std__vector__MR__VertId_8h_1a0e26a3992c55632e7b6e8c58b0e5ca85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_VertId * MR_std_vector_std_vector_MR_VertId_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_DefaultConstructArray</name>
@@ -105,7 +105,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_std_vector_MR_VertId.h" line="35" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_std_vector_MR_VertId.h" declline="35" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="std__vector__std__vector__MR__VertId_8h_1a1d65a44f65581b21d7f2d05de85f98ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_VertId * MR_std_vector_std_vector_MR_VertId_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy other_pass_by, MR_std_vector_std_vector_MR_VertId *other)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_ConstructFromAnother</name>
@@ -114,7 +114,7 @@
           <declname>other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -132,7 +132,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this, MR_PassBy other_pass_by, MR_std_vector_std_vector_MR_VertId *other)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_AssignFromAnother</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -140,7 +140,7 @@
           <declname>other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -158,11 +158,11 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_Destroy</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -176,11 +176,11 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_DestroyArray</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -189,12 +189,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_std_vector_MR_VertId.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_std_vector_MR_VertId.h" declline="53" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__vector__std__vector__MR__VertId_8h_1a61fd7df4cf4fa1f87be3c26ecb5090a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
         <definition>MRC_API const MR_std_vector_std_vector_MR_VertId * MR_std_vector_std_vector_MR_VertId_OffsetPtr</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *ptr, ptrdiff_t i)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -211,12 +211,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_std_vector_MR_VertId.h" line="57" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_std_vector_MR_VertId.h" declline="57" declcolumn="50"/>
       </memberdef>
       <memberdef kind="function" id="std__vector__std__vector__MR__VertId_8h_1a69eea254567ba8fb6926d866956b8c1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_VertId * MR_std_vector_std_vector_MR_VertId_OffsetMutablePtr</definition>
         <argsstring>(MR_std_vector_std_vector_MR_VertId *ptr, ptrdiff_t i)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -238,7 +238,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_size</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -256,7 +256,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_empty</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -274,7 +274,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this, size_t new_size)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_resize</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -296,7 +296,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this, size_t new_size, const MR_std_vector_MR_VertId *value)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_resize_with_default_value</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -322,7 +322,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_clear</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -340,7 +340,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_capacity</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -358,7 +358,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this, size_t new_capacity)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_reserve</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -380,7 +380,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_shrink_to_fit</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -398,7 +398,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this, size_t i)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_at</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -420,7 +420,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this, size_t i)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_at_mut</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -442,7 +442,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_front</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -460,7 +460,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_front_mut</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -478,7 +478,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_back</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -496,7 +496,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_back_mut</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -514,7 +514,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this, MR_PassBy new_elem_pass_by, MR_std_vector_MR_VertId *new_elem)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_push_back</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -540,7 +540,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_pop_back</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -558,7 +558,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this, size_t position, MR_PassBy new_elem_pass_by, MR_std_vector_MR_VertId *new_elem)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_insert</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -588,7 +588,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this, size_t position)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_erase</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -610,7 +610,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this, const MR_std_vector_std_vector_MR_VertId_iterator *position, MR_PassBy new_elem_pass_by, MR_std_vector_MR_VertId *new_elem)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_insert_at_mutable_iter</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -640,7 +640,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this, const MR_std_vector_std_vector_MR_VertId_iterator *position)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_erase_at_mutable_iter</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -662,7 +662,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this, const MR_std_vector_std_vector_MR_VertId_const_iterator *position, MR_PassBy new_elem_pass_by, MR_std_vector_MR_VertId *new_elem)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_insert_at_iter</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -692,7 +692,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this, const MR_std_vector_std_vector_MR_VertId_const_iterator *position)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_erase_at_iter</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -714,7 +714,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_begin</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -732,7 +732,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this, const MR_std_vector_std_vector_MR_VertId_const_iterator *iter)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_is_begin</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -754,7 +754,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_begin_mut</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -772,7 +772,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this, const MR_std_vector_std_vector_MR_VertId_iterator *iter)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_is_begin_mut</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -794,7 +794,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_end</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -812,7 +812,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this, const MR_std_vector_std_vector_MR_VertId_const_iterator *iter)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_is_end</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -834,7 +834,7 @@
         <argsstring>(MR_std_vector_std_vector_MR_VertId *_this)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_end_mut</name>
         <param>
-          <type><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -852,7 +852,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this, const MR_std_vector_std_vector_MR_VertId_iterator *iter)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_is_end_mut</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -874,7 +874,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this, const MR_std_vector_std_vector_MR_VertId_const_iterator *iter)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_to_index</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -896,7 +896,7 @@
         <argsstring>(const MR_std_vector_std_vector_MR_VertId *_this, const MR_std_vector_std_vector_MR_VertId_iterator *iter)</argsstring>
         <name>MR_std_vector_std_vector_MR_VertId_to_index_mut</name>
         <param>
-          <type>const <ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -1501,91 +1501,91 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref>;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="std__vector__std__vector__MR__VertId_8h_1ae5806be50a5ac82736a01c60c60b4130" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1ae5806be50a5ac82736a01c60c60b4130" kindref="member">MR_std_vector_std_vector_MR_VertId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30" refid="std__vector__std__vector__MR__VertId_8h_1ae5806be50a5ac82736a01c60c60b4130" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1ae5806be50a5ac82736a01c60c60b4130" kindref="member">MR_std_vector_std_vector_MR_VertId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="std__vector__std__vector__MR__VertId_8h_1a0e26a3992c55632e7b6e8c58b0e5ca85" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a0e26a3992c55632e7b6e8c58b0e5ca85" kindref="member">MR_std_vector_std_vector_MR_VertId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="35" refid="std__vector__std__vector__MR__VertId_8h_1a0e26a3992c55632e7b6e8c58b0e5ca85" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a0e26a3992c55632e7b6e8c58b0e5ca85" kindref="member">MR_std_vector_std_vector_MR_VertId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="std__vector__std__vector__MR__VertId_8h_1a1d65a44f65581b21d7f2d05de85f98ad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a1d65a44f65581b21d7f2d05de85f98ad" kindref="member">MR_std_vector_std_vector_MR_VertId_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="41" refid="std__vector__std__vector__MR__VertId_8h_1a1d65a44f65581b21d7f2d05de85f98ad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a1d65a44f65581b21d7f2d05de85f98ad" kindref="member">MR_std_vector_std_vector_MR_VertId_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="std__vector__std__vector__MR__VertId_8h_1ad6cd8a034c77d9a23d69b00741142b51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1ad6cd8a034c77d9a23d69b00741142b51" kindref="member">MR_std_vector_std_vector_MR_VertId_AssignFromAnother</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="47" refid="std__vector__std__vector__MR__VertId_8h_1ad6cd8a034c77d9a23d69b00741142b51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1ad6cd8a034c77d9a23d69b00741142b51" kindref="member">MR_std_vector_std_vector_MR_VertId_AssignFromAnother</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="std__vector__std__vector__MR__VertId_8h_1a5b5380048ef169d05eddbffc3d3ec994" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a5b5380048ef169d05eddbffc3d3ec994" kindref="member">MR_std_vector_std_vector_MR_VertId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50" refid="std__vector__std__vector__MR__VertId_8h_1a5b5380048ef169d05eddbffc3d3ec994" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a5b5380048ef169d05eddbffc3d3ec994" kindref="member">MR_std_vector_std_vector_MR_VertId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="std__vector__std__vector__MR__VertId_8h_1ae4cef4211ff19b98506871aa5f814522" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1ae4cef4211ff19b98506871aa5f814522" kindref="member">MR_std_vector_std_vector_MR_VertId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53" refid="std__vector__std__vector__MR__VertId_8h_1ae4cef4211ff19b98506871aa5f814522" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1ae4cef4211ff19b98506871aa5f814522" kindref="member">MR_std_vector_std_vector_MR_VertId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="std__vector__std__vector__MR__VertId_8h_1a61fd7df4cf4fa1f87be3c26ecb5090a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a61fd7df4cf4fa1f87be3c26ecb5090a4" kindref="member">MR_std_vector_std_vector_MR_VertId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="57" refid="std__vector__std__vector__MR__VertId_8h_1a61fd7df4cf4fa1f87be3c26ecb5090a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a61fd7df4cf4fa1f87be3c26ecb5090a4" kindref="member">MR_std_vector_std_vector_MR_VertId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="std__vector__std__vector__MR__VertId_8h_1a69eea254567ba8fb6926d866956b8c1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a69eea254567ba8fb6926d866956b8c1e" kindref="member">MR_std_vector_std_vector_MR_VertId_OffsetMutablePtr</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="61" refid="std__vector__std__vector__MR__VertId_8h_1a69eea254567ba8fb6926d866956b8c1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a69eea254567ba8fb6926d866956b8c1e" kindref="member">MR_std_vector_std_vector_MR_VertId_OffsetMutablePtr</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="std__vector__std__vector__MR__VertId_8h_1a9164ec987ca5836ac799524613b53e94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a9164ec987ca5836ac799524613b53e94" kindref="member">MR_std_vector_std_vector_MR_VertId_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65" refid="std__vector__std__vector__MR__VertId_8h_1a9164ec987ca5836ac799524613b53e94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a9164ec987ca5836ac799524613b53e94" kindref="member">MR_std_vector_std_vector_MR_VertId_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="std__vector__std__vector__MR__VertId_8h_1aeb0431756dabd4281b4583c1d24ad7bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1aeb0431756dabd4281b4583c1d24ad7bc" kindref="member">MR_std_vector_std_vector_MR_VertId_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69" refid="std__vector__std__vector__MR__VertId_8h_1aeb0431756dabd4281b4583c1d24ad7bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1aeb0431756dabd4281b4583c1d24ad7bc" kindref="member">MR_std_vector_std_vector_MR_VertId_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="std__vector__std__vector__MR__VertId_8h_1a9183d3dfab633b29b55f296b9c2d5a05" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a9183d3dfab633b29b55f296b9c2d5a05" kindref="member">MR_std_vector_std_vector_MR_VertId_resize</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="73" refid="std__vector__std__vector__MR__VertId_8h_1a9183d3dfab633b29b55f296b9c2d5a05" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a9183d3dfab633b29b55f296b9c2d5a05" kindref="member">MR_std_vector_std_vector_MR_VertId_resize</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="std__vector__std__vector__MR__VertId_8h_1a2493ddc61d6ad8779613bafd8e407646" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a2493ddc61d6ad8779613bafd8e407646" kindref="member">MR_std_vector_std_vector_MR_VertId_resize_with_default_value</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="78" refid="std__vector__std__vector__MR__VertId_8h_1a2493ddc61d6ad8779613bafd8e407646" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a2493ddc61d6ad8779613bafd8e407646" kindref="member">MR_std_vector_std_vector_MR_VertId_resize_with_default_value</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="std__vector__std__vector__MR__VertId_8h_1a5c49a725fdbcd8a64befa98194aa6012" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a5c49a725fdbcd8a64befa98194aa6012" kindref="member">MR_std_vector_std_vector_MR_VertId_clear</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83" refid="std__vector__std__vector__MR__VertId_8h_1a5c49a725fdbcd8a64befa98194aa6012" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a5c49a725fdbcd8a64befa98194aa6012" kindref="member">MR_std_vector_std_vector_MR_VertId_clear</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="std__vector__std__vector__MR__VertId_8h_1a0b3e5e0b26cb04120d71da6f48dcfb3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a0b3e5e0b26cb04120d71da6f48dcfb3f" kindref="member">MR_std_vector_std_vector_MR_VertId_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87" refid="std__vector__std__vector__MR__VertId_8h_1a0b3e5e0b26cb04120d71da6f48dcfb3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a0b3e5e0b26cb04120d71da6f48dcfb3f" kindref="member">MR_std_vector_std_vector_MR_VertId_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="std__vector__std__vector__MR__VertId_8h_1af350349555bccaaca81b1952dbc2d83f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1af350349555bccaaca81b1952dbc2d83f" kindref="member">MR_std_vector_std_vector_MR_VertId_reserve</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="91" refid="std__vector__std__vector__MR__VertId_8h_1af350349555bccaaca81b1952dbc2d83f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1af350349555bccaaca81b1952dbc2d83f" kindref="member">MR_std_vector_std_vector_MR_VertId_reserve</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="std__vector__std__vector__MR__VertId_8h_1ab4e750a5b00e9d6ef52f2648328055ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1ab4e750a5b00e9d6ef52f2648328055ed" kindref="member">MR_std_vector_std_vector_MR_VertId_shrink_to_fit</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95" refid="std__vector__std__vector__MR__VertId_8h_1ab4e750a5b00e9d6ef52f2648328055ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1ab4e750a5b00e9d6ef52f2648328055ed" kindref="member">MR_std_vector_std_vector_MR_VertId_shrink_to_fit</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="std__vector__std__vector__MR__VertId_8h_1a43792a8e32ca89770fde1b5c92599ca9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a43792a8e32ca89770fde1b5c92599ca9" kindref="member">MR_std_vector_std_vector_MR_VertId_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="101" refid="std__vector__std__vector__MR__VertId_8h_1a43792a8e32ca89770fde1b5c92599ca9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a43792a8e32ca89770fde1b5c92599ca9" kindref="member">MR_std_vector_std_vector_MR_VertId_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="std__vector__std__vector__MR__VertId_8h_1aaafdad4862f12580a0046c6cdc16cc2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1aaafdad4862f12580a0046c6cdc16cc2b" kindref="member">MR_std_vector_std_vector_MR_VertId_at_mut</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="107" refid="std__vector__std__vector__MR__VertId_8h_1aaafdad4862f12580a0046c6cdc16cc2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1aaafdad4862f12580a0046c6cdc16cc2b" kindref="member">MR_std_vector_std_vector_MR_VertId_at_mut</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="std__vector__std__vector__MR__VertId_8h_1ac84c8a87077dd783e9eacb8fae187974" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1ac84c8a87077dd783e9eacb8fae187974" kindref="member">MR_std_vector_std_vector_MR_VertId_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="112" refid="std__vector__std__vector__MR__VertId_8h_1ac84c8a87077dd783e9eacb8fae187974" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1ac84c8a87077dd783e9eacb8fae187974" kindref="member">MR_std_vector_std_vector_MR_VertId_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="std__vector__std__vector__MR__VertId_8h_1ac7c6797b51d4fafb1042bea93001026c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1ac7c6797b51d4fafb1042bea93001026c" kindref="member">MR_std_vector_std_vector_MR_VertId_front_mut</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117" refid="std__vector__std__vector__MR__VertId_8h_1ac7c6797b51d4fafb1042bea93001026c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1ac7c6797b51d4fafb1042bea93001026c" kindref="member">MR_std_vector_std_vector_MR_VertId_front_mut</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="std__vector__std__vector__MR__VertId_8h_1a4739a5e539a4deb71d843ee0deceaa78" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a4739a5e539a4deb71d843ee0deceaa78" kindref="member">MR_std_vector_std_vector_MR_VertId_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122" refid="std__vector__std__vector__MR__VertId_8h_1a4739a5e539a4deb71d843ee0deceaa78" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a4739a5e539a4deb71d843ee0deceaa78" kindref="member">MR_std_vector_std_vector_MR_VertId_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="std__vector__std__vector__MR__VertId_8h_1a9584e95364a5ff8702e6bd817a6a3c02" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a9584e95364a5ff8702e6bd817a6a3c02" kindref="member">MR_std_vector_std_vector_MR_VertId_back_mut</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127" refid="std__vector__std__vector__MR__VertId_8h_1a9584e95364a5ff8702e6bd817a6a3c02" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a9584e95364a5ff8702e6bd817a6a3c02" kindref="member">MR_std_vector_std_vector_MR_VertId_back_mut</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="std__vector__std__vector__MR__VertId_8h_1a45ad24b60cd6fce2e0d34ebbfbdf5535" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a45ad24b60cd6fce2e0d34ebbfbdf5535" kindref="member">MR_std_vector_std_vector_MR_VertId_push_back</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="132" refid="std__vector__std__vector__MR__VertId_8h_1a45ad24b60cd6fce2e0d34ebbfbdf5535" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a45ad24b60cd6fce2e0d34ebbfbdf5535" kindref="member">MR_std_vector_std_vector_MR_VertId_push_back</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*new_elem);</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="std__vector__std__vector__MR__VertId_8h_1a74418eee681523145113bb3e3b6564b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a74418eee681523145113bb3e3b6564b0" kindref="member">MR_std_vector_std_vector_MR_VertId_pop_back</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136" refid="std__vector__std__vector__MR__VertId_8h_1a74418eee681523145113bb3e3b6564b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a74418eee681523145113bb3e3b6564b0" kindref="member">MR_std_vector_std_vector_MR_VertId_pop_back</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="std__vector__std__vector__MR__VertId_8h_1aa04062987e0b63d3174739ef405b6a9f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1aa04062987e0b63d3174739ef405b6a9f" kindref="member">MR_std_vector_std_vector_MR_VertId_insert</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="141" refid="std__vector__std__vector__MR__VertId_8h_1aa04062987e0b63d3174739ef405b6a9f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1aa04062987e0b63d3174739ef405b6a9f" kindref="member">MR_std_vector_std_vector_MR_VertId_insert</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*new_elem);</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="std__vector__std__vector__MR__VertId_8h_1aeb35484ff741a3c69a6959cb7609b4c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1aeb35484ff741a3c69a6959cb7609b4c3" kindref="member">MR_std_vector_std_vector_MR_VertId_erase</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="145" refid="std__vector__std__vector__MR__VertId_8h_1aeb35484ff741a3c69a6959cb7609b4c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1aeb35484ff741a3c69a6959cb7609b4c3" kindref="member">MR_std_vector_std_vector_MR_VertId_erase</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151" refid="std__vector__std__vector__MR__VertId_8h_1a4d3d05013e588f0a8eb4d7f5aa550e82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4d3d05013e588f0a8eb4d7f5aa550e82" kindref="member">MR_std_vector_std_vector_MR_VertId_insert_at_mutable_iter</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="151" refid="std__vector__std__vector__MR__VertId_8h_1a4d3d05013e588f0a8eb4d7f5aa550e82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4d3d05013e588f0a8eb4d7f5aa550e82" kindref="member">MR_std_vector_std_vector_MR_VertId_insert_at_mutable_iter</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*new_elem);</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156" refid="std__vector__std__vector__MR__VertId_8h_1a2a2955dc981b1f35b890a761f9d6c926" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a2a2955dc981b1f35b890a761f9d6c926" kindref="member">MR_std_vector_std_vector_MR_VertId_erase_at_mutable_iter</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="156" refid="std__vector__std__vector__MR__VertId_8h_1a2a2955dc981b1f35b890a761f9d6c926" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a2a2955dc981b1f35b890a761f9d6c926" kindref="member">MR_std_vector_std_vector_MR_VertId_erase_at_mutable_iter</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*position);</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="std__vector__std__vector__MR__VertId_8h_1aae05ccbdd67f95d389bd4f30e1fa0399" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1aae05ccbdd67f95d389bd4f30e1fa0399" kindref="member">MR_std_vector_std_vector_MR_VertId_insert_at_iter</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="162" refid="std__vector__std__vector__MR__VertId_8h_1aae05ccbdd67f95d389bd4f30e1fa0399" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1aae05ccbdd67f95d389bd4f30e1fa0399" kindref="member">MR_std_vector_std_vector_MR_VertId_insert_at_iter</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*new_elem);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="std__vector__std__vector__MR__VertId_8h_1a141b815a68fa103d996c49e10d0bd4c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a141b815a68fa103d996c49e10d0bd4c2" kindref="member">MR_std_vector_std_vector_MR_VertId_erase_at_iter</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="167" refid="std__vector__std__vector__MR__VertId_8h_1a141b815a68fa103d996c49e10d0bd4c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a141b815a68fa103d996c49e10d0bd4c2" kindref="member">MR_std_vector_std_vector_MR_VertId_erase_at_iter</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*position);</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173" refid="std__vector__std__vector__MR__VertId_8h_1ae6f3260992a80d963550a5b2d9d42a31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1ae6f3260992a80d963550a5b2d9d42a31" kindref="member">MR_std_vector_std_vector_MR_VertId_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="173" refid="std__vector__std__vector__MR__VertId_8h_1ae6f3260992a80d963550a5b2d9d42a31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1ae6f3260992a80d963550a5b2d9d42a31" kindref="member">MR_std_vector_std_vector_MR_VertId_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="std__vector__std__vector__MR__VertId_8h_1afae3e7622e1bf5732b1ac7279b3044e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1afae3e7622e1bf5732b1ac7279b3044e0" kindref="member">MR_std_vector_std_vector_MR_VertId_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="178" refid="std__vector__std__vector__MR__VertId_8h_1afae3e7622e1bf5732b1ac7279b3044e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1afae3e7622e1bf5732b1ac7279b3044e0" kindref="member">MR_std_vector_std_vector_MR_VertId_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*iter);</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="std__vector__std__vector__MR__VertId_8h_1a484380738aa26ff24232bc497730e546" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a484380738aa26ff24232bc497730e546" kindref="member">MR_std_vector_std_vector_MR_VertId_begin_mut</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="184" refid="std__vector__std__vector__MR__VertId_8h_1a484380738aa26ff24232bc497730e546" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a484380738aa26ff24232bc497730e546" kindref="member">MR_std_vector_std_vector_MR_VertId_begin_mut</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189" refid="std__vector__std__vector__MR__VertId_8h_1aa2e0d8ee36a9c61a4f22f484153444ca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1aa2e0d8ee36a9c61a4f22f484153444ca" kindref="member">MR_std_vector_std_vector_MR_VertId_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="189" refid="std__vector__std__vector__MR__VertId_8h_1aa2e0d8ee36a9c61a4f22f484153444ca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1aa2e0d8ee36a9c61a4f22f484153444ca" kindref="member">MR_std_vector_std_vector_MR_VertId_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*iter);</highlight></codeline>
 <codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="std__vector__std__vector__MR__VertId_8h_1a20d61dd7edbb509f5d5cd80bb3ec9149" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a20d61dd7edbb509f5d5cd80bb3ec9149" kindref="member">MR_std_vector_std_vector_MR_VertId_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195" refid="std__vector__std__vector__MR__VertId_8h_1a20d61dd7edbb509f5d5cd80bb3ec9149" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a20d61dd7edbb509f5d5cd80bb3ec9149" kindref="member">MR_std_vector_std_vector_MR_VertId_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200" refid="std__vector__std__vector__MR__VertId_8h_1a5dabe0e170dbe7e5ef2e0cd5b89960ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a5dabe0e170dbe7e5ef2e0cd5b89960ce" kindref="member">MR_std_vector_std_vector_MR_VertId_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="200" refid="std__vector__std__vector__MR__VertId_8h_1a5dabe0e170dbe7e5ef2e0cd5b89960ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a5dabe0e170dbe7e5ef2e0cd5b89960ce" kindref="member">MR_std_vector_std_vector_MR_VertId_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*iter);</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206" refid="std__vector__std__vector__MR__VertId_8h_1a3ed204374e0b1de9e26e07d29e82a078" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a3ed204374e0b1de9e26e07d29e82a078" kindref="member">MR_std_vector_std_vector_MR_VertId_end_mut</ref>(<ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="206" refid="std__vector__std__vector__MR__VertId_8h_1a3ed204374e0b1de9e26e07d29e82a078" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a3ed204374e0b1de9e26e07d29e82a078" kindref="member">MR_std_vector_std_vector_MR_VertId_end_mut</ref>(<ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211" refid="std__vector__std__vector__MR__VertId_8h_1aba9e1c089711e2342f88074bee91fcec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1aba9e1c089711e2342f88074bee91fcec" kindref="member">MR_std_vector_std_vector_MR_VertId_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="211" refid="std__vector__std__vector__MR__VertId_8h_1aba9e1c089711e2342f88074bee91fcec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1aba9e1c089711e2342f88074bee91fcec" kindref="member">MR_std_vector_std_vector_MR_VertId_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*iter);</highlight></codeline>
 <codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="std__vector__std__vector__MR__VertId_8h_1a7d40e91b4bbd31073827e57e195ad56b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a7d40e91b4bbd31073827e57e195ad56b" kindref="member">MR_std_vector_std_vector_MR_VertId_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216" refid="std__vector__std__vector__MR__VertId_8h_1a7d40e91b4bbd31073827e57e195ad56b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a7d40e91b4bbd31073827e57e195ad56b" kindref="member">MR_std_vector_std_vector_MR_VertId_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*iter);</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="std__vector__std__vector__MR__VertId_8h_1a3a77e27b7d3239408fbe32ecab98433a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a3a77e27b7d3239408fbe32ecab98433a" kindref="member">MR_std_vector_std_vector_MR_VertId_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221" refid="std__vector__std__vector__MR__VertId_8h_1a3a77e27b7d3239408fbe32ecab98433a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a3a77e27b7d3239408fbe32ecab98433a" kindref="member">MR_std_vector_std_vector_MR_VertId_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolyline_8h_1abdbe8ace605f6572986fd0d93bdced2a" kindref="member">MR_std_vector_std_vector_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a4a5fc59ed741598f452a57a0547d39ee" kindref="member">MR_std_vector_std_vector_MR_VertId_iterator</ref><sp/>*iter);</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight></codeline>
 <codeline lineno="225" refid="std__vector__std__vector__MR__VertId_8h_1a41df4291c4142ac16db43165c6fb2f0f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__std__vector__MR__VertId_8h_1a57a592c2cb146d1c5ffceccfcd7569b3" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator</ref><sp/>*<ref refid="std__vector__std__vector__MR__VertId_8h_1a41df4291c4142ac16db43165c6fb2f0f" kindref="member">MR_std_vector_std_vector_MR_VertId_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>

@@ -140,7 +140,9 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
   <div class="headertitle"><div class="title">Mesh ICP </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Example of mesh ICP (finding transformation to match objects)</p>
+<div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2MeshICP"></a></p>
+<p>Example of mesh ICP (finding transformation to match objects)</p>
+<p>▶ <a href="https://demo.meshlib.io/#registration">See it live in the browser</a></p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRICP.h&gt;</span></div>
@@ -323,14 +325,19 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshICPExample</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run()</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <span class="comment">// Load meshes</span></div>
+<div class="line">            <span class="comment">// Make two meshes to align</span></div>
+<div class="line">            <span class="comment">// (to align your own meshes, load them with MR.MeshLoad.fromAnySupportedFormat instead)</span></div>
+<div class="line">            var mesh_floating = MR.makeTorus(2.0f, 1.0f, 32, 32);</div>
+<div class="line">            var mesh_fixed = MR.makeTorus(2.0f, 1.0f, 32, 32);</div>
 <div class="line"> </div>
-<div class="line">            var mesh_floating = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;meshA.stl&quot;</span>);</div>
-<div class="line">            var mesh_fixed = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;meshB.stl&quot;</span>);</div>
+<div class="line">            <span class="comment">// Displace the floating mesh, so ICP has a transformation to recover</span></div>
+<div class="line">            mesh_floating.transform(<span class="keyword">new</span> MR.AffineXf3f(</div>
+<div class="line">                MR.Matrix3f.rotation(<span class="keyword">new</span> MR.Vector3f(1.0f, 0.0f, 0.0f), 0.2f),</div>
+<div class="line">                <span class="keyword">new</span> MR.Vector3f(0.3f, 0.2f, 0.1f)));</div>
 <div class="line"> </div>
 <div class="line">            MR.MeshOrPointsXf mesh_xf_floating = <span class="keyword">new</span>(mesh_floating, <span class="keyword">new</span> MR.AffineXf3f());</div>
 <div class="line">            MR.MeshOrPointsXf mesh_xf_fixed = <span class="keyword">new</span>(mesh_fixed, <span class="keyword">new</span> MR.AffineXf3f());</div>
@@ -401,9 +408,10 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line"> </div>
 <div class="line">// Save result</div>
 <div class="line">ml.MeshSave.toAnySupportedFormat(meshFloating, &#39;meshA_icp.stl&#39;);</div>
-</div><!-- fragment --></li>
+</div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
+</li>
 </ul>
-</div><div class="tabbed"></div> </div></div><!-- contents -->
+</div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

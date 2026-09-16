@@ -140,7 +140,9 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
   <div class="headertitle"><div class="title">Detect collisions of two meshes </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Following code presents example of finding collision triangles of two meshes</p>
+<div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2Collision"></a></p>
+<p>Following code presents example of finding collision triangles of two meshes</p>
+<p>▶ <a href="https://demo.meshlib.io/#collision">See it live in the browser</a></p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMakeSphereMesh.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
@@ -261,7 +263,7 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line"> </div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>CollisionExample</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
 <div class="line">        var meshA = MR.makeUVSphere(); <span class="comment">// make mesh A</span></div>
 <div class="line">        var meshB = MR.makeUVSphere(); <span class="comment">// make mesh B</span></div>
@@ -311,9 +313,10 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line">// fast check whether mesh A and mesh B collide</div>
 <div class="line">const isColliding = ml.findCollidingTriangles(meshA, meshB, true).length &gt; 0;</div>
 <div class="line">console.log(isColliding);</div>
-</div><!-- fragment --></li>
+</div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
+</li>
 </ul>
-</div><div class="tabbed"></div> </div></div><!-- contents -->
+</div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->
