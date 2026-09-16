@@ -965,6 +965,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AFrameCounter" id="r_MR_3A_3AFrameCounter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FrameCounter.html">MR::FrameCounter</a></td></tr>
 <tr class="memitem:MR_3A_3AFrameRedrawRequest" id="r_MR_3A_3AFrameRedrawRequest"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FrameRedrawRequest.html">MR::FrameRedrawRequest</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">class for requesting frame redraw in some time  <a href="classMR_1_1FrameRedrawRequest.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AGLDriverIssue" id="r_MR_3A_3AGLDriverIssue"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1GLDriverIssue.html">MR::GLDriverIssue</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a known issue of an OpenGL driver  <a href="structMR_1_1GLDriverIssue.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AGLStaticHolder" id="r_MR_3A_3AGLStaticHolder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GLStaticHolder.html">MR::GLStaticHolder</a></td></tr>
 <tr class="memitem:MR_3A_3AGlTexture" id="r_MR_3A_3AGlTexture"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1GlTexture.html">MR::GlTexture</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">represents OpenGL texture owner, and allows uploading data in it remembering texture size  <a href="classMR_1_1GlTexture.html#details">More...</a><br /></td></tr>
@@ -8927,6 +8929,8 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gad6f9a88dc104473096b5286166eef0dd" id="r_gad6f9a88dc104473096b5286166eef0dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad6f9a88dc104473096b5286166eef0dd">MR::FrameRedrawRequest::requestFrame</a> (size_t millisecondsInterval=100)</td></tr>
 <tr class="memitem:ga8b1ad752d0922386c2dbc94bc2059653" id="r_ga8b1ad752d0922386c2dbc94bc2059653"><td class="memItemLeft" align="right" valign="top">Json::Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b1ad752d0922386c2dbc94bc2059653">MR::GetSystemInfoJson</a> ()</td></tr>
 <tr class="memdesc:ga8b1ad752d0922386c2dbc94bc2059653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accumulate system information in Json value.  <br /></td></tr>
+<tr class="memitem:gaea5ae89b7fa9e74526465b0a047fa5df" id="r_gaea5ae89b7fa9e74526465b0a047fa5df"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1GLDriverIssue.html">GLDriverIssue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea5ae89b7fa9e74526465b0a047fa5df">MR::glDriverKnownIssues</a> ()</td></tr>
+<tr class="memdesc:gaea5ae89b7fa9e74526465b0a047fa5df"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the known issues of the current OpenGL driver  <br /></td></tr>
 <tr class="memitem:ga0f57f5da2c3f4e0c838d34fa298ef741" id="r_ga0f57f5da2c3f4e0c838d34fa298ef741"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ga51ef10d476eb1492c1b758ef79a42482">GLuint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f57f5da2c3f4e0c838d34fa298ef741">MR::GLStaticHolder::getShaderId</a> (<a class="el" href="#ga00a040d6d7d04967fe9f892d8cb76748">ShaderType</a> type)</td></tr>
 <tr class="memdesc:ga0f57f5da2c3f4e0c838d34fa298ef741"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates shader if it is not and return valid id.  <br /></td></tr>
 <tr class="memitem:ga9a2999730b88c2298591cbe03b24b67e" id="r_ga9a2999730b88c2298591cbe03b24b67e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9a2999730b88c2298591cbe03b24b67e">MR::GLStaticHolder::freeShader</a> (<a class="el" href="#ga00a040d6d7d04967fe9f892d8cb76748">ShaderType</a> type)</td></tr>
@@ -13752,6 +13756,9 @@ Variables</h2></td></tr>
 <tr class="memitem:gaea5d0a29f0eeb7d5301f5761259fbb71" id="r_gaea5d0a29f0eeb7d5301f5761259fbb71"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea5d0a29f0eeb7d5301f5761259fbb71">MR::FrameCounter::startFrameNum</a> { 0 }</td></tr>
 <tr class="memitem:ga25923dd70b8324ec74a8d347e1cd40d2" id="r_ga25923dd70b8324ec74a8d347e1cd40d2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga25923dd70b8324ec74a8d347e1cd40d2">MR::FrameCounter::fps</a> { 0 }</td></tr>
 <tr class="memitem:gab152bae1e1a65d8d52cba5b78cd43a8c" id="r_gab152bae1e1a65d8d52cba5b78cd43a8c"><td class="memItemLeft" align="right" valign="top">std::chrono::duration&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab152bae1e1a65d8d52cba5b78cd43a8c">MR::FrameCounter::drawTimeMilliSec</a> { 0 }</td></tr>
+<tr class="memitem:ga5c8452da35aedcbc9d991e90c4eddd3a" id="r_ga5c8452da35aedcbc9d991e90c4eddd3a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5c8452da35aedcbc9d991e90c4eddd3a">MR::GLDriverIssue::id</a></td></tr>
+<tr class="memitem:ga63cb40ae1beaf80d388327d1b20bbff6" id="r_ga63cb40ae1beaf80d388327d1b20bbff6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga63cb40ae1beaf80d388327d1b20bbff6">MR::GLDriverIssue::description</a></td></tr>
+<tr class="memdesc:ga63cb40ae1beaf80d388327d1b20bbff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">human-readable description of the issue together with its remedy  <br /></td></tr>
 <tr class="memitem:ga41901568843aff73ce764e7d07c0a81f" id="r_ga41901568843aff73ce764e7d07c0a81f"><td class="memItemLeft" align="right" valign="top">static constexpr GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga41901568843aff73ce764e7d07c0a81f">MR::GlTexture::NO_TEX</a> = 0</td></tr>
 <tr class="memitem:gafac6caf438f2fe584e2e968364cfbd8a" id="r_gafac6caf438f2fe584e2e968364cfbd8a"><td class="memItemLeft" align="right" valign="top">Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafac6caf438f2fe584e2e968364cfbd8a">MR::GlTexture::Settings::resolution</a></td></tr>
 <tr class="memitem:ga3b834f386d4f814d5f03b43e229d4adb" id="r_ga3b834f386d4f814d5f03b43e229d4adb"><td class="memItemLeft" align="right" valign="top">GLint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3b834f386d4f814d5f03b43e229d4adb">MR::GlTexture::Settings::internalFormat</a> = GL_RGBA</td></tr>
@@ -99619,6 +99626,27 @@ template&lt;typename ... Bases&gt; </div>
 <p>returns the amount of memory this object allocated in OpenGL </p>
 
 <p>Implements <a class="el" href="#gadefa4d9a963e416cc21d7116749cdffe">MR::IRenderObject</a>.</p>
+
+</div>
+</div>
+<a id="gaea5ae89b7fa9e74526465b0a047fa5df" name="gaea5ae89b7fa9e74526465b0a047fa5df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaea5ae89b7fa9e74526465b0a047fa5df">&#9670;&#160;</a></span>glDriverKnownIssues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="structMR_1_1GLDriverIssue.html">GLDriverIssue</a> &gt; MR::glDriverKnownIssues </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRGLDriverKnownIssues_8h.html">MRViewer/MRGLDriverKnownIssues.h</a>&gt;</code></p>
+
+<p>returns the known issues of the current OpenGL driver </p>
 
 </div>
 </div>
@@ -210016,6 +210044,22 @@ template&lt;typename...&gt; </div>
 
 </div>
 </div>
+<a id="ga63cb40ae1beaf80d388327d1b20bbff6" name="ga63cb40ae1beaf80d388327d1b20bbff6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga63cb40ae1beaf80d388327d1b20bbff6">&#9670;&#160;</a></span>description</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::GLDriverIssue::description</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>human-readable description of the issue together with its remedy </p>
+
+</div>
+</div>
 <a id="gaf4b84e5c4ee9c3f4eca9a8e0c73dde3d" name="gaf4b84e5c4ee9c3f4eca9a8e0c73dde3d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaf4b84e5c4ee9c3f4eca9a8e0c73dde3d">&#9670;&#160;</a></span>deselectNewHiddenObjects_</h2>
 
@@ -215358,8 +215402,23 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga5c8452da35aedcbc9d991e90c4eddd3a" name="ga5c8452da35aedcbc9d991e90c4eddd3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5c8452da35aedcbc9d991e90c4eddd3a">&#9670;&#160;</a></span>id <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::GLDriverIssue::id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>stable identifier of the issue, the same for every driver version affected by it, usually the upstream bug tracker reference </p>
+
+</div>
+</div>
 <a id="ga06f1bfc70a05a9294afb6050626e61dd" name="ga06f1bfc70a05a9294afb6050626e61dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga06f1bfc70a05a9294afb6050626e61dd">&#9670;&#160;</a></span>id <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga06f1bfc70a05a9294afb6050626e61dd">&#9670;&#160;</a></span>id <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215375,7 +215434,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6ffb69d89938c4fc7d7cf12857c89f25" name="ga6ffb69d89938c4fc7d7cf12857c89f25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6ffb69d89938c4fc7d7cf12857c89f25">&#9670;&#160;</a></span>id <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6ffb69d89938c4fc7d7cf12857c89f25">&#9670;&#160;</a></span>id <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215391,7 +215450,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaee4e7653cf187ba47b0eceff8088e6a5" name="gaee4e7653cf187ba47b0eceff8088e6a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaee4e7653cf187ba47b0eceff8088e6a5">&#9670;&#160;</a></span>id <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaee4e7653cf187ba47b0eceff8088e6a5">&#9670;&#160;</a></span>id <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215407,7 +215466,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad780242bd07f5443e169a2dd593d1187" name="gad780242bd07f5443e169a2dd593d1187"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad780242bd07f5443e169a2dd593d1187">&#9670;&#160;</a></span>id <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad780242bd07f5443e169a2dd593d1187">&#9670;&#160;</a></span>id <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215421,7 +215480,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gae00077737e87f4f3c0abcaba59668721" name="gae00077737e87f4f3c0abcaba59668721"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae00077737e87f4f3c0abcaba59668721">&#9670;&#160;</a></span>id <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae00077737e87f4f3c0abcaba59668721">&#9670;&#160;</a></span>id <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215435,7 +215494,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaf4af07c3784f0a14e16153397b0becde" name="gaf4af07c3784f0a14e16153397b0becde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf4af07c3784f0a14e16153397b0becde">&#9670;&#160;</a></span>id <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf4af07c3784f0a14e16153397b0becde">&#9670;&#160;</a></span>id <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

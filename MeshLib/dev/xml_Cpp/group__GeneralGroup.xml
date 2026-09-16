@@ -567,6 +567,7 @@
     <innerclass refid="structMR_1_1FitBoxParams" prot="public">MR::FitBoxParams</innerclass>
     <innerclass refid="classMR_1_1FrameCounter" prot="public">MR::FrameCounter</innerclass>
     <innerclass refid="classMR_1_1FrameRedrawRequest" prot="public">MR::FrameRedrawRequest</innerclass>
+    <innerclass refid="structMR_1_1GLDriverIssue" prot="public">MR::GLDriverIssue</innerclass>
     <innerclass refid="classMR_1_1GLStaticHolder" prot="public">MR::GLStaticHolder</innerclass>
     <innerclass refid="classMR_1_1GlTexture" prot="public">MR::GlTexture</innerclass>
     <innerclass refid="structMR_1_1GlTexture_1_1Settings" prot="public">MR::GlTexture::Settings</innerclass>
@@ -49769,6 +49770,36 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <inbodydescription>
         </inbodydescription>
         <location file="MRViewer/MRFrameRedrawRequest.h" line="21" column="18" bodyfile="MRViewer/MRFrameRedrawRequest.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga5c8452da35aedcbc9d991e90c4eddd3a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::GLDriverIssue::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR::GLDriverIssue::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stable identifier of the issue, the same for every driver version affected by it, usually the upstream bug tracker reference </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRGLDriverKnownIssues.h" line="19" column="17" bodyfile="MRViewer/MRGLDriverKnownIssues.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga63cb40ae1beaf80d388327d1b20bbff6" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::GLDriverIssue::description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <qualifiedname>MR::GLDriverIssue::description</qualifiedname>
+        <briefdescription>
+<para>human-readable description of the issue together with its remedy </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRGLDriverKnownIssues.h" line="21" column="17" bodyfile="MRViewer/MRGLDriverKnownIssues.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga06677c4771d99eca7876c79bb5dfdd53" prot="private" static="no" mutable="no">
         <type>std::array&lt; GLuint, size_t(Count)&gt;</type>
@@ -160508,6 +160539,21 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         <inbodydescription>
         </inbodydescription>
         <location file="MRViewer/MRGetSystemInfoJson.h" line="11" column="14" declfile="MRViewer/MRGetSystemInfoJson.h" declline="11" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaea5ae89b7fa9e74526465b0a047fa5df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; GLDriverIssue &gt;</type>
+        <definition>std::vector&lt; GLDriverIssue &gt; MR::glDriverKnownIssues</definition>
+        <argsstring>()</argsstring>
+        <name>glDriverKnownIssues</name>
+        <qualifiedname>MR::glDriverKnownIssues</qualifiedname>
+        <briefdescription>
+<para>returns the known issues of the current OpenGL driver </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRGLDriverKnownIssues.h" line="25" column="14" declfile="MRViewer/MRGLDriverKnownIssues.h" declline="25" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0f57f5da2c3f4e0c838d34fa298ef741" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>GLuint</type>

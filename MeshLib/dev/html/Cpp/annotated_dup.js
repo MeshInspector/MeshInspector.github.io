@@ -581,6 +581,7 @@ var annotated_dup =
       [ "GeneralOffsetParameters", "structMR_1_1GeneralOffsetParameters.html", "structMR_1_1GeneralOffsetParameters" ],
       [ "GeodesicPath", "structMR_1_1GeodesicPath.html", "structMR_1_1GeodesicPath" ],
       [ "GlBuffer", "classMR_1_1GlBuffer.html", "classMR_1_1GlBuffer" ],
+      [ "GLDriverIssue", "structMR_1_1GLDriverIssue.html", "structMR_1_1GLDriverIssue" ],
       [ "GLStaticHolder", "classMR_1_1GLStaticHolder.html", "classMR_1_1GLStaticHolder" ],
       [ "GlTexture", "classMR_1_1GlTexture.html", "classMR_1_1GlTexture" ],
       [ "GlTexture2", "classMR_1_1GlTexture2.html", "classMR_1_1GlTexture2" ],

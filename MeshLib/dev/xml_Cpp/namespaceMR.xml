@@ -259,6 +259,7 @@
     <innerclass refid="structMR_1_1GeneralOffsetParameters" prot="public">MR::GeneralOffsetParameters</innerclass>
     <innerclass refid="structMR_1_1GeodesicPath" prot="public">MR::GeodesicPath</innerclass>
     <innerclass refid="classMR_1_1GlBuffer" prot="public">MR::GlBuffer</innerclass>
+    <innerclass refid="structMR_1_1GLDriverIssue" prot="public">MR::GLDriverIssue</innerclass>
     <innerclass refid="classMR_1_1GLStaticHolder" prot="public">MR::GLStaticHolder</innerclass>
     <innerclass refid="classMR_1_1GlTexture" prot="public">MR::GlTexture</innerclass>
     <innerclass refid="classMR_1_1GlTexture2" prot="public">MR::GlTexture2</innerclass>
@@ -3497,6 +3498,7 @@
       <member refid="group__GeneralGroup_1ga11a8e1d4c39111b3c9ad8563de97ad2a" kind="function"><name>saveFileDialog</name></member>
       <member refid="group__GeneralGroup_1ga485a9150a4e5548660270bdb08102234" kind="function"><name>saveFileDialogAsync</name></member>
       <member refid="group__GeneralGroup_1ga8b1ad752d0922386c2dbc94bc2059653" kind="function"><name>GetSystemInfoJson</name></member>
+      <member refid="group__GeneralGroup_1gaea5ae89b7fa9e74526465b0a047fa5df" kind="function"><name>glDriverKnownIssues</name></member>
       <member refid="group__GeneralGroup_1gaed8079191a6bbed1f89a66fb15944c37" kind="function"><name>setTextureWrapType</name></member>
       <member refid="group__GeneralGroup_1ga8dcd56fe27c91c37ab9c4426ba6e8bf9" kind="function"><name>setTextureFilterType</name></member>
       <member refid="group__GeneralGroup_1ga266e4beb4d8066ce8371b96a2c258464" kind="function"><name>getLinesVertexShader</name></member>

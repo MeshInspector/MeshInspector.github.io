@@ -5755,6 +5755,10 @@ var group__GeneralGroup =
       [ "requestFrame", "group__GeneralGroup.html#gad6f9a88dc104473096b5286166eef0dd", null ],
       [ "reset", "group__GeneralGroup.html#ga6250977a401d570cacd7052be7bad666", null ]
     ] ],
+    [ "MR::GLDriverIssue", "structMR_1_1GLDriverIssue.html", [
+      [ "description", "group__GeneralGroup.html#ga63cb40ae1beaf80d388327d1b20bbff6", null ],
+      [ "id", "group__GeneralGroup.html#ga5c8452da35aedcbc9d991e90c4eddd3a", null ]
+    ] ],
     [ "MR::GLStaticHolder", "classMR_1_1GLStaticHolder.html", [
       [ "GLuint", "group__GeneralGroup.html#ga51ef10d476eb1492c1b758ef79a42482", null ],
       [ "ShaderType", "group__GeneralGroup.html#ga00a040d6d7d04967fe9f892d8cb76748", [
@@ -13063,6 +13067,7 @@ var group__GeneralGroup =
     [ "MR::RenderPointsObject::glBytes", "group__GeneralGroup.html#gae58d2cc13f9eff9285ade09909b14ec7", null ],
     [ "MR::RenderResetDirtyComponent::glBytes", "group__GeneralGroup.html#gad432bca8e634d4215c150fa02a1c9a5d", null ],
     [ "MR::RenderVolumeObject::glBytes", "group__GeneralGroup.html#gaba4f040c3735664826132a2865866347", null ],
+    [ "MR::glDriverKnownIssues", "group__GeneralGroup.html#gaea5ae89b7fa9e74526465b0a047fa5df", null ],
     [ "MR::Viewer::globalHistoryRedo", "group__GeneralGroup.html#gad7e2561c71f4b86cd8744b665f955b75", null ],
     [ "MR::Viewer::globalHistoryUndo", "group__GeneralGroup.html#gaeb6d2411bc5081c289cf2b44288aca65", null ],
     [ "MR::RenderBufferRef::glSize", "group__GeneralGroup.html#gacebacbff1abf583d126240b1b7ccf6ea", null ],
@@ -17158,6 +17163,7 @@ var group__GeneralGroup =
     [ "MR::ModelBaseRenderParams::depthFunction", "group__GeneralGroup.html#ga4c79d51067cd63730f681f5aa2c4ad67", null ],
     [ "MR::Viewport::LinePointImmediateRenderParams::depthTest", "group__GeneralGroup.html#ga66920eee269c99c0e8fc16530ac5399d", null ],
     [ "MR::Viewport::Parameters::depthTest", "group__GeneralGroup.html#ga6f3e434ffe08b1fe1a3d982a052f7f21", null ],
+    [ "MR::GLDriverIssue::description", "group__GeneralGroup.html#ga63cb40ae1beaf80d388327d1b20bbff6", null ],
     [ "MR::SceneObjectsListDrawer::deselectNewHiddenObjects_", "group__GeneralGroup.html#gaf4b84e5c4ee9c3f4eca9a8e0c73dde3d", null ],
     [ "DetailsOnNameTag", "group__GeneralGroup.html#ga87d459767013d873936d1795e4869a42", null ],
     [ "MR::FeatureObject::detailsOnNameTag_", "group__GeneralGroup.html#gac252edfceb31c314bc08c0ba5fac11b3", null ],
@@ -17478,6 +17484,7 @@ var group__GeneralGroup =
     [ "MR::UI::SeparatorParams::iconSize", "group__GeneralGroup.html#ga9566bcbe86e1d94a70ecba64961edb29", null ],
     [ "MR::CustomButtonParameters::iconType", "group__GeneralGroup.html#gac4659ddd4f1cc193ad87ef0c017e00eb", null ],
     [ "MR::ICPProperties::icpMode", "group__GeneralGroup.html#ga77f672ea419da2fb458fb981c25d5be2", null ],
+    [ "MR::GLDriverIssue::id", "group__GeneralGroup.html#ga5c8452da35aedcbc9d991e90c4eddd3a", null ],
     [ "MR::PreciseVertCoord::id", "group__GeneralGroup.html#ga06f1bfc70a05a9294afb6050626e61dd", null ],
     [ "MR::PreciseVertCoords2::id", "group__GeneralGroup.html#ga6ffb69d89938c4fc7d7cf12857c89f25", null ],
     [ "MR::PreciseVertCoords::id", "group__GeneralGroup.html#gaee4e7653cf187ba47b0eceff8088e6a5", null ],

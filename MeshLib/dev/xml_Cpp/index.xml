@@ -3863,6 +3863,10 @@
     <member refid="group__GeneralGroup_1ga805d12e83311707f290106a64f5679f9" kind="function"><name>loadDataOpt</name></member>
     <member refid="group__GeneralGroup_1ga1ed9bbf627421934cd2722e4f751d511" kind="function"><name>detach_</name></member>
   </compound>
+  <compound refid="structMR_1_1GLDriverIssue" kind="struct"><name>MR::GLDriverIssue</name>
+    <member refid="group__GeneralGroup_1ga5c8452da35aedcbc9d991e90c4eddd3a" kind="variable"><name>id</name></member>
+    <member refid="group__GeneralGroup_1ga63cb40ae1beaf80d388327d1b20bbff6" kind="variable"><name>description</name></member>
+  </compound>
   <compound refid="structMR_1_1Viewer_1_1GLPrimitivesCounter" kind="struct"><name>MR::Viewer::GLPrimitivesCounter</name>
     <member refid="group__GeneralGroup_1ga5e3703eba5285dc1c4ccfdcb9784030e" kind="variable"><name>counter</name></member>
     <member refid="group__GeneralGroup_1ga4dd7ea4b014eafdbbb1c753fb97eb3ab" kind="function"><name>reset</name></member>
@@ -16081,6 +16085,7 @@
     <member refid="group__GeneralGroup_1ga11a8e1d4c39111b3c9ad8563de97ad2a" kind="function"><name>saveFileDialog</name></member>
     <member refid="group__GeneralGroup_1ga485a9150a4e5548660270bdb08102234" kind="function"><name>saveFileDialogAsync</name></member>
     <member refid="group__GeneralGroup_1ga8b1ad752d0922386c2dbc94bc2059653" kind="function"><name>GetSystemInfoJson</name></member>
+    <member refid="group__GeneralGroup_1gaea5ae89b7fa9e74526465b0a047fa5df" kind="function"><name>glDriverKnownIssues</name></member>
     <member refid="group__GeneralGroup_1gaed8079191a6bbed1f89a66fb15944c37" kind="function"><name>setTextureWrapType</name></member>
     <member refid="group__GeneralGroup_1ga8dcd56fe27c91c37ab9c4426ba6e8bf9" kind="function"><name>setTextureFilterType</name></member>
     <member refid="group__GeneralGroup_1ga266e4beb4d8066ce8371b96a2c258464" kind="function"><name>getLinesVertexShader</name></member>
@@ -18509,6 +18514,8 @@
   <compound refid="MRFrameRedrawRequest_8h" kind="file"><name>MRFrameRedrawRequest.h</name>
   </compound>
   <compound refid="MRGetSystemInfoJson_8h" kind="file"><name>MRGetSystemInfoJson.h</name>
+  </compound>
+  <compound refid="MRGLDriverKnownIssues_8h" kind="file"><name>MRGLDriverKnownIssues.h</name>
   </compound>
   <compound refid="MRGLMacro_8h" kind="file"><name>MRGLMacro.h</name>
     <member refid="MRGLMacro_8h_1ab4347896d8853c18f862de0996dd70e7" kind="define"><name>GL_EXEC</name></member>
@@ -23797,6 +23804,8 @@
     <member refid="group__GeneralGroup_1gacd4af6f15a2e2a8b940a60dd43ccfaaf" kind="variable"><name>startFPSTime_</name></member>
     <member refid="group__GeneralGroup_1ga395c4c9676501e38c8d7e4cae20fa099" kind="variable"><name>startDrawTime_</name></member>
     <member refid="group__GeneralGroup_1ga929991f0ee375e516ff199697e18c168" kind="variable"><name>asyncRequest_</name></member>
+    <member refid="group__GeneralGroup_1ga5c8452da35aedcbc9d991e90c4eddd3a" kind="variable"><name>id</name></member>
+    <member refid="group__GeneralGroup_1ga63cb40ae1beaf80d388327d1b20bbff6" kind="variable"><name>description</name></member>
     <member refid="group__GeneralGroup_1ga06677c4771d99eca7876c79bb5dfdd53" kind="variable"><name>shadersIds_</name></member>
     <member refid="group__GeneralGroup_1gaa20941f315b69bb7553edabd2ceb4f96" kind="variable"><name>logger_</name></member>
     <member refid="group__GeneralGroup_1gac14012c90288a98d81e3bf908bbcf6cc" kind="variable"><name>glBuffer_</name></member>
@@ -29526,6 +29535,7 @@
     <member refid="group__GeneralGroup_1ga6250977a401d570cacd7052be7bad666" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1gad6f9a88dc104473096b5286166eef0dd" kind="function"><name>requestFrame</name></member>
     <member refid="group__GeneralGroup_1ga8b1ad752d0922386c2dbc94bc2059653" kind="function"><name>GetSystemInfoJson</name></member>
+    <member refid="group__GeneralGroup_1gaea5ae89b7fa9e74526465b0a047fa5df" kind="function"><name>glDriverKnownIssues</name></member>
     <member refid="group__GeneralGroup_1ga0f57f5da2c3f4e0c838d34fa298ef741" kind="function"><name>getShaderId</name></member>
     <member refid="group__GeneralGroup_1ga9a2999730b88c2298591cbe03b24b67e" kind="function"><name>freeShader</name></member>
     <member refid="group__GeneralGroup_1ga173930702e90c1c9ca96624d81d0da2d" kind="function"><name>freeAllShaders</name></member>

@@ -1,5 +1,10 @@
 var NAVTREEINDEX59 =
 {
+"namespaceMR_1_1BitSetParallel.html#aaed29890343a67cc172f1987cd57dc10":[9,0,1,0,1,1,7],
+"namespaceMR_1_1BitSetParallel.html#ab05fc848939177c9fd25511b45bf05c3":[9,0,1,0,1,1,6],
+"namespaceMR_1_1BitSetParallel.html#ac886c0876beae880356ab560e584b63e":[9,0,1,0,1,1,2],
+"namespaceMR_1_1Cuda.html":[9,0,0,20,0],
+"namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579":[9,0,1,0,1,2,19],
 "namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86":[9,0,1,0,1,2,18],
 "namespaceMR_1_1Cuda.html#a57e91a18687a893997356f499e9a7e94":[9,0,1,0,1,2,13],
 "namespaceMR_1_1Cuda.html#a770259831b49f60068c30df5121056c9":[9,0,1,0,1,2,32],
@@ -244,10 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1SceneLoad.html#ad9301168bfb0258833ac6729cfb138a9":[9,0,1,0,1,43,2],
 "namespaceMR_1_1SceneSave.html":[9,0,0,20,21],
 "namespaceMR_1_1SceneSave.html#a2c6d3ab6c6b433b7958ebb92cb464f02":[9,0,1,0,1,44,1],
-"namespaceMR_1_1SelfIntersections.html":[9,0,0,20,12],
-"namespaceMR_1_1SpaceMouse.html":[9,0,0,20,33],
-"namespaceMR_1_1SpaceMouse.html#a0125a493583e2d875e2b9cb7607f9ef0":[9,0,1,0,1,46,7],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191":[9,0,1,0,1,46,9],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24":[9,0,1,0,1,46,9,22],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1":[9,0,1,0,1,46,9,18]
+"namespaceMR_1_1SelfIntersections.html":[9,0,0,20,12]
 };
