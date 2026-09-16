@@ -69,7 +69,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRObjectTransformWidget.h" line="133" column="1" bodyfile="MRViewer/MRObjectTransformWidget.h" bodystart="134" bodyend="220"/>
+    <location file="MRViewer/MRObjectTransformWidget.h" line="134" column="1" bodyfile="MRViewer/MRObjectTransformWidget.h" bodystart="135" bodyend="221"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac9dcf0941d5bb699117accfe65f73810" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>activeLine_</name></member>
       <member refid="group__GeneralGroup_1ga5e795f2b8097d3ce430e9bd4bdf3283f" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>findHoveredIndex_</name></member>
@@ -95,7 +95,7 @@
       <member refid="group__GeneralGroup_1ga7ae4eb78f83ef31cb1fb11184c3eca6d" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setTransformModesValidator</name></member>
       <member refid="group__GeneralGroup_1gab02273ceef7209cd43865b6a9324f7e7" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setVisualParams</name></member>
       <member refid="group__GeneralGroup_1ga1327ff529f099eb80ad8ebe88f2b81a3" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>setWidth</name></member>
-      <member refid="group__GeneralGroup_1ga4e00cf9a8a073e2d8964dbbd10f60b6f" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>stopModify</name></member>
+      <member refid="group__GeneralGroup_1ga65ad009cf346461d12e9799d32f6fc37" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>stopModify</name></member>
       <member refid="group__GeneralGroup_1ga7461a16e11f410dab68ff65d7cb19a8c" prot="private" virt="virtual"><scope>MR::TransformControls</scope><name>stopModify_</name></member>
       <member refid="group__GeneralGroup_1gaefa2389b91822b75c0fdbec1a441276a" prot="public" virt="non-virtual"><scope>MR::TransformControls</scope><name>ThresholdDotValidator</name></member>
       <member refid="group__GeneralGroup_1ga8a08651a580cbbfd8c11522c2327aec3" prot="private" virt="non-virtual"><scope>MR::TransformControls</scope><name>translateControls_</name></member>

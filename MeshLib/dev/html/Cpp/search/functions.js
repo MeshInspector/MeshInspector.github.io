@@ -4290,7 +4290,7 @@ var searchData=
   ['stitchopentwinedges_629',['stitchOpenTwinEdges',['../group__GeneralGroup.html#gae7fa0d219828bbdd6d0def6e9f01ffbb',1,'MR']]],
   ['stop_630',['stop',['../group__GeneralGroup.html#gab48855fcfc4227b2e7cf197229389efb',1,'MR::SplashWindow']]],
   ['stopeventloop_631',['stopEventLoop',['../group__GeneralGroup.html#gae29c947bfa15c43f777ab468990ff716',1,'MR::Viewer']]],
-  ['stopmodify_632',['stopModify',['../group__GeneralGroup.html#ga4e00cf9a8a073e2d8964dbbd10f60b6f',1,'MR::ITransformControls']]],
+  ['stopmodify_632',['stopModify',['../group__GeneralGroup.html#ga65ad009cf346461d12e9799d32f6fc37',1,'MR::ITransformControls']]],
   ['stopmodify_5f_633',['stopModify_',['../group__GeneralGroup.html#ga044830cadc17d1698a87fcdd9a6c699e',1,'MR::ITransformControls']]],
   ['stopupdatingvalids_634',['stopUpdatingValids',['../group__GeneralGroup.html#gac675cc2e5656941060f7db9be54b92a0',1,'MR::MeshTopology']]],
   ['storefile_635',['storeFile',['../group__GeneralGroup.html#gaf325fa995ff9551866e03d07958c41db',1,'MR::RecentFilesStore']]],

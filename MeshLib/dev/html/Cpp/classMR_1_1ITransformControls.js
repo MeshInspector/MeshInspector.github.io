@@ -11,7 +11,7 @@ var classMR_1_1ITransformControls =
     [ "setCenter", "group__GeneralGroup.html#ga808053311f7578b9199e4b3f33d53c3a", null ],
     [ "setPickThrough", "group__GeneralGroup.html#ga6c067680512671636e7975d37ba24bdd", null ],
     [ "setTransformModesValidator", "group__GeneralGroup.html#ga7ae4eb78f83ef31cb1fb11184c3eca6d", null ],
-    [ "stopModify", "group__GeneralGroup.html#ga4e00cf9a8a073e2d8964dbbd10f60b6f", null ],
+    [ "stopModify", "group__GeneralGroup.html#ga65ad009cf346461d12e9799d32f6fc37", null ],
     [ "stopModify_", "group__GeneralGroup.html#ga044830cadc17d1698a87fcdd9a6c699e", null ],
     [ "update", "group__GeneralGroup.html#ga786c7692ef96e6c97a0da7ae332b5597", null ],
     [ "updateRotation", "group__GeneralGroup.html#ga60452f38e7767aed4b34990197332ee1", null ],

@@ -2836,7 +2836,6 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#ggae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935">MR::ObjectTransformWidget::AxisScaling</a>
 , <a class="el" href="#ggae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454">MR::ObjectTransformWidget::UniformScaling</a>
  }</td></tr>
-<tr class="memdesc:gae637cb1b88edaa19f6495ccbb94d8ca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform operation applying to object while dragging an axis. This parameter does not apply to active operation.  <a href="#gae637cb1b88edaa19f6495ccbb94d8ca8">More...</a><br /></td></tr>
 <tr class="memitem:ga6ce094bc1bb74eb56ca44d849b1785ae" id="r_ga6ce094bc1bb74eb56ca44d849b1785ae"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6ce094bc1bb74eb56ca44d849b1785ae">MR::DrawButtonParams::SizeType</a> { <a class="el" href="#gga6ce094bc1bb74eb56ca44d849b1785aead491538da818a2ba11a3195ba035cfd3">MR::DrawButtonParams::SizeType::Big</a>
 , <a class="el" href="#gga6ce094bc1bb74eb56ca44d849b1785aeabc8aecd9a2ab8f581f9b37b78a9083ff">MR::DrawButtonParams::SizeType::SmallText</a>
 , <a class="el" href="#gga6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592">MR::DrawButtonParams::SizeType::Small</a>
@@ -9191,8 +9190,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga786c7692ef96e6c97a0da7ae332b5597" id="r_ga786c7692ef96e6c97a0da7ae332b5597"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga786c7692ef96e6c97a0da7ae332b5597">MR::ITransformControls::update</a> ()=0</td></tr>
 <tr class="memitem:ga18436dfbd4ff243fc8bd07d0a3f36b73" id="r_ga18436dfbd4ff243fc8bd07d0a3f36b73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga18436dfbd4ff243fc8bd07d0a3f36b73">MR::ITransformControls::hover</a> ()</td></tr>
 <tr class="memdesc:ga18436dfbd4ff243fc8bd07d0a3f36b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called for hover checks.  <br /></td></tr>
-<tr class="memitem:ga4e00cf9a8a073e2d8964dbbd10f60b6f" id="r_ga4e00cf9a8a073e2d8964dbbd10f60b6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4e00cf9a8a073e2d8964dbbd10f60b6f">MR::ITransformControls::stopModify</a> ()</td></tr>
-<tr class="memdesc:ga4e00cf9a8a073e2d8964dbbd10f60b6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called to stop drawing active visualization when modification is stopped.  <br /></td></tr>
+<tr class="memitem:ga65ad009cf346461d12e9799d32f6fc37" id="r_ga65ad009cf346461d12e9799d32f6fc37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga65ad009cf346461d12e9799d32f6fc37">MR::ITransformControls::stopModify</a> (bool rehover=true)</td></tr>
 <tr class="memitem:ga40fae0e672b2463e378a9403a9dbc242" id="r_ga40fae0e672b2463e378a9403a9dbc242"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga40fae0e672b2463e378a9403a9dbc242">MR::ITransformControls::updateVisualTransformMode</a> (<a class="el" href="#ga83b450495cc5fde2cb5539447eb20dc6">ControlBit</a> showMask, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask, const AffineXf3f &amp;xf)</td></tr>
 <tr class="memdesc:ga40fae0e672b2463e378a9403a9dbc242"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called each frame for each viewport to update available transformation modes.  <br /></td></tr>
 <tr class="memitem:ga26636938df550b48cbff6e634f95ba4e" id="r_ga26636938df550b48cbff6e634f95ba4e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga26636938df550b48cbff6e634f95ba4e">MR::ITransformControls::updateTranslation</a> (<a class="el" href="#ga05195fdcf0d1d90b73a5d24b11150005">Axis</a> ax, const Vector3f &amp;startMove, const Vector3f &amp;endMove, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> vpId)=0</td></tr>
@@ -24024,8 +24022,7 @@ template&lt;typename Tag&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Transform operation applying to object while dragging an axis. This parameter does not apply to active operation. </p>
+<p>Transform operation applying to object while dragging an axis. Changing it during an active drag restarts the operation in the new mode from the current mouse position. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510" name="ggae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510"></a>AxisTranslation&#160;</td><td class="fielddoc"><p>object moves along an axis </p>
 </td></tr>
@@ -181049,8 +181046,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga4e00cf9a8a073e2d8964dbbd10f60b6f" name="ga4e00cf9a8a073e2d8964dbbd10f60b6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4e00cf9a8a073e2d8964dbbd10f60b6f">&#9670;&#160;</a></span>stopModify()</h2>
+<a id="ga65ad009cf346461d12e9799d32f6fc37" name="ga65ad009cf346461d12e9799d32f6fc37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga65ad009cf346461d12e9799d32f6fc37">&#9670;&#160;</a></span>stopModify()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181061,7 +181058,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">void MR::ITransformControls::stopModify </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>rehover</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -181073,8 +181070,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectTransformWidget_8h.html">MRViewer/MRObjectTransformWidget.h</a>&gt;</code></p>
-
-<p>This is called to stop drawing active visualization when modification is stopped. </p>
+<p>This is called to stop drawing active visualization when modification is stopped, or (rehover = false) when it restarts in another mode with the mouse button still pressed </p>
 
 </div>
 </div>

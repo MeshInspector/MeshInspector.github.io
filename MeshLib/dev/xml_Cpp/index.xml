@@ -4874,7 +4874,7 @@
     <member refid="group__GeneralGroup_1ga907d92df55bd4c1c24eb99b0ac884d77" kind="function"><name>init</name></member>
     <member refid="group__GeneralGroup_1ga786c7692ef96e6c97a0da7ae332b5597" kind="function"><name>update</name></member>
     <member refid="group__GeneralGroup_1ga18436dfbd4ff243fc8bd07d0a3f36b73" kind="function"><name>hover</name></member>
-    <member refid="group__GeneralGroup_1ga4e00cf9a8a073e2d8964dbbd10f60b6f" kind="function"><name>stopModify</name></member>
+    <member refid="group__GeneralGroup_1ga65ad009cf346461d12e9799d32f6fc37" kind="function"><name>stopModify</name></member>
     <member refid="group__GeneralGroup_1ga40fae0e672b2463e378a9403a9dbc242" kind="function"><name>updateVisualTransformMode</name></member>
     <member refid="group__GeneralGroup_1ga26636938df550b48cbff6e634f95ba4e" kind="function"><name>updateTranslation</name></member>
     <member refid="group__GeneralGroup_1ga60452f38e7767aed4b34990197332ee1" kind="function"><name>updateRotation</name></member>
@@ -7442,6 +7442,7 @@
     <member refid="group__GeneralGroup_1gab5532c1d01a39c62fd0e2aadaafa3e16" kind="function"><name>setControlsXf_</name></member>
     <member refid="group__GeneralGroup_1ga09f25aa1c06cec83387d270cbd72d3ea" kind="function"><name>addXf_</name></member>
     <member refid="group__GeneralGroup_1gacd15c53d1b1e7d47caa576ab32dab2db" kind="function"><name>stopModify_</name></member>
+    <member refid="group__GeneralGroup_1ga6581f58b2d62ded8d0f60dad0c3d9577" kind="function"><name>editModeFor_</name></member>
   </compound>
   <compound refid="classMR_1_1ObjectVoxels" kind="class"><name>MR::ObjectVoxels</name>
     <member refid="group__GeneralGroup_1ga3ace9713c9d0e39585ccb708a7cadf94" kind="typedef"><name>IsoSurfaceChangedSignal</name></member>
@@ -29753,7 +29754,7 @@
     <member refid="group__GeneralGroup_1ga907d92df55bd4c1c24eb99b0ac884d77" kind="function"><name>init</name></member>
     <member refid="group__GeneralGroup_1ga786c7692ef96e6c97a0da7ae332b5597" kind="function"><name>update</name></member>
     <member refid="group__GeneralGroup_1ga18436dfbd4ff243fc8bd07d0a3f36b73" kind="function"><name>hover</name></member>
-    <member refid="group__GeneralGroup_1ga4e00cf9a8a073e2d8964dbbd10f60b6f" kind="function"><name>stopModify</name></member>
+    <member refid="group__GeneralGroup_1ga65ad009cf346461d12e9799d32f6fc37" kind="function"><name>stopModify</name></member>
     <member refid="group__GeneralGroup_1ga40fae0e672b2463e378a9403a9dbc242" kind="function"><name>updateVisualTransformMode</name></member>
     <member refid="group__GeneralGroup_1ga26636938df550b48cbff6e634f95ba4e" kind="function"><name>updateTranslation</name></member>
     <member refid="group__GeneralGroup_1ga60452f38e7767aed4b34990197332ee1" kind="function"><name>updateRotation</name></member>
@@ -29820,6 +29821,7 @@
     <member refid="group__GeneralGroup_1gab5532c1d01a39c62fd0e2aadaafa3e16" kind="function"><name>setControlsXf_</name></member>
     <member refid="group__GeneralGroup_1ga09f25aa1c06cec83387d270cbd72d3ea" kind="function"><name>addXf_</name></member>
     <member refid="group__GeneralGroup_1gacd15c53d1b1e7d47caa576ab32dab2db" kind="function"><name>stopModify_</name></member>
+    <member refid="group__GeneralGroup_1ga6581f58b2d62ded8d0f60dad0c3d9577" kind="function"><name>editModeFor_</name></member>
     <member refid="group__GeneralGroup_1ga9bea960815d11381a9019ca6425289c7" kind="function"><name>makeObjectTreeFromFolder</name></member>
     <member refid="group__GeneralGroup_1gae65aa784516f490936d24988baa1ce22" kind="function"><name>makeObjectTreeFromZip</name></member>
     <member refid="group__GeneralGroup_1gac69f97944a537d356ce690f83e509f65" kind="function"><name>BlueGreenRedColors</name></member>
