@@ -35,7 +35,7 @@
       <member refid="group__GeneralGroup_1ga1240f56239bbf49b448b75113843c5db" kind="variable"><name>pixelXoffset_</name></member>
       <member refid="group__GeneralGroup_1ga0d4b8e846d9c34852afee75fb8c41425" kind="variable"><name>pixelYoffset_</name></member>
       <member refid="group__GeneralGroup_1gaa5937df7735da58c53a5eba8ed422e23" kind="variable"><name>axisPixSize_</name></member>
-      <member refid="group__GeneralGroup_1ga87dd825857f8dd1e5b3f6c49f8de12a2" kind="variable"><name>rotation_</name></member>
+      <member refid="group__GeneralGroup_1gad590109501c15f7b3f99fb14229d7d65" kind="variable"><name>rotationDepth_</name></member>
       <member refid="group__GeneralGroup_1ga37a9f52480deeaabc8ab6a0a3416a692" kind="variable"><name>rotationPivot_</name></member>
       <member refid="group__GeneralGroup_1ga3fa678e11f116ea68fd70d45a1a44e72" kind="variable"><name>static_point_</name></member>
       <member refid="group__GeneralGroup_1ga82cb9bef4e6f9fe08ce8b70068f3b801" kind="variable"><name>static_viewport_point</name></member>
@@ -196,7 +196,7 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRViewport.h" line="48" column="1" bodyfile="MRViewer/MRViewport.h" bodystart="49" bodyend="626"/>
+    <location file="MRViewer/MRViewport.h" line="48" column="1" bodyfile="MRViewer/MRViewport.h" bodystart="49" bodyend="627"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7de1b213b70aabd1ed6f41b3abf5c002" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>allModelsInsideViewportRectangle</name></member>
       <member refid="group__GeneralGroup_1gad87004247f170d39fcc2b545bc31e9e4" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>axesProjMat_</name></member>
@@ -304,8 +304,8 @@
       <member refid="group__GeneralGroup_1ga48d0af17aa1142d78dcc98ee60bcde3e" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>resetRedrawFlag</name></member>
       <member refid="group__GeneralGroup_1ga7ad75f9b39cadb35c6dac36b8dc3fa7e" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>resetStaticRotationPivot</name></member>
       <member refid="group__GeneralGroup_1ga83d8de5b72b7bc97a36b9ac59b49bc3d" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>rotateView_</name></member>
-      <member refid="group__GeneralGroup_1ga87dd825857f8dd1e5b3f6c49f8de12a2" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>rotation_</name></member>
       <member refid="group__GeneralGroup_1ga32f520027876c213e77b698e6db8d75d" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>rotationCenterMode</name></member>
+      <member refid="group__GeneralGroup_1gad590109501c15f7b3f99fb14229d7d65" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>rotationDepth_</name></member>
       <member refid="group__GeneralGroup_1ga37a9f52480deeaabc8ab6a0a3416a692" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>rotationPivot_</name></member>
       <member refid="group__GeneralGroup_1gaf47f1110867d6aa20825cc63811feeea" prot="private" virt="non-virtual"><scope>MR::Viewport</scope><name>sceneBox_</name></member>
       <member refid="group__GeneralGroup_1ga2c63751546309d0bbdee319b38733df0" prot="public" virt="non-virtual"><scope>MR::Viewport</scope><name>setAxesPos</name></member>

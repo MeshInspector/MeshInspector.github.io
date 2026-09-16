@@ -11145,7 +11145,6 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memitem:ga48d0af17aa1142d78dcc98ee60bcde3e" id="r_ga48d0af17aa1142d78dcc98ee60bcde3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga48d0af17aa1142d78dcc98ee60bcde3e">MR::Viewport::resetRedrawFlag</a> ()</td></tr>
 <tr class="memitem:gabe736bf771f335d8d782c1037715fd75" id="r_gabe736bf771f335d8d782c1037715fd75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabe736bf771f335d8d782c1037715fd75">MR::Viewport::Parameters::operator==</a> (const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Viewport::Parameters</a> &amp;<a class="el" href="#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const =default</td></tr>
 <tr class="memitem:gac23c05ec8355df106cc1b1d681c34152" id="r_gac23c05ec8355df106cc1b1d681c34152"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac23c05ec8355df106cc1b1d681c34152">MR::Viewport::setRotation</a> (bool state)</td></tr>
-<tr class="memdesc:gac23c05ec8355df106cc1b1d681c34152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts or stop rotation.  <br /></td></tr>
 <tr class="memitem:gad9c15fc1007294f2fa8f89b1659802c1" id="r_gad9c15fc1007294f2fa8f89b1659802c1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga4ffdd066d297db0b871f78fa572166a3">ViewportRectangle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad9c15fc1007294f2fa8f89b1659802c1">MR::Viewport::getViewportRect</a> () const</td></tr>
 <tr class="memdesc:gad9c15fc1007294f2fa8f89b1659802c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Note, Y is up for this box.  <br /></td></tr>
 <tr class="memitem:ga1506ca2c2e88f6a8b03d3f0dfe531bd4" id="r_ga1506ca2c2e88f6a8b03d3f0dfe531bd4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1506ca2c2e88f6a8b03d3f0dfe531bd4">MR::Viewport::getPixelSize</a> () const</td></tr>
@@ -171047,8 +171046,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRViewport_8h.html">MRViewer/MRViewport.h</a>&gt;</code></p>
-
-<p>Starts or stop rotation. </p>
+<p>starts (true) or stops (false) rotation; the calls nest, so with two input devices rotating at once (e.g. mouse and touchpad) it ends only when the last of them stops </p>
 
 </div>
 </div>
