@@ -1,5 +1,9 @@
 var NAVTREEINDEX97 =
 {
+"classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af93c1982dda9e3eb07f4ba696c5d4f3c":[9,1,0,0,2,1128,0,3],
+"classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af93c1982dda9e3eb07f4ba696c5d4f3c":[9,1,1,0,1,1128,0,3],
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html":[9,1,0,0,2,1128,1],
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html":[9,1,1,0,1,1128,1],
 "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a426d29f2787dd92eba1f2832e7bf5c42":[9,1,0,0,2,1128,1,20],
 "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a426d29f2787dd92eba1f2832e7bf5c42":[9,1,1,0,1,1128,1,20],
 "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a43cf716a6086d11e85d59585953d6d89":[9,1,0,0,2,1128,1,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX97 =
 "classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#a25db9c863920b737a6d1590a486df343":[9,1,0,0,2,1145,7],
 "classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#a25db9c863920b737a6d1590a486df343":[9,1,1,0,1,1145,7],
 "classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#ab19aa930233ba1b277e6d0c48f2f079f":[9,1,0,0,2,1145,8],
-"classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#ab19aa930233ba1b277e6d0c48f2f079f":[9,1,1,0,1,1145,8],
-"classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#acbbf9d5619e3c94a4cbda83c6d1fa440":[9,1,0,0,2,1145,0],
-"classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#acbbf9d5619e3c94a4cbda83c6d1fa440":[9,1,1,0,1,1145,0],
-"classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#acbeaa05fc827512f5536d6a5c74b30e9":[9,1,0,0,2,1145,6],
-"classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#acbeaa05fc827512f5536d6a5c74b30e9":[9,1,1,0,1,1145,6]
+"classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#ab19aa930233ba1b277e6d0c48f2f079f":[9,1,1,0,1,1145,8]
 };

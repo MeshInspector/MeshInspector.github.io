@@ -1,5 +1,9 @@
 var NAVTREEINDEX77 =
 {
+"classMR_1_1Const__SegmPointf.html#abd0758639873a2b4a772185e3716ce21":[9,3,0,0,0,807,14],
+"classMR_1_1Const__SegmPointf.html#ac374c591f07f943fcc579c46f0831aac":[9,3,0,0,0,807,15],
+"classMR_1_1Const__SegmPointf.html#ad608556102b0e85a4efde1085752a657":[9,3,0,0,0,807,16],
+"classMR_1_1Const__SegmPointf.html#aebec121d6672c69d3ab9fb9e646c4963":[9,3,0,0,0,807,1],
 "classMR_1_1Const__SegmPointf.html#af9fe0c91bcd57ba8d801bb6d045e1596":[9,3,0,0,0,807,7],
 "classMR_1_1Const__SegmPointf.html#afeeb792d22fe08a8e543e369108fcbab":[9,3,0,0,0,807,13],
 "classMR_1_1Const__SegmentSegmentIntersectResult.html":[9,3,0,0,0,805],
@@ -245,9 +249,5 @@ var NAVTREEINDEX77 =
 "classMR_1_1Const__SharpOffsetParameters.html#af33b8c0e68cc91e8a9566e100b1c90bb":[9,3,0,0,0,821,8],
 "classMR_1_1Const__SharpOffsetParameters.html#af7c541f4e85663a93f21227f42025816":[9,3,0,0,0,821,20],
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html":[9,3,0,0,0,820],
-"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a0f42a531a5dc4e847d26dc459b424a91":[9,3,0,0,0,820,22],
-"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a0fc7d95db74e4afbfad6ac5d5fb33659":[9,3,0,0,0,820,4],
-"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a131ccd2799e8134a5e0485e9ac46b580":[9,3,0,0,0,820,18],
-"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a1e41f21996d07f308e58999bfd433b60":[9,3,0,0,0,820,13],
-"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a27d341edbc13c797e860cd5b535d1327":[9,3,0,0,0,820,23]
+"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a0f42a531a5dc4e847d26dc459b424a91":[9,3,0,0,0,820,22]
 };

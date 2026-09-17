@@ -2765,6 +2765,7 @@ var namespaceMR =
     [ "isNanFast", "group__GeneralGroup.html#gad4d2c738603108b1182410a19fbe7b5a", null ],
     [ "isNonIntersectingInside", "group__AABBTreeGroup.html#gac22748b9e5c563d95321d66315116084", null ],
     [ "isNonIntersectingInside", "group__AABBTreeGroup.html#ga20e0c10db7c46b127cf4b5446101f894", null ],
+    [ "isNonIntersectingInsidePrecise", "group__AABBTreeGroup.html#ga908e44352951a11a559011e12312a299", null ],
     [ "isPickedPointValid", "group__GeneralGroup.html#ga5584930e36d7f68deab6907f5d11e027", null ],
     [ "isPointInLine", "group__TriangleIntersectionGroup.html#gaa3ee6790b4ece0bf6f6e65a72fb472f5", null ],
     [ "isPointInLine", "group__TriangleIntersectionGroup.html#gaeed5ed30fa651d9e8908b1c86b1a77b9", null ],

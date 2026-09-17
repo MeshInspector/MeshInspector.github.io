@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1TrivialMetricToPenalty.html":[9,0,0,20,208],
+"structMR_1_1TwoLineSegmClosestPoints.html":[9,0,0,20,523],
 "structMR_1_1TypedFlatTree.html":[9,0,0,20,714],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html":[9,0,0,20,765],
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html":[9,0,0,20,766],
@@ -150,7 +152,7 @@ var NAVTREEINDEX69 =
 "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#aa5ab2cbeb1b2f73ba9d3a268be384ace":[9,0,0,1,18,0,1],
 "structMR_1_1Vector2.html":[9,0,0,0,12,0],
 "structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[9,0,0,0,12,0,41],
-"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[9,0,1,0,1,2892],
+"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[9,0,1,0,1,2893],
 "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[9,0,0,0,12,0,42],
 "structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b":[9,0,0,0,12,0,4],
 "structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[9,0,0,0,12,0,21],
@@ -190,7 +192,7 @@ var NAVTREEINDEX69 =
 "structMR_1_1Vector2.html#aa88507c09ad0236f834d9ffb29ef6de6":[9,0,0,0,12,0,10],
 "structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c":[9,0,0,0,12,0,1],
 "structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[9,0,0,0,12,0,25],
-"structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[9,0,1,0,1,2466],
+"structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[9,0,1,0,1,2467],
 "structMR_1_1Vector2.html#aaf2a2fdd2ea258a5a0ce7d885042aa6a":[9,0,0,0,12,0,29],
 "structMR_1_1Vector2.html#ac44db7ddb1694b996824036c9f755b9e":[9,0,0,0,12,0,13],
 "structMR_1_1Vector2.html#aceec41028f524dcaea01f9d08b42f5c7":[9,0,0,0,12,0,33],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html":[9,0,0,20,907],
 "structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html":[9,0,0,20,908],
 "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[9,0,0,20,909],
-"structMR_1_1VoxelsLoad_1_1DicomStatus.html":[9,0,0,20,850],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[9,0,0,20,851],
-"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[9,0,0,2,16,1]
+"structMR_1_1VoxelsLoad_1_1DicomStatus.html":[9,0,0,20,850]
 };

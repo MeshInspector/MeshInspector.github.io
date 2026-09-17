@@ -2399,6 +2399,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.isNanFast", "namespacemrmeshpy.html#a1680ab019ec9a7fc2f9440adbd4f28ca", null ],
     [ "mrmeshpy.isNonIntersectingInside", "namespacemrmeshpy.html#ae3bc3eb220bb8dc7ca78f1fa0070e75c", null ],
     [ "mrmeshpy.isNonIntersectingInside", "namespacemrmeshpy.html#ace3b339d638fbe8402705307c5d1f8c9", null ],
+    [ "mrmeshpy.isNonIntersectingInsidePrecise", "namespacemrmeshpy.html#a46617088dc09ec16f9bef3a1535d88e8", null ],
     [ "mrmeshpy.isPointInLine", "namespacemrmeshpy.html#a2005c370137da91f0c834905566c12db", null ],
     [ "mrmeshpy.isPointInLine", "namespacemrmeshpy.html#a03681fd4233107aa5589e8e84eef3e10", null ],
     [ "mrmeshpy.isPointInPlane", "namespacemrmeshpy.html#a83fc6966ae4098ee6af9528394360888", null ],

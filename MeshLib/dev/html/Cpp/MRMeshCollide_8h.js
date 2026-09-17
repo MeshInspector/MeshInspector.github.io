@@ -7,5 +7,6 @@ var MRMeshCollide_8h =
     [ "MR::findSelfCollidingTrianglesBS", "group__AABBTreeGroup.html#gaa34db2c0df1550c7f166893dbf581953", null ],
     [ "MR::isInside", "group__AABBTreeGroup.html#ga7892dab0d0fdaed07c3c16c0b4ccc6e9", null ],
     [ "MR::isNonIntersectingInside", "group__AABBTreeGroup.html#gac22748b9e5c563d95321d66315116084", null ],
-    [ "MR::isNonIntersectingInside", "group__AABBTreeGroup.html#ga20e0c10db7c46b127cf4b5446101f894", null ]
+    [ "MR::isNonIntersectingInside", "group__AABBTreeGroup.html#ga20e0c10db7c46b127cf4b5446101f894", null ],
+    [ "MR::isNonIntersectingInsidePrecise", "group__AABBTreeGroup.html#ga908e44352951a11a559011e12312a299", null ]
 ];

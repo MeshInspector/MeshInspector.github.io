@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"namespacemembers_type_w.html":[9,0,1,1,3,20],
 "namespacemembers_u.html":[9,0,1,1,0,20],
 "namespacemembers_v.html":[9,0,1,1,0,21],
 "namespacemembers_vars.html":[9,0,1,1,2],
@@ -107,10 +108,11 @@ var NAVTREEINDEX61 =
 "structMR_1_1BendTextAlongCurveParams.html":[9,0,0,20,559],
 "structMR_1_1BindVertexAttribArraySettings.html":[9,0,0,20,658],
 "structMR_1_1BooleanInternalParameters.html":[9,0,0,8,1],
-"structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[9,0,0,8,1,2],
-"structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[9,0,0,8,1,1],
-"structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5":[9,0,0,8,1,3],
-"structMR_1_1BooleanInternalParameters.html#ac286ffae84a7480b081c9bb06413cb79":[9,0,0,8,1,0],
+"structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[9,0,0,8,1,3],
+"structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[9,0,0,8,1,2],
+"structMR_1_1BooleanInternalParameters.html#a7da1159b62dcc2dd1738885c6e2865bd":[9,0,0,8,1,0],
+"structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5":[9,0,0,8,1,4],
+"structMR_1_1BooleanInternalParameters.html#ac286ffae84a7480b081c9bb06413cb79":[9,0,0,8,1,1],
 "structMR_1_1BooleanParameters.html":[9,0,1,0,1,98],
 "structMR_1_1BooleanParameters.html":[9,0,2,0,2,80],
 "structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[9,0,1,0,1,98,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1ContourToDistanceMapParams.html#a5376f8f2d57fec6349c0671dd75316c2":[9,0,0,5,4,3],
 "structMR_1_1ContourToDistanceMapParams.html#a777f64d2a02e161c0c2d62ceb280a2e4":[9,0,0,5,4,11],
 "structMR_1_1ContourToDistanceMapParams.html#a7a018eb39177bd2bf920601b6a61d8b6":[9,0,0,5,4,9],
-"structMR_1_1ContourToDistanceMapParams.html#a8c1e602f4300ada7c5982a184ee864b7":[9,0,0,5,4,0],
-"structMR_1_1ContourToDistanceMapParams.html#aab02976e948f14539479e1305e319e3d":[9,0,0,5,4,7],
-"structMR_1_1ContourToDistanceMapParams.html#abaa30b78ecde6f6ef4bc8f92ca454a4c":[9,0,0,5,4,6]
+"structMR_1_1ContourToDistanceMapParams.html#a8c1e602f4300ada7c5982a184ee864b7":[9,0,0,5,4,0]
 };

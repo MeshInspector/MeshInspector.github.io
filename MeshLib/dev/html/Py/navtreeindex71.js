@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"classmrmeshpy_1_1OutliersDetector.html#a2f350753a10dfc69b228e9bd06bbed89":[9,1,0,0,2,679,4],
+"classmrmeshpy_1_1OutliersDetector.html#a2f350753a10dfc69b228e9bd06bbed89":[9,1,1,0,1,679,4],
+"classmrmeshpy_1_1OutliersDetector.html#a86bb5ffeed1b8613cbc177155c800895":[9,1,0,0,2,679,1],
+"classmrmeshpy_1_1OutliersDetector.html#a86bb5ffeed1b8613cbc177155c800895":[9,1,1,0,1,679,1],
 "classmrmeshpy_1_1OutliersDetector.html#a907b637969fbdc7e18922212ff5ade02":[9,1,0,0,2,679,6],
 "classmrmeshpy_1_1OutliersDetector.html#a907b637969fbdc7e18922212ff5ade02":[9,1,1,0,1,679,6],
 "classmrmeshpy_1_1OutliersDetector.html#abe5e656e826e5434d2e69c0da4cacfce":[9,1,0,0,2,679,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX71 =
 "classmrmeshpy_1_1PdfBuildinFont.html#a8ff2da891c438bc83e91797aa9a00de4":[9,1,0,0,2,693,8],
 "classmrmeshpy_1_1PdfBuildinFont.html#a8ff2da891c438bc83e91797aa9a00de4":[9,1,1,0,1,693,8],
 "classmrmeshpy_1_1PdfBuildinFont.html#aa51ddceb01d3f7ea1b77096b48def4c0":[9,1,0,0,2,693,7],
-"classmrmeshpy_1_1PdfBuildinFont.html#aa51ddceb01d3f7ea1b77096b48def4c0":[9,1,1,0,1,693,7],
-"classmrmeshpy_1_1PdfBuildinFont.html#ab4a97b612575b56c0bce941f491ef329":[9,1,0,0,2,693,11],
-"classmrmeshpy_1_1PdfBuildinFont.html#ab4a97b612575b56c0bce941f491ef329":[9,1,1,0,1,693,11],
-"classmrmeshpy_1_1PdfBuildinFont.html#ade765eaa5026c9c1c8bf3fb01c56dd91":[9,1,0,0,2,693,0],
-"classmrmeshpy_1_1PdfBuildinFont.html#ade765eaa5026c9c1c8bf3fb01c56dd91":[9,1,1,0,1,693,0]
+"classmrmeshpy_1_1PdfBuildinFont.html#aa51ddceb01d3f7ea1b77096b48def4c0":[9,1,1,0,1,693,7]
 };

@@ -7202,7 +7202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="1036" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="1036" bodyend="1046"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="1079" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="1079" bodyend="1089"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8415f48b4f26376f0fbd33175b4fe17d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.PtrNoDefInitMRUndirectedEdgeId</type>
@@ -19324,6 +19324,97 @@ this function must be faster than extractXYPlaneSections function when connectin
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollide.cs" line="115" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollide.cs" bodystart="115" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a81069e2066cb866085ff5113c64f47e9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.isNonIntersectingInsidePrecise</definition>
+        <argsstring>(MR.Const_Mesh a, MR.FaceId partFace, MR.Const_MeshPart b, MR.Const_CoordinateConverters conv, int aVertShift, int bVertShift, MR.AffineXf3f? xfA=null, MR.AffineXf3f? xfB=null)</argsstring>
+        <name>isNonIntersectingInsidePrecise</name>
+        <qualifiedname>MR.isNonIntersectingInsidePrecise</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>partFace</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__CoordinateConverters" kindref="compound">MR.Const_CoordinateConverters</ref></type>
+          <declname>conv</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>aVertShift</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bVertShift</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xfA</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xfB</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>checks that arbitrary mesh A part (whole part is represented by one face <computeroutput>partFace</computeroutput>) is inside of closed mesh part B The version of <computeroutput>isNonIntersectingInside</computeroutput> deciding by the precise orient3d predicate, which is never undefined, unlike the sign of the distance in the area where the meshes touch one another </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>conv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>float-to-int converter valid for the points of both meshes after the transformations below </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aVertShift</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value added to the vertex ids of mesh a, and</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bVertShift</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- of mesh b; the shifted ids must be distinct, and every call on the same meshes must shift them equally, because the simulation of simplicity of orient3d depends on them </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xfA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transformation of mesh a into the space of conv, nullptr considered as identity transformation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xfB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transformation of mesh b into the space of conv, nullptr considered as identity transformation Generated from function <computeroutput><ref refid="classMR_1a81069e2066cb866085ff5113c64f47e9" kindref="member">MR.isNonIntersectingInsidePrecise</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollide.cs" line="135" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollide.cs" bodystart="135" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae62ead4cec1fd8dca61367a5adfa45c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVarEdgeTri</type>
@@ -55657,6 +55748,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1abfd9e41b8304303e8377c6bfae581d8d" prot="public" virt="non-virtual"><scope>MR</scope><name>isNanFast</name></member>
       <member refid="classMR_1ab548b9e0a210ef0200b7a78263027632" prot="public" virt="non-virtual"><scope>MR</scope><name>isNonIntersectingInside</name></member>
       <member refid="classMR_1aa3b24253bac89e8fd0dc3c3f1feb6109" prot="public" virt="non-virtual"><scope>MR</scope><name>isNonIntersectingInside</name></member>
+      <member refid="classMR_1a81069e2066cb866085ff5113c64f47e9" prot="public" virt="non-virtual"><scope>MR</scope><name>isNonIntersectingInsidePrecise</name></member>
       <member refid="classMR_1a9b6bc6d3791d69a15944effde9b1f78c" prot="public" virt="non-virtual"><scope>MR</scope><name>isPointInLine</name></member>
       <member refid="classMR_1a472540f819d7458c497d7e11ab42ecf5" prot="public" virt="non-virtual"><scope>MR</scope><name>isPointInLine</name></member>
       <member refid="classMR_1a74c34c0b61821fdd293e16509d2770ca" prot="public" virt="non-virtual"><scope>MR</scope><name>isPointInPlane</name></member>

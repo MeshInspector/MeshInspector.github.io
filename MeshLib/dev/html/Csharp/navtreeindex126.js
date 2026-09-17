@@ -1,5 +1,9 @@
 var NAVTREEINDEX126 =
 {
+"classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#af3df12d0919213baf0a23d18238f4e87":[9,3,0,0,0,1529,1,4],
+"classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#af65a6b869a1cfa8c8bd65b1ac4f9b74c":[9,3,0,0,0,1529,1,3],
+"classMR_1_1PolylineIntersectionResult2.html":[9,3,0,0,0,1530],
+"classMR_1_1PolylineIntersectionResult2.html#a16e59b959d9059f2df41f95a68e8dc6d":[9,3,0,0,0,1530,4],
 "classMR_1_1PolylineIntersectionResult2.html#a28b8db75c175791532901839cc07e7bd":[9,3,0,0,0,1530,6],
 "classMR_1_1PolylineIntersectionResult2.html#a30a483de2b405b5beb7754fa22ab14a6":[9,3,0,0,0,1530,5],
 "classMR_1_1PolylineIntersectionResult2.html#a3fef73c0f2c7fe8c64f93d65ceb03beb":[9,3,0,0,0,1530,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX126 =
 "classMR_1_1PreciseVertCoord.html#a0d93de7ebe7568167fc1f2037b47a3d6":[9,3,0,0,0,1562,2],
 "classMR_1_1PreciseVertCoord.html#a4d1cd081229e28c005518c82c61ee4e6":[9,3,0,0,0,1562,6],
 "classMR_1_1PreciseVertCoord.html#a50457f065b336d285d69f56e2e513a23":[9,3,0,0,0,1562,3],
-"classMR_1_1PreciseVertCoord.html#a756c8bd884da3b2f4c83dd94bb70c8a7":[9,3,0,0,0,1562,5],
-"classMR_1_1PreciseVertCoord.html#ab87d65139c10431f17b0e2890537c0ca":[9,3,0,0,0,1562,4],
-"classMR_1_1PreciseVertCoord.html#ab8992d425f595fb5f3f48173474495cb":[9,3,0,0,0,1562,0],
-"classMR_1_1PreciseVertCoord.html#abef2e017225d941402175a7fb3bb79aa":[9,3,0,0,0,1562,1],
-"classMR_1_1PreciseVertCoords.html":[9,3,0,0,0,1563]
+"classMR_1_1PreciseVertCoord.html#a756c8bd884da3b2f4c83dd94bb70c8a7":[9,3,0,0,0,1562,5]
 };

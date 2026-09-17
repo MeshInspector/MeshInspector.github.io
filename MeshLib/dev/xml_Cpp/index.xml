@@ -740,6 +740,7 @@
     <member refid="structMR_1_1BooleanInternalParameters_1a9564c4edb40ecc90fa59bfc7a9342bc5" kind="variable"><name>originalMeshB</name></member>
     <member refid="structMR_1_1BooleanInternalParameters_1a3d8d32104f837c9064678f6e0cbc420c" kind="variable"><name>optionalOutCut</name></member>
     <member refid="structMR_1_1BooleanInternalParameters_1ac286ffae84a7480b081c9bb06413cb79" kind="variable"><name>graphCutSeparation</name></member>
+    <member refid="structMR_1_1BooleanInternalParameters_1a7da1159b62dcc2dd1738885c6e2865bd" kind="variable"><name>converters</name></member>
   </compound>
   <compound refid="structMR_1_1BooleanParameters" kind="struct"><name>MR::BooleanParameters</name>
     <member refid="structMR_1_1BooleanParameters_1aa7d29b950e89579308197da903b43d92" kind="variable"><name>rigidB2A</name></member>
@@ -15114,6 +15115,7 @@
     <member refid="group__AABBTreeGroup_1ga7892dab0d0fdaed07c3c16c0b4ccc6e9" kind="function"><name>isInside</name></member>
     <member refid="group__AABBTreeGroup_1ga20e0c10db7c46b127cf4b5446101f894" kind="function"><name>isNonIntersectingInside</name></member>
     <member refid="group__AABBTreeGroup_1gac22748b9e5c563d95321d66315116084" kind="function"><name>isNonIntersectingInside</name></member>
+    <member refid="group__AABBTreeGroup_1ga908e44352951a11a559011e12312a299" kind="function"><name>isNonIntersectingInsidePrecise</name></member>
     <member refid="group__AABBTreeGroup_1ga8f7cfd40975f9648e9785f72d75ff92d" kind="function"><name>operator==</name></member>
     <member refid="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
     <member refid="group__AABBTreeGroup_1gaa06a012aef3a0273d36e471fda3beb02" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>
@@ -19078,6 +19080,7 @@
     <member refid="group__AABBTreeGroup_1ga7892dab0d0fdaed07c3c16c0b4ccc6e9" kind="function"><name>isInside</name></member>
     <member refid="group__AABBTreeGroup_1ga20e0c10db7c46b127cf4b5446101f894" kind="function"><name>isNonIntersectingInside</name></member>
     <member refid="group__AABBTreeGroup_1gac22748b9e5c563d95321d66315116084" kind="function"><name>isNonIntersectingInside</name></member>
+    <member refid="group__AABBTreeGroup_1ga908e44352951a11a559011e12312a299" kind="function"><name>isNonIntersectingInsidePrecise</name></member>
     <member refid="group__AABBTreeGroup_1ga8f7cfd40975f9648e9785f72d75ff92d" kind="function"><name>operator==</name></member>
     <member refid="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
     <member refid="group__AABBTreeGroup_1gaa06a012aef3a0273d36e471fda3beb02" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>

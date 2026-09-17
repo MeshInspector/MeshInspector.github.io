@@ -68,6 +68,22 @@
         </inbodydescription>
         <location file="MRMesh/MRBooleanOperation.h" line="113" column="10" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="113" bodyend="113"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanInternalParameters_1a7da1159b62dcc2dd1738885c6e2865bd" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structMR_1_1CoordinateConverters" kindref="compound">CoordinateConverters</ref> *</type>
+        <definition>const CoordinateConverters* MR::BooleanInternalParameters::converters</definition>
+        <argsstring></argsstring>
+        <name>converters</name>
+        <qualifiedname>MR::BooleanInternalParameters::converters</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Float-to-int converters of both meshes in the space of mesh A; if given, the inside/outside test of the components without cuts is made by the precise orient3d predicate </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRBooleanOperation.h" line="116" column="32" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="116" bodyend="116"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
 <para>Parameters will be useful if specified. </para>
@@ -82,6 +98,27 @@
           <edgelabel>originalMeshA</edgelabel>
           <edgelabel>originalMeshB</edgelabel>
         </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>converters</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::ConvertToFloatVector</label>
+        <link refid="structMR_1_1ConvertToFloatVector"/>
+      </node>
+      <node id="5">
+        <label>MR::ConvertToIntVector</label>
+        <link refid="structMR_1_1ConvertToIntVector"/>
+      </node>
+      <node id="4">
+        <label>MR::CoordinateConverters</label>
+        <link refid="structMR_1_1CoordinateConverters"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>toInt</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>toFloat</edgelabel>
+        </childnode>
       </node>
       <node id="2">
         <label>MR::Mesh</label>
@@ -95,8 +132,9 @@
         <link refid="classMR_1_1MeshTopology"/>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRBooleanOperation.h" line="104" column="1" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="105" bodyend="114"/>
+    <location file="MRMesh/MRBooleanOperation.h" line="104" column="1" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="105" bodyend="117"/>
     <listofallmembers>
+      <member refid="structMR_1_1BooleanInternalParameters_1a7da1159b62dcc2dd1738885c6e2865bd" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>converters</name></member>
       <member refid="structMR_1_1BooleanInternalParameters_1ac286ffae84a7480b081c9bb06413cb79" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>graphCutSeparation</name></member>
       <member refid="structMR_1_1BooleanInternalParameters_1a3d8d32104f837c9064678f6e0cbc420c" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>optionalOutCut</name></member>
       <member refid="structMR_1_1BooleanInternalParameters_1a2733395f91f3ed00b0e61ccae13ce37d" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>originalMeshA</name></member>

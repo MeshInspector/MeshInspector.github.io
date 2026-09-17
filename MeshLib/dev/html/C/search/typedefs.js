@@ -193,7 +193,7 @@ var searchData=
   ['mr_5fcontourtodistancemapparams_190',['MR_ContourToDistanceMapParams',['../MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4',1,'MRDistanceMap.h']]],
   ['mr_5fconverttofloatvector_191',['MR_ConvertToFloatVector',['../MRPrecisePredicates3_8h.html#a279a37f9b7c6456dbe37e3ebfe6397cd',1,'MRPrecisePredicates3.h']]],
   ['mr_5fconverttointvector_192',['MR_ConvertToIntVector',['../MRAlphaShape_8h.html#a109826dd6ebd783e9011351debdab874',1,'MRAlphaShape.h']]],
-  ['mr_5fcoordinateconverters_193',['MR_CoordinateConverters',['../MRMeshBoolean_8h.html#a1d5f64a5e4478ee2148c84427aaaf552',1,'MRMeshBoolean.h']]],
+  ['mr_5fcoordinateconverters_193',['MR_CoordinateConverters',['../MRBooleanOperation_8h.html#a1d5f64a5e4478ee2148c84427aaaf552',1,'MRBooleanOperation.h']]],
   ['mr_5fcoordinateconverters2_194',['MR_CoordinateConverters2',['../MRPrecisePredicates2_8h.html#aba207e8e2df9b894c2e8e525351c3e57',1,'MRPrecisePredicates2.h']]],
   ['mr_5fcubicbeziercurve2d_195',['MR_CubicBezierCurve2d',['../MRBezier_8h.html#ac3c2ec3e923df312a3b4e23142bd10a4',1,'MRBezier.h']]],
   ['mr_5fcubicbeziercurve2f_196',['MR_CubicBezierCurve2f',['../MRBezier_8h.html#a748c94b3b56fa47109e29eb582aeedf9',1,'MRBezier.h']]],

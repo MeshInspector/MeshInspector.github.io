@@ -1,5 +1,9 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1Const__EdgeMap.html#af7f4e1732778a4a5f892ef0a40663602":[9,3,0,0,0,416,23],
+"classMR_1_1Const__EdgeMap.html#af9f7a3c920062ef77abf213f3ff27ace":[9,3,0,0,0,416,6],
+"classMR_1_1Const__EdgeMap_1_1__Enumerator.html":[9,3,0,0,0,416,0],
+"classMR_1_1Const__EdgeMap_1_1__Enumerator.html#a620f03c42fbf4307d39d8cfe04e4bf89":[9,3,0,0,0,416,0,1],
 "classMR_1_1Const__EdgeMap_1_1__Enumerator.html#a7c894b9bf3d58208626f8095db404486":[9,3,0,0,0,416,0,2],
 "classMR_1_1Const__EdgeMap_1_1__Enumerator.html#aa64a8d305a0cb71663a047d6a913fd5e":[9,3,0,0,0,416,0,0],
 "classMR_1_1Const__EdgePathsAStarBuilder.html":[9,3,0,0,0,417],
@@ -245,9 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1Const__Edges.html#affedd161f31ada5f30f0ea19653cb54f":[9,3,0,0,0,422,7],
 "classMR_1_1Const__Edges_1_1__Enumerator.html":[9,3,0,0,0,422,0],
 "classMR_1_1Const__Edges_1_1__Enumerator.html#a507655c054c532eea4d0f5ec755f1636":[9,3,0,0,0,422,0,0],
-"classMR_1_1Const__Edges_1_1__Enumerator.html#a9bf0c1a23866f83c6dff45b2f5f355a2":[9,3,0,0,0,422,0,1],
-"classMR_1_1Const__Edges_1_1__Enumerator.html#aa86d1bda33c32a3bea401b6dd22aec0f":[9,3,0,0,0,422,0,2],
-"classMR_1_1Const__EmbeddedStructureParameters.html":[9,3,0,0,0,427],
-"classMR_1_1Const__EmbeddedStructureParameters.html#a0575eb7ce3990cacffd4f25fbbae9259":[9,3,0,0,0,427,17],
-"classMR_1_1Const__EmbeddedStructureParameters.html#a0ba1b49f84cf14d4169bf9b04b54f6c9":[9,3,0,0,0,427,11]
+"classMR_1_1Const__Edges_1_1__Enumerator.html#a9bf0c1a23866f83c6dff45b2f5f355a2":[9,3,0,0,0,422,0,1]
 };

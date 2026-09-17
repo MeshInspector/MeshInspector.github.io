@@ -1,5 +1,7 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId.html#aa9c339f50c3d99fb80b50f6fb88048bd":[9,3,0,0,0,268,2],
+"classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId.html#ab5d1f12784b7db5d13ac334d57c6c846":[9,3,0,0,0,268,7],
 "classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId.html#acb6b42763a7279553f5dd0a2e791bae0":[9,3,0,0,0,268,5],
 "classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId.html#ad21c73628b0f27524eed3df51499898a":[9,3,0,0,0,268,4],
 "classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId.html#ae84260a077498c3e7a100fb172ad8665":[9,3,0,0,0,268,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__BasicUiRenderTask_1_1BackwardPassParams.html#aa8d05b934d58518f8774ebb06df7c437":[9,3,0,0,0,259,0,3],
 "classMR_1_1Const__BasicUiRenderTask_1_1BackwardPassParams.html#ad932a3d651c22a2a486e017265fb3c7b":[9,3,0,0,0,259,0,4],
 "classMR_1_1Const__BasicUiRenderTask_1_1BackwardPassParams.html#afb1d7661833965524284b7f92f87f0d9":[9,3,0,0,0,259,0,5],
-"classMR_1_1Const__BasicUiRenderTask_1_1Const__BackwardPassParams.html":[9,3,0,0,0,259,1],
-"classMR_1_1Const__BasicUiRenderTask_1_1Const__BackwardPassParams.html#a35ec5889a670f2700c68ba5ca59a8542":[9,3,0,0,0,259,1,4],
-"classMR_1_1Const__BasicUiRenderTask_1_1Const__BackwardPassParams.html#a5eb7301f9d656910e5085352719932b5":[9,3,0,0,0,259,1,2]
+"classMR_1_1Const__BasicUiRenderTask_1_1Const__BackwardPassParams.html":[9,3,0,0,0,259,1]
 };

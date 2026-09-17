@@ -1143,6 +1143,97 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshCollide.h" line="61" column="8" declfile="MRMesh/MRMeshCollide.h" declline="61" declcolumn="8"/>
       </memberdef>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga908e44352951a11a559011e12312a299" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isNonIntersectingInsidePrecise</definition>
+        <argsstring>(const Mesh &amp;a, FaceId partFace, const MeshPart &amp;b, const CoordinateConverters &amp;conv, int aVertShift, int bVertShift, const AffineXf3f *xfA=nullptr, const AffineXf3f *xfB=nullptr)</argsstring>
+        <name>isNonIntersectingInsidePrecise</name>
+        <qualifiedname>MR::isNonIntersectingInsidePrecise</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>FaceId</type>
+          <declname>partFace</declname>
+        </param>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const CoordinateConverters &amp;</type>
+          <declname>conv</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>aVertShift</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bVertShift</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xfA</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>xfB</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>checks that arbitrary mesh A part (whole part is represented by one face <computeroutput>partFace</computeroutput>) is inside of closed mesh part B The version of <computeroutput>isNonIntersectingInside</computeroutput> deciding by the precise orient3d predicate, which is never undefined, unlike the sign of the distance in the area where the meshes touch one another </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>conv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>float-to-int converter valid for the points of both meshes after the transformations below </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aVertShift</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value added to the vertex ids of mesh a, and</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bVertShift</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- of mesh b; the shifted ids must be distinct, and every call on the same meshes must shift them equally, because the simulation of simplicity of orient3d depends on them </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xfA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transformation of mesh a into the space of conv, nullptr considered as identity transformation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xfB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transformation of mesh b into the space of conv, nullptr considered as identity transformation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshCollide.h" line="74" column="8" declfile="MRMesh/MRMeshCollide.h" declline="74" declcolumn="8"/>
+      </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga8f7cfd40975f9648e9785f72d75ff92d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::operator==</definition>

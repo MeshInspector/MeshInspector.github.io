@@ -1,5 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1Const__Dipole.html#ab4932273f67b1be1501c6028b3899428":[9,3,0,0,0,396,6],
+"classMR_1_1Const__Dipole.html#ad56270822f1262f47b44a266f9b0bbbe":[9,3,0,0,0,396,1],
+"classMR_1_1Const__Dipole.html#ae0eff312f837e5aa799155732b63aae5":[9,3,0,0,0,396,4],
+"classMR_1_1Const__Dipoles.html":[9,3,0,0,0,397],
 "classMR_1_1Const__Dipoles.html#a08f0601241757d6d6d369bc690b56371":[9,3,0,0,0,397,2],
 "classMR_1_1Const__Dipoles.html#a12ba4135bd9836483687c8180e8350d8":[9,3,0,0,0,397,21],
 "classMR_1_1Const__Dipoles.html#a4a798782142ce624ceb3fe0520360419":[9,3,0,0,0,397,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1Const__DistanceMeasurementObject.html#adc53e9ee84ebfd52be16c66e309f764c":[9,3,0,0,0,405,49],
 "classMR_1_1Const__DistanceMeasurementObject.html#ae1ff0d8e45622579efb7420efc2d15ca":[9,3,0,0,0,405,50],
 "classMR_1_1Const__DistanceMeasurementObject.html#ae318c9d5555e251d8d5173b05ccfbcf1":[9,3,0,0,0,405,78],
-"classMR_1_1Const__DistanceMeasurementObject.html#ae4204ba64d0226e0d55180556c374fe6":[9,3,0,0,0,405,75],
-"classMR_1_1Const__DistanceMeasurementObject.html#ae505136a9ee26e98a5e3daf2b149a6a5":[9,3,0,0,0,405,17],
-"classMR_1_1Const__DistanceMeasurementObject.html#ae5853219ffa27ec9a1fcb61bb1d8f5b6":[9,3,0,0,0,405,86],
-"classMR_1_1Const__DistanceMeasurementObject.html#ae83f2c2c6c74c8d57f9eb568971707df":[9,3,0,0,0,405,40],
-"classMR_1_1Const__DistanceMeasurementObject.html#ae9209270557ac77c1555331934beb84d":[9,3,0,0,0,405,82]
+"classMR_1_1Const__DistanceMeasurementObject.html#ae4204ba64d0226e0d55180556c374fe6":[9,3,0,0,0,405,75]
 };

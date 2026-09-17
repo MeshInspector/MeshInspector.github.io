@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#adbc3e452bb1cf03044e7a2c5f7179a62":[9,3,0,0,0,652,2],
+"classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#ae33ea1b6b01456b78f16be8e33e6007e":[9,3,0,0,0,652,15],
+"classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#ae9a4301622ec8cde0a68ab56b551837f":[9,3,0,0,0,652,0],
+"classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#aef2a4dfd5026de969a58c45c40dc9ddd":[9,3,0,0,0,652,6],
 "classMR_1_1Const__NoDefInit__MRUndirectedEdgeId.html#af3a7367fc037a91fea68c0972c5a5413":[9,3,0,0,0,652,8],
 "classMR_1_1Const__NoDefInit__MRVertId.html":[9,3,0,0,0,653],
 "classMR_1_1Const__NoDefInit__MRVertId.html#a41d55e22e968c237ab27aa4eb47442cc":[9,3,0,0,0,653,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane.html#abc1a5a9ea571c097b327eef92ef62b63":[9,3,0,0,0,683,5],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html":[9,3,0,0,0,684],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a2238d828d2a8309cbba1f822dd599afd":[9,3,0,0,0,684,4],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a30ded09a90aed8bfcaf28a729613747c":[9,3,0,0,0,684,5],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a3a5f624ceae456d01ca7dc74294acd55":[9,3,0,0,0,684,3],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a6244245eee269d8b3efd5e7795eab1ed":[9,3,0,0,0,684,0],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a9efae3982ec41e6eaf1fd653e928d135":[9,3,0,0,0,684,2],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#aa21f991d22d718932e481388db90c346":[9,3,0,0,0,684,1]
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint.html#a30ded09a90aed8bfcaf28a729613747c":[9,3,0,0,0,684,5]
 };

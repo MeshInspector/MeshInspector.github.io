@@ -159,10 +159,26 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a3d8d32104f837c9064678f6e0cbc420c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional output cut edges of booleaned meshes.  <br /></td></tr>
 <tr class="memitem:ac286ffae84a7480b081c9bb06413cb79" id="r_ac286ffae84a7480b081c9bb06413cb79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac286ffae84a7480b081c9bb06413cb79">graphCutSeparation</a> { false }</td></tr>
 <tr class="memdesc:ac286ffae84a7480b081c9bb06413cb79"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true uses graphcut for inside/outside separation.  <br /></td></tr>
+<tr class="memitem:a7da1159b62dcc2dd1738885c6e2865bd" id="r_a7da1159b62dcc2dd1738885c6e2865bd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7da1159b62dcc2dd1738885c6e2865bd">converters</a> { nullptr }</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters will be useful if specified. </p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a7da1159b62dcc2dd1738885c6e2865bd" name="a7da1159b62dcc2dd1738885c6e2865bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7da1159b62dcc2dd1738885c6e2865bd">&#9670;&#160;</a></span>converters</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a>* MR::BooleanInternalParameters::converters { nullptr }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Float-to-int converters of both meshes in the space of mesh A; if given, the inside/outside test of the components without cuts is made by the precise orient3d predicate </p>
+
+</div>
+</div>
 <a id="ac286ffae84a7480b081c9bb06413cb79" name="ac286ffae84a7480b081c9bb06413cb79"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac286ffae84a7480b081c9bb06413cb79">&#9670;&#160;</a></span>graphCutSeparation</h2>
 

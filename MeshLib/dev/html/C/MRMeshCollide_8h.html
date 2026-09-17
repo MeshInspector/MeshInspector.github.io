@@ -173,6 +173,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a2c1aab7670608e4f81e3be519d7f0c4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh part A is inside of closed mesh part B The version of <span class="tt">isInside</span> without collision check; it is user's responsibility to guarantee that the meshes don't collide  <br /></td></tr>
 <tr class="memitem:aaf362c364519ae7b7d3f396c11f1c244" id="r_aaf362c364519ae7b7d3f396c11f1c244"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf362c364519ae7b7d3f396c11f1c244">MR_isNonIntersectingInside_4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *a, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> partFace, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
 <tr class="memdesc:aaf362c364519ae7b7d3f396c11f1c244"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh A part (whole part is represented by one face <span class="tt">partFace</span>) is inside of closed mesh part B The version of <span class="tt">isInside</span> without collision check; it is user's responsibility to guarantee that the meshes don't collide  <br /></td></tr>
+<tr class="memitem:a0d44b69db331a4a80a70c346af6232ca" id="r_a0d44b69db331a4a80a70c346af6232ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d44b69db331a4a80a70c346af6232ca">MR_isNonIntersectingInsidePrecise</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *a, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> partFace, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="MRBooleanOperation_8h.html#a1d5f64a5e4478ee2148c84427aaaf552">MR_CoordinateConverters</a> *conv, int aVertShift, int bVertShift, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xfA, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xfB)</td></tr>
+<tr class="memdesc:a0d44b69db331a4a80a70c346af6232ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh A part (whole part is represented by one face <span class="tt">partFace</span>) is inside of closed mesh part B The version of <span class="tt">isNonIntersectingInside</span> deciding by the precise orient3d predicate, which is never undefined, unlike the sign of the distance in the area where the meshes touch one another  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a74aaa8804e7ff506aeb3bda836914375" name="a74aaa8804e7ff506aeb3bda836914375"></a>
@@ -543,6 +545,69 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation Generated from function <span class="tt">MR::isNonIntersectingInside</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0d44b69db331a4a80a70c346af6232ca" name="a0d44b69db331a4a80a70c346af6232ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d44b69db331a4a80a70c346af6232ca">&#9670;&#160;</a></span>MR_isNonIntersectingInsidePrecise()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isNonIntersectingInsidePrecise </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__FaceId.html">MR_FaceId</a></td>          <td class="paramname"><span class="paramname"><em>partFace</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRBooleanOperation_8h.html#a1d5f64a5e4478ee2148c84427aaaf552">MR_CoordinateConverters</a> *</td>          <td class="paramname"><span class="paramname"><em>conv</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>aVertShift</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>bVertShift</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xfA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xfB</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>checks that arbitrary mesh A part (whole part is represented by one face <span class="tt">partFace</span>) is inside of closed mesh part B The version of <span class="tt">isNonIntersectingInside</span> deciding by the precise orient3d predicate, which is never undefined, unlike the sign of the distance in the area where the meshes touch one another </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">conv</td><td>float-to-int converter valid for the points of both meshes after the transformations below </td></tr>
+    <tr><td class="paramname">aVertShift</td><td>the value added to the vertex ids of mesh a, and</td></tr>
+    <tr><td class="paramname">bVertShift</td><td>- of mesh b; the shifted ids must be distinct, and every call on the same meshes must shift them equally, because the simulation of simplicity of orient3d depends on them </td></tr>
+    <tr><td class="paramname">xfA</td><td>transformation of mesh a into the space of conv, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">xfB</td><td>transformation of mesh b into the space of conv, nullptr considered as identity transformation Generated from function <span class="tt">MR::isNonIntersectingInsidePrecise</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">conv</span> can not be null. It is a single object. Parameter <span class="tt">xfA</span> defaults to a null pointer in C++. Parameter <span class="tt">xfB</span> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX95 =
 {
+"classMR_1_1Const__VoxelBitSet.html#afc47ad5a31dcee608c8926853741dd2b":[9,3,0,0,0,1009,27],
+"classMR_1_1Const__VoxelBitSet.html#afdb5f1c7f2ca1b0c7c39908eb7dc2bc5":[9,3,0,0,0,1009,48],
+"classMR_1_1Const__VoxelLocation.html":[9,3,0,0,0,1010],
+"classMR_1_1Const__VoxelLocation.html#a01b9474e2bee38790ad6500a0f4ede8d":[9,3,0,0,0,1010,8],
 "classMR_1_1Const__VoxelLocation.html#a355423683c831f0714ab8266e281ea7c":[9,3,0,0,0,1010,5],
 "classMR_1_1Const__VoxelLocation.html#a369df2293583c21022e71fa130c556d0":[9,3,0,0,0,1010,6],
 "classMR_1_1Const__VoxelLocation.html#a84b864e7d16530bb27e4508d4f1e3387":[9,3,0,0,0,1010,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX95 =
 "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#a8cd2176832a5ea338480e0aa0fb85c12":[9,3,0,0,0,1026,5,3],
 "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#a944a43bc90ed7a3ca8c404ca44739c6a":[9,3,0,0,0,1026,5,4],
 "classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#a9bd5391a77ea298ec766f7cdd6a35996":[9,3,0,0,0,1026,5,6],
-"classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#aa9aaa5a487dae1752eed152450846125":[9,3,0,0,0,1026,5,0],
-"classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#aadc8c1ac22f047195d442bcbeb83b462":[9,3,0,0,0,1026,5,5],
-"classMR_1_1Const__WeightedVertex.html":[9,3,0,0,0,1027],
-"classMR_1_1Const__WeightedVertex.html#a1665ba4a968594c97a255017e9757c28":[9,3,0,0,0,1027,1],
-"classMR_1_1Const__WeightedVertex.html#a60416565622833578dc765810d6ecd75":[9,3,0,0,0,1027,9]
+"classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#aa9aaa5a487dae1752eed152450846125":[9,3,0,0,0,1026,5,0]
 };

@@ -3623,6 +3623,7 @@ var classMR =
     [ "isNanFast", "classMR.html#abfd9e41b8304303e8377c6bfae581d8d", null ],
     [ "isNonIntersectingInside", "classMR.html#aa3b24253bac89e8fd0dc3c3f1feb6109", null ],
     [ "isNonIntersectingInside", "classMR.html#ab548b9e0a210ef0200b7a78263027632", null ],
+    [ "isNonIntersectingInsidePrecise", "classMR.html#a81069e2066cb866085ff5113c64f47e9", null ],
     [ "isPointInLine", "classMR.html#a472540f819d7458c497d7e11ab42ecf5", null ],
     [ "isPointInLine", "classMR.html#a9b6bc6d3791d69a15944effde9b1f78c", null ],
     [ "isPointInPlane", "classMR.html#abd0baa9914b0738524e983003825621a", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX96 =
 {
+"classMR_1_1Const__WatershedGraph_1_1OverflowPoint.html#aadc8c1ac22f047195d442bcbeb83b462":[9,3,0,0,0,1026,5,5],
+"classMR_1_1Const__WeightedVertex.html":[9,3,0,0,0,1027],
+"classMR_1_1Const__WeightedVertex.html#a1665ba4a968594c97a255017e9757c28":[9,3,0,0,0,1027,1],
+"classMR_1_1Const__WeightedVertex.html#a60416565622833578dc765810d6ecd75":[9,3,0,0,0,1027,9],
 "classMR_1_1Const__WeightedVertex.html#a6daea963c73f1aff302ecd484d90f21e":[9,3,0,0,0,1027,4],
 "classMR_1_1Const__WeightedVertex.html#a73257b8abe8e685622eb4f38a929b02b":[9,3,0,0,0,1027,6],
 "classMR_1_1Const__WeightedVertex.html#aa1f350000948f212c66ac1894bbb7781":[9,3,0,0,0,1027,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX96 =
 "classMR_1_1Cuda.html#a2ee724ac36d26a6c83bdcd469a4b1a22":[9,3,0,0,0,1112,25],
 "classMR_1_1Cuda.html#a32b0e5b580026a8ccb88f5e1860b7740":[9,3,0,0,0,1112,20],
 "classMR_1_1Cuda.html#a4f9a9652de05efaa486dd7ccd6bcf858":[9,3,0,0,0,1112,14],
-"classMR_1_1Cuda.html#a55def268c9241c47c216170ba0752b6d":[9,3,0,0,0,1112,11],
-"classMR_1_1Cuda.html#a672eb663ba302d642c6f967c77a11bdc":[9,3,0,0,0,1112,10],
-"classMR_1_1Cuda.html#a6b9a166743006785b5243fc8f07427ac":[9,3,0,0,0,1112,24],
-"classMR_1_1Cuda.html#a8db36893e32eb473a8bb07f103afe1b2":[9,3,0,0,0,1112,22],
-"classMR_1_1Cuda.html#ab2b7f6383c91b4355a8e3efd50505461":[9,3,0,0,0,1112,26]
+"classMR_1_1Cuda.html#a55def268c9241c47c216170ba0752b6d":[9,3,0,0,0,1112,11]
 };

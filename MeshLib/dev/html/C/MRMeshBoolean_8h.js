@@ -4,7 +4,6 @@ var MRMeshBoolean_8h =
     [ "MR_BooleanPreCutResult", "MRMeshBoolean_8h.html#acc4c51e5805fb2a6c37dbc760971c879", null ],
     [ "MR_BooleanResult", "MRMeshBoolean_8h.html#aac6c23cacaf5f96e13501fde30d1c95e", null ],
     [ "MR_BooleanResultPoints", "MRMeshBoolean_8h.html#aebda7bbc5ab64dcfb7c88d85db91d203", null ],
-    [ "MR_CoordinateConverters", "MRMeshBoolean_8h.html#a1d5f64a5e4478ee2148c84427aaaf552", null ],
     [ "MR_expected_MR_BooleanResultPoints_std_string", "MRMeshBoolean_8h.html#af7f7ea1a320c24c6e4922bc0b5a41edf", null ],
     [ "MR_boolean_4_const_MR_Mesh_ref", "MRMeshBoolean_8h.html#a67bd9b7954a1caa89ca51c0aba0edc91", null ],
     [ "MR_boolean_4_MR_Mesh_rvalue_ref", "MRMeshBoolean_8h.html#a22782fb1432d16c9cd3bc3a6e91bdb29", null ],

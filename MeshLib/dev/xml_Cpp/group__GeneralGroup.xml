@@ -16808,7 +16808,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="513" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="513" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="514" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="514" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga18500a3df20aa256325c44e2c5b2b499" prot="public" static="no">
         <type>std::array&lt; VertId, 2 &gt;</type>
@@ -16823,7 +16823,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="516" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="516" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="517" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="517" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga9fa45e8860a645c31bc2c7f1a2abf56b" prot="public" static="no">
         <type>std::array&lt; VertId, 3 &gt;</type>
@@ -16838,7 +16838,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="519" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="519" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="520" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="520" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga4434b15c24b22d8f017f529064021a35" prot="public" static="no">
         <type>std::array&lt; UVCoord, 3 &gt;</type>
@@ -16853,7 +16853,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="522" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="522" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="523" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="523" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga2b15c0d875f91b8c0da03e651251832b" prot="public" static="no">
         <type>std::function&lt; bool(FaceId)&gt;</type>
@@ -16867,7 +16867,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="569" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="569" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="570" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="570" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga3dd173667e136d1ab529bb70c4f9e450" prot="public" static="no">
         <type>std::function&lt; bool(EdgeId)&gt;</type>
@@ -16881,7 +16881,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="570" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="570" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="571" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="571" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga54078c8d4e2a3473d6e15a932c107cd4" prot="public" static="no">
         <type>std::function&lt; bool(UndirectedEdgeId)&gt;</type>
@@ -16895,7 +16895,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="571" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="571" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="572" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="572" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga8ca6fbc7c349a31c3f0a68ce8f513265" prot="public" static="no">
         <type>std::function&lt; bool(EdgeId edgeToCollapse, const Vector3f &amp;newEdgeOrgPos)&gt;</type>
@@ -16909,7 +16909,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="573" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="573" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="574" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="574" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gab50339e87a21861f4405943730720850" prot="public" static="no">
         <type>std::function&lt; void(EdgeId e1, EdgeId e)&gt;</type>
@@ -16923,7 +16923,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="574" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="574" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="575" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="575" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga036c60a88f141a437ffed0bc572fce6d" prot="public" static="no">
         <type>std::function&lt; float(VertId)&gt;</type>
@@ -16937,7 +16937,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="582" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="582" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="583" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="583" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga964a181b4bf9b03b222d6e2ad3529487" prot="public" static="no">
         <type>std::function&lt; float(FaceId)&gt;</type>
@@ -16951,7 +16951,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="583" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="583" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="584" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="584" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" prot="public" static="no">
         <type>std::function&lt; float(EdgeId)&gt;</type>
@@ -16965,7 +16965,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="584" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="584" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="585" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="585" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gab7a3fa3c0bf9137f59a3a494350314d1" prot="public" static="no">
         <type>std::function&lt; float(UndirectedEdgeId)&gt;</type>
@@ -16979,7 +16979,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="585" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="585" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="586" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="586" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gad321412e874739790b445adf4bbb1139" prot="public" static="no">
         <templateparamlist>
@@ -17006,7 +17006,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="598" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="598" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="599" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="599" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga9c13b23a521cbb81b2b70d44c1d2251e" prot="public" static="no">
         <type>HashSet&lt; FaceId &gt;</type>
@@ -17021,7 +17021,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="601" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="601" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="602" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="602" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga38a7dfd218690048dcae5c9a85647bc6" prot="public" static="no">
         <type>HashSet&lt; VertId &gt;</type>
@@ -17035,7 +17035,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="602" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="602" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="603" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="603" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gaab2dff43553ca83a7047da7cf31b3c1b" prot="public" static="no">
         <type>HashSet&lt; EdgeId &gt;</type>
@@ -17049,7 +17049,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="603" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="603" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="604" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="604" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" prot="public" static="no">
         <templateparamlist>
@@ -17079,7 +17079,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="606" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="606" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="607" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="607" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga05d4e4903837647940c265c6939dcfdf" prot="public" static="no">
         <templateparamlist>
@@ -17109,7 +17109,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="608" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="608" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="609" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="609" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" prot="public" static="no">
         <type>HashMap&lt; FaceId, FaceId &gt;</type>
@@ -17123,7 +17123,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="610" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="610" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="611" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="611" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga5f073f01bf5ba45cd1ca11d8507f494d" prot="public" static="no">
         <type>HashMap&lt; VertId, VertId &gt;</type>
@@ -17137,7 +17137,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="611" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="611" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="612" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="612" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gacf12278406a871d48023f839544d29e8" prot="public" static="no">
         <type>HashMap&lt; EdgeId, EdgeId &gt;</type>
@@ -17151,7 +17151,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="612" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="612" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="613" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="613" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gae4c04995449710309dc72ed533991d7f" prot="public" static="no">
         <type>HashMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</type>
@@ -17165,7 +17165,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="613" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="613" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="614" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="614" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga7a097c2851c9c54eef96a938f84750a4" prot="public" static="no">
         <type>HashMap&lt; UndirectedEdgeId, EdgeId &gt;</type>
@@ -17180,7 +17180,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="615" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="615" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="616" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="616" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga23dbcde07009ca26251020b292a2837b" prot="public" static="no">
         <type>MapOrHashMap&lt; FaceId, FaceId &gt;</type>
@@ -17194,7 +17194,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="620" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="620" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="621" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="621" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga595ea07ed87137527c40e85cf045379f" prot="public" static="no">
         <type>MapOrHashMap&lt; VertId, VertId &gt;</type>
@@ -17208,7 +17208,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="621" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="621" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="622" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="622" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga5eae17d4ec2d21bcf09a42615776b072" prot="public" static="no">
         <type>MapOrHashMap&lt; EdgeId, EdgeId &gt;</type>
@@ -17222,7 +17222,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="622" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="622" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="623" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="623" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gad6b354346cb9e2f14be7f44615ea9538" prot="public" static="no">
         <type>MapOrHashMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</type>
@@ -17236,7 +17236,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="623" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="623" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="624" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="624" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga97913e3bb3380204133f3b371cc4b6de" prot="public" static="no">
         <type>MapOrHashMap&lt; UndirectedEdgeId, EdgeId &gt;</type>
@@ -17251,7 +17251,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="625" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="625" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="626" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="626" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga0cc9f139078c5c5597f9bb7465fd7fda" prot="public" static="no">
         <type>std::vector&lt; std::string &gt;</type>
@@ -17265,7 +17265,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="685" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="685" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="686" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="686" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga0a57020e6aaf506fbbd6c3ce60c21412" prot="public" static="no">
         <type>std::function&lt; bool(const Vector3f &amp;p, ProjectionResult &amp;res)&gt;</type>
@@ -35303,7 +35303,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="524" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="524" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="525" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="525" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad18d27e1aa8c9210d5b1086a3615644e" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35318,7 +35318,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="595" column="13" bodyfile="MRMesh/MRMeshFwd.h" bodystart="595" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="596" column="13" bodyfile="MRMesh/MRMeshFwd.h" bodystart="596" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga328a03eeb36433aa99e9d41822a84272" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35334,7 +35334,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="595" column="28" bodyfile="MRMesh/MRMeshFwd.h" bodystart="595" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="596" column="28" bodyfile="MRMesh/MRMeshFwd.h" bodystart="596" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga70998e19114b7179469682c1c31c77ae" prot="public" static="no" mutable="no">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35348,7 +35348,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="630" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="630" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="631" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="631" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga49165bcb87a59752b8f02f19ea7f2424" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35362,7 +35362,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="631" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="631" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="632" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="632" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1b27efcf0bc43958ffdc2474a71d7730" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35376,7 +35376,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="632" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="632" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="633" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="633" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2c2ce7a11febd432cbfcbcd26f3d6103" prot="public" static="no" mutable="no">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35390,7 +35390,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="633" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="633" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="634" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="634" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1bfc73c4801d5127d8be21699dc9f590" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35404,7 +35404,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="634" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="634" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="635" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="635" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad9aaf9760f28ddb9fb832eab131b7bcc" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35418,7 +35418,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="635" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="635" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="636" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="636" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabe7cfa4da2fbf3567857cea149030590" prot="public" static="no" mutable="no">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35432,7 +35432,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="636" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="636" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="637" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="637" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga99c966a131266f5ea0b682099c7df561" prot="public" static="no" mutable="no">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35446,7 +35446,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="637" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="637" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="638" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="638" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad2555bd8680e7acc591ec78b0d789d23" prot="public" static="no" mutable="no">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35460,7 +35460,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="638" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="638" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="639" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="639" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga32d2679c43468dd98bb8cf90ddd25b77" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35474,7 +35474,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="639" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="639" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="640" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="640" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga206d2359088d7de67554ae5420f14ab2" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35488,7 +35488,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="640" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="640" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="641" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="641" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga192b92fae532ff79089afc3dcc6002c3" prot="public" static="no" mutable="no">
         <type></type>
@@ -35502,7 +35502,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="658" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="658" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="659" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="659" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" prot="public" static="no" mutable="no">
         <type></type>
@@ -35516,7 +35516,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="659" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="659" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="660" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="660" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa4c32f36330a9f8ba2d5a660c4cc6ee2" prot="public" static="no" mutable="no">
         <type></type>
@@ -35530,7 +35530,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="663" column="7" bodyfile="MRMesh/MRMeshFwd.h" bodystart="663" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="664" column="7" bodyfile="MRMesh/MRMeshFwd.h" bodystart="664" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga218fb32b8fe05ec26bcc38bf30b7a729" prot="public" static="no" mutable="no">
         <type></type>
@@ -35544,7 +35544,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="664" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="664" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="665" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="665" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga507086a21a04027731ffeb5332b8ed9c" prot="public" static="no" mutable="no">
         <type></type>
@@ -35558,7 +35558,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="676" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="676" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="677" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="677" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacdd7942df456145c6efbf9d6524f3f88" prot="public" static="no" mutable="no">
         <type></type>
@@ -35572,7 +35572,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="677" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="677" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="678" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="678" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga78658d7e2559b2c2ecccd1003dc75e04" prot="public" static="no" mutable="no">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35586,7 +35586,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="721" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="721" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="722" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="722" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac090ec24cc989c66ab1dbc182cb43c87" prot="public" static="no" constexpr="yes" mutable="no">
         <templateparamlist>
@@ -35606,7 +35606,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="789" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="789" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="790" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="790" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga49a42dcc4e94c7c1824987b168d150b9" prot="public" static="no" mutable="no">
         <type>std::optional&lt; <ref refid="group__GeneralGroup_1ga29d14b75d26970bc256e90bf11c3f0e5" kindref="member">Edges</ref> &gt; *</type>
@@ -112917,7 +112917,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf60378ba8d73c4b704f025b2e3cb794b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -112938,7 +112938,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga937386adcc94bddd2ad6e08e67913e56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -112958,7 +112958,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9ab78cd91b5f3ab474f75cc8f1bf16fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -112978,7 +112978,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga439dd4e9c2f13c560c5372c4c987f04f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -112999,7 +112999,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0ad370c3276db583d6145b62a3404eac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113019,7 +113019,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf07dba3af327f2390be8f392fc6e53e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113039,7 +113039,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga374d9f637dc91009a8ab07155ebf8568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113059,7 +113059,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8a2dd0eff31eff9de22ae770f2e078d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113079,7 +113079,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3ba1fe2582adfab5d693549fab8e4df2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113099,7 +113099,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae5a0dc0ec72979e77357933fff648914" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113119,7 +113119,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7965f4340f8a05292212679b11b6c867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113139,7 +113139,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8068a609ed1b503e57eb9c8ce892fd8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113159,7 +113159,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac616f611dfed813824b64b0632ec27ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113179,7 +113179,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="526" column="34" declfile="MRMesh/MRMeshFwd.h" declline="526" declcolumn="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="527" column="34" declfile="MRMesh/MRMeshFwd.h" declline="527" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0e69561d8c59d6cbfe5db9199465db72" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -113206,7 +113206,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="577" column="14" bodyfile="MRMesh/MRMeshFwd.h" bodystart="577" bodyend="580"/>
+        <location file="MRMesh/MRMeshFwd.h" line="578" column="14" bodyfile="MRMesh/MRMeshFwd.h" bodystart="578" bodyend="581"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1d5cc23c99d2f46783d60010d13d31f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -113234,7 +113234,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="587" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="588" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabf67c17ae441516a38345057213cc4c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113254,7 +113254,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="587" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="588" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7352d9729644e3fd4d02dd5131bdc652" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113274,7 +113274,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="587" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="588" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac2467062511884bec34fc4442102c639" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -113299,7 +113299,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="648" column="33"/>
+        <location file="MRMesh/MRMeshFwd.h" line="649" column="33"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1e15a094341523800c2e66c4b9d0fff6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -113319,7 +113319,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="659" column="6"/>
+        <location file="MRMesh/MRMeshFwd.h" line="660" column="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga14ff904b44efe8d73deea9652e3f2713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -113339,7 +113339,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="664" column="6" declfile="MRMesh/MRMeshFwd.h" declline="664" declcolumn="6"/>
+        <location file="MRMesh/MRMeshFwd.h" line="665" column="6" declfile="MRMesh/MRMeshFwd.h" declline="665" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7f89f4dcc97050f3d73c1175acce317f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -113359,7 +113359,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="664" column="6"/>
+        <location file="MRMesh/MRMeshFwd.h" line="665" column="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4e70bdb857b2a4beb1d18fc4bfc9f3a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -113379,7 +113379,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="677" column="6" declfile="MRMesh/MRMeshFwd.h" declline="677" declcolumn="6"/>
+        <location file="MRMesh/MRMeshFwd.h" line="678" column="6" declfile="MRMesh/MRMeshFwd.h" declline="678" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaad2f9beb5428f10d81959d6f9e33b662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -113404,7 +113404,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="738" column="32"/>
+        <location file="MRMesh/MRMeshFwd.h" line="739" column="32"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9cfa531260155650235a24f3d1e8dfdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113424,7 +113424,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="738" column="32" declfile="MRMesh/MRMeshFwd.h" declline="738" declcolumn="32"/>
+        <location file="MRMesh/MRMeshFwd.h" line="739" column="32" declfile="MRMesh/MRMeshFwd.h" declline="739" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2a8e1fa5c677ea23d7801ead67934dd7" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -113448,7 +113448,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="769" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="769" bodyend="769"/>
+        <location file="MRMesh/MRMeshFwd.h" line="770" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="770" bodyend="770"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga86bf24d57f63afab9354505400a0e82c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -113472,7 +113472,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="773" column="22" bodyfile="MRMesh/MRMeshFwd.h" bodystart="773" bodyend="773"/>
+        <location file="MRMesh/MRMeshFwd.h" line="774" column="22" bodyfile="MRMesh/MRMeshFwd.h" bodystart="774" bodyend="774"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8bbe103235cb82270d98d373ac2da406" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -113500,7 +113500,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="777" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="777" bodyend="777"/>
+        <location file="MRMesh/MRMeshFwd.h" line="778" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="778" bodyend="778"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafe7f9b1ee8498444247bc2793cbe7f8c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -113528,7 +113528,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="782" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="782" bodyend="782"/>
+        <location file="MRMesh/MRMeshFwd.h" line="783" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="783" bodyend="783"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabedf6d080f6840c8f336d5bce0c9f87a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -113563,7 +113563,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="786" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="786" bodyend="786"/>
+        <location file="MRMesh/MRMeshFwd.h" line="787" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="787" bodyend="787"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga80e6b953fc44378e5898ba71b21f216a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -113588,7 +113588,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="796" column="1" declfile="MRMesh/MRMeshFwd.h" declline="796" declcolumn="1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="797" column="1" declfile="MRMesh/MRMeshFwd.h" declline="797" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -113607,7 +113607,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="815" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="815" bodyend="815"/>
+        <location file="MRMesh/MRMeshFwd.h" line="816" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="816" bodyend="816"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -113629,7 +113629,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="816" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="816" bodyend="816"/>
+        <location file="MRMesh/MRMeshFwd.h" line="817" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="817" bodyend="817"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa7aee4117439f47322227fe3a7c202c0" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -113655,7 +113655,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="817" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="817" bodyend="817"/>
+        <location file="MRMesh/MRMeshFwd.h" line="818" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="818" bodyend="818"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf79f1e699d7f8cf7f45d6fd8208503d4" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -113685,7 +113685,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="818" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="818" bodyend="818"/>
+        <location file="MRMesh/MRMeshFwd.h" line="819" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="819" bodyend="819"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa2a7fba3a600699de880615c69671718" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>

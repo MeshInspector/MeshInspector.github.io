@@ -1,5 +1,9 @@
 var NAVTREEINDEX81 =
 {
+"classmrmeshpy_1_1QuarterBit.html#a799a0b3517838ab72f1f27b5d0b8a11b":[9,1,0,0,2,797,15],
+"classmrmeshpy_1_1QuarterBit.html#a799a0b3517838ab72f1f27b5d0b8a11b":[9,1,1,0,1,797,15],
+"classmrmeshpy_1_1QuarterBit.html#a7d7fd54b6b161cf8bc1265af1729b3ea":[9,1,0,0,2,797,18],
+"classmrmeshpy_1_1QuarterBit.html#a7d7fd54b6b161cf8bc1265af1729b3ea":[9,1,1,0,1,797,18],
 "classmrmeshpy_1_1QuarterBit.html#a82d55d389eb6c0cd7d7e33e646459294":[9,1,0,0,2,797,8],
 "classmrmeshpy_1_1QuarterBit.html#a82d55d389eb6c0cd7d7e33e646459294":[9,1,1,0,1,797,8],
 "classmrmeshpy_1_1QuarterBit.html#a8794270a4aa5ff927b4a7c5680137056":[9,1,0,0,2,797,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1RawTiffOutput.html#afd12ba9522729d1e10e425606eeeac09":[9,1,0,0,2,802,5],
 "classmrmeshpy_1_1RawTiffOutput.html#afd12ba9522729d1e10e425606eeeac09":[9,1,1,0,1,802,5],
 "classmrmeshpy_1_1RayOrigin__float.html":[9,1,0,0,2,803],
-"classmrmeshpy_1_1RayOrigin__float.html":[9,1,1,0,1,803],
-"classmrmeshpy_1_1RayOrigin__float.html#a4aedbcaef7e3e1309fedf00d4e98e265":[9,1,0,0,2,803,1],
-"classmrmeshpy_1_1RayOrigin__float.html#a4aedbcaef7e3e1309fedf00d4e98e265":[9,1,1,0,1,803,1],
-"classmrmeshpy_1_1RayOrigin__float.html#adc1de541a66b20437d0721ab62672ca2":[9,1,0,0,2,803,0],
-"classmrmeshpy_1_1RayOrigin__float.html#adc1de541a66b20437d0721ab62672ca2":[9,1,1,0,1,803,0]
+"classmrmeshpy_1_1RayOrigin__float.html":[9,1,1,0,1,803]
 };

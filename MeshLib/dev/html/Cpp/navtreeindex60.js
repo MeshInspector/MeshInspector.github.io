@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1SceneSave.html#a2c6d3ab6c6b433b7958ebb92cb464f02":[9,0,1,0,1,44,1],
 "namespaceMR_1_1SelfIntersections.html":[9,0,0,20,12],
 "namespaceMR_1_1SpaceMouse.html":[9,0,0,20,33],
 "namespaceMR_1_1SpaceMouse.html#a0125a493583e2d875e2b9cb7607f9ef0":[9,0,1,0,1,46,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "namespacemembers_type_s.html":[9,0,1,1,3,16],
 "namespacemembers_type_t.html":[9,0,1,1,3,17],
 "namespacemembers_type_u.html":[9,0,1,1,3,18],
-"namespacemembers_type_v.html":[9,0,1,1,3,19],
-"namespacemembers_type_w.html":[9,0,1,1,3,20]
+"namespacemembers_type_v.html":[9,0,1,1,3,19]
 };

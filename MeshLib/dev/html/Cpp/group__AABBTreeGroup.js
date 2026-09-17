@@ -393,6 +393,7 @@ var group__AABBTreeGroup =
     [ "MR::isInside", "group__AABBTreeGroup.html#gaf5614c6f47e495a7aa4513078b1b2ecb", null ],
     [ "MR::isNonIntersectingInside", "group__AABBTreeGroup.html#gac22748b9e5c563d95321d66315116084", null ],
     [ "MR::isNonIntersectingInside", "group__AABBTreeGroup.html#ga20e0c10db7c46b127cf4b5446101f894", null ],
+    [ "MR::isNonIntersectingInsidePrecise", "group__AABBTreeGroup.html#ga908e44352951a11a559011e12312a299", null ],
     [ "MR::isPointInsidePolyline", "group__AABBTreeGroup.html#ga8cdd94e81e6095b86dbd245ec23e9657", null ],
     [ "MR::makeAABBTreeNodeVec", "group__AABBTreeGroup.html#ga364302ddaf673e7f00c6745f4172d6c0", null ],
     [ "MR::multiRayMeshIntersect", "group__AABBTreeGroup.html#gac55c3d3c33053f0cfe8a2d4a19666c72", null ],

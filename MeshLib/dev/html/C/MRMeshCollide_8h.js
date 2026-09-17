@@ -12,5 +12,6 @@ var MRMeshCollide_8h =
     [ "MR_findSelfCollidingTrianglesBS", "MRMeshCollide_8h.html#a1bd4cde4068f4ce4618340a485a2c489", null ],
     [ "MR_isInside_MR_MeshPart", "MRMeshCollide_8h.html#a9766f52c9e9744a6666ce071a457546c", null ],
     [ "MR_isNonIntersectingInside_3", "MRMeshCollide_8h.html#a2c1aab7670608e4f81e3be519d7f0c4f", null ],
-    [ "MR_isNonIntersectingInside_4", "MRMeshCollide_8h.html#aaf362c364519ae7b7d3f396c11f1c244", null ]
+    [ "MR_isNonIntersectingInside_4", "MRMeshCollide_8h.html#aaf362c364519ae7b7d3f396c11f1c244", null ],
+    [ "MR_isNonIntersectingInsidePrecise", "MRMeshCollide_8h.html#a0d44b69db331a4a80a70c346af6232ca", null ]
 ];

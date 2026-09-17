@@ -66,6 +66,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="787" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="787" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BooleanInternalParameters_1a03c718c798f98a91ffc9ae2050ba18c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__CoordinateConverters" kindref="compound">Const_CoordinateConverters</ref></type>
+        <definition>unsafe MR.? Const_CoordinateConverters MR.Const_BooleanInternalParameters.converters</definition>
+        <argsstring></argsstring>
+        <name>converters</name>
+        <qualifiedname>MR.Const_BooleanInternalParameters.converters</qualifiedname>
+        <briefdescription>
+<para>Float-to-int converters of both meshes in the space of mesh A; if given, the inside/outside test of the components without cuts is made by the precise orient3d predicate. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="794" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="795" bodyend="806"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="classMR_1_1Const__BooleanInternalParameters_1a594fea0a53b1bd5e99fd95631e6bd669" prot="protected" static="no" mutable="no">
@@ -124,6 +139,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="788" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="788" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__BooleanInternalParameters_1abb22561b233c79779b6f29b745b0f594" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_CoordinateConverters._Underlying **</type>
+        <definition>unsafe MR.Const_CoordinateConverters._Underlying** MR.Const_BooleanInternalParameters.__ptr_storage_converters</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_converters</name>
+        <qualifiedname>MR.Const_BooleanInternalParameters.__ptr_storage_converters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="807" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="807" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
       <memberdef kind="function" id="classMR_1_1Const__BooleanInternalParameters_1a12b863334feb6d54567327ef849ab4e4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -173,12 +202,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="833" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="833" bodyend="839"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="858" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="858" bodyend="864"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__BooleanInternalParameters_1a8710a01439f2a880ada057b6cff28c74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__BooleanInternalParameters_1a5e8f578f6a5b10cae11ffb9be988b380" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_BooleanInternalParameters.Const_BooleanInternalParameters</definition>
-        <argsstring>(MR.Const_Mesh? originalMeshA, MR.Const_Mesh? originalMeshB, MR.Std.Vector_StdVectorMREdgeId? optionalOutCut, bool graphCutSeparation)</argsstring>
+        <argsstring>(MR.Const_Mesh? originalMeshA, MR.Const_Mesh? originalMeshB, MR.Std.Vector_StdVectorMREdgeId? optionalOutCut, bool graphCutSeparation, MR.Const_CoordinateConverters? converters)</argsstring>
         <name>Const_BooleanInternalParameters</name>
         <qualifiedname>MR.Const_BooleanInternalParameters.Const_BooleanInternalParameters</qualifiedname>
         <param>
@@ -197,6 +226,10 @@
           <type>bool</type>
           <declname>graphCutSeparation</declname>
         </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__CoordinateConverters" kindref="compound">MR.Const_CoordinateConverters</ref>?</type>
+          <declname>converters</declname>
+        </param>
         <briefdescription>
 <para>Constructs <computeroutput><ref refid="classMR_1_1BooleanInternalParameters" kindref="compound">MR.BooleanInternalParameters</ref></computeroutput> elementwise. </para>
         </briefdescription>
@@ -204,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="844" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="844" bodyend="853"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="869" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="869" bodyend="879"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BooleanInternalParameters_1abceb3c472537163d4b086d7018721b3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -223,7 +256,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="858" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="858" bodyend="865"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="884" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="884" bodyend="891"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BooleanInternalParameters_1a524daf1f0b9372021514908b55dfe16c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -242,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="870" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="870" bodyend="870"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="896" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="896" bodyend="896"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -282,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="822" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="822" bodyend="827"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="847" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="847" bodyend="852"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -325,6 +358,7 @@
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_converters</edgelabel>
           <edgelabel>__ptr_storage_optionalOutCut</edgelabel>
           <edgelabel>__ptr_storage_originalMeshA</edgelabel>
           <edgelabel>__ptr_storage_originalMeshB</edgelabel>
@@ -337,17 +371,19 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="712" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="713" bodyend="871"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="712" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="713" bodyend="897"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1abb22561b233c79779b6f29b745b0f594" prot="protected" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>__ptr_storage_converters</name></member>
       <member refid="classMR_1_1Const__BooleanInternalParameters_1ada6cd240ed881cb247535a06e90f3d1c" prot="protected" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>__ptr_storage_optionalOutCut</name></member>
       <member refid="classMR_1_1Const__BooleanInternalParameters_1a594fea0a53b1bd5e99fd95631e6bd669" prot="protected" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>__ptr_storage_originalMeshA</name></member>
       <member refid="classMR_1_1Const__BooleanInternalParameters_1af342d425cc4696b1b0bf5aed8e8817e4" prot="protected" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>__ptr_storage_originalMeshB</name></member>
       <member refid="classMR_1_1Const__BooleanInternalParameters_1a59d122cf51d65badb46f57c2f6235627" prot="protected" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>__ref_storage_graphCutSeparation</name></member>
       <member refid="classMR_1_1Const__BooleanInternalParameters_1aa89a1e4fcd82054e43e0fc45b45de19a" prot="package" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>Const_BooleanInternalParameters</name></member>
       <member refid="classMR_1_1Const__BooleanInternalParameters_1a7a9f9a732fbf234830628939107e2dd4" prot="public" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>Const_BooleanInternalParameters</name></member>
-      <member refid="classMR_1_1Const__BooleanInternalParameters_1a8710a01439f2a880ada057b6cff28c74" prot="public" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>Const_BooleanInternalParameters</name></member>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1a5e8f578f6a5b10cae11ffb9be988b380" prot="public" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>Const_BooleanInternalParameters</name></member>
       <member refid="classMR_1_1Const__BooleanInternalParameters_1abceb3c472537163d4b086d7018721b3c" prot="public" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>Const_BooleanInternalParameters</name></member>
       <member refid="classMR_1_1Const__BooleanInternalParameters_1a524daf1f0b9372021514908b55dfe16c" prot="public" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>Const_BooleanInternalParameters</name></member>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1a03c718c798f98a91ffc9ae2050ba18c7" prot="public" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>converters</name></member>
       <member refid="classMR_1_1Const__BooleanInternalParameters_1a12b863334feb6d54567327ef849ab4e4" prot="protected" virt="virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__BooleanInternalParameters_1a4e35788fe8fa3ae44c754047f705ad7f" prot="public" virt="virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__BooleanInternalParameters_1a17e89d3e32f62d4123577473e4bfabb3" prot="public" virt="non-virtual"><scope>MR::Const_BooleanInternalParameters</scope><name>graphCutSeparation</name></member>
