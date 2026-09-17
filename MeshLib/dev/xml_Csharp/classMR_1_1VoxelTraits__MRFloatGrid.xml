@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4019" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4019" bodyend="4019"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4293" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4293" bodyend="4293"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4024" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4024" bodyend="4029"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4298" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4298" bodyend="4301"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelTraits__MRFloatGrid_1a5f608b8234bc17ed5f6b22a6b946fbba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4034" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4034" bodyend="4040"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4306" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4306" bodyend="4310"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelTraits__MRFloatGrid_1a17730111aadf7ee4b62b8383cbafdef1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4045" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4045" bodyend="4045"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4315" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4315" bodyend="4315"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelTraits__MRFloatGrid_1ae2a2f3ca3b900e06e75dd77f717146ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VoxelTraits__MRFloatGrid" kindref="compound">MR.VoxelTraits_MRFloatGrid</ref></type>
@@ -98,7 +98,63 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4050" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4050" bodyend="4057"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4320" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4320" bodyend="4325"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRFloatGrid_1a93f5580816d5b5a66a60fac6d7635508" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelTraits_MRFloatGrid._Underlying *</type>
+        <definition>static unsafe MR.VoxelTraits_MRFloatGrid._Underlying * MR.VoxelTraits_MRFloatGrid.__MR_VoxelTraits_MR_FloatGrid_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.VoxelTraits_MRFloatGrid._Underlying *_other)</argsstring>
+        <name>__MR_VoxelTraits_MR_FloatGrid_AssignFromAnother</name>
+        <qualifiedname>MR.VoxelTraits_MRFloatGrid.__MR_VoxelTraits_MR_FloatGrid_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.VoxelTraits_MRFloatGrid._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4330" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRFloatGrid_1aeb35ccdda92d969d4d70eed57cd1cd00" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelTraits_MRFloatGrid._Underlying *</type>
+        <definition>static unsafe MR.VoxelTraits_MRFloatGrid._Underlying * MR.VoxelTraits_MRFloatGrid.__MR_VoxelTraits_MR_FloatGrid_ConstructFromAnother</definition>
+        <argsstring>(MR.VoxelTraits_MRFloatGrid._Underlying *_other)</argsstring>
+        <name>__MR_VoxelTraits_MR_FloatGrid_ConstructFromAnother</name>
+        <qualifiedname>MR.VoxelTraits_MRFloatGrid.__MR_VoxelTraits_MR_FloatGrid_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.VoxelTraits_MRFloatGrid._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4333" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRFloatGrid_1a229442bb7df0de986664788a5f614330" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelTraits_MRFloatGrid._Underlying *</type>
+        <definition>static unsafe MR.VoxelTraits_MRFloatGrid._Underlying * MR.VoxelTraits_MRFloatGrid.__MR_VoxelTraits_MR_FloatGrid_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_VoxelTraits_MR_FloatGrid_DefaultConstruct</name>
+        <qualifiedname>MR.VoxelTraits_MRFloatGrid.__MR_VoxelTraits_MR_FloatGrid_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4336" column="67"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -150,8 +206,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4017" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4018" bodyend="4058"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4291" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4292" bodyend="4337"/>
     <listofallmembers>
+      <member refid="classMR_1_1VoxelTraits__MRFloatGrid_1a93f5580816d5b5a66a60fac6d7635508" prot="private" virt="non-virtual"><scope>MR::VoxelTraits_MRFloatGrid</scope><name>__MR_VoxelTraits_MR_FloatGrid_AssignFromAnother</name></member>
+      <member refid="classMR_1_1VoxelTraits__MRFloatGrid_1aeb35ccdda92d969d4d70eed57cd1cd00" prot="private" virt="non-virtual"><scope>MR::VoxelTraits_MRFloatGrid</scope><name>__MR_VoxelTraits_MR_FloatGrid_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1VoxelTraits__MRFloatGrid_1a229442bb7df0de986664788a5f614330" prot="private" virt="non-virtual"><scope>MR::VoxelTraits_MRFloatGrid</scope><name>__MR_VoxelTraits_MR_FloatGrid_DefaultConstruct</name></member>
       <member refid="classMR_1_1VoxelTraits__MRFloatGrid_1ae2a2f3ca3b900e06e75dd77f717146ac" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRFloatGrid</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__VoxelTraits__MRFloatGrid_1ae7ae26546155f314520ee1acd63b0498" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_MRFloatGrid</scope><name>Const_VoxelTraits_MRFloatGrid</name></member>
       <member refid="classMR_1_1Const__VoxelTraits__MRFloatGrid_1a13da1beff352ed4bd1d43e385b5a1293" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRFloatGrid</scope><name>Const_VoxelTraits_MRFloatGrid</name></member>

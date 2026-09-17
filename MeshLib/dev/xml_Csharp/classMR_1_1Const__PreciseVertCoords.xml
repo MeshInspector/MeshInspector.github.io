@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="28" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="28" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="26" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__PreciseVertCoords_1a319c1485cf2ced6485ce5387e3036d5e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="34" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="34" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="32" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="32" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="29" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="29" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="27" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__PreciseVertCoords_1a81610e0e8b98c288c0d35f68bcbc6e4b" prot="protected" static="no" mutable="no">
         <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="35" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="35" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="33" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="33" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="13" bodyend="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="13" bodyend="19"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="22" bodyend="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="20" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="20" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoords_1afad5a21124a658d5a93fed582d7ea036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="68" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="68" bodyend="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="62" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="62" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoords_1aea980a7e3f6312e04af3038177c1917b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="79" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="79" bodyend="85"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="71" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="71" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoords_1adb310a0dc772ece0905f425dffb89d01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="90" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="90" bodyend="97"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="80" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="80" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoords_1a2772b5908ce794b6c9ec61ad4238859c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="102" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="102" bodyend="102"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="90" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="90" bodyend="90"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="23" bodyend="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="21" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="21" bodyend="21"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -216,7 +216,117 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="57" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="57" bodyend="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="51" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="51" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoords_1a768285699323602a3ec3a07e59c00673" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.PreciseVertCoords._Underlying *</type>
+        <definition>static unsafe MR.PreciseVertCoords._Underlying * MR.Const_PreciseVertCoords.__MR_PreciseVertCoords_ConstructFrom</definition>
+        <argsstring>(MR.VertId id, MR.Vector3i pt)</argsstring>
+        <name>__MR_PreciseVertCoords_ConstructFrom</name>
+        <qualifiedname>MR.Const_PreciseVertCoords.__MR_PreciseVertCoords_ConstructFrom</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="95" column="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoords_1aacbe1d363126f2909c8e8501c16a8c52" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.PreciseVertCoords._Underlying *</type>
+        <definition>static unsafe MR.PreciseVertCoords._Underlying * MR.Const_PreciseVertCoords.__MR_PreciseVertCoords_ConstructFromAnother</definition>
+        <argsstring>(MR.PreciseVertCoords._Underlying *_other)</argsstring>
+        <name>__MR_PreciseVertCoords_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_PreciseVertCoords.__MR_PreciseVertCoords_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.PreciseVertCoords._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="98" column="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoords_1a83c6f49a8fa9b8048f3228991456e3c6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.PreciseVertCoords._Underlying *</type>
+        <definition>static unsafe MR.PreciseVertCoords._Underlying * MR.Const_PreciseVertCoords.__MR_PreciseVertCoords_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_PreciseVertCoords_DefaultConstruct</name>
+        <qualifiedname>MR.Const_PreciseVertCoords.__MR_PreciseVertCoords_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="101" column="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoords_1a28d99fd6d95a34513bd8f9d9235e400f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_PreciseVertCoords.__MR_PreciseVertCoords_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PreciseVertCoords_Destroy</name>
+        <qualifiedname>MR.Const_PreciseVertCoords.__MR_PreciseVertCoords_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="104" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoords_1acb2a8488ce8e81184488310410f835f0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> *</type>
+        <definition>static unsafe MR.VertId * MR.Const_PreciseVertCoords.__MR_PreciseVertCoords_Get_id</definition>
+        <argsstring>(MR.Const_PreciseVertCoords._Underlying *_this)</argsstring>
+        <name>__MR_PreciseVertCoords_Get_id</name>
+        <qualifiedname>MR.Const_PreciseVertCoords.__MR_PreciseVertCoords_Get_id</qualifiedname>
+        <param>
+          <type>MR.Const_PreciseVertCoords._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="107" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoords_1a0a9e27961a7dd8fe86b0000bfbe9ed2c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
+        <definition>static unsafe MR.Vector3i * MR.Const_PreciseVertCoords.__MR_PreciseVertCoords_Get_pt</definition>
+        <argsstring>(MR.Const_PreciseVertCoords._Underlying *_this)</argsstring>
+        <name>__MR_PreciseVertCoords_Get_pt</name>
+        <qualifiedname>MR.Const_PreciseVertCoords.__MR_PreciseVertCoords_Get_pt</qualifiedname>
+        <param>
+          <type>MR.Const_PreciseVertCoords._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="110" column="41"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -270,8 +380,14 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="8" bodyend="103"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="8" bodyend="111"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PreciseVertCoords_1a768285699323602a3ec3a07e59c00673" prot="private" virt="non-virtual"><scope>MR::Const_PreciseVertCoords</scope><name>__MR_PreciseVertCoords_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoords_1aacbe1d363126f2909c8e8501c16a8c52" prot="private" virt="non-virtual"><scope>MR::Const_PreciseVertCoords</scope><name>__MR_PreciseVertCoords_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoords_1a83c6f49a8fa9b8048f3228991456e3c6" prot="private" virt="non-virtual"><scope>MR::Const_PreciseVertCoords</scope><name>__MR_PreciseVertCoords_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoords_1a28d99fd6d95a34513bd8f9d9235e400f" prot="private" virt="non-virtual"><scope>MR::Const_PreciseVertCoords</scope><name>__MR_PreciseVertCoords_Destroy</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoords_1acb2a8488ce8e81184488310410f835f0" prot="private" virt="non-virtual"><scope>MR::Const_PreciseVertCoords</scope><name>__MR_PreciseVertCoords_Get_id</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoords_1a0a9e27961a7dd8fe86b0000bfbe9ed2c" prot="private" virt="non-virtual"><scope>MR::Const_PreciseVertCoords</scope><name>__MR_PreciseVertCoords_Get_pt</name></member>
       <member refid="classMR_1_1Const__PreciseVertCoords_1a8d8ed336af8b3043ded6bdb2f1cf48a4" prot="protected" virt="non-virtual"><scope>MR::Const_PreciseVertCoords</scope><name>__ref_storage_id</name></member>
       <member refid="classMR_1_1Const__PreciseVertCoords_1a81610e0e8b98c288c0d35f68bcbc6e4b" prot="protected" virt="non-virtual"><scope>MR::Const_PreciseVertCoords</scope><name>__ref_storage_pt</name></member>
       <member refid="classMR_1_1Const__PreciseVertCoords_1a6dc7e582665c766d6c8eb0c880b97903" prot="package" virt="non-virtual"><scope>MR::Const_PreciseVertCoords</scope><name>Const_PreciseVertCoords</name></member>

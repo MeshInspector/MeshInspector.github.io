@@ -20,15 +20,36 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" line="9" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" bodystart="9" bodyend="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" line="9" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1ImageTransform_1a9d1c2eb20b16b195d72aeb4b8926da85" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Image._Underlying *</type>
+        <definition>static unsafe MR.Image._Underlying * MR.ImageTransform.__MR_ImageTransform_rotateClockwise90</definition>
+        <argsstring>(MR.Const_Image._Underlying *image)</argsstring>
+        <name>__MR_ImageTransform_rotateClockwise90</name>
+        <qualifiedname>MR.ImageTransform.__MR_ImageTransform_rotateClockwise90</qualifiedname>
+        <param>
+          <type>MR.Const_Image._Underlying *</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" line="17" column="49"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" bodystart="4" bodyend="15"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" bodystart="4" bodyend="18"/>
     <listofallmembers>
+      <member refid="classMR_1_1ImageTransform_1a9d1c2eb20b16b195d72aeb4b8926da85" prot="private" virt="non-virtual"><scope>MR::ImageTransform</scope><name>__MR_ImageTransform_rotateClockwise90</name></member>
       <member refid="classMR_1_1ImageTransform_1aa2a44dac4eb479dbccd5ba8aecea5b09" prot="public" virt="non-virtual"><scope>MR::ImageTransform</scope><name>rotateClockwise90</name></member>
     </listofallmembers>
   </compounddef>

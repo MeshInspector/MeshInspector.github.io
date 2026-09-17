@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12420" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12420" bodyend="12420"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13138" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13138" bodyend="13138"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BMap__MRNodeId__MRNodeId_1acb3fd73eff52c620bf56dc0a53bd2bd4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref nuint</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12425" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12425" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13143" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13143" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12444" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12444" bodyend="12448"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13160" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13160" bodyend="13164"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12454" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12454" bodyend="12460"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13170" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13170" bodyend="13174"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRNodeId__MRNodeId_1a4ee27613cea8b11c5d89aa3bf474c0b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12465" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12465" bodyend="12472"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13179" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13179" bodyend="13184"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRNodeId__MRNodeId_1a5a4e617aa849708d8247db2efd9adebe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12477" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12477" bodyend="12484"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13189" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13189" bodyend="13194"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRNodeId__MRNodeId_1a3c894a2ac2607cf10b1498922d82ca9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1BMap__MRNodeId__MRNodeId" kindref="compound">MR.BMap_MRNodeId_MRNodeId</ref></type>
@@ -133,7 +133,115 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12489" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12489" bodyend="12496"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13199" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13199" bodyend="13204"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1BMap__MRNodeId__MRNodeId_1a575a89e66dd945c148ce6fa77bd5941d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BMap_MRNodeId_MRNodeId._Underlying *</type>
+        <definition>static unsafe MR.BMap_MRNodeId_MRNodeId._Underlying * MR.BMap_MRNodeId_MRNodeId.__MR_BMap_MR_NodeId_MR_NodeId_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.BMap_MRNodeId_MRNodeId._Underlying *_other)</argsstring>
+        <name>__MR_BMap_MR_NodeId_MR_NodeId_AssignFromAnother</name>
+        <qualifiedname>MR.BMap_MRNodeId_MRNodeId.__MR_BMap_MR_NodeId_MR_NodeId_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.BMap_MRNodeId_MRNodeId._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13209" column="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRNodeId__MRNodeId_1a917bbccc44a123994bc50652fadba289" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BMap_MRNodeId_MRNodeId._Underlying *</type>
+        <definition>static unsafe MR.BMap_MRNodeId_MRNodeId._Underlying * MR.BMap_MRNodeId_MRNodeId.__MR_BMap_MR_NodeId_MR_NodeId_ConstructFrom</definition>
+        <argsstring>(MR.Misc._PassBy b_pass_by, MR.Buffer_MRNodeId_MRNodeId._Underlying *b, nuint tsize)</argsstring>
+        <name>__MR_BMap_MR_NodeId_MR_NodeId_ConstructFrom</name>
+        <qualifiedname>MR.BMap_MRNodeId_MRNodeId.__MR_BMap_MR_NodeId_MR_NodeId_ConstructFrom</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>b_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Buffer_MRNodeId_MRNodeId._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>tsize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13212" column="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRNodeId__MRNodeId_1ac773af3347dedc6ebecdc61a19656e61" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BMap_MRNodeId_MRNodeId._Underlying *</type>
+        <definition>static unsafe MR.BMap_MRNodeId_MRNodeId._Underlying * MR.BMap_MRNodeId_MRNodeId.__MR_BMap_MR_NodeId_MR_NodeId_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.BMap_MRNodeId_MRNodeId._Underlying *_other)</argsstring>
+        <name>__MR_BMap_MR_NodeId_MR_NodeId_ConstructFromAnother</name>
+        <qualifiedname>MR.BMap_MRNodeId_MRNodeId.__MR_BMap_MR_NodeId_MR_NodeId_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.BMap_MRNodeId_MRNodeId._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13215" column="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRNodeId__MRNodeId_1ab637c4332f613582bcd169341b94035f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BMap_MRNodeId_MRNodeId._Underlying *</type>
+        <definition>static unsafe MR.BMap_MRNodeId_MRNodeId._Underlying * MR.BMap_MRNodeId_MRNodeId.__MR_BMap_MR_NodeId_MR_NodeId_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_BMap_MR_NodeId_MR_NodeId_DefaultConstruct</name>
+        <qualifiedname>MR.BMap_MRNodeId_MRNodeId.__MR_BMap_MR_NodeId_MR_NodeId_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13218" column="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRNodeId__MRNodeId_1a2c6b69961a3a8b158da8d1e4788930bd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Buffer_MRNodeId_MRNodeId._Underlying *</type>
+        <definition>static unsafe MR.Buffer_MRNodeId_MRNodeId._Underlying * MR.BMap_MRNodeId_MRNodeId.__MR_BMap_MR_NodeId_MR_NodeId_GetMutable_b</definition>
+        <argsstring>(MR.BMap_MRNodeId_MRNodeId._Underlying *_this)</argsstring>
+        <name>__MR_BMap_MR_NodeId_MR_NodeId_GetMutable_b</name>
+        <qualifiedname>MR.BMap_MRNodeId_MRNodeId.__MR_BMap_MR_NodeId_MR_NodeId_GetMutable_b</qualifiedname>
+        <param>
+          <type>MR.BMap_MRNodeId_MRNodeId._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13221" column="68"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -185,8 +293,13 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12418" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12419" bodyend="12497"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13136" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13137" bodyend="13222"/>
     <listofallmembers>
+      <member refid="classMR_1_1BMap__MRNodeId__MRNodeId_1a575a89e66dd945c148ce6fa77bd5941d" prot="private" virt="non-virtual"><scope>MR::BMap_MRNodeId_MRNodeId</scope><name>__MR_BMap_MR_NodeId_MR_NodeId_AssignFromAnother</name></member>
+      <member refid="classMR_1_1BMap__MRNodeId__MRNodeId_1a917bbccc44a123994bc50652fadba289" prot="private" virt="non-virtual"><scope>MR::BMap_MRNodeId_MRNodeId</scope><name>__MR_BMap_MR_NodeId_MR_NodeId_ConstructFrom</name></member>
+      <member refid="classMR_1_1BMap__MRNodeId__MRNodeId_1ac773af3347dedc6ebecdc61a19656e61" prot="private" virt="non-virtual"><scope>MR::BMap_MRNodeId_MRNodeId</scope><name>__MR_BMap_MR_NodeId_MR_NodeId_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1BMap__MRNodeId__MRNodeId_1ab637c4332f613582bcd169341b94035f" prot="private" virt="non-virtual"><scope>MR::BMap_MRNodeId_MRNodeId</scope><name>__MR_BMap_MR_NodeId_MR_NodeId_DefaultConstruct</name></member>
+      <member refid="classMR_1_1BMap__MRNodeId__MRNodeId_1a2c6b69961a3a8b158da8d1e4788930bd" prot="private" virt="non-virtual"><scope>MR::BMap_MRNodeId_MRNodeId</scope><name>__MR_BMap_MR_NodeId_MR_NodeId_GetMutable_b</name></member>
       <member refid="classMR_1_1Const__BMap__MRNodeId__MRNodeId_1a4c3212cf5816e75fb5b41512befcd943" prot="protected" virt="non-virtual"><scope>MR::BMap_MRNodeId_MRNodeId</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1BMap__MRNodeId__MRNodeId_1a3c894a2ac2607cf10b1498922d82ca9d" prot="public" virt="non-virtual"><scope>MR::BMap_MRNodeId_MRNodeId</scope><name>assign</name></member>
       <member refid="classMR_1_1BMap__MRNodeId__MRNodeId_1af3f9afc250518220a5aa9cca113f6faa" prot="public" virt="non-virtual"><scope>MR::BMap_MRNodeId_MRNodeId</scope><name>b</name></member>

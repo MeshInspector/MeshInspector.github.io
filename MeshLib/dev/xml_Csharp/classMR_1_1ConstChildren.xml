@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="434" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="434" bodyend="434"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="460" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="460" bodyend="460"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="439" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="439" bodyend="445"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="465" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="465" bodyend="469"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstChildren_1afdb34629d6f7ea9087b7093b8434a379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="450" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="450" bodyend="450"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="474" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="474" bodyend="474"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstChildren_1acfd37ea30f48d5a08058ccc2a9df34b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -83,7 +83,45 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="455" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="455" bodyend="461"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="479" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="479" bodyend="483"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1ConstChildren_1ae5f4eb0d64584b1fab819f6ab75813d5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ConstChildren._Underlying *</type>
+        <definition>static unsafe MR.ConstChildren._Underlying * MR.ConstChildren.__MR_ConstChildren_Construct</definition>
+        <argsstring>(MR.Std.Const_Vector_StdSharedPtrMRObject._Underlying *children)</argsstring>
+        <name>__MR_ConstChildren_Construct</name>
+        <qualifiedname>MR.ConstChildren.__MR_ConstChildren_Construct</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_StdSharedPtrMRObject._Underlying *</type>
+          <declname>children</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="488" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstChildren_1aa327720b1a4c9608ce3ff02f3c3acdb1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ConstChildren._Underlying *</type>
+        <definition>static unsafe MR.ConstChildren._Underlying * MR.ConstChildren.__MR_ConstChildren_ConstructFromAnother</definition>
+        <argsstring>(MR.ConstChildren._Underlying *_other)</argsstring>
+        <name>__MR_ConstChildren_ConstructFromAnother</name>
+        <qualifiedname>MR.ConstChildren.__MR_ConstChildren_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.ConstChildren._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="491" column="57"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -145,8 +183,10 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="432" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="433" bodyend="462"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="458" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="459" bodyend="492"/>
     <listofallmembers>
+      <member refid="classMR_1_1ConstChildren_1ae5f4eb0d64584b1fab819f6ab75813d5" prot="private" virt="non-virtual"><scope>MR::ConstChildren</scope><name>__MR_ConstChildren_Construct</name></member>
+      <member refid="classMR_1_1ConstChildren_1aa327720b1a4c9608ce3ff02f3c3acdb1" prot="private" virt="non-virtual"><scope>MR::ConstChildren</scope><name>__MR_ConstChildren_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__ConstChildren_1acde72b2f1e2fee768decdbf1596c574c" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>begin</name></member>
       <member refid="classMR_1_1Const__ConstChildren_1a628c6cd271710e83870f8030175804bf" prot="package" virt="non-virtual"><scope>MR::ConstChildren</scope><name>Const_ConstChildren</name></member>
       <member refid="classMR_1_1Const__ConstChildren_1acca71705eacaf837fc38d5c78318cf9a" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>Const_ConstChildren</name></member>

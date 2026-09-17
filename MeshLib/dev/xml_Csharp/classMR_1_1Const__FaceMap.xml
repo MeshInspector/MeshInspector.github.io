@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3344" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3344" bodyend="3344"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3529" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3529" bodyend="3529"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__FaceMap_1acd98e502422320c462f7bec6c5e1703d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3496" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3497" bodyend="3504"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3661" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3662" bodyend="3667"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3265" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3265" bodyend="3273"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3452" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3452" bodyend="3458"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3274" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3274" bodyend="3274"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3459" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3459" bodyend="3459"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1aeafc8558adb455624eaae3acad3acf61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref> &gt; &gt;</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3331" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3331" bodyend="3334"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3516" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3516" bodyend="3519"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a644f471c91221107bb150071c24985c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3372" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3372" bodyend="3378"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3555" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3555" bodyend="3559"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a1612cdf9fe3ddef02462daa81424b593" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3383" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3383" bodyend="3390"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3564" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3564" bodyend="3569"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1afc185effd9c7eb33b15d09c605dfb269" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3395" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3395" bodyend="3395"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3574" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3574" bodyend="3574"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a7fb3cf9e38bc050497c2476fe8ac7563" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3400" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3400" bodyend="3400"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3579" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3579" bodyend="3579"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a23db98159e3c3af92bbd39301e21c763" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3406" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3406" bodyend="3412"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3585" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3585" bodyend="3589"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1aa871358da1b1777b8096b185a9cad8cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3418" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3418" bodyend="3427"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3595" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3595" bodyend="3602"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a83954d181b04fd92a5ffc9bd3b394cef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3433" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3433" bodyend="3440"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3608" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3608" bodyend="3613"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a4009b06d165dbc5ca7a29bfa842e934c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -234,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3466" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3466" bodyend="3471"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3637" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3637" bodyend="3640"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a42ae8067f1df947f48a55702392c55c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -249,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3476" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3476" bodyend="3481"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3645" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3645" bodyend="3648"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ada3dc83c084704db6150c5181dfe4c1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -264,7 +264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3486" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3486" bodyend="3491"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3653" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3653" bodyend="3656"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ac7b21ffec1139620b0b55d445d792841" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -279,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3509" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3509" bodyend="3514"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3672" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3672" bodyend="3675"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a904a0057b7b9ca1400a314e18b5f0c5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -294,7 +294,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3519" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3519" bodyend="3524"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3680" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3680" bodyend="3683"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a21edbe76fb59538119a2ac7b3fbf9ad4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -309,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3530" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3530" bodyend="3535"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3689" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3689" bodyend="3692"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a60f2f79b77aafba2ec24798ed8f9b685" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -324,7 +324,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3541" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3541" bodyend="3546"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3698" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3698" bodyend="3701"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a0f639ccac663b02dce05e1817789f086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -339,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3552" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3552" bodyend="3557"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3707" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3707" bodyend="3710"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a8cc1c2782509850a3b312d8c52c771e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.? <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -354,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3562" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3562" bodyend="3568"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3715" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3715" bodyend="3719"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a34b9370703986c21004984bfc31dfe59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -369,7 +369,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3574" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3574" bodyend="3579"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3725" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3725" bodyend="3728"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ab34ed5ff9d22e013b1bb49203784ce51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -387,7 +387,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3583" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3583" bodyend="3588"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3732" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3732" bodyend="3737"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a2830861fddfd88f40d6694fe1b902d44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -405,7 +405,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3590" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3590" bodyend="3597"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3739" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3739" bodyend="3746"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -421,7 +421,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3275" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3275" bodyend="3275"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3460" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3460" bodyend="3460"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ae27b754012bb198b6aa2ec9b881c16d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
@@ -435,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3336" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3336" bodyend="3339"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3521" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3521" bodyend="3524"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -459,7 +459,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3361" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3361" bodyend="3366"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3544" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3544" bodyend="3549"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -480,7 +480,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3446" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3446" bodyend="3446"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3619" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3619" bodyend="3619"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ac18d7e9a389e5eb320a2c50879b4040e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -503,7 +503,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3451" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3451" bodyend="3456"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3624" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3624" bodyend="3627"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a17953370b2e3c17de64e4165420423f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -525,7 +525,363 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3458" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3458" bodyend="3461"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3629" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3629" bodyend="3632"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1af3286bb24d9c6bda61cc32af1bc31f41" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FaceMap._Underlying *</type>
+        <definition>static unsafe MR.FaceMap._Underlying * MR.Const_FaceMap.__MR_FaceMap_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.FaceMap._Underlying *_other)</argsstring>
+        <name>__MR_FaceMap_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.FaceMap._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3751" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a2a6329ec23c8cc47d739d616787d6524" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FaceMap._Underlying *</type>
+        <definition>static unsafe MR.FaceMap._Underlying * MR.Const_FaceMap.__MR_FaceMap_Construct_1_size_t</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_FaceMap_Construct_1_size_t</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_Construct_1_size_t</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3754" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1aa10cabfd3b5388d86c9d3154e498b81a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FaceMap._Underlying *</type>
+        <definition>static unsafe MR.FaceMap._Underlying * MR.Const_FaceMap.__MR_FaceMap_Construct_1_std_vector_MR_FaceId</definition>
+        <argsstring>(MR.Std.Vector_MRFaceId._Underlying *vec)</argsstring>
+        <name>__MR_FaceMap_Construct_1_std_vector_MR_FaceId</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_Construct_1_std_vector_MR_FaceId</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_MRFaceId._Underlying *</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3757" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1aff2c30b9d591a018c09799776c2cf2d9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FaceMap._Underlying *</type>
+        <definition>static unsafe MR.FaceMap._Underlying * MR.Const_FaceMap.__MR_FaceMap_Construct_2</definition>
+        <argsstring>(nuint size, MR.FaceId *val)</argsstring>
+        <name>__MR_FaceMap_Construct_2</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_Construct_2</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref> *</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3760" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a38330c8c7988dc01f9718b285611174e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FaceMap._Underlying *</type>
+        <definition>static unsafe MR.FaceMap._Underlying * MR.Const_FaceMap.__MR_FaceMap_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_FaceMap_DefaultConstruct</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3763" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a6ade71a2e94400cf84f2a4489f636f36" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_FaceMap.__MR_FaceMap_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_FaceMap_Destroy</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3766" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ab0c834d9a423d5f532148c409eb9410a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_MRFaceId._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Vector_MRFaceId._Underlying * MR.Const_FaceMap.__MR_FaceMap_Get_vec_</definition>
+        <argsstring>(MR.Const_FaceMap._Underlying *_this)</argsstring>
+        <name>__MR_FaceMap_Get_vec_</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_Get_vec_</qualifiedname>
+        <param>
+          <type>MR.Const_FaceMap._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3769" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a9172ab09c2ac208921f58fce20efb8a2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref> *</type>
+        <definition>static unsafe MR.FaceId * MR.Const_FaceMap.__MR_FaceMap_back</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_FaceMap_back</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_back</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3772" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1adcbcb01989141bb91d376f78b0f42a57" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>static unsafe MR.FaceId MR.Const_FaceMap.__MR_FaceMap_backId</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_FaceMap_backId</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_backId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3775" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1aae5443b759ad1878a30116d580c5f799" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>static unsafe MR.FaceId MR.Const_FaceMap.__MR_FaceMap_beginId</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_FaceMap_beginId</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_beginId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3778" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a6ea89249395fb4ac40cbc4e5880d084e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Const_FaceMap.__MR_FaceMap_capacity</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_FaceMap_capacity</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_capacity</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3781" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1af860a3a8fbd73a603458b41f98c1b57c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref> *</type>
+        <definition>static unsafe MR.FaceId * MR.Const_FaceMap.__MR_FaceMap_data</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_FaceMap_data</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_data</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3784" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1abe11da0beb5408aa0a3738fbbc8bb952" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.Const_FaceMap.__MR_FaceMap_empty</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_FaceMap_empty</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_empty</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3787" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ab05d68a6ad8368f1f300e6f8c7a49df0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>static unsafe MR.FaceId MR.Const_FaceMap.__MR_FaceMap_endId</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_FaceMap_endId</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_endId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3790" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1af8b804e657b796067b8f9497f0bb6651" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref> *</type>
+        <definition>static unsafe MR.FaceId * MR.Const_FaceMap.__MR_FaceMap_front</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_FaceMap_front</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_front</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3793" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a08e9a5aceb7e5a8251f5adef6f3a8368" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Const_FaceMap.__MR_FaceMap_heapBytes</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_FaceMap_heapBytes</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_heapBytes</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3796" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ae7508004e69b4e1286c47b27e496204c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref> *</type>
+        <definition>static unsafe MR.FaceId * MR.Const_FaceMap.__MR_FaceMap_index</definition>
+        <argsstring>(_Underlying *_this, MR.FaceId i)</argsstring>
+        <name>__MR_FaceMap_index</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_index</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3799" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a7b52734dfb8f09fdda1e6d648dcd4c74" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Const_FaceMap.__MR_FaceMap_size</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_FaceMap_size</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_FaceMap_size</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3802" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1aedb792a182495a167e86d9b3df290c90" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.Const_FaceMap.__MR_equal_MR_FaceMap</definition>
+        <argsstring>(MR.Const_FaceMap._Underlying *_this, MR.Const_FaceMap._Underlying *b)</argsstring>
+        <name>__MR_equal_MR_FaceMap</name>
+        <qualifiedname>MR.Const_FaceMap.__MR_equal_MR_FaceMap</qualifiedname>
+        <param>
+          <type>MR.Const_FaceMap._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceMap._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3805" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -609,8 +965,27 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3259" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3260" bodyend="3598"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3446" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3447" bodyend="3806"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FaceMap_1aedb792a182495a167e86d9b3df290c90" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_equal_MR_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a9172ab09c2ac208921f58fce20efb8a2" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_back</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1adcbcb01989141bb91d376f78b0f42a57" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_backId</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1aae5443b759ad1878a30116d580c5f799" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_beginId</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a6ea89249395fb4ac40cbc4e5880d084e" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_capacity</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a2a6329ec23c8cc47d739d616787d6524" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_Construct_1_size_t</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1aa10cabfd3b5388d86c9d3154e498b81a" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_Construct_1_std_vector_MR_FaceId</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1aff2c30b9d591a018c09799776c2cf2d9" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_Construct_2</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1af3286bb24d9c6bda61cc32af1bc31f41" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1af860a3a8fbd73a603458b41f98c1b57c" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_data</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a38330c8c7988dc01f9718b285611174e" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a6ade71a2e94400cf84f2a4489f636f36" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_Destroy</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1abe11da0beb5408aa0a3738fbbc8bb952" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_empty</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ab05d68a6ad8368f1f300e6f8c7a49df0" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_endId</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1af8b804e657b796067b8f9497f0bb6651" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_front</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ab0c834d9a423d5f532148c409eb9410a" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a08e9a5aceb7e5a8251f5adef6f3a8368" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_heapBytes</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ae7508004e69b4e1286c47b27e496204c" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_index</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a7b52734dfb8f09fdda1e6d648dcd4c74" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>__MR_FaceMap_size</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a904a0057b7b9ca1400a314e18b5f0c5b" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>back</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a60f2f79b77aafba2ec24798ed8f9b685" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a21edbe76fb59538119a2ac7b3fbf9ad4" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>beginId</name></member>

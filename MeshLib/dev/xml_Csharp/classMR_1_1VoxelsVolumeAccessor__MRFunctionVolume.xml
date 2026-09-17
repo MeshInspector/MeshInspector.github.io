@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="467" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="467" bodyend="467"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="502" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="502" bodyend="502"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="472" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="472" bodyend="478"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="507" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="507" bodyend="511"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume_1a8b6a791e91a424665b76ed12e04c6897" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="483" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="483" bodyend="483"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="516" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="516" bodyend="516"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume_1a07e1cfd503a888985d8df886a4a037f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -83,7 +83,45 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="488" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="488" bodyend="494"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="521" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="521" bodyend="525"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume_1a39ec85b1e2d191e9a58029f95d3caab3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelsVolumeAccessor_MRFunctionVolume._Underlying *</type>
+        <definition>static unsafe MR.VoxelsVolumeAccessor_MRFunctionVolume._Underlying * MR.VoxelsVolumeAccessor_MRFunctionVolume.__MR_VoxelsVolumeAccessor_MR_FunctionVolume_Construct</definition>
+        <argsstring>(MR.Const_FunctionVolume._Underlying *volume)</argsstring>
+        <name>__MR_VoxelsVolumeAccessor_MR_FunctionVolume_Construct</name>
+        <qualifiedname>MR.VoxelsVolumeAccessor_MRFunctionVolume.__MR_VoxelsVolumeAccessor_MR_FunctionVolume_Construct</qualifiedname>
+        <param>
+          <type>MR.Const_FunctionVolume._Underlying *</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="530" column="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume_1a6d5ad227dd989c620ca1e5c0730a546b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelsVolumeAccessor_MRFunctionVolume._Underlying *</type>
+        <definition>static unsafe MR.VoxelsVolumeAccessor_MRFunctionVolume._Underlying * MR.VoxelsVolumeAccessor_MRFunctionVolume.__MR_VoxelsVolumeAccessor_MR_FunctionVolume_ConstructFromAnother</definition>
+        <argsstring>(MR.VoxelsVolumeAccessor_MRFunctionVolume._Underlying *_other)</argsstring>
+        <name>__MR_VoxelsVolumeAccessor_MR_FunctionVolume_ConstructFromAnother</name>
+        <qualifiedname>MR.VoxelsVolumeAccessor_MRFunctionVolume.__MR_VoxelsVolumeAccessor_MR_FunctionVolume_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.VoxelsVolumeAccessor_MRFunctionVolume._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="533" column="81"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -135,8 +173,10 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="465" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="466" bodyend="495"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="500" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="501" bodyend="534"/>
     <listofallmembers>
+      <member refid="classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume_1a39ec85b1e2d191e9a58029f95d3caab3" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>__MR_VoxelsVolumeAccessor_MR_FunctionVolume_Construct</name></member>
+      <member refid="classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume_1a6d5ad227dd989c620ca1e5c0730a546b" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>__MR_VoxelsVolumeAccessor_MR_FunctionVolume_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1acb5ca7b3ee2515675d01ccc61fcf110f" prot="protected" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>__ref_storage_CacheEffective</name></member>
       <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1af1ef9ad7e84870c7c0feb3364144cb5d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>CacheEffective</name></member>
       <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1adc283d6689cc55feb1ce7c909dafe8ca" prot="package" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>Const_VoxelsVolumeAccessor_MRFunctionVolume</name></member>

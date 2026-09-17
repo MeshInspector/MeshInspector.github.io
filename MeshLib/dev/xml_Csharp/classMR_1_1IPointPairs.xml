@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="808" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="808" bodyend="808"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="856" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="856" bodyend="856"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1IPointPairs_1ae3547a93ae1fe7ab6d0246b0ea6fe7d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new <ref refid="classMR_1_1ICPPairData" kindref="compound">MR.ICPPairData</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="837" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="838" bodyend="845"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="883" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="884" bodyend="889"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,7 +56,49 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="827" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="827" bodyend="831"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="873" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="873" bodyend="877"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1IPointPairs_1a899f04bb015292e2d71a2a510650b42e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BitSet._Underlying *</type>
+        <definition>static unsafe MR.BitSet._Underlying * MR.IPointPairs.__MR_IPointPairs_GetMutable_active</definition>
+        <argsstring>(MR.IPointPairs._Underlying *_this)</argsstring>
+        <name>__MR_IPointPairs_GetMutable_active</name>
+        <qualifiedname>MR.IPointPairs.__MR_IPointPairs_GetMutable_active</qualifiedname>
+        <param>
+          <type>MR.IPointPairs._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="894" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IPointPairs_1ac14bd88694764d7da7930e89f870eaaa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ICPPairData._Underlying *</type>
+        <definition>static unsafe MR.ICPPairData._Underlying * MR.IPointPairs.__MR_IPointPairs_index_mut</definition>
+        <argsstring>(_Underlying *_this, nuint _1)</argsstring>
+        <name>__MR_IPointPairs_index_mut</name>
+        <qualifiedname>MR.IPointPairs.__MR_IPointPairs_index_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="897" column="55"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -108,8 +150,10 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="803" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="804" bodyend="846"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="851" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="852" bodyend="898"/>
     <listofallmembers>
+      <member refid="classMR_1_1IPointPairs_1a899f04bb015292e2d71a2a510650b42e" prot="private" virt="non-virtual"><scope>MR::IPointPairs</scope><name>__MR_IPointPairs_GetMutable_active</name></member>
+      <member refid="classMR_1_1IPointPairs_1ac14bd88694764d7da7930e89f870eaaa" prot="private" virt="non-virtual"><scope>MR::IPointPairs</scope><name>__MR_IPointPairs_index_mut</name></member>
       <member refid="classMR_1_1IPointPairs_1af8bf3c1f87d9be39210356c794329ad3" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>active</name></member>
       <member refid="classMR_1_1Const__IPointPairs_1a8a0bfd7cec0d45bd2e1a8a026374c163" prot="package" virt="non-virtual"><scope>MR::IPointPairs</scope><name>Const_IPointPairs</name></member>
       <member refid="classMR_1_1Const__IPointPairs_1a634c2748713fab53dad483fa67f45890" prot="protected" virt="virtual"><scope>MR::IPointPairs</scope><name>Dispose</name></member>

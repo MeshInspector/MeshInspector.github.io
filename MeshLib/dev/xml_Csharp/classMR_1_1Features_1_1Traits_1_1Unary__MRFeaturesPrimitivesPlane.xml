@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2214" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2214" bodyend="2214"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2369" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2369" bodyend="2369"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2219" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2219" bodyend="2224"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2374" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2374" bodyend="2377"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1aed1f20e1d6a7ef4b507241527ec32ba8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2229" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2229" bodyend="2235"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2382" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2382" bodyend="2386"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1acbb0ba113688ac7c31c988361639ddce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2240" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2240" bodyend="2240"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2391" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2391" bodyend="2391"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1a8c0beb208a1fd0065a1136b603e97ad9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane" kindref="compound">MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane</ref></type>
@@ -98,7 +98,63 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2245" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2245" bodyend="2252"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2396" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2396" bodyend="2401"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1a5e9658073112b76a01fbd014578f2c62" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane._Underlying *</type>
+        <definition>static unsafe MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane._Underlying * MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane.__MR_Features_Traits_Unary_MR_Features_Primitives_Plane_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane._Underlying *_other)</argsstring>
+        <name>__MR_Features_Traits_Unary_MR_Features_Primitives_Plane_AssignFromAnother</name>
+        <qualifiedname>MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane.__MR_Features_Traits_Unary_MR_Features_Primitives_Plane_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2406" column="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1abfbde7b5b1ecb4805f69e2e757d4a4e0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane._Underlying *</type>
+        <definition>static unsafe MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane._Underlying * MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane.__MR_Features_Traits_Unary_MR_Features_Primitives_Plane_ConstructFromAnother</definition>
+        <argsstring>(MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane._Underlying *_other)</argsstring>
+        <name>__MR_Features_Traits_Unary_MR_Features_Primitives_Plane_ConstructFromAnother</name>
+        <qualifiedname>MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane.__MR_Features_Traits_Unary_MR_Features_Primitives_Plane_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2409" column="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1ad9da70e35661792f42873ea5eabdca02" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane._Underlying *</type>
+        <definition>static unsafe MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane._Underlying * MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane.__MR_Features_Traits_Unary_MR_Features_Primitives_Plane_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_Features_Traits_Unary_MR_Features_Primitives_Plane_DefaultConstruct</name>
+        <qualifiedname>MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane.__MR_Features_Traits_Unary_MR_Features_Primitives_Plane_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2412" column="97"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -150,8 +206,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2212" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2213" bodyend="2253"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2367" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2368" bodyend="2413"/>
     <listofallmembers>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1a5e9658073112b76a01fbd014578f2c62" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>__MR_Features_Traits_Unary_MR_Features_Primitives_Plane_AssignFromAnother</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1abfbde7b5b1ecb4805f69e2e757d4a4e0" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>__MR_Features_Traits_Unary_MR_Features_Primitives_Plane_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1ad9da70e35661792f42873ea5eabdca02" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>__MR_Features_Traits_Unary_MR_Features_Primitives_Plane_DefaultConstruct</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1a8c0beb208a1fd0065a1136b603e97ad9" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>assign</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane_1a62822b260c0e73364b3b86c19f6e05e9" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>Const_Unary_MRFeaturesPrimitivesPlane</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane_1a05fd15cdfb52365995c7e2c126cae81e" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>Const_Unary_MRFeaturesPrimitivesPlane</name></member>

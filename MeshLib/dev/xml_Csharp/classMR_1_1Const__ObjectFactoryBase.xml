@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="13" bodyend="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="13" bodyend="19"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="22" bodyend="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="20" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="20" bodyend="20"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="23" bodyend="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="21" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="21" bodyend="21"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -78,7 +78,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="25" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="25" bodyend="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="23" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectFactoryBase_1ad4a16aa2b9ecc828e09c44a3e43e3f95" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_ObjectFactoryBase.__MR_ObjectFactoryBase_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_ObjectFactoryBase_Destroy</name>
+        <qualifiedname>MR.Const_ObjectFactoryBase.__MR_ObjectFactoryBase_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="28" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -124,8 +144,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="8" bodyend="26"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="8" bodyend="29"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectFactoryBase_1ad4a16aa2b9ecc828e09c44a3e43e3f95" prot="private" virt="non-virtual"><scope>MR::Const_ObjectFactoryBase</scope><name>__MR_ObjectFactoryBase_Destroy</name></member>
       <member refid="classMR_1_1Const__ObjectFactoryBase_1a5a919a79c96d30e05f6d1a8d8c6e0d26" prot="package" virt="non-virtual"><scope>MR::Const_ObjectFactoryBase</scope><name>Const_ObjectFactoryBase</name></member>
       <member refid="classMR_1_1Const__ObjectFactoryBase_1a01596031a5a07c8745d4bd541f6816b7" prot="protected" virt="virtual"><scope>MR::Const_ObjectFactoryBase</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ObjectFactoryBase_1a20e69363dd45828b5890a6cf84398550" prot="public" virt="virtual"><scope>MR::Const_ObjectFactoryBase</scope><name>Dispose</name></member>

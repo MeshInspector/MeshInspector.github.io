@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5002" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5002" bodyend="5002"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5283" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5283" bodyend="5283"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__EdgeMap_1aa3dbba8d9d91db457b66d76f9363aac9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5154" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5155" bodyend="5162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5415" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5416" bodyend="5421"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4923" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4923" bodyend="4931"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5206" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5206" bodyend="5212"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4932" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4932" bodyend="4932"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5213" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5213" bodyend="5213"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a302934458849aaf60e584462ea201195" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> &gt; &gt;</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4989" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4989" bodyend="4992"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5270" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5270" bodyend="5273"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a675b24377cf5f93797193390052423f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5030" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5030" bodyend="5036"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5309" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5309" bodyend="5313"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1aaf19c14e5b626bee50b5458a08383327" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5041" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5041" bodyend="5048"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5318" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5318" bodyend="5323"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a3acd27ba35c1a652aff1e4194f27049b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5053" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5053" bodyend="5053"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5328" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5328" bodyend="5328"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a164fe5ae02065bfa72dac83e3d9e6741" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5058" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5058" bodyend="5058"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5333" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5333" bodyend="5333"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a2da7f40e3ba792f5853ec1130046db56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5064" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5064" bodyend="5070"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5339" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5339" bodyend="5343"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1af9f7a3c920062ef77abf213f3ff27ace" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5076" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5076" bodyend="5085"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5349" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5349" bodyend="5356"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a5bb1d87dc45ce96d3d08c7d77b3ab7e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -220,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5091" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5091" bodyend="5098"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5362" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5362" bodyend="5367"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a0aee0a2134bf1cc9f814ad82161626d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -235,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5124" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5124" bodyend="5129"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5391" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5391" bodyend="5394"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a62078cf402b2189927e6755bd1f391e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -250,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5134" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5134" bodyend="5139"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5399" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5399" bodyend="5402"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a15bc2414fd3280e5d8306f3360d18969" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5144" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5144" bodyend="5149"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5407" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5407" bodyend="5410"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1ae07fbb5f3c95e27ff0d7bf2c08698105" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -280,7 +280,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5167" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5167" bodyend="5172"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5426" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5426" bodyend="5429"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1acf14a57ced463f056d6a74badeb4181b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5177" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5177" bodyend="5182"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5434" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5434" bodyend="5437"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a60f285fd0dfe2c158c66d894a83646d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5188" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5188" bodyend="5193"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5443" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5443" bodyend="5446"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1af015fc1c18ee62bba03a1f9164a2f127" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -325,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5199" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5199" bodyend="5204"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5452" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5452" bodyend="5455"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a1a231a22ed33e2df6493597e623b006c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -340,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5210" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5210" bodyend="5215"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5461" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5461" bodyend="5464"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1ae8d7605009408a0a3542454cd0411140" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.? <ref refid="structMR_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -355,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5220" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5220" bodyend="5226"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5469" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5469" bodyend="5473"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a5b97f2097965979d1e979e6c6f0d0e6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -370,7 +370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5232" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5232" bodyend="5237"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5479" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5479" bodyend="5482"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a77bfe3dcf0f6c846f1eef7e9c7d0e66a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -388,7 +388,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5241" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5241" bodyend="5246"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5486" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5486" bodyend="5491"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a72239dd2109c80a6aef1bc99a3d8942a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -406,7 +406,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5248" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5248" bodyend="5255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5493" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5493" bodyend="5500"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -422,7 +422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4933" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4933" bodyend="4933"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5214" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5214" bodyend="5214"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a5900894e8f13bf1a78984b6cf2326c61" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
@@ -436,7 +436,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4994" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4994" bodyend="4997"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5275" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5275" bodyend="5278"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -460,7 +460,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5019" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5019" bodyend="5024"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5298" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5298" bodyend="5303"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -481,7 +481,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5104" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5104" bodyend="5104"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5373" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5373" bodyend="5373"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a7b7e1b7efd5c7f50e3eae7884bc12245" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -504,7 +504,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5109" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5109" bodyend="5114"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5378" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5378" bodyend="5381"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1af7f4e1732778a4a5f892ef0a40663602" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -526,7 +526,363 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5116" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5116" bodyend="5119"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5383" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5383" bodyend="5386"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a7f31c22b9255846fbfc2035597c7173c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgeMap._Underlying *</type>
+        <definition>static unsafe MR.EdgeMap._Underlying * MR.Const_EdgeMap.__MR_EdgeMap_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.EdgeMap._Underlying *_other)</argsstring>
+        <name>__MR_EdgeMap_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.EdgeMap._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5505" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a83976f28af30ceeaedc77cf1d40eed3a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgeMap._Underlying *</type>
+        <definition>static unsafe MR.EdgeMap._Underlying * MR.Const_EdgeMap.__MR_EdgeMap_Construct_1_size_t</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_EdgeMap_Construct_1_size_t</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_Construct_1_size_t</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5508" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a17a769f56eff1d1184ec56bcb588b9f0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgeMap._Underlying *</type>
+        <definition>static unsafe MR.EdgeMap._Underlying * MR.Const_EdgeMap.__MR_EdgeMap_Construct_1_std_vector_MR_EdgeId</definition>
+        <argsstring>(MR.Std.Vector_MREdgeId._Underlying *vec)</argsstring>
+        <name>__MR_EdgeMap_Construct_1_std_vector_MR_EdgeId</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_Construct_1_std_vector_MR_EdgeId</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_MREdgeId._Underlying *</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5511" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1ad0eedd6482a3a482e4db37bb72eabda4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgeMap._Underlying *</type>
+        <definition>static unsafe MR.EdgeMap._Underlying * MR.Const_EdgeMap.__MR_EdgeMap_Construct_2</definition>
+        <argsstring>(nuint size, MR.EdgeId *val)</argsstring>
+        <name>__MR_EdgeMap_Construct_2</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_Construct_2</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5514" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1ac54becb5caa0284cbc8f5a3f6d98eab8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgeMap._Underlying *</type>
+        <definition>static unsafe MR.EdgeMap._Underlying * MR.Const_EdgeMap.__MR_EdgeMap_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_EdgeMap_DefaultConstruct</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5517" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1ae1edd67b1b546a5ab805d9766880dcbc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_EdgeMap.__MR_EdgeMap_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeMap_Destroy</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5520" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1abe700adfed8b61d553694694af8db6ad" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_MREdgeId._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Vector_MREdgeId._Underlying * MR.Const_EdgeMap.__MR_EdgeMap_Get_vec_</definition>
+        <argsstring>(MR.Const_EdgeMap._Underlying *_this)</argsstring>
+        <name>__MR_EdgeMap_Get_vec_</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_Get_vec_</qualifiedname>
+        <param>
+          <type>MR.Const_EdgeMap._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5523" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1aeb822b8a7f2eaf0092d253315ac2059b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
+        <definition>static unsafe MR.EdgeId * MR.Const_EdgeMap.__MR_EdgeMap_back</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeMap_back</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_back</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5526" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1af11483a5c57a0a89b0f51aeb9ecedd64" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>static unsafe MR.EdgeId MR.Const_EdgeMap.__MR_EdgeMap_backId</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeMap_backId</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_backId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5529" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1ae0780cd22ae568985778636439e03dd3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>static unsafe MR.EdgeId MR.Const_EdgeMap.__MR_EdgeMap_beginId</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeMap_beginId</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_beginId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5532" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a812c5217ac85c753757d1ae87d9ca5f1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Const_EdgeMap.__MR_EdgeMap_capacity</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeMap_capacity</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_capacity</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5535" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1ad0a868375d11de8f7809093eb48c0da8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
+        <definition>static unsafe MR.EdgeId * MR.Const_EdgeMap.__MR_EdgeMap_data</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeMap_data</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_data</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5538" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a4a41407c23bd9e072e2109bf0e32d8f0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.Const_EdgeMap.__MR_EdgeMap_empty</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeMap_empty</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_empty</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5541" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a5e9f45b47ffeef51b9a7b5a82f8c33c8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>static unsafe MR.EdgeId MR.Const_EdgeMap.__MR_EdgeMap_endId</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeMap_endId</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_endId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5544" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1ad6866c2e3c5d4a6d8d82fa7bcb5d9371" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
+        <definition>static unsafe MR.EdgeId * MR.Const_EdgeMap.__MR_EdgeMap_front</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeMap_front</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_front</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5547" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a939b9135f26db9322b9547c0c9b8fb33" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Const_EdgeMap.__MR_EdgeMap_heapBytes</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeMap_heapBytes</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_heapBytes</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5550" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a0ca62ceadcf30e5d462c70e3e01ceba6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
+        <definition>static unsafe MR.EdgeId * MR.Const_EdgeMap.__MR_EdgeMap_index</definition>
+        <argsstring>(_Underlying *_this, MR.EdgeId i)</argsstring>
+        <name>__MR_EdgeMap_index</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_index</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5553" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a36ece6f3fa6a5f5c49e2ef5f9bb69c7b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Const_EdgeMap.__MR_EdgeMap_size</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeMap_size</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_EdgeMap_size</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5556" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a89267e25b9c0b5617f7743abe7a2194d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.Const_EdgeMap.__MR_equal_MR_EdgeMap</definition>
+        <argsstring>(MR.Const_EdgeMap._Underlying *_this, MR.Const_EdgeMap._Underlying *b)</argsstring>
+        <name>__MR_equal_MR_EdgeMap</name>
+        <qualifiedname>MR.Const_EdgeMap.__MR_equal_MR_EdgeMap</qualifiedname>
+        <param>
+          <type>MR.Const_EdgeMap._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Const_EdgeMap._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5559" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -610,8 +966,27 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4917" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4918" bodyend="5256"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5200" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5201" bodyend="5560"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__EdgeMap_1aeb822b8a7f2eaf0092d253315ac2059b" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_back</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1af11483a5c57a0a89b0f51aeb9ecedd64" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_backId</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1ae0780cd22ae568985778636439e03dd3" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_beginId</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a812c5217ac85c753757d1ae87d9ca5f1" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_capacity</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a83976f28af30ceeaedc77cf1d40eed3a" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_Construct_1_size_t</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a17a769f56eff1d1184ec56bcb588b9f0" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_Construct_1_std_vector_MR_EdgeId</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1ad0eedd6482a3a482e4db37bb72eabda4" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_Construct_2</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a7f31c22b9255846fbfc2035597c7173c" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1ad0a868375d11de8f7809093eb48c0da8" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_data</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1ac54becb5caa0284cbc8f5a3f6d98eab8" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1ae1edd67b1b546a5ab805d9766880dcbc" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_Destroy</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a4a41407c23bd9e072e2109bf0e32d8f0" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_empty</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a5e9f45b47ffeef51b9a7b5a82f8c33c8" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_endId</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1ad6866c2e3c5d4a6d8d82fa7bcb5d9371" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_front</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1abe700adfed8b61d553694694af8db6ad" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a939b9135f26db9322b9547c0c9b8fb33" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_heapBytes</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a0ca62ceadcf30e5d462c70e3e01ceba6" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_index</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a36ece6f3fa6a5f5c49e2ef5f9bb69c7b" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_EdgeMap_size</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a89267e25b9c0b5617f7743abe7a2194d" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>__MR_equal_MR_EdgeMap</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1acf14a57ced463f056d6a74badeb4181b" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>back</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1af015fc1c18ee62bba03a1f9164a2f127" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>backId</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a60f285fd0dfe2c158c66d894a83646d1" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>beginId</name></member>

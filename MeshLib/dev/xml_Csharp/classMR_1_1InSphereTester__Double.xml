@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="322" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="322" bodyend="322"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="341" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="341" bodyend="341"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="327" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="327" bodyend="332"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="346" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="346" bodyend="349"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InSphereTester__Double_1a15fc0beabc71d2aba2fbd3fdd47b1285" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="337" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="337" bodyend="343"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="354" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="354" bodyend="358"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InSphereTester__Double_1a763f8aa6c2114eacead791c001be6ea2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="348" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="348" bodyend="348"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="363" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="363" bodyend="363"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InSphereTester__Double_1ab8b76655eed550a578db1ac44e8d16e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1InSphereTester__Double" kindref="compound">MR.InSphereTester_Double</ref></type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="353" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="353" bodyend="360"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="368" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="368" bodyend="373"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InSphereTester__Double_1af5a0973bb91faa511e7569fb47895de0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="370" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="370" bodyend="384"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="383" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="383" bodyend="395"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InSphereTester__Double_1ada50e5a44473a7c8c7d19065e828338f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -144,7 +144,115 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="393" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="393" bodyend="398"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="404" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="404" bodyend="407"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1InSphereTester__Double_1ae483de0bf8c8a87633513d69c01bda44" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.InSphereTester_Double._Underlying *</type>
+        <definition>static unsafe MR.InSphereTester_Double._Underlying * MR.InSphereTester_Double.__MR_InSphereTester_double_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.InSphereTester_Double._Underlying *_other)</argsstring>
+        <name>__MR_InSphereTester_double_AssignFromAnother</name>
+        <qualifiedname>MR.InSphereTester_Double.__MR_InSphereTester_double_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.InSphereTester_Double._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="412" column="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereTester__Double_1aba4d742a05dea6d42ba4cd38de4f1823" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.InSphereTester_Double._Underlying *</type>
+        <definition>static unsafe MR.InSphereTester_Double._Underlying * MR.InSphereTester_Double.__MR_InSphereTester_double_ConstructFromAnother</definition>
+        <argsstring>(MR.InSphereTester_Double._Underlying *_other)</argsstring>
+        <name>__MR_InSphereTester_double_ConstructFromAnother</name>
+        <qualifiedname>MR.InSphereTester_Double.__MR_InSphereTester_double_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.InSphereTester_Double._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="415" column="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereTester__Double_1a6e8bb7c6e7143f2f1633e05f6d840882" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.InSphereTester_Double._Underlying *</type>
+        <definition>static unsafe MR.InSphereTester_Double._Underlying * MR.InSphereTester_Double.__MR_InSphereTester_double_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_InSphereTester_double_DefaultConstruct</name>
+        <qualifiedname>MR.InSphereTester_Double.__MR_InSphereTester_double_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="418" column="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereTester__Double_1a2ed04e00d6ef1c1e1cbeb0f914519a53" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.InSphereTester_Double.__MR_InSphereTester_double_flip</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_InSphereTester_double_flip</name>
+        <qualifiedname>MR.InSphereTester_Double.__MR_InSphereTester_double_flip</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="421" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereTester__Double_1a2ea62c966b4217f91799f7c7aba969f0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.InSphereTester_Double.__MR_InSphereTester_double_reset</definition>
+        <argsstring>(_Underlying *_this, MR.Vector3d *va, MR.Vector3d *vb, MR.Vector3d *vc, double sqRadius)</argsstring>
+        <name>__MR_InSphereTester_double_reset</name>
+        <qualifiedname>MR.InSphereTester_Double.__MR_InSphereTester_double_reset</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref> *</type>
+          <declname>va</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref> *</type>
+          <declname>vb</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref> *</type>
+          <declname>vc</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sqRadius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="424" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -196,8 +304,13 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="320" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="321" bodyend="399"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="339" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="340" bodyend="425"/>
     <listofallmembers>
+      <member refid="classMR_1_1InSphereTester__Double_1ae483de0bf8c8a87633513d69c01bda44" prot="private" virt="non-virtual"><scope>MR::InSphereTester_Double</scope><name>__MR_InSphereTester_double_AssignFromAnother</name></member>
+      <member refid="classMR_1_1InSphereTester__Double_1aba4d742a05dea6d42ba4cd38de4f1823" prot="private" virt="non-virtual"><scope>MR::InSphereTester_Double</scope><name>__MR_InSphereTester_double_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1InSphereTester__Double_1a6e8bb7c6e7143f2f1633e05f6d840882" prot="private" virt="non-virtual"><scope>MR::InSphereTester_Double</scope><name>__MR_InSphereTester_double_DefaultConstruct</name></member>
+      <member refid="classMR_1_1InSphereTester__Double_1a2ed04e00d6ef1c1e1cbeb0f914519a53" prot="private" virt="non-virtual"><scope>MR::InSphereTester_Double</scope><name>__MR_InSphereTester_double_flip</name></member>
+      <member refid="classMR_1_1InSphereTester__Double_1a2ea62c966b4217f91799f7c7aba969f0" prot="private" virt="non-virtual"><scope>MR::InSphereTester_Double</scope><name>__MR_InSphereTester_double_reset</name></member>
       <member refid="classMR_1_1InSphereTester__Double_1ab8b76655eed550a578db1ac44e8d16e3" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Double</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__InSphereTester__Double_1a0e08c29c1aed9405f2ae8f93290c0fba" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Double</scope><name>call</name></member>
       <member refid="classMR_1_1Const__InSphereTester__Double_1ae670f9cb10eeab167c6247771a50c866" prot="package" virt="non-virtual"><scope>MR::InSphereTester_Double</scope><name>Const_InSphereTester_Double</name></member>

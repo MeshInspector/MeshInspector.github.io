@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="87" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="87" bodyend="87"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="93" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="93" bodyend="93"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="92" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="92" bodyend="97"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="98" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="98" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1acb996392d844d0046e526caceef509ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="102" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="102" bodyend="108"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="106" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="106" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1a26ef775df386ae4b014f97fb8f84705d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="113" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="113" bodyend="113"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="115" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="115" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1a72f4c001738f56ab3aafba4c9fa71b93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint" kindref="compound">MR.ObjKindTraits_MRFeaturesObjectKindPoint</ref></type>
@@ -98,7 +98,63 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="118" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="118" bodyend="125"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="120" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="120" bodyend="125"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1a7f17f7b6c04db091bc506afaab08c7ec" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ObjKindTraits_MRFeaturesObjectKindPoint._Underlying *</type>
+        <definition>static unsafe MR.ObjKindTraits_MRFeaturesObjectKindPoint._Underlying * MR.ObjKindTraits_MRFeaturesObjectKindPoint.__MR_ObjKindTraits_MR_FeaturesObjectKind_Point_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.ObjKindTraits_MRFeaturesObjectKindPoint._Underlying *_other)</argsstring>
+        <name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Point_AssignFromAnother</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindPoint.__MR_ObjKindTraits_MR_FeaturesObjectKind_Point_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.ObjKindTraits_MRFeaturesObjectKindPoint._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="130" column="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1ae5cf77a58f7111a4ba74bc54d461c57a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ObjKindTraits_MRFeaturesObjectKindPoint._Underlying *</type>
+        <definition>static unsafe MR.ObjKindTraits_MRFeaturesObjectKindPoint._Underlying * MR.ObjKindTraits_MRFeaturesObjectKindPoint.__MR_ObjKindTraits_MR_FeaturesObjectKind_Point_ConstructFromAnother</definition>
+        <argsstring>(MR.ObjKindTraits_MRFeaturesObjectKindPoint._Underlying *_other)</argsstring>
+        <name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Point_ConstructFromAnother</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindPoint.__MR_ObjKindTraits_MR_FeaturesObjectKind_Point_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.ObjKindTraits_MRFeaturesObjectKindPoint._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="133" column="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1a9d7d854882f66712068f4f28e9d1ee09" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ObjKindTraits_MRFeaturesObjectKindPoint._Underlying *</type>
+        <definition>static unsafe MR.ObjKindTraits_MRFeaturesObjectKindPoint._Underlying * MR.ObjKindTraits_MRFeaturesObjectKindPoint.__MR_ObjKindTraits_MR_FeaturesObjectKind_Point_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Point_DefaultConstruct</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindPoint.__MR_ObjKindTraits_MR_FeaturesObjectKind_Point_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="136" column="83"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -150,8 +206,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="85" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="86" bodyend="126"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="91" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="92" bodyend="137"/>
     <listofallmembers>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1a7f17f7b6c04db091bc506afaab08c7ec" prot="private" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Point_AssignFromAnother</name></member>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1ae5cf77a58f7111a4ba74bc54d461c57a" prot="private" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Point_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1a9d7d854882f66712068f4f28e9d1ee09" prot="private" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Point_DefaultConstruct</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1a72f4c001738f56ab3aafba4c9fa71b93" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint_1aa4a36f7f0a6981eb356db8d948363e19" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindPoint</name></member>
       <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint_1a6244245eee269d8b3efd5e7795eab1ed" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindPoint</name></member>
