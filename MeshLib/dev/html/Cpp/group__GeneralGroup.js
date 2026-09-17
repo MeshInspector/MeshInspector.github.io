@@ -17634,6 +17634,7 @@ var group__GeneralGroup =
     [ "MR::FeatureObject::lineWidth_", "group__GeneralGroup.html#ga3b5a4031f824e124b74a89fe8c2e1a67", null ],
     [ "MR::ObjectLinesHolder::lineWidth_", "group__GeneralGroup.html#gab981ac159b7e944aef46d972503003e7", null ],
     [ "MR::ShortcutManager::listCache_", "group__GeneralGroup.html#gadf3fea364a499a2b41b73fb7fa94b301", null ],
+    [ "MR::RibbonIcons::IconTypeData::loaded", "group__GeneralGroup.html#gadd5db6ebcba46e60e03d40bd3b1ad0d7", null ],
     [ "MR::FileLoadOptions::loadedCallback", "group__GeneralGroup.html#ga4f4d8061842e6e46c5aab4e281bf1ad4", null ],
     [ "MR::MeshPointAndDistance::loc", "group__GeneralGroup.html#ga9b47aa3f3db622af71c97138bff74b58", null ],
     [ "MR::ImGuiMenu::Local", "group__GeneralGroup.html#ga96f0bc9450fbe39ac5e90abcbc52c36a", null ],

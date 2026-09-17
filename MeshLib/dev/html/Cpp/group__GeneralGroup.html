@@ -9721,7 +9721,6 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga1628beeda69a17247ed269bffc6995b1" id="r_ga1628beeda69a17247ed269bffc6995b1"><td class="memItemLeft" align="right" valign="top">ImFont *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1628beeda69a17247ed269bffc6995b1">MR::loadCustomFont</a> (const std::filesystem::path &amp;fontPath, float fontSize, const <a class="el" href="structMR_1_1FontLoadSettings.html">FontLoadSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:ga1628beeda69a17247ed269bffc6995b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a custom font into <a class="el" href="namespaceImGui.html">ImGui</a>.  <br /></td></tr>
 <tr class="memitem:ga51b8d6a536627bc2449b71fd53d55165" id="r_ga51b8d6a536627bc2449b71fd53d55165"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga51b8d6a536627bc2449b71fd53d55165">MR::RibbonIcons::load</a> ()</td></tr>
-<tr class="memdesc:ga51b8d6a536627bc2449b71fd53d55165"><td class="mdescLeft">&#160;</td><td class="mdescRight">this should be called once on start of program (called in <a class="el" href="#ga1ead9bda756b557c004a8b3048fc882c" title="This function is called when the viewer is initialized (no mesh will be loaded at this stage)">RibbonMenu::init</a>)  <br /></td></tr>
 <tr class="memitem:ga7200bd05b72f77ec5cb880c7a0f95ccb" id="r_ga7200bd05b72f77ec5cb880c7a0f95ccb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7200bd05b72f77ec5cb880c7a0f95ccb">MR::RibbonIcons::free</a> ()</td></tr>
 <tr class="memdesc:ga7200bd05b72f77ec5cb880c7a0f95ccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">this should be called once before program stops (called in <a class="el" href="#gaa2b191015aac7b3611b346cdf5ab0af4" title="This function is called before shutdown.">RibbonMenu::shutdown</a>)  <br /></td></tr>
 <tr class="memitem:ga4b5c283c5be7cbd06e3dace86569fbe5" id="r_ga4b5c283c5be7cbd06e3dace86569fbe5"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b5c283c5be7cbd06e3dace86569fbe5">MR::RibbonIcons::findByName</a> (const std::string &amp;name, float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, <a class="el" href="#gacd06ecfde8f0637bb01c0d36d8605bef">ColorType</a> colorType, <a class="el" href="#ga2d10e82f8fd5c6cc53279374e9bd3931">IconType</a> iconType)</td></tr>
@@ -14131,6 +14130,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga4731ad96d4ed20fddf9a1f57bdf7a532"><td class="mdescLeft">&#160;</td><td class="mdescRight">first - min size, second - max size  <br /></td></tr>
 <tr class="memitem:ga0773e7767a6caea3e52277c10bab8610" id="r_ga0773e7767a6caea3e52277c10bab8610"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga89fce585b7e09d0b6603c162d80d5991">AvailableColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0773e7767a6caea3e52277c10bab8610">MR::RibbonIcons::IconTypeData::availableColor</a> = <a class="el" href="#gga89fce585b7e09d0b6603c162d80d5991a25a81701fbfa4a1efdf660a950c1d006">AvailableColor::White</a></td></tr>
 <tr class="memitem:ga05fb9b2891ce6c47d3792e32d2f762ea" id="r_ga05fb9b2891ce6c47d3792e32d2f762ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; std::string, SizedIcons &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga05fb9b2891ce6c47d3792e32d2f762ea">MR::RibbonIcons::IconTypeData::map</a></td></tr>
+<tr class="memitem:gadd5db6ebcba46e60e03d40bd3b1ad0d7" id="r_gadd5db6ebcba46e60e03d40bd3b1ad0d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadd5db6ebcba46e60e03d40bd3b1ad0d7">MR::RibbonIcons::IconTypeData::loaded</a> = false</td></tr>
 <tr class="memitem:ga5002834cd308d2eeda7cc7f532840f8a" id="r_ga5002834cd308d2eeda7cc7f532840f8a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1RibbonMenuUIConfig.html">RibbonMenuUIConfig</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5002834cd308d2eeda7cc7f532840f8a">MR::RibbonConfig::menuUIConfig</a></td></tr>
 <tr class="memitem:ga678575ecbadf5b880fab6e6072873ee5" id="r_ga678575ecbadf5b880fab6e6072873ee5"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga678575ecbadf5b880fab6e6072873ee5">MR::RibbonConfig::monochromeRibbonIcons</a></td></tr>
 <tr class="memitem:ga64f5562c14952b7d260af9fa205a774e" id="r_ga64f5562c14952b7d260af9fa205a774e"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Json::Value &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga64f5562c14952b7d260af9fa205a774e">MR::RibbonConfig::colorTheme</a></td></tr>
@@ -25216,7 +25216,7 @@ template&lt;typename Tag&gt; </div>
 </td></tr>
 <tr><td class="fieldname"><a id="gga2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9" name="gga2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9"></a>Logos&#160;</td><td class="fielddoc"><p>have two sizes </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9" name="gga2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"><p>have two sizes </p>
+<tr><td class="fieldname"><a id="gga2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9" name="gga2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"><p>have two sizes, loaded lazily on first request </p>
 </td></tr>
 </table>
 
@@ -114363,8 +114363,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRRibbonIcons_8h.html">MRViewer/MRRibbonIcons.h</a>&gt;</code></p>
-
-<p>this should be called once on start of program (called in <a class="el" href="#ga1ead9bda756b557c004a8b3048fc882c" title="This function is called when the viewer is initialized (no mesh will be loaded at this stage)">RibbonMenu::init</a>) </p>
+<p>this should be called once on start of program (called in <a class="el" href="#ga1ead9bda756b557c004a8b3048fc882c" title="This function is called when the viewer is initialized (no mesh will be loaded at this stage)">RibbonMenu::init</a>); loads all icon types except Logos, which are loaded on first findByName request </p>
 
 </div>
 </div>
@@ -217822,6 +217821,20 @@ template&lt;typename ObjectT = Object&gt; </div>
 <span class="mlabels"><span class="mlabel mutable">mutable</span><span class="mlabel protected">protected</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gadd5db6ebcba46e60e03d40bd3b1ad0d7" name="gadd5db6ebcba46e60e03d40bd3b1ad0d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadd5db6ebcba46e60e03d40bd3b1ad0d7">&#9670;&#160;</a></span>loaded</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::RibbonIcons::IconTypeData::loaded = false</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

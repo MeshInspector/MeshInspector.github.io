@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1TypedFlatTree.html":[9,0,0,20,714],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html":[9,0,0,20,765],
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html":[9,0,0,20,766],
 "structMR_1_1UI_1_1CachedTextSize.html":[9,0,0,20,770],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[9,0,0,20,909],
 "structMR_1_1VoxelsLoad_1_1DicomStatus.html":[9,0,0,20,850],
 "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[9,0,0,20,851],
-"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[9,0,0,2,16,1],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html":[9,0,0,2,16,0]
+"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[9,0,0,2,16,1]
 };

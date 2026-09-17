@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"namespaceMR_1_1BitSetParallel.html#a8f2ddae24bfbab61698167d301e96307":[9,0,1,0,1,1,3],
 "namespaceMR_1_1BitSetParallel.html#aaed29890343a67cc172f1987cd57dc10":[9,0,1,0,1,1,7],
 "namespaceMR_1_1BitSetParallel.html#ab05fc848939177c9fd25511b45bf05c3":[9,0,1,0,1,1,6],
 "namespaceMR_1_1BitSetParallel.html#ac886c0876beae880356ab560e584b63e":[9,0,1,0,1,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1SceneLoad.html#ace59001f56846dcae763df3dd8b2df6c":[9,0,1,0,1,43,5],
 "namespaceMR_1_1SceneLoad.html#ad9301168bfb0258833ac6729cfb138a9":[9,0,1,0,1,43,2],
 "namespaceMR_1_1SceneSave.html":[9,0,0,20,21],
-"namespaceMR_1_1SceneSave.html#a2c6d3ab6c6b433b7958ebb92cb464f02":[9,0,1,0,1,44,1],
-"namespaceMR_1_1SelfIntersections.html":[9,0,0,20,12]
+"namespaceMR_1_1SceneSave.html#a2c6d3ab6c6b433b7958ebb92cb464f02":[9,0,1,0,1,44,1]
 };

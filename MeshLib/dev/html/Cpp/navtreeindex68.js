@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1RibbonTab.html":[9,0,0,20,701],
 "structMR_1_1RigidScaleXf3.html":[9,0,0,20,486],
 "structMR_1_1RigidXf3.html":[9,0,0,20,487],
 "structMR_1_1SaveObjectSettings.html":[9,0,0,20,709],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1TrimOptionalOutput.html":[9,0,0,20,377],
 "structMR_1_1TrimWithPlaneParams.html":[9,0,0,20,376],
 "structMR_1_1TrivialMetricToPenalty.html":[9,0,0,20,208],
-"structMR_1_1TwoLineSegmClosestPoints.html":[9,0,0,20,523],
-"structMR_1_1TypedFlatTree.html":[9,0,0,20,714]
+"structMR_1_1TwoLineSegmClosestPoints.html":[9,0,0,20,523]
 };

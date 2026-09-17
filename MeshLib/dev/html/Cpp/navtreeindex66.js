@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1Mesh.html#ad741164ba566adeb2830a4de3861bfd0":[9,0,0,7,1,34],
 "structMR_1_1Mesh.html#adbf2e3f4d7d5486dcfac998c96935dd3":[9,0,0,7,1,106],
 "structMR_1_1Mesh.html#adcd0cf49be0be1375ae462651d5234d3":[9,0,0,7,1,61],
 "structMR_1_1Mesh.html#adf6b179f19958a616e38f83bdc825800":[9,0,0,7,1,50],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1Parallel_1_1CallWithTLS.html":[9,0,0,20,432],
 "structMR_1_1Parallel_1_1CallWithTLSMaker.html":[9,0,0,20,433],
 "structMR_1_1PartMapping.html":[9,0,0,20,437],
-"structMR_1_1PdfParameters.html":[9,0,0,20,93],
-"structMR_1_1Pdf_1_1Cell.html":[9,0,0,20,98]
+"structMR_1_1PdfParameters.html":[9,0,0,20,93]
 };

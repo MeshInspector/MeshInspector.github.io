@@ -12130,7 +12130,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <enumvalue id="group__GeneralGroup_1gga2d10e82f8fd5c6cc53279374e9bd3931ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
           <name>Count</name>
           <briefdescription>
-<para>have two sizes </para>
+<para>have two sizes, loaded lazily on first request </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -12188,7 +12188,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="50" column="5" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="51" bodyend="57"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="51" column="5" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="52" bodyend="58"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga89fce585b7e09d0b6603c162d80d5991" prot="public" static="no" strong="yes">
         <type></type>
@@ -12216,7 +12216,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="69" column="9" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="70" bodyend="73"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="70" column="9" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="71" bodyend="74"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1gaf8f659a638712863260fa7636adb4588" prot="private" static="no" strong="yes">
         <type></type>
@@ -19304,7 +19304,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="59" column="5" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="59" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="60" column="5" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga53a2c754f44ded0522f1050af556662c" prot="public" static="no">
         <type>std::function&lt; void(std::shared_ptr&lt; Object &gt; object, ViewportId id, bool checked)&gt;</type>
@@ -57774,7 +57774,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="46" column="25" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="46" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="47" column="25" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5393f41d456609657a0ec506c3d1006b" prot="public" static="no" mutable="no">
         <type>std::unique_ptr&lt; ImGuiImage &gt;</type>
@@ -57788,7 +57788,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="47" column="25" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="47" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="48" column="25" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8e7be73585be2d1e172f4043af2dd7da" prot="public" static="no" mutable="no">
         <type>std::filesystem::path</type>
@@ -57802,7 +57802,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="76" column="31" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="76" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="77" column="31" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4731ad96d4ed20fddf9a1f57bdf7a532" prot="public" static="no" mutable="no">
         <type>std::pair&lt; Sizes, Sizes &gt;</type>
@@ -57817,7 +57817,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="78" column="19" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="78" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="79" column="19" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0773e7767a6caea3e52277c10bab8610" prot="public" static="no" mutable="no">
         <type>AvailableColor</type>
@@ -57832,7 +57832,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="79" column="24" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="79" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="80" column="24" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga05fb9b2891ce6c47d3792e32d2f762ea" prot="public" static="no" mutable="no">
         <type>HashMap&lt; std::string, SizedIcons &gt;</type>
@@ -57846,7 +57846,22 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="80" column="17" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="80" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="81" column="17" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gadd5db6ebcba46e60e03d40bd3b1ad0d7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonIcons::IconTypeData::loaded</definition>
+        <argsstring></argsstring>
+        <name>loaded</name>
+        <qualifiedname>MR::RibbonIcons::IconTypeData::loaded</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRRibbonIcons.h" line="82" column="14" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1bb1ab1a4406b3b5cba83fc05098e8f2" prot="private" static="no" mutable="no">
         <type>std::array&lt; IconTypeData, size_t(IconType::Count)&gt;</type>
@@ -57860,7 +57875,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="83" column="16" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="83" bodyend="-1"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="85" column="16" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5002834cd308d2eeda7cc7f532840f8a" prot="public" static="no" mutable="no">
         <type>std::optional&lt; RibbonMenuUIConfig &gt;</type>
@@ -173287,13 +173302,13 @@ returns true if load was succeed </para>
         <name>load</name>
         <qualifiedname>MR::RibbonIcons::load</qualifiedname>
         <briefdescription>
-<para>this should be called once on start of program (called in <ref refid="group__GeneralGroup_1ga1ead9bda756b557c004a8b3048fc882c" kindref="member">RibbonMenu::init</ref>) </para>
         </briefdescription>
         <detaileddescription>
+<para>this should be called once on start of program (called in <ref refid="group__GeneralGroup_1ga1ead9bda756b557c004a8b3048fc882c" kindref="member">RibbonMenu::init</ref>); loads all icon types except Logos, which are loaded on first findByName request </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="32" column="18"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="33" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7200bd05b72f77ec5cb880c7a0f95ccb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -173308,7 +173323,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="34" column="18"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="35" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4b5c283c5be7cbd06e3dace86569fbe5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const ImGuiImage *</type>
@@ -173339,7 +173354,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="36" column="30"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="37" column="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9c0e1ddeff54a33609d04589edfa9b39" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -173353,7 +173368,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="39" column="5"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="40" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga603de62481d9bad09f02eb788bfc0423" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -173367,7 +173382,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="40" column="5"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="41" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaaf1e56f223e24c5ff86b4a00f1214f46" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RibbonIcons &amp;</type>
@@ -173381,7 +173396,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="42" column="24"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="43" column="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac5ee09887871f765bcc05e147462a850" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const char *</type>
@@ -173399,7 +173414,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="61" column="23"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="62" column="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga035b16d20062233be750ef65c484d42b" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const ImGuiImage *</type>
@@ -173429,7 +173444,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="63" column="22"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="64" column="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga11a41e3bc4dd9a30eccd5e45cfbbad81" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -173447,7 +173462,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRibbonIcons.h" line="65" column="10"/>
+        <location file="MRViewer/MRRibbonIcons.h" line="66" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3930f402786f9fc077eb6b0c2e18076e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RibbonConfig</type>
