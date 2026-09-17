@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3359" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3359" bodyend="3359"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3583" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3583" bodyend="3583"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3364" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3364" bodyend="3369"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3588" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3588" bodyend="3591"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1ad4b04b43542d51a96927c9ae6683ae5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3374" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3374" bodyend="3380"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3596" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3596" bodyend="3600"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1a4bf87530b6a4833cd86986992f2616c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3385" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3385" bodyend="3385"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3605" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3605" bodyend="3605"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1ae1650012699cf2c1d40e8cbbca8465fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId" kindref="compound">MR.VoxelTraits_MRVectorFloatMRVoxelId</ref></type>
@@ -98,7 +98,63 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3390" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3390" bodyend="3397"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3610" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3610" bodyend="3615"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1a213866b6740a791e31da8f0c8b187e0a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelTraits_MRVectorFloatMRVoxelId._Underlying *</type>
+        <definition>static unsafe MR.VoxelTraits_MRVectorFloatMRVoxelId._Underlying * MR.VoxelTraits_MRVectorFloatMRVoxelId.__MR_VoxelTraits_MR_Vector_float_MR_VoxelId_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.VoxelTraits_MRVectorFloatMRVoxelId._Underlying *_other)</argsstring>
+        <name>__MR_VoxelTraits_MR_Vector_float_MR_VoxelId_AssignFromAnother</name>
+        <qualifiedname>MR.VoxelTraits_MRVectorFloatMRVoxelId.__MR_VoxelTraits_MR_Vector_float_MR_VoxelId_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.VoxelTraits_MRVectorFloatMRVoxelId._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3620" column="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1a84104ba45dc9167835d7a7828ffd859c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelTraits_MRVectorFloatMRVoxelId._Underlying *</type>
+        <definition>static unsafe MR.VoxelTraits_MRVectorFloatMRVoxelId._Underlying * MR.VoxelTraits_MRVectorFloatMRVoxelId.__MR_VoxelTraits_MR_Vector_float_MR_VoxelId_ConstructFromAnother</definition>
+        <argsstring>(MR.VoxelTraits_MRVectorFloatMRVoxelId._Underlying *_other)</argsstring>
+        <name>__MR_VoxelTraits_MR_Vector_float_MR_VoxelId_ConstructFromAnother</name>
+        <qualifiedname>MR.VoxelTraits_MRVectorFloatMRVoxelId.__MR_VoxelTraits_MR_Vector_float_MR_VoxelId_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.VoxelTraits_MRVectorFloatMRVoxelId._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3623" column="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1afa37d225974b7d6ff7953c7c140ac405" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelTraits_MRVectorFloatMRVoxelId._Underlying *</type>
+        <definition>static unsafe MR.VoxelTraits_MRVectorFloatMRVoxelId._Underlying * MR.VoxelTraits_MRVectorFloatMRVoxelId.__MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DefaultConstruct</name>
+        <qualifiedname>MR.VoxelTraits_MRVectorFloatMRVoxelId.__MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3626" column="78"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -150,8 +206,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3357" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3358" bodyend="3398"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3581" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3582" bodyend="3627"/>
     <listofallmembers>
+      <member refid="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1a213866b6740a791e31da8f0c8b187e0a" prot="private" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>__MR_VoxelTraits_MR_Vector_float_MR_VoxelId_AssignFromAnother</name></member>
+      <member refid="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1a84104ba45dc9167835d7a7828ffd859c" prot="private" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>__MR_VoxelTraits_MR_Vector_float_MR_VoxelId_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1afa37d225974b7d6ff7953c7c140ac405" prot="private" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>__MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DefaultConstruct</name></member>
       <member refid="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1ae1650012699cf2c1d40e8cbbca8465fe" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId_1a0b50bdd71be4c2464eeb8e55686db6c2" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>Const_VoxelTraits_MRVectorFloatMRVoxelId</name></member>
       <member refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId_1a64c3832adff4c9a36cd8699ace7ae6a4" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>Const_VoxelTraits_MRVectorFloatMRVoxelId</name></member>

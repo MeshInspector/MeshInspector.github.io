@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="68" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="68" bodyend="68"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="73" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="73" bodyend="73"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="73" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="73" bodyend="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="78" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="78" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1a5ef24b53a636ca4e4fce471ad55b0a89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="84" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="84" bodyend="84"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="87" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="87" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1ac96d52eb6b0139978586d48a7238e81e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="89" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="89" bodyend="89"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="92" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="92" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1ab04c6ee712cf491eceb8a34b6f12eeac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ObjectTagEventDispatcher" kindref="compound">MR.ObjectTagEventDispatcher</ref></type>
@@ -102,7 +102,57 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="94" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="94" bodyend="101"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="97" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="97" bodyend="102"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1a72cb50a1c79f06a6f9383b6d698e3b3b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ObjectTagEventDispatcher._Underlying *</type>
+        <definition>static unsafe MR.ObjectTagEventDispatcher._Underlying * MR.ObjectTagEventDispatcher.__MR_ObjectTagEventDispatcher_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.ObjectTagEventDispatcher._Underlying *_other)</argsstring>
+        <name>__MR_ObjectTagEventDispatcher_AssignFromAnother</name>
+        <qualifiedname>MR.ObjectTagEventDispatcher.__MR_ObjectTagEventDispatcher_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.ObjectTagEventDispatcher._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="107" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1a749401e3a06c4ac03579f056208d0cdd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ObjectTagEventDispatcher._Underlying *</type>
+        <definition>static unsafe MR.ObjectTagEventDispatcher._Underlying * MR.ObjectTagEventDispatcher.__MR_ObjectTagEventDispatcher_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.ObjectTagEventDispatcher._Underlying *_other)</argsstring>
+        <name>__MR_ObjectTagEventDispatcher_ConstructFromAnother</name>
+        <qualifiedname>MR.ObjectTagEventDispatcher.__MR_ObjectTagEventDispatcher_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.ObjectTagEventDispatcher._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="110" column="68"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -154,8 +204,10 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="66" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="67" bodyend="102"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="71" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="72" bodyend="111"/>
     <listofallmembers>
+      <member refid="classMR_1_1ObjectTagEventDispatcher_1a72cb50a1c79f06a6f9383b6d698e3b3b" prot="private" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>__MR_ObjectTagEventDispatcher_AssignFromAnother</name></member>
+      <member refid="classMR_1_1ObjectTagEventDispatcher_1a749401e3a06c4ac03579f056208d0cdd" prot="private" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>__MR_ObjectTagEventDispatcher_ConstructFromAnother</name></member>
       <member refid="classMR_1_1ObjectTagEventDispatcher_1ab04c6ee712cf491eceb8a34b6f12eeac" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__ObjectTagEventDispatcher_1acb61f670c2e74dbd21b7030b64378f89" prot="package" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>Const_ObjectTagEventDispatcher</name></member>
       <member refid="classMR_1_1Const__ObjectTagEventDispatcher_1ab172c01a307788e26c6d70205bef3155" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>Const_ObjectTagEventDispatcher</name></member>

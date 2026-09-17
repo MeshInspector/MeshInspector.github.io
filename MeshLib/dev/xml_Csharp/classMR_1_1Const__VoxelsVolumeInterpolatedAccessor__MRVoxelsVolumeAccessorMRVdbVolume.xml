@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="21" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="21" bodyend="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="21" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="21" bodyend="27"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="30" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="30" bodyend="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="28" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="28" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1a1213a04c5bd8d4b72304bd8e6829bfc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="40" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="40" bodyend="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="38" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="38" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1abd28ddd15f928a9489210a6fd8e5aebc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="53" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="53" bodyend="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="49" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="49" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1a963794db2937255f8170b0f995d3feb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="66" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="66" bodyend="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="60" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="60" bodyend="66"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="31" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="31" bodyend="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="29" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="29" bodyend="29"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -143,7 +143,93 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="33" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="33" bodyend="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="31" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1aff66978bd6f04a07d18265b12b80b4a1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume._Underlying *</type>
+        <definition>static unsafe MR.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume._Underlying * MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume.__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_Construct_MR_VdbVolume</definition>
+        <argsstring>(MR.Const_VdbVolume._Underlying *volume, MR.Const_VoxelsVolumeAccessor_MRVdbVolume._Underlying *accessor)</argsstring>
+        <name>__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_Construct_MR_VdbVolume</name>
+        <qualifiedname>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume.__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_Construct_MR_VdbVolume</qualifiedname>
+        <param>
+          <type>MR.Const_VdbVolume._Underlying *</type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>MR.Const_VoxelsVolumeAccessor_MRVdbVolume._Underlying *</type>
+          <declname>accessor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="71" column="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1a7d61777a5fa7c8f35f4c120185ff37b2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume._Underlying *</type>
+        <definition>static unsafe MR.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume._Underlying * MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume.__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_Construct_MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume</definition>
+        <argsstring>(MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume._Underlying *other, MR.Const_VoxelsVolumeAccessor_MRVdbVolume._Underlying *accessor)</argsstring>
+        <name>__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_Construct_MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume</name>
+        <qualifiedname>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume.__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_Construct_MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume</qualifiedname>
+        <param>
+          <type>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume._Underlying *</type>
+          <declname>other</declname>
+        </param>
+        <param>
+          <type>MR.Const_VoxelsVolumeAccessor_MRVdbVolume._Underlying *</type>
+          <declname>accessor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="74" column="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1acfdc5c27018733428ac43c18a7741e58" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume.__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_Destroy</name>
+        <qualifiedname>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume.__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="77" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1a0fad1dba6a2529f62aa7d2469b36f586" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume.__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_get</definition>
+        <argsstring>(_Underlying *_this, MR.Vector3f *pos)</argsstring>
+        <name>__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_get</name>
+        <qualifiedname>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume.__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_get</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="80" column="36"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -189,8 +275,12 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="16" bodyend="75"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="16" bodyend="81"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1aff66978bd6f04a07d18265b12b80b4a1" prot="private" virt="non-virtual"><scope>MR::Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume</scope><name>__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_Construct_MR_VdbVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1a7d61777a5fa7c8f35f4c120185ff37b2" prot="private" virt="non-virtual"><scope>MR::Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume</scope><name>__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_Construct_MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1acfdc5c27018733428ac43c18a7741e58" prot="private" virt="non-virtual"><scope>MR::Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume</scope><name>__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_Destroy</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1a0fad1dba6a2529f62aa7d2469b36f586" prot="private" virt="non-virtual"><scope>MR::Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume</scope><name>__MR_VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_VdbVolume_get</name></member>
       <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1a64c9e94bac926d787fc0be27e3c36d2d" prot="package" virt="non-virtual"><scope>MR::Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume</scope><name>Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume</name></member>
       <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1a1213a04c5bd8d4b72304bd8e6829bfc7" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume</scope><name>Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume</name></member>
       <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRVdbVolume_1abd28ddd15f928a9489210a6fd8e5aebc" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume</scope><name>Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRVdbVolume</name></member>

@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="28" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="28" bodyend="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="26" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="26" bodyend="26"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__PointCloud_1a4fbdd74f6594f8668fbeefc9660fd190" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe <ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="33" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="33" bodyend="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="31" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="31" bodyend="31"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__PointCloud_1a722a6fc3ae248a3e5cb30ac6a614dabe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="38" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="38" bodyend="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="36" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="36" bodyend="36"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="13" bodyend="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="13" bodyend="19"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="22" bodyend="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="20" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="20" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a59abbd89562fad50d6114c2177e5e076" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="80" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="80" bodyend="86"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="72" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="72" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a156c2c92a9e0677f05fa88f4c5178095" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="91" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="91" bodyend="98"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="81" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="81" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a486381fc6a18c7f4e5112bc035a207b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="103" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="103" bodyend="103"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="91" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="91" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a8254276a27440fd47e66c157f1a4df62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="108" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="108" bodyend="108"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="96" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="96" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a3e7d4776e167d4bd61e8eddb01fb2e36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="114" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="114" bodyend="119"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="102" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="102" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a61e3e0ee1e0c101df2c16ac38109529c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="125" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="125" bodyend="130"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="111" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="111" bodyend="114"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a72c9fd3f79f8d4eb68dc07f005e6abfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
@@ -206,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="136" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="136" bodyend="141"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="120" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="120" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a9b2295d14b27c7621d5f41209c0e8c46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Const__AABBTreePoints" kindref="compound">MR.Const_AABBTreePoints</ref></type>
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="147" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="147" bodyend="152"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="129" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="129" bodyend="132"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a2ed45108a2b34dc41abfd2b4a891e0fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.? <ref refid="classMR_1_1Const__AABBTreePoints" kindref="compound">Const_AABBTreePoints</ref></type>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="158" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="158" bodyend="164"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="138" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="138" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a1f5c42178cd4c63944197c759dd01759" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="170" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="170" bodyend="175"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="148" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="148" bodyend="151"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1af6200453162ea714b3c1aae3c5beb6a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -271,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="182" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="182" bodyend="188"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="158" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="158" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1adee5466eca74a7f9db31a863f4c5ad59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="195" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="195" bodyend="201"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="169" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="169" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a9dad68466a893168fe782bc9c4f4108f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="207" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="207" bodyend="212"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="179" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="179" bodyend="182"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1afa43dc5efda314aeaa945c48ed85af87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -325,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="218" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="218" bodyend="223"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="188" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="188" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a847154a0efa103578fdc9b38e2a72ebb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVertId</type>
@@ -340,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="229" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="229" bodyend="234"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="197" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="197" bodyend="200"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloud_1ab68eefd49017c38f11bcd0dd7a41dda4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -355,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="240" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="240" bodyend="245"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="206" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="206" bodyend="209"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -371,7 +371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="23" bodyend="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="21" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="21" bodyend="21"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -395,7 +395,349 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="69" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="69" bodyend="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="61" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a4bdd9f32d0f0bc570871909c2e63e957" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.PointCloud._Underlying *</type>
+        <definition>static unsafe MR.PointCloud._Underlying * MR.Const_PointCloud.__MR_PointCloud_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.PointCloud._Underlying *_other)</argsstring>
+        <name>__MR_PointCloud_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.PointCloud._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="214" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1acc79fa17f17cfe4b138621a939ef9f86" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.PointCloud._Underlying *</type>
+        <definition>static unsafe MR.PointCloud._Underlying * MR.Const_PointCloud.__MR_PointCloud_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_PointCloud_DefaultConstruct</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="217" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1abaafcb9e9f4140d8f06081547c3b6c96" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_PointCloud.__MR_PointCloud_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_Destroy</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="220" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a6c9d58dc9a8c970e0e66436bada617ef" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_VertCoords._Underlying *</type>
+        <definition>static unsafe MR.Const_VertCoords._Underlying * MR.Const_PointCloud.__MR_PointCloud_Get_normals</definition>
+        <argsstring>(MR.Const_PointCloud._Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_Get_normals</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_Get_normals</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="223" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1abac0abd13b288c68994a03c4d48f9d16" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_VertCoords._Underlying *</type>
+        <definition>static unsafe MR.Const_VertCoords._Underlying * MR.Const_PointCloud.__MR_PointCloud_Get_points</definition>
+        <argsstring>(MR.Const_PointCloud._Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_Get_points</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_Get_points</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="226" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a81d3652d337e670f1e963476d083af62" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_VertBitSet._Underlying *</type>
+        <definition>static unsafe MR.Const_VertBitSet._Underlying * MR.Const_PointCloud.__MR_PointCloud_Get_validPoints</definition>
+        <argsstring>(MR.Const_PointCloud._Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_Get_validPoints</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_Get_validPoints</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="229" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a28f2c5adf14f8e91b4c73bc29f3ec296" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Const_PointCloud.__MR_PointCloud_calcNumValidPoints</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_calcNumValidPoints</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_calcNumValidPoints</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="232" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1ab1d66f5433263a59493c2670ce3419e0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>static unsafe MR.Box3f MR.Const_PointCloud.__MR_PointCloud_computeBoundingBox_1</definition>
+        <argsstring>(_Underlying *_this, MR.AffineXf3f *toWorld)</argsstring>
+        <name>__MR_PointCloud_computeBoundingBox_1</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_computeBoundingBox_1</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
+          <declname>toWorld</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="235" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a0accc784abf6395b37ad1418689f8d0f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>static unsafe MR.Box3f MR.Const_PointCloud.__MR_PointCloud_computeBoundingBox_2</definition>
+        <argsstring>(_Underlying *_this, MR.Const_VertBitSet._Underlying *region, MR.AffineXf3f *toWorld)</argsstring>
+        <name>__MR_PointCloud_computeBoundingBox_2</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_computeBoundingBox_2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet._Underlying *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
+          <declname>toWorld</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="238" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a829a932ba21d186fcf9fe3177d286c46" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>static unsafe MR.Vector3f MR.Const_PointCloud.__MR_PointCloud_findCenterFromBBox</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_findCenterFromBBox</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_findCenterFromBBox</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="241" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1ab4c45787ef11fca113f3e03848f7ffc7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>static unsafe MR.Vector3f MR.Const_PointCloud.__MR_PointCloud_findCenterFromPoints</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_findCenterFromPoints</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_findCenterFromPoints</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="244" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a9f9489b4f1e7f2788898555a0f117c42" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_AABBTreePoints._Underlying *</type>
+        <definition>static unsafe MR.Const_AABBTreePoints._Underlying * MR.Const_PointCloud.__MR_PointCloud_getAABBTree</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_getAABBTree</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_getAABBTree</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="247" column="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a016c3e70a9d351ded437d0a04c893fe1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_AABBTreePoints._Underlying *</type>
+        <definition>static unsafe MR.Const_AABBTreePoints._Underlying * MR.Const_PointCloud.__MR_PointCloud_getAABBTreeNotCreate</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_getAABBTreeNotCreate</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_getAABBTreeNotCreate</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="250" column="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1ae311cdbf909549af33c726e85b094cc0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>static unsafe MR.Box3f MR.Const_PointCloud.__MR_PointCloud_getBoundingBox</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_getBoundingBox</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_getBoundingBox</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="253" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a0d1bad5d432571f14aa12fabc928ed91" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertId._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_MRVertId._Underlying * MR.Const_PointCloud.__MR_PointCloud_getLexicographicalOrder</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_getLexicographicalOrder</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_getLexicographicalOrder</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="256" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a77bd2366eb0369b52fc44bbdc0070f5f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_VertBitSet._Underlying *</type>
+        <definition>static unsafe MR.Const_VertBitSet._Underlying * MR.Const_PointCloud.__MR_PointCloud_getVertIds</definition>
+        <argsstring>(_Underlying *_this, MR.Const_VertBitSet._Underlying *region)</argsstring>
+        <name>__MR_PointCloud_getVertIds</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_getVertIds</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet._Underlying *</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="259" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a289e6f7560d65830d8ebf84423088a45" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.Const_PointCloud.__MR_PointCloud_hasNormals</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_hasNormals</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_hasNormals</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="262" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a197404074aaea9d57b64dfc1fcc7f8bc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Const_PointCloud.__MR_PointCloud_heapBytes</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PointCloud_heapBytes</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_heapBytes</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="265" column="36"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -441,8 +783,26 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="8" bodyend="246"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="8" bodyend="266"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PointCloud_1a28f2c5adf14f8e91b4c73bc29f3ec296" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_calcNumValidPoints</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1ab1d66f5433263a59493c2670ce3419e0" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_computeBoundingBox_1</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a0accc784abf6395b37ad1418689f8d0f" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_computeBoundingBox_2</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a4bdd9f32d0f0bc570871909c2e63e957" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1acc79fa17f17cfe4b138621a939ef9f86" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1abaafcb9e9f4140d8f06081547c3b6c96" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_Destroy</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a829a932ba21d186fcf9fe3177d286c46" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_findCenterFromBBox</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1ab4c45787ef11fca113f3e03848f7ffc7" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_findCenterFromPoints</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a6c9d58dc9a8c970e0e66436bada617ef" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_Get_normals</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1abac0abd13b288c68994a03c4d48f9d16" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_Get_points</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a81d3652d337e670f1e963476d083af62" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_Get_validPoints</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a9f9489b4f1e7f2788898555a0f117c42" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_getAABBTree</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a016c3e70a9d351ded437d0a04c893fe1" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_getAABBTreeNotCreate</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1ae311cdbf909549af33c726e85b094cc0" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a0d1bad5d432571f14aa12fabc928ed91" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_getLexicographicalOrder</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a77bd2366eb0369b52fc44bbdc0070f5f" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_getVertIds</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a289e6f7560d65830d8ebf84423088a45" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_hasNormals</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a197404074aaea9d57b64dfc1fcc7f8bc" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_heapBytes</name></member>
       <member refid="classMR_1_1Const__PointCloud_1a3e7d4776e167d4bd61e8eddb01fb2e36" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>calcNumValidPoints</name></member>
       <member refid="classMR_1_1Const__PointCloud_1af6200453162ea714b3c1aae3c5beb6a4" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>computeBoundingBox</name></member>
       <member refid="classMR_1_1Const__PointCloud_1adee5466eca74a7f9db31a863f4c5ad59" prot="public" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>computeBoundingBox</name></member>

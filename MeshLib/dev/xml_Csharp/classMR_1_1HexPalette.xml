@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="130" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="130" bodyend="130"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="141" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="141" bodyend="141"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="135" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="135" bodyend="140"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="146" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="146" bodyend="149"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1HexPalette_1ac3d6fec4e2ccf3701bf97e25b3e607b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="145" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="145" bodyend="151"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="154" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="154" bodyend="158"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1HexPalette_1a7804b24230163010a20eba2ffc95ffb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="156" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="156" bodyend="156"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="163" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="163" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1HexPalette_1afd6a1b79a217dfb555d52f479eee26ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1HexPalette" kindref="compound">MR.HexPalette</ref></type>
@@ -98,7 +98,63 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="161" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="161" bodyend="168"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="168" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="168" bodyend="173"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1HexPalette_1a2592538806df3671ac20dffc7df313d1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.HexPalette._Underlying *</type>
+        <definition>static unsafe MR.HexPalette._Underlying * MR.HexPalette.__MR_HexPalette_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.HexPalette._Underlying *_other)</argsstring>
+        <name>__MR_HexPalette_AssignFromAnother</name>
+        <qualifiedname>MR.HexPalette.__MR_HexPalette_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.HexPalette._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="178" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HexPalette_1a3c92d493adf0393883593171e0016919" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.HexPalette._Underlying *</type>
+        <definition>static unsafe MR.HexPalette._Underlying * MR.HexPalette.__MR_HexPalette_ConstructFromAnother</definition>
+        <argsstring>(MR.HexPalette._Underlying *_other)</argsstring>
+        <name>__MR_HexPalette_ConstructFromAnother</name>
+        <qualifiedname>MR.HexPalette.__MR_HexPalette_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.HexPalette._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="181" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HexPalette_1ad78d3ce679da6b7d0332218bb2e0eed3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.HexPalette._Underlying *</type>
+        <definition>static unsafe MR.HexPalette._Underlying * MR.HexPalette.__MR_HexPalette_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_HexPalette_DefaultConstruct</name>
+        <qualifiedname>MR.HexPalette.__MR_HexPalette_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="184" column="54"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -157,8 +213,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="128" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="129" bodyend="169"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" line="139" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHexPalette.cs" bodystart="140" bodyend="185"/>
     <listofallmembers>
+      <member refid="classMR_1_1HexPalette_1a2592538806df3671ac20dffc7df313d1" prot="private" virt="non-virtual"><scope>MR::HexPalette</scope><name>__MR_HexPalette_AssignFromAnother</name></member>
+      <member refid="classMR_1_1HexPalette_1a3c92d493adf0393883593171e0016919" prot="private" virt="non-virtual"><scope>MR::HexPalette</scope><name>__MR_HexPalette_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1HexPalette_1ad78d3ce679da6b7d0332218bb2e0eed3" prot="private" virt="non-virtual"><scope>MR::HexPalette</scope><name>__MR_HexPalette_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__HexPalette_1a6bbacb9b41fc6272ac1415967d0b31f2" prot="protected" virt="non-virtual"><scope>MR::HexPalette</scope><name>__ref_storage_Colors</name></member>
       <member refid="classMR_1_1Const__HexPalette_1a6a6101ab6c3bcc1ee011a0f62f0f16d3" prot="protected" virt="non-virtual"><scope>MR::HexPalette</scope><name>__ref_storage_CORNERCOLORS</name></member>
       <member refid="classMR_1_1Const__HexPalette_1a341e6f42c911164db8b9a5e22399b115" prot="protected" virt="non-virtual"><scope>MR::HexPalette</scope><name>__ref_storage_N</name></member>

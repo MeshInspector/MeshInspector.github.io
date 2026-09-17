@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="180" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="180" bodyend="180"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="192" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="192" bodyend="192"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="185" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="185" bodyend="190"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="197" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="197" bodyend="200"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SystemPath_1a05bf38a7b3fdcdb08b0bb22ab64fff7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="195" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="195" bodyend="201"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="205" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="205" bodyend="209"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SystemPath_1a3d2c817b1d5b33a38be99347dbd828d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="206" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="206" bodyend="206"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="214" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="214" bodyend="214"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SystemPath_1ad6ace37dfb22f3359ace67aa5e3a9ca1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SystemPath" kindref="compound">MR.SystemPath</ref></type>
@@ -98,7 +98,63 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="211" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="211" bodyend="218"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="219" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="219" bodyend="224"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1SystemPath_1aab2786e819737351cd444c337afc37dd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.SystemPath._Underlying *</type>
+        <definition>static unsafe MR.SystemPath._Underlying * MR.SystemPath.__MR_SystemPath_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.SystemPath._Underlying *_other)</argsstring>
+        <name>__MR_SystemPath_AssignFromAnother</name>
+        <qualifiedname>MR.SystemPath.__MR_SystemPath_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.SystemPath._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="229" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a9aaa6b1402a1540de00cda6adf2ab671" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.SystemPath._Underlying *</type>
+        <definition>static unsafe MR.SystemPath._Underlying * MR.SystemPath.__MR_SystemPath_ConstructFromAnother</definition>
+        <argsstring>(MR.SystemPath._Underlying *_other)</argsstring>
+        <name>__MR_SystemPath_ConstructFromAnother</name>
+        <qualifiedname>MR.SystemPath.__MR_SystemPath_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.SystemPath._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="232" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SystemPath_1a30770f5464b7a78cb9da70a6eade2a61" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.SystemPath._Underlying *</type>
+        <definition>static unsafe MR.SystemPath._Underlying * MR.SystemPath.__MR_SystemPath_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_SystemPath_DefaultConstruct</name>
+        <qualifiedname>MR.SystemPath.__MR_SystemPath_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="235" column="54"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -150,8 +206,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="178" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="179" bodyend="219"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="190" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="191" bodyend="236"/>
     <listofallmembers>
+      <member refid="classMR_1_1SystemPath_1aab2786e819737351cd444c337afc37dd" prot="private" virt="non-virtual"><scope>MR::SystemPath</scope><name>__MR_SystemPath_AssignFromAnother</name></member>
+      <member refid="classMR_1_1SystemPath_1a9aaa6b1402a1540de00cda6adf2ab671" prot="private" virt="non-virtual"><scope>MR::SystemPath</scope><name>__MR_SystemPath_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1SystemPath_1a30770f5464b7a78cb9da70a6eade2a61" prot="private" virt="non-virtual"><scope>MR::SystemPath</scope><name>__MR_SystemPath_DefaultConstruct</name></member>
       <member refid="classMR_1_1SystemPath_1ad6ace37dfb22f3359ace67aa5e3a9ca1" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__SystemPath_1aac7fdd03fef0ed74b3f12f7e04895843" prot="package" virt="non-virtual"><scope>MR::SystemPath</scope><name>Const_SystemPath</name></member>
       <member refid="classMR_1_1Const__SystemPath_1a5b57af9a2d3a5427f49edbbada019e14" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>Const_SystemPath</name></member>

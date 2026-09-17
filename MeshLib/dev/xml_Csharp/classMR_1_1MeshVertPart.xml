@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="348" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="349" bodyend="358"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="367" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="368" bodyend="377"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="362" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="362" bodyend="366"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="381" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="381" bodyend="385"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="373" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="373" bodyend="380"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="392" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="392" bodyend="397"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshVertPart_1a8fd348326ae5cf61d7378cce14e4c864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="386" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="386" bodyend="386"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="403" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="403" bodyend="403"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshVertPart_1ab2b22459441eff98cd7746ab1ba2bf13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="391" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="391" bodyend="399"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="408" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="408" bodyend="414"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshVertPart_1acaa60e4e9726398eba08df904e8de9cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshVertPart" kindref="compound">MR.MeshVertPart</ref></type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="409" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="409" bodyend="419"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="424" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="424" bodyend="432"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -144,7 +144,71 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="404" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="404" bodyend="404"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="419" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="419" bodyend="419"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1MeshVertPart_1a2aac6c242399d95854d32ecaa827aece" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshVertPart._Underlying *</type>
+        <definition>static unsafe MR.MeshVertPart._Underlying * MR.MeshVertPart.__MR_MeshVertPart_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.MeshVertPart._Underlying *other)</argsstring>
+        <name>__MR_MeshVertPart_AssignFromAnother</name>
+        <qualifiedname>MR.MeshVertPart.__MR_MeshVertPart_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.MeshVertPart._Underlying *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="437" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshVertPart_1a6665df23d359646a371c8157e4cc9417" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshVertPart._Underlying *</type>
+        <definition>static unsafe MR.MeshVertPart._Underlying * MR.MeshVertPart.__MR_MeshVertPart_Construct</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *m, MR.Const_VertBitSet._Underlying *bs)</argsstring>
+        <name>__MR_MeshVertPart_Construct</name>
+        <qualifiedname>MR.MeshVertPart.__MR_MeshVertPart_Construct</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet._Underlying *</type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="440" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshVertPart_1a4fb5ff62f959722520e5c71eeeafa536" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshVertPart._Underlying *</type>
+        <definition>static unsafe MR.MeshVertPart._Underlying * MR.MeshVertPart.__MR_MeshVertPart_ConstructFromAnother</definition>
+        <argsstring>(MR.MeshVertPart._Underlying *other)</argsstring>
+        <name>__MR_MeshVertPart_ConstructFromAnother</name>
+        <qualifiedname>MR.MeshVertPart.__MR_MeshVertPart_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.MeshVertPart._Underlying *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="443" column="56"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -203,8 +267,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="345" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="346" bodyend="420"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="364" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="365" bodyend="444"/>
     <listofallmembers>
+      <member refid="classMR_1_1MeshVertPart_1a2aac6c242399d95854d32ecaa827aece" prot="private" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>__MR_MeshVertPart_AssignFromAnother</name></member>
+      <member refid="classMR_1_1MeshVertPart_1a6665df23d359646a371c8157e4cc9417" prot="private" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>__MR_MeshVertPart_Construct</name></member>
+      <member refid="classMR_1_1MeshVertPart_1a4fb5ff62f959722520e5c71eeeafa536" prot="private" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>__MR_MeshVertPart_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__MeshVertPart_1a4a488cff2eb08504282f4022c4afe0b6" prot="protected" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>__ptr_storage_region</name></member>
       <member refid="classMR_1_1MeshVertPart_1acaa60e4e9726398eba08df904e8de9cf" prot="public" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__MeshVertPart_1af1cd111fc0afc71416bcc56492394f3b" prot="package" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>Const_MeshVertPart</name></member>

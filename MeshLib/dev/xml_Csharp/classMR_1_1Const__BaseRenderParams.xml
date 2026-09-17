@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="46" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="46" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="44" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__BaseRenderParams_1a23447fc2e30a4c3b6a9f9b7f9328d84d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1Matrix4f" kindref="compound">MR.Matrix4f</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="49" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="49" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="47" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__BaseRenderParams_1a46faaeb554a33c42ca7c68f6635e4e61" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="53" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="53" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="51" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__BaseRenderParams_1a2cd5ef57c54e7a0688b8d7edb9784699" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="57" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="57" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="55" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="55" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="47" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="47" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="45" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__BaseRenderParams_1af3ab4b37d112bba4010dbcbcdf87fb37" prot="protected" static="no" mutable="no">
         <type>unsafe <ref refid="structMR_1_1Matrix4f" kindref="compound">MR.Matrix4f</ref> *</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="50" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="50" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="48" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__BaseRenderParams_1acb186e971061b0db7210236f39485bd5" prot="protected" static="no" mutable="no">
         <type>unsafe <ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref> *</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="54" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="54" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="52" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__BaseRenderParams_1a2e1d1bd654da8a39c04325f2f9899208" prot="protected" static="no" mutable="no">
         <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref> *</type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="58" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="58" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="56" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="56" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="34" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="34" bodyend="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="34" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="34" bodyend="40"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="43" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="43" bodyend="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="41" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="41" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BaseRenderParams_1aaaf9dc646434f3d697830d54bdeae2fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="103" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="103" bodyend="110"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="93" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="93" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BaseRenderParams_1ac1678d7627493537a0346aae047fb2b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="115" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="115" bodyend="115"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="103" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BaseRenderParams_1a00fc4e3915de6675b375177c7220e225" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -223,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="120" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="120" bodyend="132"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="108" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="108" bodyend="118"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -239,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="44" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="44" bodyend="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="42" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="42" bodyend="42"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -263,7 +263,147 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="92" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="92" bodyend="97"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="82" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="82" bodyend="87"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__BaseRenderParams_1a7c26f04049e5474f655a910295cd67c0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BaseRenderParams._Underlying *</type>
+        <definition>static unsafe MR.BaseRenderParams._Underlying * MR.Const_BaseRenderParams.__MR_BaseRenderParams_ConstructFrom</definition>
+        <argsstring>(MR.Matrix4f *viewMatrix, MR.Matrix4f *projMatrix, MR.ViewportId viewportId, MR.Vector4i viewport)</argsstring>
+        <name>__MR_BaseRenderParams_ConstructFrom</name>
+        <qualifiedname>MR.Const_BaseRenderParams.__MR_BaseRenderParams_ConstructFrom</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Matrix4f" kindref="compound">MR.Matrix4f</ref> *</type>
+          <declname>viewMatrix</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Matrix4f" kindref="compound">MR.Matrix4f</ref> *</type>
+          <declname>projMatrix</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>viewportId</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="123" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseRenderParams_1a6fe55752ed5dbe956f55595b2dff0f04" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BaseRenderParams._Underlying *</type>
+        <definition>static unsafe MR.BaseRenderParams._Underlying * MR.Const_BaseRenderParams.__MR_BaseRenderParams_ConstructFromAnother</definition>
+        <argsstring>(MR.BaseRenderParams._Underlying *_other)</argsstring>
+        <name>__MR_BaseRenderParams_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_BaseRenderParams.__MR_BaseRenderParams_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.BaseRenderParams._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="126" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseRenderParams_1ae91fa8ab7fccc9db7d277ee17b631d45" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_BaseRenderParams.__MR_BaseRenderParams_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_BaseRenderParams_Destroy</name>
+        <qualifiedname>MR.Const_BaseRenderParams.__MR_BaseRenderParams_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="129" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseRenderParams_1a002b4e30eb3038562d768b03e5dabe6f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix4f" kindref="compound">MR.Matrix4f</ref> *</type>
+        <definition>static unsafe MR.Matrix4f * MR.Const_BaseRenderParams.__MR_BaseRenderParams_Get_projMatrix</definition>
+        <argsstring>(MR.Const_BaseRenderParams._Underlying *_this)</argsstring>
+        <name>__MR_BaseRenderParams_Get_projMatrix</name>
+        <qualifiedname>MR.Const_BaseRenderParams.__MR_BaseRenderParams_Get_projMatrix</qualifiedname>
+        <param>
+          <type>MR.Const_BaseRenderParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="132" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseRenderParams_1a2348201600d1f6eab49500c5a218adbd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix4f" kindref="compound">MR.Matrix4f</ref> *</type>
+        <definition>static unsafe MR.Matrix4f * MR.Const_BaseRenderParams.__MR_BaseRenderParams_Get_viewMatrix</definition>
+        <argsstring>(MR.Const_BaseRenderParams._Underlying *_this)</argsstring>
+        <name>__MR_BaseRenderParams_Get_viewMatrix</name>
+        <qualifiedname>MR.Const_BaseRenderParams.__MR_BaseRenderParams_Get_viewMatrix</qualifiedname>
+        <param>
+          <type>MR.Const_BaseRenderParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="135" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseRenderParams_1a73893e371918d37c699a2a378f405876" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref> *</type>
+        <definition>static unsafe MR.Vector4i * MR.Const_BaseRenderParams.__MR_BaseRenderParams_Get_viewport</definition>
+        <argsstring>(MR.Const_BaseRenderParams._Underlying *_this)</argsstring>
+        <name>__MR_BaseRenderParams_Get_viewport</name>
+        <qualifiedname>MR.Const_BaseRenderParams.__MR_BaseRenderParams_Get_viewport</qualifiedname>
+        <param>
+          <type>MR.Const_BaseRenderParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="138" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseRenderParams_1a3c098687428bba9e0d3bb4ee41a4bc0b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref> *</type>
+        <definition>static unsafe MR.ViewportId * MR.Const_BaseRenderParams.__MR_BaseRenderParams_Get_viewportId</definition>
+        <argsstring>(MR.Const_BaseRenderParams._Underlying *_this)</argsstring>
+        <name>__MR_BaseRenderParams_Get_viewportId</name>
+        <qualifiedname>MR.Const_BaseRenderParams.__MR_BaseRenderParams_Get_viewportId</qualifiedname>
+        <param>
+          <type>MR.Const_BaseRenderParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="141" column="43"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -319,8 +459,15 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="28" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="29" bodyend="133"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="28" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="29" bodyend="142"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BaseRenderParams_1a7c26f04049e5474f655a910295cd67c0" prot="private" virt="non-virtual"><scope>MR::Const_BaseRenderParams</scope><name>__MR_BaseRenderParams_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__BaseRenderParams_1a6fe55752ed5dbe956f55595b2dff0f04" prot="private" virt="non-virtual"><scope>MR::Const_BaseRenderParams</scope><name>__MR_BaseRenderParams_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__BaseRenderParams_1ae91fa8ab7fccc9db7d277ee17b631d45" prot="private" virt="non-virtual"><scope>MR::Const_BaseRenderParams</scope><name>__MR_BaseRenderParams_Destroy</name></member>
+      <member refid="classMR_1_1Const__BaseRenderParams_1a002b4e30eb3038562d768b03e5dabe6f" prot="private" virt="non-virtual"><scope>MR::Const_BaseRenderParams</scope><name>__MR_BaseRenderParams_Get_projMatrix</name></member>
+      <member refid="classMR_1_1Const__BaseRenderParams_1a2348201600d1f6eab49500c5a218adbd" prot="private" virt="non-virtual"><scope>MR::Const_BaseRenderParams</scope><name>__MR_BaseRenderParams_Get_viewMatrix</name></member>
+      <member refid="classMR_1_1Const__BaseRenderParams_1a73893e371918d37c699a2a378f405876" prot="private" virt="non-virtual"><scope>MR::Const_BaseRenderParams</scope><name>__MR_BaseRenderParams_Get_viewport</name></member>
+      <member refid="classMR_1_1Const__BaseRenderParams_1a3c098687428bba9e0d3bb4ee41a4bc0b" prot="private" virt="non-virtual"><scope>MR::Const_BaseRenderParams</scope><name>__MR_BaseRenderParams_Get_viewportId</name></member>
       <member refid="classMR_1_1Const__BaseRenderParams_1af3ab4b37d112bba4010dbcbcdf87fb37" prot="protected" virt="non-virtual"><scope>MR::Const_BaseRenderParams</scope><name>__ref_storage_projMatrix</name></member>
       <member refid="classMR_1_1Const__BaseRenderParams_1a25bf9eedfbf73f29d78c49cbf1d07199" prot="protected" virt="non-virtual"><scope>MR::Const_BaseRenderParams</scope><name>__ref_storage_viewMatrix</name></member>
       <member refid="classMR_1_1Const__BaseRenderParams_1a2e1d1bd654da8a39c04325f2f9899208" prot="protected" virt="non-virtual"><scope>MR::Const_BaseRenderParams</scope><name>__ref_storage_viewport</name></member>

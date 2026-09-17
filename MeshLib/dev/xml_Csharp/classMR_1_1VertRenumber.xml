@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="723" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="723" bodyend="723"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="760" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="760" bodyend="760"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="728" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="728" bodyend="734"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="765" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="765" bodyend="769"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VertRenumber_1a8e3374a5cb5764bb78512c8ac571f1c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="739" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="739" bodyend="739"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="774" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="774" bodyend="774"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VertRenumber_1aaf48f76b31c9a3fecf9272ecf5a3bbd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="744" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="744" bodyend="744"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="779" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="779" bodyend="779"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VertRenumber_1ae83d02049622d130ff89fc1b6751877e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="750" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="750" bodyend="756"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="785" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="785" bodyend="789"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VertRenumber_1a9e94f668782c3f28619bb3f6b06a26c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertRenumber" kindref="compound">MR.VertRenumber</ref></type>
@@ -125,7 +125,79 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="761" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="761" bodyend="768"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="794" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="794" bodyend="799"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1a8721e4ae83e5d6854d3e52d4b2341168" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VertRenumber._Underlying *</type>
+        <definition>static unsafe MR.VertRenumber._Underlying * MR.VertRenumber.__MR_VertRenumber_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.VertRenumber._Underlying *_other)</argsstring>
+        <name>__MR_VertRenumber_AssignFromAnother</name>
+        <qualifiedname>MR.VertRenumber.__MR_VertRenumber_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.VertRenumber._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="804" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1a7a0a25c339c0aa8c10323de0fd2fcb0c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VertRenumber._Underlying *</type>
+        <definition>static unsafe MR.VertRenumber._Underlying * MR.VertRenumber.__MR_VertRenumber_Construct</definition>
+        <argsstring>(MR.Const_VertBitSet._Underlying *validVerts, byte saveValidOnly)</argsstring>
+        <name>__MR_VertRenumber_Construct</name>
+        <qualifiedname>MR.VertRenumber.__MR_VertRenumber_Construct</qualifiedname>
+        <param>
+          <type>MR.Const_VertBitSet._Underlying *</type>
+          <declname>validVerts</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>saveValidOnly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="807" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertRenumber_1a6e65c254dcc50f5d0f10dc6992d5040f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VertRenumber._Underlying *</type>
+        <definition>static unsafe MR.VertRenumber._Underlying * MR.VertRenumber.__MR_VertRenumber_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.VertRenumber._Underlying *_other)</argsstring>
+        <name>__MR_VertRenumber_ConstructFromAnother</name>
+        <qualifiedname>MR.VertRenumber.__MR_VertRenumber_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.VertRenumber._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="810" column="56"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -177,8 +249,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="721" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="722" bodyend="769"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="758" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="759" bodyend="811"/>
     <listofallmembers>
+      <member refid="classMR_1_1VertRenumber_1a8721e4ae83e5d6854d3e52d4b2341168" prot="private" virt="non-virtual"><scope>MR::VertRenumber</scope><name>__MR_VertRenumber_AssignFromAnother</name></member>
+      <member refid="classMR_1_1VertRenumber_1a7a0a25c339c0aa8c10323de0fd2fcb0c" prot="private" virt="non-virtual"><scope>MR::VertRenumber</scope><name>__MR_VertRenumber_Construct</name></member>
+      <member refid="classMR_1_1VertRenumber_1a6e65c254dcc50f5d0f10dc6992d5040f" prot="private" virt="non-virtual"><scope>MR::VertRenumber</scope><name>__MR_VertRenumber_ConstructFromAnother</name></member>
       <member refid="classMR_1_1VertRenumber_1a9e94f668782c3f28619bb3f6b06a26c0" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__VertRenumber_1a2ed21fd07d879bd600e5a5cb59c9f09c" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>call</name></member>
       <member refid="classMR_1_1Const__VertRenumber_1a5daf4cab3ba11c89399e737753594c7b" prot="package" virt="non-virtual"><scope>MR::VertRenumber</scope><name>Const_VertRenumber</name></member>

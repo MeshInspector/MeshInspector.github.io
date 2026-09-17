@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="419" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="419" bodyend="419"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="446" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="446" bodyend="446"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="424" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="424" bodyend="429"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="451" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="451" bodyend="454"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshMeshConverter_1a036acc135fc9714754ae01d9fb50b337" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="434" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="434" bodyend="440"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="459" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="459" bodyend="463"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshMeshConverter_1acac2f6ea9d3b810cd20e4e6ad669a2c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="445" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="445" bodyend="445"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="468" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="468" bodyend="468"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshMeshConverter_1ab0938e02c132231426cf0aeadeb83822" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshMeshConverter" kindref="compound">MR.MeshMeshConverter</ref></type>
@@ -98,7 +98,63 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="450" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="450" bodyend="457"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="473" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="473" bodyend="478"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1MeshMeshConverter_1a67bddf2ab434bc3e91ffba100c73984f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshMeshConverter._Underlying *</type>
+        <definition>static unsafe MR.MeshMeshConverter._Underlying * MR.MeshMeshConverter.__MR_MeshMeshConverter_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.MeshMeshConverter._Underlying *_other)</argsstring>
+        <name>__MR_MeshMeshConverter_AssignFromAnother</name>
+        <qualifiedname>MR.MeshMeshConverter.__MR_MeshMeshConverter_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.MeshMeshConverter._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="483" column="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshMeshConverter_1a28f63b5b0e2367724689282816a4b015" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshMeshConverter._Underlying *</type>
+        <definition>static unsafe MR.MeshMeshConverter._Underlying * MR.MeshMeshConverter.__MR_MeshMeshConverter_ConstructFromAnother</definition>
+        <argsstring>(MR.MeshMeshConverter._Underlying *_other)</argsstring>
+        <name>__MR_MeshMeshConverter_ConstructFromAnother</name>
+        <qualifiedname>MR.MeshMeshConverter.__MR_MeshMeshConverter_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.MeshMeshConverter._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="486" column="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshMeshConverter_1a234b7200538c5fb11ffb7707d3584ebb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshMeshConverter._Underlying *</type>
+        <definition>static unsafe MR.MeshMeshConverter._Underlying * MR.MeshMeshConverter.__MR_MeshMeshConverter_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_MeshMeshConverter_DefaultConstruct</name>
+        <qualifiedname>MR.MeshMeshConverter.__MR_MeshMeshConverter_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="489" column="61"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -150,8 +206,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="417" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="418" bodyend="458"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="444" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="445" bodyend="490"/>
     <listofallmembers>
+      <member refid="classMR_1_1MeshMeshConverter_1a67bddf2ab434bc3e91ffba100c73984f" prot="private" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>__MR_MeshMeshConverter_AssignFromAnother</name></member>
+      <member refid="classMR_1_1MeshMeshConverter_1a28f63b5b0e2367724689282816a4b015" prot="private" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>__MR_MeshMeshConverter_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1MeshMeshConverter_1a234b7200538c5fb11ffb7707d3584ebb" prot="private" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>__MR_MeshMeshConverter_DefaultConstruct</name></member>
       <member refid="classMR_1_1MeshMeshConverter_1ab0938e02c132231426cf0aeadeb83822" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__MeshMeshConverter_1a190dc72ee2f5f209cd6ecf832a89a461" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>call</name></member>
       <member refid="classMR_1_1Const__MeshMeshConverter_1a6c4de21cf404b81684a02dff66dc1bad" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>call</name></member>
