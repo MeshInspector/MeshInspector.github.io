@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" line="164" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" bodystart="164" bodyend="164"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" line="159" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" bodystart="159" bodyend="159"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,31 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" line="170" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" bodystart="170" bodyend="173"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1HistoryAction_1a2a7c7f469adda2ef8e2053372ae14e2d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.HistoryAction.__MR_HistoryAction_action</definition>
-        <argsstring>(_Underlying *_this, MR.HistoryAction.Type actionType)</argsstring>
-        <name>__MR_HistoryAction_action</name>
-        <qualifiedname>MR.HistoryAction.__MR_HistoryAction_action</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
-          <declname>actionType</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" line="178" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" line="165" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" bodystart="165" bodyend="170"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -121,9 +97,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" line="162" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" bodystart="163" bodyend="179"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" line="157" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" bodystart="158" bodyend="171"/>
     <listofallmembers>
-      <member refid="classMR_1_1HistoryAction_1a2a7c7f469adda2ef8e2053372ae14e2d" prot="private" virt="non-virtual"><scope>MR::HistoryAction</scope><name>__MR_HistoryAction_action</name></member>
       <member refid="classMR_1_1HistoryAction_1a4fa0656138f24560d866d1a306a4f8fc" prot="public" virt="non-virtual"><scope>MR::HistoryAction</scope><name>action</name></member>
       <member refid="classMR_1_1Const__HistoryAction_1ad2620b753e8070071d177e1297311fd4" prot="package" virt="non-virtual"><scope>MR::HistoryAction</scope><name>Const_HistoryAction</name></member>
       <member refid="classMR_1_1Const__HistoryAction_1aadb619f788f8f21decf69dfd73a7ab67" prot="protected" virt="virtual"><scope>MR::HistoryAction</scope><name>Dispose</name></member>

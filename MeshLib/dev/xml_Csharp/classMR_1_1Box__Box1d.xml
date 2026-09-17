@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3644" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3644" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3419" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3419" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Box__Box1d_1a645c4923cfd2832f35b3291717f1ba06" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new ref double</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3646" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3646" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3421" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3421" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Box__Box1d_1a99193b67d9e1b803cf02917d0cc913af" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new ref double</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3700" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3701" bodyend="3706"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3481" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3482" bodyend="3489"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3651" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3651" bodyend="3651"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3426" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3426" bodyend="3426"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Box__Box1d_1a796f2db29fbefabeefc356230bd362e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3658" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3658" bodyend="3662"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3433" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3433" bodyend="3437"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Box__Box1d_1a6d65c250b56578090a3c7b7adec6d6ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3667" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3667" bodyend="3667"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3442" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3442" bodyend="3442"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Box__Box1d_1ae605d41458f5342f7a723f4cdb53b0cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3672" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3672" bodyend="3676"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3447" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3447" bodyend="3453"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Box__Box1d_1a93625123a3accb79f795d1d8ab09f386" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3681" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3681" bodyend="3685"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3458" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3458" bodyend="3464"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Box__Box1d_1aebffae0f32c1b066a1a43161bd479bcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3690" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3690" bodyend="3695"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3469" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3469" bodyend="3476"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Box__Box1d_1ad7b192f61fea10c91c26663b8725a5f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -180,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3712" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3712" bodyend="3715"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3495" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3495" bodyend="3500"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Box__Box1d_1a656abf9300c822b069412dd9c4d28c85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3721" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3721" bodyend="3727"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3506" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3506" bodyend="3514"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Box__Box1d_1a28f7753ad9f10ef18855fc67e83f2c8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
@@ -218,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3732" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3732" bodyend="3738"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3519" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3519" bodyend="3527"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -242,151 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3653" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3653" bodyend="3653"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Box__Box1d_1a21bca7996de6fbe6c9ed03786a49b71d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
-        <definition>static unsafe MR.Box1d MR.Box_Box1d.__MR_Box1d_Construct_1</definition>
-        <argsstring>(MR.NoInit._Underlying *_1)</argsstring>
-        <name>__MR_Box1d_Construct_1</name>
-        <qualifiedname>MR.Box_Box1d.__MR_Box1d_Construct_1</qualifiedname>
-        <param>
-          <type>MR.NoInit._Underlying *</type>
-          <declname>_1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3743" column="38"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Box__Box1d_1a7eff8aeef16a0caa2508ec25e3a16b9b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
-        <definition>static unsafe MR.Box1d MR.Box_Box1d.__MR_Box1d_Construct_2</definition>
-        <argsstring>(double *min, double *max)</argsstring>
-        <name>__MR_Box1d_Construct_2</name>
-        <qualifiedname>MR.Box_Box1d.__MR_Box1d_Construct_2</qualifiedname>
-        <param>
-          <type>double *</type>
-          <declname>min</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>max</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3746" column="38"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Box__Box1d_1ad411d7fa07436ff66993d7f1d43c9841" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
-        <definition>static MR.Box1d MR.Box_Box1d.__MR_Box1d_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_Box1d_DefaultConstruct</name>
-        <qualifiedname>MR.Box_Box1d.__MR_Box1d_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3749" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Box__Box1d_1a72b81056078c2f935e08feb58e90467e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.Box_Box1d.__MR_Box1d_include_MR_Box1d</definition>
-        <argsstring>(_Underlying *_this, MR.Box1d *b)</argsstring>
-        <name>__MR_Box1d_include_MR_Box1d</name>
-        <qualifiedname>MR.Box_Box1d.__MR_Box1d_include_MR_Box1d</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref> *</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3752" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Box__Box1d_1a077df11af165b0d60a8374127220d5cf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.Box_Box1d.__MR_Box1d_include_double</definition>
-        <argsstring>(_Underlying *_this, double *pt)</argsstring>
-        <name>__MR_Box1d_include_double</name>
-        <qualifiedname>MR.Box_Box1d.__MR_Box1d_include_double</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>double *</type>
-          <declname>pt</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3755" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Box__Box1d_1a3917fb6ca6c660a76f4bc9afb2e97acb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe double *</type>
-        <definition>static unsafe double * MR.Box_Box1d.__MR_Box1d_index_mut</definition>
-        <argsstring>(_Underlying *_this, int e)</argsstring>
-        <name>__MR_Box1d_index_mut</name>
-        <qualifiedname>MR.Box_Box1d.__MR_Box1d_index_mut</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>e</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3758" column="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Box__Box1d_1a5cca2c151f023ef8c373c99278fc3d17" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref> *</type>
-        <definition>static unsafe MR.Box1d * MR.Box_Box1d.__MR_Box1d_intersect</definition>
-        <argsstring>(_Underlying *_this, MR.Box1d *b)</argsstring>
-        <name>__MR_Box1d_intersect</name>
-        <qualifiedname>MR.Box_Box1d.__MR_Box1d_intersect</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref> *</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3761" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3428" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3428" bodyend="3428"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -448,15 +304,8 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3637" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3638" bodyend="3762"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="3412" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="3413" bodyend="3528"/>
     <listofallmembers>
-      <member refid="classMR_1_1Box__Box1d_1a21bca7996de6fbe6c9ed03786a49b71d" prot="private" virt="non-virtual"><scope>MR::Box_Box1d</scope><name>__MR_Box1d_Construct_1</name></member>
-      <member refid="classMR_1_1Box__Box1d_1a7eff8aeef16a0caa2508ec25e3a16b9b" prot="private" virt="non-virtual"><scope>MR::Box_Box1d</scope><name>__MR_Box1d_Construct_2</name></member>
-      <member refid="classMR_1_1Box__Box1d_1ad411d7fa07436ff66993d7f1d43c9841" prot="private" virt="non-virtual"><scope>MR::Box_Box1d</scope><name>__MR_Box1d_DefaultConstruct</name></member>
-      <member refid="classMR_1_1Box__Box1d_1a077df11af165b0d60a8374127220d5cf" prot="private" virt="non-virtual"><scope>MR::Box_Box1d</scope><name>__MR_Box1d_include_double</name></member>
-      <member refid="classMR_1_1Box__Box1d_1a72b81056078c2f935e08feb58e90467e" prot="private" virt="non-virtual"><scope>MR::Box_Box1d</scope><name>__MR_Box1d_include_MR_Box1d</name></member>
-      <member refid="classMR_1_1Box__Box1d_1a3917fb6ca6c660a76f4bc9afb2e97acb" prot="private" virt="non-virtual"><scope>MR::Box_Box1d</scope><name>__MR_Box1d_index_mut</name></member>
-      <member refid="classMR_1_1Box__Box1d_1a5cca2c151f023ef8c373c99278fc3d17" prot="private" virt="non-virtual"><scope>MR::Box_Box1d</scope><name>__MR_Box1d_intersect</name></member>
       <member refid="classMR_1_1ConstBox__Box1d_1ae5ac6e48fb361d123f7c4f3123766212" prot="protected" virt="non-virtual"><scope>MR::Box_Box1d</scope><name>__ref_storage_Elements</name></member>
       <member refid="classMR_1_1Box__Box1d_1a6d65c250b56578090a3c7b7adec6d6ce" prot="public" virt="non-virtual"><scope>MR::Box_Box1d</scope><name>Assign</name></member>
       <member refid="classMR_1_1Box__Box1d_1af7d60c727b886f70394f7a9a8822e8b8" prot="public" virt="non-virtual"><scope>MR::Box_Box1d</scope><name>Box_Box1d</name></member>

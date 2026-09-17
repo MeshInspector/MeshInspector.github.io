@@ -2,8 +2,6 @@ var structMR_1_1ObjVertId =
 [
     [ "ObjVertId", "structMR_1_1ObjVertId.html#aa2bf1fdf682e0bc8791d5615d241af37", null ],
     [ "ObjVertId", "structMR_1_1ObjVertId.html#a0ef62a13b2dea670efc19efcb9366ae8", null ],
-    [ "__MR_equal_MR_ObjVertId", "structMR_1_1ObjVertId.html#aed125eeece5eb9998df88d84959fc71b", null ],
-    [ "__MR_ObjVertId_DefaultConstruct", "structMR_1_1ObjVertId.html#a3f96d0574098b3e5b5996d9a0cb24b1b", null ],
     [ "Equals", "structMR_1_1ObjVertId.html#a29a7bb6a9c26cec1e474a66704033989", null ],
     [ "Equals", "structMR_1_1ObjVertId.html#a13304ee67edaea3025f655d77392929b", null ],
     [ "operator ObjVertId", "structMR_1_1ObjVertId.html#a49cef0e6c69f02862faf27c838298856", null ],

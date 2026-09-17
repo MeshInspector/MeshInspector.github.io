@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="65" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="65" bodyend="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="60" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="60" bodyend="60"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="70" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="70" bodyend="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="65" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="65" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NoInit_1afdf87d8d0a25a45f779c9dac26aa965d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="78" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="78" bodyend="82"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="75" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="75" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NoInit_1afa048ff14899d16f704149c217809299" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="87" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="87" bodyend="87"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="86" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="86" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NoInit_1a63a0347586b1bc814fb494bdd035ab38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1NoInit" kindref="compound">MR.NoInit</ref></type>
@@ -98,63 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="92" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="92" bodyend="97"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1NoInit_1a4a68853fdfb8625c7c6767df5a54ffde" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.NoInit._Underlying *</type>
-        <definition>static unsafe MR.NoInit._Underlying * MR.NoInit.__MR_NoInit_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.NoInit._Underlying *_other)</argsstring>
-        <name>__MR_NoInit_AssignFromAnother</name>
-        <qualifiedname>MR.NoInit.__MR_NoInit_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.NoInit._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="102" column="50"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1NoInit_1acffd675797dcd4bdf3b905733b429d90" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.NoInit._Underlying *</type>
-        <definition>static unsafe MR.NoInit._Underlying * MR.NoInit.__MR_NoInit_ConstructFromAnother</definition>
-        <argsstring>(MR.NoInit._Underlying *_other)</argsstring>
-        <name>__MR_NoInit_ConstructFromAnother</name>
-        <qualifiedname>MR.NoInit.__MR_NoInit_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.NoInit._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="105" column="50"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1NoInit_1a34d89ffe294ba591f0ec134056986bc2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.NoInit._Underlying *</type>
-        <definition>static unsafe MR.NoInit._Underlying * MR.NoInit.__MR_NoInit_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_NoInit_DefaultConstruct</name>
-        <qualifiedname>MR.NoInit.__MR_NoInit_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="108" column="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="91" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="91" bodyend="98"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -206,11 +150,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="63" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="64" bodyend="109"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="58" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="59" bodyend="99"/>
     <listofallmembers>
-      <member refid="classMR_1_1NoInit_1a4a68853fdfb8625c7c6767df5a54ffde" prot="private" virt="non-virtual"><scope>MR::NoInit</scope><name>__MR_NoInit_AssignFromAnother</name></member>
-      <member refid="classMR_1_1NoInit_1acffd675797dcd4bdf3b905733b429d90" prot="private" virt="non-virtual"><scope>MR::NoInit</scope><name>__MR_NoInit_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1NoInit_1a34d89ffe294ba591f0ec134056986bc2" prot="private" virt="non-virtual"><scope>MR::NoInit</scope><name>__MR_NoInit_DefaultConstruct</name></member>
       <member refid="classMR_1_1NoInit_1a63a0347586b1bc814fb494bdd035ab38" prot="public" virt="non-virtual"><scope>MR::NoInit</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__NoInit_1aad3a8881e7b253e365fc60bcc5e65aa3" prot="package" virt="non-virtual"><scope>MR::NoInit</scope><name>Const_NoInit</name></member>
       <member refid="classMR_1_1Const__NoInit_1a0f0c5d3f3d5a4264166924a987171ccb" prot="public" virt="non-virtual"><scope>MR::NoInit</scope><name>Const_NoInit</name></member>

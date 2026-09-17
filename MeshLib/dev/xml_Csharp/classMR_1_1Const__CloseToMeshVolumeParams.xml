@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="323" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="323" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="307" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="307" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__CloseToMeshVolumeParams_1a368684fbef1ddfd51b33b5be05d91267" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe <ref refid="classMR_1_1Const__DistanceVolumeParams" kindref="compound">MR.Const_DistanceVolumeParams</ref></type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="329" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="329" bodyend="329"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="313" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="313" bodyend="313"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__CloseToMeshVolumeParams_1a3deb2aed657eeef06a8c82100a39d65d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="334" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="335" bodyend="346"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="318" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="319" bodyend="330"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="324" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="324" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="308" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="308" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__CloseToMeshVolumeParams_1a31d139698b74bdc0527e3f0dd7e74b9e" prot="protected" static="no" mutable="no">
         <type>unsafe MR.ConstBox_AffineXf3f._Underlying **</type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="347" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="347" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="331" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="331" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="310" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="310" bodyend="316"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="292" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="292" bodyend="300"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="317" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="317" bodyend="317"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="301" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="301" bodyend="301"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CloseToMeshVolumeParams_1a4d90ad6e2520dd1c8c484d8b5661a3d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="381" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="381" bodyend="385"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="371" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="371" bodyend="377"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CloseToMeshVolumeParams_1a125c4ce203118727ed3096c2b945920c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="390" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="390" bodyend="396"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="382" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="382" bodyend="390"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CloseToMeshVolumeParams_1aac954ccb1fe9474b1433a0a58b75cb3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="401" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="401" bodyend="406"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="395" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="395" bodyend="402"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CloseToMeshVolumeParams_1a15a7aeea2a622ad0f64c32eab31d146d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="411" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="411" bodyend="411"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="407" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="407" bodyend="407"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__CloseToMeshVolumeParams_1ac113b01680edd28b9f6031b5b5e5a75a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -214,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="416" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="416" bodyend="416"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="412" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="412" bodyend="412"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -230,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="318" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="318" bodyend="318"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="302" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="302" bodyend="302"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -254,147 +254,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="370" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="370" bodyend="375"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__CloseToMeshVolumeParams_1a03f3b71fb987b6ad310e72d2fd967aa8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.CloseToMeshVolumeParams._Underlying *</type>
-        <definition>static unsafe MR.CloseToMeshVolumeParams._Underlying * MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_ConstructFrom</definition>
-        <argsstring>(float closeDist, MR.Misc._PassBy vol_pass_by, MR.DistanceVolumeParams._Underlying *vol, MR.AffineXf3f *meshToWorld)</argsstring>
-        <name>__MR_CloseToMeshVolumeParams_ConstructFrom</name>
-        <qualifiedname>MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_ConstructFrom</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>closeDist</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>vol_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.DistanceVolumeParams._Underlying *</type>
-          <declname>vol</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
-          <declname>meshToWorld</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="421" column="67"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__CloseToMeshVolumeParams_1a1e9bf9ffcd4841e23cc94f0677da5f20" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.CloseToMeshVolumeParams._Underlying *</type>
-        <definition>static unsafe MR.CloseToMeshVolumeParams._Underlying * MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.CloseToMeshVolumeParams._Underlying *_other)</argsstring>
-        <name>__MR_CloseToMeshVolumeParams_ConstructFromAnother</name>
-        <qualifiedname>MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.CloseToMeshVolumeParams._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="424" column="67"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__CloseToMeshVolumeParams_1a36300efa53b1d7cd408e035d6a6bb836" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.CloseToMeshVolumeParams._Underlying *</type>
-        <definition>static unsafe MR.CloseToMeshVolumeParams._Underlying * MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_CloseToMeshVolumeParams_DefaultConstruct</name>
-        <qualifiedname>MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="427" column="67"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__CloseToMeshVolumeParams_1a6a3fe6071d4e58569e6ca90e5b2816bf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_Destroy</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_CloseToMeshVolumeParams_Destroy</name>
-        <qualifiedname>MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_Destroy</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="430" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__CloseToMeshVolumeParams_1af562e6d869869f8b937e85d948077397" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe float *</type>
-        <definition>static unsafe float * MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_Get_closeDist</definition>
-        <argsstring>(MR.Const_CloseToMeshVolumeParams._Underlying *_this)</argsstring>
-        <name>__MR_CloseToMeshVolumeParams_Get_closeDist</name>
-        <qualifiedname>MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_Get_closeDist</qualifiedname>
-        <param>
-          <type>MR.Const_CloseToMeshVolumeParams._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="433" column="36"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__CloseToMeshVolumeParams_1a0f6fb237028a925e22f1cdb9bee85223" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ConstBox_AffineXf3f._Underlying **</type>
-        <definition>static unsafe MR.ConstBox_AffineXf3f._Underlying ** MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_Get_meshToWorld</definition>
-        <argsstring>(Const_CloseToMeshVolumeParams._Underlying *_this)</argsstring>
-        <name>__MR_CloseToMeshVolumeParams_Get_meshToWorld</name>
-        <qualifiedname>MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_Get_meshToWorld</qualifiedname>
-        <param>
-          <type>Const_CloseToMeshVolumeParams._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="436" column="63"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__CloseToMeshVolumeParams_1a6b4888dee49602dd1d139ea46aac8005" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Const_DistanceVolumeParams._Underlying *</type>
-        <definition>static unsafe MR.Const_DistanceVolumeParams._Underlying * MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_Get_vol</definition>
-        <argsstring>(MR.Const_CloseToMeshVolumeParams._Underlying *_this)</argsstring>
-        <name>__MR_CloseToMeshVolumeParams_Get_vol</name>
-        <qualifiedname>MR.Const_CloseToMeshVolumeParams.__MR_CloseToMeshVolumeParams_Get_vol</qualifiedname>
-        <param>
-          <type>MR.Const_CloseToMeshVolumeParams._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="439" column="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="360" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="360" bodyend="365"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -447,15 +307,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="304" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="305" bodyend="440"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="286" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="287" bodyend="413"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a03f3b71fb987b6ad310e72d2fd967aa8" prot="private" virt="non-virtual"><scope>MR::Const_CloseToMeshVolumeParams</scope><name>__MR_CloseToMeshVolumeParams_ConstructFrom</name></member>
-      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a1e9bf9ffcd4841e23cc94f0677da5f20" prot="private" virt="non-virtual"><scope>MR::Const_CloseToMeshVolumeParams</scope><name>__MR_CloseToMeshVolumeParams_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a36300efa53b1d7cd408e035d6a6bb836" prot="private" virt="non-virtual"><scope>MR::Const_CloseToMeshVolumeParams</scope><name>__MR_CloseToMeshVolumeParams_DefaultConstruct</name></member>
-      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a6a3fe6071d4e58569e6ca90e5b2816bf" prot="private" virt="non-virtual"><scope>MR::Const_CloseToMeshVolumeParams</scope><name>__MR_CloseToMeshVolumeParams_Destroy</name></member>
-      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1af562e6d869869f8b937e85d948077397" prot="private" virt="non-virtual"><scope>MR::Const_CloseToMeshVolumeParams</scope><name>__MR_CloseToMeshVolumeParams_Get_closeDist</name></member>
-      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a0f6fb237028a925e22f1cdb9bee85223" prot="private" virt="non-virtual"><scope>MR::Const_CloseToMeshVolumeParams</scope><name>__MR_CloseToMeshVolumeParams_Get_meshToWorld</name></member>
-      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a6b4888dee49602dd1d139ea46aac8005" prot="private" virt="non-virtual"><scope>MR::Const_CloseToMeshVolumeParams</scope><name>__MR_CloseToMeshVolumeParams_Get_vol</name></member>
       <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a31d139698b74bdc0527e3f0dd7e74b9e" prot="protected" virt="non-virtual"><scope>MR::Const_CloseToMeshVolumeParams</scope><name>__ptr_storage_meshToWorld</name></member>
       <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a50c1a4ed9b21d4e4713704d487c0470e" prot="protected" virt="non-virtual"><scope>MR::Const_CloseToMeshVolumeParams</scope><name>__ref_storage_closeDist</name></member>
       <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a45498eccc3d8ac2031c0136e8cf7d9f3" prot="public" virt="non-virtual"><scope>MR::Const_CloseToMeshVolumeParams</scope><name>closeDist</name></member>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="236" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="236" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="222" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="222" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PolylineSubdivideSettings_1a30786f743f4d38f16a5566df8e3595bd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="241" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="241" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="227" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="227" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PolylineSubdivideSettings_1ae4df253b46c53e0b39d79de30333fad0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="247" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="248" bodyend="257"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="233" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="234" bodyend="243"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PolylineSubdivideSettings_1a90181caf76b486252e075a52bf81b567" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="262" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="263" bodyend="272"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="248" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="249" bodyend="258"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PolylineSubdivideSettings_1ae5954a531e884eb32fe4f89eeb979bee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="278" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="278" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="264" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="264" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PolylineSubdivideSettings_1a424395adb75ae28f558b47069a29ac5b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Void_From_MRVertId</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="283" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="283" bodyend="283"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="269" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="269" bodyend="269"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PolylineSubdivideSettings_1a979554dc52c15d488b0f627072aaddda" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="288" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="288" bodyend="288"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="274" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="274" bodyend="274"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PolylineSubdivideSettings_1ac5836b56bb1dfbcabdfb97915f5144e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Bool_From_Float</type>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="293" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="293" bodyend="293"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="279" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="279" bodyend="279"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="320" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="320" bodyend="324"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="312" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="312" bodyend="316"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="330" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="330" bodyend="334"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="322" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="322" bodyend="328"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1a6570393cbb871a875ff7f118728ddeab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="339" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="339" bodyend="348"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="333" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="333" bodyend="344"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1a51b96e0fe17f39e563356c6fcbd3c091" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="353" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="353" bodyend="358"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="349" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="349" bodyend="356"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1a44be99991118c72da7973d3e929d045c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="363" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="363" bodyend="363"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="361" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="361" bodyend="361"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1a67b27dba0d8ddf024b62bc500faa595a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -267,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="368" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="368" bodyend="368"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="366" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="366" bodyend="366"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1a2d0ee28383a5c98f2588c56d0825125f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PolylineSubdivideSettings" kindref="compound">MR.PolylineSubdivideSettings</ref></type>
@@ -286,183 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="373" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="373" bodyend="378"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1a3e181a110e84de93ae3a062770c8e69b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.PolylineSubdivideSettings._Underlying *</type>
-        <definition>static unsafe MR.PolylineSubdivideSettings._Underlying * MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.PolylineSubdivideSettings._Underlying *_other)</argsstring>
-        <name>__MR_PolylineSubdivideSettings_AssignFromAnother</name>
-        <qualifiedname>MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.PolylineSubdivideSettings._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="383" column="69"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1a683669584cb8323cceb5a58e589305d6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.PolylineSubdivideSettings._Underlying *</type>
-        <definition>static unsafe MR.PolylineSubdivideSettings._Underlying * MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_ConstructFrom</definition>
-        <argsstring>(float maxEdgeLen, int maxEdgeSplits, MR.VertBitSet._Underlying *region, MR.VertBitSet._Underlying *newVerts, byte useCurvature, MR.Misc._PassBy onVertCreated_pass_by, MR.Std.Function_Void_From_MRVertId._Underlying *onVertCreated, MR.Misc._PassBy onEdgeSplit_pass_by, MR.Std.Function_Void_From_MREdgeId_MREdgeId._Underlying *onEdgeSplit, MR.Misc._PassBy progressCallback_pass_by, MR.Std.Function_Bool_From_Float._Underlying *progressCallback)</argsstring>
-        <name>__MR_PolylineSubdivideSettings_ConstructFrom</name>
-        <qualifiedname>MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_ConstructFrom</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>maxEdgeLen</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>maxEdgeSplits</declname>
-        </param>
-        <param>
-          <type>MR.VertBitSet._Underlying *</type>
-          <declname>region</declname>
-        </param>
-        <param>
-          <type>MR.VertBitSet._Underlying *</type>
-          <declname>newVerts</declname>
-        </param>
-        <param>
-          <type>byte</type>
-          <declname>useCurvature</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>onVertCreated_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.Std.Function_Void_From_MRVertId._Underlying *</type>
-          <declname>onVertCreated</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>onEdgeSplit_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.Std.Function_Void_From_MREdgeId_MREdgeId._Underlying *</type>
-          <declname>onEdgeSplit</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>progressCallback_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
-          <declname>progressCallback</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="386" column="69"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1ac2cd7ea8d1f3992cd77b4b6ebe5cd9f6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.PolylineSubdivideSettings._Underlying *</type>
-        <definition>static unsafe MR.PolylineSubdivideSettings._Underlying * MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.PolylineSubdivideSettings._Underlying *_other)</argsstring>
-        <name>__MR_PolylineSubdivideSettings_ConstructFromAnother</name>
-        <qualifiedname>MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.PolylineSubdivideSettings._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="389" column="69"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1a5eda098c5c9726f56cf17ad88e8809d5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.PolylineSubdivideSettings._Underlying *</type>
-        <definition>static unsafe MR.PolylineSubdivideSettings._Underlying * MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_PolylineSubdivideSettings_DefaultConstruct</name>
-        <qualifiedname>MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="392" column="69"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1ad3743e0a2673ec7e1d73a3e7ee8bef10" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId._Underlying *</type>
-        <definition>static unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId._Underlying * MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_GetMutable_onEdgeSplit</definition>
-        <argsstring>(MR.PolylineSubdivideSettings._Underlying *_this)</argsstring>
-        <name>__MR_PolylineSubdivideSettings_GetMutable_onEdgeSplit</name>
-        <qualifiedname>MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_GetMutable_onEdgeSplit</qualifiedname>
-        <param>
-          <type>MR.PolylineSubdivideSettings._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="395" column="83"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1af99c0c200086768d36b1efde4aefab35" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Function_Void_From_MRVertId._Underlying *</type>
-        <definition>static unsafe MR.Std.Function_Void_From_MRVertId._Underlying * MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_GetMutable_onVertCreated</definition>
-        <argsstring>(MR.PolylineSubdivideSettings._Underlying *_this)</argsstring>
-        <name>__MR_PolylineSubdivideSettings_GetMutable_onVertCreated</name>
-        <qualifiedname>MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_GetMutable_onVertCreated</qualifiedname>
-        <param>
-          <type>MR.PolylineSubdivideSettings._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="398" column="74"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1a7c7de483c390c56a32f6907c4d923972" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Function_Bool_From_Float._Underlying *</type>
-        <definition>static unsafe MR.Std.Function_Bool_From_Float._Underlying * MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_GetMutable_progressCallback</definition>
-        <argsstring>(MR.PolylineSubdivideSettings._Underlying *_this)</argsstring>
-        <name>__MR_PolylineSubdivideSettings_GetMutable_progressCallback</name>
-        <qualifiedname>MR.PolylineSubdivideSettings.__MR_PolylineSubdivideSettings_GetMutable_progressCallback</qualifiedname>
-        <param>
-          <type>MR.PolylineSubdivideSettings._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="401" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="371" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="371" bodyend="378"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -522,15 +346,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="231" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="232" bodyend="402"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="217" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="218" bodyend="379"/>
     <listofallmembers>
-      <member refid="classMR_1_1PolylineSubdivideSettings_1a3e181a110e84de93ae3a062770c8e69b" prot="private" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__MR_PolylineSubdivideSettings_AssignFromAnother</name></member>
-      <member refid="classMR_1_1PolylineSubdivideSettings_1a683669584cb8323cceb5a58e589305d6" prot="private" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__MR_PolylineSubdivideSettings_ConstructFrom</name></member>
-      <member refid="classMR_1_1PolylineSubdivideSettings_1ac2cd7ea8d1f3992cd77b4b6ebe5cd9f6" prot="private" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__MR_PolylineSubdivideSettings_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1PolylineSubdivideSettings_1a5eda098c5c9726f56cf17ad88e8809d5" prot="private" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__MR_PolylineSubdivideSettings_DefaultConstruct</name></member>
-      <member refid="classMR_1_1PolylineSubdivideSettings_1ad3743e0a2673ec7e1d73a3e7ee8bef10" prot="private" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__MR_PolylineSubdivideSettings_GetMutable_onEdgeSplit</name></member>
-      <member refid="classMR_1_1PolylineSubdivideSettings_1af99c0c200086768d36b1efde4aefab35" prot="private" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__MR_PolylineSubdivideSettings_GetMutable_onVertCreated</name></member>
-      <member refid="classMR_1_1PolylineSubdivideSettings_1a7c7de483c390c56a32f6907c4d923972" prot="private" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__MR_PolylineSubdivideSettings_GetMutable_progressCallback</name></member>
       <member refid="classMR_1_1Const__PolylineSubdivideSettings_1a87075c83b63493d12e4c453055f05c94" prot="protected" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__ptr_storage_newVerts</name></member>
       <member refid="classMR_1_1Const__PolylineSubdivideSettings_1a2162f044abb452cc3555ca9bed030083" prot="protected" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__ptr_storage_region</name></member>
       <member refid="classMR_1_1Const__PolylineSubdivideSettings_1a9fc3f955d53dbd60e257ed302ee210df" prot="protected" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__ref_storage_maxEdgeLen</name></member>

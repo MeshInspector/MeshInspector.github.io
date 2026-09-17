@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" line="11" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" bodystart="11" bodyend="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" line="11" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" bodystart="11" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectSave_1ac2eff38293664a74185b3ba0781db0bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -59,79 +59,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" line="29" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" bodystart="29" bodyend="38"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1ObjectSave_1a12324d34e1cc870851bdc2b34e7ea513" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.ObjectSave.__MR_ObjectSave_toAnySupportedFormat</definition>
-        <argsstring>(MR.Const_Object._Underlying *object_, byte *file, byte *file_end, MR.ObjectSave.Const_Settings._Underlying *settings)</argsstring>
-        <name>__MR_ObjectSave_toAnySupportedFormat</name>
-        <qualifiedname>MR.ObjectSave.__MR_ObjectSave_toAnySupportedFormat</qualifiedname>
-        <param>
-          <type>MR.Const_Object._Underlying *</type>
-          <declname>object_</declname>
-        </param>
-        <param>
-          <type>byte *</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type>byte *</type>
-          <declname>file_end</declname>
-        </param>
-        <param>
-          <type>MR.ObjectSave.Const_Settings._Underlying *</type>
-          <declname>settings</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" line="43" column="67"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectSave_1a9982f908d7fe9ab20eeaaf0a75682387" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.ObjectSave.__MR_ObjectSave_toAnySupportedSceneFormat</definition>
-        <argsstring>(MR.Const_Object._Underlying *object_, byte *file, byte *file_end, MR.ObjectSave.Const_Settings._Underlying *settings)</argsstring>
-        <name>__MR_ObjectSave_toAnySupportedSceneFormat</name>
-        <qualifiedname>MR.ObjectSave.__MR_ObjectSave_toAnySupportedSceneFormat</qualifiedname>
-        <param>
-          <type>MR.Const_Object._Underlying *</type>
-          <declname>object_</declname>
-        </param>
-        <param>
-          <type>byte *</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type>byte *</type>
-          <declname>file_end</declname>
-        </param>
-        <param>
-          <type>MR.ObjectSave.Const_Settings._Underlying *</type>
-          <declname>settings</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" line="46" column="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" line="31" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" bodystart="31" bodyend="42"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" bodystart="4" bodyend="47"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" bodystart="4" bodyend="43"/>
     <listofallmembers>
-      <member refid="classMR_1_1ObjectSave_1a12324d34e1cc870851bdc2b34e7ea513" prot="private" virt="non-virtual"><scope>MR::ObjectSave</scope><name>__MR_ObjectSave_toAnySupportedFormat</name></member>
-      <member refid="classMR_1_1ObjectSave_1a9982f908d7fe9ab20eeaaf0a75682387" prot="private" virt="non-virtual"><scope>MR::ObjectSave</scope><name>__MR_ObjectSave_toAnySupportedSceneFormat</name></member>
       <member refid="classMR_1_1ObjectSave_1ac2eff38293664a74185b3ba0781db0bb" prot="public" virt="non-virtual"><scope>MR::ObjectSave</scope><name>toAnySupportedFormat</name></member>
       <member refid="classMR_1_1ObjectSave_1a02ea345222c8335edd77a73314e87e68" prot="public" virt="non-virtual"><scope>MR::ObjectSave</scope><name>toAnySupportedSceneFormat</name></member>
     </listofallmembers>

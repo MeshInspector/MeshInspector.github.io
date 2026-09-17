@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5491" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5491" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5199" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5199" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5496" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5204" column="32"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a24fa9f725f9da357b7f6caf5774d0aff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5531" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5531" bodyend="5534"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5245" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5245" bodyend="5250"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a04e27e68dceabef85c477e5035bce1ed" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5539" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5539" bodyend="5542"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5255" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5255" bodyend="5260"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a9eb24ba73912efd7e1436316eb5658b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5569" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5569" bodyend="5572"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5291" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5291" bodyend="5296"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a853b7dfc4704b54aa9eeebbfd5053c85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -120,253 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5574" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5574" bodyend="5577"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1aa1169b31e378d7c19b5a64946bdb5184" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
-        <definition>static unsafe MR.GraphVertId MR.GraphVertId.__MR_GraphVertId_Construct_MR_NoInit</definition>
-        <argsstring>(MR.NoInit._Underlying *_1)</argsstring>
-        <name>__MR_GraphVertId_Construct_MR_NoInit</name>
-        <qualifiedname>MR.GraphVertId.__MR_GraphVertId_Construct_MR_NoInit</qualifiedname>
-        <param>
-          <type>MR.NoInit._Underlying *</type>
-          <declname>_1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5673" column="44"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1a8c5d702d7f872004c7ff6212034005c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
-        <definition>static MR.GraphVertId MR.GraphVertId.__MR_GraphVertId_Construct_int</definition>
-        <argsstring>(int i)</argsstring>
-        <name>__MR_GraphVertId_Construct_int</name>
-        <qualifiedname>MR.GraphVertId.__MR_GraphVertId_Construct_int</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5676" column="37"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1a13605253ab9fb70473f202971bcbac53" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.GraphVertId.__MR_GraphVertId_ConvertTo_bool</definition>
-        <argsstring>(MR.GraphVertId *_this)</argsstring>
-        <name>__MR_GraphVertId_ConvertTo_bool</name>
-        <qualifiedname>MR.GraphVertId.__MR_GraphVertId_ConvertTo_bool</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5679" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1a0cb17dad43992416dbbc358ec073482f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe int</type>
-        <definition>static unsafe int MR.GraphVertId.__MR_GraphVertId_ConvertTo_int</definition>
-        <argsstring>(MR.GraphVertId *_this)</argsstring>
-        <name>__MR_GraphVertId_ConvertTo_int</name>
-        <qualifiedname>MR.GraphVertId.__MR_GraphVertId_ConvertTo_int</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5682" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1a8b24004fd200fbdf1d94b687f482ccee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
-        <definition>static MR.GraphVertId MR.GraphVertId.__MR_GraphVertId_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_GraphVertId_DefaultConstruct</name>
-        <qualifiedname>MR.GraphVertId.__MR_GraphVertId_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5685" column="37"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1a708ec149047ff544eaa031d17d4adedb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-        <definition>static unsafe MR.GraphVertId * MR.GraphVertId.__MR_GraphVertId_add_assign</definition>
-        <argsstring>(MR.GraphVertId *_this, int a)</argsstring>
-        <name>__MR_GraphVertId_add_assign</name>
-        <qualifiedname>MR.GraphVertId.__MR_GraphVertId_add_assign</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5688" column="44"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1aacd9bb94672a5ad5390812c8733fb5b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe int *</type>
-        <definition>static unsafe int * MR.GraphVertId.__MR_GraphVertId_get</definition>
-        <argsstring>(MR.GraphVertId *_this)</argsstring>
-        <name>__MR_GraphVertId_get</name>
-        <qualifiedname>MR.GraphVertId.__MR_GraphVertId_get</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5691" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1a54214dbf9dfb4eed6f5d1903d853061b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-        <definition>static unsafe MR.GraphVertId * MR.GraphVertId.__MR_GraphVertId_sub_assign</definition>
-        <argsstring>(MR.GraphVertId *_this, int a)</argsstring>
-        <name>__MR_GraphVertId_sub_assign</name>
-        <qualifiedname>MR.GraphVertId.__MR_GraphVertId_sub_assign</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5694" column="44"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1af08ccb8b4b78eeb0d553f3cf268e19f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.GraphVertId.__MR_GraphVertId_valid</definition>
-        <argsstring>(MR.GraphVertId *_this)</argsstring>
-        <name>__MR_GraphVertId_valid</name>
-        <qualifiedname>MR.GraphVertId.__MR_GraphVertId_valid</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5697" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1a8bd46bc842c0617c03e548e37a8a5001" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-        <definition>static unsafe MR.GraphVertId * MR.GraphVertId.__MR_decr_MR_GraphVertId</definition>
-        <argsstring>(MR.GraphVertId *_this)</argsstring>
-        <name>__MR_decr_MR_GraphVertId</name>
-        <qualifiedname>MR.GraphVertId.__MR_decr_MR_GraphVertId</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5700" column="44"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1a614c3c584b8e30801d31c1ff79e6640f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.GraphVertId.__MR_equal_MR_GraphVertId</definition>
-        <argsstring>(MR.GraphVertId *_this, MR.GraphVertId b)</argsstring>
-        <name>__MR_equal_MR_GraphVertId</name>
-        <qualifiedname>MR.GraphVertId.__MR_equal_MR_GraphVertId</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5703" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1a73527506985019c9b1f24986ce4a8900" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-        <definition>static unsafe MR.GraphVertId * MR.GraphVertId.__MR_incr_MR_GraphVertId</definition>
-        <argsstring>(MR.GraphVertId *_this)</argsstring>
-        <name>__MR_incr_MR_GraphVertId</name>
-        <qualifiedname>MR.GraphVertId.__MR_incr_MR_GraphVertId</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5706" column="44"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1GraphVertId_1a2641776a230e99240846bb0539ef1d12" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.GraphVertId.__MR_less_MR_GraphVertId</definition>
-        <argsstring>(MR.GraphVertId *_this, MR.GraphVertId b)</argsstring>
-        <name>__MR_less_MR_GraphVertId</name>
-        <qualifiedname>MR.GraphVertId.__MR_less_MR_GraphVertId</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5709" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5298" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5298" bodyend="5301"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -387,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5501" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5501" bodyend="5501"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5209" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5209" bodyend="5209"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a3efaed61cfd0c1b686eec7d2f2bb968c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -402,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5506" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5506" bodyend="5509"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5214" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5214" bodyend="5219"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1add67c7491ea3aa584d34d6c950c48012" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -421,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5514" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5514" bodyend="5517"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5224" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5224" bodyend="5229"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a6c0f0d31ab55cb5e6ad48a4f644eb30c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -440,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5523" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5523" bodyend="5526"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5235" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5235" bodyend="5240"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a3c77d30671603ed78a5492fd91b856fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>readonly unsafe bool</type>
@@ -455,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5547" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5547" bodyend="5553"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5265" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5265" bodyend="5273"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a9da20466c194cf01298a75a42b099c7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref int</type>
@@ -470,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5558" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5558" bodyend="5564"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5278" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5278" bodyend="5286"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a067ca9640ba383ebfec71740686d1669" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>readonly unsafe bool</type>
@@ -489,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5582" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5582" bodyend="5588"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5306" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5306" bodyend="5314"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1ae49f3c8ab6135e8741239cc655d28ddf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -504,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5593" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5593" bodyend="5599"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5319" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5319" bodyend="5327"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1af107a6f3a0340d5e3bbbe6db4ab85ca6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -523,7 +277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5604" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5604" bodyend="5609"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5332" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5332" bodyend="5339"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a40c2cb46a142170b2df1eabd1820527d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -538,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5614" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5614" bodyend="5620"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5344" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5344" bodyend="5352"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a09b9ab771723bc266385f5ef5c384a4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -557,7 +311,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5625" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5625" bodyend="5630"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5357" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5357" bodyend="5364"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1ad31ffc1f32bcd5afba98fd56338fae39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
@@ -576,7 +330,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5635" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5635" bodyend="5641"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5369" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5369" bodyend="5377"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a4f346c09158b0037a1918757189e0146" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
@@ -595,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5646" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5646" bodyend="5652"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5382" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5382" bodyend="5390"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1a54d8e82e3588e96c37511728678afc26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -613,7 +367,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5656" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5656" bodyend="5659"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5394" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5394" bodyend="5397"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1GraphVertId_1af10312375509a3114c434e7a0ac0e063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -631,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5661" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5661" bodyend="5668"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5399" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5399" bodyend="5406"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -661,21 +415,8 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5489" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5490" bodyend="5710"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5197" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5198" bodyend="5407"/>
     <listofallmembers>
-      <member refid="structMR_1_1GraphVertId_1a8bd46bc842c0617c03e548e37a8a5001" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_decr_MR_GraphVertId</name></member>
-      <member refid="structMR_1_1GraphVertId_1a614c3c584b8e30801d31c1ff79e6640f" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_equal_MR_GraphVertId</name></member>
-      <member refid="structMR_1_1GraphVertId_1a708ec149047ff544eaa031d17d4adedb" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_GraphVertId_add_assign</name></member>
-      <member refid="structMR_1_1GraphVertId_1a8c5d702d7f872004c7ff6212034005c3" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_GraphVertId_Construct_int</name></member>
-      <member refid="structMR_1_1GraphVertId_1aa1169b31e378d7c19b5a64946bdb5184" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_GraphVertId_Construct_MR_NoInit</name></member>
-      <member refid="structMR_1_1GraphVertId_1a13605253ab9fb70473f202971bcbac53" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_GraphVertId_ConvertTo_bool</name></member>
-      <member refid="structMR_1_1GraphVertId_1a0cb17dad43992416dbbc358ec073482f" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_GraphVertId_ConvertTo_int</name></member>
-      <member refid="structMR_1_1GraphVertId_1a8b24004fd200fbdf1d94b687f482ccee" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_GraphVertId_DefaultConstruct</name></member>
-      <member refid="structMR_1_1GraphVertId_1aacd9bb94672a5ad5390812c8733fb5b8" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_GraphVertId_get</name></member>
-      <member refid="structMR_1_1GraphVertId_1a54214dbf9dfb4eed6f5d1903d853061b" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_GraphVertId_sub_assign</name></member>
-      <member refid="structMR_1_1GraphVertId_1af08ccb8b4b78eeb0d553f3cf268e19f9" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_GraphVertId_valid</name></member>
-      <member refid="structMR_1_1GraphVertId_1a73527506985019c9b1f24986ce4a8900" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_incr_MR_GraphVertId</name></member>
-      <member refid="structMR_1_1GraphVertId_1a2641776a230e99240846bb0539ef1d12" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>__MR_less_MR_GraphVertId</name></member>
       <member refid="structMR_1_1GraphVertId_1a4f346c09158b0037a1918757189e0146" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>addAssign</name></member>
       <member refid="structMR_1_1GraphVertId_1ae49f3c8ab6135e8741239cc655d28ddf" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>decr</name></member>
       <member refid="structMR_1_1GraphVertId_1af107a6f3a0340d5e3bbbe6db4ab85ca6" prot="public" virt="non-virtual"><scope>MR::GraphVertId</scope><name>decr</name></member>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="567" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="567" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="530" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="530" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshTriPoint_1a2619c838f16c04709d2c6fc8f036dedf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1TriPointf" kindref="compound">MR.TriPointf</ref></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="575" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="575" bodyend="575"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="538" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="538" bodyend="538"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="592" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="592" bodyend="596"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="557" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="557" bodyend="561"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="602" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="602" bodyend="606"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="567" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="567" bodyend="573"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshTriPoint_1af073948c2a10ef3938ea0141707ec8a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="611" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="611" bodyend="616"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="578" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="578" bodyend="585"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshTriPoint_1a4f8e62d9c4e53782b86c460ac47162d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="621" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="621" bodyend="621"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="590" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="590" bodyend="590"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshTriPoint_1aa80421768c8988c69efd9311e64dd8c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="626" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="626" bodyend="631"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="595" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="595" bodyend="602"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshTriPoint_1a24db18872f63f3b4efe607fe57c4905d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="641" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="641" bodyend="646"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="612" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="612" bodyend="619"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshTriPoint_1a8c51d60daa697bded00c3dba010ba133" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="651" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="651" bodyend="656"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="624" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="624" bodyend="631"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshTriPoint_1a978a7a4d0d504596cbd2adc30be92b74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -196,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="666" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="666" bodyend="671"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="641" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="641" bodyend="648"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshTriPoint_1a3fe477a84218153937d1c93ab88ae5e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="676" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="676" bodyend="681"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="653" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="653" bodyend="660"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="636" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="636" bodyend="636"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="607" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="607" bodyend="607"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshTriPoint_1a480db09456efe20f2784dc12e2c29af0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -255,161 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="661" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="661" bodyend="661"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1MeshTriPoint_1a061b31660434607b5a07c1bbe3db2b8a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MeshTriPoint._Underlying *</type>
-        <definition>static unsafe MR.MeshTriPoint._Underlying * MR.MeshTriPoint.__MR_MeshTriPoint_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.MeshTriPoint._Underlying *_other)</argsstring>
-        <name>__MR_MeshTriPoint_AssignFromAnother</name>
-        <qualifiedname>MR.MeshTriPoint.__MR_MeshTriPoint_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.MeshTriPoint._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="686" column="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTriPoint_1a2ebe30e0f75f7bd5c234cb07ae9069c7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MeshTriPoint._Underlying *</type>
-        <definition>static unsafe MR.MeshTriPoint._Underlying * MR.MeshTriPoint.__MR_MeshTriPoint_ConstructFromAnother</definition>
-        <argsstring>(MR.MeshTriPoint._Underlying *_other)</argsstring>
-        <name>__MR_MeshTriPoint_ConstructFromAnother</name>
-        <qualifiedname>MR.MeshTriPoint.__MR_MeshTriPoint_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.MeshTriPoint._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="689" column="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTriPoint_1aef02e355837b9b102c151e247058a6bc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MeshTriPoint._Underlying *</type>
-        <definition>static unsafe MR.MeshTriPoint._Underlying * MR.MeshTriPoint.__MR_MeshTriPoint_Construct_1_MR_EdgePoint</definition>
-        <argsstring>(MR.Const_EdgePoint._Underlying *ep)</argsstring>
-        <name>__MR_MeshTriPoint_Construct_1_MR_EdgePoint</name>
-        <qualifiedname>MR.MeshTriPoint.__MR_MeshTriPoint_Construct_1_MR_EdgePoint</qualifiedname>
-        <param>
-          <type>MR.Const_EdgePoint._Underlying *</type>
-          <declname>ep</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="692" column="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTriPoint_1a89c2c0ab591b37c2bcbcac9d056606d3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MeshTriPoint._Underlying *</type>
-        <definition>static unsafe MR.MeshTriPoint._Underlying * MR.MeshTriPoint.__MR_MeshTriPoint_Construct_1_MR_NoInit</definition>
-        <argsstring>(MR.NoInit._Underlying *_1)</argsstring>
-        <name>__MR_MeshTriPoint_Construct_1_MR_NoInit</name>
-        <qualifiedname>MR.MeshTriPoint.__MR_MeshTriPoint_Construct_1_MR_NoInit</qualifiedname>
-        <param>
-          <type>MR.NoInit._Underlying *</type>
-          <declname>_1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="695" column="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTriPoint_1a01fd47c559f6853ae345ad36cc69cffc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MeshTriPoint._Underlying *</type>
-        <definition>static unsafe MR.MeshTriPoint._Underlying * MR.MeshTriPoint.__MR_MeshTriPoint_Construct_2_MR_EdgeId</definition>
-        <argsstring>(MR.EdgeId e, MR.TriPointf._Underlying *bary)</argsstring>
-        <name>__MR_MeshTriPoint_Construct_2_MR_EdgeId</name>
-        <qualifiedname>MR.MeshTriPoint.__MR_MeshTriPoint_Construct_2_MR_EdgeId</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
-          <declname>e</declname>
-        </param>
-        <param>
-          <type>MR.TriPointf._Underlying *</type>
-          <declname>bary</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="698" column="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTriPoint_1a33a907cd753980a904645a98853b07ba" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MeshTriPoint._Underlying *</type>
-        <definition>static unsafe MR.MeshTriPoint._Underlying * MR.MeshTriPoint.__MR_MeshTriPoint_Construct_2_MR_MeshTopology</definition>
-        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.VertId v)</argsstring>
-        <name>__MR_MeshTriPoint_Construct_2_MR_MeshTopology</name>
-        <qualifiedname>MR.MeshTriPoint.__MR_MeshTriPoint_Construct_2_MR_MeshTopology</qualifiedname>
-        <param>
-          <type>MR.Const_MeshTopology._Underlying *</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="701" column="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTriPoint_1aee455857bbda77e1756d2f667ee2079e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MeshTriPoint._Underlying *</type>
-        <definition>static unsafe MR.MeshTriPoint._Underlying * MR.MeshTriPoint.__MR_MeshTriPoint_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_MeshTriPoint_DefaultConstruct</name>
-        <qualifiedname>MR.MeshTriPoint.__MR_MeshTriPoint_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="704" column="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTriPoint_1a0e3b3c6d8ee49ddfe03522edbabdfff6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.TriPointf._Underlying *</type>
-        <definition>static unsafe MR.TriPointf._Underlying * MR.MeshTriPoint.__MR_MeshTriPoint_GetMutable_bary</definition>
-        <argsstring>(MR.MeshTriPoint._Underlying *_this)</argsstring>
-        <name>__MR_MeshTriPoint_GetMutable_bary</name>
-        <qualifiedname>MR.MeshTriPoint.__MR_MeshTriPoint_GetMutable_bary</qualifiedname>
-        <param>
-          <type>MR.MeshTriPoint._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="707" column="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="636" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="636" bodyend="636"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -482,16 +328,8 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="562" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="563" bodyend="708"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="525" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="526" bodyend="661"/>
     <listofallmembers>
-      <member refid="classMR_1_1MeshTriPoint_1a061b31660434607b5a07c1bbe3db2b8a" prot="private" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>__MR_MeshTriPoint_AssignFromAnother</name></member>
-      <member refid="classMR_1_1MeshTriPoint_1aef02e355837b9b102c151e247058a6bc" prot="private" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>__MR_MeshTriPoint_Construct_1_MR_EdgePoint</name></member>
-      <member refid="classMR_1_1MeshTriPoint_1a89c2c0ab591b37c2bcbcac9d056606d3" prot="private" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>__MR_MeshTriPoint_Construct_1_MR_NoInit</name></member>
-      <member refid="classMR_1_1MeshTriPoint_1a01fd47c559f6853ae345ad36cc69cffc" prot="private" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>__MR_MeshTriPoint_Construct_2_MR_EdgeId</name></member>
-      <member refid="classMR_1_1MeshTriPoint_1a33a907cd753980a904645a98853b07ba" prot="private" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>__MR_MeshTriPoint_Construct_2_MR_MeshTopology</name></member>
-      <member refid="classMR_1_1MeshTriPoint_1a2ebe30e0f75f7bd5c234cb07ae9069c7" prot="private" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>__MR_MeshTriPoint_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1MeshTriPoint_1aee455857bbda77e1756d2f667ee2079e" prot="private" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>__MR_MeshTriPoint_DefaultConstruct</name></member>
-      <member refid="classMR_1_1MeshTriPoint_1a0e3b3c6d8ee49ddfe03522edbabdfff6" prot="private" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>__MR_MeshTriPoint_GetMutable_bary</name></member>
       <member refid="classMR_1_1Const__MeshTriPoint_1adce42f74a045c6d95a710462ea5386ff" prot="protected" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>__ref_storage_e</name></member>
       <member refid="classMR_1_1MeshTriPoint_1a3fe477a84218153937d1c93ab88ae5e4" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>assign</name></member>
       <member refid="classMR_1_1MeshTriPoint_1a2619c838f16c04709d2c6fc8f036dedf" prot="public" virt="non-virtual"><scope>MR::MeshTriPoint</scope><name>bary</name></member>

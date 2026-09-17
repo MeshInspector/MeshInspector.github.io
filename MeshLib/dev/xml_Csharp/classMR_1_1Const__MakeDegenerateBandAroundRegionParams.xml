@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="25" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="26" bodyend="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="27" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="28" bodyend="39"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1ab3db92fc2d4db21a9f2ced4d743d714f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="41" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="42" bodyend="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="43" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="44" bodyend="55"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1ab0f4f56daa294bbad6e0e8954c7c88ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe MR.Misc.? Box&lt; float &gt;</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="57" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="58" bodyend="69"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="59" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="60" bodyend="71"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a681d30de1453e45a0b4e38b6197f8c98" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe MR.Phmap.? FlatHashMap_MRVertId_MRVertId</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="73" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="74" bodyend="85"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="75" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="76" bodyend="87"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="38" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="38" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="40" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1af519c2ca5cad93235ca2f3c8bf645a33" prot="protected" static="no" mutable="no">
         <type>unsafe MR.UndirectedEdgeBitSet._Underlying **</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="54" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="54" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="56" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a73506eea6e9ba47e299bc37cff1faa87" prot="protected" static="no" mutable="no">
         <type>unsafe float **</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="70" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="70" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="72" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="72" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1aad0f906d10809d9ea334577da5e33b90" prot="protected" static="no" mutable="no">
         <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRVertId._Underlying **</type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="86" column="82" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="86" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="88" column="82" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="88" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="14" bodyend="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="14" bodyend="22"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="21" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="21" bodyend="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="23" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1aa4961493487f18e362e6d15eb3e4c864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -169,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="123" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="123" bodyend="127"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="133" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="133" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a523cd2a819e740ed5afc2b935f1d81e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="132" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="132" bodyend="141"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="144" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="144" bodyend="155"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1ae7348cec57d29dea793b88551834b9ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="146" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="146" bodyend="151"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="160" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="160" bodyend="167"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1ad6274a4571bb85ec149b52382e62beef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -238,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="156" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="156" bodyend="156"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="172" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="172" bodyend="172"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -254,7 +254,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="22" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="22" bodyend="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="24" bodyend="24"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -278,161 +278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="112" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="112" bodyend="117"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a9e5d773d001ceb2f615ef27a51d3e239" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MakeDegenerateBandAroundRegionParams._Underlying *</type>
-        <definition>static unsafe MR.MakeDegenerateBandAroundRegionParams._Underlying * MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_ConstructFrom</definition>
-        <argsstring>(MR.FaceBitSet._Underlying *outNewFaces, MR.UndirectedEdgeBitSet._Underlying *outExtrudedEdges, float *maxEdgeLength, MR.Phmap.FlatHashMap_MRVertId_MRVertId._Underlying *new2OldMap)</argsstring>
-        <name>__MR_MakeDegenerateBandAroundRegionParams_ConstructFrom</name>
-        <qualifiedname>MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_ConstructFrom</qualifiedname>
-        <param>
-          <type>MR.FaceBitSet._Underlying *</type>
-          <declname>outNewFaces</declname>
-        </param>
-        <param>
-          <type>MR.UndirectedEdgeBitSet._Underlying *</type>
-          <declname>outExtrudedEdges</declname>
-        </param>
-        <param>
-          <type>float *</type>
-          <declname>maxEdgeLength</declname>
-        </param>
-        <param>
-          <type>MR.Phmap.FlatHashMap_MRVertId_MRVertId._Underlying *</type>
-          <declname>new2OldMap</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="161" column="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1ad9d3bd0c943c4b06344a6fc22ef0e290" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MakeDegenerateBandAroundRegionParams._Underlying *</type>
-        <definition>static unsafe MR.MakeDegenerateBandAroundRegionParams._Underlying * MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_ConstructFromAnother</definition>
-        <argsstring>(MR.MakeDegenerateBandAroundRegionParams._Underlying *_other)</argsstring>
-        <name>__MR_MakeDegenerateBandAroundRegionParams_ConstructFromAnother</name>
-        <qualifiedname>MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.MakeDegenerateBandAroundRegionParams._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="164" column="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1aa010d8671ae15e430227d8ff38ad3c9d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MakeDegenerateBandAroundRegionParams._Underlying *</type>
-        <definition>static unsafe MR.MakeDegenerateBandAroundRegionParams._Underlying * MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_MakeDegenerateBandAroundRegionParams_DefaultConstruct</name>
-        <qualifiedname>MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="167" column="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a90ff9330c115e5000ee1a54d24ac59fa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_Destroy</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_MakeDegenerateBandAroundRegionParams_Destroy</name>
-        <qualifiedname>MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_Destroy</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="170" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1aee787bfd7e550ada1a58f8340f288009" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe float **</type>
-        <definition>static unsafe float ** MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_Get_maxEdgeLength</definition>
-        <argsstring>(Const_MakeDegenerateBandAroundRegionParams._Underlying *_this)</argsstring>
-        <name>__MR_MakeDegenerateBandAroundRegionParams_Get_maxEdgeLength</name>
-        <qualifiedname>MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_Get_maxEdgeLength</qualifiedname>
-        <param>
-          <type>Const_MakeDegenerateBandAroundRegionParams._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="173" column="36"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1aa53f09cd87203adc6d2066fcf4041e60" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRVertId._Underlying **</type>
-        <definition>static unsafe MR.Phmap.FlatHashMap_MRVertId_MRVertId._Underlying ** MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_Get_new2OldMap</definition>
-        <argsstring>(Const_MakeDegenerateBandAroundRegionParams._Underlying *_this)</argsstring>
-        <name>__MR_MakeDegenerateBandAroundRegionParams_Get_new2OldMap</name>
-        <qualifiedname>MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_Get_new2OldMap</qualifiedname>
-        <param>
-          <type>Const_MakeDegenerateBandAroundRegionParams._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="176" column="78"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a5c7879c4f61f2168b6aac59b1ce33a91" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.UndirectedEdgeBitSet._Underlying **</type>
-        <definition>static unsafe MR.UndirectedEdgeBitSet._Underlying ** MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_Get_outExtrudedEdges</definition>
-        <argsstring>(Const_MakeDegenerateBandAroundRegionParams._Underlying *_this)</argsstring>
-        <name>__MR_MakeDegenerateBandAroundRegionParams_Get_outExtrudedEdges</name>
-        <qualifiedname>MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_Get_outExtrudedEdges</qualifiedname>
-        <param>
-          <type>Const_MakeDegenerateBandAroundRegionParams._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="179" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a9b02fd70a4ce0240864c3b89c768e1da" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FaceBitSet._Underlying **</type>
-        <definition>static unsafe MR.FaceBitSet._Underlying ** MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_Get_outNewFaces</definition>
-        <argsstring>(Const_MakeDegenerateBandAroundRegionParams._Underlying *_this)</argsstring>
-        <name>__MR_MakeDegenerateBandAroundRegionParams_Get_outNewFaces</name>
-        <qualifiedname>MR.Const_MakeDegenerateBandAroundRegionParams.__MR_MakeDegenerateBandAroundRegionParams_Get_outNewFaces</qualifiedname>
-        <param>
-          <type>Const_MakeDegenerateBandAroundRegionParams._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="182" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="122" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="122" bodyend="127"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -487,16 +333,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="9" bodyend="183"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="9" bodyend="173"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a9e5d773d001ceb2f615ef27a51d3e239" prot="private" virt="non-virtual"><scope>MR::Const_MakeDegenerateBandAroundRegionParams</scope><name>__MR_MakeDegenerateBandAroundRegionParams_ConstructFrom</name></member>
-      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1ad9d3bd0c943c4b06344a6fc22ef0e290" prot="private" virt="non-virtual"><scope>MR::Const_MakeDegenerateBandAroundRegionParams</scope><name>__MR_MakeDegenerateBandAroundRegionParams_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1aa010d8671ae15e430227d8ff38ad3c9d" prot="private" virt="non-virtual"><scope>MR::Const_MakeDegenerateBandAroundRegionParams</scope><name>__MR_MakeDegenerateBandAroundRegionParams_DefaultConstruct</name></member>
-      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a90ff9330c115e5000ee1a54d24ac59fa" prot="private" virt="non-virtual"><scope>MR::Const_MakeDegenerateBandAroundRegionParams</scope><name>__MR_MakeDegenerateBandAroundRegionParams_Destroy</name></member>
-      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1aee787bfd7e550ada1a58f8340f288009" prot="private" virt="non-virtual"><scope>MR::Const_MakeDegenerateBandAroundRegionParams</scope><name>__MR_MakeDegenerateBandAroundRegionParams_Get_maxEdgeLength</name></member>
-      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1aa53f09cd87203adc6d2066fcf4041e60" prot="private" virt="non-virtual"><scope>MR::Const_MakeDegenerateBandAroundRegionParams</scope><name>__MR_MakeDegenerateBandAroundRegionParams_Get_new2OldMap</name></member>
-      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a5c7879c4f61f2168b6aac59b1ce33a91" prot="private" virt="non-virtual"><scope>MR::Const_MakeDegenerateBandAroundRegionParams</scope><name>__MR_MakeDegenerateBandAroundRegionParams_Get_outExtrudedEdges</name></member>
-      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a9b02fd70a4ce0240864c3b89c768e1da" prot="private" virt="non-virtual"><scope>MR::Const_MakeDegenerateBandAroundRegionParams</scope><name>__MR_MakeDegenerateBandAroundRegionParams_Get_outNewFaces</name></member>
       <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a73506eea6e9ba47e299bc37cff1faa87" prot="protected" virt="non-virtual"><scope>MR::Const_MakeDegenerateBandAroundRegionParams</scope><name>__ptr_storage_maxEdgeLength</name></member>
       <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1aad0f906d10809d9ea334577da5e33b90" prot="protected" virt="non-virtual"><scope>MR::Const_MakeDegenerateBandAroundRegionParams</scope><name>__ptr_storage_new2OldMap</name></member>
       <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1af519c2ca5cad93235ca2f3c8bf645a33" prot="protected" virt="non-virtual"><scope>MR::Const_MakeDegenerateBandAroundRegionParams</scope><name>__ptr_storage_outExtrudedEdges</name></member>

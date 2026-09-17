@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="699" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="699" bodyend="699"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="661" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="661" bodyend="661"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,31 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="705" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="705" bodyend="710"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1IPointsProjector_1adbf38600ea9a9feb1f7112fa19010bc6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.IPointsProjector.__MR_IPointsProjector_setPointCloud</definition>
-        <argsstring>(_Underlying *_this, MR.Const_PointCloud._Underlying *pointCloud)</argsstring>
-        <name>__MR_IPointsProjector_setPointCloud</name>
-        <qualifiedname>MR.IPointsProjector.__MR_IPointsProjector_setPointCloud</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Const_PointCloud._Underlying *</type>
-          <declname>pointCloud</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="715" column="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="667" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="667" bodyend="674"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -121,9 +97,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="697" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="698" bodyend="716"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="659" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="660" bodyend="675"/>
     <listofallmembers>
-      <member refid="classMR_1_1IPointsProjector_1adbf38600ea9a9feb1f7112fa19010bc6" prot="private" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>__MR_IPointsProjector_setPointCloud</name></member>
       <member refid="classMR_1_1Const__IPointsProjector_1ac4ece63022427e858081183f3105a374" prot="package" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>Const_IPointsProjector</name></member>
       <member refid="classMR_1_1Const__IPointsProjector_1a854dcd9e42d9f2a3f322ac8875ce8583" prot="protected" virt="virtual"><scope>MR::IPointsProjector</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__IPointsProjector_1a670fc8014f959ec15483b64f0990d0b1" prot="public" virt="virtual"><scope>MR::IPointsProjector</scope><name>Dispose</name></member>

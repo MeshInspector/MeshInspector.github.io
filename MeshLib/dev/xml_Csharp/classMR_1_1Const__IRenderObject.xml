@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1693" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1693" bodyend="1699"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1591" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1591" bodyend="1599"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1700" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1700" bodyend="1700"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1600" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1600" bodyend="1600"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1ae40b96eb43628286841a86ba8b0dd154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1709" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1709" bodyend="1712"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1609" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1609" bodyend="1614"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1ad5cf629cb78bc6d8f801dc3985c62aa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1718" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1718" bodyend="1721"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1620" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1620" bodyend="1625"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1701" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1701" bodyend="1701"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1601" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1601" bodyend="1601"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -108,63 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1703" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1703" bodyend="1703"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1a058c3a0fc4a62ea50a09470b30fd7b13" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.Const_IRenderObject.__MR_IRenderObject_Destroy</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_IRenderObject_Destroy</name>
-        <qualifiedname>MR.Const_IRenderObject.__MR_IRenderObject_Destroy</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1726" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1add9390dcfc8826361e9389f4b89df216" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe nuint</type>
-        <definition>static unsafe nuint MR.Const_IRenderObject.__MR_IRenderObject_glBytes</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_IRenderObject_glBytes</name>
-        <qualifiedname>MR.Const_IRenderObject.__MR_IRenderObject_glBytes</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1729" column="36"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1aa216f04f75c7e52a68ba51621cff5e29" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe nuint</type>
-        <definition>static unsafe nuint MR.Const_IRenderObject.__MR_IRenderObject_heapBytes</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_IRenderObject_heapBytes</name>
-        <qualifiedname>MR.Const_IRenderObject.__MR_IRenderObject_heapBytes</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1732" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1603" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1603" bodyend="1603"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -210,11 +154,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1687" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1688" bodyend="1733"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1585" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1586" bodyend="1626"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__IRenderObject_1a058c3a0fc4a62ea50a09470b30fd7b13" prot="private" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>__MR_IRenderObject_Destroy</name></member>
-      <member refid="classMR_1_1Const__IRenderObject_1add9390dcfc8826361e9389f4b89df216" prot="private" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>__MR_IRenderObject_glBytes</name></member>
-      <member refid="classMR_1_1Const__IRenderObject_1aa216f04f75c7e52a68ba51621cff5e29" prot="private" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>__MR_IRenderObject_heapBytes</name></member>
       <member refid="classMR_1_1Const__IRenderObject_1a8e04a1d2a4c9210f855d3c541b0209a8" prot="package" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>Const_IRenderObject</name></member>
       <member refid="classMR_1_1Const__IRenderObject_1af40afd425a3a8b4c870d576e19289d23" prot="protected" virt="virtual"><scope>MR::Const_IRenderObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__IRenderObject_1a9b872eff3e08fa1c83bf9bc654bbb738" prot="public" virt="virtual"><scope>MR::Const_IRenderObject</scope><name>Dispose</name></member>

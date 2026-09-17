@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="922" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="922" bodyend="922"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="876" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="876" bodyend="876"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__AllLocalTriangulations_1a0188e398d18ad64b18d0e7571dd19146" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe <ref refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId" kindref="compound">MR.Const_Vector_MRFanRecord_MRVertId</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="924" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="924" bodyend="924"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="878" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="878" bodyend="878"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="912" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="912" bodyend="918"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="864" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="864" bodyend="872"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="919" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="919" bodyend="919"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="873" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="873" bodyend="873"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1ade530919e7eed86c3f38f9861327cb2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="955" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="955" bodyend="959"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="913" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="913" bodyend="919"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1ad486c6d2a0c9df07eb05256bb3031ce7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="964" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="964" bodyend="970"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="924" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="924" bodyend="932"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1a6e5de51511cce5fd478e60dbfd638591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="975" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="975" bodyend="980"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="937" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="937" bodyend="944"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="920" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="920" bodyend="920"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="874" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="874" bodyend="874"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -165,129 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="944" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="944" bodyend="949"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1a52b2258a2981cc2dc737ad342685171a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.AllLocalTriangulations._Underlying *</type>
-        <definition>static unsafe MR.AllLocalTriangulations._Underlying * MR.Const_AllLocalTriangulations.__MR_AllLocalTriangulations_ConstructFrom</definition>
-        <argsstring>(MR.Misc._PassBy neighbors_pass_by, MR.Buffer_MRVertId._Underlying *neighbors, MR.Misc._PassBy fanRecords_pass_by, MR.Vector_MRFanRecord_MRVertId._Underlying *fanRecords)</argsstring>
-        <name>__MR_AllLocalTriangulations_ConstructFrom</name>
-        <qualifiedname>MR.Const_AllLocalTriangulations.__MR_AllLocalTriangulations_ConstructFrom</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>neighbors_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.Buffer_MRVertId._Underlying *</type>
-          <declname>neighbors</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>fanRecords_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.Vector_MRFanRecord_MRVertId._Underlying *</type>
-          <declname>fanRecords</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="985" column="66"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1a5008e14a2baf44187286ceab3199d7a5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.AllLocalTriangulations._Underlying *</type>
-        <definition>static unsafe MR.AllLocalTriangulations._Underlying * MR.Const_AllLocalTriangulations.__MR_AllLocalTriangulations_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.AllLocalTriangulations._Underlying *_other)</argsstring>
-        <name>__MR_AllLocalTriangulations_ConstructFromAnother</name>
-        <qualifiedname>MR.Const_AllLocalTriangulations.__MR_AllLocalTriangulations_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.AllLocalTriangulations._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="988" column="66"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1a5beebdb238f98da05146c5b95d30715c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.AllLocalTriangulations._Underlying *</type>
-        <definition>static unsafe MR.AllLocalTriangulations._Underlying * MR.Const_AllLocalTriangulations.__MR_AllLocalTriangulations_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_AllLocalTriangulations_DefaultConstruct</name>
-        <qualifiedname>MR.Const_AllLocalTriangulations.__MR_AllLocalTriangulations_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="991" column="66"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1ac37acbc7246c341136bb059f2d193090" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.Const_AllLocalTriangulations.__MR_AllLocalTriangulations_Destroy</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_AllLocalTriangulations_Destroy</name>
-        <qualifiedname>MR.Const_AllLocalTriangulations.__MR_AllLocalTriangulations_Destroy</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="994" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1a3960c461225b929cdbfd5bd491f23a14" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Const_Vector_MRFanRecord_MRVertId._Underlying *</type>
-        <definition>static unsafe MR.Const_Vector_MRFanRecord_MRVertId._Underlying * MR.Const_AllLocalTriangulations.__MR_AllLocalTriangulations_Get_fanRecords</definition>
-        <argsstring>(MR.Const_AllLocalTriangulations._Underlying *_this)</argsstring>
-        <name>__MR_AllLocalTriangulations_Get_fanRecords</name>
-        <qualifiedname>MR.Const_AllLocalTriangulations.__MR_AllLocalTriangulations_Get_fanRecords</qualifiedname>
-        <param>
-          <type>MR.Const_AllLocalTriangulations._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="997" column="77"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1a3f88ae3286b912900a30a0d2a29d47fa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Const_Buffer_MRVertId._Underlying *</type>
-        <definition>static unsafe MR.Const_Buffer_MRVertId._Underlying * MR.Const_AllLocalTriangulations.__MR_AllLocalTriangulations_Get_neighbors</definition>
-        <argsstring>(MR.Const_AllLocalTriangulations._Underlying *_this)</argsstring>
-        <name>__MR_AllLocalTriangulations_Get_neighbors</name>
-        <qualifiedname>MR.Const_AllLocalTriangulations.__MR_AllLocalTriangulations_Get_neighbors</qualifiedname>
-        <param>
-          <type>MR.Const_AllLocalTriangulations._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="1000" column="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="902" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="902" bodyend="907"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -333,14 +211,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="906" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="907" bodyend="1001"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="858" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="859" bodyend="945"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__AllLocalTriangulations_1a52b2258a2981cc2dc737ad342685171a" prot="private" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>__MR_AllLocalTriangulations_ConstructFrom</name></member>
-      <member refid="classMR_1_1Const__AllLocalTriangulations_1a5008e14a2baf44187286ceab3199d7a5" prot="private" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>__MR_AllLocalTriangulations_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1Const__AllLocalTriangulations_1a5beebdb238f98da05146c5b95d30715c" prot="private" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>__MR_AllLocalTriangulations_DefaultConstruct</name></member>
-      <member refid="classMR_1_1Const__AllLocalTriangulations_1ac37acbc7246c341136bb059f2d193090" prot="private" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>__MR_AllLocalTriangulations_Destroy</name></member>
-      <member refid="classMR_1_1Const__AllLocalTriangulations_1a3960c461225b929cdbfd5bd491f23a14" prot="private" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>__MR_AllLocalTriangulations_Get_fanRecords</name></member>
-      <member refid="classMR_1_1Const__AllLocalTriangulations_1a3f88ae3286b912900a30a0d2a29d47fa" prot="private" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>__MR_AllLocalTriangulations_Get_neighbors</name></member>
       <member refid="classMR_1_1Const__AllLocalTriangulations_1ad876baa7aa1eee5e4ba6182cdd69c034" prot="package" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>Const_AllLocalTriangulations</name></member>
       <member refid="classMR_1_1Const__AllLocalTriangulations_1ade530919e7eed86c3f38f9861327cb2f" prot="public" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>Const_AllLocalTriangulations</name></member>
       <member refid="classMR_1_1Const__AllLocalTriangulations_1ad486c6d2a0c9df07eb05256bb3031ce7" prot="public" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>Const_AllLocalTriangulations</name></member>

@@ -311,7 +311,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="44" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" bodystart="45" bodyend="85"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="50" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" bodystart="51" bodyend="91"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -356,7 +356,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="19" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" bodystart="19" bodyend="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="19" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" bodystart="19" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneColors_1abaf33cb95903e48ca9ad647f0b83ef52" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -379,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="27" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" bodystart="27" bodyend="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="29" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" bodystart="29" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneColors_1a9e8ced06b99e59b9a94c19c94d9f2ea0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe? byte</type>
@@ -398,67 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="38" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" bodystart="38" bodyend="42"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__SceneColors_1aa6eaf5dbaf3e597accb7f7c5d6422609" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref> *</type>
-        <definition>static unsafe MR.Color * MR.Const_SceneColors.__MR_SceneColors_get</definition>
-        <argsstring>(MR.SceneColors.Type type)</argsstring>
-        <name>__MR_SceneColors_get</name>
-        <qualifiedname>MR.Const_SceneColors.__MR_SceneColors_get</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__SceneColors_1aaff6be28e5b89ff716071ca005bded72" kindref="member">MR.SceneColors.Type</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="90" column="38"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SceneColors_1a4e8861c0ebde8b446e8b8254ddbb95f4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte *</type>
-        <definition>static unsafe byte * MR.Const_SceneColors.__MR_SceneColors_getName</definition>
-        <argsstring>(MR.SceneColors.Type type)</argsstring>
-        <name>__MR_SceneColors_getName</name>
-        <qualifiedname>MR.Const_SceneColors.__MR_SceneColors_getName</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__SceneColors_1aaff6be28e5b89ff716071ca005bded72" kindref="member">MR.SceneColors.Type</ref></type>
-          <declname>type</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="93" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SceneColors_1a6dfacb3ef322e5a61bf99062d37bae5a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.Const_SceneColors.__MR_SceneColors_set</definition>
-        <argsstring>(MR.SceneColors.Type type, MR.Color *color)</argsstring>
-        <name>__MR_SceneColors_set</name>
-        <qualifiedname>MR.Const_SceneColors.__MR_SceneColors_set</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__SceneColors_1aaff6be28e5b89ff716071ca005bded72" kindref="member">MR.SceneColors.Type</ref></type>
-          <declname>type</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref> *</type>
-          <declname>color</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="96" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="42" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" bodystart="42" bodyend="48"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -494,11 +434,8 @@
         <label>MR.Misc.Object</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" bodystart="9" bodyend="97"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneColors.cs" bodystart="9" bodyend="92"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__SceneColors_1aa6eaf5dbaf3e597accb7f7c5d6422609" prot="private" virt="non-virtual"><scope>MR::Const_SceneColors</scope><name>__MR_SceneColors_get</name></member>
-      <member refid="classMR_1_1Const__SceneColors_1a4e8861c0ebde8b446e8b8254ddbb95f4" prot="private" virt="non-virtual"><scope>MR::Const_SceneColors</scope><name>__MR_SceneColors_getName</name></member>
-      <member refid="classMR_1_1Const__SceneColors_1a6dfacb3ef322e5a61bf99062d37bae5a" prot="private" virt="non-virtual"><scope>MR::Const_SceneColors</scope><name>__MR_SceneColors_set</name></member>
       <member refid="classMR_1_1Const__SceneColors_1a715407a59426ac80fef9b1ee3f55877d" prot="package" virt="non-virtual"><scope>MR::Const_SceneColors</scope><name>Const_SceneColors</name></member>
       <member refid="classMR_1_1Const__SceneColors_1a47898d03f87d23d5ac50a9bc8f003352" prot="public" virt="non-virtual"><scope>MR::Const_SceneColors</scope><name>get</name></member>
       <member refid="classMR_1_1Const__SceneColors_1a9e8ced06b99e59b9a94c19c94d9f2ea0" prot="public" virt="non-virtual"><scope>MR::Const_SceneColors</scope><name>getName</name></member>

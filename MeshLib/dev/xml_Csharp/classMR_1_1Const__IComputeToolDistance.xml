@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="366" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="366" bodyend="372"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="349" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="349" bodyend="357"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="373" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="373" bodyend="373"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="358" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="358" bodyend="358"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__IComputeToolDistance_1a69f30d90d87984389f70a863ebc80b91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="382" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="382" bodyend="393"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="367" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="367" bodyend="380"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="374" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="374" bodyend="374"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="359" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="359" bodyend="359"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -113,65 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="376" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="376" bodyend="376"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__IComputeToolDistance_1a05bc4ac07e1acee23ede190dc819f70f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.Const_IComputeToolDistance.__MR_IComputeToolDistance_Destroy</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_IComputeToolDistance_Destroy</name>
-        <qualifiedname>MR.Const_IComputeToolDistance.__MR_IComputeToolDistance_Destroy</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="398" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__IComputeToolDistance_1ab9a32bf0fb7ce90cecb589cd3d2b2864" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.Const_IComputeToolDistance.__MR_IComputeToolDistance_computeToolDistance</definition>
-        <argsstring>(_Underlying *_this, MR.Std.Vector_Float._Underlying *output, MR.Vector3i *dims, float voxelSize, MR.Vector3f *origin, float padding)</argsstring>
-        <name>__MR_IComputeToolDistance_computeToolDistance</name>
-        <qualifiedname>MR.Const_IComputeToolDistance.__MR_IComputeToolDistance_computeToolDistance</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Std.Vector_Float._Underlying *</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
-          <declname>dims</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>voxelSize</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
-          <declname>origin</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>padding</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="401" column="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="361" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="361" bodyend="361"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -217,10 +159,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="360" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="361" bodyend="402"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="343" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="344" bodyend="381"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__IComputeToolDistance_1ab9a32bf0fb7ce90cecb589cd3d2b2864" prot="private" virt="non-virtual"><scope>MR::Const_IComputeToolDistance</scope><name>__MR_IComputeToolDistance_computeToolDistance</name></member>
-      <member refid="classMR_1_1Const__IComputeToolDistance_1a05bc4ac07e1acee23ede190dc819f70f" prot="private" virt="non-virtual"><scope>MR::Const_IComputeToolDistance</scope><name>__MR_IComputeToolDistance_Destroy</name></member>
       <member refid="classMR_1_1Const__IComputeToolDistance_1a69f30d90d87984389f70a863ebc80b91" prot="public" virt="non-virtual"><scope>MR::Const_IComputeToolDistance</scope><name>computeToolDistance</name></member>
       <member refid="classMR_1_1Const__IComputeToolDistance_1a6d56ecfc890853cf99afeffee0526441" prot="package" virt="non-virtual"><scope>MR::Const_IComputeToolDistance</scope><name>Const_IComputeToolDistance</name></member>
       <member refid="classMR_1_1Const__IComputeToolDistance_1ad99fae3925f5373e82350646f3865158" prot="protected" virt="virtual"><scope>MR::Const_IComputeToolDistance</scope><name>Dispose</name></member>

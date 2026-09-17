@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3371" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3371" bodyend="3371"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3135" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3135" bodyend="3135"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3376" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3376" bodyend="3379"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3140" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3140" bodyend="3145"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a2ced95cc06fd9c3267ef42110cd9a2df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3384" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3384" bodyend="3388"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3150" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3150" bodyend="3156"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1aed5a3374260ebba243ebc3bd8fc43172" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3393" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3393" bodyend="3393"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3161" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3161" bodyend="3161"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a819c792089cd30201013916491b04ef3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType" kindref="compound">MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType</ref></type>
@@ -98,63 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3398" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3398" bodyend="3403"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a5bc7567908189bb185c5ba809c8837d5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType._Underlying *</type>
-        <definition>static unsafe MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType._Underlying * MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType.__MR_IsVisualizeMaskEnum_MR_LabelVisualizePropertyType_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType._Underlying *_other)</argsstring>
-        <name>__MR_IsVisualizeMaskEnum_MR_LabelVisualizePropertyType_AssignFromAnother</name>
-        <qualifiedname>MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType.__MR_IsVisualizeMaskEnum_MR_LabelVisualizePropertyType_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3408" column="92"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1ae0c2274bba5ed7caefb093caf3e962af" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType._Underlying *</type>
-        <definition>static unsafe MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType._Underlying * MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType.__MR_IsVisualizeMaskEnum_MR_LabelVisualizePropertyType_ConstructFromAnother</definition>
-        <argsstring>(MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType._Underlying *_other)</argsstring>
-        <name>__MR_IsVisualizeMaskEnum_MR_LabelVisualizePropertyType_ConstructFromAnother</name>
-        <qualifiedname>MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType.__MR_IsVisualizeMaskEnum_MR_LabelVisualizePropertyType_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3411" column="92"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a4352652f44a322b2b2004f4924a68a0f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType._Underlying *</type>
-        <definition>static unsafe MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType._Underlying * MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType.__MR_IsVisualizeMaskEnum_MR_LabelVisualizePropertyType_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_IsVisualizeMaskEnum_MR_LabelVisualizePropertyType_DefaultConstruct</name>
-        <qualifiedname>MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType.__MR_IsVisualizeMaskEnum_MR_LabelVisualizePropertyType_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3414" column="92"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3166" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3166" bodyend="3173"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -206,11 +150,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3369" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3370" bodyend="3415"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3133" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3134" bodyend="3174"/>
     <listofallmembers>
-      <member refid="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a5bc7567908189bb185c5ba809c8837d5" prot="private" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>__MR_IsVisualizeMaskEnum_MR_LabelVisualizePropertyType_AssignFromAnother</name></member>
-      <member refid="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1ae0c2274bba5ed7caefb093caf3e962af" prot="private" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>__MR_IsVisualizeMaskEnum_MR_LabelVisualizePropertyType_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a4352652f44a322b2b2004f4924a68a0f" prot="private" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>__MR_IsVisualizeMaskEnum_MR_LabelVisualizePropertyType_DefaultConstruct</name></member>
       <member refid="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a819c792089cd30201013916491b04ef3" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1adf110dabe460ffbafd110362d5328632" prot="package" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</name></member>
       <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a71d6464bc0672b0dd8525b26c0313006" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</name></member>

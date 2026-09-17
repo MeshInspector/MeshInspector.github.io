@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="318" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="318" bodyend="318"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="303" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="303" bodyend="303"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1adb3553e6272d9f9bf3a5d203a3bb0cfd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_String</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="320" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="320" bodyend="320"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="305" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="305" bodyend="305"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a9cbdec9ba51438389c8cc847692e8d72" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="322" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="322" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="307" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="307" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="323" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="323" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="308" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="308" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="308" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="308" bodyend="314"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="291" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="291" bodyend="299"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="315" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="315" bodyend="315"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="300" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="300" bodyend="300"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1ae7e14823e3767114e8969a57e7ca12da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="358" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="358" bodyend="362"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="349" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="349" bodyend="355"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a0564e06ceeb43b4697f12a5c2acd5068" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="367" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="367" bodyend="376"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="360" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="360" bodyend="371"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1aafd573e477ef6af5a66e735ab8f2089f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="381" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="381" bodyend="386"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="376" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="376" bodyend="383"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a4a7d1600452679316f20f1983d6bb86d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="391" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="391" bodyend="391"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="388" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="388" bodyend="388"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a31867f7e870ddbfd45beaa11ba928553" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="396" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="396" bodyend="396"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="393" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="393" bodyend="393"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="316" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="316" bodyend="316"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="301" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="301" bodyend="301"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -237,151 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="347" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="347" bodyend="352"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a708a95f75a02b98f25bed32b9ed750f7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VoxelsLoad.DicomVolumeAsVdb._Underlying *</type>
-        <definition>static unsafe MR.VoxelsLoad.DicomVolumeAsVdb._Underlying * MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_ConstructFrom</definition>
-        <argsstring>(MR.Misc._PassBy vol_pass_by, MR.VdbVolume._Underlying *vol, byte *name, byte *name_end, MR.AffineXf3f xf)</argsstring>
-        <name>__MR_VoxelsLoad_DicomVolumeAsVdb_ConstructFrom</name>
-        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_ConstructFrom</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>vol_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.VdbVolume._Underlying *</type>
-          <declname>vol</declname>
-        </param>
-        <param>
-          <type>byte *</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>byte *</type>
-          <declname>name_end</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
-          <declname>xf</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="401" column="74"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a36a8bb4f7632abf81bf95376d34bc4eb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VoxelsLoad.DicomVolumeAsVdb._Underlying *</type>
-        <definition>static unsafe MR.VoxelsLoad.DicomVolumeAsVdb._Underlying * MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.VoxelsLoad.DicomVolumeAsVdb._Underlying *_other)</argsstring>
-        <name>__MR_VoxelsLoad_DicomVolumeAsVdb_ConstructFromAnother</name>
-        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.VoxelsLoad.DicomVolumeAsVdb._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="404" column="74"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a87013b4def6beb8da35a26f86873e39c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VoxelsLoad.DicomVolumeAsVdb._Underlying *</type>
-        <definition>static unsafe MR.VoxelsLoad.DicomVolumeAsVdb._Underlying * MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_VoxelsLoad_DicomVolumeAsVdb_DefaultConstruct</name>
-        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="407" column="74"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a4d36dede36342b9c6c549fdbaf6f7ad6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_Destroy</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_VoxelsLoad_DicomVolumeAsVdb_Destroy</name>
-        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_Destroy</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="410" column="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1abdabfe8202f3714e0aaf0ad9aecf9a43" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Const_String._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_String._Underlying * MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_Get_name</definition>
-        <argsstring>(MR.VoxelsLoad.Const_DicomVolumeAsVdb._Underlying *_this)</argsstring>
-        <name>__MR_VoxelsLoad_DicomVolumeAsVdb_Get_name</name>
-        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_Get_name</qualifiedname>
-        <param>
-          <type>MR.VoxelsLoad.Const_DicomVolumeAsVdb._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="413" column="63"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1aa2e6e5b9dc1857e255307bb05cccbe56" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Const_VdbVolume._Underlying *</type>
-        <definition>static unsafe MR.Const_VdbVolume._Underlying * MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_Get_vol</definition>
-        <argsstring>(MR.VoxelsLoad.Const_DicomVolumeAsVdb._Underlying *_this)</argsstring>
-        <name>__MR_VoxelsLoad_DicomVolumeAsVdb_Get_vol</name>
-        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_Get_vol</qualifiedname>
-        <param>
-          <type>MR.VoxelsLoad.Const_DicomVolumeAsVdb._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="416" column="63"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a2ae32ac28a2c030c6ace2f99ff5c3266" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
-        <definition>static unsafe MR.AffineXf3f * MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_Get_xf</definition>
-        <argsstring>(MR.VoxelsLoad.Const_DicomVolumeAsVdb._Underlying *_this)</argsstring>
-        <name>__MR_VoxelsLoad_DicomVolumeAsVdb_Get_xf</name>
-        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.__MR_VoxelsLoad_DicomVolumeAsVdb_Get_xf</qualifiedname>
-        <param>
-          <type>MR.VoxelsLoad.Const_DicomVolumeAsVdb._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="419" column="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="338" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="338" bodyend="343"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -434,15 +290,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="302" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="303" bodyend="420"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="285" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="286" bodyend="394"/>
     <listofallmembers>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a708a95f75a02b98f25bed32b9ed750f7" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>__MR_VoxelsLoad_DicomVolumeAsVdb_ConstructFrom</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a36a8bb4f7632abf81bf95376d34bc4eb" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>__MR_VoxelsLoad_DicomVolumeAsVdb_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a87013b4def6beb8da35a26f86873e39c" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>__MR_VoxelsLoad_DicomVolumeAsVdb_DefaultConstruct</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a4d36dede36342b9c6c549fdbaf6f7ad6" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>__MR_VoxelsLoad_DicomVolumeAsVdb_Destroy</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1abdabfe8202f3714e0aaf0ad9aecf9a43" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>__MR_VoxelsLoad_DicomVolumeAsVdb_Get_name</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1aa2e6e5b9dc1857e255307bb05cccbe56" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>__MR_VoxelsLoad_DicomVolumeAsVdb_Get_vol</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a2ae32ac28a2c030c6ace2f99ff5c3266" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>__MR_VoxelsLoad_DicomVolumeAsVdb_Get_xf</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1af303b4d732aaea25b05e10ae89bdeb32" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>__ref_storage_xf</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1ac81ef58ec5e66fea41bbe159da5a5560" prot="package" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>Const_DicomVolumeAsVdb</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1ae7e14823e3767114e8969a57e7ca12da" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>Const_DicomVolumeAsVdb</name></member>

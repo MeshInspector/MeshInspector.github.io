@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1142" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1142" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1072" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1072" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1146" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1146" bodyend="1150"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1076" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1076" bodyend="1080"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1158" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1158" bodyend="1161"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1088" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1088" bodyend="1093"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BasicUiRenderTask_1a13b2e8a2882f0be57c92a570301abb23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -77,49 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1167" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1167" bodyend="1170"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1BasicUiRenderTask_1a8041d715f8e10d5b1776c8b72760cb18" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.BasicUiRenderTask.__MR_BasicUiRenderTask_earlyBackwardPass</definition>
-        <argsstring>(_Underlying *_this, MR.BasicUiRenderTask.Const_BackwardPassParams._Underlying *params_)</argsstring>
-        <name>__MR_BasicUiRenderTask_earlyBackwardPass</name>
-        <qualifiedname>MR.BasicUiRenderTask.__MR_BasicUiRenderTask_earlyBackwardPass</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.BasicUiRenderTask.Const_BackwardPassParams._Underlying *</type>
-          <declname>params_</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1175" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BasicUiRenderTask_1a871e9bb0b2e48b50ac2d6ccd89fc53b3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.BasicUiRenderTask.__MR_BasicUiRenderTask_renderPass</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_BasicUiRenderTask_renderPass</name>
-        <qualifiedname>MR.BasicUiRenderTask.__MR_BasicUiRenderTask_renderPass</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1178" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1099" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1099" bodyend="1104"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -171,10 +129,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1137" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1138" bodyend="1179"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1067" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1068" bodyend="1105"/>
     <listofallmembers>
-      <member refid="classMR_1_1BasicUiRenderTask_1a8041d715f8e10d5b1776c8b72760cb18" prot="private" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>__MR_BasicUiRenderTask_earlyBackwardPass</name></member>
-      <member refid="classMR_1_1BasicUiRenderTask_1a871e9bb0b2e48b50ac2d6ccd89fc53b3" prot="private" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>__MR_BasicUiRenderTask_renderPass</name></member>
       <member refid="classMR_1_1Const__BasicUiRenderTask_1ad6b531b89c7efda8538f06efffc7de58" prot="protected" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>__ref_storage_renderTaskDepth</name></member>
       <member refid="classMR_1_1BasicUiRenderTask_1ad6d9e31ea0f9377f87c6f867e39fff4f" prot="package" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>BasicUiRenderTask</name></member>
       <member refid="classMR_1_1Const__BasicUiRenderTask_1a20273296d614a9b56989a3e9fb122716" prot="package" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>Const_BasicUiRenderTask</name></member>

@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="498" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="498" bodyend="498"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="503" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="503" bodyend="503"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="503" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="503" bodyend="506"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="508" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="508" bodyend="513"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1aeb39dbafbef566ebe2c39ecba7fc59f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="511" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="511" bodyend="515"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="518" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="518" bodyend="524"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1aeaf20be1c7f10334cb061030066c5678" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="520" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="520" bodyend="520"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="529" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="529" bodyend="529"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1aff90ff44cb5eac528b1a5d83746f8f31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri" kindref="compound">MR.VarEdgeTri.FlaggedTri</ref></type>
@@ -98,63 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="525" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="525" bodyend="530"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1a741f564f26d80a7cbdeca4e401d19b39" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VarEdgeTri.FlaggedTri._Underlying *</type>
-        <definition>static unsafe MR.VarEdgeTri.FlaggedTri._Underlying * MR.Const_VarEdgeTri.FlaggedTri.__MR_VarEdgeTri_FlaggedTri_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.VarEdgeTri.FlaggedTri._Underlying *_other)</argsstring>
-        <name>__MR_VarEdgeTri_FlaggedTri_AssignFromAnother</name>
-        <qualifiedname>MR.Const_VarEdgeTri.FlaggedTri.__MR_VarEdgeTri_FlaggedTri_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.VarEdgeTri.FlaggedTri._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="535" column="68"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1a09c583d3c5d95bd14c6a22110e951ccc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VarEdgeTri.FlaggedTri._Underlying *</type>
-        <definition>static unsafe MR.VarEdgeTri.FlaggedTri._Underlying * MR.Const_VarEdgeTri.FlaggedTri.__MR_VarEdgeTri_FlaggedTri_ConstructFromAnother</definition>
-        <argsstring>(MR.VarEdgeTri.FlaggedTri._Underlying *_other)</argsstring>
-        <name>__MR_VarEdgeTri_FlaggedTri_ConstructFromAnother</name>
-        <qualifiedname>MR.Const_VarEdgeTri.FlaggedTri.__MR_VarEdgeTri_FlaggedTri_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.VarEdgeTri.FlaggedTri._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="538" column="68"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1a5c282a0fe1f129fe602e0608efad4db1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VarEdgeTri.FlaggedTri._Underlying *</type>
-        <definition>static unsafe MR.VarEdgeTri.FlaggedTri._Underlying * MR.Const_VarEdgeTri.FlaggedTri.__MR_VarEdgeTri_FlaggedTri_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_VarEdgeTri_FlaggedTri_DefaultConstruct</name>
-        <qualifiedname>MR.Const_VarEdgeTri.FlaggedTri.__MR_VarEdgeTri_FlaggedTri_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="541" column="68"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="534" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="534" bodyend="541"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -216,11 +160,8 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="496" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="497" bodyend="542"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="501" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="502" bodyend="542"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1a741f564f26d80a7cbdeca4e401d19b39" prot="private" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>__MR_VarEdgeTri_FlaggedTri_AssignFromAnother</name></member>
-      <member refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1a09c583d3c5d95bd14c6a22110e951ccc" prot="private" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>__MR_VarEdgeTri_FlaggedTri_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1a5c282a0fe1f129fe602e0608efad4db1" prot="private" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>__MR_VarEdgeTri_FlaggedTri_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1aff90ff44cb5eac528b1a5d83746f8f31" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri_1a2a7303e4038c958dfa8a86b076e056e3" prot="package" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>Const_FlaggedTri</name></member>
       <member refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri_1a5003af166895c9d459edf42545a0eace" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>Const_FlaggedTri</name></member>

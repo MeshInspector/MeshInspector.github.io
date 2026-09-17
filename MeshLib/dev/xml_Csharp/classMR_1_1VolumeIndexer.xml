@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="549" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="549" bodyend="549"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="511" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="511" bodyend="511"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="554" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="554" bodyend="558"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="516" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="516" bodyend="522"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VolumeIndexer_1aa64488fedc04a3eacd82d7a14e24c4ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="563" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="563" bodyend="563"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="527" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="527" bodyend="527"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VolumeIndexer_1aeef3f347d6680978b124b70e90c8ac39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="568" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="568" bodyend="574"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="532" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="532" bodyend="540"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VolumeIndexer_1a4ca65ec170656a162716e3387ccb62dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VolumeIndexer" kindref="compound">MR.VolumeIndexer</ref></type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="584" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="584" bodyend="589"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="550" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="550" bodyend="557"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -123,67 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="579" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="579" bodyend="579"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1VolumeIndexer_1a2dea6c8c7f1bd4c13ddab99d6b9c30f2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VolumeIndexer._Underlying *</type>
-        <definition>static unsafe MR.VolumeIndexer._Underlying * MR.VolumeIndexer.__MR_VolumeIndexer_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.VolumeIndexer._Underlying *_other)</argsstring>
-        <name>__MR_VolumeIndexer_AssignFromAnother</name>
-        <qualifiedname>MR.VolumeIndexer.__MR_VolumeIndexer_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.VolumeIndexer._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="594" column="57"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VolumeIndexer_1aa1d64d3bbf8f658376737d9ba9366690" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VolumeIndexer._Underlying *</type>
-        <definition>static unsafe MR.VolumeIndexer._Underlying * MR.VolumeIndexer.__MR_VolumeIndexer_Construct</definition>
-        <argsstring>(MR.Vector3i *dims)</argsstring>
-        <name>__MR_VolumeIndexer_Construct</name>
-        <qualifiedname>MR.VolumeIndexer.__MR_VolumeIndexer_Construct</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
-          <declname>dims</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="597" column="57"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VolumeIndexer_1a73dbe9a2da6e8b45a67ef81413ebe553" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VolumeIndexer._Underlying *</type>
-        <definition>static unsafe MR.VolumeIndexer._Underlying * MR.VolumeIndexer.__MR_VolumeIndexer_ConstructFromAnother</definition>
-        <argsstring>(MR.VolumeIndexer._Underlying *_other)</argsstring>
-        <name>__MR_VolumeIndexer_ConstructFromAnother</name>
-        <qualifiedname>MR.VolumeIndexer.__MR_VolumeIndexer_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.VolumeIndexer._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="600" column="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="545" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="545" bodyend="545"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -235,11 +175,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="547" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="548" bodyend="601"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="509" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="510" bodyend="558"/>
     <listofallmembers>
-      <member refid="classMR_1_1VolumeIndexer_1a2dea6c8c7f1bd4c13ddab99d6b9c30f2" prot="private" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>__MR_VolumeIndexer_AssignFromAnother</name></member>
-      <member refid="classMR_1_1VolumeIndexer_1aa1d64d3bbf8f658376737d9ba9366690" prot="private" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>__MR_VolumeIndexer_Construct</name></member>
-      <member refid="classMR_1_1VolumeIndexer_1a73dbe9a2da6e8b45a67ef81413ebe553" prot="private" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>__MR_VolumeIndexer_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__VolumeIndexer_1a4b4487608965f92a8dfaa8871ca306b6" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>areNeigbors</name></member>
       <member refid="classMR_1_1Const__VolumeIndexer_1a9cb54cd5edb16fe9e3f9c90ed14d8c4a" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>areNeigbors</name></member>
       <member refid="classMR_1_1VolumeIndexer_1a4ca65ec170656a162716e3387ccb62dd" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>assign</name></member>

@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="81" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="81" bodyend="81"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="75" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="75" bodyend="75"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="86" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="86" bodyend="89"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="80" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="80" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a041a9bdbcb4dffe144abcdc5f8ac4959" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="94" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="94" bodyend="98"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="90" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="90" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1ae9131c762d09dc9659c4991a05192901" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="103" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="103" bodyend="103"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="101" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="101" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a85df21425cae0c59cf9d924d17524f3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1BasinVolumeCalculator" kindref="compound">MR.BasinVolumeCalculator</ref></type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="108" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="108" bodyend="113"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="106" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="106" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a92f9bdf4461453d1bc6500d4a5463652" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -124,89 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="120" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="120" bodyend="123"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a592122b8fb3df8725fe78260cf8971f4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.BasinVolumeCalculator._Underlying *</type>
-        <definition>static unsafe MR.BasinVolumeCalculator._Underlying * MR.BasinVolumeCalculator.__MR_BasinVolumeCalculator_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.BasinVolumeCalculator._Underlying *_other)</argsstring>
-        <name>__MR_BasinVolumeCalculator_AssignFromAnother</name>
-        <qualifiedname>MR.BasinVolumeCalculator.__MR_BasinVolumeCalculator_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.BasinVolumeCalculator._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="128" column="65"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1aa6814f2ebb5fd5bd2ea79e6df23482e3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.BasinVolumeCalculator._Underlying *</type>
-        <definition>static unsafe MR.BasinVolumeCalculator._Underlying * MR.BasinVolumeCalculator.__MR_BasinVolumeCalculator_ConstructFromAnother</definition>
-        <argsstring>(MR.BasinVolumeCalculator._Underlying *_other)</argsstring>
-        <name>__MR_BasinVolumeCalculator_ConstructFromAnother</name>
-        <qualifiedname>MR.BasinVolumeCalculator.__MR_BasinVolumeCalculator_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.BasinVolumeCalculator._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="131" column="65"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a54b399cf3a121f595c86ce22e28a8774" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.BasinVolumeCalculator._Underlying *</type>
-        <definition>static unsafe MR.BasinVolumeCalculator._Underlying * MR.BasinVolumeCalculator.__MR_BasinVolumeCalculator_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_BasinVolumeCalculator_DefaultConstruct</name>
-        <qualifiedname>MR.BasinVolumeCalculator.__MR_BasinVolumeCalculator_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="134" column="65"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a60c6958be2218644ae0ef81ec14578a5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.BasinVolumeCalculator.__MR_BasinVolumeCalculator_addTerrainTri</definition>
-        <argsstring>(_Underlying *_this, MR.Std.Array_MRVector3f_3 t, float level)</argsstring>
-        <name>__MR_BasinVolumeCalculator_addTerrainTri</name>
-        <qualifiedname>MR.BasinVolumeCalculator.__MR_BasinVolumeCalculator_addTerrainTri</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Std.Array_MRVector3f_3</type>
-          <declname>t</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>level</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="137" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="120" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="120" bodyend="125"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -258,12 +176,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="79" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="80" bodyend="138"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" line="73" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBasinVolume.cs" bodystart="74" bodyend="126"/>
     <listofallmembers>
-      <member refid="classMR_1_1BasinVolumeCalculator_1a60c6958be2218644ae0ef81ec14578a5" prot="private" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>__MR_BasinVolumeCalculator_addTerrainTri</name></member>
-      <member refid="classMR_1_1BasinVolumeCalculator_1a592122b8fb3df8725fe78260cf8971f4" prot="private" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>__MR_BasinVolumeCalculator_AssignFromAnother</name></member>
-      <member refid="classMR_1_1BasinVolumeCalculator_1aa6814f2ebb5fd5bd2ea79e6df23482e3" prot="private" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>__MR_BasinVolumeCalculator_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1BasinVolumeCalculator_1a54b399cf3a121f595c86ce22e28a8774" prot="private" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>__MR_BasinVolumeCalculator_DefaultConstruct</name></member>
       <member refid="classMR_1_1BasinVolumeCalculator_1a92f9bdf4461453d1bc6500d4a5463652" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>addTerrainTri</name></member>
       <member refid="classMR_1_1BasinVolumeCalculator_1a85df21425cae0c59cf9d924d17524f3b" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>assign</name></member>
       <member refid="classMR_1_1BasinVolumeCalculator_1a127efedf5d6a3e9d7c57106db193ddba" prot="package" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>BasinVolumeCalculator</name></member>

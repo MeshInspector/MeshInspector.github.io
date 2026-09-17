@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="279" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="279" bodyend="279"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="265" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="265" bodyend="265"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1ab69cd5235c2078ece16ed6596d5791c3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="281" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="281" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="267" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="267" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1ad977d5e60327a6b2fd1bf309da34bf40" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe <ref refid="classMR_1_1VoxelsLoad_1af64deb00cdf3c350831376933237e335" kindref="member">MR.VoxelsLoad.GridType</ref></type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="284" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="284" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="270" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="270" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a94ad5f74d7aa3b7aedd108fcc9d0c5a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="287" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="287" bodyend="287"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="273" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="273" bodyend="273"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="282" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="282" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="268" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="268" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a53b0fec3f2eedfc533c9ddcd80db076a" prot="protected" static="no" mutable="no">
         <type>unsafe <ref refid="classMR_1_1VoxelsLoad_1af64deb00cdf3c350831376933237e335" kindref="member">MR.VoxelsLoad.GridType</ref> *</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="285" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="285" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="271" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="271" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="269" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="269" bodyend="275"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="253" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="253" bodyend="261"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="276" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="276" bodyend="276"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="262" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="262" bodyend="262"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1ac35c019af708e764856f5f68e47a1ff2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="326" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="326" bodyend="330"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="320" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="320" bodyend="326"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a7e64ababdc47b3fc6a2cb22e3ee4f522" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="335" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="335" bodyend="344"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="331" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="331" bodyend="342"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a7273eef8dda566a418aa00a2a717b0c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="349" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="349" bodyend="354"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="347" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="347" bodyend="354"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1ae9cda35d714063e1c04b381a62db50f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -245,7 +245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="277" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="277" bodyend="277"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="263" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="263" bodyend="263"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -269,173 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="315" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="315" bodyend="320"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a3fed5e72f06b07bf9c3420613e352e5e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VoxelsLoad.LoadingTiffSettings._Underlying *</type>
-        <definition>static unsafe MR.VoxelsLoad.LoadingTiffSettings._Underlying * MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom</definition>
-        <argsstring>(byte *dir, byte *dir_end, MR.Vector3f voxelSize, MR.VoxelsLoad.GridType gridType, MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb)</argsstring>
-        <name>__MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom</name>
-        <qualifiedname>MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom</qualifiedname>
-        <param>
-          <type>byte *</type>
-          <declname>dir</declname>
-        </param>
-        <param>
-          <type>byte *</type>
-          <declname>dir_end</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
-          <declname>voxelSize</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1VoxelsLoad_1af64deb00cdf3c350831376933237e335" kindref="member">MR.VoxelsLoad.GridType</ref></type>
-          <declname>gridType</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>cb_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="369" column="77"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a051a13ac6959b9fa08519693d2a57f4c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VoxelsLoad.LoadingTiffSettings._Underlying *</type>
-        <definition>static unsafe MR.VoxelsLoad.LoadingTiffSettings._Underlying * MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.VoxelsLoad.LoadingTiffSettings._Underlying *_other)</argsstring>
-        <name>__MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother</name>
-        <qualifiedname>MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.VoxelsLoad.LoadingTiffSettings._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="372" column="77"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1abfad55e843a9e98c1f241b52e93e12b3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VoxelsLoad.LoadingTiffSettings._Underlying *</type>
-        <definition>static unsafe MR.VoxelsLoad.LoadingTiffSettings._Underlying * MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct</name>
-        <qualifiedname>MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="375" column="77"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a69c08be9b3f0d6afb8070ef9d9e5885e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_Destroy</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_VoxelsLoad_LoadingTiffSettings_Destroy</name>
-        <qualifiedname>MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_Destroy</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="378" column="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a23693b43f0913236d84b694ddea2767b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Function_Bool_From_Float._Underlying * MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_Get_cb</definition>
-        <argsstring>(MR.VoxelsLoad.Const_LoadingTiffSettings._Underlying *_this)</argsstring>
-        <name>__MR_VoxelsLoad_LoadingTiffSettings_Get_cb</name>
-        <qualifiedname>MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_Get_cb</qualifiedname>
-        <param>
-          <type>MR.VoxelsLoad.Const_LoadingTiffSettings._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="381" column="81"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1af17e8c770f38c36823e815256ee67fef" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Filesystem.Const_Path._Underlying *</type>
-        <definition>static unsafe MR.Std.Filesystem.Const_Path._Underlying * MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_Get_dir</definition>
-        <argsstring>(MR.VoxelsLoad.Const_LoadingTiffSettings._Underlying *_this)</argsstring>
-        <name>__MR_VoxelsLoad_LoadingTiffSettings_Get_dir</name>
-        <qualifiedname>MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_Get_dir</qualifiedname>
-        <param>
-          <type>MR.VoxelsLoad.Const_LoadingTiffSettings._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="384" column="71"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1abfb2136c555a4aff60e2473df0879b69" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1VoxelsLoad_1af64deb00cdf3c350831376933237e335" kindref="member">MR.VoxelsLoad.GridType</ref> *</type>
-        <definition>static unsafe MR.VoxelsLoad.GridType * MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_Get_gridType</definition>
-        <argsstring>(MR.VoxelsLoad.Const_LoadingTiffSettings._Underlying *_this)</argsstring>
-        <name>__MR_VoxelsLoad_LoadingTiffSettings_Get_gridType</name>
-        <qualifiedname>MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_Get_gridType</qualifiedname>
-        <param>
-          <type>MR.VoxelsLoad.Const_LoadingTiffSettings._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="387" column="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a61fa22037fe7c0ec67ca17bc60eebc7a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
-        <definition>static unsafe MR.Vector3f * MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize</definition>
-        <argsstring>(MR.VoxelsLoad.Const_LoadingTiffSettings._Underlying *_this)</argsstring>
-        <name>__MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize</name>
-        <qualifiedname>MR.VoxelsLoad.Const_LoadingTiffSettings.__MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize</qualifiedname>
-        <param>
-          <type>MR.VoxelsLoad.Const_LoadingTiffSettings._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="390" column="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="309" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="309" bodyend="314"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -489,16 +323,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="263" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="264" bodyend="391"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="247" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="248" bodyend="365"/>
     <listofallmembers>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a3fed5e72f06b07bf9c3420613e352e5e" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_LoadingTiffSettings</scope><name>__MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a051a13ac6959b9fa08519693d2a57f4c" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_LoadingTiffSettings</scope><name>__MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1abfad55e843a9e98c1f241b52e93e12b3" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_LoadingTiffSettings</scope><name>__MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a69c08be9b3f0d6afb8070ef9d9e5885e" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_LoadingTiffSettings</scope><name>__MR_VoxelsLoad_LoadingTiffSettings_Destroy</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a23693b43f0913236d84b694ddea2767b" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_LoadingTiffSettings</scope><name>__MR_VoxelsLoad_LoadingTiffSettings_Get_cb</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1af17e8c770f38c36823e815256ee67fef" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_LoadingTiffSettings</scope><name>__MR_VoxelsLoad_LoadingTiffSettings_Get_dir</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1abfb2136c555a4aff60e2473df0879b69" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_LoadingTiffSettings</scope><name>__MR_VoxelsLoad_LoadingTiffSettings_Get_gridType</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a61fa22037fe7c0ec67ca17bc60eebc7a" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_LoadingTiffSettings</scope><name>__MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a53b0fec3f2eedfc533c9ddcd80db076a" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::Const_LoadingTiffSettings</scope><name>__ref_storage_gridType</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a9d2b506143bc9b9f70131b63b0634c13" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::Const_LoadingTiffSettings</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a94ad5f74d7aa3b7aedd108fcc9d0c5a8" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_LoadingTiffSettings</scope><name>cb</name></member>

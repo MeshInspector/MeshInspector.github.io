@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2882" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2882" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2728" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2728" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2887" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2733" column="32"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1a867240a4289d8153a298994ae860875b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2922" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2922" bodyend="2925"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2774" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2774" bodyend="2779"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1acd2f4c40add531bcbd33f92b64a7d9d8" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2930" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2930" bodyend="2933"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2784" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2784" bodyend="2789"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1afc3a8e512e3d509ac718bda0387147a2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2960" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2960" bodyend="2963"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2820" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2820" bodyend="2825"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1aa6b1bc1dac7b13011b1e36a864aa3e36" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -120,253 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2965" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2965" bodyend="2968"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1a299520eac5ad6bd53a4d2b3ffbae996f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
-        <definition>static unsafe MR.RegionId MR.RegionId.__MR_RegionId_Construct_MR_NoInit</definition>
-        <argsstring>(MR.NoInit._Underlying *_1)</argsstring>
-        <name>__MR_RegionId_Construct_MR_NoInit</name>
-        <qualifiedname>MR.RegionId.__MR_RegionId_Construct_MR_NoInit</qualifiedname>
-        <param>
-          <type>MR.NoInit._Underlying *</type>
-          <declname>_1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3064" column="41"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1a468f9daab0a4c7cac2f0543fa1552467" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
-        <definition>static MR.RegionId MR.RegionId.__MR_RegionId_Construct_int</definition>
-        <argsstring>(int i)</argsstring>
-        <name>__MR_RegionId_Construct_int</name>
-        <qualifiedname>MR.RegionId.__MR_RegionId_Construct_int</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3067" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1a67a6a8eef288b19af4c298772062c508" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.RegionId.__MR_RegionId_ConvertTo_bool</definition>
-        <argsstring>(MR.RegionId *_this)</argsstring>
-        <name>__MR_RegionId_ConvertTo_bool</name>
-        <qualifiedname>MR.RegionId.__MR_RegionId_ConvertTo_bool</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3070" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1a9ce01881e4334a7fe67fbaa2cb86be07" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe int</type>
-        <definition>static unsafe int MR.RegionId.__MR_RegionId_ConvertTo_int</definition>
-        <argsstring>(MR.RegionId *_this)</argsstring>
-        <name>__MR_RegionId_ConvertTo_int</name>
-        <qualifiedname>MR.RegionId.__MR_RegionId_ConvertTo_int</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3073" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1ac561605ede70140b36ab705f2f1c4566" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
-        <definition>static MR.RegionId MR.RegionId.__MR_RegionId_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_RegionId_DefaultConstruct</name>
-        <qualifiedname>MR.RegionId.__MR_RegionId_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3076" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1a3ffed228e3d60ec06c9901f8e581f477" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-        <definition>static unsafe MR.RegionId * MR.RegionId.__MR_RegionId_add_assign</definition>
-        <argsstring>(MR.RegionId *_this, int a)</argsstring>
-        <name>__MR_RegionId_add_assign</name>
-        <qualifiedname>MR.RegionId.__MR_RegionId_add_assign</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3079" column="41"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1a4e3f179e6c7d718f942873409f610fd1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe int *</type>
-        <definition>static unsafe int * MR.RegionId.__MR_RegionId_get</definition>
-        <argsstring>(MR.RegionId *_this)</argsstring>
-        <name>__MR_RegionId_get</name>
-        <qualifiedname>MR.RegionId.__MR_RegionId_get</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3082" column="34"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1aa6d6db7dc9e553afd32f6871df1937c4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-        <definition>static unsafe MR.RegionId * MR.RegionId.__MR_RegionId_sub_assign</definition>
-        <argsstring>(MR.RegionId *_this, int a)</argsstring>
-        <name>__MR_RegionId_sub_assign</name>
-        <qualifiedname>MR.RegionId.__MR_RegionId_sub_assign</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3085" column="41"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1ab31c78a873dc21bbff8156e80c1a597a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.RegionId.__MR_RegionId_valid</definition>
-        <argsstring>(MR.RegionId *_this)</argsstring>
-        <name>__MR_RegionId_valid</name>
-        <qualifiedname>MR.RegionId.__MR_RegionId_valid</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3088" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1a9206ae1093e9c37ee84a9663897aa14e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-        <definition>static unsafe MR.RegionId * MR.RegionId.__MR_decr_MR_RegionId</definition>
-        <argsstring>(MR.RegionId *_this)</argsstring>
-        <name>__MR_decr_MR_RegionId</name>
-        <qualifiedname>MR.RegionId.__MR_decr_MR_RegionId</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3091" column="41"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1adbccd8fc14d4bf8e10e892635f1ed83a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.RegionId.__MR_equal_MR_RegionId</definition>
-        <argsstring>(MR.RegionId *_this, MR.RegionId b)</argsstring>
-        <name>__MR_equal_MR_RegionId</name>
-        <qualifiedname>MR.RegionId.__MR_equal_MR_RegionId</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3094" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1a946f93c1439f9a9928890844712ab3f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-        <definition>static unsafe MR.RegionId * MR.RegionId.__MR_incr_MR_RegionId</definition>
-        <argsstring>(MR.RegionId *_this)</argsstring>
-        <name>__MR_incr_MR_RegionId</name>
-        <qualifiedname>MR.RegionId.__MR_incr_MR_RegionId</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3097" column="41"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1RegionId_1ab062cfe537f8f379a1191401dfb754db" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.RegionId.__MR_less_MR_RegionId</definition>
-        <argsstring>(MR.RegionId *_this, MR.RegionId b)</argsstring>
-        <name>__MR_less_MR_RegionId</name>
-        <qualifiedname>MR.RegionId.__MR_less_MR_RegionId</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3100" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2827" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2827" bodyend="2830"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -387,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2892" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2892" bodyend="2892"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2738" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2738" bodyend="2738"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1ace73717130f32b336e645e643e313847" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -402,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2897" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2897" bodyend="2900"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2743" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2743" bodyend="2748"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1a2fd820f4fa89edb41677a262084fa034" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -421,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2905" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2905" bodyend="2908"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2753" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2753" bodyend="2758"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1acea05364c7e1652e8a50b6f3a1485a4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -440,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2914" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2914" bodyend="2917"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2764" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2764" bodyend="2769"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1a223f74c07154a3bf5fa9033fdf1ff064" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>readonly unsafe bool</type>
@@ -455,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2938" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2938" bodyend="2944"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2794" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2794" bodyend="2802"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1affac3beb038dd2d4524c77a1b9006c18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref int</type>
@@ -470,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2949" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2949" bodyend="2955"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2807" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2807" bodyend="2815"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1ad77c8476e5df6fc2c641f6b311705db5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>readonly unsafe bool</type>
@@ -489,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2973" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2973" bodyend="2979"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2835" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2835" bodyend="2843"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1ad69e8f6b0852859b923c563c752813ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -504,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2984" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2984" bodyend="2990"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2848" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2848" bodyend="2856"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1ad8566b74d425eccfc79dc38b4b8796dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1RegionId" kindref="compound">RegionId</ref></type>
@@ -523,7 +277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2995" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2995" bodyend="3000"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2861" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2861" bodyend="2868"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1a1760e0c959d4bcfbb0830ffc755dfbf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -538,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3005" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3005" bodyend="3011"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2873" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2873" bodyend="2881"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1a0d0195d0e194d518557c08a408999829" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1RegionId" kindref="compound">RegionId</ref></type>
@@ -557,7 +311,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3016" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3016" bodyend="3021"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2886" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2886" bodyend="2893"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1ac590e18b4cca98f51e4d6595c99f305b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
@@ -576,7 +330,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3026" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3026" bodyend="3032"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2898" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2898" bodyend="2906"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1a95269728a43d71569cd783e3fc1e940a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
@@ -595,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3037" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3037" bodyend="3043"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2911" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2911" bodyend="2919"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1acb0f6c4a7f5676934c701b898fdc039c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -613,7 +367,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3047" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3047" bodyend="3050"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2923" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2923" bodyend="2926"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1RegionId_1ac2f4a285af8186ef0bea9ff56e6364bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -631,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="3052" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="3052" bodyend="3059"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2928" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2928" bodyend="2935"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -661,21 +415,8 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2880" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2881" bodyend="3101"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2726" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2727" bodyend="2936"/>
     <listofallmembers>
-      <member refid="structMR_1_1RegionId_1a9206ae1093e9c37ee84a9663897aa14e" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_decr_MR_RegionId</name></member>
-      <member refid="structMR_1_1RegionId_1adbccd8fc14d4bf8e10e892635f1ed83a" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_equal_MR_RegionId</name></member>
-      <member refid="structMR_1_1RegionId_1a946f93c1439f9a9928890844712ab3f6" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_incr_MR_RegionId</name></member>
-      <member refid="structMR_1_1RegionId_1ab062cfe537f8f379a1191401dfb754db" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_less_MR_RegionId</name></member>
-      <member refid="structMR_1_1RegionId_1a3ffed228e3d60ec06c9901f8e581f477" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_RegionId_add_assign</name></member>
-      <member refid="structMR_1_1RegionId_1a468f9daab0a4c7cac2f0543fa1552467" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_RegionId_Construct_int</name></member>
-      <member refid="structMR_1_1RegionId_1a299520eac5ad6bd53a4d2b3ffbae996f" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_RegionId_Construct_MR_NoInit</name></member>
-      <member refid="structMR_1_1RegionId_1a67a6a8eef288b19af4c298772062c508" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_RegionId_ConvertTo_bool</name></member>
-      <member refid="structMR_1_1RegionId_1a9ce01881e4334a7fe67fbaa2cb86be07" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_RegionId_ConvertTo_int</name></member>
-      <member refid="structMR_1_1RegionId_1ac561605ede70140b36ab705f2f1c4566" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_RegionId_DefaultConstruct</name></member>
-      <member refid="structMR_1_1RegionId_1a4e3f179e6c7d718f942873409f610fd1" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_RegionId_get</name></member>
-      <member refid="structMR_1_1RegionId_1aa6d6db7dc9e553afd32f6871df1937c4" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_RegionId_sub_assign</name></member>
-      <member refid="structMR_1_1RegionId_1ab31c78a873dc21bbff8156e80c1a597a" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>__MR_RegionId_valid</name></member>
       <member refid="structMR_1_1RegionId_1a95269728a43d71569cd783e3fc1e940a" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>addAssign</name></member>
       <member refid="structMR_1_1RegionId_1ad69e8f6b0852859b923c563c752813ba" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>decr</name></member>
       <member refid="structMR_1_1RegionId_1ad8566b74d425eccfc79dc38b4b8796dd" prot="public" virt="non-virtual"><scope>MR::RegionId</scope><name>decr</name></member>

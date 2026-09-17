@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="211" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="211" bodyend="211"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="196" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="196" bodyend="196"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="216" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="216" bodyend="219"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="201" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="201" bodyend="206"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetNew_1afce5f6bb6bbbd0222b6aea6e7714a5d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="224" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="224" bodyend="228"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="211" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="211" bodyend="217"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetNew_1ae731f5c384bc10b57be6dd845f966245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="233" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="233" bodyend="233"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="222" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="222" bodyend="222"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetNew_1a84cd19e7b2373576caf4ae7c62514947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SetNew" kindref="compound">MR.SetNew</ref></type>
@@ -98,63 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="238" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="238" bodyend="243"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1SetNew_1a1481101c4f68bad7e6ea64e7efd9d134" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.SetNew._Underlying *</type>
-        <definition>static unsafe MR.SetNew._Underlying * MR.SetNew.__MR_SetNew_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.SetNew._Underlying *_other)</argsstring>
-        <name>__MR_SetNew_AssignFromAnother</name>
-        <qualifiedname>MR.SetNew.__MR_SetNew_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.SetNew._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="248" column="50"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SetNew_1a11a0dd8805660b9213fcb8352a7dafda" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.SetNew._Underlying *</type>
-        <definition>static unsafe MR.SetNew._Underlying * MR.SetNew.__MR_SetNew_ConstructFromAnother</definition>
-        <argsstring>(MR.SetNew._Underlying *_other)</argsstring>
-        <name>__MR_SetNew_ConstructFromAnother</name>
-        <qualifiedname>MR.SetNew.__MR_SetNew_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.SetNew._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="251" column="50"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SetNew_1a0a92a045a90cd581b50bfded1d5d505b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.SetNew._Underlying *</type>
-        <definition>static unsafe MR.SetNew._Underlying * MR.SetNew.__MR_SetNew_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_SetNew_DefaultConstruct</name>
-        <qualifiedname>MR.SetNew.__MR_SetNew_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="254" column="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="227" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="227" bodyend="234"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -206,11 +150,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="209" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="210" bodyend="255"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="194" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="195" bodyend="235"/>
     <listofallmembers>
-      <member refid="classMR_1_1SetNew_1a1481101c4f68bad7e6ea64e7efd9d134" prot="private" virt="non-virtual"><scope>MR::SetNew</scope><name>__MR_SetNew_AssignFromAnother</name></member>
-      <member refid="classMR_1_1SetNew_1a11a0dd8805660b9213fcb8352a7dafda" prot="private" virt="non-virtual"><scope>MR::SetNew</scope><name>__MR_SetNew_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1SetNew_1a0a92a045a90cd581b50bfded1d5d505b" prot="private" virt="non-virtual"><scope>MR::SetNew</scope><name>__MR_SetNew_DefaultConstruct</name></member>
       <member refid="classMR_1_1SetNew_1a84cd19e7b2373576caf4ae7c62514947" prot="public" virt="non-virtual"><scope>MR::SetNew</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__SetNew_1ad56d6c9f08cb099e8c08e8284c678c45" prot="package" virt="non-virtual"><scope>MR::SetNew</scope><name>Const_SetNew</name></member>
       <member refid="classMR_1_1Const__SetNew_1a777c70f1565cf3649b269ba56e3ae525" prot="public" virt="non-virtual"><scope>MR::SetNew</scope><name>Const_SetNew</name></member>

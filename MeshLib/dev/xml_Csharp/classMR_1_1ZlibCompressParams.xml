@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="637" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="637" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="602" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="602" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ZlibCompressParams_1a10dead263b76029ca5ca5e60f99f3658" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1ZlibCompressStats" kindref="compound">ZlibCompressStats</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="643" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="644" bodyend="653"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="608" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="609" bodyend="618"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ZlibCompressParams_1aa1e161dc2d19a9ddfa6c5e39aef30309" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="660" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="660" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="625" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="625" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="626" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="626" bodyend="631"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="589" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="589" bodyend="596"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="664" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="664" bodyend="668"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="629" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="629" bodyend="633"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="674" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="674" bodyend="678"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="639" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="639" bodyend="645"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1a2d5c56289ccae9d6d98a7f89705c2dde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="683" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="683" bodyend="688"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="650" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="650" bodyend="657"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1a9e32b005f302d10b22187bb77dfac79d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="693" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="693" bodyend="693"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="662" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="662" bodyend="662"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1a014da28c3e6e66f13f3ba5e1180ba2ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ZlibCompressParams" kindref="compound">MR.ZlibCompressParams</ref></type>
@@ -165,81 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="698" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="698" bodyend="703"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1a5a262b9f498c09e5633c60d852ac3313" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ZlibCompressParams._Underlying *</type>
-        <definition>static unsafe MR.ZlibCompressParams._Underlying * MR.ZlibCompressParams.__MR_ZlibCompressParams_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.ZlibCompressParams._Underlying *_other)</argsstring>
-        <name>__MR_ZlibCompressParams_AssignFromAnother</name>
-        <qualifiedname>MR.ZlibCompressParams.__MR_ZlibCompressParams_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.ZlibCompressParams._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="708" column="62"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1a4527372d14ed47991ea05e54650a9d06" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ZlibCompressParams._Underlying *</type>
-        <definition>static unsafe MR.ZlibCompressParams._Underlying * MR.ZlibCompressParams.__MR_ZlibCompressParams_ConstructFromAnother</definition>
-        <argsstring>(MR.ZlibCompressParams._Underlying *_other)</argsstring>
-        <name>__MR_ZlibCompressParams_ConstructFromAnother</name>
-        <qualifiedname>MR.ZlibCompressParams.__MR_ZlibCompressParams_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.ZlibCompressParams._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="711" column="62"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1ad8f20cefa9ca6b7de361a3c6be1e09ec" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ZlibCompressParams._Underlying *</type>
-        <definition>static unsafe MR.ZlibCompressParams._Underlying * MR.ZlibCompressParams.__MR_ZlibCompressParams_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_ZlibCompressParams_DefaultConstruct</name>
-        <qualifiedname>MR.ZlibCompressParams.__MR_ZlibCompressParams_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="714" column="62"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1aa26ea38979eaa305b4a6bef2abc01ecb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ZlibParams._Underlying *</type>
-        <definition>static unsafe MR.ZlibParams._Underlying * MR.ZlibCompressParams.__MR_ZlibCompressParams_UpcastTo_MR_ZlibParams</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_ZlibCompressParams_UpcastTo_MR_ZlibParams</name>
-        <qualifiedname>MR.ZlibCompressParams.__MR_ZlibCompressParams_UpcastTo_MR_ZlibParams</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="717" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="667" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="667" bodyend="674"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -298,12 +224,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="623" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="624" bodyend="718"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="586" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="587" bodyend="675"/>
     <listofallmembers>
-      <member refid="classMR_1_1ZlibCompressParams_1a5a262b9f498c09e5633c60d852ac3313" prot="private" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>__MR_ZlibCompressParams_AssignFromAnother</name></member>
-      <member refid="classMR_1_1ZlibCompressParams_1a4527372d14ed47991ea05e54650a9d06" prot="private" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>__MR_ZlibCompressParams_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1ZlibCompressParams_1ad8f20cefa9ca6b7de361a3c6be1e09ec" prot="private" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>__MR_ZlibCompressParams_DefaultConstruct</name></member>
-      <member refid="classMR_1_1ZlibCompressParams_1aa26ea38979eaa305b4a6bef2abc01ecb" prot="private" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>__MR_ZlibCompressParams_UpcastTo_MR_ZlibParams</name></member>
       <member refid="classMR_1_1Const__ZlibCompressParams_1afd6ecd044729758225401d2f46e620df" prot="protected" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>__ptr_storage_stats</name></member>
       <member refid="classMR_1_1Const__ZlibCompressParams_1aafb0a3119eedaddcb0e7a56157ef6355" prot="protected" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>__ref_storage_level</name></member>
       <member refid="classMR_1_1Const__ZlibCompressParams_1ad5f64d88b3ec1b791ae32b8b2a4cc8f2" prot="protected" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>__ref_storage_rawDeflate</name></member>

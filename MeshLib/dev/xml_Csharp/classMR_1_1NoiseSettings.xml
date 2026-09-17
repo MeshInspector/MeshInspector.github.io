@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="130" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="130" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="121" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1NoiseSettings_1a14a62b8c0c72d2b3433b3ad7ade7a1be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref uint</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="133" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="133" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="124" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1NoiseSettings_1a6dc72fb6a22a91c6e0c5427c19542399" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Bool_From_Float</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="135" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="135" bodyend="135"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="126" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="126" bodyend="126"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="152" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="152" bodyend="156"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="145" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="145" bodyend="149"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="162" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="162" bodyend="166"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="155" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="155" bodyend="161"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NoiseSettings_1a654b0895e5461498191e40f2f3365dfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="171" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="171" bodyend="176"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="166" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="166" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NoiseSettings_1aa518770679f621eafbe1265883dbb044" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="181" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="181" bodyend="186"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="178" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="178" bodyend="185"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NoiseSettings_1ad43d12140ce837098a3834b2421698c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="191" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="191" bodyend="191"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="190" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="190" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NoiseSettings_1ac9a82ef3c2c6032e05871bb4a98f2193" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -169,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="196" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="196" bodyend="196"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="195" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="195" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NoiseSettings_1a1ce686973d916ff084d0fde18d81b786" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1NoiseSettings" kindref="compound">MR.NoiseSettings</ref></type>
@@ -188,119 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="201" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="201" bodyend="206"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1NoiseSettings_1a9025159b32df39d1f561e47d8fff6ce6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.NoiseSettings._Underlying *</type>
-        <definition>static unsafe MR.NoiseSettings._Underlying * MR.NoiseSettings.__MR_NoiseSettings_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.NoiseSettings._Underlying *_other)</argsstring>
-        <name>__MR_NoiseSettings_AssignFromAnother</name>
-        <qualifiedname>MR.NoiseSettings.__MR_NoiseSettings_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.NoiseSettings._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="211" column="57"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1NoiseSettings_1aa804370a3726d1f8f706b9473f447b49" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.NoiseSettings._Underlying *</type>
-        <definition>static unsafe MR.NoiseSettings._Underlying * MR.NoiseSettings.__MR_NoiseSettings_ConstructFrom</definition>
-        <argsstring>(float sigma, uint seed, MR.Misc._PassBy callback_pass_by, MR.Std.Function_Bool_From_Float._Underlying *callback)</argsstring>
-        <name>__MR_NoiseSettings_ConstructFrom</name>
-        <qualifiedname>MR.NoiseSettings.__MR_NoiseSettings_ConstructFrom</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>sigma</declname>
-        </param>
-        <param>
-          <type>uint</type>
-          <declname>seed</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>callback_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
-          <declname>callback</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="214" column="57"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1NoiseSettings_1a66f3a4c7b4090be1fbafed23574c6d25" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.NoiseSettings._Underlying *</type>
-        <definition>static unsafe MR.NoiseSettings._Underlying * MR.NoiseSettings.__MR_NoiseSettings_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.NoiseSettings._Underlying *_other)</argsstring>
-        <name>__MR_NoiseSettings_ConstructFromAnother</name>
-        <qualifiedname>MR.NoiseSettings.__MR_NoiseSettings_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.NoiseSettings._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="217" column="57"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1NoiseSettings_1acc62fcc9121ffcb531513990efeabf1a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.NoiseSettings._Underlying *</type>
-        <definition>static unsafe MR.NoiseSettings._Underlying * MR.NoiseSettings.__MR_NoiseSettings_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_NoiseSettings_DefaultConstruct</name>
-        <qualifiedname>MR.NoiseSettings.__MR_NoiseSettings_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="220" column="57"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1NoiseSettings_1ac3d9be7e62aa06e66188bff9bddc3453" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Function_Bool_From_Float._Underlying *</type>
-        <definition>static unsafe MR.Std.Function_Bool_From_Float._Underlying * MR.NoiseSettings.__MR_NoiseSettings_GetMutable_callback</definition>
-        <argsstring>(MR.NoiseSettings._Underlying *_this)</argsstring>
-        <name>__MR_NoiseSettings_GetMutable_callback</name>
-        <qualifiedname>MR.NoiseSettings.__MR_NoiseSettings_GetMutable_callback</qualifiedname>
-        <param>
-          <type>MR.NoiseSettings._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="223" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="200" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="200" bodyend="207"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -352,13 +240,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="128" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="129" bodyend="224"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="120" bodyend="208"/>
     <listofallmembers>
-      <member refid="classMR_1_1NoiseSettings_1a9025159b32df39d1f561e47d8fff6ce6" prot="private" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>__MR_NoiseSettings_AssignFromAnother</name></member>
-      <member refid="classMR_1_1NoiseSettings_1aa804370a3726d1f8f706b9473f447b49" prot="private" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>__MR_NoiseSettings_ConstructFrom</name></member>
-      <member refid="classMR_1_1NoiseSettings_1a66f3a4c7b4090be1fbafed23574c6d25" prot="private" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>__MR_NoiseSettings_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1NoiseSettings_1acc62fcc9121ffcb531513990efeabf1a" prot="private" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>__MR_NoiseSettings_DefaultConstruct</name></member>
-      <member refid="classMR_1_1NoiseSettings_1ac3d9be7e62aa06e66188bff9bddc3453" prot="private" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>__MR_NoiseSettings_GetMutable_callback</name></member>
       <member refid="classMR_1_1Const__NoiseSettings_1a5c692dd351f7600e6e58149a95ebf55b" prot="protected" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>__ref_storage_seed</name></member>
       <member refid="classMR_1_1Const__NoiseSettings_1a4f526c985e887f672afdeef742d47ae1" prot="protected" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>__ref_storage_sigma</name></member>
       <member refid="classMR_1_1NoiseSettings_1a1ce686973d916ff084d0fde18d81b786" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>assign</name></member>

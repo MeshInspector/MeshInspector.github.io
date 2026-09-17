@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="852" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="852" bodyend="852"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="797" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="797" bodyend="797"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="859" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="859" bodyend="862"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="804" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="804" bodyend="809"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1ae66664b29e69965402d2547b2762aa83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="871" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="871" bodyend="874"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="818" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="818" bodyend="823"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1acb5b2cc2b40ef0cde4a470fe8e8e7962" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -95,87 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="879" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="879" bodyend="882"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a8f2742b704a879cc8424dfdcbfb59a41" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.ObjectComparableWithReference.__MR_ObjectComparableWithReference_setComparisonReferenceVal</definition>
-        <argsstring>(_Underlying *_this, nuint i, MR.ObjectComparableWithReference.Const_ComparisonReferenceValue._Underlying *value)</argsstring>
-        <name>__MR_ObjectComparableWithReference_setComparisonReferenceVal</name>
-        <qualifiedname>MR.ObjectComparableWithReference.__MR_ObjectComparableWithReference_setComparisonReferenceVal</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>nuint</type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>MR.ObjectComparableWithReference.Const_ComparisonReferenceValue._Underlying *</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="887" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1ac924590d1834239aae39b4d5f1322ca0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.ObjectComparableWithReference.__MR_ObjectComparableWithReference_setComparisonReferenceValue</definition>
-        <argsstring>(_Underlying *_this, nuint i, MR.Std.Variant_Float_MRVector3f._Underlying *value)</argsstring>
-        <name>__MR_ObjectComparableWithReference_setComparisonReferenceValue</name>
-        <qualifiedname>MR.ObjectComparableWithReference.__MR_ObjectComparableWithReference_setComparisonReferenceValue</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>nuint</type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>MR.Std.Variant_Float_MRVector3f._Underlying *</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="890" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a3c1e43298f0baa5cbb4e12847cb2925c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.ObjectComparableWithReference.__MR_ObjectComparableWithReference_setComparisonTolerance</definition>
-        <argsstring>(_Underlying *_this, nuint i, MR.ObjectComparableWithReference.ComparisonTolerance._Underlying *newTolerance)</argsstring>
-        <name>__MR_ObjectComparableWithReference_setComparisonTolerance</name>
-        <qualifiedname>MR.ObjectComparableWithReference.__MR_ObjectComparableWithReference_setComparisonTolerance</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>nuint</type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>MR.ObjectComparableWithReference.ComparisonTolerance._Underlying *</type>
-          <declname>newTolerance</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="893" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="828" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="828" bodyend="833"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -227,11 +147,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="850" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="851" bodyend="894"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="795" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="796" bodyend="834"/>
     <listofallmembers>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a8f2742b704a879cc8424dfdcbfb59a41" prot="private" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>__MR_ObjectComparableWithReference_setComparisonReferenceVal</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1ac924590d1834239aae39b4d5f1322ca0" prot="private" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>__MR_ObjectComparableWithReference_setComparisonReferenceValue</name></member>
-      <member refid="classMR_1_1ObjectComparableWithReference_1a3c1e43298f0baa5cbb4e12847cb2925c" prot="private" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>__MR_ObjectComparableWithReference_setComparisonTolerance</name></member>
       <member refid="classMR_1_1Const__ObjectComparableWithReference_1a2a7fdebe9152a9bcc2b1b45e39aca228" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
       <member refid="classMR_1_1Const__ObjectComparableWithReference_1aa83083e6fb232ebecc3c387d32bf4386" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>computeComparableProperty</name></member>
       <member refid="classMR_1_1Const__ObjectComparableWithReference_1ae998791bc44aa7ad1b29cdf15ced5e17" prot="package" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>Const_ObjectComparableWithReference</name></member>

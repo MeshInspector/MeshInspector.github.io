@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="555" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="555" bodyend="555"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="516" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="516" bodyend="516"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="560" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="560" bodyend="563"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="521" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="521" bodyend="526"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1ade60d974af7b1507de1cff8db243e85e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="568" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="568" bodyend="572"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="531" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="531" bodyend="537"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1a8ebe657c5f0b964b415c94057ccf1fc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="577" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="577" bodyend="577"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="542" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="542" bodyend="542"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1a175a1ac53ec6d6aae1d5754cb52ce1b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle" kindref="compound">MR.ObjKindTraits_MRFeaturesObjectKindCircle</ref></type>
@@ -98,63 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="582" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="582" bodyend="587"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1ad50ca153fc483c12d798a194f8273faa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ObjKindTraits_MRFeaturesObjectKindCircle._Underlying *</type>
-        <definition>static unsafe MR.ObjKindTraits_MRFeaturesObjectKindCircle._Underlying * MR.ObjKindTraits_MRFeaturesObjectKindCircle.__MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.ObjKindTraits_MRFeaturesObjectKindCircle._Underlying *_other)</argsstring>
-        <name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_AssignFromAnother</name>
-        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCircle.__MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.ObjKindTraits_MRFeaturesObjectKindCircle._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="592" column="84"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1aa08b3843e100d8893d46a71e886e34a5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ObjKindTraits_MRFeaturesObjectKindCircle._Underlying *</type>
-        <definition>static unsafe MR.ObjKindTraits_MRFeaturesObjectKindCircle._Underlying * MR.ObjKindTraits_MRFeaturesObjectKindCircle.__MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_ConstructFromAnother</definition>
-        <argsstring>(MR.ObjKindTraits_MRFeaturesObjectKindCircle._Underlying *_other)</argsstring>
-        <name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_ConstructFromAnother</name>
-        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCircle.__MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.ObjKindTraits_MRFeaturesObjectKindCircle._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="595" column="84"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1a302e8d4eae43ab948f1baacf2514256c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ObjKindTraits_MRFeaturesObjectKindCircle._Underlying *</type>
-        <definition>static unsafe MR.ObjKindTraits_MRFeaturesObjectKindCircle._Underlying * MR.ObjKindTraits_MRFeaturesObjectKindCircle.__MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_DefaultConstruct</name>
-        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCircle.__MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="598" column="84"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="547" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="547" bodyend="554"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -206,11 +150,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="553" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="554" bodyend="599"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="514" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="515" bodyend="555"/>
     <listofallmembers>
-      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1ad50ca153fc483c12d798a194f8273faa" prot="private" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_AssignFromAnother</name></member>
-      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1aa08b3843e100d8893d46a71e886e34a5" prot="private" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1a302e8d4eae43ab948f1baacf2514256c" prot="private" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Circle_DefaultConstruct</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1a175a1ac53ec6d6aae1d5754cb52ce1b2" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle_1abee38baa3f4a1b1862981410f36980c0" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCircle</name></member>
       <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle_1adb43066437ef3fb9de903960db39ae0e" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCircle</name></member>

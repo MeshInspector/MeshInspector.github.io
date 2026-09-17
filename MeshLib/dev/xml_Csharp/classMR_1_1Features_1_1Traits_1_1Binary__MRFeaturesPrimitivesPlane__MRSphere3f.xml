@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2830" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2830" bodyend="2830"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2642" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2642" bodyend="2642"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2835" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2835" bodyend="2838"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2647" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2647" bodyend="2652"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f_1aae77106d64901c6debe3adb9524a8cd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2843" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2843" bodyend="2847"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2657" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2657" bodyend="2663"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f_1ae3f0b897643239872e57d18a889342ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2852" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2852" bodyend="2852"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2668" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2668" bodyend="2668"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f_1a98da7f89fccf695884de35dc929079ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f" kindref="compound">MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f</ref></type>
@@ -98,63 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2857" column="91" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2857" bodyend="2862"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f_1a0038e12bb4aec6fc9cd7c9621f6d5559" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f._Underlying *</type>
-        <definition>static unsafe MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f._Underlying * MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f.__MR_Features_Traits_Binary_MR_Features_Primitives_Plane_MR_Sphere3f_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f._Underlying *_other)</argsstring>
-        <name>__MR_Features_Traits_Binary_MR_Features_Primitives_Plane_MR_Sphere3f_AssignFromAnother</name>
-        <qualifiedname>MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f.__MR_Features_Traits_Binary_MR_Features_Primitives_Plane_MR_Sphere3f_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2867" column="109"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f_1a6ae861cf4f78c55eb5663a5b7164eb76" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f._Underlying *</type>
-        <definition>static unsafe MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f._Underlying * MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f.__MR_Features_Traits_Binary_MR_Features_Primitives_Plane_MR_Sphere3f_ConstructFromAnother</definition>
-        <argsstring>(MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f._Underlying *_other)</argsstring>
-        <name>__MR_Features_Traits_Binary_MR_Features_Primitives_Plane_MR_Sphere3f_ConstructFromAnother</name>
-        <qualifiedname>MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f.__MR_Features_Traits_Binary_MR_Features_Primitives_Plane_MR_Sphere3f_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2870" column="109"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f_1a9f9cf06e586635bcfb36bfc2b705d9ee" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f._Underlying *</type>
-        <definition>static unsafe MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f._Underlying * MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f.__MR_Features_Traits_Binary_MR_Features_Primitives_Plane_MR_Sphere3f_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_Features_Traits_Binary_MR_Features_Primitives_Plane_MR_Sphere3f_DefaultConstruct</name>
-        <qualifiedname>MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRSphere3f.__MR_Features_Traits_Binary_MR_Features_Primitives_Plane_MR_Sphere3f_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2873" column="109"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2673" column="91" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2673" bodyend="2680"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -206,11 +150,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2828" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2829" bodyend="2874"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2640" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2641" bodyend="2681"/>
     <listofallmembers>
-      <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f_1a0038e12bb4aec6fc9cd7c9621f6d5559" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRSphere3f</scope><name>__MR_Features_Traits_Binary_MR_Features_Primitives_Plane_MR_Sphere3f_AssignFromAnother</name></member>
-      <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f_1a6ae861cf4f78c55eb5663a5b7164eb76" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRSphere3f</scope><name>__MR_Features_Traits_Binary_MR_Features_Primitives_Plane_MR_Sphere3f_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f_1a9f9cf06e586635bcfb36bfc2b705d9ee" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRSphere3f</scope><name>__MR_Features_Traits_Binary_MR_Features_Primitives_Plane_MR_Sphere3f_DefaultConstruct</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f_1a98da7f89fccf695884de35dc929079ba" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRSphere3f</scope><name>assign</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f_1a437b33de80c65768c0883744c9472079" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRSphere3f</scope><name>Binary_MRFeaturesPrimitivesPlane_MRSphere3f</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f_1a08c3be46863eb04bad0470dbd457d60b" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRSphere3f</scope><name>Binary_MRFeaturesPrimitivesPlane_MRSphere3f</name></member>

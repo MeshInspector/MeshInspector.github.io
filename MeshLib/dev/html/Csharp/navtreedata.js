@@ -276,21 +276,15 @@ var NAVTREEINDEX =
 "classMR_1_1ViewportProperty__UnsignedChar.html#ac4f0c22fe2d124c3b929733240588189",
 "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html#a1464336c087e8640286425f1c4fbbb77",
 "classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#acf80df5e4f0d0669583fea185371371a",
-"functions_vars_z.html",
-"structMR_1_1Box1f.html#af86afe98a39bcb8b70aef268cd687d9c",
-"structMR_1_1Box2f.html#ad859f5409555c78cc823105b362b5d9f",
-"structMR_1_1Box3f.html#aad7b47b47f3a45be230d036ef3d423b6",
-"structMR_1_1EdgeId.html#a6db82ec6a98149215f844e4bd533f145",
-"structMR_1_1Matrix2d.html#a220db349deca37f34faf5334d204ae70",
-"structMR_1_1Matrix2i64.html#ace6dc2491a01e4e0a36a2bfab01193bb",
-"structMR_1_1Matrix3i.html#a11ee9073f2f98fdf1b0badac5445af6d",
-"structMR_1_1Matrix4d.html#a782a33e4c47fcdcc31e3d1f5a972e6ca",
-"structMR_1_1Matrix4i64.html#a74e4e7b756d133def52d461cb604b4c3",
-"structMR_1_1UndirectedEdgeId.html#a2bba73cc2ed9573f713b35af49368637",
-"structMR_1_1Vector2i.html#acbc1baf5045ff1be2cbc514d85807d29",
-"structMR_1_1Vector3f.html#a86a9462972c9fffc22e7120e65893ad3",
-"structMR_1_1Vector4d.html#a633c2693832997e83bce13dfa7588104",
-"structMR_1_1VoxelId.html#a2761094aa3d77d1ca547cac982aaaad4"
+"functions_w.html",
+"structMR_1_1Box2d.html#abb7c4549e428d6dc86d2c38fd87248be",
+"structMR_1_1Box3i64.html#a9aa5585099a5dc05dc17679449bfb1e0",
+"structMR_1_1Matrix2d.html#ae3a78ea67bbb941b2529fa577c331636",
+"structMR_1_1Matrix3f.html#afb1712e207bfe932dad135ce254fa6e3",
+"structMR_1_1Matrix4i.html#a96c1f54edaf821698b46f3bd03b601ba",
+"structMR_1_1Vector2d.html#a4b1799ed6072de2053ac3cba4a669b56",
+"structMR_1_1Vector3f.html#afcb0d947bc3f8f349364555a2badf58c",
+"structMR_1_1VertId.html#a8047694d01fa69c174cffc646ac4b393"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

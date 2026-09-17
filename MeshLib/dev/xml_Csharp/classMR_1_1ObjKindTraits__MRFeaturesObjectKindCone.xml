@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="1017" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="1017" bodyend="1017"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="945" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="945" bodyend="945"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="1022" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="1022" bodyend="1025"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="950" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="950" bodyend="955"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a228aabed5419f7985790f4538a14cf8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="1030" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="1030" bodyend="1034"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="960" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="960" bodyend="966"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a29110b5f9ee1ac4c461bfec64d7c8bb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="1039" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="1039" bodyend="1039"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="971" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="971" bodyend="971"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a0ba86e694bbe43c8933e456116ffed58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone" kindref="compound">MR.ObjKindTraits_MRFeaturesObjectKindCone</ref></type>
@@ -98,63 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="1044" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="1044" bodyend="1049"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1ad9994a2b5d74591433efd480fcd8f0dc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ObjKindTraits_MRFeaturesObjectKindCone._Underlying *</type>
-        <definition>static unsafe MR.ObjKindTraits_MRFeaturesObjectKindCone._Underlying * MR.ObjKindTraits_MRFeaturesObjectKindCone.__MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.ObjKindTraits_MRFeaturesObjectKindCone._Underlying *_other)</argsstring>
-        <name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_AssignFromAnother</name>
-        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCone.__MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.ObjKindTraits_MRFeaturesObjectKindCone._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="1054" column="82"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a4a615e8f118908c4dc30f068d7950443" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ObjKindTraits_MRFeaturesObjectKindCone._Underlying *</type>
-        <definition>static unsafe MR.ObjKindTraits_MRFeaturesObjectKindCone._Underlying * MR.ObjKindTraits_MRFeaturesObjectKindCone.__MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_ConstructFromAnother</definition>
-        <argsstring>(MR.ObjKindTraits_MRFeaturesObjectKindCone._Underlying *_other)</argsstring>
-        <name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_ConstructFromAnother</name>
-        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCone.__MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.ObjKindTraits_MRFeaturesObjectKindCone._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="1057" column="82"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a079e2e60988957838fcbd7458c993b44" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ObjKindTraits_MRFeaturesObjectKindCone._Underlying *</type>
-        <definition>static unsafe MR.ObjKindTraits_MRFeaturesObjectKindCone._Underlying * MR.ObjKindTraits_MRFeaturesObjectKindCone.__MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_DefaultConstruct</name>
-        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCone.__MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="1060" column="82"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="976" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="976" bodyend="983"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -206,11 +150,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="1015" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="1016" bodyend="1061"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="943" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="944" bodyend="984"/>
     <listofallmembers>
-      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1ad9994a2b5d74591433efd480fcd8f0dc" prot="private" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_AssignFromAnother</name></member>
-      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a4a615e8f118908c4dc30f068d7950443" prot="private" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a079e2e60988957838fcbd7458c993b44" prot="private" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>__MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_DefaultConstruct</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a0ba86e694bbe43c8933e456116ffed58" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone_1a4c1fae140970318aaf8fbe236db720c2" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCone</name></member>
       <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone_1a88cbdb1cb5581b4740c6771674b30173" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCone</name></member>

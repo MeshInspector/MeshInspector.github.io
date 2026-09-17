@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="497" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="497" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="474" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="474" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1ObjVertId_1a5d06fe3cbd1f4aee00f40385ba0746d5" prot="public" static="no" mutable="no">
         <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="500" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="500" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="477" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="477" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="505" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="482" column="32"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ObjVertId_1af5c8337f58444cbb74352f530675359d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="523" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="523" bodyend="526"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="502" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="502" bodyend="507"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ObjVertId_1a533d6ba43c07a263a1c03205308c018a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -96,43 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="528" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="528" bodyend="531"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1ObjVertId_1a3f96d0574098b3e5b5996d9a0cb24b1b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref></type>
-        <definition>static MR.ObjVertId MR.ObjVertId.__MR_ObjVertId_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_ObjVertId_DefaultConstruct</name>
-        <qualifiedname>MR.ObjVertId.__MR_ObjVertId_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="552" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1ObjVertId_1aed125eeece5eb9998df88d84959fc71b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.ObjVertId.__MR_equal_MR_ObjVertId</definition>
-        <argsstring>(MR.ObjVertId *_1, MR.ObjVertId *_2)</argsstring>
-        <name>__MR_equal_MR_ObjVertId</name>
-        <qualifiedname>MR.ObjVertId.__MR_equal_MR_ObjVertId</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref> *</type>
-          <declname>_1</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref> *</type>
-          <declname>_2</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="555" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="509" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="509" bodyend="512"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -153,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="510" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="510" bodyend="510"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="487" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="487" bodyend="487"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ObjVertId_1a0ef62a13b2dea670efc19efcb9366ae8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -168,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="515" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="515" bodyend="518"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="492" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="492" bodyend="497"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ObjVertId_1a29a7bb6a9c26cec1e474a66704033989" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -186,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="535" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="535" bodyend="538"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="516" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="516" bodyend="519"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1ObjVertId_1a13304ee67edaea3025f655d77392929b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -204,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="540" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="540" bodyend="547"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="521" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="521" bodyend="528"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -242,10 +206,8 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="494" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="495" bodyend="556"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="471" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="472" bodyend="529"/>
     <listofallmembers>
-      <member refid="structMR_1_1ObjVertId_1aed125eeece5eb9998df88d84959fc71b" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>__MR_equal_MR_ObjVertId</name></member>
-      <member refid="structMR_1_1ObjVertId_1a3f96d0574098b3e5b5996d9a0cb24b1b" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>__MR_ObjVertId_DefaultConstruct</name></member>
       <member refid="structMR_1_1ObjVertId_1a29a7bb6a9c26cec1e474a66704033989" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>Equals</name></member>
       <member refid="structMR_1_1ObjVertId_1a13304ee67edaea3025f655d77392929b" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>Equals</name></member>
       <member refid="structMR_1_1ObjVertId_1ae8532d658a1803844ba574b34381786e" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>objId</name></member>

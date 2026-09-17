@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="545" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="545" bodyend="545"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="515" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="515" bodyend="515"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="556" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="556" bodyend="567"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="526" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="526" bodyend="539"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IFastWindingNumberByParts_1a7c927c1d7e88c4521631c2181856d27e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -180,101 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="578" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="578" bodyend="589"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1IFastWindingNumberByParts_1a672084d7e2ce7162968907596a4365ab" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.IFastWindingNumberByParts.__MR_IFastWindingNumberByParts_calcFromGridByParts</definition>
-        <argsstring>(_Underlying *_this, MR.Misc._PassBy resFunc_pass_by, MR.Std.Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int._Underlying *resFunc, MR.Vector3i *dims, MR.AffineXf3f *gridToMeshXf, float beta, int layerOverlap, MR.Std.Const_Function_Bool_From_Float._Underlying *cb)</argsstring>
-        <name>__MR_IFastWindingNumberByParts_calcFromGridByParts</name>
-        <qualifiedname>MR.IFastWindingNumberByParts.__MR_IFastWindingNumberByParts_calcFromGridByParts</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>resFunc_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.Std.Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int._Underlying *</type>
-          <declname>resFunc</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
-          <declname>dims</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
-          <declname>gridToMeshXf</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>beta</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>layerOverlap</declname>
-        </param>
-        <param>
-          <type>MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="594" column="67"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IFastWindingNumberByParts_1ab50da0f1cedc1d56f0229698d362cbcd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.IFastWindingNumberByParts.__MR_IFastWindingNumberByParts_calcFromGridWithDistancesByParts</definition>
-        <argsstring>(_Underlying *_this, MR.Misc._PassBy resFunc_pass_by, MR.Std.Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int._Underlying *resFunc, MR.Vector3i *dims, MR.AffineXf3f *gridToMeshXf, MR.Const_DistanceToMeshOptions._Underlying *options, int layerOverlap, MR.Std.Const_Function_Bool_From_Float._Underlying *cb)</argsstring>
-        <name>__MR_IFastWindingNumberByParts_calcFromGridWithDistancesByParts</name>
-        <qualifiedname>MR.IFastWindingNumberByParts.__MR_IFastWindingNumberByParts_calcFromGridWithDistancesByParts</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>resFunc_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.Std.Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int._Underlying *</type>
-          <declname>resFunc</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
-          <declname>dims</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
-          <declname>gridToMeshXf</declname>
-        </param>
-        <param>
-          <type>MR.Const_DistanceToMeshOptions._Underlying *</type>
-          <declname>options</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>layerOverlap</declname>
-        </param>
-        <param>
-          <type>MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="597" column="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="550" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="550" bodyend="563"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -326,10 +232,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="543" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="544" bodyend="598"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="513" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="514" bodyend="564"/>
     <listofallmembers>
-      <member refid="classMR_1_1IFastWindingNumberByParts_1a672084d7e2ce7162968907596a4365ab" prot="private" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>__MR_IFastWindingNumberByParts_calcFromGridByParts</name></member>
-      <member refid="classMR_1_1IFastWindingNumberByParts_1ab50da0f1cedc1d56f0229698d362cbcd" prot="private" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>__MR_IFastWindingNumberByParts_calcFromGridWithDistancesByParts</name></member>
       <member refid="classMR_1_1IFastWindingNumberByParts_1a1956106d30f3ea809c3f88b7bfb2bf93" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
       <member refid="classMR_1_1IFastWindingNumberByParts_1a7c927c1d7e88c4521631c2181856d27e" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>
       <member refid="classMR_1_1Const__IFastWindingNumberByParts_1a8467ad2d48d42acfe991f291863edfb3" prot="package" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>Const_IFastWindingNumberByParts</name></member>

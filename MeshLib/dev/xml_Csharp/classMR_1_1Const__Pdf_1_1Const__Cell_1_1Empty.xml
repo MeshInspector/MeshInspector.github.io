@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="637" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="637" bodyend="637"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="636" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="636" bodyend="636"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="642" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="642" bodyend="645"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="641" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="641" bodyend="646"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1aa40d545e4ec0b523f272b46cfef5cfe0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="650" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="650" bodyend="654"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="651" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="651" bodyend="657"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1ad8cfbd703fada9d34a2e9921c6f3b296" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="659" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="659" bodyend="659"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="662" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="662" bodyend="662"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1a36f30f9c9cee9bbed94f6c3de20810a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Pdf.Cell.Empty</type>
@@ -98,63 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="664" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="664" bodyend="669"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1aa00d97f39d1ff9036fc7dd221f579ba9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Pdf.Cell.Empty._Underlying *</type>
-        <definition>static unsafe MR.Pdf.Cell.Empty._Underlying * MR.Const_Pdf.Const_Cell.Empty.__MR_Pdf_Cell_Empty_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.Pdf.Cell.Empty._Underlying *_other)</argsstring>
-        <name>__MR_Pdf_Cell_Empty_AssignFromAnother</name>
-        <qualifiedname>MR.Const_Pdf.Const_Cell.Empty.__MR_Pdf_Cell_Empty_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Pdf.Cell.Empty._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="674" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1abe3101a5718b91ecc0ef3d225474008a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Pdf.Cell.Empty._Underlying *</type>
-        <definition>static unsafe MR.Pdf.Cell.Empty._Underlying * MR.Const_Pdf.Const_Cell.Empty.__MR_Pdf_Cell_Empty_ConstructFromAnother</definition>
-        <argsstring>(MR.Pdf.Cell.Empty._Underlying *_other)</argsstring>
-        <name>__MR_Pdf_Cell_Empty_ConstructFromAnother</name>
-        <qualifiedname>MR.Const_Pdf.Const_Cell.Empty.__MR_Pdf_Cell_Empty_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Pdf.Cell.Empty._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="677" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1a66121bcae445c194035cfd92d617b3d9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Pdf.Cell.Empty._Underlying *</type>
-        <definition>static unsafe MR.Pdf.Cell.Empty._Underlying * MR.Const_Pdf.Const_Cell.Empty.__MR_Pdf_Cell_Empty_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_Pdf_Cell_Empty_DefaultConstruct</name>
-        <qualifiedname>MR.Const_Pdf.Const_Cell.Empty.__MR_Pdf_Cell_Empty_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="680" column="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="667" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="667" bodyend="674"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -206,11 +150,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="635" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="636" bodyend="681"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="634" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="635" bodyend="675"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1aa00d97f39d1ff9036fc7dd221f579ba9" prot="private" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>__MR_Pdf_Cell_Empty_AssignFromAnother</name></member>
-      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1abe3101a5718b91ecc0ef3d225474008a" prot="private" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>__MR_Pdf_Cell_Empty_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1a66121bcae445c194035cfd92d617b3d9" prot="private" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>__MR_Pdf_Cell_Empty_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1a36f30f9c9cee9bbed94f6c3de20810a3" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty_1a57caa4ea2ab565d90b700a9cec04d81f" prot="package" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>Const_Empty</name></member>
       <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty_1a9766d2b5e553479aed0a89499bc1b106" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>Const_Empty</name></member>

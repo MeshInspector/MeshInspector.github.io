@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="74" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="74" bodyend="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="69" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="69" bodyend="69"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="79" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="79" bodyend="82"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="74" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="74" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MutexOwner_1af5eccc51e0b2aca9f25558c1a80d38ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="87" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="87" bodyend="91"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="84" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="84" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MutexOwner_1aa1243b2c626e753db83688ec315e4f08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="96" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="96" bodyend="96"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="95" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="95" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MutexOwner_1a9623b1f70fa3185a92cbc721a42e00d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="101" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="101" bodyend="101"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="100" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="100" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MutexOwner_1a460acb4ea2ca5fb31b469aa1e64c76e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MutexOwner" kindref="compound">MR.MutexOwner</ref></type>
@@ -117,71 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="106" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="106" bodyend="114"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1MutexOwner_1af90a2443b2d55750c9447bb55b2337bb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MutexOwner._Underlying *</type>
-        <definition>static unsafe MR.MutexOwner._Underlying * MR.MutexOwner.__MR_MutexOwner_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.MutexOwner._Underlying *_other)</argsstring>
-        <name>__MR_MutexOwner_AssignFromAnother</name>
-        <qualifiedname>MR.MutexOwner.__MR_MutexOwner_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.MutexOwner._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="119" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MutexOwner_1a38267718ec8937ee16ad034184393c9c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MutexOwner._Underlying *</type>
-        <definition>static unsafe MR.MutexOwner._Underlying * MR.MutexOwner.__MR_MutexOwner_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.MutexOwner._Underlying *_other)</argsstring>
-        <name>__MR_MutexOwner_ConstructFromAnother</name>
-        <qualifiedname>MR.MutexOwner.__MR_MutexOwner_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.MutexOwner._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="122" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MutexOwner_1a22b5d10b853d359e1f2da9ca029513b2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MutexOwner._Underlying *</type>
-        <definition>static unsafe MR.MutexOwner._Underlying * MR.MutexOwner.__MR_MutexOwner_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_MutexOwner_DefaultConstruct</name>
-        <qualifiedname>MR.MutexOwner.__MR_MutexOwner_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="125" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="105" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="105" bodyend="115"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -233,11 +169,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="72" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="73" bodyend="126"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" line="67" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMutexOwner.cs" bodystart="68" bodyend="116"/>
     <listofallmembers>
-      <member refid="classMR_1_1MutexOwner_1af90a2443b2d55750c9447bb55b2337bb" prot="private" virt="non-virtual"><scope>MR::MutexOwner</scope><name>__MR_MutexOwner_AssignFromAnother</name></member>
-      <member refid="classMR_1_1MutexOwner_1a38267718ec8937ee16ad034184393c9c" prot="private" virt="non-virtual"><scope>MR::MutexOwner</scope><name>__MR_MutexOwner_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1MutexOwner_1a22b5d10b853d359e1f2da9ca029513b2" prot="private" virt="non-virtual"><scope>MR::MutexOwner</scope><name>__MR_MutexOwner_DefaultConstruct</name></member>
       <member refid="classMR_1_1MutexOwner_1a460acb4ea2ca5fb31b469aa1e64c76e7" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__MutexOwner_1a4dc3b69a9f349a289ec918dd76a134c9" prot="package" virt="non-virtual"><scope>MR::MutexOwner</scope><name>Const_MutexOwner</name></member>
       <member refid="classMR_1_1Const__MutexOwner_1ab8731f3aead668ca652398002e2be39b" prot="public" virt="non-virtual"><scope>MR::MutexOwner</scope><name>Const_MutexOwner</name></member>

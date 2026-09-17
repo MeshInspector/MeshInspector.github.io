@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1840" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1840" bodyend="1840"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1718" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1718" bodyend="1718"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1845" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1845" bodyend="1849"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1723" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1723" bodyend="1729"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax_1a28525b20828ef725f1584c868800ef5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1854" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1854" bodyend="1854"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1734" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1734" bodyend="1734"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax_1ac81b9f32b6975ef30044bd4264aea02c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1859" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1859" bodyend="1859"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1739" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1739" bodyend="1739"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax_1a95f76a48ea11929e90f89c7188060906" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -114,61 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1864" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1864" bodyend="1875"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax_1a3696c92a7717f61396f09f96f0740c50" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax._Underlying *</type>
-        <definition>static unsafe MR.MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax._Underlying * MR.MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax.__MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_Construct</definition>
-        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.AffineXf3f *meshXf, MR.Const_SimpleVolumeMinMax._Underlying *volume, MR.AffineXf3f *volumeXf)</argsstring>
-        <name>__MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_Construct</name>
-        <qualifiedname>MR.MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax.__MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_Construct</qualifiedname>
-        <param>
-          <type>MR.Const_Mesh._Underlying *</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
-          <declname>meshXf</declname>
-        </param>
-        <param>
-          <type>MR.Const_SimpleVolumeMinMax._Underlying *</type>
-          <declname>volume</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
-          <declname>volumeXf</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1880" column="90"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax_1aad8b3240a5c8a8be5e05524907f58911" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax._Underlying *</type>
-        <definition>static unsafe MR.MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax._Underlying * MR.MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax.__MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy other_pass_by, MR.MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax._Underlying *other)</argsstring>
-        <name>__MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_ConstructFromAnother</name>
-        <qualifiedname>MR.MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax.__MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax._Underlying *</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1883" column="90"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1744" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1744" bodyend="1757"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -223,10 +169,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1838" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1839" bodyend="1884"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="1716" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="1717" bodyend="1758"/>
     <listofallmembers>
-      <member refid="classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax_1a3696c92a7717f61396f09f96f0740c50" prot="private" virt="non-virtual"><scope>MR::MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax</scope><name>__MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_Construct</name></member>
-      <member refid="classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax_1aad8b3240a5c8a8be5e05524907f58911" prot="private" virt="non-virtual"><scope>MR::MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax</scope><name>__MR_MeshOnVoxelsT_const_MR_Mesh_MR_SimpleVolumeMinMax_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax_1a1f3860970230a2b7d4564c737bc18876" prot="package" virt="non-virtual"><scope>MR::MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax</scope><name>Const_MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax_1adc313650a406bb4d406e82c91105304f" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax</scope><name>Const_MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__ConstMRMesh__MRSimpleVolumeMinMax_1aab39db098ee370ded116929b7edff657" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax</scope><name>Const_MeshOnVoxelsT_ConstMRMesh_MRSimpleVolumeMinMax</name></member>

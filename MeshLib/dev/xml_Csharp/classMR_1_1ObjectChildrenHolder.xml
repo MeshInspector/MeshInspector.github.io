@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="168" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="168" bodyend="168"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="161" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="161" bodyend="161"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="173" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="173" bodyend="176"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="166" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="166" bodyend="171"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1aa27e9013f8b949ca89b341d78bafa2d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="181" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="181" bodyend="185"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="176" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="176" bodyend="182"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1ad437c99119ab7c094c761412853fc697" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="190" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="190" bodyend="190"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="187" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="187" bodyend="187"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1acfbf4f853ed5222360d4d5e2f8a90a43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="195" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="195" bodyend="195"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="192" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="192" bodyend="192"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a6a8c99273ac65373743926f3af4fdd5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></type>
@@ -117,71 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="200" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="200" bodyend="208"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a27e013e9b0ac63cf749445f4d350ecd5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ObjectChildrenHolder._Underlying *</type>
-        <definition>static unsafe MR.ObjectChildrenHolder._Underlying * MR.ObjectChildrenHolder.__MR_ObjectChildrenHolder_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.ObjectChildrenHolder._Underlying *_other)</argsstring>
-        <name>__MR_ObjectChildrenHolder_AssignFromAnother</name>
-        <qualifiedname>MR.ObjectChildrenHolder.__MR_ObjectChildrenHolder_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.ObjectChildrenHolder._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="213" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a5b384cc5d5f6a6de1f1f16a354d65f03" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ObjectChildrenHolder._Underlying *</type>
-        <definition>static unsafe MR.ObjectChildrenHolder._Underlying * MR.ObjectChildrenHolder.__MR_ObjectChildrenHolder_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.ObjectChildrenHolder._Underlying *_other)</argsstring>
-        <name>__MR_ObjectChildrenHolder_ConstructFromAnother</name>
-        <qualifiedname>MR.ObjectChildrenHolder.__MR_ObjectChildrenHolder_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.ObjectChildrenHolder._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="216" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectChildrenHolder_1a219e74800376d20776aa2ca893b082cc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ObjectChildrenHolder._Underlying *</type>
-        <definition>static unsafe MR.ObjectChildrenHolder._Underlying * MR.ObjectChildrenHolder.__MR_ObjectChildrenHolder_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_ObjectChildrenHolder_DefaultConstruct</name>
-        <qualifiedname>MR.ObjectChildrenHolder.__MR_ObjectChildrenHolder_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="219" column="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="197" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="197" bodyend="207"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -233,11 +169,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="166" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="167" bodyend="220"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" line="159" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObject.cs" bodystart="160" bodyend="208"/>
     <listofallmembers>
-      <member refid="classMR_1_1ObjectChildrenHolder_1a27e013e9b0ac63cf749445f4d350ecd5" prot="private" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>__MR_ObjectChildrenHolder_AssignFromAnother</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1a5b384cc5d5f6a6de1f1f16a354d65f03" prot="private" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>__MR_ObjectChildrenHolder_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1ObjectChildrenHolder_1a219e74800376d20776aa2ca893b082cc" prot="private" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>__MR_ObjectChildrenHolder_DefaultConstruct</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a6a8c99273ac65373743926f3af4fdd5e" prot="public" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__ObjectChildrenHolder_1a8c18978aa4960672a6abfe12d44321c4" prot="package" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>Const_ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1Const__ObjectChildrenHolder_1a248556a02d66d25f363a40e64460464a" prot="public" virt="non-virtual"><scope>MR::ObjectChildrenHolder</scope><name>Const_ObjectChildrenHolder</name></member>

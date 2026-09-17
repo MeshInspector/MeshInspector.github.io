@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="622" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="622" bodyend="622"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="590" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="590" bodyend="590"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="627" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="627" bodyend="631"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="595" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="595" bodyend="601"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a45c819adf6300026c35837c67bc7372c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="639" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="639" bodyend="647"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="609" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="609" bodyend="619"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a7c69ed6465c11c8d303966db1fe8952b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MR.MarchingCubesByParts</ref></type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="652" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="652" bodyend="660"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="624" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="624" bodyend="634"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1aa5299e6762e6fd90d072b7d54e867f2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="666" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="666" bodyend="671"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="640" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="640" bodyend="647"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a8cfcd7c18166f2f8aedb84d88182a027" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TriMesh" kindref="compound">MR.TriMesh</ref></type>
@@ -136,123 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="677" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="677" bodyend="683"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a9aa3e136c83d93583eaa6c4b97028573" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MarchingCubesByParts._Underlying *</type>
-        <definition>static unsafe MR.MarchingCubesByParts._Underlying * MR.MarchingCubesByParts.__MR_MarchingCubesByParts_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.Misc._PassBy s_pass_by, MR.MarchingCubesByParts._Underlying *s)</argsstring>
-        <name>__MR_MarchingCubesByParts_AssignFromAnother</name>
-        <qualifiedname>MR.MarchingCubesByParts.__MR_MarchingCubesByParts_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>s_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.MarchingCubesByParts._Underlying *</type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="688" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a3d5e3c22988a281b33a58416310f70e4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MarchingCubesByParts._Underlying *</type>
-        <definition>static unsafe MR.MarchingCubesByParts._Underlying * MR.MarchingCubesByParts.__MR_MarchingCubesByParts_Construct</definition>
-        <argsstring>(MR.Vector3i *dims, MR.Const_MarchingCubesParams._Underlying *params_, int *layersPerBlock)</argsstring>
-        <name>__MR_MarchingCubesByParts_Construct</name>
-        <qualifiedname>MR.MarchingCubesByParts.__MR_MarchingCubesByParts_Construct</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
-          <declname>dims</declname>
-        </param>
-        <param>
-          <type>MR.Const_MarchingCubesParams._Underlying *</type>
-          <declname>params_</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>layersPerBlock</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="691" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a8631b8b852dbd5b383c4f87121e433a6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.MarchingCubesByParts._Underlying *</type>
-        <definition>static unsafe MR.MarchingCubesByParts._Underlying * MR.MarchingCubesByParts.__MR_MarchingCubesByParts_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy s_pass_by, MR.MarchingCubesByParts._Underlying *s)</argsstring>
-        <name>__MR_MarchingCubesByParts_ConstructFromAnother</name>
-        <qualifiedname>MR.MarchingCubesByParts.__MR_MarchingCubesByParts_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>s_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.MarchingCubesByParts._Underlying *</type>
-          <declname>s</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="694" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a487a18c30625002b72ba2ee333a08251" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.MarchingCubesByParts.__MR_MarchingCubesByParts_addPart</definition>
-        <argsstring>(_Underlying *_this, MR.Const_SimpleVolume._Underlying *part)</argsstring>
-        <name>__MR_MarchingCubesByParts_addPart</name>
-        <qualifiedname>MR.MarchingCubesByParts.__MR_MarchingCubesByParts_addPart</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Const_SimpleVolume._Underlying *</type>
-          <declname>part</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="697" column="67"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a3d93545a7e81b600a8d1935368fff5d8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Expected_MRTriMesh_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_MRTriMesh_StdString._Underlying * MR.MarchingCubesByParts.__MR_MarchingCubesByParts_finalize</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_MarchingCubesByParts_finalize</name>
-        <qualifiedname>MR.MarchingCubesByParts.__MR_MarchingCubesByParts_finalize</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="700" column="72"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="653" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="653" bodyend="661"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -304,13 +188,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="620" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="621" bodyend="701"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="588" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="589" bodyend="662"/>
     <listofallmembers>
-      <member refid="classMR_1_1MarchingCubesByParts_1a487a18c30625002b72ba2ee333a08251" prot="private" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>__MR_MarchingCubesByParts_addPart</name></member>
-      <member refid="classMR_1_1MarchingCubesByParts_1a9aa3e136c83d93583eaa6c4b97028573" prot="private" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>__MR_MarchingCubesByParts_AssignFromAnother</name></member>
-      <member refid="classMR_1_1MarchingCubesByParts_1a3d5e3c22988a281b33a58416310f70e4" prot="private" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>__MR_MarchingCubesByParts_Construct</name></member>
-      <member refid="classMR_1_1MarchingCubesByParts_1a8631b8b852dbd5b383c4f87121e433a6" prot="private" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>__MR_MarchingCubesByParts_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1MarchingCubesByParts_1a3d93545a7e81b600a8d1935368fff5d8" prot="private" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>__MR_MarchingCubesByParts_finalize</name></member>
       <member refid="classMR_1_1MarchingCubesByParts_1aa5299e6762e6fd90d072b7d54e867f2a" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>addPart</name></member>
       <member refid="classMR_1_1MarchingCubesByParts_1a7c69ed6465c11c8d303966db1fe8952b" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__MarchingCubesByParts_1a8e7aabcb2e903c080eba99c3d7af3e96" prot="package" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>Const_MarchingCubesByParts</name></member>

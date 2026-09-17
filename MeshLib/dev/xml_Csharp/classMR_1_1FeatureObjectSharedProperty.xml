@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="147" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="147" bodyend="147"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="139" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="139" bodyend="139"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FeatureObjectSharedProperty_1a492d9b6cee76f03deca7210e48f74f4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1ae73e56169505dfc03f856cb75627a2f2" kindref="member">MR.FeaturePropertyKind</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="149" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="149" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="141" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="141" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FeatureObjectSharedProperty_1af1f7a890ed9aece049c09f0e4fd1d7b7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_StdVariantFloatMRVector3f_From_ConstMRFeatureObjectPtr_MRViewportId</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="152" column="109" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="152" bodyend="152"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="144" column="109" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="144" bodyend="144"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FeatureObjectSharedProperty_1a6bb45fa923936f10efd26868711e0df3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Void_From_ConstStdVariantFloatMRVector3fRef_MRFeatureObjectPtr_MRViewportId</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="156" column="117" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="156" bodyend="156"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="148" column="117" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="148" bodyend="148"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="183" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="183" bodyend="187"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="181" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="181" bodyend="185"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="193" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="193" bodyend="198"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="191" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="191" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FeatureObjectSharedProperty_1add4676381512af8862c9ea5e808d88cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -160,111 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="213" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="213" bodyend="218"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1FeatureObjectSharedProperty_1a9873577a3a32fb3324ad4976f91af88d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FeatureObjectSharedProperty._Underlying *</type>
-        <definition>static unsafe MR.FeatureObjectSharedProperty._Underlying * MR.FeatureObjectSharedProperty.__MR_FeatureObjectSharedProperty_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.FeatureObjectSharedProperty._Underlying *_other)</argsstring>
-        <name>__MR_FeatureObjectSharedProperty_AssignFromAnother</name>
-        <qualifiedname>MR.FeatureObjectSharedProperty.__MR_FeatureObjectSharedProperty_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.FeatureObjectSharedProperty._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="223" column="71"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FeatureObjectSharedProperty_1a9e53e9abd371eba9be6da1b4248872b4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FeatureObjectSharedProperty._Underlying *</type>
-        <definition>static unsafe MR.FeatureObjectSharedProperty._Underlying * MR.FeatureObjectSharedProperty.__MR_FeatureObjectSharedProperty_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.FeatureObjectSharedProperty._Underlying *_other)</argsstring>
-        <name>__MR_FeatureObjectSharedProperty_ConstructFromAnother</name>
-        <qualifiedname>MR.FeatureObjectSharedProperty.__MR_FeatureObjectSharedProperty_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.FeatureObjectSharedProperty._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="226" column="71"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FeatureObjectSharedProperty_1a5468be48dc26303c92ba48b126fe3ff4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Function_StdVariantFloatMRVector3f_From_ConstMRFeatureObjectPtr_MRViewportId._Underlying *</type>
-        <definition>static unsafe MR.Std.Function_StdVariantFloatMRVector3f_From_ConstMRFeatureObjectPtr_MRViewportId._Underlying * MR.FeatureObjectSharedProperty.__MR_FeatureObjectSharedProperty_GetMutable_getter</definition>
-        <argsstring>(MR.FeatureObjectSharedProperty._Underlying *_this)</argsstring>
-        <name>__MR_FeatureObjectSharedProperty_GetMutable_getter</name>
-        <qualifiedname>MR.FeatureObjectSharedProperty.__MR_FeatureObjectSharedProperty_GetMutable_getter</qualifiedname>
-        <param>
-          <type>MR.FeatureObjectSharedProperty._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="229" column="123"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FeatureObjectSharedProperty_1a4304d758115c6f0f745994c3a4d38384" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.String._Underlying *</type>
-        <definition>static unsafe MR.Std.String._Underlying * MR.FeatureObjectSharedProperty.__MR_FeatureObjectSharedProperty_GetMutable_propertyName</definition>
-        <argsstring>(MR.FeatureObjectSharedProperty._Underlying *_this)</argsstring>
-        <name>__MR_FeatureObjectSharedProperty_GetMutable_propertyName</name>
-        <qualifiedname>MR.FeatureObjectSharedProperty.__MR_FeatureObjectSharedProperty_GetMutable_propertyName</qualifiedname>
-        <param>
-          <type>MR.FeatureObjectSharedProperty._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="232" column="53"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FeatureObjectSharedProperty_1aa2b37f130e9e03d44e5ced2bedc20b71" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Function_Void_From_ConstStdVariantFloatMRVector3fRef_MRFeatureObjectPtr_MRViewportId._Underlying *</type>
-        <definition>static unsafe MR.Std.Function_Void_From_ConstStdVariantFloatMRVector3fRef_MRFeatureObjectPtr_MRViewportId._Underlying * MR.FeatureObjectSharedProperty.__MR_FeatureObjectSharedProperty_GetMutable_setter</definition>
-        <argsstring>(MR.FeatureObjectSharedProperty._Underlying *_this)</argsstring>
-        <name>__MR_FeatureObjectSharedProperty_GetMutable_setter</name>
-        <qualifiedname>MR.FeatureObjectSharedProperty.__MR_FeatureObjectSharedProperty_GetMutable_setter</qualifiedname>
-        <param>
-          <type>MR.FeatureObjectSharedProperty._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="235" column="131"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="213" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="213" bodyend="220"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -323,13 +219,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="145" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="146" bodyend="236"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="137" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="138" bodyend="221"/>
     <listofallmembers>
-      <member refid="classMR_1_1FeatureObjectSharedProperty_1a9873577a3a32fb3324ad4976f91af88d" prot="private" virt="non-virtual"><scope>MR::FeatureObjectSharedProperty</scope><name>__MR_FeatureObjectSharedProperty_AssignFromAnother</name></member>
-      <member refid="classMR_1_1FeatureObjectSharedProperty_1a9e53e9abd371eba9be6da1b4248872b4" prot="private" virt="non-virtual"><scope>MR::FeatureObjectSharedProperty</scope><name>__MR_FeatureObjectSharedProperty_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1FeatureObjectSharedProperty_1a5468be48dc26303c92ba48b126fe3ff4" prot="private" virt="non-virtual"><scope>MR::FeatureObjectSharedProperty</scope><name>__MR_FeatureObjectSharedProperty_GetMutable_getter</name></member>
-      <member refid="classMR_1_1FeatureObjectSharedProperty_1a4304d758115c6f0f745994c3a4d38384" prot="private" virt="non-virtual"><scope>MR::FeatureObjectSharedProperty</scope><name>__MR_FeatureObjectSharedProperty_GetMutable_propertyName</name></member>
-      <member refid="classMR_1_1FeatureObjectSharedProperty_1aa2b37f130e9e03d44e5ced2bedc20b71" prot="private" virt="non-virtual"><scope>MR::FeatureObjectSharedProperty</scope><name>__MR_FeatureObjectSharedProperty_GetMutable_setter</name></member>
       <member refid="classMR_1_1Const__FeatureObjectSharedProperty_1a1fa986c3713a05b440352f6dd7dcb63a" prot="protected" virt="non-virtual"><scope>MR::FeatureObjectSharedProperty</scope><name>__ref_storage_kind</name></member>
       <member refid="classMR_1_1FeatureObjectSharedProperty_1adb7d0a2cee810d9348b3104c9754b6d3" prot="public" virt="non-virtual"><scope>MR::FeatureObjectSharedProperty</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__FeatureObjectSharedProperty_1a2d9dab4beb5fab19917793a67989b108" prot="package" virt="non-virtual"><scope>MR::FeatureObjectSharedProperty</scope><name>Const_FeatureObjectSharedProperty</name></member>

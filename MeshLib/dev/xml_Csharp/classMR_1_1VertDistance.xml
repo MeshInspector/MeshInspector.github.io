@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="149" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="149" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="140" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="140" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1VertDistance_1aa96d9d35b662f403769c9315fb4b6cad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="154" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="154" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="145" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="145" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="158" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="158" bodyend="162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="149" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="149" bodyend="153"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="168" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="168" bodyend="172"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="159" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="159" bodyend="165"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VertDistance_1a70a4668613f2a3195c950944951c76b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="177" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="177" bodyend="182"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="170" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="170" bodyend="177"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VertDistance_1a98bcdf2901ad20e08645323a59233f56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="187" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="187" bodyend="187"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="182" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="182" bodyend="182"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VertDistance_1a5c0520473c32bf2378ac0a0fd3500298" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="192" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="192" bodyend="196"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="187" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="187" bodyend="193"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VertDistance_1af14eaab3fc2136fe0f2a409ca02b4e4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertDistance" kindref="compound">MR.VertDistance</ref></type>
@@ -153,85 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="201" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="201" bodyend="206"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1VertDistance_1a2dd2b8f4cc92b8d9b45ad7f6cd600bcc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VertDistance._Underlying *</type>
-        <definition>static unsafe MR.VertDistance._Underlying * MR.VertDistance.__MR_VertDistance_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.VertDistance._Underlying *_other)</argsstring>
-        <name>__MR_VertDistance_AssignFromAnother</name>
-        <qualifiedname>MR.VertDistance.__MR_VertDistance_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.VertDistance._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="211" column="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertDistance_1a9a6481f8ec639ad47a20be46447ca14a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VertDistance._Underlying *</type>
-        <definition>static unsafe MR.VertDistance._Underlying * MR.VertDistance.__MR_VertDistance_Construct</definition>
-        <argsstring>(MR.VertId v, float d)</argsstring>
-        <name>__MR_VertDistance_Construct</name>
-        <qualifiedname>MR.VertDistance.__MR_VertDistance_Construct</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
-          <declname>v</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>d</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="214" column="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertDistance_1afb6579c045cc53787e28c73d6f6621eb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VertDistance._Underlying *</type>
-        <definition>static unsafe MR.VertDistance._Underlying * MR.VertDistance.__MR_VertDistance_ConstructFromAnother</definition>
-        <argsstring>(MR.VertDistance._Underlying *_other)</argsstring>
-        <name>__MR_VertDistance_ConstructFromAnother</name>
-        <qualifiedname>MR.VertDistance.__MR_VertDistance_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.VertDistance._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="217" column="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertDistance_1a9b7981791e75d2ae6b3fc958be98af69" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VertDistance._Underlying *</type>
-        <definition>static unsafe MR.VertDistance._Underlying * MR.VertDistance.__MR_VertDistance_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_VertDistance_DefaultConstruct</name>
-        <qualifiedname>MR.VertDistance.__MR_VertDistance_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="220" column="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="198" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="198" bodyend="205"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -290,12 +212,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="144" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="145" bodyend="221"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="135" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="136" bodyend="206"/>
     <listofallmembers>
-      <member refid="classMR_1_1VertDistance_1a2dd2b8f4cc92b8d9b45ad7f6cd600bcc" prot="private" virt="non-virtual"><scope>MR::VertDistance</scope><name>__MR_VertDistance_AssignFromAnother</name></member>
-      <member refid="classMR_1_1VertDistance_1a9a6481f8ec639ad47a20be46447ca14a" prot="private" virt="non-virtual"><scope>MR::VertDistance</scope><name>__MR_VertDistance_Construct</name></member>
-      <member refid="classMR_1_1VertDistance_1afb6579c045cc53787e28c73d6f6621eb" prot="private" virt="non-virtual"><scope>MR::VertDistance</scope><name>__MR_VertDistance_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1VertDistance_1a9b7981791e75d2ae6b3fc958be98af69" prot="private" virt="non-virtual"><scope>MR::VertDistance</scope><name>__MR_VertDistance_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__VertDistance_1a73b2a31769d296965bb4a69d687511b2" prot="protected" virt="non-virtual"><scope>MR::VertDistance</scope><name>__ref_storage_distance</name></member>
       <member refid="classMR_1_1Const__VertDistance_1a10a30816cedaf6739c52dc02385dd4d1" prot="protected" virt="non-virtual"><scope>MR::VertDistance</scope><name>__ref_storage_vert</name></member>
       <member refid="classMR_1_1VertDistance_1af14eaab3fc2136fe0f2a409ca02b4e4c" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>assign</name></member>

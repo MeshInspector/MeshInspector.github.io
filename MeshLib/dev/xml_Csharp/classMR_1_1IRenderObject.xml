@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1741" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1741" bodyend="1741"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1634" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1634" bodyend="1634"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1747" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1747" bodyend="1750"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1640" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1640" bodyend="1645"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IRenderObject_1aa3bb34a2090a56ca3f531776ee40df4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1755" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1755" bodyend="1758"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1650" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1650" bodyend="1655"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IRenderObject_1a7a7a26ea0fa7594af0c9aec68c05622e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1764" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1764" bodyend="1767"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1661" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1661" bodyend="1666"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IRenderObject_1a7232b508c4785a0822786a82be485d32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -107,97 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1776" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1776" bodyend="1779"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1IRenderObject_1ace3af448f529d5361dcda3bf14334157" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.IRenderObject.__MR_IRenderObject_forceBindAll</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_IRenderObject_forceBindAll</name>
-        <qualifiedname>MR.IRenderObject.__MR_IRenderObject_forceBindAll</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1784" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IRenderObject_1a9b44a393b397be6d54d6a1da43177fbc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.IRenderObject.__MR_IRenderObject_render</definition>
-        <argsstring>(_Underlying *_this, MR.Const_ModelRenderParams._Underlying *params_)</argsstring>
-        <name>__MR_IRenderObject_render</name>
-        <qualifiedname>MR.IRenderObject.__MR_IRenderObject_render</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Const_ModelRenderParams._Underlying *</type>
-          <declname>params_</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1787" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IRenderObject_1abf11711df20be322c2609ac19132303e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.IRenderObject.__MR_IRenderObject_renderPicker</definition>
-        <argsstring>(_Underlying *_this, MR.Const_ModelBaseRenderParams._Underlying *params_, uint geomId)</argsstring>
-        <name>__MR_IRenderObject_renderPicker</name>
-        <qualifiedname>MR.IRenderObject.__MR_IRenderObject_renderPicker</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Const_ModelBaseRenderParams._Underlying *</type>
-          <declname>params_</declname>
-        </param>
-        <param>
-          <type>uint</type>
-          <declname>geomId</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1790" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IRenderObject_1a5d3e0dbed06f168c1ada69d7fdca9c58" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.IRenderObject.__MR_IRenderObject_renderUi</definition>
-        <argsstring>(_Underlying *_this, MR.Const_UiRenderParams._Underlying *params_)</argsstring>
-        <name>__MR_IRenderObject_renderUi</name>
-        <qualifiedname>MR.IRenderObject.__MR_IRenderObject_renderUi</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Const_UiRenderParams._Underlying *</type>
-          <declname>params_</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1793" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1675" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1675" bodyend="1680"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -249,12 +159,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1739" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1740" bodyend="1794"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1632" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1633" bodyend="1681"/>
     <listofallmembers>
-      <member refid="classMR_1_1IRenderObject_1ace3af448f529d5361dcda3bf14334157" prot="private" virt="non-virtual"><scope>MR::IRenderObject</scope><name>__MR_IRenderObject_forceBindAll</name></member>
-      <member refid="classMR_1_1IRenderObject_1a9b44a393b397be6d54d6a1da43177fbc" prot="private" virt="non-virtual"><scope>MR::IRenderObject</scope><name>__MR_IRenderObject_render</name></member>
-      <member refid="classMR_1_1IRenderObject_1abf11711df20be322c2609ac19132303e" prot="private" virt="non-virtual"><scope>MR::IRenderObject</scope><name>__MR_IRenderObject_renderPicker</name></member>
-      <member refid="classMR_1_1IRenderObject_1a5d3e0dbed06f168c1ada69d7fdca9c58" prot="private" virt="non-virtual"><scope>MR::IRenderObject</scope><name>__MR_IRenderObject_renderUi</name></member>
       <member refid="classMR_1_1Const__IRenderObject_1a8e04a1d2a4c9210f855d3c541b0209a8" prot="package" virt="non-virtual"><scope>MR::IRenderObject</scope><name>Const_IRenderObject</name></member>
       <member refid="classMR_1_1Const__IRenderObject_1af40afd425a3a8b4c870d576e19289d23" prot="protected" virt="virtual"><scope>MR::IRenderObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__IRenderObject_1a9b872eff3e08fa1c83bf9bc654bbb738" prot="public" virt="virtual"><scope>MR::IRenderObject</scope><name>Dispose</name></member>

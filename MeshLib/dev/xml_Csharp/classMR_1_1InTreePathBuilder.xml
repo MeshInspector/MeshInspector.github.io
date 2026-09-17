@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="88" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="88" bodyend="88"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="82" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="82" bodyend="82"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="93" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="93" bodyend="97"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="87" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="87" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InTreePathBuilder_1a1283b6d6888cdeea53af22e55bed4260" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="102" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="102" bodyend="102"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="98" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="98" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InTreePathBuilder_1a0a52789ec114fce309a5b1a5416a6752" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="107" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="107" bodyend="107"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="103" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1InTreePathBuilder_1a438587ac4ad3c159aa0d1dfc1f2e2fe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -106,53 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="112" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="112" bodyend="117"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1InTreePathBuilder_1a68ee84ee74bd1689d9b46d9db23309f6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.InTreePathBuilder._Underlying *</type>
-        <definition>static unsafe MR.InTreePathBuilder._Underlying * MR.InTreePathBuilder.__MR_InTreePathBuilder_Construct</definition>
-        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_UndirectedEdgeBitSet._Underlying *treeEdges)</argsstring>
-        <name>__MR_InTreePathBuilder_Construct</name>
-        <qualifiedname>MR.InTreePathBuilder.__MR_InTreePathBuilder_Construct</qualifiedname>
-        <param>
-          <type>MR.Const_MeshTopology._Underlying *</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>MR.Const_UndirectedEdgeBitSet._Underlying *</type>
-          <declname>treeEdges</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="122" column="61"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1InTreePathBuilder_1a62a5b9acad57844e2799cc6f57619f71" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.InTreePathBuilder._Underlying *</type>
-        <definition>static unsafe MR.InTreePathBuilder._Underlying * MR.InTreePathBuilder.__MR_InTreePathBuilder_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.InTreePathBuilder._Underlying *_other)</argsstring>
-        <name>__MR_InTreePathBuilder_ConstructFromAnother</name>
-        <qualifiedname>MR.InTreePathBuilder.__MR_InTreePathBuilder_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.InTreePathBuilder._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="125" column="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="108" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="108" bodyend="115"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -204,10 +158,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="86" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="87" bodyend="126"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="80" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="81" bodyend="116"/>
     <listofallmembers>
-      <member refid="classMR_1_1InTreePathBuilder_1a68ee84ee74bd1689d9b46d9db23309f6" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>__MR_InTreePathBuilder_Construct</name></member>
-      <member refid="classMR_1_1InTreePathBuilder_1a62a5b9acad57844e2799cc6f57619f71" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>__MR_InTreePathBuilder_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__InTreePathBuilder_1ae8d08f842395c646724000799496cc77" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>build</name></member>
       <member refid="classMR_1_1Const__InTreePathBuilder_1a2400a6c31186c50ed25b525674808608" prot="package" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>Const_InTreePathBuilder</name></member>
       <member refid="classMR_1_1Const__InTreePathBuilder_1a0f2d1d804772cbbc6eddceecdb14b979" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>Const_InTreePathBuilder</name></member>

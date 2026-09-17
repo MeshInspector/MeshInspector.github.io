@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2063" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2063" bodyend="2063"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1930" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1930" bodyend="1930"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2068" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2068" bodyend="2071"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1935" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1935" bodyend="1940"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1a886c4bc070dfa7fa2b04ab6d206c3edd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2076" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2076" bodyend="2080"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1945" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1945" bodyend="1951"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1a1808df6183b432f3f7d44216bcf96cc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2085" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2085" bodyend="2085"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1956" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1956" bodyend="1956"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1ad61298a74b71a3430a9f4cf05d56260d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f" kindref="compound">MR.Features.Traits.Unary_MRSphere3f</ref></type>
@@ -98,63 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2090" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2090" bodyend="2095"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1aa6c6f3350f909712d02a40579ead44e1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Features.Traits.Unary_MRSphere3f._Underlying *</type>
-        <definition>static unsafe MR.Features.Traits.Unary_MRSphere3f._Underlying * MR.Features.Traits.Unary_MRSphere3f.__MR_Features_Traits_Unary_MR_Sphere3f_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.Features.Traits.Unary_MRSphere3f._Underlying *_other)</argsstring>
-        <name>__MR_Features_Traits_Unary_MR_Sphere3f_AssignFromAnother</name>
-        <qualifiedname>MR.Features.Traits.Unary_MRSphere3f.__MR_Features_Traits_Unary_MR_Sphere3f_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Features.Traits.Unary_MRSphere3f._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2100" column="82"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1a0315c8a7f959e6e441408674aa5ae63b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Features.Traits.Unary_MRSphere3f._Underlying *</type>
-        <definition>static unsafe MR.Features.Traits.Unary_MRSphere3f._Underlying * MR.Features.Traits.Unary_MRSphere3f.__MR_Features_Traits_Unary_MR_Sphere3f_ConstructFromAnother</definition>
-        <argsstring>(MR.Features.Traits.Unary_MRSphere3f._Underlying *_other)</argsstring>
-        <name>__MR_Features_Traits_Unary_MR_Sphere3f_ConstructFromAnother</name>
-        <qualifiedname>MR.Features.Traits.Unary_MRSphere3f.__MR_Features_Traits_Unary_MR_Sphere3f_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Features.Traits.Unary_MRSphere3f._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2103" column="82"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1a21ca62b9fb18d124795a95a4316bb274" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Features.Traits.Unary_MRSphere3f._Underlying *</type>
-        <definition>static unsafe MR.Features.Traits.Unary_MRSphere3f._Underlying * MR.Features.Traits.Unary_MRSphere3f.__MR_Features_Traits_Unary_MR_Sphere3f_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_Features_Traits_Unary_MR_Sphere3f_DefaultConstruct</name>
-        <qualifiedname>MR.Features.Traits.Unary_MRSphere3f.__MR_Features_Traits_Unary_MR_Sphere3f_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2106" column="82"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1961" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1961" bodyend="1968"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -206,11 +150,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2061" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2062" bodyend="2107"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1928" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1929" bodyend="1969"/>
     <listofallmembers>
-      <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1aa6c6f3350f909712d02a40579ead44e1" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>__MR_Features_Traits_Unary_MR_Sphere3f_AssignFromAnother</name></member>
-      <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1a0315c8a7f959e6e441408674aa5ae63b" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>__MR_Features_Traits_Unary_MR_Sphere3f_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1a21ca62b9fb18d124795a95a4316bb274" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>__MR_Features_Traits_Unary_MR_Sphere3f_DefaultConstruct</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1ad61298a74b71a3430a9f4cf05d56260d" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>assign</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f_1a18d733da09e669dd891a4a51810147f0" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>Const_Unary_MRSphere3f</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f_1a08897de76dd821fe5e5ddaafead84542" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>Const_Unary_MRSphere3f</name></member>

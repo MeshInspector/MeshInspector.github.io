@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2985" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2985" bodyend="2985"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2786" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2786" bodyend="2786"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2990" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2990" bodyend="2993"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2791" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2791" bodyend="2796"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment_1ab65a54ff8646b27d240765849c204442" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2998" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2998" bodyend="3002"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2801" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2801" bodyend="2807"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment_1a3875036840f4df85150c3e819c64f69a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3007" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3007" bodyend="3007"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2812" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2812" bodyend="2812"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment_1a8b7977a89fb978461237b5630ecf1bda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment" kindref="compound">MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment</ref></type>
@@ -98,63 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3012" column="118" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3012" bodyend="3017"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment_1a9f8f62ba5384984e70db58a7fa0b7ecf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment._Underlying *</type>
-        <definition>static unsafe MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment._Underlying * MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment.__MR_Features_Traits_Binary_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_ConeSegment_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment._Underlying *_other)</argsstring>
-        <name>__MR_Features_Traits_Binary_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_ConeSegment_AssignFromAnother</name>
-        <qualifiedname>MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment.__MR_Features_Traits_Binary_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_ConeSegment_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3022" column="136"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment_1aefed970aaf06ffed2d68dd3fbe797cc5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment._Underlying *</type>
-        <definition>static unsafe MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment._Underlying * MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment.__MR_Features_Traits_Binary_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_ConeSegment_ConstructFromAnother</definition>
-        <argsstring>(MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment._Underlying *_other)</argsstring>
-        <name>__MR_Features_Traits_Binary_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_ConeSegment_ConstructFromAnother</name>
-        <qualifiedname>MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment.__MR_Features_Traits_Binary_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_ConeSegment_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3025" column="136"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment_1a8e376a9743a2aa6ef6fdd94bd461f1c4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment._Underlying *</type>
-        <definition>static unsafe MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment._Underlying * MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment.__MR_Features_Traits_Binary_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_ConeSegment_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_Features_Traits_Binary_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_ConeSegment_DefaultConstruct</name>
-        <qualifiedname>MR.Features.Traits.Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment.__MR_Features_Traits_Binary_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_ConeSegment_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3028" column="136"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2817" column="118" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2817" bodyend="2824"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -206,11 +150,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2983" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2984" bodyend="3029"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2784" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2785" bodyend="2825"/>
     <listofallmembers>
-      <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment_1a9f8f62ba5384984e70db58a7fa0b7ecf" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment</scope><name>__MR_Features_Traits_Binary_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_ConeSegment_AssignFromAnother</name></member>
-      <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment_1aefed970aaf06ffed2d68dd3fbe797cc5" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment</scope><name>__MR_Features_Traits_Binary_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_ConeSegment_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment_1a8e376a9743a2aa6ef6fdd94bd461f1c4" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment</scope><name>__MR_Features_Traits_Binary_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_ConeSegment_DefaultConstruct</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment_1a8b7977a89fb978461237b5630ecf1bda" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment</scope><name>assign</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment_1afc5506db6d7aff018012e0dd9548e863" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment</scope><name>Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment_1acd5f7f55cc962e270236c334db54f54a" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment</scope><name>Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment</name></member>

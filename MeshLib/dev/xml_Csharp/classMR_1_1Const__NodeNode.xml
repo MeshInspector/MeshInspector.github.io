@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1577" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1577" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1477" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1477" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__NodeNode_1ae1a7669f4067901e07e4f846654b39d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1580" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1580" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1480" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1480" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1578" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1578" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1478" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1478" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__NodeNode_1a043436ffdfc5916e25b0a126d816cde4" prot="protected" static="no" mutable="no">
         <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref> *</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1581" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1581" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1481" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1481" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1567" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1567" bodyend="1573"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1465" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1465" bodyend="1473"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1574" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1574" bodyend="1574"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1474" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1474" bodyend="1474"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__NodeNode_1a99b006df0fd503b556284d8d8e0a7dbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1610" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1610" bodyend="1614"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1514" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1514" bodyend="1520"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__NodeNode_1a6d31b29f27e14d63540c54e470a96860" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1619" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1619" bodyend="1623"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1525" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1525" bodyend="1531"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__NodeNode_1ad56cc7ec02581ee4c6d688fe4c9b3335" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1628" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1628" bodyend="1633"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1536" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1536" bodyend="1543"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__NodeNode_1a8fdc88141df161c9ce8700af2f851495" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -174,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1638" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1638" bodyend="1638"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1548" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1548" bodyend="1548"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1575" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1575" bodyend="1575"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1475" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1475" bodyend="1475"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -214,117 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1599" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1599" bodyend="1604"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__NodeNode_1a4d3f2b7e87539cd06f6abcb5bdf93c46" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.NodeNode._Underlying *</type>
-        <definition>static unsafe MR.NodeNode._Underlying * MR.Const_NodeNode.__MR_NodeNode_ConstructFrom</definition>
-        <argsstring>(MR.NodeId aNode, MR.NodeId bNode)</argsstring>
-        <name>__MR_NodeNode_ConstructFrom</name>
-        <qualifiedname>MR.Const_NodeNode.__MR_NodeNode_ConstructFrom</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
-          <declname>aNode</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
-          <declname>bNode</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1643" column="52"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__NodeNode_1ad7469d8c0188f1242864d508450c10d1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.NodeNode._Underlying *</type>
-        <definition>static unsafe MR.NodeNode._Underlying * MR.Const_NodeNode.__MR_NodeNode_ConstructFromAnother</definition>
-        <argsstring>(MR.NodeNode._Underlying *_other)</argsstring>
-        <name>__MR_NodeNode_ConstructFromAnother</name>
-        <qualifiedname>MR.Const_NodeNode.__MR_NodeNode_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.NodeNode._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1646" column="52"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__NodeNode_1abe68d88a91512ec53dcc70f7eb0035f0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.NodeNode._Underlying *</type>
-        <definition>static unsafe MR.NodeNode._Underlying * MR.Const_NodeNode.__MR_NodeNode_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_NodeNode_DefaultConstruct</name>
-        <qualifiedname>MR.Const_NodeNode.__MR_NodeNode_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1649" column="52"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__NodeNode_1a5f93ed61e931b10f670c011953d92ba1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.Const_NodeNode.__MR_NodeNode_Destroy</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_NodeNode_Destroy</name>
-        <qualifiedname>MR.Const_NodeNode.__MR_NodeNode_Destroy</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1652" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__NodeNode_1a2a6d1f63419ed495fdbe6e84b79fd392" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref> *</type>
-        <definition>static unsafe MR.NodeId * MR.Const_NodeNode.__MR_NodeNode_Get_aNode</definition>
-        <argsstring>(MR.Const_NodeNode._Underlying *_this)</argsstring>
-        <name>__MR_NodeNode_Get_aNode</name>
-        <qualifiedname>MR.Const_NodeNode.__MR_NodeNode_Get_aNode</qualifiedname>
-        <param>
-          <type>MR.Const_NodeNode._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1655" column="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__NodeNode_1a7afa087f265dce4b774cffc08aecbb2f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref> *</type>
-        <definition>static unsafe MR.NodeId * MR.Const_NodeNode.__MR_NodeNode_Get_bNode</definition>
-        <argsstring>(MR.Const_NodeNode._Underlying *_this)</argsstring>
-        <name>__MR_NodeNode_Get_bNode</name>
-        <qualifiedname>MR.Const_NodeNode.__MR_NodeNode_Get_bNode</qualifiedname>
-        <param>
-          <type>MR.Const_NodeNode._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1658" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1503" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1503" bodyend="1508"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -378,14 +268,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1561" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1562" bodyend="1659"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1459" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1460" bodyend="1549"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__NodeNode_1a4d3f2b7e87539cd06f6abcb5bdf93c46" prot="private" virt="non-virtual"><scope>MR::Const_NodeNode</scope><name>__MR_NodeNode_ConstructFrom</name></member>
-      <member refid="classMR_1_1Const__NodeNode_1ad7469d8c0188f1242864d508450c10d1" prot="private" virt="non-virtual"><scope>MR::Const_NodeNode</scope><name>__MR_NodeNode_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1Const__NodeNode_1abe68d88a91512ec53dcc70f7eb0035f0" prot="private" virt="non-virtual"><scope>MR::Const_NodeNode</scope><name>__MR_NodeNode_DefaultConstruct</name></member>
-      <member refid="classMR_1_1Const__NodeNode_1a5f93ed61e931b10f670c011953d92ba1" prot="private" virt="non-virtual"><scope>MR::Const_NodeNode</scope><name>__MR_NodeNode_Destroy</name></member>
-      <member refid="classMR_1_1Const__NodeNode_1a2a6d1f63419ed495fdbe6e84b79fd392" prot="private" virt="non-virtual"><scope>MR::Const_NodeNode</scope><name>__MR_NodeNode_Get_aNode</name></member>
-      <member refid="classMR_1_1Const__NodeNode_1a7afa087f265dce4b774cffc08aecbb2f" prot="private" virt="non-virtual"><scope>MR::Const_NodeNode</scope><name>__MR_NodeNode_Get_bNode</name></member>
       <member refid="classMR_1_1Const__NodeNode_1af67ca3cf57753d06e00c3b9b72c1046d" prot="protected" virt="non-virtual"><scope>MR::Const_NodeNode</scope><name>__ref_storage_aNode</name></member>
       <member refid="classMR_1_1Const__NodeNode_1a043436ffdfc5916e25b0a126d816cde4" prot="protected" virt="non-virtual"><scope>MR::Const_NodeNode</scope><name>__ref_storage_bNode</name></member>
       <member refid="classMR_1_1Const__NodeNode_1a5d8c7a2b89dfd1870c49b7829070d7b2" prot="public" virt="non-virtual"><scope>MR::Const_NodeNode</scope><name>aNode</name></member>

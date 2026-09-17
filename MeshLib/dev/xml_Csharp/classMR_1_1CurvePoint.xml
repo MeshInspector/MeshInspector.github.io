@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="135" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="135" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="126" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1CurvePoint_1ae8b151e635f60413a2b2013806dee6ee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="140" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="140" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="131" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1CurvePoint_1abe5f5bc4b80d9f661f955bd654248385" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="145" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="145" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="136" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="136" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="149" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="149" bodyend="153"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="140" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="140" bodyend="144"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="159" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="159" bodyend="163"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="150" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="150" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CurvePoint_1ac76028738980ccff0fdb9f228d80a6d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="168" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="168" bodyend="172"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="161" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="161" bodyend="167"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CurvePoint_1a86952cbd5695483c7bd4bff38fd69855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="177" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="177" bodyend="182"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="172" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="172" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CurvePoint_1af069b8675cdef463b4703a6f538d3128" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="187" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="187" bodyend="187"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="184" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="184" bodyend="184"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CurvePoint_1a20f725a7d7da530992ff0444db50c739" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1CurvePoint" kindref="compound">MR.CurvePoint</ref></type>
@@ -172,89 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="192" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="192" bodyend="197"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1CurvePoint_1a059f5cf42937155256c5eea7ac80f865" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.CurvePoint._Underlying *</type>
-        <definition>static unsafe MR.CurvePoint._Underlying * MR.CurvePoint.__MR_CurvePoint_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.CurvePoint._Underlying *_other)</argsstring>
-        <name>__MR_CurvePoint_AssignFromAnother</name>
-        <qualifiedname>MR.CurvePoint.__MR_CurvePoint_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.CurvePoint._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="202" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CurvePoint_1a7d9be486e93048223f1974d7e524c47b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.CurvePoint._Underlying *</type>
-        <definition>static unsafe MR.CurvePoint._Underlying * MR.CurvePoint.__MR_CurvePoint_ConstructFrom</definition>
-        <argsstring>(MR.Vector3f pos, MR.Vector3f dir, MR.Vector3f snorm)</argsstring>
-        <name>__MR_CurvePoint_ConstructFrom</name>
-        <qualifiedname>MR.CurvePoint.__MR_CurvePoint_ConstructFrom</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
-          <declname>pos</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
-          <declname>dir</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
-          <declname>snorm</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="205" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CurvePoint_1ab826b4de5c526c9f04baf5f3af1f8383" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.CurvePoint._Underlying *</type>
-        <definition>static unsafe MR.CurvePoint._Underlying * MR.CurvePoint.__MR_CurvePoint_ConstructFromAnother</definition>
-        <argsstring>(MR.CurvePoint._Underlying *_other)</argsstring>
-        <name>__MR_CurvePoint_ConstructFromAnother</name>
-        <qualifiedname>MR.CurvePoint.__MR_CurvePoint_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.CurvePoint._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="208" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CurvePoint_1a5e5a3c627e2b794b65f854438bb9433a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.CurvePoint._Underlying *</type>
-        <definition>static unsafe MR.CurvePoint._Underlying * MR.CurvePoint.__MR_CurvePoint_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_CurvePoint_DefaultConstruct</name>
-        <qualifiedname>MR.CurvePoint.__MR_CurvePoint_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="211" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="189" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="189" bodyend="196"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -315,12 +233,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="130" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="131" bodyend="212"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="121" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="122" bodyend="197"/>
     <listofallmembers>
-      <member refid="classMR_1_1CurvePoint_1a059f5cf42937155256c5eea7ac80f865" prot="private" virt="non-virtual"><scope>MR::CurvePoint</scope><name>__MR_CurvePoint_AssignFromAnother</name></member>
-      <member refid="classMR_1_1CurvePoint_1a7d9be486e93048223f1974d7e524c47b" prot="private" virt="non-virtual"><scope>MR::CurvePoint</scope><name>__MR_CurvePoint_ConstructFrom</name></member>
-      <member refid="classMR_1_1CurvePoint_1ab826b4de5c526c9f04baf5f3af1f8383" prot="private" virt="non-virtual"><scope>MR::CurvePoint</scope><name>__MR_CurvePoint_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1CurvePoint_1a5e5a3c627e2b794b65f854438bb9433a" prot="private" virt="non-virtual"><scope>MR::CurvePoint</scope><name>__MR_CurvePoint_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__CurvePoint_1ae974b86ef2b857a7ba70245b085c1345" prot="protected" virt="non-virtual"><scope>MR::CurvePoint</scope><name>__ref_storage_dir</name></member>
       <member refid="classMR_1_1Const__CurvePoint_1ab12ac4ea178f848ffeb6d94c22610d74" prot="protected" virt="non-virtual"><scope>MR::CurvePoint</scope><name>__ref_storage_pos</name></member>
       <member refid="classMR_1_1Const__CurvePoint_1a5b19b9869e5e340de57bec253f47de7b" prot="protected" virt="non-virtual"><scope>MR::CurvePoint</scope><name>__ref_storage_snorm</name></member>

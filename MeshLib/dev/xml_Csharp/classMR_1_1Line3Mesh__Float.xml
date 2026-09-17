@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1231" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1231" bodyend="1231"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1166" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1166" bodyend="1166"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Line3Mesh__Float_1ac655fc77021b6919aac75245da4ec081" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1IntersectionPrecomputes__Float" kindref="compound">IntersectionPrecomputes_Float</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1236" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1237" bodyend="1246"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1171" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1172" bodyend="1181"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Line3Mesh__Float_1af28e1e7a6c287311da1793bdccaa5278" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Const__Mesh" kindref="compound">Const_Mesh</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1251" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1252" bodyend="1261"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1186" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1187" bodyend="1196"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Line3Mesh__Float_1a591c49a635cc5154e7d9f9c7bee74f83" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Const__AABBTree" kindref="compound">Const_AABBTree</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1266" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1267" bodyend="1276"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1201" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1202" bodyend="1211"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Line3Mesh__Float_1aa3c9909ff88296d8699f40564a928b5d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">Const_FaceBitSet</ref></type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1281" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1282" bodyend="1291"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1216" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1217" bodyend="1226"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1308" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1308" bodyend="1312"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1245" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1245" bodyend="1249"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1318" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1318" bodyend="1322"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1255" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1255" bodyend="1261"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Line3Mesh__Float_1a621f62d1139f403f547f6acae11dffb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1327" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1327" bodyend="1336"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1266" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1266" bodyend="1277"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Line3Mesh__Float_1a6abfd77d8b3701dc0d39fcefbb214659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1341" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1341" bodyend="1346"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1282" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1282" bodyend="1289"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Line3Mesh__Float_1ae5ba717f0ff14d582547d731ab1d7b16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1351" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1351" bodyend="1351"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1294" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1294" bodyend="1294"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Line3Mesh__Float_1aa1bd9d1fc5f421ec2e58d1c7f856538d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Line3Mesh__Float" kindref="compound">MR.Line3Mesh_Float</ref></type>
@@ -210,115 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1356" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1356" bodyend="1361"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Line3Mesh__Float_1a32a1c969b540a098803097b575faeb60" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Line3Mesh_Float._Underlying *</type>
-        <definition>static unsafe MR.Line3Mesh_Float._Underlying * MR.Line3Mesh_Float.__MR_Line3Mesh_float_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.Line3Mesh_Float._Underlying *_other)</argsstring>
-        <name>__MR_Line3Mesh_float_AssignFromAnother</name>
-        <qualifiedname>MR.Line3Mesh_Float.__MR_Line3Mesh_float_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Line3Mesh_Float._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1366" column="59"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Line3Mesh__Float_1a7c60ae39bcb3cb4479368b1ef3ac05ed" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Line3Mesh_Float._Underlying *</type>
-        <definition>static unsafe MR.Line3Mesh_Float._Underlying * MR.Line3Mesh_Float.__MR_Line3Mesh_float_ConstructFrom</definition>
-        <argsstring>(MR.Line3f._Underlying *line, MR.IntersectionPrecomputes_Float._Underlying *prec, MR.Const_Mesh._Underlying *mesh, MR.Const_AABBTree._Underlying *tree, MR.Const_FaceBitSet._Underlying *region)</argsstring>
-        <name>__MR_Line3Mesh_float_ConstructFrom</name>
-        <qualifiedname>MR.Line3Mesh_Float.__MR_Line3Mesh_float_ConstructFrom</qualifiedname>
-        <param>
-          <type>MR.Line3f._Underlying *</type>
-          <declname>line</declname>
-        </param>
-        <param>
-          <type>MR.IntersectionPrecomputes_Float._Underlying *</type>
-          <declname>prec</declname>
-        </param>
-        <param>
-          <type>MR.Const_Mesh._Underlying *</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>MR.Const_AABBTree._Underlying *</type>
-          <declname>tree</declname>
-        </param>
-        <param>
-          <type>MR.Const_FaceBitSet._Underlying *</type>
-          <declname>region</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1369" column="59"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Line3Mesh__Float_1a2cc38dd27a3750721e2a1e3271c07032" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Line3Mesh_Float._Underlying *</type>
-        <definition>static unsafe MR.Line3Mesh_Float._Underlying * MR.Line3Mesh_Float.__MR_Line3Mesh_float_ConstructFromAnother</definition>
-        <argsstring>(MR.Line3Mesh_Float._Underlying *_other)</argsstring>
-        <name>__MR_Line3Mesh_float_ConstructFromAnother</name>
-        <qualifiedname>MR.Line3Mesh_Float.__MR_Line3Mesh_float_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Line3Mesh_Float._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1372" column="59"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Line3Mesh__Float_1a4dcb94af15b923a998d8111dac3733d2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Line3Mesh_Float._Underlying *</type>
-        <definition>static unsafe MR.Line3Mesh_Float._Underlying * MR.Line3Mesh_Float.__MR_Line3Mesh_float_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_Line3Mesh_float_DefaultConstruct</name>
-        <qualifiedname>MR.Line3Mesh_Float.__MR_Line3Mesh_float_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1375" column="59"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Line3Mesh__Float_1a3f105ade15cd2b714519d139425bbd03" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Line3f._Underlying *</type>
-        <definition>static unsafe MR.Line3f._Underlying * MR.Line3Mesh_Float.__MR_Line3Mesh_float_GetMutable_line</definition>
-        <argsstring>(MR.Line3Mesh_Float._Underlying *_this)</argsstring>
-        <name>__MR_Line3Mesh_float_GetMutable_line</name>
-        <qualifiedname>MR.Line3Mesh_Float.__MR_Line3Mesh_float_GetMutable_line</qualifiedname>
-        <param>
-          <type>MR.Line3Mesh_Float._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1378" column="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1299" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1299" bodyend="1306"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -380,13 +272,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1226" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1227" bodyend="1379"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1161" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1162" bodyend="1307"/>
     <listofallmembers>
-      <member refid="classMR_1_1Line3Mesh__Float_1a32a1c969b540a098803097b575faeb60" prot="private" virt="non-virtual"><scope>MR::Line3Mesh_Float</scope><name>__MR_Line3Mesh_float_AssignFromAnother</name></member>
-      <member refid="classMR_1_1Line3Mesh__Float_1a7c60ae39bcb3cb4479368b1ef3ac05ed" prot="private" virt="non-virtual"><scope>MR::Line3Mesh_Float</scope><name>__MR_Line3Mesh_float_ConstructFrom</name></member>
-      <member refid="classMR_1_1Line3Mesh__Float_1a2cc38dd27a3750721e2a1e3271c07032" prot="private" virt="non-virtual"><scope>MR::Line3Mesh_Float</scope><name>__MR_Line3Mesh_float_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1Line3Mesh__Float_1a4dcb94af15b923a998d8111dac3733d2" prot="private" virt="non-virtual"><scope>MR::Line3Mesh_Float</scope><name>__MR_Line3Mesh_float_DefaultConstruct</name></member>
-      <member refid="classMR_1_1Line3Mesh__Float_1a3f105ade15cd2b714519d139425bbd03" prot="private" virt="non-virtual"><scope>MR::Line3Mesh_Float</scope><name>__MR_Line3Mesh_float_GetMutable_line</name></member>
       <member refid="classMR_1_1Const__Line3Mesh__Float_1a4a39fce7b24e7cbe6518b38d8cc271e6" prot="protected" virt="non-virtual"><scope>MR::Line3Mesh_Float</scope><name>__ptr_storage_mesh</name></member>
       <member refid="classMR_1_1Const__Line3Mesh__Float_1aa6b380dbfd991a8d18abbf5c01bfc405" prot="protected" virt="non-virtual"><scope>MR::Line3Mesh_Float</scope><name>__ptr_storage_prec</name></member>
       <member refid="classMR_1_1Const__Line3Mesh__Float_1afeb0001522d0f9ba246cc843eb31c184" prot="protected" virt="non-virtual"><scope>MR::Line3Mesh_Float</scope><name>__ptr_storage_region</name></member>

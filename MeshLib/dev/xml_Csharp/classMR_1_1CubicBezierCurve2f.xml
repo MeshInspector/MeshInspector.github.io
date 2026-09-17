@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="136" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="136" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="127" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="127" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="140" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="140" bodyend="144"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="131" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="131" bodyend="135"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="150" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="150" bodyend="154"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="141" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="141" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CubicBezierCurve2f_1a8951b3d515dde4168ca41b4097c58c43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="159" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="159" bodyend="164"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="152" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="152" bodyend="159"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CubicBezierCurve2f_1a71314d2d809801edd95e5b24d3badd06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -96,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="169" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="169" bodyend="169"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="164" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="164" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CubicBezierCurve2f_1a1124712dddcee80e6d866a6702899362" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1CubicBezierCurve2f" kindref="compound">MR.CubicBezierCurve2f</ref></type>
@@ -115,63 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="174" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="174" bodyend="179"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1CubicBezierCurve2f_1acd270e66ff7f3418be2ce4f9f06c1d49" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.CubicBezierCurve2f._Underlying *</type>
-        <definition>static unsafe MR.CubicBezierCurve2f._Underlying * MR.CubicBezierCurve2f.__MR_CubicBezierCurve2f_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.CubicBezierCurve2f._Underlying *_other)</argsstring>
-        <name>__MR_CubicBezierCurve2f_AssignFromAnother</name>
-        <qualifiedname>MR.CubicBezierCurve2f.__MR_CubicBezierCurve2f_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.CubicBezierCurve2f._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="184" column="62"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CubicBezierCurve2f_1a0a95e48d28e6087c9445bec514d34e87" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.CubicBezierCurve2f._Underlying *</type>
-        <definition>static unsafe MR.CubicBezierCurve2f._Underlying * MR.CubicBezierCurve2f.__MR_CubicBezierCurve2f_ConstructFromAnother</definition>
-        <argsstring>(MR.CubicBezierCurve2f._Underlying *_other)</argsstring>
-        <name>__MR_CubicBezierCurve2f_ConstructFromAnother</name>
-        <qualifiedname>MR.CubicBezierCurve2f.__MR_CubicBezierCurve2f_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.CubicBezierCurve2f._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="187" column="62"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1CubicBezierCurve2f_1a295e72c31883686aa76cf1950f2bb661" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.CubicBezierCurve2f._Underlying *</type>
-        <definition>static unsafe MR.CubicBezierCurve2f._Underlying * MR.CubicBezierCurve2f.__MR_CubicBezierCurve2f_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_CubicBezierCurve2f_DefaultConstruct</name>
-        <qualifiedname>MR.CubicBezierCurve2f.__MR_CubicBezierCurve2f_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="190" column="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="169" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="169" bodyend="176"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -230,12 +174,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="131" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="132" bodyend="191"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="122" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="123" bodyend="177"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__CubicBezierCurve2f_1ad28e1f3a70945fbf82696dd6400b28eb" prot="protected" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>__array_storage_p</name></member>
-      <member refid="classMR_1_1CubicBezierCurve2f_1acd270e66ff7f3418be2ce4f9f06c1d49" prot="private" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>__MR_CubicBezierCurve2f_AssignFromAnother</name></member>
-      <member refid="classMR_1_1CubicBezierCurve2f_1a0a95e48d28e6087c9445bec514d34e87" prot="private" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>__MR_CubicBezierCurve2f_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1CubicBezierCurve2f_1a295e72c31883686aa76cf1950f2bb661" prot="private" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>__MR_CubicBezierCurve2f_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__CubicBezierCurve2f_1a8c01258ef091d392430b305d52b02ed1" prot="protected" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>__ref_storage_Elements</name></member>
       <member refid="classMR_1_1CubicBezierCurve2f_1a1124712dddcee80e6d866a6702899362" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__CubicBezierCurve2f_1abae6273799f873e6d9183a5eabe54a5a" prot="package" virt="non-virtual"><scope>MR::CubicBezierCurve2f</scope><name>Const_CubicBezierCurve2f</name></member>

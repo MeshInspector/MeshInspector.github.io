@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="748" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="748" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="704" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="704" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__ConvertToFloatVector_1a48ed4e69b7c26aee97775064365b3ab8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="751" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="751" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="707" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="707" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="749" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="749" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="705" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="705" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__ConvertToFloatVector_1afcad981cafc102c0a4382de6314a63f2" prot="protected" static="no" mutable="no">
         <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref> *</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="752" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="752" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="708" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="708" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="738" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="738" bodyend="744"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="692" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="692" bodyend="700"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="745" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="745" bodyend="745"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="701" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="701" bodyend="701"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1a5edae9591667de292e0568b22ee952a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="781" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="781" bodyend="785"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="741" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="741" bodyend="747"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1a4979c7099b58135e02aaae7b03a1a766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="790" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="790" bodyend="794"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="752" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="752" bodyend="758"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1aa70abe6b403973e913c75ef150c501f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="799" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="799" bodyend="804"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="763" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="763" bodyend="770"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1a29af6043b8e8e35d8f51e99db7e8ec5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -174,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="809" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="809" bodyend="809"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="775" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="775" bodyend="775"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1a8a8d240b90a86487da7c02be0ba50994" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="815" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="815" bodyend="821"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="781" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="781" bodyend="789"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1ab8c24c15a2e4e827a66e72bfdb09d429" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="827" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="827" bodyend="833"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="795" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="795" bodyend="803"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="746" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="746" bodyend="746"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="702" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="702" bodyend="702"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -252,161 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="770" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="770" bodyend="775"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1abfce9e3315b55d0ce69972b0dbfd2fc3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ConvertToFloatVector._Underlying *</type>
-        <definition>static unsafe MR.ConvertToFloatVector._Underlying * MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_ConstructFrom</definition>
-        <argsstring>(double range, MR.Vector3d center)</argsstring>
-        <name>__MR_ConvertToFloatVector_ConstructFrom</name>
-        <qualifiedname>MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_ConstructFrom</qualifiedname>
-        <param>
-          <type>double</type>
-          <declname>range</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
-          <declname>center</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="838" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1ae1eb09d100c354a453ceb4c0c2e37231" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ConvertToFloatVector._Underlying *</type>
-        <definition>static unsafe MR.ConvertToFloatVector._Underlying * MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_ConstructFromAnother</definition>
-        <argsstring>(MR.ConvertToFloatVector._Underlying *_other)</argsstring>
-        <name>__MR_ConvertToFloatVector_ConstructFromAnother</name>
-        <qualifiedname>MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.ConvertToFloatVector._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="841" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1a21b01c0f267212a3d40fac08add8454d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ConvertToFloatVector._Underlying *</type>
-        <definition>static unsafe MR.ConvertToFloatVector._Underlying * MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_ConvertToFloatVector_DefaultConstruct</name>
-        <qualifiedname>MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="844" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1abceee37bc588867a2f852b58d034386e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_Destroy</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_ConvertToFloatVector_Destroy</name>
-        <qualifiedname>MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_Destroy</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="847" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1a30ee6d16db38f6dc497c1995a08255a8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref> *</type>
-        <definition>static unsafe MR.Vector3d * MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_Get_center</definition>
-        <argsstring>(MR.Const_ConvertToFloatVector._Underlying *_this)</argsstring>
-        <name>__MR_ConvertToFloatVector_Get_center</name>
-        <qualifiedname>MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_Get_center</qualifiedname>
-        <param>
-          <type>MR.Const_ConvertToFloatVector._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="850" column="41"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1aaee9f25bd39b5f6aada99ab8b09e3542" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe double *</type>
-        <definition>static unsafe double * MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_Get_range</definition>
-        <argsstring>(MR.Const_ConvertToFloatVector._Underlying *_this)</argsstring>
-        <name>__MR_ConvertToFloatVector_Get_range</name>
-        <qualifiedname>MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_Get_range</qualifiedname>
-        <param>
-          <type>MR.Const_ConvertToFloatVector._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="853" column="37"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1af0854d4e15c14be6179666a01bf78566" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
-        <definition>static unsafe MR.Vector3f MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_call</definition>
-        <argsstring>(_Underlying *_this, MR.Vector3i *v)</argsstring>
-        <name>__MR_ConvertToFloatVector_call</name>
-        <qualifiedname>MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_call</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="856" column="41"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ConvertToFloatVector_1a2e70443c191df38db7deb907a809bba9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
-        <definition>static unsafe MR.Vector3d MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_convert</definition>
-        <argsstring>(_Underlying *_this, MR.Vector3i *v)</argsstring>
-        <name>__MR_ConvertToFloatVector_convert</name>
-        <qualifiedname>MR.Const_ConvertToFloatVector.__MR_ConvertToFloatVector_convert</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="859" column="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="730" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="730" bodyend="735"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -459,16 +305,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="732" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="733" bodyend="860"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="686" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="687" bodyend="804"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__ConvertToFloatVector_1af0854d4e15c14be6179666a01bf78566" prot="private" virt="non-virtual"><scope>MR::Const_ConvertToFloatVector</scope><name>__MR_ConvertToFloatVector_call</name></member>
-      <member refid="classMR_1_1Const__ConvertToFloatVector_1abfce9e3315b55d0ce69972b0dbfd2fc3" prot="private" virt="non-virtual"><scope>MR::Const_ConvertToFloatVector</scope><name>__MR_ConvertToFloatVector_ConstructFrom</name></member>
-      <member refid="classMR_1_1Const__ConvertToFloatVector_1ae1eb09d100c354a453ceb4c0c2e37231" prot="private" virt="non-virtual"><scope>MR::Const_ConvertToFloatVector</scope><name>__MR_ConvertToFloatVector_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1Const__ConvertToFloatVector_1a2e70443c191df38db7deb907a809bba9" prot="private" virt="non-virtual"><scope>MR::Const_ConvertToFloatVector</scope><name>__MR_ConvertToFloatVector_convert</name></member>
-      <member refid="classMR_1_1Const__ConvertToFloatVector_1a21b01c0f267212a3d40fac08add8454d" prot="private" virt="non-virtual"><scope>MR::Const_ConvertToFloatVector</scope><name>__MR_ConvertToFloatVector_DefaultConstruct</name></member>
-      <member refid="classMR_1_1Const__ConvertToFloatVector_1abceee37bc588867a2f852b58d034386e" prot="private" virt="non-virtual"><scope>MR::Const_ConvertToFloatVector</scope><name>__MR_ConvertToFloatVector_Destroy</name></member>
-      <member refid="classMR_1_1Const__ConvertToFloatVector_1a30ee6d16db38f6dc497c1995a08255a8" prot="private" virt="non-virtual"><scope>MR::Const_ConvertToFloatVector</scope><name>__MR_ConvertToFloatVector_Get_center</name></member>
-      <member refid="classMR_1_1Const__ConvertToFloatVector_1aaee9f25bd39b5f6aada99ab8b09e3542" prot="private" virt="non-virtual"><scope>MR::Const_ConvertToFloatVector</scope><name>__MR_ConvertToFloatVector_Get_range</name></member>
       <member refid="classMR_1_1Const__ConvertToFloatVector_1afcad981cafc102c0a4382de6314a63f2" prot="protected" virt="non-virtual"><scope>MR::Const_ConvertToFloatVector</scope><name>__ref_storage_center</name></member>
       <member refid="classMR_1_1Const__ConvertToFloatVector_1a1268e37abe1e15e5452bea3dce00ea17" prot="protected" virt="non-virtual"><scope>MR::Const_ConvertToFloatVector</scope><name>__ref_storage_range</name></member>
       <member refid="classMR_1_1Const__ConvertToFloatVector_1ab8c24c15a2e4e827a66e72bfdb09d429" prot="public" virt="non-virtual"><scope>MR::Const_ConvertToFloatVector</scope><name>call</name></member>

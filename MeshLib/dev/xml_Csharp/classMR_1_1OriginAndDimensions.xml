@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="115" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="115" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="107" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1OriginAndDimensions_1aa653f55c2b9fb26999b42a40fc7b1ca0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="117" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="117" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="109" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="109" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="121" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="121" bodyend="125"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="113" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="113" bodyend="117"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="131" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="131" bodyend="135"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="123" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="123" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OriginAndDimensions_1a6f680a9e80a2e203ce4cf1ea4f955ccd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="140" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="140" bodyend="144"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="134" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="134" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OriginAndDimensions_1a717027bbd21463475511e1bf79e16041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="149" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="149" bodyend="154"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="145" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="145" bodyend="152"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OriginAndDimensions_1ab0534c8315638aed689be02b6169c866" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="159" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="159" bodyend="159"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="157" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="157" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1OriginAndDimensions_1abb60cb039d74845e35c678d372562daa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1OriginAndDimensions" kindref="compound">MR.OriginAndDimensions</ref></type>
@@ -151,85 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="164" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="164" bodyend="169"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1OriginAndDimensions_1a9d2478d59343f470d8bf83f9fb5a228c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.OriginAndDimensions._Underlying *</type>
-        <definition>static unsafe MR.OriginAndDimensions._Underlying * MR.OriginAndDimensions.__MR_OriginAndDimensions_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.OriginAndDimensions._Underlying *_other)</argsstring>
-        <name>__MR_OriginAndDimensions_AssignFromAnother</name>
-        <qualifiedname>MR.OriginAndDimensions.__MR_OriginAndDimensions_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.OriginAndDimensions._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="174" column="63"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1OriginAndDimensions_1a3d9c069f58139d78dbe76736db18491a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.OriginAndDimensions._Underlying *</type>
-        <definition>static unsafe MR.OriginAndDimensions._Underlying * MR.OriginAndDimensions.__MR_OriginAndDimensions_ConstructFrom</definition>
-        <argsstring>(MR.Vector3f origin, MR.Vector3i dimensions)</argsstring>
-        <name>__MR_OriginAndDimensions_ConstructFrom</name>
-        <qualifiedname>MR.OriginAndDimensions.__MR_OriginAndDimensions_ConstructFrom</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
-          <declname>origin</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
-          <declname>dimensions</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="177" column="63"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1OriginAndDimensions_1aff6f4472e230a99578808c37ec19444b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.OriginAndDimensions._Underlying *</type>
-        <definition>static unsafe MR.OriginAndDimensions._Underlying * MR.OriginAndDimensions.__MR_OriginAndDimensions_ConstructFromAnother</definition>
-        <argsstring>(MR.OriginAndDimensions._Underlying *_other)</argsstring>
-        <name>__MR_OriginAndDimensions_ConstructFromAnother</name>
-        <qualifiedname>MR.OriginAndDimensions.__MR_OriginAndDimensions_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.OriginAndDimensions._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="180" column="63"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1OriginAndDimensions_1a31ac3657b9751f711522a35659b83c5f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.OriginAndDimensions._Underlying *</type>
-        <definition>static unsafe MR.OriginAndDimensions._Underlying * MR.OriginAndDimensions.__MR_OriginAndDimensions_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_OriginAndDimensions_DefaultConstruct</name>
-        <qualifiedname>MR.OriginAndDimensions.__MR_OriginAndDimensions_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="183" column="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="162" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="162" bodyend="169"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -289,12 +211,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="113" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="114" bodyend="184"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="105" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="106" bodyend="170"/>
     <listofallmembers>
-      <member refid="classMR_1_1OriginAndDimensions_1a9d2478d59343f470d8bf83f9fb5a228c" prot="private" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>__MR_OriginAndDimensions_AssignFromAnother</name></member>
-      <member refid="classMR_1_1OriginAndDimensions_1a3d9c069f58139d78dbe76736db18491a" prot="private" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>__MR_OriginAndDimensions_ConstructFrom</name></member>
-      <member refid="classMR_1_1OriginAndDimensions_1aff6f4472e230a99578808c37ec19444b" prot="private" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>__MR_OriginAndDimensions_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1OriginAndDimensions_1a31ac3657b9751f711522a35659b83c5f" prot="private" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>__MR_OriginAndDimensions_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__OriginAndDimensions_1ad660d46175bf3a3b8ad0d411198dea95" prot="protected" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>__ref_storage_dimensions</name></member>
       <member refid="classMR_1_1Const__OriginAndDimensions_1ac3fc8b850a65e311cff3b698e4c7f77e" prot="protected" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>__ref_storage_origin</name></member>
       <member refid="classMR_1_1OriginAndDimensions_1abb60cb039d74845e35c678d372562daa" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>assign</name></member>

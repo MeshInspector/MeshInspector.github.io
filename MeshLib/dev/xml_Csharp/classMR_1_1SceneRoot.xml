@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1126" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1126" bodyend="1126"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1040" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1040" bodyend="1040"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1131" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1131" bodyend="1135"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1045" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1045" bodyend="1051"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SceneRoot_1a870c404c0ad94e3187cad8f920c51963" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1140" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1140" bodyend="1140"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1056" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1056" bodyend="1056"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SceneRoot_1a3ca512dc61c78464938704b0feeed7c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1145" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1145" bodyend="1145"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1061" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1061" bodyend="1061"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SceneRoot_1a326d047e0fe513b13c65a34a94051962" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SceneRoot" kindref="compound">MR.SceneRoot</ref></type>
@@ -102,57 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1150" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1150" bodyend="1155"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1SceneRoot_1a460178c1cb7e01bedd224688ef5d4030" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.SceneRoot._Underlying *</type>
-        <definition>static unsafe MR.SceneRoot._Underlying * MR.SceneRoot.__MR_SceneRoot_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.SceneRoot._Underlying *_other)</argsstring>
-        <name>__MR_SceneRoot_AssignFromAnother</name>
-        <qualifiedname>MR.SceneRoot.__MR_SceneRoot_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.SceneRoot._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1160" column="53"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneRoot_1af8605ab52ef469fcd82aa85e4ccee316" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.SceneRoot._Underlying *</type>
-        <definition>static unsafe MR.SceneRoot._Underlying * MR.SceneRoot.__MR_SceneRoot_ConstructFromAnother</definition>
-        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.SceneRoot._Underlying *_other)</argsstring>
-        <name>__MR_SceneRoot_ConstructFromAnother</name>
-        <qualifiedname>MR.SceneRoot.__MR_SceneRoot_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>_other_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.SceneRoot._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1163" column="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1066" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1066" bodyend="1073"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -204,10 +154,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1124" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1125" bodyend="1164"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1038" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1039" bodyend="1074"/>
     <listofallmembers>
-      <member refid="classMR_1_1SceneRoot_1a460178c1cb7e01bedd224688ef5d4030" prot="private" virt="non-virtual"><scope>MR::SceneRoot</scope><name>__MR_SceneRoot_AssignFromAnother</name></member>
-      <member refid="classMR_1_1SceneRoot_1af8605ab52ef469fcd82aa85e4ccee316" prot="private" virt="non-virtual"><scope>MR::SceneRoot</scope><name>__MR_SceneRoot_ConstructFromAnother</name></member>
       <member refid="classMR_1_1SceneRoot_1a326d047e0fe513b13c65a34a94051962" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__SceneRoot_1a5e23b5e476be51072f996abbc7b43e27" prot="package" virt="non-virtual"><scope>MR::SceneRoot</scope><name>Const_SceneRoot</name></member>
       <member refid="classMR_1_1Const__SceneRoot_1a2e5a7ca4311cf1c6d0f682f09fa7bfd2" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>Const_SceneRoot</name></member>

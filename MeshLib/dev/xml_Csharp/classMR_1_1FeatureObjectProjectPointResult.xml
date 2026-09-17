@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="402" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="402" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="379" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="379" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FeatureObjectProjectPointResult_1acb3d395d7a612b93fc676bceadca7000" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Optional_MRVector3f</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="404" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="404" bodyend="404"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="381" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="381" bodyend="381"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="421" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="421" bodyend="425"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="400" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="400" bodyend="404"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="431" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="431" bodyend="435"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="410" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="410" bodyend="416"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FeatureObjectProjectPointResult_1a41f895392e9a94f3225baabd7ae00bdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="440" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="440" bodyend="444"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="421" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="421" bodyend="427"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FeatureObjectProjectPointResult_1a9e3589fd37ce3e826a0bfcd9daa83539" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="449" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="449" bodyend="454"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="432" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="432" bodyend="439"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FeatureObjectProjectPointResult_1a932af2c74dcaf2354c605810b150be19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="459" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="459" bodyend="459"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="444" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="444" bodyend="444"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FeatureObjectProjectPointResult_1aa84eb930d7da8ebf51660296de502d5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FeatureObjectProjectPointResult" kindref="compound">MR.FeatureObjectProjectPointResult</ref></type>
@@ -151,103 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="464" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="464" bodyend="469"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1FeatureObjectProjectPointResult_1ad341b09dadf86a5bb8ff182d8471d8d0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FeatureObjectProjectPointResult._Underlying *</type>
-        <definition>static unsafe MR.FeatureObjectProjectPointResult._Underlying * MR.FeatureObjectProjectPointResult.__MR_FeatureObjectProjectPointResult_AssignFromAnother</definition>
-        <argsstring>(_Underlying *_this, MR.FeatureObjectProjectPointResult._Underlying *_other)</argsstring>
-        <name>__MR_FeatureObjectProjectPointResult_AssignFromAnother</name>
-        <qualifiedname>MR.FeatureObjectProjectPointResult.__MR_FeatureObjectProjectPointResult_AssignFromAnother</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.FeatureObjectProjectPointResult._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="474" column="75"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FeatureObjectProjectPointResult_1a22a456fcd61d196227ab955de86041db" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FeatureObjectProjectPointResult._Underlying *</type>
-        <definition>static unsafe MR.FeatureObjectProjectPointResult._Underlying * MR.FeatureObjectProjectPointResult.__MR_FeatureObjectProjectPointResult_ConstructFrom</definition>
-        <argsstring>(MR.Vector3f point, MR.Vector3f *normal)</argsstring>
-        <name>__MR_FeatureObjectProjectPointResult_ConstructFrom</name>
-        <qualifiedname>MR.FeatureObjectProjectPointResult.__MR_FeatureObjectProjectPointResult_ConstructFrom</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
-          <declname>point</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
-          <declname>normal</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="477" column="75"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FeatureObjectProjectPointResult_1a021c6c3aeeceb66b17138e5bdb83e9f7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FeatureObjectProjectPointResult._Underlying *</type>
-        <definition>static unsafe MR.FeatureObjectProjectPointResult._Underlying * MR.FeatureObjectProjectPointResult.__MR_FeatureObjectProjectPointResult_ConstructFromAnother</definition>
-        <argsstring>(MR.FeatureObjectProjectPointResult._Underlying *_other)</argsstring>
-        <name>__MR_FeatureObjectProjectPointResult_ConstructFromAnother</name>
-        <qualifiedname>MR.FeatureObjectProjectPointResult.__MR_FeatureObjectProjectPointResult_ConstructFromAnother</qualifiedname>
-        <param>
-          <type>MR.FeatureObjectProjectPointResult._Underlying *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="480" column="75"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FeatureObjectProjectPointResult_1a0c53da317db8a22ddf6699b27ffe725c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FeatureObjectProjectPointResult._Underlying *</type>
-        <definition>static unsafe MR.FeatureObjectProjectPointResult._Underlying * MR.FeatureObjectProjectPointResult.__MR_FeatureObjectProjectPointResult_DefaultConstruct</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_FeatureObjectProjectPointResult_DefaultConstruct</name>
-        <qualifiedname>MR.FeatureObjectProjectPointResult.__MR_FeatureObjectProjectPointResult_DefaultConstruct</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="483" column="75"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FeatureObjectProjectPointResult_1ac003e1e8ea6d80393bff329ef1407cf9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Optional_MRVector3f._Underlying *</type>
-        <definition>static unsafe MR.Std.Optional_MRVector3f._Underlying * MR.FeatureObjectProjectPointResult.__MR_FeatureObjectProjectPointResult_GetMutable_normal</definition>
-        <argsstring>(MR.FeatureObjectProjectPointResult._Underlying *_this)</argsstring>
-        <name>__MR_FeatureObjectProjectPointResult_GetMutable_normal</name>
-        <qualifiedname>MR.FeatureObjectProjectPointResult.__MR_FeatureObjectProjectPointResult_GetMutable_normal</qualifiedname>
-        <param>
-          <type>MR.FeatureObjectProjectPointResult._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="486" column="66"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="449" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="449" bodyend="456"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -306,13 +210,8 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="400" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="401" bodyend="487"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="377" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="378" bodyend="457"/>
     <listofallmembers>
-      <member refid="classMR_1_1FeatureObjectProjectPointResult_1ad341b09dadf86a5bb8ff182d8471d8d0" prot="private" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>__MR_FeatureObjectProjectPointResult_AssignFromAnother</name></member>
-      <member refid="classMR_1_1FeatureObjectProjectPointResult_1a22a456fcd61d196227ab955de86041db" prot="private" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>__MR_FeatureObjectProjectPointResult_ConstructFrom</name></member>
-      <member refid="classMR_1_1FeatureObjectProjectPointResult_1a021c6c3aeeceb66b17138e5bdb83e9f7" prot="private" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>__MR_FeatureObjectProjectPointResult_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1FeatureObjectProjectPointResult_1a0c53da317db8a22ddf6699b27ffe725c" prot="private" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>__MR_FeatureObjectProjectPointResult_DefaultConstruct</name></member>
-      <member refid="classMR_1_1FeatureObjectProjectPointResult_1ac003e1e8ea6d80393bff329ef1407cf9" prot="private" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>__MR_FeatureObjectProjectPointResult_GetMutable_normal</name></member>
       <member refid="classMR_1_1Const__FeatureObjectProjectPointResult_1a53adf71b0063bdcc946bb6fae2d404d1" prot="protected" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>__ref_storage_point</name></member>
       <member refid="classMR_1_1FeatureObjectProjectPointResult_1aa84eb930d7da8ebf51660296de502d5a" prot="public" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__FeatureObjectProjectPointResult_1acc806d2f79ac3ff6d5b130a324e859fe" prot="package" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>Const_FeatureObjectProjectPointResult</name></member>
