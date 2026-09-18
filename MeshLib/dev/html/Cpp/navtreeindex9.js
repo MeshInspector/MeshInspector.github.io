@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1IRenderObject.html":[9,0,0,20,310],
 "classMR_1_1ISceneSelectionChange.html":[9,0,0,20,716],
 "classMR_1_1ISceneStateCheck.html":[9,0,0,20,607],
 "classMR_1_1ITransformControls.html":[9,0,0,20,624],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "classMR_1_1Object.html#ae98466115f6fa8989c8628ff6ec54e9e":[9,0,0,11,4,96],
 "classMR_1_1Object.html#aeb145057d6707527c3d60d9f459ec2b4":[9,0,0,11,4,35],
 "classMR_1_1Object.html#af1776b0b1ac82e06055823a9cac2eafa":[9,0,0,11,4,63],
-"classMR_1_1Object.html#af3951674c765923b8a024a44bd27342d":[9,0,0,11,4,30],
-"classMR_1_1Object.html#af6d1058c77b340a20c6cfaf8ccbf48fd":[9,0,0,11,4,80]
+"classMR_1_1Object.html#af3951674c765923b8a024a44bd27342d":[9,0,0,11,4,30]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1TrimWithPlaneParams.html":[9,0,0,20,376],
 "structMR_1_1TrivialMetricToPenalty.html":[9,0,0,20,208],
 "structMR_1_1TwoLineSegmClosestPoints.html":[9,0,0,20,523],
 "structMR_1_1TypedFlatTree.html":[9,0,0,20,714],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[9,0,0,20,910],
 "structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html":[9,0,0,20,907],
 "structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html":[9,0,0,20,908],
-"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[9,0,0,20,909],
-"structMR_1_1VoxelsLoad_1_1DicomStatus.html":[9,0,0,20,850]
+"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[9,0,0,20,909]
 };

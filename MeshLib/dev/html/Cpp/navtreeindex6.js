@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRUIRectAllocator_8h_source.html":[9,0,3,0,11,148],
 "MRUISaveChangesPopup_8h.html":[9,0,3,0,11,149],
 "MRUISaveChangesPopup_8h_source.html":[9,0,3,0,11,149],
 "MRUIStyle_8h.html":[9,0,3,0,11,150],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "classMR_1_1BitSet.html#a8295e25fd9e822feb28fec92eb1bbcfb":[9,0,0,3,3,33],
 "classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95":[9,0,0,3,3,9],
 "classMR_1_1BitSet.html#a85be34ba3bb731ce828ca21c67b1413c":[9,0,0,3,3,53],
-"classMR_1_1BitSet.html#a88d7cb003f37bb4ff177bf6082074305":[9,0,0,3,3,54],
-"classMR_1_1BitSet.html#a8b3601282d28190fc25476e611829852":[9,0,0,3,3,27]
+"classMR_1_1BitSet.html#a88d7cb003f37bb4ff177bf6082074305":[9,0,0,3,3,54]
 };

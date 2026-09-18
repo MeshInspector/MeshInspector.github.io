@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1RenderFeatures_1_1RenderPointFeatureObject.html#a7c1049e03ceb97a399f87772e9a6decc":[9,0,1,0,1,41,11,0],
 "classMR_1_1RenderFeatures_1_1RenderPointFeatureObject.html#a7c1049e03ceb97a399f87772e9a6decc":[9,0,2,0,2,26,11,0],
 "classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject.html":[9,0,1,0,1,41,12],
 "classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject.html":[9,0,2,0,2,26,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1SurfaceManipulationWidget.html":[9,0,0,20,752],
 "classMR_1_1SurfacePointWidget.html":[9,0,0,20,755],
 "classMR_1_1SwapRootAction.html":[9,0,0,20,757],
-"classMR_1_1SystemPath.html":[9,0,0,20,510],
-"classMR_1_1TbbThreadMutex.html":[9,0,0,20,512]
+"classMR_1_1SystemPath.html":[9,0,0,20,510]
 };

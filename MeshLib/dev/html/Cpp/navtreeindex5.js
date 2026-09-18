@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"MRRibbonLayoutConfig_8h_source.html":[9,0,3,0,11,99],
 "MRRibbonMenuItem_8h.html":[9,0,3,0,11,101],
 "MRRibbonMenuItem_8h_source.html":[9,0,3,0,11,101],
 "MRRibbonMenuSearch_8h.html":[9,0,3,0,11,102],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "MRUINonOverlappingLabels_8h_source.html":[9,0,3,0,11,146],
 "MRUIQualityControl_8h.html":[9,0,3,0,11,147],
 "MRUIQualityControl_8h_source.html":[9,0,3,0,11,147],
-"MRUIRectAllocator_8h.html":[9,0,3,0,11,148],
-"MRUIRectAllocator_8h_source.html":[9,0,3,0,11,148]
+"MRUIRectAllocator_8h.html":[9,0,3,0,11,148]
 };

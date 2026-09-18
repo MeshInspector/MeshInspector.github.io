@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"MRMatrix3_8h_source.html":[9,0,3,0,7,195],
 "MRMatrix4_8h.html":[9,0,3,0,7,197],
 "MRMatrix4_8h_source.html":[9,0,3,0,7,197],
 "MRMatrix_8h.html":[9,0,3,0,7,193],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "MROutlierPoints_8h.html":[9,0,3,0,7,286],
 "MROutlierPoints_8h_source.html":[9,0,3,0,7,286],
 "MROverlappingTris_8h.html":[9,0,3,0,7,287],
-"MROverlappingTris_8h_source.html":[9,0,3,0,7,287],
-"MRPalette_8h.html":[9,0,3,0,11,68]
+"MROverlappingTris_8h_source.html":[9,0,3,0,7,287]
 };

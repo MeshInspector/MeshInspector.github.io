@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1Parallel_1_1CallWithTLSMaker.html":[9,0,0,20,433],
 "structMR_1_1PartMapping.html":[9,0,0,20,437],
 "structMR_1_1PdfParameters.html":[9,0,0,20,93],
 "structMR_1_1Pdf_1_1Cell.html":[9,0,0,20,98],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[9,0,0,20,686],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[9,0,0,20,685],
 "structMR_1_1RibbonNotification.html":[9,0,0,20,692],
-"structMR_1_1RibbonSchema.html":[9,0,0,20,702],
-"structMR_1_1RibbonSchemaHolder_1_1SearchParams.html":[9,0,0,20,706]
+"structMR_1_1RibbonSchema.html":[9,0,0,20,702]
 };

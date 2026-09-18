@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"MRPalette_8h.html":[9,0,3,0,11,68],
 "MRPalette_8h_source.html":[9,0,3,0,11,68],
 "MRParabola_8h.html":[9,0,3,0,7,288],
 "MRParabola_8h_source.html":[9,0,3,0,7,288],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRRibbonFontManager_8h_source.html":[9,0,3,0,11,97],
 "MRRibbonIcons_8h.html":[9,0,3,0,11,98],
 "MRRibbonIcons_8h_source.html":[9,0,3,0,11,98],
-"MRRibbonLayoutConfig_8h.html":[9,0,3,0,11,99],
-"MRRibbonLayoutConfig_8h_source.html":[9,0,3,0,11,99]
+"MRRibbonLayoutConfig_8h.html":[9,0,3,0,11,99]
 };
