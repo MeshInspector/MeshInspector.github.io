@@ -15644,6 +15644,7 @@ var group__GeneralGroup =
     [ "MR::ObjectLabel::setSourcePointColorsForAllViewports", "group__GeneralGroup.html#ga929343ee7bf9dd93a482a309eb9fdb5f", null ],
     [ "MR::ObjectLabel::setSourcePointSize", "group__GeneralGroup.html#ga4589ccd6afd1d7c1e8ef36a3fb0ed999", null ],
     [ "MR::FreeFormBestFit::setStabilizer", "group__GeneralGroup.html#ga7da32b588679f5a44bb7394b8906ed3c", null ],
+    [ "MR::setStacktraceProvider", "group__GeneralGroup.html#gabd04444af907f57f9702fafb867cccd5", null ],
     [ "MR::ObjectTransformWidget::setStartModifyCallback", "group__GeneralGroup.html#ga2d16d1f66d6e6a84e9ca9d18e68d2a03", null ],
     [ "MR::SurfacePointWidget::setStartMoveCallback", "group__GeneralGroup.html#gacf861cead782987809b2abb5be8d1c62", null ],
     [ "MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::setStartPoint_", "group__GeneralGroup.html#gac78f92ce2922c13cd873ba0f32c36c9c", null ],

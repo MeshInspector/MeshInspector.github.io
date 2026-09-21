@@ -3408,6 +3408,7 @@ var namespaceMR =
     [ "setDefaultUnitParams", "group__GeneralGroup.html#ga822feec21d0c267d63b63429392323c9", null ],
     [ "setLevelSetType", "group__BasicStructuresGroup.html#ga9a2627798d685fc7e535ab8f8d9daced", null ],
     [ "setNewHandlerIfNeeded", "group__GeneralGroup.html#gacf82628c1b0f5d65b9b4e3f0f5bc93df", null ],
+    [ "setStacktraceProvider", "group__GeneralGroup.html#gabd04444af907f57f9702fafb867cccd5", null ],
     [ "setTextureFilterType", "group__GeneralGroup.html#ga8dcd56fe27c91c37ab9c4426ba6e8bf9", null ],
     [ "setTextureWrapType", "group__GeneralGroup.html#gaed8079191a6bbed1f89a66fb15944c37", null ],
     [ "setupLoggerByDefault", "group__GeneralGroup.html#ga4dd8859ebc257098d203f7a962a131bd", null ],

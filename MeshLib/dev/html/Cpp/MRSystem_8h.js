@@ -21,5 +21,6 @@ var MRSystem_8h =
     [ "MR::OpenLink", "group__GeneralGroup.html#ga158ae72accbf24b3df150e984451ef38", null ],
     [ "MR::SetCurrentThreadName", "group__GeneralGroup.html#ga0ff4e521ce66f8d5f5cf13febff39797", null ],
     [ "MR::setNewHandlerIfNeeded", "group__GeneralGroup.html#gacf82628c1b0f5d65b9b4e3f0f5bc93df", null ],
+    [ "MR::setStacktraceProvider", "group__GeneralGroup.html#gabd04444af907f57f9702fafb867cccd5", null ],
     [ "MR::setupLoggerByDefault", "group__GeneralGroup.html#ga4dd8859ebc257098d203f7a962a131bd", null ]
 ];

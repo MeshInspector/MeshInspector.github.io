@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[9,0,0,20,909],
 "structMR_1_1VoxelsLoad_1_1DicomStatus.html":[9,0,0,20,850],
 "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[9,0,0,20,851],
 "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[9,0,0,2,16,1],

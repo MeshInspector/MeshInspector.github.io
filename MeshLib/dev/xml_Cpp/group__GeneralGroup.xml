@@ -44385,7 +44385,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSystem.h" line="93" column="12" bodyfile="MRMesh/MRSystem.h" bodystart="93" bodyend="-1"/>
+        <location file="MRMesh/MRSystem.h" line="100" column="12" bodyfile="MRMesh/MRSystem.h" bodystart="100" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga76875970bb84c9474cc9e582162fe351" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -44401,7 +44401,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSystem.h" line="96" column="12" bodyfile="MRMesh/MRSystem.h" bodystart="96" bodyend="-1"/>
+        <location file="MRMesh/MRSystem.h" line="103" column="12" bodyfile="MRMesh/MRSystem.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga24c1257c943adf488e8748f5a05298ee" prot="public" static="no" mutable="no">
         <type>tbb::task_arena</type>
@@ -145113,6 +145113,25 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRSystem.h" line="87" column="15" declfile="MRMesh/MRSystem.h" declline="87" declcolumn="15"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gabd04444af907f57f9702fafb867cccd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::setStacktraceProvider</definition>
+        <argsstring>(std::string(*provider)())</argsstring>
+        <name>setStacktraceProvider</name>
+        <qualifiedname>MR::setStacktraceProvider</qualifiedname>
+        <param>
+          <type>std::string(*)()</type>
+          <declname>provider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makes <ref refid="group__GeneralGroup_1gaaa012fae7e3ab332b853cc1277239fe8" kindref="member">getCurrentStacktrace()</ref> delegate to (*provider)(); pass nullptr to restore the default. Mostly a Windows workaround: std::stacktrace parks a debug engine client in a static of whichever module resolved symbols, and tearing that down during the DLL&apos;s detach deadlocks and kills the process, skipping the remaining static destructors. Install it from the executable, whose statics are destroyed earlier, by exit(). See <ulink url="https:///">https:///</ulink> github.com/microsoft/STL/issues/4855 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRSystem.h" line="94" column="22" declfile="MRMesh/MRSystem.h" declline="94" declcolumn="22"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7b96790a3e5d5239dec152d5121bf39a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SystemMemory</type>
         <definition>SystemMemory MR::getSystemMemory</definition>
@@ -145126,7 +145145,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSystem.h" line="100" column="16" declfile="MRMesh/MRSystem.h" declline="100" declcolumn="16"/>
+        <location file="MRMesh/MRSystem.h" line="107" column="16" declfile="MRMesh/MRSystem.h" declline="107" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaee75405a45d413115baebc1b343a89a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::uint32_t</type>
@@ -145142,7 +145161,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSystem.h" line="113" column="16" declfile="MRMesh/MRSystem.h" declline="113" declcolumn="16"/>
+        <location file="MRMesh/MRSystem.h" line="120" column="16" declfile="MRMesh/MRSystem.h" declline="120" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4dd8859ebc257098d203f7a962a131bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -145162,7 +145181,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSystem.h" line="122" column="7" declfile="MRMesh/MRSystem.h" declline="122" declcolumn="7"/>
+        <location file="MRMesh/MRSystem.h" line="129" column="7" declfile="MRMesh/MRSystem.h" declline="129" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0a8beee24fce2236a1532b5c147d1a2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const Expected&lt; std::filesystem::path &gt; &amp;</type>
