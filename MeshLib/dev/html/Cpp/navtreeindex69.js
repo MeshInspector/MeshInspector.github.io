@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707":[9,0,0,13,1,4],
 "structMR_1_1TrimOptionalOutput.html":[9,0,0,20,377],
 "structMR_1_1TrimWithPlaneParams.html":[9,0,0,20,376],
 "structMR_1_1TrivialMetricToPenalty.html":[9,0,0,20,208],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[9,0,0,17,3,0,3],
 "structMR_1_1VoxelTraits.html":[9,0,0,20,906],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[9,0,0,20,910],
-"structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html":[9,0,0,20,907],
-"structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html":[9,0,0,20,908]
+"structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html":[9,0,0,20,907]
 };

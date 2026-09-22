@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1RibbonNotification.html":[9,0,0,20,692],
 "structMR_1_1RibbonSchema.html":[9,0,0,20,702],
 "structMR_1_1RibbonSchemaHolder_1_1SearchParams.html":[9,0,0,20,706],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[9,0,0,20,704],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1TriangulationParameters.html#a2266345249c3a1483c179688e4dad925":[9,0,0,13,1,1],
 "structMR_1_1TriangulationParameters.html#a474b58f25243d6fbbaee08808d91e4cd":[9,0,0,13,1,5],
 "structMR_1_1TriangulationParameters.html#ad996c79c53b722337bb916669996e58a":[9,0,0,13,1,0],
-"structMR_1_1TriangulationParameters.html#aebe6d2d03a26dccb4842f001e3506202":[9,0,0,13,1,2],
-"structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707":[9,0,0,13,1,4]
+"structMR_1_1TriangulationParameters.html#aebe6d2d03a26dccb4842f001e3506202":[9,0,0,13,1,2]
 };

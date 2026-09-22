@@ -14567,8 +14567,10 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga20edb65311a8752fc65095fe9b17ab9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true - calls render without system events  <br /></td></tr>
 <tr class="memitem:ga6db074c0e788a143ac4b532bafd77763" id="r_ga6db074c0e788a143ac4b532bafd77763"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6db074c0e788a143ac4b532bafd77763">MR::LaunchParams::unloadPluginsAtEnd</a> { false }</td></tr>
 <tr class="memdesc:ga6db074c0e788a143ac4b532bafd77763"><td class="mdescLeft">&#160;</td><td class="mdescRight">max fps if animating  <br /></td></tr>
+<tr class="memitem:ga3d73570ea540b87c4e76c06675506b76" id="r_ga3d73570ea540b87c4e76c06675506b76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d73570ea540b87c4e76c06675506b76">MR::LaunchParams::noMSAA</a> { false }</td></tr>
+<tr class="memdesc:ga3d73570ea540b87c4e76c06675506b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">unload all extended libraries right before program exit  <br /></td></tr>
 <tr class="memitem:ga401802bd4a4ed3a745fe35920b213cb5" id="r_ga401802bd4a4ed3a745fe35920b213cb5"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1SplashWindow.html">SplashWindow</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga401802bd4a4ed3a745fe35920b213cb5">MR::LaunchParams::splashWindow</a></td></tr>
-<tr class="memdesc:ga401802bd4a4ed3a745fe35920b213cb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">unload all extended libraries right before program exit  <br /></td></tr>
+<tr class="memdesc:ga401802bd4a4ed3a745fe35920b213cb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">render without multisample anti-aliasing regardless of the saved setting  <br /></td></tr>
 <tr class="memitem:ga297a4daffc230ff2379b7c69f2312089" id="r_ga297a4daffc230ff2379b7c69f2312089"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga297a4daffc230ff2379b7c69f2312089">MR::Viewer::swapOnLastPostEventsRedraw</a> { true }</td></tr>
 <tr class="memdesc:ga297a4daffc230ff2379b7c69f2312089"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true only last frame of force redraw after events will be swapped, otherwise each will be swapped  <br /></td></tr>
 <tr class="memitem:gaf6ad84943b0d9f49dbd4b22e3129216d" id="r_gaf6ad84943b0d9f49dbd4b22e3129216d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf6ad84943b0d9f49dbd4b22e3129216d">MR::Viewer::forceRedrawMinimumIncrementAfterEvents</a> { 4 }</td></tr>
@@ -222085,6 +222087,22 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga3d73570ea540b87c4e76c06675506b76" name="ga3d73570ea540b87c4e76c06675506b76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3d73570ea540b87c4e76c06675506b76">&#9670;&#160;</a></span>noMSAA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::LaunchParams::noMSAA { false }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>unload all extended libraries right before program exit </p>
+
+</div>
+</div>
 <a id="ga4c3c99dc26d25d555e9ebf6c6dfc5cbf" name="ga4c3c99dc26d25d555e9ebf6c6dfc5cbf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga4c3c99dc26d25d555e9ebf6c6dfc5cbf">&#9670;&#160;</a></span>None <span class="overload">[1/2]</span></h2>
 
@@ -232390,7 +232408,7 @@ template&lt;UnitEnum E&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>unload all extended libraries right before program exit </p>
+<p>render without multisample anti-aliasing regardless of the saved setting </p>
 
 </div>
 </div>

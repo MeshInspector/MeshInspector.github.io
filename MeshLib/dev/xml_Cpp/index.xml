@@ -5009,6 +5009,7 @@
     <member refid="group__GeneralGroup_1gafc8b03eeee8947080b371a8c17c18c1f" kind="variable"><name>isAnimating</name></member>
     <member refid="group__GeneralGroup_1ga20edb65311a8752fc65095fe9b17ab9a" kind="variable"><name>animationMaxFps</name></member>
     <member refid="group__GeneralGroup_1ga6db074c0e788a143ac4b532bafd77763" kind="variable"><name>unloadPluginsAtEnd</name></member>
+    <member refid="group__GeneralGroup_1ga3d73570ea540b87c4e76c06675506b76" kind="variable"><name>noMSAA</name></member>
     <member refid="group__GeneralGroup_1ga401802bd4a4ed3a745fe35920b213cb5" kind="variable"><name>splashWindow</name></member>
   </compound>
   <compound refid="structMR_1_1RenderDimensions_1_1LengthParams" kind="struct"><name>MR::RenderDimensions::LengthParams</name>
@@ -24795,6 +24796,7 @@
     <member refid="group__GeneralGroup_1gafc8b03eeee8947080b371a8c17c18c1f" kind="variable"><name>isAnimating</name></member>
     <member refid="group__GeneralGroup_1ga20edb65311a8752fc65095fe9b17ab9a" kind="variable"><name>animationMaxFps</name></member>
     <member refid="group__GeneralGroup_1ga6db074c0e788a143ac4b532bafd77763" kind="variable"><name>unloadPluginsAtEnd</name></member>
+    <member refid="group__GeneralGroup_1ga3d73570ea540b87c4e76c06675506b76" kind="variable"><name>noMSAA</name></member>
     <member refid="group__GeneralGroup_1ga401802bd4a4ed3a745fe35920b213cb5" kind="variable"><name>splashWindow</name></member>
     <member refid="group__GeneralGroup_1ga297a4daffc230ff2379b7c69f2312089" kind="variable"><name>swapOnLastPostEventsRedraw</name></member>
     <member refid="group__GeneralGroup_1gaf6ad84943b0d9f49dbd4b22e3129216d" kind="variable"><name>forceRedrawMinimumIncrementAfterEvents</name></member>
