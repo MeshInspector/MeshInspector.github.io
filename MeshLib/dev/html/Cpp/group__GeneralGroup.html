@@ -4142,7 +4142,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gab7d326c053ccb9dfd3bfdc522e01237a" id="r_gab7d326c053ccb9dfd3bfdc522e01237a"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab7d326c053ccb9dfd3bfdc522e01237a">MR::Config::getAppName</a> () const</td></tr>
 <tr class="memdesc:gab7d326c053ccb9dfd3bfdc522e01237a"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the application, UTF8 encoded  <br /></td></tr>
 <tr class="memitem:gad79f990e09eb05bc1612bbe33406809d" id="r_gad79f990e09eb05bc1612bbe33406809d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad79f990e09eb05bc1612bbe33406809d">MR::Config::writeToFile</a> ()</td></tr>
-<tr class="memdesc:gad79f990e09eb05bc1612bbe33406809d"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes current config to file. (implicitly called from destructor)  <br /></td></tr>
+<tr class="memdesc:gad79f990e09eb05bc1612bbe33406809d"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes current config to file; must be called explicitly, the destructor does not do it  <br /></td></tr>
 <tr class="memitem:gae361cef096e6cf5edfd6bc0053e1a6fa" id="r_gae361cef096e6cf5edfd6bc0053e1a6fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae361cef096e6cf5edfd6bc0053e1a6fa">MR::Config::hasBool</a> (const std::string &amp;key) const</td></tr>
 <tr class="memdesc:gae361cef096e6cf5edfd6bc0053e1a6fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if bool with presented key exists  <br /></td></tr>
 <tr class="memitem:gaf73f7fc092f74733043fc5b15d9d5617" id="r_gaf73f7fc092f74733043fc5b15d9d5617"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf73f7fc092f74733043fc5b15d9d5617">MR::Config::getBool</a> (const std::string &amp;key, bool defaultValue=false) const</td></tr>
@@ -197867,7 +197867,7 @@ template&lt;class T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRConfig_8h.html">MRMesh/MRConfig.h</a>&gt;</code></p>
 
-<p>writes current config to file. (implicitly called from destructor) </p>
+<p>writes current config to file; must be called explicitly, the destructor does not do it </p>
 
 </div>
 </div>

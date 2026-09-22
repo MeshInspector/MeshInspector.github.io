@@ -15014,7 +15014,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="101" column="25" bodyfile="MRMesh/MRConfig.h" bodystart="101" bodyend="-1"/>
+        <location file="MRMesh/MRConfig.h" line="99" column="25" bodyfile="MRMesh/MRConfig.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga86512c1aafb328a7cf78ee56e2ad224a" prot="public" static="no">
         <type>std::vector&lt; std::shared_ptr&lt; Object &gt; &gt;</type>
@@ -26722,7 +26722,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="132" column="17" bodyfile="MRMesh/MRConfig.h" bodystart="132" bodyend="-1"/>
+        <location file="MRMesh/MRConfig.h" line="130" column="17" bodyfile="MRMesh/MRConfig.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga967c2d6969b21a91b073cea0112134e8" prot="private" static="no" mutable="no">
         <type>Json::Value</type>
@@ -26736,7 +26736,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="134" column="17" bodyfile="MRMesh/MRConfig.h" bodystart="134" bodyend="-1"/>
+        <location file="MRMesh/MRConfig.h" line="132" column="17" bodyfile="MRMesh/MRConfig.h" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga67455501f76e21a4f415d860c1ce9991" prot="private" static="no" mutable="no">
         <type>std::filesystem::path</type>
@@ -26750,7 +26750,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="135" column="27" bodyfile="MRMesh/MRConfig.h" bodystart="135" bodyend="-1"/>
+        <location file="MRMesh/MRConfig.h" line="133" column="27" bodyfile="MRMesh/MRConfig.h" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafa98e70c188af9b2cc8eb680fe4dd230" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; spdlog::logger &gt;</type>
@@ -26766,7 +26766,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="137" column="21" bodyfile="MRMesh/MRConfig.h" bodystart="137" bodyend="-1"/>
+        <location file="MRMesh/MRConfig.h" line="135" column="21" bodyfile="MRMesh/MRConfig.h" bodystart="135" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8fdcee123f4dd11bb083a3c996f96683" prot="private" static="no" mutable="yes">
         <type>std::unordered_set&lt; std::string &gt;</type>
@@ -26781,7 +26781,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="140" column="32" bodyfile="MRMesh/MRConfig.h" bodystart="140" bodyend="-1"/>
+        <location file="MRMesh/MRConfig.h" line="138" column="32" bodyfile="MRMesh/MRConfig.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga94ab59a76edb816a9a34d7c4f4f7cf60" prot="private" static="no" mutable="no">
         <type>Storage::const_iterator</type>
@@ -89823,7 +89823,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         <name>writeToFile</name>
         <qualifiedname>MR::Config::writeToFile</qualifiedname>
         <briefdescription>
-<para>writes current config to file. (implicitly called from destructor) </para>
+<para>writes current config to file; must be called explicitly, the destructor does not do it </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -89864,20 +89864,19 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </inbodydescription>
         <location file="MRMesh/MRConfig.h" line="43" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga17bd8ac3880368e2e34b777871262b86" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaa82b9797caa4e9ec4592ee532a240351" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>MR::Config::~Config</definition>
-        <argsstring>()</argsstring>
+        <argsstring>()=default</argsstring>
         <name>~Config</name>
         <qualifiedname>MR::Config::~Config</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>stores configuration depends on constructor call: (&lt;filepath&gt;) or (~/.local/share/&lt;appname&gt;/config.json) or (AppData&lt;appname&gt;\config.json) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="48" column="5"/>
+        <location file="MRMesh/MRConfig.h" line="46" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae361cef096e6cf5edfd6bc0053e1a6fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -89896,7 +89895,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="53" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="51" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf73f7fc092f74733043fc5b15d9d5617" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -89920,7 +89919,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="56" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="54" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3a83d85ef3882393beee98de2863132d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -89943,7 +89942,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="59" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="57" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacbdb93228d8167624922fd5d64de22b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -89962,7 +89961,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="63" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="61" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8df9bcd6b67c10e48a89768229cdf13e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -89986,7 +89985,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="66" column="10"/>
+        <location file="MRMesh/MRConfig.h" line="64" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga691ef8386728c865327bf788a397e006" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -90009,7 +90008,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="69" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="67" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7ad138da4a877ad215275a96a5fff3ac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -90028,7 +90027,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="73" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="71" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7ee2d2f440abda8ac1dfb3ef79a80b19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Color</type>
@@ -90052,7 +90051,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="76" column="12"/>
+        <location file="MRMesh/MRConfig.h" line="74" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6c5c3b4cbd34f0fc1bbf3fa5f9ba0b61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -90075,7 +90074,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="79" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="77" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga34f25b0070c89a35961e4c5df869c23b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -90094,7 +90093,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="82" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="80" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga415679f2fc8f6283575fe169e2890b98" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FileNamesStack</type>
@@ -90118,7 +90117,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="85" column="21"/>
+        <location file="MRMesh/MRConfig.h" line="83" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae1789395f1215c65669845d2a744831b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -90141,7 +90140,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="88" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="86" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga789dc5fe420c5fc4d981194e4837ff53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -90160,7 +90159,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="92" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="90" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga599487cca48dee1205318c08324fef31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Vector2i</type>
@@ -90184,7 +90183,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="95" column="15"/>
+        <location file="MRMesh/MRConfig.h" line="93" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga953bc158f0d695b5ca26efe415f544a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -90207,7 +90206,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="98" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="96" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7eaa016554316f08601ed12b2fedae15" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -90230,7 +90229,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="105" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="103" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga27b3564fb007b5af9eb08f812363330e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -90258,7 +90257,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="108" column="10"/>
+        <location file="MRMesh/MRConfig.h" line="106" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga823a5e1e619579e9e28c7e3b1edc8782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -90285,7 +90284,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="111" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="109" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac676ececeb0c17c9a1de1dacb3e8bcda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -90303,7 +90302,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="113" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="111" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaff83187787e51d5c82a32752506033c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>ViewportMask</type>
@@ -90326,7 +90325,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="114" column="19"/>
+        <location file="MRMesh/MRConfig.h" line="112" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaddaab4892e649a9298aa4a73d4c55457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -90348,7 +90347,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="115" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="113" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga560842f08a9ce4e9dc4f55e197a411e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -90367,7 +90366,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="118" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="116" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0da06ce4310931d1f2bf4065ab9b2250" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Json::Value</type>
@@ -90391,7 +90390,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="121" column="18"/>
+        <location file="MRMesh/MRConfig.h" line="119" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaeefbc83df19f4d44acd7a2e994cad721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -90414,7 +90413,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="124" column="11"/>
+        <location file="MRMesh/MRConfig.h" line="122" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga511ac76ed53aafae5ab8d337aeaa6795" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>Json::Value</type>
@@ -90429,7 +90428,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="127" column="17" bodyfile="MRMesh/MRConfig.h" bodystart="127" bodyend="127"/>
+        <location file="MRMesh/MRConfig.h" line="125" column="17" bodyfile="MRMesh/MRConfig.h" bodystart="125" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga534db3261935504b918838858cff437a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -90448,7 +90447,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConfig.h" line="130" column="10" bodyfile="MRMesh/MRConfig.h" bodystart="130" bodyend="130"/>
+        <location file="MRMesh/MRConfig.h" line="128" column="10" bodyfile="MRMesh/MRConfig.h" bodystart="128" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0ce0435d606c4d19a79a699eec18f7f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
