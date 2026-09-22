@@ -564,6 +564,14 @@ var hierarchy =
     [ "MR::HoleEdgePoint", "structMR_1_1HoleEdgePoint.html", null ],
     [ "MR::HoleFillPlan", "structMR_1_1HoleFillPlan.html", null ],
     [ "MR::Nesting::IBoxNestingPriority", "classMR_1_1Nesting_1_1IBoxNestingPriority.html", null ],
+    [ "MR::IComputePointsToDistanceVolume", "classMR_1_1IComputePointsToDistanceVolume.html", [
+      [ "MR::IComputePointsToDistanceFunctionVolume", "classMR_1_1IComputePointsToDistanceFunctionVolume.html", [
+        [ "MR::ComputePointsToDistanceVolume", "classMR_1_1ComputePointsToDistanceVolume.html", null ]
+      ] ],
+      [ "MR::IComputePointsToDistanceVolumeByParts", "classMR_1_1IComputePointsToDistanceVolumeByParts.html", [
+        [ "MR::Cuda::ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html", null ]
+      ] ]
+    ] ],
     [ "MR::IComputeToolDistance", "classMR_1_1IComputeToolDistance.html", [
       [ "MR::Cuda::ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", null ]
     ] ],

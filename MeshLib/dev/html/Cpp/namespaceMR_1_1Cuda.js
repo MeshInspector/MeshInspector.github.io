@@ -1,5 +1,6 @@
 var namespaceMR_1_1Cuda =
 [
+    [ "ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" ],
     [ "ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", "classMR_1_1Cuda_1_1ComputeToolDistance" ],
     [ "DeviceInfo", "structMR_1_1Cuda_1_1DeviceInfo.html", "structMR_1_1Cuda_1_1DeviceInfo" ],
     [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
@@ -32,5 +33,6 @@ var namespaceMR_1_1Cuda =
     [ "pointCloudHeapBytes", "namespaceMR_1_1Cuda.html#aaa9aa568ce6f99642f04342760455a3f", null ],
     [ "pointsToDistanceVolume", "group__GeneralGroup.html#ga76d46e2388018a2bca5a72dfaefd30e9", null ],
     [ "pointsToDistanceVolumeByParts", "group__GeneralGroup.html#ga2ca6e42153313ca635d7ea3e12d19bf0", null ],
+    [ "pointsToDistanceVolumeMemory", "group__GeneralGroup.html#ga5cc55a97b581e01247749d0d7e6697a4", null ],
     [ "PointCloudDataHolder", "namespaceMR_1_1Cuda.html#a770259831b49f60068c30df5121056c9", null ]
 ];

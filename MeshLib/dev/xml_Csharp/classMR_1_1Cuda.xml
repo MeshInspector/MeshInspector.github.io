@@ -2,7 +2,9 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Cuda" kind="class" language="C#" prot="public">
     <compoundname>MR::Cuda</compoundname>
+    <innerclass refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" prot="public">MR::Cuda::ComputePointsToDistanceVolume</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1ComputeToolDistance" prot="public">MR::Cuda::ComputeToolDistance</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume" prot="public">MR::Cuda::Const_ComputePointsToDistanceVolume</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1Const__ComputeToolDistance" prot="public">MR::Cuda::Const_ComputeToolDistance</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1Const__DeviceInfo" prot="public">MR::Cuda::Const_DeviceInfo</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1Const__FastWindingNumber" prot="public">MR::Cuda::Const_FastWindingNumber</innerclass>
@@ -353,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="9" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" bodystart="9" bodyend="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="324" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" bodystart="324" bodyend="330"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1ac41726497d51f9764c2d9c2c2e9db105" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -384,7 +386,34 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="22" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" bodystart="22" bodyend="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="337" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" bodystart="337" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a8b991d06691ed494c32465f1dcecd565" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Cuda.pointsToDistanceVolumeMemory</definition>
+        <argsstring>(MR.Const_PointCloud cloud, in MR.Vector3i dims, MR.Const_VertCoords? ptNormals)</argsstring>
+        <name>pointsToDistanceVolumeMemory</name>
+        <qualifiedname>MR.Cuda.pointsToDistanceVolumeMemory</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref>?</type>
+          <declname>ptNormals</declname>
+        </param>
+        <briefdescription>
+<para>returns the minimal amount of free GPU memory required to build a distance volume with given dimensions Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a8b991d06691ed494c32465f1dcecd565" kindref="member">MR.Cuda.pointsToDistanceVolumeMemory</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="348" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" bodystart="348" bodyend="354"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1a0ea88f5709a51086f7724af94d64e56c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertScalars" kindref="compound">MR.VertScalars</ref></type>
@@ -851,7 +880,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="32" column="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="359" column="83"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1a0987975f565d77725bcbd5c0abdf0f98" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
@@ -885,7 +914,33 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="35" column="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="362" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1a7ac30d771a0d89a9f3bafa35f112ede3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Cuda.__MR_Cuda_pointsToDistanceVolumeMemory</definition>
+        <argsstring>(MR.Const_PointCloud._Underlying *cloud, MR.Vector3i *dims, MR.Const_VertCoords._Underlying *ptNormals)</argsstring>
+        <name>__MR_Cuda_pointsToDistanceVolumeMemory</name>
+        <qualifiedname>MR.Cuda.__MR_Cuda_pointsToDistanceVolumeMemory</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud._Underlying *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertCoords._Underlying *</type>
+          <declname>ptNormals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="365" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1a84b04b043a1e72b62aa57b28e6b3d8ec" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertScalars._Underlying *</type>
@@ -1017,6 +1072,7 @@
       <member refid="classMR_1_1Cuda_1ad314e292dcd94478baf6b4be7f072136" prot="private" virt="non-virtual"><scope>MR::Cuda</scope><name>__MR_Cuda_negatePicture</name></member>
       <member refid="classMR_1_1Cuda_1a2eb0bd439885c34e12596efd9435111c" prot="private" virt="non-virtual"><scope>MR::Cuda</scope><name>__MR_Cuda_pointsToDistanceVolume</name></member>
       <member refid="classMR_1_1Cuda_1a0987975f565d77725bcbd5c0abdf0f98" prot="private" virt="non-virtual"><scope>MR::Cuda</scope><name>__MR_Cuda_pointsToDistanceVolumeByParts</name></member>
+      <member refid="classMR_1_1Cuda_1a7ac30d771a0d89a9f3bafa35f112ede3" prot="private" virt="non-virtual"><scope>MR::Cuda</scope><name>__MR_Cuda_pointsToDistanceVolumeMemory</name></member>
       <member refid="classMR_1_1Cuda_1a672eb663ba302d642c6f967c77a11bdc" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeDistanceMap</name></member>
       <member refid="classMR_1_1Cuda_1a55def268c9241c47c216170ba0752b6d" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeDistanceMapHeapBytes</name></member>
       <member refid="classMR_1_1Cuda_1a0ea88f5709a51086f7724af94d64e56c" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeSkyViewFactor</name></member>
@@ -1036,6 +1092,7 @@
       <member refid="classMR_1_1Cuda_1ab2b7f6383c91b4355a8e3efd50505461" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>negatePicture</name></member>
       <member refid="classMR_1_1Cuda_1ada48bf1cb30a1dd5423bcb0d29c6b1d2" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>pointsToDistanceVolume</name></member>
       <member refid="classMR_1_1Cuda_1ac41726497d51f9764c2d9c2c2e9db105" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>pointsToDistanceVolumeByParts</name></member>
+      <member refid="classMR_1_1Cuda_1a8b991d06691ed494c32465f1dcecd565" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>pointsToDistanceVolumeMemory</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

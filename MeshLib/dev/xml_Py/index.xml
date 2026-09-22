@@ -3546,6 +3546,26 @@
     <member refid="classmrmeshpy_1_1CompressZipSettings_1aa8b5dcda66ebe4bd158ac2287b690ef6" kind="function"><name>password</name></member>
     <member refid="classmrmeshpy_1_1CompressZipSettings_1aedbafbfd2c081c092d5bbf2c1d1808fe" kind="function"><name>password</name></member>
   </compound>
+  <compound refid="classmrcudapy_1_1ComputePointsToDistanceVolume" kind="class"><name>mrcudapy::ComputePointsToDistanceVolume</name>
+    <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1aa8755b4726d75a15ffdbf4d74528c193" kind="function"><name>__init__</name></member>
+    <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1aa2f8c1f3eb051229c46035e360f90376" kind="function"><name>operator</name></member>
+    <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1aa2f8c1f3eb051229c46035e360f90376" kind="function"><name>operator</name></member>
+    <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1a3c0dc87974406f13bb815f275876814c" kind="function"><name>__init__</name></member>
+    <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1a9eee311b863a80b38a9aac32af6c815d" kind="function"><name>__init__</name></member>
+    <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1adeab21299d2a6a42fc9ed7a03270a245" kind="function"><name>canCompute</name></member>
+    <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1a359499aa60e74b9ede0aa8003cbb2043" kind="function"><name>compute</name></member>
+    <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1a9b48f67af83e236f074342f18ae26ac1" kind="function"><name>computeByParts</name></member>
+  </compound>
+  <compound refid="classmrmeshpy_1_1ComputePointsToDistanceVolume" kind="class"><name>mrmeshpy::ComputePointsToDistanceVolume</name>
+    <member refid="classmrmeshpy_1_1ComputePointsToDistanceVolume_1aab718c1ddeca6f85f219cc0189518092" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ComputePointsToDistanceVolume_1a36cd8fcc3916964f80123a93c6c5cfcf" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1ComputePointsToDistanceVolume_1a36cd8fcc3916964f80123a93c6c5cfcf" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1ComputePointsToDistanceVolume_1adc0d9534f20d2ca65bb1a960f344b353" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ComputePointsToDistanceVolume_1a8ab7dcac469a459a8ed018ebdca10cb5" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ComputePointsToDistanceVolume_1ac788fd52197e549cff901d7e2549dab8" kind="function"><name>canCompute</name></member>
+    <member refid="classmrmeshpy_1_1ComputePointsToDistanceVolume_1a78361ed7042a57bd92d1e5419fc0e814" kind="function"><name>compute</name></member>
+    <member refid="classmrmeshpy_1_1ComputePointsToDistanceVolume_1a3fdf2121a71c04355c173b6f40b6965d" kind="function"><name>computeFunctionVolume</name></member>
+  </compound>
   <compound refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings" kind="class"><name>mrmeshpy::ComputeSteepestDescentPathSettings</name>
     <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1abeef0c8285ccf40288d2e29938990e4f" kind="variable"><name>_offsetof_end</name></member>
     <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a8d5a645a90a0bb61597edbab61350264" kind="variable"><name>_offsetof_outBdReached</name></member>
@@ -7120,16 +7140,6 @@
     <member refid="classmrmeshpy_1_1func__bool__from__Object_1a2fe229b780f52cf2577bce98bd14936b" kind="function"><name>can_be_created_from_python</name></member>
     <member refid="classmrmeshpy_1_1func__bool__from__Object_1a2ad076a847aef6dd825cbafac6d01bc9" kind="function"><name>holds_cpp_function</name></member>
   </compound>
-  <compound refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams" kind="class"><name>mrmeshpy::func_bool_from_PointCloud_PointsToDistanceVolumeParams</name>
-    <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1aefb9da14d47597b21db1aa81a9f4ed83" kind="function"><name>__bool__</name></member>
-    <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1a0252e2b97e812e1e77f51af81ad8e804" kind="function"><name>__call__</name></member>
-    <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1a10a4340fad8063f4a7680d4a75ea98e1" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1a689614bfed875def5170f311d282261e" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1a801078d9728f6cc162d9d960701f6b35" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1ad36c413aca8c4d4e2cfe462affccefa8" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1ae29db3fbb73f50b480e2bcbe8ec17dcf" kind="function"><name>can_be_created_from_python</name></member>
-    <member refid="classmrmeshpy_1_1func__bool__from__PointCloud__PointsToDistanceVolumeParams_1ae98fbe5bee34ada39c76916e310285ec" kind="function"><name>holds_cpp_function</name></member>
-  </compound>
   <compound refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction" kind="class"><name>mrmeshpy::func_bool_from_std_shared_ptr_HistoryAction</name>
     <member refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a4437f429b2f11917b1c501661065e1b2" kind="function"><name>__bool__</name></member>
     <member refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a0724ec516f4500e3135eee2b44956676" kind="function"><name>__call__</name></member>
@@ -7449,15 +7459,6 @@
     <member refid="classmrmeshpy_1_1func__tl__expected__LoadedObjects__std__string__from__std__filesystem__path__std__function__bool__float_1a9b241c4fca5f3256c658b4be77d3d1ea" kind="function"><name>can_be_created_from_python</name></member>
     <member refid="classmrmeshpy_1_1func__tl__expected__LoadedObjects__std__string__from__std__filesystem__path__std__function__bool__float_1a84c3eb21049af28053a492661ad42b49" kind="function"><name>holds_cpp_function</name></member>
   </compound>
-  <compound refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__PointCloud__PointsToDistanceVolumebddaffaefb66beee35c9f848b734c501" kind="class"><name>mrmeshpy::func_tl_expected_void_std_string_from_PointCloud_PointsToDistanceVolumeParams_std_function_tl_expected_void_std_string_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_const_int_int</name>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__PointCloud__PointsToDistanceVolumebddaffaefb66beee35c9f848b734c501_1a52d543951af0f82f4329ae76fe0304e9" kind="function"><name>__bool__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__PointCloud__PointsToDistanceVolumebddaffaefb66beee35c9f848b734c501_1a107512e72fa3712f40fdbf47debbef7c" kind="function"><name>__call__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__PointCloud__PointsToDistanceVolumebddaffaefb66beee35c9f848b734c501_1a78db6a79dde8a1bdf2970c991c8070b9" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__PointCloud__PointsToDistanceVolumebddaffaefb66beee35c9f848b734c501_1ad1bb770f4b1d388138ea146873b96d89" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__PointCloud__PointsToDistanceVolumebddaffaefb66beee35c9f848b734c501_1a8ac05e96cf03604fba789a9f8608989c" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__PointCloud__PointsToDistanceVolumebddaffaefb66beee35c9f848b734c501_1a3bde0bd5adb1f790bd745dbe8f7027d8" kind="function"><name>can_be_created_from_python</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__PointCloud__PointsToDistanceVolumebddaffaefb66beee35c9f848b734c501_1a043bcfb9dd80b01c7fca6b9dfb90f505" kind="function"><name>holds_cpp_function</name></member>
-  </compound>
   <compound refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int" kind="class"><name>mrmeshpy::func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int</name>
     <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int_1a389d3e7b397dc64280c3e6cd0eb6e0a8" kind="function"><name>__bool__</name></member>
     <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int_1a08690d705fe5fe0a66f3d2711460bc1d" kind="function"><name>__call__</name></member>
@@ -7475,15 +7476,6 @@
     <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int_1a551a2586974bd3c4098d12ab9d7b180b" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int_1a2c4eff79eefab985deed386c969d30fb" kind="function"><name>can_be_created_from_python</name></member>
     <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int_1a0555a6d5fc681d928c9540bcbd50babf" kind="function"><name>holds_cpp_function</name></member>
-  </compound>
-  <compound refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639" kind="class"><name>mrmeshpy::func_tl_expected_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string_from_PointCloud_PointsToDistanceVolumeParams</name>
-    <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1aaa1d4a0fae9a8d677a9f109da9bf851a" kind="function"><name>__bool__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1aaf3ae5a19187c822ce63a7c409673115" kind="function"><name>__call__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1a9b788f15793cf86d1b3ea7adefb0199c" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1aa172b46e157b6a914313e09979096971" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1ad056fd20d932221ea1f4b772a81fcc03" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1a15d8b80d28f382bd6bfa500c61f1c420" kind="function"><name>can_be_created_from_python</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__strin7cc671ebf89f7dde2fdde9fdee21d639_1a7511ca64367cb8f85ee3435850f074e3" kind="function"><name>holds_cpp_function</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long" kind="class"><name>mrmeshpy::func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long</name>
     <member refid="classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__ptr__from__unsigned__long_1a98fc1d3ba5dbde0fd5ac665575219371" kind="function"><name>__bool__</name></member>
@@ -8245,6 +8237,19 @@
     <member refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority_1a71ff37a799ce1b44bde9aaf391d8b463" kind="function"><name>addNested</name></member>
     <member refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority_1a95b69f404529b26193f320c675985cf9" kind="function"><name>complete</name></member>
     <member refid="classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority_1ab6feb4fcd9d88f96001f1df5b094a450" kind="function"><name>init</name></member>
+  </compound>
+  <compound refid="classmrmeshpy_1_1IComputePointsToDistanceFunctionVolume" kind="class"><name>mrmeshpy::IComputePointsToDistanceFunctionVolume</name>
+    <member refid="classmrmeshpy_1_1IComputePointsToDistanceFunctionVolume_1a17b250772d5845d224ecec0cc6902a77" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1IComputePointsToDistanceFunctionVolume_1a6cfa50a3aa9fe5ac4ce3c9e09b4344e9" kind="function"><name>computeFunctionVolume</name></member>
+  </compound>
+  <compound refid="classmrmeshpy_1_1IComputePointsToDistanceVolume" kind="class"><name>mrmeshpy::IComputePointsToDistanceVolume</name>
+    <member refid="classmrmeshpy_1_1IComputePointsToDistanceVolume_1a02cd2e8d504352d3b057a9eba5350864" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1IComputePointsToDistanceVolume_1a0542fd5f24bbe2198eedf45694af58b3" kind="function"><name>canCompute</name></member>
+    <member refid="classmrmeshpy_1_1IComputePointsToDistanceVolume_1a901db1f75275ad640343e60689f47b6a" kind="function"><name>compute</name></member>
+  </compound>
+  <compound refid="classmrmeshpy_1_1IComputePointsToDistanceVolumeByParts" kind="class"><name>mrmeshpy::IComputePointsToDistanceVolumeByParts</name>
+    <member refid="classmrmeshpy_1_1IComputePointsToDistanceVolumeByParts_1a8f39ae23bb19773fcaebe2a9311d7dd5" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1IComputePointsToDistanceVolumeByParts_1a787b8d37150eac969aba58b473bbe99d" kind="function"><name>computeByParts</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1IComputeToolDistance" kind="class"><name>mrmeshpy::IComputeToolDistance</name>
     <member refid="classmrmeshpy_1_1IComputeToolDistance_1ab6311cb7332dca58ef6b8e6d79135aa7" kind="function"><name>operator</name></member>
@@ -15516,9 +15521,7 @@
     <member refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a36df7bceecf4865816d79cc8a5853cf5" kind="function"><name>sqrtAngleWeight</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1PointsToMeshParameters" kind="class"><name>mrmeshpy::PointsToMeshParameters</name>
-    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a7e8bcbbcc47cd03247421a9719e449a0" kind="variable"><name>_offsetof_canCreateVolume</name></member>
-    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a4bf2462a8b31e8b68b3d26b5303e7d36" kind="variable"><name>_offsetof_createVolumeCallback</name></member>
-    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a5e41dd032ba22a52930dc3286f7d1de2" kind="variable"><name>_offsetof_createVolumeCallbackByParts</name></member>
+    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1afbbf40bda42ecca381cb8c5a822447a8" kind="variable"><name>_offsetof_computeVolume</name></member>
     <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a9bc0ebb538d7df19a9900905e346ad47" kind="variable"><name>_offsetof_invSigmaModifier</name></member>
     <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a6fb1ec885e7f0c17df1f687cba2b09ca" kind="variable"><name>_offsetof_minWeight</name></member>
     <member refid="classmrmeshpy_1_1PointsToMeshParameters_1adccffbe49ec55cc30fdf48403863da71" kind="variable"><name>_offsetof_progress</name></member>
@@ -15532,13 +15535,9 @@
     <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a194d2da85c6d7a620b49a880f8679a22" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1PointsToMeshParameters_1ac8719faad46d177c5c0b8cca1af6531e" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1PointsToMeshParameters_1abefb38c66f6ee20b7d74200caddd32d0" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a1d4aea8f398b0b7cc3538a07a63254c1" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a6a7fd70f1b0e56774116c552b5fc1b12" kind="function"><name>canCreateVolume</name></member>
-    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a18708b5ff25ff9285711e25943370779" kind="function"><name>canCreateVolume</name></member>
-    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a445a7d8a97b552d653c8002ca5313df4" kind="function"><name>createVolumeCallback</name></member>
-    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1ad5c1a8acdc47b09ac0c92b6ccfce463a" kind="function"><name>createVolumeCallback</name></member>
-    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a864584ab867b6b7963c88321d6df86f2" kind="function"><name>createVolumeCallbackByParts</name></member>
-    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a66848a68f008e1aca4b0f32a3c5a16bd" kind="function"><name>createVolumeCallbackByParts</name></member>
+    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a933224b88bc8342c2052db56b774b502" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a75482ae20edfc922b791ac35ddbff9bc" kind="function"><name>computeVolume</name></member>
+    <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a383b7af9f6e855968758960223d3d4a6" kind="function"><name>computeVolume</name></member>
     <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a6248b0fa8dc90a8237c27b6d0bed1535" kind="function"><name>invSigmaModifier</name></member>
     <member refid="classmrmeshpy_1_1PointsToMeshParameters_1a7a60f59480d25421817868ca0313bd48" kind="function"><name>invSigmaModifier</name></member>
     <member refid="classmrmeshpy_1_1PointsToMeshParameters_1aed14ef4130d1188cb31d2c2fd103b0d8" kind="function"><name>minWeight</name></member>
@@ -30781,12 +30780,12 @@
     <member refid="classmrmeshpy_1_1VoxelsSave_1adab977f6012e8df9b61c2126b789d35a" kind="function"><name>toAnySupportedFormat</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1aae64a93586218f2b67b73ae89e829828" kind="function"><name>toDicom</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1aaa56b1dda0368ab3b0e9f6fad02e1d56" kind="function"><name>toDicom</name></member>
-    <member refid="classmrmeshpy_1_1VoxelsSave_1aec497c2690618f7e7e9b5e28d3e0ceb0" kind="function"><name>toGav</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1a1c1e5257ff1d02cf61438ee9d9bbabef" kind="function"><name>toGav</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1a6194d498193ce8becfc4e6579dcf1066" kind="function"><name>toGav</name></member>
-    <member refid="classmrmeshpy_1_1VoxelsSave_1a425388d71d8e1c6b25aa6be42b20c61d" kind="function"><name>toGav</name></member>
+    <member refid="classmrmeshpy_1_1VoxelsSave_1aec497c2690618f7e7e9b5e28d3e0ceb0" kind="function"><name>toGav</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1ae7d4f878de8519f0b9316a0cfc12506e" kind="function"><name>toGav</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1af6467917a658a5f657da3dbb1b83f163" kind="function"><name>toGav</name></member>
+    <member refid="classmrmeshpy_1_1VoxelsSave_1a425388d71d8e1c6b25aa6be42b20c61d" kind="function"><name>toGav</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1a82035a5fa8da4bba63f50e6cfc4ede3b" kind="function"><name>toRawAutoname</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1ab1aa23348d8cac99844d841409fb7e5e" kind="function"><name>toRawAutoname</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1a7d32f3c70e5b296a5d954d73b4f1dbba" kind="function"><name>toRawFloat</name></member>
@@ -31162,6 +31161,7 @@
     <member refid="namespacemrcudapy_1ac3163db5e369a9de3b776b9110700924" kind="function"><name>negatePicture</name></member>
     <member refid="namespacemrcudapy_1abacc3f1ddc84e70bb38d8d75c6595bd3" kind="function"><name>pointsToDistanceVolume</name></member>
     <member refid="namespacemrcudapy_1aa34056830ad5daa6e50f8ccd1078e141" kind="function"><name>pointsToDistanceVolumeByParts</name></member>
+    <member refid="namespacemrcudapy_1af3c8f708b1714739db24e6c11d9c4db3" kind="function"><name>pointsToDistanceVolumeMemory</name></member>
   </compound>
   <compound refid="namespacemrmeshnumpy" kind="namespace"><name>mrmeshnumpy</name>
     <member refid="namespacemrmeshnumpy_1a8e8e47650184d24fb7a11395f14fe8b1" kind="variable"><name>__all__</name></member>
@@ -31897,8 +31897,8 @@
     <member refid="namespacemrmeshpy_1a0a8466eecbe3d1a009e7b24623b653cd" kind="function"><name>buildShortestPathBiDir</name></member>
     <member refid="namespacemrmeshpy_1addd36a9ea659f36ef09b10cfdbca2ae7" kind="function"><name>buildShortestPathBiDir</name></member>
     <member refid="namespacemrmeshpy_1a9ee9db1c708deb83523a679ec304db17" kind="function"><name>buildSmallestMetricPath</name></member>
-    <member refid="namespacemrmeshpy_1a9ca059a5ccacac5f2e98630c5ce2dad3" kind="function"><name>buildSmallestMetricPath</name></member>
     <member refid="namespacemrmeshpy_1a0daa7e0ef8a1a78afa948faa72100ef1" kind="function"><name>buildSmallestMetricPath</name></member>
+    <member refid="namespacemrmeshpy_1a9ca059a5ccacac5f2e98630c5ce2dad3" kind="function"><name>buildSmallestMetricPath</name></member>
     <member refid="namespacemrmeshpy_1a06416bc7ad5ae99046f8bf33f88e69fa" kind="function"><name>buildSmallestMetricPathBiDir</name></member>
     <member refid="namespacemrmeshpy_1a14465417165a3e5868ec95545980e8e0" kind="function"><name>buildSmallestMetricPathBiDir</name></member>
     <member refid="namespacemrmeshpy_1ad449af086db2440b7df406c3ed883e01" kind="function"><name>buildUnitedLocalTriangulations</name></member>
@@ -33071,12 +33071,12 @@
     <member refid="namespacemrmeshpy_1ae09f03204748c2a9e40728357f52bb33" kind="function"><name>savePoints</name></member>
     <member refid="namespacemrmeshpy_1a8ffc82f82bda0fa161c0c37463eb971a" kind="function"><name>saveSliceToImage</name></member>
     <member refid="namespacemrmeshpy_1a5f8996eb7f18bbe09697dfe23da30886" kind="function"><name>saveVoxels</name></member>
-    <member refid="namespacemrmeshpy_1ad2d34b753b0a88adcf2acbf9e10b83df" kind="function"><name>saveVoxelsGav</name></member>
     <member refid="namespacemrmeshpy_1a6522a40e09005660a3fd84ddb257ebae" kind="function"><name>saveVoxelsGav</name></member>
     <member refid="namespacemrmeshpy_1a8ec01bd524ad4f2d33114f570e44285b" kind="function"><name>saveVoxelsGav</name></member>
-    <member refid="namespacemrmeshpy_1a68cfbd4de095e266943ef5f86c3d7ff3" kind="function"><name>saveVoxelsGav</name></member>
+    <member refid="namespacemrmeshpy_1ad2d34b753b0a88adcf2acbf9e10b83df" kind="function"><name>saveVoxelsGav</name></member>
     <member refid="namespacemrmeshpy_1a8bcbaafeabca40431fb2115f622efee8" kind="function"><name>saveVoxelsGav</name></member>
     <member refid="namespacemrmeshpy_1a9836b1e79507d28aab8bc472ef43f4b5" kind="function"><name>saveVoxelsGav</name></member>
+    <member refid="namespacemrmeshpy_1a68cfbd4de095e266943ef5f86c3d7ff3" kind="function"><name>saveVoxelsGav</name></member>
     <member refid="namespacemrmeshpy_1ae09cfc0bb8014a9a963cca44a02594cb" kind="function"><name>saveVoxelsRaw</name></member>
     <member refid="namespacemrmeshpy_1a4fee4967b22ae7179b5411cfce17f783" kind="function"><name>saveVoxelsRaw</name></member>
     <member refid="namespacemrmeshpy_1a4c9a45fe9dbcf0fd3d7bcfd8536407c4" kind="function"><name>segPoints</name></member>

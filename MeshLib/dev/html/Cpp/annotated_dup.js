@@ -18,6 +18,7 @@ var annotated_dup =
     ] ],
     [ "MR", "namespaceMR.html", [
       [ "Cuda", "namespaceMR_1_1Cuda.html", [
+        [ "ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" ],
         [ "ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", "classMR_1_1Cuda_1_1ComputeToolDistance" ],
         [ "DeviceInfo", "structMR_1_1Cuda_1_1DeviceInfo.html", "structMR_1_1Cuda_1_1DeviceInfo" ],
         [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
@@ -439,6 +440,7 @@ var annotated_dup =
       [ "CommandLoop", "classMR_1_1CommandLoop.html", "classMR_1_1CommandLoop" ],
       [ "CompensateRadiusParams", "structMR_1_1CompensateRadiusParams.html", "structMR_1_1CompensateRadiusParams" ],
       [ "CompressZipSettings", "structMR_1_1CompressZipSettings.html", "structMR_1_1CompressZipSettings" ],
+      [ "ComputePointsToDistanceVolume", "classMR_1_1ComputePointsToDistanceVolume.html", "classMR_1_1ComputePointsToDistanceVolume" ],
       [ "ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", "structMR_1_1ComputeSteepestDescentPathSettings" ],
       [ "ComputeSweptVolumeParameters", "structMR_1_1ComputeSweptVolumeParameters.html", "structMR_1_1ComputeSweptVolumeParameters" ],
       [ "Cone3", "classMR_1_1Cone3.html", "classMR_1_1Cone3" ],
@@ -598,6 +600,9 @@ var annotated_dup =
       [ "HistoryStore", "classMR_1_1HistoryStore.html", "classMR_1_1HistoryStore" ],
       [ "HoleEdgePoint", "structMR_1_1HoleEdgePoint.html", "structMR_1_1HoleEdgePoint" ],
       [ "HoleFillPlan", "structMR_1_1HoleFillPlan.html", "structMR_1_1HoleFillPlan" ],
+      [ "IComputePointsToDistanceFunctionVolume", "classMR_1_1IComputePointsToDistanceFunctionVolume.html", "classMR_1_1IComputePointsToDistanceFunctionVolume" ],
+      [ "IComputePointsToDistanceVolume", "classMR_1_1IComputePointsToDistanceVolume.html", "classMR_1_1IComputePointsToDistanceVolume" ],
+      [ "IComputePointsToDistanceVolumeByParts", "classMR_1_1IComputePointsToDistanceVolumeByParts.html", "classMR_1_1IComputePointsToDistanceVolumeByParts" ],
       [ "IComputeToolDistance", "classMR_1_1IComputeToolDistance.html", "classMR_1_1IComputeToolDistance" ],
       [ "IConnectable", "structMR_1_1IConnectable.html", "structMR_1_1IConnectable" ],
       [ "ICP", "classMR_1_1ICP.html", "classMR_1_1ICP" ],

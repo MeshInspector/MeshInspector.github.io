@@ -122,7 +122,6 @@
     <innerfile refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref_8h">std_function_bool_from_const_MR_MeshIntersectionResult_ref.h</innerfile>
     <innerfile refid="std__function__bool__from__const__MR__MeshProjectionResult__ref_8h">std_function_bool_from_const_MR_MeshProjectionResult_ref.h</innerfile>
     <innerfile refid="std__function__bool__from__const__MR__Object__ref_8h">std_function_bool_from_const_MR_Object_ref.h</innerfile>
-    <innerfile refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h">std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref.h</innerfile>
     <innerfile refid="std__function__bool__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref_8h">std_function_bool_from_const_MR_Vector3f_ref_MR_MeshOrPoints_ProjectionResult_ref.h</innerfile>
     <innerfile refid="std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h">std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref.h</innerfile>
     <innerfile refid="std__function__bool__from__float_8h">std_function_bool_from_float.h</innerfile>
@@ -141,8 +140,6 @@
     <innerfile refid="std__function__double__from__MR__VertId__MR__VertId__MR__VertId_8h">std_function_double_from_MR_VertId_MR_VertId_MR_VertId.h</innerfile>
     <innerfile refid="std__function__double__from__MR__VertId__MR__VertId__MR__VertId__MR__VertId_8h">std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId.h</innerfile>
     <innerfile refid="std__function__expected__MR__LoadedObjects__std__string__from__const__std__filesystem__path__ref__const__s____c201_8h">std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_s__c201.h</innerfile>
-    <innerfile refid="std__function__expected__MR__SimpleVolumeMinMax__std__string__from__const__MR__PointCloud__ref__const__MR____4cb9_8h">std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR__4cb9.h</innerfile>
-    <innerfile refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h">std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistance__5fc9.h</innerfile>
     <innerfile refid="std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h">std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int.h</innerfile>
     <innerfile refid="std__function__expected__void__std__string__from__std__vector__float__rvalue__ref__const__MR__Vector3i__ref____42b9_8h">std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref__42b9.h</innerfile>
     <innerfile refid="std__function__float__from__const__char__ptr_8h">std_function_float_from_const_char_ptr.h</innerfile>
@@ -345,6 +342,7 @@
     <innerfile refid="std__shared__ptr__MR__ChangVoxelSelectionAction_8h">std_shared_ptr_MR_ChangVoxelSelectionAction.h</innerfile>
     <innerfile refid="std__shared__ptr__MR__CircleObject_8h">std_shared_ptr_MR_CircleObject.h</innerfile>
     <innerfile refid="std__shared__ptr__MR__CombinedHistoryAction_8h">std_shared_ptr_MR_CombinedHistoryAction.h</innerfile>
+    <innerfile refid="std__shared__ptr__MR__ComputePointsToDistanceVolume_8h">std_shared_ptr_MR_ComputePointsToDistanceVolume.h</innerfile>
     <innerfile refid="std__shared__ptr__MR__ConeObject_8h">std_shared_ptr_MR_ConeObject.h</innerfile>
     <innerfile refid="std__shared__ptr__MR__CylinderObject_8h">std_shared_ptr_MR_CylinderObject.h</innerfile>
     <innerfile refid="std__shared__ptr__MR__DistanceMap_8h">std_shared_ptr_MR_DistanceMap.h</innerfile>
@@ -352,6 +350,9 @@
     <innerfile refid="std__shared__ptr__MR__FastWindingNumber_8h">std_shared_ptr_MR_FastWindingNumber.h</innerfile>
     <innerfile refid="std__shared__ptr__MR__FeatureObject_8h">std_shared_ptr_MR_FeatureObject.h</innerfile>
     <innerfile refid="std__shared__ptr__MR__HistoryAction_8h">std_shared_ptr_MR_HistoryAction.h</innerfile>
+    <innerfile refid="std__shared__ptr__MR__IComputePointsToDistanceFunctionVolume_8h">std_shared_ptr_MR_IComputePointsToDistanceFunctionVolume.h</innerfile>
+    <innerfile refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h">std_shared_ptr_MR_IComputePointsToDistanceVolume.h</innerfile>
+    <innerfile refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h">std_shared_ptr_MR_IComputePointsToDistanceVolumeByParts.h</innerfile>
     <innerfile refid="std__shared__ptr__MR__IFastWindingNumber_8h">std_shared_ptr_MR_IFastWindingNumber.h</innerfile>
     <innerfile refid="std__shared__ptr__MR__IFastWindingNumberByParts_8h">std_shared_ptr_MR_IFastWindingNumberByParts.h</innerfile>
     <innerfile refid="std__shared__ptr__MR__IPointsToMeshProjector_8h">std_shared_ptr_MR_IPointsToMeshProjector.h</innerfile>

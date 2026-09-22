@@ -1,0 +1,660 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume" kind="class" language="C#" prot="public">
+    <compoundname>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</compoundname>
+    <basecompoundref refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume" prot="public" virt="non-virtual">MR.Std.Const_SharedPtr_MRCudaComputePointsToDistanceVolume</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a17e8b2d34e3048fa1f75c2b893b7da6f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SharedPtr_MRCudaComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="186" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="186" bodyend="186"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1ad94ec2af8643e9a303f39f5864f2d418" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</definition>
+        <argsstring>()</argsstring>
+        <name>SharedPtr_MRCudaComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="191" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1acd0233c16c34a584e52a0efb9df47cc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</definition>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRCudaComputePointsToDistanceVolume other)</argsstring>
+        <name>SharedPtr_MRCudaComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRCudaComputePointsToDistanceVolume</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a copy of another instance. The source remains alive. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="199" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="199" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a3ca4b2e9d8fbc21b74962d9014d08b96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</definition>
+        <argsstring>(Const_SharedPtr_MRCudaComputePointsToDistanceVolume other)</argsstring>
+        <name>SharedPtr_MRCudaComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume" kindref="compound">Const_SharedPtr_MRCudaComputePointsToDistanceVolume</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a copy of another instance. The source remains alive. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="208" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="208" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a0116c6edc110721b8448ab5dc6b8fdd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</definition>
+        <argsstring>(SharedPtr_MRCudaComputePointsToDistanceVolume other)</argsstring>
+        <name>SharedPtr_MRCudaComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume" kindref="compound">SharedPtr_MRCudaComputePointsToDistanceVolume</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a copy of another instance. The source remains alive. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="213" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="213" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a9274114fb5ee972822d9d17a78b69adb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.assign</definition>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRCudaComputePointsToDistanceVolume other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.assign</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRCudaComputePointsToDistanceVolume</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="218" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="218" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1ab1b03a47697f4da6837b1f12030209ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.reset</qualifiedname>
+        <briefdescription>
+<para>Resets the pointer to null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="228" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="228" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a1ae3ebe705177ef9369df9cca8a79ae8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</definition>
+        <argsstring>(MR.Cuda._ByValue_ComputePointsToDistanceVolume value)</argsstring>
+        <name>SharedPtr_MRCudaComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>MR.Cuda._ByValue_ComputePointsToDistanceVolume</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Construct from a value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="236" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="236" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1af4fb29320e4a5402a9a64550459a9caf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</definition>
+        <argsstring>(MR.Std.Owning tag, void *ptr)</argsstring>
+        <name>SharedPtr_MRCudaComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>MR.Std.Owning</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>Create a new instance, taking ownership of an existing pointer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="250" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="250" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1aa041230bcb85c4b414d1b689d960e61e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.assign</definition>
+        <argsstring>(MR.Std.Owning tag, void *ptr)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.assign</qualifiedname>
+        <param>
+          <type>MR.Std.Owning</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>Overwrite the existing instance, taking ownership of an existing pointer. The previously owned object, if any, has its reference count decremented. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="258" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="258" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a691aec710db43ce9844b60e97bca1b78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</definition>
+        <argsstring>(MR.Std.NonOwning tag, MR.Cuda.ComputePointsToDistanceVolume? ptr)</argsstring>
+        <name>SharedPtr_MRCudaComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>MR.Std.NonOwning</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" kindref="compound">MR.Cuda.ComputePointsToDistanceVolume</ref>?</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>Create a new instance, storing a non-owning pointer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="266" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="266" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a2b680cb4a593e305172498417dfa8a1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.assign</definition>
+        <argsstring>(MR.Std.NonOwning tag, MR.Cuda.ComputePointsToDistanceVolume? ptr)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.assign</qualifiedname>
+        <param>
+          <type>MR.Std.NonOwning</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" kindref="compound">MR.Cuda.ComputePointsToDistanceVolume</ref>?</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>Overwrite the existing instance with a non-owning pointer. The previously owned object, if any, has its reference count decremented. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="275" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="275" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a7089498a6e41301881f39bc79ae70379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</definition>
+        <argsstring>(MR.Std.Aliasing tag, MR.Std._ByValue_SharedPtr_ConstVoid ownership, MR.Cuda.ComputePointsToDistanceVolume? ptr)</argsstring>
+        <name>SharedPtr_MRCudaComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.SharedPtr_MRCudaComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>MR.Std.Aliasing</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_ConstVoid</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" kindref="compound">MR.Cuda.ComputePointsToDistanceVolume</ref>?</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&amp;lt;T&amp;gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&amp;lt;void&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="286" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="286" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1acfe1507d4a5a4ecbf4d72dd9758474e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.assignAliasing</definition>
+        <argsstring>(MR.Std.Aliasing tag, MR.Std._ByValue_SharedPtr_ConstVoid ownership, MR.Cuda.ComputePointsToDistanceVolume? ptr)</argsstring>
+        <name>assignAliasing</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.assignAliasing</qualifiedname>
+        <param>
+          <type>MR.Std.Aliasing</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_ConstVoid</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" kindref="compound">MR.Cuda.ComputePointsToDistanceVolume</ref>?</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&amp;lt;T&amp;gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&amp;lt;void&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="296" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="296" bodyend="301"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a3e9c29930ea4cb9b8558a553e90ea75c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.operator SharedPtr_MRCudaComputePointsToDistanceVolume</definition>
+        <argsstring>(MR.Cuda._ByValue_ComputePointsToDistanceVolume value)</argsstring>
+        <name>operator SharedPtr_MRCudaComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.operator SharedPtr_MRCudaComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>MR.Cuda._ByValue_ComputePointsToDistanceVolume</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Construct from a value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="245" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="245" bodyend="245"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a3502b9f058ebaa85f7b0152cc22b2977" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_Assign</definition>
+        <argsstring>(_Underlying *_this, void *ptr)</argsstring>
+        <name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_Assign</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_Assign</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="306" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a7d83c0b3b8bb5f3034f6330e4dabaec9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignAliasing</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy ownership_pass_by, MR.Std.SharedPtr_ConstVoid._Underlying *ownership, MR.Cuda.ComputePointsToDistanceVolume._Underlying *ptr)</argsstring>
+        <name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignAliasing</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignAliasing</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.SharedPtr_ConstVoid._Underlying *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type>MR.Cuda.ComputePointsToDistanceVolume._Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="309" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a0a052e40a0d8bf3e6cceadb11cee340c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy other_pass_by, MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying *other)</argsstring>
+        <name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignFromAnother</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="312" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1acb09ca93bd9d3857535fa1bd1c4fc33d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignNonOwning</definition>
+        <argsstring>(_Underlying *_this, MR.Cuda.ComputePointsToDistanceVolume._Underlying *ptr)</argsstring>
+        <name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignNonOwning</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignNonOwning</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Cuda.ComputePointsToDistanceVolume._Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="315" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a4ce66fd95a640f43f96d6d970a066d80" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying *</type>
+        <definition>static unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying * MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_Construct</definition>
+        <argsstring>(void *ptr)</argsstring>
+        <name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_Construct</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_Construct</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="318" column="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1ab486c01c0d7938f1668df14a6f4e5512" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying *</type>
+        <definition>static unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying * MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructAliasing</definition>
+        <argsstring>(MR.Misc._PassBy ownership_pass_by, MR.Std.SharedPtr_ConstVoid._Underlying *ownership, MR.Cuda.ComputePointsToDistanceVolume._Underlying *ptr)</argsstring>
+        <name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructAliasing</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructAliasing</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.SharedPtr_ConstVoid._Underlying *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type>MR.Cuda.ComputePointsToDistanceVolume._Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="321" column="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a76c599f6db974791caee2cdfb1bc6770" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying *</type>
+        <definition>static unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying * MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy other_pass_by, MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying *other)</argsstring>
+        <name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="324" column="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1af279af130c71ef08b965a74d6181c2d2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying *</type>
+        <definition>static unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying * MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructFromValue</definition>
+        <argsstring>(MR.Misc._PassBy value_pass_by, MR.Cuda.ComputePointsToDistanceVolume._Underlying *value)</argsstring>
+        <name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructFromValue</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructFromValue</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Cuda.ComputePointsToDistanceVolume._Underlying *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="327" column="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a3a11c559f10990cf9352347ba2325e24" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying *</type>
+        <definition>static unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying * MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructNonOwning</definition>
+        <argsstring>(MR.Cuda.ComputePointsToDistanceVolume._Underlying *ptr)</argsstring>
+        <name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructNonOwning</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructNonOwning</qualifiedname>
+        <param>
+          <type>MR.Cuda.ComputePointsToDistanceVolume._Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="330" column="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a6f7d07014aa8db536087d8df6e690a61" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying *</type>
+        <definition>static unsafe MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume._Underlying * MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="333" column="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a0b292856396bc463e441877d2c10f03f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_reset</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_reset</name>
+        <qualifiedname>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume.__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_reset</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="336" column="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Wraps a pointer to a single shared reference-counted heap-allocated <computeroutput><ref refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" kindref="compound">MR.Cuda.ComputePointsToDistanceVolume</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.Std.Const_SharedPtr_MRCudaComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.Std.Const_SharedPtr_MRCudaComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="184" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="185" bodyend="337"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a3502b9f058ebaa85f7b0152cc22b2977" prot="private" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_Assign</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a7d83c0b3b8bb5f3034f6330e4dabaec9" prot="private" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignAliasing</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a0a052e40a0d8bf3e6cceadb11cee340c" prot="private" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignFromAnother</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1acb09ca93bd9d3857535fa1bd1c4fc33d" prot="private" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignNonOwning</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a4ce66fd95a640f43f96d6d970a066d80" prot="private" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_Construct</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1ab486c01c0d7938f1668df14a6f4e5512" prot="private" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructAliasing</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a76c599f6db974791caee2cdfb1bc6770" prot="private" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1af279af130c71ef08b965a74d6181c2d2" prot="private" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructFromValue</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a3a11c559f10990cf9352347ba2325e24" prot="private" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructNonOwning</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a6f7d07014aa8db536087d8df6e690a61" prot="private" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a0b292856396bc463e441877d2c10f03f" prot="private" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_reset</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a9274114fb5ee972822d9d17a78b69adb" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>assign</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1aa041230bcb85c4b414d1b689d960e61e" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>assign</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a2b680cb4a593e305172498417dfa8a1d" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>assign</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1acfe1507d4a5a4ecbf4d72dd9758474e8" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>assignAliasing</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a9397978dcfce34b823da0f2cf74a311f" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>assignToMRStdSharedPtrVoid</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1ae305e903aef08486400daeea439d586a" prot="package" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a2775be491ee3d03777a2df756085c606" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1acf0563cff13baa4c0140ff73f8d112f5" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a74395c9f44478bd8f62acc50d5f6ef4a" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a30ed4674cf6693479ead6b45d9657cba" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a990b55b9668811d1f8c04a434d6df0fa" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a0e8bcf269fa4ec75d770f81a772b23c8" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1ad95404ba5926a84a049a495d52115764" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a55eb109b2f96cfae5817bd87ab7ba142" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1aa5fdcfe7ce5156776eb15a926c03f33c" prot="protected" virt="virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a6823f5f6aec19822eeef031dda9b1b87" prot="public" virt="virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1acf02afac972da8fc062ffd6c4c1558e7" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>get</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a77242cfe2ea1d8582020f245d08a6cee" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a4ab134f8353bbb52d4041781fde3dff2" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>operator Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1ad6d7dbfa44569823b607f7421cb2d87d" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>operator MR.Std.SharedPtr_Void</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a3e9c29930ea4cb9b8558a553e90ea75c" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>operator SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1ab1b03a47697f4da6837b1f12030209ae" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>reset</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a17e8b2d34e3048fa1f75c2b893b7da6f" prot="package" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1ad94ec2af8643e9a303f39f5864f2d418" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1acd0233c16c34a584e52a0efb9df47cc2" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a3ca4b2e9d8fbc21b74962d9014d08b96" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a0116c6edc110721b8448ab5dc6b8fdd0" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a1ae3ebe705177ef9369df9cca8a79ae8" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1af4fb29320e4a5402a9a64550459a9caf" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a691aec710db43ce9844b60e97bca1b78" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a7089498a6e41301881f39bc79ae70379" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1ae56c2a59b1cc7f246c7d29638db225e4" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</scope><name>useCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

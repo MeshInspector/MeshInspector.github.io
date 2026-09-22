@@ -117,6 +117,7 @@
     <innerclass refid="classMR_1_1CommandLoop" prot="public">MR::CommandLoop</innerclass>
     <innerclass refid="structMR_1_1CompensateRadiusParams" prot="public">MR::CompensateRadiusParams</innerclass>
     <innerclass refid="structMR_1_1CompressZipSettings" prot="public">MR::CompressZipSettings</innerclass>
+    <innerclass refid="classMR_1_1ComputePointsToDistanceVolume" prot="public">MR::ComputePointsToDistanceVolume</innerclass>
     <innerclass refid="structMR_1_1ComputeSteepestDescentPathSettings" prot="public">MR::ComputeSteepestDescentPathSettings</innerclass>
     <innerclass refid="structMR_1_1ComputeSweptVolumeParameters" prot="public">MR::ComputeSweptVolumeParameters</innerclass>
     <innerclass refid="classMR_1_1Cone3" prot="public">MR::Cone3</innerclass>
@@ -276,6 +277,9 @@
     <innerclass refid="classMR_1_1HistoryStore" prot="public">MR::HistoryStore</innerclass>
     <innerclass refid="structMR_1_1HoleEdgePoint" prot="public">MR::HoleEdgePoint</innerclass>
     <innerclass refid="structMR_1_1HoleFillPlan" prot="public">MR::HoleFillPlan</innerclass>
+    <innerclass refid="classMR_1_1IComputePointsToDistanceFunctionVolume" prot="public">MR::IComputePointsToDistanceFunctionVolume</innerclass>
+    <innerclass refid="classMR_1_1IComputePointsToDistanceVolume" prot="public">MR::IComputePointsToDistanceVolume</innerclass>
+    <innerclass refid="classMR_1_1IComputePointsToDistanceVolumeByParts" prot="public">MR::IComputePointsToDistanceVolumeByParts</innerclass>
     <innerclass refid="classMR_1_1IComputeToolDistance" prot="public">MR::IComputeToolDistance</innerclass>
     <innerclass refid="structMR_1_1IConnectable" prot="public">MR::IConnectable</innerclass>
     <innerclass refid="classMR_1_1ICP" prot="public">MR::ICP</innerclass>

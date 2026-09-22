@@ -4,6 +4,8 @@
     <compoundname>MRCudaPointsToDistanceVolume.h</compoundname>
     <includes refid="uda_2include_2MRCCuda_2exports_8h" local="no">MRCCuda/exports.h</includes>
     <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="3">
         <label>MRCMisc/common.h</label>
@@ -24,15 +26,38 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>MRCCuda/exports.h</label>
         <link refid="uda_2include_2MRCCuda_2exports_8h"/>
       </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
       <node id="5">
         <label>stddef.h</label>
       </node>
     </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" prot="public" static="no">
+        <type>struct <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref></type>
+        <definition>typedef struct MR_Cuda_ComputePointsToDistanceVolume MR_Cuda_ComputePointsToDistanceVolume</definition>
+        <argsstring></argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CUDA implementation of IComputePointsToDistanceVolumeByParts Generated from class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::IComputePointsToDistanceVolumeByParts</computeroutput> Indirect: (non-virtual) <computeroutput>MR::IComputePointsToDistanceVolume</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="32" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a8dd43868b0a34e486dea9114846ebe67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref> *</type>
@@ -44,7 +69,7 @@
           <declname>cloud</declname>
         </param>
         <param>
-          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>params</declname>
         </param>
         <briefdescription>
@@ -54,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="22" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="22" declcolumn="59"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="39" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="39" declcolumn="59"/>
       </memberdef>
       <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a047a4121c1c28932a79870ec6ffad9ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -66,7 +91,7 @@
           <declname>cloud</declname>
         </param>
         <param>
-          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>params</declname>
         </param>
         <param>
@@ -74,7 +99,7 @@
           <declname>addPart_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref> *</type>
+          <type><ref refid="std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref> *</type>
           <declname>addPart</declname>
         </param>
         <param>
@@ -88,7 +113,574 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="30" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="30" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="47" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="47" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a7ac401038d0e58a350b4871529095f77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> size_t</type>
+        <definition>MRC_CUDA_API size_t MR_Cuda_pointsToDistanceVolumeMemory</definition>
+        <argsstring>(const MR_PointCloud *cloud, const MR_Vector3i *dims, const MR_VertCoords *ptNormals)</argsstring>
+        <name>MR_Cuda_pointsToDistanceVolumeMemory</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>ptNormals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the minimal amount of free GPU memory required to build a distance volume with given dimensions Generated from function <computeroutput>MR::Cuda::pointsToDistanceVolumeMemory</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="53" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="53" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a9dd33fe03af03aa4b73f305f182ebdc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCudaPointsToDistanceVolume_8h_1ac0088e63e1a9aa91f36531cb62a7dead" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="57" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="57" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a0c14142c0d489c45a9e56fb575aafd8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRCudaPointsToDistanceVolume_8h_1aaab91181db813ff7389d6553a0db4e59" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRCudaPointsToDistanceVolume_8h_1a5a57ab839fec89771433a11ce511827c" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRCudaPointsToDistanceVolume_8h_1a4e9923d9a4b72319295fa5723d234ce5" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="62" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="62" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a4e9923d9a4b72319295fa5723d234ce5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_OffsetPtr</definition>
+        <argsstring>(const MR_Cuda_ComputePointsToDistanceVolume *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="66" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="66" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a5a57ab839fec89771433a11ce511827c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_OffsetMutablePtr</definition>
+        <argsstring>(MR_Cuda_ComputePointsToDistanceVolume *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="70" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="70" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a4e4f4666e71d3a6ba0d926e1ae932c77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API const MR_IComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolume</definition>
+        <argsstring>(const MR_Cuda_ComputePointsToDistanceVolume *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolume</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput> to its base class <computeroutput>MR::IComputePointsToDistanceVolume</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="75" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="75" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1add171c69684f2fb35be9c6ee7bb2c163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API MR_IComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_MutableUpcastTo_MR_IComputePointsToDistanceVolume</definition>
+        <argsstring>(MR_Cuda_ComputePointsToDistanceVolume *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_MutableUpcastTo_MR_IComputePointsToDistanceVolume</name>
+        <param>
+          <type><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput> to its base class <computeroutput>MR::IComputePointsToDistanceVolume</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="79" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="79" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1ace387117056b4518a8e5423ce699d169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_StaticDowncastFrom_MR_IComputePointsToDistanceVolume</definition>
+        <argsstring>(const MR_IComputePointsToDistanceVolume *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_StaticDowncastFrom_MR_IComputePointsToDistanceVolume</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputePointsToDistanceVolume</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="85" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="85" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a110172b6a1d3b1d0eb3cf4997d1b3faa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_MutableStaticDowncastFrom_MR_IComputePointsToDistanceVolume</definition>
+        <argsstring>(MR_IComputePointsToDistanceVolume *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_MutableStaticDowncastFrom_MR_IComputePointsToDistanceVolume</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputePointsToDistanceVolume</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="90" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="90" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a248ee5d7537cb528abd419907c8e7170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</definition>
+        <argsstring>(const MR_IComputePointsToDistanceVolume *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputePointsToDistanceVolume</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="96" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="96" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a3a00fd0603576b8f11a739e55542e337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFrom_MR_IComputePointsToDistanceVolume</definition>
+        <argsstring>(MR_IComputePointsToDistanceVolume *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFrom_MR_IComputePointsToDistanceVolume</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputePointsToDistanceVolume</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="101" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="101" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a39b7fe6edc34b3aff202ffee5bea9b10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolume</definition>
+        <argsstring>(const MR_IComputePointsToDistanceVolume *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolume</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputePointsToDistanceVolume</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="109" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="109" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1ab7d13aead60fabb26ccfaeb72ccbbbf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolume</definition>
+        <argsstring>(MR_IComputePointsToDistanceVolume *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolume</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputePointsToDistanceVolume</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="116" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="116" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a479995d1fb5aead76300173bc41916f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref> *</type>
+        <definition>MRC_CUDA_API const MR_IComputePointsToDistanceVolumeByParts * MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolumeByParts</definition>
+        <argsstring>(const MR_Cuda_ComputePointsToDistanceVolume *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolumeByParts</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput> to its base class <computeroutput>MR::IComputePointsToDistanceVolumeByParts</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="121" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="121" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1aeb19c95ad918439eb0c7d7aece67f505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref> *</type>
+        <definition>MRC_CUDA_API MR_IComputePointsToDistanceVolumeByParts * MR_Cuda_ComputePointsToDistanceVolume_MutableUpcastTo_MR_IComputePointsToDistanceVolumeByParts</definition>
+        <argsstring>(MR_Cuda_ComputePointsToDistanceVolume *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_MutableUpcastTo_MR_IComputePointsToDistanceVolumeByParts</name>
+        <param>
+          <type><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput> to its base class <computeroutput>MR::IComputePointsToDistanceVolumeByParts</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="125" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="125" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a34ea82a08fa7531a199fe4f0c1389b5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_StaticDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</definition>
+        <argsstring>(const MR_IComputePointsToDistanceVolumeByParts *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_StaticDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputePointsToDistanceVolumeByParts</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="131" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="131" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a1d800024a6095e0d248a172ddfa39196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_MutableStaticDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</definition>
+        <argsstring>(MR_IComputePointsToDistanceVolumeByParts *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_MutableStaticDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputePointsToDistanceVolumeByParts</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="136" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="136" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1acc3e8dec0ebe561d263f48c6338f2314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</definition>
+        <argsstring>(const MR_IComputePointsToDistanceVolumeByParts *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputePointsToDistanceVolumeByParts</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="142" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="142" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a799ae8e0ba43f21a30052e114102994c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</definition>
+        <argsstring>(MR_IComputePointsToDistanceVolumeByParts *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputePointsToDistanceVolumeByParts</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="147" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="147" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1aebcd96326959164523daf25bacb6a036" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API const MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolumeByParts</definition>
+        <argsstring>(const MR_IComputePointsToDistanceVolumeByParts *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolumeByParts</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputePointsToDistanceVolumeByParts</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="155" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="155" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a0e6863b23262442105e0305e3473239d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolumeByParts</definition>
+        <argsstring>(MR_IComputePointsToDistanceVolumeByParts *object)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolumeByParts</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IComputePointsToDistanceVolumeByParts</computeroutput> to a derived class <computeroutput>MR::Cuda::ComputePointsToDistanceVolume</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="162" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="162" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a8fd68ce7ccba796ba134cb9f63b77e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_Cuda_ComputePointsToDistanceVolume *_other)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Cuda::ComputePointsToDistanceVolume::ComputePointsToDistanceVolume</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCudaPointsToDistanceVolume_8h_1ac0088e63e1a9aa91f36531cb62a7dead" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="167" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="167" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1ac0088e63e1a9aa91f36531cb62a7dead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_ComputePointsToDistanceVolume_Destroy</definition>
+        <argsstring>(const MR_Cuda_ComputePointsToDistanceVolume *_this)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_Destroy</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="170" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="170" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1aaab91181db813ff7389d6553a0db4e59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
+        <definition>MRC_CUDA_API void MR_Cuda_ComputePointsToDistanceVolume_DestroyArray</definition>
+        <argsstring>(const MR_Cuda_ComputePointsToDistanceVolume *_this)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="173" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="173" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a9de806097fa851272c13c82feae341a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_ComputePointsToDistanceVolume * MR_Cuda_ComputePointsToDistanceVolume_AssignFromAnother</definition>
+        <argsstring>(MR_Cuda_ComputePointsToDistanceVolume *_this, MR_PassBy _other_pass_by, MR_Cuda_ComputePointsToDistanceVolume *_other)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Cuda::ComputePointsToDistanceVolume::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="180" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="180" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1aaeb347a5cf73792bfe7afb9c414346c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> bool</type>
+        <definition>MRC_CUDA_API bool MR_Cuda_ComputePointsToDistanceVolume_canCompute</definition>
+        <argsstring>(const MR_Cuda_ComputePointsToDistanceVolume *_this, const MR_PointCloud *cloud, const MR_PointsToDistanceVolumeParams *params)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_canCompute</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>both compute() and computeByParts() upload the same data and process the grid in chunks sized to the free GPU memory, so this answers for either of them Generated from method <computeroutput>MR::Cuda::ComputePointsToDistanceVolume::canCompute</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="189" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="189" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a07570ebd01d6531e5c32b0691007328c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_MR_SimpleVolumeMinMax_std_string * MR_Cuda_ComputePointsToDistanceVolume_compute</definition>
+        <argsstring>(const MR_Cuda_ComputePointsToDistanceVolume *_this, const MR_PointCloud *cloud, const MR_PointsToDistanceVolumeParams *params)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_compute</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Cuda::ComputePointsToDistanceVolume::compute</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aed32b4b4779f6d2e187f5273b07949d2" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="196" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="196" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToDistanceVolume_8h_1a59375e572da7208f9362a2c7f1514619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_CUDA_API MR_expected_void_std_string * MR_Cuda_ComputePointsToDistanceVolume_computeByParts</definition>
+        <argsstring>(const MR_Cuda_ComputePointsToDistanceVolume *_this, const MR_PointCloud *cloud, const MR_PointsToDistanceVolumeParams *params, MR_PassBy addPart_pass_by, MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int *addPart, int layerOverlap)</argsstring>
+        <name>MR_Cuda_ComputePointsToDistanceVolume_computeByParts</name>
+        <param>
+          <type>const <ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>addPart_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref> *</type>
+          <declname>addPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerOverlap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Cuda::ComputePointsToDistanceVolume::computeByParts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" line="203" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h" declline="203" declcolumn="42"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -101,24 +693,90 @@
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="uda_2include_2MRCCuda_2exports_8h" kindref="compound">MRCCuda/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRPointsToDistanceVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_SimpleVolumeMinMax_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref><sp/><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRCudaPointsToDistanceVolume_8h_1a8dd43868b0a34e486dea9114846ebe67" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a8dd43868b0a34e486dea9114846ebe67" kindref="member">MR_Cuda_pointsToDistanceVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref><sp/><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRPointsToDistanceVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref><sp/><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRPointsToDistanceVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRPointsToDistanceVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_SimpleVolumeMinMax_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref><sp/><ref refid="std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRCudaPointsToDistanceVolume_8h_1a047a4121c1c28932a79870ec6ffad9ff" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a047a4121c1c28932a79870ec6ffad9ff" kindref="member">MR_Cuda_pointsToDistanceVolumeByParts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>addPart_pass_by,<sp/><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref><sp/>*addPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerOverlap);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="32" refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="MRCudaPointsToDistanceVolume_8h_1a8dd43868b0a34e486dea9114846ebe67" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a8dd43868b0a34e486dea9114846ebe67" kindref="member">MR_Cuda_pointsToDistanceVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRCudaPointsToDistanceVolume_8h_1a047a4121c1c28932a79870ec6ffad9ff" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a047a4121c1c28932a79870ec6ffad9ff" kindref="member">MR_Cuda_pointsToDistanceVolumeByParts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>addPart_pass_by,<sp/><ref refid="std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref><sp/>*addPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerOverlap);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRCudaPointsToDistanceVolume_8h_1a7ac401038d0e58a350b4871529095f77" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a7ac401038d0e58a350b4871529095f77" kindref="member">MR_Cuda_pointsToDistanceVolumeMemory</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*ptNormals);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRCudaPointsToDistanceVolume_8h_1a9dd33fe03af03aa4b73f305f182ebdc4" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a9dd33fe03af03aa4b73f305f182ebdc4" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRCudaPointsToDistanceVolume_8h_1a0c14142c0d489c45a9e56fb575aafd8a" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a0c14142c0d489c45a9e56fb575aafd8a" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRCudaPointsToDistanceVolume_8h_1a4e9923d9a4b72319295fa5723d234ce5" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a4e9923d9a4b72319295fa5723d234ce5" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRCudaPointsToDistanceVolume_8h_1a5a57ab839fec89771433a11ce511827c" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a5a57ab839fec89771433a11ce511827c" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_OffsetMutablePtr</ref>(<ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRCudaPointsToDistanceVolume_8h_1a4e4f4666e71d3a6ba0d926e1ae932c77" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a4e4f4666e71d3a6ba0d926e1ae932c77" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRCudaPointsToDistanceVolume_8h_1add171c69684f2fb35be9c6ee7bb2c163" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1add171c69684f2fb35be9c6ee7bb2c163" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_MutableUpcastTo_MR_IComputePointsToDistanceVolume</ref>(<ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRCudaPointsToDistanceVolume_8h_1ace387117056b4518a8e5423ce699d169" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1ace387117056b4518a8e5423ce699d169" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_StaticDowncastFrom_MR_IComputePointsToDistanceVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRCudaPointsToDistanceVolume_8h_1a110172b6a1d3b1d0eb3cf4997d1b3faa" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a110172b6a1d3b1d0eb3cf4997d1b3faa" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_MutableStaticDowncastFrom_MR_IComputePointsToDistanceVolume</ref>(<ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="MRCudaPointsToDistanceVolume_8h_1a248ee5d7537cb528abd419907c8e7170" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a248ee5d7537cb528abd419907c8e7170" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRCudaPointsToDistanceVolume_8h_1a3a00fd0603576b8f11a739e55542e337" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a3a00fd0603576b8f11a739e55542e337" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFrom_MR_IComputePointsToDistanceVolume</ref>(<ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="MRCudaPointsToDistanceVolume_8h_1a39b7fe6edc34b3aff202ffee5bea9b10" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a39b7fe6edc34b3aff202ffee5bea9b10" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRCudaPointsToDistanceVolume_8h_1ab7d13aead60fabb26ccfaeb72ccbbbf4" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1ab7d13aead60fabb26ccfaeb72ccbbbf4" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolume</ref>(<ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h_1a3bdbf540542cfb31bdc8fb65e2c4472c" kindref="member">MR_IComputePointsToDistanceVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRCudaPointsToDistanceVolume_8h_1a479995d1fb5aead76300173bc41916f8" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a479995d1fb5aead76300173bc41916f8" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolumeByParts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRCudaPointsToDistanceVolume_8h_1aeb19c95ad918439eb0c7d7aece67f505" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1aeb19c95ad918439eb0c7d7aece67f505" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_MutableUpcastTo_MR_IComputePointsToDistanceVolumeByParts</ref>(<ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRCudaPointsToDistanceVolume_8h_1a34ea82a08fa7531a199fe4f0c1389b5b" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a34ea82a08fa7531a199fe4f0c1389b5b" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_StaticDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRCudaPointsToDistanceVolume_8h_1a1d800024a6095e0d248a172ddfa39196" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a1d800024a6095e0d248a172ddfa39196" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_MutableStaticDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</ref>(<ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRCudaPointsToDistanceVolume_8h_1acc3e8dec0ebe561d263f48c6338f2314" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1acc3e8dec0ebe561d263f48c6338f2314" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRCudaPointsToDistanceVolume_8h_1a799ae8e0ba43f21a30052e114102994c" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a799ae8e0ba43f21a30052e114102994c" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</ref>(<ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="MRCudaPointsToDistanceVolume_8h_1aebcd96326959164523daf25bacb6a036" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1aebcd96326959164523daf25bacb6a036" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolumeByParts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRCudaPointsToDistanceVolume_8h_1a0e6863b23262442105e0305e3473239d" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a0e6863b23262442105e0305e3473239d" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolumeByParts</ref>(<ref refid="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_1a4f7685633a4012c48f46bff4d17bd70d" kindref="member">MR_IComputePointsToDistanceVolumeByParts</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRCudaPointsToDistanceVolume_8h_1a8fd68ce7ccba796ba134cb9f63b77e9f" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a8fd68ce7ccba796ba134cb9f63b77e9f" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRCudaPointsToDistanceVolume_8h_1ac0088e63e1a9aa91f36531cb62a7dead" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1ac0088e63e1a9aa91f36531cb62a7dead" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRCudaPointsToDistanceVolume_8h_1aaab91181db813ff7389d6553a0db4e59" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1aaab91181db813ff7389d6553a0db4e59" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRCudaPointsToDistanceVolume_8h_1a9de806097fa851272c13c82feae341a5" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a9de806097fa851272c13c82feae341a5" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_AssignFromAnother</ref>(<ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment">//<sp/>see<sp/>methods&apos;<sp/>descriptions<sp/>in<sp/>the<sp/>MR::IComputePointsToDistanceVolume<sp/>interfaces</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="MRCudaPointsToDistanceVolume_8h_1aaeb347a5cf73792bfe7afb9c414346c3" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1aaeb347a5cf73792bfe7afb9c414346c3" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_canCompute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="MRCudaPointsToDistanceVolume_8h_1a07570ebd01d6531e5c32b0691007328c" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a07570ebd01d6531e5c32b0691007328c" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_compute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="MRCudaPointsToDistanceVolume_8h_1a59375e572da7208f9362a2c7f1514619" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCudaPointsToDistanceVolume_8h_1a59375e572da7208f9362a2c7f1514619" kindref="member">MR_Cuda_ComputePointsToDistanceVolume_computeByParts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToDistanceVolume_8h_1a548d749a4f4bfa4c11ac5a656a5ab828" kindref="member">MR_Cuda_ComputePointsToDistanceVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>addPart_pass_by,<sp/><ref refid="std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h_1a8b4d84ed41bab65a5c841f52df3093ed" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</ref><sp/>*addPart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>layerOverlap);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToDistanceVolume.h"/>
   </compounddef>

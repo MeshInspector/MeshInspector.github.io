@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ComputePointsToDistanceVolume" kind="class" language="C++" prot="public">
+    <compoundname>MR::ComputePointsToDistanceVolume</compoundname>
+    <basecompoundref refid="classMR_1_1IComputePointsToDistanceFunctionVolume" prot="public" virt="non-virtual">MR::IComputePointsToDistanceFunctionVolume</basecompoundref>
+    <includes refid="MRPointsToDistanceVolume_8h" local="no">MRVoxels/MRPointsToDistanceVolume.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga312e027f6b14321c1e5af193fc587217" kind="function"><name>canCompute</name></member>
+      <member refid="group__GeneralGroup_1ga5215aa00e754507c0beebad13b90d508" kind="function"><name>compute</name></member>
+      <member refid="group__GeneralGroup_1gab532a0db10593ce68ea887ded46fb244" kind="function"><name>computeFunctionVolume</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>CPU implementation of <ref refid="classMR_1_1IComputePointsToDistanceVolume" kindref="compound">IComputePointsToDistanceVolume</ref>, used by pointsToMeshFusion when no other one is given; prefer its lazy computeFunctionVolume over compute, which materializes the whole volume in memory </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1ComputePointsToDistanceVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IComputePointsToDistanceFunctionVolume</label>
+        <link refid="classMR_1_1IComputePointsToDistanceFunctionVolume"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1IComputePointsToDistanceVolume"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1ComputePointsToDistanceVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IComputePointsToDistanceFunctionVolume</label>
+        <link refid="classMR_1_1IComputePointsToDistanceFunctionVolume"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1IComputePointsToDistanceVolume"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRVoxels/MRPointsToDistanceVolume.h" line="89" column="1" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="90" bodyend="96"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga312e027f6b14321c1e5af193fc587217" prot="public" virt="virtual"><scope>MR::ComputePointsToDistanceVolume</scope><name>canCompute</name></member>
+      <member refid="group__GeneralGroup_1ga5215aa00e754507c0beebad13b90d508" prot="public" virt="virtual"><scope>MR::ComputePointsToDistanceVolume</scope><name>compute</name></member>
+      <member refid="group__GeneralGroup_1gab532a0db10593ce68ea887ded46fb244" prot="public" virt="virtual"><scope>MR::ComputePointsToDistanceVolume</scope><name>computeFunctionVolume</name></member>
+      <member refid="group__GeneralGroup_1ga67274dda6d9ec6a0263bf60088e56409" prot="public" virt="non-virtual"><scope>MR::ComputePointsToDistanceVolume</scope><name>IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1gafc49f649f23fb34e2e05dcf81db7c98e" prot="public" virt="non-virtual"><scope>MR::ComputePointsToDistanceVolume</scope><name>IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1ga49203c87a1e3771957b9d06a2d5fbd6b" prot="public" virt="non-virtual"><scope>MR::ComputePointsToDistanceVolume</scope><name>IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1ga3eb6e32c91c150d4fed57d55b4a55eae" prot="public" virt="non-virtual"><scope>MR::ComputePointsToDistanceVolume</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gac21a82abf4c9db8c0cccce6aebd53a87" prot="public" virt="non-virtual"><scope>MR::ComputePointsToDistanceVolume</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga2856066855e764964a0455777c34ddd2" prot="public" virt="virtual"><scope>MR::ComputePointsToDistanceVolume</scope><name>~IComputePointsToDistanceVolume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

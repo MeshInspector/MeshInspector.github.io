@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1Cuda" kind="namespace" language="C++">
     <compoundname>MR::Cuda</compoundname>
+    <innerclass refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" prot="public">MR::Cuda::ComputePointsToDistanceVolume</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1ComputeToolDistance" prot="public">MR::Cuda::ComputeToolDistance</innerclass>
     <innerclass refid="structMR_1_1Cuda_1_1DeviceInfo" prot="public">MR::Cuda::DeviceInfo</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1FastWindingNumber" prot="public">MR::Cuda::FastWindingNumber</innerclass>
@@ -356,6 +357,7 @@
       </memberdef>
       <member refid="group__GeneralGroup_1ga76d46e2388018a2bca5a72dfaefd30e9" kind="function"><name>pointsToDistanceVolume</name></member>
       <member refid="group__GeneralGroup_1ga2ca6e42153313ca635d7ea3e12d19bf0" kind="function"><name>pointsToDistanceVolumeByParts</name></member>
+      <member refid="group__GeneralGroup_1ga5cc55a97b581e01247749d0d7e6697a4" kind="function"><name>pointsToDistanceVolumeMemory</name></member>
       <member refid="group__GeneralGroup_1gab5f9490f820c7e7eb708e516e58d6e5a" kind="function"><name>computeSkyViewFactor</name></member>
       <member refid="group__GeneralGroup_1gaf763aea7896baa102ab7715278d93231" kind="function"><name>findSkyRays</name></member>
       <member refid="group__GeneralGroup_1ga07684cc6b916a645e4ed28757498d51a" kind="function"><name>negatePicture</name></member>

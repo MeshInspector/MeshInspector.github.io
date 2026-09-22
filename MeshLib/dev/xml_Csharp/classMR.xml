@@ -218,6 +218,7 @@
     <innerclass refid="classMR_1_1CombinedHistoryAction" prot="public">MR::CombinedHistoryAction</innerclass>
     <innerclass refid="classMR_1_1CompensateRadiusParams" prot="public">MR::CompensateRadiusParams</innerclass>
     <innerclass refid="classMR_1_1CompressZipSettings" prot="public">MR::CompressZipSettings</innerclass>
+    <innerclass refid="classMR_1_1ComputePointsToDistanceVolume" prot="public">MR::ComputePointsToDistanceVolume</innerclass>
     <innerclass refid="classMR_1_1ComputeSteepestDescentPathSettings" prot="public">MR::ComputeSteepestDescentPathSettings</innerclass>
     <innerclass refid="classMR_1_1ComputeSweptVolumeParameters" prot="public">MR::ComputeSweptVolumeParameters</innerclass>
     <innerclass refid="classMR_1_1Cone3ApproximationParams" prot="public">MR::Cone3ApproximationParams</innerclass>
@@ -358,6 +359,7 @@
     <innerclass refid="classMR_1_1Const__CombinedHistoryAction" prot="public">MR::Const_CombinedHistoryAction</innerclass>
     <innerclass refid="classMR_1_1Const__CompensateRadiusParams" prot="public">MR::Const_CompensateRadiusParams</innerclass>
     <innerclass refid="classMR_1_1Const__CompressZipSettings" prot="public">MR::Const_CompressZipSettings</innerclass>
+    <innerclass refid="classMR_1_1Const__ComputePointsToDistanceVolume" prot="public">MR::Const_ComputePointsToDistanceVolume</innerclass>
     <innerclass refid="classMR_1_1Const__ComputeSteepestDescentPathSettings" prot="public">MR::Const_ComputeSteepestDescentPathSettings</innerclass>
     <innerclass refid="classMR_1_1Const__ComputeSweptVolumeParameters" prot="public">MR::Const_ComputeSweptVolumeParameters</innerclass>
     <innerclass refid="classMR_1_1Const__Cone3ApproximationParams" prot="public">MR::Const_Cone3ApproximationParams</innerclass>
@@ -489,6 +491,9 @@
     <innerclass refid="classMR_1_1Const__Histogram" prot="public">MR::Const_Histogram</innerclass>
     <innerclass refid="classMR_1_1Const__HistoryAction" prot="public">MR::Const_HistoryAction</innerclass>
     <innerclass refid="classMR_1_1Const__HoleFillPlan" prot="public">MR::Const_HoleFillPlan</innerclass>
+    <innerclass refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume" prot="public">MR::Const_IComputePointsToDistanceFunctionVolume</innerclass>
+    <innerclass refid="classMR_1_1Const__IComputePointsToDistanceVolume" prot="public">MR::Const_IComputePointsToDistanceVolume</innerclass>
+    <innerclass refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts" prot="public">MR::Const_IComputePointsToDistanceVolumeByParts</innerclass>
     <innerclass refid="classMR_1_1Const__IComputeToolDistance" prot="public">MR::Const_IComputeToolDistance</innerclass>
     <innerclass refid="classMR_1_1Const__ICP" prot="public">MR::Const_ICP</innerclass>
     <innerclass refid="classMR_1_1Const__ICPGroupPair" prot="public">MR::Const_ICPGroupPair</innerclass>
@@ -1236,6 +1241,9 @@
     <innerclass refid="classMR_1_1Histogram" prot="public">MR::Histogram</innerclass>
     <innerclass refid="classMR_1_1HistoryAction" prot="public">MR::HistoryAction</innerclass>
     <innerclass refid="classMR_1_1HoleFillPlan" prot="public">MR::HoleFillPlan</innerclass>
+    <innerclass refid="classMR_1_1IComputePointsToDistanceFunctionVolume" prot="public">MR::IComputePointsToDistanceFunctionVolume</innerclass>
+    <innerclass refid="classMR_1_1IComputePointsToDistanceVolume" prot="public">MR::IComputePointsToDistanceVolume</innerclass>
+    <innerclass refid="classMR_1_1IComputePointsToDistanceVolumeByParts" prot="public">MR::IComputePointsToDistanceVolumeByParts</innerclass>
     <innerclass refid="classMR_1_1IComputeToolDistance" prot="public">MR::IComputeToolDistance</innerclass>
     <innerclass refid="classMR_1_1ICP" prot="public">MR::ICP</innerclass>
     <innerclass refid="classMR_1_1ICPGroupPair" prot="public">MR::ICPGroupPair</innerclass>
@@ -52326,7 +52334,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="440" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="440" bodyend="446"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="1222" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="1222" bodyend="1228"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad6c9c86d5a1a5bf5a38cdcfac2ae6816" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref></type>
@@ -52349,7 +52357,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="452" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="452" bodyend="455"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="1234" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="1234" bodyend="1237"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac8396a09e25598f5e13a6e565c9ab332" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref></type>
@@ -52439,7 +52447,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="469" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="469" bodyend="475"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="1251" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="1251" bodyend="1257"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aded9bfc7255db4ba61ac2de3d19147f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -52462,7 +52470,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="535" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="535" bodyend="541"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="479" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="479" bodyend="485"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a83063ce5c1b84221d9e3f548dc4a5994" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
@@ -95924,7 +95932,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="480" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="1262" column="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a37e776575a4c86c449981299dd8c51ce" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FunctionVolume._Underlying *</type>
@@ -95946,7 +95954,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="483" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="1265" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae1d28f6d09361ef86fa0de653087b1b2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRSimpleVolume_StdString._Underlying *</type>
@@ -95968,7 +95976,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="486" column="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="1268" column="73"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a360d0c80e0c3008f4884708f35c35c62" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
@@ -95990,7 +95998,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="546" column="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="490" column="65"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a35af08e71efd0dc9b1ea1f8507d1b906" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRFloatGrid_StdString._Underlying *</type>

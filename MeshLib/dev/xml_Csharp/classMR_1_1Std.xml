@@ -2,15 +2,17 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Std" kind="class" language="C#" prot="public">
     <compoundname>MR::Std</compoundname>
+    <innerclass refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume" prot="public">MR::Std::Const_SharedPtr_MRCudaComputePointsToDistanceVolume</innerclass>
     <innerclass refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber" prot="public">MR::Std::Const_SharedPtr_MRCudaFastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector" prot="public">MR::Std::Const_SharedPtr_MRCudaPointsToMeshProjector</innerclass>
+    <innerclass refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume" prot="public">MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</innerclass>
     <innerclass refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber" prot="public">MR::Std::SharedPtr_MRCudaFastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector" prot="public">MR::Std::SharedPtr_MRCudaPointsToMeshProjector</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_FastWindingNumber.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_FastWindingNumber.cs" bodystart="4" bodyend="404"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs" bodystart="4" bodyend="404"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IComputePointsToDistanceVolumeByParts" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::IComputePointsToDistanceVolumeByParts</compoundname>
+    <basecompoundref refid="classMR_1_1IComputePointsToDistanceVolume" prot="public" virt="non-virtual">MR::IComputePointsToDistanceVolume</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" prot="public" virt="non-virtual">MR::Cuda::ComputePointsToDistanceVolume</derivedcompoundref>
+    <includes refid="MRPointsToDistanceVolume_8h" local="no">MRVoxels/MRPointsToDistanceVolume.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga404c73c02106d686fb2ce09c629175f3" kind="typedef"><name>AddPartFunc</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga642f71517acfbedad1162035a8897735" kind="function"><name>computeByParts</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>complements <ref refid="classMR_1_1IComputePointsToDistanceVolume" kindref="compound">IComputePointsToDistanceVolume</ref> with computation in z-slabs, which needs less memory </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::Cuda::ComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1IComputePointsToDistanceVolume"/>
+      </node>
+      <node id="1">
+        <label>MR::IComputePointsToDistanceVolumeByParts</label>
+        <link refid="classMR_1_1IComputePointsToDistanceVolumeByParts"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::IComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1IComputePointsToDistanceVolume"/>
+      </node>
+      <node id="1">
+        <label>MR::IComputePointsToDistanceVolumeByParts</label>
+        <link refid="classMR_1_1IComputePointsToDistanceVolumeByParts"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRVoxels/MRPointsToDistanceVolume.h" line="67" column="1" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="68" bodyend="76"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga404c73c02106d686fb2ce09c629175f3" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceVolumeByParts</scope><name>AddPartFunc</name></member>
+      <member refid="group__GeneralGroup_1ga2f9d419cc2c5d5a588c2ddaeb688a945" prot="public" virt="pure-virtual"><scope>MR::IComputePointsToDistanceVolumeByParts</scope><name>canCompute</name></member>
+      <member refid="group__GeneralGroup_1ga41f7ac9cc9ec41fc318ad00ac825b400" prot="public" virt="pure-virtual"><scope>MR::IComputePointsToDistanceVolumeByParts</scope><name>compute</name></member>
+      <member refid="group__GeneralGroup_1ga642f71517acfbedad1162035a8897735" prot="public" virt="pure-virtual"><scope>MR::IComputePointsToDistanceVolumeByParts</scope><name>computeByParts</name></member>
+      <member refid="group__GeneralGroup_1ga67274dda6d9ec6a0263bf60088e56409" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceVolumeByParts</scope><name>IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1gafc49f649f23fb34e2e05dcf81db7c98e" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceVolumeByParts</scope><name>IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1ga49203c87a1e3771957b9d06a2d5fbd6b" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceVolumeByParts</scope><name>IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1ga3eb6e32c91c150d4fed57d55b4a55eae" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceVolumeByParts</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gac21a82abf4c9db8c0cccce6aebd53a87" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceVolumeByParts</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga2856066855e764964a0455777c34ddd2" prot="public" virt="virtual"><scope>MR::IComputePointsToDistanceVolumeByParts</scope><name>~IComputePointsToDistanceVolume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

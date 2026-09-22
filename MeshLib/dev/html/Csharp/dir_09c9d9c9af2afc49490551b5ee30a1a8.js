@@ -11,6 +11,7 @@ var dir_09c9d9c9af2afc49490551b5ee30a1a8 =
     [ "MRCudaSolarRadiation.cs", "MRCudaSolarRadiation_8cs.html", "MRCudaSolarRadiation_8cs" ],
     [ "MRCudaSweptVolume.cs", "MRCudaSweptVolume_8cs.html", "MRCudaSweptVolume_8cs" ],
     [ "MRCudaTest.cs", "MRCudaTest_8cs.html", "MRCudaTest_8cs" ],
+    [ "std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs", "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8cs.html", "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8cs" ],
     [ "std_shared_ptr_MR_Cuda_FastWindingNumber.cs", "std__shared__ptr__MR__Cuda__FastWindingNumber_8cs.html", "std__shared__ptr__MR__Cuda__FastWindingNumber_8cs" ],
     [ "std_shared_ptr_MR_Cuda_PointsToMeshProjector.cs", "std__shared__ptr__MR__Cuda__PointsToMeshProjector_8cs.html", "std__shared__ptr__MR__Cuda__PointsToMeshProjector_8cs" ]
 ];

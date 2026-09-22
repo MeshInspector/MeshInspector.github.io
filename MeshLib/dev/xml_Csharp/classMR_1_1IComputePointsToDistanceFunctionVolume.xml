@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IComputePointsToDistanceFunctionVolume" kind="class" language="C#" prot="public">
+    <compoundname>MR::IComputePointsToDistanceFunctionVolume</compoundname>
+    <basecompoundref refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume" prot="public" virt="non-virtual">MR.Const_IComputePointsToDistanceFunctionVolume</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1IComputePointsToDistanceFunctionVolume_1a40bd1b4a36abc271c97dec8a30172d8a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.IComputePointsToDistanceFunctionVolume.operator MR.IComputePointsToDistanceVolume</definition>
+        <argsstring>(IComputePointsToDistanceFunctionVolume self)</argsstring>
+        <name>operator MR.IComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.IComputePointsToDistanceFunctionVolume.operator MR.IComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1IComputePointsToDistanceFunctionVolume" kindref="compound">IComputePointsToDistanceFunctionVolume</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="843" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="843" bodyend="848"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IComputePointsToDistanceFunctionVolume_1a1638b4352c7b62037c760fdfd319b346" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.IComputePointsToDistanceFunctionVolume.operator IComputePointsToDistanceFunctionVolume?</definition>
+        <argsstring>(MR.IComputePointsToDistanceVolume parent)</argsstring>
+        <name>operator IComputePointsToDistanceFunctionVolume?</name>
+        <qualifiedname>MR.IComputePointsToDistanceFunctionVolume.operator IComputePointsToDistanceFunctionVolume?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1IComputePointsToDistanceVolume" kindref="compound">MR.IComputePointsToDistanceVolume</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="851" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="851" bodyend="858"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1IComputePointsToDistanceFunctionVolume_1a61b5261858acf4f19c54d4a2087ed830" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.IComputePointsToDistanceFunctionVolume.IComputePointsToDistanceFunctionVolume</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>IComputePointsToDistanceFunctionVolume</name>
+        <qualifiedname>MR.IComputePointsToDistanceFunctionVolume.IComputePointsToDistanceFunctionVolume</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="860" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="860" bodyend="860"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1IComputePointsToDistanceFunctionVolume_1a2843a7b2cf1f318ae6ea53a636e5b815" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe _Underlying *</type>
+        <definition>static unsafe _Underlying * MR.IComputePointsToDistanceFunctionVolume.__MR_IComputePointsToDistanceFunctionVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</definition>
+        <argsstring>(MR.IComputePointsToDistanceVolume._Underlying *_this)</argsstring>
+        <name>__MR_IComputePointsToDistanceFunctionVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.IComputePointsToDistanceFunctionVolume.__MR_IComputePointsToDistanceFunctionVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>MR.IComputePointsToDistanceVolume._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="865" column="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IComputePointsToDistanceFunctionVolume_1ad80149de57593ec23661fb6af65bff37" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.IComputePointsToDistanceVolume._Underlying *</type>
+        <definition>static unsafe MR.IComputePointsToDistanceVolume._Underlying * MR.IComputePointsToDistanceFunctionVolume.__MR_IComputePointsToDistanceFunctionVolume_UpcastTo_MR_IComputePointsToDistanceVolume</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_IComputePointsToDistanceFunctionVolume_UpcastTo_MR_IComputePointsToDistanceVolume</name>
+        <qualifiedname>MR.IComputePointsToDistanceFunctionVolume.__MR_IComputePointsToDistanceFunctionVolume_UpcastTo_MR_IComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="868" column="74"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>complements <ref refid="classMR_1_1IComputePointsToDistanceVolume" kindref="compound">IComputePointsToDistanceVolume</ref> with a lazily evaluated volume, which needs the least memory since the consumer evaluates only the voxels it reads Generated from class <computeroutput><ref refid="classMR_1_1IComputePointsToDistanceFunctionVolume" kindref="compound">MR.IComputePointsToDistanceFunctionVolume</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1IComputePointsToDistanceVolume" kindref="compound">MR.IComputePointsToDistanceVolume</ref></computeroutput> Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ComputePointsToDistanceVolume" kindref="compound">MR.ComputePointsToDistanceVolume</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.IComputePointsToDistanceFunctionVolume</label>
+        <link refid="classMR_1_1IComputePointsToDistanceFunctionVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_IComputePointsToDistanceFunctionVolume</label>
+        <link refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.IComputePointsToDistanceFunctionVolume</label>
+        <link refid="classMR_1_1IComputePointsToDistanceFunctionVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_IComputePointsToDistanceFunctionVolume</label>
+        <link refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="840" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="841" bodyend="869"/>
+    <listofallmembers>
+      <member refid="classMR_1_1IComputePointsToDistanceFunctionVolume_1a2843a7b2cf1f318ae6ea53a636e5b815" prot="private" virt="non-virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>__MR_IComputePointsToDistanceFunctionVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1IComputePointsToDistanceFunctionVolume_1ad80149de57593ec23661fb6af65bff37" prot="private" virt="non-virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>__MR_IComputePointsToDistanceFunctionVolume_UpcastTo_MR_IComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1ac0be0f36e0427586034cadb79401b98c" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>canCompute</name></member>
+      <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1ac45fe4bd11c70df5a3456a076fbf16f8" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>compute</name></member>
+      <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1af056755b02ba4fe9e571c8d96a21803f" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>computeFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1ac843b95d2d5093293094e9bc7df1c548" prot="package" virt="non-virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>Const_IComputePointsToDistanceFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1a42113799489a8cfb475909f72372a1b4" prot="protected" virt="virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1a2e38f8b2c538d4d5e60e9856c69a5340" prot="public" virt="virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1IComputePointsToDistanceFunctionVolume_1a61b5261858acf4f19c54d4a2087ed830" prot="package" virt="non-virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>IComputePointsToDistanceFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1abc8f446feb2a8cef390a9de955ad4618" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>operator Const_IComputePointsToDistanceFunctionVolume?</name></member>
+      <member refid="classMR_1_1IComputePointsToDistanceFunctionVolume_1a1638b4352c7b62037c760fdfd319b346" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>operator IComputePointsToDistanceFunctionVolume?</name></member>
+      <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1ae2462be0baabc62e6c0dd073fbf02821" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>operator MR.Const_IComputePointsToDistanceVolume</name></member>
+      <member refid="classMR_1_1IComputePointsToDistanceFunctionVolume_1a40bd1b4a36abc271c97dec8a30172d8a" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceFunctionVolume</scope><name>operator MR.IComputePointsToDistanceVolume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

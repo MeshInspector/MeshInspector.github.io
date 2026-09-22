@@ -627,6 +627,9 @@ var hierarchy =
       [ "MR.Const_CompressZipSettings", "classMR_1_1Const__CompressZipSettings.html", [
         [ "MR.CompressZipSettings", "classMR_1_1CompressZipSettings.html", null ]
       ] ],
+      [ "MR.Const_ComputePointsToDistanceVolume", "classMR_1_1Const__ComputePointsToDistanceVolume.html", [
+        [ "MR.ComputePointsToDistanceVolume", "classMR_1_1ComputePointsToDistanceVolume.html", null ]
+      ] ],
       [ "MR.Const_ComputeSteepestDescentPathSettings", "classMR_1_1Const__ComputeSteepestDescentPathSettings.html", [
         [ "MR.ComputeSteepestDescentPathSettings", "classMR_1_1ComputeSteepestDescentPathSettings.html", null ]
       ] ],
@@ -1062,6 +1065,15 @@ var hierarchy =
       ] ],
       [ "MR.Const_ICPProperties", "classMR_1_1Const__ICPProperties.html", [
         [ "MR.ICPProperties", "classMR_1_1ICPProperties.html", null ]
+      ] ],
+      [ "MR.Const_IComputePointsToDistanceFunctionVolume", "classMR_1_1Const__IComputePointsToDistanceFunctionVolume.html", [
+        [ "MR.IComputePointsToDistanceFunctionVolume", "classMR_1_1IComputePointsToDistanceFunctionVolume.html", null ]
+      ] ],
+      [ "MR.Const_IComputePointsToDistanceVolume", "classMR_1_1Const__IComputePointsToDistanceVolume.html", [
+        [ "MR.IComputePointsToDistanceVolume", "classMR_1_1IComputePointsToDistanceVolume.html", null ]
+      ] ],
+      [ "MR.Const_IComputePointsToDistanceVolumeByParts", "classMR_1_1Const__IComputePointsToDistanceVolumeByParts.html", [
+        [ "MR.IComputePointsToDistanceVolumeByParts", "classMR_1_1IComputePointsToDistanceVolumeByParts.html", null ]
       ] ],
       [ "MR.Const_IComputeToolDistance", "classMR_1_1Const__IComputeToolDistance.html", [
         [ "MR.IComputeToolDistance", "classMR_1_1IComputeToolDistance.html", null ]
@@ -2756,6 +2768,9 @@ var hierarchy =
       [ "MR.Const_ZlibParams", "classMR_1_1Const__ZlibParams.html", [
         [ "MR.ZlibParams", "classMR_1_1ZlibParams.html", null ]
       ] ],
+      [ "MR.Cuda.Const_ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume.html", [
+        [ "MR.Cuda.ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html", null ]
+      ] ],
       [ "MR.Cuda.Const_ComputeToolDistance", "classMR_1_1Cuda_1_1Const__ComputeToolDistance.html", [
         [ "MR.Cuda.ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", null ]
       ] ],
@@ -2995,6 +3010,9 @@ var hierarchy =
       ] ],
       [ "MR.SelfIntersections.Const_Settings", "classMR_1_1SelfIntersections_1_1Const__Settings.html", [
         [ "MR.SelfIntersections.Settings", "classMR_1_1SelfIntersections_1_1Settings.html", null ]
+      ] ],
+      [ "MR.Std.Const_SharedPtr_MRCudaComputePointsToDistanceVolume", "classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume.html", [
+        [ "MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume", "classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html", null ]
       ] ],
       [ "MR.Std.Const_SharedPtr_MRCudaFastWindingNumber", "classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber.html", [
         [ "MR.Std.SharedPtr_MRCudaFastWindingNumber", "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html", null ]
@@ -3761,6 +3779,7 @@ var hierarchy =
       [ "MR.Const_CombinedHistoryAction", "classMR_1_1Const__CombinedHistoryAction.html", null ],
       [ "MR.Const_CompensateRadiusParams", "classMR_1_1Const__CompensateRadiusParams.html", null ],
       [ "MR.Const_CompressZipSettings", "classMR_1_1Const__CompressZipSettings.html", null ],
+      [ "MR.Const_ComputePointsToDistanceVolume", "classMR_1_1Const__ComputePointsToDistanceVolume.html", null ],
       [ "MR.Const_ComputeSteepestDescentPathSettings", "classMR_1_1Const__ComputeSteepestDescentPathSettings.html", null ],
       [ "MR.Const_ComputeSweptVolumeParameters", "classMR_1_1Const__ComputeSweptVolumeParameters.html", null ],
       [ "MR.Const_Cone3ApproximationParams", "classMR_1_1Const__Cone3ApproximationParams.html", null ],
@@ -3907,6 +3926,9 @@ var hierarchy =
       [ "MR.Const_ICPGroupPairs", "classMR_1_1Const__ICPGroupPairs.html", null ],
       [ "MR.Const_ICPPairData", "classMR_1_1Const__ICPPairData.html", null ],
       [ "MR.Const_ICPProperties", "classMR_1_1Const__ICPProperties.html", null ],
+      [ "MR.Const_IComputePointsToDistanceFunctionVolume", "classMR_1_1Const__IComputePointsToDistanceFunctionVolume.html", null ],
+      [ "MR.Const_IComputePointsToDistanceVolume", "classMR_1_1Const__IComputePointsToDistanceVolume.html", null ],
+      [ "MR.Const_IComputePointsToDistanceVolumeByParts", "classMR_1_1Const__IComputePointsToDistanceVolumeByParts.html", null ],
       [ "MR.Const_IComputeToolDistance", "classMR_1_1Const__IComputeToolDistance.html", null ],
       [ "MR.Const_IFastWindingNumber", "classMR_1_1Const__IFastWindingNumber.html", null ],
       [ "MR.Const_IFastWindingNumberByParts", "classMR_1_1Const__IFastWindingNumberByParts.html", null ],
@@ -4478,6 +4500,7 @@ var hierarchy =
       [ "MR.Const_ZlibCompressParams", "classMR_1_1Const__ZlibCompressParams.html", null ],
       [ "MR.Const_ZlibCompressStats", "classMR_1_1Const__ZlibCompressStats.html", null ],
       [ "MR.Const_ZlibParams", "classMR_1_1Const__ZlibParams.html", null ],
+      [ "MR.Cuda.Const_ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume.html", null ],
       [ "MR.Cuda.Const_ComputeToolDistance", "classMR_1_1Cuda_1_1Const__ComputeToolDistance.html", null ],
       [ "MR.Cuda.Const_DeviceInfo", "classMR_1_1Cuda_1_1Const__DeviceInfo.html", null ],
       [ "MR.Cuda.Const_FastWindingNumber", "classMR_1_1Cuda_1_1Const__FastWindingNumber.html", null ],
@@ -4558,6 +4581,7 @@ var hierarchy =
       [ "MR.SceneLoad.Const_Settings", "classMR_1_1SceneLoad_1_1Const__Settings.html", null ],
       [ "MR.SceneSave.Const_Settings", "classMR_1_1SceneSave_1_1Const__Settings.html", null ],
       [ "MR.SelfIntersections.Const_Settings", "classMR_1_1SelfIntersections_1_1Const__Settings.html", null ],
+      [ "MR.Std.Const_SharedPtr_MRCudaComputePointsToDistanceVolume", "classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume.html", null ],
       [ "MR.Std.Const_SharedPtr_MRCudaFastWindingNumber", "classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber.html", null ],
       [ "MR.Std.Const_SharedPtr_MRCudaPointsToMeshProjector", "classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector.html", null ],
       [ "MR.TriangulationHelpers.Const_FanOptimizerQueueElement", "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html", null ],

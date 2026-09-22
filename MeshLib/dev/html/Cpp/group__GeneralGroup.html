@@ -262,6 +262,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AOpenRawVoxelsPlugin" id="r_MR_3A_3AOpenRawVoxelsPlugin"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1OpenRawVoxelsPlugin.html">MR::OpenRawVoxelsPlugin</a></td></tr>
 <tr class="memitem:MR_3A_3ACuda_3A_3ADeviceInfo" id="r_MR_3A_3ACuda_3A_3ADeviceInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Cuda_1_1DeviceInfo.html">MR::Cuda::DeviceInfo</a></td></tr>
 <tr class="memitem:MR_3A_3ACuda_3A_3AFastWindingNumber" id="r_MR_3A_3ACuda_3A_3AFastWindingNumber"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR::Cuda::FastWindingNumber</a></td></tr>
+<tr class="memitem:MR_3A_3ACuda_3A_3AComputePointsToDistanceVolume" id="r_MR_3A_3ACuda_3A_3AComputePointsToDistanceVolume"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html">MR::Cuda::ComputePointsToDistanceVolume</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">CUDA implementation of <a class="el" href="classMR_1_1IComputePointsToDistanceVolumeByParts.html" title="complements IComputePointsToDistanceVolume with computation in z-slabs, which needs less memory">IComputePointsToDistanceVolumeByParts</a>.  <a href="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AEmbeddedPython" id="r_MR_3A_3AEmbeddedPython"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1EmbeddedPython.html">MR::EmbeddedPython</a></td></tr>
 <tr class="memitem:MR_3A_3AEmbeddedPython_3A_3AConfig" id="r_MR_3A_3AEmbeddedPython_3A_3AConfig"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EmbeddedPython_1_1Config.html">MR::EmbeddedPython::Config</a></td></tr>
 <tr class="memitem:MR_3A_3AMeshSave_3A_3ACtmSaveOptions" id="r_MR_3A_3AMeshSave_3A_3ACtmSaveOptions"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></td></tr>
@@ -1357,6 +1359,12 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ARangeCounter_3C_20TreeT_20_3E" id="r_MR_3A_3ARangeCounter_3C_20TreeT_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeCounter.html">MR::RangeCounter&lt; TreeT &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">functor to calculate tile and leaf valid nodes count  <a href="classMR_1_1RangeCounter.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3APointsToDistanceVolumeParams" id="r_MR_3A_3APointsToDistanceVolumeParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></td></tr>
+<tr class="memitem:MR_3A_3AIComputePointsToDistanceVolume" id="r_MR_3A_3AIComputePointsToDistanceVolume"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">MR::IComputePointsToDistanceVolume</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">abstract class for computing a volume of signed distances to points with normals  <a href="classMR_1_1IComputePointsToDistanceVolume.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AIComputePointsToDistanceVolumeByParts" id="r_MR_3A_3AIComputePointsToDistanceVolumeByParts"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IComputePointsToDistanceVolumeByParts.html">MR::IComputePointsToDistanceVolumeByParts</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">complements <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> with computation in z-slabs, which needs less memory  <a href="classMR_1_1IComputePointsToDistanceVolumeByParts.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AIComputePointsToDistanceFunctionVolume" id="r_MR_3A_3AIComputePointsToDistanceFunctionVolume"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IComputePointsToDistanceFunctionVolume.html">MR::IComputePointsToDistanceFunctionVolume</a></td></tr>
+<tr class="memitem:MR_3A_3AComputePointsToDistanceVolume" id="r_MR_3A_3AComputePointsToDistanceVolume"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ComputePointsToDistanceVolume.html">MR::ComputePointsToDistanceVolume</a></td></tr>
 <tr class="memitem:MR_3A_3APointsToMeshParameters" id="r_MR_3A_3APointsToMeshParameters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></td></tr>
 <tr class="memitem:MR_3A_3APolylineToDistanceVolumeParams" id="r_MR_3A_3APolylineToDistanceVolumeParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineToDistanceVolumeParams.html">MR::PolylineToDistanceVolumeParams</a></td></tr>
 <tr class="memitem:MR_3A_3APolylineToVolumeParams" id="r_MR_3A_3APolylineToVolumeParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineToVolumeParams.html">MR::PolylineToVolumeParams</a></td></tr>
@@ -1836,8 +1844,8 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:gab238a79ac9e6bdc05ebc7d4799c5afd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns specific implementation of <a class="el" href="classMR_1_1IPointsToMeshProjector.html" title="Abstract class, computes the closest point on mesh to each of given points. Pure virtual functions mu...">IPointsToMeshProjector</a> interface projects on GPU.  <br /></td></tr>
 <tr class="memitem:gaed0df442f81500a1fcba3ff380f44190" id="r_gaed0df442f81500a1fcba3ff380f44190"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaed0df442f81500a1fcba3ff380f44190">MR::CudaAccessor::CudaPointsProjectorConstructor</a> = std::function&lt;std::unique_ptr&lt;<a class="el" href="classMR_1_1IPointsProjector.html">IPointsProjector</a>&gt;()&gt;</td></tr>
 <tr class="memdesc:gaed0df442f81500a1fcba3ff380f44190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns specific implementation of <a class="el" href="classMR_1_1IPointsProjector.html" title="abstract class for computing the closest points of point clouds">IPointsProjector</a> interface projects on GPU.  <br /></td></tr>
-<tr class="memitem:ga7acccf65074e9ea99f88143c0ba0816a" id="r_ga7acccf65074e9ea99f88143c0ba0816a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7acccf65074e9ea99f88143c0ba0816a">MR::CudaAccessor::CudaPointsToDistanceVolumeCallback</a> = std::function&lt;<a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a>&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt;</td></tr>
-<tr class="memitem:gab4da14893aa8c8e22579f15c1bb64991" id="r_gab4da14893aa8c8e22579f15c1bb64991"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab4da14893aa8c8e22579f15c1bb64991">MR::CudaAccessor::CudaPointsToDistanceVolumeByPartsCallback</a> = std::function&lt;<a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params, std::function&lt;<a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt; ( const <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a>&amp; <a class="el" href="#ga20e9ae03dbf954625936ada6b2cbcf60">volume</a>, int zOffset )&gt; addPart, int layerOverlap )&gt;</td></tr>
+<tr class="memitem:ga85794d3b294b977202e9957c174b7a27" id="r_ga85794d3b294b977202e9957c174b7a27"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga85794d3b294b977202e9957c174b7a27">MR::CudaAccessor::CudaComputePointsToDistanceVolumeConstructor</a> = std::function&lt;std::unique_ptr&lt;<a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a>&gt;()&gt;</td></tr>
+<tr class="memdesc:ga85794d3b294b977202e9957c174b7a27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns specific implementation of <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html" title="abstract class for computing a volume of signed distances to points with normals">IComputePointsToDistanceVolume</a> interface that computes on GPU.  <br /></td></tr>
 <tr class="memitem:ga20534546f2d694b2e2c2687832828ae2" id="r_ga20534546f2d694b2e2c2687832828ae2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga20534546f2d694b2e2c2687832828ae2">MR::CudaAccessor::CudaComputeToolDistanceConstructor</a> = std::function&lt;std::unique_ptr&lt;<a class="el" href="classMR_1_1IComputeToolDistance.html">IComputeToolDistance</a>&gt;()&gt;</td></tr>
 <tr class="memdesc:ga20534546f2d694b2e2c2687832828ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns specific implementation of <a class="el" href="classMR_1_1IComputeToolDistance.html" title="Interface for custom tool distance computation implementations.">IComputeToolDistance</a> interface that computes on GPU.  <br /></td></tr>
 <tr class="memitem:gaa01b946f8079c3f2095a1fb5b019e275" id="r_gaa01b946f8079c3f2095a1fb5b019e275"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa01b946f8079c3f2095a1fb5b019e275">MR::DirectionWidget::OnDirectionChangedCallback</a> = std::function&lt;void( const Vector3f&amp;, bool )&gt;</td></tr>
@@ -1994,6 +2002,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga6348660687ee746c78a3e76ef7565eb8" id="r_ga6348660687ee746c78a3e76ef7565eb8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6348660687ee746c78a3e76ef7565eb8">MR::RangeCounter&lt; TreeT &gt;::TreeAccessor</a> = openvdb::tree::ValueAccessor&lt;const TreeT&gt;</td></tr>
 <tr class="memitem:ga2843b3697415f694e48b3921d0b244d8" id="r_ga2843b3697415f694e48b3921d0b244d8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2843b3697415f694e48b3921d0b244d8">MR::RangeCounter&lt; TreeT &gt;::LeafIterT</a> = typename TreeT::LeafCIter</td></tr>
 <tr class="memitem:ga310cccaba672fdf60cd4fd64f7718b2e" id="r_ga310cccaba672fdf60cd4fd64f7718b2e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga310cccaba672fdf60cd4fd64f7718b2e">MR::RangeCounter&lt; TreeT &gt;::TileIterT</a> = typename TreeT::ValueAllCIter</td></tr>
+<tr class="memitem:ga404c73c02106d686fb2ce09c629175f3" id="r_ga404c73c02106d686fb2ce09c629175f3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga404c73c02106d686fb2ce09c629175f3">MR::IComputePointsToDistanceVolumeByParts::AddPartFunc</a> = std::function&lt;<a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a>&amp; <a class="el" href="#ga20e9ae03dbf954625936ada6b2cbcf60">volume</a>, int zOffset )&gt;</td></tr>
+<tr class="memdesc:ga404c73c02106d686fb2ce09c629175f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets one z-slab of the volume, starting at z-layer zOffset  <br /></td></tr>
 <tr class="memitem:ga4aa7048d9cefc5a963d3583190bea7e1" id="r_ga4aa7048d9cefc5a963d3583190bea7e1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4aa7048d9cefc5a963d3583190bea7e1">MR::TeethMaskToDirectionVolumeConvertor::DirectionVolume</a> = std::array&lt;<a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a>, 3&gt;</td></tr>
 <tr class="memdesc:ga4aa7048d9cefc5a963d3583190bea7e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">See <a class="el" href="#ga0752e5390277bae84ef50d8e1f0a5db9">meshToDirectionVolume</a> for details.  <br /></td></tr>
 <tr class="memitem:gab8d79139c35fd5b34335c70d5386092b" id="r_gab8d79139c35fd5b34335c70d5386092b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab8d79139c35fd5b34335c70d5386092b">MR::VoxelsVolumeInterpolatedAccessor&lt; Accessor &gt;::VolumeType</a> = typename Accessor::VolumeType</td></tr>
@@ -3383,6 +3393,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga76d46e2388018a2bca5a72dfaefd30e9" id="r_ga76d46e2388018a2bca5a72dfaefd30e9"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">MR::SimpleVolumeMinMax</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga76d46e2388018a2bca5a72dfaefd30e9">MR::Cuda::pointsToDistanceVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ga76d46e2388018a2bca5a72dfaefd30e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes SimpleVolume filled with signed distances to points with normals  <br /></td></tr>
 <tr class="memitem:ga2ca6e42153313ca635d7ea3e12d19bf0" id="r_ga2ca6e42153313ca635d7ea3e12d19bf0"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2ca6e42153313ca635d7ea3e12d19bf0">MR::Cuda::pointsToDistanceVolumeByParts</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params, std::function&lt; <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a> &amp;<a class="el" href="#ga20e9ae03dbf954625936ada6b2cbcf60">volume</a>, int zOffset)&gt; addPart, int layerOverlap)</td></tr>
+<tr class="memitem:ga5cc55a97b581e01247749d0d7e6697a4" id="r_ga5cc55a97b581e01247749d0d7e6697a4"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5cc55a97b581e01247749d0d7e6697a4">MR::Cuda::pointsToDistanceVolumeMemory</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const Vector3i &amp;dims, const VertNormals *ptNormals)</td></tr>
+<tr class="memdesc:ga5cc55a97b581e01247749d0d7e6697a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the minimal amount of free GPU memory required to build a distance volume with given dimensions  <br /></td></tr>
+<tr class="memitem:ga4ab69dfa734440add0aac0ba35d79944" id="r_ga4ab69dfa734440add0aac0ba35d79944"><td class="memItemLeft" align="right" valign="top">MRCUDA_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4ab69dfa734440add0aac0ba35d79944">MR::Cuda::ComputePointsToDistanceVolume::canCompute</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params) const override</td></tr>
+<tr class="memitem:ga9316c01f6ad60e94fe21976a56638bc0" id="r_ga9316c01f6ad60e94fe21976a56638bc0"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">MR::SimpleVolumeMinMax</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9316c01f6ad60e94fe21976a56638bc0">MR::Cuda::ComputePointsToDistanceVolume::compute</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params) const override</td></tr>
+<tr class="memitem:ga45cb6b5925c44133a1659e0e91ea32a7" id="r_ga45cb6b5925c44133a1659e0e91ea32a7"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga45cb6b5925c44133a1659e0e91ea32a7">MR::Cuda::ComputePointsToDistanceVolume::computeByParts</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params, <a class="el" href="#ga404c73c02106d686fb2ce09c629175f3">AddPartFunc</a> addPart, int layerOverlap) const override</td></tr>
+<tr class="memdesc:ga45cb6b5925c44133a1659e0e91ea32a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes the volume by z-slabs, passing each of them in addPart with layerOverlap layers shared by neighbours  <br /></td></tr>
 <tr class="memitem:gab5f9490f820c7e7eb708e516e58d6e5a" id="r_gab5f9490f820c7e7eb708e516e58d6e5a"><td class="memItemLeft" align="right" valign="top">MRCUDA_API VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab5f9490f820c7e7eb708e516e58d6e5a">MR::Cuda::computeSkyViewFactor</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const VertCoords &amp;samples, const VertBitSet &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> *outSkyRays=nullptr, std::vector&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
 <tr class="memitem:gaf763aea7896baa102ab7715278d93231" id="r_gaf763aea7896baa102ab7715278d93231"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf763aea7896baa102ab7715278d93231">MR::Cuda::findSkyRays</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const VertCoords &amp;samples, const VertBitSet &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, std::vector&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
 <tr class="memitem:ga07684cc6b916a645e4ed28757498d51a" id="r_ga07684cc6b916a645e4ed28757498d51a"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga07684cc6b916a645e4ed28757498d51a">MR::Cuda::negatePicture</a> (<a class="el" href="structMR_1_1Image.html">MR::Image</a> &amp;image)</td></tr>
@@ -8795,8 +8811,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gad23dbaff6cee17143b7f1612f4946e53" id="r_gad23dbaff6cee17143b7f1612f4946e53"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad23dbaff6cee17143b7f1612f4946e53">MR::CudaAccessor::setCudaFastWindingNumberConstructor</a> (<a class="el" href="#ga29c59af2c526ce1b2b126dd201c3a7fb">CudaFwnConstructor</a> fwnCtor)</td></tr>
 <tr class="memitem:ga8ff4539752a1f32e8bb694b59d3ad7c9" id="r_ga8ff4539752a1f32e8bb694b59d3ad7c9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8ff4539752a1f32e8bb694b59d3ad7c9">MR::CudaAccessor::setCudaMeshProjectorConstructor</a> (<a class="el" href="#gab238a79ac9e6bdc05ebc7d4799c5afd9">CudaMeshProjectorConstructor</a> mpCtor)</td></tr>
 <tr class="memitem:ga6d1f993628da75eed086f0a5e5face9c" id="r_ga6d1f993628da75eed086f0a5e5face9c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6d1f993628da75eed086f0a5e5face9c">MR::CudaAccessor::setCudaPointsProjectorConstructor</a> (<a class="el" href="#gaed0df442f81500a1fcba3ff380f44190">CudaPointsProjectorConstructor</a> ppCtor)</td></tr>
-<tr class="memitem:ga75ddb851bf9adb202f0db1e2c8e83881" id="r_ga75ddb851bf9adb202f0db1e2c8e83881"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75ddb851bf9adb202f0db1e2c8e83881">MR::CudaAccessor::setCudaPointsToDistanceVolumeCallback</a> (<a class="el" href="#ga7acccf65074e9ea99f88143c0ba0816a">CudaPointsToDistanceVolumeCallback</a> callback)</td></tr>
-<tr class="memitem:gae1eaf97b826883a102c1af2dc6c677d0" id="r_gae1eaf97b826883a102c1af2dc6c677d0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae1eaf97b826883a102c1af2dc6c677d0">MR::CudaAccessor::setCudaPointsToDistanceVolumeByPartsCallback</a> (<a class="el" href="#gab4da14893aa8c8e22579f15c1bb64991">CudaPointsToDistanceVolumeByPartsCallback</a> callback)</td></tr>
+<tr class="memitem:gaac350e2f8ed053dc407f7e0a36a2f224" id="r_gaac350e2f8ed053dc407f7e0a36a2f224"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaac350e2f8ed053dc407f7e0a36a2f224">MR::CudaAccessor::setCudaComputePointsToDistanceVolumeConstructor</a> (<a class="el" href="#ga85794d3b294b977202e9957c174b7a27">CudaComputePointsToDistanceVolumeConstructor</a> cpdvCtor)</td></tr>
 <tr class="memitem:ga95d2cb91e636f24ca7eea28c365c0c85" id="r_ga95d2cb91e636f24ca7eea28c365c0c85"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga95d2cb91e636f24ca7eea28c365c0c85">MR::CudaAccessor::setCudaComputeToolDistanceConstructor</a> (<a class="el" href="#ga20534546f2d694b2e2c2687832828ae2">CudaComputeToolDistanceConstructor</a> ctdCtor)</td></tr>
 <tr class="memitem:ga18e4dd8df9ae57ff46b02500ff1ab77b" id="r_ga18e4dd8df9ae57ff46b02500ff1ab77b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga18e4dd8df9ae57ff46b02500ff1ab77b">MR::CudaAccessor::isCudaSupportedByPlarform</a> ()</td></tr>
 <tr class="memitem:ga1e1a116ba946f8c03a9d5921847b0a10" id="r_ga1e1a116ba946f8c03a9d5921847b0a10"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1e1a116ba946f8c03a9d5921847b0a10">MR::CudaAccessor::isCudaAvailable</a> ()</td></tr>
@@ -8817,10 +8832,8 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memdesc:gaf41cece2c27e29cabb2f9933f8214d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cuda implementation of <a class="el" href="classMR_1_1IPointsToMeshProjector.html" title="Abstract class, computes the closest point on mesh to each of given points. Pure virtual functions mu...">IPointsToMeshProjector</a>.  <br /></td></tr>
 <tr class="memitem:ga4451b1fc3c59b88da807d0aec38e1c18" id="r_ga4451b1fc3c59b88da807d0aec38e1c18"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classMR_1_1IPointsProjector.html">IPointsProjector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4451b1fc3c59b88da807d0aec38e1c18">MR::CudaAccessor::getCudaPointsProjector</a> ()</td></tr>
 <tr class="memdesc:ga4451b1fc3c59b88da807d0aec38e1c18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cuda implementation of <a class="el" href="classMR_1_1IPointsProjector.html" title="abstract class for computing the closest points of point clouds">IPointsProjector</a>.  <br /></td></tr>
-<tr class="memitem:gac1939931888d9ee533e9e5817c8c7f6e" id="r_gac1939931888d9ee533e9e5817c8c7f6e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ga7acccf65074e9ea99f88143c0ba0816a">CudaPointsToDistanceVolumeCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac1939931888d9ee533e9e5817c8c7f6e">MR::CudaAccessor::getCudaPointsToDistanceVolumeCallback</a> ()</td></tr>
-<tr class="memdesc:gac1939931888d9ee533e9e5817c8c7f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cuda implementation of PointsToDistanceVolumeCallback.  <br /></td></tr>
-<tr class="memitem:ga2f2555ad8d3608347d33805c76bad5db" id="r_ga2f2555ad8d3608347d33805c76bad5db"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#gab4da14893aa8c8e22579f15c1bb64991">CudaPointsToDistanceVolumeByPartsCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2f2555ad8d3608347d33805c76bad5db">MR::CudaAccessor::getCudaPointsToDistanceVolumeByPartsCallback</a> ()</td></tr>
-<tr class="memdesc:ga2f2555ad8d3608347d33805c76bad5db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cuda implementation of PointsToDistanceVolumeByPartsCallback.  <br /></td></tr>
+<tr class="memitem:ga1339236f1387a74417bc30306a1eae6e" id="r_ga1339236f1387a74417bc30306a1eae6e"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1339236f1387a74417bc30306a1eae6e">MR::CudaAccessor::getCudaComputePointsToDistanceVolume</a> ()</td></tr>
+<tr class="memdesc:ga1339236f1387a74417bc30306a1eae6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cuda implementation of <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html" title="abstract class for computing a volume of signed distances to points with normals">IComputePointsToDistanceVolume</a>.  <br /></td></tr>
 <tr class="memitem:gaaf379405e9817ae1be1c950e0ae3e530" id="r_gaaf379405e9817ae1be1c950e0ae3e530"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classMR_1_1IComputeToolDistance.html">IComputeToolDistance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaf379405e9817ae1be1c950e0ae3e530">MR::CudaAccessor::getCudaComputeToolDistance</a> ()</td></tr>
 <tr class="memdesc:gaaf379405e9817ae1be1c950e0ae3e530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns CUDA implementation of <a class="el" href="classMR_1_1IComputeToolDistance.html" title="Interface for custom tool distance computation implementations.">IComputeToolDistance</a>.  <br /></td></tr>
 <tr class="memitem:gaff07b352e194a264a7e89683eddf0bab" id="r_gaff07b352e194a264a7e89683eddf0bab"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaff07b352e194a264a7e89683eddf0bab">MR::CudaAccessor::fastWindingNumberMeshMemory</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
@@ -8829,8 +8842,6 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memdesc:ga976cccca7b374641ff03ff0c8579efea"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required GPU memory for CudaFastWindingNumber::calcFromVector operation  <br /></td></tr>
 <tr class="memitem:ga1ef2d3f6b02b98c6e246b17431752127" id="r_ga1ef2d3f6b02b98c6e246b17431752127"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1ef2d3f6b02b98c6e246b17431752127">MR::CudaAccessor::selfIntersectionsMemory</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:ga1ef2d3f6b02b98c6e246b17431752127"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required GPU memory for CudaFastWindingNumber::calcSelfIntersections operation  <br /></td></tr>
-<tr class="memitem:gaf256c0dc65f9c1c49975ec3166fa6554" id="r_gaf256c0dc65f9c1c49975ec3166fa6554"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf256c0dc65f9c1c49975ec3166fa6554">MR::CudaAccessor::pointsToDistanceVolumeMemory</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Vector3i &amp;dims, const VertNormals *ptNormals)</td></tr>
-<tr class="memdesc:gaf256c0dc65f9c1c49975ec3166fa6554"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required GPU memory for <a class="el" href="#ga76d46e2388018a2bca5a72dfaefd30e9" title="makes SimpleVolume filled with signed distances to points with normals">Cuda::pointsToDistanceVolume</a>  <br /></td></tr>
 <tr class="memitem:gad27509c52d0c34930eecbe2402a7b67a" id="r_gad27509c52d0c34930eecbe2402a7b67a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad27509c52d0c34930eecbe2402a7b67a">MR::DemoPlugin::init</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *_viewer) override</td></tr>
 <tr class="memdesc:gad27509c52d0c34930eecbe2402a7b67a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called when the viewer is initialized (no mesh will be loaded at this stage)  <br /></td></tr>
 <tr class="memitem:gacd32f890433198b52a7b6117717c11f5" id="r_gacd32f890433198b52a7b6117717c11f5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacd32f890433198b52a7b6117717c11f5">MR::DemoPlugin::shutdown</a> () override</td></tr>
@@ -11606,6 +11617,25 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memdesc:ga70392e4bbce2674ece793e6e25a120ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes SimpleVolume filled with signed distances to points with normals  <br /></td></tr>
 <tr class="memitem:ga815886dfa1babcbedc85b059e1e66fec" id="r_ga815886dfa1babcbedc85b059e1e66fec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga5874284dcde0853181cfc5bf3366981d">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga815886dfa1babcbedc85b059e1e66fec">MR::pointsToDistanceFunctionVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ga815886dfa1babcbedc85b059e1e66fec"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes FunctionVolume representing signed distances to points with normals  <br /></td></tr>
+<tr class="memitem:ga67274dda6d9ec6a0263bf60088e56409" id="r_ga67274dda6d9ec6a0263bf60088e56409"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga67274dda6d9ec6a0263bf60088e56409">MR::IComputePointsToDistanceVolume::IComputePointsToDistanceVolume</a> ()=default</td></tr>
+<tr class="memdesc:ga67274dda6d9ec6a0263bf60088e56409"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly define ctors to avoid warning C5267: definition of implicit copy constructor is deprecated because it has a user-provided destructor  <br /></td></tr>
+<tr class="memitem:gafc49f649f23fb34e2e05dcf81db7c98e" id="r_gafc49f649f23fb34e2e05dcf81db7c98e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafc49f649f23fb34e2e05dcf81db7c98e">MR::IComputePointsToDistanceVolume::IComputePointsToDistanceVolume</a> (const <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &amp;)=default</td></tr>
+<tr class="memitem:ga49203c87a1e3771957b9d06a2d5fbd6b" id="r_ga49203c87a1e3771957b9d06a2d5fbd6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga49203c87a1e3771957b9d06a2d5fbd6b">MR::IComputePointsToDistanceVolume::IComputePointsToDistanceVolume</a> (<a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &amp;&amp;) noexcept=default</td></tr>
+<tr class="memitem:ga3eb6e32c91c150d4fed57d55b4a55eae" id="r_ga3eb6e32c91c150d4fed57d55b4a55eae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3eb6e32c91c150d4fed57d55b4a55eae">MR::IComputePointsToDistanceVolume::operator=</a> (const <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &amp;)=default</td></tr>
+<tr class="memitem:gac21a82abf4c9db8c0cccce6aebd53a87" id="r_gac21a82abf4c9db8c0cccce6aebd53a87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac21a82abf4c9db8c0cccce6aebd53a87">MR::IComputePointsToDistanceVolume::operator=</a> (<a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &amp;&amp;) noexcept=default</td></tr>
+<tr class="memitem:ga2856066855e764964a0455777c34ddd2" id="r_ga2856066855e764964a0455777c34ddd2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2856066855e764964a0455777c34ddd2">MR::IComputePointsToDistanceVolume::~IComputePointsToDistanceVolume</a> ()=default</td></tr>
+<tr class="memitem:ga2f9d419cc2c5d5a588c2ddaeb688a945" id="r_ga2f9d419cc2c5d5a588c2ddaeb688a945"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2f9d419cc2c5d5a588c2ddaeb688a945">MR::IComputePointsToDistanceVolume::canCompute</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params) const =0</td></tr>
+<tr class="memdesc:ga2f9d419cc2c5d5a588c2ddaeb688a945"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether this implementation can process given input, e.g. it fits in GPU memory  <br /></td></tr>
+<tr class="memitem:ga41f7ac9cc9ec41fc318ad00ac825b400" id="r_ga41f7ac9cc9ec41fc318ad00ac825b400"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga41f7ac9cc9ec41fc318ad00ac825b400">MR::IComputePointsToDistanceVolume::compute</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params) const =0</td></tr>
+<tr class="memitem:ga642f71517acfbedad1162035a8897735" id="r_ga642f71517acfbedad1162035a8897735"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga642f71517acfbedad1162035a8897735">MR::IComputePointsToDistanceVolumeByParts::computeByParts</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params, <a class="el" href="#ga404c73c02106d686fb2ce09c629175f3">AddPartFunc</a> addPart, int layerOverlap) const =0</td></tr>
+<tr class="memdesc:ga642f71517acfbedad1162035a8897735"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes the volume by z-slabs, passing each of them in addPart with layerOverlap layers shared by neighbours  <br /></td></tr>
+<tr class="memitem:ga152e3fe43cb6e11f7ff1dd0c10b57369" id="r_ga152e3fe43cb6e11f7ff1dd0c10b57369"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga5874284dcde0853181cfc5bf3366981d">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga152e3fe43cb6e11f7ff1dd0c10b57369">MR::IComputePointsToDistanceFunctionVolume::computeFunctionVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params) const =0</td></tr>
+<tr class="memdesc:ga152e3fe43cb6e11f7ff1dd0c10b57369"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes a volume evaluated on demand; it is valid as long as cloud and params are alive  <br /></td></tr>
+<tr class="memitem:ga312e027f6b14321c1e5af193fc587217" id="r_ga312e027f6b14321c1e5af193fc587217"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga312e027f6b14321c1e5af193fc587217">MR::ComputePointsToDistanceVolume::canCompute</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params) const override</td></tr>
+<tr class="memdesc:ga312e027f6b14321c1e5af193fc587217"><td class="mdescLeft">&#160;</td><td class="mdescRight">see methods' descriptions in the interfaces above  <br /></td></tr>
+<tr class="memitem:ga5215aa00e754507c0beebad13b90d508" id="r_ga5215aa00e754507c0beebad13b90d508"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5215aa00e754507c0beebad13b90d508">MR::ComputePointsToDistanceVolume::compute</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params) const override</td></tr>
+<tr class="memitem:gab532a0db10593ce68ea887ded46fb244" id="r_gab532a0db10593ce68ea887ded46fb244"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga5874284dcde0853181cfc5bf3366981d">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab532a0db10593ce68ea887ded46fb244">MR::ComputePointsToDistanceVolume::computeFunctionVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params) const override</td></tr>
+<tr class="memdesc:gab532a0db10593ce68ea887ded46fb244"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes a volume evaluated on demand; it is valid as long as cloud and params are alive  <br /></td></tr>
 <tr class="memitem:ga43c5eff589bf8b66beca99dac171b10c" id="r_ga43c5eff589bf8b66beca99dac171b10c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertColors &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga43c5eff589bf8b66beca99dac171b10c">MR::calcAvgColors</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const VertColors &amp;colors, const VertCoords &amp;tgtPoints, const VertBitSet &amp;tgtVerts, float sigma, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memitem:ga8385dbd13a04c7841be48a4d0ad477dc" id="r_ga8385dbd13a04c7841be48a4d0ad477dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8385dbd13a04c7841be48a4d0ad477dc">MR::pointsToMeshFusion</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToMeshParameters.html">PointsToMeshParameters</a> &amp;params)</td></tr>
 <tr class="memitem:gaeae108f3ba396aeb02e9f2365ca6fe4e" id="r_gaeae108f3ba396aeb02e9f2365ca6fe4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeae108f3ba396aeb02e9f2365ca6fe4e">MR::polylineToDistanceField</a> (const Polyline3 &amp;polyline, const <a class="el" href="structMR_1_1PolylineToDistanceVolumeParams.html">PolylineToDistanceVolumeParams</a> &amp;params)</td></tr>
@@ -14897,7 +14927,7 @@ Variables</h2></td></tr>
 <tr class="memitem:ga274559a52cc5261e0889ea85b133b605" id="r_ga274559a52cc5261e0889ea85b133b605"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga274559a52cc5261e0889ea85b133b605">MR::PointsToDistanceVolumeParams::sqrtAngleWeight</a> { false }</td></tr>
 <tr class="memitem:ga6253a7998223b8c2a5fffd0092b5883b" id="r_ga6253a7998223b8c2a5fffd0092b5883b"><td class="memItemLeft" align="right" valign="top">const VertNormals *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6253a7998223b8c2a5fffd0092b5883b">MR::PointsToDistanceVolumeParams::ptNormals</a> = nullptr</td></tr>
 <tr class="memdesc:ga6253a7998223b8c2a5fffd0092b5883b"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional input: if this pointer is set then function will use these normals instead of ones present in cloud  <br /></td></tr>
-<tr class="memitem:ga8fb48f274f70639a9be5fdadbbf8224e" id="r_ga8fb48f274f70639a9be5fdadbbf8224e"><td class="memItemLeft" align="right" valign="top">MR_BIND_PREFER_UNLOCK_GIL_WHEN_USED_AS_PARAM float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8fb48f274f70639a9be5fdadbbf8224e">MR::PointsToMeshParameters::sigma</a> = 1</td></tr>
+<tr class="memitem:ga3b8a586729f91eac7c41aea0f4e22e06" id="r_ga3b8a586729f91eac7c41aea0f4e22e06"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3b8a586729f91eac7c41aea0f4e22e06">MR::PointsToMeshParameters::sigma</a> = 1</td></tr>
 <tr class="memitem:ga3bdeb5a4cdd00fc36ce6089cede17c0b" id="r_ga3bdeb5a4cdd00fc36ce6089cede17c0b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3bdeb5a4cdd00fc36ce6089cede17c0b">MR::PointsToMeshParameters::minWeight</a> = 1</td></tr>
 <tr class="memdesc:ga3bdeb5a4cdd00fc36ce6089cede17c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity  <br /></td></tr>
 <tr class="memitem:ga233f40339195db2ce32c5bd0ff6fcba3" id="r_ga233f40339195db2ce32c5bd0ff6fcba3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga233f40339195db2ce32c5bd0ff6fcba3">MR::PointsToMeshParameters::invSigmaModifier</a> = 0.5f</td></tr>
@@ -14909,11 +14939,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga72818af22d20fbdc8695061a8dd48c85"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: averaged colors of mesh vertices  <br /></td></tr>
 <tr class="memitem:ga1f8072d5242c289b8aa4c442285102e2" id="r_ga1f8072d5242c289b8aa4c442285102e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1f8072d5242c289b8aa4c442285102e2">MR::PointsToMeshParameters::progress</a></td></tr>
 <tr class="memdesc:ga1f8072d5242c289b8aa4c442285102e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress callback.  <br /></td></tr>
-<tr class="memitem:gab87c2a1f3fa531fdd137e32dd33c1267" id="r_gab87c2a1f3fa531fdd137e32dd33c1267"><td class="memItemLeft" align="right" valign="top">std::function&lt; <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params, std::function&lt; <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;(const <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a> &amp;<a class="el" href="#ga20e9ae03dbf954625936ada6b2cbcf60">volume</a>, int zOffset)&gt; addPart, int layerOverlap)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab87c2a1f3fa531fdd137e32dd33c1267">MR::PointsToMeshParameters::createVolumeCallbackByParts</a></td></tr>
-<tr class="memitem:ga79ea998979bc61c402e801d6a82b292d" id="r_ga79ea998979bc61c402e801d6a82b292d"><td class="memItemLeft" align="right" valign="top">std::function&lt; <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a> &gt;(const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga79ea998979bc61c402e801d6a82b292d">MR::PointsToMeshParameters::createVolumeCallback</a></td></tr>
-<tr class="memdesc:ga79ea998979bc61c402e801d6a82b292d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for volume creation. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function.  <br /></td></tr>
-<tr class="memitem:gac61d0ecf32889b1131e50a2bbe6e852c" id="r_gac61d0ecf32889b1131e50a2bbe6e852c"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac61d0ecf32889b1131e50a2bbe6e852c">MR::PointsToMeshParameters::canCreateVolume</a></td></tr>
-<tr class="memdesc:gac61d0ecf32889b1131e50a2bbe6e852c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for checking whether it's possible to use the volume creation function.  <br /></td></tr>
+<tr class="memitem:gae1649f1af31f2e1b92a4d50a1ef97011" id="r_gae1649f1af31f2e1b92a4d50a1ef97011"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae1649f1af31f2e1b92a4d50a1ef97011">MR::PointsToMeshParameters::computeVolume</a></td></tr>
 <tr class="memitem:ga6960b88843f2b683f6dbca4f21e82e86" id="r_ga6960b88843f2b683f6dbca4f21e82e86"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6960b88843f2b683f6dbca4f21e82e86">MR::PolylineToDistanceVolumeParams::voxelSize</a> = Vector3f::diagonal( 1.f )</td></tr>
 <tr class="memitem:gab8af98052b328483ec0a8dbdb0cedee6" id="r_gab8af98052b328483ec0a8dbdb0cedee6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab8af98052b328483ec0a8dbdb0cedee6">MR::PolylineToDistanceVolumeParams::offsetCount</a> = 3</td></tr>
 <tr class="memdesc:gab8af98052b328483ec0a8dbdb0cedee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">offsetCount - the number of voxels around polyline to calculate distance in (should be positive)  <br /></td></tr>
@@ -16192,6 +16218,22 @@ Friends</h2></td></tr>
 </div>
 </div>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="ga404c73c02106d686fb2ce09c629175f3" name="ga404c73c02106d686fb2ce09c629175f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga404c73c02106d686fb2ce09c629175f3">&#9670;&#160;</a></span>AddPartFunc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga404c73c02106d686fb2ce09c629175f3">MR::IComputePointsToDistanceVolumeByParts::AddPartFunc</a> = std::function&lt;<a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a>&amp; <a class="el" href="#ga20e9ae03dbf954625936ada6b2cbcf60">volume</a>, int zOffset )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>gets one z-slab of the volume, starting at z-layer zOffset </p>
+
+</div>
+</div>
 <a id="ga3f1bf05cffb6426258d558c4159e11bc" name="ga3f1bf05cffb6426258d558c4159e11bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3f1bf05cffb6426258d558c4159e11bc">&#9670;&#160;</a></span>AffineXf2OrPlaceholder</h2>
 
@@ -17309,6 +17351,22 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga85794d3b294b977202e9957c174b7a27" name="ga85794d3b294b977202e9957c174b7a27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga85794d3b294b977202e9957c174b7a27">&#9670;&#160;</a></span>CudaComputePointsToDistanceVolumeConstructor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga85794d3b294b977202e9957c174b7a27">MR::CudaAccessor::CudaComputePointsToDistanceVolumeConstructor</a> = std::function&lt;std::unique_ptr&lt;<a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a>&gt;()&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns specific implementation of <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html" title="abstract class for computing a volume of signed distances to points with normals">IComputePointsToDistanceVolume</a> interface that computes on GPU. </p>
+
+</div>
+</div>
 <a id="ga20534546f2d694b2e2c2687832828ae2" name="ga20534546f2d694b2e2c2687832828ae2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga20534546f2d694b2e2c2687832828ae2">&#9670;&#160;</a></span>CudaComputeToolDistanceConstructor</h2>
 
@@ -17386,34 +17444,6 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns specific implementation of <a class="el" href="classMR_1_1IPointsProjector.html" title="abstract class for computing the closest points of point clouds">IPointsProjector</a> interface projects on GPU. </p>
-
-</div>
-</div>
-<a id="gab4da14893aa8c8e22579f15c1bb64991" name="gab4da14893aa8c8e22579f15c1bb64991"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab4da14893aa8c8e22579f15c1bb64991">&#9670;&#160;</a></span>CudaPointsToDistanceVolumeByPartsCallback</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#gab4da14893aa8c8e22579f15c1bb64991">MR::CudaAccessor::CudaPointsToDistanceVolumeByPartsCallback</a> = std::function&lt;<a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params, std::function&lt;<a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt; ( const <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a>&amp; <a class="el" href="#ga20e9ae03dbf954625936ada6b2cbcf60">volume</a>, int zOffset )&gt; addPart, int layerOverlap )&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga7acccf65074e9ea99f88143c0ba0816a" name="ga7acccf65074e9ea99f88143c0ba0816a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7acccf65074e9ea99f88143c0ba0816a">&#9670;&#160;</a></span>CudaPointsToDistanceVolumeCallback</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ga7acccf65074e9ea99f88143c0ba0816a">MR::CudaAccessor::CudaPointsToDistanceVolumeCallback</a> = std::function&lt;<a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a>&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -41164,6 +41194,110 @@ template&lt;class HistoryActionType&gt; </div>
 
 </div>
 </div>
+<a id="ga312e027f6b14321c1e5af193fc587217" name="ga312e027f6b14321c1e5af193fc587217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga312e027f6b14321c1e5af193fc587217">&#9670;&#160;</a></span>canCompute() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::ComputePointsToDistanceVolume::canCompute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
+
+<p>see methods' descriptions in the interfaces above </p>
+
+<p>Implements <a class="el" href="#ga2f9d419cc2c5d5a588c2ddaeb688a945">MR::IComputePointsToDistanceVolume</a>.</p>
+
+</div>
+</div>
+<a id="ga4ab69dfa734440add0aac0ba35d79944" name="ga4ab69dfa734440add0aac0ba35d79944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4ab69dfa734440add0aac0ba35d79944">&#9670;&#160;</a></span>canCompute() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRCUDA_API bool MR::Cuda::ComputePointsToDistanceVolume::canCompute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCudaPointsToDistanceVolume_8h.html">MRCuda/MRCudaPointsToDistanceVolume.h</a>&gt;</code></p>
+<p>see methods' descriptions in the <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html" title="abstract class for computing a volume of signed distances to points with normals">MR::IComputePointsToDistanceVolume</a> interfaces both <a class="el" href="#ga9316c01f6ad60e94fe21976a56638bc0">compute()</a> and <a class="el" href="#ga45cb6b5925c44133a1659e0e91ea32a7" title="makes the volume by z-slabs, passing each of them in addPart with layerOverlap layers shared by neigh...">computeByParts()</a> upload the same data and process the grid in chunks sized to the free GPU memory, so this answers for either of them </p>
+
+<p>Implements <a class="el" href="#ga2f9d419cc2c5d5a588c2ddaeb688a945">MR::IComputePointsToDistanceVolume</a>.</p>
+
+</div>
+</div>
+<a id="ga2f9d419cc2c5d5a588c2ddaeb688a945" name="ga2f9d419cc2c5d5a588c2ddaeb688a945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f9d419cc2c5d5a588c2ddaeb688a945">&#9670;&#160;</a></span>canCompute() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool MR::IComputePointsToDistanceVolume::canCompute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
+
+<p>whether this implementation can process given input, e.g. it fits in GPU memory </p>
+
+<p>Implemented in <a class="el" href="#ga312e027f6b14321c1e5af193fc587217">MR::ComputePointsToDistanceVolume</a>, and <a class="el" href="#ga4ab69dfa734440add0aac0ba35d79944">MR::Cuda::ComputePointsToDistanceVolume</a>.</p>
+
+</div>
+</div>
 <a id="gaa40348ce85a4b0c87fffec966a71d952" name="gaa40348ce85a4b0c87fffec966a71d952"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaa40348ce85a4b0c87fffec966a71d952">&#9670;&#160;</a></span>canConsumeEvent()</h2>
 
@@ -47759,6 +47893,108 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga5215aa00e754507c0beebad13b90d508" name="ga5215aa00e754507c0beebad13b90d508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5215aa00e754507c0beebad13b90d508">&#9670;&#160;</a></span>compute() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a> &gt; MR::ComputePointsToDistanceVolume::compute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
+<p>makes the whole volume at once, which needs the entire grid in memory; the derived interfaces below offer cheaper ways to obtain the same data </p>
+
+<p>Implements <a class="el" href="#ga41f7ac9cc9ec41fc318ad00ac825b400">MR::IComputePointsToDistanceVolume</a>.</p>
+
+</div>
+</div>
+<a id="ga9316c01f6ad60e94fe21976a56638bc0" name="ga9316c01f6ad60e94fe21976a56638bc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9316c01f6ad60e94fe21976a56638bc0">&#9670;&#160;</a></span>compute() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">MR::SimpleVolumeMinMax</a> &gt; MR::Cuda::ComputePointsToDistanceVolume::compute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCudaPointsToDistanceVolume_8h.html">MRCuda/MRCudaPointsToDistanceVolume.h</a>&gt;</code></p>
+<p>makes the whole volume at once, which needs the entire grid in memory; the derived interfaces below offer cheaper ways to obtain the same data </p>
+
+<p>Implements <a class="el" href="#ga41f7ac9cc9ec41fc318ad00ac825b400">MR::IComputePointsToDistanceVolume</a>.</p>
+
+</div>
+</div>
+<a id="ga41f7ac9cc9ec41fc318ad00ac825b400" name="ga41f7ac9cc9ec41fc318ad00ac825b400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga41f7ac9cc9ec41fc318ad00ac825b400">&#9670;&#160;</a></span>compute() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a> &gt; MR::IComputePointsToDistanceVolume::compute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
+<p>makes the whole volume at once, which needs the entire grid in memory; the derived interfaces below offer cheaper ways to obtain the same data </p>
+
+<p>Implemented in <a class="el" href="#ga5215aa00e754507c0beebad13b90d508">MR::ComputePointsToDistanceVolume</a>, and <a class="el" href="#ga9316c01f6ad60e94fe21976a56638bc0">MR::Cuda::ComputePointsToDistanceVolume</a>.</p>
+
+</div>
+</div>
 <a id="ga5394483e9a5aeeeaecfb824fdf5be72d" name="ga5394483e9a5aeeeaecfb824fdf5be72d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga5394483e9a5aeeeaecfb824fdf5be72d">&#9670;&#160;</a></span>computeAngle()</h2>
 
@@ -48072,6 +48308,96 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRObjectPointsHolder_8h.html">MRMesh/MRObjectPointsHolder.h</a>&gt;</code></p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a4e27182996ebf22fc42c7d1ebf6cf02b">MR::VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="ga45cb6b5925c44133a1659e0e91ea32a7" name="ga45cb6b5925c44133a1659e0e91ea32a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga45cb6b5925c44133a1659e0e91ea32a7">&#9670;&#160;</a></span>computeByParts() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::Cuda::ComputePointsToDistanceVolume::computeByParts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga404c73c02106d686fb2ce09c629175f3">AddPartFunc</a></td>          <td class="paramname"><span class="paramname"><em>addPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>layerOverlap</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCudaPointsToDistanceVolume_8h.html">MRCuda/MRCudaPointsToDistanceVolume.h</a>&gt;</code></p>
+
+<p>makes the volume by z-slabs, passing each of them in addPart with layerOverlap layers shared by neighbours </p>
+
+<p>Implements <a class="el" href="#ga642f71517acfbedad1162035a8897735">MR::IComputePointsToDistanceVolumeByParts</a>.</p>
+
+</div>
+</div>
+<a id="ga642f71517acfbedad1162035a8897735" name="ga642f71517acfbedad1162035a8897735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga642f71517acfbedad1162035a8897735">&#9670;&#160;</a></span>computeByParts() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IComputePointsToDistanceVolumeByParts::computeByParts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga404c73c02106d686fb2ce09c629175f3">AddPartFunc</a></td>          <td class="paramname"><span class="paramname"><em>addPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>layerOverlap</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
+
+<p>makes the volume by z-slabs, passing each of them in addPart with layerOverlap layers shared by neighbours </p>
+
+<p>Implemented in <a class="el" href="#ga45cb6b5925c44133a1659e0e91ea32a7">MR::Cuda::ComputePointsToDistanceVolume</a>.</p>
 
 </div>
 </div>
@@ -48445,6 +48771,76 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="gab532a0db10593ce68ea887ded46fb244" name="gab532a0db10593ce68ea887ded46fb244"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab532a0db10593ce68ea887ded46fb244">&#9670;&#160;</a></span>computeFunctionVolume() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga5874284dcde0853181cfc5bf3366981d">FunctionVolume</a> MR::ComputePointsToDistanceVolume::computeFunctionVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
+
+<p>makes a volume evaluated on demand; it is valid as long as cloud and params are alive </p>
+
+<p>Implements <a class="el" href="#ga152e3fe43cb6e11f7ff1dd0c10b57369">MR::IComputePointsToDistanceFunctionVolume</a>.</p>
+
+</div>
+</div>
+<a id="ga152e3fe43cb6e11f7ff1dd0c10b57369" name="ga152e3fe43cb6e11f7ff1dd0c10b57369"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga152e3fe43cb6e11f7ff1dd0c10b57369">&#9670;&#160;</a></span>computeFunctionVolume() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="#ga5874284dcde0853181cfc5bf3366981d">FunctionVolume</a> MR::IComputePointsToDistanceFunctionVolume::computeFunctionVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
+
+<p>makes a volume evaluated on demand; it is valid as long as cloud and params are alive </p>
+
+<p>Implemented in <a class="el" href="#gab532a0db10593ce68ea887ded46fb244">MR::ComputePointsToDistanceVolume</a>.</p>
 
 </div>
 </div>
@@ -82414,6 +82810,35 @@ actually all zeros </p>
 
 </div>
 </div>
+<a id="ga1339236f1387a74417bc30306a1eae6e" name="ga1339236f1387a74417bc30306a1eae6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1339236f1387a74417bc30306a1eae6e">&#9670;&#160;</a></span>getCudaComputePointsToDistanceVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &gt; MR::CudaAccessor::getCudaComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCudaAccessor_8h.html">MRViewer/MRCudaAccessor.h</a>&gt;</code></p>
+
+<p>Returns cuda implementation of <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html" title="abstract class for computing a volume of signed distances to points with normals">IComputePointsToDistanceVolume</a>. </p>
+
+</div>
+</div>
 <a id="gaaf379405e9817ae1be1c950e0ae3e530" name="gaaf379405e9817ae1be1c950e0ae3e530"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaaf379405e9817ae1be1c950e0ae3e530">&#9670;&#160;</a></span>getCudaComputeToolDistance()</h2>
 
@@ -82556,64 +82981,6 @@ actually all zeros </p>
 <p><code>#include &lt;<a class="el" href="MRCudaAccessor_8h.html">MRViewer/MRCudaAccessor.h</a>&gt;</code></p>
 
 <p>Returns cuda implementation of <a class="el" href="classMR_1_1IPointsProjector.html" title="abstract class for computing the closest points of point clouds">IPointsProjector</a>. </p>
-
-</div>
-</div>
-<a id="ga2f2555ad8d3608347d33805c76bad5db" name="ga2f2555ad8d3608347d33805c76bad5db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2f2555ad8d3608347d33805c76bad5db">&#9670;&#160;</a></span>getCudaPointsToDistanceVolumeByPartsCallback()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#gab4da14893aa8c8e22579f15c1bb64991">CudaPointsToDistanceVolumeByPartsCallback</a> MR::CudaAccessor::getCudaPointsToDistanceVolumeByPartsCallback </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRCudaAccessor_8h.html">MRViewer/MRCudaAccessor.h</a>&gt;</code></p>
-
-<p>Returns cuda implementation of PointsToDistanceVolumeByPartsCallback. </p>
-
-</div>
-</div>
-<a id="gac1939931888d9ee533e9e5817c8c7f6e" name="gac1939931888d9ee533e9e5817c8c7f6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac1939931888d9ee533e9e5817c8c7f6e">&#9670;&#160;</a></span>getCudaPointsToDistanceVolumeCallback()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#ga7acccf65074e9ea99f88143c0ba0816a">CudaPointsToDistanceVolumeCallback</a> MR::CudaAccessor::getCudaPointsToDistanceVolumeCallback </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRCudaAccessor_8h.html">MRViewer/MRCudaAccessor.h</a>&gt;</code></p>
-
-<p>Returns cuda implementation of PointsToDistanceVolumeCallback. </p>
 
 </div>
 </div>
@@ -103597,6 +103964,89 @@ template&lt;typename... Args&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRObjectTransformWidget_8h.html">MRViewer/MRObjectTransformWidget.h</a>&gt;</code></p>
 <p>one have to implement this function it can change internal visualization and return currently hovered control </p>
+
+</div>
+</div>
+<a id="ga67274dda6d9ec6a0263bf60088e56409" name="ga67274dda6d9ec6a0263bf60088e56409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga67274dda6d9ec6a0263bf60088e56409">&#9670;&#160;</a></span>IComputePointsToDistanceVolume() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::IComputePointsToDistanceVolume::IComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
+
+<p>explicitly define ctors to avoid warning C5267: definition of implicit copy constructor is deprecated because it has a user-provided destructor </p>
+
+</div>
+</div>
+<a id="gafc49f649f23fb34e2e05dcf81db7c98e" name="gafc49f649f23fb34e2e05dcf81db7c98e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafc49f649f23fb34e2e05dcf81db7c98e">&#9670;&#160;</a></span>IComputePointsToDistanceVolume() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::IComputePointsToDistanceVolume::IComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga49203c87a1e3771957b9d06a2d5fbd6b" name="ga49203c87a1e3771957b9d06a2d5fbd6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga49203c87a1e3771957b9d06a2d5fbd6b">&#9670;&#160;</a></span>IComputePointsToDistanceVolume() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::IComputePointsToDistanceVolume::IComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -137899,7 +138349,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga070a922323be7efce55dd8c8690ea31f" name="ga070a922323be7efce55dd8c8690ea31f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga070a922323be7efce55dd8c8690ea31f">&#9670;&#160;</a></span>operator=() <span class="overload">[1/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga070a922323be7efce55dd8c8690ea31f">&#9670;&#160;</a></span>operator=() <span class="overload">[1/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137926,7 +138376,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga5420cacb7b0e5953d10f72c74ca8f91a" name="ga5420cacb7b0e5953d10f72c74ca8f91a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5420cacb7b0e5953d10f72c74ca8f91a">&#9670;&#160;</a></span>operator=() <span class="overload">[2/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5420cacb7b0e5953d10f72c74ca8f91a">&#9670;&#160;</a></span>operator=() <span class="overload">[2/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137953,7 +138403,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga1ca43fe7d75b0248f913382d597ca50c" name="ga1ca43fe7d75b0248f913382d597ca50c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1ca43fe7d75b0248f913382d597ca50c">&#9670;&#160;</a></span>operator=() <span class="overload">[3/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1ca43fe7d75b0248f913382d597ca50c">&#9670;&#160;</a></span>operator=() <span class="overload">[3/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137980,7 +138430,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga5b991fd73a28962d40fc9a290e1c806f" name="ga5b991fd73a28962d40fc9a290e1c806f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5b991fd73a28962d40fc9a290e1c806f">&#9670;&#160;</a></span>operator=() <span class="overload">[4/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5b991fd73a28962d40fc9a290e1c806f">&#9670;&#160;</a></span>operator=() <span class="overload">[4/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137999,7 +138449,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="gaecec1c034a47b9b7d102ba9bf6366869" name="gaecec1c034a47b9b7d102ba9bf6366869"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaecec1c034a47b9b7d102ba9bf6366869">&#9670;&#160;</a></span>operator=() <span class="overload">[5/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaecec1c034a47b9b7d102ba9bf6366869">&#9670;&#160;</a></span>operator=() <span class="overload">[5/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138026,7 +138476,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="gad9e371006af6a03a0cfe38eaeb705a44" name="gad9e371006af6a03a0cfe38eaeb705a44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad9e371006af6a03a0cfe38eaeb705a44">&#9670;&#160;</a></span>operator=() <span class="overload">[6/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad9e371006af6a03a0cfe38eaeb705a44">&#9670;&#160;</a></span>operator=() <span class="overload">[6/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138053,7 +138503,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga9b1ac7e192d228a673f6f986c31e3cc5" name="ga9b1ac7e192d228a673f6f986c31e3cc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9b1ac7e192d228a673f6f986c31e3cc5">&#9670;&#160;</a></span>operator=() <span class="overload">[7/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b1ac7e192d228a673f6f986c31e3cc5">&#9670;&#160;</a></span>operator=() <span class="overload">[7/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138082,7 +138532,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gacb1826dab20e4f01008b7f825c8e9ac5" name="gacb1826dab20e4f01008b7f825c8e9ac5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacb1826dab20e4f01008b7f825c8e9ac5">&#9670;&#160;</a></span>operator=() <span class="overload">[8/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacb1826dab20e4f01008b7f825c8e9ac5">&#9670;&#160;</a></span>operator=() <span class="overload">[8/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138111,7 +138561,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gae4cd26a146e8e880ab41c0d4a04df064" name="gae4cd26a146e8e880ab41c0d4a04df064"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae4cd26a146e8e880ab41c0d4a04df064">&#9670;&#160;</a></span>operator=() <span class="overload">[9/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae4cd26a146e8e880ab41c0d4a04df064">&#9670;&#160;</a></span>operator=() <span class="overload">[9/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138138,7 +138588,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gae03db3414263164b9321a4ed5d41838a" name="gae03db3414263164b9321a4ed5d41838a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae03db3414263164b9321a4ed5d41838a">&#9670;&#160;</a></span>operator=() <span class="overload">[10/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae03db3414263164b9321a4ed5d41838a">&#9670;&#160;</a></span>operator=() <span class="overload">[10/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138165,7 +138615,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga0f482dbbdc6658514696e4dc9294a58a" name="ga0f482dbbdc6658514696e4dc9294a58a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0f482dbbdc6658514696e4dc9294a58a">&#9670;&#160;</a></span>operator=() <span class="overload">[11/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0f482dbbdc6658514696e4dc9294a58a">&#9670;&#160;</a></span>operator=() <span class="overload">[11/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138192,7 +138642,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gaed2d23faa5e35c40c16b5ab5550ed022" name="gaed2d23faa5e35c40c16b5ab5550ed022"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaed2d23faa5e35c40c16b5ab5550ed022">&#9670;&#160;</a></span>operator=() <span class="overload">[12/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed2d23faa5e35c40c16b5ab5550ed022">&#9670;&#160;</a></span>operator=() <span class="overload">[12/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138219,7 +138669,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gae8bd5243efd5066d7b24657c23126e25" name="gae8bd5243efd5066d7b24657c23126e25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae8bd5243efd5066d7b24657c23126e25">&#9670;&#160;</a></span>operator=() <span class="overload">[13/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae8bd5243efd5066d7b24657c23126e25">&#9670;&#160;</a></span>operator=() <span class="overload">[13/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138246,7 +138696,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gafa02a2926481fdba8023d277e998fb15" name="gafa02a2926481fdba8023d277e998fb15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafa02a2926481fdba8023d277e998fb15">&#9670;&#160;</a></span>operator=() <span class="overload">[14/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa02a2926481fdba8023d277e998fb15">&#9670;&#160;</a></span>operator=() <span class="overload">[14/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138273,7 +138723,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga30e0967b694b072f61a810e93ccd63c6" name="ga30e0967b694b072f61a810e93ccd63c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga30e0967b694b072f61a810e93ccd63c6">&#9670;&#160;</a></span>operator=() <span class="overload">[15/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga30e0967b694b072f61a810e93ccd63c6">&#9670;&#160;</a></span>operator=() <span class="overload">[15/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138300,7 +138750,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga0e75b59b59d0598284793e8509995bfe" name="ga0e75b59b59d0598284793e8509995bfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0e75b59b59d0598284793e8509995bfe">&#9670;&#160;</a></span>operator=() <span class="overload">[16/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e75b59b59d0598284793e8509995bfe">&#9670;&#160;</a></span>operator=() <span class="overload">[16/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138327,7 +138777,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga9ca34a6881807130cc132c87a37daf12" name="ga9ca34a6881807130cc132c87a37daf12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9ca34a6881807130cc132c87a37daf12">&#9670;&#160;</a></span>operator=() <span class="overload">[17/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ca34a6881807130cc132c87a37daf12">&#9670;&#160;</a></span>operator=() <span class="overload">[17/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138354,7 +138804,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga05f06d3436cf85a666543f93bc516284" name="ga05f06d3436cf85a666543f93bc516284"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga05f06d3436cf85a666543f93bc516284">&#9670;&#160;</a></span>operator=() <span class="overload">[18/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga05f06d3436cf85a666543f93bc516284">&#9670;&#160;</a></span>operator=() <span class="overload">[18/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138383,7 +138833,7 @@ template&lt;typename R, typename... Args&gt; </div>
 </div>
 </div>
 <a id="ga4d911f9ae8f1bfe18be5cfe46e516ee4" name="ga4d911f9ae8f1bfe18be5cfe46e516ee4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4d911f9ae8f1bfe18be5cfe46e516ee4">&#9670;&#160;</a></span>operator=() <span class="overload">[19/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4d911f9ae8f1bfe18be5cfe46e516ee4">&#9670;&#160;</a></span>operator=() <span class="overload">[19/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138414,7 +138864,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="gaa86bea902bbc968c22771410b0e0e5b0" name="gaa86bea902bbc968c22771410b0e0e5b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa86bea902bbc968c22771410b0e0e5b0">&#9670;&#160;</a></span>operator=() <span class="overload">[20/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa86bea902bbc968c22771410b0e0e5b0">&#9670;&#160;</a></span>operator=() <span class="overload">[20/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138441,7 +138891,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="gac1f71cc8ecd3ae4b03b5b162ada7b3fa" name="gac1f71cc8ecd3ae4b03b5b162ada7b3fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac1f71cc8ecd3ae4b03b5b162ada7b3fa">&#9670;&#160;</a></span>operator=() <span class="overload">[21/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac1f71cc8ecd3ae4b03b5b162ada7b3fa">&#9670;&#160;</a></span>operator=() <span class="overload">[21/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138468,7 +138918,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="gac05f999428948991b9e2451bf4d1cf19" name="gac05f999428948991b9e2451bf4d1cf19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac05f999428948991b9e2451bf4d1cf19">&#9670;&#160;</a></span>operator=() <span class="overload">[22/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac05f999428948991b9e2451bf4d1cf19">&#9670;&#160;</a></span>operator=() <span class="overload">[22/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138495,7 +138945,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="ga04a1b44a9277a7f2dad9ca4c4ea14815" name="ga04a1b44a9277a7f2dad9ca4c4ea14815"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga04a1b44a9277a7f2dad9ca4c4ea14815">&#9670;&#160;</a></span>operator=() <span class="overload">[23/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga04a1b44a9277a7f2dad9ca4c4ea14815">&#9670;&#160;</a></span>operator=() <span class="overload">[23/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138521,8 +138971,62 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 
 </div>
 </div>
+<a id="ga3eb6e32c91c150d4fed57d55b4a55eae" name="ga3eb6e32c91c150d4fed57d55b4a55eae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3eb6e32c91c150d4fed57d55b4a55eae">&#9670;&#160;</a></span>operator=() <span class="overload">[24/77]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &amp; MR::IComputePointsToDistanceVolume::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gac21a82abf4c9db8c0cccce6aebd53a87" name="gac21a82abf4c9db8c0cccce6aebd53a87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac21a82abf4c9db8c0cccce6aebd53a87">&#9670;&#160;</a></span>operator=() <span class="overload">[25/77]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &amp; MR::IComputePointsToDistanceVolume::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gae172c477a54668981920e53b0b00f142" name="gae172c477a54668981920e53b0b00f142"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae172c477a54668981920e53b0b00f142">&#9670;&#160;</a></span>operator=() <span class="overload">[24/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae172c477a54668981920e53b0b00f142">&#9670;&#160;</a></span>operator=() <span class="overload">[26/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138549,7 +139053,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="gabb689ad7795aaeb7236800bec89a0cab" name="gabb689ad7795aaeb7236800bec89a0cab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabb689ad7795aaeb7236800bec89a0cab">&#9670;&#160;</a></span>operator=() <span class="overload">[25/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb689ad7795aaeb7236800bec89a0cab">&#9670;&#160;</a></span>operator=() <span class="overload">[27/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138576,7 +139080,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="gab45a73b14fac3dc080a3e99e4070de26" name="gab45a73b14fac3dc080a3e99e4070de26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab45a73b14fac3dc080a3e99e4070de26">&#9670;&#160;</a></span>operator=() <span class="overload">[26/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab45a73b14fac3dc080a3e99e4070de26">&#9670;&#160;</a></span>operator=() <span class="overload">[28/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138603,7 +139107,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="gab5915cce854bcb4f57f7e00bba6cb20e" name="gab5915cce854bcb4f57f7e00bba6cb20e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab5915cce854bcb4f57f7e00bba6cb20e">&#9670;&#160;</a></span>operator=() <span class="overload">[27/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab5915cce854bcb4f57f7e00bba6cb20e">&#9670;&#160;</a></span>operator=() <span class="overload">[29/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138630,7 +139134,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="ga0440d8357dd92c859ead3bb3c486be5e" name="ga0440d8357dd92c859ead3bb3c486be5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0440d8357dd92c859ead3bb3c486be5e">&#9670;&#160;</a></span>operator=() <span class="overload">[28/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0440d8357dd92c859ead3bb3c486be5e">&#9670;&#160;</a></span>operator=() <span class="overload">[30/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138657,7 +139161,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="ga8fbe26bcbe7891c7be47fb330920e3b4" name="ga8fbe26bcbe7891c7be47fb330920e3b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8fbe26bcbe7891c7be47fb330920e3b4">&#9670;&#160;</a></span>operator=() <span class="overload">[29/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8fbe26bcbe7891c7be47fb330920e3b4">&#9670;&#160;</a></span>operator=() <span class="overload">[31/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138687,7 +139191,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gabb7351b3a06553b474e90d20d68efc30" name="gabb7351b3a06553b474e90d20d68efc30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabb7351b3a06553b474e90d20d68efc30">&#9670;&#160;</a></span>operator=() <span class="overload">[30/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb7351b3a06553b474e90d20d68efc30">&#9670;&#160;</a></span>operator=() <span class="overload">[32/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138714,7 +139218,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gaccbf59471a9ce12f038a0358ae18405b" name="gaccbf59471a9ce12f038a0358ae18405b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaccbf59471a9ce12f038a0358ae18405b">&#9670;&#160;</a></span>operator=() <span class="overload">[31/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaccbf59471a9ce12f038a0358ae18405b">&#9670;&#160;</a></span>operator=() <span class="overload">[33/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138741,7 +139245,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gad1905b7160fa76212ab3913f59d132ce" name="gad1905b7160fa76212ab3913f59d132ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad1905b7160fa76212ab3913f59d132ce">&#9670;&#160;</a></span>operator=() <span class="overload">[32/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1905b7160fa76212ab3913f59d132ce">&#9670;&#160;</a></span>operator=() <span class="overload">[34/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138768,7 +139272,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga6079e4aac0a4e04a8055a9f639264096" name="ga6079e4aac0a4e04a8055a9f639264096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6079e4aac0a4e04a8055a9f639264096">&#9670;&#160;</a></span>operator=() <span class="overload">[33/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6079e4aac0a4e04a8055a9f639264096">&#9670;&#160;</a></span>operator=() <span class="overload">[35/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138795,7 +139299,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gadf86e3267eaf731978a882003b39b9b6" name="gadf86e3267eaf731978a882003b39b9b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadf86e3267eaf731978a882003b39b9b6">&#9670;&#160;</a></span>operator=() <span class="overload">[34/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadf86e3267eaf731978a882003b39b9b6">&#9670;&#160;</a></span>operator=() <span class="overload">[36/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138822,7 +139326,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga964bd7e09c026c38216e2e84b35c1422" name="ga964bd7e09c026c38216e2e84b35c1422"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga964bd7e09c026c38216e2e84b35c1422">&#9670;&#160;</a></span>operator=() <span class="overload">[35/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga964bd7e09c026c38216e2e84b35c1422">&#9670;&#160;</a></span>operator=() <span class="overload">[37/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138849,7 +139353,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga0e9dc3b13cbd0cb09a69c514d5291c09" name="ga0e9dc3b13cbd0cb09a69c514d5291c09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0e9dc3b13cbd0cb09a69c514d5291c09">&#9670;&#160;</a></span>operator=() <span class="overload">[36/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e9dc3b13cbd0cb09a69c514d5291c09">&#9670;&#160;</a></span>operator=() <span class="overload">[38/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138876,7 +139380,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga50aaf3757356ccffb73f014770fa24e4" name="ga50aaf3757356ccffb73f014770fa24e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga50aaf3757356ccffb73f014770fa24e4">&#9670;&#160;</a></span>operator=() <span class="overload">[37/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga50aaf3757356ccffb73f014770fa24e4">&#9670;&#160;</a></span>operator=() <span class="overload">[39/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138903,7 +139407,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gae26c6b747a929751fcc5ad90b70b9d66" name="gae26c6b747a929751fcc5ad90b70b9d66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae26c6b747a929751fcc5ad90b70b9d66">&#9670;&#160;</a></span>operator=() <span class="overload">[38/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae26c6b747a929751fcc5ad90b70b9d66">&#9670;&#160;</a></span>operator=() <span class="overload">[40/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138930,7 +139434,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga399c6bd6321c060f5c6faffab0095bed" name="ga399c6bd6321c060f5c6faffab0095bed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga399c6bd6321c060f5c6faffab0095bed">&#9670;&#160;</a></span>operator=() <span class="overload">[39/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga399c6bd6321c060f5c6faffab0095bed">&#9670;&#160;</a></span>operator=() <span class="overload">[41/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138957,7 +139461,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga90e2e79193a58687ce5b39eda75dba30" name="ga90e2e79193a58687ce5b39eda75dba30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga90e2e79193a58687ce5b39eda75dba30">&#9670;&#160;</a></span>operator=() <span class="overload">[40/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga90e2e79193a58687ce5b39eda75dba30">&#9670;&#160;</a></span>operator=() <span class="overload">[42/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138984,7 +139488,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga9b6725a731d27509c295fc3a0acd2bfd" name="ga9b6725a731d27509c295fc3a0acd2bfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9b6725a731d27509c295fc3a0acd2bfd">&#9670;&#160;</a></span>operator=() <span class="overload">[41/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b6725a731d27509c295fc3a0acd2bfd">&#9670;&#160;</a></span>operator=() <span class="overload">[43/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139011,7 +139515,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga5831e567d62ac9ac7959897b98ee75ae" name="ga5831e567d62ac9ac7959897b98ee75ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5831e567d62ac9ac7959897b98ee75ae">&#9670;&#160;</a></span>operator=() <span class="overload">[42/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5831e567d62ac9ac7959897b98ee75ae">&#9670;&#160;</a></span>operator=() <span class="overload">[44/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139038,7 +139542,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga704442d942ed959e077e867fd13df5ef" name="ga704442d942ed959e077e867fd13df5ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga704442d942ed959e077e867fd13df5ef">&#9670;&#160;</a></span>operator=() <span class="overload">[43/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga704442d942ed959e077e867fd13df5ef">&#9670;&#160;</a></span>operator=() <span class="overload">[45/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139065,7 +139569,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga2f2260ca64565ffbedc9236f28e19b98" name="ga2f2260ca64565ffbedc9236f28e19b98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2f2260ca64565ffbedc9236f28e19b98">&#9670;&#160;</a></span>operator=() <span class="overload">[44/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f2260ca64565ffbedc9236f28e19b98">&#9670;&#160;</a></span>operator=() <span class="overload">[46/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139092,7 +139596,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga4f6e5b9408dbe06b4b1b129238cc298e" name="ga4f6e5b9408dbe06b4b1b129238cc298e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4f6e5b9408dbe06b4b1b129238cc298e">&#9670;&#160;</a></span>operator=() <span class="overload">[45/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f6e5b9408dbe06b4b1b129238cc298e">&#9670;&#160;</a></span>operator=() <span class="overload">[47/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139119,7 +139623,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga9380ca590b2600cc64a333d4892f2ef1" name="ga9380ca590b2600cc64a333d4892f2ef1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9380ca590b2600cc64a333d4892f2ef1">&#9670;&#160;</a></span>operator=() <span class="overload">[46/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9380ca590b2600cc64a333d4892f2ef1">&#9670;&#160;</a></span>operator=() <span class="overload">[48/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139146,7 +139650,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gadaeb5cfe07e0bb5c613eeb2c30a67950" name="gadaeb5cfe07e0bb5c613eeb2c30a67950"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadaeb5cfe07e0bb5c613eeb2c30a67950">&#9670;&#160;</a></span>operator=() <span class="overload">[47/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadaeb5cfe07e0bb5c613eeb2c30a67950">&#9670;&#160;</a></span>operator=() <span class="overload">[49/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139173,7 +139677,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga15a31f379a5e9fe7e7f2c58e7e1b0207" name="ga15a31f379a5e9fe7e7f2c58e7e1b0207"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga15a31f379a5e9fe7e7f2c58e7e1b0207">&#9670;&#160;</a></span>operator=() <span class="overload">[48/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga15a31f379a5e9fe7e7f2c58e7e1b0207">&#9670;&#160;</a></span>operator=() <span class="overload">[50/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139201,7 +139705,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga04651779fcd30d074c04198375b93a5c" name="ga04651779fcd30d074c04198375b93a5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga04651779fcd30d074c04198375b93a5c">&#9670;&#160;</a></span>operator=() <span class="overload">[49/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga04651779fcd30d074c04198375b93a5c">&#9670;&#160;</a></span>operator=() <span class="overload">[51/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139228,7 +139732,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gae0b89143bda253553841055632c8f8bd" name="gae0b89143bda253553841055632c8f8bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae0b89143bda253553841055632c8f8bd">&#9670;&#160;</a></span>operator=() <span class="overload">[50/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae0b89143bda253553841055632c8f8bd">&#9670;&#160;</a></span>operator=() <span class="overload">[52/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139255,7 +139759,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga7f6c27b4d8d26bfca58a49fc3a614732" name="ga7f6c27b4d8d26bfca58a49fc3a614732"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7f6c27b4d8d26bfca58a49fc3a614732">&#9670;&#160;</a></span>operator=() <span class="overload">[51/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f6c27b4d8d26bfca58a49fc3a614732">&#9670;&#160;</a></span>operator=() <span class="overload">[53/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139282,7 +139786,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga881370b0a38e287dc6a8ef290f2747e6" name="ga881370b0a38e287dc6a8ef290f2747e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga881370b0a38e287dc6a8ef290f2747e6">&#9670;&#160;</a></span>operator=() <span class="overload">[52/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga881370b0a38e287dc6a8ef290f2747e6">&#9670;&#160;</a></span>operator=() <span class="overload">[54/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139309,7 +139813,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gaf5adb3060c521b2e091eff673e8780ce" name="gaf5adb3060c521b2e091eff673e8780ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf5adb3060c521b2e091eff673e8780ce">&#9670;&#160;</a></span>operator=() <span class="overload">[53/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf5adb3060c521b2e091eff673e8780ce">&#9670;&#160;</a></span>operator=() <span class="overload">[55/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139336,7 +139840,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga3e74b18bef132d73cfbd57d646961b95" name="ga3e74b18bef132d73cfbd57d646961b95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3e74b18bef132d73cfbd57d646961b95">&#9670;&#160;</a></span>operator=() <span class="overload">[54/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3e74b18bef132d73cfbd57d646961b95">&#9670;&#160;</a></span>operator=() <span class="overload">[56/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139363,7 +139867,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gaea174e0acc86ab90ebe3d0b222305838" name="gaea174e0acc86ab90ebe3d0b222305838"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaea174e0acc86ab90ebe3d0b222305838">&#9670;&#160;</a></span>operator=() <span class="overload">[55/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaea174e0acc86ab90ebe3d0b222305838">&#9670;&#160;</a></span>operator=() <span class="overload">[57/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139392,7 +139896,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad2ac352405fa0b18359e9604a84d95eb" name="gad2ac352405fa0b18359e9604a84d95eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad2ac352405fa0b18359e9604a84d95eb">&#9670;&#160;</a></span>operator=() <span class="overload">[56/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad2ac352405fa0b18359e9604a84d95eb">&#9670;&#160;</a></span>operator=() <span class="overload">[58/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139421,7 +139925,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga69ea1c4cfb77f79ea8c163ceb39ef970" name="ga69ea1c4cfb77f79ea8c163ceb39ef970"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga69ea1c4cfb77f79ea8c163ceb39ef970">&#9670;&#160;</a></span>operator=() <span class="overload">[57/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga69ea1c4cfb77f79ea8c163ceb39ef970">&#9670;&#160;</a></span>operator=() <span class="overload">[59/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139450,7 +139954,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafc914c440e4c94f219e3d213905b1edb" name="gafc914c440e4c94f219e3d213905b1edb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafc914c440e4c94f219e3d213905b1edb">&#9670;&#160;</a></span>operator=() <span class="overload">[58/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafc914c440e4c94f219e3d213905b1edb">&#9670;&#160;</a></span>operator=() <span class="overload">[60/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139477,7 +139981,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gade58c0ef13c1a69cfb93d12cf35bc0f1" name="gade58c0ef13c1a69cfb93d12cf35bc0f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gade58c0ef13c1a69cfb93d12cf35bc0f1">&#9670;&#160;</a></span>operator=() <span class="overload">[59/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gade58c0ef13c1a69cfb93d12cf35bc0f1">&#9670;&#160;</a></span>operator=() <span class="overload">[61/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139504,7 +140008,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga21967781082125022521f93f1cd916f4" name="ga21967781082125022521f93f1cd916f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga21967781082125022521f93f1cd916f4">&#9670;&#160;</a></span>operator=() <span class="overload">[60/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga21967781082125022521f93f1cd916f4">&#9670;&#160;</a></span>operator=() <span class="overload">[62/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139531,7 +140035,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gabe032465a924da8e89497c48367273a5" name="gabe032465a924da8e89497c48367273a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabe032465a924da8e89497c48367273a5">&#9670;&#160;</a></span>operator=() <span class="overload">[61/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe032465a924da8e89497c48367273a5">&#9670;&#160;</a></span>operator=() <span class="overload">[63/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139558,7 +140062,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad472a32e4da24e2c6a9a3cf0a5b4ff3b" name="gad472a32e4da24e2c6a9a3cf0a5b4ff3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad472a32e4da24e2c6a9a3cf0a5b4ff3b">&#9670;&#160;</a></span>operator=() <span class="overload">[62/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad472a32e4da24e2c6a9a3cf0a5b4ff3b">&#9670;&#160;</a></span>operator=() <span class="overload">[64/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139585,7 +140089,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga686800cf738a0eed6cba651c112745b3" name="ga686800cf738a0eed6cba651c112745b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga686800cf738a0eed6cba651c112745b3">&#9670;&#160;</a></span>operator=() <span class="overload">[63/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga686800cf738a0eed6cba651c112745b3">&#9670;&#160;</a></span>operator=() <span class="overload">[65/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139612,7 +140116,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafd2182a569c18420a6c4b56bfccf1159" name="gafd2182a569c18420a6c4b56bfccf1159"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafd2182a569c18420a6c4b56bfccf1159">&#9670;&#160;</a></span>operator=() <span class="overload">[64/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafd2182a569c18420a6c4b56bfccf1159">&#9670;&#160;</a></span>operator=() <span class="overload">[66/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139639,7 +140143,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga98d1be64f282627eb49ed2944adb718b" name="ga98d1be64f282627eb49ed2944adb718b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga98d1be64f282627eb49ed2944adb718b">&#9670;&#160;</a></span>operator=() <span class="overload">[65/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga98d1be64f282627eb49ed2944adb718b">&#9670;&#160;</a></span>operator=() <span class="overload">[67/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139666,7 +140170,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaab2ceb1171b2a26773ddd20b58e22a85" name="gaab2ceb1171b2a26773ddd20b58e22a85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaab2ceb1171b2a26773ddd20b58e22a85">&#9670;&#160;</a></span>operator=() <span class="overload">[66/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaab2ceb1171b2a26773ddd20b58e22a85">&#9670;&#160;</a></span>operator=() <span class="overload">[68/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139695,7 +140199,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga12789ea5c04ee7a92d7b00755508df3f" name="ga12789ea5c04ee7a92d7b00755508df3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga12789ea5c04ee7a92d7b00755508df3f">&#9670;&#160;</a></span>operator=() <span class="overload">[67/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga12789ea5c04ee7a92d7b00755508df3f">&#9670;&#160;</a></span>operator=() <span class="overload">[69/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139724,7 +140228,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga42efa327646696f0d3cafc2f14acb727" name="ga42efa327646696f0d3cafc2f14acb727"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga42efa327646696f0d3cafc2f14acb727">&#9670;&#160;</a></span>operator=() <span class="overload">[68/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga42efa327646696f0d3cafc2f14acb727">&#9670;&#160;</a></span>operator=() <span class="overload">[70/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139753,7 +140257,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga18f05667e76ccc9a5c5ef69bd3584e26" name="ga18f05667e76ccc9a5c5ef69bd3584e26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga18f05667e76ccc9a5c5ef69bd3584e26">&#9670;&#160;</a></span>operator=() <span class="overload">[69/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga18f05667e76ccc9a5c5ef69bd3584e26">&#9670;&#160;</a></span>operator=() <span class="overload">[71/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139780,7 +140284,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga61854bf3fe886747be7d3c8ffe57841d" name="ga61854bf3fe886747be7d3c8ffe57841d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga61854bf3fe886747be7d3c8ffe57841d">&#9670;&#160;</a></span>operator=() <span class="overload">[70/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61854bf3fe886747be7d3c8ffe57841d">&#9670;&#160;</a></span>operator=() <span class="overload">[72/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139807,7 +140311,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gabe2f2d2fe99553548fc2b3f3a9f3d4b8" name="gabe2f2d2fe99553548fc2b3f3a9f3d4b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabe2f2d2fe99553548fc2b3f3a9f3d4b8">&#9670;&#160;</a></span>operator=() <span class="overload">[71/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe2f2d2fe99553548fc2b3f3a9f3d4b8">&#9670;&#160;</a></span>operator=() <span class="overload">[73/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139834,7 +140338,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaf6d0b135cd7ea98a92eac23f1bac3642" name="gaf6d0b135cd7ea98a92eac23f1bac3642"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf6d0b135cd7ea98a92eac23f1bac3642">&#9670;&#160;</a></span>operator=() <span class="overload">[72/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf6d0b135cd7ea98a92eac23f1bac3642">&#9670;&#160;</a></span>operator=() <span class="overload">[74/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139861,7 +140365,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga1540ae57916ae7af3244396a8443ff87" name="ga1540ae57916ae7af3244396a8443ff87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1540ae57916ae7af3244396a8443ff87">&#9670;&#160;</a></span>operator=() <span class="overload">[73/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1540ae57916ae7af3244396a8443ff87">&#9670;&#160;</a></span>operator=() <span class="overload">[75/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139888,7 +140392,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gac3bc0c5c28107a3a11a89d8b43373be0" name="gac3bc0c5c28107a3a11a89d8b43373be0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac3bc0c5c28107a3a11a89d8b43373be0">&#9670;&#160;</a></span>operator=() <span class="overload">[74/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac3bc0c5c28107a3a11a89d8b43373be0">&#9670;&#160;</a></span>operator=() <span class="overload">[76/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139917,7 +140421,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga51e46bdba8b867ecd3c48d42a29c6aac" name="ga51e46bdba8b867ecd3c48d42a29c6aac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga51e46bdba8b867ecd3c48d42a29c6aac">&#9670;&#160;</a></span>operator=() <span class="overload">[75/75]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga51e46bdba8b867ecd3c48d42a29c6aac">&#9670;&#160;</a></span>operator=() <span class="overload">[77/77]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145896,19 +146400,16 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gaf256c0dc65f9c1c49975ec3166fa6554" name="gaf256c0dc65f9c1c49975ec3166fa6554"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf256c0dc65f9c1c49975ec3166fa6554">&#9670;&#160;</a></span>pointsToDistanceVolumeMemory()</h2>
+<a id="ga5cc55a97b581e01247749d0d7e6697a4" name="ga5cc55a97b581e01247749d0d7e6697a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5cc55a97b581e01247749d0d7e6697a4">&#9670;&#160;</a></span>pointsToDistanceVolumeMemory()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t MR::CudaAccessor::pointsToDistanceVolumeMemory </td>
+          <td class="memname">MRCUDA_API size_t MR::Cuda::pointsToDistanceVolumeMemory </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -145921,24 +146422,11 @@ template&lt;typename T&gt; </div>
           <td class="paramtype">const VertNormals *</td>          <td class="paramname"><span class="paramname"><em>ptNormals</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p><code>#include &lt;<a class="el" href="MRCudaAccessor_8h.html">MRViewer/MRCudaAccessor.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRCudaPointsToDistanceVolume_8h.html">MRCuda/MRCudaPointsToDistanceVolume.h</a>&gt;</code></p>
 
-<p>returns amount of required GPU memory for <a class="el" href="#ga76d46e2388018a2bca5a72dfaefd30e9" title="makes SimpleVolume filled with signed distances to points with normals">Cuda::pointsToDistanceVolume</a> </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pointCloud</td><td>- input point cloud </td></tr>
-    <tr><td class="paramname">dims</td><td>- dimensions of the volume </td></tr>
-    <tr><td class="paramname">ptNormals</td><td>- (optional) point normals </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>returns the minimal amount of free GPU memory required to build a distance volume with given dimensions </p>
 
 </div>
 </div>
@@ -165171,6 +165659,33 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gaac350e2f8ed053dc407f7e0a36a2f224" name="gaac350e2f8ed053dc407f7e0a36a2f224"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac350e2f8ed053dc407f7e0a36a2f224">&#9670;&#160;</a></span>setCudaComputePointsToDistanceVolumeConstructor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::CudaAccessor::setCudaComputePointsToDistanceVolumeConstructor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga85794d3b294b977202e9957c174b7a27">CudaComputePointsToDistanceVolumeConstructor</a></td>          <td class="paramname"><span class="paramname"><em>cpdvCtor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCudaAccessor_8h.html">MRViewer/MRCudaAccessor.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga95d2cb91e636f24ca7eea28c365c0c85" name="ga95d2cb91e636f24ca7eea28c365c0c85"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga95d2cb91e636f24ca7eea28c365c0c85">&#9670;&#160;</a></span>setCudaComputeToolDistanceConstructor()</h2>
 
@@ -165292,60 +165807,6 @@ template&lt;typename T&gt; </div>
           <td class="memname">void MR::CudaAccessor::setCudaPointsProjectorConstructor </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#gaed0df442f81500a1fcba3ff380f44190">CudaPointsProjectorConstructor</a></td>          <td class="paramname"><span class="paramname"><em>ppCtor</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRCudaAccessor_8h.html">MRViewer/MRCudaAccessor.h</a>&gt;</code></p>
-
-</div>
-</div>
-<a id="gae1eaf97b826883a102c1af2dc6c677d0" name="gae1eaf97b826883a102c1af2dc6c677d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae1eaf97b826883a102c1af2dc6c677d0">&#9670;&#160;</a></span>setCudaPointsToDistanceVolumeByPartsCallback()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::CudaAccessor::setCudaPointsToDistanceVolumeByPartsCallback </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#gab4da14893aa8c8e22579f15c1bb64991">CudaPointsToDistanceVolumeByPartsCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRCudaAccessor_8h.html">MRViewer/MRCudaAccessor.h</a>&gt;</code></p>
-
-</div>
-</div>
-<a id="ga75ddb851bf9adb202f0db1e2c8e83881" name="ga75ddb851bf9adb202f0db1e2c8e83881"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga75ddb851bf9adb202f0db1e2c8e83881">&#9670;&#160;</a></span>setCudaPointsToDistanceVolumeCallback()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::CudaAccessor::setCudaPointsToDistanceVolumeCallback </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#ga7acccf65074e9ea99f88143c0ba0816a">CudaPointsToDistanceVolumeCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -199063,6 +199524,33 @@ template&lt;class HistoryActionType&gt; </div>
 
 </div>
 </div>
+<a id="ga2856066855e764964a0455777c34ddd2" name="ga2856066855e764964a0455777c34ddd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2856066855e764964a0455777c34ddd2">&#9670;&#160;</a></span>~IComputePointsToDistanceVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MR::IComputePointsToDistanceVolume::~IComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointsToDistanceVolume_8h.html">MRVoxels/MRPointsToDistanceVolume.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga2bb611f9d72c80f0aa38d68e6a008ad0" name="ga2bb611f9d72c80f0aa38d68e6a008ad0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2bb611f9d72c80f0aa38d68e6a008ad0">&#9670;&#160;</a></span>~IComputeToolDistance()</h2>
 
@@ -205373,22 +205861,6 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gac61d0ecf32889b1131e50a2bbe6e852c" name="gac61d0ecf32889b1131e50a2bbe6e852c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac61d0ecf32889b1131e50a2bbe6e852c">&#9670;&#160;</a></span>canCreateVolume</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;bool ( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt; MR::PointsToMeshParameters::canCreateVolume</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Callback for checking whether it's possible to use the volume creation function. </p>
-
-</div>
-</div>
 <a id="gaf9338df64363f0830a45a56dec21f983" name="gaf9338df64363f0830a45a56dec21f983"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaf9338df64363f0830a45a56dec21f983">&#9670;&#160;</a></span>canMovePoint</h2>
 
@@ -207827,6 +208299,21 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="gae1649f1af31f2e1b92a4d50a1ef97011" name="gae1649f1af31f2e1b92a4d50a1ef97011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae1649f1af31f2e1b92a4d50a1ef97011">&#9670;&#160;</a></span>computeVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a>&gt; MR::PointsToMeshParameters::computeVolume</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>builds the intermediate volume, e.g. <a class="el" href="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html" title="CUDA implementation of IComputePointsToDistanceVolumeByParts.">MR::Cuda::ComputePointsToDistanceVolume</a> to build it on GPU; if it is not set or cannot process this input, <a class="el" href="classMR_1_1ComputePointsToDistanceVolume.html">MR::ComputePointsToDistanceVolume</a> is used </p>
+
+</div>
+</div>
 <a id="ga02f9a36cc38f075c05945cd1d672a9b4" name="ga02f9a36cc38f075c05945cd1d672a9b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga02f9a36cc38f075c05945cd1d672a9b4">&#9670;&#160;</a></span>concaveFactor</h2>
 
@@ -208632,37 +209119,6 @@ template&lt;typename Tag&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga79ea998979bc61c402e801d6a82b292d" name="ga79ea998979bc61c402e801d6a82b292d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga79ea998979bc61c402e801d6a82b292d">&#9670;&#160;</a></span>createVolumeCallback</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;<a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a>&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt; MR::PointsToMeshParameters::createVolumeCallback</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Callback for volume creation. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function. </p>
-
-</div>
-</div>
-<a id="gab87c2a1f3fa531fdd137e32dd33c1267" name="gab87c2a1f3fa531fdd137e32dd33c1267"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab87c2a1f3fa531fdd137e32dd33c1267">&#9670;&#160;</a></span>createVolumeCallbackByParts</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;<a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params, std::function&lt;<a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const <a class="el" href="#ga267a0a12925eb023cff1bca0f9b620b4">SimpleVolumeMinMax</a>&amp; <a class="el" href="#ga20e9ae03dbf954625936ada6b2cbcf60">volume</a>, int zOffset )&gt; addPart, int layerOverlap )&gt; MR::PointsToMeshParameters::createVolumeCallbackByParts</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Callback for volume creation by parts. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function This callback takes precedence over createVolumeCallback </p>
 
 </div>
 </div>
@@ -231519,14 +231975,14 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga8fb48f274f70639a9be5fdadbbf8224e" name="ga8fb48f274f70639a9be5fdadbbf8224e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8fb48f274f70639a9be5fdadbbf8224e">&#9670;&#160;</a></span>sigma <span class="overload">[3/3]</span></h2>
+<a id="ga3b8a586729f91eac7c41aea0f4e22e06" name="ga3b8a586729f91eac7c41aea0f4e22e06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b8a586729f91eac7c41aea0f4e22e06">&#9670;&#160;</a></span>sigma <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MR_BIND_PREFER_UNLOCK_GIL_WHEN_USED_AS_PARAM float MR::PointsToMeshParameters::sigma = 1</td>
+          <td class="memname">float MR::PointsToMeshParameters::sigma = 1</td>
         </tr>
       </table>
 </div><div class="memdoc">

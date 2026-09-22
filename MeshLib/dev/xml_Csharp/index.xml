@@ -5899,6 +5899,44 @@
     <member refid="classMR_1_1CompressZipSettings_1a9c1db059c9b061e264d712bca4b12698" kind="function"><name>__MR_CompressZipSettings_GetMutable_excludeFiles</name></member>
     <member refid="classMR_1_1CompressZipSettings_1a30b44cd9b36c315ed410ec86f62cfb6c" kind="function"><name>__MR_CompressZipSettings_GetMutable_password</name></member>
   </compound>
+  <compound refid="classMR_1_1ComputePointsToDistanceVolume" kind="class"><name>MR::ComputePointsToDistanceVolume</name>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1a18ed1d6cce64b5d378ac19e26871d5bc" kind="function"><name>operator MR.IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1a5005cfceecd0beb051d0ec8d2d8da710" kind="function"><name>operator MR.IComputePointsToDistanceFunctionVolume</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1a8c569d9c2439c2227bd996c148b0dcb2" kind="function"><name>operator ComputePointsToDistanceVolume?</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1a197277b4ebe093b8305d122eaea4e6c7" kind="function"><name>operator ComputePointsToDistanceVolume?</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1a19ce8ae4e9b0885cbd9e20511dfe05d5" kind="function"><name>ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1ac761c8c43163a1dfc9a49a0fc9e737f4" kind="function"><name>ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1ac64801c2436a14152d32141b560bf7af" kind="function"><name>ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1add01ba9aec6a76bb7ccdab41a438c73e" kind="function"><name>ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1ae0c3f72efd627b0adcddaf31969052d0" kind="function"><name>ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1a1b99790119a87831642cfa72a7c3d4f0" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1af32814f19f2c623d54fbcf5c3dc80c36" kind="function"><name>__MR_ComputePointsToDistanceVolume_AssignFromAnother</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1a3d0d08ff28288e14e9ec0d19b55aa8ac" kind="function"><name>__MR_ComputePointsToDistanceVolume_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1a0f8fde01d407695b1587d025401fb0c2" kind="function"><name>__MR_ComputePointsToDistanceVolume_DefaultConstruct</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1a923f4bc5f6ebdf9a1e4340cde79ad842" kind="function"><name>__MR_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceFunctionVolume</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1aecdb95020029f250817ddebb1b9144af" kind="function"><name>__MR_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1acf46c4164ed23f480de4c6c297c0cdb5" kind="function"><name>__MR_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceFunctionVolume</name></member>
+    <member refid="classMR_1_1ComputePointsToDistanceVolume_1ac4bc5613310c50d693b5611c3b14c77f" kind="function"><name>__MR_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolume</name></member>
+  </compound>
+  <compound refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" kind="class"><name>MR::Cuda::ComputePointsToDistanceVolume</name>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1a6b9e707ad428f2143304935197b352e0" kind="function"><name>operator MR.IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1a998701bdfd07a071b7eaf31c9010ede7" kind="function"><name>operator MR.IComputePointsToDistanceVolumeByParts</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1a2b7d39641629e8a211283ee02c0ed8d8" kind="function"><name>operator ComputePointsToDistanceVolume?</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1af6d3df82bca58fd5ecdd1f0233469c08" kind="function"><name>operator ComputePointsToDistanceVolume?</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1a2cf82d06a2cd0a885c746d678ad768d7" kind="function"><name>ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1a566c211fca4ac62684ee691880183539" kind="function"><name>ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1a5973adcf5de19a08b37aa91acb626cfd" kind="function"><name>ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1a9b1796ff57451dc6227af21589b0020a" kind="function"><name>ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1a7f69c4dc8473a3073dc15de038b1ecaa" kind="function"><name>ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1a75088fb7fe88d661f2279403b120c79b" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1afe491e96cfdcacd2832f350704fa8314" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_AssignFromAnother</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1a4c499afd490f022848ee4806a637a3a0" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1af89a42197c964b07c8d606247b5dbd9a" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1a84fd5419f01d287875477e4bb7f4d8d8" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1a7410c36389d39e07a6b2b8a5ff1d915a" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1abbebebf0c2e7ff036b0c45e24cdb8b9a" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume_1ac86b3c35aee73bf4f1806917b33827b7" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolumeByParts</name></member>
+  </compound>
   <compound refid="classMR_1_1ComputeSteepestDescentPathSettings" kind="class"><name>MR::ComputeSteepestDescentPathSettings</name>
     <member refid="classMR_1_1ComputeSteepestDescentPathSettings_1ae1872ce5a1f0dd2786cbfcc07e5e198f" kind="property"><name>end</name></member>
     <member refid="classMR_1_1ComputeSteepestDescentPathSettings_1a26028f8f71feb1405babba377b2ce09b" kind="property"><name>outVertexReached</name></member>
@@ -11105,6 +11143,60 @@
     <member refid="classMR_1_1Const__CompressZipSettings_1ad25a6ce0930a92a31d2378af41f1a8b6" kind="function"><name>__MR_CompressZipSettings_Get_compressionLevel</name></member>
     <member refid="classMR_1_1Const__CompressZipSettings_1a88efcd460ed3044a5b2983efee9894bc" kind="function"><name>__MR_CompressZipSettings_Get_excludeFiles</name></member>
     <member refid="classMR_1_1Const__CompressZipSettings_1af1a34e1d580e73a210933494f3c09cf6" kind="function"><name>__MR_CompressZipSettings_Get_password</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__ComputePointsToDistanceVolume" kind="class"><name>MR::Const_ComputePointsToDistanceVolume</name>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1aedb7b31627b60e645c5cae3ca25594ff" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a2788e4df1af95963b7ebe80e759664aa" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a82eb57cf345e2c0fe40cd2406dc15731" kind="function"><name>Const_ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a67e3c935d2919a48f10aaf53c5558519" kind="function"><name>Const_ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a32f5dfdd6d7fa71b8d8177e524793474" kind="function"><name>Const_ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a540b41bc5ba5380f6feeed0fef72b676" kind="function"><name>Const_ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a1fe95a92593e00175346f28f602cb2c8" kind="function"><name>canCompute</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a8f9a51a35d06b7ecab523fd6f2f39530" kind="function"><name>compute</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a3d7b94a438aa6c79e6eab157a130442f" kind="function"><name>computeFunctionVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1aca1f1cc365e9ac3218e6f422caaddcff" kind="function"><name>~Const_ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a9609ab14ce114454ec392be25998025b" kind="function"><name>operator MR.Const_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a781b4388d2ec1c80684d11d01adf96fb" kind="function"><name>operator MR.Const_IComputePointsToDistanceFunctionVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1ad0c57c2d5edcebdb8e8af26c27d74193" kind="function"><name>operator Const_ComputePointsToDistanceVolume?</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a57ed4b59530d9ea15a15a3384d8b5a2d" kind="function"><name>operator Const_ComputePointsToDistanceVolume?</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a4b1701f96ed5e329c50ff10cf7ff5d5b" kind="function"><name>Const_ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1adb1aa5b050ceefa459f7172630a77f7f" kind="function"><name>__MR_ComputePointsToDistanceVolume_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a1fa7f2f9f3840fa4758a1102a4173087" kind="function"><name>__MR_ComputePointsToDistanceVolume_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a3652c45d584c10f336743081116c08c7" kind="function"><name>__MR_ComputePointsToDistanceVolume_Destroy</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a868236ec374640f322e46a6b68656045" kind="function"><name>__MR_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceFunctionVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1aaa9c4461fad35f949acdcd4a4c9433fd" kind="function"><name>__MR_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a025399ee06759b2c0ef252695dfec7d4" kind="function"><name>__MR_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceFunctionVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1a9ff3221219cc8576d5fda8c48a82b84f" kind="function"><name>__MR_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1ad42dd9da254ea6473a02b3d3b6573a7a" kind="function"><name>__MR_ComputePointsToDistanceVolume_canCompute</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1ac2c88fc870968f291cb5507764c5de29" kind="function"><name>__MR_ComputePointsToDistanceVolume_compute</name></member>
+    <member refid="classMR_1_1Const__ComputePointsToDistanceVolume_1af70d4fc01e52557d4d0ba4c09cd1cade" kind="function"><name>__MR_ComputePointsToDistanceVolume_computeFunctionVolume</name></member>
+  </compound>
+  <compound refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume" kind="class"><name>MR::Cuda::Const_ComputePointsToDistanceVolume</name>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1af9df92c13dfa1540b9f6bba7a9171a40" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a63bcc124ab62b5cd37fc13ede51ac96c" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a6ad65f161bc1baa31de136f6eb85ab3e" kind="function"><name>Const_ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a869d376c15a8148381de48f7592d6a35" kind="function"><name>Const_ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1ab9604620295cf81ffc6de5515e6308f5" kind="function"><name>Const_ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a5a1df389238c74616aafbe99ae25d9f1" kind="function"><name>Const_ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1aaf8e97236919388ec1c62e97e869e68d" kind="function"><name>canCompute</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1aa13b194c7a1a57bf9c40f22bf42bbeb1" kind="function"><name>compute</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a77fdff6e7dbce8b9d547d958a21c7285" kind="function"><name>computeByParts</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1ac558b04612a1ba66466380b48c4f293c" kind="function"><name>~Const_ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a81690058434526336334b3c912855e19" kind="function"><name>operator MR.Const_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a7e18afd74b12075c314a82f2fc32637d" kind="function"><name>operator MR.Const_IComputePointsToDistanceVolumeByParts</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1ad3d7895d9c7f7e1715fb9c3875b959cf" kind="function"><name>operator Const_ComputePointsToDistanceVolume?</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a7c53345ed7e5d59a5e8a2faed543ec54" kind="function"><name>operator Const_ComputePointsToDistanceVolume?</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1ae3decf4bdddba025b8cea9da6c8e6d1e" kind="function"><name>Const_ComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a745a694889ca74855b33a3911625abba" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a844afad7193e180cca1295de46d08ae6" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1acd42d6948907908e46929c1b88e381e3" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_Destroy</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a5683a14a6ca8713f577b1cc18c747317" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1ab222f76af7ea8664b97657f092d2e7fe" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a700b0cd3d9615345f0a7d2886af5fa86" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a60f511c1c58125b9d226f50b804c81a2" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolumeByParts</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a8d699dc25920e4d452f3f6dfd3edf531" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_canCompute</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1a09a61c80a0c3e6b4c23ccf91768f21c8" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_compute</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume_1acadeaba8aa2e89fd0c7c06cf8267fbd9" kind="function"><name>__MR_Cuda_ComputePointsToDistanceVolume_computeByParts</name></member>
   </compound>
   <compound refid="classMR_1_1Const__ComputeSteepestDescentPathSettings" kind="class"><name>MR::Const_ComputeSteepestDescentPathSettings</name>
     <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a04f88a085cca958e5b26cbca92fb4b52" kind="property"><name>end</name></member>
@@ -16646,6 +16738,51 @@
     <member refid="classMR_1_1Nesting_1_1Const__IBoxNestingPriority_1af86bfeef5064db1d8b63317cef2db38b" kind="function"><name>Const_IBoxNestingPriority</name></member>
     <member refid="classMR_1_1Nesting_1_1Const__IBoxNestingPriority_1aa4ca903e197864fbcae8a89c384af88e" kind="function"><name>__MR_Nesting_IBoxNestingPriority_Destroy</name></member>
     <member refid="classMR_1_1Nesting_1_1Const__IBoxNestingPriority_1a1757a39b99464312ad759422ee240c2a" kind="function"><name>__MR_Nesting_IBoxNestingPriority_complete</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume" kind="class"><name>MR::Const_IComputePointsToDistanceFunctionVolume</name>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1a42113799489a8cfb475909f72372a1b4" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1a2e38f8b2c538d4d5e60e9856c69a5340" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1af056755b02ba4fe9e571c8d96a21803f" kind="function"><name>computeFunctionVolume</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1ac0be0f36e0427586034cadb79401b98c" kind="function"><name>canCompute</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1ac45fe4bd11c70df5a3456a076fbf16f8" kind="function"><name>compute</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1a508fc5bda64d02eb3276d24aa3ad9434" kind="function"><name>~Const_IComputePointsToDistanceFunctionVolume</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1ae2462be0baabc62e6c0dd073fbf02821" kind="function"><name>operator MR.Const_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1abc8f446feb2a8cef390a9de955ad4618" kind="function"><name>operator Const_IComputePointsToDistanceFunctionVolume?</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1ac843b95d2d5093293094e9bc7df1c548" kind="function"><name>Const_IComputePointsToDistanceFunctionVolume</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1a60a6dba60571591ef7ed90dfb60c2a4f" kind="function"><name>__MR_IComputePointsToDistanceFunctionVolume_Destroy</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1aeaffc8d09e08481b5a9cb1b81c6f1421" kind="function"><name>__MR_IComputePointsToDistanceFunctionVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1ae1f17667b7f49b5ac5030557742c316a" kind="function"><name>__MR_IComputePointsToDistanceFunctionVolume_UpcastTo_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1ad097bfc7c1c7ebd4a0aa1225f621435e" kind="function"><name>__MR_IComputePointsToDistanceFunctionVolume_canCompute</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1af7cba1db8a8550a9b0fba50a65b2229d" kind="function"><name>__MR_IComputePointsToDistanceFunctionVolume_compute</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceFunctionVolume_1afdb28aa2a28dc5f11198d117c0783f42" kind="function"><name>__MR_IComputePointsToDistanceFunctionVolume_computeFunctionVolume</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__IComputePointsToDistanceVolume" kind="class"><name>MR::Const_IComputePointsToDistanceVolume</name>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolume_1a3d16af0b87a1dd48123cbc9f5354dc8b" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolume_1a485d7d66140e0a541dc258ee6482501e" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolume_1a421196132144e266f982d2163119aad2" kind="function"><name>canCompute</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolume_1a15a934f8ee57851dfa370a0f33634250" kind="function"><name>compute</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolume_1a70cee552a0bbfff68e5d7d7cca4899a1" kind="function"><name>~Const_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolume_1a492acfa9da5fc20f0eb82832a2105937" kind="function"><name>Const_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolume_1ae01ef27a74d3020001492390af812a30" kind="function"><name>__MR_IComputePointsToDistanceVolume_Destroy</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolume_1a12b05e0385f66676d21409948455c3f0" kind="function"><name>__MR_IComputePointsToDistanceVolume_canCompute</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolume_1a8b3000fd4f9f484e1c8df54bdd0db8b0" kind="function"><name>__MR_IComputePointsToDistanceVolume_compute</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts" kind="class"><name>MR::Const_IComputePointsToDistanceVolumeByParts</name>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1aaa5f18b03bcf3de85ae4758b77456bb3" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1aa9402001d6905daa3b9a51c30b36bed1" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1ab5baf8dd811633da9dadd20aff3c9ea2" kind="function"><name>computeByParts</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1a733579fec52418a02ec5aa9574b4dad2" kind="function"><name>canCompute</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1a895a65ca08f223a46e21ebe6382f275c" kind="function"><name>compute</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1a228a19c03dfda3913932112814ab5fd5" kind="function"><name>~Const_IComputePointsToDistanceVolumeByParts</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1aeb4455365e65b3b224e077056fc7ed49" kind="function"><name>operator MR.Const_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1a5bc52fc8989bf376ba556e37de27f6e0" kind="function"><name>operator Const_IComputePointsToDistanceVolumeByParts?</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1ae7d529a0ade4782d951eb2dca9265484" kind="function"><name>Const_IComputePointsToDistanceVolumeByParts</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1aecbde17aafce63a7271817d7a6a48cf2" kind="function"><name>__MR_IComputePointsToDistanceVolumeByParts_Destroy</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1ab2bd49f11dbb1574829b2ad237881cfd" kind="function"><name>__MR_IComputePointsToDistanceVolumeByParts_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1ac7540f090b9d4f4ed937741075de50d8" kind="function"><name>__MR_IComputePointsToDistanceVolumeByParts_UpcastTo_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1aa7fa217338597527c6aa2b13d957703b" kind="function"><name>__MR_IComputePointsToDistanceVolumeByParts_canCompute</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1aa188bab610313a47c26f0891059b45dc" kind="function"><name>__MR_IComputePointsToDistanceVolumeByParts_compute</name></member>
+    <member refid="classMR_1_1Const__IComputePointsToDistanceVolumeByParts_1ad6e2f25bffe01c541ce53b3264523757" kind="function"><name>__MR_IComputePointsToDistanceVolumeByParts_computeByParts</name></member>
   </compound>
   <compound refid="classMR_1_1Const__IComputeToolDistance" kind="class"><name>MR::Const_IComputeToolDistance</name>
     <member refid="classMR_1_1Const__IComputeToolDistance_1ad99fae3925f5373e82350646f3865158" kind="function"><name>Dispose</name></member>
@@ -27047,9 +27184,7 @@
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a9b3f1147074b1159218262902bd8686e" kind="property"><name>ptColors</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1aa15e40db3510276c96f8ced6b7d9715d" kind="property"><name>vColors</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a1b99cc62d1197b4aa8fd6b274166eae7" kind="property"><name>progress</name></member>
-    <member refid="classMR_1_1Const__PointsToMeshParameters_1a38a31e932b5615f7587359cc76638036" kind="property"><name>createVolumeCallbackByParts</name></member>
-    <member refid="classMR_1_1Const__PointsToMeshParameters_1a6c4781fd883c61c4a473f3de098aa8a3" kind="property"><name>createVolumeCallback</name></member>
-    <member refid="classMR_1_1Const__PointsToMeshParameters_1aae18caaa3bb9bd3240bf96ebd0e33706" kind="property"><name>canCreateVolume</name></member>
+    <member refid="classMR_1_1Const__PointsToMeshParameters_1aee409bf98af98d78c8215dde1ebc8793" kind="property"><name>computeVolume</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1aea516f7af31fab0ae85180b2d1255a29" kind="variable"><name>__ref_storage_sigma</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a570895ddb0b61ee6cb3910aa64399d1b" kind="variable"><name>__ref_storage_minWeight</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a68bcf06c1388ae807214164f0845a61e" kind="variable"><name>__ref_storage_invSigmaModifier</name></member>
@@ -27060,19 +27195,17 @@
     <member refid="classMR_1_1Const__PointsToMeshParameters_1ab36a60055785d5f5a6334ede750da8aa" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a7d4171e271766fda1ab7246a621817c9" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a076346c0ea79f7b88195379911ebcf02" kind="function"><name>Const_PointsToMeshParameters</name></member>
-    <member refid="classMR_1_1Const__PointsToMeshParameters_1a817d7c1000024ae94237fc7d802176dc" kind="function"><name>Const_PointsToMeshParameters</name></member>
+    <member refid="classMR_1_1Const__PointsToMeshParameters_1aa6edfd99b208481c6c0d85c04d60f9bc" kind="function"><name>Const_PointsToMeshParameters</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1ab79bd52781d94d37903c2d935409ec6a" kind="function"><name>Const_PointsToMeshParameters</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a0248e7c825803bab138e061fe38b2ed1" kind="function"><name>Const_PointsToMeshParameters</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a0538a1e85676e7a2ec4e43e28552850d" kind="function"><name>Const_PointsToMeshParameters</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1ab7859b2052c684b874a22a62eebcfc9e" kind="function"><name>~Const_PointsToMeshParameters</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a55bfdc7deaee77368e718b7955da8cdd" kind="function"><name>Const_PointsToMeshParameters</name></member>
-    <member refid="classMR_1_1Const__PointsToMeshParameters_1a9ce968186eb5ab355c72fc5822749427" kind="function"><name>__MR_PointsToMeshParameters_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__PointsToMeshParameters_1a3aba17746d02533c4e77d2760a565bfc" kind="function"><name>__MR_PointsToMeshParameters_ConstructFrom</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a7cc86d8499590c63766dbc7c5c228bd7" kind="function"><name>__MR_PointsToMeshParameters_ConstructFromAnother</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1af54e71792496682b38d7d5468c5dea38" kind="function"><name>__MR_PointsToMeshParameters_DefaultConstruct</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a7d6cfe3eb4ff6790488b9d10d44f3c09" kind="function"><name>__MR_PointsToMeshParameters_Destroy</name></member>
-    <member refid="classMR_1_1Const__PointsToMeshParameters_1a70050be25b3e4c86f8652f96f1ca6a9d" kind="function"><name>__MR_PointsToMeshParameters_Get_canCreateVolume</name></member>
-    <member refid="classMR_1_1Const__PointsToMeshParameters_1aa1b3dee4eafb2403901c6fe123ff8b38" kind="function"><name>__MR_PointsToMeshParameters_Get_createVolumeCallback</name></member>
-    <member refid="classMR_1_1Const__PointsToMeshParameters_1a8dafc26ff1fcb1c66bae2a36af5b4c5d" kind="function"><name>__MR_PointsToMeshParameters_Get_createVolumeCallbackByParts</name></member>
+    <member refid="classMR_1_1Const__PointsToMeshParameters_1afefeabcfe140cdf716a2f118bf7a1e2e" kind="function"><name>__MR_PointsToMeshParameters_Get_computeVolume</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a8e1284029de638ea66f5e480a41e4468" kind="function"><name>__MR_PointsToMeshParameters_Get_invSigmaModifier</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a67fbe3f906eab1b72805e019fc8b1576" kind="function"><name>__MR_PointsToMeshParameters_Get_minWeight</name></member>
     <member refid="classMR_1_1Const__PointsToMeshParameters_1a021d68675e2d25a1fda6ceb0e6df8686" kind="function"><name>__MR_PointsToMeshParameters_Get_progress</name></member>
@@ -30267,6 +30400,38 @@
     <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ae8c2df4c489530fc284e776edc26fa67" kind="function"><name>__MR_TriangulationHelpers_Settings_Get_radius</name></member>
     <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1af29a25d7f6e44e897f2698ecc1b5a24a" kind="function"><name>__MR_TriangulationHelpers_Settings_Get_searchNeighbors</name></member>
     <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a1bb268fb8b867c8df7d5a37117181bf6" kind="function"><name>__MR_TriangulationHelpers_Settings_Get_untrustedNormals</name></member>
+  </compound>
+  <compound refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume" kind="class"><name>MR::Std::Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1aa5fdcfe7ce5156776eb15a926c03f33c" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a6823f5f6aec19822eeef031dda9b1b87" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a2775be491ee3d03777a2df756085c606" kind="function"><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1acf0563cff13baa4c0140ff73f8d112f5" kind="function"><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a74395c9f44478bd8f62acc50d5f6ef4a" kind="function"><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a30ed4674cf6693479ead6b45d9657cba" kind="function"><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1acf02afac972da8fc062ffd6c4c1558e7" kind="function"><name>get</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1ae56c2a59b1cc7f246c7d29638db225e4" kind="function"><name>useCount</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a990b55b9668811d1f8c04a434d6df0fa" kind="function"><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a0e8bcf269fa4ec75d770f81a772b23c8" kind="function"><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1ad95404ba5926a84a049a495d52115764" kind="function"><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a55eb109b2f96cfae5817bd87ab7ba142" kind="function"><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a9397978dcfce34b823da0f2cf74a311f" kind="function"><name>assignToMRStdSharedPtrVoid</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a7103967b271f2b32bf87607b8bab54d8" kind="function"><name>~Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1ae305e903aef08486400daeea439d586a" kind="function"><name>Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a77242cfe2ea1d8582020f245d08a6cee" kind="function"><name>operator bool</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a4ab134f8353bbb52d4041781fde3dff2" kind="function"><name>operator Const_SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1ad6d7dbfa44569823b607f7421cb2d87d" kind="function"><name>operator MR.Std.SharedPtr_Void</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a718bb353993b8187aa891ba34465bf6f" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignTo_MR_std_shared_ptr_void</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a18712237bdae81dffe3fe4ec1aa9b80c" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_Construct</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a77a5e262f006bd89cc87c66e21541a54" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructAliasing</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a18087a5ddf6a412283d8106716a6f161" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a5ee1fa4616fbaa52f315d510005f0e81" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructFromValue</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a8b66affd3f611e4f47e481167473d531" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructNonOwning</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a388107919b777ad00235e5172903476a" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConvertTo_MR_std_shared_ptr_void</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a8336d7936f5e04439a5ff17603650836" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a2ee05a811d3e827752791a285ba7d521" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_Destroy</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a154c4a96f9c533ac3fde684fb8a7fa3e" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_get</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1aac9c2c4b912ebac7e89773883b635560" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_has_value</name></member>
+    <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume_1a694075b23dd681f8a51b7c331644e013" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_use_count</name></member>
   </compound>
   <compound refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber" kind="class"><name>MR::Std::Const_SharedPtr_MRCudaFastWindingNumber</name>
     <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1a272f7896a431d4eb2f80b10d4d9e927b" kind="function"><name>Dispose</name></member>
@@ -42870,6 +43035,7 @@
     <member refid="classMR_1_1Cuda_1a07a7240cdbac3fd2437a2d72b15e4020" kind="function"><name>findProjectionOnPointsHeapBytes</name></member>
     <member refid="classMR_1_1Cuda_1ada48bf1cb30a1dd5423bcb0d29c6b1d2" kind="function"><name>pointsToDistanceVolume</name></member>
     <member refid="classMR_1_1Cuda_1ac41726497d51f9764c2d9c2c2e9db105" kind="function"><name>pointsToDistanceVolumeByParts</name></member>
+    <member refid="classMR_1_1Cuda_1a8b991d06691ed494c32465f1dcecd565" kind="function"><name>pointsToDistanceVolumeMemory</name></member>
     <member refid="classMR_1_1Cuda_1a0ea88f5709a51086f7724af94d64e56c" kind="function"><name>computeSkyViewFactor</name></member>
     <member refid="classMR_1_1Cuda_1acd8af53537c95be1eac56310bc9cd725" kind="function"><name>findSkyRays</name></member>
     <member refid="classMR_1_1Cuda_1ab2b7f6383c91b4355a8e3efd50505461" kind="function"><name>negatePicture</name></member>
@@ -42889,6 +43055,7 @@
     <member refid="classMR_1_1Cuda_1ae024b84b7d29afc8a703a0744488f9a0" kind="function"><name>__MR_Cuda_findProjectionOnPointsHeapBytes</name></member>
     <member refid="classMR_1_1Cuda_1a2eb0bd439885c34e12596efd9435111c" kind="function"><name>__MR_Cuda_pointsToDistanceVolume</name></member>
     <member refid="classMR_1_1Cuda_1a0987975f565d77725bcbd5c0abdf0f98" kind="function"><name>__MR_Cuda_pointsToDistanceVolumeByParts</name></member>
+    <member refid="classMR_1_1Cuda_1a7ac30d771a0d89a9f3bafa35f112ede3" kind="function"><name>__MR_Cuda_pointsToDistanceVolumeMemory</name></member>
     <member refid="classMR_1_1Cuda_1a84b04b043a1e72b62aa57b28e6b3d8ec" kind="function"><name>__MR_Cuda_computeSkyViewFactor</name></member>
     <member refid="classMR_1_1Cuda_1aa6ae9e535f1681f3a784ea0b50cce29e" kind="function"><name>__MR_Cuda_findSkyRays</name></member>
     <member refid="classMR_1_1Cuda_1a09d3f63c405c9ee944cfc8138ad36864" kind="function"><name>__MR_Cuda_loadMRCudaDll</name></member>
@@ -46487,6 +46654,23 @@
     <member refid="classMR_1_1Nesting_1_1IBoxNestingPriority_1a5940ea5ba997290be39ced5023287815" kind="function"><name>addNested</name></member>
     <member refid="classMR_1_1Nesting_1_1IBoxNestingPriority_1a87112617ffe8d0c87f156e45a0c7276c" kind="function"><name>__MR_Nesting_IBoxNestingPriority_addNested</name></member>
     <member refid="classMR_1_1Nesting_1_1IBoxNestingPriority_1a05b92dcf0b0cd993cf0aad87410c56a5" kind="function"><name>__MR_Nesting_IBoxNestingPriority_init</name></member>
+  </compound>
+  <compound refid="classMR_1_1IComputePointsToDistanceFunctionVolume" kind="class"><name>MR::IComputePointsToDistanceFunctionVolume</name>
+    <member refid="classMR_1_1IComputePointsToDistanceFunctionVolume_1a40bd1b4a36abc271c97dec8a30172d8a" kind="function"><name>operator MR.IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1IComputePointsToDistanceFunctionVolume_1a1638b4352c7b62037c760fdfd319b346" kind="function"><name>operator IComputePointsToDistanceFunctionVolume?</name></member>
+    <member refid="classMR_1_1IComputePointsToDistanceFunctionVolume_1a61b5261858acf4f19c54d4a2087ed830" kind="function"><name>IComputePointsToDistanceFunctionVolume</name></member>
+    <member refid="classMR_1_1IComputePointsToDistanceFunctionVolume_1a2843a7b2cf1f318ae6ea53a636e5b815" kind="function"><name>__MR_IComputePointsToDistanceFunctionVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1IComputePointsToDistanceFunctionVolume_1ad80149de57593ec23661fb6af65bff37" kind="function"><name>__MR_IComputePointsToDistanceFunctionVolume_UpcastTo_MR_IComputePointsToDistanceVolume</name></member>
+  </compound>
+  <compound refid="classMR_1_1IComputePointsToDistanceVolume" kind="class"><name>MR::IComputePointsToDistanceVolume</name>
+    <member refid="classMR_1_1IComputePointsToDistanceVolume_1aa9bf7311aebb3cd75210a7c5d6f6e706" kind="function"><name>IComputePointsToDistanceVolume</name></member>
+  </compound>
+  <compound refid="classMR_1_1IComputePointsToDistanceVolumeByParts" kind="class"><name>MR::IComputePointsToDistanceVolumeByParts</name>
+    <member refid="classMR_1_1IComputePointsToDistanceVolumeByParts_1ae49076d8aadb88e0b7dfabc34730bdb4" kind="function"><name>operator MR.IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1IComputePointsToDistanceVolumeByParts_1a9711313b6235a361f7bbe3871bed4810" kind="function"><name>operator IComputePointsToDistanceVolumeByParts?</name></member>
+    <member refid="classMR_1_1IComputePointsToDistanceVolumeByParts_1aa5f6e522e8821d91a7fccdb62aa78525" kind="function"><name>IComputePointsToDistanceVolumeByParts</name></member>
+    <member refid="classMR_1_1IComputePointsToDistanceVolumeByParts_1a43e724a1ff5c41239aae328d222c0c25" kind="function"><name>__MR_IComputePointsToDistanceVolumeByParts_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1IComputePointsToDistanceVolumeByParts_1a6be753775445ac25ac99863733a72992" kind="function"><name>__MR_IComputePointsToDistanceVolumeByParts_UpcastTo_MR_IComputePointsToDistanceVolume</name></member>
   </compound>
   <compound refid="classMR_1_1IComputeToolDistance" kind="class"><name>MR::IComputeToolDistance</name>
     <member refid="classMR_1_1IComputeToolDistance_1a85e3cd31534e0aa15c453d579dbba905" kind="function"><name>IComputeToolDistance</name></member>
@@ -59336,23 +59520,19 @@
     <member refid="classMR_1_1PointsToMeshParameters_1affb338bbb532625c6377d3a5c08059b8" kind="property"><name>ptColors</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1af0f8c78fe86d196cb36164132d7ea88e" kind="property"><name>vColors</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1a03c758b506378397697042f5b387acca" kind="property"><name>progress</name></member>
-    <member refid="classMR_1_1PointsToMeshParameters_1a081e4ad7b5f579686c89f9bb17205a3a" kind="property"><name>createVolumeCallbackByParts</name></member>
-    <member refid="classMR_1_1PointsToMeshParameters_1a82c735965e0ca84f8007880ffdd0380f" kind="property"><name>createVolumeCallback</name></member>
-    <member refid="classMR_1_1PointsToMeshParameters_1a036116cce88bb039b99660e9b90083ef" kind="property"><name>canCreateVolume</name></member>
+    <member refid="classMR_1_1PointsToMeshParameters_1ab67a876783baf1f946eb2ce173786475" kind="property"><name>computeVolume</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1a35230f1c2526b4a04e585287bad38a51" kind="function"><name>PointsToMeshParameters</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1a769a4608cfe2ade7419accaac40ea706" kind="function"><name>PointsToMeshParameters</name></member>
-    <member refid="classMR_1_1PointsToMeshParameters_1a279d60da31a6292ddbd20cbba35107bb" kind="function"><name>PointsToMeshParameters</name></member>
+    <member refid="classMR_1_1PointsToMeshParameters_1abc24a9f02be9129c80b2f9c7e687c7ca" kind="function"><name>PointsToMeshParameters</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1a73f41c25251a4a618deaf9bcd9e78619" kind="function"><name>PointsToMeshParameters</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1aad07539810301017bebf8d996fc64bd9" kind="function"><name>PointsToMeshParameters</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1a07b589e8cfa103343619e5b987c26f41" kind="function"><name>PointsToMeshParameters</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1a465bd035b1b7fe5b3da9277b1382ae90" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1af8d3a243f234b5a378b652bab38e92aa" kind="function"><name>__MR_PointsToMeshParameters_AssignFromAnother</name></member>
-    <member refid="classMR_1_1PointsToMeshParameters_1aa2d03f4dbe69e2122c32dd5776a40049" kind="function"><name>__MR_PointsToMeshParameters_ConstructFrom</name></member>
+    <member refid="classMR_1_1PointsToMeshParameters_1a2cebc50289a0335b4e90d7dd5a27d4f0" kind="function"><name>__MR_PointsToMeshParameters_ConstructFrom</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1a3f3bd7dec724428f80f51f6c64e0c3ab" kind="function"><name>__MR_PointsToMeshParameters_ConstructFromAnother</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1aeefb75ec6da6f9f8d5c560db6f7159b4" kind="function"><name>__MR_PointsToMeshParameters_DefaultConstruct</name></member>
-    <member refid="classMR_1_1PointsToMeshParameters_1aa83e955659e550f3cd43003f15c97953" kind="function"><name>__MR_PointsToMeshParameters_GetMutable_canCreateVolume</name></member>
-    <member refid="classMR_1_1PointsToMeshParameters_1abf89e68dc84c3a192f31a615837fbc02" kind="function"><name>__MR_PointsToMeshParameters_GetMutable_createVolumeCallback</name></member>
-    <member refid="classMR_1_1PointsToMeshParameters_1ad3afebe5e9d2ba2a6e80469816537142" kind="function"><name>__MR_PointsToMeshParameters_GetMutable_createVolumeCallbackByParts</name></member>
+    <member refid="classMR_1_1PointsToMeshParameters_1a4f93707e14694583fcb4ab677fcf5df5" kind="function"><name>__MR_PointsToMeshParameters_GetMutable_computeVolume</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1ad8e73cde3652020f2ff411d5f115f196" kind="function"><name>__MR_PointsToMeshParameters_GetMutable_progress</name></member>
   </compound>
   <compound refid="classMR_1_1Cuda_1_1PointsToMeshProjector" kind="class"><name>MR::Cuda::PointsToMeshProjector</name>
@@ -61413,6 +61593,34 @@
     <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1a02421c8f402549467fa9a9cca4caccee" kind="function"><name>__MR_TriangulationHelpers_Settings_ConstructFrom</name></member>
     <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1a08cf2f52e10f8e10f54af75dbf7f09c2" kind="function"><name>__MR_TriangulationHelpers_Settings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1abb4558766e4d012bc9464d4d588d8f8d" kind="function"><name>__MR_TriangulationHelpers_Settings_DefaultConstruct</name></member>
+  </compound>
+  <compound refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume" kind="class"><name>MR::Std::SharedPtr_MRCudaComputePointsToDistanceVolume</name>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a17e8b2d34e3048fa1f75c2b893b7da6f" kind="function"><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1ad94ec2af8643e9a303f39f5864f2d418" kind="function"><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1acd0233c16c34a584e52a0efb9df47cc2" kind="function"><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a3ca4b2e9d8fbc21b74962d9014d08b96" kind="function"><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a0116c6edc110721b8448ab5dc6b8fdd0" kind="function"><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a9274114fb5ee972822d9d17a78b69adb" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1ab1b03a47697f4da6837b1f12030209ae" kind="function"><name>reset</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a1ae3ebe705177ef9369df9cca8a79ae8" kind="function"><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1af4fb29320e4a5402a9a64550459a9caf" kind="function"><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1aa041230bcb85c4b414d1b689d960e61e" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a691aec710db43ce9844b60e97bca1b78" kind="function"><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a2b680cb4a593e305172498417dfa8a1d" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a7089498a6e41301881f39bc79ae70379" kind="function"><name>SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1acfe1507d4a5a4ecbf4d72dd9758474e8" kind="function"><name>assignAliasing</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a3e9c29930ea4cb9b8558a553e90ea75c" kind="function"><name>operator SharedPtr_MRCudaComputePointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a3502b9f058ebaa85f7b0152cc22b2977" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_Assign</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a7d83c0b3b8bb5f3034f6330e4dabaec9" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignAliasing</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a0a052e40a0d8bf3e6cceadb11cee340c" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignFromAnother</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1acb09ca93bd9d3857535fa1bd1c4fc33d" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_AssignNonOwning</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a4ce66fd95a640f43f96d6d970a066d80" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_Construct</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1ab486c01c0d7938f1668df14a6f4e5512" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructAliasing</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a76c599f6db974791caee2cdfb1bc6770" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1af279af130c71ef08b965a74d6181c2d2" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructFromValue</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a3a11c559f10990cf9352347ba2325e24" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_ConstructNonOwning</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a6f7d07014aa8db536087d8df6e690a61" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume_1a0b292856396bc463e441877d2c10f03f" kind="function"><name>__MR_std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume_reset</name></member>
   </compound>
   <compound refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber" kind="class"><name>MR::Std::SharedPtr_MRCudaFastWindingNumber</name>
     <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1afd4f2521a66b979cf16c003fd28ef57b" kind="function"><name>SharedPtr_MRCudaFastWindingNumber</name></member>
@@ -69987,6 +70195,8 @@
   <compound refid="MRCudaSweptVolume_8cs" kind="file"><name>MRCudaSweptVolume.cs</name>
   </compound>
   <compound refid="MRCudaTest_8cs" kind="file"><name>MRCudaTest.cs</name>
+  </compound>
+  <compound refid="std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8cs" kind="file"><name>std_shared_ptr_MR_Cuda_ComputePointsToDistanceVolume.cs</name>
   </compound>
   <compound refid="std__shared__ptr__MR__Cuda__FastWindingNumber_8cs" kind="file"><name>std_shared_ptr_MR_Cuda_FastWindingNumber.cs</name>
   </compound>

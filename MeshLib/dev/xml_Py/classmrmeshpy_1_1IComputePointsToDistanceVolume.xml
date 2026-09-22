@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1IComputePointsToDistanceVolume" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::IComputePointsToDistanceVolume</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1IComputePointsToDistanceFunctionVolume" prot="public" virt="non-virtual">mrmeshpy.IComputePointsToDistanceFunctionVolume</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1IComputePointsToDistanceVolumeByParts" prot="public" virt="non-virtual">mrmeshpy.IComputePointsToDistanceVolumeByParts</derivedcompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IComputePointsToDistanceVolume_1a02cd2e8d504352d3b057a9eba5350864" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IComputePointsToDistanceVolume" kindref="compound">IComputePointsToDistanceVolume</ref></type>
+        <definition> IComputePointsToDistanceVolume mrmeshpy.IComputePointsToDistanceVolume.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.IComputePointsToDistanceVolume.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ComputePointsToDistanceVolume_1a36cd8fcc3916964f80123a93c6c5cfcf">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ComputePointsToDistanceVolume_1a36cd8fcc3916964f80123a93c6c5cfcf">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1IComputePointsToDistanceFunctionVolume_1a17b250772d5845d224ecec0cc6902a77">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1IComputePointsToDistanceVolumeByParts_1a8f39ae23bb19773fcaebe2a9311d7dd5">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24348" bodyend="24349"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IComputePointsToDistanceVolume_1a0542fd5f24bbe2198eedf45694af58b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.IComputePointsToDistanceVolume.canCompute</definition>
+        <argsstring>(self, PointCloud cloud, PointsToDistanceVolumeParams params)</argsstring>
+        <name>canCompute</name>
+        <qualifiedname>mrmeshpy.IComputePointsToDistanceVolume.canCompute</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ComputePointsToDistanceVolume_1ac788fd52197e549cff901d7e2549dab8">canCompute</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether this implementation can process given input, e.g. it fits in GPU memory
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24350" bodyend="24353"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IComputePointsToDistanceVolume_1a901db1f75275ad640343e60689f47b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+        <definition> SimpleVolumeMinMax mrmeshpy.IComputePointsToDistanceVolume.compute</definition>
+        <argsstring>(self, PointCloud cloud, PointsToDistanceVolumeParams params)</argsstring>
+        <name>compute</name>
+        <qualifiedname>mrmeshpy.IComputePointsToDistanceVolume.compute</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ComputePointsToDistanceVolume_1a78361ed7042a57bd92d1e5419fc0e814">compute</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>makes the whole volume at once, which needs the entire grid in memory;
+the derived interfaces below offer cheaper ways to obtain the same data
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24354" bodyend="24358"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::IComputePointsToDistanceVolume
+
+abstract class for computing a volume of signed distances to points with normals
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.IComputePointsToDistanceVolume</label>
+        <link refid="classmrmeshpy_1_1IComputePointsToDistanceVolume"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.ComputePointsToDistanceVolume</label>
+        <link refid="classmrmeshpy_1_1ComputePointsToDistanceVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.IComputePointsToDistanceFunctionVolume</label>
+        <link refid="classmrmeshpy_1_1IComputePointsToDistanceFunctionVolume"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.IComputePointsToDistanceVolumeByParts</label>
+        <link refid="classmrmeshpy_1_1IComputePointsToDistanceVolumeByParts"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24341" bodyend="24358"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1IComputePointsToDistanceVolume_1a0542fd5f24bbe2198eedf45694af58b3" prot="public" virt="non-virtual"><scope>mrmeshpy::IComputePointsToDistanceVolume</scope><name>canCompute</name></member>
+      <member refid="classmrmeshpy_1_1IComputePointsToDistanceVolume_1a901db1f75275ad640343e60689f47b6a" prot="public" virt="non-virtual"><scope>mrmeshpy::IComputePointsToDistanceVolume</scope><name>compute</name></member>
+      <member refid="classmrmeshpy_1_1IComputePointsToDistanceVolume_1a02cd2e8d504352d3b057a9eba5350864" prot="public" virt="non-virtual"><scope>mrmeshpy::IComputePointsToDistanceVolume</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

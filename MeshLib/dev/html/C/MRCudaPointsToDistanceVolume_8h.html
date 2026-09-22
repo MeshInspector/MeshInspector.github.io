@@ -138,21 +138,625 @@ $(function(){initNavTree('MRCudaPointsToDistanceVolume_8h.html','',''); });
 
 <div class="header">
   <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRCudaPointsToDistanceVolume.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="uda_2include_2MRCCuda_2exports_8h_source.html">MRCCuda/exports.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRCudaPointsToDistanceVolume_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a548d749a4f4bfa4c11ac5a656a5ab828" id="r_a548d749a4f4bfa4c11ac5a656a5ab828"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8dd43868b0a34e486dea9114846ebe67" id="r_a8dd43868b0a34e486dea9114846ebe67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__SimpleVolumeMinMax__std__string_8h.html#aa92b66a9548e8504eac52319ee60536a">MR_expected_MR_SimpleVolumeMinMax_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dd43868b0a34e486dea9114846ebe67">MR_Cuda_pointsToDistanceVolume</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *params)</td></tr>
-<tr class="memitem:a047a4121c1c28932a79870ec6ffad9ff" id="r_a047a4121c1c28932a79870ec6ffad9ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a047a4121c1c28932a79870ec6ffad9ff">MR_Cuda_pointsToDistanceVolumeByParts</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *params, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> addPart_pass_by, <a class="el" href="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h.html#a8b4d84ed41bab65a5c841f52df3093ed">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</a> *addPart, int layerOverlap)</td></tr>
+<tr class="memitem:a8dd43868b0a34e486dea9114846ebe67" id="r_a8dd43868b0a34e486dea9114846ebe67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__SimpleVolumeMinMax__std__string_8h.html#aa92b66a9548e8504eac52319ee60536a">MR_expected_MR_SimpleVolumeMinMax_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dd43868b0a34e486dea9114846ebe67">MR_Cuda_pointsToDistanceVolume</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *params)</td></tr>
+<tr class="memitem:a047a4121c1c28932a79870ec6ffad9ff" id="r_a047a4121c1c28932a79870ec6ffad9ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a047a4121c1c28932a79870ec6ffad9ff">MR_Cuda_pointsToDistanceVolumeByParts</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *params, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> addPart_pass_by, <a class="el" href="std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h.html#a8b4d84ed41bab65a5c841f52df3093ed">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</a> *addPart, int layerOverlap)</td></tr>
+<tr class="memitem:a7ac401038d0e58a350b4871529095f77" id="r_a7ac401038d0e58a350b4871529095f77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ac401038d0e58a350b4871529095f77">MR_Cuda_pointsToDistanceVolumeMemory</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *dims, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *ptNormals)</td></tr>
+<tr class="memitem:a9dd33fe03af03aa4b73f305f182ebdc4" id="r_a9dd33fe03af03aa4b73f305f182ebdc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dd33fe03af03aa4b73f305f182ebdc4">MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a0c14142c0d489c45a9e56fb575aafd8a" id="r_a0c14142c0d489c45a9e56fb575aafd8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c14142c0d489c45a9e56fb575aafd8a">MR_Cuda_ComputePointsToDistanceVolume_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a4e9923d9a4b72319295fa5723d234ce5" id="r_a4e9923d9a4b72319295fa5723d234ce5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e9923d9a4b72319295fa5723d234ce5">MR_Cuda_ComputePointsToDistanceVolume_OffsetPtr</a> (const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a5a57ab839fec89771433a11ce511827c" id="r_a5a57ab839fec89771433a11ce511827c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a57ab839fec89771433a11ce511827c">MR_Cuda_ComputePointsToDistanceVolume_OffsetMutablePtr</a> (<a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a4e4f4666e71d3a6ba0d926e1ae932c77" id="r_a4e4f4666e71d3a6ba0d926e1ae932c77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e4f4666e71d3a6ba0d926e1ae932c77">MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolume</a> (const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *object)</td></tr>
+<tr class="memitem:add171c69684f2fb35be9c6ee7bb2c163" id="r_add171c69684f2fb35be9c6ee7bb2c163"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add171c69684f2fb35be9c6ee7bb2c163">MR_Cuda_ComputePointsToDistanceVolume_MutableUpcastTo_MR_IComputePointsToDistanceVolume</a> (<a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *object)</td></tr>
+<tr class="memitem:ace387117056b4518a8e5423ce699d169" id="r_ace387117056b4518a8e5423ce699d169"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace387117056b4518a8e5423ce699d169">MR_Cuda_ComputePointsToDistanceVolume_StaticDowncastFrom_MR_IComputePointsToDistanceVolume</a> (const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *object)</td></tr>
+<tr class="memitem:a110172b6a1d3b1d0eb3cf4997d1b3faa" id="r_a110172b6a1d3b1d0eb3cf4997d1b3faa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a110172b6a1d3b1d0eb3cf4997d1b3faa">MR_Cuda_ComputePointsToDistanceVolume_MutableStaticDowncastFrom_MR_IComputePointsToDistanceVolume</a> (<a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *object)</td></tr>
+<tr class="memitem:a248ee5d7537cb528abd419907c8e7170" id="r_a248ee5d7537cb528abd419907c8e7170"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a248ee5d7537cb528abd419907c8e7170">MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume</a> (const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *object)</td></tr>
+<tr class="memitem:a3a00fd0603576b8f11a739e55542e337" id="r_a3a00fd0603576b8f11a739e55542e337"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a00fd0603576b8f11a739e55542e337">MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFrom_MR_IComputePointsToDistanceVolume</a> (<a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *object)</td></tr>
+<tr class="memitem:a39b7fe6edc34b3aff202ffee5bea9b10" id="r_a39b7fe6edc34b3aff202ffee5bea9b10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39b7fe6edc34b3aff202ffee5bea9b10">MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolume</a> (const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *object)</td></tr>
+<tr class="memitem:ab7d13aead60fabb26ccfaeb72ccbbbf4" id="r_ab7d13aead60fabb26ccfaeb72ccbbbf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7d13aead60fabb26ccfaeb72ccbbbf4">MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolume</a> (<a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *object)</td></tr>
+<tr class="memitem:a479995d1fb5aead76300173bc41916f8" id="r_a479995d1fb5aead76300173bc41916f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a479995d1fb5aead76300173bc41916f8">MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolumeByParts</a> (const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *object)</td></tr>
+<tr class="memitem:aeb19c95ad918439eb0c7d7aece67f505" id="r_aeb19c95ad918439eb0c7d7aece67f505"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb19c95ad918439eb0c7d7aece67f505">MR_Cuda_ComputePointsToDistanceVolume_MutableUpcastTo_MR_IComputePointsToDistanceVolumeByParts</a> (<a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *object)</td></tr>
+<tr class="memitem:a34ea82a08fa7531a199fe4f0c1389b5b" id="r_a34ea82a08fa7531a199fe4f0c1389b5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34ea82a08fa7531a199fe4f0c1389b5b">MR_Cuda_ComputePointsToDistanceVolume_StaticDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</a> (const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *object)</td></tr>
+<tr class="memitem:a1d800024a6095e0d248a172ddfa39196" id="r_a1d800024a6095e0d248a172ddfa39196"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d800024a6095e0d248a172ddfa39196">MR_Cuda_ComputePointsToDistanceVolume_MutableStaticDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</a> (<a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *object)</td></tr>
+<tr class="memitem:acc3e8dec0ebe561d263f48c6338f2314" id="r_acc3e8dec0ebe561d263f48c6338f2314"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc3e8dec0ebe561d263f48c6338f2314">MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</a> (const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *object)</td></tr>
+<tr class="memitem:a799ae8e0ba43f21a30052e114102994c" id="r_a799ae8e0ba43f21a30052e114102994c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a799ae8e0ba43f21a30052e114102994c">MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts</a> (<a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *object)</td></tr>
+<tr class="memitem:aebcd96326959164523daf25bacb6a036" id="r_aebcd96326959164523daf25bacb6a036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebcd96326959164523daf25bacb6a036">MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolumeByParts</a> (const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *object)</td></tr>
+<tr class="memitem:a0e6863b23262442105e0305e3473239d" id="r_a0e6863b23262442105e0305e3473239d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e6863b23262442105e0305e3473239d">MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolumeByParts</a> (<a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *object)</td></tr>
+<tr class="memitem:a8fd68ce7ccba796ba134cb9f63b77e9f" id="r_a8fd68ce7ccba796ba134cb9f63b77e9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fd68ce7ccba796ba134cb9f63b77e9f">MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *_other)</td></tr>
+<tr class="memitem:ac0088e63e1a9aa91f36531cb62a7dead" id="r_ac0088e63e1a9aa91f36531cb62a7dead"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0088e63e1a9aa91f36531cb62a7dead">MR_Cuda_ComputePointsToDistanceVolume_Destroy</a> (const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *_this)</td></tr>
+<tr class="memdesc:ac0088e63e1a9aa91f36531cb62a7dead"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:aaab91181db813ff7389d6553a0db4e59" id="r_aaab91181db813ff7389d6553a0db4e59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaab91181db813ff7389d6553a0db4e59">MR_Cuda_ComputePointsToDistanceVolume_DestroyArray</a> (const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *_this)</td></tr>
+<tr class="memdesc:aaab91181db813ff7389d6553a0db4e59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a9de806097fa851272c13c82feae341a5" id="r_a9de806097fa851272c13c82feae341a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9de806097fa851272c13c82feae341a5">MR_Cuda_ComputePointsToDistanceVolume_AssignFromAnother</a> (<a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *_other)</td></tr>
+<tr class="memitem:aaeb347a5cf73792bfe7afb9c414346c3" id="r_aaeb347a5cf73792bfe7afb9c414346c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaeb347a5cf73792bfe7afb9c414346c3">MR_Cuda_ComputePointsToDistanceVolume_canCompute</a> (const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *_this, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *params)</td></tr>
+<tr class="memitem:a07570ebd01d6531e5c32b0691007328c" id="r_a07570ebd01d6531e5c32b0691007328c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__SimpleVolumeMinMax__std__string_8h.html#aa92b66a9548e8504eac52319ee60536a">MR_expected_MR_SimpleVolumeMinMax_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07570ebd01d6531e5c32b0691007328c">MR_Cuda_ComputePointsToDistanceVolume_compute</a> (const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *_this, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *params)</td></tr>
+<tr class="memitem:a59375e572da7208f9362a2c7f1514619" id="r_a59375e572da7208f9362a2c7f1514619"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59375e572da7208f9362a2c7f1514619">MR_Cuda_ComputePointsToDistanceVolume_computeByParts</a> (const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *_this, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *params, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> addPart_pass_by, <a class="el" href="std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h.html#a8b4d84ed41bab65a5c841f52df3093ed">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</a> *addPart, int layerOverlap)</td></tr>
 </table>
+<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a548d749a4f4bfa4c11ac5a656a5ab828" name="a548d749a4f4bfa4c11ac5a656a5ab828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a548d749a4f4bfa4c11ac5a656a5ab828">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CUDA implementation of IComputePointsToDistanceVolumeByParts Generated from class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::IComputePointsToDistanceVolumeByParts</span> Indirect: (non-virtual) <span class="tt">MR::IComputePointsToDistanceVolume</span> Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a9de806097fa851272c13c82feae341a5" name="a9de806097fa851272c13c82feae341a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9de806097fa851272c13c82feae341a5">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Cuda::ComputePointsToDistanceVolume::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="aaeb347a5cf73792bfe7afb9c414346c3" name="aaeb347a5cf73792bfe7afb9c414346c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeb347a5cf73792bfe7afb9c414346c3">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_canCompute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> bool MR_Cuda_ComputePointsToDistanceVolume_canCompute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>both compute() and computeByParts() upload the same data and process the grid in chunks sized to the free GPU memory, so this answers for either of them Generated from method <span class="tt">MR::Cuda::ComputePointsToDistanceVolume::canCompute</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">cloud</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a07570ebd01d6531e5c32b0691007328c" name="a07570ebd01d6531e5c32b0691007328c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07570ebd01d6531e5c32b0691007328c">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_compute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="expected__MR__SimpleVolumeMinMax__std__string_8h.html#aa92b66a9548e8504eac52319ee60536a">MR_expected_MR_SimpleVolumeMinMax_std_string</a> * MR_Cuda_ComputePointsToDistanceVolume_compute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Cuda::ComputePointsToDistanceVolume::compute</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">cloud</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__SimpleVolumeMinMax__std__string_8h.html#aed32b4b4779f6d2e187f5273b07949d2" title="Destroys a heap-allocated instance of MR_expected_MR_SimpleVolumeMinMax_std_string....">MR_expected_MR_SimpleVolumeMinMax_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a59375e572da7208f9362a2c7f1514619" name="a59375e572da7208f9362a2c7f1514619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59375e572da7208f9362a2c7f1514619">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_computeByParts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_Cuda_ComputePointsToDistanceVolume_computeByParts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>addPart_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h.html#a8b4d84ed41bab65a5c841f52df3093ed">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</a> *</td>          <td class="paramname"><span class="paramname"><em>addPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>layerOverlap</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Cuda::ComputePointsToDistanceVolume::computeByParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">cloud</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8fd68ce7ccba796ba134cb9f63b77e9f" name="a8fd68ce7ccba796ba134cb9f63b77e9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fd68ce7ccba796ba134cb9f63b77e9f">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::Cuda::ComputePointsToDistanceVolume::ComputePointsToDistanceVolume</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ac0088e63e1a9aa91f36531cb62a7dead" title="Destroys a heap-allocated instance of MR_Cuda_ComputePointsToDistanceVolume. Does nothing if the poin...">MR_Cuda_ComputePointsToDistanceVolume_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9dd33fe03af03aa4b73f305f182ebdc4" name="a9dd33fe03af03aa4b73f305f182ebdc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dd33fe03af03aa4b73f305f182ebdc4">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ac0088e63e1a9aa91f36531cb62a7dead" title="Destroys a heap-allocated instance of MR_Cuda_ComputePointsToDistanceVolume. Does nothing if the poin...">MR_Cuda_ComputePointsToDistanceVolume_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0c14142c0d489c45a9e56fb575aafd8a" name="a0c14142c0d489c45a9e56fb575aafd8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c14142c0d489c45a9e56fb575aafd8a">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#aaab91181db813ff7389d6553a0db4e59" title="Destroys a heap-allocated array of MR_Cuda_ComputePointsToDistanceVolume. Does nothing if the pointer...">MR_Cuda_ComputePointsToDistanceVolume_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#a5a57ab839fec89771433a11ce511827c">MR_Cuda_ComputePointsToDistanceVolume_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a4e9923d9a4b72319295fa5723d234ce5">MR_Cuda_ComputePointsToDistanceVolume_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ac0088e63e1a9aa91f36531cb62a7dead" name="ac0088e63e1a9aa91f36531cb62a7dead"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0088e63e1a9aa91f36531cb62a7dead">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void MR_Cuda_ComputePointsToDistanceVolume_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aaab91181db813ff7389d6553a0db4e59" name="aaab91181db813ff7389d6553a0db4e59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaab91181db813ff7389d6553a0db4e59">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void MR_Cuda_ComputePointsToDistanceVolume_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a248ee5d7537cb528abd419907c8e7170" name="a248ee5d7537cb528abd419907c8e7170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a248ee5d7537cb528abd419907c8e7170">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IComputePointsToDistanceVolume</span> to a derived class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="acc3e8dec0ebe561d263f48c6338f2314" name="acc3e8dec0ebe561d263f48c6338f2314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc3e8dec0ebe561d263f48c6338f2314">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IComputePointsToDistanceVolumeByParts</span> to a derived class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a39b7fe6edc34b3aff202ffee5bea9b10" name="a39b7fe6edc34b3aff202ffee5bea9b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39b7fe6edc34b3aff202ffee5bea9b10">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IComputePointsToDistanceVolume</span> to a derived class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <span class="tt">object</span> can not be null. It is a single object. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aebcd96326959164523daf25bacb6a036" name="aebcd96326959164523daf25bacb6a036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebcd96326959164523daf25bacb6a036">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolumeByParts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_DynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolumeByParts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IComputePointsToDistanceVolumeByParts</span> to a derived class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <span class="tt">object</span> can not be null. It is a single object. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3a00fd0603576b8f11a739e55542e337" name="a3a00fd0603576b8f11a739e55542e337"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a00fd0603576b8f11a739e55542e337">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFrom_MR_IComputePointsToDistanceVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFrom_MR_IComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IComputePointsToDistanceVolume</span> to a derived class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a799ae8e0ba43f21a30052e114102994c" name="a799ae8e0ba43f21a30052e114102994c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a799ae8e0ba43f21a30052e114102994c">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFrom_MR_IComputePointsToDistanceVolumeByParts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IComputePointsToDistanceVolumeByParts</span> to a derived class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="ab7d13aead60fabb26ccfaeb72ccbbbf4" name="ab7d13aead60fabb26ccfaeb72ccbbbf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7d13aead60fabb26ccfaeb72ccbbbf4">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IComputePointsToDistanceVolume</span> to a derived class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <span class="tt">object</span> can not be null. It is a single object. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0e6863b23262442105e0305e3473239d" name="a0e6863b23262442105e0305e3473239d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e6863b23262442105e0305e3473239d">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolumeByParts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_MutableDynamicDowncastFromOrFail_MR_IComputePointsToDistanceVolumeByParts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IComputePointsToDistanceVolumeByParts</span> to a derived class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <span class="tt">object</span> can not be null. It is a single object. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a110172b6a1d3b1d0eb3cf4997d1b3faa" name="a110172b6a1d3b1d0eb3cf4997d1b3faa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a110172b6a1d3b1d0eb3cf4997d1b3faa">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_MutableStaticDowncastFrom_MR_IComputePointsToDistanceVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_MutableStaticDowncastFrom_MR_IComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IComputePointsToDistanceVolume</span> to a derived class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a1d800024a6095e0d248a172ddfa39196" name="a1d800024a6095e0d248a172ddfa39196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d800024a6095e0d248a172ddfa39196">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_MutableStaticDowncastFrom_MR_IComputePointsToDistanceVolumeByParts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_MutableStaticDowncastFrom_MR_IComputePointsToDistanceVolumeByParts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IComputePointsToDistanceVolumeByParts</span> to a derived class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="add171c69684f2fb35be9c6ee7bb2c163" name="add171c69684f2fb35be9c6ee7bb2c163"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add171c69684f2fb35be9c6ee7bb2c163">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_MutableUpcastTo_MR_IComputePointsToDistanceVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_MutableUpcastTo_MR_IComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span> to its base class <span class="tt">MR::IComputePointsToDistanceVolume</span>. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="aeb19c95ad918439eb0c7d7aece67f505" name="aeb19c95ad918439eb0c7d7aece67f505"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb19c95ad918439eb0c7d7aece67f505">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_MutableUpcastTo_MR_IComputePointsToDistanceVolumeByParts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> * MR_Cuda_ComputePointsToDistanceVolume_MutableUpcastTo_MR_IComputePointsToDistanceVolumeByParts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span> to its base class <span class="tt">MR::IComputePointsToDistanceVolumeByParts</span>. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a5a57ab839fec89771433a11ce511827c" name="a5a57ab839fec89771433a11ce511827c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a57ab839fec89771433a11ce511827c">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a4e9923d9a4b72319295fa5723d234ce5" name="a4e9923d9a4b72319295fa5723d234ce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e9923d9a4b72319295fa5723d234ce5">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="ace387117056b4518a8e5423ce699d169" name="ace387117056b4518a8e5423ce699d169"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace387117056b4518a8e5423ce699d169">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_StaticDowncastFrom_MR_IComputePointsToDistanceVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_StaticDowncastFrom_MR_IComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IComputePointsToDistanceVolume</span> to a derived class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a34ea82a08fa7531a199fe4f0c1389b5b" name="a34ea82a08fa7531a199fe4f0c1389b5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ea82a08fa7531a199fe4f0c1389b5b">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_StaticDowncastFrom_MR_IComputePointsToDistanceVolumeByParts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_StaticDowncastFrom_MR_IComputePointsToDistanceVolumeByParts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IComputePointsToDistanceVolumeByParts</span> to a derived class <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a4e4f4666e71d3a6ba0d926e1ae932c77" name="a4e4f4666e71d3a6ba0d926e1ae932c77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e4f4666e71d3a6ba0d926e1ae932c77">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c">MR_IComputePointsToDistanceVolume</a> * MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span> to its base class <span class="tt">MR::IComputePointsToDistanceVolume</span>. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a479995d1fb5aead76300173bc41916f8" name="a479995d1fb5aead76300173bc41916f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a479995d1fb5aead76300173bc41916f8">&#9670;&#160;</a></span>MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolumeByParts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> const <a class="el" href="std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a4f7685633a4012c48f46bff4d17bd70d">MR_IComputePointsToDistanceVolumeByParts</a> * MR_Cuda_ComputePointsToDistanceVolume_UpcastTo_MR_IComputePointsToDistanceVolumeByParts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a548d749a4f4bfa4c11ac5a656a5ab828">MR_Cuda_ComputePointsToDistanceVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <span class="tt">MR::Cuda::ComputePointsToDistanceVolume</span> to its base class <span class="tt">MR::IComputePointsToDistanceVolumeByParts</span>. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
 <a id="a8dd43868b0a34e486dea9114846ebe67" name="a8dd43868b0a34e486dea9114846ebe67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8dd43868b0a34e486dea9114846ebe67">&#9670;&#160;</a></span>MR_Cuda_pointsToDistanceVolume()</h2>
 
@@ -167,7 +771,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -189,7 +793,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -199,7 +803,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h.html#a8b4d84ed41bab65a5c841f52df3093ed">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</a> *</td>          <td class="paramname"><span class="paramname"><em>addPart</em></span>, </td>
+          <td class="paramtype"><a class="el" href="std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h.html#a8b4d84ed41bab65a5c841f52df3093ed">MR_std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int</a> *</td>          <td class="paramname"><span class="paramname"><em>addPart</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -209,6 +813,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>makes SimpleVolume filled with signed distances to points with normals populate the volume by parts to the given callback Generated from function <span class="tt">MR::Cuda::pointsToDistanceVolumeByParts</span>. Parameter <span class="tt">cloud</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7ac401038d0e58a350b4871529095f77" name="a7ac401038d0e58a350b4871529095f77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ac401038d0e58a350b4871529095f77">&#9670;&#160;</a></span>MR_Cuda_pointsToDistanceVolumeMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t MR_Cuda_pointsToDistanceVolumeMemory </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>ptNormals</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the minimal amount of free GPU memory required to build a distance volume with given dimensions Generated from function <span class="tt">MR::Cuda::pointsToDistanceVolumeMemory</span>. Parameter <span class="tt">cloud</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

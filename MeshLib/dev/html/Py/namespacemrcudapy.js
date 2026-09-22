@@ -1,5 +1,6 @@
 var namespacemrcudapy =
 [
+    [ "ComputePointsToDistanceVolume", "classmrcudapy_1_1ComputePointsToDistanceVolume.html", "classmrcudapy_1_1ComputePointsToDistanceVolume" ],
     [ "ComputeToolDistance", "classmrcudapy_1_1ComputeToolDistance.html", "classmrcudapy_1_1ComputeToolDistance" ],
     [ "DeviceInfo", "classmrcudapy_1_1DeviceInfo.html", "classmrcudapy_1_1DeviceInfo" ],
     [ "FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", "classmrcudapy_1_1FastWindingNumber" ],
@@ -23,5 +24,6 @@ var namespacemrcudapy =
     [ "maxBufferSizeAlignedByBlock", "namespacemrcudapy.html#aab9adabccec4346ca61b1e628d692a35", null ],
     [ "negatePicture", "namespacemrcudapy.html#ac3163db5e369a9de3b776b9110700924", null ],
     [ "pointsToDistanceVolume", "namespacemrcudapy.html#abacc3f1ddc84e70bb38d8d75c6595bd3", null ],
-    [ "pointsToDistanceVolumeByParts", "namespacemrcudapy.html#aa34056830ad5daa6e50f8ccd1078e141", null ]
+    [ "pointsToDistanceVolumeByParts", "namespacemrcudapy.html#aa34056830ad5daa6e50f8ccd1078e141", null ],
+    [ "pointsToDistanceVolumeMemory", "namespacemrcudapy.html#af3c8f708b1714739db24e6c11d9c4db3", null ]
 ];

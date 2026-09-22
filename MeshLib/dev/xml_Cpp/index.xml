@@ -1883,6 +1883,16 @@
     <member refid="structMR_1_1CompressZipSettings_1a081a0d03fa07baae69e080a91f1aa61d" kind="variable"><name>password</name></member>
     <member refid="structMR_1_1CompressZipSettings_1a9796435e6a3ca7ed636ac9c0c3121a42" kind="variable"><name>cb</name></member>
   </compound>
+  <compound refid="classMR_1_1ComputePointsToDistanceVolume" kind="class"><name>MR::ComputePointsToDistanceVolume</name>
+    <member refid="group__GeneralGroup_1ga312e027f6b14321c1e5af193fc587217" kind="function"><name>canCompute</name></member>
+    <member refid="group__GeneralGroup_1ga5215aa00e754507c0beebad13b90d508" kind="function"><name>compute</name></member>
+    <member refid="group__GeneralGroup_1gab532a0db10593ce68ea887ded46fb244" kind="function"><name>computeFunctionVolume</name></member>
+  </compound>
+  <compound refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" kind="class"><name>MR::Cuda::ComputePointsToDistanceVolume</name>
+    <member refid="group__GeneralGroup_1ga4ab69dfa734440add0aac0ba35d79944" kind="function"><name>canCompute</name></member>
+    <member refid="group__GeneralGroup_1ga9316c01f6ad60e94fe21976a56638bc0" kind="function"><name>compute</name></member>
+    <member refid="group__GeneralGroup_1ga45cb6b5925c44133a1659e0e91ea32a7" kind="function"><name>computeByParts</name></member>
+  </compound>
   <compound refid="structMR_1_1ComputeSteepestDescentPathSettings" kind="struct"><name>MR::ComputeSteepestDescentPathSettings</name>
     <member refid="structMR_1_1ComputeSteepestDescentPathSettings_1a9c5b63e96c36543a3af9203630d6325c" kind="variable"><name>end</name></member>
     <member refid="structMR_1_1ComputeSteepestDescentPathSettings_1adb7629a9e4ce0c21efc00fd5f1b3932f" kind="variable"><name>outVertexReached</name></member>
@@ -2207,8 +2217,7 @@
     <member refid="group__GeneralGroup_1ga29c59af2c526ce1b2b126dd201c3a7fb" kind="typedef"><name>CudaFwnConstructor</name></member>
     <member refid="group__GeneralGroup_1gab238a79ac9e6bdc05ebc7d4799c5afd9" kind="typedef"><name>CudaMeshProjectorConstructor</name></member>
     <member refid="group__GeneralGroup_1gaed0df442f81500a1fcba3ff380f44190" kind="typedef"><name>CudaPointsProjectorConstructor</name></member>
-    <member refid="group__GeneralGroup_1ga7acccf65074e9ea99f88143c0ba0816a" kind="typedef"><name>CudaPointsToDistanceVolumeCallback</name></member>
-    <member refid="group__GeneralGroup_1gab4da14893aa8c8e22579f15c1bb64991" kind="typedef"><name>CudaPointsToDistanceVolumeByPartsCallback</name></member>
+    <member refid="group__GeneralGroup_1ga85794d3b294b977202e9957c174b7a27" kind="typedef"><name>CudaComputePointsToDistanceVolumeConstructor</name></member>
     <member refid="group__GeneralGroup_1ga20534546f2d694b2e2c2687832828ae2" kind="typedef"><name>CudaComputeToolDistanceConstructor</name></member>
     <member refid="group__GeneralGroup_1gac0a81265244df59651e52d3852cfeb57" kind="variable"><name>isCudaAvailable_</name></member>
     <member refid="group__GeneralGroup_1ga14ac75033b72c1d4eb1ba1c9eba33d98" kind="variable"><name>maxDriverVersion_</name></member>
@@ -2219,16 +2228,14 @@
     <member refid="group__GeneralGroup_1ga2687ae303633bd532956028d0ffa58d3" kind="variable"><name>fwnCtor_</name></member>
     <member refid="group__GeneralGroup_1ga56946afaed5e4d5fbded01047739696f" kind="variable"><name>mpCtor_</name></member>
     <member refid="group__GeneralGroup_1gaa91a05cecf34a952801c509f6edcf67a" kind="variable"><name>ppCtor_</name></member>
-    <member refid="group__GeneralGroup_1ga947b0fb5614ecc833a97754e68f92191" kind="variable"><name>pointsToDistanceVolumeCallback_</name></member>
-    <member refid="group__GeneralGroup_1gaa62ffa5d81bf25e683877fc1c82d0a22" kind="variable"><name>pointsToDistanceVolumeByPartsCallback_</name></member>
+    <member refid="group__GeneralGroup_1ga1f5cd9105efbe9705539d9ff86018908" kind="variable"><name>cpdvCtor_</name></member>
     <member refid="group__GeneralGroup_1ga07caad4cea6009d52eaa9502a8fce764" kind="variable"><name>ctdCtor_</name></member>
     <member refid="group__GeneralGroup_1ga1c84ef23743e381b8635e6c6c6bdfb2b" kind="function"><name>setCudaAvailable</name></member>
     <member refid="group__GeneralGroup_1ga1054b7f8be7d2eed209fb65f1f82f4ca" kind="function"><name>setCudaFreeMemoryFunc</name></member>
     <member refid="group__GeneralGroup_1gad23dbaff6cee17143b7f1612f4946e53" kind="function"><name>setCudaFastWindingNumberConstructor</name></member>
     <member refid="group__GeneralGroup_1ga8ff4539752a1f32e8bb694b59d3ad7c9" kind="function"><name>setCudaMeshProjectorConstructor</name></member>
     <member refid="group__GeneralGroup_1ga6d1f993628da75eed086f0a5e5face9c" kind="function"><name>setCudaPointsProjectorConstructor</name></member>
-    <member refid="group__GeneralGroup_1ga75ddb851bf9adb202f0db1e2c8e83881" kind="function"><name>setCudaPointsToDistanceVolumeCallback</name></member>
-    <member refid="group__GeneralGroup_1gae1eaf97b826883a102c1af2dc6c677d0" kind="function"><name>setCudaPointsToDistanceVolumeByPartsCallback</name></member>
+    <member refid="group__GeneralGroup_1gaac350e2f8ed053dc407f7e0a36a2f224" kind="function"><name>setCudaComputePointsToDistanceVolumeConstructor</name></member>
     <member refid="group__GeneralGroup_1ga95d2cb91e636f24ca7eea28c365c0c85" kind="function"><name>setCudaComputeToolDistanceConstructor</name></member>
     <member refid="group__GeneralGroup_1ga18e4dd8df9ae57ff46b02500ff1ab77b" kind="function"><name>isCudaSupportedByPlarform</name></member>
     <member refid="group__GeneralGroup_1ga1e1a116ba946f8c03a9d5921847b0a10" kind="function"><name>isCudaAvailable</name></member>
@@ -2240,14 +2247,12 @@
     <member refid="group__GeneralGroup_1ga857af3aa2253e052627759f62cbbbe34" kind="function"><name>getCudaFastWindingNumber</name></member>
     <member refid="group__GeneralGroup_1gaf41cece2c27e29cabb2f9933f8214d5a" kind="function"><name>getCudaPointsToMeshProjector</name></member>
     <member refid="group__GeneralGroup_1ga4451b1fc3c59b88da807d0aec38e1c18" kind="function"><name>getCudaPointsProjector</name></member>
-    <member refid="group__GeneralGroup_1gac1939931888d9ee533e9e5817c8c7f6e" kind="function"><name>getCudaPointsToDistanceVolumeCallback</name></member>
-    <member refid="group__GeneralGroup_1ga2f2555ad8d3608347d33805c76bad5db" kind="function"><name>getCudaPointsToDistanceVolumeByPartsCallback</name></member>
+    <member refid="group__GeneralGroup_1ga1339236f1387a74417bc30306a1eae6e" kind="function"><name>getCudaComputePointsToDistanceVolume</name></member>
     <member refid="group__GeneralGroup_1gaaf379405e9817ae1be1c950e0ae3e530" kind="function"><name>getCudaComputeToolDistance</name></member>
     <member refid="group__GeneralGroup_1gaff07b352e194a264a7e89683eddf0bab" kind="function"><name>fastWindingNumberMeshMemory</name></member>
     <member refid="group__GeneralGroup_1ga1e4dea0e3b9b87f7b30b6c0980eeb97a" kind="function"><name>fromGridMemory</name></member>
     <member refid="group__GeneralGroup_1ga976cccca7b374641ff03ff0c8579efea" kind="function"><name>fromVectorMemory</name></member>
     <member refid="group__GeneralGroup_1ga1ef2d3f6b02b98c6e246b17431752127" kind="function"><name>selfIntersectionsMemory</name></member>
-    <member refid="group__GeneralGroup_1gaf256c0dc65f9c1c49975ec3166fa6554" kind="function"><name>pointsToDistanceVolumeMemory</name></member>
     <member refid="group__GeneralGroup_1ga8109adc83af8ba85f216529da6077c81" kind="function"><name>CudaAccessor</name></member>
     <member refid="group__GeneralGroup_1gaebd34fb5cead4f46af0268afd186991e" kind="function"><name>~CudaAccessor</name></member>
     <member refid="group__GeneralGroup_1ga6e4b5dad06709d73ebe6f5bdff0356c7" kind="function"><name>instance_</name></member>
@@ -4150,6 +4155,23 @@
     <member refid="group__GeneralGroup_1ga8850f5538a39af635ba8bcae3a4cae75" kind="function"><name>init</name></member>
     <member refid="group__GeneralGroup_1gade02b304d212d0b796e804a9ebe361c7" kind="function"><name>addNested</name></member>
     <member refid="group__GeneralGroup_1ga302822ce62771b9b4bf02730bf280cf0" kind="function"><name>complete</name></member>
+  </compound>
+  <compound refid="classMR_1_1IComputePointsToDistanceFunctionVolume" kind="class"><name>MR::IComputePointsToDistanceFunctionVolume</name>
+    <member refid="group__GeneralGroup_1ga152e3fe43cb6e11f7ff1dd0c10b57369" kind="function"><name>computeFunctionVolume</name></member>
+  </compound>
+  <compound refid="classMR_1_1IComputePointsToDistanceVolume" kind="class"><name>MR::IComputePointsToDistanceVolume</name>
+    <member refid="group__GeneralGroup_1ga67274dda6d9ec6a0263bf60088e56409" kind="function"><name>IComputePointsToDistanceVolume</name></member>
+    <member refid="group__GeneralGroup_1gafc49f649f23fb34e2e05dcf81db7c98e" kind="function"><name>IComputePointsToDistanceVolume</name></member>
+    <member refid="group__GeneralGroup_1ga49203c87a1e3771957b9d06a2d5fbd6b" kind="function"><name>IComputePointsToDistanceVolume</name></member>
+    <member refid="group__GeneralGroup_1ga3eb6e32c91c150d4fed57d55b4a55eae" kind="function"><name>operator=</name></member>
+    <member refid="group__GeneralGroup_1gac21a82abf4c9db8c0cccce6aebd53a87" kind="function"><name>operator=</name></member>
+    <member refid="group__GeneralGroup_1ga2856066855e764964a0455777c34ddd2" kind="function"><name>~IComputePointsToDistanceVolume</name></member>
+    <member refid="group__GeneralGroup_1ga2f9d419cc2c5d5a588c2ddaeb688a945" kind="function"><name>canCompute</name></member>
+    <member refid="group__GeneralGroup_1ga41f7ac9cc9ec41fc318ad00ac825b400" kind="function"><name>compute</name></member>
+  </compound>
+  <compound refid="classMR_1_1IComputePointsToDistanceVolumeByParts" kind="class"><name>MR::IComputePointsToDistanceVolumeByParts</name>
+    <member refid="group__GeneralGroup_1ga404c73c02106d686fb2ce09c629175f3" kind="typedef"><name>AddPartFunc</name></member>
+    <member refid="group__GeneralGroup_1ga642f71517acfbedad1162035a8897735" kind="function"><name>computeByParts</name></member>
   </compound>
   <compound refid="classMR_1_1IComputeToolDistance" kind="class"><name>MR::IComputeToolDistance</name>
     <member refid="group__GeneralGroup_1ga2bb611f9d72c80f0aa38d68e6a008ad0" kind="function"><name>~IComputeToolDistance</name></member>
@@ -8580,7 +8602,7 @@
     <member refid="group__GeneralGroup_1ga6253a7998223b8c2a5fffd0092b5883b" kind="variable"><name>ptNormals</name></member>
   </compound>
   <compound refid="structMR_1_1PointsToMeshParameters" kind="struct"><name>MR::PointsToMeshParameters</name>
-    <member refid="group__GeneralGroup_1ga8fb48f274f70639a9be5fdadbbf8224e" kind="variable"><name>sigma</name></member>
+    <member refid="group__GeneralGroup_1ga3b8a586729f91eac7c41aea0f4e22e06" kind="variable"><name>sigma</name></member>
     <member refid="group__GeneralGroup_1ga3bdeb5a4cdd00fc36ce6089cede17c0b" kind="variable"><name>minWeight</name></member>
     <member refid="group__GeneralGroup_1ga233f40339195db2ce32c5bd0ff6fcba3" kind="variable"><name>invSigmaModifier</name></member>
     <member refid="group__GeneralGroup_1gafd4ee185f46d54c4c9a9c62b2e2c6376" kind="variable"><name>sqrtAngleWeight</name></member>
@@ -8588,9 +8610,7 @@
     <member refid="group__GeneralGroup_1gad30c0a7b27c4a1b5818cb7fc981403c3" kind="variable"><name>ptColors</name></member>
     <member refid="group__GeneralGroup_1ga72818af22d20fbdc8695061a8dd48c85" kind="variable"><name>vColors</name></member>
     <member refid="group__GeneralGroup_1ga1f8072d5242c289b8aa4c442285102e2" kind="variable"><name>progress</name></member>
-    <member refid="group__GeneralGroup_1gab87c2a1f3fa531fdd137e32dd33c1267" kind="variable"><name>createVolumeCallbackByParts</name></member>
-    <member refid="group__GeneralGroup_1ga79ea998979bc61c402e801d6a82b292d" kind="variable"><name>createVolumeCallback</name></member>
-    <member refid="group__GeneralGroup_1gac61d0ecf32889b1131e50a2bbe6e852c" kind="variable"><name>canCreateVolume</name></member>
+    <member refid="group__GeneralGroup_1gae1649f1af31f2e1b92a4d50a1ef97011" kind="variable"><name>computeVolume</name></member>
   </compound>
   <compound refid="classMR_1_1Cuda_1_1PointsToMeshProjector" kind="class"><name>MR::Cuda::PointsToMeshProjector</name>
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a2a52d4ebf64fb6db0fe6ecb8381c42f9" kind="variable"><name>meshData_</name></member>
@@ -16374,6 +16394,7 @@
     <member refid="namespaceMR_1_1Cuda_1ab6752d5a8d11db60ba3b3c7cd333658d" kind="function"><name>findProjectionOnPointsHeapBytes</name></member>
     <member refid="group__GeneralGroup_1ga76d46e2388018a2bca5a72dfaefd30e9" kind="function"><name>pointsToDistanceVolume</name></member>
     <member refid="group__GeneralGroup_1ga2ca6e42153313ca635d7ea3e12d19bf0" kind="function"><name>pointsToDistanceVolumeByParts</name></member>
+    <member refid="group__GeneralGroup_1ga5cc55a97b581e01247749d0d7e6697a4" kind="function"><name>pointsToDistanceVolumeMemory</name></member>
     <member refid="group__GeneralGroup_1gab5f9490f820c7e7eb708e516e58d6e5a" kind="function"><name>computeSkyViewFactor</name></member>
     <member refid="group__GeneralGroup_1gaf763aea7896baa102ab7715278d93231" kind="function"><name>findSkyRays</name></member>
     <member refid="group__GeneralGroup_1ga07684cc6b916a645e4ed28757498d51a" kind="function"><name>negatePicture</name></member>
@@ -17359,6 +17380,16 @@
   </compound>
   <compound refid="MREmbeddedPython_8h" kind="file"><name>MREmbeddedPython.h</name>
   </compound>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
+  </compound>
   <compound refid="MR3mf_8h" kind="file"><name>MR3mf.h</name>
   </compound>
   <compound refid="MRCtm_8h" kind="file"><name>MRCtm.h</name>
@@ -17384,6 +17415,10 @@
   <compound refid="MRSvg_8h" kind="file"><name>MRSvg.h</name>
   </compound>
   <compound refid="MRTiff_8h" kind="file"><name>MRTiff.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
   </compound>
   <compound refid="MRFastmcpp_8h" kind="file"><name>MRFastmcpp.h</name>
   </compound>
@@ -18385,6 +18420,10 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -18412,10 +18451,6 @@
   <compound refid="MRXfBasedCache_8h" kind="file"><name>MRXfBasedCache.h</name>
   </compound>
   <compound refid="MRZip_8h" kind="file"><name>MRZip.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
-  </compound>
-  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
   </compound>
   <compound refid="MRPythonNumpy_8h" kind="file"><name>MRPythonNumpy.h</name>
     <member refid="MRPythonNumpy_8h_1ab135bb78166c0f59c9fe34366ab1786d" kind="define"><name>MRMESHNUMPY_PARENT_MODULE_NAME</name></member>
@@ -18801,10 +18836,6 @@
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
   </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
     <member refid="MRViewer_8h_1a1a1151cfe48505fed9bdf9d94af7cbde" kind="define"><name>ENQUEUE_VIEWER_METHOD_ARGS</name></member>
@@ -18851,16 +18882,6 @@
   <compound refid="MRWebResponseCallback_8h" kind="file"><name>MRWebResponseCallback.h</name>
   </compound>
   <compound refid="MRWin32MessageHandler_8h" kind="file"><name>MRWin32MessageHandler.h</name>
-  </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
   </compound>
   <compound refid="MRBoolean_8h" kind="file"><name>MRBoolean.h</name>
   </compound>
@@ -21732,8 +21753,7 @@
     <member refid="group__GeneralGroup_1ga29c59af2c526ce1b2b126dd201c3a7fb" kind="typedef"><name>CudaFwnConstructor</name></member>
     <member refid="group__GeneralGroup_1gab238a79ac9e6bdc05ebc7d4799c5afd9" kind="typedef"><name>CudaMeshProjectorConstructor</name></member>
     <member refid="group__GeneralGroup_1gaed0df442f81500a1fcba3ff380f44190" kind="typedef"><name>CudaPointsProjectorConstructor</name></member>
-    <member refid="group__GeneralGroup_1ga7acccf65074e9ea99f88143c0ba0816a" kind="typedef"><name>CudaPointsToDistanceVolumeCallback</name></member>
-    <member refid="group__GeneralGroup_1gab4da14893aa8c8e22579f15c1bb64991" kind="typedef"><name>CudaPointsToDistanceVolumeByPartsCallback</name></member>
+    <member refid="group__GeneralGroup_1ga85794d3b294b977202e9957c174b7a27" kind="typedef"><name>CudaComputePointsToDistanceVolumeConstructor</name></member>
     <member refid="group__GeneralGroup_1ga20534546f2d694b2e2c2687832828ae2" kind="typedef"><name>CudaComputeToolDistanceConstructor</name></member>
     <member refid="group__GeneralGroup_1gaa01b946f8079c3f2095a1fb5b019e275" kind="typedef"><name>OnDirectionChangedCallback</name></member>
     <member refid="group__GeneralGroup_1gaf2edd6d3969959890c9d36abe0e8cfdf" kind="typedef"><name>SelectFileSignal</name></member>
@@ -21873,6 +21893,7 @@
     <member refid="group__GeneralGroup_1ga6348660687ee746c78a3e76ef7565eb8" kind="typedef"><name>TreeAccessor</name></member>
     <member refid="group__GeneralGroup_1ga2843b3697415f694e48b3921d0b244d8" kind="typedef"><name>LeafIterT</name></member>
     <member refid="group__GeneralGroup_1ga310cccaba672fdf60cd4fd64f7718b2e" kind="typedef"><name>TileIterT</name></member>
+    <member refid="group__GeneralGroup_1ga404c73c02106d686fb2ce09c629175f3" kind="typedef"><name>AddPartFunc</name></member>
     <member refid="group__GeneralGroup_1ga4aa7048d9cefc5a963d3583190bea7e1" kind="typedef"><name>DirectionVolume</name></member>
     <member refid="group__GeneralGroup_1gab8d79139c35fd5b34335c70d5386092b" kind="typedef"><name>VolumeType</name></member>
     <member refid="group__GeneralGroup_1gacebd7576c606ef11e6aef5d6c22f32f2" kind="typedef"><name>ValueType</name></member>
@@ -23761,8 +23782,7 @@
     <member refid="group__GeneralGroup_1ga2687ae303633bd532956028d0ffa58d3" kind="variable"><name>fwnCtor_</name></member>
     <member refid="group__GeneralGroup_1ga56946afaed5e4d5fbded01047739696f" kind="variable"><name>mpCtor_</name></member>
     <member refid="group__GeneralGroup_1gaa91a05cecf34a952801c509f6edcf67a" kind="variable"><name>ppCtor_</name></member>
-    <member refid="group__GeneralGroup_1ga947b0fb5614ecc833a97754e68f92191" kind="variable"><name>pointsToDistanceVolumeCallback_</name></member>
-    <member refid="group__GeneralGroup_1gaa62ffa5d81bf25e683877fc1c82d0a22" kind="variable"><name>pointsToDistanceVolumeByPartsCallback_</name></member>
+    <member refid="group__GeneralGroup_1ga1f5cd9105efbe9705539d9ff86018908" kind="variable"><name>cpdvCtor_</name></member>
     <member refid="group__GeneralGroup_1ga07caad4cea6009d52eaa9502a8fce764" kind="variable"><name>ctdCtor_</name></member>
     <member refid="group__GeneralGroup_1gace2c158a224cd44af075518041d25968" kind="variable"><name>demoSphere_</name></member>
     <member refid="group__GeneralGroup_1gae51fa4c57f1323a0d9060f5b84c85b75" kind="variable"><name>shouldClose_</name></member>
@@ -25150,7 +25170,7 @@
     <member refid="group__GeneralGroup_1ga92d4aead46ac278be1c9152c417996d2" kind="variable"><name>invSigmaModifier</name></member>
     <member refid="group__GeneralGroup_1ga274559a52cc5261e0889ea85b133b605" kind="variable"><name>sqrtAngleWeight</name></member>
     <member refid="group__GeneralGroup_1ga6253a7998223b8c2a5fffd0092b5883b" kind="variable"><name>ptNormals</name></member>
-    <member refid="group__GeneralGroup_1ga8fb48f274f70639a9be5fdadbbf8224e" kind="variable"><name>sigma</name></member>
+    <member refid="group__GeneralGroup_1ga3b8a586729f91eac7c41aea0f4e22e06" kind="variable"><name>sigma</name></member>
     <member refid="group__GeneralGroup_1ga3bdeb5a4cdd00fc36ce6089cede17c0b" kind="variable"><name>minWeight</name></member>
     <member refid="group__GeneralGroup_1ga233f40339195db2ce32c5bd0ff6fcba3" kind="variable"><name>invSigmaModifier</name></member>
     <member refid="group__GeneralGroup_1gafd4ee185f46d54c4c9a9c62b2e2c6376" kind="variable"><name>sqrtAngleWeight</name></member>
@@ -25158,9 +25178,7 @@
     <member refid="group__GeneralGroup_1gad30c0a7b27c4a1b5818cb7fc981403c3" kind="variable"><name>ptColors</name></member>
     <member refid="group__GeneralGroup_1ga72818af22d20fbdc8695061a8dd48c85" kind="variable"><name>vColors</name></member>
     <member refid="group__GeneralGroup_1ga1f8072d5242c289b8aa4c442285102e2" kind="variable"><name>progress</name></member>
-    <member refid="group__GeneralGroup_1gab87c2a1f3fa531fdd137e32dd33c1267" kind="variable"><name>createVolumeCallbackByParts</name></member>
-    <member refid="group__GeneralGroup_1ga79ea998979bc61c402e801d6a82b292d" kind="variable"><name>createVolumeCallback</name></member>
-    <member refid="group__GeneralGroup_1gac61d0ecf32889b1131e50a2bbe6e852c" kind="variable"><name>canCreateVolume</name></member>
+    <member refid="group__GeneralGroup_1gae1649f1af31f2e1b92a4d50a1ef97011" kind="variable"><name>computeVolume</name></member>
     <member refid="group__GeneralGroup_1ga6960b88843f2b683f6dbca4f21e82e86" kind="variable"><name>voxelSize</name></member>
     <member refid="group__GeneralGroup_1gab8af98052b328483ec0a8dbdb0cedee6" kind="variable"><name>offsetCount</name></member>
     <member refid="group__GeneralGroup_1ga76602992e23d6f79b59d711bca173a3f" kind="variable"><name>worldXf</name></member>
@@ -25654,6 +25672,10 @@
     <member refid="group__GeneralGroup_1ga8866f39dc53fa9760b4bff77baad0edb" kind="function"><name>prepareData_</name></member>
     <member refid="group__GeneralGroup_1ga76d46e2388018a2bca5a72dfaefd30e9" kind="function"><name>pointsToDistanceVolume</name></member>
     <member refid="group__GeneralGroup_1ga2ca6e42153313ca635d7ea3e12d19bf0" kind="function"><name>pointsToDistanceVolumeByParts</name></member>
+    <member refid="group__GeneralGroup_1ga5cc55a97b581e01247749d0d7e6697a4" kind="function"><name>pointsToDistanceVolumeMemory</name></member>
+    <member refid="group__GeneralGroup_1ga4ab69dfa734440add0aac0ba35d79944" kind="function"><name>canCompute</name></member>
+    <member refid="group__GeneralGroup_1ga9316c01f6ad60e94fe21976a56638bc0" kind="function"><name>compute</name></member>
+    <member refid="group__GeneralGroup_1ga45cb6b5925c44133a1659e0e91ea32a7" kind="function"><name>computeByParts</name></member>
     <member refid="group__GeneralGroup_1gab5f9490f820c7e7eb708e516e58d6e5a" kind="function"><name>computeSkyViewFactor</name></member>
     <member refid="group__GeneralGroup_1gaf763aea7896baa102ab7715278d93231" kind="function"><name>findSkyRays</name></member>
     <member refid="group__GeneralGroup_1ga07684cc6b916a645e4ed28757498d51a" kind="function"><name>negatePicture</name></member>
@@ -29450,8 +29472,7 @@
     <member refid="group__GeneralGroup_1gad23dbaff6cee17143b7f1612f4946e53" kind="function"><name>setCudaFastWindingNumberConstructor</name></member>
     <member refid="group__GeneralGroup_1ga8ff4539752a1f32e8bb694b59d3ad7c9" kind="function"><name>setCudaMeshProjectorConstructor</name></member>
     <member refid="group__GeneralGroup_1ga6d1f993628da75eed086f0a5e5face9c" kind="function"><name>setCudaPointsProjectorConstructor</name></member>
-    <member refid="group__GeneralGroup_1ga75ddb851bf9adb202f0db1e2c8e83881" kind="function"><name>setCudaPointsToDistanceVolumeCallback</name></member>
-    <member refid="group__GeneralGroup_1gae1eaf97b826883a102c1af2dc6c677d0" kind="function"><name>setCudaPointsToDistanceVolumeByPartsCallback</name></member>
+    <member refid="group__GeneralGroup_1gaac350e2f8ed053dc407f7e0a36a2f224" kind="function"><name>setCudaComputePointsToDistanceVolumeConstructor</name></member>
     <member refid="group__GeneralGroup_1ga95d2cb91e636f24ca7eea28c365c0c85" kind="function"><name>setCudaComputeToolDistanceConstructor</name></member>
     <member refid="group__GeneralGroup_1ga18e4dd8df9ae57ff46b02500ff1ab77b" kind="function"><name>isCudaSupportedByPlarform</name></member>
     <member refid="group__GeneralGroup_1ga1e1a116ba946f8c03a9d5921847b0a10" kind="function"><name>isCudaAvailable</name></member>
@@ -29463,14 +29484,12 @@
     <member refid="group__GeneralGroup_1ga857af3aa2253e052627759f62cbbbe34" kind="function"><name>getCudaFastWindingNumber</name></member>
     <member refid="group__GeneralGroup_1gaf41cece2c27e29cabb2f9933f8214d5a" kind="function"><name>getCudaPointsToMeshProjector</name></member>
     <member refid="group__GeneralGroup_1ga4451b1fc3c59b88da807d0aec38e1c18" kind="function"><name>getCudaPointsProjector</name></member>
-    <member refid="group__GeneralGroup_1gac1939931888d9ee533e9e5817c8c7f6e" kind="function"><name>getCudaPointsToDistanceVolumeCallback</name></member>
-    <member refid="group__GeneralGroup_1ga2f2555ad8d3608347d33805c76bad5db" kind="function"><name>getCudaPointsToDistanceVolumeByPartsCallback</name></member>
+    <member refid="group__GeneralGroup_1ga1339236f1387a74417bc30306a1eae6e" kind="function"><name>getCudaComputePointsToDistanceVolume</name></member>
     <member refid="group__GeneralGroup_1gaaf379405e9817ae1be1c950e0ae3e530" kind="function"><name>getCudaComputeToolDistance</name></member>
     <member refid="group__GeneralGroup_1gaff07b352e194a264a7e89683eddf0bab" kind="function"><name>fastWindingNumberMeshMemory</name></member>
     <member refid="group__GeneralGroup_1ga1e4dea0e3b9b87f7b30b6c0980eeb97a" kind="function"><name>fromGridMemory</name></member>
     <member refid="group__GeneralGroup_1ga976cccca7b374641ff03ff0c8579efea" kind="function"><name>fromVectorMemory</name></member>
     <member refid="group__GeneralGroup_1ga1ef2d3f6b02b98c6e246b17431752127" kind="function"><name>selfIntersectionsMemory</name></member>
-    <member refid="group__GeneralGroup_1gaf256c0dc65f9c1c49975ec3166fa6554" kind="function"><name>pointsToDistanceVolumeMemory</name></member>
     <member refid="group__GeneralGroup_1ga8109adc83af8ba85f216529da6077c81" kind="function"><name>CudaAccessor</name></member>
     <member refid="group__GeneralGroup_1gaebd34fb5cead4f46af0268afd186991e" kind="function"><name>~CudaAccessor</name></member>
     <member refid="group__GeneralGroup_1ga6e4b5dad06709d73ebe6f5bdff0356c7" kind="function"><name>instance_</name></member>
@@ -31663,6 +31682,19 @@
     <member refid="group__GeneralGroup_1ga791659f1e41c2486076a24ae429d5c16" kind="function"><name>partialOffsetMesh</name></member>
     <member refid="group__GeneralGroup_1ga70392e4bbce2674ece793e6e25a120ca" kind="function"><name>pointsToDistanceVolume</name></member>
     <member refid="group__GeneralGroup_1ga815886dfa1babcbedc85b059e1e66fec" kind="function"><name>pointsToDistanceFunctionVolume</name></member>
+    <member refid="group__GeneralGroup_1ga67274dda6d9ec6a0263bf60088e56409" kind="function"><name>IComputePointsToDistanceVolume</name></member>
+    <member refid="group__GeneralGroup_1gafc49f649f23fb34e2e05dcf81db7c98e" kind="function"><name>IComputePointsToDistanceVolume</name></member>
+    <member refid="group__GeneralGroup_1ga49203c87a1e3771957b9d06a2d5fbd6b" kind="function"><name>IComputePointsToDistanceVolume</name></member>
+    <member refid="group__GeneralGroup_1ga3eb6e32c91c150d4fed57d55b4a55eae" kind="function"><name>operator=</name></member>
+    <member refid="group__GeneralGroup_1gac21a82abf4c9db8c0cccce6aebd53a87" kind="function"><name>operator=</name></member>
+    <member refid="group__GeneralGroup_1ga2856066855e764964a0455777c34ddd2" kind="function"><name>~IComputePointsToDistanceVolume</name></member>
+    <member refid="group__GeneralGroup_1ga2f9d419cc2c5d5a588c2ddaeb688a945" kind="function"><name>canCompute</name></member>
+    <member refid="group__GeneralGroup_1ga41f7ac9cc9ec41fc318ad00ac825b400" kind="function"><name>compute</name></member>
+    <member refid="group__GeneralGroup_1ga642f71517acfbedad1162035a8897735" kind="function"><name>computeByParts</name></member>
+    <member refid="group__GeneralGroup_1ga152e3fe43cb6e11f7ff1dd0c10b57369" kind="function"><name>computeFunctionVolume</name></member>
+    <member refid="group__GeneralGroup_1ga312e027f6b14321c1e5af193fc587217" kind="function"><name>canCompute</name></member>
+    <member refid="group__GeneralGroup_1ga5215aa00e754507c0beebad13b90d508" kind="function"><name>compute</name></member>
+    <member refid="group__GeneralGroup_1gab532a0db10593ce68ea887ded46fb244" kind="function"><name>computeFunctionVolume</name></member>
     <member refid="group__GeneralGroup_1ga43c5eff589bf8b66beca99dac171b10c" kind="function"><name>calcAvgColors</name></member>
     <member refid="group__GeneralGroup_1ga8385dbd13a04c7841be48a4d0ad477dc" kind="function"><name>pointsToMeshFusion</name></member>
     <member refid="group__GeneralGroup_1gaeae108f3ba396aeb02e9f2365ca6fe4e" kind="function"><name>polylineToDistanceField</name></member>

@@ -44,6 +44,7 @@
     <innerclass refid="classMR_1_1OpenRawVoxelsPlugin" prot="public">MR::OpenRawVoxelsPlugin</innerclass>
     <innerclass refid="structMR_1_1Cuda_1_1DeviceInfo" prot="public">MR::Cuda::DeviceInfo</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1FastWindingNumber" prot="public">MR::Cuda::FastWindingNumber</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" prot="public">MR::Cuda::ComputePointsToDistanceVolume</innerclass>
     <innerclass refid="classMR_1_1EmbeddedPython" prot="public">MR::EmbeddedPython</innerclass>
     <innerclass refid="structMR_1_1EmbeddedPython_1_1Config" prot="public">MR::EmbeddedPython::Config</innerclass>
     <innerclass refid="structMR_1_1MeshSave_1_1CtmSaveOptions" prot="public">MR::MeshSave::CtmSaveOptions</innerclass>
@@ -866,6 +867,10 @@
     <innerclass refid="structMR_1_1RangeSize" prot="public">MR::RangeSize</innerclass>
     <innerclass refid="classMR_1_1RangeCounter" prot="public">MR::RangeCounter</innerclass>
     <innerclass refid="structMR_1_1PointsToDistanceVolumeParams" prot="public">MR::PointsToDistanceVolumeParams</innerclass>
+    <innerclass refid="classMR_1_1IComputePointsToDistanceVolume" prot="public">MR::IComputePointsToDistanceVolume</innerclass>
+    <innerclass refid="classMR_1_1IComputePointsToDistanceVolumeByParts" prot="public">MR::IComputePointsToDistanceVolumeByParts</innerclass>
+    <innerclass refid="classMR_1_1IComputePointsToDistanceFunctionVolume" prot="public">MR::IComputePointsToDistanceFunctionVolume</innerclass>
+    <innerclass refid="classMR_1_1ComputePointsToDistanceVolume" prot="public">MR::ComputePointsToDistanceVolume</innerclass>
     <innerclass refid="structMR_1_1PointsToMeshParameters" prot="public">MR::PointsToMeshParameters</innerclass>
     <innerclass refid="structMR_1_1PolylineToDistanceVolumeParams" prot="public">MR::PolylineToDistanceVolumeParams</innerclass>
     <innerclass refid="structMR_1_1PolylineToVolumeParams" prot="public">MR::PolylineToVolumeParams</innerclass>
@@ -18735,7 +18740,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="26" column="5" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="26" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="29" column="5" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga29c59af2c526ce1b2b126dd201c3a7fb" prot="public" static="no">
         <type>std::function&lt; std::unique_ptr&lt; IFastWindingNumber &gt;(const Mesh &amp;)&gt;</type>
@@ -18750,7 +18755,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="28" column="5" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="28" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="31" column="5" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gab238a79ac9e6bdc05ebc7d4799c5afd9" prot="public" static="no">
         <type>std::function&lt; std::unique_ptr&lt; IPointsToMeshProjector &gt;()&gt;</type>
@@ -18765,7 +18770,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="30" column="5" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="30" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="33" column="5" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gaed0df442f81500a1fcba3ff380f44190" prot="public" static="no">
         <type>std::function&lt; std::unique_ptr&lt; IPointsProjector &gt;()&gt;</type>
@@ -18780,35 +18785,22 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="32" column="5" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__GeneralGroup_1ga7acccf65074e9ea99f88143c0ba0816a" prot="public" static="no">
-        <type>std::function&lt; Expected&lt; SimpleVolumeMinMax &gt;(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params)&gt;</type>
-        <definition>using MR::CudaAccessor::CudaPointsToDistanceVolumeCallback =  std::function&lt;Expected&lt;SimpleVolumeMinMax&gt;( const PointCloud&amp; cloud, const PointsToDistanceVolumeParams&amp; params )&gt;</definition>
-        <argsstring></argsstring>
-        <name>CudaPointsToDistanceVolumeCallback</name>
-        <qualifiedname>MR::CudaAccessor::CudaPointsToDistanceVolumeCallback</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="MRViewer/MRCudaAccessor.h" line="35" column="5" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="35" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="group__GeneralGroup_1gab4da14893aa8c8e22579f15c1bb64991" prot="public" static="no">
-        <type>std::function&lt; Expected&lt; void &gt;(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params, std::function&lt; Expected&lt; void &gt;(const SimpleVolumeMinMax &amp;volume, int zOffset)&gt; addPart, int layerOverlap)&gt;</type>
-        <definition>using MR::CudaAccessor::CudaPointsToDistanceVolumeByPartsCallback =  std::function&lt;Expected&lt;void&gt;( const PointCloud&amp; cloud, const PointsToDistanceVolumeParams&amp; params, std::function&lt;Expected&lt;void&gt; ( const SimpleVolumeMinMax&amp; volume, int zOffset )&gt; addPart, int layerOverlap )&gt;</definition>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga85794d3b294b977202e9957c174b7a27" prot="public" static="no">
+        <type>std::function&lt; std::unique_ptr&lt; IComputePointsToDistanceVolume &gt;()&gt;</type>
+        <definition>using MR::CudaAccessor::CudaComputePointsToDistanceVolumeConstructor =  std::function&lt;std::unique_ptr&lt;IComputePointsToDistanceVolume&gt;()&gt;</definition>
         <argsstring></argsstring>
-        <name>CudaPointsToDistanceVolumeByPartsCallback</name>
-        <qualifiedname>MR::CudaAccessor::CudaPointsToDistanceVolumeByPartsCallback</qualifiedname>
+        <name>CudaComputePointsToDistanceVolumeConstructor</name>
+        <qualifiedname>MR::CudaAccessor::CudaComputePointsToDistanceVolumeConstructor</qualifiedname>
         <briefdescription>
+<para>Returns specific implementation of <ref refid="classMR_1_1IComputePointsToDistanceVolume" kindref="compound">IComputePointsToDistanceVolume</ref> interface that computes on GPU. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="36" column="5" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="36" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="39" column="5" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga20534546f2d694b2e2c2687832828ae2" prot="public" static="no">
         <type>std::function&lt; std::unique_ptr&lt; IComputeToolDistance &gt;()&gt;</type>
@@ -18823,7 +18815,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="38" column="5" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="38" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="41" column="5" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gaa01b946f8079c3f2095a1fb5b019e275" prot="public" static="no">
         <type>std::function&lt; void(const Vector3f &amp;, bool)&gt;</type>
@@ -20807,6 +20799,21 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <inbodydescription>
         </inbodydescription>
         <location file="MRVoxels/MROpenVDBHelper.h" line="373" column="5" bodyfile="MRVoxels/MROpenVDBHelper.h" bodystart="373" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga404c73c02106d686fb2ce09c629175f3" prot="public" static="no">
+        <type>std::function&lt; Expected&lt; void &gt;(const SimpleVolumeMinMax &amp;volume, int zOffset)&gt;</type>
+        <definition>using MR::IComputePointsToDistanceVolumeByParts::AddPartFunc =  std::function&lt;Expected&lt;void&gt;( const SimpleVolumeMinMax&amp; volume, int zOffset )&gt;</definition>
+        <argsstring></argsstring>
+        <name>AddPartFunc</name>
+        <qualifiedname>MR::IComputePointsToDistanceVolumeByParts::AddPartFunc</qualifiedname>
+        <briefdescription>
+<para>gets one z-slab of the volume, starting at z-layer zOffset </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="71" column="5" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga4aa7048d9cefc5a963d3583190bea7e1" prot="public" static="no">
         <type>std::array&lt; SimpleVolumeMinMax, 3 &gt;</type>
@@ -48894,7 +48901,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="128" column="10" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="128" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="121" column="10" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga14ac75033b72c1d4eb1ba1c9eba33d98" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -48909,7 +48916,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="129" column="9" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="129" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="122" column="9" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaee02469f3fe8aa1520ac384eac3bcf94" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -48924,7 +48931,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="130" column="9" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="130" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="123" column="9" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4d7e17632fb046055187b46d701f3671" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -48939,7 +48946,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="131" column="9" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="131" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="124" column="9" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0ebaf705e73dec6050735b5b97b96560" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -48954,7 +48961,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="132" column="9" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="132" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="125" column="9" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6a6ad92f0101e985cdedfe88787dd86b" prot="private" static="no" mutable="no">
         <type>CudaFreeMemoryFunc</type>
@@ -48968,7 +48975,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="133" column="24" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="133" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="126" column="24" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2687ae303633bd532956028d0ffa58d3" prot="private" static="no" mutable="no">
         <type>CudaFwnConstructor</type>
@@ -48982,7 +48989,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="134" column="24" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="134" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="127" column="24" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga56946afaed5e4d5fbded01047739696f" prot="private" static="no" mutable="no">
         <type>CudaMeshProjectorConstructor</type>
@@ -48996,7 +49003,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="135" column="34" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="135" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="128" column="34" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa91a05cecf34a952801c509f6edcf67a" prot="private" static="no" mutable="no">
         <type>CudaPointsProjectorConstructor</type>
@@ -49010,35 +49017,21 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="136" column="36" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="136" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="129" column="36" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="129" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga947b0fb5614ecc833a97754e68f92191" prot="private" static="no" mutable="no">
-        <type>CudaPointsToDistanceVolumeCallback</type>
-        <definition>CudaPointsToDistanceVolumeCallback MR::CudaAccessor::pointsToDistanceVolumeCallback_</definition>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga1f5cd9105efbe9705539d9ff86018908" prot="private" static="no" mutable="no">
+        <type>CudaComputePointsToDistanceVolumeConstructor</type>
+        <definition>CudaComputePointsToDistanceVolumeConstructor MR::CudaAccessor::cpdvCtor_</definition>
         <argsstring></argsstring>
-        <name>pointsToDistanceVolumeCallback_</name>
-        <qualifiedname>MR::CudaAccessor::pointsToDistanceVolumeCallback_</qualifiedname>
+        <name>cpdvCtor_</name>
+        <qualifiedname>MR::CudaAccessor::cpdvCtor_</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="138" column="40" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="138" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaa62ffa5d81bf25e683877fc1c82d0a22" prot="private" static="no" mutable="no">
-        <type>CudaPointsToDistanceVolumeByPartsCallback</type>
-        <definition>CudaPointsToDistanceVolumeByPartsCallback MR::CudaAccessor::pointsToDistanceVolumeByPartsCallback_</definition>
-        <argsstring></argsstring>
-        <name>pointsToDistanceVolumeByPartsCallback_</name>
-        <qualifiedname>MR::CudaAccessor::pointsToDistanceVolumeByPartsCallback_</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="139" column="47" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="139" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="131" column="50" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga07caad4cea6009d52eaa9502a8fce764" prot="private" static="no" mutable="no">
         <type>CudaComputeToolDistanceConstructor</type>
@@ -49052,7 +49045,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="140" column="40" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="140" bodyend="-1"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="132" column="40" bodyfile="MRViewer/MRCudaAccessor.h" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gace2c158a224cd44af075518041d25968" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; ObjectMesh &gt;</type>
@@ -69634,7 +69627,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="19" column="11" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="19" bodyend="-1"/>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="21" column="11" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7716b4700ce22b3eedf9da8864d8480f" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -69650,7 +69643,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="22" column="11" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="22" bodyend="-1"/>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="24" column="11" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga92d4aead46ac278be1c9152c417996d2" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -69666,7 +69659,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="26" column="11" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="26" bodyend="-1"/>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="28" column="11" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga274559a52cc5261e0889ea85b133b605" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -69682,7 +69675,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="30" column="10" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="30" bodyend="30"/>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="32" column="10" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="32" bodyend="32"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6253a7998223b8c2a5fffd0092b5883b" prot="public" static="no" mutable="no">
         <type>const VertNormals *</type>
@@ -69698,11 +69691,11 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="33" column="23" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="33" bodyend="-1"/>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="35" column="23" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="35" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga8fb48f274f70639a9be5fdadbbf8224e" prot="public" static="no" mutable="no">
-        <type>MR_BIND_PREFER_UNLOCK_GIL_WHEN_USED_AS_PARAM float</type>
-        <definition>MR_BIND_PREFER_UNLOCK_GIL_WHEN_USED_AS_PARAM float MR::PointsToMeshParameters::sigma</definition>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga3b8a586729f91eac7c41aea0f4e22e06" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PointsToMeshParameters::sigma</definition>
         <argsstring></argsstring>
         <name>sigma</name>
         <qualifiedname>MR::PointsToMeshParameters::sigma</qualifiedname>
@@ -69714,7 +69707,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToMeshFusion.h" line="23" column="11" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="23" bodyend="-1"/>
+        <location file="MRVoxels/MRPointsToMeshFusion.h" line="22" column="11" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3bdeb5a4cdd00fc36ce6089cede17c0b" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -69730,7 +69723,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToMeshFusion.h" line="26" column="11" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="26" bodyend="-1"/>
+        <location file="MRVoxels/MRPointsToMeshFusion.h" line="25" column="11" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga233f40339195db2ce32c5bd0ff6fcba3" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -69746,7 +69739,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToMeshFusion.h" line="30" column="11" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="30" bodyend="-1"/>
+        <location file="MRVoxels/MRPointsToMeshFusion.h" line="29" column="11" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafd4ee185f46d54c4c9a9c62b2e2c6376" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -69762,7 +69755,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToMeshFusion.h" line="34" column="10" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="34" bodyend="34"/>
+        <location file="MRVoxels/MRPointsToMeshFusion.h" line="33" column="10" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="33" bodyend="33"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga00eeb792ec36e21c8cc51989d1052210" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -69778,7 +69771,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToMeshFusion.h" line="38" column="11" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="38" bodyend="-1"/>
+        <location file="MRVoxels/MRPointsToMeshFusion.h" line="37" column="11" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad30c0a7b27c4a1b5818cb7fc981403c3" prot="public" static="no" mutable="no">
         <type>const VertColors *</type>
@@ -69794,7 +69787,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToMeshFusion.h" line="41" column="23" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="41" bodyend="-1"/>
+        <location file="MRVoxels/MRPointsToMeshFusion.h" line="40" column="23" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga72818af22d20fbdc8695061a8dd48c85" prot="public" static="no" mutable="no">
         <type>VertColors *</type>
@@ -69810,7 +69803,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToMeshFusion.h" line="44" column="17" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="44" bodyend="-1"/>
+        <location file="MRVoxels/MRPointsToMeshFusion.h" line="43" column="17" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1f8072d5242c289b8aa4c442285102e2" prot="public" static="no" mutable="no">
         <type>ProgressCallback</type>
@@ -69825,52 +69818,22 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToMeshFusion.h" line="47" column="22" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="47" bodyend="-1"/>
+        <location file="MRVoxels/MRPointsToMeshFusion.h" line="46" column="22" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="46" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gab87c2a1f3fa531fdd137e32dd33c1267" prot="public" static="no" mutable="no">
-        <type>std::function&lt; Expected&lt; void &gt;(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params, std::function&lt; Expected&lt; void &gt;(const SimpleVolumeMinMax &amp;volume, int zOffset)&gt; addPart, int layerOverlap)&gt;</type>
-        <definition>std::function&lt;Expected&lt;void&gt;( const PointCloud&amp; cloud, const PointsToDistanceVolumeParams&amp; params, std::function&lt;Expected&lt;void&gt;( const SimpleVolumeMinMax&amp; volume, int zOffset )&gt; addPart, int layerOverlap )&gt; MR::PointsToMeshParameters::createVolumeCallbackByParts</definition>
+      <memberdef kind="variable" id="group__GeneralGroup_1gae1649f1af31f2e1b92a4d50a1ef97011" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; IComputePointsToDistanceVolume &gt;</type>
+        <definition>std::shared_ptr&lt;IComputePointsToDistanceVolume&gt; MR::PointsToMeshParameters::computeVolume</definition>
         <argsstring></argsstring>
-        <name>createVolumeCallbackByParts</name>
-        <qualifiedname>MR::PointsToMeshParameters::createVolumeCallbackByParts</qualifiedname>
+        <name>computeVolume</name>
+        <qualifiedname>MR::PointsToMeshParameters::computeVolume</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Callback for volume creation by parts. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function This callback takes precedence over createVolumeCallback </para>
+<para>builds the intermediate volume, e.g. <ref refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" kindref="compound">MR::Cuda::ComputePointsToDistanceVolume</ref> to build it on GPU; if it is not set or cannot process this input, <ref refid="classMR_1_1ComputePointsToDistanceVolume" kindref="compound">MR::ComputePointsToDistanceVolume</ref> is used </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToMeshFusion.h" line="51" column="23" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="51" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga79ea998979bc61c402e801d6a82b292d" prot="public" static="no" mutable="no">
-        <type>std::function&lt; Expected&lt; SimpleVolumeMinMax &gt;(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params)&gt;</type>
-        <definition>std::function&lt;Expected&lt;SimpleVolumeMinMax&gt;( const PointCloud&amp; cloud, const PointsToDistanceVolumeParams&amp; params )&gt; MR::PointsToMeshParameters::createVolumeCallback</definition>
-        <argsstring></argsstring>
-        <name>createVolumeCallback</name>
-        <qualifiedname>MR::PointsToMeshParameters::createVolumeCallback</qualifiedname>
-        <briefdescription>
-<para>Callback for volume creation. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRVoxels/MRPointsToMeshFusion.h" line="54" column="21" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="54" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gac61d0ecf32889b1131e50a2bbe6e852c" prot="public" static="no" mutable="no">
-        <type>std::function&lt; bool(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params)&gt;</type>
-        <definition>std::function&lt;bool ( const PointCloud&amp; cloud, const PointsToDistanceVolumeParams&amp; params )&gt; MR::PointsToMeshParameters::canCreateVolume</definition>
-        <argsstring></argsstring>
-        <name>canCreateVolume</name>
-        <qualifiedname>MR::PointsToMeshParameters::canCreateVolume</qualifiedname>
-        <briefdescription>
-<para>Callback for checking whether it&apos;s possible to use the volume creation function. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRVoxels/MRPointsToMeshFusion.h" line="57" column="19" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="57" bodyend="-1"/>
+        <location file="MRVoxels/MRPointsToMeshFusion.h" line="50" column="21" bodyfile="MRVoxels/MRPointsToMeshFusion.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6960b88843f2b683f6dbca4f21e82e86" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -78659,7 +78622,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRCuda/MRCudaPointsToDistanceVolume.h" line="16" column="21" declfile="MRCuda/MRCudaPointsToDistanceVolume.h" declline="16" declcolumn="21"/>
+        <location file="MRCuda/MRCudaPointsToDistanceVolume.h" line="18" column="21" declfile="MRCuda/MRCudaPointsToDistanceVolume.h" declline="18" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2ca6e42153313ca635d7ea3e12d19bf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API Expected&lt; void &gt;</type>
@@ -78690,7 +78653,114 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRCuda/MRCudaPointsToDistanceVolume.h" line="20" column="21" declfile="MRCuda/MRCudaPointsToDistanceVolume.h" declline="20" declcolumn="21"/>
+        <location file="MRCuda/MRCudaPointsToDistanceVolume.h" line="22" column="21" declfile="MRCuda/MRCudaPointsToDistanceVolume.h" declline="22" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga5cc55a97b581e01247749d0d7e6697a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCUDA_API size_t</type>
+        <definition>MRCUDA_API size_t MR::Cuda::pointsToDistanceVolumeMemory</definition>
+        <argsstring>(const PointCloud &amp;cloud, const Vector3i &amp;dims, const VertNormals *ptNormals)</argsstring>
+        <name>pointsToDistanceVolumeMemory</name>
+        <qualifiedname>MR::Cuda::pointsToDistanceVolumeMemory</qualifiedname>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const VertNormals *</type>
+          <declname>ptNormals</declname>
+        </param>
+        <briefdescription>
+<para>returns the minimal amount of free GPU memory required to build a distance volume with given dimensions </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCuda/MRCudaPointsToDistanceVolume.h" line="26" column="19" declfile="MRCuda/MRCudaPointsToDistanceVolume.h" declline="26" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga4ab69dfa734440add0aac0ba35d79944" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRCUDA_API bool</type>
+        <definition>MRCUDA_API bool MR::Cuda::ComputePointsToDistanceVolume::canCompute</definition>
+        <argsstring>(const PointCloud &amp;cloud, const MR::PointsToDistanceVolumeParams &amp;params) const override</argsstring>
+        <name>canCompute</name>
+        <qualifiedname>MR::Cuda::ComputePointsToDistanceVolume::canCompute</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga2f9d419cc2c5d5a588c2ddaeb688a945">canCompute</reimplements>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">MR::PointsToDistanceVolumeParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>see methods&apos; descriptions in the <ref refid="classMR_1_1IComputePointsToDistanceVolume" kindref="compound">MR::IComputePointsToDistanceVolume</ref> interfaces both <ref refid="group__GeneralGroup_1ga9316c01f6ad60e94fe21976a56638bc0" kindref="member">compute()</ref> and <ref refid="group__GeneralGroup_1ga45cb6b5925c44133a1659e0e91ea32a7" kindref="member">computeByParts()</ref> upload the same data and process the grid in chunks sized to the free GPU memory, so this answers for either of them </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCuda/MRCudaPointsToDistanceVolume.h" line="35" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga9316c01f6ad60e94fe21976a56638bc0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRCUDA_API Expected&lt; <ref refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" kindref="member">MR::SimpleVolumeMinMax</ref> &gt;</type>
+        <definition>MRCUDA_API Expected&lt; MR::SimpleVolumeMinMax &gt; MR::Cuda::ComputePointsToDistanceVolume::compute</definition>
+        <argsstring>(const PointCloud &amp;cloud, const MR::PointsToDistanceVolumeParams &amp;params) const override</argsstring>
+        <name>compute</name>
+        <qualifiedname>MR::Cuda::ComputePointsToDistanceVolume::compute</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga41f7ac9cc9ec41fc318ad00ac825b400">compute</reimplements>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">MR::PointsToDistanceVolumeParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makes the whole volume at once, which needs the entire grid in memory; the derived interfaces below offer cheaper ways to obtain the same data </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCuda/MRCudaPointsToDistanceVolume.h" line="36" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga45cb6b5925c44133a1659e0e91ea32a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRCUDA_API Expected&lt; void &gt;</type>
+        <definition>MRCUDA_API Expected&lt; void &gt; MR::Cuda::ComputePointsToDistanceVolume::computeByParts</definition>
+        <argsstring>(const PointCloud &amp;cloud, const MR::PointsToDistanceVolumeParams &amp;params, AddPartFunc addPart, int layerOverlap) const override</argsstring>
+        <name>computeByParts</name>
+        <qualifiedname>MR::Cuda::ComputePointsToDistanceVolume::computeByParts</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga642f71517acfbedad1162035a8897735">computeByParts</reimplements>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">MR::PointsToDistanceVolumeParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>AddPartFunc</type>
+          <declname>addPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerOverlap</declname>
+        </param>
+        <briefdescription>
+<para>makes the volume by z-slabs, passing each of them in addPart with layerOverlap layers shared by neighbours </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRCuda/MRCudaPointsToDistanceVolume.h" line="37" column="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab5f9490f820c7e7eb708e516e58d6e5a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API VertScalars</type>
@@ -158685,7 +158755,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="42" column="18"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="45" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1054b7f8be7d2eed209fb65f1f82f4ca" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -158703,7 +158773,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="43" column="18"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="46" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad23dbaff6cee17143b7f1612f4946e53" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -158721,7 +158791,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="44" column="18"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="47" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8ff4539752a1f32e8bb694b59d3ad7c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -158739,7 +158809,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="45" column="18"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="48" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6d1f993628da75eed086f0a5e5face9c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -158757,35 +158827,17 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="46" column="18"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga75ddb851bf9adb202f0db1e2c8e83881" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>static void MR::CudaAccessor::setCudaPointsToDistanceVolumeCallback</definition>
-        <argsstring>(CudaPointsToDistanceVolumeCallback callback)</argsstring>
-        <name>setCudaPointsToDistanceVolumeCallback</name>
-        <qualifiedname>MR::CudaAccessor::setCudaPointsToDistanceVolumeCallback</qualifiedname>
-        <param>
-          <type>CudaPointsToDistanceVolumeCallback</type>
-          <declname>callback</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="MRViewer/MRCudaAccessor.h" line="49" column="18"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae1eaf97b826883a102c1af2dc6c677d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaac350e2f8ed053dc407f7e0a36a2f224" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>static void MR::CudaAccessor::setCudaPointsToDistanceVolumeByPartsCallback</definition>
-        <argsstring>(CudaPointsToDistanceVolumeByPartsCallback callback)</argsstring>
-        <name>setCudaPointsToDistanceVolumeByPartsCallback</name>
-        <qualifiedname>MR::CudaAccessor::setCudaPointsToDistanceVolumeByPartsCallback</qualifiedname>
+        <definition>static void MR::CudaAccessor::setCudaComputePointsToDistanceVolumeConstructor</definition>
+        <argsstring>(CudaComputePointsToDistanceVolumeConstructor cpdvCtor)</argsstring>
+        <name>setCudaComputePointsToDistanceVolumeConstructor</name>
+        <qualifiedname>MR::CudaAccessor::setCudaComputePointsToDistanceVolumeConstructor</qualifiedname>
         <param>
-          <type>CudaPointsToDistanceVolumeByPartsCallback</type>
-          <declname>callback</declname>
+          <type>CudaComputePointsToDistanceVolumeConstructor</type>
+          <declname>cpdvCtor</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -158793,7 +158845,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="50" column="18"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="52" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga95d2cb91e636f24ca7eea28c365c0c85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -158811,7 +158863,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="51" column="18"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="53" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga18e4dd8df9ae57ff46b02500ff1ab77b" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -158828,7 +158880,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="56" column="19"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="58" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1e1a116ba946f8c03a9d5921847b0a10" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -158843,7 +158895,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="59" column="19"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="61" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4390304e1f82f48dfbddec372ab8802a" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -158858,7 +158910,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="62" column="18"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="64" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1b4dbe6e54065cfbf97141cbae913f81" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -158873,7 +158925,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="65" column="18"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="67" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga18b98e8b2d65b53cd633d34a68e6eb08" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -158888,7 +158940,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="68" column="18"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="70" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf26e23de19561200237fec1986f83b80" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -158903,7 +158955,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="71" column="18"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="73" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad260b8405fb92b7ec62599e8e1e71065" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -158918,7 +158970,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="74" column="21"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="76" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga857af3aa2253e052627759f62cbbbe34" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::unique_ptr&lt; IFastWindingNumber &gt;</type>
@@ -158937,7 +158989,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="77" column="30"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="79" column="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf41cece2c27e29cabb2f9933f8214d5a" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::unique_ptr&lt; IPointsToMeshProjector &gt;</type>
@@ -158952,7 +159004,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="80" column="30"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="82" column="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4451b1fc3c59b88da807d0aec38e1c18" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::unique_ptr&lt; IPointsProjector &gt;</type>
@@ -158967,37 +159019,22 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="83" column="30"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="85" column="30"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gac1939931888d9ee533e9e5817c8c7f6e" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>CudaPointsToDistanceVolumeCallback</type>
-        <definition>static CudaPointsToDistanceVolumeCallback MR::CudaAccessor::getCudaPointsToDistanceVolumeCallback</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1ga1339236f1387a74417bc30306a1eae6e" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; IComputePointsToDistanceVolume &gt;</type>
+        <definition>static std::unique_ptr&lt; IComputePointsToDistanceVolume &gt; MR::CudaAccessor::getCudaComputePointsToDistanceVolume</definition>
         <argsstring>()</argsstring>
-        <name>getCudaPointsToDistanceVolumeCallback</name>
-        <qualifiedname>MR::CudaAccessor::getCudaPointsToDistanceVolumeCallback</qualifiedname>
+        <name>getCudaComputePointsToDistanceVolume</name>
+        <qualifiedname>MR::CudaAccessor::getCudaComputePointsToDistanceVolume</qualifiedname>
         <briefdescription>
-<para>Returns cuda implementation of PointsToDistanceVolumeCallback. </para>
+<para>Returns cuda implementation of <ref refid="classMR_1_1IComputePointsToDistanceVolume" kindref="compound">IComputePointsToDistanceVolume</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="87" column="49"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2f2555ad8d3608347d33805c76bad5db" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>CudaPointsToDistanceVolumeByPartsCallback</type>
-        <definition>static CudaPointsToDistanceVolumeByPartsCallback MR::CudaAccessor::getCudaPointsToDistanceVolumeByPartsCallback</definition>
-        <argsstring>()</argsstring>
-        <name>getCudaPointsToDistanceVolumeByPartsCallback</name>
-        <qualifiedname>MR::CudaAccessor::getCudaPointsToDistanceVolumeByPartsCallback</qualifiedname>
-        <briefdescription>
-<para>Returns cuda implementation of PointsToDistanceVolumeByPartsCallback. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="90" column="56"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="89" column="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaaf379405e9817ae1be1c950e0ae3e530" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::unique_ptr&lt; IComputeToolDistance &gt;</type>
@@ -159012,7 +159049,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="93" column="30"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="92" column="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaff07b352e194a264a7e89683eddf0bab" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -159040,7 +159077,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="98" column="21"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="97" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1e4dea0e3b9b87f7b30b6c0980eeb97a" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -159072,7 +159109,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="102" column="21"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="101" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga976cccca7b374641ff03ff0c8579efea" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -159105,7 +159142,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="108" column="21"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="107" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1ef2d3f6b02b98c6e246b17431752127" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -159134,60 +159171,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="114" column="21"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaf256c0dc65f9c1c49975ec3166fa6554" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>size_t</type>
-        <definition>static size_t MR::CudaAccessor::pointsToDistanceVolumeMemory</definition>
-        <argsstring>(const PointCloud &amp;pointCloud, const Vector3i &amp;dims, const VertNormals *ptNormals)</argsstring>
-        <name>pointsToDistanceVolumeMemory</name>
-        <qualifiedname>MR::CudaAccessor::pointsToDistanceVolumeMemory</qualifiedname>
-        <param>
-          <type>const PointCloud &amp;</type>
-          <declname>pointCloud</declname>
-        </param>
-        <param>
-          <type>const Vector3i &amp;</type>
-          <declname>dims</declname>
-        </param>
-        <param>
-          <type>const VertNormals *</type>
-          <declname>ptNormals</declname>
-        </param>
-        <briefdescription>
-<para>returns amount of required GPU memory for <ref refid="group__GeneralGroup_1ga76d46e2388018a2bca5a72dfaefd30e9" kindref="member">Cuda::pointsToDistanceVolume</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>pointCloud</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- input point cloud </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>dims</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- dimensions of the volume </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>ptNormals</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- (optional) point normals </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="120" column="21"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="113" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8109adc83af8ba85f216529da6077c81" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -159201,7 +159185,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="123" column="5"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="116" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaebd34fb5cead4f46af0268afd186991e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -159215,7 +159199,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="124" column="5"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="117" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6e4b5dad06709d73ebe6f5bdff0356c7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>CudaAccessor &amp;</type>
@@ -159229,7 +159213,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRCudaAccessor.h" line="126" column="25"/>
+        <location file="MRViewer/MRCudaAccessor.h" line="119" column="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad27509c52d0c34930eecbe2402a7b67a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -202530,7 +202514,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="37" column="12" declfile="MRVoxels/MRPointsToDistanceVolume.h" declline="37" declcolumn="12"/>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="39" column="12" declfile="MRVoxels/MRPointsToDistanceVolume.h" declline="39" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga815886dfa1babcbedc85b059e1e66fec" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FunctionVolume</type>
@@ -202553,7 +202537,282 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="40" column="18" declfile="MRVoxels/MRPointsToDistanceVolume.h" declline="40" declcolumn="18"/>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="42" column="18" declfile="MRVoxels/MRPointsToDistanceVolume.h" declline="42" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga67274dda6d9ec6a0263bf60088e56409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::IComputePointsToDistanceVolume::IComputePointsToDistanceVolume</definition>
+        <argsstring>()=default</argsstring>
+        <name>IComputePointsToDistanceVolume</name>
+        <qualifiedname>MR::IComputePointsToDistanceVolume::IComputePointsToDistanceVolume</qualifiedname>
+        <briefdescription>
+<para>explicitly define ctors to avoid warning C5267: definition of implicit copy constructor is deprecated because it has a user-provided destructor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="49" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gafc49f649f23fb34e2e05dcf81db7c98e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::IComputePointsToDistanceVolume::IComputePointsToDistanceVolume</definition>
+        <argsstring>(const IComputePointsToDistanceVolume &amp;)=default</argsstring>
+        <name>IComputePointsToDistanceVolume</name>
+        <qualifiedname>MR::IComputePointsToDistanceVolume::IComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>const IComputePointsToDistanceVolume &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="50" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga49203c87a1e3771957b9d06a2d5fbd6b" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::IComputePointsToDistanceVolume::IComputePointsToDistanceVolume</definition>
+        <argsstring>(IComputePointsToDistanceVolume &amp;&amp;) noexcept=default</argsstring>
+        <name>IComputePointsToDistanceVolume</name>
+        <qualifiedname>MR::IComputePointsToDistanceVolume::IComputePointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>IComputePointsToDistanceVolume &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="51" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga3eb6e32c91c150d4fed57d55b4a55eae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IComputePointsToDistanceVolume &amp;</type>
+        <definition>IComputePointsToDistanceVolume &amp; MR::IComputePointsToDistanceVolume::operator=</definition>
+        <argsstring>(const IComputePointsToDistanceVolume &amp;)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::IComputePointsToDistanceVolume::operator=</qualifiedname>
+        <param>
+          <type>const IComputePointsToDistanceVolume &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="53" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gac21a82abf4c9db8c0cccce6aebd53a87" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>IComputePointsToDistanceVolume &amp;</type>
+        <definition>IComputePointsToDistanceVolume &amp; MR::IComputePointsToDistanceVolume::operator=</definition>
+        <argsstring>(IComputePointsToDistanceVolume &amp;&amp;) noexcept=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::IComputePointsToDistanceVolume::operator=</qualifiedname>
+        <param>
+          <type>IComputePointsToDistanceVolume &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="54" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga2856066855e764964a0455777c34ddd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::IComputePointsToDistanceVolume::~IComputePointsToDistanceVolume</definition>
+        <argsstring>()=default</argsstring>
+        <name>~IComputePointsToDistanceVolume</name>
+        <qualifiedname>MR::IComputePointsToDistanceVolume::~IComputePointsToDistanceVolume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="56" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga2f9d419cc2c5d5a588c2ddaeb688a945" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::IComputePointsToDistanceVolume::canCompute</definition>
+        <argsstring>(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params) const =0</argsstring>
+        <name>canCompute</name>
+        <qualifiedname>MR::IComputePointsToDistanceVolume::canCompute</qualifiedname>
+        <reimplementedby refid="group__GeneralGroup_1ga312e027f6b14321c1e5af193fc587217">canCompute</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga4ab69dfa734440add0aac0ba35d79944">canCompute</reimplementedby>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const PointsToDistanceVolumeParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>whether this implementation can process given input, e.g. it fits in GPU memory </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="59" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga41f7ac9cc9ec41fc318ad00ac825b400" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>Expected&lt; SimpleVolumeMinMax &gt;</type>
+        <definition>virtual Expected&lt; SimpleVolumeMinMax &gt; MR::IComputePointsToDistanceVolume::compute</definition>
+        <argsstring>(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params) const =0</argsstring>
+        <name>compute</name>
+        <qualifiedname>MR::IComputePointsToDistanceVolume::compute</qualifiedname>
+        <reimplementedby refid="group__GeneralGroup_1ga5215aa00e754507c0beebad13b90d508">compute</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga9316c01f6ad60e94fe21976a56638bc0">compute</reimplementedby>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const PointsToDistanceVolumeParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makes the whole volume at once, which needs the entire grid in memory; the derived interfaces below offer cheaper ways to obtain the same data </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="63" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga642f71517acfbedad1162035a8897735" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>virtual Expected&lt; void &gt; MR::IComputePointsToDistanceVolumeByParts::computeByParts</definition>
+        <argsstring>(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params, AddPartFunc addPart, int layerOverlap) const =0</argsstring>
+        <name>computeByParts</name>
+        <qualifiedname>MR::IComputePointsToDistanceVolumeByParts::computeByParts</qualifiedname>
+        <reimplementedby refid="group__GeneralGroup_1ga45cb6b5925c44133a1659e0e91ea32a7">computeByParts</reimplementedby>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const PointsToDistanceVolumeParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>AddPartFunc</type>
+          <declname>addPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerOverlap</declname>
+        </param>
+        <briefdescription>
+<para>makes the volume by z-slabs, passing each of them in addPart with layerOverlap layers shared by neighbours </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="74" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga152e3fe43cb6e11f7ff1dd0c10b57369" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>FunctionVolume</type>
+        <definition>virtual FunctionVolume MR::IComputePointsToDistanceFunctionVolume::computeFunctionVolume</definition>
+        <argsstring>(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params) const =0</argsstring>
+        <name>computeFunctionVolume</name>
+        <qualifiedname>MR::IComputePointsToDistanceFunctionVolume::computeFunctionVolume</qualifiedname>
+        <reimplementedby refid="group__GeneralGroup_1gab532a0db10593ce68ea887ded46fb244">computeFunctionVolume</reimplementedby>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const PointsToDistanceVolumeParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>makes a volume evaluated on demand; it is valid as long as cloud and params are alive </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="84" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga312e027f6b14321c1e5af193fc587217" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool MR::ComputePointsToDistanceVolume::canCompute</definition>
+        <argsstring>(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params) const override</argsstring>
+        <name>canCompute</name>
+        <qualifiedname>MR::ComputePointsToDistanceVolume::canCompute</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga2f9d419cc2c5d5a588c2ddaeb688a945">canCompute</reimplements>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const PointsToDistanceVolumeParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>see methods&apos; descriptions in the interfaces above </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="93" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga5215aa00e754507c0beebad13b90d508" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>Expected&lt; SimpleVolumeMinMax &gt;</type>
+        <definition>Expected&lt; SimpleVolumeMinMax &gt; MR::ComputePointsToDistanceVolume::compute</definition>
+        <argsstring>(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params) const override</argsstring>
+        <name>compute</name>
+        <qualifiedname>MR::ComputePointsToDistanceVolume::compute</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga41f7ac9cc9ec41fc318ad00ac825b400">compute</reimplements>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const PointsToDistanceVolumeParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makes the whole volume at once, which needs the entire grid in memory; the derived interfaces below offer cheaper ways to obtain the same data </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="94" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gab532a0db10593ce68ea887ded46fb244" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>FunctionVolume</type>
+        <definition>FunctionVolume MR::ComputePointsToDistanceVolume::computeFunctionVolume</definition>
+        <argsstring>(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params) const override</argsstring>
+        <name>computeFunctionVolume</name>
+        <qualifiedname>MR::ComputePointsToDistanceVolume::computeFunctionVolume</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga152e3fe43cb6e11f7ff1dd0c10b57369">computeFunctionVolume</reimplements>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>const PointsToDistanceVolumeParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>makes a volume evaluated on demand; it is valid as long as cloud and params are alive </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="95" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga43c5eff589bf8b66beca99dac171b10c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; VertColors &gt;</type>
@@ -202642,7 +202901,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="50" column="12" declfile="MRVoxels/MRPointsToDistanceVolume.h" declline="50" declcolumn="12"/>
+        <location file="MRVoxels/MRPointsToDistanceVolume.h" line="106" column="12" declfile="MRVoxels/MRPointsToDistanceVolume.h" declline="106" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8385dbd13a04c7841be48a4d0ad477dc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -202665,7 +202924,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRPointsToMeshFusion.h" line="62" column="12" declfile="MRVoxels/MRPointsToMeshFusion.h" declline="62" declcolumn="12"/>
+        <location file="MRVoxels/MRPointsToMeshFusion.h" line="55" column="12" declfile="MRVoxels/MRPointsToMeshFusion.h" declline="55" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaeae108f3ba396aeb02e9f2365ca6fe4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; FloatGrid &gt;</type>

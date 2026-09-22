@@ -1,6 +1,8 @@
 var classMR_1_1Cuda =
 [
+    [ "ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" ],
     [ "ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", "classMR_1_1Cuda_1_1ComputeToolDistance" ],
+    [ "Const_ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume.html", "classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume" ],
     [ "Const_ComputeToolDistance", "classMR_1_1Cuda_1_1Const__ComputeToolDistance.html", "classMR_1_1Cuda_1_1Const__ComputeToolDistance" ],
     [ "Const_DeviceInfo", "classMR_1_1Cuda_1_1Const__DeviceInfo.html", "classMR_1_1Cuda_1_1Const__DeviceInfo" ],
     [ "Const_FastWindingNumber", "classMR_1_1Cuda_1_1Const__FastWindingNumber.html", "classMR_1_1Cuda_1_1Const__FastWindingNumber" ],
@@ -28,5 +30,6 @@ var classMR_1_1Cuda =
     [ "maxBufferSizeAlignedByBlock", "classMR_1_1Cuda.html#a2ee724ac36d26a6c83bdcd469a4b1a22", null ],
     [ "negatePicture", "classMR_1_1Cuda.html#ab2b7f6383c91b4355a8e3efd50505461", null ],
     [ "pointsToDistanceVolume", "classMR_1_1Cuda.html#ada48bf1cb30a1dd5423bcb0d29c6b1d2", null ],
-    [ "pointsToDistanceVolumeByParts", "classMR_1_1Cuda.html#ac41726497d51f9764c2d9c2c2e9db105", null ]
+    [ "pointsToDistanceVolumeByParts", "classMR_1_1Cuda.html#ac41726497d51f9764c2d9c2c2e9db105", null ],
+    [ "pointsToDistanceVolumeMemory", "classMR_1_1Cuda.html#a8b991d06691ed494c32465f1dcecd565", null ]
 ];

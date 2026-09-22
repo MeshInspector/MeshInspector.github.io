@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrcudapy_1_1ComputePointsToDistanceVolume" kind="class" language="Python" prot="public">
+    <compoundname>mrcudapy::ComputePointsToDistanceVolume</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">meshlib.mrmeshpy.IComputePointsToDistanceVolumeByParts</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrcudapy_1_1ComputePointsToDistanceVolume_1aa8755b4726d75a15ffdbf4d74528c193" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.ComputePointsToDistanceVolume.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrcudapy.ComputePointsToDistanceVolume.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="25" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1ComputePointsToDistanceVolume_1aa2f8c1f3eb051229c46035e360f90376" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrcudapy_1_1ComputePointsToDistanceVolume" kindref="compound">ComputePointsToDistanceVolume</ref></type>
+        <definition> ComputePointsToDistanceVolume mrcudapy.ComputePointsToDistanceVolume.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrcudapy.ComputePointsToDistanceVolume.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="29" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1ComputePointsToDistanceVolume_1aa2f8c1f3eb051229c46035e360f90376" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrcudapy_1_1ComputePointsToDistanceVolume" kindref="compound">ComputePointsToDistanceVolume</ref></type>
+        <definition> ComputePointsToDistanceVolume mrcudapy.ComputePointsToDistanceVolume.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrcudapy.ComputePointsToDistanceVolume.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="33" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrcudapy_1_1ComputePointsToDistanceVolume_1a3c0dc87974406f13bb815f275876814c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.ComputePointsToDistanceVolume.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrcudapy.ComputePointsToDistanceVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="36" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="36" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1ComputePointsToDistanceVolume_1a9eee311b863a80b38a9aac32af6c815d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.ComputePointsToDistanceVolume.__init__</definition>
+        <argsstring>(self, ComputePointsToDistanceVolume arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrcudapy.ComputePointsToDistanceVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrcudapy_1_1ComputePointsToDistanceVolume" kindref="compound">ComputePointsToDistanceVolume</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1ComputePointsToDistanceVolume_1adeab21299d2a6a42fc9ed7a03270a245" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrcudapy.ComputePointsToDistanceVolume.canCompute</definition>
+        <argsstring>(self, meshlib.mrmeshpy.PointCloud cloud, meshlib.mrmeshpy.PointsToDistanceVolumeParams params)</argsstring>
+        <name>canCompute</name>
+        <qualifiedname>mrcudapy.ComputePointsToDistanceVolume.canCompute</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.PointsToDistanceVolumeParams</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>see methods&apos; descriptions in the MR::IComputePointsToDistanceVolume interfaces
+ both compute() and computeByParts() upload the same data and process the grid in chunks
+ sized to the free GPU memory, so this answers for either of them
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1ComputePointsToDistanceVolume_1a359499aa60e74b9ede0aa8003cbb2043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.SimpleVolumeMinMax</type>
+        <definition> meshlib.mrmeshpy.SimpleVolumeMinMax mrcudapy.ComputePointsToDistanceVolume.compute</definition>
+        <argsstring>(self, meshlib.mrmeshpy.PointCloud cloud, meshlib.mrmeshpy.PointsToDistanceVolumeParams params)</argsstring>
+        <name>compute</name>
+        <qualifiedname>mrcudapy.ComputePointsToDistanceVolume.compute</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.PointsToDistanceVolumeParams</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="49" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="49" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1ComputePointsToDistanceVolume_1a9b48f67af83e236f074342f18ae26ac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.ComputePointsToDistanceVolume.computeByParts</definition>
+        <argsstring>(self, meshlib.mrmeshpy.PointCloud cloud, meshlib.mrmeshpy.PointsToDistanceVolumeParams params, meshlib.mrmeshpy.func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_int addPart, int layerOverlap)</argsstring>
+        <name>computeByParts</name>
+        <qualifiedname>mrcudapy.ComputePointsToDistanceVolume.computeByParts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.PointsToDistanceVolumeParams</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_int</type>
+          <declname>addPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerOverlap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="51" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="51" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Cuda::ComputePointsToDistanceVolume
+
+CUDA implementation of IComputePointsToDistanceVolumeByParts
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>meshlib::mrmeshpy::IComputePointsToDistanceVolumeByParts</label>
+      </node>
+      <node id="1">
+        <label>mrcudapy.ComputePointsToDistanceVolume</label>
+        <link refid="classmrcudapy_1_1ComputePointsToDistanceVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>meshlib::mrmeshpy::IComputePointsToDistanceVolumeByParts</label>
+      </node>
+      <node id="1">
+        <label>mrcudapy.ComputePointsToDistanceVolume</label>
+        <link refid="classmrcudapy_1_1ComputePointsToDistanceVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="17" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1aa8755b4726d75a15ffdbf4d74528c193" prot="public" virt="non-virtual"><scope>mrcudapy::ComputePointsToDistanceVolume</scope><name>__init__</name></member>
+      <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1a3c0dc87974406f13bb815f275876814c" prot="public" virt="non-virtual"><scope>mrcudapy::ComputePointsToDistanceVolume</scope><name>__init__</name></member>
+      <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1a9eee311b863a80b38a9aac32af6c815d" prot="public" virt="non-virtual"><scope>mrcudapy::ComputePointsToDistanceVolume</scope><name>__init__</name></member>
+      <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1adeab21299d2a6a42fc9ed7a03270a245" prot="public" virt="non-virtual"><scope>mrcudapy::ComputePointsToDistanceVolume</scope><name>canCompute</name></member>
+      <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1a359499aa60e74b9ede0aa8003cbb2043" prot="public" virt="non-virtual"><scope>mrcudapy::ComputePointsToDistanceVolume</scope><name>compute</name></member>
+      <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1a9b48f67af83e236f074342f18ae26ac1" prot="public" virt="non-virtual"><scope>mrcudapy::ComputePointsToDistanceVolume</scope><name>computeByParts</name></member>
+      <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1aa2f8c1f3eb051229c46035e360f90376" prot="public" virt="non-virtual"><scope>mrcudapy::ComputePointsToDistanceVolume</scope><name>operator</name></member>
+      <member refid="classmrcudapy_1_1ComputePointsToDistanceVolume_1aa2f8c1f3eb051229c46035e360f90376" prot="public" virt="non-virtual"><scope>mrcudapy::ComputePointsToDistanceVolume</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
