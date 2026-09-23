@@ -1,5 +1,10 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[9,0,2,0,2,32,1,3],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7":[9,0,1,0,1,48,1,6],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7":[9,0,2,0,2,32,1,6],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d":[9,0,1,0,1,48,1,2],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d":[9,0,2,0,2,32,1,2],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a6f5bf92c6fb3063c2d70ea917ba4a458":[9,0,1,0,1,48,1,1],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a6f5bf92c6fb3063c2d70ea917ba4a458":[9,0,2,0,2,32,1,1],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a86643849d573e87b6dd3e459323b97a3":[9,0,1,0,1,48,1,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html":[9,0,0,20,540],
 "structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html":[9,0,0,20,541],
 "structMR_1_1VertDistance.html":[9,0,0,16,2,0],
-"structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a":[9,0,0,16,2,0,2],
-"structMR_1_1VertDistance.html#a7e288480095c91d543447305bb312076":[9,0,0,16,2,0,1],
-"structMR_1_1VertDistance.html#ab32da452523a0d3cd61407d73b038145":[9,0,0,16,2,0,3],
-"structMR_1_1VertDistance.html#ae19ef1f7b79abb8e541d35f8cb12a614":[9,0,0,16,2,0,0],
-"structMR_1_1VertPathInfo.html":[9,0,0,16,5],
-"structMR_1_1VertPathInfo.html":[9,0,0,20,206]
+"structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a":[9,0,0,16,2,0,2]
 };

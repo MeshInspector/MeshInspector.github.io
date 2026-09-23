@@ -1,5 +1,6 @@
 var namespaceMR_1_1MeshComponents =
 [
+    [ "ComponentsFaces", "structMR_1_1MeshComponents_1_1ComponentsFaces.html", "structMR_1_1MeshComponents_1_1ComponentsFaces" ],
     [ "ExpandToComponentsParams", "structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html", "structMR_1_1MeshComponents_1_1ExpandToComponentsParams" ],
     [ "LargeByAreaComponentsSettings", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" ],
     [ "FaceIncidence", "group__MeshComponentsGroup.html#ga7489c91178e90fdd4200bbb0074e025f", [
@@ -17,6 +18,8 @@ var namespaceMR_1_1MeshComponents =
     [ "getAllComponents", "group__MeshComponentsGroup.html#gaa93eb46b6c87bd17060bee960111398c", null ],
     [ "getAllComponents", "group__MeshComponentsGroup.html#ga97b195864ae6464fc4af8dbbfbf12c25", null ],
     [ "getAllComponentsEdges", "group__MeshComponentsGroup.html#gafdcffc76ac25f878c3b7396979b31a59", null ],
+    [ "getAllComponentsFaces", "group__MeshComponentsGroup.html#gaba2da2bd1f3d2cfcf549494036b08cd7", null ],
+    [ "getAllComponentsFaces", "group__MeshComponentsGroup.html#ga0a656dc0668e166fd8382b1dbca0c106", null ],
     [ "getAllComponentsMap", "group__MeshComponentsGroup.html#ga2aab1963ab19bf9523812ac0264c0841", null ],
     [ "getAllComponentsUndirectedEdges", "group__MeshComponentsGroup.html#ga771199217cd0fe03f92ad929b794ea15", null ],
     [ "getAllComponentsVerts", "group__MeshComponentsGroup.html#gac3f08916e38c544b82948eebe0ad7927", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1CameraPointsTriangulationSettings.html":[9,0,0,20,142],
+"structMR_1_1CharPressedListener.html":[9,0,0,20,795],
 "structMR_1_1Chunk.html":[9,0,0,20,164],
 "structMR_1_1ChunkIterator.html":[9,0,0,20,165],
 "structMR_1_1CloseToMeshVolumeParams.html":[9,0,0,20,862],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html":[9,0,0,20,249],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,20,252],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[9,0,0,20,253],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[9,0,0,20,250],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html":[9,0,0,20,248],
-"structMR_1_1Features_1_1Traits_1_1Unary.html":[9,0,0,20,243]
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[9,0,0,20,250]
 };

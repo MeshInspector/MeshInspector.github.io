@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshComponents::ComponentsFaces</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a20d2e725bcc800fe385aaa82d296482c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshComponents.ComponentsFaces::_offsetof_faces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_faces</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ComponentsFaces._offsetof_faces</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a77b10e06c3db84392df4779f9eb336a7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshComponents.ComponentsFaces::_offsetof_offsets</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_offsets</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ComponentsFaces._offsetof_offsets</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33358" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a9bcc816d9461a4b33154e55e7d1ff090" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ComponentsFaces.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ComponentsFaces.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33361" bodyend="33362"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a4769b7c48d93219648cefca94731875e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces" kindref="compound">MeshComponents.ComponentsFaces</ref></type>
+        <definition> MeshComponents.ComponentsFaces mrmeshpy.MeshComponents.ComponentsFaces.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ComponentsFaces.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33365" bodyend="33366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a4769b7c48d93219648cefca94731875e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces" kindref="compound">MeshComponents.ComponentsFaces</ref></type>
+        <definition> MeshComponents.ComponentsFaces mrmeshpy.MeshComponents.ComponentsFaces.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ComponentsFaces.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33369" bodyend="33370"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a6da493613f5c2f61174e49d85186664a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ComponentsFaces.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ComponentsFaces.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33372" bodyend="33373"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a66c2074a6e47fc32d60c5b79e8c8719a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ComponentsFaces.__init__</definition>
+        <argsstring>(self, MeshComponents.ComponentsFaces arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ComponentsFaces.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces" kindref="compound">MeshComponents.ComponentsFaces</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33375" bodyend="33378"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a1c5e324932d7973044ad6e5b44bf5a63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ComponentsFaces.__init__</definition>
+        <argsstring>(self, std_vector_Id_FaceTag faces, std_vector_int offsets)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ComponentsFaces.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__FaceTag" kindref="compound">std_vector_Id_FaceTag</ref></type>
+          <declname>faces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__int" kindref="compound">std_vector_int</ref></type>
+          <declname>offsets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33380" bodyend="33383"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a3862a02a6de82243d0522970a37b5c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__FaceTag" kindref="compound">std_vector_Id_FaceTag</ref></type>
+        <definition> std_vector_Id_FaceTag mrmeshpy.MeshComponents.ComponentsFaces.faces</definition>
+        <argsstring>(self)</argsstring>
+        <name>faces</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ComponentsFaces.faces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>faces of component 0, then faces of component 1, ...;
+the faces of component i are faces[offsets[i]], ..., faces[offsets[i+1]-1] in increasing order
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33385" bodyend="33389"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a1443b46fa008adcd3c02e504b0fd0e5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ComponentsFaces.faces</definition>
+        <argsstring>(self, std_vector_Id_FaceTag arg1)</argsstring>
+        <name>faces</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ComponentsFaces.faces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__FaceTag" kindref="compound">std_vector_Id_FaceTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33391" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33391" bodyend="33392"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a81b660e4559f1ac63f6a620069a4e8e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__int" kindref="compound">std_vector_int</ref></type>
+        <definition> std_vector_int mrmeshpy.MeshComponents.ComponentsFaces.offsets</definition>
+        <argsstring>(self)</argsstring>
+        <name>offsets</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ComponentsFaces.offsets</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of components + 1 elements, offsets.back() == faces.size()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33394" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33394" bodyend="33397"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a801146dfa0fcd5971ce95554af14d41b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshComponents.ComponentsFaces.offsets</definition>
+        <argsstring>(self, std_vector_int arg1)</argsstring>
+        <name>offsets</name>
+        <qualifiedname>mrmeshpy.MeshComponents.ComponentsFaces.offsets</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__int" kindref="compound">std_vector_int</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33399" bodyend="33401"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshComponents::ComponentsFaces
+
+faces of all components in one flat array
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33351" bodyend="33400"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a9bcc816d9461a4b33154e55e7d1ff090" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ComponentsFaces</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a6da493613f5c2f61174e49d85186664a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ComponentsFaces</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a66c2074a6e47fc32d60c5b79e8c8719a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ComponentsFaces</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a1c5e324932d7973044ad6e5b44bf5a63" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ComponentsFaces</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a20d2e725bcc800fe385aaa82d296482c" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ComponentsFaces</scope><name>_offsetof_faces</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a77b10e06c3db84392df4779f9eb336a7" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ComponentsFaces</scope><name>_offsetof_offsets</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a3862a02a6de82243d0522970a37b5c4b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ComponentsFaces</scope><name>faces</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a1443b46fa008adcd3c02e504b0fd0e5c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ComponentsFaces</scope><name>faces</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a81b660e4559f1ac63f6a620069a4e8e3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ComponentsFaces</scope><name>offsets</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a801146dfa0fcd5971ce95554af14d41b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ComponentsFaces</scope><name>offsets</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a4769b7c48d93219648cefca94731875e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ComponentsFaces</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces_1a4769b7c48d93219648cefca94731875e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents::ComponentsFaces</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

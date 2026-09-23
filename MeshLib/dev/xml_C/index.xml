@@ -14265,6 +14265,7 @@
     <member refid="MRMeshComponents_8h_1ab1723c783e46589dda78a51b35d9d358" kind="typedef"><name>MR_MeshComponents_VolumeSelection</name></member>
     <member refid="MRMeshComponents_8h_1a56e44aaa8a15f4abcba40e2572542073" kind="typedef"><name>MR_MeshComponents_ExpandToComponentsParams</name></member>
     <member refid="MRMeshComponents_8h_1a0ddbc518ecf93a7a8e6bae6c4ec1094d" kind="typedef"><name>MR_MeshComponents_LargeByAreaComponentsSettings</name></member>
+    <member refid="MRMeshComponents_8h_1a44216920e526b8910cd909b7b26c99f9" kind="typedef"><name>MR_MeshComponents_ComponentsFaces</name></member>
     <member refid="MRMeshComponents_8h_1adae251b89eed79124c01d7b8e2fa748b" kind="function"><name>MR_MeshComponents_getComponent</name></member>
     <member refid="MRMeshComponents_8h_1a747004f920ef48322b814e5d6310bed1" kind="function"><name>MR_MeshComponents_getComponentVerts</name></member>
     <member refid="MRMeshComponents_8h_1af46c0ca955b4d11ee8a6a06e204877e8" kind="function"><name>MR_MeshComponents_getLargestComponentVerts</name></member>
@@ -14331,6 +14332,23 @@
     <member refid="MRMeshComponents_8h_1ad4646d1fbee60ad5fe210955c38590be" kind="function"><name>MR_MeshComponents_getAllComponents_4_MR_MeshPart</name></member>
     <member refid="MRMeshComponents_8h_1a91410f507f4bef76a295a47caff807e9" kind="function"><name>MR_MeshComponents_getAllComponents_4_MR_Face2RegionMap</name></member>
     <member refid="MRMeshComponents_8h_1adb8b5fa041e757329e62fdc2fa1f251b" kind="function"><name>MR_MeshComponents_getAllComponentsMap</name></member>
+    <member refid="MRMeshComponents_8h_1ae27d324a3b33a2a90b2fbf782b064e80" kind="function"><name>MR_MeshComponents_ComponentsFaces_Get_faces</name></member>
+    <member refid="MRMeshComponents_8h_1ae1f2b81f6147f7e525ce20fd10199668" kind="function"><name>MR_MeshComponents_ComponentsFaces_Set_faces</name></member>
+    <member refid="MRMeshComponents_8h_1abedfd54db0ade353be8c3f476dd845a9" kind="function"><name>MR_MeshComponents_ComponentsFaces_GetMutable_faces</name></member>
+    <member refid="MRMeshComponents_8h_1a1ab364b5095429061dfc1566984605ad" kind="function"><name>MR_MeshComponents_ComponentsFaces_Get_offsets</name></member>
+    <member refid="MRMeshComponents_8h_1ad1e58080a479837b46956fa9175bb6b4" kind="function"><name>MR_MeshComponents_ComponentsFaces_Set_offsets</name></member>
+    <member refid="MRMeshComponents_8h_1a7b8130fe2ef9703c8cb83423638ad84f" kind="function"><name>MR_MeshComponents_ComponentsFaces_GetMutable_offsets</name></member>
+    <member refid="MRMeshComponents_8h_1a3f28200a1b300f3f835ad3e1a931c818" kind="function"><name>MR_MeshComponents_ComponentsFaces_DefaultConstruct</name></member>
+    <member refid="MRMeshComponents_8h_1a158bfef73c1ff94fbd76017caf3115fd" kind="function"><name>MR_MeshComponents_ComponentsFaces_DefaultConstructArray</name></member>
+    <member refid="MRMeshComponents_8h_1ab1ebc3860327bcaca22f6c52674b7103" kind="function"><name>MR_MeshComponents_ComponentsFaces_ConstructFrom</name></member>
+    <member refid="MRMeshComponents_8h_1a4037b4ee1cc2e90bd3e8e20840fc23c4" kind="function"><name>MR_MeshComponents_ComponentsFaces_OffsetPtr</name></member>
+    <member refid="MRMeshComponents_8h_1a18cabaff8a51034944f2ddc084785c8a" kind="function"><name>MR_MeshComponents_ComponentsFaces_OffsetMutablePtr</name></member>
+    <member refid="MRMeshComponents_8h_1a993919d982ab4306ffde52fddb309211" kind="function"><name>MR_MeshComponents_ComponentsFaces_ConstructFromAnother</name></member>
+    <member refid="MRMeshComponents_8h_1a62b1ebe2eb5f6df6b41c96783863993f" kind="function"><name>MR_MeshComponents_ComponentsFaces_Destroy</name></member>
+    <member refid="MRMeshComponents_8h_1a906bfa8ee715fe406f5d2ec9d9ad39d8" kind="function"><name>MR_MeshComponents_ComponentsFaces_DestroyArray</name></member>
+    <member refid="MRMeshComponents_8h_1a81fdd7fcec9ed1084e5eb228b468b2bd" kind="function"><name>MR_MeshComponents_ComponentsFaces_AssignFromAnother</name></member>
+    <member refid="MRMeshComponents_8h_1a3b9865e39c12a032dbe73c763947c197" kind="function"><name>MR_MeshComponents_getAllComponentsFaces_MR_MeshPart</name></member>
+    <member refid="MRMeshComponents_8h_1a40809f5caa19565e71b354c744ff5f23" kind="function"><name>MR_MeshComponents_getAllComponentsFaces_MR_Face2RegionMap</name></member>
     <member refid="MRMeshComponents_8h_1a2b03fd007a5b2cf913f267a911e9aff6" kind="function"><name>MR_MeshComponents_getFacePairRegionMap</name></member>
     <member refid="MRMeshComponents_8h_1a6cd0ce3a70562710cbde7f1a661aa72a" kind="function"><name>MR_MeshComponents_getRegionAreas</name></member>
     <member refid="MRMeshComponents_8h_1a04e22e231217f1ffeec13f6fe6b61678" kind="function"><name>MR_MeshComponents_getLargeByAreaRegions</name></member>

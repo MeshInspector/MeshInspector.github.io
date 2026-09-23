@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1Mesh.html#a983c07d7b4304575cff85c24523ca8a1":[9,0,0,7,1,42],
+"structMR_1_1Mesh.html#a985bc1ef62bdb8754e1b4f3da304256b":[9,0,0,7,1,113],
 "structMR_1_1Mesh.html#a9c3fed969fd69fc13302e22b2d6fd4ad":[9,0,0,7,1,114],
 "structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca":[9,0,0,7,1,118],
 "structMR_1_1Mesh.html#a9f365e654b9b4a4584293c3add2fdb05":[9,0,0,7,1,103],
@@ -57,6 +59,9 @@ var NAVTREEINDEX66 =
 "structMR_1_1MeshBuilder_1_1VertSpan.html":[9,0,0,20,343],
 "structMR_1_1MeshBuilder_1_1VertTri.html":[9,0,0,20,546],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html":[9,0,0,20,293],
+"structMR_1_1MeshComponents_1_1ComponentsFaces.html":[9,0,0,19,0,2],
+"structMR_1_1MeshComponents_1_1ComponentsFaces.html#a6cad6fd63d8202e80b707dcf96fd9968":[9,0,0,19,0,2,0],
+"structMR_1_1MeshComponents_1_1ComponentsFaces.html#a781485ec875468538e5e919c3728df6e":[9,0,0,19,0,2,1],
 "structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html":[9,0,0,19,0,0],
 "structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html#a3b52749445bbc0fec608f7f5449ad818":[9,0,0,19,0,0,3],
 "structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html#a9fa4046abd37f9758ba01336676cf2c1":[9,0,0,19,0,0,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[9,0,0,20,225],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[9,0,0,20,229],
 "structMR_1_1ObjTreeTraits.html":[9,0,0,20,110],
-"structMR_1_1ObjVertId.html":[9,0,0,20,274],
-"structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html":[9,0,0,20,397],
-"structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html":[9,0,0,20,399],
-"structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html":[9,0,0,20,398],
-"structMR_1_1ObjectMeshData.html":[9,0,0,20,410],
-"structMR_1_1ObjectMeshMergeOptions.html":[9,0,0,20,409]
+"structMR_1_1ObjVertId.html":[9,0,0,20,274]
 };

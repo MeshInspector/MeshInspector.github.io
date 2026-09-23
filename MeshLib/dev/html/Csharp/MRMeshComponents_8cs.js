@@ -5,5 +5,7 @@ var MRMeshComponents_8cs =
     [ "MR.MeshComponents.Const_ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams.html", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams" ],
     [ "MR.MeshComponents.ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1ExpandToComponentsParams.html", "classMR_1_1MeshComponents_1_1ExpandToComponentsParams" ],
     [ "MR.MeshComponents.Const_LargeByAreaComponentsSettings", "classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings.html", "classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings" ],
-    [ "MR.MeshComponents.LargeByAreaComponentsSettings", "classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", "classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" ]
+    [ "MR.MeshComponents.LargeByAreaComponentsSettings", "classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", "classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" ],
+    [ "MR.MeshComponents.Const_ComponentsFaces", "classMR_1_1MeshComponents_1_1Const__ComponentsFaces.html", "classMR_1_1MeshComponents_1_1Const__ComponentsFaces" ],
+    [ "MR.MeshComponents.ComponentsFaces", "classMR_1_1MeshComponents_1_1ComponentsFaces.html", "classMR_1_1MeshComponents_1_1ComponentsFaces" ]
 ];

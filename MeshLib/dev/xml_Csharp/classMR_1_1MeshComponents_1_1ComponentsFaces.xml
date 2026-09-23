@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshComponents_1_1ComponentsFaces" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshComponents::ComponentsFaces</compoundname>
+    <basecompoundref refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces" prot="public" virt="non-virtual">MR.MeshComponents.Const_ComponentsFaces</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1a1ca440adb5a54335c550c39db431f343" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MRFaceId</type>
+        <definition>new unsafe MR.Std.Vector_MRFaceId MR.MeshComponents.ComponentsFaces.faces</definition>
+        <argsstring></argsstring>
+        <name>faces</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.faces</qualifiedname>
+        <briefdescription>
+<para>faces of component 0, then faces of component 1, ...; the faces of component i are faces[offsets[i]], ..., faces[offsets[i+1]-1] in increasing order </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="855" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="855" bodyend="855"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1a81a1612ba8a3a5cf7130c499fb86b307" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_Int</type>
+        <definition>new unsafe MR.Std.Vector_Int MR.MeshComponents.ComponentsFaces.offsets</definition>
+        <argsstring></argsstring>
+        <name>offsets</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.offsets</qualifiedname>
+        <briefdescription>
+<para>the number of components + 1 elements, offsets.back() == faces.size() </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="860" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="860" bodyend="860"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1a4bd29226d4febfe75b1250462679c16f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshComponents.ComponentsFaces.ComponentsFaces</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ComponentsFaces</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.ComponentsFaces</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="882" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="882" bodyend="886"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1a5e5d0a6b1a16674b26a9c3ceaf9660ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshComponents.ComponentsFaces.ComponentsFaces</definition>
+        <argsstring>()</argsstring>
+        <name>ComponentsFaces</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.ComponentsFaces</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="892" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="892" bodyend="896"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1ae9e86d51a3b1c5337ebd63f0baf9648a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshComponents.ComponentsFaces.ComponentsFaces</definition>
+        <argsstring>(MR.Std._ByValue_Vector_MRFaceId faces, MR.Std._ByValue_Vector_Int offsets)</argsstring>
+        <name>ComponentsFaces</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.ComponentsFaces</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Vector_MRFaceId</type>
+          <declname>faces</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Vector_Int</type>
+          <declname>offsets</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MeshComponents_1_1ComponentsFaces" kindref="compound">MR.MeshComponents.ComponentsFaces</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="901" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="901" bodyend="907"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1a713ba4dde66dfbff89a7df3ccba81c64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshComponents.ComponentsFaces.ComponentsFaces</definition>
+        <argsstring>(MR.MeshComponents._ByValue_ComponentsFaces _other)</argsstring>
+        <name>ComponentsFaces</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.ComponentsFaces</qualifiedname>
+        <param>
+          <type>MR.MeshComponents._ByValue_ComponentsFaces</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a5e5d0a6b1a16674b26a9c3ceaf9660ff" kindref="member">MR.MeshComponents.ComponentsFaces.ComponentsFaces</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="912" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="912" bodyend="917"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1a4769b96a566ed477abecaff72d988f08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshComponents.ComponentsFaces.ComponentsFaces</definition>
+        <argsstring>(Const_ComponentsFaces _other)</argsstring>
+        <name>ComponentsFaces</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.ComponentsFaces</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces" kindref="compound">Const_ComponentsFaces</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a5e5d0a6b1a16674b26a9c3ceaf9660ff" kindref="member">MR.MeshComponents.ComponentsFaces.ComponentsFaces</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="922" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="922" bodyend="922"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1a635e9263bd4b0cdf335895cda5d9534d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshComponents.ComponentsFaces.ComponentsFaces</definition>
+        <argsstring>(ComponentsFaces _other)</argsstring>
+        <name>ComponentsFaces</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.ComponentsFaces</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshComponents_1_1ComponentsFaces" kindref="compound">ComponentsFaces</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a5e5d0a6b1a16674b26a9c3ceaf9660ff" kindref="member">MR.MeshComponents.ComponentsFaces.ComponentsFaces</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="927" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="927" bodyend="927"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1ad65202fdaefdaae9ad437699ce44f51b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshComponents_1_1ComponentsFaces" kindref="compound">MR.MeshComponents.ComponentsFaces</ref></type>
+        <definition>unsafe MR.MeshComponents.ComponentsFaces MR.MeshComponents.ComponentsFaces.assign</definition>
+        <argsstring>(MR.MeshComponents._ByValue_ComponentsFaces _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.assign</qualifiedname>
+        <param>
+          <type>MR.MeshComponents._ByValue_ComponentsFaces</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::MeshComponents::ComponentsFaces::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="932" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="932" bodyend="937"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1a9d0a0cdf0e7747a13760f510e7706fdd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshComponents.ComponentsFaces._Underlying *</type>
+        <definition>static unsafe MR.MeshComponents.ComponentsFaces._Underlying * MR.MeshComponents.ComponentsFaces.__MR_MeshComponents_ComponentsFaces_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.MeshComponents.ComponentsFaces._Underlying *_other)</argsstring>
+        <name>__MR_MeshComponents_ComponentsFaces_AssignFromAnother</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.__MR_MeshComponents_ComponentsFaces_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.MeshComponents.ComponentsFaces._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="942" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1ae868a628d913c7d554002581a9444e3f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshComponents.ComponentsFaces._Underlying *</type>
+        <definition>static unsafe MR.MeshComponents.ComponentsFaces._Underlying * MR.MeshComponents.ComponentsFaces.__MR_MeshComponents_ComponentsFaces_ConstructFrom</definition>
+        <argsstring>(MR.Misc._PassBy faces_pass_by, MR.Std.Vector_MRFaceId._Underlying *faces, MR.Misc._PassBy offsets_pass_by, MR.Std.Vector_Int._Underlying *offsets)</argsstring>
+        <name>__MR_MeshComponents_ComponentsFaces_ConstructFrom</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.__MR_MeshComponents_ComponentsFaces_ConstructFrom</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>faces_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRFaceId._Underlying *</type>
+          <declname>faces</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>offsets_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_Int._Underlying *</type>
+          <declname>offsets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="945" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1a65bbaa157fdfa53af21b87303ef3b869" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshComponents.ComponentsFaces._Underlying *</type>
+        <definition>static unsafe MR.MeshComponents.ComponentsFaces._Underlying * MR.MeshComponents.ComponentsFaces.__MR_MeshComponents_ComponentsFaces_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.MeshComponents.ComponentsFaces._Underlying *_other)</argsstring>
+        <name>__MR_MeshComponents_ComponentsFaces_ConstructFromAnother</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.__MR_MeshComponents_ComponentsFaces_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.MeshComponents.ComponentsFaces._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="948" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1a3e7f242c07d3c1a57a6832a5be2ffed7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshComponents.ComponentsFaces._Underlying *</type>
+        <definition>static unsafe MR.MeshComponents.ComponentsFaces._Underlying * MR.MeshComponents.ComponentsFaces.__MR_MeshComponents_ComponentsFaces_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_MeshComponents_ComponentsFaces_DefaultConstruct</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.__MR_MeshComponents_ComponentsFaces_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="951" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1acfe3d662f880ca09b9651c45b1ccb6b0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRFaceId._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_MRFaceId._Underlying * MR.MeshComponents.ComponentsFaces.__MR_MeshComponents_ComponentsFaces_GetMutable_faces</definition>
+        <argsstring>(MR.MeshComponents.ComponentsFaces._Underlying *_this)</argsstring>
+        <name>__MR_MeshComponents_ComponentsFaces_GetMutable_faces</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.__MR_MeshComponents_ComponentsFaces_GetMutable_faces</qualifiedname>
+        <param>
+          <type>MR.MeshComponents.ComponentsFaces._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="954" column="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1_1ComponentsFaces_1a78f1ce99ce1287aebc692b49519f256a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Int._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_Int._Underlying * MR.MeshComponents.ComponentsFaces.__MR_MeshComponents_ComponentsFaces_GetMutable_offsets</definition>
+        <argsstring>(MR.MeshComponents.ComponentsFaces._Underlying *_this)</argsstring>
+        <name>__MR_MeshComponents_ComponentsFaces_GetMutable_offsets</name>
+        <qualifiedname>MR.MeshComponents.ComponentsFaces.__MR_MeshComponents_ComponentsFaces_GetMutable_offsets</qualifiedname>
+        <param>
+          <type>MR.MeshComponents.ComponentsFaces._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="957" column="61"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>faces of all components in one flat array Generated from class <computeroutput><ref refid="classMR_1_1MeshComponents_1_1ComponentsFaces" kindref="compound">MR.MeshComponents.ComponentsFaces</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.MeshComponents.ComponentsFaces</label>
+        <link refid="classMR_1_1MeshComponents_1_1ComponentsFaces"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.MeshComponents.Const_ComponentsFaces</label>
+        <link refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.MeshComponents.ComponentsFaces</label>
+        <link refid="classMR_1_1MeshComponents_1_1ComponentsFaces"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.MeshComponents.Const_ComponentsFaces</label>
+        <link refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="849" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="850" bodyend="958"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a9d0a0cdf0e7747a13760f510e7706fdd" prot="private" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>__MR_MeshComponents_ComponentsFaces_AssignFromAnother</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1ae868a628d913c7d554002581a9444e3f" prot="private" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>__MR_MeshComponents_ComponentsFaces_ConstructFrom</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a65bbaa157fdfa53af21b87303ef3b869" prot="private" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>__MR_MeshComponents_ComponentsFaces_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a3e7f242c07d3c1a57a6832a5be2ffed7" prot="private" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>__MR_MeshComponents_ComponentsFaces_DefaultConstruct</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1acfe3d662f880ca09b9651c45b1ccb6b0" prot="private" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>__MR_MeshComponents_ComponentsFaces_GetMutable_faces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a78f1ce99ce1287aebc692b49519f256a" prot="private" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>__MR_MeshComponents_ComponentsFaces_GetMutable_offsets</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1ad65202fdaefdaae9ad437699ce44f51b" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a4bd29226d4febfe75b1250462679c16f" prot="package" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>ComponentsFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a5e5d0a6b1a16674b26a9c3ceaf9660ff" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>ComponentsFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1ae9e86d51a3b1c5337ebd63f0baf9648a" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>ComponentsFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a713ba4dde66dfbff89a7df3ccba81c64" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>ComponentsFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a4769b96a566ed477abecaff72d988f08" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>ComponentsFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a635e9263bd4b0cdf335895cda5d9534d" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>ComponentsFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1ade2b90de9e4d4cf83e4691ccefdb6c32" prot="package" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>Const_ComponentsFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1adccc21d0a097f8aa294156375effba5e" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>Const_ComponentsFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1abe16ec2bc7d1607c1feb6749efe92e8c" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>Const_ComponentsFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1ada38ff0827eeebfeed179ee8af6a73a0" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>Const_ComponentsFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a491452405716002bdb3d1db582ce195b" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>Const_ComponentsFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a16e8691c0bde03eae54cd72023a624b0" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>Const_ComponentsFaces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a89942671df626ed83598a8b034ef2880" prot="protected" virt="virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a26bc7af7f569cf23d7c1df02da3705bd" prot="public" virt="virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a1ca440adb5a54335c550c39db431f343" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>faces</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a81a1612ba8a3a5cf7130c499fb86b307" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>offsets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

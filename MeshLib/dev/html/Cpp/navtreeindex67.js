@@ -1,5 +1,10 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html":[9,0,0,20,397],
+"structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html":[9,0,0,20,399],
+"structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html":[9,0,0,20,398],
+"structMR_1_1ObjectMeshData.html":[9,0,0,20,410],
+"structMR_1_1ObjectMeshMergeOptions.html":[9,0,0,20,409],
 "structMR_1_1ObjectSave_1_1Settings.html":[9,0,1,0,1,31,0],
 "structMR_1_1ObjectSave_1_1Settings.html":[9,0,2,0,2,19,0],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html":[9,0,0,20,865],
@@ -244,10 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1RemeshSettings.html#a535de126a9bef655d8a832a7bba54e46":[9,0,0,10,3,5],
 "structMR_1_1RemeshSettings.html#a58fc77c6b836083eab39f95b271080e8":[9,0,0,10,3,16],
 "structMR_1_1RemeshSettings.html#a6a29eef43f96e620bbdc1a55778d04b4":[9,0,0,10,3,13],
-"structMR_1_1RemeshSettings.html#a719cad8f8428301214682399c497bbc1":[9,0,0,10,3,3],
-"structMR_1_1RemeshSettings.html#aba67372080b3650ca0d9a939e8b5526a":[9,0,0,10,3,14],
-"structMR_1_1RemeshSettings.html#ac40df80c94fefeea4585f945fb040012":[9,0,0,10,3,4],
-"structMR_1_1RemeshSettings.html#ac65eb4c2e1f090a756362df72b272d6e":[9,0,0,10,3,12],
-"structMR_1_1RemeshSettings.html#acd587d4e1482c17b18ae9c92898b7392":[9,0,0,10,3,2],
-"structMR_1_1RemeshSettings.html#ad7ab1e7054f884efcbe1327815ffd678":[9,0,0,10,3,0]
+"structMR_1_1RemeshSettings.html#a719cad8f8428301214682399c497bbc1":[9,0,0,10,3,3]
 };

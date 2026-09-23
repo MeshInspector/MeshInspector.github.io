@@ -2903,6 +2903,9 @@ var hierarchy =
       [ "MR.MeshBuilder.Const_VertexIdentifier", "classMR_1_1MeshBuilder_1_1Const__VertexIdentifier.html", [
         [ "MR.MeshBuilder.VertexIdentifier", "classMR_1_1MeshBuilder_1_1VertexIdentifier.html", null ]
       ] ],
+      [ "MR.MeshComponents.Const_ComponentsFaces", "classMR_1_1MeshComponents_1_1Const__ComponentsFaces.html", [
+        [ "MR.MeshComponents.ComponentsFaces", "classMR_1_1MeshComponents_1_1ComponentsFaces.html", null ]
+      ] ],
       [ "MR.MeshComponents.Const_ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams.html", [
         [ "MR.MeshComponents.ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1ExpandToComponentsParams.html", null ]
       ] ],
@@ -4548,6 +4551,7 @@ var hierarchy =
       [ "MR.MeshBuilder.Const_VertSpan", "classMR_1_1MeshBuilder_1_1Const__VertSpan.html", null ],
       [ "MR.MeshBuilder.Const_VertTri", "classMR_1_1MeshBuilder_1_1Const__VertTri.html", null ],
       [ "MR.MeshBuilder.Const_VertexIdentifier", "classMR_1_1MeshBuilder_1_1Const__VertexIdentifier.html", null ],
+      [ "MR.MeshComponents.Const_ComponentsFaces", "classMR_1_1MeshComponents_1_1Const__ComponentsFaces.html", null ],
       [ "MR.MeshComponents.Const_ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams.html", null ],
       [ "MR.MeshComponents.Const_LargeByAreaComponentsSettings", "classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings.html", null ],
       [ "MR.MeshLoad.Const_NamedMesh", "classMR_1_1MeshLoad_1_1Const__NamedMesh.html", null ],
