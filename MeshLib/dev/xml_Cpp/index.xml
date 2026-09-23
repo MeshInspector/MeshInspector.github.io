@@ -17391,6 +17391,16 @@
   </compound>
   <compound refid="MREmbeddedPython_8h" kind="file"><name>MREmbeddedPython.h</name>
   </compound>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
+  </compound>
   <compound refid="MR3mf_8h" kind="file"><name>MR3mf.h</name>
   </compound>
   <compound refid="MRCtm_8h" kind="file"><name>MRCtm.h</name>
@@ -17416,6 +17426,10 @@
   <compound refid="MRSvg_8h" kind="file"><name>MRSvg.h</name>
   </compound>
   <compound refid="MRTiff_8h" kind="file"><name>MRTiff.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
   </compound>
   <compound refid="MRFastmcpp_8h" kind="file"><name>MRFastmcpp.h</name>
   </compound>
@@ -18417,6 +18431,10 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -18444,10 +18462,6 @@
   <compound refid="MRXfBasedCache_8h" kind="file"><name>MRXfBasedCache.h</name>
   </compound>
   <compound refid="MRZip_8h" kind="file"><name>MRZip.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
-  </compound>
-  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
   </compound>
   <compound refid="MRPythonNumpy_8h" kind="file"><name>MRPythonNumpy.h</name>
     <member refid="MRPythonNumpy_8h_1ab135bb78166c0f59c9fe34366ab1786d" kind="define"><name>MRMESHNUMPY_PARENT_MODULE_NAME</name></member>
@@ -18833,10 +18847,6 @@
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
   </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
     <member refid="MRViewer_8h_1a1a1151cfe48505fed9bdf9d94af7cbde" kind="define"><name>ENQUEUE_VIEWER_METHOD_ARGS</name></member>
@@ -18883,16 +18893,6 @@
   <compound refid="MRWebResponseCallback_8h" kind="file"><name>MRWebResponseCallback.h</name>
   </compound>
   <compound refid="MRWin32MessageHandler_8h" kind="file"><name>MRWin32MessageHandler.h</name>
-  </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
   </compound>
   <compound refid="MRBoolean_8h" kind="file"><name>MRBoolean.h</name>
   </compound>
