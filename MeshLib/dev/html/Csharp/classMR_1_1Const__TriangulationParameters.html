@@ -202,7 +202,7 @@ Properties</h2></td></tr>
 <tr class="memitem:ac037ed6e20a1a236a96e0978a95ad9c2" id="r_ac037ed6e20a1a236a96e0978a95ad9c2"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac037ed6e20a1a236a96e0978a95ad9c2">boundaryAngle</a><code> [get]</code></td></tr>
 <tr class="memdesc:ac037ed6e20a1a236a96e0978a95ad9c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertex is considered as boundary if its neighbor ring has angle more than this value  <br /></td></tr>
 <tr class="memitem:a7620382ba47550eb077dd40018b901e9" id="r_a7620382ba47550eb077dd40018b901e9"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7620382ba47550eb077dd40018b901e9">critHoleLength</a><code> [get]</code></td></tr>
-<tr class="memdesc:a7620382ba47550eb077dd40018b901e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical length of hole (all holes with length less then this value will be filled)  <br /></td></tr>
+<tr class="memdesc:a7620382ba47550eb077dd40018b901e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical length of hole (all holes with perimeter up to this value will be filled)  <br /></td></tr>
 <tr class="memitem:a274a148099ec9b9a0ed1eaedd3cec0df" id="r_a274a148099ec9b9a0ed1eaedd3cec0df"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a274a148099ec9b9a0ed1eaedd3cec0df">automaticRadiusIncrease</a><code> [get]</code></td></tr>
 <tr class="memdesc:a274a148099ec9b9a0ed1eaedd3cec0df"><td class="mdescLeft">&#160;</td><td class="mdescRight">automatic increase of the radius if points outside can make triangles from original radius not-Delone  <br /></td></tr>
 <tr class="memitem:a1ba23a3adc5f99be6ad36c1a05ca13d9" id="r_a1ba23a3adc5f99be6ad36c1a05ca13d9"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__PointCloud.html">Const_PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ba23a3adc5f99be6ad36c1a05ca13d9">searchNeighbors</a><code> [get]</code></td></tr>
@@ -657,8 +657,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Critical length of hole (all holes with length less then this value will be filled) </p>
-<p>If value is subzero it is set automaticly to 0.7*bbox.diagonal() </p>
+<p>Critical length of hole (all holes with perimeter up to this value will be filled) </p>
+<p>If value is negative, it is set automatically to 0.1 * (bounding box diagonal of the point cloud) </p>
 
 </div>
 </div>

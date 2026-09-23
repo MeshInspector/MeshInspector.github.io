@@ -159,7 +159,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a2266345249c3a1483c179688e4dad925" id="r_a2266345249c3a1483c179688e4dad925"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2266345249c3a1483c179688e4dad925">boundaryAngle</a> = 0.9f * PI_F</td></tr>
 <tr class="memdesc:a2266345249c3a1483c179688e4dad925"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertex is considered as boundary if its neighbor ring has angle more than this value  <br /></td></tr>
 <tr class="memitem:a18b9e4beb720ba7134c197142243b529" id="r_a18b9e4beb720ba7134c197142243b529"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18b9e4beb720ba7134c197142243b529">critHoleLength</a> = -FLT_MAX</td></tr>
-<tr class="memdesc:a18b9e4beb720ba7134c197142243b529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical length of hole (all holes with length less then this value will be filled)  <br /></td></tr>
+<tr class="memdesc:a18b9e4beb720ba7134c197142243b529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical length of hole (all holes with perimeter up to this value will be filled)  <br /></td></tr>
 <tr class="memitem:ad996c79c53b722337bb916669996e58a" id="r_ad996c79c53b722337bb916669996e58a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad996c79c53b722337bb916669996e58a">automaticRadiusIncrease</a> = true</td></tr>
 <tr class="memdesc:ad996c79c53b722337bb916669996e58a"><td class="mdescLeft">&#160;</td><td class="mdescRight">automatic increase of the radius if points outside can make triangles from original radius not-Delone  <br /></td></tr>
 <tr class="memitem:a08e53e768a419301b8abf98737e18046" id="r_a08e53e768a419301b8abf98737e18046"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08e53e768a419301b8abf98737e18046">searchNeighbors</a> = nullptr</td></tr>
@@ -243,8 +243,8 @@ Too small value</div></div>
       </table>
 </div><div class="memdoc">
 
-<p>Critical length of hole (all holes with length less then this value will be filled) </p>
-<p>If value is subzero it is set automaticly to 0.7*bbox.diagonal() </p>
+<p>Critical length of hole (all holes with perimeter up to this value will be filled) </p>
+<p>If value is negative, it is set automatically to 0.1 * (bounding box diagonal of the point cloud) </p>
 
 </div>
 </div>

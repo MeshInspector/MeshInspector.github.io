@@ -58,10 +58,10 @@
         <name>critHoleLength</name>
         <qualifiedname>TriangulationParameters::critHoleLength</qualifiedname>
         <briefdescription>
-<para>Critical length of hole (all holes with length less then this value will be filled) </para>
+<para>Critical length of hole (all holes with perimeter up to this value will be filled) </para>
         </briefdescription>
         <detaileddescription>
-<para>If value is subzero it is set automaticly to 0.7*bbox.diagonal() </para>
+<para>If value is negative, it is set automatically to 0.1 * (bounding box diagonal of the point cloud) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

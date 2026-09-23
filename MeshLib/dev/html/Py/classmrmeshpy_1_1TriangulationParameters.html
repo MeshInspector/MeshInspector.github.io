@@ -450,8 +450,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment"> \\brief Critical length of hole (all holes with length less then this value will be filled)
- \\details If value is subzero it is set automaticly to 0.7*bbox.diagonal()
+<pre class="fragment"> \\brief Critical length of hole (all holes with perimeter up to this value will be filled)
+ \\details If value is negative, it is set automatically to 0.1 * (bounding box diagonal of the point cloud)
 </pre> 
 </div>
 </div>
