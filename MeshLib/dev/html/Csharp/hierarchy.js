@@ -741,6 +741,9 @@ var hierarchy =
       [ "MR.Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html", [
         [ "MR.DenoiseViaNormalsSettings", "classMR_1_1DenoiseViaNormalsSettings.html", null ]
       ] ],
+      [ "MR.Const_DenoiseWithCreasesSettings", "classMR_1_1Const__DenoiseWithCreasesSettings.html", [
+        [ "MR.DenoiseWithCreasesSettings", "classMR_1_1DenoiseWithCreasesSettings.html", null ]
+      ] ],
       [ "MR.Const_DenseBox", "classMR_1_1Const__DenseBox.html", [
         [ "MR.DenseBox", "classMR_1_1DenseBox.html", null ]
       ] ],
@@ -3817,6 +3820,7 @@ var hierarchy =
       [ "MR.Const_DeloneFlipsCache", "classMR_1_1Const__DeloneFlipsCache.html", null ],
       [ "MR.Const_DeloneSettings", "classMR_1_1Const__DeloneSettings.html", null ],
       [ "MR.Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html", null ],
+      [ "MR.Const_DenoiseWithCreasesSettings", "classMR_1_1Const__DenoiseWithCreasesSettings.html", null ],
       [ "MR.Const_DenseBox", "classMR_1_1Const__DenseBox.html", null ],
       [ "MR.Const_DentalId", "classMR_1_1Const__DentalId.html", null ],
       [ "MR.Const_DetectTunnelSettings", "classMR_1_1Const__DetectTunnelSettings.html", null ],

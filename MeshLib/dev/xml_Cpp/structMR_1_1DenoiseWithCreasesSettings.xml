@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DenoiseWithCreasesSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DenoiseWithCreasesSettings</compoundname>
+    <includes refid="MRNormalDenoising_8h" local="no">MRMesh/MRNormalDenoising.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga3d33a7031078f565b34961a3e568362d" kind="variable"><name>gamma</name></member>
+      <member refid="group__GeneralGroup_1ga6d407894f4a783d1f8d5b12904e64893" kind="variable"><name>guideWeight</name></member>
+      <member refid="group__GeneralGroup_1ga059ccaf0f8ef1ba826bc02449fc4defc" kind="variable"><name>pointIters</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRNormalDenoising.h" line="74" column="1" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="75" bodyend="84"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3d33a7031078f565b34961a3e568362d" prot="public" virt="non-virtual"><scope>MR::DenoiseWithCreasesSettings</scope><name>gamma</name></member>
+      <member refid="group__GeneralGroup_1ga6d407894f4a783d1f8d5b12904e64893" prot="public" virt="non-virtual"><scope>MR::DenoiseWithCreasesSettings</scope><name>guideWeight</name></member>
+      <member refid="group__GeneralGroup_1ga059ccaf0f8ef1ba826bc02449fc4defc" prot="public" virt="non-virtual"><scope>MR::DenoiseWithCreasesSettings</scope><name>pointIters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

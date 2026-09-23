@@ -676,6 +676,7 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ANoDefInit_3C_20T_20_3E" id="r_MR_3A_3ANoDefInit_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoDefInit.html">MR::NoDefInit&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this class is similar to T, but does not make default initialization of the fields for best performance  <a href="structMR_1_1NoDefInit.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ADenoiseViaNormalsSettings" id="r_MR_3A_3ADenoiseViaNormalsSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></td></tr>
+<tr class="memitem:MR_3A_3ADenoiseWithCreasesSettings" id="r_MR_3A_3ADenoiseWithCreasesSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">MR::DenoiseWithCreasesSettings</a></td></tr>
 <tr class="memitem:MR_3A_3ANormalsToPoints" id="r_MR_3A_3ANormalsToPoints"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1NormalsToPoints.html">MR::NormalsToPoints</a></td></tr>
 <tr class="memitem:MR_3A_3ANormalsToPoints_3A_3AISolver" id="r_MR_3A_3ANormalsToPoints_3A_3AISolver"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1NormalsToPoints_1_1ISolver.html">MR::NormalsToPoints::ISolver</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">pImpl  <a href="classMR_1_1NormalsToPoints_1_1ISolver.html#details">More...</a><br /></td></tr>
@@ -6285,9 +6286,15 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gaccbf59471a9ce12f038a0358ae18405b" id="r_gaccbf59471a9ce12f038a0358ae18405b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MutexOwner.html">MutexOwner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaccbf59471a9ce12f038a0358ae18405b">MR::MutexOwner::operator=</a> (<a class="el" href="structMR_1_1MutexOwner.html">MutexOwner</a> &amp;&amp;) noexcept</td></tr>
 <tr class="memitem:gaaa8735508a78c638055d6001174d206a" id="r_gaaa8735508a78c638055d6001174d206a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa8735508a78c638055d6001174d206a">MR::NoDefInit&lt; T &gt;::NoDefInit</a> () noexcept</td></tr>
 <tr class="memitem:ga91eb8ceea618232898878c1136e1813a" id="r_ga91eb8ceea618232898878c1136e1813a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga91eb8ceea618232898878c1136e1813a">MR::denoiseNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, FaceNormals &amp;normals, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, float gamma)</td></tr>
+<tr class="memitem:gaf0754d7130a12ca9fa0303ce9ffe225b" id="r_gaf0754d7130a12ca9fa0303ce9ffe225b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0754d7130a12ca9fa0303ce9ffe225b">MR::denoiseNormals</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, FaceNormals &amp;normals, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, float gamma)</td></tr>
 <tr class="memitem:gae67bf8c66f6b1dee34bd8aa00e69a913" id="r_gae67bf8c66f6b1dee34bd8aa00e69a913"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae67bf8c66f6b1dee34bd8aa00e69a913">MR::updateIndicator</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, const FaceNormals &amp;normals, float beta, float gamma)</td></tr>
 <tr class="memitem:gad6e2edf074642202b7e738dfeee59f29" id="r_gad6e2edf074642202b7e738dfeee59f29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad6e2edf074642202b7e738dfeee59f29">MR::updateIndicatorFast</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, const FaceNormals &amp;normals, float beta, float gamma)</td></tr>
 <tr class="memitem:ga86981572c4f14bf7f1a09887110d60f3" id="r_ga86981572c4f14bf7f1a09887110d60f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga86981572c4f14bf7f1a09887110d60f3">MR::meshDenoiseViaNormals</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html">DenoiseViaNormalsSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:gad3ee3facd1ffb97bd91ffba08a243484" id="r_gad3ee3facd1ffb97bd91ffba08a243484"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad3ee3facd1ffb97bd91ffba08a243484">MR::meshDenoiseWithCreases</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;creases, const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga8b997b3e9f6333808da102fcc5b2a4ab" id="r_ga8b997b3e9f6333808da102fcc5b2a4ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b997b3e9f6333808da102fcc5b2a4ab">MR::meshDenoiseWithCreases</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const UndirectedEdgeBitSet &amp;creases, const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga6bca689ef6891cf0d9bfb750249d6951" id="r_ga6bca689ef6891cf0d9bfb750249d6951"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6bca689ef6891cf0d9bfb750249d6951">MR::meshDenoiseWithCreases</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;creases, const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
+<tr class="memdesc:ga6bca689ef6891cf0d9bfb750249d6951"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same, reporting the progress in (cb) and returning error if the operation was canceled from it  <br /></td></tr>
+<tr class="memitem:ga8b52094c11b66f0405409f3b661f3a8c" id="r_ga8b52094c11b66f0405409f3b661f3a8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b52094c11b66f0405409f3b661f3a8c">MR::meshDenoiseWithCreases</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const UndirectedEdgeBitSet &amp;creases, const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
 <tr class="memitem:ga19ffcc05d7dd0c8b6ce45e80e81d482e" id="r_ga19ffcc05d7dd0c8b6ce45e80e81d482e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga19ffcc05d7dd0c8b6ce45e80e81d482e">MR::NormalsToPoints::prepare</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, float guideWeight=1)</td></tr>
 <tr class="memitem:ga267e2926e88f4480cedbfa3ff965547c" id="r_ga267e2926e88f4480cedbfa3ff965547c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga267e2926e88f4480cedbfa3ff965547c">MR::NormalsToPoints::run</a> (const VertCoords &amp;guide, const FaceNormals &amp;normals, VertCoords &amp;points)</td></tr>
 <tr class="memitem:ga6d7fc1fe41862805d423e14a407367b8" id="r_ga6d7fc1fe41862805d423e14a407367b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6d7fc1fe41862805d423e14a407367b8">MR::NormalsToPoints::run</a> (const VertCoords &amp;guide, const FaceNormals &amp;normals, VertCoords &amp;points, float maxInitialDistSq)</td></tr>
@@ -12884,6 +12891,12 @@ Variables</h2></td></tr>
 <tr class="memdesc:gad7f7b82ea225f8e0f9a358b607d7fead"><td class="mdescLeft">&#160;</td><td class="mdescRight">optionally returns creases found during smoothing  <br /></td></tr>
 <tr class="memitem:ga63ddf357508ffd766addcbe0684a1619" id="r_ga63ddf357508ffd766addcbe0684a1619"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga63ddf357508ffd766addcbe0684a1619">MR::DenoiseViaNormalsSettings::cb</a> = {}</td></tr>
 <tr class="memdesc:ga63ddf357508ffd766addcbe0684a1619"><td class="mdescLeft">&#160;</td><td class="mdescRight">to get the progress and optionally cancel  <br /></td></tr>
+<tr class="memitem:ga3d33a7031078f565b34961a3e568362d" id="r_ga3d33a7031078f565b34961a3e568362d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d33a7031078f565b34961a3e568362d">MR::DenoiseWithCreasesSettings::gamma</a> = 5.f</td></tr>
+<tr class="memdesc:ga3d33a7031078f565b34961a3e568362d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ...  <br /></td></tr>
+<tr class="memitem:ga6d407894f4a783d1f8d5b12904e64893" id="r_ga6d407894f4a783d1f8d5b12904e64893"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6d407894f4a783d1f8d5b12904e64893">MR::DenoiseWithCreasesSettings::guideWeight</a> = 1</td></tr>
+<tr class="memdesc:ga6d407894f4a783d1f8d5b12904e64893"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0  <br /></td></tr>
+<tr class="memitem:ga059ccaf0f8ef1ba826bc02449fc4defc" id="r_ga059ccaf0f8ef1ba826bc02449fc4defc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga059ccaf0f8ef1ba826bc02449fc4defc">MR::DenoiseWithCreasesSettings::pointIters</a> = 20</td></tr>
+<tr class="memdesc:ga059ccaf0f8ef1ba826bc02449fc4defc"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation  <br /></td></tr>
 <tr class="memitem:gab9ac8279a8d66047dae4a3de73f94647" id="r_gab9ac8279a8d66047dae4a3de73f94647"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab9ac8279a8d66047dae4a3de73f94647">MR::ObjectComparableWithReference::ComparableProperty::value</a> = 0</td></tr>
 <tr class="memitem:ga27219918674f15345809979f639c640e" id="r_ga27219918674f15345809979f639c640e"><td class="memItemLeft" align="right" valign="top">std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga27219918674f15345809979f639c640e">MR::ObjectComparableWithReference::ComparableProperty::referenceValue</a> = 0.f</td></tr>
 <tr class="memitem:gaab4637be6f5bd62c250414fb3bfd3000" id="r_gaab4637be6f5bd62c250414fb3bfd3000"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab4637be6f5bd62c250414fb3bfd3000">MR::ObjectComparableWithReference::ComparisonTolerance::positive</a> = 0</td></tr>
@@ -55233,7 +55246,7 @@ template&lt;typename R, typename E, typename... Args&gt; </div>
 </div>
 </div>
 <a id="ga91eb8ceea618232898878c1136e1813a" name="ga91eb8ceea618232898878c1136e1813a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga91eb8ceea618232898878c1136e1813a">&#9670;&#160;</a></span>denoiseNormals()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91eb8ceea618232898878c1136e1813a">&#9670;&#160;</a></span>denoiseNormals() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -55271,6 +55284,44 @@ template&lt;typename R, typename E, typename... Args&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="gaf0754d7130a12ca9fa0303ce9ffe225b" name="gaf0754d7130a12ca9fa0303ce9ffe225b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf0754d7130a12ca9fa0303ce9ffe225b">&#9670;&#160;</a></span>denoiseNormals() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::denoiseNormals </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceNormals &amp;</td>          <td class="paramname"><span class="paramname"><em>normals</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>gamma</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNormalDenoising_8h.html">MRMesh/MRNormalDenoising.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -121170,6 +121221,141 @@ template&lt;typename Volume&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRNormalDenoising_8h.html">MRMesh/MRNormalDenoising.h</a>&gt;</code></p>
 <p>Reduces noise in given mesh, see the article "Mesh Denoising via a Novel Mumford-Shah Framework" </p>
+
+</div>
+</div>
+<a id="ga8b52094c11b66f0405409f3b661f3a8c" name="ga8b52094c11b66f0405409f3b661f3a8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8b52094c11b66f0405409f3b661f3a8c">&#9670;&#160;</a></span>meshDenoiseWithCreases() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::meshDenoiseWithCreases </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UndirectedEdgeBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>creases</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNormalDenoising_8h.html">MRMesh/MRNormalDenoising.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga8b997b3e9f6333808da102fcc5b2a4ab" name="ga8b997b3e9f6333808da102fcc5b2a4ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8b997b3e9f6333808da102fcc5b2a4ab">&#9670;&#160;</a></span>meshDenoiseWithCreases() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::meshDenoiseWithCreases </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UndirectedEdgeBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>creases</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNormalDenoising_8h.html">MRMesh/MRNormalDenoising.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga6bca689ef6891cf0d9bfb750249d6951" name="ga6bca689ef6891cf0d9bfb750249d6951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6bca689ef6891cf0d9bfb750249d6951">&#9670;&#160;</a></span>meshDenoiseWithCreases() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::meshDenoiseWithCreases </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UndirectedEdgeBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>creases</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNormalDenoising_8h.html">MRMesh/MRNormalDenoising.h</a>&gt;</code></p>
+
+<p>the same, reporting the progress in (cb) and returning error if the operation was canceled from it </p>
+
+</div>
+</div>
+<a id="gad3ee3facd1ffb97bd91ffba08a243484" name="gad3ee3facd1ffb97bd91ffba08a243484"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad3ee3facd1ffb97bd91ffba08a243484">&#9670;&#160;</a></span>meshDenoiseWithCreases() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::meshDenoiseWithCreases </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UndirectedEdgeBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>creases</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNormalDenoising_8h.html">MRMesh/MRNormalDenoising.h</a>&gt;</code></p>
+<p>Reduces noise in given mesh, keeping the edges from (creases) sharp, see the article "Mesh Denoising via a Novel Mumford-Shah Framework"; unlike meshDenoiseViaNormals, the creases are given by the caller and not detected automatically </p>
 
 </div>
 </div>
@@ -215050,13 +215236,29 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad5c55319dff328b55475f07390acd505" name="gad5c55319dff328b55475f07390acd505"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad5c55319dff328b55475f07390acd505">&#9670;&#160;</a></span>gamma</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5c55319dff328b55475f07390acd505">&#9670;&#160;</a></span>gamma <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">float MR::DenoiseViaNormalsSettings::gamma = 5.f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... </p>
+
+</div>
+</div>
+<a id="ga3d33a7031078f565b34961a3e568362d" name="ga3d33a7031078f565b34961a3e568362d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3d33a7031078f565b34961a3e568362d">&#9670;&#160;</a></span>gamma <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DenoiseWithCreasesSettings::gamma = 5.f</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -215323,13 +215525,29 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6852271fa1efbc4da52e0fb5b851810f" name="ga6852271fa1efbc4da52e0fb5b851810f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6852271fa1efbc4da52e0fb5b851810f">&#9670;&#160;</a></span>guideWeight</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6852271fa1efbc4da52e0fb5b851810f">&#9670;&#160;</a></span>guideWeight <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">float MR::DenoiseViaNormalsSettings::guideWeight = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 </p>
+
+</div>
+</div>
+<a id="ga6d407894f4a783d1f8d5b12904e64893" name="ga6d407894f4a783d1f8d5b12904e64893"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d407894f4a783d1f8d5b12904e64893">&#9670;&#160;</a></span>guideWeight <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DenoiseWithCreasesSettings::guideWeight = 1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -226612,13 +226830,29 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="ga82e9e950294e56f0bed7e0ad545b68e9" name="ga82e9e950294e56f0bed7e0ad545b68e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga82e9e950294e56f0bed7e0ad545b68e9">&#9670;&#160;</a></span>pointIters</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga82e9e950294e56f0bed7e0ad545b68e9">&#9670;&#160;</a></span>pointIters <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">int MR::DenoiseViaNormalsSettings::pointIters = 20</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation </p>
+
+</div>
+</div>
+<a id="ga059ccaf0f8ef1ba826bc02449fc4defc" name="ga059ccaf0f8ef1ba826bc02449fc4defc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga059ccaf0f8ef1ba826bc02449fc4defc">&#9670;&#160;</a></span>pointIters <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::DenoiseWithCreasesSettings::pointIters = 20</td>
         </tr>
       </table>
 </div><div class="memdoc">

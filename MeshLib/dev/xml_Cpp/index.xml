@@ -2500,6 +2500,11 @@
     <member refid="group__GeneralGroup_1gad7f7b82ea225f8e0f9a358b607d7fead" kind="variable"><name>outCreases</name></member>
     <member refid="group__GeneralGroup_1ga63ddf357508ffd766addcbe0684a1619" kind="variable"><name>cb</name></member>
   </compound>
+  <compound refid="structMR_1_1DenoiseWithCreasesSettings" kind="struct"><name>MR::DenoiseWithCreasesSettings</name>
+    <member refid="group__GeneralGroup_1ga3d33a7031078f565b34961a3e568362d" kind="variable"><name>gamma</name></member>
+    <member refid="group__GeneralGroup_1ga6d407894f4a783d1f8d5b12904e64893" kind="variable"><name>guideWeight</name></member>
+    <member refid="group__GeneralGroup_1ga059ccaf0f8ef1ba826bc02449fc4defc" kind="variable"><name>pointIters</name></member>
+  </compound>
   <compound refid="structMR_1_1DenseBox" kind="struct"><name>MR::DenseBox</name>
     <member refid="group__GeneralGroup_1ga6086c46946d7a35114b263a9dd4d59e2" kind="variable"><name>box_</name></member>
     <member refid="group__GeneralGroup_1ga1c3177d2c1f2acad7079fcc81e9bc6de" kind="variable"><name>basisXf_</name></member>
@@ -15439,6 +15444,7 @@
     <member refid="group__FillHoleGroup_1ga72e5fd74157ece0e3c7cc5869bf952ca" kind="function"><name>getCloseSurfaceFillMetric</name></member>
     <member refid="group__FillHoleGroup_1gabd1aad2d1ac85e32159ea366bf234d78" kind="function"><name>mixMetrics</name></member>
     <member refid="group__MeshNormalsGroup_1ga825d07f824fb53d09c6b1bef59a494fa" kind="function"><name>computePerFaceNormals</name></member>
+    <member refid="group__MeshNormalsGroup_1ga22889800cd6e0b2ebbc550783da6eff7" kind="function"><name>computePerFaceNormals</name></member>
     <member refid="group__MeshNormalsGroup_1gaa5b7b1b62db0c38010925f94be955036" kind="function"><name>computePerFaceNormals4</name></member>
     <member refid="group__MeshNormalsGroup_1ga7b42ab138289c2be7e30986671f2a773" kind="function"><name>computePerVertNormals</name></member>
     <member refid="group__MeshNormalsGroup_1ga5ae37093c97fac3f5b66734fa5b1a13f" kind="function"><name>computePerVertPseudoNormals</name></member>
@@ -15503,9 +15509,14 @@
     <member refid="group__GeneralGroup_1ga7cceaa249191f3117f4443ce661e9c13" kind="function"><name>makeMovementBuildBody</name></member>
     <member refid="group__GeneralGroup_1ga8b53d4824a98c05f3bfe0e82093609ea" kind="function"><name>updateGroupPairs</name></member>
     <member refid="group__GeneralGroup_1ga91eb8ceea618232898878c1136e1813a" kind="function"><name>denoiseNormals</name></member>
+    <member refid="group__GeneralGroup_1gaf0754d7130a12ca9fa0303ce9ffe225b" kind="function"><name>denoiseNormals</name></member>
     <member refid="group__GeneralGroup_1gae67bf8c66f6b1dee34bd8aa00e69a913" kind="function"><name>updateIndicator</name></member>
     <member refid="group__GeneralGroup_1gad6e2edf074642202b7e738dfeee59f29" kind="function"><name>updateIndicatorFast</name></member>
     <member refid="group__GeneralGroup_1ga86981572c4f14bf7f1a09887110d60f3" kind="function"><name>meshDenoiseViaNormals</name></member>
+    <member refid="group__GeneralGroup_1gad3ee3facd1ffb97bd91ffba08a243484" kind="function"><name>meshDenoiseWithCreases</name></member>
+    <member refid="group__GeneralGroup_1ga8b997b3e9f6333808da102fcc5b2a4ab" kind="function"><name>meshDenoiseWithCreases</name></member>
+    <member refid="group__GeneralGroup_1ga6bca689ef6891cf0d9bfb750249d6951" kind="function"><name>meshDenoiseWithCreases</name></member>
+    <member refid="group__GeneralGroup_1ga8b52094c11b66f0405409f3b661f3a8c" kind="function"><name>meshDenoiseWithCreases</name></member>
     <member refid="group__GeneralGroup_1gaac6b91f4809d36b337fe54b064ce26dc" kind="function"><name>toString</name></member>
     <member refid="group__GeneralGroup_1ga9cb64db052744265abae5f26eba3885e" kind="function"><name>merge</name></member>
     <member refid="group__GeneralGroup_1ga36dd932f6e7fabf9cd93412109072d43" kind="function"><name>cloneRegion</name></member>
@@ -17380,16 +17391,6 @@
   </compound>
   <compound refid="MREmbeddedPython_8h" kind="file"><name>MREmbeddedPython.h</name>
   </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
-  </compound>
   <compound refid="MR3mf_8h" kind="file"><name>MR3mf.h</name>
   </compound>
   <compound refid="MRCtm_8h" kind="file"><name>MRCtm.h</name>
@@ -17415,10 +17416,6 @@
   <compound refid="MRSvg_8h" kind="file"><name>MRSvg.h</name>
   </compound>
   <compound refid="MRTiff_8h" kind="file"><name>MRTiff.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
-  </compound>
-  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
   </compound>
   <compound refid="MRFastmcpp_8h" kind="file"><name>MRFastmcpp.h</name>
   </compound>
@@ -18420,10 +18417,6 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -18451,6 +18444,10 @@
   <compound refid="MRXfBasedCache_8h" kind="file"><name>MRXfBasedCache.h</name>
   </compound>
   <compound refid="MRZip_8h" kind="file"><name>MRZip.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
   </compound>
   <compound refid="MRPythonNumpy_8h" kind="file"><name>MRPythonNumpy.h</name>
     <member refid="MRPythonNumpy_8h_1ab135bb78166c0f59c9fe34366ab1786d" kind="define"><name>MRMESHNUMPY_PARENT_MODULE_NAME</name></member>
@@ -18836,6 +18833,10 @@
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
   </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
     <member refid="MRViewer_8h_1a1a1151cfe48505fed9bdf9d94af7cbde" kind="define"><name>ENQUEUE_VIEWER_METHOD_ARGS</name></member>
@@ -18882,6 +18883,16 @@
   <compound refid="MRWebResponseCallback_8h" kind="file"><name>MRWebResponseCallback.h</name>
   </compound>
   <compound refid="MRWin32MessageHandler_8h" kind="file"><name>MRWin32MessageHandler.h</name>
+  </compound>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
   </compound>
   <compound refid="MRBoolean_8h" kind="file"><name>MRBoolean.h</name>
   </compound>
@@ -19762,6 +19773,7 @@
   <compound refid="group__MeshNormalsGroup" kind="group"><name>MeshNormalsGroup</name>
     <member refid="group__MeshNormalsGroup_1ga59217bfc441b57736e20fa4c8b136c1f" kind="typedef"><name>TriangleCornerNormals</name></member>
     <member refid="group__MeshNormalsGroup_1ga825d07f824fb53d09c6b1bef59a494fa" kind="function"><name>computePerFaceNormals</name></member>
+    <member refid="group__MeshNormalsGroup_1ga22889800cd6e0b2ebbc550783da6eff7" kind="function"><name>computePerFaceNormals</name></member>
     <member refid="group__MeshNormalsGroup_1gaa5b7b1b62db0c38010925f94be955036" kind="function"><name>computePerFaceNormals4</name></member>
     <member refid="group__MeshNormalsGroup_1ga7b42ab138289c2be7e30986671f2a773" kind="function"><name>computePerVertNormals</name></member>
     <member refid="group__MeshNormalsGroup_1ga5ae37093c97fac3f5b66734fa5b1a13f" kind="function"><name>computePerVertPseudoNormals</name></member>
@@ -23011,6 +23023,9 @@
     <member refid="group__GeneralGroup_1gab298fec8f17af7398ab708ce69c2af2d" kind="variable"><name>maxInitialDist</name></member>
     <member refid="group__GeneralGroup_1gad7f7b82ea225f8e0f9a358b607d7fead" kind="variable"><name>outCreases</name></member>
     <member refid="group__GeneralGroup_1ga63ddf357508ffd766addcbe0684a1619" kind="variable"><name>cb</name></member>
+    <member refid="group__GeneralGroup_1ga3d33a7031078f565b34961a3e568362d" kind="variable"><name>gamma</name></member>
+    <member refid="group__GeneralGroup_1ga6d407894f4a783d1f8d5b12904e64893" kind="variable"><name>guideWeight</name></member>
+    <member refid="group__GeneralGroup_1ga059ccaf0f8ef1ba826bc02449fc4defc" kind="variable"><name>pointIters</name></member>
     <member refid="group__GeneralGroup_1ga159740ec11abc814c4bb74f024a4519e" kind="variable"><name>solver_</name></member>
     <member refid="group__GeneralGroup_1gab9ac8279a8d66047dae4a3de73f94647" kind="variable"><name>value</name></member>
     <member refid="group__GeneralGroup_1ga27219918674f15345809979f639c640e" kind="variable"><name>referenceValue</name></member>
@@ -27700,9 +27715,14 @@
     <member refid="group__GeneralGroup_1gaccbf59471a9ce12f038a0358ae18405b" kind="function"><name>operator=</name></member>
     <member refid="group__GeneralGroup_1gaaa8735508a78c638055d6001174d206a" kind="function"><name>NoDefInit</name></member>
     <member refid="group__GeneralGroup_1ga91eb8ceea618232898878c1136e1813a" kind="function"><name>denoiseNormals</name></member>
+    <member refid="group__GeneralGroup_1gaf0754d7130a12ca9fa0303ce9ffe225b" kind="function"><name>denoiseNormals</name></member>
     <member refid="group__GeneralGroup_1gae67bf8c66f6b1dee34bd8aa00e69a913" kind="function"><name>updateIndicator</name></member>
     <member refid="group__GeneralGroup_1gad6e2edf074642202b7e738dfeee59f29" kind="function"><name>updateIndicatorFast</name></member>
     <member refid="group__GeneralGroup_1ga86981572c4f14bf7f1a09887110d60f3" kind="function"><name>meshDenoiseViaNormals</name></member>
+    <member refid="group__GeneralGroup_1gad3ee3facd1ffb97bd91ffba08a243484" kind="function"><name>meshDenoiseWithCreases</name></member>
+    <member refid="group__GeneralGroup_1ga8b997b3e9f6333808da102fcc5b2a4ab" kind="function"><name>meshDenoiseWithCreases</name></member>
+    <member refid="group__GeneralGroup_1ga6bca689ef6891cf0d9bfb750249d6951" kind="function"><name>meshDenoiseWithCreases</name></member>
+    <member refid="group__GeneralGroup_1ga8b52094c11b66f0405409f3b661f3a8c" kind="function"><name>meshDenoiseWithCreases</name></member>
     <member refid="group__GeneralGroup_1ga19ffcc05d7dd0c8b6ce45e80e81d482e" kind="function"><name>prepare</name></member>
     <member refid="group__GeneralGroup_1ga267e2926e88f4480cedbfa3ff965547c" kind="function"><name>run</name></member>
     <member refid="group__GeneralGroup_1ga6d7fc1fe41862805d423e14a407367b8" kind="function"><name>run</name></member>

@@ -158,6 +158,7 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ga825d07f824fb53d09c6b1bef59a494fa" id="r_ga825d07f824fb53d09c6b1bef59a494fa"><td class="memItemLeft" align="right" valign="top">FaceNormals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga825d07f824fb53d09c6b1bef59a494fa">MR::computePerFaceNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:ga825d07f824fb53d09c6b1bef59a494fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a vector with face-normal in every element for valid mesh faces  <br /></td></tr>
+<tr class="memitem:ga22889800cd6e0b2ebbc550783da6eff7" id="r_ga22889800cd6e0b2ebbc550783da6eff7"><td class="memItemLeft" align="right" valign="top">FaceNormals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga22889800cd6e0b2ebbc550783da6eff7">MR::computePerFaceNormals</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points)</td></tr>
 <tr class="memitem:gaa5b7b1b62db0c38010925f94be955036" id="r_gaa5b7b1b62db0c38010925f94be955036"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa5b7b1b62db0c38010925f94be955036">MR::computePerFaceNormals4</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, Vector4f *faceNormals, size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
 <tr class="memdesc:gaa5b7b1b62db0c38010925f94be955036"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills buffer with face-normals as Vector4f for valid mesh faces  <br /></td></tr>
 <tr class="memitem:ga7b42ab138289c2be7e30986671f2a773" id="r_ga7b42ab138289c2be7e30986671f2a773"><td class="memItemLeft" align="right" valign="top">VertNormals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b42ab138289c2be7e30986671f2a773">MR::computePerVertNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
@@ -250,7 +251,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ga825d07f824fb53d09c6b1bef59a494fa" name="ga825d07f824fb53d09c6b1bef59a494fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga825d07f824fb53d09c6b1bef59a494fa">&#9670;&#160;</a></span>computePerFaceNormals()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga825d07f824fb53d09c6b1bef59a494fa">&#9670;&#160;</a></span>computePerFaceNormals() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,6 +276,37 @@ Functions</h2></td></tr>
 <p><code>#include &lt;<a class="el" href="MRMeshNormals_8h.html">MRMesh/MRMeshNormals.h</a>&gt;</code></p>
 
 <p>returns a vector with face-normal in every element for valid mesh faces </p>
+
+</div>
+</div>
+<a id="ga22889800cd6e0b2ebbc550783da6eff7" name="ga22889800cd6e0b2ebbc550783da6eff7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga22889800cd6e0b2ebbc550783da6eff7">&#9670;&#160;</a></span>computePerFaceNormals() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaceNormals MR::computePerFaceNormals </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshNormals_8h.html">MRMesh/MRMeshNormals.h</a>&gt;</code></p>
 
 </div>
 </div>

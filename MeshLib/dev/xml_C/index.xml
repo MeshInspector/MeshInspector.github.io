@@ -15480,7 +15480,8 @@
     <member refid="MRMeshNormals_8h_1af77d78e1df224886cfb166d038155b0b" kind="function"><name>MR_MeshNormals_Destroy</name></member>
     <member refid="MRMeshNormals_8h_1aaf0c322fc62234e155b93ef2a1ecb09a" kind="function"><name>MR_MeshNormals_DestroyArray</name></member>
     <member refid="MRMeshNormals_8h_1aa3a2c77a648fc5784f34274775b122c7" kind="function"><name>MR_MeshNormals_AssignFromAnother</name></member>
-    <member refid="MRMeshNormals_8h_1a6c9067cbe12173d78299a2557aea7430" kind="function"><name>MR_computePerFaceNormals</name></member>
+    <member refid="MRMeshNormals_8h_1a4f6d8f461dd87c2e0e6da0ec55c56faf" kind="function"><name>MR_computePerFaceNormals_1</name></member>
+    <member refid="MRMeshNormals_8h_1a4a39d8fe605ed227e5b14dfa0b188894" kind="function"><name>MR_computePerFaceNormals_2</name></member>
     <member refid="MRMeshNormals_8h_1aee1a1bc1cde42b082f1c91cfb2717c60" kind="function"><name>MR_computePerFaceNormals4</name></member>
     <member refid="MRMeshNormals_8h_1a71523707783284d3297474c6a4fd0fca" kind="function"><name>MR_computePerVertNormals</name></member>
     <member refid="MRMeshNormals_8h_1aa49099f8f2dd0b9fbc747416c00964a8" kind="function"><name>MR_computePerVertPseudoNormals</name></member>
@@ -17052,7 +17053,9 @@
   </compound>
   <compound refid="MRNormalDenoising_8h" kind="file"><name>MRNormalDenoising.h</name>
     <member refid="MRNormalDenoising_8h_1a550c956b4ffd37bc735d1733d6416bf4" kind="typedef"><name>MR_DenoiseViaNormalsSettings</name></member>
-    <member refid="MRNormalDenoising_8h_1a5ff316df5b461f39dbf6dfad579adc5d" kind="function"><name>MR_denoiseNormals</name></member>
+    <member refid="MRNormalDenoising_8h_1a3aa421f93ae0a3ff1443d0f3ba1409cf" kind="typedef"><name>MR_DenoiseWithCreasesSettings</name></member>
+    <member refid="MRNormalDenoising_8h_1a7d7c5e4d0015ec3bc4f4db9aca617949" kind="function"><name>MR_denoiseNormals_4</name></member>
+    <member refid="MRNormalDenoising_8h_1aaa365556f09eebaca5103b1b59923386" kind="function"><name>MR_denoiseNormals_5</name></member>
     <member refid="MRNormalDenoising_8h_1a557350b35c403d999cadfbfbc9bd26df" kind="function"><name>MR_updateIndicator</name></member>
     <member refid="MRNormalDenoising_8h_1a2b6f9a972a5c537afbf98411a3e6ae23" kind="function"><name>MR_updateIndicatorFast</name></member>
     <member refid="MRNormalDenoising_8h_1abd16949c378f41b890c5eb89c97f6232" kind="function"><name>MR_DenoiseViaNormalsSettings_Get_fastIndicatorComputation</name></member>
@@ -17095,6 +17098,28 @@
     <member refid="MRNormalDenoising_8h_1a9968711cd1fec9679caa274987022a8b" kind="function"><name>MR_DenoiseViaNormalsSettings_DestroyArray</name></member>
     <member refid="MRNormalDenoising_8h_1a722f2d33993f47c8b42150a7f758ba79" kind="function"><name>MR_DenoiseViaNormalsSettings_AssignFromAnother</name></member>
     <member refid="MRNormalDenoising_8h_1a80f30fcf6fad5ba51f05dccdd1c56d0a" kind="function"><name>MR_meshDenoiseViaNormals</name></member>
+    <member refid="MRNormalDenoising_8h_1ac8c8fc30f2d9ee002c65054e14bfdeaa" kind="function"><name>MR_DenoiseWithCreasesSettings_Get_gamma</name></member>
+    <member refid="MRNormalDenoising_8h_1a975aea4eb255dacc48d13904efda461b" kind="function"><name>MR_DenoiseWithCreasesSettings_Set_gamma</name></member>
+    <member refid="MRNormalDenoising_8h_1ad0fcfd3c4e6301ff1ac9f0bff2e0748e" kind="function"><name>MR_DenoiseWithCreasesSettings_GetMutable_gamma</name></member>
+    <member refid="MRNormalDenoising_8h_1ac59f31baa35423168d8b8f0fbd5430e4" kind="function"><name>MR_DenoiseWithCreasesSettings_Get_guideWeight</name></member>
+    <member refid="MRNormalDenoising_8h_1ae0902ff1d857decc0f425d146dc835c1" kind="function"><name>MR_DenoiseWithCreasesSettings_Set_guideWeight</name></member>
+    <member refid="MRNormalDenoising_8h_1a6493912f12f90535b2c809258c32b70d" kind="function"><name>MR_DenoiseWithCreasesSettings_GetMutable_guideWeight</name></member>
+    <member refid="MRNormalDenoising_8h_1a4d28cfae84e8457c7af73be2cfb30f05" kind="function"><name>MR_DenoiseWithCreasesSettings_Get_pointIters</name></member>
+    <member refid="MRNormalDenoising_8h_1ad1d52f1a1f527c4e2c3bae4a9c07091a" kind="function"><name>MR_DenoiseWithCreasesSettings_Set_pointIters</name></member>
+    <member refid="MRNormalDenoising_8h_1ade00a78378a86abfaa9e18820c731bed" kind="function"><name>MR_DenoiseWithCreasesSettings_GetMutable_pointIters</name></member>
+    <member refid="MRNormalDenoising_8h_1a4033fc4d1d6c120433a89224c2e3d99f" kind="function"><name>MR_DenoiseWithCreasesSettings_DefaultConstruct</name></member>
+    <member refid="MRNormalDenoising_8h_1ad2a8374eaebe2a0e9a0afbc4ed0f21c2" kind="function"><name>MR_DenoiseWithCreasesSettings_DefaultConstructArray</name></member>
+    <member refid="MRNormalDenoising_8h_1a3a12d876d295aac346ced2302499b2da" kind="function"><name>MR_DenoiseWithCreasesSettings_ConstructFrom</name></member>
+    <member refid="MRNormalDenoising_8h_1aa5450a471b7f76b45eb3da1ced7e4781" kind="function"><name>MR_DenoiseWithCreasesSettings_OffsetPtr</name></member>
+    <member refid="MRNormalDenoising_8h_1aed919d478c41e9c993d177d32efe59b4" kind="function"><name>MR_DenoiseWithCreasesSettings_OffsetMutablePtr</name></member>
+    <member refid="MRNormalDenoising_8h_1a83ef56d2824b9435d7a723d46c09ae66" kind="function"><name>MR_DenoiseWithCreasesSettings_ConstructFromAnother</name></member>
+    <member refid="MRNormalDenoising_8h_1a30103115a62480d9c220844d01ce1a32" kind="function"><name>MR_DenoiseWithCreasesSettings_Destroy</name></member>
+    <member refid="MRNormalDenoising_8h_1a92423185ddd46b3d1a2c0c6445e3ed6a" kind="function"><name>MR_DenoiseWithCreasesSettings_DestroyArray</name></member>
+    <member refid="MRNormalDenoising_8h_1a52a06d777bcadf60ac028f09c435255d" kind="function"><name>MR_DenoiseWithCreasesSettings_AssignFromAnother</name></member>
+    <member refid="MRNormalDenoising_8h_1afbdae72b545e1b8109bea2c63237c162" kind="function"><name>MR_meshDenoiseWithCreases_3</name></member>
+    <member refid="MRNormalDenoising_8h_1a8c74417edf7febec877f1df7249096e6" kind="function"><name>MR_meshDenoiseWithCreases_4_MR_MeshTopology</name></member>
+    <member refid="MRNormalDenoising_8h_1a0953c27fdba1345ff29979d5c6382e21" kind="function"><name>MR_meshDenoiseWithCreases_4_MR_Mesh</name></member>
+    <member refid="MRNormalDenoising_8h_1ac2fa1dae6130311df12e7200d5975c08" kind="function"><name>MR_meshDenoiseWithCreases_5</name></member>
   </compound>
   <compound refid="MRNormalsToPoints_8h" kind="file"><name>MRNormalsToPoints.h</name>
     <member refid="MRNormalsToPoints_8h_1ae838106f22f6770b9c57252f4fc629d3" kind="typedef"><name>MR_NormalsToPoints_ISolver</name></member>

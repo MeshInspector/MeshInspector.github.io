@@ -218,6 +218,7 @@ var annotated_dup =
       [ "DeloneFlipsCache", "classmrmeshpy_1_1DeloneFlipsCache.html", "classmrmeshpy_1_1DeloneFlipsCache" ],
       [ "DeloneSettings", "classmrmeshpy_1_1DeloneSettings.html", "classmrmeshpy_1_1DeloneSettings" ],
       [ "DenoiseViaNormalsSettings", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html", "classmrmeshpy_1_1DenoiseViaNormalsSettings" ],
+      [ "DenoiseWithCreasesSettings", "classmrmeshpy_1_1DenoiseWithCreasesSettings.html", "classmrmeshpy_1_1DenoiseWithCreasesSettings" ],
       [ "DenseBox", "classmrmeshpy_1_1DenseBox.html", "classmrmeshpy_1_1DenseBox" ],
       [ "DentalId", "classmrmeshpy_1_1DentalId.html", "classmrmeshpy_1_1DentalId" ],
       [ "DepthFunction", "classmrmeshpy_1_1DepthFunction.html", "classmrmeshpy_1_1DepthFunction" ],

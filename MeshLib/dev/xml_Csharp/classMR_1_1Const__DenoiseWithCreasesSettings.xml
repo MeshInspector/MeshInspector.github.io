@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__DenoiseWithCreasesSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_DenoiseWithCreasesSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1DenoiseWithCreasesSettings" prot="public" virt="non-virtual">MR.DenoiseWithCreasesSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a3cd8780731709fa7a7d8cbd8d9c6e6e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DenoiseWithCreasesSettings.gamma</definition>
+        <argsstring></argsstring>
+        <name>gamma</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.gamma</qualifiedname>
+        <briefdescription>
+<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="471" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DenoiseWithCreasesSettings_1ac3e451e55d6d2f89685808d0e99d8ea7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DenoiseWithCreasesSettings.guideWeight</definition>
+        <argsstring></argsstring>
+        <name>guideWeight</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.guideWeight</qualifiedname>
+        <briefdescription>
+<para>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="477" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a02c4375bcc808371a8a1c156dcb12601" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_DenoiseWithCreasesSettings.pointIters</definition>
+        <argsstring></argsstring>
+        <name>pointIters</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.pointIters</qualifiedname>
+        <briefdescription>
+<para>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="483" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="483" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a0afc970dc1620a066c0f38edf192fba6" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DenoiseWithCreasesSettings.__ref_storage_gamma</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_gamma</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.__ref_storage_gamma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="472" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="472" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a21fdc18f9011798e2c16bb2ec085badc" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DenoiseWithCreasesSettings.__ref_storage_guideWeight</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_guideWeight</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.__ref_storage_guideWeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="478" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a088699d3c9b5c9c5bd85bfeef115e94b" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_DenoiseWithCreasesSettings.__ref_storage_pointIters</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_pointIters</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.__ref_storage_pointIters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="484" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="484" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1afd47604c109b630012b1911ca88f9108" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_DenoiseWithCreasesSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="458" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="458" bodyend="464"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a2fc1bbdbe675411cb14c34651f356960" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_DenoiseWithCreasesSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="465" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="465" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1af1b5bc87dbc3bfc5bea0ce2020589725" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DenoiseWithCreasesSettings.Const_DenoiseWithCreasesSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_DenoiseWithCreasesSettings</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.Const_DenoiseWithCreasesSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="517" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="517" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1acc3bd2b1d17fe9eb60bbdc621bf431d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DenoiseWithCreasesSettings.Const_DenoiseWithCreasesSettings</definition>
+        <argsstring>(float gamma, float guideWeight, int pointIters)</argsstring>
+        <name>Const_DenoiseWithCreasesSettings</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.Const_DenoiseWithCreasesSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>gamma</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>guideWeight</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pointIters</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1DenoiseWithCreasesSettings" kindref="compound">MR.DenoiseWithCreasesSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="526" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="526" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a571b053f8590a9ef66932bdce72c8791" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DenoiseWithCreasesSettings.Const_DenoiseWithCreasesSettings</definition>
+        <argsstring>(MR.Const_DenoiseWithCreasesSettings _other)</argsstring>
+        <name>Const_DenoiseWithCreasesSettings</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.Const_DenoiseWithCreasesSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__DenoiseWithCreasesSettings" kindref="compound">MR.Const_DenoiseWithCreasesSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DenoiseWithCreasesSettings_1a2811b6e89df4b0484c15b559d0cb8426" kindref="member">MR.DenoiseWithCreasesSettings.DenoiseWithCreasesSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="535" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="535" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a92b361fdb263db9263918db230eb88ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DenoiseWithCreasesSettings.Const_DenoiseWithCreasesSettings</definition>
+        <argsstring>(DenoiseWithCreasesSettings _other)</argsstring>
+        <name>Const_DenoiseWithCreasesSettings</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.Const_DenoiseWithCreasesSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DenoiseWithCreasesSettings" kindref="compound">DenoiseWithCreasesSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DenoiseWithCreasesSettings_1a2811b6e89df4b0484c15b559d0cb8426" kindref="member">MR.DenoiseWithCreasesSettings.DenoiseWithCreasesSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="545" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="545" bodyend="545"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a0d35b94b117bd8801cc7160fc23f7a68" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DenoiseWithCreasesSettings.~Const_DenoiseWithCreasesSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_DenoiseWithCreasesSettings</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.~Const_DenoiseWithCreasesSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="466" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="466" bodyend="466"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a2287d608865860988467c6e39c1775d5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DenoiseWithCreasesSettings.Const_DenoiseWithCreasesSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_DenoiseWithCreasesSettings</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.Const_DenoiseWithCreasesSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="506" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="506" bodyend="511"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a79e4610d0809950cf53a69c0e07eda2e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.DenoiseWithCreasesSettings._Underlying *</type>
+        <definition>static unsafe MR.DenoiseWithCreasesSettings._Underlying * MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_ConstructFrom</definition>
+        <argsstring>(float gamma, float guideWeight, int pointIters)</argsstring>
+        <name>__MR_DenoiseWithCreasesSettings_ConstructFrom</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_ConstructFrom</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>gamma</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>guideWeight</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pointIters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="550" column="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1ab99946b3833adb2dadb3f036b0a9a750" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.DenoiseWithCreasesSettings._Underlying *</type>
+        <definition>static unsafe MR.DenoiseWithCreasesSettings._Underlying * MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_ConstructFromAnother</definition>
+        <argsstring>(MR.DenoiseWithCreasesSettings._Underlying *_other)</argsstring>
+        <name>__MR_DenoiseWithCreasesSettings_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.DenoiseWithCreasesSettings._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="553" column="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1ae7b575c937f711585036e83bd0ff6751" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.DenoiseWithCreasesSettings._Underlying *</type>
+        <definition>static unsafe MR.DenoiseWithCreasesSettings._Underlying * MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_DenoiseWithCreasesSettings_DefaultConstruct</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="556" column="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a6c4bd3215a2cdf8370e6578d75ba26f1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_DenoiseWithCreasesSettings_Destroy</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="559" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1aafd3e9086e0f67f5b7e688599444f100" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe float *</type>
+        <definition>static unsafe float * MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_Get_gamma</definition>
+        <argsstring>(MR.Const_DenoiseWithCreasesSettings._Underlying *_this)</argsstring>
+        <name>__MR_DenoiseWithCreasesSettings_Get_gamma</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_Get_gamma</qualifiedname>
+        <param>
+          <type>MR.Const_DenoiseWithCreasesSettings._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="562" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a17a50daeb3f97dbc8dc5eb7783885a1f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe float *</type>
+        <definition>static unsafe float * MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_Get_guideWeight</definition>
+        <argsstring>(MR.Const_DenoiseWithCreasesSettings._Underlying *_this)</argsstring>
+        <name>__MR_DenoiseWithCreasesSettings_Get_guideWeight</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_Get_guideWeight</qualifiedname>
+        <param>
+          <type>MR.Const_DenoiseWithCreasesSettings._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="565" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenoiseWithCreasesSettings_1a217f08b851d1b736f24fd574f434042e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe int *</type>
+        <definition>static unsafe int * MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_Get_pointIters</definition>
+        <argsstring>(MR.Const_DenoiseWithCreasesSettings._Underlying *_this)</argsstring>
+        <name>__MR_DenoiseWithCreasesSettings_Get_pointIters</name>
+        <qualifiedname>MR.Const_DenoiseWithCreasesSettings.__MR_DenoiseWithCreasesSettings_Get_pointIters</qualifiedname>
+        <param>
+          <type>MR.Const_DenoiseWithCreasesSettings._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="568" column="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1DenoiseWithCreasesSettings" kindref="compound">MR.DenoiseWithCreasesSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_DenoiseWithCreasesSettings</label>
+        <link refid="classMR_1_1Const__DenoiseWithCreasesSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.DenoiseWithCreasesSettings</label>
+        <link refid="classMR_1_1DenoiseWithCreasesSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_DenoiseWithCreasesSettings</label>
+        <link refid="classMR_1_1Const__DenoiseWithCreasesSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="452" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="453" bodyend="569"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a79e4610d0809950cf53a69c0e07eda2e" prot="private" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>__MR_DenoiseWithCreasesSettings_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1ab99946b3833adb2dadb3f036b0a9a750" prot="private" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>__MR_DenoiseWithCreasesSettings_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1ae7b575c937f711585036e83bd0ff6751" prot="private" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>__MR_DenoiseWithCreasesSettings_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a6c4bd3215a2cdf8370e6578d75ba26f1" prot="private" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>__MR_DenoiseWithCreasesSettings_Destroy</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1aafd3e9086e0f67f5b7e688599444f100" prot="private" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>__MR_DenoiseWithCreasesSettings_Get_gamma</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a17a50daeb3f97dbc8dc5eb7783885a1f" prot="private" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>__MR_DenoiseWithCreasesSettings_Get_guideWeight</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a217f08b851d1b736f24fd574f434042e" prot="private" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>__MR_DenoiseWithCreasesSettings_Get_pointIters</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a0afc970dc1620a066c0f38edf192fba6" prot="protected" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>__ref_storage_gamma</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a21fdc18f9011798e2c16bb2ec085badc" prot="protected" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>__ref_storage_guideWeight</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a088699d3c9b5c9c5bd85bfeef115e94b" prot="protected" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>__ref_storage_pointIters</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a2287d608865860988467c6e39c1775d5" prot="package" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>Const_DenoiseWithCreasesSettings</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1af1b5bc87dbc3bfc5bea0ce2020589725" prot="public" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>Const_DenoiseWithCreasesSettings</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1acc3bd2b1d17fe9eb60bbdc621bf431d3" prot="public" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>Const_DenoiseWithCreasesSettings</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a571b053f8590a9ef66932bdce72c8791" prot="public" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>Const_DenoiseWithCreasesSettings</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a92b361fdb263db9263918db230eb88ad" prot="public" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>Const_DenoiseWithCreasesSettings</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1afd47604c109b630012b1911ca88f9108" prot="protected" virt="virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a2fc1bbdbe675411cb14c34651f356960" prot="public" virt="virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a3cd8780731709fa7a7d8cbd8d9c6e6e4" prot="public" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>gamma</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1ac3e451e55d6d2f89685808d0e99d8ea7" prot="public" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>guideWeight</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a02c4375bcc808371a8a1c156dcb12601" prot="public" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>pointIters</name></member>
+      <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a0d35b94b117bd8801cc7160fc23f7a68" prot="private" virt="non-virtual"><scope>MR::Const_DenoiseWithCreasesSettings</scope><name>~Const_DenoiseWithCreasesSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

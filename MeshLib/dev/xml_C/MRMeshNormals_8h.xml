@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="15" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" bodystart="15" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshNormals_8h_1a50f94ee230b3b0bffb2b4b0a00986133" prot="public" static="no">
         <type>struct <ref refid="MRMeshNormals_8h_1a50f94ee230b3b0bffb2b4b0a00986133" kindref="member">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</ref></type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="16" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="17" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" prot="public" static="no">
         <type>struct <ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref></type>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" bodystart="22" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" bodystart="23" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="28" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="28" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="29" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="29" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1a90f1492da1768b8a3be6deb2c60918d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="34" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="34" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="35" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="35" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1aee022184d15f4080049e4b15159f160e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref> *</type>
@@ -186,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="40" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="40" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="41" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="41" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1ae92c03b14948ebabc3de188692a78e7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="46" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="46" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="47" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="47" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1af0e5e92131de63e61de72069e015a169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -230,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="52" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="53" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1aef6ff3ea06277f9ce7cf058b3a205451" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="58" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="58" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="59" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="59" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1a1b20e1e97a8d6b5bc3ecf420c4386e51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref> *</type>
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="62" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="62" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="63" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="63" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1a26e5011aba3d6280435d425667ff55b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref> *</type>
@@ -283,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="67" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="67" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="68" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="68" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1afc9e46d271b8c4e6e92c0e50b0393311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref> *</type>
@@ -313,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="74" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="74" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="75" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="75" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1aea159d850eef22897e8d5a48c48cbdd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref> *</type>
@@ -335,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="78" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="78" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="79" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="79" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1a85bd087739fedd399bbfd16bc940e94f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref> *</type>
@@ -357,7 +357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="82" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="82" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="83" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="83" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1ab5ead6246bd372592e6bee394809bda1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref> *</type>
@@ -379,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="87" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="87" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="88" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="88" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1af77d78e1df224886cfb166d038155b0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -397,7 +397,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="90" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="91" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1aaf0c322fc62234e155b93ef2a1ecb09a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -415,7 +415,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="93" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="94" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1aa3a2c77a648fc5784f34274775b122c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref> *</type>
@@ -441,13 +441,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="100" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="100" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="101" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="101" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshNormals_8h_1a6c9067cbe12173d78299a2557aea7430" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshNormals_8h_1a4f6d8f461dd87c2e0e6da0ec55c56faf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref> *</type>
-        <definition>MRC_API MR_FaceNormals * MR_computePerFaceNormals</definition>
+        <definition>MRC_API MR_FaceNormals * MR_computePerFaceNormals_1</definition>
         <argsstring>(const MR_Mesh *mesh)</argsstring>
-        <name>MR_computePerFaceNormals</name>
+        <name>MR_computePerFaceNormals_1</name>
         <param>
           <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
           <declname>mesh</declname>
@@ -459,7 +459,29 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="106" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="106" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="107" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="107" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshNormals_8h_1a4a39d8fe605ed227e5b14dfa0b188894" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref> *</type>
+        <definition>MRC_API MR_FaceNormals * MR_computePerFaceNormals_2</definition>
+        <argsstring>(const MR_MeshTopology *topology, const MR_VertCoords *points)</argsstring>
+        <name>MR_computePerFaceNormals_2</name>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::computePerFaceNormals</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1a6a76c31175a534328cf55b087f67bcb0" kindref="member">MR_FaceNormals_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="113" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="113" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1aee1a1bc1cde42b082f1c91cfb2717c60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -485,7 +507,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="111" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="111" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="118" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1a71523707783284d3297474c6a4fd0fca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
@@ -503,7 +525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="117" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="117" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="124" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="124" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1aa49099f8f2dd0b9fbc747416c00964a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
@@ -521,7 +543,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="124" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="124" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="131" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="131" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1aa38d33691c3bbad2742a1057548fef86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref> *</type>
@@ -539,7 +561,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="130" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="130" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="137" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="137" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshNormals_8h_1afd2c9ab9488a861871977f8f7fdd29cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshNormals_8h_1a50f94ee230b3b0bffb2b4b0a00986133" kindref="member">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</ref> *</type>
@@ -561,7 +583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="137" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="137" declcolumn="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" line="144" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h" declline="144" declcolumn="53"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -582,59 +604,62 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRMeshNormals_8h_1a3bbb72144be216efbb91200d0fc37f10" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref><sp/><ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector4.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRMeshNormals_8h_1a50f94ee230b3b0bffb2b4b0a00986133" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshNormals_8h_1a50f94ee230b3b0bffb2b4b0a00986133" kindref="member">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</ref><sp/><ref refid="MRMeshNormals_8h_1a50f94ee230b3b0bffb2b4b0a00986133" kindref="member">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRMeshNormals_8h_1a3bbb72144be216efbb91200d0fc37f10" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref><sp/><ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector4.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRMeshNormals_8h_1a50f94ee230b3b0bffb2b4b0a00986133" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshNormals_8h_1a50f94ee230b3b0bffb2b4b0a00986133" kindref="member">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</ref><sp/><ref refid="MRMeshNormals_8h_1a50f94ee230b3b0bffb2b4b0a00986133" kindref="member">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref>;</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRMeshNormals_8h_1a9a70381c61b885e33de14e303cbc594b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1a9a70381c61b885e33de14e303cbc594b" kindref="member">MR_MeshNormals_Get_faceNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRMeshNormals_8h_1a90f1492da1768b8a3be6deb2c60918d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a90f1492da1768b8a3be6deb2c60918d4" kindref="member">MR_MeshNormals_Set_faceNormals</ref>(<ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRMeshNormals_8h_1aee022184d15f4080049e4b15159f160e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1aee022184d15f4080049e4b15159f160e" kindref="member">MR_MeshNormals_GetMutable_faceNormals</ref>(<ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRMeshNormals_8h_1ae92c03b14948ebabc3de188692a78e7f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRMeshNormals_8h_1ae92c03b14948ebabc3de188692a78e7f" kindref="member">MR_MeshNormals_Get_vertNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRMeshNormals_8h_1af0e5e92131de63e61de72069e015a169" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1af0e5e92131de63e61de72069e015a169" kindref="member">MR_MeshNormals_Set_vertNormals</ref>(<ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRMeshNormals_8h_1aef6ff3ea06277f9ce7cf058b3a205451" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRMeshNormals_8h_1aef6ff3ea06277f9ce7cf058b3a205451" kindref="member">MR_MeshNormals_GetMutable_vertNormals</ref>(<ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRMeshNormals_8h_1a1b20e1e97a8d6b5bc3ecf420c4386e51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1a1b20e1e97a8d6b5bc3ecf420c4386e51" kindref="member">MR_MeshNormals_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="MRMeshNormals_8h_1a26e5011aba3d6280435d425667ff55b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1a26e5011aba3d6280435d425667ff55b3" kindref="member">MR_MeshNormals_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRMeshNormals_8h_1afc9e46d271b8c4e6e92c0e50b0393311" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1afc9e46d271b8c4e6e92c0e50b0393311" kindref="member">MR_MeshNormals_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>faceNormals_pass_by,<sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*faceNormals,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>vertNormals_pass_by,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*vertNormals);</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRMeshNormals_8h_1aea159d850eef22897e8d5a48c48cbdd4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1aea159d850eef22897e8d5a48c48cbdd4" kindref="member">MR_MeshNormals_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRMeshNormals_8h_1a85bd087739fedd399bbfd16bc940e94f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1a85bd087739fedd399bbfd16bc940e94f" kindref="member">MR_MeshNormals_OffsetMutablePtr</ref>(<ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRMeshNormals_8h_1ab5ead6246bd372592e6bee394809bda1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1ab5ead6246bd372592e6bee394809bda1" kindref="member">MR_MeshNormals_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRMeshNormals_8h_1af77d78e1df224886cfb166d038155b0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1af77d78e1df224886cfb166d038155b0b" kindref="member">MR_MeshNormals_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRMeshNormals_8h_1aaf0c322fc62234e155b93ef2a1ecb09a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1aaf0c322fc62234e155b93ef2a1ecb09a" kindref="member">MR_MeshNormals_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="MRMeshNormals_8h_1aa3a2c77a648fc5784f34274775b122c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1aa3a2c77a648fc5784f34274775b122c7" kindref="member">MR_MeshNormals_AssignFromAnother</ref>(<ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRMeshNormals_8h_1a6c9067cbe12173d78299a2557aea7430" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1a6c9067cbe12173d78299a2557aea7430" kindref="member">MR_computePerFaceNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRMeshNormals_8h_1aee1a1bc1cde42b082f1c91cfb2717c60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1aee1a1bc1cde42b082f1c91cfb2717c60" kindref="member">MR_computePerFaceNormals4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref><sp/>*faceNormals,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRMeshNormals_8h_1a71523707783284d3297474c6a4fd0fca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRMeshNormals_8h_1a71523707783284d3297474c6a4fd0fca" kindref="member">MR_computePerVertNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRMeshNormals_8h_1aa49099f8f2dd0b9fbc747416c00964a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRMeshNormals_8h_1aa49099f8f2dd0b9fbc747416c00964a8" kindref="member">MR_computePerVertPseudoNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRMeshNormals_8h_1a9a70381c61b885e33de14e303cbc594b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1a9a70381c61b885e33de14e303cbc594b" kindref="member">MR_MeshNormals_Get_faceNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRMeshNormals_8h_1a90f1492da1768b8a3be6deb2c60918d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a90f1492da1768b8a3be6deb2c60918d4" kindref="member">MR_MeshNormals_Set_faceNormals</ref>(<ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRMeshNormals_8h_1aee022184d15f4080049e4b15159f160e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1aee022184d15f4080049e4b15159f160e" kindref="member">MR_MeshNormals_GetMutable_faceNormals</ref>(<ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRMeshNormals_8h_1ae92c03b14948ebabc3de188692a78e7f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRMeshNormals_8h_1ae92c03b14948ebabc3de188692a78e7f" kindref="member">MR_MeshNormals_Get_vertNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRMeshNormals_8h_1af0e5e92131de63e61de72069e015a169" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1af0e5e92131de63e61de72069e015a169" kindref="member">MR_MeshNormals_Set_vertNormals</ref>(<ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRMeshNormals_8h_1aef6ff3ea06277f9ce7cf058b3a205451" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRMeshNormals_8h_1aef6ff3ea06277f9ce7cf058b3a205451" kindref="member">MR_MeshNormals_GetMutable_vertNormals</ref>(<ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRMeshNormals_8h_1a1b20e1e97a8d6b5bc3ecf420c4386e51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1a1b20e1e97a8d6b5bc3ecf420c4386e51" kindref="member">MR_MeshNormals_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRMeshNormals_8h_1a26e5011aba3d6280435d425667ff55b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1a26e5011aba3d6280435d425667ff55b3" kindref="member">MR_MeshNormals_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRMeshNormals_8h_1afc9e46d271b8c4e6e92c0e50b0393311" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1afc9e46d271b8c4e6e92c0e50b0393311" kindref="member">MR_MeshNormals_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>faceNormals_pass_by,<sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*faceNormals,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>vertNormals_pass_by,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*vertNormals);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRMeshNormals_8h_1aea159d850eef22897e8d5a48c48cbdd4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1aea159d850eef22897e8d5a48c48cbdd4" kindref="member">MR_MeshNormals_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRMeshNormals_8h_1a85bd087739fedd399bbfd16bc940e94f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1a85bd087739fedd399bbfd16bc940e94f" kindref="member">MR_MeshNormals_OffsetMutablePtr</ref>(<ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRMeshNormals_8h_1ab5ead6246bd372592e6bee394809bda1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1ab5ead6246bd372592e6bee394809bda1" kindref="member">MR_MeshNormals_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRMeshNormals_8h_1af77d78e1df224886cfb166d038155b0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1af77d78e1df224886cfb166d038155b0b" kindref="member">MR_MeshNormals_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRMeshNormals_8h_1aaf0c322fc62234e155b93ef2a1ecb09a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1aaf0c322fc62234e155b93ef2a1ecb09a" kindref="member">MR_MeshNormals_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRMeshNormals_8h_1aa3a2c77a648fc5784f34274775b122c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1aa3a2c77a648fc5784f34274775b122c7" kindref="member">MR_MeshNormals_AssignFromAnother</ref>(<ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRMeshNormals_8h_1a4f6d8f461dd87c2e0e6da0ec55c56faf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1a4f6d8f461dd87c2e0e6da0ec55c56faf" kindref="member">MR_computePerFaceNormals_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRMeshNormals_8h_1a4a39d8fe605ed227e5b14dfa0b188894" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a8adffd0fdf3bafd75f3ddebfbdb22ef5" kindref="member">MR_FaceNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1a4a39d8fe605ed227e5b14dfa0b188894" kindref="member">MR_computePerFaceNormals_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRMeshNormals_8h_1aee1a1bc1cde42b082f1c91cfb2717c60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshNormals_8h_1aee1a1bc1cde42b082f1c91cfb2717c60" kindref="member">MR_computePerFaceNormals4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref><sp/>*faceNormals,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRMeshNormals_8h_1a71523707783284d3297474c6a4fd0fca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRMeshNormals_8h_1a71523707783284d3297474c6a4fd0fca" kindref="member">MR_computePerVertNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRMeshNormals_8h_1aa38d33691c3bbad2742a1057548fef86" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1aa38d33691c3bbad2742a1057548fef86" kindref="member">MR_computeMeshNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137" refid="MRMeshNormals_8h_1afd2c9ab9488a861871977f8f7fdd29cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a50f94ee230b3b0bffb2b4b0a00986133" kindref="member">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</ref><sp/>*<ref refid="MRMeshNormals_8h_1afd2c9ab9488a861871977f8f7fdd29cd" kindref="member">MR_computePerCornerNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*creases);</highlight></codeline>
+<codeline lineno="131" refid="MRMeshNormals_8h_1aa49099f8f2dd0b9fbc747416c00964a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRMeshNormals_8h_1aa49099f8f2dd0b9fbc747416c00964a8" kindref="member">MR_computePerVertPseudoNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRMeshNormals_8h_1aa38d33691c3bbad2742a1057548fef86" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a4c404df0e68a9dc60914c3fab1545116" kindref="member">MR_MeshNormals</ref><sp/>*<ref refid="MRMeshNormals_8h_1aa38d33691c3bbad2742a1057548fef86" kindref="member">MR_computeMeshNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="140"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="144" refid="MRMeshNormals_8h_1afd2c9ab9488a861871977f8f7fdd29cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshNormals_8h_1a50f94ee230b3b0bffb2b4b0a00986133" kindref="member">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</ref><sp/>*<ref refid="MRMeshNormals_8h_1afd2c9ab9488a861871977f8f7fdd29cd" kindref="member">MR_computePerCornerNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*creases);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshNormals.h"/>
   </compounddef>

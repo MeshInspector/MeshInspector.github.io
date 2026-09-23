@@ -332,6 +332,7 @@ var hierarchy =
     [ "MR::DeloneFlipsCache", "structMR_1_1DeloneFlipsCache.html", null ],
     [ "MR::DeloneSettings", "structMR_1_1DeloneSettings.html", null ],
     [ "MR::DenoiseViaNormalsSettings", "structMR_1_1DenoiseViaNormalsSettings.html", null ],
+    [ "MR::DenoiseWithCreasesSettings", "structMR_1_1DenoiseWithCreasesSettings.html", null ],
     [ "MR::DenseBox", "structMR_1_1DenseBox.html", null ],
     [ "MR::DentalId", "classMR_1_1DentalId.html", null ],
     [ "MR::DepthPeelingGL", "classMR_1_1DepthPeelingGL.html", null ],

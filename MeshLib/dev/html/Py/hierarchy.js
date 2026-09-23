@@ -240,6 +240,7 @@ var hierarchy =
     [ "mrmeshpy.DeloneFlipsCache", "classmrmeshpy_1_1DeloneFlipsCache.html", null ],
     [ "mrmeshpy.DeloneSettings", "classmrmeshpy_1_1DeloneSettings.html", null ],
     [ "mrmeshpy.DenoiseViaNormalsSettings", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html", null ],
+    [ "mrmeshpy.DenoiseWithCreasesSettings", "classmrmeshpy_1_1DenoiseWithCreasesSettings.html", null ],
     [ "mrmeshpy.DenseBox", "classmrmeshpy_1_1DenseBox.html", null ],
     [ "mrmeshpy.DentalId", "classmrmeshpy_1_1DentalId.html", null ],
     [ "mrmeshpy.DepthFunction", "classmrmeshpy_1_1DepthFunction.html", null ],

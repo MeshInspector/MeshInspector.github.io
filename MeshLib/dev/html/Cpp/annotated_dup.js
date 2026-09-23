@@ -482,6 +482,7 @@ var annotated_dup =
       [ "DeloneSettings", "structMR_1_1DeloneSettings.html", "structMR_1_1DeloneSettings" ],
       [ "DemoPlugin", "classMR_1_1DemoPlugin.html", "classMR_1_1DemoPlugin" ],
       [ "DenoiseViaNormalsSettings", "structMR_1_1DenoiseViaNormalsSettings.html", "structMR_1_1DenoiseViaNormalsSettings" ],
+      [ "DenoiseWithCreasesSettings", "structMR_1_1DenoiseWithCreasesSettings.html", "structMR_1_1DenoiseWithCreasesSettings" ],
       [ "DenseBox", "structMR_1_1DenseBox.html", "structMR_1_1DenseBox" ],
       [ "DentalId", "classMR_1_1DentalId.html", "classMR_1_1DentalId" ],
       [ "DepthPeelingGL", "classMR_1_1DepthPeelingGL.html", "classMR_1_1DepthPeelingGL" ],

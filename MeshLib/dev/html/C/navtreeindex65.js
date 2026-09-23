@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"MRMeshToDistanceVolume_8h.html#a1043b3916a031c64e21551f104536432":[9,2,2,0,0,0,0,4,12,46],
 "MRMeshToDistanceVolume_8h.html#a16f27b17b4ae4e966b97733a6b07050a":[9,2,2,0,0,0,0,4,12,60],
 "MRMeshToDistanceVolume_8h.html#a1902c188a56a4157991ef94b72ca0f75":[9,2,2,0,0,0,0,4,12,7],
 "MRMeshToDistanceVolume_8h.html#a1b0e095f0d255ffc6ae9b757b0eafd40":[9,2,2,0,0,0,0,4,12,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "MRMeshTotalAngle_8h.html#a221772f69271cb2069b115faed1a482c":[9,2,2,0,0,0,0,1,211,13],
 "MRMeshTotalAngle_8h.html#a3ccdc4349a626abe192cf82c4380cc1f":[9,2,2,0,0,0,0,1,211,15],
 "MRMeshTotalAngle_8h.html#a47665c382a4def48ce60f0fb0d773caa":[9,2,2,0,0,0,0,1,211,20],
-"MRMeshTotalAngle_8h.html#a48b52294139a9726b407b5b859ac86ad":[9,2,2,0,0,0,0,1,211,9],
-"MRMeshTotalAngle_8h.html#a51a559215e7acbe52dcc4c2941a359f3":[9,2,2,0,0,0,0,1,211,29]
+"MRMeshTotalAngle_8h.html#a48b52294139a9726b407b5b859ac86ad":[9,2,2,0,0,0,0,1,211,9]
 };

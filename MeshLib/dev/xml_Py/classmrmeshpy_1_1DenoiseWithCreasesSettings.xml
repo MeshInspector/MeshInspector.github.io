@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DenoiseWithCreasesSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DenoiseWithCreasesSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a1c62a415e0006cbd20a4db2af0219a9e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseWithCreasesSettings::_offsetof_gamma</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_gamma</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings._offsetof_gamma</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a551cfc262dbe7f21658be77f4896c8cc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseWithCreasesSettings::_offsetof_guideWeight</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_guideWeight</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings._offsetof_guideWeight</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ac3d79d81e02d2406bb75112032a38739" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseWithCreasesSettings::_offsetof_pointIters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pointIters</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings._offsetof_pointIters</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13326" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a97b033edbceeeaf9fad3254f1ed8ebb5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseWithCreasesSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13329" bodyend="13330"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a80c3fce2dc3024eb9e9a06fd73c72db2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DenoiseWithCreasesSettings" kindref="compound">DenoiseWithCreasesSettings</ref></type>
+        <definition> DenoiseWithCreasesSettings mrmeshpy.DenoiseWithCreasesSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13333" bodyend="13334"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a80c3fce2dc3024eb9e9a06fd73c72db2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DenoiseWithCreasesSettings" kindref="compound">DenoiseWithCreasesSettings</ref></type>
+        <definition> DenoiseWithCreasesSettings mrmeshpy.DenoiseWithCreasesSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13337" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13337" bodyend="13338"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a6a645ba418e0fc96ebe39bd16c6d422b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseWithCreasesSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13340" bodyend="13341"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ae12c4fb73859ef213216cf9266cdce48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseWithCreasesSettings.__init__</definition>
+        <argsstring>(self, DenoiseWithCreasesSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DenoiseWithCreasesSettings" kindref="compound">DenoiseWithCreasesSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13343" bodyend="13346"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a61679cacfaec4a54a5985899aa05b0a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseWithCreasesSettings.__init__</definition>
+        <argsstring>(self, float gamma, float guideWeight, int pointIters)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gamma</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>guideWeight</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pointIters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13348" bodyend="13351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a9d4e013117f35412b2f35fd07d85ccef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DenoiseWithCreasesSettings.gamma</definition>
+        <argsstring>(self)</argsstring>
+        <name>gamma</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings.gamma</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ...
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13353" bodyend="13356"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ad078f74f2e3adcab728a0905fa6f56ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseWithCreasesSettings.gamma</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>gamma</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings.gamma</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13358" bodyend="13359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1aa11ec5cebba9099485da966f2cc3bf2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DenoiseWithCreasesSettings.guideWeight</definition>
+        <argsstring>(self)</argsstring>
+        <name>guideWeight</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings.guideWeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13361" bodyend="13364"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ab5abd4ab843d9b50a4ee8efb6751face" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseWithCreasesSettings.guideWeight</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>guideWeight</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings.guideWeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13366" bodyend="13367"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a743c76b3074bb5ba6cb9b19bf5a4f42c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DenoiseWithCreasesSettings.pointIters</definition>
+        <argsstring>(self)</argsstring>
+        <name>pointIters</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings.pointIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13369" bodyend="13372"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a436ec0d72a76651332d597c98577e542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseWithCreasesSettings.pointIters</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>pointIters</name>
+        <qualifiedname>mrmeshpy.DenoiseWithCreasesSettings.pointIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13374" bodyend="13375"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DenoiseWithCreasesSettings
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13320" bodyend="13375"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a97b033edbceeeaf9fad3254f1ed8ebb5" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a6a645ba418e0fc96ebe39bd16c6d422b" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ae12c4fb73859ef213216cf9266cdce48" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a61679cacfaec4a54a5985899aa05b0a0" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a1c62a415e0006cbd20a4db2af0219a9e" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>_offsetof_gamma</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a551cfc262dbe7f21658be77f4896c8cc" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>_offsetof_guideWeight</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ac3d79d81e02d2406bb75112032a38739" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>_offsetof_pointIters</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a9d4e013117f35412b2f35fd07d85ccef" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>gamma</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ad078f74f2e3adcab728a0905fa6f56ca" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>gamma</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1aa11ec5cebba9099485da966f2cc3bf2e" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>guideWeight</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ab5abd4ab843d9b50a4ee8efb6751face" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>guideWeight</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a80c3fce2dc3024eb9e9a06fd73c72db2" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a80c3fce2dc3024eb9e9a06fd73c72db2" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a743c76b3074bb5ba6cb9b19bf5a4f42c" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>pointIters</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a436ec0d72a76651332d597c98577e542" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseWithCreasesSettings</scope><name>pointIters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
