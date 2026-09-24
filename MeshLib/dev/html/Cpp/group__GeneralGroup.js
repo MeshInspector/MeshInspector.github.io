@@ -14686,6 +14686,7 @@ var group__GeneralGroup =
     [ "MR::parseTextCoordinate", "group__GeneralGroup.html#gab70ae04aee26ad876f1080bdea061d86", null ],
     [ "MR::partialOffsetMesh", "group__GeneralGroup.html#ga791659f1e41c2486076a24ae429d5c16", null ],
     [ "MR::patchMesh", "group__GeneralGroup.html#ga8d6d34f227cd6fbaf2f220b903791809", null ],
+    [ "MR::patchMeshByGroups", "group__GeneralGroup.html#ga615f518e4fa04b0ff073fe2c780e4dda", null ],
     [ "MR::Pdf::Pdf", "group__GeneralGroup.html#ga592bad758219343d640e203f33e9b74c", null ],
     [ "MR::Pdf::Pdf", "group__GeneralGroup.html#gadeee7f3bd750790173a58e2a5cd00d33", null ],
     [ "MR::Viewport::pick_render_object", "group__GeneralGroup.html#ga9cf7727c5bbcb7ad43c396f50b5c2f64", null ],

@@ -199,6 +199,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa93eb46b6c87bd17060bee960111398c" id="r_gaa93eb46b6c87bd17060bee960111398c"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; FaceBitSet &gt;, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa93eb46b6c87bd17060bee960111398c">MR::MeshComponents::getAllComponents</a> (const MeshPart &amp;meshPart, int maxComponentCount, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
 <tr class="memitem:ga97b195864ae6464fc4af8dbbfbf12c25" id="r_ga97b195864ae6464fc4af8dbbfbf12c25"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga97b195864ae6464fc4af8dbbfbf12c25">MR::MeshComponents::getAllComponents</a> (Face2RegionMap &amp;componentsMap, int componentsCount, const FaceBitSet &amp;region, int maxComponentCount)</td></tr>
 <tr class="memitem:ga2aab1963ab19bf9523812ac0264c0841" id="r_ga2aab1963ab19bf9523812ac0264c0841"><td class="memItemLeft" align="right" valign="top">std::pair&lt; Face2RegionMap, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2aab1963ab19bf9523812ac0264c0841">MR::MeshComponents::getAllComponentsMap</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
+<tr class="memitem:ga412b70cb572bcbabfe070e9e1b33d345" id="r_ga412b70cb572bcbabfe070e9e1b33d345"><td class="memItemLeft" align="right" valign="top">std::pair&lt; Face2RegionMap, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga412b70cb572bcbabfe070e9e1b33d345">MR::MeshComponents::getAllComponentsMapBySharpEdges</a> (const MeshPart &amp;meshPart, float angleThreshold=0.5f)</td></tr>
 <tr class="memitem:ga0a656dc0668e166fd8382b1dbca0c106" id="r_ga0a656dc0668e166fd8382b1dbca0c106"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshComponents_1_1ComponentsFaces.html">ComponentsFaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0a656dc0668e166fd8382b1dbca0c106">MR::MeshComponents::getAllComponentsFaces</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
 <tr class="memitem:gaba2da2bd1f3d2cfcf549494036b08cd7" id="r_gaba2da2bd1f3d2cfcf549494036b08cd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshComponents_1_1ComponentsFaces.html">ComponentsFaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba2da2bd1f3d2cfcf549494036b08cd7">MR::MeshComponents::getAllComponentsFaces</a> (const Face2RegionMap &amp;componentsMap, int componentsCount, const FaceBitSet &amp;region)</td></tr>
 <tr class="memdesc:gaba2da2bd1f3d2cfcf549494036b08cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components from components map ( FaceId =&gt; RegionId in [0, componentsCount) ) for the faces of given region  <br /></td></tr>
@@ -644,6 +645,44 @@ Functions</h2></td></tr>
 <li>the mapping: FaceId -&gt; Component ID in [0, 1, 2, ...)</li>
 <li>the total number of components </li>
 </ol>
+
+</div>
+</div>
+<a id="ga412b70cb572bcbabfe070e9e1b33d345" name="ga412b70cb572bcbabfe070e9e1b33d345"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga412b70cb572bcbabfe070e9e1b33d345">&#9670;&#160;</a></span>getAllComponentsMapBySharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; Face2RegionMap, int &gt; MR::MeshComponents::getAllComponentsMapBySharpEdges </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>angleThreshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.5f</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
+<p>gets all components of mesh part separated by sharp edges with dihedral angle in [angleThreshold, PI-angleThreshold] (see findSharpEdges); nearly planar and nearly folded edges do not separate components, so overlapping coplanar triangles stay together </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angleThreshold</td><td>in (0, PI/2) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the mapping FaceId -&gt; component id (meaningful only for the faces of mesh part) and the number of components </dd></dl>
 
 </div>
 </div>

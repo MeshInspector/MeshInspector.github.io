@@ -15465,6 +15465,7 @@
     <member refid="group__GeneralGroup_1ga59ffc7bf41b2002b89e68d941a46b0c1" kind="function"><name>projectWorldPointOntoObjectsRecursive</name></member>
     <member refid="group__GeneralGroup_1ga9b3da08af6167e0e5b5f9d6b44329945" kind="function"><name>findOverhangs</name></member>
     <member refid="group__GeneralGroup_1ga8d6d34f227cd6fbaf2f220b903791809" kind="function"><name>patchMesh</name></member>
+    <member refid="group__GeneralGroup_1ga615f518e4fa04b0ff073fe2c780e4dda" kind="function"><name>patchMeshByGroups</name></member>
     <member refid="group__AABBTreeGroup_1gaae6b5143199ddd407f3703c52fb0d1a8" kind="function"><name>createProjectionTransforms</name></member>
     <member refid="group__AABBTreeGroup_1gadd58047c34992dde1fd3d7f854ca6d97" kind="function"><name>findProjection</name></member>
     <member refid="group__AABBTreeGroup_1gafbb2d7a2190e5d13b47162ac1bc2df96" kind="function"><name>findProjectionSubtree</name></member>
@@ -16770,6 +16771,7 @@
     <member refid="group__MeshComponentsGroup_1gaa93eb46b6c87bd17060bee960111398c" kind="function"><name>getAllComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga97b195864ae6464fc4af8dbbfbf12c25" kind="function"><name>getAllComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga2aab1963ab19bf9523812ac0264c0841" kind="function"><name>getAllComponentsMap</name></member>
+    <member refid="group__MeshComponentsGroup_1ga412b70cb572bcbabfe070e9e1b33d345" kind="function"><name>getAllComponentsMapBySharpEdges</name></member>
     <member refid="group__MeshComponentsGroup_1ga0a656dc0668e166fd8382b1dbca0c106" kind="function"><name>getAllComponentsFaces</name></member>
     <member refid="group__MeshComponentsGroup_1gaba2da2bd1f3d2cfcf549494036b08cd7" kind="function"><name>getAllComponentsFaces</name></member>
     <member refid="group__MeshComponentsGroup_1ga87fa009d5a9b64c256cd45780378d1fb" kind="function"><name>getFacePairRegionMap</name></member>
@@ -19593,6 +19595,7 @@
     <member refid="group__MeshComponentsGroup_1gaa93eb46b6c87bd17060bee960111398c" kind="function"><name>getAllComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga97b195864ae6464fc4af8dbbfbf12c25" kind="function"><name>getAllComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga2aab1963ab19bf9523812ac0264c0841" kind="function"><name>getAllComponentsMap</name></member>
+    <member refid="group__MeshComponentsGroup_1ga412b70cb572bcbabfe070e9e1b33d345" kind="function"><name>getAllComponentsMapBySharpEdges</name></member>
     <member refid="group__MeshComponentsGroup_1ga0a656dc0668e166fd8382b1dbca0c106" kind="function"><name>getAllComponentsFaces</name></member>
     <member refid="group__MeshComponentsGroup_1gaba2da2bd1f3d2cfcf549494036b08cd7" kind="function"><name>getAllComponentsFaces</name></member>
     <member refid="group__MeshComponentsGroup_1ga87fa009d5a9b64c256cd45780378d1fb" kind="function"><name>getFacePairRegionMap</name></member>
@@ -27464,6 +27467,7 @@
     <member refid="group__GeneralGroup_1gae376220ccfe757dc78e7edd18501521e" kind="function"><name>MeshRegion</name></member>
     <member refid="group__GeneralGroup_1ga8fbe26bcbe7891c7be47fb330920e3b4" kind="function"><name>operator=</name></member>
     <member refid="group__GeneralGroup_1ga8d6d34f227cd6fbaf2f220b903791809" kind="function"><name>patchMesh</name></member>
+    <member refid="group__GeneralGroup_1ga615f518e4fa04b0ff073fe2c780e4dda" kind="function"><name>patchMeshByGroups</name></member>
     <member refid="group__GeneralGroup_1gadca0381ca92c2a01ec82ddc1dbd7647a" kind="function"><name>replicateZ</name></member>
     <member refid="group__GeneralGroup_1ga834d4370af921a7bc3c36d95b47f25d5" kind="function"><name>onEdgeSplitVertAttribute</name></member>
     <member refid="group__GeneralGroup_1ga858bd56c47ccd2af4b01a5bfa189ff64" kind="function"><name>onEdgeSplitFaceAttribute</name></member>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"classMR_1_1Const__TerminalVertex.html#a9e168ad26e34de8c1baa60e361b482fa":[9,3,0,0,0,879,4],
 "classMR_1_1Const__TerminalVertex.html#a9e801578eb53a350ddbb39a740dfd2d9":[9,3,0,0,0,879,2],
 "classMR_1_1Const__TerminalVertex.html#aa60223d5e05df7ef14f65a8e1d430e23":[9,3,0,0,0,879,3],
 "classMR_1_1Const__TerminalVertex.html#aab8cb00b920d911be21d8bfce47a220c":[9,3,0,0,0,879,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "classMR_1_1Const__TriCornerUVCoords.html#a759ff63a7d9732f5096d88bf2046b963":[9,3,0,0,0,894,23],
 "classMR_1_1Const__TriCornerUVCoords.html#a8a1fc592b4f7b52abcf2a693d1c1fd79":[9,3,0,0,0,894,19],
 "classMR_1_1Const__TriCornerUVCoords.html#a8a648ff1776725a8450b531a5734fe6c":[9,3,0,0,0,894,10],
-"classMR_1_1Const__TriCornerUVCoords.html#a8f27456a3b6bd00cd79dbed3a4d3cdad":[9,3,0,0,0,894,13],
-"classMR_1_1Const__TriCornerUVCoords.html#a9b0339c05fe7aa6f9308456b6facb584":[9,3,0,0,0,894,11]
+"classMR_1_1Const__TriCornerUVCoords.html#a8f27456a3b6bd00cd79dbed3a4d3cdad":[9,3,0,0,0,894,13]
 };

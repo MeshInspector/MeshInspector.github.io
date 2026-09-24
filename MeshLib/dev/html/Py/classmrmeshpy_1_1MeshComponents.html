@@ -164,6 +164,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2e46b54bd66024908500a79f80671439" id="r_a2e46b54bd66024908500a79f80671439"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html">MeshComponents.ComponentsFaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e46b54bd66024908500a79f80671439">getAllComponentsFaces</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}')</td></tr>
 <tr class="memitem:a3d3bb261ba59465c7003cfd175dc17dd" id="r_a3d3bb261ba59465c7003cfd175dc17dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html">MeshComponents.ComponentsFaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d3bb261ba59465c7003cfd175dc17dd">getAllComponentsFaces</a> (<a class="el" href="classmrmeshpy_1_1Face2RegionMap.html">Face2RegionMap</a> componentsMap, int componentsCount, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region)</td></tr>
 <tr class="memitem:a2fefa3287af9ba22e88d92c400897f9e" id="r_a2fefa3287af9ba22e88d92c400897f9e"><td class="memItemLeft" align="right" valign="top">tuple[<a class="el" href="classmrmeshpy_1_1Face2RegionMap.html">Face2RegionMap</a>, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fefa3287af9ba22e88d92c400897f9e">getAllComponentsMap</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}')</td></tr>
+<tr class="memitem:ad0adaeee3254ed9191852bb0c49bf095" id="r_ad0adaeee3254ed9191852bb0c49bf095"><td class="memItemLeft" align="right" valign="top">tuple[<a class="el" href="classmrmeshpy_1_1Face2RegionMap.html">Face2RegionMap</a>, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0adaeee3254ed9191852bb0c49bf095">getAllComponentsMapBySharpEdges</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, float angleThreshold=0.5)</td></tr>
 <tr class="memitem:ae55975d6d99d183f77ae1db5eeadba7c" id="r_ae55975d6d99d183f77ae1db5eeadba7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae55975d6d99d183f77ae1db5eeadba7c">getAllComponentsUndirectedEdges</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> edges)</td></tr>
 <tr class="memitem:abf2def00e15a00d09e4c19035c625994" id="r_abf2def00e15a00d09e4c19035c625994"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__VertTag.html">std_vector_TypedBitSet_Id_VertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf2def00e15a00d09e4c19035c625994">getAllComponentsVerts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
 <tr class="memitem:aeb81e1bb8df77560eb30669095b33920" id="r_aeb81e1bb8df77560eb30669095b33920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__VertTag.html">std_vector_TypedBitSet_Id_VertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb81e1bb8df77560eb30669095b33920">getAllComponentsVertsSeparatedByPath</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__EdgePoint.html">std_vector_EdgePoint</a> path)</td></tr>
@@ -528,6 +529,39 @@ unlike getAllComponents, the memory is proportional to the number of faces in th
 <pre class="fragment">gets all connected components of mesh part as
 1. the mapping: FaceId -&gt; Component ID in [0, 1, 2, ...)
 2. the total number of components
+</pre> 
+</div>
+</div>
+<a id="ad0adaeee3254ed9191852bb0c49bf095" name="ad0adaeee3254ed9191852bb0c49bf095"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0adaeee3254ed9191852bb0c49bf095">&#9670;&#160;</a></span>getAllComponentsMapBySharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> tuple[<a class="el" href="classmrmeshpy_1_1Face2RegionMap.html">Face2RegionMap</a>, int] mrmeshpy.MeshComponents.getAllComponentsMapBySharpEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float </td>          <td class="paramname"><span class="paramname"><em>angleThreshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.5</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">gets all components of mesh part separated by sharp edges with dihedral angle in [angleThreshold, PI-angleThreshold]
+(see findSharpEdges); nearly planar and nearly folded edges do not separate components, so overlapping coplanar triangles stay together
+\\param angleThreshold in (0, PI/2)
+\\return the mapping FaceId -&gt; component id (meaningful only for the faces of mesh part) and the number of components
 </pre> 
 </div>
 </div>

@@ -24,6 +24,7 @@ var classMR_1_1MeshComponents =
     [ "getAllComponentsFaces", "classMR_1_1MeshComponents.html#a80aecf45de57324d4641f0fa57b927f1", null ],
     [ "getAllComponentsFaces", "classMR_1_1MeshComponents.html#ad8ba6e9cb22b1949e04545283ba50722", null ],
     [ "getAllComponentsMap", "classMR_1_1MeshComponents.html#aa2bb6b3b50188dbce4a6b21881cd4a05", null ],
+    [ "getAllComponentsMapBySharpEdges", "classMR_1_1MeshComponents.html#a45145f33e392fe5d50b167f4a76e8f56", null ],
     [ "getAllComponentsUndirectedEdges", "classMR_1_1MeshComponents.html#ad0b4a162d9d663045f37e23f2a2f6898", null ],
     [ "getAllComponentsVerts", "classMR_1_1MeshComponents.html#abaf4e2238bea5affab163db810434c8d", null ],
     [ "getAllComponentsVertsSeparatedByPath", "classMR_1_1MeshComponents.html#a657d8d0d5d69361451bbc8ae759d153d", null ],

@@ -18,6 +18,7 @@ var MRMeshComponents_8h =
     [ "MR::MeshComponents::getAllComponentsFaces", "group__MeshComponentsGroup.html#gaba2da2bd1f3d2cfcf549494036b08cd7", null ],
     [ "MR::MeshComponents::getAllComponentsFaces", "group__MeshComponentsGroup.html#ga0a656dc0668e166fd8382b1dbca0c106", null ],
     [ "MR::MeshComponents::getAllComponentsMap", "group__MeshComponentsGroup.html#ga2aab1963ab19bf9523812ac0264c0841", null ],
+    [ "MR::MeshComponents::getAllComponentsMapBySharpEdges", "group__MeshComponentsGroup.html#ga412b70cb572bcbabfe070e9e1b33d345", null ],
     [ "MR::MeshComponents::getAllComponentsUndirectedEdges", "group__MeshComponentsGroup.html#ga771199217cd0fe03f92ad929b794ea15", null ],
     [ "MR::MeshComponents::getAllComponentsVerts", "group__MeshComponentsGroup.html#gac3f08916e38c544b82948eebe0ad7927", null ],
     [ "MR::MeshComponents::getAllComponentsVertsSeparatedByPath", "group__MeshComponentsGroup.html#ga44be685ea9ba443cf22a7e0e8c370e94", null ],

@@ -10369,6 +10369,8 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
 <tr class="memdesc:a03492207be6dbd76f7eab7d2a2c4a08f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find face regions that might create overhangs.  <br /></td></tr>
 <tr class="memitem:ad577295ef33cf17ee466e4f4b3569ff2" id="r_ad577295ef33cf17ee466e4f4b3569ff2"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad577295ef33cf17ee466e4f4b3569ff2">patchMesh</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> patchBS, <a class="el" href="classMR_1_1Const__FillHoleNicelySettings.html">MR.Const_FillHoleNicelySettings</a>? settings=null)</td></tr>
 <tr class="memdesc:ad577295ef33cf17ee466e4f4b3569ff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes  <br /></td></tr>
+<tr class="memitem:afa77988039fdff110fb63e4e822c6167" id="r_afa77988039fdff110fb63e4e822c6167"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa77988039fdff110fb63e4e822c6167">patchMeshByGroups</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> faces, float? angleThreshold=null, <a class="el" href="classMR_1_1Const__FillHoleNicelySettings.html">MR.Const_FillHoleNicelySettings</a>? settings=null)</td></tr>
+<tr class="memdesc:afa77988039fdff110fb63e4e822c6167"><td class="mdescLeft">&#160;</td><td class="mdescRight">splits given faces on groups separated by sharp edges (see <a class="el" href="classMR_1_1MeshComponents.html#a45145f33e392fe5d50b167f4a76e8f56" title="gets all components of mesh part separated by sharp edges with dihedral angle in [angleThreshold,...">MeshComponents.getAllComponentsMapBySharpEdges</a>), then removes each group and fills the appeared holes separately using <a class="el" href="#ad577295ef33cf17ee466e4f4b3569ff2">patchMesh</a>; if patch subdivision splits a face of a not yet patched group or of an earlier patch, the new half is added to that group or to the result  <br /></td></tr>
 <tr class="memitem:a1b678b27b9acdd2acb802996f2fbd27b" id="r_a1b678b27b9acdd2acb802996f2fbd27b"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshProjectionTransforms.html">MR.MeshProjectionTransforms</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b678b27b9acdd2acb802996f2fbd27b">createProjectionTransforms</a> (ref <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> storageXf, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? pointXf, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? treeXf)</td></tr>
 <tr class="memdesc:a1b678b27b9acdd2acb802996f2fbd27b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates structure with simplified transforms for projection functions, with <span class="tt">rigidXfPoint</span> applied to point, and <span class="tt">nonRigidXfTree</span> applied to tree.  <br /></td></tr>
 <tr class="memitem:a0da4da5dd5ee679042fad3a7c19db384" id="r_a0da4da5dd5ee679042fad3a7c19db384"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshProjectionResult.html">MR.MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0da4da5dd5ee679042fad3a7c19db384">findProjection</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> pt, <a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, float? upDistLimitSq=null, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? xf=null, float? loDistLimitSq=null, MR.Std.Const_Function_Bool_From_MRFaceId? validFaces=null, MR.Std.Const_Function_Bool_From_ConstMRMeshProjectionResultRef? validProjections=null)</td></tr>
@@ -66480,6 +66482,48 @@ All new faces should be parallel to given direction It is measured in squared le
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="afa77988039fdff110fb63e4e822c6167" name="afa77988039fdff110fb63e4e822c6167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa77988039fdff110fb63e4e822c6167">&#9670;&#160;</a></span>patchMeshByGroups()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a> MR.patchMeshByGroups </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>faces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>angleThreshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FillHoleNicelySettings.html">MR.Const_FillHoleNicelySettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>splits given faces on groups separated by sharp edges (see <a class="el" href="classMR_1_1MeshComponents.html#a45145f33e392fe5d50b167f4a76e8f56" title="gets all components of mesh part separated by sharp edges with dihedral angle in [angleThreshold,...">MeshComponents.getAllComponentsMapBySharpEdges</a>), then removes each group and fills the appeared holes separately using <a class="el" href="#ad577295ef33cf17ee466e4f4b3569ff2">patchMesh</a>; if patch subdivision splits a face of a not yet patched group or of an earlier patch, the new half is added to that group or to the result </p>
+<dl class="section return"><dt>Returns</dt><dd>all new faces Generated from function <span class="tt"><a class="el" href="#afa77988039fdff110fb63e4e822c6167" title="splits given faces on groups separated by sharp edges (see MeshComponents.getAllComponentsMapBySharpE...">MR.patchMeshByGroups</a></span>. Parameter <span class="tt">angleThreshold</span> defaults to <span class="tt">0.5f</span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. </dd></dl>
 
 </div>
 </div>

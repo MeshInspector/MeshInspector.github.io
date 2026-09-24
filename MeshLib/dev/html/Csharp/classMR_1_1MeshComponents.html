@@ -233,6 +233,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad62c0fb68093309e3cbcb38829bebc8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components from components map ( <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> =&gt; <a class="el" href="structMR_1_1RegionId.html" title="Generated from class MR.RegionId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">RegionId</a> ) \detail if components number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap)  <br /></td></tr>
 <tr class="memitem:aa2bb6b3b50188dbce4a6b21881cd4a05" id="r_aa2bb6b3b50188dbce4a6b21881cd4a05"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Pair_MRFace2RegionMap_Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2bb6b3b50188dbce4a6b21881cd4a05">getAllComponentsMap</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
 <tr class="memdesc:aa2bb6b3b50188dbce4a6b21881cd4a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components of mesh part as  <br /></td></tr>
+<tr class="memitem:a45145f33e392fe5d50b167f4a76e8f56" id="r_a45145f33e392fe5d50b167f4a76e8f56"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Pair_MRFace2RegionMap_Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45145f33e392fe5d50b167f4a76e8f56">getAllComponentsMapBySharpEdges</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, float? angleThreshold=null)</td></tr>
+<tr class="memdesc:a45145f33e392fe5d50b167f4a76e8f56"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all components of mesh part separated by sharp edges with dihedral angle in [angleThreshold, PI-angleThreshold] (see findSharpEdges); nearly planar and nearly folded edges do not separate components, so overlapping coplanar triangles stay together  <br /></td></tr>
 <tr class="memitem:ad8ba6e9cb22b1949e04545283ba50722" id="r_ad8ba6e9cb22b1949e04545283ba50722"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshComponents_1_1ComponentsFaces.html">MR.MeshComponents.ComponentsFaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8ba6e9cb22b1949e04545283ba50722">getAllComponentsFaces</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
 <tr class="memdesc:ad8ba6e9cb22b1949e04545283ba50722"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components of mesh part as a list of faces per component; unlike getAllComponents, the memory is proportional to the number of faces in the part and not to the number of components Generated from function <span class="tt"><a class="el" href="#ad8ba6e9cb22b1949e04545283ba50722" title="gets all connected components of mesh part as a list of faces per component; unlike getAllComponents,...">MR.MeshComponents.getAllComponentsFaces</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">MR.MeshComponents.PerEdge</a></span>.  <br /></td></tr>
 <tr class="memitem:a80aecf45de57324d4641f0fa57b927f1" id="r_a80aecf45de57324d4641f0fa57b927f1"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshComponents_1_1ComponentsFaces.html">MR.MeshComponents.ComponentsFaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80aecf45de57324d4641f0fa57b927f1">getAllComponentsFaces</a> (<a class="el" href="classMR_1_1Const__Face2RegionMap.html">MR.Const_Face2RegionMap</a> componentsMap, int componentsCount, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> region)</td></tr>
@@ -674,6 +676,44 @@ Static Public Member Functions</h2></td></tr>
 <li>the mapping: <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> -&gt; Component ID in [0, 1, 2, ...)</li>
 <li>the total number of components Generated from function <span class="tt"><a class="el" href="#aa2bb6b3b50188dbce4a6b21881cd4a05" title="gets all connected components of mesh part as">MR.MeshComponents.getAllComponentsMap</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">MR.MeshComponents.PerEdge</a></span>. </li>
 </ol>
+
+</div>
+</div>
+<a id="a45145f33e392fe5d50b167f4a76e8f56" name="a45145f33e392fe5d50b167f4a76e8f56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45145f33e392fe5d50b167f4a76e8f56">&#9670;&#160;</a></span>getAllComponentsMapBySharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Pair_MRFace2RegionMap_Int MR.MeshComponents.getAllComponentsMapBySharpEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>angleThreshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>gets all components of mesh part separated by sharp edges with dihedral angle in [angleThreshold, PI-angleThreshold] (see findSharpEdges); nearly planar and nearly folded edges do not separate components, so overlapping coplanar triangles stay together </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angleThreshold</td><td>in (0, PI/2) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the mapping <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> -&gt; component id (meaningful only for the faces of mesh part) and the number of components Generated from function <span class="tt"><a class="el" href="#a45145f33e392fe5d50b167f4a76e8f56" title="gets all components of mesh part separated by sharp edges with dihedral angle in [angleThreshold,...">MR.MeshComponents.getAllComponentsMapBySharpEdges</a></span>. Parameter <span class="tt">angleThreshold</span> defaults to <span class="tt">0.5f</span>. </dd></dl>
 
 </div>
 </div>

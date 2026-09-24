@@ -149,6 +149,7 @@ $(function(){initNavTree('MRMeshPatch_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0a569a4ddc46dfec2d4197225f5e668a" id="r_a0a569a4ddc46dfec2d4197225f5e668a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a569a4ddc46dfec2d4197225f5e668a">MR_patchMesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *patchBS, const <a class="el" href="MRFillHoleNicely_8h.html#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *settings)</td></tr>
+<tr class="memitem:a5ada9dd0e63ae83e6ef0332523729107" id="r_a5ada9dd0e63ae83e6ef0332523729107"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ada9dd0e63ae83e6ef0332523729107">MR_patchMeshByGroups</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *faces, const float *angleThreshold, const <a class="el" href="MRFillHoleNicely_8h.html#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *settings)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a0a569a4ddc46dfec2d4197225f5e668a" name="a0a569a4ddc46dfec2d4197225f5e668a"></a>
@@ -181,6 +182,38 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a5ada9dd0e63ae83e6ef0332523729107" name="a5ada9dd0e63ae83e6ef0332523729107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ada9dd0e63ae83e6ef0332523729107">&#9670;&#160;</a></span>MR_patchMeshByGroups()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_patchMeshByGroups </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>faces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>angleThreshold</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRFillHoleNicely_8h.html#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>splits given faces on groups separated by sharp edges (see MeshComponents::getAllComponentsMapBySharpEdges), then removes each group and fills the appeared holes separately using patchMesh; if patch subdivision splits a face of a not yet patched group or of an earlier patch, the new half is added to that group or to the result </p><dl class="section return"><dt>Returns</dt><dd>all new faces Generated from function <span class="tt">MR::patchMeshByGroups</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">faces</span> can not be null. It is a single object. Parameter <span class="tt">angleThreshold</span> has a default argument: <span class="tt">0.5f</span>, pass a null pointer to use it. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>

@@ -2662,6 +2662,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.parsePolygon", "namespacemrmeshpy.html#a6b7a835fa14dad27c18d770f608a5a1f", null ],
     [ "mrmeshpy.partialOffsetMesh", "namespacemrmeshpy.html#af47b7cfa76a93015bab4b5bc92991f8e", null ],
     [ "mrmeshpy.patchMesh", "namespacemrmeshpy.html#aa38742913ff40b0a2fd57a2c116e7967", null ],
+    [ "mrmeshpy.patchMeshByGroups", "namespacemrmeshpy.html#ac30296b097833b31c2e0649d553d922b", null ],
     [ "mrmeshpy.planeMeshIntersect", "namespacemrmeshpy.html#af9d04fb2b96793e7836465aaecda26dc", null ],
     [ "mrmeshpy.planeSectionsToContours2f", "namespacemrmeshpy.html#a708163d2b34e9c30f835b470ccb7f27b", null ],
     [ "mrmeshpy.planeSectionToContour2f", "namespacemrmeshpy.html#aa6d6a55e247fe40ffc1405e658056061", null ],

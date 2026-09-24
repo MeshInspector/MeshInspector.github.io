@@ -5899,6 +5899,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:gae376220ccfe757dc78e7edd18501521e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make this assignable. A better idea would be to rewrite the class to not use references, but doing this instead preserves API compatibility.  <br /></td></tr>
 <tr class="memitem:ga8fbe26bcbe7891c7be47fb330920e3b4" id="r_ga8fbe26bcbe7891c7be47fb330920e3b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshRegion.html">MeshRegion</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8fbe26bcbe7891c7be47fb330920e3b4">MR::MeshRegion&lt; RegionTag &gt;::operator=</a> (const <a class="el" href="structMR_1_1MeshRegion.html">MeshRegion</a> &amp;<a class="el" href="#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) noexcept</td></tr>
 <tr class="memitem:ga8d6d34f227cd6fbaf2f220b903791809" id="r_ga8d6d34f227cd6fbaf2f220b903791809"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8d6d34f227cd6fbaf2f220b903791809">MR::patchMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const FaceBitSet &amp;patchBS, const <a class="el" href="structMR_1_1FillHoleNicelySettings.html">FillHoleNicelySettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga615f518e4fa04b0ff073fe2c780e4dda" id="r_ga615f518e4fa04b0ff073fe2c780e4dda"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga615f518e4fa04b0ff073fe2c780e4dda">MR::patchMeshByGroups</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const FaceBitSet &amp;faces, float angleThreshold=0.5f, const <a class="el" href="structMR_1_1FillHoleNicelySettings.html">FillHoleNicelySettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:gadca0381ca92c2a01ec82ddc1dbd7647a" id="r_gadca0381ca92c2a01ec82ddc1dbd7647a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadca0381ca92c2a01ec82ddc1dbd7647a">MR::replicateZ</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;m, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;target)</td></tr>
 <tr class="memdesc:gadca0381ca92c2a01ec82ddc1dbd7647a"><td class="mdescLeft">&#160;</td><td class="mdescRight">adjusts z-coordinates of (m) vertices to make adjusted (m) similar to (target)  <br /></td></tr>
 <tr class="memitem:ga834d4370af921a7bc3c36d95b47f25d5" id="r_ga834d4370af921a7bc3c36d95b47f25d5"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -144978,6 +144979,40 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ga615f518e4fa04b0ff073fe2c780e4dda" name="ga615f518e4fa04b0ff073fe2c780e4dda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga615f518e4fa04b0ff073fe2c780e4dda">&#9670;&#160;</a></span>patchMeshByGroups()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaceBitSet MR::patchMeshByGroups </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>faces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>angleThreshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.5f</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FillHoleNicelySettings.html">FillHoleNicelySettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshPatch_8h.html">MRMesh/MRMeshPatch.h</a>&gt;</code></p>
+<p>splits given faces on groups separated by sharp edges (see <a class="el" href="group__MeshComponentsGroup.html#ga412b70cb572bcbabfe070e9e1b33d345">MeshComponents::getAllComponentsMapBySharpEdges</a>), then removes each group and fills the appeared holes separately using <a class="el" href="#ga8d6d34f227cd6fbaf2f220b903791809">patchMesh</a>; if patch subdivision splits a face of a not yet patched group or of an earlier patch, the new half is added to that group or to the result </p><dl class="section return"><dt>Returns</dt><dd>all new faces </dd></dl>
 
 </div>
 </div>

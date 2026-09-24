@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1Const__DistanceMeasurementObject.html#a84f554fb3303edb31a6caae4b9bc08fc":[9,3,0,0,0,408,85],
 "classMR_1_1Const__DistanceMeasurementObject.html#a893f751bfcdd24e0da198170d74a1a86":[9,3,0,0,0,408,5],
 "classMR_1_1Const__DistanceMeasurementObject.html#a8b048928b81c5958f158d432f0406cd8":[9,3,0,0,0,408,76],
 "classMR_1_1Const__DistanceMeasurementObject.html#a8b7a12e002ff7a8384ef459bd704be26":[9,3,0,0,0,408,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1Const__EdgeColors.html#aafb1d085425a3fb38240630d66759a68":[9,3,0,0,0,417,24],
 "classMR_1_1Const__EdgeColors.html#ace0273cfa4b27703db045064f414a553":[9,3,0,0,0,417,5],
 "classMR_1_1Const__EdgeColors.html#ad60d7201bb75c8a55b503fd7802de01c":[9,3,0,0,0,417,12],
-"classMR_1_1Const__EdgeColors.html#ae482564ea422f7b60345eb25d4dbb2e6":[9,3,0,0,0,417,14],
-"classMR_1_1Const__EdgeColors.html#ae909cf7bf23406cbdee4a7a04a5f9b90":[9,3,0,0,0,417,11]
+"classMR_1_1Const__EdgeColors.html#ae482564ea422f7b60345eb25d4dbb2e6":[9,3,0,0,0,417,14]
 };

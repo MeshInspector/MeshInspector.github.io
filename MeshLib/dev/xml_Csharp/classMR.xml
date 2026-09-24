@@ -25995,6 +25995,42 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPatch.cs" line="10" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPatch.cs" bodystart="10" bodyend="13"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1afa77988039fdff110fb63e4e822c6167" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>static unsafe MR.FaceBitSet MR.patchMeshByGroups</definition>
+        <argsstring>(MR.Mesh mesh, MR.Const_FaceBitSet faces, float? angleThreshold=null, MR.Const_FillHoleNicelySettings? settings=null)</argsstring>
+        <name>patchMeshByGroups</name>
+        <qualifiedname>MR.patchMeshByGroups</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
+          <declname>faces</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>angleThreshold</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FillHoleNicelySettings" kindref="compound">MR.Const_FillHoleNicelySettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>splits given faces on groups separated by sharp edges (see <ref refid="classMR_1_1MeshComponents_1a45145f33e392fe5d50b167f4a76e8f56" kindref="member">MeshComponents.getAllComponentsMapBySharpEdges</ref>), then removes each group and fills the appeared holes separately using <ref refid="classMR_1ad577295ef33cf17ee466e4f4b3569ff2" kindref="member">patchMesh</ref>; if patch subdivision splits a face of a not yet patched group or of an earlier patch, the new half is added to that group or to the result </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>all new faces Generated from function <computeroutput><ref refid="classMR_1afa77988039fdff110fb63e4e822c6167" kindref="member">MR.patchMeshByGroups</ref></computeroutput>. Parameter <computeroutput>angleThreshold</computeroutput> defaults to <computeroutput>0.5f</computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPatch.cs" line="24" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPatch.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a1b678b27b9acdd2acb802996f2fbd27b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshProjectionTransforms" kindref="compound">MR.MeshProjectionTransforms</ref></type>
         <definition>static unsafe MR.MeshProjectionTransforms MR.createProjectionTransforms</definition>
@@ -72809,7 +72845,37 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPatch.cs" line="18" column="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPatch.cs" line="33" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a8976606257a37b79f6520229fd29d52c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FaceBitSet._Underlying *</type>
+        <definition>static unsafe MR.FaceBitSet._Underlying * MR.__MR_patchMeshByGroups</definition>
+        <argsstring>(MR.Mesh._Underlying *mesh, MR.Const_FaceBitSet._Underlying *faces, float *angleThreshold, MR.Const_FillHoleNicelySettings._Underlying *settings)</argsstring>
+        <name>__MR_patchMeshByGroups</name>
+        <qualifiedname>MR.__MR_patchMeshByGroups</qualifiedname>
+        <param>
+          <type>MR.Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet._Underlying *</type>
+          <declname>faces</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>angleThreshold</declname>
+        </param>
+        <param>
+          <type>MR.Const_FillHoleNicelySettings._Underlying *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPatch.cs" line="36" column="50"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad0a1856a673f4a75b879d71b151112a7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MeshProjectionTransforms._Underlying *</type>
@@ -99734,6 +99800,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ab10714ac2275a40c14077d62d1a2c950" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_parsePolygon</name></member>
       <member refid="classMR_1aa867ef8aba2e65bc98da9dd9fce612bd" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_partialOffsetMesh</name></member>
       <member refid="classMR_1abe58c0d1725da96dc74d9af133ee3cdc" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_patchMesh</name></member>
+      <member refid="classMR_1a8976606257a37b79f6520229fd29d52c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_patchMeshByGroups</name></member>
       <member refid="classMR_1ae62f73d8ef4e96102b865956b1841f7e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_planeMeshIntersect</name></member>
       <member refid="classMR_1ae78f3740eb6008a857d160e3bb615d19" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_planeSectionsToContours2f</name></member>
       <member refid="classMR_1a18e04149f5cf7e504d3dbb1dc0a9381a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_planeSectionToContour2f</name></member>
@@ -101603,6 +101670,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a590687549cc1c103e16b3636be3e510c" prot="public" virt="non-virtual"><scope>MR</scope><name>parsePolygon</name></member>
       <member refid="classMR_1aa27187b90e559803040ec098428714cb" prot="public" virt="non-virtual"><scope>MR</scope><name>partialOffsetMesh</name></member>
       <member refid="classMR_1ad577295ef33cf17ee466e4f4b3569ff2" prot="public" virt="non-virtual"><scope>MR</scope><name>patchMesh</name></member>
+      <member refid="classMR_1afa77988039fdff110fb63e4e822c6167" prot="public" virt="non-virtual"><scope>MR</scope><name>patchMeshByGroups</name></member>
       <member refid="classMR_1af7e53b952434f8c498abce670fa14aae" prot="public" virt="non-virtual"><scope>MR</scope><name>PathError</name></member>
       <member refid="classMR_1a743e44071d03602617e933180226f550" prot="public" virt="non-virtual"><scope>MR</scope><name>PdfBuildinFont</name></member>
       <member refid="classMR_1a36f1edc43c5407065858904e1ca05008" prot="public" virt="non-virtual"><scope>MR</scope><name>PixelSizeUnit</name></member>

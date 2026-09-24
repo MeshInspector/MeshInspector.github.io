@@ -222,7 +222,9 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="group__GeneralGroup_1ga8d6d34f227cd6fbaf2f220b903791809" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga8d6d34f227cd6fbaf2f220b903791809" kindref="member">patchMesh</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet&amp;<sp/>patchBS,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleNicelySettings" kindref="compound">FillHoleNicelySettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga615f518e4fa04b0ff073fe2c780e4dda" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga615f518e4fa04b0ff073fe2c780e4dda" kindref="member">patchMeshByGroups</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet&amp;<sp/>faces,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angleThreshold<sp/>=<sp/>0.5f,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillHoleNicelySettings" kindref="compound">FillHoleNicelySettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRMeshPatch.h"/>
   </compounddef>

@@ -116725,6 +116725,41 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRMeshPatch.h" line="14" column="13" declfile="MRMesh/MRMeshPatch.h" declline="14" declcolumn="13"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga615f518e4fa04b0ff073fe2c780e4dda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::patchMeshByGroups</definition>
+        <argsstring>(Mesh &amp;mesh, const FaceBitSet &amp;faces, float angleThreshold=0.5f, const FillHoleNicelySettings &amp;settings={})</argsstring>
+        <name>patchMeshByGroups</name>
+        <qualifiedname>MR::patchMeshByGroups</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet &amp;</type>
+          <declname>faces</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleThreshold</declname>
+          <defval>0.5f</defval>
+        </param>
+        <param>
+          <type>const FillHoleNicelySettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>splits given faces on groups separated by sharp edges (see <ref refid="group__MeshComponentsGroup_1ga412b70cb572bcbabfe070e9e1b33d345" kindref="member">MeshComponents::getAllComponentsMapBySharpEdges</ref>), then removes each group and fills the appeared holes separately using <ref refid="group__GeneralGroup_1ga8d6d34f227cd6fbaf2f220b903791809" kindref="member">patchMesh</ref>; if patch subdivision splits a face of a not yet patched group or of an earlier patch, the new half is added to that group or to the result <simplesect kind="return"><para>all new faces </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshPatch.h" line="20" column="13" declfile="MRMesh/MRMeshPatch.h" declline="20" declcolumn="13"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadca0381ca92c2a01ec82ddc1dbd7647a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::replicateZ</definition>

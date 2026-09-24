@@ -74,6 +74,7 @@ var MRMeshComponents_8h =
     [ "MR_MeshComponents_getAllComponentsFaces_MR_Face2RegionMap", "MRMeshComponents_8h.html#a40809f5caa19565e71b354c744ff5f23", null ],
     [ "MR_MeshComponents_getAllComponentsFaces_MR_MeshPart", "MRMeshComponents_8h.html#a3b9865e39c12a032dbe73c763947c197", null ],
     [ "MR_MeshComponents_getAllComponentsMap", "MRMeshComponents_8h.html#adb8b5fa041e757329e62fdc2fa1f251b", null ],
+    [ "MR_MeshComponents_getAllComponentsMapBySharpEdges", "MRMeshComponents_8h.html#aee9cf84ab741703f9c0f1a2e81695649", null ],
     [ "MR_MeshComponents_getAllComponentsUndirectedEdges", "MRMeshComponents_8h.html#a4208abbfdc6a1146677bac251f64df01", null ],
     [ "MR_MeshComponents_getAllComponentsVerts", "MRMeshComponents_8h.html#add829ce020c923b9e70b619aba17a671", null ],
     [ "MR_MeshComponents_getAllComponentsVertsSeparatedByPath", "MRMeshComponents_8h.html#a1c08aa5aad0f170567631dc7ffda8633", null ],

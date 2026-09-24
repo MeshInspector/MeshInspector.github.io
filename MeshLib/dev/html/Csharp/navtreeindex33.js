@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1Const__BaseUnionFind__MRVertId.html#a51ca6d63e6735f9ff28ab817097e3f61":[9,3,0,0,0,259,7],
 "classMR_1_1Const__BaseUnionFind__MRVertId.html#a5707156394264f2a6829c04287a9ac2a":[9,3,0,0,0,259,6],
 "classMR_1_1Const__BaseUnionFind__MRVertId.html#a6f124228c31fe6772f3ff61ea3a0dddd":[9,3,0,0,0,259,0],
 "classMR_1_1Const__BaseUnionFind__MRVertId.html#a722a86de41aec61e91f0660f3505bc85":[9,3,0,0,0,259,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1Const__BooleanResultMapper_1_1Maps.html#aebb40483fc81a430bd761d12fa599cc9":[9,3,0,0,0,283,2,7],
 "classMR_1_1Const__BooleanResultMapper_1_1__ByValue__Maps.html":[9,3,0,0,0,283,0],
 "classMR_1_1Const__BooleanResultPoints.html":[9,3,0,0,0,284],
-"classMR_1_1Const__BooleanResultPoints.html#a0855d142d7bed318bfb41c87806b3c2c":[9,3,0,0,0,284,9],
-"classMR_1_1Const__BooleanResultPoints.html#a13725e2635cb322c2f950ddc810f2236":[9,3,0,0,0,284,8]
+"classMR_1_1Const__BooleanResultPoints.html#a0855d142d7bed318bfb41c87806b3c2c":[9,3,0,0,0,284,9]
 };

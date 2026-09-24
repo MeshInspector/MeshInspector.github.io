@@ -14334,6 +14334,7 @@
     <member refid="MRMeshComponents_8h_1ad4646d1fbee60ad5fe210955c38590be" kind="function"><name>MR_MeshComponents_getAllComponents_4_MR_MeshPart</name></member>
     <member refid="MRMeshComponents_8h_1a91410f507f4bef76a295a47caff807e9" kind="function"><name>MR_MeshComponents_getAllComponents_4_MR_Face2RegionMap</name></member>
     <member refid="MRMeshComponents_8h_1adb8b5fa041e757329e62fdc2fa1f251b" kind="function"><name>MR_MeshComponents_getAllComponentsMap</name></member>
+    <member refid="MRMeshComponents_8h_1aee9cf84ab741703f9c0f1a2e81695649" kind="function"><name>MR_MeshComponents_getAllComponentsMapBySharpEdges</name></member>
     <member refid="MRMeshComponents_8h_1ae27d324a3b33a2a90b2fbf782b064e80" kind="function"><name>MR_MeshComponents_ComponentsFaces_Get_faces</name></member>
     <member refid="MRMeshComponents_8h_1ae1f2b81f6147f7e525ce20fd10199668" kind="function"><name>MR_MeshComponents_ComponentsFaces_Set_faces</name></member>
     <member refid="MRMeshComponents_8h_1abedfd54db0ade353be8c3f476dd845a9" kind="function"><name>MR_MeshComponents_ComponentsFaces_GetMutable_faces</name></member>
@@ -15670,6 +15671,7 @@
   </compound>
   <compound refid="MRMeshPatch_8h" kind="file"><name>MRMeshPatch.h</name>
     <member refid="MRMeshPatch_8h_1a0a569a4ddc46dfec2d4197225f5e668a" kind="function"><name>MR_patchMesh</name></member>
+    <member refid="MRMeshPatch_8h_1a5ada9dd0e63ae83e6ef0332523729107" kind="function"><name>MR_patchMeshByGroups</name></member>
   </compound>
   <compound refid="MRMeshProject_8h" kind="file"><name>MRMeshProject.h</name>
     <member refid="MRMeshProject_8h_1ae3acf0a99d199194bbe73c22b10e0c91" kind="typedef"><name>MR_std_function_MR_Processing_from_MR_FaceId_MR_Ball3f_ref</name></member>

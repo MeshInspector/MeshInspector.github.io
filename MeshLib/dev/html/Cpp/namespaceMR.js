@@ -3206,6 +3206,7 @@ var namespaceMR =
     [ "parseTextCoordinate", "group__GeneralGroup.html#gab70ae04aee26ad876f1080bdea061d86", null ],
     [ "partialOffsetMesh", "group__GeneralGroup.html#ga791659f1e41c2486076a24ae429d5c16", null ],
     [ "patchMesh", "group__GeneralGroup.html#ga8d6d34f227cd6fbaf2f220b903791809", null ],
+    [ "patchMeshByGroups", "group__GeneralGroup.html#ga615f518e4fa04b0ff073fe2c780e4dda", null ],
     [ "pathFromUtf8", "group__BasicGroup.html#ga274eb4278759027605fb20465ec0a769", null ],
     [ "pathFromUtf8", "group__BasicGroup.html#gafb82b59416abea95f150286ba0695dd8", null ],
     [ "pickedPointToVector3", "group__GeneralGroup.html#gabbd442442a2de3378064efed4ae28f84", null ],

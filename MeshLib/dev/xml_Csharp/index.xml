@@ -50072,6 +50072,7 @@
     <member refid="classMR_1_1MeshComponents_1aff1256cad28929e76abb10573de91d0b" kind="function"><name>getAllComponents</name></member>
     <member refid="classMR_1_1MeshComponents_1ad62c0fb68093309e3cbcb38829bebc8e" kind="function"><name>getAllComponents</name></member>
     <member refid="classMR_1_1MeshComponents_1aa2bb6b3b50188dbce4a6b21881cd4a05" kind="function"><name>getAllComponentsMap</name></member>
+    <member refid="classMR_1_1MeshComponents_1a45145f33e392fe5d50b167f4a76e8f56" kind="function"><name>getAllComponentsMapBySharpEdges</name></member>
     <member refid="classMR_1_1MeshComponents_1ad8ba6e9cb22b1949e04545283ba50722" kind="function"><name>getAllComponentsFaces</name></member>
     <member refid="classMR_1_1MeshComponents_1a80aecf45de57324d4641f0fa57b927f1" kind="function"><name>getAllComponentsFaces</name></member>
     <member refid="classMR_1_1MeshComponents_1aafdabcaa815838f1e6dff9fa434dfda6" kind="function"><name>getFacePairRegionMap</name></member>
@@ -50104,6 +50105,7 @@
     <member refid="classMR_1_1MeshComponents_1a75575f9e68c9dd0ae2a0c3c3f705c062" kind="function"><name>__MR_MeshComponents_getAllComponentsFaces_MR_Face2RegionMap</name></member>
     <member refid="classMR_1_1MeshComponents_1af417ac304a31ab4df464e689e1e3350b" kind="function"><name>__MR_MeshComponents_getAllComponentsFaces_MR_MeshPart</name></member>
     <member refid="classMR_1_1MeshComponents_1a4c1d7fb8d101834c50071fc07f49b2f9" kind="function"><name>__MR_MeshComponents_getAllComponentsMap</name></member>
+    <member refid="classMR_1_1MeshComponents_1a3c8a3a6fb4bf78c8b177407aed2c8266" kind="function"><name>__MR_MeshComponents_getAllComponentsMapBySharpEdges</name></member>
     <member refid="classMR_1_1MeshComponents_1a434c809b0c33828c25f97378a6c6a61a" kind="function"><name>__MR_MeshComponents_getAllComponentsUndirectedEdges</name></member>
     <member refid="classMR_1_1MeshComponents_1a8cdb70ff9140dc980f7578a1f668c8a6" kind="function"><name>__MR_MeshComponents_getAllComponentsVerts</name></member>
     <member refid="classMR_1_1MeshComponents_1a42e7cfc0d8550f300c2a506294ab510f" kind="function"><name>__MR_MeshComponents_getAllComponentsVertsSeparatedByPath</name></member>
@@ -52244,6 +52246,7 @@
     <member refid="classMR_1a36cd029a12a94931d441bc99973800ec" kind="function"><name>projectWorldPointOntoObjectsRecursive</name></member>
     <member refid="classMR_1a03492207be6dbd76f7eab7d2a2c4a08f" kind="function"><name>findOverhangs</name></member>
     <member refid="classMR_1ad577295ef33cf17ee466e4f4b3569ff2" kind="function"><name>patchMesh</name></member>
+    <member refid="classMR_1afa77988039fdff110fb63e4e822c6167" kind="function"><name>patchMeshByGroups</name></member>
     <member refid="classMR_1a1b678b27b9acdd2acb802996f2fbd27b" kind="function"><name>createProjectionTransforms</name></member>
     <member refid="classMR_1a0da4da5dd5ee679042fad3a7c19db384" kind="function"><name>findProjection</name></member>
     <member refid="classMR_1a0c52533d203e94bcde496831a98c5988" kind="function"><name>findProjectionSubtree</name></member>
@@ -54070,6 +54073,7 @@
     <member refid="classMR_1a16debbc95c0f260d8cfddc5663818aef" kind="function"><name>__MR_projectWorldPointOntoObjectsRecursive</name></member>
     <member refid="classMR_1ab5311ce4ab6429f61c38ca95b1c6d1fb" kind="function"><name>__MR_findOverhangs</name></member>
     <member refid="classMR_1abe58c0d1725da96dc74d9af133ee3cdc" kind="function"><name>__MR_patchMesh</name></member>
+    <member refid="classMR_1a8976606257a37b79f6520229fd29d52c" kind="function"><name>__MR_patchMeshByGroups</name></member>
     <member refid="classMR_1ad0a1856a673f4a75b879d71b151112a7" kind="function"><name>__MR_createProjectionTransforms</name></member>
     <member refid="classMR_1abf32220a18e95cffc5cd73cb0234851b" kind="function"><name>__MR_findBoxedTrisInBall</name></member>
     <member refid="classMR_1a01750572125091cb9bed578203848459" kind="function"><name>__MR_findProjection</name></member>

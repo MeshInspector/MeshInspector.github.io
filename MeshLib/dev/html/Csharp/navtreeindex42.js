@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1Const__DentalId.html#a861dcf6466dfff40c48da89f0417a5ef":[9,3,0,0,0,396,2],
 "classMR_1_1Const__DentalId.html#aa2654226b684c1b86649b724017c701f":[9,3,0,0,0,396,3],
 "classMR_1_1Const__DentalId.html#ace85e85ada2e87fab234bc005d057fde":[9,3,0,0,0,396,1],
 "classMR_1_1Const__DetectTunnelSettings.html":[9,3,0,0,0,397],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1Const__DistanceMeasurementObject.html#a777321c314479f3416c7ab0fb96c8ed8":[9,3,0,0,0,408,31],
 "classMR_1_1Const__DistanceMeasurementObject.html#a79ff28be8cdb90ed55ec0038cb987477":[9,3,0,0,0,408,59],
 "classMR_1_1Const__DistanceMeasurementObject.html#a7edf359d0164972133e9e738b2aba07d":[9,3,0,0,0,408,1],
-"classMR_1_1Const__DistanceMeasurementObject.html#a84b4845df6a2280c825365ebb7fa0dfe":[9,3,0,0,0,408,29],
-"classMR_1_1Const__DistanceMeasurementObject.html#a84f554fb3303edb31a6caae4b9bc08fc":[9,3,0,0,0,408,85]
+"classMR_1_1Const__DistanceMeasurementObject.html#a84b4845df6a2280c825365ebb7fa0dfe":[9,3,0,0,0,408,29]
 };
