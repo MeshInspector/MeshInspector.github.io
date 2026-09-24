@@ -138,6 +138,7 @@ $(function(){initNavTree('structMR_1_1MeshComponents_1_1ComponentsFaces.html',''
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1MeshComponents_1_1ComponentsFaces-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::MeshComponents::ComponentsFaces Struct Reference<div class="ingroups"><a class="el" href="group__ComponentsGroup.html">Components</a> &raquo; <a class="el" href="group__MeshComponentsGroup.html">MeshComponents</a></div></div></div>
@@ -149,15 +150,44 @@ $(function(){initNavTree('structMR_1_1MeshComponents_1_1ComponentsFaces.html',''
 
 <p><code>#include &lt;<a class="el" href="MRMeshComponents_8h_source.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a2b36ec65ea208c6bcb8335207d59ff97" id="r_a2b36ec65ea208c6bcb8335207d59ff97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b36ec65ea208c6bcb8335207d59ff97">setComponentBits</a> (RegionId compId, FaceBitSet &amp;bs) const</td></tr>
+<tr class="memdesc:a2b36ec65ea208c6bcb8335207d59ff97"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets in given bit set the bits of all faces of component compId; bs must be large enough to contain them  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a6cad6fd63d8202e80b707dcf96fd9968" id="r_a6cad6fd63d8202e80b707dcf96fd9968"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cad6fd63d8202e80b707dcf96fd9968">faces</a></td></tr>
-<tr class="memitem:a781485ec875468538e5e919c3728df6e" id="r_a781485ec875468538e5e919c3728df6e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a781485ec875468538e5e919c3728df6e">offsets</a></td></tr>
-<tr class="memdesc:a781485ec875468538e5e919c3728df6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of components + 1 elements, offsets.back() == faces.size()  <br /></td></tr>
+<tr class="memitem:ae9982b713fe80c3ce1920c5860b61794" id="r_ae9982b713fe80c3ce1920c5860b61794"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, RegionId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9982b713fe80c3ce1920c5860b61794">offsets</a></td></tr>
+<tr class="memdesc:ae9982b713fe80c3ce1920c5860b61794"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of components + 1 elements, offsets.back() == faces.size()  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>faces of all components in one flat array </p>
-</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a2b36ec65ea208c6bcb8335207d59ff97" name="a2b36ec65ea208c6bcb8335207d59ff97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b36ec65ea208c6bcb8335207d59ff97">&#9670;&#160;</a></span>setComponentBits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MeshComponents::ComponentsFaces::setComponentBits </td>
+          <td>(</td>
+          <td class="paramtype">RegionId</td>          <td class="paramname"><span class="paramname"><em>compId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets in given bit set the bits of all faces of component compId; bs must be large enough to contain them </p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a6cad6fd63d8202e80b707dcf96fd9968" name="a6cad6fd63d8202e80b707dcf96fd9968"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6cad6fd63d8202e80b707dcf96fd9968">&#9670;&#160;</a></span>faces</h2>
 
@@ -173,14 +203,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a781485ec875468538e5e919c3728df6e" name="a781485ec875468538e5e919c3728df6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a781485ec875468538e5e919c3728df6e">&#9670;&#160;</a></span>offsets</h2>
+<a id="ae9982b713fe80c3ce1920c5860b61794" name="ae9982b713fe80c3ce1920c5860b61794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9982b713fe80c3ce1920c5860b61794">&#9670;&#160;</a></span>offsets</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;int&gt; MR::MeshComponents::ComponentsFaces::offsets</td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;int, RegionId&gt; MR::MeshComponents::ComponentsFaces::offsets</td>
         </tr>
       </table>
 </div><div class="memdoc">

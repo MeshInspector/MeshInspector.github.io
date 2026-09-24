@@ -1412,7 +1412,7 @@ var searchData=
   ['offsetmesh_22',['offsetMesh',['../group__GeneralGroup.html#ga290865e63260a699f02e17210427d220',1,'MR::ToolPathParams']]],
   ['offsetmode_23',['offsetMode',['../group__GeneralGroup.html#ga0cc5cd91097f6d671c3a9ad73a09ac14',1,'MR::RebuildMeshSettings']]],
   ['offsetparameters_24',['offsetParameters',['../structMR_1_1ContoursDistanceMapOptions.html#a5015f92ab6db453e909083c2c9486054',1,'MR::ContoursDistanceMapOptions']]],
-  ['offsets_25',['offsets',['../structMR_1_1MeshComponents_1_1ComponentsFaces.html#a781485ec875468538e5e919c3728df6e',1,'MR::MeshComponents::ComponentsFaces']]],
+  ['offsets_25',['offsets',['../structMR_1_1MeshComponents_1_1ComponentsFaces.html#ae9982b713fe80c3ce1920c5860b61794',1,'MR::MeshComponents::ComponentsFaces']]],
   ['offsetvoxels_26',['offsetVoxels',['../group__GeneralGroup.html#gadc6a0a341b57e23c8d707441794d45f3',1,'MR::MeshVoxelsConverter']]],
   ['ok_27',['ok',['../structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e',1,'MR::UI::RectAllocator::FindFreeRectResult']]],
   ['old2newedges_28',['old2newEdges',['../structMR_1_1BooleanResultMapper_1_1Maps.html#a70a6c9015f66d50b0889a5cfbdc6b9a9',1,'MR::BooleanResultMapper::Maps']]],

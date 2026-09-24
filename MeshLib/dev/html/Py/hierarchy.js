@@ -1487,6 +1487,7 @@ var hierarchy =
     [ "mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag", "classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag.html", null ],
     [ "mrmeshpy.Vector_Id_ICPElemtTag_Id_ICPElemtTag", "classmrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag.html", null ],
     [ "mrmeshpy.Vector_int_FaceId", "classmrmeshpy_1_1Vector__int__FaceId.html", null ],
+    [ "mrmeshpy.Vector_int_RegionId", "classmrmeshpy_1_1Vector__int__RegionId.html", null ],
     [ "mrmeshpy.Vector_int_UndirectedEdgeId", "classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html", null ],
     [ "mrmeshpy.Vector_int_VertId", "classmrmeshpy_1_1Vector__int__VertId.html", null ],
     [ "mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html", null ],

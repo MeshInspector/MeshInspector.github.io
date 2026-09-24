@@ -99,6 +99,8 @@ var MRVector_8cs =
     [ "MR.Vector_Int_MRVertId", "classMR_1_1Vector__Int__MRVertId.html", "classMR_1_1Vector__Int__MRVertId" ],
     [ "MR.Const_Vector_MRFanRecord_MRVertId", "classMR_1_1Const__Vector__MRFanRecord__MRVertId.html", "classMR_1_1Const__Vector__MRFanRecord__MRVertId" ],
     [ "MR.Vector_MRFanRecord_MRVertId", "classMR_1_1Vector__MRFanRecord__MRVertId.html", "classMR_1_1Vector__MRFanRecord__MRVertId" ],
+    [ "MR.Const_Vector_Int_MRRegionId", "classMR_1_1Const__Vector__Int__MRRegionId.html", "classMR_1_1Const__Vector__Int__MRRegionId" ],
+    [ "MR.Vector_Int_MRRegionId", "classMR_1_1Vector__Int__MRRegionId.html", "classMR_1_1Vector__Int__MRRegionId" ],
     [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", "classMR_1_1Const__Vector__Double__MRRegionId" ],
     [ "MR.Vector_Double_MRRegionId", "classMR_1_1Vector__Double__MRRegionId.html", "classMR_1_1Vector__Double__MRRegionId" ],
     [ "MR.Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId" ],

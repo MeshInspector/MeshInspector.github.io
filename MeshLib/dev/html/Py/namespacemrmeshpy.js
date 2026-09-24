@@ -1213,6 +1213,7 @@ var namespacemrmeshpy =
     [ "Vector_ICPGroupPairs_Id_ICPElemtTag", "classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag.html", "classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag" ],
     [ "Vector_Id_ICPElemtTag_Id_ICPElemtTag", "classmrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag.html", "classmrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag" ],
     [ "Vector_int_FaceId", "classmrmeshpy_1_1Vector__int__FaceId.html", "classmrmeshpy_1_1Vector__int__FaceId" ],
+    [ "Vector_int_RegionId", "classmrmeshpy_1_1Vector__int__RegionId.html", "classmrmeshpy_1_1Vector__int__RegionId" ],
     [ "Vector_int_UndirectedEdgeId", "classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html", "classmrmeshpy_1_1Vector__int__UndirectedEdgeId" ],
     [ "Vector_int_VertId", "classmrmeshpy_1_1Vector__int__VertId.html", "classmrmeshpy_1_1Vector__int__VertId" ],
     [ "Vector_MeshBuilder_VertSpan_FaceId", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId" ],

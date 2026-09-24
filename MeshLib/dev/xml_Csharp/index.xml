@@ -5881,20 +5881,20 @@
   </compound>
   <compound refid="classMR_1_1MeshComponents_1_1ComponentsFaces" kind="class"><name>MR::MeshComponents::ComponentsFaces</name>
     <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a1ca440adb5a54335c550c39db431f343" kind="property"><name>faces</name></member>
-    <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a81a1612ba8a3a5cf7130c499fb86b307" kind="property"><name>offsets</name></member>
+    <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1ad10b8c7a941ace32127b355e5931d911" kind="property"><name>offsets</name></member>
     <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a4bd29226d4febfe75b1250462679c16f" kind="function"><name>ComponentsFaces</name></member>
     <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a5e5d0a6b1a16674b26a9c3ceaf9660ff" kind="function"><name>ComponentsFaces</name></member>
-    <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1ae9e86d51a3b1c5337ebd63f0baf9648a" kind="function"><name>ComponentsFaces</name></member>
+    <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a14293657b902cabe287e5cccde3f758d" kind="function"><name>ComponentsFaces</name></member>
     <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a713ba4dde66dfbff89a7df3ccba81c64" kind="function"><name>ComponentsFaces</name></member>
     <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a4769b96a566ed477abecaff72d988f08" kind="function"><name>ComponentsFaces</name></member>
     <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a635e9263bd4b0cdf335895cda5d9534d" kind="function"><name>ComponentsFaces</name></member>
     <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1ad65202fdaefdaae9ad437699ce44f51b" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a9d0a0cdf0e7747a13760f510e7706fdd" kind="function"><name>__MR_MeshComponents_ComponentsFaces_AssignFromAnother</name></member>
-    <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1ae868a628d913c7d554002581a9444e3f" kind="function"><name>__MR_MeshComponents_ComponentsFaces_ConstructFrom</name></member>
+    <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a34ec5aba9014448e0bb52341b738e6e5" kind="function"><name>__MR_MeshComponents_ComponentsFaces_ConstructFrom</name></member>
     <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a65bbaa157fdfa53af21b87303ef3b869" kind="function"><name>__MR_MeshComponents_ComponentsFaces_ConstructFromAnother</name></member>
     <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a3e7f242c07d3c1a57a6832a5be2ffed7" kind="function"><name>__MR_MeshComponents_ComponentsFaces_DefaultConstruct</name></member>
     <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1acfe3d662f880ca09b9651c45b1ccb6b0" kind="function"><name>__MR_MeshComponents_ComponentsFaces_GetMutable_faces</name></member>
-    <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1a78f1ce99ce1287aebc692b49519f256a" kind="function"><name>__MR_MeshComponents_ComponentsFaces_GetMutable_offsets</name></member>
+    <member refid="classMR_1_1MeshComponents_1_1ComponentsFaces_1adf55c9e5c19b7e5a09963bd81080fa6c" kind="function"><name>__MR_MeshComponents_ComponentsFaces_GetMutable_offsets</name></member>
   </compound>
   <compound refid="classMR_1_1CompressZipSettings" kind="class"><name>MR::CompressZipSettings</name>
     <member refid="classMR_1_1CompressZipSettings_1abe3840e1157574bdb901380c5eec2aac" kind="property"><name>excludeFiles</name></member>
@@ -11139,22 +11139,24 @@
   </compound>
   <compound refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces" kind="class"><name>MR::MeshComponents::Const_ComponentsFaces</name>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a72478dc892b5f0d6c12a2c0870cbae98" kind="property"><name>faces</name></member>
-    <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a4607a1da9d7186e15bda4f77bf84bd44" kind="property"><name>offsets</name></member>
+    <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1aae8c63b8afaa68daf1e16ff8c943210e" kind="property"><name>offsets</name></member>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a89942671df626ed83598a8b034ef2880" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a26bc7af7f569cf23d7c1df02da3705bd" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1adccc21d0a097f8aa294156375effba5e" kind="function"><name>Const_ComponentsFaces</name></member>
-    <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1abe16ec2bc7d1607c1feb6749efe92e8c" kind="function"><name>Const_ComponentsFaces</name></member>
+    <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a298a518b7d9237af40e32e962d6d3d81" kind="function"><name>Const_ComponentsFaces</name></member>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1ada38ff0827eeebfeed179ee8af6a73a0" kind="function"><name>Const_ComponentsFaces</name></member>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a491452405716002bdb3d1db582ce195b" kind="function"><name>Const_ComponentsFaces</name></member>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a16e8691c0bde03eae54cd72023a624b0" kind="function"><name>Const_ComponentsFaces</name></member>
+    <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1adef2ac9a3db68f8a7a885af2321a6306" kind="function"><name>setComponentBits</name></member>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1ad21dc67fef79fe3a133db4401a22b058" kind="function"><name>~Const_ComponentsFaces</name></member>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1ade2b90de9e4d4cf83e4691ccefdb6c32" kind="function"><name>Const_ComponentsFaces</name></member>
-    <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1afbdf0ea66ebeaf99fbe81850645c3dc7" kind="function"><name>__MR_MeshComponents_ComponentsFaces_ConstructFrom</name></member>
+    <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1ae515fd8093d0c9bdbd14b5a907dd7398" kind="function"><name>__MR_MeshComponents_ComponentsFaces_ConstructFrom</name></member>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a9e742fd72fc89b8e6737121a492cfa1a" kind="function"><name>__MR_MeshComponents_ComponentsFaces_ConstructFromAnother</name></member>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a34eefd615fc648d2643489ff99de62a6" kind="function"><name>__MR_MeshComponents_ComponentsFaces_DefaultConstruct</name></member>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a76799822c8f8b48c0ea5703f3153d0c6" kind="function"><name>__MR_MeshComponents_ComponentsFaces_Destroy</name></member>
     <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a547625d0df1a708c9021ec49e6ff94d7" kind="function"><name>__MR_MeshComponents_ComponentsFaces_Get_faces</name></member>
-    <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a5b3ee0be0b33af07651fd6637a066ed9" kind="function"><name>__MR_MeshComponents_ComponentsFaces_Get_offsets</name></member>
+    <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a9cbdafc4c2b639904766dadf87c0de80" kind="function"><name>__MR_MeshComponents_ComponentsFaces_Get_offsets</name></member>
+    <member refid="classMR_1_1MeshComponents_1_1Const__ComponentsFaces_1a63f9298df99b54b4236e266b8f3049ab" kind="function"><name>__MR_MeshComponents_ComponentsFaces_setComponentBits</name></member>
   </compound>
   <compound refid="classMR_1_1Const__CompressZipSettings" kind="class"><name>MR::Const_CompressZipSettings</name>
     <member refid="classMR_1_1Const__CompressZipSettings_1a3cb334057ea4aaad60d9ea1e13f3dfe5" kind="property"><name>excludeFiles</name></member>
@@ -35168,6 +35170,57 @@
     <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a01c45a42a8051b5a2571a2b84a20e926" kind="function"><name>__MR_Vector_int_MR_FaceId_size</name></member>
     <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1ac59afc40ac6bf4a57856ab96bf57598d" kind="function"><name>__MR_equal_MR_Vector_int_MR_FaceId</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__Vector__Int__MRRegionId" kind="class"><name>MR::Const_Vector_Int_MRRegionId</name>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a65bb603068e202ad17f9016e9d1ce55c" kind="property"><name>vec</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1aad5463a72286780dd3eb80f45dd13d6f" kind="property"><name>this[MR.RegionId i]</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a570c388e128128c6bb4207372d6d4ae4" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1aa6ce787e7d41fae7ddfe5fb71c1bfd45" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a86be2b2601c1cffafd019e747523804e" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1ad106449578486368bfdf62eb693471fb" kind="function"><name>Const_Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1acbef3a3ebcd09cb9b2a571e652c4b366" kind="function"><name>Const_Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1ab15ad4eb11c53152bb179ff1dbf9cdd7" kind="function"><name>Const_Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a68da4973a25a3133fc4b5eeb246798d0" kind="function"><name>Const_Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1ad7ca408157ff2fc364eed08a9aba9ab7" kind="function"><name>Const_Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1ad8983f0a6e9be16c8c18f8135954ec63" kind="function"><name>Const_Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a663675e9442666458badf515a0d2fcb3" kind="function"><name>Const_Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1ae69b4a259d2a2a085b56a40251625b88" kind="function"><name>empty</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a8cb24fdd95c21d9acbe226706b4d97c4" kind="function"><name>size</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a360deb5bdde223b90741b1c32e0cc05f" kind="function"><name>capacity</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1af6e52a29d4d70b8c82db4cdead1af035" kind="function"><name>front</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1ab265b066423814c54aee52e9e5686da9" kind="function"><name>back</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a245e372b7627844911419dea1401deaa" kind="function"><name>beginId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1ab95af1204f39b6ba485c682c00ce3f18" kind="function"><name>backId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a1d7402e50d301509df825d554d11a9d4" kind="function"><name>endId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1af8d925b70fc884f8fbb22a3cf9c85eca" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a7faa38f5cc8e0b0fd14ecc91c714b962" kind="function"><name>heapBytes</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a211112134f5f28c03c785b99bdd8544c" kind="function"><name>Equals</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a95da4b2e2641b5866cc0179e8732a1e1" kind="function"><name>Equals</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a77c4b380f662d925af7496355c221f8d" kind="function"><name>~Const_Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a0e947b517b45a398afd90f151215bc07" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a96d2190126d934194aa78a0378d2a3ed" kind="function"><name>Const_Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a825101ebee0f44fadd1febca4e693379" kind="function"><name>operator Const_Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a1b1e53ec97ea5471ea8e7f87c3e998ec" kind="function"><name>operator==</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1aa3c5feedbcceafd85fe5b4841d537c9f" kind="function"><name>operator!=</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a192377fba2abbe13dab30df0f3aea060" kind="function"><name>__MR_Vector_int_MR_RegionId_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1ab7948d2367e0d59f2d611a96a284a134" kind="function"><name>__MR_Vector_int_MR_RegionId_Construct_1_size_t</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a2bd9fc616424b08a8515163d9e80cb58" kind="function"><name>__MR_Vector_int_MR_RegionId_Construct_1_std_vector_int</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1abc7b38200de948ef75bb9a1bbcf930c9" kind="function"><name>__MR_Vector_int_MR_RegionId_Construct_2</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a507ef9b9becd9c4c4c8c512f5b492bd6" kind="function"><name>__MR_Vector_int_MR_RegionId_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a5e0de9c67aba2b950e65e5d98962db26" kind="function"><name>__MR_Vector_int_MR_RegionId_Destroy</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a3fd882f6be79761e2f5ec3ba62a249f6" kind="function"><name>__MR_Vector_int_MR_RegionId_Get_vec_</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1ad04c43adcb8a3010a628c65046fdc65f" kind="function"><name>__MR_Vector_int_MR_RegionId_back</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a9d5b87812cc4acde139a092e9acc63d6" kind="function"><name>__MR_Vector_int_MR_RegionId_backId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a2e1b90f6b6a14159ce2707d2e7f7ddcc" kind="function"><name>__MR_Vector_int_MR_RegionId_beginId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1ab7d8f8f288f21e453ff1424722abe4aa" kind="function"><name>__MR_Vector_int_MR_RegionId_capacity</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a13df5fadb72c6be606d8bb93cdf1d791" kind="function"><name>__MR_Vector_int_MR_RegionId_data</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a38c64668740e5d728da577c2b685b054" kind="function"><name>__MR_Vector_int_MR_RegionId_empty</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a1bbd69c31b395aebb764224368c37aa4" kind="function"><name>__MR_Vector_int_MR_RegionId_endId</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a908792e8cbe6c90c0b5a17feda7d4292" kind="function"><name>__MR_Vector_int_MR_RegionId_front</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1ae6bf54091eb6354a9035656b76abbcec" kind="function"><name>__MR_Vector_int_MR_RegionId_heapBytes</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a110cda26bcdaff7402dcfe4225d88c3e" kind="function"><name>__MR_Vector_int_MR_RegionId_index</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1a27f1668777c7f98975bb3561d00dfadd" kind="function"><name>__MR_Vector_int_MR_RegionId_size</name></member>
+    <member refid="classMR_1_1Const__Vector__Int__MRRegionId_1ae3f439efcc2cd59ba355262e031487e9" kind="function"><name>__MR_equal_MR_Vector_int_MR_RegionId</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId" kind="class"><name>MR::Const_Vector_Int_MRUndirectedEdgeId</name>
     <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a86b0c5cdcbec2f02ab61d40db71f6f49" kind="property"><name>vec</name></member>
     <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ac371c66c12aa463bd443e3386a5faea5" kind="property"><name>this[MR.UndirectedEdgeId i]</name></member>
@@ -52954,6 +53007,10 @@
     <member refid="classMR_1ab003c1e98f97ddfeed23410345a4ae19" kind="function"><name>begin</name></member>
     <member refid="classMR_1a45427502e3a76599d8b973df7704ea6f" kind="function"><name>end</name></member>
     <member refid="classMR_1aa6a6a3b6c2cfc21c5da923733d168b77" kind="function"><name>end</name></member>
+    <member refid="classMR_1ab0c0351812db6d849f8162f696e4efa8" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a106be3b68f34087db98406efc85f846a" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a12540a1a8d9d3c96baa040d773c98b60" kind="function"><name>end</name></member>
+    <member refid="classMR_1a456727d4b205a814d8fc9eda66550091" kind="function"><name>end</name></member>
     <member refid="classMR_1a383fc26a75cf4fe5e280d9be7668d016" kind="function"><name>begin</name></member>
     <member refid="classMR_1ac177195345abef41e7d3d98dd314e138" kind="function"><name>begin</name></member>
     <member refid="classMR_1aea613a81a3dcd0daf97172cc9ea5a449" kind="function"><name>end</name></member>
@@ -54648,6 +54705,7 @@
     <member refid="classMR_1ac397ed30a9ca518dd2bb96bebd4b1bfa" kind="function"><name>__MR_begin_MR_Vector_double_MR_RegionId_ref</name></member>
     <member refid="classMR_1a470ae4be07eff4aec89a028d2e06af59" kind="function"><name>__MR_begin_MR_Vector_float_MR_VoxelId_ref</name></member>
     <member refid="classMR_1a92e031deebd84f53f9152f88ecd0d43d" kind="function"><name>__MR_begin_MR_Vector_int_MR_FaceId_ref</name></member>
+    <member refid="classMR_1ad9be628c5c176252cd9af5043014cde3" kind="function"><name>__MR_begin_MR_Vector_int_MR_RegionId_ref</name></member>
     <member refid="classMR_1a4d5adc8416a965e0c7a6255d03376da1" kind="function"><name>__MR_begin_MR_Vector_int_MR_UndirectedEdgeId_ref</name></member>
     <member refid="classMR_1a99bceb41ade6b514b90ddac74e03547d" kind="function"><name>__MR_begin_MR_Vector_int_MR_VertId_ref</name></member>
     <member refid="classMR_1a7c77ee6a16df212c90b2d3c2d8ffd9cb" kind="function"><name>__MR_begin_MR_Vector_size_t_MR_GraphVertId_ref</name></member>
@@ -54724,6 +54782,7 @@
     <member refid="classMR_1abeb6c804657f44a33296391f08286c54" kind="function"><name>__MR_begin_const_MR_Vector_double_MR_RegionId_ref</name></member>
     <member refid="classMR_1a46411939c962befe70b3b86f4ad05684" kind="function"><name>__MR_begin_const_MR_Vector_float_MR_VoxelId_ref</name></member>
     <member refid="classMR_1ae1c5c97ca7913131ce1ad5cca6b8265e" kind="function"><name>__MR_begin_const_MR_Vector_int_MR_FaceId_ref</name></member>
+    <member refid="classMR_1ac651f7f7a023ed2c5380798b54016b5d" kind="function"><name>__MR_begin_const_MR_Vector_int_MR_RegionId_ref</name></member>
     <member refid="classMR_1aa770a25f152e17173917a050f4b17c67" kind="function"><name>__MR_begin_const_MR_Vector_int_MR_UndirectedEdgeId_ref</name></member>
     <member refid="classMR_1a6ab91135b2a3c47f6484cf6bdf50012e" kind="function"><name>__MR_begin_const_MR_Vector_int_MR_VertId_ref</name></member>
     <member refid="classMR_1a8db1747405492d104614d6ab3ab95866" kind="function"><name>__MR_begin_const_MR_Vector_size_t_MR_GraphVertId_ref</name></member>
@@ -54800,6 +54859,7 @@
     <member refid="classMR_1a6ab527457fe83a4a6d9d7aca71dd13bb" kind="function"><name>__MR_end_MR_Vector_double_MR_RegionId_ref</name></member>
     <member refid="classMR_1aacb46789939ab564a52c5754cf146475" kind="function"><name>__MR_end_MR_Vector_float_MR_VoxelId_ref</name></member>
     <member refid="classMR_1a376b9bfa2d1fdd2798fccf025225bbc5" kind="function"><name>__MR_end_MR_Vector_int_MR_FaceId_ref</name></member>
+    <member refid="classMR_1adbe810a620229debd3552654fe3875e2" kind="function"><name>__MR_end_MR_Vector_int_MR_RegionId_ref</name></member>
     <member refid="classMR_1a5e4651bf2c359866f0cd889e99ad27da" kind="function"><name>__MR_end_MR_Vector_int_MR_UndirectedEdgeId_ref</name></member>
     <member refid="classMR_1a9e0993b4724b9820dfd0991602385cc8" kind="function"><name>__MR_end_MR_Vector_int_MR_VertId_ref</name></member>
     <member refid="classMR_1af663728b08471e2b4af4a70b7fb9f65b" kind="function"><name>__MR_end_MR_Vector_size_t_MR_GraphVertId_ref</name></member>
@@ -54876,6 +54936,7 @@
     <member refid="classMR_1ac43492c379e70078f75a7687c84f4789" kind="function"><name>__MR_end_const_MR_Vector_double_MR_RegionId_ref</name></member>
     <member refid="classMR_1a65f74a570a7213ef0f620eb0f7f2ae3f" kind="function"><name>__MR_end_const_MR_Vector_float_MR_VoxelId_ref</name></member>
     <member refid="classMR_1a62c851154a8bc90b7e0fbedc5d9b5e8e" kind="function"><name>__MR_end_const_MR_Vector_int_MR_FaceId_ref</name></member>
+    <member refid="classMR_1a7958d3ccd80cd75d0b59334441a04b9f" kind="function"><name>__MR_end_const_MR_Vector_int_MR_RegionId_ref</name></member>
     <member refid="classMR_1a97071e5d9feecdbe48e3651dae1cd280" kind="function"><name>__MR_end_const_MR_Vector_int_MR_UndirectedEdgeId_ref</name></member>
     <member refid="classMR_1ade863aa2c0f609f22ae4b3758a237c02" kind="function"><name>__MR_end_const_MR_Vector_int_MR_VertId_ref</name></member>
     <member refid="classMR_1a3dc3b9dbe00e4d6b2a903e2607a660e0" kind="function"><name>__MR_end_const_MR_Vector_size_t_MR_GraphVertId_ref</name></member>
@@ -65918,6 +65979,62 @@
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a52af435e2f0e6c2fb54fafefdbca491e" kind="function"><name>__MR_Vector_int_MR_FaceId_resize_1</name></member>
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a24de2d1ab5de5360ab0bfd5b474d94df" kind="function"><name>__MR_Vector_int_MR_FaceId_resize_2</name></member>
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a8ef53505cd077663f645bdf64de1602c" kind="function"><name>__MR_Vector_int_MR_FaceId_swap</name></member>
+  </compound>
+  <compound refid="classMR_1_1Vector__Int__MRRegionId" kind="class"><name>MR::Vector_Int_MRRegionId</name>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1af29751d0d55a5a87fc05ec411ca5608b" kind="property"><name>vec</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a207462d84b8a7c087b5d0306f4e3d4ea" kind="property"><name>this[MR.RegionId i]</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a1803928b21adcadc679c1881dcf7d10f" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a37d92943e8fa1c6f981da242d383bdf5" kind="function"><name>Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1af42438311265e4f915450926b4dd6f58" kind="function"><name>Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a27b6fb4f401ea6bdd2441967475801b4" kind="function"><name>Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a86c43a68c0a96f0387095cf77ab74f40" kind="function"><name>Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1ad784a42d4372357260b56eab51b8564e" kind="function"><name>Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a5a6e03338b748f8bc3e4691321466ea2" kind="function"><name>Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a9bb03e85264a6f0a0210dc3a2c2cf325" kind="function"><name>Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a4723f8ae1501481b1d9f1d476403f44c" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a5529ca64533963b951ef653b563c3ef1" kind="function"><name>clear</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a8dc2e991476cb95b3b2fb5456914665b" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a2980eb9793cd3ae366fb3b659e3c2e83" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a9dea1ceb77b9746fbbaf1cc27fee07ef" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a1200ee4e7633b0887e373a0336f16b05" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a668a8b609a8cc5e1478f5f27ee4afff8" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1ad4f170fc56e79e39e4f50cd96e7c5282" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a6bdffaec87392e93483540be7ebdb7eb" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a7953421df6e3e966c4a412865348f5dd" kind="function"><name>autoResizeAt</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1ae53255600abdd42036896964a0a15bfd" kind="function"><name>pushBack</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1aaf5e5ccd8eb1146be531a1573fe0a8a4" kind="function"><name>pushBack</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a773a649881de5f724d57d0ebd0789e2f" kind="function"><name>popBack</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a6fb3bccb3b75287fc5c1d9d7a199d45f" kind="function"><name>front</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a0cb799c02222f2041829eacfadaef9fc" kind="function"><name>back</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1aff4794624a1ea1eb1f41496dca0b850e" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1af41bec12e465c099b1186de4c0172e0f" kind="function"><name>swap</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a742408e771dc5a513ddd21222a6f8a92" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a781bf1c15e5ef9b26711a3513881ab86" kind="function"><name>Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1aaf3f6bca1b15ba3bbf62f199a8304d3f" kind="function"><name>operator Vector_Int_MRRegionId</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a4d44c1c1a529786d737b02d9e828f0e5" kind="function"><name>__MR_Vector_int_MR_RegionId_AssignFromAnother</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1aaf1f0bdb5125290f5637d6c1ad690e52" kind="function"><name>__MR_Vector_int_MR_RegionId_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a2bb17338ac95fdb5ab6796099be7b550" kind="function"><name>__MR_Vector_int_MR_RegionId_Construct_1_size_t</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1ac21808a4abdab09d4806664db5cdcc43" kind="function"><name>__MR_Vector_int_MR_RegionId_Construct_1_std_vector_int</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1aec56a4b8f03bc9fd4695916adfd76514" kind="function"><name>__MR_Vector_int_MR_RegionId_Construct_2</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1ada57bd108710d3575719de729a7f0333" kind="function"><name>__MR_Vector_int_MR_RegionId_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1ab898df4358159855ba9bffc6cf259d28" kind="function"><name>__MR_Vector_int_MR_RegionId_GetMutable_vec_</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1aac24a98062b4265112ad92f54a3d9847" kind="function"><name>__MR_Vector_int_MR_RegionId_autoResizeAt</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a352c8810fe886d34f159da4c01d6591b" kind="function"><name>__MR_Vector_int_MR_RegionId_autoResizeSet_2</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a9653d5513dec37f357abc1ab2e6a22e2" kind="function"><name>__MR_Vector_int_MR_RegionId_autoResizeSet_3</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a27d7c54a5787ef1cafba9668a0be5f24" kind="function"><name>__MR_Vector_int_MR_RegionId_back_mut</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a50ad60ff9fbc5f3c3aadc24553c7f8b8" kind="function"><name>__MR_Vector_int_MR_RegionId_clear</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a245b4e426bd452223639a039a5ece56f" kind="function"><name>__MR_Vector_int_MR_RegionId_data_mut</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a1b96e3765084cdd8681b02a2ea2c6333" kind="function"><name>__MR_Vector_int_MR_RegionId_front_mut</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1abbdcff99d15f9b59a19d5a10ecf83bcc" kind="function"><name>__MR_Vector_int_MR_RegionId_index_mut</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a6a209f2332f62b266b56844ee5689626" kind="function"><name>__MR_Vector_int_MR_RegionId_pop_back</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1acf8fd7a2d34232aecf95176425736b32" kind="function"><name>__MR_Vector_int_MR_RegionId_push_back_const_int_ref</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a57b4fbfd20a2ab14f8cbdcda0e567ad2" kind="function"><name>__MR_Vector_int_MR_RegionId_push_back_int_rvalue_ref</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1aa5671e33ba7951d5ead5799b319fdb20" kind="function"><name>__MR_Vector_int_MR_RegionId_reserve</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a8d116bd54add736745f67e3d85c0ef14" kind="function"><name>__MR_Vector_int_MR_RegionId_resizeWithReserve_1</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a1684717ca59456c67025524b842b27ae" kind="function"><name>__MR_Vector_int_MR_RegionId_resizeWithReserve_2</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a78ed12e334e8524e08483be6f4f8f85d" kind="function"><name>__MR_Vector_int_MR_RegionId_resize_1</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1af07d713a8cf5e8f046edbc517440e2c9" kind="function"><name>__MR_Vector_int_MR_RegionId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a8dcaddaaaf3876ba3f32d593211a90d1" kind="function"><name>__MR_Vector_int_MR_RegionId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__Int__MRUndirectedEdgeId" kind="class"><name>MR::Vector_Int_MRUndirectedEdgeId</name>
     <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a1eeddbf1e6dde2514bb5cd31b19aa1ad" kind="property"><name>vec</name></member>

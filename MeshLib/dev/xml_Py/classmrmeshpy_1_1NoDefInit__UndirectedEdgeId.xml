@@ -24,29 +24,6 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40313" bodyend="40314"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId_1af030f1f56d5abd573d5d6a4e40218def" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId" kindref="compound">NoDefInit_UndirectedEdgeId</ref></type>
-        <definition> NoDefInit_UndirectedEdgeId mrmeshpy.NoDefInit_UndirectedEdgeId.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.NoDefInit_UndirectedEdgeId.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1UndirectedEdgeId_1abf04905efbcc1a4e9b49105649ef5f58">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40317" bodyend="40318"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId_1af030f1f56d5abd573d5d6a4e40218def" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -72,6 +49,29 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40321" bodyend="40322"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId_1af030f1f56d5abd573d5d6a4e40218def" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId" kindref="compound">NoDefInit_UndirectedEdgeId</ref></type>
+        <definition> NoDefInit_UndirectedEdgeId mrmeshpy.NoDefInit_UndirectedEdgeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoDefInit_UndirectedEdgeId.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1UndirectedEdgeId_1abf04905efbcc1a4e9b49105649ef5f58">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40325" bodyend="40326"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId_1ad425cde442cc64bd9bb2de05083103eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40324" bodyend="40325"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40328" bodyend="40329"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId_1a9f3a9a8020bb40d0e3f5205206420332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40327" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40327" bodyend="40330"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40331" bodyend="40334"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__UndirectedEdgeId_1af99938d72830659028d148b3c32b34b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40331" bodyend="40332"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40335" bodyend="40336"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -168,7 +168,7 @@ this class is similar to T, but does not make default initialization of the fiel
         <link refid="classmrmeshpy_1_1UndirectedEdgeId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40304" bodyend="40332"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40308" bodyend="40336"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a3a9ea7a2d4dffa34419f857a7710e7e6" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_UndirectedEdgeId</scope><name>__bool__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeId_1ac5d60f90e515f993d46f1977de759406" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_UndirectedEdgeId</scope><name>__eq__</name></member>

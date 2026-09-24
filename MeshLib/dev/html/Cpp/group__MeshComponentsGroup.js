@@ -14,8 +14,9 @@ var group__MeshComponentsGroup =
       [ "numSmallerComponents", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#aeaa75229a5b3cb60dc76ff1032f4c655", null ]
     ] ],
     [ "MR::MeshComponents::ComponentsFaces", "structMR_1_1MeshComponents_1_1ComponentsFaces.html", [
+      [ "setComponentBits", "structMR_1_1MeshComponents_1_1ComponentsFaces.html#a2b36ec65ea208c6bcb8335207d59ff97", null ],
       [ "faces", "structMR_1_1MeshComponents_1_1ComponentsFaces.html#a6cad6fd63d8202e80b707dcf96fd9968", null ],
-      [ "offsets", "structMR_1_1MeshComponents_1_1ComponentsFaces.html#a781485ec875468538e5e919c3728df6e", null ]
+      [ "offsets", "structMR_1_1MeshComponents_1_1ComponentsFaces.html#ae9982b713fe80c3ce1920c5860b61794", null ]
     ] ],
     [ "MR::MeshComponents::FaceIncidence", "group__MeshComponentsGroup.html#ga7489c91178e90fdd4200bbb0074e025f", [
       [ "MR::MeshComponents::PerEdge", "group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc", null ],

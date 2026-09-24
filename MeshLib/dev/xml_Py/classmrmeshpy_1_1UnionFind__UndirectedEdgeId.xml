@@ -24,29 +24,6 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63594" bodyend="63595"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1ac67d1adb90465796297900fb026c57f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId" kindref="compound">UnionFind_UndirectedEdgeId</ref></type>
-        <definition> UnionFind_UndirectedEdgeId mrmeshpy.UnionFind_UndirectedEdgeId.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1BaseUnionFind__UndirectedEdgeId_1ac7756aea4e3ee12c1fd1c67822388fa0">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63598" bodyend="63599"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1ac67d1adb90465796297900fb026c57f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -72,6 +49,29 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63602" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63602" bodyend="63603"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1ac67d1adb90465796297900fb026c57f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId" kindref="compound">UnionFind_UndirectedEdgeId</ref></type>
+        <definition> UnionFind_UndirectedEdgeId mrmeshpy.UnionFind_UndirectedEdgeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseUnionFind__UndirectedEdgeId_1ac7756aea4e3ee12c1fd1c67822388fa0">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63606" bodyend="63607"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a6f4c53bcddd1c65c32b87cbdbedd4439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63605" bodyend="63606"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63609" bodyend="63610"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a089e281e578d08f53a5ccb1c2b9c2e40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63608" bodyend="63611"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63612" bodyend="63615"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a9c6ae012f33e856d670c23238993bfa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -139,7 +139,7 @@ so the result supports the full sequential interface (e.g. unite, sizeOfComp)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63613" bodyend="63617"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63617" bodyend="63621"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a8e1c35aa9438e3c5b765d7b588fa4844" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -163,7 +163,7 @@ so the result supports the full sequential interface (e.g. unite, sizeOfComp)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63619" bodyend="63622"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63623" bodyend="63626"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1afa6f65831580149f0b5fad1526c42129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -188,7 +188,7 @@ so the result supports the full sequential interface (e.g. unite, sizeOfComp)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63623" bodyend="63626"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63627" bodyend="63630"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a2e7b70cbde476074a05e0f498bb6bedc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -212,7 +212,7 @@ so the result supports the full sequential interface (e.g. unite, sizeOfComp)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63627" bodyend="63630"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63631" bodyend="63634"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a259181fbbc024754b6954793a04f0acc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>tuple[<ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref>, bool]</type>
@@ -241,7 +241,7 @@ so the result supports the full sequential interface (e.g. unite, sizeOfComp)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63631" bodyend="63635"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63635" bodyend="63639"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -282,7 +282,7 @@ so the result supports the full sequential interface (e.g. unite, sizeOfComp)
         <link refid="classmrmeshpy_1_1BaseUnionFind__UndirectedEdgeId"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63579" bodyend="63635"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="63583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="63583" bodyend="63639"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1ab852e3587edf91b3bbca9641d97b6d2c" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a6f4c53bcddd1c65c32b87cbdbedd4439" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>__init__</name></member>

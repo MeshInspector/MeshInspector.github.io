@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"MRMeshDecimate_8h.html#af102da5247fa1a080154403b3ce8fcb9":[9,2,2,0,0,0,0,1,174,96],
+"MRMeshDecimate_8h.html#af2a593bb6487338b1e3b5a159f65c18c":[9,2,2,0,0,0,0,1,174,21],
 "MRMeshDecimate_8h.html#af5691998bfbef826a875560ac0580434":[9,2,2,0,0,0,0,1,174,116],
 "MRMeshDecimate_8h.html#af58657741abda5f50aaf0f93f5d3d5ae":[9,2,2,0,0,0,0,1,174,218],
 "MRMeshDecimate_8h.html#af7cfb32bcd5cd85987823d58b5700010":[9,2,2,0,0,0,0,1,174,194],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "MRMeshFillHole_8h.html#aa6654c3b1cbd7e4932b7270a00868f1a":[9,2,2,0,0,0,0,1,183,87],
 "MRMeshFillHole_8h.html#aaaf68def94018db7b43526ce5b44cda6":[9,2,2,0,0,0,0,1,183,72],
 "MRMeshFillHole_8h.html#aacb6e8956c70256df406685442c141ab":[9,2,2,0,0,0,0,1,183,14],
-"MRMeshFillHole_8h.html#ab391387fa150a1ab1bfb4e5b4b720bae":[9,2,2,0,0,0,0,1,183,7],
-"MRMeshFillHole_8h.html#ab3bac0844d3f86cba1e0152bdd8c9aeb":[9,2,2,0,0,0,0,1,183,54],
-"MRMeshFillHole_8h.html#ab42646ad3e891206417b57f0fc3067b7":[9,2,2,0,0,0,0,1,183,89]
+"MRMeshFillHole_8h.html#ab391387fa150a1ab1bfb4e5b4b720bae":[9,2,2,0,0,0,0,1,183,7]
 };
