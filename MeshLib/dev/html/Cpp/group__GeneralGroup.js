@@ -7248,6 +7248,7 @@ var group__GeneralGroup =
       [ "shouldClose_", "group__GeneralGroup.html#ga10c8ea6c503388d2719e921b1ec1c9e2", null ]
     ] ],
     [ "MR::PluginCloseOnChangeMesh", "classMR_1_1PluginCloseOnChangeMesh.html", [
+      [ "closeOnDirtyMask_", "group__GeneralGroup.html#ga5cbba9f9600a58f0e3905818df0a5047", null ],
       [ "onPluginDisable_", "group__GeneralGroup.html#ga116e218acf4861f76d791208feba92ad", null ],
       [ "onPluginEnable_", "group__GeneralGroup.html#ga0fa059dd4caff86460127a8c6f7e9918", null ],
       [ "reactOnFaceSelectionChanges_", "group__GeneralGroup.html#gaf7fc2e2aad9875cf8e3d1746f8b3b056", null ],
@@ -11315,6 +11316,7 @@ var group__GeneralGroup =
     [ "MR::File::close", "group__GeneralGroup.html#ga145a85aba4ff2da4c73891332356102a", null ],
     [ "MR::PolylineMaker::close", "group__GeneralGroup.html#ga6b10efd85c33f60e8896d7ce1971364f", null ],
     [ "MR::PickPointManager::closeContour", "group__GeneralGroup.html#gaf651304b2314a2ab0e3ca399750ed29d", null ],
+    [ "MR::PluginCloseOnChangeMesh::closeOnDirtyMask_", "group__GeneralGroup.html#ga5cbba9f9600a58f0e3905818df0a5047", null ],
     [ "MR::Features::MeasureResult::Distance::closestPointFor", "group__GeneralGroup.html#ga8670c18dcc3043de2c9724f9e7412b45", null ],
     [ "MR::closestPointInTriangle", "group__GeneralGroup.html#gadc31522a4b6a3c4f196231ab32643022", null ],
     [ "MR::closestPointOnLineSegm", "group__GeneralGroup.html#ga3499fd4f69711941f919d6cfc7789d8b", null ],

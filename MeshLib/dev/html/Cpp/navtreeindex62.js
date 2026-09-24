@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5":[9,0,0,1,2,2],
 "structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d":[9,0,0,1,2,3],
 "structMR_1_1CameraPointsTriangulationSettings.html":[9,0,0,20,142],
 "structMR_1_1CharPressedListener.html":[9,0,0,20,795],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1Features_1_1Traits_1_1Binary.html":[9,0,0,20,247],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,20,251],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html":[9,0,0,20,249],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,20,252],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[9,0,0,20,253]
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,20,252]
 };

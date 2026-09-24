@@ -19626,7 +19626,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="65" column="5" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="65" bodyend="-1"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="69" column="5" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga0ce9bf70afa23e6d6ac9a65c5bf19cf3" prot="public" static="no">
         <type>std::function&lt; void(MenuItemsList &amp;)&gt;</type>
@@ -61317,7 +61317,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="53" column="10" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="53" bodyend="53"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="57" column="10" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="57" bodyend="57"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga84e6c03197732646789295b475260890" prot="private" static="no" mutable="no">
         <type>std::vector&lt; boost::signals2::scoped_connection &gt;</type>
@@ -61331,7 +61331,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="56" column="17" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="56" bodyend="-1"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="60" column="17" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac672aeb6f42f88a437ce92709a6aba0b" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -61346,7 +61346,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="75" column="10" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="75" bodyend="75"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="79" column="10" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="79" bodyend="79"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga66e69a046397d4cb09c381d2e7021cbf" prot="private" static="no" mutable="no">
         <type>UpdateFunc</type>
@@ -61360,7 +61360,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="76" column="16" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="76" bodyend="-1"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="80" column="16" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2fd3a2923aaecd02cf580577dc7b634f" prot="private" static="no" mutable="no">
         <type>std::vector&lt; boost::signals2::scoped_connection &gt;</type>
@@ -61374,7 +61374,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="77" column="17" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="77" bodyend="-1"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="81" column="17" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="81" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad910ff2766e17a565cfa33cb6eefc831" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -61390,7 +61390,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="89" column="10" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="89" bodyend="89"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="93" column="10" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="93" bodyend="93"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad74acc1c8737cb5e9c9c2f349130ee97" prot="private" static="no" mutable="no">
         <type>std::vector&lt; boost::signals2::scoped_connection &gt;</type>
@@ -61404,7 +61404,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="92" column="17" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="92" bodyend="-1"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="96" column="17" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga112aadc006f7ece0404c1cbe603783cd" prot="public" static="no" mutable="no">
         <type>WorkMode</type>
@@ -181258,6 +181258,21 @@ returns true if load was succeed </para>
         </inbodydescription>
         <location file="MRViewer/MRStatePluginUpdate.h" line="47" column="19" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="47" bodyend="47"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga5cbba9f9600a58f0e3905818df0a5047" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>uint32_t</type>
+        <definition>virtual uint32_t MR::PluginCloseOnChangeMesh::closeOnDirtyMask_</definition>
+        <argsstring>() const</argsstring>
+        <name>closeOnDirtyMask_</name>
+        <qualifiedname>MR::PluginCloseOnChangeMesh::closeOnDirtyMask_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dirty flags of mesh changes that close the plugin, DIRTY_POSITION | DIRTY_FACE by default; plugin can override it to return only DIRTY_FACE and stay open when only vertex coordinates change </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="51" column="23"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0fa059dd4caff86460127a8c6f7e9918" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void MR::PluginCloseOnChangeMesh::onPluginEnable_</definition>
@@ -181272,7 +181287,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="49" column="19"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="53" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga116e218acf4861f76d791208feba92ad" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -181288,7 +181303,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="50" column="19"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="54" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga387a5cfc8facfc6ad0741fa49cddcfe7" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -181304,7 +181319,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="51" column="19"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="55" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf80c0adcc1ca6dfd7b24e4d98aed5dcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -181323,7 +181338,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="67" column="10" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="67" bodyend="67"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="71" column="10" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="71" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaeecca4157ae98471f423c89291353435" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -181339,7 +181354,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="68" column="19"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="72" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa218ef42832643cdd6508125fa222af2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -181355,7 +181370,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="71" column="19"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="75" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaae19bc2cf74c66051f722392d3aa8eb9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -181371,7 +181386,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="73" column="19"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="77" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3ffafb74745ba3e093fb69b3ee5aef54" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -181387,7 +181402,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="85" column="19"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="89" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga833135808c13e43e91ba944e93f158a5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -181403,7 +181418,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="86" column="19"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="90" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2dbd9e0194fe4b254d6819b4f4104c16" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -181419,7 +181434,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="87" column="19"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="91" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga162622cec5b9fcec6bb19e61fc129f3e" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -181435,7 +181450,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="99" column="11"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="103" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7a215652b9140f1b495ef8302f2119ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -181449,7 +181464,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="108" column="18" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="108" bodyend="111"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="112" column="18" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="112" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad916bd3dde1ec66ce4c87b223517fc00" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -181463,7 +181478,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="113" column="18" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="113" bodyend="116"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="117" column="18" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="117" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab13e2a281b83e65ad9b1e99315bc173e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -181478,7 +181493,7 @@ returns true if load was succeed </para>
         <inbodydescription>
 <para>disconnect in reversed order</para>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="117" column="18" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="117" bodyend="122"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="121" column="18" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="121" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae8df8724ca459a77b0b3d07ebfbd0f21" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -181492,7 +181507,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRStatePluginUpdate.h" line="123" column="18" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="123" bodyend="126"/>
+        <location file="MRViewer/MRStatePluginUpdate.h" line="127" column="18" bodyfile="MRViewer/MRStatePluginUpdate.h" bodystart="127" bodyend="130"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad0cfe05cc1cf5086455eac521a734b64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

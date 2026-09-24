@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html":[9,0,0,20,541],
 "structMR_1_1VertDistance.html":[9,0,0,16,2,0],
 "structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a":[9,0,0,16,2,0,2],
 "structMR_1_1VertDistance.html#a7e288480095c91d543447305bb312076":[9,0,0,16,2,0,1],

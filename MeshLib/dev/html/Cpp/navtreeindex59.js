@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"namespaceImGui.html#ac731a9d6a2c3b334d247953eedb6e7d1":[9,0,1,0,0,39],
 "namespaceImGui.html#acf0100b42cbaf8998bfce08740ceb543":[9,0,1,0,0,7],
 "namespaceImGui.html#ad58fef2244057ff2ad7eb1877f3b813a":[9,0,1,0,0,11],
 "namespaceImGui.html#adcf2f35edd39ac820b77b169fce7c33e":[9,0,1,0,0,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1MeshSave.html":[9,0,0,20,2],
 "namespaceMR_1_1MeshSave.html#a44ae097f41a9722d0110ffb971ba7ce0":[9,0,1,0,1,27,5],
 "namespaceMR_1_1MeshSave.html#a7e16b086c414a0768e241ea5f21ca9b6":[9,0,1,0,1,27,6],
-"namespaceMR_1_1Meta.html":[9,0,1,0,1,28],
-"namespaceMR_1_1Nesting.html":[9,0,0,20,7]
+"namespaceMR_1_1Meta.html":[9,0,1,0,1,28]
 };

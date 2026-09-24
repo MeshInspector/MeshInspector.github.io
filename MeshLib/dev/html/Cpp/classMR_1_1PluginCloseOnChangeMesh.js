@@ -1,5 +1,6 @@
 var classMR_1_1PluginCloseOnChangeMesh =
 [
+    [ "closeOnDirtyMask_", "group__GeneralGroup.html#ga5cbba9f9600a58f0e3905818df0a5047", null ],
     [ "onPluginDisable_", "group__GeneralGroup.html#ga116e218acf4861f76d791208feba92ad", null ],
     [ "onPluginEnable_", "group__GeneralGroup.html#ga0fa059dd4caff86460127a8c6f7e9918", null ],
     [ "reactOnFaceSelectionChanges_", "group__GeneralGroup.html#gaf7fc2e2aad9875cf8e3d1746f8b3b056", null ],

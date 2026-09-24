@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[9,0,0,20,229],
 "structMR_1_1ObjTreeTraits.html":[9,0,0,20,110],
 "structMR_1_1ObjVertId.html":[9,0,0,20,274],
 "structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html":[9,0,0,20,397],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[9,0,0,10,3,8],
 "structMR_1_1RemeshSettings.html#a2302742bd2200fd6a5f9e078015705c1":[9,0,0,10,3,9],
 "structMR_1_1RemeshSettings.html#a4742691117b65ee01c742f25180e17a7":[9,0,0,10,3,15],
-"structMR_1_1RemeshSettings.html#a535de126a9bef655d8a832a7bba54e46":[9,0,0,10,3,5],
-"structMR_1_1RemeshSettings.html#a58fc77c6b836083eab39f95b271080e8":[9,0,0,10,3,16]
+"structMR_1_1RemeshSettings.html#a535de126a9bef655d8a832a7bba54e46":[9,0,0,10,3,5]
 };

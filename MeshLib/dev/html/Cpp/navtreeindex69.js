@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[9,0,1,0,1,48,1,5],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[9,0,2,0,2,32,1,5],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[9,0,1,0,1,48,1,3],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[9,0,2,0,2,32,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html":[9,0,0,20,779],
 "structMR_1_1VectorTraits_3_01ImVec4_01_4.html":[9,0,0,20,780],
 "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html":[9,0,0,20,539],
-"structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html":[9,0,0,20,540],
-"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html":[9,0,0,20,541]
+"structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html":[9,0,0,20,540]
 };
