@@ -3813,7 +3813,6 @@
 <para>TODO move it in MRRibbonFontManager.cpp.</para>
 <para>const <ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>&amp; contours = {}</para>
 <para>triangle-related mathematical functions are here</para>
-<para>not _WIN32</para>
 <para>To fix <computeroutput>attribute declaration must precede definition</computeroutput> on <computeroutput><ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref></computeroutput>.</para>
 <para>#pragma warning: there is no warning number</para>
 <para>for template implementation:</para>
@@ -3826,7 +3825,6 @@
 <para>Only strictly necessary for the bindings (to make <computeroutput><ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MR::MeshIntersectionResult</ref></computeroutput> a complete type).</para>
 <para>======================================================================== /// Copyright 2009-2020 Intel Corporation /// /// Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); /// you may not use this file except in compliance with the License. /// You may obtain a copy of the License at /// /// <ulink url="http:///">http:///</ulink> www.apache.org/licenses/LICENSE-2.0 /// /// Unless required by applicable law or agreed to in writing, software /// distributed under the License is distributed on an &quot;AS IS&quot; BASIS, /// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. /// See the License for the specific language governing permissions and /// limitations under the License. /// ======================================================================== ///</para>
 <para>Main idea is here: <ulink url="https:///">https:///</ulink> www.geometrictools.com/Documentation/LeastSquaresFitting.pdf pages 45-51 Below we will write out the function and Jacobian for minimization by the Levenberg-Marquard method and use it to clarify the apex of the cone and the direction of its main axis.</para>
-<para>_WIN32</para>
 <para>TODO:<itemizedlist>
 <listitem><para>create plugins/skeleton.h</para>
 </listitem><listitem><para>pass time in draw function</para>
