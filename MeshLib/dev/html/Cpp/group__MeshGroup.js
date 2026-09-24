@@ -57,6 +57,7 @@ var group__MeshGroup =
       [ "findClosestPoint", "structMR_1_1Mesh.html#a5d8ec5f50ff1ff0e7434be26f918dca4", null ],
       [ "findClosestPoint", "structMR_1_1Mesh.html#a6b35787713d43cba7a9e486296170bd1", null ],
       [ "findCreaseEdges", "structMR_1_1Mesh.html#a1eda7cca99d50abaa6f9c15d4edefabb", null ],
+      [ "findSharpEdges", "structMR_1_1Mesh.html#a30ffc7daf92144ac76a43684a5ca21b4", null ],
       [ "findSpikeVertices", "structMR_1_1Mesh.html#ae4a0775d0410e3ff89ed981468aa016e", null ],
       [ "getAABBTree", "structMR_1_1Mesh.html#ad2f07f0ecf58e8933334430666ce983f", null ],
       [ "getAABBTreeNotCreate", "structMR_1_1Mesh.html#a3a4be0475ee77042c23f150bf522aae7", null ],

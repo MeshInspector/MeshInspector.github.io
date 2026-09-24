@@ -2428,6 +2428,7 @@ var namespaceMR =
     [ "findSelfCollidingTriangles", "group__AABBTreeGroup.html#ga8fb534af9cf7d272a2addab053665534", null ],
     [ "findSelfCollidingTriangles", "group__AABBTreeGroup.html#ga8311349cbf854a8a56407def83e4342d", null ],
     [ "findSelfCollidingTrianglesBS", "group__AABBTreeGroup.html#gaa34db2c0df1550c7f166893dbf581953", null ],
+    [ "findSharpEdges", "group__GeneralGroup.html#ga651e3f95e4788e69947b26609db39da8", null ],
     [ "findShortEdges", "group__MeshFixerGroup.html#ga3d72f926edb3f593c53583fba7398538", null ],
     [ "findShortestCoLoop", "group__TunnelDetectorGroup.html#ga40474d64aa8fbdd33ab7ba70b9970bec", null ],
     [ "findShortestEquivalentLoops", "group__TunnelDetectorGroup.html#ga557063bbcff132d2836603e69593b565", null ],

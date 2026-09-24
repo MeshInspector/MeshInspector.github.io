@@ -1,5 +1,7 @@
 var NAVTREEINDEX160 =
 {
+"classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#abf0f707482c8b0f37dd2355358c9a4d4":[9,1,0,0,2,1006,2],
+"classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#abf0f707482c8b0f37dd2355358c9a4d4":[9,1,1,0,1,1006,2],
 "classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#abfdd6f11cf8eed087527ba5adcb267d2":[9,1,0,0,2,1006,20],
 "classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#abfdd6f11cf8eed087527ba5adcb267d2":[9,1,1,0,1,1006,20],
 "classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#aca4a03d7cedd565e237ab31367391f27":[9,1,0,0,2,1006,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX160 =
 "classmrmeshpy_1_1std__vector__PointsProjectionResult.html#a7ee1f9fcb0b6b4e5a6a84245eb44c42c":[9,1,0,0,2,1011,21],
 "classmrmeshpy_1_1std__vector__PointsProjectionResult.html#a7ee1f9fcb0b6b4e5a6a84245eb44c42c":[9,1,1,0,1,1011,21],
 "classmrmeshpy_1_1std__vector__PointsProjectionResult.html#a84a4c2731af592c44631e1bcfeee226c":[9,1,0,0,2,1011,6],
-"classmrmeshpy_1_1std__vector__PointsProjectionResult.html#a84a4c2731af592c44631e1bcfeee226c":[9,1,1,0,1,1011,6],
-"classmrmeshpy_1_1std__vector__PointsProjectionResult.html#a8ca2ae0ba4dc66a3f58b0554980f2b36":[9,1,0,0,2,1011,16],
-"classmrmeshpy_1_1std__vector__PointsProjectionResult.html#a8ca2ae0ba4dc66a3f58b0554980f2b36":[9,1,1,0,1,1011,16]
+"classmrmeshpy_1_1std__vector__PointsProjectionResult.html#a84a4c2731af592c44631e1bcfeee226c":[9,1,1,0,1,1011,6]
 };

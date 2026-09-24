@@ -24653,6 +24653,37 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="565" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="565" bodyend="571"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a3bbef3a567e1470aac701e0c36b8d4b8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>static unsafe MR.UndirectedEdgeBitSet MR.findSharpEdges</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_VertCoords points, float minSharpCos, float maxSharpCos)</argsstring>
+        <name>findSharpEdges</name>
+        <qualifiedname>MR.findSharpEdges</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minSharpCos</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSharpCos</declname>
+        </param>
+        <briefdescription>
+<para>finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos] Generated from function <computeroutput><ref refid="classMR_1a3bbef3a567e1470aac701e0c36b8d4b8" kindref="member">MR.findSharpEdges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="577" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="577" bodyend="580"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a52092e06f802b6d68a888a9dded3b0d6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
         <definition>static unsafe MR.UndirectedEdgeBitSet MR.findCreaseEdges</definition>
@@ -24678,7 +24709,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="577" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="577" bodyend="580"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="586" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="586" bodyend="589"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a28035721404bdaae2880266cb35c1336" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
@@ -24705,7 +24736,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="587" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="587" bodyend="590"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="596" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="596" bodyend="599"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a31f83a0dd4afa558cf678b618017a770" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
@@ -24732,7 +24763,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="597" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="597" bodyend="600"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="606" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="606" bodyend="609"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a71a7085695abea2d74eafdb506574962" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref></type>
@@ -24773,7 +24804,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="608" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="608" bodyend="611"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="617" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="617" bodyend="620"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9a80a19811dfdfbc257bbcd2052bec95" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -24805,7 +24836,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="618" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="618" bodyend="622"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="627" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="627" bodyend="631"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1acac0af76257c0aa0fb2cc2c7a990271f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
@@ -24828,7 +24859,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="628" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="628" bodyend="631"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="637" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="637" bodyend="640"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abeb6be5cbfe316b05150eda17d252e54" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -24851,7 +24882,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="637" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="637" bodyend="640"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="646" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="646" bodyend="649"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a980dbb1685d35e75056f9ead14f15d20" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -24874,7 +24905,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="646" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="646" bodyend="649"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="655" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="655" bodyend="658"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9cde2c980088832e708249c894e39cb6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -24897,7 +24928,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="655" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="655" bodyend="658"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="664" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" bodystart="664" bodyend="667"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a5deaa5a8ef44bf6685c067e96db46668" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshMeshDistanceResult" kindref="compound">MR.MeshMeshDistanceResult</ref></type>
@@ -70062,7 +70093,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="663" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="672" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3ee0ea742464bf094a13d7c5517dd739" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe double</type>
@@ -70088,7 +70119,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="666" column="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="675" column="33"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3a4757abea3c962005f15df1921da51f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70110,7 +70141,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="669" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="678" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a30a8dba1584e317203a045eac9b9cc07" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70136,7 +70167,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="672" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="681" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a29672bbac59ac200a069ae241f93635c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70162,7 +70193,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="675" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="684" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af99abc507ec6cc966fb6f543a31c0459" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -70192,7 +70223,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="678" column="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="687" column="34"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7176455d2bd0a7b0571a25160adf7059" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70218,7 +70249,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="681" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="690" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac53105a4e352adbb8e7fa959b843cc6c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70244,7 +70275,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="684" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="693" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa36ab16a191ef408fe49226e460990fe" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70270,7 +70301,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="687" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="696" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae386dd98a716971ce27757252f14518d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -70296,7 +70327,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="690" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="699" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abab8a7a1a103a19341d2b4711fa12552" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70322,7 +70353,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="693" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="702" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a6c9b39b63bd37bc8bbe15571c0eb4510" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70348,7 +70379,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="696" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="705" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7ea106fffbc49349c21a9827da04b6b1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70374,7 +70405,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="699" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="708" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ade3c6a383dedf5f0f6bcaf909c7f1a80" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -70400,7 +70431,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="702" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="711" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a47d50d9f5831a916229f65c1c3852d98" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -70426,7 +70457,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="705" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="714" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4ebc6be15840805d0281122b49010f79" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -70452,7 +70483,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="708" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="717" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8565d21fe14732db69d90151a2e17f64" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertCoords._Underlying *</type>
@@ -70478,7 +70509,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="711" column="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="720" column="50"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abc9968362de7e01a0357b302255c5667" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70508,7 +70539,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="714" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="723" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac3eba0e2017c460dc6cc3e72d3e7e326" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70534,7 +70565,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="717" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="726" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a6db66ce36226caa16605c64232c02e66" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70560,7 +70591,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="720" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="729" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4574ce30531c870d82dbf1d96f78966a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -70586,7 +70617,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="723" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="732" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af1dced7ffe3e3924fe1bfedf40fd36c5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70612,7 +70643,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="726" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="735" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a13d4340dbe9a7c0c52020876c4b09f2a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -70638,7 +70669,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="729" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="738" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac86c8ba1e8a104be07e9fd97c2da2218" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeScalars._Underlying *</type>
@@ -70660,7 +70691,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="732" column="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="741" column="61"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4422ea7351ff1051e422d18f63cc74e4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -70686,7 +70717,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="735" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="744" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa0e902eb0ad9135f5d9c2b8ab89e8102" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -70716,7 +70747,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="738" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="747" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a5141310520cabf72bd8da3e86f26114d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.LineSegm3f._Underlying *</type>
@@ -70742,7 +70773,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="741" column="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="750" column="50"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a72b75e3b747a18c94ca4ea0ffc2dfb15" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -70768,7 +70799,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="744" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="753" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3c30dad28754e14e7b807875d45fcc4b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -70790,7 +70821,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="747" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="756" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac2c22b4ccd59dc4169ff83f2e6084306" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -70812,7 +70843,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="750" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="759" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a94ddf96109001b4cda4c15d7a8925ef9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -70834,7 +70865,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="753" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="762" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac98a75d0d8bd27ce0be4b43e4a662f2c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeBitSet._Underlying *</type>
@@ -70860,7 +70891,37 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="756" column="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="765" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ad3922de5511e930ab838a5cb7516c42d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.UndirectedEdgeBitSet._Underlying *</type>
+        <definition>static unsafe MR.UndirectedEdgeBitSet._Underlying * MR.__MR_findSharpEdges</definition>
+        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_VertCoords._Underlying *points, float minSharpCos, float maxSharpCos)</argsstring>
+        <name>__MR_findSharpEdges</name>
+        <qualifiedname>MR.__MR_findSharpEdges</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology._Underlying *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertCoords._Underlying *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minSharpCos</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSharpCos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="768" column="60"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aad12baf6568b91c8583af4b144b14320" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRVertBitSet_StdString._Underlying *</type>
@@ -70894,7 +70955,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="759" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="771" column="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a773f0aa3ca7bb301afd138b9149cbff1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
@@ -70920,7 +70981,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="762" column="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="774" column="45"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a82dbc1cf151b2bc6a7b6c14bc43f15d9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
@@ -70946,7 +71007,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="765" column="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="777" column="45"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1adc8c4b40fcad15e1ee2917bb0b2b2892" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -70972,7 +71033,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="768" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="780" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aff02c15d460c9c584de6197c0526b487" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -70998,7 +71059,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="771" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="783" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aafefcc32188ef9fd120177137a212ef8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Array_MRVector3f_3</type>
@@ -71024,7 +71085,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="774" column="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="786" column="50"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8bcddd80db9524ab6134e5fa5207b4eb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -71062,7 +71123,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="777" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="789" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a2ffcf4e2ae38d9c049cbb90d965ccb62" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Plane3d._Underlying *</type>
@@ -71088,7 +71149,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="780" column="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="792" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aeb52a1385c2e7c20d942191a83be3613" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Plane3f._Underlying *</type>
@@ -71114,7 +71175,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="783" column="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="795" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aae6621aeaeef9b430c3a37387f372cac" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Array_MRVector3f_3</type>
@@ -71140,7 +71201,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="786" column="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="798" column="50"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a46754dac8d42fdf09e3da6091f98de25" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -71178,7 +71239,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="789" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="801" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1afe326167b0bb2f3d14f13705019ac703" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -71204,7 +71265,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="792" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="804" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa07ebec4c32125dcc9349929ab46db85" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe double</type>
@@ -71230,7 +71291,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="795" column="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="807" column="33"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a70b418a0ac82099e6255782c445372d2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -71256,7 +71317,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="798" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="810" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a529fa6a5236342ea3babd60f6baede28" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -71282,7 +71343,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="801" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="813" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0b4942741bf3ae3f287eb55b76a216cc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -71308,7 +71369,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="804" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="816" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3870c456dd1f1d79a38114e1a5b96aef" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -71334,7 +71395,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="807" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="819" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a889b70b193d59e651e86e20879d2df1d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -71360,7 +71421,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="810" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="822" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9c4b769104391b692bd155befcc7949c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -71386,7 +71447,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="813" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="825" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aca3ab6d9616ea82c5c765d1b1424b10b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -71412,7 +71473,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="816" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="828" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af3d62d2889b101df201d087de928d5a0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -71438,7 +71499,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="819" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="831" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a093c8bd61b26353db314fb0e7c777a44" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe double</type>
@@ -71468,7 +71529,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="822" column="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="834" column="33"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1adadde88ba13ea8c8cd80776ef951b841" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -71498,7 +71559,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="825" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="837" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac92a87c3c81811a02956a6043443ca33" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -71528,7 +71589,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="828" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="840" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0986eac1f63a184848176fa75231042e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -71558,7 +71619,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="831" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="843" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0c1a77c29998d23acc21122ef9a401c1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.QuadraticForm3f._Underlying *</type>
@@ -71596,7 +71657,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="834" column="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="846" column="55"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a11ec0f592571c88c5f531a48d0cf4967" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -71626,7 +71687,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="837" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="849" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1acf73e71512749f9c323af190809dcf30" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.EdgePoint._Underlying *</type>
@@ -71656,7 +71717,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="840" column="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="852" column="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0a51e0c73e7cb1712e723a5f27afc130" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MeshTriPoint._Underlying *</type>
@@ -71682,7 +71743,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="843" column="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="855" column="52"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a6d6b9499893553ad4eda44040aec4f63" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MeshTriPoint._Underlying *</type>
@@ -71712,7 +71773,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="846" column="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="858" column="52"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a28e53d624b2aa2199475b46b5516b16b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -71738,7 +71799,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="849" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="861" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4546cc21ac8893c37f7804567fb0575a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -71764,7 +71825,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="852" column="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="864" column="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac47c2c6b4e446aead45f69f608cbb397" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -71790,7 +71851,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="855" column="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="867" column="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a471e492be4340a1dd024942d4647b005" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe double</type>
@@ -71816,7 +71877,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="858" column="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMath.cs" line="870" column="33"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a35d4b5267a2c898208d466b254e8b083" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39" kindref="member">MR.MeshMeshCollisionStatus</ref></type>
@@ -98998,6 +99059,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ac1e0904c156488ed0275f7b11a32bdcf" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSelfCollidingTriangles_4</name></member>
       <member refid="classMR_1a7615d62cd001513e5b7b35a0560c0345" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSelfCollidingTriangles_5</name></member>
       <member refid="classMR_1a2ef80ca7d9ee6d4058aa656b783ff720" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSelfCollidingTrianglesBS</name></member>
+      <member refid="classMR_1ad3922de5511e930ab838a5cb7516c42d" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSharpEdges</name></member>
       <member refid="classMR_1ac20c63596be5429f29cbd600cb0ed7b3" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findShortEdges</name></member>
       <member refid="classMR_1a24d1af6c18081e5d43772e91527c6001" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findShortestCoLoop</name></member>
       <member refid="classMR_1a8b2b7a4bfbaa0b9c7018129ff57cc14f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findShortestEquivalentLoops</name></member>
@@ -100839,6 +100901,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1af10a84361b4f7fd45ea3c9d6edaff256" prot="public" virt="non-virtual"><scope>MR</scope><name>findSelfCollidingTriangles</name></member>
       <member refid="classMR_1a81c2f50abb24282a2643556bae173a98" prot="public" virt="non-virtual"><scope>MR</scope><name>findSelfCollidingTriangles</name></member>
       <member refid="classMR_1a766a12288b4874cf95320f8b713de541" prot="public" virt="non-virtual"><scope>MR</scope><name>findSelfCollidingTrianglesBS</name></member>
+      <member refid="classMR_1a3bbef3a567e1470aac701e0c36b8d4b8" prot="public" virt="non-virtual"><scope>MR</scope><name>findSharpEdges</name></member>
       <member refid="classMR_1a18d296c841db9ca6d6984fbd0b4672c4" prot="public" virt="non-virtual"><scope>MR</scope><name>findShortEdges</name></member>
       <member refid="classMR_1ab18c3d680d5c9c23e988d7dead8b7c8a" prot="public" virt="non-virtual"><scope>MR</scope><name>findShortestCoLoop</name></member>
       <member refid="classMR_1a495179015bfa8aba5ea3d7f98b4df030" prot="public" virt="non-virtual"><scope>MR</scope><name>findShortestEquivalentLoops</name></member>

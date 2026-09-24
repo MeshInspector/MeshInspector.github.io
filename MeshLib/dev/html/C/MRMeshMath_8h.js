@@ -32,6 +32,7 @@ var MRMeshMath_8h =
     [ "MR_findCenterFromFaces", "MRMeshMath_8h.html#ad83de7f6852567e036539033934812ab", null ],
     [ "MR_findCenterFromPoints", "MRMeshMath_8h.html#a65e24d4416484fce4d6eb37fcfe133b7", null ],
     [ "MR_findCreaseEdges", "MRMeshMath_8h.html#a8ea891e80dfeb948f4d734fe20b8e5a9", null ],
+    [ "MR_findSharpEdges", "MRMeshMath_8h.html#ade97dcf4254044dfa9b9b9d0a85fe663", null ],
     [ "MR_findSpikeVertices", "MRMeshMath_8h.html#a521f3e3b1dbf9ccdab96ef7e5aadf086", null ],
     [ "MR_getClosestEdge_MR_MeshTriPoint", "MRMeshMath_8h.html#a8a0268bb0d254737669cf5b72c75a7b9", null ],
     [ "MR_getClosestEdge_MR_PointOnFace", "MRMeshMath_8h.html#a6e09861dd7faef96295e77c625ae7ecf", null ],

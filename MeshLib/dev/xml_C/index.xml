@@ -13831,6 +13831,7 @@
     <member refid="MRMesh_8h_1a92b6ad4740af5fbdc01dab517227af48" kind="function"><name>MR_Mesh_discreteMeanCurvature_MR_VertId</name></member>
     <member refid="MRMesh_8h_1a96d2cc85628650e9e59087b4f93d9a72" kind="function"><name>MR_Mesh_discreteMeanCurvature_MR_UndirectedEdgeId</name></member>
     <member refid="MRMesh_8h_1ab0231b3ab7e6ae186c9c3c7c9056206d" kind="function"><name>MR_Mesh_discreteGaussianCurvature</name></member>
+    <member refid="MRMesh_8h_1a3824645169af28c5c61befc921816bfd" kind="function"><name>MR_Mesh_findSharpEdges</name></member>
     <member refid="MRMesh_8h_1a8a1d802e8b289340ce148918a2edcea3" kind="function"><name>MR_Mesh_findCreaseEdges</name></member>
     <member refid="MRMesh_8h_1a5be26a5bd067a175abe19871cfe0cff8" kind="function"><name>MR_Mesh_leftCotan</name></member>
     <member refid="MRMesh_8h_1a50c2cf1989afb79f073924153d316379" kind="function"><name>MR_Mesh_cotan</name></member>
@@ -15370,6 +15371,7 @@
     <member refid="MRMeshMath_8h_1aea367b75e8791f695df17391af69ce6c" kind="function"><name>MR_discreteMeanCurvature_MR_VertId</name></member>
     <member refid="MRMeshMath_8h_1aad5c43a9c2fabb243c346c612d46b684" kind="function"><name>MR_discreteMeanCurvature_MR_UndirectedEdgeId</name></member>
     <member refid="MRMeshMath_8h_1a9d96a5e06e2351bbc83d8e18e3ba448b" kind="function"><name>MR_discreteGaussianCurvature</name></member>
+    <member refid="MRMeshMath_8h_1ade97dcf4254044dfa9b9b9d0a85fe663" kind="function"><name>MR_findSharpEdges</name></member>
     <member refid="MRMeshMath_8h_1a8ea891e80dfeb948f4d734fe20b8e5a9" kind="function"><name>MR_findCreaseEdges</name></member>
     <member refid="MRMeshMath_8h_1a65be60be14d47aec757966aa6eae0d4a" kind="function"><name>MR_leftCotan</name></member>
     <member refid="MRMeshMath_8h_1af3e509e3c50da85afe47d712af5683cd" kind="function"><name>MR_cotan</name></member>

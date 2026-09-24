@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1Const__BooleanResultPoints.html#ac30e7846597e05df5638606e79ab4cf2":[9,3,0,0,0,284,6],
 "classMR_1_1Const__BooleanResultPoints.html#ad0624f550af9d6ffc353ef61adb38122":[9,3,0,0,0,284,4],
 "classMR_1_1Const__BooleanResultPoints.html#ad926aa1955a203ce7c202e3942ebca23":[9,3,0,0,0,284,7],
 "classMR_1_1Const__BooleanResultPoints.html#af575020db033a71ade052e65160ff7b8":[9,3,0,0,0,284,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1Const__Buffer__MRTextureId__MRTextureId.html#ae237b9e91acac7c927a95355057231a2":[9,3,0,0,0,298,1],
 "classMR_1_1Const__Buffer__MRTextureId__MRTextureId.html#ae3b194405995d57baf53e06ae1ec4c3e":[9,3,0,0,0,298,7],
 "classMR_1_1Const__Buffer__MRTextureId__MRTextureId.html#afa66297d4f146cef3a8c719c07d7b168":[9,3,0,0,0,298,8],
-"classMR_1_1Const__Buffer__MRTextureId__MRTextureId.html#afaed4aa7b0f933d7111b595e680aa44b":[9,3,0,0,0,298,0],
-"classMR_1_1Const__Buffer__MRUndirectedEdgeId.html":[9,3,0,0,0,299]
+"classMR_1_1Const__Buffer__MRTextureId__MRTextureId.html#afaed4aa7b0f933d7111b595e680aa44b":[9,3,0,0,0,298,0]
 };

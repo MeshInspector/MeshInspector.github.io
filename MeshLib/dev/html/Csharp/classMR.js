@@ -3370,6 +3370,7 @@ var classMR =
     [ "findSelfCollidingTriangles", "classMR.html#a81c2f50abb24282a2643556bae173a98", null ],
     [ "findSelfCollidingTriangles", "classMR.html#af10a84361b4f7fd45ea3c9d6edaff256", null ],
     [ "findSelfCollidingTrianglesBS", "classMR.html#a766a12288b4874cf95320f8b713de541", null ],
+    [ "findSharpEdges", "classMR.html#a3bbef3a567e1470aac701e0c36b8d4b8", null ],
     [ "findShortEdges", "classMR.html#a18d296c841db9ca6d6984fbd0b4672c4", null ],
     [ "findShortestCoLoop", "classMR.html#ab18c3d680d5c9c23e988d7dead8b7c8a", null ],
     [ "findShortestEquivalentLoops", "classMR.html#a495179015bfa8aba5ea3d7f98b4df030", null ],

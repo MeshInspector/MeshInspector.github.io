@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#acdbccc832cc20380198f42e83b3ebefe":[9,1,0,0,2,1234,28],
+"classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#acdbccc832cc20380198f42e83b3ebefe":[9,1,0,0,2,1234,29],
 "classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#acdbccc832cc20380198f42e83b3ebefe":[9,1,1,0,1,1234,28],
 "classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#acdbccc832cc20380198f42e83b3ebefe":[9,1,1,0,1,1234,29],
 "classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#acffcad8ab7bcf68e0d04b9c37e6928fb":[9,1,0,0,2,1234,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX122 =
 "classmrmeshpy_1_1VertColors.html#a10a5b42268e9f66a4f5b1aeb51320abf":[9,1,0,0,2,1250,2],
 "classmrmeshpy_1_1VertColors.html#a10a5b42268e9f66a4f5b1aeb51320abf":[9,1,1,0,1,1250,2],
 "classmrmeshpy_1_1VertColors.html#a12c38917837b748823ab3f906094aa79":[9,1,0,0,2,1250,30],
-"classmrmeshpy_1_1VertColors.html#a12c38917837b748823ab3f906094aa79":[9,1,1,0,1,1250,30],
-"classmrmeshpy_1_1VertColors.html#a17912b9af8eae5da57a3eaa0cffc45b1":[9,1,0,0,2,1250,17],
-"classmrmeshpy_1_1VertColors.html#a17912b9af8eae5da57a3eaa0cffc45b1":[9,1,1,0,1,1250,17]
+"classmrmeshpy_1_1VertColors.html#a12c38917837b748823ab3f906094aa79":[9,1,1,0,1,1250,30]
 };

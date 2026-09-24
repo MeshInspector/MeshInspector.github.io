@@ -267,6 +267,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a08b8517dc08f3f1509ff3a0deb390e82" id="r_a08b8517dc08f3f1509ff3a0deb390e82"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08b8517dc08f3f1509ff3a0deb390e82">discreteMeanCurvature</a> (VertId v) const</td></tr>
 <tr class="memitem:a504db229abc4375e45ea9b83ff9b3c6a" id="r_a504db229abc4375e45ea9b83ff9b3c6a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a504db229abc4375e45ea9b83ff9b3c6a">discreteMeanCurvature</a> (UndirectedEdgeId e) const</td></tr>
 <tr class="memitem:a18e24b802c039dde02eeb902045cdb20" id="r_a18e24b802c039dde02eeb902045cdb20"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e24b802c039dde02eeb902045cdb20">discreteGaussianCurvature</a> (VertId v, bool *outBoundaryVert=nullptr) const</td></tr>
+<tr class="memitem:a30ffc7daf92144ac76a43684a5ca21b4" id="r_a30ffc7daf92144ac76a43684a5ca21b4"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30ffc7daf92144ac76a43684a5ca21b4">findSharpEdges</a> (float minSharpCos, float maxSharpCos) const</td></tr>
+<tr class="memdesc:a30ffc7daf92144ac76a43684a5ca21b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos]  <br /></td></tr>
 <tr class="memitem:a1eda7cca99d50abaa6f9c15d4edefabb" id="r_a1eda7cca99d50abaa6f9c15d4edefabb"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1eda7cca99d50abaa6f9c15d4edefabb">findCreaseEdges</a> (float angleFromPlanar) const</td></tr>
 <tr class="memdesc:a1eda7cca99d50abaa6f9c15d4edefabb"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value  <br /></td></tr>
 <tr class="memitem:a76cd30890d96aba180bc7680067a1227" id="r_a76cd30890d96aba180bc7680067a1227"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76cd30890d96aba180bc7680067a1227">leftCotan</a> (EdgeId e) const</td></tr>
@@ -1692,6 +1694,37 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value </p>
+
+</div>
+</div>
+<a id="a30ffc7daf92144ac76a43684a5ca21b4" name="a30ffc7daf92144ac76a43684a5ca21b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30ffc7daf92144ac76a43684a5ca21b4">&#9670;&#160;</a></span>findSharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UndirectedEdgeBitSet MR::Mesh::findSharpEdges </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minSharpCos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxSharpCos</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos] </p>
 
 </div>
 </div>

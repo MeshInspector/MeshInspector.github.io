@@ -2131,6 +2131,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.findSelfCollidingTriangles", "namespacemrmeshpy.html#a28caa4e8161ef89b2685aa244f467790", null ],
     [ "mrmeshpy.findSelfCollidingTriangles", "namespacemrmeshpy.html#ac1cf938db8029f891159d704ea71878e", null ],
     [ "mrmeshpy.findSelfCollidingTrianglesBS", "namespacemrmeshpy.html#a3aa904ad285f3f21da7d9fe9b20f1214", null ],
+    [ "mrmeshpy.findSharpEdges", "namespacemrmeshpy.html#afe9f45e73e13a37a640745e74dc78c4b", null ],
     [ "mrmeshpy.findShortEdges", "namespacemrmeshpy.html#ab55df158c95461c44e492d93796d12fc", null ],
     [ "mrmeshpy.findShortestCoLoop", "namespacemrmeshpy.html#a53f095469eff47177d0ba8497d333b44", null ],
     [ "mrmeshpy.findShortestEquivalentLoops", "namespacemrmeshpy.html#a59e740515157517acc36ec6997bdbed1", null ],

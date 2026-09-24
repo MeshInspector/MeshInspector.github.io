@@ -48,6 +48,7 @@ var classmrmeshpy_1_1Mesh =
     [ "findClosestPoint", "classmrmeshpy_1_1Mesh.html#abe14f595d2f3d2004db494af6edc2e95", null ],
     [ "findClosestPoint", "classmrmeshpy_1_1Mesh.html#ae46252d11a42ac015ed15e5e098bf33f", null ],
     [ "findCreaseEdges", "classmrmeshpy_1_1Mesh.html#a536a18423020614c306e0a0bb9aba3b5", null ],
+    [ "findSharpEdges", "classmrmeshpy_1_1Mesh.html#ab9d3c2a6a1c508eebc0891867f65d3cd", null ],
     [ "findSpikeVertices", "classmrmeshpy_1_1Mesh.html#aa3f23f562a5cb9881e99cbfd999e9811", null ],
     [ "getAABBTree", "classmrmeshpy_1_1Mesh.html#ade45ed7d511e639f56310f10fc6cacad", null ],
     [ "getAABBTreeNotCreate", "classmrmeshpy_1_1Mesh.html#a8c7be6420379e2a2df06d8d728468cb1", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX124 =
 {
+"classmrmeshpy_1_1VertCoordsDiff.html#a4a72f67221207562890675c33452ecc4":[9,1,0,0,2,1253,0],
+"classmrmeshpy_1_1VertCoordsDiff.html#a4a72f67221207562890675c33452ecc4":[9,1,1,0,1,1253,0],
 "classmrmeshpy_1_1VertCoordsDiff.html#af5292de97a12bb2b173977bfe50415e9":[9,1,0,0,2,1253,3],
 "classmrmeshpy_1_1VertCoordsDiff.html#af5292de97a12bb2b173977bfe50415e9":[9,1,1,0,1,1253,3],
 "classmrmeshpy_1_1VertDistance.html":[9,1,0,0,2,1254],
@@ -247,7 +249,5 @@ var NAVTREEINDEX124 =
 "classmrmeshpy_1_1VertScalars.html#affc1cef98bed7eb34f8d7ace302fb77d":[9,1,1,0,1,1260,24],
 "classmrmeshpy_1_1VertScalars.html#affc1cef98bed7eb34f8d7ace302fb77d":[9,1,1,0,1,1260,25],
 "classmrmeshpy_1_1VertexMass.html":[9,1,0,0,2,1255],
-"classmrmeshpy_1_1VertexMass.html":[9,1,1,0,1,1255],
-"classmrmeshpy_1_1VertexMass.html#a1d1d09b85ff397b7316216d64fd96c40":[9,1,0,0,2,1255,5],
-"classmrmeshpy_1_1VertexMass.html#a1d1d09b85ff397b7316216d64fd96c40":[9,1,1,0,1,1255,5]
+"classmrmeshpy_1_1VertexMass.html":[9,1,1,0,1,1255]
 };

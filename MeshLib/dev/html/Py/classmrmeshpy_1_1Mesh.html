@@ -196,6 +196,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae46252d11a42ac015ed15e5e098bf33f" id="r_ae46252d11a42ac015ed15e5e098bf33f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae46252d11a42ac015ed15e5e098bf33f">findClosestPoint</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> point, <a class="el" href="classmrmeshpy_1_1MeshProjectionResult.html">MeshProjectionResult</a> res, float maxDistSq=3.4028234663852886e+38, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> xf=None)</td></tr>
 <tr class="memitem:abe14f595d2f3d2004db494af6edc2e95" id="r_abe14f595d2f3d2004db494af6edc2e95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe14f595d2f3d2004db494af6edc2e95">findClosestPoint</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> point, float maxDistSq=3.4028234663852886e+38, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> xf=None)</td></tr>
 <tr class="memitem:a536a18423020614c306e0a0bb9aba3b5" id="r_a536a18423020614c306e0a0bb9aba3b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a536a18423020614c306e0a0bb9aba3b5">findCreaseEdges</a> (self, float angleFromPlanar)</td></tr>
+<tr class="memitem:ab9d3c2a6a1c508eebc0891867f65d3cd" id="r_ab9d3c2a6a1c508eebc0891867f65d3cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9d3c2a6a1c508eebc0891867f65d3cd">findSharpEdges</a> (self, float minSharpCos, float maxSharpCos)</td></tr>
 <tr class="memitem:aa3f23f562a5cb9881e99cbfd999e9811" id="r_aa3f23f562a5cb9881e99cbfd999e9811"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3f23f562a5cb9881e99cbfd999e9811">findSpikeVertices</a> (self, float minSumAngle, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:ade45ed7d511e639f56310f10fc6cacad" id="r_ade45ed7d511e639f56310f10fc6cacad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AABBTree.html">AABBTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade45ed7d511e639f56310f10fc6cacad">getAABBTree</a> (self)</td></tr>
 <tr class="memitem:a8c7be6420379e2a2df06d8d728468cb1" id="r_a8c7be6420379e2a2df06d8d728468cb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AABBTree.html">AABBTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c7be6420379e2a2df06d8d728468cb1">getAABBTreeNotCreate</a> (self)</td></tr>
@@ -1524,6 +1525,33 @@ optionally returns whether the vertex is on boundary
       </table>
 </div><div class="memdoc">
 <pre class="fragment">finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value
+</pre> 
+</div>
+</div>
+<a id="ab9d3c2a6a1c508eebc0891867f65d3cd" name="ab9d3c2a6a1c508eebc0891867f65d3cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9d3c2a6a1c508eebc0891867f65d3cd">&#9670;&#160;</a></span>findSharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> mrmeshpy.Mesh.findSharpEdges </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minSharpCos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxSharpCos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos]
 </pre> 
 </div>
 </div>

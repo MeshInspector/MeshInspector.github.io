@@ -62,6 +62,7 @@ var MRMesh_8h =
     [ "MR_Mesh_findClosestPoint_4", "MRMesh_8h.html#ae969980d134dab37db041e67e8210e98", null ],
     [ "MR_Mesh_findClosestPoint_5", "MRMesh_8h.html#ae8071a8f1c75aca507d6f243fd9d6264", null ],
     [ "MR_Mesh_findCreaseEdges", "MRMesh_8h.html#a8a1d802e8b289340ce148918a2edcea3", null ],
+    [ "MR_Mesh_findSharpEdges", "MRMesh_8h.html#a3824645169af28c5c61befc921816bfd", null ],
     [ "MR_Mesh_findSpikeVertices", "MRMesh_8h.html#a641a81a13c090f4ada9a457b67edf651", null ],
     [ "MR_Mesh_fromFaceSoup", "MRMesh_8h.html#a3534e335cffaf9785fe46ee2c8562f5d", null ],
     [ "MR_Mesh_fromPointTriples", "MRMesh_8h.html#aa3457f469ba8577c5c434e7877ca718c", null ],

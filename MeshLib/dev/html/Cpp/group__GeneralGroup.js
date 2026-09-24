@@ -12157,6 +12157,7 @@ var group__GeneralGroup =
     [ "MR::findSegmentSegmentIntersectionPrecise", "group__GeneralGroup.html#ga217c93ac0b5b2271f3387a858b87d734", null ],
     [ "MR::findSegmentSegmentIntersectionPrecise", "group__GeneralGroup.html#ga77c53fa57be3188038506af24b3f752a", null ],
     [ "MR::SeparationPointStorage::findSeparationPointSet", "group__GeneralGroup.html#ga4f797a53cf1d4fedcf01fbd51dcf3e04", null ],
+    [ "MR::findSharpEdges", "group__GeneralGroup.html#ga651e3f95e4788e69947b26609db39da8", null ],
     [ "MR::ShortcutManager::findShortcutByName", "group__GeneralGroup.html#ga174c714d2e8c7d0d831b3561f5e8b427", null ],
     [ "MR::findSignedDistances", "group__GeneralGroup.html#ga79c9901bf0bf90470274e88ac9ded1d5", null ],
     [ "MR::findSignedDistances", "group__GeneralGroup.html#gaf70fbc3926faabd14d6e8b2a2f3e3f64", null ],

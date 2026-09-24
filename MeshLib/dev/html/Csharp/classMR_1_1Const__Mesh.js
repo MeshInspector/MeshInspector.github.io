@@ -44,6 +44,7 @@ var classMR_1_1Const__Mesh =
     [ "findClosestPoint", "classMR_1_1Const__Mesh.html#a8988e64555843fbf2d2f10e2d74558a7", null ],
     [ "findClosestPoint", "classMR_1_1Const__Mesh.html#aa2775c4f611750504e110740b9a2143f", null ],
     [ "findCreaseEdges", "classMR_1_1Const__Mesh.html#acaa1a323b359755f854bacd4b19e17bb", null ],
+    [ "findSharpEdges", "classMR_1_1Const__Mesh.html#a4ad52d28f5f3ff1d4add1d39a452f3d2", null ],
     [ "findSpikeVertices", "classMR_1_1Const__Mesh.html#a202c18bfd4a011ddcfc9274a041ff995", null ],
     [ "fromFaceSoup", "classMR_1_1Const__Mesh.html#a3d20ec971a1772c8c560ecc05fc625d2", null ],
     [ "fromPointTriples", "classMR_1_1Const__Mesh.html#a3ab5d9b7ba1426c16b2665c03a13fbc7", null ],

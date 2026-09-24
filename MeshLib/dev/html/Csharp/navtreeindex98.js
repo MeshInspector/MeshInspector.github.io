@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1CutMeshResult.html#a16661b74ee92dd23c977239dd1780077":[9,3,0,0,0,1123,1],
+"classMR_1_1CutMeshResult.html#a2e672df7679e0f058dcbba30529bc43a":[9,3,0,0,0,1123,6],
 "classMR_1_1CutMeshResult.html#a56816aff08a44bc49db705045b7022a9":[9,3,0,0,0,1123,3],
 "classMR_1_1CutMeshResult.html#a6036b98bf53e8905006d57b198d2add3":[9,3,0,0,0,1123,7],
 "classMR_1_1CutMeshResult.html#a7345ff3973087b46d6761b9cffe6ae8d":[9,3,0,0,0,1123,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1DenseBox.html#a4c41dbcbc959e9183bf99e56297282e2":[9,3,0,0,0,1136,5],
 "classMR_1_1DenseBox.html#a58f638ce8334613fecd2a436e09c227f":[9,3,0,0,0,1136,6],
 "classMR_1_1DenseBox.html#a5b7e3001d3cbc3d572c6736d71cfb57b":[9,3,0,0,0,1136,1],
-"classMR_1_1DenseBox.html#a5c9358fa86ec7146f3394ac6fbcc35f3":[9,3,0,0,0,1136,7],
-"classMR_1_1DenseBox.html#a66edb7a6cf725308e50f62bd87c2dd95":[9,3,0,0,0,1136,3],
-"classMR_1_1DenseBox.html#a6bfdb3a3968429070e9eb0381c4110fd":[9,3,0,0,0,1136,11]
+"classMR_1_1DenseBox.html#a5c9358fa86ec7146f3394ac6fbcc35f3":[9,3,0,0,0,1136,7]
 };

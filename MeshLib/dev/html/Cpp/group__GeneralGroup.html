@@ -5818,6 +5818,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gab714f4aed5a6b97e21d0eb82dcf9e2bc" id="r_gab714f4aed5a6b97e21d0eb82dcf9e2bc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab714f4aed5a6b97e21d0eb82dcf9e2bc">MR::discreteMeanCurvature</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, VertId v)</td></tr>
 <tr class="memitem:gae56a9ad6b660150573d8e1147ddbb1f5" id="r_gae56a9ad6b660150573d8e1147ddbb1f5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae56a9ad6b660150573d8e1147ddbb1f5">MR::discreteMeanCurvature</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, UndirectedEdgeId e)</td></tr>
 <tr class="memitem:ga065988451e8b7dd6f1686f6e1fdfee06" id="r_ga065988451e8b7dd6f1686f6e1fdfee06"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga065988451e8b7dd6f1686f6e1fdfee06">MR::discreteGaussianCurvature</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, VertId v, bool *outBoundaryVert=nullptr)</td></tr>
+<tr class="memitem:ga651e3f95e4788e69947b26609db39da8" id="r_ga651e3f95e4788e69947b26609db39da8"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga651e3f95e4788e69947b26609db39da8">MR::findSharpEdges</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, float minSharpCos, float maxSharpCos)</td></tr>
+<tr class="memdesc:ga651e3f95e4788e69947b26609db39da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos]  <br /></td></tr>
 <tr class="memitem:ga4474364c5ae6c6bf625ffa3068f8760c" id="r_ga4474364c5ae6c6bf625ffa3068f8760c"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4474364c5ae6c6bf625ffa3068f8760c">MR::findCreaseEdges</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, float angleFromPlanar)</td></tr>
 <tr class="memdesc:ga4474364c5ae6c6bf625ffa3068f8760c"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value  <br /></td></tr>
 <tr class="memitem:gacb779a4e2496ac90c589aeec364d5095" id="r_gacb779a4e2496ac90c589aeec364d5095"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacb779a4e2496ac90c589aeec364d5095">MR::leftCotan</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, EdgeId e)</td></tr>
@@ -73098,6 +73100,49 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 <p><code>#include &lt;<a class="el" href="MRSeparationPoint_8h.html">MRMesh/MRSeparationPoint.h</a>&gt;</code></p>
 
 <p>finds the set (locating the block) by voxel id </p>
+
+</div>
+</div>
+<a id="ga651e3f95e4788e69947b26609db39da8" name="ga651e3f95e4788e69947b26609db39da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga651e3f95e4788e69947b26609db39da8">&#9670;&#160;</a></span>findSharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UndirectedEdgeBitSet MR::findSharpEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minSharpCos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxSharpCos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshMath_8h.html">MRMesh/MRMeshMath.h</a>&gt;</code></p>
+
+<p>finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos] </p>
 
 </div>
 </div>

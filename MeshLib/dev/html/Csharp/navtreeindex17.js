@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1Box__Vector3i64.html#a10a0054d64e9ec3594ed45eeb82da388":[9,3,0,0,0,132,5],
 "classMR_1_1Box__Vector3i64.html#a3c4a4b6d67dc6cdb0f95255c8329f9e7":[9,3,0,0,0,132,8],
 "classMR_1_1Box__Vector3i64.html#a4b157aec2f277178df2c7ae4597086e8":[9,3,0,0,0,132,1],
 "classMR_1_1Box__Vector3i64.html#a56dd9f9398da45a302df7c4a23884cd7":[9,3,0,0,0,132,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1Buffer__MRTextureId__MRTextureId.html":[9,3,0,0,0,153],
 "classMR_1_1Buffer__MRTextureId__MRTextureId.html#a0364c8a7d2c90ad5879fef887ce4116e":[9,3,0,0,0,153,5],
 "classMR_1_1Buffer__MRTextureId__MRTextureId.html#a0d9224bf2e352c8f663ef3f74287cc88":[9,3,0,0,0,153,7],
-"classMR_1_1Buffer__MRTextureId__MRTextureId.html#a53a9f7ba4c82fa39740d22ee222cca25":[9,3,0,0,0,153,1],
-"classMR_1_1Buffer__MRTextureId__MRTextureId.html#aa00418db9bdbd45f17bb3cbcaf3505a8":[9,3,0,0,0,153,4]
+"classMR_1_1Buffer__MRTextureId__MRTextureId.html#a53a9f7ba4c82fa39740d22ee222cca25":[9,3,0,0,0,153,1]
 };

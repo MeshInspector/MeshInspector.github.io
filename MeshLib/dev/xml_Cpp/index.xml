@@ -5636,6 +5636,7 @@
     <member refid="structMR_1_1Mesh_1a08b8517dc08f3f1509ff3a0deb390e82" kind="function"><name>discreteMeanCurvature</name></member>
     <member refid="structMR_1_1Mesh_1a504db229abc4375e45ea9b83ff9b3c6a" kind="function"><name>discreteMeanCurvature</name></member>
     <member refid="structMR_1_1Mesh_1a18e24b802c039dde02eeb902045cdb20" kind="function"><name>discreteGaussianCurvature</name></member>
+    <member refid="structMR_1_1Mesh_1a30ffc7daf92144ac76a43684a5ca21b4" kind="function"><name>findSharpEdges</name></member>
     <member refid="structMR_1_1Mesh_1a1eda7cca99d50abaa6f9c15d4edefabb" kind="function"><name>findCreaseEdges</name></member>
     <member refid="structMR_1_1Mesh_1a76cd30890d96aba180bc7680067a1227" kind="function"><name>leftCotan</name></member>
     <member refid="structMR_1_1Mesh_1aae3794627367f1c0ae6a497f41542197" kind="function"><name>cotan</name></member>
@@ -15415,6 +15416,7 @@
     <member refid="group__GeneralGroup_1gab714f4aed5a6b97e21d0eb82dcf9e2bc" kind="function"><name>discreteMeanCurvature</name></member>
     <member refid="group__GeneralGroup_1gae56a9ad6b660150573d8e1147ddbb1f5" kind="function"><name>discreteMeanCurvature</name></member>
     <member refid="group__GeneralGroup_1ga065988451e8b7dd6f1686f6e1fdfee06" kind="function"><name>discreteGaussianCurvature</name></member>
+    <member refid="group__GeneralGroup_1ga651e3f95e4788e69947b26609db39da8" kind="function"><name>findSharpEdges</name></member>
     <member refid="group__GeneralGroup_1ga4474364c5ae6c6bf625ffa3068f8760c" kind="function"><name>findCreaseEdges</name></member>
     <member refid="group__GeneralGroup_1gacb779a4e2496ac90c589aeec364d5095" kind="function"><name>leftCotan</name></member>
     <member refid="group__GeneralGroup_1gae88dcc2f46770de755e55f980a67a5f3" kind="function"><name>cotan</name></member>
@@ -17397,6 +17399,16 @@
   </compound>
   <compound refid="MREmbeddedPython_8h" kind="file"><name>MREmbeddedPython.h</name>
   </compound>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
+  </compound>
   <compound refid="MR3mf_8h" kind="file"><name>MR3mf.h</name>
   </compound>
   <compound refid="MRCtm_8h" kind="file"><name>MRCtm.h</name>
@@ -17422,6 +17434,10 @@
   <compound refid="MRSvg_8h" kind="file"><name>MRSvg.h</name>
   </compound>
   <compound refid="MRTiff_8h" kind="file"><name>MRTiff.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
   </compound>
   <compound refid="MRFastmcpp_8h" kind="file"><name>MRFastmcpp.h</name>
   </compound>
@@ -18423,6 +18439,10 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -18450,10 +18470,6 @@
   <compound refid="MRXfBasedCache_8h" kind="file"><name>MRXfBasedCache.h</name>
   </compound>
   <compound refid="MRZip_8h" kind="file"><name>MRZip.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
-  </compound>
-  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
   </compound>
   <compound refid="MRPythonNumpy_8h" kind="file"><name>MRPythonNumpy.h</name>
     <member refid="MRPythonNumpy_8h_1ab135bb78166c0f59c9fe34366ab1786d" kind="define"><name>MRMESHNUMPY_PARENT_MODULE_NAME</name></member>
@@ -18839,10 +18855,6 @@
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
   </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
     <member refid="MRViewer_8h_1a1a1151cfe48505fed9bdf9d94af7cbde" kind="define"><name>ENQUEUE_VIEWER_METHOD_ARGS</name></member>
@@ -18889,16 +18901,6 @@
   <compound refid="MRWebResponseCallback_8h" kind="file"><name>MRWebResponseCallback.h</name>
   </compound>
   <compound refid="MRWin32MessageHandler_8h" kind="file"><name>MRWin32MessageHandler.h</name>
-  </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
   </compound>
   <compound refid="MRBoolean_8h" kind="file"><name>MRBoolean.h</name>
   </compound>
@@ -27406,6 +27408,7 @@
     <member refid="group__GeneralGroup_1gab714f4aed5a6b97e21d0eb82dcf9e2bc" kind="function"><name>discreteMeanCurvature</name></member>
     <member refid="group__GeneralGroup_1gae56a9ad6b660150573d8e1147ddbb1f5" kind="function"><name>discreteMeanCurvature</name></member>
     <member refid="group__GeneralGroup_1ga065988451e8b7dd6f1686f6e1fdfee06" kind="function"><name>discreteGaussianCurvature</name></member>
+    <member refid="group__GeneralGroup_1ga651e3f95e4788e69947b26609db39da8" kind="function"><name>findSharpEdges</name></member>
     <member refid="group__GeneralGroup_1ga4474364c5ae6c6bf625ffa3068f8760c" kind="function"><name>findCreaseEdges</name></member>
     <member refid="group__GeneralGroup_1gacb779a4e2496ac90c589aeec364d5095" kind="function"><name>leftCotan</name></member>
     <member refid="group__GeneralGroup_1gae88dcc2f46770de755e55f980a67a5f3" kind="function"><name>cotan</name></member>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX145 =
 {
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html":[9,1,0,0,2,935],
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html":[9,1,1,0,1,935],
 "classmrmeshpy_1_1std__vector__Box__Vector3__float.html#a0d45bad4c754238b8da4cc29ab0fe60a":[9,1,0,0,2,935,21],
 "classmrmeshpy_1_1std__vector__Box__Vector3__float.html#a0d45bad4c754238b8da4cc29ab0fe60a":[9,1,1,0,1,935,21],
 "classmrmeshpy_1_1std__vector__Box__Vector3__float.html#a0f4cd87cf3afbd090ba9ec98d9cefe5e":[9,1,0,0,2,935,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX145 =
 "classmrmeshpy_1_1std__vector__Dipole.html#a5bee48b400d1c97bafbb20958fe34049":[9,1,0,0,2,940,4],
 "classmrmeshpy_1_1std__vector__Dipole.html#a5bee48b400d1c97bafbb20958fe34049":[9,1,1,0,1,940,4],
 "classmrmeshpy_1_1std__vector__Dipole.html#a5c1b306472ba1235d3e5f304b35a2153":[9,1,0,0,2,940,18],
-"classmrmeshpy_1_1std__vector__Dipole.html#a5c1b306472ba1235d3e5f304b35a2153":[9,1,1,0,1,940,18],
-"classmrmeshpy_1_1std__vector__Dipole.html#a66c5f5e892f2f0c1650b18bc72a196bb":[9,1,0,0,2,940,20],
-"classmrmeshpy_1_1std__vector__Dipole.html#a66c5f5e892f2f0c1650b18bc72a196bb":[9,1,1,0,1,940,20]
+"classmrmeshpy_1_1std__vector__Dipole.html#a5c1b306472ba1235d3e5f304b35a2153":[9,1,1,0,1,940,18]
 };

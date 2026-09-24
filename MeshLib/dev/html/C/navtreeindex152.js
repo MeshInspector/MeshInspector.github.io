@@ -1,5 +1,7 @@
 var NAVTREEINDEX152 =
 {
+"std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h.html":[9,2,2,0,0,0,0,2,272],
+"std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h.html#a38a89b2079a748584eb255e4304342b3":[9,2,2,0,0,0,0,2,272,9],
 "std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h.html#a4338640dfbd8282c52f9d87f9c377d3b":[9,2,2,0,0,0,0,2,272,4],
 "std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h.html#a47c4b734351b10d7bb5c09f5d87d8274":[9,2,2,0,0,0,0,2,272,5],
 "std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h.html#a68135dabc0de9350d630cd8665ba35b8":[9,2,2,0,0,0,0,2,272,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX152 =
 "std__pair__const__MR__PixelId__MR__PixelId_8h.html#a2fce26f765954b6c22449cc998dbadf4":[9,2,2,0,0,0,0,2,247,8],
 "std__pair__const__MR__PixelId__MR__PixelId_8h.html#a408b15b803b730844b30ca7a04659522":[9,2,2,0,0,0,0,2,247,4],
 "std__pair__const__MR__PixelId__MR__PixelId_8h.html#a6717bb25970cfbd62882f8f7d3f17a2a":[9,2,2,0,0,0,0,2,247,9],
-"std__pair__const__MR__PixelId__MR__PixelId_8h.html#a84998dc8ab82f156a820b677593857c9":[9,2,2,0,0,0,0,2,247,5],
-"std__pair__const__MR__PixelId__MR__PixelId_8h.html#a859003ce502115323676b136407d32c5":[9,2,2,0,0,0,0,2,247,3],
-"std__pair__const__MR__PixelId__MR__PixelId_8h.html#ad06f3dd264a155e46222a019f53f3295":[9,2,2,0,0,0,0,2,247,7]
+"std__pair__const__MR__PixelId__MR__PixelId_8h.html#a84998dc8ab82f156a820b677593857c9":[9,2,2,0,0,0,0,2,247,5]
 };

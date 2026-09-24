@@ -19538,6 +19538,7 @@
     <member refid="classMR_1_1Const__Mesh_1a1dc6d4be764deabf0008ccc6e05eeb33" kind="function"><name>discreteMeanCurvature</name></member>
     <member refid="classMR_1_1Const__Mesh_1add61237bc2a74e12e5be8ab83ac63d6c" kind="function"><name>discreteMeanCurvature</name></member>
     <member refid="classMR_1_1Const__Mesh_1a4cbc3986a13f34d9d4a2cd88e29d71e3" kind="function"><name>discreteGaussianCurvature</name></member>
+    <member refid="classMR_1_1Const__Mesh_1a4ad52d28f5f3ff1d4add1d39a452f3d2" kind="function"><name>findSharpEdges</name></member>
     <member refid="classMR_1_1Const__Mesh_1acaa1a323b359755f854bacd4b19e17bb" kind="function"><name>findCreaseEdges</name></member>
     <member refid="classMR_1_1Const__Mesh_1a20c8a63eeb72631629308e8cc708af1b" kind="function"><name>leftCotan</name></member>
     <member refid="classMR_1_1Const__Mesh_1a1de3cfcb264c6e57d0a9092f929a0f75" kind="function"><name>cotan</name></member>
@@ -19614,6 +19615,7 @@
     <member refid="classMR_1_1Const__Mesh_1a510d47c80b6db32e741b7b496dc89a29" kind="function"><name>__MR_Mesh_findClosestPoint_4</name></member>
     <member refid="classMR_1_1Const__Mesh_1adb8194619346f6ea0d6ee3031dd6d30e" kind="function"><name>__MR_Mesh_findClosestPoint_5</name></member>
     <member refid="classMR_1_1Const__Mesh_1a98589c8845629a913110dd9d998c6624" kind="function"><name>__MR_Mesh_findCreaseEdges</name></member>
+    <member refid="classMR_1_1Const__Mesh_1a1606a0c6b509b4a16037b75be166c892" kind="function"><name>__MR_Mesh_findSharpEdges</name></member>
     <member refid="classMR_1_1Const__Mesh_1afe915cf21686dec3120f2b0cc58ec610" kind="function"><name>__MR_Mesh_findSpikeVertices</name></member>
     <member refid="classMR_1_1Const__Mesh_1aac1d39111ff6db2aa013409b20ef601b" kind="function"><name>__MR_Mesh_fromFaceSoup</name></member>
     <member refid="classMR_1_1Const__Mesh_1ab68aa516811c5ddb391fc00bf32bc632" kind="function"><name>__MR_Mesh_fromPointTriples</name></member>
@@ -52142,6 +52144,7 @@
     <member refid="classMR_1af50f100e25f32a6d477aa3ae80889d1b" kind="function"><name>discreteMeanCurvature</name></member>
     <member refid="classMR_1a5da682fa8aecfbdafd4a0b9606c10dfe" kind="function"><name>discreteMeanCurvature</name></member>
     <member refid="classMR_1a56f1eb3cfc60a758c2ae53d934572252" kind="function"><name>discreteGaussianCurvature</name></member>
+    <member refid="classMR_1a3bbef3a567e1470aac701e0c36b8d4b8" kind="function"><name>findSharpEdges</name></member>
     <member refid="classMR_1a52092e06f802b6d68a888a9dded3b0d6" kind="function"><name>findCreaseEdges</name></member>
     <member refid="classMR_1a28035721404bdaae2880266cb35c1336" kind="function"><name>leftCotan</name></member>
     <member refid="classMR_1a31f83a0dd4afa558cf678b618017a770" kind="function"><name>cotan</name></member>
@@ -53938,6 +53941,7 @@
     <member refid="classMR_1ac2c22b4ccd59dc4169ff83f2e6084306" kind="function"><name>__MR_findCenterFromFaces</name></member>
     <member refid="classMR_1a94ddf96109001b4cda4c15d7a8925ef9" kind="function"><name>__MR_findCenterFromPoints</name></member>
     <member refid="classMR_1ac98a75d0d8bd27ce0be4b43e4a662f2c" kind="function"><name>__MR_findCreaseEdges</name></member>
+    <member refid="classMR_1ad3922de5511e930ab838a5cb7516c42d" kind="function"><name>__MR_findSharpEdges</name></member>
     <member refid="classMR_1aad12baf6568b91c8583af4b144b14320" kind="function"><name>__MR_findSpikeVertices</name></member>
     <member refid="classMR_1a773f0aa3ca7bb301afd138b9149cbff1" kind="function"><name>__MR_getClosestEdge_MR_MeshTriPoint</name></member>
     <member refid="classMR_1a82dbc1cf151b2bc6a7b6c14bc43f15d9" kind="function"><name>__MR_getClosestEdge_MR_PointOnFace</name></member>

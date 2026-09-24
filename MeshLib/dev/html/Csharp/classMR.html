@@ -10254,6 +10254,8 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <tr class="memdesc:a5da682fa8aecfbdafd4a0b9606c10dfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes discrete mean curvature in given edge, measures in length^-1; 0 for planar regions, positive for convex surface, negative for concave surface Generated from function <span class="tt"><a class="el" href="#af50f100e25f32a6d477aa3ae80889d1b" title="computes discrete mean curvature in given vertex, measures in length^-1; 0 for planar regions,...">MR.discreteMeanCurvature</a></span>.  <br /></td></tr>
 <tr class="memitem:a56f1eb3cfc60a758c2ae53d934572252" id="r_a56f1eb3cfc60a758c2ae53d934572252"><td class="memItemLeft" align="right" valign="top">static unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56f1eb3cfc60a758c2ae53d934572252">discreteGaussianCurvature</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, MR.Misc.InOut&lt; bool &gt;? outBoundaryVert=null)</td></tr>
 <tr class="memdesc:a56f1eb3cfc60a758c2ae53d934572252"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes discrete Gaussian curvature (or angle defect) at given vertex, which 0 in inner vertices on planar mesh parts and reaches 2*pi on needle's tip, see <a href="http://math.uchicago.edu/~may/REU2015/REUPapers/Upadhyay.pdf">http://math.uchicago.edu/~may/REU2015/REUPapers/Upadhyay.pdf</a> optionally returns whether the vertex is on boundary Generated from function <span class="tt"><a class="el" href="#a56f1eb3cfc60a758c2ae53d934572252" title="computes discrete Gaussian curvature (or angle defect) at given vertex, which 0 in inner vertices on ...">MR.discreteGaussianCurvature</a></span>.  <br /></td></tr>
+<tr class="memitem:a3bbef3a567e1470aac701e0c36b8d4b8" id="r_a3bbef3a567e1470aac701e0c36b8d4b8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbef3a567e1470aac701e0c36b8d4b8">findSharpEdges</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, float minSharpCos, float maxSharpCos)</td></tr>
+<tr class="memdesc:a3bbef3a567e1470aac701e0c36b8d4b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos] Generated from function <span class="tt"><a class="el" href="#a3bbef3a567e1470aac701e0c36b8d4b8" title="finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos,...">MR.findSharpEdges</a></span>.  <br /></td></tr>
 <tr class="memitem:a52092e06f802b6d68a888a9dded3b0d6" id="r_a52092e06f802b6d68a888a9dded3b0d6"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52092e06f802b6d68a888a9dded3b0d6">findCreaseEdges</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, float angleFromPlanar)</td></tr>
 <tr class="memdesc:a52092e06f802b6d68a888a9dded3b0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value Generated from function <span class="tt"><a class="el" href="#a52092e06f802b6d68a888a9dded3b0d6" title="finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value Ge...">MR.findCreaseEdges</a></span>.  <br /></td></tr>
 <tr class="memitem:a28035721404bdaae2880266cb35c1336" id="r_a28035721404bdaae2880266cb35c1336"><td class="memItemLeft" align="right" valign="top">static unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28035721404bdaae2880266cb35c1336">leftCotan</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e)</td></tr>
@@ -48395,6 +48397,47 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div><div class="memdoc">
 
 <p>the same <a class="el" href="#af10a84361b4f7fd45ea3c9d6edaff256">findSelfCollidingTriangles</a> but returns the union of all self-intersecting faces Generated from function <span class="tt"><a class="el" href="#a766a12288b4874cf95320f8b713de541" title="the same findSelfCollidingTriangles but returns the union of all self-intersecting faces Generated fr...">MR.findSelfCollidingTrianglesBS</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">touchIsIntersection</span> defaults to <span class="tt">false</span>. </p>
+
+</div>
+</div>
+<a id="a3bbef3a567e1470aac701e0c36b8d4b8" name="a3bbef3a567e1470aac701e0c36b8d4b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bbef3a567e1470aac701e0c36b8d4b8">&#9670;&#160;</a></span>findSharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a> MR.findSharpEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minSharpCos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxSharpCos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos] Generated from function <span class="tt"><a class="el" href="#a3bbef3a567e1470aac701e0c36b8d4b8" title="finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos,...">MR.findSharpEdges</a></span>. </p>
 
 </div>
 </div>
