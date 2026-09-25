@@ -214,15 +214,15 @@ var NAVTREEINDEX =
 "namespaceImGui.html#aba3aedd4bc21e49dc028ea838c0a2146",
 "namespaceMR_1_1MeshSave.html#a44ae097f41a9722d0110ffb971ba7ce0",
 "namespacemembers_func_z.html",
-"structMR_1_1BoxedLeaf.html",
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html",
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a400a2b9d56be1cc23d10368dd6ef6e36",
-"structMR_1_1IntersectionPrecomputes2.html#a8dc8336a41d3f8aa6342f55f92aaba1b",
-"structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4",
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html",
-"structMR_1_1RemeshSettings.html",
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436",
-"structMR_1_1Vector4.html"
+"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8",
+"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013",
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html",
+"structMR_1_1IntersectionPrecomputes2.html#a802abc712cfba3867b04a4f8a9ba4f60",
+"structMR_1_1Mesh.html#a8ee4d943cee3647d877e189fb6b375d9",
+"structMR_1_1NumSum.html",
+"structMR_1_1RefineParameters.html",
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18",
+"structMR_1_1Vector3.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

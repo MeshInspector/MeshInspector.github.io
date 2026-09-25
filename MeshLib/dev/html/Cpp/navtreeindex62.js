@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8":[9,0,0,0,2,0,7],
+"structMR_1_1Box.html#af93a3ccd5c9d9d678844e2578807089f":[9,0,0,0,2,0,26],
 "structMR_1_1BoxedLeaf.html":[9,0,0,1,2],
 "structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46":[9,0,0,1,2,0],
 "structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7":[9,0,0,1,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[9,0,2,0,2,2,3,0],
 "structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[9,0,1,0,1,6,3,2],
 "structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[9,0,2,0,2,2,3,2],
-"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[9,0,1,0,1,6,3,1],
-"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[9,0,2,0,2,2,3,1],
-"structMR_1_1Features_1_1Traits_1_1Binary.html":[9,0,0,20,247]
+"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[9,0,1,0,1,6,3,1]
 };

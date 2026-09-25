@@ -181088,7 +181088,7 @@ returns true if load was succeed </para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>begin plugin with given parameters sets params.collapsed from <computeroutput>dialogIsCollapsed_</computeroutput> </para>
+<para>begin plugin with given parameters sets params.collapsed from <computeroutput>dialogIsCollapsed_</computeroutput> and params.testEngineName from <computeroutput><ref refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" kindref="member">name()</ref></computeroutput> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

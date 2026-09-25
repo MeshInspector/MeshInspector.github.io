@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1RefineParameters.html":[9,0,0,20,236],
+"structMR_1_1RelaxParams.html":[9,0,0,20,486],
 "structMR_1_1RemeshSettings.html":[9,0,0,10,3],
 "structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[9,0,0,10,3,1],
 "structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[9,0,0,10,3,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5ce3e11baf70433c7c9e34e49be985f4":[9,0,1,0,1,48,0,5],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5ce3e11baf70433c7c9e34e49be985f4":[9,0,2,0,2,32,0,5],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[9,0,1,0,1,48,0,4],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[9,0,2,0,2,32,0,4],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18":[9,0,1,0,1,48,0,3],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18":[9,0,2,0,2,32,0,3]
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[9,0,2,0,2,32,0,4]
 };

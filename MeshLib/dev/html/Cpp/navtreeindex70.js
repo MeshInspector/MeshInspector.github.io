@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1Vector3.html":[9,0,0,20,536],
+"structMR_1_1Vector4.html":[9,0,0,0,12,2],
 "structMR_1_1Vector4.html":[9,0,0,20,537],
 "structMR_1_1VectorTraits.html":[9,0,0,20,538],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html":[9,0,0,20,779],
