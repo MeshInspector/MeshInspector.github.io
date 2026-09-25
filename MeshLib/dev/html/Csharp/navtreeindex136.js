@@ -1,5 +1,6 @@
 var NAVTREEINDEX136 =
 {
+"classMR_1_1UndirectedEdgeBitSet.html#a5cbdf29dbdaeb5443003a95750ed74b0":[9,3,0,0,0,1713,36],
 "classMR_1_1UndirectedEdgeBitSet.html#a6179ace1791c3193b39b97ea12388256":[9,3,0,0,0,1713,25],
 "classMR_1_1UndirectedEdgeBitSet.html#a636f4bb88df31ccb7e388d21a6808c19":[9,3,0,0,0,1713,7],
 "classMR_1_1UndirectedEdgeBitSet.html#a64afeb56d2118d4244c6f53c4f3c0ed7":[9,3,0,0,0,1713,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX136 =
 "classMR_1_1UnorientedTriangle.html#acc4d47aad933a099f11b9bdaea323d50":[9,3,0,0,0,1732,2],
 "classMR_1_1UnorientedTriangle.html#adb08e44235b3f3b76b543eb11f435b69":[9,3,0,0,0,1732,1],
 "classMR_1_1UnorientedTriangle.html#aeed58daed0b5191760e8196821155bf8":[9,3,0,0,0,1732,5],
-"classMR_1_1VacantElements.html":[9,3,0,0,0,1733],
-"classMR_1_1VacantElements.html#a1f1f584d07e040832028f6ec2f4e24d8":[9,3,0,0,0,1733,1]
+"classMR_1_1VacantElements.html":[9,3,0,0,0,1733]
 };

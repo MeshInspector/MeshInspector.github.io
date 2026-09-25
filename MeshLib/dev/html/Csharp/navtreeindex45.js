@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1Const__EdgeSetBitIterator.html#ab752d02fc550cd66ed029a7a0cd370d1":[9,3,0,0,0,428,10],
 "classMR_1_1Const__EdgeSetBitIterator.html#abfc030ca578ef4b89d1bd0036c1c805b":[9,3,0,0,0,428,1],
 "classMR_1_1Const__EdgeSetBitIterator.html#ac825e3d967f9dc24ee1ffab563790d4a":[9,3,0,0,0,428,9],
 "classMR_1_1Const__EdgeSetBitIterator.html#afd61f9211978c60a4af1e41bc51eb20c":[9,3,0,0,0,428,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1Const__FaceColors.html#aacfa19c545850b2857e8884be9589425":[9,3,0,0,0,440,20],
 "classMR_1_1Const__FaceColors.html#ab05d37be712ee4d1a1ebef962ee1a06d":[9,3,0,0,0,440,11],
 "classMR_1_1Const__FaceColors.html#ac107d004a33398cc90b89e4cbb2b8498":[9,3,0,0,0,440,6],
-"classMR_1_1Const__FaceColors.html#ac4e729c1b2b8405bd07352bd00bb149e":[9,3,0,0,0,440,22],
-"classMR_1_1Const__FaceColors.html#aca11e47d7b603b97d5cb14dc7b2b8f6a":[9,3,0,0,0,440,13]
+"classMR_1_1Const__FaceColors.html#ac4e729c1b2b8405bd07352bd00bb149e":[9,3,0,0,0,440,22]
 };

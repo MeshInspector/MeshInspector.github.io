@@ -11036,6 +11036,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:ac33bd77ed4b213b607c2ece4ce796255"><td class="mdescLeft">&#160;</td><td class="mdescRight">composes the set of all boundary vertices for given region (or whole mesh if !region) Generated from function <span class="tt"><a class="el" href="#ac33bd77ed4b213b607c2ece4ce796255" title="composes the set of all boundary vertices for given region (or whole mesh if !region) Generated from ...">MR.getBoundaryVerts</a></span>.  <br /></td></tr>
 <tr class="memitem:a20968573b76cd2e53ad1cf152e0e1212" id="r_a20968573b76cd2e53ad1cf152e0e1212"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20968573b76cd2e53ad1cf152e0e1212">getRegionBoundaryVerts</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> region)</td></tr>
 <tr class="memdesc:a20968573b76cd2e53ad1cf152e0e1212"><td class="mdescLeft">&#160;</td><td class="mdescRight">composes the set of all boundary vertices for given region, unlike getBoundaryVerts the vertices of mesh boundary having no incident not-region faces are not returned Generated from function <span class="tt"><a class="el" href="#a20968573b76cd2e53ad1cf152e0e1212" title="composes the set of all boundary vertices for given region, unlike getBoundaryVerts the vertices of m...">MR.getRegionBoundaryVerts</a></span>.  <br /></td></tr>
+<tr class="memitem:a2451853251808e4141ef955f04d93c55" id="r_a2451853251808e4141ef955f04d93c55"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2451853251808e4141ef955f04d93c55">getRegionInnerVerts</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> region)</td></tr>
+<tr class="memdesc:a2451853251808e4141ef955f04d93c55"><td class="mdescLeft">&#160;</td><td class="mdescRight">composes the set of all vertices with at least one incident face and all their incident faces in given region, unlike getInnerVerts the vertices on the boundary of a hole are returned as well; equivalent to getIncidentVerts( topology, region ) - getRegionBoundaryVerts( topology, region ) but faster Generated from function <span class="tt"><a class="el" href="#a2451853251808e4141ef955f04d93c55" title="composes the set of all vertices with at least one incident face and all their incident faces in give...">MR.getRegionInnerVerts</a></span>.  <br /></td></tr>
 <tr class="memitem:ade5be76cf361a0d74b50cf1723b2d8dc" id="r_ade5be76cf361a0d74b50cf1723b2d8dc"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5be76cf361a0d74b50cf1723b2d8dc">getIncidentFaces</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> verts)</td></tr>
 <tr class="memdesc:ade5be76cf361a0d74b50cf1723b2d8dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">composes the set of all faces incident to given vertices Generated from function <span class="tt"><a class="el" href="#ade5be76cf361a0d74b50cf1723b2d8dc" title="composes the set of all faces incident to given vertices Generated from function MR....">MR.getIncidentFaces</a></span>.  <br /></td></tr>
 <tr class="memitem:a1b2dfa87aa13491ab43e57691964271f" id="r_a1b2dfa87aa13491ab43e57691964271f"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b2dfa87aa13491ab43e57691964271f">getInnerFaces</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> verts)</td></tr>
@@ -53924,6 +53926,37 @@ Simple metric minimizing edge length It is measured in length units. Generated f
 </div><div class="memdoc">
 
 <p>composes the set of all edges, having a face from given set at the left Generated from function <span class="tt"><a class="el" href="#a196f2a04b1c76f0a0f268e9c5f54c234" title="composes the set of all edges, having a face from given set at the left Generated from function MR....">MR.getRegionEdges</a></span>. </p>
+
+</div>
+</div>
+<a id="a2451853251808e4141ef955f04d93c55" name="a2451853251808e4141ef955f04d93c55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2451853251808e4141ef955f04d93c55">&#9670;&#160;</a></span>getRegionInnerVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a> MR.getRegionInnerVerts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>composes the set of all vertices with at least one incident face and all their incident faces in given region, unlike getInnerVerts the vertices on the boundary of a hole are returned as well; equivalent to getIncidentVerts( topology, region ) - getRegionBoundaryVerts( topology, region ) but faster Generated from function <span class="tt"><a class="el" href="#a2451853251808e4141ef955f04d93c55" title="composes the set of all vertices with at least one incident face and all their incident faces in give...">MR.getRegionInnerVerts</a></span>. </p>
 
 </div>
 </div>

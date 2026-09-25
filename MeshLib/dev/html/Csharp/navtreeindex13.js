@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1BMap__MRVoxelId__MRVoxelId.html#aefb17b5953c9f8ed41333d8e40703129":[9,3,0,0,0,59,5],
 "classMR_1_1Ball1d.html":[9,3,0,0,0,30],
 "classMR_1_1Ball1d.html#a0e1475384932c4be7648654d0a9a9fdb":[9,3,0,0,0,30,6],
 "classMR_1_1Ball1d.html#a58f1070d4c4ccd95abe6d0d1343e381f":[9,3,0,0,0,30,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1BooleanResultPoints.html#ab8ef5dbcfdd308a032f822ed33b863ae":[9,3,0,0,0,65,1],
 "classMR_1_1BooleanResultPoints.html#abe1a4e0d1bc02dccc3d7f5afd08a3a7b":[9,3,0,0,0,65,5],
 "classMR_1_1BooleanResultPoints.html#ac544a4e00693e46c412c2091a6c4b8b9":[9,3,0,0,0,65,6],
-"classMR_1_1BooleanResultPoints.html#aed097a5bf8b445a417b90a3a9759c0dd":[9,3,0,0,0,65,2],
-"classMR_1_1Box__AffineXf2d.html":[9,3,0,0,0,78]
+"classMR_1_1BooleanResultPoints.html#aed097a5bf8b445a417b90a3a9759c0dd":[9,3,0,0,0,65,2]
 };

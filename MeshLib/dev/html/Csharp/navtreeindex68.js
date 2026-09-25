@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"classMR_1_1Const__OutAttributesFillingSettings.html#aedd0dbf4bf82127ffe82994d60711919":[9,3,0,0,0,703,10],
 "classMR_1_1Const__OutAttributesFillingSettings.html#afed12cc279f46698b06b5cdc93fd6014":[9,3,0,0,0,703,6],
 "classMR_1_1Const__OutlierParams.html":[9,3,0,0,0,704],
 "classMR_1_1Const__OutlierParams.html#a0848b16ef611b7d849f9bc6644746105":[9,3,0,0,0,704,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "classMR_1_1Const__Pdf_1_1Const__ImageParams.html#aef0f4a89c8e4b4421381ee64af636129a2ad9d63b69c4a10a5cc9cad923133bc4":[9,3,0,0,0,715,4,0,2],
 "classMR_1_1Const__Pdf_1_1Const__ImageParams.html#aef0f4a89c8e4b4421381ee64af636129a4f1f6016fc9f3f2353c0cc7c67b292bd":[9,3,0,0,0,715,4,0,1],
 "classMR_1_1Const__Pdf_1_1Const__ImageParams.html#aef0f4a89c8e4b4421381ee64af636129aa4ffdcf0dc1f31b9acaf295d75b51d00":[9,3,0,0,0,715,4,0,0],
-"classMR_1_1Const__Pdf_1_1Const__ImageParams.html#afb03aa3922640707a2f2dd3fd710be76":[9,3,0,0,0,715,4,8],
-"classMR_1_1Const__Pdf_1_1Const__PaletteRowStats.html":[9,3,0,0,0,715,5]
+"classMR_1_1Const__Pdf_1_1Const__ImageParams.html#afb03aa3922640707a2f2dd3fd710be76":[9,3,0,0,0,715,4,8]
 };

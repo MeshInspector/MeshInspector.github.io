@@ -2124,6 +2124,7 @@ var namespacemrmeshpy =
     [ "getPlaneNormalizedFillMetric", "namespacemrmeshpy.html#a4769228706a1bdb2caeab887afa80a75", null ],
     [ "getRegionBoundaryVerts", "namespacemrmeshpy.html#a70811dded7ed0ad2de54c406d42dec57", null ],
     [ "getRegionEdges", "namespacemrmeshpy.html#acca9b2647a3408077241bcc84f4c7e0d", null ],
+    [ "getRegionInnerVerts", "namespacemrmeshpy.html#a7a0092132c5d81e56cb677320cd1c943", null ],
     [ "getSubdividePart", "namespacemrmeshpy.html#aa82518cf7ccebecca845e16f083a2aa1", null ],
     [ "getSumSqDistToPlane", "namespacemrmeshpy.html#a28996b69ec46de8f55a4c72814e0f5eb", null ],
     [ "getSumSqDistToPoint", "namespacemrmeshpy.html#ab47da81dbc30b4305eead39e61945187", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"classMR_1_1Const__IntersectionPrecomputes__Float.html#afdd635a2033c7a53784cb4ddd27cc471":[9,3,0,0,0,517,14],
 "classMR_1_1Const__IntrinsicDeloneSettings.html":[9,3,0,0,0,519],
 "classMR_1_1Const__IntrinsicDeloneSettings.html#a26d72df087101a555e7fa705d52c3d22":[9,3,0,0,0,519,3],
 "classMR_1_1Const__IntrinsicDeloneSettings.html#a4643682809cfdd477237d755f8e52bde":[9,3,0,0,0,519,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "classMR_1_1Const__Line3f.html#ab6f969ce58215f89deef453ec54a3391":[9,3,0,0,0,543,11],
 "classMR_1_1Const__Line3f.html#ae000d410e4c153ea8fc63158ef2c3eb4":[9,3,0,0,0,543,7],
 "classMR_1_1Const__Line3f.html#aed6365cb05b7f58c89b4b431cdd1eb87":[9,3,0,0,0,543,2],
-"classMR_1_1Const__Line3f.html#af293c8f9fe1c6aedf1822f8c503a369d":[9,3,0,0,0,543,14],
-"classMR_1_1Const__Line3f.html#af5b60b5c4b1903726b73c2f3b3d12d26":[9,3,0,0,0,543,3]
+"classMR_1_1Const__Line3f.html#af293c8f9fe1c6aedf1822f8c503a369d":[9,3,0,0,0,543,14]
 };

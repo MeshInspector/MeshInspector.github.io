@@ -1,5 +1,6 @@
 var NAVTREEINDEX118 =
 {
+"classMR_1_1NodeBitSet.html#a0349badc164c3e77dbad8647f5e84910":[9,3,0,0,0,1431,1],
 "classMR_1_1NodeBitSet.html#a1002123d732800f31398b1e98909c5d0":[9,3,0,0,0,1431,4],
 "classMR_1_1NodeBitSet.html#a12808b476bee6effb077ff99b209795f":[9,3,0,0,0,1431,26],
 "classMR_1_1NodeBitSet.html#a19a3f0d72431ca81c62be6b9f44d54ba":[9,3,0,0,0,1431,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX118 =
 "classMR_1_1ObjectDistanceMap.html#a549582b20884e76018aaf33ab95e195c":[9,3,0,0,0,1456,63],
 "classMR_1_1ObjectDistanceMap.html#a54eac39f6cd12dd6463dcc99c02b5c9f":[9,3,0,0,0,1456,53],
 "classMR_1_1ObjectDistanceMap.html#a567ed0d85e51eaa72e72aeb3037b875d":[9,3,0,0,0,1456,80],
-"classMR_1_1ObjectDistanceMap.html#a585546d3a1546d0a23a275af9c19dc42":[9,3,0,0,0,1456,30],
-"classMR_1_1ObjectDistanceMap.html#a644a7b0663d932828acda2201e1dbced":[9,3,0,0,0,1456,89]
+"classMR_1_1ObjectDistanceMap.html#a585546d3a1546d0a23a275af9c19dc42":[9,3,0,0,0,1456,30]
 };

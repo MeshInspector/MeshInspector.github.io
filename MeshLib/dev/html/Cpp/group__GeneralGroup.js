@@ -12885,6 +12885,7 @@ var group__GeneralGroup =
     [ "MR::FreeFormDeformer::getRefGridPointPosition", "group__GeneralGroup.html#gafd4a0e83c6c54f3d4f17ed0187ce66a4", null ],
     [ "MR::getRegionBoundaryVerts", "group__GeneralGroup.html#gad773688a06cb12794b937fd0e792f79a", null ],
     [ "MR::getRegionEdges", "group__GeneralGroup.html#ga8e8ba4975b219200687bca5ed2a7ab6a", null ],
+    [ "MR::getRegionInnerVerts", "group__GeneralGroup.html#gad11ae302c767d2be0e943207f8acae65", null ],
     [ "MR::Palette::getRelativePos", "group__GeneralGroup.html#gaf1447e478d4ff49ac2571756a9f15ec7", null ],
     [ "MR::ObjectPointsHolder::getRenderDiscretization", "group__GeneralGroup.html#ga655ebcd931a3422a41e25e3080f708d5", null ],
     [ "MR::Viewer::getRequestedMSAA", "group__GeneralGroup.html#gae2c6d7d9b091c37a745619db547dc932", null ],

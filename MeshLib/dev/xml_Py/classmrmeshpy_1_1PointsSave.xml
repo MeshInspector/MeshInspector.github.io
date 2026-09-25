@@ -177,6 +177,32 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5763" bodyend="5766"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsSave_1ab6e2c023ecfac37431fbbc78226902ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsSave.toCtm</definition>
+        <argsstring>(PointCloud points, typing.Any out, PointsSave.CtmSavePointsOptions options)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>mrmeshpy.PointsSave.toCtm</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions" kindref="compound">PointsSave.CtmSavePointsOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5769" bodyend="5770"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsSave_1a935ede47437742121a7853c640d3a56c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.PointsSave.toCtm</definition>
@@ -195,32 +221,6 @@
           <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
           <declname>settings</declname>
           <defval>...</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5769" bodyend="5770"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PointsSave_1ab6e2c023ecfac37431fbbc78226902ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.PointsSave.toCtm</definition>
-        <argsstring>(PointCloud points, typing.Any out, PointsSave.CtmSavePointsOptions options)</argsstring>
-        <name>toCtm</name>
-        <qualifiedname>mrmeshpy.PointsSave.toCtm</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
-          <declname>points</declname>
-        </param>
-        <param>
-          <type>typing.Any</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions" kindref="compound">PointsSave.CtmSavePointsOptions</ref></type>
-          <declname>options</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -415,8 +415,8 @@ each output line contains [x, y, z, nx, ny, nz], where x, y, z are point coordin
       <member refid="classmrmeshpy_1_1PointsSave_1a32c969afe336a05c413abcfc15eb2f22" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toAsc</name></member>
       <member refid="classmrmeshpy_1_1PointsSave_1a13dced07ff00d1e3ba3fe0f3aeacd7a5" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toCtm</name></member>
       <member refid="classmrmeshpy_1_1PointsSave_1a93737fa7b229b80ab785dd6cc7eab23f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toCtm</name></member>
-      <member refid="classmrmeshpy_1_1PointsSave_1a935ede47437742121a7853c640d3a56c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toCtm</name></member>
       <member refid="classmrmeshpy_1_1PointsSave_1ab6e2c023ecfac37431fbbc78226902ce" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toCtm</name></member>
+      <member refid="classmrmeshpy_1_1PointsSave_1a935ede47437742121a7853c640d3a56c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toCtm</name></member>
       <member refid="classmrmeshpy_1_1PointsSave_1a60cd4c66a5cc982d51e42742a3dadc21" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toPly</name></member>
       <member refid="classmrmeshpy_1_1PointsSave_1a64abf2928066d95967b400626f576ca4" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toPly</name></member>
       <member refid="classmrmeshpy_1_1PointsSave_1a885cbd0b5a16ff95bebb0717e6a5c606" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toXyz</name></member>

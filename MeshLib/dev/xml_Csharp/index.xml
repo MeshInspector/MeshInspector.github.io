@@ -52582,6 +52582,7 @@
     <member refid="classMR_1a9a9648b2eab1964cfec6b76d195477ed" kind="function"><name>getInnerVerts</name></member>
     <member refid="classMR_1ac33bd77ed4b213b607c2ece4ce796255" kind="function"><name>getBoundaryVerts</name></member>
     <member refid="classMR_1a20968573b76cd2e53ad1cf152e0e1212" kind="function"><name>getRegionBoundaryVerts</name></member>
+    <member refid="classMR_1a2451853251808e4141ef955f04d93c55" kind="function"><name>getRegionInnerVerts</name></member>
     <member refid="classMR_1ade5be76cf361a0d74b50cf1723b2d8dc" kind="function"><name>getIncidentFaces</name></member>
     <member refid="classMR_1a1b2dfa87aa13491ab43e57691964271f" kind="function"><name>getInnerFaces</name></member>
     <member refid="classMR_1a196f2a04b1c76f0a0f268e9c5f54c234" kind="function"><name>getRegionEdges</name></member>
@@ -54419,6 +54420,7 @@
     <member refid="classMR_1a7f799d587c83ce7fe8f25ae0b7030473" kind="function"><name>__MR_getNeighborFaces</name></member>
     <member refid="classMR_1a55b339602d4dd2748aa6e5ee95b6e5ea" kind="function"><name>__MR_getRegionBoundaryVerts</name></member>
     <member refid="classMR_1ac9caa900c7ef36147f40df1b61025be5" kind="function"><name>__MR_getRegionEdges</name></member>
+    <member refid="classMR_1a2c4498ccfe01de4944e442e9cf41dd45" kind="function"><name>__MR_getRegionInnerVerts</name></member>
     <member refid="classMR_1aa074e9a050e056faaa00ccc6a5301b3a" kind="function"><name>__MR_trackLeftBoundaryLoop</name></member>
     <member refid="classMR_1af895a940613f50c7647d6ec9e16a181b" kind="function"><name>__MR_trackRightBoundaryLoop</name></member>
     <member refid="classMR_1a5627c1f39f9835c711cae1c94fcb5ffb" kind="function"><name>__MR_makeRegularGridMesh_2</name></member>

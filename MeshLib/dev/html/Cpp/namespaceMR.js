@@ -2661,6 +2661,7 @@ var namespaceMR =
     [ "getProductName", "group__GeneralGroup.html#gadc1d56b4558307eb71c27eb346bdfd1c", null ],
     [ "getRegionBoundaryVerts", "group__GeneralGroup.html#gad773688a06cb12794b937fd0e792f79a", null ],
     [ "getRegionEdges", "group__GeneralGroup.html#ga8e8ba4975b219200687bca5ed2a7ab6a", null ],
+    [ "getRegionInnerVerts", "group__GeneralGroup.html#gad11ae302c767d2be0e943207f8acae65", null ],
     [ "GetResourcesDirectory", "group__GeneralGroup.html#gacbcf76720f1f257b107cbd0d2b92769d", null ],
     [ "getShaderMainBeginBlock", "group__GeneralGroup.html#gaf55badec247a8ed83ca57e51e74e36c0", null ],
     [ "getStreamSize", "group__GeneralGroup.html#gafdc0d2fa20f6b36f36b0baf8d7bbe4bb", null ],

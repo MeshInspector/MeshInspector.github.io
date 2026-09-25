@@ -1,5 +1,6 @@
 var NAVTREEINDEX142 =
 {
+"phmap__flat__hash__map__MR__VertId__float_8h_source.html":[9,2,2,0,0,0,0,2,88],
 "phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h.html":[9,2,2,0,0,0,0,2,92],
 "phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h.html#a0077b049e05ff30c43566780b65a5b9e":[9,2,2,0,0,0,0,2,92,27],
 "phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h.html#a0588a605bc4cbe233b1983ba68b0b7f4":[9,2,2,0,0,0,0,2,92,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX142 =
 "std__array__MR__Color__30_8h.html":[9,2,2,0,0,0,0,2,101],
 "std__array__MR__Color__30_8h.html#a396508286cccce1bfd48d3ffaf08e984":[9,2,2,0,0,0,0,2,101,1],
 "std__array__MR__Color__30_8h_source.html":[9,2,2,0,0,0,0,2,101],
-"std__array__MR__PreciseVertCoords2__3_8h.html":[9,2,2,0,0,0,0,2,102],
-"std__array__MR__PreciseVertCoords2__3_8h.html#a01cbca15d3c29d4bb96838c4a3a7a50e":[9,2,2,0,0,0,0,2,102,9]
+"std__array__MR__PreciseVertCoords2__3_8h.html":[9,2,2,0,0,0,0,2,102]
 };

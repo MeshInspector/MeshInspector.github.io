@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"classMR_1_1Const__PointObject.html#a03cbc37afe7db8d8b6c56ffa6a37913d":[9,3,0,0,0,730,67],
 "classMR_1_1Const__PointObject.html#a04cc8be553bec9f1b88ebfa738c4f943":[9,3,0,0,0,730,52],
 "classMR_1_1Const__PointObject.html#a065fca19a8ffc776c9a12a99eb7a4687":[9,3,0,0,0,730,30],
 "classMR_1_1Const__PointObject.html#a0758eef1e6d0ed17a04ed52211baae06":[9,3,0,0,0,730,70],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "classMR_1_1Const__PointsToDistanceVolumeParams.html#aaf65c494b3e05f6e4b13deb61b66ceb7":[9,3,0,0,0,738,12],
 "classMR_1_1Const__PointsToDistanceVolumeParams.html#ac3cc23d077c38781781a43cfeee21629":[9,3,0,0,0,738,15],
 "classMR_1_1Const__PointsToDistanceVolumeParams.html#ac61879aae1af3a5420e1554b2483d469":[9,3,0,0,0,738,19],
-"classMR_1_1Const__PointsToDistanceVolumeParams.html#adec32a030f89654e8ad4c9ad063c1564":[9,3,0,0,0,738,5],
-"classMR_1_1Const__PointsToDistanceVolumeParams.html#ae7168c7967812eef2f1b0d91371d7b47":[9,3,0,0,0,738,14]
+"classMR_1_1Const__PointsToDistanceVolumeParams.html#adec32a030f89654e8ad4c9ad063c1564":[9,3,0,0,0,738,5]
 };

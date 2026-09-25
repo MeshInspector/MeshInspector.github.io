@@ -7462,6 +7462,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gaf2cf93d2c7ffbf6ae4821220390574fd" id="r_gaf2cf93d2c7ffbf6ae4821220390574fd"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf2cf93d2c7ffbf6ae4821220390574fd">MR::getBoundaryVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:gaf2cf93d2c7ffbf6ae4821220390574fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">composes the set of all boundary vertices for given region (or whole mesh if !region)  <br /></td></tr>
 <tr class="memitem:gad773688a06cb12794b937fd0e792f79a" id="r_gad773688a06cb12794b937fd0e792f79a"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad773688a06cb12794b937fd0e792f79a">MR::getRegionBoundaryVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet &amp;region)</td></tr>
+<tr class="memitem:gad11ae302c767d2be0e943207f8acae65" id="r_gad11ae302c767d2be0e943207f8acae65"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad11ae302c767d2be0e943207f8acae65">MR::getRegionInnerVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet &amp;region)</td></tr>
 <tr class="memitem:gad41acdc2d93a9c111ff2a010a7814bdf" id="r_gad41acdc2d93a9c111ff2a010a7814bdf"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad41acdc2d93a9c111ff2a010a7814bdf">MR::getIncidentFaces</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertBitSet &amp;verts)</td></tr>
 <tr class="memdesc:gad41acdc2d93a9c111ff2a010a7814bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">composes the set of all faces incident to given vertices  <br /></td></tr>
 <tr class="memitem:gaaef79237218e3b6757176a8a9b0ac03d" id="r_gaaef79237218e3b6757176a8a9b0ac03d"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaef79237218e3b6757176a8a9b0ac03d">MR::getInnerFaces</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertBitSet &amp;verts)</td></tr>
@@ -93859,6 +93860,38 @@ template&lt;typename V&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRRegionBoundary_8h.html">MRMesh/MRRegionBoundary.h</a>&gt;</code></p>
 
 <p>composes the set of all edges, having a face from given set at the left </p>
+
+</div>
+</div>
+<a id="gad11ae302c767d2be0e943207f8acae65" name="gad11ae302c767d2be0e943207f8acae65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad11ae302c767d2be0e943207f8acae65">&#9670;&#160;</a></span>getRegionInnerVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertBitSet MR::getRegionInnerVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRRegionBoundary_8h.html">MRMesh/MRRegionBoundary.h</a>&gt;</code></p>
+<p>composes the set of all vertices with at least one incident face and all their incident faces in given region, unlike getInnerVerts the vertices on the boundary of a hole are returned as well; equivalent to getIncidentVerts( topology, region ) - getRegionBoundaryVerts( topology, region ) but faster </p>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"MRSceneColors_8h.html#a12def2e3e2f922d5117c6eb43c01a436":[9,2,2,0,0,0,0,1,315,1],
 "MRSceneColors_8h.html#a1f7968a2e645c273edd6641747ac0e4b":[9,2,2,0,0,0,0,1,315,0],
 "MRSceneColors_8h.html#a1f8169c6101c9d9b3dfa6c872cbc3433":[9,2,2,0,0,0,0,1,315,7],
 "MRSceneColors_8h.html#abd39f578f643bc642549d00d6d83ff94":[9,2,2,0,0,0,0,1,315,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "MRSegmPoint_8h.html#a4e60eda0dc4c526f10e9a8f6929922b7":[9,2,2,0,0,0,0,1,320,36],
 "MRSegmPoint_8h.html#a505b6474226dea3c41a8cc8ae9e58a48":[9,2,2,0,0,0,0,1,320,1],
 "MRSegmPoint_8h.html#a567183350dec6b300e740aeb0004852f":[9,2,2,0,0,0,0,1,320,21],
-"MRSegmPoint_8h.html#a5c94f46cbe2feb347a6a1f5a1f9ccac2":[9,2,2,0,0,0,0,1,320,35],
-"MRSegmPoint_8h.html#a5df392e93245decf685001fb773aed3f":[9,2,2,0,0,0,0,1,320,37]
+"MRSegmPoint_8h.html#a5c94f46cbe2feb347a6a1f5a1f9ccac2":[9,2,2,0,0,0,0,1,320,35]
 };

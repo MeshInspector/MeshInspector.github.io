@@ -140352,6 +140352,29 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRRegionBoundary.h" line="113" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="113" declcolumn="14"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gad11ae302c767d2be0e943207f8acae65" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::getRegionInnerVerts</definition>
+        <argsstring>(const MeshTopology &amp;topology, const FaceBitSet &amp;region)</argsstring>
+        <name>getRegionInnerVerts</name>
+        <qualifiedname>MR::getRegionInnerVerts</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>composes the set of all vertices with at least one incident face and all their incident faces in given region, unlike getInnerVerts the vertices on the boundary of a hole are returned as well; equivalent to getIncidentVerts( topology, region ) - getRegionBoundaryVerts( topology, region ) but faster </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRegionBoundary.h" line="118" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="118" declcolumn="14"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad41acdc2d93a9c111ff2a010a7814bdf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
         <definition>FaceBitSet MR::getIncidentFaces</definition>
@@ -140373,7 +140396,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="116" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="116" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="121" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="121" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaaef79237218e3b6757176a8a9b0ac03d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -140396,7 +140419,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="119" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="119" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="124" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="124" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8e8ba4975b219200687bca5ed2a7ab6a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeBitSet</type>
@@ -140419,7 +140442,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="122" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="122" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="127" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="127" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7c62678a98f7bc518805bd7a677d6674" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -140442,7 +140465,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="125" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="125" declcolumn="24"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="130" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="130" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga36ed48a6aab7607a3983c5492c50e22c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -140465,7 +140488,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="128" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="128" declcolumn="24"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="133" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="133" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4164918654e0538c4a3f1cfd0e4562a3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -140488,7 +140511,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="131" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="131" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="136" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="136" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa793f0cbb7613e733d7350367795da48" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -140511,7 +140534,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="134" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="134" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="139" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="139" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab23fc7120dab6b7ab49bdc965bfdb9f5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -140534,7 +140557,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="137" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="137" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="142" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="142" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga14cc03346c7b6c8e0f2fb75ab7865cd1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -140557,7 +140580,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="140" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="140" declcolumn="24"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="145" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="145" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac1f4537bd1f66f8d1fd1b74dc72b29c8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -140580,7 +140603,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="143" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="143" declcolumn="24"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="148" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="148" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga449e315d715d251f9ea330a4adb206b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const VertBitSet &amp;</type>
@@ -140607,7 +140630,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="147" column="21" declfile="MRMesh/MRRegionBoundary.h" declline="147" declcolumn="21"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="152" column="21" declfile="MRMesh/MRRegionBoundary.h" declline="152" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6552a6e6676abaae7bffe15e1b993c4a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -140630,7 +140653,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="150" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="150" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="155" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="155" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga336c89bb41942449b73eb9fdc6482579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>

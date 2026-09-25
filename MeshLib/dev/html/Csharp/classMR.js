@@ -3536,6 +3536,7 @@ var classMR =
     [ "getPlaneNormalizedFillMetric", "classMR.html#aa700c2a0ab5340fa456d054a40f02809", null ],
     [ "getRegionBoundaryVerts", "classMR.html#a20968573b76cd2e53ad1cf152e0e1212", null ],
     [ "getRegionEdges", "classMR.html#a196f2a04b1c76f0a0f268e9c5f54c234", null ],
+    [ "getRegionInnerVerts", "classMR.html#a2451853251808e4141ef955f04d93c55", null ],
     [ "getSubdividePart", "classMR.html#a0999167624becfc8f0ef783fd10f96b3", null ],
     [ "getSumSqDistToPlane", "classMR.html#abf546042a4484cc6c4a4c1815f87d9a3", null ],
     [ "getSumSqDistToPoint", "classMR.html#ad884edc07370b3a77d87506ef21dc7b2", null ],

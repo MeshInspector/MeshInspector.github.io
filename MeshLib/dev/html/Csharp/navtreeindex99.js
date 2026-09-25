@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1DeloneSettings.html#af38fc3d1b54200d822b175bdb4c99ceb":[9,3,0,0,0,1134,4],
 "classMR_1_1DeloneSettings.html#aff233148205194709d50b37f4722aa19":[9,3,0,0,0,1134,0],
 "classMR_1_1DenoiseViaNormalsSettings.html":[9,3,0,0,0,1135],
 "classMR_1_1DenoiseViaNormalsSettings.html#a07b9360cfc55d04883f2f72b2b875fad":[9,3,0,0,0,1135,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1DistanceMeasurementObject.html#a93201303a19ece5a41fc52297d769514":[9,3,0,0,0,1152,16],
 "classMR_1_1DistanceMeasurementObject.html#a9450841f6fce04f54f10968b7f3dcbf3":[9,3,0,0,0,1152,7],
 "classMR_1_1DistanceMeasurementObject.html#a993fec99aa6a58033159221d43d6d4e3":[9,3,0,0,0,1152,41],
-"classMR_1_1DistanceMeasurementObject.html#a9c423528e465f6723b4767b6cccf7680":[9,3,0,0,0,1152,44],
-"classMR_1_1DistanceMeasurementObject.html#aa798602551fbc29616ed1435e7795836":[9,3,0,0,0,1152,17]
+"classMR_1_1DistanceMeasurementObject.html#a9c423528e465f6723b4767b6cccf7680":[9,3,0,0,0,1152,44]
 };
