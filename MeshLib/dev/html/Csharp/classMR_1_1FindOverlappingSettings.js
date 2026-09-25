@@ -1,7 +1,7 @@
 var classMR_1_1FindOverlappingSettings =
 [
     [ "FindOverlappingSettings", "classMR_1_1FindOverlappingSettings.html#af2341a3a1fd62d71b5932f6253dfac17", null ],
-    [ "FindOverlappingSettings", "classMR_1_1FindOverlappingSettings.html#a19704b35707c206ce1b5cfb9fa0f4397", null ],
+    [ "FindOverlappingSettings", "classMR_1_1FindOverlappingSettings.html#a5ea25b0220ae4b33ba037aba7fc69d04", null ],
     [ "FindOverlappingSettings", "classMR_1_1FindOverlappingSettings.html#a1c275f2be1c66defff5566910641bccd", null ],
     [ "FindOverlappingSettings", "classMR_1_1FindOverlappingSettings.html#a076185b3212448d6951e8f04f3d7800f", null ],
     [ "FindOverlappingSettings", "classMR_1_1FindOverlappingSettings.html#a76c37e6e5b96ffb1d0dabe5ae527e111", null ],
@@ -10,5 +10,6 @@ var classMR_1_1FindOverlappingSettings =
     [ "maxDistSq", "classMR_1_1FindOverlappingSettings.html#a107828077696ab8e03547eda1f72c1b2", null ],
     [ "maxNormalDot", "classMR_1_1FindOverlappingSettings.html#a93d814c7bdfe57492d70b69bbd1d8e01", null ],
     [ "minAreaFraction", "classMR_1_1FindOverlappingSettings.html#a2b84340410951db4fad0d1f57914da4d", null ],
+    [ "minNormalDot", "classMR_1_1FindOverlappingSettings.html#ab400d00d331e7bf1b7b871a7adec82c8", null ],
     [ "pred", "classMR_1_1FindOverlappingSettings.html#a6123a9b01aff87f055b4cdf520415327", null ]
 ];

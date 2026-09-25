@@ -6882,7 +6882,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga6840a93a19f16466fd34f80dd6c77ba4" id="r_ga6840a93a19f16466fd34f80dd6c77ba4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6840a93a19f16466fd34f80dd6c77ba4">MR::findOutliers</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, const <a class="el" href="structMR_1_1FindOutliersParams.html">FindOutliersParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ga6840a93a19f16466fd34f80dd6c77ba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finding outlier points.  <br /></td></tr>
 <tr class="memitem:ga82e6843a66b16ee1912ffa7d48bd7c34" id="r_ga82e6843a66b16ee1912ffa7d48bd7c34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga82e6843a66b16ee1912ffa7d48bd7c34">MR::findOverlappingTris</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1FindOverlappingSettings.html">FindOverlappingSettings</a> &amp;settings)</td></tr>
-<tr class="memdesc:ga82e6843a66b16ee1912ffa7d48bd7c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all triangles that have oppositely oriented close triangle in the mesh  <br /></td></tr>
+<tr class="memdesc:ga82e6843a66b16ee1912ffa7d48bd7c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all triangles that have oppositely (or similarly, see minNormalDot) oriented close triangle in the mesh  <br /></td></tr>
 <tr class="memitem:ga0cdfe97a6580c1aaa9b873a6320f0793" id="r_ga0cdfe97a6580c1aaa9b873a6320f0793"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0cdfe97a6580c1aaa9b873a6320f0793">MR::Parabola&lt; T &gt;::Parabola</a> () noexcept=default</td></tr>
 <tr class="memitem:gaa24552a8fee4499ec38064ef05db41ac" id="r_gaa24552a8fee4499ec38064ef05db41ac"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa24552a8fee4499ec38064ef05db41ac">MR::Parabola&lt; T &gt;::Parabola</a> (T <a class="el" href="#ga34d2109107ef4c428253a8755305114b">a</a>, T <a class="el" href="#ga9753dfacf3e0613b37e554a7f4b63f8a">b</a>, T <a class="el" href="#ga87d6da7f3dba1aa3504784c26b407da3">c</a>)</td></tr>
 <tr class="memitem:ga35b32607bcb14a8f5c89da76ea131304" id="r_ga35b32607bcb14a8f5c89da76ea131304"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
@@ -13107,6 +13107,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:gad9c6b8c3584ffef1a49795f794fced8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal distance between closest points of one triangle and another overlapping triangle  <br /></td></tr>
 <tr class="memitem:gaabcdb20bd37c7191483848d201e24d53" id="r_gaabcdb20bd37c7191483848d201e24d53"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaabcdb20bd37c7191483848d201e24d53">MR::FindOverlappingSettings::maxNormalDot</a> = -0.99f</td></tr>
 <tr class="memdesc:gaabcdb20bd37c7191483848d201e24d53"><td class="mdescLeft">&#160;</td><td class="mdescRight">suggestion: multiply it on mesh.getBoundingBox().<a class="el" href="#ga306ff1f62992b3eb33c446913b64188a">size()</a>.lengthSq();  <br /></td></tr>
+<tr class="memitem:ga8d368cfb9c1c74281a473cc74c506d2e" id="r_ga8d368cfb9c1c74281a473cc74c506d2e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8d368cfb9c1c74281a473cc74c506d2e">MR::FindOverlappingSettings::minNormalDot</a> = FLT_MAX</td></tr>
 <tr class="memitem:ga2fb083294a0bd854f423edd314775ad7" id="r_ga2fb083294a0bd854f423edd314775ad7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2fb083294a0bd854f423edd314775ad7">MR::FindOverlappingSettings::minAreaFraction</a> = 1e-5f</td></tr>
 <tr class="memdesc:ga2fb083294a0bd854f423edd314775ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">consider triangle as overlapping only if the area of the oppositely oriented triangle is at least given fraction of the triangle's area  <br /></td></tr>
 <tr class="memitem:gacb6eb2b7cfbeacc7bb24b58262dcba34" id="r_gacb6eb2b7cfbeacc7bb24b58262dcba34"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(FaceId l, FaceId r)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacb6eb2b7cfbeacc7bb24b58262dcba34">MR::FindOverlappingSettings::pred</a></td></tr>
@@ -72452,7 +72453,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 <p><code>#include &lt;<a class="el" href="MROverlappingTris_8h.html">MRMesh/MROverlappingTris.h</a>&gt;</code></p>
 
-<p>finds all triangles that have oppositely oriented close triangle in the mesh </p>
+<p>finds all triangles that have oppositely (or similarly, see minNormalDot) oriented close triangle in the mesh </p>
 
 </div>
 </div>
@@ -221315,8 +221316,23 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 </div>
 </div>
+<a id="ga8d368cfb9c1c74281a473cc74c506d2e" name="ga8d368cfb9c1c74281a473cc74c506d2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8d368cfb9c1c74281a473cc74c506d2e">&#9670;&#160;</a></span>minNormalDot <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::FindOverlappingSettings::minNormalDot = FLT_MAX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if the dot product of the normals is at least this value, then similarly oriented close triangles are also considered overlapping, provided that their projections on the average plane overlap with positive area (it finds thin folds of the surface); the default value disables this check </p>
+
+</div>
+</div>
 <a id="ga4952e332cfe108e00f967d412a6aba88" name="ga4952e332cfe108e00f967d412a6aba88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4952e332cfe108e00f967d412a6aba88">&#9670;&#160;</a></span>minNormalDot</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4952e332cfe108e00f967d412a6aba88">&#9670;&#160;</a></span>minNormalDot <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36da9e62e749ce08f2fc8cb6437f1b409778":[9,3,0,0,0,809,1,2],
+"classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36daad36d169353d55602524d078a697a16b":[9,3,0,0,0,809,1,4],
 "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36dabaca4c96c2c2eb0beb55075d1dfb25ce":[9,3,0,0,0,809,1,8],
 "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36dae3241ff3a6a1c4e22348c34a6ef69904":[9,3,0,0,0,809,1,1],
 "classMR_1_1Const__SceneSettings.html#a341a9d682a0e78dfdfd496691a48e36dae93f994f01c537c4e2f7d8528c3eb5e9":[9,3,0,0,0,809,1,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "classMR_1_1Const__SetBitIteratorT__MRTextureBitSet.html#ae62e2e113a7088b355ef6adfe31444a7":[9,3,0,0,0,822,11],
 "classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html":[9,3,0,0,0,823],
 "classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html#a03a09fcf5db51f9df6d2de6cafc1212a":[9,3,0,0,0,823,0],
-"classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html#a50a612f7958819d6d0ba0521a9bb403d":[9,3,0,0,0,823,5],
-"classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html#a58e2204ea3b88e3134f210cecba7a2e4":[9,3,0,0,0,823,2],
-"classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html#a5f75f985f2f7865a002591d7f0ad4525":[9,3,0,0,0,823,8]
+"classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html#a50a612f7958819d6d0ba0521a9bb403d":[9,3,0,0,0,823,5]
 };

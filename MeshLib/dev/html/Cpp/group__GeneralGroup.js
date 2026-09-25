@@ -3726,6 +3726,7 @@ var group__GeneralGroup =
       [ "maxDistSq", "group__GeneralGroup.html#gad9c6b8c3584ffef1a49795f794fced8d", null ],
       [ "maxNormalDot", "group__GeneralGroup.html#gaabcdb20bd37c7191483848d201e24d53", null ],
       [ "minAreaFraction", "group__GeneralGroup.html#ga2fb083294a0bd854f423edd314775ad7", null ],
+      [ "minNormalDot", "group__GeneralGroup.html#ga8d368cfb9c1c74281a473cc74c506d2e", null ],
       [ "pred", "group__GeneralGroup.html#gacb6eb2b7cfbeacc7bb24b58262dcba34", null ]
     ] ],
     [ "MR::Parabola< T >", "structMR_1_1Parabola.html", [
@@ -17848,6 +17849,7 @@ var group__GeneralGroup =
     [ "MR::SurfaceManipulationWidget::PickedVertData::minMouseDistSq", "group__GeneralGroup.html#gaf5f398eb21b5c7e30480b4dbea5e0a51", null ],
     [ "MR::SharpenMarchingCubesMeshSettings::minNewVertDev", "group__GeneralGroup.html#gac280940d9748f10a71a06ffc496d1802", null ],
     [ "MR::SharpOffsetParameters::minNewVertDev", "group__GeneralGroup.html#gaf01c8832be1a64bae952f261154116cf", null ],
+    [ "MR::FindOverlappingSettings::minNormalDot", "group__GeneralGroup.html#ga8d368cfb9c1c74281a473cc74c506d2e", null ],
     [ "MR::UniformSamplingSettings::minNormalDot", "group__GeneralGroup.html#ga4952e332cfe108e00f967d412a6aba88", null ],
     [ "MR::ImproveSamplingSettings::minPointsInSample", "group__GeneralGroup.html#ga4aa26d04f708ecea38d954ac1c1d50c6", null ],
     [ "MR::SurfaceManipulationWidget::minRadius_", "group__GeneralGroup.html#ga3c9ed0bdb3a5f708f5d1da2cc0ab3c4f", null ],

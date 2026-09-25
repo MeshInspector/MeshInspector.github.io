@@ -19427,6 +19427,9 @@
     <member refid="MROverlappingTris_8h_1a07d249129b85a46ffec0a7bc4cd29d1a" kind="function"><name>MR_FindOverlappingSettings_Get_maxNormalDot</name></member>
     <member refid="MROverlappingTris_8h_1a6dda198266fb162294ecd70038771cca" kind="function"><name>MR_FindOverlappingSettings_Set_maxNormalDot</name></member>
     <member refid="MROverlappingTris_8h_1a3186caaa2b7e5c317998bffc52ac9e3b" kind="function"><name>MR_FindOverlappingSettings_GetMutable_maxNormalDot</name></member>
+    <member refid="MROverlappingTris_8h_1aa7d7e73a90eaf65a794058735e4f4303" kind="function"><name>MR_FindOverlappingSettings_Get_minNormalDot</name></member>
+    <member refid="MROverlappingTris_8h_1adc6e687463887d3b353d19739358ffb6" kind="function"><name>MR_FindOverlappingSettings_Set_minNormalDot</name></member>
+    <member refid="MROverlappingTris_8h_1a053a8aa3f84db57e0261180c0685dc43" kind="function"><name>MR_FindOverlappingSettings_GetMutable_minNormalDot</name></member>
     <member refid="MROverlappingTris_8h_1a80c7d590c5cf0394f8be8a65acfc6d41" kind="function"><name>MR_FindOverlappingSettings_Get_minAreaFraction</name></member>
     <member refid="MROverlappingTris_8h_1aa5e2579fcf28d3a65b1f87d69286780e" kind="function"><name>MR_FindOverlappingSettings_Set_minAreaFraction</name></member>
     <member refid="MROverlappingTris_8h_1ac770a43e4517d42b62968e0266bf1327" kind="function"><name>MR_FindOverlappingSettings_GetMutable_minAreaFraction</name></member>
@@ -19438,7 +19441,7 @@
     <member refid="MROverlappingTris_8h_1adcbf3e333357db479185f1727f51d779" kind="function"><name>MR_FindOverlappingSettings_GetMutable_cb</name></member>
     <member refid="MROverlappingTris_8h_1a8448e341144518fbb548ece1d9d0efaa" kind="function"><name>MR_FindOverlappingSettings_DefaultConstruct</name></member>
     <member refid="MROverlappingTris_8h_1a0b88e729bb69733766c408b514aa2bb5" kind="function"><name>MR_FindOverlappingSettings_DefaultConstructArray</name></member>
-    <member refid="MROverlappingTris_8h_1af43850fe714ab4c66d1d598bfe610fd6" kind="function"><name>MR_FindOverlappingSettings_ConstructFrom</name></member>
+    <member refid="MROverlappingTris_8h_1a80640c89d71775774e98fe92352c1454" kind="function"><name>MR_FindOverlappingSettings_ConstructFrom</name></member>
     <member refid="MROverlappingTris_8h_1a1bf8621e8173e5f1f563ba02a82d789d" kind="function"><name>MR_FindOverlappingSettings_OffsetPtr</name></member>
     <member refid="MROverlappingTris_8h_1a05b0551e3e3c951553743e2ec843946c" kind="function"><name>MR_FindOverlappingSettings_OffsetMutablePtr</name></member>
     <member refid="MROverlappingTris_8h_1ac518fb32900766656598ba34f7446489" kind="function"><name>MR_FindOverlappingSettings_ConstructFromAnother</name></member>

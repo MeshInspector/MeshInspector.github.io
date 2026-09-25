@@ -40214,7 +40214,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROverlappingTris.h" line="15" column="11" bodyfile="MRMesh/MROverlappingTris.h" bodystart="15" bodyend="-1"/>
+        <location file="MRMesh/MROverlappingTris.h" line="16" column="11" bodyfile="MRMesh/MROverlappingTris.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaabcdb20bd37c7191483848d201e24d53" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -40231,7 +40231,23 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROverlappingTris.h" line="18" column="11" bodyfile="MRMesh/MROverlappingTris.h" bodystart="18" bodyend="-1"/>
+        <location file="MRMesh/MROverlappingTris.h" line="19" column="11" bodyfile="MRMesh/MROverlappingTris.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga8d368cfb9c1c74281a473cc74c506d2e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FindOverlappingSettings::minNormalDot</definition>
+        <argsstring></argsstring>
+        <name>minNormalDot</name>
+        <qualifiedname>MR::FindOverlappingSettings::minNormalDot</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if the dot product of the normals is at least this value, then similarly oriented close triangles are also considered overlapping, provided that their projections on the average plane overlap with positive area (it finds thin folds of the surface); the default value disables this check </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MROverlappingTris.h" line="24" column="11" bodyfile="MRMesh/MROverlappingTris.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2fb083294a0bd854f423edd314775ad7" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -40247,7 +40263,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROverlappingTris.h" line="21" column="11" bodyfile="MRMesh/MROverlappingTris.h" bodystart="21" bodyend="-1"/>
+        <location file="MRMesh/MROverlappingTris.h" line="27" column="11" bodyfile="MRMesh/MROverlappingTris.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacb6eb2b7cfbeacc7bb24b58262dcba34" prot="public" static="no" mutable="no">
         <type>std::function&lt; bool(FaceId l, FaceId r)&gt;</type>
@@ -40262,7 +40278,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROverlappingTris.h" line="24" column="19" bodyfile="MRMesh/MROverlappingTris.h" bodystart="24" bodyend="-1"/>
+        <location file="MRMesh/MROverlappingTris.h" line="30" column="19" bodyfile="MRMesh/MROverlappingTris.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac272f940af3bc9c5f3f0932e466a5f8e" prot="public" static="no" mutable="no">
         <type>ProgressCallback</type>
@@ -40277,7 +40293,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROverlappingTris.h" line="27" column="22" bodyfile="MRMesh/MROverlappingTris.h" bodystart="27" bodyend="-1"/>
+        <location file="MRMesh/MROverlappingTris.h" line="33" column="22" bodyfile="MRMesh/MROverlappingTris.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga34d2109107ef4c428253a8755305114b" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -131459,13 +131475,13 @@ element fields:<linebreak/>
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>finds all triangles that have oppositely oriented close triangle in the mesh </para>
+<para>finds all triangles that have oppositely (or similarly, see minNormalDot) oriented close triangle in the mesh </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROverlappingTris.h" line="34" column="12" declfile="MRMesh/MROverlappingTris.h" declline="34" declcolumn="12"/>
+        <location file="MRMesh/MROverlappingTris.h" line="40" column="12" declfile="MRMesh/MROverlappingTris.h" declline="40" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0cdfe97a6580c1aaa9b873a6320f0793" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type>constexpr</type>

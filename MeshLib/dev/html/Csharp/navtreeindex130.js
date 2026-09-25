@@ -1,5 +1,8 @@
 var NAVTREEINDEX130 =
 {
+"classMR_1_1SeparationPointStorage.html#ac3a8adfe99294b558dc22057c4a0ebc6":[9,3,0,0,0,1613,5],
+"classMR_1_1SeparationPointStorage.html#af1905c57e8b0b290d6e3a6da1bdc6d28":[9,3,0,0,0,1613,7],
+"classMR_1_1SetBitIterator.html":[9,3,0,0,0,1614],
 "classMR_1_1SetBitIterator.html#a03cb763e1e1c2b7d92f65ce170979222":[9,3,0,0,0,1614,4],
 "classMR_1_1SetBitIterator.html#a054b9ded355cb214ff0eb79607d21a92":[9,3,0,0,0,1614,3],
 "classMR_1_1SetBitIterator.html#a9ddc68c7faf7c3d18ca4a3af87f02c8f":[9,3,0,0,0,1614,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX130 =
 "classMR_1_1SliceInfoBase.html#a387bc1e52063db74bfcffe0a7d3488b5":[9,3,0,0,0,1638,4],
 "classMR_1_1SliceInfoBase.html#a46ed85c82a7f7aa8d41dd0133cf3289d":[9,3,0,0,0,1638,2],
 "classMR_1_1SliceInfoBase.html#a5ef4b84b3b7b579553f468b2134b91d0":[9,3,0,0,0,1638,7],
-"classMR_1_1SliceInfoBase.html#a67156548e00f20b96a17a74fa0a099e5":[9,3,0,0,0,1638,6],
-"classMR_1_1SliceInfoBase.html#a6d4c7fbed4f65e807ae5be0db2074311":[9,3,0,0,0,1638,0],
-"classMR_1_1SliceInfoBase.html#ac22c20d95109a16b908078f5895b917e":[9,3,0,0,0,1638,5],
-"classMR_1_1SliceInfoBase.html#ae118a1cc82fc59d928616819c655a94e":[9,3,0,0,0,1638,1]
+"classMR_1_1SliceInfoBase.html#a67156548e00f20b96a17a74fa0a099e5":[9,3,0,0,0,1638,6]
 };

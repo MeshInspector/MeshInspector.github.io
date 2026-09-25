@@ -3483,6 +3483,7 @@
   <compound refid="structMR_1_1FindOverlappingSettings" kind="struct"><name>MR::FindOverlappingSettings</name>
     <member refid="group__GeneralGroup_1gad9c6b8c3584ffef1a49795f794fced8d" kind="variable"><name>maxDistSq</name></member>
     <member refid="group__GeneralGroup_1gaabcdb20bd37c7191483848d201e24d53" kind="variable"><name>maxNormalDot</name></member>
+    <member refid="group__GeneralGroup_1ga8d368cfb9c1c74281a473cc74c506d2e" kind="variable"><name>minNormalDot</name></member>
     <member refid="group__GeneralGroup_1ga2fb083294a0bd854f423edd314775ad7" kind="variable"><name>minAreaFraction</name></member>
     <member refid="group__GeneralGroup_1gacb6eb2b7cfbeacc7bb24b58262dcba34" kind="variable"><name>pred</name></member>
     <member refid="group__GeneralGroup_1gac272f940af3bc9c5f3f0932e466a5f8e" kind="variable"><name>cb</name></member>
@@ -23227,6 +23228,7 @@
     <member refid="group__GeneralGroup_1gaa39f977c4a7b6d7b43bbe8dd59cf8b87" kind="variable"><name>progress</name></member>
     <member refid="group__GeneralGroup_1gad9c6b8c3584ffef1a49795f794fced8d" kind="variable"><name>maxDistSq</name></member>
     <member refid="group__GeneralGroup_1gaabcdb20bd37c7191483848d201e24d53" kind="variable"><name>maxNormalDot</name></member>
+    <member refid="group__GeneralGroup_1ga8d368cfb9c1c74281a473cc74c506d2e" kind="variable"><name>minNormalDot</name></member>
     <member refid="group__GeneralGroup_1ga2fb083294a0bd854f423edd314775ad7" kind="variable"><name>minAreaFraction</name></member>
     <member refid="group__GeneralGroup_1gacb6eb2b7cfbeacc7bb24b58262dcba34" kind="variable"><name>pred</name></member>
     <member refid="group__GeneralGroup_1gac272f940af3bc9c5f3f0932e466a5f8e" kind="variable"><name>cb</name></member>

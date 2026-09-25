@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1ReduceTotalAngleParams.html":[9,0,0,20,376],
 "structMR_1_1RefineParameters.html":[9,0,0,20,236],
 "structMR_1_1RelaxParams.html":[9,0,0,20,486],
 "structMR_1_1RemeshSettings.html":[9,0,0,10,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5c3e6b9bc3389cb66a4ecf6adb3f6091":[9,0,2,0,2,32,0,7],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5ce3e11baf70433c7c9e34e49be985f4":[9,0,1,0,1,48,0,5],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5ce3e11baf70433c7c9e34e49be985f4":[9,0,2,0,2,32,0,5],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[9,0,1,0,1,48,0,4],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[9,0,2,0,2,32,0,4]
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[9,0,1,0,1,48,0,4]
 };

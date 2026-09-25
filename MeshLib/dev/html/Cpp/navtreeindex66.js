@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1Mesh.html#a8c0879122a6abf7e015c89fdbd7dd584":[9,0,0,7,1,105],
 "structMR_1_1Mesh.html#a8ee4d943cee3647d877e189fb6b375d9":[9,0,0,7,1,7],
 "structMR_1_1Mesh.html#a916b0cecc3457997280e8f1e39227c8e":[9,0,0,7,1,16],
 "structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4":[9,0,0,7,1,120],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1NodeNode.html":[9,0,0,1,5],
 "structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18":[9,0,0,1,5,1],
 "structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2":[9,0,0,1,5,0],
-"structMR_1_1NoiseSettings.html":[9,0,0,20,112],
-"structMR_1_1NotificationTags.html":[9,0,0,20,693]
+"structMR_1_1NoiseSettings.html":[9,0,0,20,112]
 };

@@ -54,7 +54,7 @@
         <argsstring></argsstring>
         <name>_offsetof_minAreaFraction</name>
         <qualifiedname>mrmeshpy.FindOverlappingSettings._offsetof_minAreaFraction</qualifiedname>
-        <initializer>=  8</initializer>
+        <initializer>=  12</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -62,6 +62,21 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20636" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindOverlappingSettings_1abd3261dc655f0d4d8e5aed282ecd6117" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindOverlappingSettings::_offsetof_minNormalDot</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minNormalDot</name>
+        <qualifiedname>mrmeshpy.FindOverlappingSettings._offsetof_minNormalDot</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20637" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1FindOverlappingSettings_1a0c7f0b43c1315a7c2f419ce487a5cd92" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -76,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20637" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20638" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -100,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20640" bodyend="20641"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20641" bodyend="20642"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1a5b94fbacebc61b47b615e90dbed9c7b3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FindOverlappingSettings" kindref="compound">FindOverlappingSettings</ref></type>
@@ -122,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20644" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20644" bodyend="20645"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20645" bodyend="20646"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1a5b94fbacebc61b47b615e90dbed9c7b3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FindOverlappingSettings" kindref="compound">FindOverlappingSettings</ref></type>
@@ -144,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20648" bodyend="20649"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20649" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20649" bodyend="20650"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -164,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20651" bodyend="20652"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20652" bodyend="20653"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1ade4351c4bef00d43e9e0dedacbad574a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -188,12 +203,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20654" bodyend="20657"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20655" bodyend="20658"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1ab8830d04bc065495bb4ff5337606c48f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1af80d14b28ccc06adc35e97511f48eeaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.FindOverlappingSettings.__init__</definition>
-        <argsstring>(self, float maxDistSq, float maxNormalDot, float minAreaFraction, func_bool_from_Id_FaceTag_Id_FaceTag pred, func_bool_from_float cb)</argsstring>
+        <argsstring>(self, float maxDistSq, float maxNormalDot, float minNormalDot, float minAreaFraction, func_bool_from_Id_FaceTag_Id_FaceTag pred, func_bool_from_float cb)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FindOverlappingSettings.__init__</qualifiedname>
         <param>
@@ -207,6 +222,10 @@
         <param>
           <type>float</type>
           <declname>maxNormalDot</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minNormalDot</declname>
         </param>
         <param>
           <type>float</type>
@@ -228,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20659" bodyend="20662"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20660" bodyend="20663"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1ade09b45936539f29487c01c2f2bba4e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
@@ -248,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20664" bodyend="20667"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20665" bodyend="20668"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1a4c6000e6f18e01619a36fc93ef280cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -270,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20669" bodyend="20670"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20670" bodyend="20671"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1a5c4cc900ea84707c2383fc51d8ed6524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -290,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20672" bodyend="20675"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20673" bodyend="20676"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1abf2c321d6fe010a65e1ceeec15251c31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -312,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20677" bodyend="20678"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20678" bodyend="20679"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1a9ff44dc341d4a18b314eeb7ac224a2db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -332,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20680" bodyend="20683"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20681" bodyend="20684"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1a25ca8dfd80377941b5bee1e9f9a462c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -354,7 +373,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20685" bodyend="20686"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20686" bodyend="20687"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1a30380d9251049faa78af9cbca4d3ffc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -374,7 +393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20688" bodyend="20691"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20689" bodyend="20692"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1a2b6e45ba91b7127dab1884ed7836b117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -396,7 +415,51 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20693" bodyend="20694"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20694" bodyend="20695"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1a612c4123e73f0246f3fca3bc5ac9915a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FindOverlappingSettings.minNormalDot</definition>
+        <argsstring>(self)</argsstring>
+        <name>minNormalDot</name>
+        <qualifiedname>mrmeshpy.FindOverlappingSettings.minNormalDot</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if the dot product of the normals is at least this value, then similarly oriented close triangles are also considered overlapping,
+provided that their projections on the average plane overlap with positive area (it finds thin folds of the surface);
+the default value disables this check
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20697" bodyend="20702"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1a5dae78f5936c101e5ffd54769cff3b41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindOverlappingSettings.minNormalDot</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minNormalDot</name>
+        <qualifiedname>mrmeshpy.FindOverlappingSettings.minNormalDot</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20704" bodyend="20705"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1a6dcb48b9c7e9dac8604913f6e91f72e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__FaceTag__Id__FaceTag" kindref="compound">func_bool_from_Id_FaceTag_Id_FaceTag</ref></type>
@@ -416,7 +479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20696" bodyend="20699"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20707" bodyend="20710"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FindOverlappingSettings_1a898c17cff494e2e6c87723a852f5be35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -438,7 +501,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20701" bodyend="20702"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20712" bodyend="20713"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -447,16 +510,17 @@
 <para><verbatim>Generated from:  MR::FindOverlappingSettings
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20629" bodyend="20702"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20629" bodyend="20713"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1aba54b2d44a0966151f272e0c0873b33f" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a6c42d65509afb6fe95bc8d617b37b4ab" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1ade4351c4bef00d43e9e0dedacbad574a" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1FindOverlappingSettings_1ab8830d04bc065495bb4ff5337606c48f" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FindOverlappingSettings_1af80d14b28ccc06adc35e97511f48eeaa" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1aebe216e4ef2f9c43b2c53a94109209e2" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>_offsetof_cb</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a1903560ae20858de31ca49092032f71b" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>_offsetof_maxDistSq</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a28de8c7c26d97ca4521bce9e9cf8921b" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>_offsetof_maxNormalDot</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1ac66f6d216ab3be17fe17bc8394170c06" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>_offsetof_minAreaFraction</name></member>
+      <member refid="classmrmeshpy_1_1FindOverlappingSettings_1abd3261dc655f0d4d8e5aed282ecd6117" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>_offsetof_minNormalDot</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a0c7f0b43c1315a7c2f419ce487a5cd92" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>_offsetof_pred</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1ade09b45936539f29487c01c2f2bba4e0" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>cb</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a4c6000e6f18e01619a36fc93ef280cba" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>cb</name></member>
@@ -466,6 +530,8 @@
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a25ca8dfd80377941b5bee1e9f9a462c6" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>maxNormalDot</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a30380d9251049faa78af9cbca4d3ffc9" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>minAreaFraction</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a2b6e45ba91b7127dab1884ed7836b117" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>minAreaFraction</name></member>
+      <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a612c4123e73f0246f3fca3bc5ac9915a" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>minNormalDot</name></member>
+      <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a5dae78f5936c101e5ffd54769cff3b41" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>minNormalDot</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a5b94fbacebc61b47b615e90dbed9c7b3" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a5b94fbacebc61b47b615e90dbed9c7b3" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a6dcb48b9c7e9dac8604913f6e91f72e7" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverlappingSettings</scope><name>pred</name></member>

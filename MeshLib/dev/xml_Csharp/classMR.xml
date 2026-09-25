@@ -31142,13 +31142,13 @@ do not really keeps volume but tries hard </para>
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>finds all triangles that have oppositely oriented close triangle in the mesh Generated from function <computeroutput><ref refid="classMR_1a3b944107ce8c4354150cda1d1498bca6" kindref="member">MR.findOverlappingTris</ref></computeroutput>. </para>
+<para>finds all triangles that have oppositely (or similarly, see minNormalDot) oriented close triangle in the mesh Generated from function <computeroutput><ref refid="classMR_1a3b944107ce8c4354150cda1d1498bca6" kindref="member">MR.findOverlappingTris</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="344" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="344" bodyend="350"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="366" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="366" bodyend="372"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1c375e356ade23144ab6588af27fcc8a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertCoords" kindref="compound">MR.VertCoords</ref></type>
@@ -77472,7 +77472,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="355" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="377" column="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac2d90644eacd69982a51937ac71ef9f4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRVertCoords_StdString._Underlying *</type>

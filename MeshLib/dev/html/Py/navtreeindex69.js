@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"classmrmeshpy_1_1ObjectVoxels.html#a737f8dd2bf46757c574cf276eab2f467":[9,1,0,0,2,654,37],
+"classmrmeshpy_1_1ObjectVoxels.html#a737f8dd2bf46757c574cf276eab2f467":[9,1,1,0,1,654,37],
+"classmrmeshpy_1_1ObjectVoxels.html#a81a7e0cc86cefe516b274f32ecfd6abb":[9,1,0,0,2,654,5],
+"classmrmeshpy_1_1ObjectVoxels.html#a81a7e0cc86cefe516b274f32ecfd6abb":[9,1,1,0,1,654,5],
 "classmrmeshpy_1_1ObjectVoxels.html#a88addf3f7eac5ac0fecfa218fa66c699":[9,1,0,0,2,654,1],
 "classmrmeshpy_1_1ObjectVoxels.html#a88addf3f7eac5ac0fecfa218fa66c699":[9,1,1,0,1,654,1],
 "classmrmeshpy_1_1ObjectVoxels.html#a899ff27173bf3ada1d47460e836273b6":[9,1,0,0,2,654,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a32311fba1226ad2901366ec7618965a4":[9,1,0,0,2,668,0,5],
 "classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a32311fba1226ad2901366ec7618965a4":[9,1,1,0,1,668,0,5],
 "classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a3625a1eed76f4dfe90b25a5bf1bc5ffa":[9,1,0,0,2,668,0,10],
-"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a3625a1eed76f4dfe90b25a5bf1bc5ffa":[9,1,1,0,1,668,0,10],
-"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a7666ff12e1319a67bd31f1217db40acb":[9,1,0,0,2,668,0,4],
-"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a7666ff12e1319a67bd31f1217db40acb":[9,1,1,0,1,668,0,4],
-"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a88d1dfc646b738afaa50f8ecc01caa05":[9,1,0,0,2,668,0,7],
-"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a88d1dfc646b738afaa50f8ecc01caa05":[9,1,1,0,1,668,0,7]
+"classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html#a3625a1eed76f4dfe90b25a5bf1bc5ffa":[9,1,1,0,1,668,0,10]
 };

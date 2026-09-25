@@ -1,5 +1,9 @@
 var NAVTREEINDEX41 =
 {
+"classmrmeshpy_1_1IPointsProjector.html#a409289cddaaa02441fec92e9fb683666":[9,1,0,0,2,450,1],
+"classmrmeshpy_1_1IPointsProjector.html#a409289cddaaa02441fec92e9fb683666":[9,1,1,0,1,450,1],
+"classmrmeshpy_1_1IPointsProjector.html#afa2c9b10c80adcfb5b8c46413cc05cf1":[9,1,0,0,2,450,0],
+"classmrmeshpy_1_1IPointsProjector.html#afa2c9b10c80adcfb5b8c46413cc05cf1":[9,1,1,0,1,450,0],
 "classmrmeshpy_1_1IPointsToMeshProjector.html":[9,1,0,0,2,451],
 "classmrmeshpy_1_1IPointsToMeshProjector.html":[9,1,1,0,1,451],
 "classmrmeshpy_1_1IPointsToMeshProjector.html#a183a14af5ae991355ca023b734c99f12":[9,1,0,0,2,451,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX41 =
 "classmrmeshpy_1_1InTreePathBuilder.html#a875a29568cdc704a426c40c4fac559b5":[9,1,0,0,2,445,1],
 "classmrmeshpy_1_1InTreePathBuilder.html#a875a29568cdc704a426c40c4fac559b5":[9,1,1,0,1,445,1],
 "classmrmeshpy_1_1InTreePathBuilder.html#a8de6f1c08d21befd71792d02f506e5b9":[9,1,0,0,2,445,0],
-"classmrmeshpy_1_1InTreePathBuilder.html#a8de6f1c08d21befd71792d02f506e5b9":[9,1,1,0,1,445,0],
-"classmrmeshpy_1_1InflateSettings.html":[9,1,0,0,2,431],
-"classmrmeshpy_1_1InflateSettings.html":[9,1,1,0,1,431],
-"classmrmeshpy_1_1InflateSettings.html#a064156b0b50072602858ed952ad8b1ec":[9,1,0,0,2,431,10],
-"classmrmeshpy_1_1InflateSettings.html#a064156b0b50072602858ed952ad8b1ec":[9,1,1,0,1,431,10]
+"classmrmeshpy_1_1InTreePathBuilder.html#a8de6f1c08d21befd71792d02f506e5b9":[9,1,1,0,1,445,0]
 };

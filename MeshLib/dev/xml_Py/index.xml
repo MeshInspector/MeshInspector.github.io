@@ -6732,13 +6732,14 @@
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a1903560ae20858de31ca49092032f71b" kind="variable"><name>_offsetof_maxDistSq</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a28de8c7c26d97ca4521bce9e9cf8921b" kind="variable"><name>_offsetof_maxNormalDot</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1ac66f6d216ab3be17fe17bc8394170c06" kind="variable"><name>_offsetof_minAreaFraction</name></member>
+    <member refid="classmrmeshpy_1_1FindOverlappingSettings_1abd3261dc655f0d4d8e5aed282ecd6117" kind="variable"><name>_offsetof_minNormalDot</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a0c7f0b43c1315a7c2f419ce487a5cd92" kind="variable"><name>_offsetof_pred</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1aba54b2d44a0966151f272e0c0873b33f" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a5b94fbacebc61b47b615e90dbed9c7b3" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a5b94fbacebc61b47b615e90dbed9c7b3" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a6c42d65509afb6fe95bc8d617b37b4ab" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1ade4351c4bef00d43e9e0dedacbad574a" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1FindOverlappingSettings_1ab8830d04bc065495bb4ff5337606c48f" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1FindOverlappingSettings_1af80d14b28ccc06adc35e97511f48eeaa" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1ade09b45936539f29487c01c2f2bba4e0" kind="function"><name>cb</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a4c6000e6f18e01619a36fc93ef280cba" kind="function"><name>cb</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a5c4cc900ea84707c2383fc51d8ed6524" kind="function"><name>maxDistSq</name></member>
@@ -6747,6 +6748,8 @@
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a25ca8dfd80377941b5bee1e9f9a462c6" kind="function"><name>maxNormalDot</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a30380d9251049faa78af9cbca4d3ffc9" kind="function"><name>minAreaFraction</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a2b6e45ba91b7127dab1884ed7836b117" kind="function"><name>minAreaFraction</name></member>
+    <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a612c4123e73f0246f3fca3bc5ac9915a" kind="function"><name>minNormalDot</name></member>
+    <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a5dae78f5936c101e5ffd54769cff3b41" kind="function"><name>minNormalDot</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a6dcb48b9c7e9dac8604913f6e91f72e7" kind="function"><name>pred</name></member>
     <member refid="classmrmeshpy_1_1FindOverlappingSettings_1a898c17cff494e2e6c87723a852f5be35" kind="function"><name>pred</name></member>
   </compound>

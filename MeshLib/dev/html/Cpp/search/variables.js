@@ -1134,7 +1134,7 @@ var searchData=
   ['minmaxsizes_140',['minMaxSizes',['../group__GeneralGroup.html#ga4731ad96d4ed20fddf9a1f57bdf7a532',1,'MR::RibbonIcons::IconTypeData']]],
   ['minmousedistsq_141',['minMouseDistSq',['../group__GeneralGroup.html#gaf5f398eb21b5c7e30480b4dbea5e0a51',1,'MR::SurfaceManipulationWidget::PickedVertData']]],
   ['minnewvertdev_142',['minNewVertDev',['../group__GeneralGroup.html#gac280940d9748f10a71a06ffc496d1802',1,'MR::SharpenMarchingCubesMeshSettings::minNewVertDev'],['../group__GeneralGroup.html#gaf01c8832be1a64bae952f261154116cf',1,'MR::SharpOffsetParameters::minNewVertDev']]],
-  ['minnormaldot_143',['minNormalDot',['../group__GeneralGroup.html#ga4952e332cfe108e00f967d412a6aba88',1,'MR::UniformSamplingSettings']]],
+  ['minnormaldot_143',['minNormalDot',['../group__GeneralGroup.html#ga8d368cfb9c1c74281a473cc74c506d2e',1,'MR::FindOverlappingSettings::minNormalDot'],['../group__GeneralGroup.html#ga4952e332cfe108e00f967d412a6aba88',1,'MR::UniformSamplingSettings::minNormalDot']]],
   ['minpointsinsample_144',['minPointsInSample',['../group__GeneralGroup.html#ga4aa26d04f708ecea38d954ac1c1d50c6',1,'MR::ImproveSamplingSettings']]],
   ['minradius_5f_145',['minRadius_',['../group__GeneralGroup.html#ga3c9ed0bdb3a5f708f5d1da2cc0ab3c4f',1,'MR::SurfaceManipulationWidget']]],
   ['minsharpdihedralangle_146',['minSharpDihedralAngle',['../structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5',1,'MR::SubdivideSettings']]],

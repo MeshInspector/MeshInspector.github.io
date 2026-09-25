@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"classMR_1_1Const__SymMatrix4b.html#a17378c1e74b082af48de71b325c0b97e":[9,3,0,0,0,871,22],
+"classMR_1_1Const__SymMatrix4b.html#a258915b5b142eb48f2c1eca79a7d72fd":[9,3,0,0,0,871,24],
 "classMR_1_1Const__SymMatrix4b.html#a270add654757da96dd3b8bb8c3c7b030":[9,3,0,0,0,871,14],
 "classMR_1_1Const__SymMatrix4b.html#a2f7216550b746b25d9a086fa4c8805a7":[9,3,0,0,0,871,6],
 "classMR_1_1Const__SymMatrix4b.html#a3275e3bf3948309a43c7d3568a78ccc6":[9,3,0,0,0,871,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa5221cbd690a4cdb8e2b300a8aac4cd6":[9,3,0,0,0,878,1,1],
 "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aac3ef8695e0602beaa7f766269875821":[9,3,0,0,0,878,1,3],
 "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ab40a7e688f5588461773a97a462d9491":[9,3,0,0,0,878,1,7],
-"classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#acfab3c54d4074d7a23244ae125a837ad":[9,3,0,0,0,878,1,0],
-"classMR_1_1Const__TerminalVertex.html":[9,3,0,0,0,879],
-"classMR_1_1Const__TerminalVertex.html#a5c21c5fafd17ed2410ad5c344688ab32":[9,3,0,0,0,879,9]
+"classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#acfab3c54d4074d7a23244ae125a837ad":[9,3,0,0,0,878,1,0]
 };
