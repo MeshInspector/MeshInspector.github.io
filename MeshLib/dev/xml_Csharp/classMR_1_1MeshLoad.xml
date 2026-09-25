@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="278" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="278" bodyend="288"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="298" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="298" bodyend="308"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1aef32d952c0dcf02c08a933599c4bc520" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="295" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="295" bodyend="301"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="315" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="315" bodyend="321"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1af4ca0496d6d194235d5f2dcf8dc14c13" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="309" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="309" bodyend="319"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="329" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="329" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1a488fbbec801cdec5cb6d3c7841d9ad7b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="326" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="326" bodyend="332"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="346" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="346" bodyend="352"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1aa4848ac2baf83ab68b7e476127ceb15b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -827,7 +827,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="337" column="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="357" column="83"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1a63e8f397b76f931ae026aa2a15750eff" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdSharedPtrMRObject_StdString._Underlying *</type>
@@ -853,7 +853,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="340" column="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="360" column="83"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1a496e98d57eb9673aeac04e77fd6a2723" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
@@ -883,7 +883,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="343" column="69"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="363" column="69"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1a9933cde6b1d88f15de2991b6bf07d88e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
@@ -909,7 +909,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="346" column="69"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="366" column="69"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1a0852fd64ff7c7de6f03b38150380c3f0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>

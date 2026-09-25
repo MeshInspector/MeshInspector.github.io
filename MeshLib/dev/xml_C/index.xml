@@ -849,9 +849,12 @@
     <member refid="MRStep_8h_1a452cbfbd3cf07020919847324933b444" kind="function"><name>MR_MeshLoad_StepLoadSettings_Get_autoColorize</name></member>
     <member refid="MRStep_8h_1ab281c77169cc20a07e54084a1edb9077" kind="function"><name>MR_MeshLoad_StepLoadSettings_Set_autoColorize</name></member>
     <member refid="MRStep_8h_1a8b68556a648578d91ed9f8dc2a8fa520" kind="function"><name>MR_MeshLoad_StepLoadSettings_GetMutable_autoColorize</name></member>
+    <member refid="MRStep_8h_1a9e623c1b556d8a56f265ec51dbd4aa2d" kind="function"><name>MR_MeshLoad_StepLoadSettings_Get_forceLoadSubShapes</name></member>
+    <member refid="MRStep_8h_1ad0ead3e2f4fde5502c6be6ce87eca443" kind="function"><name>MR_MeshLoad_StepLoadSettings_Set_forceLoadSubShapes</name></member>
+    <member refid="MRStep_8h_1a4d7dc190255d6c6fa0d8f99961f90f2e" kind="function"><name>MR_MeshLoad_StepLoadSettings_GetMutable_forceLoadSubShapes</name></member>
     <member refid="MRStep_8h_1a44ab227c5ea60609df575f9a2190b66c" kind="function"><name>MR_MeshLoad_StepLoadSettings_DefaultConstruct</name></member>
     <member refid="MRStep_8h_1a9022f96a576b969eedd74a68d6b07f00" kind="function"><name>MR_MeshLoad_StepLoadSettings_DefaultConstructArray</name></member>
-    <member refid="MRStep_8h_1acf1d8d05f039ab27c74a080ed78eee9f" kind="function"><name>MR_MeshLoad_StepLoadSettings_ConstructFrom</name></member>
+    <member refid="MRStep_8h_1a3e6d41b9c790c6a3d7012586e3c2fd76" kind="function"><name>MR_MeshLoad_StepLoadSettings_ConstructFrom</name></member>
     <member refid="MRStep_8h_1a895994da323c9f103fa9e43193be480c" kind="function"><name>MR_MeshLoad_StepLoadSettings_OffsetPtr</name></member>
     <member refid="MRStep_8h_1a233005ba4bcaa0ad831b66f97425f270" kind="function"><name>MR_MeshLoad_StepLoadSettings_OffsetMutablePtr</name></member>
     <member refid="MRStep_8h_1ac70c990a35c19e2c002eab1c66f388c3" kind="function"><name>MR_MeshLoad_StepLoadSettings_ConstructFromAnother</name></member>

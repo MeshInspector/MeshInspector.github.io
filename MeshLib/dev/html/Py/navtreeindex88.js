@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"classmrmeshpy_1_1SliceInfo.html":[9,1,0,0,2,856],
+"classmrmeshpy_1_1SliceInfo.html":[9,1,1,0,1,856],
+"classmrmeshpy_1_1SliceInfo.html#a121b8ea578c4bbba0a4638cbabfcec50":[9,1,0,0,2,856,0],
+"classmrmeshpy_1_1SliceInfo.html#a121b8ea578c4bbba0a4638cbabfcec50":[9,1,1,0,1,856,0],
 "classmrmeshpy_1_1SliceInfo.html#a2ce306c50570d3237ce0943266838645":[9,1,0,0,2,856,1],
 "classmrmeshpy_1_1SliceInfo.html#a2ce306c50570d3237ce0943266838645":[9,1,1,0,1,856,1],
 "classmrmeshpy_1_1SliceInfo.html#a32c5b34206eb31dea38865906a30d309":[9,1,0,0,2,856,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "classmrmeshpy_1_1SphereObject.html#ae4b88929ee48382bb07c3d22ce9f397a":[9,1,0,0,2,868,2],
 "classmrmeshpy_1_1SphereObject.html#ae4b88929ee48382bb07c3d22ce9f397a":[9,1,1,0,1,868,2],
 "classmrmeshpy_1_1SphereObject.html#aeae2fa1c3017cf8e8ae4cfcc10ed28cc":[9,1,0,0,2,868,12],
-"classmrmeshpy_1_1SphereObject.html#aeae2fa1c3017cf8e8ae4cfcc10ed28cc":[9,1,1,0,1,868,12],
-"classmrmeshpy_1_1SphereParams.html":[9,1,0,0,2,869],
-"classmrmeshpy_1_1SphereParams.html":[9,1,1,0,1,869],
-"classmrmeshpy_1_1SphereParams.html#a067b5a19676ff45407f993601f874c84":[9,1,0,0,2,869,2],
-"classmrmeshpy_1_1SphereParams.html#a067b5a19676ff45407f993601f874c84":[9,1,1,0,1,869,2]
+"classmrmeshpy_1_1SphereObject.html#aeae2fa1c3017cf8e8ae4cfcc10ed28cc":[9,1,1,0,1,868,12]
 };

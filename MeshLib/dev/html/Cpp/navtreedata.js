@@ -219,10 +219,10 @@ var NAVTREEINDEX =
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a566c4f5f3c467669b8f6870230f68f64",
 "structMR_1_1IntersectionPrecomputes2.html#a8dc8336a41d3f8aa6342f55f92aaba1b",
 "structMR_1_1Mesh.html#a91c234ebc0fba018fda6c46a072d8089",
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html",
-"structMR_1_1RemeshSettings.html#a2302742bd2200fd6a5f9e078015705c1",
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af10835a24d386208aebf0562ee285ddd",
-"structMR_1_1VectorTraits_3_01ImVec4_01_4.html"
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html",
+"structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9",
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436",
+"structMR_1_1VectorTraits.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

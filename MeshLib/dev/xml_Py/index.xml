@@ -23728,6 +23728,7 @@
   <compound refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" kind="class"><name>mrmeshpy::MeshLoad::StepLoadSettings</name>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1acafb74a15b76ad3dc0c35bd75efe5e8a" kind="variable"><name>_offsetof_angularDeflection</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a38b058c5d27454a0c5a24a729ecf69ef" kind="variable"><name>_offsetof_autoColorize</name></member>
+    <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1ae69e2f344ce16db3687737c6903d5e93" kind="variable"><name>_offsetof_forceLoadSubShapes</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a7c12484f5861d31b00bfeaf3120a271e" kind="variable"><name>_offsetof_linearDeflection</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a132ed2727d117c3312322f24a73fb737" kind="variable"><name>_offsetof_relative</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a325821b7738be56e7903a98995fcad85" kind="function"><name>__init__</name></member>
@@ -23735,11 +23736,13 @@
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a1ada61bfb0b308e5835356c7af93fc70" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a5f6f3d33dc4f56394958ef08008f8418" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1ae7904a3f6e02ef848daa3f86c53cc88a" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a443cbe88fda64facea8f4917f895fa7f" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a0584d256ce87ee025ac455859ca5ec03" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1af4395c429ca1724f368e01442511adfc" kind="function"><name>angularDeflection</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a34b569635ce6628440b12e42642eb0d3" kind="function"><name>angularDeflection</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a584fe1c7576050d0b39069e4904d10f7" kind="function"><name>autoColorize</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a757bc7cd01d6c6f625bd249813138b9d" kind="function"><name>autoColorize</name></member>
+    <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a0c2234d827f89d7da3563d40b8d300bf" kind="function"><name>forceLoadSubShapes</name></member>
+    <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1ac7579c7ef7ba182f8d3907cd57a66325" kind="function"><name>forceLoadSubShapes</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a9b57b3412ac7fcf290c86780cf93eef3" kind="function"><name>linearDeflection</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1abb3ec3961a0050475d5552ca70e2b4b1" kind="function"><name>linearDeflection</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a55acfbf08f077b66caf314ed58a42c42" kind="function"><name>relative</name></member>
@@ -31279,7 +31282,6 @@
     <member refid="namespacemrmeshpy_1a4c00814cf4560915525bcd627ac44b08" kind="variable"><name>BMap_Id_VoxelTag_Id_VoxelTag</name></member>
     <member refid="namespacemrmeshpy_1a6f34f1aedd9c7112a60a148f159bc957" kind="variable"><name>BMap_TypedBitSet_Id_ICPElemtTag_IndexType_TypedBitSet_Id_ICPElemtTag_IndexType</name></member>
     <member refid="namespacemrmeshpy_1a24dde27dc7f3bbd55933beeea7ae6842" kind="variable"><name>BMap_TypedBitSet_Id_VoxelTag_IndexType_TypedBitSet_Id_VoxelTag_IndexType</name></member>
-    <member refid="namespacemrmeshpy_1aece248ac2796cbbbbcab4e0cc514160e" kind="variable"><name>BooleanResMapObj</name></member>
     <member refid="namespacemrmeshpy_1ac7b11d09daac6de5f15e09a945db4546" kind="variable"><name>Box_Vector2d_Vb</name></member>
     <member refid="namespacemrmeshpy_1a5d7ba8e14a55fda5fba17c30a3e1876c" kind="variable"><name>Box_Vector2f_Vb</name></member>
     <member refid="namespacemrmeshpy_1a93e3373946d150419dc32d2127a9bb0c" kind="variable"><name>Box_Vector2i64_Vb</name></member>
@@ -31341,10 +31343,7 @@
     <member refid="namespacemrmeshpy_1ac04b04708048360081ffd37b81e537a6" kind="variable"><name>FeaturesPropertyTypesVariant</name></member>
     <member refid="namespacemrmeshpy_1a396145596ca2f585a066cfdd56586052" kind="variable"><name>FileNamesStack</name></member>
     <member refid="namespacemrmeshpy_1a2f5f1788ebaeb4663b641459b90a7f20" kind="variable"><name>FillHolesWithExtraPointsParams</name></member>
-    <member refid="namespacemrmeshpy_1ac69f97acfa239fe5929326bede33a944" kind="variable"><name>FixSelfIntersectionMethod</name></member>
-    <member refid="namespacemrmeshpy_1a4f9550e770fd81a75766208ec3b0c418" kind="variable"><name>FixSelfIntersectionSettings</name></member>
     <member refid="namespacemrmeshpy_1a045d67b67c02eb42207c85cf9e58d9c4" kind="variable"><name>GcodeSource</name></member>
-    <member refid="namespacemrmeshpy_1a858a476e0958e61f6be1a990a7914d74" kind="variable"><name>GeneralOffsetParametersMode</name></member>
     <member refid="namespacemrmeshpy_1abcfaaf58e1d5397abdab5b1b573aec74" kind="variable"><name>GroupOrder</name></member>
     <member refid="namespacemrmeshpy_1a9c2babda0a6932fa470ab493e296320d" kind="variable"><name>HashMap_EdgeId_EdgeId</name></member>
     <member refid="namespacemrmeshpy_1a8386138f5d295899a5dce3e86ead5500" kind="variable"><name>HashMap_Id_EdgeTag_Id_EdgeTag</name></member>
@@ -31369,7 +31368,6 @@
     <member refid="namespacemrmeshpy_1a5529af9c7e0aed1797222aa7726f77f4" kind="variable"><name>IsoLines</name></member>
     <member refid="namespacemrmeshpy_1abe06f0db670486ee4d344cb540e88f28" kind="variable"><name>IteratorRange_LeftRingIterator</name></member>
     <member refid="namespacemrmeshpy_1a34378b6b3d9844a28f461ccfc1f19f38" kind="variable"><name>IteratorRange_OrgRingIterator</name></member>
-    <member refid="namespacemrmeshpy_1afc0a47bfaf548c6edc38e2428021f901" kind="variable"><name>LaplacianEdgeWeightsParam</name></member>
     <member refid="namespacemrmeshpy_1a9d0ac9854a3e0d65354517c1ec0f859f" kind="variable"><name>LeftRingIterator</name></member>
     <member refid="namespacemrmeshpy_1a7ebe17a976f2e617ba5b73a8044200b1" kind="variable"><name>Line3dMesh</name></member>
     <member refid="namespacemrmeshpy_1a242ff888fbbf276696d037824a95dffc" kind="variable"><name>Line3fMesh</name></member>
@@ -31402,7 +31400,6 @@
     <member refid="namespacemrmeshpy_1afe358c16ed14a5b247757bb60b2de427" kind="variable"><name>Matrix4_float_VectorType</name></member>
     <member refid="namespacemrmeshpy_1a44d48dc3adc997bd2f0f22bd2152bf2e" kind="variable"><name>Matrix4_int_VectorType</name></member>
     <member refid="namespacemrmeshpy_1ac9624b32f0c2f9dfa236724dd5f109e8" kind="variable"><name>Matrix4_long_VectorType</name></member>
-    <member refid="namespacemrmeshpy_1a69c9751fa4c594fbad489e290736aebe" kind="variable"><name>MeshBuilderSettings</name></member>
     <member refid="namespacemrmeshpy_1aa463127c357a375bde7a0d435e935e8d" kind="variable"><name>MeshEdgePoint</name></member>
     <member refid="namespacemrmeshpy_1a25b1a4980201fd44540750c30e6efd1a" kind="variable"><name>MeshOnVoxelsFunction</name></member>
     <member refid="namespacemrmeshpy_1a4a0b3335b17fea81f1323c743e5ca477" kind="variable"><name>MeshOnVoxelsFunctionC</name></member>
@@ -31410,7 +31407,6 @@
     <member refid="namespacemrmeshpy_1aefa2f16257d4f7e5c03f70b9060ea073" kind="variable"><name>MeshOnVoxelsSimpleC</name></member>
     <member refid="namespacemrmeshpy_1abf302d6810e9f030685226e1e5c0d320" kind="variable"><name>MeshOnVoxelsVdb</name></member>
     <member refid="namespacemrmeshpy_1af940b96bcde7207ace2c77ae678fa8e1" kind="variable"><name>MeshOnVoxelsVdbC</name></member>
-    <member refid="namespacemrmeshpy_1a7e0733c188e85f0c7080ca1c58feb9d8" kind="variable"><name>MeshToVolumeParamsType</name></member>
     <member refid="namespacemrmeshpy_1a51401d598bc7205e6a3544c1dd1db246" kind="variable"><name>MinMax_VoxelsVolume_Vector_unsigned_short_Id_VoxelTag_ValueType</name></member>
     <member refid="namespacemrmeshpy_1a159f22eee4915764b70f27c225a184f4" kind="variable"><name>MinMaxd</name></member>
     <member refid="namespacemrmeshpy_1a374b0cbc4c809892456a8bbd1a33d740" kind="variable"><name>MinMaxf</name></member>
@@ -31433,8 +31429,6 @@
     <member refid="namespacemrmeshpy_1aac0461f64a271b6aa69b38358ac27c1d" kind="variable"><name>PickedPoint</name></member>
     <member refid="namespacemrmeshpy_1a439c6cc6e776e75afea72aaa5e90b047" kind="variable"><name>PlaneSection</name></member>
     <member refid="namespacemrmeshpy_1aa84aa6f358f59255a51649bb1b43ccff" kind="variable"><name>PlaneSections</name></member>
-    <member refid="namespacemrmeshpy_1afae1d0b82e6e955e9cc14cea5b5eb0e8" kind="variable"><name>PolynomialWrapperd</name></member>
-    <member refid="namespacemrmeshpy_1ad72133ad9c14b3f0531e3250656da9c0" kind="variable"><name>PolynomialWrapperf</name></member>
     <member refid="namespacemrmeshpy_1ac2cd26c1343df765837fc38c0458e47c" kind="variable"><name>Polynomial_double_0ul_0_0_0ul_minus_1</name></member>
     <member refid="namespacemrmeshpy_1a55c1dceb61206769ca4f5fe39927c834" kind="variable"><name>Polynomial_double_1ul_0_0_1ul_minus_1</name></member>
     <member refid="namespacemrmeshpy_1a0cf7d065771b2807bdf391ffdabe67ce" kind="variable"><name>Polynomial_double_2ul_0_0_2ul_minus_1</name></member>
@@ -31449,6 +31443,8 @@
     <member refid="namespacemrmeshpy_1a57b5dca82e709e3c10ad068b29d6ad62" kind="variable"><name>Polynomial_float_4ul_0_0_4ul_minus_1</name></member>
     <member refid="namespacemrmeshpy_1ab8ab25e492dd0839bf6d73779a2d4569" kind="variable"><name>Polynomial_float_5ul_0_0_5ul_minus_1</name></member>
     <member refid="namespacemrmeshpy_1a5ae9ac6f5e99943a8814d93dda3d0b4b" kind="variable"><name>Polynomial_float_6ul_0_0_6ul_minus_1</name></member>
+    <member refid="namespacemrmeshpy_1afae1d0b82e6e955e9cc14cea5b5eb0e8" kind="variable"><name>PolynomialWrapperd</name></member>
+    <member refid="namespacemrmeshpy_1ad72133ad9c14b3f0531e3250656da9c0" kind="variable"><name>PolynomialWrapperf</name></member>
     <member refid="namespacemrmeshpy_1a177909c323b7ebf3469e0820f9587efb" kind="variable"><name>Polynomialx_double</name></member>
     <member refid="namespacemrmeshpy_1a3f1e65384e3fcfc2d57a238f55d02271" kind="variable"><name>Polynomialx_float</name></member>
     <member refid="namespacemrmeshpy_1a3a184d6befc93eb82d3aac4cc0bed08b" kind="variable"><name>PreciseCollisionResult</name></member>
@@ -31466,7 +31462,6 @@
     <member refid="namespacemrmeshpy_1a0815ddd5e48d24ab0b98b79a750fb999" kind="variable"><name>SurfacePath_ptr</name></member>
     <member refid="namespacemrmeshpy_1a19b8987f778e645da3db962eb9af8f30" kind="variable"><name>SurfacePaths</name></member>
     <member refid="namespacemrmeshpy_1aef99b8a9a4b90a0a4333e0a38363bdbe" kind="variable"><name>TaggedBitSet_ICPElemtTag</name></member>
-    <member refid="namespacemrmeshpy_1a304e9fc9a6db90f005dce1e1020102d7" kind="variable"><name>TextAlignParams</name></member>
     <member refid="namespacemrmeshpy_1a92d8cc05e4ffaf740b21ab4c5d72d548" kind="variable"><name>ThreeUVCoords</name></member>
     <member refid="namespacemrmeshpy_1a4e191b85eb59e160c6f514aacd9da955" kind="variable"><name>ThreeVertIds</name></member>
     <member refid="namespacemrmeshpy_1a595f381db246ab743de3119902b57198" kind="variable"><name>TriTriDistanceParamsd</name></member>
@@ -31478,7 +31473,6 @@
     <member refid="namespacemrmeshpy_1a73d9a576ba7e3345751e932a3e527757" kind="variable"><name>Triangle3i</name></member>
     <member refid="namespacemrmeshpy_1a7cb5f97dca60bdecd3f2aa01ebc8b705" kind="variable"><name>TriangleCornerNormals</name></member>
     <member refid="namespacemrmeshpy_1a2c05b8812e19996031e507539405fb72" kind="variable"><name>TrianglesRepetitions</name></member>
-    <member refid="namespacemrmeshpy_1a04750adee27f3cc82c9073ef7997b1e9" kind="variable"><name>TriangulationHelpersSettings</name></member>
     <member refid="namespacemrmeshpy_1aeba5308b418c01f31525bf37e9d7859d" kind="variable"><name>TwoLineSegmClosestPointsd</name></member>
     <member refid="namespacemrmeshpy_1a7c862ef6372b9f23c4d08e30e97e8c87" kind="variable"><name>TwoLineSegmClosestPointsf</name></member>
     <member refid="namespacemrmeshpy_1adae3177baf169d83307e1cbe5f4886cf" kind="variable"><name>TwoVertIds</name></member>
@@ -31637,10 +31631,8 @@
     <member refid="namespacemrmeshpy_1a4f9ab8cacdacab7c13c4d25afc82e88a" kind="variable"><name>ViewportProperty_uint8_t</name></member>
     <member refid="namespacemrmeshpy_1a6c24649a05d972713d7457d0359a85b6" kind="variable"><name>VoxelTraits_Vector_float_Id_VoxelTag</name></member>
     <member refid="namespacemrmeshpy_1a659574ce267fc1a852e2f906beec1228" kind="variable"><name>VoxelTraits_Vector_unsigned_short_Id_VoxelTag</name></member>
-    <member refid="namespacemrmeshpy_1abb5593a3e15c60e65ee44c26cef90e20" kind="variable"><name>VoxelsSaveSavingSettings</name></member>
     <member refid="namespacemrmeshpy_1a6f1dc5c7be46556685b771f6365814a4" kind="variable"><name>WholeEdgeHashMap</name></member>
     <member refid="namespacemrmeshpy_1a06df4c5c798cce024e8f846182bf236d" kind="variable"><name>WholeEdgeMapOrHashMap</name></member>
-    <member refid="namespacemrmeshpy_1a8e026193a82cb44332b09df092ec1d0f" kind="variable"><name>copyMesh</name></member>
     <member refid="namespacemrmeshpy_1a29c9ec0b6f2f1de12e67ac37954dec68" kind="variable"><name>phmap_flat_hash_map_EdgeId_EdgeId</name></member>
     <member refid="namespacemrmeshpy_1a3c67a1733be73be301a88f13d3cb907a" kind="variable"><name>phmap_flat_hash_map_FaceId_FaceId</name></member>
     <member refid="namespacemrmeshpy_1a79526aab7cf4f41022eec1edf0ad7fa8" kind="variable"><name>phmap_flat_hash_map_GraphEdgeId_GraphEdgeId</name></member>
@@ -31755,11 +31747,11 @@
     <member refid="namespacemrmeshpy_1a880fc8f4efdd3af065ad9dfcc31e49e3" kind="variable"><name>std_vector_FanRecord_const_reference</name></member>
     <member refid="namespacemrmeshpy_1a2a9a045af9ca37df456ef9a5821f6ecb" kind="variable"><name>std_vector_FanRecord_reference</name></member>
     <member refid="namespacemrmeshpy_1adf64d328a4a34790a9034929ce2d9055" kind="variable"><name>std_vector_FanRecord_value_type</name></member>
-    <member refid="namespacemrmeshpy_1a84f18610e668f90956a221eec4de1576" kind="variable"><name>std_vector_GraphEdgeId</name></member>
-    <member refid="namespacemrmeshpy_1ac0c640f8bc7fc53d0fd12623af68fe32" kind="variable"><name>std_vector_GraphVertId</name></member>
     <member refid="namespacemrmeshpy_1ae3c2dd00688b185b385e0ce9c6c65337" kind="variable"><name>std_vector_Graph_EndVertices_const_reference</name></member>
     <member refid="namespacemrmeshpy_1a49e9dac7266b4b06dcd6f46c508a85b8" kind="variable"><name>std_vector_Graph_EndVertices_reference</name></member>
     <member refid="namespacemrmeshpy_1ab21fe61da3416b1e878d33070ad93d75" kind="variable"><name>std_vector_Graph_EndVertices_value_type</name></member>
+    <member refid="namespacemrmeshpy_1a84f18610e668f90956a221eec4de1576" kind="variable"><name>std_vector_GraphEdgeId</name></member>
+    <member refid="namespacemrmeshpy_1ac0c640f8bc7fc53d0fd12623af68fe32" kind="variable"><name>std_vector_GraphVertId</name></member>
     <member refid="namespacemrmeshpy_1ac4e0abc0afdbf555f43b638f94005a19" kind="variable"><name>std_vector_Heap_float_GraphVertId_std_greater_float_Element</name></member>
     <member refid="namespacemrmeshpy_1a3ea48795464251710d7e4179ce41884e" kind="variable"><name>std_vector_ICPGroupPairs_const_reference</name></member>
     <member refid="namespacemrmeshpy_1ac1acec4419af20c3088188a6a63a7a19" kind="variable"><name>std_vector_ICPGroupPairs_reference</name></member>
@@ -31864,11 +31856,22 @@
     <member refid="namespacemrmeshpy_1aa173a8f0c0eab241aa4b9de29a75534d" kind="variable"><name>std_vector_std_vector_Vector3d</name></member>
     <member refid="namespacemrmeshpy_1a5bf57c9511e2c6e3ceb59309162bb62f" kind="variable"><name>std_vector_std_vector_Vector3f</name></member>
     <member refid="namespacemrmeshpy_1a519a1b5df9732430ae93f76ec544f79d" kind="variable"><name>std_vector_std_vector_VertId</name></member>
-    <member refid="namespacemrmeshpy_1aa9a471be1a4c7ac44eb5b930e0ca4ad9" kind="variable"><name>std_vector_tl_expected_VoxelsLoad_DicomVolumeAsVdb_std_string</name></member>
     <member refid="namespacemrmeshpy_1a5797af233ce71d01f80aeba5a78c5c32" kind="variable"><name>std_vector_tl_expected_VoxelsLoad_DicomVolume_std_string</name></member>
+    <member refid="namespacemrmeshpy_1aa9a471be1a4c7ac44eb5b930e0ca4ad9" kind="variable"><name>std_vector_tl_expected_VoxelsLoad_DicomVolumeAsVdb_std_string</name></member>
     <member refid="namespacemrmeshpy_1a51d3521b59c90dd3b181d43ad1f26db5" kind="variable"><name>std_vector_uint8_t</name></member>
-    <member refid="namespacemrmeshpy_1a7eebb5767c11696f88057900f6932db1" kind="variable"><name>tl_expected_VoxelsLoad_DicomVolumeAsVdb_std_string</name></member>
     <member refid="namespacemrmeshpy_1a748a8787c2655d529765894e1328638d" kind="variable"><name>tl_expected_VoxelsLoad_DicomVolume_std_string</name></member>
+    <member refid="namespacemrmeshpy_1a7eebb5767c11696f88057900f6932db1" kind="variable"><name>tl_expected_VoxelsLoad_DicomVolumeAsVdb_std_string</name></member>
+    <member refid="namespacemrmeshpy_1aece248ac2796cbbbbcab4e0cc514160e" kind="variable"><name>BooleanResMapObj</name></member>
+    <member refid="namespacemrmeshpy_1ac69f97acfa239fe5929326bede33a944" kind="variable"><name>FixSelfIntersectionMethod</name></member>
+    <member refid="namespacemrmeshpy_1a4f9550e770fd81a75766208ec3b0c418" kind="variable"><name>FixSelfIntersectionSettings</name></member>
+    <member refid="namespacemrmeshpy_1a858a476e0958e61f6be1a990a7914d74" kind="variable"><name>GeneralOffsetParametersMode</name></member>
+    <member refid="namespacemrmeshpy_1afc0a47bfaf548c6edc38e2428021f901" kind="variable"><name>LaplacianEdgeWeightsParam</name></member>
+    <member refid="namespacemrmeshpy_1a69c9751fa4c594fbad489e290736aebe" kind="variable"><name>MeshBuilderSettings</name></member>
+    <member refid="namespacemrmeshpy_1a7e0733c188e85f0c7080ca1c58feb9d8" kind="variable"><name>MeshToVolumeParamsType</name></member>
+    <member refid="namespacemrmeshpy_1a304e9fc9a6db90f005dce1e1020102d7" kind="variable"><name>TextAlignParams</name></member>
+    <member refid="namespacemrmeshpy_1a04750adee27f3cc82c9073ef7997b1e9" kind="variable"><name>TriangulationHelpersSettings</name></member>
+    <member refid="namespacemrmeshpy_1abb5593a3e15c60e65ee44c26cef90e20" kind="variable"><name>VoxelsSaveSavingSettings</name></member>
+    <member refid="namespacemrmeshpy_1a8e026193a82cb44332b09df092ec1d0f" kind="variable"><name>copyMesh</name></member>
     <member refid="namespacemrmeshpy_1ad754da89a1be74eba42a46290470a7ba" kind="variable"><name>vectorConstMeshPtr</name></member>
     <member refid="namespacemrmeshpy_1a0fe27e0b253787b1fd267a6067fd6302" kind="variable"><name>vectorEdges</name></member>
     <member refid="namespacemrmeshpy_1af454ff761eba43a26cc17908882e8dc6" kind="function"><name>GetCpuId</name></member>

@@ -31628,24 +31628,27 @@
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a19953a217b2c909f536283b2a426ea6c" kind="property"><name>linearDeflection</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a9615eb5b7b0826074bbdcc956788a54c" kind="property"><name>relative</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a3b515e7b46d7fc40b356ec169610f062" kind="property"><name>autoColorize</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a0293f8c29098d78f493375a3c0a2d450" kind="property"><name>forceLoadSubShapes</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a570c9146409fb66e713a9dedf4eed695" kind="variable"><name>__ref_storage_angularDeflection</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a6d4246698cd2f3ec5db64b0cc302e8be" kind="variable"><name>__ref_storage_linearDeflection</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1ae853feef188a716d3873c7b974373797" kind="variable"><name>__ref_storage_relative</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a98f9c643f77b11ed75c30d736f6be811" kind="variable"><name>__ref_storage_autoColorize</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a8a77a8d060808a1baf62b45a22e8b369" kind="variable"><name>__ref_storage_forceLoadSubShapes</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1ae1c241a4e1ab3f1b53190916462b8755" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a408c5f5ab25fccd623cc1a5249e71c1b" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1ab7d9714ecc4478ed6197f493376fd564" kind="function"><name>Const_StepLoadSettings</name></member>
-    <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1abdafd7185a4e934c9a01d9766f9f3bde" kind="function"><name>Const_StepLoadSettings</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a8177344f3176bf7432e8edd8f55a36a0" kind="function"><name>Const_StepLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a091ad9656ee8db82bc26addd45455c13" kind="function"><name>Const_StepLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a4ae144b7b49a97bbac0afa7c7c266923" kind="function"><name>Const_StepLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a27a8a72613308da2ba0ede5d5640e418" kind="function"><name>~Const_StepLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a6b5e535e4df305c3bb20f977d7794774" kind="function"><name>Const_StepLoadSettings</name></member>
-    <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a75e68cd82209b9787a5b0ecf041b527b" kind="function"><name>__MR_MeshLoad_StepLoadSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a91388a2ebb519378bc6dd8cc8fa39cc7" kind="function"><name>__MR_MeshLoad_StepLoadSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a242558c82841dbca13b7fc0aa3429b06" kind="function"><name>__MR_MeshLoad_StepLoadSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a397f5ad84137755cb6036ae8a3eb7098" kind="function"><name>__MR_MeshLoad_StepLoadSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a5545d67a51f2ec6350b68812fa1035da" kind="function"><name>__MR_MeshLoad_StepLoadSettings_Destroy</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a0277cdf5177233e21bca2f1b6d4954b5" kind="function"><name>__MR_MeshLoad_StepLoadSettings_Get_angularDeflection</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1aac19eb2a2164f7d787e971d924354eaf" kind="function"><name>__MR_MeshLoad_StepLoadSettings_Get_autoColorize</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a381fe36c167c62e2a4762964207830a3" kind="function"><name>__MR_MeshLoad_StepLoadSettings_Get_forceLoadSubShapes</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a4d0e361bcde07138649812fd1120a4d3" kind="function"><name>__MR_MeshLoad_StepLoadSettings_Get_linearDeflection</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a133a05f55ae652122d23e4e3cc336c7e" kind="function"><name>__MR_MeshLoad_StepLoadSettings_Get_relative</name></member>
   </compound>
@@ -62457,14 +62460,15 @@
     <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1ae4790fcdb8aa3a49d815633be780a801" kind="property"><name>linearDeflection</name></member>
     <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a939f803ec344832afe24fbc02206881c" kind="property"><name>relative</name></member>
     <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a5e7a26b013d16baf8760ecb831aa7adb" kind="property"><name>autoColorize</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a0df80d1d7f81aeb3920d4f65d2abcdcf" kind="property"><name>forceLoadSubShapes</name></member>
     <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a89e200b5e06c8037d696333dcab7db48" kind="function"><name>StepLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1ae8992aef8c0dc3949be110c83d558adc" kind="function"><name>StepLoadSettings</name></member>
-    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1ad1936b79831d1e14672967e2b726d749" kind="function"><name>StepLoadSettings</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1ae984443abbdab46dfd944e4d6848c343" kind="function"><name>StepLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a06c906e917e8c473e830f4ff60b0fe82" kind="function"><name>StepLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1aafc4da6bae0a741e3db6a762641505e8" kind="function"><name>StepLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a23aad55ba101d29fff9a91b02470874d" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a1c059bdaf1756cc7feb0fe08af8e2102" kind="function"><name>__MR_MeshLoad_StepLoadSettings_AssignFromAnother</name></member>
-    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1ad0f7c156a792bad1e10cadba6c9d871e" kind="function"><name>__MR_MeshLoad_StepLoadSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a0aa1fc3040035e276258f97d757e151b" kind="function"><name>__MR_MeshLoad_StepLoadSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1aff9d02e2fd05980d590974a2cc6c470b" kind="function"><name>__MR_MeshLoad_StepLoadSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1adeae408b65c78f6a81833e73fd80e445" kind="function"><name>__MR_MeshLoad_StepLoadSettings_DefaultConstruct</name></member>
   </compound>

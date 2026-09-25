@@ -1,5 +1,8 @@
 var NAVTREEINDEX116 =
 {
+"classMR_1_1Nesting.html#a93a9b953fc41aa721a7ae5b223a6e792":[9,3,0,0,0,1411,23],
+"classMR_1_1Nesting.html#ab07dbfa905bd4b259fdbf9a6750015fa":[9,3,0,0,0,1411,24],
+"classMR_1_1Nesting.html#ac31011f69dee1f2d75c110bd843faa2c":[9,3,0,0,0,1411,22],
 "classMR_1_1Nesting.html#ad88457c04fd0e0b4e59f8b19acdce1ec":[9,3,0,0,0,1411,25],
 "classMR_1_1Nesting.html#ae31981d41639cc9f5939233a69505d16":[9,3,0,0,0,1411,26],
 "classMR_1_1Nesting_1_1BoxNestingCorner.html":[9,3,0,0,0,1411,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX116 =
 "classMR_1_1Nesting_1_1TetrisDensifyParams.html#a75db5da2ab2547dab4f7b76001fddfbb":[9,3,0,0,0,1411,21,3],
 "classMR_1_1Nesting_1_1TetrisDensifyParams.html#ae27932baf039d8b992a10dc606bfa0d8":[9,3,0,0,0,1411,21,1],
 "classMR_1_1Nesting_1_1TetrisDensifyParams.html#af50a5326b81065d257a03ababfa2b83e":[9,3,0,0,0,1411,21,6],
-"classMR_1_1NewEdgesMap.html":[9,3,0,0,0,1412],
-"classMR_1_1NewEdgesMap.html#a0ade3d587a06a3ab61ee67b30cfb2929":[9,3,0,0,0,1412,7],
-"classMR_1_1NewEdgesMap.html#a4d500b96c8a39d7e009ee25a9e1f8c36":[9,3,0,0,0,1412,4],
-"classMR_1_1NewEdgesMap.html#aa4832d1260cb9bdb36d049f4c28cb518":[9,3,0,0,0,1412,3]
+"classMR_1_1NewEdgesMap.html":[9,3,0,0,0,1412]
 };

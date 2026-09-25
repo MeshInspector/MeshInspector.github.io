@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html":[9,0,0,20,231],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html":[9,0,0,20,230],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[9,0,0,20,226],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[9,0,0,20,227],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[9,0,0,20,225],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1ReduceTotalAngleParams.html":[9,0,0,20,376],
 "structMR_1_1RefineParameters.html":[9,0,0,20,236],
 "structMR_1_1RelaxParams.html":[9,0,0,20,486],
-"structMR_1_1RemeshSettings.html":[9,0,0,10,3],
-"structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[9,0,0,10,3,1],
-"structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[9,0,0,10,3,8]
+"structMR_1_1RemeshSettings.html":[9,0,0,10,3]
 };

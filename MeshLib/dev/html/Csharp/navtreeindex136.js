@@ -1,5 +1,8 @@
 var NAVTREEINDEX136 =
 {
+"classMR_1_1UndirectedEdgeBitSet.html#a6179ace1791c3193b39b97ea12388256":[9,3,0,0,0,1713,25],
+"classMR_1_1UndirectedEdgeBitSet.html#a636f4bb88df31ccb7e388d21a6808c19":[9,3,0,0,0,1713,7],
+"classMR_1_1UndirectedEdgeBitSet.html#a64afeb56d2118d4244c6f53c4f3c0ed7":[9,3,0,0,0,1713,4],
 "classMR_1_1UndirectedEdgeBitSet.html#a68103e6f1b6ef5bb8fe68f7aac7e16fc":[9,3,0,0,0,1713,10],
 "classMR_1_1UndirectedEdgeBitSet.html#a7f44e9155c4067b39297de27c9cf491f":[9,3,0,0,0,1713,13],
 "classMR_1_1UndirectedEdgeBitSet.html#a82c6cec75f65b0598d6ae8e228e20d13":[9,3,0,0,0,1713,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX136 =
 "classMR_1_1UnorientedTriangle.html#adb08e44235b3f3b76b543eb11f435b69":[9,3,0,0,0,1732,1],
 "classMR_1_1UnorientedTriangle.html#aeed58daed0b5191760e8196821155bf8":[9,3,0,0,0,1732,5],
 "classMR_1_1VacantElements.html":[9,3,0,0,0,1733],
-"classMR_1_1VacantElements.html#a1f1f584d07e040832028f6ec2f4e24d8":[9,3,0,0,0,1733,1],
-"classMR_1_1VacantElements.html#a5cfec6730ecbfc8c16d71582f649a8a9":[9,3,0,0,0,1733,7],
-"classMR_1_1VacantElements.html#a79bb5076730897ba23dbcb3e3cb6ebfa":[9,3,0,0,0,1733,3],
-"classMR_1_1VacantElements.html#a93f779bfeb5cb3afab5512cd274c7c16":[9,3,0,0,0,1733,2]
+"classMR_1_1VacantElements.html#a1f1f584d07e040832028f6ec2f4e24d8":[9,3,0,0,0,1733,1]
 };

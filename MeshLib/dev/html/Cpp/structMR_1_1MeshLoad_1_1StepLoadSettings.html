@@ -158,6 +158,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1ce565a217495fbc5151a90f6c5ba904" id="r_a1ce565a217495fbc5151a90f6c5ba904"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ce565a217495fbc5151a90f6c5ba904">relative</a> = false</td></tr>
 <tr class="memdesc:a1ce565a217495fbc5151a90f6c5ba904"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the deflection values are related to the size of edges  <br /></td></tr>
 <tr class="memitem:a7d49edf6d491e777a91aa4259a6702ad" id="r_a7d49edf6d491e777a91aa4259a6702ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d49edf6d491e777a91aa4259a6702ad">autoColorize</a> = true</td></tr>
+<tr class="memitem:a305896bf1e6f138df3e0f7982bc1d3cf" id="r_a305896bf1e6f138df3e0f7982bc1d3cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a305896bf1e6f138df3e0f7982bc1d3cf">forceLoadSubShapes</a> = false</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>STEP-specific mesh load parameters. </p>
@@ -190,6 +191,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>assign distinct per-component colors so the scene is visually inspectable; has no effect if the source STEP file contains any color information </p>
+
+</div>
+</div>
+<a id="a305896bf1e6f138df3e0f7982bc1d3cf" name="a305896bf1e6f138df3e0f7982bc1d3cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a305896bf1e6f138df3e0f7982bc1d3cf">&#9670;&#160;</a></span>forceLoadSubShapes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MeshLoad::StepLoadSettings::forceLoadSubShapes = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>split every simple shape into per-body (Solid/Shell) child objects, even if it has a single body; by default single-body shapes are loaded as a single mesh object </p>
 
 </div>
 </div>
