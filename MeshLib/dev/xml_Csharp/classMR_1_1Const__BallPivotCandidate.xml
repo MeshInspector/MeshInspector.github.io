@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__BallPivotCandidate" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_BallPivotCandidate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1BallPivotCandidate" prot="public" virt="non-virtual">MR.BallPivotCandidate</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__BallPivotCandidate_1aa6e5f72a491949926dffa2dfef0922d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__PreciseVertCoords" kindref="compound">MR.Const_PreciseVertCoords</ref></type>
+        <definition>unsafe MR.Const_PreciseVertCoords MR.Const_BallPivotCandidate.coords</definition>
+        <argsstring></argsstring>
+        <name>coords</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.coords</qualifiedname>
+        <briefdescription>
+<para>the point's id together with its integer coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="969" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="969" bodyend="969"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BallPivotCandidate_1a57f3786bef8b89045f62862b2aaf0251" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_BallPivotCandidate.cwFromVk</definition>
+        <argsstring></argsstring>
+        <name>cwFromVk</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.cwFromVk</qualifiedname>
+        <briefdescription>
+<para>orient3d( vi, vj, vk, this point ): whether the rotation around the line from #vi to #vj from the half-plane via #vk to the half-plane via this point is clockwise </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="975" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="975" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__BallPivotCandidate_1a248c99168e9b3e776f1e62e527a91ef6" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_BallPivotCandidate.__ref_storage_cwFromVk</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_cwFromVk</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.__ref_storage_cwFromVk</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="976" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="976" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1ab271cbe40b9db8f2fdb598013edd356d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_BallPivotCandidate.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="956" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="956" bodyend="962"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1ae05e007f3f5ff5fce7291cc1bee9cb23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_BallPivotCandidate.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="963" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="963" bodyend="963"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1a2d8cfb7f00457fabba9edfe36c4b3554" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BallPivotCandidate.Const_BallPivotCandidate</definition>
+        <argsstring>()</argsstring>
+        <name>Const_BallPivotCandidate</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.Const_BallPivotCandidate</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="1006" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="1006" bodyend="1010"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1adfca7af0851679e988c96d4bdce18629" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BallPivotCandidate.Const_BallPivotCandidate</definition>
+        <argsstring>(MR.Const_PreciseVertCoords coords, bool cwFromVk)</argsstring>
+        <name>Const_BallPivotCandidate</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.Const_BallPivotCandidate</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PreciseVertCoords" kindref="compound">MR.Const_PreciseVertCoords</ref></type>
+          <declname>coords</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cwFromVk</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1BallPivotCandidate" kindref="compound">MR.BallPivotCandidate</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="1015" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="1015" bodyend="1020"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1a47a61420b1bff625e9130781d227b0f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BallPivotCandidate.Const_BallPivotCandidate</definition>
+        <argsstring>(MR.Const_BallPivotCandidate _other)</argsstring>
+        <name>Const_BallPivotCandidate</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.Const_BallPivotCandidate</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BallPivotCandidate" kindref="compound">MR.Const_BallPivotCandidate</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BallPivotCandidate_1ad06dad1d3ae8047daf7c0e7c36f8bbb6" kindref="member">MR.BallPivotCandidate.BallPivotCandidate</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="1025" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="1025" bodyend="1030"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1a9dde9ed544975007352cbf685794c0e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_BallPivotCandidate.Const_BallPivotCandidate</definition>
+        <argsstring>(BallPivotCandidate _other)</argsstring>
+        <name>Const_BallPivotCandidate</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.Const_BallPivotCandidate</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BallPivotCandidate" kindref="compound">BallPivotCandidate</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BallPivotCandidate_1ad06dad1d3ae8047daf7c0e7c36f8bbb6" kindref="member">MR.BallPivotCandidate.BallPivotCandidate</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="1035" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="1035" bodyend="1035"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1a76722fba9fd41b155cfc44211acb8e8f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_BallPivotCandidate.~Const_BallPivotCandidate</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_BallPivotCandidate</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.~Const_BallPivotCandidate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="964" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="964" bodyend="964"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1af42603a02f34d822fd2ff5d24093d3d1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BallPivotCandidate.Const_BallPivotCandidate</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_BallPivotCandidate</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.Const_BallPivotCandidate</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="995" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="995" bodyend="1000"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1a021917e2c1b01f3d5e70607884b93eb3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BallPivotCandidate._Underlying *</type>
+        <definition>static unsafe MR.BallPivotCandidate._Underlying * MR.Const_BallPivotCandidate.__MR_BallPivotCandidate_ConstructFrom</definition>
+        <argsstring>(MR.PreciseVertCoords._Underlying *coords, byte cwFromVk)</argsstring>
+        <name>__MR_BallPivotCandidate_ConstructFrom</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.__MR_BallPivotCandidate_ConstructFrom</qualifiedname>
+        <param>
+          <type>MR.PreciseVertCoords._Underlying *</type>
+          <declname>coords</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>cwFromVk</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="1040" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1a669cb7554f84498e9d0b65b9612ca1bc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BallPivotCandidate._Underlying *</type>
+        <definition>static unsafe MR.BallPivotCandidate._Underlying * MR.Const_BallPivotCandidate.__MR_BallPivotCandidate_ConstructFromAnother</definition>
+        <argsstring>(MR.BallPivotCandidate._Underlying *_other)</argsstring>
+        <name>__MR_BallPivotCandidate_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.__MR_BallPivotCandidate_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.BallPivotCandidate._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="1043" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1afb63512ed77612733f15a3d31aed0947" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BallPivotCandidate._Underlying *</type>
+        <definition>static unsafe MR.BallPivotCandidate._Underlying * MR.Const_BallPivotCandidate.__MR_BallPivotCandidate_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_BallPivotCandidate_DefaultConstruct</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.__MR_BallPivotCandidate_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="1046" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1a6f08166630aecf84497af70bf338b11c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_BallPivotCandidate.__MR_BallPivotCandidate_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_BallPivotCandidate_Destroy</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.__MR_BallPivotCandidate_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="1049" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1ac46f2b0566619ec27c4d093bbfc147de" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_PreciseVertCoords._Underlying *</type>
+        <definition>static unsafe MR.Const_PreciseVertCoords._Underlying * MR.Const_BallPivotCandidate.__MR_BallPivotCandidate_Get_coords</definition>
+        <argsstring>(MR.Const_BallPivotCandidate._Underlying *_this)</argsstring>
+        <name>__MR_BallPivotCandidate_Get_coords</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.__MR_BallPivotCandidate_Get_coords</qualifiedname>
+        <param>
+          <type>MR.Const_BallPivotCandidate._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="1052" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BallPivotCandidate_1ae4835f4a11da92f025a4841c99141354" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe bool *</type>
+        <definition>static unsafe bool * MR.Const_BallPivotCandidate.__MR_BallPivotCandidate_Get_cwFromVk</definition>
+        <argsstring>(MR.Const_BallPivotCandidate._Underlying *_this)</argsstring>
+        <name>__MR_BallPivotCandidate_Get_cwFromVk</name>
+        <qualifiedname>MR.Const_BallPivotCandidate.__MR_BallPivotCandidate_Get_cwFromVk</qualifiedname>
+        <param>
+          <type>MR.Const_BallPivotCandidate._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="1055" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a point touchable by a ball together with the edge (vi, vj) in the search of findBallPivotVertex Generated from class <computeroutput><ref refid="classMR_1_1BallPivotCandidate" kindref="compound">MR.BallPivotCandidate</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_BallPivotCandidate</label>
+        <link refid="classMR_1_1Const__BallPivotCandidate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.BallPivotCandidate</label>
+        <link refid="classMR_1_1BallPivotCandidate"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_BallPivotCandidate</label>
+        <link refid="classMR_1_1Const__BallPivotCandidate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" line="950" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlphaShape.cs" bodystart="951" bodyend="1056"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1a021917e2c1b01f3d5e70607884b93eb3" prot="private" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>__MR_BallPivotCandidate_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1a669cb7554f84498e9d0b65b9612ca1bc" prot="private" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>__MR_BallPivotCandidate_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1afb63512ed77612733f15a3d31aed0947" prot="private" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>__MR_BallPivotCandidate_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1a6f08166630aecf84497af70bf338b11c" prot="private" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>__MR_BallPivotCandidate_Destroy</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1ac46f2b0566619ec27c4d093bbfc147de" prot="private" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>__MR_BallPivotCandidate_Get_coords</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1ae4835f4a11da92f025a4841c99141354" prot="private" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>__MR_BallPivotCandidate_Get_cwFromVk</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1a248c99168e9b3e776f1e62e527a91ef6" prot="protected" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>__ref_storage_cwFromVk</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1af42603a02f34d822fd2ff5d24093d3d1" prot="package" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>Const_BallPivotCandidate</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1a2d8cfb7f00457fabba9edfe36c4b3554" prot="public" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>Const_BallPivotCandidate</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1adfca7af0851679e988c96d4bdce18629" prot="public" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>Const_BallPivotCandidate</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1a47a61420b1bff625e9130781d227b0f4" prot="public" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>Const_BallPivotCandidate</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1a9dde9ed544975007352cbf685794c0e2" prot="public" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>Const_BallPivotCandidate</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1aa6e5f72a491949926dffa2dfef0922d2" prot="public" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>coords</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1a57f3786bef8b89045f62862b2aaf0251" prot="public" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>cwFromVk</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1ab271cbe40b9db8f2fdb598013edd356d" prot="protected" virt="virtual"><scope>MR::Const_BallPivotCandidate</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1ae05e007f3f5ff5fce7291cc1bee9cb23" prot="public" virt="virtual"><scope>MR::Const_BallPivotCandidate</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BallPivotCandidate_1a76722fba9fd41b155cfc44211acb8e8f" prot="private" virt="non-virtual"><scope>MR::Const_BallPivotCandidate</scope><name>~Const_BallPivotCandidate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1220,6 +1220,21 @@
     <member refid="classMR_1_1Ball3f_1a8c29a7116a1c6de1810fbe966fa22e6f" kind="function"><name>__MR_Ball3f_ConstructFromAnother</name></member>
     <member refid="classMR_1_1Ball3f_1a194aefecbdcdd18bbfb6e28e60ec1eda" kind="function"><name>__MR_Ball3f_DefaultConstruct</name></member>
   </compound>
+  <compound refid="classMR_1_1BallPivotCandidate" kind="class"><name>MR::BallPivotCandidate</name>
+    <member refid="classMR_1_1BallPivotCandidate_1a484340cb3891c2505b9b7c11bd02ab38" kind="property"><name>coords</name></member>
+    <member refid="classMR_1_1BallPivotCandidate_1a2f33365638a372f018d26066e51c823c" kind="property"><name>cwFromVk</name></member>
+    <member refid="classMR_1_1BallPivotCandidate_1a14f3bc1e788b284272c88f1de2a8a7f5" kind="function"><name>BallPivotCandidate</name></member>
+    <member refid="classMR_1_1BallPivotCandidate_1ad06dad1d3ae8047daf7c0e7c36f8bbb6" kind="function"><name>BallPivotCandidate</name></member>
+    <member refid="classMR_1_1BallPivotCandidate_1a2233a41bc7a61cb80e5a05cefcda917f" kind="function"><name>BallPivotCandidate</name></member>
+    <member refid="classMR_1_1BallPivotCandidate_1ad199c973ae6be8f80a0f2ee5a4be8bc0" kind="function"><name>BallPivotCandidate</name></member>
+    <member refid="classMR_1_1BallPivotCandidate_1abd4ade98dd38e97176b49f5b4b9bfc8d" kind="function"><name>BallPivotCandidate</name></member>
+    <member refid="classMR_1_1BallPivotCandidate_1a6a97bb5a5613668d277dbebe74b6272d" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1BallPivotCandidate_1a28ef37491981c32214d1e381667f3251" kind="function"><name>__MR_BallPivotCandidate_AssignFromAnother</name></member>
+    <member refid="classMR_1_1BallPivotCandidate_1a5b8cbaa9305206dcc004a035fe142324" kind="function"><name>__MR_BallPivotCandidate_ConstructFrom</name></member>
+    <member refid="classMR_1_1BallPivotCandidate_1aa6bf0ac031c026ccc3693954e11f2497" kind="function"><name>__MR_BallPivotCandidate_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1BallPivotCandidate_1aa8765e586f371faeff4c447021cafb38" kind="function"><name>__MR_BallPivotCandidate_DefaultConstruct</name></member>
+    <member refid="classMR_1_1BallPivotCandidate_1af310f43cda28620d6f9c3c84f2dd7fe6" kind="function"><name>__MR_BallPivotCandidate_GetMutable_coords</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__GcodeProcessor_1_1BaseAction__MRVector2f" kind="class"><name>MR::Const_GcodeProcessor::BaseAction_MRVector2f</name>
     <member refid="classMR_1_1Const__GcodeProcessor_1_1BaseAction__MRVector2f_1a450233edbf09bcebb15cf3c3e3f8adf9" kind="property"><name>path</name></member>
     <member refid="classMR_1_1Const__GcodeProcessor_1_1BaseAction__MRVector2f_1a49955812646c9c2c67db87b9013d77b1" kind="property"><name>warning</name></member>
@@ -7776,6 +7791,25 @@
     <member refid="classMR_1_1Const__Ball3f_1a9e25019f6a4298133a656b409a176b8e" kind="function"><name>__MR_Ball3f_inside</name></member>
     <member refid="classMR_1_1Const__Ball3f_1abd3a8e1eb926f71de7e022a594019d02" kind="function"><name>__MR_Ball3f_outside</name></member>
     <member refid="classMR_1_1Const__Ball3f_1a55820e6c2f94cdef64f1ee9c453ff5b1" kind="function"><name>Const_Ball3f</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__BallPivotCandidate" kind="class"><name>MR::Const_BallPivotCandidate</name>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1aa6e5f72a491949926dffa2dfef0922d2" kind="property"><name>coords</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1a57f3786bef8b89045f62862b2aaf0251" kind="property"><name>cwFromVk</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1a248c99168e9b3e776f1e62e527a91ef6" kind="variable"><name>__ref_storage_cwFromVk</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1ab271cbe40b9db8f2fdb598013edd356d" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1ae05e007f3f5ff5fce7291cc1bee9cb23" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1a2d8cfb7f00457fabba9edfe36c4b3554" kind="function"><name>Const_BallPivotCandidate</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1adfca7af0851679e988c96d4bdce18629" kind="function"><name>Const_BallPivotCandidate</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1a47a61420b1bff625e9130781d227b0f4" kind="function"><name>Const_BallPivotCandidate</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1a9dde9ed544975007352cbf685794c0e2" kind="function"><name>Const_BallPivotCandidate</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1a76722fba9fd41b155cfc44211acb8e8f" kind="function"><name>~Const_BallPivotCandidate</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1af42603a02f34d822fd2ff5d24093d3d1" kind="function"><name>Const_BallPivotCandidate</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1a021917e2c1b01f3d5e70607884b93eb3" kind="function"><name>__MR_BallPivotCandidate_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1a669cb7554f84498e9d0b65b9612ca1bc" kind="function"><name>__MR_BallPivotCandidate_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1afb63512ed77612733f15a3d31aed0947" kind="function"><name>__MR_BallPivotCandidate_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1a6f08166630aecf84497af70bf338b11c" kind="function"><name>__MR_BallPivotCandidate_Destroy</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1ac46f2b0566619ec27c4d093bbfc147de" kind="function"><name>__MR_BallPivotCandidate_Get_coords</name></member>
+    <member refid="classMR_1_1Const__BallPivotCandidate_1ae4835f4a11da92f025a4841c99141354" kind="function"><name>__MR_BallPivotCandidate_Get_cwFromVk</name></member>
   </compound>
   <compound refid="classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector2f" kind="class"><name>MR::Const_GcodeProcessor::Const_BaseAction_MRVector2f</name>
     <member refid="classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector2f_1a4f85089f784599feecfb547cc77414fd" kind="property"><name>path</name></member>
@@ -15308,6 +15342,7 @@
     <member refid="classMR_1_1Const__FastInSphereTesterSoS_1af86400239044179b9b5997be1f839835" kind="function"><name>Const_FastInSphereTesterSoS</name></member>
     <member refid="classMR_1_1Const__FastInSphereTesterSoS_1af9235801e7a810e3d62a3213a1404c30" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__FastInSphereTesterSoS_1adfa929c13ca8c18b94a4c747602c2aa0" kind="function"><name>outsideBothSpheres</name></member>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1ab8d9c244131a666d0e6959dba7fb8590" kind="function"><name>sphereExists</name></member>
     <member refid="classMR_1_1Const__FastInSphereTesterSoS_1a1d2814f4bcd83ed50988626a06cfbc74" kind="function"><name>degenerateTriangle</name></member>
     <member refid="classMR_1_1Const__FastInSphereTesterSoS_1ab01f7512712e39fefb6cf795db216e44" kind="function"><name>~Const_FastInSphereTesterSoS</name></member>
     <member refid="classMR_1_1Const__FastInSphereTesterSoS_1a7e18d8375d8edae533496269033ba784" kind="function"><name>operator MR.Const_InSphereTester_Int</name></member>
@@ -15321,6 +15356,7 @@
     <member refid="classMR_1_1Const__FastInSphereTesterSoS_1a0df209e96c85419d10fea4d1266255a7" kind="function"><name>__MR_FastInSphereTesterSoS_call</name></member>
     <member refid="classMR_1_1Const__FastInSphereTesterSoS_1aff3699da6fcfb19e163606f60dacf72d" kind="function"><name>__MR_FastInSphereTesterSoS_degenerateTriangle</name></member>
     <member refid="classMR_1_1Const__FastInSphereTesterSoS_1acfdbe5f17c3d56fc5e787b47d2efd148" kind="function"><name>__MR_FastInSphereTesterSoS_outsideBothSpheres</name></member>
+    <member refid="classMR_1_1Const__FastInSphereTesterSoS_1a049a530c3b612f7e88d784ad4c99aa12" kind="function"><name>__MR_FastInSphereTesterSoS_sphereExists</name></member>
   </compound>
   <compound refid="classMR_1_1Const__FastWindingNumber" kind="class"><name>MR::Const_FastWindingNumber</name>
     <member refid="classMR_1_1Const__FastWindingNumber_1a24bee8c8e3d72752fd52caf6f02b21ea" kind="function"><name>Dispose</name></member>
@@ -17373,6 +17409,7 @@
     <member refid="classMR_1_1Const__InSphereTesterSoS_1ab7a86102abd9d802e19dc26c53e86fa4" kind="function"><name>Const_InSphereTesterSoS</name></member>
     <member refid="classMR_1_1Const__InSphereTesterSoS_1a982c55b0a50761e6433cd215ff653951" kind="function"><name>Const_InSphereTesterSoS</name></member>
     <member refid="classMR_1_1Const__InSphereTesterSoS_1ad17599226939e90e79d8db3b9bee6744" kind="function"><name>Const_InSphereTesterSoS</name></member>
+    <member refid="classMR_1_1Const__InSphereTesterSoS_1ab089cabd698125d28a5c644c2f4a1d1f" kind="function"><name>sphereExists</name></member>
     <member refid="classMR_1_1Const__InSphereTesterSoS_1aac0bdfbcddcd27899a880c0bfe71ee4c" kind="function"><name>call</name></member>
     <member refid="classMR_1_1Const__InSphereTesterSoS_1a417dd123365793675701268eb44c0e89" kind="function"><name>degenerateTriangle</name></member>
     <member refid="classMR_1_1Const__InSphereTesterSoS_1a7bd13c6cfd3ff37f10d10f0eedba7af0" kind="function"><name>~Const_InSphereTesterSoS</name></member>
@@ -17384,6 +17421,7 @@
     <member refid="classMR_1_1Const__InSphereTesterSoS_1a3b12615cc47942b5f1ffccd69a74db4c" kind="function"><name>__MR_InSphereTesterSoS_UpcastTo_MR_InSphereTester_int</name></member>
     <member refid="classMR_1_1Const__InSphereTesterSoS_1a1191b67a2e08372b6661557f14ff1952" kind="function"><name>__MR_InSphereTesterSoS_call</name></member>
     <member refid="classMR_1_1Const__InSphereTesterSoS_1ae7badf5a8dc58c967904a6f131663724" kind="function"><name>__MR_InSphereTesterSoS_degenerateTriangle</name></member>
+    <member refid="classMR_1_1Const__InSphereTesterSoS_1a65936cf71c98e4c72f9f12ff5ba8d85a" kind="function"><name>__MR_InSphereTesterSoS_sphereExists</name></member>
   </compound>
   <compound refid="classMR_1_1Const__InterpolateScalarsParams" kind="class"><name>MR::Const_InterpolateScalarsParams</name>
     <member refid="classMR_1_1Const__InterpolateScalarsParams_1a4885fcb3862430bc5b38ebc9d7d104e9" kind="property"><name>region</name></member>
@@ -51523,9 +51561,11 @@
     <member refid="classMR_1a859d57307d0a091d15939f83fb773396" kind="function"><name>addBaseToPlanarMesh</name></member>
     <member refid="classMR_1afd241d5826434c0a3fe63e10bf50586f" kind="function"><name>getAlphaShapeData</name></member>
     <member refid="classMR_1a180e11b6bfda7c4367bac59eda6ee832" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+    <member refid="classMR_1a476f872ce2bde02c6a81d1f27e9ac1f2" kind="function"><name>findBallPivotVertex</name></member>
     <member refid="classMR_1a32936c120c57269735769d1282afc224" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="classMR_1ad70e15784ace180a11f2439a7055346a" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="classMR_1afc73e5f710830fb055cb539763583ae3" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+    <member refid="classMR_1ab74b5f9746c0e8d89e604e3a878f1c53" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="classMR_1a01d7c072cf3ba5ce10975533bbae98eb" kind="function"><name>findAlphaShape</name></member>
     <member refid="classMR_1a8188f06871f52146938dda2433eca233" kind="function"><name>findAlphaShape</name></member>
     <member refid="classMR_1a4b787558bf096cc4d2fa775326d22b1f" kind="function"><name>makeArrow</name></member>
@@ -53348,12 +53388,14 @@
     <member refid="classMR_1aed81f6ef2aea6e6524399e8d91e49e4e" kind="function"><name>__MR_getCurvePoint</name></member>
     <member refid="classMR_1a8a770452471e7fda2f6600aa1036401e" kind="function"><name>__MR_meshPathCurvePoints_MR_GeodesicPath</name></member>
     <member refid="classMR_1a2d8afbea24e7ae75bf60055d1860174d" kind="function"><name>__MR_meshPathCurvePoints_std_vector_MR_EdgePoint</name></member>
-    <member refid="classMR_1af5d4eac5b638b21ed45b141b556d2c20" kind="function"><name>__MR_findAlphaShapeAllTriangles_3</name></member>
+    <member refid="classMR_1aabacc62497b493077a274e3df2d1ef2c" kind="function"><name>__MR_findAlphaShapeAllTriangles_3_MR_AlphaShapeData</name></member>
+    <member refid="classMR_1a23ab7e58e6ade8527a8e207778730a51" kind="function"><name>__MR_findAlphaShapeAllTriangles_3_float</name></member>
     <member refid="classMR_1a756b2665bb420fa974aed21c42b6d64b" kind="function"><name>__MR_findAlphaShapeAllTriangles_4_MR_AlphaShapeData</name></member>
     <member refid="classMR_1ade12d22032587a3091c3e74123c2730d" kind="function"><name>__MR_findAlphaShapeAllTriangles_4_float</name></member>
     <member refid="classMR_1abf0a0967a56e39dd7c042904d3a25b25" kind="function"><name>__MR_findAlphaShapeNeiTriangles</name></member>
     <member refid="classMR_1a752c0e298b4db0f92175dfef24f61de7" kind="function"><name>__MR_findAlphaShape_4</name></member>
     <member refid="classMR_1a7372fbc663ecba72bd22d2cbda92f34c" kind="function"><name>__MR_findAlphaShape_5</name></member>
+    <member refid="classMR_1a4744ea019778e50808c6ad0b118eb11f" kind="function"><name>__MR_findBallPivotVertex</name></member>
     <member refid="classMR_1aa472e5acd98c7ff21c057b1fbdb61827" kind="function"><name>__MR_getAlphaShapeData</name></member>
     <member refid="classMR_1afe23501ac03e1f604a26c9debb74c7e9" kind="function"><name>__MR_makeArrow</name></member>
     <member refid="classMR_1a8d08ec25bb7730009218f65fe4568a6f" kind="function"><name>__MR_makeBasisAxes</name></member>

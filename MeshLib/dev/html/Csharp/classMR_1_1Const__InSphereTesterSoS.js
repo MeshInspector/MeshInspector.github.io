@@ -7,5 +7,6 @@ var classMR_1_1Const__InSphereTesterSoS =
     [ "degenerateTriangle", "classMR_1_1Const__InSphereTesterSoS.html#a417dd123365793675701268eb44c0e89", null ],
     [ "Dispose", "classMR_1_1Const__InSphereTesterSoS.html#ac67b2d9e487230387a44522d9b40704d", null ],
     [ "Dispose", "classMR_1_1Const__InSphereTesterSoS.html#a38332bb15f9d09c5441cfaa17fb5dd3f", null ],
-    [ "operator MR.Const_InSphereTester_Int", "classMR_1_1Const__InSphereTesterSoS.html#ae8dc505e02f7a2b3d36bf551d616af3a", null ]
+    [ "operator MR.Const_InSphereTester_Int", "classMR_1_1Const__InSphereTesterSoS.html#ae8dc505e02f7a2b3d36bf551d616af3a", null ],
+    [ "sphereExists", "classMR_1_1Const__InSphereTesterSoS.html#ab089cabd698125d28a5c644c2f4a1d1f", null ]
 ];

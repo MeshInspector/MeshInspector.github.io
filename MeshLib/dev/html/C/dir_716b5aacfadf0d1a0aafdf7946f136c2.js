@@ -422,6 +422,7 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "std_vector_MR_AABBTreePoints_Point.h", "std__vector__MR__AABBTreePoints__Point_8h.html", "std__vector__MR__AABBTreePoints__Point_8h" ],
     [ "std_vector_MR_AffineXf3f.h", "std__vector__MR__AffineXf3f_8h.html", "std__vector__MR__AffineXf3f_8h" ],
     [ "std_vector_MR_AlphaShapeNei.h", "std__vector__MR__AlphaShapeNei_8h.html", "std__vector__MR__AlphaShapeNei_8h" ],
+    [ "std_vector_MR_BallPivotCandidate.h", "std__vector__MR__BallPivotCandidate_8h.html", "std__vector__MR__BallPivotCandidate_8h" ],
     [ "std_vector_MR_Box3f.h", "std__vector__MR__Box3f_8h.html", "std__vector__MR__Box3f_8h" ],
     [ "std_vector_MR_CNCMachineSettings_RotationAxisName.h", "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html", "std__vector__MR__CNCMachineSettings__RotationAxisName_8h" ],
     [ "std_vector_MR_Color.h", "std__vector__MR__Color_8h.html", "std__vector__MR__Color_8h" ],

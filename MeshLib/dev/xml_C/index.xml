@@ -2201,10 +2201,12 @@
     <member refid="MRAlphaShape_8h_1a1ee03147697b6ec21996bf4dd7c65823" kind="typedef"><name>MR_Vector_MR_Vector3i_MR_VertId</name></member>
     <member refid="MRAlphaShape_8h_1aa870bea258c3c0ee572af5757ab79e2d" kind="typedef"><name>MR_std_optional_MR_Triangulation</name></member>
     <member refid="MRAlphaShape_8h_1a652333db8d301e4fc8331c6c2269ec64" kind="typedef"><name>MR_std_vector_MR_AlphaShapeNei</name></member>
+    <member refid="MRAlphaShape_8h_1a40d169ae2472d370ae2e339e14e5d0d2" kind="typedef"><name>MR_std_vector_MR_BallPivotCandidate</name></member>
     <member refid="MRAlphaShape_8h_1a5dd2fd820a754655ef67335b8cd94f73" kind="typedef"><name>MR_std_vector_MR_MeshBuilder_VertDuplication</name></member>
     <member refid="MRAlphaShape_8h_1a1a95e1b41b4aa8b16f3803f45ac0a36b" kind="typedef"><name>MR_AlphaShapeData</name></member>
     <member refid="MRAlphaShape_8h_1ae54fd4d88e53de48558c089c8aae3a19" kind="typedef"><name>MR_AlphaShapeStats</name></member>
     <member refid="MRAlphaShape_8h_1a698cae89d93e943b94b26641b594b651" kind="typedef"><name>MR_AlphaShapeNei</name></member>
+    <member refid="MRAlphaShape_8h_1a2d19c0827b2c1242bebaec6640debb4b" kind="typedef"><name>MR_BallPivotCandidate</name></member>
     <member refid="MRAlphaShape_8h_1a8eb3890f88877f4410f9294363178320" kind="function"><name>MR_AlphaShapeData_Get_toInt</name></member>
     <member refid="MRAlphaShape_8h_1a893ee2be3d1de6639d47c492dc71bb5e" kind="function"><name>MR_AlphaShapeData_Set_toInt</name></member>
     <member refid="MRAlphaShape_8h_1aa703a555354873b65fd613824719234a" kind="function"><name>MR_AlphaShapeData_GetMutable_toInt</name></member>
@@ -2277,9 +2279,26 @@
     <member refid="MRAlphaShape_8h_1a132ced5dde4769f320e60035b242536f" kind="function"><name>MR_AlphaShapeNei_DestroyArray</name></member>
     <member refid="MRAlphaShape_8h_1a702be71367075ff76ed58aea403089f3" kind="function"><name>MR_AlphaShapeNei_AssignFromAnother</name></member>
     <member refid="MRAlphaShape_8h_1a241a78e1d7f495a3cebb97b6abe3365b" kind="function"><name>MR_findAlphaShapeNeiTriangles</name></member>
+    <member refid="MRAlphaShape_8h_1ad4234bfeaceef42e6f4b5c5a28faeec5" kind="function"><name>MR_BallPivotCandidate_Get_coords</name></member>
+    <member refid="MRAlphaShape_8h_1af1fec7fcdbf4c4d81163c0b0af4c013f" kind="function"><name>MR_BallPivotCandidate_Set_coords</name></member>
+    <member refid="MRAlphaShape_8h_1aadc47c34ba373d56620898aee98437c7" kind="function"><name>MR_BallPivotCandidate_GetMutable_coords</name></member>
+    <member refid="MRAlphaShape_8h_1a3291306b641395870e1e91107ce6b5a8" kind="function"><name>MR_BallPivotCandidate_Get_cwFromVk</name></member>
+    <member refid="MRAlphaShape_8h_1a980af7355b31046d006c07001e3f5717" kind="function"><name>MR_BallPivotCandidate_Set_cwFromVk</name></member>
+    <member refid="MRAlphaShape_8h_1a15953d959401da3cec1eab1bf8f3eb59" kind="function"><name>MR_BallPivotCandidate_GetMutable_cwFromVk</name></member>
+    <member refid="MRAlphaShape_8h_1a6e9170ae5ea3951ec58bb299516a810c" kind="function"><name>MR_BallPivotCandidate_DefaultConstruct</name></member>
+    <member refid="MRAlphaShape_8h_1a8355fb667d47fc9ad3693cbc55543c53" kind="function"><name>MR_BallPivotCandidate_DefaultConstructArray</name></member>
+    <member refid="MRAlphaShape_8h_1abb30a6c84ec63e0d41983e3e78727d8c" kind="function"><name>MR_BallPivotCandidate_ConstructFrom</name></member>
+    <member refid="MRAlphaShape_8h_1a988ddbcd74557ba4b9a029cff03fcbd2" kind="function"><name>MR_BallPivotCandidate_OffsetPtr</name></member>
+    <member refid="MRAlphaShape_8h_1a09743220094bdbaca1c762f677de6427" kind="function"><name>MR_BallPivotCandidate_OffsetMutablePtr</name></member>
+    <member refid="MRAlphaShape_8h_1a2b387865e9f5bbad7f441baefe843958" kind="function"><name>MR_BallPivotCandidate_ConstructFromAnother</name></member>
+    <member refid="MRAlphaShape_8h_1aa24671ad887d790215221d5a8f80f62b" kind="function"><name>MR_BallPivotCandidate_Destroy</name></member>
+    <member refid="MRAlphaShape_8h_1a0f82f143388755d73ef889e8252cc621" kind="function"><name>MR_BallPivotCandidate_DestroyArray</name></member>
+    <member refid="MRAlphaShape_8h_1ab0ad484ed1a78db7519de48d9e1c3a75" kind="function"><name>MR_BallPivotCandidate_AssignFromAnother</name></member>
+    <member refid="MRAlphaShape_8h_1a3bc560f880d39f7c37ea6cb2467e9aac" kind="function"><name>MR_findBallPivotVertex</name></member>
     <member refid="MRAlphaShape_8h_1aefb3e97b179663552e72f00bef7de602" kind="function"><name>MR_findAlphaShapeAllTriangles_4_float</name></member>
-    <member refid="MRAlphaShape_8h_1a79f90f391ba2699bad0ff0db041f052f" kind="function"><name>MR_findAlphaShapeAllTriangles_3</name></member>
+    <member refid="MRAlphaShape_8h_1a74eae9ad0eb2d77dc2587b96a997cfde" kind="function"><name>MR_findAlphaShapeAllTriangles_3_float</name></member>
     <member refid="MRAlphaShape_8h_1a034232909cab53923a0d093358f0bdfc" kind="function"><name>MR_findAlphaShapeAllTriangles_4_MR_AlphaShapeData</name></member>
+    <member refid="MRAlphaShape_8h_1a3a1dce2fb0ddd53d191d5bdcf5085114" kind="function"><name>MR_findAlphaShapeAllTriangles_3_MR_AlphaShapeData</name></member>
     <member refid="MRAlphaShape_8h_1a2713ec42ab6e4f85af907666ae54c79e" kind="function"><name>MR_findAlphaShape_5</name></member>
     <member refid="MRAlphaShape_8h_1a3214829253355f67f76e6ebda544b109" kind="function"><name>MR_findAlphaShape_4</name></member>
   </compound>
@@ -11397,6 +11416,7 @@
     <member refid="MRInSphere_8h_1a78798c6353ff7e236108da523d27b977" kind="function"><name>MR_InSphereTesterSoS_DestroyArray</name></member>
     <member refid="MRInSphere_8h_1ab55123647551e05bc836626ce6fe1101" kind="function"><name>MR_InSphereTesterSoS_AssignFromAnother</name></member>
     <member refid="MRInSphere_8h_1acd1d1eeea642508b5915965926d1e05f" kind="function"><name>MR_InSphereTesterSoS_reset</name></member>
+    <member refid="MRInSphere_8h_1a776c6a29ba12134874d638b154236763" kind="function"><name>MR_InSphereTesterSoS_sphereExists</name></member>
     <member refid="MRInSphere_8h_1a1e5b70d23b706d91d1ba38e44c02dc58" kind="function"><name>MR_InSphereTesterSoS_flip</name></member>
     <member refid="MRInSphere_8h_1ac2fabf75843ac7accf0c3ae58c50363b" kind="function"><name>MR_InSphereTesterSoS_call</name></member>
     <member refid="MRInSphere_8h_1ada683dad0bb8147a36980194cbdf126d" kind="function"><name>MR_InSphereTesterSoS_degenerateTriangle</name></member>
@@ -11420,6 +11440,7 @@
     <member refid="MRInSphere_8h_1a42916708ea6795acf8e1f9e1b1096348" kind="function"><name>MR_FastInSphereTesterSoS_flip</name></member>
     <member refid="MRInSphere_8h_1a0740b6430f86b7e1e5979bf313d54568" kind="function"><name>MR_FastInSphereTesterSoS_call</name></member>
     <member refid="MRInSphere_8h_1a42d47e72d6cbaa4e106880b229ccb5fc" kind="function"><name>MR_FastInSphereTesterSoS_outsideBothSpheres</name></member>
+    <member refid="MRInSphere_8h_1a5f720b47bfb57a33ca170b81031b34f0" kind="function"><name>MR_FastInSphereTesterSoS_sphereExists</name></member>
     <member refid="MRInSphere_8h_1a0a31a07926fe0f12b670549af6eb48e5" kind="function"><name>MR_FastInSphereTesterSoS_degenerateTriangle</name></member>
     <member refid="MRInSphere_8h_1a971d9ef39a334a084e0937ebe6ac8647" kind="function"><name>MR_inSphere_float</name></member>
     <member refid="MRInSphere_8h_1a09b4879bcf4160ebd5772a50b00f3496" kind="function"><name>MR_inSphere_double</name></member>
@@ -39481,6 +39502,79 @@
     <member refid="std__vector__MR__AlphaShapeNei_8h_1a692d0c2ea1fbef73ddb4eab6258899b4" kind="function"><name>MR_std_vector_MR_AlphaShapeNei_iterator_add_assign</name></member>
     <member refid="std__vector__MR__AlphaShapeNei_8h_1a03f1754910fd6a1ff4ed3b51caee016b" kind="function"><name>MR_sub_MR_std_vector_MR_AlphaShapeNei_iterator</name></member>
     <member refid="std__vector__MR__AlphaShapeNei_8h_1a283dbb155e20ca722cee258f43b556f2" kind="function"><name>MR_equal_MR_std_vector_MR_AlphaShapeNei_iterator</name></member>
+  </compound>
+  <compound refid="std__vector__MR__BallPivotCandidate_8h" kind="file"><name>std_vector_MR_BallPivotCandidate.h</name>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a297a0cfb3aec611d8f71ebdc88c8c4e7" kind="typedef"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a224f4105113e8f7e6e6cf172ab209774" kind="typedef"><name>MR_std_vector_MR_BallPivotCandidate_iterator</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a2e2a10a7c60c9c772ef46ba30f9a1ab8" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_DefaultConstruct</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a8e34dfcca1e00e4f254fcde87acfc351" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_DefaultConstructArray</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a2dd4dfb80ab41bce4a13f36546097896" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_ConstructFromAnother</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1ac19d3031a337b08d1ef875d8fa959a6f" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_AssignFromAnother</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1abb12c765e83ba3e8ab945f0761aa7777" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_Destroy</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a579e5db357f1ac555923cd3e69d12ab1" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_DestroyArray</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a82cc616c086e654c83080b1e255d4274" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_OffsetPtr</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a711aeb1371e0c00c6e7b908b47d106d5" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_OffsetMutablePtr</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a6f7b513a9aa1593fecd20eed30073003" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_size</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a0d4290bcbb39f0883a98b275a40c5f19" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_empty</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a014458e5e4b8696366862c3d413966f0" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_resize</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a88d9d6642d999c213946506080625d98" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_resize_with_default_value</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1af8fe40bfcfa99c99a44c1ed933f57498" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_clear</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1ac0c9dee229b58e8d232e90831ac9ce46" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_capacity</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a980da3c0b818991640a4aca01417da70" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_reserve</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a3f0550b2e50db862394cfd8e6e5279f3" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_shrink_to_fit</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1ab363976295406b9556262a1367ebbde5" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_at</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1aac444c5d9b020190fae149953c2bf879" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_at_mut</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a299e7cde9561d90acd5e66f255331bfc" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_front</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a5c8450efeed0e66ec898a52f3b46ce53" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_front_mut</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1aebd4b8ccb820b28aea100c7d96a1bdc1" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_back</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a648803e0d534aed3669e844db3d6132a" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_back_mut</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1ae7a143b5fe362ce33dc0cc01ffcd8c3a" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_push_back</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a7b63f7e396a29cffc4552de2c845a76a" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_pop_back</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a16a351469cc405568a41b657862d823b" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_insert</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a31ac9d2aa86dcd01e4db4d2bb19bbb90" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_erase</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a37b501907eaa9b6cdba0efd362789a45" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_insert_at_mutable_iter</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a5bed7a3d77820247548f6f87fe713ca1" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_erase_at_mutable_iter</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1ab4c4c98643f55f44397250f4842c4179" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_insert_at_iter</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a4c053981ba13c65826e88f9b5f731bce" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_erase_at_iter</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1ab42a995392b7ea842c8e7d1b06f0eb85" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_begin</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a456e24e56a51ff12784b30aefb79c9ce" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_is_begin</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1aab6f3e1f61f8d116e9fbe31a2980a882" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_begin_mut</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a3c04fb0ebc29363fcea3a5f4947086ef" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_is_begin_mut</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a5835c8ece171ecaf20b9afe0eb832865" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_end</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a0a6990dee679096334c0a4b85a43f609" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_is_end</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1ae2953cfd6f2c9bbece2ebf75fcda4afd" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_end_mut</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a52646ee1ac927cd76807932ff382cfae" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_is_end_mut</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a6ecfe8a233020e0334ae02a06d5b2205" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_to_index</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a74016e53f23d23cdd0c869927bd96051" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_to_index_mut</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a2b5d618144ae83be43702f54c4c6e807" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_DefaultConstruct</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a81dffaba4b705104f7479465b8d7a957" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_DefaultConstructArray</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a59bc9c3d2c2708971554eb0fc6c51f91" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_ConstructFromAnother</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1aec89b9f8c5719a89ebe1f65832b9c369" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_AssignFromAnother</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a4337ec84daa4e22f0c9df38091266c46" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_Destroy</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a10a3a71a1e9033d5f6b9c9912ca15d95" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_DestroyArray</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a873d99c229b53652a4ae2473af52ccfb" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_OffsetPtr</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a7f44eefe8511f54e920ca3959ce58943" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_OffsetMutablePtr</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1ad9b4282f0a9b4d1900b58fc081bdc260" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_from_mutable</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a01ff901db7cfdb8aeaa2a30e29fb71c6" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_iterator_DefaultConstruct</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1aba718701a6150b94820d7dc16b36ceea" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_iterator_DefaultConstructArray</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a152e1533f09e0dc16baa1f77f9d8faf5" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_iterator_ConstructFromAnother</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a943d610b16d31417b71236716eda2a18" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_iterator_AssignFromAnother</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a07aa6473cf2eb8741c5f72841f67f239" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_iterator_Destroy</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a58f1146c92b3ab67315b9e4f575e3c04" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_iterator_DestroyArray</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1afd9db54e2d808791a5301114ae7c2d99" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_iterator_OffsetPtr</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1abc44d758c8b4497bfacaa16da34d827c" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_iterator_OffsetMutablePtr</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1aa81d6265beb09a428f50e96e39a684ff" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_deref</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a594b3ea247e252fcce71cf418c384c04" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_incr</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1af2a2a6dd9962f1cf6f8893b56fb46829" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_decr</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a60104696056ae82678a987550eaecbb2" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_const_iterator_add_assign</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a20576485f823b8e186fc81c19275866d" kind="function"><name>MR_sub_MR_std_vector_MR_BallPivotCandidate_const_iterator</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a257c36bebd6d9292fc0b5bead51aa931" kind="function"><name>MR_equal_MR_std_vector_MR_BallPivotCandidate_const_iterator</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a4421f23bc478c2e428204cc4bc9e5cb5" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_iterator_deref</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a206085d3b466421a761652e85fcd2f98" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_iterator_incr</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1ad10b1d55c6ce65314cc66e4f6b6f62f3" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_iterator_decr</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a100c243f7340fcebfa7af1a12e5a25c9" kind="function"><name>MR_std_vector_MR_BallPivotCandidate_iterator_add_assign</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1a299455e40df5ee18b9883fbaf3f1f29a" kind="function"><name>MR_sub_MR_std_vector_MR_BallPivotCandidate_iterator</name></member>
+    <member refid="std__vector__MR__BallPivotCandidate_8h_1aed361b0b019e06680eb2d8f907f39365" kind="function"><name>MR_equal_MR_std_vector_MR_BallPivotCandidate_iterator</name></member>
   </compound>
   <compound refid="std__vector__MR__Box3f_8h" kind="file"><name>std_vector_MR_Box3f.h</name>
     <member refid="std__vector__MR__Box3f_8h_1aa041b4080984e01aed0346cce18aa690" kind="typedef"><name>MR_std_vector_MR_Box3f_const_iterator</name></member>

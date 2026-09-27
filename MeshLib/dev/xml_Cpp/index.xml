@@ -394,6 +394,10 @@
     <member refid="group__GeneralGroup_1gab893ec6d092032257b91b7fcbcb6a58a" kind="function"><name>inside</name></member>
     <member refid="group__GeneralGroup_1ga18bd851f9c63fe2f529f8ef586a5ea69" kind="function"><name>outside</name></member>
   </compound>
+  <compound refid="structMR_1_1BallPivotCandidate" kind="struct"><name>MR::BallPivotCandidate</name>
+    <member refid="group__GeneralGroup_1ga755dd6098407b8eb5be477a0f6d4a94e" kind="variable"><name>coords</name></member>
+    <member refid="group__GeneralGroup_1ga5deaa5ed4e4eec521fe8b91978552f52" kind="variable"><name>cwFromVk</name></member>
+  </compound>
   <compound refid="structMR_1_1Mcp_1_1Schema_1_1Base" kind="struct"><name>MR::Mcp::Schema::Base</name>
     <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ad8d4f52c560bc15c39cc7651fe3d6319" kind="variable"><name>json</name></member>
     <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ab3722df7873d35858a407287f4bad904" kind="function"><name>Base</name></member>
@@ -4676,6 +4680,7 @@
     <member refid="group__GeneralGroup_1gaf170d1c4080593bfcee7567dc197f5ef" kind="variable"><name>pairSigma_</name></member>
     <member refid="group__GeneralGroup_1ga0504cb318e00a1d607960cd1ef070888" kind="variable"><name>degenerateTriangle_</name></member>
     <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1ga9fff1948f663f24317ef2fd95c127d74" kind="function"><name>sphereExists</name></member>
     <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1gae5d8d9b9fe2dd4d41af7fad0d93fdff0" kind="function"><name>degenerateTriangle</name></member>
@@ -14758,9 +14763,11 @@
     <member refid="group__GeneralGroup_1gac55797411aface5733212df942d0a0af" kind="function"><name>addBaseToPlanarMesh</name></member>
     <member refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" kind="function"><name>getAlphaShapeData</name></member>
     <member refid="group__GeneralGroup_1ga6518dbc6c7ff8ff9c2d5eee997acd766" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+    <member refid="group__GeneralGroup_1ga80bd80deacec22067d4234718870c035" kind="function"><name>findBallPivotVertex</name></member>
     <member refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="group__GeneralGroup_1ga44dece01c32cea22aac7aab8915caa2b" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="group__GeneralGroup_1ga9f304608f78c5e19b2d5c560900e5bfb" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+    <member refid="group__GeneralGroup_1ga3b1f03157e5ed5606d09d4627b84e54a" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="group__GeneralGroup_1gaccef10dcd77bb190e4ba3e2a97300b5a" kind="function"><name>findAlphaShape</name></member>
     <member refid="group__GeneralGroup_1gaf388b895aa87c6da7c8dbb693bed0c74" kind="function"><name>findAlphaShape</name></member>
     <member refid="group__GeneralGroup_1gac2b90dbcd947fc75b0ac691f7eef6ee7" kind="function"><name>makeArrow</name></member>
@@ -22154,6 +22161,8 @@
     <member refid="group__GeneralGroup_1gabd973436e0df6a665b2eba12d3589efb" kind="variable"><name>shadowedNeis</name></member>
     <member refid="group__GeneralGroup_1ga9672fd16b4268feb06f1760b83b3261e" kind="variable"><name>coords</name></member>
     <member refid="group__GeneralGroup_1ga946329fc95f92804b085844fdbc8e091" kind="variable"><name>distSq</name></member>
+    <member refid="group__GeneralGroup_1ga755dd6098407b8eb5be477a0f6d4a94e" kind="variable"><name>coords</name></member>
+    <member refid="group__GeneralGroup_1ga5deaa5ed4e4eec521fe8b91978552f52" kind="variable"><name>cwFromVk</name></member>
     <member refid="group__GeneralGroup_1gacfc8f690c3bf3935fb4e3bc132ebd84b" kind="variable"><name>isConical_</name></member>
     <member refid="group__GeneralGroup_1ga5773b93639b8824c0c0ac660ec402ed5" kind="variable"><name>shouldVisualizeRay_</name></member>
     <member refid="group__GeneralGroup_1ga4ba4cfccedd218a885f21a78974a9208" kind="variable"><name>cachedValue_</name></member>
@@ -25861,9 +25870,11 @@
     <member refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" kind="function"><name>getAlphaShapeData</name></member>
     <member refid="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" kind="function"><name>operator+=</name></member>
     <member refid="group__GeneralGroup_1ga6518dbc6c7ff8ff9c2d5eee997acd766" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+    <member refid="group__GeneralGroup_1ga80bd80deacec22067d4234718870c035" kind="function"><name>findBallPivotVertex</name></member>
     <member refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="group__GeneralGroup_1ga44dece01c32cea22aac7aab8915caa2b" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="group__GeneralGroup_1ga9f304608f78c5e19b2d5c560900e5bfb" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+    <member refid="group__GeneralGroup_1ga3b1f03157e5ed5606d09d4627b84e54a" kind="function"><name>findAlphaShapeAllTriangles</name></member>
     <member refid="group__GeneralGroup_1gaccef10dcd77bb190e4ba3e2a97300b5a" kind="function"><name>findAlphaShape</name></member>
     <member refid="group__GeneralGroup_1gaf388b895aa87c6da7c8dbb693bed0c74" kind="function"><name>findAlphaShape</name></member>
     <member refid="group__GeneralGroup_1gaa12ae3069114c41ef8ed6616672c5d29" kind="function"><name>AngleMeasurementObject</name></member>
@@ -26971,6 +26982,7 @@
     <member refid="group__GeneralGroup_1ga85e79ee85dc2a94aa2f2ed8f86a5d0fa" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1ga74d0b604aae9ae085777a52321e5467a" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1ga9fff1948f663f24317ef2fd95c127d74" kind="function"><name>sphereExists</name></member>
     <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" kind="function"><name>flip</name></member>
     <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1gae5d8d9b9fe2dd4d41af7fad0d93fdff0" kind="function"><name>degenerateTriangle</name></member>

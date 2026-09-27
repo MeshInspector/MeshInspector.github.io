@@ -177,6 +177,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af9235801e7a810e3d62a3213a1404c30"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the position of the point d.pt relative to the sphere, with the ties resolved by simulation-of-simplicity exactly as <a class="el" href="classMR_1_1InSphereTesterSoS.html" title="the precise tester with simulation-of-simplicity resolution of &quot;exactly on the sphere&quot; ties,...">InSphereTesterSoS</a> does (never OnSphere or NoSphere); shall be called only after reset() returned true, and all four ids must be distinct Generated from method <span class="tt">MR::FastInSphereTesterSoS::operator()</span>.  <br /></td></tr>
 <tr class="memitem:adfa929c13ca8c18b94a4c747602c2aa0" id="r_adfa929c13ca8c18b94a4c747602c2aa0"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfa929c13ca8c18b94a4c747602c2aa0">outsideBothSpheres</a> (in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> d)</td></tr>
 <tr class="memdesc:adfa929c13ca8c18b94a4c747602c2aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether d is strictly outside both spheres of the given radius passing via the three points of reset(): the selected one and its mirror in the plane of the triangle; the answer is exact, and a point lying on either of them is not strictly outside, so no tie arises and no simulation-of-simplicity is involved; filtered in floating point as the query above, and equally exact; for a degenerate triangle, where only the perturbed spheres exist and the answer would need the id of d, returns false conservatively (never prunes) Generated from method <span class="tt"><a class="el" href="#adfa929c13ca8c18b94a4c747602c2aa0" title="whether d is strictly outside both spheres of the given radius passing via the three points of reset(...">MR.FastInSphereTesterSoS.outsideBothSpheres</a></span>.  <br /></td></tr>
+<tr class="memitem:ab8d9c244131a666d0e6959dba7fb8590" id="r_ab8d9c244131a666d0e6959dba7fb8590"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8d9c244131a666d0e6959dba7fb8590">sphereExists</a> (<a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a> a, <a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a> b, <a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a> c, long rSq)</td></tr>
+<tr class="memdesc:ab8d9c244131a666d0e6959dba7fb8590"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns exactly what reset( a, b, c, rSq ) would, without changing the tester: only the squared circumradius of the triangle is compared with rSq, and the sphere itself is not computed, which is much cheaper where just the existence of a sphere is needed Generated from method <span class="tt"><a class="el" href="#ab8d9c244131a666d0e6959dba7fb8590" title="returns exactly what reset( a, b, c, rSq ) would, without changing the tester: only the squared circu...">MR.FastInSphereTesterSoS.sphereExists</a></span>.  <br /></td></tr>
 <tr class="memitem:a1d2814f4bcd83ed50988626a06cfbc74" id="r_a1d2814f4bcd83ed50988626a06cfbc74"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d2814f4bcd83ed50988626a06cfbc74">degenerateTriangle</a> ()</td></tr>
 <tr class="memdesc:a1d2814f4bcd83ed50988626a06cfbc74"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the last successful reset() got a degenerate triangle (two coincident points), where only the symbolically perturbed sphere exists; the exact sphere quantities of the base class are not valid then Generated from method <span class="tt"><a class="el" href="#a1d2814f4bcd83ed50988626a06cfbc74" title="whether the last successful reset() got a degenerate triangle (two coincident points),...">MR.FastInSphereTesterSoS.degenerateTriangle</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -452,6 +454,47 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>whether d is strictly outside both spheres of the given radius passing via the three points of reset(): the selected one and its mirror in the plane of the triangle; the answer is exact, and a point lying on either of them is not strictly outside, so no tie arises and no simulation-of-simplicity is involved; filtered in floating point as the query above, and equally exact; for a degenerate triangle, where only the perturbed spheres exist and the answer would need the id of d, returns false conservatively (never prunes) Generated from method <span class="tt"><a class="el" href="#adfa929c13ca8c18b94a4c747602c2aa0" title="whether d is strictly outside both spheres of the given radius passing via the three points of reset(...">MR.FastInSphereTesterSoS.outsideBothSpheres</a></span>. </p>
+
+</div>
+</div>
+<a id="ab8d9c244131a666d0e6959dba7fb8590" name="ab8d9c244131a666d0e6959dba7fb8590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8d9c244131a666d0e6959dba7fb8590">&#9670;&#160;</a></span>sphereExists()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.Const_FastInSphereTesterSoS.sphereExists </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a></td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em>rSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns exactly what reset( a, b, c, rSq ) would, without changing the tester: only the squared circumradius of the triangle is compared with rSq, and the sphere itself is not computed, which is much cheaper where just the existence of a sphere is needed Generated from method <span class="tt"><a class="el" href="#ab8d9c244131a666d0e6959dba7fb8590" title="returns exactly what reset( a, b, c, rSq ) would, without changing the tester: only the squared circu...">MR.FastInSphereTesterSoS.sphereExists</a></span>. </p>
 
 </div>
 </div>

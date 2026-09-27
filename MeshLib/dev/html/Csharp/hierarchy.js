@@ -351,6 +351,9 @@ var hierarchy =
       [ "MR.Const_Ball3f", "classMR_1_1Const__Ball3f.html", [
         [ "MR.Ball3f", "classMR_1_1Ball3f.html", null ]
       ] ],
+      [ "MR.Const_BallPivotCandidate", "classMR_1_1Const__BallPivotCandidate.html", [
+        [ "MR.BallPivotCandidate", "classMR_1_1BallPivotCandidate.html", null ]
+      ] ],
       [ "MR.Const_BaseRenderParams", "classMR_1_1Const__BaseRenderParams.html", [
         [ "MR.BaseRenderParams", "classMR_1_1BaseRenderParams.html", null ]
       ] ],
@@ -3699,6 +3702,7 @@ var hierarchy =
       [ "MR.Const_Ball2f", "classMR_1_1Const__Ball2f.html", null ],
       [ "MR.Const_Ball3d", "classMR_1_1Const__Ball3d.html", null ],
       [ "MR.Const_Ball3f", "classMR_1_1Const__Ball3f.html", null ],
+      [ "MR.Const_BallPivotCandidate", "classMR_1_1Const__BallPivotCandidate.html", null ],
       [ "MR.Const_BaseRenderParams", "classMR_1_1Const__BaseRenderParams.html", null ],
       [ "MR.Const_BaseShellParameters", "classMR_1_1Const__BaseShellParameters.html", null ],
       [ "MR.Const_BaseUnionFind_MRFaceId", "classMR_1_1Const__BaseUnionFind__MRFaceId.html", null ],

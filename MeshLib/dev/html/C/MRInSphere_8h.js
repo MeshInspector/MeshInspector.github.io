@@ -30,6 +30,7 @@ var MRInSphere_8h =
     [ "MR_FastInSphereTesterSoS_OffsetPtr", "MRInSphere_8h.html#a302986bd55d761c432777072965aa98c", null ],
     [ "MR_FastInSphereTesterSoS_outsideBothSpheres", "MRInSphere_8h.html#a42d47e72d6cbaa4e106880b229ccb5fc", null ],
     [ "MR_FastInSphereTesterSoS_reset", "MRInSphere_8h.html#a4aa069379d4bd4cadd5a0318369655c6", null ],
+    [ "MR_FastInSphereTesterSoS_sphereExists", "MRInSphere_8h.html#a5f720b47bfb57a33ca170b81031b34f0", null ],
     [ "MR_FastInSphereTesterSoS_StaticDowncastFrom_MR_InSphereTester_int", "MRInSphere_8h.html#a89c6c5ea396e9b3f60925f7a3e102796", null ],
     [ "MR_FastInSphereTesterSoS_StaticDowncastFrom_MR_InSphereTesterSoS", "MRInSphere_8h.html#a1e7800f2ee57d59eb3371baa2eeff3d8", null ],
     [ "MR_FastInSphereTesterSoS_UpcastTo_MR_InSphereTester_int", "MRInSphere_8h.html#abe9e12072151d43e44f5b3b9518c0ba8", null ],
@@ -85,6 +86,7 @@ var MRInSphere_8h =
     [ "MR_InSphereTesterSoS_OffsetMutablePtr", "MRInSphere_8h.html#a901a73c4925c23cc210f505302b2a6fd", null ],
     [ "MR_InSphereTesterSoS_OffsetPtr", "MRInSphere_8h.html#a6bc04cffa660747d7ae5474cd7398386", null ],
     [ "MR_InSphereTesterSoS_reset", "MRInSphere_8h.html#acd1d1eeea642508b5915965926d1e05f", null ],
+    [ "MR_InSphereTesterSoS_sphereExists", "MRInSphere_8h.html#a776c6a29ba12134874d638b154236763", null ],
     [ "MR_InSphereTesterSoS_StaticDowncastFrom_MR_InSphereTester_int", "MRInSphere_8h.html#ab2f1c76b2d303416024b3a0c06cd305d", null ],
     [ "MR_InSphereTesterSoS_UpcastTo_MR_InSphereTester_int", "MRInSphere_8h.html#a5f91e360dfd2dd8122cac94dd7f4a130", null ]
 ];

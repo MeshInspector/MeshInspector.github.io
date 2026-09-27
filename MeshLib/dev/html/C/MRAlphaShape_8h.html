@@ -162,10 +162,12 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:a1ee03147697b6ec21996bf4dd7c65823"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:aa870bea258c3c0ee572af5757ab79e2d" id="r_aa870bea258c3c0ee572af5757ab79e2d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa870bea258c3c0ee572af5757ab79e2d">MR_std_optional_MR_Triangulation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa870bea258c3c0ee572af5757ab79e2d">MR_std_optional_MR_Triangulation</a></td></tr>
 <tr class="memitem:a652333db8d301e4fc8331c6c2269ec64" id="r_a652333db8d301e4fc8331c6c2269ec64"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a652333db8d301e4fc8331c6c2269ec64">MR_std_vector_MR_AlphaShapeNei</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a652333db8d301e4fc8331c6c2269ec64">MR_std_vector_MR_AlphaShapeNei</a></td></tr>
+<tr class="memitem:a40d169ae2472d370ae2e339e14e5d0d2" id="r_a40d169ae2472d370ae2e339e14e5d0d2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a40d169ae2472d370ae2e339e14e5d0d2">MR_std_vector_MR_BallPivotCandidate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40d169ae2472d370ae2e339e14e5d0d2">MR_std_vector_MR_BallPivotCandidate</a></td></tr>
 <tr class="memitem:a5dd2fd820a754655ef67335b8cd94f73" id="r_a5dd2fd820a754655ef67335b8cd94f73"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a></td></tr>
 <tr class="memitem:a1a95e1b41b4aa8b16f3803f45ac0a36b" id="r_a1a95e1b41b4aa8b16f3803f45ac0a36b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a></td></tr>
 <tr class="memitem:ae54fd4d88e53de48558c089c8aae3a19" id="r_ae54fd4d88e53de48558c089c8aae3a19"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a></td></tr>
 <tr class="memitem:a698cae89d93e943b94b26641b594b651" id="r_a698cae89d93e943b94b26641b594b651"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a></td></tr>
+<tr class="memitem:a2d19c0827b2c1242bebaec6640debb4b" id="r_a2d19c0827b2c1242bebaec6640debb4b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -247,9 +249,28 @@ Functions</h2></td></tr>
 <tr class="memdesc:a132ced5dde4769f320e60035b242536f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a702be71367075ff76ed58aea403089f3" id="r_a702be71367075ff76ed58aea403089f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a702be71367075ff76ed58aea403089f3">MR_AlphaShapeNei_AssignFromAnother</a> (<a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *_this, const <a class="el" href="#a698cae89d93e943b94b26641b594b651">MR_AlphaShapeNei</a> *_other)</td></tr>
 <tr class="memitem:a241a78e1d7f495a3cebb97b6abe3365b" id="r_a241a78e1d7f495a3cebb97b6abe3365b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a241a78e1d7f495a3cebb97b6abe3365b">MR_findAlphaShapeNeiTriangles</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, const <a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a> *data, <a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *appendTris, <a class="el" href="#a652333db8d301e4fc8331c6c2269ec64">MR_std_vector_MR_AlphaShapeNei</a> *neis, bool onlyLargerVids, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
+<tr class="memitem:ad4234bfeaceef42e6f4b5c5a28faeec5" id="r_ad4234bfeaceef42e6f4b5c5a28faeec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4234bfeaceef42e6f4b5c5a28faeec5">MR_BallPivotCandidate_Get_coords</a> (const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *_this)</td></tr>
+<tr class="memitem:af1fec7fcdbf4c4d81163c0b0af4c013f" id="r_af1fec7fcdbf4c4d81163c0b0af4c013f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1fec7fcdbf4c4d81163c0b0af4c013f">MR_BallPivotCandidate_Set_coords</a> (<a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *_this, const <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> *value)</td></tr>
+<tr class="memitem:aadc47c34ba373d56620898aee98437c7" id="r_aadc47c34ba373d56620898aee98437c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadc47c34ba373d56620898aee98437c7">MR_BallPivotCandidate_GetMutable_coords</a> (<a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *_this)</td></tr>
+<tr class="memitem:a3291306b641395870e1e91107ce6b5a8" id="r_a3291306b641395870e1e91107ce6b5a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3291306b641395870e1e91107ce6b5a8">MR_BallPivotCandidate_Get_cwFromVk</a> (const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *_this)</td></tr>
+<tr class="memitem:a980af7355b31046d006c07001e3f5717" id="r_a980af7355b31046d006c07001e3f5717"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a980af7355b31046d006c07001e3f5717">MR_BallPivotCandidate_Set_cwFromVk</a> (<a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *_this, bool value)</td></tr>
+<tr class="memitem:a15953d959401da3cec1eab1bf8f3eb59" id="r_a15953d959401da3cec1eab1bf8f3eb59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15953d959401da3cec1eab1bf8f3eb59">MR_BallPivotCandidate_GetMutable_cwFromVk</a> (<a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *_this)</td></tr>
+<tr class="memitem:a6e9170ae5ea3951ec58bb299516a810c" id="r_a6e9170ae5ea3951ec58bb299516a810c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e9170ae5ea3951ec58bb299516a810c">MR_BallPivotCandidate_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a8355fb667d47fc9ad3693cbc55543c53" id="r_a8355fb667d47fc9ad3693cbc55543c53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8355fb667d47fc9ad3693cbc55543c53">MR_BallPivotCandidate_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:abb30a6c84ec63e0d41983e3e78727d8c" id="r_abb30a6c84ec63e0d41983e3e78727d8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb30a6c84ec63e0d41983e3e78727d8c">MR_BallPivotCandidate_ConstructFrom</a> (const <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> *coords, bool cwFromVk)</td></tr>
+<tr class="memitem:a988ddbcd74557ba4b9a029cff03fcbd2" id="r_a988ddbcd74557ba4b9a029cff03fcbd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a988ddbcd74557ba4b9a029cff03fcbd2">MR_BallPivotCandidate_OffsetPtr</a> (const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a09743220094bdbaca1c762f677de6427" id="r_a09743220094bdbaca1c762f677de6427"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09743220094bdbaca1c762f677de6427">MR_BallPivotCandidate_OffsetMutablePtr</a> (<a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a2b387865e9f5bbad7f441baefe843958" id="r_a2b387865e9f5bbad7f441baefe843958"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b387865e9f5bbad7f441baefe843958">MR_BallPivotCandidate_ConstructFromAnother</a> (const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *_other)</td></tr>
+<tr class="memitem:aa24671ad887d790215221d5a8f80f62b" id="r_aa24671ad887d790215221d5a8f80f62b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa24671ad887d790215221d5a8f80f62b">MR_BallPivotCandidate_Destroy</a> (const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *_this)</td></tr>
+<tr class="memdesc:aa24671ad887d790215221d5a8f80f62b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a0f82f143388755d73ef889e8252cc621" id="r_a0f82f143388755d73ef889e8252cc621"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f82f143388755d73ef889e8252cc621">MR_BallPivotCandidate_DestroyArray</a> (const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *_this)</td></tr>
+<tr class="memdesc:a0f82f143388755d73ef889e8252cc621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:ab0ad484ed1a78db7519de48d9e1c3a75" id="r_ab0ad484ed1a78db7519de48d9e1c3a75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0ad484ed1a78db7519de48d9e1c3a75">MR_BallPivotCandidate_AssignFromAnother</a> (<a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *_this, const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *_other)</td></tr>
+<tr class="memitem:a3bc560f880d39f7c37ea6cb2467e9aac" id="r_a3bc560f880d39f7c37ea6cb2467e9aac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bc560f880d39f7c37ea6cb2467e9aac">MR_findBallPivotVertex</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, <a class="el" href="structMR__VertId.html">MR_VertId</a> vi, <a class="el" href="structMR__VertId.html">MR_VertId</a> vj, <a class="el" href="structMR__VertId.html">MR_VertId</a> vk, const <a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a> *data, <a class="el" href="#a40d169ae2472d370ae2e339e14e5d0d2">MR_std_vector_MR_BallPivotCandidate</a> *cands)</td></tr>
 <tr class="memitem:aefb3e97b179663552e72f00bef7de602" id="r_aefb3e97b179663552e72f00bef7de602"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa870bea258c3c0ee572af5757ab79e2d">MR_std_optional_MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefb3e97b179663552e72f00bef7de602">MR_findAlphaShapeAllTriangles_4_float</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, float radius, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
-<tr class="memitem:a79f90f391ba2699bad0ff0db041f052f" id="r_a79f90f391ba2699bad0ff0db041f052f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79f90f391ba2699bad0ff0db041f052f">MR_findAlphaShapeAllTriangles_3</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, float radius, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
+<tr class="memitem:a74eae9ad0eb2d77dc2587b96a997cfde" id="r_a74eae9ad0eb2d77dc2587b96a997cfde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74eae9ad0eb2d77dc2587b96a997cfde">MR_findAlphaShapeAllTriangles_3_float</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, float radius, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
 <tr class="memitem:a034232909cab53923a0d093358f0bdfc" id="r_a034232909cab53923a0d093358f0bdfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa870bea258c3c0ee572af5757ab79e2d">MR_std_optional_MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a034232909cab53923a0d093358f0bdfc">MR_findAlphaShapeAllTriangles_4_MR_AlphaShapeData</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a> *data, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
+<tr class="memitem:a3a1dce2fb0ddd53d191d5bdcf5085114" id="r_a3a1dce2fb0ddd53d191d5bdcf5085114"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a1dce2fb0ddd53d191d5bdcf5085114">MR_findAlphaShapeAllTriangles_3_MR_AlphaShapeData</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a> *data, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
 <tr class="memitem:a2713ec42ab6e4f85af907666ae54c79e" id="r_a2713ec42ab6e4f85af907666ae54c79e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2713ec42ab6e4f85af907666ae54c79e">MR_findAlphaShape_5</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, float radius, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, <a class="el" href="#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *dups, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
 <tr class="memitem:a3214829253355f67f76e6ebda544b109" id="r_a3214829253355f67f76e6ebda544b109"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3214829253355f67f76e6ebda544b109">MR_findAlphaShape_4</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, float radius, <a class="el" href="#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *dups, <a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *stats)</td></tr>
 </table>
@@ -296,6 +317,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the amount of work done during the search of alpha-shape triangles; every function below only increases the counters, never resets them, so the statistics of several calls can be accumulated in one object Generated from class <span class="tt">MR::AlphaShapeStats</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a2d19c0827b2c1242bebaec6640debb4b" name="a2d19c0827b2c1242bebaec6640debb4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d19c0827b2c1242bebaec6640debb4b">&#9670;&#160;</a></span>MR_BallPivotCandidate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>a point touchable by a ball together with the edge (vi, vj) in the search of findBallPivotVertex Generated from class <span class="tt">MR::BallPivotCandidate</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -356,6 +392,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from C++ container <span class="tt">std::vector&lt;MR::AlphaShapeNei&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a40d169ae2472d370ae2e339e14e5d0d2" name="a40d169ae2472d370ae2e339e14e5d0d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40d169ae2472d370ae2e339e14e5d0d2">&#9670;&#160;</a></span>MR_std_vector_MR_BallPivotCandidate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a40d169ae2472d370ae2e339e14e5d0d2">MR_std_vector_MR_BallPivotCandidate</a> <a class="el" href="#a40d169ae2472d370ae2e339e14e5d0d2">MR_std_vector_MR_BallPivotCandidate</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <span class="tt">std::vector&lt;MR::BallPivotCandidate&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -1864,6 +1915,302 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab0ad484ed1a78db7519de48d9e1c3a75" name="ab0ad484ed1a78db7519de48d9e1c3a75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0ad484ed1a78db7519de48d9e1c3a75">&#9670;&#160;</a></span>MR_BallPivotCandidate_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> * MR_BallPivotCandidate_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::BallPivotCandidate::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="abb30a6c84ec63e0d41983e3e78727d8c" name="abb30a6c84ec63e0d41983e3e78727d8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb30a6c84ec63e0d41983e3e78727d8c">&#9670;&#160;</a></span>MR_BallPivotCandidate_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> * MR_BallPivotCandidate_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>coords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>cwFromVk</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <span class="tt">MR::BallPivotCandidate</span> elementwise. Parameter <span class="tt">coords</span> can not be null. It is a single object. The reference to the parameter <span class="tt">coords</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aa24671ad887d790215221d5a8f80f62b" title="Destroys a heap-allocated instance of MR_BallPivotCandidate. Does nothing if the pointer is null.">MR_BallPivotCandidate_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a2b387865e9f5bbad7f441baefe843958" name="a2b387865e9f5bbad7f441baefe843958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b387865e9f5bbad7f441baefe843958">&#9670;&#160;</a></span>MR_BallPivotCandidate_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> * MR_BallPivotCandidate_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::BallPivotCandidate::BallPivotCandidate</span>. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aa24671ad887d790215221d5a8f80f62b" title="Destroys a heap-allocated instance of MR_BallPivotCandidate. Does nothing if the pointer is null.">MR_BallPivotCandidate_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6e9170ae5ea3951ec58bb299516a810c" name="a6e9170ae5ea3951ec58bb299516a810c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e9170ae5ea3951ec58bb299516a810c">&#9670;&#160;</a></span>MR_BallPivotCandidate_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> * MR_BallPivotCandidate_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aa24671ad887d790215221d5a8f80f62b" title="Destroys a heap-allocated instance of MR_BallPivotCandidate. Does nothing if the pointer is null.">MR_BallPivotCandidate_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8355fb667d47fc9ad3693cbc55543c53" name="a8355fb667d47fc9ad3693cbc55543c53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8355fb667d47fc9ad3693cbc55543c53">&#9670;&#160;</a></span>MR_BallPivotCandidate_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> * MR_BallPivotCandidate_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#a0f82f143388755d73ef889e8252cc621" title="Destroys a heap-allocated array of MR_BallPivotCandidate. Does nothing if the pointer is null.">MR_BallPivotCandidate_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#a09743220094bdbaca1c762f677de6427">MR_BallPivotCandidate_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a988ddbcd74557ba4b9a029cff03fcbd2">MR_BallPivotCandidate_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aa24671ad887d790215221d5a8f80f62b" name="aa24671ad887d790215221d5a8f80f62b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa24671ad887d790215221d5a8f80f62b">&#9670;&#160;</a></span>MR_BallPivotCandidate_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_BallPivotCandidate_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a0f82f143388755d73ef889e8252cc621" name="a0f82f143388755d73ef889e8252cc621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f82f143388755d73ef889e8252cc621">&#9670;&#160;</a></span>MR_BallPivotCandidate_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_BallPivotCandidate_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ad4234bfeaceef42e6f4b5c5a28faeec5" name="ad4234bfeaceef42e6f4b5c5a28faeec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4234bfeaceef42e6f4b5c5a28faeec5">&#9670;&#160;</a></span>MR_BallPivotCandidate_Get_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> * MR_BallPivotCandidate_Get_coords </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the point's id together with its integer coordinates Returns a pointer to a member variable of class <span class="tt">MR::BallPivotCandidate</span> named <span class="tt">coords</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a3291306b641395870e1e91107ce6b5a8" name="a3291306b641395870e1e91107ce6b5a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3291306b641395870e1e91107ce6b5a8">&#9670;&#160;</a></span>MR_BallPivotCandidate_Get_cwFromVk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_BallPivotCandidate_Get_cwFromVk </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>orient3d( vi, vj, vk, this point ): whether the rotation around the line from #vi to #vj from the half-plane via #vk to the half-plane via this point is clockwise Returns a pointer to a member variable of class <span class="tt">MR::BallPivotCandidate</span> named <span class="tt">cwFromVk</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="aadc47c34ba373d56620898aee98437c7" name="aadc47c34ba373d56620898aee98437c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadc47c34ba373d56620898aee98437c7">&#9670;&#160;</a></span>MR_BallPivotCandidate_GetMutable_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> * MR_BallPivotCandidate_GetMutable_coords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the point's id together with its integer coordinates Returns a mutable pointer to a member variable of class <span class="tt">MR::BallPivotCandidate</span> named <span class="tt">coords</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a15953d959401da3cec1eab1bf8f3eb59" name="a15953d959401da3cec1eab1bf8f3eb59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15953d959401da3cec1eab1bf8f3eb59">&#9670;&#160;</a></span>MR_BallPivotCandidate_GetMutable_cwFromVk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_BallPivotCandidate_GetMutable_cwFromVk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>orient3d( vi, vj, vk, this point ): whether the rotation around the line from #vi to #vj from the half-plane via #vk to the half-plane via this point is clockwise Returns a mutable pointer to a member variable of class <span class="tt">MR::BallPivotCandidate</span> named <span class="tt">cwFromVk</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a09743220094bdbaca1c762f677de6427" name="a09743220094bdbaca1c762f677de6427"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09743220094bdbaca1c762f677de6427">&#9670;&#160;</a></span>MR_BallPivotCandidate_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> * MR_BallPivotCandidate_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a988ddbcd74557ba4b9a029cff03fcbd2" name="a988ddbcd74557ba4b9a029cff03fcbd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a988ddbcd74557ba4b9a029cff03fcbd2">&#9670;&#160;</a></span>MR_BallPivotCandidate_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> * MR_BallPivotCandidate_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="af1fec7fcdbf4c4d81163c0b0af4c013f" name="af1fec7fcdbf4c4d81163c0b0af4c013f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1fec7fcdbf4c4d81163c0b0af4c013f">&#9670;&#160;</a></span>MR_BallPivotCandidate_Set_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_BallPivotCandidate_Set_coords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the point's id together with its integer coordinates Modifies a member variable of class <span class="tt">MR::BallPivotCandidate</span> named <span class="tt">coords</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">coords</span>. When this function is called, this object will drop object references it held previously in <span class="tt">coords</span>. </p>
+
+</div>
+</div>
+<a id="a980af7355b31046d006c07001e3f5717" name="a980af7355b31046d006c07001e3f5717"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a980af7355b31046d006c07001e3f5717">&#9670;&#160;</a></span>MR_BallPivotCandidate_Set_cwFromVk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_BallPivotCandidate_Set_cwFromVk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2d19c0827b2c1242bebaec6640debb4b">MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>orient3d( vi, vj, vk, this point ): whether the rotation around the line from #vi to #vj from the half-plane via #vk to the half-plane via this point is clockwise Modifies a member variable of class <span class="tt">MR::BallPivotCandidate</span> named <span class="tt">cwFromVk</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">cwFromVk</span>. </p>
+
+</div>
+</div>
 <a id="a3214829253355f67f76e6ebda544b109" name="a3214829253355f67f76e6ebda544b109"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3214829253355f67f76e6ebda544b109">&#9670;&#160;</a></span>MR_findAlphaShape_4()</h2>
 
@@ -1938,14 +2285,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a79f90f391ba2699bad0ff0db041f052f" name="a79f90f391ba2699bad0ff0db041f052f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79f90f391ba2699bad0ff0db041f052f">&#9670;&#160;</a></span>MR_findAlphaShapeAllTriangles_3()</h2>
+<a id="a74eae9ad0eb2d77dc2587b96a997cfde" name="a74eae9ad0eb2d77dc2587b96a997cfde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74eae9ad0eb2d77dc2587b96a997cfde">&#9670;&#160;</a></span>MR_findAlphaShapeAllTriangles_3_float()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> * MR_findAlphaShapeAllTriangles_3 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> * MR_findAlphaShapeAllTriangles_3_float </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
         </tr>
@@ -1962,6 +2309,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from function <span class="tt">MR::findAlphaShapeAllTriangles</span>. Parameter <span class="tt">cloud</span> can not be null. It is a single object. Parameter <span class="tt">stats</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRVector_8h.html#a06c924beb0ba47c9c1935f25f75f1937" title="Destroys a heap-allocated instance of MR_Triangulation. Does nothing if the pointer is null.">MR_Triangulation_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3a1dce2fb0ddd53d191d5bdcf5085114" name="a3a1dce2fb0ddd53d191d5bdcf5085114"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a1dce2fb0ddd53d191d5bdcf5085114">&#9670;&#160;</a></span>MR_findAlphaShapeAllTriangles_3_MR_AlphaShapeData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> * MR_findAlphaShapeAllTriangles_3_MR_AlphaShapeData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a> *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ae54fd4d88e53de48558c089c8aae3a19">MR_AlphaShapeStats</a> *</td>          <td class="paramname"><span class="paramname"><em>stats</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <span class="tt">MR::findAlphaShapeAllTriangles</span>. Parameter <span class="tt">cloud</span> can not be null. It is a single object. Parameter <span class="tt">data</span> can not be null. It is a single object. Parameter <span class="tt">stats</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRVector_8h.html#a06c924beb0ba47c9c1935f25f75f1937" title="Destroys a heap-allocated instance of MR_Triangulation. Does nothing if the pointer is null.">MR_Triangulation_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2073,6 +2447,48 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>finds all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points; the valid points sharing one position in the integer grid are merged: only the point with the smallest id among them appears in the triangles (in particular, #v itself gets no triangles if it has such a twin), so the triangles found around all the points agree Generated from function <span class="tt">MR::findAlphaShapeNeiTriangles</span>. Parameter <span class="tt">cloud</span> can not be null. It is a single object. Parameter <span class="tt">data</span> can not be null. It is a single object. Parameter <span class="tt">appendTris</span> can not be null. It is a single object. Parameter <span class="tt">neis</span> can not be null. It is a single object. Parameter <span class="tt">stats</span> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="a3bc560f880d39f7c37ea6cb2467e9aac" name="a3bc560f880d39f7c37ea6cb2467e9aac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bc560f880d39f7c37ea6cb2467e9aac">&#9670;&#160;</a></span>MR_findBallPivotVertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_findBallPivotVertex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>vi</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>vj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>vk</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a1a95e1b41b4aa8b16f3803f45ac0a36b">MR_AlphaShapeData</a> *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a40d169ae2472d370ae2e339e14e5d0d2">MR_std_vector_MR_BallPivotCandidate</a> *</td>          <td class="paramname"><span class="paramname"><em>cands</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>pivots the ball of the given radius from triangle (vi, vj, vk) over its edge (vi, vj): among the points touchable by a ball together with #vi and #vj (except #vk), ordered by the rotation of their half-planes counter-clockwise from #vk's one around the line directed from #vi to #vj (as seen by the viewer the line's direction points at), finds the first point x such that the ball via #vi, #vj and x with the center on #vk's side of the half-plane of x has none of those points nor #vk strictly inside; the predicates are exact with simulation-of-simplicity resolving the ties; returns #vk if no such point exists: the ball rotates to the other side of triangle (vi, vj, vk) touching no other point; the ball via #vi, #vj and #vk with the center on the positive side of that triangle must exist and be empty, otherwise the returned point is not the one touched first by the rotating ball; in particular, for a triangle (vi, vj, vk) of findAlphaShapeAllTriangles, (vj, vi, x) is one of them as well, x being the returned point Generated from function <span class="tt">MR::findBallPivotVertex</span>. Parameter <span class="tt">cloud</span> can not be null. It is a single object. Parameter <span class="tt">data</span> can not be null. It is a single object. Parameter <span class="tt">cands</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

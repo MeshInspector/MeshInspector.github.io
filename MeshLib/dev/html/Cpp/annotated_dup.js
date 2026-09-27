@@ -352,6 +352,7 @@ var annotated_dup =
       [ "AsyncRequest", "classMR_1_1AsyncRequest.html", "classMR_1_1AsyncRequest" ],
       [ "AsyncTimer", "classMR_1_1AsyncTimer.html", "classMR_1_1AsyncTimer" ],
       [ "Ball", "structMR_1_1Ball.html", "structMR_1_1Ball" ],
+      [ "BallPivotCandidate", "structMR_1_1BallPivotCandidate.html", "structMR_1_1BallPivotCandidate" ],
       [ "BaseFitParams", "structMR_1_1BaseFitParams.html", "structMR_1_1BaseFitParams" ],
       [ "BaseRenderParams", "structMR_1_1BaseRenderParams.html", "structMR_1_1BaseRenderParams" ],
       [ "BaseShellParameters", "structMR_1_1BaseShellParameters.html", "structMR_1_1BaseShellParameters" ],

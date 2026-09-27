@@ -173,6 +173,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a982c55b0a50761e6433cd215ff653951"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1InSphereTesterSoS.html#a6092a9a1d5ba5c00f843ac6d9dceeb4a" title="Constructs an empty (default-constructed) instance.">MR.InSphereTesterSoS.InSphereTesterSoS</a></span>.  <br /></td></tr>
 <tr class="memitem:ad17599226939e90e79d8db3b9bee6744" id="r_ad17599226939e90e79d8db3b9bee6744"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad17599226939e90e79d8db3b9bee6744">Const_InSphereTesterSoS</a> (<a class="el" href="classMR_1_1InSphereTesterSoS.html">InSphereTesterSoS</a> _other)</td></tr>
 <tr class="memdesc:ad17599226939e90e79d8db3b9bee6744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1InSphereTesterSoS.html#a6092a9a1d5ba5c00f843ac6d9dceeb4a" title="Constructs an empty (default-constructed) instance.">MR.InSphereTesterSoS.InSphereTesterSoS</a></span>.  <br /></td></tr>
+<tr class="memitem:ab089cabd698125d28a5c644c2f4a1d1f" id="r_ab089cabd698125d28a5c644c2f4a1d1f"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab089cabd698125d28a5c644c2f4a1d1f">sphereExists</a> (<a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a> a, <a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a> b, <a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a> c, long rSq)</td></tr>
+<tr class="memdesc:ab089cabd698125d28a5c644c2f4a1d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns exactly what reset( a, b, c, rSq ) would, without changing the tester: only the squared circumradius of the triangle is compared with rSq, and the sphere itself is not computed, which is much cheaper where just the existence of a sphere is needed Generated from method <span class="tt"><a class="el" href="#ab089cabd698125d28a5c644c2f4a1d1f" title="returns exactly what reset( a, b, c, rSq ) would, without changing the tester: only the squared circu...">MR.InSphereTesterSoS.sphereExists</a></span>.  <br /></td></tr>
 <tr class="memitem:aac0bdfbcddcd27899a880c0bfe71ee4c" id="r_aac0bdfbcddcd27899a880c0bfe71ee4c"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR.html#a6744bb80f3f77f5eb58dedbab3680cb0">MR.InSphereResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0bdfbcddcd27899a880c0bfe71ee4c">call</a> (<a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a> d)</td></tr>
 <tr class="memdesc:aac0bdfbcddcd27899a880c0bfe71ee4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the position of the point d.pt relative to the sphere, resolving &quot;exactly on the sphere&quot; ties into Inside or Outside by simulation-of-simplicity as described at the inSphere overload above, using the ids of d and of the points given in reset() (never returns OnSphere or NoSphere); shall be called only after reset() returned true, and all four ids must be distinct Generated from method <span class="tt">MR::InSphereTesterSoS::operator()</span>.  <br /></td></tr>
 <tr class="memitem:a417dd123365793675701268eb44c0e89" id="r_a417dd123365793675701268eb44c0e89"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a417dd123365793675701268eb44c0e89">degenerateTriangle</a> ()</td></tr>
@@ -397,6 +399,47 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab089cabd698125d28a5c644c2f4a1d1f" name="ab089cabd698125d28a5c644c2f4a1d1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab089cabd698125d28a5c644c2f4a1d1f">&#9670;&#160;</a></span>sphereExists()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.Const_InSphereTesterSoS.sphereExists </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PreciseVertCoords.html">MR.Const_PreciseVertCoords</a></td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em>rSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns exactly what reset( a, b, c, rSq ) would, without changing the tester: only the squared circumradius of the triangle is compared with rSq, and the sphere itself is not computed, which is much cheaper where just the existence of a sphere is needed Generated from method <span class="tt"><a class="el" href="#ab089cabd698125d28a5c644c2f4a1d1f" title="returns exactly what reset( a, b, c, rSq ) would, without changing the tester: only the squared circu...">MR.InSphereTesterSoS.sphereExists</a></span>. </p>
 
 </div>
 </div>

@@ -56,7 +56,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRInSphere.h" line="276" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="277" bodyend="315"/>
+    <location file="MRMesh/MRInSphere.h" line="281" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="282" bodyend="320"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7247c1db3ad0f38aa3829018e5858880" prot="private" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>cc_</name></member>
       <member refid="group__GeneralGroup_1gae5d8d9b9fe2dd4d41af7fad0d93fdff0" prot="public" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>degenerateTriangle</name></member>
@@ -74,6 +74,7 @@
       <member refid="group__GeneralGroup_1ga2243fa1320914c1bbf37aaabbedaef4a" prot="protected" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>pairV_</name></member>
       <member refid="group__GeneralGroup_1ga1855670ce694c01ac7166e9562dc5ffb" prot="public" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>reset</name></member>
       <member refid="group__GeneralGroup_1ga88fe2ec458dc79515a087d948cd80237" prot="public" virt="non-virtual" ambiguityscope="MR::InSphereTester::"><scope>MR::FastInSphereTesterSoS</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga9fff1948f663f24317ef2fd95c127d74" prot="public" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>sphereExists</name></member>
       <member refid="group__GeneralGroup_1gac6a38bd4e2641259ee1d8eae1a79f8f8" prot="private" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>tol_</name></member>
       <member refid="group__GeneralGroup_1gacf6bc51e20756e358846e3a1e06435d4" prot="protected" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>va_</name></member>
       <member refid="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" prot="protected" virt="non-virtual"><scope>MR::FastInSphereTesterSoS</scope><name>vb_</name></member>

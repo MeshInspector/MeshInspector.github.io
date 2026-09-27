@@ -6,5 +6,7 @@ var MRAlphaShape_8cs =
     [ "MR.Const_AlphaShapeStats", "classMR_1_1Const__AlphaShapeStats.html", "classMR_1_1Const__AlphaShapeStats" ],
     [ "MR.AlphaShapeStats", "classMR_1_1AlphaShapeStats.html", "classMR_1_1AlphaShapeStats" ],
     [ "MR.Const_AlphaShapeNei", "classMR_1_1Const__AlphaShapeNei.html", "classMR_1_1Const__AlphaShapeNei" ],
-    [ "MR.AlphaShapeNei", "classMR_1_1AlphaShapeNei.html", "classMR_1_1AlphaShapeNei" ]
+    [ "MR.AlphaShapeNei", "classMR_1_1AlphaShapeNei.html", "classMR_1_1AlphaShapeNei" ],
+    [ "MR.Const_BallPivotCandidate", "classMR_1_1Const__BallPivotCandidate.html", "classMR_1_1Const__BallPivotCandidate" ],
+    [ "MR.BallPivotCandidate", "classMR_1_1BallPivotCandidate.html", "classMR_1_1BallPivotCandidate" ]
 ];

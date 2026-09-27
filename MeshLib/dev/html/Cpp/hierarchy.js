@@ -33,6 +33,7 @@ var hierarchy =
     [ "MR::Laplacian::Attractor", "structMR_1_1Laplacian_1_1Attractor.html", null ],
     [ "MR::BasicUiRenderTask::BackwardPassParams", "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html", null ],
     [ "MR::Ball< V >", "structMR_1_1Ball.html", null ],
+    [ "MR::BallPivotCandidate", "structMR_1_1BallPivotCandidate.html", null ],
     [ "MR::Mcp::Schema::Base", "structMR_1_1Mcp_1_1Schema_1_1Base.html", [
       [ "MR::Mcp::Schema::Array", "structMR_1_1Mcp_1_1Schema_1_1Array.html", null ],
       [ "MR::Mcp::Schema::Bool", "structMR_1_1Mcp_1_1Schema_1_1Bool.html", null ],
