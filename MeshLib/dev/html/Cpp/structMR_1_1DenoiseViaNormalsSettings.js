@@ -1,7 +1,6 @@
 var structMR_1_1DenoiseViaNormalsSettings =
 [
     [ "beta", "group__GeneralGroup.html#gaa7cab391c3f837a22f2d158c7647315a", null ],
-    [ "cb", "group__GeneralGroup.html#ga63ddf357508ffd766addcbe0684a1619", null ],
     [ "fastIndicatorComputation", "group__GeneralGroup.html#gad6004983564c77dbe469d819de9b1100", null ],
     [ "gamma", "group__GeneralGroup.html#gad5c55319dff328b55475f07390acd505", null ],
     [ "guideWeight", "group__GeneralGroup.html#ga6852271fa1efbc4da52e0fb5b851810f", null ],

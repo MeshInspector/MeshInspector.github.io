@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__ArcInterpolationParams.html#ae0da4a1800d3ac6ff942ca130a20982a":[9,3,0,0,0,248,10],
 "classMR_1_1Const__ArcInterpolationParams.html#af428e107cbb61cfadb7dce7b514271e4":[9,3,0,0,0,248,5],
 "classMR_1_1Const__BMap__MRFaceId__SizeT.html":[9,3,0,0,0,267],
 "classMR_1_1Const__BMap__MRFaceId__SizeT.html#a1509885645d275eedd590f2cbec28b5d":[9,3,0,0,0,267,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId.html#afa3c56ad8ebb12bd1ba3e008d246dbe1":[9,3,0,0,0,258,8],
 "classMR_1_1Const__BaseUnionFind__MRVertId.html":[9,3,0,0,0,259],
 "classMR_1_1Const__BaseUnionFind__MRVertId.html#a0a7d641e14fb5cc046cf6149fe92ba39":[9,3,0,0,0,259,9],
-"classMR_1_1Const__BaseUnionFind__MRVertId.html#a0f83cca731f208926e446a0ce0ebb10e":[9,3,0,0,0,259,8],
-"classMR_1_1Const__BaseUnionFind__MRVertId.html#a203ef5db927224f5b3939d4235cdcc1b":[9,3,0,0,0,259,3]
+"classMR_1_1Const__BaseUnionFind__MRVertId.html#a0f83cca731f208926e446a0ce0ebb10e":[9,3,0,0,0,259,8]
 };

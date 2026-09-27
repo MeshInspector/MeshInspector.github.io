@@ -6292,12 +6292,14 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gaf0754d7130a12ca9fa0303ce9ffe225b" id="r_gaf0754d7130a12ca9fa0303ce9ffe225b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0754d7130a12ca9fa0303ce9ffe225b">MR::denoiseNormals</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, FaceNormals &amp;normals, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, float gamma)</td></tr>
 <tr class="memitem:gae67bf8c66f6b1dee34bd8aa00e69a913" id="r_gae67bf8c66f6b1dee34bd8aa00e69a913"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae67bf8c66f6b1dee34bd8aa00e69a913">MR::updateIndicator</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, const FaceNormals &amp;normals, float beta, float gamma)</td></tr>
 <tr class="memitem:gad6e2edf074642202b7e738dfeee59f29" id="r_gad6e2edf074642202b7e738dfeee59f29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad6e2edf074642202b7e738dfeee59f29">MR::updateIndicatorFast</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, const FaceNormals &amp;normals, float beta, float gamma)</td></tr>
-<tr class="memitem:ga86981572c4f14bf7f1a09887110d60f3" id="r_ga86981572c4f14bf7f1a09887110d60f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga86981572c4f14bf7f1a09887110d60f3">MR::meshDenoiseViaNormals</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html">DenoiseViaNormalsSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga6883a12f4f393ed08b4e93f7bf0be84a" id="r_ga6883a12f4f393ed08b4e93f7bf0be84a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6883a12f4f393ed08b4e93f7bf0be84a">MR::meshDenoiseViaNormals</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html">DenoiseViaNormalsSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:gac335a53bfd7d287604c31298e1b5a43b" id="r_gac335a53bfd7d287604c31298e1b5a43b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac335a53bfd7d287604c31298e1b5a43b">MR::meshDenoiseViaNormals</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html">DenoiseViaNormalsSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
+<tr class="memdesc:gac335a53bfd7d287604c31298e1b5a43b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same, reporting the progress in (cb); returns false if the operation was canceled from it  <br /></td></tr>
 <tr class="memitem:gad3ee3facd1ffb97bd91ffba08a243484" id="r_gad3ee3facd1ffb97bd91ffba08a243484"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad3ee3facd1ffb97bd91ffba08a243484">MR::meshDenoiseWithCreases</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;creases, const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:ga8b997b3e9f6333808da102fcc5b2a4ab" id="r_ga8b997b3e9f6333808da102fcc5b2a4ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b997b3e9f6333808da102fcc5b2a4ab">MR::meshDenoiseWithCreases</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const UndirectedEdgeBitSet &amp;creases, const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;settings={})</td></tr>
-<tr class="memitem:ga6bca689ef6891cf0d9bfb750249d6951" id="r_ga6bca689ef6891cf0d9bfb750249d6951"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6bca689ef6891cf0d9bfb750249d6951">MR::meshDenoiseWithCreases</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;creases, const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
-<tr class="memdesc:ga6bca689ef6891cf0d9bfb750249d6951"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same, reporting the progress in (cb) and returning error if the operation was canceled from it  <br /></td></tr>
-<tr class="memitem:ga8b52094c11b66f0405409f3b661f3a8c" id="r_ga8b52094c11b66f0405409f3b661f3a8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b52094c11b66f0405409f3b661f3a8c">MR::meshDenoiseWithCreases</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const UndirectedEdgeBitSet &amp;creases, const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
+<tr class="memitem:gaf1d0eee1758bde49f19146f8ca980be8" id="r_gaf1d0eee1758bde49f19146f8ca980be8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf1d0eee1758bde49f19146f8ca980be8">MR::meshDenoiseWithCreases</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;creases, const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
+<tr class="memdesc:gaf1d0eee1758bde49f19146f8ca980be8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same, reporting the progress in (cb); returns false if the operation was canceled from it  <br /></td></tr>
+<tr class="memitem:gad8edb5d1ce0c4b1c862f2e156ed9e0db" id="r_gad8edb5d1ce0c4b1c862f2e156ed9e0db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad8edb5d1ce0c4b1c862f2e156ed9e0db">MR::meshDenoiseWithCreases</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const UndirectedEdgeBitSet &amp;creases, const <a class="el" href="structMR_1_1DenoiseWithCreasesSettings.html">DenoiseWithCreasesSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
 <tr class="memitem:ga19ffcc05d7dd0c8b6ce45e80e81d482e" id="r_ga19ffcc05d7dd0c8b6ce45e80e81d482e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga19ffcc05d7dd0c8b6ce45e80e81d482e">MR::NormalsToPoints::prepare</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, float guideWeight=1)</td></tr>
 <tr class="memitem:ga267e2926e88f4480cedbfa3ff965547c" id="r_ga267e2926e88f4480cedbfa3ff965547c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga267e2926e88f4480cedbfa3ff965547c">MR::NormalsToPoints::run</a> (const VertCoords &amp;guide, const FaceNormals &amp;normals, VertCoords &amp;points)</td></tr>
 <tr class="memitem:ga6d7fc1fe41862805d423e14a407367b8" id="r_ga6d7fc1fe41862805d423e14a407367b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6d7fc1fe41862805d423e14a407367b8">MR::NormalsToPoints::run</a> (const VertCoords &amp;guide, const FaceNormals &amp;normals, VertCoords &amp;points, float maxInitialDistSq)</td></tr>
@@ -12894,8 +12896,6 @@ Variables</h2></td></tr>
 <tr class="memdesc:gab298fec8f17af7398ab708ce69c2af2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false  <br /></td></tr>
 <tr class="memitem:gad7f7b82ea225f8e0f9a358b607d7fead" id="r_gad7f7b82ea225f8e0f9a358b607d7fead"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad7f7b82ea225f8e0f9a358b607d7fead">MR::DenoiseViaNormalsSettings::outCreases</a> = nullptr</td></tr>
 <tr class="memdesc:gad7f7b82ea225f8e0f9a358b607d7fead"><td class="mdescLeft">&#160;</td><td class="mdescRight">optionally returns creases found during smoothing  <br /></td></tr>
-<tr class="memitem:ga63ddf357508ffd766addcbe0684a1619" id="r_ga63ddf357508ffd766addcbe0684a1619"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga63ddf357508ffd766addcbe0684a1619">MR::DenoiseViaNormalsSettings::cb</a> = {}</td></tr>
-<tr class="memdesc:ga63ddf357508ffd766addcbe0684a1619"><td class="mdescLeft">&#160;</td><td class="mdescRight">to get the progress and optionally cancel  <br /></td></tr>
 <tr class="memitem:ga3d33a7031078f565b34961a3e568362d" id="r_ga3d33a7031078f565b34961a3e568362d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d33a7031078f565b34961a3e568362d">MR::DenoiseWithCreasesSettings::gamma</a> = 5.f</td></tr>
 <tr class="memdesc:ga3d33a7031078f565b34961a3e568362d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ...  <br /></td></tr>
 <tr class="memitem:ga6d407894f4a783d1f8d5b12904e64893" id="r_ga6d407894f4a783d1f8d5b12904e64893"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6d407894f4a783d1f8d5b12904e64893">MR::DenoiseWithCreasesSettings::guideWeight</a> = 1</td></tr>
@@ -121309,14 +121309,52 @@ template&lt;typename Volume&gt; </div>
 
 </div>
 </div>
-<a id="ga86981572c4f14bf7f1a09887110d60f3" name="ga86981572c4f14bf7f1a09887110d60f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga86981572c4f14bf7f1a09887110d60f3">&#9670;&#160;</a></span>meshDenoiseViaNormals()</h2>
+<a id="gac335a53bfd7d287604c31298e1b5a43b" name="gac335a53bfd7d287604c31298e1b5a43b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac335a53bfd7d287604c31298e1b5a43b">&#9670;&#160;</a></span>meshDenoiseViaNormals() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::meshDenoiseViaNormals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html">DenoiseViaNormalsSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNormalDenoising_8h.html">MRMesh/MRNormalDenoising.h</a>&gt;</code></p>
+
+<p>the same, reporting the progress in (cb); returns false if the operation was canceled from it </p>
+
+</div>
+</div>
+<a id="ga6883a12f4f393ed08b4e93f7bf0be84a" name="ga6883a12f4f393ed08b4e93f7bf0be84a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6883a12f4f393ed08b4e93f7bf0be84a">&#9670;&#160;</a></span>meshDenoiseViaNormals() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::meshDenoiseViaNormals </td>
+          <td class="memname">void MR::meshDenoiseViaNormals </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -121333,14 +121371,17 @@ template&lt;typename Volume&gt; </div>
 
 </div>
 </div>
-<a id="ga8b52094c11b66f0405409f3b661f3a8c" name="ga8b52094c11b66f0405409f3b661f3a8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8b52094c11b66f0405409f3b661f3a8c">&#9670;&#160;</a></span>meshDenoiseWithCreases() <span class="overload">[1/4]</span></h2>
+<a id="gad8edb5d1ce0c4b1c862f2e156ed9e0db" name="gad8edb5d1ce0c4b1c862f2e156ed9e0db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad8edb5d1ce0c4b1c862f2e156ed9e0db">&#9670;&#160;</a></span>meshDenoiseWithCreases() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::meshDenoiseWithCreases </td>
+          <td class="memname">bool MR::meshDenoiseWithCreases </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -121365,6 +121406,11 @@ template&lt;typename Volume&gt; </div>
           <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRNormalDenoising_8h.html">MRMesh/MRNormalDenoising.h</a>&gt;</code></p>
@@ -121404,14 +121450,17 @@ template&lt;typename Volume&gt; </div>
 
 </div>
 </div>
-<a id="ga6bca689ef6891cf0d9bfb750249d6951" name="ga6bca689ef6891cf0d9bfb750249d6951"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6bca689ef6891cf0d9bfb750249d6951">&#9670;&#160;</a></span>meshDenoiseWithCreases() <span class="overload">[3/4]</span></h2>
+<a id="gaf1d0eee1758bde49f19146f8ca980be8" name="gaf1d0eee1758bde49f19146f8ca980be8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf1d0eee1758bde49f19146f8ca980be8">&#9670;&#160;</a></span>meshDenoiseWithCreases() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::meshDenoiseWithCreases </td>
+          <td class="memname">bool MR::meshDenoiseWithCreases </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -121431,11 +121480,16 @@ template&lt;typename Volume&gt; </div>
           <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRNormalDenoising_8h.html">MRMesh/MRNormalDenoising.h</a>&gt;</code></p>
 
-<p>the same, reporting the progress in (cb) and returning error if the operation was canceled from it </p>
+<p>the same, reporting the progress in (cb); returns false if the operation was canceled from it </p>
 
 </div>
 </div>
@@ -206413,7 +206467,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab7cd8db5e72fb6cad7702d8de23622fe" name="gab7cd8db5e72fb6cad7702d8de23622fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab7cd8db5e72fb6cad7702d8de23622fe">&#9670;&#160;</a></span>cb <span class="overload">[1/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab7cd8db5e72fb6cad7702d8de23622fe">&#9670;&#160;</a></span>cb <span class="overload">[1/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206429,7 +206483,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga710c3b728313851d1a392af1f9514232" name="ga710c3b728313851d1a392af1f9514232"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga710c3b728313851d1a392af1f9514232">&#9670;&#160;</a></span>cb <span class="overload">[2/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga710c3b728313851d1a392af1f9514232">&#9670;&#160;</a></span>cb <span class="overload">[2/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206444,24 +206498,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga63ddf357508ffd766addcbe0684a1619" name="ga63ddf357508ffd766addcbe0684a1619"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga63ddf357508ffd766addcbe0684a1619">&#9670;&#160;</a></span>cb <span class="overload">[3/17]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> MR::DenoiseViaNormalsSettings::cb = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>to get the progress and optionally cancel </p>
-
-</div>
-</div>
 <a id="ga920081c5dce988d2f087b470ea72803a" name="ga920081c5dce988d2f087b470ea72803a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga920081c5dce988d2f087b470ea72803a">&#9670;&#160;</a></span>cb <span class="overload">[4/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga920081c5dce988d2f087b470ea72803a">&#9670;&#160;</a></span>cb <span class="overload">[3/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206477,7 +206515,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gac272f940af3bc9c5f3f0932e466a5f8e" name="gac272f940af3bc9c5f3f0932e466a5f8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac272f940af3bc9c5f3f0932e466a5f8e">&#9670;&#160;</a></span>cb <span class="overload">[5/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac272f940af3bc9c5f3f0932e466a5f8e">&#9670;&#160;</a></span>cb <span class="overload">[4/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206493,7 +206531,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga563ee145e303eb2d0a3cd31b71ca7344" name="ga563ee145e303eb2d0a3cd31b71ca7344"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga563ee145e303eb2d0a3cd31b71ca7344">&#9670;&#160;</a></span>cb <span class="overload">[6/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga563ee145e303eb2d0a3cd31b71ca7344">&#9670;&#160;</a></span>cb <span class="overload">[5/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206507,7 +206545,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gacda3440aa9d507ae98fc2e068e7d41fd" name="gacda3440aa9d507ae98fc2e068e7d41fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacda3440aa9d507ae98fc2e068e7d41fd">&#9670;&#160;</a></span>cb <span class="overload">[7/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacda3440aa9d507ae98fc2e068e7d41fd">&#9670;&#160;</a></span>cb <span class="overload">[6/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206523,7 +206561,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga56f66f6964e1a35b9ad98d4ea792c248" name="ga56f66f6964e1a35b9ad98d4ea792c248"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga56f66f6964e1a35b9ad98d4ea792c248">&#9670;&#160;</a></span>cb <span class="overload">[8/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga56f66f6964e1a35b9ad98d4ea792c248">&#9670;&#160;</a></span>cb <span class="overload">[7/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206539,7 +206577,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gadaced6444a2abeec7b4469778f8ace75" name="gadaced6444a2abeec7b4469778f8ace75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadaced6444a2abeec7b4469778f8ace75">&#9670;&#160;</a></span>cb <span class="overload">[9/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadaced6444a2abeec7b4469778f8ace75">&#9670;&#160;</a></span>cb <span class="overload">[8/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206555,7 +206593,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad2911735fdf5e6da1f6bfb93f285f6a8" name="gad2911735fdf5e6da1f6bfb93f285f6a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad2911735fdf5e6da1f6bfb93f285f6a8">&#9670;&#160;</a></span>cb <span class="overload">[10/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad2911735fdf5e6da1f6bfb93f285f6a8">&#9670;&#160;</a></span>cb <span class="overload">[9/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206571,7 +206609,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga570e9c958781bc09007f518931ca7b74" name="ga570e9c958781bc09007f518931ca7b74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga570e9c958781bc09007f518931ca7b74">&#9670;&#160;</a></span>cb <span class="overload">[11/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga570e9c958781bc09007f518931ca7b74">&#9670;&#160;</a></span>cb <span class="overload">[10/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206587,7 +206625,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaa90701ba9a9b2cab452c35a74ff6cc02" name="gaa90701ba9a9b2cab452c35a74ff6cc02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa90701ba9a9b2cab452c35a74ff6cc02">&#9670;&#160;</a></span>cb <span class="overload">[12/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa90701ba9a9b2cab452c35a74ff6cc02">&#9670;&#160;</a></span>cb <span class="overload">[11/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206603,7 +206641,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2808d219eb445397b22f5950659e0561" name="ga2808d219eb445397b22f5950659e0561"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2808d219eb445397b22f5950659e0561">&#9670;&#160;</a></span>cb <span class="overload">[13/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2808d219eb445397b22f5950659e0561">&#9670;&#160;</a></span>cb <span class="overload">[12/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206617,7 +206655,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafa3d3ce9f1a239b0433ea41d932df07f" name="gafa3d3ce9f1a239b0433ea41d932df07f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafa3d3ce9f1a239b0433ea41d932df07f">&#9670;&#160;</a></span>cb <span class="overload">[14/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa3d3ce9f1a239b0433ea41d932df07f">&#9670;&#160;</a></span>cb <span class="overload">[13/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206631,7 +206669,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gacb46281fb4d9a0d9f27091d5ffe5f7b3" name="gacb46281fb4d9a0d9f27091d5ffe5f7b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacb46281fb4d9a0d9f27091d5ffe5f7b3">&#9670;&#160;</a></span>cb <span class="overload">[15/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacb46281fb4d9a0d9f27091d5ffe5f7b3">&#9670;&#160;</a></span>cb <span class="overload">[14/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206647,7 +206685,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gabb16295f5fc43829c45884d061d45e62" name="gabb16295f5fc43829c45884d061d45e62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabb16295f5fc43829c45884d061d45e62">&#9670;&#160;</a></span>cb <span class="overload">[16/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb16295f5fc43829c45884d061d45e62">&#9670;&#160;</a></span>cb <span class="overload">[15/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206663,7 +206701,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga62992c1610b7cedfa3ba9d8fe46078b1" name="ga62992c1610b7cedfa3ba9d8fe46078b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga62992c1610b7cedfa3ba9d8fe46078b1">&#9670;&#160;</a></span>cb <span class="overload">[17/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga62992c1610b7cedfa3ba9d8fe46078b1">&#9670;&#160;</a></span>cb <span class="overload">[16/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

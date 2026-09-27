@@ -2,11 +2,9 @@ var classmrmeshpy_1_1DenoiseViaNormalsSettings =
 [
     [ "__init__", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a797d1f07a461065e2cf85b2b1e181885", null ],
     [ "__init__", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#aef30c98054d794f44a0f4792e4084d00", null ],
-    [ "__init__", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#ae2123649d6b5f10b5e5e7fd7e8b8c423", null ],
+    [ "__init__", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#aea441d0cb1f2909fbbb07f5dfeb92df7", null ],
     [ "beta", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#af5048a8e4b0658932a0a9cf8c29ddd94", null ],
     [ "beta", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#ae3eee48864cf58021494d889f7fec1d9", null ],
-    [ "cb", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a8d07d0681b5b2e2487e81cccac9656ab", null ],
-    [ "cb", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#ab87901157ea9051e5f91798daaea0eb7", null ],
     [ "fastIndicatorComputation", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#aa5797d1fbae08075274a0f0e409dc360", null ],
     [ "fastIndicatorComputation", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#ac60bd8e5675b6ee2ede715fd4d3c3b50", null ],
     [ "gamma", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a6f1901e8b5e299a2537ab238a604b5ce", null ],

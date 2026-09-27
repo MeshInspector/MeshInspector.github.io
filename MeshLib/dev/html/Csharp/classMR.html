@@ -377,8 +377,6 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used as a function parameter when the underlying function receives <span class="tt"><a class="el" href="classMR_1_1DecimateSettings.html" title="Parameters structure for MR.decimateMesh.">DecimateSettings</a></span> by value. Usage: <br /></td></tr>
 <tr class="memitem:_5FByValue_5FDeloneFlipsCache" id="r__5FByValue_5FDeloneFlipsCache"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_ByValue_DeloneFlipsCache</b></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used as a function parameter when the underlying function receives <span class="tt"><a class="el" href="classMR_1_1DeloneFlipsCache.html" title="the buffers makeDeloneEdgeFlips grows on every call; a caller running it many times on small meshes (...">DeloneFlipsCache</a></span> by value. Usage: <br /></td></tr>
-<tr class="memitem:_5FByValue_5FDenoiseViaNormalsSettings" id="r__5FByValue_5FDenoiseViaNormalsSettings"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_ByValue_DenoiseViaNormalsSettings</b></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used as a function parameter when the underlying function receives <span class="tt"><a class="el" href="classMR_1_1DenoiseViaNormalsSettings.html" title="Generated from class MR.DenoiseViaNormalsSettings. This is the non-const half of the class.">DenoiseViaNormalsSettings</a></span> by value. Usage: <br /></td></tr>
 <tr class="memitem:_5FByValue_5FDetectTunnelSettings" id="r__5FByValue_5FDetectTunnelSettings"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_ByValue_DetectTunnelSettings</b></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used as a function parameter when the underlying function receives <span class="tt"><a class="el" href="classMR_1_1DetectTunnelSettings.html" title="Generated from class MR.DetectTunnelSettings. This is the non-const half of the class.">DetectTunnelSettings</a></span> by value. Usage: <br /></td></tr>
 <tr class="memitem:_5FByValue_5FDipoles" id="r__5FByValue_5FDipoles"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_ByValue_Dipoles</b></td></tr>
@@ -10477,14 +10475,16 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:ab75ba536145e2c152d05abc39a879b52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute edge indicator function (1 - smooth edge, 0 - crease edge) by approximation without solving the system of linear equations.  <br /></td></tr>
 <tr class="memitem:ab7d15ec3d3fb1765bb3cfdfbb972c317" id="r_ab7d15ec3d3fb1765bb3cfdfbb972c317"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7d15ec3d3fb1765bb3cfdfbb972c317">meshDenoiseViaNormals</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__DenoiseViaNormalsSettings.html">MR.Const_DenoiseViaNormalsSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:ab7d15ec3d3fb1765bb3cfdfbb972c317"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduces noise in given mesh, see the article &quot;<a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">Mesh</a> Denoising via a Novel Mumford-Shah Framework&quot; Generated from function <span class="tt"><a class="el" href="#ab7d15ec3d3fb1765bb3cfdfbb972c317" title="Reduces noise in given mesh, see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot; Gene...">MR.meshDenoiseViaNormals</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:ad55e432647c3b0b6cfb0abd4ad8acf02" id="r_ad55e432647c3b0b6cfb0abd4ad8acf02"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad55e432647c3b0b6cfb0abd4ad8acf02">meshDenoiseViaNormals</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__DenoiseViaNormalsSettings.html">MR.Const_DenoiseViaNormalsSettings</a> settings, MR.Std.Const_Function_Bool_From_Float cb)</td></tr>
+<tr class="memdesc:ad55e432647c3b0b6cfb0abd4ad8acf02"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same, reporting the progress in (cb); returns false if the operation was canceled from it Generated from function <span class="tt"><a class="el" href="#ab7d15ec3d3fb1765bb3cfdfbb972c317" title="Reduces noise in given mesh, see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot; Gene...">MR.meshDenoiseViaNormals</a></span>.  <br /></td></tr>
 <tr class="memitem:a3bcbacef1f0399d995eeb2af6fc7b70f" id="r_a3bcbacef1f0399d995eeb2af6fc7b70f"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bcbacef1f0399d995eeb2af6fc7b70f">meshDenoiseWithCreases</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a> creases, <a class="el" href="classMR_1_1Const__DenoiseWithCreasesSettings.html">MR.Const_DenoiseWithCreasesSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:a3bcbacef1f0399d995eeb2af6fc7b70f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduces noise in given mesh, keeping the edges from (creases) sharp, see the article &quot;<a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">Mesh</a> Denoising via a Novel Mumford-Shah Framework&quot;; unlike meshDenoiseViaNormals, the creases are given by the caller and not detected automatically Generated from function <span class="tt"><a class="el" href="#a3bcbacef1f0399d995eeb2af6fc7b70f" title="Reduces noise in given mesh, keeping the edges from (creases) sharp, see the article &quot;Mesh Denoising ...">MR.meshDenoiseWithCreases</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a12315f2267125cd2b13e0c5d0720facf" id="r_a12315f2267125cd2b13e0c5d0720facf"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12315f2267125cd2b13e0c5d0720facf">meshDenoiseWithCreases</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a> points, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a> creases, <a class="el" href="classMR_1_1Const__DenoiseWithCreasesSettings.html">MR.Const_DenoiseWithCreasesSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:a12315f2267125cd2b13e0c5d0720facf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a3bcbacef1f0399d995eeb2af6fc7b70f" title="Reduces noise in given mesh, keeping the edges from (creases) sharp, see the article &quot;Mesh Denoising ...">MR.meshDenoiseWithCreases</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
-<tr class="memitem:af208de5593efcd9e68959283fc51b436" id="r_af208de5593efcd9e68959283fc51b436"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af208de5593efcd9e68959283fc51b436">meshDenoiseWithCreases</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a> creases, <a class="el" href="classMR_1_1Const__DenoiseWithCreasesSettings.html">MR.Const_DenoiseWithCreasesSettings</a> settings, MR.Std.Const_Function_Bool_From_Float cb)</td></tr>
-<tr class="memdesc:af208de5593efcd9e68959283fc51b436"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same, reporting the progress in (cb) and returning error if the operation was canceled from it Generated from function <span class="tt"><a class="el" href="#a3bcbacef1f0399d995eeb2af6fc7b70f" title="Reduces noise in given mesh, keeping the edges from (creases) sharp, see the article &quot;Mesh Denoising ...">MR.meshDenoiseWithCreases</a></span>.  <br /></td></tr>
-<tr class="memitem:a5d82b94f7e14d5509420f9765a9ef2ad" id="r_a5d82b94f7e14d5509420f9765a9ef2ad"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d82b94f7e14d5509420f9765a9ef2ad">meshDenoiseWithCreases</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a> points, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a> creases, <a class="el" href="classMR_1_1Const__DenoiseWithCreasesSettings.html">MR.Const_DenoiseWithCreasesSettings</a> settings, MR.Std.Const_Function_Bool_From_Float cb)</td></tr>
-<tr class="memdesc:a5d82b94f7e14d5509420f9765a9ef2ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a3bcbacef1f0399d995eeb2af6fc7b70f" title="Reduces noise in given mesh, keeping the edges from (creases) sharp, see the article &quot;Mesh Denoising ...">MR.meshDenoiseWithCreases</a></span>.  <br /></td></tr>
+<tr class="memitem:a858d94090d7c277dfe52666223b3b9c1" id="r_a858d94090d7c277dfe52666223b3b9c1"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a858d94090d7c277dfe52666223b3b9c1">meshDenoiseWithCreases</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a> creases, <a class="el" href="classMR_1_1Const__DenoiseWithCreasesSettings.html">MR.Const_DenoiseWithCreasesSettings</a> settings, MR.Std.Const_Function_Bool_From_Float cb)</td></tr>
+<tr class="memdesc:a858d94090d7c277dfe52666223b3b9c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same, reporting the progress in (cb); returns false if the operation was canceled from it Generated from function <span class="tt"><a class="el" href="#a3bcbacef1f0399d995eeb2af6fc7b70f" title="Reduces noise in given mesh, keeping the edges from (creases) sharp, see the article &quot;Mesh Denoising ...">MR.meshDenoiseWithCreases</a></span>.  <br /></td></tr>
+<tr class="memitem:a877b354e6212d0a971a0b1f29c7d437c" id="r_a877b354e6212d0a971a0b1f29c7d437c"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a877b354e6212d0a971a0b1f29c7d437c">meshDenoiseWithCreases</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a> points, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a> creases, <a class="el" href="classMR_1_1Const__DenoiseWithCreasesSettings.html">MR.Const_DenoiseWithCreasesSettings</a> settings, MR.Std.Const_Function_Bool_From_Float cb)</td></tr>
+<tr class="memdesc:a877b354e6212d0a971a0b1f29c7d437c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a3bcbacef1f0399d995eeb2af6fc7b70f" title="Reduces noise in given mesh, keeping the edges from (creases) sharp, see the article &quot;Mesh Denoising ...">MR.meshDenoiseWithCreases</a></span>.  <br /></td></tr>
 <tr class="memitem:a21f4bc5b7f78f490718c4ef4146272b5" id="r_a21f4bc5b7f78f490718c4ef4146272b5"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.StringView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21f4bc5b7f78f490718c4ef4146272b5">toString</a> (<a class="el" href="#a62382e7777b8653845c52f97f4d1cef8">MR.DimensionsVisualizePropertyType</a> value)</td></tr>
 <tr class="memdesc:a21f4bc5b7f78f490718c4ef4146272b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a21f4bc5b7f78f490718c4ef4146272b5" title="Generated from function MR.toString.">MR.toString</a></span>.  <br /></td></tr>
 <tr class="memitem:a72a0922a5959ac984957627496564244" id="r_a72a0922a5959ac984957627496564244"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.SharedPtr_MRObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72a0922a5959ac984957627496564244">createObject</a> (string className)</td></tr>
@@ -62781,8 +62781,44 @@ All new faces should be parallel to given direction It is measured in squared le
 
 </div>
 </div>
+<a id="ad55e432647c3b0b6cfb0abd4ad8acf02" name="ad55e432647c3b0b6cfb0abd4ad8acf02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad55e432647c3b0b6cfb0abd4ad8acf02">&#9670;&#160;</a></span>meshDenoiseViaNormals() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.meshDenoiseViaNormals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__DenoiseViaNormalsSettings.html">MR.Const_DenoiseViaNormalsSettings</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the same, reporting the progress in (cb); returns false if the operation was canceled from it Generated from function <span class="tt"><a class="el" href="#ab7d15ec3d3fb1765bb3cfdfbb972c317" title="Reduces noise in given mesh, see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot; Gene...">MR.meshDenoiseViaNormals</a></span>. </p>
+
+</div>
+</div>
 <a id="ab7d15ec3d3fb1765bb3cfdfbb972c317" name="ab7d15ec3d3fb1765bb3cfdfbb972c317"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7d15ec3d3fb1765bb3cfdfbb972c317">&#9670;&#160;</a></span>meshDenoiseViaNormals()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7d15ec3d3fb1765bb3cfdfbb972c317">&#9670;&#160;</a></span>meshDenoiseViaNormals() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62812,8 +62848,8 @@ All new faces should be parallel to given direction It is measured in squared le
 
 </div>
 </div>
-<a id="a5d82b94f7e14d5509420f9765a9ef2ad" name="a5d82b94f7e14d5509420f9765a9ef2ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d82b94f7e14d5509420f9765a9ef2ad">&#9670;&#160;</a></span>meshDenoiseWithCreases() <span class="overload">[1/4]</span></h2>
+<a id="a877b354e6212d0a971a0b1f29c7d437c" name="a877b354e6212d0a971a0b1f29c7d437c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a877b354e6212d0a971a0b1f29c7d437c">&#9670;&#160;</a></span>meshDenoiseWithCreases() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62822,7 +62858,7 @@ All new faces should be parallel to given direction It is measured in squared le
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe void MR.meshDenoiseWithCreases </td>
+          <td class="memname">unsafe bool MR.meshDenoiseWithCreases </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -62899,8 +62935,8 @@ All new faces should be parallel to given direction It is measured in squared le
 
 </div>
 </div>
-<a id="af208de5593efcd9e68959283fc51b436" name="af208de5593efcd9e68959283fc51b436"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af208de5593efcd9e68959283fc51b436">&#9670;&#160;</a></span>meshDenoiseWithCreases() <span class="overload">[3/4]</span></h2>
+<a id="a858d94090d7c277dfe52666223b3b9c1" name="a858d94090d7c277dfe52666223b3b9c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a858d94090d7c277dfe52666223b3b9c1">&#9670;&#160;</a></span>meshDenoiseWithCreases() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62909,7 +62945,7 @@ All new faces should be parallel to given direction It is measured in squared le
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe void MR.meshDenoiseWithCreases </td>
+          <td class="memname">unsafe bool MR.meshDenoiseWithCreases </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -62936,7 +62972,7 @@ All new faces should be parallel to given direction It is measured in squared le
 </table>
 </div><div class="memdoc">
 
-<p>the same, reporting the progress in (cb) and returning error if the operation was canceled from it Generated from function <span class="tt"><a class="el" href="#a3bcbacef1f0399d995eeb2af6fc7b70f" title="Reduces noise in given mesh, keeping the edges from (creases) sharp, see the article &quot;Mesh Denoising ...">MR.meshDenoiseWithCreases</a></span>. </p>
+<p>the same, reporting the progress in (cb); returns false if the operation was canceled from it Generated from function <span class="tt"><a class="el" href="#a3bcbacef1f0399d995eeb2af6fc7b70f" title="Reduces noise in given mesh, keeping the edges from (creases) sharp, see the article &quot;Mesh Denoising ...">MR.meshDenoiseWithCreases</a></span>. </p>
 
 </div>
 </div>

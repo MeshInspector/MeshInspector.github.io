@@ -1,7 +1,5 @@
 var NAVTREEINDEX143 =
 {
-"std__array__MR__Color__30_8h.html#a396508286cccce1bfd48d3ffaf08e984":[9,2,2,0,0,0,0,2,101,1],
-"std__array__MR__Color__30_8h_source.html":[9,2,2,0,0,0,0,2,101],
 "std__array__MR__PreciseVertCoords2__3_8h.html":[9,2,2,0,0,0,0,2,102],
 "std__array__MR__PreciseVertCoords2__3_8h.html#a01cbca15d3c29d4bb96838c4a3a7a50e":[9,2,2,0,0,0,0,2,102,9],
 "std__array__MR__PreciseVertCoords2__3_8h.html#a0394472dbaa4b61fd1260aff0efe3840":[9,2,2,0,0,0,0,2,102,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX143 =
 "std__function__MR__CurvePoint__from__float_8h.html#ab8ec5722561d84478f778eb2d4cb121c":[9,2,2,0,0,0,0,2,152,3],
 "std__function__MR__CurvePoint__from__float_8h.html#ac268fc60dbe0bf489a379ca7c4172d36":[9,2,2,0,0,0,0,2,152,2],
 "std__function__MR__CurvePoint__from__float_8h.html#acb62f70940ce19ad79615148ec7769e2":[9,2,2,0,0,0,0,2,152,11],
-"std__function__MR__CurvePoint__from__float_8h.html#ad761607bbcced0b8f1f30b796df1fc8a":[9,2,2,0,0,0,0,2,152,1]
+"std__function__MR__CurvePoint__from__float_8h.html#ad761607bbcced0b8f1f30b796df1fc8a":[9,2,2,0,0,0,0,2,152,1],
+"std__function__MR__CurvePoint__from__float_8h.html#adfe6a153a20cc00c31e78bb9f8b917da":[9,2,2,0,0,0,0,2,152,6],
+"std__function__MR__CurvePoint__from__float_8h.html#aea7713688f9432940fe2abcc8bf68837":[9,2,2,0,0,0,0,2,152,9]
 };

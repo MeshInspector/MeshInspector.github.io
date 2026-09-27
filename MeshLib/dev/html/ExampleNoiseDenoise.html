@@ -179,7 +179,7 @@ $(function(){initNavTree('ExampleNoiseDenoise.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Denoise the mesh with sharpening for sharp edges</span></div>
 <div class="line">    <span class="comment">// see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot;</span></div>
-<div class="line">    std::ignore = MR::meshDenoiseViaNormals( mesh );</div>
+<div class="line">    MR::meshDenoiseViaNormals( mesh );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save the denoised mesh</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( mesh, <span class="stringliteral">&quot;denoised_mesh.stl&quot;</span> ); !saveRes )</div>
@@ -264,7 +264,7 @@ $(function(){initNavTree('ExampleNoiseDenoise.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Denoise the mesh with sharpening for sharp edges</span></div>
 <div class="line">    <span class="comment">// see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot;</span></div>
-<div class="line">    MR_meshDenoiseViaNormals( mesh, NULL );</div>
+<div class="line">    MR_meshDenoiseViaNormals_2( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save the denoised mesh</span></div>
 <div class="line">    MR_expected_void_std_string* saveEx2 = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;denoised_mesh.stl&quot;</span>, NULL, NULL);</div>

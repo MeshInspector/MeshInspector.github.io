@@ -1,9 +1,8 @@
 var classMR_1_1Const__DenoiseViaNormalsSettings =
 [
     [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#ada08c71c90ae3f605c3bcede8e135979", null ],
-    [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a7b1b9f3e4a4dcff66c6542e65c353556", null ],
-    [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a7154fd358861636e8bd0932fe8064a8d", null ],
-    [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#ac7e021acb19fcaa6062ebfb493a139f1", null ],
+    [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#af770a24e4d5979c1bcf3dc4acac1251f", null ],
+    [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a6463b2dfcf98090292d24d6c939cc9c7", null ],
     [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a56dcb190e2d3deb42c63bcf5799c3e04", null ],
     [ "Dispose", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a06e2c22d655a8a3bd00b02c81c96e5fb", null ],
     [ "Dispose", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a7688c259ceb0c6ed9b82aff33cdbd2b1", null ],
@@ -17,7 +16,6 @@ var classMR_1_1Const__DenoiseViaNormalsSettings =
     [ "__ref_storage_normalIters", "classMR_1_1Const__DenoiseViaNormalsSettings.html#aa3a4f6df613b6029bd8faa3909d0a9a9", null ],
     [ "__ref_storage_pointIters", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a114a8376c01d4374d058c6e6a1c03f34", null ],
     [ "beta", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a5889a751804837acaf65b604cc433aa3", null ],
-    [ "cb", "classMR_1_1Const__DenoiseViaNormalsSettings.html#ab4ef74bc8ed2148314aa8d69961aeb1b", null ],
     [ "fastIndicatorComputation", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a37a24669263e1fa8f21921863b42e226", null ],
     [ "gamma", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a198b1376dc389703b7be8b3a359fe9a6", null ],
     [ "guideWeight", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a6eeedb32ef17d334e5b6311ad2bdeb56", null ],

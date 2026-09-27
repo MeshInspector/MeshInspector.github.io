@@ -1,9 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"classmrmeshpy_1_1FeatureObjectProjectPointResult.html#a9a248a99c751605873d7d9d3dc4026e7":[9,1,0,0,2,277,2],
-"classmrmeshpy_1_1FeatureObjectProjectPointResult.html#a9a248a99c751605873d7d9d3dc4026e7":[9,1,1,0,1,277,2],
-"classmrmeshpy_1_1FeatureObjectProjectPointResult.html#abdd122fd823bcb8ffb7c15efd445518f":[9,1,0,0,2,277,1],
-"classmrmeshpy_1_1FeatureObjectProjectPointResult.html#abdd122fd823bcb8ffb7c15efd445518f":[9,1,1,0,1,277,1],
 "classmrmeshpy_1_1FeatureObjectSharedProperty.html":[9,1,0,0,2,278],
 "classmrmeshpy_1_1FeatureObjectSharedProperty.html":[9,1,1,0,1,278],
 "classmrmeshpy_1_1FeatureObjectSharedProperty.html#a228dc0492a24ab4493accf8a8a9e9c5d":[9,1,0,0,2,278,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX32 =
 "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#aaac24112432ebe52f4328dd27f81985e":[9,1,0,0,2,280,1,0,17],
 "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#aaac24112432ebe52f4328dd27f81985e":[9,1,1,0,1,280,1,0,17],
 "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#abf0a75b1955e81e18b31534cdd858026":[9,1,0,0,2,280,1,0,20],
-"classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#abf0a75b1955e81e18b31534cdd858026":[9,1,1,0,1,280,1,0,20]
+"classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#abf0a75b1955e81e18b31534cdd858026":[9,1,1,0,1,280,1,0,20],
+"classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#ac7ad44f84f2d8ef599fe7c9fb42b6625":[9,1,0,0,2,280,1,0,21],
+"classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#ac7ad44f84f2d8ef599fe7c9fb42b6625":[9,1,1,0,1,280,1,0,21],
+"classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#acd2792021adf28784b1d2e5fedd87ee1":[9,1,0,0,2,280,1,0,23],
+"classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#acd2792021adf28784b1d2e5fedd87ee1":[9,1,1,0,1,280,1,0,23]
 };
