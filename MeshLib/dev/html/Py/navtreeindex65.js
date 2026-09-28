@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[9,1,1,0,1,663,0],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[9,1,1,0,1,663,2],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html":[9,1,0,0,2,664],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html":[9,1,1,0,1,664],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a33ead78e387059d92f11ef82e01b47c3":[9,1,0,0,2,664,0],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a33ead78e387059d92f11ef82e01b47c3":[9,1,0,0,2,664,2],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a33ead78e387059d92f11ef82e01b47c3":[9,1,1,0,1,664,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "classmrmeshpy_1_1ObjectChildrenHolder.html#ac97a060b78892936b6a0c4bd86dae0ca":[9,1,0,0,2,639,1],
 "classmrmeshpy_1_1ObjectChildrenHolder.html#ac97a060b78892936b6a0c4bd86dae0ca":[9,1,1,0,1,639,1],
 "classmrmeshpy_1_1ObjectComparableWithReference.html":[9,1,0,0,2,640],
-"classmrmeshpy_1_1ObjectComparableWithReference.html":[9,1,1,0,1,640],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a0095fef2bf196a155da6270e100367c1":[9,1,0,0,2,640,10],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a0095fef2bf196a155da6270e100367c1":[9,1,1,0,1,640,10],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a1ec3f866f2d40e2210b362875b63f0af":[9,1,0,0,2,640,6],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a1ec3f866f2d40e2210b362875b63f0af":[9,1,1,0,1,640,6]
+"classmrmeshpy_1_1ObjectComparableWithReference.html":[9,1,1,0,1,640]
 };

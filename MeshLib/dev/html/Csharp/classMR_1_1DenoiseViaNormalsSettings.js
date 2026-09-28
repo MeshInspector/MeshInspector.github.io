@@ -1,7 +1,7 @@
 var classMR_1_1DenoiseViaNormalsSettings =
 [
     [ "DenoiseViaNormalsSettings", "classMR_1_1DenoiseViaNormalsSettings.html#a25627dcab94d4cd126e432a1b9d8e469", null ],
-    [ "DenoiseViaNormalsSettings", "classMR_1_1DenoiseViaNormalsSettings.html#a8075a6dab8994a982eda89fb599b351f", null ],
+    [ "DenoiseViaNormalsSettings", "classMR_1_1DenoiseViaNormalsSettings.html#ab07b9f575bb4133537d15df4199052e0", null ],
     [ "DenoiseViaNormalsSettings", "classMR_1_1DenoiseViaNormalsSettings.html#abe00d72ed96852991c897033dde4373d", null ],
     [ "DenoiseViaNormalsSettings", "classMR_1_1DenoiseViaNormalsSettings.html#aa969bb3f8ab3f04e2bce245b7133f138", null ],
     [ "assign", "classMR_1_1DenoiseViaNormalsSettings.html#a40cbe17cbd1b63c34239a578e40e30f2", null ],
@@ -13,5 +13,6 @@ var classMR_1_1DenoiseViaNormalsSettings =
     [ "maxInitialDist", "classMR_1_1DenoiseViaNormalsSettings.html#a9f2d3a49973385aa25c60257c066d7a7", null ],
     [ "normalIters", "classMR_1_1DenoiseViaNormalsSettings.html#a605f7a97d61ee55517beeb8e80243cac", null ],
     [ "outCreases", "classMR_1_1DenoiseViaNormalsSettings.html#a7d3b871659de89aa1ac6873dc2fe6a07", null ],
-    [ "pointIters", "classMR_1_1DenoiseViaNormalsSettings.html#aa4396848d0d42010f285365a71827e4b", null ]
+    [ "pointIters", "classMR_1_1DenoiseViaNormalsSettings.html#aa4396848d0d42010f285365a71827e4b", null ],
+    [ "region", "classMR_1_1DenoiseViaNormalsSettings.html#ac5be253b3c15fecfec62a0a5df893131", null ]
 ];

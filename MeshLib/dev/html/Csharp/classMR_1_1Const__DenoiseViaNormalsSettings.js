@@ -1,12 +1,13 @@
 var classMR_1_1Const__DenoiseViaNormalsSettings =
 [
     [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#ada08c71c90ae3f605c3bcede8e135979", null ],
-    [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#af770a24e4d5979c1bcf3dc4acac1251f", null ],
+    [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a31af283af685cf3a10389f3c7dfa4fb6", null ],
     [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a6463b2dfcf98090292d24d6c939cc9c7", null ],
     [ "Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a56dcb190e2d3deb42c63bcf5799c3e04", null ],
     [ "Dispose", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a06e2c22d655a8a3bd00b02c81c96e5fb", null ],
     [ "Dispose", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a7688c259ceb0c6ed9b82aff33cdbd2b1", null ],
     [ "__ptr_storage_outCreases", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a48f457319249edb03969a43d030ce96f", null ],
+    [ "__ptr_storage_region", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a4ce22b51c2bc5e7dc69266898c2bd480", null ],
     [ "__ref_storage_beta", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a36bbd76778c79ab51725b94060c98b3b", null ],
     [ "__ref_storage_fastIndicatorComputation", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a12f5e2ff9c2f609351b2f92505618530", null ],
     [ "__ref_storage_gamma", "classMR_1_1Const__DenoiseViaNormalsSettings.html#acf357e2c710dcddfe6f46593a680bae3", null ],
@@ -23,5 +24,6 @@ var classMR_1_1Const__DenoiseViaNormalsSettings =
     [ "maxInitialDist", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a8d9aa107cad838996515109f4b653c6f", null ],
     [ "normalIters", "classMR_1_1Const__DenoiseViaNormalsSettings.html#aea818b386b5c28c3e76a130f0848f6a9", null ],
     [ "outCreases", "classMR_1_1Const__DenoiseViaNormalsSettings.html#a23a4c2126c77ec26525e393b283b1ef4", null ],
-    [ "pointIters", "classMR_1_1Const__DenoiseViaNormalsSettings.html#ab75e6d03ccb32cf3e9593dd86357b2cf", null ]
+    [ "pointIters", "classMR_1_1Const__DenoiseViaNormalsSettings.html#ab75e6d03ccb32cf3e9593dd86357b2cf", null ],
+    [ "region", "classMR_1_1Const__DenoiseViaNormalsSettings.html#aa6cda551f47f7b88ee00182d47e86686", null ]
 ];

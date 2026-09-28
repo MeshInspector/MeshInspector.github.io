@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"classmrmeshpy_1_1OutEdge.html#a3f86e9114a86feecfedf96edde55b112":[9,1,0,0,2,680,3],
+"classmrmeshpy_1_1OutEdge.html#a3f86e9114a86feecfedf96edde55b112":[9,1,1,0,1,680,3],
+"classmrmeshpy_1_1OutEdge.html#a4852015f0feebcfb0f6e94de51b77fe2":[9,1,0,0,2,680,8],
+"classmrmeshpy_1_1OutEdge.html#a4852015f0feebcfb0f6e94de51b77fe2":[9,1,1,0,1,680,8],
 "classmrmeshpy_1_1OutEdge.html#a5680b64f6a1384fe19f94bfbc2de21ce":[9,1,0,0,2,680,2],
 "classmrmeshpy_1_1OutEdge.html#a5680b64f6a1384fe19f94bfbc2de21ce":[9,1,1,0,1,680,2],
 "classmrmeshpy_1_1OutEdge.html#a60da098eb83264d2b74d8800a5f714ca":[9,1,0,0,2,680,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX71 =
 "classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a841050a0d23e6a3b56ec8d26a21ba767":[9,1,0,0,2,692,0],
 "classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a841050a0d23e6a3b56ec8d26a21ba767":[9,1,1,0,1,692,0],
 "classmrmeshpy_1_1PartialChangeMeshPointsAction.html#ae32cd6cc0f2fde9760c71e45ddfd0ef9":[9,1,0,0,2,692,2],
-"classmrmeshpy_1_1PartialChangeMeshPointsAction.html#ae32cd6cc0f2fde9760c71e45ddfd0ef9":[9,1,1,0,1,692,2],
-"classmrmeshpy_1_1PartialChangeMeshTopologyAction.html":[9,1,0,0,2,693],
-"classmrmeshpy_1_1PartialChangeMeshTopologyAction.html":[9,1,1,0,1,693],
-"classmrmeshpy_1_1PartialChangeMeshTopologyAction.html#a3e846d4d4cd0540d260d8c5577dee9ab":[9,1,0,0,2,693,2],
-"classmrmeshpy_1_1PartialChangeMeshTopologyAction.html#a3e846d4d4cd0540d260d8c5577dee9ab":[9,1,1,0,1,693,2]
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html#ae32cd6cc0f2fde9760c71e45ddfd0ef9":[9,1,1,0,1,692,2]
 };

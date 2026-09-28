@@ -12908,8 +12908,10 @@ Variables</h2></td></tr>
 <tr class="memdesc:gaefcab784c5b10d3504130c0306359d5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then maximal displacement of each point during denoising will be limited  <br /></td></tr>
 <tr class="memitem:gab298fec8f17af7398ab708ce69c2af2d" id="r_gab298fec8f17af7398ab708ce69c2af2d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab298fec8f17af7398ab708ce69c2af2d">MR::DenoiseViaNormalsSettings::maxInitialDist</a> = 0</td></tr>
 <tr class="memdesc:gab298fec8f17af7398ab708ce69c2af2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false  <br /></td></tr>
+<tr class="memitem:ga234cc7724ee82658a6f22257b3400e39" id="r_ga234cc7724ee82658a6f22257b3400e39"><td class="memItemLeft" align="right" valign="top">const FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga234cc7724ee82658a6f22257b3400e39">MR::DenoiseViaNormalsSettings::region</a> = nullptr</td></tr>
+<tr class="memdesc:ga234cc7724ee82658a6f22257b3400e39"><td class="mdescLeft">&#160;</td><td class="mdescRight">if given, then only the normals of these faces are denoised, and only the vertices with all incident faces in the region are moved  <br /></td></tr>
 <tr class="memitem:gad7f7b82ea225f8e0f9a358b607d7fead" id="r_gad7f7b82ea225f8e0f9a358b607d7fead"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad7f7b82ea225f8e0f9a358b607d7fead">MR::DenoiseViaNormalsSettings::outCreases</a> = nullptr</td></tr>
-<tr class="memdesc:gad7f7b82ea225f8e0f9a358b607d7fead"><td class="mdescLeft">&#160;</td><td class="mdescRight">optionally returns creases found during smoothing  <br /></td></tr>
+<tr class="memdesc:gad7f7b82ea225f8e0f9a358b607d7fead"><td class="mdescLeft">&#160;</td><td class="mdescRight">optionally returns creases found during smoothing, only among the edges with both incident faces in the region  <br /></td></tr>
 <tr class="memitem:ga3d33a7031078f565b34961a3e568362d" id="r_ga3d33a7031078f565b34961a3e568362d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d33a7031078f565b34961a3e568362d">MR::DenoiseWithCreasesSettings::gamma</a> = 5.f</td></tr>
 <tr class="memdesc:ga3d33a7031078f565b34961a3e568362d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ...  <br /></td></tr>
 <tr class="memitem:ga6d407894f4a783d1f8d5b12904e64893" id="r_ga6d407894f4a783d1f8d5b12904e64893"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6d407894f4a783d1f8d5b12904e64893">MR::DenoiseWithCreasesSettings::guideWeight</a> = 1</td></tr>
@@ -225421,7 +225423,7 @@ template&lt;typename V&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>optionally returns creases found during smoothing </p>
+<p>optionally returns creases found during smoothing, only among the edges with both incident faces in the region </p>
 
 </div>
 </div>
@@ -229883,7 +229885,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga79fd0b044bab7c845859903f9e5da95b" name="ga79fd0b044bab7c845859903f9e5da95b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga79fd0b044bab7c845859903f9e5da95b">&#9670;&#160;</a></span>region <span class="overload">[1/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga79fd0b044bab7c845859903f9e5da95b">&#9670;&#160;</a></span>region <span class="overload">[1/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229898,7 +229900,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gadce38a07b8b04db0fe998e792e4a6e34" name="gadce38a07b8b04db0fe998e792e4a6e34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadce38a07b8b04db0fe998e792e4a6e34">&#9670;&#160;</a></span>region <span class="overload">[2/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadce38a07b8b04db0fe998e792e4a6e34">&#9670;&#160;</a></span>region <span class="overload">[2/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229914,8 +229916,24 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga234cc7724ee82658a6f22257b3400e39" name="ga234cc7724ee82658a6f22257b3400e39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga234cc7724ee82658a6f22257b3400e39">&#9670;&#160;</a></span>region <span class="overload">[3/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const FaceBitSet* MR::DenoiseViaNormalsSettings::region = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if given, then only the normals of these faces are denoised, and only the vertices with all incident faces in the region are moved </p>
+
+</div>
+</div>
 <a id="ga01cc187a8d8ec7455eecf739bcc7248f" name="ga01cc187a8d8ec7455eecf739bcc7248f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga01cc187a8d8ec7455eecf739bcc7248f">&#9670;&#160;</a></span>region <span class="overload">[3/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga01cc187a8d8ec7455eecf739bcc7248f">&#9670;&#160;</a></span>region <span class="overload">[4/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229931,7 +229949,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaff2c0877c0a9eac16128d033db2d2860" name="gaff2c0877c0a9eac16128d033db2d2860"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaff2c0877c0a9eac16128d033db2d2860">&#9670;&#160;</a></span>region <span class="overload">[4/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff2c0877c0a9eac16128d033db2d2860">&#9670;&#160;</a></span>region <span class="overload">[5/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229947,7 +229965,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga17ce8fa9c3da180503cc50cdedfac9ec" name="ga17ce8fa9c3da180503cc50cdedfac9ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga17ce8fa9c3da180503cc50cdedfac9ec">&#9670;&#160;</a></span>region <span class="overload">[5/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga17ce8fa9c3da180503cc50cdedfac9ec">&#9670;&#160;</a></span>region <span class="overload">[6/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229962,7 +229980,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga1fdb51404a12dafa32d295e97234ce4f" name="ga1fdb51404a12dafa32d295e97234ce4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1fdb51404a12dafa32d295e97234ce4f">&#9670;&#160;</a></span>region <span class="overload">[6/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1fdb51404a12dafa32d295e97234ce4f">&#9670;&#160;</a></span>region <span class="overload">[7/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229978,7 +229996,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga3fe2bba25d7c567c9b75a5a856990f20" name="ga3fe2bba25d7c567c9b75a5a856990f20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3fe2bba25d7c567c9b75a5a856990f20">&#9670;&#160;</a></span>region <span class="overload">[7/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3fe2bba25d7c567c9b75a5a856990f20">&#9670;&#160;</a></span>region <span class="overload">[8/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229994,7 +230012,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga020e8c1bd5c2c3c5186ff4680d8004b0" name="ga020e8c1bd5c2c3c5186ff4680d8004b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga020e8c1bd5c2c3c5186ff4680d8004b0">&#9670;&#160;</a></span>region <span class="overload">[8/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga020e8c1bd5c2c3c5186ff4680d8004b0">&#9670;&#160;</a></span>region <span class="overload">[9/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230010,7 +230028,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gadb49365fb60e376e6302ffa62d2b534a" name="gadb49365fb60e376e6302ffa62d2b534a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadb49365fb60e376e6302ffa62d2b534a">&#9670;&#160;</a></span>region <span class="overload">[9/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadb49365fb60e376e6302ffa62d2b534a">&#9670;&#160;</a></span>region <span class="overload">[10/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230024,7 +230042,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga35aa8fa1280f405afeb9f43189843024" name="ga35aa8fa1280f405afeb9f43189843024"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga35aa8fa1280f405afeb9f43189843024">&#9670;&#160;</a></span>region <span class="overload">[10/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga35aa8fa1280f405afeb9f43189843024">&#9670;&#160;</a></span>region <span class="overload">[11/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230039,7 +230057,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gaa25442f103cd80c149b33bc79eb64b0a" name="gaa25442f103cd80c149b33bc79eb64b0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa25442f103cd80c149b33bc79eb64b0a">&#9670;&#160;</a></span>region <span class="overload">[11/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa25442f103cd80c149b33bc79eb64b0a">&#9670;&#160;</a></span>region <span class="overload">[12/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230055,7 +230073,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gabeb08d7e70411cf9ef2826c0f058b909" name="gabeb08d7e70411cf9ef2826c0f058b909"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabeb08d7e70411cf9ef2826c0f058b909">&#9670;&#160;</a></span>region <span class="overload">[12/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabeb08d7e70411cf9ef2826c0f058b909">&#9670;&#160;</a></span>region <span class="overload">[13/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230071,7 +230089,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="ga59ea37b974c89c4776f198ee775bf128" name="ga59ea37b974c89c4776f198ee775bf128"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga59ea37b974c89c4776f198ee775bf128">&#9670;&#160;</a></span>region <span class="overload">[13/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga59ea37b974c89c4776f198ee775bf128">&#9670;&#160;</a></span>region <span class="overload">[14/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230087,7 +230105,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div>
 </div>
 <a id="gac011fc95d61ece99cc3358e1236104d9" name="gac011fc95d61ece99cc3358e1236104d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac011fc95d61ece99cc3358e1236104d9">&#9670;&#160;</a></span>region <span class="overload">[14/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac011fc95d61ece99cc3358e1236104d9">&#9670;&#160;</a></span>region <span class="overload">[15/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

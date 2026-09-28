@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1NewEdgesMap.html":[9,0,0,8,2],
 "structMR_1_1NewEdgesMap.html":[9,0,0,20,185],
 "structMR_1_1NoCtor.html":[9,0,0,20,139],
 "structMR_1_1NoCtor_3_01T_01_4.html":[9,0,0,20,140],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1PreciseVertCoords2.html":[9,0,0,20,472],
 "structMR_1_1ProgressInterrupter.html":[9,0,0,20,908],
 "structMR_1_1ProjectAttributeParams.html":[9,0,0,20,481],
-"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[9,0,0,20,50],
-"structMR_1_1PythonExport_1_1ModuleData.html":[9,0,0,20,558]
+"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[9,0,0,20,50]
 };

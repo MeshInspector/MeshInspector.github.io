@@ -8,5 +8,6 @@ var structMR_1_1DenoiseViaNormalsSettings =
     [ "maxInitialDist", "group__GeneralGroup.html#gab298fec8f17af7398ab708ce69c2af2d", null ],
     [ "normalIters", "group__GeneralGroup.html#ga0020d91ac083f2d70a466e4f209e12b9", null ],
     [ "outCreases", "group__GeneralGroup.html#gad7f7b82ea225f8e0f9a358b607d7fead", null ],
-    [ "pointIters", "group__GeneralGroup.html#ga82e9e950294e56f0bed7e0ad545b68e9", null ]
+    [ "pointIters", "group__GeneralGroup.html#ga82e9e950294e56f0bed7e0ad545b68e9", null ],
+    [ "region", "group__GeneralGroup.html#ga234cc7724ee82658a6f22257b3400e39", null ]
 ];

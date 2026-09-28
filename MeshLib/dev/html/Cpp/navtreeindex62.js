@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1Box.html#aaf8c494ec86f9a6ef904299b78f1cc23":[9,0,0,0,2,0,31],
 "structMR_1_1Box.html#ab72759c3d199697fa09474bba5c5284c":[9,0,0,0,2,0,4],
 "structMR_1_1Box.html#aba9d01a2283f33ef63e5d1cb49a6b84a":[9,0,0,0,2,0,27],
 "structMR_1_1Box.html#abaa0e8fa0a608290aa2ac4bee9a34a4e":[9,0,0,0,2,0,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1FanRecord.html":[9,0,0,20,324],
 "structMR_1_1FanRecordWithCenter.html":[9,0,0,20,325],
 "structMR_1_1FeatureObjectProjectPointResult.html":[9,0,0,20,234],
-"structMR_1_1FeatureObjectSharedProperty.html":[9,0,0,20,233],
-"structMR_1_1Features_1_1MeasureResult.html":[9,0,0,20,240]
+"structMR_1_1FeatureObjectSharedProperty.html":[9,0,0,20,233]
 };

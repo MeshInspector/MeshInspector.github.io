@@ -1,5 +1,8 @@
 var NAVTREEINDEX127 =
 {
+"classMR_1_1PolylineProjectionResult3Arg.html#ad0960703d369d71d7d3083d37ce3fb35":[9,3,0,0,0,1549,5],
+"classMR_1_1PolylineProjectionResult3Arg.html#ade705834747b2e154232a440bf5ea906":[9,3,0,0,0,1549,0],
+"classMR_1_1PolylineProjectionResult3Arg.html#ae3b82c50121afe9dc11b5abcabd0886a":[9,3,0,0,0,1549,1],
 "classMR_1_1PolylineProjectionResult3Arg.html#af4f2f48f61c8efee2122b8dc1cc20b77":[9,3,0,0,0,1549,4],
 "classMR_1_1PolylineProjectionWithOffsetResult3.html":[9,3,0,0,0,1550],
 "classMR_1_1PolylineProjectionWithOffsetResult3.html#a054a78be8a8a27ff7febe09198ab3dd2":[9,3,0,0,0,1550,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX127 =
 "classMR_1_1QuadraticForm2d.html#acbd0ff2d4a5c8e9294f8584034f855d3":[9,3,0,0,0,1581,10],
 "classMR_1_1QuadraticForm2d.html#af362a975b60969dc75fcb2c175847e7e":[9,3,0,0,0,1581,4],
 "classMR_1_1QuadraticForm2f.html":[9,3,0,0,0,1582],
-"classMR_1_1QuadraticForm2f.html#a4d78b99803797376266532ad2784f27d":[9,3,0,0,0,1582,3],
-"classMR_1_1QuadraticForm2f.html#a6131afde0157dda55603d85f6472aad9":[9,3,0,0,0,1582,1],
-"classMR_1_1QuadraticForm2f.html#a6270daaae0a7533704a519876a6ac97e":[9,3,0,0,0,1582,8],
-"classMR_1_1QuadraticForm2f.html#a7b5880f4a407dbfa175f9834c65e5566":[9,3,0,0,0,1582,2]
+"classMR_1_1QuadraticForm2f.html#a4d78b99803797376266532ad2784f27d":[9,3,0,0,0,1582,3]
 };

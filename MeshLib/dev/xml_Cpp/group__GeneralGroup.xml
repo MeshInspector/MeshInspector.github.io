@@ -37497,6 +37497,22 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRMesh/MRNormalDenoising.h" line="61" column="11" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="61" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga234cc7724ee82658a6f22257b3400e39" prot="public" static="no" mutable="no">
+        <type>const FaceBitSet *</type>
+        <definition>const FaceBitSet* MR::DenoiseViaNormalsSettings::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::DenoiseViaNormalsSettings::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>if given, then only the normals of these faces are denoised, and only the vertices with all incident faces in the region are moved </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRNormalDenoising.h" line="64" column="22" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad7f7b82ea225f8e0f9a358b607d7fead" prot="public" static="no" mutable="no">
         <type>UndirectedEdgeBitSet *</type>
         <definition>UndirectedEdgeBitSet* MR::DenoiseViaNormalsSettings::outCreases</definition>
@@ -37505,13 +37521,13 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <qualifiedname>MR::DenoiseViaNormalsSettings::outCreases</qualifiedname>
         <initializer>= nullptr</initializer>
         <briefdescription>
-<para>optionally returns creases found during smoothing </para>
+<para>optionally returns creases found during smoothing, only among the edges with both incident faces in the region </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="64" column="27" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="64" bodyend="-1"/>
+        <location file="MRMesh/MRNormalDenoising.h" line="67" column="27" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3d33a7031078f565b34961a3e568362d" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -37527,7 +37543,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="77" column="11" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="77" bodyend="-1"/>
+        <location file="MRMesh/MRNormalDenoising.h" line="80" column="11" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6d407894f4a783d1f8d5b12904e64893" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -37543,7 +37559,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="80" column="11" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="80" bodyend="-1"/>
+        <location file="MRMesh/MRNormalDenoising.h" line="83" column="11" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="83" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga059ccaf0f8ef1ba826bc02449fc4defc" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -37559,7 +37575,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="83" column="9" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="83" bodyend="-1"/>
+        <location file="MRMesh/MRNormalDenoising.h" line="86" column="9" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga01cc187a8d8ec7455eecf739bcc7248f" prot="public" static="no" mutable="no">
         <type>const FaceBitSet *</type>
@@ -37575,7 +37591,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="86" column="22" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="86" bodyend="-1"/>
+        <location file="MRMesh/MRNormalDenoising.h" line="89" column="22" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga159740ec11abc814c4bb74f024a4519e" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; ISolver &gt;</type>
@@ -123075,7 +123091,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="69" column="7" declfile="MRMesh/MRNormalDenoising.h" declline="69" declcolumn="7"/>
+        <location file="MRMesh/MRNormalDenoising.h" line="72" column="7" declfile="MRMesh/MRNormalDenoising.h" declline="72" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac335a53bfd7d287604c31298e1b5a43b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -123102,7 +123118,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="72" column="8" declfile="MRMesh/MRNormalDenoising.h" declline="72" declcolumn="8"/>
+        <location file="MRMesh/MRNormalDenoising.h" line="75" column="8" declfile="MRMesh/MRNormalDenoising.h" declline="75" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad3ee3facd1ffb97bd91ffba08a243484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -123130,7 +123146,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="92" column="7" declfile="MRMesh/MRNormalDenoising.h" declline="92" declcolumn="7"/>
+        <location file="MRMesh/MRNormalDenoising.h" line="95" column="7" declfile="MRMesh/MRNormalDenoising.h" declline="95" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8b997b3e9f6333808da102fcc5b2a4ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -123161,7 +123177,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="93" column="7" declfile="MRMesh/MRNormalDenoising.h" declline="93" declcolumn="7"/>
+        <location file="MRMesh/MRNormalDenoising.h" line="96" column="7" declfile="MRMesh/MRNormalDenoising.h" declline="96" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf1d0eee1758bde49f19146f8ca980be8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -123192,7 +123208,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="96" column="8" declfile="MRMesh/MRNormalDenoising.h" declline="96" declcolumn="8"/>
+        <location file="MRMesh/MRNormalDenoising.h" line="99" column="8" declfile="MRMesh/MRNormalDenoising.h" declline="99" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad8edb5d1ce0c4b1c862f2e156ed9e0db" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -123226,7 +123242,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="97" column="8" declfile="MRMesh/MRNormalDenoising.h" declline="97" declcolumn="8"/>
+        <location file="MRMesh/MRNormalDenoising.h" line="100" column="8" declfile="MRMesh/MRNormalDenoising.h" declline="100" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8aaa45d1071497576137dc6ef26f796e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

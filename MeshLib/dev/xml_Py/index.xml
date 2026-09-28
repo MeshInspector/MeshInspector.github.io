@@ -4442,12 +4442,13 @@
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adabe1335e3a088ed0939d8e1ec841e41" kind="variable"><name>_offsetof_normalIters</name></member>
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1affcb6f581b2e74db8296724f22116a6d" kind="variable"><name>_offsetof_outCreases</name></member>
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aeaa6568eb185e9886cf8f1ac8087c90e" kind="variable"><name>_offsetof_pointIters</name></member>
+    <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ac562f04771772ce5a92802b21ff8a92d" kind="variable"><name>_offsetof_region</name></member>
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aa18caeb330ec2e711eed59c8f25797d5" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a52e2080eb0991668da746aaa6f9d9500" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a52e2080eb0991668da746aaa6f9d9500" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a797d1f07a461065e2cf85b2b1e181885" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aef30c98054d794f44a0f4792e4084d00" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aea441d0cb1f2909fbbb07f5dfeb92df7" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a60affb5e18615bdc0167d66add26bea1" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1af5048a8e4b0658932a0a9cf8c29ddd94" kind="function"><name>beta</name></member>
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae3eee48864cf58021494d889f7fec1d9" kind="function"><name>beta</name></member>
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aa5797d1fbae08075274a0f0e409dc360" kind="function"><name>fastIndicatorComputation</name></member>
@@ -4466,6 +4467,8 @@
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adaaaa9c0ad82312e70ce2ae7cd388d4f" kind="function"><name>outCreases</name></member>
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adc45f3635b80e176e93ee47f0e721c2b" kind="function"><name>pointIters</name></member>
     <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a24aabad66993c3b7286f13363359252e" kind="function"><name>pointIters</name></member>
+    <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a4d38abd04a403a7c9952e73f4ec55c97" kind="function"><name>region</name></member>
+    <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a3602823ce9c8fc1c313be4a4a93699c2" kind="function"><name>region</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1DenoiseWithCreasesSettings" kind="class"><name>mrmeshpy::DenoiseWithCreasesSettings</name>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a1c62a415e0006cbd20a4db2af0219a9e" kind="variable"><name>_offsetof_gamma</name></member>

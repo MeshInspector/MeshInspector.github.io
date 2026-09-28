@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1TriangulateHolesParams.html#aec7ce265264bd1bb9d6287fb079e2eeb":[9,0,0,13,2,1],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[9,0,1,0,1,48,0],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[9,0,2,0,2,32,0],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a0bb7d70e695f6c8fb8806cf07f90bb9e":[9,0,1,0,1,48,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1Vector2.html#aa7e0a1754fac4de39eb88fc3f1e2db46":[9,0,0,0,12,0,22],
 "structMR_1_1Vector2.html#aa7e0a1754fac4de39eb88fc3f1e2db46":[9,0,1,0,1,1626],
 "structMR_1_1Vector2.html#aa88507c09ad0236f834d9ffb29ef6de6":[9,0,0,0,12,0,10],
-"structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c":[9,0,0,0,12,0,1],
-"structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[9,0,0,0,12,0,25]
+"structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c":[9,0,0,0,12,0,1]
 };

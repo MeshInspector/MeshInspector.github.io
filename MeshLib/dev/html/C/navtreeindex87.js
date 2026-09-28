@@ -1,5 +1,8 @@
 var NAVTREEINDEX87 =
 {
+"MRPointMeasurementObject_8h.html#aee49882c96b7a628fa889c52eb64e308a4c2f70bbff760685bcc892376eeab494":[9,2,2,0,0,0,0,1,265,2,1],
+"MRPointMeasurementObject_8h.html#aef625a31440d763dd208448a6f4938a8":[9,2,2,0,0,0,0,1,265,10],
+"MRPointMeasurementObject_8h.html#af20ac89b9ef7e26af433ca01d0d71300":[9,2,2,0,0,0,0,1,265,58],
 "MRPointMeasurementObject_8h.html#af20dec643abbdadda3da88bf3d8d177e":[9,2,2,0,0,0,0,1,265,160],
 "MRPointMeasurementObject_8h.html#af3b312190a9640f064f9ae32a9522163":[9,2,2,0,0,0,0,1,265,48],
 "MRPointMeasurementObject_8h.html#af56d2b77a5aa988c636c25d136267bee":[9,2,2,0,0,0,0,1,265,94],
@@ -246,8 +249,5 @@ var NAVTREEINDEX87 =
 "MRPointToPlaneAligningTransform_8h.html#a8707062718441ba967d5850901e4e1c4":[9,2,2,0,0,0,0,1,277,19],
 "MRPointToPlaneAligningTransform_8h.html#a901a6170e81559e87cddb00d55fbd949":[9,2,2,0,0,0,0,1,277,21],
 "MRPointToPlaneAligningTransform_8h.html#a90a7b962a187b727fe673cd7d1c0b6b7":[9,2,2,0,0,0,0,1,277,20],
-"MRPointToPlaneAligningTransform_8h.html#a95996e9fd5267dc3cebc58806a52a4c0":[9,2,2,0,0,0,0,1,277,1],
-"MRPointToPlaneAligningTransform_8h.html#a9b254e7580fc89b8a1faacd9d1ff641c":[9,2,2,0,0,0,0,1,277,16],
-"MRPointToPlaneAligningTransform_8h.html#ab3ba3d37cd50a132d8a7a6d6646b76a0":[9,2,2,0,0,0,0,1,277,12],
-"MRPointToPlaneAligningTransform_8h.html#abf0c38cdd04e4d71acc582a8e6701443":[9,2,2,0,0,0,0,1,277,6]
+"MRPointToPlaneAligningTransform_8h.html#a95996e9fd5267dc3cebc58806a52a4c0":[9,2,2,0,0,0,0,1,277,1]
 };

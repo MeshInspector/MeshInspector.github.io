@@ -164,8 +164,10 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:gaefcab784c5b10d3504130c0306359d5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then maximal displacement of each point during denoising will be limited  <br /></td></tr>
 <tr class="memitem:gab298fec8f17af7398ab708ce69c2af2d" id="r_gab298fec8f17af7398ab708ce69c2af2d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab298fec8f17af7398ab708ce69c2af2d">maxInitialDist</a> = 0</td></tr>
 <tr class="memdesc:gab298fec8f17af7398ab708ce69c2af2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false  <br /></td></tr>
+<tr class="memitem:ga234cc7724ee82658a6f22257b3400e39" id="r_ga234cc7724ee82658a6f22257b3400e39"><td class="memItemLeft" align="right" valign="top">const FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga234cc7724ee82658a6f22257b3400e39">region</a> = nullptr</td></tr>
+<tr class="memdesc:ga234cc7724ee82658a6f22257b3400e39"><td class="mdescLeft">&#160;</td><td class="mdescRight">if given, then only the normals of these faces are denoised, and only the vertices with all incident faces in the region are moved  <br /></td></tr>
 <tr class="memitem:gad7f7b82ea225f8e0f9a358b607d7fead" id="r_gad7f7b82ea225f8e0f9a358b607d7fead"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gad7f7b82ea225f8e0f9a358b607d7fead">outCreases</a> = nullptr</td></tr>
-<tr class="memdesc:gad7f7b82ea225f8e0f9a358b607d7fead"><td class="mdescLeft">&#160;</td><td class="mdescRight">optionally returns creases found during smoothing  <br /></td></tr>
+<tr class="memdesc:gad7f7b82ea225f8e0f9a358b607d7fead"><td class="mdescLeft">&#160;</td><td class="mdescRight">optionally returns creases found during smoothing, only among the edges with both incident faces in the region  <br /></td></tr>
 </table>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>MRMesh/<a class="el" href="MRNormalDenoising_8h_source.html">MRNormalDenoising.h</a></li>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX106 =
 {
+"classmrmeshpy_1_1Vector4i64.html#a430d759f406a24ee2fcad91c03940d4b":[9,1,0,0,2,1196,21],
+"classmrmeshpy_1_1Vector4i64.html#a430d759f406a24ee2fcad91c03940d4b":[9,1,1,0,1,1196,21],
+"classmrmeshpy_1_1Vector4i64.html#a57d1efb357e9a7534886ee15e087282d":[9,1,0,0,2,1196,24],
+"classmrmeshpy_1_1Vector4i64.html#a57d1efb357e9a7534886ee15e087282d":[9,1,1,0,1,1196,24],
 "classmrmeshpy_1_1Vector4i64.html#a79c87cdae25c6fa5eece4049e0779a53":[9,1,0,0,2,1196,9],
 "classmrmeshpy_1_1Vector4i64.html#a79c87cdae25c6fa5eece4049e0779a53":[9,1,1,0,1,1196,9],
 "classmrmeshpy_1_1Vector4i64.html#a7b216e4c7ef1c00d213ef8112093d5ca":[9,1,0,0,2,1196,23],
@@ -245,9 +249,5 @@ var NAVTREEINDEX106 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#aafccbaf95469536e7c6780ddd554d5df":[9,1,0,0,2,1199,0],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#aafccbaf95469536e7c6780ddd554d5df":[9,1,1,0,1,1199,0],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ab847d0996e3c02e4cf579a599df0bbc3":[9,1,0,0,2,1199,9],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ab847d0996e3c02e4cf579a599df0bbc3":[9,1,1,0,1,1199,9],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ac2f0ca948647d189c858e832a45417be":[9,1,0,0,2,1199,22],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ac2f0ca948647d189c858e832a45417be":[9,1,0,0,2,1199,23],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ac2f0ca948647d189c858e832a45417be":[9,1,1,0,1,1199,22],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ac2f0ca948647d189c858e832a45417be":[9,1,1,0,1,1199,23]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ab847d0996e3c02e4cf579a599df0bbc3":[9,1,1,0,1,1199,9]
 };

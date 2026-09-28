@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"classMR_1_1Const__Quaternionf.html#af3620794539d047011e08e55c842671a":[9,3,0,0,0,791,19],
+"classMR_1_1Const__RadiusMeasurementObject.html":[9,3,0,0,0,792],
 "classMR_1_1Const__RadiusMeasurementObject.html#a051a75d477c055c93ef1c3d8094c68df":[9,3,0,0,0,792,68],
 "classMR_1_1Const__RadiusMeasurementObject.html#a0a0798dae06c6bce40f2f618f6ec0667":[9,3,0,0,0,792,73],
 "classMR_1_1Const__RadiusMeasurementObject.html#a0c80b00876559293a90f9c4be2b20bc9":[9,3,0,0,0,792,53],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "classMR_1_1Const__RelaxParams.html#acdc8fe724eabe7e445dafd408920af74":[9,3,0,0,0,799,4],
 "classMR_1_1Const__RelaxParams.html#ad76d7d379d813b9c219b5a17d4fa625c":[9,3,0,0,0,799,14],
 "classMR_1_1Const__RemeshSettings.html":[9,3,0,0,0,800],
-"classMR_1_1Const__RemeshSettings.html#a045d2a6da473a4cdc752284f7d146c54":[9,3,0,0,0,800,6],
-"classMR_1_1Const__RemeshSettings.html#a077594c741a03582fbd53595870b456b":[9,3,0,0,0,800,3],
-"classMR_1_1Const__RemeshSettings.html#a2e144e264ff95a1dcb4312a23c69cd21":[9,3,0,0,0,800,7]
+"classMR_1_1Const__RemeshSettings.html#a045d2a6da473a4cdc752284f7d146c54":[9,3,0,0,0,800,6]
 };

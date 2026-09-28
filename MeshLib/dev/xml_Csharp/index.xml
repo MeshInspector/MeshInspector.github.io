@@ -12882,6 +12882,7 @@
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a6eeedb32ef17d334e5b6311ad2bdeb56" kind="property"><name>guideWeight</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a81d709c4cba36aaedfe9b0b4383d7f67" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a8d9aa107cad838996515109f4b653c6f" kind="property"><name>maxInitialDist</name></member>
+    <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1aa6cda551f47f7b88ee00182d47e86686" kind="property"><name>region</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a23a4c2126c77ec26525e393b283b1ef4" kind="property"><name>outCreases</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a12f5e2ff9c2f609351b2f92505618530" kind="variable"><name>__ref_storage_fastIndicatorComputation</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a36bbd76778c79ab51725b94060c98b3b" kind="variable"><name>__ref_storage_beta</name></member>
@@ -12891,16 +12892,17 @@
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a65e3c06361add3c85bff0247c62fec2f" kind="variable"><name>__ref_storage_guideWeight</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1aab2f31a4dfc1c679522b794ca0d16de0" kind="variable"><name>__ref_storage_limitNearInitial</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a4b6aa3d179ad410c246e489651ffe002" kind="variable"><name>__ref_storage_maxInitialDist</name></member>
+    <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a4ce22b51c2bc5e7dc69266898c2bd480" kind="variable"><name>__ptr_storage_region</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a48f457319249edb03969a43d030ce96f" kind="variable"><name>__ptr_storage_outCreases</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a7688c259ceb0c6ed9b82aff33cdbd2b1" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a06e2c22d655a8a3bd00b02c81c96e5fb" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1ada08c71c90ae3f605c3bcede8e135979" kind="function"><name>Const_DenoiseViaNormalsSettings</name></member>
-    <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1af770a24e4d5979c1bcf3dc4acac1251f" kind="function"><name>Const_DenoiseViaNormalsSettings</name></member>
+    <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a31af283af685cf3a10389f3c7dfa4fb6" kind="function"><name>Const_DenoiseViaNormalsSettings</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a6463b2dfcf98090292d24d6c939cc9c7" kind="function"><name>Const_DenoiseViaNormalsSettings</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a56dcb190e2d3deb42c63bcf5799c3e04" kind="function"><name>Const_DenoiseViaNormalsSettings</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a52ec13442106cf200642f943b246e714" kind="function"><name>~Const_DenoiseViaNormalsSettings</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a953c080941c672b6a4ae8d7cb87a1e6d" kind="function"><name>Const_DenoiseViaNormalsSettings</name></member>
-    <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1ac762941506030247fb9d09b81e3af579" kind="function"><name>__MR_DenoiseViaNormalsSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a536bdf5e28b1ca647afc9a01eee91e47" kind="function"><name>__MR_DenoiseViaNormalsSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1ab3324aba53ff9689103b166183263fbe" kind="function"><name>__MR_DenoiseViaNormalsSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a662e313d3a99c41598e5aa75b1deb167" kind="function"><name>__MR_DenoiseViaNormalsSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a7312dd7b36400639b8dd1c7784926b59" kind="function"><name>__MR_DenoiseViaNormalsSettings_Destroy</name></member>
@@ -12913,6 +12915,7 @@
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1abd986eaa2ec78262d412f49d6a9924e9" kind="function"><name>__MR_DenoiseViaNormalsSettings_Get_normalIters</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a5c07267ad7b7a6969fcbfe40770a8194" kind="function"><name>__MR_DenoiseViaNormalsSettings_Get_outCreases</name></member>
     <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1adf533a1831497f72a68dc4627c365931" kind="function"><name>__MR_DenoiseViaNormalsSettings_Get_pointIters</name></member>
+    <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a0a61813d475744d218f69bb7e1d1b3c8" kind="function"><name>__MR_DenoiseViaNormalsSettings_Get_region</name></member>
   </compound>
   <compound refid="classMR_1_1Const__DenoiseWithCreasesSettings" kind="class"><name>MR::Const_DenoiseWithCreasesSettings</name>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a3cd8780731709fa7a7d8cbd8d9c6e6e4" kind="property"><name>gamma</name></member>
@@ -43692,15 +43695,16 @@
     <member refid="classMR_1_1DenoiseViaNormalsSettings_1a5c58dc4b9f1323e4e71485556a37bfeb" kind="property"><name>guideWeight</name></member>
     <member refid="classMR_1_1DenoiseViaNormalsSettings_1a8ed73f3bdde250afef3f97f822331304" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1DenoiseViaNormalsSettings_1a9f2d3a49973385aa25c60257c066d7a7" kind="property"><name>maxInitialDist</name></member>
+    <member refid="classMR_1_1DenoiseViaNormalsSettings_1ac5be253b3c15fecfec62a0a5df893131" kind="property"><name>region</name></member>
     <member refid="classMR_1_1DenoiseViaNormalsSettings_1a7d3b871659de89aa1ac6873dc2fe6a07" kind="property"><name>outCreases</name></member>
     <member refid="classMR_1_1DenoiseViaNormalsSettings_1a75052624bf05c14971df0f58c7087053" kind="function"><name>DenoiseViaNormalsSettings</name></member>
     <member refid="classMR_1_1DenoiseViaNormalsSettings_1a25627dcab94d4cd126e432a1b9d8e469" kind="function"><name>DenoiseViaNormalsSettings</name></member>
-    <member refid="classMR_1_1DenoiseViaNormalsSettings_1a8075a6dab8994a982eda89fb599b351f" kind="function"><name>DenoiseViaNormalsSettings</name></member>
+    <member refid="classMR_1_1DenoiseViaNormalsSettings_1ab07b9f575bb4133537d15df4199052e0" kind="function"><name>DenoiseViaNormalsSettings</name></member>
     <member refid="classMR_1_1DenoiseViaNormalsSettings_1abe00d72ed96852991c897033dde4373d" kind="function"><name>DenoiseViaNormalsSettings</name></member>
     <member refid="classMR_1_1DenoiseViaNormalsSettings_1aa969bb3f8ab3f04e2bce245b7133f138" kind="function"><name>DenoiseViaNormalsSettings</name></member>
     <member refid="classMR_1_1DenoiseViaNormalsSettings_1a40cbe17cbd1b63c34239a578e40e30f2" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1DenoiseViaNormalsSettings_1a65afdc58e2f7c8fbe9f8ae73d74de7cf" kind="function"><name>__MR_DenoiseViaNormalsSettings_AssignFromAnother</name></member>
-    <member refid="classMR_1_1DenoiseViaNormalsSettings_1a38b21b8761d4793689d29517b29cce18" kind="function"><name>__MR_DenoiseViaNormalsSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1DenoiseViaNormalsSettings_1aacaf273088fce193da1424178ff6b5ed" kind="function"><name>__MR_DenoiseViaNormalsSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1DenoiseViaNormalsSettings_1a34b367e99376c034e9579675148dc544" kind="function"><name>__MR_DenoiseViaNormalsSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1DenoiseViaNormalsSettings_1ad4e6a3368854b60d25f726296badc3b1" kind="function"><name>__MR_DenoiseViaNormalsSettings_DefaultConstruct</name></member>
   </compound>

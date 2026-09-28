@@ -114,7 +114,7 @@
         <argsstring></argsstring>
         <name>_offsetof_outCreases</name>
         <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings._offsetof_outCreases</qualifiedname>
-        <initializer>=  32</initializer>
+        <initializer>=  40</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -138,6 +138,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15015" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ac562f04771772ce5a92802b21ff8a92d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseViaNormalsSettings::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings._offsetof_region</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15016" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aa18caeb330ec2e711eed59c8f25797d5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -160,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15018" bodyend="15019"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15019" bodyend="15020"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a52e2080eb0991668da746aaa6f9d9500" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1DenoiseViaNormalsSettings" kindref="compound">DenoiseViaNormalsSettings</ref></type>
@@ -182,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15022" bodyend="15023"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15023" bodyend="15024"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a52e2080eb0991668da746aaa6f9d9500" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1DenoiseViaNormalsSettings" kindref="compound">DenoiseViaNormalsSettings</ref></type>
@@ -204,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15026" bodyend="15027"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15027" bodyend="15028"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -224,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15029" bodyend="15030"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15030" bodyend="15031"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aef30c98054d794f44a0f4792e4084d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -248,12 +263,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15032" bodyend="15035"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15033" bodyend="15036"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aea441d0cb1f2909fbbb07f5dfeb92df7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a60affb5e18615bdc0167d66add26bea1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.DenoiseViaNormalsSettings.__init__</definition>
-        <argsstring>(self, bool fastIndicatorComputation, float beta, float gamma, int normalIters, int pointIters, float guideWeight, bool limitNearInitial, float maxInitialDist, UndirectedEdgeBitSet outCreases)</argsstring>
+        <argsstring>(self, bool fastIndicatorComputation, float beta, float gamma, int normalIters, int pointIters, float guideWeight, bool limitNearInitial, float maxInitialDist, FaceBitSet region, UndirectedEdgeBitSet outCreases)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.__init__</qualifiedname>
         <param>
@@ -293,6 +308,10 @@
           <declname>maxInitialDist</declname>
         </param>
         <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
           <declname>outCreases</declname>
         </param>
@@ -304,7 +323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15037" bodyend="15040"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15038" bodyend="15041"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1af5048a8e4b0658932a0a9cf8c29ddd94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -324,7 +343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15042" bodyend="15045"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15043" bodyend="15046"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae3eee48864cf58021494d889f7fec1d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -346,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15047" bodyend="15048"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15048" bodyend="15049"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aa5797d1fbae08075274a0f0e409dc360" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -366,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15050" bodyend="15053"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15051" bodyend="15054"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ac60bd8e5675b6ee2ede715fd4d3c3b50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -388,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15055" bodyend="15056"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15056" bodyend="15057"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a6f1901e8b5e299a2537ab238a604b5ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -408,7 +427,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15058" bodyend="15061"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15059" bodyend="15062"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae5e9a54d7b8a544d055e7e1e71e9e6c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -430,7 +449,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15063" bodyend="15064"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15064" bodyend="15065"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a7ed1247ea64ad5a4e6f3af63440f0169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -450,7 +469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15066" bodyend="15069"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15067" bodyend="15070"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a95d62729daecce0e89a2888b56980cf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -472,7 +491,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15071" bodyend="15072"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15072" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15072" bodyend="15073"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a02ca079cf9887b3c412466bdb5b9a92b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -492,7 +511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15074" bodyend="15077"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15075" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15075" bodyend="15078"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a72f7cb6fefef150133d0779bdd49c602" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -514,7 +533,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15079" bodyend="15080"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15080" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15080" bodyend="15081"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a05d4064de5a870189d43d5cf5ab0e226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -534,7 +553,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15082" bodyend="15085"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15083" bodyend="15086"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a958808ed612c5c0552c06d6357aab854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -556,7 +575,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15087" bodyend="15088"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15088" bodyend="15089"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a3a7f434e4ed01a910fe4d2cc6cd575f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -576,7 +595,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15090" bodyend="15093"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15091" bodyend="15094"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a63fdd6ccfa7822927d12db9c45e8f43c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -598,7 +617,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15095" bodyend="15096"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15096" bodyend="15097"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae0bd388b5d03dfb6dcf2c1ef87b94807" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -613,12 +632,12 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>optionally returns creases found during smoothing
+<para><verbatim>optionally returns creases found during smoothing, only among the edges with both incident faces in the region
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15098" bodyend="15101"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15099" bodyend="15102"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adaaaa9c0ad82312e70ce2ae7cd388d4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -640,7 +659,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15103" bodyend="15104"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15104" bodyend="15105"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adc45f3635b80e176e93ee47f0e721c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -660,7 +679,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15106" bodyend="15109"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15107" bodyend="15110"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a24aabad66993c3b7286f13363359252e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -682,7 +701,49 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15111" bodyend="15112"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15112" bodyend="15113"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a4d38abd04a403a7c9952e73f4ec55c97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.DenoiseViaNormalsSettings.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if given, then only the normals of these faces are denoised, and only the vertices with all incident faces in the region are moved
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15115" bodyend="15118"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a3602823ce9c8fc1c313be4a4a93699c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.region</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15120" bodyend="15121"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -691,12 +752,12 @@
 <para><verbatim>Generated from:  MR::DenoiseViaNormalsSettings
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15003" bodyend="15112"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15003" bodyend="15121"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aa18caeb330ec2e711eed59c8f25797d5" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a797d1f07a461065e2cf85b2b1e181885" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aef30c98054d794f44a0f4792e4084d00" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aea441d0cb1f2909fbbb07f5dfeb92df7" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a60affb5e18615bdc0167d66add26bea1" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a365700e310f1cac92768833890203efe" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_beta</name></member>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1abd1c648bbcfa596417adb1aaab3f9660" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_fastIndicatorComputation</name></member>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a9d730d225dc1555b69a050a9469bfd06" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_gamma</name></member>
@@ -706,6 +767,7 @@
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adabe1335e3a088ed0939d8e1ec841e41" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_normalIters</name></member>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1affcb6f581b2e74db8296724f22116a6d" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_outCreases</name></member>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aeaa6568eb185e9886cf8f1ac8087c90e" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_pointIters</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ac562f04771772ce5a92802b21ff8a92d" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_region</name></member>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1af5048a8e4b0658932a0a9cf8c29ddd94" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>beta</name></member>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae3eee48864cf58021494d889f7fec1d9" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>beta</name></member>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aa5797d1fbae08075274a0f0e409dc360" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>fastIndicatorComputation</name></member>
@@ -726,6 +788,8 @@
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adaaaa9c0ad82312e70ce2ae7cd388d4f" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>outCreases</name></member>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adc45f3635b80e176e93ee47f0e721c2b" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>pointIters</name></member>
       <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a24aabad66993c3b7286f13363359252e" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>pointIters</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a4d38abd04a403a7c9952e73f4ec55c97" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a3602823ce9c8fc1c313be4a4a93699c2" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>region</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

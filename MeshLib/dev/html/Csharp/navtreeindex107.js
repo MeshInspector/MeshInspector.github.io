@@ -1,5 +1,8 @@
 var NAVTREEINDEX107 =
 {
+"classMR_1_1GridToMeshSettings.html#a13fd596b0d9ec494985e6170d41d9372":[9,3,0,0,0,1240,7],
+"classMR_1_1GridToMeshSettings.html#a3755177020f1ce5d135b71304d7bae3d":[9,3,0,0,0,1240,0],
+"classMR_1_1GridToMeshSettings.html#a397d334b2e3a61834e7cc09885cffa10":[9,3,0,0,0,1240,9],
 "classMR_1_1GridToMeshSettings.html#a415d421a868191a95a566bb3e1cba079":[9,3,0,0,0,1240,3],
 "classMR_1_1GridToMeshSettings.html#a89533eb713e25d0ac20d927e43ee8741":[9,3,0,0,0,1240,8],
 "classMR_1_1GridToMeshSettings.html#a8e9279925d5eae288f629bfbee49940c":[9,3,0,0,0,1240,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX107 =
 "classMR_1_1InSphereSearchSettings.html#aa616e8f8048cfceb95b2ea79542e0fef":[9,3,0,0,0,1267,5],
 "classMR_1_1InSphereSearchSettings.html#adc35f0b82907ea49ac0abce3a547175b":[9,3,0,0,0,1267,4],
 "classMR_1_1InSphereTesterSoS.html":[9,3,0,0,0,1271],
-"classMR_1_1InSphereTesterSoS.html#a14fe33c42958d78348c9e299eff245a9":[9,3,0,0,0,1271,3],
-"classMR_1_1InSphereTesterSoS.html#a3fe7f920836c9b97d7b4730ea06fec0f":[9,3,0,0,0,1271,6],
-"classMR_1_1InSphereTesterSoS.html#a505d1885369f21fa3dc0a8301be986cb":[9,3,0,0,0,1271,1],
-"classMR_1_1InSphereTesterSoS.html#a6092a9a1d5ba5c00f843ac6d9dceeb4a":[9,3,0,0,0,1271,0]
+"classMR_1_1InSphereTesterSoS.html#a14fe33c42958d78348c9e299eff245a9":[9,3,0,0,0,1271,3]
 };

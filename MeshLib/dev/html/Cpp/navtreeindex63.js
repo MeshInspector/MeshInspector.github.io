@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1Features_1_1MeasureResult.html":[9,0,0,20,240],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[9,0,0,20,243],
 "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[9,0,0,20,241],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[9,0,0,20,242],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a410882924f1531864aeae4b56402feca":[9,0,1,0,1,16,4,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a410882924f1531864aeae4b56402feca":[9,0,2,0,2,7,4,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#ac337c328d1e23a188ffa5660266acf20":[9,0,1,0,1,16,4,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#ac337c328d1e23a188ffa5660266acf20":[9,0,2,0,2,7,4,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[9,0,1,0,1,16,4,1]
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#ac337c328d1e23a188ffa5660266acf20":[9,0,2,0,2,7,4,0]
 };
