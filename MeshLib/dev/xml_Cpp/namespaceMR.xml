@@ -124,7 +124,6 @@
     <innerclass refid="classMR_1_1Cone3" prot="public">MR::Cone3</innerclass>
     <innerclass refid="classMR_1_1Cone3Approximation" prot="public">MR::Cone3Approximation</innerclass>
     <innerclass refid="structMR_1_1Cone3ApproximationParams" prot="public">MR::Cone3ApproximationParams</innerclass>
-    <innerclass refid="structMR_1_1ConeFittingFunctor" prot="public">MR::ConeFittingFunctor</innerclass>
     <innerclass refid="classMR_1_1ConeObject" prot="public">MR::ConeObject</innerclass>
     <innerclass refid="classMR_1_1Config" prot="public">MR::Config</innerclass>
     <innerclass refid="structMR_1_1ConnectionHolder" prot="public">MR::ConnectionHolder</innerclass>
@@ -3829,7 +3828,6 @@
 <para>This file exists for testing some cuda features.</para>
 <para>Only strictly necessary for the bindings (to make <computeroutput><ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MR::MeshIntersectionResult</ref></computeroutput> a complete type).</para>
 <para>======================================================================== /// Copyright 2009-2020 Intel Corporation /// /// Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); /// you may not use this file except in compliance with the License. /// You may obtain a copy of the License at /// /// <ulink url="http:///">http:///</ulink> www.apache.org/licenses/LICENSE-2.0 /// /// Unless required by applicable law or agreed to in writing, software /// distributed under the License is distributed on an &quot;AS IS&quot; BASIS, /// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. /// See the License for the specific language governing permissions and /// limitations under the License. /// ======================================================================== ///</para>
-<para>Main idea is here: <ulink url="https:///">https:///</ulink> www.geometrictools.com/Documentation/LeastSquaresFitting.pdf pages 45-51 Below we will write out the function and Jacobian for minimization by the Levenberg-Marquard method and use it to clarify the apex of the cone and the direction of its main axis.</para>
 <para>TODO:<itemizedlist>
 <listitem><para>create plugins/skeleton.h</para>
 </listitem><listitem><para>pass time in draw function</para>

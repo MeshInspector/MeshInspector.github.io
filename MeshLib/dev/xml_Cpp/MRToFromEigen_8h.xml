@@ -13,7 +13,6 @@
     <includes refid="MRMatrix3_8h" local="yes">MRMatrix3.h</includes>
     <includes refid="MRMatrix4_8h" local="yes">MRMatrix4.h</includes>
     <includes local="no">MRPch/MREigenCore.h</includes>
-    <includedby refid="MRConeApproximator_8h" local="yes">MRMesh/MRConeApproximator.h</includedby>
     <incdepgraph>
       <node id="27">
         <label>MRAffineXf.h</label>
@@ -299,18 +298,6 @@
         <label>vector</label>
       </node>
     </incdepgraph>
-    <invincdepgraph>
-      <node id="2">
-        <label>MRMesh/MRConeApproximator.h</label>
-        <link refid="MRConeApproximator_8h"/>
-      </node>
-      <node id="1">
-        <label>MRMesh/MRToFromEigen.h</label>
-        <link refid="MRToFromEigen_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-    </invincdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>

@@ -173,10 +173,6 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="8">
-        <label>MRMesh/MRConeApproximator.h</label>
-        <link refid="MRConeApproximator_8h"/>
-      </node>
       <node id="3">
         <label>MRMesh/MRDenseBox.h</label>
         <link refid="MRDenseBox_8h"/>
@@ -200,8 +196,6 @@
       <node id="7">
         <label>MRMesh/MRToFromEigen.h</label>
         <link refid="MRToFromEigen_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
       </node>
       <node id="5">
         <label>MRVoxels/MRMoveMeshToVoxelMaxDeriv.h</label>

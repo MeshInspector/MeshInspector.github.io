@@ -448,7 +448,6 @@ var annotated_dup =
       [ "Cone3", "classMR_1_1Cone3.html", "classMR_1_1Cone3" ],
       [ "Cone3Approximation", "classMR_1_1Cone3Approximation.html", "classMR_1_1Cone3Approximation" ],
       [ "Cone3ApproximationParams", "structMR_1_1Cone3ApproximationParams.html", "structMR_1_1Cone3ApproximationParams" ],
-      [ "ConeFittingFunctor", "structMR_1_1ConeFittingFunctor.html", "structMR_1_1ConeFittingFunctor" ],
       [ "ConeObject", "classMR_1_1ConeObject.html", "classMR_1_1ConeObject" ],
       [ "Config", "classMR_1_1Config.html", "classMR_1_1Config" ],
       [ "ConnectionHolder", "structMR_1_1ConnectionHolder.html", "structMR_1_1ConnectionHolder" ],

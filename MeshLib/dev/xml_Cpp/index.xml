@@ -1960,18 +1960,6 @@
     <member refid="group__GeneralGroup_1ga5b47cd0b4ce1e73f079a35fdc80d2850" kind="variable"><name>hemisphereSearchPhiResolution</name></member>
     <member refid="group__GeneralGroup_1ga0c389ccce5e8616195da9e724505f8c2" kind="variable"><name>hemisphereSearchThetaResolution</name></member>
   </compound>
-  <compound refid="structMR_1_1ConeFittingFunctor" kind="struct"><name>MR::ConeFittingFunctor</name>
-    <member refid="group__GeneralGroup_1gaedc71caa1d99e08276a1064f710e7005" kind="typedef"><name>Scalar</name></member>
-    <member refid="group__GeneralGroup_1ga369f95839764bbea9a5f5db04ec360ae" kind="typedef"><name>InputType</name></member>
-    <member refid="group__GeneralGroup_1gad11690cdf0c6a6de76d2859de79fa518" kind="typedef"><name>ValueType</name></member>
-    <member refid="group__GeneralGroup_1gac2e6bb7e397f17483383aef3880628d3" kind="typedef"><name>JacobianType</name></member>
-    <member refid="group__GeneralGroup_1gab4532230e1c01c5aa993bb6427bcc60a" kind="variable"><name>points</name></member>
-    <member refid="group__GeneralGroup_1ga8dd8ae0c1112caf1a8fcd5fca885de56" kind="function"><name>setPoints</name></member>
-    <member refid="group__GeneralGroup_1ga5ce1dbf9d17f2aa05b508ef6df6e7151" kind="function"><name>inputs</name></member>
-    <member refid="group__GeneralGroup_1ga2a2b7bdfec9781f51f20b12d1e1547aa" kind="function"><name>values</name></member>
-    <member refid="group__GeneralGroup_1ga75f4a1b12abfd495f279861dbfe344c6" kind="function"><name>operator()</name></member>
-    <member refid="group__GeneralGroup_1gab7852ba7e80ebd7f4f5dcc9d8d7c318d" kind="function"><name>df</name></member>
-  </compound>
   <compound refid="classMR_1_1ConeObject" kind="class"><name>MR::ConeObject</name>
     <member refid="group__GeneralGroup_1ga29d0a508f5ebb88aed983d2e80ca3504" kind="function"><name>ConeObject</name></member>
     <member refid="group__GeneralGroup_1gae667dd5648b8eaf7454d9a2541d92a32" kind="function"><name>ConeObject</name></member>
@@ -21538,10 +21526,6 @@
     <member refid="group__GeneralGroup_1ga20df43a4a312f6aa3f049476f78584d6" kind="typedef"><name>ColorMap</name></member>
     <member refid="group__GeneralGroup_1ga29857a8d38bc30a22d092fdc3c8632df" kind="typedef"><name>ElementBitSet</name></member>
     <member refid="group__GeneralGroup_1ga83caa49f307fe6803e21a9d3083322a9" kind="typedef"><name>DynamicNameGetter</name></member>
-    <member refid="group__GeneralGroup_1gaedc71caa1d99e08276a1064f710e7005" kind="typedef"><name>Scalar</name></member>
-    <member refid="group__GeneralGroup_1ga369f95839764bbea9a5f5db04ec360ae" kind="typedef"><name>InputType</name></member>
-    <member refid="group__GeneralGroup_1gad11690cdf0c6a6de76d2859de79fa518" kind="typedef"><name>ValueType</name></member>
-    <member refid="group__GeneralGroup_1gac2e6bb7e397f17483383aef3880628d3" kind="typedef"><name>JacobianType</name></member>
     <member refid="group__GeneralGroup_1ga3933d06b4e35a4f309cff393747e1f2f" kind="typedef"><name>Enum</name></member>
     <member refid="group__GeneralGroup_1ga86512c1aafb328a7cf78ee56e2ad224a" kind="typedef"><name>Storage</name></member>
     <member refid="group__GeneralGroup_1gae7c12439a318077dcb19052a0951b066" kind="typedef"><name>iterator_concept</name></member>
@@ -22326,7 +22310,6 @@
     <member refid="group__GeneralGroup_1ga18ef80872ba6b6384ae2944f85f8b214" kind="variable"><name>axis</name></member>
     <member refid="group__GeneralGroup_1ga17cbe4ac01d2a5bacfd1909eeccb9488" kind="variable"><name>angle</name></member>
     <member refid="group__GeneralGroup_1ga1837f049b2e30d91b8cc20a4109d7e87" kind="variable"><name>height</name></member>
-    <member refid="group__GeneralGroup_1gab4532230e1c01c5aa993bb6427bcc60a" kind="variable"><name>points</name></member>
     <member refid="group__GeneralGroup_1ga6c4848e08b47fefbf24a221b15e00329" kind="variable"><name>levenbergMarquardtMaxIteration</name></member>
     <member refid="group__GeneralGroup_1ga78abf2b4f9d3845ec382b09ec2c865d3" kind="variable"><name>coneFitterType</name></member>
     <member refid="group__GeneralGroup_1ga5b47cd0b4ce1e73f079a35fdc80d2850" kind="variable"><name>hemisphereSearchPhiResolution</name></member>
@@ -26202,11 +26185,6 @@
     <member refid="group__GeneralGroup_1ga8cae3c41514d0e93897e1565c8e41c84" kind="function"><name>apex</name></member>
     <member refid="group__GeneralGroup_1gac3882ccfb731b365aa800f7fd49c51ef" kind="function"><name>apex</name></member>
     <member refid="group__GeneralGroup_1gac88828ed52ec42c8758c744ff1fdaf20" kind="function"><name>projectPoint</name></member>
-    <member refid="group__GeneralGroup_1ga8dd8ae0c1112caf1a8fcd5fca885de56" kind="function"><name>setPoints</name></member>
-    <member refid="group__GeneralGroup_1ga5ce1dbf9d17f2aa05b508ef6df6e7151" kind="function"><name>inputs</name></member>
-    <member refid="group__GeneralGroup_1ga2a2b7bdfec9781f51f20b12d1e1547aa" kind="function"><name>values</name></member>
-    <member refid="group__GeneralGroup_1ga75f4a1b12abfd495f279861dbfe344c6" kind="function"><name>operator()</name></member>
-    <member refid="group__GeneralGroup_1gab7852ba7e80ebd7f4f5dcc9d8d7c318d" kind="function"><name>df</name></member>
     <member refid="group__GeneralGroup_1ga9d2c7bacbeba26d79da0394635646651" kind="function"><name>Cone3Approximation</name></member>
     <member refid="group__GeneralGroup_1ga7c6a542eabe69884f78ec5044ab1df50" kind="function"><name>solve</name></member>
     <member refid="group__GeneralGroup_1ga3c513067ff953bd8f92e83a7d348f9d2" kind="function"><name>solveFixedAxis_</name></member>

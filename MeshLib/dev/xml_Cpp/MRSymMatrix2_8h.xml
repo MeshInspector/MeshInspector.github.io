@@ -152,10 +152,6 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4">
-        <label>MRMesh/MRConeApproximator.h</label>
-        <link refid="MRConeApproximator_8h"/>
-      </node>
       <node id="2">
         <label>MRMesh/MRQuadraticForm.h</label>
         <link refid="MRQuadraticForm_8h"/>
@@ -171,8 +167,6 @@
       <node id="3">
         <label>MRMesh/MRToFromEigen.h</label>
         <link refid="MRToFromEigen_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="structMR_1_1SymMatrix2" prot="public">MR::SymMatrix2</innerclass>

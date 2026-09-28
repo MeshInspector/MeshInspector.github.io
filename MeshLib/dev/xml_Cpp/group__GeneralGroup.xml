@@ -136,7 +136,6 @@
     <innerclass refid="structMR_1_1ColorMapAggregator_1_1PartialColorMap" prot="public">MR::ColorMapAggregator::PartialColorMap</innerclass>
     <innerclass refid="classMR_1_1CombinedHistoryAction" prot="public">MR::CombinedHistoryAction</innerclass>
     <innerclass refid="classMR_1_1Cone3" prot="public">MR::Cone3</innerclass>
-    <innerclass refid="structMR_1_1ConeFittingFunctor" prot="public">MR::ConeFittingFunctor</innerclass>
     <innerclass refid="structMR_1_1Cone3ApproximationParams" prot="public">MR::Cone3ApproximationParams</innerclass>
     <innerclass refid="classMR_1_1Cone3Approximation" prot="public">MR::Cone3Approximation</innerclass>
     <innerclass refid="classMR_1_1ConeObject" prot="public">MR::ConeObject</innerclass>
@@ -7179,7 +7178,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="130" column="1" bodyfile="MRMesh/MRConeApproximator.h" bodystart="131" bodyend="135"/>
+        <location file="MRMesh/MRConeApproximator.h" line="13" column="1" bodyfile="MRMesh/MRConeApproximator.h" bodystart="14" bodyend="18"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1gaeff0ac5efee98dc8fae00a68075ed50f" prot="public" static="no" strong="yes">
         <type></type>
@@ -14951,62 +14950,6 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRCombinedHistoryAction.h" line="20" column="5" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__GeneralGroup_1gaedc71caa1d99e08276a1064f710e7005" prot="public" static="no">
-        <type>T</type>
-        <definition>using MR::ConeFittingFunctor&lt; T &gt;::Scalar =  T</definition>
-        <argsstring></argsstring>
-        <name>Scalar</name>
-        <qualifiedname>MR::ConeFittingFunctor::Scalar</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="42" column="5" bodyfile="MRMesh/MRConeApproximator.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__GeneralGroup_1ga369f95839764bbea9a5f5db04ec360ae" prot="public" static="no">
-        <type>Eigen::Matrix&lt; T, Eigen::Dynamic, 1 &gt;</type>
-        <definition>using MR::ConeFittingFunctor&lt; T &gt;::InputType =  Eigen::Matrix&lt;T, Eigen::Dynamic, 1&gt;</definition>
-        <argsstring></argsstring>
-        <name>InputType</name>
-        <qualifiedname>MR::ConeFittingFunctor::InputType</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="43" column="5" bodyfile="MRMesh/MRConeApproximator.h" bodystart="43" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__GeneralGroup_1gad11690cdf0c6a6de76d2859de79fa518" prot="public" static="no">
-        <type>Eigen::Matrix&lt; T, Eigen::Dynamic, 1 &gt;</type>
-        <definition>using MR::ConeFittingFunctor&lt; T &gt;::ValueType =  Eigen::Matrix&lt;T, Eigen::Dynamic, 1&gt;</definition>
-        <argsstring></argsstring>
-        <name>ValueType</name>
-        <qualifiedname>MR::ConeFittingFunctor::ValueType</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="44" column="5" bodyfile="MRMesh/MRConeApproximator.h" bodystart="44" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__GeneralGroup_1gac2e6bb7e397f17483383aef3880628d3" prot="public" static="no">
-        <type>Eigen::Matrix&lt; T, Eigen::Dynamic, Eigen::Dynamic &gt;</type>
-        <definition>using MR::ConeFittingFunctor&lt; T &gt;::JacobianType =  Eigen::Matrix&lt;T, Eigen::Dynamic, Eigen::Dynamic&gt;</definition>
-        <argsstring></argsstring>
-        <name>JacobianType</name>
-        <qualifiedname>MR::ConeFittingFunctor::JacobianType</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="45" column="5" bodyfile="MRMesh/MRConeApproximator.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga3933d06b4e35a4f309cff393747e1f2f" prot="public" static="no">
         <type>std::vector&lt; const char * &gt;</type>
@@ -26661,20 +26604,6 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRCone3.h" line="94" column="7" bodyfile="MRMesh/MRCone3.h" bodystart="94" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gab4532230e1c01c5aa993bb6427bcc60a" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; Eigen::Vector3&lt; T &gt; &gt;</type>
-        <definition>std::vector&lt;Eigen::Vector3&lt;T&gt; &gt; MR::ConeFittingFunctor&lt; T &gt;::points</definition>
-        <argsstring></argsstring>
-        <name>points</name>
-        <qualifiedname>MR::ConeFittingFunctor::points</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="47" column="18" bodyfile="MRMesh/MRConeApproximator.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6c4848e08b47fefbf24a221b15e00329" prot="public" static="no" mutable="no">
         <type>int</type>
         <definition>int MR::Cone3ApproximationParams::levenbergMarquardtMaxIteration</definition>
@@ -26688,7 +26617,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="138" column="9" bodyfile="MRMesh/MRConeApproximator.h" bodystart="138" bodyend="-1"/>
+        <location file="MRMesh/MRConeApproximator.h" line="21" column="9" bodyfile="MRMesh/MRConeApproximator.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga78abf2b4f9d3845ec382b09ec2c865d3" prot="public" static="no" mutable="no">
         <type>ConeFitterType</type>
@@ -26703,7 +26632,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="139" column="20" bodyfile="MRMesh/MRConeApproximator.h" bodystart="139" bodyend="-1"/>
+        <location file="MRMesh/MRConeApproximator.h" line="22" column="20" bodyfile="MRMesh/MRConeApproximator.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5b47cd0b4ce1e73f079a35fdc80d2850" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -26718,7 +26647,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="140" column="9" bodyfile="MRMesh/MRConeApproximator.h" bodystart="140" bodyend="-1"/>
+        <location file="MRMesh/MRConeApproximator.h" line="23" column="9" bodyfile="MRMesh/MRConeApproximator.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0c389ccce5e8616195da9e724505f8c2" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -26733,7 +26662,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="141" column="9" bodyfile="MRMesh/MRConeApproximator.h" bodystart="141" bodyend="-1"/>
+        <location file="MRMesh/MRConeApproximator.h" line="24" column="9" bodyfile="MRMesh/MRConeApproximator.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4f3109da8ed6b25d890b8bfc1f89094b" prot="private" static="no" mutable="no">
         <type>Cone3ApproximationParams</type>
@@ -26748,7 +26677,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="183" column="30" bodyfile="MRMesh/MRConeApproximator.h" bodystart="183" bodyend="-1"/>
+        <location file="MRMesh/MRConeApproximator.h" line="45" column="30" bodyfile="MRMesh/MRConeApproximator.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga725767207fa5bd85d2919a3d791fa760" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -88869,100 +88798,6 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </inbodydescription>
         <location file="MRMesh/MRCone3.h" line="61" column="13" bodyfile="MRMesh/MRCone3.h" bodystart="61" bodyend="88"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga8dd8ae0c1112caf1a8fcd5fca885de56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::ConeFittingFunctor&lt; T &gt;::setPoints</definition>
-        <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;pointsMR)</argsstring>
-        <name>setPoints</name>
-        <qualifiedname>MR::ConeFittingFunctor::setPoints</qualifiedname>
-        <param>
-          <type>const std::vector&lt; <ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt; &gt; &amp;</type>
-          <declname>pointsMR</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="49" column="10" bodyfile="MRMesh/MRConeApproximator.h" bodystart="49" bodyend="56"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga5ce1dbf9d17f2aa05b508ef6df6e7151" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::ConeFittingFunctor&lt; T &gt;::inputs</definition>
-        <argsstring>() const</argsstring>
-        <name>inputs</name>
-        <qualifiedname>MR::ConeFittingFunctor::inputs</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="58" column="9" bodyfile="MRMesh/MRConeApproximator.h" bodystart="58" bodyend="61"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2a2b7bdfec9781f51f20b12d1e1547aa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::ConeFittingFunctor&lt; T &gt;::values</definition>
-        <argsstring>() const</argsstring>
-        <name>values</name>
-        <qualifiedname>MR::ConeFittingFunctor::values</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="62" column="9" bodyfile="MRMesh/MRConeApproximator.h" bodystart="62" bodyend="65"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga75f4a1b12abfd495f279861dbfe344c6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::ConeFittingFunctor&lt; T &gt;::operator()</definition>
-        <argsstring>(const InputType &amp;x, ValueType &amp;F) const</argsstring>
-        <name>operator()</name>
-        <qualifiedname>MR::ConeFittingFunctor::operator()</qualifiedname>
-        <param>
-          <type>const InputType &amp;</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>ValueType &amp;</type>
-          <declname>F</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><ulink url="https:///">https:///</ulink> www.geometrictools.com/Documentation/LeastSquaresFitting.pdf formula 103 F[i](V,W) = D^T * (I - W * W^T) * D where: D = V - X[i] and P = (V,W) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="70" column="9" bodyfile="MRMesh/MRConeApproximator.h" bodystart="70" bodyend="89"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab7852ba7e80ebd7f4f5dcc9d8d7c318d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::ConeFittingFunctor&lt; T &gt;::df</definition>
-        <argsstring>(const InputType &amp;x, JacobianType &amp;J) const</argsstring>
-        <name>df</name>
-        <qualifiedname>MR::ConeFittingFunctor::df</qualifiedname>
-        <param>
-          <type>const InputType &amp;</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>JacobianType &amp;</type>
-          <declname>J</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Here we calculate a Jacobian. function name requested by Eigen lib. </para>
-        </detaileddescription>
-        <inbodydescription>
-<para>Derivative of f with respect to the components of vertex V</para>
-<para>Derivative of f with respect to the components of the vector W</para>
-        </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="93" column="9" bodyfile="MRMesh/MRConeApproximator.h" bodystart="93" bodyend="125"/>
-      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9d2c7bacbeba26d79da0394635646651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>MR::Cone3Approximation&lt; T &gt;::Cone3Approximation</definition>
@@ -88975,9 +88810,9 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="153" column="5"/>
+        <location file="MRMesh/MRConeApproximator.h" line="36" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga7c6a542eabe69884f78ec5044ab1df50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga7c6a542eabe69884f78ec5044ab1df50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>T</type>
         <definition>T MR::Cone3Approximation&lt; T &gt;::solve</definition>
         <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cone3&lt; T &gt; &amp;cone, const Cone3ApproximationParams &amp;params={})</argsstring>
@@ -89003,9 +88838,9 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="156" column="7" bodyfile="MRMesh/MRConeApproximator.h" bodystart="156" bodyend="177"/>
+        <location file="MRMesh/MRConeApproximator.h" line="39" column="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga3c513067ff953bd8f92e83a7d348f9d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga3c513067ff953bd8f92e83a7d348f9d2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>T</type>
         <definition>T MR::Cone3Approximation&lt; T &gt;::solveFixedAxis_</definition>
         <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cone3&lt; T &gt; &amp;cone, bool useConeInputAsInitialGuess=false)</argsstring>
@@ -89030,11 +88865,10 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
-<para>Looks like a bug in Eigen. Eigen::LevenbergMarquardtSpace::Status have error codes only. Not return value for Success minimization. So just log status</para>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="186" column="7" bodyfile="MRMesh/MRConeApproximator.h" bodystart="186" bodyend="224"/>
+        <location file="MRMesh/MRConeApproximator.h" line="48" column="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2fa9475cf33503ccff5f3a8f82d7735c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga2fa9475cf33503ccff5f3a8f82d7735c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>T</type>
         <definition>T MR::Cone3Approximation&lt; T &gt;::solveApproximationPCM_</definition>
         <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cone3&lt; T &gt; &amp;cone)</argsstring>
@@ -89054,9 +88888,9 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="226" column="7" bodyfile="MRMesh/MRConeApproximator.h" bodystart="226" bodyend="229"/>
+        <location file="MRMesh/MRConeApproximator.h" line="51" column="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gac8c3efd06f653881f8192df119edcd84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gac8c3efd06f653881f8192df119edcd84" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>T</type>
         <definition>T MR::Cone3Approximation&lt; T &gt;::solveSpecificAxisFit_</definition>
         <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cone3&lt; T &gt; &amp;cone)</argsstring>
@@ -89076,9 +88910,9 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="231" column="7" bodyfile="MRMesh/MRConeApproximator.h" bodystart="231" bodyend="234"/>
+        <location file="MRMesh/MRConeApproximator.h" line="53" column="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gac59c616cf8debcc13993e583f4d64efa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gac59c616cf8debcc13993e583f4d64efa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>T</type>
         <definition>T MR::Cone3Approximation&lt; T &gt;::solveHemisphereSearchFit_</definition>
         <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cone3&lt; T &gt; &amp;cone)</argsstring>
@@ -89098,18 +88932,10 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
-<para>[0 .. pi/2]</para>
-<para>[0 .. 2*pi)</para>
-<para>cone main axis original extimation</para>
-<para>create approximator and minimize functor</para>
-<para>Looks like a bug in Eigen. Eigen::LevenbergMarquardtSpace::Status have error codes only. Not return value for Success minimization.</para>
-<para>calculate approximation error and store best result.</para>
-<para>find best result</para>
-<para>calculate cone height</para>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="237" column="7" bodyfile="MRMesh/MRConeApproximator.h" bodystart="237" bodyend="310"/>
+        <location file="MRMesh/MRConeApproximator.h" line="56" column="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga534ae47637caf18b75d741f2a9936ca1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga534ae47637caf18b75d741f2a9936ca1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>T</type>
         <definition>T MR::Cone3Approximation&lt; T &gt;::calculateConeHeight_</definition>
         <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, Cone3&lt; T &gt; &amp;cone)</argsstring>
@@ -89130,9 +88956,9 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="313" column="7" bodyfile="MRMesh/MRConeApproximator.h" bodystart="313" bodyend="321"/>
+        <location file="MRMesh/MRConeApproximator.h" line="59" column="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaa94e0199d51f662c4f78b558a302894b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaa94e0199d51f662c4f78b558a302894b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>T</type>
         <definition>T MR::Cone3Approximation&lt; T &gt;::getApproximationRMS_</definition>
         <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, const Cone3&lt; T &gt; &amp;cone)</argsstring>
@@ -89152,9 +88978,9 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="323" column="7" bodyfile="MRMesh/MRConeApproximator.h" bodystart="323" bodyend="333"/>
+        <location file="MRMesh/MRConeApproximator.h" line="61" column="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaad362142860c8f5aeeee579fdb9c6a35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaad362142860c8f5aeeee579fdb9c6a35" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Vector3" kindref="compound">MR::Vector3</ref>&lt; T &gt;</type>
         <definition>MR::Vector3&lt; T &gt; MR::Cone3Approximation&lt; T &gt;::computeCenter_</definition>
         <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points)</argsstring>
@@ -89169,12 +88995,10 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
-<para>Compute the average of the sample points.</para>
-<para>C in pdf</para>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="335" column="17" bodyfile="MRMesh/MRConeApproximator.h" bodystart="335" bodyend="345"/>
+        <location file="MRMesh/MRConeApproximator.h" line="63" column="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga406543b70850f573820436acb7e7f80d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga406543b70850f573820436acb7e7f80d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::Cone3Approximation&lt; T &gt;::computeCenterAndNormal_</definition>
         <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, MR::Vector3&lt; T &gt; &amp;center, MR::Vector3&lt; T &gt; &amp;U)</argsstring>
@@ -89197,12 +89021,10 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
-<para>The cone axis is estimated from ZZTZ (see the <ulink url="https:///">https:///</ulink> www.geometrictools.com/Documentation/LeastSquaresFitting.pdf, formula 120).</para>
-<para>U in pdf</para>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="348" column="10" bodyfile="MRMesh/MRConeApproximator.h" bodystart="348" bodyend="360"/>
+        <location file="MRMesh/MRConeApproximator.h" line="65" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab151a5fb5fc67e8ba6ba82a1dcf3445d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gab151a5fb5fc67e8ba6ba82a1dcf3445d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Cone3&lt; T &gt;</type>
         <definition>Cone3&lt; T &gt; MR::Cone3Approximation&lt; T &gt;::computeInitialCone_</definition>
         <argsstring>(const std::vector&lt; MR::Vector3&lt; T &gt; &gt; &amp;points, const MR::Vector3&lt; T &gt; &amp;center, const MR::Vector3&lt; T &gt; &amp;axis)</argsstring>
@@ -89226,18 +89048,10 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
-<para>coneAxis</para>
-<para>C is center, U is coneAxis, X is points Compute the signed heights of the points along the cone axis relative to C. These are the projections of the points onto the line C+t*U. Also compute the radial distances of the points from the line C+t*U</para>
-<para>The radial distance is considered to be a function of height. Fit the (h,r) pairs with a line: r = rAverage = hrSlope * (h = hAverage);</para>
-<para>line y=a*x+b</para>
-<para>If U is directed so that r increases as h increases, U is the correct cone axis estimate. However, if r decreases as h increases, -U is the correct cone axis estimate.</para>
-<para>Compute the extreme radial distance values for the points.</para>
-<para>Using trigonometry and right triangles, compute the tangent function of the cone angle.</para>
-<para>Compute the cone vertex.</para>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="364" column="11" bodyfile="MRMesh/MRConeApproximator.h" bodystart="364" bodyend="426"/>
+        <location file="MRMesh/MRConeApproximator.h" line="68" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga43ac810d08c41553a6981d566dda8cb0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga43ac810d08c41553a6981d566dda8cb0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::Cone3Approximation&lt; T &gt;::findBestFitLine_</definition>
         <argsstring>(const std::vector&lt; MR::Vector2&lt; T &gt; &gt; &amp;xyPairs, T &amp;lineA, T &amp;lineB, MR::Vector2&lt; T &gt; *avg=nullptr)</argsstring>
@@ -89266,14 +89080,10 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
-<para>x-coordinate of the i-th point</para>
-<para>constant 1.0 for dummy term b</para>
-<para>y-coordinate of the i-th point</para>
-<para>Solve the system of equations Ax = b using the least squares method</para>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="429" column="10" bodyfile="MRMesh/MRConeApproximator.h" bodystart="429" bodyend="461"/>
+        <location file="MRMesh/MRConeApproximator.h" line="71" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga8fb802af54e05d993846ffdab567d8a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga8fb802af54e05d993846ffdab567d8a4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::Cone3Approximation&lt; T &gt;::fitParamsToCone_</definition>
         <argsstring>(Eigen::Vector&lt; T, Eigen::Dynamic &gt; &amp;fittedParams, Cone3&lt; T &gt; &amp;cone)</argsstring>
@@ -89294,9 +89104,9 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="464" column="10" bodyfile="MRMesh/MRConeApproximator.h" bodystart="464" bodyend="473"/>
+        <location file="MRMesh/MRConeApproximator.h" line="74" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gad54d2c4d217ddd10bdf15b7c4e3455ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gad54d2c4d217ddd10bdf15b7c4e3455ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::Cone3Approximation&lt; T &gt;::coneToFitParams_</definition>
         <argsstring>(Cone3&lt; T &gt; &amp;cone, Eigen::Vector&lt; T, Eigen::Dynamic &gt; &amp;fittedParams)</argsstring>
@@ -89316,10 +89126,8 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
-<para>The fittedParams guess for the cone vertex.</para>
-<para>The initial guess for the weighted cone axis.</para>
         </inbodydescription>
-        <location file="MRMesh/MRConeApproximator.h" line="476" column="10" bodyfile="MRMesh/MRConeApproximator.h" bodystart="476" bodyend="488"/>
+        <location file="MRMesh/MRConeApproximator.h" line="77" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga29d0a508f5ebb88aed983d2e80ca3504" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
