@@ -23,14 +23,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34608" bodyend="34609"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34617" bodyend="34618"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a690dd5d9a754f4d57ed3e58cc464f4da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a671c955e77b32c9e7ab371792fef0198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.NormalsToPoints.ISolver.prepare</definition>
-        <argsstring>(self, MeshTopology topology, float guideWeight)</argsstring>
+        <argsstring>(self, MeshTopology topology, float guideWeight, VertBitSet region)</argsstring>
         <name>prepare</name>
         <qualifiedname>mrmeshpy.NormalsToPoints.ISolver.prepare</qualifiedname>
         <param>
@@ -45,13 +45,17 @@
           <type>float</type>
           <declname>guideWeight</declname>
         </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34610" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34610" bodyend="34611"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34619" bodyend="34620"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a10635e8da438aaf831941a320aa07201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -85,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34612" bodyend="34614"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34621" bodyend="34623"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -96,10 +100,10 @@
 pImpl
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34601" bodyend="34613"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34610" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34610" bodyend="34622"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a21bb10db0993c73616a3fcbe0de9ec29" prot="public" virt="non-virtual"><scope>mrmeshpy::NormalsToPoints::ISolver</scope><name>operator</name></member>
-      <member refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a690dd5d9a754f4d57ed3e58cc464f4da" prot="public" virt="non-virtual"><scope>mrmeshpy::NormalsToPoints::ISolver</scope><name>prepare</name></member>
+      <member refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a671c955e77b32c9e7ab371792fef0198" prot="public" virt="non-virtual"><scope>mrmeshpy::NormalsToPoints::ISolver</scope><name>prepare</name></member>
       <member refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a10635e8da438aaf831941a320aa07201" prot="public" virt="non-virtual"><scope>mrmeshpy::NormalsToPoints::ISolver</scope><name>run</name></member>
     </listofallmembers>
   </compounddef>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX142 =
 {
+"classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html":[9,1,0,0,2,908],
+"classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html":[9,1,1,0,1,908],
+"classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html#a105b6d76f77a40324f2a652213966d22":[9,1,0,0,2,908,0],
+"classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html#a105b6d76f77a40324f2a652213966d22":[9,1,1,0,1,908,0],
 "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html#a32f3117cd7e5d29860629c1df4ce82cf":[9,1,0,0,2,908,4],
 "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html#a32f3117cd7e5d29860629c1df4ce82cf":[9,1,1,0,1,908,4],
 "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html#a5661635cba19b6e5aa6ec4fb18929330":[9,1,0,0,2,908,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX142 =
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad7039f72985cce99f2fe4f64de506e4c":[9,1,0,0,2,918,13],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad7039f72985cce99f2fe4f64de506e4c":[9,1,1,0,1,918,13],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ae409c0b328db61754197b1a3bff6a10f":[9,1,0,0,2,918,11],
-"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ae409c0b328db61754197b1a3bff6a10f":[9,1,1,0,1,918,11],
-"classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html":[9,1,0,0,2,919],
-"classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html":[9,1,1,0,1,919],
-"classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html#a1fa773f527483391079941c50f2b1fac":[9,1,0,0,2,919,7],
-"classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html#a1fa773f527483391079941c50f2b1fac":[9,1,1,0,1,919,7]
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ae409c0b328db61754197b1a3bff6a10f":[9,1,1,0,1,918,11]
 };

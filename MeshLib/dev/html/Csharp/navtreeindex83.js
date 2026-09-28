@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a9d9d52bc8ce0c80d49550cc4c0ae2a4d":[9,3,0,0,0,880,2],
+"classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#aa57c76a41d4c3da7fa5d313e3c6e640c":[9,3,0,0,0,880,4],
 "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#ade864cfb343ae486bc88736939375a78":[9,3,0,0,0,880,6],
 "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1Const__ProcessResult.html":[9,3,0,0,0,880,0],
 "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1Const__ProcessResult.html#a18e5a62feab629e7054a0d5e067d4074":[9,3,0,0,0,880,0,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "classMR_1_1Const__TransparencyMode.html":[9,3,0,0,0,891],
 "classMR_1_1Const__TransparencyMode.html#a00f88d7cddb59f0d551c02beded1c9cf":[9,3,0,0,0,891,3],
 "classMR_1_1Const__TransparencyMode.html#a136c2ff7b34fc2d6fbceef42467478f0":[9,3,0,0,0,891,2],
-"classMR_1_1Const__TransparencyMode.html#a2f0968a42699667e0fb72c25e80f735f":[9,3,0,0,0,891,0],
-"classMR_1_1Const__TransparencyMode.html#a431f76c381123330da0c369508ed5914":[9,3,0,0,0,891,7],
-"classMR_1_1Const__TransparencyMode.html#a52f6e3095990af535e40cdd2fa85dda2":[9,3,0,0,0,891,8]
+"classMR_1_1Const__TransparencyMode.html#a2f0968a42699667e0fb72c25e80f735f":[9,3,0,0,0,891,0]
 };

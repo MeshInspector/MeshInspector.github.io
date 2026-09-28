@@ -165,8 +165,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab504a2ac4cdbcfa35282cad8359543b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#af0ef4b1417f7e5fb4d3da37ed3bbd547" title="Constructs an empty (default-constructed) instance.">MR.NormalsToPoints.NormalsToPoints</a></span>.  <br /></td></tr>
 <tr class="memitem:a12e72fcbdbd12014159a34f8e893abbf" id="r_a12e72fcbdbd12014159a34f8e893abbf"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1NormalsToPoints.html">MR.NormalsToPoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12e72fcbdbd12014159a34f8e893abbf">assign</a> (MR._ByValue_NormalsToPoints _other)</td></tr>
 <tr class="memdesc:a12e72fcbdbd12014159a34f8e893abbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::NormalsToPoints::operator=</span>.  <br /></td></tr>
-<tr class="memitem:a2252a88b408173cde8706722bef1e87a" id="r_a2252a88b408173cde8706722bef1e87a"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2252a88b408173cde8706722bef1e87a">prepare</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, float? guideWeight=null)</td></tr>
-<tr class="memdesc:a2252a88b408173cde8706722bef1e87a"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds linear system and prepares a solver for it; please call it only once for mesh, and then run as many times as you like  <br /></td></tr>
+<tr class="memitem:abd088879fa391e6fe2b36b292da556c9" id="r_abd088879fa391e6fe2b36b292da556c9"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd088879fa391e6fe2b36b292da556c9">prepare</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, float? guideWeight=null, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:abd088879fa391e6fe2b36b292da556c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds linear system and prepares a solver for it; please call it only once for mesh, and then run as many times as you like  <br /></td></tr>
 <tr class="memitem:af03296d2cbd0f68e37a04665b7d11824" id="r_af03296d2cbd0f68e37a04665b7d11824"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af03296d2cbd0f68e37a04665b7d11824">run</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> guide, <a class="el" href="classMR_1_1Const__FaceNormals.html">MR.Const_FaceNormals</a> normals, <a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a> points)</td></tr>
 <tr class="memdesc:af03296d2cbd0f68e37a04665b7d11824"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs one iteration consisting of projection of all triangles on planes with given normals and finding best points from them  <br /></td></tr>
 <tr class="memitem:a8494e08025e7ab1667a2b16b0d14fead" id="r_a8494e08025e7ab1667a2b16b0d14fead"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8494e08025e7ab1667a2b16b0d14fead">run</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> guide, <a class="el" href="classMR_1_1Const__FaceNormals.html">MR.Const_FaceNormals</a> normals, <a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a> points, float maxInitialDistSq)</td></tr>
@@ -268,8 +268,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a2252a88b408173cde8706722bef1e87a" name="a2252a88b408173cde8706722bef1e87a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2252a88b408173cde8706722bef1e87a">&#9670;&#160;</a></span>prepare()</h2>
+<a id="abd088879fa391e6fe2b36b292da556c9" name="abd088879fa391e6fe2b36b292da556c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd088879fa391e6fe2b36b292da556c9">&#9670;&#160;</a></span>prepare()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -285,7 +285,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>guideWeight</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>guideWeight</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -298,7 +303,8 @@ Additional Inherited Members</h2></td></tr>
 <p>builds linear system and prepares a solver for it; please call it only once for mesh, and then run as many times as you like </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">guideWeight</td><td>how much resulting points must be attracted to initial points, must be &gt; 0 Generated from method <span class="tt"><a class="el" href="#a2252a88b408173cde8706722bef1e87a" title="builds linear system and prepares a solver for it; please call it only once for mesh,...">MR.NormalsToPoints.prepare</a></span>. Parameter <span class="tt">guideWeight</span> defaults to <span class="tt">1</span>. </td></tr>
+    <tr><td class="paramname">guideWeight</td><td>how much resulting points must be attracted to initial points, must be &gt; 0 </td></tr>
+    <tr><td class="paramname">region</td><td>if given, then only these vertices are moved by <a class="el" href="#af03296d2cbd0f68e37a04665b7d11824" title="performs one iteration consisting of projection of all triangles on planes with given normals and fin...">run()</a>, and all other vertices are fixed Generated from method <span class="tt"><a class="el" href="#abd088879fa391e6fe2b36b292da556c9" title="builds linear system and prepares a solver for it; please call it only once for mesh,...">MR.NormalsToPoints.prepare</a></span>. Parameter <span class="tt">guideWeight</span> defaults to <span class="tt">1</span>. </td></tr>
   </table>
   </dd>
 </dl>

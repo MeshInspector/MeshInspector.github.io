@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1DecimateSettings.html#ac33a8689299b6b4568f76139ac5787b4":[9,3,0,0,0,1134,12],
+"classMR_1_1DecimateSettings.html#af76fae333b756d5f57ed2fb77c44c0bb":[9,3,0,0,0,1134,16],
 "classMR_1_1DeloneFlipsCache.html":[9,3,0,0,0,1135],
 "classMR_1_1DeloneFlipsCache.html#a1500cf03a2e1fb45aa682afb24b077ba":[9,3,0,0,0,1135,3],
 "classMR_1_1DeloneFlipsCache.html#a1efacb944b7dcd432dccd1e62d6eeef1":[9,3,0,0,0,1135,4],
@@ -45,10 +47,11 @@ var NAVTREEINDEX99 =
 "classMR_1_1DenoiseWithCreasesSettings.html#a58f3ad257e43fa698e8f263d2b5d91ed":[9,3,0,0,0,1138,2],
 "classMR_1_1DenoiseWithCreasesSettings.html#a5b48e64ce96eeab5fa023ea483f4d350":[9,3,0,0,0,1138,3],
 "classMR_1_1DenoiseWithCreasesSettings.html#a627d553b7988e97678b6b7af6ea6b3b9":[9,3,0,0,0,1138,5],
+"classMR_1_1DenoiseWithCreasesSettings.html#a63b524433e5ad6f0b0f97eb1cf6b2b7b":[9,3,0,0,0,1138,8],
 "classMR_1_1DenoiseWithCreasesSettings.html#a8bb9efaab8f705ecd0c81b03adb35fb1":[9,3,0,0,0,1138,4],
 "classMR_1_1DenoiseWithCreasesSettings.html#ab6e775ce0d2107efb46cfe1b4bbd8d0d":[9,3,0,0,0,1138,7],
-"classMR_1_1DenoiseWithCreasesSettings.html#abef871a68552a064e918037e801ac42f":[9,3,0,0,0,1138,1],
 "classMR_1_1DenoiseWithCreasesSettings.html#ad374f9f6ea84a8493a589c1443e4875a":[9,3,0,0,0,1138,6],
+"classMR_1_1DenoiseWithCreasesSettings.html#ae6c1fe924c4aaedb122521bd88cf67c6":[9,3,0,0,0,1138,1],
 "classMR_1_1DenseBox.html":[9,3,0,0,0,1139],
 "classMR_1_1DenseBox.html#a2f01b359ffb4eaec35d03e60d106656f":[9,3,0,0,0,1139,0],
 "classMR_1_1DenseBox.html#a4c41dbcbc959e9183bf99e56297282e2":[9,3,0,0,0,1139,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1DistanceMeasurementObject.html#a2a885c1f6b196d5eb08382d7953f579d":[9,3,0,0,0,1154,45],
 "classMR_1_1DistanceMeasurementObject.html#a2c453c11b4f36d98fdebfecf7442928f":[9,3,0,0,0,1154,59],
 "classMR_1_1DistanceMeasurementObject.html#a2e0015bc72c7521dab25a5929f4d2e93":[9,3,0,0,0,1154,36],
-"classMR_1_1DistanceMeasurementObject.html#a2f20751438c8e5e402a8384b75df3f36":[9,3,0,0,0,1154,26],
-"classMR_1_1DistanceMeasurementObject.html#a33adb5b6af7b1305603b6224ecc2485d":[9,3,0,0,0,1154,40],
-"classMR_1_1DistanceMeasurementObject.html#a3718515ed5a5cc3741697ecf9064a04c":[9,3,0,0,0,1154,23],
-"classMR_1_1DistanceMeasurementObject.html#a39f0798dda19e82d3619445a5f68ebfb":[9,3,0,0,0,1154,54]
+"classMR_1_1DistanceMeasurementObject.html#a2f20751438c8e5e402a8384b75df3f36":[9,3,0,0,0,1154,26]
 };

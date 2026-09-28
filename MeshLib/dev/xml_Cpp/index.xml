@@ -2501,6 +2501,7 @@
     <member refid="group__GeneralGroup_1ga3d33a7031078f565b34961a3e568362d" kind="variable"><name>gamma</name></member>
     <member refid="group__GeneralGroup_1ga6d407894f4a783d1f8d5b12904e64893" kind="variable"><name>guideWeight</name></member>
     <member refid="group__GeneralGroup_1ga059ccaf0f8ef1ba826bc02449fc4defc" kind="variable"><name>pointIters</name></member>
+    <member refid="group__GeneralGroup_1ga01cc187a8d8ec7455eecf739bcc7248f" kind="variable"><name>region</name></member>
   </compound>
   <compound refid="structMR_1_1DenseBox" kind="struct"><name>MR::DenseBox</name>
     <member refid="group__GeneralGroup_1ga6086c46946d7a35114b263a9dd4d59e2" kind="variable"><name>box_</name></member>
@@ -4832,7 +4833,7 @@
   </compound>
   <compound refid="classMR_1_1NormalsToPoints_1_1ISolver" kind="class"><name>MR::NormalsToPoints::ISolver</name>
     <member refid="group__GeneralGroup_1ga97ac4ee2142618c5639b5a67cccef1c2" kind="function"><name>~ISolver</name></member>
-    <member refid="group__GeneralGroup_1gac59de77fbc45059cde04afe08a262666" kind="function"><name>prepare</name></member>
+    <member refid="group__GeneralGroup_1ga65312af129219d2ac4f5b5791bc386cf" kind="function"><name>prepare</name></member>
     <member refid="group__GeneralGroup_1gae336851ab46c31fc8f961484c2b45b5a" kind="function"><name>run</name></member>
   </compound>
   <compound refid="structMR_1_1IsVisualizeMaskEnum" kind="struct"><name>MR::IsVisualizeMaskEnum</name>
@@ -6652,7 +6653,7 @@
   </compound>
   <compound refid="classMR_1_1NormalsToPoints" kind="class"><name>MR::NormalsToPoints</name>
     <member refid="group__GeneralGroup_1ga159740ec11abc814c4bb74f024a4519e" kind="variable"><name>solver_</name></member>
-    <member refid="group__GeneralGroup_1ga19ffcc05d7dd0c8b6ce45e80e81d482e" kind="function"><name>prepare</name></member>
+    <member refid="group__GeneralGroup_1ga8aaa45d1071497576137dc6ef26f796e" kind="function"><name>prepare</name></member>
     <member refid="group__GeneralGroup_1ga267e2926e88f4480cedbfa3ff965547c" kind="function"><name>run</name></member>
     <member refid="group__GeneralGroup_1ga6d7fc1fe41862805d423e14a407367b8" kind="function"><name>run</name></member>
   </compound>
@@ -15517,8 +15518,8 @@
     <member refid="group__GeneralGroup_1ga5f0ca8541b5ef8b2d935b469d6d2fc95" kind="function"><name>fromSceneMison</name></member>
     <member refid="group__GeneralGroup_1ga7cceaa249191f3117f4443ce661e9c13" kind="function"><name>makeMovementBuildBody</name></member>
     <member refid="group__GeneralGroup_1ga8b53d4824a98c05f3bfe0e82093609ea" kind="function"><name>updateGroupPairs</name></member>
-    <member refid="group__GeneralGroup_1ga91eb8ceea618232898878c1136e1813a" kind="function"><name>denoiseNormals</name></member>
-    <member refid="group__GeneralGroup_1gaf0754d7130a12ca9fa0303ce9ffe225b" kind="function"><name>denoiseNormals</name></member>
+    <member refid="group__GeneralGroup_1gabbbe864ceddaba1c6f816d82be1cf434" kind="function"><name>denoiseNormals</name></member>
+    <member refid="group__GeneralGroup_1ga1954e92c2b9fe2316cbf33d72e75d527" kind="function"><name>denoiseNormals</name></member>
     <member refid="group__GeneralGroup_1gae67bf8c66f6b1dee34bd8aa00e69a913" kind="function"><name>updateIndicator</name></member>
     <member refid="group__GeneralGroup_1gad6e2edf074642202b7e738dfeee59f29" kind="function"><name>updateIndicatorFast</name></member>
     <member refid="group__GeneralGroup_1ga6883a12f4f393ed08b4e93f7bf0be84a" kind="function"><name>meshDenoiseViaNormals</name></member>
@@ -23040,6 +23041,7 @@
     <member refid="group__GeneralGroup_1ga3d33a7031078f565b34961a3e568362d" kind="variable"><name>gamma</name></member>
     <member refid="group__GeneralGroup_1ga6d407894f4a783d1f8d5b12904e64893" kind="variable"><name>guideWeight</name></member>
     <member refid="group__GeneralGroup_1ga059ccaf0f8ef1ba826bc02449fc4defc" kind="variable"><name>pointIters</name></member>
+    <member refid="group__GeneralGroup_1ga01cc187a8d8ec7455eecf739bcc7248f" kind="variable"><name>region</name></member>
     <member refid="group__GeneralGroup_1ga159740ec11abc814c4bb74f024a4519e" kind="variable"><name>solver_</name></member>
     <member refid="group__GeneralGroup_1gab9ac8279a8d66047dae4a3de73f94647" kind="variable"><name>value</name></member>
     <member refid="group__GeneralGroup_1ga27219918674f15345809979f639c640e" kind="variable"><name>referenceValue</name></member>
@@ -27730,8 +27732,8 @@
     <member refid="group__GeneralGroup_1gabb7351b3a06553b474e90d20d68efc30" kind="function"><name>operator=</name></member>
     <member refid="group__GeneralGroup_1gaccbf59471a9ce12f038a0358ae18405b" kind="function"><name>operator=</name></member>
     <member refid="group__GeneralGroup_1gaaa8735508a78c638055d6001174d206a" kind="function"><name>NoDefInit</name></member>
-    <member refid="group__GeneralGroup_1ga91eb8ceea618232898878c1136e1813a" kind="function"><name>denoiseNormals</name></member>
-    <member refid="group__GeneralGroup_1gaf0754d7130a12ca9fa0303ce9ffe225b" kind="function"><name>denoiseNormals</name></member>
+    <member refid="group__GeneralGroup_1gabbbe864ceddaba1c6f816d82be1cf434" kind="function"><name>denoiseNormals</name></member>
+    <member refid="group__GeneralGroup_1ga1954e92c2b9fe2316cbf33d72e75d527" kind="function"><name>denoiseNormals</name></member>
     <member refid="group__GeneralGroup_1gae67bf8c66f6b1dee34bd8aa00e69a913" kind="function"><name>updateIndicator</name></member>
     <member refid="group__GeneralGroup_1gad6e2edf074642202b7e738dfeee59f29" kind="function"><name>updateIndicatorFast</name></member>
     <member refid="group__GeneralGroup_1ga6883a12f4f393ed08b4e93f7bf0be84a" kind="function"><name>meshDenoiseViaNormals</name></member>
@@ -27740,11 +27742,11 @@
     <member refid="group__GeneralGroup_1ga8b997b3e9f6333808da102fcc5b2a4ab" kind="function"><name>meshDenoiseWithCreases</name></member>
     <member refid="group__GeneralGroup_1gaf1d0eee1758bde49f19146f8ca980be8" kind="function"><name>meshDenoiseWithCreases</name></member>
     <member refid="group__GeneralGroup_1gad8edb5d1ce0c4b1c862f2e156ed9e0db" kind="function"><name>meshDenoiseWithCreases</name></member>
-    <member refid="group__GeneralGroup_1ga19ffcc05d7dd0c8b6ce45e80e81d482e" kind="function"><name>prepare</name></member>
+    <member refid="group__GeneralGroup_1ga8aaa45d1071497576137dc6ef26f796e" kind="function"><name>prepare</name></member>
     <member refid="group__GeneralGroup_1ga267e2926e88f4480cedbfa3ff965547c" kind="function"><name>run</name></member>
     <member refid="group__GeneralGroup_1ga6d7fc1fe41862805d423e14a407367b8" kind="function"><name>run</name></member>
     <member refid="group__GeneralGroup_1ga97ac4ee2142618c5639b5a67cccef1c2" kind="function"><name>~ISolver</name></member>
-    <member refid="group__GeneralGroup_1gac59de77fbc45059cde04afe08a262666" kind="function"><name>prepare</name></member>
+    <member refid="group__GeneralGroup_1ga65312af129219d2ac4f5b5791bc386cf" kind="function"><name>prepare</name></member>
     <member refid="group__GeneralGroup_1gae336851ab46c31fc8f961484c2b45b5a" kind="function"><name>run</name></member>
     <member refid="group__GeneralGroup_1ga83e6e08749efd393e0a34bdf6804bc2e" kind="function"><name>~ObjectComparableWithReference</name></member>
     <member refid="group__GeneralGroup_1ga39179dbfa89d894ecf784f2398c9c78b" kind="function"><name>ObjectComparableWithReference</name></member>

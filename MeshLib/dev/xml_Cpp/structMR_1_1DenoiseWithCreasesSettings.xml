@@ -7,16 +7,18 @@
       <member refid="group__GeneralGroup_1ga3d33a7031078f565b34961a3e568362d" kind="variable"><name>gamma</name></member>
       <member refid="group__GeneralGroup_1ga6d407894f4a783d1f8d5b12904e64893" kind="variable"><name>guideWeight</name></member>
       <member refid="group__GeneralGroup_1ga059ccaf0f8ef1ba826bc02449fc4defc" kind="variable"><name>pointIters</name></member>
+      <member refid="group__GeneralGroup_1ga01cc187a8d8ec7455eecf739bcc7248f" kind="variable"><name>region</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRNormalDenoising.h" line="73" column="1" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="74" bodyend="83"/>
+    <location file="MRMesh/MRNormalDenoising.h" line="74" column="1" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="75" bodyend="87"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3d33a7031078f565b34961a3e568362d" prot="public" virt="non-virtual"><scope>MR::DenoiseWithCreasesSettings</scope><name>gamma</name></member>
       <member refid="group__GeneralGroup_1ga6d407894f4a783d1f8d5b12904e64893" prot="public" virt="non-virtual"><scope>MR::DenoiseWithCreasesSettings</scope><name>guideWeight</name></member>
       <member refid="group__GeneralGroup_1ga059ccaf0f8ef1ba826bc02449fc4defc" prot="public" virt="non-virtual"><scope>MR::DenoiseWithCreasesSettings</scope><name>pointIters</name></member>
+      <member refid="group__GeneralGroup_1ga01cc187a8d8ec7455eecf739bcc7248f" prot="public" virt="non-virtual"><scope>MR::DenoiseWithCreasesSettings</scope><name>region</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

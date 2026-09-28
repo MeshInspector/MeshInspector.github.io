@@ -12918,24 +12918,27 @@
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a3cd8780731709fa7a7d8cbd8d9c6e6e4" kind="property"><name>gamma</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1ac3e451e55d6d2f89685808d0e99d8ea7" kind="property"><name>guideWeight</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a02c4375bcc808371a8a1c156dcb12601" kind="property"><name>pointIters</name></member>
+    <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1aa75e96076d101e23b9f8add28f8fcb63" kind="property"><name>region</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a0afc970dc1620a066c0f38edf192fba6" kind="variable"><name>__ref_storage_gamma</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a21fdc18f9011798e2c16bb2ec085badc" kind="variable"><name>__ref_storage_guideWeight</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a088699d3c9b5c9c5bd85bfeef115e94b" kind="variable"><name>__ref_storage_pointIters</name></member>
+    <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a4d1d6574b41c381fe19355d5f8cc5ec3" kind="variable"><name>__ptr_storage_region</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1afd47604c109b630012b1911ca88f9108" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a2fc1bbdbe675411cb14c34651f356960" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1af1b5bc87dbc3bfc5bea0ce2020589725" kind="function"><name>Const_DenoiseWithCreasesSettings</name></member>
-    <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1acc3bd2b1d17fe9eb60bbdc621bf431d3" kind="function"><name>Const_DenoiseWithCreasesSettings</name></member>
+    <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a8f1cd88bb95ea7491cc91d478191d17c" kind="function"><name>Const_DenoiseWithCreasesSettings</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a571b053f8590a9ef66932bdce72c8791" kind="function"><name>Const_DenoiseWithCreasesSettings</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a92b361fdb263db9263918db230eb88ad" kind="function"><name>Const_DenoiseWithCreasesSettings</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a0d35b94b117bd8801cc7160fc23f7a68" kind="function"><name>~Const_DenoiseWithCreasesSettings</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a2287d608865860988467c6e39c1775d5" kind="function"><name>Const_DenoiseWithCreasesSettings</name></member>
-    <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a79e4610d0809950cf53a69c0e07eda2e" kind="function"><name>__MR_DenoiseWithCreasesSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a6cfa37f03a0876ae266dfa2bbd703702" kind="function"><name>__MR_DenoiseWithCreasesSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1ab99946b3833adb2dadb3f036b0a9a750" kind="function"><name>__MR_DenoiseWithCreasesSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1ae7b575c937f711585036e83bd0ff6751" kind="function"><name>__MR_DenoiseWithCreasesSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a6c4bd3215a2cdf8370e6578d75ba26f1" kind="function"><name>__MR_DenoiseWithCreasesSettings_Destroy</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1aafd3e9086e0f67f5b7e688599444f100" kind="function"><name>__MR_DenoiseWithCreasesSettings_Get_gamma</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a17a50daeb3f97dbc8dc5eb7783885a1f" kind="function"><name>__MR_DenoiseWithCreasesSettings_Get_guideWeight</name></member>
     <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a217f08b851d1b736f24fd574f434042e" kind="function"><name>__MR_DenoiseWithCreasesSettings_Get_pointIters</name></member>
+    <member refid="classMR_1_1Const__DenoiseWithCreasesSettings_1a0ebbe5af554b78200d3f0123eb5334d5" kind="function"><name>__MR_DenoiseWithCreasesSettings_Get_region</name></member>
   </compound>
   <compound refid="classMR_1_1Const__DenseBox" kind="class"><name>MR::Const_DenseBox</name>
     <member refid="classMR_1_1Const__DenseBox_1a9074e8f140c8dd6a2205333fe4d80e0a" kind="function"><name>Dispose</name></member>
@@ -43678,14 +43681,15 @@
     <member refid="classMR_1_1DenoiseWithCreasesSettings_1a627d553b7988e97678b6b7af6ea6b3b9" kind="property"><name>gamma</name></member>
     <member refid="classMR_1_1DenoiseWithCreasesSettings_1ad374f9f6ea84a8493a589c1443e4875a" kind="property"><name>guideWeight</name></member>
     <member refid="classMR_1_1DenoiseWithCreasesSettings_1ab6e775ce0d2107efb46cfe1b4bbd8d0d" kind="property"><name>pointIters</name></member>
+    <member refid="classMR_1_1DenoiseWithCreasesSettings_1a63b524433e5ad6f0b0f97eb1cf6b2b7b" kind="property"><name>region</name></member>
     <member refid="classMR_1_1DenoiseWithCreasesSettings_1af66aa4680065caf064ede6bbea4931c3" kind="function"><name>DenoiseWithCreasesSettings</name></member>
     <member refid="classMR_1_1DenoiseWithCreasesSettings_1a2811b6e89df4b0484c15b559d0cb8426" kind="function"><name>DenoiseWithCreasesSettings</name></member>
-    <member refid="classMR_1_1DenoiseWithCreasesSettings_1abef871a68552a064e918037e801ac42f" kind="function"><name>DenoiseWithCreasesSettings</name></member>
+    <member refid="classMR_1_1DenoiseWithCreasesSettings_1ae6c1fe924c4aaedb122521bd88cf67c6" kind="function"><name>DenoiseWithCreasesSettings</name></member>
     <member refid="classMR_1_1DenoiseWithCreasesSettings_1a58f3ad257e43fa698e8f263d2b5d91ed" kind="function"><name>DenoiseWithCreasesSettings</name></member>
     <member refid="classMR_1_1DenoiseWithCreasesSettings_1a5b48e64ce96eeab5fa023ea483f4d350" kind="function"><name>DenoiseWithCreasesSettings</name></member>
     <member refid="classMR_1_1DenoiseWithCreasesSettings_1a8bb9efaab8f705ecd0c81b03adb35fb1" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1DenoiseWithCreasesSettings_1a2c274de0e7d756080d6b1ec12d12ffdd" kind="function"><name>__MR_DenoiseWithCreasesSettings_AssignFromAnother</name></member>
-    <member refid="classMR_1_1DenoiseWithCreasesSettings_1a46e30127957e488e7e4ef01872034903" kind="function"><name>__MR_DenoiseWithCreasesSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1DenoiseWithCreasesSettings_1a64c0bce6ea4b4be5cb54bafefe69d60d" kind="function"><name>__MR_DenoiseWithCreasesSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1DenoiseWithCreasesSettings_1acfb04f13139bbce4083dda1e260c669c" kind="function"><name>__MR_DenoiseWithCreasesSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1DenoiseWithCreasesSettings_1a33d7fb0589a3346918b82ce58f81b0f3" kind="function"><name>__MR_DenoiseWithCreasesSettings_DefaultConstruct</name></member>
   </compound>
@@ -47448,9 +47452,9 @@
   </compound>
   <compound refid="classMR_1_1Const__NormalsToPoints_1_1ISolver" kind="class"><name>MR::Const_NormalsToPoints::ISolver</name>
     <member refid="classMR_1_1Const__NormalsToPoints_1_1ISolver_1ad4e7279836d6411bcbce8f586aa9cd93" kind="function"><name>ISolver</name></member>
-    <member refid="classMR_1_1Const__NormalsToPoints_1_1ISolver_1a7d2b2276b7ec2c098fb301a3bb8fb11b" kind="function"><name>prepare</name></member>
+    <member refid="classMR_1_1Const__NormalsToPoints_1_1ISolver_1a5410fc77c0668014d4f71c257f91e5a8" kind="function"><name>prepare</name></member>
     <member refid="classMR_1_1Const__NormalsToPoints_1_1ISolver_1a9db5536eaa317261ae133eb137b6d12b" kind="function"><name>run</name></member>
-    <member refid="classMR_1_1Const__NormalsToPoints_1_1ISolver_1a9950de2db7075131d3aaebd7e9f8dd24" kind="function"><name>__MR_NormalsToPoints_ISolver_prepare</name></member>
+    <member refid="classMR_1_1Const__NormalsToPoints_1_1ISolver_1a5e5eb8bf735e1a986501a728d8a9479e" kind="function"><name>__MR_NormalsToPoints_ISolver_prepare</name></member>
     <member refid="classMR_1_1Const__NormalsToPoints_1_1ISolver_1a98c473c158a47742ac24e3856426626a" kind="function"><name>__MR_NormalsToPoints_ISolver_run</name></member>
   </compound>
   <compound refid="classMR_1_1IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum" kind="class"><name>MR::IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</name>
@@ -52335,8 +52339,8 @@
     <member refid="classMR_1af4819d62fdf57e6005ca5d7a17d3cb40" kind="function"><name>getVertexAsMeshTriPoint</name></member>
     <member refid="classMR_1a0bfac490bed9af37383a4378eef3c578" kind="function"><name>makeMovementBuildBody</name></member>
     <member refid="classMR_1a6027b8b74f4ebeecd72a953db5f82337" kind="function"><name>updateGroupPairs</name></member>
-    <member refid="classMR_1adc26991a63d985507a2da974a6c62536" kind="function"><name>denoiseNormals</name></member>
-    <member refid="classMR_1a156f14d7624702af1fd4b0a748992c73" kind="function"><name>denoiseNormals</name></member>
+    <member refid="classMR_1aabb6371f54ab1cc58ea3aee61bc483fc" kind="function"><name>denoiseNormals</name></member>
+    <member refid="classMR_1aaf732fe674409a0caa16d6cd019471f0" kind="function"><name>denoiseNormals</name></member>
     <member refid="classMR_1acbd7b12fad55a93f3f7d914a7388d72c" kind="function"><name>updateIndicator</name></member>
     <member refid="classMR_1ab75ba536145e2c152d05abc39a879b52" kind="function"><name>updateIndicatorFast</name></member>
     <member refid="classMR_1ab7d15ec3d3fb1765bb3cfdfbb972c317" kind="function"><name>meshDenoiseViaNormals</name></member>
@@ -54166,8 +54170,8 @@
     <member refid="classMR_1a947304442f34cd303e63e512669e141c" kind="function"><name>__MR_same_MR_MeshTriPoint</name></member>
     <member refid="classMR_1aadd371dec79c5743dee585e3dd965c87" kind="function"><name>__MR_makeMovementBuildBody</name></member>
     <member refid="classMR_1acbc3c29e38aa3af915919b76af40783d" kind="function"><name>__MR_updateGroupPairs</name></member>
-    <member refid="classMR_1a273c10e8a43decf28dc808f7ac0673fe" kind="function"><name>__MR_denoiseNormals_4</name></member>
-    <member refid="classMR_1aaf7cac526e2fa66a93cb549100f80e01" kind="function"><name>__MR_denoiseNormals_5</name></member>
+    <member refid="classMR_1a214c5ad0b76055316670ac7bf68dd1b1" kind="function"><name>__MR_denoiseNormals_5</name></member>
+    <member refid="classMR_1a5f3ed104b87641c4a66b6141cadcd7eb" kind="function"><name>__MR_denoiseNormals_6</name></member>
     <member refid="classMR_1aad63eaac658cc6de4e8e33f2ed263c43" kind="function"><name>__MR_meshDenoiseViaNormals_2</name></member>
     <member refid="classMR_1a8314635a53a44afc033111549ebde44b" kind="function"><name>__MR_meshDenoiseViaNormals_3</name></member>
     <member refid="classMR_1a412b5da9b151c72d456f1c9af499df14" kind="function"><name>__MR_meshDenoiseWithCreases_3</name></member>
@@ -56111,13 +56115,13 @@
     <member refid="classMR_1_1NormalsToPoints_1af0ef4b1417f7e5fb4d3da37ed3bbd547" kind="function"><name>NormalsToPoints</name></member>
     <member refid="classMR_1_1NormalsToPoints_1ab504a2ac4cdbcfa35282cad8359543b6" kind="function"><name>NormalsToPoints</name></member>
     <member refid="classMR_1_1NormalsToPoints_1a12e72fcbdbd12014159a34f8e893abbf" kind="function"><name>assign</name></member>
-    <member refid="classMR_1_1NormalsToPoints_1a2252a88b408173cde8706722bef1e87a" kind="function"><name>prepare</name></member>
+    <member refid="classMR_1_1NormalsToPoints_1abd088879fa391e6fe2b36b292da556c9" kind="function"><name>prepare</name></member>
     <member refid="classMR_1_1NormalsToPoints_1af03296d2cbd0f68e37a04665b7d11824" kind="function"><name>run</name></member>
     <member refid="classMR_1_1NormalsToPoints_1a8494e08025e7ab1667a2b16b0d14fead" kind="function"><name>run</name></member>
     <member refid="classMR_1_1NormalsToPoints_1ac7fe0ca1ae27d0f990ed71d1559052b1" kind="function"><name>__MR_NormalsToPoints_AssignFromAnother</name></member>
     <member refid="classMR_1_1NormalsToPoints_1a94409dcc56084229756ffdd0e8855cd7" kind="function"><name>__MR_NormalsToPoints_ConstructFromAnother</name></member>
     <member refid="classMR_1_1NormalsToPoints_1a2a32a0a8de2f6099afe73845e62e2aa2" kind="function"><name>__MR_NormalsToPoints_DefaultConstruct</name></member>
-    <member refid="classMR_1_1NormalsToPoints_1ae3d36963c93ce72be3b6b29f3b3710c7" kind="function"><name>__MR_NormalsToPoints_prepare</name></member>
+    <member refid="classMR_1_1NormalsToPoints_1a2df696337445aa43e9c4a23c6649723b" kind="function"><name>__MR_NormalsToPoints_prepare</name></member>
     <member refid="classMR_1_1NormalsToPoints_1ae53c528958bd201e0d0397953c618062" kind="function"><name>__MR_NormalsToPoints_run_3</name></member>
     <member refid="classMR_1_1NormalsToPoints_1ade3edce25906405d976f9a7af7e4bcae" kind="function"><name>__MR_NormalsToPoints_run_4</name></member>
   </compound>

@@ -1,5 +1,8 @@
 var NAVTREEINDEX127 =
 {
+"classMR_1_1PolylineSubdivideSettings.html#a6570393cbb871a875ff7f118728ddeab":[9,3,0,0,0,1549,1],
+"classMR_1_1PolylineSubdivideSettings.html#a67b27dba0d8ddf024b62bc500faa595a":[9,3,0,0,0,1549,4],
+"classMR_1_1PolylineSubdivideSettings.html#a806445da71b7f999727cc7334bf43a63":[9,3,0,0,0,1549,0],
 "classMR_1_1PolylineSubdivideSettings.html#a90181caf76b486252e075a52bf81b567":[9,3,0,0,0,1549,8],
 "classMR_1_1PolylineSubdivideSettings.html#a979554dc52c15d488b0f627072aaddda":[9,3,0,0,0,1549,9],
 "classMR_1_1PolylineSubdivideSettings.html#ac5836b56bb1dfbcabdfb97915f5144e2":[9,3,0,0,0,1549,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX127 =
 "classMR_1_1QuadraticForm3d.html#a323c6657e8d4ff4fec78dd3ffd3f6a0a":[9,3,0,0,0,1581,2],
 "classMR_1_1QuadraticForm3d.html#a4aa28ca58ce539cc2dcaf5bea8a5e877":[9,3,0,0,0,1581,8],
 "classMR_1_1QuadraticForm3d.html#a4be18aab67dc83b99cacc79c894c1c66":[9,3,0,0,0,1581,4],
-"classMR_1_1QuadraticForm3d.html#a6b9f935665c56f05c18dd904897b80f1":[9,3,0,0,0,1581,5],
-"classMR_1_1QuadraticForm3d.html#ab4168724abdd5b4270a0d01fd06e28f9":[9,3,0,0,0,1581,10],
-"classMR_1_1QuadraticForm3d.html#ab528fc62d65f6162583813d566dc5110":[9,3,0,0,0,1581,11],
-"classMR_1_1QuadraticForm3d.html#ab5e24115a6e50b134cd4d1d494c2731b":[9,3,0,0,0,1581,0]
+"classMR_1_1QuadraticForm3d.html#a6b9f935665c56f05c18dd904897b80f1":[9,3,0,0,0,1581,5]
 };

@@ -1,7 +1,7 @@
 var MRNormalDenoising_8h =
 [
-    [ "MR::denoiseNormals", "group__GeneralGroup.html#ga91eb8ceea618232898878c1136e1813a", null ],
-    [ "MR::denoiseNormals", "group__GeneralGroup.html#gaf0754d7130a12ca9fa0303ce9ffe225b", null ],
+    [ "MR::denoiseNormals", "group__GeneralGroup.html#gabbbe864ceddaba1c6f816d82be1cf434", null ],
+    [ "MR::denoiseNormals", "group__GeneralGroup.html#ga1954e92c2b9fe2316cbf33d72e75d527", null ],
     [ "MR::meshDenoiseViaNormals", "group__GeneralGroup.html#gac335a53bfd7d287604c31298e1b5a43b", null ],
     [ "MR::meshDenoiseViaNormals", "group__GeneralGroup.html#ga6883a12f4f393ed08b4e93f7bf0be84a", null ],
     [ "MR::meshDenoiseWithCreases", "group__GeneralGroup.html#gad8edb5d1ce0c4b1c862f2e156ed9e0db", null ],

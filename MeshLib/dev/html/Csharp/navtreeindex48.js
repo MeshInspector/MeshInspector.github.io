@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"classMR_1_1Const__FindOverlappingSettings.html#ae09cd55f1ccf63c9a2e26b9c87911889":[9,3,0,0,0,467,4],
+"classMR_1_1Const__FindOverlappingSettings.html#af0b11e83dcf66b20ee122d888ab41cba":[9,3,0,0,0,467,16],
 "classMR_1_1Const__FindProjectionOnPointsSettings.html":[9,3,0,0,0,468],
 "classMR_1_1Const__FindProjectionOnPointsSettings.html#a181b0615367e8dcff7bd9ab10ae00dd5":[9,3,0,0,0,468,1],
 "classMR_1_1Const__FindProjectionOnPointsSettings.html#a3ae4a379c2eabecd53757ac554144bb1":[9,3,0,0,0,468,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector3f.html#a432bb61297162a51d066870d0ac5fadf":[9,3,0,0,0,478,4,1],
 "classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector3f.html#a6be85d18cd0cc96378447068f885684d":[9,3,0,0,0,478,4,4],
 "classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector3f.html#a8bab5d8a33545a9653f7f60f2dd153ea":[9,3,0,0,0,478,4,7],
-"classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector3f.html#ab783a61a7d8f38555614af64c0a02b9e":[9,3,0,0,0,478,4,6],
-"classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector3f.html#ad4a9b5786e024be844e29b0bc5546570":[9,3,0,0,0,478,4,2],
-"classMR_1_1Const__GcodeProcessor_1_1Const__Command.html":[9,3,0,0,0,478,5]
+"classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector3f.html#ab783a61a7d8f38555614af64c0a02b9e":[9,3,0,0,0,478,4,6]
 };

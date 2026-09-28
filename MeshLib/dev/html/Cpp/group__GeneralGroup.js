@@ -3126,16 +3126,17 @@ var group__GeneralGroup =
     [ "MR::DenoiseWithCreasesSettings", "structMR_1_1DenoiseWithCreasesSettings.html", [
       [ "gamma", "group__GeneralGroup.html#ga3d33a7031078f565b34961a3e568362d", null ],
       [ "guideWeight", "group__GeneralGroup.html#ga6d407894f4a783d1f8d5b12904e64893", null ],
-      [ "pointIters", "group__GeneralGroup.html#ga059ccaf0f8ef1ba826bc02449fc4defc", null ]
+      [ "pointIters", "group__GeneralGroup.html#ga059ccaf0f8ef1ba826bc02449fc4defc", null ],
+      [ "region", "group__GeneralGroup.html#ga01cc187a8d8ec7455eecf739bcc7248f", null ]
     ] ],
     [ "MR::NormalsToPoints", "classMR_1_1NormalsToPoints.html", [
-      [ "prepare", "group__GeneralGroup.html#ga19ffcc05d7dd0c8b6ce45e80e81d482e", null ],
+      [ "prepare", "group__GeneralGroup.html#ga8aaa45d1071497576137dc6ef26f796e", null ],
       [ "run", "group__GeneralGroup.html#ga267e2926e88f4480cedbfa3ff965547c", null ],
       [ "run", "group__GeneralGroup.html#ga6d7fc1fe41862805d423e14a407367b8", null ]
     ] ],
     [ "MR::NormalsToPoints::ISolver", "classMR_1_1NormalsToPoints_1_1ISolver.html", [
       [ "~ISolver", "group__GeneralGroup.html#ga97ac4ee2142618c5639b5a67cccef1c2", null ],
-      [ "prepare", "group__GeneralGroup.html#gac59de77fbc45059cde04afe08a262666", null ],
+      [ "prepare", "group__GeneralGroup.html#ga65312af129219d2ac4f5b5791bc386cf", null ],
       [ "run", "group__GeneralGroup.html#gae336851ab46c31fc8f961484c2b45b5a", null ]
     ] ],
     [ "MR::ObjectComparableWithReference", "classMR_1_1ObjectComparableWithReference.html", [
@@ -11580,8 +11581,8 @@ var group__GeneralGroup =
     [ "MR::RibbonSchemaHolder::delItem", "group__GeneralGroup.html#gaec21b4b9459943a6f732a10e1dfecd2a", null ],
     [ "MR::delRegionKeepBd", "group__GeneralGroup.html#ga9a3ca5fbd5ec0dba1668bc17602b04e1", null ],
     [ "MR::delRegionKeepBd", "group__GeneralGroup.html#ga12fdc014447563e6a694a7f9bae39a7e", null ],
-    [ "MR::denoiseNormals", "group__GeneralGroup.html#ga91eb8ceea618232898878c1136e1813a", null ],
-    [ "MR::denoiseNormals", "group__GeneralGroup.html#gaf0754d7130a12ca9fa0303ce9ffe225b", null ],
+    [ "MR::denoiseNormals", "group__GeneralGroup.html#gabbbe864ceddaba1c6f816d82be1cf434", null ],
+    [ "MR::denoiseNormals", "group__GeneralGroup.html#ga1954e92c2b9fe2316cbf33d72e75d527", null ],
     [ "MR::DenseBox::DenseBox", "group__GeneralGroup.html#ga44dab18e1c0d6202ae231a1815202361", null ],
     [ "MR::DenseBox::DenseBox", "group__GeneralGroup.html#ga6daa35be773bc76c0b406d9503effe5f", null ],
     [ "MR::DenseBox::DenseBox", "group__GeneralGroup.html#ga100a05419714fd2f5addccffddaba1f2", null ],
@@ -14817,8 +14818,8 @@ var group__GeneralGroup =
     [ "MR::VoxelsVolumeCachingAccessor::preloadNextLayer", "group__GeneralGroup.html#ga6f1b417ab8d9ef79d694b3ef03a5edb8", null ],
     [ "MR::IComputeToolDistance::prepare", "group__GeneralGroup.html#ga8ea4d968e93876e24b36709e9324f596", null ],
     [ "MR::IComputeToolDistance::prepare", "group__GeneralGroup.html#gaf4e1c6d89878989a6012b5d845adcd1a", null ],
-    [ "MR::NormalsToPoints::ISolver::prepare", "group__GeneralGroup.html#gac59de77fbc45059cde04afe08a262666", null ],
-    [ "MR::NormalsToPoints::prepare", "group__GeneralGroup.html#ga19ffcc05d7dd0c8b6ce45e80e81d482e", null ],
+    [ "MR::NormalsToPoints::ISolver::prepare", "group__GeneralGroup.html#ga65312af129219d2ac4f5b5791bc386cf", null ],
+    [ "MR::NormalsToPoints::prepare", "group__GeneralGroup.html#ga8aaa45d1071497576137dc6ef26f796e", null ],
     [ "MR::OutliersDetector::prepare", "group__GeneralGroup.html#ga114539ad520d93a886c208413cb14058", null ],
     [ "MR::RenderObjectBuffer::prepareBuffer", "group__GeneralGroup.html#gaecb1aa9a47f7fb1520033ea260ec7b8b", null ],
     [ "MR::ObjectVoxels::prepareDataForVolumeRendering", "group__GeneralGroup.html#ga781fb3f4d7c72a098b634ddabcdba977", null ],
@@ -18349,6 +18350,7 @@ var group__GeneralGroup =
     [ "MR::MeshProjectionParameters::refXf", "group__GeneralGroup.html#ga758389fe44297258e47fdd1ef104916b", null ],
     [ "MR::CompensateRadiusParams::region", "group__GeneralGroup.html#ga79fd0b044bab7c845859903f9e5da95b", null ],
     [ "MR::DecimatePolylineSettings::region", "group__GeneralGroup.html#gadce38a07b8b04db0fe998e792e4a6e34", null ],
+    [ "MR::DenoiseWithCreasesSettings::region", "group__GeneralGroup.html#ga01cc187a8d8ec7455eecf739bcc7248f", null ],
     [ "MR::FixUndercuts::FixParams::region", "group__GeneralGroup.html#gaff2c0877c0a9eac16128d033db2d2860", null ],
     [ "MR::InterpolateScalarsParams::region", "group__GeneralGroup.html#ga17ce8fa9c3da180503cc50cdedfac9ec", null ],
     [ "MR::MeshBuilder::BuildSettings::region", "group__GeneralGroup.html#ga1fdb51404a12dafa32d295e97234ce4f", null ],

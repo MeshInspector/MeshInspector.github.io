@@ -1,5 +1,8 @@
 var NAVTREEINDEX140 =
 {
+"phmap__flat__hash__map__MR__PixelId__MR__PixelId_8h.html#a6ac0c828a2de6e61146eb10bc820eb57":[9,2,2,0,0,0,0,2,82,8],
+"phmap__flat__hash__map__MR__PixelId__MR__PixelId_8h.html#a6d3283c3f1ffb111c82c45028f9056a4":[9,2,2,0,0,0,0,2,82,42],
+"phmap__flat__hash__map__MR__PixelId__MR__PixelId_8h.html#a6d368081be7d8627da5073c72f04ba6d":[9,2,2,0,0,0,0,2,82,36],
 "phmap__flat__hash__map__MR__PixelId__MR__PixelId_8h.html#a6fa4c0d3c3fd1f8821a6383e5733d70f":[9,2,2,0,0,0,0,2,82,0],
 "phmap__flat__hash__map__MR__PixelId__MR__PixelId_8h.html#a73f771711071a0d3b25eb7165ae385de":[9,2,2,0,0,0,0,2,82,19],
 "phmap__flat__hash__map__MR__PixelId__MR__PixelId_8h.html#a7b6b373073df6d3996669f5ab0360254":[9,2,2,0,0,0,0,2,82,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX140 =
 "phmap__flat__hash__map__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#ae4d53f88fc14dabe747281441df092fd":[9,2,2,0,0,0,0,2,87,7],
 "phmap__flat__hash__map__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#ae55e77c5078d8a8f24ad14cbf4454dfb":[9,2,2,0,0,0,0,2,87,2],
 "phmap__flat__hash__map__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#aea3bafb5439376b55ae507f35dfd67f9":[9,2,2,0,0,0,0,2,87,20],
-"phmap__flat__hash__map__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#af357113832ebb40b66b9a4503441cd16":[9,2,2,0,0,0,0,2,87,38],
-"phmap__flat__hash__map__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h_source.html":[9,2,2,0,0,0,0,2,87],
-"phmap__flat__hash__map__MR__UndirectedEdgeId__int_8h.html":[9,2,2,0,0,0,0,2,85],
-"phmap__flat__hash__map__MR__UndirectedEdgeId__int_8h.html#a01fe812a14f5fa70e1f6068a51bb6a09":[9,2,2,0,0,0,0,2,85,41]
+"phmap__flat__hash__map__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#af357113832ebb40b66b9a4503441cd16":[9,2,2,0,0,0,0,2,87,38]
 };

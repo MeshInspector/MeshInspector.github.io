@@ -1,5 +1,9 @@
 var NAVTREEINDEX128 =
 {
+"classmrmeshpy_1_1VoxelBitSet.html#af70de9e12af9939b6451b14ddae311ba":[9,1,0,0,2,1280,8],
+"classmrmeshpy_1_1VoxelBitSet.html#af70de9e12af9939b6451b14ddae311ba":[9,1,1,0,1,1280,8],
+"classmrmeshpy_1_1VoxelBitSet.html#af7b90fd322ab453457965f3d6fb4ee3e":[9,1,0,0,2,1280,22],
+"classmrmeshpy_1_1VoxelBitSet.html#af7b90fd322ab453457965f3d6fb4ee3e":[9,1,1,0,1,1280,22],
 "classmrmeshpy_1_1VoxelBitSet.html#aff43e0c35a143f007366e67df35c1434":[9,1,0,0,2,1280,42],
 "classmrmeshpy_1_1VoxelBitSet.html#aff43e0c35a143f007366e67df35c1434":[9,1,1,0,1,1280,42],
 "classmrmeshpy_1_1VoxelFilterType.html":[9,1,0,0,2,1281],
@@ -245,9 +249,5 @@ var NAVTREEINDEX128 =
 "classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[9,1,0,0,2,1285,5],
 "classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[9,1,1,0,1,1285,5],
 "classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a0b6be7953ef785f445758496df83bf36":[9,1,0,0,2,1285,5,3],
-"classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a0b6be7953ef785f445758496df83bf36":[9,1,1,0,1,1285,5,3],
-"classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a304562f1305d94e00036bd6c0d0b0cf9":[9,1,0,0,2,1285,5,0],
-"classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a304562f1305d94e00036bd6c0d0b0cf9":[9,1,1,0,1,1285,5,0],
-"classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a520695baf55310eac79a3ce878500eec":[9,1,0,0,2,1285,5,4],
-"classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a520695baf55310eac79a3ce878500eec":[9,1,1,0,1,1285,5,4]
+"classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a0b6be7953ef785f445758496df83bf36":[9,1,1,0,1,1285,5,3]
 };

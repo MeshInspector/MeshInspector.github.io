@@ -27742,10 +27742,10 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1507" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1507" bodyend="1510"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1adc26991a63d985507a2da974a6c62536" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1aabb6371f54ab1cc58ea3aee61bc483fc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.denoiseNormals</definition>
-        <argsstring>(MR.Const_Mesh mesh, MR.FaceNormals normals, MR.Const_UndirectedEdgeScalars v, float gamma)</argsstring>
+        <argsstring>(MR.Const_Mesh mesh, MR.FaceNormals normals, MR.Const_UndirectedEdgeScalars v, float gamma, MR.Const_FaceBitSet? region=null)</argsstring>
         <name>denoiseNormals</name>
         <qualifiedname>MR.denoiseNormals</qualifiedname>
         <param>
@@ -27763,6 +27763,11 @@ do not really keeps volume but tries hard </para>
         <param>
           <type>float</type>
           <declname>gamma</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
         </param>
         <briefdescription>
 <para>Smooth face normals, given. </para>
@@ -27797,7 +27802,15 @@ do not really keeps volume but tries hard </para>
 <parametername>gamma</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "<ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> Denoising via a Novel Mumford-Shah Framework", equation (19) Generated from function <computeroutput><ref refid="classMR_1adc26991a63d985507a2da974a6c62536" kindref="member">MR.denoiseNormals</ref></computeroutput>. </para>
+<para>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>region</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if given, then only the normals of these faces are changed, and the normals of other faces act as fixed boundary conditions see the article "<ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> Denoising via a Novel Mumford-Shah Framework", equation (19) Generated from function <computeroutput><ref refid="classMR_1aabb6371f54ab1cc58ea3aee61bc483fc" kindref="member">MR.denoiseNormals</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -27805,12 +27818,12 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="634" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="634" bodyend="637"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="677" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="677" bodyend="680"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a156f14d7624702af1fd4b0a748992c73" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1aaf732fe674409a0caa16d6cd019471f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.denoiseNormals</definition>
-        <argsstring>(MR.Const_MeshTopology topology, MR.Const_VertCoords points, MR.FaceNormals normals, MR.Const_UndirectedEdgeScalars v, float gamma)</argsstring>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_VertCoords points, MR.FaceNormals normals, MR.Const_UndirectedEdgeScalars v, float gamma, MR.Const_FaceBitSet? region=null)</argsstring>
         <name>denoiseNormals</name>
         <qualifiedname>MR.denoiseNormals</qualifiedname>
         <param>
@@ -27833,14 +27846,19 @@ do not really keeps volume but tries hard </para>
           <type>float</type>
           <declname>gamma</declname>
         </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1adc26991a63d985507a2da974a6c62536" kindref="member">MR.denoiseNormals</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1aabb6371f54ab1cc58ea3aee61bc483fc" kindref="member">MR.denoiseNormals</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="642" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="642" bodyend="645"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="685" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="685" bodyend="688"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1acbd7b12fad55a93f3f7d914a7388d72c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -27909,7 +27927,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="656" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="656" bodyend="659"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="699" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="699" bodyend="702"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ab75ba536145e2c152d05abc39a879b52" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -27970,7 +27988,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="669" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="669" bodyend="672"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="712" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="712" bodyend="715"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ab7d15ec3d3fb1765bb3cfdfbb972c317" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -27994,7 +28012,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="680" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="680" bodyend="683"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="723" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="723" bodyend="726"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad55e432647c3b0b6cfb0abd4ad8acf02" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -28021,7 +28039,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="689" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="689" bodyend="692"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="732" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="732" bodyend="735"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3bcbacef1f0399d995eeb2af6fc7b70f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -28049,7 +28067,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="701" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="701" bodyend="704"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="744" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="744" bodyend="747"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a12315f2267125cd2b13e0c5d0720facf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -28081,7 +28099,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="710" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="710" bodyend="713"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="753" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="753" bodyend="756"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a858d94090d7c277dfe52666223b3b9c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -28112,7 +28130,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="719" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="719" bodyend="722"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="762" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="762" bodyend="765"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a877b354e6212d0a971a0b1f29c7d437c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -28147,7 +28165,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="727" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="727" bodyend="730"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="770" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="770" bodyend="773"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a21f4bc5b7f78f490718c4ef4146272b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.StringView</type>
@@ -74374,12 +74392,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1515" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a273c10e8a43decf28dc808f7ac0673fe" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a214c5ad0b76055316670ac7bf68dd1b1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.__MR_denoiseNormals_4</definition>
-        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.FaceNormals._Underlying *normals, MR.Const_UndirectedEdgeScalars._Underlying *v, float gamma)</argsstring>
-        <name>__MR_denoiseNormals_4</name>
-        <qualifiedname>MR.__MR_denoiseNormals_4</qualifiedname>
+        <definition>static unsafe void MR.__MR_denoiseNormals_5</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.FaceNormals._Underlying *normals, MR.Const_UndirectedEdgeScalars._Underlying *v, float gamma, MR.Const_FaceBitSet._Underlying *region)</argsstring>
+        <name>__MR_denoiseNormals_5</name>
+        <qualifiedname>MR.__MR_denoiseNormals_5</qualifiedname>
         <param>
           <type>MR.Const_Mesh._Underlying *</type>
           <declname>mesh</declname>
@@ -74396,20 +74414,24 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <type>float</type>
           <declname>gamma</declname>
         </param>
+        <param>
+          <type>MR.Const_FaceBitSet._Underlying *</type>
+          <declname>region</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="735" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="778" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1aaf7cac526e2fa66a93cb549100f80e01" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a5f3ed104b87641c4a66b6141cadcd7eb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.__MR_denoiseNormals_5</definition>
-        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_VertCoords._Underlying *points, MR.FaceNormals._Underlying *normals, MR.Const_UndirectedEdgeScalars._Underlying *v, float gamma)</argsstring>
-        <name>__MR_denoiseNormals_5</name>
-        <qualifiedname>MR.__MR_denoiseNormals_5</qualifiedname>
+        <definition>static unsafe void MR.__MR_denoiseNormals_6</definition>
+        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_VertCoords._Underlying *points, MR.FaceNormals._Underlying *normals, MR.Const_UndirectedEdgeScalars._Underlying *v, float gamma, MR.Const_FaceBitSet._Underlying *region)</argsstring>
+        <name>__MR_denoiseNormals_6</name>
+        <qualifiedname>MR.__MR_denoiseNormals_6</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
@@ -74430,13 +74452,17 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <type>float</type>
           <declname>gamma</declname>
         </param>
+        <param>
+          <type>MR.Const_FaceBitSet._Underlying *</type>
+          <declname>region</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="738" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="781" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aad63eaac658cc6de4e8e33f2ed263c43" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -74458,7 +74484,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="741" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="784" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8314635a53a44afc033111549ebde44b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -74484,7 +74510,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="744" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="787" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a412b5da9b151c72d456f1c9af499df14" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -74510,7 +74536,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="747" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="790" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0f632bc66b655fd1e650dc07d6e1ccba" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -74540,7 +74566,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="750" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="793" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aed30db817d343755aab5aa71ef3d6681" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -74570,7 +74596,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="753" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="796" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a07580ebb9318a19042e69857c0cc2cbb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -74604,7 +74630,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="756" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="799" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4c8c88935ffe1696b7809d94bed0431d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -74638,7 +74664,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="759" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="802" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3c21b778841dca11baa57e17ba5a7116" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -74672,7 +74698,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="762" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="805" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a061a4f487180956cf713903ddc56c623" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.StringView._Underlying *</type>
@@ -98986,8 +99012,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a61d745ce58ffa58471ee4dc0acf04fde" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_deleteTargetFaces_MR_Mesh</name></member>
       <member refid="classMR_1ab0098defe7944873c516c572558edc52" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_deleteTargetFaces_MR_Vector3f</name></member>
       <member refid="classMR_1a5beb02e794df0f7883f3b753e37fb996" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_delRegionKeepBd</name></member>
-      <member refid="classMR_1a273c10e8a43decf28dc808f7ac0673fe" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_denoiseNormals_4</name></member>
-      <member refid="classMR_1aaf7cac526e2fa66a93cb549100f80e01" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_denoiseNormals_5</name></member>
+      <member refid="classMR_1a214c5ad0b76055316670ac7bf68dd1b1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_denoiseNormals_5</name></member>
+      <member refid="classMR_1a5f3ed104b87641c4a66b6141cadcd7eb" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_denoiseNormals_6</name></member>
       <member refid="classMR_1aff25dbf80e0cdf16cb7f37588f3e2632" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_deserializeObjectTree</name></member>
       <member refid="classMR_1adbbf4bd1bf34d26b73f538a47bea8c04" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_deserializeObjectTreeFrom3mf</name></member>
       <member refid="classMR_1a6832b2f1229ee2a6c5493f1c0193c8b3" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_deserializeObjectTreeFromFolder</name></member>
@@ -100828,8 +100854,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a0467ad00fe01ec85bcd837c9467a0632" prot="public" virt="non-virtual"><scope>MR</scope><name>deleteTargetFaces</name></member>
       <member refid="classMR_1a8d33e06ba036821c647ae1ea854523f7" prot="public" virt="non-virtual"><scope>MR</scope><name>deleteTargetFaces</name></member>
       <member refid="classMR_1a4239fd9cc6a065405e0fa4b4b80e7f36" prot="public" virt="non-virtual"><scope>MR</scope><name>delRegionKeepBd</name></member>
-      <member refid="classMR_1adc26991a63d985507a2da974a6c62536" prot="public" virt="non-virtual"><scope>MR</scope><name>denoiseNormals</name></member>
-      <member refid="classMR_1a156f14d7624702af1fd4b0a748992c73" prot="public" virt="non-virtual"><scope>MR</scope><name>denoiseNormals</name></member>
+      <member refid="classMR_1aabb6371f54ab1cc58ea3aee61bc483fc" prot="public" virt="non-virtual"><scope>MR</scope><name>denoiseNormals</name></member>
+      <member refid="classMR_1aaf732fe674409a0caa16d6cd019471f0" prot="public" virt="non-virtual"><scope>MR</scope><name>denoiseNormals</name></member>
       <member refid="classMR_1a1117518b4d89ca3cdb9ee5dbb315312b" prot="public" virt="non-virtual"><scope>MR</scope><name>DepthFunction</name></member>
       <member refid="classMR_1a0d7334e49cc90f74224b2926fdc61658" prot="public" virt="non-virtual"><scope>MR</scope><name>deserializeObjectTree</name></member>
       <member refid="classMR_1a7eb6c44b06114fddc0c2d6a34e8236ed" prot="public" virt="non-virtual"><scope>MR</scope><name>deserializeObjectTreeFrom3mf</name></member>

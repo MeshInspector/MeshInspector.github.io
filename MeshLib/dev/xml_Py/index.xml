@@ -4471,18 +4471,21 @@
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a1c62a415e0006cbd20a4db2af0219a9e" kind="variable"><name>_offsetof_gamma</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a551cfc262dbe7f21658be77f4896c8cc" kind="variable"><name>_offsetof_guideWeight</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ac3d79d81e02d2406bb75112032a38739" kind="variable"><name>_offsetof_pointIters</name></member>
+    <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a27353a3bbc1d4245fa69da2d398614aa" kind="variable"><name>_offsetof_region</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a97b033edbceeeaf9fad3254f1ed8ebb5" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a80c3fce2dc3024eb9e9a06fd73c72db2" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a80c3fce2dc3024eb9e9a06fd73c72db2" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a6a645ba418e0fc96ebe39bd16c6d422b" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ae12c4fb73859ef213216cf9266cdce48" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a61679cacfaec4a54a5985899aa05b0a0" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1add2bbd4f02ac5cd6707294bd4f857420" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a9d4e013117f35412b2f35fd07d85ccef" kind="function"><name>gamma</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ad078f74f2e3adcab728a0905fa6f56ca" kind="function"><name>gamma</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1aa11ec5cebba9099485da966f2cc3bf2e" kind="function"><name>guideWeight</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ab5abd4ab843d9b50a4ee8efb6751face" kind="function"><name>guideWeight</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a743c76b3074bb5ba6cb9b19bf5a4f42c" kind="function"><name>pointIters</name></member>
     <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1a436ec0d72a76651332d597c98577e542" kind="function"><name>pointIters</name></member>
+    <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ae459a27bc95c7fbdb294a25dc7d569f2" kind="function"><name>region</name></member>
+    <member refid="classmrmeshpy_1_1DenoiseWithCreasesSettings_1ac36adabdaf665c4ab95e2f36ca3734a5" kind="function"><name>region</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1DenseBox" kind="class"><name>mrmeshpy::DenseBox</name>
     <member refid="classmrmeshpy_1_1DenseBox_1a56e935580db71a5be404be43002e7e52" kind="function"><name>__init__</name></member>
@@ -9035,7 +9038,7 @@
   </compound>
   <compound refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver" kind="class"><name>mrmeshpy::NormalsToPoints::ISolver</name>
     <member refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a21bb10db0993c73616a3fcbe0de9ec29" kind="function"><name>operator</name></member>
-    <member refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a690dd5d9a754f4d57ed3e58cc464f4da" kind="function"><name>prepare</name></member>
+    <member refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a671c955e77b32c9e7ab371792fef0198" kind="function"><name>prepare</name></member>
     <member refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a10635e8da438aaf831941a320aa07201" kind="function"><name>run</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1IsVisualizeMaskEnum__AnyVisualizeMaskEnum" kind="class"><name>mrmeshpy::IsVisualizeMaskEnum_AnyVisualizeMaskEnum</name>
@@ -13144,7 +13147,7 @@
   </compound>
   <compound refid="classmrmeshpy_1_1NormalsToPoints" kind="class"><name>mrmeshpy::NormalsToPoints</name>
     <member refid="classmrmeshpy_1_1NormalsToPoints_1accb19720cbd7efc8e98858aee14c2c9a" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1NormalsToPoints_1a59e22bab38049a601d973ab18b59bb64" kind="function"><name>prepare</name></member>
+    <member refid="classmrmeshpy_1_1NormalsToPoints_1a9bb7bb6b7021e898cfb559dd27573f27" kind="function"><name>prepare</name></member>
     <member refid="classmrmeshpy_1_1NormalsToPoints_1a61600269735bb24204f539b990d57ac4" kind="function"><name>run</name></member>
     <member refid="classmrmeshpy_1_1NormalsToPoints_1aff684e8d94dba5e6a8055d859adc2d76" kind="function"><name>run</name></member>
   </compound>
@@ -32232,8 +32235,8 @@
     <member refid="namespacemrmeshpy_1ac2d7b68abf0258dd0f0955310a5c3ad9" kind="function"><name>deleteFacesWithLongEdges</name></member>
     <member refid="namespacemrmeshpy_1a45ba46dfd211e56fa7e0e580e7bb5659" kind="function"><name>deleteTargetFaces</name></member>
     <member refid="namespacemrmeshpy_1a24d39b6c2569ed5ff58c89c1688928cc" kind="function"><name>deleteTargetFaces</name></member>
-    <member refid="namespacemrmeshpy_1ab7fc7677d272c14e9d39d0c296327569" kind="function"><name>denoiseNormals</name></member>
-    <member refid="namespacemrmeshpy_1af8701cf90c6e6789b86e476e93f9271d" kind="function"><name>denoiseNormals</name></member>
+    <member refid="namespacemrmeshpy_1ad34d4eed974266ba7a3e21d10cc4c1ab" kind="function"><name>denoiseNormals</name></member>
+    <member refid="namespacemrmeshpy_1a4f9bfa8d365b268ffc65c77bc939b28a" kind="function"><name>denoiseNormals</name></member>
     <member refid="namespacemrmeshpy_1a54eacd2d974e1877b9e6e880f65af859" kind="function"><name>deserializeObjectTree</name></member>
     <member refid="namespacemrmeshpy_1a1ceaa50c14420cf4fae425eed1b461dd" kind="function"><name>deserializeObjectTreeFrom3mf</name></member>
     <member refid="namespacemrmeshpy_1a10ce1d06baf9be601fcef399d82b4f68" kind="function"><name>deserializeObjectTreeFromFolder</name></member>
