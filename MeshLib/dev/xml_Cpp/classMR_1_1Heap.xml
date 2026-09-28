@@ -16,6 +16,23 @@
         <defval>std::less&lt;T&gt;</defval>
       </param>
     </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1Heap_1afce981f39032a6f40b99a866d858b959" prot="public" static="no">
+        <type>typename I::ValueType</type>
+        <definition>using MR::Heap&lt; T, I, P &gt;::SizeType =  typename I::ValueType</definition>
+        <argsstring></argsstring>
+        <name>SizeType</name>
+        <qualifiedname>MR::Heap::SizeType</qualifiedname>
+        <briefdescription>
+<para>the type that can hold the number of elements of the maximal heap (e.g. int for FaceId and size_t for VoxelId) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRHeap.h" line="26" column="5" bodyfile="MRMesh/MRHeap.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classMR_1_1Heap_1aeae6302fc85941aabe1b0162258851b4" prot="private" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="structMR_1_1Heap_1_1Element" kindref="compound">Element</ref> &gt;</type>
@@ -29,11 +46,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHeap.h" line="72" column="17" bodyfile="MRMesh/MRHeap.h" bodystart="72" bodyend="-1"/>
+        <location file="MRMesh/MRHeap.h" line="75" column="17" bodyfile="MRMesh/MRHeap.h" bodystart="75" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Heap_1a9eb358dc5a4f0d0907ebf1397be937f6" prot="private" static="no" mutable="no">
-        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; size_t, <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref> &gt;</type>
-        <definition>Vector&lt;size_t, I&gt; MR::Heap&lt; T, I, P &gt;::id2PosInHeap_</definition>
+      <memberdef kind="variable" id="classMR_1_1Heap_1a9f4ee44e992da521079e3ea4a5d2d5b8" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; <ref refid="classMR_1_1Heap_1afce981f39032a6f40b99a866d858b959" kindref="member">SizeType</ref>, <ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref> &gt;</type>
+        <definition>Vector&lt;SizeType, I&gt; MR::Heap&lt; T, I, P &gt;::id2PosInHeap_</definition>
         <argsstring></argsstring>
         <name>id2PosInHeap_</name>
         <qualifiedname>MR::Heap::id2PosInHeap_</qualifiedname>
@@ -43,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHeap.h" line="73" column="12" bodyfile="MRMesh/MRHeap.h" bodystart="73" bodyend="-1"/>
+        <location file="MRMesh/MRHeap.h" line="76" column="12" bodyfile="MRMesh/MRHeap.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Heap_1a1a9506e21e2b8f84d7c4f23873e5fe8b" prot="private" static="no" mutable="no">
         <type>P</type>
@@ -57,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHeap.h" line="74" column="7" bodyfile="MRMesh/MRHeap.h" bodystart="74" bodyend="-1"/>
+        <location file="MRMesh/MRHeap.h" line="77" column="7" bodyfile="MRMesh/MRHeap.h" bodystart="77" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -79,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHeap.h" line="32" column="5" bodyfile="MRMesh/MRHeap.h" bodystart="32" bodyend="32"/>
+        <location file="MRMesh/MRHeap.h" line="35" column="5" bodyfile="MRMesh/MRHeap.h" bodystart="35" bodyend="35"/>
       </memberdef>
       <member refid="group__BasicGroup_1ga9313e4c55061c6256011bd32a616752e" kind="function"><name>Heap</name></member>
       <member refid="group__BasicGroup_1ga26381c3d0e45502caae2e269f988a3f8" kind="function"><name>Heap</name></member>
@@ -96,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHeap.h" line="41" column="12" bodyfile="MRMesh/MRHeap.h" bodystart="41" bodyend="41"/>
+        <location file="MRMesh/MRHeap.h" line="44" column="12" bodyfile="MRMesh/MRHeap.h" bodystart="44" bodyend="44"/>
       </memberdef>
       <member refid="group__BasicGroup_1ga2dc347cff75def29aeb2eaa76f066a84" kind="function"><name>resize</name></member>
       <memberdef kind="function" id="classMR_1_1Heap_1abb8cd2f765625c9a0997a2cc6ec78e3c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -116,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHeap.h" line="47" column="14" bodyfile="MRMesh/MRHeap.h" bodystart="47" bodyend="47"/>
+        <location file="MRMesh/MRHeap.h" line="50" column="14" bodyfile="MRMesh/MRHeap.h" bodystart="50" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Heap_1a1df97b93103894341efd76f393c597fb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="structMR_1_1Heap_1_1Element" kindref="compound">Element</ref> &amp;</type>
@@ -131,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHeap.h" line="50" column="20" bodyfile="MRMesh/MRHeap.h" bodystart="50" bodyend="50"/>
+        <location file="MRMesh/MRHeap.h" line="53" column="20" bodyfile="MRMesh/MRHeap.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <member refid="group__BasicGroup_1ga113ac866225ab4355eef002299a93671" kind="function"><name>setValue</name></member>
       <member refid="group__BasicGroup_1ga63073f7e258e45cf224a470df850692a" kind="function"><name>setLargerValue</name></member>
@@ -161,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHeap.h" line="59" column="10" bodyfile="MRMesh/MRHeap.h" bodystart="59" bodyend="59"/>
+        <location file="MRMesh/MRHeap.h" line="62" column="10" bodyfile="MRMesh/MRHeap.h" bodystart="62" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Heap_1adb81421ba706699de893596855455c2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Heap_1_1Element" kindref="compound">Element</ref></type>
@@ -181,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRHeap.h" line="62" column="13" bodyfile="MRMesh/MRHeap.h" bodystart="62" bodyend="62"/>
+        <location file="MRMesh/MRHeap.h" line="65" column="13" bodyfile="MRMesh/MRHeap.h" bodystart="65" bodyend="65"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -194,13 +211,13 @@
     <detaileddescription>
 <para>provides two operations: 1) change the value of any element; 2) find the element with the largest value </para>
     </detaileddescription>
-    <location file="MRMesh/MRHeap.h" line="22" column="1" bodyfile="MRMesh/MRHeap.h" bodystart="23" bodyend="75"/>
+    <location file="MRMesh/MRHeap.h" line="22" column="1" bodyfile="MRMesh/MRHeap.h" bodystart="23" bodyend="78"/>
     <listofallmembers>
       <member refid="classMR_1_1Heap_1ab8bbd747f281327e89c095c86983f177" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>Heap</name></member>
       <member refid="group__BasicGroup_1ga9313e4c55061c6256011bd32a616752e" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>Heap</name></member>
       <member refid="group__BasicGroup_1ga26381c3d0e45502caae2e269f988a3f8" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>Heap</name></member>
       <member refid="classMR_1_1Heap_1aeae6302fc85941aabe1b0162258851b4" prot="private" virt="non-virtual"><scope>MR::Heap</scope><name>heap_</name></member>
-      <member refid="classMR_1_1Heap_1a9eb358dc5a4f0d0907ebf1397be937f6" prot="private" virt="non-virtual"><scope>MR::Heap</scope><name>id2PosInHeap_</name></member>
+      <member refid="classMR_1_1Heap_1a9f4ee44e992da521079e3ea4a5d2d5b8" prot="private" virt="non-virtual"><scope>MR::Heap</scope><name>id2PosInHeap_</name></member>
       <member refid="classMR_1_1Heap_1af4f46522c9ccfd4ade826452c287a15d" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>increaseValue</name></member>
       <member refid="group__BasicGroup_1ga8cc005841a554f35bd3b412da9244b20" prot="private" virt="non-virtual"><scope>MR::Heap</scope><name>less_</name></member>
       <member refid="group__BasicGroup_1gaf57eb736d2eb7b803bd2dddfbed172f6" prot="private" virt="non-virtual"><scope>MR::Heap</scope><name>lift_</name></member>
@@ -211,6 +228,7 @@
       <member refid="classMR_1_1Heap_1adb81421ba706699de893596855455c2a" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>setTopValue</name></member>
       <member refid="group__BasicGroup_1ga113ac866225ab4355eef002299a93671" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>setValue</name></member>
       <member refid="classMR_1_1Heap_1a516d00eb9620f9cdb1f5c43c0810f744" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>size</name></member>
+      <member refid="classMR_1_1Heap_1afce981f39032a6f40b99a866d858b959" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>SizeType</name></member>
       <member refid="classMR_1_1Heap_1a1df97b93103894341efd76f393c597fb" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>top</name></member>
       <member refid="classMR_1_1Heap_1abb8cd2f765625c9a0997a2cc6ec78e3c" prot="public" virt="non-virtual"><scope>MR::Heap</scope><name>value</name></member>
     </listofallmembers>

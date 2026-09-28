@@ -1,6 +1,7 @@
 var classMR_1_1Heap =
 [
     [ "Element", "structMR_1_1Heap_1_1Element.html", "structMR_1_1Heap_1_1Element" ],
+    [ "SizeType", "classMR_1_1Heap.html#afce981f39032a6f40b99a866d858b959", null ],
     [ "Heap", "classMR_1_1Heap.html#ab8bbd747f281327e89c095c86983f177", null ],
     [ "Heap", "group__BasicGroup.html#ga9313e4c55061c6256011bd32a616752e", null ],
     [ "Heap", "group__BasicGroup.html#ga26381c3d0e45502caae2e269f988a3f8", null ],

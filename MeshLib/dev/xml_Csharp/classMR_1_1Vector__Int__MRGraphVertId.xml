@@ -1,0 +1,1261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Vector__Int__MRGraphVertId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Vector_Int_MRGraphVertId</compoundname>
+    <basecompoundref refid="classMR_1_1Const__Vector__Int__MRGraphVertId" prot="public" virt="non-virtual">MR.Const_Vector_Int_MRGraphVertId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Vector__Int__MRGraphVertId_1a3c48f619ba244fb0d14ada66580c6885" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_Int</type>
+        <definition>new unsafe MR.Std.Vector_Int MR.Vector_Int_MRGraphVertId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50614" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50614" bodyend="50614"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Vector__Int__MRGraphVertId_1a4687482bdde301fec1fee743ac44c15d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref int</type>
+        <definition>unsafe new ref int MR.Vector_Int_MRGraphVertId.this[MR.GraphVertId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.GraphVertId i]</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.this[MR.GraphVertId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50749" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50750" bodyend="50755"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a8701a5203cee8f12c9aa74020abeab01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; MR.Misc.Ref&lt; int &gt; &gt;</type>
+        <definition>new IEnumerator&lt; MR.Misc.Ref&lt; int &gt; &gt; MR.Vector_Int_MRGraphVertId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50601" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50601" bodyend="50604"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1abbef070c497a774a267e60214827e954" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</definition>
+        <argsstring>()</argsstring>
+        <name>Vector_Int_MRGraphVertId</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50641" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50641" bodyend="50645"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1aa4d04a082090b2c9da4336be0b61716b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</definition>
+        <argsstring>(MR._ByValue_Vector_Int_MRGraphVertId _other)</argsstring>
+        <name>Vector_Int_MRGraphVertId</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_Int_MRGraphVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50650" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50650" bodyend="50655"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1ac9527d8a03d9b92083822bffe2793d93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</definition>
+        <argsstring>(Const_Vector_Int_MRGraphVertId _other)</argsstring>
+        <name>Vector_Int_MRGraphVertId</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__Int__MRGraphVertId" kindref="compound">Const_Vector_Int_MRGraphVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50660" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50660" bodyend="50660"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a967354d09ded16d73f23963fba941550" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</definition>
+        <argsstring>(Vector_Int_MRGraphVertId _other)</argsstring>
+        <name>Vector_Int_MRGraphVertId</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__Int__MRGraphVertId" kindref="compound">Vector_Int_MRGraphVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50665" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50665" bodyend="50665"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1ac3385403cb6d55a260c53bfb468670b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>Vector_Int_MRGraphVertId</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50671" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50671" bodyend="50675"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1abac22c2503c9ce0dd4f89e9e840aca89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</definition>
+        <argsstring>(nuint size, int val)</argsstring>
+        <name>Vector_Int_MRGraphVertId</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50681" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50681" bodyend="50685"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a1975315f13466f0b675c458bbf23544c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Int &gt; vec)</argsstring>
+        <name>Vector_Int_MRGraphVertId</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_Int &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50691" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50691" bodyend="50696"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a4b88f41bd5719fc581529234752c895e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__Int__MRGraphVertId" kindref="compound">MR.Vector_Int_MRGraphVertId</ref></type>
+        <definition>unsafe MR.Vector_Int_MRGraphVertId MR.Vector_Int_MRGraphVertId.assign</definition>
+        <argsstring>(MR._ByValue_Vector_Int_MRGraphVertId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_Int_MRGraphVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50707" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50707" bodyend="50712"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a19c9cade6c1b765b436ee1f37cd1b790" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Int_MRGraphVertId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1a19c9cade6c1b765b436ee1f37cd1b790" kindref="member">clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50717" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50717" bodyend="50720"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1aeb381d519df268e78d455f2e54715b79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Int_MRGraphVertId.resize</definition>
+        <argsstring>(nuint newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.resize</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1aeb381d519df268e78d455f2e54715b79" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50725" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50725" bodyend="50728"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1ae619fd5b49ea48672592eaed92d28340" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Int_MRGraphVertId.resize</definition>
+        <argsstring>(nuint newSize, int t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.resize</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1aeb381d519df268e78d455f2e54715b79" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50733" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50733" bodyend="50736"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1ac5f5e1e896a46bda784515feaed7e421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Int_MRGraphVertId.reserve</definition>
+        <argsstring>(nuint capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.reserve</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1ac5f5e1e896a46bda784515feaed7e421" kindref="member">reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50741" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50741" bodyend="50744"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a7ee924119a0169ee7209765b1fd1b663" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Int_MRGraphVertId.resizeWithReserve</definition>
+        <argsstring>(nuint newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1a7ee924119a0169ee7209765b1fd1b663" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50761" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50761" bodyend="50764"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1ab3214fa8ade28ec208b5c1449f497724" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Int_MRGraphVertId.resizeWithReserve</definition>
+        <argsstring>(nuint newSize, int value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1a7ee924119a0169ee7209765b1fd1b663" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50770" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50770" bodyend="50773"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a16983da041301ea9460ece2ed5554cb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Int_MRGraphVertId.autoResizeSet</definition>
+        <argsstring>(MR.GraphVertId pos, nuint len, int val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1a16983da041301ea9460ece2ed5554cb2" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50780" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50780" bodyend="50783"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a2681e869cbe4a6d375b809f3a61c022e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Int_MRGraphVertId.autoResizeSet</definition>
+        <argsstring>(MR.GraphVertId i, int val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1a16983da041301ea9460ece2ed5554cb2" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50789" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50789" bodyend="50792"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a70738b9dc22f422be7d376ff8a823219" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.Vector_Int_MRGraphVertId.autoResizeAt</definition>
+        <argsstring>(MR.GraphVertId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1a70738b9dc22f422be7d376ff8a823219" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50798" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50798" bodyend="50801"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a22556115852d8245b53cb0a7f94b7700" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Int_MRGraphVertId.pushBack</definition>
+        <argsstring>(int t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.pushBack</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50806" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50806" bodyend="50809"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a894aec0d188530a300451f1aa689c6d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Int_MRGraphVertId.pushBack</definition>
+        <argsstring>(MR.Misc._MoveRef _move_t, int t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50814" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50814" bodyend="50817"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a1f05f724587d5154f96a93f20607f4a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Int_MRGraphVertId.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50822" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50822" bodyend="50825"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1aab4b4d5d8760cc38f19674f5e6b3e507" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref int</type>
+        <definition>unsafe new ref int MR.Vector_Int_MRGraphVertId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1aab4b4d5d8760cc38f19674f5e6b3e507" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50830" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50830" bodyend="50833"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1af60dc037ec1a1cb9130a63a203dd73f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref int</type>
+        <definition>unsafe new ref int MR.Vector_Int_MRGraphVertId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1af60dc037ec1a1cb9130a63a203dd73f0" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50838" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50838" bodyend="50841"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a134b7e2dc7dba88c8e407669f367b374" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Misc.? Ref&lt; int &gt;</type>
+        <definition>unsafe new MR.Misc.? Ref&lt; int &gt; MR.Vector_Int_MRGraphVertId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1a134b7e2dc7dba88c8e407669f367b374" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50846" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50846" bodyend="50850"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a874275f5954465d2e47870076935baf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_Int_MRGraphVertId.swap</definition>
+        <argsstring>(MR.Vector_Int_MRGraphVertId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__Int__MRGraphVertId" kindref="compound">MR.Vector_Int_MRGraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Int__MRGraphVertId_1a874275f5954465d2e47870076935baf2" kindref="member">swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50855" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50855" bodyend="50858"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a751993cb4529ef0a8d0d5af6cd959398" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Vector_Int_MRGraphVertId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50606" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50606" bodyend="50609"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1ab2783a8379715b7612e2e1000ee4a992" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Vector_Int_MRGraphVertId</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.Vector_Int_MRGraphVertId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50631" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50631" bodyend="50635"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1acffa9239c59b1d13ce5021e57fadcb84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Vector_Int_MRGraphVertId.operator Vector_Int_MRGraphVertId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Int &gt; vec)</argsstring>
+        <name>operator Vector_Int_MRGraphVertId</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.operator Vector_Int_MRGraphVertId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_Int &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50702" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50702" bodyend="50702"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a874514790559b52094604b33ee3b6682" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_Int_MRGraphVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_Int_MRGraphVertId._Underlying * MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.Vector_Int_MRGraphVertId._Underlying *_other)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_AssignFromAnother</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Vector_Int_MRGraphVertId._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50863" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a1484a50ad19c848b6a2cb8fcb604f1ab" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_Int_MRGraphVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_Int_MRGraphVertId._Underlying * MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.Vector_Int_MRGraphVertId._Underlying *_other)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_ConstructFromAnother</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Vector_Int_MRGraphVertId._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50866" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1aac4bd8f15bb7a07ee8b3b5d11fd38a9d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_Int_MRGraphVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_Int_MRGraphVertId._Underlying * MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_Construct_1_size_t</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_Construct_1_size_t</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_Construct_1_size_t</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50869" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a07bd5059fe5b359077ab74cf16601505" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_Int_MRGraphVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_Int_MRGraphVertId._Underlying * MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_Construct_1_std_vector_int</definition>
+        <argsstring>(MR.Std.Vector_Int._Underlying *vec)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_Construct_1_std_vector_int</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_Construct_1_std_vector_int</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_Int._Underlying *</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50872" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a330ce8fc26434a80154f235e1d660956" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_Int_MRGraphVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_Int_MRGraphVertId._Underlying * MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_Construct_2</definition>
+        <argsstring>(nuint size, int *val)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_Construct_2</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_Construct_2</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50875" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a237e31c27d9dc40d34465d6f993d097a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_Int_MRGraphVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_Int_MRGraphVertId._Underlying * MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_DefaultConstruct</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50878" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a6c1b8a5f83d85480f5b1c55b3c786f81" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Int._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_Int._Underlying * MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_GetMutable_vec_</definition>
+        <argsstring>(MR.Vector_Int_MRGraphVertId._Underlying *_this)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_GetMutable_vec_</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_GetMutable_vec_</qualifiedname>
+        <param>
+          <type>MR.Vector_Int_MRGraphVertId._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50881" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a7a7a18bf68d64178b0d5669bfa169ad3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe int *</type>
+        <definition>static unsafe int * MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_autoResizeAt</definition>
+        <argsstring>(_Underlying *_this, MR.GraphVertId i)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_autoResizeAt</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_autoResizeAt</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50884" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a78acd33f327c415a9af55fe02e25575b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_autoResizeSet_2</definition>
+        <argsstring>(_Underlying *_this, MR.GraphVertId i, int val)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_autoResizeSet_2</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_autoResizeSet_2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50887" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1aef5aa6245e4c5395f0e5a967a23b6c26" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_autoResizeSet_3</definition>
+        <argsstring>(_Underlying *_this, MR.GraphVertId pos, nuint len, int val)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_autoResizeSet_3</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_autoResizeSet_3</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50890" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1ad5e01284b9d076b93363211301e8b378" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe int *</type>
+        <definition>static unsafe int * MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_back_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_back_mut</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_back_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50893" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a8ab10a5a1c6d73bd782b4f6d33d37dad" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_clear</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_clear</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_clear</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50896" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a2bef1ac524d5a37207bd5a0f9cab8b82" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe int *</type>
+        <definition>static unsafe int * MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_data_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_data_mut</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_data_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50899" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a834bd127858665552081696cf079adb5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe int *</type>
+        <definition>static unsafe int * MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_front_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_front_mut</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_front_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50902" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a00b50d630d4136c7e3ee2964edfa10cd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe int *</type>
+        <definition>static unsafe int * MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_index_mut</definition>
+        <argsstring>(_Underlying *_this, MR.GraphVertId i)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_index_mut</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_index_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50905" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a81b8df08af5bc773e0c75c43d9095f3d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_pop_back</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_pop_back</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_pop_back</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50908" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a53ac034c01bf5076749c11b3ab84934e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_push_back_const_int_ref</definition>
+        <argsstring>(_Underlying *_this, int *t)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_push_back_const_int_ref</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_push_back_const_int_ref</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50911" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a53ba32192893fe9e1eac0cc4cd6c4342" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_push_back_int_rvalue_ref</definition>
+        <argsstring>(_Underlying *_this, int *t)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_push_back_int_rvalue_ref</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_push_back_int_rvalue_ref</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50914" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1afd78a7e115ee66e0586c05fcad3234af" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_reserve</definition>
+        <argsstring>(_Underlying *_this, nuint capacity)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_reserve</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_reserve</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50917" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1aa365ce3261bed67f08df2d2c9f43fb6b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_resizeWithReserve_1</definition>
+        <argsstring>(_Underlying *_this, nuint newSize)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_resizeWithReserve_1</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_resizeWithReserve_1</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50920" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1aa2cfc47bdf75632c21251f05eff5f8b2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_resizeWithReserve_2</definition>
+        <argsstring>(_Underlying *_this, nuint newSize, int *value)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_resizeWithReserve_2</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_resizeWithReserve_2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50923" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a5285a972e887fc5c856f67eb3299ae1a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_resize_1</definition>
+        <argsstring>(_Underlying *_this, nuint newSize)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_resize_1</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_resize_1</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50926" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a2f257b9ff8d0f8c17d6e0cdd80949c1b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_resize_2</definition>
+        <argsstring>(_Underlying *_this, nuint newSize, int *t)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_resize_2</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_resize_2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50929" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRGraphVertId_1a095d61ac7585ba61a2918a52559e8c14" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_swap</definition>
+        <argsstring>(_Underlying *_this, MR.Vector_Int_MRGraphVertId._Underlying *b)</argsstring>
+        <name>__MR_Vector_int_MR_GraphVertId_swap</name>
+        <qualifiedname>MR.Vector_Int_MRGraphVertId.__MR_Vector_int_MR_GraphVertId_swap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Vector_Int_MRGraphVertId._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50932" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Vector_Int_MRGraphVertId</label>
+        <link refid="classMR_1_1Vector__Int__MRGraphVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_Int_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__Vector__Int__MRGraphVertId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Vector_Int_MRGraphVertId</label>
+        <link refid="classMR_1_1Vector__Int__MRGraphVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_Int_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__Vector__Int__MRGraphVertId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50545" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50546" bodyend="50933"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a874514790559b52094604b33ee3b6682" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_AssignFromAnother</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a7a7a18bf68d64178b0d5669bfa169ad3" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_autoResizeAt</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a78acd33f327c415a9af55fe02e25575b" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_autoResizeSet_2</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1aef5aa6245e4c5395f0e5a967a23b6c26" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_autoResizeSet_3</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1ad5e01284b9d076b93363211301e8b378" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_back_mut</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a8ab10a5a1c6d73bd782b4f6d33d37dad" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_clear</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1aac4bd8f15bb7a07ee8b3b5d11fd38a9d" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_Construct_1_size_t</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a07bd5059fe5b359077ab74cf16601505" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_Construct_1_std_vector_int</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a330ce8fc26434a80154f235e1d660956" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_Construct_2</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a1484a50ad19c848b6a2cb8fcb604f1ab" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a2bef1ac524d5a37207bd5a0f9cab8b82" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_data_mut</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a237e31c27d9dc40d34465d6f993d097a" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a834bd127858665552081696cf079adb5" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_front_mut</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a6c1b8a5f83d85480f5b1c55b3c786f81" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_GetMutable_vec_</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a00b50d630d4136c7e3ee2964edfa10cd" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_index_mut</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a81b8df08af5bc773e0c75c43d9095f3d" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_pop_back</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a53ac034c01bf5076749c11b3ab84934e" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_push_back_const_int_ref</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a53ba32192893fe9e1eac0cc4cd6c4342" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_push_back_int_rvalue_ref</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1afd78a7e115ee66e0586c05fcad3234af" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_reserve</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a5285a972e887fc5c856f67eb3299ae1a" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_resize_1</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a2f257b9ff8d0f8c17d6e0cdd80949c1b" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_resize_2</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1aa365ce3261bed67f08df2d2c9f43fb6b" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_resizeWithReserve_1</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1aa2cfc47bdf75632c21251f05eff5f8b2" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_resizeWithReserve_2</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a095d61ac7585ba61a2918a52559e8c14" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>__MR_Vector_int_MR_GraphVertId_swap</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a4b88f41bd5719fc581529234752c895e" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a70738b9dc22f422be7d376ff8a823219" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a16983da041301ea9460ece2ed5554cb2" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a2681e869cbe4a6d375b809f3a61c022e" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1af60dc037ec1a1cb9130a63a203dd73f0" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1ada2023b64654f4c0aa04024ad9eb4aee" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1a89dec1079ffcd1d4b47b31c4fefe3245" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1a4fa063089c376291da752618cae9b554" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a19c9cade6c1b765b436ee1f37cd1b790" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1acdae6ea475a2de8c8dd81fb619f11f09" prot="package" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Const_Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1a196503b83811f41640d321895751e630" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Const_Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1aa0cc84d5eee5aee1ef6732ff41fc4352" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Const_Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1aa7f0a40de0e33f60e2716574cb22295e" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Const_Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1af7b73d905d45e9e5dd2487df9018bbad" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Const_Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1ab0e6d02766aa35d3119d7240bee7677d" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Const_Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1a769d19bef31460c868797ad531dd4db5" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Const_Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1a0b16a57f44a6d5a5e68a52475e99a1cd" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Const_Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a134b7e2dc7dba88c8e407669f367b374" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1a27cb7afc6d08a4832d26a10e19ac8f95" prot="protected" virt="virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1ad4fad0c3c4797dd9a20b628680b12400" prot="public" virt="virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1aee927502d11eb42577166db42edc1168" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1a1b880d220fd3022954fdae1607bcd7e4" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1a105e5e1aa1429bdb7a6078f173e0c25c" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1ad6773996d41942a93e12c3b5eed3e504" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1aab4b4d5d8760cc38f19674f5e6b3e507" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a8701a5203cee8f12c9aa74020abeab01" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a751993cb4529ef0a8d0d5af6cd959398" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1aaf6d77809fb343be461c7606fdc24193" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1a0d772c7bb800d557fb539ae06a1e1e9a" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>operator Const_Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1acffa9239c59b1d13ce5021e57fadcb84" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>operator Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1a5e4858754005fab93d9feec2c55a5255" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1a259a8a1d623509a5ad6ed5286d60d52b" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a1f05f724587d5154f96a93f20607f4a8" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>popBack</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a22556115852d8245b53cb0a7f94b7700" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a894aec0d188530a300451f1aa689c6d0" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1ac5f5e1e896a46bda784515feaed7e421" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1aeb381d519df268e78d455f2e54715b79" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1ae619fd5b49ea48672592eaed92d28340" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a7ee924119a0169ee7209765b1fd1b663" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1ab3214fa8ade28ec208b5c1449f497724" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRGraphVertId_1a47c7a470890a22fca12d075b28fb3ca8" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>size</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a874275f5954465d2e47870076935baf2" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>swap</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a4687482bdde301fec1fee743ac44c15d" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>this[MR.GraphVertId i]</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a3c48f619ba244fb0d14ada66580c6885" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1ab2783a8379715b7612e2e1000ee4a992" prot="package" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1abbef070c497a774a267e60214827e954" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1aa4d04a082090b2c9da4336be0b61716b" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1ac9527d8a03d9b92083822bffe2793d93" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a967354d09ded16d73f23963fba941550" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1ac3385403cb6d55a260c53bfb468670b7" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1abac22c2503c9ce0dd4f89e9e840aca89" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Vector_Int_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a1975315f13466f0b675c458bbf23544c" prot="public" virt="non-virtual"><scope>MR::Vector_Int_MRGraphVertId</scope><name>Vector_Int_MRGraphVertId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1ProjectAttributeParams.html":[9,0,0,20,481],
+"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[9,0,0,20,50],
 "structMR_1_1PythonExport_1_1ModuleData.html":[9,0,0,20,558],
 "structMR_1_1PythonFunctionAdder.html":[9,0,0,20,559],
 "structMR_1_1QuadraticForm.html":[9,0,0,0,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1TriPoint.html":[9,0,0,20,525],
 "structMR_1_1TriTriDistanceParams.html":[9,0,0,20,522],
 "structMR_1_1TriTriDistanceResult.html":[9,0,0,20,521],
-"structMR_1_1TriangleSegmentIntersectResult.html":[9,0,0,20,476],
-"structMR_1_1TriangulateHolesParams.html":[9,0,0,13,2],
-"structMR_1_1TriangulateHolesParams.html#a8817163abe136db373a3bbdefcba5ed0":[9,0,0,13,2,0]
+"structMR_1_1TriangleSegmentIntersectResult.html":[9,0,0,20,476]
 };

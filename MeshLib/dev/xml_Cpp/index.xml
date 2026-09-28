@@ -4041,8 +4041,9 @@
     <member refid="classMR_1_1SpaceMouse_1_1HandlerHidapi_1a18f0d8488dde9239b8890727eb94729b" kind="function"><name>findAndAttachDevice_</name></member>
   </compound>
   <compound refid="classMR_1_1Heap" kind="class"><name>MR::Heap</name>
+    <member refid="classMR_1_1Heap_1afce981f39032a6f40b99a866d858b959" kind="typedef"><name>SizeType</name></member>
     <member refid="classMR_1_1Heap_1aeae6302fc85941aabe1b0162258851b4" kind="variable"><name>heap_</name></member>
-    <member refid="classMR_1_1Heap_1a9eb358dc5a4f0d0907ebf1397be937f6" kind="variable"><name>id2PosInHeap_</name></member>
+    <member refid="classMR_1_1Heap_1a9f4ee44e992da521079e3ea4a5d2d5b8" kind="variable"><name>id2PosInHeap_</name></member>
     <member refid="classMR_1_1Heap_1a1a9506e21e2b8f84d7c4f23873e5fe8b" kind="variable"><name>pred_</name></member>
     <member refid="classMR_1_1Heap_1ab8bbd747f281327e89c095c86983f177" kind="function"><name>Heap</name></member>
     <member refid="group__BasicGroup_1ga9313e4c55061c6256011bd32a616752e" kind="function"><name>Heap</name></member>

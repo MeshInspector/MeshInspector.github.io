@@ -139,6 +139,7 @@ $(function(){initNavTree('classMR_1_1Heap.html','','classMR_1_1Heap-members'); }
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1Heap-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::Heap&lt; T, I, P &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a> &#124; <a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
@@ -153,6 +154,11 @@ $(function(){initNavTree('classMR_1_1Heap.html','','classMR_1_1Heap-members'); }
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:Element" id="r_Element"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Heap_1_1Element.html">Element</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:afce981f39032a6f40b99a866d858b959" id="r_afce981f39032a6f40b99a866d858b959"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afce981f39032a6f40b99a866d858b959">SizeType</a> = typename I::ValueType</td></tr>
+<tr class="memdesc:afce981f39032a6f40b99a866d858b959"><td class="mdescLeft">&#160;</td><td class="mdescRight">the type that can hold the number of elements of the maximal heap (e.g. int for FaceId and size_t for VoxelId)  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -184,7 +190,26 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P = std::less&lt;T&gt;&gt;<br />
 class MR::Heap&lt; T, I, P &gt;</div><p>stores map from element id in[0, size) to T; </p>
 <p>provides two operations: 1) change the value of any element; 2) find the element with the largest value </p>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a id="afce981f39032a6f40b99a866d858b959" name="afce981f39032a6f40b99a866d858b959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afce981f39032a6f40b99a866d858b959">&#9670;&#160;</a></span>SizeType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P = std::less&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::SizeType = typename I::ValueType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the type that can hold the number of elements of the maximal heap (e.g. int for FaceId and size_t for VoxelId) </p>
+
+</div>
+</div>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab8bbd747f281327e89c095c86983f177" name="ab8bbd747f281327e89c095c86983f177"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab8bbd747f281327e89c095c86983f177">&#9670;&#160;</a></span>Heap()</h2>
 

@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1Nesting_1_1TetrisDensifyOptions.html":[9,0,0,20,896],
+"structMR_1_1Nesting_1_1TetrisDensifyParams.html":[9,0,0,20,897],
 "structMR_1_1NewEdgesMap.html":[9,0,0,8,2],
 "structMR_1_1NewEdgesMap.html":[9,0,0,20,185],
 "structMR_1_1NoCtor.html":[9,0,0,20,139],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1PreciseVertCoord.html":[9,0,0,20,471],
 "structMR_1_1PreciseVertCoords.html":[9,0,0,20,475],
 "structMR_1_1PreciseVertCoords2.html":[9,0,0,20,472],
-"structMR_1_1ProgressInterrupter.html":[9,0,0,20,908],
-"structMR_1_1ProjectAttributeParams.html":[9,0,0,20,481],
-"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[9,0,0,20,50]
+"structMR_1_1ProgressInterrupter.html":[9,0,0,20,908]
 };

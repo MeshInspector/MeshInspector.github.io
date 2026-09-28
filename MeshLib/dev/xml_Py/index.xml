@@ -28188,6 +28188,52 @@
     <member refid="classmrmeshpy_1_1Vector__int__FaceId_1ad0b024dcebe456263a98d251c3ec0341" kind="function"><name>vec_</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__FaceId_1a904dba61261e365cccc139c99cd56279" kind="function"><name>vec_</name></member>
   </compound>
+  <compound refid="classmrmeshpy_1_1Vector__int__GraphVertId" kind="class"><name>mrmeshpy::Vector_int_GraphVertId</name>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1ab190964da77286c372cbf45867230c0e" kind="variable"><name>__hash__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a6c19b1adb8bbcd8bdd70c797f268d1c9" kind="variable"><name>_offsetof_vec_</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a481bc00855583c52320281fec86579a0" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1af0a77afd151e167ceb5ff5665f6f4804" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1af0a77afd151e167ceb5ff5665f6f4804" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a98889a86ebd9a0e1831b3cadc0bca393" kind="function"><name>__eq__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a5c71b3880ccb176486ff1af7531dc08f" kind="function"><name>__getitem__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a5c71b3880ccb176486ff1af7531dc08f" kind="function"><name>__getitem__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1adfb33e900c0c6ef2f2b3678f1985c138" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a906a31c7af3f8f1ba5d086e5d85998b3" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1ab0b731cc1a7840ec062b535e2a276fcb" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1ab5724f81633b5f92f2be5e0f9661dfaf" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1adfcc7d1fcee495074adfa81cf8e97490" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a39e6b044b0fa1319b1601ac32a4129ad" kind="function"><name>__iter__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a1e903f6a764f228f7283f614011d29e4" kind="function"><name>__ne__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a3d94c245ae12d286104624af1166704f" kind="function"><name>__setitem__</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a368a892e59bc8000f7663f25eb51a3a9" kind="function"><name>autoResizeAt</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a317f6c783a42d9fba07214b13ddb2e67" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a8a3e1a3c2880696b6ff71355550f4e63" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a5f67b6861631d53728bd2b5c4aaf3541" kind="function"><name>back</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a5f67b6861631d53728bd2b5c4aaf3541" kind="function"><name>back</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1ad00637fc359bd8df1965f0a1d5e0f083" kind="function"><name>backId</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1ab0a8ba5c3c3ec369a1dabaac376fc958" kind="function"><name>beginId</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1aa8691cfc4bdee2162051507fd9cef043" kind="function"><name>capacity</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1ac6db963b0c1a925cad3c0e428de10615" kind="function"><name>clear</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1ad1f880127c0d3e46972498d0aa5d644e" kind="function"><name>data</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1ad1f880127c0d3e46972498d0aa5d644e" kind="function"><name>data</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1aa659c66853b1cc64f026bdde99c71c19" kind="function"><name>empty</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1abd7b9f59515a979042fa06ba4bf6c5f0" kind="function"><name>endId</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1af3dd0e1ffc2aa8bbf844a8c76e706600" kind="function"><name>front</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1af3dd0e1ffc2aa8bbf844a8c76e706600" kind="function"><name>front</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a2278edc7eb325ebf06487932fed9f5bd" kind="function"><name>heapBytes</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1aedee882c1465eb9522b234b494a48a35" kind="function"><name>pop_back</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a896e4854dee72f53d91f48516f82cf6e" kind="function"><name>push_back</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a896e4854dee72f53d91f48516f82cf6e" kind="function"><name>push_back</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a0c268e861c2600ef48a718b50fcec176" kind="function"><name>reserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a6f45b9b7b45235b689a8efdf8b32b856" kind="function"><name>resize</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a5c9789def352a216cfb5dc9fad696429" kind="function"><name>resize</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a2614d1d0f14c7b5ee826270507269fcc" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a398c29ffbe065112c652ab6dee028ab2" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1aacbde1bcb3979831c3ac93b16ffce6d1" kind="function"><name>size</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a7c5547af1330747e1a68e3856b18d274" kind="function"><name>swap</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a2158f0641723947d34468ab6fd57826a" kind="function"><name>vec_</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1aa03ce6d1fbb595417f2ac5d07257570f" kind="function"><name>vec_</name></member>
+  </compound>
   <compound refid="classmrmeshpy_1_1Vector__int__RegionId" kind="class"><name>mrmeshpy::Vector_int_RegionId</name>
     <member refid="classmrmeshpy_1_1Vector__int__RegionId_1a9e38bea11b529905129db882f04b99f9" kind="variable"><name>__hash__</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__RegionId_1a743fe969856dc203f2bed775f61fb459" kind="variable"><name>_offsetof_vec_</name></member>
@@ -29179,52 +29225,6 @@
     <member refid="classmrmeshpy_1_1Vector__TextureId__TextureId_1a4a2087bd74e8d9b704535c403f6e7822" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__TextureId__TextureId_1a21b5cee1bb6b046d81951812cfd465a6" kind="function"><name>vec_</name></member>
     <member refid="classmrmeshpy_1_1Vector__TextureId__TextureId_1a7165b0d8c23bdb42e68023fa49764f04" kind="function"><name>vec_</name></member>
-  </compound>
-  <compound refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId" kind="class"><name>mrmeshpy::Vector_unsigned_long_GraphVertId</name>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1aa1e92d2d44bbba3e5629f54cf5b0e7a5" kind="variable"><name>__hash__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a409bbb8f3fbfbd3f040c1caf5466ba04" kind="variable"><name>_offsetof_vec_</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1ab990f8df33eef615dd91ec989561c9d1" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1aca981bf361580728e5693ca1743ecd87" kind="function"><name>operator</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1aca981bf361580728e5693ca1743ecd87" kind="function"><name>operator</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a73ca5219442e5533d597790e6ed3acde" kind="function"><name>__eq__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1abc2c3dd346aa6ec6f3d4716bf535adba" kind="function"><name>__getitem__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1abc2c3dd346aa6ec6f3d4716bf535adba" kind="function"><name>__getitem__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a55952acae9e10be21a127db856e9dbe3" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1ae18b36b2b86aa93a7264d8c621a30fd9" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a0658bbd2e166e77716b53e6394c5d77a" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a75929681fab7ca73a48eee758fd9912f" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a2a9783e829104a58ad5d910e51cfe453" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a3c9cc31cdcc0f9e79f9a57ec81b9a505" kind="function"><name>__iter__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1ac13b94a98dc3f7fc9f6d2456f79836a8" kind="function"><name>__ne__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a9987d054ea297759b2785a3afaded136" kind="function"><name>__setitem__</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a713b4a38154b311986c041eac1fd1b8e" kind="function"><name>autoResizeAt</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a90edaeebe6546a49b88d44d66ea53ade" kind="function"><name>autoResizeSet</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1afb85d9ac43ccd28052053ef81119ff22" kind="function"><name>autoResizeSet</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a98d7d34adb33939e5febcdc2c10009dd" kind="function"><name>back</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a98d7d34adb33939e5febcdc2c10009dd" kind="function"><name>back</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a85acc5c7366407cbbbb77877d49fe2c6" kind="function"><name>backId</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a3c7c63fb2be7dc9a8aefebf077310805" kind="function"><name>beginId</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a13de2bad0d94882461aca5c2bc1f6d00" kind="function"><name>capacity</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a7cff1fa2350833ce1e7879731fde5b03" kind="function"><name>clear</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a0e194a77036917a3e2055c012da1207b" kind="function"><name>data</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a0e194a77036917a3e2055c012da1207b" kind="function"><name>data</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1af55c7de0bc31a40f1c0b9e4bfd370002" kind="function"><name>empty</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a95834cf4620634ba000653793c0a22ee" kind="function"><name>endId</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a2002ea2deaf037cca38a41473f26a206" kind="function"><name>front</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a2002ea2deaf037cca38a41473f26a206" kind="function"><name>front</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a254b0e427dd577900843bc35dfe138ce" kind="function"><name>heapBytes</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1aa6c9884940172a8b6f8d5888486af8fe" kind="function"><name>pop_back</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a618bafe6036f81c40ef554f9bc8d5b54" kind="function"><name>push_back</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a618bafe6036f81c40ef554f9bc8d5b54" kind="function"><name>push_back</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1aa2f01f5cb4aa09eae84f8cc313da2e89" kind="function"><name>reserve</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a65e3b058300fdf84cfe88d1ebe6eae13" kind="function"><name>resize</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1ab404c055d8dfad164c8a588677f7b530" kind="function"><name>resize</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a5c5a471f1a2ba84258bf4d20232d7bb3" kind="function"><name>resizeWithReserve</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1ad3b0e4faa13f9c9e5add18659db6b5d1" kind="function"><name>resizeWithReserve</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a5ee771ef1ef6397b19502b6947b95469" kind="function"><name>size</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a0d321a55da7d7332d062d1bc5d083af5" kind="function"><name>swap</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a20d8dae2e0d2ceb46402fe26d8440311" kind="function"><name>vec_</name></member>
-    <member refid="classmrmeshpy_1_1Vector__unsigned__long__GraphVertId_1a6bf5333126eacb40f44d31ba78ad1766" kind="function"><name>vec_</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1Vector__unsigned__short__VoxelId" kind="class"><name>mrmeshpy::Vector_unsigned_short_VoxelId</name>
     <member refid="classmrmeshpy_1_1Vector__unsigned__short__VoxelId_1a38ea2a5f66a60facd9ebc4a4e447303b" kind="variable"><name>__hash__</name></member>
