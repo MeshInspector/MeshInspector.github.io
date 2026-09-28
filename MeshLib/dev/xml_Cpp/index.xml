@@ -3187,6 +3187,11 @@
     <member refid="group__GeneralGroup_1ga5daa51d87dc540fd02b52303e05cbe20" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1gaefce61dfeb872bbe04d722fc13f1a0ac" kind="function"><name>separatorName</name></member>
   </compound>
+  <compound refid="classMR_1_1ExtraFormatSettings" kind="class"><name>MR::ExtraFormatSettings</name>
+    <member refid="group__GeneralGroup_1ga7cc25bc496e0571853d5bff35f22141c" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1gae3be0e4523fa81a156b0f18d9ba3626f" kind="function"><name>getStepLoadSettings</name></member>
+    <member refid="group__GeneralGroup_1gacbee99bc55851f045016c99b05b192ae" kind="function"><name>setStepLoadSettings</name></member>
+  </compound>
   <compound refid="structMR_1_1FaceDistancesSettings" kind="struct"><name>MR::FaceDistancesSettings</name>
     <member refid="group__GeneralGroup_1gafb9b1832b03f4aa0afb1842bf74a358a" kind="enum"><name>OutputFaceValues</name></member>
     <member refid="group__GeneralGroup_1ga712f07635ebe5270dd2a58473ca7a7cb" kind="variable"><name>out</name></member>
@@ -17423,6 +17428,8 @@
   </compound>
   <compound refid="MRE57_8h" kind="file"><name>MRE57.h</name>
   </compound>
+  <compound refid="MRExtraFormatSettings_8h" kind="file"><name>MRExtraFormatSettings.h</name>
+  </compound>
   <compound refid="MRGltf_8h" kind="file"><name>MRGltf.h</name>
   </compound>
   <compound refid="MRIOExtras_8h" kind="file"><name>MRIOExtras.h</name>
@@ -25740,6 +25747,9 @@
     <member refid="group__GeneralGroup_1gae7775f44d52949b8d06ef0d096de8863" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1ga898d2d11a740e4045732fea8bcaf73cd" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1gaf1f0368ea29bcc428bd7a55601155bd2" kind="function"><name>toCtm</name></member>
+    <member refid="group__GeneralGroup_1ga7cc25bc496e0571853d5bff35f22141c" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1gae3be0e4523fa81a156b0f18d9ba3626f" kind="function"><name>getStepLoadSettings</name></member>
+    <member refid="group__GeneralGroup_1gacbee99bc55851f045016c99b05b192ae" kind="function"><name>setStepLoadSettings</name></member>
     <member refid="group__GeneralGroup_1gae6fa636dd51f34ce2884fd560b05e1f4" kind="function"><name>deserializeObjectTreeFromGltf</name></member>
     <member refid="group__GeneralGroup_1ga01574256a10162ba5b6e30329e70503e" kind="function"><name>serializeObjectTreeToGltf</name></member>
     <member refid="group__GeneralGroup_1ga9da69906a8753c1bbec83769cf687367" kind="function"><name>loadIOExtras</name></member>

@@ -5866,6 +5866,17 @@
     <member refid="classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string_1aeb9894aff9bc892fe16b59b3b08b790d" kind="function"><name>error</name></member>
     <member refid="classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string_1a7b6569c0b7b2af48c36e65ecb1481bdf" kind="function"><name>value</name></member>
   </compound>
+  <compound refid="classmrmeshpy_1_1ExtraFormatSettings" kind="class"><name>mrmeshpy::ExtraFormatSettings</name>
+    <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a79b6ffd0d2320056c1ef8ead2253ab17" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a53a336731155b64114abfa0494e74e78" kind="function"><name>getStepLoadSettings</name></member>
+    <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a1b3e50c559688143bafec3e953dbf1c5" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a1b3e50c559688143bafec3e953dbf1c5" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1ExtraFormatSettings_1ab9fbae41344bb835d6c227039540e3f9" kind="function"><name>reset</name></member>
+    <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a246d1a578dfdf34b103eb2a6b1d00348" kind="function"><name>setStepLoadSettings</name></member>
+    <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a4b059fef8db88fd12e763cab7085ce19" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ExtraFormatSettings_1ab6235dc709715ba0e27f983b695383ea" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a4b059fef8db88fd12e763cab7085ce19" kind="function"><name>__init__</name></member>
+  </compound>
   <compound refid="classmrmeshpy_1_1ExtremeEdgeType" kind="class"><name>mrmeshpy::ExtremeEdgeType</name>
     <member refid="classmrmeshpy_1_1ExtremeEdgeType_1ac70dcf3c5289455ee8188bc2790600d6" kind="variable"><name>Gorge</name></member>
     <member refid="classmrmeshpy_1_1ExtremeEdgeType_1afe4402c4dcd37ba4396fa169bdde5f92" kind="variable"><name>Ridge</name></member>
@@ -30881,8 +30892,8 @@
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a2f674215f03943ce77e4b800c46fb434" kind="function"><name>fromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a8c129066ec57b924bbd7e1ecd49f9634" kind="function"><name>fromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a239472762712a6d742940866d9c12df3" kind="function"><name>fromVdb</name></member>
-    <member refid="classmrmeshpy_1_1VoxelsLoad_1acc23c6953c375804496949ebfd4d52d4" kind="function"><name>gridFromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1ad11add7a57292c1b92e17c3a5edee463" kind="function"><name>gridFromRaw</name></member>
+    <member refid="classmrmeshpy_1_1VoxelsLoad_1acc23c6953c375804496949ebfd4d52d4" kind="function"><name>gridFromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a57fd0589d500ff33af21c13e7c80aa6e" kind="function"><name>gridFromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1aef7c5474aed881dbc6dacfa6699ef46b" kind="function"><name>gridsFromAnySupportedFormat</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a51aaf65530c90d93f4bb7705693b1863" kind="function"><name>gridsFromVdb</name></member>

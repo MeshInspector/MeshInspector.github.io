@@ -876,6 +876,9 @@ var hierarchy =
       [ "MR.Const_Expected_MRCudaDeviceInfo_StdString", "classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html", [
         [ "MR.Expected_MRCudaDeviceInfo_StdString", "classMR_1_1Expected__MRCudaDeviceInfo__StdString.html", null ]
       ] ],
+      [ "MR.Const_ExtraFormatSettings", "classMR_1_1Const__ExtraFormatSettings.html", [
+        [ "MR.ExtraFormatSettings", "classMR_1_1ExtraFormatSettings.html", null ]
+      ] ],
       [ "MR.Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html", [
         [ "MR.Face2RegionMap", "classMR_1_1Face2RegionMap.html", null ]
       ] ],
@@ -3877,6 +3880,7 @@ var hierarchy =
       [ "MR.Const_EnumNeihbourFaces", "classMR_1_1Const__EnumNeihbourFaces.html", null ],
       [ "MR.Const_EnumNeihbourVertices", "classMR_1_1Const__EnumNeihbourVertices.html", null ],
       [ "MR.Const_Expected_MRCudaDeviceInfo_StdString", "classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html", null ],
+      [ "MR.Const_ExtraFormatSettings", "classMR_1_1Const__ExtraFormatSettings.html", null ],
       [ "MR.Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html", null ],
       [ "MR.Const_FaceBMap", "classMR_1_1Const__FaceBMap.html", null ],
       [ "MR.Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html", null ],

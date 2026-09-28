@@ -8,6 +8,7 @@
     <includes refid="MRMeshLoadSettings_8h" local="no">MRMesh/MRMeshLoadSettings.h</includes>
     <includes local="no">filesystem</includes>
     <includes local="no">iostream</includes>
+    <includedby refid="MRExtraFormatSettings_8h" local="yes">MRIOExtras/MRExtraFormatSettings.h</includedby>
     <incdepgraph>
       <node id="1">
         <label>MRIOExtras/MRStep.h</label>
@@ -156,6 +157,18 @@
         <label>vector</label>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRIOExtras/MRExtraFormatSettings.h</label>
+        <link refid="MRExtraFormatSettings_8h"/>
+      </node>
+      <node id="1">
+        <label>MRIOExtras/MRStep.h</label>
+        <link refid="MRStep_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
     <innerclass refid="structMR_1_1MeshLoad_1_1StepLoadSettings" prot="public">MR::MeshLoad::StepLoadSettings</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <innernamespace refid="namespaceMR_1_1MeshLoad">MR::MeshLoad</innernamespace>

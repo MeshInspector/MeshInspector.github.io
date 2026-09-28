@@ -269,6 +269,7 @@ var annotated_dup =
       [ "EnumNeihbourVertices", "classmrmeshpy_1_1EnumNeihbourVertices.html", "classmrmeshpy_1_1EnumNeihbourVertices" ],
       [ "expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_FloatGrid_std_string", "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__FloatGrid__std__string.html", "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__FloatGrid__std__string" ],
       [ "expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string", "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html", "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string" ],
+      [ "ExtraFormatSettings", "classmrmeshpy_1_1ExtraFormatSettings.html", "classmrmeshpy_1_1ExtraFormatSettings" ],
       [ "ExtremeEdgeType", "classmrmeshpy_1_1ExtremeEdgeType.html", "classmrmeshpy_1_1ExtremeEdgeType" ],
       [ "Face2RegionMap", "classmrmeshpy_1_1Face2RegionMap.html", "classmrmeshpy_1_1Face2RegionMap" ],
       [ "FaceBitSet", "classmrmeshpy_1_1FaceBitSet.html", "classmrmeshpy_1_1FaceBitSet" ],

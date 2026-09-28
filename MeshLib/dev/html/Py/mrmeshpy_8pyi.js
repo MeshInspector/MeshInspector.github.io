@@ -288,6 +288,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.EndMillTool", "classmrmeshpy_1_1EndMillTool.html", "classmrmeshpy_1_1EndMillTool" ],
     [ "mrmeshpy.EnumNeihbourFaces", "classmrmeshpy_1_1EnumNeihbourFaces.html", "classmrmeshpy_1_1EnumNeihbourFaces" ],
     [ "mrmeshpy.EnumNeihbourVertices", "classmrmeshpy_1_1EnumNeihbourVertices.html", "classmrmeshpy_1_1EnumNeihbourVertices" ],
+    [ "mrmeshpy.ExtraFormatSettings", "classmrmeshpy_1_1ExtraFormatSettings.html", "classmrmeshpy_1_1ExtraFormatSettings" ],
     [ "mrmeshpy.ExtremeEdgeType", "classmrmeshpy_1_1ExtremeEdgeType.html", "classmrmeshpy_1_1ExtremeEdgeType" ],
     [ "mrmeshpy.Face2RegionMap", "classmrmeshpy_1_1Face2RegionMap.html", "classmrmeshpy_1_1Face2RegionMap" ],
     [ "mrmeshpy.FaceBMap", "classmrmeshpy_1_1FaceBMap.html", "classmrmeshpy_1_1FaceBMap" ],

@@ -314,6 +314,7 @@ var hierarchy =
     [ "mrmeshpy.MeshComponents.ExpandToComponentsParams", "classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams.html", null ],
     [ "mrmeshpy.expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_FloatGrid_std_string", "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__FloatGrid__std__string.html", null ],
     [ "mrmeshpy.expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_std_string", "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html", null ],
+    [ "mrmeshpy.ExtraFormatSettings", "classmrmeshpy_1_1ExtraFormatSettings.html", null ],
     [ "mrmeshpy.ExtremeEdgeType", "classmrmeshpy_1_1ExtremeEdgeType.html", null ],
     [ "mrmeshpy.Face2RegionMap", "classmrmeshpy_1_1Face2RegionMap.html", null ],
     [ "mrmeshpy.FaceBMap", "classmrmeshpy_1_1FaceBMap.html", null ],

@@ -49,6 +49,7 @@
     <innerclass refid="structMR_1_1EmbeddedPython_1_1Config" prot="public">MR::EmbeddedPython::Config</innerclass>
     <innerclass refid="structMR_1_1MeshSave_1_1CtmSaveOptions" prot="public">MR::MeshSave::CtmSaveOptions</innerclass>
     <innerclass refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions" prot="public">MR::PointsSave::CtmSavePointsOptions</innerclass>
+    <innerclass refid="classMR_1_1ExtraFormatSettings" prot="public">MR::ExtraFormatSettings</innerclass>
     <innerclass refid="structMR_1_1Nesting_1_1Nesting3mfParams" prot="public">MR::Nesting::Nesting3mfParams</innerclass>
     <innerclass refid="structMR_1_1PdfParameters" prot="public">MR::PdfParameters</innerclass>
     <innerclass refid="classMR_1_1Pdf" prot="public">MR::Pdf</innerclass>
@@ -79506,6 +79507,53 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <inbodydescription>
         </inbodydescription>
         <location file="MRIOExtras/MRCtm.h" line="82" column="11" declfile="MRIOExtras/MRCtm.h" declline="82" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga7cc25bc496e0571853d5bff35f22141c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MR::ExtraFormatSettings::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::ExtraFormatSettings::reset</qualifiedname>
+        <briefdescription>
+<para>resets all settings to default values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRExtraFormatSettings.h" line="18" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gae3be0e4523fa81a156b0f18d9ba3626f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshLoad::StepLoadSettings</type>
+        <definition>static MeshLoad::StepLoadSettings MR::ExtraFormatSettings::getStepLoadSettings</definition>
+        <argsstring>()</argsstring>
+        <name>getStepLoadSettings</name>
+        <qualifiedname>MR::ExtraFormatSettings::getStepLoadSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRExtraFormatSettings.h" line="21" column="40"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gacbee99bc55851f045016c99b05b192ae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MR::ExtraFormatSettings::setStepLoadSettings</definition>
+        <argsstring>(const MeshLoad::StepLoadSettings &amp;settings)</argsstring>
+        <name>setStepLoadSettings</name>
+        <qualifiedname>MR::ExtraFormatSettings::setStepLoadSettings</qualifiedname>
+        <param>
+          <type>const MeshLoad::StepLoadSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRExtraFormatSettings.h" line="22" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae6fa636dd51f34ce2884fd560b05e1f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::shared_ptr&lt; Object &gt; &gt;</type>

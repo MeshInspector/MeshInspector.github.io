@@ -524,6 +524,21 @@
     <member refid="MRE57_8h_1a8015403f06c7c6c7bea91069853d41d7" kind="function"><name>MR_PointsLoad_fromE57_std_istream</name></member>
     <member refid="MRE57_8h_1a32679619e5d19d0c7d152145465a51c8" kind="function"><name>MR_PointsLoad_loadObjectFromE57</name></member>
   </compound>
+  <compound refid="MRExtraFormatSettings_8h" kind="file"><name>MRExtraFormatSettings.h</name>
+    <member refid="MRExtraFormatSettings_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kind="typedef"><name>MR_MeshLoad_StepLoadSettings</name></member>
+    <member refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kind="typedef"><name>MR_ExtraFormatSettings</name></member>
+    <member refid="MRExtraFormatSettings_8h_1afbd29e669251302f890933971c7b0c8b" kind="function"><name>MR_ExtraFormatSettings_DefaultConstruct</name></member>
+    <member refid="MRExtraFormatSettings_8h_1a7d10e9e194a7030846766809c1c97147" kind="function"><name>MR_ExtraFormatSettings_DefaultConstructArray</name></member>
+    <member refid="MRExtraFormatSettings_8h_1a870915718bc776740dbf6da78be19edc" kind="function"><name>MR_ExtraFormatSettings_OffsetPtr</name></member>
+    <member refid="MRExtraFormatSettings_8h_1ab57eb2a801861438ac37ae4d89184f84" kind="function"><name>MR_ExtraFormatSettings_OffsetMutablePtr</name></member>
+    <member refid="MRExtraFormatSettings_8h_1ad1cd6705c662fa21b6e770a4df04351a" kind="function"><name>MR_ExtraFormatSettings_ConstructFromAnother</name></member>
+    <member refid="MRExtraFormatSettings_8h_1a1607b4a930a6b90b82cb39e32aad3529" kind="function"><name>MR_ExtraFormatSettings_Destroy</name></member>
+    <member refid="MRExtraFormatSettings_8h_1af4cff0b9c11d1c60eb59ce17cf02f80f" kind="function"><name>MR_ExtraFormatSettings_DestroyArray</name></member>
+    <member refid="MRExtraFormatSettings_8h_1a18ee77a9f741009755d6877b1c73d501" kind="function"><name>MR_ExtraFormatSettings_AssignFromAnother</name></member>
+    <member refid="MRExtraFormatSettings_8h_1aa46fa96ef72b01c17a1d45d1c1d79555" kind="function"><name>MR_ExtraFormatSettings_reset</name></member>
+    <member refid="MRExtraFormatSettings_8h_1afb6631d0fef6e8b093b4eec2e3593081" kind="function"><name>MR_ExtraFormatSettings_getStepLoadSettings</name></member>
+    <member refid="MRExtraFormatSettings_8h_1a6be1b6025cfd4e5002287cf6adc4d983" kind="function"><name>MR_ExtraFormatSettings_setStepLoadSettings</name></member>
+  </compound>
   <compound refid="MRGltf_8h" kind="file"><name>MRGltf.h</name>
     <member refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kind="typedef"><name>MR_Object</name></member>
     <member refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kind="typedef"><name>MR_SceneSave_Settings</name></member>
@@ -836,7 +851,6 @@
     <member refid="MRPng_8h_1a1a661431b7c646f604d45fd781798f45" kind="function"><name>MR_ImageSave_toPng_std_ostream</name></member>
   </compound>
   <compound refid="MRStep_8h" kind="file"><name>MRStep.h</name>
-    <member refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kind="typedef"><name>MR_MeshLoad_StepLoadSettings</name></member>
     <member refid="MRStep_8h_1a69e4f444cdb1efde0e2786bb78243949" kind="function"><name>MR_MeshLoad_StepLoadSettings_Get_angularDeflection</name></member>
     <member refid="MRStep_8h_1ac727522ce67d6c6bfe92f70856e56f06" kind="function"><name>MR_MeshLoad_StepLoadSettings_Set_angularDeflection</name></member>
     <member refid="MRStep_8h_1ac2d56670cca34e49b9fd855dffbe24d8" kind="function"><name>MR_MeshLoad_StepLoadSettings_GetMutable_angularDeflection</name></member>

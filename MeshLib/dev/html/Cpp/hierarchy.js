@@ -402,6 +402,7 @@ var hierarchy =
     [ "MR::MeshBuilder::equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", null ],
     [ "MR::MeshComponents::ExpandToComponentsParams", "structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html", null ],
     [ "MR::ViewerSettingsPlugin::ExternalSettings", "classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html", null ],
+    [ "MR::ExtraFormatSettings", "classMR_1_1ExtraFormatSettings.html", null ],
     [ "MR::FaceDistancesSettings", "structMR_1_1FaceDistancesSettings.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
     [ "MR::FaceFaceFace", "structMR_1_1FaceFaceFace.html", null ],

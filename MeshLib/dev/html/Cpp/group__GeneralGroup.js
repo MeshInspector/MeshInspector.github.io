@@ -316,6 +316,7 @@ var group__GeneralGroup =
       [ "comment", "group__GeneralGroup.html#ga5f613f44fae6b6a33f13f57fc0161a01", null ],
       [ "compressionLevel", "group__GeneralGroup.html#ga93bcbf8ddd9c5a89210bf3cf9f8acbef", null ]
     ] ],
+    [ "MR::ExtraFormatSettings", "classMR_1_1ExtraFormatSettings.html", null ],
     [ "MR::Nesting::Nesting3mfParams", "structMR_1_1Nesting_1_1Nesting3mfParams.html", [
       [ "cb", "group__GeneralGroup.html#ga2808d219eb445397b22f5950659e0561", null ],
       [ "decimateMaxError", "group__GeneralGroup.html#gaf3032d52bc7a38384a85315c9e82a4e6", null ],
@@ -12947,6 +12948,7 @@ var group__GeneralGroup =
     [ "MR::Viewer::getStaticGLBufferSize", "group__GeneralGroup.html#ga09c11048760de5f9614eff7510c65b63", null ],
     [ "MR::ICP::getStatusInfo", "group__GeneralGroup.html#ga4ae3f70fc9c4fc7ffbcdb0f43eae2421", null ],
     [ "MR::MultiwayICP::getStatusInfo", "group__GeneralGroup.html#ga6e1eda7d34eb0bef9c81d8e1e5d9c5ad", null ],
+    [ "MR::ExtraFormatSettings::getStepLoadSettings", "group__GeneralGroup.html#gae3be0e4523fa81a156b0f18d9ba3626f", null ],
     [ "MR::Viewer::getStopEventLoopFlag", "group__GeneralGroup.html#gaff7d7329c84d85a009790d68eeb8661d", null ],
     [ "MR::ImGuiMenu::getStoredColor_", "group__GeneralGroup.html#ga94d45ffa94d1720d85a4120b6e769b55", null ],
     [ "MR::RecentFilesStore::getStoredFiles", "group__GeneralGroup.html#ga2b477d298bbd9cf6c9461c91516ac972", null ],
@@ -15080,6 +15082,7 @@ var group__GeneralGroup =
     [ "MR::DepthPeelingGL::reset", "group__GeneralGroup.html#gab4550839dc9988e12df6606b43a80c09", null ],
     [ "MR::DirectionWidget::reset", "group__GeneralGroup.html#ga7d9c7eab674b64dddd6446ef4bbca1ee", null ],
     [ "MR::EdgePathsBuilderT::reset", "group__GeneralGroup.html#ga8b233d3b70904335296fbd82fcbc693f", null ],
+    [ "MR::ExtraFormatSettings::reset", "group__GeneralGroup.html#ga7cc25bc496e0571853d5bff35f22141c", null ],
     [ "MR::FastInSphereTesterSoS::reset", "group__GeneralGroup.html#ga1855670ce694c01ac7166e9562dc5ffb", null ],
     [ "MR::FewSmallest::reset", "group__GeneralGroup.html#ga137b1fa934a6f5746491768b2b3aab36", null ],
     [ "MR::FrameCounter::reset", "group__GeneralGroup.html#ga7327ef9217c0d637a3fe427f72676165", null ],
@@ -15697,6 +15700,7 @@ var group__GeneralGroup =
     [ "MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::setStartPoint_", "group__GeneralGroup.html#gac78f92ce2922c13cd873ba0f32c36c9c", null ],
     [ "MR::MoveObjectByMouseImpl::setStartPoint_", "group__GeneralGroup.html#ga19db3ae934aebaa9b9dceb96c2277baa", null ],
     [ "MR::CommandLoop::setState", "group__GeneralGroup.html#gad8d97732825e4cad90081d68d7923d8d", null ],
+    [ "MR::ExtraFormatSettings::setStepLoadSettings", "group__GeneralGroup.html#gacbee99bc55851f045016c99b05b192ae", null ],
     [ "MR::ObjectTransformWidget::setStopModifyCallback", "group__GeneralGroup.html#ga955e4e19a2da3a72cc42d41baaa73ad2", null ],
     [ "MR::FeatureObject::setSubfeatureAlphaLines", "group__GeneralGroup.html#gab1839fdbfe0b948bccf3cdddf1ae1314", null ],
     [ "MR::FeatureObject::setSubfeatureAlphaMesh", "group__GeneralGroup.html#ga193356fe757184c93dc16b249a71f0d0", null ],

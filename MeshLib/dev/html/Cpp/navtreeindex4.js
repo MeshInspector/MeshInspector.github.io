@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"MROverlappingTris_8h.html":[9,0,3,0,7,287],
+"MROverlappingTris_8h_source.html":[9,0,3,0,7,287],
 "MRPalette_8h.html":[9,0,3,0,11,68],
 "MRPalette_8h_source.html":[9,0,3,0,11,68],
 "MRParabola_8h.html":[9,0,3,0,7,288],
@@ -20,8 +22,8 @@ var NAVTREEINDEX4 =
 "MRPartialChangeMeshAction_8h_source.html":[9,0,3,0,7,293],
 "MRPartialOffset_8h.html":[9,0,3,0,12,18],
 "MRPartialOffset_8h_source.html":[9,0,3,0,12,18],
-"MRPdf_8h.html":[9,0,3,0,4,9],
-"MRPdf_8h_source.html":[9,0,3,0,4,9],
+"MRPdf_8h.html":[9,0,3,0,4,10],
+"MRPdf_8h_source.html":[9,0,3,0,4,10],
 "MRPickHoleBorderElement_8h.html":[9,0,3,0,11,69],
 "MRPickHoleBorderElement_8h_source.html":[9,0,3,0,11,69],
 "MRPickPointManager_8h.html":[9,0,3,0,11,70],
@@ -34,8 +36,8 @@ var NAVTREEINDEX4 =
 "MRPlaneWidget_8h_source.html":[9,0,3,0,11,71],
 "MRPly_8h.html":[9,0,3,0,7,298],
 "MRPly_8h_source.html":[9,0,3,0,7,298],
-"MRPng_8h.html":[9,0,3,0,4,10],
-"MRPng_8h_source.html":[9,0,3,0,4,10],
+"MRPng_8h.html":[9,0,3,0,4,11],
+"MRPng_8h_source.html":[9,0,3,0,4,11],
 "MRPointCloudDistance_8h.html":[9,0,3,0,7,300],
 "MRPointCloudDistance_8h_source.html":[9,0,3,0,7,300],
 "MRPointCloudDivideWithPlane_8h.html":[9,0,3,0,7,301],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "MRRibbonFontHolder_8h_source.html":[9,0,3,0,11,96],
 "MRRibbonFontManager_8h.html":[9,0,3,0,11,97],
 "MRRibbonFontManager_8h_source.html":[9,0,3,0,11,97],
-"MRRibbonIcons_8h.html":[9,0,3,0,11,98],
-"MRRibbonIcons_8h_source.html":[9,0,3,0,11,98],
-"MRRibbonLayoutConfig_8h.html":[9,0,3,0,11,99]
+"MRRibbonIcons_8h.html":[9,0,3,0,11,98]
 };

@@ -383,6 +383,7 @@ var namespaceMR =
     [ "EndMillTool", "structMR_1_1EndMillTool.html", "structMR_1_1EndMillTool" ],
     [ "EnumNeihbourFaces", "classMR_1_1EnumNeihbourFaces.html", "classMR_1_1EnumNeihbourFaces" ],
     [ "EnumNeihbourVertices", "classMR_1_1EnumNeihbourVertices.html", "classMR_1_1EnumNeihbourVertices" ],
+    [ "ExtraFormatSettings", "classMR_1_1ExtraFormatSettings.html", null ],
     [ "FaceDistancesSettings", "structMR_1_1FaceDistancesSettings.html", "structMR_1_1FaceDistancesSettings" ],
     [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
     [ "FaceFaceFace", "structMR_1_1FaceFaceFace.html", "structMR_1_1FaceFaceFace" ],

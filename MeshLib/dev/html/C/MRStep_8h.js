@@ -1,6 +1,5 @@
 var MRStep_8h =
 [
-    [ "MR_MeshLoad_StepLoadSettings", "MRStep_8h.html#acc87a50ccb0fce6322dd9a0b5696aa4c", null ],
     [ "MR_MeshLoad_fromSceneStepFile_std_filesystem_path", "MRStep_8h.html#aa42e74b79641f1632ee7a4fc9ef28a0c", null ],
     [ "MR_MeshLoad_fromSceneStepFile_std_istream", "MRStep_8h.html#a29e642052042fb06fe0bd7b6d7bc39e5", null ],
     [ "MR_MeshLoad_fromStep_std_filesystem_path", "MRStep_8h.html#af81ad6f62d90cb8372f80a92e12c8248", null ],

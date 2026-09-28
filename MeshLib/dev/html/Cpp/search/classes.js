@@ -124,6 +124,7 @@ var searchData=
   ['equalvector3f_22',['equalVector3f',['../structMR_1_1MeshBuilder_1_1equalVector3f.html',1,'MR::MeshBuilder']]],
   ['expandtocomponentsparams_23',['ExpandToComponentsParams',['../structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html',1,'MR::MeshComponents']]],
   ['externalsettings_24',['ExternalSettings',['../classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html',1,'MR::ViewerSettingsPlugin']]],
+  ['extraformatsettings_25',['ExtraFormatSettings',['../classMR_1_1ExtraFormatSettings.html',1,'MR']]],
   ['makebridgeresult_0',['MakeBridgeResult',['../structMR_1_1MakeBridgeResult.html',1,'MR']]],
   ['makedegeneratebandaroundregionparams_1',['MakeDegenerateBandAroundRegionParams',['../structMR_1_1MakeDegenerateBandAroundRegionParams.html',1,'MR']]],
   ['makescopeguard_2',['MakeScopeGuard',['../structMR_1_1detail_1_1MakeScopeGuard.html',1,'MR::detail']]],

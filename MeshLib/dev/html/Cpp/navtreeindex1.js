@@ -156,6 +156,8 @@ var NAVTREEINDEX1 =
 "MRExpandShrink_8h_source.html":[9,0,3,0,7,108],
 "MRExpected_8h.html":[9,0,3,0,7,109],
 "MRExpected_8h_source.html":[9,0,3,0,7,109],
+"MRExtraFormatSettings_8h.html":[9,0,3,0,4,4],
+"MRExtraFormatSettings_8h_source.html":[9,0,3,0,4,4],
 "MRExtractIsolines_8h.html":[9,0,3,0,7,110],
 "MRExtractIsolines_8h_source.html":[9,0,3,0,7,110],
 "MRFaceDistance_8h.html":[9,0,3,0,7,111],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "MRGLTexture_8h_source.html":[9,0,3,0,11,34],
 "MRGcodeLoad_8h.html":[9,0,3,0,7,134],
 "MRGcodeLoad_8h_source.html":[9,0,3,0,7,134],
-"MRGcodeProcessor_8h.html":[9,0,3,0,7,135],
-"MRGcodeProcessor_8h_source.html":[9,0,3,0,7,135],
-"MRGetSystemInfoJson_8h.html":[9,0,3,0,11,30]
+"MRGcodeProcessor_8h.html":[9,0,3,0,7,135]
 };

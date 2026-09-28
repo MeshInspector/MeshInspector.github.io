@@ -268,6 +268,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AEmbeddedPython_3A_3AConfig" id="r_MR_3A_3AEmbeddedPython_3A_3AConfig"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EmbeddedPython_1_1Config.html">MR::EmbeddedPython::Config</a></td></tr>
 <tr class="memitem:MR_3A_3AMeshSave_3A_3ACtmSaveOptions" id="r_MR_3A_3AMeshSave_3A_3ACtmSaveOptions"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></td></tr>
 <tr class="memitem:MR_3A_3APointsSave_3A_3ACtmSavePointsOptions" id="r_MR_3A_3APointsSave_3A_3ACtmSavePointsOptions"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></td></tr>
+<tr class="memitem:MR_3A_3AExtraFormatSettings" id="r_MR_3A_3AExtraFormatSettings"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ExtraFormatSettings.html">MR::ExtraFormatSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">default settings of MRIOExtras formats, used when loading or saving via the format registry  <a href="classMR_1_1ExtraFormatSettings.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ANesting_3A_3ANesting3mfParams" id="r_MR_3A_3ANesting_3A_3ANesting3mfParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Nesting_1_1Nesting3mfParams.html">MR::Nesting::Nesting3mfParams</a></td></tr>
 <tr class="memitem:MR_3A_3APdfParameters" id="r_MR_3A_3APdfParameters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PdfParameters.html">MR::PdfParameters</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters of document style.  <a href="structMR_1_1PdfParameters.html#details">More...</a><br /></td></tr>
@@ -3430,6 +3432,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gae7775f44d52949b8d06ef0d096de8863" id="r_gae7775f44d52949b8d06ef0d096de8863"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae7775f44d52949b8d06ef0d096de8863">MR::PointsSave::toCtm</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, std::ostream &amp;out, const <a class="el" href="structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">CtmSavePointsOptions</a> &amp;options)</td></tr>
 <tr class="memitem:ga898d2d11a740e4045732fea8bcaf73cd" id="r_ga898d2d11a740e4045732fea8bcaf73cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga898d2d11a740e4045732fea8bcaf73cd">MR::PointsSave::toCtm</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:gaf1f0368ea29bcc428bd7a55601155bd2" id="r_gaf1f0368ea29bcc428bd7a55601155bd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf1f0368ea29bcc428bd7a55601155bd2">MR::PointsSave::toCtm</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, std::ostream &amp;out, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga7cc25bc496e0571853d5bff35f22141c" id="r_ga7cc25bc496e0571853d5bff35f22141c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7cc25bc496e0571853d5bff35f22141c">MR::ExtraFormatSettings::reset</a> ()</td></tr>
+<tr class="memdesc:ga7cc25bc496e0571853d5bff35f22141c"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets all settings to default values  <br /></td></tr>
+<tr class="memitem:gae3be0e4523fa81a156b0f18d9ba3626f" id="r_gae3be0e4523fa81a156b0f18d9ba3626f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">MeshLoad::StepLoadSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3be0e4523fa81a156b0f18d9ba3626f">MR::ExtraFormatSettings::getStepLoadSettings</a> ()</td></tr>
+<tr class="memitem:gacbee99bc55851f045016c99b05b192ae" id="r_gacbee99bc55851f045016c99b05b192ae"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacbee99bc55851f045016c99b05b192ae">MR::ExtraFormatSettings::setStepLoadSettings</a> (const <a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">MeshLoad::StepLoadSettings</a> &amp;settings)</td></tr>
 <tr class="memitem:gae6fa636dd51f34ce2884fd560b05e1f4" id="r_gae6fa636dd51f34ce2884fd560b05e1f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae6fa636dd51f34ce2884fd560b05e1f4">MR::deserializeObjectTreeFromGltf</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:gae6fa636dd51f34ce2884fd560b05e1f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads scene from glTF file in a new container object  <br /></td></tr>
 <tr class="memitem:ga01574256a10162ba5b6e30329e70503e" id="r_ga01574256a10162ba5b6e30329e70503e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga01574256a10162ba5b6e30329e70503e">MR::serializeObjectTreeToGltf</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;root, const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1SceneSave_1_1Settings.html">SceneSave::Settings</a> &amp;settings)</td></tr>
@@ -95676,6 +95682,33 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gae3be0e4523fa81a156b0f18d9ba3626f" name="gae3be0e4523fa81a156b0f18d9ba3626f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae3be0e4523fa81a156b0f18d9ba3626f">&#9670;&#160;</a></span>getStepLoadSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">MeshLoad::StepLoadSettings</a> MR::ExtraFormatSettings::getStepLoadSettings </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRExtraFormatSettings_8h.html">MRIOExtras/MRExtraFormatSettings.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gaff7d7329c84d85a009790d68eeb8661d" name="gaff7d7329c84d85a009790d68eeb8661d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaff7d7329c84d85a009790d68eeb8661d">&#9670;&#160;</a></span>getStopEventLoopFlag()</h2>
 
@@ -156352,7 +156385,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="ga445c3b0c4fa983e99bc09eec8b063b34" name="ga445c3b0c4fa983e99bc09eec8b063b34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga445c3b0c4fa983e99bc09eec8b063b34">&#9670;&#160;</a></span>reset() <span class="overload">[1/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga445c3b0c4fa983e99bc09eec8b063b34">&#9670;&#160;</a></span>reset() <span class="overload">[1/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156373,7 +156406,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gadc804e05290d593cba2bee002c0b1226" name="gadc804e05290d593cba2bee002c0b1226"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadc804e05290d593cba2bee002c0b1226">&#9670;&#160;</a></span>reset() <span class="overload">[2/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadc804e05290d593cba2bee002c0b1226">&#9670;&#160;</a></span>reset() <span class="overload">[2/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156394,7 +156427,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gaf214cbf713cffeca3d05767eb0478076" name="gaf214cbf713cffeca3d05767eb0478076"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf214cbf713cffeca3d05767eb0478076">&#9670;&#160;</a></span>reset() <span class="overload">[3/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf214cbf713cffeca3d05767eb0478076">&#9670;&#160;</a></span>reset() <span class="overload">[3/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156415,7 +156448,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="ga97224204d9a8fb7c998f7899e16e5af4" name="ga97224204d9a8fb7c998f7899e16e5af4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga97224204d9a8fb7c998f7899e16e5af4">&#9670;&#160;</a></span>reset() <span class="overload">[4/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga97224204d9a8fb7c998f7899e16e5af4">&#9670;&#160;</a></span>reset() <span class="overload">[4/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156436,7 +156469,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="ga350ebc799fad87e3f4fdbac53c4c1f56" name="ga350ebc799fad87e3f4fdbac53c4c1f56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga350ebc799fad87e3f4fdbac53c4c1f56">&#9670;&#160;</a></span>reset() <span class="overload">[5/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga350ebc799fad87e3f4fdbac53c4c1f56">&#9670;&#160;</a></span>reset() <span class="overload">[5/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156455,7 +156488,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gaa09cebafb0e39827a67f62a269c7c551" name="gaa09cebafb0e39827a67f62a269c7c551"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa09cebafb0e39827a67f62a269c7c551">&#9670;&#160;</a></span>reset() <span class="overload">[6/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa09cebafb0e39827a67f62a269c7c551">&#9670;&#160;</a></span>reset() <span class="overload">[6/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156476,7 +156509,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gaa46954e1ccf8e1c7d6699e34aceb182a" name="gaa46954e1ccf8e1c7d6699e34aceb182a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa46954e1ccf8e1c7d6699e34aceb182a">&#9670;&#160;</a></span>reset() <span class="overload">[7/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa46954e1ccf8e1c7d6699e34aceb182a">&#9670;&#160;</a></span>reset() <span class="overload">[7/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156497,7 +156530,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gaff331c694c13233b9e7f9240c528d789" name="gaff331c694c13233b9e7f9240c528d789"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaff331c694c13233b9e7f9240c528d789">&#9670;&#160;</a></span>reset() <span class="overload">[8/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff331c694c13233b9e7f9240c528d789">&#9670;&#160;</a></span>reset() <span class="overload">[8/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156528,7 +156561,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="gafc243a4d7a4db10effb980ef1d5ea53f" name="gafc243a4d7a4db10effb980ef1d5ea53f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafc243a4d7a4db10effb980ef1d5ea53f">&#9670;&#160;</a></span>reset() <span class="overload">[9/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafc243a4d7a4db10effb980ef1d5ea53f">&#9670;&#160;</a></span>reset() <span class="overload">[9/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156549,7 +156582,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga1032e35fb6655c21714f2b61b829255b" name="ga1032e35fb6655c21714f2b61b829255b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1032e35fb6655c21714f2b61b829255b">&#9670;&#160;</a></span>reset() <span class="overload">[10/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1032e35fb6655c21714f2b61b829255b">&#9670;&#160;</a></span>reset() <span class="overload">[10/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156572,7 +156605,7 @@ template&lt;typename Tag&gt; </div>
 </div>
 </div>
 <a id="gad657373f26b8e6cf769236dbc021d204" name="gad657373f26b8e6cf769236dbc021d204"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad657373f26b8e6cf769236dbc021d204">&#9670;&#160;</a></span>reset() <span class="overload">[11/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad657373f26b8e6cf769236dbc021d204">&#9670;&#160;</a></span>reset() <span class="overload">[11/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156592,7 +156625,7 @@ template&lt;typename Tag&gt; </div>
 </div>
 </div>
 <a id="ga2630eea62fad502665d655fe9fb9a36c" name="ga2630eea62fad502665d655fe9fb9a36c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2630eea62fad502665d655fe9fb9a36c">&#9670;&#160;</a></span>reset() <span class="overload">[12/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2630eea62fad502665d655fe9fb9a36c">&#9670;&#160;</a></span>reset() <span class="overload">[12/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156613,7 +156646,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab4550839dc9988e12df6606b43a80c09" name="gab4550839dc9988e12df6606b43a80c09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab4550839dc9988e12df6606b43a80c09">&#9670;&#160;</a></span>reset() <span class="overload">[13/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab4550839dc9988e12df6606b43a80c09">&#9670;&#160;</a></span>reset() <span class="overload">[13/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156633,7 +156666,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7d9c7eab674b64dddd6446ef4bbca1ee" name="ga7d9c7eab674b64dddd6446ef4bbca1ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7d9c7eab674b64dddd6446ef4bbca1ee">&#9670;&#160;</a></span>reset() <span class="overload">[14/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7d9c7eab674b64dddd6446ef4bbca1ee">&#9670;&#160;</a></span>reset() <span class="overload">[14/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156653,7 +156686,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga8b233d3b70904335296fbd82fcbc693f" name="ga8b233d3b70904335296fbd82fcbc693f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8b233d3b70904335296fbd82fcbc693f">&#9670;&#160;</a></span>reset() <span class="overload">[15/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8b233d3b70904335296fbd82fcbc693f">&#9670;&#160;</a></span>reset() <span class="overload">[15/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156675,8 +156708,37 @@ template&lt;class MetricToPenalty&gt; </div>
 
 </div>
 </div>
+<a id="ga7cc25bc496e0571853d5bff35f22141c" name="ga7cc25bc496e0571853d5bff35f22141c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7cc25bc496e0571853d5bff35f22141c">&#9670;&#160;</a></span>reset() <span class="overload">[16/36]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::ExtraFormatSettings::reset </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRExtraFormatSettings_8h.html">MRIOExtras/MRExtraFormatSettings.h</a>&gt;</code></p>
+
+<p>resets all settings to default values </p>
+
+</div>
+</div>
 <a id="ga1855670ce694c01ac7166e9562dc5ffb" name="ga1855670ce694c01ac7166e9562dc5ffb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1855670ce694c01ac7166e9562dc5ffb">&#9670;&#160;</a></span>reset() <span class="overload">[16/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1855670ce694c01ac7166e9562dc5ffb">&#9670;&#160;</a></span>reset() <span class="overload">[17/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156710,7 +156772,7 @@ template&lt;class MetricToPenalty&gt; </div>
 </div>
 </div>
 <a id="ga137b1fa934a6f5746491768b2b3aab36" name="ga137b1fa934a6f5746491768b2b3aab36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga137b1fa934a6f5746491768b2b3aab36">&#9670;&#160;</a></span>reset() <span class="overload">[17/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga137b1fa934a6f5746491768b2b3aab36">&#9670;&#160;</a></span>reset() <span class="overload">[18/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156733,7 +156795,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7327ef9217c0d637a3fe427f72676165" name="ga7327ef9217c0d637a3fe427f72676165"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7327ef9217c0d637a3fe427f72676165">&#9670;&#160;</a></span>reset() <span class="overload">[18/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7327ef9217c0d637a3fe427f72676165">&#9670;&#160;</a></span>reset() <span class="overload">[19/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156752,7 +156814,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6250977a401d570cacd7052be7bad666" name="ga6250977a401d570cacd7052be7bad666"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6250977a401d570cacd7052be7bad666">&#9670;&#160;</a></span>reset() <span class="overload">[19/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6250977a401d570cacd7052be7bad666">&#9670;&#160;</a></span>reset() <span class="overload">[20/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156771,7 +156833,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaac3c3659ce152745f2daae131d72fa66" name="gaac3c3659ce152745f2daae131d72fa66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaac3c3659ce152745f2daae131d72fa66">&#9670;&#160;</a></span>reset() <span class="overload">[20/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac3c3659ce152745f2daae131d72fa66">&#9670;&#160;</a></span>reset() <span class="overload">[21/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156792,7 +156854,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga88fe2ec458dc79515a087d948cd80237" name="ga88fe2ec458dc79515a087d948cd80237"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga88fe2ec458dc79515a087d948cd80237">&#9670;&#160;</a></span>reset() <span class="overload">[21/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga88fe2ec458dc79515a087d948cd80237">&#9670;&#160;</a></span>reset() <span class="overload">[22/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156840,7 +156902,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga123618fe6a86bf933ee6c55b8dc3d08a" name="ga123618fe6a86bf933ee6c55b8dc3d08a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga123618fe6a86bf933ee6c55b8dc3d08a">&#9670;&#160;</a></span>reset() <span class="overload">[22/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga123618fe6a86bf933ee6c55b8dc3d08a">&#9670;&#160;</a></span>reset() <span class="overload">[23/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156874,7 +156936,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga83272fcfe28d46d0c521b5f7c5af73f4" name="ga83272fcfe28d46d0c521b5f7c5af73f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga83272fcfe28d46d0c521b5f7c5af73f4">&#9670;&#160;</a></span>reset() <span class="overload">[23/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga83272fcfe28d46d0c521b5f7c5af73f4">&#9670;&#160;</a></span>reset() <span class="overload">[24/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156908,7 +156970,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gabcbc6506c74c783ee36216d1ce536bed" name="gabcbc6506c74c783ee36216d1ce536bed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabcbc6506c74c783ee36216d1ce536bed">&#9670;&#160;</a></span>reset() <span class="overload">[24/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabcbc6506c74c783ee36216d1ce536bed">&#9670;&#160;</a></span>reset() <span class="overload">[25/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156935,7 +156997,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gacb35ab4e3708eff1a51c3c97f4bed0d4" name="gacb35ab4e3708eff1a51c3c97f4bed0d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacb35ab4e3708eff1a51c3c97f4bed0d4">&#9670;&#160;</a></span>reset() <span class="overload">[25/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacb35ab4e3708eff1a51c3c97f4bed0d4">&#9670;&#160;</a></span>reset() <span class="overload">[26/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156955,7 +157017,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga894fcc815298b0aebea325e64d09c495" name="ga894fcc815298b0aebea325e64d09c495"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga894fcc815298b0aebea325e64d09c495">&#9670;&#160;</a></span>reset() <span class="overload">[26/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga894fcc815298b0aebea325e64d09c495">&#9670;&#160;</a></span>reset() <span class="overload">[27/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156984,7 +157046,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7c04619df20d551fd4e79257bcf83a31" name="ga7c04619df20d551fd4e79257bcf83a31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7c04619df20d551fd4e79257bcf83a31">&#9670;&#160;</a></span>reset() <span class="overload">[27/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7c04619df20d551fd4e79257bcf83a31">&#9670;&#160;</a></span>reset() <span class="overload">[28/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157013,7 +157075,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga67a4ba46cf14092e8bf56898b7ade0fc" name="ga67a4ba46cf14092e8bf56898b7ade0fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga67a4ba46cf14092e8bf56898b7ade0fc">&#9670;&#160;</a></span>reset() <span class="overload">[28/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga67a4ba46cf14092e8bf56898b7ade0fc">&#9670;&#160;</a></span>reset() <span class="overload">[29/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157034,7 +157096,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga03b99f9869a71fb7d4f478bede15845d" name="ga03b99f9869a71fb7d4f478bede15845d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga03b99f9869a71fb7d4f478bede15845d">&#9670;&#160;</a></span>reset() <span class="overload">[29/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga03b99f9869a71fb7d4f478bede15845d">&#9670;&#160;</a></span>reset() <span class="overload">[30/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157055,7 +157117,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga18d55ba22afde13793929c7ce4511358" name="ga18d55ba22afde13793929c7ce4511358"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga18d55ba22afde13793929c7ce4511358">&#9670;&#160;</a></span>reset() <span class="overload">[30/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga18d55ba22afde13793929c7ce4511358">&#9670;&#160;</a></span>reset() <span class="overload">[31/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157076,7 +157138,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6a74089f75f3b88edf1a6fb0beba1e13" name="ga6a74089f75f3b88edf1a6fb0beba1e13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6a74089f75f3b88edf1a6fb0beba1e13">&#9670;&#160;</a></span>reset() <span class="overload">[31/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6a74089f75f3b88edf1a6fb0beba1e13">&#9670;&#160;</a></span>reset() <span class="overload">[32/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157107,7 +157169,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga9cbbe6698b91f4932fc8498ac345c362" name="ga9cbbe6698b91f4932fc8498ac345c362"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9cbbe6698b91f4932fc8498ac345c362">&#9670;&#160;</a></span>reset() <span class="overload">[32/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9cbbe6698b91f4932fc8498ac345c362">&#9670;&#160;</a></span>reset() <span class="overload">[33/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157126,7 +157188,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga4dd7ea4b014eafdbbb1c753fb97eb3ab" name="ga4dd7ea4b014eafdbbb1c753fb97eb3ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4dd7ea4b014eafdbbb1c753fb97eb3ab">&#9670;&#160;</a></span>reset() <span class="overload">[33/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4dd7ea4b014eafdbbb1c753fb97eb3ab">&#9670;&#160;</a></span>reset() <span class="overload">[34/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157145,7 +157207,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga5daa51d87dc540fd02b52303e05cbe20" name="ga5daa51d87dc540fd02b52303e05cbe20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5daa51d87dc540fd02b52303e05cbe20">&#9670;&#160;</a></span>reset() <span class="overload">[34/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5daa51d87dc540fd02b52303e05cbe20">&#9670;&#160;</a></span>reset() <span class="overload">[35/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157174,7 +157236,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div>
 </div>
 <a id="ga6341f3c9b4f6ccb5bcf18cc28ccf5efc" name="ga6341f3c9b4f6ccb5bcf18cc28ccf5efc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6341f3c9b4f6ccb5bcf18cc28ccf5efc">&#9670;&#160;</a></span>reset() <span class="overload">[35/35]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6341f3c9b4f6ccb5bcf18cc28ccf5efc">&#9670;&#160;</a></span>reset() <span class="overload">[36/36]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -173151,6 +173213,33 @@ template&lt;typename TreeT&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRCommandLoop_8h.html">MRViewer/MRCommandLoop.h</a>&gt;</code></p>
 
 <p>Update state of command loop, only can rise. </p>
+
+</div>
+</div>
+<a id="gacbee99bc55851f045016c99b05b192ae" name="gacbee99bc55851f045016c99b05b192ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacbee99bc55851f045016c99b05b192ae">&#9670;&#160;</a></span>setStepLoadSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::ExtraFormatSettings::setStepLoadSettings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">MeshLoad::StepLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRExtraFormatSettings_8h.html">MRIOExtras/MRExtraFormatSettings.h</a>&gt;</code></p>
 
 </div>
 </div>

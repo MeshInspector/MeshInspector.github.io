@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"MRRibbonIcons_8h_source.html":[9,0,3,0,11,98],
+"MRRibbonLayoutConfig_8h.html":[9,0,3,0,11,99],
 "MRRibbonLayoutConfig_8h_source.html":[9,0,3,0,11,99],
 "MRRibbonMenuItem_8h.html":[9,0,3,0,11,101],
 "MRRibbonMenuItem_8h_source.html":[9,0,3,0,11,101],
@@ -137,8 +139,8 @@ var NAVTREEINDEX5 =
 "MRStatePluginUpdate_8h_source.html":[9,0,3,0,11,135],
 "MRStatePlugin_8h.html":[9,0,3,0,11,134],
 "MRStatePlugin_8h_source.html":[9,0,3,0,11,134],
-"MRStep_8h.html":[9,0,3,0,4,11],
-"MRStep_8h_source.html":[9,0,3,0,4,11],
+"MRStep_8h.html":[9,0,3,0,4,12],
+"MRStep_8h_source.html":[9,0,3,0,4,12],
 "MRStitchOpenTwins_8h.html":[9,0,3,0,7,387],
 "MRStitchOpenTwins_8h_source.html":[9,0,3,0,7,387],
 "MRStringConvert_8h.html":[9,0,3,0,7,389],
@@ -161,8 +163,8 @@ var NAVTREEINDEX5 =
 "MRSurfacePointPicker_8h_source.html":[9,0,3,0,11,137],
 "MRSurroundingContour_8h.html":[9,0,3,0,7,395],
 "MRSurroundingContour_8h_source.html":[9,0,3,0,7,395],
-"MRSvg_8h.html":[9,0,3,0,4,12],
-"MRSvg_8h_source.html":[9,0,3,0,4,12],
+"MRSvg_8h.html":[9,0,3,0,4,13],
+"MRSvg_8h_source.html":[9,0,3,0,4,13],
 "MRSwapRootAction_8h.html":[9,0,3,0,11,138],
 "MRSwapRootAction_8h_source.html":[9,0,3,0,11,138],
 "MRSweptVolume_8h.html":[9,0,3,0,12,26],
@@ -199,8 +201,8 @@ var NAVTREEINDEX5 =
 "MRTextureColors_8h_source.html":[9,0,3,0,7,405],
 "MRTiffIO_8h.html":[9,0,3,0,7,406],
 "MRTiffIO_8h_source.html":[9,0,3,0,7,406],
-"MRTiff_8h.html":[9,0,3,0,4,13],
-"MRTiff_8h_source.html":[9,0,3,0,4,13],
+"MRTiff_8h.html":[9,0,3,0,4,14],
+"MRTiff_8h_source.html":[9,0,3,0,4,14],
 "MRTimeRecord_8h.html":[9,0,3,0,7,408],
 "MRTimeRecord_8h_source.html":[9,0,3,0,7,408],
 "MRTimer_8h.html":[9,0,3,0,7,407],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "MRTwoLineSegmDist_8h_source.html":[9,0,3,0,7,419],
 "MRUINonOverlappingLabels_8h.html":[9,0,3,0,11,146],
 "MRUINonOverlappingLabels_8h_source.html":[9,0,3,0,11,146],
-"MRUIQualityControl_8h.html":[9,0,3,0,11,147],
-"MRUIQualityControl_8h_source.html":[9,0,3,0,11,147],
-"MRUIRectAllocator_8h.html":[9,0,3,0,11,148]
+"MRUIQualityControl_8h.html":[9,0,3,0,11,147]
 };

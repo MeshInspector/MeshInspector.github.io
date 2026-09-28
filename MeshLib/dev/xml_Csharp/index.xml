@@ -14763,6 +14763,24 @@
     <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a410dde6153308fc3dd9323e33dd4ab92" kind="function"><name>__MR_expected_MR_Cuda_DeviceInfo_std_string_success</name></member>
     <member refid="classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString_1a603c13a11f13deaba0c3e920801d297c" kind="function"><name>__MR_expected_MR_Cuda_DeviceInfo_std_string_value</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__ExtraFormatSettings" kind="class"><name>MR::Const_ExtraFormatSettings</name>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1abf33ef8156cf2951892415118a6dd283" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1ab8d5f63121435270128d1386a86069bf" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1a8b462ecf85beff0f26100146ce3600b4" kind="function"><name>Const_ExtraFormatSettings</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1a3afa2cb986c3acce24878e1973c3e6af" kind="function"><name>Const_ExtraFormatSettings</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1accf7bcbd99b63e64d978287803b6558b" kind="function"><name>Const_ExtraFormatSettings</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1a85a44cbfcb3b220f192161bc9b7b6547" kind="function"><name>~Const_ExtraFormatSettings</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1a9c0946346aa7ebeb953953426e6a5089" kind="function"><name>Const_ExtraFormatSettings</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1af16a8d9e9b587981a05ae374ab8936c5" kind="function"><name>reset</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1a3a60fc41a3aa3363f27c0e510afd6346" kind="function"><name>getStepLoadSettings</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1acc2150f5297d98e0256aeafd01f6d950" kind="function"><name>setStepLoadSettings</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1a7ef1ec611002611a6d120cd71fc313a9" kind="function"><name>__MR_ExtraFormatSettings_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1a4169e9cf9092d95fbfdeaddfd478e9f9" kind="function"><name>__MR_ExtraFormatSettings_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1a8b3fcbf3877eb98eb8ce667fcc91951b" kind="function"><name>__MR_ExtraFormatSettings_Destroy</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1ad8dfe6de4a7fa977271e192f8fcbe200" kind="function"><name>__MR_ExtraFormatSettings_getStepLoadSettings</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1aed9e5ae0818645496c2c4775d4846b17" kind="function"><name>__MR_ExtraFormatSettings_reset</name></member>
+    <member refid="classMR_1_1Const__ExtraFormatSettings_1ae05c15bdd704378521e266e49252998d" kind="function"><name>__MR_ExtraFormatSettings_setStepLoadSettings</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__Face2RegionMap" kind="class"><name>MR::Const_Face2RegionMap</name>
     <member refid="classMR_1_1Const__Face2RegionMap_1a9803688d779bf319edf5125fbecd82bf" kind="property"><name>vec</name></member>
     <member refid="classMR_1_1Const__Face2RegionMap_1a600ee3393a142723c468f147f012cbf8" kind="property"><name>this[MR.FaceId i]</name></member>
@@ -45091,6 +45109,16 @@
     <member refid="classMR_1_1Expected__MRCudaDeviceInfo__StdString_1aa62830ff07df9c473d2a8af67ffcc6bd" kind="function"><name>__MR_expected_MR_Cuda_DeviceInfo_std_string_error_mut</name></member>
     <member refid="classMR_1_1Expected__MRCudaDeviceInfo__StdString_1ac402e7041f1b9b5733d565fe702ccc98" kind="function"><name>__MR_expected_MR_Cuda_DeviceInfo_std_string_value_mut</name></member>
   </compound>
+  <compound refid="classMR_1_1ExtraFormatSettings" kind="class"><name>MR::ExtraFormatSettings</name>
+    <member refid="classMR_1_1ExtraFormatSettings_1ac640f522f004fb724b31e97b6228421c" kind="function"><name>ExtraFormatSettings</name></member>
+    <member refid="classMR_1_1ExtraFormatSettings_1aa10b56b8d7bf4f4fc826bd7e261b1aab" kind="function"><name>ExtraFormatSettings</name></member>
+    <member refid="classMR_1_1ExtraFormatSettings_1ae1914e02dde29c49b3806cb44aa3f1d3" kind="function"><name>ExtraFormatSettings</name></member>
+    <member refid="classMR_1_1ExtraFormatSettings_1a53dc21c3457e8e1e6f1283ffcd63aeef" kind="function"><name>ExtraFormatSettings</name></member>
+    <member refid="classMR_1_1ExtraFormatSettings_1a3f64f31b2ee213947910ea202c0e81e0" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1ExtraFormatSettings_1a53a71f44c05f148a62a7769cf3ac4ec3" kind="function"><name>__MR_ExtraFormatSettings_AssignFromAnother</name></member>
+    <member refid="classMR_1_1ExtraFormatSettings_1aebc079054f16f8042414b0df47a79d0e" kind="function"><name>__MR_ExtraFormatSettings_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1ExtraFormatSettings_1a9fd84bcbc611714c3377711649b5f440" kind="function"><name>__MR_ExtraFormatSettings_DefaultConstruct</name></member>
+  </compound>
   <compound refid="classMR_1_1Face2RegionMap" kind="class"><name>MR::Face2RegionMap</name>
     <member refid="classMR_1_1Face2RegionMap_1aa0d14dfa3a44b11c31064d30c4ccb539" kind="property"><name>vec</name></member>
     <member refid="classMR_1_1Face2RegionMap_1a5402d759470220432d5bae0a7392df48" kind="property"><name>this[MR.FaceId i]</name></member>
@@ -70474,6 +70502,8 @@
   <compound refid="MRCtm_8cs" kind="file"><name>MRCtm.cs</name>
   </compound>
   <compound refid="MRE57_8cs" kind="file"><name>MRE57.cs</name>
+  </compound>
+  <compound refid="MRExtraFormatSettings_8cs" kind="file"><name>MRExtraFormatSettings.cs</name>
   </compound>
   <compound refid="MRGltf_8cs" kind="file"><name>MRGltf.cs</name>
   </compound>

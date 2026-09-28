@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRExtraFormatSettings_8h" kind="file" language="C++">
+    <compoundname>MRExtraFormatSettings.h</compoundname>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRExtraFormatSettings.h</label>
+        <link refid="MRExtraFormatSettings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRExtraFormatSettings_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" prot="public" static="no">
+        <type>struct <ref refid="MRExtraFormatSettings_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref></type>
+        <definition>typedef struct MR_MeshLoad_StepLoadSettings MR_MeshLoad_StepLoadSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshLoad_StepLoadSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>STEP-specific mesh load parameters Generated from class <computeroutput>MR::MeshLoad::StepLoadSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="11" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" prot="public" static="no">
+        <type>struct <ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref></type>
+        <definition>typedef struct MR_ExtraFormatSettings MR_ExtraFormatSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_ExtraFormatSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>default settings of MRIOExtras formats, used when loading or saving via the format registry Generated from class <computeroutput>MR::ExtraFormatSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="17" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRExtraFormatSettings_8h_1afbd29e669251302f890933971c7b0c8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+        <definition>MRC_API MR_ExtraFormatSettings * MR_ExtraFormatSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_ExtraFormatSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRExtraFormatSettings_8h_1a1607b4a930a6b90b82cb39e32aad3529" kindref="member">MR_ExtraFormatSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="21" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" declline="21" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRExtraFormatSettings_8h_1a7d10e9e194a7030846766809c1c97147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+        <definition>MRC_API MR_ExtraFormatSettings * MR_ExtraFormatSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_ExtraFormatSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRExtraFormatSettings_8h_1af4cff0b9c11d1c60eb59ce17cf02f80f" kindref="member">MR_ExtraFormatSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRExtraFormatSettings_8h_1ab57eb2a801861438ac37ae4d89184f84" kindref="member">MR_ExtraFormatSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRExtraFormatSettings_8h_1a870915718bc776740dbf6da78be19edc" kindref="member">MR_ExtraFormatSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="26" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" declline="26" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRExtraFormatSettings_8h_1a870915718bc776740dbf6da78be19edc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+        <definition>MRC_API const MR_ExtraFormatSettings * MR_ExtraFormatSettings_OffsetPtr</definition>
+        <argsstring>(const MR_ExtraFormatSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ExtraFormatSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="30" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" declline="30" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRExtraFormatSettings_8h_1ab57eb2a801861438ac37ae4d89184f84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+        <definition>MRC_API MR_ExtraFormatSettings * MR_ExtraFormatSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_ExtraFormatSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ExtraFormatSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="34" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" declline="34" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRExtraFormatSettings_8h_1ad1cd6705c662fa21b6e770a4df04351a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+        <definition>MRC_API MR_ExtraFormatSettings * MR_ExtraFormatSettings_ConstructFromAnother</definition>
+        <argsstring>(const MR_ExtraFormatSettings *_other)</argsstring>
+        <name>MR_ExtraFormatSettings_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ExtraFormatSettings::ExtraFormatSettings</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRExtraFormatSettings_8h_1a1607b4a930a6b90b82cb39e32aad3529" kindref="member">MR_ExtraFormatSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="40" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" declline="40" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRExtraFormatSettings_8h_1a1607b4a930a6b90b82cb39e32aad3529" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ExtraFormatSettings_Destroy</definition>
+        <argsstring>(const MR_ExtraFormatSettings *_this)</argsstring>
+        <name>MR_ExtraFormatSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" declline="43" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRExtraFormatSettings_8h_1af4cff0b9c11d1c60eb59ce17cf02f80f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ExtraFormatSettings_DestroyArray</definition>
+        <argsstring>(const MR_ExtraFormatSettings *_this)</argsstring>
+        <name>MR_ExtraFormatSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRExtraFormatSettings_8h_1a18ee77a9f741009755d6877b1c73d501" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+        <definition>MRC_API MR_ExtraFormatSettings * MR_ExtraFormatSettings_AssignFromAnother</definition>
+        <argsstring>(MR_ExtraFormatSettings *_this, const MR_ExtraFormatSettings *_other)</argsstring>
+        <name>MR_ExtraFormatSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ExtraFormatSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="54" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" declline="54" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRExtraFormatSettings_8h_1aa46fa96ef72b01c17a1d45d1c1d79555" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ExtraFormatSettings_reset</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_ExtraFormatSettings_reset</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>resets all settings to default values Generated from method <computeroutput>MR::ExtraFormatSettings::reset</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" declline="58" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRExtraFormatSettings_8h_1afb6631d0fef6e8b093b4eec2e3593081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRExtraFormatSettings_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
+        <definition>MRC_API MR_MeshLoad_StepLoadSettings * MR_ExtraFormatSettings_getStepLoadSettings</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_ExtraFormatSettings_getStepLoadSettings</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ExtraFormatSettings::getStepLoadSettings</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRStep_8h_1aa870a078a2cb0e58f7c320de2e0e247c" kindref="member">MR_MeshLoad_StepLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="62" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" declline="62" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRExtraFormatSettings_8h_1a6be1b6025cfd4e5002287cf6adc4d983" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ExtraFormatSettings_setStepLoadSettings</definition>
+        <argsstring>(const MR_MeshLoad_StepLoadSettings *settings)</argsstring>
+        <name>MR_ExtraFormatSettings_setStepLoadSettings</name>
+        <param>
+          <type>const <ref refid="MRExtraFormatSettings_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ExtraFormatSettings::setStepLoadSettings</computeroutput>. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h" declline="66" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRExtraFormatSettings_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRExtraFormatSettings_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/><ref refid="MRExtraFormatSettings_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCIOExtras/MRStep.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRExtraFormatSettings_8h_1afbd29e669251302f890933971c7b0c8b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*<ref refid="MRExtraFormatSettings_8h_1afbd29e669251302f890933971c7b0c8b" kindref="member">MR_ExtraFormatSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRExtraFormatSettings_8h_1a7d10e9e194a7030846766809c1c97147" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*<ref refid="MRExtraFormatSettings_8h_1a7d10e9e194a7030846766809c1c97147" kindref="member">MR_ExtraFormatSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRExtraFormatSettings_8h_1a870915718bc776740dbf6da78be19edc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*<ref refid="MRExtraFormatSettings_8h_1a870915718bc776740dbf6da78be19edc" kindref="member">MR_ExtraFormatSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRExtraFormatSettings_8h_1ab57eb2a801861438ac37ae4d89184f84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*<ref refid="MRExtraFormatSettings_8h_1ab57eb2a801861438ac37ae4d89184f84" kindref="member">MR_ExtraFormatSettings_OffsetMutablePtr</ref>(<ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRExtraFormatSettings_8h_1ad1cd6705c662fa21b6e770a4df04351a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*<ref refid="MRExtraFormatSettings_8h_1ad1cd6705c662fa21b6e770a4df04351a" kindref="member">MR_ExtraFormatSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRExtraFormatSettings_8h_1a1607b4a930a6b90b82cb39e32aad3529" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRExtraFormatSettings_8h_1a1607b4a930a6b90b82cb39e32aad3529" kindref="member">MR_ExtraFormatSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRExtraFormatSettings_8h_1af4cff0b9c11d1c60eb59ce17cf02f80f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRExtraFormatSettings_8h_1af4cff0b9c11d1c60eb59ce17cf02f80f" kindref="member">MR_ExtraFormatSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="MRExtraFormatSettings_8h_1a18ee77a9f741009755d6877b1c73d501" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*<ref refid="MRExtraFormatSettings_8h_1a18ee77a9f741009755d6877b1c73d501" kindref="member">MR_ExtraFormatSettings_AssignFromAnother</ref>(<ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtraFormatSettings_8h_1adc02a177e36d8cb182967f9526531b47" kindref="member">MR_ExtraFormatSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRExtraFormatSettings_8h_1aa46fa96ef72b01c17a1d45d1c1d79555" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRExtraFormatSettings_8h_1aa46fa96ef72b01c17a1d45d1c1d79555" kindref="member">MR_ExtraFormatSettings_reset</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRExtraFormatSettings_8h_1afb6631d0fef6e8b093b4eec2e3593081" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRExtraFormatSettings_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRExtraFormatSettings_8h_1afb6631d0fef6e8b093b4eec2e3593081" kindref="member">MR_ExtraFormatSettings_getStepLoadSettings</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRExtraFormatSettings_8h_1a6be1b6025cfd4e5002287cf6adc4d983" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRExtraFormatSettings_8h_1a6be1b6025cfd4e5002287cf6adc4d983" kindref="member">MR_ExtraFormatSettings_setStepLoadSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtraFormatSettings_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRExtraFormatSettings.h"/>
+  </compounddef>
+</doxygen>

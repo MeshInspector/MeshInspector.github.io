@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ExtraFormatSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ExtraFormatSettings</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtraFormatSettings_1a79b6ffd0d2320056c1ef8ead2253ab17" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ExtraFormatSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ExtraFormatSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18339" bodyend="18340"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtraFormatSettings_1a53a336731155b64114abfa0494e74e78" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">MeshLoad.StepLoadSettings</ref></type>
+        <definition> MeshLoad.StepLoadSettings mrmeshpy.ExtraFormatSettings.getStepLoadSettings</definition>
+        <argsstring>()</argsstring>
+        <name>getStepLoadSettings</name>
+        <qualifiedname>mrmeshpy.ExtraFormatSettings.getStepLoadSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18342" bodyend="18343"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtraFormatSettings_1a1b3e50c559688143bafec3e953dbf1c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ExtraFormatSettings" kindref="compound">ExtraFormatSettings</ref></type>
+        <definition> ExtraFormatSettings mrmeshpy.ExtraFormatSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ExtraFormatSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18346" bodyend="18347"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtraFormatSettings_1a1b3e50c559688143bafec3e953dbf1c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ExtraFormatSettings" kindref="compound">ExtraFormatSettings</ref></type>
+        <definition> ExtraFormatSettings mrmeshpy.ExtraFormatSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ExtraFormatSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18350" bodyend="18351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtraFormatSettings_1ab9fbae41344bb835d6c227039540e3f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ExtraFormatSettings.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.ExtraFormatSettings.reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>resets all settings to default values
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18353" bodyend="18356"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtraFormatSettings_1a246d1a578dfdf34b103eb2a6b1d00348" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ExtraFormatSettings.setStepLoadSettings</definition>
+        <argsstring>(MeshLoad.StepLoadSettings settings)</argsstring>
+        <name>setStepLoadSettings</name>
+        <qualifiedname>mrmeshpy.ExtraFormatSettings.setStepLoadSettings</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">MeshLoad.StepLoadSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18358" bodyend="18359"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtraFormatSettings_1a4b059fef8db88fd12e763cab7085ce19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ExtraFormatSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ExtraFormatSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18361" bodyend="18362"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtraFormatSettings_1ab6235dc709715ba0e27f983b695383ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ExtraFormatSettings.__init__</definition>
+        <argsstring>(self, ExtraFormatSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ExtraFormatSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ExtraFormatSettings" kindref="compound">ExtraFormatSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18364" bodyend="18367"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtraFormatSettings_1a4b059fef8db88fd12e763cab7085ce19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ExtraFormatSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ExtraFormatSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18369" bodyend="18372"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ExtraFormatSettings
+
+default settings of MRIOExtras formats, used when loading or saving via the format registry
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18331" bodyend="18372"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a79b6ffd0d2320056c1ef8ead2253ab17" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtraFormatSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a4b059fef8db88fd12e763cab7085ce19" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtraFormatSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ExtraFormatSettings_1ab6235dc709715ba0e27f983b695383ea" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtraFormatSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a4b059fef8db88fd12e763cab7085ce19" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtraFormatSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a53a336731155b64114abfa0494e74e78" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtraFormatSettings</scope><name>getStepLoadSettings</name></member>
+      <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a1b3e50c559688143bafec3e953dbf1c5" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtraFormatSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a1b3e50c559688143bafec3e953dbf1c5" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtraFormatSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ExtraFormatSettings_1ab9fbae41344bb835d6c227039540e3f9" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtraFormatSettings</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1ExtraFormatSettings_1a246d1a578dfdf34b103eb2a6b1d00348" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtraFormatSettings</scope><name>setStepLoadSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
